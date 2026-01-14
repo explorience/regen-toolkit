@@ -1,0 +1,19 @@
+---
+title: "Is a DAO right for your organization?"
+section: "1.8"
+track: 1
+status: placeholder
+author: null
+sources:
+  - code: "E"
+  - code: "NEW"
+audience: [grounded-regen]
+estimated_words: 800
+created: 2026-01-15
+---
+
+# Is a DAO right for your organization?
+
+<!-- STATUS: Placeholder -->
+
+[Content to be written]
