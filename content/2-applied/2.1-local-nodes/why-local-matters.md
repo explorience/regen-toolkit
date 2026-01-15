@@ -5,6 +5,9 @@ track: 2
 status: placeholder
 author: null
 sources:
+  - code: "R"
+  - code: "Q"
+  - code: "P"
   - code: "B"
   - code: "M"
 audience: [grounded-regen, curious-degen, onchain-regen]

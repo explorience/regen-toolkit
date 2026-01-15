@@ -5,6 +5,7 @@ track: 1
 status: placeholder
 author: null
 sources:
+  - code: "S"
   - code: "D"
 audience: [grounded-regen]
 estimated_words: 800

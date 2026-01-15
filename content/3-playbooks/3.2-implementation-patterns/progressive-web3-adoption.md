@@ -5,6 +5,8 @@ track: 3
 status: placeholder
 author: null
 sources:
+  - code: "R"
+  - code: "P"
   - code: "O"
 audience: [curious-degen, onchain-regen]
 estimated_words: 1200

@@ -5,6 +5,7 @@ track: 2
 status: placeholder
 author: null
 sources:
+  - code: "P"
   - code: "A"
 audience: [grounded-regen, curious-degen, onchain-regen]
 estimated_words: 1000
