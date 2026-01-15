@@ -102,6 +102,10 @@ This toolkit synthesizes and curates content from multiple existing resources:
 | M | Eth Localism Book | Philosophy, localism theory |
 | N | [Commitment Pooling Playbook](https://docs.google.com/document/d/1Io4P_WGQI2m-r2Y5WaecLqpmHIcLXwyhd-fxZSXXgiY/edit) | Specific coordination pattern |
 | O | [Reimagining Power Case Studies](https://github.com/superbenefit/knowledge-garden/tree/v4/content/artifacts/reimagining-power) | Real use cases from SuperBenefit, tested patterns |
+| P | [Ethereum Localism Resources](https://www.ethereumlocalism.xyz/resources/) | Localism frameworks, governance tools, practical templates |
+| Q | [BioFi Project](https://biofi.earth) | Bioregional finance, place-based organizing, free eBook |
+| R | [Open Civics Framework](https://opencivics.co) | Civic innovation, participatory design, governance wiki |
+| S | Ottawa Web3 Starter Guide | Beginner onboarding, wallet setup, workshop-tested |
 
 ## Project Status
 
@@ -128,7 +132,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## Collaboration
 
 This is a collaborative project involving:
-- **Greenpill Network** - Core coordination, philosophy content
+- **Regen Commons** - Funding and coordination
+- **Greenpill Network** - Philosophy content, community
 - **ReFi DAO** - Local node content, protocol playbooks
 - **SuperBenefit** - DAO patterns, case studies
 - Community contributors worldwide
