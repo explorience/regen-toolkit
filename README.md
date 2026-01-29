@@ -1,6 +1,6 @@
-# Regen Toolkit
+# The Regen Web3 Toolkit (working title)
 
-**An "Intro to Web3 from a Regen Angle"** - A comprehensive, open-source resource for regenerative practitioners entering the Web3 space.
+A comprehensive, open-source resource for regenerative practitioners entering (or already in) the Web3 space.
 
 ## What is the Regen Toolkit?
 
