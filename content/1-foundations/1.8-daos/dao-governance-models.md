@@ -1,15 +1,21 @@
 ---
-title: "DAO governance models"
-section: "1.8"
+title: DAO governance models
+section: '1.8'
 track: 1
 status: placeholder
 author: null
 sources:
-  - code: "E"
-  - code: "F"
-audience: [grounded-regen]
+  - SuperBenefit Knowledge Garden
+  - Graviton Introductory Course
+audience:
+  - grounded-regen
 estimated_words: 800
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+priority: tier-2
+critical_paths:
+  - greenpill-london
+  - huron-university
+issue: 128
 ---
 
 # DAO governance models

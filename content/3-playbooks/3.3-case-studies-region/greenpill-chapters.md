@@ -1,15 +1,20 @@
 ---
-title: "Greenpill Chapters"
-section: "3.3"
+title: Greenpill Chapters
+section: '3.3'
 track: 3
 status: placeholder
 author: null
 sources:
-  - code: "B"
-  - code: "NEW"
-audience: [curious-degen, onchain-regen]
+  - Greenpill Local Regen Guide
+  - original
+audience:
+  - curious-degen
+  - onchain-regen
 estimated_words: 1200
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - greenpill-london
+issue: 254
 ---
 
 # Greenpill Chapters

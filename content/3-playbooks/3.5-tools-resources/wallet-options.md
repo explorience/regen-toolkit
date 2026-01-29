@@ -1,15 +1,18 @@
 ---
-title: "Wallet options compared"
-section: "3.5"
+title: Wallet options compared
+section: '3.5'
 track: 3
 status: placeholder
 author: null
 sources:
-  - code: "D"
-  - code: "C"
-audience: [curious-degen, onchain-regen]
+  - Bankless Academy
+  - CryptoAltruists Web3 Impact Toolkit
+audience:
+  - curious-degen
+  - onchain-regen
 estimated_words: 1200
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+issue: 289
 ---
 
 # Wallet options compared

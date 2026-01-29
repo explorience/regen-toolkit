@@ -1,14 +1,19 @@
 ---
-title: "ReFi Lisbon"
-section: "3.3"
+title: ReFi Lisbon
+section: '3.3'
 track: 3
 status: placeholder
 author: null
 sources:
-  - code: "A"
-audience: [curious-degen, onchain-regen]
+  - ReFi DAO Local ReFi Toolkit
+audience:
+  - curious-degen
+  - onchain-regen
 estimated_words: 1200
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - greenpill-london
+issue: 263
 ---
 
 # ReFi Lisbon

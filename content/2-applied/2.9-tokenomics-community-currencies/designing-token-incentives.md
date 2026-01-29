@@ -1,15 +1,21 @@
 ---
-title: "Designing Token Incentives"
-section: "2.9"
+title: Designing Token Incentives
+section: '2.9'
 track: 2
 status: placeholder
 author: null
 sources:
-  - code: "J"
-  - code: "NEW"
-audience: [grounded-regen, curious-degen, onchain-regen]
+  - Mechanism Institute Library
+  - original
+audience:
+  - grounded-regen
+  - curious-degen
+  - onchain-regen
 estimated_words: 1000
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - huron-university
+issue: 225
 ---
 
 # Designing Token Incentives

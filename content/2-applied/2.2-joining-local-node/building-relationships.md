@@ -1,15 +1,18 @@
 ---
-title: "Building Relationships"
-section: "2.2"
+title: Building Relationships
+section: '2.2'
 track: 2
 status: placeholder
 author: null
 sources:
-  - code: "B"
-  - code: "NEW"
-audience: [grounded-regen, curious-degen, onchain-regen]
+  - Greenpill Local Regen Guide
+  - original
+audience:
+  - grounded-regen
+  - curious-degen
+  - onchain-regen
 estimated_words: 1000
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
 ---
 
 # Building Relationships

@@ -1,15 +1,18 @@
 ---
-title: "Community Currencies in Action"
-section: "3.4"
+title: Community Currencies in Action
+section: '3.4'
 track: 3
 status: placeholder
 author: null
 sources:
-  - code: "A"
-  - code: "N"
-audience: [curious-degen, onchain-regen]
+  - ReFi DAO Local ReFi Toolkit
+  - Commitment Pooling Playbook
+audience:
+  - curious-degen
+  - onchain-regen
 estimated_words: 1200
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+issue: 269
 ---
 
 # Community Currencies in Action

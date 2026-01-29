@@ -1,16 +1,22 @@
 ---
-title: "Voting Systems Compared"
-section: "2.7"
+title: Voting Systems Compared
+section: '2.7'
 track: 2
 status: placeholder
 author: null
 sources:
-  - code: "P"
-  - code: "E"
-  - code: "J"
-audience: [grounded-regen, curious-degen, onchain-regen]
+  - unknown-source-P
+  - SuperBenefit Knowledge Garden
+  - Mechanism Institute Library
+audience:
+  - grounded-regen
+  - curious-degen
+  - onchain-regen
 estimated_words: 1000
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - huron-university
+issue: 215
 ---
 
 # Voting Systems Compared

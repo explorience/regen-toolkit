@@ -1,15 +1,20 @@
 ---
-title: "Treasury management"
-section: "1.8"
+title: Treasury management
+section: '1.8'
 track: 1
 status: placeholder
 author: null
 sources:
-  - code: "E"
-  - code: "NEW"
-audience: [grounded-regen]
+  - SuperBenefit Knowledge Garden
+  - original
+audience:
+  - grounded-regen
 estimated_words: 800
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - greenpill-london
+  - huron-university
+issue: 133
 ---
 
 # Treasury management

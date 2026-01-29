@@ -1,14 +1,20 @@
 ---
-title: "Building Internal Capacity"
-section: "2.14"
+title: Building Internal Capacity
+section: '2.14'
 track: 2
 status: placeholder
 author: null
 sources:
-  - code: "NEW"
-audience: [grounded-regen, curious-degen, onchain-regen]
+  - original
+audience:
+  - grounded-regen
+  - curious-degen
+  - onchain-regen
 estimated_words: 1000
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - silvi-protocol
+issue: 174
 ---
 
 # Building Internal Capacity

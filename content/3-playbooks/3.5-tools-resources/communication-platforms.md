@@ -1,14 +1,17 @@
 ---
-title: "Communication platforms"
-section: "3.5"
+title: Communication platforms
+section: '3.5'
 track: 3
 status: placeholder
 author: null
 sources:
-  - code: "NEW"
-audience: [curious-degen, onchain-regen]
+  - original
+audience:
+  - curious-degen
+  - onchain-regen
 estimated_words: 1200
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+issue: 279
 ---
 
 # Communication platforms

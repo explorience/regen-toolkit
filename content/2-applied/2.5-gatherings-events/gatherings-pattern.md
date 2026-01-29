@@ -1,15 +1,21 @@
 ---
-title: "The Gatherings Pattern"
-section: "2.5"
+title: The Gatherings Pattern
+section: '2.5'
 track: 2
 status: placeholder
 author: null
 sources:
-  - code: "R"
-  - code: "O"
-audience: [grounded-regen, curious-degen, onchain-regen]
+  - unknown-source-R
+  - Reimagining Power
+audience:
+  - grounded-regen
+  - curious-degen
+  - onchain-regen
 estimated_words: 1000
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - greenpill-london
+issue: 199
 ---
 
 # The Gatherings Pattern

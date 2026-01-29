@@ -1,14 +1,20 @@
 ---
-title: "Legal Structures"
-section: "2.3"
+title: Legal Structures
+section: '2.3'
 track: 2
 status: placeholder
 author: null
 sources:
-  - code: "O"
-audience: [grounded-regen, curious-degen, onchain-regen]
+  - Reimagining Power
+audience:
+  - grounded-regen
+  - curious-degen
+  - onchain-regen
 estimated_words: 1000
-created: 2026-01-15
+created: 2026-01-15T00:00:00.000Z
+critical_paths:
+  - greenpill-london
+issue: 186
 ---
 
 # Legal Structures
