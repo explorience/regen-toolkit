@@ -4,9 +4,20 @@ Thank you for your interest in contributing to the Regen Toolkit! This is a comm
 
 ## Ways to Contribute
 
-### 1. Write New Content
+### 1. Claim an Existing Article
 
-Each module needs articles covering specific topics. Check the module README files to see what's needed.
+Most articles already exist as placeholder issues in the [project board](https://github.com/users/explorience/projects/2). This is the easiest way to start contributing.
+
+**To claim an article:**
+1. Browse the [open issues](https://github.com/explorience/regen-toolkit/issues) or [project board](https://github.com/users/explorience/projects/2)
+2. Find an article labeled `status:placeholder` that matches your expertise
+3. Assign yourself to the issue
+4. Write the content in the corresponding markdown file under `content/`
+5. Submit a pull request linking to the issue
+
+### 2. Write New Content
+
+If you want to propose an article that doesn't have an existing issue:
 
 **To propose a new article:**
 1. Open an issue using the [Article template](.github/ISSUE_TEMPLATE/article.md)
@@ -14,21 +25,21 @@ Each module needs articles covering specific topics. Check the module README fil
 3. Write the content
 4. Submit a pull request
 
-### 2. Improve Existing Content
+### 3. Improve Existing Content
 
 - Fix typos and improve clarity
 - Add examples and case studies
 - Update outdated information
 - Improve accessibility
 
-### 3. Add Case Studies
+### 4. Add Case Studies
 
 We especially need case studies from:
 - Different geographic regions
 - Various project types (environmental, social, economic)
 - Different scales (local, regional, global)
 
-### 4. Create Protocol Playbooks
+### 5. Create Protocol Playbooks
 
 Step-by-step guides for using specific protocols:
 - Gitcoin Grants
@@ -37,11 +48,11 @@ Step-by-step guides for using specific protocols:
 - Optimism RetroPGF
 - And more...
 
-### 5. Translate Content
+### 6. Translate Content
 
 Help make this toolkit accessible to non-English speakers.
 
-### 6. Review and Feedback
+### 7. Review and Feedback
 
 - Review pull requests
 - Test exercises and tutorials
