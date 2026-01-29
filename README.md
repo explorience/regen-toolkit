@@ -99,13 +99,13 @@ This toolkit synthesizes and curates content from multiple existing resources:
 | F | [Graviton Introductory Course](https://gravitydao.org/course/graviton-introductory-course/) | Conflict resolution, coordination, community health |
 | G | [Foundation "Getting Started in Web3"](https://help.foundation.app/hc/en-us/sections/7243593758875-Getting-started-in-web3) | NFT/creator onboarding, wallet basics |
 | J | [Mechanism Institute Library](https://mechanism.institute/library) | Deep mechanism research, tokenomics |
-| M | Eth Localism Book | Philosophy, localism theory |
+| M | [Eth Localism Book](https://greenpill.network/pdf/ethereum-localism.pdf) | Philosophy, localism theory |
 | N | [Commitment Pooling Playbook](https://docs.google.com/document/d/1Io4P_WGQI2m-r2Y5WaecLqpmHIcLXwyhd-fxZSXXgiY/edit) | Specific coordination pattern |
 | O | [Reimagining Power Case Studies](https://github.com/superbenefit/knowledge-garden/tree/v4/content/artifacts/reimagining-power) | Real use cases from SuperBenefit, tested patterns |
 | P | [Ethereum Localism Resources](https://www.ethereumlocalism.xyz/resources/) | Localism frameworks, governance tools, practical templates |
 | Q | [BioFi Project](https://biofi.earth) | Bioregional finance, place-based organizing, free eBook |
 | R | [Open Civics Framework](https://opencivics.co) | Civic innovation, participatory design, governance wiki |
-| S | Ottawa Web3 Starter Guide | Beginner onboarding, wallet setup, workshop-tested |
+| S | [Ottawa Web3 Starter Guide](https://workspace.greenpill.network/page-8610845635867892) | Beginner onboarding, wallet setup, workshop-tested |
 
 ## Project Status
 
