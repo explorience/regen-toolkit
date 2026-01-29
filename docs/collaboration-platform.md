@@ -30,7 +30,7 @@ This is a purpose-built alternative to the HackMD integration options explored i
 - **All articles** from the repo with their frontmatter metadata (title, section, track, audience, status)
 - **GitHub issues** matched to articles — see issue status, assignees, and comment counts
 - **Progress stats** — completion percentages by track, status breakdown, assignee workload
-- **Direct links** to GitHub for editing article content
+- **In-app editor** — click "Edit" on any article to open it in a full collaborative editor with live preview, version history, and real-time co-editing (powered by CodeMirror + Liveblocks)
 
 ---
 
@@ -43,7 +43,7 @@ The dashboard reads directly from the `explorience/regen-toolkit` GitHub repo us
 3. Fetches all GitHub issues and matches them to articles
 4. Displays combined view with filtering and stats
 
-All data stays in GitHub — the dashboard is a read layer on top of the repo. Article editing still happens in GitHub (or HackMD for real-time sessions). Status tracking happens via GitHub issue labels.
+All data stays in GitHub — the dashboard is a read-and-write layer on top of the repo. Articles can be edited directly in the built-in editor, which commits changes back to GitHub under your account. Status tracking happens via GitHub issue labels.
 
 ---
 
@@ -73,10 +73,11 @@ If you have repo access but can't see the dashboard, reach out to Heenal.
 
 ## Relationship to HackMD
 
-This dashboard **complements** HackMD rather than replacing it:
+This dashboard **replaces most HackMD use cases**:
 
 - **Dashboard** = project management view (track progress, see stats, filter articles)
-- **HackMD** = real-time collaborative editing (when 2+ people need to edit together)
-- **GitHub** = source of truth (all content lives here)
+- **Built-in editor** = collaborative editing with live preview, version history, and real-time co-editing
+- **HackMD** = optional fallback for ad-hoc sessions outside the platform
+- **GitHub** = source of truth (all content lives here, all edits are committed under your account)
 
 See [hackmd-research.md](./hackmd-research.md) for details on HackMD integration options.
