@@ -5,7 +5,7 @@ track: 1
 status: placeholder
 author: null
 sources:
-  - unknown-source-P
+  - Ethereum Localism Resources
   - Greenpill Local Regen Guide
   - original
 audience:

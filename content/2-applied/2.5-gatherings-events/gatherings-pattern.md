@@ -5,7 +5,7 @@ track: 2
 status: placeholder
 author: null
 sources:
-  - unknown-source-R
+  - Open Civics Framework
   - Reimagining Power
 audience:
   - grounded-regen

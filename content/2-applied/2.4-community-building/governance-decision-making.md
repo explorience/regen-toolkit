@@ -5,8 +5,8 @@ track: 2
 status: placeholder
 author: null
 sources:
-  - unknown-source-R
-  - unknown-source-P
+  - Open Civics Framework
+  - Ethereum Localism Resources
   - SuperBenefit Knowledge Garden
   - Graviton Introductory Course
 audience:

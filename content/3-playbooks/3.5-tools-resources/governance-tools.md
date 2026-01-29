@@ -5,7 +5,7 @@ track: 3
 status: placeholder
 author: null
 sources:
-  - unknown-source-P
+  - Ethereum Localism Resources
   - SuperBenefit Knowledge Garden
   - original
 audience:

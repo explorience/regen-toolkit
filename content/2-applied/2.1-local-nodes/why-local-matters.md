@@ -5,9 +5,9 @@ track: 2
 status: placeholder
 author: null
 sources:
-  - unknown-source-R
-  - unknown-source-Q
-  - unknown-source-P
+  - Open Civics Framework
+  - BioFi Project
+  - Ethereum Localism Resources
   - Greenpill Local Regen Guide
   - Eth Localism Book
 audience:

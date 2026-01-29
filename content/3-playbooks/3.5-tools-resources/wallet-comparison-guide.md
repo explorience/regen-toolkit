@@ -5,7 +5,7 @@ track: 3
 status: placeholder
 author: null
 sources:
-  - unknown-source-S
+  - Ottawa Web3 Starter Guide
   - Bankless Academy
   - CryptoAltruists Web3 Impact Toolkit
 audience:

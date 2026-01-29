@@ -27,6 +27,10 @@ This directory catalogs all the source materials, toolkits, and references that 
 | M | [Eth Localism Book](m-eth-localism-book.md) | Published | Philosophy, localism theory |
 | N | [Commitment Pooling Playbook](n-commitment-pooling-playbook.md) | In Progress | Coordination mechanisms |
 | O | [Reimagining Power](o-reimagining-power.md) | Complete | Real use cases, tested patterns |
+| P | [Ethereum Localism Resources](p-ethereum-localism-resources.md) | Available | Localism frameworks, governance tools, practical templates |
+| Q | [BioFi Project](q-biofi-project.md) | Available | Bioregional finance, place-based organizing, free eBook |
+| R | [Open Civics Framework](r-open-civics-framework.md) | Available | Civic innovation, participatory design, governance wiki |
+| S | [Ottawa Web3 Starter Guide](s-ottawa-web3-starter-guide.md) | Available | Beginner onboarding, wallet setup, workshop-tested |
 
 ## How to Use This Directory
 

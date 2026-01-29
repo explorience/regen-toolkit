@@ -5,8 +5,8 @@ track: 3
 status: placeholder
 author: null
 sources:
-  - unknown-source-R
-  - unknown-source-P
+  - Open Civics Framework
+  - Ethereum Localism Resources
   - Reimagining Power
 audience:
   - curious-degen
