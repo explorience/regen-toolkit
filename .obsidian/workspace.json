@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "ede33df61477e915",
+    "type": "split",
+    "children": [
+      {
+        "id": "13105e4de3e0800c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9740f8d61af62a03",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "docs/canvases/regen-toolkit-master.canvas",
+                "viewState": {
+                  "x": -116.7711551594943,
+                  "y": -17.345268227850564,
+                  "zoom": -1.6708418637827012
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "regen-toolkit-master"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7e9f1316e7202bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4c7faa582617230",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "403a1efc7c71d603",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "460947e288cc080e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "91d7cd851c93cde5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 347.5
+  },
+  "right": {
+    "id": "a6f13a117a4ba4b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f04881c89ee00bb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c4b51c1245033df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/canvases/regen-toolkit-master.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for regen-toolkit-master"
+            }
+          },
+          {
+            "id": "c1f2ea11a52162b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/canvases/regen-toolkit-master.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from regen-toolkit-master"
+            }
+          },
+          {
+            "id": "02fec603b480d3bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "48ff408a7ee17957",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f9a7527737254fb5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/canvases/regen-toolkit-master.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of regen-toolkit-master"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9740f8d61af62a03",
+  "lastOpenFiles": [
+    "AI-RESOURCES-SUMMARY.md",
+    "SKILLS-INDEX.md",
+    "SUBAGENT-PLAN.md",
+    "AGENTS.md",
+    "docs/inspiration/kernel-community.md",
+    "docs/inspiration",
+    "docs/canvases/regen-toolkit-dev-workflow.canvas",
+    "docs/canvases/regen-toolkit-content-structure.canvas",
+    "docs/canvases/regen-toolkit-architecture.canvas",
+    "content/3-playbooks/BACKLOG.md",
+    "content/2-applied/_index.md",
+    "content/3-playbooks/_index.md",
+    "content/1-foundations/BACKLOG.md",
+    "content/2-applied/BACKLOG.md",
+    "content/1-foundations/_index.md",
+    "content/sources/BACKLOG.md",
+    "DEVELOPMENT-WORKFLOW.md",
+    "03 Libraries/regen-toolkit/docs/appendices",
+    "03 Libraries/regen-toolkit/docs",
+    "03 Libraries/regen-toolkit",
+    "03 Libraries",
+    "docs/README.md",
+    "docs/canvases/regen-toolkit-master.canvas",
+    "docs/canvases/README.md",
+    "docs/canvases",
+    "canvases/regen-toolkit-priorities.canvas",
+    "canvases/regen-toolkit-sources.canvas",
+    "canvases/regen-toolkit-master.canvas",
+    "canvases/regen-toolkit-dev-workflow.canvas",
+    "canvases/regen-toolkit-audience-journeys.canvas",
+    "canvases/regen-toolkit-content-structure.canvas",
+    "SOURCES-BACKLOG.md"
+  ]
+}

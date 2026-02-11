@@ -99,6 +99,7 @@ This toolkit synthesizes and curates content from multiple existing resources:
 | F | [Graviton Introductory Course](https://gravitydao.org/course/graviton-introductory-course/) | Conflict resolution, coordination, community health |
 | G | [Foundation "Getting Started in Web3"](https://help.foundation.app/hc/en-us/sections/7243593758875-Getting-started-in-web3) | NFT/creator onboarding, wallet basics |
 | J | [Mechanism Institute Library](https://mechanism.institute/library) | Deep mechanism research, tokenomics |
+| K | [Kernel Community](https://www.kernel.community/) | Web3 education principles, question-driven learning, peer-to-peer pedagogy |
 | M | [Eth Localism Book](https://greenpill.network/pdf/ethereum-localism.pdf) | Philosophy, localism theory |
 | N | [Commitment Pooling Playbook](https://docs.google.com/document/d/1Io4P_WGQI2m-r2Y5WaecLqpmHIcLXwyhd-fxZSXXgiY/edit) | Specific coordination pattern |
 | O | [Reimagining Power Case Studies](https://github.com/superbenefit/knowledge-garden/tree/v4/content/artifacts/reimagining-power) | Real use cases from SuperBenefit, tested patterns |
@@ -129,14 +130,17 @@ We welcome contributions from practitioners around the world!
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## Collaboration
+## Collaboration & Inspiration
 
-This is a collaborative project involving:
+**Active Collaborators:**
 - **Regen Commons** - Funding and coordination
 - **Greenpill Network** - Philosophy content, community
 - **ReFi DAO** - Local node content, protocol playbooks
 - **SuperBenefit** - DAO patterns, case studies
 - Community contributors worldwide
+
+**Learning From:**
+- **[Kernel Community](https://www.kernel.community/)** - Peer-to-peer learning model, Web3 education principles, question-driven pedagogy
 
 ## License
 
