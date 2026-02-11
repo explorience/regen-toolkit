@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"project-center","type":"text","text":"# Regen Toolkit\n\n**Intro to Web3 from a Regen Angle**\n\nA comprehensive, open-source resource for regenerative practitioners entering the Web3 space.\n\n**Status:** Phase 2 - Priority Content Development\n\n**138 placeholder articles** across 3 tracks\n**15 documented sources** (A-O)\n**3 target audiences**","x":0,"y":0,"width":400,"height":300,"color":"1"},
+		{"id":"track1","type":"file","file":"README.md","x":-800,"y":-400,"width":350,"height":200,"color":"5"},
+		{"id":"track1-label","type":"text","text":"## Track 1: Foundations\n\n**10 sections | 72 articles**\n\nFor complete beginners - non-technical regens, nonprofit workers, community organizers\n\n🌱 **Entry point for Grounded Regen**","x":-800,"y":-600,"width":350,"height":180,"color":"5"},
+		{"id":"track2","type":"text","text":"## Track 2: Applied Web3 for Impact\n\n**14 sections | 66 articles**\n\nFor anyone ready to build, participate, or start local initiatives\n\n💰 **Entry point for Curious Degen**\n🔄 **Entry point for On-Chain Regen**","x":0,"y":-600,"width":350,"height":200,"color":"3"},
+		{"id":"track3","type":"text","text":"## Track 3: Playbooks, Patterns & Case Studies\n\n**6 sections | Reference Library**\n\n- 3.1 Protocol Playbooks (7)\n- 3.2 Implementation Patterns (12)\n- 3.3 Case Studies by Region (20)\n- 3.4 Case Studies by Theme (10)\n- 3.5 Tools & Resources (12)\n- 3.6 Glossary (7)","x":800,"y":-600,"width":350,"height":250,"color":"6"},
+		{"id":"sources-header","type":"text","text":"## Source Materials\n\n**15 Sources (A-O)**","x":-1200,"y":0,"width":200,"height":100,"color":"2"},
+		{"id":"source-a","type":"file","file":"content/sources/a-refi-dao-toolkit.md","x":-1200,"y":150,"width":200,"height":120,"color":"2"},
+		{"id":"source-b","type":"file","file":"content/sources/b-greenpill-local-regen-guide.md","x":-1200,"y":300,"width":200,"height":120,"color":"2"},
+		{"id":"source-d","type":"file","file":"content/sources/d-bankless-academy.md","x":-1200,"y":450,"width":200,"height":120,"color":"2"},
+		{"id":"source-e","type":"file","file":"content/sources/e-superbenefit-knowledge-garden.md","x":-1200,"y":600,"width":200,"height":120,"color":"2"},
+		{"id":"sources-more","type":"text","text":"**+ 11 more sources**\n\nSee SOURCES.md for complete list\n\nC, F, G, H, I, J, K, L, M, N, O","x":-1200,"y":750,"width":200,"height":150,"color":"2"},
+		{"id":"audience-grounded","type":"text","text":"## 🌱 Grounded Regen\n\n**Who:** Permaculturists, organizers, nonprofits, activists\n**Never touched crypto before**\n\n**Entry Point:** Track 1 (Foundations)\n\n**Need:** \"Why should I care? How does this help my work?\"","x":1200,"y":0,"width":300,"height":200,"color":"4"},
+		{"id":"audience-curious","type":"text","text":"## 💰 Curious Degen\n\n**Who:** Crypto-native folks\n**Want meaningful impact**\n\n**Entry Point:** Track 2 + Track 3\n\n**Need:** \"How do I find legit projects? Avoid greenwashing?\"","x":1200,"y":250,"width":300,"height":200,"color":"4"},
+		{"id":"audience-onchain","type":"text","text":"## 🔄 On-Chain Regen\n\n**Who:** Already in ReFi/web3 impact space\n**Want to go deeper or start local initiatives**\n\n**Entry Point:** Track 2 (Local Nodes) + Track 3\n\n**Need:** \"How do I start a node? What patterns work?\"","x":1200,"y":500,"width":300,"height":200,"color":"4"},
+		{"id":"repo-main","type":"text","text":"## Main Repository\n\n**explorience/regen-toolkit**\n\n**Purpose:** Stable, published content\n**Status:** Educational resource\n**Content:** 138 placeholder articles\n\n**GitHub:** github.com/explorience/regen-toolkit","x":-400,"y":500,"width":300,"height":200,"color":"1"},
+		{"id":"repo-dev","type":"text","text":"## Development Instance\n\n**ReFiDAO/local-refi-toolkit**\n\n**Purpose:** Active development & testing\n**Live Site:** toolkit.refi.community\n**Content:** 19 published + new development\n**Build:** Quartz static site generator","x":100,"y":500,"width":300,"height":200,"color":"1"},
+		{"id":"docs-readme","type":"file","file":"README.md","x":-400,"y":750,"width":200,"height":120,"color":"1"},
+		{"id":"docs-sources","type":"file","file":"SOURCES.md","x":-150,"y":750,"width":200,"height":120,"color":"1"},
+		{"id":"docs-requirements","type":"file","file":"REQUIREMENTS.md","x":100,"y":750,"width":200,"height":120,"color":"1"},
+		{"id":"docs-contributing","type":"file","file":"CONTRIBUTING.md","x":350,"y":750,"width":200,"height":120,"color":"1"},
+		{"id":"canvas-content-link","type":"file","file":"canvases/regen-toolkit-content-structure.canvas","x":-800,"y":-200,"width":200,"height":150,"color":"5"},
+		{"id":"canvas-sources-link","type":"file","file":"canvases/regen-toolkit-sources.canvas","x":-1200,"y":950,"width":200,"height":120,"color":"2"},
+		{"id":"canvas-workflow-link","type":"file","file":"canvases/regen-toolkit-dev-workflow.canvas","x":-400,"y":950,"width":200,"height":120,"color":"1"},
+		{"id":"canvas-audiences-link","type":"file","file":"canvases/regen-toolkit-audience-journeys.canvas","x":1200,"y":750,"width":200,"height":120,"color":"4"}
+	],
+	"edges":[
+		{"id":"center-track1","fromNode":"project-center","fromSide":"left","toNode":"track1","toSide":"right","color":"5","label":"Foundations"},
+		{"id":"center-track2","fromNode":"project-center","fromSide":"top","toNode":"track2","toSide":"bottom","color":"3","label":"Applied"},
+		{"id":"center-track3","fromNode":"project-center","fromSide":"right","toNode":"track3","toSide":"left","color":"6","label":"Playbooks"},
+		{"id":"center-sources","fromNode":"project-center","fromSide":"left","toNode":"source-a","toSide":"right","color":"2","label":"synthesizes"},
+		{"id":"center-audience-grounded","fromNode":"project-center","fromSide":"right","toNode":"audience-grounded","toSide":"left","color":"4","label":"serves"},
+		{"id":"center-audience-curious","fromNode":"project-center","fromSide":"right","toNode":"audience-curious","toSide":"left","color":"4","label":"serves"},
+		{"id":"center-audience-onchain","fromNode":"project-center","fromSide":"right","toNode":"audience-onchain","toSide":"left","color":"4","label":"serves"},
+		{"id":"center-repo-main","fromNode":"project-center","fromSide":"bottom","toNode":"repo-main","toSide":"top","color":"1","label":"hosted in"},
+		{"id":"repo-main-dev","fromNode":"repo-main","fromSide":"right","toNode":"repo-dev","toSide":"left","color":"1","label":"migrates from"},
+		{"id":"track1-audience-grounded","fromNode":"track1","fromSide":"right","toNode":"audience-grounded","toSide":"left","color":"4","label":"entry point"},
+		{"id":"track2-audience-curious","fromNode":"track2","fromSide":"right","toNode":"audience-curious","toSide":"left","color":"4","label":"entry point"},
+		{"id":"track2-audience-onchain","fromNode":"track2","fromSide":"right","toNode":"audience-onchain","toSide":"left","color":"4","label":"entry point"}
+	]
+}
