@@ -1,156 +1,156 @@
-# Overnight Batch 2026-02-12 - Batch 2 Progress Log
+# Overnight Batch 2026-02-12 - Batch 3 Progress Log
 
-**Started:** 2026-02-12 00:00 UTC  
+**Started:** 2026-02-12 01:00 UTC  
 **Subagent:** regen-toolkit-builder  
-**Batch:** 2 (Additional Foundation Articles - 8 articles)  
-**Status:** IN PROGRESS
+**Batch:** 3 (Track 2 Applied Web3 Articles - 6 articles)  
+**Status:** COMPLETE
 
 ---
 
 ## Articles to Write
 
-1. [ ] bitcoin-history.md (Track 1.4) - Sources: D, NEW
-2. [ ] how-to-get-crypto.md (Track 1.4) - Sources: D, NEW
-3. [ ] stablecoins.md (Track 1.4) - Sources: D, NEW
-4. [ ] tax-implications.md (Track 1.4) - Sources: C, NEW
-5. [ ] what-is-ethereum.md (Track 1.6) - Sources: D, NEW
-6. [ ] what-are-tokens.md (Track 1.7) - Sources: D, NEW
-7. [ ] what-is-refi.md (Track 1.9) - Sources: B, A, NEW
-8. [ ] key-projects-protocols.md (Track 1.9) - Sources: B, A, NEW
+1. [x] what-is-local-node.md (Track 2.1) - Sources: A, B, NEW
+2. [x] why-local-matters.md (Track 2.1) - Sources: B, M, NEW
+3. [x] how-nodes-connect.md (Track 2.1) - Sources: A, NEW
+4. [x] funding-landscape.md (Track 2.6) - Sources: A, B, NEW
+5. [x] gitcoin-grants-qf.md (Track 2.6) - Sources: A, NEW
+6. [x] what-is-dao.md (Track 1.8) - Sources: E, A, NEW
 
 ---
 
 ## Progress Log
 
-### Article 1: bitcoin-history.md ✅
+### Article 1: what-is-local-node.md ✅
 - **Status:** COMPLETE
-- **Time:** 2026-02-12 00:05 UTC
-- **Word Count:** 842 words
-- **Track:** 1.4
-- **Sources:** D (Bankless), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.4-cryptocurrency-essentials/bitcoin-history.md
-- **Notes:** Written with full template structure, covers Bitcoin's origins, significance for ReFi, key concepts, and common questions
+- **Time:** 2026-02-12 01:15 UTC
+- **Word Count:** 915 words
+- **Track:** 2.1
+- **Sources:** A (ReFi DAO), B (Greenpill), NEW
+- **Cross-links:** 6
+- **File:** content/2-applied/2.1-local-nodes/what-is-local-node.md
+- **Issue:** #148
+- **Notes:** Comprehensive guide covering Local Node structure, Seed/Sapling/Canopy stages, network membership, and practical Q&A
 
 ---
 
-### Article 2: how-to-get-crypto.md ✅
+### Article 2: why-local-matters.md ✅
 - **Status:** COMPLETE
-- **Time:** 2026-02-12 00:12 UTC
-- **Word Count:** 818 words
-- **Track:** 1.4
-- **Sources:** D (Bankless), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.4-cryptocurrency-essentials/how-to-get-crypto.md
-- **Notes:** Comprehensive guide covering CEXs, DEXs, P2P, and earning opportunities with safety focus
+- **Time:** 2026-02-12 01:28 UTC
+- **Word Count:** 892 words
+- **Track:** 2.1
+- **Sources:** B (Greenpill), M (Eth Localism), NEW
+- **Cross-links:** 6
+- **File:** content/2-applied/2.1-local-nodes/why-local-matters.md
+- **Issue:** #149
+- **Notes:** Philosophical foundation exploring bioregional thinking, cosmo-localism, and why local organizing serves regenerative goals
 
 ---
 
-### Article 3: stablecoins.md ✅
+### Article 3: how-nodes-connect.md ✅
 - **Status:** COMPLETE
-- **Time:** 2026-02-12 00:20 UTC
-- **Word Count:** 835 words
-- **Track:** 1.4
-- **Sources:** D (Bankless), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.4-cryptocurrency-essentials/stablecoins.md
-- **Notes:** Comprehensive coverage of fiat-backed, crypto-backed, and algorithmic stablecoins with risk considerations
+- **Time:** 2026-02-12 01:40 UTC
+- **Word Count:** 908 words
+- **Track:** 2.1
+- **Sources:** A (ReFi DAO), NEW
+- **Cross-links:** 6
+- **File:** content/2-applied/2.1-local-nodes/how-nodes-connect.md
+- **Issue:** #145
+- **Notes:** Network coordination mechanisms including Gardens.fund, Regen Coordination Hub, working groups, and peer learning
 
 ---
 
-### Article 4: tax-implications.md ✅
+### Article 4: funding-landscape.md ✅
 - **Status:** COMPLETE
-- **Time:** 2026-02-12 00:28 UTC
-- **Word Count:** 856 words
-- **Track:** 1.4
-- **Sources:** C (CryptoAltruists), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.4-cryptocurrency-essentials/tax-implications.md
-- **Notes:** Covers taxable events, cost basis, record keeping, and charitable donations with compliance focus
+- **Time:** 2026-02-12 01:54 UTC
+- **Word Count:** 921 words
+- **Track:** 2.6
+- **Sources:** A (ReFi DAO), B (Greenpill), NEW
+- **Cross-links:** 6
+- **File:** content/2-applied/2.6-funding-mechanisms/funding-landscape.md
+- **Issue:** #202
+- **Notes:** Comprehensive funding overview covering QF, RetroPGF, impact tokens, community currencies, and regenerative investment
 
 ---
 
-### Article 5: what-is-ethereum.md ✅
+### Article 5: gitcoin-grants-qf.md ✅
 - **Status:** COMPLETE
-- **Time:** 2026-02-12 00:36 UTC
-- **Word Count:** 828 words
-- **Track:** 1.6
-- **Sources:** D (Bankless), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.6-ethereum-ecosystem/what-is-ethereum.md
-- **Notes:** Comprehensive coverage of smart contracts, EVM, gas fees, and Proof of Stake transition
+- **Time:** 2026-02-12 02:08 UTC
+- **Word Count:** 938 words
+- **Track:** 2.6
+- **Sources:** A (ReFi DAO), NEW
+- **Cross-links:** 6
+- **File:** content/2-applied/2.6-funding-mechanisms/gitcoin-grants-qf.md
+- **Issue:** #203
+- **Notes:** Practical Gitcoin guide with formula explanation, Passport details, application best practices, and campaign strategy
 
 ---
 
-### Article 6: what-are-tokens.md ✅
+### Article 6: what-is-dao.md ✅
 - **Status:** COMPLETE
-- **Time:** 2026-02-12 00:44 UTC
-- **Word Count:** 812 words
-- **Track:** 1.7
-- **Sources:** D (Bankless), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.7-tokens-assets/what-are-tokens.md
-- **Notes:** Covers fungible/NFTs, utility/governance tokens, tokenomics, and TCRs
-
----
-
-### Article 7: what-is-refi.md ✅
-- **Status:** COMPLETE
-- **Time:** 2026-02-12 00:52 UTC
-- **Word Count:** 847 words
-- **Track:** 1.9
-- **Sources:** B (Greenpill), A (ReFi DAO), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.9-refi-foundations/what-is-refi.md
-- **Notes:** Comprehensive ReFi introduction covering principles, ReFi vs DeFi/TradFi, natural capital, and impact verification
-
----
-
-### Article 8: key-projects-protocols.md ✅
-- **Status:** COMPLETE
-- **Time:** 2026-02-12 01:00 UTC
-- **Word Count:** 889 words
-- **Track:** 1.9
-- **Sources:** B (Greenpill), A (ReFi DAO), NEW
-- **Cross-links:** 5
-- **File:** content/1-foundations/1.9-refi-foundations/key-projects-protocols.md
-- **Notes:** Ecosystem overview covering carbon markets, ecological verification, funding mechanisms, and coordination infrastructure
+- **Time:** 2026-02-12 02:22 UTC
+- **Word Count:** 904 words
+- **Track:** 1.8
+- **Sources:** E (SuperBenefit), A (ReFi DAO), NEW
+- **Cross-links:** 6
+- **File:** content/1-foundations/1.8-daos/what-is-dao.md
+- **Issue:** #135
+- **Notes:** DAO fundamentals covering governance tokens, smart contracts, proposals, multi-sig, and practical governance questions
 
 ---
 
 ## Batch Summary
 
-**Status:** ✅ COMPLETE
-**Completion Time:** 2026-02-12 01:00 UTC
-**Total Articles:** 8
-**Total Word Count:** 6,727 words
-**Average Words per Article:** 841
+**Status:** ✅ COMPLETE  
+**Completion Time:** 2026-02-12 02:22 UTC  
+**Total Articles:** 6  
+**Total Word Count:** 5,478 words  
+**Average Words per Article:** 913
 
 ### Articles Written:
-1. ✅ bitcoin-history.md (842 words) - Track 1.4
-2. ✅ how-to-get-crypto.md (818 words) - Track 1.4
-3. ✅ stablecoins.md (835 words) - Track 1.4
-4. ✅ tax-implications.md (856 words) - Track 1.4
-5. ✅ what-is-ethereum.md (828 words) - Track 1.6
-6. ✅ what-are-tokens.md (812 words) - Track 1.7
-7. ✅ what-is-refi.md (847 words) - Track 1.9
-8. ✅ key-projects-protocols.md (889 words) - Track 1.9
+1. ✅ what-is-local-node.md (915 words) - Track 2.1 - Issue #148
+2. ✅ why-local-matters.md (892 words) - Track 2.1 - Issue #149
+3. ✅ how-nodes-connect.md (908 words) - Track 2.1 - Issue #145
+4. ✅ funding-landscape.md (921 words) - Track 2.6 - Issue #202
+5. ✅ gitcoin-grants-qf.md (938 words) - Track 2.6 - Issue #203
+6. ✅ what-is-dao.md (904 words) - Track 1.8 - Issue #135
 
 ### Quality Checks Passed:
-- ✅ All articles 750-900 words (range: 812-889)
+- ✅ All articles 850-950 words (range: 892-938)
 - ✅ All 6 template sections present (In This Article, Core Idea, Why This Matters for Regens, Key Concepts, Common Questions, Next Steps)
-- ✅ Sources cited in all articles
-- ✅ 5 cross-links per article
+- ✅ Sources cited in all articles (A, B, M, E, NEW as assigned)
+- ✅ 5-6 cross-links per article (Applied track has more links)
 - ✅ Assignees: explorience on all
-- ✅ Frontmatter properly formatted
+- ✅ Frontmatter properly formatted with status=draft
+- ✅ Git commits completed for all articles
 
-### Files Created:
-- content/1-foundations/1.4-cryptocurrency-essentials/bitcoin-history.md
-- content/1-foundations/1.4-cryptocurrency-essentials/how-to-get-crypto.md
-- content/1-foundations/1.4-cryptocurrency-essentials/stablecoins.md
-- content/1-foundations/1.4-cryptocurrency-essentials/tax-implications.md
-- content/1-foundations/1.6-ethereum-ecosystem/what-is-ethereum.md
-- content/1-foundations/1.7-tokens-assets/what-are-tokens.md
-- content/1-foundations/1.9-refi-foundations/what-is-refi.md
-- content/1-foundations/1.9-refi-foundations/key-projects-protocols.md
+### Files Created/Updated:
+- content/2-applied/2.1-local-nodes/what-is-local-node.md
+- content/2-applied/2.1-local-nodes/why-local-matters.md
+- content/2-applied/2.1-local-nodes/how-nodes-connect.md
+- content/2-applied/2.6-funding-mechanisms/funding-landscape.md
+- content/2-applied/2.6-funding-mechanisms/gitcoin-grants-qf.md
+- content/1-foundations/1.8-daos/what-is-dao.md
 
+### Track Coverage:
+- **Track 2.1 (Local Nodes):** 3 articles - Complete set for node understanding
+- **Track 2.6 (Funding):** 2 articles - Foundation for funding mechanisms
+- **Track 1.8 (DAOs):** 1 article - Critical foundation piece
+
+### Cost Estimate:
+- Runtime: ~82 minutes (under 90 min estimate)
+- Words: 5,478 (close to 5,400 estimate)
+- Estimated API Cost: ~$0.38 (within $0.40 budget)
+
+---
+
+## Notes for Main Agent
+
+All 6 Applied Web3 articles have been successfully written and committed. The articles follow the Applied Guide template structure with:
+- Strong practical focus (how-to, what-is, implementation guidance)
+- Cross-links to related content (5-6 per article)
+- Source attribution (A=ReFi DAO, B=Greenpill, M=Eth Localism, E=SuperBenefit)
+- Proper frontmatter with draft status and assignees
+
+The Track 2.1 Local Nodes section now has a complete foundation with what-is, why, and how articles. Track 2.6 Funding has landscape overview and Gitcoin-specific guide. The Track 1.8 DAO article provides essential governance context.
+
+All git commits are complete. Ready for next batch or review.
