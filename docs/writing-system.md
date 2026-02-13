@@ -1,9 +1,5 @@
 # Toolkit Writing System
 
-> **DRAFT FOR DISCUSSION** — This document proposes a multi-agent AI pipeline for producing toolkit articles. It has not yet been tested in production and needs iteration based on team feedback and real-world results from pilot articles. Please review and share your thoughts.
-
----
-
 ## The Problem
 
 Writing 200+ educational articles with AI has risks:
@@ -176,6 +172,21 @@ Each agent has ONE job. No agent tries to do everything. Work flows through stag
 
 ---
 
+## Agent Mapping
+
+The pipeline agents map to our OpenClaw agent system as follows:
+
+- **Agent 1 (Researcher)** → **Luz** (Research agent, Haiku model)
+- **Agent 2 (Writer)** → **Rupa** (Create agent, Sonnet model)  
+- **Agent 3 (Fact-Checker)** → **Satya** (Review agent, Opus model) - First pass: fact-checking
+- **Agent 4 (Editor)** → **Satya** (Review agent, Opus model) - Second pass: editing and polish
+- **Agent 5 (Critic/Meta-observer)** → **Sakshi** (Meta-observer agent, Haiku model) - persona critique and meta-observation
+- **Agent 6 (Final Check)** → **Tej** (Coordinator agent, Opus model) - final review, formatting, and commit
+
+Note: Satya performs two distinct passes: first as Fact-Checker (verifying claims against sources), then as Editor (polishing for style and clarity). These are separate spawns with different instructions.
+
+---
+
 ## Quality Gates
 
 ### Gate 1: Research Completeness
@@ -209,39 +220,14 @@ Each agent has ONE job. No agent tries to do everything. Work flows through stag
 ## Supporting Documents Needed
 
 ### 1. Style Guide
-```markdown
-## Voice & Tone
-- Friendly but not condescending
-- Practical over theoretical
-- "Here's how" over "Here's why" (for 🌱)
-- Acknowledge complexity without drowning in it
 
-## Structure
-- Hook in first 2 sentences
-- One main idea per section
-- End sections with action or transition
-- Total: 800-1200 words for foundations, 1500-2000 for applied
-
-## Language Rules
-- Define jargon on first use
-- No unexplained acronyms
-- "You" not "one" or "users"
-- Active voice
-- Short paragraphs (3-4 sentences max)
-
-## What to Avoid
-- "In this article, we will..."
-- "It's important to note that..."
-- "As we discussed above..."
-- Hedge words: "somewhat", "relatively", "fairly"
-- Unsourced superlatives: "best", "most popular", "leading"
-```
+The content standards (voice, tone, formatting) are defined in `content-style-guide.md`.
 
 ### 2. Persona Cards
 
 **🌱 Grounded Regen**
 ```
-Name: Maya
+Name: Amara
 Background: Permaculture teacher, community garden organizer
 Tech comfort: Uses smartphone, basic apps, no crypto experience
 Goals: "I want to understand if this web3 stuff can help my community"
@@ -251,7 +237,7 @@ Language: No jargon. Explain everything. Use analogies to nature/community.
 
 **💰 Curious Degen**
 ```
-Name: Alex
+Name: Kai
 Background: Software dev, has traded crypto, understands DeFi
 Tech comfort: Very high, runs own node, uses multiple wallets
 Goals: "I want to do something meaningful with my skills and capital"
@@ -261,7 +247,7 @@ Language: Can use technical terms. Focus on legitimacy signals, due diligence.
 
 **🔄 On-Chain Regen**
 ```
-Name: Jordan
+Name: Priya
 Background: Works at a ReFi protocol, attended ETH Denver
 Tech comfort: High, but gaps in governance/coordination theory
 Goals: "I want to start a local chapter and bring others in"
@@ -307,7 +293,7 @@ Spin up agents in parallel/sequence automatically.
 - Pro: Fast, scalable
 - Con: Complex to build, harder to debug
 
-**Recommendation:** Start with Option A for first 5-10 articles to refine the process, then build Option B.
+**Recommendation:** We use OpenClaw's sessions_spawn to orchestrate the pipeline as background agents. Each agent is spawned sequentially, with outputs passed to the next stage.
 
 ---
 
