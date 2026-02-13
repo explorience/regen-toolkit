@@ -15,9 +15,6 @@ sources:
   - code: "GreenpillGuide"
     name: "Greenpill Local Regen Guide"
     url: "https://greenpill.network/"
-  - code: "WEB"
-    name: "Gitcoin Blog"
-    url: "https://gitcoin.blog/"
 audience: ["grounded-regen", "curious-degen"]
 estimated_words: 1000
 actual_words: 950
@@ -31,15 +28,15 @@ Picture a community garden where every member votes on what to plant, how to spe
 
 ## Breaking Down the Basics
 
-DAO stands for Decentralized Autonomous Organization. Think of it as a digital cooperative where no single person holds all the power [BanklessAcademy]. Unlike traditional organizations with CEOs and boards, DAOs distribute decision-making among all their members through token-based voting.
+DAO stands for Decentralized Autonomous Organization. Think of it as a digital cooperative where no single person holds all the power. Unlike traditional organizations with CEOs and boards, DAOs distribute decision-making among all their members through token-based voting.
 
-The "decentralized" part means there's no central headquarters or boss making top-down decisions. The "autonomous" part refers to smart contracts—computer programs that automatically execute decisions once members vote them through. The "organization" part is simply people working together toward shared goals.
+The "decentralized" part means there's no central headquarters or boss making top-down decisions. The "autonomous" part refers to smart contracts — computer programs that automatically execute decisions once members vote them through. The "organization" part is simply people working together toward shared goals.
 
 > 💡 **Going Deeper:** Smart contracts act like digital bylaws that automatically enforce the community's decisions. When members vote to fund a project, the smart contract releases the money without needing a treasurer to write a check.
 
 ## How DAOs Actually Work
 
-Members receive tokens that represent their voting power in the organization. These tokens function like membership shares in a cooperative—the more you contribute or invest, the more say you have in decisions [SuperBenefit].
+Members receive tokens that represent their voting power in the organization. These tokens function like membership shares in a cooperative — the more you contribute or invest, the more say you have in decisions.
 
 When someone proposes an idea, members vote using their tokens. If the proposal passes, smart contracts automatically execute the decision. This might mean sending funds to a project, adding new members, or changing how the organization operates.
 
@@ -49,11 +46,11 @@ The entire process happens transparently on the blockchain. Anyone can see every
 
 ## Real-World Examples Making Impact
 
-**Gitcoin** demonstrates how DAOs can fund public goods at scale. This community directs resources toward regenerative projects worldwide through quadratic funding rounds. ReFi DAO sponsored a $25,000 match pool for local nodes in the Global South [WEB].
+[**Gitcoin**](https://gitcoin.co) demonstrates how DAOs can fund public goods at scale. This community directs resources toward regenerative projects worldwide through quadratic funding rounds. ReFi DAO sponsored a $25,000 match pool for local nodes in the Global South.
 
-**Greenpill Network** operates as a philosophical and practical foundation for local regenerative initiatives. Local groups apply DAO principles to coordinate community projects, from urban gardens to renewable energy cooperatives [GreenpillGuide].
+[**Greenpill Network**](https://greenpill.network) operates as a philosophical and practical foundation for local regenerative initiatives. Local groups apply DAO principles to coordinate community projects, from urban gardens to renewable energy cooperatives.
 
-**SuperBenefit** develops governance frameworks that other impact organizations can adopt. They create templates for DAO structure and coordination, making it easier for new communities to organize effectively [SuperBenefit].
+[**SuperBenefit**](https://superbenefitdao.notion.site/) develops governance frameworks that other impact organizations can adopt. They create templates for DAO structure and coordination, making it easier for new communities to organize effectively.
 
 ## Why DAOs Matter for Regenerative Work
 
@@ -94,26 +91,34 @@ Technical vulnerabilities in smart contracts create security risks. High-profile
 ## Action Items / Next Steps
 
 **For Beginners:**
-- Set up a digital wallet and join an existing DAO as an observer
-- Explore Gitcoin's funding rounds to see DAOs supporting regenerative projects
+- [Set up a digital wallet](../1.5-wallets-security/setting-up-first-wallet.md) and join an existing DAO as an observer
+- Explore [Gitcoin's funding rounds](https://gitcoin.co) to see DAOs supporting regenerative projects
 - Read DAO proposals in communities aligned with your interests
 
 **For Practitioners:**
 - Identify a specific project or community that could benefit from DAO governance
 - Research legal requirements for DAOs in your jurisdiction
-- Connect with other regenerative DAO builders through Greenpill Network
+- Connect with other regenerative DAO builders through [Greenpill Network](https://greenpill.network)
 
 **For Advanced Users:**
 - Design token economics and governance structure for your community
 - Test DAO governance tools with a small group before full deployment
 - Develop onboarding processes to help newcomers participate effectively
 
+## Related Articles
+
+- [Setting Up Your First Wallet](../1.5-wallets-security/setting-up-first-wallet.md) — you'll need a wallet to participate in any DAO
+- [What is Cryptocurrency?](../1.4-cryptocurrency-essentials/what-is-cryptocurrency.md) — understand the tokens that power DAO governance
+- [DAO Governance Models](dao-governance-models.md) — comparing different approaches to collective decision-making
+- [Voting Mechanisms](voting-mechanisms.md) — how different voting systems shape DAO outcomes
+- [DAOs vs Traditional Organizations](daos-vs-traditional.md) — a direct comparison of organizational models
+
 ---
 
-### You might also like
+## References
 
-**🌱 Grounded Regen:** Setting Up Your First Wallet | Understanding Blockchain Basics | Avoiding Common Crypto Scams
-
-**💰 Curious Degen:** Evaluating Impact Projects | Due Diligence for ReFi Investments | Token Economics Fundamentals
-
-**🔄 On-Chain Regen:** Starting a Local DAO | Advanced Governance Patterns | Building Regenerative Communities
+- [Bankless Academy](https://app.banklessacademy.com/) — Interactive DAO education
+- [SuperBenefit Knowledge Garden](https://superbenefitdao.notion.site/) — Governance frameworks and patterns
+- [Greenpill Network](https://greenpill.network/) — Local regenerative DAO community
+- [Gitcoin](https://gitcoin.co) — Public goods funding through quadratic voting
+- [Gitcoin Blog](https://gitcoin.blog/) — Updates on funding rounds and impact
