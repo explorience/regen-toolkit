@@ -11,17 +11,14 @@
             "id": "9740f8d61af62a03",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "docs/canvases/regen-toolkit-master.canvas",
-                "viewState": {
-                  "x": -116.7711551594943,
-                  "y": -17.345268227850564,
-                  "zoom": -1.6708418637827012
-                }
+                "file": "research/silvi-protocol-research.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "regen-toolkit-master"
+              "icon": "lucide-file",
+              "title": "silvi-protocol-research"
             }
           }
         ]
@@ -81,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 332.5
   },
   "right": {
     "id": "a6f13a117a4ba4b3",
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/canvases/regen-toolkit-master.canvas",
+                "file": "research/silvi-protocol-research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for regen-toolkit-master"
+              "title": "Backlinks for silvi-protocol-research"
             }
           },
           {
@@ -116,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/canvases/regen-toolkit-master.canvas",
+                "file": "research/silvi-protocol-research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from regen-toolkit-master"
+              "title": "Outgoing links from silvi-protocol-research"
             }
           },
           {
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/canvases/regen-toolkit-master.canvas",
+                "file": "research/silvi-protocol-research.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of regen-toolkit-master"
+              "title": "Outline of silvi-protocol-research"
             }
           }
         ]
@@ -188,46 +185,46 @@
   },
   "active": "9740f8d61af62a03",
   "lastOpenFiles": [
-    "research",
-    "OVERNIGHT-RESULTS-20260212.md",
-    "scripts/update-frontmatter.sh",
-    "scripts/overnight-batch.sh",
-    "logs",
-    "OVERNIGHT-BATCH-CONFIG.md",
-    "YOUR-ASSIGNMENTS-QUICKSTART.md",
-    "PROTOTYPE-DEVELOPMENT-PLAN.md",
-    "content/sources/q-biofi-project.md",
-    "docs/collaboration-platform.md",
-    "content/sources/s-ottawa-web3-starter-guide.md",
-    "docs/hackmd-research.md",
-    "docs/writing-system.md",
-    "content/sources/p-ethereum-localism-resources.md",
-    "content/sources/r-open-civics-framework.md",
-    "scripts/sync-issues-to-frontmatter.ts",
-    "scripts",
-    "AI-RESOURCES-SUMMARY.md",
-    "SKILLS-INDEX.md",
-    "SUBAGENT-PLAN.md",
-    "AGENTS.md",
-    "docs/inspiration/kernel-community.md",
-    "docs/inspiration",
+    "TOOLKIT-NEXT-ACTIONS.md",
+    "TOOLKIT-OPERATING-BRIEF.md",
+    "integrations/sync/source-packet-03-governance-patterns.md",
+    "integrations/sync/WEEKLY-SYNC-SOP-v1.md",
+    "integrations/INTEGRATIONS-STATUS-BOARD-260218.md",
+    "integrations/sync/source-packet-05-weekly-cross-repo-sync.md",
+    "integrations/sync/source-packet-04-taxonomy-tagging.md",
+    "integrations/sync/source-packet-02-koi-toolkit-integration-paths.md",
+    "integrations/sync/source-packet-01-bkc-toolkit-fit.md",
+    "integrations/sync/CANONICAL-OWNERSHIP-RULES-v1.md",
+    "integrations/crosswalks/taxonomy-crosswalk-v1.md",
+    "integrations/profiles/regen-toolkit-interface-integration.md",
+    "integrations/profiles/local-refi-toolkit-integration.md",
+    "integrations/profiles/refi-dao-integration.md",
+    "integrations/profiles/regen-coordination-integration.md",
+    "integrations/profiles/koi-net-integration-stack.md",
+    "integrations/profiles/koi-net-integration.md",
+    "integrations/profiles/bioregionalknowledgecommons-integration.md",
+    "integrations/INTEGRATIONS-WORKPLAN-260217.md",
+    "integrations/sync",
+    "integrations/profiles",
+    "integrations/crosswalks",
+    "integrations/README.md",
+    "integrations/ARTICLE-BACKLOG-260217.md",
+    "integrations",
+    "research/gitcoin-grants-research.md",
+    "docs/canvases/regen-toolkit-architecture.canvas",
+    "docs/canvases/regen-toolkit-master.canvas",
     "docs/canvases/regen-toolkit-dev-workflow.canvas",
     "docs/canvases/regen-toolkit-content-structure.canvas",
-    "docs/canvases/regen-toolkit-architecture.canvas",
-    "content/3-playbooks/BACKLOG.md",
-    "content/2-applied/_index.md",
-    "content/3-playbooks/_index.md",
-    "content/1-foundations/BACKLOG.md",
-    "content/2-applied/BACKLOG.md",
-    "content/1-foundations/_index.md",
-    "content/sources/BACKLOG.md",
-    "DEVELOPMENT-WORKFLOW.md",
-    "03 Libraries/regen-toolkit/docs/appendices",
-    "03 Libraries/regen-toolkit/docs",
-    "03 Libraries/regen-toolkit",
-    "03 Libraries",
-    "docs/README.md",
-    "docs/canvases/regen-toolkit-master.canvas",
+    "OVERNIGHT-FINAL-RESULTS.md",
+    "content/2-applied/2.6-funding-mechanisms/gardens-decentralized-funding.md",
+    "content/1-foundations/1.8-daos/refi-dao-governance.md",
+    "content/2-applied/2.3-starting-local-node/master-onboarding-guide.md",
+    "logs/overnight-batch-20260212.log",
+    "content/1-foundations/1.7-tokens-assets",
+    "content/1-foundations/1.9-refi-foundations",
+    "content/1-foundations/1.6-ethereum-ecosystem",
+    "research",
+    "scripts/update-frontmatter.sh",
     "canvases/regen-toolkit-priorities.canvas",
     "canvases/regen-toolkit-sources.canvas",
     "canvases/regen-toolkit-master.canvas",
