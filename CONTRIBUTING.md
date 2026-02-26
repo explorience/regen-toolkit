@@ -213,12 +213,13 @@ Create `memory/sub-agent-context.md` in your workspace:
 
 ### Running the Pipeline
 
-#### Option 1: Full Batch (Auto-Pipeline)
+#### Option 1: Using the Skill Directly
 
-```bash
-# Run pipeline for 10 articles
-openclaw run-pipeline --skill regen-toolkit-article --batch 10
-```
+The pipeline is packaged as an OpenClaw skill. To invoke it:
+
+1. Place the skill in your OpenClaw skills directory
+2. Reference `skills/SKILL.md` and `skills/INVOKE.md` for usage
+3. Set up your model API keys (MiniMax for research/fact-check, Trinity for drafting)
 
 #### Option 2: Manual Step-by-Step
 
@@ -303,22 +304,6 @@ content/{section}/{subsection}/
     ├── {article-slug}-factcheck.md # Satya's verification
     └── {article-slug}-critique.md  # Persona feedback
 ```
-
-### Source Citation Format
-
-Use these codes in articles:
-
-| Code | Source |
-|------|--------|
-| A | ReFi DAO Local ReFi Toolkit |
-| B | Greenpill Local Regen Guide |
-| C | Gitcoin Alpha Grange |
-| D | 1Hive Wiki |
-| E | Superfluid Documentation |
-| P | Bankless/TokenTerminal |
-| S | Original/Research |
-
-Example: `[Source P]` for Bankless Academy, `[Source S]` for general research.
 
 ### Persona Cards
 
