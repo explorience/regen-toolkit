@@ -361,7 +361,7 @@ Working docs stay in the repo - collaborators can see the process!
 | Rupa (Draft) | Trinity | OpenRouter |
 | Satya (Fact-Check) | MiniMax M2.5 | Direct |
 | Sakshi (Edit) | MiniMax M2.5 | Direct |
-| Critique | MiniMax M2.5 | Direct |
+| Critique | Sonnet 4.6 | Anthropic Direct |
 | Final | Haiku | OpenRouter |
 
 ---
