@@ -1,8 +1,72 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-02-26T16:45:00Z",
+  "lastUpdated": "2026-02-26T16:47:00Z",
   "sessionId": "discord-pipeline-26-feb",
   "queue": [
+    {
+      "slug": "what-is-blockchain",
+      "path": "content/1-foundations/1.3-blockchain-fundamentals/what-is-blockchain.md",
+      "section": "1-foundations/1.3-blockchain-fundamentals",
+      "status": "in_progress",
+      "stage": "CRITIQUE",
+      "startedAt": "2026-02-26T16:30:00Z"
+    },
+    {
+      "slug": "how-transactions-work",
+      "path": "content/1-foundations/1.3-blockchain-fundamentals/how-transactions-work.md",
+      "section": "1-foundations/1.3-blockchain-fundamentals",
+      "status": "queued",
+      "stage": "DRAFT",
+      "startedAt": "2026-02-26T16:33:00Z"
+    },
+    {
+      "slug": "what-is-crypto",
+      "path": "content/1-foundations/1.4-cryptocurrency-essentials/what-is-crypto.md",
+      "section": "1-foundations/1.4-cryptocurrency-essentials",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:44:00Z"
+    },
+    {
+      "slug": "how-to-get-crypto",
+      "path": "content/1-foundations/1.4-cryptocurrency-essentials/how-to-get-crypto.md",
+      "section": "1-foundations/1.4-cryptocurrency-essentials",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:44:00Z"
+    },
+    {
+      "slug": "what-is-wallet",
+      "path": "content/1-foundations/1.5-wallets-security/what-is-wallet.md",
+      "section": "1-foundations/1.5-wallets-security",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:44:00Z"
+    },
+    {
+      "slug": "setup-first-wallet",
+      "path": "content/1-foundations/1.5-wallets-security/setup-first-wallet.md",
+      "section": "1-foundations/1.5-wallets-security",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:44:00Z"
+    },
+    {
+      "slug": "what-is-ethereum",
+      "path": "content/1-foundations/1.6-ethereum-smart-contracts/what-is-ethereum.md",
+      "section": "1-foundations/1.6-ethereum-smart-contracts",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:44:00Z"
+    },
+    {
+      "slug": "what-are-tokens",
+      "path": "content/1-foundations/1.7-tokens-nfts-digital-assets/what-are-tokens.md",
+      "section": "1-foundations/1.7-tokens-nfts-digital-assets",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:44:00Z"
+    },
     {
       "slug": "what-is-dao",
       "path": "content/1-foundations/1.8-daos/what-is-dao.md",
@@ -18,46 +82,20 @@
       "status": "queued",
       "stage": "RESEARCH",
       "startedAt": "2026-02-26T16:45:00Z"
-    },
-    {
-      "slug": "is-dao-right",
-      "path": "content/1-foundations/1.8-daos/is-dao-right.md",
-      "section": "1-foundations/1.8-daos",
-      "status": "queued",
-      "stage": "RESEARCH",
-      "startedAt": "2026-02-26T16:45:00Z"
-    },
-    {
-      "slug": "daos-vs-traditional",
-      "path": "content/1-foundations/1.8-daos/daos-vs-traditional.md",
-      "section": "1-foundations/1.8-daos",
-      "status": "queued",
-      "stage": "RESEARCH",
-      "startedAt": "2026-02-26T16:45:00Z"
-    },
-    {
-      "slug": "dao-tooling",
-      "path": "content/1-foundations/1.8-daos/dao-tooling.md",
-      "section": "1-foundations/1.8-daos",
-      "status": "queued",
-      "stage": "RESEARCH",
-      "startedAt": "2026-02-26T16:45:00Z"
     }
   ],
   "completed": [
     {"slug": "why-regens-interested", "completedAt": "2026-02-26T14:00:00Z", "stagesCompleted": ["all"]},
-    {"slug": "centralized-vs-decentralized", "completedAt": "2026-02-26T14:30:00Z", "stagesCompleted": ["all"]},
     {"slug": "what-is-decentralization", "completedAt": "2026-02-26T14:45:00Z", "stagesCompleted": ["all"]},
-    {"slug": "what-is-blockchain", "completedAt": "2026-02-26T15:00:00Z", "stagesCompleted": ["all"]},
+    {"slug": "centralized-vs-decentralized", "completedAt": "2026-02-26T16:44:00Z", "stagesCompleted": ["all"]},
     {"slug": "stablecoins", "completedAt": "2026-02-26T15:15:00Z", "stagesCompleted": ["all"]},
-    {"slug": "common-scams", "completedAt": "2026-02-26T15:30:00Z", "stagesCompleted": ["all"]},
-    {"slug": "what-is-ethereum", "completedAt": "2026-02-26T15:45:00Z", "stagesCompleted": ["all"]}
+    {"slug": "common-scams", "completedAt": "2026-02-26T15:30:00Z", "stagesCompleted": ["all"]}
   ],
   "failed": [],
   "stats": {
-    "totalProcessed": 17,
-    "completed": 17,
+    "totalProcessed": 15,
+    "completed": 5,
     "failed": 0,
-    "inProgress": 5
+    "inProgress": 10
   }
 }
