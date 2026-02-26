@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-02-26T16:45:00Z",
+  "sessionId": "discord-pipeline-26-feb",
+  "queue": [
+    {
+      "slug": "what-is-dao",
+      "path": "content/1-foundations/1.8-daos/what-is-dao.md",
+      "section": "1-foundations/1.8-daos",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:45:00Z"
+    },
+    {
+      "slug": "examples-impact-daos",
+      "path": "content/1-foundations/1.8-daos/examples-impact-daos.md",
+      "section": "1-foundations/1.8-daos",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:45:00Z"
+    },
+    {
+      "slug": "is-dao-right",
+      "path": "content/1-foundations/1.8-daos/is-dao-right.md",
+      "section": "1-foundations/1.8-daos",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:45:00Z"
+    },
+    {
+      "slug": "daos-vs-traditional",
+      "path": "content/1-foundations/1.8-daos/daos-vs-traditional.md",
+      "section": "1-foundations/1.8-daos",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:45:00Z"
+    },
+    {
+      "slug": "dao-tooling",
+      "path": "content/1-foundations/1.8-daos/dao-tooling.md",
+      "section": "1-foundations/1.8-daos",
+      "status": "queued",
+      "stage": "RESEARCH",
+      "startedAt": "2026-02-26T16:45:00Z"
+    }
+  ],
+  "completed": [
+    {"slug": "why-regens-interested", "completedAt": "2026-02-26T14:00:00Z", "stagesCompleted": ["all"]},
+    {"slug": "centralized-vs-decentralized", "completedAt": "2026-02-26T14:30:00Z", "stagesCompleted": ["all"]},
+    {"slug": "what-is-decentralization", "completedAt": "2026-02-26T14:45:00Z", "stagesCompleted": ["all"]},
+    {"slug": "what-is-blockchain", "completedAt": "2026-02-26T15:00:00Z", "stagesCompleted": ["all"]},
+    {"slug": "stablecoins", "completedAt": "2026-02-26T15:15:00Z", "stagesCompleted": ["all"]},
+    {"slug": "common-scams", "completedAt": "2026-02-26T15:30:00Z", "stagesCompleted": ["all"]},
+    {"slug": "what-is-ethereum", "completedAt": "2026-02-26T15:45:00Z", "stagesCompleted": ["all"]}
+  ],
+  "failed": [],
+  "stats": {
+    "totalProcessed": 17,
+    "completed": 17,
+    "failed": 0,
+    "inProgress": 5
+  }
+}
