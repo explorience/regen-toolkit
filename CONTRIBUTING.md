@@ -119,6 +119,238 @@ Be kind, be respectful, be regenerative. We're all here to learn and build toget
 - Give constructive feedback
 - Celebrate diverse perspectives
 
+## AI-Assisted Writing Pipeline
+
+This project uses a multi-agent AI pipeline to write high-quality, sourced articles. The pipeline ensures factual accuracy through independent fact-checking and persona-based critique.
+
+### The Pipeline
+
+```
+Request → Research (Luz) → Draft (Rupa) → Fact-Check (Satya) → Edit (Sakshi) → Critique → Final
+```
+
+Each agent has ONE job:
+- **Luz (Researcher)**: Extract facts from sources, no writing
+- **Rupa (Writer)**: Write first draft from research brief
+- **Satya (Fact-Checker)**: Verify every claim against sources
+- **Sakshi (Editor)**: Polish for clarity and actionability
+
+### Setting Up the Pipeline Locally
+
+#### 1. Clone the Repo
+
+```bash
+git clone https://github.com/explorience/regen-toolkit.git
+cd regen-toolkit
+```
+
+#### 2. Install Dependencies
+
+You need Node.js 18+ and Python 3.10+.
+
+```bash
+# Install OpenClaw (for agent orchestration)
+npm install -g openclaw
+
+# Or install sub-agent dependencies individually
+npm install
+```
+
+#### 3. Configure Model Access
+
+The pipeline uses these models by default:
+
+| Agent | Model | Provider |
+|-------|-------|----------|
+| Luz (Research) | MiniMax M2.5 | Direct (api.minimax.io) |
+| Rupa (Draft) | Trinity | OpenRouter (free) |
+| Satya (Fact-Check) | MiniMax M2.5 | Direct |
+| Sakshi (Edit) | MiniMax M2.5 | Direct |
+| Critique | MiniMax M2.5 | Direct |
+
+**MiniMax Setup:**
+```bash
+# Get API key from https://platform.minimax.io/
+export MINIMAX_API_KEY="your-key-here"
+```
+
+**OpenRouter Setup (for Trinity):**
+```bash
+# Get free API key from https://openrouter.ai/
+export OPENROUTER_API_KEY="your-key-here"
+```
+
+#### 4. Set Up Sub-Agent Context
+
+Create `memory/sub-agent-context.md` in your workspace:
+
+```markdown
+# Sub-Agent Context
+
+## Project: Regen Toolkit Article Pipeline
+
+**Repo:** /path/to/regen-toolkit
+**Skill:** skills/regen-toolkit-article.md
+
+## Current Focus
+- Writing educational articles about Web3/regenerative finance
+- Target audience: 🌱 Maya (grounded regen - no crypto background)
+
+## Quality Standards
+- All claims must be sourced
+- No hallucinations - fact-check every specific claim
+- Accessible language for non-technical readers
+- Practical examples and action items
+
+## Pipeline Stages
+1. RESEARCH - Gather facts from sources
+2. DRAFT - Write first draft with citations
+3. VERIFY - Fact-check against sources
+4. REVIEW - Edit for clarity
+5. CRITIQUE - Persona-based feedback
+6. PUBLISH - Format and commit
+```
+
+### Running the Pipeline
+
+#### Option 1: Full Batch (Auto-Pipeline)
+
+```bash
+# Run pipeline for 10 articles
+openclaw run-pipeline --skill regen-toolkit-article --batch 10
+```
+
+#### Option 2: Manual Step-by-Step
+
+```bash
+# Step 1: Research (Luz)
+openclaw spawn-agent --name luz --task "Research article: what-is-ethereum. Output to working/what-is-ethereum-research.md"
+
+# Step 2: Draft (Rupa)
+openclaw spawn-agent --name rupa --task "Draft article from research brief at working/what-is-ethereum-research.md. Output to content/1-foundations/1.6-ethereum-smart-contracts/what-is-ethereum.md"
+
+# Step 3: Fact-Check (Satya)
+openclaw spawn-agent --name satya --task "Fact-check article at content/1-foundations/1.6-ethereum-smart-contracts/what-is-ethereum.md against working/what-is-ethereum-research.md. Output to working/what-is-ethereum-factcheck.md"
+
+# Step 4: Edit (Sakshi)
+openclaw spawn-agent --name sakshi --task "Edit article at content/1-foundations/1.6-ethereum-smart-contracts/what-is-ethereum.md for clarity. Update in place."
+
+# Step 5: Critique
+openclaw spawn-agent --name critique --task "Persona critique for Maya (grounded regen). Read article, output to working/what-is-ethereum-critique.md"
+
+# Step 6: Final
+# Update frontmatter: status: placeholder → status: draft
+```
+
+#### Option 3: Direct Prompt (Simplest)
+
+```bash
+openclaw spawn-agent \
+  --model minimax \
+  --task "Run the full regen-toolkit-article pipeline for 5 articles. Use skills/regen-toolkit-article.md. Start with articles that have status:placeholder in content/. Report progress every 10 minutes."
+```
+
+### Using Without OpenClaw
+
+If running agents manually:
+
+```python
+# Example: Running Luz (research) with MiniMax
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.environ["MINIMAX_API_KEY"],
+    base_url="https://api.minimax.io/v1"
+)
+
+# Load skill and research brief
+with open("skills/regen-toolkit-article.md") as f:
+    skill = f.read()
+
+prompt = f"""
+{skill}
+
+TASK: Research article at content/1-foundations/1.1-why-web3/why-regens-interested.md
+
+1. Read the placeholder article to understand topic
+2. Research using sources: Bankless Academy, academic papers
+3. Output to working/why-regens-interested-research.md
+"""
+
+response = client.chat.completions.create(
+    model="MiniMax-M2.5",
+    messages=[{"role": "user", "content": prompt}]
+)
+```
+
+### Quality Gates
+
+| Gate | Criteria |
+|------|----------|
+| Research | ≥3 sources, key concepts documented, gaps flagged |
+| Draft | All claims cited, word count ±20%, has intro/body/conclusion |
+| Fact-Check | Zero ❌ claims, ≤2 ⚠️ unverified, URLs work |
+| Edit | Style guide pass, no fluff, clear action items |
+| Critique | "SHIP IT" from persona |
+
+### Output Structure
+
+```
+content/{section}/{subsection}/
+├── {article-slug}.md              # Final article
+└── working/
+    ├── {article-slug}-research.md # Luz's research brief
+    ├── {article-slug}-factcheck.md # Satya's verification
+    └── {article-slug}-critique.md  # Persona feedback
+```
+
+### Source Citation Format
+
+Use these codes in articles:
+
+| Code | Source |
+|------|--------|
+| A | ReFi DAO Local ReFi Toolkit |
+| B | Greenpill Local Regen Guide |
+| C | Gitcoin Alpha Grange |
+| D | 1Hive Wiki |
+| E | Superfluid Documentation |
+| P | Bankless/TokenTerminal |
+| S | Original/Research |
+
+Example: `[Source P]` for Bankless Academy, `[Source S]` for general research.
+
+### Persona Cards
+
+When writing, target one of three audiences:
+
+- **🌱 Maya (Grounded Regen)**: Permaculture teacher, no crypto. Needs everything explained. Analogies: nature, community.
+- **💰 Alex (Crypto-Active)**: Has traded crypto, understands DeFi. Wants legitimacy signals, technical details OK.
+- **🔄 Jordan (On-Chain Regen)**: Works in ReFi, knows web3 basics. Wants patterns, playbooks, governance.
+
+### State Management
+
+The pipeline tracks progress in `.pipeline-state.json`:
+
+```json
+{
+  "version": "1.0",
+  "lastUpdated": "2026-02-26T14:30:00Z",
+  "queue": [{"slug": "what-is-ethereum", "stage": "VERIFY"}],
+  "completed": [{"slug": "why-regens-interested", "completedAt": "2026-02-26T13:45:00Z"}]
+}
+```
+
+### Troubleshooting
+
+**Fact-check fails:** Return to Rupa with specific feedback. Max 3 retries.
+
+**Missing sources:** Flag in research. Don't hallucinate - note gaps.
+
+**Persona says "NEEDS WORK":** Address specific concerns, re-run critique.
+
+---
+
 ## Questions?
 
 Open an issue with your question, or reach out to the maintainers.
