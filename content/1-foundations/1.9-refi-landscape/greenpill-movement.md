@@ -1,22 +1,31 @@
----
+
 title: The Greenpill movement
+description: Learn about the greenpill movement in this Regen Toolkit article.
+slug: 1-foundations-1.9-refi-landscape-greenpill-movement
 section: '1.9'
 track: 1
-status: placeholder
-author: null
+status: not-started
+author: unknown
 sources:
-  - Greenpill Local Regen Guide
+- Greenpill Local Regen Guide
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-critical_paths:
-  - greenpill-london
-issue: 138
+- grounded-regen
+estimated_words: 12
+created: '2026-03-11T09:43:43.289Z'
+last_updated: '2026-03-11T09:43:43.289Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: false
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
+# Movement
 
-# The Greenpill movement
+This article covers Movement. More content to be added.
 
-<!-- STATUS: Placeholder -->
-
-[Content to be written]
+*Auto-generated placeholder*

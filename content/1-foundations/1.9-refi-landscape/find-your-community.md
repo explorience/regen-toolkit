@@ -1,23 +1,29 @@
----
-title: Finding your community
-section: '1.9'
-track: 1
-status: placeholder
-author: null
-sources:
-  - ReFi DAO Local ReFi Toolkit
-  - original
-audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-critical_paths:
-  - greenpill-london
-issue: 136
+
+# How to Find Your Regenerative Community
+
+Finding your people matters.
+
 ---
 
-# Finding your community
 
-<!-- STATUS: Placeholder -->
+*Auto-generated draft*
 
-[Content to be written]
+
+## Getting Started
+
+This is a placeholder article that needs more content. The topic covers important ground for local node communities.
+
+## Key Points
+
+### Point 1
+Explanation of key point 1.
+
+### Point 2
+Explanation of key point 2.
+
+### Point 3
+Explanation of key point 3.
+
+## Conclusion
+
+More content coming soon.

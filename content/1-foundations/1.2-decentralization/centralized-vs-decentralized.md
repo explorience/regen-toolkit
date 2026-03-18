@@ -1,10 +1,30 @@
 ---
-title: "Centralized vs. Decentralized Systems: What It Means for Your Garden and Community"
-status: draft
-audience: grounded-regen
+title: 'Centralized vs. Decentralized Systems: What It Means for Your Garden and Community'
+description: 'Learn about centralized vs. decentralized systems: what it means for
+  your garden and community in this Regen Toolkit article.'
+slug: 1-foundations-1.2-decentralization-centralized-vs-decentralized
+section: '1.2'
+track: 1
+status: published
+author: unknown
 sources:
-  - "Bankless Academy (https://app.banklessacademy.com)"
-  - "Resilience assessment of centralized and distributed food systems (2022) - PMC Article"
+- Bankless Academy (https://app.banklessacademy.com)
+- Resilience assessment of centralized and distributed food systems (2022) - PMC Article
+audience:
+- grounded-regen
+estimated_words: 963
+created: '2026-03-11T09:43:43.176Z'
+last_updated: '2026-03-11T09:43:43.176Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: false
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-03-11'
+category: foundations
+stage: build
 ---
 
 # Centralized vs. Decentralized Systems: What It Means for Your Garden and Community

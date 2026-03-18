@@ -1,0 +1,66 @@
+[
+  {
+    "type": "sessions_spawn",
+    "agentId": "satya",
+    "label": "regen-pipeline-what-is-refi-VERIFY",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: what-is-refi\n- Article Path: /root/workspace/regen-toolkit/content/1-foundations/1.9-refi-landscape/what-is-refi.md\n- The specialist agent for this role is responsible for: VERIFY\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Fact-check all claims and data points in the draft article (/root/workspace/regen-toolkit/content/1-foundations/1.9-refi-landscape/what-is-refi.md) against the research notes and external reliable sources. Identify any inaccuracies or areas needing further evidence. Create a verification report in the working directory.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T17:54:35.450575+00:00"
+  },
+  {
+    "type": "sessions_spawn",
+    "agentId": "luz",
+    "label": "regen-pipeline-commitment-pooling-RESEARCH",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: commitment-pooling\n- Article Path: /root/workspace/regen-toolkit/content/3-playbooks/3.2-implementation-patterns/commitment-pooling.md\n- The specialist agent for this role is responsible for: RESEARCH\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Conduct comprehensive web research for the article. Identify key concepts, relevant facts, and credible sources. Structure your findings into bullet points or a brief outline in the research file.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T17:54:35.489982+00:00"
+  },
+  {
+    "type": "sessions_spawn",
+    "agentId": "luz",
+    "label": "regen-pipeline-community-currencies-RESEARCH",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: community-currencies\n- Article Path: /root/workspace/regen-toolkit/content/3-playbooks/3.4-case-studies-theme/community-currencies.md\n- The specialist agent for this role is responsible for: RESEARCH\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Conduct comprehensive web research for the article. Identify key concepts, relevant facts, and credible sources. Structure your findings into bullet points or a brief outline in the research file.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T17:54:35.509787+00:00"
+  },
+  {
+    "type": "sessions_spawn",
+    "agentId": "satya",
+    "label": "regen-pipeline-commitment-pooling-VERIFY",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: commitment-pooling\n- Article Path: /root/workspace/regen-toolkit/content/3-playbooks/3.2-implementation-patterns/commitment-pooling.md\n- The specialist agent for this role is responsible for: VERIFY\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Fact-check all claims and data points in the draft article (/root/workspace/regen-toolkit/content/3-playbooks/3.2-implementation-patterns/commitment-pooling.md) against the research notes and external reliable sources. Identify any inaccuracies or areas needing further evidence. Create a verification report in the working directory.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T17:54:35.529431+00:00"
+  },
+  {
+    "type": "sessions_spawn",
+    "agentId": "satya",
+    "label": "regen-pipeline-what-is-refi-VERIFY",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: what-is-refi\n- Article Path: /root/workspace/regen-toolkit/content/1-foundations/1.9-refi-landscape/what-is-refi.md\n- The specialist agent for this role is responsible for: VERIFY\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Fact-check all claims and data points in the draft article (/root/workspace/regen-toolkit/content/1-foundations/1.9-refi-landscape/what-is-refi.md) against the research notes and external reliable sources. Identify any inaccuracies or areas needing further evidence. Create a verification report in the working directory.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T18:09:35.586031+00:00"
+  },
+  {
+    "type": "sessions_spawn",
+    "agentId": "luz",
+    "label": "regen-pipeline-commitment-pooling-RESEARCH",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: commitment-pooling\n- Article Path: /root/workspace/regen-toolkit/content/3-playbooks/3.2-implementation-patterns/commitment-pooling.md\n- The specialist agent for this role is responsible for: RESEARCH\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Conduct comprehensive web research for the article. Identify key concepts, relevant facts, and credible sources. Structure your findings into bullet points or a brief outline in the research file.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T18:09:35.629829+00:00"
+  },
+  {
+    "type": "sessions_spawn",
+    "agentId": "luz",
+    "label": "regen-pipeline-community-currencies-RESEARCH",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: community-currencies\n- Article Path: /root/workspace/regen-toolkit/content/3-playbooks/3.4-case-studies-theme/community-currencies.md\n- The specialist agent for this role is responsible for: RESEARCH\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Conduct comprehensive web research for the article. Identify key concepts, relevant facts, and credible sources. Structure your findings into bullet points or a brief outline in the research file.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T18:09:35.646575+00:00"
+  },
+  {
+    "type": "sessions_spawn",
+    "agentId": "satya",
+    "label": "regen-pipeline-commitment-pooling-VERIFY",
+    "model": "m25",
+    "task": "\nFirst, read /root/workspace/memory/sub-agent-context.md for current project state and constraints.\n\nContext specific to this task:\n- Article Slug: commitment-pooling\n- Article Path: /root/workspace/regen-toolkit/content/3-playbooks/3.2-implementation-patterns/commitment-pooling.md\n- The specialist agent for this role is responsible for: VERIFY\n- Output files for this stage should be placed in the 'working/' subdirectory relative to the article path.\n\nTASK: Fact-check all claims and data points in the draft article (/root/workspace/regen-toolkit/content/3-playbooks/3.2-implementation-patterns/commitment-pooling.md) against the research notes and external reliable sources. Identify any inaccuracies or areas needing further evidence. Create a verification report in the working directory.\n\nSELF-CHECK: Before declaring done, verify:\n  - [ ] The output file(s) for this stage have been created/updated correctly.\n  - [ ] No obvious errors in content or formatting.\n  - [ ] Assumptions stated explicitly.\n  - [ ] Log written to /root/workspace/memory/work-log//2026-03-02.md\n\nWhen done, note uncertainties and what needs human review.\n",
+    "timestamp": "2026-03-02T18:09:35.662844+00:00"
+  }
+]

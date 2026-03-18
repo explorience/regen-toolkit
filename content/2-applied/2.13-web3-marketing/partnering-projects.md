@@ -1,22 +1,101 @@
 ---
-title: Partnering with Other Projects
+title: Partnering with Projects
+description: How to build relationships with other Web3 projects and organizations.
+slug: 2-applied-2.13-web3-marketing-partnering-projects
 section: '2.13'
 track: 2
-status: placeholder
-author: null
+status: published
+author: Tej
 sources:
-  - original
+- Partnership building
 audience:
-  - grounded-regen
-  - curious-degen
-  - onchain-regen
-estimated_words: 1000
-created: 2026-01-15T00:00:00.000Z
-issue: 172
+- grounded-regen
+estimated_words: 1700
+created: '2026-03-12T17:15:00.000Z'
+last_updated: '2026-03-12T17:15:00.000Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+category: applied
 ---
 
-# Partnering with Other Projects
+# Partnering with Projects
 
-<!-- STATUS: Placeholder -->
+*How to build relationships with other Web3 projects and organizations*
 
-[Content to be written]
+---
+
+## Why Partner
+
+Partnerships help local nodes:
+- Reach new audiences
+- Share resources
+- Learn from others
+- Build ecosystem
+
+---
+
+## What to Look For
+
+### Values Alignment
+- Shared mission
+- Complementary values
+- Similar community culture
+
+### Capacity Match
+- Active teams
+- Good reputation
+- Resources to contribute
+
+### Geographic Fit
+- Same region
+- Similar audience
+- Compatible events
+
+---
+
+## How to Partner
+
+### Start Small
+1. Attend their events
+2. Engage in their community
+3. Add value first
+
+### Build Relationship
+1. Regular communication
+2. Share their content
+3. Introduce members
+
+### Formalize
+1. Define scope
+2. Set expectations
+3. Document agreements
+
+---
+
+## Partnership Types
+
+### Content
+- Guest posts
+- Joint events
+- Content swaps
+
+### Events
+- Co-host meetups
+- Speaker exchanges
+- Conference partnerships
+
+### Resources
+- Shared tools
+- Funding collaborations
+- Member benefits
+
+---
+
+## Sources
+
+- Partnership building guides

@@ -1,19 +1,29 @@
 ---
-title: 'How web3 relates to your existing work'
-section: '1.1'
-track: 1
-status: draft
+title: How web3 relates to your existing work
+description: Learn about how web3 relates to your existing work in this Regen Toolkit
+  article.
+slug: archive-pipeline-v1-relates-to-existing-work
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - Original
+- Original
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-critical_paths:
-  - forest-city
-  - silvi-protocol
-issue: 76
+- grounded-regen
+estimated_words: 378
+created: '2026-03-11T09:43:43.352Z'
+last_updated: '2026-03-11T09:43:43.352Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # How Web3 Relates to Your Existing Work

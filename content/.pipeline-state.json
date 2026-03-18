@@ -1,0 +1,582 @@
+[
+  {
+    "slug": "1-foundations-1.8-daos-examples-impact-daos",
+    "stage": "PUBLISHED",
+    "word_count": 1105
+  },
+  {
+    "slug": "1-foundations-1.8-daos-is-dao-right",
+    "stage": "PUBLISHED",
+    "word_count": 1071
+  },
+  {
+    "slug": "1-foundations-1.8-daos-what-is-dao",
+    "stage": "PUBLISHED",
+    "word_count": 993
+  },
+  {
+    "slug": "1-foundations-1.8-daos-daos-vs-traditional",
+    "stage": "PUBLISHED",
+    "word_count": 1001
+  },
+  {
+    "slug": "1-foundations-1.8-daos-dao-tooling",
+    "stage": "PUBLISHED",
+    "word_count": 965
+  },
+  {
+    "slug": "1-foundations-1.8-daos-treasury-management",
+    "stage": "PUBLISHED",
+    "word_count": 799
+  },
+  {
+    "slug": "1-foundations-1.8-daos-voting-mechanisms",
+    "stage": "PUBLISHED",
+    "word_count": 1029
+  },
+  {
+    "slug": "1-foundations-1.8-daos-dao-governance-models",
+    "stage": "PUBLISHED",
+    "word_count": 1044
+  },
+  {
+    "slug": "1-foundations-1.6-ethereum-smart-contracts-layer-2s",
+    "stage": "PUBLISHED",
+    "word_count": 942
+  },
+  {
+    "slug": "1-foundations-1.6-ethereum-smart-contracts-what-you-can-do-ethereum",
+    "stage": "PUBLISHED",
+    "word_count": 974
+  },
+  {
+    "slug": "1-foundations-1.6-ethereum-smart-contracts-what-is-ethereum",
+    "stage": "PUBLISHED",
+    "word_count": 880
+  },
+  {
+    "slug": "1-foundations-1.6-ethereum-smart-contracts-smart-contracts-explained",
+    "stage": "PUBLISHED",
+    "word_count": 994
+  },
+  {
+    "slug": "1-foundations-1.6-ethereum-smart-contracts-other-chains",
+    "stage": "PUBLISHED",
+    "word_count": 864
+  },
+  {
+    "slug": "1-foundations-1.6-ethereum-smart-contracts-ethereum-ecosystem",
+    "stage": "PUBLISHED",
+    "word_count": 924
+  },
+  {
+    "slug": "1-foundations-1.6-ethereum-smart-contracts-which-chain-right",
+    "stage": "PUBLISHED",
+    "word_count": 882
+  },
+  {
+    "slug": "1-foundations-1.2-decentralization-what-is-decentralization",
+    "stage": "PUBLISHED",
+    "word_count": 514
+  },
+  {
+    "slug": "1-foundations-1.2-decentralization-centralized-vs-decentralized",
+    "stage": "PUBLISHED",
+    "word_count": 963
+  },
+  {
+    "slug": "1-foundations-1.2-decentralization-decentralization-resilience",
+    "stage": "PUBLISHED",
+    "word_count": 906
+  },
+  {
+    "slug": "1-foundations-1.2-decentralization-decentralization-spectrum",
+    "stage": "PUBLISHED",
+    "word_count": 1006
+  },
+  {
+    "slug": "1-foundations-1.2-decentralization-trust-transparency",
+    "stage": "PUBLISHED",
+    "word_count": 1000
+  },
+  {
+    "slug": "1-foundations-1.2-decentralization-cooperative-commons",
+    "stage": "PUBLISHED",
+    "word_count": 928
+  },
+  {
+    "slug": "1-foundations-1.7-tokens-nfts-digital-assets-what-are-tokens",
+    "stage": "PUBLISHED",
+    "word_count": 995
+  },
+  {
+    "slug": "1-foundations-1.7-tokens-nfts-digital-assets-token-standards",
+    "stage": "PUBLISHED",
+    "word_count": 916
+  },
+  {
+    "slug": "1-foundations-1.7-tokens-nfts-digital-assets-nfts-beyond-art",
+    "stage": "PUBLISHED",
+    "word_count": 804
+  },
+  {
+    "slug": "1-foundations-1.7-tokens-nfts-digital-assets-creating-buying-earning",
+    "stage": "PUBLISHED",
+    "word_count": 672
+  },
+  {
+    "slug": "1-foundations-1.7-tokens-nfts-digital-assets-tokens-real-world-assets",
+    "stage": "PUBLISHED",
+    "word_count": 386
+  },
+  {
+    "slug": "1-foundations-1.7-tokens-nfts-digital-assets-impact-certificates-hypercerts",
+    "stage": "PUBLISHED",
+    "word_count": 457
+  },
+  {
+    "slug": "1-foundations-1.4-cryptocurrency-essentials-what-is-cryptocurrency",
+    "stage": "PUBLISHED",
+    "word_count": 606
+  },
+  {
+    "slug": "1-foundations-1.4-cryptocurrency-essentials-tax-implications",
+    "stage": "PUBLISHED",
+    "word_count": 549
+  },
+  {
+    "slug": "1-foundations-1.4-cryptocurrency-essentials-gas-fees",
+    "stage": "PUBLISHED",
+    "word_count": 516
+  },
+  {
+    "slug": "1-foundations-1.4-cryptocurrency-essentials-bitcoin-history",
+    "stage": "PUBLISHED",
+    "word_count": 551
+  },
+  {
+    "slug": "1-foundations-1.4-cryptocurrency-essentials-stablecoins",
+    "stage": "PUBLISHED",
+    "word_count": 840
+  },
+  {
+    "slug": "1-foundations-1.4-cryptocurrency-essentials-how-to-get-crypto",
+    "stage": "PUBLISHED",
+    "word_count": 1151
+  },
+  {
+    "slug": "1-foundations-1.4-cryptocurrency-essentials-tokens-coordination-tools",
+    "stage": "PUBLISHED",
+    "word_count": 865
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-what-is-wallet",
+    "stage": "PUBLISHED",
+    "word_count": 1005
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-hot-vs-cold",
+    "stage": "PUBLISHED",
+    "word_count": 944
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-seed-phrases",
+    "stage": "PUBLISHED",
+    "word_count": 1009
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-common-scams",
+    "stage": "PUBLISHED",
+    "word_count": 1265
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-setup-first-wallet",
+    "stage": "PUBLISHED",
+    "word_count": 687
+  },
+  {
+    "slug": "setting-up-first-wallet",
+    "stage": "PUBLISHED",
+    "word_count": 1020
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-custodial-vs-noncustodial",
+    "stage": "PUBLISHED",
+    "word_count": 983
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-recovery-planning",
+    "stage": "PUBLISHED",
+    "word_count": 1111
+  },
+  {
+    "slug": "1-foundations-1.5-wallets-security-security-best-practices-orgs",
+    "stage": "PUBLISHED",
+    "word_count": 1082
+  },
+  {
+    "slug": "1-foundations-1.10-crypto-philanthropy-why-accept-crypto",
+    "stage": "PUBLISHED",
+    "word_count": 921
+  },
+  {
+    "slug": "1-foundations-1.1-what-is-refi-what-is-refi",
+    "stage": "PUBLISHED",
+    "word_count": 828
+  },
+  {
+    "slug": "1-foundations-1.9-refi-landscape-refi-vs-defi-tradfi",
+    "stage": "PUBLISHED",
+    "word_count": 500
+  },
+  {
+    "slug": "1-foundations-1.9-refi-landscape-what-is-refi",
+    "stage": "PUBLISHED",
+    "word_count": 337
+  },
+  {
+    "slug": "1-foundations-1.1-why-web3-why-regens-interested",
+    "stage": "PUBLISHED",
+    "word_count": 937
+  },
+  {
+    "slug": "what-web3-can-cant-do",
+    "stage": "PUBLISHED",
+    "word_count": 870
+  },
+  {
+    "slug": "1-foundations-1.3-blockchain-fundamentals-how-transactions-work",
+    "stage": "PUBLISHED",
+    "word_count": 637
+  },
+  {
+    "slug": "1-foundations-1.3-blockchain-fundamentals-what-is-blockchain",
+    "stage": "PUBLISHED",
+    "word_count": 551
+  },
+  {
+    "slug": "archive-pipeline-v1-coordination-transparency",
+    "stage": "PUBLISHED",
+    "word_count": 413
+  },
+  {
+    "slug": "archive-pipeline-v1-common-concerns",
+    "stage": "PUBLISHED",
+    "word_count": 405
+  },
+  {
+    "slug": "archive-pipeline-v1-stories-regens-leap",
+    "stage": "PUBLISHED",
+    "word_count": 434
+  },
+  {
+    "slug": "archive-pipeline-v1-communicating-stakeholders",
+    "stage": "PUBLISHED",
+    "word_count": 542
+  },
+  {
+    "slug": "archive-pipeline-v1-donor-stewardship",
+    "stage": "PUBLISHED",
+    "word_count": 329
+  },
+  {
+    "slug": "archive-pipeline-v1-setting-up-receive-crypto",
+    "stage": "PUBLISHED",
+    "word_count": 368
+  },
+  {
+    "slug": "archive-pipeline-v1-compliance-legal",
+    "stage": "PUBLISHED",
+    "word_count": 403
+  },
+  {
+    "slug": "archive-pipeline-v1-case-studies-nonprofits",
+    "stage": "PUBLISHED",
+    "word_count": 647
+  },
+  {
+    "slug": "archive-pipeline-v1-relates-to-existing-work",
+    "stage": "PUBLISHED",
+    "word_count": 378
+  },
+  {
+    "slug": "archive-pipeline-v1-crypto-donation-platforms",
+    "stage": "PUBLISHED",
+    "word_count": 380
+  },
+  {
+    "slug": "2-applied-2.3-starting-local-node-legal-structures",
+    "stage": "PUBLISHED",
+    "word_count": 1760
+  },
+  {
+    "slug": "2-applied-2.3-starting-local-node-minimum-viable-node",
+    "stage": "PUBLISHED",
+    "word_count": 1182
+  },
+  {
+    "slug": "2-applied-2.3-starting-local-node-common-pitfalls",
+    "stage": "PUBLISHED",
+    "word_count": 1273
+  },
+  {
+    "slug": "2-applied-2.3-starting-local-node-is-community-ready",
+    "stage": "PUBLISHED",
+    "word_count": 1738
+  },
+  {
+    "slug": "2-applied-2.3-starting-local-node-funding-your-node",
+    "stage": "PUBLISHED",
+    "word_count": 1153
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-planning-web3-events",
+    "stage": "PUBLISHED",
+    "word_count": 1364
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-building-momentum",
+    "stage": "PUBLISHED",
+    "word_count": 1105
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-hosting-first-event",
+    "stage": "PUBLISHED",
+    "word_count": 283
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-event-follow-up",
+    "stage": "PUBLISHED",
+    "word_count": 252
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-gatherings-pattern",
+    "stage": "PUBLISHED",
+    "word_count": 1535
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-documentation-knowledge",
+    "stage": "PUBLISHED",
+    "word_count": 871
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-types-of-gatherings",
+    "stage": "PUBLISHED",
+    "word_count": 1627
+  },
+  {
+    "slug": "2-applied-2.5-gatherings-events-funding-gatherings",
+    "stage": "PUBLISHED",
+    "word_count": 1481
+  },
+  {
+    "slug": "2-applied-2.13-web3-marketing-events-conferences",
+    "stage": "PUBLISHED",
+    "word_count": 203
+  },
+  {
+    "slug": "2-applied-2.13-web3-marketing-social-tokens-creator",
+    "stage": "PUBLISHED",
+    "word_count": 218
+  },
+  {
+    "slug": "2-applied-2.13-web3-marketing-avoiding-hype",
+    "stage": "PUBLISHED",
+    "word_count": 192
+  },
+  {
+    "slug": "2-applied-2.13-web3-marketing-building-in-public",
+    "stage": "PUBLISHED",
+    "word_count": 252
+  },
+  {
+    "slug": "2-applied-2.13-web3-marketing-finding-your-people",
+    "stage": "PUBLISHED",
+    "word_count": 307
+  },
+  {
+    "slug": "2-applied-2.13-web3-marketing-partnering-projects",
+    "stage": "PUBLISHED",
+    "word_count": 169
+  },
+  {
+    "slug": "2-applied-2.14-web3-action-plan-building-internal-capacity",
+    "stage": "PUBLISHED",
+    "word_count": 231
+  },
+  {
+    "slug": "2-applied-2.14-web3-action-plan-is-web3-right",
+    "stage": "PUBLISHED",
+    "word_count": 260
+  },
+  {
+    "slug": "2-applied-2.14-web3-action-plan-finding-support-mentorship",
+    "stage": "PUBLISHED",
+    "word_count": 239
+  },
+  {
+    "slug": "2-applied-2.14-web3-action-plan-iterating-learning",
+    "stage": "PUBLISHED",
+    "word_count": 202
+  },
+  {
+    "slug": "2-applied-2.1-local-nodes-choosing-a-starting-point",
+    "stage": "PUBLISHED",
+    "word_count": 271
+  },
+  {
+    "slug": "2-applied-2.1-local-nodes-local-node-model",
+    "stage": "PUBLISHED",
+    "word_count": 544
+  },
+  {
+    "slug": "2-applied-2.1-local-nodes-setting-up-a-local-node",
+    "stage": "PUBLISHED",
+    "word_count": 470
+  },
+  {
+    "slug": "2-applied-2.1-local-nodes-local-nodes-and-daos",
+    "stage": "PUBLISHED",
+    "word_count": 197
+  },
+  {
+    "slug": "2-applied-2.1-local-nodes-what-is-a-local-node?",
+    "stage": "PUBLISHED",
+    "word_count": 727
+  },
+  {
+    "slug": "2-applied-2.1-local-nodes-local-node-ecosystem",
+    "stage": "PUBLISHED",
+    "word_count": 390
+  },
+  {
+    "slug": "2-applied-2.11-web3-safety-security-ai-community-tools",
+    "stage": "PUBLISHED",
+    "word_count": 235
+  },
+  {
+    "slug": "2-applied-2.7-decentralized-governance-treasury-best-practices",
+    "stage": "PUBLISHED",
+    "word_count": 175
+  },
+  {
+    "slug": "2-applied-2.7-decentralized-governance-multisig-setup",
+    "stage": "PUBLISHED",
+    "word_count": 815
+  },
+  {
+    "slug": "2-applied-2.7-decentralized-governance-proposal-writing",
+    "stage": "PUBLISHED",
+    "word_count": 264
+  },
+  {
+    "slug": "2-applied-2.7-decentralized-governance-governance-mechanism-design",
+    "stage": "PUBLISHED",
+    "word_count": 632
+  },
+  {
+    "slug": "2-applied-2.7-decentralized-governance-governance-attacks",
+    "stage": "PUBLISHED",
+    "word_count": 171
+  },
+  {
+    "slug": "2-applied-2.7-decentralized-governance-voting-systems-compared",
+    "stage": "PUBLISHED",
+    "word_count": 150
+  },
+  {
+    "slug": "2-applied-2.7-decentralized-governance-delegation-representation",
+    "stage": "PUBLISHED",
+    "word_count": 553
+  },
+  {
+    "slug": "2-applied-2.8-impact-measurement-reporting-frameworks",
+    "stage": "PUBLISHED",
+    "word_count": 242
+  },
+  {
+    "slug": "2-applied-2.8-impact-measurement-impact-metrics",
+    "stage": "PUBLISHED",
+    "word_count": 275
+  },
+  {
+    "slug": "2-applied-2.10-blockchain-program-delivery-delivery-models",
+    "stage": "PUBLISHED",
+    "word_count": 420
+  },
+  {
+    "slug": "2-applied-2.10-blockchain-program-delivery-wallet-security",
+    "stage": "PUBLISHED",
+    "word_count": 374
+  },
+  {
+    "slug": "2-applied-2.10-blockchain-program-delivery-program-design",
+    "stage": "PUBLISHED",
+    "word_count": 448
+  },
+  {
+    "slug": "2-applied-2.9-tokenomics-community-currencies-local-currency",
+    "stage": "PUBLISHED",
+    "word_count": 803
+  },
+  {
+    "slug": "2-applied-2.9-tokenomics-community-currencies-inflation-mode",
+    "stage": "PUBLISHED",
+    "word_count": 235
+  },
+  {
+    "slug": "2-applied-2.9-tokenomics-community-currencies-token-supply",
+    "stage": "PUBLISHED",
+    "word_count": 348
+  },
+  {
+    "slug": "2-applied-2.9-tokenomics-community-currencies-local-currency-design",
+    "stage": "PUBLISHED",
+    "word_count": 71
+  },
+  {
+    "slug": "2-applied-2.2-joining-local-node-benefits-of-participation",
+    "stage": "PUBLISHED",
+    "word_count": 410
+  },
+  {
+    "slug": "2-applied-2.2-joining-local-node-joining-a-local-node",
+    "stage": "PUBLISHED",
+    "word_count": 556
+  },
+  {
+    "slug": "2-applied-2.11-web3-safety-security-key-management",
+    "stage": "PUBLISHED",
+    "word_count": 238
+  },
+  {
+    "slug": "2-applied-2.11-web3-safety-security-scam-prevention",
+    "stage": "PUBLISHED",
+    "word_count": 234
+  },
+  {
+    "slug": "2-applied-2.4-community-building-onboarding-members",
+    "stage": "PUBLISHED",
+    "word_count": 1240
+  },
+  {
+    "slug": "2-applied-2.4-community-building-inclusive-practices",
+    "stage": "PUBLISHED",
+    "word_count": 1077
+  },
+  {
+    "slug": "2-applied-2.4-community-building-leadership-development",
+    "stage": "PUBLISHED",
+    "word_count": 1339
+  },
+  {
+    "slug": "2-applied-2.4-community-building-building-trust",
+    "stage": "PUBLISHED",
+    "word_count": 1474
+  },
+  {
+    "slug": "2-applied-2.4-community-building-conflict-resolution",
+    "stage": "PUBLISHED",
+    "word_count": 1451
+  }
+]

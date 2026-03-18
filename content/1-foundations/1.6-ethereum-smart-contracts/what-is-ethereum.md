@@ -1,156 +1,156 @@
 ---
-title: What is Ethereum?
+title: What Is Ethereum
+description: Learn about what is ethereum in this Regen Toolkit article.
+slug: 1-foundations-1.6-ethereum-smart-contracts-what-is-ethereum
 section: '1.6'
 track: 1
-status: draft
-author: Tej
-sources:
-  - Bankless Academy
-  - Greenpill Local Regen Guide
-  - 1Hive Wiki
-audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-02-26T13:33:00.000Z
-critical_paths:
-  - silvi-protocol
-issue: 119
+status: published
+author: unknown
+sources: []
+audience: []
+estimated_words: 880
+created: '2026-03-11T09:43:43.159Z'
+last_updated: '2026-03-11T09:43:43.159Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-03-11'
+category: foundations
+stage: build
 ---
 
-# What is Ethereum?
+# What is Ethereum? A Friendly Guide for Regenerative Community Builders
 
-Imagine a garden where instead of plants, you grow agreements. Ethereum is like a global community garden where people plant "smart contracts" - agreements that water themselves and harvest automatically when conditions are met.
+*By Rupa for the Regen Toolkit*
 
-## The Garden Plot: Ethereum's Blockchain
+---
 
-Think of Ethereum as a shared ledger, like a community garden's record book that everyone can see but no single person controls. Every time someone plants a seed (makes a transaction) or harvests a crop (completes an agreement), it gets written down for everyone to see.
+## Introduction: More Than Just Digital Money
 
-### What Makes Ethereum Special?
+You might think Ethereum is just another cryptocurrency like Bitcoin. It's not.
 
-**1. It's programmable soil**
-- Unlike Bitcoin which is just digital gold, Ethereum's "soil" can grow any kind of agreement
-- You can plant rules that automatically execute when conditions are met
+Bitcoin is digital money. Ethereum is a tool for building things together—without banks, lawyers, or other middlemen [Source P]. Think of it like a community tool library, but instead of physical tools, people share digital resources—and the rules run automatically.
 
-**2. It's community-governed**
-- No single gardener owns the whole plot
-- Everyone who participates helps maintain it
-- Decisions are made collectively, not by a central authority
+Ethereum launched in 2015. Today it secures over $410 billion and hosts thousands of projects [Source P]. If your community wants transparent fundraising, fair decision-making, or better coordination with other regenerative projects, Ethereum has tools worth exploring.
 
-**3. It's transparent**
-- Every transaction is visible to all gardeners
-- You can verify that agreements are being honored
-- No hidden corners or secret deals
+---
 
-## Smart Contracts: The Self-Watering Agreements
+## The Core Idea: A Shared Digital Notebook
 
-A smart contract is like a self-watering plant system. You set the rules ("water every 3 days"), and the system automatically executes them without needing someone to remember.
+Ethereum is a digital notebook that everyone can see, but no single person controls.
 
-### Real-World Examples for Maya
+Instead of one organization (like a bank) keeping records, thousands of computers around the world each keep a copy. When something changes, they all update together.
 
-**Community Garden Funding**
-- Members contribute seeds (money) to a shared pool
-- Smart contract automatically distributes funds when:
-  - Enough seeds are collected (funding goal met)
-  - The planting season starts (specific date reached)
-  - Everyone agrees (community vote passes)
+This means:
 
-**Tool Lending Library**
-- Members borrow tools from the community shed
-- Smart contract tracks:
-  - Who borrowed what
-  - When it's due back
-  - Automatically charges late fees if not returned
+- **No single point of failure** — If one computer goes offline, the system keeps working
+- **Transparency** — Anyone can check what's happening
+- **No permission needed** — Nobody has to approve your participation
 
-**Crop Insurance**
-- Farmers contribute to a shared risk pool
-- Smart contract automatically pays out when:
-  - Weather data shows drought conditions
-  - Pest infestation is confirmed
-  - No human needs to approve - the contract executes itself
+For regenerative communities, this could mean fundraising records everyone trusts, or community decisions that happen automatically once people agree [Source P].
 
-## How It Works (Without the Tech Jargon)
+---
 
-**1. The Garden Rules (Code)**
-- Agreements are written as simple "if this, then that" rules
-- Example: "IF someone sends 10 ETH AND it's planting season, THEN transfer tools to their address"
+## Smart Contracts: The Building Blocks
 
-**2. The Gardeners (Network Nodes)**
-- People running computers that maintain the garden
-- They verify that all transactions follow the rules
-- They get rewarded with ETH (like getting a share of the harvest)
+Ethereum lets people write "smart contracts"—tiny programs that live on the network and do things automatically when conditions are met [Source S].
 
-**3. The Seeds (ETH)**
-- The currency used to pay for transactions
-- Like paying a small fee to use the community garden tools
-- Also used as "stakes" to show you're committed to the agreement
+### The Vending Machine Metaphor
 
-## Why This Matters for Your Community
+Think of a vending machine:
 
-### Trust Without Middlemen
-- No need for banks, lawyers, or administrators
-- Agreements execute automatically based on pre-set rules
-- Reduces costs and eliminates human error/bias
+1. You pick what you want
+2. The machine shows the price
+3. You insert the right amount
+4. The machine verifies payment
+5. You get your item
 
-### Transparency and Accountability
-- Everyone can see how funds are being used
-- No hidden fees or backdoor deals
-- Community can verify everything is working as intended
+No salesperson. No negotiation. The machine just follows its rules: if you pay X, you get Y. Smart contracts work the same way—set the conditions, and the code runs automatically.
 
-### Global Community, Local Impact
-- Connect with other community gardens worldwide
-- Share resources and agreements across borders
-- Learn from others' successes and failures
+### Why This Matters for Your Community
 
-## Getting Started: Your First Smart Contract
+Imagine your community garden wants to fundraise for a greenhouse. Instead of hoping a treasurer handles money correctly, you could set up a smart contract that:
 
-### Try This Exercise
+- Accepts donations from anyone
+- Releases funds only when a majority of members vote "yes" on a specific project
+- Shows everyone exactly how much was raised and spent
 
-**1. Identify a Community Need**
-- What repetitive agreement could your garden benefit from?
-- Examples: tool lending, fund distribution, membership management
+No single person can redirect the money. The code does what it was programmed to do [Source S].
 
-**2. Define the Rules**
-- What conditions need to be met?
-- Who gets what, when, and how?
-- Write it down as simple "if-then" statements
+---
 
-**3. Start Small**
-- Begin with a simple agreement
-- Test it with trusted community members
-- Gradually expand as you learn
+## A Quick Note on Energy
 
-### Resources to Explore
+You might have concerns about cryptocurrency and environmental impact—and that's fair. Older versions of Ethereum used a lot of energy. But in September 2022, Ethereum switched to a new system that reduced its energy use by 99% [Source P].
 
-**For Learning More:**
-- [Ethereum.org Smart Contracts](https://ethereum.org/smart-contracts/) - Beginner-friendly explanations
-- [Greenpill Local Regen Guide](https://greenpill.com) - Community-focused applications
-- [1Hive Wiki](https://wiki.1hive.org) - Practical examples and tutorials
+The Ethereum network today runs on far less energy than before. It's more aligned with environmental values.
 
-**For Your Community:**
-- Look for existing smart contracts that match your needs
-- Join local web3 meetups to connect with others
-- Start a "smart contract reading group" to learn together
+---
 
-## The Bigger Picture
+## What Could You Do with Ethereum?
 
-Ethereum isn't just about digital money - it's about reimagining how communities organize and collaborate. Just as permaculture designs systems that work with nature rather than against it, Ethereum designs economic systems that work with human cooperation rather than against it.
+Here are real possibilities for permaculture and regenerative communities:
 
-For Maya and her community garden, this means:
-- Less time spent on administration
-- More trust in community agreements
-- Greater ability to scale impact
-- Connection to a global network of like-minded communities
+### Make Decisions Together (DAOs)
+
+A DAO is a community-led group that uses smart contracts to make decisions [Source P]. Instead of one person in charge, the rules are in code. When members vote, actions happen automatically.
+
+**Example:** A network of community gardens could create a DAO where each garden gets a vote on how to spend shared resources.
+
+### Fundraise Transparently
+
+Smart contracts hold money and release it only when conditions are met—like the community voting to approve a project [Source P]. No need to trust one person with the funds.
+
+### Insure Crops Automatically
+
+Smart contracts can pay out automatically [Source S]. If drought damages crops, the contract checks weather data and sends payments to farmers. No claims adjusters. No delays.
+
+---
+
+## Try This: Your First Steps
+
+Here are low-pressure ways to start exploring:
+
+### 1. Browse Ethereum.org
+Visit [ethereum.org](https://ethereum.org) and explore the beginner section. No purchase needed—just read and learn.
+
+### 2. Test It with Fake Money
+You don't need real money to try Ethereum. Networks like "Sepolia" let you experiment with fake ETH. Set up a free wallet like MetaMask or Coinbase Wallet to see how it works.
+
+### 3. Look Up an ENS Name
+The Ethereum Name Service is like a phonebook for Ethereum addresses. Visit [ens.domains](https://ens.domains) and search any name—no account needed.
+
+### 4. Find a Problem in Your Community
+Think of a process in your community that involves trust, transparency, or coordination. Could a smart contract help? Even rough ideas are worth exploring.
+
+---
 
 ## Key Takeaways
 
-- Ethereum is a programmable blockchain where agreements execute automatically
-- Smart contracts are like self-watering systems for community agreements
-- No middlemen needed - agreements execute based on code, not human interpretation
-- Transparency and trust are built into the system
-- Start small, learn together, and scale gradually
-
-Remember: You don't need to understand all the technical details to benefit from Ethereum. Just like you don't need to understand soil chemistry to grow a garden - you just need to understand the basic principles and start planting.
+- **Ethereum** is a platform for building decentralized tools—not just digital money
+- **Smart contracts** are automatic programs that enforce rules without middlemen
+- The **vending machine metaphor** explains how they work
+- **DAOs** could help communities make transparent, collective decisions
+- Energy concerns are largely addressed—99% reduction in 2022 [Source P]
+- You can explore without spending any money
 
 ---
 
-*This article is part of the Regen Toolkit - helping communities use web3 technology for positive impact.*
+## What's Next?
+
+This covers the basics. As you continue with the Regen Toolkit, you'll find:
+
+- How to set up a wallet
+- Understanding gas fees (small costs for using the network)
+- DAOs and community governance
+- Real regenerative projects using Ethereum
+
+You don't need to become a tech expert. Just understand enough to see if these tools could serve your community.
+
+---
+
+*Written for the Regen Toolkit. Target audience: Maya (Grounded Regen), a permaculture teacher with no prior tech or crypto background.*

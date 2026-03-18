@@ -1,20 +1,28 @@
 ---
 title: Setting Up Your First Wallet
+description: A beginner-friendly guide to setting up your first cryptocurrency wallet,
+  using nature analogies and focusing on security for new users.
 slug: setting-up-first-wallet
-tags:
-  - foundations
-  - wallets
-  - security
-  - beginners
-  - metamask
-  - cryptocurrency
-  - web3
-status: draft
-description: A beginner-friendly guide to setting up your first cryptocurrency wallet, using nature analogies and focusing on security for new users.
+section: '1.5'
+track: 1
+status: published
 author: rupa
-target_audience: 🌱 beginner (grounded-regen)
-source_codes: [D, S]
-word_count: 820
+sources: []
+audience:
+- 🌱 beginner (grounded-regen)
+estimated_words: 1020
+created: '2026-03-11T09:43:43.250Z'
+last_updated: '2026-03-11T09:43:43.250Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-03-11'
+category: foundations
+stage: published
 ---
 
 # Setting Up Your First Wallet

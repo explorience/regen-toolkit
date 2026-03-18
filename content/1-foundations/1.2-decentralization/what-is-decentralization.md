@@ -1,12 +1,26 @@
 ---
 title: What is decentralization?
+description: Learn about what is decentralization? in this Regen Toolkit article.
+slug: 1-foundations-1.2-decentralization-what-is-decentralization
 section: '1.2'
 track: 1
-status: draft
+status: published
 author: Regen Toolkit Team
-sources:
-created: 2026-01-15T00:00:00.000Z
-issue: 92
+sources: []
+audience: []
+estimated_words: 514
+created: '2026-03-11T09:43:43.173Z'
+last_updated: '2026-03-11T09:43:43.173Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: false
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # What is decentralization?

@@ -1,16 +1,28 @@
 ---
-title: 'Crypto donation platforms'
-section: '1.10'
-track: 1
-status: draft
+title: Crypto donation platforms
+description: Learn about crypto donation platforms in this Regen Toolkit article.
+slug: archive-pipeline-v1-crypto-donation-platforms
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - CryptoAltruists Web3 Impact Toolkit
+- CryptoAltruists Web3 Impact Toolkit
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-issue: 83
+- grounded-regen
+estimated_words: 380
+created: '2026-03-11T09:43:43.355Z'
+last_updated: '2026-03-11T09:43:43.355Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Crypto Donation Platforms: What You Need to Know

@@ -315,15 +315,15 @@ When writing, target one of three audiences:
 
 ### State Management
 
-The pipeline tracks progress in `.pipeline-state.json`:
+Each article tracks its own progress via YAML frontmatter (see any article for the schema). Pipeline state is derived from scanning article frontmatter:
 
-```json
-{
-  "version": "1.0",
-  "lastUpdated": "2026-02-26T14:30:00Z",
-  "queue": [{"slug": "what-is-ethereum", "stage": "VERIFY"}],
-  "completed": [{"slug": "why-regens-interested", "completedAt": "2026-02-26T13:45:00Z"}]
-}
+```yaml
+---
+status: draft  # draft | in_review | completed
+stage: BUILD   # SPEC | BUILD | VERIFY | REVIEW | CRITIQ | PUBLISHED
+factcheck_done: true
+review_done: true
+---
 ```
 
 ### Troubleshooting

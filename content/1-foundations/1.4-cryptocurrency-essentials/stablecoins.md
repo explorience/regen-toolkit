@@ -1,13 +1,26 @@
 ---
 title: Stablecoins explained
+description: Learn about stablecoins explained in this Regen Toolkit article.
+slug: 1-foundations-1.4-cryptocurrency-essentials-stablecoins
 section: '1.4'
 track: 1
-status: draft
+status: published
 author: Regen Toolkit Team
-sources:
-audience:
-created: 2026-01-15T00:00:00.000Z
-priority: tier-2
+sources: []
+audience: []
+estimated_words: 840
+created: '2026-03-11T09:43:43.217Z'
+last_updated: '2026-03-11T09:43:43.217Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Stablecoins Explained

@@ -1,28 +1,31 @@
 ---
-title: "Common Scams: Protecting Your Web3 Journey"
-section: "1.5"
-track: "foundations"
-status: "draft"
-author: "HeenAI"
-editor: "Sakshi (AI Editor)"
-reviewer: ""
+title: 'Common Scams: Protecting Your Web3 Journey'
+description: 'Learn about common scams: protecting your web3 journey in this Regen
+  Toolkit article.'
+slug: 1-foundations-1.5-wallets-security-common-scams
+section: '1.5'
+track: 1
+status: published
+author: HeenAI
 sources:
-    url: "https://greenpill.network/pdf/local-regen-guide.pdf"
-    note: "Regenerative crypto community security guidance"
-    url: "https://explorer.gitcoin.co/#/round/42220/14/16"
-    note: "Beginner wallet setup and security basics"
-    url: "https://www.chainalysis.com/reports/2025-crypto-crime-report/"
-    url: "https://www.ic3.gov/Media/PDF/AnnualReport/2024_IC3Report.pdf"
-    url: "https://www.ledger.com/academy/basic-basics/web3-security-essentials/web3-scams-explained"
-    url: "https://help.coinbase.com/en/wallet/security/avoiding-crypto-scams"
-audience: ["beginner", "intermediate"]
-estimated_words: 1000
-actual_words: 1124
-created: "2026-02-25"
-updated: "2026-02-25"
-edited: "2026-02-25"
-fact_check_status: "passed"
-fact_check_notes: "Fixed unverified 'AI-enhanced deception' claim - changed to 'AI-generated content' (generic)"
+- url
+- note
+audience:
+- beginner
+- intermediate
+estimated_words: 1265
+created: '2026-03-11T09:43:43.240Z'
+last_updated: '2026-03-11T09:43:43.240Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-02-25'
+category: foundations
+stage: build
 ---
 
 # Common Scams: Protecting Your Web3 Journey

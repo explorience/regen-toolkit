@@ -1,19 +1,30 @@
 ---
 title: 'Case studies: Nonprofits in web3'
-section: '1.10'
-track: 1
-status: draft
+description: 'Learn about case studies: nonprofits in web3 in this Regen Toolkit article.'
+slug: archive-pipeline-v1-case-studies-nonprofits
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - CryptoAltruists Web3 Impact Toolkit
-  - ReFi DAO Local ReFi Toolkit
-  - The Giving Block 2025 Annual Report
+- CryptoAltruists Web3 Impact Toolkit
+- ReFi DAO Local ReFi Toolkit
+- The Giving Block 2025 Annual Report
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-issue: 80
-factcheck_notes: "All claims verified against sources. Statistics from The Giving Block and CryptoAltruists."
+- grounded-regen
+estimated_words: 647
+created: '2026-03-11T09:43:43.348Z'
+last_updated: '2026-03-11T09:43:43.348Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: false
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Case Studies: How Nonprofits Are Using Web3

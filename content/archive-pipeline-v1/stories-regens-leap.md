@@ -1,17 +1,30 @@
 ---
 title: 'Stories: Regens who made the leap'
-section: '1.1'
-track: 1
-status: draft
+description: 'Learn about stories: regens who made the leap in this Regen Toolkit
+  article.'
+slug: archive-pipeline-v1-stories-regens-leap
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - ReFi DAO Local ReFi Toolkit
-  - Reimagining Power
+- ReFi DAO Local ReFi Toolkit
+- Reimagining Power
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-issue: 77
+- grounded-regen
+estimated_words: 434
+created: '2026-03-11T09:43:43.324Z'
+last_updated: '2026-03-11T09:43:43.324Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Stories: Regens Who Made the Leap

@@ -1,18 +1,28 @@
 ---
-title: 'Setting up to receive crypto'
-section: '1.10'
-track: 1
-status: draft
+title: Setting up to receive crypto
+description: Learn about setting up to receive crypto in this Regen Toolkit article.
+slug: archive-pipeline-v1-setting-up-receive-crypto
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - CryptoAltruists Web3 Impact Toolkit
+- CryptoAltruists Web3 Impact Toolkit
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-critical_paths:
-  - forest-city
-issue: 85
+- grounded-regen
+estimated_words: 368
+created: '2026-03-11T09:43:43.338Z'
+last_updated: '2026-03-11T09:43:43.338Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Setting Up to Receive Crypto: A Step-by-Step Guide

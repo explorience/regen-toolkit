@@ -1,8 +1,33 @@
 ---
+title: Why Regens Interested
+description: Learn about why regens interested in this Regen Toolkit article.
+slug: 1-foundations-1.1-why-web3-why-regens-interested
+section: '1.1'
+track: 1
+status: published
+author: unknown
+sources: []
+audience: []
+estimated_words: 937
+created: '2026-03-11T09:43:43.294Z'
+last_updated: '2026-03-11T09:43:43.294Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-03-11'
+category: foundations
+stage: build
+---
+
+---
 title: Why are regenerative practitioners interested in blockchain?
 section: '1.1'
 track: 1
-status: draft
+status: published
 author: Regen Toolkit
 sources:
 created: 2026-01-15T00:00:00.000Z

@@ -1,20 +1,29 @@
 ---
-title: 'Communicating with stakeholders'
-section: '1.10'
-track: 1
-status: draft
+title: Communicating with stakeholders
+description: Learn about communicating with stakeholders in this Regen Toolkit article.
+slug: archive-pipeline-v1-communicating-stakeholders
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - CryptoAltruists Web3 Impact Toolkit
-  - Nonprofit Financial Commons
+- CryptoAltruists Web3 Impact Toolkit
+- Nonprofit Financial Commons
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-issue: 81
-critical_paths:
-  - forest-city
-factcheck_notes: "All guidance items from established nonprofit sources."
+- grounded-regen
+estimated_words: 542
+created: '2026-03-11T09:43:43.328Z'
+last_updated: '2026-03-11T09:43:43.328Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: false
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Communicating with Stakeholders About Crypto

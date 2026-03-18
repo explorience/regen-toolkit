@@ -1,18 +1,29 @@
 ---
-title: 'Compliance and legal considerations'
-section: '1.10'
-track: 1
-status: draft
+title: Compliance and legal considerations
+description: Learn about compliance and legal considerations in this Regen Toolkit
+  article.
+slug: archive-pipeline-v1-compliance-legal
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - CryptoAltruists Web3 Impact Toolkit
+- CryptoAltruists Web3 Impact Toolkit
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-issue: 82
-critical_paths:
-  - forest-city
+- grounded-regen
+estimated_words: 403
+created: '2026-03-11T09:43:43.344Z'
+last_updated: '2026-03-11T09:43:43.344Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Compliance and Legal Considerations for Crypto Donations

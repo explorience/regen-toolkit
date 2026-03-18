@@ -1,3 +1,31 @@
+---
+title: What Is Blockchain
+description: Learn about what is blockchain in this Regen Toolkit article.
+slug: 1-foundations-1.3-blockchain-fundamentals-what-is-blockchain
+section: '1.3'
+track: 1
+status: published
+author: unknown
+sources:
+- Bankless Academy (https://app.banklessacademy.com/)
+- Mango Research (https://www.mangoresearch.co/blockchain-dlt-trustless-system/)
+audience:
+- grounded-regen
+estimated_words: 551
+created: '2026-03-11T09:43:43.312Z'
+last_updated: '2026-03-11T09:43:43.312Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-03-11'
+category: foundations
+stage: published
+---
+
 # What is Blockchain?
 
 Have you ever tried to keep track of who owes what in a community garden project? By harvest time, nobody can remember who promised what. Now imagine if every single person in the garden had their own notebook, and every week everyone compared notes before deciding what happened. That's a blockchain.

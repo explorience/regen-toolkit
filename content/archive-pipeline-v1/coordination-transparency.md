@@ -1,20 +1,30 @@
 ---
 title: 'The promise: Coordination, transparency, and new economic models'
-section: '1.1'
-track: 1
-status: draft
+description: 'Learn about the promise: coordination, transparency, and new economic
+  models in this Regen Toolkit article.'
+slug: archive-pipeline-v1-coordination-transparency
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - Greenpill Local Regen Guide
-  - SuperBenefit Knowledge Garden
+- Greenpill Local Regen Guide
+- SuperBenefit Knowledge Garden
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-critical_paths:
-  - forest-city
-  - huron-university
-issue: 75
+- grounded-regen
+estimated_words: 413
+created: '2026-03-11T09:43:43.317Z'
+last_updated: '2026-03-11T09:43:43.317Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # The Promise: Coordination, Transparency, and New Economic Models

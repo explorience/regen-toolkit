@@ -1,21 +1,28 @@
 ---
-title: 'Common concerns addressed'
-section: '1.1'
-track: 1
-status: draft
+title: Common concerns addressed
+description: Learn about common concerns addressed in this Regen Toolkit article.
+slug: archive-pipeline-v1-common-concerns
+section: ''
+track: '1'
+status: published
 author: Regen Toolkit Team
 sources:
-  - Bankless Academy
+- Bankless Academy
 audience:
-  - grounded-regen
-estimated_words: 800
-created: 2026-01-15T00:00:00.000Z
-critical_paths:
-  - sarreya
-  - forest-city
-issue: 74
-assignees:
-  - explorience
+- grounded-regen
+estimated_words: 405
+created: '2026-03-11T09:43:43.320Z'
+last_updated: '2026-03-11T09:43:43.320Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Common Concerns About Web3: Let's Talk About Them

@@ -1,11 +1,26 @@
 ---
 title: Why accept crypto donations?
+description: Learn about why accept crypto donations? in this Regen Toolkit article.
+slug: 1-foundations-1.10-crypto-philanthropy-why-accept-crypto
 section: '1.10'
 track: 1
-status: draft
+status: published
 author: Regen Toolkit
-sources:
-created: 2026-01-15T00:00:00.000Z
+sources: []
+audience: []
+estimated_words: 921
+created: '2026-03-11T09:43:43.266Z'
+last_updated: '2026-03-11T09:43:43.266Z'
+research_done: false
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: true
+issue: 0
+date: '2026-01-15'
+category: foundations
+stage: build
 ---
 
 # Why Accept Crypto Donations?
@@ -80,4 +95,3 @@ Most of these let donors send crypto, you receive fiat. The donor gets the tax b
 ---
 
 The question isn't whether cryptocurrency giving will grow. The question is whether your nonprofit will be ready when your donors are looking for you. The organizations that accept crypto today are building relationships with the philanthropists of tomorrow.
-

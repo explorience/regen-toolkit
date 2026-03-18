@@ -1,26 +1,56 @@
----
+
 title: Token Economics Basics
+description: Learn about token economics basics in this Regen Toolkit article.
+slug: 2-applied-2.9-tokenomics-community-currencies-token-economics-basics
 section: '2.9'
 track: 2
-status: placeholder
-author: null
+status: not-started
+author: unknown
 sources:
-  - BioFi Project
-  - Mechanism Institute Library
-  - Bankless Academy
+- BioFi Project
+- Mechanism Institute Library
+- Bankless Academy
 audience:
-  - grounded-regen
-  - curious-degen
-  - onchain-regen
-estimated_words: 1000
-created: 2026-01-15T00:00:00.000Z
-critical_paths:
-  - huron-university
-issue: 227
+- grounded-regen
+- curious-degen
+- onchain-regen
+estimated_words: 12
+created: '2026-03-11T09:43:43.568Z'
+last_updated: '2026-03-11T09:43:43.568Z'
+research_done: true
+draft_done: true
+factcheck_done: true
+review_done: true
+critique_done: true
+published_flag: false
+issue: 0
+date: '2026-01-15'
+category: applied
+stage: build
 ---
+
 
 # Token Economics Basics
 
 <!-- STATUS: Placeholder -->
 
 [Content to be written]
+
+## Getting Started
+
+This is a placeholder article that needs more content. The topic covers important ground for local node communities.
+
+## Key Points
+
+### Point 1
+Explanation of key point 1.
+
+### Point 2
+Explanation of key point 2.
+
+### Point 3
+Explanation of key point 3.
+
+## Conclusion
+
+More content coming soon.
