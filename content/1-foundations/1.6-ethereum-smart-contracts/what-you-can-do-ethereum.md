@@ -1,153 +1,93 @@
 ---
-title: What You Can Do Ethereum
-description: Learn about what you can do ethereum in this Regen Toolkit article.
-slug: 1-foundations-1.6-ethereum-smart-contracts-what-you-can-do-ethereum
+title: What You Can Do on Ethereum
 section: '1.6'
 track: 1
-status: published
-author: unknown
+status: draft
+author: Tej Pipeline
 sources: []
 audience: []
-estimated_words: 974
-created: '2026-03-11T09:43:43.157Z'
-last_updated: '2026-03-11T09:43:43.157Z'
+estimated_words: 950
+created: '2026-03-25'
+last_updated: '2026-03-25'
 research_done: true
 draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
+factcheck_done: false
+review_done: false
+critique_done: false
+published_flag: false
 issue: 0
-date: '2026-03-11'
+date: '2026-03-25'
 category: foundations
-stage: build
+stage: draft
 ---
 
 # What You Can Do on Ethereum
 
-*Welcome to Ethereum—a global, open-source playground for digital innovation. Whether you're curious about sending money across borders, building apps, or exploring new forms of ownership, Ethereum makes it possible. Let's explore what you can actually do with this powerful blockchain.*
+Ethereum is a technology platform that lets people create new digital tools and systems. You don't need to understand how every part works to use it, just like you don't need to understand how an engine works to drive a car. But it helps to know what the car can do.
+
+For people in the Sarreya programs, Ethereum makes three important things possible:
+
+1. Sending and receiving digital money
+2. Earning verifiable credentials
+3. Tracking and proving impact
+
+Let's look at each one.
+
+## 1. Sending and Receiving Digital Money
+
+You can send money to anyone, anywhere in the world, using your phone and internet connection. No bank needed. No expensive international wire fees.
+
+When someone sends you USDC (a stablecoin), it appears in your wallet. You can then send it to anyone else - a family member, a service provider, a program coordinator.
+
+**Why this matters for you:** Fast, low-cost transfers that work across borders. Perfect for getting paid for work, sending money home, or receiving program funds that keep their value.
+
+The small fee to send money (called "gas") is usually only a few cents, even for international transfers.
+
+## 2. Earning Verifiable Credentials
+
+A credential is proof that you completed something - finished a training, gained a new skill, contributed to a project.
+
+Before, this proof might be a paper certificate or a letter. Now, it can be a digital credential stored on the Ethereum blockchain.
+
+**How it works:** When you complete a training, the program coordinator can issue you a digital credential. This gets recorded on the blockchain - a public, unchangeable record. Anyone can verify it is real.
+
+**Why this matters for you:** Your achievements are safe from loss or damage. They can be verified instantly by employers, educators, or grant programs. Your skills travel with you - no matter where life takes you.
+
+This is like getting a university diploma, but one that cannot be forged, lost, or forgotten. It is digital proof of your work.
+
+## 3. Tracking and Proving Impact
+
+When you work on a project - like planting trees, running a community cleanup, or teaching others - you want people to see the results.
+
+Ethereum allows you to track your impact and create unchangeable proof of your work.
+
+**How it works:** You might take a photo of a newly planted tree, record the location on a map, and submit this through an app. The data is recorded on the blockchain. This becomes permanent proof of your contribution.
+
+**Why this matters for you:** Real-world actions become verifiable data. This helps attract funding, demonstrate accountability, and connect with global support networks. Your work is visible to the world.
+
+This system is called **digital measurement, reporting, and verification (dMRV)** and is used in programs like Silvi to prove tree planting and get paid for impact.
+
+## What Ethereum Does Not Involve (For You)
+
+Some people use Ethereum for more complex things that are not relevant to Sarreya:
+
+- **Buying and selling NFT art** - Digital collectibles
+- **Lending or borrowing money** - Financial services (DeFi)
+- **Staking to earn rewards** - Technical network participation
+- **Building new applications** - Advanced software development
+
+You do not need to understand these uses to benefit from Ethereum. Focus on the three uses above - they are what matter for your work.
 
 ---
 
-## Send and Receive Digital Money
+## Try This
 
-At its core, Ethereum lets you send **Ether (ETH)**—its native cryptocurrency—to anyone, anywhere in the world. No banks. No waiting days for transfers. No border restrictions.
+1. **Map the money.** Draw a simple map showing one way money moves in your community (e.g., from donors → Sarreya → participants). How could using stablecoins on Ethereum make each step faster, cheaper, or more transparent?
 
-When you send ETH, you also pay a small **gas fee** to keep the network running. Interestingly, a portion of every transaction fee gets **burned**, permanently removing ETH from circulation. This makes ETH **deflationary**—over time, there could actually be less ETH in existence, unlike traditional currencies that constantly inflate.
+2. **Imagine your credentials.** List 3 skills or trainings you have completed. What would it mean to have unforgeable digital proof of each one?
 
-Think of it: you can send a few dollars worth of ETH to a friend in Japan, a family member in Nigeria, or a vendor in Brazil—in seconds, for just a few cents. This is money without borders.
-
----
-
-## Use Smart Contracts
-
-Here's where Ethereum gets truly powerful. **Smart contracts** are programs stored on the blockchain that automatically execute when conditions are met. They're like digital agreements that enforce themselves.
-
-Here's how they work: imagine you want to fund a project, but only want the money released if a certain goal is met. A smart contract can hold the funds and automatically distribute them (or return them) based on real-world outcomes—no lawyers, no escrow services, no middleman.
-
-Smart contracts run **24/7**, are **transparent** (anyone can inspect the code), and are **tamper-proof** (once deployed, no one can change the rules). They're the foundation for everything else you can do on Ethereum.
+3. **Track your impact.** Think of a project you have done. What photos, documents, or data could prove your contribution? How could that become a permanent record?
 
 ---
 
-## Access Decentralized Finance (DeFi)
-
-Ethereum is home to a massive ecosystem of **DeFi** applications—financial tools that work like banks, exchanges, and investment platforms, but without the institutions.
-
-**Lending and borrowing** — Want to earn interest on your ETH? Lend it to the protocol and watch your balance grow. Need cash for an opportunity? Borrow against your crypto without selling it.
-
-**Trading** — Swap one token for another instantly on decentralized exchanges like Uniswap. No account needed, no limits.
-
-**Stablecoins** — Use cryptocurrencies like USDC or USDT that stay pegged to the US dollar. Crypto volatility not your thing? Stablecoins give you the speed of blockchain with the stability of fiat.
-
-DeFi is financial infrastructure that's open to anyone with an internet connection.
-
----
-
-## Own Digital Collectibles (NFTs)
-
-**Non-fungible tokens (NFTs)** represent ownership of unique digital items. Yes, they've been famous for digital art and collectibles—but their potential goes far beyond that.
-
-NFTs can represent:
-
-- **Digital art** — Verified authenticity and provenance
-- **Gaming items** — Own your in-game assets and sell them
-- **Domain names** — Human-readable blockchain addresses
-- **Event tickets** — Anti-counterfeit proof of attendance
-- **Real-world assets** — Eventually, property deeds, certificates, and more
-
-The key insight: NFTs create **true digital ownership**. Unlike traditional digital files that can be copied endlessly, an NFT on Ethereum proves genuine ownership—something that can't be confiscated or faked.
-
----
-
-## Use Decentralized Applications (dapps)
-
-**Dapps** (decentralized applications) are apps built on Ethereum that operate without a central authority. No company controls them—no risk of them being shut down or changing terms unexpectedly.
-
-Here are some categories:
-
-- **DeFi** — Compound, Aave (lending), Uniswap (trading)
-- **Gaming** — Axie Infinity, Gods Unchained
-- **Social** — Lens Protocol, Friend.tech
-- **Marketplaces** — OpenSea, Blur (NFT trading)
-- **Payments** — Stablecoin payments integrated into Shopify and beyond
-
-The beauty of dapps: they're composable. One dapp can build on another, creating new possibilities no one originally imagined.
-
----
-
-## Build and Deploy Applications
-
-If you're a developer, Ethereum offers something incredible: **build financial infrastructure from day one**.
-
-When you launch a dapp on Ethereum, you get:
-
-- Built-in global payments (no payment processor needed)
-- Tamper-proof smart contracts
-- A platform others can build upon
-- Access to millions of potential users
-
-Major companies are paying attention. PayPal launched its stablecoin **PYUSD** on Ethereum. Companies worldwide are building on Ethereum because it's secure, transparent, and battle-tested.
-
----
-
-## Stake ETH and Help Secure the Network
-
-Since 2022, Ethereum uses **proof of stake**—a consensus mechanism that's over 99% more energy efficient than the old system.
-
-Here's how it works: **validators** lock up ETH as collateral to process transactions and create new blocks. Honest validators earn ETH rewards. Bad actors lose their staked ETH.
-
-You can participate in two ways:
-
-- **Run a validator node** — Requires 32 ETH (substantial commitment)
-- **Join a staking pool** — Pool your ETH with others and earn rewards proportionally
-
-Staking isn't just about earning returns—it's about participating in securing one of the world's most valuable networks.
-
----
-
-## Participate in Governance
-
-Ethereum has no CEO. No board of directors. It's governed by its community:
-
-- **Ethereum Improvement Proposals (EIPs)** — Anyone can propose upgrades to the protocol
-- **DAO governance** — Many dapps are governed by token holders who vote on decisions
-- **Open contribution** — Developers, node operators, researchers, and users all shape the future
-
-This is **decentralization in action**—a network that belongs to no one and everyone at once.
-
----
-
-## Why It Matters
-
-Ethereum offers something unprecedented:
-
-- **Censorship resistance** — No bank or corporation can block your transactions
-- **High security** — Attacking Ethereum would cost billions and require compromising thousands of nodes
-- **Durability** — The network keeps running even if many nodes go offline
-- **Permissionless access** — No ID, no bank account, no approval needed—just a wallet and internet
-
-This isn't just technology. It's a new paradigm for money, ownership, and coordination.
-
----
-
-*Ethereum is a door. On the other side: financial tools, creative economies, decentralized organizations, and possibilities we haven't yet imagined. The question isn't whether you'll use it—it's when and how.*
+*This simplified guide focuses on the three Ethereum use cases most relevant to Sarreya. For a technical overview, visit ethereum.org.*
