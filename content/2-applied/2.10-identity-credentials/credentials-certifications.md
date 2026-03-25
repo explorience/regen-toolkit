@@ -1,88 +1,81 @@
 ---
 title: Credentials and Certifications
-description: Learn about web3 credentials and certifications - what they are and why they matter.
+description: How web3 credentials create portable, verifiable proof of your skills and achievements.
 slug: credentials-certifications
 section: '2.10'
 track: 2
-status: published
-author: Sonnet
+status: draft
+author: Tej Pipeline
 target_audience: beginner
 sources: []
 created: '2026-03-18'
-updated: '2026-03-18'
+last_updated: '2026-03-25'
 ---
 
 # Credentials and Certifications
 
-Have you ever earned a certificate for completing a course or training? Maybe you received a badge after finishing a program. In the physical world, these credentials show what you've learned and what you can do. Web3 credentials work in a similar way—but they live on the blockchain, making them extra special.
+A paper certificate proves something happened once, in one place, to whoever's holding it. You can lose it, someone can copy it, and a hiring manager in Nairobi or Dubai has no reliable way to verify it. Web3 credentials solve a different problem: they make your achievements independently verifiable by anyone, anywhere, without needing to trust the piece of paper - or you.
 
-## What Are Web3 Credentials?
+## What a web3 credential actually is
 
-Web3 credentials are digital proof of your skills, achievements, or identity that live on the blockchain. Think of them like a digital certificate or badge that cannot be fake or changed by anyone else.
+A credential is a record tied to your wallet address, issued by an organization, and written to a blockchain or a linked data system. The issuer signs it with their private key. You hold it. Anyone with the issuer's public key can confirm it's real without calling anyone or checking a database.
 
-Here's why that's powerful: normally, if you get a paper certificate, anyone could copy it or pretend to have it. But a web3 credential is verified automatically. It's like having a lock that only you can open—secure and trustworthy.
+The most common standard right now is **Verifiable Credentials (VCs)** - an open format that works across different platforms. You might also encounter **Soulbound Tokens (SBTs)**, which are NFTs that can't be transferred. Unlike a regular token, you can't sell or give away an SBT - it stays with the wallet that earned it. That non-transferability is the point: it represents something about *you*, not something you own.
 
-Credentials can show that you:
+Both formats do the same job: they create proof of achievement that doesn't depend on an institution being reachable or trustworthy to verify.
 
-- Completed a training program
-- Learned a new skill like coding or design
-- Participated in a community event
-- Earned a professional certification
+## The problem they solve
 
-## How Do They Work?
+Think about how credentials work in Somaliland right now. You complete a training at a local NGO or a skills program. You receive a certificate. If you later apply for a job in another city, or want to contribute to a global DAO, or apply for a grant from an international organization - you have to rely on the issuer being contactable, your paper not being lost or damaged, and whoever is reviewing your application trusting the organization that issued it.
 
-Web3 credentials are stored on the blockchain—a shared digital record that thousands of computers keep copies of. When you earn a credential, it's recorded permanently. No one can delete it or pretend it doesn't exist.
+Web3 credentials remove each of those dependencies. The issuer cryptographically signs your credential when they issue it. After that, no one needs to contact them to verify it's real - the math does that. You carry your record in your wallet, not in a filing cabinet.
 
-Here's a simple way to think about it:
+## Who is issuing these now
 
-1. **You complete something** – like finishing a course or attending a workshop
-2. **The issuer creates a credential** – they record your achievement on the blockchain
-3. **You receive it** – it goes to your digital wallet
-4. **Anyone can verify it** – employers or organizations can check that it's real
+Several platforms are actively issuing verifiable credentials:
 
-Your digital wallet is like a personal locker. Just as you keep important documents in a safe place, your wallet stores your credentials securely. And you control who can see them.
+- **Gitcoin Passport** - aggregates your web3 activity (contributions to projects, protocol usage, identity verification) into a score used by grants programs and DAOs to confirm you're a real, active participant rather than a bot or sybil
+- **Karma** - used in the DAO ecosystem to track governance participation and contribution history
+- **Lens Protocol** - your social graph and activity on Lens creates a portable reputation record
+- **Galxe** - issues on-chain credentials tied to completing specific tasks (campaigns, learning modules, testing protocols)
+- **Open Badges** (via various issuers) - the older but still-active standard, widely used by educational organizations
 
-## Why Do Credentials Matter for Your Future?
+Sarreya itself issues credentials on completion of path milestones. By the time you're reading this, you've already accumulated some.
 
-Now comes the exciting part—why should you care? Here's how web3 credentials can open doors for you:
+## What you can do with them
 
-### **Job Opportunities**
+The most direct use is in grant and funding applications. Gitcoin Grants, for example, uses Passport scores to weight quadratic funding - higher passport score means your donation has more matching power. If you're applying for a fellowship or residency through a web3-native organization, your on-chain credential history often matters more than a CV.
 
-When you apply for jobs, employers want to know what you can do. Web3 credentials give you proof. Because they're verified on the blockchain, companies trust them instantly. This means you can apply for jobs anywhere in the world—even if you've never met the employer in person.
+DAOs increasingly gate governance participation and contributor roles behind credentials. To vote on a proposal in some communities, you need to hold an SBT showing you've completed an orientation or contributed to a specific project. This isn't gatekeeping for its own sake - it's an attempt to ensure that people making decisions have skin in the game.
 
-### **Building Your Reputation**
+For job applications, the picture is more mixed. Traditional employers outside the web3 ecosystem won't know what a Soulbound Token is. But this is changing, and it's changing fast in tech hiring. More practically: when you apply for remote work through platforms that serve web3 companies, your on-chain reputation is immediately legible to people doing the hiring.
 
-Your credentials tell your story. They show every achievement, every skill you've learned, every program you've completed. Over time, this builds a reputation that travels with you, no matter where you go.
+## Collecting credentials intentionally
 
-### **Access to Networks and Communities**
+Not all credentials are worth pursuing. Some are issued just to drive engagement with a platform - the on-chain equivalent of a pop-up notification asking you to rate your experience. The ones worth collecting have a few characteristics:
 
-Some exclusive groups and programs require credentials to join. Having the right credentials can give you access to mentorship opportunities, networking events, and communities that can help shape your career.
+- **Issued by a recognized organization** - either one with an established reputation in web3 (Gitcoin, major DAOs) or one your specific target audience will recognize
+- **Tied to verifiable activity** - completing a real course, making a contribution, passing an assessment, attending a specific event
+- **Held in a wallet you control** - not a custodial platform that could shut down and take your credentials with it
 
-### **Scholarships and Funding**
+Be selective. A wallet holding 50 irrelevant credentials from engagement farming campaigns tells a different story than one holding 8 credentials from meaningful programs.
 
-Many organizations now use credentials to identify candidates for scholarships and funding. Your achievements, verified by web3, make it easier for organizations to support your education or business ideas.
+## Practical setup
 
-### **Proof of Identity**
+Your credentials live in your wallet - but you need a way to present them. A few tools worth knowing:
 
-In a world where digital identity matters more every day, web3 credentials help you own your identity. You decide what to share and with whom—putting you in control.
+**Metamask** stores credentials associated with your address. **Ceramic Network** and **IDX** allow you to build a decentralized identity profile linked to your wallet. **Disco.xyz** is specifically built for managing and sharing your web3 identity and credentials in a readable format - think of it as a CV layer on top of your wallet.
 
-## Getting Started
+If you're presenting credentials to an organization that uses Gitcoin Passport, connect your wallet to passport.gitcoin.co and add your stamps (verifications). The more legitimate stamps you hold - linked GitHub account, proof of on-chain activity, verified identity - the higher your score.
 
-You don't need to be a tech expert to use web3 credentials. Here's how you can start:
+Keep your credentials tied to a wallet address you intend to use long-term. If you rotate wallets often, your credential history fragments across addresses, which weakens the signal.
 
-1. **Learn about wallets** – Your digital wallet is the first step. It's where your credentials will live.
-2. **Complete programs** – Look for Sarreya programs and courses that offer web3 credentials upon completion.
-3. **Keep your credentials safe** – Treat them like important documents. Back up your wallet information.
-4. **Share when ready** – When you apply for opportunities, you can share your credentials with confidence.
+## The bigger picture
 
-## Your Future, Your Credentials
+Credentials solve a trust problem. In contexts where institutions are weak, paper is unreliable, and long-distance verification is difficult - which describes a lot of East Africa's employment and opportunity space - on-chain credentials create an alternative track record. One that doesn't depend on geography, paper, or institutional continuity.
 
-The world is changing fast. More and more organizations are moving online and using blockchain technology. By understanding web3 credentials now, you're preparing yourself for opportunities that didn't exist before.
-
-Every course you complete, every skill you learn, every achievement you earn—it all adds up. Web3 credentials make sure those achievements are recognized, valued, and impossible to ignore.
-
-Start building your credentials today. Your future self will thank you.
+That's the actual utility. Not that your achievements are somehow more real, but that they're more *portable* and more *verifiable* in the contexts where it matters.
 
 ---
 
-*Next step: Learn about managing your digital identity in web3.*
+*Next: Managing your digital identity - what you share, with whom, and how to keep it consistent across platforms.*
