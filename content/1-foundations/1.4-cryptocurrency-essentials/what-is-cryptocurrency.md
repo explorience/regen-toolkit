@@ -31,7 +31,7 @@ stage: build
 
 ## The Short Version
 
-Cryptocurrency is digital money that doesn't need a bank. You can send it directly to anyone, anywhere in the world, using just your phone [Source S - Kaspersky].
+Cryptocurrency is digital money that doesn't need a bank. You can send it directly to anyone, anywhere in the world, using just your phone.
 
 If you've ever used PayPal or Venmo, it's similar—but there's no company in the middle keeping track. Instead, a network of computers around the world verifies every transaction together.
 
@@ -45,15 +45,15 @@ Why should you care? Because this technology can help communities trade, track r
 
 When you send money through your bank, they verify the transaction and update their records. With cryptocurrency, a **blockchain** does this job.
 
-Think of blockchain like a community seed library notebook that everyone shares. When someone borrows seeds, everyone writes it down. If one notebook gets lost, the others still have the correct record. No single person controls it—everyone holds each other accountable [Source S - Bitdegree].
+Think of blockchain like a community seed library notebook that everyone shares. When someone borrows seeds, everyone writes it down. If one notebook gets lost, the others still have the correct record. No single person controls it—everyone holds each other accountable.
 
 That's the key difference from regular digital banking: **no middleperson**.
 
 ### What Makes It Secure?
 
-The "crypto" part means mathematical coding that locks transactions. Once something is recorded on the blockchain, it can't be changed or deleted without the whole network agreeing [Source S - Bitdegree].
+The "crypto" part means mathematical coding that locks transactions. Once something is recorded on the blockchain, it can't be changed or deleted without the whole network agreeing.
 
-As one source puts it: "You own a key that allows you to move a record from one person to another without a trusted third party" [Source S - Kaspersky].
+As one source puts it: "You own a key that allows you to move a record from one person to another without a trusted third party".
 
 ---
 
@@ -62,9 +62,9 @@ As one source puts it: "You own a key that allows you to move a record from one 
 You might hear both terms:
 
 - **Cryptocurrency** = main digital money of a blockchain (like Bitcoin or Ethereum)
-- **Tokens** = digital assets built on top of a blockchain for specific purposes [Source S - Investopedia]
+- **Tokens** = digital assets built on top of a blockchain for specific purposes
 
-Tokens are like community currency. In a permaculture context, imagine "seed tokens" that represent ownership of certain seeds, or "tool tokens" that give access to shared garden equipment. The community decides the rules—no bank needed [Source S - Fiat Republic].
+Tokens are like community currency. In a permaculture context, imagine "seed tokens" that represent ownership of certain seeds, or "tool tokens" that give access to shared garden equipment. The community decides the rules—no bank needed.
 
 ---
 
@@ -76,7 +76,7 @@ Tokens are like community currency. In a permaculture context, imagine "seed tok
 
 3. **Cut Out Middlemen** – Get paid directly by anyone, anywhere, with lower fees.
 
-4. **Global Connections** – Receive international payments without the hassle [Source S - Kaspersky].
+4. **Global Connections** – Receive international payments without the hassle.
 
 ---
 
@@ -115,8 +115,10 @@ You don't need to become a trader. The value is seeing how technology can suppor
 
 ---
 
-## Resources
+## References
 
-- **Bankless Academy** – https://app.banklessacademy.com/ — Free beginner lessons [Source P]
-- **Kaspersky: What is Cryptocurrency?** – https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency [Source S]
-- **PwC: Understanding Cryptocurrency** – https://www.pwc.com/us/en/tech-effect/emerging-tech/understanding-cryptocurrency-digital-assets.html [Source S]
+- [Kaspersky: What is Cryptocurrency?](https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency)
+- [Bitdegree: Bitcoin & Blockchain](https://academy.bitdegree.org/courses/blockchain-basics/)
+- [Investopedia: Token](https://www.investopedia.com/terms/t/token.asp)
+- [Fiat Republic: Blockchain Use Cases](https://fiatrepublic.com/)
+- [PwC: Understanding Cryptocurrency](https://www.pwc.com/us/en/tech-effect/emerging-tech/understanding-cryptocurrency-digital-assets.html)
