@@ -4,8 +4,8 @@ description: Compare the best crypto wallets to find the right one for your need
 slug: wallet-comparison-guide
 section: '3.5'
 track: 3
-status: published
-author: Sonnet
+status: draft
+author: Tej Pipeline
 target_audience: beginner
 sources: []
 created: '2026-03-18'
@@ -16,11 +16,11 @@ updated: '2026-03-18'
 
 ## What is a Crypto Wallet?
 
-A crypto wallet is an app that lets you store, send, and receive digital money like USDC and ETH. It's like a bank account, but you control it yourself—no bank needed.
+A crypto wallet is an app that lets you store, send, and receive digital money like USDC and ETH. It's like a bank account, but you control it yourself - no bank needed.
 
 Your wallet has two important things:
-- **Public address** — like your account number, you can share this to receive money
-- **Secret phrase** (also called seed phrase) — 12 or 24 words that give full access to your money. NEVER share this!
+- **Public address** - like your account number, you can share this to receive money
+- **Secret phrase** (also called seed phrase) - 12 or 24 words that give full access to your money. Never share this.
 
 ---
 
@@ -28,7 +28,7 @@ Your wallet has two important things:
 
 Here are the most popular wallets, ranked for beginners using Android phones.
 
-### 1. Coinbase Wallet — Easiest for Beginners ⭐
+### 1. Coinbase Wallet - Easiest for Beginners
 
 **Best for:** Complete beginners who want the simplest experience
 
@@ -46,7 +46,7 @@ Here are the most popular wallets, ranked for beginners using Android phones.
 
 ---
 
-### 2. MetaMask — Most Popular
+### 2. MetaMask - Most Popular
 
 **Best for:** People who want to use Web3 apps and decentralized finance
 
@@ -64,7 +64,7 @@ Here are the most popular wallets, ranked for beginners using Android phones.
 
 ---
 
-### 3. Trust Wallet — Great for Mobile
+### 3. Trust Wallet - Great for Mobile
 
 **Best for:** Mobile-first users who want to hold many different coins
 
@@ -82,7 +82,7 @@ Here are the most popular wallets, ranked for beginners using Android phones.
 
 ---
 
-### 4. Rainbow Wallet — Beautiful Design
+### 4. Rainbow Wallet - Beautiful Design
 
 **Best for:** Android users who want a polished, easy-to-use experience
 
@@ -104,10 +104,10 @@ Here are the most popular wallets, ranked for beginners using Android phones.
 
 | Wallet | Best For | Difficulty | Android Support |
 |--------|----------|------------|-----------------|
-| Coinbase Wallet | Beginners | Very Easy | ✅ |
-| MetaMask | Web3 apps | Medium | ✅ |
-| Trust Wallet | Many coins | Easy | ✅ |
-| Rainbow | Design lovers | Easy | ✅ |
+| Coinbase Wallet | Beginners | Very Easy | Yes |
+| MetaMask | Web3 apps | Medium | Yes |
+| Trust Wallet | Many coins | Easy | Yes |
+| Rainbow | Design lovers | Easy | Yes |
 
 ---
 
@@ -123,10 +123,10 @@ Here are the most popular wallets, ranked for beginners using Android phones.
 
 ## Important Safety Tips
 
-1. **Never share your secret phrase** — Not even with friends, family, or anyone claiming to be support
-2. **Write it down on paper** — Don't store it on your phone or computer
-3. **Only download from official app stores** — Fake apps can steal your money
-4. **Start with a small amount** — Practice sending a tiny amount first before moving larger sums
+1. **Never share your secret phrase** - Not even with friends, family, or anyone claiming to be support
+2. **Write it down on paper** - Don't store it on your phone or computer
+3. **Only download from official app stores** - Fake apps can steal your money
+4. **Start with a small amount** - Practice sending a tiny amount first before moving larger sums
 
 ---
 
@@ -142,4 +142,4 @@ Here are the most popular wallets, ranked for beginners using Android phones.
 
 ## Need Help?
 
-If you have questions about setting up your wallet or making your first transfer, ask your Sarreya program coordinator. They're here to help you learn!
+If you have questions about setting up your wallet or making your first transfer, ask your Sarreya program coordinator. They can walk you through it.
