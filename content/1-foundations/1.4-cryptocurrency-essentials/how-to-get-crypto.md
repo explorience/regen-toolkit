@@ -37,7 +37,7 @@ Before we get to the "how," let's talk about the "why." Cryptocurrency is digita
 - **Supporting regenerative projects** that might not have bank accounts
 - **Being part of new systems** that don't rely on extractive finance
 
-> ⚠️ **Important heads-up:** Crypto isn't like money in a bank. There's no FDIC insurance protecting your funds [Source S]. If something goes wrong — a hack, a scam, a mistake — your money might be gone forever. We'll talk about staying safe later in this guide.
+> ⚠️ **Important heads-up:** Crypto isn't like money in a bank. There's no FDIC insurance protecting your funds. If something goes wrong — a hack, a scam, a mistake — your money might be gone forever. We'll talk about staying safe later in this guide.
 
 ---
 
@@ -54,16 +54,16 @@ Think of a cryptocurrency exchange like a marketplace — it's where people buy 
 These are companies that run the marketplace for you. You create an account, verify your identity (they'll ask for a driver's license), and then buy crypto using regular money like dollars or euros.
 
 - **Pros:** Super beginner-friendly, lots of options, good customer support
-- **Cons:** You don't control your own money — the exchange holds it for you [Source P]
+- **Cons:** You don't control your own money — the exchange holds it for you
 
-Popular options include **Coinbase**, **Binance**, and **Kraken**. If you're brand new, Coinbase is often recommended because its interface is the easiest to navigate [Source P].
+Popular options include **Coinbase**, **Binance**, and **Kraken**. If you're brand new, Coinbase is often recommended because its interface is the easiest to navigate.
 
 **Decentralized Exchanges (DEX)**
 
 These are more like a community marketplace — no company runs it, just code. You connect your own wallet and trade directly with other people.
 
 - **Pros:** You control your own money, more privacy, less risk of the company going bust
-- **Cons:** The interface can be trickier, and transactions sometimes take longer [Source P]
+- **Cons:** The interface can be trickier, and transactions sometimes take longer
 
 Popular DEXs include **Uniswap** and **Curve**.
 
@@ -81,13 +81,13 @@ Sometimes you want to buy crypto directly from a person rather than a company. T
 1. You browse offers from real people selling crypto
 2. You pay them using your bank account, PayPal, or even gift cards
 3. The platform holds the crypto in escrow (like a secure lockbox)
-4. Once you confirm you paid, the crypto gets released to you [Source S]
+4. Once you confirm you paid, the crypto gets released to you
 
 **Why people like it:** Less identity verification, more payment options, sometimes better prices.
 
 **Popular P2P platforms:** Paxful, LocalCoinSwap
 
-> ⚠️ **Safety note:** Only use the platform's escrow system. If someone asks you to pay outside the platform, that's a red flag — walk away [Source S].
+> ⚠️ **Safety note:** Only use the platform's escrow system. If someone asks you to pay outside the platform, that's a red flag — walk away.
 
 ---
 
@@ -100,12 +100,12 @@ You don't have to buy crypto — you can earn it! Here are some common ways:
 Remember how plants lock nutrients into soil to help the whole garden grow? Staking is similar — you "lock up" some of your crypto to help a blockchain network work properly. In return, you earn more crypto as a reward.
 
 - **What you need:** At least a little bit of crypto to start (the minimum varies by network)
-- **Potential rewards:** Usually 3-8% per year, depending on the network [Source S]
+- **Potential rewards:** Usually 3-8% per year, depending on the network
 - **Where to start:** Many exchanges let you stake directly — no technical setup needed
 
 **Airdrops**
 
-Sometimes projects give away free crypto to get attention — like a seed company sending you free sample packets. You might get tokens just for holding certain coins or for completing simple tasks on social media [Source S].
+Sometimes projects give away free crypto to get attention — like a seed company sending you free sample packets. You might get tokens just for holding certain coins or for completing simple tasks on social media.
 
 > 🌿 **Real talk:** Most airdrops aren't worth much, and some are scams. Don't get too excited about "free money" — it's usually a marketing thing.
 
@@ -123,14 +123,14 @@ Here's the part where we get serious. The crypto world has wonderful people buil
 
 - Someone contacts you out of the blue with an "investment opportunity"
 - Promises of guaranteed returns or "can't lose" deals
-- Anyone demanding payment in cryptocurrency — legitimate businesses won't do this [Source S]
+- Anyone demanding payment in cryptocurrency — legitimate businesses won't do this
 - "Love interests" online who want to help you invest (this is a very common scam)
 - Pressure tactics: "Act now or miss out!"
 
 **🛡️ Security Basics**
 
 1. **Never share your seed phrase** — that's the 12-24 words that give access to your wallet. No legitimate company will ever ask for this.
-2. **Use strong, unique passwords** — at least 12 characters, different for every account [Source S]
+2. **Use strong, unique passwords** — at least 12 characters, different for every account
 3. **Write down your seed phrase on paper** — never store it digitally (no photos, no cloud)
 4. **Start small** — don't invest more than you can afford to lose
 
@@ -151,7 +151,8 @@ Remember: You don't need to understand everything at once. Even master gardeners
 
 ---
 
-## Sources
+## References
 
-- [Source P] Bankless Academy (https://www.bankless.com/getting-started-with-crypto)
-- [Source S] FTC Consumer Advice (https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams), Trust Wallet Blog, various
+- [Bankless Academy - Getting Started with Crypto](https://www.bankless.com/getting-started-with-crypto)
+- [FTC - What to Know About Cryptocurrency Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams)
+- [Trust Wallet Blog](https://trustwallet.com/blog)
