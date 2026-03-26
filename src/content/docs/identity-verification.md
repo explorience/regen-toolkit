@@ -11,6 +11,18 @@ sources: []
 created: '2026-03-18'
 updated: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Identity
+  domain: Technical
+  systems:
+    - Trust-Networks
+    - Decentralization
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - credentials-certifications
+  - onchain-attestations
+  - operational-security
 ---
 
 # Identity Verification

@@ -6,7 +6,7 @@ track: 1
 status: published
 author: Rupa
 sources: []
-audience:
+target_audience:
 - somaliland
 - east-africa
 estimated_words: 1050
@@ -22,6 +22,20 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+    - Emergence
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-blockchain
+  - ethereum-ecosystem
+  - what-you-can-do-ethereum
+  - smart-contracts-explained
 ---
 
 # What is Ethereum? A Friendly Guide for Regenerative Community Builders

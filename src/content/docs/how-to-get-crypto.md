@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1151
 created: '2026-03-11T09:43:43.219Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,19 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-cryptocurrency
+  - setting-up-first-wallet
+  - stablecoins
+  - what-is-wallet
 ---
 
 # How to Get Cryptocurrency 🌱

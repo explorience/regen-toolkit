@@ -10,7 +10,7 @@ sources:
 - Priya Parker, The Art of Gathering
 - Adrienne Maree Brown, Emergent Strategy
 - Open Civics Framework
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1850
 created: '2026-03-11T09:43:43.385Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Community-Building
+  domain: Community
+  systems:
+    - Emergence
+    - Trust-Networks
+    - Feedback-Loops
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - types-of-gatherings
+  - planning-web3-events
+  - funding-gatherings
+  - building-momentum
 ---
 
 # The Gatherings Pattern

@@ -10,7 +10,7 @@ sources:
 - Inclusive community design
 - Equity in economic systems
 - Accessibility guidelines
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1700
 created: '2026-03-12T20:30:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Community-Building
+  domain: Community
+  systems:
+    - Mutual-Aid
+    - Trust-Networks
+    - Commons
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - onboarding-members
+  - building-trust
+  - conflict-resolution
+  - leadership-development
 ---
 
 # Inclusive Practices for Community Finance

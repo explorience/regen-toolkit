@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1000
 created: '2026-03-11T09:43:43.190Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,19 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - token-standards
+  - what-is-cryptocurrency
+  - nfts-beyond-art
+  - tokens-coordination-tools
 ---
 
 # What Are Tokens? A Beginner's Guide to Digital Assets

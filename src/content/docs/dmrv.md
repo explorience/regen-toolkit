@@ -11,6 +11,19 @@ sources: []
 created: '2026-03-18'
 updated: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Impact-Measurement
+  domain: Technical
+  systems:
+    - Feedback-Loops
+    - Trust-Networks
+    - Decentralization
+audience: Researcher
+maturity: Advanced
+related:
+  - why-measurement-matters
+  - onchain-attestations
+  - silvi-protocol
 ---
 
 # What is dMRV and Why Should You Care?

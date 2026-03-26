@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience:
+target_audience:
 - somaliland
 - east-africa
 estimated_words: 1050
@@ -22,6 +22,19 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Technical
+  systems:
+    - Decentralization
+    - Emergence
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - other-chains
+  - ethereum-ecosystem
+  - layer-2s
+  - what-is-ethereum
 ---
 
 # Which Chain is Right for Your Project?

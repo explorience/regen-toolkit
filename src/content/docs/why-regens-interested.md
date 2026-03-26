@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 937
 created: '2026-03-11T09:43:43.294Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,20 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Ecosystem
+  systems:
+    - Commons
+    - Circular-Economy
+    - Resilience
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-refi
+  - what-web3-can-cant-do
+  - common-concerns
+  - cooperative-commons
 ---
 
 ---

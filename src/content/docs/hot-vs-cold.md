@@ -7,7 +7,7 @@ track: 1
 status: published
 author: Regen Toolkit
 sources: []
-audience:
+target_audience:
 - Somaliland
 - East Africa
 estimated_words: 900
@@ -23,6 +23,19 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Security
+  domain: Personal
+  systems:
+    - Resilience
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - custodial-vs-noncustodial
+  - setting-up-first-wallet
+  - seed-phrases
+  - wallet-comparison-guide
 ---
 
 # Hot Wallets vs Cold Storage: Finding the Right Balance

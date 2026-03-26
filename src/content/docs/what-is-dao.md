@@ -9,7 +9,7 @@ sources:
 - Bankless Academy
 - SuperBenefit Knowledge Garden
 - Greenpill Local Regen Guide
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1100
 created: '2026-03-11T09:43:43.136Z'
@@ -24,6 +24,20 @@ issue: 0
 date: '2026-02-26'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Polycentric-Governance
+    - Decentralization
+    - Emergence
+audience: Individual
+maturity: Beginner
+related:
+  - dao-governance-models
+  - daos-vs-traditional
+  - is-dao-right
+  - examples-impact-daos
 ---
 
 # What is a DAO?

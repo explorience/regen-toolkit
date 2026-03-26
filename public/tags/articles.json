@@ -1,0 +1,1507 @@
+[
+  {
+    "slug": "minimum-viable-node",
+    "title": "Building a Minimum Viable Local Node",
+    "description": "How to start small, validate your community finance idea, and grow from",
+    "tags": {
+      "function": "Coordination",
+      "domain": "Community",
+      "systems": [
+        "Emergence",
+        "Resilience",
+        "Subsidiarity"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Beginner",
+    "related": [
+      "is-community-ready",
+      "common-pitfalls",
+      "funding-your-node",
+      "building-momentum"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "building-momentum",
+    "title": "Building Momentum for Your Local Node",
+    "description": "How to keep your community excited and growing over time.",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Feedback-Loops",
+        "Emergence",
+        "Resilience"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "building-trust",
+      "onboarding-members",
+      "common-pitfalls",
+      "leadership-development"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "building-trust",
+    "title": "Building Trust in Community Finance Communities",
+    "description": "The foundational practices that create the trust necessary for community",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Trust-Networks",
+        "Feedback-Loops",
+        "Resilience"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "building-momentum",
+      "conflict-resolution",
+      "trust-transparency",
+      "inclusive-practices"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "centralized-vs-decentralized",
+    "title": "Centralized vs. Decentralized Systems: What It Means for Your Garden and Community",
+    "description": "'Learn about centralized vs. decentralized systems: what it means for",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Resilience",
+        "Subsidiarity"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "decentralization-spectrum",
+      "decentralization-resilience",
+      "what-is-blockchain"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "common-concerns",
+    "title": "Common Concerns Addressed",
+    "description": "Honest answers to the common concerns people have about web3 and crypto.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Trust-Networks",
+        "Decentralization"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-web3-can-cant-do",
+      "common-scams",
+      "why-regens-interested"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "common-pitfalls",
+    "title": "Common Pitfalls When Starting a Local Node",
+    "description": "Lessons learned from communities who tried and (sometimes) failed.",
+    "tags": {
+      "function": "Coordination",
+      "domain": "Community",
+      "systems": [
+        "Feedback-Loops",
+        "Resilience",
+        "Emergence"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "minimum-viable-node",
+      "is-community-ready",
+      "building-momentum",
+      "building-trust"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "common-scams",
+    "title": "Common Scams: Protecting Your Web3 Journey",
+    "description": "'Learn about common scams: protecting your web3 journey in this Regen",
+    "tags": {
+      "function": "Security",
+      "domain": "Personal",
+      "systems": [
+        "Trust-Networks",
+        "Resilience"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "seed-phrases",
+      "operational-security",
+      "common-concerns",
+      "setting-up-first-wallet"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "conflict-resolution",
+    "title": "Conflict Resolution for Community Finance Communities",
+    "description": "How to navigate disagreements constructively in community governance,",
+    "tags": {
+      "function": "Governance",
+      "domain": "Community",
+      "systems": [
+        "Feedback-Loops",
+        "Trust-Networks",
+        "Resilience"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "building-trust",
+      "inclusive-practices",
+      "leadership-development",
+      "voting-mechanisms"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "cooperative-commons",
+    "title": "Cooperative Economics and Digital Commons",
+    "description": "Learn how cooperative economics and digital commons can help regenerative",
+    "tags": {
+      "function": "Economic-Design",
+      "domain": "Economics",
+      "systems": [
+        "Commons",
+        "Mutual-Aid",
+        "Circular-Economy"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "local-currency",
+      "tokens-coordination-tools",
+      "what-is-refi",
+      "decentralization-resilience"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "credentials-certifications",
+    "title": "Credentials and Certifications",
+    "description": "How web3 credentials create portable, verifiable proof of your skills",
+    "tags": {
+      "function": "Identity",
+      "domain": "Technical",
+      "systems": [
+        "Trust-Networks",
+        "Decentralization"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Intermediate",
+    "related": [
+      "identity-verification",
+      "onchain-attestations",
+      "nfts-beyond-art"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "custodial-vs-noncustodial",
+    "title": "Custodial vs Non-Custodial Wallets: Understanding Who Holds the Keys",
+    "description": "Learn about custodial vs noncustodial in this Regen Toolkit article.",
+    "tags": {
+      "function": "Security",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-wallet",
+      "setting-up-first-wallet",
+      "seed-phrases",
+      "hot-vs-cold"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "dao-governance-models",
+    "title": "DAO Governance Models",
+    "description": "An overview of the main governance models DAOs use to make decisions",
+    "tags": {
+      "function": "Governance",
+      "domain": "Governance",
+      "systems": [
+        "Polycentric-Governance",
+        "Decentralization",
+        "Subsidiarity"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Intermediate",
+    "related": [
+      "voting-mechanisms",
+      "what-is-dao",
+      "daos-vs-traditional",
+      "is-dao-right"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "dao-tooling",
+    "title": "DAO Tooling Landscape",
+    "description": "Learn about dao tooling landscape in this Regen Toolkit article.",
+    "tags": {
+      "function": "Infrastructure",
+      "domain": "Technical",
+      "systems": [
+        "Decentralization",
+        "Polycentric-Governance"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Intermediate",
+    "related": [
+      "dao-governance-models",
+      "multisig-setup",
+      "voting-mechanisms",
+      "what-is-dao"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "daos-vs-traditional",
+    "title": "DAOs vs Traditional Organizations",
+    "description": "Learn about daos vs traditional in this Regen Toolkit article.",
+    "tags": {
+      "function": "Governance",
+      "domain": "Governance",
+      "systems": [
+        "Decentralization",
+        "Polycentric-Governance"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "what-is-dao",
+      "dao-governance-models",
+      "legal-structures",
+      "is-dao-right"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "decentralization-resilience",
+    "title": "Decentralization and Resilience",
+    "description": "Learn about decentralization resilience in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Ecosystem",
+      "systems": [
+        "Decentralization",
+        "Resilience",
+        "Emergence"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "centralized-vs-decentralized",
+      "decentralization-spectrum",
+      "cooperative-commons"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "dmrv",
+    "title": "dMRV (Digital Measurement, Reporting, and Verification)",
+    "description": "Learn about digital measurement, reporting, and verification (dMRV) and",
+    "tags": {
+      "function": "Impact-Measurement",
+      "domain": "Technical",
+      "systems": [
+        "Feedback-Loops",
+        "Trust-Networks",
+        "Decentralization"
+      ]
+    },
+    "audience": "Researcher",
+    "maturity": "Advanced",
+    "related": [
+      "why-measurement-matters",
+      "onchain-attestations",
+      "silvi-protocol"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "documentation-knowledge",
+    "title": "Documentation for Local Nodes",
+    "description": "How to capture and share knowledge so your community learns and grows.",
+    "tags": {
+      "function": "Coordination",
+      "domain": "Community",
+      "systems": [
+        "Feedback-Loops",
+        "Commons",
+        "Resilience"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "building-momentum",
+      "minimum-viable-node",
+      "onboarding-members"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "examples-impact-daos",
+    "title": "Examples Impact Daos",
+    "description": "Learn about examples impact daos in this Regen Toolkit article.",
+    "tags": {
+      "function": "Coordination",
+      "domain": "Ecosystem",
+      "systems": [
+        "Polycentric-Governance",
+        "Commons",
+        "Emergence"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "what-is-dao",
+      "dao-governance-models",
+      "what-is-refi",
+      "is-dao-right"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "funding-gatherings",
+    "title": "Funding Your Gatherings",
+    "description": "Practical strategies for funding community events from zero budget to",
+    "tags": {
+      "function": "Funding",
+      "domain": "Community",
+      "systems": [
+        "Mutual-Aid",
+        "Commons",
+        "Circular-Economy"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "gatherings-pattern",
+      "funding-your-node",
+      "planning-web3-events",
+      "types-of-gatherings"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "funding-your-node",
+    "title": "Funding Your Local Node",
+    "description": "How to finance your community finance system — from free to funded.",
+    "tags": {
+      "function": "Funding",
+      "domain": "Community",
+      "systems": [
+        "Mutual-Aid",
+        "Commons",
+        "Circular-Economy"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "minimum-viable-node",
+      "funding-gatherings",
+      "legal-structures",
+      "multisig-setup"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "hot-vs-cold",
+    "title": "Hot Wallets vs Cold Storage",
+    "description": "Learn the difference between hot wallets and cold storage, and how to",
+    "tags": {
+      "function": "Security",
+      "domain": "Personal",
+      "systems": [
+        "Resilience",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "custodial-vs-noncustodial",
+      "setting-up-first-wallet",
+      "seed-phrases",
+      "wallet-comparison-guide"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "how-to-get-crypto",
+    "title": "How To Get Crypto",
+    "description": "Learn about how to get crypto in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-cryptocurrency",
+      "setting-up-first-wallet",
+      "stablecoins",
+      "what-is-wallet"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "identity-verification",
+    "title": "Identity Verification",
+    "description": "Understanding identity verification in web3 and what it means for your",
+    "tags": {
+      "function": "Identity",
+      "domain": "Technical",
+      "systems": [
+        "Trust-Networks",
+        "Decentralization"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "credentials-certifications",
+      "onchain-attestations",
+      "operational-security"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "inclusive-practices",
+    "title": "Inclusive Practices for Community Finance",
+    "description": "How to design community finance systems that welcome and serve diverse",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Mutual-Aid",
+        "Trust-Networks",
+        "Commons"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "onboarding-members",
+      "building-trust",
+      "conflict-resolution",
+      "leadership-development"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "is-dao-right",
+    "title": "Is a DAO Right for Your Community?",
+    "description": "A plain-language guide to help permaculture communities and grassroots",
+    "tags": {
+      "function": "Governance",
+      "domain": "Governance",
+      "systems": [
+        "Polycentric-Governance",
+        "Decentralization",
+        "Emergence"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "what-is-dao",
+      "daos-vs-traditional",
+      "dao-governance-models",
+      "legal-structures"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "is-community-ready",
+    "title": "Is Your Community Ready for a Local Node?",
+    "description": "How to assess if your community has what it takes to run a local finance",
+    "tags": {
+      "function": "Coordination",
+      "domain": "Community",
+      "systems": [
+        "Emergence",
+        "Trust-Networks",
+        "Feedback-Loops"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Beginner",
+    "related": [
+      "minimum-viable-node",
+      "common-pitfalls",
+      "building-trust",
+      "is-dao-right"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "key-terms-a-z",
+    "title": "Key Terms A-Z",
+    "description": "A comprehensive glossary of key web3 and Regen terms for beginners.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-blockchain",
+      "what-is-cryptocurrency",
+      "what-is-ethereum",
+      "what-is-refi"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "layer-2s",
+    "title": "Layer 2 Solutions",
+    "description": "Learn how Layer 2 solutions scale Ethereum and why they matter for regenerative",
+    "tags": {
+      "function": "Infrastructure",
+      "domain": "Technical",
+      "systems": [
+        "Decentralization",
+        "Fractals",
+        "Thresholds"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Intermediate",
+    "related": [
+      "what-is-ethereum",
+      "ethereum-ecosystem",
+      "which-chain-right",
+      "other-chains"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "leadership-development",
+    "title": "Leadership Development for Community Finance",
+    "description": "How to identify, develop, and distribute leadership within your local",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Emergence",
+        "Resilience",
+        "Subsidiarity"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "conflict-resolution",
+      "building-trust",
+      "inclusive-practices",
+      "building-momentum"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "legal-structures",
+    "title": "Legal Structures for Local Node DAOs",
+    "description": "Understanding the legal options for your community finance organization.",
+    "tags": {
+      "function": "Governance",
+      "domain": "Governance",
+      "systems": [
+        "Polycentric-Governance",
+        "Subsidiarity"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Advanced",
+    "related": [
+      "is-dao-right",
+      "daos-vs-traditional",
+      "funding-your-node",
+      "multisig-setup"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "local-currency",
+    "title": "Local Currency Design for Community Finance",
+    "description": "A practical guide to designing and launching a community currency that",
+    "tags": {
+      "function": "Economic-Design",
+      "domain": "Economics",
+      "systems": [
+        "Circular-Economy",
+        "Mutual-Aid",
+        "Commons"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Advanced",
+    "related": [
+      "cooperative-commons",
+      "tokens-coordination-tools",
+      "what-are-tokens",
+      "stablecoins"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "multisig-setup",
+    "title": "Multisig Setup for Community Treasuries",
+    "description": "How to set up multi-signature wallets to secure community funds with",
+    "tags": {
+      "function": "Security",
+      "domain": "Technical",
+      "systems": [
+        "Trust-Networks",
+        "Decentralization",
+        "Resilience"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Intermediate",
+    "related": [
+      "security-best-practices-orgs",
+      "dao-tooling",
+      "funding-your-node",
+      "operational-security"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "nfts-beyond-art",
+    "title": "NFTs Beyond Art: Practical Applications of Digital Ownership",
+    "description": "Learn how NFTs — blockchain-based ownership records — are being used",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Trust-Networks",
+        "Decentralization"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Intermediate",
+    "related": [
+      "what-are-tokens",
+      "token-standards",
+      "credentials-certifications",
+      "onchain-attestations"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "onchain-attestations",
+    "title": "On-Chain Attestations",
+    "description": "Learn how on-chain attestations create verifiable proof of skills, achievements,",
+    "tags": {
+      "function": "Impact-Measurement",
+      "domain": "Technical",
+      "systems": [
+        "Trust-Networks",
+        "Decentralization",
+        "Feedback-Loops"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Advanced",
+    "related": [
+      "credentials-certifications",
+      "identity-verification",
+      "dmrv",
+      "nfts-beyond-art"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "onboarding-members",
+    "title": "Onboarding New Members to Your Local Node",
+    "description": "A step-by-step guide to welcoming, orienting, and integrating new members",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Trust-Networks",
+        "Emergence",
+        "Feedback-Loops"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "building-momentum",
+      "inclusive-practices",
+      "building-trust",
+      "minimum-viable-node"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "operational-security",
+    "title": "Operational Security",
+    "description": "Learn about operational security in this Regen Toolkit article.",
+    "tags": {
+      "function": "Security",
+      "domain": "Technical",
+      "systems": [
+        "Resilience",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Advanced",
+    "related": [
+      "security-best-practices-orgs",
+      "multisig-setup",
+      "recovery-planning",
+      "seed-phrases"
+    ],
+    "status": "not-started"
+  },
+  {
+    "slug": "other-chains",
+    "title": "Other Chains and Ecosystems",
+    "description": "Explore the major blockchain ecosystems beyond Ethereum — Solana, Cosmos,",
+    "tags": {
+      "function": "Education",
+      "domain": "Ecosystem",
+      "systems": [
+        "Decentralization",
+        "Emergence"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Intermediate",
+    "related": [
+      "which-chain-right",
+      "ethereum-ecosystem",
+      "layer-2s",
+      "what-is-ethereum"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "planning-web3-events",
+    "title": "Planning Web3 Events for Your Local Node",
+    "description": "How to run events that build community and grow your local node.",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Trust-Networks",
+        "Emergence",
+        "Feedback-Loops"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "gatherings-pattern",
+      "types-of-gatherings",
+      "funding-gatherings",
+      "building-momentum"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "recovery-planning",
+    "title": "Recovery Planning",
+    "description": "Learn about recovery planning in this Regen Toolkit article.",
+    "tags": {
+      "function": "Security",
+      "domain": "Personal",
+      "systems": [
+        "Resilience",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Intermediate",
+    "related": [
+      "seed-phrases",
+      "hot-vs-cold",
+      "operational-security",
+      "custodial-vs-noncustodial"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "security-best-practices-orgs",
+    "title": "Security Best Practices for Organizations Using Crypto Wallets",
+    "description": "Essential security practices for regenerative organizations managing",
+    "tags": {
+      "function": "Security",
+      "domain": "Technical",
+      "systems": [
+        "Resilience",
+        "Trust-Networks",
+        "Decentralization"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Advanced",
+    "related": [
+      "multisig-setup",
+      "operational-security",
+      "recovery-planning",
+      "common-scams"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "seed-phrases",
+    "title": "Seed Phrases",
+    "description": "Learn about seed phrases in this Regen Toolkit article.",
+    "tags": {
+      "function": "Security",
+      "domain": "Personal",
+      "systems": [
+        "Resilience",
+        "Decentralization"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "setting-up-first-wallet",
+      "recovery-planning",
+      "custodial-vs-noncustodial",
+      "hot-vs-cold"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "setting-up-first-wallet",
+    "title": "Setting Up Your First Wallet",
+    "description": "A beginner-friendly guide to setting up your first cryptocurrency wallet,",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-wallet",
+      "seed-phrases",
+      "custodial-vs-noncustodial",
+      "wallet-comparison-guide"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "silvi-protocol",
+    "title": "Silvi Protocol Playbook",
+    "description": "A practical guide to using Silvi Protocol for tree planting and impact",
+    "tags": {
+      "function": "Impact-Measurement",
+      "domain": "Ecosystem",
+      "systems": [
+        "Feedback-Loops",
+        "Trust-Networks",
+        "Commons"
+      ]
+    },
+    "audience": "Researcher",
+    "maturity": "Advanced",
+    "related": [
+      "dmrv",
+      "onchain-attestations",
+      "what-is-refi",
+      "why-measurement-matters"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "smart-contracts-explained",
+    "title": "Smart Contracts Explained",
+    "description": "Learn about smart contracts explained in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Technical",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-ethereum",
+      "what-is-blockchain",
+      "ethereum-ecosystem",
+      "dao-tooling"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "stablecoins",
+    "title": "Stablecoins explained",
+    "description": "Learn about stablecoins explained in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Trust-Networks",
+        "Resilience"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-cryptocurrency",
+      "how-to-get-crypto",
+      "what-are-tokens",
+      "why-accept-crypto"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "decentralization-spectrum",
+    "title": "The Decentralization Spectrum",
+    "description": "Learn about decentralization spectrum in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Subsidiarity",
+        "Polycentric-Governance"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "centralized-vs-decentralized",
+      "decentralization-resilience",
+      "trust-transparency"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "ethereum-ecosystem",
+    "title": "The Ethereum Ecosystem",
+    "description": "Learn what Ethereum is, how it works, and why it matters for regenerative",
+    "tags": {
+      "function": "Education",
+      "domain": "Ecosystem",
+      "systems": [
+        "Decentralization",
+        "Emergence"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-ethereum",
+      "what-you-can-do-ethereum",
+      "layer-2s",
+      "smart-contracts-explained"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "gatherings-pattern",
+    "title": "The Gatherings Pattern",
+    "description": "A framework for designing gatherings that build community, deepen relationships,",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Emergence",
+        "Trust-Networks",
+        "Feedback-Loops"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Intermediate",
+    "related": [
+      "types-of-gatherings",
+      "planning-web3-events",
+      "funding-gatherings",
+      "building-momentum"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "token-standards",
+    "title": "Token Standards",
+    "description": "Learn about token standards in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Technical",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Intermediate",
+    "related": [
+      "what-are-tokens",
+      "nfts-beyond-art",
+      "smart-contracts-explained",
+      "tokens-coordination-tools"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "tokens-coordination-tools",
+    "title": "Tokens as Coordination Tools",
+    "description": "Learn how tokens can help regenerative communities coordinate decisions,",
+    "tags": {
+      "function": "Economic-Design",
+      "domain": "Economics",
+      "systems": [
+        "Feedback-Loops",
+        "Emergence",
+        "Circular-Economy"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "what-are-tokens",
+      "cooperative-commons",
+      "local-currency",
+      "token-standards"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "trust-transparency",
+    "title": "Trust and Transparency in Decentralized Systems",
+    "description": "Learn about trust transparency in this Regen Toolkit article.",
+    "tags": {
+      "function": "Governance",
+      "domain": "Governance",
+      "systems": [
+        "Trust-Networks",
+        "Decentralization",
+        "Feedback-Loops"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "building-trust",
+      "decentralization-spectrum",
+      "centralized-vs-decentralized",
+      "what-is-blockchain"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "types-of-gatherings",
+    "title": "Types of Gatherings for Local Nodes",
+    "description": "A guide to different gathering formats and when to use each one for maximum",
+    "tags": {
+      "function": "Community-Building",
+      "domain": "Community",
+      "systems": [
+        "Emergence",
+        "Trust-Networks",
+        "Mutual-Aid"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Beginner",
+    "related": [
+      "gatherings-pattern",
+      "planning-web3-events",
+      "funding-gatherings",
+      "building-momentum"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "voting-mechanisms",
+    "title": "Voting Mechanisms",
+    "description": "Learn about voting mechanisms in this Regen Toolkit article.",
+    "tags": {
+      "function": "Governance",
+      "domain": "Governance",
+      "systems": [
+        "Polycentric-Governance",
+        "Feedback-Loops",
+        "Decentralization"
+      ]
+    },
+    "audience": "DAO-Operator",
+    "maturity": "Advanced",
+    "related": [
+      "dao-governance-models",
+      "what-is-dao",
+      "dao-tooling",
+      "conflict-resolution"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "wallet-comparison-guide",
+    "title": "Wallet Comparison Guide",
+    "description": "Compare the best crypto wallets to find the right one for your needs.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "setting-up-first-wallet",
+      "what-is-wallet",
+      "custodial-vs-noncustodial",
+      "hot-vs-cold"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-are-tokens",
+    "title": "What Are Tokens? A Beginner's Guide to Digital Assets",
+    "description": "Learn about what are tokens in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "token-standards",
+      "what-is-cryptocurrency",
+      "nfts-beyond-art",
+      "tokens-coordination-tools"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-is-dao",
+    "title": "What is a DAO?",
+    "description": "Learn about what is a dao? in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Polycentric-Governance",
+        "Decentralization",
+        "Emergence"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "dao-governance-models",
+      "daos-vs-traditional",
+      "is-dao-right",
+      "examples-impact-daos"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-is-blockchain",
+    "title": "What Is Blockchain",
+    "description": "Learn about what is blockchain in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-cryptocurrency",
+      "what-is-ethereum",
+      "centralized-vs-decentralized"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-is-cryptocurrency",
+    "title": "What Is Cryptocurrency",
+    "description": "Learn about what is cryptocurrency in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-blockchain",
+      "how-to-get-crypto",
+      "stablecoins",
+      "what-are-tokens"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-is-ethereum",
+    "title": "What is Ethereum? A Friendly Guide for Regenerative Community Builders",
+    "description": "Learn about what is ethereum in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks",
+        "Emergence"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-blockchain",
+      "ethereum-ecosystem",
+      "what-you-can-do-ethereum",
+      "smart-contracts-explained"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-is-refi",
+    "title": "What is ReFi?",
+    "description": "A clear introduction to Regenerative Finance — what it is, how it works,",
+    "tags": {
+      "function": "Education",
+      "domain": "Ecosystem",
+      "systems": [
+        "Circular-Economy",
+        "Commons",
+        "Resilience"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "why-regens-interested",
+      "what-web3-can-cant-do",
+      "cooperative-commons",
+      "what-is-dao"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-is-wallet",
+    "title": "What Is Wallet",
+    "description": "Learn about what is wallet in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "setting-up-first-wallet",
+      "custodial-vs-noncustodial",
+      "seed-phrases",
+      "wallet-comparison-guide"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-web3-can-cant-do",
+    "title": "What Web3 Can and Can't Do",
+    "description": "Understanding the real capabilities and limitations of Web3 technology",
+    "tags": {
+      "function": "Education",
+      "domain": "Web3-Literacy",
+      "systems": [
+        "Decentralization",
+        "Trust-Networks",
+        "Resilience"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "common-concerns",
+      "what-is-refi",
+      "why-regens-interested",
+      "centralized-vs-decentralized"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "what-you-can-do-ethereum",
+    "title": "What You Can Do on Ethereum",
+    "description": "",
+    "tags": {
+      "function": "Education",
+      "domain": "Ecosystem",
+      "systems": [
+        "Decentralization",
+        "Emergence",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-ethereum",
+      "ethereum-ecosystem",
+      "smart-contracts-explained",
+      "layer-2s"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "which-chain-right",
+    "title": "Which Chain is Right for Your Project?",
+    "description": "Learn about which chain is right in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Technical",
+      "systems": [
+        "Decentralization",
+        "Emergence"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "other-chains",
+      "ethereum-ecosystem",
+      "layer-2s",
+      "what-is-ethereum"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "why-accept-crypto",
+    "title": "Why Accept Crypto Donations?",
+    "description": "Learn why your regenerative organization should consider accepting cryptocurrency",
+    "tags": {
+      "function": "Funding",
+      "domain": "Economics",
+      "systems": [
+        "Circular-Economy",
+        "Decentralization",
+        "Trust-Networks"
+      ]
+    },
+    "audience": "Local-Organizer",
+    "maturity": "Beginner",
+    "related": [
+      "how-to-get-crypto",
+      "stablecoins",
+      "what-is-cryptocurrency",
+      "setting-up-first-wallet"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "why-measurement-matters",
+    "title": "Why Measurement Matters",
+    "description": "Understand why measuring your project's impact is essential for attracting",
+    "tags": {
+      "function": "Impact-Measurement",
+      "domain": "Ecosystem",
+      "systems": [
+        "Feedback-Loops",
+        "Trust-Networks",
+        "Commons"
+      ]
+    },
+    "audience": "Community-Steward",
+    "maturity": "Intermediate",
+    "related": [
+      "dmrv",
+      "onchain-attestations",
+      "silvi-protocol",
+      "trust-transparency"
+    ],
+    "status": "published"
+  },
+  {
+    "slug": "why-regens-interested",
+    "title": "Why Regens Interested",
+    "description": "Learn about why regens interested in this Regen Toolkit article.",
+    "tags": {
+      "function": "Education",
+      "domain": "Ecosystem",
+      "systems": [
+        "Commons",
+        "Circular-Economy",
+        "Resilience"
+      ]
+    },
+    "audience": "Individual",
+    "maturity": "Beginner",
+    "related": [
+      "what-is-refi",
+      "what-web3-can-cant-do",
+      "common-concerns",
+      "cooperative-commons"
+    ],
+    "status": "published"
+  }
+]

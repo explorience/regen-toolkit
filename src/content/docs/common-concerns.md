@@ -14,6 +14,18 @@ review_done: false
 critique_done: false
 date: '2026-03-25'
 stage: draft
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Trust-Networks
+    - Decentralization
+audience: Individual
+maturity: Beginner
+related:
+  - what-web3-can-cant-do
+  - common-scams
+  - why-regens-interested
 ---
 
 # Common Concerns Addressed

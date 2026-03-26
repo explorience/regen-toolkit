@@ -10,7 +10,7 @@ sources:
 - Pontinova Law
 - O'Melveny
 - CoinDesk
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1900
 created: '2026-03-12T07:45:00.000Z'
@@ -23,6 +23,19 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Governance
+  domain: Governance
+  systems:
+    - Polycentric-Governance
+    - Subsidiarity
+audience: DAO-Operator
+maturity: Advanced
+related:
+  - is-dao-right
+  - daos-vs-traditional
+  - funding-your-node
+  - multisig-setup
 ---
 
 # Legal Structures for Local Node DAOs

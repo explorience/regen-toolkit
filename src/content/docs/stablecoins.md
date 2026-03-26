@@ -6,7 +6,7 @@ track: 1
 status: published
 author: Regen Toolkit Team
 sources: []
-audience: []
+target_audience: []
 estimated_words: 840
 created: '2026-03-11T09:43:43.217Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,19 @@ issue: 0
 date: '2026-01-15'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Trust-Networks
+    - Resilience
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-cryptocurrency
+  - how-to-get-crypto
+  - what-are-tokens
+  - why-accept-crypto
 ---
 
 # Stablecoins Explained

@@ -10,7 +10,7 @@ sources:
 - Community organizing practice
 - Priya Parker, The Art of Gathering
 - Adrienne Maree Brown, Emergent Strategy
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1850
 created: '2026-03-12T09:00:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Community-Building
+  domain: Community
+  systems:
+    - Emergence
+    - Trust-Networks
+    - Mutual-Aid
+audience: Local-Organizer
+maturity: Beginner
+related:
+  - gatherings-pattern
+  - planning-web3-events
+  - funding-gatherings
+  - building-momentum
 ---
 
 # Types of Gatherings for Local Nodes

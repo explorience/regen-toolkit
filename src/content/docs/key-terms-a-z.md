@@ -10,6 +10,19 @@ sources: []
 created: '2026-03-18'
 updated: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-blockchain
+  - what-is-cryptocurrency
+  - what-is-ethereum
+  - what-is-refi
 ---
 
 # Key Terms A-Z

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regen Toolkit - Tag Explorer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; }
+    
+    header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 24px; display: flex; align-items: center; gap: 16px; }
+    header h1 { font-size: 1.2rem; color: #58a6ff; }
+    header a { color: #8b949e; text-decoration: none; font-size: 0.85rem; }
+    header a:hover { color: #e6edf3; }
+    
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    
+    .filters { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
+    .filter-group { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px 16px; }
+    .filter-group h3 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #8b949e; margin-bottom: 8px; }
+    .filter-group .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    
+    .tag { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; cursor: pointer; border: 1px solid transparent; transition: all 0.15s; user-select: none; }
+    .tag:hover { opacity: 0.9; }
+    .tag.active { border-color: #fff; box-shadow: 0 0 6px rgba(88, 166, 255, 0.3); }
+    
+    .tag-function { background: #1a3a2a; color: #3fb950; }
+    .tag-domain { background: #1a2a3a; color: #58a6ff; }
+    .tag-systems { background: #2a1a3a; color: #bc8cff; }
+    .tag-audience { background: #3a2a1a; color: #d29922; }
+    .tag-maturity { background: #3a1a1a; color: #f85149; }
+    
+    .stats { color: #8b949e; font-size: 0.85rem; margin-bottom: 16px; }
+    .stats strong { color: #e6edf3; }
+    
+    .clear-btn { background: #21262d; color: #8b949e; border: 1px solid #30363d; padding: 4px 12px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
+    .clear-btn:hover { color: #e6edf3; border-color: #58a6ff; }
+    
+    .articles { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+    
+    .article-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; transition: border-color 0.15s; }
+    .article-card:hover { border-color: #58a6ff; }
+    .article-card h3 { font-size: 0.95rem; margin-bottom: 6px; }
+    .article-card h3 a { color: #58a6ff; text-decoration: none; }
+    .article-card h3 a:hover { text-decoration: underline; }
+    .article-card .desc { font-size: 0.8rem; color: #8b949e; margin-bottom: 10px; line-height: 1.4; }
+    .article-card .card-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+    .article-card .card-tag { font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; }
+    .article-card .meta { font-size: 0.7rem; color: #6e7681; margin-top: 8px; }
+    
+    .article-card.hidden { display: none; }
+    
+    .no-results { text-align: center; color: #8b949e; padding: 48px; font-size: 0.95rem; }
+    
+    @media (max-width: 768px) {
+      .filters { flex-direction: column; }
+      .articles { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tag Explorer</h1>
+    <a href="/">Home</a>
+    <a href="/explorer/">Knowledge Map</a>
+  </header>
+  
+  <div class="container">
+    <div class="filters" id="filters"></div>
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+      <div class="stats" id="stats"></div>
+      <button class="clear-btn" onclick="clearFilters()">Clear filters</button>
+    </div>
+    <div class="articles" id="articles"></div>
+    <div class="no-results" id="no-results" style="display:none">No articles match the selected filters.</div>
+  </div>
+
+  <script>
+    let articles = [];
+    let activeFilters = { function: null, domain: null, systems: null, audience: null, maturity: null };
+
+    const FILTER_DEFS = {
+      function: { label: 'Function', class: 'tag-function', values: [] },
+      domain: { label: 'Domain', class: 'tag-domain', values: [] },
+      systems: { label: 'Systems Concepts', class: 'tag-systems', values: [] },
+      audience: { label: 'Audience', class: 'tag-audience', values: [] },
+      maturity: { label: 'Maturity', class: 'tag-maturity', values: [] }
+    };
+
+    async function init() {
+      // Load articles data from generated JSON
+      try {
+        const res = await fetch('/tags/articles.json');
+        articles = await res.json();
+      } catch(e) {
+        document.getElementById('articles').innerHTML = '<div class="no-results">Loading articles data... If this persists, the tag enrichment may still be in progress.</div>';
+        return;
+      }
+
+      // Extract unique values for each filter
+      articles.forEach(a => {
+        if (a.tags) {
+          if (a.tags.function) addUnique(FILTER_DEFS.function.values, a.tags.function);
+          if (a.tags.domain) addUnique(FILTER_DEFS.domain.values, a.tags.domain);
+          if (a.tags.systems) a.tags.systems.forEach(s => addUnique(FILTER_DEFS.systems.values, s));
+        }
+        if (a.audience) addUnique(FILTER_DEFS.audience.values, a.audience);
+        if (a.maturity) addUnique(FILTER_DEFS.maturity.values, a.maturity);
+      });
+
+      // Sort values
+      Object.values(FILTER_DEFS).forEach(d => d.values.sort());
+
+      renderFilters();
+      renderArticles();
+    }
+
+    function addUnique(arr, val) {
+      if (!arr.includes(val)) arr.push(val);
+    }
+
+    function renderFilters() {
+      const container = document.getElementById('filters');
+      container.innerHTML = '';
+      
+      for (const [key, def] of Object.entries(FILTER_DEFS)) {
+        if (def.values.length === 0) continue;
+        const group = document.createElement('div');
+        group.className = 'filter-group';
+        group.innerHTML = `<h3>${def.label}</h3><div class="tags">${
+          def.values.map(v => 
+            `<span class="tag ${def.class}${activeFilters[key] === v ? ' active' : ''}" 
+                  onclick="toggleFilter('${key}', '${v}')">${v.replace(/-/g, ' ')}</span>`
+          ).join('')
+        }</div>`;
+        container.appendChild(group);
+      }
+    }
+
+    function toggleFilter(key, value) {
+      activeFilters[key] = activeFilters[key] === value ? null : value;
+      renderFilters();
+      renderArticles();
+    }
+
+    function clearFilters() {
+      Object.keys(activeFilters).forEach(k => activeFilters[k] = null);
+      renderFilters();
+      renderArticles();
+    }
+
+    function matchesFilters(article) {
+      for (const [key, value] of Object.entries(activeFilters)) {
+        if (!value) continue;
+        if (key === 'function' && (!article.tags || article.tags.function !== value)) return false;
+        if (key === 'domain' && (!article.tags || article.tags.domain !== value)) return false;
+        if (key === 'systems' && (!article.tags || !article.tags.systems || !article.tags.systems.includes(value))) return false;
+        if (key === 'audience' && article.audience !== value) return false;
+        if (key === 'maturity' && article.maturity !== value) return false;
+      }
+      return true;
+    }
+
+    function renderArticles() {
+      const container = document.getElementById('articles');
+      const noResults = document.getElementById('no-results');
+      const statsEl = document.getElementById('stats');
+      
+      const filtered = articles.filter(matchesFilters);
+      
+      statsEl.innerHTML = `Showing <strong>${filtered.length}</strong> of <strong>${articles.length}</strong> articles`;
+      
+      if (filtered.length === 0) {
+        container.innerHTML = '';
+        noResults.style.display = 'block';
+        return;
+      }
+      
+      noResults.style.display = 'none';
+      container.innerHTML = filtered.map(a => {
+        const tags = [];
+        if (a.tags?.function) tags.push(`<span class="card-tag tag-function">${a.tags.function.replace(/-/g, ' ')}</span>`);
+        if (a.tags?.domain) tags.push(`<span class="card-tag tag-domain">${a.tags.domain.replace(/-/g, ' ')}</span>`);
+        if (a.tags?.systems) a.tags.systems.forEach(s => tags.push(`<span class="card-tag tag-systems">${s.replace(/-/g, ' ')}</span>`));
+        if (a.audience) tags.push(`<span class="card-tag tag-audience">${a.audience.replace(/-/g, ' ')}</span>`);
+        if (a.maturity) tags.push(`<span class="card-tag tag-maturity">${a.maturity}</span>`);
+        
+        const related = a.related ? `<div class="meta">Related: ${a.related.map(r => `<a href="/${r}/" style="color:#58a6ff;text-decoration:none;font-size:0.7rem">${r.replace(/-/g, ' ')}</a>`).join(', ')}</div>` : '';
+        
+        return `<div class="article-card">
+          <h3><a href="/${a.slug}/">${a.title}</a></h3>
+          <div class="desc">${a.description || ''}</div>
+          <div class="card-tags">${tags.join('')}</div>
+          ${related}
+        </div>`;
+      }).join('');
+    }
+
+    init();
+  </script>
+</body>
+</html>

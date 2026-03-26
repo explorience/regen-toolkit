@@ -9,7 +9,7 @@ sources:
 - Yellow.com DAO Tools Platform Guide 2025
 - Colony Blog - Top 9 Tools for Managing DAOs
 - Bankless Academy - DAO Governance Education
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1100
 created: '2026-03-11T09:43:43.143Z'
@@ -24,6 +24,19 @@ issue: 0
 date: '2026-02-26'
 category: foundations
 stage: build
+tags:
+  function: Infrastructure
+  domain: Technical
+  systems:
+    - Decentralization
+    - Polycentric-Governance
+audience: DAO-Operator
+maturity: Intermediate
+related:
+  - dao-governance-models
+  - multisig-setup
+  - voting-mechanisms
+  - what-is-dao
 ---
 
 # DAO Tooling Landscape

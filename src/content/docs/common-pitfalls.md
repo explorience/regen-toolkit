@@ -9,7 +9,7 @@ sources:
 - Greenpill Local Regen Guide
 - DAO governance research
 - Community building literature
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1600
 created: '2026-03-12T12:25:00.000Z'
@@ -22,6 +22,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Coordination
+  domain: Community
+  systems:
+    - Feedback-Loops
+    - Resilience
+    - Emergence
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - minimum-viable-node
+  - is-community-ready
+  - building-momentum
+  - building-trust
 ---
 
 # Common Pitfalls When Starting a Local Node

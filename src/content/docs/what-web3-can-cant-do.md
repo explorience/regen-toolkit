@@ -7,7 +7,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 870
 created: '2026-03-11T09:43:43.297Z'
 last_updated: '2026-03-26'
@@ -21,6 +21,20 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+    - Resilience
+audience: Individual
+maturity: Beginner
+related:
+  - common-concerns
+  - what-is-refi
+  - why-regens-interested
+  - centralized-vs-decentralized
 ---
 
 # What Web3 Can and Can't Do

@@ -10,7 +10,7 @@ sources:
 - Nonviolent Communication (Marshall Rosenberg)
 - Adaptive Leadership (Heifetz & Linsky)
 - Crucial Conversations (Patterson et al.)
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1700
 created: '2026-03-12T20:30:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Governance
+  domain: Community
+  systems:
+    - Feedback-Loops
+    - Trust-Networks
+    - Resilience
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - building-trust
+  - inclusive-practices
+  - leadership-development
+  - voting-mechanisms
 ---
 
 # Conflict Resolution for Community Finance Communities

@@ -11,6 +11,20 @@ sources: []
 created: '2026-03-18'
 updated: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Impact-Measurement
+  domain: Ecosystem
+  systems:
+    - Feedback-Loops
+    - Trust-Networks
+    - Commons
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - dmrv
+  - onchain-attestations
+  - silvi-protocol
+  - trust-transparency
 ---
 
 # Why Measurement Matters

@@ -7,7 +7,7 @@ track: 1
 status: published
 author: Regen Toolkit
 sources: []
-audience:
+target_audience:
 - Somaliland
 - East Africa
 estimated_words: 900
@@ -23,6 +23,20 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Economic-Design
+  domain: Economics
+  systems:
+    - Commons
+    - Mutual-Aid
+    - Circular-Economy
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - local-currency
+  - tokens-coordination-tools
+  - what-is-refi
+  - decentralization-resilience
 ---
 
 # Cooperative Economics and Digital Commons

@@ -7,7 +7,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1100
 created: '2026-03-11T09:43:43.263Z'
 last_updated: '2026-03-26'
@@ -21,6 +21,20 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Security
+  domain: Technical
+  systems:
+    - Resilience
+    - Trust-Networks
+    - Decentralization
+audience: DAO-Operator
+maturity: Advanced
+related:
+  - multisig-setup
+  - operational-security
+  - recovery-planning
+  - common-scams
 ---
 
 # Security Best Practices for Organizations Using Crypto Wallets

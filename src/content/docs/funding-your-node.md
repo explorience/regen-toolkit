@@ -10,7 +10,7 @@ sources:
 - Gitcoin grants
 - ReFi DAO
 - Cooperative finance
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1700
 created: '2026-03-12T13:00:00.000Z'
@@ -23,6 +23,20 @@ critique_done: false
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Funding
+  domain: Community
+  systems:
+    - Mutual-Aid
+    - Commons
+    - Circular-Economy
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - minimum-viable-node
+  - funding-gatherings
+  - legal-structures
+  - multisig-setup
 ---
 
 # Funding Your Local Node

@@ -11,7 +11,7 @@ sources:
 - Gitcoin Grants
 - Giveth
 - Endaoment
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1900
 created: '2026-03-12T16:00:00.000Z'
@@ -24,6 +24,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Funding
+  domain: Community
+  systems:
+    - Mutual-Aid
+    - Commons
+    - Circular-Economy
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - gatherings-pattern
+  - funding-your-node
+  - planning-web3-events
+  - types-of-gatherings
 ---
 
 # Funding Your Gatherings

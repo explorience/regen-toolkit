@@ -7,7 +7,7 @@ track: 1
 status: published
 author: Regen Toolkit
 sources: []
-audience:
+target_audience:
 - Somaliland
 - East Africa
 estimated_words: 900
@@ -23,6 +23,20 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Infrastructure
+  domain: Technical
+  systems:
+    - Decentralization
+    - Fractals
+    - Thresholds
+audience: Individual
+maturity: Intermediate
+related:
+  - what-is-ethereum
+  - ethereum-ecosystem
+  - which-chain-right
+  - other-chains
 ---
 
 # Layer 2 Solutions: Scaling Ethereum for Everyone

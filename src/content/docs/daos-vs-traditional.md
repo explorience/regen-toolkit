@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1000
 created: '2026-03-11T09:43:43.139Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,19 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Governance
+  domain: Governance
+  systems:
+    - Decentralization
+    - Polycentric-Governance
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - what-is-dao
+  - dao-governance-models
+  - legal-structures
+  - is-dao-right
 ---
 
 # DAOs vs Traditional Organizations: A New Way to Coordinate

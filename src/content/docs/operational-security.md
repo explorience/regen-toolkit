@@ -8,7 +8,7 @@ author: unknown
 sources:
 - CryptoAltruists Web3 Impact Toolkit
 - Bankless Academy
-audience:
+target_audience:
 - grounded-regen
 - curious-degen
 - onchain-regen
@@ -25,6 +25,19 @@ issue: 0
 date: '2026-01-15'
 category: applied
 stage: build
+tags:
+  function: Security
+  domain: Technical
+  systems:
+    - Resilience
+    - Trust-Networks
+audience: DAO-Operator
+maturity: Advanced
+related:
+  - security-best-practices-orgs
+  - multisig-setup
+  - recovery-planning
+  - seed-phrases
 ---
 
 # Operational Security

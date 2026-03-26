@@ -8,7 +8,7 @@ author: unknown
 sources:
 - Bankless Academy (https://app.banklessacademy.com/)
 - Mango Research (https://www.mangoresearch.co/blockchain-dlt-trustless-system/)
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 551
 created: '2026-03-11T09:43:43.312Z'
@@ -23,6 +23,18 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: published
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-cryptocurrency
+  - what-is-ethereum
+  - centralized-vs-decentralized
 ---
 
 # What is Blockchain?

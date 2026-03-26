@@ -11,7 +11,7 @@ sources:
 - CoinDesk
 - Mirror/ReFi DAO
 - ProCoders
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1600
 created: '2026-03-12T12:15:00.000Z'
@@ -24,6 +24,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Coordination
+  domain: Community
+  systems:
+    - Emergence
+    - Resilience
+    - Subsidiarity
+audience: Local-Organizer
+maturity: Beginner
+related:
+  - is-community-ready
+  - common-pitfalls
+  - funding-your-node
+  - building-momentum
 ---
 
 # Building a Minimum Viable Local Node

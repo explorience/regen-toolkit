@@ -5,7 +5,7 @@ track: 1
 status: published
 author: Tej Pipeline
 sources: []
-audience: []
+target_audience: []
 estimated_words: 950
 created: '2026-03-25'
 last_updated: '2026-03-26'
@@ -19,6 +19,20 @@ issue: 0
 date: '2026-03-25'
 category: foundations
 stage: draft
+tags:
+  function: Education
+  domain: Ecosystem
+  systems:
+    - Decentralization
+    - Emergence
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-ethereum
+  - ethereum-ecosystem
+  - smart-contracts-explained
+  - layer-2s
 ---
 
 # What You Can Do on Ethereum

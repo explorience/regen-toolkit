@@ -10,7 +10,7 @@ sources:
 - Member onboarding best practices
 - Community building research
 - Cooperative onboarding guides
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1700
 created: '2026-03-12T20:30:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Community-Building
+  domain: Community
+  systems:
+    - Trust-Networks
+    - Emergence
+    - Feedback-Loops
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - building-momentum
+  - inclusive-practices
+  - building-trust
+  - minimum-viable-node
 ---
 
 # Onboarding New Members to Your Local Node

@@ -9,7 +9,7 @@ author: HeenAI
 sources:
 - url
 - note
-audience:
+target_audience:
 - beginner
 - intermediate
 estimated_words: 1265
@@ -25,6 +25,19 @@ issue: 0
 date: '2026-02-25'
 category: foundations
 stage: build
+tags:
+  function: Security
+  domain: Personal
+  systems:
+    - Trust-Networks
+    - Resilience
+audience: Individual
+maturity: Beginner
+related:
+  - seed-phrases
+  - operational-security
+  - common-concerns
+  - setting-up-first-wallet
 ---
 
 # Common Scams: Protecting Your Web3 Journey

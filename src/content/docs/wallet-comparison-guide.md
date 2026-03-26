@@ -10,6 +10,19 @@ sources: []
 created: '2026-03-18'
 updated: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - setting-up-first-wallet
+  - what-is-wallet
+  - custodial-vs-noncustodial
+  - hot-vs-cold
 ---
 
 # Wallet Comparison Guide

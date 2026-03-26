@@ -7,7 +7,7 @@ track: 1
 status: published
 author: rupa
 sources: []
-audience:
+target_audience:
 - 🌱 beginner (grounded-regen)
 estimated_words: 1020
 created: '2026-03-11T09:43:43.250Z'
@@ -22,6 +22,19 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: published
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Trust-Networks
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-wallet
+  - seed-phrases
+  - custodial-vs-noncustodial
+  - wallet-comparison-guide
 ---
 
 # Setting Up Your First Wallet

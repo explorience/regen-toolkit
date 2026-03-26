@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1105
 created: '2026-03-11T09:43:43.124Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,20 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Coordination
+  domain: Ecosystem
+  systems:
+    - Polycentric-Governance
+    - Commons
+    - Emergence
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - what-is-dao
+  - dao-governance-models
+  - what-is-refi
+  - is-dao-right
 ---
 
 # Real Examples of Impact DAOs

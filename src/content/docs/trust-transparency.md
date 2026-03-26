@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1000
 created: '2026-03-11T09:43:43.185Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,20 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Governance
+  domain: Governance
+  systems:
+    - Trust-Networks
+    - Decentralization
+    - Feedback-Loops
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - building-trust
+  - decentralization-spectrum
+  - centralized-vs-decentralized
+  - what-is-blockchain
 ---
 
 # Trust and Transparency in Decentralized Systems

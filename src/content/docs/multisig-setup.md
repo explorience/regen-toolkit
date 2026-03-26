@@ -6,7 +6,7 @@ section: '2.7'
 track: 2
 status: published
 author: Regen Toolkit
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1800
 created: '2026-03-12T20:30:00.000Z'
@@ -20,6 +20,20 @@ published_flag: true
 issue: 0
 date: '2026-03-12'
 category: applied
+tags:
+  function: Security
+  domain: Technical
+  systems:
+    - Trust-Networks
+    - Decentralization
+    - Resilience
+audience: DAO-Operator
+maturity: Intermediate
+related:
+  - security-best-practices-orgs
+  - dao-tooling
+  - funding-your-node
+  - operational-security
 ---
 
 # Multisig Setup for Community Treasuries

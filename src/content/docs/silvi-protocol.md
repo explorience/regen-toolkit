@@ -11,6 +11,20 @@ sources: []
 created: '2026-03-18'
 updated: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Impact-Measurement
+  domain: Ecosystem
+  systems:
+    - Feedback-Loops
+    - Trust-Networks
+    - Commons
+audience: Researcher
+maturity: Advanced
+related:
+  - dmrv
+  - onchain-attestations
+  - what-is-refi
+  - why-measurement-matters
 ---
 
 # Silvi Protocol Playbook: A Practical Guide to Tree Planting and Verification

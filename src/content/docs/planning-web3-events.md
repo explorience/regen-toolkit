@@ -9,7 +9,7 @@ sources:
 - Greenpill Local Regen Guide
 - Event organizing guides
 - DAO community events
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1800
 created: '2026-03-12T13:40:00.000Z'
@@ -22,6 +22,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Community-Building
+  domain: Community
+  systems:
+    - Trust-Networks
+    - Emergence
+    - Feedback-Loops
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - gatherings-pattern
+  - types-of-gatherings
+  - funding-gatherings
+  - building-momentum
 ---
 
 # Planning Web3 Events for Your Local Node

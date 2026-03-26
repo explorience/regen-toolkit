@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1111
 created: '2026-03-11T09:43:43.258Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,19 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Security
+  domain: Personal
+  systems:
+    - Resilience
+    - Trust-Networks
+audience: Individual
+maturity: Intermediate
+related:
+  - seed-phrases
+  - hot-vs-cold
+  - operational-security
+  - custodial-vs-noncustodial
 ---
 
 # Crypto Wallet Recovery Planning: Ensuring Access for the Long Term

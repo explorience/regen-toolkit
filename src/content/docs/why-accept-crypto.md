@@ -7,7 +7,7 @@ track: 1
 status: published
 author: Regen Toolkit
 sources: []
-audience:
+target_audience:
 - Somaliland
 - East Africa
 estimated_words: 900
@@ -23,6 +23,20 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Funding
+  domain: Economics
+  systems:
+    - Circular-Economy
+    - Decentralization
+    - Trust-Networks
+audience: Local-Organizer
+maturity: Beginner
+related:
+  - how-to-get-crypto
+  - stablecoins
+  - what-is-cryptocurrency
+  - setting-up-first-wallet
 ---
 
 # Why Accept Crypto Donations?

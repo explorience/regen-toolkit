@@ -11,6 +11,20 @@ sources: []
 created: '2026-03-18'
 updated: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Impact-Measurement
+  domain: Technical
+  systems:
+    - Trust-Networks
+    - Decentralization
+    - Feedback-Loops
+audience: DAO-Operator
+maturity: Advanced
+related:
+  - credentials-certifications
+  - identity-verification
+  - dmrv
+  - nfts-beyond-art
 ---
 
 # On-Chain Attestations: Your Digital Proof Record

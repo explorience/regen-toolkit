@@ -6,7 +6,7 @@ section: '1.7'
 track: '1'
 status: published
 author: Regen Toolkit
-audience: ''
+target_audience: ''
 estimated_words: '1000'
 created: '2026-03-11T09:43:43.194Z'
 last_updated: '2026-03-26'
@@ -20,6 +20,19 @@ issue: '0'
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Trust-Networks
+    - Decentralization
+audience: Individual
+maturity: Intermediate
+related:
+  - what-are-tokens
+  - token-standards
+  - credentials-certifications
+  - onchain-attestations
 ---
 
 # NFTs Beyond Art: Practical Applications of Digital Ownership

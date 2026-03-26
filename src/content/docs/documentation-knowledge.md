@@ -9,7 +9,7 @@ sources:
 - Greenpill Local Regen Guide
 - Community knowledge management
 - DAO governance
-audience:
+target_audience:
 - somaliland
 - east-africa
 estimated_words: 1750
@@ -23,6 +23,19 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Coordination
+  domain: Community
+  systems:
+    - Feedback-Loops
+    - Commons
+    - Resilience
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - building-momentum
+  - minimum-viable-node
+  - onboarding-members
 ---
 
 # Documentation for Local Nodes

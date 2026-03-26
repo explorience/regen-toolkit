@@ -10,7 +10,7 @@ sources:
 - Local currency design guides
 - Timebanking research
 - Community currency case studies (Ithaca Hours, Brixton Pound)
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1700
 created: '2026-03-12T20:30:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Economic-Design
+  domain: Economics
+  systems:
+    - Circular-Economy
+    - Mutual-Aid
+    - Commons
+audience: Community-Steward
+maturity: Advanced
+related:
+  - cooperative-commons
+  - tokens-coordination-tools
+  - what-are-tokens
+  - stablecoins
 ---
 
 # Local Currency Design for Community Finance

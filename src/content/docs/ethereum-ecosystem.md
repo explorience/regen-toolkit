@@ -7,7 +7,7 @@ track: 1
 status: published
 author: Regen Toolkit
 sources: []
-audience:
+target_audience:
 - Somaliland
 - East Africa
 estimated_words: 900
@@ -23,6 +23,19 @@ issue: 0
 date: '2026-03-26'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Ecosystem
+  systems:
+    - Decentralization
+    - Emergence
+audience: Individual
+maturity: Beginner
+related:
+  - what-is-ethereum
+  - what-you-can-do-ethereum
+  - layer-2s
+  - smart-contracts-explained
 ---
 
 # The Ethereum Ecosystem: A Grounded Guide

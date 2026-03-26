@@ -12,10 +12,24 @@ sources:
 - MakerDAO Governance Documentation
 - Gitcoin Quadratic Funding Research
 - KlimaDAO Whitepaper
-audience:
+target_audience:
 - grounded-regen
 category: foundations
 stage: build
+tags:
+  function: Economic-Design
+  domain: Economics
+  systems:
+    - Feedback-Loops
+    - Emergence
+    - Circular-Economy
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - what-are-tokens
+  - cooperative-commons
+  - local-currency
+  - token-standards
 ---
 
 # Tokens as Coordination Tools

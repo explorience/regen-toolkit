@@ -10,7 +10,7 @@ sources:
 - Distributed leadership research
 - Organizing for America training materials
 - Cooperative leadership development
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1700
 created: '2026-03-12T20:30:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Community-Building
+  domain: Community
+  systems:
+    - Emergence
+    - Resilience
+    - Subsidiarity
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - conflict-resolution
+  - building-trust
+  - inclusive-practices
+  - building-momentum
 ---
 
 # Leadership Development for Community Finance

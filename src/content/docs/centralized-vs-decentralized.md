@@ -10,7 +10,7 @@ sources:
 - Bankless Academy
 - PMC Article - Resilience assessment of centralized and distributed food systems
   (2022)
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1100
 created: '2026-03-11T09:43:43.176Z'
@@ -25,6 +25,19 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Web3-Literacy
+  systems:
+    - Decentralization
+    - Resilience
+    - Subsidiarity
+audience: Individual
+maturity: Beginner
+related:
+  - decentralization-spectrum
+  - decentralization-resilience
+  - what-is-blockchain
 ---
 
 # Centralized vs. Decentralized Systems: What It Means for Your Garden and Community

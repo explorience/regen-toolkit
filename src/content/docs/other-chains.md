@@ -13,10 +13,23 @@ sources:
 - Polkadot Wiki
 - Avalanche Documentation
 - Near Protocol Documentation
-audience:
+target_audience:
 - grounded-regen
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Ecosystem
+  systems:
+    - Decentralization
+    - Emergence
+audience: Individual
+maturity: Intermediate
+related:
+  - which-chain-right
+  - ethereum-ecosystem
+  - layer-2s
+  - what-is-ethereum
 ---
 
 # Other Chains and Ecosystems

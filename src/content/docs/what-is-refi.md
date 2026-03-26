@@ -11,10 +11,24 @@ sources:
 - Toucan Protocol Documentation
 - Gitcoin Quadratic Funding Research
 - ReFi DAO Local ReFi Toolkit
-audience:
+target_audience:
 - grounded-regen
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Ecosystem
+  systems:
+    - Circular-Economy
+    - Commons
+    - Resilience
+audience: Individual
+maturity: Beginner
+related:
+  - why-regens-interested
+  - what-web3-can-cant-do
+  - cooperative-commons
+  - what-is-dao
 ---
 
 # What is ReFi?

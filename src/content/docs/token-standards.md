@@ -6,7 +6,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience:
+target_audience:
 - somaliland
 - east-africa
 estimated_words: 1000
@@ -22,6 +22,19 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Education
+  domain: Technical
+  systems:
+    - Decentralization
+    - Trust-Networks
+audience: Individual
+maturity: Intermediate
+related:
+  - what-are-tokens
+  - nfts-beyond-art
+  - smart-contracts-explained
+  - tokens-coordination-tools
 ---
 
 # Token Standards: The Building Blocks of Digital Assets

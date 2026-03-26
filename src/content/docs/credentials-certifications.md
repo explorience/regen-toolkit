@@ -10,6 +10,18 @@ target_audience: beginner
 sources: []
 created: '2026-03-18'
 last_updated: '2026-03-26'
+tags:
+  function: Identity
+  domain: Technical
+  systems:
+    - Trust-Networks
+    - Decentralization
+audience: Individual
+maturity: Intermediate
+related:
+  - identity-verification
+  - onchain-attestations
+  - nfts-beyond-art
 ---
 
 # Credentials and Certifications

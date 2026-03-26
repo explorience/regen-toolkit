@@ -7,7 +7,7 @@ track: 1
 status: published
 author: unknown
 sources: []
-audience: []
+target_audience: []
 estimated_words: 1050
 created: '2026-03-11T09:43:43.131Z'
 last_updated: '2026-03-26'
@@ -21,6 +21,20 @@ issue: 0
 date: '2026-03-11'
 category: foundations
 stage: build
+tags:
+  function: Governance
+  domain: Governance
+  systems:
+    - Polycentric-Governance
+    - Decentralization
+    - Emergence
+audience: Community-Steward
+maturity: Intermediate
+related:
+  - what-is-dao
+  - daos-vs-traditional
+  - dao-governance-models
+  - legal-structures
 ---
 
 # Is a DAO Right for Your Community?

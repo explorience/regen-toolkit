@@ -10,7 +10,7 @@ sources:
 - Community readiness research
 - Cooperative development guides
 - Greenpill Network local node playbook
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1800
 created: '2026-03-12T12:50:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Coordination
+  domain: Community
+  systems:
+    - Emergence
+    - Trust-Networks
+    - Feedback-Loops
+audience: Local-Organizer
+maturity: Beginner
+related:
+  - minimum-viable-node
+  - common-pitfalls
+  - building-trust
+  - is-dao-right
 ---
 
 # Is Your Community Ready for a Local Node?

@@ -10,7 +10,7 @@ sources:
 - Francis Fukuyama, Trust
 - Robert Cialdini, Influence
 - Community resilience research
-audience:
+target_audience:
 - grounded-regen
 estimated_words: 1700
 created: '2026-03-12T20:30:00.000Z'
@@ -23,6 +23,20 @@ critique_done: true
 published_flag: true
 issue: 0
 category: applied
+tags:
+  function: Community-Building
+  domain: Community
+  systems:
+    - Trust-Networks
+    - Feedback-Loops
+    - Resilience
+audience: Local-Organizer
+maturity: Intermediate
+related:
+  - building-momentum
+  - conflict-resolution
+  - trust-transparency
+  - inclusive-practices
 ---
 
 # Building Trust in Community Finance Communities
