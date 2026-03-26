@@ -11,3 +11,4 @@ dist/
 # OS
 .DS_Store
 *.sync-conflict-*
+working/
