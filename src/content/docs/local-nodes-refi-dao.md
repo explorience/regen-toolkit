@@ -1,5 +1,5 @@
 ---
-# What are Local Nodes and ReFi DAOs?
+title: "What are Local Nodes and ReFi DAOs?"
 draft: true
 ---
 

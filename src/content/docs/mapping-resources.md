@@ -1,5 +1,5 @@
 ---
-# Mapping Regenerative Finance Resources
+title: "Mapping Regenerative Finance Resources"
 draft: true
 ---
 

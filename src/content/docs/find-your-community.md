@@ -1,5 +1,5 @@
 ---
-# How to Find Your Regenerative Community
+title: "How to Find Your Regenerative Community"
 draft: true
 ---
 
