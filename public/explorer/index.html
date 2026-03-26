@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regen Toolkit - Knowledge Explorer</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #e6edf3; overflow: hidden; }
+    #app { display: flex; height: 100vh; }
+    
+    #sidebar {
+      width: 320px; background: #161b22; border-right: 1px solid #30363d;
+      padding: 20px; overflow-y: auto; flex-shrink: 0; z-index: 10;
+    }
+    #sidebar h1 { font-size: 1.3rem; margin-bottom: 4px; color: #58a6ff; }
+    #sidebar .subtitle { font-size: 0.8rem; color: #8b949e; margin-bottom: 20px; }
+    #sidebar h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: #8b949e; margin: 16px 0 8px; }
+    
+    .path-btn {
+      display: block; width: 100%; padding: 10px 12px; margin-bottom: 6px;
+      background: #21262d; border: 1px solid #30363d; border-radius: 6px;
+      color: #e6edf3; font-size: 0.85rem; cursor: pointer; text-align: left; transition: all 0.2s;
+    }
+    .path-btn:hover { border-color: #58a6ff; }
+    .path-btn.active { border-color: var(--path-color, #58a6ff); background: color-mix(in srgb, var(--path-color, #58a6ff) 15%, #21262d); }
+    .path-btn .path-desc { font-size: 0.75rem; color: #8b949e; margin-top: 2px; }
+    .path-btn .path-count { font-size: 0.7rem; color: #8b949e; float: right; margin-top: 2px; }
+    
+    .legend-item { display: inline-flex; align-items: center; margin: 3px 8px 3px 0; font-size: 0.75rem; color: #8b949e; cursor: pointer; }
+    .legend-item:hover { color: #e6edf3; }
+    .legend-item.active { color: #e6edf3; font-weight: bold; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+    
+    .stats { display: flex; gap: 12px; margin: 12px 0; }
+    .stat { text-align: center; }
+    .stat .num { font-size: 1.4rem; font-weight: bold; color: #58a6ff; }
+    .stat .label { font-size: 0.65rem; color: #8b949e; text-transform: uppercase; }
+    
+    #info-panel { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 14px; margin-top: 16px; display: none; }
+    #info-panel.visible { display: block; }
+    #info-panel h3 { font-size: 0.95rem; margin-bottom: 6px; }
+    #info-panel .category-badge { display: inline-block; font-size: 0.7rem; padding: 2px 8px; border-radius: 12px; margin-bottom: 8px; }
+    #info-panel .status { font-size: 0.8rem; color: #8b949e; margin-bottom: 8px; }
+    #info-panel .read-btn { display: inline-block; padding: 6px 14px; background: #238636; color: #fff; border-radius: 6px; text-decoration: none; font-size: 0.85rem; cursor: pointer; border: none; }
+    #info-panel .read-btn:hover { background: #2ea043; }
+    
+    #graph { flex: 1; position: relative; }
+    svg { width: 100%; height: 100%; }
+    
+    /* Cluster backgrounds */
+    .cluster-bg { stroke: none; opacity: 0.06; }
+    .cluster-label { font-size: 13px; font-weight: bold; opacity: 0.5; pointer-events: none; text-anchor: middle; }
+    
+    .edge { stroke-width: 0.5; opacity: 0.12; }
+    .edge.cross-cat { stroke-dasharray: 4,3; opacity: 0.25; stroke-width: 0.8; }
+    .edge.on-path { stroke-width: 2.5; opacity: 0.8; }
+    .edge.highlighted { opacity: 0.5; stroke-width: 1; }
+    .edge.dimmed { opacity: 0.03; }
+    
+    .node { cursor: pointer; }
+    .node circle { stroke-width: 1.5; transition: r 0.15s; }
+    .node.unwritten circle { stroke-dasharray: 2,2; opacity: 0.4; }
+    .node.on-path circle { stroke-width: 3px; }
+    .node.dimmed { opacity: 0.08; }
+    .node.highlighted circle { stroke-width: 2.5; filter: drop-shadow(0 0 4px rgba(255,255,255,0.3)); }
+    .node text { font-size: 9px; fill: #8b949e; pointer-events: none; opacity: 0; transition: opacity 0.2s; }
+    .node.show-label text, .node.highlighted text, .node.on-path text { opacity: 1; }
+    .node.on-path text { fill: #e6edf3; font-weight: bold; }
+    
+    .order-badge { pointer-events: none; }
+    .order-badge circle { stroke: none; }
+    .order-badge text { font-size: 8px; font-weight: bold; fill: #fff; text-anchor: middle; dominant-baseline: central; }
+    
+    .path-trail { fill: none; stroke-width: 3; opacity: 0.7; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 8,4; }
+    .path-trail-bg { fill: none; stroke-width: 7; opacity: 0.12; stroke-linecap: round; stroke-linejoin: round; }
+    
+    /* Reader panel */
+    #reader { position: fixed; top: 0; right: -50vw; width: 50vw; height: 100vh; background: #161b22; border-left: 1px solid #30363d; transition: right 0.3s ease; z-index: 100; display: flex; flex-direction: column; }
+    #reader.open { right: 0; }
+    #reader-header { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; border-bottom: 1px solid #30363d; flex-shrink: 0; }
+    #reader-title { font-size: 1rem; font-weight: bold; }
+    #reader-close { background: none; border: 1px solid #30363d; color: #8b949e; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+    #reader-close:hover { color: #e6edf3; border-color: #58a6ff; }
+    #reader-nav { display: flex; gap: 8px; padding: 8px 20px; border-bottom: 1px solid #30363d; flex-shrink: 0; }
+    .reader-nav-btn { background: #21262d; border: 1px solid #30363d; color: #8b949e; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+    .reader-nav-btn:hover { color: #e6edf3; border-color: #58a6ff; }
+    .reader-nav-btn:disabled { opacity: 0.3; cursor: default; }
+    #reader-step { font-size: 0.8rem; color: #8b949e; line-height: 28px; }
+    #reader-content { flex: 1; overflow-y: auto; padding: 0; }
+    #reader-content iframe { width: 100%; height: 100%; border: none; background: #0d1117; }
+    #reader-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.4); z-index: 90; }
+    #reader-overlay.visible { display: block; }
+    
+    /* Zoom controls */
+    .zoom-controls { position: absolute; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 4px; z-index: 5; }
+    .zoom-btn { width: 36px; height: 36px; background: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #e6edf3; font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .zoom-btn:hover { border-color: #58a6ff; }
+    
+    @media (max-width: 768px) {
+      #sidebar { width: 100%; height: 35vh; border-right: none; border-bottom: 1px solid #30363d; }
+      #app { flex-direction: column; }
+      #graph { height: 65vh; }
+      #reader { width: 100vw; right: -100vw; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="sidebar">
+      <h1>Regen Toolkit</h1>
+      <p class="subtitle">Knowledge Explorer - 301 topics across 12 domains</p>
+      <div class="stats">
+        <div class="stat"><div class="num" id="stat-total">0</div><div class="label">Topics</div></div>
+        <div class="stat"><div class="num" id="stat-written">0</div><div class="label">Written</div></div>
+        <div class="stat"><div class="num" id="stat-paths">0</div><div class="label">Paths</div></div>
+        <div class="stat"><div class="num" id="stat-edges">0</div><div class="label">Links</div></div>
+      </div>
+      <h2>Learning Paths</h2>
+      <div id="path-buttons"></div>
+      <h2>Categories <span style="font-size:0.7rem;font-weight:normal">(click to filter)</span></h2>
+      <div id="legend"></div>
+      <div id="info-panel">
+        <h3 id="info-title"></h3>
+        <div class="category-badge" id="info-category"></div>
+        <div class="status" id="info-status"></div>
+        <div id="info-connections" style="font-size:0.8rem;color:#8b949e;margin-bottom:8px"></div>
+        <button id="info-read-btn" class="read-btn" style="display:none">Read article</button>
+      </div>
+    </div>
+    <div id="graph">
+      <svg></svg>
+      <div class="zoom-controls">
+        <button class="zoom-btn" id="zoom-in">+</button>
+        <button class="zoom-btn" id="zoom-out">-</button>
+        <button class="zoom-btn" id="zoom-fit" title="Fit to screen">&#8689;</button>
+      </div>
+    </div>
+  </div>
+  
+  <div id="reader-overlay"></div>
+  <div id="reader">
+    <div id="reader-header">
+      <span id="reader-title"></span>
+      <button id="reader-close">&times; Close</button>
+    </div>
+    <div id="reader-nav">
+      <button class="reader-nav-btn" id="reader-prev">&larr; Prev</button>
+      <span id="reader-step"></span>
+      <button class="reader-nav-btn" id="reader-next">Next &rarr;</button>
+    </div>
+    <div id="reader-content"></div>
+  </div>
+
+<script>
+async function init() {
+  const resp = await fetch('/explorer/knowledge-graph.json');
+  const data = await resp.json();
+  
+  const catMap = {};
+  data.categories.forEach(c => catMap[c.id] = c);
+  const nodeMap = {};
+  data.nodes.forEach(n => { nodeMap[n.id] = n; });
+  
+  document.getElementById('stat-total').textContent = data.nodes.length;
+  document.getElementById('stat-written').textContent = data.nodes.filter(n => n.written).length;
+  document.getElementById('stat-paths').textContent = Object.keys(data.paths).length;
+  document.getElementById('stat-edges').textContent = data.edges.length;
+  
+  // Pre-compute cluster positions in a circle layout
+  const graphEl = document.getElementById('graph');
+  const width = graphEl.clientWidth;
+  const height = graphEl.clientHeight;
+  const cx = width / 2, cy = height / 2;
+  const clusterRadius = Math.min(width, height) * 0.25;
+  
+  const catPositions = {};
+  data.categories.forEach((cat, i) => {
+    const angle = (2 * Math.PI * i / data.categories.length) - Math.PI / 2;
+    catPositions[cat.id] = {
+      x: cx + Math.cos(angle) * clusterRadius,
+      y: cy + Math.sin(angle) * clusterRadius
+    };
+  });
+  
+  // Initialize node positions near their cluster center
+  data.nodes.forEach(n => {
+    const cp = catPositions[n.category] || { x: cx, y: cy };
+    n.x = cp.x + (Math.random() - 0.5) * 80;
+    n.y = cp.y + (Math.random() - 0.5) * 80;
+  });
+  
+  // Legend with filter
+  const legendEl = document.getElementById('legend');
+  let activeCategory = null;
+  
+  data.categories.forEach(cat => {
+    const count = data.nodes.filter(n => n.category === cat.id).length;
+    const item = document.createElement('span');
+    item.className = 'legend-item';
+    item.innerHTML = `<span class="legend-dot" style="background:${cat.color}"></span>${cat.label} (${count})`;
+    item.onclick = () => {
+      if (activeCategory === cat.id) {
+        activeCategory = null;
+        item.classList.remove('active');
+        clearHighlights();
+      } else {
+        activeCategory = cat.id;
+        document.querySelectorAll('.legend-item').forEach(l => l.classList.remove('active'));
+        item.classList.add('active');
+        highlightCategory(cat.id);
+      }
+    };
+    legendEl.appendChild(item);
+  });
+  
+  // Path buttons
+  const pathBtns = document.getElementById('path-buttons');
+  let activePath = null, activePathKey = null, currentPathNodeIndex = 0;
+  
+  Object.entries(data.paths).forEach(([key, path]) => {
+    const btn = document.createElement('button');
+    btn.className = 'path-btn';
+    btn.style.setProperty('--path-color', path.color);
+    btn.innerHTML = `${path.label}<span class="path-count">${path.nodes.length}</span><div class="path-desc">${path.description}</div>`;
+    btn.onclick = () => {
+      if (activePathKey === key) {
+        activePathKey = null; activePath = null;
+        btn.classList.remove('active');
+        clearPath();
+      } else {
+        activePathKey = key; activePath = path;
+        currentPathNodeIndex = 0;
+        document.querySelectorAll('.path-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        highlightPath(key);
+      }
+    };
+    pathBtns.appendChild(btn);
+  });
+  
+  // D3 setup
+  const svg = d3.select('svg');
+  const g = svg.append('g');
+  
+  const zoom = d3.zoom().scaleExtent([0.2, 4]).on('zoom', e => g.attr('transform', e.transform));
+  svg.call(zoom);
+  
+  document.getElementById('zoom-in').onclick = () => svg.transition().call(zoom.scaleBy, 1.3);
+  document.getElementById('zoom-out').onclick = () => svg.transition().call(zoom.scaleBy, 0.7);
+  document.getElementById('zoom-fit').onclick = () => svg.transition().call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
+  
+  // Prepare edges
+  const edgeData = data.edges.filter(e => nodeMap[e.source] && nodeMap[e.target]);
+  
+  // Simulation with STRONG clustering
+  const simulation = d3.forceSimulation(data.nodes)
+    .force('link', d3.forceLink(edgeData).id(d => d.id).distance(d => {
+      // Shorter distance within same category
+      const sNode = typeof d.source === 'object' ? d.source : nodeMap[d.source];
+      const tNode = typeof d.target === 'object' ? d.target : nodeMap[d.target];
+      return (sNode && tNode && sNode.category === tNode.category) ? 30 : 80;
+    }).strength(d => {
+      const sNode = typeof d.source === 'object' ? d.source : nodeMap[d.source];
+      const tNode = typeof d.target === 'object' ? d.target : nodeMap[d.target];
+      return (sNode && tNode && sNode.category === tNode.category) ? 0.6 : 0.15;
+    }))
+    .force('charge', d3.forceManyBody().strength(-30).distanceMax(250))
+    .force('center', d3.forceCenter(cx, cy).strength(0.03))
+    .force('collision', d3.forceCollide().radius(12))
+    .force('cluster', alpha => {
+      // Gentle pull toward cluster center - enough to group, not isolate
+      data.nodes.forEach(node => {
+        const target = catPositions[node.category];
+        if (target) {
+          node.vx += (target.x - node.x) * alpha * 0.12;
+          node.vy += (target.y - node.y) * alpha * 0.12;
+        }
+      });
+    })
+    .velocityDecay(0.35)
+    .alphaDecay(0.015);
+  
+  // Layers
+  const clusterLayer = g.append('g').attr('class', 'cluster-layer');
+  const edgeLayer = g.append('g').attr('class', 'edge-layer');
+  const pathTrailLayer = g.append('g').attr('class', 'path-trail-layer');
+  const nodeLayer = g.append('g').attr('class', 'node-layer');
+  const badgeLayer = g.append('g').attr('class', 'badge-layer');
+  const labelLayer = g.append('g').attr('class', 'label-layer');
+  
+  // Cluster background circles (updated on tick)
+  const clusterBgs = clusterLayer.selectAll('.cluster-bg')
+    .data(data.categories).join('circle')
+    .attr('class', 'cluster-bg')
+    .attr('fill', d => d.color)
+    .attr('r', 120);
+  
+  // Cluster labels
+  const clusterLabels = labelLayer.selectAll('.cluster-label')
+    .data(data.categories).join('text')
+    .attr('class', 'cluster-label')
+    .attr('fill', d => d.color)
+    .text(d => d.label);
+  
+  // Edges
+  const edges = edgeLayer.selectAll('.edge')
+    .data(edgeData).join('line')
+    .attr('class', d => {
+      const s = typeof d.source === 'object' ? d.source : nodeMap[d.source];
+      const t = typeof d.target === 'object' ? d.target : nodeMap[d.target];
+      return 'edge' + ((s && t && s.category !== t.category) ? ' cross-cat' : '');
+    })
+    .attr('stroke', d => {
+      const s = typeof d.source === 'object' ? d.source : nodeMap[d.source];
+      return catMap[s?.category]?.color || '#30363d';
+    });
+  
+  // Nodes
+  const nodes = nodeLayer.selectAll('.node')
+    .data(data.nodes).join('g')
+    .attr('class', d => `node ${d.written ? 'written' : 'unwritten'}`)
+    .call(d3.drag().on('start', dragStart).on('drag', dragging).on('end', dragEnd));
+  
+  nodes.append('circle')
+    .attr('r', d => d.written ? 8 : 5)
+    .attr('fill', d => d.written ? catMap[d.category]?.color || '#666' : '#21262d')
+    .attr('stroke', d => catMap[d.category]?.color || '#666');
+  
+  nodes.append('text')
+    .attr('dy', d => (d.written ? 8 : 5) + 12)
+    .attr('text-anchor', 'middle')
+    .text(d => d.label.length > 20 ? d.label.slice(0, 18) + '...' : d.label);
+  
+  // Show labels on hover
+  nodes.on('mouseenter', function(e, d) {
+    d3.select(this).classed('show-label', true);
+    // Highlight connected nodes
+    const connected = new Set();
+    edgeData.forEach(edge => {
+      const s = typeof edge.source === 'object' ? edge.source.id : edge.source;
+      const t = typeof edge.target === 'object' ? edge.target.id : edge.target;
+      if (s === d.id) connected.add(t);
+      if (t === d.id) connected.add(s);
+    });
+    nodes.classed('highlighted', n => connected.has(n.id));
+    edges.classed('highlighted', edge => {
+      const s = typeof edge.source === 'object' ? edge.source.id : edge.source;
+      const t = typeof edge.target === 'object' ? edge.target.id : edge.target;
+      return s === d.id || t === d.id;
+    });
+  });
+  
+  nodes.on('mouseleave', function() {
+    d3.select(this).classed('show-label', false);
+    if (!activePath && !activeCategory) {
+      nodes.classed('highlighted', false);
+      edges.classed('highlighted', false);
+    }
+  });
+  
+  nodes.on('click', (e, d) => {
+    showInfo(d);
+    e.stopPropagation();
+  });
+  
+  svg.on('click', () => { hideInfo(); });
+  
+  // Tick - update positions + cluster backgrounds
+  simulation.on('tick', () => {
+    edges.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    nodes.attr('transform', d => `translate(${d.x},${d.y})`);
+    
+    // Update cluster backgrounds to actual centroid
+    data.categories.forEach(cat => {
+      const catNodes = data.nodes.filter(n => n.category === cat.id);
+      if (catNodes.length === 0) return;
+      const avgX = d3.mean(catNodes, n => n.x);
+      const avgY = d3.mean(catNodes, n => n.y);
+      // Compute radius from centroid
+      const maxDist = d3.max(catNodes, n => Math.hypot(n.x - avgX, n.y - avgY)) || 50;
+      catPositions[cat.id]._cx = avgX;
+      catPositions[cat.id]._cy = avgY;
+      catPositions[cat.id]._r = maxDist + 30;
+    });
+    
+    clusterBgs.attr('cx', d => catPositions[d.id]._cx || catPositions[d.id].x)
+      .attr('cy', d => catPositions[d.id]._cy || catPositions[d.id].y)
+      .attr('r', d => catPositions[d.id]._r || 120);
+    
+    clusterLabels.attr('x', d => catPositions[d.id]._cx || catPositions[d.id].x)
+      .attr('y', d => (catPositions[d.id]._cy || catPositions[d.id].y) - (catPositions[d.id]._r || 120) - 8);
+    
+    badgeLayer.selectAll('.order-badge')
+      .attr('transform', d => `translate(${d.x + 10},${d.y - 10})`);
+    
+    updatePathTrail();
+  });
+  
+  // Path trail
+  let pathTrailBg = null, pathTrailLine = null;
+  
+  function updatePathTrail() {
+    if (!pathTrailLine || !activePath) return;
+    const pathNodes = activePath.nodes.map(id => data.nodes.find(n => n.id === id)).filter(Boolean);
+    const lineGen = d3.line().x(d => d.x || 0).y(d => d.y || 0).curve(d3.curveCatmullRom.alpha(0.5));
+    const pathD = lineGen(pathNodes);
+    pathTrailBg.attr('d', pathD);
+    pathTrailLine.attr('d', pathD);
+  }
+  
+  function highlightPath(pathKey) {
+    const path = data.paths[pathKey];
+    activePath = path;
+    const pathNodeIds = new Set(path.nodes);
+    
+    nodes.classed('on-path', d => pathNodeIds.has(d.id))
+      .classed('dimmed', d => !pathNodeIds.has(d.id))
+      .classed('show-label', d => pathNodeIds.has(d.id));
+    edges.classed('dimmed', true).classed('on-path', false);
+    
+    // Order badges
+    badgeLayer.selectAll('.order-badge').remove();
+    const badges = badgeLayer.selectAll('.order-badge')
+      .data(path.nodes.map((id, i) => {
+        const n = data.nodes.find(nd => nd.id === id);
+        return n ? { ...n, order: i + 1 } : null;
+      }).filter(Boolean))
+      .join('g').attr('class', 'order-badge');
+    badges.append('circle').attr('r', 7).attr('fill', path.color);
+    badges.append('text').text(d => d.order);
+    
+    pathTrailLayer.selectAll('*').remove();
+    pathTrailBg = pathTrailLayer.append('path').attr('class', 'path-trail-bg').attr('stroke', path.color);
+    pathTrailLine = pathTrailLayer.append('path').attr('class', 'path-trail').attr('stroke', path.color);
+    
+    // Animate dash
+    let offset = 0;
+    (function step() {
+      if (!pathTrailLine) return;
+      offset -= 0.5;
+      pathTrailLine.attr('stroke-dashoffset', offset);
+      requestAnimationFrame(step);
+    })();
+    
+    updatePathTrail();
+  }
+  
+  function clearPath() {
+    activePath = null;
+    nodes.classed('on-path', false).classed('dimmed', false).classed('show-label', false);
+    edges.classed('on-path', false).classed('dimmed', false);
+    badgeLayer.selectAll('.order-badge').remove();
+    pathTrailLayer.selectAll('*').remove();
+    pathTrailBg = null; pathTrailLine = null;
+  }
+  
+  function highlightCategory(catId) {
+    nodes.classed('dimmed', d => d.category !== catId)
+      .classed('show-label', d => d.category === catId);
+    edges.classed('dimmed', d => {
+      const s = typeof d.source === 'object' ? d.source : nodeMap[d.source];
+      const t = typeof d.target === 'object' ? d.target : nodeMap[d.target];
+      return !(s?.category === catId || t?.category === catId);
+    });
+  }
+  
+  function clearHighlights() {
+    nodes.classed('dimmed', false).classed('show-label', false).classed('highlighted', false);
+    edges.classed('dimmed', false).classed('highlighted', false);
+  }
+  
+  // Info panel
+  function showInfo(d) {
+    const panel = document.getElementById('info-panel');
+    const cat = catMap[d.category];
+    document.getElementById('info-title').textContent = d.label;
+    const badge = document.getElementById('info-category');
+    badge.textContent = cat?.label || d.category;
+    badge.style.background = (cat?.color || '#666') + '33';
+    badge.style.color = cat?.color || '#666';
+    document.getElementById('info-status').textContent = d.written ? 'Written' : 'Not yet written';
+    
+    // Count connections
+    let conns = 0;
+    edgeData.forEach(e => {
+      const s = typeof e.source === 'object' ? e.source.id : e.source;
+      const t = typeof e.target === 'object' ? e.target.id : e.target;
+      if (s === d.id || t === d.id) conns++;
+    });
+    document.getElementById('info-connections').textContent = `${conns} connections`;
+    
+    const btn = document.getElementById('info-read-btn');
+    if (d.written && d.url) {
+      btn.style.display = 'inline-block';
+      btn.onclick = () => openReader(d);
+    } else {
+      btn.style.display = 'none';
+    }
+    panel.classList.add('visible');
+  }
+  
+  function hideInfo() { document.getElementById('info-panel').classList.remove('visible'); }
+  
+  // Reader
+  function openReader(d) {
+    document.getElementById('reader-title').textContent = d.label;
+    document.getElementById('reader-content').innerHTML = `<iframe src="${d.url}"></iframe>`;
+    document.getElementById('reader').classList.add('open');
+    document.getElementById('reader-overlay').classList.add('visible');
+    if (activePath) {
+      const idx = activePath.nodes.indexOf(d.id);
+      currentPathNodeIndex = idx >= 0 ? idx : 0;
+      updateReaderNav();
+    } else {
+      document.getElementById('reader-nav').style.display = 'none';
+    }
+  }
+  
+  function closeReader() {
+    document.getElementById('reader').classList.remove('open');
+    document.getElementById('reader-overlay').classList.remove('visible');
+    document.getElementById('reader-content').innerHTML = '';
+  }
+  
+  function updateReaderNav() {
+    if (!activePath) return;
+    document.getElementById('reader-nav').style.display = 'flex';
+    document.getElementById('reader-step').textContent = `Step ${currentPathNodeIndex + 1} of ${activePath.nodes.length}`;
+    document.getElementById('reader-prev').disabled = currentPathNodeIndex <= 0;
+    document.getElementById('reader-next').disabled = currentPathNodeIndex >= activePath.nodes.length - 1;
+  }
+  
+  document.getElementById('reader-close').onclick = closeReader;
+  document.getElementById('reader-overlay').onclick = closeReader;
+  document.getElementById('reader-prev').onclick = () => {
+    if (!activePath || currentPathNodeIndex <= 0) return;
+    currentPathNodeIndex--;
+    const n = data.nodes.find(nd => nd.id === activePath.nodes[currentPathNodeIndex]);
+    if (n?.url) { document.getElementById('reader-title').textContent = n.label; document.getElementById('reader-content').innerHTML = `<iframe src="${n.url}"></iframe>`; }
+    updateReaderNav();
+  };
+  document.getElementById('reader-next').onclick = () => {
+    if (!activePath || currentPathNodeIndex >= activePath.nodes.length - 1) return;
+    currentPathNodeIndex++;
+    const n = data.nodes.find(nd => nd.id === activePath.nodes[currentPathNodeIndex]);
+    if (n?.url) { document.getElementById('reader-title').textContent = n.label; document.getElementById('reader-content').innerHTML = `<iframe src="${n.url}"></iframe>`; }
+    updateReaderNav();
+  };
+  
+  // Drag
+  function dragStart(e, d) { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; }
+  function dragging(e, d) { d.fx = e.x; d.fy = e.y; }
+  function dragEnd(e, d) { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }
+}
+
+init();
+</script>
+</body>
+</html>
