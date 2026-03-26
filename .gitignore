@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Vercel
+.vercel
+
+# OS
+.DS_Store
+*.sync-conflict-*
