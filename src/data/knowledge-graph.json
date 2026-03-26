@@ -1,206 +1,828 @@
 {
   "categories": [
-    { "id": "orientation", "label": "Orientation", "color": "#4CAF50", "description": "Why web3 matters for regen communities" },
-    { "id": "web3-literacy", "label": "Web3 Literacy", "color": "#2196F3", "description": "Core blockchain & crypto concepts" },
-    { "id": "tokenomics", "label": "Tokenomics", "color": "#FF9800", "description": "Tokens, stablecoins, community currencies" },
-    { "id": "risk-resilience", "label": "Risk & Resilience", "color": "#F44336", "description": "Security, scams, operational safety" },
-    { "id": "local-node", "label": "Local Node Lifecycle", "color": "#9C27B0", "description": "Starting & running local chapters" },
-    { "id": "community-identity", "label": "Community & Identity", "color": "#00BCD4", "description": "Identity, credentials, reputation" },
-    { "id": "governance", "label": "Governance", "color": "#795548", "description": "DAOs, voting, decision-making" },
-    { "id": "capital", "label": "Capital Formation", "color": "#607D8B", "description": "Funding, grants, treasury management" },
-    { "id": "impact", "label": "Impact Architecture", "color": "#E91E63", "description": "Measurement, verification, attestations" },
-    { "id": "initiatives", "label": "Initiatives", "color": "#8BC34A", "description": "Agroforestry, DePin, education, civic tech" },
-    { "id": "reference", "label": "Reference Library", "color": "#BDBDBD", "description": "Glossaries, tools, directories" },
-    { "id": "ai", "label": "AI & Web3", "color": "#673AB7", "description": "AI assistants, ethical considerations" }
+    {
+      "id": "orientation",
+      "label": "Orientation",
+      "color": "#4CAF50",
+      "description": "Why web3 matters for regen communities"
+    },
+    {
+      "id": "web3-literacy",
+      "label": "Web3 Literacy",
+      "color": "#2196F3",
+      "description": "Core blockchain & crypto concepts"
+    },
+    {
+      "id": "tokenomics",
+      "label": "Tokenomics",
+      "color": "#FF9800",
+      "description": "Tokens, stablecoins, community currencies"
+    },
+    {
+      "id": "risk-resilience",
+      "label": "Risk & Resilience",
+      "color": "#F44336",
+      "description": "Security, scams, operational safety"
+    },
+    {
+      "id": "local-node",
+      "label": "Local Node Lifecycle",
+      "color": "#9C27B0",
+      "description": "Starting & running local chapters"
+    },
+    {
+      "id": "community-identity",
+      "label": "Community & Identity",
+      "color": "#00BCD4",
+      "description": "Identity, credentials, reputation"
+    },
+    {
+      "id": "governance",
+      "label": "Governance",
+      "color": "#795548",
+      "description": "DAOs, voting, decision-making"
+    },
+    {
+      "id": "capital",
+      "label": "Capital Formation",
+      "color": "#607D8B",
+      "description": "Funding, grants, treasury management"
+    },
+    {
+      "id": "impact",
+      "label": "Impact Architecture",
+      "color": "#E91E63",
+      "description": "Measurement, verification, attestations"
+    },
+    {
+      "id": "initiatives",
+      "label": "Initiatives",
+      "color": "#8BC34A",
+      "description": "Agroforestry, DePin, education, civic tech"
+    },
+    {
+      "id": "reference",
+      "label": "Reference Library",
+      "color": "#BDBDBD",
+      "description": "Glossaries, tools, directories"
+    },
+    {
+      "id": "ai",
+      "label": "AI & Web3",
+      "color": "#673AB7",
+      "description": "AI assistants, ethical considerations"
+    }
   ],
   "nodes": [
-    { "id": "why-regens-interested", "label": "Why Regens Are Interested", "category": "orientation", "url": "/sarreya/why-regens-interested/", "written": true },
-    { "id": "what-web3-can-cant-do", "label": "What Web3 Can & Can't Do", "category": "orientation", "url": "/sarreya/what-web3-can-cant-do/", "written": true },
-    { "id": "common-concerns", "label": "Common Concerns", "category": "orientation", "url": "/sarreya/common-concerns/", "written": true },
-    { "id": "what-is-blockchain", "label": "What Is Blockchain?", "category": "web3-literacy", "url": "/sarreya/what-is-blockchain/", "written": true },
-    { "id": "what-is-cryptocurrency", "label": "What Is Cryptocurrency?", "category": "web3-literacy", "url": "/sarreya/what-is-cryptocurrency/", "written": true },
-    { "id": "how-to-get-crypto", "label": "How to Get Crypto", "category": "web3-literacy", "url": "/sarreya/how-to-get-crypto/", "written": true },
-    { "id": "stablecoins", "label": "Stablecoins", "category": "tokenomics", "url": "/sarreya/stablecoins/", "written": true },
-    { "id": "what-is-wallet", "label": "What Is a Wallet?", "category": "web3-literacy", "url": "/sarreya/what-is-wallet/", "written": true },
-    { "id": "setting-up-first-wallet", "label": "Setting Up First Wallet", "category": "web3-literacy", "url": "/sarreya/setting-up-first-wallet/", "written": true },
-    { "id": "seed-phrases", "label": "Seed Phrases & Security", "category": "risk-resilience", "url": "/sarreya/seed-phrases/", "written": true },
-    { "id": "common-scams", "label": "Common Scams", "category": "risk-resilience", "url": "/sarreya/common-scams/", "written": true },
-    { "id": "what-you-can-do-ethereum", "label": "What You Can Do on Ethereum", "category": "web3-literacy", "url": "/sarreya/what-you-can-do-ethereum/", "written": true },
-    { "id": "why-measurement-matters", "label": "Why Measurement Matters", "category": "impact", "url": "/sarreya/why-measurement-matters/", "written": true },
-    { "id": "dmrv", "label": "dMRV", "category": "impact", "url": "/sarreya/dmrv/", "written": true },
-    { "id": "onchain-attestations", "label": "On-Chain Attestations", "category": "impact", "url": "/sarreya/onchain-attestations/", "written": true },
-    { "id": "identity-verification", "label": "Identity Verification", "category": "community-identity", "url": "/sarreya/identity-verification/", "written": true },
-    { "id": "credentials-certifications", "label": "Credentials & Certifications", "category": "community-identity", "url": "/sarreya/credentials-certifications/", "written": true },
-    { "id": "operational-security", "label": "Operational Security", "category": "risk-resilience", "url": "/sarreya/operational-security/", "written": true },
-    { "id": "silvi-protocol", "label": "Silvi Protocol", "category": "initiatives", "url": "/sarreya/silvi-protocol/", "written": true },
-    { "id": "wallet-comparison-guide", "label": "Wallet Comparison Guide", "category": "reference", "url": "/sarreya/wallet-comparison-guide/", "written": true },
-    { "id": "key-terms-a-z", "label": "Key Terms A-Z", "category": "reference", "url": "/sarreya/key-terms-a-z/", "written": true },
-
-    { "id": "what-is-dao", "label": "What Is a DAO?", "category": "governance", "url": null, "written": false },
-    { "id": "dao-governance-models", "label": "DAO Governance Models", "category": "governance", "url": null, "written": false },
-    { "id": "voting-mechanisms", "label": "Voting Mechanisms", "category": "governance", "url": null, "written": false },
-    { "id": "treasury-management", "label": "Treasury Management", "category": "capital", "url": null, "written": false },
-    { "id": "what-is-defi", "label": "What Is DeFi?", "category": "web3-literacy", "url": null, "written": false },
-    { "id": "what-is-refi", "label": "What Is ReFi?", "category": "orientation", "url": null, "written": false },
-    { "id": "decentralization", "label": "Decentralization", "category": "web3-literacy", "url": null, "written": false },
-    { "id": "smart-contracts", "label": "Smart Contracts", "category": "web3-literacy", "url": null, "written": false },
-    { "id": "layer-2s", "label": "Layer 2s Explained", "category": "web3-literacy", "url": null, "written": false },
-    { "id": "tokens-standards", "label": "Token Standards", "category": "tokenomics", "url": null, "written": false },
-    { "id": "community-currencies", "label": "Community Currencies", "category": "tokenomics", "url": null, "written": false },
-    { "id": "commitment-pooling", "label": "Commitment Pooling (Sarafu)", "category": "tokenomics", "url": null, "written": false },
-    { "id": "nfts", "label": "NFTs", "category": "web3-literacy", "url": null, "written": false },
-    { "id": "what-is-local-node", "label": "What Is a Local Node?", "category": "local-node", "url": null, "written": false },
-    { "id": "why-local-matters", "label": "Why Local Matters", "category": "local-node", "url": null, "written": false },
-    { "id": "first-90-days", "label": "First 90 Days", "category": "local-node", "url": null, "written": false },
-    { "id": "minimum-viable-node", "label": "Minimum Viable Node", "category": "local-node", "url": null, "written": false },
-    { "id": "stakeholder-mapping", "label": "Stakeholder Mapping", "category": "local-node", "url": null, "written": false },
-    { "id": "funding-landscape", "label": "Funding Landscape", "category": "capital", "url": null, "written": false },
-    { "id": "gitcoin-grants", "label": "Gitcoin Grants", "category": "capital", "url": null, "written": false },
-    { "id": "giveth", "label": "Giveth", "category": "capital", "url": null, "written": false },
-    { "id": "gnosis-safe", "label": "Gnosis Safe", "category": "capital", "url": null, "written": false },
-    { "id": "grant-writing", "label": "Grant Writing", "category": "capital", "url": null, "written": false },
-    { "id": "accept-crypto-donations", "label": "Accepting Crypto Donations", "category": "capital", "url": null, "written": false },
-    { "id": "governance-design", "label": "Governance Design", "category": "governance", "url": null, "written": false },
-    { "id": "multisig-management", "label": "Multisig Management", "category": "risk-resilience", "url": null, "written": false },
-    { "id": "community-tools", "label": "Community Tools & Socials", "category": "community-identity", "url": null, "written": false },
-    { "id": "building-in-public", "label": "Building in Public", "category": "community-identity", "url": null, "written": false },
-    { "id": "conflict-resolution", "label": "Conflict Resolution", "category": "community-identity", "url": null, "written": false },
-    { "id": "hypercerts", "label": "Hypercerts", "category": "impact", "url": null, "written": false },
-    { "id": "impact-certificates", "label": "Impact Certificates", "category": "impact", "url": null, "written": false },
-    { "id": "avoiding-impact-washing", "label": "Avoiding Impact Washing", "category": "impact", "url": null, "written": false },
-    { "id": "agroforestry", "label": "Agroforestry & Regen Ag", "category": "initiatives", "url": null, "written": false },
-    { "id": "depin", "label": "DePin & Community Energy", "category": "initiatives", "url": null, "written": false },
-    { "id": "civic-tech", "label": "Civic Tech & Engagement", "category": "initiatives", "url": null, "written": false },
-    { "id": "ai-web3", "label": "AI-Web3 Intersection", "category": "ai", "url": null, "written": false },
-    { "id": "ai-coordination", "label": "AI for Coordination", "category": "ai", "url": null, "written": false },
-    { "id": "knowledge-gardens", "label": "Knowledge Gardens", "category": "community-identity", "url": null, "written": false },
-    { "id": "ethereum-localism", "label": "Ethereum Localism", "category": "local-node", "url": null, "written": false }
+    {
+      "id": "why-regens-interested",
+      "label": "Why Regens Are Interested",
+      "category": "orientation",
+      "url": "/sarreya/why-regens-interested/",
+      "written": true
+    },
+    {
+      "id": "what-web3-can-cant-do",
+      "label": "What Web3 Can & Can't Do",
+      "category": "orientation",
+      "url": "/sarreya/what-web3-can-cant-do/",
+      "written": true
+    },
+    {
+      "id": "common-concerns",
+      "label": "Common Concerns",
+      "category": "orientation",
+      "url": "/sarreya/common-concerns/",
+      "written": true
+    },
+    {
+      "id": "what-is-blockchain",
+      "label": "What Is Blockchain?",
+      "category": "web3-literacy",
+      "url": "/sarreya/what-is-blockchain/",
+      "written": true
+    },
+    {
+      "id": "what-is-cryptocurrency",
+      "label": "What Is Cryptocurrency?",
+      "category": "web3-literacy",
+      "url": "/sarreya/what-is-cryptocurrency/",
+      "written": true
+    },
+    {
+      "id": "how-to-get-crypto",
+      "label": "How to Get Crypto",
+      "category": "web3-literacy",
+      "url": "/sarreya/how-to-get-crypto/",
+      "written": true
+    },
+    {
+      "id": "stablecoins",
+      "label": "Stablecoins",
+      "category": "tokenomics",
+      "url": "/sarreya/stablecoins/",
+      "written": true
+    },
+    {
+      "id": "what-is-wallet",
+      "label": "What Is a Wallet?",
+      "category": "web3-literacy",
+      "url": "/sarreya/what-is-wallet/",
+      "written": true
+    },
+    {
+      "id": "setting-up-first-wallet",
+      "label": "Setting Up First Wallet",
+      "category": "web3-literacy",
+      "url": "/sarreya/setting-up-first-wallet/",
+      "written": true
+    },
+    {
+      "id": "seed-phrases",
+      "label": "Seed Phrases & Security",
+      "category": "risk-resilience",
+      "url": "/sarreya/seed-phrases/",
+      "written": true
+    },
+    {
+      "id": "common-scams",
+      "label": "Common Scams",
+      "category": "risk-resilience",
+      "url": "/sarreya/common-scams/",
+      "written": true
+    },
+    {
+      "id": "what-you-can-do-ethereum",
+      "label": "What You Can Do on Ethereum",
+      "category": "web3-literacy",
+      "url": "/sarreya/what-you-can-do-ethereum/",
+      "written": true
+    },
+    {
+      "id": "why-measurement-matters",
+      "label": "Why Measurement Matters",
+      "category": "impact",
+      "url": "/sarreya/why-measurement-matters/",
+      "written": true
+    },
+    {
+      "id": "dmrv",
+      "label": "dMRV",
+      "category": "impact",
+      "url": "/sarreya/dmrv/",
+      "written": true
+    },
+    {
+      "id": "onchain-attestations",
+      "label": "On-Chain Attestations",
+      "category": "impact",
+      "url": "/sarreya/onchain-attestations/",
+      "written": true
+    },
+    {
+      "id": "identity-verification",
+      "label": "Identity Verification",
+      "category": "community-identity",
+      "url": "/sarreya/identity-verification/",
+      "written": true
+    },
+    {
+      "id": "credentials-certifications",
+      "label": "Credentials & Certifications",
+      "category": "community-identity",
+      "url": "/sarreya/credentials-certifications/",
+      "written": true
+    },
+    {
+      "id": "operational-security",
+      "label": "Operational Security",
+      "category": "risk-resilience",
+      "url": "/sarreya/operational-security/",
+      "written": true
+    },
+    {
+      "id": "silvi-protocol",
+      "label": "Silvi Protocol",
+      "category": "initiatives",
+      "url": "/sarreya/silvi-protocol/",
+      "written": true
+    },
+    {
+      "id": "wallet-comparison-guide",
+      "label": "Wallet Comparison Guide",
+      "category": "reference",
+      "url": "/sarreya/wallet-comparison-guide/",
+      "written": true
+    },
+    {
+      "id": "key-terms-a-z",
+      "label": "Key Terms A-Z",
+      "category": "reference",
+      "url": "/sarreya/key-terms-a-z/",
+      "written": true
+    },
+    {
+      "id": "what-is-dao",
+      "label": "What Is a DAO?",
+      "category": "governance",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "dao-governance-models",
+      "label": "DAO Governance Models",
+      "category": "governance",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "voting-mechanisms",
+      "label": "Voting Mechanisms",
+      "category": "governance",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "treasury-management",
+      "label": "Treasury Management",
+      "category": "capital",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "what-is-defi",
+      "label": "What Is DeFi?",
+      "category": "web3-literacy",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "what-is-refi",
+      "label": "What Is ReFi?",
+      "category": "orientation",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "decentralization",
+      "label": "Decentralization",
+      "category": "web3-literacy",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "smart-contracts",
+      "label": "Smart Contracts",
+      "category": "web3-literacy",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "layer-2s",
+      "label": "Layer 2s Explained",
+      "category": "web3-literacy",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "tokens-standards",
+      "label": "Token Standards",
+      "category": "tokenomics",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "community-currencies",
+      "label": "Community Currencies",
+      "category": "tokenomics",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "commitment-pooling",
+      "label": "Commitment Pooling (Sarafu)",
+      "category": "tokenomics",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "nfts",
+      "label": "NFTs",
+      "category": "web3-literacy",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "what-is-local-node",
+      "label": "What Is a Local Node?",
+      "category": "local-node",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "why-local-matters",
+      "label": "Why Local Matters",
+      "category": "local-node",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "first-90-days",
+      "label": "First 90 Days",
+      "category": "local-node",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "minimum-viable-node",
+      "label": "Minimum Viable Node",
+      "category": "local-node",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "stakeholder-mapping",
+      "label": "Stakeholder Mapping",
+      "category": "local-node",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "funding-landscape",
+      "label": "Funding Landscape",
+      "category": "capital",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "gitcoin-grants",
+      "label": "Gitcoin Grants",
+      "category": "capital",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "giveth",
+      "label": "Giveth",
+      "category": "capital",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "gnosis-safe",
+      "label": "Gnosis Safe",
+      "category": "capital",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "grant-writing",
+      "label": "Grant Writing",
+      "category": "capital",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "accept-crypto-donations",
+      "label": "Accepting Crypto Donations",
+      "category": "capital",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "governance-design",
+      "label": "Governance Design",
+      "category": "governance",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "multisig-management",
+      "label": "Multisig Management",
+      "category": "risk-resilience",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "community-tools",
+      "label": "Community Tools & Socials",
+      "category": "community-identity",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "building-in-public",
+      "label": "Building in Public",
+      "category": "community-identity",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "conflict-resolution",
+      "label": "Conflict Resolution",
+      "category": "community-identity",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "hypercerts",
+      "label": "Hypercerts",
+      "category": "impact",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "impact-certificates",
+      "label": "Impact Certificates",
+      "category": "impact",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "avoiding-impact-washing",
+      "label": "Avoiding Impact Washing",
+      "category": "impact",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "agroforestry",
+      "label": "Agroforestry & Regen Ag",
+      "category": "initiatives",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "depin",
+      "label": "DePin & Community Energy",
+      "category": "initiatives",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "civic-tech",
+      "label": "Civic Tech & Engagement",
+      "category": "initiatives",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "ai-web3",
+      "label": "AI-Web3 Intersection",
+      "category": "ai",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "ai-coordination",
+      "label": "AI for Coordination",
+      "category": "ai",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "knowledge-gardens",
+      "label": "Knowledge Gardens",
+      "category": "community-identity",
+      "url": null,
+      "written": false
+    },
+    {
+      "id": "ethereum-localism",
+      "label": "Ethereum Localism",
+      "category": "local-node",
+      "url": null,
+      "written": false
+    }
   ],
   "paths": {
-    "sarreya": {
-      "label": "Sarreya (Somaliland)",
+    "newcomer": {
+      "label": "Newcomer Path",
       "color": "#FF6B35",
-      "description": "Web3 onboarding for girls and young women in Somaliland",
+      "description": "Web3 basics for absolute beginners - start here",
       "nodes": [
-        "why-regens-interested", "what-web3-can-cant-do", "common-concerns",
-        "what-is-blockchain", "what-is-cryptocurrency", "how-to-get-crypto",
-        "stablecoins", "what-is-wallet", "setting-up-first-wallet",
-        "seed-phrases", "common-scams", "what-you-can-do-ethereum",
-        "why-measurement-matters", "dmrv", "onchain-attestations",
-        "identity-verification", "credentials-certifications",
-        "operational-security", "silvi-protocol", "wallet-comparison-guide", "key-terms-a-z"
+        "why-regens-interested",
+        "what-web3-can-cant-do",
+        "common-concerns",
+        "what-is-blockchain",
+        "what-is-cryptocurrency",
+        "how-to-get-crypto",
+        "stablecoins",
+        "what-is-wallet",
+        "setting-up-first-wallet",
+        "seed-phrases",
+        "common-scams",
+        "what-you-can-do-ethereum",
+        "why-measurement-matters",
+        "dmrv",
+        "onchain-attestations",
+        "identity-verification",
+        "credentials-certifications",
+        "operational-security",
+        "silvi-protocol",
+        "wallet-comparison-guide",
+        "key-terms-a-z"
       ]
     },
-    "forest-city": {
-      "label": "Forest City Solidarity",
+    "community-org": {
+      "label": "Community Organization",
       "color": "#4ECDC4",
-      "description": "Web3 for established community organizations",
+      "description": "Web3 adoption for established community groups",
       "nodes": [
-        "why-regens-interested", "what-web3-can-cant-do", "common-concerns",
-        "decentralization", "what-is-cryptocurrency", "how-to-get-crypto",
-        "stablecoins", "setting-up-first-wallet", "seed-phrases",
-        "what-is-dao", "dao-governance-models",
-        "accept-crypto-donations", "funding-landscape",
-        "gitcoin-grants", "giveth", "grant-writing",
-        "gnosis-safe", "multisig-management",
-        "governance-design", "community-tools",
-        "common-scams", "operational-security", "key-terms-a-z"
+        "why-regens-interested",
+        "what-web3-can-cant-do",
+        "common-concerns",
+        "decentralization",
+        "what-is-cryptocurrency",
+        "how-to-get-crypto",
+        "stablecoins",
+        "setting-up-first-wallet",
+        "seed-phrases",
+        "what-is-dao",
+        "dao-governance-models",
+        "accept-crypto-donations",
+        "funding-landscape",
+        "gitcoin-grants",
+        "giveth",
+        "grant-writing",
+        "gnosis-safe",
+        "multisig-management",
+        "governance-design",
+        "community-tools",
+        "common-scams",
+        "operational-security",
+        "key-terms-a-z"
       ]
     },
-    "greenpill-london": {
-      "label": "Greenpill London",
+    "chapter-builder": {
+      "label": "Local Chapter Builder",
       "color": "#45B7D1",
-      "description": "Starting and running a local Greenpill chapter",
+      "description": "Starting and running a local web3 community",
       "nodes": [
-        "what-is-local-node", "why-local-matters",
-        "minimum-viable-node", "first-90-days", "stakeholder-mapping",
-        "what-is-dao", "dao-governance-models", "voting-mechanisms",
-        "treasury-management", "gnosis-safe",
-        "funding-landscape", "gitcoin-grants",
-        "community-tools", "building-in-public", "conflict-resolution",
-        "ethereum-localism", "key-terms-a-z"
+        "what-is-local-node",
+        "why-local-matters",
+        "minimum-viable-node",
+        "first-90-days",
+        "stakeholder-mapping",
+        "what-is-dao",
+        "dao-governance-models",
+        "voting-mechanisms",
+        "treasury-management",
+        "gnosis-safe",
+        "funding-landscape",
+        "gitcoin-grants",
+        "community-tools",
+        "building-in-public",
+        "conflict-resolution",
+        "ethereum-localism",
+        "key-terms-a-z"
       ]
     },
-    "huron-university": {
-      "label": "Huron University Governance",
+    "governance": {
+      "label": "Governance Deep Dive",
       "color": "#96CEB4",
-      "description": "Academic exploration of web3 governance",
+      "description": "DAO structures, voting, and decision-making",
       "nodes": [
-        "why-regens-interested", "decentralization",
-        "what-is-blockchain", "smart-contracts",
-        "tokens-standards", "what-is-dao",
-        "dao-governance-models", "voting-mechanisms",
-        "governance-design", "treasury-management",
-        "what-is-refi", "community-currencies",
-        "commitment-pooling", "key-terms-a-z"
+        "why-regens-interested",
+        "decentralization",
+        "what-is-blockchain",
+        "smart-contracts",
+        "tokens-standards",
+        "what-is-dao",
+        "dao-governance-models",
+        "voting-mechanisms",
+        "governance-design",
+        "treasury-management",
+        "what-is-refi",
+        "community-currencies",
+        "commitment-pooling",
+        "key-terms-a-z"
       ]
     },
-    "silvi-planters": {
-      "label": "Silvi / Tree Planters",
+    "environmental": {
+      "label": "Environmental Impact",
       "color": "#2D8A56",
-      "description": "Environmental practitioners using web3 for impact",
+      "description": "Web3 tools for ecological and climate projects",
       "nodes": [
-        "why-regens-interested", "what-web3-can-cant-do",
-        "what-is-blockchain", "what-is-cryptocurrency",
-        "stablecoins", "setting-up-first-wallet", "seed-phrases",
-        "what-you-can-do-ethereum", "layer-2s",
-        "why-measurement-matters", "dmrv", "onchain-attestations",
-        "hypercerts", "impact-certificates",
-        "silvi-protocol", "agroforestry",
-        "common-scams", "operational-security",
-        "wallet-comparison-guide", "key-terms-a-z"
+        "why-regens-interested",
+        "what-web3-can-cant-do",
+        "what-is-blockchain",
+        "what-is-cryptocurrency",
+        "stablecoins",
+        "setting-up-first-wallet",
+        "seed-phrases",
+        "what-you-can-do-ethereum",
+        "layer-2s",
+        "why-measurement-matters",
+        "dmrv",
+        "onchain-attestations",
+        "hypercerts",
+        "impact-certificates",
+        "silvi-protocol",
+        "agroforestry",
+        "common-scams",
+        "operational-security",
+        "wallet-comparison-guide",
+        "key-terms-a-z"
       ]
     }
   },
   "edges": [
-    { "source": "why-regens-interested", "target": "what-web3-can-cant-do" },
-    { "source": "what-web3-can-cant-do", "target": "common-concerns" },
-    { "source": "common-concerns", "target": "what-is-blockchain" },
-    { "source": "what-is-blockchain", "target": "what-is-cryptocurrency" },
-    { "source": "what-is-blockchain", "target": "smart-contracts" },
-    { "source": "what-is-blockchain", "target": "decentralization" },
-    { "source": "what-is-cryptocurrency", "target": "how-to-get-crypto" },
-    { "source": "what-is-cryptocurrency", "target": "stablecoins" },
-    { "source": "what-is-cryptocurrency", "target": "tokens-standards" },
-    { "source": "stablecoins", "target": "what-is-wallet" },
-    { "source": "what-is-wallet", "target": "setting-up-first-wallet" },
-    { "source": "setting-up-first-wallet", "target": "seed-phrases" },
-    { "source": "seed-phrases", "target": "common-scams" },
-    { "source": "common-scams", "target": "operational-security" },
-    { "source": "what-is-wallet", "target": "wallet-comparison-guide" },
-    { "source": "what-you-can-do-ethereum", "target": "layer-2s" },
-    { "source": "what-you-can-do-ethereum", "target": "what-is-defi" },
-    { "source": "what-you-can-do-ethereum", "target": "nfts" },
-    { "source": "tokens-standards", "target": "community-currencies" },
-    { "source": "community-currencies", "target": "commitment-pooling" },
-    { "source": "what-is-dao", "target": "dao-governance-models" },
-    { "source": "dao-governance-models", "target": "voting-mechanisms" },
-    { "source": "dao-governance-models", "target": "treasury-management" },
-    { "source": "dao-governance-models", "target": "governance-design" },
-    { "source": "treasury-management", "target": "gnosis-safe" },
-    { "source": "gnosis-safe", "target": "multisig-management" },
-    { "source": "funding-landscape", "target": "gitcoin-grants" },
-    { "source": "funding-landscape", "target": "giveth" },
-    { "source": "funding-landscape", "target": "grant-writing" },
-    { "source": "funding-landscape", "target": "accept-crypto-donations" },
-    { "source": "why-measurement-matters", "target": "dmrv" },
-    { "source": "dmrv", "target": "onchain-attestations" },
-    { "source": "onchain-attestations", "target": "hypercerts" },
-    { "source": "onchain-attestations", "target": "impact-certificates" },
-    { "source": "onchain-attestations", "target": "credentials-certifications" },
-    { "source": "identity-verification", "target": "credentials-certifications" },
-    { "source": "why-measurement-matters", "target": "avoiding-impact-washing" },
-    { "source": "what-is-local-node", "target": "why-local-matters" },
-    { "source": "why-local-matters", "target": "minimum-viable-node" },
-    { "source": "minimum-viable-node", "target": "first-90-days" },
-    { "source": "first-90-days", "target": "stakeholder-mapping" },
-    { "source": "silvi-protocol", "target": "agroforestry" },
-    { "source": "silvi-protocol", "target": "dmrv" },
-    { "source": "community-tools", "target": "building-in-public" },
-    { "source": "community-tools", "target": "conflict-resolution" },
-    { "source": "community-tools", "target": "knowledge-gardens" },
-    { "source": "what-is-local-node", "target": "ethereum-localism" },
-    { "source": "ai-web3", "target": "ai-coordination" },
-    { "source": "civic-tech", "target": "ai-coordination" }
+    {
+      "source": "why-regens-interested",
+      "target": "what-web3-can-cant-do"
+    },
+    {
+      "source": "what-web3-can-cant-do",
+      "target": "common-concerns"
+    },
+    {
+      "source": "common-concerns",
+      "target": "what-is-blockchain"
+    },
+    {
+      "source": "what-is-blockchain",
+      "target": "what-is-cryptocurrency"
+    },
+    {
+      "source": "what-is-blockchain",
+      "target": "smart-contracts"
+    },
+    {
+      "source": "what-is-blockchain",
+      "target": "decentralization"
+    },
+    {
+      "source": "what-is-cryptocurrency",
+      "target": "how-to-get-crypto"
+    },
+    {
+      "source": "what-is-cryptocurrency",
+      "target": "stablecoins"
+    },
+    {
+      "source": "what-is-cryptocurrency",
+      "target": "tokens-standards"
+    },
+    {
+      "source": "stablecoins",
+      "target": "what-is-wallet"
+    },
+    {
+      "source": "what-is-wallet",
+      "target": "setting-up-first-wallet"
+    },
+    {
+      "source": "setting-up-first-wallet",
+      "target": "seed-phrases"
+    },
+    {
+      "source": "seed-phrases",
+      "target": "common-scams"
+    },
+    {
+      "source": "common-scams",
+      "target": "operational-security"
+    },
+    {
+      "source": "what-is-wallet",
+      "target": "wallet-comparison-guide"
+    },
+    {
+      "source": "what-you-can-do-ethereum",
+      "target": "layer-2s"
+    },
+    {
+      "source": "what-you-can-do-ethereum",
+      "target": "what-is-defi"
+    },
+    {
+      "source": "what-you-can-do-ethereum",
+      "target": "nfts"
+    },
+    {
+      "source": "tokens-standards",
+      "target": "community-currencies"
+    },
+    {
+      "source": "community-currencies",
+      "target": "commitment-pooling"
+    },
+    {
+      "source": "what-is-dao",
+      "target": "dao-governance-models"
+    },
+    {
+      "source": "dao-governance-models",
+      "target": "voting-mechanisms"
+    },
+    {
+      "source": "dao-governance-models",
+      "target": "treasury-management"
+    },
+    {
+      "source": "dao-governance-models",
+      "target": "governance-design"
+    },
+    {
+      "source": "treasury-management",
+      "target": "gnosis-safe"
+    },
+    {
+      "source": "gnosis-safe",
+      "target": "multisig-management"
+    },
+    {
+      "source": "funding-landscape",
+      "target": "gitcoin-grants"
+    },
+    {
+      "source": "funding-landscape",
+      "target": "giveth"
+    },
+    {
+      "source": "funding-landscape",
+      "target": "grant-writing"
+    },
+    {
+      "source": "funding-landscape",
+      "target": "accept-crypto-donations"
+    },
+    {
+      "source": "why-measurement-matters",
+      "target": "dmrv"
+    },
+    {
+      "source": "dmrv",
+      "target": "onchain-attestations"
+    },
+    {
+      "source": "onchain-attestations",
+      "target": "hypercerts"
+    },
+    {
+      "source": "onchain-attestations",
+      "target": "impact-certificates"
+    },
+    {
+      "source": "onchain-attestations",
+      "target": "credentials-certifications"
+    },
+    {
+      "source": "identity-verification",
+      "target": "credentials-certifications"
+    },
+    {
+      "source": "why-measurement-matters",
+      "target": "avoiding-impact-washing"
+    },
+    {
+      "source": "what-is-local-node",
+      "target": "why-local-matters"
+    },
+    {
+      "source": "why-local-matters",
+      "target": "minimum-viable-node"
+    },
+    {
+      "source": "minimum-viable-node",
+      "target": "first-90-days"
+    },
+    {
+      "source": "first-90-days",
+      "target": "stakeholder-mapping"
+    },
+    {
+      "source": "silvi-protocol",
+      "target": "agroforestry"
+    },
+    {
+      "source": "silvi-protocol",
+      "target": "dmrv"
+    },
+    {
+      "source": "community-tools",
+      "target": "building-in-public"
+    },
+    {
+      "source": "community-tools",
+      "target": "conflict-resolution"
+    },
+    {
+      "source": "community-tools",
+      "target": "knowledge-gardens"
+    },
+    {
+      "source": "what-is-local-node",
+      "target": "ethereum-localism"
+    },
+    {
+      "source": "ai-web3",
+      "target": "ai-coordination"
+    },
+    {
+      "source": "civic-tech",
+      "target": "ai-coordination"
+    }
   ]
 }
