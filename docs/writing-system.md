@@ -1,349 +1,171 @@
-# Toolkit Writing System
+# Regen Toolkit Content Creation System
 
-> **DRAFT FOR DISCUSSION** — This document proposes a multi-agent AI pipeline for producing toolkit articles. It has not yet been tested in production and needs iteration based on team feedback and real-world results from pilot articles. Please review and share your thoughts.
+This document defines the process, structure, and standards for creating and maintaining content in the Regen Toolkit.
 
----
+## Core Principles
 
-## The Problem
+- **Clarity over cleverness**: Prioritize direct, action-oriented language
+- **No AI slop**: Avoid phrases like "let's explore", "navigate", "journey", "landscape"
+- **Voice**: Friendly, practical, active voice
+- **Audience**: Young women and community leaders in Somaliland/East Africa
+- **Tone**: Warm, grounded, no exclamation cheerleading
+- **Avoid**: Emoji in bodies, [Source X] markers, unexplained jargon
 
-Writing 200+ educational articles with AI has risks:
-- **Hallucination** - Making up facts, protocols, or advice that doesn't exist
-- **Generic fluff** - Vague content that sounds good but doesn't help anyone
-- **Inconsistency** - Different voice, terminology, depth across articles
-- **Wrong audience** - Too technical for beginners, too basic for experts
-- **Missing actionability** - Theory without practical steps
+## Audience & Purpose
 
-## The Solution: Multi-Agent Pipeline
+Each article should answer:
+- Who is this for?
+- What problem does it solve?
+- What will they be able to do after reading?
 
-Each agent has ONE job. No agent tries to do everything. Work flows through stages with quality gates.
+## Article Types
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    ARTICLE REQUEST                              │
-│  Input: Article title, section, target audience, source codes   │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  AGENT 1: RESEARCHER                                            │
-│                                                                 │
-│  Job: Extract facts from sources. NO writing.                   │
-│                                                                 │
-│  Inputs:                                                        │
-│  - Article topic                                                │
-│  - List of source codes (e.g., A, B, E, P)                      │
-│  - Access to source materials                                   │
-│                                                                 │
-│  Outputs:                                                       │
-│  - Research brief with:                                         │
-│    • Key concepts (with source citations)                       │
-│    • Direct quotes worth including                              │
-│    • Examples/case studies from sources                         │
-│    • Links/resources mentioned in sources                       │
-│    • Gaps: what sources DON'T cover                             │
-│                                                                 │
-│  Rules:                                                         │
-│  - ONLY extract from provided sources                           │
-│  - Flag if sources don't cover topic well                       │
-│  - No synthesis, no opinions, just extraction                   │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  AGENT 2: WRITER                                                │
-│                                                                 │
-│  Job: Write first draft from research brief.                    │
-│                                                                 │
-│  Inputs:                                                        │
-│  - Research brief from Agent 1                                  │
-│  - Article template                                             │
-│  - Style guide                                                  │
-│  - Target audience (🌱 🔄 💰)                                    │
-│  - Word count target                                            │
-│                                                                 │
-│  Outputs:                                                       │
-│  - First draft with:                                            │
-│    • Clear structure (intro, sections, conclusion)              │
-│    • Inline source citations [Source A]                         │
-│    • Practical examples                                         │
-│    • Action items / next steps                                  │
-│                                                                 │
-│  Rules:                                                         │
-│  - ONLY use facts from research brief                           │
-│  - Every claim must have a source citation                      │
-│  - Match language to audience level                             │
-│  - Include "Try This" practical exercises                       │
-│  - No unsourced claims allowed                                  │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  AGENT 3: FACT-CHECKER                                          │
-│                                                                 │
-│  Job: Verify every claim. Catch hallucinations.                 │
-│                                                                 │
-│  Inputs:                                                        │
-│  - Draft from Agent 2                                           │
-│  - Original research brief                                      │
-│  - Access to source materials                                   │
-│                                                                 │
-│  Outputs:                                                       │
-│  - Fact-check report:                                           │
-│    • ✅ Verified claims (with source confirmation)              │
-│    • ⚠️ Unverified claims (not in sources)                      │
-│    • ❌ Incorrect claims (contradicts sources)                  │
-│    • 🔍 Claims needing external verification                    │
-│                                                                 │
-│  Rules:                                                         │
-│  - Be paranoid - assume hallucination until proven              │
-│  - Check URLs actually exist                                    │
-│  - Verify protocol names, DAO names, tool names                 │
-│  - Flag any "sounds plausible but unverified"                   │
-│                                                                 │
-│  Gate: If >2 ❌ or >5 ⚠️, return to Agent 2 for rewrite         │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  AGENT 4: EDITOR                                                │
-│                                                                 │
-│  Job: Polish for clarity, consistency, and actionability.       │
-│                                                                 │
-│  Inputs:                                                        │
-│  - Fact-checked draft                                           │
-│  - Style guide                                                  │
-│  - Glossary of terms                                            │
-│  - Example "gold standard" articles                             │
-│                                                                 │
-│  Outputs:                                                       │
-│  - Edited draft with:                                           │
-│    • Consistent terminology                                     │
-│    • Simplified jargon (for 🌱 audience)                        │
-│    • Improved flow and transitions                              │
-│    • Stronger opening hook                                      │
-│    • Clearer action items                                       │
-│                                                                 │
-│  Rules:                                                         │
-│  - Don't add new facts (only rephrase)                          │
-│  - Flag if article is too long/short                            │
-│  - Ensure every section earns its place                         │
-│  - Cut fluff ruthlessly                                         │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  AGENT 5: CRITIC (Target Persona)                               │
-│                                                                 │
-│  Job: Read as the target user. Find gaps and confusion.         │
-│                                                                 │
-│  Inputs:                                                        │
-│  - Edited draft                                                 │
-│  - Target persona description                                   │
-│  - Persona's goals and context                                  │
-│                                                                 │
-│  Outputs:                                                       │
-│  - Critique from persona's POV:                                 │
-│    • "What confused me?"                                        │
-│    • "What's still unclear?"                                    │
-│    • "What would I do next?" (is it clear?)                     │
-│    • "What's missing that I'd need?"                            │
-│    • "Did this respect my time?"                                │
-│    • Overall: SHIP IT or NEEDS WORK                             │
-│                                                                 │
-│  Rules:                                                         │
-│  - Embody the persona fully                                     │
-│  - Be honest, not nice                                          │
-│  - Focus on usefulness, not polish                              │
-│                                                                 │
-│  Gate: If NEEDS WORK, return to Agent 4 (or Agent 2 if major)   │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  AGENT 6: FINAL CHECK                                           │
-│                                                                 │
-│  Job: Format check and metadata.                                │
-│                                                                 │
-│  Outputs:                                                       │
-│  - Final article with correct frontmatter                       │
-│  - Updated status: placeholder → draft                          │
-│  - Summary for PR/commit message                                │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-                        READY TO SHIP
-```
+### Foundations (800–1200 words)
+- Explain core concepts, values, and frameworks
+- Define key terms on first use
+- Include historical context where relevant
 
----
+### Implementation Guides (1200–1800 words)
+- Step-by-step processes for setting up systems
+- Emphasize community context and adaptation
+- Include common pitfalls and how to avoid them
 
-## Quality Gates
+### Case Studies (800–1500 words)
+- Real-world examples of regenerative practices
+- Highlight challenges, adaptations, and outcomes
+- Focus on transferable lessons
 
-### Gate 1: Research Completeness
-- [ ] At least 3 source citations
-- [ ] Key concepts extracted
-- [ ] Gaps identified
+## Article Structure
 
-### Gate 2: Draft Quality
-- [ ] All claims have citations
-- [ ] Matches word count target (±20%)
-- [ ] Has intro, body, conclusion
-- [ ] Has practical action items
-
-### Gate 3: Fact-Check Pass
-- [ ] Zero ❌ (incorrect claims)
-- [ ] Max 2 ⚠️ (unverified claims)
-- [ ] All URLs verified
-
-### Gate 4: Edit Quality
-- [ ] Passes style guide check
-- [ ] Consistent terminology
-- [ ] No fluff paragraphs
-
-### Gate 5: Persona Approval
-- [ ] Critic says "SHIP IT"
-- [ ] No major confusion flags
-- [ ] Clear next steps
-
----
-
-## Supporting Documents Needed
-
-### 1. Style Guide
 ```markdown
-## Voice & Tone
-- Friendly but not condescending
-- Practical over theoretical
-- "Here's how" over "Here's why" (for 🌱)
-- Acknowledge complexity without drowning in it
-
-## Structure
-- Hook in first 2 sentences
-- One main idea per section
-- End sections with action or transition
-- Total: 800-1200 words for foundations, 1500-2000 for applied
-
-## Language Rules
-- Define jargon on first use
-- No unexplained acronyms
-- "You" not "one" or "users"
-- Active voice
-- Short paragraphs (3-4 sentences max)
-
-## What to Avoid
-- "In this article, we will..."
-- "It's important to note that..."
-- "As we discussed above..."
-- Hedge words: "somewhat", "relatively", "fairly"
-- Unsourced superlatives: "best", "most popular", "leading"
-```
-
-### 2. Persona Cards
-
-**🌱 Grounded Regen**
-```
-Name: Maya
-Background: Permaculture teacher, community garden organizer
-Tech comfort: Uses smartphone, basic apps, no crypto experience
-Goals: "I want to understand if this web3 stuff can help my community"
-Fears: Getting scammed, looking stupid, wasting time on hype
-Language: No jargon. Explain everything. Use analogies to nature/community.
-```
-
-**💰 Curious Degen**
-```
-Name: Alex
-Background: Software dev, has traded crypto, understands DeFi
-Tech comfort: Very high, runs own node, uses multiple wallets
-Goals: "I want to do something meaningful with my skills and capital"
-Fears: Getting rugged by fake impact projects, greenwashing
-Language: Can use technical terms. Focus on legitimacy signals, due diligence.
-```
-
-**🔄 On-Chain Regen**
-```
-Name: Jordan
-Background: Works at a ReFi protocol, attended ETH Denver
-Tech comfort: High, but gaps in governance/coordination theory
-Goals: "I want to start a local chapter and bring others in"
-Fears: Burning out, building something that doesn't matter
-Language: Can assume web3 basics. Focus on patterns, playbooks, connections.
-```
-
-### 3. Source Access Protocol
-
-For each source (A-S), we need:
-- Full text or structured extracts
-- Quick reference of what it covers
-- Citation format
-
-Example:
-```yaml
-source: A
-name: ReFi DAO Local ReFi Toolkit
-url: https://refidao.github.io/local-refi-toolkit/
-covers:
-  - Local node operations
-  - Protocol playbooks
-  - Regional case studies
-cite_as: "[ReFi DAO Toolkit]"
-```
-
+---
+title: "Local Currency Setup"
+description: "How to create a community-based local currency system"
+audience: "Local Organizer"
+maturity: "Intermediate"
+status: "published"
+last_updated: '2026-03-26'
+draft: false
+sources_used:
+  - restor.org/project/keystone-research-center
+  - weavers.network/project/solar-community-co-op
+tags:
+  function: "Funding"
+  domain: "Community"
+  systems:
+    - "Feedback Loops"
+    - "Thresholds"
+value_chain:
+  - value: "Community sovereignty over exchange"
+  - principle: "Closed-loop mutual credit"
+  - practice: "Weekly exchange reconciliation at local markets"
 ---
 
-## Implementation Options
+## Try This
+> **Beginner:** Map local producers who might accept local currency  
+> **Intermediate:** Prototype a simple exchange agreement between two businesses  
+> **Advanced:** Integrate with Timebank hours and design a feedback loop for currency circulation
 
-### Option A: Manual Pipeline (Start Here)
-Run each agent as a separate prompt, manually passing outputs.
-- Pro: Full control, can adjust
-- Con: Slow, manual work
+<!-- Only include if applicable -->
+## How This Works
+- **Value:** Community sovereignty over exchange
+- **Principle:** Closed-loop mutual credit
+- **Practice:** Weekly exchange reconciliation at local markets
 
-### Option B: Skill-Based Automation
-Create a `/write-article` skill that orchestrates the pipeline.
-- Pro: Repeatable, consistent
-- Con: Need to build it
+## References
+- [Keystone Research Center Local Currency Project](https://restor.org/project/keystone-research-center)
+- [Solar Community Co-op Model](https://weavers.network/project/solar-community-co-op)
+```
 
-### Option C: Background Agent System
-Spin up agents in parallel/sequence automatically.
-- Pro: Fast, scalable
-- Con: Complex to build, harder to debug
+## Frontmatter Standards
 
-**Recommendation:** Start with Option A for first 5-10 articles to refine the process, then build Option B.
+### Required Fields
+- `title`: Clear, descriptive title
+- `description`: One-sentence summary
+- `status`: "published" or "draft"
+- `last_updated`: ISO date in quotes
 
----
+### Recommended Fields
+- `audience`: One of: Individual, Local Organizer, DAO Operator, Community Steward, Researcher
+- `maturity`: One of: Beginner, Intermediate, Advanced, Implementation Ready
+- `sources_used`: Array of key sources used in research
 
-## Iteration Protocol
+### Schema-Driven Tags
 
-When an article fails a gate:
+#### Primary Axes (from Matt's taxonomy)
+- `function`: What problem it solves (Governance, Funding, Security, etc.)
+- `domain`: Primary category (Community, Ecosystem, Personal)
 
-1. **Minor issues** (style, clarity) → Agent 4 fixes directly
-2. **Fact issues** (unverified claims) → Return to Agent 2 with specific fixes
-3. **Major gaps** (missing context) → Return to Agent 1 for more research
-4. **Fundamental problems** (wrong angle) → Human review, restart
+#### Cross-Cutting Themes
+- `systems`: Relevant systems concepts (Fractals, Thresholds, Feedback Loops)
 
-Max iterations: 3 before human review required.
+#### Value Chain
+- `value_chain`: Array with value → principle → practice progression
 
----
+## Writing Process
 
-## Metrics to Track
+1. **Research**
+   - Consult primary sources (Restor, Hylo, P2P Foundation, ReFi Ecosystem)
+   - Use Matt's taxonomy spreadsheet for categorization
+   - Extract real examples and case studies
 
-Per article:
-- [ ] Time from start to ship
-- [ ] Number of iteration loops
-- [ ] Fact-check pass rate
-- [ ] Critic approval rate
+2. **Draft**
+   - Start with clear problem statement
+   - Use short paragraphs (1–3 sentences)
+   - Address reader as "you"
+   - Define all jargon on first use
 
-Across toolkit:
-- [ ] Articles completed vs. total
-- [ ] Average quality score
-- [ ] Most common failure modes
+3. **Structure**
+   - Add `## Try This` with tiered exercises when applicable
+   - Include `## How This Works` only for actionable frameworks
+   - Weave systems concepts naturally—do not force a dedicated section
 
----
+4. **Reference**
+   - End with hand-curated References section
+   - No [Source X] markers in body
+   - Include live links to projects, tools, and datasets
 
-## Next Steps
+## Content Sourcing
 
-1. [ ] Write the Style Guide (full version)
-2. [ ] Create Persona Cards (detailed)
-3. [ ] Set up Source Access (structured extracts)
-4. [ ] Test pipeline on 3 pilot articles
-5. [ ] Refine based on learnings
-6. [ ] Build `/write-article` skill
+### Approved Source Maps
+These provide validated examples and case studies:
+- **[Restor](https://restor.org)**: Verified ecological restoration projects
+- **[Hylo](https://hylo.com)**: Grassroots community initiatives
+- **[P2P Foundation Wiki](https://p2pfoundation.net)**: Governance patterns, open cooperatives
+- **[ReFi Ecosystem](https://refivc.com)**: Regenerative finance projects and DAOs
+- **[Weavers Network](https://weavers.network)**: Community trust-building models
+- **[Second Renaissance Ecosystem Map](https://secondrenaissance.com)**: Regenerative projects and orgs
+
+### Integration
+- Cite specific projects in `sources_used` frontmatter
+- Use examples naturally in body text
+- Link to projects in References
+
+## Style Guide
+
+### Voice & Tone
+- Use active voice: "You can set up" not "One can set up"
+- Be direct: "This creates" not "This may potentially lead to"
+- Keep sentences short and clear
+
+### Formatting
+- Use ## headings for main sections
+- Use > blockquotes for tiered exercises
+- Use - bullet lists for key points
+- No em dashes — use spaced hyphens - like this
+
+## Review & Publication
+
+1. Verify all links are live
+2. Confirm frontmatter is complete
+3. Ensure no AI slop language
+4. Check for clear value proposition
+5. Set `status: published` and `last_updated`
+
+## Maintenance
+
+- Review articles quarterly for outdated information
+- Update `last_updated` date on substantial changes
+- Add new case studies as they emerge from partner networks
+
+This system enables consistent, high-quality content that serves community practitioners while honoring the complexity of regenerative work.

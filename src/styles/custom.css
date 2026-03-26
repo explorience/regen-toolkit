@@ -1,0 +1,26 @@
+/* Regen Toolkit custom styles */
+:root {
+  --sl-color-accent-low: #1a4d2e;
+  --sl-color-accent: #2d8a56;
+  --sl-color-accent-high: #b4e4c7;
+  --sl-font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Clean reading experience */
+.sl-markdown-content {
+  max-width: 70ch;
+}
+
+.sl-markdown-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sl-markdown-content h2 {
+  margin-top: 2rem;
+}
+
+/* Make tables readable on mobile */
+.sl-markdown-content table {
+  font-size: 0.9rem;
+}
