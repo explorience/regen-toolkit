@@ -1,147 +1,98 @@
-# The Regen Web3 Toolkit (working title)
+# Regen Toolkit
 
-A comprehensive, open-source resource for regenerative practitioners entering (or already in) the Web3 space.
+Practical web3 knowledge for regenerative communities.
 
-## What is the Regen Toolkit?
+**Live site:** [regen-toolkit-site.vercel.app](https://regen-toolkit-site.vercel.app)
 
-The Regen Toolkit is a curated, modular framework that synthesizes existing resources while filling critical gaps. It creates clear learning pathways for multiple audiences entering Web3 from different directions.
+## What Is This?
 
-**Key differentiator:** This isn't another incomplete partial toolkit. It *connects the dots* between existing resources and provides easy entry points for different audiences.
+The Regen Toolkit is a curated, open-source knowledge base that helps regenerative practitioners understand and use web3 tools. It connects the dots between existing resources and provides clear learning pathways for different audiences.
 
-## Target Audiences
+**Who it's for:**
+- Community organizers new to blockchain
+- Environmental practitioners exploring impact verification
+- Local chapter builders setting up web3 coordination
+- DAO operators and governance researchers
 
-The toolkit serves **three distinct audiences** entering from different directions:
+## Current State
 
-### 🌱 The Grounded Regen
-- **Who they are:** Permaculturists, community organizers, nonprofit workers, activists who've never touched crypto
-- **What they need:** "Why should I care about blockchain? How does this help my real work?"
-- **Entry point:** Track 1 (Foundations)
+- **67 published articles** across foundations, applied topics, and playbooks
+- **254 total articles** in the taxonomy (remaining are stubs in progress)
+- **5 learning paths** through the content for different audiences
+- **Interactive Knowledge Explorer** mapping all topics and connections
+- **Tag Explorer** for filtering by function, domain, systems concepts, audience, and maturity
 
-### 💰 The Curious Degen
-- **Who they are:** Crypto-native folks who want to do something meaningful with their skills/capital
-- **What they need:** "I get the tech, but how do I find legit impact projects? How do I avoid greenwashing?"
-- **Entry point:** Track 2 (Applied) + Track 3 (Playbooks)
+### Browse the Content
 
-### 🔄 The On-Chain Regen
-- **Who they are:** Already in ReFi/web3 impact space, wants to go deeper or start local initiatives
-- **What they need:** "How do I start a local node? What patterns work? How do I bring others in?"
-- **Entry point:** Track 2 (Local Nodes) + Track 3 (Playbooks)
+- [Knowledge Explorer](https://regen-toolkit-site.vercel.app/explorer/) - Interactive graph of all topics and connections
+- [Tag Explorer](https://regen-toolkit-site.vercel.app/tags/) - Filter articles by tags and metadata
+- [All Articles](https://regen-toolkit-site.vercel.app/) - Browse the full site
 
-## Suggested Pathways
+## Repository Structure
 
-> **🌱 New to web3?** Start with [Track 1: Foundations] → then [2.1 Crypto Philanthropy] → then explore [Track 3: Case Studies]
->
-> **💰 Crypto-native wanting to contribute?** Start with [1.9 The Regen Landscape] → then [Track 2: Local Nodes] → then [Track 3: Playbooks]
->
-> **🔄 Ready to start a local node?** Jump to [2.2 Local Nodes] → reference [Track 3: Patterns] → connect with [Community Resources]
+```
+regen-toolkit/
+├── src/content/docs/     # All articles (Markdown with YAML frontmatter)
+├── src/data/              # Knowledge graph data
+├── public/explorer/       # Interactive knowledge map (D3.js)
+├── public/tags/           # Tag explorer
+├── docs/                  # Project documentation
+│   ├── writing-system.md  # Content creation standards
+│   ├── migration-plan.md  # Taxonomy migration plan
+│   └── process/           # Sprint logs
+├── content/               # Raw source articles (pre-Astro)
+├── astro.config.mjs       # Site configuration
+└── CONTRIBUTING.md        # How to contribute
+```
 
-## The Three Tracks
+## Tech Stack
 
-### Track 1: Foundations (🌱 Start Here If New to Web3)
-*For complete beginners - non-technical regens, nonprofit workers, community organizers*
+- **Framework:** [Astro](https://astro.build/) + [Starlight](https://starlight.astro.build/)
+- **Hosting:** [Vercel](https://vercel.com/)
+- **Search:** [Pagefind](https://pagefind.app/) (static, client-side)
+- **Knowledge graph:** D3.js force-directed visualization
 
-| Section | Topic | Articles |
-|---------|-------|----------|
-| 1.1 | Why Web3? The Regen Case | 6 |
-| 1.2 | Decentralization: The Core Idea | 6 |
-| 1.3 | Blockchain Fundamentals | 8 |
-| 1.4 | Cryptocurrency Essentials | 8 |
-| 1.5 | Wallets & Security | 8 |
-| 1.6 | Ethereum & Smart Contracts | 7 |
-| 1.7 | Tokens, NFTs & Digital Assets | 6 |
-| 1.8 | DAOs: Decentralized Organizations | 8 |
-| 1.9 | The ReFi Landscape | 8 |
-| 1.10 | Crypto Philanthropy & Nonprofit Onboarding | 7 |
+## Article Metadata
 
-### Track 2: Applied Web3 for Impact (All Audiences)
-*For anyone ready to build, participate, or start local initiatives*
+Every article has structured frontmatter:
 
-| Section | Topic | Articles |
-|---------|-------|----------|
-| 2.1 | Local Nodes: The Heart of the Movement | 6 |
-| 2.2 | Joining a Local Node | 6 |
-| 2.3 | Starting a Local Node | 8 |
-| 2.4 | Community Building in Web3 | 7 |
-| 2.5 | Gatherings & Events | 6 |
-| 2.6 | Funding Mechanisms | 7 |
-| 2.7 | Decentralized Governance (Deep Dive) | 7 |
-| 2.8 | Impact Measurement & Verification | 7 |
-| 2.9 | Tokenomics & Community Currencies | 6 |
-| 2.10 | Blockchain for Program Delivery | 6 |
-| 2.11 | Web3 Safety & Security (Organizational) | 6 |
-| 2.12 | AI + Web3 for Impact | 6 |
-| 2.13 | Web3 Marketing & Communications | 6 |
-| 2.14 | Your Web3 Action Plan | 6 |
-
-### Track 3: Playbooks, Patterns & Case Studies (Reference Library)
-*For 🔄 On-Chain Regens and 💰 Curious Degens wanting deep dives*
-
-| Section | Topic | Articles |
-|---------|-------|----------|
-| 3.1 | Protocol-Specific Playbooks | 7 |
-| 3.2 | Implementation Patterns | 12 |
-| 3.3 | Case Studies by Region | 20 |
-| 3.4 | Case Studies by Theme | 10 |
-| 3.5 | Tools & Resources Directory | 12 |
-| 3.6 | Glossary & Lexicon | 7 |
+```yaml
+---
+title: What Is Blockchain
+description: A clear explanation of blockchain technology
+status: published
+tags:
+  function: Education           # What problem it solves
+  domain: Web3-Literacy         # Knowledge domain
+  systems:                      # Cross-cutting concepts
+    - Decentralization
+    - Trust-Networks
+audience: Individual            # Target reader
+maturity: Beginner              # Complexity level
+related:                        # Cross-links
+  - what-is-cryptocurrency
+  - centralized-vs-decentralized
+---
+```
 
 ## Source References
 
-This toolkit synthesizes and curates content from multiple existing resources:
+This toolkit synthesizes content from multiple existing resources:
 
-| Code | Source | Best For |
-|------|--------|----------|
-| A | [ReFi DAO Local ReFi Toolkit](https://refidao.github.io/local-refi-toolkit/) | Playbooks, case studies, protocol implementations |
-| B | [Greenpill Local Regen Guide](https://greenpill.network/pdf/local-regen-guide.pdf) | Philosophy, public goods, community building theory |
-| C | [CryptoAltruists Web3 Impact Toolkit](https://www.cryptoaltruists.com/toolkit) | Nonprofits, practical how-tos, safety |
-| D | [Bankless Academy](https://app.banklessacademy.com/lessons) | Beginner web3 education, interactive lessons |
-| E | [SuperBenefit Knowledge Garden](https://knowledge.superbenefit.org/) | DAO patterns, governance, organizational design |
-| F | [Graviton Introductory Course](https://gravitydao.org/course/graviton-introductory-course/) | Conflict resolution, coordination, community health |
-| G | [Foundation "Getting Started in Web3"](https://help.foundation.app/hc/en-us/sections/7243593758875-Getting-started-in-web3) | NFT/creator onboarding, wallet basics |
-| J | [Mechanism Institute Library](https://mechanism.institute/library) | Deep mechanism research, tokenomics |
-| M | [Eth Localism Book](https://greenpill.network/pdf/ethereum-localism.pdf) | Philosophy, localism theory |
-| N | [Commitment Pooling Playbook](https://docs.google.com/document/d/1Io4P_WGQI2m-r2Y5WaecLqpmHIcLXwyhd-fxZSXXgiY/edit) | Specific coordination pattern |
-| O | [Reimagining Power Case Studies](https://github.com/superbenefit/knowledge-garden/tree/v4/content/artifacts/reimagining-power) | Real use cases from SuperBenefit, tested patterns |
-| P | [Ethereum Localism Resources](https://www.ethereumlocalism.xyz/resources/) | Localism frameworks, governance tools, practical templates |
-| Q | [BioFi Project](https://biofi.earth) | Bioregional finance, place-based organizing, free eBook |
-| R | [Open Civics Framework](https://opencivics.co) | Civic innovation, participatory design, governance wiki |
-| S | [Ottawa Web3 Starter Guide](https://workspace.greenpill.network/page-8610845635867892) | Beginner onboarding, wallet setup, workshop-tested |
-
-## Project Status
-
-This toolkit is currently in **active development**. All articles are placeholder stubs awaiting content.
-
-**Current state:**
-- Structure and scaffolding: ✅ Complete
-- Placeholder articles: ✅ Created
-- Content writing: 🔄 In progress
+| Source | Focus |
+|--------|-------|
+| [Bankless Academy](https://app.banklessacademy.com/) | Beginner web3 education |
+| [ReFi DAO Local Toolkit](https://refidao.github.io/local-refi-toolkit/) | Playbooks, protocol implementations |
+| [Greenpill Network](https://greenpill.network/) | Philosophy, public goods, community building |
+| [SuperBenefit Knowledge Garden](https://knowledge.superbenefit.org/) | DAO patterns, governance |
+| [Open Civics](https://opencivics.co) | Civic innovation, governance frameworks |
+| [P2P Foundation](https://p2pfoundation.net) | Governance patterns, open cooperatives |
+| [Restor](https://restor.org) | Ecological restoration projects |
 
 ## Contributing
 
-We welcome contributions from practitioners around the world!
-
-**Ways to contribute:**
-- Write or improve articles
-- Add case studies from your region
-- Create protocol playbooks
-- Translate content
-- Review and provide feedback
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## Collaboration
-
-This is a collaborative project involving:
-- **Regen Commons** - Funding and coordination
-- **Greenpill Network** - Philosophy content, community
-- **ReFi DAO** - Local node content, protocol playbooks
-- **SuperBenefit** - DAO patterns, case studies
-- Community contributors worldwide
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Content standards are in [docs/writing-system.md](docs/writing-system.md).
 
 ## License
 
-This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
-
----
-
-*Built with 🌱 by the global ReFi community*
+[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
