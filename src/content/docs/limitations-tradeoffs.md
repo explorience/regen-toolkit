@@ -1,7 +1,6 @@
 ---
 title: Limitations and tradeoffs
 description: Learn about limitations and tradeoffs in this Regen Toolkit article.
-slug: 1-foundations-1.3-blockchain-fundamentals-limitations-tradeoffs
 section: '1.3'
 track: 1
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Balancing Online and IRL
 description: Learn about balancing online and irl in this Regen Toolkit article.
-slug: 2-applied-2.4-community-building-balancing-online-irl
 section: '2.4'
 track: 2
 status: not-started

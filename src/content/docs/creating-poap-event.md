@@ -1,7 +1,6 @@
 ---
 title: Creating a POAP Event
 description: Learn about creating a poap event in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-creating-poap-event
 section: '3.2'
 track: 3
 status: not-started

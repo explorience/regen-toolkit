@@ -1,7 +1,6 @@
 ---
 title: Knowledge Management and RAG
 description: Learn about knowledge management and rag in this Regen Toolkit article.
-slug: 2-applied-2.12-ai-web3-knowledge-management-rag
 section: '2.12'
 track: 2
 status: not-started

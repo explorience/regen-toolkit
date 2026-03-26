@@ -1,7 +1,6 @@
 ---
 title: Treasury Management
 description: Learn about treasury management in this Regen Toolkit article.
-slug: 1-foundations-1.8-daos-treasury-management
 section: '1.8'
 track: 1
 status: published

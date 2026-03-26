@@ -1,7 +1,6 @@
 ---
 title: Existing Local Nodes
 description: Learn about existing local nodes in this Regen Toolkit article.
-slug: 2-applied-2.1-local-nodes-existing-local-nodes
 section: '2.1'
 track: 2
 status: not-started

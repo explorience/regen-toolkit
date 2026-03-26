@@ -1,7 +1,6 @@
 ---
 title: Key properties of blockchains
 description: Learn about key properties of blockchains in this Regen Toolkit article.
-slug: 1-foundations-1.3-blockchain-fundamentals-key-properties
 section: '1.3'
 track: 1
 status: not-started

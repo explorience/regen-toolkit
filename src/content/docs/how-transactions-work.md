@@ -1,7 +1,6 @@
 ---
 title: How Transactions Work
 description: Learn about how transactions work in this Regen Toolkit article.
-slug: 1-foundations-1.3-blockchain-fundamentals-how-transactions-work
 section: '1.3'
 track: 1
 status: published

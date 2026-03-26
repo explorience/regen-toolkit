@@ -1,7 +1,6 @@
 ---
 title: Cash Transfers and Aid Delivery
 description: Learn about cash transfers and aid delivery in this Regen Toolkit article.
-slug: 2-applied-2.10-blockchain-program-delivery-cash-transfers-aid
 section: '2.10'
 track: 2
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: ReFi Costa Rica
 description: Learn about refi costa rica in this Regen Toolkit article.
-slug: 3-playbooks-3.3-case-studies-region-refi-costa-rica
 section: '3.3'
 track: 3
 status: not-started

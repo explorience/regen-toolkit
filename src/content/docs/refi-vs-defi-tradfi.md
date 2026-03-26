@@ -1,7 +1,6 @@
 ---
 title: ReFi vs DeFi vs TradFi
 description: Learn about refi vs defi vs tradfi in this Regen Toolkit article.
-slug: 1-foundations-1.9-refi-landscape-refi-vs-defi-tradfi
 section: '1.9'
 track: 1
 status: published

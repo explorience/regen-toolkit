@@ -1,7 +1,6 @@
 ---
 title: Greenpill Chapters
 description: Learn about greenpill chapters in this Regen Toolkit article.
-slug: 3-playbooks-3.3-case-studies-region-greenpill-chapters
 section: '3.3'
 track: 3
 status: not-started

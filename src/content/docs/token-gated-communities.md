@@ -1,7 +1,6 @@
 ---
 title: Token-Gated Communities
 description: Learn about token-gated communities in this Regen Toolkit article.
-slug: 2-applied-2.4-community-building-token-gated-communities
 section: '2.4'
 track: 2
 status: not-started

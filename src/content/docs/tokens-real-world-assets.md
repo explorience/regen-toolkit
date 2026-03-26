@@ -1,7 +1,6 @@
 ---
 title: Tokens Real World Assets
 description: Learn about tokens real world assets in this Regen Toolkit article.
-slug: 1-foundations-1.7-tokens-nfts-digital-assets-tokens-real-world-assets
 section: '1.7'
 track: 1
 status: published

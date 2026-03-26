@@ -1,7 +1,6 @@
 ---
 title: Setting Up a Multisig Treasury
 description: Learn about setting up a multisig treasury in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-setting-up-multisig-treasury
 section: '3.2'
 track: 3
 status: not-started

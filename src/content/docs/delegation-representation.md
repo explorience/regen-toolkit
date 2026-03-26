@@ -1,7 +1,6 @@
 ---
 title: Delegation and Representation in DAOs
 description: How to design delegation systems that balance participation with practicality in community governance.
-slug: 2-applied-2.7-decentralized-governance-delegation-representation
 section: '2.7'
 track: 2
 status: draft

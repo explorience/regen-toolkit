@@ -1,7 +1,6 @@
 ---
 title: The AI-Web3 Intersection
 description: Learn about the ai-web3 intersection in this Regen Toolkit article.
-slug: 2-applied-2.12-ai-web3-ai-web3-intersection
 section: '2.12'
 track: 2
 status: not-started

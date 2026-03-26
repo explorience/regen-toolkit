@@ -1,7 +1,6 @@
 ---
 title: The Funding Landscape
 description: Learn about the funding landscape in this Regen Toolkit article.
-slug: 2-applied-2.6-funding-mechanisms-funding-landscape
 section: '2.6'
 track: 2
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Regulatory Considerations
 description: Learn about regulatory considerations in this Regen Toolkit article.
-slug: 2-applied-2.11-web3-safety-security-regulatory-considerations
 section: '2.11'
 track: 2
 status: not-started

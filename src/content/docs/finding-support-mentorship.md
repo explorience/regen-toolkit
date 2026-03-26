@@ -1,7 +1,6 @@
 ---
 title: Finding Support and Mentorship
 description: Guide to finding support and mentorship.
-slug: 2-applied-2.14-web3-action-plan-finding-support-mentorship
 section: '2.14'
 track: 2
 status: published

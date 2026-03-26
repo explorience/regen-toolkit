@@ -1,7 +1,6 @@
 ---
 title: Grants from DAOs and Foundations
 description: Learn about grants from daos and foundations in this Regen Toolkit article.
-slug: 2-applied-2.6-funding-mechanisms-grants-daos-foundations
 section: '2.6'
 track: 2
 status: not-started

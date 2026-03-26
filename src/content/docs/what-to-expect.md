@@ -1,7 +1,6 @@
 ---
 title: What to Expect
 description: Learn about what to expect in this Regen Toolkit article.
-slug: 2-applied-2.2-joining-local-node-what-to-expect
 section: '2.2'
 track: 2
 status: not-started

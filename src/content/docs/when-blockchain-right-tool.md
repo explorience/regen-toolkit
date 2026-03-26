@@ -1,7 +1,6 @@
 ---
 title: When Blockchain is the Right Tool
 description: Learn about when blockchain is the right tool in this Regen Toolkit article.
-slug: 2-applied-2.10-blockchain-program-delivery-when-blockchain-right-tool
 section: '2.10'
 track: 2
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Conceptual frameworks
 description: Learn about conceptual frameworks in this Regen Toolkit article.
-slug: 3-playbooks-3.6-glossary-conceptual-frameworks
 section: '3.6'
 track: 3
 status: not-started

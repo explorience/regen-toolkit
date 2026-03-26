@@ -1,7 +1,6 @@
 ---
 title: Incident Response
 description: Learn about incident response in this Regen Toolkit article.
-slug: 2-applied-2.11-web3-safety-security-incident-response
 section: '2.11'
 track: 2
 status: not-started

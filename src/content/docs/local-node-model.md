@@ -1,7 +1,6 @@
 ---
 title: Local Node Models
 description: Different organizational models for local nodes and when to use each one.
-slug: 2-applied-2.1-local-nodes-local-node-model
 section: '2.1'
 track: 2
 status: published

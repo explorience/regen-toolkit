@@ -1,7 +1,6 @@
 ---
 title: Designing Token Incentives
 description: Learn about designing token incentives in this Regen Toolkit article.
-slug: 2-applied-2.9-tokenomics-community-currencies-designing-token-incentives
 section: '2.9'
 track: 2
 status: not-started

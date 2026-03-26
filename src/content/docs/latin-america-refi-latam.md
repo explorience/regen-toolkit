@@ -1,7 +1,6 @@
 ---
 title: 'Latin America: ReFi LATAM Nodes'
 description: 'Learn about latin america: refi latam nodes in this Regen Toolkit article.'
-slug: 3-playbooks-3.3-case-studies-region-latin-america-refi-latam
 section: '3.3'
 track: 3
 status: not-started

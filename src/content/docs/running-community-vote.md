@@ -1,7 +1,6 @@
 ---
 title: Running a Community Vote
 description: Learn about running a community vote in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-running-community-vote
 section: '3.2'
 track: 3
 status: not-started

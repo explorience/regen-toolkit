@@ -1,7 +1,6 @@
 ---
 title: 'Africa: Kenya Sarafu Network'
 description: 'Learn about africa: kenya sarafu network in this Regen Toolkit article.'
-slug: 3-playbooks-3.3-case-studies-region-africa-kenya-sarafu
 section: '3.3'
 track: 3
 status: not-started

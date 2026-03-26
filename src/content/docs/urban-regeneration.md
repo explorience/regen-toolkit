@@ -1,7 +1,6 @@
 ---
 title: Urban Regeneration
 description: Learn about urban regeneration in this Regen Toolkit article.
-slug: 3-playbooks-3.4-case-studies-theme-urban-regeneration
 section: '3.4'
 track: 3
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Community Currencies
 description: Learn about community currencies in this Regen Toolkit article.
-slug: 2-applied-2.9-tokenomics-community-currencies-community-currencies
 section: '2.9'
 track: 2
 status: not-started

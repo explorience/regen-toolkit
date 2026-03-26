@@ -1,7 +1,6 @@
 ---
 title: Local Nodes and DAOs
 description: Learn about local nodes and daos in this Regen Toolkit article.
-slug: 2-applied-2.1-local-nodes-local-nodes-and-daos
 section: '2.1'
 track: 2
 status: not-started

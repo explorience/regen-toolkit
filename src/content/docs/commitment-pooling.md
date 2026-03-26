@@ -1,7 +1,6 @@
 ---
 title: Commitment Pooling
 description: Learn about commitment pooling in this Regen Toolkit article.
-slug: 2-applied-2.9-tokenomics-community-currencies-commitment-pooling
 section: '2.9'
 track: 2
 status: not-started

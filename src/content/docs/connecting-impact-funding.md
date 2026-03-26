@@ -1,7 +1,6 @@
 ---
 title: Connecting Impact to Funding
 description: Learn about connecting impact to funding in this Regen Toolkit article.
-slug: 2-applied-2.8-impact-measurement-connecting-impact-funding
 section: '2.8'
 track: 2
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Creating a Community Token
 description: Learn about creating a community token in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-creating-community-token
 section: '3.2'
 track: 3
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Emerging Tools
 description: Learn about emerging tools in this Regen Toolkit article.
-slug: 2-applied-2.12-ai-web3-emerging-tools
 section: '2.12'
 track: 2
 status: not-started

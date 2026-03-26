@@ -1,7 +1,6 @@
 ---
 title: Ethical Considerations
 description: Learn about ethical considerations in this Regen Toolkit article.
-slug: 2-applied-2.12-ai-web3-ethical-considerations
 section: '2.12'
 track: 2
 status: not-started

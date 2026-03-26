@@ -1,7 +1,6 @@
 ---
 title: AI Assistants for Coordination
 description: Learn about ai assistants for coordination in this Regen Toolkit article.
-slug: 2-applied-2.12-ai-web3-ai-assistants-coordination
 section: '2.12'
 track: 2
 status: not-started

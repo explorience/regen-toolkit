@@ -1,7 +1,6 @@
 ---
 title: Knowledge Gardens
 description: Learn about knowledge gardens in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-knowledge-gardens
 section: '3.2'
 track: 3
 status: not-started

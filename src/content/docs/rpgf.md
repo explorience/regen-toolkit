@@ -1,7 +1,6 @@
 ---
 title: Retroactive Public Goods Funding
 description: Learn about retroactive public goods funding in this Regen Toolkit article.
-slug: 2-applied-2.6-funding-mechanisms-rpgf
 section: '2.6'
 track: 2
 status: not-started

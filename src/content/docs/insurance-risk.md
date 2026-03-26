@@ -1,7 +1,6 @@
 ---
 title: Insurance and Risk Management
 description: Learn about insurance and risk management in this Regen Toolkit article.
-slug: 2-applied-2.11-web3-safety-security-insurance-risk
 section: '2.11'
 track: 2
 status: not-started

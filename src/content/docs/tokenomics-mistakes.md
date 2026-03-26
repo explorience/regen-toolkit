@@ -1,7 +1,6 @@
 ---
 title: Common Tokenomics Mistakes
 description: Learn about common tokenomics mistakes in this Regen Toolkit article.
-slug: 2-applied-2.9-tokenomics-community-currencies-tokenomics-mistakes
 section: '2.9'
 track: 2
 status: not-started

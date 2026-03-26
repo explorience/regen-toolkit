@@ -1,7 +1,6 @@
 ---
 title: Key Management Policies
 description: Learn about key management policies in this Regen Toolkit article.
-slug: 2-applied-2.11-web3-safety-security-key-management-policies
 section: '2.11'
 track: 2
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Acronym decoder
 description: Learn about acronym decoder in this Regen Toolkit article.
-slug: 3-playbooks-3.6-glossary-acronym-decoder
 section: '3.6'
 track: 3
 status: not-started

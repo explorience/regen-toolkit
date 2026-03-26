@@ -1,7 +1,6 @@
 ---
 title: Writing Grant Proposals
 description: Learn about writing grant proposals in this Regen Toolkit article.
-slug: 2-applied-2.6-funding-mechanisms-writing-grant-proposals
 section: '2.6'
 track: 2
 status: not-started

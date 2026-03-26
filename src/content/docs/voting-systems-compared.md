@@ -1,7 +1,6 @@
 ---
 title: Voting Systems Compared
 description: Different voting systems and when to use each.
-slug: 2-applied-2.7-decentralized-governance-voting-systems-compared
 section: '2.7'
 track: 2
 status: published

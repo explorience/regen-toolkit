@@ -2,7 +2,6 @@
 title: 'Hypercerts: Creating and managing impact certificates'
 description: 'Learn about hypercerts: creating and managing impact certificates in
   this Regen Toolkit article.'
-slug: 3-playbooks-3.1-protocol-playbooks-hypercerts
 section: '3.1'
 track: 3
 status: not-started

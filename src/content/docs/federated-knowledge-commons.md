@@ -1,7 +1,6 @@
 ---
 title: Federated Knowledge Commons
 description: Learn about federated knowledge commons in this Regen Toolkit article.
-slug: 2-applied-2.12-ai-web3-federated-knowledge-commons
 section: '2.12'
 track: 2
 status: not-started

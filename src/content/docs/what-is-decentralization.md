@@ -1,7 +1,6 @@
 ---
 title: What is decentralization?
 description: Learn about what is decentralization? in this Regen Toolkit article.
-slug: 1-foundations-1.2-decentralization-what-is-decentralization
 section: '1.2'
 track: 1
 status: published

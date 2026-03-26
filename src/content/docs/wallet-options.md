@@ -1,7 +1,6 @@
 ---
 title: Wallet options compared
 description: Learn about wallet options compared in this Regen Toolkit article.
-slug: 3-playbooks-3.5-tools-resources-wallet-options
 section: '3.5'
 track: 3
 status: not-started

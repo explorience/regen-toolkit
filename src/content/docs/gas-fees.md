@@ -1,7 +1,6 @@
 ---
 title: Gas Fees
 description: Learn about gas fees in this Regen Toolkit article.
-slug: 1-foundations-1.4-cryptocurrency-essentials-gas-fees
 section: '1.4'
 track: 1
 status: published

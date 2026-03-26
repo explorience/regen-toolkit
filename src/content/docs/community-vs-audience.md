@@ -1,7 +1,6 @@
 ---
 title: Community vs Audience
 description: Learn about community vs audience in this Regen Toolkit article.
-slug: 2-applied-2.4-community-building-community-vs-audience
 section: '2.4'
 track: 2
 status: not-started

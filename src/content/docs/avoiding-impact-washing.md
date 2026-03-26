@@ -1,7 +1,6 @@
 ---
 title: Avoiding Impact Washing
 description: Learn about avoiding impact washing in this Regen Toolkit article.
-slug: 2-applied-2.8-impact-measurement-avoiding-impact-washing
 section: '2.8'
 track: 2
 status: not-started

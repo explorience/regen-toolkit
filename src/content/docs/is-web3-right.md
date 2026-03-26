@@ -1,7 +1,6 @@
 ---
 title: Is Web3 Right for Your Community?
 description: Guide to is web3 right for your community?.
-slug: 2-applied-2.14-web3-action-plan-is-web3-right
 section: '2.14'
 track: 2
 status: published

@@ -1,7 +1,6 @@
 ---
 title: Funding platforms
 description: Learn about funding platforms in this Regen Toolkit article.
-slug: 3-playbooks-3.5-tools-resources-funding-platforms
 section: '3.5'
 track: 3
 status: not-started

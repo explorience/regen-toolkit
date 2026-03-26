@@ -1,7 +1,6 @@
 ---
 title: 'Europe: Regens Unite'
 description: 'Learn about europe: regens unite in this Regen Toolkit article.'
-slug: 3-playbooks-3.3-case-studies-region-europe-regens-unite
 section: '3.3'
 track: 3
 status: not-started

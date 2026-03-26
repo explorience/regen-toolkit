@@ -1,7 +1,6 @@
 ---
 title: 'Middle East: Emerging Nodes'
 description: 'Learn about middle east: emerging nodes in this Regen Toolkit article.'
-slug: 3-playbooks-3.3-case-studies-region-middle-east-emerging
 section: '3.3'
 track: 3
 status: not-started

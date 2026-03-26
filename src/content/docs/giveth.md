@@ -2,7 +2,6 @@
 title: 'Giveth: Setting up projects and donations'
 description: 'Learn about giveth: setting up projects and donations in this Regen
   Toolkit article.'
-slug: 3-playbooks-3.1-protocol-playbooks-giveth
 section: '3.1'
 track: 3
 status: not-started

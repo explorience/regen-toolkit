@@ -1,7 +1,6 @@
 ---
 title: Community Platforms Comparison
 description: Learn about community platforms comparison in this Regen Toolkit article.
-slug: 3-playbooks-3.5-tools-resources-community-platforms-comparison
 section: '3.5'
 track: 3
 status: not-started

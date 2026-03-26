@@ -1,7 +1,6 @@
 ---
 title: Multisig Management
 description: Learn about multisig management in this Regen Toolkit article.
-slug: 2-applied-2.11-web3-safety-security-multisig-management
 section: '2.11'
 track: 2
 status: not-started

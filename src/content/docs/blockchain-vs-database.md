@@ -2,7 +2,6 @@
 title: Blockchain vs traditional database
 description: Learn about blockchain vs traditional database in this Regen Toolkit
   article.
-slug: 1-foundations-1.3-blockchain-fundamentals-blockchain-vs-database
 section: '1.3'
 track: 1
 status: not-started

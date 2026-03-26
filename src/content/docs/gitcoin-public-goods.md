@@ -1,7 +1,6 @@
 ---
 title: Gitcoin and public goods funding
 description: Learn about gitcoin and public goods funding in this Regen Toolkit article.
-slug: 1-foundations-1.9-refi-landscape-gitcoin-public-goods
 section: '1.9'
 track: 1
 status: not-started

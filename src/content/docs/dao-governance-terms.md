@@ -1,7 +1,6 @@
 ---
 title: DAO & Governance Terms
 description: Learn about dao & governance terms in this Regen Toolkit article.
-slug: 3-playbooks-3.6-glossary-dao-governance-terms
 section: '3.6'
 track: 3
 status: not-started

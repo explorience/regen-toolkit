@@ -1,7 +1,6 @@
 ---
 title: Ways to Contribute
 description: Learn about ways to contribute in this Regen Toolkit article.
-slug: 2-applied-2.2-joining-local-node-ways-to-contribute
 section: '2.2'
 track: 2
 status: not-started

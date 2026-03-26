@@ -1,7 +1,6 @@
 ---
 title: Building Internal Capacity
 description: Guide to building internal capacity.
-slug: 2-applied-2.14-web3-action-plan-building-internal-capacity
 section: '2.14'
 track: 2
 status: published

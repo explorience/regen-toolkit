@@ -1,7 +1,6 @@
 ---
 title: ReFi Barcelona
 description: Learn about refi barcelona in this Regen Toolkit article.
-slug: 3-playbooks-3.3-case-studies-region-refi-barcelona
 section: '3.3'
 track: 3
 status: not-started

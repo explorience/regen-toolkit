@@ -1,7 +1,6 @@
 ---
 title: Choosing a Starting Point
 description: How to pick where to begin your Web3 journey.
-slug: 2-applied-2.1-local-nodes-choosing-a-starting-point
 section: '2.1'
 track: 2
 status: published

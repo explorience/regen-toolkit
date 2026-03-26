@@ -1,7 +1,6 @@
 ---
 title: Sustaining Community
 description: Learn about sustaining community in this Regen Toolkit article.
-slug: 2-applied-2.4-community-building-sustaining-community
 section: '2.4'
 track: 2
 status: not-started

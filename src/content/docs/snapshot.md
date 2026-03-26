@@ -1,7 +1,6 @@
 ---
 title: 'Snapshot: Governance and voting'
 description: 'Learn about snapshot: governance and voting in this Regen Toolkit article.'
-slug: 3-playbooks-3.1-protocol-playbooks-snapshot
 section: '3.1'
 track: 3
 status: not-started

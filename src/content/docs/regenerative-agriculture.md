@@ -1,7 +1,6 @@
 ---
 title: Regenerative Agriculture Projects
 description: Learn about regenerative agriculture projects in this Regen Toolkit article.
-slug: 3-playbooks-3.4-case-studies-theme-regenerative-agriculture
 section: '3.4'
 track: 3
 status: not-started

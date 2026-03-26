@@ -2,7 +2,6 @@
 title: 'North America: Colorado Green Pill'
 description: 'Learn about north america: colorado green pill in this Regen Toolkit
   article.'
-slug: 3-playbooks-3.3-case-studies-region-north-america-colorado
 section: '3.3'
 track: 3
 status: not-started

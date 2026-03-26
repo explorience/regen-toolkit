@@ -1,7 +1,6 @@
 ---
 title: Finding Your People
 description: How to attract the right community members to your local node.
-slug: 2-applied-2.13-web3-marketing-finding-your-people
 section: '2.13'
 track: 2
 status: published

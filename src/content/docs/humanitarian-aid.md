@@ -2,7 +2,6 @@
 title: 'Humanitarian Aid: Cash transfers, disaster response'
 description: 'Learn about humanitarian aid: cash transfers, disaster response in this
   Regen Toolkit article.'
-slug: 3-playbooks-3.4-case-studies-theme-humanitarian-aid
 section: '3.4'
 track: 3
 status: not-started

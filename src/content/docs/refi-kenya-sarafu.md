@@ -1,7 +1,6 @@
 ---
 title: ReFi Kenya & Sarafu
 description: Learn about refi kenya & sarafu in this Regen Toolkit article.
-slug: 3-playbooks-3.3-case-studies-region-refi-kenya-sarafu
 section: '3.3'
 track: 3
 status: not-started

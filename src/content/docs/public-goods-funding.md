@@ -2,7 +2,6 @@
 title: 'Public Goods Funding: Gitcoin rounds, RPGF'
 description: 'Learn about public goods funding: gitcoin rounds, rpgf in this Regen
   Toolkit article.'
-slug: 3-playbooks-3.4-case-studies-theme-public-goods-funding
 section: '3.4'
 track: 3
 status: not-started

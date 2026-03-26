@@ -1,7 +1,6 @@
 ---
 title: Governance tools
 description: Learn about governance tools in this Regen Toolkit article.
-slug: 3-playbooks-3.5-tools-resources-governance-tools
 section: '3.5'
 track: 3
 status: not-started

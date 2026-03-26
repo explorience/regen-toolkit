@@ -1,7 +1,6 @@
 ---
 title: Indigenous-Led Initiatives
 description: Learn about indigenous-led initiatives in this Regen Toolkit article.
-slug: 3-playbooks-3.4-case-studies-theme-indigenous-led
 section: '3.4'
 track: 3
 status: not-started

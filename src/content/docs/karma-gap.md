@@ -1,7 +1,6 @@
 ---
 title: Karma GAP
 description: Learn about karma gap in this Regen Toolkit article.
-slug: 2-applied-2.8-impact-measurement-karma-gap
 section: '2.8'
 track: 2
 status: not-started

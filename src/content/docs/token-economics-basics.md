@@ -1,7 +1,6 @@
 ---
 title: Token Economics Basics
 description: Learn about token economics basics in this Regen Toolkit article.
-slug: 2-applied-2.9-tokenomics-community-currencies-token-economics-basics
 section: '2.9'
 track: 2
 status: not-started

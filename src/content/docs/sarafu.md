@@ -2,7 +2,6 @@
 title: 'Sarafu: Community currency deployment'
 description: 'Learn about sarafu: community currency deployment in this Regen Toolkit
   article.'
-slug: 3-playbooks-3.1-protocol-playbooks-sarafu
 section: '3.1'
 track: 3
 status: not-started

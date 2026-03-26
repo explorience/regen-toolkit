@@ -2,7 +2,6 @@
 title: 'Asia: Crypto Garden and Regional Nodes'
 description: 'Learn about asia: crypto garden and regional nodes in this Regen Toolkit
   article.'
-slug: 3-playbooks-3.3-case-studies-region-asia-crypto-garden
 section: '3.3'
 track: 3
 status: not-started

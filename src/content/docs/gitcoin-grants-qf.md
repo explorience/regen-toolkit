@@ -2,7 +2,6 @@
 title: Gitcoin Grants and Quadratic Funding
 description: Learn about gitcoin grants and quadratic funding in this Regen Toolkit
   article.
-slug: 2-applied-2.6-funding-mechanisms-gitcoin-grants-qf
 section: '2.6'
 track: 2
 status: not-started

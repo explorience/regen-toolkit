@@ -1,7 +1,6 @@
 ---
 title: Governance Attacks
 description: Understanding and preventing attacks on community governance.
-slug: 2-applied-2.7-decentralized-governance-governance-attacks
 section: '2.7'
 track: 2
 status: published

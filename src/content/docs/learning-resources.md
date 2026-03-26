@@ -1,7 +1,6 @@
 ---
 title: Learning Resources
 description: Learn about learning resources in this Regen Toolkit article.
-slug: 3-playbooks-3.5-tools-resources-learning-resources
 section: '3.5'
 track: 3
 status: not-started

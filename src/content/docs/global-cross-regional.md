@@ -2,7 +2,6 @@
 title: Global & Cross-Regional Initiatives
 description: Learn about global & cross-regional initiatives in this Regen Toolkit
   article.
-slug: 3-playbooks-3.3-case-studies-region-global-cross-regional
 section: '3.3'
 track: 3
 status: not-started

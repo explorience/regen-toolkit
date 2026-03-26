@@ -1,7 +1,6 @@
 ---
 title: Blockchain & Crypto Terms
 description: Learn about blockchain & crypto terms in this Regen Toolkit article.
-slug: 3-playbooks-3.6-glossary-blockchain-terms
 section: '3.6'
 track: 3
 status: not-started

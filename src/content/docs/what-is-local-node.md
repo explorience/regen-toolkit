@@ -1,7 +1,6 @@
 ---
 title: What Is a Local Node?
 description: Understanding what local nodes are, why they matter, and how they function in the regenerative ecosystem.
-slug: 2-applied-2.1-local-nodes-what-is-a-local-node?
 section: '2.1'
 track: 2
 status: published

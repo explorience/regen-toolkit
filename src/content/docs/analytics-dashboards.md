@@ -1,7 +1,6 @@
 ---
 title: Analytics and dashboards
 description: Learn about analytics and dashboards in this Regen Toolkit article.
-slug: 3-playbooks-3.5-tools-resources-analytics-dashboards
 section: '3.5'
 track: 3
 status: not-started

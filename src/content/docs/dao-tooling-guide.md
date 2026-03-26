@@ -1,7 +1,6 @@
 ---
 title: DAO Tooling Guide
 description: Learn about dao tooling guide in this Regen Toolkit article.
-slug: 3-playbooks-3.5-tools-resources-dao-tooling-guide
 section: '3.5'
 track: 3
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: ReFi & Impact Terms
 description: Learn about refi & impact terms in this Regen Toolkit article.
-slug: 3-playbooks-3.6-glossary-refi-terms
 section: '3.6'
 track: 3
 status: not-started

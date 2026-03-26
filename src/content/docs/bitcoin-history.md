@@ -1,7 +1,6 @@
 ---
 title: Bitcoin History
 description: Learn about bitcoin history in this Regen Toolkit article.
-slug: 1-foundations-1.4-cryptocurrency-essentials-bitcoin-history
 section: '1.4'
 track: 1
 status: published

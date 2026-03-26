@@ -1,7 +1,6 @@
 ---
 title: Sarafu Case Study
 description: Learn about sarafu case study in this Regen Toolkit article.
-slug: 2-applied-2.9-tokenomics-community-currencies-sarafu-case-study
 section: '2.9'
 track: 2
 status: not-started

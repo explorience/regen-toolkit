@@ -1,7 +1,6 @@
 ---
 title: Giveth and Crypto Donations
 description: Learn about giveth and crypto donations in this Regen Toolkit article.
-slug: 2-applied-2.6-funding-mechanisms-giveth-donations
 section: '2.6'
 track: 2
 status: not-started

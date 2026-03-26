@@ -2,7 +2,6 @@
 title: 'Oceania: Australia and New Zealand'
 description: 'Learn about oceania: australia and new zealand in this Regen Toolkit
   article.'
-slug: 3-playbooks-3.3-case-studies-region-oceania-australia-nz
 section: '3.3'
 track: 3
 status: not-started

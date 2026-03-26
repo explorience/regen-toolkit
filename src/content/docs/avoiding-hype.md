@@ -1,7 +1,6 @@
 ---
 title: Avoiding Hype
 description: How to communicate authentically without resorting to crypto hype.
-slug: 2-applied-2.13-web3-marketing-avoiding-hype
 section: '2.13'
 track: 2
 status: published

@@ -1,7 +1,6 @@
 ---
 title: Consensus mechanisms explained
 description: Learn about consensus mechanisms explained in this Regen Toolkit article.
-slug: 1-foundations-1.3-blockchain-fundamentals-consensus-mechanisms
 section: '1.3'
 track: 1
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: How Nodes Connect
 description: Learn about how nodes connect in this Regen Toolkit article.
-slug: 2-applied-2.1-local-nodes-how-nodes-connect
 section: '2.1'
 track: 2
 status: not-started

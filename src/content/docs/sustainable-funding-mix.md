@@ -2,7 +2,6 @@
 title: Building a Sustainable Funding Mix
 description: Learn about building a sustainable funding mix in this Regen Toolkit
   article.
-slug: 2-applied-2.6-funding-mechanisms-sustainable-funding-mix
 section: '2.6'
 track: 2
 status: not-started

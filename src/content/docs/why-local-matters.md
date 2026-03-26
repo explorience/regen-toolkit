@@ -1,7 +1,6 @@
 ---
 title: Why Local Matters
 description: Learn about why local matters in this Regen Toolkit article.
-slug: 2-applied-2.1-local-nodes-why-local-matters
 section: '2.1'
 track: 2
 status: not-started

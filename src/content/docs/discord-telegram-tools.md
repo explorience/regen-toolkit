@@ -2,7 +2,6 @@
 title: Discord, Telegram, and Community Tools
 description: Learn about discord, telegram, and community tools in this Regen Toolkit
   article.
-slug: 2-applied-2.4-community-building-discord-telegram-tools
 section: '2.4'
 track: 2
 status: not-started

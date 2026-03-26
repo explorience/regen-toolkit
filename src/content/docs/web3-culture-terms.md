@@ -1,7 +1,6 @@
 ---
 title: Web3 Culture Terms
 description: Learn about web3 culture terms in this Regen Toolkit article.
-slug: 3-playbooks-3.6-glossary-web3-culture-terms
 section: '3.6'
 track: 3
 status: not-started

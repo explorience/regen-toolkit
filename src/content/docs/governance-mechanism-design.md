@@ -1,7 +1,6 @@
 ---
 title: Governance Mechanism Design
 description: How to design governance mechanisms that are fair, effective, and resistant to manipulation.
-slug: 2-applied-2.7-decentralized-governance-governance-mechanism-design
 section: '2.7'
 track: 2
 status: draft

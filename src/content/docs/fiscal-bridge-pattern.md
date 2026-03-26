@@ -1,7 +1,6 @@
 ---
 title: Fiscal Bridge Pattern
 description: Learn about fiscal bridge pattern in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-fiscal-bridge-pattern
 section: '3.2'
 track: 3
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Progressive Adoption
 description: Learn about progressive adoption in this Regen Toolkit article.
-slug: 2-applied-2.3-starting-local-node-progressive-adoption
 section: '2.3'
 track: 2
 status: not-started

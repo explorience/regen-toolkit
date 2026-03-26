@@ -1,7 +1,6 @@
 ---
 title: Creating Buying Earning
 description: Learn about creating buying earning in this Regen Toolkit article.
-slug: 1-foundations-1.7-tokens-nfts-digital-assets-creating-buying-earning
 section: '1.7'
 track: 1
 status: published

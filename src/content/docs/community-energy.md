@@ -1,7 +1,6 @@
 ---
 title: Community Energy Projects
 description: Learn about community energy projects in this Regen Toolkit article.
-slug: 3-playbooks-3.4-case-studies-theme-community-energy
 section: '3.4'
 track: 3
 status: not-started

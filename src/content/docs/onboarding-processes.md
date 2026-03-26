@@ -1,7 +1,6 @@
 ---
 title: Onboarding Processes
 description: Learn about onboarding processes in this Regen Toolkit article.
-slug: 2-applied-2.2-joining-local-node-onboarding-processes
 section: '2.2'
 track: 2
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Land Stewardship and Conservation
 description: Learn about land stewardship and conservation in this Regen Toolkit article.
-slug: 3-playbooks-3.4-case-studies-theme-land-stewardship
 section: '3.4'
 track: 3
 status: not-started

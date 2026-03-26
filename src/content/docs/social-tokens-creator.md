@@ -1,7 +1,6 @@
 ---
 title: Social Tokens for Creators
 description: Guide to social tokens for creators.
-slug: 2-applied-2.13-web3-marketing-social-tokens-creator
 section: '2.13'
 track: 2
 status: published

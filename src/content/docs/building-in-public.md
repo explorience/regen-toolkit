@@ -1,7 +1,6 @@
 ---
 title: Building in Public
 description: Guide to building in public.
-slug: 2-applied-2.13-web3-marketing-building-in-public
 section: '2.13'
 track: 2
 status: published

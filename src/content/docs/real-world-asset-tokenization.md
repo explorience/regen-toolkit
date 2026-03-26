@@ -1,7 +1,6 @@
 ---
 title: Real World Asset Tokenization
 description: Learn about real world asset tokenization in this Regen Toolkit article.
-slug: 2-applied-2.10-blockchain-program-delivery-real-world-asset-tokenization
 section: '2.10'
 track: 2
 status: not-started

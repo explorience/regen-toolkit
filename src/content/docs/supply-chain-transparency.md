@@ -1,7 +1,6 @@
 ---
 title: Supply Chain Transparency
 description: Learn about supply chain transparency in this Regen Toolkit article.
-slug: 2-applied-2.10-blockchain-program-delivery-supply-chain-transparency
 section: '2.10'
 track: 2
 status: not-started

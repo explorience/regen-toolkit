@@ -2,7 +2,6 @@
 title: 'Gnosis Safe: Multi-sig setup and management'
 description: 'Learn about gnosis safe: multi-sig setup and management in this Regen
   Toolkit article.'
-slug: 3-playbooks-3.1-protocol-playbooks-gnosis-safe
 section: '3.1'
 track: 3
 status: not-started

@@ -1,7 +1,6 @@
 ---
 title: Impact Certificates Hypercerts
 description: Learn about impact certificates hypercerts in this Regen Toolkit article.
-slug: 1-foundations-1.7-tokens-nfts-digital-assets-impact-certificates-hypercerts
 section: '1.7'
 track: 1
 status: published

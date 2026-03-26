@@ -1,7 +1,6 @@
 ---
 title: Tax Implications
 description: Learn about tax implications in this Regen Toolkit article.
-slug: 1-foundations-1.4-cryptocurrency-essentials-tax-implications
 section: '1.4'
 track: 1
 status: published

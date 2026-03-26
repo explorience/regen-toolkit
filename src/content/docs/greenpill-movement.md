@@ -1,7 +1,6 @@
 ---
 title: The Greenpill movement
 description: Learn about the greenpill movement in this Regen Toolkit article.
-slug: 1-foundations-1.9-refi-landscape-greenpill-movement
 section: '1.9'
 track: 1
 status: not-started

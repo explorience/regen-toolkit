@@ -1,7 +1,6 @@
 ---
 title: Receiving Crypto Donations
 description: Learn about receiving crypto donations in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-receiving-crypto-donations
 section: '3.2'
 track: 3
 status: not-started

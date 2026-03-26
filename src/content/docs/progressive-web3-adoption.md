@@ -1,7 +1,6 @@
 ---
 title: Progressive Web3 Adoption
 description: Learn about progressive web3 adoption in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-progressive-web3-adoption
 section: '3.2'
 track: 3
 status: not-started

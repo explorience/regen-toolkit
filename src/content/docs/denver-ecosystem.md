@@ -1,7 +1,6 @@
 ---
 title: Denver Ecosystem
 description: Learn about denver ecosystem in this Regen Toolkit article.
-slug: 3-playbooks-3.3-case-studies-region-denver-ecosystem
 section: '3.3'
 track: 3
 status: not-started

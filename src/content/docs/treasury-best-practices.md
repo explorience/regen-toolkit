@@ -1,7 +1,6 @@
 ---
 title: Treasury Best Practices
 description: How to manage community funds responsibly and transparently.
-slug: 2-applied-2.7-decentralized-governance-treasury-best-practices
 section: '2.7'
 track: 2
 status: published

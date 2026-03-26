@@ -2,7 +2,6 @@
 title: 'Gitcoin Grants: Running and participating in QF rounds'
 description: 'Learn about gitcoin grants: running and participating in qf rounds in
   this Regen Toolkit article.'
-slug: 3-playbooks-3.1-protocol-playbooks-gitcoin-grants
 section: '3.1'
 track: 3
 status: not-started

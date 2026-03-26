@@ -1,7 +1,6 @@
 ---
 title: Setting Up a Bounty Program
 description: Learn about setting up a bounty program in this Regen Toolkit article.
-slug: 3-playbooks-3.2-implementation-patterns-setting-up-bounty-program
 section: '3.2'
 track: 3
 status: not-started

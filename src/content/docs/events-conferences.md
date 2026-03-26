@@ -1,7 +1,6 @@
 ---
 title: Web3 Events and Conferences for Local Nodes
 description: How to use events and conferences to grow your community.
-slug: 2-applied-2.13-web3-marketing-events-conferences
 section: '2.13'
 track: 2
 status: published

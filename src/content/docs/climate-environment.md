@@ -2,7 +2,6 @@
 title: 'Climate & Environment: Silvi, carbon credits, reforestation'
 description: 'Learn about climate & environment: silvi, carbon credits, reforestation
   in this Regen Toolkit article.'
-slug: 3-playbooks-3.4-case-studies-theme-climate-environment
 section: '3.4'
 track: 3
 status: not-started

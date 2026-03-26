@@ -2,7 +2,6 @@
 title: Hypercerts and Impact Certificates
 description: Learn about hypercerts and impact certificates in this Regen Toolkit
   article.
-slug: 2-applied-2.8-impact-measurement-hypercerts-impact-certificates
 section: '2.8'
 track: 2
 status: not-started

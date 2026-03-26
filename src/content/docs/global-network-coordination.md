@@ -1,7 +1,6 @@
 ---
 title: Global Network Coordination
 description: Learn about global network coordination in this Regen Toolkit article.
-slug: 3-playbooks-3.3-case-studies-region-global-network-coordination
 section: '3.3'
 track: 3
 status: not-started

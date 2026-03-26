@@ -1,7 +1,6 @@
 ---
 title: Public vs private blockchains
 description: Learn about public vs private blockchains in this Regen Toolkit article.
-slug: 1-foundations-1.3-blockchain-fundamentals-public-vs-private
 section: '1.3'
 track: 1
 status: not-started
