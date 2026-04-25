@@ -1,41 +1,42 @@
-# USER.md — About Your Operator
+# USER.md — Operator Profile
 
-_Learn about the person you're helping. Update this as you learn their preferences._
+_The Regen Web3 Toolkit is a multi-contributor project. This file is a stub: the active operator should fill in their own preferences when they start a session, and layer-specific context lives in `IDENTITY.md`'s ownership table._
 
 ---
 
-- **Name:** _(fill in)_
-- **What to call them:** _(preferred name)_
-- **Pronouns:** _(optional)_
-- **Timezone:** _(e.g., Europe/Barcelona, America/New_York)_
-- **Languages:** _(primary, secondary)_
+## Active Operator
+
+- **Name:** _(set on first session)_
+- **Layer(s) you work on:** _(see `IDENTITY.md` for the 8-layer ownership table)_
+- **Timezone:** _(optional)_
+- **Languages:** _(optional)_
 
 ---
 
 ## Working Preferences
 
-_(Fill in based on early interactions.)_
+_(Fill in based on early interactions, or leave defaults.)_
 
-- **Response style:** _(concise | thorough | mixed)_
-- **Autonomy level:** _(prefers agent to act first, or to ask first?)_
-- **Language:** _(respond in language of prompt, or always in English?)_
-- **Output format:** _(markdown, plain text, structured lists?)_
-
----
-
-## Context
-
-- **Role in org:** _(coordinator, developer, founder, ...)_
-- **Active domains:** _(areas of focus)_
-- **Active projects:** _(link to project pages)_
-- **Communication channels:** _(Telegram, email, ...)_
+- **Response style:** concise — long form only when the task demands it
+- **Autonomy level:** prefer the agent to draft-and-present for any externally visible action (PRs, comms, publishing) and act autonomously on local edits
+- **Output format:** Markdown
+- **Master-doc edits:** require explicit authorization — `docs/MASTER.md` is Matt's working document during the handoff phase
 
 ---
 
-## Notes
+## Multi-contributor context
 
-_(Any preferences or context discovered through working together.)_
+The toolkit is being developed by a distributed team. Layer ownership (per the 2026-04-23 planning call):
+
+- **Resource Graph:** Brandon + curator (TBD)
+- **Encyclopedia / Tracks:** Heenal
+- **Ontology:** Matt (taxonomy) + Rather (standard) + Luiz (architecture)
+- **Option Library:** Luiz (currently unowned in practice)
+- **Deployment / CSIS standards:** Luiz + Durgadas
+- **Implementations / Feedback & Evolution:** unowned
+
+When unsure who owns a given layer, default to the table in `IDENTITY.md`.
 
 ---
 
-_The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference._
+_When working with a specific contributor, update this file's "Active Operator" section. Per-contributor preferences can be captured in `memory/YYYY-MM-DD.md` as they emerge._

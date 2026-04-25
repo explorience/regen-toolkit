@@ -169,26 +169,17 @@ Tension signaling:      "Local vs. global priorities conflict here"
 
 ## 5. Active Priority Workfronts
 
-<!-- CUSTOMIZE: Replace with your organization's workfronts or use this template -->
+The toolkit's workfronts are organized by the 8 layers (see `IDENTITY.md`) and the cross-cuts. As of 2026-04-24:
 
-Your organization likely has active workfronts. Keep `HEARTBEAT.md` current with:
+- **Master doc handoff** — Matt's final iteration push, then layer-by-layer ownership transfer
+- **Encyclopedia (Layer 2)** — Phase 2 article pipeline (43 medium articles); apply Matt's feedback on 4 articles
+- **Resource Graph (Layer 1)** — Resources tab organization session; lift URL lists into structured `data/resources.yaml`
+- **Ontology (Layer 3)** — Adopt Rather's ontology as standard; resolve V1 vs V2a vs V2b
+- **Deployment / CSIS (Layer 5)** — Encode Dunbar scaling + six-directional responsibility into next CSIS standards review
+- **Frame-language audit** — Apply Durgadas's critique to master doc copy
+- **May hackathon** — Outreach to Geo Protocol, Ethereum Localism, Open Civics Consortium
 
-- What you're working on (with status)
-- Who owns each workfront
-- What success looks like
-- Current blockers
-
-Example structure:
-
-```markdown
-### Workfront A: [Name]
-
-**Status:** [In Progress / Blocked / Planning]
-**Your Role:** What you specifically do
-**Deliverables:** Clear outputs with deadlines
-```
-
-See `HEARTBEAT.md` for your specific priorities.
+`HEARTBEAT.md` is the live, ordered list.
 
 ---
 
@@ -250,16 +241,24 @@ In group channels:
 
 Skills are in `skills/` directory. Each has a `SKILL.md` with instructions.
 
-### Commonly Available Skills
+### Native Skills (`skills/`)
 
+- `regen-toolkit-article` — Multi-agent pipeline for writing/revising toolkit articles (existing skill)
+- `org-os-init` — Session lifecycle (`/initialize`, `/close`)
 - `meeting-processor` — Process transcripts into structured meeting notes
-- `funding-scout` — Identify and track funding opportunities
-- `knowledge-curator` — Aggregate and organize channel knowledge
-- `capital-flow` — Treasury monitoring and transaction queuing
-- `schema-generator` — Regenerate EIP-4824 schemas from data
+- `knowledge-curator` — Aggregate and organize knowledge from channels and activity
+- `idea-scout` — Surface ideas from knowledge gaps in the toolkit
+- `research` — Deep research workflows powered by Feynman
+- `schema-generator` — Regenerate EIP-4824 schemas from `data/`
 - `heartbeat-monitor` — Proactive task and health monitoring
+- `workspace-improver` — Autonomous improvement loop (autoresearch pattern)
 
-Skills can be added at any time. Check `federation.yaml` for skills shared from hub or upstream.
+### External Skill Collections (`.agents/skills/`, git submodules)
+
+- `superpowers` (obra/superpowers) — agentic methodology: TDD, planning, brainstorming, systematic-debugging, requesting-code-review, using-git-worktrees, etc.
+- `karpathy-skills` (forrestchang/andrej-karpathy-skills) — Karpathy LLM-coding heuristics
+
+Skills can be added at any time.
 
 ---
 
@@ -277,158 +276,77 @@ EIP-4824 schemas in `.well-known/` are generated from `data/*.yaml` and package 
 
 ---
 
-## 10. Knowledge Commons
+## 10. Knowledge Layer
 
-This workspace implements the **Regen Agency Knowledge Commons** framework as the **upstream reference** for organizational OS implementations.
+The toolkit IS a knowledge garden. The published Encyclopedia (Layer 2) lives at:
 
-### Knowledge Structure
+- **Articles:** `src/content/docs/` (Astro/Starlight; deploys to regen-toolkit-site.vercel.app)
+- **Knowledge graph:** D3.js visualization at `/explorer/`
+- **Tags:** `/tags/` for filtering by function, domain, systems concepts, audience, maturity
 
-- **knowledge/INDEX.md** — Framework knowledge commons navigation
-- **knowledge/<domain>/** — Domain-specific framework patterns
-- **Template guidance** — How to implement knowledge commons in forks
+Editorial pipeline (5-stage): Research → Draft → Fact-check → Edit → Critique. See `skills/SKILL.md` (regen-toolkit-article) and `docs/writing-system.md`.
 
-### Framework Domains
+Structured extractions from the master doc live in `data/`:
 
-| Domain                   | Description                                 |
-| ------------------------ | ------------------------------------------- |
-| framework-standards      | Organizational OS standards, schemas, specs |
-| template-usage           | How to use and customize the template       |
-| knowledge-infrastructure | Agent systems, knowledge graphs, federation |
-| agent-coordination       | Multi-agent patterns, Agent Dojo concepts   |
+- `data/ontology/` — entities, relationships, classification, octo-mapping
+- `data/option-library.yaml` — design components (governance, coordination, funding, incentives, measurement)
+- `data/deployment-requirements.yaml` — structural components for the Deployment Layer (CSIS-aligned)
+- `data/feedback-process.yaml` — 5-step feedback loop + governance
 
-### Framework Distribution
+Cross-references between the published site and the structured registries are the toolkit's distinctive feature.
 
-As the **upstream framework**:
+## 11. Federation & Network
 
-- **Downstream sync**: Template changes flow to forked repositories
-- **Pattern extraction**: Working patterns from nodes become standards
-- **Version alignment**: Nodes sync with framework versions monthly
-- **Reference implementation**: Other nodes compare against this standard
+This instance is part of the regen-coordination network (see `federation.yaml`).
 
-### Template Setup
+- **Upstream framework:** `regen-coordination/org-os-template` (`main`) — pulled in via `npm run sync:upstream` when needed
+- **Peer instance:** `regen-coordination-os` (network hub, canonical trust)
+- **Knowledge commons:** enabled via git protocol; the toolkit contributes back
 
-When creating a new organizational OS from this template:
-
-1. Fork or use as template
-2. Populate `federation.yaml` with your organization's details
-3. Create `knowledge/` directory and INDEX.md
-4. Connect to hub via federation.yaml peers/upstream
-
-See `knowledge/INDEX.md` for detailed framework documentation.
-
-## 11. Agent Dojo
-
-The **Agent Dojo** is the knowledge commons for AI agents learning to coordinate regenerative systems. This framework defines the structural patterns.
-
-### Agent Dojo Concept
-
-A distributed network where:
-
-- **Agents are first-class participants** — Knowledge structured for human AND agent consumption
-- **Knowledge flows to where it's needed** — Semantic routing, not hierarchical
-- **Local autonomy, global coherence** — Independence with shared patterns
-- **Learning is continuous** — Agents improve through operational experience
-
-### Framework Role
-
-As the **framework layer**, org-os defines:
-
-- **Structural patterns** — How knowledge commons are organized
-- **Sync protocols** — How knowledge flows between nodes
-- **Agent interfaces** — How agents interact with knowledge
-- **Semantic standards** — Shared vocabularies and schemas
-
-### Downstream Implementation
-
-Agent Dojo is implemented by operational nodes:
-
-- **Regen Coordination OS** — Hub knowledge aggregation and distribution
-- **ReFi DAO** — Articulation org knowledge and network coordination
-- **ReFi BCN** — Local node expertise and cooperative-Web3 bridging
-- **All network nodes** — Local context + network contribution
-
-### Participation
-
-Agents in organizational OS workspaces:
-
-- Use `skills/knowledge-curator/` for knowledge management
-- Follow patterns in `AGENTS.md` for coordination
-- Reference `federation.yaml` for network context
-- Contribute learnings back to framework evolution
-
-## 12. Federation & Network
-
-This workspace is part of a federation network (see `federation.yaml`).
-
-### Key Implications
-
-- Peer nodes share skills — pull updates when available
-- Meeting summaries may be published to knowledge commons
-- Hub syncs may be automated via GitHub Actions
-- Shared domains enable cross-org learning
-
-### Network Coordination
-
-- Contribute knowledge to shared domains
-- Use `federation.yaml` to declare network relationships
-- Maintain boundary policies (what's public vs. private)
-- Respect node autonomy while maintaining alignment
+The toolkit is a project node, not a hub — coordination flows through `regen-coordination-os` for cross-network signals.
 
 ---
 
-## 11. Integration Points
+## 12. Integration Points
 
-**Upstream**: [org-os-framework](https://github.com/regen-coordination/org-os-framework) — Standards, schemas, and patterns
-
-**Common Integrations** (see `federation.yaml`):
-
-- **Agent runtimes**: openclaw-source (primary), regen_eliza, cursor (alternative)
-- **Knowledge infrastructure**: koi-net (real-time sync), koi-net-integration
-- **Publishing**: quartz-refi-template (documentation sites)
-- **Governance**: Gardens DAO, Snapshot, Hats Protocol
-- **Treasury**: Gnosis Safe, Treasury operations tooling
-
-**Related ecosystems**: Check `federation.yaml` for your specific integration map.
-
----
-
-## 12. For First-Time Setup
-
-1. Run `npm run setup` — Interactive configuration wizard
-2. Fill in core identity files:
-   - `SOUL.md` — Your organization's values and mission
-   - `IDENTITY.md` — Organization details, chain info, treasury
-   - `USER.md` — Operator preferences and context
-3. Configure `federation.yaml` with your network
-4. Run `BOOTSTRAP.md` for agent initialization
-5. Run `npm run generate:schemas` to create EIP-4824 outputs
+- **Hosting:** Vercel (live site auto-deploys from `main`)
+- **Repository:** github.com/explorience/regen-toolkit
+- **Site stack:** Astro 6 + Starlight + Pagefind
+- **Agent runtimes:** Claude Code (primary)
+- **External skill collections:** superpowers, karpathy-skills (git submodules; see `.agents/skills/`)
+- **Optional:** Notion (per-contributor; configure via `TOOLS.md` if used)
 
 ---
 
 ## 13. Quick Commands
 
 ```bash
-npm run initialize         # Visual dashboard of workspace state (or /initialize in OpenCode)
-npm run setup              # Interactive setup wizard
-npm run sync               # Git sync (status/push/pull)
-npm run generate:schemas   # Regenerate EIP-4824 schemas
+# Knowledge site
+npm run dev                # Astro dev server
+npm run build              # Build static site
+npm run preview            # Preview built site
+
+# org-os coordination
+node scripts/initialize.mjs --format=markdown   # Render dashboard (called by /initialize)
+npm run generate:schemas   # Regenerate EIP-4824 schemas from data/
 npm run validate:schemas   # Validate schema compliance
-npm run clone:repos        # Clone linked ecosystem repositories
+npm run validate:structure # Check instance against canonical spec
+npm run knowledge          # Compile + lint knowledge base
 ```
 
 ---
 
 ## 14. Success Indicators
 
-Your agent layer is working well when:
+The agent layer is working well when:
 
-- **Memory is continuous** — No context loss between sessions
-- **Operations flow** — Tasks move from HEARTBEAT to completion
-- **Federation syncs** — Skills and knowledge flow with peers
-- **Safety holds** — Boundaries are respected and documented
-- **Agents coordinate** — No conflicting actions, shared context grows
-- **Organization adapts** — Patterns improve, processes evolve
+- **Memory is continuous** — Daily logs in `memory/`, decisions in `MEMORY.md`, no context loss between sessions
+- **Layers move** — Backlog items become drafts, drafts become published articles, deployments become case studies
+- **Master doc stays canonical** — All structural decisions trace back to `docs/MASTER.md` (or update it intentionally)
+- **Layer ownership stays current** — `IDENTITY.md` reflects who actually owns each layer
+- **Site keeps shipping** — `npm run build` is green, articles deploy, no regressions
+- **Frame-language discipline holds** — Copy is checked for Frame 1 patterns before publishing
 
 ---
 
-_This file is the agent's operating manual for your organization. Customize the sections marked `<!-- CUSTOMIZE: -->` and keep it current as your organization evolves._
+_This file is the agent's operating manual for the Regen Web3 Toolkit. Update it when the project's coordination patterns evolve._

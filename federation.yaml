@@ -1,21 +1,21 @@
 # federation.yaml — Regen Web3 Toolkit
 # Network topology and trust relationships for this org-os instance.
 
-schema_version: "3.0"
+schema_version: "2.0"
 
 identity:
   id: regen-toolkit
   name: "Regen Web3 Toolkit"
   type: project
   chain: eip155:100
-  hub: false
 
-network:
-  name: regen-coordination
-  role: project
+network: "regen-coordination"
+hub: "github.com/regen-coordination"
+role: project
 
 upstream:
-  - repository: github.com/regen-coordination/org-os-template
+  - type: "template"
+    repository: github.com/regen-coordination/org-os-template
     branch: main
     last_sync: "2026-04-24"
     sync_mode: overlay
