@@ -46,9 +46,10 @@ Per the 2026-04-23 planning call and the master doc (`docs/MASTER.md`):
 | 7 — Implementations | Real deployments: local nodes, pilots, campaigns, case studies | Unowned |
 | 8 — Feedback & Evolution | System update loop: capture → classify → review → update → communicate → version | Unowned |
 
-**Project Lead:** Luiz Fernando (luizfernandolfsg@gmail.com)
+**Project ownership:** Distributed by layer (see table above) — there is no single project lead. Per the 2026-04-23 planning call, Matt is positioning to hand off the master doc to the team after his next iteration; layer ownership is open invitation.
 **Master-doc author (handoff phase):** Matt (mattycompost@gmail.com)
 **Structural standards:** Durgadas (CSIS — Comprehensive Structural Integrity Suite)
+**Org-os overlay contributor:** Luiz Fernando (luizfernandolfsg@gmail.com) — coordination layer + cross-cuts on Ontology / Option Library / Deployment
 
 ## Contact
 
