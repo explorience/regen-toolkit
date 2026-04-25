@@ -55,9 +55,19 @@ dashboard.yaml             # Session dashboard config
 federation.yaml            # Network peers, upstream framework
 data/                      # Structured registries (ontology, options, deployment reqs, feedback process)
 packages/operations/       # Projects, meetings, finances
-skills/                    # Agent skills (content + coordination)
+skills/                    # Native agent skills (content + coordination)
+.agents/skills/            # External skill collections (git submodules)
+  superpowers/             #   obra/superpowers — agentic methodology (TDD, planning, brainstorming, debugging)
+  karpathy-skills/         #   forrestchang/andrej-karpathy-skills — Karpathy LLM-coding heuristics
 scripts/                   # Both site pipeline scripts and org-os scripts
 .claude/                   # Claude Code commands (/initialize, /close)
+```
+
+**Cloning:** because external skills are submodules, clone with `--recurse-submodules`:
+```bash
+git clone --recurse-submodules https://github.com/explorience/regen-toolkit.git
+# or, if already cloned:
+git submodule update --init --recursive
 ```
 
 See `CLAUDE.md` for agent instructions and `AGENTS.md` for the session startup sequence.

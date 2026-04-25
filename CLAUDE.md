@@ -30,7 +30,8 @@ Then follow the startup sequence in `AGENTS.md`:
 - Backlog `docs/BACKLOG.md` — 11 explicit todos from the master doc
 - 8-layer architecture with named ownership in `IDENTITY.md`
 - CSIS alignment reference `docs/CSIS.md` (Durgadas)
-- Agent skills in `skills/` — meeting-processor, knowledge-curator, funding-scout, etc.
+- Native agent skills in `skills/` — meeting-processor, knowledge-curator, idea-scout, schema-generator, research, workspace-improver, heartbeat-monitor, org-os-init
+- External skill collections under `.agents/skills/` (git submodules) — `obra/superpowers` (agentic methodology: TDD, planning, brainstorming, debugging) and `forrestchang/andrej-karpathy-skills` (Karpathy LLM-coding heuristics)
 
 ## Key Rules
 

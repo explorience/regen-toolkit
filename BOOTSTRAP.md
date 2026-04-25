@@ -1,12 +1,29 @@
 # BOOTSTRAP.md — First-Run Onboarding
 
-_Run this when deploying org-os for a new organization. Bootstrapping has three phases: guided interview, source ingestion, and ongoing learning. After Phase 1 completes, this file can be archived._
+_Run this on a fresh clone of an org-os instance. Bootstrapping has three phases: clone & install, source ingestion, and ongoing learning. After Phase 1 completes, this file can be archived._
 
 ---
 
-## Phase 1: Guided Interview
+## Phase 0: Clone with Submodules
 
-Use the `bootstrap-interviewer` skill to set up the workspace interactively. The agent asks questions and generates files automatically.
+External skill collections (superpowers, karpathy-skills, optionally feynman) live as git submodules under `.agents/skills/`. Clone with submodules to get them automatically:
+
+```bash
+git clone --recurse-submodules <repo-url>
+# or, if already cloned:
+git submodule update --init --recursive
+```
+
+To pull the latest from each submodule later:
+```bash
+git submodule update --remote
+```
+
+---
+
+## Phase 1: Identity & Install
+
+For a brand-new instance, fill in the identity files manually (or via a guided interview if your operator harness provides one):
 
 ### For New Workspaces (Empty Instance)
 
@@ -30,7 +47,7 @@ Run the bootstrap interview:
 6. **Data sources** — Notion, GitHub repos, websites, docs
    → Populates: `TOOLS.md`, `data/sources.yaml`
 
-The interview works via CLI (Claude Code) or web form (for non-tech operators). See `docs/OPERATOR-GUIDE.md`.
+A guided interview workflow (CLI or web form) can automate this if your harness provides one. See `docs/OPERATOR-GUIDE.md`.
 
 ### For Existing Workspaces (Agent Joining)
 

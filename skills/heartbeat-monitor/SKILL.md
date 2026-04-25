@@ -1,7 +1,7 @@
 ---
 name: heartbeat-monitor
 version: 1.0.0
-description: Monitor organizational health, deadlines, and operational load across HEARTBEAT.md, local data files, and ReFi BCN Notion task/project systems
+description: Monitor organizational health, deadlines, and operational load across HEARTBEAT.md, local data registries, and any configured external task/project systems
 author: organizational-os
 category: infrastructure
 metadata:
@@ -18,10 +18,7 @@ metadata:
 
 Proactively monitors `HEARTBEAT.md` and organizational data for tasks requiring attention, system health checks, and upcoming deadlines. The heartbeat keeps the organization from dropping important balls.
 
-For ReFi BCN operations, include Notion workload signals from:
-- Projects (`1386ed08-45cb-8185-a48b-000bc4a72d53`)
-- Tasks (`1386ed08-45cb-8142-801b-000b2cb5c615`)
-- Notes & Documents (`1386ed08-45cb-81ed-b055-000ba5b70a6b`)
+If the instance has external task/project systems configured (e.g. Notion databases listed in `TOOLS.md` or `federation.yaml`), include workload signals from those sources in the heartbeat report.
 
 ## When to Use
 
@@ -59,14 +56,9 @@ Report format:
 - Last hub sync: [date]
 ```
 
-### 2. Notion Workload Snapshot (ReFi BCN)
+### 2. External Workload Snapshot (optional)
 
-Query Notion project/task status counts and include them in heartbeat reports.
-
-Current known status taxonomies:
-- Projects: `Backlog`, `Planning`, `In Progress`, `On-going`, `Paused`, `Done`, `Canceled`
-- Tasks: `Backlog`, `Not Started`, `Icebox`, `In Progress`, `Done`, `Archived`
-- Notes: `Not Started`, `In Progress`, `Done`, `Archived`
+If the instance has configured external task/project systems (e.g. Notion databases via `TOOLS.md`), query their status counts and include in heartbeat reports. Status taxonomies are instance-specific — read the relevant config to determine the vocabulary.
 
 Flag conditions:
 - Task load risk if `In Progress` is high for team capacity (default watch threshold: 25+)
@@ -140,7 +132,7 @@ Archive completed tasks to "Recently Completed" section; remove after 30 days.
 
 ## Notes
 
-- Default mode is lightweight (local files), but ReFi BCN mode also checks Notion status snapshots when access is available.
+- Default mode is lightweight (local files only); external system snapshots are an opt-in extension when an instance has them configured.
 - Run it first to understand what needs attention, then activate other skills.
 - The `HEARTBEAT.md` file is the organizational nervous system — keep it current.
 - Delete stale tasks ruthlessly: a bloated HEARTBEAT is useless.
