@@ -1,0 +1,5 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "type": "ContractRegistry",
+  "contracts": []
+}

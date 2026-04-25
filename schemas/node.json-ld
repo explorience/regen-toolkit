@@ -1,0 +1,267 @@
+{
+  "@context": {
+    "@vocab": "http://www.daostar.org/schemas",
+    "org-os": "https://organizational-os.github.io/schemas/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "caip10": "https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-10.md"
+  },
+  "@type": "org-os:NodeSchema",
+  "@id": "https://organizational-os.github.io/schemas/node",
+  "name": "Organizational OS Federation Node Schema",
+  "description": "Schema for a node in an Organizational OS federation network",
+  "version": "1.0.0",
+
+  "properties": {
+    "nodeId": {
+      "@type": "xsd:string",
+      "description": "Unique node identifier (kebab-case)",
+      "example": "refi-bcn",
+      "required": true
+    },
+
+    "name": {
+      "@type": "xsd:string",
+      "description": "Human-readable node name",
+      "example": "ReFi BCN",
+      "required": true
+    },
+
+    "type": {
+      "@type": "xsd:string",
+      "enum": [
+        "LocalNode",
+        "RegionalNode",
+        "Hub",
+        "DAO",
+        "Cooperative",
+        "Foundation",
+        "Project",
+        "Network"
+      ],
+      "description": "Node type",
+      "required": true
+    },
+
+    "status": {
+      "@type": "xsd:string",
+      "enum": ["active", "inactive", "bootstrapping", "archived"],
+      "description": "Current node operational status",
+      "default": "active"
+    },
+
+    "identity": {
+      "@type": "org-os:NodeIdentity",
+      "description": "Organizational identity (maps to IDENTITY.md)",
+      "required": true,
+      "properties": {
+        "daoURI": {
+          "@type": "xsd:anyURI",
+          "description": "EIP-4824 compliant organizational identity URI",
+          "required": true,
+          "example": "https://refi-bcn.github.io/.well-known/dao.json"
+        },
+        "emoji": {
+          "@type": "xsd:string",
+          "description": "Visual identifier",
+          "example": "🌱"
+        },
+        "chains": {
+          "@type": "@json",
+          "description": "Blockchain networks the node participates in (CAIP-10 format)",
+          "items": {
+            "@type": "xsd:string"
+          },
+          "example": ["eip155:100", "eip155:1"]
+        },
+        "safe": {
+          "@type": "xsd:string",
+          "description": "Gnosis Safe address (primary treasury)",
+          "format": "address"
+        },
+        "hatsTreeId": {
+          "@type": "xsd:integer",
+          "description": "Hats Protocol tree ID for role management"
+        },
+        "gardensDAO": {
+          "@type": "xsd:string",
+          "description": "Gardens DAO contract address",
+          "format": "address"
+        }
+      }
+    },
+
+    "network": {
+      "@type": "org-os:NetworkMembership",
+      "description": "Federation network membership",
+      "properties": {
+        "networkId": {
+          "@type": "xsd:string",
+          "description": "Network identifier",
+          "example": "regen-coordination"
+        },
+        "hubRepo": {
+          "@type": "xsd:string",
+          "description": "Hub repository path",
+          "example": "github.com/regen-coordination/hub"
+        },
+        "joinedDate": {
+          "@type": "xsd:date",
+          "description": "Date node joined the network"
+        },
+        "role": {
+          "@type": "xsd:string",
+          "enum": ["member", "maintainer", "hub", "observer"],
+          "default": "member"
+        }
+      }
+    },
+
+    "infrastructure": {
+      "@type": "org-os:NodeInfrastructure",
+      "description": "Technical deployment details",
+      "properties": {
+        "hostType": {
+          "@type": "xsd:string",
+          "enum": ["depin", "vps", "cloud", "local", "github-actions"],
+          "description": "Where the node runs"
+        },
+        "agentRuntime": {
+          "@type": "xsd:string",
+          "enum": ["openclaw", "cursor", "custom", "none"],
+          "description": "Agent runtime platform"
+        },
+        "repoUrl": {
+          "@type": "xsd:anyURI",
+          "description": "GitHub repository URL for this node"
+        }
+      }
+    },
+
+    "capabilities": {
+      "@type": "org-os:NodeCapabilities",
+      "description": "What this node can do",
+      "properties": {
+        "skills": {
+          "@type": "@json",
+          "description": "Active skills on this node",
+          "items": {
+            "@type": "xsd:string"
+          },
+          "example": ["meeting-processor", "funding-scout", "knowledge-curator"]
+        },
+        "channels": {
+          "@type": "@json",
+          "description": "Active communication channels",
+          "items": {
+            "@type": "xsd:string"
+          },
+          "example": ["telegram", "google-meet", "github"]
+        },
+        "packages": {
+          "@type": "org-os:PackageFlags",
+          "description": "Enabled operational packages",
+          "properties": {
+            "meetings": {"@type": "xsd:boolean"},
+            "projects": {"@type": "xsd:boolean"},
+            "finances": {"@type": "xsd:boolean"},
+            "coordination": {"@type": "xsd:boolean"},
+            "web3": {"@type": "xsd:boolean"}
+          }
+        }
+      }
+    },
+
+    "knowledgeCommons": {
+      "@type": "org-os:KnowledgeCommonsMembership",
+      "description": "Knowledge commons participation",
+      "properties": {
+        "enabled": {
+          "@type": "xsd:boolean",
+          "default": false
+        },
+        "domains": {
+          "@type": "@json",
+          "description": "Domains this node contributes knowledge about",
+          "items": {
+            "@type": "xsd:string"
+          }
+        },
+        "syncProtocol": {
+          "@type": "xsd:string",
+          "enum": ["git", "koi-net", "manual"],
+          "default": "git"
+        },
+        "lastSync": {
+          "@type": "xsd:dateTime",
+          "description": "Last knowledge sync timestamp"
+        }
+      }
+    },
+
+    "contact": {
+      "@type": "org-os:NodeContact",
+      "description": "How to reach this node",
+      "properties": {
+        "telegram": {
+          "@type": "xsd:string",
+          "description": "Telegram group or bot handle"
+        },
+        "github": {
+          "@type": "xsd:string",
+          "description": "GitHub org or repo"
+        },
+        "website": {
+          "@type": "xsd:anyURI"
+        }
+      }
+    }
+  },
+
+  "example": {
+    "nodeId": "refi-bcn",
+    "name": "ReFi BCN",
+    "type": "LocalNode",
+    "status": "active",
+    "identity": {
+      "daoURI": "https://refi-bcn.github.io/.well-known/dao.json",
+      "emoji": "🌱",
+      "chains": ["eip155:100"],
+      "safe": "0xABCD1234...",
+      "hatsTreeId": 12345
+    },
+    "network": {
+      "networkId": "regen-coordination",
+      "hubRepo": "github.com/regen-coordination/hub",
+      "joinedDate": "2026-02-20",
+      "role": "member"
+    },
+    "infrastructure": {
+      "hostType": "depin",
+      "agentRuntime": "openclaw",
+      "repoUrl": "https://github.com/regen-coordination/refi-bcn"
+    },
+    "capabilities": {
+      "skills": ["meeting-processor", "funding-scout", "knowledge-curator", "capital-flow"],
+      "channels": ["telegram", "google-meet", "github"],
+      "packages": {
+        "meetings": true,
+        "projects": true,
+        "finances": true,
+        "coordination": true,
+        "web3": true
+      }
+    },
+    "knowledgeCommons": {
+      "enabled": true,
+      "domains": ["regenerative-finance", "local-governance"],
+      "syncProtocol": "git",
+      "lastSync": "2026-02-20T12:00:00Z"
+    },
+    "contact": {
+      "telegram": "@refibcn",
+      "github": "regen-coordination/refi-bcn",
+      "website": "https://refi.barcelona"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Agent Configuration Template
+# Copy and customize for your agents
+
+id: agent-id
+name: "Agent Name"
+runtime: openclaw  # openclaw | claude-code | opencode | cursor | custom
+description: "Brief description of agent purpose"
+
+capabilities:
+  - capability-1
+  - capability-2
+
+budget:
+  monthly: 200
+  currency: USD
+  alerts:
+    - threshold: 50
+      action: warn
+    - threshold: 100
+      action: notify
+
+config:
+  timeout: 3600
+  retries: 3
+  heartbeatInterval: 1800

@@ -1,0 +1,9 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "type": "KnowledgeManifest",
+  "domains": [],
+  "exchange": {
+    "published_domains": [],
+    "subscribed_domains": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "type": "LocalNode",
+  "name": "ReFi Barcelona (ReFi BCN)",
+  "description": "Local ReFi node bridging Catalonia's regenerative ecosystems with global coordination, funding, and governance infrastructure.",
+  "membersURI": "https://refibcn.cat/.well-known/members.json",
+  "proposalsURI": "https://refibcn.cat/.well-known/proposals.json",
+  "activityLogURI": "https://refibcn.cat/.well-known/activities.json",
+  "governanceURI": "https://refibcn.cat/governance",
+  "contractsURI": "https://refibcn.cat/.well-known/contracts.json",
+  "meetingsURI": "https://refibcn.cat/.well-known/meetings.json",
+  "projectsURI": "https://refibcn.cat/.well-known/projects.json",
+  "financesURI": "https://refibcn.cat/.well-known/finances.json"
+}

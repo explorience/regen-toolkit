@@ -1,0 +1,67 @@
+# dashboard.yaml — Controls what /initialize shows for the Regen Web3 Toolkit instance
+# Toggle sections on/off, reorder, and customize without deleting any files.
+
+schema_version: "2.0"
+
+sections:
+
+  header:
+    show: true
+    style: ascii
+
+  projects:
+    show: true
+    max: null
+    stages: null
+
+  tasks:
+    show: true
+    max: null
+    show_completed: true
+
+  calendar:
+    show: true
+    days: 14
+
+  funding:
+    show: false
+
+  context:
+    show: true
+    max_entries: 3
+
+  plans:
+    show: true
+    queued_preview: 3
+
+  pipelines:
+    show: true
+    pipelines:
+      - id: articles
+        source: data/knowledge-manifest.yaml
+        label: "Articles"
+        stages: [stub, draft, deployed, reviewed]
+      - id: layers
+        source: data/layers.yaml
+        label: "Layers"
+        stages: [spec, partial, owned, active]
+      - id: plans
+        source: docs/plans/QUEUE.md
+        label: "Plans"
+        stages: [backlog, queued, active, completed]
+
+  apps:
+    show: true
+    hide:
+      - dashboard
+      - schema-generator
+
+  cheatsheet:
+    show: true
+
+  federation:
+    show: true
+
+  prompt:
+    show: true
+    suggestions: 3

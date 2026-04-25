@@ -1,0 +1,15 @@
+schema_version: "2.0"
+
+# Relationships Registry
+# Inter-org partnerships and collaborations
+
+relationships: []
+  # Example:
+  # - id: "rel-001"
+  #   partner: "Partner Org"
+  #   type: "alliance"         # alliance | collaboration | funding | advisory | peer
+  #   status: "active"         # active | dormant | completed | proposed
+  #   since: "2024-06-01"
+  #   contact: null
+  #   description: ""
+  #   touchpoints: []

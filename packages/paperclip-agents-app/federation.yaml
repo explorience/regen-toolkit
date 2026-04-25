@@ -1,0 +1,39 @@
+app: "@org-os/paperclip-agents-app"
+version: "0.1.0"
+
+description: "Paperclip Agents Application - Auto-discovers org-os instances, loads agents and skills"
+
+runtime:
+  heartbeats:
+    enabled: true
+    interval: 30m
+  
+  costTracking:
+    enabled: true
+    defaultBudget: 200
+  
+  multiOrg:
+    enabled: true
+
+dashboard:
+  title: "Paperclip Agents"
+  theme: "default"
+  port: 3100
+
+sync:
+  orgOs:
+    enabled: true
+    bidirectional: true
+    interval: 5m
+  
+  egregore:
+    enabled: true
+    interval: 5m
+
+discovery:
+  autoDetect: true
+  walkUpDirectories: true
+  searchPatterns:
+    - "federation.yaml"
+    - "AGENTS.md"
+    - ".well-known/org.json"

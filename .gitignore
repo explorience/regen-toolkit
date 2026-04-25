@@ -1,14 +1,41 @@
 # Dependencies
 node_modules/
+.pnp
+.pnp.js
 
-# Build output
+# External agent skills (installed via feynman install-skills --repo)
+.agents/skills/feynman/
+
+# Build / output
 dist/
 .astro/
+build
+out
+*.log
 
 # Vercel
 .vercel
 
-# OS
+# Local env files
+.env
+.env*.local
+
+# Superpowers plugin ephemeral plans
+docs/superpowers/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.claude/worktrees/
+
+# OS / sync
 .DS_Store
 *.sync-conflict-*
+*.pem
+
+# Toolkit working dir (scratch)
 working/

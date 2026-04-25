@@ -1,0 +1,17 @@
+schema_version: "2.0"
+
+# Content Sources Registry
+# Sources for knowledge aggregation
+
+sources: []
+  # Example:
+  # - id: "org-blog"
+  #   name: "Organization Blog"
+  #   type: "blog"             # blog | podcast | newsletter | github | forum | social
+  #   url: "https://blog.example.com"
+  #   feed_url: null
+  #   status: "active"         # active | paused | archived
+  #   last_synced: null
+  #   sync_method: "manual"    # rss | api | manual | scrape
+  #   content_count: 0
+  #   tags: []

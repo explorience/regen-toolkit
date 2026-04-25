@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - Organizational OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+            <p>Manage tasks across projects and meetings</p>
+        </header>
+
+        <div class="filters">
+            <select id="filter-project">
+                <option value="">All Projects</option>
+            </select>
+            <select id="filter-assignee">
+                <option value="">All Assignees</option>
+            </select>
+            <select id="filter-status">
+                <option value="">All Statuses</option>
+                <option value="todo">Todo</option>
+                <option value="in_progress">In Progress</option>
+                <option value="done">Done</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+            </select>
+            <select id="filter-priority">
+                <option value="">All Priorities</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+                <option value="critical">Critical</option>
+            </select>
+        </div>
+
+        <div id="task-list" class="task-list">
+            <div class="loading">Loading tasks...</div>
+        </div>
+
+        <button id="add-task-btn" class="add-task-btn">+ Add Task</button>
+    </div>
+
+    <div id="add-task-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add New Task</h2>
+            <form id="add-task-form">
+                <label>
+                    Description:
+                    <input type="text" id="task-description" required>
+                </label>
+                <label>
+                    Assignee:
+                    <input type="text" id="task-assignee" placeholder="member-id">
+                </label>
+                <label>
+                    Project:
+                    <select id="task-project">
+                        <option value="">None</option>
+                    </select>
+                </label>
+                <label>
+                    Priority:
+                    <select id="task-priority">
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                        <option value="high">High</option>
+                        <option value="critical">Critical</option>
+                    </select>
+                </label>
+                <label>
+                    Due Date:
+                    <input type="date" id="task-due-date">
+                </label>
+                <button type="submit">Add Task</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

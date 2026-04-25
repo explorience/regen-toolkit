@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReFi Barcelona (ReFi BCN) — Dashboard</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --green: #3fb950;
+      --yellow: #d29922;
+      --red: #f85149;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.2rem; color: var(--accent); margin: 2rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    .meta { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem;
+    }
+    .card h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+    .card p { color: var(--text-muted); font-size: 0.85rem; }
+    .status { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+    .status.active { background: var(--green); }
+    .status.urgent { background: var(--yellow); }
+    .status.critical { background: var(--red); }
+    ul { list-style: none; padding: 0; }
+    li { padding: 0.3rem 0; font-size: 0.9rem; border-bottom: 1px solid var(--border); }
+    li:last-child { border-bottom: none; }
+    .tag { background: var(--border); padding: 2px 8px; border-radius: 12px; font-size: 0.75rem; }
+    .generated { text-align: center; color: var(--text-muted); font-size: 0.8rem; margin-top: 3rem; }
+  </style>
+</head>
+<body>
+  <h1>🌱 ReFi Barcelona (ReFi BCN)</h1>
+  <div class="meta">
+    LocalNode ·
+    cursor,claude ·
+    Peers: 6 ·
+    Skills: 10 ·
+    Memory: 4d ago
+  </div>
+
+  <h2>Active Projects</h2>
+  <div class="grid">
+    
+    <div class="card">
+      <h3><span class="status active"></span>Knowledge & Infrastructure</h3>
+      <p>Stage: active · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Regenerant Catalunya GG24</h3>
+      <p>Stage: in-progress · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Incubació i Constitució de la Cooperativa | Bloc4</h3>
+      <p>Stage: in-progress · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Finances Management</h3>
+      <p>Stage: active · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Col·laboració amb Miceli</h3>
+      <p>Stage: on-going · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>2026 Network Plans</h3>
+      <p>Stage: in-progress · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>ReFi BCN Website</h3>
+      <p>Stage: planning · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Cycles Collaboration</h3>
+      <p>Stage: planning · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>CRM restructuring 2026</h3>
+      <p>Stage: backlog · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>New Cooperative Brand</h3>
+      <p>Stage: backlog · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Communications</h3>
+      <p>Stage: active · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Opportunities & Leads Pipeline</h3>
+      <p>Stage: active · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Products & Services</h3>
+      <p>Stage: planning · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Research</h3>
+      <p>Stage: active · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Regen Funding Support</h3>
+      <p>Stage: paused · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Canvas Social</h3>
+      <p>Stage: done · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>ReFi BCN <> Gitcoin GR18</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>ReFi DAO Local Nodes Beta Cohort</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Outreach List</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Content & Communications Plan</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Ecosystem Mapping & Research Plan</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>IRL Events Plan</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Coordination & Governance Plan</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>New Project</h3>
+      <p>Stage: archived · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>README</h3>
+      <p>Stage: idea · Lead: —</p>
+    </div>
+    <div class="card">
+      <h3><span class="status active"></span>Notion Infrastructure Review & Consolidation</h3>
+      <p>Stage: Integrate · Lead: did:refibcn:luiz-fernando</p>
+    </div>
+  </div>
+
+  <h2>Tasks</h2>
+  <ul>
+    
+    <li><span class="status urgent"></span>**JUN**: Gitcoin GG25 expected — ENSURE REGENERANT PROFILE CURRENT <span class="tag">URGENT</span></li><li><span class="status urgent"></span>Check out EU LIFE 2026 calls when published (~Apr 21) — assess consortium feasibility <span class="tag">URGENT</span></li><li><span class="status urgent"></span>Research Barcelona university partnerships for EU LIFE consortium <span class="tag">URGENT</span></li><li><span class="status urgent"></span>Update Gitcoin profile for Regenerant Catalunya (GG25 preparation) <span class="tag">URGENT</span></li><li><span class="status urgent"></span>Resolve normalization-log open blockers requiring governance/accounting decision (especially Phase 2 compliance route) <span class="tag">URGENT</span></li><li><span class="status urgent"></span>Define owner + review cadence for canonical value updates in `knowledge/normalization-log.md` <span class="tag">URGENT</span></li><li><span class="status urgent"></span>**APR 3:** Session retrospective (audio/video recording captured) <span class="tag">URGENT</span></li><li><span class="status urgent"></span>**APR 4:** Process session recordings → final integrated report <span class="tag">URGENT</span></li><li><span class="status urgent"></span>**APR 5 EOD:** Submit final report to Benjamin (benjamin.co) <span class="tag">URGENT</span></li>
+    <li>Produce first reconciliation snapshot (Notion ↔ local) and log in `docs/FEEDBACK-ACTION-REGISTER.md`</li><li>Write first process-implementation checkpoint to `memory/2026-03-08.md`</li><li>Execute boundary acceptance tests (group scope refusal + Luiz DM bridge protocol) — owner: Luiz + agent</li><li>Create `data/relationships.yaml` for CRM local mirror — owner: agent</li><li>Create `data/pending-payouts.yaml` for treasury drafts — owner: agent</li><li>Validate Telegram bot receives topic messages (4 priority topics) — owner: Luiz</li><li>Implement topic-to-skill routing logic — owner: agent</li><li>Execute first constrained end-to-end routing cycle (`add to crm`, `check later`, `emails & meetings`, `cycles`)</li><li>Prepare dedicated ReFi BCN OpenClaw instance migration checklist and cutover plan</li><li>**APR 21–25**: Arrange meeting with Omar — Islamic finance / interest-free loans idea (idea-014)</li>
+  </ul>
+
+  <h2>Funding Deadlines</h2>
+  <ul>
+    <li><span class="status urgent"></span>— — 140d left</li><li><span class="status critical"></span>— — nulld left</li><li><span class="status critical"></span>— — nulld left</li><li><span class="status urgent"></span>— — 48d left</li><li><span class="status urgent"></span>— — 77d left</li><li><span class="status urgent"></span>— — 140d left</li><li><span class="status critical"></span>— — nulld left</li><li><span class="status urgent"></span>— — 16d left</li><li><span class="status urgent"></span>— — 154d left</li><li><span class="status critical"></span>— — nulld left</li><li><span class="status critical"></span>— — nulld left</li><li><span class="status critical"></span>— — nulld left</li><li><span class="status critical"></span>— — nulld left</li>
+  </ul>
+
+  <h2>Recent Memory</h2>
+  <ul>
+    <li><strong>2026-04-09</strong>: **Focus:** System improvements — plans restructuring, pipelines, areas/projects split, backlog stubs - Renamed `docs/agent-plans/` → `docs/plans/` to support organizational plans, not just agent work</li><li><strong>2026-04-07</strong>: **Focus:** Execute v2 pipeline plans #1-4 + repo consolidation fix - Framework/network repos removed from manifest — only BCN org repos belong in repos/</li><li><strong>2026-04-02</strong>: **Status:** All ReFi BCN agents properly configured in Paperclip | Agent | ID | Role | Adapter | Instructions | Status |</li>
+  </ul>
+
+  <h2>Skills</h2>
+  <div class="grid">
+    
+  </div>
+
+  <div class="generated">Generated: 2026-04-14T21:47:06.981Z</div>
+</body>
+</html>

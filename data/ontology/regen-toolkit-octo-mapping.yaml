@@ -1,0 +1,104 @@
+schema_version: "1.0"
+source: "docs/projects/regen-toolkit/Web3 Toolkit.md (lines 7048-7266)"
+
+# Octo ↔ SuperBenefit ↔ Regen Toolkit interop mapping
+# Rule: Every Regen Toolkit type must resolve to an Octo base type.
+# This ensures graph compatibility, shared semantics, no ontology drift.
+
+core_entity_mapping:
+  - regen_toolkit: Concept
+    octo: Concept
+    superbenefit: concept
+    notes: "Direct match"
+  - regen_toolkit: Person
+    octo: Person
+    superbenefit: person
+    notes: "Direct match"
+  - regen_toolkit: Group
+    octo: Group
+    superbenefit: group
+    notes: "Direct match (orgs, communities, teams)"
+  - regen_toolkit: Place
+    octo: "Place / Bioregion"
+    superbenefit: place
+    notes: "Direct match, Octo emphasizes bioregions"
+  - regen_toolkit: Practice
+    octo: Practice
+    superbenefit: practice
+    notes: "One of the most important shared primitives"
+  - regen_toolkit: Pattern
+    octo: Pattern
+    superbenefit: pattern
+    notes: "Supports abstraction layer"
+  - regen_toolkit: Protocol
+    octo: Protocol
+    superbenefit: protocol
+    notes: "Direct match"
+  - regen_toolkit: Case Study
+    octo: CaseStudy
+    superbenefit: study
+    notes: "Direct match"
+  - regen_toolkit: Question
+    octo: Question
+    superbenefit: question
+    notes: "Direct match"
+  - regen_toolkit: Claim
+    octo: Claim
+    superbenefit: "(implicit / not always explicit)"
+    notes: "Octo stronger here"
+  - regen_toolkit: Evidence
+    octo: Evidence
+    superbenefit: "(implicit)"
+    notes: "Octo stronger here"
+  - regen_toolkit: Artifact
+    octo: Artifact
+    superbenefit: "resource / guide / dataset"
+    notes: "Base wrapper for content"
+
+extended_type_mapping:
+  - regen_toolkit: Tool
+    octo: Artifact
+    superbenefit: tool
+    notes: "Treated as a specific kind of artifact"
+  - regen_toolkit: Mechanism
+    octo: "Pattern / Protocol"
+    superbenefit: mechanism
+    notes: "Important: dual nature (design + rules)"
+  - regen_toolkit: Framework
+    octo: Concept
+    superbenefit: framework
+    notes: "Mental models = concepts"
+  - regen_toolkit: Playbook
+    octo: Artifact
+    superbenefit: playbook
+    notes: "Instructional artifact"
+  - regen_toolkit: Story
+    octo: "CaseStudy / Artifact"
+    superbenefit: story
+    notes: "Narrative layer"
+  - regen_toolkit: Gathering
+    octo: "Practice (time-bound)"
+    superbenefit: gathering
+    notes: "Event as a type of practice"
+  - regen_toolkit: Resource
+    octo: "Artifact / Place-bound entity"
+    superbenefit: resource
+    notes: "⚠️ Avoid as primary type"
+
+translation_examples:
+  - regen_toolkit: { type: Tool, name: Gardens }
+    octo: { type: Artifact }
+    superbenefit: { type: tool }
+  - regen_toolkit: { type: Mechanism, name: "Quadratic Funding" }
+    octo: { type: "Pattern + Protocol" }
+    superbenefit: { type: mechanism }
+
+csis_overlay:
+  principle: "CSIS does NOT change ontology types. It adds constraints on how they must be defined."
+  requirements:
+    Practice: "must define actor, context, outcome"
+    Pattern: "must define problem + abstraction"
+    Protocol: "must define rules + authority"
+    Mechanism: "must define incentives + risks"
+    Tool: "must define control + dependency"
+    Group: "must define decision + power structure"

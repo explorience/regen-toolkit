@@ -1,0 +1,16 @@
+schema_version: "2.0"
+
+# Organizational Assets Registry
+# Domains, accounts, credentials, brand assets, tools
+
+assets: []
+  # Example:
+  # - id: "domain-example"
+  #   type: "domain"           # domain | account | credential | brand | tool | document | contract
+  #   name: "example.com"
+  #   platform: null
+  #   url: null
+  #   owner: "core-stewards"
+  #   status: "active"         # active | expired | pending | transferred
+  #   renewal_date: "2027-01-15"
+  #   notes: ""

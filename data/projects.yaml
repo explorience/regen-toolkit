@@ -1,0 +1,14 @@
+schema_version: "2.0"
+
+# Projects Registry
+# Projects are also tracked in content/projects/ as markdown files
+# This file provides structured data for schema generation
+
+projects: []
+  # Example:
+  # - id: "project-example"
+  #   name: "Example Project"
+  #   status: "Develop"
+  #   lead: "eip155:1:0x1234abcd"
+  #   members: []
+  #   startDate: "2026-01-01"

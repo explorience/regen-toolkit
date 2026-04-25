@@ -1,0 +1,58 @@
+{
+  "name": "@org-os/org-os-bridge",
+  "version": "0.1.0",
+  "description": "Bridge package for org-os integration - discover, load, and sync with org-os instances",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./adapter": {
+      "import": "./dist/adapter.js",
+      "types": "./dist/adapter.d.ts"
+    },
+    "./sync": {
+      "import": "./dist/sync.js",
+      "types": "./dist/sync.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "lint": "eslint src/",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "glob": "^10.4.5",
+    "zod": "^3.23.8",
+    "pino": "^8.20.0",
+    "chokidar": "^3.6.0",
+    "diff": "^5.2.0",
+    "xxhash-wasm": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4",
+    "vitest": "^1.6.0",
+    "eslint": "^9.9.0"
+  },
+  "peerDependencies": {
+    "@org-os/paperclip-types": "workspace:*"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "org-os",
+    "bridge",
+    "federation",
+    "agents",
+    "sync"
+  ],
+  "license": "MIT"
+}

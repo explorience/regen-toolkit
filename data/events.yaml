@@ -1,0 +1,19 @@
+schema_version: "2.0"
+
+# Events Registry
+# Community events, deadlines, milestones
+
+events: []
+  # Example:
+  # - id: "event-001"
+  #   title: "Q2 Community Assembly"
+  #   type: "assembly"         # assembly | workshop | deadline | milestone | call | conference
+  #   date: "2026-06-15"
+  #   end_date: "2026-06-15"
+  #   recurrence: null         # weekly | monthly | quarterly | null
+  #   location: "online"       # online | [city] | hybrid
+  #   url: null
+  #   related_project: null
+  #   participants: []
+  #   status: "upcoming"       # upcoming | completed | cancelled
+  #   notes: ""

@@ -1,0 +1,67 @@
+# Agents App Federation Configuration
+
+app: "@org-os/agents-app"
+version: "0.1.0"
+
+# Dashboard configuration
+dashboard:
+  title: "org-os Agents"
+  theme: "default"
+  mobileEnabled: true
+  
+  # Views to enable
+  views:
+    - org-chart
+    - task-board
+    - agent-monitor
+    - cost-dashboard
+    - goal-tree
+
+# Runtime configuration
+runtime:
+  # Heartbeat-based agent waking
+  heartbeats:
+    enabled: true
+    defaultInterval: "30m"
+    
+  # Cost tracking and budgets
+  costTracking:
+    enabled: true
+    defaultMonthlyBudget: 200
+    alertThresholds: [50, 80, 95]
+    
+  # Multi-company support (for Regen Coord network)
+  multiCompany:
+    enabled: true
+    maxCompanies: 10
+
+# Synchronization settings
+sync:
+  # Egregore memory integration
+  egregore:
+    enabled: true
+    bidirectional: true
+    interval: "5m"
+    
+  # org-os data sync
+  orgOs:
+    tasks: true
+    agents: true
+    skills: true
+    memory: true
+
+# Agent runtimes supported
+runtimes:
+  - openclaw
+  - claude-code
+  - opencode
+  - cursor
+  - custom
+
+# Default role templates available
+templates:
+  - governance
+  - development
+  - coordination
+  - research
+  - operations

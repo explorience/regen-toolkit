@@ -1,0 +1,28 @@
+# Task Template
+# Used by Paperclip for task creation
+
+title: "Task Title"
+description: "Detailed description"
+
+assignedAgents:
+  - agent-id-1
+  - agent-id-2
+
+estimatedCost: 100
+budget: 150
+priority: medium  # low | medium | high | critical
+
+linkedGoal: goal-id
+linkedProjects:
+  - project-id-1
+
+dueDate: "2026-04-01"
+status: backlog  # backlog | in-progress | review | done
+
+dependencies:
+  - task-id-1
+  - task-id-2
+
+tags:
+  - coordination
+  - org-os

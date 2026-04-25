@@ -1,0 +1,192 @@
+{
+  "@context": {
+    "@vocab": "http://www.daostar.org/schemas",
+    "org-os": "https://organizational-os.github.io/schemas/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "org-os:AgentSchema",
+  "@id": "https://organizational-os.github.io/schemas/agents",
+  "name": "Organizational OS Agent Configuration Schema",
+  "description": "Schema for configuring AI agents in organizational workspaces",
+  "version": "1.0.0",
+
+  "properties": {
+    "runtime": {
+      "@type": "xsd:string",
+      "enum": ["openclaw", "cursor", "custom", "none"],
+      "description": "Agent runtime platform",
+      "default": "none",
+      "required": true
+    },
+
+    "workspace": {
+      "@type": "xsd:string",
+      "description": "Path to the workspace root (relative or absolute)",
+      "default": ".",
+      "required": false
+    },
+
+    "identity": {
+      "@type": "org-os:AgentIdentity",
+      "description": "Agent persona for this workspace",
+      "required": false,
+      "properties": {
+        "name": {
+          "@type": "xsd:string",
+          "description": "Agent name (set in IDENTITY.md)"
+        },
+        "soul_file": {
+          "@type": "xsd:string",
+          "description": "Path to SOUL.md",
+          "default": "SOUL.md"
+        },
+        "identity_file": {
+          "@type": "xsd:string",
+          "description": "Path to IDENTITY.md",
+          "default": "IDENTITY.md"
+        }
+      }
+    },
+
+    "skills": {
+      "@type": "@json",
+      "description": "Skills enabled for this agent deployment",
+      "items": {
+        "@type": "xsd:string",
+        "description": "Skill name matching a directory in skills/"
+      },
+      "example": ["meeting-processor", "funding-scout", "knowledge-curator"]
+    },
+
+    "channels": {
+      "@type": "@json",
+      "description": "Communication channels the agent listens on",
+      "items": {
+        "@type": "org-os:Channel",
+        "properties": {
+          "type": {
+            "@type": "xsd:string",
+            "enum": ["telegram", "google-meet", "github", "discord", "signal", "slack", "matrix", "imessage", "whatsapp", "custom"]
+          },
+          "config_ref": {
+            "@type": "xsd:string",
+            "description": "Reference to channel config in TOOLS.md or external config"
+          }
+        }
+      }
+    },
+
+    "proactive": {
+      "@type": "xsd:boolean",
+      "description": "Whether the agent runs proactive tasks (heartbeat, scheduled scans)",
+      "default": false
+    },
+
+    "heartbeat_interval": {
+      "@type": "xsd:string",
+      "description": "How often the agent checks HEARTBEAT.md (cron or duration)",
+      "examples": ["30m", "1h", "0 */6 * * *"],
+      "default": "1h"
+    },
+
+    "memory": {
+      "@type": "org-os:MemoryConfig",
+      "description": "Memory system configuration",
+      "properties": {
+        "daily_file_pattern": {
+          "@type": "xsd:string",
+          "description": "Pattern for daily memory files",
+          "default": "memory/YYYY-MM-DD.md"
+        },
+        "index_file": {
+          "@type": "xsd:string",
+          "description": "Long-term memory index file",
+          "default": "MEMORY.md"
+        },
+        "search_backend": {
+          "@type": "xsd:string",
+          "enum": ["vector", "bm25", "hybrid", "none"],
+          "description": "Memory search backend (if using OpenClaw)",
+          "default": "hybrid"
+        }
+      }
+    },
+
+    "safety": {
+      "@type": "org-os:SafetyConfig",
+      "description": "Agent safety configuration",
+      "properties": {
+        "autonomous_actions": {
+          "@type": "@json",
+          "description": "Actions the agent can take without approval",
+          "default": [
+            "read workspace files",
+            "write memory files",
+            "write meeting notes",
+            "write project updates",
+            "generate schemas"
+          ]
+        },
+        "approval_required": {
+          "@type": "@json",
+          "description": "Actions that always require human approval",
+          "default": [
+            "send external messages",
+            "execute on-chain transactions",
+            "publish to external platforms",
+            "modify AGENTS.md, SOUL.md, IDENTITY.md",
+            "any financial action"
+          ]
+        },
+        "sandbox": {
+          "@type": "xsd:boolean",
+          "description": "Whether to run in sandboxed mode (if supported by runtime)",
+          "default": true
+        }
+      }
+    }
+  },
+
+  "startupSequence": {
+    "description": "Standard agent startup sequence for organizational workspaces",
+    "steps": [
+      "1. Read AGENTS.md — load operating instructions",
+      "2. Read SOUL.md — internalize org values and voice",
+      "3. Read IDENTITY.md — understand organizational identity",
+      "4. Read USER.md — understand the human operator",
+      "5. Read MEMORY.md — load long-term memory index",
+      "6. Read memory/YYYY-MM-DD.md — load most recent daily memory",
+      "7. Read HEARTBEAT.md — check active tasks and alerts",
+      "8. Read TOOLS.md — load environment-specific configuration",
+      "9. Load skills from skills/"
+    ]
+  },
+
+  "example": {
+    "runtime": "openclaw",
+    "workspace": ".",
+    "skills": [
+      "meeting-processor",
+      "funding-scout",
+      "knowledge-curator",
+      "capital-flow",
+      "schema-generator"
+    ],
+    "channels": [
+      {"type": "telegram"},
+      {"type": "google-meet"},
+      {"type": "github"}
+    ],
+    "proactive": true,
+    "heartbeat_interval": "30m",
+    "memory": {
+      "daily_file_pattern": "memory/YYYY-MM-DD.md",
+      "index_file": "MEMORY.md",
+      "search_backend": "hybrid"
+    },
+    "safety": {
+      "sandbox": true
+    }
+  }
+}

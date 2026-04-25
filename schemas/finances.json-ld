@@ -1,0 +1,348 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "@type": "Schema",
+  "name": "Financial Registry Schema",
+  "description": "JSON-LD schema for organizational financial management, extending EIP-4824 for operational use",
+  "version": "1.0.0",
+  "extends": "https://www.daostar.org/schemas",
+  
+  "schema": {
+    "@context": "https://www.daostar.org/schemas",
+    "@type": "FinancialRegistry",
+    "budgets": {
+      "@type": "@array",
+      "description": "Budget definitions",
+      "items": {
+        "@type": "Budget",
+        "properties": {
+          "id": {
+            "@type": "string",
+            "description": "Unique budget identifier",
+            "required": true
+          },
+          "type": {
+            "@type": "string",
+            "description": "Budget type",
+            "enum": ["budget", "allocation", "forecast"],
+            "default": "budget",
+            "required": true
+          },
+          "name": {
+            "@type": "string",
+            "description": "Budget name",
+            "required": true
+          },
+          "description": {
+            "@type": "string",
+            "description": "Budget description",
+            "required": false
+          },
+          "period": {
+            "@type": "string",
+            "description": "Budget period (e.g., '2026-Q1', '2026', '2026-01')",
+            "required": true
+          },
+          "currency": {
+            "@type": "string",
+            "description": "Currency code (ISO 4217)",
+            "default": "USD",
+            "required": true
+          },
+          "totalAllocated": {
+            "@type": "number",
+            "description": "Total allocated amount",
+            "required": true
+          },
+          "totalSpent": {
+            "@type": "number",
+            "description": "Total amount spent",
+            "default": 0,
+            "required": false
+          },
+          "totalRemaining": {
+            "@type": "number",
+            "description": "Calculated remaining amount (totalAllocated - totalSpent)",
+            "required": false
+          },
+          "categories": {
+            "@type": "@array",
+            "description": "Budget breakdown by category",
+            "items": {
+              "@type": "BudgetCategory",
+              "properties": {
+                "name": {
+                  "@type": "string",
+                  "description": "Category name",
+                  "required": true
+                },
+                "allocated": {
+                  "@type": "number",
+                  "description": "Amount allocated to this category",
+                  "required": true
+                },
+                "spent": {
+                  "@type": "number",
+                  "description": "Amount spent in this category",
+                  "default": 0,
+                  "required": false
+                },
+                "remaining": {
+                  "@type": "number",
+                  "description": "Calculated remaining amount",
+                  "required": false
+                },
+                "description": {
+                  "@type": "string",
+                  "description": "Category description",
+                  "required": false
+                }
+              }
+            },
+            "required": false
+          },
+          "relatedProject": {
+            "@type": "string",
+            "description": "Related project ID (if project-specific budget)",
+            "required": false
+          }
+        }
+      },
+      "required": false
+    },
+    "expenses": {
+      "@type": "@array",
+      "description": "Expense records",
+      "items": {
+        "@type": "Expense",
+        "properties": {
+          "id": {
+            "@type": "string",
+            "description": "Unique expense identifier",
+            "required": true
+          },
+          "type": {
+            "@type": "string",
+            "description": "Expense type",
+            "enum": ["expense", "payment", "reimbursement", "grant"],
+            "default": "expense",
+            "required": true
+          },
+          "date": {
+            "@type": "date",
+            "description": "Expense date in ISO-8601 format",
+            "format": "date",
+            "required": true
+          },
+          "amount": {
+            "@type": "number",
+            "description": "Expense amount",
+            "required": true
+          },
+          "currency": {
+            "@type": "string",
+            "description": "Currency code (ISO 4217)",
+            "default": "USD",
+            "required": true
+          },
+          "category": {
+            "@type": "string",
+            "description": "Expense category",
+            "required": true
+          },
+          "description": {
+            "@type": "string",
+            "description": "Expense description",
+            "required": true
+          },
+          "recipient": {
+            "@type": "string",
+            "description": "Recipient identifier (member ID or external entity)",
+            "required": true
+          },
+          "relatedProject": {
+            "@type": "string",
+            "description": "Related project ID",
+            "required": false
+          },
+          "relatedProposal": {
+            "@type": "string",
+            "description": "Related proposal ID",
+            "required": false
+          },
+          "status": {
+            "@type": "string",
+            "description": "Expense status",
+            "enum": ["pending", "approved", "paid", "rejected", "cancelled"],
+            "default": "pending",
+            "required": true
+          },
+          "invoice": {
+            "@type": "uri",
+            "description": "URI to invoice document",
+            "required": false
+          },
+          "receipt": {
+            "@type": "uri",
+            "description": "URI to receipt document",
+            "required": false
+          },
+          "approvedBy": {
+            "@type": "string",
+            "description": "Member ID of approver",
+            "required": false
+          },
+          "approvedDate": {
+            "@type": "date",
+            "description": "Approval date in ISO-8601 format",
+            "format": "date",
+            "required": false
+          },
+          "paidDate": {
+            "@type": "date",
+            "description": "Payment date in ISO-8601 format",
+            "format": "date",
+            "required": false
+          },
+          "tags": {
+            "@type": "@array",
+            "description": "Expense tags",
+            "items": {
+              "@type": "string"
+            },
+            "required": false
+          }
+        }
+      },
+      "required": false
+    },
+    "revenues": {
+      "@type": "@array",
+      "description": "Revenue records",
+      "items": {
+        "@type": "Revenue",
+        "properties": {
+          "id": {
+            "@type": "string",
+            "description": "Unique revenue identifier",
+            "required": true
+          },
+          "type": {
+            "@type": "string",
+            "description": "Revenue type",
+            "enum": ["grant", "donation", "payment", "investment"],
+            "default": "payment",
+            "required": true
+          },
+          "date": {
+            "@type": "date",
+            "description": "Revenue date in ISO-8601 format",
+            "format": "date",
+            "required": true
+          },
+          "amount": {
+            "@type": "number",
+            "description": "Revenue amount",
+            "required": true
+          },
+          "currency": {
+            "@type": "string",
+            "description": "Currency code (ISO 4217)",
+            "default": "USD",
+            "required": true
+          },
+          "source": {
+            "@type": "string",
+            "description": "Revenue source identifier",
+            "required": true
+          },
+          "description": {
+            "@type": "string",
+            "description": "Revenue description",
+            "required": true
+          },
+          "relatedProject": {
+            "@type": "string",
+            "description": "Related project ID",
+            "required": false
+          },
+          "status": {
+            "@type": "string",
+            "description": "Revenue status",
+            "enum": ["expected", "received", "cancelled"],
+            "default": "expected",
+            "required": true
+          }
+        }
+      },
+      "required": false
+    }
+  },
+  
+  "examples": [
+    {
+      "@context": "https://www.daostar.org/schemas",
+      "@type": "FinancialRegistry",
+      "budgets": [
+        {
+          "id": "budget-2026-q1",
+          "type": "budget",
+          "name": "Q1 2026 Operating Budget",
+          "period": "2026-Q1",
+          "currency": "USD",
+          "totalAllocated": 100000,
+          "totalSpent": 25000,
+          "totalRemaining": 75000,
+          "categories": [
+            {
+              "name": "Operations",
+              "allocated": 40000,
+              "spent": 10000,
+              "remaining": 30000
+            },
+            {
+              "name": "Development",
+              "allocated": 50000,
+              "spent": 12000,
+              "remaining": 38000
+            },
+            {
+              "name": "Marketing",
+              "allocated": 10000,
+              "spent": 3000,
+              "remaining": 7000
+            }
+          ]
+        }
+      ],
+      "expenses": [
+        {
+          "id": "expense-001",
+          "type": "expense",
+          "date": "2026-01-15",
+          "amount": 5000,
+          "currency": "USD",
+          "category": "Development",
+          "description": "Contractor payment for schema development",
+          "recipient": "eip155:1:0x1234abcd",
+          "relatedProject": "project-organizational-os",
+          "status": "paid",
+          "approvedBy": "eip155:1:0x5678efgh",
+          "approvedDate": "2026-01-10",
+          "paidDate": "2026-01-20"
+        }
+      ],
+      "revenues": [
+        {
+          "id": "revenue-001",
+          "type": "grant",
+          "date": "2026-01-01",
+          "amount": 100000,
+          "currency": "USD",
+          "source": "grantor-xyz",
+          "description": "Q1 2026 operating grant",
+          "status": "received"
+        }
+      ]
+    }
+  ]
+}

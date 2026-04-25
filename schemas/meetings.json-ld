@@ -1,0 +1,224 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "@type": "Schema",
+  "name": "Meeting Registry Schema",
+  "description": "JSON-LD schema for organizational meeting management, extending EIP-4824 for operational use",
+  "version": "1.0.0",
+  "extends": "https://www.daostar.org/schemas",
+  
+  "schema": {
+    "@context": "https://www.daostar.org/schemas",
+    "@type": "MeetingRegistry",
+    "meetings": {
+      "@type": "@array",
+      "items": {
+        "@type": "Meeting",
+        "properties": {
+          "id": {
+            "@type": "string",
+            "description": "Unique identifier for the meeting (e.g., meeting-YYYYMMDD-HHMM)",
+            "required": true
+          },
+          "type": {
+            "@type": "string",
+            "description": "Type of meeting",
+            "enum": ["meeting", "standup", "retrospective", "workshop", "coordination"],
+            "default": "meeting",
+            "required": true
+          },
+          "title": {
+            "@type": "string",
+            "description": "Meeting title",
+            "required": true
+          },
+          "date": {
+            "@type": "dateTime",
+            "description": "ISO-8601 datetime of the meeting",
+            "format": "date-time",
+            "required": true
+          },
+          "duration": {
+            "@type": "duration",
+            "description": "Meeting duration in ISO-8601 duration format (e.g., PT1H30M)",
+            "required": false
+          },
+          "participants": {
+            "@type": "@array",
+            "description": "List of participant identifiers (member IDs, CAIP-10 addresses, or DIDs)",
+            "items": {
+              "@type": "string"
+            },
+            "required": true
+          },
+          "status": {
+            "@type": "string",
+            "description": "Meeting status",
+            "enum": ["planned", "completed", "cancelled", "postponed"],
+            "default": "planned",
+            "required": true
+          },
+          "agenda": {
+            "@type": "uri",
+            "description": "URI to the meeting agenda document",
+            "required": false
+          },
+          "notes": {
+            "@type": "uri",
+            "description": "URI to the meeting notes document",
+            "required": false
+          },
+          "recording": {
+            "@type": "uri",
+            "description": "URI to meeting recording (if available)",
+            "required": false
+          },
+          "decisions": {
+            "@type": "@array",
+            "description": "Decisions made during the meeting",
+            "items": {
+              "@type": "Decision",
+              "properties": {
+                "id": {
+                  "@type": "string",
+                  "description": "Unique decision identifier",
+                  "required": true
+                },
+                "description": {
+                  "@type": "string",
+                  "description": "Decision text",
+                  "required": true
+                },
+                "relatedProposal": {
+                  "@type": "string",
+                  "description": "Related proposal ID (if applicable)",
+                  "required": false
+                },
+                "voted": {
+                  "@type": "boolean",
+                  "description": "Whether decision was voted on",
+                  "default": false
+                },
+                "consensus": {
+                  "@type": "boolean",
+                  "description": "Whether decision reached consensus",
+                  "default": false
+                }
+              }
+            },
+            "required": false
+          },
+          "actionItems": {
+            "@type": "@array",
+            "description": "Action items from the meeting",
+            "items": {
+              "@type": "ActionItem",
+              "properties": {
+                "id": {
+                  "@type": "string",
+                  "description": "Unique action item identifier",
+                  "required": true
+                },
+                "description": {
+                  "@type": "string",
+                  "description": "Action item text",
+                  "required": true
+                },
+                "assignee": {
+                  "@type": "string",
+                  "description": "Member ID of person assigned",
+                  "required": true
+                },
+                "status": {
+                  "@type": "string",
+                  "description": "Action item status",
+                  "enum": ["pending", "in_progress", "completed", "cancelled"],
+                  "default": "pending",
+                  "required": true
+                },
+                "dueDate": {
+                  "@type": "date",
+                  "description": "Due date in ISO-8601 date format",
+                  "format": "date",
+                  "required": false
+                },
+                "relatedProject": {
+                  "@type": "string",
+                  "description": "Related project ID (if applicable)",
+                  "required": false
+                },
+                "priority": {
+                  "@type": "string",
+                  "description": "Priority level",
+                  "enum": ["low", "medium", "high", "critical"],
+                  "default": "medium"
+                }
+              }
+            },
+            "required": false
+          },
+          "relatedProposals": {
+            "@type": "@array",
+            "description": "Related proposal IDs discussed",
+            "items": {
+              "@type": "string"
+            },
+            "required": false
+          },
+          "relatedProjects": {
+            "@type": "@array",
+            "description": "Related project IDs discussed",
+            "items": {
+              "@type": "string"
+            },
+            "required": false
+          }
+        }
+      }
+    }
+  },
+  
+  "examples": [
+    {
+      "@context": "https://www.daostar.org/schemas",
+      "@type": "MeetingRegistry",
+      "meetings": [
+        {
+          "id": "meeting-20260125-1400",
+          "type": "meeting",
+          "title": "Weekly Team Sync",
+          "date": "2026-01-25T14:00:00Z",
+          "duration": "PT1H",
+          "participants": [
+            "eip155:1:0x1234abcd",
+            "did:ethr:0x5678efgh"
+          ],
+          "status": "completed",
+          "agenda": "https://org.example.com/meetings/meeting-20260125-1400#agenda",
+          "notes": "https://org.example.com/meetings/meeting-20260125-1400",
+          "decisions": [
+            {
+              "id": "decision-001",
+              "description": "Approve Q1 budget proposal",
+              "relatedProposal": "proposal-123",
+              "voted": true,
+              "consensus": true
+            }
+          ],
+          "actionItems": [
+            {
+              "id": "action-001",
+              "description": "Finalize budget spreadsheet",
+              "assignee": "eip155:1:0x1234abcd",
+              "status": "pending",
+              "dueDate": "2026-02-01",
+              "relatedProject": "project-budget-2026",
+              "priority": "high"
+            }
+          ],
+          "relatedProposals": ["proposal-123"],
+          "relatedProjects": ["project-budget-2026"]
+        }
+      ]
+    }
+  ]
+}

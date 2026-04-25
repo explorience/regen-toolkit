@@ -1,0 +1,33 @@
+schema_version: "2.0"
+
+# Financial Registry
+# Budgets, expenses, and revenues
+
+budgets: []
+  # Example:
+  # - id: "budget-2026-q1"
+  #   name: "Q1 2026 Operating Budget"
+  #   period: "2026-Q1"
+  #   currency: "USD"
+  #   totalAllocated: 100000
+
+expenses: []
+  # Example:
+  # - id: "expense-001"
+  #   date: "2026-01-15"
+  #   amount: 5000
+  #   currency: "USD"
+  #   category: "Development"
+  #   description: "Contractor payment"
+  #   recipient: "eip155:1:0x1234abcd"
+  #   status: "paid"
+
+revenues: []
+  # Example:
+  # - id: "revenue-001"
+  #   date: "2026-01-01"
+  #   amount: 100000
+  #   currency: "USD"
+  #   source: "grantor-xyz"
+  #   description: "Q1 2026 operating grant"
+  #   status: "received"

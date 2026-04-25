@@ -30,20 +30,37 @@ The Regen Toolkit is a curated, open-source knowledge base that helps regenerati
 
 ## Repository Structure
 
+This repo has two co-located layers:
+
+**Knowledge site (Astro/Starlight)**
 ```
-regen-toolkit/
-├── src/content/docs/     # All articles (Markdown with YAML frontmatter)
-├── src/data/              # Knowledge graph data
-├── public/explorer/       # Interactive knowledge map (D3.js)
-├── public/tags/           # Tag explorer
-├── docs/                  # Project documentation
-│   ├── writing-system.md  # Content creation standards
-│   ├── migration-plan.md  # Taxonomy migration plan
-│   └── process/           # Sprint logs
-├── content/               # Raw source articles (pre-Astro)
-├── astro.config.mjs       # Site configuration
-└── CONTRIBUTING.md        # How to contribute
+src/content/docs/          # All articles (Markdown with YAML frontmatter)
+src/data/                  # Knowledge graph data
+public/explorer/           # Interactive knowledge map (D3.js)
+public/tags/               # Tag explorer
+content/                   # Raw source articles (pre-Astro)
+astro.config.mjs           # Site configuration
 ```
+
+**org-os instance (coordination overlay)**
+```
+docs/MASTER.md             # Master doc — canonical development spec (by Matt)
+docs/BACKLOG.md            # Extracted todos from master doc
+docs/CSIS.md               # Structural integrity framework reference (Durgadas)
+IDENTITY.md                # Project identity, leads, 8-layer ownership
+MEMORY.md                  # Key decisions, active context
+MASTERPLAN.md              # Current mandate and development priorities
+HEARTBEAT.md               # Active coordination tasks
+dashboard.yaml             # Session dashboard config
+federation.yaml            # Network peers, upstream framework
+data/                      # Structured registries (ontology, options, deployment reqs, feedback process)
+packages/operations/       # Projects, meetings, finances
+skills/                    # Agent skills (content + coordination)
+scripts/                   # Both site pipeline scripts and org-os scripts
+.claude/                   # Claude Code commands (/initialize, /close)
+```
+
+See `CLAUDE.md` for agent instructions and `AGENTS.md` for the session startup sequence.
 
 ## Tech Stack
 

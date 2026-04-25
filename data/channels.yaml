@@ -1,0 +1,16 @@
+schema_version: "2.0"
+
+# Communication Channels Registry
+# All organizational communication channels and their purposes
+
+channels: []
+  # Example:
+  # - id: "telegram-main"
+  #   platform: "telegram"     # telegram | discord | forum | email | slack | signal | matrix
+  #   name: "Main Chat"
+  #   url: "https://t.me/example"
+  #   purpose: "General coordination and announcements"
+  #   visibility: "public"     # public | members | core | private
+  #   topics: []
+  #   managed_by: "core-stewards"
+  #   status: "active"         # active | archived | migrating

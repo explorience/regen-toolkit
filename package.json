@@ -1,14 +1,51 @@
 {
-  "name": "regen-toolkit-site",
+  "name": "regen-toolkit",
+  "description": "Regen Web3 Toolkit — layered knowledge garden + coordination architecture. Astro/Starlight knowledge site overlaid with org-os instance for team coordination.",
   "version": "1.0.0",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/explorience/regen-toolkit.git"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "initialize": "node scripts/initialize.mjs",
+    "setup": "node scripts/setup-org-os.mjs",
+    "generate:schemas": "node scripts/generate-all-schemas.mjs",
+    "validate:schemas": "node scripts/validate-identity.mjs",
+    "validate:structure": "node scripts/validate-structure.mjs",
+    "compile:knowledge": "node scripts/compile-knowledge.mjs && node scripts/update-knowledge-index.mjs",
+    "lint:knowledge": "node scripts/lint-knowledge.mjs",
+    "knowledge": "npm run compile:knowledge && npm run lint:knowledge",
+    "deploy:pages": "node scripts/deploy-pages.mjs"
   },
+  "engines": {
+    "npm": ">=10.9.2",
+    "node": ">=22"
+  },
+  "keywords": [
+    "regen",
+    "web3",
+    "knowledge-garden",
+    "organizational-os",
+    "eip-4824",
+    "regenerative",
+    "coordination"
+  ],
   "dependencies": {
     "@astrojs/starlight": "^0.38.2",
-    "astro": "^6.0.8"
+    "astro": "^6.0.8",
+    "@clack/prompts": "^0.11.0",
+    "@notionhq/client": "^3.1.0",
+    "dotenv": "^17.4.2",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "typescript": "^5.9.3"
   }
 }

@@ -1,0 +1,122 @@
+schema_version: "1.0"
+source: "docs/projects/regen-toolkit/Web3 Toolkit.md (lines 374-499)"
+status: "Taxonomy stub. Individual options to be enriched with CSIS constraints + failure modes per master doc backlog item #2."
+
+# Regen Toolkit Option Library
+# Function: design component layer — reusable design choices
+# Rule: Options become valid or invalid based on Deployment Layer structural requirements
+
+contains:
+  - "governance models"
+  - "coordination structures"
+  - "organizational forms"
+  - "funding mechanisms"
+  - "allocation mechanisms"
+  - "treasury patterns"
+  - "token and incentive models"
+  - "knowledge system patterns"
+  - "measurement systems"
+  - "operational patterns"
+  - "experimentation patterns"
+
+purpose:
+  - "provide reusable design choices"
+  - "expose design space without flattening differences"
+  - "support composition into tracks and deployments"
+  - "surface known failure patterns"
+
+categories:
+  governance:
+    - "DAO governance"
+    - sociocracy
+    - holocracy
+    - "cooperative governance"
+    - "representative governance"
+    - "liquid democracy"
+    - "hybrid governance"
+
+  coordination:
+    - "working groups"
+    - pods
+    - guilds
+    - circles
+    - "sync structures"
+    - retrospectives
+    - "proposal flows"
+    - "facilitation patterns"
+    - "async coordination systems"
+
+  organization:
+    - DAO
+    - nonprofit
+    - cooperative
+    - foundation
+    - company
+    - "hybrid structures"
+    - "federated networks"
+    - "local chapters"
+
+  funding_and_capital:
+    - grants
+    - "quadratic funding"
+    - retroPGF
+    - "conviction funding"
+    - "direct grants"
+    - "streaming funding"
+    - endowments
+    - "membership models"
+    - "revenue models"
+
+  incentives:
+    - "governance tokens"
+    - "utility tokens"
+    - "reputation systems"
+    - bounties
+    - "hybrid compensation"
+    - "non-financial incentives"
+    - "dynamic NFTs"
+
+  knowledge_and_documentation:
+    - "knowledge gardens"
+    - wikis
+    - "markdown systems"
+    - "knowledge graphs"
+    - "documentation standards"
+    - "versioning practices"
+
+  measurement_and_verification:
+    - "KPI systems"
+    - CIDS
+    - MRV
+    - attestations
+    - dashboards
+    - "analytics pipelines"
+    - "third-party verification"
+
+  implementation_and_operations:
+    - "local hubs"
+    - partnerships
+    - "volunteer systems"
+    - "event operations"
+    - "digital/physical infrastructure"
+
+  experimentation:
+    - "pilot programs"
+    - "hypothesis-driven tests"
+    - "safe-to-fail experiments"
+    - "iteration loops"
+
+relations:
+  incoming:
+    - "Encyclopedia → Option Library: conceptual grounding for design choices"
+    - "Ontology ↔ Option Library: options are typed as patterns, protocols, mechanisms, tools, etc."
+  outgoing:
+    - "Option Library → Deployment Layer: selected options must satisfy structural requirements"
+    - "Option Library → Tracks: tracks are composed from selected options"
+  feedback:
+    - "Feedback Layer → Option Library: refines options, adds failure patterns, records adaptations"
+
+csis_integration_gap:
+  description: "Options are currently separate from constraints — teams can pick incompatible systems."
+  fix: "Annotate each option with: (1) required constraints, (2) typical failure modes (CSIS-aligned)."
+  source_line: "138-144"

@@ -1,0 +1,202 @@
+{
+  "@context": {
+    "@vocab": "http://www.daostar.org/schemas",
+    "org-os": "https://organizational-os.github.io/schemas/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "org-os:SkillSchema",
+  "@id": "https://organizational-os.github.io/schemas/skills",
+  "name": "Organizational OS Skill Schema",
+  "description": "Schema for AgentSkills-compatible organizational skill definitions",
+  "version": "1.0.0",
+
+  "properties": {
+    "name": {
+      "@type": "xsd:string",
+      "description": "Kebab-case unique skill identifier",
+      "examples": ["meeting-processor", "funding-scout", "knowledge-curator"],
+      "required": true
+    },
+
+    "version": {
+      "@type": "xsd:string",
+      "description": "Semantic version of the skill",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "example": "1.0.0",
+      "required": true
+    },
+
+    "description": {
+      "@type": "xsd:string",
+      "description": "One-line description of what the skill does",
+      "required": true
+    },
+
+    "author": {
+      "@type": "xsd:string",
+      "description": "Skill author identifier (org name or GitHub handle)",
+      "required": false
+    },
+
+    "category": {
+      "@type": "xsd:string",
+      "enum": [
+        "operations",
+        "coordination",
+        "capital",
+        "governance",
+        "knowledge",
+        "infrastructure",
+        "web3",
+        "custom"
+      ],
+      "description": "Skill category for discovery and organization",
+      "required": false
+    },
+
+    "metadata": {
+      "@type": "org-os:SkillMetadata",
+      "description": "Runtime-specific metadata",
+      "required": false,
+      "properties": {
+        "openclaw": {
+          "@type": "org-os:OpenClawMetadata",
+          "description": "OpenClaw runtime requirements",
+          "properties": {
+            "requires": {
+              "@type": "org-os:SkillRequirements",
+              "properties": {
+                "env": {
+                  "@type": "@json",
+                  "description": "Required environment variables",
+                  "items": {
+                    "@type": "xsd:string"
+                  },
+                  "example": ["TELEGRAM_BOT_TOKEN", "OPENAI_API_KEY"]
+                },
+                "bins": {
+                  "@type": "@json",
+                  "description": "Required CLI binaries",
+                  "items": {
+                    "@type": "xsd:string"
+                  },
+                  "example": ["node", "gh"]
+                },
+                "config": {
+                  "@type": "@json",
+                  "description": "Required OpenClaw config fields",
+                  "items": {
+                    "@type": "xsd:string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "integrations": {
+      "@type": "@json",
+      "description": "External services this skill integrates with",
+      "items": {
+        "@type": "xsd:string"
+      },
+      "examples": [
+        ["telegram", "google-meet"],
+        ["artisan", "octant", "gitcoin"],
+        ["github", "safe-api"]
+      ]
+    },
+
+    "workspace_files": {
+      "@type": "@json",
+      "description": "Workspace files this skill reads from or writes to",
+      "items": {
+        "@type": "xsd:string"
+      },
+      "example": ["HEARTBEAT.md", "memory/YYYY-MM-DD.md", "data/funding-opportunities.yaml"]
+    }
+  },
+
+  "standardSkills": [
+    {
+      "name": "meeting-processor",
+      "category": "operations",
+      "description": "Process meeting transcripts into structured organizational records",
+      "integrations": ["google-meet", "telegram", "granola"],
+      "workspace_files": [
+        "packages/operations/meetings/",
+        "memory/YYYY-MM-DD.md",
+        "HEARTBEAT.md"
+      ]
+    },
+    {
+      "name": "funding-scout",
+      "category": "coordination",
+      "description": "Identify, track, and report on funding opportunities",
+      "integrations": ["artisan", "octant", "gitcoin", "superfluid", "impact-stake"],
+      "workspace_files": [
+        "data/funding-opportunities.yaml",
+        "HEARTBEAT.md",
+        "memory/YYYY-MM-DD.md"
+      ]
+    },
+    {
+      "name": "knowledge-curator",
+      "category": "knowledge",
+      "description": "Aggregate, organize, and share knowledge across channels and commons",
+      "integrations": ["telegram", "github"],
+      "workspace_files": [
+        "knowledge/",
+        "MEMORY.md",
+        "memory/YYYY-MM-DD.md"
+      ]
+    },
+    {
+      "name": "capital-flow",
+      "category": "capital",
+      "description": "Orchestrate capital movements and queue on-chain transactions",
+      "integrations": ["safe-api", "gnosis-chain"],
+      "workspace_files": [
+        "data/finances.yaml",
+        "data/pending-payouts.yaml",
+        "HEARTBEAT.md",
+        "IDENTITY.md"
+      ]
+    },
+    {
+      "name": "schema-generator",
+      "category": "infrastructure",
+      "description": "Auto-generate EIP-4824 schemas from operational data",
+      "integrations": [],
+      "workspace_files": [
+        "data/",
+        "packages/operations/",
+        ".well-known/"
+      ]
+    },
+    {
+      "name": "heartbeat-monitor",
+      "category": "infrastructure",
+      "description": "Proactive organizational health monitoring and task tracking",
+      "integrations": [],
+      "workspace_files": [
+        "HEARTBEAT.md",
+        "memory/YYYY-MM-DD.md"
+      ]
+    },
+    {
+      "name": "contract-interaction",
+      "category": "web3",
+      "description": "Interface with smart contracts for governance, funding, and identity",
+      "integrations": ["gardens", "snapshot", "octant", "hats-protocol", "superfluid", "safe-api"],
+      "workspace_files": [
+        "IDENTITY.md",
+        "TOOLS.md",
+        "HEARTBEAT.md"
+      ]
+    }
+  ]
+}

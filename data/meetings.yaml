@@ -1,0 +1,19 @@
+schema_version: "2.0"
+
+# Meeting Registry
+# Records of organizational meetings with decisions and action items
+
+meetings: []
+  # Example:
+  # - id: "mtg-20260301"
+  #   title: "Weekly Stewards Sync"
+  #   date: "2026-03-01"
+  #   type: "sync"             # sync | assembly | workshop | standup | ad-hoc
+  #   participants: []
+  #   duration_minutes: 60
+  #   recording_url: null
+  #   transcript_path: null
+  #   summary: ""
+  #   decisions: []
+  #   action_items: []
+  #   tags: []

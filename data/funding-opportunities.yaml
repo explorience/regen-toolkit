@@ -1,0 +1,25 @@
+schema_version: "2.0"
+
+# Funding Opportunities
+# Managed by funding-scout skill
+# Add opportunities discovered by agents or manually
+
+opportunities: []
+
+# Example entry:
+# opportunities:
+#   - id: artisan-regen-finance-s6-001
+#     platform: artisan
+#     fund: "Regen Finance Pool"
+#     deadline: "2026-04-30"
+#     domain: "regenerative-finance"
+#     amount_range: "$500-$5000"
+#     matching: true
+#     url: "https://artisan.com/funds/regen-finance"
+#     status: pending        # pending | applied | approved | rejected | expired
+#     eligible: true
+#     relevant_nodes:
+#       - "all"
+#     discovered_by: "node-name"
+#     discovered_date: "2026-02-20"
+#     notes: "Fund manager: contact@platform. Apply before deadline."

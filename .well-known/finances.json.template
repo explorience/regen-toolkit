@@ -1,0 +1,7 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "type": "FinancialRegistry",
+  "budgets": [],
+  "expenses": [],
+  "revenues": []
+}

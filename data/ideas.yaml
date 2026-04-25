@@ -1,0 +1,26 @@
+schema_version: "2.0"
+
+# Ideas Registry
+# Community ideas and hatching pipeline
+# Lifecycle: surfaced → proposed → approved → developing → hatched → archived
+
+ideas: []
+  # Example:
+  # - id: "idea-001"
+  #   title: "Carbon Credit Verification Toolkit"
+  #   status: "proposed"       # surfaced | proposed | approved | developing | hatched | archived
+  #   source: null             # knowledge page that inspired this idea
+  #   submitted_by: "agent"    # "agent" | member-id
+  #   champions: []
+  #   ecosystem_gap: ""
+  #   description: ""
+  #   hatched_repo: null       # URL when hatched into its own repo
+  #   skills_needed: []
+  #   resources: []
+  #   compensation:
+  #     model: null            # bounty | retroactive | grants | equity | null
+  #     pool: null
+  #   created: "2026-01-01"
+  #   updated: "2026-01-01"
+  #   votes: 0
+  #   comments: []

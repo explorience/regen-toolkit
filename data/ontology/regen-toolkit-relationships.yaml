@@ -1,0 +1,112 @@
+schema_version: "1.0"
+source: "docs/projects/regen-toolkit/Web3 Toolkit.md (lines 6385-6432, 7105-7134)"
+
+# Regen Toolkit Ontology — Relationship Types
+# Entities must be connected through explicit relationships.
+
+structural:
+  - id: is_a
+    name: "is_a"
+    notes: "Core taxonomy predicate"
+  - id: part_of
+    name: "part_of"
+  - id: instance_of
+    name: "instance_of"
+  - id: related_to
+    name: "related_to"
+    notes: "Generic fallback; prefer specific predicates"
+  - id: broader
+    name: "broader"
+  - id: narrower
+    name: "narrower"
+
+practice_and_design:
+  - id: practiced_by
+    name: "practiced_by"
+    from: "Practice"
+    to: "Person/Group"
+    notes: "Core"
+  - id: practiced_in
+    name: "practiced_in"
+    from: "Practice"
+    to: "Place"
+    notes: "Core"
+  - id: aggregates_into
+    name: "aggregates_into"
+    from: "Practice"
+    to: "Pattern"
+    notes: "Critical — how practices abstract into patterns"
+  - id: suggests
+    name: "suggests"
+    from: "Pattern"
+    to: "Practice"
+    notes: "Critical — inverse of aggregates_into"
+  - id: implemented_by
+    name: "implemented_by"
+    from: "Protocol/Mechanism"
+    to: "Group/Tool"
+  - id: builds_on
+    name: "builds_on"
+    from: "Pattern/Framework"
+    to: "Pattern/Framework"
+  - id: documents
+    name: "documents"
+    from: "Case Study"
+    to: "Practice/Pattern"
+    notes: "Core"
+
+discourse:
+  - id: about
+    name: "about"
+    from: "Question/Claim/Evidence"
+    to: "Entity"
+  - id: supports
+    name: "supports"
+    from: "Evidence"
+    to: "Claim"
+  - id: opposes
+    name: "opposes"
+    from: "Evidence"
+    to: "Claim"
+  - id: informs
+    name: "informs"
+    from: "Evidence"
+    to: "Question/Practice"
+  - id: generates
+    name: "generates"
+    from: "Practice/Gathering"
+    to: "Question/Claim"
+
+operational:
+  - id: uses_tool
+    name: "uses_tool"
+    octo_mapping: "relates_to / implemented_by"
+    notes: "Prefer Octo mapping when possible"
+  - id: governed_by
+    name: "governed_by"
+    octo_mapping: "relates_to OR explicit extension"
+    notes: "Important for CSIS — power legibility"
+  - id: funded_by
+    name: "funded_by"
+    octo_mapping: "relates_to OR explicit extension"
+  - id: depends_on
+    name: "depends_on"
+    octo_mapping: "relates_to"
+    notes: "Keep minimal"
+  - id: serves_function
+    name: "serves_function"
+
+capital_predicates:
+  - id: creates_capital
+    name: "creates_capital"
+    notes: "Practice → Social, Natural (uses 8 forms of capital classification)"
+  - id: depends_on_capital
+    name: "depends_on (capital)"
+    notes: "Mechanism → Financial"
+  - id: impacts_capital
+    name: "impacts (capital)"
+    notes: "Tool → Cultural"
+
+principles:
+  - "Keep extensions minimal to avoid fragmentation"
+  - "Every Regen Toolkit type must resolve to an Octo base type (graph compatibility, shared semantics, no drift)"

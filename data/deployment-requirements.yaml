@@ -1,0 +1,109 @@
+schema_version: "1.0"
+source: "docs/projects/regen-toolkit/Web3 Toolkit.md (lines 500-613)"
+
+# Regen Toolkit Deployment Layer — Structural Constraint Checklist
+# Function: structural constraint layer — conditions that make selected components structurally valid
+# Any real deployment MUST define all 6 structural components. Missing any → invalid deployment.
+
+required_structural_components:
+  - id: decision_system
+    name: "1. Decision System"
+    must_define:
+      - "decision mechanism"
+      - "decision scope"
+      - "proposal rights"
+      - "decision authority"
+      - "decision record location"
+
+  - id: information_requirements
+    name: "2. Information Requirements"
+    must_define:
+      - "minimum knowledge to participate"
+      - "core knowledge"
+      - "role-specific knowledge"
+      - "advanced / optional knowledge"
+
+  - id: power_structure
+    name: "3. Power Structure"
+    must_define:
+      - "formal authority"
+      - "operational control"
+      - "resource control"
+      - "named roles or role types"
+      - "admin / multisig / infrastructure control points"
+
+  - id: accountability_system
+    name: "4. Accountability System"
+    must_define:
+      - "work tracking"
+      - "outcome evaluation"
+      - "review cadence"
+      - "visible tracking mechanism"
+
+  - id: failure_detection_system
+    name: "5. Failure Detection System"
+    must_define:
+      - "issue reporting channel"
+      - "escalation path"
+      - "response responsibility"
+      - "feedback surfacing mechanism"
+
+  - id: structural_classification
+    name: "6. Structural Classification"
+    must_define_what_is:
+      - fixed
+      - configurable
+      - experimental
+    applied_to:
+      - governance
+      - coordination
+      - funding
+      - tools
+      - "role systems"
+
+deployment_template:
+  sections:
+    - context
+    - objectives
+    - "selected systems"
+    - "structural requirements"
+    - "tools and infrastructure"
+    - "implementation plan"
+    - milestones
+    - responsibilities
+
+invalid_conditions:
+  - "decision process undefined"
+  - "required knowledge undefined"
+  - "power implicit or hidden"
+  - "no review loop"
+  - "no failure reporting path"
+  - "everything treated as flexible"
+
+purpose:
+  - "constrain ambiguity"
+  - "make deployments structurally legible"
+  - "prevent incompatible compositions"
+  - "support validation and review"
+
+relations:
+  incoming:
+    - "Deployment Layer ← Option Library: selected options are instantiated here"
+    - "Deployment Layer ← Encyclopedia: draws on explanatory knowledge and domain context"
+    - "Deployment Layer ↔ Ontology: constraints attach to typed entities and relations"
+  outgoing:
+    - "Deployment Layer → Tracks: track templates should pre-encode structural requirements"
+    - "Implementations ← Deployment Layer: implementations are concrete instantiated deployments"
+  feedback:
+    - "Feedback Layer → Deployment Layer: updates constraints, templates, and failure conditions"
+
+open_gaps:
+  - id: compressive_vs_generative
+    description: "Does not yet clearly express the difference between compressive and generative standards (CSIS distinction). The generative layer is about conditions under which coordination capacity develops and is sustained."
+    source_line: "189-192"
+  - id: capacity_building
+    description: "Strong on floors and constraints, less explicit on capacity-building conditions, shared understanding, and conflict transformation as separate structural concerns."
+    source_line: "191-192"
+  - id: conformance_posture
+    description: "No clear assessment or conformance posture (partial adoption vs full conformance)."
+    source_line: "193"

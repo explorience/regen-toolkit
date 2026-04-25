@@ -1,0 +1,32 @@
+schema_version: "2.0"
+
+# Governance Registry
+# Tracks governance model, decisions, and elections
+
+governance:
+  model: "steward-council"     # steward-council | multisig | assembly | conviction
+  current_phase: "bootstrap"   # bootstrap | transition | active | sunset
+  infrastructure:
+    safe: null
+    hats_tree: null
+    gardens: null
+    snapshot: null
+  decisions: []
+    # Example:
+    # - id: "gov-001"
+    #   title: "Adopt Distributed Stewardship Model"
+    #   type: "proposal"       # proposal | election | amendment | emergency
+    #   status: "draft"        # draft | voting | ratified | rejected | expired
+    #   date: "2026-01-01"
+    #   passed_by: null
+    #   summary: ""
+  elections: []
+    # Example:
+    # - id: "election-001"
+    #   title: "Steward Council Election Q2 2026"
+    #   status: "upcoming"     # upcoming | nominations | voting | completed
+    #   nominations_open: "2026-04-09"
+    #   voting_start: "2026-04-16"
+    #   voting_end: "2026-04-23"
+    #   seats: 5
+    #   candidates: []

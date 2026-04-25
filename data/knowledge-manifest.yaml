@@ -1,0 +1,18 @@
+schema_version: "2.0"
+
+# Knowledge Manifest
+# Declares knowledge domains and their coverage
+
+knowledge_manifest:
+  domains: []
+    # Example:
+    # - id: "carbon-markets"
+    #   name: "Carbon Markets & MRV"
+    #   description: "Carbon credit verification, measurement, reporting"
+    #   coverage: "none"       # none | partial | comprehensive
+    #   page_count: 0
+    #   sources: []
+    #   last_updated: null
+  exchange:
+    published_domains: []
+    subscribed_domains: []

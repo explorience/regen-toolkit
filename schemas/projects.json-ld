@@ -1,0 +1,281 @@
+{
+  "@context": "https://www.daostar.org/schemas",
+  "@type": "Schema",
+  "name": "Project Registry Schema",
+  "description": "JSON-LD schema for organizational project management using IDEA framework, extending EIP-4824 for operational use",
+  "version": "1.0.0",
+  "extends": "https://www.daostar.org/schemas",
+  
+  "schema": {
+    "@context": "https://www.daostar.org/schemas",
+    "@type": "ProjectRegistry",
+    "projects": {
+      "@type": "@array",
+      "items": {
+        "@type": "Project",
+        "properties": {
+          "id": {
+            "@type": "string",
+            "description": "Unique project identifier",
+            "required": true
+          },
+          "type": {
+            "@type": "string",
+            "description": "Type of project",
+            "enum": ["project", "initiative", "program", "research"],
+            "default": "project",
+            "required": true
+          },
+          "name": {
+            "@type": "string",
+            "description": "Project name",
+            "required": true
+          },
+          "description": {
+            "@type": "string",
+            "description": "Project description",
+            "required": false
+          },
+          "status": {
+            "@type": "string",
+            "description": "Project status using IDEA framework",
+            "enum": ["Integrate", "Develop", "Execute", "Archive"],
+            "required": true
+          },
+          "lead": {
+            "@type": "string",
+            "description": "Member ID of project lead",
+            "required": true
+          },
+          "members": {
+            "@type": "@array",
+            "description": "List of project member identifiers",
+            "items": {
+              "@type": "string"
+            },
+            "required": true
+          },
+          "startDate": {
+            "@type": "date",
+            "description": "Project start date in ISO-8601 format",
+            "format": "date",
+            "required": false
+          },
+          "endDate": {
+            "@type": "date",
+            "description": "Project end date (or target completion) in ISO-8601 format",
+            "format": "date",
+            "required": false
+          },
+          "milestones": {
+            "@type": "@array",
+            "description": "Project milestones",
+            "items": {
+              "@type": "Milestone",
+              "properties": {
+                "id": {
+                  "@type": "string",
+                  "description": "Unique milestone identifier",
+                  "required": true
+                },
+                "title": {
+                  "@type": "string",
+                  "description": "Milestone title",
+                  "required": true
+                },
+                "description": {
+                  "@type": "string",
+                  "description": "Milestone description",
+                  "required": false
+                },
+                "status": {
+                  "@type": "string",
+                  "description": "Milestone status",
+                  "enum": ["pending", "in_progress", "completed", "cancelled"],
+                  "default": "pending",
+                  "required": true
+                },
+                "dueDate": {
+                  "@type": "date",
+                  "description": "Milestone due date in ISO-8601 format",
+                  "format": "date",
+                  "required": false
+                },
+                "completedDate": {
+                  "@type": "date",
+                  "description": "Actual completion date in ISO-8601 format",
+                  "format": "date",
+                  "required": false
+                }
+              }
+            },
+            "required": false
+          },
+          "tasks": {
+            "@type": "@array",
+            "description": "Project tasks",
+            "items": {
+              "@type": "Task",
+              "properties": {
+                "id": {
+                  "@type": "string",
+                  "description": "Unique task identifier",
+                  "required": true
+                },
+                "description": {
+                  "@type": "string",
+                  "description": "Task description",
+                  "required": true
+                },
+                "assignee": {
+                  "@type": "string",
+                  "description": "Member ID of person assigned",
+                  "required": false
+                },
+                "status": {
+                  "@type": "string",
+                  "description": "Task status",
+                  "enum": ["todo", "in_progress", "done", "cancelled"],
+                  "default": "todo",
+                  "required": true
+                },
+                "priority": {
+                  "@type": "string",
+                  "description": "Task priority",
+                  "enum": ["low", "medium", "high", "critical"],
+                  "default": "medium"
+                },
+                "dueDate": {
+                  "@type": "date",
+                  "description": "Task due date in ISO-8601 format",
+                  "format": "date",
+                  "required": false
+                },
+                "relatedMilestone": {
+                  "@type": "string",
+                  "description": "Related milestone ID",
+                  "required": false
+                }
+              }
+            },
+            "required": false
+          },
+          "relatedProposals": {
+            "@type": "@array",
+            "description": "Related proposal IDs",
+            "items": {
+              "@type": "string"
+            },
+            "required": false
+          },
+          "budget": {
+            "@type": "Budget",
+            "description": "Project budget information",
+            "properties": {
+              "allocated": {
+                "@type": "number",
+                "description": "Total allocated budget amount",
+                "required": false
+              },
+              "spent": {
+                "@type": "number",
+                "description": "Amount spent so far",
+                "required": false
+              },
+              "currency": {
+                "@type": "string",
+                "description": "Currency code (ISO 4217)",
+                "default": "USD",
+                "required": false
+              },
+              "categories": {
+                "@type": "@array",
+                "description": "Budget breakdown by category",
+                "items": {
+                  "@type": "BudgetCategory",
+                  "properties": {
+                    "name": {
+                      "@type": "string",
+                      "required": true
+                    },
+                    "allocated": {
+                      "@type": "number",
+                      "required": true
+                    },
+                    "spent": {
+                      "@type": "number",
+                      "default": 0
+                    }
+                  }
+                },
+                "required": false
+              }
+            },
+            "required": false
+          },
+          "tags": {
+            "@type": "@array",
+            "description": "Project tags for categorization",
+            "items": {
+              "@type": "string"
+            },
+            "required": false
+          },
+          "documentation": {
+            "@type": "uri",
+            "description": "URI to project documentation",
+            "required": false
+          }
+        }
+      }
+    }
+  },
+  
+  "examples": [
+    {
+      "@context": "https://www.daostar.org/schemas",
+      "@type": "ProjectRegistry",
+      "projects": [
+        {
+          "id": "project-organizational-os",
+          "type": "project",
+          "name": "Organizational OS",
+          "description": "GitHub-based operational workspace system",
+          "status": "Develop",
+          "lead": "eip155:1:0x1234abcd",
+          "members": [
+            "eip155:1:0x1234abcd",
+            "eip155:1:0x5678efgh"
+          ],
+          "startDate": "2026-01-01",
+          "endDate": "2026-06-30",
+          "milestones": [
+            {
+              "id": "milestone-framework-v1",
+              "title": "Framework v1.0 Complete",
+              "status": "in_progress",
+              "dueDate": "2026-02-28"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "task-schema-definition",
+              "description": "Define JSON-LD schemas",
+              "assignee": "eip155:1:0x1234abcd",
+              "status": "done",
+              "priority": "high"
+            }
+          ],
+          "relatedProposals": ["proposal-org-os"],
+          "budget": {
+            "allocated": 50000,
+            "spent": 10000,
+            "currency": "USD"
+          },
+          "tags": ["infrastructure", "standards", "web3"],
+          "documentation": "https://org.example.com/projects/organizational-os"
+        }
+      ]
+    }
+  ]
+}
