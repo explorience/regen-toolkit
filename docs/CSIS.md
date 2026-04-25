@@ -6,6 +6,7 @@
 - **Author**: Durgadas
 - **Registered in**: `data/sources.yaml` (id: `csis-suite`)
 - **Related project**: Regen Web3 Toolkit
+- **Concrete alignment to org-os**: [`docs/from-regen-coord/260423 CSIS × org-os Alignment Report.md`](./from-regen-coord/260423%20CSIS%20%C3%97%20org-os%20Alignment%20Report.md) — where CSIS and org-os converge, where they diverge, what the framework needs for full conformance. Use this when claiming CSIS posture in PRs / docs.
 
 ---
 
