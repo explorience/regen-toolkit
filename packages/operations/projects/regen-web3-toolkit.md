@@ -112,6 +112,11 @@ From the master doc, still needing your call:
 ## Recent meetings
 
 - **2026-04-23** — [Planning Call](../meetings/260423%20Regen%20Web3%20Toolkit%20Planning%20Call.md). Matt one push from master-doc completion → handoff. OrgoS adopted as consolidation framework. Frame-language critique (Durgadas) to be integrated. May hackathon outreach planning.
+- **2026-03-12** — [Funding + Pipeline Sync](../meetings/260312%20Regen%20Toolkit%20%E2%80%94%20Funding%20%2B%20Pipeline%20Sync.md). Artisan funding strategy under Region Coordination profile (time-sensitive). AI pipeline broken — needs fix. Toolkit niche: hyper-specific for local nodes/chapters; link rather than duplicate. Co-op browser extension idea floated.
+- **2026-02-25** — [Restructure + AI Pipeline Sync](../meetings/260225%20Regen%20Toolkit%20Restructure%20%2B%20AI%20Pipeline%20Sync.md). Tag-based architecture replaces track-based; 10 modules proposed. Ship-V1-imperfect stance adopted. AI pipeline 5-stage live with 5 pilot articles. Reach out to Ethereum Localism / ReFi Commons / Superbenefit before more structural decisions.
+- **2026-02-12** — [Planning Call](../meetings/260212%20Regen%20Web3%20Toolkit%20Planning%20Call.md). ReFi DAO transitioning to distributed leadership / headless brand; possible Greenpill alignment. Submit content to Regen Web3 Toolkit repo (Local ReFi Toolkit becomes a subset). Branching workflow ratified. Artisan funding $300–5,600/month confirmed by Drew Simon.
+- **2026-01-29** — [GitHub Workflow + Tier Prioritization](../meetings/260129%20Greenpill%20Toolkit%20Planning%20Call%20%28GitHub%20Workflow%29.md). 229 article placeholders created; tier-based prioritization adopted (Tier 1 = 3+ audiences). Two-week milestone: each participant writes ≥1 article. Matt's AI agent writing system in dev; LifeOS web editor as alt interface.
+- **2026-01-15** — [Greenpill Toolkit Planning Call (Kickoff)](../meetings/260115%20Greenpill%20Toolkit%20Planning%20Call%20%28Kickoff%29.md). Project kickoff. Three target audiences agreed (university/governance education; communities needing onboarding; normie nonprofits). GitHub-based workflow chosen. Tools-first vs Comprehensive content tension surfaced. $2.5k available; $5k considered minimum. Biweekly cadence established.
 
 ## Open action items (from 2026-04-23 planning call)
 

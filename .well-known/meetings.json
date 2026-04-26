@@ -1,5 +1,192 @@
 {
   "@context": "https://www.daostar.org/schemas",
   "type": "MeetingRegistry",
-  "meetings": []
+  "meetings": [
+    {
+      "id": "mtg-20260225-regen-toolkit-restructure-and-pipeline",
+      "title": "Regen Toolkit — Restructure + AI Writing Pipeline Sync",
+      "date": "2026-02-25",
+      "type": "planning",
+      "participants": [
+        "Heenal",
+        "Matt",
+        "Afo",
+        "Rathermercurial"
+      ],
+      "duration_minutes": null,
+      "recording_url": null,
+      "transcript_path": "packages/operations/meetings/260225 Regen Toolkit Restructure + AI Pipeline Sync.md",
+      "summary": "Decided to move from track-based to tag-based structure (10 modules); adopt ship-V1-imperfect stance; AI writing pipeline (5-stage) ready with 5 pilot articles; reach out to Ethereum Localism / ReFi Commons / Superbenefit before more structural decisions",
+      "decisions": [
+        "Restructure: tag-based architecture replaces track-based; tracks become filter views",
+        "10 proposed modules covering web3 literacy, local node lifecycle, governance/treasury, capital/funding, etc.",
+        "Ship V1 with 50-150 articles however imperfect — don't wait for perfection",
+        "Reach out to other knowledge-gardening groups to avoid duplication",
+        "AI writing pipeline 5-stage (Research → Write → Verify → Review → Critique → Publish), cheap models (~$0)"
+      ],
+      "action_items": [
+        "Matt: clean up ontology + module structure spreadsheet",
+        "Heenal: continue refining AI pipeline + presentation layer",
+        "Afo: hub post for outreach about knowledge commons collaboration",
+        "Team: reach out to Ethereum Localism + other knowledge gardeners"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "structure-redesign",
+        "tag-based-architecture",
+        "ai-writing-pipeline",
+        "knowledge-commons-collaboration"
+      ]
+    },
+    {
+      "id": "mtg-20260312-regen-toolkit-funding-and-pipeline",
+      "title": "Regen Toolkit — Funding + Pipeline Sync",
+      "date": "2026-03-12",
+      "type": "planning",
+      "participants": [
+        "Heenal",
+        "Matt",
+        "did:refi-bcn:luiz-fernando",
+        "Afo"
+      ],
+      "duration_minutes": null,
+      "recording_url": null,
+      "transcript_path": "packages/operations/meetings/260312 Regen Toolkit — Funding + Pipeline Sync.md",
+      "summary": "Apply for Artisan funding under single Region Coordination profile (time-sensitive, boosts running). AI pipeline currently broken — needs fix. Toolkit's niche: hyper-specific for local nodes/chapters; link rather than duplicate Gitcoin/Superbenefit/Bioregional content. Co-op browser extension idea floated (foreshadows Coop PL Genesis).",
+      "decisions": [
+        "Single Artisan application under Region Coordination profile (covers toolkit + knowledge gardening)",
+        "Use Greenpill London Artisan template (got 5x multiplier prior)",
+        "Toolkit niche: hyper-specific for local nodes/chapters, link out for broad space",
+        "Link external content rather than copy where possible",
+        "Long-term direction: AI-assisted curation, starts highly curated, incrementally widens"
+      ],
+      "action_items": [
+        "Luiz: draft Artisan application (time-sensitive)",
+        "Heenal: support Artisan process + fix the AI writing pipeline",
+        "Matt: finish structure spreadsheet",
+        "Luiz: refresh onboarding guides + integrate Safe content + run ReFi BCN workshop",
+        "Team: think about hub post for knowledge federation outreach",
+        "Team: explore Luiz's co-op browser extension idea (exploratory)"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "artisan-funding",
+        "region-coordination-profile",
+        "ai-pipeline",
+        "knowledge-federation",
+        "co-op-browser-extension"
+      ]
+    },
+    {
+      "id": "mtg-20260115-greenpill-toolkit-planning-kickoff",
+      "title": "Greenpill Toolkit Planning Call (Kickoff)",
+      "date": "2026-01-15",
+      "type": "planning",
+      "participants": [
+        "Matt",
+        "Trinity Morphy",
+        "Heenal",
+        "Monty Merlin",
+        "did:refi-bcn:luiz-fernando"
+      ],
+      "duration_minutes": null,
+      "recording_url": null,
+      "transcript_path": "packages/operations/meetings/260115 Greenpill Toolkit Planning Call (Kickoff).md",
+      "summary": "Project kickoff. Three audiences agreed (university/governance education, communities needing onboarding, normie nonprofits). GitHub-based workflow chosen. Tools-First (Monty) vs Comprehensive (Luiz) content approaches surfaced. $2.5k available, $5k minimum. Biweekly cadence.",
+      "decisions": [
+        "Continue Local ReFi Toolkit work; rename/scope happens later",
+        "Three target audiences ratified",
+        "GitHub-based workflow (not Notion)",
+        "Just do it — execution over polish",
+        "Biweekly meeting cadence"
+      ],
+      "action_items": [
+        "Luiz: add GitHub collaborators + explore HackMD↔GitHub",
+        "Monty: sync with Patricia/Gregory/Nina on Regen Commons WG",
+        "Team: self-assign sections; clean placeholders",
+        "Determine Regen vs ReFi framing (deferred)"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "project-kickoff",
+        "three-audiences"
+      ]
+    },
+    {
+      "id": "mtg-20260129-greenpill-toolkit-github-workflow",
+      "title": "Greenpill Toolkit Planning Call — GitHub Workflow + Tier Prioritization",
+      "date": "2026-01-29",
+      "type": "planning",
+      "participants": [
+        "Matt",
+        "did:refi-bcn:luiz-fernando",
+        "Heenal"
+      ],
+      "duration_minutes": null,
+      "recording_url": "https://notes.granola.ai/t/b5e3a402-b714-4905-b038-cdf25c4a8436-00demib2",
+      "transcript_path": "packages/operations/meetings/260129 Greenpill Toolkit Planning Call (GitHub Workflow).md",
+      "summary": "229 article placeholders created in GitHub. Tier-based prioritization (Tier 1 = 3+ audiences). High-trust assignment (multiple per article). Strategic depth: broad first, deep second. Matt's AI writing system in dev. LifeOS web editor as alt interface for non-GitHub users.",
+      "decisions": [
+        "Tier-based article prioritization adopted (Tier 1/2 by audience overlap)",
+        "Multi-assignment, collaboration > first-come-first-served",
+        "Two-week milestone: each writes ≥1 article",
+        "Broad first / deep second content strategy",
+        "GitHub comments as primary resource-sharing channel"
+      ],
+      "action_items": [
+        "Matt: automatic label → frontmatter conversion",
+        "Matt: test/refine AI agent writing workflow",
+        "Luiz: push workflow templates + visualizations + Obsidian integration",
+        "Team: each writes ≥1 article in 2 weeks"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "github-workflow",
+        "tier-prioritization",
+        "ai-writing-pipeline"
+      ]
+    },
+    {
+      "id": "mtg-20260212-regen-web3-toolkit-planning",
+      "title": "Regen Web3 Toolkit Planning Call",
+      "date": "2026-02-12",
+      "type": "planning",
+      "participants": [
+        "Matt",
+        "Drew Simon",
+        "Monty Bryant",
+        "Trinity Morphy",
+        "Afo",
+        "Heenal",
+        "Imaginationhealer",
+        "Rathermercurial"
+      ],
+      "duration_minutes": null,
+      "recording_url": "https://notes.granola.ai/t/7f456a2e-bd25-4dbe-8066-af8bd7f9da02-00demib2",
+      "transcript_path": "packages/operations/meetings/260212 Regen Web3 Toolkit Planning Call.md",
+      "summary": "ReFi DAO transitioning to distributed leadership / headless brand; possible future Greenpill alignment. Submit content to Regen Web3 Toolkit repo (Local ReFi Toolkit becomes a subset). Branching workflow ratified. AI-assisted drafting standard. Artisan funding $300-5,600/month confirmed via Drew Simon. Knowledge Commons WG access limited (Luiz request met with pushback).",
+      "decisions": [
+        "Local ReFi Toolkit becomes a subset of Regen Web3 Toolkit",
+        "Branching: individual branches → draft → review → preview → merge",
+        "AI-assisted drafting as standard workflow",
+        "Style guide source: ReFi DAO 200+ blog posts",
+        "Matt leads cleanup pass (duplicates + skeleton + tagging)"
+      ],
+      "action_items": [
+        "Matt: cleanup pass + GitHub tagging system",
+        "Luiz: prototype articles + style guide + canvas updates",
+        "Drew Simon: concrete funding numbers at next region coord call",
+        "Team: apply for Artisan funding within 2 weeks",
+        "Drew Simon: share knowledge commons starter links"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "refi-dao-distributed-leadership",
+        "greenpill-alignment",
+        "knowledge-commons-starter",
+        "ai-assisted-drafting",
+        "artisan-funding"
+      ]
+    }
+  ]
 }

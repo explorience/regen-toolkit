@@ -32,6 +32,21 @@ _Lightweight index for persistent project memory. Detailed notes live in `memory
 
 ---
 
+## Organizational History
+
+- **[2026-01-15]** Project kickoff (Greenpill Toolkit Planning Call) — biweekly cadence established. Initial team: Matt, Trinity, Heenal, Monty, Luiz. Three target audiences agreed (university/governance education; communities needing onboarding e.g. Somaliland project; normie nonprofits). Built on prior Local ReFi Toolkit work from ReFi DAO.
+- **[2026-01-29]** GitHub workflow established. 229 article placeholders created, tagged, prioritized into Tier 1/2 by audience overlap. Custom front-end planned for non-technical navigation.
+- **[2026-02-12]** Content development workflow ratified — AI-assisted drafting, GitHub branch strategy, Artisan funding application planning.
+- **[2026-02-14]** February consolidated action items report (`Zettelkasten/260214 February Meetings Action Items Report.md`) — 25+ actions for Luiz across ReFi BCN, ReFi DAO, Regen Coordination, and the toolkit; major themes captured.
+- **[2026-02-25]** Restructure decision: tag-based architecture replaces track-based. 10 modules proposed. Rather's ontology entered the picture as a candidate standard. AI pipeline 5-stage live with 5 pilot articles.
+- **[2026-03-12]** Artisan funding application strategy: single Region Coordination profile covering toolkit + knowledge gardening. AI pipeline hit blockers (broken + credit issues). Co-op browser extension idea floated by Luiz (foreshadows Coop PL Genesis).
+- **[2026-03-26]** Astro/Starlight site migrated into monorepo (PR #304). 67 articles published out of 254-article inventory; 5 learning paths live.
+- **[2026-04-23]** Frame-language critique introduced (Durgadas). Master doc handoff phase begins. CSIS × org-os alignment posture established. May hackathon target communities locked in.
+- **[2026-04-25]** Org-os overlay landed on `feature/org-os-overlay` branch. Toolkit operates as its own org-os instance, co-located with master doc, structured registries, agent skills.
+- **[2026-04-26]** Meeting history bootstrapped from personal vault into `packages/operations/meetings/`.
+
+---
+
 ## Active Context
 
 - [ongoing] Master-doc iteration — Matt pushing through one more pass before download/reupload + handoff
