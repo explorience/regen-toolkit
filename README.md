@@ -63,10 +63,12 @@ scripts/                   # Both site pipeline scripts and org-os scripts
 .claude/                   # Claude Code commands (/initialize, /close)
 ```
 
-**Cloning:** because external skills are submodules, clone with `--recurse-submodules`:
+**Cloning:** the org-os overlay lives on the `feature/org-os-overlay` branch (operating directly from the branch rather than via a merged PR). External skills are git submodules, so clone with `--recurse-submodules`:
+
 ```bash
-git clone --recurse-submodules https://github.com/explorience/regen-toolkit.git
+git clone --recurse-submodules -b feature/org-os-overlay https://github.com/explorience/regen-toolkit.git
 # or, if already cloned:
+git checkout feature/org-os-overlay
 git submodule update --init --recursive
 ```
 

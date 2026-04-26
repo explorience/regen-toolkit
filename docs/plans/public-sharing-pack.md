@@ -27,14 +27,12 @@ methodology:
 
 ## Pre-flight
 
-- [ ] **Confirm PR #310 is merged** (or branch is on `main` with these docs visible). Public links require the docs to be on `main` of `explorience/regen-toolkit`. If still on `feature/org-os-overlay`, the links work but show as branch URLs — share once merged for the cleanest UX.
+- [ ] **The branch IS the operational state.** PR #310 was closed; `feature/org-os-overlay` operates as the working branch. URLs below point at the branch.
 
-- [ ] **Verify all 3 doc URLs resolve** (after merge):
-  - `https://github.com/explorience/regen-toolkit/blob/main/docs/briefings/260423%20Regen%20Web3%20Toolkit%20-%20Master%20Doc%20Briefing.md`
-  - `https://github.com/explorience/regen-toolkit/blob/main/docs/from-regen-coord/260423%20CSIS%20%C3%97%20org-os%20Alignment%20Report.md`
-  - `https://github.com/explorience/regen-toolkit/blob/main/docs/from-refi-dao/koi-integration-design.md`
-
-  Open each in an incognito window to confirm public-readable.
+- [ ] **Verify all 3 doc URLs resolve** (in incognito):
+  - `https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/briefings/260423%20Regen%20Web3%20Toolkit%20-%20Master%20Doc%20Briefing.md`
+  - `https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/from-regen-coord/260423%20CSIS%20%C3%97%20org-os%20Alignment%20Report.md`
+  - `https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/from-refi-dao/koi-integration-design.md`
 
 ---
 
@@ -43,28 +41,29 @@ methodology:
 - [ ] **1.1** Draft along these lines:
 
   ```
-  Hey all — three docs to share following the org-os overlay landing
-  in the toolkit repo (PR #310, merged YYYY-MM-DD).
+  Hey all — three docs to share. The org-os overlay landed on the
+  toolkit repo as the working branch `feature/org-os-overlay` (no PR /
+  no merge required for now — we operate from the branch directly).
 
-  All three are now in the toolkit repo so we have one place to look:
+  Everything below lives in the toolkit repo so we have one place to look:
 
   1. Master Doc Briefing (260423) — my personal briefing on where the
      master doc was going into our last call. Useful context for
      anyone catching up:
-     https://github.com/explorience/regen-toolkit/blob/main/docs/briefings/260423%20Regen%20Web3%20Toolkit%20-%20Master%20Doc%20Briefing.md
+     https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/briefings/260423%20Regen%20Web3%20Toolkit%20-%20Master%20Doc%20Briefing.md
 
   2. CSIS × org-os Alignment Report (260423) — Durgadas, this is the
      mapping I did between CSIS standards and the org-os framework.
      Where they converge, where they diverge, where the framework
      needs additions. Curious what holes you spot:
-     https://github.com/explorience/regen-toolkit/blob/main/docs/from-regen-coord/260423%20CSIS%20%C3%97%20org-os%20Alignment%20Report.md
+     https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/from-regen-coord/260423%20CSIS%20%C3%97%20org-os%20Alignment%20Report.md
 
   3. KOI Integration Design Spec — Sean, Gregory and I designed how
      ReFi DAO will run KOI (a federated knowledge-graph protocol). The
      toolkit will eventually consume it (so we can query the master
      doc + meeting notes via MCP, federate with peer orgs). Mirrored
      into our repo for accessibility:
-     https://github.com/explorience/regen-toolkit/blob/main/docs/from-refi-dao/koi-integration-design.md
+     https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/from-refi-dao/koi-integration-design.md
 
      Companion docs in the same folder:
      - 7-phase strategic plan
@@ -74,8 +73,11 @@ methodology:
   Org-os overlay PR (merged): https://github.com/explorience/regen-toolkit/pull/310
 
   Questions / "this is wrong" / "the framing is off" — please drop in
-  Telegram or as a GitHub issue / PR comment. The overlay is additive
-  — easy to revert any piece that doesn't fit.
+  Telegram or open a GitHub issue. The overlay is additive — easy to
+  revert any piece that doesn't fit.
+
+  To clone the working branch directly:
+    git clone --recurse-submodules -b feature/org-os-overlay https://github.com/explorience/regen-toolkit.git
   ```
 
 - [ ] **1.2** Present draft to operator for approval before sending. Adjust tone for the actual planning-call channel (more casual on Telegram, slightly more formal on email).

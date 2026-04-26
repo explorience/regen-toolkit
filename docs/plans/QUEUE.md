@@ -20,17 +20,16 @@ _(none — pick one of the queued plans below to activate)_
 
 ## Recommended sequencing
 
-1. Land PR #310 (the org-os overlay itself)
-2. Plan 1 (vault-bootstrap) — fill in the meeting history
-3. Plan 2 (onepager-and-layers) — make the structure usable
-4. Plan 3 (public-sharing-pack) — bring the team in
-5. Plans from Plan 4's Tier 1 inventory, in the order it recommends
+1. Plan 1 (vault-bootstrap) — fill in the meeting history
+2. Plan 2 (onepager-and-layers) — make the structure usable
+3. Plan 3 (public-sharing-pack) — bring the team in
+4. Plans from Plan 4's Tier 1 inventory, in the order it recommends
 
 ---
 
 ## Cross-cutting context
 
-- **Org-os overlay (PR #310)** — https://github.com/explorience/regen-toolkit/pull/310. All plans here assume the overlay is in place. If PR #310 is reverted or not merged, these plans need restructuring.
+- **Org-os overlay** — landed on the working branch `feature/org-os-overlay`. Operating from the branch directly (PR #310 closed without merge — the team's not gated on a review pass). All plans here assume the overlay is the working state.
 - **Master doc** — `docs/MASTER.md` is the canonical source. Plans here support development against it; they don't supersede it.
 - **KOI federation** (gated on refi-dao-os) — Plans use manual `meeting-processor` for now; designed for KOI swap once refi-dao Wave 2 ships and extracts to `org-os/packages/koi/`. See `docs/from-refi-dao/` for the design.
 - **CSIS posture** — Strict in Layer 5 (Deployment), secondary in Layer 8 (Feedback). See `docs/CSIS.md` and the alignment report at `docs/from-regen-coord/260423 CSIS × org-os Alignment Report.md`.
