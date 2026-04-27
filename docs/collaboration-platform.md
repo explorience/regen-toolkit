@@ -4,7 +4,7 @@
 
 We've built a web-based dashboard for collaborating on the Regen Toolkit, hosted at [os.heen.al/toolkit](https://os.heen.al/toolkit). It provides a visual interface for tracking and managing toolkit articles without needing to work directly in GitHub.
 
-This is a purpose-built alternative to the HackMD integration options explored in [hackmd-research.md](./hackmd-research.md). Rather than relying on a third-party platform, we built the collaboration layer directly into our existing project management system.
+This is a purpose-built alternative to the HackMD integration options explored in [`integrations/sync/hackmd-integration-research.md`](../integrations/sync/hackmd-integration-research.md). Rather than relying on a third-party platform, we built the collaboration layer directly into our existing project management system.
 
 ---
 
@@ -80,4 +80,4 @@ This dashboard **replaces most HackMD use cases**:
 - **HackMD** = optional fallback for ad-hoc sessions outside the platform
 - **GitHub** = source of truth (all content lives here, all edits are committed under your account)
 
-See [hackmd-research.md](./hackmd-research.md) for details on HackMD integration options.
+See [`integrations/sync/hackmd-integration-research.md`](../integrations/sync/hackmd-integration-research.md) for details on HackMD integration options.

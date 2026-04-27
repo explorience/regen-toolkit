@@ -6,6 +6,9 @@ Scope: overlapping artifacts across:
 - `Local-ReFi-Toolkit`
 - `ReFi DAO`
 - `Regen Coordination`
+- `Regenerant-Catalunya`
+- `quartz-refi-template`
+- Greenpill Network, SuperBenefit, OpenCivics, Bloom, BioFi (external sources)
 
 Purpose: define source-of-truth rules so shared content can be reused without drift.
 
@@ -41,6 +44,14 @@ Purpose: define source-of-truth rules so shared content can be reused without dr
 | DAO governance specs, onboarding flows, role/process docs | `/root/Zettelkasten/03 Libraries/ReFi DAO` | Convert into toolkit-facing implementation guides; keep governance spec source in ReFi DAO |
 | Strategic framing, round retrospectives, methodology narratives (ImpactQF/CIDS/localism) | `/root/Zettelkasten/03 Libraries/Regen Coordination` | Derive playbooks/explainers with clear “derived from” attribution |
 | Integration crosswalks, sync SOPs, integration status boards, source packets | `/root/Zettelkasten/03 Libraries/regen-toolkit/integrations` | Reference from other repos; do not duplicate as independent canonical docs |
+| Greenpill content (Local Regen Guide, Eth Localism, planning docs) | Greenpill Network (external); toolkit is co-builder | Shared collaboration; preserve Greenpill attribution; coordinate with Blake on ontology |
+| SuperBenefit patterns, Reimagining Power case studies | SuperBenefit Knowledge Garden (external) | Derive with clear attribution; verify licensing before extraction |
+| OpenCivics / Regen Commons mapping tools, governance wiki | OpenCivics, Regen Commons org (external) | Derive with attribution; await knowledge commons starter links |
+| Regenerant Catalunya case studies, Phase 2 patterns | `03 Libraries/Regenerant-Catalunya` (ReFi BCN) | Case study source owned by ReFi BCN; toolkit publishes adapted versions with attribution; coordinate before publication |
+| ReFi DAO Blog posts | blog.refidao.com (ReFi DAO) | Derive style guide and content with attribution; blog is canonical for historical posts |
+| Bloom Network organizing knowledge | Bloom Network (external) | Derive when content available; coordinate via Regen Coordination |
+| BioFi Project eBook and materials | BioFi Project (external, biofi.earth) | Derive with attribution; verify licensing |
+| Quartz publishing pipeline, template overrides | `03 Libraries/quartz-refi-template` | Canonical for deploy operations; content repo must align with Quartz expectations |
 
 ---
 

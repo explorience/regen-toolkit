@@ -40,6 +40,15 @@ Scope: `/root/Zettelkasten/03 Libraries/regen-toolkit/integrations`
 | ReFi DAO (`03 Libraries/ReFi DAO`) | mapping | 3 | Potential drift between historical docs and current live process. | Build stable-vs-evolving section tags in governance/onboarding source set. | 3–5 days |
 | Local ReFi Toolkit (`03 Libraries/Local-ReFi-Toolkit`) | prototype | 4 | Canonical ownership drift risk on overlapping artifacts. | Apply ownership rules during next sync and pilot one module transfer. | 1 week |
 | Regen Toolkit Interface (`03 Libraries/regen-toolkit-interface`) | mapping | 3 | Index schema contract not yet explicitly versioned for expanded sources. | Draft content-index schema contract and add metadata validation gate before index build. | 1 week |
+| Ecosystem Canvas (`03 Libraries/ecosystem-canvas`) | prototype | 4 | Crosswalk and deep-linking not yet implemented. | Create content-to-node crosswalk; add deep-link handlers in embed. | 1 week |
+| Greenpill Network (`content/sources/` B,H,I,M,P,S + external) | mapping | 3 | Blake ontology timeline not yet published; formal merge with ReFi DAO unclear. | Map source codes to article assignments; add taxonomy crosswalk column. | 2 weeks |
+| SuperBenefit Knowledge Garden (`content/sources/` E,O + knowledge.superbenefit.org) | mapping | 3 | Licensing and repo location to verify. | Create extraction template for DAO patterns and case studies. | 2 weeks |
+| OpenCivics / Regen Commons (`content/sources/` R + OpenCivics GitHub) | planned | 2 | Knowledge commons working group limited; Regen Commons org not yet operational. | Obtain knowledge commons starter links from Drew Simon. | Unknown |
+| Regenerant Catalunya (`03 Libraries/Regenerant-Catalunya`) | prototype | 4 | Case study content may be sensitive; coordinate with ReFi BCN. | Define ownership rules; create source packet for case study extraction. | 1 week |
+| ReFi DAO Blog (Ghost) (blog.refidao.com) | mapping | 3 | Blog migration had image issues; no direct repo sync. | Run AI-assisted style guide derivation from 200+ post corpus. | 2 weeks |
+| Bloom Network (external) | planned | 1 | No local repo or documented content yet. | Coordinate with Drew Simon/Magenta re: content availability. | Unknown |
+| BioFi Project (`content/sources/` Q + biofi.earth) | planned | 2 | Content structure and licensing to verify. | Add taxonomy crosswalk column; create extraction template. | 3 weeks |
+| Quartz Publishing Layer (`03 Libraries/quartz-refi-template`) | prototype | 4 | Template overrides require coordination. | Document validation checklist for content changes affecting Quartz build. | 1 week |
 
 ---
 

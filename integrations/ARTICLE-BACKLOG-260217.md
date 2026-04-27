@@ -72,6 +72,53 @@ Purpose: compile article opportunities generated from integration work.
 21. **When a Source Repo Is Empty: Readiness Gates for Federated Knowledge Integrations**
     - Sources: `bioregionalknowledgecommons` integration blocker case
 
+### New candidates from consolidated integration profiles (260218)
+
+22. **Greenpill and ReFi DAO: Alignment Patterns for Distributed Leadership and Local Nodes**
+    - Sources: `greenpill-network-integration`, ReFi DAO governance docs
+23. **Regenerant Catalunya Phase 2: Network-Level Safes and Crypto Transfer Patterns**
+    - Sources: `regenerant-catalunya-integration`, `03 Libraries/Regenerant-Catalunya`
+24. **Humm for Community Fund Management: Proposals, Voting, and Manual Transfer Workflows**
+    - Sources: `regenerant-catalunya-integration`, Regenerant Catalunya Phase 2 tools
+25. **SuperBenefit DAO Patterns Library for Local Node Implementation**
+    - Sources: `superbenefit-integration`, SuperBenefit Knowledge Garden
+26. **OpenCivics Bioregional Mapping Tool Walkthrough for ReFi Practitioners**
+    - Sources: `opencivics-regen-commons-integration`, Benjamin's knowledge commons starter
+27. **Bloom Network Web3 Onboarding Pathway for Grassroots Climate Organizers**
+    - Sources: `bloom-network-integration` (when content available)
+28. **ReFi DAO Blog as Style and Voice Reference for Toolkit Content**
+    - Sources: `refi-dao-blog-integration`, blog.refidao.com corpus
+29. **BioFi and Bioregional Finance: From eBook to Toolkit Modules**
+    - Sources: `biofi-project-integration`, Source Q
+30. **Quartz Publishing Pipeline for Regenerative Web3 Toolkit: Setup and Operations**
+    - Sources: `quartz-publishing-layer-integration`, `03 Libraries/quartz-refi-template`
+
+### New candidates from ecosystem-canvas integration (260219)
+
+31. **Ecosystem Integration Mapping: Green Goods as a Case Study**
+    - Sources: `ecosystem-canvas-integration`, meeting notes (260206, 260213)
+    - Target: `content/3-playbooks/3.3-case-studies/`
+    - Priority: tier-1
+32. **Fund Flow Visualization: Making Regenerative Finance Legible**
+    - Sources: `ecosystem-canvas` fund-flows package, meeting notes
+    - Target: `content/2-applied/2.6-funding-mechanisms/`
+    - Priority: tier-1
+33. **Yield-Based Funding Mechanisms (Octant, Impact Stake, Superfluid)**
+    - Sources: meeting notes (260213), Octant/Lido docs
+    - Target: `content/2-applied/2.6-funding-mechanisms/`
+    - Priority: tier-1
+34. **Visual Knowledge Commons: From Static Docs to Interactive Maps**
+    - Sources: `ecosystem-canvas` architecture
+    - Target: `content/2-applied/2.14-practical-action-planning/`
+    - Priority: tier-2
+35. **Protocol Interoperability Patterns in ReFi**
+    - Sources: `ecosystem-canvas` integrations data
+    - Target: `content/3-playbooks/3.2-implementation-patterns/`
+    - Priority: tier-2
+36. **Embeddable Miniapps for Ecosystem Transparency**
+    - Sources: `ecosystem-canvas` widget package
+    - Target: `content/2-applied/2.10-marketing-outreach/`
+    - Priority: tier-3
 
 ---
 

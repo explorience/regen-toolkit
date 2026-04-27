@@ -42,6 +42,8 @@ Goal: identify new/changed source material in connected repositories.
 - `/root/Zettelkasten/03 Libraries/koi-net-integration`
 - `/root/Zettelkasten/03 Libraries/bioregionalknowledgecommons`
 - `/root/Zettelkasten/03 Libraries/regen-toolkit-interface`
+- `/root/Zettelkasten/03 Libraries/Regenerant-Catalunya`
+- `/root/Zettelkasten/03 Libraries/quartz-refi-template`
 
 ### Scan checklist
 
