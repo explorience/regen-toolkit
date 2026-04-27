@@ -25,6 +25,7 @@ _(none — pick one of the queued plans below to activate)_
 
 - ~~[vault-bootstrap](vault-bootstrap.md)~~ — **2026-04-26.** 6 toolkit meetings backfilled into `packages/operations/meetings/`; 2 `docs/meeting-notes/*.md` migrated with redirect stubs; `data/meetings.yaml` populated; HEARTBEAT carryovers reconciled; schemas regenerate + validate clean.
 - ~~[onepager-and-layers](onepager-and-layers.md)~~ — **2026-04-26.** `docs/ORG-OS.md` (operator one-pager, body <500 words) + `docs/LAYERS.md` (per-layer status for all 8 layers); README, MASTERPLAN, IDENTITY cross-linked.
+- ~~[resources-lift](resources-lift.md)~~ — **2026-04-26.** Promoted from contributions-pipeline Tier 1 #1. 738 entries from MASTER.md lines 1089–2668 → `data/resources.yaml` via `scripts/lift-resources.mjs` (285 URL-bearing, 50 domains). Pending Brandon's curation pass.
 
 ---
 

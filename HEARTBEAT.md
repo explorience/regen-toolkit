@@ -36,7 +36,8 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 - [ ] Resolve V1 vs V2a vs V2b — implement doc recommendation (V1 base + V2b overlay)
 
 ### Resource Graph (Layer 1)
-- [ ] Lift the 11+ domain URL lists (~3,900 lines) from master doc into structured `data/resources.yaml`
+- [x] Lift the 11+ domain URL lists from master doc into structured `data/resources.yaml` (mechanical pass — 2026-04-26; 738 entries, 285 URL-bearing, 50 domains)
+- [ ] **Brandon — curation pass on `data/resources.yaml`** (dedupe, drop tag-as-resource bullets, fill URLs, classify)
 - [ ] Clarify taxonomy vs ontology distinction (master doc line 181 flag)
 
 ### Historic carryovers (from backfilled meetings — needs team triage)
@@ -73,6 +74,8 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ## Recently Completed
 
+- [x] 2026-04-26 — Resources lift: 738 entries extracted from `MASTER.md` (lines 1089–2668) into `data/resources.yaml` via `scripts/lift-resources.mjs`. Layer 1 source-of-truth file now exists; Brandon-curation handoff queued.
+- [x] 2026-04-26 — `docs/ORG-OS.md` (operator one-pager, <500 words) + `docs/LAYERS.md` (per-layer status for all 8 layers); README, MASTERPLAN, IDENTITY cross-linked.
 - [x] 2026-04-26 — Meeting history backfilled from personal vault (5 meetings: 260115, 260129, 260212, 260225, 260312) into canonical `packages/operations/meetings/` layout; MEMORY.md "Organizational History" populated
 - [x] 2026-04-25 — CSIS + KOI design specs mirrored into toolkit (`docs/from-regen-coord/`, `docs/from-refi-dao/`); toolkit-side plan queue established
 - [x] 2026-04-24 — org-os overlay landed on `feature/org-os-overlay` (this instance now operates as its own org-os)

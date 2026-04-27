@@ -1,0 +1,5910 @@
+schema_version: "1.0"
+generated_from: docs/MASTER.md lines 1089-2668
+generated_at: "2026-04-27"
+generator: scripts/lift-resources.mjs
+note: Mechanical extraction. Pending Brandon's curation pass (Layer 1 owner).
+resources:
+  - id: stafford-beer-viable-system-model-vsm
+    title: Stafford Beer — Viable System Model (VSM)
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1095
+      - 1095
+  - id: cybernetic-org-design
+    title: cybernetic org design
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1096
+      - 1096
+  - id: recursive-systems
+    title: recursive systems
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1097
+      - 1097
+  - id: autonomy-vs-control
+    title: autonomy vs control
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1098
+      - 1098
+  - id: team-topologies-matthew-skelton-and-manuel-pais
+    title: Team Topologies — Matthew Skelton & Manuel Pais
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1099
+      - 1099
+  - id: stream-aligned-teams
+    title: stream-aligned teams
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1100
+      - 1100
+  - id: enabling-teams
+    title: enabling teams
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1101
+      - 1101
+  - id: platform-teams
+    title: platform teams
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1102
+      - 1102
+  - id: org-mode-devops-thinking
+    title: Org Mode / DevOps thinking
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1103
+      - 1103
+  - id: flow-efficiency
+    title: flow efficiency
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1104
+      - 1104
+  - id: cognitive-load
+    title: cognitive load
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1105
+      - 1105
+  - id: system-boundaries
+    title: system boundaries
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1106
+      - 1106
+  - id: team-of-teams-stanley-mcchrystal
+    title: Team of Teams — Stanley McChrystal
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1107
+      - 1107
+  - id: decentralized-coordination
+    title: decentralized coordination
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1108
+      - 1108
+  - id: shared-consciousness
+    title: shared consciousness
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1109
+      - 1109
+  - id: reinventing-organizations-frederic-laloux
+    title: Reinventing Organizations — Frederic Laloux
+    url: https://reinventingorganizations.com
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1110
+      - 1111
+  - id: sociocracy-3-0
+    title: Sociocracy 3.0
+    url: https://sociocracy30.org
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1112
+      - 1113
+  - id: holacracy
+    title: Holacracy
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1114
+      - 1114
+  - id: stafford-beer-designing-freedom
+    title: Stafford Beer — Designing Freedom
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1115
+      - 1115
+  - id: stafford-beer-brain-of-the-firm
+    title: Stafford Beer — Brain of the Firm
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1116
+      - 1116
+  - id: christopher-alexander-a-pattern-language
+    title: Christopher Alexander — A Pattern Language
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1117
+      - 1117
+  - id: christopher-alexander-the-timeless-way-of-building
+    title: Christopher Alexander — The Timeless Way of Building
+    url: null
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Core books, theories, and frameworks
+    source_lines:
+      - 1118
+      - 1118
+  - id: guild-guild
+    title: Guild Guild
+    url: https://guildguild.org
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Related org / practice resources
+    source_lines:
+      - 1122
+      - 1123
+  - id: postcapitalist-agency
+    title: Postcapitalist Agency
+    url: https://postcapitalist.agency/#
+    domain: ORGANIZATIONAL DESIGN / OPERATING SYSTEMS / HOW ORGS FUNCTION
+    subcategory: Related org / practice resources
+    source_lines:
+      - 1124
+      - 1125
+  - id: coordination-is-hard-vitalik-buterin
+    title: Coordination is Hard — Vitalik Buterin
+    url: https://vitalik.ca/general/2021/03/23/coordination.html
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1133
+      - 1134
+  - id: radical-markets-glen-weyl-and-eric-posner
+    title: Radical Markets — Glen Weyl & Eric Posner
+    url: https://press.princeton.edu/books/hardcover/9780691177502/radical-markets
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1135
+      - 1136
+  - id: plurality-glen-weyl-audrey-tang-et-al
+    title: Plurality — Glen Weyl, Audrey Tang, et al.
+    url: https://www.plurality.net
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1137
+      - 1138
+  - id: governing-the-commons-elinor-ostrom
+    title: Governing the Commons — Elinor Ostrom
+    url: https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1139
+      - 1140
+  - id: exit-voice-and-loyalty-albert-o-hirschman
+    title: Exit, Voice, and Loyalty — Albert O. Hirschman
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1141
+      - 1141
+  - id: protocolized-primavera-de-filippi
+    title: Protocolized — Primavera De Filippi
+    url: https://www.hup.harvard.edu/books/9780674259393
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1142
+      - 1143
+  - id: the-stack-benjamin-bratton
+    title: The Stack — Benjamin Bratton
+    url: https://www.the-stack.org
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1144
+      - 1145
+  - id: coordination-failures-and-social-technology-devon-zuegel
+    title: Coordination Failures & Social Technology — Devon Zuegel
+    url: https://devonzuegel.com
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1146
+      - 1147
+  - id: the-dawn-of-everything-david-graeber-and-david-wengrow
+    title: The Dawn of Everything — David Graeber & David Wengrow
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1148
+      - 1148
+  - id: seeing-like-a-state-james-c-scott
+    title: Seeing Like a State — James C. Scott
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1149
+      - 1149
+  - id: the-art-of-gathering-priya-parker
+    title: The Art of Gathering — Priya Parker
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1150
+      - 1150
+  - id: governing-knowledge-commons-frischmann-madison-strandburg
+    title: Governing Knowledge Commons — Frischmann, Madison, Strandburg
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Core books, papers, essays, and frameworks
+    source_lines:
+      - 1151
+      - 1151
+  - id: daostar
+    title: DAOstar
+    url: https://daostar.org
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1155
+      - 1156
+  - id: metagov
+    title: MetaGov
+    url: https://github.com/metagov
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1157
+      - 1158
+  - id: metagov-2
+    title: MetaGov
+    url: https://metagov.org
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1159
+      - 1160
+  - id: gov-acc-metagov
+    title: gov-acc / MetaGov
+    url: https://gov-acc.metagov.org
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1161
+      - 1162
+  - id: govbase
+    title: Govbase
+    url: https://govbase.io
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1163
+      - 1164
+  - id: gravity-dao-durgadas-standards
+    title: Gravity DAO / Durgadas standards
+    url: https://github.com/durgadasji/standards
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1165
+      - 1166
+  - id: coordination-structural-integrity-suite-csis
+    title: Coordination Structural Integrity Suite (CSIS)
+    url: https://github.com/coordination-structural-integrity-suite/suite
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1167
+      - 1168
+  - id: daoscope
+    title: DAOscope
+    url: https://x.com/DAOscope
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1169
+      - 1170
+  - id: daobase-ai
+    title: daobase.ai
+    url: https://daobase.ai
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: Standards / protocol / governance infrastructure
+    source_lines:
+      - 1171
+      - 1172
+  - id: greenpill-network-toolkit-prompts
+    title: GreenPill Network toolkit prompts
+    url: https://app.charmverse.io/greenpill-network/outline-the-greenpill-toolkit-prompts-3804070330081286
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1176
+      - 1177
+  - id: bringing-the-network-onchain
+    title: Bringing the Network Onchain
+    url: https://app.charmverse.io/greenpill-network/bringing-the-network-onchain-5570822392643502
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1178
+      - 1179
+  - id: gov-guild
+    title: Gov Guild
+    url: https://app.charmverse.io/greenpill-network/gov-guild-9027690650435296
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1180
+      - 1181
+  - id: greenpill-writers-guild-tools-for-regeneration-project-plan
+    title: GreenPill Writers Guild tools for regeneration project plan
+    url: https://app.charmverse.io/greenpill-writers-guild/tools-for-regeneration-project-plan-6070706289406744
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1182
+      - 1183
+  - id: new-chapter-onboarding
+    title: New chapter onboarding
+    url: https://hub.regencoordination.xyz/t/new-chapter-onboarding/129
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1184
+      - 1185
+  - id: greenpill-brasil-commons-charmverse-flow
+    title: greenpill Brasil commons Charmverse flow
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1186
+      - 1186
+  - id: greenpill-garden-season-1-theory-of-change-strategy-documentation-community-rule
+    title: Greenpill Garden Season 1 — Theory of Change, Strategy, Documentation, Community.Rule
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1187
+      - 1187
+  - id: rere
+    title: ReRe
+    url: null
+    domain: COORDINATION / GOVERNANCE / DIGITAL GOVERNANCE / SOCIAL TECHNOLOGY
+    subcategory: GreenPill / Charmverse / network docs
+    source_lines:
+      - 1188
+      - 1188
+  - id: thinking-in-systems-donella-meadows
+    title: Thinking in Systems — Donella Meadows
+    url: https://www.chelseagreen.com/product/thinking-in-systems
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1196
+      - 1197
+  - id: leverage-points-donella-meadows
+    title: Leverage Points — Donella Meadows
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1198
+      - 1198
+  - id: cynefin-framework-dave-snowden
+    title: Cynefin Framework — Dave Snowden
+    url: https://cynefin.io
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1199
+      - 1200
+  - id: antifragile-nassim-nicholas-taleb
+    title: Antifragile — Nassim Nicholas Taleb
+    url: https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1201
+      - 1202
+  - id: santa-fe-institute
+    title: Santa Fe Institute
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1203
+      - 1203
+  - id: murray-gell-mann
+    title: Murray Gell-Mann
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1204
+      - 1204
+  - id: stuart-kauffman
+    title: Stuart Kauffman
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1205
+      - 1205
+  - id: self-organization
+    title: self-organization
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1206
+      - 1206
+  - id: complex-adaptive-systems
+    title: complex adaptive systems
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1207
+      - 1207
+  - id: cybernetics
+    title: cybernetics
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1208
+      - 1208
+  - id: feedback-loops
+    title: feedback loops
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1209
+      - 1209
+  - id: system-boundaries-2
+    title: system boundaries
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1210
+      - 1210
+  - id: emergence
+    title: emergence
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1211
+      - 1211
+  - id: nonlinearity
+    title: nonlinearity
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1212
+      - 1212
+  - id: resilience
+    title: resilience
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1213
+      - 1213
+  - id: adaptation
+    title: adaptation
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1214
+      - 1214
+  - id: gregory-bateson-steps-to-an-ecology-of-mind
+    title: Gregory Bateson — Steps to an Ecology of Mind
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1215
+      - 1215
+  - id: norbert-wiener-cybernetics
+    title: Norbert Wiener — Cybernetics
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1216
+      - 1216
+  - id: ross-ashby-an-introduction-to-cybernetics
+    title: Ross Ashby — An Introduction to Cybernetics
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1217
+      - 1217
+  - id: donella-meadows
+    title: Donella Meadows
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1218
+      - 1218
+  - id: fritjof-capra-the-web-of-life
+    title: Fritjof Capra — The Web of Life
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1219
+      - 1219
+  - id: howard-t-odum
+    title: Howard T. Odum
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1220
+      - 1220
+  - id: humberto-maturana
+    title: Humberto Maturana
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1221
+      - 1221
+  - id: francisco-varela
+    title: Francisco Varela
+    url: null
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1222
+      - 1222
+  - id: sensemaker
+    title: Sensemaker
+    url: https://cognitive-edge.com/sensemaker
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Tools
+    source_lines:
+      - 1226
+      - 1227
+  - id: kumu
+    title: Kumu
+    url: https://kumu.io
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Tools
+    source_lines:
+      - 1228
+      - 1229
+  - id: loopy
+    title: Loopy
+    url: https://ncase.me/loopy
+    domain: SYSTEMS THINKING / COMPLEXITY / CYBERNETICS / COMPLEX ADAPTIVE SYSTEMS
+    subcategory: Tools
+    source_lines:
+      - 1230
+      - 1231
+  - id: karl-weick-sensemaking
+    title: Karl Weick — Sensemaking
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1239
+      - 1239
+  - id: dave-snowden-deeper-cynefin-work
+    title: Dave Snowden deeper Cynefin work
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1240
+      - 1240
+  - id: narrative-databases
+    title: narrative databases
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1241
+      - 1241
+  - id: distributed-cognition
+    title: distributed cognition
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1242
+      - 1242
+  - id: iain-mcgilchrist-the-matter-with-things
+    title: Iain McGilchrist — The Matter With Things
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1243
+      - 1243
+  - id: left-right-brain-asymmetry
+    title: left/right brain asymmetry
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1244
+      - 1244
+  - id: reduction-vs-context
+    title: reduction vs context
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1245
+      - 1245
+  - id: humberto-maturana-and-francisco-varela
+    title: Humberto Maturana & Francisco Varela
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1246
+      - 1246
+  - id: autopoiesis
+    title: autopoiesis
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1247
+      - 1247
+  - id: cognition-as-world-making
+    title: cognition as world-making
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1248
+      - 1248
+  - id: retrospective-meaning
+    title: retrospective meaning
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1249
+      - 1249
+  - id: interpretation-of-ambiguity
+    title: interpretation of ambiguity
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1250
+      - 1250
+  - id: distributed-sensemaking
+    title: distributed sensemaking
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1251
+      - 1251
+  - id: sensemaking-failure
+    title: sensemaking failure
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1252
+      - 1252
+  - id: edwin-hutchins-distributed-cognition
+    title: Edwin Hutchins — distributed cognition
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1253
+      - 1253
+  - id: george-lakoff
+    title: George Lakoff
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1254
+      - 1254
+  - id: eleanor-rosch
+    title: Eleanor Rosch
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1255
+      - 1255
+  - id: john-vervaeke
+    title: John Vervaeke
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1256
+      - 1256
+  - id: ricoeur-hermeneutics
+    title: Ricoeur / hermeneutics
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1257
+      - 1257
+  - id: dervin-sense-making-methodology
+    title: Dervin sense-making methodology
+    url: null
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Core thinkers and themes
+    source_lines:
+      - 1258
+      - 1258
+  - id: sensemaker-2
+    title: Sensemaker
+    url: https://cognitive-edge.com/sensemaker
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Related tools
+    source_lines:
+      - 1262
+      - 1263
+  - id: kumu-2
+    title: Kumu
+    url: https://kumu.io
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Related tools
+    source_lines:
+      - 1264
+      - 1265
+  - id: loopy-2
+    title: Loopy
+    url: https://ncase.me/loopy
+    domain: COGNITION / SENSEMAKING / INTERPRETATION / HUMAN UNDERSTANDING
+    subcategory: Related tools
+    source_lines:
+      - 1266
+      - 1267
+  - id: albert-laszlo-barabasi-network-science
+    title: Albert-László Barabási — Network Science
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1275
+      - 1275
+  - id: manuel-castells-the-network-society
+    title: Manuel Castells — The Network Society
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1276
+      - 1276
+  - id: anna-tsing-the-mushroom-at-the-end-of-the-world
+    title: Anna Tsing — The Mushroom at the End of the World
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1277
+      - 1277
+  - id: james-c-scott-seeing-like-a-state
+    title: James C. Scott — Seeing Like a State
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1278
+      - 1278
+  - id: bruno-latour-actor-network-theory
+    title: Bruno Latour — Actor-Network Theory
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1279
+      - 1279
+  - id: michel-callon
+    title: Michel Callon
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1280
+      - 1280
+  - id: elinor-ostrom
+    title: Elinor Ostrom
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1281
+      - 1281
+  - id: pierre-bourdieu
+    title: Pierre Bourdieu
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1282
+      - 1282
+  - id: saskia-sassen
+    title: Saskia Sassen
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1283
+      - 1283
+  - id: yochai-benkler-the-wealth-of-networks
+    title: Yochai Benkler — The Wealth of Networks
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1284
+      - 1284
+  - id: duncan-watts
+    title: Duncan Watts
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1285
+      - 1285
+  - id: cedric-robinson
+    title: Cedric Robinson
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1286
+      - 1286
+  - id: michel-foucault-knowledge-power
+    title: Michel Foucault — knowledge/power
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1287
+      - 1287
+  - id: power-in-networks
+    title: power in networks
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1288
+      - 1288
+  - id: informational-capitalism
+    title: informational capitalism
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1289
+      - 1289
+  - id: supply-chains-ecology-capitalism
+    title: supply chains \+ ecology \+ capitalism
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1290
+      - 1290
+  - id: legibility-vs-control
+    title: legibility vs control
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1291
+      - 1291
+  - id: failure-of-centralized-systems
+    title: failure of centralized systems
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1292
+      - 1292
+  - id: scale-free-networks
+    title: scale-free networks
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1293
+      - 1293
+  - id: hubs-vs-edges
+    title: hubs vs edges
+    url: null
+    domain: NETWORK THEORY / POWER / LEGIBILITY / INFORMATIONAL SOCIETY
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1294
+      - 1294
+  - id: douglass-north-institutions-institutional-change-and-economic-performance
+    title: Douglass North — Institutions, Institutional Change, and Economic Performance
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1302
+      - 1302
+  - id: elinor-ostrom-deeper-polycentric-governance-work
+    title: Elinor Ostrom — deeper polycentric governance work
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1303
+      - 1303
+  - id: why-nations-fail-daron-acemoglu-and-james-a-robinson
+    title: Why Nations Fail — Daron Acemoglu & James A. Robinson
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1304
+      - 1304
+  - id: karl-polanyi-the-great-transformation
+    title: Karl Polanyi — The Great Transformation
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1305
+      - 1305
+  - id: mancur-olson
+    title: Mancur Olson
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1306
+      - 1306
+  - id: hernando-de-soto
+    title: Hernando de Soto
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1307
+      - 1307
+  - id: deirdre-mccloskey
+    title: Deirdre McCloskey
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1308
+      - 1308
+  - id: inclusive-vs-extractive-systems
+    title: inclusive vs extractive systems
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1309
+      - 1309
+  - id: formal-vs-informal-rules
+    title: formal vs informal rules
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1310
+      - 1310
+  - id: path-dependency
+    title: path dependency
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1311
+      - 1311
+  - id: polycentric-governance
+    title: polycentric governance
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1312
+      - 1312
+  - id: institutional-persistence
+    title: institutional persistence
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1313
+      - 1313
+  - id: institutional-evolution
+    title: institutional evolution
+    url: null
+    domain: INSTITUTIONAL THEORY / POLITICAL ECONOMY / FORMAL AND INFORMAL RULES
+    subcategory: Core books and thinkers
+    source_lines:
+      - 1314
+      - 1314
+  - id: dao-legal-frameworks
+    title: DAO legal frameworks
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1322
+      - 1322
+  - id: wyoming-dao-llc
+    title: Wyoming DAO LLC
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1323
+      - 1323
+  - id: swiss-foundations
+    title: Swiss foundations
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1324
+      - 1324
+  - id: celo-cooperative-hybrids
+    title: Celo / cooperative hybrids
+    url: https://www.celo.org
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1325
+      - 1326
+  - id: cooperative-law
+    title: cooperative law
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1327
+      - 1327
+  - id: platform-cooperativism
+    title: platform cooperativism
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1328
+      - 1328
+  - id: steward-ownership
+    title: steward ownership
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1329
+      - 1329
+  - id: data-trusts
+    title: data trusts
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1330
+      - 1330
+  - id: commons-legal-tools
+    title: commons legal tools
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1331
+      - 1331
+  - id: legal-wrappers
+    title: legal wrappers
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1332
+      - 1332
+  - id: nonprofit-foundation-cooperative-company-hybrids
+    title: nonprofit / foundation / cooperative / company hybrids
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1333
+      - 1333
+  - id: open-collective-as-fiscal-host-bridge
+    title: Open Collective as fiscal host bridge
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1334
+      - 1334
+  - id: creative-commons
+    title: Creative Commons
+    url: https://creativecommons.org
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1335
+      - 1336
+  - id: platform-cooperativism-consortium
+    title: Platform Cooperativism Consortium
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1337
+      - 1337
+  - id: zebras-unite
+    title: Zebras Unite
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1338
+      - 1338
+  - id: purpose-foundation
+    title: Purpose Foundation
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1339
+      - 1339
+  - id: trusts-steward-ownership-perpetual-purpose-trust-models
+    title: Trusts / steward-ownership / perpetual purpose trust models
+    url: null
+    domain: LEGAL / REAL-WORLD INTERFACE / COOPERATIVE AND DAO STRUCTURES
+    subcategory: Legal and institutional forms
+    source_lines:
+      - 1340
+      - 1340
+  - id: gregory-bateson-steps-to-an-ecology-of-mind-2
+    title: Gregory Bateson — Steps to an Ecology of Mind
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1348
+      - 1348
+  - id: isabelle-stengers-cosmopolitics
+    title: Isabelle Stengers — Cosmopolitics
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1349
+      - 1349
+  - id: bruno-latour-actor-network-theory-2
+    title: Bruno Latour — Actor-Network Theory
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1350
+      - 1350
+  - id: michel-foucault-knowledge-power-relationship
+    title: Michel Foucault — knowledge-power relationship
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1351
+      - 1351
+  - id: boaventura-de-sousa-santos
+    title: Boaventura de Sousa Santos
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1352
+      - 1352
+  - id: donna-haraway
+    title: Donna Haraway
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1353
+      - 1353
+  - id: ivan-illich
+    title: Ivan Illich
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1354
+      - 1354
+  - id: paulo-freire
+    title: Paulo Freire
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1355
+      - 1355
+  - id: humberto-maturana-2
+    title: Humberto Maturana
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1356
+      - 1356
+  - id: francisco-varela-2
+    title: Francisco Varela
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1357
+      - 1357
+  - id: pattern
+    title: pattern
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1358
+      - 1358
+  - id: learning
+    title: learning
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1359
+      - 1359
+  - id: recursion
+    title: recursion
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1360
+      - 1360
+  - id: plural-knowledge-systems
+    title: plural knowledge systems
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1361
+      - 1361
+  - id: humans-non-humans
+    title: humans \+ non-humans
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1362
+      - 1362
+  - id: cosmopolitics
+    title: cosmopolitics
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1363
+      - 1363
+  - id: knowledge-power-relationship
+    title: knowledge-power relationship
+    url: null
+    domain: EPISTEMOLOGY / KNOWLEDGE PHILOSOPHY / PLURAL KNOWLEDGE SYSTEMS
+    subcategory: Core thinkers and books
+    source_lines:
+      - 1364
+      - 1364
+  - id: how-to-take-smart-notes-sonke-ahrens
+    title: How to Take Smart Notes — Sönke Ahrens
+    url: https://takesmartnotes.com
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1372
+      - 1373
+  - id: building-a-second-brain-tiago-forte
+    title: Building a Second Brain — Tiago Forte
+    url: https://fortelabs.com/blog/basboverview
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1374
+      - 1375
+  - id: roam-research
+    title: Roam Research
+    url: https://roamresearch.com
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1376
+      - 1377
+  - id: obsidian
+    title: Obsidian
+    url: https://obsidian.md
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1378
+      - 1379
+  - id: logseq
+    title: Logseq
+    url: https://logseq.com
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1380
+      - 1381
+  - id: notion
+    title: Notion
+    url: https://notion.so
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1382
+      - 1383
+  - id: capacities
+    title: Capacities
+    url: https://capacities.io
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1384
+      - 1385
+  - id: quartz
+    title: Quartz
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1386
+      - 1386
+  - id: athens-research
+    title: Athens Research
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1387
+      - 1387
+  - id: tana
+    title: Tana
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1388
+      - 1388
+  - id: foam
+    title: Foam
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: PKM / note systems / personal knowledge
+    source_lines:
+      - 1389
+      - 1389
+  - id: manuscript-decentralized-curation-trustless-transformation-of-information-into-k
+    title: "Manuscript — Decentralized Curation: Trustless Transformation of Information into Knowledge"
+    url: https://manuscript-decentralized-curation.pages.dev
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1393
+      - 1394
+  - id: open-civic-data-standards
+    title: Open Civic Data Standards
+    url: https://opencivicdata.org
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1395
+      - 1396
+  - id: schema-org
+    title: Schema.org
+    url: https://schema.org
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1397
+      - 1398
+  - id: wikidata
+    title: Wikidata
+    url: https://www.wikidata.org
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1399
+      - 1400
+  - id: radicle
+    title: Radicle
+    url: https://radicle.xyz
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1401
+      - 1402
+  - id: knowledge-graph-protocol-geobrowser-io
+    title: Knowledge Graph Protocol / geobrowser.io
+    url: https://geobrowser.io
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1403
+      - 1404
+  - id: open-civics
+    title: Open Civics
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1405
+      - 1405
+  - id: superbenefit-dao
+    title: SuperBenefit DAO
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1406
+      - 1406
+  - id: octo-bioregional-knowledge-commons
+    title: Octo / Bioregional Knowledge Commons
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1407
+      - 1407
+  - id: nerd-dao-forkable-mind-map
+    title: Nerd DAO forkable mind map
+    url: https://github.com/Ataxia123/Notes
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1408
+      - 1409
+  - id: bloom-wiki
+    title: Bloom wiki
+    url: https://bloomnetwork.earth/wiki
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1410
+      - 1411
+  - id: bloom-community-posts-how-to-s
+    title: Bloom community posts / How To’s
+    url: https://bloomnetwork.earth/communityposts
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1412
+      - 1413
+  - id: rag-retrieval-augmented-generation
+    title: RAG / Retrieval-Augmented Generation
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1414
+      - 1414
+  - id: markdown-format-obsidian-quartz
+    title: Markdown format / Obsidian / Quartz
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1415
+      - 1415
+  - id: atlas-of-weak-signals-curation-systems
+    title: Atlas of weak signals / curation systems
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1416
+      - 1416
+  - id: data-lineage
+    title: data lineage
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1417
+      - 1417
+  - id: tagging-taxonomies
+    title: tagging taxonomies
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1418
+      - 1418
+  - id: shared-vocabularies
+    title: shared vocabularies
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1419
+      - 1419
+  - id: ontology-taxonomy-schema-design
+    title: ontology / taxonomy / schema design
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / ONTOLOGIES / KNOWLEDGE GRAPHS / DOCUMENTATION
+    subcategory: Knowledge graphs / ontologies / semantic infrastructure
+    source_lines:
+      - 1420
+      - 1420
+  - id: ethereum-whitepaper
+    title: Ethereum Whitepaper
+    url: https://ethereum.org/en/whitepaper
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1428
+      - 1429
+  - id: ethresear-ch
+    title: ethresear.ch
+    url: https://ethresear.ch
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1430
+      - 1431
+  - id: ethereum-magicians
+    title: Ethereum Magicians
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1432
+      - 1432
+  - id: all-core-dev-calls
+    title: All Core Dev Calls
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1433
+      - 1433
+  - id: the-daily-gwei
+    title: The Daily Gwei
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1434
+      - 1434
+  - id: eth-cat-herders
+    title: ETH Cat Herders
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1435
+      - 1435
+  - id: r-ethereum-daily-thread-and-weekly-doots
+    title: r/ethereum daily thread and weekly doots
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1436
+      - 1436
+  - id: blockchain-use-cases-discussion
+    title: blockchain use cases discussion
+    url: https://www.reddit.com/r/ethfinance/comments/1b3zxin/my_ethereum_bull_case_bonus_usecases_what_it_is
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1437
+      - 1438
+  - id: ethfinance-discussion
+    title: ethfinance discussion
+    url: https://www.reddit.com/r/ethfinance/comments/1agwsik/daily_general_discussion_february_2_2024/kokzauy
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Core web3 / Ethereum
+    source_lines:
+      - 1439
+      - 1440
+  - id: buidlguidl
+    title: BuidlGuidl
+    url: https://buidlguidl.com
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1444
+      - 1445
+  - id: speedrun-ethereum
+    title: Speedrun Ethereum
+    url: http://speedrunethereum.com
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1446
+      - 1447
+  - id: scaffold-eth
+    title: Scaffold-ETH
+    url: http://scaffoldeth.io
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1448
+      - 1449
+  - id: alchemy
+    title: Alchemy
+    url: https://www.alchemy.com
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1450
+      - 1451
+  - id: oso
+    title: OSO
+    url: https://www.oso.xyz
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1452
+      - 1453
+  - id: chainlink
+    title: Chainlink
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1454
+      - 1454
+  - id: foundry
+    title: Foundry
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1455
+      - 1455
+  - id: hardhat
+    title: Hardhat
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1456
+      - 1456
+  - id: wagmi
+    title: Wagmi
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1457
+      - 1457
+  - id: viem
+    title: Viem
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1458
+      - 1458
+  - id: openzeppelin
+    title: OpenZeppelin
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1459
+      - 1459
+  - id: ethers-js
+    title: Ethers.js
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1460
+      - 1460
+  - id: solidity-by-example
+    title: Solidity by Example
+    url: null
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Dev / builder tools / infra
+    source_lines:
+      - 1461
+      - 1461
+  - id: web3-glossary-website
+    title: web3 glossary website
+    url: https://github.com/mapachurro/web3-glossary-website
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Glossaries / onboarding
+    source_lines:
+      - 1465
+      - 1466
+  - id: tokenomicsexplained-com-the-rabbit-hole
+    title: tokenomicsexplained.com — The Rabbit Hole
+    url: https://tokenomicsexplained.com/the-rabbit-hole
+    domain: WEB3 / ETHEREUM / CRYPTO / DEV / BUILDERS
+    subcategory: Glossaries / onboarding
+    source_lines:
+      - 1467
+      - 1468
+  - id: gitcoin
+    title: Gitcoin
+    url: https://gitcoin.co
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1476
+      - 1477
+  - id: gitcoin-research-apps-mechanisms-case-studies
+    title: Gitcoin — research, apps, mechanisms, case studies
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1478
+      - 1478
+  - id: allo-capital-mechanisms
+    title: Allo Capital mechanisms
+    url: https://www.allo.capital/mechanisms
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1479
+      - 1480
+  - id: optimism-retropgf-docs
+    title: Optimism RetroPGF Docs
+    url: https://community.optimism.io/docs/governance/retropgf
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1481
+      - 1482
+  - id: gitcoin-allo-protocol-docs
+    title: Gitcoin / Allo Protocol Docs
+    url: https://docs.allo.gitcoin.co
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1483
+      - 1484
+  - id: quadratic-funding-paper-buterin-hitzig-weyl
+    title: Quadratic Funding paper — Buterin, Hitzig, Weyl
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1485
+      - 1486
+  - id: conviction-voting-commons-stack
+    title: Conviction Voting — Commons Stack
+    url: https://commonsstack.org/conviction-voting
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1487
+      - 1488
+  - id: augmented-bonding-curves
+    title: Augmented Bonding Curves
+    url: https://commonsstack.org/augmented-bonding-curve
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1489
+      - 1490
+  - id: hypercerts
+    title: Hypercerts
+    url: https://hypercerts.org
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1491
+      - 1492
+  - id: impactmarket
+    title: ImpactMarket
+    url: https://www.impactmarket.com
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1493
+      - 1494
+  - id: commons-stack
+    title: Commons Stack
+    url: https://www.commonsstack.org
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1495
+      - 1496
+  - id: colony
+    title: Colony
+    url: https://colony.io
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1497
+      - 1498
+  - id: octant
+    title: Octant
+    url: https://docs.v2.octant.build
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1499
+      - 1500
+  - id: clearfund
+    title: ClearFund
+    url: https://clearfund.netlify.app
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1501
+      - 1502
+  - id: relayfunder
+    title: RelayFunder
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1503
+      - 1503
+  - id: mechanism-design
+    title: mechanism design
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1504
+      - 1504
+  - id: grants
+    title: grants
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1505
+      - 1505
+  - id: retroactive-funding
+    title: retroactive funding
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1506
+      - 1506
+  - id: quadratic-funding
+    title: quadratic funding
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1507
+      - 1507
+  - id: reputation-based-curation
+    title: reputation-based curation
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1508
+      - 1508
+  - id: endowments
+    title: endowments
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1509
+      - 1509
+  - id: community-currencies
+    title: community currencies
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1510
+      - 1510
+  - id: cooperative-real-estate
+    title: cooperative real estate
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1511
+      - 1511
+  - id: land-trusts
+    title: land trusts
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Mechanisms / papers / frameworks
+    source_lines:
+      - 1512
+      - 1512
+  - id: review-past-octant-epochs
+    title: review past Octant epochs
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1516
+      - 1516
+  - id: review-giveth-projects-qf-gg-rounds
+    title: review Giveth projects / QF / GG rounds
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1517
+      - 1517
+  - id: neighborhood-open-source-software-grants-for-gg23
+    title: Neighborhood Open Source Software Grants for GG23
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1518
+      - 1518
+  - id: public-goods-tooling-round
+    title: Public Goods Tooling round
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1519
+      - 1519
+  - id: ethereum-for-the-world
+    title: Ethereum for the World
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1520
+      - 1520
+  - id: ethereum-everywhere
+    title: Ethereum Everywhere
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1521
+      - 1521
+  - id: flow-state
+    title: Flow State
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1522
+      - 1522
+  - id: cookie-jar
+    title: Cookie Jar
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1523
+      - 1523
+  - id: allo-irl
+    title: Allo IRL
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1524
+      - 1524
+  - id: deepfunding
+    title: DeepFunding
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1525
+      - 1525
+  - id: greenpill-garden-season-1
+    title: Greenpill Garden Season 1
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1526
+      - 1526
+  - id: undp-altfinlab
+    title: UNDP AltFinLab
+    url: https://x.com/UNDP_AltFinLab/status/2014338844657611138
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1527
+      - 1528
+  - id: commitment-pooling-sarafu
+    title: Commitment Pooling / Sarafu
+    url: https://x.com/wor/status/2027277263113245103
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1529
+      - 1530
+  - id: refi-dao-localism-finance
+    title: ReFi DAO localism finance
+    url: https://refi-dao.notion.site/localism-finance
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1531
+      - 1532
+  - id: bloom-finance-innovation-for-movements-toolkit
+    title: Bloom finance innovation for movements toolkit
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Funding rounds / cases / programs
+    source_lines:
+      - 1533
+      - 1533
+  - id: funding-the-commons
+    title: Funding the Commons
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1537
+      - 1537
+  - id: giveth
+    title: Giveth
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1538
+      - 1538
+  - id: supermodular
+    title: Supermodular
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1539
+      - 1539
+  - id: open-collective
+    title: Open Collective
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1540
+      - 1540
+  - id: seed-commons
+    title: Seed Commons
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1541
+      - 1541
+  - id: zebras-unite-2
+    title: Zebras Unite
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1542
+      - 1542
+  - id: commons-stack-research
+    title: Commons Stack research
+    url: null
+    domain: FUNDING MECHANISMS / CAPITAL ALLOCATION / PUBLIC GOODS FINANCE / GRANTS
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1543
+      - 1543
+  - id: token-engineering-commons
+    title: Token Engineering Commons
+    url: https://tokenengineeringcommons.org
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1551
+      - 1552
+  - id: token-engineering-labs
+    title: Token Engineering Labs
+    url: https://www.tokenengineeringlabs.com
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1553
+      - 1554
+  - id: blockscience
+    title: BlockScience
+    url: https://block.science
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1555
+      - 1556
+  - id: mechanism-design-for-social-good
+    title: Mechanism Design for Social Good
+    url: https://www.md4sg.com
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1557
+      - 1558
+  - id: token-engineering-academy
+    title: Token Engineering Academy
+    url: null
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1559
+      - 1559
+  - id: token-design
+    title: token design
+    url: null
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1560
+      - 1560
+  - id: incentive-systems
+    title: incentive systems
+    url: null
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1561
+      - 1561
+  - id: social-computation
+    title: social computation
+    url: null
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1562
+      - 1562
+  - id: public-goods-mechanism-design
+    title: public goods mechanism design
+    url: null
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1563
+      - 1563
+  - id: complex-systems-simulation
+    title: complex systems simulation
+    url: null
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1564
+      - 1564
+  - id: governance-mechanism-design
+    title: governance mechanism design
+    url: null
+    domain: TOKEN ENGINEERING / MECHANISM SCIENCE / SOCIAL COMPUTATION
+    subcategory: Core resources
+    source_lines:
+      - 1565
+      - 1565
+  - id: collab-land
+    title: Collab.Land
+    url: https://collab.land
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1573
+      - 1574
+  - id: tribes-platform
+    title: Tribes Platform
+    url: https://tribesplatform.app
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1575
+      - 1576
+  - id: collabberry
+    title: Collabberry
+    url: https://collabberry.xyz
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1577
+      - 1578
+  - id: hum
+    title: HUM
+    url: https://hum.community
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1579
+      - 1580
+  - id: gooddollar
+    title: GoodDollar
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1581
+      - 1581
+  - id: circles
+    title: Circles
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1582
+      - 1582
+  - id: prosperity-passport
+    title: Prosperity Passport
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1583
+      - 1583
+  - id: self-protocol
+    title: Self Protocol
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1584
+      - 1584
+  - id: citizen-wallet
+    title: Citizen Wallet
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1585
+      - 1585
+  - id: hats-protocol
+    title: Hats Protocol
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1586
+      - 1586
+  - id: unlock-protocol
+    title: Unlock Protocol
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1587
+      - 1587
+  - id: sign-in-with-ethereum
+    title: Sign-In with Ethereum
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1588
+      - 1588
+  - id: ceramic-identities
+    title: Ceramic identities
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1589
+      - 1589
+  - id: gitcoin-passport
+    title: Gitcoin Passport
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1590
+      - 1590
+  - id: brightid
+    title: BrightID
+    url: null
+    domain: IDENTITY / CREDENTIALS / SOCIAL COORDINATION / ACCESS LAYERS
+    subcategory: Tools and protocols
+    source_lines:
+      - 1591
+      - 1591
+  - id: ethereum-attestation-service-eas
+    title: Ethereum Attestation Service (EAS)
+    url: https://docs.attest.sh
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1599
+      - 1600
+  - id: eas
+    title: EAS
+    url: https://attest.sh
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1601
+      - 1602
+  - id: ceramic
+    title: Ceramic
+    url: https://ceramic.network
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1603
+      - 1604
+  - id: tableland
+    title: Tableland
+    url: https://tableland.xyz
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1605
+      - 1606
+  - id: attestations
+    title: attestations
+    url: null
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1607
+      - 1607
+  - id: data-layers
+    title: data layers
+    url: null
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1608
+      - 1608
+  - id: structured-credentials
+    title: structured credentials
+    url: null
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1609
+      - 1609
+  - id: trust-and-verification-infrastructure
+    title: trust and verification infrastructure
+    url: null
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1610
+      - 1610
+  - id: verifiable-credentials
+    title: verifiable credentials
+    url: null
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1611
+      - 1611
+  - id: credential-registries
+    title: credential registries
+    url: null
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1612
+      - 1612
+  - id: data-portability
+    title: data portability
+    url: null
+    domain: DATA / ATTESTATIONS / STRUCTURED RECORDS / CREDENTIALS
+    subcategory: Core tools and protocols
+    source_lines:
+      - 1613
+      - 1613
+  - id: greenpill-network
+    title: GreenPill Network
+    url: https://greenpill.network
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1621
+      - 1622
+  - id: refi-dao
+    title: ReFi DAO
+    url: https://refidao.com
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1623
+      - 1624
+  - id: bloom-network
+    title: Bloom Network
+    url: https://bloomnetwork.earth
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1625
+      - 1626
+  - id: celo
+    title: Celo
+    url: https://www.celo.org
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1627
+      - 1628
+  - id: toucan-protocol
+    title: Toucan Protocol
+    url: https://toucan.earth
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1629
+      - 1630
+  - id: regen-network
+    title: Regen Network
+    url: https://www.regen.network
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1631
+      - 1632
+  - id: open-forest-protocol
+    title: Open Forest Protocol
+    url: https://openforestprotocol.org
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1633
+      - 1634
+  - id: silvi-protocol
+    title: Silvi Protocol
+    url: https://silvi.earth
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1635
+      - 1636
+  - id: regen-atlas
+    title: Regen Atlas
+    url: https://www.regenatlas.xyz
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1637
+      - 1638
+  - id: regen-tech-resources
+    title: Regen Tech resources
+    url: https://www.regentech.co/regenerative-tech-resources
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1639
+      - 1640
+  - id: carbon-copy-refi-projects
+    title: Carbon Copy ReFi projects
+    url: https://carboncopy.news/refi/projects
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1641
+      - 1642
+  - id: regen-learnings
+    title: Regen Learnings
+    url: https://regenlearnings.xyz
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1643
+      - 1644
+  - id: ecofrontiers
+    title: Ecofrontiers
+    url: https://ecofrontiers.xyz
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1645
+      - 1646
+  - id: oneearth
+    title: OneEarth
+    url: https://www.oneearth.org
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1647
+      - 1648
+  - id: regeneration-pollination
+    title: Regeneration Pollination
+    url: https://www.regenerationpollination.earth
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1649
+      - 1650
+  - id: gainforest
+    title: GainForest
+    url: https://gainforest.earth
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1651
+      - 1652
+  - id: regentribe
+    title: RegenTribe
+    url: https://regentribe.org
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1653
+      - 1654
+  - id: regencommons
+    title: RegenCommons
+    url: https://regencommons.com
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: Core orgs / protocols / ecosystems
+    source_lines:
+      - 1655
+      - 1656
+  - id: joe-brewer
+    title: Joe Brewer
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1660
+      - 1660
+  - id: kokonut-network
+    title: Kokonut Network
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1661
+      - 1661
+  - id: kokonut-network-framework
+    title: Kokonut Network framework
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1662
+      - 1662
+  - id: agroforest-dao
+    title: Agroforest DAO
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1663
+      - 1663
+  - id: biofi
+    title: BioFi
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1664
+      - 1664
+  - id: ma-earth
+    title: Ma Earth
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1665
+      - 1665
+  - id: arkeen
+    title: Arkeen
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1666
+      - 1666
+  - id: harmonica
+    title: Harmonica
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1667
+      - 1667
+  - id: ninit-pollination-station
+    title: Ninit / Pollination Station
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1668
+      - 1668
+  - id: klima
+    title: Klima
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1669
+      - 1669
+  - id: eco-bridge
+    title: Eco-Bridge
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1670
+      - 1670
+  - id: carbon-copy
+    title: Carbon Copy
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1671
+      - 1671
+  - id: funding-the-commons-2
+    title: Funding the Commons
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1672
+      - 1672
+  - id: regens-unite
+    title: Regens Unite
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1673
+      - 1673
+  - id: open-earth-foundation
+    title: Open Earth Foundation
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1674
+      - 1674
+  - id: we-are-open-coop
+    title: We Are Open Coop
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1675
+      - 1675
+  - id: hylo
+    title: Hylo
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1676
+      - 1676
+  - id: restor
+    title: Restor
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1677
+      - 1677
+  - id: second-renaissance
+    title: Second Renaissance
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1678
+      - 1678
+  - id: weavers-network
+    title: Weavers Network
+    url: null
+    domain: REFI / REGENERATIVE CRYPTO / GREENPILL / CLIMATE / ECOLOGY
+    subcategory: People / networks / adjacent items
+    source_lines:
+      - 1679
+      - 1679
+  - id: regenerative-development-regenesis-bill-reed
+    title: Regenerative Development — Regenesis / Bill Reed
+    url: https://regenesisgroup.com
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1687
+      - 1688
+  - id: doughnut-economics-kate-raworth
+    title: Doughnut Economics — Kate Raworth
+    url: https://www.kateraworth.com/doughnut
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1689
+      - 1690
+  - id: braiding-sweetgrass-robin-wall-kimmerer
+    title: Braiding Sweetgrass — Robin Wall Kimmerer
+    url: https://milkweed.org/book/braiding-sweetgrass
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1691
+      - 1692
+  - id: permaculture-a-designer-s-manual-bill-mollison
+    title: "Permaculture: A Designer’s Manual — Bill Mollison"
+    url: https://tagari.com/product/permaculture-a-designers-manual
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1693
+      - 1694
+  - id: john-fullerton-regenerative-capitalism
+    title: John Fullerton — Regenerative Capitalism
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1695
+      - 1695
+  - id: allan-savory-holistic-management
+    title: Allan Savory — Holistic Management
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1696
+      - 1696
+  - id: carol-sanford
+    title: Carol Sanford
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1697
+      - 1697
+  - id: regenerative-business-design
+    title: regenerative business design
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1698
+      - 1698
+  - id: 8-principles-of-regenerative-capitalism
+    title: 8 principles of regenerative capitalism
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1699
+      - 1699
+  - id: land-systems-decision-making
+    title: land \+ systems decision making
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1700
+      - 1700
+  - id: permaculture
+    title: permaculture
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1701
+      - 1701
+  - id: environmental-organizations
+    title: environmental organizations
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1702
+      - 1702
+  - id: land-management
+    title: land management
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Core books and frameworks
+    source_lines:
+      - 1703
+      - 1703
+  - id: daniel-schmachtenberger
+    title: Daniel Schmachtenberger
+    url: https://civilizationemerging.com
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1707
+      - 1708
+  - id: the-great-simplification
+    title: The Great Simplification
+    url: https://www.thegreatsimplification.com
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1709
+      - 1710
+  - id: operating-manual-for-spaceship-earth-buckminster-fuller
+    title: Operating Manual for Spaceship Earth — Buckminster Fuller
+    url: https://www.lars-mueller-publishers.com/operating-manual-for-spaceship-earth
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1711
+      - 1712
+  - id: a-pattern-language-christopher-alexander
+    title: A Pattern Language — Christopher Alexander
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1713
+      - 1713
+  - id: design-for-human-and-planetary-health-regenesis
+    title: Design for Human and Planetary Health — Regenesis
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1714
+      - 1714
+  - id: degrowth-literature
+    title: Degrowth literature
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1715
+      - 1715
+  - id: kate-raworth-deal
+    title: Kate Raworth / DEAL
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1716
+      - 1716
+  - id: donut-economics-action-lab
+    title: Donut Economics Action Lab
+    url: null
+    domain: REGENERATION / ECOLOGY / REGENERATIVE DESIGN / SYSTEMIC ECOLOGY THINKING
+    subcategory: Related systems / civilizational resources
+    source_lines:
+      - 1717
+      - 1717
+  - id: ethereum-localism
+    title: Ethereum Localism
+    url: https://www.ethereumlocalism.xyz
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1725
+      - 1726
+  - id: localscale
+    title: LocalScale
+    url: https://localscale.org
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1727
+      - 1728
+  - id: regeneration-pollination-2
+    title: Regeneration Pollination
+    url: https://www.regenerationpollination.earth
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1729
+      - 1730
+  - id: network-nations
+    title: Network Nations
+    url: https://networknations.network
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1731
+      - 1732
+  - id: communet
+    title: Communet
+    url: https://www.communet.xyz
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1733
+      - 1734
+  - id: hubs-network
+    title: Hubs Network
+    url: https://www.hubsnetwork.org
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1735
+      - 1736
+  - id: symbiota
+    title: Symbiota
+    url: https://symbiota.coop
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1737
+      - 1738
+  - id: startupstates-swiss
+    title: startupstates.swiss
+    url: https://www.startupstates.swiss
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1739
+      - 1740
+  - id: localism-finance
+    title: localism finance
+    url: https://refi-dao.notion.site/localism-finance
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1741
+      - 1742
+  - id: bioregional-mapping
+    title: bioregional mapping
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1743
+      - 1743
+  - id: local-nodes
+    title: local nodes
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1744
+      - 1744
+  - id: local-capital-and-labor-matching
+    title: local capital and labor matching
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1745
+      - 1745
+  - id: mutual-aid
+    title: mutual aid
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1746
+      - 1746
+  - id: crypto-leftists
+    title: crypto leftists
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1747
+      - 1747
+  - id: civic-coordination
+    title: civic coordination
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1748
+      - 1748
+  - id: pop-up-cities
+    title: pop-up cities
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1749
+      - 1749
+  - id: ecovillages
+    title: ecovillages
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1750
+      - 1750
+  - id: coliving
+    title: coliving
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1751
+      - 1751
+  - id: commons-hubs
+    title: commons hubs
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1752
+      - 1752
+  - id: traditional-dream-factory
+    title: Traditional Dream Factory
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1753
+      - 1753
+  - id: gen-ukraine
+    title: GEN Ukraine
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1754
+      - 1754
+  - id: metabolic-mapping
+    title: Metabolic Mapping
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1755
+      - 1755
+  - id: local-resource-flow-mapping
+    title: local resource flow mapping
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Core resources
+    source_lines:
+      - 1756
+      - 1756
+  - id: bioregional-learning-centre
+    title: Bioregional Learning Centre
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1760
+      - 1760
+  - id: biofi-project
+    title: BioFi Project
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1761
+      - 1761
+  - id: commoning-municipalism-resources
+    title: Commoning / municipalism resources
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1762
+      - 1762
+  - id: fearless-cities
+    title: Fearless Cities
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1763
+      - 1763
+  - id: new-economy-coalition
+    title: New Economy Coalition
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1764
+      - 1764
+  - id: cooperative-jackson
+    title: Cooperative Jackson
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1765
+      - 1765
+  - id: ces-community-exchange-systems
+    title: CES / community exchange systems
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1766
+      - 1766
+  - id: sarafu-grassroots-economics
+    title: Sarafu / Grassroots Economics
+    url: null
+    domain: LOCALISM / BIOREGIONALISM / PLACE-BASED COORDINATION / CIVIC INFRASTRUCTURE
+    subcategory: Adjacent additional resources
+    source_lines:
+      - 1767
+      - 1767
+  - id: desci-ecosystem-map
+    title: DeSci ecosystem map
+    url: https://docs.desci.world/ecosystem/ecosystem-map
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1775
+      - 1776
+  - id: web3-climate-map
+    title: Web3 climate map
+    url: https://kumu.io/climate-collective/web3-climate-map#main
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1777
+      - 1778
+  - id: geobrowser-knowledge-graph-protocol
+    title: Geobrowser / Knowledge Graph Protocol
+    url: https://geobrowser.io
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1779
+      - 1780
+  - id: local-refi-toolkit-figma-board
+    title: Local ReFi Toolkit figma board
+    url: https://www.figma.com/board/FaL4EbFWM6s3u3DeNklHMW/Local-ReFi-Toolkit?node-id=0-1&p=f
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1781
+      - 1782
+  - id: pentagram-climate-tech-map
+    title: Pentagram climate tech map
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1783
+      - 1783
+  - id: regen-atlas-2
+    title: Regen Atlas
+    url: https://www.regenatlas.xyz
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1784
+      - 1785
+  - id: carbon-copy-refi-projects-2
+    title: Carbon Copy ReFi projects
+    url: https://carboncopy.news/refi/projects
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1786
+      - 1787
+  - id: report-on-mapping-infrastructure
+    title: Report on Mapping Infrastructure
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1788
+      - 1788
+  - id: approved-source-maps
+    title: approved source maps
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1789
+      - 1789
+  - id: data-lineage-2
+    title: data lineage
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1790
+      - 1790
+  - id: source-maps
+    title: source maps
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1791
+      - 1791
+  - id: real-world-examples
+    title: real-world examples
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1792
+      - 1792
+  - id: sources-used-tracking
+    title: sources_used tracking
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1793
+      - 1793
+  - id: categorization-schemas
+    title: categorization schemas
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Core maps and graph inputs
+    source_lines:
+      - 1794
+      - 1794
+  - id: kumu-3
+    title: Kumu
+    url: https://kumu.io
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Mapping / ecology / geo tools
+    source_lines:
+      - 1798
+      - 1799
+  - id: qgis
+    title: QGIS
+    url: https://qgis.org
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Mapping / ecology / geo tools
+    source_lines:
+      - 1800
+      - 1801
+  - id: global-forest-watch
+    title: Global Forest Watch
+    url: https://www.globalforestwatch.org
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Mapping / ecology / geo tools
+    source_lines:
+      - 1802
+      - 1803
+  - id: gbif
+    title: GBIF
+    url: https://www.gbif.org
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Mapping / ecology / geo tools
+    source_lines:
+      - 1804
+      - 1805
+  - id: geospatial-mapping
+    title: geospatial mapping
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Mapping / ecology / geo tools
+    source_lines:
+      - 1806
+      - 1806
+  - id: systems-maps
+    title: systems maps
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Mapping / ecology / geo tools
+    source_lines:
+      - 1807
+      - 1807
+  - id: knowledge-cartography
+    title: knowledge cartography
+    url: null
+    domain: MAPPING / RESOURCE GRAPH / ECOSYSTEM MAPS / KNOWLEDGE CARTOGRAPHY
+    subcategory: Mapping / ecology / geo tools
+    source_lines:
+      - 1808
+      - 1808
+  - id: emergent-strategy-adrienne-maree-brown
+    title: Emergent Strategy — adrienne maree brown
+    url: https://www.akpress.org/emergent-strategy.html
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1816
+      - 1817
+  - id: adrienne-maree-brown-site
+    title: adrienne maree brown site
+    url: https://adriennemareebrown.net/book/emergent-strategy
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1818
+      - 1819
+  - id: ribbonfarm
+    title: Ribbonfarm
+    url: https://www.ribbonfarm.com
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1820
+      - 1821
+  - id: gospel-of-change
+    title: Gospel of Change
+    url: https://linktr.ee/gospelofchange
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1822
+      - 1823
+  - id: 4th-generation-civilization
+    title: 4th Generation Civilization
+    url: https://4thgenerationcivilization.substack.com
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1824
+      - 1825
+  - id: netxstate
+    title: NetxState
+    url: https://netxstate.substack.com/p/del-nodo-aislado-al-micelio
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1826
+      - 1827
+  - id: netxstate-x-thread
+    title: NetxState X thread
+    url: https://x.com/NetxState/status/2033280826847424631
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1828
+      - 1829
+  - id: conductal-guiding-question
+    title: Conductal — guiding question
+    url: https://conductal.medium.com/why-you-need-to-replace-your-purpose-statement-with-a-guiding-question-5b227e48353c
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1830
+      - 1831
+  - id: the-cathedral-and-the-bazaar
+    title: The Cathedral and the Bazaar
+    url: https://mijowa.github.io/CatB
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1832
+      - 1833
+  - id: the-cathedral-and-the-bazaar-pdf
+    title: The Cathedral and the Bazaar PDF
+    url: https://monoskop.org/images/e/e0/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1834
+      - 1835
+  - id: manytomany-systems
+    title: manytomany.systems
+    url: https://www.manytomany.systems
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1836
+      - 1837
+  - id: ief-wiki
+    title: IEF wiki
+    url: https://ief.wiki/index.php/Main_Page
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1838
+      - 1839
+  - id: 7th-generation-design
+    title: 7th Generation Design
+    url: https://www.7thgenerationdesign.com
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1840
+      - 1841
+  - id: open-machine
+    title: Open Machine
+    url: https://x.com/i/status/2036916080514654465
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Core books, media, and essays
+    source_lines:
+      - 1842
+      - 1843
+  - id: books-on-greenpill-network-other-books
+    title: Books on greenpill.network \+ other books
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1847
+      - 1847
+  - id: crawl-writers-guild-and-greenpill-network-twitter-account-reposts
+    title: crawl Writers Guild and GreenPill Network twitter account reposts
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1848
+      - 1848
+  - id: other-curated-accounts-interactions
+    title: other curated accounts interactions
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1849
+      - 1849
+  - id: bread-coop-share-channel
+    title: Bread Coop share channel
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1850
+      - 1850
+  - id: other-communities-curating
+    title: other communities curating
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1851
+      - 1851
+  - id: youtube-playlist
+    title: YouTube playlist
+    url: https://www.youtube.com/watch?v=JsXcufk1km4&list=PLRSlwLW1riHMzDQErGIjENI3ZJERMGf_p
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1852
+      - 1853
+  - id: eth-boulder
+    title: Eth Boulder
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1854
+      - 1854
+  - id: schelling-point
+    title: Schelling Point
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1855
+      - 1855
+  - id: bread-coop
+    title: Bread Coop
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1856
+      - 1856
+  - id: open-civics-recordings
+    title: Open Civics recordings
+    url: null
+    domain: CULTURE / NARRATIVE / MEMETICS / CIVILIZATIONAL DESIGN / MEDIA
+    subcategory: Media / channels / curation surfaces
+    source_lines:
+      - 1857
+      - 1857
+  - id: vitalik-secure-llms
+    title: Vitalik — Secure LLMs
+    url: https://vitalik.eth.limo/general/2026/04/02/secure_llms.html
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1865
+      - 1866
+  - id: civic-ai
+    title: Civic AI
+    url: https://civic.ai
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1867
+      - 1868
+  - id: cip
+    title: CIP
+    url: https://www.cip.org
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1869
+      - 1870
+  - id: bonfires
+    title: Bonfires
+    url: https://bonfires.ai
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1871
+      - 1872
+  - id: bonfires-x-reference
+    title: Bonfires X reference
+    url: https://x.com/bonfiresai/status/2027556089139515888?s=20
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1873
+      - 1874
+  - id: compute-regen
+    title: Compute Regen
+    url: https://compute.regen.network
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1875
+      - 1876
+  - id: gaiaai-thread
+    title: GAIAAI thread
+    url: https://x.com/reslashacc/status/2029650740424364261
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1877
+      - 1878
+  - id: related-gaiaai-thread
+    title: related GAIAAI thread
+    url: https://x.com/zaldarren/status/2028973515463065883
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1879
+      - 1880
+  - id: ai-as-coordination-layer
+    title: AI as coordination layer
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1881
+      - 1881
+  - id: human-ai-governance
+    title: human-AI governance
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1882
+      - 1882
+  - id: collective-intelligence-systems
+    title: collective intelligence systems
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1883
+      - 1883
+  - id: coordination-tech
+    title: coordination tech
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1884
+      - 1884
+  - id: curation-systems
+    title: curation systems
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1885
+      - 1885
+  - id: llms-for-knowledge-navigation
+    title: LLMs for knowledge navigation
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1886
+      - 1886
+  - id: ai-alignment-governance
+    title: AI alignment \+ governance
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1887
+      - 1887
+  - id: digital-public-infrastructure-ai
+    title: digital public infrastructure \+ AI
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1888
+      - 1888
+  - id: open-source-ai-ecosystems
+    title: open source AI ecosystems
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 1889
+      - 1889
+  - id: collective-intelligence-project
+    title: Collective Intelligence Project
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 1893
+      - 1893
+  - id: ai-objectives-institute
+    title: AI Objectives Institute
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 1894
+      - 1894
+  - id: openmined
+    title: OpenMined
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 1895
+      - 1895
+  - id: eleutherai
+    title: EleutherAI
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 1896
+      - 1896
+  - id: public-ai-network-cooperative-ai-efforts
+    title: Public AI Network / cooperative AI efforts
+    url: null
+    domain: AI / COLLECTIVE INTELLIGENCE / COORDINATION TECH / HUMAN-AI SYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 1897
+      - 1897
+  - id: bankless-academy
+    title: Bankless Academy
+    url: https://app.banklessacademy.com
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1905
+      - 1906
+  - id: dabl-club-learn
+    title: Dabl Club Learn
+    url: https://learn.dabl.club
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1907
+      - 1908
+  - id: kernel
+    title: Kernel
+    url: https://kernel.community
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1909
+      - 1910
+  - id: kernel-substack
+    title: Kernel Substack
+    url: https://kernel0x.substack.com
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1911
+      - 1912
+  - id: kernel-learn-module-0
+    title: Kernel learn module 0
+    url: https://www.kernel.community/en/learn/module-0
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1913
+      - 1914
+  - id: web3-glossary-website-2
+    title: web3 glossary website
+    url: https://github.com/mapachurro/web3-glossary-website
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1915
+      - 1916
+  - id: key-terms
+    title: key terms
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1917
+      - 1917
+  - id: beginner-friendly-resources
+    title: beginner-friendly resources
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1918
+      - 1918
+  - id: onboarding
+    title: onboarding
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1919
+      - 1919
+  - id: orientation
+    title: orientation
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1920
+      - 1920
+  - id: glossary
+    title: glossary
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1921
+      - 1921
+  - id: learning-paths
+    title: learning paths
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1922
+      - 1922
+  - id: explainer-layer
+    title: explainer layer
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Core resources
+    source_lines:
+      - 1923
+      - 1923
+  - id: finematics
+    title: Finematics
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1927
+      - 1927
+  - id: bankless
+    title: Bankless
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1928
+      - 1928
+  - id: ethereum-org-learning-portal
+    title: Ethereum.org learning portal
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1929
+      - 1929
+  - id: open-source-ecology
+    title: Open Source Ecology
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1930
+      - 1930
+  - id: refi-podcast-and-explainer-ecosystems
+    title: ReFi podcast and explainer ecosystems
+    url: null
+    domain: EDUCATION / LEARNING / ONBOARDING / EXPLAINERS / GLOSSARIES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1931
+      - 1931
+  - id: zuzalu-and-spinouts
+    title: Zuzalu and spinouts
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1939
+      - 1939
+  - id: regens-unite-2
+    title: Regens Unite
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1940
+      - 1940
+  - id: funding-the-commons-3
+    title: Funding the Commons
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1941
+      - 1941
+  - id: netx-state
+    title: NetX State
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1942
+      - 1942
+  - id: edge-city
+    title: Edge City
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1943
+      - 1943
+  - id: ipe-city
+    title: ipe city
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1944
+      - 1944
+  - id: eth-boulder-2
+    title: ETH Boulder
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1945
+      - 1945
+  - id: eth-denver
+    title: ETH Denver
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1946
+      - 1946
+  - id: devconnect
+    title: Devconnect
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1947
+      - 1947
+  - id: ethcc
+    title: ETHCC
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1948
+      - 1948
+  - id: collaborative-finance
+    title: Collaborative Finance
+    url: https://collaborative-finance.net
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1949
+      - 1950
+  - id: crypto-commons-gathering
+    title: Crypto Commons Gathering
+    url: https://cryptocommonsgather.ing
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1951
+      - 1952
+  - id: valley-of-the-commons
+    title: Valley of the Commons
+    url: https://www.valleyofthecommons.com
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1953
+      - 1954
+  - id: logos
+    title: Logos
+    url: https://logos.co
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1955
+      - 1956
+  - id: hubs-network-2
+    title: Hubs Network
+    url: https://www.hubsnetwork.org
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1957
+      - 1958
+  - id: symbiota-2
+    title: Symbiota
+    url: https://symbiota.coop
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1959
+      - 1960
+  - id: luma-event
+    title: Luma event
+    url: https://luma.com/35utsgw8?tk=xh7h7s
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1961
+      - 1962
+  - id: pop-up-cities-2
+    title: pop-up cities
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1963
+      - 1963
+  - id: irl-coordination-spaces
+    title: IRL coordination spaces
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1964
+      - 1964
+  - id: commons-spaces
+    title: commons spaces
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1965
+      - 1965
+  - id: ecovillages-2
+    title: ecovillages
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1966
+      - 1966
+  - id: coliving-2
+    title: coliving
+    url: null
+    domain: EVENTS / GATHERINGS / CONFERENCES / POP-UP CITIES / COORDINATION SPACES
+    subcategory: Events and spaces
+    source_lines:
+      - 1967
+      - 1967
+  - id: web3privacy-x-thread
+    title: Web3Privacy X thread
+    url: https://x.com/web3privacy/status/2028822840313537000
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Core resources
+    source_lines:
+      - 1975
+      - 1976
+  - id: cypherpunk-research
+    title: Cypherpunk Research
+    url: https://cypherpunk-research.monkeyflower.ca
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Core resources
+    source_lines:
+      - 1977
+      - 1978
+  - id: ethereum-privacy-ecosystem-mapping
+    title: Ethereum privacy ecosystem mapping
+    url: https://paragraph.com/@web3privacy/ethereum-privacy-ecosystem-mapping
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Core resources
+    source_lines:
+      - 1979
+      - 1980
+  - id: privacy
+    title: privacy
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Core resources
+    source_lines:
+      - 1981
+      - 1981
+  - id: cypherpunk-traditions
+    title: cypherpunk traditions
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Core resources
+    source_lines:
+      - 1982
+      - 1982
+  - id: alt-systems
+    title: alt systems
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Core resources
+    source_lines:
+      - 1983
+      - 1983
+  - id: coordination-under-privacy-sensitive-conditions
+    title: coordination under privacy-sensitive conditions
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Core resources
+    source_lines:
+      - 1984
+      - 1984
+  - id: nym
+    title: Nym
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1988
+      - 1988
+  - id: aztec
+    title: Aztec
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1989
+      - 1989
+  - id: 0xparc
+    title: 0xPARC
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1990
+      - 1990
+  - id: railgun
+    title: Railgun
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1991
+      - 1991
+  - id: signal-secure-group-coordination-patterns
+    title: Signal / secure group coordination patterns
+    url: null
+    domain: PRIVACY / CYPHERPUNK / ALTERNATIVE INFRASTRUCTURES
+    subcategory: Additional useful resources
+    source_lines:
+      - 1992
+      - 1992
+  - id: desci-ecosystem-map-2
+    title: DeSci ecosystem map
+    url: https://docs.desci.world/ecosystem/ecosystem-map
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 2000
+      - 2001
+  - id: occ-research
+    title: OCC Research
+    url: https://occresearch.org
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 2002
+      - 2003
+  - id: open-civics-2
+    title: Open Civics
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 2004
+      - 2004
+  - id: research-ecosystems
+    title: research ecosystems
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 2005
+      - 2005
+  - id: decentralized-science
+    title: decentralized science
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 2006
+      - 2006
+  - id: public-knowledge-infrastructure
+    title: public knowledge infrastructure
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Core resources
+    source_lines:
+      - 2007
+      - 2007
+  - id: researchhub
+    title: ResearchHub
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 2011
+      - 2011
+  - id: desci-world
+    title: DeSci World
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 2012
+      - 2012
+  - id: openalex
+    title: OpenAlex
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 2013
+      - 2013
+  - id: ourresearch
+    title: OurResearch
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 2014
+      - 2014
+  - id: protocol-labs-research-adjacent-ecosystem
+    title: Protocol Labs research-adjacent ecosystem
+    url: null
+    domain: DESCI / RESEARCH / PUBLIC KNOWLEDGE / SCIENCE ECOSYSTEMS
+    subcategory: Additional useful resources
+    source_lines:
+      - 2015
+      - 2015
+  - id: r-ethereum-daily-thread-and-weekly-doots-2
+    title: r/ethereum daily thread and weekly doots
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2023
+      - 2023
+  - id: eth-cat-herders-2
+    title: ETH Cat Herders
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2024
+      - 2024
+  - id: ethereum-magicians-2
+    title: Ethereum Magicians
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2025
+      - 2025
+  - id: all-core-dev-calls-2
+    title: All Core Dev Calls
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2026
+      - 2026
+  - id: the-daily-gwei-2
+    title: The Daily Gwei
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2027
+      - 2027
+  - id: ethresear-ch-2
+    title: ethresear.ch
+    url: https://ethresear.ch
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2028
+      - 2029
+  - id: deepfunding-2
+    title: DeepFunding
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2030
+      - 2030
+  - id: protocol-guild
+    title: Protocol Guild
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2031
+      - 2031
+  - id: telegram-groups
+    title: Telegram groups
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2032
+      - 2032
+  - id: ask-around-for-feedback-and-additional-core-resources-topics
+    title: ask around for feedback and additional core resources/topics
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2033
+      - 2033
+  - id: crawl-writers-guild-and-greenpill-network-reposts
+    title: crawl Writers Guild and GreenPill Network reposts
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2034
+      - 2034
+  - id: curated-accounts-interactions
+    title: curated accounts interactions
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2035
+      - 2035
+  - id: social-graph-overlap
+    title: social graph overlap
+    url: null
+    domain: COMMUNITY CHANNELS / DISCOURSE SURFACES / SOCIAL FLOWS
+    subcategory: Core channels and leads
+    source_lines:
+      - 2036
+      - 2036
+  - id: greenpill-network-2
+    title: GreenPill Network
+    url: https://greenpill.network
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2044
+      - 2045
+  - id: refi-dao-2
+    title: ReFi DAO
+    url: https://refidao.com
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2046
+      - 2047
+  - id: bloom-network-2
+    title: Bloom Network
+    url: https://bloomnetwork.earth
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2048
+      - 2049
+  - id: communet-2
+    title: Communet
+    url: https://www.communet.xyz
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2050
+      - 2051
+  - id: kernel-2
+    title: Kernel
+    url: https://kernel.community
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2052
+      - 2053
+  - id: network-nations-2
+    title: Network Nations
+    url: https://networknations.network
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2054
+      - 2055
+  - id: hubs-network-3
+    title: Hubs Network
+    url: https://www.hubsnetwork.org
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2056
+      - 2057
+  - id: symbiota-3
+    title: Symbiota
+    url: https://symbiota.coop
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2058
+      - 2059
+  - id: chain-for-good
+    title: Chain for Good
+    url: https://chainforgood.org
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2060
+      - 2061
+  - id: crypto-commons
+    title: Crypto Commons
+    url: https://www.crypto-commons.org
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2062
+      - 2063
+  - id: gba-global
+    title: GBA Global
+    url: https://gbaglobal.org
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2064
+      - 2065
+  - id: esii
+    title: ESII
+    url: https://esii.org
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2066
+      - 2067
+  - id: pipeg-dao
+    title: Pipeg DAO
+    url: https://www.thepipegdao.io
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2068
+      - 2069
+  - id: cibc
+    title: CIBC
+    url: https://cibc.notion.site/?v=46a06370514c4adb8c7743a29f16d78b
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2070
+      - 2071
+  - id: open-haven
+    title: Open Haven
+    url: http://openhaven.net
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2072
+      - 2073
+  - id: lat-md
+    title: LAT.MD
+    url: https://www.lat.md
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2074
+      - 2075
+  - id: carbon-copy-2
+    title: Carbon Copy
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2076
+      - 2076
+  - id: funding-the-commons-4
+    title: Funding the Commons
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2077
+      - 2077
+  - id: regens-unite-3
+    title: Regens Unite
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2078
+      - 2078
+  - id: kokonut-network-2
+    title: Kokonut Network
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2079
+      - 2079
+  - id: agroforest-dao-2
+    title: Agroforest DAO
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2080
+      - 2080
+  - id: joe-brewer-2
+    title: Joe Brewer
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2081
+      - 2081
+  - id: harmonica-2
+    title: Harmonica
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2082
+      - 2082
+  - id: ninit-pollination-station-2
+    title: Ninit / Pollination Station
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2083
+      - 2083
+  - id: arkeen-2
+    title: Arkeen
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2084
+      - 2084
+  - id: klima-2
+    title: Klima
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2085
+      - 2085
+  - id: eco-bridge-2
+    title: Eco-Bridge
+    url: null
+    domain: SPECIFIC ORGS / COMMUNITIES / NETWORKS / PROGRAMS
+    subcategory: Preserve as org/network inputs
+    source_lines:
+      - 2086
+      - 2086
+  - id: geolabs-thread
+    title: GeoLabs thread
+    url: https://x.com/geodelabs/status/2040163152722047193
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2092
+      - 2093
+  - id: document
+    title: document
+    url: https://docs.google.com/document/d/1GBuGlpDQShC70yvxqytN-S0QIgRf9dQ4MyiD8O3Zv-E/edit
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2094
+      - 2095
+  - id: nna-garden
+    title: NNA Garden
+    url: https://nna-garden.pages.dev
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2096
+      - 2097
+  - id: conscious-states-curation
+    title: Conscious States Curation
+    url: https://nataliyaai.notion.site/Conscious-States-Curation-2025-27b1e0664f6380eabf86e7ec62ccc0d9
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2098
+      - 2099
+  - id: startupstates-swiss-2
+    title: startupstates.swiss
+    url: https://www.startupstates.swiss
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2100
+      - 2101
+  - id: 0xshikhar-thread
+    title: 0xShikhar thread
+    url: https://x.com/0xShikhar/status/2028524428431388790
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2102
+      - 2103
+  - id: omniharmonic-thread
+    title: omniharmonic thread
+    url: https://x.com/omniharmonic/status/2024922543690490000
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2104
+      - 2105
+  - id: city-sync
+    title: city_sync
+    url: https://x.com/city_sync
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2106
+      - 2107
+  - id: octant-thread
+    title: Octant thread
+    url: https://x.com/OctantApp/status/2031395776539062506
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2108
+      - 2109
+  - id: document-2
+    title: document
+    url: https://docs.google.com/document/d/1p3QniseWVT0FSW7Wn-DVm5EGZfvLDblTrWOLl4pg0NA/edit
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2110
+      - 2111
+  - id: civil-monkey
+    title: Civil Monkey
+    url: https://t.me/civilmonkey
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2112
+      - 2113
+  - id: sicilia-regenerative-residency
+    title: Sicilia regenerative residency
+    url: https://paragraph.com/@regen-avocado/rifai-sicilia-regenerative-residency
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2114
+      - 2115
+  - id: sicily-bioregional-portfolio-business-plan
+    title: Sicily bioregional portfolio business plan
+    url: https://paragraph.com/@regen-avocado/sicily-bioregional-portfolio-business-plan
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2116
+      - 2117
+  - id: sidick-gp-ivory-coast-t-mi
+    title: Sidick GP Ivory Coast / T-MI
+    url: https://paragraph.com/@t-mi
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2118
+      - 2119
+  - id: gospel-of-change-2
+    title: Gospel of Change
+    url: https://linktr.ee/gospelofchange
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2120
+      - 2121
+  - id: manytomany-systems-2
+    title: manytomany.systems
+    url: https://www.manytomany.systems
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2122
+      - 2123
+  - id: ief-wiki-2
+    title: IEF wiki
+    url: https://ief.wiki/index.php/Main_Page
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2124
+      - 2125
+  - id: changecode-io
+    title: changecode.io
+    url: https://changecode.io
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2126
+      - 2127
+  - id: coi-doc
+    title: Coi doc
+    url: null
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2128
+      - 2128
+  - id: greenpill-ontology-v0-1
+    title: GreenPill Ontology v0.1
+    url: null
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2129
+      - 2129
+  - id: utopia-map
+    title: Utopia Map
+    url: null
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2130
+      - 2130
+  - id: rere-2
+    title: ReRe
+    url: null
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2131
+      - 2131
+  - id: kokonut-network-framework-2
+    title: Kokonut Network framework
+    url: null
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2132
+      - 2132
+  - id: benjamin-barber-ftc-making-the-entire-law-base-computable
+    title: Benjamin Barber FtC — making the entire law base computable
+    url: null
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2133
+      - 2133
+  - id: taxes-r-cryptotaxes-summaries-other-tools
+    title: Taxes — r/cryptotaxes \+ summaries \+ other tools
+    url: null
+    domain: UNSORTED / TO PLACE / LOOSE LINKS / PARTIAL LEADS
+    subcategory: null
+    source_lines:
+      - 2134
+      - 2134
+  - id: constitutiondao
+    title: ConstitutionDAO
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2142
+      - 2142
+  - id: ftx
+    title: FTX
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2143
+      - 2143
+  - id: the-dao-hack
+    title: The DAO hack
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2144
+      - 2144
+  - id: failed-local-chapters
+    title: failed local chapters
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2145
+      - 2145
+  - id: governance-failures
+    title: governance failures
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2146
+      - 2146
+  - id: coordination-breakdowns
+    title: coordination breakdowns
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2147
+      - 2147
+  - id: funding-failures
+    title: funding failures
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2148
+      - 2148
+  - id: succession-failures
+    title: succession failures
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2149
+      - 2149
+  - id: centralization-failure
+    title: centralization failure
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2150
+      - 2150
+  - id: hidden-power
+    title: hidden power
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2151
+      - 2151
+  - id: informal-power-capture
+    title: informal power capture
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2152
+      - 2152
+  - id: knowledge-fragmentation
+    title: knowledge fragmentation
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2153
+      - 2153
+  - id: sensemaking-failures
+    title: sensemaking failures
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2154
+      - 2154
+  - id: dependency-and-collapse-patterns
+    title: dependency and collapse patterns
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2155
+      - 2155
+  - id: failure-succession
+    title: failure \= succession
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Governance / coordination / institutional failures
+    source_lines:
+      - 2156
+      - 2156
+  - id: quadrigacx
+    title: QuadrigaCX
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Additional useful case studies to add
+    source_lines:
+      - 2160
+      - 2160
+  - id: terra-luna
+    title: Terra / Luna
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Additional useful case studies to add
+    source_lines:
+      - 2161
+      - 2161
+  - id: maker-governance-debates
+    title: Maker governance debates
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Additional useful case studies to add
+    source_lines:
+      - 2162
+      - 2162
+  - id: wework
+    title: WeWork
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Additional useful case studies to add
+    source_lines:
+      - 2163
+      - 2163
+  - id: open-source-maintainer-burnout-cases
+    title: Open source maintainer burnout cases
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Additional useful case studies to add
+    source_lines:
+      - 2164
+      - 2164
+  - id: platform-coop-failures
+    title: platform coop failures
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Additional useful case studies to add
+    source_lines:
+      - 2165
+      - 2165
+  - id: commons-enclosure-cases
+    title: commons enclosure cases
+    url: null
+    domain: FAILURE CASE LIBRARY
+    subcategory: Additional useful case studies to add
+    source_lines:
+      - 2166
+      - 2166
+  - id: https-www-pentagram-com-work-climate-tech-map
+    title: https://www.pentagram.com/work/climate-tech-map
+    url: null
+    domain: ECOSYSTEM MAPS / NETWORK VIEWS
+    subcategory: null
+    source_lines:
+      - 2229
+      - 2229
+  - id: obsidian-2
+    title: Obsidian
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / RAG
+    subcategory: null
+    source_lines:
+      - 2276
+      - 2276
+  - id: quartz-2
+    title: Quartz
+    url: null
+    domain: KNOWLEDGE SYSTEMS / PKM / RAG
+    subcategory: null
+    source_lines:
+      - 2277
+      - 2277
+  - id: https-x-com-city-sync-https-x-com-city-sync
+    title: "[https://x.com/city_sync](https://x.com/city_sync)_"
+    url: https://x.com/city_sync
+    domain: NOT SURE / RAW POOL (UNPLACED BUT PRESERVED)
+    subcategory: null
+    source_lines:
+      - 2355
+      - 2355
+  - id: coordination-is-hard-vitalik-buterin-2
+    title: Coordination is Hard — Vitalik Buterin
+    url: https://vitalik.ca/general/2021/03/23/coordination.html
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2384
+      - 2385
+  - id: radical-markets-glen-weyl-and-eric-posner-2
+    title: Radical Markets — Glen Weyl & Eric Posner
+    url: https://press.princeton.edu/books/hardcover/9780691177502/radical-markets
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2386
+      - 2387
+  - id: plurality-glen-weyl-audrey-tang-et-al-2
+    title: Plurality — Glen Weyl, Audrey Tang, et al.
+    url: https://www.plurality.net
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2388
+      - 2389
+  - id: governing-the-commons-elinor-ostrom-2
+    title: Governing the Commons — Elinor Ostrom
+    url: https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2390
+      - 2391
+  - id: sociocracy-3-0-2
+    title: Sociocracy 3.0
+    url: https://sociocracy30.org
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2392
+      - 2393
+  - id: reinventing-organizations-frederic-laloux-2
+    title: Reinventing Organizations — Frederic Laloux
+    url: https://reinventingorganizations.com
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2394
+      - 2395
+  - id: exit-voice-and-loyalty-albert-o-hirschman-2
+    title: Exit, Voice, and Loyalty — Albert O. Hirschman
+    url: null
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2396
+      - 2396
+  - id: protocolized-primavera-de-filippi-2
+    title: Protocolized — Primavera De Filippi
+    url: https://www.hup.harvard.edu/books/9780674259393
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2397
+      - 2398
+  - id: daostar-2
+    title: DAOstar
+    url: https://daostar.org
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2399
+      - 2400
+  - id: coordination-failures-and-social-technology-devon-zuegel-2
+    title: Coordination Failures & Social Technology — Devon Zuegel
+    url: https://devonzuegel.com
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2401
+      - 2402
+  - id: the-stack-benjamin-bratton-2
+    title: The Stack — Benjamin Bratton
+    url: https://www.the-stack.org
+    domain: Coordination & Governance
+    subcategory: null
+    source_lines:
+      - 2403
+      - 2404
+  - id: viable-system-model-vsm-stafford-beer
+    title: Viable System Model (VSM) — Stafford Beer
+    url: null
+    domain: Organizational Design
+    subcategory: null
+    source_lines:
+      - 2410
+      - 2410
+  - id: team-topologies-matthew-skelton-and-manuel-pais-2
+    title: Team Topologies — Matthew Skelton & Manuel Pais
+    url: null
+    domain: Organizational Design
+    subcategory: null
+    source_lines:
+      - 2411
+      - 2411
+  - id: team-of-teams-stanley-mcchrystal-2
+    title: Team of Teams — Stanley McChrystal
+    url: null
+    domain: Organizational Design
+    subcategory: null
+    source_lines:
+      - 2412
+      - 2412
+  - id: org-mode-devops-thinking-2
+    title: Org Mode / DevOps Thinking
+    url: null
+    domain: Organizational Design
+    subcategory: null
+    source_lines:
+      - 2413
+      - 2413
+  - id: flow-efficiency-2
+    title: Flow Efficiency
+    url: null
+    domain: Organizational Design
+    subcategory: null
+    source_lines:
+      - 2414
+      - 2414
+  - id: cognitive-load-2
+    title: Cognitive Load
+    url: null
+    domain: Organizational Design
+    subcategory: null
+    source_lines:
+      - 2415
+      - 2415
+  - id: system-boundaries-3
+    title: System Boundaries
+    url: null
+    domain: Organizational Design
+    subcategory: null
+    source_lines:
+      - 2416
+      - 2416
+  - id: thinking-in-systems-donella-meadows-2
+    title: Thinking in Systems — Donella Meadows
+    url: https://www.chelseagreen.com/product/thinking-in-systems
+    domain: Systems & Complexity
+    subcategory: null
+    source_lines:
+      - 2422
+      - 2423
+  - id: cynefin-framework-dave-snowden-2
+    title: Cynefin Framework — Dave Snowden
+    url: https://cynefin.io
+    domain: Systems & Complexity
+    subcategory: null
+    source_lines:
+      - 2424
+      - 2425
+  - id: antifragile-nassim-nicholas-taleb-2
+    title: Antifragile — Nassim Nicholas Taleb
+    url: https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb
+    domain: Systems & Complexity
+    subcategory: null
+    source_lines:
+      - 2426
+      - 2427
+  - id: leverage-points-places-to-intervene-in-a-system-donella-meadows
+    title: "Leverage Points: Places to Intervene in a System — Donella Meadows"
+    url: null
+    domain: Systems & Complexity
+    subcategory: null
+    source_lines:
+      - 2428
+      - 2428
+  - id: santa-fe-institute-general-corpus
+    title: Santa Fe Institute (General Corpus)
+    url: null
+    domain: Systems & Complexity
+    subcategory: null
+    source_lines:
+      - 2429
+      - 2429
+  - id: murray-gell-mann-complexity
+    title: Murray Gell-Mann — Complexity
+    url: null
+    domain: Systems & Complexity
+    subcategory: null
+    source_lines:
+      - 2430
+      - 2430
+  - id: stuart-kauffman-self-organization
+    title: Stuart Kauffman — Self-Organization
+    url: null
+    domain: Systems & Complexity
+    subcategory: null
+    source_lines:
+      - 2431
+      - 2431
+  - id: sensemaking-karl-weick
+    title: Sensemaking — Karl Weick
+    url: null
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2437
+      - 2437
+  - id: sensemaker-cognitive-edge
+    title: Sensemaker — Cognitive Edge
+    url: https://cognitive-edge.com/sensemaker
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2438
+      - 2439
+  - id: cynefin-deeper-work-dave-snowden
+    title: Cynefin (Deeper Work) — Dave Snowden
+    url: null
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2440
+      - 2440
+  - id: narrative-databases-2
+    title: Narrative Databases
+    url: null
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2441
+      - 2441
+  - id: distributed-cognition-2
+    title: Distributed Cognition
+    url: null
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2442
+      - 2442
+  - id: the-matter-with-things-iain-mcgilchrist
+    title: The Matter With Things — Iain McGilchrist
+    url: null
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2443
+      - 2443
+  - id: autopoiesis-humberto-maturana
+    title: Autopoiesis — Humberto Maturana
+    url: null
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2444
+      - 2444
+  - id: cognition-and-world-making-maturana-and-varela
+    title: Cognition and World-Making — Maturana & Varela
+    url: null
+    domain: Cognition & Sensemaking
+    subcategory: null
+    source_lines:
+      - 2445
+      - 2445
+  - id: network-science-albert-laszlo-barabasi
+    title: Network Science — Albert-László Barabási
+    url: null
+    domain: Network Theory & Power
+    subcategory: null
+    source_lines:
+      - 2451
+      - 2451
+  - id: the-network-society-manuel-castells
+    title: The Network Society — Manuel Castells
+    url: null
+    domain: Network Theory & Power
+    subcategory: null
+    source_lines:
+      - 2452
+      - 2452
+  - id: the-mushroom-at-the-end-of-the-world-anna-tsing
+    title: The Mushroom at the End of the World — Anna Tsing
+    url: null
+    domain: Network Theory & Power
+    subcategory: null
+    source_lines:
+      - 2453
+      - 2453
+  - id: seeing-like-a-state-james-c-scott-2
+    title: Seeing Like a State — James C. Scott
+    url: null
+    domain: Network Theory & Power
+    subcategory: null
+    source_lines:
+      - 2454
+      - 2454
+  - id: institutions-institutional-change-and-economic-performance-douglass-north
+    title: Institutions, Institutional Change, and Economic Performance — Douglass North
+    url: null
+    domain: Institutional Theory
+    subcategory: null
+    source_lines:
+      - 2460
+      - 2460
+  - id: why-nations-fail-daron-acemoglu-and-james-a-robinson-2
+    title: Why Nations Fail — Daron Acemoglu & James A. Robinson
+    url: null
+    domain: Institutional Theory
+    subcategory: null
+    source_lines:
+      - 2461
+      - 2461
+  - id: elinor-ostrom-polycentric-governance-work
+    title: Elinor Ostrom (Polycentric Governance Work)
+    url: null
+    domain: Institutional Theory
+    subcategory: null
+    source_lines:
+      - 2462
+      - 2462
+  - id: wyoming-dao-llc-2
+    title: Wyoming DAO LLC
+    url: null
+    domain: Legal / Real-World Interface
+    subcategory: null
+    source_lines:
+      - 2468
+      - 2468
+  - id: swiss-foundation-model
+    title: Swiss Foundation Model
+    url: null
+    domain: Legal / Real-World Interface
+    subcategory: null
+    source_lines:
+      - 2469
+      - 2469
+  - id: celo-governance-cooperative-hybrids
+    title: Celo Governance / Cooperative Hybrids
+    url: https://www.celo.org
+    domain: Legal / Real-World Interface
+    subcategory: null
+    source_lines:
+      - 2470
+      - 2471
+  - id: platform-cooperativism-2
+    title: Platform Cooperativism
+    url: null
+    domain: Legal / Real-World Interface
+    subcategory: null
+    source_lines:
+      - 2472
+      - 2472
+  - id: steward-ownership-2
+    title: Steward Ownership
+    url: null
+    domain: Legal / Real-World Interface
+    subcategory: null
+    source_lines:
+      - 2473
+      - 2473
+  - id: creative-commons-2
+    title: Creative Commons
+    url: https://creativecommons.org
+    domain: Legal / Real-World Interface
+    subcategory: null
+    source_lines:
+      - 2474
+      - 2475
+  - id: data-trusts-2
+    title: Data Trusts
+    url: null
+    domain: Legal / Real-World Interface
+    subcategory: null
+    source_lines:
+      - 2476
+      - 2476
+  - id: steps-to-an-ecology-of-mind-gregory-bateson
+    title: Steps to an Ecology of Mind — Gregory Bateson
+    url: null
+    domain: Epistemology & Knowledge Philosophy
+    subcategory: null
+    source_lines:
+      - 2482
+      - 2482
+  - id: cosmopolitics-isabelle-stengers
+    title: Cosmopolitics — Isabelle Stengers
+    url: null
+    domain: Epistemology & Knowledge Philosophy
+    subcategory: null
+    source_lines:
+      - 2483
+      - 2483
+  - id: actor-network-theory-bruno-latour
+    title: Actor-Network Theory — Bruno Latour
+    url: null
+    domain: Epistemology & Knowledge Philosophy
+    subcategory: null
+    source_lines:
+      - 2484
+      - 2484
+  - id: knowledge-power-michel-foucault
+    title: Knowledge-Power — Michel Foucault
+    url: null
+    domain: Epistemology & Knowledge Philosophy
+    subcategory: null
+    source_lines:
+      - 2485
+      - 2485
+  - id: regenerative-development-regenesis-group
+    title: Regenerative Development — Regenesis Group
+    url: https://regenesisgroup.com
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2491
+      - 2492
+  - id: regenerative-development-and-design-mang-and-haggard
+    title: Regenerative Development and Design — Mang & Haggard
+    url: null
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2493
+      - 2493
+  - id: doughnut-economics-kate-raworth-2
+    title: Doughnut Economics — Kate Raworth
+    url: https://www.kateraworth.com/doughnut
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2494
+      - 2495
+  - id: braiding-sweetgrass-robin-wall-kimmerer-2
+    title: Braiding Sweetgrass — Robin Wall Kimmerer
+    url: https://milkweed.org/book/braiding-sweetgrass
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2496
+      - 2497
+  - id: permaculture-a-designer-s-manual-bill-mollison-2
+    title: "Permaculture: A Designer’s Manual — Bill Mollison"
+    url: https://tagari.com/product/permaculture-a-designers-manual
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2498
+      - 2499
+  - id: regenerative-capitalism-john-fullerton
+    title: Regenerative Capitalism — John Fullerton
+    url: null
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2500
+      - 2500
+  - id: holistic-management-allan-savory
+    title: Holistic Management — Allan Savory
+    url: null
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2501
+      - 2501
+  - id: carol-sanford-regenerative-business
+    title: Carol Sanford — Regenerative Business
+    url: null
+    domain: Regeneration & Ecology
+    subcategory: null
+    source_lines:
+      - 2502
+      - 2502
+  - id: ethereum-whitepaper-2
+    title: Ethereum Whitepaper
+    url: https://ethereum.org/en/whitepaper
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2508
+      - 2509
+  - id: optimism-retropgf-docs-2
+    title: Optimism RetroPGF Docs
+    url: https://community.optimism.io/docs/governance/retropgf
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2510
+      - 2511
+  - id: gitcoin-allo-protocol-docs-2
+    title: Gitcoin / Allo Protocol Docs
+    url: https://docs.allo.gitcoin.co
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2512
+      - 2513
+  - id: ethereum-attestation-service-eas-2
+    title: Ethereum Attestation Service (EAS)
+    url: https://docs.attest.sh
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2514
+      - 2515
+  - id: token-engineering-commons-2
+    title: Token Engineering Commons
+    url: https://tokenengineeringcommons.org
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2516
+      - 2517
+  - id: mechanism-design-for-social-good-2
+    title: Mechanism Design for Social Good
+    url: https://www.md4sg.com
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2518
+      - 2519
+  - id: quadratic-funding-paper-buterin-hitzig-weyl-2
+    title: Quadratic Funding Paper — Buterin, Hitzig, Weyl
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2520
+      - 2521
+  - id: conviction-voting-commons-stack-2
+    title: Conviction Voting — Commons Stack
+    url: https://commonsstack.org/conviction-voting
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2522
+      - 2523
+  - id: augmented-bonding-curves-2
+    title: Augmented Bonding Curves
+    url: https://commonsstack.org/augmented-bonding-curve
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2524
+      - 2525
+  - id: hypercerts-2
+    title: Hypercerts
+    url: https://hypercerts.org
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2526
+      - 2527
+  - id: impactmarket-2
+    title: ImpactMarket
+    url: https://www.impactmarket.com
+    domain: Web3 / Ethereum / Mechanism Design
+    subcategory: null
+    source_lines:
+      - 2528
+      - 2529
+  - id: greenpill-network-3
+    title: GreenPill Network
+    url: https://greenpill.network
+    domain: ReFi / Regenerative Crypto Ecosystem
+    subcategory: null
+    source_lines:
+      - 2535
+      - 2536
+  - id: refi-dao-3
+    title: ReFi DAO
+    url: https://refidao.com
+    domain: ReFi / Regenerative Crypto Ecosystem
+    subcategory: null
+    source_lines:
+      - 2537
+      - 2538
+  - id: celo-2
+    title: Celo
+    url: https://www.celo.org
+    domain: ReFi / Regenerative Crypto Ecosystem
+    subcategory: null
+    source_lines:
+      - 2539
+      - 2540
+  - id: toucan-protocol-2
+    title: Toucan Protocol
+    url: https://toucan.earth
+    domain: ReFi / Regenerative Crypto Ecosystem
+    subcategory: null
+    source_lines:
+      - 2541
+      - 2542
+  - id: regen-network-2
+    title: Regen Network
+    url: https://www.regen.network
+    domain: ReFi / Regenerative Crypto Ecosystem
+    subcategory: null
+    source_lines:
+      - 2543
+      - 2544
+  - id: open-forest-protocol-2
+    title: Open Forest Protocol
+    url: https://openforestprotocol.org
+    domain: ReFi / Regenerative Crypto Ecosystem
+    subcategory: null
+    source_lines:
+      - 2545
+      - 2546
+  - id: silvi-protocol-2
+    title: Silvi Protocol
+    url: https://silvi.earth
+    domain: ReFi / Regenerative Crypto Ecosystem
+    subcategory: null
+    source_lines:
+      - 2547
+      - 2548
+  - id: how-to-take-smart-notes-sonke-ahrens-2
+    title: How to Take Smart Notes — Sönke Ahrens
+    url: https://takesmartnotes.com
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2554
+      - 2555
+  - id: building-a-second-brain-tiago-forte-2
+    title: Building a Second Brain — Tiago Forte
+    url: https://fortelabs.com/blog/basboverview
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2556
+      - 2557
+  - id: roam-research-2
+    title: Roam Research
+    url: https://roamresearch.com
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2558
+      - 2559
+  - id: obsidian-3
+    title: Obsidian
+    url: https://obsidian.md
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2560
+      - 2561
+  - id: logseq-2
+    title: Logseq
+    url: https://logseq.com
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2562
+      - 2563
+  - id: metagov-3
+    title: Metagov
+    url: https://metagov.org
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2564
+      - 2565
+  - id: govbase-2
+    title: Govbase
+    url: https://govbase.io
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2566
+      - 2567
+  - id: open-civic-data-standards-2
+    title: Open Civic Data Standards
+    url: https://opencivicdata.org
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2568
+      - 2569
+  - id: schema-org-2
+    title: Schema.org
+    url: https://schema.org
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2570
+      - 2571
+  - id: wikidata-2
+    title: Wikidata
+    url: https://www.wikidata.org
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2572
+      - 2573
+  - id: radicle-2
+    title: Radicle
+    url: https://radicle.xyz
+    domain: Knowledge Systems / PKM / Ontologies
+    subcategory: null
+    source_lines:
+      - 2574
+      - 2575
+  - id: emergent-strategy-adrienne-maree-brown-2
+    title: Emergent Strategy — adrienne maree brown
+    url: https://www.akpress.org/emergent-strategy.html
+    domain: Culture, Narrative & Memetics
+    subcategory: null
+    source_lines:
+      - 2581
+      - 2582
+  - id: ribbonfarm-2
+    title: Ribbonfarm
+    url: https://www.ribbonfarm.com
+    domain: Culture, Narrative & Memetics
+    subcategory: null
+    source_lines:
+      - 2583
+      - 2584
+  - id: daniel-schmachtenberger-2
+    title: Daniel Schmachtenberger
+    url: https://civilizationemerging.com
+    domain: Systems Change / Civilizational Design
+    subcategory: null
+    source_lines:
+      - 2590
+      - 2591
+  - id: the-great-simplification-nate-hagens
+    title: The Great Simplification — Nate Hagens
+    url: https://www.thegreatsimplification.com
+    domain: Systems Change / Civilizational Design
+    subcategory: null
+    source_lines:
+      - 2592
+      - 2593
+  - id: operating-manual-for-spaceship-earth-buckminster-fuller-2
+    title: Operating Manual for Spaceship Earth — Buckminster Fuller
+    url: https://www.lars-mueller-publishers.com/operating-manual-for-spaceship-earth
+    domain: Systems Change / Civilizational Design
+    subcategory: null
+    source_lines:
+      - 2594
+      - 2595
+  - id: a-pattern-language-christopher-alexander-2
+    title: A Pattern Language — Christopher Alexander
+    url: null
+    domain: Systems Change / Civilizational Design
+    subcategory: null
+    source_lines:
+      - 2596
+      - 2596
+  - id: sensemaker-3
+    title: Sensemaker
+    url: https://cognitive-edge.com/sensemaker
+    domain: Complexity \+ Sensemaking Tools
+    subcategory: null
+    source_lines:
+      - 2602
+      - 2603
+  - id: kumu-4
+    title: Kumu
+    url: https://kumu.io
+    domain: Complexity \+ Sensemaking Tools
+    subcategory: null
+    source_lines:
+      - 2604
+      - 2605
+  - id: loopy-3
+    title: Loopy
+    url: https://ncase.me/loopy
+    domain: Complexity \+ Sensemaking Tools
+    subcategory: null
+    source_lines:
+      - 2606
+      - 2607
+  - id: notion-2
+    title: Notion
+    url: https://notion.so
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2613
+      - 2614
+  - id: capacities-2
+    title: Capacities
+    url: https://capacities.io
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2615
+      - 2616
+  - id: charmverse
+    title: Charmverse
+    url: https://charmverse.io
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2617
+      - 2618
+  - id: gardens
+    title: Gardens
+    url: https://gardens.fund
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2619
+      - 2620
+  - id: snapshot
+    title: Snapshot
+    url: https://snapshot.org
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2621
+      - 2622
+  - id: tally
+    title: Tally
+    url: https://www.tally.xyz
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2623
+      - 2624
+  - id: ceramic-2
+    title: Ceramic
+    url: https://ceramic.network
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2625
+      - 2626
+  - id: tableland-2
+    title: Tableland
+    url: https://tableland.xyz
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2627
+      - 2628
+  - id: qgis-2
+    title: QGIS
+    url: https://qgis.org
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2629
+      - 2630
+  - id: global-forest-watch-2
+    title: Global Forest Watch
+    url: https://www.globalforestwatch.org
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2631
+      - 2632
+  - id: gbif-2
+    title: GBIF
+    url: https://www.gbif.org
+    domain: Tools (Governance / Data / Mapping / Knowledge)
+    subcategory: null
+    source_lines:
+      - 2633
+      - 2634
+  - id: ai-as-coordination-layer-2
+    title: AI as Coordination Layer
+    url: null
+    domain: AI \+ Coordination
+    subcategory: null
+    source_lines:
+      - 2640
+      - 2640
+  - id: human-ai-governance-2
+    title: Human-AI Governance
+    url: null
+    domain: AI \+ Coordination
+    subcategory: null
+    source_lines:
+      - 2641
+      - 2641
+  - id: collective-intelligence-systems-2
+    title: Collective Intelligence Systems
+    url: null
+    domain: AI \+ Coordination
+    subcategory: null
+    source_lines:
+      - 2642
+      - 2642
+  - id: constitutiondao-2
+    title: ConstitutionDAO
+    url: null
+    domain: Failure Case Library
+    subcategory: null
+    source_lines:
+      - 2648
+      - 2648
+  - id: ftx-2
+    title: FTX
+    url: null
+    domain: Failure Case Library
+    subcategory: null
+    source_lines:
+      - 2649
+      - 2649
+  - id: the-dao-hack-2
+    title: The DAO Hack
+    url: null
+    domain: Failure Case Library
+    subcategory: null
+    source_lines:
+      - 2650
+      - 2650
+  - id: failed-local-chapters-2
+    title: Failed Local Chapters
+    url: null
+    domain: Failure Case Library
+    subcategory: null
+    source_lines:
+      - 2651
+      - 2651
+  - id: metagov-4
+    title: Metagov
+    url: https://metagov.org
+    domain: Not Sure / Uncategorized
+    subcategory: null
+    source_lines:
+      - 2657
+      - 2658
+  - id: govbase-3
+    title: Govbase
+    url: https://govbase.io
+    domain: Not Sure / Uncategorized
+    subcategory: null
+    source_lines:
+      - 2659
+      - 2660
+  - id: radicle-3
+    title: Radicle
+    url: https://radicle.xyz
+    domain: Not Sure / Uncategorized
+    subcategory: null
+    source_lines:
+      - 2661
+      - 2662
+  - id: schema-org-3
+    title: Schema.org
+    url: https://schema.org
+    domain: Not Sure / Uncategorized
+    subcategory: null
+    source_lines:
+      - 2663
+      - 2664
+  - id: wikidata-3
+    title: Wikidata
+    url: https://www.wikidata.org
+    domain: Not Sure / Uncategorized
+    subcategory: null
+    source_lines:
+      - 2665
+      - 2666

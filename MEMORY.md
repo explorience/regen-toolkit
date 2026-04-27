@@ -22,6 +22,7 @@ _Lightweight index for persistent project memory. Detailed notes live in `memory
 
 ## Key Decisions
 
+- [2026-04-26] **Resources lift (mechanical)** — 738 entries extracted from `MASTER.md` lines 1089–2668 into `data/resources.yaml` via `scripts/lift-resources.mjs`. Layer 1 (Resource Graph) now has a source-of-truth file. Pending Brandon's curation pass.
 - [2026-04-24] **Org-os overlay landed** — toolkit now operates as its own org-os instance, co-located with the master doc. Framework sourced from upstream/main of `regen-coordination/org-os-template` (v3.0). See commit on `feature/org-os-overlay`.
 - [2026-04-23] **Master doc handoff phase** — Matt one push from completing current iteration, then team takes ownership of individual layers. Resources tab weakest; dedicated organization session TBD.
 - [2026-04-23] **Rather's ontology adopted as standard** for the toolkit ontology layer.
