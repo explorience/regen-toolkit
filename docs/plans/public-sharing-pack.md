@@ -2,7 +2,8 @@
 title: "Toolkit Team — Public Sharing Pack"
 project: regen-toolkit
 date: 2026-04-25
-status: queued (decisions resolved)
+status: drafted-pending-send
+drafted: 2026-04-26
 related:
   - docs/plans/onepager-and-layers.md
   - docs/from-regen-coord/260423 CSIS × org-os Alignment Report.md
@@ -12,6 +13,8 @@ methodology:
 ---
 
 # Plan — Public Sharing Pack for the Toolkit Team
+
+> **Status (2026-04-26): drafted, pending operator send.** Tasks 1.1 + 1.2 done — message persisted at `packages/operations/comms/2026-04-26-team-sharing-pack.md` (commit `492f83a`) with both Telegram-tone and email-tone variants. Tasks 1.3 (send) and 2 (response capture) are operator-gated. Pre-send checklist in the comms artifact includes a reminder to push the 4 unpushed commits so bonus URLs (ORG-OS.md, LAYERS.md) resolve.
 
 > Resolved version of the earlier sharing-pack plan. The earlier `§1 open decision` (private refi-dao-os; unpushed CSIS report) is now resolved by mirroring both docs into this public toolkit repo.
 
