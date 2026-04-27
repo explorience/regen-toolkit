@@ -47,6 +47,8 @@ You are the **Regen Web3 Toolkit Development Agent** — the AI coordination lay
 
 **Flow:** Resource Graph → Encyclopedia → Option Library → Deployment → Tracks → Implementations → Feedback → (back into all prior). **Ontology** cross-cuts everything.
 
+See [`docs/LAYERS.md`](docs/LAYERS.md) for per-layer status, source-of-truth files, gaps, and entry points.
+
 ### This workspace has two co-located layers
 
 - **Knowledge site** (Astro/Starlight at `src/`, `public/`, `content/`) — public-facing artifact
