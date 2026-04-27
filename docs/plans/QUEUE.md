@@ -1,6 +1,6 @@
 # Plan Queue — Regen Web3 Toolkit (instance plans)
 
-> Last updated: 2026-04-25
+> Last updated: 2026-04-26
 
 Toolkit-instance work plans. Strategic / network-level plans live in `regen-coordination-os/docs/plans/`.
 
@@ -10,20 +10,21 @@ _(none — pick one of the queued plans below to activate)_
 
 ## Queued — 2026-04-25 batch (post-overlay polish)
 
-1. [vault-bootstrap](vault-bootstrap.md) — Bootstrap toolkit meeting history from personal vault (5 toolkit meetings) + migrate the 2 pre-overlay records in `docs/meeting-notes/` into the canonical `packages/operations/meetings/` layout. ~1.5h.
+1. [onepager-and-layers](onepager-and-layers.md) — Write `docs/ORG-OS.md` (operator one-pager: what is org-os, how to `/initialize`, where to go deeper) + `docs/LAYERS.md` (per-layer status, owners, source-of-truth files, gaps). 2–3h.
 
-2. [onepager-and-layers](onepager-and-layers.md) — Write `docs/ORG-OS.md` (operator one-pager: what is org-os, how to `/initialize`, where to go deeper) + `docs/LAYERS.md` (per-layer status, owners, source-of-truth files, gaps). 2–3h.
+2. [public-sharing-pack](public-sharing-pack.md) — Three publicly-accessible links (Master Doc Briefing, CSIS × org-os Alignment Report, KOI integration design spec) + draft sharing message for the team. Decisions resolved (docs are mirrored in this repo). ~30min.
 
-3. [public-sharing-pack](public-sharing-pack.md) — Three publicly-accessible links (Master Doc Briefing, CSIS × org-os Alignment Report, KOI integration design spec) + draft sharing message for the team. Decisions resolved (docs are mirrored in this repo). ~30min.
-
-4. [contributions-pipeline](contributions-pipeline.md) — Brainstorm catalog of other valuable contributions (Resources lift to Layer 1, frame-language audit, CSIS conformance posture, ontology V1+V2b overlay, KOI-ready frontmatter, case studies, feedback instrumentation, KOI consumer install). Triage → promote to named plans as bandwidth allows.
+3. [contributions-pipeline](contributions-pipeline.md) — Brainstorm catalog of other valuable contributions (Resources lift to Layer 1, frame-language audit, CSIS conformance posture, ontology V1+V2b overlay, KOI-ready frontmatter, case studies, feedback instrumentation, KOI consumer install). Triage → promote to named plans as bandwidth allows.
 
 ## Recommended sequencing
 
-1. Plan 1 (vault-bootstrap) — fill in the meeting history
-2. Plan 2 (onepager-and-layers) — make the structure usable
-3. Plan 3 (public-sharing-pack) — bring the team in
-4. Plans from Plan 4's Tier 1 inventory, in the order it recommends
+1. Plan 1 (onepager-and-layers) — make the structure usable
+2. Plan 2 (public-sharing-pack) — bring the team in
+3. Plans from Plan 3's Tier 1 inventory, in the order it recommends
+
+## Completed
+
+- ~~[vault-bootstrap](vault-bootstrap.md)~~ — **2026-04-26.** 6 toolkit meetings backfilled into `packages/operations/meetings/`; 2 `docs/meeting-notes/*.md` migrated with redirect stubs; `data/meetings.yaml` populated; HEARTBEAT carryovers reconciled; schemas regenerate + validate clean.
 
 ---
 

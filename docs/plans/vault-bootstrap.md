@@ -2,7 +2,8 @@
 title: "Regen Web3 Toolkit — Vault Context Bootstrap + Repo Meeting Integration"
 project: regen-toolkit
 date: 2026-04-25
-status: queued
+status: completed
+completed: 2026-04-26
 related:
   - "../../../regen-coordination-os/docs/plans/regen-coord-vault-bootstrap.md"  # parallel plan for regen-coord
   - docs/plans/onepager-and-layers.md  # toolkit follow-up docs
@@ -14,6 +15,8 @@ methodology:
 ---
 
 # Plan B — Vault → Toolkit Bootstrap + Repo Meeting Integration
+
+> **Status: completed 2026-04-26.** Executed directly on `feature/org-os-overlay` (PR #310 was closed without merge; the team operates from the branch). See completion summary at the bottom of this file.
 
 > **Run after** PR #310 (`feature/org-os-overlay`) is merged into `explorience/regen-toolkit:main`. Either run on a follow-up branch from `main`, or extend PR #310 with these commits if reviewers prefer a single landing.
 
@@ -158,3 +161,32 @@ methodology:
 - Pattern: `packages/operations/meetings/260423 Regen Web3 Toolkit Planning Call.md`
 - PR: https://github.com/explorience/regen-toolkit/pull/310
 - KOI gate: `memory/koi_intake_blocked_on_refi_dao.md`
+
+---
+
+## Completion summary (2026-04-26)
+
+**Processed into `packages/operations/meetings/`:**
+- `260115 Greenpill Toolkit Planning Call (Kickoff).md` *(beyond original inventory — actual project kickoff)*
+- `260129 Greenpill Toolkit Planning Call (GitHub Workflow).md` *(beyond inventory)*
+- `260212 Regen Web3 Toolkit Planning Call.md`
+- `260225 Regen Toolkit Restructure + AI Pipeline Sync.md` *(migrated from `docs/meeting-notes/2026-02-25.md`)*
+- `260312 Regen Toolkit — Funding + Pipeline Sync.md` *(merged `docs/meeting-notes/2026-03-12.md` with vault `260312 Regen Web3 Toolkit Planning Call.md` — collision resolved by treating repo file as canonical curated record; vault retained as raw transcript reference per its redirect note)*
+- `260423 Regen Web3 Toolkit Planning Call.md`
+
+**Migrated with redirect stubs:**
+- `docs/meeting-notes/2026-02-25.md` → one-line redirect
+- `docs/meeting-notes/2026-03-12.md` → one-line redirect
+
+**Inventory deviations:**
+- `260101 Regen Web3 Toolkit.md` — NOT a meeting; it's a project status/roadmap doc. Skipped.
+- `260425 Regen Web3 Toolkit Check Pack.md` and `260425 Regen Web3 Toolkit Check Run.md` — these files do not exist in the vault. Skipped.
+
+**Verifications:**
+- `data/meetings.yaml` — registry entries present (5 meetings reported by `generate-all-schemas`)
+- `npm run generate:schemas` — re-run idempotently (no diff)
+- `npm run validate:schemas` — passes
+- `HEARTBEAT.md` — historic carryovers from backfilled meetings surfaced under "Active Tasks → Historic carryovers" + 2026-04-26 backfill entry under Recently Completed
+- `MEMORY.md` — Organizational History reflects project kickoff and major iterations
+
+**Acceptance:** All criteria met (vault meetings processed or flagged; both `docs/meeting-notes/*.md` migrated with redirects; `data/meetings.yaml` populated; project page has "Recent meetings" history; MEMORY.md updated; HEARTBEAT.md reconciled; schemas pass validation).
