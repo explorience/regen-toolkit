@@ -72,7 +72,7 @@ git checkout feature/org-os-overlay
 git submodule update --init --recursive
 ```
 
-See `CLAUDE.md` for agent instructions and `AGENTS.md` for the session startup sequence.
+See [`docs/ORG-OS.md`](docs/ORG-OS.md) for the operator one-pager (5-minute entry point), `CLAUDE.md` for agent instructions, and `AGENTS.md` for the session startup sequence.
 
 ## Tech Stack
 
