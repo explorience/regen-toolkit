@@ -2,7 +2,8 @@
 title: "Regen Web3 Toolkit — org-os One-Pager + LAYERS.md"
 project: regen-toolkit
 date: 2026-04-25
-status: queued
+status: completed
+completed: 2026-04-26
 related:
   - https://github.com/explorience/regen-toolkit/pull/310
   - docs/plans/public-sharing-pack.md
@@ -12,6 +13,8 @@ methodology:
 ---
 
 # Plan C — Org-OS One-Pager + LAYERS.md for the Toolkit
+
+> **Status: completed 2026-04-26.** Executed directly on `feature/org-os-overlay`. Commits: `16f87b6` (ORG-OS.md + README link) and `e0f4fba` (LAYERS.md + cross-links from MASTERPLAN/IDENTITY).
 
 > **Run after** PR #310 (`feature/org-os-overlay`) has settled. Either follow-up branch from `main`, or extend PR #310 if reviewers prefer to land everything together.
 
