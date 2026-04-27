@@ -1,5 +1,7 @@
 # Regen Toolkit Interface Integration (first pass)
 
+> **Note**: Ecosystem Canvas (`03 Libraries/ecosystem-canvas`) supersedes this interface for visualization use cases (ecosystem mapping, fund flows). The regen-toolkit-interface remains for content browsing and implementation planning. See [ecosystem-canvas-integration](ecosystem-canvas-integration.md).
+
 ## What it is
 - React/TypeScript visual interface for browsing toolkit content, designing implementations on a canvas, and tracking progress.
 - Builds a JSON content index from `regen-toolkit` + `Local-ReFi-Toolkit` via `scripts/build-content-index.js`.
