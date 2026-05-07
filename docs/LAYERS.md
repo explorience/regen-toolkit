@@ -1,19 +1,21 @@
-# LAYERS.md — Per-Layer Status (Regen Web3 Toolkit)
+# LAYERS.md — Per-Layer Status
 
-_Living document. The 8-layer architecture from `MASTER.md`, with current status, owners, source-of-truth files, gaps, and contribution entry points. Updated by layer owners as their layers evolve._
+> **⚠️ Iteration checkpoint (2026-05-06).** Matty shared a substantially restructured + renamed master doc — **Regen Knowledge Commons Toolkit** (was: Regen Web3 Toolkit). The architecture below reflects the **previous** iteration; the new iteration restructures the layer set (Tracks dropped; Concept & Idea Ecology added; Implementation Memory and Evolution split; Ontology promoted to Layer 1). See [`MASTER-DOC-CHANGES.md`](MASTER-DOC-CHANGES.md) for the diff and [`plans/master-doc-iteration-may-2026.md`](plans/master-doc-iteration-may-2026.md) for the refactor plan. Holding this table as-is until the iteration stabilizes post-OpenCivics Swarm Pulse 1 (2026-05-08–09).
+
+_Living document. The 8-layer architecture from the previous `MASTER.md` (now archived at [`archive/MASTER-2026-04-23-regen-web3-toolkit.md`](archive/MASTER-2026-04-23-regen-web3-toolkit.md)), with current status, owners, source-of-truth files, gaps, and contribution entry points. Updated by layer owners as their layers evolve._
 
 **Status legend:** `stub` (placeholder, no real content) · `partial` (real content but gaps) · `active` (regularly maintained, shipping) · `mature` (stable, complete enough)
 
-| # | Layer | Owner | Status |
-|---|---|---|---|
-| 1 | Resource Graph | Brandon + curator (TBD) | partial |
-| 2 | Encyclopedia | Heenal | active |
-| 3 | Ontology | Matt + Rather + Luiz | partial |
-| 4 | Option Library | Luiz (unowned in practice) | stub-to-partial |
-| 5 | Deployment | Luiz + Durgadas | partial |
-| 6 | Tracks | Heenal | active |
-| 7 | Implementations | Unowned | stub |
-| 8 | Feedback & Evolution | Unowned | stub |
+| #   | Layer                | Owner                      | Status          |
+| --- | -------------------- | -------------------------- | --------------- |
+| 1   | Resource Graph       | Brandon + curator (TBD)    | partial         |
+| 2   | Encyclopedia         | Heenal                     | active          |
+| 3   | Ontology             | Matt + Rather + Luiz       | partial         |
+| 4   | Option Library       | Luiz (unowned in practice) | stub-to-partial |
+| 5   | Deployment           | Luiz + Durgadas            | partial         |
+| 6   | Tracks               | Heenal                     | active          |
+| 7   | Implementations      | Unowned                    | stub            |
+| 8   | Feedback & Evolution | Unowned                    | stub            |
 
 **Flow:** Resource Graph → Encyclopedia → Option Library → Deployment → Tracks → Implementations → Feedback → (back into all prior). **Ontology** cross-cuts everything.
 

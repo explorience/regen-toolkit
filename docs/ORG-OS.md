@@ -1,4 +1,6 @@
-# org-os — One-Pager (Regen Web3 Toolkit)
+# org-os — One-Pager
+
+> **⚠️ Iteration checkpoint (2026-05-06).** The toolkit was renamed from "Regen Web3 Toolkit" to **Regen Knowledge Commons Toolkit** in Matty's 2026-05-06 master doc iteration. The overlay still references the old name in many places — the wholesale rename is deferred until post-Swarm-Pulse-1 (the iteration is "a checkpoint heading into the swarm," per Matty). See [`MASTER-DOC-CHANGES.md`](MASTER-DOC-CHANGES.md) for what changed.
 
 **org-os** is a coordination operating system overlay for organizations and projects — a structured repo layout for team coordination, meeting processing, decision tracking, and agent collaboration. The toolkit uses it to coordinate development around `MASTER.md` (Matt's master doc).
 
