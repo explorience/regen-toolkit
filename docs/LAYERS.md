@@ -1,255 +1,70 @@
 # LAYERS.md — Per-Layer Status
 
-> **⚠️ Iteration checkpoint (2026-05-06).** Matty shared a substantially restructured + renamed master doc — **Regen Knowledge Commons Toolkit** (was: Regen Web3 Toolkit). The architecture below reflects the **previous** iteration; the new iteration restructures the layer set (Tracks dropped; Concept & Idea Ecology added; Implementation Memory and Evolution split; Ontology promoted to Layer 1). See [`MASTER-DOC-CHANGES.md`](MASTER-DOC-CHANGES.md) for the diff and [`plans/master-doc-iteration-may-2026.md`](plans/master-doc-iteration-may-2026.md) for the refactor plan. Holding this table as-is until the iteration stabilizes post-OpenCivics Swarm Pulse 1 (2026-05-08–09).
+> **2026-05-15 iteration checkpoint.** Matty's 2026-05-15 master-doc revision (the **stabilization draft** at `docs/MASTER.md`, ~24,776 lines) **restored the Tracks layer** (dropped 2026-05-06) and **added Infrastructure & Substrate as Layer 10**. The layer set is now 10. **Authoritative per-layer reads live at [`docs/layers/`](layers/) — one doc per layer, one canvas per layer, plus the master overview canvas at [`docs/canvases/regen-knowledge-commons-toolkit-master.canvas`](canvases/regen-knowledge-commons-toolkit-master.canvas).** This file is the per-layer **status table**; the deep reads have moved.
 
-_Living document. The 8-layer architecture from the previous `MASTER.md` (now archived at [`archive/MASTER-2026-04-23-regen-web3-toolkit.md`](archive/MASTER-2026-04-23-regen-web3-toolkit.md)), with current status, owners, source-of-truth files, gaps, and contribution entry points. Updated by layer owners as their layers evolve._
+**Iteration history:**
+- 2026-04-23 — 8 layers (Resource Graph · Encyclopedia · Ontology · Option Library · Deployment · Tracks · Implementations · Feedback) — archived at [`archive/MASTER-2026-04-23-regen-web3-toolkit.md`](archive/MASTER-2026-04-23-regen-web3-toolkit.md)
+- 2026-05-06 — 8 layers (Ontology promoted; Tracks dropped; Concept & Idea Ecology added; Implementation Memory + Evolution split) — archived at [`archive/MASTER-2026-05-06-knowledge-commons-toolkit.md`](archive/MASTER-2026-05-06-knowledge-commons-toolkit.md)
+- **2026-05-15 — 10 layers (Tracks restored; Infrastructure & Substrate added)** — canonical at [`MASTER.md`](MASTER.md). Diff: [`MASTER-DOC-CHANGES-2026-05-15.md`](MASTER-DOC-CHANGES-2026-05-15.md). Plan: [`plans/master-doc-iteration-may-15-2026.md`](plans/master-doc-iteration-may-15-2026.md).
 
-**Status legend:** `stub` (placeholder, no real content) · `partial` (real content but gaps) · `active` (regularly maintained, shipping) · `mature` (stable, complete enough)
+**Status legend:** `stub` · `partial` · `active` · `mature` · `new` (added in latest iteration)
 
-| #   | Layer                | Owner                      | Status          |
-| --- | -------------------- | -------------------------- | --------------- |
-| 1   | Resource Graph       | Brandon + curator (TBD)    | partial         |
-| 2   | Encyclopedia         | Heenal                     | active          |
-| 3   | Ontology             | Matt + Rather + Luiz       | partial         |
-| 4   | Option Library       | Luiz (unowned in practice) | stub-to-partial |
-| 5   | Deployment           | Luiz + Durgadas            | partial         |
-| 6   | Tracks               | Heenal                     | active          |
-| 7   | Implementations      | Unowned                    | stub            |
-| 8   | Feedback & Evolution | Unowned                    | stub            |
+## Architecture (10 layers)
 
-**Flow:** Resource Graph → Encyclopedia → Option Library → Deployment → Tracks → Implementations → Feedback → (back into all prior). **Ontology** cross-cuts everything.
+| # | Layer | Owner | Status | Doc | Canvas |
+|---|---|---|---|---|---|
+| 1 | Ontology & Semantic Kernel | Matt + Rather + Luiz | partial | [doc](layers/01-ontology-and-semantic-kernel.md) | [canvas](canvases/layers/01-ontology.canvas) |
+| 2 | Knowledge Commons / Encyclopedia | Heenal | active | [doc](layers/02-knowledge-commons-encyclopedia.md) | [canvas](canvases/layers/02-encyclopedia.canvas) |
+| 3 | Resource Graph & Ecosystem Atlas | Brandon + curator (TBD) | partial | [doc](layers/03-resource-graph-and-ecosystem-atlas.md) | [canvas](canvases/layers/03-resource-graph.canvas) |
+| 4 | Concept & Idea Ecology | Matt (likely; confirm) | stub | [doc](layers/04-concept-and-idea-ecology.md) | [canvas](canvases/layers/04-concept-ecology.canvas) |
+| 5 | Option Library | Luiz (currently) | stub-to-partial | [doc](layers/05-option-library.md) | [canvas](canvases/layers/05-option-library.canvas) |
+| 6 | Deployment & Structural Integrity | Luiz + Durgadas | partial | [doc](layers/06-deployment-and-structural-integrity.md) | [canvas](canvases/layers/06-deployment.canvas) |
+| 7 | Tracks & Composition ♻ | Heenal (returning) | restored — partial | [doc](layers/07-tracks-and-composition.md) | [canvas](canvases/layers/07-tracks.canvas) |
+| 8 | Implementation & Learning Memory | Koi (candidate) | stub — Bonfires substrate | [doc](layers/08-implementation-and-learning-memory.md) | [canvas](canvases/layers/08-implementation-memory.canvas) |
+| 9 | Evolution Layer | Koi (candidate) | stub | [doc](layers/09-evolution-layer.md) | [canvas](canvases/layers/09-evolution.canvas) |
+| 10 | Infrastructure & Substrate ⭐ | Luiz (operator default) | new — partial (overlay stack live) | [doc](layers/10-infrastructure-and-substrate.md) | [canvas](canvases/layers/10-infrastructure.canvas) |
 
----
+⭐ = new layer in 2026-05-15 iteration · ♻ = restored from earlier iteration
 
-## Layer 1 — Resource Graph
+**Core sequence:** Ontology → Knowledge → Resources → Options → Deployment → Tracks → Implementation → Evolution (Infrastructure sits *under* this sequence).
 
-**Owner:** Brandon + curator (TBD)
-**Status:** partial
-**Source of truth:** `data/resources.yaml` (mechanically lifted from `MASTER.md`); raw source still in `MASTER.md` resource sections (lines 1089–2668)
+**Core movement:** Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve.
 
-### What it is
-Reality-grounding layer. Projects, organizations, people, places, papers, tools, ecosystem maps. The substrate the rest of the toolkit references.
+## Cross-cutting principles (18)
 
-### Current state
-- **2026-04-26:** Initial mechanical lift completed — `data/resources.yaml` has 738 entries (285 with URLs, 453 text-only) across 50 domain headings. Pending Brandon's curation pass. Generated by `scripts/lift-resources.mjs`.
-- Brandon's mapping infrastructure doc incorporated into the writing system
-- Source maps approved for content reference: Restor, Hylo, P2P Foundation, ReFi Ecosystem, Weavers Network, Second Renaissance
-- `data/sources.yaml` exists at the org-os level (knowledge sources / processors)
+See master doc §4 + [`docs/layers/README.md`](layers/README.md#cross-cutting-principles-18) for the full enumeration. **Four are new in this iteration:** #9 Anti-extractive synthesis · #12 Pattern humility · #16 Living systems health · #17 Compost, archive, and memory.
 
-### Open questions
-- Curation pass: dedupe by intent, drop tag-bullets-masquerading-as-resources, fill missing URLs, add Brandon's tags / classification (Brandon's call)
-- Resources tab in master doc flagged as the weakest layer ("weird mishmash of papers and books and links" — Matt, 2026-04-23)
-- Curator role unfilled
-- Designing an EIP-4824-style schema for `resources.yaml` (deferred until curation stabilizes shape)
+## Minimum Operating Kernel (v0.1)
 
-### Working on this layer
-- Curate `data/resources.yaml` (Brandon-led)
-- Re-run `scripts/lift-resources.mjs` if MASTER.md resource sections change (idempotent; will overwrite the yaml)
-- Coordinate with Brandon on canonical mapping infra
-- Open invitation: anyone can take resource curation; declare in `IDENTITY.md`
+Five working objects, enough for one useful contribution without grasping the whole architecture:
 
----
+> **Resource · Concept · Option · Deployment · Signal**
 
-## Layer 2 — Encyclopedia
+The full 25-object candidate set lives at master doc §5.7; the kernel is the v0.1 lens.
 
-**Owner:** Heenal
-**Status:** active
-**Source of truth:** `src/content/docs/` (article markdown); knowledge graph in `src/data/`
+## Phase 3 refactor work
 
-### What it is
-Structured knowledge — concepts, frameworks, articles, learning paths. The public-facing knowledge garden at [regen-toolkit-site.vercel.app](https://regen-toolkit-site.vercel.app).
+See [`docs/plans/master-doc-iteration-may-15-2026.md`](plans/master-doc-iteration-may-15-2026.md) for the full plan. Phase 3 (structured refactor against the new iteration) covers:
 
-### Current state
-- 67 articles published (live on the site)
-- 254-article inventory in taxonomy
-- 5-stage editorial pipeline: research → writing → fact-checking → editing → critique
-- Knowledge Explorer + Tag Explorer live
+- `data/ontology/*.yaml` against new §5 structure + Two-Layer posture
+- `data/option-library.yaml` cross-walk against §9 (9 categories matched)
+- `data/feedback-process.yaml` split → L8 + L9
+- `data/resources.yaml` re-lift against new §7
+- **New** `data/tracks.yaml` (Tracks layer restored)
+- LAYERS.md (this file) ↔ `docs/layers/` cross-link consistency
+- IDENTITY.md ownership refresh (post-2026-05-21 biweekly persona/skill-card session)
+- ORG-OS.md one-pager rewrite
+- Root-MD rename pass (~30 files; "Regen Web3 Toolkit" → "Regen Knowledge Commons Toolkit")
 
-### Open questions
-- Phase 2: expand 43 medium-stage articles through the pipeline
-- Phase 3: write 139 stub articles from scratch
-- Apply Matt's feedback on 4 articles (scams, seed phrases, wallet comparison, key terms)
-- Human review of all 67 published drafts pending
+## How to contribute to a layer
 
-### Working on this layer
-- Articles live in `src/content/docs/` with YAML frontmatter
-- Add to inventory by following the 5-stage editorial pipeline
-- Coordinate via Heenal; draft PRs against `feature/org-os-overlay`
-- Verify with `npm run dev` / `npm run build` before pushing
+1. Open the layer's **canvas** for visual context: [`docs/canvases/layers/`](canvases/layers/)
+2. Read the layer's **doc** for structured detail: [`docs/layers/`](layers/)
+3. Drop into the master doc for full depth: [`MASTER.md`](MASTER.md) (read the section the layer doc references)
+4. Find the right **data file** for structured contribution: `data/*.yaml`
+5. Tag your contribution with one of the **Minimum Operating Kernel** object types if unsure of finer ontology.
+6. Open a PR or surface the contribution to the layer owner.
 
 ---
 
-## Layer 3 — Ontology (cross-cuts all layers)
-
-**Owner:** Matt (ops taxonomy) + Rather (adopted as standard) + Luiz (architecture)
-**Status:** partial
-**Source of truth:** `data/ontology/regen-toolkit-entities.yaml`, `regen-toolkit-relationships.yaml`, `regen-toolkit-classification.yaml`, `regen-toolkit-octo-mapping.yaml`
-
-### What it is
-Semantic backbone — entity types, relationships, classifications. Cross-cuts all other layers.
-
-### Current state
-- 15 core entity types extracted from master doc + extensions
-- 9 cross-cutting classification attributes
-- Octo / SuperBenefit interop mapping drafted
-- Per 2026-04-23 planning call: **Rather's ontology adopted as the toolkit standard**
-
-### Open questions
-- V1 (current) vs V2a (Octo-aligned, interop-first) vs V2b (CSIS-optimized, structure-first) resolution
-- Master doc recommendation: V1 base + V2b semantic overlay — needs formalizing
-- Taxonomy vs Ontology distinction (master doc line 181 flag)
-- Propagation of Rather's ontology through article frontmatter and registries
-
-### Working on this layer
-- Edit `data/ontology/*.yaml`; run `npm run validate:schemas`
-- Coordinate semantic decisions with Matt + Rather + Luiz
-- Apply ontology updates as content migrations on `src/content/docs/` frontmatter
-
----
-
-## Layer 4 — Option Library
-
-**Owner:** Luiz (currently unowned in practice)
-**Status:** stub-to-partial
-**Source of truth:** `data/option-library.yaml`
-
-### What it is
-Design components: governance, coordination, funding, incentives, measurement. Reusable patterns groups can compose into deployments.
-
-### Current state
-- 9 categories scaffolded in `data/option-library.yaml`
-- Master doc has the conceptual structure; structured options sparse
-
-### Open questions
-- Real owner needed (Luiz holds it by default; not actively curated)
-- Compressive vs generative standards distinction not yet explicit
-- Capacity-building conditions, shared understanding, conflict transformation not yet separated from structural constraints
-
-### Working on this layer
-- Add option entries to `data/option-library.yaml` with `{id, category, description, references, csis_constraints}`
-- Cross-link to Layer 5 (Deployment) requirements
-- Open invitation for ownership — declare in `IDENTITY.md`
-
----
-
-## Layer 5 — Deployment
-
-**Owner:** Luiz + Durgadas (CSIS upstream — strict conformance)
-**Status:** partial
-**Source of truth:** `data/deployment-requirements.yaml`; `docs/CSIS.md`; `data/governance.yaml`
-
-### What it is
-Structural constraint layer — decision, info, power, accountability, failure detection, classification. The "house foundation" — where CSIS conformance is strict.
-
-### Current state
-- 6 structural components + invalid conditions captured in `data/deployment-requirements.yaml`
-- CSIS conformance posture set: **strict in Layer 5; secondary in Layer 8**
-- Frame-language critique (Durgadas, 2026-04-23) opened: current docs use Frame 1 to describe regenerative processes — companion doc + AI prompts pending
-
-### Open questions
-- Encode Dunbar-number scaling research into next CSIS standards review (Durgadas)
-- Encode six-directional responsibility model into next CSIS standards review (Durgadas)
-- Make compressive vs generative standards explicit
-- Define conformance-posture assessment framework (partial adoption vs full)
-
-### Working on this layer
-- Edit `data/deployment-requirements.yaml`; coordinate CSIS-affecting changes with Durgadas
-- Cross-link Layer 4 options to their Deployment requirements
-- Apply frame-language discipline (catch Frame 1 patterns in all copy)
-
----
-
-## Layer 6 — Tracks
-
-**Owner:** Heenal
-**Status:** active
-**Source of truth:** Learning paths in `src/content/docs/` (Newcomer 21, Community Org 23, Local Chapter 17, Governance 14, Environmental 20)
-
-### What it is
-Application compositions — audience/context-specific pathways through Encyclopedia + Option Library content.
-
-### Current state
-- 5 learning paths live with explicit article counts
-- Content audience tagging in place (newcomer, organizer, governance researcher, etc.)
-
-### Open questions
-- Expand inventory to 8 paths (target from master doc)
-- Coordinate path content with Phase 2 article pipeline (Layer 2)
-
-### Working on this layer
-- Add/edit paths in `src/content/docs/` (track frontmatter)
-- Coordinate path additions with Heenal
-- Verify with site build before pushing
-
----
-
-## Layer 7 — Implementations
-
-**Owner:** Unowned
-**Status:** stub
-**Source of truth:** Not yet captured
-
-### What it is
-Real deployments — local nodes, pilots, campaigns, case studies. Where Tracks land in the world.
-
-### Current state
-- No structured registry yet
-- Some implicit reference in Layer 1 source maps (Restor, Hylo, etc.) but not captured as case studies
-- Earth.live / Coop / Impact Stake / Artisan are candidate case studies from peer instances
-
-### Open questions
-- Real owner needed
-- Identify case studies: federation peers (regen-coordination-os, bread-co-op-os), partner orgs (Geo Protocol, Ethereum Localism, Open Civics Consortium), funded campaigns
-- Schema design: `data/implementations.yaml` not yet created
-
-### Working on this layer
-- Open invitation for ownership
-- First step: design `data/implementations.yaml` schema + seed 3 case studies
-- Coordinate with peer instances for cross-references
-
----
-
-## Layer 8 — Feedback & Evolution
-
-**Owner:** Unowned
-**Status:** stub
-**Source of truth:** `data/feedback-process.yaml` (5-step loop + governance)
-
-### What it is
-System update layer: capture → classify → review → update → communicate → version. How the toolkit ingests feedback and evolves.
-
-### Current state
-- 5-step process scaffolded in `data/feedback-process.yaml`
-- CSIS conformance: **secondary** (informed but not strict here)
-- Bread Co-op Discord research/sharing folder identified as future content aggregation source (Matt, 2026-04-23)
-
-### Open questions
-- Real owner needed
-- Telegram / Discord / forum monitoring integration — manual process today, no automation
-- Eventual KOI sensor integration (gated on refi-dao-os Wave 2)
-- Versioning convention for `MASTER.md` updates
-
-### Working on this layer
-- Open invitation for ownership
-- Edit `data/feedback-process.yaml` to clarify the 5-step loop
-- Future: design KOI sensor for `feedback/` channel (post-Wave-2)
-
----
-
-## How to update this doc
-
-Layer owners update their own section directly. Major status changes (e.g., a layer moves from `stub` to `partial`, a new owner is declared) should also be reflected in:
-
-- `MEMORY.md` — add a dated entry under "Key Decisions"
-- `HEARTBEAT.md` — surface any newly active items
-- `IDENTITY.md` — update the ownership table if it changed
-
-Cross-cutting status changes (e.g., a CSIS posture change, a federation peer added) should be discussed on the bi-weekly Thursday planning call before being committed.
-
-## See also
-
-- [`ORG-OS.md`](ORG-OS.md) — operator one-pager (5-minute entry point)
-- [`MASTER.md`](MASTER.md) — the master doc (canonical spec)
-- [`../IDENTITY.md`](../IDENTITY.md) — current ownership table
-- [`../MASTERPLAN.md`](../MASTERPLAN.md) — full development mandate
-- [`CSIS.md`](CSIS.md) — Comprehensive Structural Integrity Suite reference (Durgadas)
+_Last updated: 2026-05-15. The 8-layer status pages from prior iterations are preserved in git history if needed; the canonical per-layer reads are now in `docs/layers/`._

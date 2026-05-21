@@ -44,7 +44,7 @@ The CSIS question battery — "Who is represented? Who is absent? Who can correc
 
 The pattern of capturing — for any deployment — what was attempted, by whom, in what context, what worked, what failed, what surprised, what risks appeared, what should be updated, what should NOT be generalized, what pattern (if any) emerged. **Feeds Swarm Evolve.**
 
-**Status:** Concept. Schema not yet captured (deferred from Layer 7 work in previous iteration).
+**Status:** Concept. Schema not yet captured (deferred from Layer 7 work in previous iteration). *2026-05-07 biweekly clarification:* Bonfires (KOI stack, Caue Mtomaz) is the live infrastructure candidate — design science research methodology + Telegram bot + entity mapping + cross-platform knowledge graph + real-time indexing. Co-author with Koi rather than build a parallel schema.
 
 ### 5. Tool / Option / Pattern / Protocol / Deployment / Case distinction
 
@@ -82,9 +82,19 @@ The pack should be **light, self-contained, and reusable**. Target: 7 short docs
 ## Sequencing
 
 - **Pre-Pulse 1 (this week):** Draft README + draft of `05-tool-option-pattern-protocol-deployment-case.md` + `07-six-affordances-translation.md` — both are pure synthesis from the new master doc, no other-layer dependencies.
-- **During Pulse 1 (2026-05-09–10):** Observe what Swarm participants ask for. Adapt deliverable list based on real demand signals.
+- **During Pulse 1 (2026-05-09–10):** Observe what Swarm participants ask for. Adapt deliverable list based on real demand signals. **Attendance posture (per 2026-05-07 biweekly):** partial — Matty in Philadelphia for wedding (leaves Friday noon); ~half the swarm attendee list is already Toolkit team. Treat Pulse 1 as observation + offer-side contribution, not capture.
 - **Post-Pulse 1, weeks 1–2 of hackathon:** Draft remaining items 1–4 + 6.
 - **Hackathon mid-point (week 4):** v0.1 packaged + shared with Swarm via OpenCivics channel.
+
+## 2026-05-07 biweekly — clarifications
+
+The biweekly added two structural inputs that affect how the pack should be assembled:
+
+1. **Bonfires (KOI stack) is the live infrastructure for #4 (Implementation Memory) — not just a methodological reference.** Caue "Koi" Mtomaz demoed a working Telegram bot + entity mapping (user/project/general) + cross-platform knowledge graph (Discord/Telegram) + real-time indexing. The Brazil Bonfires AI audit project is the *methodology* (design science research, multiple tracks per hypothesis, AI-audit data collection); Bonfires itself is the *substrate*. The operator's instance already has `mcp__regen-koi__*` integration. **Implication:** `04-implementation-memory.md` should reference Bonfires-as-substrate explicitly, not just present a generic schema. Coordinate with Koi on a co-authoring or attribution arrangement.
+
+2. **Toolkit vs "Transformational Journeys" framing tension is unresolved.** The pack title and framing copy ("Toolkit decomposes into discrete contributions") inherits the rename's "Knowledge Commons Toolkit" naming. If the team re-opens the framing decision post-Pulse-1, the pack's voice may need a pass. **Posture:** draft the pack against current naming, but flag this as a known framing-revisit item in the README so reuse downstream isn't locked to a name that may change.
+
+3. **Persona / skill-card format adopted for ~2026-05-21 biweekly.** Not directly a Swarm Pack input, but team will arrive at next biweekly with concrete capability cards — useful for assigning the post-Pulse-1 deliverables (items 1–4 + 6) to actual people rather than the placeholder "Luiz" lead.
 
 ## Risks
 

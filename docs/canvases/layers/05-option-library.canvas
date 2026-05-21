@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 5 — Option Library\n\n**Core question:** What reusable choices are available?\n\nOrganizes mechanisms, methods, workflows, templates, patterns, protocols, tools, and design components. The Toolkit's **reusable design layer**.","x":-300,"y":-150,"width":600,"height":300,"color":"1"},
+		{"id":"boundary","type":"text","text":"## NOT this layer\n\n- A conceptual explainer (that's L2 Encyclopedia)\n- A deployment plan (that's L6)\n- A finished implementation (that's L8)\n- A claim that every option works in every context\n\n*An option becomes useful when its context, dependencies, risks, failure modes, and structural requirements are visible.*","x":-400,"y":-650,"width":800,"height":380,"color":"2"},
+		{"id":"categories","type":"text","text":"## 9 Core Option Categories (§9.4)\n\n1. Governance Options\n2. Coordination Options\n3. Organizational Structure Options\n4. Funding and Capital Options\n5. Token and Incentive Options\n6. Knowledge and Documentation Options\n7. Impact and Measurement Options\n8. Implementation and Operations Options\n9. Experimentation Options\n\n*Matches existing `data/option-library.yaml` 9-category scaffold.*","x":-1000,"y":-400,"width":500,"height":450,"color":"5"},
+		{"id":"compositions","type":"text","text":"## 5 Cross-Category Compositions (§9.10)\n\n- Local Node Model\n- Participatory Allocation System\n- Knowledge Garden Network\n- Ecological Impact Reporting Flow\n- AI-Assisted Knowledge Commons Workflow\n\n*Raw material for L7 Tracks and L6 Deployments.*","x":650,"y":-400,"width":500,"height":350,"color":"3"},
+		{"id":"adjacent","type":"text","text":"## Adjacent layers\n\n- **L2 Encyclopedia** — explains; Library organizes choices\n- **L6 Deployment** — option is selectable; deployment specifies use\n- **L7 Tracks** — option is component; track is composition\n- **L8 Implementation** — option informs implementation; implementation updates maturity","x":650,"y":0,"width":500,"height":350,"color":"3"},
+		{"id":"v01","type":"text","text":"## v0.1 priority examples (§9.13)\n\n- local node model\n- source-system card\n- claim-evidence record\n- consent-based decision-making\n- multisig treasury\n- quadratic funding\n- milestone-based grants\n- attestation-based evidence record\n- knowledge garden workflow\n- implementation retrospective\n- safe-to-fail probe\n- AI-assisted source classification","x":-300,"y":250,"width":600,"height":350,"color":"4"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #3 Maturity and review state\n- #5 Claim-evidence discipline\n- #6 Review should scale with risk\n- #12 Pattern humility ⭐","x":-1000,"y":150,"width":400,"height":260,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/05-option-library.md","x":-200,"y":650,"width":400,"height":80,"color":"4"},
+		{"id":"data-options","type":"file","file":"data/option-library.yaml","x":-700,"y":650,"width":350,"height":80,"color":"5"},
+		{"id":"lift-script","type":"file","file":"scripts/lift-options.mjs","x":300,"y":650,"width":350,"height":80,"color":"6"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-200,"y":750,"width":400,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"boundary","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"categories","toSide":"right","color":"5","label":"9 categories"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"compositions","toSide":"left","color":"3","label":"5 compositions"},
+		{"id":"e4","fromNode":"compositions","fromSide":"bottom","toNode":"adjacent","toSide":"top","color":"3"},
+		{"id":"e5","fromNode":"center","fromSide":"bottom","toNode":"v01","toSide":"top","color":"4"},
+		{"id":"e6","fromNode":"categories","fromSide":"bottom","toNode":"crosscuts","toSide":"top","color":"6"},
+		{"id":"e7","fromNode":"v01","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":5,"name":"Option Library","master_doc_lines":"12073–14099","generated":"2026-05-15"}
+}

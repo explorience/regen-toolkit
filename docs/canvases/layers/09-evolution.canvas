@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 9 — Evolution Layer\n\n**Core question:** How does the commons update itself?\n\nConverts signals, review findings, tensions, implementation learning, and ecosystem changes into updates. **Protects from both stagnation and reactive overcorrection.**","x":-300,"y":-150,"width":600,"height":320,"color":"1"},
+		{"id":"loop","type":"text","text":"## Core Adaptive Loop (§13.3)\n\n> **Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory**\n\n1. Signal — what happened?\n2. Sensemaking — what does it mean? (isolated / repeated / structural / contextual?)\n3. Balance Assessment — regenerative or extractive drift?\n4. Intervention — reinforce / constrain / rebalance / probe / redesign / preserve unresolved\n5. Integration — which layer to update?\n6. Memory — how is the change preserved?","x":-400,"y":-700,"width":800,"height":430,"color":"2"},
+		{"id":"signal-types","type":"text","text":"## 10 Signal Types (§13.4)\n\n1. Content signal\n2. Ontology signal\n3. Resource signal\n4. Option signal\n5. Deployment signal\n6. Track signal\n7. Implementation signal\n8. Public-use signal\n9. Source-system signal\n10. Infrastructure signal\n\n*Each routes to a different layer-update path.*","x":-1000,"y":-400,"width":500,"height":400,"color":"5"},
+		{"id":"failures","type":"text","text":"## 8 Evolution Failures (§13.10)\n\n1. Reactive overcorrection\n2. Stagnation\n3. Overgrowth\n4. Silent drift\n5. AI-driven false coherence\n6. Review bottleneck\n7. Public overconfidence\n8. Memory loss\n\n*Meta-signals to the Evolution Layer about itself.*","x":650,"y":-400,"width":500,"height":350,"color":"3"},
+		{"id":"compost","type":"text","text":"## Outdated material handling (§13.7)\n\n| Action | Meaning |\n|---|---|\n| **Archive** | Preserve as historical record |\n| **Compost** | Break down; reuse parts elsewhere |\n| **Deprecate** | Marked obsolete; warning |\n| **Remove** | Deleted (rare; prefer compost/archive) |\n\n*Maps directly to Cross-Cutting Principle #17 ⭐ NEW.*","x":650,"y":50,"width":500,"height":330,"color":"4"},
+		{"id":"adjacent","type":"text","text":"## Adjacent layers\n\n- **L8 Implementation** — produces signals; Evolution interprets + routes\n- **All layers** — Evolution can update any layer, but only through the 6-step loop\n- **L1 Ontology** — ontology signals only update ontology after the loop","x":-1000,"y":100,"width":500,"height":260,"color":"3"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #3 Maturity and review state\n- #6 Review should scale with risk\n- #14 AI-assisted but human-governed\n- #16 Living systems health ⭐\n- #17 Compost, archive, memory ⭐","x":-300,"y":300,"width":600,"height":260,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/09-evolution-layer.md","x":-300,"y":620,"width":600,"height":80,"color":"4"},
+		{"id":"data-feedback","type":"file","file":"data/feedback-process.yaml","x":-700,"y":620,"width":350,"height":80,"color":"5"},
+		{"id":"koi-framework","type":"text","text":"## Koi research framework\n\nCommitted at 2026-05-07 biweekly. Will populate this layer — umbrella hypothesis + secondary questions + methodology + AI-audit data collection (Bonfires substrate).","x":350,"y":540,"width":600,"height":160,"color":"6"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":720,"width":600,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"loop","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"signal-types","toSide":"right","color":"5","label":"10 signal types"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"failures","toSide":"left","color":"3","label":"8 failures to avoid"},
+		{"id":"e4","fromNode":"failures","fromSide":"bottom","toNode":"compost","toSide":"top","color":"4"},
+		{"id":"e5","fromNode":"signal-types","fromSide":"bottom","toNode":"adjacent","toSide":"top","color":"3"},
+		{"id":"e6","fromNode":"center","fromSide":"bottom","toNode":"crosscuts","toSide":"top","color":"6"},
+		{"id":"e7","fromNode":"crosscuts","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":9,"name":"Evolution Layer","master_doc_lines":"18873–20239","generated":"2026-05-15"}
+}

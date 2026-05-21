@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 1 — Ontology & Semantic Kernel\n\n**Core question:** What kinds of things exist, and how do they relate?\n\nDefines the shared semantic structure of the Toolkit — the backbone that lets all other layers connect without collapsing into one flat database.","x":-300,"y":-150,"width":600,"height":300,"color":"1"},
+		{"id":"boundary","type":"text","text":"## NOT this layer\n\n- Replacing local meaning-making\n- Prescribing one fixed organizational model\n- Making every useful word into a root type\n- Forcing all communities to use the same language\n- Pretending the Toolkit has a final semantic structure","x":-400,"y":-600,"width":800,"height":350,"color":"2"},
+		{"id":"adjacent","type":"text","text":"## Adjacent layers\n\n- **L2 Encyclopedia** — Ontology structures; Encyclopedia explains\n- **L3 Resource Graph** — Ontology types; Graph entries\n- **L4 Concept Ecology** — Ontology defines `Concept`; Ecology maps movement\n- **L5 Option Library** — Ontology defines `Option`; Library holds entries\n- **L8 Implementation** — Distinguishes Implementation / Pattern / Case / Failure","x":650,"y":-400,"width":500,"height":400,"color":"3"},
+		{"id":"subsections","type":"text","text":"## Subsections (master doc §5)\n\n- Current ontology posture\n- What the ontology is FOR / NOT FOR\n- **Core design principles (7)**\n- **Two-layer posture ⭐ NEW** (Octo/BKC core + Toolkit extensions)\n- **CSIS semantic overlay ⭐ NEW** (not conformance)\n- **Core entity type candidates (25)**\n- Relationship grammar\n- Classification layers (types vs tags vs metadata)\n- Practical v0.1 recommendation\n- Ontology governance\n- Open ontology questions","x":-900,"y":-400,"width":500,"height":600,"color":"5"},
+		{"id":"kernel","type":"text","text":"## Minimum Operating Kernel (v0.1)\n\n5 working objects:\n\n1. **Resource** — Something found\n2. **Concept** — Something explained\n3. **Option** — Something reusable\n4. **Deployment** — Something specified for use\n5. **Signal** — Something learned or flagged\n\n*The 25 candidate types remain at §5.7 — but the kernel is the v0.1 lens.*","x":-300,"y":250,"width":600,"height":300,"color":"4"},
+		{"id":"two-layer","type":"text","text":"## Two-layer posture (key shift)\n\n> Octo / BKC = candidate shared semantic base\n> Regen Toolkit = applied extension layer\n> CSIS = structural integrity overlay\n> Toolkit ontology = bridge between knowledge commoning, regenerative practice, and implementation learning","x":-1200,"y":300,"width":500,"height":250,"color":"6"},
+		{"id":"v01","type":"text","text":"## v0.1 entry requirements\n\n**Required for every entry:** title · object type · short description · source/origin · status/maturity · related concepts · related resources or source systems · notes / open questions\n\n**High-risk entries also need:** claim-evidence separation · source lineage · reviewer · uncertainty · public-use boundary · consent/representation","x":650,"y":250,"width":600,"height":300,"color":"4"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #5 Claim-evidence discipline\n- #10 Interoperability without forced uniformity\n- #11 Type / tag discipline","x":-1200,"y":0,"width":350,"height":200,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/01-ontology-and-semantic-kernel.md","x":-200,"y":600,"width":400,"height":80,"color":"4"},
+		{"id":"master-doc","type":"file","file":"docs/MASTER.md","x":300,"y":600,"width":300,"height":80,"color":"1"},
+		{"id":"data-ontology","type":"file","file":"data/ontology/relationships.yaml","x":-600,"y":600,"width":300,"height":80,"color":"5"},
+		{"id":"plan","type":"file","file":"docs/plans/master-doc-iteration-may-15-2026.md","x":-200,"y":700,"width":400,"height":60,"color":"6"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":300,"y":700,"width":400,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"boundary","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"adjacent","toSide":"left","color":"3"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"subsections","toSide":"right","color":"5"},
+		{"id":"e4","fromNode":"center","fromSide":"bottom","toNode":"kernel","toSide":"top","color":"4","label":"v0.1 entry point"},
+		{"id":"e5","fromNode":"kernel","fromSide":"right","toNode":"v01","toSide":"left","color":"4"},
+		{"id":"e6","fromNode":"center","fromSide":"left","toNode":"crosscuts","toSide":"right","color":"6"},
+		{"id":"e7","fromNode":"subsections","fromSide":"bottom","toNode":"two-layer","toSide":"top","color":"6"},
+		{"id":"e8","fromNode":"kernel","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"},
+		{"id":"e9","fromNode":"kernel","fromSide":"bottom","toNode":"master-doc","toSide":"top","color":"1"}
+	],
+	"metadata":{"layer":1,"name":"Ontology & Semantic Kernel","master_doc_lines":"2713–4862","generated":"2026-05-15"}
+}

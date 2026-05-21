@@ -327,6 +327,39 @@ function loadTasks() {
   return { critical, urgent, upcoming, completed };
 }
 
+// ── Backlog (from docs/BACKLOG.md) ─────────────────────────────────────────
+
+function loadBacklog() {
+  const backlog = readFileSafe(path.join(rootDir, "docs", "BACKLOG.md"));
+  if (!backlog) return { total: 0, byStatus: {}, topPriority: [] };
+
+  const items = extractCheckboxes(backlog);
+  const open = items.filter((i) => !i.done);
+
+  const byStatus = {};
+  const priorityKeywords = [
+    "highest priority",
+    "high-risk",
+    "candidate-integration",
+  ];
+  const topPriority = [];
+
+  for (const item of open) {
+    // Pull status labels from inline brackets like [`needs-review`]
+    const text = item.title || item.text || "";
+    const labelMatches = text.match(/\[`([a-z][a-z0-9-]*)`\]/gi) || [];
+    for (const m of labelMatches) {
+      const label = m.replace(/\[`|`\]/g, "");
+      byStatus[label] = (byStatus[label] || 0) + 1;
+    }
+    if (priorityKeywords.some((k) => text.toLowerCase().includes(k))) {
+      topPriority.push(item);
+    }
+  }
+
+  return { total: open.length, byStatus, topPriority: topPriority.slice(0, 3) };
+}
+
 // ── Events (from data/events.yaml — v2) ─────────────────────────────────────
 
 function loadEvents() {
@@ -588,6 +621,7 @@ function loadKeyDocs() {
   const keyFiles = [
     { path: "MASTERPLAN.md", label: "Strategic vision & agent activations" },
     { path: "HEARTBEAT.md", label: "Active tasks & system health" },
+    { path: "docs/BACKLOG.md", label: "Triaged TODO backlog (mirrors master doc §16)" },
     { path: "MEMORY.md", label: "Key decisions & context index" },
     { path: "SOUL.md", label: "Values, mission & voice" },
     { path: "IDENTITY.md", label: "Organization identity & addresses" },
@@ -1129,6 +1163,7 @@ async function main() {
   const status = loadStatus(federationData);
   const projects = loadProjects();
   const tasks = loadTasks();
+  const backlog = loadBacklog();
   const events = loadEvents();
   const meetings = loadMeetings();
   const funding = loadFunding(fundingData);
@@ -1145,6 +1180,7 @@ async function main() {
     status,
     projects,
     tasks,
+    backlog,
     events,
     meetings,
     funding,
@@ -1358,7 +1394,7 @@ function generateAsciiBanner(name) {
 function renderMarkdown(state) {
   const config = loadDashboardConfig();
   const {
-    identity, status, projects, tasks, events, meetings,
+    identity, status, projects, tasks, backlog, events, meetings,
     funding, recentMemory, federation, apps, git, pipelines,
     plans, warnings,
   } = state;
@@ -1543,6 +1579,26 @@ function renderMarkdown(state) {
 
     const pending = tasks.critical.length + tasks.urgent.length + tasks.upcoming.length;
     out += `\n  ${pending} pending · ${tasks.critical.length} critical · ${tasks.completed.length} done\n`;
+  }
+
+  // ── Backlog (from docs/BACKLOG.md) ──────────────────────────────────────
+  if (config.backlog?.show !== false && backlog && backlog.total > 0) {
+    out += sectionHeader("Backlog");
+    out += `  ${backlog.total} open · mirrors MASTER.md §16 routing table\n`;
+    const statusEntries = Object.entries(backlog.byStatus).sort((a, b) => b[1] - a[1]);
+    if (statusEntries.length > 0) {
+      out += "\n";
+      for (const [label, count] of statusEntries.slice(0, 6)) {
+        out += `  ${pad(label, 28)}${count}\n`;
+      }
+    }
+    if (backlog.topPriority.length > 0) {
+      out += "\n  TOP PRIORITY\n";
+      for (const item of backlog.topPriority) {
+        out += `  ◆  ${truncate(stripMarkdown(item.text || item.title || ""), 66)}\n`;
+      }
+    }
+    out += `\n  → triage at docs/BACKLOG.md\n`;
   }
 
   // ── Calendar (This Week) ────────────────────────────────────────────────

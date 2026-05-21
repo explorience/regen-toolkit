@@ -1,49 +1,156 @@
-# Regen Web3 Toolkit — Backlog
+# Regen Knowledge Commons Toolkit — Backlog
 
-Extracted from `Web3 Toolkit.md` master doc (line references in brackets). Not prioritized; owner TBD.
+> **2026-05-15 iteration.** This is the overlay-side backlog — items that don't yet belong cleanly in a single layer + carryover content work + master-doc-side gaps. Mirrors the **master doc §16** structure (`docs/MASTER.md` lines 22954–24776). For master-doc gaps in detail, read §16 directly.
+>
+> **A healthy backlog lets the Toolkit remain open to future intelligence without making the present document unreadable.** Preserve useful material. Label its status. Route it when ready. Compost it when old. **Do not let it silently become guidance.**
 
-## Structural integrity (CSIS integration)
+## How this file works
 
-- [ ] **Add validation rules to Deployment Layer** — valid/invalid examples, minimum criteria per section. Right now requirements are defined but nothing checks if a deployment is actually valid. [L118–128]
-- [ ] **Connect Option Library to CSIS constraints** — annotate every option (governance, funding, etc.) with required constraints and typical failure modes. Today teams can pick structurally incompatible systems. [L130–144]
-- [ ] **Enforce CSIS in Tracks** — every track must pre-satisfy CSIS requirements and include constraint templates. Tracks are currently compositions but not guaranteed to be structurally valid. [L146–156]
-- [ ] **Clarify compressive vs generative standards** — architecture doesn't yet distinguish them. Generative layer = conditions under which coordination capacity develops and is sustained. [L189–192]
-- [ ] **Add capacity-building, shared understanding, and conflict transformation** as separate structural concerns in the deployment layer. [L191–192]
-- [ ] **Encode conformance posture** — where is the system merely CSIS-inspired vs actually applying standards? Mark scope (e.g. Deployment = strict, Ontology = advisory). [L193–195]
+Items use the **master doc §16 backlog status labels**:
 
-## Resource Graph / curation
+| Status | Meaning |
+|---|---|
+| `raw-note` | Preserved but not yet processed |
+| `future-seed` | Potentially useful later |
+| `needs-routing` | Should be assigned to a Toolkit layer |
+| `needs-review` | Requires human, source, domain, community, or technical review |
+| `needs-source` | Missing citation, link, or origin |
+| `needs-examples` | Concept promising but too abstract |
+| `needs-implementation-test` | Should be tested before integration |
+| `needs-owner` | Requires a steward or maintainer |
+| `candidate-integration` | Likely should move into the main architecture soon |
+| `candidate-template` | Should be preserved as a possible reusable template |
+| `high-risk` | Requires public-use / domain / governance / legal / ecological / AI / privacy / community review |
+| `candidate-removal` | May not be useful enough to keep |
+| `archive` | Preserve for historical memory |
+| `compost` | Transform old, failed, or outdated material into learning |
 
-- [ ] **Add "Don't Know" section links** to proper places in the Resource Graph tab. [L160]
-- [ ] **Resource audit** — confirm GPT didn't chop links from the source Google Sheet. Add: tokenengineeringlabs.com, block.science, Benjamin Barber FtC (computable law), occresearch.org, taxes (r/cryptotaxes + tools). [L164–168]
-- [ ] **Add headings inside tabs** for easier navigation. [L170]
-- [ ] **Input more context on Bloom, Greenpill, ReFi DAO** so the AI has full ecosystem grounding. [L180]
-- [ ] **Add a location/interest/offers-and-requests connection layer** — Craigslist-esque matching for people not tied to a chapter/local node. [L176]
-- [ ] **Reference other curated layers** — Bread Coop Share channel, other community curation patterns. [L178]
+For routing, see the **§16 routing table** (master doc lines 24604–24622).
 
-## Meeting notes
+---
 
-- [ ] **Consolidate all previous meeting notes** — LLM-distill/learn from them. Start with Apr 9 Regen Web3 Toolkit meeting (external Google Doc). [L106–110]
+## Items from master doc §16.2 "Current known gaps"
 
-## Conceptual clarity
+Master doc enumerates these explicitly. Treat as the team's known list, with overlay-side annotations.
 
-- [ ] **Taxonomy vs Ontology** — write a crisp distinction in the knowledge base. [L181]
-- [ ] **RatherMercurial ontology review** — Octo, SuperBenefit; incorporate tweet L174. [L172–174]
+### Highest priority — preserve before compressing
+- [ ] **Full Resource Graph extraction** [`needs-implementation-test`] (master doc §16.2.2). Raw inventory of resources, links, books, papers, tools, source systems, organizations, maps, social feeds, implementation references, source candidates, failure cases, and loose leads must be extracted into a structured table before any cleaned narrative version is created. **Overlay status:** 738 entries lifted 2026-04-26 from the 2026-04-23 iteration. Re-lift against new §7 is queued in [`plans/master-doc-iteration-may-15-2026.md`](plans/master-doc-iteration-may-15-2026.md) Phase E.4.
 
-## Content (from March sprint)
+### Source System Cards (target: 5–10)
+- [ ] **Create 5–10 Source System Cards** [`candidate-template`, `needs-owner`] (master doc §16.15.6). Source Systems are *living knowledge environments* (wikis, repos, maps, forums, knowledge gardens, research DBs) with stewards + ongoing additions + return-paths. **Overlay status:** `data/sources.yaml` is empty. Schema needed. Candidates from existing approved source maps: Restor · Hylo · P2P Foundation · ReFi Ecosystem · Weavers Network · Second Renaissance.
 
-- [ ] Apply Matt's feedback on 4 articles (scams, seed phrases, wallet comparison, key terms). [L94]
-- [ ] Add real-world examples from approved source maps (Restor, Hylo, P2P Foundation, ReFi Ecosystem, Weavers Network, Second Renaissance). [L95]
-- [ ] Human review of all 67 published AI-assisted drafts — particularly for nuance, cultural context, and lived-experience content. [L47, L96]
-- [ ] **Phase 2** — expand 43 medium-length (200–799 word) articles via editorial pipeline. [L92]
-- [ ] **Phase 3** — write 139 stub articles from scratch. [L93]
+### Option Library entries (target: 10)
+- [ ] **Create 10 actual Option Library entries** [`candidate-integration`, `needs-owner`] (master doc §16.15.7 + §9.13 priority list). Master doc names 12 v0.1 priority examples: local node model · source-system card · claim-evidence record · consent-based decision-making · multisig treasury · quadratic funding · milestone-based grants · attestation-based evidence record · knowledge garden workflow · implementation retrospective · safe-to-fail probe · AI-assisted source classification.
 
-## Master doc housekeeping
+### Implementation Case Stubs (target: 5–8)
+- [ ] **Create 5–8 Implementation Case Stubs** [`candidate-template`, `needs-owner`] (master doc §16.15.8). Per master doc §12.2, existing implementation learning exists across ecosystem (GreenPill Brasil · Regen Rio · GreenGoods · Gitcoin Grants Garden · Gardens v2 · Karma GAP · CIDS · local chapters · public goods rounds · knowledge commons drafting · AI-assisted documentation pilots · ecological data pilots · workshops · governance experiments · bounties). Schema needed before stubs can be filled. **Coordinate with Koi (Bonfires substrate).**
 
-- [ ] **Resolve architecture version** — doc has 3 variants (Layers 1–8 detailed, 7-layer summary, 6-layer team map). Pick canonical, mark others as summaries.
-- [ ] **Resolve ontology version** — Version A (Octo-aligned) vs Version B (CSIS-optimized). Doc recommends v1 as base + v2b as semantic overlay — formalize.
-- [ ] **Extract resources dump** — 11+ domain URL lists (~lines 1089–5000) to structured `data/resources.yaml`. Large effort.
-- [ ] **Archive previous iterations** (V2 Clean, V2+ Integrated, CSIS version Google Docs) — L100–102.
+### Evolution Log
+- [ ] **Add an Evolution Log** [`needs-implementation-test`] (master doc §16.15.9). Per §13, ten signal types route to different layer updates. **Overlay status:** `data/feedback-process.yaml` (pre-iteration) needs split into Implementation Memory + Evolution; the Evolution side becomes the Evolution Log substrate.
 
-## External standards to integrate
+### Public-Use Boundary labels
+- [ ] **Add Public-Use Boundary labels** [`needs-review`] (master doc §16.15.10). Per Cross-Cutting Principle #4. High-risk areas: ecological claims, funding claims, governance recommendations. Should apply across L2 Encyclopedia, L3 Resource Graph, L8 Implementation Memory.
 
-- [ ] Durgadas — [CSIS standards](https://github.com/coordination-structural-integrity-suite/suite) — core structural integrity reference. [L116]
+### Deployment Readiness Levels
+- [ ] **Add Deployment Readiness Levels to deployment templates** [`candidate-template`] (master doc §16.5 + §16.15.11). Per L6, deployments classify by Type · Scale · Context · Maturity · Risk. Add to `data/deployment-requirements.yaml`.
+
+### CSIS-informed checks
+- [ ] **Add CSIS-informed checks where useful, without claiming conformance** [`needs-review`, `high-risk`] (master doc §16.15.12 + §10.12). CSIS reframed in new iteration from "conformance" to "semantic overlay." Existing `docs/CSIS.md` + alignment report need posture revision. **Coordinate with Durgadas.**
+
+### How to Use This Master Doc
+- [ ] **Write a short reader-orientation page** [`future-seed`] (master doc §16.2.1) — "where to start" pathways by contributor need. Master doc deferred this as not-priority-now. Overlay covers part of this via `docs/layers/README.md`, but a master-doc-side intro could complement.
+
+## Items from §16.10 "Research backlog"
+- [ ] Read master doc §16.10 in full (lines 24469–24560) — research questions tied to specific concepts. Route each to either L4 Concept & Idea Ecology (open question registry) or to Koi's pending research framework document.
+
+## Items from §16.8 "Frame Language Audit"
+- [ ] **Frame Language Audit** [`needs-owner`, `candidate-integration`] (master doc §16.8, lines 24384–24448 + adjacent to L4 Concept & Idea Ecology). Durgadas's framing critique — Frame 1 (extractive/hierarchical) vs Frame 2 (situational) vs Frame 3 (holistic) — now has dedicated master-doc home. **Coordinate with Durgadas** on the companion doc + AI prompts they committed to at 2026-04-23.
+
+## Items from §16.9 "Decision Rules v0.1"
+- [ ] Read master doc §16.9 (lines 24448–24469) — decision rules that should apply across the overlay's contribution workflow. Surface relevant ones into HEARTBEAT-time triage and PR-review.
+
+## Carryover from prior overlay BACKLOG.md (2026-04-23 iteration)
+
+### Content work (Heenal / Phase 2 + Phase 3 articles)
+- [ ] **Apply Matt's feedback on 4 articles** [`needs-review`] — scams · seed phrases · wallet comparison · key terms. (Heenal — carryover.)
+- [ ] **Add real-world examples from approved source maps** [`needs-source`] — Restor · Hylo · P2P Foundation · ReFi Ecosystem · Weavers Network · Second Renaissance.
+- [ ] **Human review of all 67 published AI-assisted drafts** [`needs-review`, `high-risk`] — nuance, cultural context, lived-experience. (Anti-extractive synthesis principle #9 applies.)
+- [ ] **Phase 2** — expand 43 medium-length (200–799 word) articles via editorial pipeline.
+- [ ] **Phase 3** — write 139 stub articles from scratch.
+
+### Resource Graph curation (Brandon)
+- [ ] **Brandon's curation pass on `data/resources.yaml`** [`needs-owner`] — dedupe, drop tag-as-resource bullets, fill URLs, classify. Gated on Phase E.4 re-lift completion.
+- [ ] **Resource audit** [`needs-source`] — confirm previous GPT lift didn't drop links. Items to verify: tokenengineeringlabs.com · block.science · Benjamin Barber FtC (computable law) · occresearch.org · taxes (r/cryptotaxes + tools).
+
+### Conceptual clarity
+- [ ] **Taxonomy vs Ontology distinction** [`candidate-integration`] — write a crisp distinction in the knowledge base. (Now belongs at L4 Concept & Idea Ecology + L1 Ontology adjacency.)
+- [ ] **Rather's ontology review pass** [`needs-review`] — Octo · SuperBenefit alignment; Two-Layer Ontology Posture (master doc §5.5) gives new framework.
+
+### Historic carryover from prior planning calls (triage at next biweekly)
+- [ ] Drew Simon — share knowledge commons starter links + details in group chat (raised 260212; status unclear)
+- [ ] Hub post about knowledge commons / federation collaboration (Afo — raised 260225; never confirmed sent)
+- [ ] Bright community collaboration — concrete ideas + connection to toolkit (Luiz to discuss with Rather; raised 260212)
+- [ ] Onboarding guides refresh — Local Node Onboarding + Network Initiative Onboarding (raised 260312)
+- [ ] Integrate Safe (smart wallet) content into the toolkit (raised 260312)
+- [ ] Style guide derived from ReFi DAO 200+ blog posts — partial existence at `docs/writing-system.md`; cross-reference with `content-updates/heen-ai/add-planning-docs` branch's `content-style-guide.md`
+
+## Items from §16.14 "What to avoid in the next pass" (constraints, not tasks)
+
+Read these as guard-rails for any refactor move. Surface at biweekly. They are NOT tasks — they're rules:
+
+- Do not start over.
+- Do not turn the doc into a public pitch.
+- Do not delete useful raw material too aggressively.
+- Do not over-polish uncertain material.
+- Do not treat the resource registry as endorsed.
+- Do not treat site articles as canonical without review.
+- Do not collapse tracks into deployments.
+- Do not collapse implementation cases into patterns.
+- Do not treat AI synthesis as reviewed.
+- Do not turn Octo / BKC into a final ontology decision.
+- Do not claim CSIS conformance.
+- Do not choose infrastructure before workflows are clear.
+- Do not flatten source systems into link lists.
+- Do not remove uncertainty just to make the document cleaner.
+- Do not compress raw resource inventories before extracting links.
+- Do not make the Toolkit sound more complete than it is.
+
+## Items from §16.16 "Suggested AI instruction" (operator guard-rails for AI work)
+
+If you're using an AI assistant to work on the Toolkit, follow these (verbatim from master doc):
+
+1. Use the latest master doc as the backbone.
+2. Do not start from scratch.
+3. Preserve useful content from previous iterations.
+4. Do not separate old and new content unless asked.
+5. Re-home material into the correct layer.
+6. Maintain distinctions between Resource, Concept, Option, Track, Deployment, Implementation, Signal, and Pattern.
+7. Mark uncertainty and maturity state.
+8. Preserve source lineage and attribution.
+9. Flag high-risk public-use material.
+10. Treat Octo / BKC as an ontology alignment candidate, not a final decision.
+11. Treat CSIS as an informing framework, not a conformance claim.
+12. Prefer stabilization, routing, and implementation scaffolding over conceptual expansion.
+13. Move messy unresolved material to Backlog / Next Sprint rather than deleting it.
+14. Keep the document dense, practical, source-aware, and implementation-oriented.
+15. Preserve raw resource inventories before summarizing.
+16. Do not treat AI-assisted synthesis as reviewed knowledge.
+17. If cleanup drops concrete links, restore the raw source and extract before rewriting.
+
+---
+
+## Backlog maintenance process (from master doc §16.13)
+
+1. Add raw note or future seed.
+2. Label status.
+3. Add suggested route if known.
+4. Review periodically.
+5. Move high-priority items into active work.
+6. Archive or compost old items.
+7. Remove only when clearly irrelevant, duplicate, harmful, or intentionally rejected.
+
+**Suggested rhythm:** quick monthly triage · deeper quarterly review · review after major implementation cycles · review before public site releases · review before AI-assisted synthesis rewrites raw material.
+
+---
+
+_Last refreshed: 2026-05-15 against master doc §16 (lines 22954–24776). For the master-doc-side backlog detail, read MASTER.md §16 directly._

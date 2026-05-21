@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 2 — Knowledge Commons / Encyclopedia\n\n**Core question:** What does this mean?\n\nThe explanatory and educational layer. Turns fragmented exposure into structured understanding. Moves people from scattered links to coherent learning.","x":-300,"y":-150,"width":600,"height":300,"color":"1"},
+		{"id":"boundary","type":"text","text":"## NOT this layer\n\n- The raw resource aggregation layer (that's L3)\n- The ontology (L1)\n- The Option Library (L5)\n- The Deployment layer (L6)\n- The implementation repository (L8)\n- The technical substrate (L10)\n\n*It is where concepts, frameworks, comparisons, guides, domains, anti-patterns, and open questions are EXPLAINED.*","x":-400,"y":-650,"width":800,"height":400,"color":"2"},
+		{"id":"adjacent","type":"text","text":"## Adjacent layers\n\n- **L1 Ontology** — Structures meaning; Encyclopedia explains it\n- **L3 Resource Graph** — Maps what exists; Encyclopedia explains what it means\n- **L4 Concept Ecology** — Encyclopedia explains; Ecology maps lineage / tensions\n- **L5 Option Library** — Encyclopedia explains; Library organizes reusable choices\n- **L7 Tracks** — Encyclopedia is the reference; Tracks compose pathways","x":650,"y":-400,"width":500,"height":400,"color":"3"},
+		{"id":"domains","type":"text","text":"## 14 Core Knowledge Domains (§6.10)\n\n0. Meta-foundation and orientation\n1. Concept spine\n2. Systems thinking and complexity\n3. Economics, value, and capital\n4. Web3 and digital infrastructure\n5. Governance, coordination, power\n6. Funding, allocation, treasury, incentives\n7. Knowledge systems, ontology, documentation\n8. Social systems, culture, narrative\n9. Impact, evidence, verification, measurement\n10. Environmental, local, bioregional systems\n11. AI, intelligence infrastructure\n12. Practical orientations / learning pathways\n13. Failure, resilience, anti-patterns\n14. Frontier questions / unresolved areas","x":-1000,"y":-400,"width":550,"height":600,"color":"5"},
+		{"id":"page-types","type":"text","text":"## Core page types\n\n- Concept pages\n- Framework pages\n- Comparison pages\n- Domain overviews\n- Learning paths\n- Guides\n- Glossary entries\n- Anti-pattern explainers\n- Frontier / open-question pages\n- Case-linked knowledge pages","x":-1000,"y":250,"width":450,"height":350,"color":"5"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #3 Maturity and review state\n- #4 Public-use boundaries\n- #5 Claim-evidence discipline\n- #9 Anti-extractive synthesis ⭐\n- #12 Pattern humility ⭐","x":650,"y":50,"width":400,"height":260,"color":"6"},
+		{"id":"v01","type":"text","text":"## v0.1 status\n\n- **67 articles live** at regen-toolkit-site.vercel.app\n- 254-article inventory\n- 5 learning paths live\n- Domain ↔ article mapping is the next structural task","x":-200,"y":250,"width":500,"height":250,"color":"4"},
+		{"id":"audiences","type":"text","text":"## 3 audiences (site framing)\n\n- 🌱 **Grounded Regen** — never touched crypto\n- 💰 **Curious Degen** — crypto-native, wants impact\n- 🔄 **On-Chain Regen** — already in ReFi/web3","x":650,"y":350,"width":400,"height":200,"color":"3"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/02-knowledge-commons-encyclopedia.md","x":-300,"y":600,"width":500,"height":80,"color":"4"},
+		{"id":"site","type":"file","file":"src/content/docs/","x":300,"y":600,"width":300,"height":80,"color":"5"},
+		{"id":"master-doc","type":"file","file":"docs/MASTER.md","x":300,"y":700,"width":300,"height":60,"color":"1"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":700,"width":500,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"boundary","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"adjacent","toSide":"left","color":"3"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"domains","toSide":"right","color":"5","label":"organized by"},
+		{"id":"e4","fromNode":"center","fromSide":"bottom","toNode":"v01","toSide":"top","color":"4"},
+		{"id":"e5","fromNode":"domains","fromSide":"bottom","toNode":"page-types","toSide":"top","color":"5"},
+		{"id":"e6","fromNode":"center","fromSide":"right","toNode":"crosscuts","toSide":"left","color":"6"},
+		{"id":"e7","fromNode":"adjacent","fromSide":"bottom","toNode":"audiences","toSide":"top","color":"3"},
+		{"id":"e8","fromNode":"v01","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":2,"name":"Knowledge Commons / Encyclopedia","master_doc_lines":"4862–6734","generated":"2026-05-15"}
+}

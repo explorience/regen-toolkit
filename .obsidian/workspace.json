@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "435534bb761018e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f11ee8b0ad0b2f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f88a0ddee862c18",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "docs/canvases/layers/09-evolution.canvas",
+                "viewState": {
+                  "x": 75,
+                  "y": 40,
+                  "zoom": -0.944355267854096
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "09-evolution"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b28efc74a3d0c2c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b9800e58d6819c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e58df1f8b222dae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c8f06216a5b76d6b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0640c93c6303e3b1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8301fea6af17681d",
+    "type": "split",
+    "children": [
+      {
+        "id": "27af0f30d36f66f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39c0aaed295bedd6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/canvases/layers/09-evolution.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 09-evolution"
+            }
+          },
+          {
+            "id": "f7d0516aeee0f3f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/canvases/layers/09-evolution.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 09-evolution"
+            }
+          },
+          {
+            "id": "9558a17df4badc69",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7fd3246d927ba7d5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f952c28455341c31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/canvases/layers/09-evolution.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 09-evolution"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0f88a0ddee862c18",
+  "lastOpenFiles": [
+    "docs/reports/2026-05-15-master-doc-iteration-team-report.md",
+    "docs/canvases/layers/07-tracks.canvas",
+    "docs/canvases/layers/06-deployment.canvas",
+    "docs/canvases/layers/03-resource-graph.canvas",
+    "docs/canvases/layers/04-concept-ecology.canvas",
+    "docs/canvases/layers/05-option-library.canvas",
+    "docs/canvases/layers/02-encyclopedia.canvas",
+    "docs/canvases/layers/01-ontology.canvas"
+  ]
+}

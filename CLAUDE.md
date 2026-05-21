@@ -4,7 +4,7 @@ This workspace is **two things co-located**: the **Regen Web3 Toolkit knowledge 
 
 ## Quick Start
 
-**Read `MASTERPLAN.md` first**, then `docs/MASTER.md` (the 7,500-line master doc by Matt — the actual development spec). `MASTERPLAN.md` is the operator-facing summary; `docs/MASTER.md` is the source of truth.
+**Read `MASTERPLAN.md` first**, then `docs/MASTER.md` (the **2026-05-15 stabilization draft, ~24,700 lines**, by Matt — the actual development spec). `MASTERPLAN.md` is the operator-facing summary; `docs/MASTER.md` is the source of truth. For per-layer entry points (one doc + one canvas per layer), start at [`docs/layers/README.md`](docs/layers/README.md). For triaged TODO work, see [`docs/BACKLOG.md`](docs/BACKLOG.md) (mirrors master doc §16).
 
 Then follow the startup sequence in `AGENTS.md`:
 
@@ -25,10 +25,11 @@ Then follow the startup sequence in `AGENTS.md`:
 - Content in `src/content/docs/`; site config `astro.config.mjs`; site scripts in `scripts/` (non-org-os)
 
 **org-os instance (coordination overlay):**
-- Master doc `docs/MASTER.md` — canonical development spec (by Matt)
-- Structured extractions — `data/ontology/`, `data/option-library.yaml`, `data/deployment-requirements.yaml`, `data/feedback-process.yaml`
-- Backlog `docs/BACKLOG.md` — 11 explicit todos from the master doc
-- 8-layer architecture with named ownership in `IDENTITY.md`
+- Master doc `docs/MASTER.md` — canonical development spec (by Matt; 2026-05-15 stabilization draft)
+- Per-layer docs `docs/layers/` + per-layer canvases `docs/canvases/layers/` + master overview canvas `docs/canvases/regen-knowledge-commons-toolkit-master.canvas`
+- Structured extractions — `data/ontology/`, `data/option-library.yaml`, `data/deployment-requirements.yaml`, `data/feedback-process.yaml`, `data/resources.yaml`
+- Backlog `docs/BACKLOG.md` — **triaged TODO surface** mirroring master doc §16 (status labels + routing table; refreshed 2026-05-15 against new iteration; dashboard surfaces open count + top-priority items)
+- **10-layer architecture** with named ownership in `IDENTITY.md` (refresh pending post-2026-05-21 biweekly)
 - CSIS alignment reference `docs/CSIS.md` (Durgadas)
 - Native agent skills in `skills/` — meeting-processor, knowledge-curator, idea-scout, schema-generator, research, workspace-improver, heartbeat-monitor, org-os-init
 - External skill collections under `.agents/skills/` (git submodules) — `obra/superpowers` (agentic methodology: TDD, planning, brainstorming, debugging) and `forrestchang/andrej-karpathy-skills` (Karpathy LLM-coding heuristics)
@@ -40,7 +41,8 @@ Then follow the startup sequence in `AGENTS.md`:
 - **After data changes:** Run `npm run generate:schemas && npm run validate:schemas`
 - **Memory:** Write daily logs to `memory/YYYY-MM-DD.md` (append, never overwrite). Existing `memory/work-log/` is pre-overlay history.
 - **Safety:** Draft-and-present for external actions (hackathon outreach, article publishing, partner comms). Never send without approval.
-- **Layer thinking:** Every change should map to one (or more) of the 8 layers. Flag which layer in PR descriptions.
+- **Layer thinking:** Every change should map to one (or more) of the 10 layers (per 2026-05-15 iteration). Flag which layer in PR descriptions. Start at [`docs/layers/README.md`](docs/layers/README.md).
+- **TODO routing:** When something is parked, queued, or needs triage, route it to [`docs/BACKLOG.md`](docs/BACKLOG.md) with a status label (`raw-note` / `needs-routing` / `needs-owner` / `candidate-integration` / `high-risk` / etc.). When picked up for active work, lift to `HEARTBEAT.md`. Dashboard auto-surfaces backlog count + top-priority items.
 - **Frame-language discipline:** Per Durgadas's 2026-04-23 critique, watch for Frame 1 (extractive/hierarchical) language masquerading as regenerative — especially on copy and governance docs. See `docs/CSIS.md` and `memory/2026-04-24.md` for context.
 - **Preserve the site build:** Never break `npm run dev` / `npm run build` / `npm run preview`. The knowledge site is live.
 
@@ -69,10 +71,15 @@ npm run knowledge            # Compile knowledge base + index + lint
 ## Key Docs
 
 **Master + toolkit-specific:**
-- `docs/MASTER.md` — **The master doc.** 8-layer architecture, 254-article inventory, design rationale.
-- `docs/BACKLOG.md` — 11 todos extracted from the master doc
-- `docs/CSIS.md` — Comprehensive Structural Integrity Suite reference (Durgadas)
+- `docs/MASTER.md` — **The master doc.** 2026-05-15 stabilization draft, 10-layer architecture (Tracks restored, Infrastructure & Substrate new), 254-article inventory, design rationale, Minimum Operating Kernel (5 objects), 18 cross-cutting principles.
+- `docs/MASTER-DOC-CHANGES-2026-05-15.md` — diff vs previous iteration
+- `docs/layers/` — per-layer documentation (one doc per layer, 1–10) + README.md index
+- `docs/canvases/layers/` — per-layer Obsidian canvases; master overview at `docs/canvases/regen-knowledge-commons-toolkit-master.canvas`
+- `docs/BACKLOG.md` — **triaged TODO backlog** (mirrors master doc §16 status labels + routing table; surfaced on dashboard)
+- `docs/CSIS.md` — Comprehensive Structural Integrity Suite reference (Durgadas; posture revision pending — new iteration reframes "conformance" → "semantic overlay")
 - `docs/briefings/` — Personal briefings on major master-doc iterations
+- `docs/plans/` — Plans (active: `master-doc-iteration-may-15-2026.md`; queued: `swarm-contribution-pack.md`)
+- `docs/reports/` — Integration reports + team-facing reports
 
 **Framework (org-os):**
 - `docs/FILE-STRUCTURE.md` — Canonical directory specification

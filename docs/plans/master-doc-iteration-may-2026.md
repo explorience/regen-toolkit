@@ -35,17 +35,20 @@ Matty's framing — "checkpoint heading into the swarm" — explicitly signals t
 - [x] Add iteration-checkpoint banners to `docs/LAYERS.md` and `docs/ORG-OS.md`
 - [x] Create this plan + `docs/plans/swarm-contribution-pack.md`
 - [x] Update `docs/plans/QUEUE.md` to surface both
-- [ ] Walk the team through the diff at 2026-05-07 biweekly (operator: Luiz)
+- [x] **Walk the team through the diff at 2026-05-07 biweekly** (operator: Luiz) — *done 2026-05-07; iteration acknowledged as working checkpoint, no objections raised to the rename or layer restructure*
 
 ### Phase 2 — Reconciliation discussion (biweekly + Pulse 1 weekend)
 
-- [ ] **Layer ownership:** Heenal owned "Tracks" — that layer is gone. Confirm Heenal moves to Encyclopedia + learning-path lead, or absorbs Tracks into a different layer (Heenal + Matt at biweekly).
-- [ ] **Concept & Idea Ecology layer:** Identify owner. Possibly Matt (it's lineage/paradigm/framework mapping — adjacent to ontology work).
-- [ ] **Implementation Memory + Evolution split:** Currently both unowned. Discuss whether to keep two unowned slots or pursue one combined caretaker role.
+**Status update — 2026-05-07 biweekly:** the call did not produce final answers on most reconciliation items (intentionally — the Pulse 1 observation window is meant to inform them). What did happen: the rename + layer restructure were not contested, OrgOS was adopted as the team's shared coordination layer, and a *new* Phase 2 reconciliation item was surfaced — Toolkit vs "Transformational Journeys" framing tension (Koi).
+
+- [ ] **Layer ownership:** Heenal owned "Tracks" — that layer is gone. Confirm Heenal moves to Encyclopedia + learning-path lead, or absorbs Tracks into a different layer (Heenal + Matt at biweekly). *Not addressed on 2026-05-07 — defer to ~2026-05-21 biweekly's persona/skill-mapping session.*
+- [ ] **Concept & Idea Ecology layer:** Identify owner. Possibly Matt (it's lineage/paradigm/framework mapping — adjacent to ontology work). *Not addressed 2026-05-07.*
+- [ ] **Implementation Memory + Evolution split:** Currently both unowned. Discuss whether to keep two unowned slots or pursue one combined caretaker role. *Adjacent: Koi committed (2026-05-07) to drafting a research framework document for Evolution — partial coverage if Koi takes Evolution.*
 - [ ] **CSIS alignment:** New master doc emphasizes structural integrity questions ("Who is represented? Who is absent? Who maintains it?") — Durgadas to confirm whether the existing CSIS × org-os Alignment Report covers these or needs supplementing.
 - [ ] **Tool/Option/Pattern/Protocol/Deployment/Case distinction:** New master doc proposes this 6-tier distinction for the Option Library. Cross-walk against existing `data/option-library.yaml` 9-category scaffold.
 - [ ] **Ontology object types:** New master enumerates 25 working types. Decide which are root types vs tags vs metadata.
 - [ ] **Maturity language:** New master proposes 9 states (`raw`, `to-place`, `draft`, `candidate`, `reviewed`, `field-informed`, `pattern-generating`, `deprecated`, `open question`). Adopt as canonical or map to existing `status` fields.
+- [ ] **Toolkit vs "Transformational Journeys" framing tension** *(NEW 2026-05-07, Koi)*: pulls in different direction from the 2026-05-06 "Knowledge Commons Toolkit" rename. Koi's three concerns: (1) "toolkit" reads as backpack/inventory/repository ambiguously; (2) tools imply transactional interactions, but the goal is relational + continuous learning; (3) navigation between layers is the core feature, more than documentation. **Decision question:** keep the 2026-05-06 rename ("Knowledge Commons Toolkit") and absorb Koi's critique into framing copy, OR consider a deeper rename (e.g., "Knowledge Commons Journeys" or similar). **Defer to:** Matty's response post-Pulse-1 + observation of Swarm framing language during Pulse 1 itself.
 
 ### Phase 3 — Structured refactor (post-Pulse 1)
 

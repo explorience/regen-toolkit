@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 6 — Deployment & Structural Integrity\n\n**Core question:** What must be explicit before something is used in practice?\n\n**Where structural integrity matters most.** The Toolkit's responsibility translation point — where choices become operational.","x":-300,"y":-150,"width":600,"height":320,"color":"1"},
+		{"id":"core-principle","type":"text","text":"## Core principle (preserved across iterations)\n\n> A deployment is valid only if all required structures are explicitly defined and visible.\n\n*A good idea is not the same as a valid deployment. Don't encourage people to copy mechanisms without making structural conditions visible.*","x":-400,"y":-650,"width":800,"height":350,"color":"2"},
+		{"id":"checks","type":"text","text":"## 6 Minimum Integrity Checks (§10.6)\n\nEvery deployment must specify:\n\n1. **Decision system** — Who decides?\n2. **Information requirements** — What's needed?\n3. **Power structure** — Who holds authority?\n4. **Accountability system** — Who's accountable to whom?\n5. **Failure detection system** — How are issues surfaced?\n6. **Fixed / configurable / experimental boundaries** — What's settled vs in motion?","x":-1000,"y":-400,"width":500,"height":450,"color":"5"},
+		{"id":"high-risk","type":"text","text":"## 6 High-Risk Deployment Areas (§10.13)\n\nHeavier review than other deployments:\n\n1. Funding mechanisms\n2. Token and incentive systems\n3. Governance systems\n4. Ecological / MRV systems\n5. AI-assisted systems\n6. Community mapping and representation","x":650,"y":-400,"width":500,"height":350,"color":"3"},
+		{"id":"csis","type":"text","text":"## CSIS as semantic overlay (key 2026-05-15 shift)\n\n2026-04-23: \"strict conformance in Deployment\"\n2026-05-15: **\"CSIS-informed, not CSIS-conformant\"**\n\nDurgadas's concepts (Dunbar scaling, six-directional responsibility) inform the templates — conformance is not automatic.\n\n*Implication: existing CSIS × org-os Alignment Report needs posture revision.*","x":650,"y":0,"width":500,"height":320,"color":"6"},
+		{"id":"examples","type":"text","text":"## Worked deployment-check examples (§10.16)\n\n- Public goods funding round deployment\n- Local node deployment\n- AI-assisted knowledge workflow deployment\n- Ecological reporting deployment\n\n*Each shows the 6 checks + applicable high-risk-area considerations.*","x":-1000,"y":100,"width":500,"height":300,"color":"4"},
+		{"id":"adjacent","type":"text","text":"## Adjacent layers\n\n- **L5 Options** — option is selectable; deployment specifies use\n- **L7 Tracks** — track is guided pathway; deployment is specific configuration\n- **L8 Implementation** — deployment is specified; implementation is what happens","x":-300,"y":300,"width":600,"height":260,"color":"3"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles (heavy here)\n\n- #4 Public-use boundaries\n- #5 Claim-evidence discipline\n- #6 Review should scale with risk\n- #7 Regenerative obligation\n- #8 Consent, privacy, representation\n- #14 AI-assisted but human-governed","x":650,"y":350,"width":500,"height":300,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/06-deployment-and-structural-integrity.md","x":-300,"y":620,"width":600,"height":80,"color":"4"},
+		{"id":"data-deployment","type":"file","file":"data/deployment-requirements.yaml","x":-700,"y":620,"width":350,"height":80,"color":"5"},
+		{"id":"csis-doc","type":"file","file":"docs/CSIS.md","x":350,"y":620,"width":300,"height":80,"color":"6"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":720,"width":600,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"core-principle","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"checks","toSide":"right","color":"5","label":"6 minimum checks"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"high-risk","toSide":"left","color":"3","label":"6 high-risk areas"},
+		{"id":"e4","fromNode":"high-risk","fromSide":"bottom","toNode":"csis","toSide":"top","color":"6"},
+		{"id":"e5","fromNode":"checks","fromSide":"bottom","toNode":"examples","toSide":"top","color":"4"},
+		{"id":"e6","fromNode":"center","fromSide":"bottom","toNode":"adjacent","toSide":"top","color":"3"},
+		{"id":"e7","fromNode":"adjacent","fromSide":"right","toNode":"crosscuts","toSide":"left","color":"6"},
+		{"id":"e8","fromNode":"adjacent","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":6,"name":"Deployment & Structural Integrity","master_doc_lines":"14099–15454","generated":"2026-05-15"}
+}

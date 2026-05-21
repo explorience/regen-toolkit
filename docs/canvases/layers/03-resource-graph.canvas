@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 3 — Resource Graph & Ecosystem Atlas\n\n**Core question:** What exists in the world?\n\nThe Toolkit's *reality layer*. Maps real-world people, projects, organizations, tools, protocols, datasets, source systems, communities, events, cases. Grounds knowledge in actual activity.","x":-300,"y":-150,"width":600,"height":300,"color":"1"},
+		{"id":"handoff","type":"text","text":"## ⚠ Handoff note (master doc §7 opening)\n\n> Do not replace this section with a shorter synthesized version until the full resource inventory has been extracted, routed, and intentionally reviewed.\n> \n> **Prefer preservation over compression.**\n\n*Validates the 2026-04-26 mechanical lift approach.*","x":-400,"y":-650,"width":800,"height":400,"color":"2"},
+		{"id":"distinction","type":"text","text":"## Resource Graph vs Ecosystem Atlas\n\n| | |\n|---|---|\n| **Graph** | Structured registry (entries, metadata, relationships, source lineage, review status) |\n| **Atlas** | Interpretive map (entity / function / concept / source-system / tool / place views) |\n\n*Graph stores data. Atlas tells the story.*","x":650,"y":-400,"width":500,"height":350,"color":"3"},
+		{"id":"belongs","type":"text","text":"## What belongs (master doc §7.2)\n\norganizations · networks · communities · people · tools · protocols · platforms · maps · datasets · articles · papers · books · events · projects · local nodes · **source systems** · standards · repositories · knowledge gardens · implementation cases · infrastructure candidates · failure cases · open questions · loose leads","x":-1000,"y":-400,"width":500,"height":400,"color":"5"},
+		{"id":"routes","type":"text","text":"## What does NOT primarily belong\n\n| Item | Primary home |\n|---|---|\n| Concept explanation | L2 Encyclopedia |\n| Reusable design choice | L5 Option Library |\n| Operational checklist | L6 Deployment |\n| Retrospective / case analysis | L8 Implementation Memory |\n| Formal schema | L1 Ontology |\n| Feedback from use | L9 Evolution |\n| Unresolved research question | §16 Backlog |\n| Infrastructure evaluation | L10 Infrastructure |","x":-1000,"y":50,"width":500,"height":400,"color":"5"},
+		{"id":"source-systems","type":"text","text":"## Source Systems (special category)\n\nA **Source System** is not a single artifact — it is a *living knowledge environment* (wiki, repo, map, forum, knowledge garden, research DB) with stewards, ongoing additions, and a return-path to credit.\n\n*Source System Cards (Phase 3) — `data/sources.yaml` currently empty.*","x":650,"y":50,"width":450,"height":300,"color":"6"},
+		{"id":"v01","type":"text","text":"## v0.1 status\n\n- **738 entries lifted** (2026-04-26) from `MASTER.md` (2026-04-23 iteration) lines 1089–2668\n- 285 URL-bearing · 50 domains\n- Pending: Brandon's curation pass\n- Pending: re-lift against new MASTER.md §7","x":-200,"y":250,"width":500,"height":260,"color":"4"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #1 Provenance and source lineage\n- #2 Attribution and return paths\n- #3 Maturity and review state\n- #6 Review should scale with risk\n- #17 Compost, archive, and memory ⭐","x":650,"y":400,"width":450,"height":260,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/03-resource-graph-and-ecosystem-atlas.md","x":-300,"y":600,"width":550,"height":80,"color":"4"},
+		{"id":"data-resources","type":"file","file":"data/resources.yaml","x":-700,"y":600,"width":350,"height":80,"color":"5"},
+		{"id":"lift-script","type":"file","file":"scripts/lift-resources.mjs","x":300,"y":600,"width":350,"height":80,"color":"6"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":700,"width":550,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"handoff","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"distinction","toSide":"left","color":"3"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"belongs","toSide":"right","color":"5"},
+		{"id":"e4","fromNode":"belongs","fromSide":"bottom","toNode":"routes","toSide":"top","color":"5"},
+		{"id":"e5","fromNode":"center","fromSide":"bottom","toNode":"v01","toSide":"top","color":"4"},
+		{"id":"e6","fromNode":"distinction","fromSide":"bottom","toNode":"source-systems","toSide":"top","color":"6"},
+		{"id":"e7","fromNode":"v01","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"},
+		{"id":"e8","fromNode":"v01","fromSide":"left","toNode":"data-resources","toSide":"right","color":"5","label":"738 entries"}
+	],
+	"metadata":{"layer":3,"name":"Resource Graph & Ecosystem Atlas","master_doc_lines":"6734–10348","generated":"2026-05-15"}
+}

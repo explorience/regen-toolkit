@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 7 — Tracks & Composition\n\n**Core question:** What pathway should someone follow for a specific context?\n\n♻ **Restored layer.** Dropped in the 2026-05-06 iteration; back in 2026-05-15. The largest \"what was lost\" recovery per Matty's note.\n\nGuided pathways through the Toolkit — combining concepts, resources, options, tools, checks, and cases.","x":-300,"y":-200,"width":600,"height":360,"color":"1"},
+		{"id":"boundary","type":"text","text":"## What a track is NOT\n\n- a final curriculum\n- a finished implementation plan\n- a universal playbook\n- a deployment specification\n- a certification process\n- a substitute for local judgment\n- a claim that one pathway works everywhere\n- a promise that listed options are safe to use\n\n*Tracks **prepare** people for action. Deployments **specify** action. Implementations **record** what happened.*","x":-400,"y":-650,"width":800,"height":400,"color":"2"},
+		{"id":"candidates","type":"text","text":"## 10 Core Track Candidates (§11.10)\n\n1. Newcomer Orientation\n2. Community Organizer\n3. Local Node Builder\n4. Public Goods Funding Round\n5. Knowledge Commons Builder\n6. Governance Deep Dive\n7. Environmental Impact\n8. Bioregional Coordination\n9. AI-Assisted Knowledge Garden\n10. Implementation Reviewer\n\n*Each has: status · audience · prerequisites · concepts · options · deployment checks · suggested tools · common failures · maturity.*","x":-1000,"y":-400,"width":500,"height":500,"color":"5"},
+		{"id":"composition","type":"text","text":"## Track Composition (§11.4)\n\nA track may include:\n\nconcepts · encyclopedia pages · source systems · resource graph entries · option library entries · tools · templates · examples · case studies · anti-patterns · failure cases · deployment checks · reflection prompts · implementation memory prompts · open questions","x":650,"y":-400,"width":500,"height":400,"color":"3"},
+		{"id":"maturity","type":"text","text":"## Track Maturity (§11.7)\n\n5 states:\n\n1. **Draft** — sketch\n2. **Pilot** — used by someone\n3. **Active** — used by multiple, working\n4. **Field-informed** — learning fed back\n5. **Reviewed or deprecated** — signed off, or removed","x":650,"y":50,"width":500,"height":300,"color":"4"},
+		{"id":"v01-priority","type":"text","text":"## v0.1 priority (recommended)\n\nThree most operationally-ready given existing 67 articles + 5 learning paths:\n\n- **Newcomer Orientation**\n- **Local Node Builder**\n- **Knowledge Commons Builder**\n\n*Diff existing learning paths against these at ~2026-05-21 biweekly.*","x":-300,"y":300,"width":600,"height":280,"color":"4"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #3 Maturity and review state\n- #4 Public-use boundaries\n- #6 Review should scale with risk\n- #12 Pattern humility ⭐","x":-1000,"y":200,"width":400,"height":260,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/07-tracks-and-composition.md","x":-300,"y":620,"width":600,"height":80,"color":"4"},
+		{"id":"data-tracks","type":"file","file":"data/tracks.yaml","x":-700,"y":620,"width":350,"height":80,"color":"5"},
+		{"id":"lift-script","type":"file","file":"scripts/lift-tracks.mjs","x":350,"y":620,"width":350,"height":80,"color":"6"},
+		{"id":"site-paths","type":"file","file":"src/content/docs/","x":350,"y":720,"width":350,"height":60,"color":"3"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":720,"width":600,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"boundary","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"candidates","toSide":"right","color":"5","label":"10 candidates"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"composition","toSide":"left","color":"3"},
+		{"id":"e4","fromNode":"composition","fromSide":"bottom","toNode":"maturity","toSide":"top","color":"4"},
+		{"id":"e5","fromNode":"center","fromSide":"bottom","toNode":"v01-priority","toSide":"top","color":"4"},
+		{"id":"e6","fromNode":"candidates","fromSide":"bottom","toNode":"crosscuts","toSide":"top","color":"6"},
+		{"id":"e7","fromNode":"v01-priority","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":7,"name":"Tracks & Composition","master_doc_lines":"15454–17501","generated":"2026-05-15","restored":true}
+}

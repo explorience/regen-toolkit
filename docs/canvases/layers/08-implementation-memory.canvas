@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 8 — Implementation & Learning Memory\n\n**Core question:** What actually happened?\n\nRecords pilots, campaigns, funding rounds, governance experiments, local nodes, failures, adaptations, signals, and lessons. **Makes the Toolkit accountable to use.**","x":-300,"y":-150,"width":600,"height":320,"color":"1"},
+		{"id":"core-distinction","type":"text","text":"## Core distinction (preserved across iterations)\n\n> A deployment is the specified structure.\n> An implementation is what happened in reality.\n> Learning Memory is how the Toolkit preserves the difference.\n\n*Without this layer the Toolkit becomes a theory archive disconnected from practice.*","x":-400,"y":-650,"width":800,"height":380,"color":"2"},
+		{"id":"record-types","type":"text","text":"## 9 Implementation Record Types (§12.10)\n\n1. Pilot record\n2. Campaign record\n3. Funding round record\n4. Governance implementation record\n5. Local node record\n6. Knowledge commons implementation record\n7. Ecological / MRV implementation record\n8. Event / workshop record\n9. Failure case record","x":-1000,"y":-400,"width":500,"height":400,"color":"5"},
+		{"id":"practices","type":"text","text":"## 7 Implementation Memory Practices (§12.20)\n\n1. Record the gap between plan and reality\n2. Preserve context\n3. Document failures without blame\n4. Separate claims from evidence\n5. Route signals (→ L9 Evolution)\n6. **Do not generalize too quickly** (pattern humility)\n7. Feed the commons","x":650,"y":-400,"width":500,"height":350,"color":"3"},
+		{"id":"bonfires","type":"text","text":"## Bonfires / KOI federation hook\n\nCaue \"Koi\" Mtomaz's stack — recognized 2026-05-07 biweekly as **methodology AND live substrate** for this layer.\n\n- **Methodology:** Brazil AI-audit project (design science research, multi-track hypothesis testing, AI-audit data collection)\n- **Substrate:** Telegram bot + entity mapping + cross-platform knowledge graph + real-time indexing\n\nMCP integration live: `mcp__regen-koi__*`","x":-300,"y":250,"width":600,"height":350,"color":"6"},
+		{"id":"existing-ctx","type":"text","text":"## Existing implementation context (§12.2)\n\nImplementation learning already exists across the ecosystem:\n\nGreenPill Brasil · Regen Rio · GreenGoods · Gitcoin Grants Garden · Cookie Jar Research Raid · Gardens v2 · Karma GAP · CIDS · local chapters · public goods rounds · knowledge commons drafting · AI-assisted documentation · ecological data pilots · workshops · governance experiments · bounties · resource mapping\n\n*The goal is not to rewrite all of this immediately — create structure for capture going forward.*","x":650,"y":50,"width":500,"height":400,"color":"4"},
+		{"id":"adjacent","type":"text","text":"## Adjacent layers\n\n- **L6 Deployment** — specified structure → reality\n- **L7 Tracks** — preparation → action\n- **L9 Evolution** — produces signals that route to Evolution","x":-1000,"y":50,"width":500,"height":250,"color":"3"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #3 Maturity and review state\n- #5 Claim-evidence discipline\n- #6 Review should scale with risk\n- #12 Pattern humility ⭐\n- #16 Living systems health ⭐","x":-1000,"y":350,"width":500,"height":260,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/08-implementation-and-learning-memory.md","x":-300,"y":650,"width":600,"height":80,"color":"4"},
+		{"id":"data-feedback","type":"file","file":"data/feedback-process.yaml","x":-700,"y":650,"width":350,"height":80,"color":"5"},
+		{"id":"swarm-pack","type":"file","file":"docs/plans/swarm-contribution-pack.md","x":350,"y":650,"width":350,"height":80,"color":"6"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":750,"width":600,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"core-distinction","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"record-types","toSide":"right","color":"5","label":"9 record types"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"practices","toSide":"left","color":"3","label":"7 practices"},
+		{"id":"e4","fromNode":"center","fromSide":"bottom","toNode":"bonfires","toSide":"top","color":"6","label":"substrate candidate"},
+		{"id":"e5","fromNode":"practices","fromSide":"bottom","toNode":"existing-ctx","toSide":"top","color":"4"},
+		{"id":"e6","fromNode":"record-types","fromSide":"bottom","toNode":"adjacent","toSide":"top","color":"3"},
+		{"id":"e7","fromNode":"adjacent","fromSide":"bottom","toNode":"crosscuts","toSide":"top","color":"6"},
+		{"id":"e8","fromNode":"bonfires","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":8,"name":"Implementation & Learning Memory","master_doc_lines":"17501–18873","generated":"2026-05-15"}
+}

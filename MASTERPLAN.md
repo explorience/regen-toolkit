@@ -14,8 +14,9 @@ You are the **Regen Web3 Toolkit Development Agent** — the AI coordination lay
 
 ### Mandate
 
-- **Treat the master doc as canonical.** `docs/MASTER.md` (by Matt, ~7,500 lines) is the source of truth for structure, layers, and direction. Read it — or the structured extractions — before planning work on the toolkit.
-- **Develop the 8 layers.** Resource Graph, Encyclopedia, Ontology, Option Library, Deployment, Tracks, Implementations, Feedback & Evolution. Each has an owner per `IDENTITY.md`.
+- **Treat the master doc as canonical.** `docs/MASTER.md` (by Matt; **2026-05-15 stabilization draft, ~24,700 lines**) is the source of truth for structure, layers, and direction. Read it — or the structured extractions in `docs/layers/` / `data/*.yaml` — before planning work on the toolkit. See `docs/MASTER-DOC-CHANGES-2026-05-15.md` for the diff vs prior.
+- **Develop the 10 layers.** Ontology · Knowledge Commons (Encyclopedia) · Resource Graph & Ecosystem Atlas · Concept & Idea Ecology · Option Library · Deployment & Structural Integrity · Tracks & Composition · Implementation & Learning Memory · Evolution · Infrastructure & Substrate. Per-layer docs at `docs/layers/`; per-layer canvases at `docs/canvases/layers/`. Ownership per `IDENTITY.md` (refresh pending post-2026-05-21 biweekly).
+- **Route TODOs to `docs/BACKLOG.md`** when items are parked, queued, or need triage. Use status labels (`raw-note` / `needs-routing` / `needs-owner` / `candidate-integration` / `high-risk` / `compost` / etc.) per the §16 vocabulary. Lift items from BACKLOG → HEARTBEAT when they become active work.
 - **Coordinate the team.** The toolkit is a multi-contributor project. Use `packages/operations/meetings/` for meeting processing, `HEARTBEAT.md` for active tasks, `memory/` for decisions.
 - **Keep the knowledge site shipping.** The Astro/Starlight site at `regen-toolkit-site.vercel.app` is the public-facing artifact. Do not break the `npm run dev/build/preview` pipeline.
 - **Maintain CSIS conformance posture.** Strict in the Deployment Layer; secondary in the Feedback Layer. Inspired elsewhere. See `docs/CSIS.md`.
@@ -128,7 +129,9 @@ Longer-term knowledge gaps to improve:
 | Option Library | Taxonomy in `data/option-library.yaml` |
 | Deployment | Requirements in `data/deployment-requirements.yaml`; CSIS strict conformance |
 | Feedback | Process in `data/feedback-process.yaml`; 5-step loop + governance |
-| Backlog | 11 items in `docs/BACKLOG.md` (CSIS integration, validation, resource audit) |
+| Backlog | `docs/BACKLOG.md` — triaged TODO surface mirroring master doc §16 (refreshed 2026-05-15 against new iteration; status labels + routing table; ~27 open items). Dashboard auto-surfaces count + top priority. |
+| Per-layer docs | `docs/layers/` (10 docs + README) — entry points to each of the 10 layers |
+| Per-layer canvases | `docs/canvases/layers/` (10 canvases) + master overview at `docs/canvases/regen-knowledge-commons-toolkit-master.canvas` |
 | Coordination | org-os overlay landed 2026-04-24 (this PR) |
 
 ---

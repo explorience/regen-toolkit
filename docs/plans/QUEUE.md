@@ -1,14 +1,18 @@
 # Plan Queue — Toolkit (instance plans)
 
-> Last updated: 2026-05-06
+> Last updated: 2026-05-15
 >
-> **Iteration checkpoint:** Toolkit was renamed "Regen Knowledge Commons Toolkit" in the 2026-05-06 master doc iteration. See [`MASTER-DOC-CHANGES.md`](../MASTER-DOC-CHANGES.md). The wholesale rename across overlay docs is sequenced into [`master-doc-iteration-may-2026.md`](master-doc-iteration-may-2026.md) Phase 3 (post-Swarm-Pulse-1).
+> **2026-05-15 iteration checkpoint.** Matty shared a second master-doc iteration (stabilization draft, ~24,776 lines, 10 layers). Tracks restored; Infrastructure & Substrate added. Per-layer docs + canvases scaffolded. See [`docs/MASTER-DOC-CHANGES-2026-05-15.md`](../MASTER-DOC-CHANGES-2026-05-15.md) for the diff and [`master-doc-iteration-may-15-2026.md`](master-doc-iteration-may-15-2026.md) for the integration plan (supersedes May 6 Phase 3).
+>
+> **Pulse 1 happened 2026-05-09–10.** Retro still owed. Phase 3 refactor now unblocked AND retargeting to the 2026-05-15 iteration, not 2026-05-06.
+>
+> **TODO triage.** [`docs/BACKLOG.md`](../BACKLOG.md) is the parked/queued TODO surface (mirrors master doc §16). Plans here = sequenced multi-step work. Single-task backlog items live in BACKLOG. **Suggested triage rhythm** (per master doc §16.13): monthly triage · quarterly deeper review · review before each public site release · review before each AI-assisted synthesis pass. Promote BACKLOG → HEARTBEAT when an item enters active work.
 
 Toolkit-instance work plans. Strategic / network-level plans live in `regen-coordination-os/docs/plans/`.
 
 ## Active
 
-_(none — pick one of the queued plans below to activate)_
+1. [master-doc-iteration-may-15-2026](master-doc-iteration-may-15-2026.md) — **ACTIVE 2026-05-15.** Integrate the 2026-05-15 stabilization-draft iteration. Phase A (save + archive) done. Phase B (10 per-layer docs) done. Phase C (10 layer canvases) done. Phase D (master canvas) done. Phase E (structured refactor against new iteration) + Phase F (repo dev infrastructure) sequenced post-2026-05-21 biweekly. Phase G (site IA) deferred.
 
 ## Pending operator action
 
@@ -16,8 +20,11 @@ _(none currently — sharing pack sent 2026-05-06)_
 
 ## Queued — high-priority
 
-1. [master-doc-iteration-may-2026](master-doc-iteration-may-2026.md) — **NEW 2026-05-06.** Refactor overlay against Matty's substantially restructured + renamed master doc (Tracks layer dropped, Concept & Idea Ecology added, Implementation Memory + Evolution split, Ontology promoted to Layer 1). Phase 1 surfacing complete; Phase 2 reconciliation discussion at 2026-05-07 biweekly + Pulse 1 weekend; Phase 3 structural refactor post-Pulse-1.
-2. [swarm-contribution-pack](swarm-contribution-pack.md) — **NEW 2026-05-06.** v0.1 contribution pack for the Knowledge Commoning Swarm (Pulse 1: 2026-05-09–10). 7 short deliverables packaging Toolkit distinctions (atlas, source-systems, structural integrity, implementation memory, tool/option/pattern/protocol/deployment/case, anti-patterns, six-affordances translation) for cross-community reuse. Realistic v0.1 scope: 3–4 deliverables, not all 7.
+1. [swarm-contribution-pack](swarm-contribution-pack.md) — **NEW 2026-05-06.** v0.1 contribution pack for the Knowledge Commoning Swarm. Pulse 1 happened 2026-05-09–10 (retro owed). 7 short deliverables packaging Toolkit distinctions. Realistic v0.1 scope: 3–4 deliverables. **Stream #4 (Implementation Memory) now co-authored with Koi (Bonfires substrate).**
+
+## Superseded
+
+1. ~~[master-doc-iteration-may-2026](master-doc-iteration-may-2026.md)~~ — **SUPERSEDED 2026-05-15 by [`master-doc-iteration-may-15-2026.md`](master-doc-iteration-may-15-2026.md).** Phase 1 (surfacing) + Phase 2 reconciliation work fold into the new plan. The May 6 iteration's 8-layer model has been replaced by the 2026-05-15 10-layer model.
 
 ## Queued — pre-iteration batch (2026-04-25, partially superseded)
 
@@ -32,11 +39,13 @@ These don't have plan files yet — folded into [`master-doc-iteration-may-2026.
 
 ## Recommended sequencing
 
-1. **2026-05-07 biweekly** — walk team through `MASTER-DOC-CHANGES.md` + the two new plans. Surface Phase 2 reconciliation questions (layer ownership, owner for Concept & Idea Ecology, Implementation Memory + Evolution split, Tool/Option/Pattern/Protocol/Deployment/Case cross-walk, ontology object types, maturity language).
-2. **2026-05-09–10 Pulse 1** — observe what Swarm participants gravitate toward; adjust Swarm Contribution Pack v0.1 scope.
-3. **Post-Pulse-1, week 1** — start Phase 3 of `master-doc-iteration-may-2026` (re-run resources lift; refactor `data/ontology/`; cross-walk `data/option-library.yaml`; update `LAYERS.md`; update `IDENTITY.md`).
-4. **Post-Pulse-1, week 2** — root-MD rename pass (~30 files, single coherent commit). Validate schemas + structure.
-5. **Hackathon mid-point** — Swarm Contribution Pack v0.1 packaged + shared.
+1. ~~**2026-05-07 biweekly** — walk team through `MASTER-DOC-CHANGES.md` + the two new plans.~~ *Done 2026-05-07. Iteration acknowledged. Phase 2 reconciliation items mostly deferred to ~2026-05-21 biweekly's persona/skill-mapping session, Pulse 1 observation, and Matty's response post-travel. New reconciliation item: Toolkit vs "Transformational Journeys" framing tension.*
+2. **Pre-Pulse-1 (2026-05-08)** — Luiz: stand up shared task management surface (HEARTBEAT + Task Manager webapp + Telegram-able onboarding line); sketch Obsidian Canvas of toolkit architecture (new 8-layer KCT model).
+3. **2026-05-09–10 Pulse 1** — partial team attendance (Matty in Philadelphia for wedding); observation posture. Observe what Swarm participants gravitate toward; adjust Swarm Contribution Pack v0.1 scope. Capture framing language (Toolkit vs Journeys).
+4. **~2026-05-21 biweekly** — persona/game format. Team brings role/skill cards; assign post-Pulse-1 deliverables (Swarm Pack items 1–4 + 6) to actual people. Heenal's layer reassignment + Concept & Idea Ecology owner question best addressed here.
+5. **Post-Pulse-1, week 1** — start Phase 3 of `master-doc-iteration-may-2026` (re-run resources lift; refactor `data/ontology/`; cross-walk `data/option-library.yaml`; update `LAYERS.md`; update `IDENTITY.md`).
+6. **Post-Pulse-1, week 2** — root-MD rename pass (~30 files, single coherent commit). Validate schemas + structure. Decide Toolkit-vs-Journeys framing if Matty + Pulse 1 input has surfaced direction.
+7. **Hackathon mid-point** — Swarm Contribution Pack v0.1 packaged + shared.
 
 ## Completed
 

@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 4 — Concept & Idea Ecology\n\n**Core question:** Where did these ideas come from, and how do they relate?\n\nMaps lineages, paradigms, metaphors, tensions, conceptual clusters. **Prevents the Toolkit from flattening living ideas into static definitions.**","x":-300,"y":-150,"width":600,"height":300,"color":"1"},
+		{"id":"boundary","type":"text","text":"## Not for\n\n- Treating concepts as static dictionary entries\n- Merging ideas too quickly\n- Letting AI synthesis flatten distinctions\n- Pretending the Toolkit's vocabulary is neutral\n\n*Many key terms (regeneration, commons, governance, public goods) carry contested histories. This layer keeps that visible.*","x":-400,"y":-600,"width":800,"height":350,"color":"2"},
+		{"id":"clusters","type":"text","text":"## 10 Core Concept Clusters (§8.8)\n\n1. Knowledge commons cluster\n2. Regeneration cluster\n3. Public goods and commons cluster\n4. Governance, coordination, power cluster\n5. Funding, value, and incentives cluster\n6. Web3 infrastructure cluster\n7. Localism and bioregional coordination cluster\n8. Impact, evidence, and verification cluster\n9. AI and intelligence infrastructure cluster\n10. Infrastructure and substrate cluster","x":-1000,"y":-400,"width":500,"height":500,"color":"5"},
+		{"id":"distinctions","type":"text","text":"## 15 Important Conceptual Distinctions (§8.9)\n\nResource vs Source System · Ontology vs Taxonomy · Concept vs Framework · Practice vs Pattern · Protocol vs Playbook · Option vs Deployment · Track vs Deployment · Deployment vs Implementation · Implementation vs Pattern · Signal vs Metric · Claim vs Evidence · Public Goods vs Commons · Decentralization vs Federation vs Local Autonomy · Regeneration vs Sustainability vs Restoration · AI-assisted vs Human-reviewed","x":650,"y":-400,"width":500,"height":500,"color":"3"},
+		{"id":"practices","type":"text","text":"## 7 Concept Ecology Practices (§8.10)\n\n1. Preserve overloaded terms\n2. Create comparison pages\n3. Track conceptual drift\n4. Preserve tensions\n5. Treat metaphors carefully\n6. Mark frontier concepts\n7. Connect concepts to implementation","x":-1000,"y":200,"width":500,"height":300,"color":"4"},
+		{"id":"templates","type":"text","text":"## Templates (§8.7)\n\n- **Concept lineage template** — where an idea came from\n- **Tension map template** — surface contradictions\n- Metaphor + assumption notes","x":650,"y":200,"width":500,"height":250,"color":"4"},
+		{"id":"frame-language","type":"text","text":"## Frame Language interface\n\nFrame Language Audit lives at master doc **§16.8** (Backlog). Architecturally, the metaphor / tension work belongs here.\n\n*Durgadas's Frame 1 / Frame 2 / Frame 3 typology — see MEMORY.md (2026-04-23).*","x":-300,"y":250,"width":600,"height":250,"color":"6"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #5 Claim-evidence discipline\n- #9 Anti-extractive synthesis ⭐\n- #11 Type / tag discipline\n- #12 Pattern humility ⭐","x":-1300,"y":-100,"width":300,"height":260,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/04-concept-and-idea-ecology.md","x":-300,"y":550,"width":600,"height":80,"color":"4"},
+		{"id":"data-concepts","type":"file","file":"data/ontology/concepts.yaml","x":-700,"y":550,"width":350,"height":80,"color":"5"},
+		{"id":"csis","type":"file","file":"docs/CSIS.md","x":350,"y":550,"width":300,"height":80,"color":"6"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":650,"width":600,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"boundary","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"clusters","toSide":"right","color":"5","label":"10 clusters"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"distinctions","toSide":"left","color":"3","label":"15 distinctions"},
+		{"id":"e4","fromNode":"clusters","fromSide":"bottom","toNode":"practices","toSide":"top","color":"4"},
+		{"id":"e5","fromNode":"distinctions","fromSide":"bottom","toNode":"templates","toSide":"top","color":"4"},
+		{"id":"e6","fromNode":"center","fromSide":"bottom","toNode":"frame-language","toSide":"top","color":"6"},
+		{"id":"e7","fromNode":"center","fromSide":"left","toNode":"crosscuts","toSide":"right","color":"6"},
+		{"id":"e8","fromNode":"frame-language","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":4,"name":"Concept & Idea Ecology","master_doc_lines":"10348–12073","generated":"2026-05-15"}
+}

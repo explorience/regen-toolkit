@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Layer 10 — Infrastructure & Substrate\n\n**Core question:** What tools and technical foundations can support this?\n\n⭐ **NEW layer in 2026-05-15 iteration.** Promoted from scattered discussion to first-class layer.\n\nSits **under** the system, not in the workflow.","x":-300,"y":-150,"width":600,"height":320,"color":"1"},
+		{"id":"core-principle","type":"text","text":"## Core principle (§14.3)\n\n> **Infrastructure should follow function.**\n> Before choosing a tool, ask: *What work does this part of the Toolkit need to do?*\n\n> A tool can make a workflow easier. A tool can also distort the commons around its own assumptions. **Infrastructure should serve the work.**\n\n*Do not choose infrastructure before workflows are clear.*","x":-400,"y":-650,"width":800,"height":380,"color":"2"},
+		{"id":"substrate-by-need","type":"text","text":"## Substrate by need (§14.3)\n\n| Toolkit need | Better substrate |\n|---|---|\n| Architectural explanation | Markdown / document |\n| Resource inventory | Spreadsheet / table |\n| Source-system registry | Table + Source System Cards |\n| Option Library | Structured entries + Markdown |\n| Ontology | YAML / JSON-LD / LinkML |\n| Relationships | Graph database |\n| Implementation Memory | Case records + metadata |\n| Evolution Log | Issue tracker / changelog |\n| AI retrieval | Structured corpus + metadata + lineage |\n| Public navigation | Site, tags, search, index pages |\n| Contributor workflow | Low-friction forms / docs / templates |","x":-1100,"y":-400,"width":550,"height":550,"color":"5"},
+		{"id":"substrate-types","type":"text","text":"## 12 Substrate Types (§14.4–14.15)\n\n1. Master documents\n2. Markdown\n3. Google Docs\n4. GitHub\n5. Static doc site (Astro/Starlight)\n6. Spreadsheets / tables\n7. Databases\n8. Notion\n9. Obsidian\n10. JSON-LD / LinkML / Schema.org\n11. Graph DBs / RAG / GraphRAG\n12. Decentralized storage / attestations","x":650,"y":-400,"width":500,"height":450,"color":"3"},
+		{"id":"current-stack","type":"text","text":"## Current overlay stack\n\n- **Master doc:** Google Doc → mirrored to `docs/MASTER.md`\n- **Public site:** Astro/Starlight on Vercel\n- **Coordination overlay:** `feature/org-os-overlay` + npm scripts + `.well-known/`\n- **Resource Graph:** `data/resources.yaml` (lifted)\n- **Knowledge graph candidate:** Bonfires via `mcp__regen-koi__*`","x":-300,"y":300,"width":600,"height":260,"color":"4"},
+		{"id":"boundaries","type":"text","text":"## Public / Private / Internal (§14.20)\n\n- **Public** — site content, public Resource Graph\n- **Internal** — working drafts, contributor-only\n- **Private** — high-risk, sensitive community data, unreviewed claims\n\n*Different substrates suit different visibility tiers.*","x":650,"y":100,"width":500,"height":260,"color":"6"},
+		{"id":"crosscuts","type":"text","text":"## Cross-cutting principles\n\n- #10 Interoperability without forced uniformity\n- #14 AI-assisted but human-governed\n- **#15 Infrastructure should serve workflows** (heaviest fit here)\n- #16 Living systems health ⭐\n- #18 Contribution should be legible","x":650,"y":400,"width":500,"height":280,"color":"6"},
+		{"id":"layer-doc","type":"file","file":"docs/layers/10-infrastructure-and-substrate.md","x":-300,"y":620,"width":600,"height":80,"color":"4"},
+		{"id":"package-json","type":"file","file":"package.json","x":-700,"y":620,"width":350,"height":80,"color":"5"},
+		{"id":"federation","type":"file","file":"federation.yaml","x":-700,"y":720,"width":350,"height":60,"color":"3"},
+		{"id":"master-canvas","type":"file","file":"docs/canvases/regen-knowledge-commons-toolkit-master.canvas","x":-300,"y":720,"width":600,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"core-principle","toSide":"bottom","color":"2"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"substrate-by-need","toSide":"right","color":"5"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"substrate-types","toSide":"left","color":"3","label":"12 substrates"},
+		{"id":"e4","fromNode":"center","fromSide":"bottom","toNode":"current-stack","toSide":"top","color":"4"},
+		{"id":"e5","fromNode":"substrate-types","fromSide":"bottom","toNode":"boundaries","toSide":"top","color":"6"},
+		{"id":"e6","fromNode":"boundaries","fromSide":"bottom","toNode":"crosscuts","toSide":"top","color":"6"},
+		{"id":"e7","fromNode":"current-stack","fromSide":"bottom","toNode":"layer-doc","toSide":"top","color":"4"}
+	],
+	"metadata":{"layer":10,"name":"Infrastructure & Substrate","master_doc_lines":"20239–21626","generated":"2026-05-15","new_layer":true}
+}
