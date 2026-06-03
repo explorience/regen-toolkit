@@ -1,0 +1,126 @@
+---
+import "../styles/theme.css";
+const { title = "Regen Web3 Toolkit", description = "Practical, jargon-free knowledge for communities using web3 to regenerate the world." } = Astro.props;
+const nav = [
+  { label: "Journeys", href: "/#journeys" },
+  { label: "Knowledge map", href: "/explorer/" },
+];
+---
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,640&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Hanken+Grotesk:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script is:inline>
+      const t = localStorage.getItem("starlight-theme");
+      document.documentElement.dataset.theme =
+        t === "light" || t === "dark"
+          ? t
+          : matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light";
+    </script>
+  </head>
+  <body class="fg-root">
+    <header class="site-header">
+      <div class="wrap site-header__row">
+        <a href="/" class="brand" aria-label="Regen Web3 Toolkit home">
+          <span class="brand__mark" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <path d="M12 21c0-5 0-9 0-9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M12 12c-3.5 0-6-2.2-6-5.5C9.6 6.5 12 8.4 12 12Z" fill="currentColor"/>
+              <path d="M12 13.5c3 0 5.2-1.9 5.2-4.8C14 8.7 12 10.4 12 13.5Z" fill="currentColor" opacity=".75"/>
+            </svg>
+          </span>
+          <span class="brand__text">Regen&nbsp;Web3&nbsp;Toolkit</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+          <a class="site-nav__gh" href="https://github.com/explorience/regen-toolkit" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main><slot /></main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__grid">
+        <div>
+          <div class="brand brand--footer">
+            <span class="brand__text">Regen Web3 Toolkit</span>
+          </div>
+          <p class="site-footer__blurb">
+            A jargon-free field guide to using web3 for regeneration. Curated and
+            written in the open with the Greenpill, ReFi DAO and Regen Commons
+            communities.
+          </p>
+        </div>
+        <div>
+          <h4 class="site-footer__h">Journeys</h4>
+          <a href="/start/newcomer/">🌱 Newcomer Orientation</a>
+          <a href="/start/local-node/">🔄 Local Node Builder</a>
+        </div>
+        <div>
+          <h4 class="site-footer__h">More</h4>
+          <a href="/explorer/">Knowledge map</a>
+          <a href="/what-is-blockchain/">Browse all articles</a>
+          <a href="https://github.com/explorience/regen-toolkit">Contribute on GitHub</a>
+        </div>
+      </div>
+      <div class="wrap site-footer__base">
+        <span>Open knowledge commons · CC-licensed</span>
+        <span>Grown with care 🌿</span>
+      </div>
+    </footer>
+
+    <style>
+      .site-header {
+        position: sticky; top: 0; z-index: 50;
+        background: color-mix(in oklab, var(--paper) 80%, transparent);
+        backdrop-filter: blur(12px) saturate(1.1);
+        border-bottom: 1px solid var(--line);
+      }
+      .site-header__row { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+      .brand { display: inline-flex; align-items: center; gap: .55em; color: var(--ink); }
+      .brand__mark { color: var(--moss); display: inline-flex; }
+      .brand__text { font-family: var(--font-display); font-weight: 600; font-size: 1.22rem; letter-spacing: -.02em; }
+      .site-nav { display: flex; align-items: center; gap: clamp(14px, 2.4vw, 30px); font-family: var(--font-ui); font-weight: 500; }
+      .site-nav a { color: var(--ink-soft); transition: color .2s; position: relative; }
+      .site-nav a:hover { color: var(--moss); }
+      .site-nav a:not(.site-nav__gh)::after {
+        content: ""; position: absolute; left: 0; bottom: -6px; height: 2px; width: 0;
+        background: var(--growth); transition: width .25s var(--ease);
+      }
+      .site-nav a:not(.site-nav__gh):hover::after { width: 100%; }
+      .site-nav__gh { color: var(--ink-faint); display: inline-flex; }
+      @media (max-width: 620px) {
+        .site-nav { gap: 16px; font-size: .85rem; }
+        .brand__text { font-size: 1.05rem; }
+      }
+      @media (max-width: 420px) {
+        .site-nav a:first-of-type { display: none; } /* drop 'Journeys' (homepage anchor) on tiny screens */
+      }
+
+      .site-footer { margin-top: clamp(60px, 10vw, 120px); border-top: 1px solid var(--line); background: var(--paper-2); padding-block: clamp(40px, 6vw, 72px) 28px; }
+      .site-footer__grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: clamp(24px, 4vw, 56px); }
+      .site-footer__grid a { display: block; color: var(--ink-soft); font-family: var(--font-ui); padding: .25em 0; transition: color .2s; }
+      .site-footer__grid a:hover { color: var(--moss); }
+      .site-footer__h { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .16em; font-size: .72rem; color: var(--moss-soft); margin-bottom: .7em; }
+      .brand--footer .brand__text { font-size: 1.3rem; }
+      .site-footer__blurb { color: var(--ink-soft); max-width: 42ch; margin: .8em 0 0; font-size: .98rem; }
+      .site-footer__base { display: flex; justify-content: space-between; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-family: var(--font-mono); font-size: .76rem; color: var(--ink-faint); }
+      @media (max-width: 720px) { .site-footer__grid { grid-template-columns: 1fr 1fr; } }
+    </style>
+  </body>
+</html>

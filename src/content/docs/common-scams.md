@@ -1,156 +1,127 @@
 ---
-title: 'Common Scams: Protecting Your Web3 Journey'
-description: 'Learn about common scams: protecting your web3 journey in this Regen
-  Toolkit article.'
-section: '1.5'
-track: 1
-status: published
-author: HeenAI
-sources:
-- url
-- note
-target_audience:
-- beginner
-- intermediate
-estimated_words: 1265
-created: '2026-03-11T09:43:43.240Z'
-last_updated: '2026-03-26'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-date: '2026-02-25'
-category: foundations
-stage: build
-tags:
-  function: Security
-  domain: Personal
-  systems:
-    - Trust-Networks
-    - Resilience
-audience: Individual
-maturity: Beginner
-related:
-  - seed-phrases
-  - operational-security
-  - common-concerns
-  - setting-up-first-wallet
+title: "Common Crypto Scams and How to Spot Them"
+description: "A plain-language field guide to the scams you'll meet in Web3, written for community organisers and newcomers who want to take part without getting burned."
 ---
 
-# Common Scams: Protecting Your Web3 Journey
+# Common Crypto Scams and How to Spot Them
 
-Entering Web3 as a regenerative practitioner feels like tending a new garden plot. You're excited about the possibilities, but you need to recognize which growth is beneficial and which might choke out your careful work. Just as you'd learn to identify invasive species before they take root, understanding common crypto scams protects both your resources and your community's trust.
+A message lands in your inbox: "Your wallet has a security problem. Click here to verify." It looks official, it sounds urgent, and for a moment your stomach drops. That moment of doubt is exactly what a scammer is counting on.
 
-The stakes are substantial: cryptocurrency scam losses reached approximately $9.9 billion globally in 2024 [Chainalysis], with US victims reporting $9.3 billion in losses to the FBI [FBI]. The encouraging truth? Most scams follow predictable patterns. Once you recognize these patterns, you can navigate Web3 confidently while helping protect others in your network.
+Entering Web3 feels a bit like walking into an unfamiliar woodland. Most of it is healthy and worth tending. But a few things will hurt you if you don't learn to recognise them. The good news: scams follow predictable patterns, the same way certain invasive plants always show up at the edge of a disturbed field. Once you know the patterns, you can move through this space with confidence and help protect the people around you.
 
-## The Scammer's Playbook: Familiar Tactics, New Context
+The stakes are real. Crypto scam losses reached an estimated $9.9 billion globally in 2024, and roughly $17 billion in 2025, the highest year on record. In the United States alone, victims reported $9.3 billion in crypto-related losses to the FBI in 2024, a 66% jump from the year before. You don't need to memorise those numbers. You just need to learn the handful of tricks behind them.
 
-Crypto scammers exploit timeless psychological triggers—urgency, authority, and trust—adapted for digital environments where verification requires more effort and mistakes can be irreversible.
+## The scammer's playbook
 
-Consider this: in your local community, you'd be suspicious if a stranger knocked on your door demanding immediate access to your savings account. The same healthy skepticism serves you well online, where scammers work harder to appear legitimate through sophisticated websites, fake credentials, and increasingly sophisticated AI-generated content [Ledger].
+Crypto scammers rely on three old levers: **urgency** (act now or lose out), **authority** (I'm support, I'm a developer, I'm the government), and **trust** (we have a relationship, you can rely on me). The technology is new; the manipulation is ancient.
 
-### Phishing: Digital Misdirection
+Picture this in your own community. If a stranger knocked on your door demanding immediate access to your savings, you'd be suspicious. Carry that same instinct online, where a polished website or a confident voice on a video call can hide an empty promise. A growing share of scams now lean on AI to write convincing messages and even fake faces and voices, so a professional appearance is no longer evidence of anything.
 
-Phishing attacks resemble someone placing fake road signs in your neighborhood to redirect traffic to their property. Scammers create websites, emails, and messages that mimic legitimate services to steal your access credentials.
+## Phishing: fake signposts
 
-**Common phishing tactics:**
-- Emails claiming your exchange account has urgent security issues
-- Websites that perfectly mimic Coinbase, MetaMask, or other services but use slightly altered URLs (typosquatting)
-- Social media messages offering "help" with wallet problems
-- Browser extensions that secretly capture wallet information
-- Fake customer support contacts on social platforms [Coinbase]
+**Phishing** is when someone impersonates a service you trust to steal your login details or your secret keys. Think of fake road signs redirecting traffic to the wrong place.
 
-**Your shield:** Always navigate to crypto services through bookmarks or by typing URLs directly. Legitimate services never request your seed phrase or private keys via email, social media, or support tickets. When in doubt, contact support through official channels you verify independently.
+What it looks like:
 
-### Investment Scams: False Abundance Promises
+- An email claiming your exchange account has an "urgent security issue"
+- A website that copies Coinbase or MetaMask almost perfectly but lives at a slightly misspelled address (this is called typosquatting)
+- A direct message offering friendly "help" with a wallet problem
+- A browser extension that quietly reads your wallet details
 
-These mirror the "too good to be true" promises you might encounter anywhere—miracle fertilizers guaranteeing triple harvests, or investment schemes promising unrealistic returns with no risk.
+Your shield: reach crypto services through your own bookmarks or by typing the address yourself, never through a link in a message. And remember the golden rule. No legitimate service will ever ask for your **seed phrase** (the list of words that restores your wallet) or your private keys. Anyone who asks is a thief.
 
-Investment fraud accounted for the majority of US crypto losses in 2024 [FBI]. Scammers create professional websites, fabricate team profiles and testimonials, and sometimes operate for months building credibility before disappearing with investor funds.
+## Investment scams: promises that are too good
 
-**Red flags that signal danger:**
-- Guaranteed returns with claims of "zero risk"
-- Extreme pressure to invest immediately ("opportunity expires in 24 hours")
-- Anonymous or unverifiable team members
-- No working product despite active fundraising
-- Testimonials that can't be independently verified
+These echo the old "miracle fertiliser, triple your harvest" pitch. In crypto they show up as guaranteed returns with no risk.
 
-**Your protection:** Research teams thoroughly using multiple sources. Start with small test amounts. Remember that legitimate investments always carry risk—anyone guaranteeing crypto profits is misleading you.
+Investment fraud was the single largest category of US crypto losses in 2024, at $5.8 billion. Scammers build slick websites, invent team bios and testimonials, and sometimes run for months to look credible before vanishing with the money.
 
-### Romance and "Pig Butchering" Scams: Exploiting Human Connection
+Red flags:
 
-Perhaps the most devastating scams involve building genuine emotional connections before introducing financial manipulation. Like invasive species that initially appear beneficial, these relationships take time to reveal their true damage.
+- Guaranteed returns and the words "zero risk"
+- Pressure to act fast ("this closes in 24 hours")
+- A team you can't verify anywhere else
+- Active fundraising but no working product
 
-This scam type saw significant revenue growth in 2024 [Chainalysis]. The process follows a predictable pattern: initial contact through dating apps or "wrong number" texts, weeks of relationship building, gradual introduction of cryptocurrency opportunities, fake trading platforms showing apparent profits, pressure to invest larger amounts, then complete disappearance.
+Your protection: research the team across several independent sources. Start small. And hold onto one truth, every real investment carries risk, so anyone guaranteeing crypto profits is lying.
 
-**Protective strategies:**
-- Be cautious when new online relationships quickly introduce investment advice
-- Verify trading platforms through independent research before investing
-- Request video calls early in any online relationship
-- Trust your instincts if financial pressure enters a romantic connection
-- Remember that real connections develop naturally without monetary urgency
+## Romance and "pig butchering" scams
 
-> 💡 **Evolving Threats:** Scammers increasingly use AI to create convincing fake profiles and maintain conversations across multiple time zones. Reverse image searches and video call requests remain effective verification tools, though deepfake technology is advancing rapidly.
+The most devastating scams build a genuine-feeling relationship first, then introduce money. The grim industry nickname, **pig butchering**, refers to "fattening up" a victim with affection and small wins before the final cut.
 
-### Rug Pulls: Abandoned Digital Ecosystems
+Romance and pig-butchering scams remain among the most damaging types by money lost, according to Chainalysis. The pattern is consistent: first contact through a dating app or a "wrong number" text, weeks of warm conversation, a casual mention of a crypto opportunity, a fake trading app showing fake profits, pressure to put in more, then silence.
 
-Rug pulls occur when project developers suddenly abandon their work after collecting funds, like farmers abandoning their land after harvest. The SQUID token incident from 2021 demonstrates this pattern: inspired by a Netflix series, the token's price rose dramatically before developers disappeared with millions, leaving investors unable to sell their holdings [Chainalysis].
+How to protect yourself:
 
-**Warning signs of potential rug pulls:**
-- Development teams with no verifiable identity or history
-- Liquidity locked for unreasonably short periods
-- Lack of independent audits or code reviews
-- Heavy marketing expenditure without substantial development progress
-- Unusual token mechanics that restrict selling
+- Be wary when a new online connection steers toward investing
+- Ask for a live video call early; refusal is a signal
+- Trust your gut the moment money enters a romance
+- Real relationships don't come with financial deadlines
 
-**Your due diligence:** Research team backgrounds thoroughly. Verify independent security audits exist and are recent. Understand token economics before investing. While anonymous teams aren't automatically suspicious, they require extra verification through code quality, audit results, and community validation.
+> 💡 **Going Deeper:** Scammers increasingly use AI to spin up believable profiles and keep conversations going around the clock. Chainalysis found AI-assisted operations earn several times more than traditional ones, and government-impersonation scams using deepfaked images grew over 1,400% year-over-year in 2025. Reverse image searches and live video calls still help, but treat any unsolicited investment pitch as suspect regardless of how real the person seems.
 
-## Building Your Security Ecosystem
+## Rug pulls: builders who walk away
 
-Just as regenerative systems rely on diversity and interconnection for resilience, your crypto security benefits from multiple overlapping protections working together.
+A **rug pull** happens when a project's creators take everyone's money and abandon the work, like a tenant farmer stripping the land and disappearing before harvest.
 
-### Technical Infrastructure
+The clearest example is the SQUID token of 2021, named after the Netflix series. It rocketed from cents to over $2,800, then the developers drained the funds, the price crashed to near zero, and more than 40,000 buyers were left holding tokens they couldn't sell, because the code had quietly blocked selling all along.
 
-**Hardware wallets** for significant holdings function like secure seed banks—protecting your most valuable resources from digital threats. Consider them essential for amounts you can't afford to lose [Ledger].
+Warning signs:
 
-**Two-factor authentication** adds verification layers similar to requiring multiple community members to authorize important organizational decisions. Enable it on all crypto-related accounts [Coinbase].
+- A team with no verifiable identity or track record
+- No independent security audit of the code
+- Heavy hype and marketing, thin actual development
+- Token rules that make it hard or impossible to sell
 
-**URL verification** before entering sensitive information is crucial. Bookmark legitimate sites and examine addresses carefully—scammers often use tiny variations designed to escape notice. Watch for grammatical mistakes, typos, and misspelled words [Coinbase].
+Your due diligence: look into the team, check for a recent independent audit, and understand how the token works before you put money in. Anonymous teams aren't automatically scams, but they earn trust through open code and audits, not vibes.
 
-### Community-Based Protection
+## Building your security ecosystem
 
-**Knowledge sharing** within your networks creates collective immunity. Just as you'd warn community members about contaminated water sources, sharing scam alerts helps protect your entire ecosystem.
+Healthy systems are resilient because they have many overlapping defences, not one fragile wall. Your safety online works the same way.
 
-**Collaborative verification** before significant investments leverages community wisdom. Legitimate opportunities give you time for thoughtful group consultation—pressure tactics indicate potential scams.
+A few habits, low effort, high protection:
 
-**Gradual trust building** with new platforms mirrors testing garden techniques in small plots before expanding. Start with minimal amounts to verify platform legitimacy and security practices.
+- **Use a hardware wallet** for anything you can't afford to lose. It's a small physical device that keeps your keys offline, like a seed bank for your most valuable holdings.
+- **Turn on two-factor authentication** on every crypto account, so a stolen password alone isn't enough to get in.
+- **Check the address bar** before typing anything sensitive. Scam sites hide tiny misspellings.
+- **Slow down.** Legitimate opportunities survive a pause; pressure is the tell.
 
-> 🔧 **For Organizations:** Implement security protocols including multi-signature wallets for shared funds, regular team security training, and documented procedures for approving new platforms and verifying suspicious communications.
+And lean on each other. Sharing a scam alert in your group chat is the digital version of warning neighbours about a contaminated well. Before a significant decision, ask someone you trust to look with you.
 
-## Recovery and Response: When Prevention Fails
+> 🔧 **For Practitioners:** For shared community or organisational funds, use a **multi-signature wallet**, which requires several people to approve any transaction so no single compromised person can drain the treasury. Pair it with simple written rules for vetting new platforms and verifying any unusual payment request.
 
-Despite careful precautions, scams continue evolving. If you encounter fraud or lose funds, remember: you're not alone, and it's not your fault. Crypto's complexity deliberately makes verification difficult—that's exactly what scammers exploit.
+## When prevention fails
 
-**Immediate response protocol:**
-1. **Cease all communication** with suspected scammers immediately
-2. **Document everything:** screenshots, transaction records, communication history
-3. **Report to authorities:** FBI IC3 (ic3.gov), FTC, and local law enforcement
-4. **Alert platforms** where you encountered the scam to prevent future victims
-5. **Share your experience** responsibly to warn your community
+Even careful people get caught, because the system is genuinely hard to navigate and scammers design it that way. If it happens to you, it is not your fault.
 
-While fund recovery remains rare due to cryptocurrency's irreversible nature, reporting helps authorities track patterns and potentially prevent future victims. Your experience contributes valuable intelligence to community protection efforts.
+What to do:
 
-## Confident Navigation Forward
+1. **Stop all contact** with the suspected scammer.
+2. **Document everything**, screenshots, transaction records, messages.
+3. **Report it.** In the US, file with the FBI's Internet Crime Complaint Center at [ic3.gov](https://www.ic3.gov), and notify your local authorities.
+4. **Alert the platform** where it happened to protect the next person.
+5. **Tell your community** so they recognise the pattern.
 
-Understanding scams isn't about becoming paranoid—it's about developing healthy skepticism that enables confident engagement with legitimate Web3 opportunities. Experienced gardeners quickly spot plant diseases without becoming afraid to garden; similarly, you'll develop pattern recognition that protects without limiting growth.
+Recovery is rare because crypto transactions can't be reversed. But reporting still matters, it helps investigators track networks and warn others.
 
-The regenerative projects you care about depend on people like you participating safely in Web3. By protecting yourself and educating others, you contribute to a healthier ecosystem that supports long-term positive impact.
+## Moving forward with confidence
 
-Your next step involves learning wallet fundamentals—practical tools for securing digital assets while engaging meaningfully with regenerative Web3 projects.
+Learning about scams isn't about becoming fearful. An experienced gardener spots blight at a glance and keeps planting. You're building the same instinct: pattern recognition that protects you without holding you back.
 
----
+The regenerative projects you care about need people like you taking part safely. Protect yourself, share what you learn, and you strengthen the whole ecosystem.
 
-*Security reminder: Your recovery phrase is what gives you and only you access to your wallet [Coinbase]. Legitimate crypto services never ask for your private keys or seed phrases through any communication channel. When uncertain, verify through official channels and trust your instincts. Taking time to verify is always worth it.*
+## Try This
+
+> **Start here:** Bookmark the real websites of any crypto service you use, and from now on only reach them through those bookmarks. Never through a link in a message.
+>
+> **Go deeper:** Pick a crypto project you've seen mentioned and run a five-minute background check: find the team's real names, look for an independent security audit, and search "[project name] scam" to see what others say.
+>
+> **Stretch:** Write a one-page scam-awareness checklist for your community or organisation, covering how to verify a platform, who approves shared funds, and what to do if someone gets caught. Share it in your group.
+
+## References
+
+- [FBI 2024 Internet Crime Report (IC3)](https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf) — official US figures on crypto fraud, including the $9.3 billion in 2024 losses and the investment-scam breakdown.
+- [Chainalysis: AI Drove Crypto Scam Losses to a Record in 2025](https://www.chainalysis.com/blog/crypto-scams-2026/) — research on the $17 billion in 2025 losses and the rise of AI-assisted and impersonation scams.
+- [FBI IC3 complaint center](https://www.ic3.gov) — where to report crypto fraud and other internet crime in the US.
+- [Washington Post: Squid Game crypto rug pull](https://www.washingtonpost.com/world/2021/11/02/squid-game-crypto-rug-pull/) — coverage of the SQUID token collapse and how the sell-blocking trick worked.
+- [FTC: What to Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams) — plain-language consumer guidance on investment, impersonation, and payment scams, and the red flags to watch for.

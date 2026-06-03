@@ -1,104 +1,72 @@
 ---
-title: What Is Blockchain
-description: Learn about what is blockchain in this Regen Toolkit article.
-section: '1.3'
-track: 1
-status: published
-author: unknown
-sources:
-- Bankless Academy (https://app.banklessacademy.com/)
-- Mango Research (https://www.mangoresearch.co/blockchain-dlt-trustless-system/)
-target_audience:
-- grounded-regen
-estimated_words: 551
-created: '2026-03-11T09:43:43.312Z'
-last_updated: '2026-03-26'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-date: '2026-03-11'
-category: foundations
-stage: published
-tags:
-  function: Education
-  domain: Web3-Literacy
-  systems:
-    - Decentralization
-    - Trust-Networks
-audience: Individual
-maturity: Beginner
-related:
-  - what-is-cryptocurrency
-  - what-is-ethereum
-  - centralized-vs-decentralized
+title: "What Is a Blockchain?"
+description: "A plain-language, no-hype introduction to blockchains for community organisers and growers new to crypto, with real regenerative examples and an honest look at the costs."
 ---
 
-# What is Blockchain?
+# What Is a Blockchain?
 
-Have you ever tried to keep track of who owes what in a community garden project? By harvest time, nobody can remember who promised what. Now imagine if every single person in the garden had their own notebook, and every week everyone compared notes before deciding what happened. That's a blockchain.
+You run a seed swap. Somebody brought twenty tomato seedlings in spring, someone else owes them a share of the autumn harvest, and by the time the squash comes in, nobody can agree on who promised what. There's one shared notebook, and whoever holds it gets to decide what's true.
 
-## A Shared Notebook for the Village
+A blockchain is what you'd get if every family kept their own copy of that notebook, and you all agreed to keep them in sync. That's the whole idea. The rest is detail.
 
-A blockchain is a shared digital notebook that many people keep copies of.
+## A Notebook the Whole Village Keeps
 
-Once, one person—let's call him LedgerMan—was in charge of writing down every trade and promise. The problem? He could make mistakes, lose the notebook, or change the records. Everyone had to trust him completely.
+Picture your community's record kept the old way: one trusted person writes everything down. That works until they lose the book, make an honest mistake, or quietly cross out a line. Everyone has to trust that one person completely.
 
-Then the villagers said: "What if ALL of us keep a notebook?"
+Now flip it. Every household keeps its own copy. When Maria gives Jamal her seedlings, she says so out loud, and every family writes it in their book. Once a week you compare notes. If most books agree, that's the official record.
 
-Now when Maria trades tomatoes with Jamal, they announce it to everyone. Each family writes it down. At the end of the week, they compare notes. If most families agree, that's the official record.
+That shared, copied-everywhere record is a **blockchain**: a digital notebook that many computers keep identical copies of. The computers holding those copies are called **nodes**, and they're scattered across the world. They're run by volunteers, companies, and enthusiasts, paid in the network's own currency for the electricity and effort. You don't have to run one. Almost nobody does. You just use the network the way you use email without running a mail server.
 
-This is "distributed ledger technology"—instead of one server, everyone holds a copy. These computers are called **nodes**.
+## Pages That Lock to Each Other
 
-## Blocks in the Chain
+Each page of the village notebook is a **block**: one batch of records, like a week of swaps bundled together.
 
-Each "page" in our village notebook is called a **block**—a collection of records, like one week's worth of garden trades.
+Here's the clever bit. Every new page carries a short summary of the page before it, called a **hash**: a fingerprint of the previous block's exact contents, produced by a fixed mathematical recipe. Change a single comma on an old page and its fingerprint changes completely, so the next page's "previous-page summary" no longer matches. The mismatch is glaring, and every node spots it at once.
 
-Here's the clever part: each block contains a "cryptographic hash" of the previous block. Think of it like a unique fingerprint. If someone tries to change an old record, the fingerprint breaks and everyone knows.
+That's why people call blockchains **immutable**: once a record is settled and buried under newer blocks, rewriting it would mean redoing every page since and persuading the majority of nodes worldwide to accept your version simultaneously. Not impossible in theory; wildly impractical in practice. The history holds.
 
-This is why blockchains are **immutable**—they can't be changed. Once written, it's there forever. To alter history, you'd have to convince most families to all change their records at once. Practically impossible.
+## Trust You Don't Have to Extend
 
-## Trust Without Trust
+You'll hear blockchains called **trustless**, which sounds cold. It means the opposite of what it sounds like. You don't have to *place your trust* in any single keeper, because everyone can check everyone else.
 
-"Trustless" sounds negative—but it actually means you don't HAVE to trust any single person. Everyone watches everyone else.
+This quietly solves an old problem: **double-spending**, the digital version of promising the same thing twice. In the garden, that's Maria pledging her one batch of seedlings to both Jamal *and* Carlos. With one notebook she might get away with it. With everyone holding a copy, the second promise contradicts the first the moment she makes it, and the network simply refuses to write it down. No referee needed; the records referee themselves.
 
-The system solves the "double-spending problem" without a middleman. In our garden, that would be Maria promising her tomato seedlings to both Jamal AND Carlos. Everyone would catch the lie because they all have their own copy of the notebook.
+## What This Looks Like in Real Communities
 
-Anyone can check the records anytime. No asking permission.
+This isn't only theory or speculation. Communities use it now.
 
-## Real-World Examples
+**Grassroots Economics** runs the Sarafu Network in Kenya: local "community asset vouchers" that let people trade goods and services even when national-currency cash is scarce. It now runs on the Celo blockchain, and crucially, people join over basic phones using simple text-message (USSD) codes, no smartphone or internet plan required. Grassroots Economics reports the network has supported more than 26,000 people across roughly 290 communities, with thousands now coordinating through Celo-based "commitment pools."
 
-- **Walmart** tracks food safety with blockchain—tracing contamination back to its source while keeping supplier pricing private
-- **Hyperledger** is a private blockchain businesses use to track supply chains between partners
-- **Bitcoin**—the first and most well-known public blockchain
-- **Ethereum**—introduced "smart contracts," or agreements that automatically execute when conditions are met
+**Regen Network** pays land stewards for measurable ecological work, like restored soil or biodiversity, by recording verified ecological data on a blockchain and issuing credits that buyers can purchase. The shared, checkable record is what lets a funder half a world away trust that the regeneration actually happened.
 
-## Why Does This Matter for Regenerative Communities?
+For comparison, large companies use the same idea privately. **Walmart** traces leafy greens through **Hyperledger Fabric** (an enterprise blockchain framework now stewarded by the Linux Foundation's Decentralized Trust group). In a pilot tracing mangoes, finding a fruit's origin dropped from about seven days to 2.2 seconds, the kind of speed that turns a contamination scare from a week of guesswork into a same-minute answer.
 
-If we can track garden trades without trusting one person, can we track carbon credits? Verify regenerative farming practices? Create community currencies without banks?
+## The Honest Part: Costs, Limits, Energy
 
-The technology lets regenerative communities build trust with each other—and the wider world—without expensive middlemen or complicated paperwork.
+Here's what the hype usually skips.
 
-## Conclusion
+**Energy.** The fear is real but out of date for most of the space. **Bitcoin** still secures itself by burning electricity on purpose, a method called **proof of work**, using on the order of 138 terawatt-hours a year (Cambridge, 2025), comparable to a mid-sized country. But on 15 September 2022, **Ethereum**, the network behind most regenerative projects, switched to **proof of stake**, which secures the chain through deposited funds rather than raw computing, and cut its energy use by about 99.95% overnight. Celo, where Sarafu lives, is also proof of stake. So "blockchain wastes energy" is true of old Bitcoin and false of nearly everything a regenerative community would actually use.
 
-Blockchain is a shared, unchangeable notebook that many people keep copies of. It lets people make agreements without trusting one authority. Started with digital money, but it's growing into tools that help communities organize, trade, and verify claims about regeneration.
+**It's permanent, which cuts both ways.** Immutability is great for trust and unforgiving for mistakes. A wrong entry or a payment sent to the wrong address usually can't be undone. Many public chains are also fully visible, so think before putting sensitive community information on one.
 
----
+**It doesn't resolve disagreement.** A blockchain records what was agreed; it doesn't help you agree. The hard human work of facilitation, conflict, and care still belongs to you.
+
+A blockchain is a shared, tamper-evident notebook that many people keep in sync, so a group can keep honest records without crowning one keeper. It started with digital money. It's growing into tools that help communities trade, fund regeneration, and prove what they've done, without expensive middlemen. Whether it fits *your* work is a question worth asking slowly, and the rest of this toolkit is built to help you answer it.
 
 ## Try This
 
-1. **Explain it to a friend**: Use the village notebook story. Say it out loud until it flows naturally.
-
-2. **Find a use case**: What's one thing in your community that requires trusting a single person? Could a shared record system help?
-
-3. **Go deeper**: Explore [Bankless Academy](https://app.banklessacademy.com) for free beginner lessons on blockchain.
-
----
+> **Start here:** Tell the village-notebook story out loud to one person, in your own words, until it flows. If you can explain it over tea, you understand it, and you've inoculated yourself against anyone who tries to dazzle you with jargon.
+>
+> **Go deeper:** Take the free, no-wallet-required "Blockchain Basics" lesson on [Bankless Academy](https://app.banklessacademy.com/lessons/blockchain-basics). It's interactive and costs nothing. Notice which words finally click and which still feel slippery.
+>
+> **Stretch:** Open a public block explorer like [Etherscan](https://etherscan.io) and watch real transactions arrive live. Then read how [Grassroots Economics](https://www.grassrootseconomics.org/pages/sarafu-network) structures its community vouchers, and write one paragraph on whether a shared record could help a specific record-keeping headache in your own community, and where it plainly wouldn't.
 
 ## References
 
-- Bankless Academy: https://app.banklessacademy.com/
-- Mango Research: https://www.mangoresearch.co/blockchain-dlt-trustless-system/
+- [Bankless Academy: Blockchain Basics](https://app.banklessacademy.com/lessons/blockchain-basics) — Free, open-source, interactive lesson; no wallet needed to start.
+- [Ledger Academy: What Is Blockchain?](https://www.ledger.com/academy/what-is-blockchain) — Clear beginner explainer of blocks, hashes, and nodes.
+- [Grassroots Economics: Sarafu Network](https://www.grassrootseconomics.org/pages/sarafu-network) — Live community-currency network in Kenya; usage figures and how feature-phone access works.
+- [Regen Network](https://www.regen.network/) — Blockchain platform issuing science-backed ecological credits that pay for regenerative land work.
+- [Ethereum.org: The Merge](https://ethereum.org/en/roadmap/merge/) — Official account of Ethereum's 2022 switch to proof of stake and the ~99.95% energy drop.
+- [Cambridge Bitcoin Electricity Consumption Index](https://ccaf.io/cbnsi/cbeci) — Independent, regularly updated estimate of Bitcoin's proof-of-work energy use, maintained by the University of Cambridge.
+- [LF Decentralized Trust: Walmart case study](https://www.lfdecentralizedtrust.org/case-studies/walmart-case-study) — How Walmart traces food on Hyperledger Fabric, cutting traceback from days to seconds.

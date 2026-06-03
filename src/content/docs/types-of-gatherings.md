@@ -1,278 +1,204 @@
 ---
-title: Types of Gatherings for Local Nodes
-description: A guide to different gathering formats and when to use each one for maximum
-  community impact.
-section: '2.5'
-track: 2
-status: published
-author: Tej
-sources:
-- Community organizing practice
-- Priya Parker, The Art of Gathering
-- Adrienne Maree Brown, Emergent Strategy
-target_audience:
-- grounded-regen
-estimated_words: 1850
-created: '2026-03-12T09:00:00.000Z'
-last_updated: '2026-03-26'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-category: applied
-tags:
-  function: Community-Building
-  domain: Community
-  systems:
-    - Emergence
-    - Trust-Networks
-    - Mutual-Aid
-audience: Local-Organizer
-maturity: Beginner
-related:
-  - gatherings-pattern
-  - planning-web3-events
-  - funding-gatherings
-  - building-momentum
+title: "Types of Gatherings for Local Nodes"
+description: "A practical guide to choosing the right gathering format for your local node at each stage, with real ReFi examples and how to avoid burnout."
 ---
 
 # Types of Gatherings for Local Nodes
 
-*Choosing the right format for what you're trying to achieve*
+You've decided to start a local node. Now you're staring at a blank calendar, wondering what to actually *do* when people show up — and quietly dreading the version where you pour months into events that fizzle, or burn out hosting a weekly meetup nobody asked for.
+
+Here's the relief: you don't need one perfect event. You need a small repertoire of formats and the judgment to pick the right one for where your community is right now. A **local node** — a self-organizing local chapter of a regen network like [ReFi DAO](https://refidao.com) or the [GreenPill Network](https://greenpill.network), running its own experiments on the ground — lives or dies on how well it gathers. This guide gives you the formats, when to use each, and how to keep them light enough to sustain.
+
+One rule before the menu: **the format determines the outcome more than the topic does.** A lecture on "community governance" produces passive listeners. The same topic run as a fishbowl discussion produces engaged co-thinkers. Same content, opposite results. Choose the container deliberately.
 
 ---
 
-## Why Format Matters
+## Informal Gatherings: Building Relationships
 
-The format of your gathering determines its outcomes more than the topic does. A lecture on "community governance" produces passive listeners. The same topic explored through a fishbowl discussion produces engaged co-thinkers. Same content, radically different results.
-
-Local nodes need different types of gatherings at different stages of their development, and for different purposes. This guide covers the main formats, when to use them, and how to make each one work in your context.
-
----
-
-## Informal Gatherings
+These are the foundation. No agenda, no slides, no governance. Just people in a room becoming people who trust each other. Skip this layer and everything you build on top of it wobbles.
 
 ### The Community Meal
 
-The simplest and most powerful gathering format humans have ever invented.
+People eat together. That's the entire format.
 
-**What it is**: People eat together. That's it. No agenda, no presentations, no learning objectives. Just food and conversation.
+**Why it works:** Sharing food is one of the oldest trust-building mechanisms we have, and the effect shows up in the research. People who eat socially more often report trusting others more, feeling happier, and being more engaged with their local community ([Dunbar, 2017](https://link.springer.com/article/10.1007/s40750-017-0061-4)) — and the causal arrow runs from eating together *to* bonding, not the reverse. It's also the lowest possible barrier to entry: everyone already knows how to eat.
 
-**Why it works**: Sharing food is a universal trust-building practice. Eating together creates connection at a level that no workshop or presentation can match. It's also the lowest barrier to entry - everyone knows how to eat, and in most cultures, sharing food is already a deep social practice.
+This isn't just theory. ReFi Cape Town — one of ReFi DAO's first-cohort local nodes — built itself through regular in-person gatherings before layering on its "serious" programming, and those relaxed gatherings are often where the relationships that carry a node form.
 
-In Somaliland and across East Africa, communal meals are already a cornerstone of social life. If you're building a local node here, you're not inventing something new - you're extending an existing tradition to include new conversations about community finance and coordination.
+**When to use it:** Early on, before you introduce any web3 concept. After tension or conflict, to rebuild connection. And as a steady baseline — a monthly potluck people can count on.
 
-**When to use it**:
-- Early-stage community building, before introducing any Web3 concepts
-- After conflict or tension, to rebuild connection
-- Regularly, as a baseline touchpoint (monthly shared meals work well)
-- When you notice online energy is declining - bring people back to the physical
+**Make it work:**
+- Use a potluck. Shared effort creates shared investment — and means *you* aren't cooking for twenty.
+- Keep it consistent — same week each month, same rough time, so people can build it into their lives.
+- No mandatory agenda. The meal *is* the point.
+- One person owns venue and reminders. Consistency needs a single owner, not a committee.
 
-**How to make it work**:
-- Shared contribution format distributes effort and creates investment - everyone brings something
-- Keep it consistent: same day of the month, same general time
-- No mandatory agenda. If conversations about the node happen naturally, great. If not, also great.
-- Have one person responsible for venue and reminders - consistency requires someone taking ownership
-
-**Common mistake**: Turning dinner into a meeting. Resist the urge to "make the most of having everyone together." The meal IS the point.
+**The mistake to avoid:** turning dinner into a meeting. Resist "while we're all here, let's just quickly...". That instinct quietly kills the thing that makes meals work.
 
 ### The Walk-and-Talk
 
-**What it is**: A small group (2-6 people) walks together through a neighbourhood, market, or trail while talking.
+A small group — two to six people — walks while they talk.
 
-**Why it works**: Side-by-side movement reduces conversational pressure and encourages openness. Walking eliminates the awkwardness of sustained eye contact during difficult topics. The changing environment stimulates creative thinking. Research consistently shows that walking increases creative output by about 60% compared to sitting.
+**Why it works:** Side-by-side movement lowers the intensity of eye contact and makes hard conversations easier. Movement also helps thinking: in a Stanford set of experiments, the large majority of people — between 81% and 100%, depending on the test — produced more creative ideas while walking than while sitting, indoors or out, and walkers roughly *doubled* their novel responses ([Oppezzo & Schwartz, 2014](https://www.apa.org/news/press/releases/2014/04/creativity-walk)). The walking itself did the work, not the scenery.
 
-**When to use it**:
-- One-on-one relationship building between node members
-- Processing difficult decisions before bringing them to the group
-- Creative brainstorming for new initiatives
-- When someone needs to be heard but a formal meeting feels too heavy
+**When to use it:** One-on-one relationship building. Processing a thorny decision before it hits the whole group. Brainstorming a new initiative. Or simply when someone needs to be heard and a formal meeting feels too heavy.
 
-**How to make it work**:
-- Choose a route with minimal traffic noise - a market path, a park, a waterfront
-- 45-60 minutes is ideal: long enough for depth, short enough to commit to
-- Pairs work better than groups for deep conversation; groups of 4-6 work for lighter exploration
-- Consider weather and terrain - have a backup plan
+**Make it work:** Pick a route without traffic noise. Aim for 45–60 minutes. Pairs go deeper; groups of four to six stay lighter. Have a rain backup.
 
 ### The Open House
 
-**What it is**: A recurring, casual drop-in where community members can show up anytime during a window (for example, Saturday mornings 10am-1pm at a tea house or café).
+A recurring drop-in window — say, Saturday mornings 10am–1pm at the same café — where people come and go as they like.
 
-**Why it works**: Removes the pressure of scheduled attendance. People come when they can, stay as long as they want. It creates a natural hub for the community.
+**Why it works:** It removes the pressure of a fixed start time and a commitment to "the whole thing." People arrive when they can and stay as long as they want. Over time it becomes a heartbeat — a place the node reliably *is*.
 
-**When to use it**:
-- When your community has varied schedules (especially common when members have different work patterns)
-- As a low-commitment entry point for newcomers
-- As a "heartbeat" touchpoint for an established community
-- When formal meetings feel too heavy or intimidating
+**When to use it:** When your members have scattered schedules, as a no-pressure on-ramp for newcomers, and as a steady touchpoint once you're established.
+
+> 🔄 **For node-builders:** The open house is your best burnout defense. It costs almost nothing — you show up, you don't perform — and it keeps the node visible between bigger events. If you commit to only one recurring thing, make it this.
 
 ---
 
-## Educational Gatherings
+## Educational Gatherings: Building Skills
+
+Once people trust each other, they're ready to learn together. The trap here is defaulting to lecture mode. People don't gain skills by hearing about them.
 
 ### The Workshop
 
-**What it is**: A hands-on session where participants learn by doing - setting up wallets, writing proposals, using governance tools, understanding how savings circles can connect to blockchain systems.
+A hands-on session where people learn by doing — setting up a wallet, writing a proposal, using a governance tool.
 
-**Why it works**: People learn skills by practising them, not by hearing about them. A workshop creates competence and confidence at the same time.
+**Why it works:** Practice builds competence and confidence at once, and a hands-on session is how loose interest becomes a working group. It helps to host in an accessible public space — ReFi Barcelona, for instance, maps the [Canòdrom](https://canodrom.barcelona/en), Barcelona's public digital-innovation and democracy centre, as an aligned local venue for exactly this.
 
-**When to use it**:
-- Onboarding new members to Web3 tools
-- Building specific skills the node needs (facilitation, treasury management, proposal writing)
-- When there's a knowledge gap that's blocking people from participating
+**When to use it:** Onboarding members to web3 tools, or closing a specific skill gap that's blocking participation.
 
-**How to make it work**:
-- Maximum 15 participants for hands-on skill building - one facilitator can't effectively help more than that
-- Pre-install any necessary software or create accounts beforehand. Don't waste workshop time on setup.
-- Pair experienced members with newcomers - peer learning is more effective than lectures
-- Build in extra time. Technology always takes longer than expected, especially when internet connections are variable.
-- Create a takeaway: a cheat sheet, a reference card, or a recorded walkthrough that people can revisit
+**Make it work:**
+- Cap hands-on workshops at around 15 people. One facilitator can't help more than that.
+- Pre-install software and create accounts *before* the session — don't burn workshop time on setup.
+- Pair an experienced member with each newcomer. Peer learning beats lecture.
+- Budget "things will break" time — tech always runs long.
+- Send people home with a takeaway: a cheat sheet or a recorded walkthrough.
 
 ### The Learning Circle
 
-**What it is**: A group that meets regularly to explore a topic together - reading a short article, watching a video, discussing a case study. No expert, no teacher - everyone learns together.
+A group meets regularly to explore a topic together — a short reading, a video, an article. No expert at the front; everyone learns at once.
 
-**Why it works**: Distributed learning builds shared vocabulary and shared mental models. When everyone reads the same article about regenerative economics, you develop a common language for future decisions.
+**Why it works:** Shared learning builds shared vocabulary. When everyone reads the same piece on, say, quadratic funding, you develop a common language for the decisions that come later. It also relieves *you* of being the resident expert on everything — a fast route to burnout.
 
-**When to use it**:
-- Building shared understanding of complex topics (governance, tokenomics, cooperative principles)
-- Creating intellectual community beyond just operational coordination
-- When the group needs to make informed decisions about something none of you are expert in
+**When to use it:** Building shared understanding of something genuinely complex (governance, tokenomics, cooperative principles) that none of you has fully mastered.
 
-**How to make it work**:
-- Short readings (5-10 pages per session maximum). Don't assign full books.
-- Rotating facilitation builds shared ownership - a different person leads each session
-- Structured discussion questions prevent meandering
-- 4-8 sessions on a single theme works well; after that, pick a new topic or pause
-- Document key insights. These become your community's knowledge base over time.
-- The Regen Toolkit articles themselves can serve as learning circle material
+**Make it work:** Short readings only — 5–10 pages a session, never a whole book. Rotate facilitation so ownership spreads. Use a few prepared questions to keep it from meandering. Run four to eight sessions on a theme, then switch or pause. Capture the key insights — that record becomes your node's knowledge base.
 
 ### The Demonstration Day
 
-**What it is**: Community members show what they've built, discovered, or experimented with. Think of it as a community showcase - people sharing their work and what they've learned.
+Members show what they've built, found, or broken. A science fair for community tools.
 
-**Why it works**: Celebrates progress, inspires others, and surfaces useful knowledge. When one member figures out how to bridge tokens cheaply or set up a multisig, everyone benefits from hearing about it.
+**Why it works:** It celebrates progress, spreads useful knowledge, and surfaces quiet experts. When one member figures out how to bridge tokens cheaply, a demo day means everyone benefits instead of just them.
 
-**When to use it**:
-- Quarterly, to celebrate progress and share learnings
-- When multiple members are experimenting with different tools or approaches
-- When the community needs a morale boost - seeing tangible progress is energizing
+**When to use it:** Quarterly, when several members are experimenting in parallel, or when the node needs a visible reminder that it's actually building something.
 
 ---
 
-## Decision-Making Gatherings
+## Decision-Making Gatherings: Choosing Together
+
+This is where the fear of "central overreach" gets real. If decisions feel like they're handed down from you or from the parent network, people disengage. The formats below exist to make decisions *transparently shared* — which is the whole point of a node.
 
 ### The Town Hall
 
-**What it is**: A structured community meeting where decisions are proposed, discussed, and made.
+A structured meeting where proposals are presented, discussed, and decided.
 
-**Why it works**: Transparent decision-making builds trust. When everyone sees how decisions are made, even those who disagree with the outcome feel respected.
+**Why it works:** Visible decision-making builds trust. When everyone can see *how* a call was made, even people who disagree with the outcome feel respected — and stay.
 
-**When to use it**:
-- Treasury allocation decisions
-- Policy changes
-- Welcoming new members or partners
-- Annual planning and review
+**When to use it:** Treasury allocations, policy changes, welcoming new partners, annual planning.
 
-**How to make it work**:
-- Share proposals at least one week before - don't surprise people with complex decisions at the meeting
-- Use a facilitator who isn't personally invested in the outcome
-- Time-box discussions (15 minutes per proposal maximum)
-- Use consent-based decision-making: "Can you live with this?" is more useful than "Does everyone agree?" Full consensus can paralyse groups. Consent moves things forward while respecting objections.
-- Record and share decisions within 24 hours
+**Make it work:**
+- Circulate proposals at least a week ahead — don't ambush people with complex decisions.
+- Use a facilitator who isn't invested in the outcome.
+- Time-box each proposal (around 15 minutes).
+- Use **consent-based decision-making**, drawn from sociocracy: instead of "Does everyone agree?", ask "Does anyone object?" and "Can you live with this?". Consent means no remaining objections — not unanimous enthusiasm ([Sociocracy For All](https://www.sociocracyforall.org/consent-decision-making/)). It's faster than consensus and more inclusive than a majority vote, which is why distributed communities lean on it.
+- Publish the decision within 24 hours.
+
+> 💡 **Going deeper:** Consent-based decision-making is also what most on-chain governance tries to approximate. Practicing it offline — where you can read the room and repair tension live — makes your eventual move to tools like [Snapshot](https://snapshot.box) or a multisig far smoother, because people already trust the underlying *process*.
 
 ### The Retrospective
 
-**What it is**: A structured reflection on a specific project, period, or event. What worked? What didn't? What would we change?
+A structured look back at a project, period, or event: what worked, what didn't, what we'd change.
 
-**Why it works**: Organizations that reflect improve. Organizations that don't repeat mistakes. Borrowed from software development, retrospectives create a culture of continuous learning that applies to any collective effort.
+**Why it works:** Teams that reflect improve; teams that don't repeat their mistakes. The format comes from agile software practice — Norm Kerth's *Project Retrospectives* (2001) is the origin text — and rests on one ground rule he called the Prime Directive: assume everyone did the best job they could with what they knew at the time ([Agile Retrospective Resource Wiki](https://retrospectivewiki.org/index.php?title=The_Prime_Directive)). That assumption is what makes honesty safe.
 
-**When to use it**:
-- After every significant project or event
-- Quarterly, for general node operations
-- When something went wrong and you need to learn from it
-- When something went right and you want to understand why so you can repeat it
+**When to use it:** After every significant event or project, quarterly for general operations, and whenever something went notably right or wrong.
 
-**How to make it work**:
-- Use a simple framework: "What went well? What didn't go well? What should we change?"
-- Create psychological safety - no blame, only learning
-- Focus on systems and processes, not individuals
-- Commit to specific changes, not vague intentions ("We'll communicate better" is useless. "We'll post updates in the group chat every Friday" is actionable.)
-- Follow up on previous commitments before generating new ones
+**Make it work:** Use a simple frame — "What went well? What didn't? What should we change?" Focus on systems and processes, never on blaming individuals. Commit to *specific* changes, not vague good intentions. And revisit last time's commitments before generating new ones, or the retro becomes theatre.
 
 ---
 
-## Celebration Gatherings
+## Celebration Gatherings: Marking What Matters
+
+Community work often feels like an endless slog. Celebration is what reminds people it's real — and it's the antidote to the slow disengagement that kills nodes.
 
 ### The Milestone Party
 
-**What it is**: Celebrating achievements - first 50 members, first treasury allocation, first year anniversary, first successful community project funded.
+Celebrate concrete wins: your first 50 members, your first treasury allocation, your first funded project, your first year.
 
-**Why it works**: Celebration reinforces identity and belonging. It marks progress in a world where community work often feels like an endless effort with no finish line. People need to feel that their contributions matter and that something real is being built.
+**Why it works:** Celebration reinforces identity and belonging. People need to feel their contributions added up to something. Mark the milestones, or they pass unnoticed and motivation quietly leaks away.
 
-**When to use it**:
-- You hit a meaningful milestone (membership, treasury, impact)
-- You completed a major project
-- Anniversary of founding
-- When energy is dropping and people need to remember why they're here
+**When to use it:** Any meaningful threshold — membership, treasury, impact, anniversary — and especially when energy is flagging.
 
 ### The Open Celebration
 
-**What it is**: A public-facing gathering that invites the broader community to experience what your node is about. Part celebration, part recruitment, part community gift.
+A public-facing party that invites the wider community to experience what your node is about. Part celebration, part recruitment, part gift to the neighborhood.
 
-**Why it works**: Lowers barriers to entry. People who wouldn't come to a "Web3 meetup" or a "DAO governance session" will come to a party or a community celebration. Once there, they experience the community and may want to participate.
-
-Events like Regens Unite, Funding the Commons, and Edge City have shown how celebrations and open gatherings can bridge the gap between established Web3 communities and newcomers. Your local version doesn't need to be that large - a neighbourhood celebration with food, music, and a few demos can do the same thing at a smaller scale.
+**Why it works:** It lowers the barrier dramatically. People who'd never attend a "web3 meetup" will happily come to a party — and once they're in the room, they meet the community, not the jargon.
 
 ---
 
 ## Choosing the Right Format
 
-**Pre-formation (building relationships):** Meals, walks, open houses. Focus on connection, not content.
+Match the format to where your node actually is, not where you wish it were.
 
-**Early formation (building skills):** Workshops, learning circles. Focus on shared understanding and capability.
+| Node stage | Best formats |
+|---|---|
+| Pre-formation (building relationships) | Meals, walks, open houses |
+| Early formation (building skills) | Workshops, learning circles |
+| Active operations (making decisions) | Town halls, retrospectives |
+| Growth (attracting members) | Demo days, open celebrations |
+| Renewal (re-energizing) | Meals, milestone parties, retrospectives |
 
-**Active operations (making decisions):** Town halls, retrospectives. Focus on transparent governance and continuous improvement.
+**Rhythm matters as much as format.** A sustainable node might run:
 
-**Growth (attracting members):** Demonstration days, open celebrations. Focus on showing what you've built and inviting others in.
+- **Weekly:** an open house (low effort, high consistency)
+- **Monthly:** a community meal plus one focused gathering (workshop *or* town hall *or* learning circle)
+- **Quarterly:** a retrospective plus a celebration
 
-**Renewal (re-energizing):** Meals, milestone parties, retrospectives. Focus on reconnection and reflection.
+Notice how little of that is high-effort. ReFi DAO's own global cadence is one recurring touchpoint — a community call on the third Thursday of each month — and that single steady beat helps hold a worldwide network together. Predictability, not intensity, is what sustains a node without burning out its host.
 
-**The rhythm matters as much as the format.** A healthy local node might run:
-- Weekly: Open house (low effort, high consistency)
-- Monthly: Community meal plus one focused gathering (workshop OR town hall OR learning circle)
-- Quarterly: Retrospective plus celebration
+---
 
-This creates a predictable rhythm that people can build into their lives, while varying the format enough to serve different purposes.
+## Moving Forward
+
+Start with what your group already gravitates toward. If they like to eat, start with a meal. If they like to learn, start with a learning circle. The format people naturally lean into is the right place to begin — and a small, real gathering beats an ambitious one that drains you. Then add formats as needs emerge: a town hall when a decision arrives, a demo day when someone learns something useful, a party when energy dips.
+
+The nodes that last aren't the ones with the fanciest governance tools or the biggest treasuries. They're the ones that gather regularly, intentionally, and with genuine care for the people in the room. Everything else is infrastructure in service of that.
 
 ---
 
 ## Try This
 
-**Plan your next three gatherings using three different formats.**
+> **Start here:** Look at the stage table above and name honestly where your node sits today. Pick the *one* format that matches, and schedule a single instance of it in the next three weeks. Just one. Don't build a calendar yet.
 
-1. Pick one informal gathering (meal, walk, or open house) for this month.
-2. Pick one educational or decision-making gathering (workshop, learning circle, town hall, or retrospective) for next month.
-3. Pick one celebration for the month after.
+> **Go deeper:** Run a community meal as a potluck, then deliberately practice restraint — resist every urge to "make it productive." Afterward, jot one note on what relationships formed that a formal meeting wouldn't have produced. That note is your evidence for why the informal layer matters.
 
-For each one, write down:
-- The specific purpose (what will be different after this gathering?)
-- Who needs to be there
-- Where it will happen
-- One thing you'll do to make it more intentional than a typical meeting
-
-Share your plan with your group and ask: "Does this rhythm feel right? What's missing?" The conversation about rhythm is itself a valuable gathering moment.
+> **Stretch:** Run your first town hall using consent-based decision-making on a small, real choice (where to spend $100 of treasury, which café for the open house). Circulate the proposal a week ahead, facilitate with "Does anyone object?" and "Can you live with it?", and publish the outcome within 24 hours. Then run a 20-minute retrospective on the town hall itself — and let what you learn shape the next one.
 
 ---
 
 ## References
 
-- Priya Parker, *The Art of Gathering: How We Meet and Why It Matters* (Riverhead Books, 2018)
-- Adrienne Maree Brown, *Emergent Strategy: Shaping Change, Shaping Worlds* (AK Press, 2017)
-- Liberating Structures, collection of 33 microstructures for group facilitation - https://www.liberatingstructures.com/
-- Regens Unite, community gatherings for the regenerative movement - https://regensunite.earth/
-- Funding the Commons, events exploring public goods funding - https://fundingthecommons.io/
-- Edge City, pop-up innovation villages - https://www.edgecity.live/
+- [ReFi DAO](https://refidao.com) — the regen network and its directory of local nodes; the source for the ReFi Cape Town and ReFi Barcelona examples and the third-Thursday monthly community-call cadence.
+- [GreenPill Network](https://greenpill.network) — a regen network of local chapters; a sister model to ReFi nodes for grounding the "local chapter" pattern.
+- [Dunbar, "Breaking Bread: The Functions of Social Eating" (2017)](https://link.springer.com/article/10.1007/s40750-017-0061-4) — UK survey study linking how often people eat socially to trust, happiness, and local community engagement; the evidence behind the community meal.
+- [Oppezzo & Schwartz, "Give Your Ideas Some Legs" (APA, 2014)](https://www.apa.org/news/press/releases/2014/04/creativity-walk) — the Stanford walking-and-creativity experiments behind the walk-and-talk.
+- [Canòdrom — Barcelona's Ateneu d'Innovació Digital i Democràtica](https://canodrom.barcelona/en) — the public civic-tech venue ReFi Barcelona maps as an aligned local space for workshops.
+- [Priya Parker, *The Art of Gathering*](https://www.priyaparker.com/priya-parker-books) — the foundational text on designing intentional gatherings; pairs with this node's "gatherings pattern" article.
+- [Sociocracy For All — Consent Decision-Making](https://www.sociocracyforall.org/consent-decision-making/) — the source and practical how-to for the "Can you live with it?" decision method.
+- [The Prime Directive — Agile Retrospective Resource Wiki](https://retrospectivewiki.org/index.php?title=The_Prime_Directive) — Norm Kerth's blameless ground rule from *Project Retrospectives* (2001), the origin of the structured retro.
+- [The World Café](https://theworldcafe.com) — Juanita Brown's method for participant-driven small-group conversation, useful inside town halls and learning circles.
+- [Open Space Technology](https://openspaceworld.org) — Harrison Owen's self-organizing format for larger, agenda-less gatherings.
+- [Liberating Structures](https://www.liberatingstructures.com/ls-menu/) — a free menu of 33 facilitation microstructures (start with 1-2-4-All) that replace lectures and managed discussion.

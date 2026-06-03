@@ -1,367 +1,103 @@
 ---
-title: Planning Web3 Events for Your Local Node
-description: How to run events that build community and grow your local node.
-slug: 2-applied-2.5-gatherings-events-planning-web3-events
-section: '2.5'
-track: 2
-status: published
-author: Tej (research + draft)
-sources:
-- Greenpill Local Regen Guide
-- Event organizing guides
-- DAO community events
-audience:
-- grounded-regen
-estimated_words: 1800
-created: '2026-03-12T13:40:00.000Z'
-last_updated: '2026-03-12T14:00:00.000Z'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-category: applied
+title: "Planning Web3 Events for Your Local Node"
+description: "A practical playbook for running events that grow a local regen node without burning out the people who run it."
 ---
 
 # Planning Web3 Events for Your Local Node
 
-*How to run events that build community and grow your local node*
+You've got the Discord, the shared doc, maybe a treasury. But every time you try to turn that online energy into a real-world gathering, it lands on you: the venue, the snacks, the showing-up-early, the lonely cleanup. You don't want to host events that drain you to put on something five people half-enjoy. You want gatherings that bring your node alive and keep it alive without you carrying the whole thing.
 
----
+This guide is about the specific job of an event for a **local node** — a small, place-based chapter of a wider regenerative network, like a [Greenpill](https://greenpill.network/) chapter or a [ReFi DAO](https://refidao.com/) local node. Your event is the moment online handles become actual neighbours.
 
-## Why Events Matter
+## Pick One Job Per Event
 
-Events are how local nodes come alive. Online tools are great for coordination, but in-person connection builds trust in ways that text can't replicate.
+The single biggest mistake is asking one event to do everything: teach newcomers, deepen old friendships, make decisions, and celebrate a milestone, all in one evening. It does none of them well, and you go home exhausted.
 
-For Web3 communities, events serve multiple purposes:
+Give each event one job. Think of it like a garden bed: you don't plant tomatoes, garlic, and shade-loving ferns in the same square foot and expect all three to thrive. Pick the crop, then build the conditions for it.
 
-1. **Onboard new members** — Show them what you're about in a way that feels human
-2. **Deepen relationships** — Move from online handles to actual people
-3. **Build culture** — Create shared experiences and memories
-4. **Attract new people** — Events are often the best marketing
-5. **Make decisions** — Some things are better done face-to-face
+Four jobs cover almost everything a node needs:
 
-This guide covers how to plan events that actually work for local node communities.
+- **Educational** — teach one thing. An "intro to regenerative finance" talk, a live wallet-setup clinic, a walkthrough of how your node votes. Best for onboarding curious newcomers. Format: 30–45 minutes of content, then Q&A, then unstructured time to mingle.
+- **Social** — build relationships, full stop. A pub meetup, a potluck, a co-working afternoon, a walk. No agenda except a host who makes introductions. Format: two to three loose hours.
+- **Working** — make progress on a real thing together. A grant-writing session, a build day, a planning afternoon to set the node's direction. Format: a tight agenda with one concrete output by the end.
+- **Celebration** — mark a win and thank the people who made it. "We funded the community garden." "We hit a year." Format: a bit of reflection, a lot of appreciation.
 
----
+The two most underrated for a young node are **social** and **working**. Education attracts strangers, but relationships and shared output are what make them stay.
 
-## The Event Purpose Spectrum
+## Tie Web3 to Something Local and Real
 
-Every event serves purposes. The best events serve one purpose really well.
+A node event is not a crypto event with regen branding. It's a local gathering that happens to use some on-chain tools. The order matters.
 
-### Educational Events
+Abstract talks about tokenomics empty a room. Concrete local questions fill it: "Could we fund the community garden's water bill with a small treasury?" "How would we split a grant fairly between three projects?" People show up for the garden, not the ledger.
 
-**Purpose:** Teach something new
-**Examples:**
-- Workshop: "Intro to Regenerative Finance"
-- Speaker: "How our DAO makes decisions"
-- Demo: "Setting up your first wallet in 10 minutes"
-- Deep dive: "Understanding tokens and governance"
+Real nodes work this way. **ReFi DAO** — the network coordinating local regenerative-finance chapters — has run a Local Node Incubator since 2023 whose alpha cohort supported 30-plus local events and helped nodes raise roughly $55k through [Gitcoin Grants](https://www.gitcoin.co/), a public-goods crowdfunding platform. The events that worked were grounded in place: **ReFi Miami** ran tree-planting days, **ReFi Tulum** worked on circular-economy projects, **ReFi Costa Rica** incubated local ventures. None of those headlines say "blockchain." The chain is the plumbing, not the poster.
 
-**Best for:** Onboarding new members, building credibility, attracting curious newcomers
+> 🔧 **For practitioners:** When you do teach the on-chain piece, do it live and hands-on. Walk someone through setting up a self-custodial wallet (one they control the keys to) on the night, on their own phone, with you beside them. A working wallet in someone's hand beats an hour of slides about decentralization.
 
-**Typical format:** 30-60 minute presentation + Q&A + informal networking
+## A Five-Phase Plan You Can Hand Off
 
-### Social Events
+The reason events burn people out is that the whole plan lives in one head. Write it down in phases, and any of those phases can be handed to someone else. That hand-off is the whole point.
 
-**Purpose:** Build relationships
-**Examples:**
-- Happy hours at local brewery
-- Community potlucks
-- Game nights
-- Co-working sessions (working in the same space)
-- Walking meetups
+**1. Define the job.** One sentence: "This event helps newcomers set up a wallet and meet two regulars." If you can't write the sentence, you're not ready to book a room.
 
-**Best for:** Deepening connections, welcoming newcomers, community building
+**2. Set logistics.** When (check for clashes, avoid holidays), where (accessible, not corporate-feeling, room to actually talk), how long (shorter than you think — you can always run over), and what you provide (food, water, materials, childcare). Always ask about dietary needs and access at sign-up.
 
-**Typical format:** 2-3 hours unstructured, but with a host who makes introductions
+**3. Promote, starting two to three weeks out.** Post your event page, share it in your node's Discord and email list, ask a partner org to cross-post, and put a paper flyer in a café or library. Two channels done well beats six done badly.
 
-### Working Events
+**4. Run the day.** Arrive early. Put a named greeter at the door whose only job is welcoming people. Start roughly on time. Have an agenda but hold it loosely. Design for conversation, not just listening. Ask before taking photos. End with one clear next step and a date.
 
-**Purpose:** Get things done together
-**Examples:**
-- Build days: working on actual projects
-- Planning sessions: deciding node direction
-- Grant writing workshops: preparing applications
-- Design sprints: creating materials
+**5. Follow up within 24 hours.** Thank people, share anything you promised, and invite them to the next thing. This is where most nodes leak: the event ends and the relationship evaporates. A short thank-you note the next morning is the cheapest retention tool you have.
 
-**Best for:** Progress on goals, involving busy people who want to contribute
+## Tools: What's Free, What Changed
 
-**Typical format:** Structured agenda with specific outputs
+Tool prices and free tiers shift constantly, so verify before you commit. Here's the lay of the land in early 2026.
 
-### Celebration Events
+For listing and registration, **Luma** (lu.ma) is the regen-scene default. Free events are genuinely free with no platform fee. If you sell tickets, the free plan charges a 5% platform fee plus Stripe's payment processing (around 2.9% + 30¢ per ticket); Luma Plus removes the 5% platform fee for $69/month, which only pays off if you sell a lot of tickets. **Meetup** still works for discovery by strangers but now charges organizers (roughly $16–47/month depending on plan and region), so it's a paid choice, not a free one. **Eventbrite** suits larger ticketed events.
 
-**Purpose:** Acknowledge wins and build morale
-**Examples:**
-- Launch parties: celebrating new initiatives
-- Milestone celebrations: "We hit 100 members!"
-- Thank you events: appreciating contributors
-- Anniversary gatherings: reflecting on journey
+For online or hybrid gatherings, note a real change: **Gather** (gather.town), the spatial-video tool many nodes used for "walk-around" virtual meetups, removed its free tier and repositioned as a paid remote-team workspace (about $15/user/month). For a scrappy node, a plain video call plus good breakout-room discipline now does the job for free.
 
-**Best for:** Morale, recognition, attracting attention
+For commemorative attendance badges, **POAP** — the **Proof of Attendance Protocol**, an NFT issued to everyone who shows up to an event — is still cheap. POAPs mint on **Gnosis Chain** (a low-fee Ethereum sidechain), so gas is negligible, and personal and small in-person community drops remain free; only larger online commercial drops now require buying credits (a 100-POAP minimum for around $25, roughly $0.25 each). A POAP is a nice touch for regulars, not a reason to host.
 
-**Typical format:** Mix of reflection, appreciation, and forward-looking excitement
+> 💡 **Going deeper:** A POAP collection quietly becomes your node's attendance history on-chain. Over a year it shows who keeps showing up, which can later inform who gets a vote, a role, or a share of a grant. Start collecting badges early, even if you don't use them for anything yet.
 
-### Hybrid Events
+## Budget for the Event You Can Sustain, Not the One You Can Imagine
 
-You can combine types:
-- Educational + social = "Learn and connect"
-- Working + celebration = "Build day with pizza"
-- All three = "Workshop, then party"
+Money is rarely the thing that kills a node's events. Energy is. So budget for what you can repeat, not for one heroic blowout.
 
----
+- **$0** — potlucks, park meetups, a library community room, a partner's co-working space. Perfect for proving the concept and for the first six months of any node.
+- **$50–200** — pizza, basic supplies, a small venue. The workhorse tier for a regular monthly gathering.
+- **$200–1,000** — catered food, a speaker honorarium, childcare, a nicer venue. For quarterly or special events.
+- **$1,000+** — professional venue, full catering, AV and streaming. For a launch or a once-a-year flagship.
 
-## The Planning Framework
+Most local nodes should live almost entirely in the first two tiers. A node treasury, or a small Gitcoin round, can cover them without anyone reaching into their own pocket. Scale up only when the rhythm is already solid.
 
-### Phase 1: Define Purpose
+## Protect the Organizers, or You Won't Have a Node
 
-Before anything else, answer:
+The fear underneath all of this is real: that you'll pour months into events and burn out, or build something that quietly fizzles. The single best defence is to never let one person be the node.
 
-- What do we want to achieve?
-- Who is this for?
-- What's the one key outcome?
+- **Rotate the host.** Different person leads each month. The role should be lightweight enough that three or four people can each take it.
+- **Split the roles.** Greeter, snacks, setup, follow-up. Four small jobs beat one impossible one. Name them in your plan so they're easy to hand off.
+- **Choose a sustainable rhythm.** One genuinely good event a month beats three rushed ones. Consistency — same day each month — lets people plan their lives around it and lets you plan yours.
+- **Make the load visible.** At each event, name who carried it and thank them out loud. Invisible labour is what curdles into resentment and quitting.
 
-Write it down. This keeps you focused.
+This is also the honest answer to the fear of central overreach. A healthy local node doesn't wait for the mothership to tell it what to do. Networks like Greenpill and ReFi DAO offer toolkits, incubators, and an Event Organizers Guild for support, but the gathering is yours to shape around your place and your people. Use the playbooks; don't outsource your judgement. As of 2026 Greenpill lists 12 active chapters worldwide — from Cape Town to **Greenpill London Ontario** — and each runs on local energy, not head-office mandates.
 
-### Phase 2: Set Logistics
+Start small. One event, one job, done well, with the load shared. That's a node coming alive.
 
-Key decisions:
-- **When:** Check calendars, avoid holidays, consider work schedules
-- **Where:** Accessible space, good vibes, enough room, within budget
-- **How long:** Shorter is usually better — you can always go longer
-- **What's provided:** Food, drinks, materials, childcare?
+## Try This
 
-### Phase 3: Promote
+> **Start here:** Write the one-sentence job for your next gathering ("This event helps \_\_\_ do \_\_\_"). If you can't, you're not ready to book a room — and that's useful to know today.
 
-Get the word out:
-- Event platforms (Meetup, Eventbrite, Luma)
-- Social media (Twitter, Instagram, local Facebook groups)
-- Community channels (Discord, email list)
-- Partner organizations
-- Physical flyers in local spaces (cafes, libraries, community centers)
+> **Go deeper:** Plan a $0 social event for fewer than 15 people. Make a free [Luma](https://lu.ma/) page, name a greeter, name a snack-bringer, and write your 24-hour follow-up note before the event so it's ready to send. Run it within three weeks.
 
-Start promoting at least 2 weeks before.
+> **Stretch:** Build a six-month event calendar with one monthly social and one quarterly working session. Assign a rotating host for each slot now, set up a free POAP drop for one of them, and put it where your whole node can see and edit it. The goal isn't more events — it's events that no longer depend on you.
 
-### Phase 4: Execute
+## References
 
-Event day:
-- Arrive early to set up
-- Have a welcome person at the door
-- Start with clear introductions
-- Have an agenda (but be flexible)
-- Design for conversation, not just listening
-- Take photos (ask permission first!)
-- End with clear next steps
-
-### Phase 5: Follow Up
-
-After the event:
-- Thank attendees within 24 hours
-- Share resources mentioned
-- Send feedback survey
-- Invite to next event
-- Follow up individually with new contacts
-
----
-
-## Budgeting by Scale
-
-### Free Events ($0)
-- Potlucks (everyone brings something to share)
-- Park meetups
-- Library community rooms
-- Partner spaces (co-working spaces, cafe back sections)
-
-**When to use:** Early node, proving concept, community building
-
-### Low Budget ($50-200)
-- Pizza and refreshments
-- Basic supplies
-- Small venue rental
-- Transportation assistance
-
-**When to use:** Growing node, regular events, need to feed people
-
-### Medium Budget ($200-1000)
-- Catered food
-- Better venue
-- Professional materials
-- Speaker honorarium
-- Childcare
-
-**When to use:** Larger events, formal learning, special occasions
-
-### Larger Events ($1000+)
-- Professional venue
-- Full catering
-- Multiple speakers
-- Production quality (AV, streaming)
-- Travel support
-
-**When to use:** Big launches, conferences, milestone celebrations
-
----
-
-## Common Mistakes
-
-### 1. No Clear Purpose
-Events without purpose feel aimless. People leave wondering what it was for.
-
-**Fix:** Define what success looks like before planning anything.
-
-### 2. Too Many Events
-Quality over quantity. One great event beats three mediocre ones.
-
-**Fix:** Start with one monthly event. Make it amazing. Then add more.
-
-### 3. Ignoring Newcomers
-It's easy to just talk to your friends. But events should bring new people in.
-
-**Fix:** Have a newcomer welcome system. Assign someone to introduce them.
-
-### 4. No Follow Up
-The event ends but relationships don't continue.
-
-**Fix:** Have a follow-up system. Email within 24 hours. Invite to next event.
-
-### 5. Burning Out Organizers
-Don't let one person carry everything. It leads to burnout and dependence.
-
-**Fix:** Rotate organizers. Share the load. Celebrate organizers.
-
----
-
-## Web3-Specific Tips
-
-### Include Education
-Most people are curious but don't know where to start. Include beginner-friendly content.
-
-The Greenpill approach emphasizes accessible education — meet people where they are [1].
-
-### Show, Don't Just Tell
-Demonstrate tools live. Help people set up wallets. Make it tangible.
-
-### Connect to Local
-Tie Web3 concepts to local issues. "How can we fund our community garden with tokens?" hits different than abstract discussion.
-
-### Embrace Experimentation
-The Web3 space is about innovation — apply that to events too. Try new formats. Fail fast.
-
-### Document Everything
-Photos, videos, notes. These become content, reference, and memory.
-
----
-
-## Virtual + In-Person Hybrid
-
-If your community is geographically distributed:
-
-- Live stream in-person events
-- Use spatial audio tools (like Gather.town)
-- Have dedicated online breakout sessions
-- Make both groups feel included
-- Consider async participation options
-
----
-
-## In-Person Best Practices
-
-### Space Selection
-- Comfortable seating (not rigid theater rows)
-- Good acoustics (you want conversation)
-- Good lighting
-- Accessible location (stairs? parking?)
-- Enough room for your expected group
-- Good vibe (doesn't feel corporate)
-
-### Food and Drink
-- Ask about dietary needs in registration
-- Keep it simple (pizza is fine)
-- Alcohol: optional, not required
-- Always have water available
-- Don't overspend
-
-### Facilitation
-- Start on time (even if people aren't there yet)
-- Have a host/greeter who welcomes people
-- Introduce newcomers by name
-- Include everyone in conversation
-- End with clear next steps and dates
-
----
-
-## Post-Event Checklist
-
-- [ ] Thank attendees within 24 hours
-- [ ] Share resources mentioned in event
-- [ ] Send feedback survey
-- [ ] Invite to next event
-- [ ] Follow up individually with new contacts
-- [ ] Document what worked and what didn't
-- [ ] Update planning for next time
-
----
-
-## Scaling Events
-
-### Small (5-20 people)
-- Simple gatherings
-- One organizer can handle
-- Low budget works
-- Personal, intimate
-
-### Medium (20-50 people)
-- More structure needed
-- Multiple organizers
-- Budget required
-- Still community-feel possible
-
-### Large (50+ people)
-- Professional planning required
-- Team coordination
-- Sponsorships likely needed
-- More logistics to manage
-
-Most local nodes should stay small-medium. Scale only when ready.
-
----
-
-## Building an Event Calendar
-
-Instead of one-off events, build a rhythm:
-
-**Monthly:**
-- Regular social event (same day each month)
-
-**Quarterly:**
-- Educational event
-- Working event
-- Celebration
-
-**Annually:**
-- Big event
-- Retreat
-
-Consistency builds expectation. People plan around events they know will happen.
-
----
-
-## Sources
-
-[1] Greenpill Local Regen Guide - Event organizing and community building
-
-[2] Event organizing best practices - General community event guides
-
-[3] DAO community events - Web3-specific event playbooks
-
----
-
-## Moving Forward
-
-Start small. One event. Make it great. Build from there.
-
-Events are how communities become real. The online coordination is preparation for in-person connection.
-
-Go make something happen.
+- [Greenpill Network](https://greenpill.network/) — Global network of local regenerative chapters; the homepage lists active chapters and their events. Verified 12 active chapters as of 2026.
+- [ReFi DAO — Local Node Beta Incubator](https://blog.refidao.com/local-node-beta-incubator/) — The 8-week local-node curriculum (WHY/WHO/WHAT/HOW) and real event examples from ReFi Miami, Tulum, and Costa Rica.
+- [ReFi DAO Local Node Toolkit](https://refidao.github.io/local-refi-toolkit/) — Playbooks on facilitation, event organizing, fundraising, and on-chain finance for node leaders, including the Event Organizers Guild.
+- [Luma Pricing](https://luma.com/pricing) — Current event-platform fees: free for free events, 5% platform fee on paid tickets, Luma Plus at $69/month.
+- [POAP Commercial Use Policy](https://help.poap.xyz/hc/en-us/articles/14658302748301-Commercial-POAPs-FAQ) — How attendance-badge minting is priced: personal and small IRL drops subsidized, commercial drops from ~$0.25 each.
+- [Gather pricing changes (2025)](https://support.gather.town/articles/2500085119-understanding-gather-s-pricing-changes-2025) — Documents the removal of Gather's free tier; relevant if you were relying on it for virtual meetups.
+- [Gitcoin Grants](https://www.gitcoin.co/) — Quadratic-funding platform local nodes use to crowdfund events and projects.

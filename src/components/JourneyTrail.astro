@@ -1,0 +1,67 @@
+---
+// A vertical "field-guide trail": chapters with numbered, connected stops.
+const { journey } = Astro.props;
+let n = 0;
+---
+<ol class="trail" aria-label={`${journey.label} steps`}>
+  {journey.chapters.map((chapter) => (
+    <li class="trail__chapter">
+      <div class="trail__chapter-head">
+        <span class="trail__chapter-dot" aria-hidden="true"></span>
+        <span class="eyebrow">{chapter.label}</span>
+      </div>
+      <ul class="trail__steps">
+        {chapter.steps.map(([slug, title, blurb]) => {
+          n += 1;
+          return (
+            <li class="trail__step">
+              <a href={`/${slug}/`} class="trail__link">
+                <span class="trail__num" aria-hidden="true">{String(n).padStart(2, "0")}</span>
+                <span class="trail__body">
+                  <span class="trail__title">{title}</span>
+                  <span class="trail__blurb">{blurb}</span>
+                </span>
+                <span class="trail__arrow" aria-hidden="true">→</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .trail { list-style: none; margin: 0; padding: 0; position: relative; }
+  .trail__chapter { position: relative; padding-left: 30px; }
+  .trail__chapter::before {
+    content: ""; position: absolute; left: 7px; top: 12px; bottom: -10px; width: 2px;
+    background: linear-gradient(var(--line-strong), color-mix(in oklab, var(--moss) 30%, var(--line)));
+  }
+  .trail__chapter:last-child::before { bottom: 30px; }
+  .trail__chapter-head { display: flex; align-items: center; gap: 12px; margin: 26px 0 10px -30px; padding-left: 0; }
+  .trail__chapter-dot {
+    width: 16px; height: 16px; border-radius: 50%; flex: none; margin-left: 0;
+    background: var(--paper); border: 2px solid var(--moss);
+    box-shadow: 0 0 0 4px color-mix(in oklab, var(--moss) 12%, transparent);
+  }
+  .trail__steps { list-style: none; margin: 0; padding: 0; }
+  .trail__step { margin: 8px 0; }
+  .trail__link {
+    display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 16px;
+    padding: 14px 18px; border-radius: 16px; border: 1px solid transparent;
+    transition: background .25s var(--ease), border-color .25s, transform .25s var(--ease);
+  }
+  .trail__link:hover {
+    background: var(--paper-2); border-color: var(--line);
+    transform: translateX(5px);
+  }
+  .trail__num {
+    font-family: var(--font-mono); font-size: .82rem; font-weight: 600;
+    color: var(--moss-soft); padding-top: 2px;
+  }
+  .trail__title { display: block; font-family: var(--font-display); font-weight: 560; font-size: 1.16rem; color: var(--ink); letter-spacing: -.01em; }
+  .trail__blurb { display: block; color: var(--ink-soft); font-size: .96rem; margin-top: 1px; }
+  .trail__arrow { color: var(--ink-faint); font-size: 1.1rem; transition: transform .25s var(--ease), color .25s; }
+  .trail__link:hover .trail__arrow { color: var(--growth-deep); transform: translateX(4px); }
+</style>

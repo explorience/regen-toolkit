@@ -1,136 +1,75 @@
 ---
-title: What Is Cryptocurrency
-description: Learn about what is cryptocurrency in this Regen Toolkit article.
-section: '1.4'
-track: 1
-status: published
-author: unknown
-sources: []
-target_audience: []
-estimated_words: 606
-created: '2026-03-11T09:43:43.206Z'
-last_updated: '2026-03-26'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-date: '2026-03-11'
-category: foundations
-stage: build
-tags:
-  function: Education
-  domain: Web3-Literacy
-  systems:
-    - Decentralization
-    - Trust-Networks
-audience: Individual
-maturity: Beginner
-related:
-  - what-is-blockchain
-  - how-to-get-crypto
-  - stablecoins
-  - what-are-tokens
+title: "What Is Cryptocurrency?"
+description: "A plain-language introduction to cryptocurrency for community organisers and growers new to crypto: what it is, why it matters for on-the-ground work, and what to watch out for."
 ---
 
-# What is Cryptocurrency?
+# What Is Cryptocurrency?
 
-*A beginner's guide for permaculture folks*
+You've probably split a bill with an app, or sent a few quid to a market stallholder with a tap of your phone. The money moved in seconds, and a bank quietly sat in the middle making sure both sides agreed. Cryptocurrency does the same job of moving value between people, but it swaps that bank for something closer to how a well-run community already works: everyone keeping a shared, honest record together.
 
----
+If you organise gardens, run a tool library, or hold a seed swap, that idea is already in your bones. Here's what cryptocurrency actually is, why it might matter for your real work, and how to tell the useful parts from the hype.
 
 ## The Short Version
 
-Cryptocurrency is digital money that doesn't need a bank. You can send it directly to anyone, anywhere in the world, using just your phone.
+**Cryptocurrency** is money that exists only as digital records, and that people can send directly to each other without a bank or company sitting in the middle. "Crypto" is short for **cryptography** — the maths that locks each transaction so it can't be forged or quietly rewritten.
 
-If you've ever used PayPal or Venmo, it's similar—but there's no company in the middle keeping track. Instead, a network of computers around the world verifies every transaction together.
+The first cryptocurrency, **Bitcoin**, launched in 2009. Today there are thousands of others, but they all share that core idea: a shared record, kept by a crowd, that no single party owns.
 
-Why should you care? Because this technology can help communities trade, track resources, and cooperate without relying on traditional institutions. Sound familiar? That's permaculture too.
+## The Shared Notebook
 
----
+Picture your seed library's lending notebook. When someone borrows a packet of tomato seeds, you write it down. Now imagine everyone in the collective holds an identical copy of that notebook. Every new entry gets added to all the copies at once, and once an entry is written and everyone agrees on it, nobody can rub it out.
 
-## How It Works (No Jargon)
+That shared, tamper-resistant notebook is a **blockchain** — a record of transactions copied across thousands of computers, where new entries can be added but old ones can't be secretly changed.
 
-### The Basics
+This is the heart of it. As one plain-language explainer puts it: if you own cryptocurrency, you don't own anything tangible — what you own is a key that lets you move a record from one person to another, with no trusted third party in between. Your wallet holds that key. The network holds the notebook.
 
-When you send money through your bank, they verify the transaction and update their records. With cryptocurrency, a **blockchain** does this job.
+The grown-up word for this is **decentralisation** — no single bank, company, or government runs the system. The same instinct that makes a farmers' market work without a central boss setting every price is the instinct behind a blockchain.
 
-Think of blockchain like a community seed library notebook that everyone shares. When someone borrows seeds, everyone writes it down. If one notebook gets lost, the others still have the correct record. No single person controls it—everyone holds each other accountable.
+## Coins vs. Tokens
 
-That's the key difference from regular digital banking: **no middleperson**.
+You'll hear two words used loosely, so it helps to separate them.
 
-### What Makes It Secure?
+A **cryptocurrency** (or "coin") is the native money of its own blockchain — Bitcoin on the Bitcoin network, ether on Ethereum. A **token** is something built *on top of* an existing blockchain for a specific purpose, using the network's plumbing rather than running its own.
 
-The "crypto" part means mathematical coding that locks transactions. Once something is recorded on the blockchain, it can't be changed or deleted without the whole network agreeing.
+Tokens are the part most relevant to community work, because they behave like the local currencies and barter credits you may already use. Think of a tool-library credit, a volunteer-hours token, or a share in a community-supported agriculture box. The community sets the rules; the blockchain just keeps the count honest. You don't need a bank to issue them.
 
-As one source puts it: "You own a key that allows you to move a record from one person to another without a trusted third party".
+## Why This Might Matter for Your Work
 
----
+The honest answer to "why should I care?": you almost certainly don't *need* crypto, and be suspicious of anyone who says you do. But a few real projects show where it genuinely helps the kind of work you do.
 
-## Tokens vs. Cryptocurrency
+**Local currencies that survive a cash drought.** Grassroots Economics in Kenya runs the **Sarafu Network**, a community currency that lets neighbours trade goods and labour when national cash is scarce. Around 30,000 people have made over 300,000 trades on it, and it now runs on a low-energy blockchain called Celo. It's a digital version of the mutual credit that's powered communities for centuries.
 
-You might hear both terms:
+**Paying growers directly, without the middle layers.** **Regen Network** lets land stewards register regenerative projects and issue ecological credits for measured outcomes like soil carbon, then sell them to buyers — connecting the people doing the work to the people funding it, instead of routing through several layers of brokers who each take a cut.
 
-- **Cryptocurrency** = main digital money of a blockchain (like Bitcoin or Ethereum)
-- **Tokens** = digital assets built on top of a blockchain for specific purposes
+**Giving that funds itself.** **Glo Dollar** is a nonprofit digital dollar: the reserves backing it sit in cash and safe US government bonds, and the interest those reserves earn is donated to charities the holder chooses, with **GiveDirectly** — which hands cash straight to people in extreme poverty — a major recipient. Holding it routes money to good causes at no cost to you.
 
-Tokens are like community currency. In a permaculture context, imagine "seed tokens" that represent ownership of certain seeds, or "tool tokens" that give access to shared garden equipment. The community decides the rules—no bank needed.
+**Sending value across borders cheaply.** Sending money home through a traditional money-transfer service costs about 6% of the amount on average worldwide, and often more, according to the World Bank. A stable digital dollar sent on a low-cost network can cost a cent or two. For diaspora communities and cross-border solidarity funds, that gap is real money.
 
----
+## Addressing the Fears Head-On
 
-## Why It Matters for Your Work
+**"Isn't this terrible for the planet?"** It depends entirely on *which* blockchain. Bitcoin still uses **proof of work** — a system that secures the network by burning electricity, and it consumes roughly as much power each year as a country like Norway. But in 2022 Ethereum switched to **proof of stake**, which secures the network without the energy race, and cut its electricity use by about 99.95% overnight. Most newer chains — Celo, the ones the projects above use — work this way. "Crypto wrecks the climate" was largely a Bitcoin story. Judge each project by the chain it runs on.
 
-1. **Community Currencies** – Track exchanges between farmers, volunteers, and neighbors without a bank.
+**"Won't I get scammed or look foolish?"** Scams are real, and healthy caution is exactly the right instinct. The rule that protects you is simple: a legitimate project never pressures you, never promises guaranteed returns, and never needs your secret key or recovery phrase. Anyone who asks for those is robbing you. You can learn the whole landscape without ever spending a penny.
 
-2. **Transparent Tracking** – Follow produce from farm to table, building trust in local food systems.
+**"Is this just hype that wastes my time?"** Plenty of it is. You don't have to become a trader, and understanding the idea costs you nothing. The value isn't speculation — it's recognising the cooperative patterns underneath, the same ones in seed swaps and mutual aid, and knowing a tool exists if your community ever needs it.
 
-3. **Cut Out Middlemen** – Get paid directly by anyone, anywhere, with lower fees.
+## Try This
 
-4. **Global Connections** – Receive international payments without the hassle.
+> **Start here:** Spend ten minutes on [Bankless Academy's](https://app.banklessacademy.com/) free crypto basics lessons. No money required — just a clear walkthrough you can stop anytime.
 
----
+> **Go deeper:** Install a free wallet app like Coinbase Wallet or MetaMask and simply look around. Don't buy anything. Notice how an address works and how a transaction would appear. Treat it like visiting a new tool library before you borrow.
 
-## What to Watch For
-
-- **Prices swing hard** – Don't invest money you need
-- **Accounts can be hacked** – Use strong passwords, enable two-factor authentication
-- **It's optional** – You don't have to use it to benefit from understanding it
-
----
-
-## The Big Picture
-
-Cryptocurrency's core ideas—decentralization, transparency, community verification—might feel familiar. These are the same principles that guide permaculture design and community exchange.
-
-You don't need to become a trader. The value is seeing how technology can support cooperation and local resilience.
-
----
-
-## Try This (Pick One)
-
-**1. Explore a wallet app (15 min)**
-- Download Coinbase or Trust Wallet (iOS/Android)
-- Don't buy anything—just look around
-- See how transactions appear
-
-**2. Search for "crypto regenerative agriculture" (10 min)**
-- Google it or use Brave Search
-- Find one project that interests you
-- Share it with a friend
-
-**3. Ask someone to show you (20 min)**
-- Find a friend who uses crypto
-- Ask them to walk you through sending a small amount
-- Personal stories make it click
-
----
+> **Stretch:** Read how the [Sarafu Network](https://www.grassrootseconomics.org/sarafu-network) or [Regen Network](https://www.regen.network/) actually runs, then sketch one page on whether a community token could help a group you're part of — and, just as honestly, where a plain spreadsheet would do the job better.
 
 ## References
 
-- [Kaspersky: What is Cryptocurrency?](https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency)
-- [Bitdegree: Bitcoin & Blockchain](https://academy.bitdegree.org/courses/blockchain-basics/)
-- [Investopedia: Token](https://www.investopedia.com/terms/t/token.asp)
-- [Fiat Republic: Blockchain Use Cases](https://fiatrepublic.com/)
-- [PwC: Understanding Cryptocurrency](https://www.pwc.com/us/en/tech-effect/emerging-tech/understanding-cryptocurrency-digital-assets.html)
+- [Kaspersky: What Is Cryptocurrency?](https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency) — plain definition of cryptocurrency, cryptography, and how digital money differs from cash.
+- [Ethereum.org: The Merge](https://ethereum.org/roadmap/merge/) — the official account of Ethereum's 2022 switch to proof of stake and the ~99.95% energy reduction.
+- [Cambridge Bitcoin Electricity Consumption Index](https://ccaf.io/cbnsi/cbeci/comparisons) — independent estimates of Bitcoin's energy use, with country comparisons.
+- [Grassroots Economics: Sarafu Network](https://www.grassrootseconomics.org/sarafu-network) — the Kenyan community-currency project, its scale, and its move onto a low-energy blockchain.
+- [Regen Network](https://www.regen.network/) — ecological credits and a marketplace that connects land stewards to funders.
+- [Glo Dollar: How It Works](https://www.glodollar.org/articles/how-glo-dollar-works) — a nonprofit stablecoin that donates its reserve interest to causes its holders choose.
+- [World Bank: Remittance Prices Worldwide](https://remittanceprices.worldbank.org/) — official, regularly updated data on what it costs to send money across borders.
+- [Bankless Academy](https://app.banklessacademy.com/) — free, beginner-friendly, interactive crypto lessons.
+</content>
+</invoke>

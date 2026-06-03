@@ -1,170 +1,108 @@
 ---
-title: How To Get Crypto
-description: Learn about how to get crypto in this Regen Toolkit article.
-section: '1.4'
-track: 1
-status: published
-author: unknown
-sources: []
-target_audience: []
-estimated_words: 1151
-created: '2026-03-11T09:43:43.219Z'
-last_updated: '2026-03-26'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-date: '2026-03-11'
-category: foundations
-stage: build
-tags:
-  function: Education
-  domain: Web3-Literacy
-  systems:
-    - Decentralization
-    - Trust-Networks
-audience: Individual
-maturity: Beginner
-related:
-  - what-is-cryptocurrency
-  - setting-up-first-wallet
-  - stablecoins
-  - what-is-wallet
+title: "How to Get Your First Crypto"
+description: "A calm, scam-aware guide for community organisers and growers on getting your first cryptocurrency safely, starting tiny, and connecting it to real regenerative work."
 ---
 
-# How to Get Cryptocurrency 🌱
+# How to Get Your First Crypto
 
-*Getting started with crypto is a lot like starting a new garden — you don't need to understand every detail to begin. You just need a few good tools and some basic knowledge. Let's dig in!*
+A grant-maker in another country wants to send your community garden project $300, but a wire transfer would cost $40 in fees, take a week, and bounce off your co-op's shared bank account. Someone suggests crypto, and your stomach tightens: isn't that the thing that wastes electricity, crashes overnight, and gets people scammed? Those worries are fair. This guide walks you through getting your first cryptocurrency the way you'd start a new garden bed: slowly, with cheap experiments, and without betting the whole season on it.
 
----
+**Cryptocurrency** is money that lives on the internet and moves directly between people, recorded on a shared public ledger called a **blockchain** (think of it as a notebook everyone can read but no single person can secretly edit). You don't need to understand the engine to drive the car. You need a few good tools and the confidence to start small.
 
-## Why Would You Want Cryptocurrency?
+## Why this might actually matter for your work
 
-Before we get to the "how," let's talk about the "why." Cryptocurrency is digital money that lives on the internet — no banks, no middlemen, just you and your money. For permaculture folks, crypto offers some interesting possibilities:
+Before "how," let's be honest about "why," because if it doesn't help your real work, skip it.
 
-- **Direct payments** to people around the world without Western Union fees eating up 10%
-- **Supporting regenerative projects** that might not have bank accounts
-- **Being part of new systems** that don't rely on extractive finance
+- **Cross-border money without the bleed.** Sending money internationally through banks or services like Western Union can lose 6% or more to fees, and small grassroots projects often can't easily open accounts. Crypto can move value to a wallet in minutes for a much smaller cost.
+- **Funding that reaches projects banks ignore.** A seed-saving collective with no formal bank account can still receive funds to a wallet. Networks like the **Greenpill Network** (a global community using crypto to fund local regenerative work, with chapters in places including London, Ontario, Cape Town, and Toronto) channel money toward exactly this kind of on-the-ground effort.
+- **Practising the alternative you talk about.** If your organising is about building systems outside extractive finance, this is one concrete tool for doing that, not just describing it.
 
-> ⚠️ **Important heads-up:** Crypto isn't like money in a bank. There's no FDIC insurance protecting your funds. If something goes wrong — a hack, a scam, a mistake — your money might be gone forever. We'll talk about staying safe later in this guide.
+> ⚠️ **The honest warning:** Crypto is not a bank account. There's no government deposit insurance (no **FDIC** protection in the US, no equivalent elsewhere). If you get scammed, send to the wrong address, or lose your password, the money is usually gone for good and no one can reverse it. That's exactly why we start with $10, not $1,000.
 
----
+## The energy question, answered plainly
 
-## How to Get Cryptocurrency
+This deserves its own breath, because it's probably your biggest objection.
 
-There are several ways to get crypto, ranging from "just like buying stocks" to "earn it by participating." We'll cover the main approaches.
+The "crypto wastes power" story is mostly about **Bitcoin**, which uses an energy-hungry method called **proof-of-work** (millions of computers racing to solve puzzles). That criticism is valid for Bitcoin.
 
-### 1. Buying on an Exchange (The Easiest Way)
+But most other coins, including **Ethereum** (the second-largest and the one most regenerative projects use), switched to a method called **proof-of-stake** in September 2022, in an event called "the Merge." Instead of computers racing, people lock up coins to help run the network. The change cut Ethereum's electricity use by roughly **99.95%** overnight, dropping it from the consumption of a small country to that of a small town. So if energy is your line in the sand, you can use Ethereum-based tools with a clear conscience and simply avoid Bitcoin mining.
 
-Think of a cryptocurrency exchange like a marketplace — it's where people buy and sell different cryptocurrencies. There are two main types:
+## Way 1: Buy it on an exchange (start here)
 
-**Centralized Exchanges (CEX)**
+A **crypto exchange** is a marketplace where you swap regular money (dollars, pounds, euros) for crypto. It's the garden centre of this world: convenient, staffed, and a fine place to begin.
 
-These are companies that run the marketplace for you. You create an account, verify your identity (they'll ask for a driver's license), and then buy crypto using regular money like dollars or euros.
+The simplest kind is a **centralised exchange** (a company that runs the marketplace and holds your crypto for you, like a bank holding your cash). You make an account, verify your identity with a photo ID, and buy with a card or bank transfer. **Coinbase** and **Kraken** are two of the most established, with beginner-friendly apps. (One note: **Binance** is heavily restricted for US users after a 2023 settlement with US authorities, so US readers should stick to Coinbase or Kraken.)
 
-- **Pros:** Super beginner-friendly, lots of options, good customer support
-- **Cons:** You don't control your own money — the exchange holds it for you
+The trade-off: the company holds your money for you, so you're trusting them not to fail or freeze your account. That's why we don't leave large amounts sitting there.
 
-Popular options include **Coinbase**, **Binance**, and **Kraken**. If you're brand new, Coinbase is often recommended because its interface is the easiest to navigate.
+> 🌱 **Garden analogy:** A centralised exchange is like buying seedlings from a garden centre. Easy, helpful staff, but they hold your plants in their greenhouse until you take them home. Getting your own **wallet** (an app that lets *you* hold your crypto directly) is like bringing the plants back to your own soil.
 
-**Decentralized Exchanges (DEX)**
+The other kind, a **decentralised exchange** or **DEX** (like **Uniswap**), runs on code instead of a company, so you trade straight from your own wallet with no ID check. It's powerful but fiddly, and not where a beginner should start. Come back to it once you're comfortable.
 
-These are more like a community marketplace — no company runs it, just code. You connect your own wallet and trade directly with other people.
+## Way 2: Buy it from a person (peer-to-peer)
 
-- **Pros:** You control your own money, more privacy, less risk of the company going bust
-- **Cons:** The interface can be trickier, and transactions sometimes take longer
+Sometimes you'd rather buy directly from another human than hand ID to a company. **Peer-to-peer** (P2P) platforms let you do that, like a Craigslist for crypto with a built-in safety net.
 
-Popular DEXs include **Uniswap** and **Curve**.
+Here's the flow:
 
-> 🌱 **Gardening Analogy:** Centralized exchanges are like buying from a garden center — convenient, helpful staff, but they hold your plants. Decentralized exchanges are like a seed swap meet — you bring your own seeds and trade directly, but you need to know what you're doing.
+1. You browse offers from real sellers, each listing a price and accepted payment methods (bank transfer, PayPal, sometimes gift cards).
+2. The platform locks the seller's crypto in **escrow** (a secure holding pen the seller can't touch).
+3. You pay the seller directly.
+4. You confirm payment, and only then does the escrow release the crypto to you.
 
-**Try This:** If you're ready to start, create a free account on Coinbase. You don't have to buy anything yet — just explore the interface to get comfortable. It's a bit like walking through a garden center before buying anything!
+A working option in 2026 is **LocalCoinSwap**, a non-custodial P2P marketplace operating in 190+ countries with around a 1% fee. For privacy-focused users, **Bisq** is desktop software with no sign-up and no company holding funds.
 
----
+> ⚠️ **The one P2P rule that saves you:** Only ever use the platform's escrow. If a seller begs you to pay them "directly to skip the fee," that's the scam. Walk away. No exceptions.
 
-### 2. Peer-to-Peer Trading (More Private)
+A note on staleness, because this field moves fast: **Paxful**, the platform most older guides still recommend, wound down completely by November 2025. If a tutorial points you there, it's out of date, a useful reminder to check dates on anything crypto-related.
 
-Sometimes you want to buy crypto directly from a person rather than a company. That's where P2P (peer-to-peer) platforms come in — think of it like Craigslist for crypto.
+## Way 3: Earn it instead of buying it
 
-**How it works:**
-1. You browse offers from real people selling crypto
-2. You pay them using your bank account, PayPal, or even gift cards
-3. The platform holds the crypto in escrow (like a secure lockbox)
-4. Once you confirm you paid, the crypto gets released to you
+You don't have to spend a penny to get crypto. You can earn it, which suits organisers who'd rather give time than cash.
 
-**Why people like it:** Less identity verification, more payment options, sometimes better prices.
+- **Get paid for your skills.** Plenty of regenerative and public-goods projects pay contributors in crypto for writing, translation, design, facilitation, or community work. This is how a lot of the **ReFi** (regenerative finance) world actually operates day to day.
+- **Bounties and grants.** Projects post small paid tasks (a translation, a guide, an event write-up). Greenpill chapters and Gitcoin grant rounds are common starting points.
+- **Staking.** Once you hold some crypto, you can **stake** it, locking it up to help secure a proof-of-stake network in exchange for a reward, much like leaving a crop to fix nitrogen back into the soil. Ethereum staking currently returns around **3% per year**. (Treat anything promising 20%, 50%, or "guaranteed" returns as a flashing red warning, not an opportunity.)
 
-**Popular P2P platforms:** Paxful, LocalCoinSwap
+> 🌿 **Real talk on "free money":** **Airdrops** (projects giving away free tokens for attention) sound great and are mostly either worthless or a trap to drain your wallet. Don't chase them. Earning through genuine work is the path that doesn't end in regret.
 
-> ⚠️ **Safety note:** Only use the platform's escrow system. If someone asks you to pay outside the platform, that's a red flag — walk away.
+## Staying safe: the non-negotiables
 
----
+This is the part to actually memorise. Scammers are the real risk, far more than the technology.
 
-### 3. Earning Cryptocurrency
+**Walk away immediately if you see:**
 
-You don't have to buy crypto — you can earn it! Here are some common ways:
+- A stranger sliding into your messages with an "investment opportunity."
+- Any promise of guaranteed, risk-free, or "can't lose" returns. Nobody can promise that.
+- A new online friend or romantic interest who wants to teach you to invest. This **romance scam** drains more victims than almost anything else.
+- Pressure: "Act now or miss out." Urgency is a manipulation tactic, full stop.
+- Anyone, ever, asking for your **seed phrase**.
 
-**Staking**
+That last one is the master key. Your **seed phrase** is the 12 to 24 words that unlock your wallet. Anyone with it owns everything inside. No legitimate company, support agent, or app will *ever* ask for it. Treat it like the only key to your house, plus the deed, plus your life savings.
 
-Remember how plants lock nutrients into soil to help the whole garden grow? Staking is similar — you "lock up" some of your crypto to help a blockchain network work properly. In return, you earn more crypto as a reward.
+Your four habits:
 
-- **What you need:** At least a little bit of crypto to start (the minimum varies by network)
-- **Potential rewards:** Usually 3-8% per year, depending on the network
-- **Where to start:** Many exchanges let you stake directly — no technical setup needed
+1. **Never share or type your seed phrase** into any website. Write it on paper, store it somewhere safe, and keep it offline. No photos, no cloud, no password manager.
+2. **Use strong, unique passwords** (12+ characters) and turn on two-factor authentication on every account.
+3. **Test with a tiny amount first.** Before you ever move real money, send $5 worth and watch it arrive. Confirm the process works *before* you trust it with $500.
+4. **Start with only what you can afford to lose.** Your first month is tuition, not investment.
 
-**Airdrops**
+> 💡 **The grower's mindset:** Even master gardeners kill plants their first season. Your first small mistake here costs a few dollars and teaches you more than any article.
 
-Sometimes projects give away free crypto to get attention — like a seed company sending you free sample packets. You might get tokens just for holding certain coins or for completing simple tasks on social media.
+## Try This
 
-> 🌿 **Real talk:** Most airdrops aren't worth much, and some are scams. Don't get too excited about "free money" — it's usually a marketing thing.
+> **Start here:** Today, install **Coinbase** or **Kraken** and create a free account. Don't buy anything. Just walk through the app the way you'd wander a garden centre before planting season, getting comfortable with where things are.
 
-**Working for Crypto**
+> **Go deeper:** Once verified, buy $10 of Ethereum, then send $2 of it to a friend's wallet (or a second wallet of your own). Watching that small amount actually arrive, on your own, is the moment crypto stops being abstract.
 
-Some employers and projects pay in cryptocurrency. If you have skills — writing, design, coding, community building — you might find opportunities to get paid in crypto. This is how many regenerative economy projects operate!
-
----
-
-## Staying Safe: Avoiding Scams
-
-Here's the part where we get serious. The crypto world has wonderful people building cool things — and it also has scammers. Here's how to protect yourself:
-
-**🚩 Red Flags (Walk Away If You See These)**
-
-- Someone contacts you out of the blue with an "investment opportunity"
-- Promises of guaranteed returns or "can't lose" deals
-- Anyone demanding payment in cryptocurrency — legitimate businesses won't do this
-- "Love interests" online who want to help you invest (this is a very common scam)
-- Pressure tactics: "Act now or miss out!"
-
-**🛡️ Security Basics**
-
-1. **Never share your seed phrase** — that's the 12-24 words that give access to your wallet. No legitimate company will ever ask for this.
-2. **Use strong, unique passwords** — at least 12 characters, different for every account
-3. **Write down your seed phrase on paper** — never store it digitally (no photos, no cloud)
-4. **Start small** — don't invest more than you can afford to lose
-
-> 💡 **Pro tip:** Test everything with tiny amounts first. Send $5 worth of crypto to a new wallet before you send $500. Make sure you understand the process.
-
----
-
-## Your First Steps
-
-Ready to get started? Here's a gentle path forward:
-
-1. **Learn by looking:** Create a free account on Coinbase (or similar) — just explore, don't buy anything yet
-2. **Start tiny:** When you're ready, buy just $10-25 worth of a well-known crypto like Bitcoin or Ethereum
-3. **Try a small transaction:** Send a tiny amount to another wallet to understand how it works
-4. **Connect with community:** Join regenerative economy groups (like Greenpill) to learn from others
-
-Remember: You don't need to understand everything at once. Even master gardeners started by killing a few plants. Be patient with yourself, start small, and have fun exploring this new frontier!
-
----
+> **Stretch:** Find your nearest **Greenpill Network** chapter on greenpill.network (or join a Gitcoin grant round) and complete one small paid bounty, a translation, a write-up, an event recap, so your first crypto is earned through real regenerative work, not bought.
 
 ## References
 
-- [Bankless Academy - Getting Started with Crypto](https://www.bankless.com/getting-started-with-crypto)
-- [FTC - What to Know About Cryptocurrency Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams)
-- [Trust Wallet Blog](https://trustwallet.com/blog)
+- [Greenpill Network](https://greenpill.network/) — Global network of local chapters using crypto to fund regenerative and public-goods work; find a chapter near you.
+- [FTC: What To Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams) — Plain-language US government guide to the most common scams and red flags.
+- [Ethereum.org: The Merge](https://ethereum.org/roadmap/merge/) — Official explanation of Ethereum's 2022 switch to proof-of-stake and the ~99.95% energy reduction.
+- [Coinbase Learn](https://www.coinbase.com/learn) — Beginner tutorials on buying, sending, and securing crypto on a centralised exchange.
+- [Bisq](https://bisq.network/) — Open-source, non-custodial peer-to-peer exchange for privacy-focused buying with no sign-up.
+- [LocalCoinSwap](https://localcoinswap.com/) — Active non-custodial P2P marketplace operating in 190+ countries with escrow protection.
+- [Paxful Closure Announcement](https://paxful.com/blog/paxful-closure-announcement) — Confirmation that the once-popular P2P platform wound down in 2025; a reminder to check dates on crypto guides.

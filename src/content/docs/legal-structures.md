@@ -1,393 +1,108 @@
 ---
-title: Legal Structures for Local Node DAOs
-description: Understanding the legal options for your community finance organization.
-section: '2.3'
-track: 2
-status: published
-author: Tej (research + draft)
-sources:
-- LegalNodes
-- Pontinova Law
-- O'Melveny
-- CoinDesk
-target_audience:
-- grounded-regen
-estimated_words: 1900
-created: '2026-03-12T07:45:00.000Z'
-last_updated: '2026-03-26'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-category: applied
-tags:
-  function: Governance
-  domain: Governance
-  systems:
-    - Polycentric-Governance
-    - Subsidiarity
-audience: DAO-Operator
-maturity: Advanced
-related:
-  - is-dao-right
-  - daos-vs-traditional
-  - funding-your-node
-  - multisig-setup
+title: "Legal Structures for Your Local Node"
+description: "How to choose a legal wrapper that protects your community node without burying you in paperwork — for organizers ready to hold funds, sign things, and run events."
 ---
 
-# Legal Structures for Local Node DAOs
+# Legal Structures for Your Local Node
 
-*Choosing the right legal wrapper for your community finance organization*
+You've got fifteen people, a shared wallet with a few thousand dollars in it, and a public event next month. Then someone asks the question that quietly stalls a lot of local nodes: "Wait — if something goes wrong, who's on the hook?"
 
----
+The honest answer, if you've done nothing, is: you. And everyone whose name is on the group chat. Here are the structures that fix that, what each costs in 2026, and how to pick one without losing a season to lawyers.
 
-## Why This Matters
+A **legal wrapper** is a registered entity — a co-op, nonprofit, LLC, or DAO-specific structure — that sits "around" your group so the entity, not you personally, holds the money, signs the contracts, and absorbs the **liability** (legal responsibility for harm or debt). Without a wrapper, your community *is* you, legally speaking.
 
-When you're running a community finance system - whether it's a timebank, local currency, or regenerative investment DAO - you need to think about liability. Without proper legal structure, the people running the organization could be personally responsible if something goes wrong.
+## Why this stops people (and why it shouldn't stop you)
 
-As documented by LegalNodes, DAO members can face unlimited personal liability without a proper legal wrapper. That means if your local node loses money or someone gets hurt at an event you organized, you could be personally sued. The paperwork and fees for setting up a legal entity are nothing compared to the cost of a lawsuit.
+Without a wrapper, an informal group is usually treated as a **general partnership** — a default status where every member is personally responsible for the group's debts and actions. As Legal Nodes puts it, in an unregistered DAO "each member (each general partner) has unlimited legal liability for all activities conducted by the organization" [Legal Nodes].
 
-But here's the thing: you don't need to figure this out alone. Communities have been working through these questions for decades, and there are clear frameworks that work for different types of projects. In East Africa and Somaliland, community-based organizations have their own traditions of collective governance - the challenge is connecting those traditions to the legal tools that protect your group in formal systems.
+But notice the trigger: *activities*. If you're only running discussions and nobody's money or safety is at stake, your exposure is near zero. The paperwork matters when the stakes rise — and then a few hundred dollars of filing beats a lawsuit you pay from your own savings. It's not a wall to clear before you start; it's a fence you put up once the garden has something worth protecting.
 
----
+## First, size up your actual risk
 
-## Understanding Your Liability Risk
+Match the structure to the risk, not to how serious you want to look — most nodes overspend here out of nervousness.
 
-Before choosing a structure, assess how much risk your local node actually faces:
+**Low risk — stay informal.** You facilitate conversations, no money changes hands, you sign nothing, you manage no space. A reading group on regenerative finance lives here; so does a coordination-only Discord.
 
-**Low Risk (Probably Fine Without Formal Structure)**
-- You're just facilitating discussions
-- No money changes hands
-- No contracts signed
-- No physical spaces managed
+**Medium risk — get a simple structure.** You hold small pooled funds, collect dues, make micro-grants, or run events in public spaces. This is where most active **ReFi** (regenerative finance — using Web3 tools to fund ecological and social good) nodes land within their first year.
 
-**Medium Risk (Consider a Simple Structure)**
-- You're holding small amounts of community funds
-- Organizing events in public spaces
-- Making small investments in local projects
-- Collecting membership fees
+**High risk — you need real protection.** You manage a meaningful treasury, pay contractors, hold or rent property, or invest on others' behalf. Going unwrapped here is genuinely reckless.
 
-**High Risk (You Need Protection)**
-- Managing significant treasury
-- Hiring contractors or employees
-- Owning or renting physical property
-- Making investment decisions for others
+Be honest about which row you're in *today*, not where you hope to be in three years. You can always upgrade.
 
----
+## Staying informal (the unincorporated association)
 
-## Your Options, Explained
+This is where almost every group starts: people agreeing to work together, no registration, no separate entity. Book clubs and many community gardens run this way for years. It works while you're small, money-free, and low-risk, and stops working the moment you collect funds, decide about others' money, or invite the public to something that could go wrong — the protection is zero, which is the trade for zero paperwork. Do one thing anyway: keep written records of who decided what and when. Minutes cost nothing and protect everyone if a question arises later.
 
-### 1. Unincorporated Association
+## The cooperative
 
-This is what most groups start with - just a group of people agreeing to work together.
+A **cooperative** is a business owned and democratically controlled by its members, usually one-member-one-vote. It's one of the oldest community-enterprise forms on earth — credit unions and CSA (community-supported agriculture) farms are co-ops.
 
-**What it means:**
-- No registration required
-- No separate legal entity exists
-- All members are personally liable
+For a regen node, the appeal is structural alignment: member-owned and member-governed is the same value you're trying to embody on-chain. Co-ops can hold funds, earn income, and distribute surplus to members, on an established legal framework. Registration is modest — roughly **$50 to a few hundred dollars** in most US states. The trade-off is discipline: real meetings, real records, annual filings.
 
-**Real examples:**
-- Neighbourhood savings circles (common across East Africa)
-- Book clubs
-- Informal community gardens
-- Neighbourhood watch groups
+> 🔧 **For practitioners:** Want co-op governance *and* outside investment? Look at the **Limited Cooperative Association (LCA)** — a hybrid recognising both "patron members" and "investor members" with LLC-style liability protection [Wikipedia: LCA]. The UK's closest cousin is the **Community Interest Company (CIC)** — a company with an "asset lock" ring-fencing assets for community benefit, dividends capped at 35% of profits [Wikipedia: CIC].
 
-**When it works:**
-- Very small scale
-- No money involved
-- All activities are low-risk
-- You're comfortable with shared liability
+## The nonprofit
 
-**When it doesn't work:**
-- You're collecting money
-- You're making decisions that affect others' funds
-- Someone could get injured at your events
+A **nonprofit corporation** exists for a public benefit rather than to make money for owners. In the US, the gold standard is **501(c)(3)** status — the IRS tax-exempt category that makes donations tax-deductible and unlocks most grant funding. It's the right call when your node's core purpose is charitable or educational: environmental restoration, public-goods education, community resilience. You get tax exemption, grant eligibility, and liability protection. The cost: you *can't* distribute profits to members, activities must match your mission, and political activity is restricted.
 
----
+Current as of 2026: the IRS **Form 1023-EZ** (for groups projecting under $50,000/year in receipts) costs **$275** and processes in a few weeks; the full **Form 1023** costs **$600** and takes three to six months [IRS]. You can run activities while you wait.
 
-### 2. Cooperative
+## The LLC
 
-A cooperative is a business owned and controlled by its members. It's one of the oldest forms of organization for community enterprises, and it has deep roots in East Africa - from Kenya's cooperative movement to Somalia's pastoral cooperatives.
+A **Limited Liability Company (LLC)** is a flexible hybrid: the liability shield of a corporation without most of the formality. Members aren't personally on the hook for the entity's debts, and profits pass through to members' personal taxes (no corporate double-taxation). Reach for one when your node earns real income, signs contracts, or invests and you want strong protection fast — it's the workhorse for investment clubs and any group that needs to *do business*.
 
-**What it means:**
-- Members own and control the organization
-- One member, one vote (usually)
-- Profits distributed to members
-- Registered with your state, province, or national authority
+Costs vary by state. Wyoming, a popular choice, charges a minimum **$60 annual report fee** (its license tax, for entities under about $250,000 in in-state assets) plus a registered agent — $0 to around $200/year [Wyoming SOS; State Business Compliance]. Other states run higher: California's annual franchise tax is $800.
 
-**Real examples:**
-- Credit unions and savings cooperatives (SACCOs in East Africa)
-- Community supported agriculture farms
-- Consumer cooperatives
+## DAO-specific wrappers (the part that changed recently)
 
-**Pros:**
-- Established legal framework in most countries
-- Member-owned means community-controlled
-- Can generate income for members
-- Tax benefits in many jurisdictions
+Several jurisdictions now offer structures built specifically for **DAOs** (decentralized autonomous organizations — member-governed groups that run partly through on-chain voting and smart contracts). If your node already votes on-chain or holds a multisig treasury, these let you keep that *and* gain legal personality.
 
-**Cons:**
-- Requires proper meetings and records
-- May have annual reporting requirements
-- Can be complex to set up initially
-- Cooperative laws vary significantly between countries
+**Wyoming DUNA — the big one for regen nodes.** The **Decentralized Unincorporated Nonprofit Association**, effective July 1, 2024, is purpose-built for member-governed, mission-driven on-chain groups [Global Fintech & Digital Assets]. Members aren't personally liable for the association's actions, and a judgment against the DUNA doesn't reach individuals [a16z]. It's "nonprofit" but can still pay reasonable compensation and run revenue-generating activity in service of its purpose. The catch: the statute requires **at least 100 members** plus meaningful on-chain governance, so it suits a maturing node, not a five-person start. The Uniswap Foundation's **DUNI**, established by governance vote in 2025, is an early adopter and a useful worked example [Uniswap Foundation]. Not yet at 100 members? Wyoming has recognised **DAO LLCs** since 2021 — the same on-chain-plus-liability deal at those low fees, a good interim step.
 
-**Best for:**
-- Local currency systems
-- Community investment clubs
-- Timebanks that want to earn income
-- Consumer cooperatives
+**Marshall Islands DAO LLC.** Offered in for-profit and non-profit flavours via **MIDAO**, the main provider. Recognised and battle-tested but not cheap — incorporation starts around **$9,500** one-time, plus roughly $2,000–$5,000 a year [MIDAO]. For-profit ones pay a 3% gross-revenue tax; non-profit ones are tax-free [Offshore Companies International].
 
-**Cost range:** $50-500 to register, depending on jurisdiction. In some East African countries, cooperative registration is free or very low cost through government programmes.
+**Cayman Islands foundation.** A foundation structure with DAO governance for cross-border projects. Setup runs around **US$2,250**, but recurring government, registered-office, and secretary fees push the real annual burden into the thousands [Offshore Companies International]. For sizeable treasuries only.
 
----
+**The honest take: don't reach for an offshore foundation for a node holding $3,000.** For most local regen nodes the real choice is co-op vs. nonprofit vs. a Wyoming DUNA once you're on-chain.
 
-### 3. Nonprofit Corporation
+## A decision path you can actually follow
 
-A nonprofit is an organization dedicated to a public benefit, not making profits for owners. In the US this is called a 501(c)(3); other countries have equivalent structures (CBO registration in Kenya, NGO registration in many East African countries).
+1. **Holding money or signing contracts?** No → stay informal, keep records. Yes → keep going.
+2. **Charitable or educational, and you want grants?** → Nonprofit (501(c)(3); start with 1023-EZ if small).
+3. **Member-owned, surplus shared back, business-like?** → Cooperative (or LCA / UK CIC).
+4. **Earning income or investing, want fast protection?** → LLC.
+5. **100+ members, governing on-chain, mission-driven?** → Wyoming DUNA.
+6. **Large cross-border treasury?** → Only then, talk to a Web3 lawyer about Marshall Islands or Cayman.
 
-**What it means:**
-- Tax-exempt status possible
-- Cannot distribute profits to members
-- Dedicated to charitable or educational purposes
-- Must file annual reports
+## The three mistakes that actually hurt people
 
-**Pros:**
-- Tax exemptions where available
-- Access to grants and donor funding
-- Clear mission focus
-- Liability protection
+**Mixing personal and project funds.** The fastest way to lose your liability shield — courts can "pierce" it if you and the entity are financially indistinguishable. Use the entity's own name and account for everything.
 
-**Cons:**
-- Limited activities (must match mission)
-- Can't distribute profits to members
-- More paperwork than cooperatives
-- Restrictions on political activity in some jurisdictions
+**Skipping annual filings.** Most entities owe an annual report. Miss it and you can be fined or dissolved, quietly losing the protection you paid for. Calendar the date when you register.
 
-**Best for:**
-- Community projects with charitable purpose
-- Educational initiatives
-- Environmental projects seeking grants
-- Organizations that need tax-exempt status to attract funding
+**Over-wrapping too early.** A DUNA or Cayman foundation for a tiny node is wasted money and overhead — the busywork that burns out organizers. Start at the lightest structure your risk allows, and upgrade only when reality demands.
 
-**Cost range:** $0-1000+ depending on jurisdiction and whether you hire help. Many countries in East Africa have streamlined CBO/NGO registration processes.
+## Where to get help for free
 
----
-
-### 4. Limited Liability Company (LLC)
-
-An LLC is a hybrid structure that gives liability protection without the complexity of a corporation. The equivalent in many countries is a limited company or private limited company.
-
-**What it means:**
-- Members have limited personal liability
-- Can be member-managed
-- More flexible than corporations
-- Can choose how to be taxed
-
-**Pros:**
-- Strong liability protection
-- Flexible management structure
-- Pass-through taxation (no double taxation) in many jurisdictions
-- Easier than full corporations
-
-**Cons:**
-- Annual fees in most jurisdictions
-- May need operating agreements
-- Can feel "corporate" for community projects
-
-**Best for:**
-- Investment groups
-- Projects that might earn significant income
-- When you need to sign contracts
-- Any project that wants strong liability protection
-
-**Cost range:** $50-800 annual fees, plus filing costs
-
----
-
-### 5. DAO-Specific Legal Wrappers
-
-Some jurisdictions have created new legal structures specifically for DAOs.
-
-**Wyoming DAO LLC (USA)**
-- First US state to recognize DAO LLCs
-- Maintains on-chain governance while providing liability protection
-- Requires registered agent in Wyoming
-- Annual fees around $250-500
-
-**Cayman Foundation DAO**
-- Common for international projects
-- Foundation structure with DAO governance
-- No direct taxation in Cayman Islands
-- Requires significant setup costs
-
-**Marshall Islands BBLLC (Blockchain Business LLC)**
-- Designed specifically for blockchain companies
-- Less established than Wyoming
-- Potentially useful for international DAOs
-
-**Co.build** is another platform worth exploring - it provides tooling for establishing legal wrappers for decentralized organizations with less friction than traditional formation.
-
-**Pros:**
-- Best of both worlds: on-chain governance plus legal recognition
-- Growing acceptance
-- Modern frameworks designed for distributed teams
-
-**Cons:**
-- Limited jurisdictions
-- Still evolving rapidly
-- May not be recognized everywhere
-- Can be expensive
-
-**Best for:**
-- Projects with significant treasury
-- DAOs that need legal contracts
-- International communities spanning multiple countries
-
-**Cost range:** $1,000-10,000+ depending on jurisdiction and complexity
-
----
-
-## Making Your Decision
-
-Here's a simple decision process:
-
-1. **Are you holding money or signing contracts?**
-   - No: An unincorporated association might be fine
-   - Yes: Move to step 2
-
-2. **Is your main goal making money for members?**
-   - Yes: Consider an LLC or limited company
-   - No: Move to step 3
-
-3. **Is your main goal charitable or educational?**
-   - Yes: Nonprofit or CBO
-   - No: Cooperative
-
-4. **Do you need both on-chain governance AND legal recognition?**
-   - Yes: Consider a DAO wrapper
-   - No: The structure from step 2 or 3 is probably right
-
----
-
-## Practical Steps to Get Started
-
-**For Cooperatives:**
-1. Draft your bylaws (model bylaws are available from cooperative associations in most countries)
-2. File articles of incorporation with your relevant authority
-3. Get a tax identification number
-4. Open a bank account (they'll want your bylaws)
-5. Set up a regular meeting schedule
-
-**For Nonprofits:**
-1. Draft a clear mission statement
-2. File articles with the appropriate government body
-3. Apply for tax-exempt status where available
-4. This process can take 3-12 months in some jurisdictions
-5. You can start activities while waiting for formal registration
-
-**For LLCs / Limited Companies:**
-1. File articles of organization
-2. Create an operating agreement (this is critical - it defines how decisions get made)
-3. Get a tax identification number
-4. Open a bank account
-5. Set up bookkeeping from day one
-
-**For DAO Wrappers:**
-1. Consult with a Web3-friendly lawyer
-2. Understand which jurisdictions you can operate in
-3. Budget for ongoing compliance costs
-4. Consider starting simpler and evolving as you grow
-
----
-
-## What About Taxes?
-
-This is where people get nervous, but it's manageable:
-
-**Cooperatives:** Profits are typically taxed at the member level. You report your share on personal taxes.
-
-**Nonprofits:** If tax-exempt, donations may be deductible and you don't pay income tax. But you can't distribute profits to members.
-
-**LLCs:** Pass-through by default in many jurisdictions. Can sometimes elect different tax treatment if income is significant.
-
-**DAOs:** Complex and evolving. In the US, the IRS currently treats DAO tokens as property in most cases. Wherever you're based, consult a tax specialist familiar with crypto.
-
----
-
-## A Note on Evolution
-
-You don't need to get this perfect from day one. Many successful community projects started informally and formalized as they grew. The key is:
-
-1. **Start** - don't let legal fears stop you from gathering and organizing
-2. **Document** - keep records even if you're informal
-3. **Evolve** - revisit your structure as you grow
-4. **Ask** - reach out to cooperative development organizations for free help
-
----
-
-## Common Mistakes to Avoid
-
-**Mixing Personal and Project Funds.** Always keep project money separate. Use the legal entity's name for all transactions. This is the number one way to lose liability protection.
-
-**Not Keeping Records.** Even if you're informal, keep meeting notes. Who decided what, when, and why. This protects everyone if questions arise later.
-
-**Ignoring Annual Requirements.** Most entities need annual reports or renewals. Missing them can result in fines or losing your legal status entirely.
-
-**Overcomplicating Early.** Don't get a DAO legal wrapper for a 10-person project. Start simple. Cooperatives and LLCs handle most community finance needs well.
-
-**Forgetting About Taxes.** Get a tax ID even if you're tax-exempt. It opens bank accounts and shows legitimacy to partners and funders.
-
----
-
-## International Considerations
-
-If your community spans borders, things get more complicated. Here are some things to consider:
-
-- **Where are your members based?** This determines which laws apply
-- **Where will you hold meetings?** This establishes your primary jurisdiction
-- **Where will your treasury be held?** On-chain treasuries create interesting jurisdictional questions
-- **Do you need legal recognition in multiple countries?** International DAOs sometimes use legal wrappers in more than one jurisdiction
-- **What are the local registration requirements?** In East Africa, CBO and cooperative registration varies significantly between Kenya, Somalia, and neighbouring countries
-
-For cross-border DAOs, there is no single law that governs international operations. You'll need clear "governing law" clauses in your smart contracts and operating agreements. If significant money is involved, consulting an international business lawyer is worth the cost.
-
----
-
-## Getting Help
-
-You don't have to figure this out alone:
-
-- **Cooperative associations** - Free help available in most countries, including East Africa
-- **Legal aid clinics** - Free legal advice for nonprofits and community organizations
-- **Small business development centres** - Free guidance for LLC and company formation
-- **Web3 legal specialists** - For DAO-specific questions (expensive but worth it for larger projects)
-- **Co.build** - Platform for establishing legal wrappers for decentralized organizations
-- **Online communities** - DAO-focused Discord groups and forums where people share experiences
-
----
+You mostly shouldn't pay a lawyer at the start. **Cooperative development centers** offer free co-op formation help; **legal aid clinics** and law-school clinics often advise nonprofits at no cost; **Small Business Development Centers** (US) help with LLCs for free. **Web3 legal specialists** are worth the money — but only once your treasury and member count justify it. A legal structure protects your community; it's not a hoop to jump through before you begin.
 
 ## Try This
 
-Before your next group meeting, do this quick assessment:
-
-1. **List your activities.** Write down everything your local node currently does or plans to do in the next 6 months.
-2. **Rate the risk.** For each activity, mark it low, medium, or high risk using the framework above.
-3. **Identify the highest-risk activity.** That's the one driving your legal structure decision.
-4. **Research one structure.** Based on the decision tree, pick the most likely fit and spend 30 minutes researching the registration process in your jurisdiction.
-5. **Bring it to the group.** At your next meeting, share what you found. Propose a timeline for formalizing if needed.
-
-Don't try to solve this alone. The legal structure protects the whole group, so the whole group should be part of choosing it.
-
----
+> **Start here:** Run a 20-minute "risk read" with your group. Write down three things: how much money you hold, what you've signed, and whether the public can get hurt at anything you run. That tells you which row — low, medium, high — you're in.
+>
+> **Go deeper:** Pick your top two structures and price them out for *your* jurisdiction. Get the real filing fee, annual fee, and processing time from the official source — your Secretary of State, the IRS, your co-op council — and put the numbers side by side. The answer usually becomes obvious.
+>
+> **Stretch:** Past 100 members and governing on-chain? Draft a one-page memo comparing a Wyoming DUNA to your current setup: what liability gap it closes, what it costs to maintain, what governance changes you'd need. Read the Uniswap DUNI proposal first, then take the memo to a Web3 lawyer for a paid hour of review.
 
 ## References
 
-- LegalNodes, "Does My DAO Need Legal Structuring?" - https://www.legalnodes.com/article/dao-legal-structure
-- Pontinova Law, "DAO Jurisdiction and Legal Guide" - https://www.pontinova.law/dao/legal
-- O'Melveny, "DAOs: Looking for Limited Liability and Legal Personality" - https://www.omm.com/insights/alerts-publications/daos-looking-for-limited-liability-legal-personality/
-- Co.build, legal wrapper tooling for decentralized organizations - https://co.build/
-- CoinDesk, "What is a DAO?" - https://www.coindesk.com/learn/what-is-a-dao
+- [Legal Nodes — Does My DAO Need Legal Structuring?](https://www.legalnodes.com/article/dao-legal-structure) — explains general-partnership default liability and when a DAO needs a wrapper.
+- [a16z crypto — The DUNA: An Oasis for DAOs](https://a16zcrypto.com/posts/article/duna-for-daos/) — the model legislation behind Wyoming's DUNA and why it fits nonprofit-style DAOs.
+- [Global Fintech & Digital Assets Blog — Wyoming Adopts New Legal Structure for DAOs](https://www.fintechanddigitalassets.com/2024/04/wyoming-adopts-new-legal-structure-for-daos/) — DUNA effective date, 100-member rule, and liability shield.
+- [Uniswap Foundation — DUNI](https://www.uniswapfoundation.org/duni) — a major real-world DUNA adoption, useful as a worked example.
+- [MIDAO — Pricing](https://www.midao.org/pricing) — current Marshall Islands DAO LLC incorporation and annual costs, plus for-profit vs. non-profit options.
+- [Offshore Companies International — Cayman Foundation as a DAO Wrapper](https://offshoreincorporate.com/the-cayman-islands-foundation-as-a-dao-legal-wrapper/) — Cayman setup cost and ongoing government/maintenance fees.
+- [IRS — Form 1023 and 1023-EZ user fees](https://www.irs.gov/charities-non-profits/form-1023-and-1023-ez-amount-of-user-fee) — official 501(c)(3) application fees ($275 / $600).
+- [Wyoming Secretary of State — Business fees](https://sos.wyo.gov/Business/docs/BusinessFees.pdf) — official Wyoming LLC and DAO LLC filing and annual report fees.
+- [Wikipedia — Limited Cooperative Association](https://en.wikipedia.org/wiki/Limited_cooperative_association) — the LCA hybrid co-op/LLC structure.
+- [Wikipedia — Community Interest Company](https://en.wikipedia.org/wiki/Community_interest_company) — the UK CIC, asset lock, and dividend cap.

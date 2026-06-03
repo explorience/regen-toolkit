@@ -1,150 +1,70 @@
 ---
-title: Why Regens Interested
-description: Learn about why regens interested in this Regen Toolkit article.
-section: '1.1'
-track: 1
-status: published
-author: unknown
-sources: []
-target_audience: []
-estimated_words: 937
-created: '2026-03-11T09:43:43.294Z'
-last_updated: '2026-03-26'
-research_done: false
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-date: '2026-03-11'
-category: foundations
-stage: build
-tags:
-  function: Education
-  domain: Ecosystem
-  systems:
-    - Commons
-    - Circular-Economy
-    - Resilience
-audience: Individual
-maturity: Beginner
-related:
-  - what-is-refi
-  - what-web3-can-cant-do
-  - common-concerns
-  - cooperative-commons
+title: "Why Regens Are Interested in Blockchain"
+description: "For permaculturists and community organisers brand new to crypto: why people who care about healing land and communities are paying attention to blockchain, and how it might help your real work."
 ---
 
----
-title: Why are regenerative practitioners interested in blockchain?
-section: '1.1'
-track: 1
-status: published
-author: Regen Toolkit
-sources:
-created: 2026-01-15T00:00:00.000Z
-priority: tier-1
-issue: 79
-assignees:
+# Why Regens Are Interested in Blockchain
 
-# Why are regenerative practitioners interested in blockchain?
+You spent six weeks writing a grant for the community garden, waited four months, and got a polite no — while the seedlings needed paying for in March. If you have ever felt that the systems meant to support good work are slow, opaque, and tilted toward whoever already has money, you have already felt the itch that pulls some regenerative practitioners toward blockchain.
 
-Have you ever wondered why people who care about healing the planet are excited about something called "blockchain"? It might sound strange at first—doesn't blockchain have something to do with cryptocurrency speculation?
+A quick word, plainly. **Blockchain** is a shared record book that many computers each keep a copy of, so no single company can quietly rewrite it. That's it — plumbing, not magic. **Regen** is just shorthand for a *regenerative practitioner*: a grower, organiser, or activist trying to leave land and communities healthier than they found them.
 
-Here's the simple answer: regenerative practitioners see blockchain not as an end goal, but as a **tool**—a new kind of tool that can help communities work together better. Think of it like a hammer. A hammer doesn't care about building houses, but builders use it to create homes. Blockchain is similar—regens are learning to use it for healing communities and ecosystems.
+Here is the honest answer to "why would a regen care about a record book?" They don't care about the technology. They care about what it lets a community *do* — fund things, decide things, and own things — without waiting on a distant gatekeeper. Like a borrowed tool from the shared shed, the value is in the work it enables, not the object.
 
-## What Regens Actually Care About
+## Naming the Fears First
 
-When regenerative practitioners look at blockchain, they're not thinking about trading tokens or making money. They're asking one question: **"Can this help my community?"**
+The worries you are holding are reasonable, so let's say them out loud.
 
-That's the heart of it. Here's what they're finding:
+**"Isn't this all scams?"** A lot of crypto *is* speculation and outright fraud — pretending otherwise would be dishonest. The regen corner is small and deliberately separate from the gambling, but you will still meet bad actors. The skill you need — checking who is really behind a project before you trust it — is the same one you use when a stranger offers your garden group a "free" donation with strings attached.
 
-### New Ways to Fund Community Projects
+**"Doesn't it burn huge amounts of energy?"** It used to. Bitcoin still does. But Ethereum — the network most regen projects run on — changed how it works in September 2022 (an event called *the Merge*) and cut its energy use by roughly 99.9%, from the draw of a small country to that of a modest office building. ([ethereum.org](https://ethereum.org/roadmap/merge/)) For the tools below, energy is no longer the dealbreaker it once was.
 
-Traditional funding is hard to access for grassroots organizations. You fill out complicated grants, wait months, and often get rejected. Blockchain offers alternatives:
+**"Will I waste my time and look foolish?"** Every idea here you can explore for free, spending nothing and risking nothing but an afternoon. The "Try This" section shows you exactly how.
 
-- **Community treasuries** — Groups can pool money together and decide together how to spend it
-- **Regenerative finance (ReFi)** — Financial systems designed to restore ecosystems, not just make profits
-- **Quadratic funding** — A fairer way to decide which projects get money, where small donations count for more
+## Funding That Doesn't Need a Gatekeeper
 
-These aren't theoretical. Communities around the world are using these tools to fund local gardens, clean-up projects, and neighborhood improvement initiatives.
+Traditional funding is a bottleneck: you write the long application, you wait, a panel you will never meet decides, and most grassroots groups get nothing.
 
-### Better Ways to Make Decisions Together
+One alternative is **quadratic funding** — a way of splitting a shared matching pot that counts the *number* of people who chip in, not just how much money they bring. Picture a village fund where a hundred neighbours each giving a pound unlocks more matching money than one wealthy donor giving a thousand. It tilts the scales toward broad community support instead of deep pockets.
 
-Ever been in a meeting where the loudest person got their way? Or where decisions felt top-down? Blockchain offers tools for more democratic coordination:
+This isn't theoretical. **Gitcoin**, the best-known platform running quadratic funding, has distributed over $60 million to more than 3,700 projects. ([gitcoin.co](https://gitcoin.co/mechanisms/quadratic-funding)) One of its recent climate rounds funded 71 environmental projects at once — among them a 20-acre grass seedbank run by women landowners in Kenya's South Rift, restoring degraded grazing land. ([Gitcoin Governance](https://gov.gitcoin.co/t/ccn-climate-solutions-round-retro/18940)) That is exactly the slow, local, unglamorous work conventional grant panels routinely overlook.
 
-- **DAOs** (Decentralized Autonomous Organizations) — Groups that make decisions together using votes anyone can verify
-- **Proof of contribution** — Ways to recognize and reward people for their work, without a boss deciding who deserves what
-- **Transparent rules** — Everyone can see how decisions get made, reducing guesswork and office politics
+## Deciding Things Together, Out in the Open
 
-### Ownership That Stays with the Community
+You know the meeting where the loudest voice wins, or where the decision was somehow already made before everyone arrived. Some regens are testing tools that make the *process itself* transparent.
 
-One of the biggest problems with traditional systems? When something works, the benefits often leave the community. Blockchain can help create:
+The headline term is **DAO** — a *Decentralised Autonomous Organisation*, a far scarier name than the thing deserves. Strip the jargon and a DAO is a group that agrees its rules up front, writes them where everyone can see, and decides by votes anyone can verify. Think of a seed-saving collective with its bylaws pinned to the noticeboard — except the noticeboard can't be quietly edited and the count can't be fudged.
 
-- **Community-owned infrastructure** — Tools and platforms that belong to the people who use them
-- **Self-custody** — Keeping control of your own assets without needing a bank or company in the middle
-- **Local tokens** — Money designed to stay and circulate in your community
+A genuinely free tool here is **Snapshot**, where members vote by signing a message with their digital wallet. No money changes hands to vote, and results can't be secretly altered; over 7,500 groups now use it. ([daotimes.com](https://daotimes.com/snapshot-dao-tool-report-for-2025/)) It is one of the easiest places to *see* onchain decision-making, because you can browse real groups' live votes without even an account. It won't fix a group's culture — a transparent vote on a bad idea is still a bad idea — but it removes a recurring suspicion: *did the count really happen the way they said?*
 
-## The Greenpill Story
+## Ownership That Stays Local
 
-One real example comes from the Greenpill Network, a community that's been exploring these questions since early in the web3 space. They've developed a 147-page guide for local regeneration that bridges "crypto-native concepts with on-the-ground community organizing".
+In most systems, when a community project succeeds the value drains away — to a platform, a landlord, a distant shareholder. Blockchain tools let communities try to keep more of what they build.
 
-What makes their approach interesting? They don't treat blockchain as magic. They ask: "What problem are we trying to solve?" Then they explore whether blockchain helps solve it. Sometimes it does. Sometimes it doesn't. That's the honest, grounded approach many regens are taking.
+The most grounded example runs in Kenya. **Sarafu**, built by the nonprofit **Grassroots Economics**, is a *community currency* — local credit that neighbours issue to one another as promises of future labour, goods, or services, so trade keeps flowing even when national cash is scarce. It is rooted in *Mweria*, an ancestral tradition of rotating, reciprocal community labour, with a shared digital ledger doing the bookkeeping. In their 2025 survey, 95% of users called the network important or very important to their household economy. ([Grassroots Economics](https://www.grassrootseconomics.org/sarafu-network)) That is the opposite of speculation: money designed to stay home and circulate, not be flipped for profit.
 
-## Is This for Everyone?
+Two terms that matter for keeping control local: **self-custody** means holding your group's funds in a wallet you control directly, instead of a company that could freeze or close your account — the flip side is responsibility, since losing your access keys means there is no helpline to call. A **token** is simply a digital marker that can stand for membership, a vote, or local credit — in regen contexts usually a membership card or voting chip, not something to gamble on.
 
-Let's be real: blockchain isn't the answer to every problem. It has real challenges:
+## Where the Honest Regens Land
 
-- **Complexity** — The learning curve can be steep
-- **Scams** — Bad actors exist, and newcomers need to be careful
-- **Volatility** — Token prices can swing wildly
-- **Environmental concerns** — Some blockchains use more energy than others (though newer ones are much better)
+The most credible people here are not crypto evangelists. Take the **Greenpill Network**, a global community of around a dozen local chapters across roughly eight countries, from Cape Town to Toronto, that publishes a free, field-tested guide to local regeneration. ([greenpill.network](https://greenpill.network/)) Their stance is refreshingly plain: start with the problem your community actually has, then ask whether a blockchain tool helps. Sometimes yes. Often it is "a spreadsheet and a group chat would do fine." That tool-first honesty is the mark of a regen worth learning from.
 
-Most regens aren't rushing to use blockchain everywhere. They're exploring it where it genuinely helps, being thoughtful about where it doesn't.
-
-## Getting Started (If You're Curious)
-
-If you're a regenerative practitioner curious about exploring blockchain, here's a grounded path:
-
-1. **Start with your community's needs** — What problem are you trying to solve?
-2. **Learn the basics** — The Ottawa Web3 Starter Guide offers hands-on, workshop-tested onboarding that assumes no prior knowledge
-3. **Find your people** — Communities like Greenpill and ReFi DAO have resources specifically for regens
-4. **Start small** — You don't need to understand everything. Many regens begin by just watching and learning
-
-## The Bottom Line
-
-Regenerative practitioners are interested in blockchain because it offers **new possibilities for community coordination, funding, and ownership**. It's not about the technology itself—it's about what communities can do with it.
-
-As the Greenpill Local Regen Guide puts it, blockchain tools can serve regenerative goals when communities choose to use them that way.
-
-The question isn't "Is blockchain good or bad?" The question is: **"Can this help my community thrive?"**
-
-That's the question regens are asking—and that's why they're paying attention.
-
----
+So the question to carry forward is not "is blockchain good or bad?" It is the one you bring to any new tool in the shed: **does this help my community thrive, on this specific job, better than what I already have?** Knowing which is which is the whole skill — and you can start building it for free, today.
 
 ## Try This
 
-**1. Talk to someone.** Find one person in your network who knows about web3. Ask them what excites them about it. Listen more than you ask.
+> **Start here:** Open [snapshot.org](https://snapshot.org) and browse real groups' live votes for ten minutes — no account, no wallet, no money needed. Watch how a community decides in the open, and ask: *could a transparent vote like this defuse a recurring argument in my own group?*
 
-**2. Visit one site.** Go to greenpill.network and browse for 10 minutes. Don't try to understand everything—just notice what kinds of things they're doing.
+> **Go deeper:** Download the free [Greenpill Local Regen Guide](https://greenpill.network/), read the section nearest your work — funding, governance, or local currency — then bring one question to your next meeting: *"We have a real problem with X. Could one of these tools help, or are we better off without it?"* Aim for a clear yes or no, not adoption for its own sake.
 
-**3. Ask at your next meeting.** At your next community gathering, pose the question: "Could blockchain help us coordinate better?" You might be surprised what people already know.
-
----
-
-## Quick Reference
-
-| Term | Plain English |
-|------|---------------|
-| Blockchain | A shared record that many people can trust—no single company controls it |
-| DAO | A group that makes decisions together using votes, not a CEO |
-| ReFi | Finance designed to heal ecosystems, not extract from them |
-| Token | A digital thing that can represent ownership, voting power, or membership |
+> **Stretch:** Pick one concrete need your community already has — matching small donations fairly, a transparent group vote, or keeping value circulating locally — and map it onto exactly one tool here (Gitcoin, Snapshot, or a Sarafu-style currency). Write a one-page note: the problem, the tool, the cost in time and money, and how you would know in three months whether it worked. Share it with two people who will tell you the truth.
 
 ## References
 
-- [Ethereum.org: Introduction to Blockchain](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
-- [World Bank: Remittance Prices](https://remittanceprices.worldbank.org/)
-- [Transparency International: Open Data](https://www.transparency.org/)
+- [Ethereum.org — The Merge](https://ethereum.org/roadmap/merge/) — The 2022 switch that cut Ethereum's energy use by ~99.9%.
+- [Gitcoin — Quadratic Funding](https://gitcoin.co/mechanisms/quadratic-funding) — How quadratic funding works, plus the $60M+ / 3,700+ projects figures.
+- [Gitcoin Governance — Climate Solutions Round Retrospective](https://gov.gitcoin.co/t/ccn-climate-solutions-round-retro/18940) — Real grassroots climate projects funded through community rounds.
+- [Snapshot DAO Tool Report 2025 — DAO Times](https://daotimes.com/snapshot-dao-tool-report-for-2025/) — Adoption figures for the free, gasless voting platform.
+- [Grassroots Economics — Sarafu Network](https://www.grassrootseconomics.org/sarafu-network) — The Kenyan community currency and its 2025 survey results.
+- [Greenpill Network](https://greenpill.network/) — Global regenerative network and the free Local Regen Guide.
+- [ReFi DAO](https://refidao.com) — A wider community of regenerative-finance practitioners, for finding your people.

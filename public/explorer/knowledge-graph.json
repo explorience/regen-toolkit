@@ -1,828 +1,756 @@
 {
-  "categories": [
+  "journeys": [
     {
-      "id": "orientation",
-      "label": "Orientation",
-      "color": "#4CAF50",
-      "description": "Why web3 matters for regen communities"
-    },
-    {
-      "id": "web3-literacy",
-      "label": "Web3 Literacy",
-      "color": "#2196F3",
-      "description": "Core blockchain & crypto concepts"
-    },
-    {
-      "id": "tokenomics",
-      "label": "Tokenomics",
-      "color": "#FF9800",
-      "description": "Tokens, stablecoins, community currencies"
-    },
-    {
-      "id": "risk-resilience",
-      "label": "Risk & Resilience",
-      "color": "#F44336",
-      "description": "Security, scams, operational safety"
+      "id": "newcomer",
+      "label": "Newcomer Orientation",
+      "emoji": "🌱",
+      "color": "#74B58A",
+      "tagline": "From “I don't get any of this” to oriented, in an afternoon.",
+      "count": 16,
+      "steps": [
+        "why-regens-interested",
+        "what-web3-can-cant-do",
+        "common-concerns",
+        "what-is-decentralization",
+        "what-is-blockchain",
+        "what-is-cryptocurrency",
+        "stablecoins",
+        "how-to-get-crypto",
+        "what-is-wallet",
+        "setting-up-first-wallet",
+        "seed-phrases",
+        "common-scams",
+        "what-is-dao",
+        "what-is-refi",
+        "refi-vs-defi-tradfi",
+        "find-your-community"
+      ]
     },
     {
       "id": "local-node",
-      "label": "Local Node Lifecycle",
-      "color": "#9C27B0",
-      "description": "Starting & running local chapters"
+      "label": "Local Node Builder",
+      "emoji": "🔄",
+      "color": "#DD8C5C",
+      "tagline": "Everything you need to stand up a chapter, hub or local node.",
+      "count": 22,
+      "steps": [
+        "what-is-local-node",
+        "local-node-model",
+        "why-local-matters",
+        "local-nodes-and-daos",
+        "is-community-ready",
+        "minimum-viable-node",
+        "building-founding-team",
+        "legal-structures",
+        "first-90-days",
+        "funding-your-node",
+        "funding-landscape",
+        "gitcoin-grants-qf",
+        "giveth-donations",
+        "writing-grant-proposals",
+        "building-trust",
+        "onboarding-members",
+        "conflict-resolution",
+        "common-pitfalls",
+        "types-of-gatherings",
+        "planning-web3-events",
+        "funding-gatherings",
+        "why-measurement-matters"
+      ]
     },
     {
-      "id": "community-identity",
-      "label": "Community & Identity",
-      "color": "#00BCD4",
-      "description": "Identity, credentials, reputation"
-    },
-    {
-      "id": "governance",
-      "label": "Governance",
-      "color": "#795548",
-      "description": "DAOs, voting, decision-making"
-    },
-    {
-      "id": "capital",
-      "label": "Capital Formation",
-      "color": "#607D8B",
-      "description": "Funding, grants, treasury management"
-    },
-    {
-      "id": "impact",
-      "label": "Impact Architecture",
-      "color": "#E91E63",
-      "description": "Measurement, verification, attestations"
-    },
-    {
-      "id": "initiatives",
-      "label": "Initiatives",
-      "color": "#8BC34A",
-      "description": "Agroforestry, DePin, education, civic tech"
-    },
-    {
-      "id": "reference",
-      "label": "Reference Library",
-      "color": "#BDBDBD",
-      "description": "Glossaries, tools, directories"
-    },
-    {
-      "id": "ai",
-      "label": "AI & Web3",
-      "color": "#673AB7",
-      "description": "AI assistants, ethical considerations"
+      "id": "knowledge-commons",
+      "label": "Knowledge Commons Builder",
+      "emoji": "🪴",
+      "color": "#79B5AB",
+      "tagline": "Turn scattered docs and links into a living knowledge commons.",
+      "count": 14,
+      "steps": [
+        "what-is-knowledge-commons",
+        "knowledge-gardens",
+        "source-systems",
+        "ontology-vs-taxonomy",
+        "metadata-that-matters",
+        "review-and-maturity",
+        "ai-community-tools",
+        "ai-assisted-classification",
+        "human-review-boundaries",
+        "knowledge-tools-directory",
+        "editorial-workflow",
+        "archive-compost",
+        "stewardship-roles",
+        "federation-portability"
+      ]
     }
   ],
   "nodes": [
     {
       "id": "why-regens-interested",
-      "label": "Why Regens Are Interested",
-      "category": "orientation",
-      "url": "/sarreya/why-regens-interested/",
-      "written": true
+      "label": "Why regens are curious about web3",
+      "journey": "newcomer",
+      "chapter": "Get your bearings",
+      "blurb": "Why people doing real-world good are looking at this at all.",
+      "color": "#74B58A"
     },
     {
       "id": "what-web3-can-cant-do",
-      "label": "What Web3 Can & Can't Do",
-      "category": "orientation",
-      "url": "/sarreya/what-web3-can-cant-do/",
-      "written": true
+      "label": "What web3 can and can't do",
+      "journey": "newcomer",
+      "chapter": "Get your bearings",
+      "blurb": "An honest map of what the tech does well, and what it doesn't.",
+      "color": "#74B58A"
     },
     {
       "id": "common-concerns",
-      "label": "Common Concerns",
-      "category": "orientation",
-      "url": "/sarreya/common-concerns/",
-      "written": true
+      "label": "The honest worries, answered",
+      "journey": "newcomer",
+      "chapter": "Get your bearings",
+      "blurb": "Energy, scams, hype, complexity — addressed plainly.",
+      "color": "#74B58A"
+    },
+    {
+      "id": "what-is-decentralization",
+      "label": "Decentralization, in plain terms",
+      "journey": "newcomer",
+      "chapter": "The core ideas",
+      "blurb": "The single idea underneath everything else.",
+      "color": "#74B58A"
     },
     {
       "id": "what-is-blockchain",
-      "label": "What Is Blockchain?",
-      "category": "web3-literacy",
-      "url": "/sarreya/what-is-blockchain/",
-      "written": true
+      "label": "What is a blockchain?",
+      "journey": "newcomer",
+      "chapter": "The core ideas",
+      "blurb": "A shared notebook the whole village keeps. No middleman.",
+      "color": "#74B58A"
     },
     {
       "id": "what-is-cryptocurrency",
-      "label": "What Is Cryptocurrency?",
-      "category": "web3-literacy",
-      "url": "/sarreya/what-is-cryptocurrency/",
-      "written": true
-    },
-    {
-      "id": "how-to-get-crypto",
-      "label": "How to Get Crypto",
-      "category": "web3-literacy",
-      "url": "/sarreya/how-to-get-crypto/",
-      "written": true
+      "label": "What is cryptocurrency?",
+      "journey": "newcomer",
+      "chapter": "The core ideas",
+      "blurb": "Money that lives on the blockchain, explained simply.",
+      "color": "#74B58A"
     },
     {
       "id": "stablecoins",
-      "label": "Stablecoins",
-      "category": "tokenomics",
-      "url": "/sarreya/stablecoins/",
-      "written": true
+      "label": "Stablecoins: crypto that holds still",
+      "journey": "newcomer",
+      "chapter": "The core ideas",
+      "blurb": "Crypto designed to keep a steady, predictable value.",
+      "color": "#74B58A"
+    },
+    {
+      "id": "how-to-get-crypto",
+      "label": "How to actually get some crypto",
+      "journey": "newcomer",
+      "chapter": "Get set up safely",
+      "blurb": "The realistic on-ramps for your first bit of crypto.",
+      "color": "#74B58A"
     },
     {
       "id": "what-is-wallet",
-      "label": "What Is a Wallet?",
-      "category": "web3-literacy",
-      "url": "/sarreya/what-is-wallet/",
-      "written": true
+      "label": "What is a wallet?",
+      "journey": "newcomer",
+      "chapter": "Get set up safely",
+      "blurb": "Your keychain for the on-chain world.",
+      "color": "#74B58A"
     },
     {
       "id": "setting-up-first-wallet",
-      "label": "Setting Up First Wallet",
-      "category": "web3-literacy",
-      "url": "/sarreya/setting-up-first-wallet/",
-      "written": true
+      "label": "Set up your first wallet",
+      "journey": "newcomer",
+      "chapter": "Get set up safely",
+      "blurb": "Step by step, with the safety bits that matter.",
+      "color": "#74B58A"
     },
     {
       "id": "seed-phrases",
-      "label": "Seed Phrases & Security",
-      "category": "risk-resilience",
-      "url": "/sarreya/seed-phrases/",
-      "written": true
+      "label": "Seed phrases & staying safe",
+      "journey": "newcomer",
+      "chapter": "Get set up safely",
+      "blurb": "The words that are everything. How to guard them.",
+      "color": "#74B58A"
     },
     {
       "id": "common-scams",
-      "label": "Common Scams",
-      "category": "risk-resilience",
-      "url": "/sarreya/common-scams/",
-      "written": true
-    },
-    {
-      "id": "what-you-can-do-ethereum",
-      "label": "What You Can Do on Ethereum",
-      "category": "web3-literacy",
-      "url": "/sarreya/what-you-can-do-ethereum/",
-      "written": true
-    },
-    {
-      "id": "why-measurement-matters",
-      "label": "Why Measurement Matters",
-      "category": "impact",
-      "url": "/sarreya/why-measurement-matters/",
-      "written": true
-    },
-    {
-      "id": "dmrv",
-      "label": "dMRV",
-      "category": "impact",
-      "url": "/sarreya/dmrv/",
-      "written": true
-    },
-    {
-      "id": "onchain-attestations",
-      "label": "On-Chain Attestations",
-      "category": "impact",
-      "url": "/sarreya/onchain-attestations/",
-      "written": true
-    },
-    {
-      "id": "identity-verification",
-      "label": "Identity Verification",
-      "category": "community-identity",
-      "url": "/sarreya/identity-verification/",
-      "written": true
-    },
-    {
-      "id": "credentials-certifications",
-      "label": "Credentials & Certifications",
-      "category": "community-identity",
-      "url": "/sarreya/credentials-certifications/",
-      "written": true
-    },
-    {
-      "id": "operational-security",
-      "label": "Operational Security",
-      "category": "risk-resilience",
-      "url": "/sarreya/operational-security/",
-      "written": true
-    },
-    {
-      "id": "silvi-protocol",
-      "label": "Silvi Protocol",
-      "category": "initiatives",
-      "url": "/sarreya/silvi-protocol/",
-      "written": true
-    },
-    {
-      "id": "wallet-comparison-guide",
-      "label": "Wallet Comparison Guide",
-      "category": "reference",
-      "url": "/sarreya/wallet-comparison-guide/",
-      "written": true
-    },
-    {
-      "id": "key-terms-a-z",
-      "label": "Key Terms A-Z",
-      "category": "reference",
-      "url": "/sarreya/key-terms-a-z/",
-      "written": true
+      "label": "Spotting common scams",
+      "journey": "newcomer",
+      "chapter": "Get set up safely",
+      "blurb": "The traps, and the habits that keep you clear of them.",
+      "color": "#74B58A"
     },
     {
       "id": "what-is-dao",
-      "label": "What Is a DAO?",
-      "category": "governance",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "dao-governance-models",
-      "label": "DAO Governance Models",
-      "category": "governance",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "voting-mechanisms",
-      "label": "Voting Mechanisms",
-      "category": "governance",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "treasury-management",
-      "label": "Treasury Management",
-      "category": "capital",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "what-is-defi",
-      "label": "What Is DeFi?",
-      "category": "web3-literacy",
-      "url": null,
-      "written": false
+      "label": "What is a DAO?",
+      "journey": "newcomer",
+      "chapter": "Step into regen",
+      "blurb": "Communities that run on shared rules instead of a boss.",
+      "color": "#74B58A"
     },
     {
       "id": "what-is-refi",
-      "label": "What Is ReFi?",
-      "category": "orientation",
-      "url": null,
-      "written": false
+      "label": "What is ReFi?",
+      "journey": "newcomer",
+      "chapter": "Step into regen",
+      "blurb": "Regenerative finance: money that tries to heal, not extract.",
+      "color": "#74B58A"
     },
     {
-      "id": "decentralization",
-      "label": "Decentralization",
-      "category": "web3-literacy",
-      "url": null,
-      "written": false
+      "id": "refi-vs-defi-tradfi",
+      "label": "ReFi vs DeFi vs traditional finance",
+      "journey": "newcomer",
+      "chapter": "Step into regen",
+      "blurb": "How ReFi differs from ordinary crypto and ordinary money.",
+      "color": "#74B58A"
     },
     {
-      "id": "smart-contracts",
-      "label": "Smart Contracts",
-      "category": "web3-literacy",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "layer-2s",
-      "label": "Layer 2s Explained",
-      "category": "web3-literacy",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "tokens-standards",
-      "label": "Token Standards",
-      "category": "tokenomics",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "community-currencies",
-      "label": "Community Currencies",
-      "category": "tokenomics",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "commitment-pooling",
-      "label": "Commitment Pooling (Sarafu)",
-      "category": "tokenomics",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "nfts",
-      "label": "NFTs",
-      "category": "web3-literacy",
-      "url": null,
-      "written": false
+      "id": "find-your-community",
+      "label": "Find your community",
+      "journey": "newcomer",
+      "chapter": "Step into regen",
+      "blurb": "Where to land, who to meet, and how to take a first step.",
+      "color": "#74B58A"
     },
     {
       "id": "what-is-local-node",
-      "label": "What Is a Local Node?",
-      "category": "local-node",
-      "url": null,
-      "written": false
+      "label": "What is a local node?",
+      "journey": "local-node",
+      "chapter": "Is this for us?",
+      "blurb": "What a local node actually is, in practice.",
+      "color": "#DD8C5C"
+    },
+    {
+      "id": "local-node-model",
+      "label": "The local node model",
+      "journey": "local-node",
+      "chapter": "Is this for us?",
+      "blurb": "The shape of the model and why it works.",
+      "color": "#DD8C5C"
     },
     {
       "id": "why-local-matters",
-      "label": "Why Local Matters",
-      "category": "local-node",
-      "url": null,
-      "written": false
+      "label": "Why local matters",
+      "journey": "local-node",
+      "chapter": "Is this for us?",
+      "blurb": "Why place-based action is the point, not a footnote.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "first-90-days",
-      "label": "First 90 Days",
-      "category": "local-node",
-      "url": null,
-      "written": false
+      "id": "local-nodes-and-daos",
+      "label": "Local nodes & the wider network",
+      "journey": "local-node",
+      "chapter": "Is this for us?",
+      "blurb": "How a node relates to DAOs and the global network.",
+      "color": "#DD8C5C"
+    },
+    {
+      "id": "is-community-ready",
+      "label": "Is your community ready?",
+      "journey": "local-node",
+      "chapter": "Is this for us?",
+      "blurb": "An honest readiness check before you start.",
+      "color": "#DD8C5C"
     },
     {
       "id": "minimum-viable-node",
-      "label": "Minimum Viable Node",
-      "category": "local-node",
-      "url": null,
-      "written": false
+      "label": "The minimum viable node",
+      "journey": "local-node",
+      "chapter": "Stand it up",
+      "blurb": "The smallest version that's still real.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "stakeholder-mapping",
-      "label": "Stakeholder Mapping",
-      "category": "local-node",
-      "url": null,
-      "written": false
+      "id": "building-founding-team",
+      "label": "Building your founding team",
+      "journey": "local-node",
+      "chapter": "Stand it up",
+      "blurb": "Who you need around you, and the roles that matter.",
+      "color": "#DD8C5C"
+    },
+    {
+      "id": "legal-structures",
+      "label": "Legal structures & fiscal bridges",
+      "journey": "local-node",
+      "chapter": "Stand it up",
+      "blurb": "Fiscal sponsorship and the legal options, demystified.",
+      "color": "#DD8C5C"
+    },
+    {
+      "id": "first-90-days",
+      "label": "Your first 90 days",
+      "journey": "local-node",
+      "chapter": "Stand it up",
+      "blurb": "A concrete roadmap for the first three months.",
+      "color": "#DD8C5C"
+    },
+    {
+      "id": "funding-your-node",
+      "label": "Funding your node",
+      "journey": "local-node",
+      "chapter": "Fund it",
+      "blurb": "Building a mix that doesn't depend on one source.",
+      "color": "#DD8C5C"
     },
     {
       "id": "funding-landscape",
-      "label": "Funding Landscape",
-      "category": "capital",
-      "url": null,
-      "written": false
+      "label": "The funding landscape",
+      "journey": "local-node",
+      "chapter": "Fund it",
+      "blurb": "The web3 funding world, mapped.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "gitcoin-grants",
-      "label": "Gitcoin Grants",
-      "category": "capital",
-      "url": null,
-      "written": false
+      "id": "gitcoin-grants-qf",
+      "label": "Gitcoin & quadratic funding",
+      "journey": "local-node",
+      "chapter": "Fund it",
+      "blurb": "Quadratic funding rounds, start to finish.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "giveth",
-      "label": "Giveth",
-      "category": "capital",
-      "url": null,
-      "written": false
+      "id": "giveth-donations",
+      "label": "Direct donations with Giveth",
+      "journey": "local-node",
+      "chapter": "Fund it",
+      "blurb": "Setting up to receive donations on Giveth.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "gnosis-safe",
-      "label": "Gnosis Safe",
-      "category": "capital",
-      "url": null,
-      "written": false
+      "id": "writing-grant-proposals",
+      "label": "Writing grant proposals",
+      "journey": "local-node",
+      "chapter": "Fund it",
+      "blurb": "How to write a proposal that actually lands.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "grant-writing",
-      "label": "Grant Writing",
-      "category": "capital",
-      "url": null,
-      "written": false
+      "id": "building-trust",
+      "label": "Building trust",
+      "journey": "local-node",
+      "chapter": "Grow the community",
+      "blurb": "Trust is the real infrastructure. How to build it.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "accept-crypto-donations",
-      "label": "Accepting Crypto Donations",
-      "category": "capital",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "governance-design",
-      "label": "Governance Design",
-      "category": "governance",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "multisig-management",
-      "label": "Multisig Management",
-      "category": "risk-resilience",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "community-tools",
-      "label": "Community Tools & Socials",
-      "category": "community-identity",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "building-in-public",
-      "label": "Building in Public",
-      "category": "community-identity",
-      "url": null,
-      "written": false
+      "id": "onboarding-members",
+      "label": "Onboarding members",
+      "journey": "local-node",
+      "chapter": "Grow the community",
+      "blurb": "Turning newcomers into contributors.",
+      "color": "#DD8C5C"
     },
     {
       "id": "conflict-resolution",
-      "label": "Conflict Resolution",
-      "category": "community-identity",
-      "url": null,
-      "written": false
+      "label": "Conflict & coordination",
+      "journey": "local-node",
+      "chapter": "Grow the community",
+      "blurb": "Handling friction before it burns people out.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "hypercerts",
-      "label": "Hypercerts",
-      "category": "impact",
-      "url": null,
-      "written": false
+      "id": "common-pitfalls",
+      "label": "Common pitfalls",
+      "journey": "local-node",
+      "chapter": "Grow the community",
+      "blurb": "The mistakes that sink nodes, and how to dodge them.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "impact-certificates",
-      "label": "Impact Certificates",
-      "category": "impact",
-      "url": null,
-      "written": false
+      "id": "types-of-gatherings",
+      "label": "Types of gatherings",
+      "journey": "local-node",
+      "chapter": "Gather & show impact",
+      "blurb": "The kinds of gatherings that build momentum.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "avoiding-impact-washing",
-      "label": "Avoiding Impact Washing",
-      "category": "impact",
-      "url": null,
-      "written": false
+      "id": "planning-web3-events",
+      "label": "Planning your events",
+      "journey": "local-node",
+      "chapter": "Gather & show impact",
+      "blurb": "Running an event that's worth people's time.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "agroforestry",
-      "label": "Agroforestry & Regen Ag",
-      "category": "initiatives",
-      "url": null,
-      "written": false
+      "id": "funding-gatherings",
+      "label": "Funding gatherings",
+      "journey": "local-node",
+      "chapter": "Gather & show impact",
+      "blurb": "Paying for gatherings without going broke.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "depin",
-      "label": "DePin & Community Energy",
-      "category": "initiatives",
-      "url": null,
-      "written": false
+      "id": "why-measurement-matters",
+      "label": "Showing your impact",
+      "journey": "local-node",
+      "chapter": "Gather & show impact",
+      "blurb": "Measuring impact in a way people trust.",
+      "color": "#DD8C5C"
     },
     {
-      "id": "civic-tech",
-      "label": "Civic Tech & Engagement",
-      "category": "initiatives",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "ai-web3",
-      "label": "AI-Web3 Intersection",
-      "category": "ai",
-      "url": null,
-      "written": false
-    },
-    {
-      "id": "ai-coordination",
-      "label": "AI for Coordination",
-      "category": "ai",
-      "url": null,
-      "written": false
+      "id": "what-is-knowledge-commons",
+      "label": "What is a knowledge commons?",
+      "journey": "knowledge-commons",
+      "chapter": "Why a commons, not a doc-dump",
+      "blurb": "Why a commons beats a folder full of docs.",
+      "color": "#79B5AB"
     },
     {
       "id": "knowledge-gardens",
-      "label": "Knowledge Gardens",
-      "category": "community-identity",
-      "url": null,
-      "written": false
+      "label": "Knowledge gardens",
+      "journey": "knowledge-commons",
+      "chapter": "Why a commons, not a doc-dump",
+      "blurb": "Tending knowledge like a living plot, not a filing cabinet.",
+      "color": "#79B5AB"
     },
     {
-      "id": "ethereum-localism",
-      "label": "Ethereum Localism",
-      "category": "local-node",
-      "url": null,
-      "written": false
+      "id": "source-systems",
+      "label": "Source systems vs links",
+      "journey": "knowledge-commons",
+      "chapter": "Why a commons, not a doc-dump",
+      "blurb": "The difference between a living source and a bare URL — and why it matters.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "ontology-vs-taxonomy",
+      "label": "Ontology vs taxonomy",
+      "journey": "knowledge-commons",
+      "chapter": "Structure the knowledge",
+      "blurb": "Two ways to organise meaning, without the headache.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "metadata-that-matters",
+      "label": "Metadata that matters",
+      "journey": "knowledge-commons",
+      "chapter": "Structure the knowledge",
+      "blurb": "The handful of fields actually worth the effort.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "review-and-maturity",
+      "label": "Review & maturity states",
+      "journey": "knowledge-commons",
+      "chapter": "Structure the knowledge",
+      "blurb": "Marking what's reviewed, what's raw, and what's risky.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "ai-community-tools",
+      "label": "AI tools for communities",
+      "journey": "knowledge-commons",
+      "chapter": "AI in the commons",
+      "blurb": "Where AI genuinely helps a knowledge community.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "ai-assisted-classification",
+      "label": "AI-assisted classification",
+      "journey": "knowledge-commons",
+      "chapter": "AI in the commons",
+      "blurb": "Letting AI sort knowledge — with guardrails.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "human-review-boundaries",
+      "label": "Keeping humans in the loop",
+      "journey": "knowledge-commons",
+      "chapter": "AI in the commons",
+      "blurb": "Where a person must stay in charge, and why.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "knowledge-tools-directory",
+      "label": "The knowledge-commons toolbox",
+      "journey": "knowledge-commons",
+      "chapter": "The toolbox & workflow",
+      "blurb": "Obsidian, Quartz, GitHub, LinkML and friends, compared.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "editorial-workflow",
+      "label": "An editorial workflow that scales",
+      "journey": "knowledge-commons",
+      "chapter": "The toolbox & workflow",
+      "blurb": "Moving past the one-person bottleneck.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "archive-compost",
+      "label": "Archive & compost",
+      "journey": "knowledge-commons",
+      "chapter": "The toolbox & workflow",
+      "blurb": "Letting old knowledge go gracefully instead of rotting in place.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "stewardship-roles",
+      "label": "Stewardship roles",
+      "journey": "knowledge-commons",
+      "chapter": "Keep it alive",
+      "blurb": "Who keeps the garden alive, and how the work is shared.",
+      "color": "#79B5AB"
+    },
+    {
+      "id": "federation-portability",
+      "label": "Federation & portability",
+      "journey": "knowledge-commons",
+      "chapter": "Keep it alive",
+      "blurb": "Keeping your data free to move — KOI and beyond.",
+      "color": "#79B5AB"
     }
   ],
-  "paths": {
-    "newcomer": {
-      "label": "Newcomer Path",
-      "color": "#FF6B35",
-      "description": "Web3 basics for absolute beginners - start here",
-      "nodes": [
-        "why-regens-interested",
-        "what-web3-can-cant-do",
-        "common-concerns",
-        "what-is-blockchain",
-        "what-is-cryptocurrency",
-        "how-to-get-crypto",
-        "stablecoins",
-        "what-is-wallet",
-        "setting-up-first-wallet",
-        "seed-phrases",
-        "common-scams",
-        "what-you-can-do-ethereum",
-        "why-measurement-matters",
-        "dmrv",
-        "onchain-attestations",
-        "identity-verification",
-        "credentials-certifications",
-        "operational-security",
-        "silvi-protocol",
-        "wallet-comparison-guide",
-        "key-terms-a-z"
-      ]
-    },
-    "community-org": {
-      "label": "Community Organization",
-      "color": "#4ECDC4",
-      "description": "Web3 adoption for established community groups",
-      "nodes": [
-        "why-regens-interested",
-        "what-web3-can-cant-do",
-        "common-concerns",
-        "decentralization",
-        "what-is-cryptocurrency",
-        "how-to-get-crypto",
-        "stablecoins",
-        "setting-up-first-wallet",
-        "seed-phrases",
-        "what-is-dao",
-        "dao-governance-models",
-        "accept-crypto-donations",
-        "funding-landscape",
-        "gitcoin-grants",
-        "giveth",
-        "grant-writing",
-        "gnosis-safe",
-        "multisig-management",
-        "governance-design",
-        "community-tools",
-        "common-scams",
-        "operational-security",
-        "key-terms-a-z"
-      ]
-    },
-    "chapter-builder": {
-      "label": "Local Chapter Builder",
-      "color": "#45B7D1",
-      "description": "Starting and running a local web3 community",
-      "nodes": [
-        "what-is-local-node",
-        "why-local-matters",
-        "minimum-viable-node",
-        "first-90-days",
-        "stakeholder-mapping",
-        "what-is-dao",
-        "dao-governance-models",
-        "voting-mechanisms",
-        "treasury-management",
-        "gnosis-safe",
-        "funding-landscape",
-        "gitcoin-grants",
-        "community-tools",
-        "building-in-public",
-        "conflict-resolution",
-        "ethereum-localism",
-        "key-terms-a-z"
-      ]
-    },
-    "governance": {
-      "label": "Governance Deep Dive",
-      "color": "#96CEB4",
-      "description": "DAO structures, voting, and decision-making",
-      "nodes": [
-        "why-regens-interested",
-        "decentralization",
-        "what-is-blockchain",
-        "smart-contracts",
-        "tokens-standards",
-        "what-is-dao",
-        "dao-governance-models",
-        "voting-mechanisms",
-        "governance-design",
-        "treasury-management",
-        "what-is-refi",
-        "community-currencies",
-        "commitment-pooling",
-        "key-terms-a-z"
-      ]
-    },
-    "environmental": {
-      "label": "Environmental Impact",
-      "color": "#2D8A56",
-      "description": "Web3 tools for ecological and climate projects",
-      "nodes": [
-        "why-regens-interested",
-        "what-web3-can-cant-do",
-        "what-is-blockchain",
-        "what-is-cryptocurrency",
-        "stablecoins",
-        "setting-up-first-wallet",
-        "seed-phrases",
-        "what-you-can-do-ethereum",
-        "layer-2s",
-        "why-measurement-matters",
-        "dmrv",
-        "onchain-attestations",
-        "hypercerts",
-        "impact-certificates",
-        "silvi-protocol",
-        "agroforestry",
-        "common-scams",
-        "operational-security",
-        "wallet-comparison-guide",
-        "key-terms-a-z"
-      ]
-    }
-  },
-  "edges": [
+  "links": [
     {
       "source": "why-regens-interested",
-      "target": "what-web3-can-cant-do"
+      "target": "what-web3-can-cant-do",
+      "journey": "newcomer"
     },
     {
       "source": "what-web3-can-cant-do",
-      "target": "common-concerns"
+      "target": "common-concerns",
+      "journey": "newcomer"
     },
     {
       "source": "common-concerns",
-      "target": "what-is-blockchain"
+      "target": "what-is-decentralization",
+      "journey": "newcomer"
+    },
+    {
+      "source": "what-is-decentralization",
+      "target": "what-is-blockchain",
+      "journey": "newcomer"
     },
     {
       "source": "what-is-blockchain",
-      "target": "what-is-cryptocurrency"
-    },
-    {
-      "source": "what-is-blockchain",
-      "target": "smart-contracts"
-    },
-    {
-      "source": "what-is-blockchain",
-      "target": "decentralization"
+      "target": "what-is-cryptocurrency",
+      "journey": "newcomer"
     },
     {
       "source": "what-is-cryptocurrency",
-      "target": "how-to-get-crypto"
-    },
-    {
-      "source": "what-is-cryptocurrency",
-      "target": "stablecoins"
-    },
-    {
-      "source": "what-is-cryptocurrency",
-      "target": "tokens-standards"
+      "target": "stablecoins",
+      "journey": "newcomer"
     },
     {
       "source": "stablecoins",
-      "target": "what-is-wallet"
+      "target": "how-to-get-crypto",
+      "journey": "newcomer"
+    },
+    {
+      "source": "how-to-get-crypto",
+      "target": "what-is-wallet",
+      "journey": "newcomer"
     },
     {
       "source": "what-is-wallet",
-      "target": "setting-up-first-wallet"
+      "target": "setting-up-first-wallet",
+      "journey": "newcomer"
     },
     {
       "source": "setting-up-first-wallet",
-      "target": "seed-phrases"
+      "target": "seed-phrases",
+      "journey": "newcomer"
     },
     {
       "source": "seed-phrases",
-      "target": "common-scams"
+      "target": "common-scams",
+      "journey": "newcomer"
     },
     {
       "source": "common-scams",
-      "target": "operational-security"
-    },
-    {
-      "source": "what-is-wallet",
-      "target": "wallet-comparison-guide"
-    },
-    {
-      "source": "what-you-can-do-ethereum",
-      "target": "layer-2s"
-    },
-    {
-      "source": "what-you-can-do-ethereum",
-      "target": "what-is-defi"
-    },
-    {
-      "source": "what-you-can-do-ethereum",
-      "target": "nfts"
-    },
-    {
-      "source": "tokens-standards",
-      "target": "community-currencies"
-    },
-    {
-      "source": "community-currencies",
-      "target": "commitment-pooling"
+      "target": "what-is-dao",
+      "journey": "newcomer"
     },
     {
       "source": "what-is-dao",
-      "target": "dao-governance-models"
+      "target": "what-is-refi",
+      "journey": "newcomer"
     },
     {
-      "source": "dao-governance-models",
-      "target": "voting-mechanisms"
+      "source": "what-is-refi",
+      "target": "refi-vs-defi-tradfi",
+      "journey": "newcomer"
     },
     {
-      "source": "dao-governance-models",
-      "target": "treasury-management"
-    },
-    {
-      "source": "dao-governance-models",
-      "target": "governance-design"
-    },
-    {
-      "source": "treasury-management",
-      "target": "gnosis-safe"
-    },
-    {
-      "source": "gnosis-safe",
-      "target": "multisig-management"
-    },
-    {
-      "source": "funding-landscape",
-      "target": "gitcoin-grants"
-    },
-    {
-      "source": "funding-landscape",
-      "target": "giveth"
-    },
-    {
-      "source": "funding-landscape",
-      "target": "grant-writing"
-    },
-    {
-      "source": "funding-landscape",
-      "target": "accept-crypto-donations"
-    },
-    {
-      "source": "why-measurement-matters",
-      "target": "dmrv"
-    },
-    {
-      "source": "dmrv",
-      "target": "onchain-attestations"
-    },
-    {
-      "source": "onchain-attestations",
-      "target": "hypercerts"
-    },
-    {
-      "source": "onchain-attestations",
-      "target": "impact-certificates"
-    },
-    {
-      "source": "onchain-attestations",
-      "target": "credentials-certifications"
-    },
-    {
-      "source": "identity-verification",
-      "target": "credentials-certifications"
-    },
-    {
-      "source": "why-measurement-matters",
-      "target": "avoiding-impact-washing"
+      "source": "refi-vs-defi-tradfi",
+      "target": "find-your-community",
+      "journey": "newcomer"
     },
     {
       "source": "what-is-local-node",
-      "target": "why-local-matters"
+      "target": "local-node-model",
+      "journey": "local-node"
+    },
+    {
+      "source": "local-node-model",
+      "target": "why-local-matters",
+      "journey": "local-node"
     },
     {
       "source": "why-local-matters",
-      "target": "minimum-viable-node"
+      "target": "local-nodes-and-daos",
+      "journey": "local-node"
+    },
+    {
+      "source": "local-nodes-and-daos",
+      "target": "is-community-ready",
+      "journey": "local-node"
+    },
+    {
+      "source": "is-community-ready",
+      "target": "minimum-viable-node",
+      "journey": "local-node"
     },
     {
       "source": "minimum-viable-node",
-      "target": "first-90-days"
+      "target": "building-founding-team",
+      "journey": "local-node"
+    },
+    {
+      "source": "building-founding-team",
+      "target": "legal-structures",
+      "journey": "local-node"
+    },
+    {
+      "source": "legal-structures",
+      "target": "first-90-days",
+      "journey": "local-node"
     },
     {
       "source": "first-90-days",
-      "target": "stakeholder-mapping"
+      "target": "funding-your-node",
+      "journey": "local-node"
     },
     {
-      "source": "silvi-protocol",
-      "target": "agroforestry"
+      "source": "funding-your-node",
+      "target": "funding-landscape",
+      "journey": "local-node"
     },
     {
-      "source": "silvi-protocol",
-      "target": "dmrv"
+      "source": "funding-landscape",
+      "target": "gitcoin-grants-qf",
+      "journey": "local-node"
     },
     {
-      "source": "community-tools",
-      "target": "building-in-public"
+      "source": "gitcoin-grants-qf",
+      "target": "giveth-donations",
+      "journey": "local-node"
     },
     {
-      "source": "community-tools",
-      "target": "conflict-resolution"
+      "source": "giveth-donations",
+      "target": "writing-grant-proposals",
+      "journey": "local-node"
     },
     {
-      "source": "community-tools",
-      "target": "knowledge-gardens"
+      "source": "writing-grant-proposals",
+      "target": "building-trust",
+      "journey": "local-node"
     },
     {
-      "source": "what-is-local-node",
-      "target": "ethereum-localism"
+      "source": "building-trust",
+      "target": "onboarding-members",
+      "journey": "local-node"
     },
     {
-      "source": "ai-web3",
-      "target": "ai-coordination"
+      "source": "onboarding-members",
+      "target": "conflict-resolution",
+      "journey": "local-node"
     },
     {
-      "source": "civic-tech",
-      "target": "ai-coordination"
+      "source": "conflict-resolution",
+      "target": "common-pitfalls",
+      "journey": "local-node"
+    },
+    {
+      "source": "common-pitfalls",
+      "target": "types-of-gatherings",
+      "journey": "local-node"
+    },
+    {
+      "source": "types-of-gatherings",
+      "target": "planning-web3-events",
+      "journey": "local-node"
+    },
+    {
+      "source": "planning-web3-events",
+      "target": "funding-gatherings",
+      "journey": "local-node"
+    },
+    {
+      "source": "funding-gatherings",
+      "target": "why-measurement-matters",
+      "journey": "local-node"
+    },
+    {
+      "source": "what-is-knowledge-commons",
+      "target": "knowledge-gardens",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "knowledge-gardens",
+      "target": "source-systems",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "source-systems",
+      "target": "ontology-vs-taxonomy",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "ontology-vs-taxonomy",
+      "target": "metadata-that-matters",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "metadata-that-matters",
+      "target": "review-and-maturity",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "review-and-maturity",
+      "target": "ai-community-tools",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "ai-community-tools",
+      "target": "ai-assisted-classification",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "ai-assisted-classification",
+      "target": "human-review-boundaries",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "human-review-boundaries",
+      "target": "knowledge-tools-directory",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "knowledge-tools-directory",
+      "target": "editorial-workflow",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "editorial-workflow",
+      "target": "archive-compost",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "archive-compost",
+      "target": "stewardship-roles",
+      "journey": "knowledge-commons"
+    },
+    {
+      "source": "stewardship-roles",
+      "target": "federation-portability",
+      "journey": "knowledge-commons"
     }
-  ]
+  ],
+  "stats": {
+    "topics": 52,
+    "paths": 3,
+    "links": 49
+  }
 }
