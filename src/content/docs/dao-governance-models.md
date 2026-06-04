@@ -1,7 +1,6 @@
 ---
 title: DAO Governance Models
-description: An overview of the main governance models DAOs use to make decisions
-, token voting, quadratic voting, reputation systems, and more.
+description: "An overview of the main governance models DAOs use to make decisions: token voting, quadratic voting, reputation systems, and more."
 section: '1.8'
 track: 1
 status: published
