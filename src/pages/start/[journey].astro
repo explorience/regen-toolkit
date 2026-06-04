@@ -1,7 +1,10 @@
 ---
 import Page from "../../layouts/Page.astro";
 import JourneyTrail from "../../components/JourneyTrail.astro";
+import JourneyMark from "../../components/JourneyMark.astro";
 import { journeyList, journeyStats } from "../../data/journeys.js";
+
+const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowledge-commons": "var(--teal)" };
 
 export function getStaticPaths() {
   return journeyList.map((j) => ({ params: { journey: j.id }, props: { journey: j } }));
@@ -22,10 +25,9 @@ const accentVar =
         <a href="/" class="jp__back">← All journeys</a>
         <div class="jp__hero-grid">
           <div>
+            <span class="jp__mark reveal" data-d="1" style={`color:${accentVar}`}><JourneyMark journey={journey.id} size={58} /></span>
             <p class="eyebrow reveal" data-d="1">{journey.kicker}</p>
-            <h1 class="jp__title reveal" data-d="2">
-              <span class="jp__emoji" aria-hidden="true">{journey.emoji}</span>{journey.label}
-            </h1>
+            <h1 class="jp__title reveal" data-d="2">{journey.label}</h1>
             <p class="jp__tagline reveal" data-d="3">{journey.tagline}</p>
             <p class="jp__intro reveal" data-d="4">{journey.intro}</p>
             <div class="jp__cta reveal" data-d="5">
@@ -58,7 +60,7 @@ const accentVar =
         <div class="jp__next-grid">
           {others.map((j) => (
             <a class="jp__next-card card" href={j.href}>
-              <span class="jp__next-emoji" aria-hidden="true">{j.emoji}</span>
+              <span class="jp__next-emoji" aria-hidden="true" style={`color:${accents[j.id]}`}><JourneyMark journey={j.id} size={30} /></span>
               <span class="jp__next-label">{j.label}</span>
               <span class="jp__next-tag">{j.tagline}</span>
               <span class="jp__next-go" aria-hidden="true">→</span>
@@ -75,8 +77,9 @@ const accentVar =
   .jp__back { font-family: var(--font-ui); font-weight: 500; color: var(--ink-soft); display: inline-block; margin-bottom: 22px; }
   .jp__back:hover { color: var(--jaccent); }
   .jp__hero-grid { display: grid; grid-template-columns: 1.55fr .95fr; gap: clamp(28px, 5vw, 64px); align-items: start; }
-  .jp__title { font-size: clamp(2.4rem, 6vw, 4rem); margin: .25em 0 .15em; }
-  .jp__emoji { margin-right: .25em; font-size: .82em; }
+  .jp__mark { display: block; margin-bottom: 8px; }
+  .jp__mark :global(.jmark) { display: block; }
+  .jp__title { font-size: clamp(2.4rem, 6vw, 4rem); margin: .08em 0 .15em; }
   .jp__tagline { font-family: var(--font-display); font-size: clamp(1.2rem, 2.4vw, 1.6rem); color: var(--jaccent); font-weight: 500; max-width: 26ch; }
   .jp__intro { color: var(--ink-soft); max-width: 56ch; margin-top: 1em; font-size: 1.08rem; }
   .jp__cta { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; margin-top: 1.8em; }
@@ -99,7 +102,7 @@ const accentVar =
   .jp__next-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 16px; }
   .jp__next-card { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 8px 16px; padding: 22px 26px; }
   .jp__next-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--line-strong); }
-  .jp__next-emoji { grid-row: 1 / 3; font-size: 1.7rem; }
+  .jp__next-emoji { grid-row: 1 / 3; display: flex; align-items: center; }
   .jp__next-label { font-family: var(--font-display); font-weight: 560; font-size: 1.18rem; }
   .jp__next-tag { grid-column: 2; color: var(--ink-soft); font-size: .94rem; }
   .jp__next-go { grid-row: 1 / 3; color: var(--ink-faint); font-size: 1.3rem; }

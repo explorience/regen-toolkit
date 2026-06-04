@@ -120,7 +120,7 @@
       graph.journeys.forEach(j => {
         const c = document.createElement('button');
         c.className = 'jcard'; c.style.setProperty('--jc', j.color);
-        c.innerHTML = '<div class="row"><span class="nm">' + j.emoji + ' ' + j.label + '</span><span class="ct">' + j.count + '</span></div><div class="tg">' + j.tagline + '</div>';
+        c.innerHTML = '<div class="row"><span class="nm">' + j.label + '</span><span class="ct">' + j.count + '</span></div><div class="tg">' + j.tagline + '</div>';
         c.onclick = () => {
           active = (active === j.id) ? null : j.id;
           [...jwrap.children].forEach((el, k) => el.classList.toggle('active', active && graph.journeys[k].id === active));

@@ -1,5 +1,6 @@
 ---
 import Page from "../layouts/Page.astro";
+import JourneyMark from "../components/JourneyMark.astro";
 import { journeyList, journeyStats } from "../data/journeys.js";
 const totalStops = journeyList.reduce((n, j) => n + journeyStats(j).count, 0);
 const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowledge-commons": "var(--teal)" };
@@ -12,7 +13,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
     <div class="wrap hero__inner">
       <p class="eyebrow reveal" data-d="1">The regenerative web3 field guide</p>
       <h1 class="hero__title reveal" data-d="2">
-        Find your way into<br /><span class="hero__em">regenerative web3</span>—<br />without drowning in jargon.
+        Find your way into<br /><span class="hero__em">regenerative web3</span>.
       </h1>
       <p class="hero__lede reveal" data-d="3">
         A curated, jargon-free guide for people using web3 to do real-world good. Pick a path,
@@ -45,23 +46,30 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
         <p class="eyebrow">Choose your path</p>
         <h2 class="sec-title">Three journeys, depending on where you're starting.</h2>
       </header>
-      <div class="journeys__grid">
+      <div class="plates">
         {journeyList.map((j, i) => {
           const s = journeyStats(j);
           return (
-            <a class="jcard reveal" data-d={i + 1} href={j.href} style={`--jc:${accents[j.id]}`}>
-              <div class="jcard__top">
-                <span class="jcard__emoji" aria-hidden="true">{j.emoji}</span>
-                {j.badge && <span class="jcard__badge">{j.badge}</span>}
+            <a class="plate reveal" data-d={i + 1} href={j.href} style={`--jc:${accents[j.id]}`}>
+              <span class="plate__rule" aria-hidden="true"></span>
+              <div class="plate__head">
+                <span class="plate__num">{String(i + 1).padStart(2, "0")}</span>
+                <span class="plate__mark"><JourneyMark journey={j.id} size={50} /></span>
               </div>
-              <h3 class="jcard__title">{j.label}</h3>
-              <p class="jcard__tag">{j.tagline}</p>
-              <ul class="jcard__chapters">
-                {j.chapters.slice(0, 5).map((c) => <li>{c.label}</li>)}
-              </ul>
-              <div class="jcard__foot">
-                <span class="jcard__meta">{s.count} stops · ~{s.minutes} min</span>
-                <span class="jcard__go" aria-hidden="true">Start <span class="arrow">→</span></span>
+              <h3 class="plate__title">{j.label}{j.badge && <em class="plate__badge">{j.badge}</em>}</h3>
+              <p class="plate__tag">{j.tagline}</p>
+              <ol class="plate__toc">
+                {j.chapters.map((c) => (
+                  <li>
+                    <span class="plate__toc-nm">{c.label}</span>
+                    <span class="plate__leader" aria-hidden="true"></span>
+                    <span class="plate__toc-n">{c.steps.length}</span>
+                  </li>
+                ))}
+              </ol>
+              <div class="plate__foot">
+                <span class="plate__meta">{s.count} stops &middot; ~{s.minutes} min</span>
+                <span class="plate__go">Start <span class="arrow">→</span></span>
               </div>
             </a>
           );
@@ -88,7 +96,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
       <div class="manifesto__lead">
         <p class="eyebrow">Why this exists</p>
         <h2 class="sec-title">Most web3 resources are written for people who already get it.</h2>
-        <p>This one isn't. It's built for the curious, the cautious, and the busy—people doing real
+        <p>This one isn't. It's built for the curious, the cautious, and the busy, people doing real
           regenerative work who don't have months to piece it together from Discord calls and dead links.</p>
       </div>
       <ul class="manifesto__points">
@@ -106,7 +114,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
         </li>
         <li>
           <span class="manifesto__ic" aria-hidden="true">✓</span>
-          <div><strong>Fact-checked, every claim.</strong> Sourced, verified, and reviewed—no confident nonsense.</div>
+          <div><strong>Fact-checked, every claim.</strong> Sourced, verified, and reviewed, no confident nonsense.</div>
         </li>
       </ul>
     </div>
@@ -125,21 +133,21 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 21v-9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12 14c-3.5 0-6-2.2-6-5.5C9.6 8.5 12 10.4 12 14Z" fill="currentColor"/><path d="M12 12c0-3.4 2.6-5.6 6-5.6 0 3.4-2.6 5.6-6 5.6Z" fill="currentColor" opacity=".6"/></svg>
           </span>
           <h3>New to all of this</h3>
-          <p>You do real-world good — community work, nonprofits, growing things — and web3 sounds like a wall of jargon. Start at the very beginning, nothing assumed.</p>
+          <p>You do real-world good, community work, nonprofits, growing things, and web3 sounds like a wall of jargon. Start at the very beginning, nothing assumed.</p>
         </div>
         <div class="who__card">
           <span class="who__ic" aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="7" cy="8" r="2.4" fill="currentColor"/><circle cx="17" cy="8" r="2.4" fill="currentColor"/><circle cx="12" cy="17" r="2.4" fill="currentColor"/><path d="M8.4 9.6 11 15M15.6 9.6 13 15M9 8h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
           </span>
           <h3>Starting something local</h3>
-          <p>You're ready to grow a place-based group — a chapter, a hub, a local node — and want patterns that genuinely work, with the pitfalls marked.</p>
+          <p>You're ready to grow a place-based group, a chapter, a hub, a local node, and want patterns that genuinely work, with the pitfalls marked.</p>
         </div>
         <div class="who__card">
           <span class="who__ic" aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="6.4" stroke="currentColor" stroke-width="1.7"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M11 8.5v5M8.5 11h5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
           </span>
           <h3>Already in crypto, want to do good</h3>
-          <p>You know your way around wallets and chains, and you want to point that at something that matters — without falling for greenwashing.</p>
+          <p>You know your way around wallets and chains, and you want to point that at something that matters, without falling for greenwashing.</p>
         </div>
       </div>
     </div>
@@ -174,7 +182,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
           <span class="partner__name">Regen&nbsp;Commons</span>
         </a>
       </div>
-      <p class="partners__note">A curated, open-source commons — not another walled garden. <a href="https://github.com/explorience/regen-toolkit" target="_blank" rel="noopener">Contribute on GitHub →</a></p>
+      <p class="partners__note">A curated, open-source commons, not another walled garden. <a href="https://github.com/explorience/regen-toolkit" target="_blank" rel="noopener">Contribute on GitHub →</a></p>
     </div>
   </section>
 
@@ -215,32 +223,41 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
   .hero__sprout { position: absolute; right: clamp(8px, 7vw, 120px); bottom: -6px; width: clamp(80px, 11vw, 150px); z-index: 1; transform-origin: bottom center; animation: sway 7s ease-in-out infinite; }
   @media (max-width: 720px) { .hero__sprout { display: none; } }
 
-  /* journeys */
+  /* journeys, field-guide index plates */
   .journeys { padding-block: clamp(40px, 7vw, 88px); }
-  .journeys__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-  .jcard { display: flex; flex-direction: column; background: var(--paper-2); border: 1px solid var(--line);
-    border-radius: var(--radius-lg); padding: 28px 28px 24px; box-shadow: var(--shadow-sm);
-    border-top: 4px solid var(--jc); transition: transform .3s var(--ease), box-shadow .3s var(--ease); position: relative; overflow: hidden; }
-  .jcard::after { content: ""; position: absolute; right: -40px; bottom: -40px; width: 130px; height: 130px; border-radius: 50%;
-    background: radial-gradient(circle, color-mix(in oklab, var(--jc) 16%, transparent), transparent 70%); opacity: 0; transition: opacity .3s; }
-  .jcard:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
-  .jcard:hover::after { opacity: 1; }
-  .jcard__top { display: flex; justify-content: space-between; align-items: flex-start; }
-  .jcard__emoji { font-size: 2.1rem; }
-  .jcard__badge { font-family: var(--font-mono); font-size: .64rem; letter-spacing: .14em; text-transform: uppercase;
-    background: var(--jc); color: var(--paper); padding: .35em .7em; border-radius: 100px; font-weight: 600; }
-  .jcard__title { font-size: 1.5rem; margin-top: .5em; }
-  .jcard__tag { color: var(--ink-soft); margin-top: .35em; font-size: 1rem; }
-  .jcard__chapters { list-style: none; margin: 1.1em 0 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
-  .jcard__chapters li { font-family: var(--font-ui); font-size: .88rem; color: var(--ink-soft); padding-left: 18px; position: relative; }
-  .jcard__chapters li::before { content: ""; position: absolute; left: 0; top: .55em; width: 7px; height: 7px; border-radius: 50%; background: var(--jc); opacity: .5; }
-  .jcard__foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 18px; }
-  .jcard__meta { font-family: var(--font-mono); font-size: .74rem; color: var(--ink-faint); }
-  .jcard__go { font-family: var(--font-ui); font-weight: 600; color: var(--jc); }
-  .jcard:hover .jcard__go .arrow { transform: translateX(4px); }
-  @media (max-width: 880px) { .journeys__grid { grid-template-columns: 1fr; } }
+  .plates { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: color-mix(in oklab, var(--paper-2) 45%, transparent); }
+  .plate { position: relative; display: flex; flex-direction: column; padding: 32px 28px 22px; border-left: 1px solid var(--line); color: var(--ink); transition: background .35s var(--ease); }
+  .plate:first-child { border-left: none; }
+  .plate__rule { position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--jc); opacity: .5; transition: opacity .35s, height .35s; }
+  .plate:hover { background: color-mix(in oklab, var(--jc) 7%, transparent); }
+  .plate:hover .plate__rule { opacity: 1; height: 3px; }
 
-  /* manifesto — always a dark moss band with fixed light text (theme-independent) */
+  .plate__head { display: flex; align-items: flex-start; justify-content: space-between; }
+  .plate__num { font-family: var(--font-display); font-weight: 500; font-size: 2.7rem; line-height: .85; color: var(--jc); letter-spacing: -.02em; }
+  .plate__mark { color: var(--jc); }
+  .plate__mark :global(.jmark) { display: block; }
+  .plate:hover .plate__mark :global(.jmark) { animation: sway 6s ease-in-out infinite; transform-origin: bottom center; }
+
+  .plate__title { font-family: var(--font-display); font-weight: 560; font-size: 1.55rem; line-height: 1.08; margin-top: .7em; }
+  .plate__badge { font-style: normal; font-family: var(--font-mono); font-size: .56rem; letter-spacing: .16em; text-transform: uppercase; color: var(--jc); border: 1px solid color-mix(in oklab, var(--jc) 45%, transparent); border-radius: 3px; padding: .25em .5em; vertical-align: middle; margin-left: .55em; position: relative; top: -.2em; }
+  .plate__tag { color: var(--ink-soft); margin-top: .4em; font-size: .98rem; }
+
+  .plate__toc { list-style: none; margin: 20px 0 0; padding: 0; flex: 1; }
+  .plate__toc li { display: flex; align-items: baseline; padding: 8px 0; border-top: 1px solid color-mix(in oklab, var(--line) 70%, transparent); }
+  .plate__toc li:first-child { border-top: none; }
+  .plate__toc-nm { font-family: var(--font-ui); font-size: .92rem; color: var(--ink-soft); white-space: nowrap; }
+  .plate:hover .plate__toc-nm { color: var(--ink); }
+  .plate__leader { flex: 1; border-bottom: 1px dotted var(--line-strong); margin: 0 9px; transform: translateY(-4px); min-width: 12px; }
+  .plate__toc-n { font-family: var(--font-mono); font-size: .76rem; color: var(--jc); }
+
+  .plate__foot { display: flex; justify-content: space-between; align-items: baseline; margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line-strong); }
+  .plate__meta { font-family: var(--font-mono); font-size: .72rem; color: var(--ink-faint); }
+  .plate__go { font-family: var(--font-ui); font-weight: 600; color: var(--jc); }
+  .plate:hover .plate__go .arrow { transform: translateX(4px); }
+
+  @media (max-width: 880px) { .plates { grid-template-columns: 1fr; } .plate { border-left: none; border-top: 1px solid var(--line); } .plate:first-child { border-top: none; } }
+
+  /* manifesto, always a dark moss band with fixed light text (theme-independent) */
   .manifesto { --mf: #F3EDDF; background: #16291b; color: var(--mf); padding-block: clamp(48px, 8vw, 96px); position: relative; border-block: 1px solid #20371f; }
   :root[data-theme="dark"] .manifesto { background: #122017; }
   .manifesto .eyebrow { color: var(--growth); }

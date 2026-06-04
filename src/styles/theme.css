@@ -44,8 +44,8 @@
   --spark:      var(--growth);
 
   /* ---- shape & depth ---- */
-  --radius: 14px;
-  --radius-lg: 26px;
+  --radius: 5px;
+  --radius-lg: 6px;
   --shadow-sm: 0 1px 2px rgba(28,42,31,.06), 0 2px 8px rgba(28,42,31,.05);
   --shadow:    0 4px 14px rgba(28,42,31,.08), 0 14px 40px rgba(28,42,31,.08);
   --shadow-lg: 0 10px 30px rgba(28,42,31,.12), 0 30px 70px rgba(30,63,40,.14);

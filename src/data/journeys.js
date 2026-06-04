@@ -1,4 +1,4 @@
-// Ordered journey definitions — used by the homepage, journey landing pages,
+// Ordered journey definitions, used by the homepage, journey landing pages,
 // and the Starlight sidebar. Slugs map to /[slug] article routes.
 
 export const journeys = {
@@ -23,7 +23,7 @@ export const journeys = {
         steps: [
           ["why-regens-interested", "Why regens are curious about web3", "Why people doing real-world good are looking at this at all."],
           ["what-web3-can-cant-do", "What web3 can and can't do", "An honest map of what the tech does well, and what it doesn't."],
-          ["common-concerns", "The honest worries, answered", "Energy, scams, hype, complexity — addressed plainly."],
+          ["common-concerns", "The honest worries, answered", "Energy, scams, hype, complexity, addressed plainly."],
         ],
       },
       {
@@ -64,7 +64,7 @@ export const journeys = {
     kicker: "If you're starting something local",
     tagline: "Everything you need to stand up a chapter, hub or local node.",
     intro:
-      "A practical path for anyone forming a place-based regen group — a Greenpill chapter, a ReFi local node, a bioregional hub. It moves from “is our community ready?” through standing it up, funding it, growing it, and showing real impact. Built from patterns that have actually worked, with the pitfalls marked.",
+      "A practical path for anyone forming a place-based regen group, a Greenpill chapter, a ReFi local node, a bioregional hub. It moves from “is our community ready?” through standing it up, funding it, growing it, and showing real impact. Built from patterns that have actually worked, with the pitfalls marked.",
     outcome: [
       "Decide whether a local node is right for your community",
       "Stand up a minimum viable node and fund it sustainably",
@@ -132,7 +132,7 @@ journeys["knowledge-commons"] = {
   tagline: "Turn scattered docs and links into a living knowledge commons.",
   badge: "New",
   intro:
-    "A path for knowledge gardeners, documentation stewards and research teams who want to build something that stays alive — a wiki, knowledge garden, resource graph or source-aware archive. It moves from why a commons beats a doc-dump, through structuring knowledge well, using AI without losing the plot, the practical toolbox, and keeping it alive over time.",
+    "A path for knowledge gardeners, documentation stewards and research teams who want to build something that stays alive, a wiki, knowledge garden, resource graph or source-aware archive. It moves from why a commons beats a doc-dump, through structuring knowledge well, using AI without losing the plot, the practical toolbox, and keeping it alive over time.",
   outcome: [
     "Structure knowledge so people and AI can actually use it",
     "Use AI to help without letting it invent false coherence",
@@ -146,7 +146,7 @@ journeys["knowledge-commons"] = {
       steps: [
         ["what-is-knowledge-commons", "What is a knowledge commons?", "Why a commons beats a folder full of docs."],
         ["knowledge-gardens", "Knowledge gardens", "Tending knowledge like a living plot, not a filing cabinet."],
-        ["source-systems", "Source systems vs links", "The difference between a living source and a bare URL — and why it matters."],
+        ["source-systems", "Source systems vs links", "The difference between a living source and a bare URL, and why it matters."],
       ],
     },
     {
@@ -161,7 +161,7 @@ journeys["knowledge-commons"] = {
       label: "AI in the commons",
       steps: [
         ["ai-community-tools", "AI tools for communities", "Where AI genuinely helps a knowledge community."],
-        ["ai-assisted-classification", "AI-assisted classification", "Letting AI sort knowledge — with guardrails."],
+        ["ai-assisted-classification", "AI-assisted classification", "Letting AI sort knowledge, with guardrails."],
         ["human-review-boundaries", "Keeping humans in the loop", "Where a person must stay in charge, and why."],
       ],
     },
@@ -177,7 +177,7 @@ journeys["knowledge-commons"] = {
       label: "Keep it alive",
       steps: [
         ["stewardship-roles", "Stewardship roles", "Who keeps the garden alive, and how the work is shared."],
-        ["federation-portability", "Federation & portability", "Keeping your data free to move — KOI and beyond."],
+        ["federation-portability", "Federation & portability", "Keeping your data free to move, KOI and beyond."],
       ],
     },
   ],
