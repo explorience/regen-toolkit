@@ -71,7 +71,7 @@ That is the trade you cannot escape: every fix for Sybil resistance trades away 
 
 And the deeper structural pitfall, the one that distorts missions, is simpler still: grant money is lumpy, and it carries expectations. As [Funding Your Local Node](/funding-your-node/) puts it, "external funding often means external priorities entering your community space." The defence is not to avoid funding. It is to blend it, so no single funder sets your direction.
 
-The whole landscape is converging on that point. GG24 (October–November 2025) distributed over $1.8 million, roughly $1.175 million from Gitcoin plus about $632,500 from partners, using six funding mechanisms in a single cycle, because no one mechanism fits every kind of work. A diversified, blended mix is not just safer for your sanity; it is where the best-run rounds are already heading.
+The whole landscape is converging on that point. GG24 (October to November 2025) distributed over $1.8 million, roughly $1.175 million from Gitcoin plus about $632,500 from partners, using six funding mechanisms in a single cycle, because no one mechanism fits every kind of work. A diversified, blended mix is not just safer for your sanity; it is where the best-run rounds are already heading.
 
 ## Try This
 
@@ -83,21 +83,21 @@ The whole landscape is converging on that point. GG24 (October–November 2025) 
 
 ## References
 
-- [Gitcoin — Quadratic Funding](https://gitcoin.co/mechanisms/quadratic-funding) — how QF works, the CLR algorithm, and why breadth beats wealth.
-- [Gitcoin — Quadratic Funding = Wisdom of the Crowds](https://www.gitcoin.co/blog/quadratic-funding) — cumulative totals, quarterly pool size, round cadence, and the $1 donor minimum.
-- [Gitcoin — Retroactive Funding](https://gitcoin.co/mechanisms/retroactive-funding) — the "reward past usefulness" premise behind RetroPGF.
-- [Gitcoin — GG24 / Gitcoin 3.0 case study](https://gitcoin.co/case-studies/gg24-first-funding-round-of-gitcoin-3-0) — the six-mechanism blended round and its $1.8M distribution.
-- [Gitcoin — How to Attack and Defend Quadratic Funding](https://www.gitcoin.co/blog/how-to-attack-and-defend-quadratic-funding) — Sybil attacks and collusion, the core QF threat model.
-- [Gitcoin — Sybil Resistance in Quadratic Funding](https://gitcoin.co/research/quadratic-funding-sybil-resistance) — Passport, cluster-matching, and the ~90% Sybil-influence reduction.
-- [Optimism RetroPGF (via Gitcoin apps)](https://gitcoin.co/apps/optimism-retropgf) — the 850M OP reserve (20% of supply) and 60M+ OP distributed.
-- [Hypercerts Documentation — What is a Hypercert](https://docs.hypercerts.org/core-concepts/what-is-hypercerts) — the impact-record primitive: contributors, scope, time, measurements, evaluators.
-- [Protocol Labs — Hypercerts: a new primitive for public goods funding](https://www.protocol.ai/blog/hypercert-new-primitive/) — why hypercerts underpin retroactive funding (creators, funders, evaluators).
-- [Giveth](https://giveth.io/) — zero-fee crypto donations, QF rounds, and recurring donation streams via Superfluid.
-- [Octant (OAK Research)](https://oakresearch.io/en/reports/protocols/octant-decentralized-platform-financing-public-goods-golem-foundation-glm) — yield-funded public goods: the 100,000 ETH stake and the epoch/yield model.
-- [Decentralization Research Centre — Public Goods Funding Beyond RetroPGF and QF](https://dcfoundation.io/public-goods-funding-beyond-retropgf-and-qf/) — streaming, conviction voting, and the Glo Dollar / AutoPGF centralization-risk note.
-- [Crypto Altruism — Web3 PGF innovations infographic](https://www.cryptoaltruism.org/blog/infographic-web3-innovations-in-public-goods-funding) — a visual mechanism map of the landscape.
-- [ReFi DAO — Local Nodes Showcase 2024](https://blog.refidao.com/refi-local-nodes-showcase-2024/) — named nodes, the $236K distributed, the incubator, and the funding/burnout lessons.
-- [Onchain Magazine — Best Web3 Grants 2025](https://onchain.org/magazine/best-grants-for-web3-founders-projects-in-2025/) — a survey of direct grant programs across ecosystems.
-- [ReFi DAO Local ReFi Toolkit](https://refidao.github.io/local-refi-toolkit/) — the node-builder's operational toolkit and regional case studies.
-- [Ethereum Localism](https://greenpill.network/pdf/ethereum-localism.pdf) — the place-based framing behind local-node funding.
-- [Mechanism Institute Library](https://mechanism.institute/library) — reference library on funding and governance mechanisms.
+- [Gitcoin, Quadratic Funding](https://gitcoin.co/mechanisms/quadratic-funding), how QF works, the CLR algorithm, and why breadth beats wealth.
+- [Gitcoin, Quadratic Funding = Wisdom of the Crowds](https://www.gitcoin.co/blog/quadratic-funding), cumulative totals, quarterly pool size, round cadence, and the $1 donor minimum.
+- [Gitcoin, Retroactive Funding](https://gitcoin.co/mechanisms/retroactive-funding), the "reward past usefulness" premise behind RetroPGF.
+- [Gitcoin, GG24 / Gitcoin 3.0 case study](https://gitcoin.co/case-studies/gg24-first-funding-round-of-gitcoin-3-0), the six-mechanism blended round and its $1.8M distribution.
+- [Gitcoin, How to Attack and Defend Quadratic Funding](https://www.gitcoin.co/blog/how-to-attack-and-defend-quadratic-funding), Sybil attacks and collusion, the core QF threat model.
+- [Gitcoin, Sybil Resistance in Quadratic Funding](https://gitcoin.co/research/quadratic-funding-sybil-resistance), Passport, cluster-matching, and the ~90% Sybil-influence reduction.
+- [Optimism RetroPGF (via Gitcoin apps)](https://gitcoin.co/apps/optimism-retropgf), the 850M OP reserve (20% of supply) and 60M+ OP distributed.
+- [Hypercerts Documentation, What is a Hypercert](https://docs.hypercerts.org/core-concepts/what-is-hypercerts), the impact-record primitive: contributors, scope, time, measurements, evaluators.
+- [Protocol Labs, Hypercerts: a new primitive for public goods funding](https://www.protocol.ai/blog/hypercert-new-primitive/), why hypercerts underpin retroactive funding (creators, funders, evaluators).
+- [Giveth](https://giveth.io/), zero-fee crypto donations, QF rounds, and recurring donation streams via Superfluid.
+- [Octant (OAK Research)](https://oakresearch.io/en/reports/protocols/octant-decentralized-platform-financing-public-goods-golem-foundation-glm), yield-funded public goods: the 100,000 ETH stake and the epoch/yield model.
+- [Decentralization Research Centre, Public Goods Funding Beyond RetroPGF and QF](https://dcfoundation.io/public-goods-funding-beyond-retropgf-and-qf/), streaming, conviction voting, and the Glo Dollar / AutoPGF centralization-risk note.
+- [Crypto Altruism, Web3 PGF innovations infographic](https://www.cryptoaltruism.org/blog/infographic-web3-innovations-in-public-goods-funding), a visual mechanism map of the landscape.
+- [ReFi DAO, Local Nodes Showcase 2024](https://blog.refidao.com/refi-local-nodes-showcase-2024/), named nodes, the $236K distributed, the incubator, and the funding/burnout lessons.
+- [Onchain Magazine, Best Web3 Grants 2025](https://onchain.org/magazine/best-grants-for-web3-founders-projects-in-2025/), a survey of direct grant programs across ecosystems.
+- [ReFi DAO Local ReFi Toolkit](https://refidao.github.io/local-refi-toolkit/), the node-builder's operational toolkit and regional case studies.
+- [Ethereum Localism](https://greenpill.network/pdf/ethereum-localism.pdf), the place-based framing behind local-node funding.
+- [Mechanism Institute Library](https://mechanism.institute/library), reference library on funding and governance mechanisms.

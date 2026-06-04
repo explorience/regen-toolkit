@@ -70,7 +70,7 @@ Public blockchains are public. Anyone can see the amounts and the wallet address
 - **Good fit:** sending value across borders, a shared treasury everyone can audit, transparent on-chain voting, a local community currency, proving a donation moved.
 - **Bad fit:** storing photos or videos, running a real-time chat or game, holding private personal data, or anything a trusted spreadsheet already does fine.
 
-The job is not to be for or against Web3. It is to match the tool to the task. Web3 shines at value transfer, transparent coordination, and shared records nobody can fake. It is poor at storage, speed, and privacy. The strongest regen projects use it exactly where it helps and reach for ordinary tools everywhere else, the same way you would not use a chainsaw to prune a seedling.
+You don't have to be for or against Web3. You just have to match the tool to the task. It is good at moving value, coordinating in the open, and keeping shared records nobody can fake. It is poor at storage, speed, and privacy. The strongest regen projects use it exactly where it helps and reach for ordinary tools everywhere else, the same way you would not use a chainsaw to prune a seedling.
 
 ## Try This
 

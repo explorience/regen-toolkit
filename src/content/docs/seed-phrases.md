@@ -11,7 +11,7 @@ You've set up your first crypto wallet, and it hands you twelve random words to 
 
 A **seed phrase** (you'll also see it called a *Secret Recovery Phrase* or *mnemonic phrase*) is a list of 12 or 24 ordinary words that acts as the master backup for your entire wallet. Think of it like the original seed stock for a whole garden. From that one packet of seeds you can regrow every plant, on any plot of land, season after season. Lose the seeds and the garden can't be replanted. Hand them to a stranger and they can grow your garden on their own land.
 
-Those words aren't random scribbles. When you create a wallet, the software rolls a kind of digital dice to generate a long random number, then translates that number into words using a shared rulebook called **BIP39** (Bitcoin Improvement Proposal 39, the industry standard nearly every wallet follows). BIP39 uses a fixed list of exactly 2,048 words, chosen so the first four letters of each word are unique. That's why most metal backup tools only need the first four letters of each word.
+Those words aren't random scribbles. When you create a wallet, the software rolls a kind of digital dice to generate a long random number, then translates that number into words using a shared rulebook called **BIP39** (Bitcoin Improvement Proposal 39, the standard nearly every wallet follows). BIP39 uses a fixed list of exactly 2,048 words, chosen so the first four letters of each word are unique. That's why most metal backup tools only need the first four letters of each word.
 
 Because every wallet speaks the same BIP39 language, your phrase isn't locked to one app. The twelve words MetaMask gives you will restore the very same accounts in Rabby, Ledger Live, or any other compatible wallet. You're never trapped with one company.
 
@@ -70,7 +70,7 @@ For shared money, many groups skip the single-phrase model entirely and use a **
 
 ## A Word on Energy
 
-If you came here from permaculture or climate work, you may carry a real worry about crypto's energy use. It's worth naming plainly: a seed phrase itself uses no energy at all. It's just words on paper. And the networks most regenerative projects use, like Ethereum, Polygon, and Arbitrum, run on proof-of-stake, which cut Ethereum's energy use by over 99% in 2022. Holding a seed phrase responsibly is, if anything, a low-tech act: a pencil, a sheet of paper, and a safe place.
+If you came here from permaculture or climate work, you may carry a real worry about crypto's energy use. So let's be plain: a seed phrase itself uses no energy at all. It's just words on paper. And the networks most regenerative projects use, like Ethereum, Polygon, and Arbitrum, run on proof-of-stake, which cut Ethereum's energy use by about 99.95% when it switched over in September 2022. Holding a seed phrase responsibly is, if anything, a low-tech act: a pencil, a sheet of paper, and a safe place.
 
 ## The Bottom Line
 
@@ -86,8 +86,8 @@ Your seed phrase is your independence. No bank can freeze it, reset it, or lock 
 
 ## References
 
-- [BIP39 Specification (Bitcoin Improvement Proposals)](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) - The original standard defining the 2,048-word list and how phrases are generated.
-- [MetaMask: Restoring with a Secret Recovery Phrase](https://support.metamask.io/configure/wallet/how-to-restore-your-metamask-wallet-from-secret-recovery-phrase/) - Step-by-step official guide to recovering a wallet on a new device.
-- [MetaMask: What is a Secret Recovery Phrase](https://support.metamask.io/start/learn/what-is-a-secret-recovery-phrase-and-how-to-keep-your-crypto-wallet-secure/) - Plain explanation of why the phrase matters and how to keep it safe.
-- [Safe (safe.global)](https://safe.global/) - The widely-used multisig smart wallet for shared and organisational treasuries.
-- [Ethereum: The Merge and energy use](https://ethereum.org/en/roadmap/merge/) - Official explainer on the move to proof-of-stake and the 99%+ energy reduction.
+- [BIP39 Specification (Bitcoin Improvement Proposals)](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki): the original standard defining the 2,048-word list and how phrases are generated.
+- [MetaMask: Restoring with a Secret Recovery Phrase](https://support.metamask.io/configure/wallet/how-to-restore-your-metamask-wallet-from-secret-recovery-phrase/): step-by-step official guide to recovering a wallet on a new device.
+- [MetaMask: What is a Secret Recovery Phrase](https://support.metamask.io/start/learn/what-is-a-secret-recovery-phrase-and-how-to-keep-your-crypto-wallet-secure/): plain explanation of why the phrase matters and how to keep it safe.
+- [Safe (safe.global)](https://safe.global/): the widely used multisig smart wallet for shared and organisational treasuries.
+- [Ethereum: The Merge and energy use](https://ethereum.org/en/roadmap/merge/): official explainer on the move to proof-of-stake and the energy reduction of about 99.95%.

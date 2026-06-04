@@ -43,7 +43,7 @@ Experienced community builders who can guide you. Look for:
 - Social enterprise mentors
 
 ### Peer Networks
-Other nodes at similar stages. You're facing the same challenges — learn together.
+Other nodes at similar stages. You're facing the same challenges, learn together.
 
 ### Technical Support
 People who can help with Web3 tools:
@@ -68,7 +68,7 @@ Organizations that fund community projects:
 - Come with specific questions, not vague asks
 - Respect their time
 - Follow through on advice (or explain why you didn't)
-- Pay it forward — mentor others as you grow
+- Pay it forward, mentor others as you grow
 
 ## Moving Forward
 Reach out. The Web3 community is remarkably generous with time and knowledge. Ask for help.

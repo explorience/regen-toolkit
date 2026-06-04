@@ -46,7 +46,7 @@ What it can add:
 - Global reach
 - Coordination tools
 
-Think of it like your website. It's a tool that supports your work—it doesn't replace the actual work.
+Think of it like your website. It's a tool that supports your work, it doesn't replace the actual work.
 
 ## Find the Fit
 
@@ -105,6 +105,6 @@ Web3 is a set of tools. Your mission is the point. Let the tools serve the missi
 
 ## Try This
 
-1. **Identify one pain point** – What's one frustration in your current work?
-2. **Search for a web3 solution** – Is there a tool that might help?
-3. **Try one small thing** – Add one web3 element to your next event or campaign
+1. **Identify one pain point**, What's one frustration in your current work?
+2. **Search for a web3 solution**, Is there a tool that might help?
+3. **Try one small thing**, Add one web3 element to your next event or campaign

@@ -31,9 +31,9 @@ stage: build
 
 ## What Is DAO Treasury Management?
 
-A DAO's treasury is its financial backbone—the pool of assets that keeps the organization running, funding development, rewarding contributors, and sustaining community growth. Treasury management is how a DAO wisely holds, grows, and deploys these resources.
+A DAO's treasury is its financial backbone, the pool of assets that keeps the organization running, funding development, rewarding contributors, and sustaining community growth. Treasury management is how a DAO wisely holds, grows, and deploys these resources.
 
-The numbers are striking. The top 50 DAO treasuries together hold approximately $15 billion in assets. Yet most of these treasuries are heavily concentrated in a single asset: their own governance token. This creates a paradox—DAOs appear wealthy on paper, but their actual financial flexibility is severely limited.
+The numbers are striking. The top 50 DAO treasuries together hold approximately $15 billion in assets. Yet most of these treasuries are heavily concentrated in a single asset: their own governance token. This creates a paradox, DAOs appear wealthy on paper, but their actual financial flexibility is severely limited.
 
 ---
 
@@ -43,7 +43,7 @@ The numbers are striking. The top 50 DAO treasuries together hold approximately 
 
 Your DAO's governance token serves as a measure of power and participation. But when it comes to paying bills, it falls short. Here's why:
 
-**Liquidity is scarce.** Unlike stocks on traditional markets, DAO tokens often have thin order books. Selling even modest amounts can crash the price—sometimes causing 95% slippage on decentralized exchanges. A treasury with $10 million in tokens might only retrieve $500,000 if forced to sell quickly.
+**Liquidity is scarce.** Unlike stocks on traditional markets, DAO tokens often have thin order books. Selling even modest amounts can crash the price, sometimes causing 95% slippage on decentralized exchanges. A treasury with $10 million in tokens might only retrieve $500,000 if forced to sell quickly.
 
 **Volatility is extreme.** Crypto markets move dramatically. A treasury worth $10 million in January might be worth $3 million by December. This makes planning impossible and creates anxiety among contributors who receive token payments.
 
@@ -57,13 +57,13 @@ The most practical solution: maintain 2-3 years of operating expenses in stablec
 
 This approach delivers four key benefits:
 
-1. **Resilience during downturns** — Your DAO continues functioning even if token prices fall 70% or more. Bear markets become opportunities to build rather than survive.
+1. **Resilience during downturns**, Your DAO continues functioning even if token prices fall 70% or more. Bear markets become opportunities to build rather than survive.
 
-2. **Predictable budgeting** — Grants committees and working groups can plan effectively when they know their budget won't evaporate overnight.
+2. **Predictable budgeting**, Grants committees and working groups can plan effectively when they know their budget won't evaporate overnight.
 
-3. **Contributor flexibility** — Team members can receive part of their compensation in stablecoins, covering rent, groceries, and other fiat-denominated needs without forced token sales.
+3. **Contributor flexibility**, Team members can receive part of their compensation in stablecoins, covering rent, groceries, and other fiat-denominated needs without forced token sales.
 
-4. **Yield and credit opportunities** — Stablecoin holdings can be lent through protocols like Aave to generate yield, or used as collateral for borrowing.
+4. **Yield and credit opportunities**, Stablecoin holdings can be lent through protocols like Aave to generate yield, or used as collateral for borrowing.
 
 ---
 
@@ -71,21 +71,21 @@ This approach delivers four key benefits:
 
 ### 1. Earn Revenue in Stablecoins
 
-The cleanest path. Build products or services that generate stablecoin income naturally. Protocols like Aave use a "reserve factor"—a portion of borrower interest flows directly to the ecosystem treasury as stablecoins. No token sales required.
+The cleanest path. Build products or services that generate stablecoin income naturally. Protocols like Aave use a "reserve factor", a portion of borrower interest flows directly to the ecosystem treasury as stablecoins. No token sales required.
 
 ### 2. Strategic Token Sales
 
 When direct sales are necessary, several approaches reduce market impact:
 
-- **Over-the-counter (OTC) deals** — Work with market makers like Wintermute to execute large trades privately at better prices than public exchanges offer.
-- **Batch auctions** — Gnosis Auction aggregates buyer interest and sets a single clearing price, preventing manipulation.
-- **Bonding curves** — Smart contracts that issue tokens at algorithmically determined prices, enabling gradual treasury diversification.
+- **Over-the-counter (OTC) deals**, Work with market makers like Wintermute to execute large trades privately at better prices than public exchanges offer.
+- **Batch auctions**, Gnosis Auction aggregates buyer interest and sets a single clearing price, preventing manipulation.
+- **Bonding curves**, Smart contracts that issue tokens at algorithmically determined prices, enabling gradual treasury diversification.
 
 ### 3. Strategic Partnerships
 
-Exchange tokens with long-term holders—venture funds or other DAOs—rather than selling on open markets. Partners typically receive tokens at a discount with lock-up periods. This gets tokens into hands committed to the project's success.
+Exchange tokens with long-term holders, venture funds or other DAOs, rather than selling on open markets. Partners typically receive tokens at a discount with lock-up periods. This gets tokens into hands committed to the project's success.
 
-UMA Protocol developed "success tokens"—wrapping native tokens with call options to give investors upside while providing the treasury with stablecoins.
+UMA Protocol developed "success tokens", wrapping native tokens with call options to give investors upside while providing the treasury with stablecoins.
 
 ### 4. Borrow Against Your Tokens
 
@@ -97,7 +97,7 @@ Deposit your native tokens on lending protocols like Aave or Compound to borrow 
 
 Maya Protocol exemplifies this evolution. As a cross-chain liquidity protocol handling approximately $748 million in yearly volume and earning about $3 million in fees, Maya is transitioning to full DAO governance.
 
-This shift means token holders will govern protocol upgrades and treasury allocations—a significant step toward decentralization.
+This shift means token holders will govern protocol upgrades and treasury allocations, a significant step toward decentralization.
 
 For Maya, treasury management will involve:
 
@@ -121,4 +121,4 @@ For Maya, treasury management will involve:
 
 ---
 
-*Next up: Explore how DAOs make decisions through governance mechanisms—and why the structure of voting rights shapes everything a decentralized organization can become.*
+*Next up: Explore how DAOs make decisions through governance mechanisms, and why the structure of voting rights shapes everything a decentralized organization can become.*

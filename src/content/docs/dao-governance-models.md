@@ -1,7 +1,7 @@
 ---
 title: DAO Governance Models
 description: An overview of the main governance models DAOs use to make decisions
-  — token voting, quadratic voting, reputation systems, and more.
+, token voting, quadratic voting, reputation systems, and more.
 section: '1.8'
 track: 1
 status: published
@@ -39,7 +39,7 @@ related:
 
 # DAO Governance Models
 
-A Decentralized Autonomous Organization — DAO — operates through smart contracts on a blockchain. Unlike traditional organizations with hierarchical structures and centralized leadership, DAOs distribute decision-making authority among their members, who participate collectively in shaping the organization's direction. When consensus is reached, actions are automatically executed by smart contracts, eliminating the need for intermediaries and ensuring that agreed-upon rules are enforced impartially.
+A Decentralized Autonomous Organization, DAO, operates through smart contracts on a blockchain. Unlike traditional organizations with hierarchical structures and centralized leadership, DAOs distribute decision-making authority among their members, who participate collectively in shaping the organization's direction. When consensus is reached, actions are automatically executed by smart contracts, eliminating the need for intermediaries and ensuring that agreed-upon rules are enforced impartially.
 
 Every vote and transaction is recorded publicly on the blockchain, creating transparency and making manipulation significantly more difficult.
 
@@ -49,7 +49,7 @@ Every vote and transaction is recorded publicly on the blockchain, creating tran
 
 ### 1. Token-Weighted Voting
 
-This is the most widely used model. Each governance token equals one vote — the more tokens a member holds, the more voting power they possess. This ties financial investment to decision-making authority.
+This is the most widely used model. Each governance token equals one vote, the more tokens a member holds, the more voting power they possess. This ties financial investment to decision-making authority.
 
 **Pros:**
 - Simple to implement and understand
@@ -150,7 +150,7 @@ DAOs remove traditional barriers to participation, allowing members to contribut
 
 Power concentration remains a concern across all models. Token-weighted voting can unintentionally give all control to a few wealthy participants, sometimes called whales. Even reputation-based systems can become captured by established members who define what counts as valuable contribution. The right governance model should reflect your DAO's specific mission and help maintain appropriate balance.
 
-Emerging mechanisms continue to develop, including quadratic voting, Soulbound Tokens — non-transferable tokens representing earned credentials — and conviction voting, where voting power increases the longer you have participated in a decision. These aim to enhance democratic participation while addressing vulnerabilities to plutocracy, voter apathy, and collusion.
+Emerging mechanisms continue to develop, including quadratic voting, Soulbound Tokens, non-transferable tokens representing earned credentials, and conviction voting, where voting power increases the longer you have participated in a decision. These aim to enhance democratic participation while addressing vulnerabilities to plutocracy, voter apathy, and collusion.
 
 ---
 
@@ -158,7 +158,7 @@ Emerging mechanisms continue to develop, including quadratic voting, Soulbound T
 
 Think about a decision your community recently made. Who made the final call? How did everyone else have a say? What voting system would have made that decision fairer and more transparent?
 
-Use that reflection to think about which governance model might work for your group — or whether a DAO is even the right tool.
+Use that reflection to think about which governance model might work for your group, or whether a DAO is even the right tool.
 
 ---
 
@@ -169,7 +169,7 @@ Use that reflection to think about which governance model might work for your gr
 - MakerDAO Governance Framework: docs.makerdao.com
 - SafeDAO Multi-Sig Governance: safe.global
 - Decentraland DAO Structure: dao.decentraland.org
-- Quadratic Voting Explained — Essays in Power: essaysinpower.com
-- Soulbound Tokens and Reputation Systems — Vitalik Buterin: vitalik.ca
-- DAO Governance Best Practices — Overview and models: notion.so
-- Conviction Voting: A Novel Continuous Decision-Making Alternative — Giveth: medium.com/giveth
+- Quadratic Voting Explained, Essays in Power: essaysinpower.com
+- Soulbound Tokens and Reputation Systems, Vitalik Buterin: vitalik.ca
+- DAO Governance Best Practices, Overview and models: notion.so
+- Conviction Voting: A Novel Continuous Decision-Making Alternative, Giveth: medium.com/giveth

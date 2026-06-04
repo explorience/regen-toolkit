@@ -65,10 +65,10 @@ Building in public means sharing your progress, failures, and learnings openly a
 - Discord/Telegram (for community updates)
 
 ## Best Practices
-1. Be consistent — weekly updates beat monthly dumps
-2. Be honest — share failures alongside wins
-3. Be specific — "We held our first event with 12 attendees" beats "Things are going great!"
-4. Engage with responses — building in public is a conversation
+1. Be consistent, weekly updates beat monthly dumps
+2. Be honest, share failures alongside wins
+3. Be specific, "We held our first event with 12 attendees" beats "Things are going great!"
+4. Engage with responses, building in public is a conversation
 
 ## Moving Forward
 Start sharing. Even small updates count. Consistency matters more than polish.

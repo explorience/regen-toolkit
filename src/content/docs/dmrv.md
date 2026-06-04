@@ -40,7 +40,7 @@ The "digital" part just means we use phones and computers to do this faster and 
 
 ## Why Does This Matter for Your Work?
 
-When you work on regenerative projects—like planting trees, managing water sources, or protecting grazing lands—you need to show the impact you're making. Here's why dMRV matters:
+When you work on regenerative projects, like planting trees, managing water sources, or protecting grazing lands, you need to show the impact you're making. Here's why dMRV matters:
 
 ### 1. **Your Work Gets Recognized**
 When you can prove the results of your work, organizations and funders can see the real change happening in your community. This means more support and resources for future projects.
@@ -71,13 +71,13 @@ By documenting grass regrowth in previously degraded areas, community members pr
 
 Here's what a typical dMRV process looks like:
 
-1. **Collect data** — Use a phone app or simple form to record what you observe (photos, numbers, locations)
+1. **Collect data**, Use a phone app or simple form to record what you observe (photos, numbers, locations)
 
-2. **Submit reports** — Send the information to a central system or organization
+2. **Submit reports**, Send the information to a central system or organization
 
-3. **Get verified** — Either automated systems (like satellite imagery) or human verifiers check that your data is accurate
+3. **Get verified**, Either automated systems (like satellite imagery) or human verifiers check that your data is accurate
 
-4. **Receive confirmation** — You get documentation proving your impact
+4. **Receive confirmation**, You get documentation proving your impact
 
 ## Getting Started: Your First Steps
 
@@ -100,18 +100,18 @@ Join networks of other practitioners. You can share tips and learn from communit
 
 ## Tips for Success
 
-- **Be consistent** — Regular data collection is more valuable than occasional detailed records
-- **Photo evidence is powerful** — Before/after photos are some of the most convincing verification
-- **Keep records simple** — Don't overcomplicate; start with basic tracking and expand later
-- **Ask for help** — Your program coordinators and mentors are there to support you
+- **Be consistent**, Regular data collection is more valuable than occasional detailed records
+- **Photo evidence is powerful**, Before/after photos are some of the most convincing verification
+- **Keep records simple**, Don't overcomplicate; start with basic tracking and expand later
+- **Ask for help**, Your program coordinators and mentors are there to support you
 
 ## What dMRV Enables
 
-When your community uses dMRV, you become the storytellers of your own impact. You're not just doing the work—you're documenting the change. This means:
+When your community uses dMRV, you become the storytellers of your own impact. You're not just doing the work, you're documenting the change. This means:
 
-- **Your voice matters** — The data you collect tells your story in numbers
-- **Your impact is visible** — Decision-makers can see what's happening on the ground
-- **Your future is brighter** — Verified impact opens doors to funding, partnerships, and recognition
+- **Your voice matters**, The data you collect tells your story in numbers
+- **Your impact is visible**, Decision-makers can see what's happening on the ground
+- **Your future is brighter**, Verified impact opens doors to funding, partnerships, and recognition
 
 ## Moving Forward
 
@@ -119,7 +119,7 @@ dMRV might feel new, but remember: you've already been measuring and reporting y
 
 Start small. Be consistent. Trust the process.
 
-Your community's work deserves to be recognized—and dMRV helps make that happen.
+Your community's work deserves to be recognized, and dMRV helps make that happen.
 
 ---
 

@@ -32,7 +32,7 @@ category: applied
 
 ## The Participation Problem
 
-Direct democracy sounds ideal: everyone votes on everything. In practice, it leads to voter fatigue. When every decision requires a vote, people stop participating. Turnout drops. A small group of highly engaged members makes all the decisions anyway — but without the legitimacy of formal delegation.
+Direct democracy sounds ideal: everyone votes on everything. In practice, it leads to voter fatigue. When every decision requires a vote, people stop participating. Turnout drops. A small group of highly engaged members makes all the decisions anyway, but without the legitimacy of formal delegation.
 
 This is why most DAOs eventually consider delegation: allowing members to delegate their voting power to someone they trust.
 
@@ -53,7 +53,7 @@ A member delegates voting power to different delegates for different topics (fin
 **Cons**: Complex to manage, requires clear topic boundaries
 
 ### Liquid Delegation
-Members can delegate, re-delegate, or revoke at any time. Delegation can be transitive (Alice delegates to Bob, Bob delegates to Carol — Alice's vote flows through Bob to Carol).
+Members can delegate, re-delegate, or revoke at any time. Delegation can be transitive (Alice delegates to Bob, Bob delegates to Carol, Alice's vote flows through Bob to Carol).
 
 **Pros**: Most flexible, responsive to changing circumstances
 **Cons**: Can create complex power chains, requires sophisticated tooling

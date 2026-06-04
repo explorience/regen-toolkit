@@ -31,7 +31,7 @@ stage: build
 
 *Quick read: 3 minutes*
 
-Gas fees are the costs to transact on a blockchain. Every time you send crypto, swap tokens, or mint an NFT—you pay gas. Here's what you need to know.
+Gas fees are the costs to transact on a blockchain. Every time you send crypto, swap tokens, or mint an NFT, you pay gas. Here's what you need to know.
 
 ## What Are Gas Fees?
 
@@ -96,18 +96,18 @@ Layer 2 (L2) networks like Arbitrum and Optimism process transactions off main E
 
 ## 5 Ways to Save on Gas
 
-1. **Transact early morning UTC or weekends** — fees are lowest
-2. **Avoid big NFT drops and market volatility** — that's when fees spike
-3. **Use wallet fee estimators** — most wallets calculate for you
-4. **Use Layer 2** — dramatically cheaper for frequent use
-5. **Set max fees** — wallets let you cap spending; unused refunds
+1. **Transact early morning UTC or weekends**, fees are lowest
+2. **Avoid big NFT drops and market volatility**, that's when fees spike
+3. **Use wallet fee estimators**, most wallets calculate for you
+4. **Use Layer 2**, dramatically cheaper for frequent use
+5. **Set max fees**, wallets let you cap spending; unused refunds
 
 ## Key Takeaways
 
-- Gas fees are unavoidable — budget for them
-- Fees fluctuate with demand — timing matters
+- Gas fees are unavoidable, budget for them
+- Fees fluctuate with demand, timing matters
 - Layer 2 can cut costs 90%+
-- Your wallet handles the math — you just approve transactions
+- Your wallet handles the math, you just approve transactions
 - Start on L2 networks to learn without spending much
 
 ---

@@ -23,7 +23,7 @@ An **ontology** describes the *kinds of things* in your domain and the *specific
 
 The technical difference is that ontologies separate **classes** (types, like Grant or Project) from **individuals** (actual instances, like your March seed grant), and let you define named, typed relationships and rules between them rather than a single generic hierarchy [HEDDEN]. Those rules enable **inference**: state that every Grant requires a Report and that your March grant is a Grant, and the system can flag that a report is missing without anyone hand-tagging it. Taxonomies can't do that.
 
-Ontologies are what power knowledge graphs, semantic search, and the structured data behind AI systems, because there relationships matter as much as the things themselves [SGKG].
+Ontologies are what power knowledge graphs, semantic search, and the structured data behind AI systems, because there the relationships matter as much as the things themselves [SGKG].
 
 ## They are not rivals; one extends the other
 
@@ -61,11 +61,11 @@ For a team your size, the strong default is: ship a SKOS taxonomy now, and only 
 
 ## References
 
-- [Taxonomies vs. Ontologies — Hedden Information Management](https://www.hedden-information.com/taxonomies-vs-ontologies/) — a working taxonomist's precise breakdown of what each model adds, with the SKOS/OWL standards landscape. `[HEDDEN]`
-- [Ontology vs Taxonomy: Choosing the Right Knowledge Organisation Model — SGKG](https://sgkg.org/blog/2026-03-21-ontology-vs-taxonomy-knowledge-organisation/) — clear framing of taxonomy-as-classification vs ontology-as-relationships, and how they layer. `[SGKG]`
-- [SKOS Simple Knowledge Organization System — W3C](https://www.w3.org/2004/02/skos/) — the official home of the 2009 W3C standard for taxonomies and controlled vocabularies as linked data. `[SKOS]`
-- [Protégé — Stanford University](https://protege.stanford.edu/) — the free, open-source OWL 2 ontology editor to use if and when you graduate to an ontology. `[PROTEGE]`
-- [Schema.org](https://schema.org/) — a real, widely used vocabulary showing a "Thing"-rooted type hierarchy in production. `[SCHEMA]`
-- [Wikidata — Wikipedia](https://en.wikipedia.org/wiki/Wikidata) — a live, crowd-maintained knowledge graph; the reference example of an ontology-style commons at scale. `[WIKIDATA]`
-- [GravityDAO](https://gravitydao.org/about-us/) — treats conflict management and trust as public infrastructure for web3 communities; useful framing for why shared structure is a coordination problem. `[GRAVITY]`
-- Regen Toolkit, internal Knowledge Commons reference (Layer 1 — Ontology & Semantic Kernel; Layer 4 — Concept & Idea Ecology) — the project's own posture on minimal ontologies and the type/tag distinction. `[REGENKC]`
+- [Taxonomies vs. Ontologies, Hedden Information Management](https://www.hedden-information.com/taxonomies-vs-ontologies/): a working taxonomist's precise breakdown of what each model adds, with the SKOS/OWL standards landscape. `[HEDDEN]`
+- [Ontology vs Taxonomy: Choosing the Right Knowledge Organisation Model, SGKG](https://sgkg.org/blog/2026-03-21-ontology-vs-taxonomy-knowledge-organisation/): clear framing of taxonomy-as-classification vs ontology-as-relationships, and how they layer. `[SGKG]`
+- [SKOS Simple Knowledge Organization System, W3C](https://www.w3.org/2004/02/skos/): the official home of the 2009 W3C standard for taxonomies and controlled vocabularies as linked data. `[SKOS]`
+- [Protégé, Stanford University](https://protege.stanford.edu/): the free, open-source OWL 2 ontology editor to use if and when you graduate to an ontology. `[PROTEGE]`
+- [Schema.org](https://schema.org/): a real, widely used vocabulary showing a "Thing"-rooted type hierarchy in production. `[SCHEMA]`
+- [Wikidata, Wikipedia](https://en.wikipedia.org/wiki/Wikidata): a live, crowd-maintained knowledge graph; the reference example of an ontology-style commons at scale. `[WIKIDATA]`
+- [GravityDAO](https://gravitydao.org/about-us/): treats conflict management and trust as public infrastructure for web3 communities; useful framing for why shared structure is a coordination problem. `[GRAVITY]`
+- Regen Toolkit, internal Knowledge Commons reference (Layer 1, Ontology & Semantic Kernel; Layer 4, Concept & Idea Ecology): the project's own posture on minimal ontologies and the type/tag distinction. `[REGENKC]`

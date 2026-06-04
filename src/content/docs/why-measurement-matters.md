@@ -7,7 +7,7 @@ description: "How local node and chapter builders can measure impact without bur
 
 You've gathered ten people for a tree-planting day, run three meetups, and onboarded a handful of farmers to a wallet. It felt real. Then a funder asks, "What changed because of your node?" and you realise you can't answer with anything but a vibe.
 
-That gap is where good local initiatives quietly die. Not from lack of effort, but because nobody can see the effort turning into anything. Measurement is how you make your work visible to funders, to your community, and most of all to yourself, so you stop pouring energy into things that don't move the needle.
+That gap is where good local initiatives quietly die. Not from lack of effort, but because nobody can see the effort turning into anything. Measurement is how you make your work visible: to funders, to your community, and most of all to yourself, so you stop pouring energy into things that don't move the needle.
 
 This is not about becoming a spreadsheet bureaucracy. It's about planting seeds and actually checking whether they grow.
 
@@ -37,11 +37,11 @@ You don't need a research budget to capture this. A short before-and-after surve
 
 ## In Web3, measurement is the funding rail, not the paperwork after it
 
-Here's what's different about building a node in the regenerative finance (**ReFi**) space, where blockchains are used to fund and verify ecological and social good. Measurement isn't a report you file *after* the funding. Increasingly, it *is* the funding mechanism.
+Building a node in the regenerative finance (**ReFi**) space works differently, because here blockchains are used to fund and verify ecological and social good. Measurement isn't a report you file *after* the funding. Increasingly, it *is* the funding mechanism.
 
 **Retroactive funding**, which means paying for work after it's done and its impact is demonstrated rather than funding promises up front, has become a core pattern. The logic, popularised by Optimism's RetroPGF rounds, is simple: it's easier to agree on what *was* useful than to predict what *will* be. But retroactive funding only works if you can show what you did. No record, no reward.
 
-Gitcoin Grants 24 (GG24), which ran from late 2025 into 2026, deployed six funding mechanisms at once, including retroactive funding and peer-reviewed **hypercerts** (verifiable records of a piece of impactful work, used so funders can allocate capital against proven contributions rather than pitches). Notably, hypercerts shifted in 2026 away from their original form as ERC-1155 tokens on Optimism toward *living digital records built on the AT Protocol*: projects record their work, evaluators add evidence and trust signals, and funders allocate against the shared record. If you're a node, the implication is the same either way. The projects with legible, evidenced impact are the ones the money finds.
+Gitcoin Grants 24 (GG24), which ran from late 2025 into 2026, deployed six funding mechanisms at once, including retroactive funding and peer-reviewed **hypercerts** (verifiable records of a piece of impactful work, used so funders can allocate capital against proven contributions rather than pitches). Hypercerts shifted in 2026 away from their original form as ERC-1155 tokens on Optimism toward living digital records built on the AT Protocol: projects record their work, evaluators add evidence and trust signals, and funders allocate against the shared record. If you're a node, the implication is the same either way. The projects with legible, evidenced impact are the ones the money finds.
 
 The plumbing underneath this is **attestation**, a signed, tamper-evident statement that something is true, recorded so anyone can check it. The **Ethereum Attestation Service (EAS)** is the most widely used tool here, with over 9.5 million attestations recorded as of mid-2026. A node can attest that a member completed a workshop, that a planting day happened, that a deliverable shipped, and that attestation becomes a portable, verifiable building block for grants, reputation, and retroactive payouts.
 
@@ -76,10 +76,10 @@ Honesty is the non-negotiable. Funders who see consistent, truthful reporting, i
 
 ## References
 
-- [Silvi — Tree Stewardship & MRV App](https://silvi.earth/) — how a lightweight MRV app lets local reforestation stewards log trees with GPS and photos; user guide at [docs.silvi.earth](https://docs.silvi.earth/).
-- [Ethereum Attestation Service (EAS)](https://attest.org/) — the open attestation standard for recording verifiable claims; explorer at [easscan.org](https://easscan.org/).
-- [Hypercerts Protocol](https://hypercerts.org/) — verifiable records of impact work; docs at [docs.hypercerts.org](https://docs.hypercerts.org/) explain the 2026 move to AT Protocol-based living records.
-- [Gitcoin — Retroactive Funding](https://gitcoin.co/mechanisms/retroactive-funding) and [Impact Certificates (Hypercerts)](https://gitcoin.co/mechanisms/impact-certificates-hypercerts) — how funding-after-impact works, the mechanisms used in GG24.
-- [Regen Network Registry](https://www.registry.regen.network/) — issuing ecological credits against published MRV methodologies for nature-based work.
-- [Community Tool Box — Developing a Logic Model or Theory of Change](https://ctb.ku.edu/en/table-of-contents/overview/models-for-community-health-and-development/logic-model-development/main) — free, practical guide to mapping activities to outcomes before you measure.
-- [ReFi DAO Local Nodes](https://refidao.com/local-nodes) — the network of place-based ReFi communities this article is written for.
+- [Silvi, Tree Stewardship & MRV App](https://silvi.earth/), how a lightweight MRV app lets local reforestation stewards log trees with GPS and photos; user guide at [docs.silvi.earth](https://docs.silvi.earth/).
+- [Ethereum Attestation Service (EAS)](https://attest.org/), the open attestation standard for recording verifiable claims; explorer at [easscan.org](https://easscan.org/).
+- [Hypercerts Protocol](https://hypercerts.org/), verifiable records of impact work; docs at [docs.hypercerts.org](https://docs.hypercerts.org/) explain the 2026 move to AT Protocol-based living records.
+- [Gitcoin, Retroactive Funding](https://gitcoin.co/mechanisms/retroactive-funding) and [Impact Certificates (Hypercerts)](https://gitcoin.co/mechanisms/impact-certificates-hypercerts), how funding-after-impact works, the mechanisms used in GG24.
+- [Regen Network Registry](https://www.registry.regen.network/), issuing ecological credits against published MRV methodologies for nature-based work.
+- [Community Tool Box, Developing a Logic Model or Theory of Change](https://ctb.ku.edu/en/table-of-contents/overview/models-for-community-health-and-development/logic-model-development/main), free, practical guide to mapping activities to outcomes before you measure.
+- [ReFi DAO Local Nodes](https://refidao.com/local-nodes), the network of place-based ReFi communities this article is written for.

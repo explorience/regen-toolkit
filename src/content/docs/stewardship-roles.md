@@ -13,7 +13,7 @@ A knowledge commons is not a pile of documents. It is a living system that needs
 
 **Stewardship** means caring for something you do not personally own so it stays healthy for the people who come after you. In a knowledge commons, the thing being cared for is shared knowledge, and the danger is not that someone steals it. The danger is that it quietly rots while everyone assumes someone else is watching.
 
-The Regen Knowledge Commons Toolkit treats this as a first-class concern. One of its cross-cutting principles is **living systems health**: paying attention to "energy, trust, contribution flow, maintenance capacity" across the whole commons, not just whether the docs are technically correct ([Regen Toolkit, Cross-cutting principles](https://regen-toolkit-site.vercel.app)). A page can be accurate and still be dying, because nobody is updating it, nobody is linking to it, and nobody feels responsible for it.
+The Regen Knowledge Commons Toolkit treats this as a real concern, not an afterthought. One of its cross-cutting principles is **living systems health**: paying attention to "energy, trust, contribution flow, maintenance capacity" across the whole commons, not just whether the docs are technically correct ([Regen Toolkit, Cross-cutting principles](https://regen-toolkit-site.vercel.app)). A page can be accurate and still be dying, because nobody is updating it, nobody is linking to it, and nobody feels responsible for it.
 
 Roles make that responsibility legible. A role answers, in advance, the question "whose job is this?" before the moment when nobody knows and the thing breaks.
 
@@ -49,7 +49,7 @@ Sol, this is where it gets concrete. Roles written in a Notion page that nobody 
 
 **all-contributors turns recognition into a habit.** The hardest part of stewardship is that the work is invisible: the person who triages issues or fixes typos rarely shows up in a contributor graph. The all-contributors specification exists to fix exactly this, recognizing "all contributors, not just the ones who push code," with a bot and an emoji key covering doc writing, review, event organizing, mentoring, and maintenance ([all-contributors on GitHub](https://github.com/all-contributors/all-contributors)). Comment `@all-contributors please add @sol for review, maintenance` on an issue and the bot updates your README. Visible recognition is what keeps Curators and Onboarders from quietly quitting.
 
-**A `GOVERNANCE.md` turns roles into a contract.** One plain markdown file at your repo root, listing each role, who holds it today, and how it gets handed off. This is the single highest-leverage document in your commons and almost nobody writes it. It is what lets a new contributor answer "who decides what gets merged?" by reading a file instead of guessing.
+**A `GOVERNANCE.md` turns roles into a contract.** One plain markdown file at your repo root, listing each role, who holds it today, and how it gets handed off. This is the document that pays off most in your commons, and almost nobody writes it. It is what lets a new contributor answer "who decides what gets merged?" by reading a file instead of guessing.
 
 > 🔧 **For Practitioners:** Two real systems show role-separation at scale. Wikimedia **stewards** are globally elected and deliberately barred from using their powers on wikis where they are active local editors, keeping the role about the commons rather than home-turf power ([Wikimedia Stewards](https://meta.wikimedia.org/wiki/Stewards)). Ethereum's **Protocol Guild** funds 180-plus core maintainers across 29 teams through an onchain registry while keeping funding strictly separate from protocol decisions, so getting paid never buys a vote ([Protocol Guild](https://protocol-guild.readthedocs.io/en/latest/01-membership.html)). Both encode the rule the Toolkit states plainly: a layer should not quietly absorb the function of another unless the interface is explicit.
 
@@ -69,10 +69,10 @@ The Regen Toolkit's Implementation and Learning Memory layer exists partly for t
 
 ## References
 
-- [CHAOSS — Contributor Absence Factor](https://chaoss.community/kb/metric-contributor-absence-factor/) — the Linux Foundation metric (formerly Bus Factor) for measuring how few people do half the work.
-- [GitHub Docs — About code owners](https://docs.github.com/articles/about-code-owners) — official spec for the CODEOWNERS file that auto-requests the right reviewer.
-- [all-contributors](https://github.com/all-contributors/all-contributors) — bot and specification for recognizing non-code contributions like docs, review, and mentoring.
-- [Ben Balter — Five practical tips for governing your open source project](https://ben.balter.com/2021/06/14/open-source-governance/) — graduated permissions (triage vs maintainer) and documenting governance.
-- [Gravity DAO](https://gravitydao.org/) — conflict-management and trust-creation collective from the Token Engineering Commons; model for the Facilitator role.
-- [Wikimedia Stewards](https://meta.wikimedia.org/wiki/Stewards) — globally elected stewardship role with explicit conflict-of-interest guardrails.
-- [Protocol Guild — Membership](https://protocol-guild.readthedocs.io/en/latest/01-membership.html) — onchain registry funding 180+ Ethereum core maintainers while separating funding from decision power.
+- [CHAOSS, Contributor Absence Factor](https://chaoss.community/kb/metric-contributor-absence-factor/): the Linux Foundation metric (formerly Bus Factor) for measuring how few people do half the work.
+- [GitHub Docs, About code owners](https://docs.github.com/articles/about-code-owners): official spec for the CODEOWNERS file that auto-requests the right reviewer.
+- [all-contributors](https://github.com/all-contributors/all-contributors): bot and specification for recognizing non-code contributions like docs, review, and mentoring.
+- [Ben Balter, Five practical tips for governing your open source project](https://ben.balter.com/2021/06/14/open-source-governance/): graduated permissions (triage vs maintainer) and documenting governance.
+- [Gravity DAO](https://gravitydao.org/): conflict-management and trust-creation collective from the Token Engineering Commons; model for the Facilitator role.
+- [Wikimedia Stewards](https://meta.wikimedia.org/wiki/Stewards): globally elected stewardship role with explicit conflict-of-interest guardrails.
+- [Protocol Guild, Membership](https://protocol-guild.readthedocs.io/en/latest/01-membership.html): onchain registry funding 180+ Ethereum core maintainers while separating funding from decision power.

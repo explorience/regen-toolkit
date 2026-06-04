@@ -87,9 +87,9 @@ You don't have to be technical to be safe here. You have to be a little stubborn
 
 ## References
 
-- [Create a new MetaMask wallet — MetaMask Help Center](https://support.metamask.io/start/creating-a-new-wallet/) — official, current setup walkthrough.
-- [What is a Secret Recovery Phrase — MetaMask Help Center](https://support.metamask.io/start/what-is-a-secret-recovery-phrase-and-how-to-keep-your-crypto-wallet-secure) — how to keep your phrase safe and why it matters.
-- [Custodial and non-custodial wallets — Coinbase Learn](https://www.coinbase.com/learn/your-crypto/custodial-and-non-custodial-wallets) — plain explanation of who holds the keys.
-- [Ethereum gas fees explained — Ledger Academy](https://www.ledger.com/academy/topics/crypto/ethereum-gas-fees-explained) — what gas is and how to manage it.
-- [L2 Fees (live tracker)](https://l2fees.info/) — real-time transaction costs on Base, Optimism, Arbitrum and other layer 2 networks.
-- [Ledger vs Trezor hardware wallets — Ledger Academy](https://www.ledger.com/academy/topics/ledgersolutions/ledger-vs-trezor-2026-which-hardware-wallet-is-safer-ultimate-comparison) — comparison for when you're ready to go cold.
+- [Create a new MetaMask wallet (MetaMask Help Center)](https://support.metamask.io/start/creating-a-new-wallet/): the official, current setup walkthrough.
+- [What is a Secret Recovery Phrase (MetaMask Help Center)](https://support.metamask.io/start/what-is-a-secret-recovery-phrase-and-how-to-keep-your-crypto-wallet-secure): how to keep your phrase safe and why it matters.
+- [Custodial and non-custodial wallets (Coinbase Learn)](https://www.coinbase.com/learn/your-crypto/custodial-and-non-custodial-wallets): a plain explanation of who holds the keys.
+- [Ethereum gas fees explained (Ledger Academy)](https://www.ledger.com/academy/topics/crypto/ethereum-gas-fees-explained): what gas is and how to manage it.
+- [L2 Fees (live tracker)](https://l2fees.info/): real-time transaction costs on Optimism, Arbitrum, and other layer 2 networks.
+- [Ledger vs Trezor hardware wallets (Ledger Academy)](https://www.ledger.com/academy/topics/ledgersolutions/ledger-vs-trezor-2026-which-hardware-wallet-is-safer-ultimate-comparison): a comparison for when you're ready to go cold.

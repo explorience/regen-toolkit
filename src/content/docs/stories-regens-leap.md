@@ -39,7 +39,7 @@ One day, a local developer asked if they could accept crypto for a fundraising c
 
 The result: a $5,000 ETH donation from someone across the country who'd never visited the garden but believed in the mission.
 
-"The tech was the hard part—finding the right platform," Maria says. "But the donation itself was the easiest thing."
+"The tech was the hard part, finding the right platform," Maria says. "But the donation itself was the easiest thing."
 
 ## The Climate Coalition
 
@@ -66,10 +66,10 @@ None of them were "crypto experts." They learned as they went.
 
 ## What These Stories Have in Common
 
-1. **Started small** – None of them went all-in immediately
-2. **Found allies** – Each had at least one person who understood the tech
-3. **Kept learning** – They made mistakes and adjusted
-4. **Stayed focused on mission** – The tech served the cause, not the reverse
+1. **Started small**, None of them went all-in immediately
+2. **Found allies**, Each had at least one person who understood the tech
+3. **Kept learning**, They made mistakes and adjusted
+4. **Stayed focused on mission**, The tech served the cause, not the reverse
 
 ## You Can Do This
 
@@ -95,6 +95,6 @@ Your story could be next.
 
 ## Try This
 
-1. **Find one person** – Is there someone in your network who knows a little about web3?
-2. **Ask them to coffee** – Let them share what they know
-3. **Pick one thing** – What's one small step you could take this month?
+1. **Find one person**, Is there someone in your network who knows a little about web3?
+2. **Ask them to coffee**, Let them share what they know
+3. **Pick one thing**, What's one small step you could take this month?

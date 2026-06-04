@@ -9,11 +9,11 @@ A message lands in your inbox: "Your wallet has a security problem. Click here t
 
 Entering Web3 feels a bit like walking into an unfamiliar woodland. Most of it is healthy and worth tending. But a few things will hurt you if you don't learn to recognise them. The good news: scams follow predictable patterns, the same way certain invasive plants always show up at the edge of a disturbed field. Once you know the patterns, you can move through this space with confidence and help protect the people around you.
 
-The stakes are real. Crypto scam losses reached an estimated $9.9 billion globally in 2024, and roughly $17 billion in 2025, the highest year on record. In the United States alone, victims reported $9.3 billion in crypto-related losses to the FBI in 2024, a 66% jump from the year before. You don't need to memorise those numbers. You just need to learn the handful of tricks behind them.
+The stakes are real. Globally, crypto scam losses ran into the billions in 2024 and reached a projected $17 billion in 2025, the highest year on record. In the United States alone, victims reported $9.3 billion in crypto-related losses to the FBI in 2024, a 66% jump from the year before. You don't need to memorise those numbers. You just need to learn the handful of tricks behind them.
 
 ## The scammer's playbook
 
-Crypto scammers rely on three old levers: **urgency** (act now or lose out), **authority** (I'm support, I'm a developer, I'm the government), and **trust** (we have a relationship, you can rely on me). The technology is new; the manipulation is ancient.
+Crypto scammers rely on three old levers: **urgency** (act now or lose out), **authority** (I'm support, I'm a developer, I'm the government), and **trust** (we have a relationship, you can rely on me). The technology is new. The manipulation is ancient.
 
 Picture this in your own community. If a stranger knocked on your door demanding immediate access to your savings, you'd be suspicious. Carry that same instinct online, where a polished website or a confident voice on a video call can hide an empty promise. A growing share of scams now lean on AI to write convincing messages and even fake faces and voices, so a professional appearance is no longer evidence of anything.
 
@@ -43,7 +43,7 @@ Red flags:
 - A team you can't verify anywhere else
 - Active fundraising but no working product
 
-Your protection: research the team across several independent sources. Start small. And hold onto one truth, every real investment carries risk, so anyone guaranteeing crypto profits is lying.
+Your protection: research the team across several independent sources. Start small. And hold onto one truth: every real investment carries risk, so anyone guaranteeing crypto profits is lying.
 
 ## Romance and "pig butchering" scams
 
@@ -58,7 +58,7 @@ How to protect yourself:
 - Trust your gut the moment money enters a romance
 - Real relationships don't come with financial deadlines
 
-> 💡 **Going Deeper:** Scammers increasingly use AI to spin up believable profiles and keep conversations going around the clock. Chainalysis found AI-assisted operations earn several times more than traditional ones, and government-impersonation scams using deepfaked images grew over 1,400% year-over-year in 2025. Reverse image searches and live video calls still help, but treat any unsolicited investment pitch as suspect regardless of how real the person seems.
+> 💡 **Going Deeper:** Scammers increasingly use AI to spin up believable profiles and keep conversations going around the clock. Chainalysis found AI-assisted operations earn several times more than traditional ones, and impersonation scams (fraudsters posing as a company, a bank, or the government) grew more than 1,400% year-over-year in 2025. Reverse image searches and live video calls still help, but treat any unsolicited investment pitch as suspect no matter how real the person seems.
 
 ## Rug pulls: builders who walk away
 
@@ -92,17 +92,17 @@ And lean on each other. Sharing a scam alert in your group chat is the digital v
 
 ## When prevention fails
 
-Even careful people get caught, because the system is genuinely hard to navigate and scammers design it that way. If it happens to you, it is not your fault.
+Even careful people get caught, because the system is genuinely confusing and scammers design it that way. If it happens to you, it is not your fault.
 
 What to do:
 
 1. **Stop all contact** with the suspected scammer.
-2. **Document everything**, screenshots, transaction records, messages.
+2. **Document everything**: screenshots, transaction records, messages.
 3. **Report it.** In the US, file with the FBI's Internet Crime Complaint Center at [ic3.gov](https://www.ic3.gov), and notify your local authorities.
 4. **Alert the platform** where it happened to protect the next person.
 5. **Tell your community** so they recognise the pattern.
 
-Recovery is rare because crypto transactions can't be reversed. But reporting still matters, it helps investigators track networks and warn others.
+Recovery is rare because crypto transactions can't be reversed. But reporting still matters: it helps investigators track networks and warn others.
 
 ## Moving forward with confidence
 
@@ -120,8 +120,8 @@ The regenerative projects you care about need people like you taking part safely
 
 ## References
 
-- [FBI 2024 Internet Crime Report (IC3)](https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf) — official US figures on crypto fraud, including the $9.3 billion in 2024 losses and the investment-scam breakdown.
-- [Chainalysis: AI Drove Crypto Scam Losses to a Record in 2025](https://www.chainalysis.com/blog/crypto-scams-2026/) — research on the $17 billion in 2025 losses and the rise of AI-assisted and impersonation scams.
-- [FBI IC3 complaint center](https://www.ic3.gov) — where to report crypto fraud and other internet crime in the US.
-- [Washington Post: Squid Game crypto rug pull](https://www.washingtonpost.com/world/2021/11/02/squid-game-crypto-rug-pull/) — coverage of the SQUID token collapse and how the sell-blocking trick worked.
-- [FTC: What to Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams) — plain-language consumer guidance on investment, impersonation, and payment scams, and the red flags to watch for.
+- [FBI 2024 Internet Crime Report (IC3)](https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf): official US figures on crypto fraud, including the $9.3 billion in 2024 losses and the investment-scam breakdown.
+- [Chainalysis 2026 Crypto Crime Report: Scams](https://www.chainalysis.com/blog/crypto-scams-2026/): research on the projected $17 billion in 2025 losses and the rise of AI-assisted and impersonation scams.
+- [FBI IC3 complaint center](https://www.ic3.gov): where to report crypto fraud and other internet crime in the US.
+- [Washington Post: Squid Game crypto rug pull](https://www.washingtonpost.com/world/2021/11/02/squid-game-crypto-rug-pull/): coverage of the SQUID token collapse and how the sell-blocking trick worked.
+- [FTC: What to Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams): plain-language consumer guidance on investment, impersonation, and payment scams, and the red flags to watch for.

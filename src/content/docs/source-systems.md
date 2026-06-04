@@ -7,7 +7,7 @@ description: "How to treat the wikis, repos, and gardens you rely on as living s
 
 Your most knowledgeable contributor is leaving in three weeks. Half of what your project actually knows lives in her head, a few of her starred GitHub repos, and a forum thread nobody can find anymore. When she goes, that knowledge goes with her, and the next person rediscovers it the hard way.
 
-This is the problem source systems solve. A **source system** is not a single document. It is a *living knowledge environment* you draw from over time, like a wiki, a code repository, a research database, a forum, or a digital garden, that has people tending it, keeps getting new material added, and has a way to credit back to where things came from. Treating your sources as systems, not as one-off links, is how a knowledge commons survives its own turnover.
+This is the problem source systems solve. A **source system** is not a single document. It is a *living knowledge environment* you draw from over time, like a wiki, a code repository, a research database, a forum, or a digital garden, that has people tending it, keeps getting new material added, and has a way to credit back to where things came from. Treat your sources as systems rather than one-off links, and your knowledge commons can survive its own turnover.
 
 ## A Link List Is Not a Source System
 
@@ -15,7 +15,7 @@ Most teams keep a "resources" page: a flat list of URLs someone pasted in once a
 
 The Regen Knowledge Commons Toolkit draws a sharp line here. In its own reference docs, the Resource Graph layer is described as "**not a link list**" but "the place where the rest of the Toolkit stays grounded in reality" [RKC]. A link is a dead pointer. A source system is alive: it has a steward, it changes, and you can trace a claim back to its origin.
 
-The practical test is simple. Ask of any source you depend on: *Who tends this? Is new material still being added? Can I trace it back and credit it?* If the answer to all three is yes, you have a source system. If not, you have a link, and links rot.
+The test is simple. Ask of any source you depend on: *Who tends this? Is new material still being added? Can I trace it back and credit it?* If the answer to all three is yes, you have a source system. If not, you have a link, and links rot.
 
 ## Three Things Every Source System Needs
 
@@ -47,7 +47,7 @@ You don't need to build a custom system. Several mature, named tools already enc
 
 ## Tend the Garden, Don't Freeze It
 
-A source system is never finished, and that is a feature, not a failure. The **digital garden** ethos, articulated by designer Maggie Appleton, treats published notes as plants at different stages of growth: 🌱 *seedling* for rough early ideas, 🌿 *budding* for clarified work, and 🌳 *evergreen* for reasonably complete pieces, where "even evergreen posts continue to be tended over time" [MAG].
+A source system is never finished, and that is a feature. The **digital garden** ethos, articulated by designer Maggie Appleton, treats published notes as plants at different stages of growth: 🌱 *seedling* for rough early ideas, 🌿 *budding* for clarified work, and 🌳 *evergreen* for reasonably complete pieces, where "even evergreen posts continue to be tended over time" [MAG].
 
 Two of her principles map directly onto a resilient commons. First, **topography over timelines**: a garden connects notes "through related themes, topics, and shared context" rather than burying them in reverse-chronological order, so there are "many entry points but no prescribed pathways" [MAG]. A blog hides last year's knowledge; a garden keeps it findable. Second, **learning in public**: you publish work-in-progress honestly instead of perfecting it in private, which lets others build on it sooner [MAG]. Marking maturity honestly is also baked into the Toolkit's posture: "Add broadly. Classify lightly. Mark maturity honestly" [RKC].
 
@@ -67,14 +67,14 @@ These are not abstractions for a knowledge commons. "Clearly defined boundaries"
 
 ## References
 
-- [Regen Knowledge Commons Toolkit — Resource Graph & Ecosystem Atlas (reference docs)](https://github.com/) - The project's own definition of source systems, provenance, attribution, and the "add broadly, mark maturity honestly" posture. [RKC]
+- [Regen Knowledge Commons Toolkit, Resource Graph & Ecosystem Atlas (reference docs)](https://github.com/) - The project's own definition of source systems, provenance, attribution, and the "add broadly, mark maturity honestly" posture. [RKC]
 - [Citation File Format on GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) - How `CITATION.cff` produces a "Cite this repository" link and APA/BibTeX citations. [GHC]
 - [Citation File Format project](https://citation-file-format.github.io/) - The plain-text standard for machine-readable software and dataset citation. [CFF]
 - [Architecture Decision Records (adr.github.io)](https://adr.github.io/) - The ADR and MADR templates for capturing decisions with context and consequences. [ADR]
 - [A Guide to ADRs (Medium, Jugurtha Aitoufella)](https://medium.com/@jugurtha.aitoufella/documenting-your-development-process-a-guide-to-architecture-decision-records-with-markdown-and-b428ba091ffa) - Why ADRs prevent knowledge loss during team turnover. [MED]
-- [A Brief History & Ethos of the Digital Garden — Maggie Appleton](https://maggieappleton.com/garden-history) - Seedling/budding/evergreen maturity, tending over time, and topography over timelines. [MAG]
-- [Eight Design Principles for Common Pool Resources — P2P Foundation](https://wiki.p2pfoundation.net/Eight_Design_Principles_for_Common_Pool_Resource_Systems) - Ostrom's principles, including clearly defined boundaries and graduated sanctions. [P2P]
-- [The Cultural Build — TEC Handbook](https://token-engineering-commons.gitbook.io/tec-handbook/what-is-the-tec/the-cultural-build) - How the Token Engineering Commons builds on Ostrom's eight principles. [TEC]
-- [Gravity DAO — About Us](https://gravitydao.org/about-us/) - Conflict management and trust creation for web3 commons; Durgadas as operations lead. [GRAV]
-- [Data Lineage vs. Provenance — Snowflake](https://www.snowflake.com/en/fundamentals/data-lineage/lineage-vs-provenance/) - The distinction between lineage (the path) and provenance (origin, custody, trust). [SNOW]
-- [Knowledge Management in 2026 — Rost Glukhov](https://www.glukhov.org/knowledge-management/) - Local-first, bidirectional-linking note tools: Obsidian, Logseq, TiddlyWiki. [GLU]
+- [A Brief History & Ethos of the Digital Garden, Maggie Appleton](https://maggieappleton.com/garden-history) - Seedling/budding/evergreen maturity, tending over time, and topography over timelines. [MAG]
+- [Eight Design Principles for Common Pool Resources, P2P Foundation](https://wiki.p2pfoundation.net/Eight_Design_Principles_for_Common_Pool_Resource_Systems) - Ostrom's principles, including clearly defined boundaries and graduated sanctions. [P2P]
+- [The Cultural Build, TEC Handbook](https://token-engineering-commons.gitbook.io/tec-handbook/what-is-the-tec/the-cultural-build) - How the Token Engineering Commons builds on Ostrom's eight principles. [TEC]
+- [Gravity DAO, About Us](https://gravitydao.org/about-us/) - Conflict management and trust creation for web3 commons; Durgadas as operations lead. [GRAV]
+- [Data Lineage vs. Provenance, Snowflake](https://www.snowflake.com/en/fundamentals/data-lineage/lineage-vs-provenance/) - The distinction between lineage (the path) and provenance (origin, custody, trust). [SNOW]
+- [Knowledge Management in 2026, Rost Glukhov](https://www.glukhov.org/knowledge-management/) - Local-first, bidirectional-linking note tools: Obsidian, Logseq, TiddlyWiki. [GLU]

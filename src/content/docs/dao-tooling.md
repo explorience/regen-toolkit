@@ -41,7 +41,7 @@ related:
 
 # DAO Tooling Landscape
 
-Now that you understand what a DAO is, let us talk about the tools that make them work. A DAO needs software to handle decisions, money, and people — just like any organization needs bank accounts, meeting spaces, and processes. The good news is that much of this software is free, and many tools were designed specifically for communities like yours.
+Now that you understand what a DAO is, let us talk about the tools that make them work. A DAO needs software to handle decisions, money, and people, just like any organization needs bank accounts, meeting spaces, and processes. The good news is that much of this software is free, and many tools were designed specifically for communities like yours.
 
 ---
 
@@ -91,7 +91,7 @@ Every DAO needs a way to manage its money. This is where treasury tools come in.
 
 ### Gnosis Safe
 
-This is the standard for DAO treasuries. Gnosis Safe secures billions of dollars across millions of accounts. It is a multi-signature wallet — instead of one person controlling the money, multiple people must approve any transaction.
+This is the standard for DAO treasuries. Gnosis Safe secures billions of dollars across millions of accounts. It is a multi-signature wallet, instead of one person controlling the money, multiple people must approve any transaction.
 
 Key features:
 
@@ -117,7 +117,7 @@ Used by over 100 DAOs including Bankless and Yearn Finance, Coordinape flips tra
 
 How it works:
 
-1. Each contributor receives GIVE tokens — recognition points, not monetary value.
+1. Each contributor receives GIVE tokens, recognition points, not monetary value.
 2. Throughout a period, they allocate these to colleagues whose contributions they appreciate.
 3. At the end, the allocated GIVE tokens determine how payment is distributed.
 
@@ -129,10 +129,10 @@ This creates a peer-to-peer reward system that aligns with regenerative values: 
 
 If you want to launch a DAO without building from scratch, these platforms make it easy:
 
-- **Colony** — No-code DAO builder, perfect for communities that want to deploy quickly.
-- **Juicebox** — Combines crowdfunding with DAO governance, good for fundraising and funding regenerative projects.
-- **Boardroom** — Governance dashboard for managing multiple DAOs in one place.
-- **DAOstack** — Protocol for large-scale decentralized governance.
+- **Colony**, No-code DAO builder, perfect for communities that want to deploy quickly.
+- **Juicebox**, Combines crowdfunding with DAO governance, good for fundraising and funding regenerative projects.
+- **Boardroom**, Governance dashboard for managing multiple DAOs in one place.
+- **DAOstack**, Protocol for large-scale decentralized governance.
 
 ---
 
@@ -153,14 +153,14 @@ Visit snapshot.org and search for a DAO related to something you care about. Loo
 Imagine your community has a shared fund of $5,000. Who should control it? A single person? A small group? What rules would you set for how money can be spent? Write out your answers, then compare them to how Gnosis Safe is configured.
 
 **Exercise 3: Try Coordinape Think**
-Reflect on a project you contributed to recently. Without using a platform, make a list of three people whose work you valued most and why. This is the same logic Coordinape uses — peer recognition drives the allocation.
+Reflect on a project you contributed to recently. Without using a platform, make a list of three people whose work you valued most and why. This is the same logic Coordinape uses, peer recognition drives the allocation.
 
 ---
 
 ## References
 
-- Yellow.com — "What Are DAO Tools and How to Choose? 2025 Platform Guide"
-- Colony — "Top 9 Tools for Managing DAOs" (colonylab.io)
-- Bankless Academy — DAO Governance Education (app.banklessacademy.com)
-- Gnosis Safe — Documentation (safe.global)
-- Coordinape — How It Works (coordinape.com)
+- Yellow.com, "What Are DAO Tools and How to Choose? 2025 Platform Guide"
+- Colony, "Top 9 Tools for Managing DAOs" (colonylab.io)
+- Bankless Academy, DAO Governance Education (app.banklessacademy.com)
+- Gnosis Safe, Documentation (safe.global)
+- Coordinape, How It Works (coordinape.com)

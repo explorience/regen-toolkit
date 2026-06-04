@@ -29,7 +29,7 @@ stage: build
 
 # Tax Implications of Cryptocurrency
 
-*What you need to know about taxes and digital assets—without the headache.*
+*What you need to know about taxes and digital assets, without the headache.*
 
 ---
 
@@ -112,7 +112,7 @@ stage: build
 - **Form 8949:** Report trades and sales
 - **Schedule D:** Capital gains/losses
 - **Schedule 1:** Income from mining, staking, airdrops
-- **Form 1099-DA:** New (2025+) — brokers will send this
+- **Form 1099-DA:** New (2025+), brokers will send this
 
 ---
 
@@ -132,11 +132,11 @@ stage: build
 
 ## Your Action Steps
 
-1. **Start tracking now** — don't wait until tax season
-2. **Hold over 1 year** when possible — lower taxes
-3. **Use a crypto tax tool** (CoinTracker, Koinly) — automates the hard parts
-4. **Consult a pro** — if you're active in DeFi or NFTs, get expert help
-5. **Don't panic** — the rules are evolving, but basics haven't changed much
+1. **Start tracking now**, don't wait until tax season
+2. **Hold over 1 year** when possible, lower taxes
+3. **Use a crypto tax tool** (CoinTracker, Koinly), automates the hard parts
+4. **Consult a pro**, if you're active in DeFi or NFTs, get expert help
+5. **Don't panic**, the rules are evolving, but basics haven't changed much
 
 ---
 

@@ -68,7 +68,7 @@ Talk to potential supporters. Address concerns before the vote, not during.
 If you know someone will object, address their concern in the proposal itself.
 
 ## Common Mistakes
-1. **Too vague**: "We'll improve community engagement" — how?
+1. **Too vague**: "We'll improve community engagement", how?
 2. **No budget**: Proposals without numbers can't be evaluated
 3. **No success criteria**: How will we know if this worked?
 4. **No timeline**: When will each deliverable be completed?

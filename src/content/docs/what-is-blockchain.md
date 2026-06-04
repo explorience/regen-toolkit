@@ -23,7 +23,7 @@ Each page of the village notebook is a **block**: one batch of records, like a w
 
 Here's the clever bit. Every new page carries a short summary of the page before it, called a **hash**: a fingerprint of the previous block's exact contents, produced by a fixed mathematical recipe. Change a single comma on an old page and its fingerprint changes completely, so the next page's "previous-page summary" no longer matches. The mismatch is glaring, and every node spots it at once.
 
-That's why people call blockchains **immutable**: once a record is settled and buried under newer blocks, rewriting it would mean redoing every page since and persuading the majority of nodes worldwide to accept your version simultaneously. Not impossible in theory; wildly impractical in practice. The history holds.
+That's why people call blockchains **immutable**: once a record is settled and buried under newer blocks, rewriting it would mean redoing every page since and persuading the majority of nodes worldwide to accept your version at the same moment. Not impossible in theory, but wildly impractical in practice. The history holds.
 
 ## Trust You Don't Have to Extend
 
@@ -33,7 +33,7 @@ This quietly solves an old problem: **double-spending**, the digital version of 
 
 ## What This Looks Like in Real Communities
 
-This isn't only theory or speculation. Communities use it now.
+Communities use this now, not someday.
 
 **Grassroots Economics** runs the Sarafu Network in Kenya: local "community asset vouchers" that let people trade goods and services even when national-currency cash is scarce. It now runs on the Celo blockchain, and crucially, people join over basic phones using simple text-message (USSD) codes, no smartphone or internet plan required. Grassroots Economics reports the network has supported more than 26,000 people across roughly 290 communities, with thousands now coordinating through Celo-based "commitment pools."
 
@@ -51,7 +51,7 @@ Here's what the hype usually skips.
 
 **It doesn't resolve disagreement.** A blockchain records what was agreed; it doesn't help you agree. The hard human work of facilitation, conflict, and care still belongs to you.
 
-A blockchain is a shared, tamper-evident notebook that many people keep in sync, so a group can keep honest records without crowning one keeper. It started with digital money. It's growing into tools that help communities trade, fund regeneration, and prove what they've done, without expensive middlemen. Whether it fits *your* work is a question worth asking slowly, and the rest of this toolkit is built to help you answer it.
+So that's the tool: a shared, tamper-evident notebook that lets a group keep honest records without crowning one keeper. It started with digital money. It's growing into tools that help communities trade, fund regeneration, and prove what they've done without expensive middlemen. Whether it fits *your* work is a question worth asking slowly, and the rest of this toolkit is built to help you answer it.
 
 ## Try This
 
@@ -63,10 +63,10 @@ A blockchain is a shared, tamper-evident notebook that many people keep in sync,
 
 ## References
 
-- [Bankless Academy: Blockchain Basics](https://app.banklessacademy.com/lessons/blockchain-basics) — Free, open-source, interactive lesson; no wallet needed to start.
-- [Ledger Academy: What Is Blockchain?](https://www.ledger.com/academy/what-is-blockchain) — Clear beginner explainer of blocks, hashes, and nodes.
-- [Grassroots Economics: Sarafu Network](https://www.grassrootseconomics.org/pages/sarafu-network) — Live community-currency network in Kenya; usage figures and how feature-phone access works.
-- [Regen Network](https://www.regen.network/) — Blockchain platform issuing science-backed ecological credits that pay for regenerative land work.
-- [Ethereum.org: The Merge](https://ethereum.org/en/roadmap/merge/) — Official account of Ethereum's 2022 switch to proof of stake and the ~99.95% energy drop.
-- [Cambridge Bitcoin Electricity Consumption Index](https://ccaf.io/cbnsi/cbeci) — Independent, regularly updated estimate of Bitcoin's proof-of-work energy use, maintained by the University of Cambridge.
-- [LF Decentralized Trust: Walmart case study](https://www.lfdecentralizedtrust.org/case-studies/walmart-case-study) — How Walmart traces food on Hyperledger Fabric, cutting traceback from days to seconds.
+- [Bankless Academy: Blockchain Basics](https://app.banklessacademy.com/lessons/blockchain-basics): Free, open-source, interactive lesson; no wallet needed to start.
+- [Ledger Academy: What Is Blockchain?](https://www.ledger.com/academy/what-is-blockchain): Clear beginner explainer of blocks, hashes, and nodes.
+- [Grassroots Economics: Sarafu Network](https://www.grassrootseconomics.org/pages/sarafu-network): Live community-currency network in Kenya; usage figures and how feature-phone access works.
+- [Regen Network](https://www.regen.network/): Blockchain platform issuing science-backed ecological credits that pay for regenerative land work.
+- [Ethereum.org: The Merge](https://ethereum.org/en/roadmap/merge/): Official account of Ethereum's 2022 switch to proof of stake and the ~99.95% energy drop.
+- [Cambridge Bitcoin Electricity Consumption Index](https://ccaf.io/cbnsi/cbeci): Independent, regularly updated estimate of Bitcoin's proof-of-work energy use, maintained by the University of Cambridge.
+- [LF Decentralized Trust: Walmart case study](https://www.lfdecentralizedtrust.org/case-studies/walmart-case-study): How Walmart traces food on Hyperledger Fabric, cutting traceback from days to seconds.

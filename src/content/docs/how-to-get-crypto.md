@@ -14,7 +14,7 @@ A grant-maker in another country wants to send your community garden project $30
 Before "how," let's be honest about "why," because if it doesn't help your real work, skip it.
 
 - **Cross-border money without the bleed.** Sending money internationally through banks or services like Western Union can lose 6% or more to fees, and small grassroots projects often can't easily open accounts. Crypto can move value to a wallet in minutes for a much smaller cost.
-- **Funding that reaches projects banks ignore.** A seed-saving collective with no formal bank account can still receive funds to a wallet. Networks like the **Greenpill Network** (a global community using crypto to fund local regenerative work, with chapters in places including London, Ontario, Cape Town, and Toronto) channel money toward exactly this kind of on-the-ground effort.
+- **Funding that reaches projects banks ignore.** A seed-saving collective with no formal bank account can still receive funds to a wallet. Networks like the **Greenpill Network** (a global community using crypto to fund local regenerative work, with local chapters in cities including Toronto and Cape Town) channel money toward exactly this kind of on-the-ground effort.
 - **Practising the alternative you talk about.** If your organising is about building systems outside extractive finance, this is one concrete tool for doing that, not just describing it.
 
 > ⚠️ **The honest warning:** Crypto is not a bank account. There's no government deposit insurance (no **FDIC** protection in the US, no equivalent elsewhere). If you get scammed, send to the wrong address, or lose your password, the money is usually gone for good and no one can reverse it. That's exactly why we start with $10, not $1,000.
@@ -54,7 +54,7 @@ A working option in 2026 is **LocalCoinSwap**, a non-custodial P2P marketplace o
 
 > ⚠️ **The one P2P rule that saves you:** Only ever use the platform's escrow. If a seller begs you to pay them "directly to skip the fee," that's the scam. Walk away. No exceptions.
 
-A note on staleness, because this field moves fast: **Paxful**, the platform most older guides still recommend, wound down completely by November 2025. If a tutorial points you there, it's out of date, a useful reminder to check dates on anything crypto-related.
+A note on staleness, because this field moves fast: **Paxful**, the platform most older guides still recommend, wound down completely by 1 November 2025. If a tutorial points you there, it's out of date, a useful reminder to check dates on anything crypto-related.
 
 ## Way 3: Earn it instead of buying it
 
@@ -62,7 +62,7 @@ You don't have to spend a penny to get crypto. You can earn it, which suits orga
 
 - **Get paid for your skills.** Plenty of regenerative and public-goods projects pay contributors in crypto for writing, translation, design, facilitation, or community work. This is how a lot of the **ReFi** (regenerative finance) world actually operates day to day.
 - **Bounties and grants.** Projects post small paid tasks (a translation, a guide, an event write-up). Greenpill chapters and Gitcoin grant rounds are common starting points.
-- **Staking.** Once you hold some crypto, you can **stake** it, locking it up to help secure a proof-of-stake network in exchange for a reward, much like leaving a crop to fix nitrogen back into the soil. Ethereum staking currently returns around **3% per year**. (Treat anything promising 20%, 50%, or "guaranteed" returns as a flashing red warning, not an opportunity.)
+- **Staking.** Once you hold some crypto, you can **stake** it, locking it up to help secure a proof-of-stake network in exchange for a reward, much like leaving a crop to fix nitrogen back into the soil. As of early 2026, Ethereum staking returns roughly **3% a year** (somewhere in the 2 to 4% range, depending on how you do it). (Treat anything promising 20%, 50%, or "guaranteed" returns as a flashing red warning, not an opportunity.)
 
 > 🌿 **Real talk on "free money":** **Airdrops** (projects giving away free tokens for attention) sound great and are mostly either worthless or a trap to drain your wallet. Don't chase them. Earning through genuine work is the path that doesn't end in regret.
 
@@ -99,10 +99,10 @@ Your four habits:
 
 ## References
 
-- [Greenpill Network](https://greenpill.network/) — Global network of local chapters using crypto to fund regenerative and public-goods work; find a chapter near you.
-- [FTC: What To Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams) — Plain-language US government guide to the most common scams and red flags.
-- [Ethereum.org: The Merge](https://ethereum.org/roadmap/merge/) — Official explanation of Ethereum's 2022 switch to proof-of-stake and the ~99.95% energy reduction.
-- [Coinbase Learn](https://www.coinbase.com/learn) — Beginner tutorials on buying, sending, and securing crypto on a centralised exchange.
-- [Bisq](https://bisq.network/) — Open-source, non-custodial peer-to-peer exchange for privacy-focused buying with no sign-up.
-- [LocalCoinSwap](https://localcoinswap.com/) — Active non-custodial P2P marketplace operating in 190+ countries with escrow protection.
-- [Paxful Closure Announcement](https://paxful.com/blog/paxful-closure-announcement) — Confirmation that the once-popular P2P platform wound down in 2025; a reminder to check dates on crypto guides.
+- [Greenpill Network](https://greenpill.network/): global network of local chapters using crypto to fund regenerative and public-goods work; find a chapter near you.
+- [FTC: What To Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams): plain-language US government guide to the most common scams and red flags.
+- [Ethereum.org: The Merge](https://ethereum.org/roadmap/merge/): official explanation of Ethereum's 2022 switch to proof-of-stake and the ~99.95% energy reduction.
+- [Coinbase Learn](https://www.coinbase.com/learn): beginner tutorials on buying, sending, and securing crypto on a centralised exchange.
+- [Bisq](https://bisq.network/): open-source, non-custodial peer-to-peer exchange for privacy-focused buying with no sign-up.
+- [LocalCoinSwap](https://localcoinswap.com/): active non-custodial P2P marketplace operating in 190+ countries with escrow protection.
+- [Paxful Closure Announcement](https://paxful.com/blog/paxful-closure-announcement): confirmation that the once-popular P2P platform wound down on 1 November 2025; a reminder to check dates on crypto guides.

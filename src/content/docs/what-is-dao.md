@@ -11,7 +11,7 @@ You have probably heard the word in regenerative circles. It sounds technical an
 
 ## What the Letters Actually Mean
 
-**DAO** stands for **Decentralized Autonomous Organization**. Each word is plainer than it looks:
+**DAO** stands for **Decentralized Autonomous Organization**. Each word is plainer than it looks.
 
 - **Decentralized** means there is no single boss making every call. The group decides together.
 - **Autonomous** means the rules run automatically as code, so you don't have to trust one person to enforce the agreement.
@@ -25,7 +25,7 @@ In many communities, savings groups already exist. Neighbours meet regularly, ev
 
 A DAO is a digital version of that, with three differences:
 
-- **The bank account is visible to everyone.** Every transaction is recorded on a **blockchain** (a shared digital ledger that no one person can secretly edit). Anyone in the group can see how much money is there and where it went.
+- **The bank account is visible to everyone.** Every transaction is recorded on a **blockchain**, a shared digital ledger that no one person can secretly edit. Anyone in the group can see how much money is there and where it went.
 - **Decisions happen online, on your own time.** No waiting for the next meeting. A proposal is posted, members vote, and the result happens automatically.
 - **The rules live in code, not in someone's head.** Even if the founder walks away, the DAO keeps running as agreed.
 
@@ -47,10 +47,10 @@ It won't fix a group that doesn't trust each other or doesn't know what it wants
 
 Strip away the jargon and every DAO has four pieces:
 
-1. **Treasury** — the shared wallet where group funds live.
-2. **Proposals** — formal requests for the group to decide on, like "fund the seed library" or "pay this contributor."
-3. **Voting** — how the group registers and counts who is for and against.
-4. **Smart contracts** — small programs that run automatically and carry out a decision once it passes, like a vending machine that releases funds only when the agreed conditions are met.
+1. **Treasury**: the shared wallet where group funds live.
+2. **Proposals**: formal requests for the group to decide on, like "fund the seed library" or "pay this contributor."
+3. **Voting**: how the group registers and counts who is for and against.
+4. **Smart contracts**: small programs that run automatically and carry out a decision once it passes, like a vending machine that releases funds only when the agreed conditions are met.
 
 You don't build these from scratch. Other people already have.
 
@@ -60,7 +60,7 @@ You do not need to write code to run a DAO. A few established tools handle the t
 
 - **Snapshot** lets a group vote without paying any transaction fees ("gasless" voting), because votes are recorded off the main blockchain and verified by your wallet signature. It is the most widely used DAO voting tool, with tens of thousands of community spaces. Live at [snapshot.org](https://snapshot.org).
 - **Safe** (formerly Gnosis Safe) is a shared wallet that requires several trusted people to approve before any money moves, the digital version of a cheque that needs two or three signatures. This "multi-signature" setup is the standard way DAOs guard a treasury. Live at [safe.global](https://safe.global).
-- **Aragon** lets you create a DAO, issue voting rights, and set the rules through a no-code app, without touching a smart contract directly. Live at [aragon.org](https://www.aragon.org).
+- **Aragon** lets you create a DAO, issue voting rights, and set the rules through an app, without writing code yourself. Live at [aragon.org](https://www.aragon.org).
 
 > 💡 **Going Deeper:** Snapshot keeps votes off-chain (cheap and gasless) but the result isn't automatically enforced by code; a trusted signer still has to act on it. Tools like Safe and Aragon close that gap when you need on-chain execution. Most regen groups start with Snapshot for signalling plus a Safe for the money, and only reach for full on-chain governance later.
 
@@ -91,9 +91,9 @@ You don't need to understand blockchain deeply to use one. You need a group, a s
 
 ## References
 
-- [Snapshot](https://snapshot.org) — The most widely used gasless DAO voting tool; browse real proposals to see governance in action.
-- [Safe](https://safe.global) — Multi-signature shared wallet (formerly Gnosis Safe) used to guard DAO treasuries.
-- [Aragon](https://www.aragon.org) — No-code platform for creating and running a DAO across several blockchains.
-- [ReFi DAO Local Nodes](https://refidao.com/local-nodes) — Directory and toolkit for place-based regenerative communities; find or start a node near you.
-- [Greenpill Network](https://greenpill.network) — Global network of local chapters using crypto for public goods, with starter guides.
-- [Bankless Academy](https://app.banklessacademy.com) — Free, beginner-friendly lessons on DAOs, wallets, and web3 basics.
+- [Snapshot](https://snapshot.org): the most widely used gasless DAO voting tool. Browse real proposals to see governance in action.
+- [Safe](https://safe.global): a shared wallet that needs several signatures (formerly Gnosis Safe), used to guard DAO treasuries.
+- [Aragon](https://www.aragon.org): a no-code platform for creating and running a DAO across several blockchains.
+- [ReFi DAO Local Nodes](https://refidao.com/local-nodes): a directory and toolkit for place-based regenerative communities. Find or start a node near you.
+- [Greenpill Network](https://greenpill.network): a global network of local chapters using crypto for public goods, with starter guides.
+- [Bankless Academy](https://app.banklessacademy.com): free, beginner-friendly lessons on DAOs, wallets, and web3 basics.

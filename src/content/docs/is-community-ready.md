@@ -102,7 +102,7 @@ Then set a review date three months out: is this working, what changes, do we co
 
 ## Try This
 
-> **Start here:** Score your group, today, on a 1-to-5 scale for each: five-plus people who show up consistently; you've organized something together before; you've survived a disagreement; people can say *why* beyond the tech; you've pooled money before; three-plus people engaged for three months. Total of 25–35, you're likely ready. 15–24, you have gaps, work the lowest scores. Below 15, build community first.
+> **Start here:** Score your group, today, on a 1-to-5 scale for each: five-plus people who show up consistently; you've organized something together before; you've survived a disagreement; people can say *why* beyond the tech; you've pooled money before; three-plus people engaged for three months. Total of 25-35, you're likely ready. 15-24, you have gaps, work the lowest scores. Below 15, build community first.
 >
 > **Go deeper:** Run Test 2 for real. Put a genuine low-stakes decision (how to spend a small shared budget) to the group this month and take notes on how the conversation goes. Bring the notes back as your honest governance baseline.
 >

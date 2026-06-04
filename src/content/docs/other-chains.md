@@ -1,7 +1,7 @@
 ---
 title: Other Chains and Ecosystems
-description: Explore the major blockchain ecosystems beyond Ethereum — Solana, Cosmos,
-  Polkadot, Avalanche, and Near — and what each offers for regenerative projects.
+description: Explore the major blockchain ecosystems beyond Ethereum, Solana, Cosmos,
+  Polkadot, Avalanche, and Near, and what each offers for regenerative projects.
 section: '1.6'
 track: 1
 status: published
@@ -40,7 +40,7 @@ related:
 
 ## The Multichain Reality
 
-If Ethereum is one city, the blockchain world has dozens of others — each with its own character, its own strengths, and its own reasons to show up. For regenerative finance, knowing the landscape matters. You don't need to pick a favourite, but understanding the tools helps you choose what's right for your work.
+If Ethereum is one city, the blockchain world has dozens of others, each with its own character, its own strengths, and its own reasons to show up. For regenerative finance, knowing the landscape matters. You don't need to pick a favourite, but understanding the tools helps you choose what's right for your work.
 
 This guide covers the major blockchain ecosystems beyond Ethereum.
 
@@ -52,7 +52,7 @@ Solana is built for speed. Where Ethereum processes roughly 15-30 transactions p
 
 **How it works:** Solana uses a mechanism called Proof of History, which creates a timestamp record before transactions are confirmed. This allows the network to process many transactions in parallel rather than one after another.
 
-**For regenerative projects:** Solana's low fees make it practical for applications involving frequent small transactions — community token distributions, micro-donations to environmental projects, or tracking carbon credits at scale. You could run a system where dozens of small contributions flow in without fees eating them up.
+**For regenerative projects:** Solana's low fees make it practical for applications involving frequent small transactions, community token distributions, micro-donations to environmental projects, or tracking carbon credits at scale. You could run a system where dozens of small contributions flow in without fees eating them up.
 
 **The tradeoffs:** Solana has experienced network outages in the past. The technical environment is different from Ethereum, so tools and developer skills don't transfer directly. Fewer developers know it well.
 
@@ -60,13 +60,13 @@ Solana is built for speed. Where Ethereum processes roughly 15-30 transactions p
 
 ## Cosmos: Your Own Blockchain
 
-Cosmos takes the multichain idea furthest. Rather than everyone sharing one blockchain, Cosmos lets you build your own — specifically designed for your application, yet able to communicate with other chains through the Inter-Blockchain Communication (IBC) protocol.
+Cosmos takes the multichain idea furthest. Rather than everyone sharing one blockchain, Cosmos lets you build your own, specifically designed for your application, yet able to communicate with other chains through the Inter-Blockchain Communication (IBC) protocol.
 
 **How it works:** Cosmos provides tools (the Tendermint consensus engine and Cosmos SDK) that make it relatively straightforward to launch a custom blockchain for your specific needs.
 
 **For regenerative projects:** This matters if you need complete control over your own economics. You could launch a blockchain for a regional community currency with governance rules tailored to your context, while remaining connected to a wider ecosystem of chains.
 
-**The tradeoffs:** Running your own blockchain is a significant commitment. You need validators, community participation, and ongoing maintenance. For most regenerative communities, this is probably overkill — but for those that need it, Cosmos provides the infrastructure.
+**The tradeoffs:** Running your own blockchain is a significant commitment. You need validators, community participation, and ongoing maintenance. For most regenerative communities, this is probably overkill, but for those that need it, Cosmos provides the infrastructure.
 
 ---
 
@@ -92,7 +92,7 @@ Avalanche uses a consensus mechanism distinct from both Proof of Work and standa
 
 ## Near: Accessible and Climate-Focused
 
-Near Protocol prioritises developer experience and user accessibility. It uses sharding (called Nightshade) to scale by processing blockchain data in parallel pieces, and focuses heavily on account abstraction — making the experience simpler for non-technical users. Near has also funded carbon removal for its own operations.
+Near Protocol prioritises developer experience and user accessibility. It uses sharding (called Nightshade) to scale by processing blockchain data in parallel pieces, and focuses heavily on account abstraction, making the experience simpler for non-technical users. Near has also funded carbon removal for its own operations.
 
 **How it works:** Nightshade sharding breaks the blockchain into pieces that process simultaneously. Account abstraction means wallet experiences can be designed to feel more familiar to people who don't already know crypto.
 

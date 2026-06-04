@@ -29,7 +29,7 @@ stage: build
 
 You got a crypto donation. Great! Now what?
 
-Stewardship is about relationship, not transaction. Crypto donors are just like other donors—they want to know their gift matters. But there are some unique things to consider.
+Stewardship is about relationship, not transaction. Crypto donors are just like other donors, they want to know their gift matters. But there are some unique things to consider.
 
 ## Thank Them Fast
 
@@ -75,12 +75,12 @@ These supporters are pioneering. Make them feel part of something.
 
 ## The Bottom Line
 
-Crypto donors deserve the same great stewardship as any donor—plus some extra transparency. Show impact, build relationship, and let them be part of your mission's future.
+Crypto donors deserve the same great stewardship as any donor, plus some extra transparency. Show impact, build relationship, and let them be part of your mission's future.
 
 ---
 
 ## Try This
 
-1. **Draft a thank-you template** – Write one for crypto donors specifically
-2. **Plan an impact update** – What would you send 3 months after a crypto gift?
-3. **Consider onchain transparency** – Could you publish a donor address?
+1. **Draft a thank-you template**, Write one for crypto donors specifically
+2. **Plan an impact update**, What would you send 3 months after a crypto gift?
+3. **Consider onchain transparency**, Could you publish a donor address?

@@ -31,7 +31,7 @@ related:
 
 ## What Are Attestations?
 
-Imagine you complete a training program or achieve something important—like finishing a leadership course, volunteering in your community, or learning a new skill. Normally, you might get a paper certificate or a letter to prove it. But what if there was a way to create a proof record that:
+Imagine you complete a training program or achieve something important, like finishing a leadership course, volunteering in your community, or learning a new skill. Normally, you might get a paper certificate or a letter to prove it. But what if there was a way to create a proof record that:
 
 - Cannot be lost or damaged
 - Anyone can verify anytime
@@ -49,12 +49,12 @@ Here's how it works in simple steps:
 A teacher, mentor, organization, or system creates a statement about you. For example: "Amina completed the Climate Leadership training program" or "Fatima volunteered 50 hours with the community garden project."
 
 **2. It gets recorded permanently**
-This statement is turned into data and written onto the blockchain. Once it's there, it cannot be changed, deleted, or faked. It's like carving something into stone—it stays forever.
+This statement is turned into data and written onto the blockchain. Once it's there, it cannot be changed, deleted, or faked. It's like carving something into stone, it stays forever.
 
 **3. Anyone can verify it**
 Because the information is on a shared digital notebook, anyone can check that the attestation is real. No need to call the school or ask for original documents. The proof is right there, instantly verifiable.
 
-This is powerful because it creates **trust without needing a middleman**. You don't need a central authority to confirm your achievements—the system itself proves them.
+This is powerful because it creates **trust without needing a middleman**. You don't need a central authority to confirm your achievements, the system itself proves them.
 
 ## What Can You Use Attestations For?
 
@@ -64,7 +64,7 @@ On-chain attestations can be used for many things in your journey:
 When you apply for scholarships, jobs, or programs, you often need to show proof of what you've done. With attestations, you can point to a verified record of your training, certifications, or achievements. It's more reliable than a paper certificate that might get lost.
 
 ### Building Your Reputation
-Your attestations create a trail of everything you've accomplished. Over time, this builds a reputation that follows you—not just in Somaliland, but anywhere in the world. Schools and employers can verify your record instantly.
+Your attestations create a trail of everything you've accomplished. Over time, this builds a reputation that follows you, not just in Somaliland, but anywhere in the world. Schools and employers can verify your record instantly.
 
 ### Showing Your Impact
 Did you plant trees? Organize a community cleanup? Mentor younger students? Attestations can record all of this impact. They tell the real story of what you've contributed to your community.
@@ -76,12 +76,12 @@ Some programs and scholarships are starting to use attestations to decide who qu
 
 As a young woman in Sarreya programs, you're building skills, gaining experience, and making a difference in your community. Attestations help make all of that visible and verifiable.
 
-Right now, if you complete a program, you might get a certificate. But certificates can be lost, damaged, or even forged. Attestations solve this problem—they're:
+Right now, if you complete a program, you might get a certificate. But certificates can be lost, damaged, or even forged. Attestations solve this problem, they're:
 
-- **Permanent** — They don't disappear or fade
-- **Verifiable** — Anyone can confirm they're real
-- **Portable** — They work anywhere in the world
-- **Trustworthy** — No one can fake them
+- **Permanent**, They don't disappear or fade
+- **Verifiable**, Anyone can confirm they're real
+- **Portable**, They work anywhere in the world
+- **Trustworthy**, No one can fake them
 
 This means all the hard work you put into learning, growing, and contributing has proof that lasts.
 
@@ -89,4 +89,4 @@ This means all the hard work you put into learning, growing, and contributing ha
 
 You don't need to understand the technical details to use attestations. Your Sarreya coordinators and program leaders can help you receive attestations when you complete training or achieve milestones. As you continue your journey, you'll build a collection of verified proof records that represent everything you've accomplished.
 
-Every attestation is a testament to your growth. It's proof that you're learning, leading, and making an impact—one record at a time.
+Every attestation is a testament to your growth. It's proof that you're learning, leading, and making an impact, one record at a time.
