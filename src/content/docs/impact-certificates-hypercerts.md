@@ -29,7 +29,7 @@ stage: build
 
 # Impact Certificates & Hypercerts
 
-*How Web3 pays for positive impact — after the work is done*
+*How Web3 pays for positive impact, after the work is done*
 
 ---
 
@@ -50,12 +50,12 @@ Traditional funding works like this:
 Hypercerts are digital tokens that prove impact. Created by the Hypercerts Foundation, they're like credentials saying: "This group did this work, here, during this time."
 
 Every hypercert captures:
-- **Who** — Contributors
-- **What** — Scope of work
-- **When** — Timeframe
-- **Where** — Location
+- **Who**, Contributors
+- **What**, Scope of work
+- **When**, Timeframe
+- **Where**, Location
 
-They're stored on a public blockchain — permanent, transparent, verifiable by anyone.
+They're stored on a public blockchain, permanent, transparent, verifiable by anyone.
 
 ---
 
@@ -65,34 +65,34 @@ They're stored on a public blockchain — permanent, transparent, verifiable by 
 **After:** See results → decide to pay
 
 **Benefits:**
-1. Less risk — funders see proof first
-2. Better incentives — creators rewarded for actual results
-3. Learn from failure — data improves future decisions
-4. Attract talent — good work gets paid
+1. Less risk, funders see proof first
+2. Better incentives, creators rewarded for actual results
+3. Learn from failure, data improves future decisions
+4. Attract talent, good work gets paid
 
-**Example:** In 2022, ProjectTogether coordinated Ukraine refugee relief. Funders paid *after* seeing the work — resources flowed based on demonstrated need, not promises.
+**Example:** In 2022, ProjectTogether coordinated Ukraine refugee relief. Funders paid *after* seeing the work, resources flowed based on demonstrated need, not promises.
 
 ---
 
 ## Three Roles in the System
 
-**Creators** — Document work by creating hypercerts. Sell:
-- *Prospectively* (before work) — raise upfront capital
-- *Retrospectively* (after impact) — claim funding for completed work
+**Creators**, Document work by creating hypercerts. Sell:
+- *Prospectively* (before work), raise upfront capital
+- *Retrospectively* (after impact), claim funding for completed work
 
-**Funders** — Buy hypercerts to support projects. Some want to see proof first. Others fund early.
+**Funders**, Buy hypercerts to support projects. Some want to see proof first. Others fund early.
 
-**Evaluators** — Third parties who assess impact claims. Build reputation. Like rating agencies.
+**Evaluators**, Third parties who assess impact claims. Build reputation. Like rating agencies.
 
 ---
 
 ## How It Works (Simple)
 
 - Hypercerts are NFTs (ERC-1155 standard)
-- Live on Ethereum — permanent, immutable
-- **Split & merge:** A project doing carbon work AND community health can split their cert — funders choose exactly what to support
+- Live on Ethereum, permanent, immutable
+- **Split & merge:** A project doing carbon work AND community health can split their cert, funders choose exactly what to support
 
-Built on the **AT Protocol** — decentralized, community-owned.
+Built on the **AT Protocol**, decentralized, community-owned.
 
 ---
 
@@ -100,9 +100,9 @@ Built on the **AT Protocol** — decentralized, community-owned.
 
 Hypercerts work with other regenerative finance tools:
 
-- **Quadratic Funding** — Gitcoin Grants uses this
-- **Retroactive Funding** — Protocol Labs, Gitcoin
-- **MRV Tools** — Measurement, reporting, verification for credible claims
+- **Quadratic Funding**, Gitcoin Grants uses this
+- **Retroactive Funding**, Protocol Labs, Gitcoin
+- **MRV Tools**, Measurement, reporting, verification for credible claims
 
 ---
 
@@ -121,10 +121,10 @@ Hypercerts shift the mindset:
 
 ## Action Items
 
-1. **Visit hypercerts.org** — Explore the official site
-2. **Try it** — If you're a creator, document a project as a hypercert
-3. **Fund retrospectively** — Look for projects with completed work to support
-4. **Connect with Gitcoin** — They're integrating retroactive funding
+1. **Visit hypercerts.org**, Explore the official site
+2. **Try it**, If you're a creator, document a project as a hypercert
+3. **Fund retrospectively**, Look for projects with completed work to support
+4. **Connect with Gitcoin**, They're integrating retroactive funding
 
 ---
 

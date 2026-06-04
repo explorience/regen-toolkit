@@ -1,139 +1,46 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { journeyList } from './src/data/journeys.js';
+
+// Build the sidebar from the journey definitions. Use `link` (not `slug`) so the
+// build never breaks on an article that's still being generated; the link simply
+// resolves once the file lands.
+const journeySidebar = journeyList.map((j) => ({
+  label: `${j.emoji} ${j.label}`,
+  collapsed: j.id !== 'newcomer',
+  items: j.chapters.map((c) => ({
+    label: c.label,
+    items: c.steps.map(([slug, title]) => ({ label: title, link: `/${slug}/` })),
+  })),
+}));
 
 export default defineConfig({
+  site: 'https://regen-toolkit-site.vercel.app',
   integrations: [
     starlight({
-      title: 'Regen Toolkit',
-      description: 'Web3 tools and knowledge for regenerative communities',
+      title: 'Regen Web3 Toolkit',
+      description: 'A jargon-free field guide to using web3 for regeneration.',
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/explorience/regen-toolkit' },
       ],
-      sidebar: [
+      customCss: ['./src/styles/starlight.css'],
+      head: [
+        { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
+        { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true } },
         {
-          label: 'Why Web3?',
-          items: [
-            { slug: 'why-regens-interested' },
-            { slug: 'what-web3-can-cant-do' },
-            { slug: 'common-concerns' },
-            { slug: 'what-is-refi' },
-          ],
-        },
-        {
-          label: 'Blockchain Basics',
-          items: [
-            { slug: 'what-is-blockchain' },
-            { slug: 'what-is-cryptocurrency' },
-            { slug: 'how-to-get-crypto' },
-            { slug: 'stablecoins' },
-            { slug: 'centralized-vs-decentralized' },
-            { slug: 'decentralization-spectrum' },
-            { slug: 'trust-transparency' },
-            { slug: 'cooperative-commons' },
-            { slug: 'decentralization-resilience' },
-            { slug: 'other-chains' },
-            { slug: 'layer-2s' },
-          ],
-        },
-        {
-          label: 'Ethereum & Smart Contracts',
-          items: [
-            { slug: 'what-is-ethereum' },
-            { slug: 'ethereum-ecosystem' },
-            { slug: 'smart-contracts-explained' },
-            { slug: 'which-chain-right' },
-          ],
-        },
-        {
-          label: 'Wallets & Security',
-          items: [
-            { slug: 'what-is-wallet' },
-            { slug: 'setting-up-first-wallet' },
-            { slug: 'custodial-vs-noncustodial' },
-            { slug: 'hot-vs-cold' },
-            { slug: 'seed-phrases' },
-            { slug: 'common-scams' },
-            { slug: 'security-best-practices-orgs' },
-            { slug: 'recovery-planning' },
-            { slug: 'operational-security' },
-            { slug: 'wallet-comparison-guide' },
-          ],
-        },
-        {
-          label: 'Tokens & Digital Assets',
-          items: [
-            { slug: 'what-are-tokens' },
-            { slug: 'token-standards' },
-            { slug: 'tokens-coordination-tools' },
-            { slug: 'nfts-beyond-art' },
-            { slug: 'why-accept-crypto' },
-          ],
-        },
-        {
-          label: 'DAOs & Governance',
-          items: [
-            { slug: 'what-is-dao' },
-            { slug: 'is-dao-right' },
-            { slug: 'dao-governance-models' },
-            { slug: 'daos-vs-traditional' },
-            { slug: 'voting-mechanisms' },
-            { slug: 'dao-tooling' },
-            { slug: 'examples-impact-daos' },
-            { slug: 'legal-structures' },
-            { slug: 'multisig-setup' },
-          ],
-        },
-        {
-          label: 'Local Nodes',
-          items: [
-            { slug: 'is-community-ready' },
-            { slug: 'minimum-viable-node' },
-            { slug: 'building-trust' },
-            { slug: 'onboarding-members' },
-            { slug: 'funding-your-node' },
-            { slug: 'common-pitfalls' },
-            { slug: 'local-currency' },
-          ],
-        },
-        {
-          label: 'Community Building',
-          items: [
-            { slug: 'inclusive-practices' },
-            { slug: 'leadership-development' },
-            { slug: 'conflict-resolution' },
-            { slug: 'documentation-knowledge' },
-            { slug: 'building-momentum' },
-          ],
-        },
-        {
-          label: 'Gatherings & Events',
-          items: [
-            { slug: 'types-of-gatherings' },
-            { slug: 'gatherings-pattern' },
-            { slug: 'planning-web3-events' },
-            { slug: 'funding-gatherings' },
-          ],
-        },
-        {
-          label: 'Impact & Measurement',
-          items: [
-            { slug: 'why-measurement-matters' },
-            { slug: 'dmrv' },
-            { slug: 'onchain-attestations' },
-            { slug: 'identity-verification' },
-            { slug: 'credentials-certifications' },
-            { slug: 'silvi-protocol' },
-          ],
-        },
-        {
-          label: 'Reference',
-          items: [
-            { slug: 'key-terms-a-z' },
-            { slug: 'what-you-can-do-ethereum' },
-          ],
+          tag: 'link',
+          attrs: {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,640&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Hanken+Grotesk:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500;600&display=swap',
+          },
         },
       ],
-      customCss: ['./src/styles/custom.css'],
+      sidebar: [
+        { label: 'Start here', items: [{ label: 'All journeys', link: '/' }, { label: 'Knowledge map', link: '/explorer/' }] },
+        ...journeySidebar,
+      ],
+      pagination: true,
+      lastUpdated: false,
     }),
   ],
 });

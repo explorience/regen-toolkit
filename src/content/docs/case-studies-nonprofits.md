@@ -29,7 +29,7 @@ stage: build
 
 # Case Studies: How Nonprofits Are Using Web3
 
-When the Russia-Ukraine war began in February 2022, banks froze. International wires stalled. But crypto kept moving. In just the first week, the Ukrainian government raised over $50 million in bitcoin and other digital assets [Source: cryptoaltruism.org]. NGOs like Save the Children and the International Rescue Committee received funds within hours—long before traditional transfers cleared.
+When the Russia-Ukraine war began in February 2022, banks froze. International wires stalled. But crypto kept moving. In just the first week, the Ukrainian government raised over $50 million in bitcoin and other digital assets [Source: cryptoaltruism.org]. NGOs like Save the Children and the International Rescue Committee received funds within hours, long before traditional transfers cleared.
 
 That moment showed the world something important: web3 tools aren't just for traders. They're becoming real infrastructure for nonprofits doing life-changing work.
 
@@ -39,9 +39,9 @@ If you run a community garden, a neighborhood nonprofit, or a local charity, you
 
 Here's the answer: yes. Here's why it's worth paying attention:
 
-**Crypto donations are growing fast.** More than $1 billion in crypto was donated to nonprofits in 2024—a 386% increase from the year before [Source: The Giving Block]. Even more striking? About 70% of Forbes' Top 100 US charities now accept crypto, up from just 12% in 2020 [Source: cryptoaltruism.org]. The big organizations noticed the shift. Now it's reaching smaller groups too.
+**Crypto donations are growing fast.** More than $1 billion in crypto was donated to nonprofits in 2024, a 386% increase from the year before [Source: The Giving Block]. Even more striking? About 70% of Forbes' Top 100 US charities now accept crypto, up from just 12% in 2020 [Source: cryptoaltruism.org]. The big organizations noticed the shift. Now it's reaching smaller groups too.
 
-**It's not just about big crises.** Beyond emergency response, nonprofits are using crypto for everyday operations. Stablecoins are cryptocurrencies tied to the US dollar—they don't swing in value like bitcoin, making them practical for organizations that need predictable budgets. The tools work for small teams, not just large NGOs with dedicated finance staff.
+**It's not just about big crises.** Beyond emergency response, nonprofits are using crypto for everyday operations. Stablecoins are cryptocurrencies tied to the US dollar, they don't swing in value like bitcoin, making them practical for organizations that need predictable budgets. The tools work for small teams, not just large NGOs with dedicated finance staff.
 
 ## Real Examples
 
@@ -70,9 +70,9 @@ It's not just the big players. Nonprofits focused on climate, education, and com
 
 You don't need to become a crypto expert to benefit. Here's the simple version:
 
-1. **Accept crypto donations** – Platforms like The Giving Block make this as easy as adding a donate button
-2. **Usecoins for stable cross-border payments** – If you work with partners internationally, stablecoins can reduce fees and delays
-3. **Build transparency into your reporting** – Blockchain records can show donors exactly where funds go
+1. **Accept crypto donations**, Platforms like The Giving Block make this as easy as adding a donate button
+2. **Usecoins for stable cross-border payments**, If you work with partners internationally, stablecoins can reduce fees and delays
+3. **Build transparency into your reporting**, Blockchain records can show donors exactly where funds go
 
 ## The Bottom Line
 
@@ -80,15 +80,15 @@ Web3 isn't just a buzzword for techies anymore. It's becoming practical infrastr
 
 Tammy Tibbetts, CEO of She's the First, put it this way: "In the most challenging fiscal year of my career as a nonprofit CEO, I realized I had to take crypto seriously. If I didn't, the ship was going to sail without us" [Source: The Giving Block].
 
-You don't have to jump in headfirst. But watching how other nonprofits are using these tools—and thinking about whether they could help your mission—is worth your time.
+You don't have to jump in headfirst. But watching how other nonprofits are using these tools, and thinking about whether they could help your mission, is worth your time.
 
 ---
 
 ## Try This
 
-1. **Visit The Giving Block's nonprofit finder** – See which organizations in your cause area accept crypto
-2. **Talk to one other nonprofit** – Share what you learned about crypto donations
-3. **Check your donation platform** – Does your current tool support crypto? If not, what would it take to switch?
+1. **Visit The Giving Block's nonprofit finder**, See which organizations in your cause area accept crypto
+2. **Talk to one other nonprofit**, Share what you learned about crypto donations
+3. **Check your donation platform**, Does your current tool support crypto? If not, what would it take to switch?
 
 ---
 

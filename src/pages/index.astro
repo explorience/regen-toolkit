@@ -1,0 +1,323 @@
+---
+import Page from "../layouts/Page.astro";
+import JourneyMark from "../components/JourneyMark.astro";
+import { journeyList, journeyStats } from "../data/journeys.js";
+const totalStops = journeyList.reduce((n, j) => n + journeyStats(j).count, 0);
+const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowledge-commons": "var(--teal)" };
+---
+
+<Page>
+  <!-- ============================== HERO ============================== -->
+  <section class="hero">
+    <div class="hero__rings" aria-hidden="true"></div>
+    <div class="wrap hero__inner">
+      <p class="eyebrow reveal" data-d="1">The regenerative web3 field guide</p>
+      <h1 class="hero__title reveal" data-d="2">
+        Find your way into<br /><span class="hero__em">regenerative web3</span>.
+      </h1>
+      <p class="hero__lede reveal" data-d="3">
+        A curated, jargon-free guide for people using web3 to do real-world good. Pick a path,
+        follow it stop by stop, and come out the other side actually knowing what you're doing.
+      </p>
+      <div class="hero__cta reveal" data-d="4">
+        <a class="btn btn--primary" href="/start/newcomer/">I'm new to this <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href="#journeys">See the journeys</a>
+      </div>
+      <div class="hero__stats reveal" data-d="5">
+        <span><strong>{journeyList.length}</strong> guided journeys</span>
+        <span class="hero__dot" aria-hidden="true"></span>
+        <span><strong>{totalStops}</strong> hand-checked articles</span>
+        <span class="hero__dot" aria-hidden="true"></span>
+        <span>built in the open</span>
+      </div>
+    </div>
+    <svg class="hero__sprout" viewBox="0 0 120 140" fill="none" aria-hidden="true">
+      <path d="M60 138V60" stroke="var(--moss)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M60 92C60 70 44 58 26 58c0 22 16 34 34 34Z" fill="var(--moss-soft)"/>
+      <path d="M60 78c0-20 16-31 33-31 0 20-15 31-33 31Z" fill="var(--moss)"/>
+      <circle cx="60" cy="40" r="11" fill="var(--growth)"/>
+    </svg>
+  </section>
+
+  <!-- ============================ JOURNEYS ============================ -->
+  <section class="journeys" id="journeys">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">Choose your path</p>
+        <h2 class="sec-title">Three journeys, depending on where you're starting.</h2>
+      </header>
+      <div class="plates">
+        {journeyList.map((j, i) => {
+          const s = journeyStats(j);
+          return (
+            <a class="plate reveal" data-d={i + 1} href={j.href} style={`--jc:${accents[j.id]}`}>
+              <span class="plate__rule" aria-hidden="true"></span>
+              <div class="plate__head">
+                <span class="plate__num">{String(i + 1).padStart(2, "0")}</span>
+                <span class="plate__mark"><JourneyMark journey={j.id} size={50} /></span>
+              </div>
+              <h3 class="plate__title">{j.label}{j.badge && <em class="plate__badge">{j.badge}</em>}</h3>
+              <p class="plate__tag">{j.tagline}</p>
+              <ol class="plate__toc">
+                {j.chapters.map((c) => (
+                  <li>
+                    <span class="plate__toc-nm">{c.label}</span>
+                    <span class="plate__leader" aria-hidden="true"></span>
+                    <span class="plate__toc-n">{c.steps.length}</span>
+                  </li>
+                ))}
+              </ol>
+              <div class="plate__foot">
+                <span class="plate__meta">{s.count} stops &middot; ~{s.minutes} min</span>
+                <span class="plate__go">Start <span class="arrow">→</span></span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= KNOWLEDGE MAP ========================= -->
+  <section class="kmap">
+    <div class="wrap kmap__inner">
+      <div>
+        <p class="eyebrow">See how it connects</p>
+        <h2 class="kmap__title">Or wander the whole map.</h2>
+        <p class="kmap__sub">Every article is a node in one living knowledge graph. Explore by topic, follow the threads, and find your own path through.</p>
+      </div>
+      <a class="btn btn--ghost kmap__btn" href="/explorer/">Open the knowledge map <span class="arrow">→</span></a>
+    </div>
+  </section>
+
+  <!-- =========================== MANIFESTO =========================== -->
+  <section class="manifesto">
+    <div class="wrap manifesto__grid">
+      <div class="manifesto__lead">
+        <p class="eyebrow">Why this exists</p>
+        <h2 class="sec-title">Most web3 resources are written for people who already get it.</h2>
+        <p>This one isn't. It's built for the curious, the cautious, and the busy, people doing real
+          regenerative work who don't have months to piece it together from Discord calls and dead links.</p>
+      </div>
+      <ul class="manifesto__points">
+        <li>
+          <span class="manifesto__ic" aria-hidden="true">✶</span>
+          <div><strong>No jargon left undefined.</strong> Every term is explained in plain language the first time it appears.</div>
+        </li>
+        <li>
+          <span class="manifesto__ic" aria-hidden="true">◐</span>
+          <div><strong>Honest, not hyped.</strong> We say what web3 can't do as clearly as what it can.</div>
+        </li>
+        <li>
+          <span class="manifesto__ic" aria-hidden="true">❧</span>
+          <div><strong>Curated, not recreated.</strong> We connect the best of what already exists and fill the real gaps.</div>
+        </li>
+        <li>
+          <span class="manifesto__ic" aria-hidden="true">✓</span>
+          <div><strong>Fact-checked, every claim.</strong> Sourced, verified, and reviewed, no confident nonsense.</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================= PERSONAS =========================== -->
+  <section class="who">
+    <div class="wrap">
+      <header class="sec-head sec-head--center">
+        <p class="eyebrow">Who it's for</p>
+        <h2 class="sec-title">Three ways people arrive here.</h2>
+      </header>
+      <div class="who__grid">
+        <div class="who__card">
+          <span class="who__ic" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 21v-9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12 14c-3.5 0-6-2.2-6-5.5C9.6 8.5 12 10.4 12 14Z" fill="currentColor"/><path d="M12 12c0-3.4 2.6-5.6 6-5.6 0 3.4-2.6 5.6-6 5.6Z" fill="currentColor" opacity=".6"/></svg>
+          </span>
+          <h3>New to all of this</h3>
+          <p>You do real-world good, community work, nonprofits, growing things, and web3 sounds like a wall of jargon. Start at the very beginning, nothing assumed.</p>
+        </div>
+        <div class="who__card">
+          <span class="who__ic" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="7" cy="8" r="2.4" fill="currentColor"/><circle cx="17" cy="8" r="2.4" fill="currentColor"/><circle cx="12" cy="17" r="2.4" fill="currentColor"/><path d="M8.4 9.6 11 15M15.6 9.6 13 15M9 8h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Starting something local</h3>
+          <p>You're ready to grow a place-based group, a chapter, a hub, a local node, and want patterns that genuinely work, with the pitfalls marked.</p>
+        </div>
+        <div class="who__card">
+          <span class="who__ic" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="6.4" stroke="currentColor" stroke-width="1.7"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M11 8.5v5M8.5 11h5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Already in crypto, want to do good</h3>
+          <p>You know your way around wallets and chains, and you want to point that at something that matters, without falling for greenwashing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= PARTNERS ========================== -->
+  <section class="partners">
+    <div class="wrap partners__inner">
+      <p class="eyebrow partners__eye">Brought together by the regen community</p>
+      <h2 class="partners__title">Built and stewarded in the open, with the people already doing this work.</h2>
+      <div class="partners__row">
+        <a class="partner" href="https://greenpill.network" target="_blank" rel="noopener">
+          <img class="partner__logo" src="/logos/greenpill.svg" alt="Greenpill Network" width="40" height="40" loading="lazy" />
+          <span class="partner__name">Greenpill&nbsp;Network</span>
+        </a>
+        <a class="partner" href="https://www.refidao.com" target="_blank" rel="noopener">
+          <img class="partner__logo" src="/logos/refidao.svg" alt="ReFi DAO" width="40" height="40" loading="lazy" />
+          <span class="partner__name">ReFi&nbsp;DAO</span>
+        </a>
+        <a class="partner" href="https://www.superbenefit.org" target="_blank" rel="noopener">
+          <img class="partner__logo" src="/logos/superbenefit.png" alt="SuperBenefit" width="40" height="40" loading="lazy" />
+          <span class="partner__name">SuperBenefit</span>
+        </a>
+        <a class="partner" href="https://communitysustainability.ca" target="_blank" rel="noopener">
+          <img class="partner__logo" src="/logos/ics.png" alt="Institute for Community Sustainability" width="40" height="40" loading="lazy" />
+          <span class="partner__name">Inst. for Community&nbsp;Sustainability</span>
+        </a>
+        <a class="partner" href="https://regencommons.com" target="_blank" rel="noopener">
+          <span class="partner__logo partner__logo--glyph" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 21v-8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12 14c-3.4 0-6-2.2-6-5.4C9.6 8.6 12 10.5 12 14Z" fill="currentColor"/><path d="M12 12c0-3.3 2.6-5.5 6-5.5 0 3.3-2.6 5.5-6 5.5Z" fill="currentColor" opacity=".6"/></svg>
+          </span>
+          <span class="partner__name">Regen&nbsp;Commons</span>
+        </a>
+      </div>
+      <p class="partners__note">A curated, open-source commons, not another walled garden. <a href="https://github.com/explorience/regen-toolkit" target="_blank" rel="noopener">Contribute on GitHub →</a></p>
+    </div>
+  </section>
+
+  <!-- ============================== CLOSER =========================== -->
+  <section class="closer">
+    <div class="wrap closer__inner">
+      <h2 class="closer__title">Ready to find your footing?</h2>
+      <p class="closer__sub">Start where you are. You can always switch paths.</p>
+      <div class="hero__cta">
+        <a class="btn btn--spark" href="/start/newcomer/">Start the newcomer journey <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href="https://github.com/explorience/regen-toolkit">Help build it</a>
+      </div>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .sec-title { font-size: clamp(1.7rem, 3.4vw, 2.6rem); max-width: 20ch; line-height: 1.08; }
+  .sec-head { margin-bottom: clamp(26px, 4vw, 44px); }
+  .sec-head .eyebrow { margin-bottom: .7em; }
+  .sec-head--center { text-align: center; }
+  .sec-head--center .sec-title { margin-inline: auto; }
+
+  /* hero */
+  .hero { position: relative; overflow: hidden; padding-block: clamp(56px, 11vw, 132px) clamp(40px, 7vw, 90px); }
+  .hero__inner { position: relative; z-index: 2; max-width: 940px; }
+  .hero__title { font-size: clamp(2.6rem, 6.6vw, 5.2rem); font-weight: 600; letter-spacing: -.025em; margin: .18em 0 0; }
+  .hero__em { color: var(--moss); position: relative; }
+  .hero__em::after { content: ""; position: absolute; left: -2px; right: -2px; bottom: .07em; height: .12em; background: var(--growth); opacity: .55; border-radius: 4px; z-index: -1; }
+  .hero__lede { font-size: clamp(1.1rem, 1.7vw, 1.32rem); color: var(--ink-soft); max-width: 56ch; margin-top: 1.1em; }
+  .hero__cta { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 2em; }
+  .hero__stats { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 2.2em; font-family: var(--font-mono); font-size: .82rem; color: var(--ink-faint); }
+  .hero__stats strong { color: var(--moss); font-weight: 600; }
+  .hero__dot { width: 5px; height: 5px; border-radius: 50%; background: var(--line-strong); }
+  .hero__rings { position: absolute; right: -260px; top: -180px; width: 720px; height: 720px; z-index: 0;
+    background: repeating-radial-gradient(circle at center, transparent 0 38px, color-mix(in oklab, var(--moss) 8%, transparent) 38px 40px);
+    mask: radial-gradient(circle at center, #000 55%, transparent 70%); animation: float-slow 16s ease-in-out infinite; }
+  .hero__sprout { position: absolute; right: clamp(8px, 7vw, 120px); bottom: -6px; width: clamp(80px, 11vw, 150px); z-index: 1; transform-origin: bottom center; animation: sway 7s ease-in-out infinite; }
+  @media (max-width: 720px) { .hero__sprout { display: none; } }
+
+  /* journeys, field-guide index plates */
+  .journeys { padding-block: clamp(40px, 7vw, 88px); }
+  .plates { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: color-mix(in oklab, var(--paper-2) 45%, transparent); }
+  .plate { position: relative; display: flex; flex-direction: column; padding: 32px 28px 22px; border-left: 1px solid var(--line); color: var(--ink); transition: background .35s var(--ease); }
+  .plate:first-child { border-left: none; }
+  .plate__rule { position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--jc); opacity: .5; transition: opacity .35s, height .35s; }
+  .plate:hover { background: color-mix(in oklab, var(--jc) 7%, transparent); }
+  .plate:hover .plate__rule { opacity: 1; height: 3px; }
+
+  .plate__head { display: flex; align-items: flex-start; justify-content: space-between; }
+  .plate__num { font-family: var(--font-display); font-weight: 500; font-size: 2.7rem; line-height: .85; color: var(--jc); letter-spacing: -.02em; }
+  .plate__mark { color: var(--jc); }
+  .plate__mark :global(.jmark) { display: block; }
+  .plate:hover .plate__mark :global(.jmark) { animation: sway 6s ease-in-out infinite; transform-origin: bottom center; }
+
+  .plate__title { font-family: var(--font-display); font-weight: 560; font-size: 1.55rem; line-height: 1.08; margin-top: .7em; }
+  .plate__badge { font-style: normal; font-family: var(--font-mono); font-size: .56rem; letter-spacing: .16em; text-transform: uppercase; color: var(--jc); border: 1px solid color-mix(in oklab, var(--jc) 45%, transparent); border-radius: 3px; padding: .25em .5em; vertical-align: middle; margin-left: .55em; position: relative; top: -.2em; }
+  .plate__tag { color: var(--ink-soft); margin-top: .4em; font-size: .98rem; }
+
+  .plate__toc { list-style: none; margin: 20px 0 0; padding: 0; flex: 1; }
+  .plate__toc li { display: flex; align-items: baseline; padding: 8px 0; border-top: 1px solid color-mix(in oklab, var(--line) 70%, transparent); }
+  .plate__toc li:first-child { border-top: none; }
+  .plate__toc-nm { font-family: var(--font-ui); font-size: .92rem; color: var(--ink-soft); white-space: nowrap; }
+  .plate:hover .plate__toc-nm { color: var(--ink); }
+  .plate__leader { flex: 1; border-bottom: 1px dotted var(--line-strong); margin: 0 9px; transform: translateY(-4px); min-width: 12px; }
+  .plate__toc-n { font-family: var(--font-mono); font-size: .76rem; color: var(--jc); }
+
+  .plate__foot { display: flex; justify-content: space-between; align-items: baseline; margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line-strong); }
+  .plate__meta { font-family: var(--font-mono); font-size: .72rem; color: var(--ink-faint); }
+  .plate__go { font-family: var(--font-ui); font-weight: 600; color: var(--jc); }
+  .plate:hover .plate__go .arrow { transform: translateX(4px); }
+
+  @media (max-width: 880px) { .plates { grid-template-columns: 1fr; } .plate { border-left: none; border-top: 1px solid var(--line); } .plate:first-child { border-top: none; } }
+
+  /* manifesto, always a dark moss band with fixed light text (theme-independent) */
+  .manifesto { --mf: #F3EDDF; background: #16291b; color: var(--mf); padding-block: clamp(48px, 8vw, 96px); position: relative; border-block: 1px solid #20371f; }
+  :root[data-theme="dark"] .manifesto { background: #122017; }
+  .manifesto .eyebrow { color: var(--growth); }
+  .manifesto__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(30px, 6vw, 72px); align-items: start; }
+  .manifesto__lead .sec-title { color: var(--mf); }
+  .manifesto__lead p { color: color-mix(in oklab, var(--mf) 82%, transparent); margin-top: 1em; max-width: 44ch; font-size: 1.08rem; }
+  .manifesto__points { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .manifesto__points li { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; padding: 18px 0; border-top: 1px solid color-mix(in oklab, var(--mf) 18%, transparent); }
+  .manifesto__points li:first-child { border-top: none; }
+  .manifesto__points div { color: color-mix(in oklab, var(--mf) 84%, transparent); }
+  .manifesto__points strong { color: var(--mf); font-family: var(--font-display); font-weight: 560; font-size: 1.1rem; display: block; margin-bottom: .15em; }
+  .manifesto__ic { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in oklab, var(--growth) 22%, #16291b); color: var(--growth); font-size: 1.1rem; flex: none; }
+  @media (max-width: 820px) { .manifesto__grid { grid-template-columns: 1fr; } }
+
+  /* who */
+  .who { padding-block: clamp(48px, 8vw, 96px); }
+  .who__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .who__card { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 30px 28px; transition: transform .3s var(--ease), border-color .3s; }
+  .who__card:hover { transform: translateY(-4px); border-color: var(--line-strong); }
+  .who__ic { width: 46px; height: 46px; border-radius: 13px; display: grid; place-items: center; color: var(--moss); background: color-mix(in oklab, var(--moss) 14%, transparent); border: 1px solid color-mix(in oklab, var(--moss) 24%, transparent); }
+  :root[data-theme="dark"] .who__ic { color: var(--growth); }
+  .who__card h3 { font-size: 1.3rem; margin: .6em 0 .35em; }
+  .who__card p { color: var(--ink-soft); font-size: .98rem; }
+  @media (max-width: 820px) { .who__grid { grid-template-columns: 1fr; } }
+
+  /* knowledge map callout */
+  .kmap { padding-block: clamp(34px, 5vw, 60px); }
+  .kmap__inner { display: flex; align-items: center; justify-content: space-between; gap: 28px;
+    background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius-lg);
+    padding: clamp(26px, 4vw, 42px); position: relative; overflow: hidden; }
+  .kmap__inner::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background:
+      radial-gradient(circle at 82% 30%, color-mix(in oklab, var(--teal) 30%, transparent) 0 4px, transparent 5px),
+      radial-gradient(circle at 90% 64%, color-mix(in oklab, var(--moss) 30%, transparent) 0 5px, transparent 6px),
+      radial-gradient(circle at 72% 78%, color-mix(in oklab, var(--clay) 26%, transparent) 0 3px, transparent 4px),
+      radial-gradient(circle at 95% 20%, color-mix(in oklab, var(--growth) 34%, transparent) 0 3px, transparent 4px); }
+  .kmap__title { font-size: clamp(1.5rem, 3vw, 2.2rem); margin-top: .3em; }
+  .kmap__sub { color: var(--ink-soft); margin-top: .5em; max-width: 48ch; }
+  .kmap__btn { flex: none; }
+  @media (max-width: 720px) { .kmap__inner { flex-direction: column; align-items: flex-start; } }
+
+  /* partners / credit */
+  .partners { padding-block: clamp(44px, 7vw, 84px); text-align: center; border-top: 1px solid var(--line); }
+  .partners__inner { max-width: 760px; margin-inline: auto; }
+  .partners__eye { color: var(--clay); }
+  .partners__title { font-size: clamp(1.5rem, 3vw, 2.1rem); margin: .55em auto 0; max-width: 22ch; }
+  .partners__row { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px clamp(20px, 3vw, 40px); margin-top: 1.8em; }
+  .partner { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); transition: color .2s; }
+  .partner__logo { width: 40px; height: 40px; border-radius: 10px; object-fit: contain; background: #fff; padding: 4px; box-shadow: var(--shadow-sm); flex: none; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
+  .partner__logo--glyph { display: grid; place-items: center; padding: 0; color: var(--moss); background: color-mix(in oklab, var(--moss) 15%, #fff); }
+  .partner__name { font-family: var(--font-display); font-weight: 560; font-size: clamp(1.02rem, 1.7vw, 1.28rem); letter-spacing: -.01em; }
+  .partner:hover { color: var(--moss); }
+  .partner:hover .partner__logo { transform: translateY(-3px); box-shadow: var(--shadow); }
+  .partners__note { margin-top: 2em; color: var(--ink-soft); font-size: .98rem; }
+  .partners__note a { color: var(--moss); text-decoration: underline; text-underline-offset: 3px; }
+
+  /* closer */
+  .closer { padding-block: clamp(48px, 8vw, 100px); text-align: center; }
+  .closer__inner { max-width: 640px; margin-inline: auto; }
+  .closer__title { font-size: clamp(2rem, 4.5vw, 3.2rem); }
+  .closer__sub { color: var(--ink-soft); margin-top: .6em; font-size: 1.1rem; }
+  .closer .hero__cta { justify-content: center; margin-top: 1.8em; }
+</style>

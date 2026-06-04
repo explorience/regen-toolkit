@@ -37,7 +37,7 @@ stage: build
 
 Tokens and NFTs give regenerative communities new ways to value and reward ecological work. You can create them, buy them, or earn them through participation.
 
-Just like permaculture—observe before acting, start small, grow gradually.
+Just like permaculture, observe before acting, start small, grow gradually.
 
 ---
 
@@ -50,7 +50,7 @@ Minting = creating a new token or NFT on the blockchain. It's like planting a se
 1. **Create an account** on OpenSea or Blur
 2. **Connect your crypto wallet**
 3. **Upload your content** (art, music, teaching materials)
-4. **Add details** — name, description, properties
+4. **Add details**, name, description, properties
 5. **Confirm** the transaction in your wallet
 
 Done. Your creation now exists on the blockchain.
@@ -86,7 +86,7 @@ ERC-20 tokens (like community currencies) can be created by anyone on Ethereum. 
 
 ### Where to Buy NFTs
 
-OpenSea, Blur, Foundation, Rarible — browse, connect wallet, buy. NFT transfers to your wallet.
+OpenSea, Blur, Foundation, Rarible, browse, connect wallet, buy. NFT transfers to your wallet.
 
 ---
 
@@ -101,7 +101,7 @@ Lock tokens to support a network and earn interest (3-16% annually on Ethereum).
 **Three ways:**
 - **Solo staking:** Run your own node (needs 32 ETH)
 - **Staking pools:** Join others (any amount)
-- **Liquid staking:** Get a token (like rETH) representing your staked position — holds value while earning
+- **Liquid staking:** Get a token (like rETH) representing your staked position, holds value while earning
 
 ### DeFi Lending
 
@@ -121,7 +121,7 @@ Complete educational modules, earn NFTs. Bankless Academy gives collectible badg
 
 ### Token Allowances
 
-When using dApps, you grant permission for smart contracts to access your tokens. **Limit allowances** to your immediate trade size — not your full balance.
+When using dApps, you grant permission for smart contracts to access your tokens. **Limit allowances** to your immediate trade size, not your full balance.
 
 ### Seed Phrase
 
@@ -137,11 +137,11 @@ Begin with small amounts on Layer 2. Treat early web3 transactions as learning e
 
 What can you do with this?
 
-- **Tokenize your knowledge** — create NFTs from teaching materials
-- **Build community currencies** — reward ecological stewardship
-- **Trade carbon credits** — platforms like Carbonmark
-- **Earn while you learn** — complete web3 education, earn NFTs
-- **Support the network** — stake ETH to help secure decentralized infrastructure
+- **Tokenize your knowledge**, create NFTs from teaching materials
+- **Build community currencies**, reward ecological stewardship
+- **Trade carbon credits**, platforms like Carbonmark
+- **Earn while you learn**, complete web3 education, earn NFTs
+- **Support the network**, stake ETH to help secure decentralized infrastructure
 
 ---
 

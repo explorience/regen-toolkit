@@ -43,7 +43,7 @@ One of the first decisions you will face in crypto is this: who should hold the 
 
 ## What Is a Custodial Wallet?
 
-When you use a custodial wallet, a third party — typically a cryptocurrency exchange — holds and manages your private keys on your behalf. This is similar to how a traditional bank holds your money. You can deposit and withdraw, but you do not directly control the assets. The custodian handles security, signs transactions on your behalf, and provides account recovery options.
+When you use a custodial wallet, a third party, typically a cryptocurrency exchange, holds and manages your private keys on your behalf. This is similar to how a traditional bank holds your money. You can deposit and withdraw, but you do not directly control the assets. The custodian handles security, signs transactions on your behalf, and provides account recovery options.
 
 Common examples include Coinbase, Binance, and Kraken.
 
@@ -53,7 +53,7 @@ When you create an account on an exchange, you are not creating a wallet in the 
 
 ## What Is a Non-Custodial Wallet?
 
-With a non-custodial wallet, you hold your private keys directly. No intermediary controls your funds. The wallet software generates your private key — or more commonly, a **seed phrase** — on your device, and only you can authorize transactions.
+With a non-custodial wallet, you hold your private keys directly. No intermediary controls your funds. The wallet software generates your private key, or more commonly, a **seed phrase**, on your device, and only you can authorize transactions.
 
 MetaMask, Trust Wallet, and Rainbow are well-known non-custodial wallets. Hardware wallets like Ledger and Trezor offer an additional layer of security by storing your keys offline.
 
@@ -138,10 +138,10 @@ There is no single correct answer. It depends on your situation.
 ## Try This
 
 **Exercise 1: Test Both Approaches**
-Create a custodial account on an exchange with a small amount — money you can afford to lose. Also install MetaMask on your phone and back up your seed phrase properly. Compare the experience. Which one felt more natural to you?
+Create a custodial account on an exchange with a small amount, money you can afford to lose. Also install MetaMask on your phone and back up your seed phrase properly. Compare the experience. Which one felt more natural to you?
 
 **Exercise 2: Secure Your Seed Phrase**
-If you have a non-custodial wallet, write your seed phrase on paper. Store it somewhere safe — not on your phone, not in your email. Test yourself: can you access it if your phone is lost or broken?
+If you have a non-custodial wallet, write your seed phrase on paper. Store it somewhere safe, not on your phone, not in your email. Test yourself: can you access it if your phone is lost or broken?
 
 **Exercise 3: Map Your Risk Tolerance**
 Make a simple table. List your digital assets, the wallet type you use for each, and what would happen if that service disappeared tomorrow. This gives you a clear picture of where you have exposure.
@@ -150,7 +150,7 @@ Make a simple table. List your digital assets, the wallet type you use for each,
 
 ## References
 
-- Ethereum Foundation — "Wallets" documentation (ethereum.org)
-- MetaMask — Getting Started Guide (metamask.io)
-- CoinDesk — "What Is Self-Custody?" (coindesk.com)
-- Coinbase — "What Is a Custodial Wallet?" (coinbase.com)
+- Ethereum Foundation, "Wallets" documentation (ethereum.org)
+- MetaMask, Getting Started Guide (metamask.io)
+- CoinDesk, "What Is Self-Custody?" (coindesk.com)
+- Coinbase, "What Is a Custodial Wallet?" (coinbase.com)

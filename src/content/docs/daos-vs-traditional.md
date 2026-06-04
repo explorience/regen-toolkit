@@ -63,7 +63,7 @@ In East Africa, many cooperatives and associations face similar challenges. Even
 
 DAOs flip the script. Instead of centralized control, decision-making is distributed across everyone who holds the organization's native token. Instead of closed-door meetings, votes happen publicly on the blockchain. Instead of hierarchical management, contributors often coordinate as peers.
 
-Think of it like a cooperative where everyone who participates can own a share. When you acquire a DAO's token, you gain a voice in how it operates. Major decisions—how to spend funds, what projects to pursue—are put to a vote. Anyone with a token can participate.
+Think of it like a cooperative where everyone who participates can own a share. When you acquire a DAO's token, you gain a voice in how it operates. Major decisions, how to spend funds, what projects to pursue, are put to a vote. Anyone with a token can participate.
 
 As of 2022, over 215 DAOs collectively managed around $9.5 billion with approximately 500,000 active members. They're building protocols, funding public goods, and experimenting with new forms of coordination.
 
@@ -75,7 +75,7 @@ The most visible difference is how decisions happen.
 
 In a traditional corporation, strategic decisions happen in executive suites. Board meetings happen a few times a year. Shareholders vote annually on major issues, but the actual running of the company is centralized.
 
-DAOs operate differently. When a proposal is submitted, anyone holding tokens can vote. Platforms like Snapshot make this as simple as connecting a crypto wallet and clicking yes or no. Votes happen continuously—not just for annual elections, but for every meaningful decision the organization faces.
+DAOs operate differently. When a proposal is submitted, anyone holding tokens can vote. Platforms like Snapshot make this as simple as connecting a crypto wallet and clicking yes or no. Votes happen continuously, not just for annual elections, but for every meaningful decision the organization faces.
 
 There's also the matter of transparency. Traditional companies share financial information through quarterly reports and annual disclosures, with much remaining proprietary. DAOs publish everything: every transaction, every proposal, every vote. The blockchain records it all permanently. If you want to know how a DAO spends its money, you can trace every token.
 
@@ -95,7 +95,7 @@ The global nature of DAOs is another departure. Traditional companies are limite
 
 Traditional companies raise money through venture capital, bank loans, or IPOs. Ownership concentrates among founders and early investors.
 
-DAOs raise capital by issuing their native token. Early supporters buy tokens, providing funding for the organization. In return, they receive governance rights and often economic benefits. The key difference: tokens can be distributed widely, giving anyone—not just accredited investors—the chance to own a piece of the organization.
+DAOs raise capital by issuing their native token. Early supporters buy tokens, providing funding for the organization. In return, they receive governance rights and often economic benefits. The key difference: tokens can be distributed widely, giving anyone, not just accredited investors, the chance to own a piece of the organization.
 
 This creates incentive alignment. In a DAO, contributors often receive token rewards that increase in value as the organization succeeds. Everyone has a stake in making things work.
 
@@ -103,10 +103,10 @@ This creates incentive alignment. In a DAO, contributors often receive token rew
 
 ## Benefits of the DAO Model
 
-- **Reduced overhead** – No management layer means lower administrative costs
-- **Unprecedented transparency** – Every member can verify what is happening with resources
-- **Global access** – Anyone with internet can participate
-- **Aligned incentives** – Contributors own part of what they are building
+- **Reduced overhead**, No management layer means lower administrative costs
+- **Unprecedented transparency**, Every member can verify what is happening with resources
+- **Global access**, Anyone with internet can participate
+- **Aligned incentives**, Contributors own part of what they are building
 
 ---
 
@@ -114,11 +114,11 @@ This creates incentive alignment. In a DAO, contributors often receive token rew
 
 DAOs are not perfect. Some honest concerns deserve attention:
 
-**Voter fatigue** – Participation is often low in DAOs, just as it is in political elections. But at least the option is open. Low participation is still better than no participation.
+**Voter fatigue**, Participation is often low in DAOs, just as it is in political elections. But at least the option is open. Low participation is still better than no participation.
 
-**Token concentration** – If a few people hold most tokens, governance can become centralized in practice. Good DAO design requires thoughtful token distribution.
+**Token concentration**, If a few people hold most tokens, governance can become centralized in practice. Good DAO design requires thoughtful token distribution.
 
-**Legal uncertainty** – DAOs still operate in a gray area in many jurisdictions. Compliance frameworks are still developing.
+**Legal uncertainty**, DAOs still operate in a gray area in many jurisdictions. Compliance frameworks are still developing.
 
 ---
 
@@ -132,13 +132,13 @@ The question isn't whether decentralized organization will matter. It's what rol
 
 ## Try This
 
-Think about an organization you belong to—a cooperative, a savings group, a community association.
+Think about an organization you belong to, a cooperative, a savings group, a community association.
 
 - Who makes the major decisions?
 - Where is the money stored and who controls access?
 - What information is public and what is hidden?
 
-Mapping out how decisions actually flow can reveal where power sits—and where it could be distributed differently.
+Mapping out how decisions actually flow can reveal where power sits, and where it could be distributed differently.
 
 ---
 

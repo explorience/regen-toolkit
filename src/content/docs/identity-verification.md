@@ -29,7 +29,7 @@ related:
 
 ## What Does "Identity Verification" Actually Mean?
 
-When we talk about identity verification in web3, we're talking about proving that you are who you say you are — without needing to show documents like a passport or national ID card to every person or company you interact with.
+When we talk about identity verification in web3, we're talking about proving that you are who you say you are, without needing to show documents like a passport or national ID card to every person or company you interact with.
 
 In the regular internet, you prove your identity by typing a password or showing an ID. In web3, there's a different way: you use your wallet. Your wallet is like a digital identity that belongs to you alone. Identity verification is the process of connecting your real-world identity to this digital wallet in a way that's private, safe, and controlled by you.
 
@@ -51,7 +51,7 @@ You don't need to understand all the technical details, but here's the basic ide
 
 ### 1. You Start with a Wallet
 
-Your wallet is your gateway to web3. It's like an email address that can hold money and prove who you are. When you create a wallet, you get a unique string of numbers and letters — this is your "address" on the blockchain.
+Your wallet is your gateway to web3. It's like an email address that can hold money and prove who you are. When you create a wallet, you get a unique string of numbers and letters, this is your "address" on the blockchain.
 
 ### 2. Verification Asks a Question
 
@@ -65,7 +65,7 @@ Instead of asking for your documents directly, verification systems ask question
 
 Here's the clever part: you can answer "yes" to these questions without showing any documents. How? Through something called zero-knowledge proofs. Think of it like proving you have a key without showing the key itself.
 
-For example, imagine someone asks, "Are you over 18?" You could show them your ID card — but that reveals your exact birthdate, which is too much information. With web3 verification, you can prove "yes, I'm over 18" without telling them your actual age or birthdate.
+For example, imagine someone asks, "Are you over 18?" You could show them your ID card, but that reveals your exact birthdate, which is too much information. With web3 verification, you can prove "yes, I'm over 18" without telling them your actual age or birthdate.
 
 ### 4. A Credential Is Created
 
@@ -84,7 +84,7 @@ Right now, you might not need identity verification for everyday things. But as 
 - Build a reputation online that follows you across different platforms
 - Participate in economic opportunities that require proving who you are
 
-The key thing to remember: identity verification in web3 is designed to put you in control. It's not about watching what you do — it's about giving you a way to prove things about yourself without giving up your privacy.
+The key thing to remember: identity verification in web3 is designed to put you in control. It's not about watching what you do, it's about giving you a way to prove things about yourself without giving up your privacy.
 
 ---
 

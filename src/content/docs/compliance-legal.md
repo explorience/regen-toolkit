@@ -84,6 +84,6 @@ Crypto donations are legal in most places, compliance tools exist, and you don't
 
 ## Try This
 
-1. **Research one platform** – Look up The Giving Block, Infinite Giving, or another nonprofit crypto platform
-2. **Talk to your accountant** – Ask about tax implications for your organization
-3. **Review your policies** – Does your donor policy mention different asset types?
+1. **Research one platform**, Look up The Giving Block, Infinite Giving, or another nonprofit crypto platform
+2. **Talk to your accountant**, Ask about tax implications for your organization
+3. **Review your policies**, Does your donor policy mention different asset types?

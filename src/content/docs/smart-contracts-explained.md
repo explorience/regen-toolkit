@@ -76,7 +76,7 @@ Here is the basic process:
 
 1. **Writing.** Developers write the contract in a programming language such as Solidity. The code defines conditions and what happens when each one is met.
 2. **Deployment.** The contract is published to the blockchain, permanently recorded and publicly visible. A fee called **gas** is paid to cover the cost of running the network.
-3. **Monitoring.** The blockchain watches for the conditions specified in the code — a date arriving, a payment received, a vote completed.
+3. **Monitoring.** The blockchain watches for the conditions specified in the code, a date arriving, a payment received, a vote completed.
 4. **Execution.** When conditions are met, the contract automatically carries out the corresponding action.
 5. **Recording.** Every step is recorded on the blockchain, transparent, permanent, and verifiable.
 
@@ -92,7 +92,7 @@ Anyone can write and deploy a smart contract. You do not need permission from a 
 
 ### Composability
 
-Smart contracts are public and can interact with each other, similar to APIs that anyone can call. A new project can build on top of existing contracts, combining functions to create something entirely new. This is how decentralized finance ecosystems grow — one contract building on another, like LEGO blocks stacking together.
+Smart contracts are public and can interact with each other, similar to APIs that anyone can call. A new project can build on top of existing contracts, combining functions to create something entirely new. This is how decentralized finance ecosystems grow, one contract building on another, like LEGO blocks stacking together.
 
 ### Multisig Contracts
 
@@ -106,7 +106,7 @@ A smart contract cannot check whether it rained in Hargeisa, whether a shipment 
 
 **Oracles** are services that feed external data into the blockchain. They act as bridges between the real world and the code. They make it possible for smart contracts to respond to real-world events, powering supply chain tracking, insurance, and regenerative monitoring systems.
 
-This is one of the most active areas of development in the space. When you hear about smart contracts failing in practice, it is often because the oracle — the data feed — was wrong or manipulated. This is worth knowing before you trust a contract with real value.
+This is one of the most active areas of development in the space. When you hear about smart contracts failing in practice, it is often because the oracle, the data feed, was wrong or manipulated. This is worth knowing before you trust a contract with real value.
 
 ---
 
@@ -114,7 +114,7 @@ This is one of the most active areas of development in the space. When you hear 
 
 Smart contracts are powerful, but they are not magic. Understanding their limits matters:
 
-- **Code is law — and that is risky.** If there is a bug in the code, it executes exactly as written, including the bug. There is no undo button.
+- **Code is law, and that is risky.** If there is a bug in the code, it executes exactly as written, including the bug. There is no undo button.
 - **Size limits exist.** A smart contract can only be so large, which constrains what developers can build.
 - **No legal recognition yet.** Most countries have not figured out how to regulate or recognize smart contracts in existing law.
 - **Technical skills required.** Writing and auditing smart contracts requires specialized training.
@@ -142,10 +142,10 @@ That said, this technology is still young and comes with real responsibility. Bu
 ## Try This
 
 **Exercise 1: Read a Real Smart Contract**
-Visit Etherscan (etherscan.io) and search for a popular decentralized application — Uniswap or OpenSea, for example. Click on the contract address. You do not need to understand the code. Just notice how it is laid out, what functions it has, and how transparent everything is.
+Visit Etherscan (etherscan.io) and search for a popular decentralized application, Uniswap or OpenSea, for example. Click on the contract address. You do not need to understand the code. Just notice how it is laid out, what functions it has, and how transparent everything is.
 
 **Exercise 2: Map Your Agreements**
-Think of a community agreement you are part of — maybe a savings group, a land-use arrangement, or a trade deal. Write down: What are the conditions? Who enforces them? What would change if the enforcement was automatic and visible to everyone?
+Think of a community agreement you are part of, maybe a savings group, a land-use arrangement, or a trade deal. Write down: What are the conditions? Who enforces them? What would change if the enforcement was automatic and visible to everyone?
 
 **Exercise 3: Test Without Risk**
 Download MetaMask (a browser wallet) and switch it to a test network. You will get free fake currency to experiment with. Try sending a transaction, interacting with a test application. No real money needed.
@@ -154,7 +154,7 @@ Download MetaMask (a browser wallet) and switch it to a test network. You will g
 
 ## References
 
-- Ethereum Foundation — Ethereum Documentation (ethereum.org)
-- CoinDesk — "What Are Smart Contracts?" (coindesk.com)
+- Ethereum Foundation, Ethereum Documentation (ethereum.org)
+- CoinDesk, "What Are Smart Contracts?" (coindesk.com)
 - Solidity Language Documentation (docs.soliditylang.org)
-- Chainlink — "What Is a Blockchain Oracle?" (chain.link)
+- Chainlink, "What Is a Blockchain Oracle?" (chain.link)

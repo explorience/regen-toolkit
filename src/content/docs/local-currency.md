@@ -47,7 +47,7 @@ related:
 
 ## What This Article Covers
 
-This article walks through the key decisions involved in designing a local currency for your community. It covers what unit to use, how to back the currency, who issues it, what rules to set, and how to actually launch it. The focus is on getting something working on the ground in your neighbourhood, town, or region — with enough detail to make good decisions without getting lost in complexity.
+This article walks through the key decisions involved in designing a local currency for your community. It covers what unit to use, how to back the currency, who issues it, what rules to set, and how to actually launch it. The focus is on getting something working on the ground in your neighbourhood, town, or region, with enough detail to make good decisions without getting lost in complexity.
 
 If your community already uses informal exchange networks, mutual aid groups, or mobile money for local transactions, a structured local currency can build on those practices rather than replacing them.
 
@@ -55,22 +55,22 @@ If your community already uses informal exchange networks, mutual aid groups, or
 
 ## Why Local Currency?
 
-National currencies — shillings, dollars, euros — flow in and out of communities. A shop owner in Hargeisa or Mombasa buys goods from Nairobi or Addis, and money leaves the local economy. A construction worker's wages get spent at a supermarket owned by a chain based elsewhere. Over time, wealth concentrates upstream, and local people are left with fewer options.
+National currencies, shillings, dollars, euros, flow in and out of communities. A shop owner in Hargeisa or Mombasa buys goods from Nairobi or Addis, and money leaves the local economy. A construction worker's wages get spent at a supermarket owned by a chain based elsewhere. Over time, wealth concentrates upstream, and local people are left with fewer options.
 
 Local currencies work differently. Their purpose is to keep value circulating within a defined community:
 
 - **Keep wealth local**: Money spent within the system stays inside your community instead of draining out to national or international markets
-- **Value local labour**: Someone's time has worth regardless of formal market rates. A grandmother's knowledge of herbal medicine, a teenager's computer skills, a farmer's seed-saving expertise — all have value that national currencies often fail to recognise
+- **Value local labour**: Someone's time has worth regardless of formal market rates. A grandmother's knowledge of herbal medicine, a teenager's computer skills, a farmer's seed-saving expertise, all have value that national currencies often fail to recognise
 - **Enable exchange when mainstream money is scarce**: During downturns, poor harvests, or instability, local currencies keep people trading with each other
 - **Build shared identity**: A currency creates rituals. When your community has its own unit of exchange, it reinforces that you are an economic unit, not just competing individuals
 
-The most enduring examples come from the global North — Ithaca Hours in New York, the Brixton Pound in London, BerkShares in Massachusetts — but the underlying idea is ancient. Markets, neighbourhood exchange clubs, susu rotating savings, and chamas are all forms of local currency in all but name. The formal structure described here builds on practices already common across East Africa.
+The most enduring examples come from the global North, Ithaca Hours in New York, the Brixton Pound in London, BerkShares in Massachusetts, but the underlying idea is ancient. Markets, neighbourhood exchange clubs, susu rotating savings, and chamas are all forms of local currency in all but name. The formal structure described here builds on practices already common across East Africa.
 
 ---
 
 ## Design Questions
 
-Before launching, your community needs to answer a few foundational questions. None of the answers are permanently fixed — most currencies evolve over time — but getting the basics right at the start prevents serious problems later.
+Before launching, your community needs to answer a few foundational questions. None of the answers are permanently fixed, most currencies evolve over time, but getting the basics right at the start prevents serious problems later.
 
 ### 1. What Is the Unit?
 
@@ -78,7 +78,7 @@ The unit is what you count in. The choice shapes everything else.
 
 **Time-based**: One unit equals one hour of someone's time. The logic is that an hour of teaching is worth the same as an hour of fetching water or repairing a roof. Time-based units are simple and fair in principle, though in practice people often negotiate adjustments for skill or difficulty.
 
-**Value-based**: One unit equals a fixed amount of national currency — for example, 100 Somali shillings or 1 Kenyan shilling. This is more familiar to most people but ties your currency to the inflation and instability of the national currency it references.
+**Value-based**: One unit equals a fixed amount of national currency, for example, 100 Somali shillings or 1 Kenyan shilling. This is more familiar to most people but ties your currency to the inflation and instability of the national currency it references.
 
 **Points-based**: Arbitrary units that the community agrees on. Highly flexible but harder to explain and trust.
 
@@ -106,7 +106,7 @@ Issuance determines who creates new currency and under what conditions.
 
 **System-issued**: A fixed schedule creates currency automatically. No collective decision needed, but less flexible.
 
-**Hybrid**: Some currency comes from contribution, some from governance decision — for example, community projects funded by newly issued units that the community approves.
+**Hybrid**: Some currency comes from contribution, some from governance decision, for example, community projects funded by newly issued units that the community approves.
 
 Member-issued by contribution keeps control local and creates natural scarcity.
 
@@ -120,7 +120,7 @@ Every currency needs clear rules covering:
 - **Does the currency expire?** Some systems tax old units or void them after a period to prevent hoarding and keep currency circulating. Others allow saving without limit.
 - **Are there fees?** Transaction fees, membership fees, or administrative costs?
 
-The right answers depend on your community's values and goals. But a few principles hold across most contexts: open membership so no one is excluded, broad acceptance of legitimate labour, no spending restrictions that create hierarchy between goods, and some mechanism — expiry, a community fund, or demurrage fees — to prevent hoarding by early participants at the expense of newcomers.
+The right answers depend on your community's values and goals. But a few principles hold across most contexts: open membership so no one is excluded, broad acceptance of legitimate labour, no spending restrictions that create hierarchy between goods, and some mechanism, expiry, a community fund, or demurrage fees, to prevent hoarding by early participants at the expense of newcomers.
 
 ---
 
@@ -156,27 +156,27 @@ Pros: Transparent and verifiable by anyone, no single point of control, programm
 
 Cons: Technical complexity, transaction fees on most blockchains, requires crypto literacy, barrier to entry for non-technical members, some blockchain solutions may not be accessible in all connectivity environments.
 
-Blockchain-based currencies make sense once a community has a clear reason to need those specific properties — and almost no new community currencies do. If you are considering this path, talk to others who have done it and understand the real costs in time and capacity.
+Blockchain-based currencies make sense once a community has a clear reason to need those specific properties, and almost no new community currencies do. If you are considering this path, talk to others who have done it and understand the real costs in time and capacity.
 
 ---
 
 ## Launch Process
 
-### Phase 1: Design (1–2 Months)
+### Phase 1: Design (1-2 Months)
 
 - Host community conversations about what the currency is for and what it should value
 - Decide on unit, backing, rules, and governance structure
 - Write a simple constitution or agreement that records these decisions
-- Recruit 10–20 founding members who are committed to using the currency regularly
+- Recruit 10-20 founding members who are committed to using the currency regularly
 
 Do not rush this phase. If people disagree about the rules later, the currency will struggle.
 
-### Phase 2: Pilot (3–6 Months)
+### Phase 2: Pilot (3-6 Months)
 
 - Launch with the founding group
 - Track who is earning, who is spending, and what gaps exist
 - Hold regular check-ins to adjust rules based on what is actually happening
-- Document your findings — what works, what causes friction, what rules people ignore
+- Document your findings, what works, what causes friction, what rules people ignore
 
 Most community currencies discover that their initial rules need adjustment. This is normal. The pilot is the time to learn.
 
@@ -199,7 +199,7 @@ Do not launch with tokens, smart contracts, and DeFi integrations. Start with pa
 
 ### No Spending Opportunities
 
-A currency only has value if it can be spent. Before you issue a single unit, make sure there are things to buy. Some communities start by identifying 10–20 goods or services they can offer each other and launch only when that list exists.
+A currency only has value if it can be spent. Before you issue a single unit, make sure there are things to buy. Some communities start by identifying 10-20 goods or services they can offer each other and launch only when that list exists.
 
 ### Ignoring Local Context
 
@@ -211,7 +211,7 @@ Without some mechanism to return currency to circulation, early participants hoa
 
 ### Launching Without Critical Mass
 
-A working local currency needs at least 20–30 active members who are genuinely buying and selling. Starting with your closest circle of collaborators is the right approach. Do not try to launch to the whole neighbourhood on day one.
+A working local currency needs at least 20-30 active members who are genuinely buying and selling. Starting with your closest circle of collaborators is the right approach. Do not try to launch to the whole neighbourhood on day one.
 
 ---
 
@@ -221,7 +221,7 @@ A working local currency needs at least 20–30 active members who are genuinely
 - **Brixton Pound** (London, UK): Local paper currency for Brixton, with some later blockchain adoption.
 - **Sardex** (Italy): Commercial currency linking small businesses, now operating across several Italian regions.
 - **BerkShares** (Massachusetts, USA): Local business currency pegged to the US dollar.
-- **Chamas and ROSCAs** (East Africa): Informal rotating savings and credit associations common across Kenya, Tanzania, and the wider region — proof that communities already organise mutual financial systems.
+- **Chamas and ROSCAs** (East Africa): Informal rotating savings and credit associations common across Kenya, Tanzania, and the wider region, proof that communities already organise mutual financial systems.
 
 ---
 
@@ -231,7 +231,7 @@ A working local currency needs at least 20–30 active members who are genuinely
 
 Before designing your currency, spend two weeks documenting what already exists:
 
-- What informal exchange happens in your community right now — labour swaps, shared tools, mutual aid, rotating savings?
+- What informal exchange happens in your community right now, labour swaps, shared tools, mutual aid, rotating savings?
 - Where do people go to trade goods or services outside of formal shops?
 - What do people struggle to find or afford locally?
 - What skills or goods does your community have in surplus?
@@ -244,4 +244,4 @@ Write this down. The gaps and patterns you find are the design brief for your cu
 
 Start simple. A currency can evolve, but it cannot evolve if it never launches. Get something working with your core group, learn from what actually happens, and iterate from there.
 
-The hardest part is not the technology. It is the conversation — getting your community to agree on what they value, what they are willing to trade, and what they want to protect. That conversation is worth having.
+The hardest part is not the technology. It is the conversation, getting your community to agree on what they value, what they are willing to trade, and what they want to protect. That conversation is worth having.

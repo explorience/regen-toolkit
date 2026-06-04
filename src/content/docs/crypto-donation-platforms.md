@@ -33,7 +33,7 @@ That's where donation platforms come in. These services handle the technical stu
 
 ## What Do These Platforms Do?
 
-Think of a crypto donation platform like a specialized version of PayPal or Stripe—but for charitable giving. They:
+Think of a crypto donation platform like a specialized version of PayPal or Stripe, but for charitable giving. They:
 
 - Provide a landing page where donors can give crypto
 - Handle the blockchain transactions
@@ -61,11 +61,11 @@ A directory and resource hub. Helps you find platforms that fit your needs.
 
 When choosing a platform, consider:
 
-1. **Fees** – Some charge a percentage, some are free for nonprofits
-2. **Supported cryptocurrencies** – How many different cryptos can people send?
-3. **Instant conversion** – Can donors convert to stablecoins so you don't deal with volatility?
-4. **Integration** – Does it work with your existing donor management system?
-5. **Support** – Can they help you get set up?
+1. **Fees**, Some charge a percentage, some are free for nonprofits
+2. **Supported cryptocurrencies**, How many different cryptos can people send?
+3. **Instant conversion**, Can donors convert to stablecoins so you don't deal with volatility?
+4. **Integration**, Does it work with your existing donor management system?
+5. **Support**, Can they help you get set up?
 
 ## Getting Started
 
@@ -91,6 +91,6 @@ Don't let the technology intimidate you. Crypto donation platforms have done the
 
 ## Try This
 
-1. **Visit two platforms** – Go to The Giving Block and Infinite Giving
-2. **Compare fees** – What do they charge?
-3. **Sign up for a demo** – Most offer free consultations
+1. **Visit two platforms**, Go to The Giving Block and Infinite Giving
+2. **Compare fees**, What do they charge?
+3. **Sign up for a demo**, Most offer free consultations

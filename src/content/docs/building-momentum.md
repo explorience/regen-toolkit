@@ -48,9 +48,9 @@ related:
 
 Starting a local node is exciting. Keeping it going is harder.
 
-Many nodes launch with enthusiasm, then fade. The culprit is rarely a lack of care — it's a lack of structure. Without rhythms people can count on, without ways for people to contribute meaningfully, and without celebrating the work that happens, communities drift apart. The key is building momentum that sustains beyond initial excitement.
+Many nodes launch with enthusiasm, then fade. The culprit is rarely a lack of care, it's a lack of structure. Without rhythms people can count on, without ways for people to contribute meaningfully, and without celebrating the work that happens, communities drift apart. The key is building momentum that sustains beyond initial excitement.
 
-In East African contexts, community gathering is already deeply embedded in how people relate — through saving circles, through inter-clan coordination, through community meals after jumu'ah prayers. Your node builds on these existing traditions rather than inventing new ones from scratch. The challenge is to channel that energy into your regenerative finance work in ways that feel natural, not foreign.
+In East African contexts, community gathering is already deeply embedded in how people relate, through saving circles, through inter-clan coordination, through community meals after jumu'ah prayers. Your node builds on these existing traditions rather than inventing new ones from scratch. The challenge is to channel that energy into your regenerative finance work in ways that feel natural, not foreign.
 
 ---
 
@@ -71,7 +71,7 @@ When momentum is working, you feel it. When it's gone, you feel that too.
 
 ## The Rhythm Model
 
-Successful communities develop rhythms — predictable patterns people can count on.
+Successful communities develop rhythms, predictable patterns people can count on.
 
 ### Weekly Rhythms
 - Quick check-ins through your channel of choice (WhatsApp groups work well for this context)
@@ -99,7 +99,7 @@ Rhythm creates expectation. People plan around what they know is coming. They sh
 
 ## Celebration Strategy
 
-Momentum requires celebrating wins — consistently, and often.
+Momentum requires celebrating wins, consistently, and often.
 
 ### Small Wins Daily
 
@@ -159,7 +159,7 @@ How people find you:
 - Making decisions
 - Holding a leadership role
 
-Track where people are dropping off. If most people come once and never return, that's where to focus your energy. Often the gap is between "first visit" and "second visit" — make sure the second experience is warm, clear, and gives them something to do.
+Track where people are dropping off. If most people come once and never return, that's where to focus your energy. Often the gap is between "first visit" and "second visit", make sure the second experience is warm, clear, and gives them something to do.
 
 ---
 
@@ -182,7 +182,7 @@ They get inspired. They want to participate too.
 **Step 5: They join**
 New people become contributors. The cycle continues.
 
-This is how communities grow — not through outreach campaigns, but through the visible, real experiences of real people.
+This is how communities grow, not through outreach campaigns, but through the visible, real experiences of real people.
 
 ---
 
@@ -197,7 +197,7 @@ The right amount:
 - **Monthly:** One deeper content piece or reflection
 - **As needed:** Breaking news or urgent decisions
 
-Not everything needs to go everywhere. Be intentional about what deserves everyone's attention. Different channels serve different purposes — WhatsApp for quick check-ins, a shared document for deeper planning, in-person meetings for decisions that matter most.
+Not everything needs to go everywhere. Be intentional about what deserves everyone's attention. Different channels serve different purposes, WhatsApp for quick check-ins, a shared document for deeper planning, in-person meetings for decisions that matter most.
 
 ---
 
@@ -205,7 +205,7 @@ Not everything needs to go everywhere. Be intentional about what deserves everyo
 
 Share content that shows the real work:
 
-**Behind the scenes:** How decisions get made, what challenges you're working through, what you're learning, the real work — not just highlights
+**Behind the scenes:** How decisions get made, what challenges you're working through, what you're learning, the real work, not just highlights
 
 **Member stories:** Interview members, share their journeys, highlight contributions, show the diversity of who's involved
 
@@ -239,11 +239,11 @@ Signs of a dip:
 - The same people doing everything
 
 What to do when you hit a dip:
-- **Acknowledge it openly** — Don't pretend everything is fine
-- **Reduce expectations** — Don't try to force growth
-- **Focus on core people** — Care for those who show up
-- **Try new things** — Different events, different formats, different times
-- **Don't panic** — This is temporary
+- **Acknowledge it openly**, Don't pretend everything is fine
+- **Reduce expectations**, Don't try to force growth
+- **Focus on core people**, Care for those who show up
+- **Try new things**, Different events, different formats, different times
+- **Don't panic**, This is temporary
 
 Dips often happen during harvest season, during exams, during Ramadan, or when other community demands are high. Plan for them. They will pass.
 
@@ -297,13 +297,13 @@ If the answers concern you, address them directly.
 
 Here's the cycle that keeps momentum going:
 
-1. **Ship something** — an event, a content piece, an update
-2. **Celebrate** — acknowledge what worked
-3. **Invite** — bring in new people
-4. **Onboard** — make them feel welcome
-5. **Empower** — give them something to do
-6. **They contribute** — value is added
-7. **Acknowledge** — celebrate them
+1. **Ship something**, an event, a content piece, an update
+2. **Celebrate**, acknowledge what worked
+3. **Invite**, bring in new people
+4. **Onboard**, make them feel welcome
+5. **Empower**, give them something to do
+6. **They contribute**, value is added
+7. **Acknowledge**, celebrate them
 8. **Repeat**
 
 Each step feeds the next.
@@ -312,7 +312,7 @@ Each step feeds the next.
 
 ## Try This
 
-This week, identify one person who contributed to your node in any way — big or small. Thank them publicly in your group. Name specifically what they did. Watch what happens.
+This week, identify one person who contributed to your node in any way, big or small. Thank them publicly in your group. Name specifically what they did. Watch what happens.
 
 ---
 
@@ -326,6 +326,6 @@ Start where you are. Ship something this week. Celebrate someone. Watch the flyw
 
 ## References
 
-- Greenpill Local Regen Guide — Community building principles for regenerative local groups
-- Community building literature — Various guides on sustaining communities over time
-- DAO governance patterns — How decentralized communities maintain engagement and momentum
+- Greenpill Local Regen Guide, Community building principles for regenerative local groups
+- Community building literature, Various guides on sustaining communities over time
+- DAO governance patterns, How decentralized communities maintain engagement and momentum

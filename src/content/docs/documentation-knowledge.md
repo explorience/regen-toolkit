@@ -48,11 +48,11 @@ related:
 
 Your community generates knowledge constantly. Decisions get made. Lessons get learned. Processes get created. Then people move on.
 
-Without documentation, this knowledge walks out the door when people leave. When someone asks "how do I do that?" you explain it again from scratch. When history is needed — for resolving disputes, planning ahead, or onboarding new members — it is simply gone.
+Without documentation, this knowledge walks out the door when people leave. When someone asks "how do I do that?" you explain it again from scratch. When history is needed, for resolving disputes, planning ahead, or onboarding new members, it is simply gone.
 
-With documentation, your community builds something durable: an **institutional memory** that survives personnel changes. New members can catch up quickly. Contributors can build on past work instead of repeating it. Your node becomes more than the sum of its current members — it becomes a living system that carries its own history forward.
+With documentation, your community builds something durable: an **institutional memory** that survives personnel changes. New members can catch up quickly. Contributors can build on past work instead of repeating it. Your node becomes more than the sum of its current members, it becomes a living system that carries its own history forward.
 
-The Greenpill Local Regen Guide emphasizes that communities need to "remember what they have learned" — documentation is how you make that happen.
+The Greenpill Local Regen Guide emphasizes that communities need to "remember what they have learned", documentation is how you make that happen.
 
 ---
 
@@ -60,7 +60,7 @@ The Greenpill Local Regen Guide emphasizes that communities need to "remember wh
 
 ### Governance Documents
 
-These are your rules and agreements — the foundation of how your community operates.
+These are your rules and agreements, the foundation of how your community operates.
 
 **Include:**
 
@@ -74,7 +74,7 @@ These are your rules and agreements — the foundation of how your community ope
 
 ### Process Documents
 
-These explain how things actually work — the step-by-step of getting things done.
+These explain how things actually work, the step-by-step of getting things done.
 
 **Include:**
 
@@ -88,7 +88,7 @@ These explain how things actually work — the step-by-step of getting things do
 
 ### Historical Documents
 
-These record what happened — your community's memory.
+These record what happened, your community's memory.
 
 **Include:**
 
@@ -102,13 +102,13 @@ These record what happened — your community's memory.
 
 ### Knowledge Base
 
-This is your reference library — answers to questions people ask regularly.
+This is your reference library, answers to questions people ask regularly.
 
 **Include:**
 
 - FAQs about common questions
 - Tool guides and tutorials for platforms you use
-- Resource lists — who to contact, where to find things
+- Resource lists, who to contact, where to find things
 - Best practices developed from experience
 - External references that your community has found useful
 
@@ -150,7 +150,7 @@ Google Drive works well for file storage and folder organization, and its search
 
 - Version control means you can see every change ever made
 - Markdown-based so writing is clean and simple
-- Long-term durability — these platforms are built to persist
+- Long-term durability, these platforms are built to persist
 - Good for: Technical guides, developer documentation, permanent records
 
 For communities that want their documentation to survive platform changes, GitBook offers a good balance of durability and ease of use.
@@ -163,20 +163,20 @@ For communities that want their documentation to survive platform changes, GitBo
 
 If you document nothing else, document these four things:
 
-1. **How to join** — Clear steps to become part of the community
-2. **Community agreements** — Rules and expectations everyone agreed to
-3. **Contact information** — Who is who and how to reach them
-4. **Key resources** — Where to find important things
+1. **How to join**, Clear steps to become part of the community
+2. **Community agreements**, Rules and expectations everyone agreed to
+3. **Contact information**, Who is who and how to reach them
+4. **Key resources**, Where to find important things
 
 ### Should-Have (Important)
 
 These make your community run much better:
 
-1. **Meeting notes** — What was decided, who committed to what, by when
-2. **Event archives** — What worked, what did not, and what to change next time
-3. **Decision history** — Why important choices were made
-4. **Role definitions** — What is expected of each position or person
-5. **Financial transparency** — How money is raised, spent, and accounted for
+1. **Meeting notes**, What was decided, who committed to what, by when
+2. **Event archives**, What worked, what did not, and what to change next time
+3. **Decision history**, Why important choices were made
+4. **Role definitions**, What is expected of each position or person
+5. **Financial transparency**, How money is raised, spent, and accounted for
 
 ### Nice-to-Have (Helpful Over Time)
 
@@ -192,7 +192,7 @@ These add depth and make your documentation more useful:
 
 ## Maintaining Documentation Over Time
 
-Documentation is only valuable if it stays current. Outdated documentation can actually cause harm — people make decisions based on wrong information. Here is how to keep it alive.
+Documentation is only valuable if it stays current. Outdated documentation can actually cause harm, people make decisions based on wrong information. Here is how to keep it alive.
 
 ### Assign Ownership
 
@@ -209,7 +209,7 @@ This does not mean one person does all the writing. It means one person makes su
 
 - **Monthly:** Check whether major updates are needed
 - **Quarterly:** Full review of accuracy across all key documents
-- **Annually:** Restructure and consolidate — remove what is outdated, improve what is unclear
+- **Annually:** Restructure and consolidate, remove what is outdated, improve what is unclear
 
 ### Make It Easy to Update
 
@@ -226,18 +226,18 @@ The easier documentation is to update, the more it actually gets updated.
 
 ### When Something Happens (A Decision, an Event, a Lesson)
 
-1. **Capture** — Take notes while it is fresh, even rough ones
-2. **Process** — Summarize and organize the key points
-3. **Store** — Put it in the right place with a clear, searchable name
-4. **Share** — Let relevant people know the information is available
+1. **Capture**, Take notes while it is fresh, even rough ones
+2. **Process**, Summarize and organize the key points
+3. **Store**, Put it in the right place with a clear, searchable name
+4. **Share**, Let relevant people know the information is available
 
 ### For Ongoing Knowledge (Building Your Knowledge Base Over Time)
 
-1. **Identify** — What does the community consistently need to know?
-2. **Create** — Write clear, accessible documentation
-3. **Review** — Check for accuracy with someone who knows the topic
-4. **Publish** — Make it available in the right channels
-5. **Update** — Keep it current as things change
+1. **Identify**, What does the community consistently need to know?
+2. **Create**, Write clear, accessible documentation
+3. **Review**, Check for accuracy with someone who knows the topic
+4. **Publish**, Make it available in the right channels
+5. **Update**, Keep it current as things change
 
 ---
 
@@ -273,7 +273,7 @@ Make documentation easy to find:
 
 - Use clear, descriptive filenames
 - Organize folders logically
-- Invest time in good search — it pays off long-term
+- Invest time in good search, it pays off long-term
 
 ---
 
@@ -309,11 +309,11 @@ Write for someone who has never been to your community before. What is obvious t
 
 ## References
 
-- Greenpill Local — Community Building and Knowledge Management
+- Greenpill Local, Community Building and Knowledge Management
   https://greenpill.live/
-- Notion — Getting Started with Documentation
+- Notion, Getting Started with Documentation
   https://www.notion.so/
-- GitBook — Documentation Best Practices
+- GitBook, Documentation Best Practices
   https://www.gitbook.com/
-- Ethereum Foundation — DAO Governance Documentation
+- Ethereum Foundation, DAO Governance Documentation
   https://ethereum.org/en/web3/social-networks/#daos

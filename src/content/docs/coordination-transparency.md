@@ -38,9 +38,9 @@ Traditional organizations have hierarchy: someone at the top makes decisions, ev
 Web3 offers something different: coordination tools that work without a central authority.
 
 Think about:
-- **DAOs** – Organizations run by community vote, not a CEO
-- **Quadratic voting** – Makes it hard for rich people to dominate
-- **Futarchy** – Decisions based on prediction markets
+- **DAOs**, Organizations run by community vote, not a CEO
+- **Quadratic voting**, Makes it hard for rich people to dominate
+- **Futarchy**, Decisions based on prediction markets
 
 These tools let groups make decisions together, even if they've never met.
 
@@ -59,9 +59,9 @@ This matters for accountability. Donors can track where their money goes. Commun
 Web3 enables economic models that weren't possible before:
 
 ### Credentialing
-- **POAPs** – "Proof of Attendance" tokens that verify participation
-- **Gitcoin** – Public goods funding based on peer review
-- **Retroactive funding** – Get paid for work you did, even if funding wasn't arranged upfront
+- **POAPs**, "Proof of Attendance" tokens that verify participation
+- **Gitcoin**, Public goods funding based on peer review
+- **Retroactive funding**, Get paid for work you did, even if funding wasn't arranged upfront
 
 ### Value Capture
 - Communities can capture value they create
@@ -77,10 +77,10 @@ Web3 enables economic models that weren't possible before:
 
 If you're working on environmental or social impact, these tools can help:
 
-1. **Fund your work** – New ways to raise and distribute money
-2. **Build trust** – Transparency that proves your impact
-3. **Coordinate globally** – Work with people anywhere
-4. **Create sustainable models** – Economics that don't exploit
+1. **Fund your work**, New ways to raise and distribute money
+2. **Build trust**, Transparency that proves your impact
+3. **Coordinate globally**, Work with people anywhere
+4. **Create sustainable models**, Economics that don't exploit
 
 ## The Bottom Line
 
@@ -92,6 +92,6 @@ The tools aren't perfect. The space is still experimental. But for regens lookin
 
 ## Try This
 
-1. **Explore one tool** – Visit Snapshot.org, Radicle, or another platform
-2. **Join a DAO** – Many have free membership, just to see how they work
-3. **Think about your community** – What coordination challenges do you face?
+1. **Explore one tool**, Visit Snapshot.org, Radicle, or another platform
+2. **Join a DAO**, Many have free membership, just to see how they work
+3. **Think about your community**, What coordination challenges do you face?

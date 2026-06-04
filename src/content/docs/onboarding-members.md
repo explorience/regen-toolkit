@@ -1,277 +1,85 @@
 ---
-title: Onboarding New Members to Your Local Node
-description: A step-by-step guide to welcoming, orienting, and integrating new members
-  into your community finance system.
-section: '2.4'
-track: 2
-status: published
-author: Tej
-sources:
-- Member onboarding best practices
-- Community building research
-- Cooperative onboarding guides
-target_audience:
-- grounded-regen
-estimated_words: 1700
-created: '2026-03-12T20:30:00.000Z'
-last_updated: '2026-03-26'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-category: applied
-tags:
-  function: Community-Building
-  domain: Community
-  systems:
-    - Trust-Networks
-    - Emergence
-    - Feedback-Loops
-audience: Local-Organizer
-maturity: Intermediate
-related:
-  - building-momentum
-  - inclusive-practices
-  - building-trust
-  - minimum-viable-node
+title: "Onboarding New Members to Your Local Node"
+description: "A practical guide for local node stewards on welcoming, orienting, and integrating new members without burning out or recreating the centralization you're trying to escape."
 ---
 
 # Onboarding New Members to Your Local Node
 
-*How to welcome, orient, and integrate new members into your community finance system*
+Forty people RSVP'd to your launch event. Twelve showed up. Three came back. By month three, you're running the whole thing yourself and wondering why you bothered. If you've ever stood in a half-empty room after a strong launch, you already know the real problem isn't getting people in the door. It's what happens in the days after.
 
----
+Most local nodes don't fail because the tech broke or the grant ran out. They fail because new people arrive, feel like strangers, and quietly drift away. The work of finding people is wasted if the work of keeping them never happens. This is the part nobody puts in the pitch deck, and it's the part that decides whether your node grows or whether you end up doing everything alone.
 
-## Why Onboarding Matters
+A **local node** (a place-based chapter of a larger regenerative or ReFi, regenerative finance, network) lives or dies on this. Your job as a steward isn't to onboard everyone yourself. It's to build a system where the community onboards each other, so you don't become the bottleneck you set out to replace.
 
-Your local node's growth depends on one thing: new members becoming contributing, engaged participants — not just names on a list.
+## Onboarding Is a Trellis, Not a Funnel
 
-Most community finance initiatives fail not because of bad technology or insufficient funding, but because they cannot retain new members. People show up once, do not feel connected, and never return. The effort of finding them is wasted because the work of keeping them was not done.
+Marketing teaches you to think in funnels: pour leads in the top, squeeze conversions out the bottom. That framing quietly poisons community work. A funnel treats people as throughput. A community is a garden, and what new members need isn't pressure. It's a trellis: a structure to climb that's already there before they arrive.
 
-Onboarding is not a nice-to-have administrative task. It is a core community function that determines whether your node grows or stalls.
+The trellis is the difference between "we'll figure out what to do with newcomers when they show up" and "we know exactly what the first 30 days feel like for someone who joins tomorrow." You build it once. It works while you sleep. And it's the only version of onboarding that doesn't require *you* personally for every single new face, which is the only version that survives contact with your own limited time.
 
----
+ReFi DAO's Local Node program, which has incubated chapters across more than 20 countries, came to the same conclusion. Its node-maturity model (**Seed**, **Sapling**, **Canopy**) describes exactly this kind of growth. A Seed node is still building its core team; a Sapling has active engagement and real projects; a Canopy node is mature enough to "provide shelter and support" to others. New members are seedlings. Your onboarding system is what gives them something to grow up.
 
-## The Onboarding Journey
+## The First 90 Days Decide Everything
 
-### Stage 1: Discovery (Before They Join)
+If you remember one thing, remember this window. Across volunteer and membership research, the pattern is consistent: people who don't form a real connection early are much more likely to leave. One membership-sector analysis puts members who don't engage in their first 90 days at 60 to 70% more likely to be gone by renewal time. Early dropout is almost never a motivation problem. People showed up motivated. It's an onboarding problem.
 
-**What happens**: Potential members learn about your node and decide to explore.
+The single highest-leverage move is also the oldest: a **buddy**, pairing each newcomer with one existing member whose only job is to make them feel known. The evidence is strong. Microsoft's onboarding-buddy program found new hires with a buddy were 23% more satisfied with onboarding in their first week, rising to 36% more satisfied by 90 days, and organizations that run buddy systems report higher new-member retention. Treat the exact percentages as directional, not gospel (they come from corporate HR contexts), but the direction is solid and it's free.
 
-**Your job**: Make a great first impression and set accurate expectations.
+One concrete test from volunteer research: does a newcomer leave their first event knowing at least one other person's name? If yes, they tend to come back. If no, they tend not to. That's a bar you can actually design for.
 
-**Key practices:**
-- Clear, jargon-free explanation of what your node does
-- Honest about what is required — time, money, commitment
-- Easy way to take the first step — attend an event, join a group, visit a meetup
-- Warm, personal responses to inquiries — not automated messages
+> 🔧 **For Practitioners:** Make the buddy assignment a visible, low-status, rotating role, not a favor you beg for. A simple shared sheet ("this week's welcomers: Ana, Marcus") works better than a heroic volunteer coordinator, because it spreads the emotional labor and means the system survives any one person leaving.
 
-**What to avoid:**
-- Overhyping results without substance
-- Technical jargon that excludes newcomers
-- Making it feel like a sales pitch rather than an invitation
-- Gatekeeping attitudes — "you need to prove you are serious first"
+## Build the Trellis: A Repeatable First Week
 
-### Stage 2: First Contact (First 24-48 Hours)
+Here's a first-week structure you can copy. It's deliberately boring and deliberately finite: boring so anyone can run it, finite so it ends and nobody lives in permanent "onboarding" limbo.
 
-**What happens**: New member makes initial contact and gets oriented.
+**Day 1: A human says hello.** Not the org. A named person. "Hi, I'm Ana, I'll be your buddy this month, what brought you to us?" One question. Wait for the answer. This is the whole game.
 
-**Your job**: Make them feel seen, welcomed, and equipped to participate.
+**Day 2-3: Context, lightly.** Share the node's story in two minutes, not twenty pages: why it exists, one thing it's done, who's involved. Link a single short page, not a 47-channel workspace. Then introduce them to one or two members who share their interest.
 
-**Key practices:**
-- Personal welcome from a real human — not just an automated message
-- Clear next steps: what is the easiest way to participate?
-- Introduction to one or two existing members as buddies
-- Access to basic information: how the node works, who is involved, what is coming up
-- Answers to any immediate questions
+**Day 4-5: A real invitation.** A personal invite to the next gathering, with what to expect and an offer to answer questions first. "I'll be there, find me" removes the activation energy of walking into a room of strangers.
 
-**The buddy system**: Pair each new member with an existing member whose job is to:
-- Send a personal welcome
-- Answer questions without judgment
-- Introduce them to others
-- Check in after the first event
+**Day 6-7: A genuine follow-up.** After their first event: "How was it? Anything confusing?" That last question is your best research. The people who just joined can see every rough edge you've gone blind to.
 
-**What to avoid:**
-- Dumping them in a group chat with hundreds of messages and no context
-- Assuming they will figure it out
-- Overwhelming them with information
-- Treating them as a number, not a person
+That's it. Resist the urge to add more. The classic mistake is drowning a newcomer in documentation, Discord channels, and a two-hour orientation video on day one. Pace the information. Curiosity is a renewable resource only if you don't exhaust it in week one.
 
-### Stage 3: First Participation (First 1-2 Weeks)
+## Use Web3 as a Welcome Mat, Not a Gate
 
-**What happens**: New member attends their first gathering, makes their first transaction, or contributes for the first time.
+You know the tooling. The trap is using it to filter people instead of welcoming them. A **token-gate** (requiring someone to hold a specific token or NFT to enter a space) on day one tells a curious newcomer "prove you belong before we let you in." That's the central-overreach instinct in miniature, and it kills nodes.
 
-**Your job**: Create a positive, memorable first experience.
+Flip the tools to do the opposite:
 
-**Key practices:**
-- At their first gathering: personally introduce them to people, check in on their comfort, include them in conversations
-- For their first transaction: walk them through it, celebrate the moment
-- After first participation: follow up. "How was it? What questions came up?"
-- Invite feedback: "What would have made this easier?"
+- **POAP** (Proof of Attendance Protocol, a free collectible NFT minted to people who show up to an event, issued on Gnosis Chain so both organizers and attendees pay nothing) makes a newcomer's *first* moment a small gift, not a test. They came; they get a memento; they're now visibly part of the story. Distribute it via a QR code at the event.
+- **USSD and phone-first access**, as Grassroots Economics does in Kenya, meets people where they already are. Anyone can join the Sarafu community currency by dialing `*384*96#` on Safaricom from any phone: no wallet, no seed phrase, no laptop. The blockchain is invisible. The barrier is gone. Will Ruddick's team built their onboarding around community savings groups (*chamas*) so that joining is a social act, not a solo technical one.
 
-**First transaction matters**: In a timebank or local currency system, the first exchange is a milestone. Make it positive. Help them complete it. Celebrate when they do.
+The principle: technology should lower the first step, never raise it. If your onboarding requires a newcomer to understand your stack before they can say hello, your stack is the obstacle.
 
-**What to avoid:**
-- Leaving them to figure it out alone
-- Embarrassing them in front of the group
-- Making their first experience complicated or high-stakes
-- Forgetting to follow up
+## Protect Yourself From Burnout (This Is Onboarding Too)
 
-### Stage 4: Integration (First 1-3 Months)
+Here's the part the playbooks skip. The person most at risk in your node's first year is *you*. ReFi DAO's own Local Node Incubator, a structured 15-week cohort that drew 100-plus participants and earned a Net Promoter Score of 9.4 out of 10 from stewards, exists precisely because doing this alone is unsustainable. Stewards from chapters like ReFi Medellín and ReFi Costa Rica, two of the network's most mature nodes, didn't scale by working harder; they scaled by building teams and partnerships.
 
-**What happens**: New member becomes a regular participant with relationships and contributions.
+Onboarding well is how you stop being the bottleneck:
 
-**Your job**: Help them find their place and contribution.
+- **Every newcomer is a potential future buddy.** The integration goal isn't "they attend." It's "they're ready to welcome the next person." A node where members onboard members is a node that doesn't need you in the room.
+- **Graduate people into roles, on purpose.** Week 1: observe. Month 1: first contribution (help set up, share a skill). Month 3: a real role (facilitator, welcomer, working group). Each step is a handoff of work *off your plate*.
+- **Let the network carry weight you don't have to.** This is where being part of a larger network earns its keep: shared onboarding guides, a sibling node to ask, a cohort of stewards who've hit the same wall. Lean on it. That's not central overreach, that's mutual aid. Overreach is when the center dictates *how your community must run*. Support is when it hands you a trellis and gets out of the way. Take the support; guard the autonomy.
 
-**Key practices:**
-- Multiple touchpoints: events, messages, check-ins
-- Help them find their niche: what can they contribute? Skills, time, connections, ideas
-- Invite them to deeper participation: governance discussions, working groups, volunteering
-- Connect them with members who share their interests
-- Celebrate milestones: first trade, first event attended, first contribution
-
-**Graduated participation:**
-- Week 1-2: Attend events, observe
-- Month 1: Participate in one or two activities, make first transaction
-- Month 2: Contribute something small — help with an event, share a skill
-- Month 3: Take on a meaningful role — facilitator, welcome team, working group
-
-**What to avoid:**
-- Expecting too much too fast
-- Only contacting them when you need something
-- Leaving them in the "new member" category indefinitely
-
-### Stage 5: Membership (3+ Months)
-
-**What happens**: They have passed the integration stage. They are a member in practice.
-
-**Your job**: Acknowledge it and continue supporting their growth.
-
-**Key practices:**
-- Acknowledge their transition to full membership
-- Invite them to governance discussions
-- Encourage them to bring others
-- Celebrate their contributions publicly
-
----
-
-## The First 7 Days: A Detailed Timeline
-
-### Day 1: Welcome Message
-- Personal greeting from a buddy or organizer
-- What to expect in the coming week
-- Invitation to next gathering
-- Link to basic info — FAQ, intro document
-
-### Day 2-3: Context
-- Share your node's story: why it exists, what you have accomplished
-- Introduce them to two or three members with similar interests
-- Ask about their interests and what brought them here
-
-### Day 4-5: First Event Invitation
-- Personal invite to upcoming gathering
-- What to expect
-- Offer to answer questions beforehand
-
-### Day 6-7: Follow-Up
-- After their first event: how was it? What resonated?
-- Answer any questions
-- Thank them for coming
-
----
-
-## Practical Onboarding Tools
-
-### Welcome Packet
-Include:
-- One-page overview of what the node does
-- Who is involved — names, roles, a bit about each person
-- Calendar of upcoming events
-- Simple next steps for getting involved
-- Glossary of terms — avoid jargon
-- Contact info for questions
-
-In Somaliland and East Africa, you can share this as a simple document via WhatsApp, or print a one-page version for in-person meetings. WhatsApp is widely used and works well for this — no fancy platform needed.
-
-### New Member Orientation Session
-A dedicated 30-60 minute session — in person or via voice call — covering:
-- The node's history and purpose
-- How the system works
-- Who is involved
-- How to get started
-- Questions and answers
-
-Run this monthly or before major events.
-
-### Member Tracking
-If you have a simple system:
-- Notes on each new member — their interests, what they contributed
-- Check-in reminders — who needs a follow-up this week
-- Progress tracker — where each person is in the journey
-
-You can manage this in a simple notebook, a shared document, or WhatsApp notes.
-
----
-
-## Common Onboarding Mistakes
-
-### Mistake 1: No Onboarding at All
-New members figure it out or do not. This loses most people.
-
-### Mistake 2: Overwhelming New Members
-Dumping 50 pages of documentation, multiple group chats, and a long video on them immediately. Pace the information.
-
-### Mistake 3: One-Size-Fits-All
-Everyone gets the same generic onboarding. Tailor to the individual — someone interested in governance needs different information than someone interested in trading.
-
-### Mistake 4: Treating Onboarding as Done
-Just because someone attended one event does not mean they are onboarded. Continue supporting them until they are a regular.
-
-### Mistake 5: Not Asking for Feedback
-The best onboarding improvements come from new members. Ask: "What would have made this easier? What was confusing?"
-
----
-
-## Measuring Onboarding Success
-
-Track these:
-- **First-touch-to-first-participation rate**: How many who inquire actually attend?
-- **First-participation-to-second-participation rate**: How many come back after the first time?
-- **Time to first transaction**: How long until they make their first exchange?
-- **90-day retention**: What percentage are still active after 3 months?
-- **Member satisfaction**: Ask new members how their onboarding experience was
-
-If these numbers are low, invest in onboarding. If they are high, you are doing something right.
-
----
+If onboarding still depends entirely on your energy after six months, that's the warning sign. Not a busy week, but a structural one. Fix the system, not your stamina.
 
 ## Try This
 
-**Your 7-Day New Member Sprint**
+> **Start here:** Write the Day 1 message. One short, warm paragraph a buddy can send any newcomer tomorrow, ending in a single open question ("what brought you here?"). Save it where your team can find it. You now have the first plank of your trellis.
 
-Pick one new member — or your next person who expresses interest — and run this:
+> **Go deeper:** Set up a free POAP for your next event (poap.xyz) and assign two members as that month's buddies, with the one job of learning each newcomer's name and following up on day 6. Afterward, ask every newcomer one question: "what would have made this easier?" Write down the answers.
 
-- **Day 1**: Send a personal welcome message. Introduce yourself. Share one simple next step.
-- **Day 2-3**: Share your node's story — why it exists, what you have done together. Ask them what brought them here.
-- **Day 4-5**: Invite them to your next gathering personally. Tell them exactly what to expect.
-- **Day 6-7**: After the event, follow up. Ask how it felt. Answer one question. Thank them for coming.
-
-That is it. Seven days. One person. No platform required — WhatsApp or a phone call works fine.
-
----
-
-## Moving Forward
-
-Onboarding is not a process you design once and forget. It is a living practice that improves with attention. Keep asking: what is working? What would make it better?
-
-The goal is simple: every new member should feel genuinely welcomed, clearly oriented, and warmly invited to participate. Do that consistently, and your node will grow.
-
----
+> **Stretch:** Map your node against the Seed / Sapling / Canopy stages and design the full 90-day path that turns a first-time attendee into someone who welcomes the *next* newcomer. Build it so it runs without you in the room, then test that by stepping back from one onboarding cycle entirely and watching whether the trellis holds.
 
 ## References
 
-- Cooperative onboarding guides — International Cooperative Alliance (ica.coop)
-- Community building research — Center for Community Health and Development, University of Kansas
+- [ReFi DAO Local Node Incubator, Beta Cohort Retrospective](https://blog.refidao.com/local-node-incubator/), real metrics and lessons from incubating local nodes; source of the Seed/Sapling/Canopy maturity model, the 15-week / 100-plus-participant cohort, and the 9.4 steward NPS.
+- [ReFi Local Nodes, Global Network Map](https://refidao.com/local-nodes), the live directory of place-based regenerative nodes worldwide, useful for finding a sibling node to learn from.
+- [Grassroots Economics, Community Currencies](https://grassrootseconomics.org/community-currencies), how Sarafu uses USSD (`*384*96#`) and savings groups (chamas) to onboard members with no crypto knowledge required.
+- [POAP](https://poap.xyz/), free proof-of-attendance NFTs (on Gnosis Chain) for turning a newcomer's first event into a welcome gift rather than a test.
+- [VolunteerHub, Onboarding for Retention](https://volunteerhub.com/blog/how-to-build-a-volunteer-onboarding-process-that-improves-retention), why early dropout is an onboarding problem, and the finding that newcomers who leave knowing one person's name come back.
+- [i4a, 90-Day New Member Onboarding](https://www.i4a.com/blog/new-member-onboarding/), membership-sector data behind the first-90-days renewal-risk figures (treat exact percentages as directional).
+- [Microsoft, Every New Employee Needs an Onboarding Buddy](https://techcommunity.microsoft.com/blog/viva_insights_blog/every-new-employee-needs-an-onboarding-buddy/3862435), the 23%-rising-to-36% buddy satisfaction figures from Microsoft's internal study.

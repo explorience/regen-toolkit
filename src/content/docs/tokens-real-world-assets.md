@@ -35,7 +35,7 @@ stage: build
 
 ## What Are Real-World Assets?
 
-Real-world assets (RWAs) are valuable things that exist outside blockchain — houses, gold, bonds, patents, art. When we "tokenize" them, we create a digital token on a blockchain that proves ownership.
+Real-world assets (RWAs) are valuable things that exist outside blockchain, houses, gold, bonds, patents, art. When we "tokenize" them, we create a digital token on a blockchain that proves ownership.
 
 Instead of a paper deed, you hold a token. It can be traded like crypto, but its value is backed by something real.
 
@@ -69,36 +69,36 @@ Someone in Kenya can invest in London real estate. Geographic barriers disappear
 
 ## Real Challenges
 
-- **Legal complexity** — Blockchains cross borders, but assets follow national laws
-- **Valuation** — Token price needs to match real-world value (oracles help)
-- **Custody** — Someone must physically hold the asset for token holders
-- **Scalability** — Infrastructure needs to handle more volume
+- **Legal complexity**, Blockchains cross borders, but assets follow national laws
+- **Valuation**, Token price needs to match real-world value (oracles help)
+- **Custody**, Someone must physically hold the asset for token holders
+- **Scalability**, Infrastructure needs to handle more volume
 
 ---
 
 ## Who's Involved
 
-- **Issuers** — Companies, governments tokenizing assets (Centrifuge, Polymath)
-- **Platforms** — Tech infrastructure for creating tokens
-- **Liquidity providers** — Keep trading markets active
-- **Service providers** — Legal, custodians, compliance
+- **Issuers**, Companies, governments tokenizing assets (Centrifuge, Polymath)
+- **Platforms**, Tech infrastructure for creating tokens
+- **Liquidity providers**, Keep trading markets active
+- **Service providers**, Legal, custodians, compliance
 
 ---
 
 ## What's Happening Now
 
-- Tokenized government treasuries — fast-growing category
-- Carbon credit trading — easier tracking
-- Fractional art — owning Picasso for $50
+- Tokenized government treasuries, fast-growing category
+- Carbon credit trading, easier tracking
+- Fractional art, owning Picasso for $50
 
 ---
 
 ## Action Items
 
-1. **Explore a platform** — Try Centrifuge or Polymath to understand how it works
-2. **Start small** — Look into tokenized gold or small real estate fractions
-3. **Watch the regs** — Follow your country's RWA regulations
-4. **Think about use cases** — What could you tokenize? What problems does it solve?
+1. **Explore a platform**, Try Centrifuge or Polymath to understand how it works
+2. **Start small**, Look into tokenized gold or small real estate fractions
+3. **Watch the regs**, Follow your country's RWA regulations
+4. **Think about use cases**, What could you tokenize? What problems does it solve?
 
 ---
 

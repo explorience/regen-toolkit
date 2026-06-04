@@ -1,0 +1,100 @@
+/* =====================================================================
+   Starlight overrides — make the article/docs pages wear the
+   "Regenerative Field Guide" identity. Loaded after theme.css.
+   ===================================================================== */
+@import "./theme.css";
+
+/* ---------- map Starlight tokens to the field-guide palette ---------- */
+:root,
+:root[data-theme="dark"] {
+  --sl-font: var(--font-body);
+  --sl-font-system: var(--font-ui);
+  --sl-color-accent-low: color-mix(in oklab, var(--moss) 22%, var(--paper));
+  --sl-color-accent: var(--moss);
+  --sl-color-accent-high: var(--growth);
+  --sl-color-text-accent: var(--moss);
+  --sl-color-bg: var(--paper);
+  --sl-color-bg-nav: color-mix(in oklab, var(--paper-2) 86%, transparent);
+  --sl-color-bg-sidebar: var(--paper-2);
+  --sl-color-bg-inline-code: color-mix(in oklab, var(--moss) 10%, var(--paper-2));
+  --sl-color-hairline: var(--line);
+  --sl-color-hairline-light: var(--line);
+  --sl-color-hairline-shade: var(--line-strong);
+  --sl-color-text: var(--ink);
+  --sl-color-gray-1: var(--ink);
+  --sl-color-gray-2: var(--ink-soft);
+  --sl-color-gray-3: var(--ink-faint);
+  --sl-color-gray-4: var(--ink-faint);
+  --sl-color-gray-5: var(--line-strong);
+  --sl-color-gray-6: var(--line);
+  --sl-color-gray-7: var(--paper-2);
+  --sl-content-width: 50rem;
+  --sl-text-code: .9em;
+}
+:root[data-theme="dark"] {
+  --sl-color-text-accent: var(--growth);
+}
+
+/* ---------- chrome ---------- */
+body { background: var(--paper); }
+.fg-grain-fixed { position: fixed; inset: 0; pointer-events: none; z-index: 1;
+  background-image: var(--grain); opacity: .4; mix-blend-mode: multiply; }
+:root[data-theme="dark"] .fg-grain-fixed { mix-blend-mode: screen; opacity: .3; }
+
+header.header { backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.site-title { font-family: var(--font-display); font-weight: 600; letter-spacing: -.02em; }
+
+/* sidebar: field-guide index feel */
+.sidebar-content a[aria-current="page"] {
+  background: color-mix(in oklab, var(--moss) 14%, transparent);
+  color: var(--moss); font-weight: 600; border-radius: 8px;
+}
+nav.sidebar a { font-family: var(--font-ui); }
+.sidebar-content summary .group-label span,
+nav.sidebar .group-label span {
+  font-family: var(--font-mono); text-transform: uppercase;
+  letter-spacing: .14em; font-size: .72rem; color: var(--moss-soft);
+}
+
+/* ---------- prose ---------- */
+.sl-markdown-content { font-size: 1.075rem; line-height: 1.72; }
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4 { font-family: var(--font-display); letter-spacing: -.015em; }
+.content-panel h1#_top { font-size: clamp(2.1rem, 4vw, 3rem); line-height: 1.05; }
+
+.sl-markdown-content h2 {
+  margin-top: 2.4em; padding-top: .4em; position: relative; font-weight: 560;
+}
+.sl-markdown-content h2::before {
+  content: ""; position: absolute; top: -.1em; left: 0; width: 2.2rem; height: 3px;
+  border-radius: 3px; background: linear-gradient(90deg, var(--growth), var(--moss));
+}
+
+.sl-markdown-content a {
+  color: var(--moss); text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, var(--moss) 35%, transparent);
+  text-underline-offset: 3px; text-decoration-thickness: 1.5px;
+  transition: text-decoration-color .2s;
+}
+.sl-markdown-content a:hover { text-decoration-color: var(--growth); }
+
+/* "Try This" and other blockquotes become field-guide call-outs */
+.sl-markdown-content blockquote {
+  border-left: 3px solid var(--growth);
+  background: color-mix(in oklab, var(--growth) 9%, var(--paper-2));
+  border-radius: 0 14px 14px 0; padding: 1em 1.3em; font-style: normal;
+  color: var(--text);
+}
+.sl-markdown-content blockquote strong { color: var(--moss); font-family: var(--font-ui); }
+
+.sl-markdown-content table { font-size: .95rem; border-radius: 12px; overflow: hidden; }
+.sl-markdown-content th { background: color-mix(in oklab, var(--moss) 12%, var(--paper-2)); font-family: var(--font-ui); }
+.sl-markdown-content :not(pre) > code {
+  font-family: var(--font-mono); border: 1px solid var(--line);
+  border-radius: 6px; padding: .12em .4em;
+}
+
+/* hero/splash tune-up if any docs use splash */
+.hero h1 { font-family: var(--font-display); }

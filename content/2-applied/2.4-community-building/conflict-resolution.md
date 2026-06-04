@@ -1,207 +1,105 @@
 ---
-title: Conflict Resolution for Community Finance Communities
-description: How to navigate disagreements constructively in community governance, timebanks, and local currency systems.
-slug: 2-applied-2.4-community-building-conflict-resolution
-section: '2.4'
-track: 2
-status: published
-author: Tej
-sources:
-- Nonviolent Communication (Marshall Rosenberg)
-- Adaptive Leadership (Heifetz & Linsky)
-- Crucial Conversations (Patterson et al.)
-audience:
-- grounded-regen
-estimated_words: 1700
-created: '2026-03-12T20:30:00.000Z'
-last_updated: '2026-03-14T11:00:00.000Z'
-research_done: true
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-category: applied
+title: "Conflict Resolution for Local Nodes"
+description: "A practitioner's playbook for handling disagreements in a local regen node or chapter, with real DAO examples and the tooling that backs it up."
 ---
 
-# Conflict Resolution for Community Finance Communities
+# Conflict Resolution for Local Nodes
 
-*How to navigate disagreements constructively in community governance*
+Six months into your local node, two of your most active members stop speaking to each other. One thinks the treasury should fund a real-world planting day; the other thinks every cent should go to the people doing the work. The Telegram group goes quiet. People start sending you DMs instead of posting in the open. You can feel the node start to thin out.
 
----
+This is the moment that decides whether your node survives its first year. Not the smart contract, not the token, not the grant. The conflict.
 
-## Conflict Is Inevitable
+If you run a community long enough, you will hit this. Not because something is broken, but because you are asking people to share resources, make collective decisions, and trust strangers with money. Conflict is not a failure signal. It is proof that people care enough to disagree. The question is never whether you face it, only whether you face it well.
 
-If you run a community finance system long enough, you will have conflict. Not because your community is broken — but because you're asking people to share resources, make collective decisions, and navigate competing interests. Conflict isn't a failure. It's a sign that people care enough to disagree.
+## Most conflict is not about what it looks like
 
-The question isn't whether you'll face conflict — it's whether you'll face it well. Communities that handle conflict poorly fracture, lose members, and sometimes collapse entirely. Communities that handle conflict well emerge stronger, with clearer agreements and deeper trust.
+A fight about treasury allocation is usually a fight about trust. A fight about governance process is usually a fight about power. A heated thread about token weights is usually someone who feels unheard.
 
-This isn't about avoiding conflict. It's about developing the skills to move through it.
+The surface issue is rarely the real issue. Marshall Rosenberg's **Nonviolent Communication** — a framework for talking through conflict by naming observations, feelings, needs, and requests instead of trading blame — points out that most arguments stall at the observation level ("you spent too much") and never reach the need underneath ("I get scared when the treasury drops, because I need to know we will still be here next year").
 
----
+You can watch a disagreement climb a ladder:
 
-## Understanding What Conflict Really Is
+1. **Disagreement** — different views, still respectful
+2. **Criticism** — "that was a bad call"
+3. **Complaint** — "you always do this"
+4. **Contempt** — "you have no idea what you are doing"
+5. **Defensiveness** — "not my fault"
+6. **Stonewalling** — silence, withdrawal, members ghosting the group chat
 
-Most conflict isn't about the thing it appears to be about. A disagreement about treasury allocation might actually be about trust. A conflict about governance process might actually be about power. A heated debate about token economics might actually be about feeling unheard.
+Caught at rungs 1 and 2, almost anything is resolvable. By rungs 5 and 6, the relationship is the thing that is damaged, and no governance vote will fix that. Your job as a node builder is to catch conflict low on the ladder, in public, before it goes to DMs.
 
-The surface issue is rarely the real issue. Marshall Rosenberg's Nonviolent Communication framework identifies four components: observations, feelings, needs, and requests. Most conflicts stay at the observation level ("you spent too much money") without ever reaching the needs level ("I feel scared when our treasury is depleted because I need security for the community's future").
+## The pitfall that kills nodes: letting structure decide what relationships should
 
-**The conflict escalation ladder:**
+Here is the trap that catches new node builders. When a disagreement gets uncomfortable, you reach for a mechanism — a vote, a rule, a tool — to make the discomfort go away. It feels decisive. It is usually a mistake.
 
-1. **Disagreement** — Different perspectives, still respectful
-2. **Criticism** — "You made a bad decision"
-3. **Complaint** — "You always do this"
-4. **Contempt** — "You're incompetent"
-5. **Defensiveness** — "It's not my fault"
-6. **Stonewalling** — Silence, withdrawal, refusal to engage
+The most expensive governance blow-up in DAO history is a warning here. In 2023 the **Aragon** project — one of the original toolkits for spinning up an on-chain organization — tried to hand its roughly $155M treasury to token holders. A cluster of investors bought up tokens specifically to force a payout, which the team called a "51% attack" by "governance raiders." Aragon responded by cancelling the handover, then dissolving itself and redeeming the treasury, all without a community vote. The DAO that remained voted to fund legal action against its own founders ([CoinDesk](https://www.coindesk.com/business/2023/05/09/aragon-cancels-planned-community-control-of-200m-treasury-amid-battle-with-activist-investors/), [Blockworks](https://blockworks.com/news/aragon-dao-dissolves-ether)).
 
-Most conflicts can be resolved if caught at levels 1-2. By level 5-6, the relationship is damaged. The goal isn't to avoid conflict — it's to catch it early and address the underlying needs.
+The lesson for a local node is not "avoid bad actors." It is that no clever mechanism saves you once trust is gone, and that reaching for a unilateral structural lever to end a fight tends to detonate the relationship instead. Protect the relationship first. The structure is a backstop, not a referee.
 
----
+## Five principles for community money fights
 
-## Principles for Community Finance Contexts
+**1. Separate the person from the problem.** In financial contexts it is easy to slide from "you voted against my proposal" to "you do not care about this community." Train the node to split **positions** (what someone wants) from **interests** (why they want it), and decisions from the people who made them. A no vote is data, not a verdict on someone's character.
 
-### 1. Separate the Person from the Problem
+**2. Acknowledge the feeling before you solve the problem.** When someone is upset they need to feel heard before they can think. "It sounds like the treasury draw really worried you" costs thirty seconds and de-escalates more conflicts than any framework. Skip it and your reasonable solution lands as a dismissal.
 
-In financial contexts, it's easy to conflate decisions with character. "You voted against my proposal" becomes "you don't care about our community." This is toxic.
+**3. Chase the need, not the position.** "We should fund more grants" is a position. The need under it might be "I need to show real impact or I will burn out defending this node to skeptics." Find the need and you usually find three ways to meet it. Ask, genuinely curious: "what does that get for you?"
 
-Train your community to separate:
-- **Positions** (what someone wants) from **interests** (why they want it)
-- **Decisions** (the outcome) from **process** (how it was made)
-- **Mistakes** (what happened) from **competence** (what it means about the person)
+**4. Build real containers for hard talks.** Some conflicts need more than a thread. Use a **mediated conversation** (a neutral member, not necessarily a pro, helps both sides be heard), written reflections where each party drafts their view and reads the other's before talking, or a **restorative circle** if real harm was done, so the harmed person can name the impact and the other can take responsibility. When emotions run hot, agree to a 24-48 hour pause.
 
-### 2. Acknowledge Emotions Before Solving Problems
+**5. Let process depersonalize the deadlock.** This is where mechanism belongs. "If we cannot agree, the working group decides through our consent process" removes the pressure to win every argument. Losing a transparent process feels survivable. Being personally overruled by a friend does not.
 
-When someone is upset, they need to feel heard before they can think clearly. Jumping straight to solutions ("here's what we should do") misses the emotional content.
+## The clean conflict process
 
-The fix: acknowledge first. "It sounds like this has been really frustrating for you" before "let me explain my thinking." This takes 30 seconds and often deescalates the entire conflict.
+When a fight flares, run these six steps in order. Do not skip to step five.
 
-### 3. Focus on Needs, Not Positions
+1. **Pause.** Name what you feel and what you need before you reply. A hot reply in the group chat is a rung-3 move that invites a rung-4 answer.
+2. **Check intent.** Ask "what are you hoping for here?" This drags the conversation from positions toward interests.
+3. **Acknowledge.** Reflect their view back before you give yours. Acknowledge is not agree. "I hear that you are worried we are spending faster than we can sustain. Given last quarter, that is fair."
+4. **Share your need.** Now your side, framed as a need. "I need to see us actually doing things in the world, which is why I pushed for the planting day."
+5. **Co-create.** Brainstorm out loud, write down every idea, judge none of them yet. Look for the option that meets both needs.
+6. **Agree and follow up.** Write down what you decided and set a check-in date. Most agreements drift without a follow-up.
 
-"We need to allocate more to grants" is a position. The underlying need might be "we need to demonstrate impact to attract new members." When you find the need, you often discover multiple solutions.
+## When mechanism does help: optimistic challenges
 
-Practice: when someone advocates for something, ask "what need of yours does that serve?" Not confrontationally — genuinely curious. You'll often find shared needs that can be met in different ways.
+There is a healthy way to put tooling behind your social process, and the regen space already built it. **1Hive's Gardens** — a DAO template used by communities like the Token Engineering Commons — pairs **conviction voting** (support for a proposal builds over time, like interest, so funding flows to what the community consistently backs rather than to whoever wins a single noisy day) with a written **covenant**: a plain-language agreement of the community's values and what kinds of proposals are out of bounds.
 
-### 4. Create Containers for Hard Conversations
+The clever part is the challenge. Anyone can flag a proposal as violating the covenant, which pauses it and sends the question to **Celeste**, a dispute-resolution layer where a random set of token-holders rules on whether the challenge holds. This "act first, get challenged if you crossed a line" pattern is called **optimistic governance**, and it scales because most proposals are fine and only the contested few ever need adjudication ([Gardens docs](https://1hive.gitbook.io/celeste/), [Token Engineering Commons](https://forum.tecommons.org/)).
 
-Some conflicts need more time and structure than a casual chat. Create explicit containers:
+For genuinely intractable, high-stakes disputes — a contested payout, an accusation of bad faith — some DAOs escalate to **Kleros**, a decentralized arbitration protocol that acts as a "Supreme Court" by paying randomly drawn jurors to rule on a case. Kleros 2.0 has run its Court V2 in beta on Arbitrum One since late 2024 and has handled hundreds of disputes, including real cases for fintechs and Argentine local governments ([Kleros 2026 update](https://blog.kleros.io/kleros-project-update-2026/)). For a young node this is overkill, but knowing it exists lets you tell members "there is a path even if we cannot resolve this ourselves."
 
-- **Mediated conversations**: A neutral third party (not necessarily a professional mediator — just someone not invested in the outcome) helps facilitate
-- **Written reflections**: Sometimes people process better in writing. Ask each party to write down their perspective, then read each other's before discussing
-- **Restorative circles**: If harm was done, a circle process allows the person who was harmed to express impact and the person who caused harm to take responsibility
-- **Time-bounded pauses**: If emotions are hot, agree to pause for 24-48 hours, then return to the conversation fresh
+## The slow-burn conflict: contributor rewards and burnout
 
-### 5. Use Governance Process as a Backstop
+Not every conflict explodes. Some corrode. The most common one in regen nodes is about who deserves what, and it is also where two of your fears — burnout and central overreach — meet.
 
-When interpersonal conflict can't be resolved, governance process should provide a clear path forward. This is why having explicit decision-making processes matters — they depersonalize disagreements.
+**SourceCred** is the cautionary tale. It was an algorithm that scored contributions and paid out a token called Grain. In theory it ran quietly so people could just contribute. In practice, members optimized for cred instead of the mission, the few people steering the weights became a soft center of power, and managing rewards consumed the energy meant for the work. The project had largely wound down by 2022 ([Ellie Rennie's ethnography](https://ellierennie.medium.com/an-ethnography-of-sourcecreds-credsperiment-396a81efe355)).
 
-"If we can't agree, we'll use our consent process" or "the steering committee will decide this" removes the pressure of needing to reach consensus on everything. Disagreeing with a process outcome is easier than feeling personally rejected by another member.
+**Gitcoin** lived the same pattern in its volunteer **steward** model — members with governance power but no clear duties, no pay, no accountability. A handful did the work, most went passive, the active few burned out. In its 2025 governance revamp Gitcoin replaced unpaid stewards with compensated delegates who have explicit, renewable responsibilities ([Gitcoin Governance Manual](https://manual.gitcoin.co/introduction-and-overview/2025-revamp)).
 
----
+For your node: do not bolt a rewards algorithm onto a group that has not yet agreed what it values. Name the contribution norms in words first. Pay for real responsibility instead of leaning on the same three volunteers until they quit. And watch for the quiet capture where "the people who steer the weights" becomes "the people who run the place."
 
-## Practical Framework: The Clean Conflict Process
+## When to escalate, and when to stop
 
-When conflict arises, use this step-by-step process:
+Some conflicts do not belong at the node level. Pull in outside help when there is a legal or liability question, when someone feels genuinely unsafe (their wellbeing outranks your process), or when the same fight keeps recurring — a repeated conflict is a structural problem wearing a personal costume. Saying "we need outside help" is not failure. It is the move that keeps the node alive.
 
-### Step 1: Pause
+And accept the limit: not everyone has to be friends. If two members simply grate on each other but the work is fine, do not force reconciliation. Sometimes the cleanest fix is structural — reorganize responsibilities so they interact less, and move on.
 
-Before responding, pause. Count to 10. Take a breath. Ask yourself: "What am I feeling, and what do I need?" This isn't about suppressing — it's about understanding before acting.
+## Try This
 
-### Step 2: Check Intent
+> **Start here:** Run the preemptive agreement, today. Gather the node for 30 minutes — separate from any regular meeting — and answer four questions together, in writing: When someone upsets us, what should they expect from us? What does a respectful disagreement look like here? Who can people go to when they feel stuck? What behavior would get someone asked to leave? That document is your conflict agreement. Revisit it every six months.
 
-Ask the other person (or yourself): "What are you hoping for here?" This separates positions from interests and often reveals shared goals.
+> **Go deeper:** Write your node's **covenant** — one page of plain-language values and out-of-bounds behavior — and post it where every member can see it. Model it on the Gardens covenant pattern. Even if you never wire it to an on-chain challenge, the act of agreeing what is in bounds prevents the arguments where everyone assumed a different rulebook.
 
-### Step 3: Acknowledge
+> **Stretch:** Stand up a real optimistic-governance backstop. Spin up a [Gardens](https://gardens.1hive.org/) DAO on a testnet, attach your covenant, and run a mock proposal-and-challenge cycle so members see the full path from proposal to dispute before you ever need it in anger. Pair it with a [Snapshot](https://snapshot.box/) space for low-stakes temperature checks — Snapshot's gasless, off-chain voting now carries the large majority of major DAO votes, and the "Snapshot temp-check first, binding vote second" two-stage flow is current best practice for keeping signaling cheap and decisions legitimate.
 
-Before explaining your perspective, acknowledge theirs. Not agree — acknowledge. "I hear you saying you're worried about treasury safety. That makes sense given last quarter's spending."
+## References
 
-### Step 4: Share Your Needs
-
-Now share your perspective, framed around needs. "I need to see our community growing, which is why I advocated for more outreach spending."
-
-### Step 5: Co-Create Solutions
-
-Brainstorm together. Write down every idea without judgment. Look for solutions that meet both sets of needs.
-
-### Step 6: Agree and Follow Up
-
-Document what you agreed to. Set a check-in date to see if the solution is working. Most agreements need reinforcement to stick.
-
----
-
-## Common Scenarios in Community Finance
-
-### Scenario 1: Treasury Dispute
-
-**The conflict**: Members disagree about how to allocate funds. One faction wants to fund grants. Another wants to build reserves. Another wants to reimburse members.
-
-**The approach**: 
-- Acknowledge that all three positions come from valid needs (impact, security, fairness)
-- Request detailed budgets from each proposal — numbers often reveal hidden assumptions
-- Use a structured allocation process: each member gets equal allocation points to distribute
-- If stuck, allocate a portion to each and do a small pilot
-
-### Scenario 2: Governance Disagreement
-
-**The conflict**: Disagreement about how decisions should be made. Some want faster decision-making. Others want more process.
-
-**The approach**:
-- Distinguish between urgent and important decisions — apply different processes
-- Acknowledge that the desire for speed and the desire for inclusion both come from good places
-- Try time-bounded experiments: "Let's try this process for 3 months and review"
-- Let data (how decisions actually turned out) inform future process
-
-### Scenario 3: Interpersonal Tension
-
-**The conflict**: Two members don't get along. Communication is prickly. Others are starting to choose sides.
-
-**The approach**:
-- Don't force reconciliation — not everyone has to be friends
-- Focus on professional relationship: can you collaborate on work despite personal friction?
-- If the tension impacts operations, have a mediated conversation
-- Sometimes the solution is structural: reorganize responsibilities so they interact less
-
-### Scenario 4: Power Imbalance
-
-**The conflict**: Some members feel unheard or marginalized. Decisions keep being made by the same small group.
-
-**The approach**:
-- Name it directly: "I notice only 3 people spoke in that discussion"
-- Use facilitation techniques that ensure equal voice: round-robin, written proposals, talking sticks
-- Review your governance process with an equity lens
-- Create explicit spaces for newer or quieter members to contribute
-
----
-
-## When to Escalate
-
-Some conflicts can't be resolved at the local level:
-
-- **Legal issues**: If conflict involves potential liability, consult a professional
-- **Harm to individuals**: If someone feels unsafe, prioritize their wellbeing over process
-- **Repeated patterns**: If the same conflicts recur, there's a systemic issue that needs structural fix
-
-Know your limits. Saying "we need outside help" isn't failure — it's wisdom.
-
----
-
-## Building Conflict Resilience as a Practice
-
-The best communities don't just handle conflict when it arises — they build resilience as an ongoing practice:
-
-- **Regular retrospectives**: Process difficulties while they're fresh, not months later
-- **Relationship investments**: Strong relationships survive conflict; weak ones don't. Invest in relationships before you need them.
-- **Facilitation training**: More conflict-resilient communities have multiple members trained in facilitation
-- **Explicit agreements**: Document how you'll handle disagreements before they happen
-- **Celebrating resolution**: When conflict is handled well, name it. "We worked through that really thoughtfully."
-
----
-
-## Moving Forward
-
-Conflict isn't the enemy of community finance — it's the proof that people care enough about the community to disagree. Your goal isn't to eliminate conflict. It's to develop the skills and processes to move through it constructively.
-
-Start by naming this explicitly with your community. "We will have disagreements. Here's how we'll handle them." This single conversation prevents more conflicts than you'd think.
-
-When conflict arises, remember: the relationship is more important than any single decision. Protect the relationship first. The rest can be worked out.
+- [Aragon Cancels Planned Community Control of $200M Treasury (CoinDesk, 2023)](https://www.coindesk.com/business/2023/05/09/aragon-cancels-planned-community-control-of-200m-treasury-amid-battle-with-activist-investors/) — the governance-raider attack and the unilateral response that broke community trust.
+- [Aragon Association to Dissolve (Blockworks, 2023)](https://blockworks.com/news/aragon-dao-dissolves-ether) — how the treasury was redeemed and why the DAO sued its founders.
+- [Celeste documentation, 1Hive](https://1hive.gitbook.io/celeste/) — the optimistic dispute-resolution protocol behind covenant challenges in Gardens.
+- [Gardens by 1Hive](https://gardens.1hive.org/) — conviction-voting DAO template with covenant-based dispute resolution you can deploy yourself.
+- [Kleros Project Update 2026](https://blog.kleros.io/kleros-project-update-2026/) — current status of Kleros 2.0 / Court V2 decentralized arbitration, with real dispute metrics.
+- [An Ethnography of SourceCred's CredSperiment (Ellie Rennie)](https://ellierennie.medium.com/an-ethnography-of-sourcecreds-credsperiment-396a81efe355) — how a contributor-reward algorithm reshaped behavior and relationships, for worse.
+- [Gitcoin 2025 Governance Revamp](https://manual.gitcoin.co/introduction-and-overview/2025-revamp) — replacing unaccountable volunteer stewards with compensated delegates to fix burnout and unclear authority.
+- [Snapshot](https://snapshot.box/) — gasless off-chain voting used for temperature checks across most major DAOs.
+- Rosenberg, Marshall B. *Nonviolent Communication: A Language of Life* (PuddleDancer Press, 2015) — the observations-feelings-needs-requests framework underpinning this whole approach.
+- Lederach, John Paul. *The Little Book of Conflict Transformation* (Good Books, 2003) — treating conflict as a relationship to transform rather than a problem to eliminate.
