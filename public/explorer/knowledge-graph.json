@@ -505,252 +505,352 @@
     {
       "source": "why-regens-interested",
       "target": "what-web3-can-cant-do",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-web3-can-cant-do",
       "target": "common-concerns",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "common-concerns",
       "target": "what-is-decentralization",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-is-decentralization",
       "target": "what-is-blockchain",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-is-blockchain",
       "target": "what-is-cryptocurrency",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-is-cryptocurrency",
       "target": "stablecoins",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "stablecoins",
       "target": "how-to-get-crypto",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "how-to-get-crypto",
       "target": "what-is-wallet",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-is-wallet",
       "target": "setting-up-first-wallet",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "setting-up-first-wallet",
       "target": "seed-phrases",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "seed-phrases",
       "target": "common-scams",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "common-scams",
       "target": "what-is-dao",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-is-dao",
       "target": "what-is-refi",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-is-refi",
       "target": "refi-vs-defi-tradfi",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "refi-vs-defi-tradfi",
       "target": "find-your-community",
-      "journey": "newcomer"
+      "journey": "newcomer",
+      "type": "journey"
     },
     {
       "source": "what-is-local-node",
       "target": "local-node-model",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "local-node-model",
       "target": "why-local-matters",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "why-local-matters",
       "target": "local-nodes-and-daos",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "local-nodes-and-daos",
       "target": "is-community-ready",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "is-community-ready",
       "target": "minimum-viable-node",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "minimum-viable-node",
       "target": "building-founding-team",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "building-founding-team",
       "target": "legal-structures",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "legal-structures",
       "target": "first-90-days",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "first-90-days",
       "target": "funding-your-node",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "funding-your-node",
       "target": "funding-landscape",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "funding-landscape",
       "target": "gitcoin-grants-qf",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "gitcoin-grants-qf",
       "target": "giveth-donations",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "giveth-donations",
       "target": "writing-grant-proposals",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "writing-grant-proposals",
       "target": "building-trust",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "building-trust",
       "target": "onboarding-members",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "onboarding-members",
       "target": "conflict-resolution",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "conflict-resolution",
       "target": "common-pitfalls",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "common-pitfalls",
       "target": "types-of-gatherings",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "types-of-gatherings",
       "target": "planning-web3-events",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "planning-web3-events",
       "target": "funding-gatherings",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "funding-gatherings",
       "target": "why-measurement-matters",
-      "journey": "local-node"
+      "journey": "local-node",
+      "type": "journey"
     },
     {
       "source": "what-is-knowledge-commons",
       "target": "knowledge-gardens",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "knowledge-gardens",
       "target": "source-systems",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "source-systems",
       "target": "ontology-vs-taxonomy",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "ontology-vs-taxonomy",
       "target": "metadata-that-matters",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "metadata-that-matters",
       "target": "review-and-maturity",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "review-and-maturity",
       "target": "ai-community-tools",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "ai-community-tools",
       "target": "ai-assisted-classification",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "ai-assisted-classification",
       "target": "human-review-boundaries",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "human-review-boundaries",
       "target": "knowledge-tools-directory",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "knowledge-tools-directory",
       "target": "editorial-workflow",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "editorial-workflow",
       "target": "archive-compost",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "archive-compost",
       "target": "stewardship-roles",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
     },
     {
       "source": "stewardship-roles",
       "target": "federation-portability",
-      "journey": "knowledge-commons"
+      "journey": "knowledge-commons",
+      "type": "journey"
+    },
+    {
+      "source": "what-is-dao",
+      "target": "local-nodes-and-daos",
+      "type": "related"
+    },
+    {
+      "source": "what-is-refi",
+      "target": "funding-landscape",
+      "type": "related"
+    },
+    {
+      "source": "find-your-community",
+      "target": "what-is-local-node",
+      "type": "related"
+    },
+    {
+      "source": "refi-vs-defi-tradfi",
+      "target": "funding-landscape",
+      "type": "related"
+    },
+    {
+      "source": "what-is-decentralization",
+      "target": "federation-portability",
+      "type": "related"
+    },
+    {
+      "source": "building-trust",
+      "target": "stewardship-roles",
+      "type": "related"
+    },
+    {
+      "source": "onboarding-members",
+      "target": "what-is-knowledge-commons",
+      "type": "related"
+    },
+    {
+      "source": "conflict-resolution",
+      "target": "stewardship-roles",
+      "type": "related"
+    },
+    {
+      "source": "why-measurement-matters",
+      "target": "review-and-maturity",
+      "type": "related"
+    },
+    {
+      "source": "knowledge-gardens",
+      "target": "onboarding-members",
+      "type": "related"
     }
   ],
   "stats": {
     "topics": 52,
     "paths": 3,
-    "links": 49
+    "links": 49,
+    "related": 10
   }
 }

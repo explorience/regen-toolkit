@@ -94,7 +94,7 @@
       </div>
       <p class="label">Journeys &mdash; click to trace</p>
       <div id="journeys"></div>
-      <p class="hint">Drag to rearrange &middot; scroll to zoom &middot; click a node to open the article.</p>
+      <p class="hint"><b style="color:var(--ink);font-weight:600">Dotted</b> lines trace a journey in order. <b style="color:#A7B98A;font-weight:600">Solid</b> lines link related topics across journeys. Drag to rearrange, scroll to zoom, click a node to open the article.</p>
     </aside>
     <div id="graph">
       <div class="tip" id="tip"></div>
@@ -112,7 +112,7 @@
       const colorOf = id => COLOR[id] || '#74B58A';
       document.getElementById('s-topics').textContent = graph.stats.topics;
       document.getElementById('s-paths').textContent = graph.stats.paths;
-      document.getElementById('s-links').textContent = graph.stats.links;
+      document.getElementById('s-links').textContent = graph.stats.links + (graph.stats.related || 0);
 
       const jwrap = document.getElementById('journeys');
       const legend = document.getElementById('legend');
@@ -138,15 +138,17 @@
       const root = svg.append('g');
       svg.call(d3.zoom().scaleExtent([0.3, 3]).on('zoom', e => root.attr('transform', e.transform)));
 
-      const jx = { newcomer: 0.22, 'local-node': 0.52, 'knowledge-commons': 0.82 };
+      const jx = { newcomer: 0.27, 'local-node': 0.5, 'knowledge-commons': 0.73 };
       const nodes = graph.nodes.map(d => ({ ...d }));
       const links = graph.links.map(d => ({ ...d }));
 
       const sim = d3.forceSimulation(nodes)
-        .force('link', d3.forceLink(links).id(d => d.id).distance(46).strength(.6))
-        .force('charge', d3.forceManyBody().strength(-150))
-        .force('x', d3.forceX(d => jx[d.journey] * W()).strength(.18))
-        .force('y', d3.forceY(() => H() * 0.52).strength(.05))
+        .force('link', d3.forceLink(links).id(d => d.id)
+          .distance(d => d.type === 'related' ? 150 : 46)
+          .strength(d => d.type === 'related' ? 0.22 : 0.6))
+        .force('charge', d3.forceManyBody().strength(-175))
+        .force('x', d3.forceX(d => jx[d.journey] * W()).strength(.1))
+        .force('y', d3.forceY(() => H() * 0.5).strength(.04))
         .force('collide', d3.forceCollide(16));
 
       const clabels = root.append('g').selectAll('text').data(graph.journeys).join('text')
@@ -154,8 +156,11 @@
         .attr('fill', d => d.color).text(d => d.label);
 
       const link = root.append('g').selectAll('path').data(links).join('path')
-        .attr('class', 'link').attr('stroke', d => colorOf(d.journey)).attr('stroke-opacity', .3)
-        .attr('stroke-dasharray', '1 5').attr('stroke-linecap', 'round');
+        .attr('class', 'link').attr('stroke-linecap', 'round')
+        .attr('stroke', d => d.type === 'related' ? '#A7B98A' : colorOf(d.journey))
+        .attr('stroke-opacity', d => d.type === 'related' ? .5 : .3)
+        .attr('stroke-width', d => d.type === 'related' ? 1.5 : 1.4)
+        .attr('stroke-dasharray', d => d.type === 'related' ? null : '1 5');
 
       const node = root.append('g').selectAll('g').data(nodes).join('g').attr('class', 'node')
         .call(d3.drag()
@@ -186,7 +191,13 @@
       function render() {
         const dim = id => active && id !== active;
         node.transition().duration(250).style('opacity', d => dim(d.journey) ? .1 : 1);
-        link.transition().duration(250).attr('stroke-opacity', d => dim(d.journey) ? .03 : .32);
+        link.transition().duration(250).attr('stroke-opacity', d => {
+          if (d.type === 'related') {
+            const touch = !active || d.source.journey === active || d.target.journey === active;
+            return touch ? .55 : .04;
+          }
+          return dim(d.journey) ? .03 : .32;
+        });
         clabels.transition().duration(250).style('opacity', d => dim(d.id) ? .12 : .9);
       }
 

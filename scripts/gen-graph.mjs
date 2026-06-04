@@ -29,6 +29,23 @@ for (const j of journeyList) {
   journeys.push({ id: j.id, label: j.label, emoji: j.emoji, color: COLORS[j.id], tagline: j.tagline, count: steps.length, steps });
 }
 
-const graph = { journeys, nodes, links, stats: { topics: nodes.length, paths: journeys.length, links: links.length } };
+// Cross-journey "related" links — the real overlaps the three linear paths hide.
+const CROSSLINKS = [
+  ['what-is-dao', 'local-nodes-and-daos'],
+  ['what-is-refi', 'funding-landscape'],
+  ['find-your-community', 'what-is-local-node'],
+  ['refi-vs-defi-tradfi', 'funding-landscape'],
+  ['what-is-decentralization', 'federation-portability'],
+  ['building-trust', 'stewardship-roles'],
+  ['onboarding-members', 'what-is-knowledge-commons'],
+  ['conflict-resolution', 'stewardship-roles'],
+  ['why-measurement-matters', 'review-and-maturity'],
+  ['knowledge-gardens', 'onboarding-members'],
+];
+const has = (id) => nodes.some((n) => n.id === id);
+links.forEach((l) => { l.type = 'journey'; });
+for (const [a, b] of CROSSLINKS) if (has(a) && has(b)) links.push({ source: a, target: b, type: 'related' });
+
+const graph = { journeys, nodes, links, stats: { topics: nodes.length, paths: journeys.length, links: links.filter(l => l.type === 'journey').length, related: links.filter(l => l.type === 'related').length } };
 writeFileSync(new URL('../public/explorer/knowledge-graph.json', import.meta.url), JSON.stringify(graph, null, 2));
 console.log(`graph: ${nodes.length} nodes · ${links.length} links · ${journeys.length} journeys`);
