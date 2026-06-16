@@ -19,11 +19,14 @@ The **instance** is what you get when you fill the framework with a domain's con
 
 ## How it relates to org-os
 
+**The framework is a knowledge-commons *profile* of org-os** — a specialization layer between the generic org-os substrate and the domain instances. See [`PLACEMENT.md`](PLACEMENT.md) for the full placement + operation review.
+
 The framework is **org-os + the knowledge-commons architecture**. `org-os` already gives the instance pattern (template → instances), the overlay mechanism (`/initialize`, `/close`, branch-per-collaborator, Notion/Obsidian sync), the data registries, and agent skills. The Regen Knowledge Commons Toolkit framework adds: the **layer/lifecycle knowledge architecture**, the **journey-based site generator**, the **resource-graph + source-system model**, and the **CSIS-informed contribution/review process**. Generic pieces should flow **upstream** to `org-os-template`; knowledge-commons-specific pieces live here.
 
 ## Contents (as this fills out — see P1)
 
 - `README.md` — this file
+- `PLACEMENT.md` — **review of where the framework lives + how it operates** (profile-of-org-os model; placement options; operation loop)
 - `SEPARATION.md` — the framework | instance line-item manifest (the design contract; **review with the group**)
 - `ARCHITECTURE.md` — the distilled, instantiable architecture spec (derived from `docs/MASTER.md`, not a copy) — *to write*
 - `INDEX.md` — pointer map to framework-grade assets that live in place (schemas, skills, site generator) — *to write*
