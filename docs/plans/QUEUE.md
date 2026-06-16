@@ -16,6 +16,7 @@ Toolkit-instance work plans. Strategic / network-level plans live in `regen-coor
 
 ## Active
 
+0. **[CONVERGENCE-PIPELINE](CONVERGENCE-PIPELINE.md) — ★ ACTIVE 2026-06-16.** The roadmap converging everything into a **framework + instances** model on the new `regen-toolkit-os` branch. Branch consolidation + v1 site merge **done**. Waves: **D1** architecture decision (gates P1) · **P1** framework/instance split (active; `framework/` scaffolded) · **P2** resource-DB V3 lift · **P3** group prototype · **P4** theory of change · **P5** CSIS posture · **P6** RegenOS docs · **P7** hub post · **P8** governance/Impact Vault · **P9** deploy→ReFi DAO · **P10** deploy→ReFi BCN/network. Each plan developed individually with its own skills (see the pipeline table).
 1. [master-doc-iteration-may-15-2026](master-doc-iteration-may-15-2026.md) — **ACTIVE 2026-05-15.** Integrate the 2026-05-15 stabilization-draft iteration. Phase A (save + archive) done. Phase B (10 per-layer docs) done. Phase C (10 layer canvases) done. Phase D (master canvas) done. Phase E (structured refactor against new iteration) + Phase F (repo dev infrastructure) sequenced post-2026-05-21 biweekly. Phase G (site IA) deferred.
 
 ## Pending operator action

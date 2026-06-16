@@ -12,14 +12,17 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 > **2026-06-16 checkpoint.** Gap-fill (260521 + 260604 biweeklies) processed; **new master doc 2026-06-15 working iteration** is canonical (30,847 lines — integration pass, 10-layer core stable; see [`docs/MASTER-DOC-CHANGES-2026-06-15.md`](docs/MASTER-DOC-CHANGES-2026-06-15.md)); **resource DB V3** staged at [`data/resources/`](data/resources/). **Convergence is parked behind an operator checkpoint** (site merge, branch cleanup, framework/instance split, full resource lift) — see ⏸ section below.
 
-### ⏸ Convergence — awaiting operator sign-off _(NEW 2026-06-16)_
+### Convergence — IN PROGRESS _(2026-06-16)_
 
-Higher-risk / architectural; needs a vault snapshot + alignment before executing.
+Branch consolidation + site merge **done**. Now driven by the [**convergence pipeline**](docs/plans/CONVERGENCE-PIPELINE.md) (D1 + P1–P10).
 
-- [ ] **Site convergence** — `feature/org-os-overlay` (this instance) still carries the **old 67-article taxonomy site**; `main` has Heenal's live **3-journey v1** (regen-web3-toolkit.vercel.app, merged via PR #311). Diverged content (overlay 225 vs main 119 article files). **Run `npm run vault:snapshot` first; reconcile deletions in `src/content/docs/`.**
-- [ ] **Full resource-DB V3 lift** — crosswalk-driven (`data/resources/csv/toolkit-layer-crosswalk.csv`) into the data model; supersedes the April `data/resources.yaml` lift. Carry review state; honor "not endorsement" caveats. Sized as its own session.
-- [ ] **Branch cleanup** — prune `merge-astro-site` (ancestor of main); archive stale `content-updates/heen-ai/*` + `feature/critiq-generator`; mine `luizfernando-refidao` research dumps then retire.
-- [ ] **Framework / instance split execution** — repo/doc reorganization (strategic; surface to team first).
+- [x] **Branch consolidation** — `feature/org-os-overlay` renamed → **`regen-toolkit-os`** (consolidated working branch). 7 stale/converged branches pruned (local + remote), all preserved as `archive/*` tags (pushed). Remote now: `main` + `regen-toolkit-os` only.
+- [x] **Site convergence** — merged `main`'s live **3-journey v1** into `regen-toolkit-os` (119 curated articles + journeys + knowledge map) with all org-os work intact. `npm run build` passes (124 pages). Resolved a `docs/BACKLOG.md` case-collision → org-os backlog kept canonical; site content backlog → `docs/CONTENT-BACKLOG.md`. *(Live site still deploys from `main`; promote `regen-toolkit-os` → `main` when ready.)*
+- [ ] **Framework / instance split (P1)** — `framework/` scaffolded (`README.md` + `SEPARATION.md`). Active. **Gated on D1** (lifecycle vs 10-layers). → present prototype (P3) to the group.
+- [ ] **Resource-DB V3 lift (P2)** — crosswalk-driven into the data model (`data/resources/csv/toolkit-layer-crosswalk.csv`). Ready.
+- [ ] **Multi-instance deploy (P9/P10)** — framework → `../refi-dao-os` (podcasts/blog) → `../refi-bcn-os` → network.
+
+> Full roadmap (waves, dependencies, skills-to-load per plan): [`docs/plans/CONVERGENCE-PIPELINE.md`](docs/plans/CONVERGENCE-PIPELINE.md).
 
 ### Master Doc 2026-06-15 Iteration _(NEW 2026-06-16)_
 
