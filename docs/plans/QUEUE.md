@@ -1,6 +1,10 @@
 # Plan Queue — Toolkit (instance plans)
 
-> Last updated: 2026-05-15
+> Last updated: 2026-06-16
+>
+> **2026-06-16 gap-fill + master-doc intake.** Processed the 260521 + 260604 biweeklies. **New master doc 2026-06-15 working iteration is canonical** (30,847 lines; integration pass, 10-layer core stable — [`MASTER-DOC-CHANGES-2026-06-15.md`](../MASTER-DOC-CHANGES-2026-06-15.md)). **Resource DB V3 staged** at [`data/resources/`](../../data/resources/). **Convergence parked behind an operator checkpoint** — site merge (overlay↔main v1, vault-snapshot first), full resource lift, branch cleanup, framework/instance split. New HEARTBEAT sections: Convergence (⏸), Master Doc 2026-06-15, Theory of Change, V1 Public Site, Resource DB V3, Greenpill/Andrea.
+>
+> **2026-06-15 work session (Matty + Luiz).** Strategic: **framework/instance split** + **house the toolkit under ReFi Commons**. New plan [`regen-os-documentation.md`](regen-os-documentation.md) (RegenOS docs + public website, July target). Coordination model agreed (small bites; CIDS + DAO IP5 + impact accounting; scale to high-trust orgs; Impact Vault). See [integration report](../reports/2026-06-15-toolkit-worksession-matty-integration-report.md).
 >
 > **2026-05-15 iteration checkpoint.** Matty shared a second master-doc iteration (stabilization draft, ~24,776 lines, 10 layers). Tracks restored; Infrastructure & Substrate added. Per-layer docs + canvases scaffolded. See [`docs/MASTER-DOC-CHANGES-2026-05-15.md`](../MASTER-DOC-CHANGES-2026-05-15.md) for the diff and [`master-doc-iteration-may-15-2026.md`](master-doc-iteration-may-15-2026.md) for the integration plan (supersedes May 6 Phase 3).
 >
@@ -20,7 +24,8 @@ _(none currently — sharing pack sent 2026-05-06)_
 
 ## Queued — high-priority
 
-1. [swarm-contribution-pack](swarm-contribution-pack.md) — **NEW 2026-05-06.** v0.1 contribution pack for the Knowledge Commoning Swarm. Pulse 1 happened 2026-05-09–10 (retro owed). 7 short deliverables packaging Toolkit distinctions. Realistic v0.1 scope: 3–4 deliverables. **Stream #4 (Implementation Memory) now co-authored with Koi (Bonfires substrate).**
+1. [regen-os-documentation](regen-os-documentation.md) — **NEW 2026-06-15.** RegenOS documentation + a simple public website (target **July**). Origin: Matty + Luiz work session — RegenOS is referenced only vaguely in the master doc and needs a concrete write-up. Phase 3 distills the three external Google-Doc contributions (RegenOS description, OrgOS link, infra-stack write-up) from the internal docs (draft-and-present). Threads with the framework/instance split + ReFi Commons home.
+2. [swarm-contribution-pack](swarm-contribution-pack.md) — **NEW 2026-05-06.** v0.1 contribution pack for the Knowledge Commoning Swarm. Pulse 1 happened 2026-05-09–10 (retro owed). 7 short deliverables packaging Toolkit distinctions. Realistic v0.1 scope: 3–4 deliverables. **Stream #4 (Implementation Memory) now co-authored with Koi (Bonfires substrate).**
 
 ## Superseded
 

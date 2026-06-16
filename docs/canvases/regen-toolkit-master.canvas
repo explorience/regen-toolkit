@@ -1,160 +1,22 @@
 {
-	"nodes": [
-		{
-			"id": "master-header",
-			"type": "text",
-			"text": "# Regen Toolkit Canvas System\n\n**Visual Documentation Hub**\n\nNavigate to any canvas from here\n\n**3 Main Canvas Files**\n+ Master Navigation Canvas",
-			"x": 0,
-			"y": -1500,
-			"width": 600,
-			"height": 200,
-			"color": "1"
-		},
-		{
-			"id": "canvas-1",
-			"type": "file",
-			"file": "canvases/regen-toolkit-architecture.canvas",
-			"x": -1500,
-			"y": -1000,
-			"width": 400,
-			"height": 300,
-			"color": "1"
-		},
-		{
-			"id": "canvas-1-desc",
-			"type": "text",
-			"text": "## 1. Project Architecture Canvas\n\n**Purpose:** High-level overview of entire project structure\n\n**Shows:**\n- Three tracks (Foundations, Applied, Playbooks)\n- 15 source materials (A-O)\n- Three audience personas\n- Repository relationships\n- Documentation files\n\n**Use When:**\n- First-time project overview\n- Understanding overall structure\n- Seeing how components connect",
-			"x": -1500,
-			"y": -600,
-			"width": 400,
-			"height": 350,
-			"color": "1"
-		},
-		{
-			"id": "canvas-2",
-			"type": "file",
-			"file": "canvases/regen-toolkit-content-structure.canvas",
-			"x": -500,
-			"y": -1000,
-			"width": 400,
-			"height": 300,
-			"color": "5"
-		},
-		{
-			"id": "canvas-2-desc",
-			"type": "text",
-			"text": "## 2. Content Structure Canvas ⭐ CONSOLIDATED\n\n**Purpose:** Complete content map with sources, audiences & priorities\n\n**Shows:**\n- Track 1: Foundations (10 sections, 72 articles)\n- Track 2: Applied (14 sections, 66 articles)\n- Track 3: Playbooks (6 sections)\n- **Key Sources** mapped to sections (A, B, D, E, O)\n- **Audience Personas** & learning pathways\n- **Priority markers** (P0-P3) on sections\n- **Critical paths** (University, Somaliland, Nonprofit)\n- **Gap analysis** (AI+Web3, Marketing)\n\n**Use When:**\n- Finding specific content\n- Understanding source coverage\n- Planning learning pathways\n- Seeing priorities and gaps",
-			"x": -500,
-			"y": -600,
-			"width": 400,
-			"height": 500,
-			"color": "5"
-		},
-		{
-			"id": "canvas-3",
-			"type": "file",
-			"file": "canvases/regen-toolkit-dev-workflow.canvas",
-			"x": 500,
-			"y": -1000,
-			"width": 400,
-			"height": 300,
-			"color": "1"
-		},
-		{
-			"id": "canvas-3-desc",
-			"type": "text",
-			"text": "## 3. Development Workflow Canvas\n\n**Purpose:** Visualize content development process\n\n**Shows:**\n- Dual-repository architecture\n- Main repo vs dev instance\n- Content flow (Draft → Review → Test → Migrate)\n- Contributor workflows (HackMD, GitHub, Obsidian)\n- Migration protocol\n- Synchronization schedule\n\n**Use When:**\n- Understanding development process\n- Contributing content\n- Planning migrations\n- Setting up workflows",
-			"x": 500,
-			"y": -600,
-			"width": 400,
-			"height": 400,
-			"color": "1"
-		},
-		{
-			"id": "project-docs",
-			"type": "text",
-			"text": "## Project Documentation\n\n**Key Files:**\n- README.md - Project overview\n- SOURCES.md - Complete source documentation\n- REQUIREMENTS.md - Requirements and specs\n- CONTRIBUTING.md - Contribution guidelines\n- docs/local-refi-toolkit-development-workflow.md\n\n**Content Structure:**\n- content/1-foundations/\n- content/2-applied/\n- content/3-playbooks/\n- content/sources/\n\n**138 placeholder articles** across 3 tracks",
-			"x": 0,
-			"y": 1200,
-			"width": 500,
-			"height": 400,
-			"color": "1"
-		},
-		{
-			"id": "usage-tips",
-			"type": "text",
-			"text": "## Usage Tips\n\n**Opening Canvases:**\n- Double-click any canvas file to open\n- Works best in Obsidian\n- Vault should be opened at repository root\n\n**Navigation:**\n- Use this master canvas as starting point\n- Click canvas cards to navigate\n- Use back button to return\n\n**Color Coding:**\n- 🔵 Blue = Track 1 (Foundations)\n- 🟢 Green = Track 2 (Applied)\n- 🟣 Purple = Track 3 (Playbooks)\n- 🟠 Orange = Sources\n- 🟡 Yellow = Audiences\n- 🔴 Red = Gaps/Priorities\n\n**Updates:**\n- Canvases evolve with project\n- Regular updates recommended\n- Export as images for sharing",
-			"x": 600,
-			"y": 1200,
-			"width": 500,
-			"height": 500,
-			"color": "1"
-		},
-		{
-			"id": "readme-link",
-			"type": "file",
-			"file": "canvases/README.md",
-			"x": -600,
-			"y": 1200,
-			"width": 300,
-			"height": 200,
-			"color": "1"
-		}
+	"nodes":[
+		{"id":"master-header","type":"text","text":"# Regen Toolkit Canvas System\n\n**Visual Documentation Hub**\n\nNavigate to any canvas from here\n\n**3 Main Canvas Files**\n+ Master Navigation Canvas","x":0,"y":-1500,"width":600,"height":200,"color":"1"},
+		{"id":"canvas-1","type":"file","file":"canvases/regen-toolkit-architecture.canvas","x":-1500,"y":-1000,"width":400,"height":300,"color":"1"},
+		{"id":"canvas-1-desc","type":"text","text":"## 1. Project Architecture Canvas\n\n**Purpose:** High-level overview of entire project structure\n\n**Shows:**\n- Three tracks (Foundations, Applied, Playbooks)\n- 15 source materials (A-O)\n- Three audience personas\n- Repository relationships\n- Documentation files\n\n**Use When:**\n- First-time project overview\n- Understanding overall structure\n- Seeing how components connect","x":-1500,"y":-600,"width":400,"height":350,"color":"1"},
+		{"id":"canvas-2","type":"file","file":"canvases/regen-toolkit-content-structure.canvas","x":-500,"y":-1000,"width":400,"height":300,"color":"5"},
+		{"id":"canvas-2-desc","type":"text","text":"## 2. Content Structure Canvas ⭐ CONSOLIDATED\n\n**Purpose:** Complete content map with sources, audiences & priorities\n\n**Shows:**\n- Track 1: Foundations (10 sections, 72 articles)\n- Track 2: Applied (14 sections, 66 articles)\n- Track 3: Playbooks (6 sections)\n- **Key Sources** mapped to sections (A, B, D, E, O)\n- **Audience Personas** & learning pathways\n- **Priority markers** (P0-P3) on sections\n- **Critical paths** (University, Somaliland, Nonprofit)\n- **Gap analysis** (AI+Web3, Marketing)\n\n**Use When:**\n- Finding specific content\n- Understanding source coverage\n- Planning learning pathways\n- Seeing priorities and gaps","x":-500,"y":-600,"width":400,"height":500,"color":"5"},
+		{"id":"canvas-3","type":"file","file":"canvases/regen-toolkit-dev-workflow.canvas","x":500,"y":-1000,"width":400,"height":300,"color":"1"},
+		{"id":"canvas-3-desc","type":"text","text":"## 3. Development Workflow Canvas\n\n**Purpose:** Visualize content development process\n\n**Shows:**\n- Dual-repository architecture\n- Main repo vs dev instance\n- Content flow (Draft → Review → Test → Migrate)\n- Contributor workflows (HackMD, GitHub, Obsidian)\n- Migration protocol\n- Synchronization schedule\n\n**Use When:**\n- Understanding development process\n- Contributing content\n- Planning migrations\n- Setting up workflows","x":500,"y":-600,"width":400,"height":400,"color":"1"},
+		{"id":"project-docs","type":"text","text":"## Project Documentation\n\n**Key Files:**\n- README.md - Project overview\n- SOURCES.md - Complete source documentation\n- REQUIREMENTS.md - Requirements and specs\n- CONTRIBUTING.md - Contribution guidelines\n- docs/local-refi-toolkit-development-workflow.md\n\n**Content Structure:**\n- content/1-foundations/\n- content/2-applied/\n- content/3-playbooks/\n- content/sources/\n\n**138 placeholder articles** across 3 tracks","x":0,"y":1200,"width":500,"height":400,"color":"1"},
+		{"id":"usage-tips","type":"text","text":"## Usage Tips\n\n**Opening Canvases:**\n- Double-click any canvas file to open\n- Works best in Obsidian\n- Vault should be opened at repository root\n\n**Navigation:**\n- Use this master canvas as starting point\n- Click canvas cards to navigate\n- Use back button to return\n\n**Color Coding:**\n- 🔵 Blue = Track 1 (Foundations)\n- 🟢 Green = Track 2 (Applied)\n- 🟣 Purple = Track 3 (Playbooks)\n- 🟠 Orange = Sources\n- 🟡 Yellow = Audiences\n- 🔴 Red = Gaps/Priorities\n\n**Updates:**\n- Canvases evolve with project\n- Regular updates recommended\n- Export as images for sharing","x":600,"y":1200,"width":500,"height":500,"color":"1"},
+		{"id":"readme-link","type":"file","file":"canvases/README.md","x":-600,"y":1200,"width":300,"height":200,"color":"1"}
 	],
-	"edges": [
-		{
-			"id": "master-canvas1",
-			"fromNode": "master-header",
-			"fromSide": "bottom",
-			"toNode": "canvas-1",
-			"toSide": "top",
-			"color": "1",
-			"label": "→"
-		},
-		{
-			"id": "master-canvas2",
-			"fromNode": "master-header",
-			"fromSide": "bottom",
-			"toNode": "canvas-2",
-			"toSide": "top",
-			"color": "1",
-			"label": "→"
-		},
-		{
-			"id": "master-canvas3",
-			"fromNode": "master-header",
-			"fromSide": "bottom",
-			"toNode": "canvas-3",
-			"toSide": "top",
-			"color": "1",
-			"label": "→"
-		},
-		{
-			"id": "canvas1-desc",
-			"fromNode": "canvas-1",
-			"fromSide": "bottom",
-			"toNode": "canvas-1-desc",
-			"toSide": "top",
-			"color": "1",
-			"label": "describes"
-		},
-		{
-			"id": "canvas2-desc",
-			"fromNode": "canvas-2",
-			"fromSide": "bottom",
-			"toNode": "canvas-2-desc",
-			"toSide": "top",
-			"color": "1",
-			"label": "describes"
-		},
-		{
-			"id": "canvas3-desc",
-			"fromNode": "canvas-3",
-			"fromSide": "bottom",
-			"toNode": "canvas-3-desc",
-			"toSide": "top",
-			"color": "1",
-			"label": "describes"
-		}
+	"edges":[
+		{"id":"master-canvas1","fromNode":"master-header","fromSide":"bottom","toNode":"canvas-1","toSide":"top","color":"1","label":"→"},
+		{"id":"master-canvas2","fromNode":"master-header","fromSide":"bottom","toNode":"canvas-2","toSide":"top","color":"1","label":"→"},
+		{"id":"master-canvas3","fromNode":"master-header","fromSide":"bottom","toNode":"canvas-3","toSide":"top","color":"1","label":"→"},
+		{"id":"canvas1-desc","fromNode":"canvas-1","fromSide":"bottom","toNode":"canvas-1-desc","toSide":"top","color":"1","label":"describes"},
+		{"id":"canvas2-desc","fromNode":"canvas-2","fromSide":"bottom","toNode":"canvas-2-desc","toSide":"top","color":"1","label":"describes"},
+		{"id":"canvas3-desc","fromNode":"canvas-3","fromSide":"bottom","toNode":"canvas-3-desc","toSide":"top","color":"1","label":"describes"}
 	]
 }

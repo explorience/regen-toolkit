@@ -1,0 +1,10 @@
+Metric,Count,Notes
+Resource Registry rows,1759,Original v0.2 resource registry preserved
+Social Signal rows,1372,Original v0.2 social signals preserved
+Unified Index rows,2617,Search/discovery index across typed tabs
+People & Account rows,686,Includes all Twitter mentioned accounts + manual podcast/person leads; raw/cautious
+Source-System candidates,123,Needs source-system cards and reciprocity review
+Adjacent expansion manual leads,153,Curation-depth layer; raw/needs verification
+Tweet parsed records,1347,tweets.js archive parsed
+Unique expanded URLs from tweets,365,Added to URLs Domains Raw
+Unique linked domains from tweets,103,Repeated domains become source-system candidates

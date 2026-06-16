@@ -1,0 +1,8 @@
+review_id,item_or_group,item_type,reason,priority,source_origin,suggested_route,notes,review_status
+RQ00001,People & Account Leads,review category,Public profile caution; do not publish person graph without review,High,v0.3 design,People Review,,needs review
+RQ00002,Podcast Claims,review category,Guest claims are not verified knowledge; needs transcript/source review,High,v0.3 design,Media Safeguards,,needs review
+RQ00003,Indigenous / TEK / local knowledge leads,review category,Requires consent/context and possibly Local Contexts review,High,v0.3 design,Public-use Boundary,,needs review
+RQ00004,Open-source tooling leads,review category,"Needs license, repo activity, maintenance, security, and dependency review",High,v0.3 design,Builder Safeguards,,needs review
+RQ00005,Carbon/ReFi claims,review category,High-risk impact/MRV claims need evidence and review,High,v0.3 design,dMRV / Structural Integrity,,needs review
+RQ00006,AI-suggested adjacent expansion,review category,Clearly separate from explicit extraction,Medium,v0.3 design,Review Queue,,needs review
+RQ00007,Source-system candidates,review category,"Need cards with steward, attribution, reuse, return path",High,v0.3 design,Source System Cards,,needs review

@@ -10,6 +10,57 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 ## Active Tasks
 
+> **2026-06-16 checkpoint.** Gap-fill (260521 + 260604 biweeklies) processed; **new master doc 2026-06-15 working iteration** is canonical (30,847 lines — integration pass, 10-layer core stable; see [`docs/MASTER-DOC-CHANGES-2026-06-15.md`](docs/MASTER-DOC-CHANGES-2026-06-15.md)); **resource DB V3** staged at [`data/resources/`](data/resources/). **Convergence is parked behind an operator checkpoint** (site merge, branch cleanup, framework/instance split, full resource lift) — see ⏸ section below.
+
+### ⏸ Convergence — awaiting operator sign-off _(NEW 2026-06-16)_
+
+Higher-risk / architectural; needs a vault snapshot + alignment before executing.
+
+- [ ] **Site convergence** — `feature/org-os-overlay` (this instance) still carries the **old 67-article taxonomy site**; `main` has Heenal's live **3-journey v1** (regen-web3-toolkit.vercel.app, merged via PR #311). Diverged content (overlay 225 vs main 119 article files). **Run `npm run vault:snapshot` first; reconcile deletions in `src/content/docs/`.**
+- [ ] **Full resource-DB V3 lift** — crosswalk-driven (`data/resources/csv/toolkit-layer-crosswalk.csv`) into the data model; supersedes the April `data/resources.yaml` lift. Carry review state; honor "not endorsement" caveats. Sized as its own session.
+- [ ] **Branch cleanup** — prune `merge-astro-site` (ancestor of main); archive stale `content-updates/heen-ai/*` + `feature/critiq-generator`; mine `luizfernando-refidao` research dumps then retire.
+- [ ] **Framework / instance split execution** — repo/doc reorganization (strategic; surface to team first).
+
+### Master Doc 2026-06-15 Iteration _(NEW 2026-06-16)_
+
+- [ ] **Revise CSIS posture** (`docs/CSIS.md`) → "CSIS-Informed, Not CSIS-Conformant" + the 3-level model (Principles / Review prompts / Enforceable standards) + minimum enforceable safeguards. The new master doc formalizes this — resolves the long-standing "posture revision pending" flag.
+- [ ] **Track the Knowledge-Lifecycle-vs-10-layers decision** — the new doc offers a Capture→…→Interoperate lifecycle spine as a *candidate* (Structure Options recommends "Small Core, Large Appendices + Lifecycle spine"). Don't pre-empt; surface at biweekly. **Do not rebuild the 10 per-layer docs/canvases until decided.**
+- [ ] **Derive a Theory-of-Change artifact** from the new master doc's Problem/ToC section (now first-class) — 10-problem + updated 14-problem versions.
+- [ ] **Layer-by-layer review** of the new iteration (Matty's recommended method — review by layer, not whole-system rewrite).
+
+### Theory of Change / Revised Problem Statement _(NEW 2026-05-21 — still open)_
+
+From Durgadas's "theory of build vs theory of change" challenge (260521). The new master doc answers much of it; the team-authored piece remains.
+
+- [ ] **Author a revised problem + mission statement** (group; Heenal proposed) — derive ToC from Green Pill + ReFi DAO rather than invent fresh (Afo)
+- [ ] Durgadas — circulate the **Idea Processor** (MELT-strategy) + the theory-of-build article
+- [ ] Consider a tradeoff-triangle prioritization exercise to find the highest-leverage thing
+
+### V1 Public Site (Heenal) _(NEW 2026-06-04)_
+
+Heenal's simplified 3-journey site — **landed + live** at regen-web3-toolkit.vercel.app (merged main / PR #311). The usable "front door" of the three-artifact model.
+
+- [ ] **Heenal — design the feedback / contribution pathway** for V1 (currently "not easy") — operationalizes "public ≠ commons"
+- [ ] Heenal — continue page-by-page human review; keep it usable/practical
+- [ ] Consider an **operational-contributor journey** (Rather — teams forming, picking up tools, acting; beyond "newcomer")
+- [ ] **Matty — draft the hub/forum post** (pairs with V1; invites use + co-stewardship, not just announces)
+- [ ] Reconcile V1 with the master-doc layers (Heenal flagged layers ~2 + 7; vertical mapping later)
+
+### Resource Database V3 _(NEW 2026-06-16)_
+
+Matty's V3 resource DB (June 13) staged at [`data/resources/`](data/resources/) — 28 sheets / 12,456 rows. Supersedes the April `data/resources.yaml` lift.
+
+- [ ] **Full structured lift** (in Convergence above) — crosswalk-driven routing into the data model
+- [ ] Clean tweet-text noise in `toolkit-layer-crosswalk` `toolkit_route` cells
+- [ ] Wire the DB's **review queues** → master-doc safeguards (Public-Use Boundary, Source System Cards, Builder/Media safeguards) — these match open `docs/BACKLOG.md` items
+- [ ] **Brandon — curation pass** now operates on the lifted V3 result (not the old April lift)
+
+### Greenpill Network + Andrea / RegenOS _(NEW 2026-06-04)_
+
+- [ ] **Afo — translate toolkit into the Greenpill Network site** ("garden → house" flow); link Greenpill → Toolkit; consider agent-skills for AI to reference the toolkit
+- [ ] **Schedule the Andrea + RegenOS conversation** (Luiz) — bioregional knowledge (bioregioning.org / Recover) → contribution-governance + compensation protocols
+- [ ] Luiz — share bioregioning.org + the maturity-index/stewardship excerpt to Telegram
+
 ### Master Doc 2026-05-15 Iteration _(NEW)_
 
 - [ ] **Surface master overview canvas + per-layer canvases to team** via Telegram (Luiz — pre-2026-05-21 biweekly)
@@ -29,6 +80,43 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 - [ ] **Phase F.1–F.4 (New lift scripts)** — `lift-options.mjs`, `lift-tracks.mjs`, `lift-concepts.mjs` + refactor `lift-resources.mjs`
 - [ ] **Phase F.5 (`data/tracks.yaml` registry)** — new file (Tracks layer restored)
 - [ ] **Pulse 1 retro** — write to `memory/2026-05-10.md` (still owed)
+
+### RegenOS Documentation + Public Website _(NEW 2026-06-15)_
+
+From the Matty + Luiz work session: RegenOS (the coordination layer above OrgOS instances — essentially what `regen-coordination-os` is) is only vaguely referenced in the master doc and needs a concrete written description + an approachable public surface. Target: **July**. See plan [`docs/plans/regen-os-documentation.md`](docs/plans/regen-os-documentation.md).
+
+- [ ] **Luiz — draft RegenOS documentation** (what it is; coordination layer above OrgOS instances; upstream/downstream repo mapping; knowledge-source vs organizational federation as two distinct mechanisms; self-qualifying adoption as the federation filter). Target July.
+- [ ] **Luiz — build a simple public website for RegenOS/OrgOS** (clean, non-manipulative, human-readable; could share the Astro repo). Target July.
+- [ ] **Luiz — draft RegenOS description for the master-doc meeting-notes tab** (handful of sentences) — *external edit to Matty's Google Doc; draft-and-present before sending.*
+- [ ] **Luiz — add the OrgOS overlay GitHub link** next to the RegenOS reference in the master doc — *external edit; editor access requested on the call.*
+- [ ] **Luiz — write up RegenOS ↔ COOP / Geo Browser / COI / infra stack** for the new "More Opinionated Infrastructure" sub-tab — *external edit; draft-and-present.*
+
+### Framework / Instance Split _(NEW 2026-06-15 — strategic)_
+
+Decision (in principle) to formally split the work into a domain-agnostic **framework** (layers system, flows, processes, IA) + the **ReFi Web3 Toolkit as the first concrete instance**. Reshapes how the master doc + repos are organized. **Surface with the wider team — not executed unilaterally.**
+
+- [ ] **Surface the framework/instance split to the team** at the next biweekly (reshapes master-doc + repo organization; ties to the eventual ~3 structural variants)
+- [ ] Scope what "framework" vs "instance" means concretely for `docs/MASTER.md` + this repo (conceptual separation first; own-repo question deferred)
+- [ ] **ReFi DAO as immediate use case** — use the framework to process ReFi DAO podcast episodes + blog posts (pending for months); output feeds back into the toolkit (Luiz)
+
+### Infra Stack & Federation _(NEW 2026-06-15)_
+
+Stack as discussed: OrgOS (foundational file system + agent instructions) → Radicle (P2P Git; planned) → COOP (intake/tagging, needs review pipeline) → COI (heavier; OrgOS covers many use cases foundationally) → visualization (Obsidian canvases for operators; Kumu from GitHub; static public website). Agreed: **simplify first, layer complexity later — don't settle on-chain now.**
+
+- [ ] **Luiz — review Geo Browser** (geobrowser.io) — flagged as not-yet-reviewed; assess fit + slot into the infra write-up
+- [ ] Radicle integration (P2P decentralized Git) — planned, not yet done (exploratory; Luiz keen)
+- [ ] Fix the **maturity/confidence rating system** for tasks — addresses the known bug where agents pick up passing meeting mentions as high-priority follow-ups (raised again 2026-06-15)
+- [ ] Repair the regen-coordination **Notion sync** — broke on the Notion CLI release (API change); affects `/initialize` DB sync
+
+### ReFi Commons + Standards + Funding _(NEW 2026-06-15 — strategic)_
+
+Coordination model: small bites (fundable working groups), not a big merger. Standards stack drives funding flows. Scale to high-trust orgs, not open calls.
+
+- [ ] **Open the ReFi Commons home conversation** (Luiz + Matty) — coordinate with Green Pill IP roll-in
+- [ ] **Identify the first working group both orgs agree is worth funding** (the "small bite" entry point)
+- [ ] **Advance the standards stack** — CIDS + DAO IP5 (needs more figuring-out) + impact accounting/measurement tied to funding flows (specific, academically rigorous)
+- [ ] **Map a path to seed an Impact Vault** ("Oct and Vault") from funding the master-doc work earns — Matty's compensation preference; reciprocity/acknowledgement thread (details in Matty's handoff doc)
+- [ ] Scale outreach — ~5–7 existing high-trust orgs / known people (not open chapter calls) — *slow-burn; pairs with Matty*
 
 ### Master Doc & Handoff
 - [ ] Matty — final master-doc push before Swarm participation (Friday noon hard deadline; Philadelphia wedding travel) — *carryover from 2026-04-23, reaffirmed 2026-05-07*
@@ -61,14 +149,11 @@ Pulse 1: 2026-05-09–10. Two-month hackathon follows. Toolkit reframed as a *co
 - [ ] Team — attend Pulse 1 (partial attendance acceptable; Matty out for Philadelphia wedding)
 - [ ] Pre-Pulse-1: draft `00-README.md` + `05-tool-option-pattern-protocol-deployment-case.md` + `07-six-affordances-translation.md` for the Swarm Contribution Pack v0.1 (pure synthesis from new master doc)
 - [ ] Pulse 1: observe what Swarm participants gravitate toward; adjust Swarm Contribution Pack v0.1 scope
-- [ ] **Resolve Toolkit vs "Transformational Journeys" framing tension** (Koi raised 2026-05-07; pulls in different direction from "Knowledge Commons Toolkit" rename — Phase 2 reconciliation)
+- [x] **Toolkit vs "Transformational Journeys" framing tension — largely resolved toward journeys** (Koi raised 2026-05-07; reinforced 2026-05-21). Heenal's v1 site IS journey-based (3 onboarding journeys live). The "Knowledge Commons Toolkit" name persists for the master doc; the *public* surface is journey-framed. See V1 Public Site section.
 
-### Persona / Game-Based Format _(NEW 2026-05-07)_
+### Persona / Game-Based Format _(SUPERSEDED 2026-05-21)_
 
-Next planning call (~2026-05-21) restructured around persona/role cards + granular skill mapping. All team members bring a card.
-
-- [ ] **All team — prepare persona/role concept + granular skill mapping** for ~2026-05-21 biweekly
-- [ ] Luiz — operator's own card + a light prompt for team (drop into Telegram a few days before next call)
+~~Next planning call (~2026-05-21) restructured around persona/role cards + granular skill mapping.~~ **The 2026-05-21 call diverged into Durgadas's theory-of-change strategic check-in; the persona/skill-card game did not happen.** Folded into the Theory of Change / Revised Problem Statement workstream above.
 
 ### Research Framework — Evolution Layer _(NEW 2026-05-07)_
 
@@ -142,6 +227,8 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ## Recently Completed
 
+- [x] 2026-06-16 — **Gap-fill + master-doc intake**: 2026-05-21 + 2026-06-04 biweeklies processed (notes + registry, now 10 meetings); **new master doc 2026-06-15 working iteration saved canonical** (30,847 lines; 2026-05-15 archived; raw preserved; `MASTER-DOC-CHANGES-2026-06-15.md` diff); **resource DB V3 staged** (`data/resources/` — xlsx + 28 CSVs / 12,456 rows + manifest). Stale threads resolved (persona-game superseded; journeys tension resolved; v1 site landed). Convergence (site merge, branch cleanup, framework/instance, full resource lift) parked behind operator checkpoint. Integration report: `docs/reports/2026-06-16-gap-fill-and-master-doc-intake-integration-report.md`.
+- [x] 2026-06-16 — **2026-06-15 Matty + Luiz work session processed** (refi-bcn-os `meeting-processor` pipeline): source note frontmatter fixed + processed pointer; synthesized note at `packages/operations/meetings/260615 Toolkit Work Session with Matty.md`; `data/meetings.yaml` +1 (`mtg-20260615-toolkit-worksession-matty`); `memory/2026-06-16.md` written; MEMORY.md (Key Decisions +5, History +1, Active Context + Relationship Map refreshed); HEARTBEAT 4 new sections (RegenOS docs, framework/instance split, infra stack, ReFi Commons/standards); new plan `docs/plans/regen-os-documentation.md` + QUEUE updated; integration report at `docs/reports/2026-06-15-toolkit-worksession-matty-integration-report.md`. Notion phases N/A (sync broken + toolkit doesn't run Notion as primary); operator weekly/monthly distribution offered (not auto-written).
 - [x] 2026-05-15 — **Master doc 2026-05-15 stabilization-draft iteration processed**: new MASTER.md saved canonical (24,776 lines); 2026-05-06 archived; `MASTER-DOC-CHANGES-2026-05-15.md` diff written; integration plan at `docs/plans/master-doc-iteration-may-15-2026.md`; 10 per-layer docs at `docs/layers/`; 10 per-layer Obsidian canvases at `docs/canvases/layers/`; master overview canvas at `docs/canvases/regen-knowledge-commons-toolkit-master.canvas`; LAYERS.md rewritten against 10-layer model; MEMORY.md + HEARTBEAT.md + QUEUE.md refreshed; `memory/2026-05-15.md` written.
 - [x] 2026-05-07 — 2026-05-07 biweekly processed: source note fixed (frontmatter populated, Concluded → true), structured note at `packages/operations/meetings/260507 Regen Web3 Toolkit Planning Call.md`, `data/meetings.yaml` updated (260507 added + 260423 backfilled), `MEMORY.md` updated, plans + queue reflected.
 - [x] 2026-05-06 — Master doc 2026-05-06 iteration intake: new MASTER.md (renamed Knowledge Commons Toolkit, ~13.7k lines) saved canonical; previous archived; `MASTER-DOC-CHANGES.md` written; iteration-checkpoint banners on `LAYERS.md` + `ORG-OS.md`; sharing pack sent to Telegram; two new plans queued (`master-doc-iteration-may-2026`, `swarm-contribution-pack`).
@@ -156,4 +243,4 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ---
 
-_Last updated: 2026-05-15_
+_Last updated: 2026-06-16_

@@ -1,0 +1,13 @@
+id,white_space_or_prompt,description,source_origin,priority,suggested_route,review_status
+WS00001,Bioregional QF playbooks,How to actually run a regen QF round in a bioregion,podcast_synthesis,High,Public Goods Funding Track; Local Node Builder Track,raw; needs review
+WS00002,dMRV in practice,"Practical deep dives into dMRV implementation, evidence, and failure modes",podcast_synthesis,High,Ecological MRV Track; Implementation Memory,raw; needs review
+WS00003,Indigenous and Global South primary voices,More first-person source systems and consent-aware extraction,podcast_synthesis,High,Media Source System Track; Public-use Review,raw; needs review
+WS00004,Capital-stack reality checks for regen projects,"How grants, philanthropy, revenue, tokens, stablecoins, and land finance stack in practice",podcast_synthesis,High,Public Goods Builder Track; ReFi Track,raw; needs review
+WS00005,Critical and adversarial outside voices,Invite critique to avoid insider-club narrative loops,podcast_synthesis,High,Structural Integrity Review,raw; needs review
+WS00006,Berachain and next-wave L1/L2 regen experiments,Review emerging regen experiments outside existing Greenpill/Gitcoin cluster,podcast_synthesis,Medium,Source System Expansion,raw; needs review
+WS00007,Public goods tooling postmortems,"What tools were built, maintained, abandoned, duplicated, or reused",project_context,High,Public Goods Builder Track,raw; needs review
+WS00008,Nonprofit onboarding workflows,How web3 impact projects onboard nonprofit users without jargon,podcast_synthesis,High,Crypto Altruists / Public Site Candidate,raw; needs review
+WS00009,Stablecoins as impact rails,"Humanitarian, nonprofit, and local-economy use cases",podcast_synthesis,Medium,Funding Mechanisms; Tooling,raw; needs review
+WS00010,Media archive to living artifact workflow,How to turn podcasts/calls into review-aware structured knowledge,project_context,High,Media Source System Track,raw; needs review
+WS00011,Source-system reciprocity protocols,How to avoid extractive aggregation and return value to source systems,project_context,High,Source System Strategy,raw; needs review
+WS00012,AI curation transparency,"How to disclose monitored sources, signal weights, review state, and correction paths",project_context,High,Automated Curation,raw; needs review

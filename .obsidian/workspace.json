@@ -23,8 +23,38 @@
               "icon": "lucide-layout-dashboard",
               "title": "09-evolution"
             }
+          },
+          {
+            "id": "ca3177966af7c8fc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "docs/canvases/layers/06-deployment.canvas",
+                "viewState": {
+                  "x": 75,
+                  "y": 65,
+                  "zoom": -1.0439747922109326
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "06-deployment"
+            }
+          },
+          {
+            "id": "a36e40ec9c51391c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.1"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.1"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +74,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -81,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 419.453125
   },
   "right": {
     "id": "8301fea6af17681d",
@@ -186,15 +218,41 @@
       "bases:Create new base": false
     }
   },
-  "active": "0f88a0ddee862c18",
+  "active": "a36e40ec9c51391c",
   "lastOpenFiles": [
+    "docs/reports/2026-06-16-gap-fill-and-master-doc-intake-integration-report.md",
+    "data/resources/README.md",
+    "data/resources/csv/review-queues.csv",
+    "data/resources/csv/expansion-map.csv",
+    "data/resources/csv/urls-domains-raw.csv",
+    "data/resources/csv/podcast-extraction-raw.csv",
+    "data/resources/csv/social-signals-raw.csv",
+    "data/resources/csv/track-candidates.csv",
+    "data/resources/csv/option-library-candidates.csv",
+    "data/resources/csv/implementation-candidates.csv",
+    "data/resources/csv/source-system-candidates.csv",
+    "data/resources/csv/white-spaces-research.csv",
+    "docs/MASTER-DOC-CHANGES-2026-06-15.md",
+    "docs/MASTER-2026-06-15-iteration-raw.md",
+    "docs/archive/MASTER-2026-05-15-stabilization-draft.md",
+    "packages/operations/meetings/260604 Regen Web3 Toolkit Planning Call.md",
+    "packages/operations/meetings/260521 Regen Web3 Toolkit Planning Call.md",
+    "docs/temp/Regen Knowledge Commons Toolkit(1).md",
+    "docs/reports/2026-06-15-toolkit-worksession-matty-integration-report.md",
+    "docs/plans/regen-os-documentation.md",
+    "memory/2026-06-16.md",
+    "packages/operations/meetings/260615 Toolkit Work Session with Matty.md",
+    "docs/canvases/layers/05-option-library.canvas",
+    "docs/canvases/layers/04-concept-ecology.canvas",
+    "docs/canvases/layers/03-resource-graph.canvas",
+    "docs/canvases/layers/02-encyclopedia.canvas",
+    "docs/canvases/layers/01-ontology.canvas",
+    "docs/canvases/regen-toolkit-architecture.canvas",
+    "docs/canvases/regen-toolkit-master.canvas",
+    "docs/layers/01-ontology-and-semantic-kernel.md",
+    "docs/MASTER.md",
     "docs/reports/2026-05-15-master-doc-iteration-team-report.md",
     "docs/canvases/layers/07-tracks.canvas",
-    "docs/canvases/layers/06-deployment.canvas",
-    "docs/canvases/layers/03-resource-graph.canvas",
-    "docs/canvases/layers/04-concept-ecology.canvas",
-    "docs/canvases/layers/05-option-library.canvas",
-    "docs/canvases/layers/02-encyclopedia.canvas",
-    "docs/canvases/layers/01-ontology.canvas"
+    "docs/canvases/layers/06-deployment.canvas"
   ]
 }

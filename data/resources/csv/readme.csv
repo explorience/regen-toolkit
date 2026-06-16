@@ -1,0 +1,6 @@
+Regen Knowledge Commons Raw Database v0.3 - expansive typed workbook,
+Status,"Raw, expansive, review-pending. Inclusion means potentially relevant for routing/review, not endorsement or public guidance."
+Purpose,"Separate people, orgs, tools, books, podcasts, datasets, claims, source systems, and review queues while preserving a Unified Index."
+Important caveat,People/account rows are raw leads and should not become public profiles without review. Social signals are not endorsements. Podcast claims are not verified knowledge.
+Expansion status,This workbook includes explicit extracted rows from prior registry/social data plus adjacent expansion leads. Adjacent expansion is marked as raw/needs verification.
+Generated from,"v0.2 resource registry, v0.2 social signal CSV, tweets.js archive, project master-doc context, podcast synthesis summary, and adjacent expansion around highly referenced source systems."

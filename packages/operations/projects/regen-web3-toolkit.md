@@ -111,12 +111,29 @@ From the master doc, still needing your call:
 
 ## Recent meetings
 
+- **2026-06-15** — [Work Session with Matty](../meetings/260615%20Toolkit%20Work%20Session%20with%20Matty.md) (RegenOS + Knowledge Commons Architecture). Ad-hoc 1-on-1. **Framework/instance split** (domain-agnostic framework + ReFi Web3 Toolkit as first instance); **house the toolkit under ReFi Commons**; RegenOS to be documented (+ public website, July); coordination model (small bites, CIDS + DAO IP5 + impact accounting, scale to high-trust orgs); Matty's compensation → Impact Vault.
+- **2026-06-04** — [Planning Call](../meetings/260604%20Regen%20Web3%20Toolkit%20Planning%20Call.md) (V1 Site + Hub Post Strategy). Two paired deliverables: Heenal's 3-journey v1 public site (merged to main, live) + a hub post. "Public ≠ commons." Andrea + RegenOS thread opened. Afo → Greenpill Network integration. Matty's Regen Coordination budget doc.
+- **2026-05-21** — [Planning Call](../meetings/260521%20Regen%20Web3%20Toolkit%20Planning%20Call.md) (Theory of Change Check-in). Persona-game superseded; Durgadas's "theory of build vs theory of change" challenge; author a revised problem/mission statement; journeys framing; Rather's Geo Protocol ontology. Luiz absent.
+- **2026-05-15** — Master doc 2026-05-15 stabilization draft (10 layers; Tracks restored, Infrastructure added). Per-layer docs + canvases scaffolded. *(Processed to `memory/2026-05-15.md`; no separate planning-call note.)*
+- **2026-05-07** — [Planning Call](../meetings/260507%20Regen%20Web3%20Toolkit%20Planning%20Call.md). OrgOS adopted as shared task layer; Obsidian Canvas as visual architecture map; persona/game format for next biweekly; Bonfires (KOI stack) as Evolution-layer model; Toolkit vs "Transformational Journeys" framing tension (Koi).
 - **2026-04-23** — [Planning Call](../meetings/260423%20Regen%20Web3%20Toolkit%20Planning%20Call.md). Matt one push from master-doc completion → handoff. OrgoS adopted as consolidation framework. Frame-language critique (Durgadas) to be integrated. May hackathon outreach planning.
 - **2026-03-12** — [Funding + Pipeline Sync](../meetings/260312%20Regen%20Toolkit%20%E2%80%94%20Funding%20%2B%20Pipeline%20Sync.md). Artisan funding strategy under Region Coordination profile (time-sensitive). AI pipeline broken — needs fix. Toolkit niche: hyper-specific for local nodes/chapters; link rather than duplicate. Co-op browser extension idea floated.
 - **2026-02-25** — [Restructure + AI Pipeline Sync](../meetings/260225%20Regen%20Toolkit%20Restructure%20%2B%20AI%20Pipeline%20Sync.md). Tag-based architecture replaces track-based; 10 modules proposed. Ship-V1-imperfect stance adopted. AI pipeline 5-stage live with 5 pilot articles. Reach out to Ethereum Localism / ReFi Commons / Superbenefit before more structural decisions.
 - **2026-02-12** — [Planning Call](../meetings/260212%20Regen%20Web3%20Toolkit%20Planning%20Call.md). ReFi DAO transitioning to distributed leadership / headless brand; possible Greenpill alignment. Submit content to Regen Web3 Toolkit repo (Local ReFi Toolkit becomes a subset). Branching workflow ratified. Artisan funding $300–5,600/month confirmed by Drew Simon.
 - **2026-01-29** — [GitHub Workflow + Tier Prioritization](../meetings/260129%20Greenpill%20Toolkit%20Planning%20Call%20%28GitHub%20Workflow%29.md). 229 article placeholders created; tier-based prioritization adopted (Tier 1 = 3+ audiences). Two-week milestone: each participant writes ≥1 article. Matt's AI agent writing system in dev; LifeOS web editor as alt interface.
 - **2026-01-15** — [Greenpill Toolkit Planning Call (Kickoff)](../meetings/260115%20Greenpill%20Toolkit%20Planning%20Call%20%28Kickoff%29.md). Project kickoff. Three target audiences agreed (university/governance education; communities needing onboarding; normie nonprofits). GitHub-based workflow chosen. Tools-first vs Comprehensive content tension surfaced. $2.5k available; $5k considered minimum. Biweekly cadence established.
+
+## Open action items (from 2026-06-15 work session with Matty)
+
+- [ ] Draft RegenOS documentation + a simple public website — Luiz, target July (plan `docs/plans/regen-os-documentation.md`)
+- [ ] Write RegenOS description for the master-doc meeting-notes tab — Luiz, *external Google-Doc edit (draft-and-present)*
+- [ ] Add OrgOS overlay GitHub link next to the RegenOS reference in the master doc — Luiz, *external edit*
+- [ ] Write up RegenOS ↔ COOP / Geo Browser / COI / infra stack for the "More Opinionated Infrastructure" sub-tab — Luiz, *external edit*
+- [ ] Review Geo Browser (geobrowser.io) — Luiz
+- [ ] Explore housing the toolkit under ReFi Commons as organizational home — Luiz + Matty
+- [ ] Surface the framework/instance split to the wider team — Luiz (next biweekly)
+- [ ] Identify the first fundable working group + advance standards stack (CIDS + DAO IP5 + impact accounting); sketch the Impact Vault funding flow — Luiz + Matty
+- [ ] Matty — import resources DB (Excel → shared Google Sheet) + share edit access
 
 ## Open action items (from 2026-04-23 planning call)
 

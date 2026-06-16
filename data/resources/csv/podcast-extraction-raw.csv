@@ -1,0 +1,69 @@
+id,extracted_type,name,source_detail,source_origin,themes,notes
+PX00001,person,Kevin Owocki,Greenpill Podcast host; field bridge,explicit_podcast_synthesis,public goods; mechanism design; regenerative crypto,raw extraction from podcast synthesis summary
+PX00002,person,Carl Cervone,Hypercerts / retro funding bridge,explicit_podcast_synthesis,hypercerts; impact claims; retroactive funding,raw extraction from podcast synthesis summary
+PX00003,person,Devansh Mehta,Greenpill co-host / public goods discussions,twitter_and_podcast_signal,public goods; podcasts; Ethereum,raw extraction from podcast synthesis summary
+PX00004,person,Glen Weyl,"Plurality, quadratic funding, civic tech",explicit_podcast_synthesis,plurality; democracy; QF,raw extraction from podcast synthesis summary
+PX00005,person,Audrey Tang,Plurality and civic tech reference,explicit_podcast_synthesis,civic tech; public AI; democracy,raw extraction from podcast synthesis summary
+PX00006,person,Primavera De Filippi,Blockchain governance / commons,explicit_podcast_synthesis,governance; law; commons,raw extraction from podcast synthesis summary
+PX00007,person,Felix Beer,Referenced with governance / coordination context,explicit_podcast_synthesis,governance; Ethereum,raw extraction from podcast synthesis summary
+PX00008,person,Trent Van Epps,Ethereum governance / public goods,explicit_podcast_synthesis,Ethereum; governance,raw extraction from podcast synthesis summary
+PX00009,person,Boris Dyakov,Governance / coordination signal,explicit_podcast_synthesis,governance; Ethereum,raw extraction from podcast synthesis summary
+PX00010,person,Daniel Ospina,Organization design and governance,explicit_podcast_synthesis,governance; org design,raw extraction from podcast synthesis summary
+PX00011,person,Jon Hillis,Localism and network communities,explicit_podcast_synthesis,localism; network states,raw extraction from podcast synthesis summary
+PX00012,person,Ameen Soleimani,Moloch / coordination / Ethereum public goods,explicit_podcast_synthesis,Ethereum; DAOs,raw extraction from podcast synthesis summary
+PX00013,person,Matthew Monahan,Host/publisher in podcast source system,explicit_podcast_synthesis,regenerative finance; podcast; bioregions,raw extraction from podcast synthesis summary
+PX00014,person,Gregory Landua,Regenerative economics and bioregional finance,explicit_podcast_synthesis,ReFi; bioregionalism; eight forms of capital,raw extraction from podcast synthesis summary
+PX00015,person,Austin Wade Smith,Bioregional finance bridge,explicit_podcast_synthesis,bioregional finance; ReFi,raw extraction from podcast synthesis summary
+PX00016,person,Will Ruddick,Community currencies and commitment pooling,explicit_podcast_synthesis,community currencies; mutual credit; Sarafu,raw extraction from podcast synthesis summary
+PX00017,person,Atossa Soltani,Indigenous and ecological protection context,explicit_podcast_synthesis,Indigenous stewardship; rights of nature,raw extraction from podcast synthesis summary
+PX00018,person,Tom Crowther,Restoration and ecology reference,explicit_podcast_synthesis,ecology; restoration science,raw extraction from podcast synthesis summary
+PX00019,person,Erin Matariki Carr,Indigenous knowledge and land governance signal,explicit_podcast_synthesis,Indigenous knowledge; rights of nature,raw extraction from podcast synthesis summary
+PX00020,person,Samantha Power,Philanthropy / aid context reference,explicit_podcast_synthesis,aid; philanthropy,raw extraction from podcast synthesis summary
+PX00021,person,Erin Healy,Regenerative finance / land stewardship signal,explicit_podcast_synthesis,ReFi; ecology,raw extraction from podcast synthesis summary
+PX00022,person,Tiffany Pyette,Regenerative finance / ecological stewardship signal,explicit_podcast_synthesis,ReFi; ecology,raw extraction from podcast synthesis summary
+PX00023,person,Uyunkar Domingo Peas,Indigenous stewardship primary voice signal,explicit_podcast_synthesis,Indigenous stewardship; Amazon,raw extraction from podcast synthesis summary
+PX00024,person,Cassandra Lynn Ferrera,Commons and land-based practice,explicit_podcast_synthesis,commons; land; regeneration,raw extraction from podcast synthesis summary
+PX00025,person,Brandon Welch,Regeneration and ecosystem finance signal,explicit_podcast_synthesis,regeneration; finance,raw extraction from podcast synthesis summary
+PX00026,person,Justin Winters,Climate philanthropy / One Earth,explicit_podcast_synthesis,climate; philanthropy,raw extraction from podcast synthesis summary
+PX00027,person,Karl Burkart,Climate philanthropy and mapping,explicit_podcast_synthesis,climate; mapping; philanthropy,raw extraction from podcast synthesis summary
+PX00028,person,Tony Lai,Rights of nature / legal commons context,explicit_podcast_synthesis,law; commons; rights of nature,raw extraction from podcast synthesis summary
+PX00029,person,Michel Bauwens,Commons and peer production,explicit_podcast_synthesis,commons; P2P; cooperative economy,raw extraction from podcast synthesis summary
+PX00030,person,Nate Hagens,"Energy, ecology, systems thinking",explicit_podcast_synthesis,energy; systems; ecology,raw extraction from podcast synthesis summary
+PX00031,person,Stuart Cowan,Regenerative economics and systems,explicit_podcast_synthesis,ecological economics; systems,raw extraction from podcast synthesis summary
+PX00032,person,Yoseph Ayele,Commons and local economies,explicit_podcast_synthesis,commons; finance; community,raw extraction from podcast synthesis summary
+PX00033,person,Andy Tudhope,Knowledge and commons source signal,explicit_podcast_synthesis,commons; open source,raw extraction from podcast synthesis summary
+PX00034,person,David Dao,AI/conservation and impact verification,explicit_podcast_synthesis,conservation; AI; ReFi,raw extraction from podcast synthesis summary
+PX00035,person,Djimo Serodio,Tree planting / MRV context,explicit_podcast_synthesis,dMRV; trees; ReFi,raw extraction from podcast synthesis summary
+PX00036,person,Magenta Ceiba,Cultural/ecological regeneration signal,explicit_podcast_synthesis,culture; ReFi; ecology,raw extraction from podcast synthesis summary
+PX00037,person,Drew Simon,Podcast founder / nonprofit onboarding bridge,explicit_podcast_synthesis,web3 impact; nonprofit onboarding,raw extraction from podcast synthesis summary
+PX00038,person,Ivan Kosyuk,Humanitarian / Ukraine web3 signal,explicit_podcast_synthesis,humanitarian web3,raw extraction from podcast synthesis summary
+PX00039,person,Tetiana Deshko,Humanitarian / Ukraine web3 signal,explicit_podcast_synthesis,humanitarian web3,raw extraction from podcast synthesis summary
+PX00040,person,Nigel Pont,Web3 impact signal,explicit_podcast_synthesis,web3 impact,raw extraction from podcast synthesis summary
+PX00041,person,Joshua Dávila,Crypto left / web3 social impact,explicit_podcast_synthesis,cooperative crypto; crypto left,raw extraction from podcast synthesis summary
+PX00042,person,Joe Agoada,Stablecoin / humanitarian rails signal,explicit_podcast_synthesis,stablecoins; humanitarian,raw extraction from podcast synthesis summary
+PX00043,person,Mark Pascall,Web3 social impact signal,explicit_podcast_synthesis,web3 impact,raw extraction from podcast synthesis summary
+PX00044,person,Stefan Deiss,Web3 impact signal,explicit_podcast_synthesis,web3 impact,raw extraction from podcast synthesis summary
+PX00045,person,Yaniv Tal,Decentralized indexing / public goods infra,explicit_podcast_synthesis,indexing; public goods; web3,raw extraction from podcast synthesis summary
+PX00046,person,rathermercurial,Swarm and knowledge commons context,explicit_podcast_synthesis,knowledge commons; OpenCivics,raw extraction from podcast synthesis summary
+PX00047,podcast/media feed,Greenpill Podcast,"Media source system for regenerative crypto / public goods; Apple Podcasts says it explores crypto-economic systems, programmable money, game theory, and mechanism design",web_verified; podcast_synthesis,public goods; mechanism design; Ethereum,raw extraction from podcast/media synthesis
+PX00048,organization/media,Ma Earth,Publisher of The Regeneration Will Be Funded / bioregional finance context,podcast_synthesis,ReFi; bioregionalism; ecology,raw extraction from podcast/media synthesis
+PX00049,podcast/media feed,The Regeneration Will Be Funded,Ma Earth podcast about regenerative finance / living planet; Apple entry lists Ma Earth and episodes including nature finance/carbon finance topics,web_verified; podcast_synthesis,regenerative finance; ecology,raw extraction from podcast/media synthesis
+PX00050,organization/media,Crypto Altruists,Web3 impact platform; site describes podcast/blog/resources for crypto and web3 social impact,web_verified; podcast_synthesis,web3 impact; nonprofit onboarding,raw extraction from podcast/media synthesis
+PX00051,podcast/media feed,Crypto Altruists Podcast,Podcast highlighting real-world social/environmental impact powered by crypto/web3,web_verified; podcast_synthesis,humanitarian web3; nonprofit onboarding,raw extraction from podcast/media synthesis
+PX00052,podcast/media feed,The Blockchain Socialist,Cooperative crypto / crypto-left / public AI media source,resource_seed; podcast_synthesis,cooperatives; political economy,raw extraction from podcast/media synthesis
+PX00053,protocol/network,Regen Network,Ecological data and ecological assets network,resource_seed; podcast_synthesis; twitter_signal,ecological data; ReFi,raw extraction from podcast/media synthesis
+PX00054,protocol/impact record,Hypercerts,Impact claims / retroactive funding infrastructure,resource_seed; podcast_synthesis,impact claims; retro funding,raw extraction from podcast/media synthesis
+PX00055,organization/platform,Grassroots Economics,Community currencies and local exchange infrastructure,resource_seed; podcast_synthesis,community currencies; mutual credit,raw extraction from podcast/media synthesis
+PX00056,platform,Sarafu Network,Community currency and local exchange platform,resource_seed; podcast_synthesis,community currencies; commitment pooling,raw extraction from podcast/media synthesis
+PX00057,project/protocol,GoodDollar,UBI / social impact crypto project,podcast_adjacent_expansion,stablecoins; UBI; impact,raw extraction from podcast/media synthesis
+PX00058,stablecoin/project,Glo Dollar,Stablecoin for public goods / impact funding,podcast_synthesis,stablecoins; public goods,raw extraction from podcast/media synthesis
+PX00059,platform,Endaoment,Crypto philanthropy / donor-advised funds,podcast_synthesis,philanthropy; nonprofit onboarding,raw extraction from podcast/media synthesis
+PX00060,organization/protocol,Stellar Development Foundation,Stablecoin/payment rails for social impact context,podcast_adjacent_expansion,payments; stablecoins; impact,raw extraction from podcast/media synthesis
+PX00061,protocol/project,Silvi Protocol,Tree planting and MRV lead,resource_seed; podcast_synthesis,trees; MRV; ReFi,raw extraction from podcast/media synthesis
+PX00062,organization/project,GainForest,"Conservation tech, AI, ecological funding",resource_seed; podcast_synthesis,conservation; AI; ReFi,raw extraction from podcast/media synthesis
+PX00063,project/DAO,KlimaDAO,Carbon markets / ReFi history,podcast_synthesis,carbon markets; ReFi,raw extraction from podcast/media synthesis
+PX00064,initiative/region,Amazon Sacred Headwaters,Indigenous-led Amazon bioregional protection context,podcast_synthesis,Indigenous stewardship; Amazon,raw extraction from podcast/media synthesis
+PX00065,framework/movement,Rights of Nature,Legal/ecological framework referenced in bioregional contexts,podcast_synthesis,law; ecology; governance,raw extraction from podcast/media synthesis
+PX00066,framework/model,Bioregional Financing Facilities,Bioregional finance mechanism / source lead,podcast_synthesis,bioregional finance,raw extraction from podcast/media synthesis
+PX00067,event/media/org,Bioneers,Regenerative ecological conference/source system,podcast_synthesis,ecology; culture; regeneration,raw extraction from podcast/media synthesis
+PX00068,organization/platform,One Earth,Climate philanthropy and bioregional mapping context,podcast_synthesis,climate; philanthropy; mapping,raw extraction from podcast/media synthesis

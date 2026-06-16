@@ -3,6 +3,159 @@
   "type": "MeetingRegistry",
   "meetings": [
     {
+      "id": "mtg-20260615-toolkit-worksession-matty",
+      "title": "Toolkit Work Session with Matty — RegenOS + Knowledge Commons Architecture",
+      "date": "2026-06-15",
+      "type": "work-session",
+      "participants": [
+        "Matty (Mattycompost)",
+        "did:refi-bcn:luiz-fernando"
+      ],
+      "duration_minutes": null,
+      "recording_url": null,
+      "transcript_path": "packages/operations/meetings/260615 Toolkit Work Session with Matty.md",
+      "transcript_url": null,
+      "summary": "Ad-hoc 1-on-1 (Matty + Luiz). Matty walked through master-doc artifacts (two GPT handoff docs, next working draft, structure-options doc, unified resource index); Luiz demoed the OrgOS overlay end-to-end and articulated RegenOS as the federation layer above OrgOS instances. Two strategic moves converged: (1) formally split into a domain-agnostic framework + ReFi Web3 Toolkit as its first instance; (2) house the toolkit under ReFi Commons with a standards + funding model. Knowledge-source vs organizational federation likely two distinct mechanisms. Self-qualifying adoption = non-arbitrary curation filter. Simplify infra first (GitHub+agents now; Radicle/COI/on-chain later). Coordination via small bites + standards stack (CIDS + DAO IP5 + impact accounting tied to funding flows); scale to 5-7 high-trust orgs, not open chapter calls. Matty's compensation preference: seed an Impact Vault for the knowledge commons. Matty + Luiz named as the two to drive this forward.",
+      "decisions": [
+        "Formally split the work into a domain-agnostic framework + the ReFi Web3 Toolkit as its first concrete instance (master doc currently conflates the two)",
+        "Explore housing the toolkit under ReFi Commons as its organizational home (Matty: 'Oh yeah, 100%'); Green Pill IP likely rolls fully into ReFi Commons; be giving/trusting on IP",
+        "RegenOS gets a concrete written description (currently only vaguely referenced) — coordination layer above OrgOS instances mapping upstream/downstream repo relationships",
+        "Knowledge-source federation and organizational federation are probably two distinct mechanisms, not one",
+        "Self-qualifying adoption (adopt the framework + go through the process) is the non-arbitrary filtering function for deeper federation",
+        "Do not settle final infra / on-chain storage now — simplify first (GitHub + agents), layer complexity (Radicle, COI, on-chain) later",
+        "Coordination model: small bites not a big merger; standards stack = CIDS + DAO IP5 + impact accounting tied to funding flows; impact measurement specific + academically rigorous",
+        "Scale to ~5-7 more existing high-trust orgs / known people, not open chapter calls",
+        "Matty's compensation preference: seed an Impact Vault ('Oct and Vault') for the knowledge commons rather than take funding personally",
+        "Next master-doc iteration mechanics: AI-native verbose draft → group feedback → checkpoint; ~3 structural variants as the eventual target"
+      ],
+      "action_items": [
+        "Luiz: write a short plain-language RegenOS description into the master-doc meeting-notes tab (external edit to Matty's Google Doc — draft-and-present)",
+        "Luiz: add the OrgOS overlay GitHub link next to the RegenOS reference in the master doc (external edit)",
+        "Luiz: write up how RegenOS connects to COOP/Geo Browser/COI/infra stack for the 'More Opinionated Infrastructure' sub-tab (external edit)",
+        "Luiz: draft RegenOS documentation + a simple public website, targeting July (internal — new plan regen-os-documentation.md)",
+        "Luiz: review Geo Browser (geobrowser.io)",
+        "Luiz: explore integrating the toolkit under ReFi Commons as organizational home",
+        "Matty: import resources database from Excel into a shared Google Sheet and share edit access",
+        "Matty: continue next master-doc iteration; cook in Luiz's RegenOS description + OrgOS link + infra write-up",
+        "Matty + Luiz: identify the working groups both orgs agree are worth funding (the 'small bite' entry point)",
+        "Matty + Luiz: advance the standards stack (CIDS + DAO IP5 + impact accounting tied to funding flows)",
+        "Matty + Luiz: map a path to seed an Impact Vault from funding the master-doc work earns"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "framework-instance-split",
+        "regen-os",
+        "org-os-overlay",
+        "infra-stack",
+        "knowledge-source-federation",
+        "org-federation",
+        "refi-commons",
+        "impact-vault",
+        "standards-stack",
+        "coordination-model",
+        "resources-database"
+      ]
+    },
+    {
+      "id": "mtg-20260604-regen-web3-toolkit-planning",
+      "title": "Regen Web3 Toolkit Planning Call — V1 Site + Hub Post Strategy",
+      "date": "2026-06-04",
+      "type": "planning",
+      "participants": [
+        "Matty (Mattycompost)",
+        "Heenal",
+        "did:refi-bcn:luiz-fernando",
+        "Caue \"Koi\" Mtomaz",
+        "Afo",
+        "Rathermercurial"
+      ],
+      "absent_expected": [
+        "Andrea",
+        "Durgadas"
+      ],
+      "duration_minutes": null,
+      "recording_url": null,
+      "transcript_path": "packages/operations/meetings/260604 Regen Web3 Toolkit Planning Call.md",
+      "transcript_url": null,
+      "summary": "Converged on a two-deliverable strategy: Heenal's simplified V1 public website (3 journeys — newcomers, local nodes, knowledge commoners) + a forthcoming hub/forum post. Heenal owns + frames V1 and merged it to main (PR #311); live at regen-web3-toolkit.vercel.app. 'Public is not the same as commons' (Heenal) reframes the hub post toward inviting use + co-stewardship. Swarm should not overdetermine the work — ship something aligned + invite others. Andrea + RegenOS conversation deferred (Andrea = bioregional knowledge, bioregioning.org / Recover). Afo to funnel toolkit into the Greenpill Network site. Matty drafting a Regen Coordination budget/scope doc (allocation mostly toward the knowledge commons). Resources/option library is the acknowledged master-doc gap.",
+      "decisions": [
+        "Two paired deliverables: Heenal's V1 public website + a hub/forum post",
+        "Heenal owns + frames V1; merges the feature branch to main (done — PR #311)",
+        "'Public is not the same as commons' — hub post must invite use + co-stewardship, not just announce a site",
+        "Don't force the work into the Swarm frame — ship aligned + invite others",
+        "V1 scope = one tightly-scoped functional slice first (3 journeys: newcomers / local nodes / knowledge commoners); vertical layer-mapping later",
+        "Andrea + RegenOS conversation deferred to a separate session"
+      ],
+      "action_items": [
+        "Heenal: merge V1 to main (done); page-by-page human review; design a feedback/contribution pathway",
+        "Luiz: share bioregioning.org + maturity-index excerpt to Telegram; explore contribution governance + compensation protocols; help GDoc → GitHub move; interoperability site↔master doc↔maps",
+        "Matty: finish master-doc read → one iteration → draft hub/forum post; push Regen Coordination budget/scope doc",
+        "Afo: translate toolkit into the Greenpill Network 'garden → house' flow; consider agent skills for AI to reference the toolkit",
+        "Koi: develop activation/cell/troika protocol; post-journey operational pathways; gamified journeys (with Magdalena)",
+        "Rather: Swarm/OpenCivics context; help define an operational-contributor pathway",
+        "Team: consider joining Regen/ReFi Commons; post problems/ToC feedback in Telegram"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "v1-public-website",
+        "onboarding-journeys",
+        "public-is-not-commons",
+        "hub-post",
+        "regen-os",
+        "andrea-bioregioning",
+        "greenpill-network-integration",
+        "contribution-governance",
+        "regen-coordination-budget",
+        "swarm-not-overdetermine"
+      ]
+    },
+    {
+      "id": "mtg-20260521-regen-web3-toolkit-planning",
+      "title": "Regen Web3 Toolkit Planning Call — Theory of Change Check-in",
+      "date": "2026-05-21",
+      "type": "planning",
+      "participants": [
+        "Matty (Mattycompost)",
+        "Caue \"Koi\" Mtomaz",
+        "Durgadas",
+        "Heenal",
+        "Rathermercurial",
+        "Afo"
+      ],
+      "absent_expected": [
+        "did:refi-bcn:luiz-fernando"
+      ],
+      "duration_minutes": null,
+      "recording_url": null,
+      "transcript_path": "packages/operations/meetings/260521 Regen Web3 Toolkit Planning Call.md",
+      "transcript_url": null,
+      "summary": "Diverged from the planned persona/skill-card game into an open strategic check-in dominated by Durgadas's 'theory of build vs theory of change' challenge: the project risks being a thing in search of a problem. Group agreed its highest-leverage next move is to author a revised problem + mission statement. Afo: derive the theory of change from parent ecosystems (Green Pill + ReFi DAO), don't invent it fresh. 'Transformational journeys' framing (Koi) gained traction as shared direction (later operationalized by Heenal's v1 site). Rather deployed a forkable metadata ontology to Geo Protocol. Framework-vs-instance surfaced ('are we building the toolkit or the knowledge?'). Unresolved: agree-on-the-problem (Koi) vs represent-everyone's-priorities (Matty); call dropped on a connectivity cut. Luiz absent.",
+      "decisions": [
+        "Author a revised problem statement + mission statement (highest-leverage next move)",
+        "Derive the theory of change from parent ecosystems — anchor on Green Pill + ReFi DAO, don't invent fresh (Afo)",
+        "Continue reframing toward 'transformational journeys' — abstract from tools to functions + stages (Koi; Rather endorses)",
+        "UNRESOLVED: agree on shared problems/tradeoffs (Koi) vs structure that represents everyone's priorities (Matty)"
+      ],
+      "action_items": [
+        "Durgadas: share the Idea Processor (MELT-strategy idea-vetting) + the theory-of-build article",
+        "Rather: continue building the forkable Geo Protocol metadata ontology (populate with SuperBenefit content)",
+        "Group: draft the revised problem + mission statement (unassigned; Heenal proposed)",
+        "Group: consider a tradeoff-triangle prioritization exercise to find the highest-leverage thing",
+        "Afo: use AI over existing meeting/steward notes to surface 'what is the change and where are the gaps'"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "theory-of-change-vs-theory-of-build",
+        "problem-statement-revision",
+        "transformational-journeys",
+        "framework-vs-instance",
+        "geo-protocol-ontology",
+        "derive-toc-from-parent-ecosystems",
+        "frame-language-analyzer",
+        "persona-game-superseded"
+      ]
+    },
+    {
       "id": "mtg-20260507-regen-web3-toolkit-planning",
       "title": "Regen Web3 Toolkit Planning Call",
       "date": "2026-05-07",

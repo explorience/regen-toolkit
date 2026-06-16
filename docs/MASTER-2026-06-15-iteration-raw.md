@@ -1,10 +1,10 @@
 # 🎒 Working Orientation
 
-# Regen Knowledge Commons Toolkit
+\# Regen Knowledge Commons Toolkit
 
-## 1. Working Orientation
+\#\# 1\. Working Orientation
 
-### Status of this document
+\#\#\# Status of this document
 
 This document is a living working draft for the Regen Knowledge Commons Toolkit.
 
@@ -23,9 +23,9 @@ The current goal is not to make the document perfectly polished. The current goa
 
 A small, used, cared-for commons is better than a complete but dead architecture.
 
----
+\---
 
-### What the Toolkit is becoming
+\#\#\# What the Toolkit is becoming
 
 The Regen Knowledge Commons Toolkit is becoming a layered knowledge and coordination system for regenerative web3, local ecosystem building, public goods, civic infrastructure, ecological stewardship, and federated collaboration.
 
@@ -39,22 +39,22 @@ In that sense, this is not only a toolkit or a knowledge base.
 
 It is becoming a distributed epistemic-operational system: a federated knowledge commons with a shared semantic kernel, reusable design components, explicit deployment logic, and an adaptive evolution layer that helps the system learn over time.
 
----
+\---
 
-### What this document is for
+\#\#\# What this document is for
 
 This document is the current working synthesis of the Toolkit.
 
 Its role is to make the structure legible enough that people can:
 
-- understand the main architecture;  
-- see how the layers relate;  
-- contribute without increasing confusion;  
-- preserve useful material from previous iterations;  
-- route messy notes into better homes;  
-- connect knowledge to design and implementation;  
-- distinguish raw material from reviewed knowledge;  
-- support future technical, editorial, and community work.
+\- understand the main architecture;  
+\- see how the layers relate;  
+\- contribute without increasing confusion;  
+\- preserve useful material from previous iterations;  
+\- route messy notes into better homes;  
+\- connect knowledge to design and implementation;  
+\- distinguish raw material from reviewed knowledge;  
+\- support future technical, editorial, and community work.
 
 The document should be dense enough to support serious work, but structured enough that different contributors can enter through different doors.
 
@@ -70,9 +70,9 @@ Some may use it to build technical infrastructure, interfaces, schemas, or AI-na
 
 The document is meant to be worked with, not merely read.
 
----
+\---
 
-### Current posture
+\#\#\# Current posture
 
 This version should be treated as a coherent working draft, not a settled source of truth.
 
@@ -92,31 +92,31 @@ The purpose of this iteration is to preserve useful ideas while making the archi
 
 The best question is not:
 
-> Is this finished?
+\> Is this finished?
 
 The better question is:
 
-> What does this help us see, and what should happen to it next?
+\> What does this help us see, and what should happen to it next?
 
----
+\---
 
-### Working principle
+\#\#\# Working principle
 
 The Toolkit should help the ecosystem become more legible to itself.
 
 That means:
 
-- mapping what exists;  
-- explaining what matters;  
-- preserving where knowledge came from;  
-- showing how ideas relate;  
-- making reusable options visible;  
-- making structural risks visible;  
-- distinguishing claims from evidence;  
-- protecting source lineage;  
-- respecting consent and context;  
-- learning from implementation;  
-- updating the commons over time.
+\- mapping what exists;  
+\- explaining what matters;  
+\- preserving where knowledge came from;  
+\- showing how ideas relate;  
+\- making reusable options visible;  
+\- making structural risks visible;  
+\- distinguishing claims from evidence;  
+\- protecting source lineage;  
+\- respecting consent and context;  
+\- learning from implementation;  
+\- updating the commons over time.
 
 The Toolkit should not become the center of the ecosystem.
 
@@ -126,19 +126,19 @@ The goal is not finality.
 
 The goal is better commoning.
 
----
+\---
 
-### Core movement
+\#\#\# Core movement
 
 The Toolkit should support a movement from fragmented knowledge toward responsible action and shared learning.
 
 A useful high-level sequence is:
 
-> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
+\> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
 
 Another shorthand is:
 
-> Resource → Concept → Option → Track → Deployment → Implementation → Signal → Evolution
+\> Resource → Concept → Option → Track → Deployment → Implementation → Signal → Evolution
 
 This movement does not mean every contributor must move through every layer.
 
@@ -154,9 +154,9 @@ The loop exists so the Toolkit does not become a pile of content.
 
 It gives the commons a way to learn.
 
----
+\---
 
-### Minimum operating kernel
+\#\#\# Minimum operating kernel
 
 For the next version, the Toolkit can be understood through five core working objects:
 
@@ -174,15 +174,15 @@ But these five objects provide a simple v0.1 operating kernel.
 
 They help contributors understand the basic flow:
 
-- find something;  
-- explain what it means;  
-- identify what can be reused;  
-- specify how it will be used;  
-- learn from what happens.
+\- find something;  
+\- explain what it means;  
+\- identify what can be reused;  
+\- specify how it will be used;  
+\- learn from what happens.
 
----
+\---
 
-### What should be preserved from previous iterations
+\#\#\# What should be preserved from previous iterations
 
 This document should not start over.
 
@@ -192,28 +192,28 @@ The next version should preserve useful material while routing it into clearer p
 
 In particular, preserve:
 
-- the layered architecture;  
-- the distinction between resources, concepts, options, deployments, implementations, signals, and patterns;  
-- the idea of the Toolkit as a federated knowledge commons;  
-- the ontology as a semantic kernel, not merely a tag system;  
-- the Resource Graph as the reality-grounding layer;  
-- the Encyclopedia as the explanatory layer;  
-- the Option Library as the reusable design layer;  
-- the Deployment layer as the structural integrity layer;  
-- the Evolution layer as the adaptive learning layer;  
-- the raw resource and source-system materials as a seed registry, not as a final endorsed list;  
-- the public-use and maturity cautions around ecological, financial, governance, identity, community, AI-generated, and impact-related claims;  
-- the principle that source systems are living knowledge environments, not extractable link pools;  
-- the principle that implementation cases should not become universal patterns too quickly;  
-- the principle that AI can help synthesize, route, and classify, but should not replace human review.
+\- the layered architecture;  
+\- the distinction between resources, concepts, options, deployments, implementations, signals, and patterns;  
+\- the idea of the Toolkit as a federated knowledge commons;  
+\- the ontology as a semantic kernel, not merely a tag system;  
+\- the Resource Graph as the reality-grounding layer;  
+\- the Encyclopedia as the explanatory layer;  
+\- the Option Library as the reusable design layer;  
+\- the Deployment layer as the structural integrity layer;  
+\- the Evolution layer as the adaptive learning layer;  
+\- the raw resource and source-system materials as a seed registry, not as a final endorsed list;  
+\- the public-use and maturity cautions around ecological, financial, governance, identity, community, AI-generated, and impact-related claims;  
+\- the principle that source systems are living knowledge environments, not extractable link pools;  
+\- the principle that implementation cases should not become universal patterns too quickly;  
+\- the principle that AI can help synthesize, route, and classify, but should not replace human review.
 
 Messy material should not be deleted just because it is unpolished.
 
 When in doubt, preserve it, route it, label its maturity, or move it into the Backlog / Notes / Future Design Seeds section.
 
----
+\---
 
-### Working with uncertainty
+\#\#\# Working with uncertainty
 
 This Toolkit deals with complex fields: regenerative design, web3, local coordination, public goods, ecological systems, governance, funding mechanisms, AI workflows, knowledge commons, civic infrastructure, and real-world implementation.
 
@@ -233,9 +233,9 @@ The Toolkit should not remove uncertainty just to sound more complete.
 
 A clear uncertainty is more useful than a false conclusion.
 
----
+\---
 
-### Relationship to CSIS, Octo / BKC, and adjacent systems
+\#\#\# Relationship to CSIS, Octo / BKC, and adjacent systems
 
 The Toolkit may be informed by external frameworks, ontologies, standards, and adjacent knowledge commons.
 
@@ -247,39 +247,39 @@ Other source systems, standards, communities, and frameworks may inform the Tool
 
 The working posture is:
 
-> Learn from adjacent systems without pretending they are final authorities.    
-> Align where useful.    
-> Extend where necessary.    
-> Preserve attribution.    
-> Avoid premature lock-in.
+\> Learn from adjacent systems without pretending they are final authorities.    
+\> Align where useful.    
+\> Extend where necessary.    
+\> Preserve attribution.    
+\> Avoid premature lock-in.
 
----
+\---
 
-### What this document should avoid
+\#\#\# What this document should avoid
 
 Avoid:
 
-- starting over without need;  
-- turning the doc into a public pitch too early;  
-- deleting useful raw material too aggressively;  
-- over-polishing uncertain material;  
-- treating resource lists as endorsed recommendations;  
-- treating source systems as extractable link pools;  
-- treating site articles as canonical without review;  
-- collapsing tracks into deployments;  
-- collapsing implementation cases into patterns;  
-- treating AI synthesis as reviewed knowledge;  
-- treating Octo / BKC as a final ontology decision;  
-- claiming CSIS conformance without assessment;  
-- choosing infrastructure before workflows are clear;  
-- flattening local, relational, ecological, or community context into generic templates;  
-- hiding uncertainty to make the document feel cleaner.
+\- starting over without need;  
+\- turning the doc into a public pitch too early;  
+\- deleting useful raw material too aggressively;  
+\- over-polishing uncertain material;  
+\- treating resource lists as endorsed recommendations;  
+\- treating source systems as extractable link pools;  
+\- treating site articles as canonical without review;  
+\- collapsing tracks into deployments;  
+\- collapsing implementation cases into patterns;  
+\- treating AI synthesis as reviewed knowledge;  
+\- treating Octo / BKC as a final ontology decision;  
+\- claiming CSIS conformance without assessment;  
+\- choosing infrastructure before workflows are clear;  
+\- flattening local, relational, ecological, or community context into generic templates;  
+\- hiding uncertainty to make the document feel cleaner.
 
 The next useful work is stabilization, routing, structuring, and testing — not endless conceptual expansion.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Regen Knowledge Commons Toolkit is a living, layered system for organizing knowledge, mapping ecosystems, preserving source lineage, supporting ontology and interoperability, explaining concepts, comparing reusable options, guiding composition, making deployments structurally legible, learning from implementation, and evolving over time.
 
@@ -291,40 +291,40 @@ The important thing is that the work in progress remains understandable, navigab
 
 The purpose of this document is to help future contributors continue the work without losing the intelligence already gathered.
 
-> ## Handoff Status  
->  
-> This is a stabilization draft of the Regen Knowledge Commons Toolkit master document.  
->  
-> The main architecture has been reorganized into coherent sections, but several appendices and raw inventories still need extraction and routing, especially the previous Resource Graph & Ecosystem Atlas material.  
->  
-> Do not treat this document as final, canonical, or fully reviewed.  
->  
-> Do not replace the previous raw resource inventory until all concrete links and named references have been extracted into a structured table.  
->  
-> The next useful pass should focus on:  
->  
-> 1. preserving and extracting the full Resource Graph inventory;  
-> 2. creating real Source System Cards;  
-> 3. creating starter Option Library entries;  
-> 4. creating Implementation Memory stubs;  
-> 5. adding an Evolution Log;  
-> 6. mapping current site/articles into Toolkit layers;  
-> 7. adding public-use and review labels where needed.  
->  
-> Prefer stabilization, routing, and implementation scaffolding over another conceptual rewrite.
+\> \#\# Handoff Status  
+\>  
+\> This is a stabilization draft of the Regen Knowledge Commons Toolkit master document.  
+\>  
+\> The main architecture has been reorganized into coherent sections, but several appendices and raw inventories still need extraction and routing, especially the previous Resource Graph & Ecosystem Atlas material.  
+\>  
+\> Do not treat this document as final, canonical, or fully reviewed.  
+\>  
+\> Do not replace the previous raw resource inventory until all concrete links and named references have been extracted into a structured table.  
+\>  
+\> The next useful pass should focus on:  
+\>  
+\> 1\. preserving and extracting the full Resource Graph inventory;  
+\> 2\. creating real Source System Cards;  
+\> 3\. creating starter Option Library entries;  
+\> 4\. creating Implementation Memory stubs;  
+\> 5\. adding an Evolution Log;  
+\> 6\. mapping current site/articles into Toolkit layers;  
+\> 7\. adding public-use and review labels where needed.  
+\>  
+\> Prefer stabilization, routing, and implementation scaffolding over another conceptual rewrite.
 
 # 🐝 Swarm Context & Adjacent Commons
 
-## 2. Swarm Context & Adjacent Commons
+\#\# 2\. Swarm Context & Adjacent Commons
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 This section situates the Regen Knowledge Commons Toolkit in relation to the Knowledge Commoning Swarm and adjacent knowledge commons efforts.
 
 The key posture is:
 
-> The Regen Toolkit is not the universal architecture for the Swarm.    
-> It is a regenerative-domain contribution to a broader knowledge commoning movement.
+\> The Regen Toolkit is not the universal architecture for the Swarm.    
+\> It is a regenerative-domain contribution to a broader knowledge commoning movement.
 
 The Toolkit should enter the Swarm as a useful working model, not as a finished answer.
 
@@ -334,9 +334,9 @@ The Toolkit should remain porous.
 
 It should not treat its own structure as the default structure for everyone else.
 
----
+\---
 
-### What the Knowledge Commoning Swarm is
+\#\#\# What the Knowledge Commoning Swarm is
 
 The Knowledge Commoning Swarm is a collaboration context for people working on shared knowledge infrastructure.
 
@@ -344,21 +344,21 @@ It is oriented around surfacing what already exists, making components legible, 
 
 The Swarm is not primarily about:
 
-- building one universal platform;  
-- choosing one canonical tool;  
-- defining one universal ontology;  
-- replacing existing knowledge systems;  
-- forcing communities into a single architecture;  
-- centralizing knowledge commoning under one project.
+\- building one universal platform;  
+\- choosing one canonical tool;  
+\- defining one universal ontology;  
+\- replacing existing knowledge systems;  
+\- forcing communities into a single architecture;  
+\- centralizing knowledge commoning under one project.
 
 It is more about:
 
-- discovering what already exists;  
-- making useful components easier to understand;  
-- mapping relationships across tools, patterns, protocols, guides, and practices;  
-- identifying reusable knowledge commoning primitives;  
-- supporting plural approaches to knowledge stewardship;  
-- helping communities assemble context-appropriate commons infrastructure.
+\- discovering what already exists;  
+\- making useful components easier to understand;  
+\- mapping relationships across tools, patterns, protocols, guides, and practices;  
+\- identifying reusable knowledge commoning primitives;  
+\- supporting plural approaches to knowledge stewardship;  
+\- helping communities assemble context-appropriate commons infrastructure.
 
 This aligns strongly with the Regen Toolkit, but the two should not be collapsed into each other.
 
@@ -366,24 +366,24 @@ The Swarm is broader.
 
 The Regen Toolkit brings a specific lens: regenerative web3, local coordination, public goods, ecological stewardship, civic infrastructure, knowledge commoning, implementation learning, AI-assisted knowledge gardening, and structural integrity.
 
----
+\---
 
-### Why the Regen Toolkit is relevant to the Swarm
+\#\#\# Why the Regen Toolkit is relevant to the Swarm
 
 The Regen Toolkit is already working on a practical version of a broader knowledge commoning problem:
 
-> How can fragmented knowledge, tools, resources, concepts, people, patterns, and implementation lessons become more legible, reusable, attributable, reviewable, and composable?
+\> How can fragmented knowledge, tools, resources, concepts, people, patterns, and implementation lessons become more legible, reusable, attributable, reviewable, and composable?
 
 The Toolkit contributes a domain-specific working model for:
 
-- mapping resources and source systems;  
-- explaining concepts and frameworks;  
-- preserving ontology and semantic interoperability questions;  
-- organizing reusable options;  
-- making deployment conditions explicit;  
-- capturing implementation learning;  
-- updating the commons through adaptive evolution;  
-- maintaining provenance, review, maturity, consent, and regenerative obligation.
+\- mapping resources and source systems;  
+\- explaining concepts and frameworks;  
+\- preserving ontology and semantic interoperability questions;  
+\- organizing reusable options;  
+\- making deployment conditions explicit;  
+\- capturing implementation learning;  
+\- updating the commons through adaptive evolution;  
+\- maintaining provenance, review, maturity, consent, and regenerative obligation.
 
 The Toolkit should not ask the Swarm to adopt all of its language.
 
@@ -391,38 +391,38 @@ It should offer modular pieces that can be inspected, adapted, reused, critiqued
 
 Its best contribution may not be one artifact, but a set of distinctions and working patterns that help knowledge commons avoid becoming flat link dumps, disconnected wikis, unreviewed AI syntheses, or overbuilt ontologies detached from practice.
 
----
+\---
 
-### Swarm posture
+\#\#\# Swarm posture
 
 The Toolkit should relate to the Swarm through a contributory posture.
 
 This means:
 
-- contribute useful patterns without claiming universality;  
-- preserve source lineage and attribution;  
-- treat adjacent commons as peers, not inputs to be absorbed;  
-- make assumptions explicit;  
-- keep open questions visible;  
-- avoid premature standardization;  
-- support interoperability without forcing sameness;  
-- offer reusable components rather than total systems;  
-- learn from other commons as much as it contributes to them.
+\- contribute useful patterns without claiming universality;  
+\- preserve source lineage and attribution;  
+\- treat adjacent commons as peers, not inputs to be absorbed;  
+\- make assumptions explicit;  
+\- keep open questions visible;  
+\- avoid premature standardization;  
+\- support interoperability without forcing sameness;  
+\- offer reusable components rather than total systems;  
+\- learn from other commons as much as it contributes to them.
 
 The Regen Toolkit should not present itself as:
 
-- the Swarm’s architecture;  
-- the canonical knowledge commons model;  
-- the final ontology for regenerative or civic knowledge;  
-- the primary repository for everyone else’s work;  
-- a replacement for existing source systems;  
-- a universal interface for all communities.
+\- the Swarm’s architecture;  
+\- the canonical knowledge commons model;  
+\- the final ontology for regenerative or civic knowledge;  
+\- the primary repository for everyone else’s work;  
+\- a replacement for existing source systems;  
+\- a universal interface for all communities.
 
 Its best role is contributory, not totalizing.
 
----
+\---
 
-### Swarm moves and Toolkit translation
+\#\#\# Swarm moves and Toolkit translation
 
 The Swarm’s work can be understood through five practical moves:
 
@@ -436,21 +436,21 @@ The Swarm’s work can be understood through five practical moves:
 
 This mirrors the Toolkit’s internal movement:
 
-> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
+\> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
 
 Or, in simpler terms:
 
-> Resource → Concept → Option → Track → Deployment → Implementation → Signal → Evolution
+\> Resource → Concept → Option → Track → Deployment → Implementation → Signal → Evolution
 
 These two loops should be allowed to speak to each other without being forced into identical terminology.
 
----
+\---
 
-### What the Toolkit can contribute
+\#\#\# What the Toolkit can contribute
 
 The Regen Toolkit can contribute several useful pieces to the Swarm.
 
-#### 1. A regenerative-domain map
+\#\#\#\# 1\. A regenerative-domain map
 
 The Toolkit can help map people, projects, organizations, tools, source systems, protocols, maps, events, datasets, cases, and knowledge environments relevant to regenerative web3, public goods, ReFi, local coordination, ecological stewardship, civic infrastructure, and bioregional work.
 
@@ -458,7 +458,7 @@ This map should remain source-aware and review-aware.
 
 Inclusion should mean “potentially relevant for review and routing,” not “endorsed,” “approved,” or “canonical.”
 
-#### 2. A non-final ontology discussion
+\#\#\#\# 2\. A non-final ontology discussion
 
 The Toolkit can contribute candidate semantic structures, Octo / BKC alignment questions, relationship predicates, classification layers, source-system distinctions, and open schema questions.
 
@@ -466,22 +466,22 @@ The goal is not to force one ontology.
 
 The goal is to help knowledge commons remain interoperable, graph-compatible, and AI-readable while preserving room for local language, plural interpretation, and future revision.
 
-#### 3. A knowledge and explanation layer
+\#\#\#\# 3\. A knowledge and explanation layer
 
 The Toolkit can offer a model for organizing concepts, frameworks, comparisons, learning paths, anti-patterns, frontier questions, and guides without confusing them with raw resource lists, option catalogs, or implementation records.
 
 This is useful because many knowledge commons blur:
 
-- what something is;  
-- what it means;  
-- where it came from;  
-- how it can be used;  
-- whether it has been reviewed;  
-- what happened when someone tried it.
+\- what something is;  
+\- what it means;  
+\- where it came from;  
+\- how it can be used;  
+\- whether it has been reviewed;  
+\- what happened when someone tried it.
 
 The Toolkit’s layered distinctions can help reduce that confusion.
 
-#### 4. A Resource Graph and Source System approach
+\#\#\#\# 4\. A Resource Graph and Source System approach
 
 The Toolkit can contribute a practical distinction between ordinary resources and living source systems.
 
@@ -495,7 +495,7 @@ They carry context, stewardship, update rhythms, worldview, attribution needs, r
 
 This distinction is especially important for non-extractive knowledge commoning.
 
-#### 5. An Option Library pattern
+\#\#\#\# 5\. An Option Library pattern
 
 The Toolkit can contribute a way to organize reusable choices such as governance models, coordination patterns, funding mechanisms, documentation practices, measurement systems, incentive models, implementation workflows, and infrastructure patterns.
 
@@ -507,7 +507,7 @@ The Option Library helps people compare what can be reused, combined, adapted, o
 
 This may be useful for any community trying to move from knowledge into practical design.
 
-#### 6. Tracks as composition pathways
+\#\#\#\# 6\. Tracks as composition pathways
 
 The Toolkit can contribute the idea of Tracks as guided pathways across knowledge, resources, options, tools, deployment checks, and implementation examples.
 
@@ -517,19 +517,19 @@ They are context-sensitive compositions that help people prepare for action.
 
 Examples may include:
 
-- Newcomer Orientation;  
-- Community Organization;  
-- Local Node Builder;  
-- Governance Deep Dive;  
-- Environmental Impact;  
-- Bioregional Coordination;  
-- Public Goods Funding Round;  
-- Knowledge Commons Builder;  
-- AI-Assisted Knowledge Garden.
+\- Newcomer Orientation;  
+\- Community Organization;  
+\- Local Node Builder;  
+\- Governance Deep Dive;  
+\- Environmental Impact;  
+\- Bioregional Coordination;  
+\- Public Goods Funding Round;  
+\- Knowledge Commons Builder;  
+\- AI-Assisted Knowledge Garden.
 
 This distinction helps prevent a guide or learning path from being mistaken for a valid operational setup.
 
-#### 7. Deployment and structural integrity guardrails
+\#\#\#\# 7\. Deployment and structural integrity guardrails
 
 The Toolkit can contribute deployment questions and templates that make roles, authority, consent, power, information requirements, review needs, failure modes, and obligations visible before use.
 
@@ -537,61 +537,61 @@ This is where CSIS-informed thinking is most relevant.
 
 A community can select promising options and still fail if it does not specify:
 
-- who decides;  
-- who participates;  
-- who controls infrastructure;  
-- who controls funds;  
-- where decisions are recorded;  
-- what knowledge is required;  
-- how issues are surfaced;  
-- how adaptations are reviewed;  
-- what is fixed, configurable, or experimental.
+\- who decides;  
+\- who participates;  
+\- who controls infrastructure;  
+\- who controls funds;  
+\- where decisions are recorded;  
+\- what knowledge is required;  
+\- how issues are surfaced;  
+\- how adaptations are reviewed;  
+\- what is fixed, configurable, or experimental.
 
 The Toolkit can help the Swarm distinguish between “interesting components” and “deployment-ready configurations.”
 
-#### 8. Implementation learning
+\#\#\#\# 8\. Implementation learning
 
 The Toolkit can contribute a way to capture what happens in practice.
 
 This includes:
 
-- local node experiments;  
-- funding rounds;  
-- governance deployments;  
-- ecological reporting pilots;  
-- knowledge garden sprints;  
-- community onboarding flows;  
-- coordination failures;  
-- tool mismatches;  
-- adaptation patterns;  
-- field-informed lessons.
+\- local node experiments;  
+\- funding rounds;  
+\- governance deployments;  
+\- ecological reporting pilots;  
+\- knowledge garden sprints;  
+\- community onboarding flows;  
+\- coordination failures;  
+\- tool mismatches;  
+\- adaptation patterns;  
+\- field-informed lessons.
 
 Implementation Memory helps prevent knowledge commons from becoming detached from reality.
 
 It also helps prevent one case from becoming a universal pattern too quickly.
 
-#### 9. Claim-evidence discipline
+\#\#\#\# 9\. Claim-evidence discipline
 
 The Toolkit can contribute a lightweight habit of separating:
 
-- claims;  
-- evidence;  
-- interpretation;  
-- uncertainty;  
-- review state;  
-- public-use boundary.
+\- claims;  
+\- evidence;  
+\- interpretation;  
+\- uncertainty;  
+\- review state;  
+\- public-use boundary.
 
 This is especially important for ecological claims, MRV, funding claims, community representation, AI-generated synthesis, impact reporting, governance recommendations, and identity or reputation systems.
 
 A claim should not become public guidance just because it is written clearly.
 
-#### 10. Evolution logic
+\#\#\#\# 10\. Evolution logic
 
 The Toolkit can contribute an adaptive loop for turning signals into updates.
 
 A useful loop is:
 
-> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
+\> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
 
 Feedback should not automatically become change.
 
@@ -599,9 +599,9 @@ A signal should be interpreted, reviewed, routed, and integrated before it modif
 
 This protects the system from both stagnation and reactive overcorrection.
 
----
+\---
 
-### Possible Swarm-facing outputs
+\#\#\# Possible Swarm-facing outputs
 
 The Swarm may produce outputs such as maps, component indexes, assembly guides, instructional resources, templates, or commons-building pathways.
 
@@ -621,9 +621,9 @@ The Toolkit should remain one contributor among many.
 
 It should not reorganize itself entirely around Swarm terminology, but it should stay legible to Swarm collaborators.
 
----
+\---
 
-### Core translation across layers
+\#\#\# Core translation across layers
 
 The Toolkit can be translated into Swarm-facing functions like this:
 
@@ -645,31 +645,31 @@ This translation should remain lightweight.
 
 The Toolkit should remain understandable to the Swarm without becoming only a Swarm document.
 
----
+\---
 
-### Adjacent commons and source systems
+\#\#\# Adjacent commons and source systems
 
 The Toolkit should treat adjacent commons as living source systems and peer knowledge environments, not as raw material to absorb.
 
 Examples of adjacent or relevant source systems may include:
 
-- Knowledge Commoning Swarm;  
-- OpenCivics;  
-- Octo / Bioregional Knowledge Commons;  
-- Regenerative Knowledge Commons / RKC;  
-- Communities for Future;  
-- Regen Commons;  
-- SuperBenefit Knowledge Garden;  
-- Bloom Network;  
-- ReFi DAO;  
-- Gitcoin / Allo;  
-- OpenCivics-related resources;  
-- IEF.wiki / Impact Evaluation Foundation;  
-- Commons Library;  
-- P2P Foundation;  
-- Open Knowledge Foundation;  
-- Creative Commons;  
-- other wikis, repositories, maps, knowledge gardens, forums, and resource libraries.
+\- Knowledge Commoning Swarm;  
+\- OpenCivics;  
+\- Octo / Bioregional Knowledge Commons;  
+\- Regenerative Knowledge Commons / RKC;  
+\- Communities for Future;  
+\- Regen Commons;  
+\- SuperBenefit Knowledge Garden;  
+\- Bloom Network;  
+\- ReFi DAO;  
+\- Gitcoin / Allo;  
+\- OpenCivics-related resources;  
+\- IEF.wiki / Impact Evaluation Foundation;  
+\- Commons Library;  
+\- P2P Foundation;  
+\- Open Knowledge Foundation;  
+\- Creative Commons;  
+\- other wikis, repositories, maps, knowledge gardens, forums, and resource libraries.
 
 This list is a starting surface, not a final registry.
 
@@ -684,29 +684,29 @@ The important principle is not that every listed source remains.
 
 The important principle is that stewarded knowledge environments should be handled with care.
 
----
+\---
 
-### What the Toolkit should avoid in relation to the Swarm
+\#\#\# What the Toolkit should avoid in relation to the Swarm
 
 The Regen Toolkit should not:
 
-- present itself as the Swarm’s universal architecture;  
-- imply that regenerative web3 is the center of the Swarm;  
-- force Swarm terminology into every section;  
-- absorb other communities’ work without attribution;  
-- treat candidate source systems as endorsed or canonical;  
-- convert open questions into premature standards;  
-- treat AI-generated synthesis as reviewed knowledge;  
-- flatten living source systems into static links;  
-- treat a track as a deployment;  
-- treat one implementation as a universal pattern;  
-- over-standardize before real use reveals what is needed.
+\- present itself as the Swarm’s universal architecture;  
+\- imply that regenerative web3 is the center of the Swarm;  
+\- force Swarm terminology into every section;  
+\- absorb other communities’ work without attribution;  
+\- treat candidate source systems as endorsed or canonical;  
+\- convert open questions into premature standards;  
+\- treat AI-generated synthesis as reviewed knowledge;  
+\- flatten living source systems into static links;  
+\- treat a track as a deployment;  
+\- treat one implementation as a universal pattern;  
+\- over-standardize before real use reveals what is needed.
 
 The best relationship is contributory, not totalizing.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Knowledge Commoning Swarm is a broader collaboration space for surfacing, connecting, composing, and harvesting knowledge commons components.
 
@@ -720,9 +720,9 @@ Its best role is to help regenerative and public goods ecosystems bring useful k
 
 # 🥪 System Overview & Core Layers
 
-## 3. System Overview & Core Movement
+\#\# 3\. System Overview & Core Movement
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 This section gives the high-level architecture of the Regen Knowledge Commons Toolkit.
 
@@ -730,23 +730,23 @@ Its purpose is to help contributors understand what each part of the Toolkit is 
 
 The Toolkit should not become:
 
-- a flat link dump;  
-- a glossary pretending to be an ontology;  
-- an ontology pretending to be an encyclopedia;  
-- a resource registry pretending to be a public recommendation list;  
-- a collection of articles disconnected from real-world practice;  
-- an option catalog with no deployment conditions;  
-- a track pretending to be a valid implementation;  
-- an implementation case pretending to be a universal pattern;  
-- an AI synthesis pretending to be reviewed knowledge.
+\- a flat link dump;  
+\- a glossary pretending to be an ontology;  
+\- an ontology pretending to be an encyclopedia;  
+\- a resource registry pretending to be a public recommendation list;  
+\- a collection of articles disconnected from real-world practice;  
+\- an option catalog with no deployment conditions;  
+\- a track pretending to be a valid implementation;  
+\- an implementation case pretending to be a universal pattern;  
+\- an AI synthesis pretending to be reviewed knowledge.
 
 The Toolkit needs enough structure to stay coherent, but enough flexibility to keep learning.
 
 This section is the map of the whole system.
 
----
+\---
 
-### Core architecture
+\#\#\# Core architecture
 
 The Toolkit is organized around ten connected layers:
 
@@ -777,56 +777,56 @@ The architecture matters because the Toolkit is not only organizing information.
 
 It is trying to preserve the path from knowledge to responsible action and back into learning.
 
----
+\---
 
-### Compact system logic
+\#\#\# Compact system logic
 
 The system can be understood through this sequence:
 
-> Ontology → Knowledge → Resources → Options → Deployment → Tracks → Implementation → Evolution
+\> Ontology → Knowledge → Resources → Options → Deployment → Tracks → Implementation → Evolution
 
 Another way to say this:
 
-- \*\*Ontology\*\* structures meaning.  
-- \*\*Encyclopedia\*\* structures knowledge.  
-- \*\*Resource Graph\*\* grounds knowledge in reality.  
-- \*\*Option Library\*\* exposes reusable design space.  
-- \*\*Deployment\*\* makes selected structures explicit and operational.  
-- \*\*Tracks\*\* compose knowledge, resources, options, and constraints into pathways.  
-- \*\*Implementation Memory\*\* records what happens in practice.  
-- \*\*Evolution\*\* updates the system through signals, review, and memory.  
-- \*\*Infrastructure\*\* supports the whole system without defining it too early.
+\- \*\*Ontology\*\* structures meaning.  
+\- \*\*Encyclopedia\*\* structures knowledge.  
+\- \*\*Resource Graph\*\* grounds knowledge in reality.  
+\- \*\*Option Library\*\* exposes reusable design space.  
+\- \*\*Deployment\*\* makes selected structures explicit and operational.  
+\- \*\*Tracks\*\* compose knowledge, resources, options, and constraints into pathways.  
+\- \*\*Implementation Memory\*\* records what happens in practice.  
+\- \*\*Evolution\*\* updates the system through signals, review, and memory.  
+\- \*\*Infrastructure\*\* supports the whole system without defining it too early.
 
 A shorter loop is:
 
-> Ontology → Knowledge → Deployment → Evolution → Ontology
+\> Ontology → Knowledge → Deployment → Evolution → Ontology
 
 This loop matters because the Toolkit should not only publish knowledge. It should learn from use.
 
----
+\---
 
-### Core movement
+\#\#\# Core movement
 
 The Toolkit should support a movement from fragmented knowledge toward responsible action and shared learning.
 
 The main movement is:
 
-> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
+\> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
 
 In practical terms:
 
-1. \*\*Discover\*\* resources, source systems, concepts, tools, communities, cases, and open questions.  
-2. \*\*Understand\*\* what they mean through concepts, frameworks, comparisons, explainers, and guides.  
-3. \*\*Connect\*\* them through ontology, relationships, source lineage, metadata, and graph structure.  
-4. \*\*Compose\*\* reusable options into tracks, pathways, or possible configurations.  
-5. \*\*Specify\*\* what must be true before use through deployment checks and structural requirements.  
-6. \*\*Implement\*\* in a real context.  
-7. \*\*Learn\*\* from what happened.  
-8. \*\*Evolve\*\* the Toolkit based on signals, review, field experience, and changing ecosystem conditions.
+1\. \*\*Discover\*\* resources, source systems, concepts, tools, communities, cases, and open questions.  
+2\. \*\*Understand\*\* what they mean through concepts, frameworks, comparisons, explainers, and guides.  
+3\. \*\*Connect\*\* them through ontology, relationships, source lineage, metadata, and graph structure.  
+4\. \*\*Compose\*\* reusable options into tracks, pathways, or possible configurations.  
+5\. \*\*Specify\*\* what must be true before use through deployment checks and structural requirements.  
+6\. \*\*Implement\*\* in a real context.  
+7\. \*\*Learn\*\* from what happened.  
+8\. \*\*Evolve\*\* the Toolkit based on signals, review, field experience, and changing ecosystem conditions.
 
 A compact version:
 
-> Resource → Concept → Option → Track → Deployment → Implementation → Signal → Evolution
+\> Resource → Concept → Option → Track → Deployment → Implementation → Signal → Evolution
 
 This movement does not mean every contributor must move through every layer.
 
@@ -842,9 +842,9 @@ The loop exists so the Toolkit does not become a pile of content.
 
 It gives the commons a way to learn.
 
----
+\---
 
-### Minimum operating kernel
+\#\#\# Minimum operating kernel
 
 For v0.1, the Toolkit can be made easier to work with by using a small operating kernel.
 
@@ -866,37 +866,37 @@ A contributor should be able to add one useful thing without understanding the e
 
 For example:
 
-- If someone finds a useful report, tool, project, map, or wiki, they can add it as a \*\*Resource\*\*.  
-- If someone explains a recurring term or framework, they can develop it as a \*\*Concept\*\*.  
-- If someone identifies a reusable mechanism, workflow, template, or governance pattern, they can add it as an \*\*Option\*\*.  
-- If someone prepares a real-world configuration for use, they can describe it as a \*\*Deployment\*\*.  
-- If someone observes a failure, confusion, pattern, risk, or lesson, they can record it as a \*\*Signal\*\*.
+\- If someone finds a useful report, tool, project, map, or wiki, they can add it as a \*\*Resource\*\*.  
+\- If someone explains a recurring term or framework, they can develop it as a \*\*Concept\*\*.  
+\- If someone identifies a reusable mechanism, workflow, template, or governance pattern, they can add it as an \*\*Option\*\*.  
+\- If someone prepares a real-world configuration for use, they can describe it as a \*\*Deployment\*\*.  
+\- If someone observes a failure, confusion, pattern, risk, or lesson, they can record it as a \*\*Signal\*\*.
 
 More specific object types can be added later, including source systems, tracks, implementations, patterns, claims, evidence, templates, tools, roles, protocols, and review cycles.
 
 But the operating kernel keeps the first pass usable.
 
----
+\---
 
-### Layer 1 — Ontology & Semantic Kernel
+\#\#\# Layer 1 — Ontology & Semantic Kernel
 
 The Ontology & Semantic Kernel defines the shared semantic structure of the Toolkit.
 
 It helps answer:
 
-- What is a resource?  
-- What is a concept?  
-- What is an option?  
-- What is a track?  
-- What is a deployment?  
-- What is an implementation?  
-- What is a signal?  
-- What is a claim?  
-- What is evidence?  
-- What is a source system?  
-- Which categories are entity types?  
-- Which categories are tags or metadata?  
-- How can the Toolkit remain interoperable with adjacent knowledge commons and AI-readable workflows?
+\- What is a resource?  
+\- What is a concept?  
+\- What is an option?  
+\- What is a track?  
+\- What is a deployment?  
+\- What is an implementation?  
+\- What is a signal?  
+\- What is a claim?  
+\- What is evidence?  
+\- What is a source system?  
+\- Which categories are entity types?  
+\- Which categories are tags or metadata?  
+\- How can the Toolkit remain interoperable with adjacent knowledge commons and AI-readable workflows?
 
 This layer is not final.
 
@@ -906,55 +906,55 @@ The ontology should support the rest of the Toolkit without forcing premature lo
 
 Its job is to structure meaning, not to explain every concept.
 
----
+\---
 
-### Layer 2 — Knowledge Commons / Encyclopedia
+\#\#\# Layer 2 — Knowledge Commons / Encyclopedia
 
 The Knowledge Commons / Encyclopedia is the explanatory knowledge layer.
 
 It helps answer:
 
-- What does this concept mean?  
-- Why does it matter?  
-- What is it often confused with?  
-- What frameworks help explain it?  
-- What domains does it belong to?  
-- What should someone read first?  
-- How does this concept relate to options, tracks, deployments, resources, and cases?
+\- What does this concept mean?  
+\- Why does it matter?  
+\- What is it often confused with?  
+\- What frameworks help explain it?  
+\- What domains does it belong to?  
+\- What should someone read first?  
+\- How does this concept relate to options, tracks, deployments, resources, and cases?
 
 This layer contains:
 
-- concept pages;  
-- framework pages;  
-- comparison pages;  
-- domain overviews;  
-- learning paths;  
-- guides;  
-- glossary entries;  
-- anti-pattern explainers;  
-- frontier and open-question pages;  
-- case-linked knowledge pages.
+\- concept pages;  
+\- framework pages;  
+\- comparison pages;  
+\- domain overviews;  
+\- learning paths;  
+\- guides;  
+\- glossary entries;  
+\- anti-pattern explainers;  
+\- frontier and open-question pages;  
+\- case-linked knowledge pages.
 
 This layer should not become a raw resource list, formal ontology, option catalog, deployment checklist, technical infrastructure plan, or implementation repository.
 
 Its job is to explain and orient.
 
----
+\---
 
-### Layer 3 — Resource Graph & Ecosystem Atlas
+\#\#\# Layer 3 — Resource Graph & Ecosystem Atlas
 
 The Resource Graph & Ecosystem Atlas maps real-world entities, references, and source systems.
 
 It helps answer:
 
-- What projects, organizations, people, tools, protocols, platforms, datasets, maps, papers, books, events, communities, and source systems exist?  
-- Who made them?  
-- Who stewards them?  
-- What domains do they touch?  
-- What concepts do they carry?  
-- What options or tracks do they support?  
-- What source systems should be credited?  
-- Which entries are raw, candidate, reviewed, high-risk, outdated, or deprecated?
+\- What projects, organizations, people, tools, protocols, platforms, datasets, maps, papers, books, events, communities, and source systems exist?  
+\- Who made them?  
+\- Who stewards them?  
+\- What domains do they touch?  
+\- What concepts do they carry?  
+\- What options or tracks do they support?  
+\- What source systems should be credited?  
+\- Which entries are raw, candidate, reviewed, high-risk, outdated, or deprecated?
 
 The Resource Graph is the structured registry.
 
@@ -966,21 +966,21 @@ Inclusion in the Resource Graph does not mean endorsement.
 
 It means the resource may be relevant enough to preserve, classify, review, route, or revisit.
 
----
+\---
 
-### Layer 4 — Concept & Idea Ecology
+\#\#\# Layer 4 — Concept & Idea Ecology
 
 The Concept & Idea Ecology maps lineages, tensions, paradigms, metaphors, and conceptual relationships.
 
 It helps answer:
 
-- Where did this idea come from?  
-- Which communities use this language?  
-- What concepts are adjacent or conflicting?  
-- What frameworks shape interpretation?  
-- What assumptions are being carried forward?  
-- What tensions should remain visible?  
-- What concepts are emerging but not settled?
+\- Where did this idea come from?  
+\- Which communities use this language?  
+\- What concepts are adjacent or conflicting?  
+\- What frameworks shape interpretation?  
+\- What assumptions are being carried forward?  
+\- What tensions should remain visible?  
+\- What concepts are emerging but not settled?
 
 The Encyclopedia explains concepts.
 
@@ -990,21 +990,21 @@ This layer helps prevent the Toolkit from flattening living ideas into static de
 
 It is especially useful for concepts that move across web3, commons theory, civic infrastructure, ecology, bioregionalism, regenerative design, public goods, AI, governance, and localism.
 
----
+\---
 
-### Layer 5 — Option Library
+\#\#\# Layer 5 — Option Library
 
 The Option Library organizes reusable choices.
 
 It helps answer:
 
-- What design choices are available?  
-- What governance, coordination, funding, documentation, measurement, incentive, infrastructure, or operational patterns can be reused?  
-- What are the tradeoffs?  
-- What conditions are required?  
-- What failure modes are common?  
-- What options are compatible or incompatible?  
-- What should be compared before choosing?
+\- What design choices are available?  
+\- What governance, coordination, funding, documentation, measurement, incentive, infrastructure, or operational patterns can be reused?  
+\- What are the tradeoffs?  
+\- What conditions are required?  
+\- What failure modes are common?  
+\- What options are compatible or incompatible?  
+\- What should be compared before choosing?
 
 The Option Library is not a conceptual explainer and not a deployment plan.
 
@@ -1012,39 +1012,39 @@ It treats options as selectable components that may later be composed into track
 
 Examples include:
 
-- source-system cards;  
-- claim-evidence records;  
-- local node structures;  
-- consent-based governance;  
-- quadratic funding;  
-- conviction voting;  
-- milestone-based grants;  
-- implementation retrospectives;  
-- AI-assisted curation workflows;  
-- documentation hubs;  
-- community discovery maps;  
-- ecological evidence review workflows.
+\- source-system cards;  
+\- claim-evidence records;  
+\- local node structures;  
+\- consent-based governance;  
+\- quadratic funding;  
+\- conviction voting;  
+\- milestone-based grants;  
+\- implementation retrospectives;  
+\- AI-assisted curation workflows;  
+\- documentation hubs;  
+\- community discovery maps;  
+\- ecological evidence review workflows.
 
 The Option Library exposes design space without pretending that every option is ready for every context.
 
----
+\---
 
-### Layer 6 — Deployment & Structural Integrity
+\#\#\# Layer 6 — Deployment & Structural Integrity
 
 Deployment & Structural Integrity defines what must be explicit before selected options, tools, roles, or pathways are used in practice.
 
 It helps answer:
 
-- Who decides?  
-- Who participates?  
-- What knowledge is required?  
-- Who holds authority?  
-- Who controls infrastructure or funds?  
-- Where are decisions recorded?  
-- How are issues surfaced?  
-- What is fixed, configurable, or experimental?  
-- What risks, consent conditions, review needs, or obligations must be visible?  
-- What makes a deployment valid, invalid, incomplete, or unsafe to present as ready?
+\- Who decides?  
+\- Who participates?  
+\- What knowledge is required?  
+\- Who holds authority?  
+\- Who controls infrastructure or funds?  
+\- Where are decisions recorded?  
+\- How are issues surfaced?  
+\- What is fixed, configurable, or experimental?  
+\- What risks, consent conditions, review needs, or obligations must be visible?  
+\- What makes a deployment valid, invalid, incomplete, or unsafe to present as ready?
 
 This layer is where structural integrity matters most.
 
@@ -1056,118 +1056,118 @@ A deployment is valid only if the required structures are explicitly defined and
 
 At minimum, deployments should specify:
 
-- decision system;  
-- information requirements;  
-- power structure;  
-- accountability system;  
-- failure detection system;  
-- fixed / configurable / experimental boundaries.
+\- decision system;  
+\- information requirements;  
+\- power structure;  
+\- accountability system;  
+\- failure detection system;  
+\- fixed / configurable / experimental boundaries.
 
 This layer makes structure legible.
 
----
+\---
 
-### Layer 7 — Tracks & Composition
+\#\#\# Layer 7 — Tracks & Composition
 
 Tracks are guided compositions across the Toolkit.
 
 They help answer:
 
-- What pathway should a specific audience follow?  
-- What knowledge is prerequisite?  
-- Which options are relevant?  
-- What deployment conditions must be checked?  
-- What tools or resources may help?  
-- What failure patterns should be anticipated?  
-- What implementation pathway is suggested?
+\- What pathway should a specific audience follow?  
+\- What knowledge is prerequisite?  
+\- Which options are relevant?  
+\- What deployment conditions must be checked?  
+\- What tools or resources may help?  
+\- What failure patterns should be anticipated?  
+\- What implementation pathway is suggested?
 
 Tracks are not implementations.
 
 They are curated pathways that combine:
 
-- Encyclopedia knowledge;  
-- Resource Graph references;  
-- Concept Ecology context;  
-- Option Library components;  
-- Deployment requirements;  
-- suggested tools;  
-- implementation examples;  
-- open questions.
+\- Encyclopedia knowledge;  
+\- Resource Graph references;  
+\- Concept Ecology context;  
+\- Option Library components;  
+\- Deployment requirements;  
+\- suggested tools;  
+\- implementation examples;  
+\- open questions.
 
 Examples may include:
 
-- Newcomer Orientation;  
-- Community Organization;  
-- Local Node Builder;  
-- Governance Deep Dive;  
-- Environmental Impact;  
-- Bioregional Coordination;  
-- Public Goods Funding Round;  
-- Knowledge Commons Builder;  
-- AI-Assisted Knowledge Garden.
+\- Newcomer Orientation;  
+\- Community Organization;  
+\- Local Node Builder;  
+\- Governance Deep Dive;  
+\- Environmental Impact;  
+\- Bioregional Coordination;  
+\- Public Goods Funding Round;  
+\- Knowledge Commons Builder;  
+\- AI-Assisted Knowledge Garden.
 
 Tracks help make the Toolkit usable without pretending that a pathway is the same as a real deployment.
 
----
+\---
 
-### Layer 8 — Implementation & Learning Memory
+\#\#\# Layer 8 — Implementation & Learning Memory
 
 Implementation & Learning Memory captures real-world use and the lessons generated by it.
 
 It helps answer:
 
-- What was attempted?  
-- Who participated?  
-- What context mattered?  
-- What options and tools were used?  
-- What worked?  
-- What failed?  
-- What adapted?  
-- What signals emerged?  
-- What became a reusable pattern candidate?  
-- What should not be repeated?  
-- What should update the Toolkit?
+\- What was attempted?  
+\- Who participated?  
+\- What context mattered?  
+\- What options and tools were used?  
+\- What worked?  
+\- What failed?  
+\- What adapted?  
+\- What signals emerged?  
+\- What became a reusable pattern candidate?  
+\- What should not be repeated?  
+\- What should update the Toolkit?
 
 This layer includes:
 
-- local nodes;  
-- pilots;  
-- campaigns;  
-- funding rounds;  
-- governance deployments;  
-- knowledge gardens;  
-- field projects;  
-- workshops;  
-- events;  
-- experiments;  
-- retrospectives;  
-- failure cases;  
-- adaptation logs;  
-- case-linked learning.
+\- local nodes;  
+\- pilots;  
+\- campaigns;  
+\- funding rounds;  
+\- governance deployments;  
+\- knowledge gardens;  
+\- field projects;  
+\- workshops;  
+\- events;  
+\- experiments;  
+\- retrospectives;  
+\- failure cases;  
+\- adaptation logs;  
+\- case-linked learning.
 
 Implementation Memory keeps the Toolkit connected to reality over time.
 
 It also protects against declaring a pattern too quickly from a single case.
 
----
+\---
 
-### Layer 9 — Evolution Layer
+\#\#\# Layer 9 — Evolution Layer
 
 The Evolution Layer defines how the Toolkit learns and updates.
 
 It helps answer:
 
-- What signals are being received?  
-- What do they mean?  
-- Are they isolated, repeated, structural, or contextual?  
-- Is the system drifting toward regenerative or extractive dynamics?  
-- What should be reinforced, constrained, rebalanced, probed, redesigned, or preserved as unresolved?  
-- What layer should be updated?  
-- How is memory preserved?
+\- What signals are being received?  
+\- What do they mean?  
+\- Are they isolated, repeated, structural, or contextual?  
+\- Is the system drifting toward regenerative or extractive dynamics?  
+\- What should be reinforced, constrained, rebalanced, probed, redesigned, or preserved as unresolved?  
+\- What layer should be updated?  
+\- How is memory preserved?
 
 A useful adaptive loop is:
 
-> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
+\> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
 
 Feedback should not automatically become change.
 
@@ -1175,48 +1175,48 @@ A signal should be interpreted, reviewed, routed, and integrated before it modif
 
 The Evolution Layer protects the Toolkit from both stagnation and reactive overcorrection.
 
----
+\---
 
-### Layer 10 — Infrastructure & Substrate
+\#\#\# Layer 10 — Infrastructure & Substrate
 
 Infrastructure & Substrate compares the technical foundations that could support the Toolkit.
 
 It helps answer:
 
-- What should be stored where?  
-- What belongs in documents, markdown, databases, graphs, wikis, repositories, spreadsheets, or interfaces?  
-- What schemas or standards are useful?  
-- What should be portable?  
-- What should be human-readable?  
-- What should be machine-readable?  
-- What workflows can support AI-native contributors?  
-- What should remain substrate-agnostic for now?
+\- What should be stored where?  
+\- What belongs in documents, markdown, databases, graphs, wikis, repositories, spreadsheets, or interfaces?  
+\- What schemas or standards are useful?  
+\- What should be portable?  
+\- What should be human-readable?  
+\- What should be machine-readable?  
+\- What workflows can support AI-native contributors?  
+\- What should remain substrate-agnostic for now?
 
 This layer may include:
 
-- Google Docs;  
-- Markdown;  
-- GitHub;  
-- Astro / Starlight;  
-- Quartz;  
-- Notion;  
-- Obsidian;  
-- MediaWiki;  
-- spreadsheets / Airtable / Baserow;  
-- JSON / CSV;  
-- LinkML;  
-- JSON-LD;  
-- Schema.org;  
-- Wikidata alignment;  
-- graph databases;  
-- RAG / GraphRAG;  
-- source-system cards;  
-- AI-assisted classification;  
-- retrieval workflows;  
-- annotation systems;  
-- web3 attestations;  
-- decentralized storage;  
-- export and federation paths.
+\- Google Docs;  
+\- Markdown;  
+\- GitHub;  
+\- Astro / Starlight;  
+\- Quartz;  
+\- Notion;  
+\- Obsidian;  
+\- MediaWiki;  
+\- spreadsheets / Airtable / Baserow;  
+\- JSON / CSV;  
+\- LinkML;  
+\- JSON-LD;  
+\- Schema.org;  
+\- Wikidata alignment;  
+\- graph databases;  
+\- RAG / GraphRAG;  
+\- source-system cards;  
+\- AI-assisted classification;  
+\- retrieval workflows;  
+\- annotation systems;  
+\- web3 attestations;  
+\- decentralized storage;  
+\- export and federation paths.
 
 Infrastructure should serve the commons.
 
@@ -1224,9 +1224,9 @@ It should not prematurely define it.
 
 Do not choose infrastructure before workflows are clear.
 
----
+\---
 
-### Core layer boundaries
+\#\#\# Core layer boundaries
 
 The most important architectural move is preserving distinctions.
 
@@ -1251,9 +1251,9 @@ The most important architectural move is preserving distinctions.
 
 These distinctions should guide editing, restructuring, AI review, site migration, and future technical implementation.
 
----
+\---
 
-### Cross-cutting systems
+\#\#\# Cross-cutting systems
 
 Some concerns apply across every layer.
 
@@ -1283,45 +1283,45 @@ The goal is not bureaucracy.
 
 The goal is appropriate care.
 
----
+\---
 
-### Minimum structural rule
+\#\#\# Minimum structural rule
 
 A layer should not absorb the function of another layer unless the interface is explicit.
 
 Examples:
 
-- A raw link list should not be treated as Encyclopedia content.  
-- A concept page should not be treated as an Option entry.  
-- A funding mechanism should not be treated as a valid Deployment.  
-- A Track should not be treated as an Implementation.  
-- A Case should not be treated as a Pattern too quickly.  
-- A Signal should not be treated as a Conclusion.  
-- A tag should not be treated as an ontology type.  
-- AI synthesis should not be treated as reviewed knowledge unless reviewed.
+\- A raw link list should not be treated as Encyclopedia content.  
+\- A concept page should not be treated as an Option entry.  
+\- A funding mechanism should not be treated as a valid Deployment.  
+\- A Track should not be treated as an Implementation.  
+\- A Case should not be treated as a Pattern too quickly.  
+\- A Signal should not be treated as a Conclusion.  
+\- A tag should not be treated as an ontology type.  
+\- AI synthesis should not be treated as reviewed knowledge unless reviewed.
 
 This rule protects the Toolkit from becoming confusing as it grows.
 
 It also makes future technical implementation easier because different objects can have different schemas, review states, templates, and interfaces.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Regen Knowledge Commons Toolkit is a layered system for organizing knowledge, mapping ecosystems, preserving source lineage, supporting ontology and interoperability, explaining concepts, comparing reusable options, guiding composition, making deployments structurally legible, learning from implementation, and evolving over time.
 
 The key layers are:
 
-- Ontology & Semantic Kernel;  
-- Knowledge Commons / Encyclopedia;  
-- Resource Graph & Ecosystem Atlas;  
-- Concept & Idea Ecology;  
-- Option Library;  
-- Deployment & Structural Integrity;  
-- Tracks & Composition;  
-- Implementation & Learning Memory;  
-- Evolution Layer;  
-- Infrastructure & Substrate.
+\- Ontology & Semantic Kernel;  
+\- Knowledge Commons / Encyclopedia;  
+\- Resource Graph & Ecosystem Atlas;  
+\- Concept & Idea Ecology;  
+\- Option Library;  
+\- Deployment & Structural Integrity;  
+\- Tracks & Composition;  
+\- Implementation & Learning Memory;  
+\- Evolution Layer;  
+\- Infrastructure & Substrate.
 
 The most important architectural move is not the exact number of layers.
 
@@ -1331,9 +1331,9 @@ The Toolkit should make it clear what kind of thing something is, how mature it 
 
 # 🦠 Cross-Cutting Principles
 
-## 4. Cross-Cutting Principles
+\#\# 4\. Cross-Cutting Principles
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 Some principles apply across the whole Regen Knowledge Commons Toolkit.
 
@@ -1341,14 +1341,14 @@ They are not isolated layers. They should shape how the Ontology, Encyclopedia, 
 
 These principles help the Toolkit remain:
 
-- source-aware;  
-- review-aware;  
-- implementation-oriented;  
-- non-extractive;  
-- interoperable;  
-- context-sensitive;  
-- honest about uncertainty;  
-- useful for real communities and projects.
+\- source-aware;  
+\- review-aware;  
+\- implementation-oriented;  
+\- non-extractive;  
+\- interoperable;  
+\- context-sensitive;  
+\- honest about uncertainty;  
+\- useful for real communities and projects.
 
 The goal is not to create bureaucracy.
 
@@ -1363,9 +1363,9 @@ An implementation case should not become a universal pattern too quickly.
 
 Cross-cutting principles help the Toolkit scale without losing context.
 
----
+\---
 
-### 1. Provenance and source lineage
+\#\#\# 1\. Provenance and source lineage
 
 The Toolkit should preserve where knowledge came from.
 
@@ -1373,36 +1373,36 @@ Every important resource, claim, framework, tool, concept, option, implementatio
 
 Source lineage may include:
 
-- original author;  
-- stewarding organization;  
-- source system;  
-- article, paper, repo, dataset, or map;  
-- community context;  
-- contributor who surfaced it;  
-- adaptation history;  
-- whether it is quoted, summarized, synthesized, translated, remixed, or inferred.
+\- original author;  
+\- stewarding organization;  
+\- source system;  
+\- article, paper, repo, dataset, or map;  
+\- community context;  
+\- contributor who surfaced it;  
+\- adaptation history;  
+\- whether it is quoted, summarized, synthesized, translated, remixed, or inferred.
 
 This matters because knowledge commons can become extractive when they aggregate without attribution.
 
 The Toolkit should not simply ask:
 
-> Can we use this?
+\> Can we use this?
 
 It should also ask:
 
-> Where did this come from?    
-> Who created or stewarded it?    
-> What context does it carry?    
-> How should it be credited?    
-> What should flow back?
+\> Where did this come from?    
+\> Who created or stewarded it?    
+\> What context does it carry?    
+\> How should it be credited?    
+\> What should flow back?
 
 Provenance is not only a citation practice.
 
 It is a relational practice.
 
----
+\---
 
-### 2. Attribution and return paths
+\#\#\# 2\. Attribution and return paths
 
 Attribution should be more than naming a source.
 
@@ -1410,14 +1410,14 @@ When the Toolkit uses or builds on another source system, community, framework, 
 
 A return path may include:
 
-- linking back;  
-- naming the steward;  
-- crediting contributors;  
-- sending corrections upstream;  
-- sharing improvements;  
-- inviting review;  
-- creating collaboration opportunities;  
-- avoiding reuse when context, consent, or license is unclear.
+\- linking back;  
+\- naming the steward;  
+\- crediting contributors;  
+\- sending corrections upstream;  
+\- sharing improvements;  
+\- inviting review;  
+\- creating collaboration opportunities;  
+\- avoiding reuse when context, consent, or license is unclear.
 
 This is especially important for living source systems, community knowledge, local knowledge, Indigenous knowledge, ecological knowledge, and community-led documentation.
 
@@ -1427,9 +1427,9 @@ It may be a stewarded knowledge environment with norms, relationships, maintenan
 
 The Toolkit should avoid extractive aggregation by treating source systems as peers in a broader commons ecology.
 
----
+\---
 
-### 3. Maturity and review state
+\#\#\# 3\. Maturity and review state
 
 Not all material in the Toolkit has the same trust level.
 
@@ -1463,28 +1463,28 @@ Maturity should not be used to shame rough work.
 
 It should help people know how to use something responsibly.
 
----
+\---
 
-### 4. Public-use boundaries
+\#\#\# 4\. Public-use boundaries
 
 Some material may be useful internally but not safe to present publicly as guidance, evidence, or endorsed knowledge.
 
 This is especially important when material involves:
 
-- ecological impact claims;  
-- MRV, biodiversity, carbon, soil, water, or restoration claims;  
-- funding recommendations;  
-- legal or tax guidance;  
-- governance recommendations;  
-- identity, reputation, or credential systems;  
-- people or community profiles;  
-- local maps or sensitive locations;  
-- Indigenous, local, or place-based knowledge;  
-- token or incentive models;  
-- AI-assisted matching or recommendations;  
-- public rankings or scoring;  
-- implementation claims involving unresolved conflict;  
-- CSIS-related structural assessments.
+\- ecological impact claims;  
+\- MRV, biodiversity, carbon, soil, water, or restoration claims;  
+\- funding recommendations;  
+\- legal or tax guidance;  
+\- governance recommendations;  
+\- identity, reputation, or credential systems;  
+\- people or community profiles;  
+\- local maps or sensitive locations;  
+\- Indigenous, local, or place-based knowledge;  
+\- token or incentive models;  
+\- AI-assisted matching or recommendations;  
+\- public rankings or scoring;  
+\- implementation claims involving unresolved conflict;  
+\- CSIS-related structural assessments.
 
 High-risk does not mean remove.
 
@@ -1509,9 +1509,9 @@ The Toolkit should not erase uncertainty just to make content easier to publish.
 
 A clear boundary is better than a false sense of readiness.
 
----
+\---
 
-### 5. Claim-evidence discipline
+\#\#\# 5\. Claim-evidence discipline
 
 The Toolkit should distinguish claims from evidence.
 
@@ -1539,22 +1539,22 @@ A simple claim-evidence structure should include:
 
 This discipline is especially important for:
 
-- impact claims;  
-- ecological and MRV claims;  
-- funding claims;  
-- governance claims;  
-- AI-generated synthesis;  
-- community representation;  
-- case study lessons;  
-- public goods impact;  
-- token or incentive effects;  
-- claims about what “worked” in an implementation.
+\- impact claims;  
+\- ecological and MRV claims;  
+\- funding claims;  
+\- governance claims;  
+\- AI-generated synthesis;  
+\- community representation;  
+\- case study lessons;  
+\- public goods impact;  
+\- token or incentive effects;  
+\- claims about what “worked” in an implementation.
 
 A claim should not become public guidance just because it is written clearly.
 
----
+\---
 
-### 6. Review should scale with risk
+\#\#\# 6\. Review should scale with risk
 
 The Toolkit should not apply the same level of review to everything.
 
@@ -1569,16 +1569,16 @@ An AI-generated summary may require source review.
 
 Review should scale with:
 
-- public visibility;  
-- practical consequences;  
-- ecological risk;  
-- financial risk;  
-- governance risk;  
-- privacy or identity risk;  
-- community representation risk;  
-- dependency or infrastructure risk;  
-- likelihood of misinterpretation;  
-- use in funding, decision-making, or implementation.
+\- public visibility;  
+\- practical consequences;  
+\- ecological risk;  
+\- financial risk;  
+\- governance risk;  
+\- privacy or identity risk;  
+\- community representation risk;  
+\- dependency or infrastructure risk;  
+\- likelihood of misinterpretation;  
+\- use in funding, decision-making, or implementation.
 
 Possible review types include:
 
@@ -1601,9 +1601,9 @@ The goal is not gatekeeping.
 
 The goal is to prevent weakly reviewed material from being used beyond its readiness.
 
----
+\---
 
-### 7. Regenerative obligation
+\#\#\# 7\. Regenerative obligation
 
 The Toolkit should not only organize knowledge.
 
@@ -1621,25 +1621,25 @@ This return should be:
 
 Regenerative obligation may involve:
 
-- attribution;  
-- payment;  
-- invitation;  
-- review;  
-- correction;  
-- collaboration;  
-- upstream contribution;  
-- shared visibility;  
-- consent;  
-- care for context;  
-- avoiding extraction;  
-- not publishing sensitive material;  
-- sending improvements back to source systems.
+\- attribution;  
+\- payment;  
+\- invitation;  
+\- review;  
+\- correction;  
+\- collaboration;  
+\- upstream contribution;  
+\- shared visibility;  
+\- consent;  
+\- care for context;  
+\- avoiding extraction;  
+\- not publishing sensitive material;  
+\- sending improvements back to source systems.
 
 This principle should be especially visible when working with local knowledge, community data, ecological claims, source systems, and implementation cases.
 
----
+\---
 
-### 8. Consent, privacy, and representation
+\#\#\# 8\. Consent, privacy, and representation
 
 The Toolkit may involve people, communities, places, contribution histories, local maps, governance records, and sensitive context.
 
@@ -1651,37 +1651,37 @@ Not everything that appears in public should be treated as safe to aggregate, sc
 
 Consent and representation questions should be asked when material involves:
 
-- people profiles;  
-- local organizers;  
-- community profiles;  
-- local maps;  
-- exact locations;  
-- vulnerable communities;  
-- Indigenous or local knowledge;  
-- sensitive ecological sites;  
-- contribution histories;  
-- identity or reputation systems;  
-- public rankings;  
-- AI-assisted matching;  
-- unresolved conflict;  
-- claims about who represents whom.
+\- people profiles;  
+\- local organizers;  
+\- community profiles;  
+\- local maps;  
+\- exact locations;  
+\- vulnerable communities;  
+\- Indigenous or local knowledge;  
+\- sensitive ecological sites;  
+\- contribution histories;  
+\- identity or reputation systems;  
+\- public rankings;  
+\- AI-assisted matching;  
+\- unresolved conflict;  
+\- claims about who represents whom.
 
 Useful questions:
 
-- Who is being represented?  
-- Did they consent to this representation?  
-- Could this expose people, places, or communities to harm?  
-- Is the location precision appropriate?  
-- Is this public, private, or context-bound knowledge?  
-- Who should review this before public use?  
-- Could AI synthesis distort the community’s own meaning?  
-- What should not be generalized?
+\- Who is being represented?  
+\- Did they consent to this representation?  
+\- Could this expose people, places, or communities to harm?  
+\- Is the location precision appropriate?  
+\- Is this public, private, or context-bound knowledge?  
+\- Who should review this before public use?  
+\- Could AI synthesis distort the community’s own meaning?  
+\- What should not be generalized?
 
 The Toolkit should protect context, not merely extract information from it.
 
----
+\---
 
-### 9. Anti-extractive synthesis
+\#\#\# 9\. Anti-extractive synthesis
 
 Synthesis can be helpful, but it can also become extractive.
 
@@ -1689,35 +1689,35 @@ The Toolkit will likely use AI, contributors, editors, researchers, and communit
 
 Synthesis becomes extractive when it:
 
-- erases source lineage;  
-- removes uncertainty;  
-- collapses disagreements into false consensus;  
-- turns local knowledge into generic claims;  
-- presents unreviewed material as authoritative;  
-- borrows legitimacy without return;  
-- treats community experience as raw data;  
-- over-polishes weak evidence;  
-- removes the labor and context behind knowledge.
+\- erases source lineage;  
+\- removes uncertainty;  
+\- collapses disagreements into false consensus;  
+\- turns local knowledge into generic claims;  
+\- presents unreviewed material as authoritative;  
+\- borrows legitimacy without return;  
+\- treats community experience as raw data;  
+\- over-polishes weak evidence;  
+\- removes the labor and context behind knowledge.
 
 Anti-extractive synthesis should preserve:
 
-- attribution;  
-- uncertainty;  
-- dissent;  
-- maturity state;  
-- public-use boundary;  
-- source context;  
-- review needs;  
-- relationship to practice;  
-- what should not be generalized.
+\- attribution;  
+\- uncertainty;  
+\- dissent;  
+\- maturity state;  
+\- public-use boundary;  
+\- source context;  
+\- review needs;  
+\- relationship to practice;  
+\- what should not be generalized.
 
 Regenerative clarity is not the same as extractive simplification.
 
 Good clarity preserves context.
 
----
+\---
 
-### 10. Interoperability without forced uniformity
+\#\#\# 10\. Interoperability without forced uniformity
 
 The Toolkit should support interoperability across people, communities, source systems, tools, and technical substrates.
 
@@ -1729,23 +1729,23 @@ The goal is translatability.
 
 This means the Toolkit should:
 
-- preserve a shared semantic kernel;  
-- allow local language and contextual variation;  
-- map terms across systems where possible;  
-- distinguish types from tags;  
-- use metadata thoughtfully;  
-- avoid ontology sprawl;  
-- document mappings and uncertainties;  
-- support export and migration where possible;  
-- avoid locking knowledge into one platform too early.
+\- preserve a shared semantic kernel;  
+\- allow local language and contextual variation;  
+\- map terms across systems where possible;  
+\- distinguish types from tags;  
+\- use metadata thoughtfully;  
+\- avoid ontology sprawl;  
+\- document mappings and uncertainties;  
+\- support export and migration where possible;  
+\- avoid locking knowledge into one platform too early.
 
 A community may have its own language.
 
 The Toolkit should help that language connect to shared structures without erasing local meaning.
 
----
+\---
 
-### 11. Type / tag discipline
+\#\#\# 11\. Type / tag discipline
 
 The Toolkit should avoid turning every useful label into a root ontology type.
 
@@ -1755,25 +1755,25 @@ A tag or classification describes how something may be grouped, filtered, contex
 
 Examples:
 
-- “Tool” may be a type because tools have dependencies, control points, use contexts, and risks.  
-- “Source System” may be a type because source systems need stewardship, currentness, attribution, reuse, and return-path fields.  
-- “Ecological” is probably a domain tag.  
-- “High-risk” is probably a review classification.  
-- “Experimental” is probably a maturity or status label.  
-- “Local” may be a context tag.  
-- “Natural capital” may be a capital-form classification.
+\- “Tool” may be a type because tools have dependencies, control points, use contexts, and risks.  
+\- “Source System” may be a type because source systems need stewardship, currentness, attribution, reuse, and return-path fields.  
+\- “Ecological” is probably a domain tag.  
+\- “High-risk” is probably a review classification.  
+\- “Experimental” is probably a maturity or status label.  
+\- “Local” may be a context tag.  
+\- “Natural capital” may be a capital-form classification.
 
 The minimum rule:
 
-> Add a new type only when it changes routing, relationships, review needs, templates, permissions, deployment logic, or interface behavior.
+\> Add a new type only when it changes routing, relationships, review needs, templates, permissions, deployment logic, or interface behavior.
 
 Otherwise, use a tag, subtype, metadata field, or note.
 
 This principle protects the Toolkit from ontology sprawl.
 
----
+\---
 
-### 12. Pattern humility
+\#\#\# 12\. Pattern humility
 
 The Toolkit should not declare universal patterns too quickly.
 
@@ -1786,40 +1786,40 @@ Implementation learning should preserve context.
 
 Useful questions:
 
-- What actually happened?  
-- What context mattered?  
-- What options were used?  
-- What failed?  
-- What adapted?  
-- What signals emerged?  
-- What should not be generalized?  
-- What conditions would need to be true for this to apply elsewhere?  
-- What evidence supports this as reusable?  
-- What review is still needed?
+\- What actually happened?  
+\- What context mattered?  
+\- What options were used?  
+\- What failed?  
+\- What adapted?  
+\- What signals emerged?  
+\- What should not be generalized?  
+\- What conditions would need to be true for this to apply elsewhere?  
+\- What evidence supports this as reusable?  
+\- What review is still needed?
 
 A case should not become a pattern just because the story is compelling.
 
----
+\---
 
-### 13. Local and ecological care
+\#\#\# 13\. Local and ecological care
 
 The Toolkit has a strong local, bioregional, ecological, and regenerative orientation.
 
 This means special care is needed when dealing with:
 
-- local maps;  
-- field observations;  
-- ecological monitoring;  
-- restoration claims;  
-- biodiversity claims;  
-- carbon or soil claims;  
-- watershed or land-based data;  
-- agroforestry and land stewardship;  
-- municipal or civic partnerships;  
-- community science;  
-- local node implementation;  
-- place-based knowledge;  
-- bioregional identity.
+\- local maps;  
+\- field observations;  
+\- ecological monitoring;  
+\- restoration claims;  
+\- biodiversity claims;  
+\- carbon or soil claims;  
+\- watershed or land-based data;  
+\- agroforestry and land stewardship;  
+\- municipal or civic partnerships;  
+\- community science;  
+\- local node implementation;  
+\- place-based knowledge;  
+\- bioregional identity.
 
 Local and ecological knowledge can be highly contextual.
 
@@ -1831,26 +1831,26 @@ A monitoring result may be evidence for a specific context, not a universal clai
 
 The Toolkit should support ecological and local action without flattening place into generic data.
 
----
+\---
 
-### 14. AI-assisted but human-governed
+\#\#\# 14\. AI-assisted but human-governed
 
 AI can help the Toolkit.
 
 It can assist with:
 
-- summarization;  
-- classification;  
-- routing;  
-- entity extraction;  
-- relationship detection;  
-- draft synthesis;  
-- comparison;  
-- metadata generation;  
-- source clustering;  
-- backlog organization;  
-- search and retrieval;  
-- identifying duplicates or gaps.
+\- summarization;  
+\- classification;  
+\- routing;  
+\- entity extraction;  
+\- relationship detection;  
+\- draft synthesis;  
+\- comparison;  
+\- metadata generation;  
+\- source clustering;  
+\- backlog organization;  
+\- search and retrieval;  
+\- identifying duplicates or gaps.
 
 But AI should not become the authority of the commons.
 
@@ -1858,14 +1858,14 @@ AI-generated or AI-assisted material should remain reviewable.
 
 The Toolkit should distinguish:
 
-- human-authored;  
-- AI-assisted;  
-- inferred;  
-- source-linked;  
-- reviewed;  
-- disputed;  
-- deprecated;  
-- candidate.
+\- human-authored;  
+\- AI-assisted;  
+\- inferred;  
+\- source-linked;  
+\- reviewed;  
+\- disputed;  
+\- deprecated;  
+\- candidate.
 
 AI can help maintain the graph.
 
@@ -1873,48 +1873,48 @@ It should not silently decide what the graph means.
 
 The more public, practical, high-risk, or community-representational the content is, the more human review matters.
 
----
+\---
 
-### 15. Infrastructure should serve workflows
+\#\#\# 15\. Infrastructure should serve workflows
 
 The Toolkit should not choose infrastructure before workflows are clear.
 
 Different substrates may be useful for different functions:
 
-- Google Docs for collaborative drafting;  
-- Markdown for portable writing;  
-- GitHub for versioning;  
-- Astro / Starlight for public documentation;  
-- Quartz or Obsidian for graph-like knowledge gardens;  
-- spreadsheets or Airtable / Baserow for structured registries;  
-- LinkML, JSON-LD, or schema tools for formal models;  
-- graph databases for mature relationship mapping;  
-- RAG / GraphRAG for AI-assisted retrieval;  
-- IPFS or Filecoin for decentralized storage;  
-- EAS or attestations for structured claims or records.
+\- Google Docs for collaborative drafting;  
+\- Markdown for portable writing;  
+\- GitHub for versioning;  
+\- Astro / Starlight for public documentation;  
+\- Quartz or Obsidian for graph-like knowledge gardens;  
+\- spreadsheets or Airtable / Baserow for structured registries;  
+\- LinkML, JSON-LD, or schema tools for formal models;  
+\- graph databases for mature relationship mapping;  
+\- RAG / GraphRAG for AI-assisted retrieval;  
+\- IPFS or Filecoin for decentralized storage;  
+\- EAS or attestations for structured claims or records.
 
 But infrastructure should follow the actual needs of the commons.
 
 Questions to ask before choosing a substrate:
 
-- Who will maintain it?  
-- Who can contribute to it?  
-- What must be human-readable?  
-- What must be machine-readable?  
-- What needs version control?  
-- What needs review state?  
-- What needs export?  
-- What needs long-term preservation?  
-- What should remain private?  
-- What should be public?  
-- What is the maintenance burden?  
-- What happens if maintainers disappear?
+\- Who will maintain it?  
+\- Who can contribute to it?  
+\- What must be human-readable?  
+\- What must be machine-readable?  
+\- What needs version control?  
+\- What needs review state?  
+\- What needs export?  
+\- What needs long-term preservation?  
+\- What should remain private?  
+\- What should be public?  
+\- What is the maintenance burden?  
+\- What happens if maintainers disappear?
 
 Do not let the tool define the commons too early.
 
----
+\---
 
-### 16. Living systems health
+\#\#\# 16\. Living systems health
 
 The Toolkit should not only track content quality.
 
@@ -1922,19 +1922,19 @@ It should also pay attention to the health of the commons as a living system.
 
 Useful health dimensions include:
 
-- energy;  
-- relationship;  
-- trust;  
-- memory;  
-- reciprocity;  
-- adaptation;  
-- coherence;  
-- contribution flow;  
-- maintenance capacity;  
-- review capacity;  
-- learning;  
-- care;  
-- compost.
+\- energy;  
+\- relationship;  
+\- trust;  
+\- memory;  
+\- reciprocity;  
+\- adaptation;  
+\- coherence;  
+\- contribution flow;  
+\- maintenance capacity;  
+\- review capacity;  
+\- learning;  
+\- care;  
+\- compost.
 
 A knowledge commons can be technically well-organized and still be dead.
 
@@ -1942,24 +1942,24 @@ A living commons should support contribution, use, learning, correction, and ret
 
 This means the Toolkit should notice:
 
-- abandoned sections;  
-- outdated source systems;  
-- broken links;  
-- repeated confusion;  
-- contributor burnout;  
-- review bottlenecks;  
-- overgrown backlog;  
-- hidden maintenance labor;  
-- lack of implementation feedback;  
-- too much architecture and not enough use.
+\- abandoned sections;  
+\- outdated source systems;  
+\- broken links;  
+\- repeated confusion;  
+\- contributor burnout;  
+\- review bottlenecks;  
+\- overgrown backlog;  
+\- hidden maintenance labor;  
+\- lack of implementation feedback;  
+\- too much architecture and not enough use.
 
 The goal is not completeness.
 
 The goal is aliveness.
 
----
+\---
 
-### 17. Compost, archive, and memory
+\#\#\# 17\. Compost, archive, and memory
 
 Not everything outdated should be deleted.
 
@@ -1969,13 +1969,13 @@ Composting means preserving outdated, failed, deprecated, or superseded material
 
 A composted item may answer:
 
-- Why was this replaced?  
-- What did it teach us?  
-- What should not be repeated?  
-- What context made it useful at the time?  
-- What remains valuable?  
-- What should be archived?  
-- What should be linked as history, not current guidance?
+\- Why was this replaced?  
+\- What did it teach us?  
+\- What should not be repeated?  
+\- What context made it useful at the time?  
+\- What remains valuable?  
+\- What should be archived?  
+\- What should be linked as history, not current guidance?
 
 Compost is different from clutter.
 
@@ -1985,24 +1985,24 @@ Compost is old material transformed into memory.
 
 The Toolkit should preserve memory without making every past note look current.
 
----
+\---
 
-### 18. Contribution should be legible
+\#\#\# 18\. Contribution should be legible
 
 A contributor should not need to understand the full Toolkit to make one useful contribution.
 
 The Toolkit should provide simple entry points:
 
-- I found a resource.  
-- I want to explain a concept.  
-- I want to add a source system.  
-- I want to compare options.  
-- I want to document an implementation.  
-- I want to flag a risk.  
-- I want to correct a claim.  
-- I want to suggest a better structure.  
-- I want to add a failure case.  
-- I want to help organize the backlog.
+\- I found a resource.  
+\- I want to explain a concept.  
+\- I want to add a source system.  
+\- I want to compare options.  
+\- I want to document an implementation.  
+\- I want to flag a risk.  
+\- I want to correct a claim.  
+\- I want to suggest a better structure.  
+\- I want to add a failure case.  
+\- I want to help organize the backlog.
 
 Each contribution should be routable.
 
@@ -2010,19 +2010,19 @@ A contribution does not need to be perfect to be useful.
 
 But it should become clearer over time:
 
-- what kind of object it is;  
-- where it belongs;  
-- what it relates to;  
-- how mature it is;  
-- what review it needs;  
-- whether it can be used publicly;  
-- what should happen next.
+\- what kind of object it is;  
+\- where it belongs;  
+\- what it relates to;  
+\- how mature it is;  
+\- what review it needs;  
+\- whether it can be used publicly;  
+\- what should happen next.
 
 This keeps the Toolkit open without letting it become chaotic.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Toolkit should be structured, but not rigid.
 
@@ -2038,24 +2038,24 @@ It should be useful for action, but honest about uncertainty.
 
 The cross-cutting principles are:
 
-- provenance and source lineage;  
-- attribution and return paths;  
-- maturity and review state;  
-- public-use boundaries;  
-- claim-evidence discipline;  
-- review proportional to risk;  
-- regenerative obligation;  
-- consent, privacy, and representation;  
-- anti-extractive synthesis;  
-- interoperability without forced uniformity;  
-- type / tag discipline;  
-- pattern humility;  
-- local and ecological care;  
-- AI-assisted but human-governed;  
-- infrastructure serving workflows;  
-- living systems health;  
-- compost, archive, and memory;  
-- legible contribution.
+\- provenance and source lineage;  
+\- attribution and return paths;  
+\- maturity and review state;  
+\- public-use boundaries;  
+\- claim-evidence discipline;  
+\- review proportional to risk;  
+\- regenerative obligation;  
+\- consent, privacy, and representation;  
+\- anti-extractive synthesis;  
+\- interoperability without forced uniformity;  
+\- type / tag discipline;  
+\- pattern humility;  
+\- local and ecological care;  
+\- AI-assisted but human-governed;  
+\- infrastructure serving workflows;  
+\- living systems health;  
+\- compost, archive, and memory;  
+\- legible contribution.
 
 These principles should travel across the whole document.
 
@@ -2065,21 +2065,21 @@ They help the Toolkit become a living commons.
 
 # 🌽 Ontology and Semantic Kernel
 
-## 5. Ontology & Semantic Kernel
+\#\# 5\. Ontology & Semantic Kernel
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Ontology & Semantic Kernel defines the shared semantic structure of the Toolkit.
 
 It helps the Toolkit answer:
 
-- What kinds of things exist in this system?  
-- How are those things related?  
-- Which labels are types and which are tags?  
-- What is a resource, concept, option, track, deployment, implementation, signal, claim, evidence, source system, or pattern?  
-- How can contributors classify things without creating semantic drift?  
-- How can the Toolkit stay interoperable with adjacent knowledge commons?  
-- How can the Toolkit become graph-compatible and AI-readable without prematurely locking into a final ontology?
+\- What kinds of things exist in this system?  
+\- How are those things related?  
+\- Which labels are types and which are tags?  
+\- What is a resource, concept, option, track, deployment, implementation, signal, claim, evidence, source system, or pattern?  
+\- How can contributors classify things without creating semantic drift?  
+\- How can the Toolkit stay interoperable with adjacent knowledge commons?  
+\- How can the Toolkit become graph-compatible and AI-readable without prematurely locking into a final ontology?
 
 This layer is not just about tagging.
 
@@ -2093,22 +2093,22 @@ The goal is not to create a perfect ontology before use.
 
 The goal is to create enough shared meaning that people, tools, and future AI workflows can work together without silently inventing incompatible categories.
 
----
+\---
 
-### Current ontology posture
+\#\#\# Current ontology posture
 
 The Toolkit should begin with a constrained, interoperable base while remaining open to extension.
 
 The working posture is:
 
-- use a small shared semantic core;  
-- align with adjacent knowledge commons where possible;  
-- avoid inventing a separate ontology universe too early;  
-- distinguish types from tags;  
-- distinguish conceptual definitions from operational structures;  
-- allow Toolkit-specific extensions where deployment, review, governance, implementation, or evolution require them;  
-- preserve optionality until deeper technical and community review occurs;  
-- make ontology changes explicit, versioned, and reviewable.
+\- use a small shared semantic core;  
+\- align with adjacent knowledge commons where possible;  
+\- avoid inventing a separate ontology universe too early;  
+\- distinguish types from tags;  
+\- distinguish conceptual definitions from operational structures;  
+\- allow Toolkit-specific extensions where deployment, review, governance, implementation, or evolution require them;  
+\- preserve optionality until deeper technical and community review occurs;  
+\- make ontology changes explicit, versioned, and reviewable.
 
 The ontology should be stable enough to help people structure knowledge now, but flexible enough to evolve without uncontrolled drift.
 
@@ -2116,44 +2116,44 @@ The main risk is not having an imperfect ontology.
 
 The main risk is having no shared semantics at all, causing each contributor, tool, database, AI assistant, or local implementation to silently invent its own categories.
 
----
+\---
 
-### What the ontology is for
+\#\#\# What the ontology is for
 
 The ontology is for:
 
-- building shared language;  
-- structuring the Encyclopedia;  
-- typing resources in the Resource Graph;  
-- distinguishing source systems from ordinary links;  
-- routing material into the correct layer;  
-- connecting concepts, resources, options, tracks, deployments, implementations, signals, claims, and evidence;  
-- making federated knowledge interoperable;  
-- improving coordination quality;  
-- supporting adaptive governance;  
-- supporting graph-compatible and AI-readable knowledge systems;  
-- enabling future schemas, metadata, search, filtering, and visualizations;  
-- supporting deployment and implementation review.
+\- building shared language;  
+\- structuring the Encyclopedia;  
+\- typing resources in the Resource Graph;  
+\- distinguishing source systems from ordinary links;  
+\- routing material into the correct layer;  
+\- connecting concepts, resources, options, tracks, deployments, implementations, signals, claims, and evidence;  
+\- making federated knowledge interoperable;  
+\- improving coordination quality;  
+\- supporting adaptive governance;  
+\- supporting graph-compatible and AI-readable knowledge systems;  
+\- enabling future schemas, metadata, search, filtering, and visualizations;  
+\- supporting deployment and implementation review.
 
 The ontology is not for:
 
-- replacing local meaning-making;  
-- prescribing one fixed organizational model;  
-- maximizing conceptual complexity;  
-- turning living practice into rigid bureaucracy;  
-- making every useful word into a root type;  
-- forcing all communities to use the same language;  
-- pretending the Toolkit has a final semantic structure.
+\- replacing local meaning-making;  
+\- prescribing one fixed organizational model;  
+\- maximizing conceptual complexity;  
+\- turning living practice into rigid bureaucracy;  
+\- making every useful word into a root type;  
+\- forcing all communities to use the same language;  
+\- pretending the Toolkit has a final semantic structure.
 
 The ontology should support practice.
 
 It should not become an abstract exercise detached from use.
 
----
+\---
 
-### Core design principles
+\#\#\# Core design principles
 
-#### 1. Interoperability first
+\#\#\#\# 1\. Interoperability first
 
 The Toolkit should not fork the knowledge commons landscape unless necessary.
 
@@ -2167,34 +2167,34 @@ But it should treat Octo / BKC as a high-priority alignment candidate.
 
 A useful posture is:
 
-> Octo / BKC \= candidate shared semantic base    
-> Regen Toolkit \= applied extension layer    
-> CSIS \= structural integrity overlay    
-> Toolkit ontology \= bridge between knowledge commoning, regenerative practice, and implementation learning
+\> Octo / BKC \= candidate shared semantic base    
+\> Regen Toolkit \= applied extension layer    
+\> CSIS \= structural integrity overlay    
+\> Toolkit ontology \= bridge between knowledge commoning, regenerative practice, and implementation learning
 
 This does not mean Octo decides the Toolkit ontology.
 
 It means the Toolkit should avoid forking conceptually where clean alignment is possible.
 
-#### 2. Minimal but extensible
+\#\#\#\# 2\. Minimal but extensible
 
 The ontology should start with a small core and extend only where needed.
 
 A new type should be added only if it improves:
 
-- routing;  
-- interoperability;  
-- graph structure;  
-- review;  
-- deployment clarity;  
-- implementation learning;  
-- AI-readable retrieval;  
-- semantic precision;  
-- contributor experience.
+\- routing;  
+\- interoperability;  
+\- graph structure;  
+\- review;  
+\- deployment clarity;  
+\- implementation learning;  
+\- AI-readable retrieval;  
+\- semantic precision;  
+\- contributor experience.
 
 If a distinction does not change relationships, templates, routing, review needs, deployment logic, permissions, or interface behavior, it may be better as a tag or metadata field rather than a new entity type.
 
-#### 3. Type / tag clarity
+\#\#\#\# 3\. Type / tag clarity
 
 A type defines what something is.
 
@@ -2202,20 +2202,20 @@ A tag describes how something may be classified, interpreted, filtered, or used.
 
 Examples:
 
-- \`Practice\` may be a type.  
-- \`Tool\` may be a type.  
-- \`Source System\` may be a type.  
-- \`Ecological\` may be a domain tag.  
-- \`Experimental\` may be a maturity tag.  
-- \`High-risk\` may be a review tag.  
-- \`Local\` may be a context tag.  
-- \`Natural capital\` may be a capital-form tag.
+\- \`Practice\` may be a type.  
+\- \`Tool\` may be a type.  
+\- \`Source System\` may be a type.  
+\- \`Ecological\` may be a domain tag.  
+\- \`Experimental\` may be a maturity tag.  
+\- \`High-risk\` may be a review tag.  
+\- \`Local\` may be a context tag.  
+\- \`Natural capital\` may be a capital-form tag.
 
 Confusing tags with types creates ontology sprawl.
 
 The Toolkit should avoid turning every useful label into a root entity.
 
-#### 4. Polycentric coherence
+\#\#\#\# 4\. Polycentric coherence
 
 The Toolkit should support local variation without semantic fragmentation.
 
@@ -2227,7 +2227,7 @@ The goal is translatability.
 
 This requires a shared kernel plus mappings.
 
-#### 5. Deployment-linked semantics
+\#\#\#\# 5\. Deployment-linked semantics
 
 The ontology should not only support knowledge organization.
 
@@ -2235,25 +2235,25 @@ It should also support deployment and implementation.
 
 That means the ontology should help represent:
 
-- roles;  
-- actions;  
-- flows;  
-- stages;  
-- tools;  
-- decisions;  
-- claims;  
-- evidence;  
-- signals;  
-- review cycles;  
-- source systems;  
-- implementation cases;  
-- obligations;  
-- failure modes;  
-- update proposals.
+\- roles;  
+\- actions;  
+\- flows;  
+\- stages;  
+\- tools;  
+\- decisions;  
+\- claims;  
+\- evidence;  
+\- signals;  
+\- review cycles;  
+\- source systems;  
+\- implementation cases;  
+\- obligations;  
+\- failure modes;  
+\- update proposals.
 
 The ontology should make it easier to ask operational questions, not only conceptual ones.
 
-#### 6. AI-readable but human-governed
+\#\#\#\# 6\. AI-readable but human-governed
 
 The ontology should support AI-assisted workflows such as classification, retrieval, graph traversal, synthesis, routing, and relationship detection.
 
@@ -2261,27 +2261,27 @@ But AI-generated classifications and relationships should remain reviewable.
 
 The ontology should distinguish:
 
-- human-authored;  
-- AI-assisted;  
-- inferred;  
-- reviewed;  
-- disputed;  
-- deprecated;  
-- candidate.
+\- human-authored;  
+\- AI-assisted;  
+\- inferred;  
+\- reviewed;  
+\- disputed;  
+\- deprecated;  
+\- candidate.
 
 AI can help maintain the graph.
 
 It should not become the graph’s authority.
 
----
+\---
 
-### Two-layer ontology posture
+\#\#\# Two-layer ontology posture
 
 The Toolkit can use a two-layer ontology posture.
 
 This allows the system to remain interoperable while still supporting Toolkit-specific operational needs.
 
-#### Layer A — Interoperable semantic core
+\#\#\#\# Layer A — Interoperable semantic core
 
 This is the smallest safe shared base.
 
@@ -2289,73 +2289,73 @@ It should contain entity types that are broadly useful across knowledge commons,
 
 Candidate core types:
 
-- Concept  
-- Person  
-- Group  
-- Place  
-- Bioregion  
-- Practice  
-- Pattern  
-- Protocol  
-- Playbook  
-- Case Study  
-- Question  
-- Claim  
-- Evidence  
-- Artifact  
-- Source System
+\- Concept  
+\- Person  
+\- Group  
+\- Place  
+\- Bioregion  
+\- Practice  
+\- Pattern  
+\- Protocol  
+\- Playbook  
+\- Case Study  
+\- Question  
+\- Claim  
+\- Evidence  
+\- Artifact  
+\- Source System
 
 This core should remain as stable and interoperable as possible.
 
 It should be aligned with Octo / BKC and other adjacent systems where feasible.
 
-#### Layer B — Toolkit operational extension layer
+\#\#\#\# Layer B — Toolkit operational extension layer
 
 This layer contains types needed for the Regen Toolkit’s specific coordination, deployment, review, and learning functions.
 
 Candidate extension types:
 
-- Resource  
-- Tool  
-- Mechanism  
-- Framework  
-- Standard  
-- Template  
-- Network  
-- Node  
-- Cell  
-- Partner Organization  
-- Role  
-- Steward  
-- Contributor  
-- Learner / Participant  
-- Track  
-- Deployment  
-- Implementation  
-- Flow  
-- Stage  
-- Action  
-- Program  
-- Project  
-- Metric  
-- Signal  
-- Review Cycle  
-- Probe  
-- Issue / Tension  
-- Update Proposal  
-- Failure Mode  
-- Option  
-- Obligation  
-- Risk  
-- Public-Use Boundary
+\- Resource  
+\- Tool  
+\- Mechanism  
+\- Framework  
+\- Standard  
+\- Template  
+\- Network  
+\- Node  
+\- Cell  
+\- Partner Organization  
+\- Role  
+\- Steward  
+\- Contributor  
+\- Learner / Participant  
+\- Track  
+\- Deployment  
+\- Implementation  
+\- Flow  
+\- Stage  
+\- Action  
+\- Program  
+\- Project  
+\- Metric  
+\- Signal  
+\- Review Cycle  
+\- Probe  
+\- Issue / Tension  
+\- Update Proposal  
+\- Failure Mode  
+\- Option  
+\- Obligation  
+\- Risk  
+\- Public-Use Boundary
 
 This layer can be more opinionated because it supports the Toolkit’s working needs.
 
 However, extension types should still map back to core types where possible.
 
----
+\---
 
-### Octo / BKC, CSIS, and Toolkit mapping logic
+\#\#\# Octo / BKC, CSIS, and Toolkit mapping logic
 
 The Toolkit should not choose between interoperability and structural discipline.
 
@@ -2363,19 +2363,19 @@ It should layer them.
 
 A useful framing:
 
-> Octo \= shared language    
-> CSIS \= structural discipline    
-> Regen Toolkit \= applied bridge between them
+\> Octo \= shared language    
+\> CSIS \= structural discipline    
+\> Regen Toolkit \= applied bridge between them
 
 This means:
 
-- use Octo / BKC-like primitives where they are clean and useful;  
-- add Toolkit-specific extensions where implementation, deployment, review, or evolution requires them;  
-- treat CSIS as an overlay that adds constraints, questions, and review logic, especially in Deployment and Evolution;  
-- avoid claiming CSIS conformance unless formal review has happened;  
-- preserve mappings so the Toolkit does not become a parallel ontology universe.
+\- use Octo / BKC-like primitives where they are clean and useful;  
+\- add Toolkit-specific extensions where implementation, deployment, review, or evolution requires them;  
+\- treat CSIS as an overlay that adds constraints, questions, and review logic, especially in Deployment and Evolution;  
+\- avoid claiming CSIS conformance unless formal review has happened;  
+\- preserve mappings so the Toolkit does not become a parallel ontology universe.
 
-#### Candidate mapping table
+\#\#\#\# Candidate mapping table
 
 | Regen Toolkit term | Possible shared-core / Octo-style mapping | Notes |  
 |---|---|---|  
@@ -2410,19 +2410,19 @@ This mapping should remain open.
 
 The technical question is not only:
 
-> What is the right name?
+\> What is the right name?
 
 The deeper question is:
 
-> Does this distinction need a separate schema, relationship set, review process, template, permission model, routing rule, or interface behavior?
+\> Does this distinction need a separate schema, relationship set, review process, template, permission model, routing rule, or interface behavior?
 
 If yes, it may deserve a stronger type.
 
 If not, it may be a subtype, tag, metadata field, or note.
 
----
+\---
 
-### CSIS semantic overlay
+\#\#\# CSIS semantic overlay
 
 CSIS should not replace the ontology.
 
@@ -2430,59 +2430,59 @@ It should function as a structural integrity overlay that adds review questions,
 
 The Toolkit should remain:
 
-> CSIS-informed, not CSIS-conformant by default.
+\> CSIS-informed, not CSIS-conformant by default.
 
 CSIS is most relevant to:
 
-- Deployment & Structural Integrity;  
-- Tracks & Composition;  
-- Option Library;  
-- Implementation & Learning Memory;  
-- Evolution Layer.
+\- Deployment & Structural Integrity;  
+\- Tracks & Composition;  
+\- Option Library;  
+\- Implementation & Learning Memory;  
+\- Evolution Layer.
 
 It can influence ontology by requiring the Toolkit to represent structural realities such as:
 
-- authority;  
-- control;  
-- role clarity;  
-- accountability;  
-- failure detection;  
-- information asymmetry;  
-- contestability;  
-- external override risk;  
-- conflict transformation;  
-- capacity development;  
-- adverse signals;  
-- structural gaps.
+\- authority;  
+\- control;  
+\- role clarity;  
+\- accountability;  
+\- failure detection;  
+\- information asymmetry;  
+\- contestability;  
+\- external override risk;  
+\- conflict transformation;  
+\- capacity development;  
+\- adverse signals;  
+\- structural gaps.
 
 Candidate CSIS-informed relationship extensions include:
 
-- governed\_by;  
-- controlled\_by;  
-- accountable\_to;  
-- reviewed\_by;  
-- escalated\_to;  
-- depends\_on;  
-- requires;  
-- enables;  
-- blocks;  
-- violates;  
-- constrained\_by;  
-- exposes\_risk;  
-- has\_authority;  
-- has\_control\_point;  
-- has\_failure\_mode;  
-- generates\_signal;  
-- requires\_review;  
-- has\_public\_use\_boundary.
+\- governed\_by;  
+\- controlled\_by;  
+\- accountable\_to;  
+\- reviewed\_by;  
+\- escalated\_to;  
+\- depends\_on;  
+\- requires;  
+\- enables;  
+\- blocks;  
+\- violates;  
+\- constrained\_by;  
+\- exposes\_risk;  
+\- has\_authority;  
+\- has\_control\_point;  
+\- has\_failure\_mode;  
+\- generates\_signal;  
+\- requires\_review;  
+\- has\_public\_use\_boundary.
 
 These relationships should be used carefully.
 
 They are most useful when they support deployment review, not when they create unnecessary graph complexity.
 
----
+\---
 
-### Core entity type candidates
+\#\#\# Core entity type candidates
 
 The following candidate entity types are useful for this Toolkit.
 
@@ -2492,43 +2492,43 @@ Some belong in the interoperable core.
 Some belong in the Toolkit extension layer.    
 Some may eventually become subtypes or metadata fields.
 
-#### 1. Concept
+\#\#\#\# 1\. Concept
 
 A meaningful term, idea, or category used to explain reality.
 
 Examples:
 
-- governance;  
-- coordination;  
-- public goods;  
-- regenerative obligation;  
-- knowledge commons;  
-- bioregionalism;  
-- source lineage;  
-- structural integrity;  
-- implementation memory.
+\- governance;  
+\- coordination;  
+\- public goods;  
+\- regenerative obligation;  
+\- knowledge commons;  
+\- bioregionalism;  
+\- source lineage;  
+\- structural integrity;  
+\- implementation memory.
 
 Used in:
 
-- Encyclopedia;  
-- Concept & Idea Ecology;  
-- Resource Graph;  
-- Option Library;  
-- Tracks.
+\- Encyclopedia;  
+\- Concept & Idea Ecology;  
+\- Resource Graph;  
+\- Option Library;  
+\- Tracks.
 
 Key relationships:
 
-- related\_to;  
-- broader;  
-- narrower;  
-- defined\_by;  
-- explained\_in;  
-- informs;  
-- contrasts\_with;  
-- confused\_with;  
-- applied\_in.
+\- related\_to;  
+\- broader;  
+\- narrower;  
+\- defined\_by;  
+\- explained\_in;  
+\- informs;  
+\- contrasts\_with;  
+\- confused\_with;  
+\- applied\_in.
 
-#### 2. Person
+\#\#\#\# 2\. Person
 
 A human participant, contributor, author, steward, reviewer, practitioner, organizer, or subject.
 
@@ -2536,371 +2536,371 @@ Use carefully because identity, consent, attribution, and privacy matter.
 
 Examples:
 
-- author;  
-- steward;  
-- reviewer;  
-- local organizer;  
-- project lead;  
-- contributor;  
-- knowledge gardener.
+\- author;  
+\- steward;  
+\- reviewer;  
+\- local organizer;  
+\- project lead;  
+\- contributor;  
+\- knowledge gardener.
 
 Key relationships:
 
-- contributed\_to;  
-- authored;  
-- stewarded\_by;  
-- holds\_role;  
-- participates\_in;  
-- affiliated\_with;  
-- reviewed;  
-- is\_subject\_of.
+\- contributed\_to;  
+\- authored;  
+\- stewarded\_by;  
+\- holds\_role;  
+\- participates\_in;  
+\- affiliated\_with;  
+\- reviewed;  
+\- is\_subject\_of.
 
 Privacy and consent constraints should apply.
 
-#### 3. Group
+\#\#\#\# 3\. Group
 
 A collection of people acting together.
 
 Examples:
 
-- organization;  
-- community;  
-- network;  
-- DAO;  
-- guild;  
-- chapter;  
-- local node;  
-- working group;  
-- cooperative;  
-- foundation;  
-- research group.
+\- organization;  
+\- community;  
+\- network;  
+\- DAO;  
+\- guild;  
+\- chapter;  
+\- local node;  
+\- working group;  
+\- cooperative;  
+\- foundation;  
+\- research group.
 
 Key relationships:
 
-- contains;  
-- belongs\_to;  
-- partners\_with;  
-- governs;  
-- funds;  
-- stewards;  
-- implements;  
-- participates\_in.
+\- contains;  
+\- belongs\_to;  
+\- partners\_with;  
+\- governs;  
+\- funds;  
+\- stewards;  
+\- implements;  
+\- participates\_in.
 
 Group entries should distinguish formal authority from informal influence where relevant.
 
-#### 4. Place
+\#\#\#\# 4\. Place
 
 A location or spatial context.
 
 Examples:
 
-- city;  
-- neighborhood;  
-- region;  
-- watershed;  
-- territory;  
-- bioregion;  
-- country;  
-- digital space, when treated as a place-like coordination context.
+\- city;  
+\- neighborhood;  
+\- region;  
+\- watershed;  
+\- territory;  
+\- bioregion;  
+\- country;  
+\- digital space, when treated as a place-like coordination context.
 
 Key relationships:
 
-- located\_in;  
-- practiced\_in;  
-- implemented\_in;  
-- relevant\_to;  
-- stewarded\_by;  
-- represented\_by.
+\- located\_in;  
+\- practiced\_in;  
+\- implemented\_in;  
+\- relevant\_to;  
+\- stewarded\_by;  
+\- represented\_by.
 
 Place data may create privacy, consent, and ecological sensitivity concerns.
 
-#### 5. Bioregion
+\#\#\#\# 5\. Bioregion
 
 A place defined through ecological, cultural, watershed, geographic, or living-system relationships rather than only administrative boundaries.
 
 Examples:
 
-- watershed region;  
-- ecoregion;  
-- local ecological territory;  
-- bioregional coordination area.
+\- watershed region;  
+\- ecoregion;  
+\- local ecological territory;  
+\- bioregional coordination area.
 
 Key relationships:
 
-- part\_of;  
-- overlaps\_with;  
-- contains;  
-- stewarded\_by;  
-- practiced\_in;  
-- documented\_by.
+\- part\_of;  
+\- overlaps\_with;  
+\- contains;  
+\- stewarded\_by;  
+\- practiced\_in;  
+\- documented\_by.
 
 Bioregion may be a subtype of Place, but it may deserve explicit visibility because of the Toolkit’s regenerative and local coordination orientation.
 
-#### 6. Practice
+\#\#\#\# 6\. Practice
 
 A repeated or situated action performed by people, groups, or communities.
 
 Examples:
 
-- weekly coordination call;  
-- mutual aid distribution;  
-- agroforestry planting cycle;  
-- retrospective session;  
-- community mapping workshop;  
-- proposal review flow;  
-- local node onboarding session.
+\- weekly coordination call;  
+\- mutual aid distribution;  
+\- agroforestry planting cycle;  
+\- retrospective session;  
+\- community mapping workshop;  
+\- proposal review flow;  
+\- local node onboarding session.
 
 Key relationships:
 
-- practiced\_by;  
-- practiced\_in;  
-- aggregates\_into;  
-- generates;  
-- informs;  
-- uses\_tool;  
-- documented\_by;  
-- produces\_signal.
+\- practiced\_by;  
+\- practiced\_in;  
+\- aggregates\_into;  
+\- generates;  
+\- informs;  
+\- uses\_tool;  
+\- documented\_by;  
+\- produces\_signal.
 
 Practice is one of the most important bridge types because it links knowledge to real behavior.
 
-#### 7. Pattern
+\#\#\#\# 7\. Pattern
 
 A reusable abstraction derived from multiple practices or cases.
 
 Examples:
 
-- rotating facilitation;  
-- progressive formalization;  
-- delegated review;  
-- safe-to-fail probes;  
-- local-to-network reporting;  
-- consent-based decision flow;  
-- contribution-to-reputation loop.
+\- rotating facilitation;  
+\- progressive formalization;  
+\- delegated review;  
+\- safe-to-fail probes;  
+\- local-to-network reporting;  
+\- consent-based decision flow;  
+\- contribution-to-reputation loop.
 
 Key relationships:
 
-- aggregates\_from;  
-- suggests;  
-- builds\_on;  
-- applied\_in;  
-- fails\_when;  
-- requires;  
-- documented\_by.
+\- aggregates\_from;  
+\- suggests;  
+\- builds\_on;  
+\- applied\_in;  
+\- fails\_when;  
+\- requires;  
+\- documented\_by.
 
 A pattern should not be declared from one case too quickly.
 
 Pattern-generating status should require either repeated evidence or clear transferable conditions.
 
-#### 8. Protocol
+\#\#\#\# 8\. Protocol
 
 A defined rule sequence, process, or coordination procedure.
 
 Examples:
 
-- proposal process;  
-- conflict escalation protocol;  
-- funding round protocol;  
-- review protocol;  
-- onboarding protocol;  
-- claim verification protocol.
+\- proposal process;  
+\- conflict escalation protocol;  
+\- funding round protocol;  
+\- review protocol;  
+\- onboarding protocol;  
+\- claim verification protocol.
 
 Key relationships:
 
-- implemented\_by;  
-- used\_by;  
-- governs;  
-- requires;  
-- has\_stage;  
-- documented\_in;  
-- produces.
+\- implemented\_by;  
+\- used\_by;  
+\- governs;  
+\- requires;  
+\- has\_stage;  
+\- documented\_in;  
+\- produces.
 
 Protocols are especially relevant to deployment and structural integrity.
 
-#### 9. Playbook
+\#\#\#\# 9\. Playbook
 
 A practical guide for implementing a protocol, pattern, or set of options in a context.
 
 Examples:
 
-- local node setup guide;  
-- public goods funding round playbook;  
-- knowledge garden setup playbook;  
-- contributor onboarding guide;  
-- ecological reporting playbook.
+\- local node setup guide;  
+\- public goods funding round playbook;  
+\- knowledge garden setup playbook;  
+\- contributor onboarding guide;  
+\- ecological reporting playbook.
 
 Key relationships:
 
-- implements;  
-- explains;  
-- guides;  
-- uses\_option;  
-- includes\_protocol;  
-- references\_resource;  
-- applied\_in.
+\- implements;  
+\- explains;  
+\- guides;  
+\- uses\_option;  
+\- includes\_protocol;  
+\- references\_resource;  
+\- applied\_in.
 
 Playbook may be an Artifact subtype, but it is operationally important enough to track.
 
-#### 10. Case Study
+\#\#\#\# 10\. Case Study
 
 A documented real-world example.
 
 Examples:
 
-- funding round retrospective;  
-- local node story;  
-- knowledge garden implementation;  
-- governance process review;  
-- ecological reporting pilot;  
-- community onboarding experiment.
+\- funding round retrospective;  
+\- local node story;  
+\- knowledge garden implementation;  
+\- governance process review;  
+\- ecological reporting pilot;  
+\- community onboarding experiment.
 
 Key relationships:
 
-- documents;  
-- about;  
-- implemented\_in;  
-- supports;  
-- complicates;  
-- generates\_signal;  
-- suggests\_pattern.
+\- documents;  
+\- about;  
+\- implemented\_in;  
+\- supports;  
+\- complicates;  
+\- generates\_signal;  
+\- suggests\_pattern.
 
 A case study is not automatically an implementation record, but the two may overlap.
 
-#### 11. Question
+\#\#\#\# 11\. Question
 
 A clearly defined unknown worth exploring.
 
 Examples:
 
-- How should local node autonomy be balanced with network coherence?  
-- What makes an ecological claim safe for public use?  
-- When does a source system require consent before aggregation?  
-- How should AI-generated relationships be reviewed?
+\- How should local node autonomy be balanced with network coherence?  
+\- What makes an ecological claim safe for public use?  
+\- When does a source system require consent before aggregation?  
+\- How should AI-generated relationships be reviewed?
 
 Key relationships:
 
-- about;  
-- informed\_by;  
-- generates;  
-- raised\_by;  
-- connected\_to;  
-- remains\_open\_in.
+\- about;  
+\- informed\_by;  
+\- generates;  
+\- raised\_by;  
+\- connected\_to;  
+\- remains\_open\_in.
 
 Questions are important because the Toolkit should preserve uncertainty rather than forcing premature closure.
 
-#### 12. Claim
+\#\#\#\# 12\. Claim
 
 An assertion, hypothesis, interpretation, or public statement that may require support.
 
 Examples:
 
-- This project improved local coordination.  
-- This funding mechanism reduced capture risk.  
-- This ecological intervention increased biodiversity.  
-- This tool is decentralized.  
-- This community represents a bioregion.
+\- This project improved local coordination.  
+\- This funding mechanism reduced capture risk.  
+\- This ecological intervention increased biodiversity.  
+\- This tool is decentralized.  
+\- This community represents a bioregion.
 
 Key relationships:
 
-- about;  
-- supported\_by;  
-- opposed\_by;  
-- qualified\_by;  
-- reviewed\_by;  
-- has\_public\_use\_boundary.
+\- about;  
+\- supported\_by;  
+\- opposed\_by;  
+\- qualified\_by;  
+\- reviewed\_by;  
+\- has\_public\_use\_boundary.
 
 Claims should be separated from evidence, especially in high-risk domains.
 
-#### 13. Evidence
+\#\#\#\# 13\. Evidence
 
 Information, observation, data, testimony, artifact, measurement, or record that supports, opposes, or complicates a claim.
 
 Examples:
 
-- field report;  
-- transaction record;  
-- photo evidence;  
-- monitoring dataset;  
-- testimonial;  
-- meeting notes;  
-- review outcome;  
-- metric dashboard;  
-- third-party verification;  
-- implementation retrospective.
+\- field report;  
+\- transaction record;  
+\- photo evidence;  
+\- monitoring dataset;  
+\- testimonial;  
+\- meeting notes;  
+\- review outcome;  
+\- metric dashboard;  
+\- third-party verification;  
+\- implementation retrospective.
 
 Key relationships:
 
-- supports;  
-- opposes;  
-- informs;  
-- qualifies;  
-- derived\_from;  
-- reviewed\_by.
+\- supports;  
+\- opposes;  
+\- informs;  
+\- qualifies;  
+\- derived\_from;  
+\- reviewed\_by.
 
 Evidence quality should be visible.
 
 Evidence does not speak for itself; interpretation and context matter.
 
-#### 14. Artifact
+\#\#\#\# 14\. Artifact
 
 A produced object that stores, transmits, or represents knowledge, process, code, data, or media.
 
 Examples:
 
-- article;  
-- document;  
-- dataset;  
-- map;  
-- video;  
-- codebase;  
-- dashboard;  
-- checklist;  
-- template;  
-- diagram;  
-- schema;  
-- repository.
+\- article;  
+\- document;  
+\- dataset;  
+\- map;  
+\- video;  
+\- codebase;  
+\- dashboard;  
+\- checklist;  
+\- template;  
+\- diagram;  
+\- schema;  
+\- repository.
 
 Key relationships:
 
-- authored\_by;  
-- stewarded\_by;  
-- documents;  
-- references;  
-- implements;  
-- derived\_from;  
-- version\_of.
+\- authored\_by;  
+\- stewarded\_by;  
+\- documents;  
+\- references;  
+\- implements;  
+\- derived\_from;  
+\- version\_of.
 
 Artifact is a broad base type that can contain many concrete things.
 
-#### 15. Source System
+\#\#\#\# 15\. Source System
 
 A living external knowledge environment that curates or maintains resources, knowledge, data, maps, tools, cases, or community memory.
 
 Examples:
 
-- wiki;  
-- GitHub repository;  
-- knowledge garden;  
-- map;  
-- directory;  
-- forum;  
-- documentation site;  
-- data portal;  
-- community resource library;  
-- research database;  
-- public archive.
+\- wiki;  
+\- GitHub repository;  
+\- knowledge garden;  
+\- map;  
+\- directory;  
+\- forum;  
+\- documentation site;  
+\- data portal;  
+\- community resource library;  
+\- research database;  
+\- public archive.
 
 Key relationships:
 
-- stewarded\_by;  
-- curates;  
-- contains;  
-- references;  
-- overlaps\_with;  
-- maps\_to;  
-- source\_for;  
-- requires\_attribution;  
-- has\_return\_path;  
-- has\_reuse\_conditions.
+\- stewarded\_by;  
+\- curates;  
+\- contains;  
+\- references;  
+\- overlaps\_with;  
+\- maps\_to;  
+\- source\_for;  
+\- requires\_attribution;  
+\- has\_return\_path;  
+\- has\_reuse\_conditions.
 
 Source System may be one of the most important Toolkit-specific types because it helps prevent extractive aggregation.
 
@@ -2908,24 +2908,24 @@ A source system is not just a link.
 
 It has context, stewards, norms, update rhythms, and possible return paths.
 
-#### 16. Resource
+\#\#\#\# 16\. Resource
 
 A broad working object for something useful that has been surfaced.
 
 Examples:
 
-- link;  
-- article;  
-- book;  
-- project;  
-- tool;  
-- map;  
-- dataset;  
-- source system;  
-- protocol;  
-- event;  
-- case;  
-- community.
+\- link;  
+\- article;  
+\- book;  
+\- project;  
+\- tool;  
+\- map;  
+\- dataset;  
+\- source system;  
+\- protocol;  
+\- event;  
+\- case;  
+\- community.
 
 Resource may be too broad to remain a final ontology type.
 
@@ -2933,422 +2933,422 @@ It is useful as a contributor-facing routing category, but technical implementat
 
 Working rule:
 
-> Resource is useful for intake.    
-> More precise types are useful for structure.
+\> Resource is useful for intake.    
+\> More precise types are useful for structure.
 
-#### 17. Tool
+\#\#\#\# 17\. Tool
 
 A software, protocol, platform, method, instrument, or operational system used in practice.
 
 Examples:
 
-- Gardens;  
-- Snapshot;  
-- EAS;  
-- Obsidian;  
-- GitHub;  
-- Astro;  
-- LinkML;  
-- OpenRefine;  
-- Kumu;  
-- Charmverse;  
-- QGIS.
+\- Gardens;  
+\- Snapshot;  
+\- EAS;  
+\- Obsidian;  
+\- GitHub;  
+\- Astro;  
+\- LinkML;  
+\- OpenRefine;  
+\- Kumu;  
+\- Charmverse;  
+\- QGIS.
 
 Key relationships:
 
-- used\_by;  
-- used\_in;  
-- enables;  
-- depends\_on;  
-- controlled\_by;  
-- requires\_skill;  
-- has\_risk;  
-- supports\_option.
+\- used\_by;  
+\- used\_in;  
+\- enables;  
+\- depends\_on;  
+\- controlled\_by;  
+\- requires\_skill;  
+\- has\_risk;  
+\- supports\_option.
 
 Tool may map to Artifact in the core ontology, but the Toolkit should track it operationally.
 
-#### 18. Mechanism
+\#\#\#\# 18\. Mechanism
 
 A structured process that shapes allocation, incentives, decisions, recognition, participation, or coordination.
 
 Examples:
 
-- quadratic funding;  
-- conviction voting;  
-- retroactive public goods funding;  
-- bounties;  
-- staking;  
-- reputation systems;  
-- community currencies;  
-- milestone-based grants.
+\- quadratic funding;  
+\- conviction voting;  
+\- retroactive public goods funding;  
+\- bounties;  
+\- staking;  
+\- reputation systems;  
+\- community currencies;  
+\- milestone-based grants.
 
 Key relationships:
 
-- allocates;  
-- incentivizes;  
-- governed\_by;  
-- implemented\_by;  
-- depends\_on;  
-- has\_failure\_mode;  
-- requires\_review.
+\- allocates;  
+\- incentivizes;  
+\- governed\_by;  
+\- implemented\_by;  
+\- depends\_on;  
+\- has\_failure\_mode;  
+\- requires\_review.
 
 Mechanisms often require strong deployment conditions because they can create incentives, distortions, or capture risks.
 
-#### 19. Framework
+\#\#\#\# 19\. Framework
 
 A structured conceptual lens used for interpretation, diagnosis, design, or decision-making.
 
 Examples:
 
-- Cynefin;  
-- CSIS;  
-- 8 Forms of Capital;  
-- Viable System Model;  
-- Theory of Change;  
-- Regenerative Development;  
-- Pattern Language;  
-- Commons Theory.
+\- Cynefin;  
+\- CSIS;  
+\- 8 Forms of Capital;  
+\- Viable System Model;  
+\- Theory of Change;  
+\- Regenerative Development;  
+\- Pattern Language;  
+\- Commons Theory.
 
 Key relationships:
 
-- explains;  
-- informs;  
-- maps\_to;  
-- applied\_in;  
-- contrasts\_with;  
-- used\_by.
+\- explains;  
+\- informs;  
+\- maps\_to;  
+\- applied\_in;  
+\- contrasts\_with;  
+\- used\_by.
 
 Framework may map to Concept but is useful as a page type in the Encyclopedia.
 
-#### 20. Track
+\#\#\#\# 20\. Track
 
 A guided composition across layers for a particular audience, use case, or context.
 
 Examples:
 
-- Local Node Builder;  
-- Public Goods Funding Round;  
-- Knowledge Commons Builder;  
-- Environmental Impact;  
-- Governance Deep Dive;  
-- AI-Assisted Knowledge Garden.
+\- Local Node Builder;  
+\- Public Goods Funding Round;  
+\- Knowledge Commons Builder;  
+\- Environmental Impact;  
+\- Governance Deep Dive;  
+\- AI-Assisted Knowledge Garden.
 
 Key relationships:
 
-- includes\_concept;  
-- references\_resource;  
-- uses\_option;  
-- requires\_deployment\_check;  
-- suggests\_tool;  
-- informed\_by\_case;  
-- has\_failure\_mode.
+\- includes\_concept;  
+\- references\_resource;  
+\- uses\_option;  
+\- requires\_deployment\_check;  
+\- suggests\_tool;  
+\- informed\_by\_case;  
+\- has\_failure\_mode.
 
 A track is not a deployment.
 
 It is a pathway that helps someone prepare for one.
 
-#### 21. Deployment
+\#\#\#\# 21\. Deployment
 
 A specified configuration of options, tools, roles, obligations, decisions, review paths, constraints, and implementation context.
 
 Examples:
 
-- a local chapter governance setup;  
-- a funding round design;  
-- a knowledge garden process;  
-- a community mapping initiative;  
-- a coordination protocol for a working group;  
-- an ecological reporting workflow.
+\- a local chapter governance setup;  
+\- a funding round design;  
+\- a knowledge garden process;  
+\- a community mapping initiative;  
+\- a coordination protocol for a working group;  
+\- an ecological reporting workflow.
 
 Key relationships:
 
-- uses\_option;  
-- uses\_tool;  
-- has\_role;  
-- governed\_by;  
-- controlled\_by;  
-- documented\_in;  
-- reviewed\_by;  
-- generates\_signal;  
-- implemented\_as.
+\- uses\_option;  
+\- uses\_tool;  
+\- has\_role;  
+\- governed\_by;  
+\- controlled\_by;  
+\- documented\_in;  
+\- reviewed\_by;  
+\- generates\_signal;  
+\- implemented\_as.
 
 Deployment is where structural integrity becomes operational.
 
-#### 22. Implementation
+\#\#\#\# 22\. Implementation
 
 A real-world instance of a deployment, project, practice, event, or experiment under actual conditions.
 
 Examples:
 
-- a pilot program;  
-- a funding round that ran;  
-- a local node that launched;  
-- a workshop that happened;  
-- a campaign that produced outputs;  
-- a governance experiment;  
-- a knowledge garden sprint.
+\- a pilot program;  
+\- a funding round that ran;  
+\- a local node that launched;  
+\- a workshop that happened;  
+\- a campaign that produced outputs;  
+\- a governance experiment;  
+\- a knowledge garden sprint.
 
 Key relationships:
 
-- instance\_of;  
-- implemented\_by;  
-- implemented\_in;  
-- uses\_tool;  
-- uses\_option;  
-- produced\_artifact;  
-- generated\_signal;  
-- documented\_by.
+\- instance\_of;  
+\- implemented\_by;  
+\- implemented\_in;  
+\- uses\_tool;  
+\- uses\_option;  
+\- produced\_artifact;  
+\- generated\_signal;  
+\- documented\_by.
 
 Implementation records should preserve context.
 
 They should not be flattened into generic patterns too quickly.
 
-#### 23. Signal
+\#\#\#\# 23\. Signal
 
 An observed indicator that something may need interpretation.
 
 Examples:
 
-- repeated confusion;  
-- contributor dropout;  
-- governance friction;  
-- hidden power concern;  
-- broken link;  
-- outdated resource;  
-- implementation failure;  
-- ecological claim concern;  
-- success worth examining;  
-- pattern repetition;  
-- adverse experience;  
-- coordination overload.
+\- repeated confusion;  
+\- contributor dropout;  
+\- governance friction;  
+\- hidden power concern;  
+\- broken link;  
+\- outdated resource;  
+\- implementation failure;  
+\- ecological claim concern;  
+\- success worth examining;  
+\- pattern repetition;  
+\- adverse experience;  
+\- coordination overload.
 
 Key relationships:
 
-- generated\_by;  
-- observed\_in;  
-- about;  
-- indicates;  
-- requires\_review;  
-- routed\_to;  
-- informs\_update.
+\- generated\_by;  
+\- observed\_in;  
+\- about;  
+\- indicates;  
+\- requires\_review;  
+\- routed\_to;  
+\- informs\_update.
 
 A signal is not a conclusion.
 
 Signals feed the Evolution Layer.
 
-#### 24. Review Cycle
+\#\#\#\# 24\. Review Cycle
 
 A recurring process for evaluating content, source systems, options, deployments, implementations, claims, or signals.
 
 Examples:
 
-- monthly ontology review;  
-- quarterly resource graph review;  
-- post-implementation retrospective;  
-- funding round review;  
-- source-system update check;  
-- high-risk claim review.
+\- monthly ontology review;  
+\- quarterly resource graph review;  
+\- post-implementation retrospective;  
+\- funding round review;  
+\- source-system update check;  
+\- high-risk claim review.
 
 Key relationships:
 
-- reviews;  
-- updates;  
-- flags;  
-- approves;  
-- deprecates;  
-- escalates.
+\- reviews;  
+\- updates;  
+\- flags;  
+\- approves;  
+\- deprecates;  
+\- escalates.
 
 Review cycles help prevent drift.
 
-#### 25. Issue / Tension
+\#\#\#\# 25\. Issue / Tension
 
 A named contradiction, friction, risk, unresolved concern, or structural problem.
 
 Examples:
 
-- local autonomy vs network coherence;  
-- openness vs privacy;  
-- attribution vs aggregation;  
-- AI acceleration vs human review;  
-- impact claims vs evidence quality;  
-- flexibility vs structural integrity;  
-- source-system reuse vs consent.
+\- local autonomy vs network coherence;  
+\- openness vs privacy;  
+\- attribution vs aggregation;  
+\- AI acceleration vs human review;  
+\- impact claims vs evidence quality;  
+\- flexibility vs structural integrity;  
+\- source-system reuse vs consent.
 
 Key relationships:
 
-- about;  
-- surfaced\_by;  
-- affects;  
-- requires\_sensemaking;  
-- routed\_to;  
-- remains\_open.
+\- about;  
+\- surfaced\_by;  
+\- affects;  
+\- requires\_sensemaking;  
+\- routed\_to;  
+\- remains\_open.
 
 Tensions should not always be resolved.
 
 Some should remain visible as living constraints.
 
-#### 26. Update Proposal
+\#\#\#\# 26\. Update Proposal
 
 A proposed change to the Toolkit.
 
 Examples:
 
-- add a new ontology type;  
-- deprecate a relationship;  
-- update an Encyclopedia page;  
-- add a source system;  
-- change option maturity status;  
-- revise a deployment checklist;  
-- promote a repeated case into a pattern candidate.
+\- add a new ontology type;  
+\- deprecate a relationship;  
+\- update an Encyclopedia page;  
+\- add a source system;  
+\- change option maturity status;  
+\- revise a deployment checklist;  
+\- promote a repeated case into a pattern candidate.
 
 Key relationships:
 
-- proposes\_change\_to;  
-- supported\_by;  
-- reviewed\_by;  
-- accepted\_by;  
-- rejected\_by;  
-- supersedes.
+\- proposes\_change\_to;  
+\- supported\_by;  
+\- reviewed\_by;  
+\- accepted\_by;  
+\- rejected\_by;  
+\- supersedes.
 
 Update proposals support explicit evolution rather than silent drift.
 
----
+\---
 
-### Relationship grammar
+\#\#\# Relationship grammar
 
 Relationships are as important as entity types.
 
 The Toolkit should prioritize explicit, operationally useful relationships rather than creating too many vague links.
 
-#### Core interoperability relationships
+\#\#\#\# Core interoperability relationships
 
 These should remain broadly useful across the graph:
 
-- is\_a;  
-- part\_of;  
-- instance\_of;  
-- related\_to;  
-- broader;  
-- narrower;  
-- overlaps\_with;  
-- maps\_to;  
-- derived\_from;  
-- version\_of.
+\- is\_a;  
+\- part\_of;  
+\- instance\_of;  
+\- related\_to;  
+\- broader;  
+\- narrower;  
+\- overlaps\_with;  
+\- maps\_to;  
+\- derived\_from;  
+\- version\_of.
 
-#### Practice and pattern relationships
+\#\#\#\# Practice and pattern relationships
 
 These help connect real activity to reusable learning:
 
-- practiced\_by;  
-- practiced\_in;  
-- aggregates\_into;  
-- suggests;  
-- documents;  
-- builds\_on;  
-- implemented\_by;  
-- used\_in;  
-- produces;  
-- generates\_signal.
+\- practiced\_by;  
+\- practiced\_in;  
+\- aggregates\_into;  
+\- suggests;  
+\- documents;  
+\- builds\_on;  
+\- implemented\_by;  
+\- used\_in;  
+\- produces;  
+\- generates\_signal.
 
-#### Knowledge and discourse relationships
+\#\#\#\# Knowledge and discourse relationships
 
 These help represent questions, claims, evidence, concepts, and interpretation:
 
-- about;  
-- defines;  
-- explains;  
-- supports;  
-- opposes;  
-- qualifies;  
-- informs;  
-- raises\_question;  
-- contradicts;  
-- clarifies;  
-- confused\_with;  
-- source\_for.
+\- about;  
+\- defines;  
+\- explains;  
+\- supports;  
+\- opposes;  
+\- qualifies;  
+\- informs;  
+\- raises\_question;  
+\- contradicts;  
+\- clarifies;  
+\- confused\_with;  
+\- source\_for.
 
-#### Resource and source-system relationships
+\#\#\#\# Resource and source-system relationships
 
 These help preserve source lineage and avoid extractive aggregation:
 
-- stewarded\_by;  
-- curated\_by;  
-- contains;  
-- references;  
-- sourced\_from;  
-- adapted\_from;  
-- attributed\_to;  
-- requires\_attribution;  
-- has\_return\_path;  
-- has\_reuse\_conditions;  
-- currentness\_checked\_by.
+\- stewarded\_by;  
+\- curated\_by;  
+\- contains;  
+\- references;  
+\- sourced\_from;  
+\- adapted\_from;  
+\- attributed\_to;  
+\- requires\_attribution;  
+\- has\_return\_path;  
+\- has\_reuse\_conditions;  
+\- currentness\_checked\_by.
 
-#### Option and deployment relationships
+\#\#\#\# Option and deployment relationships
 
 These help move from design space to practice:
 
-- uses\_option;  
-- uses\_tool;  
-- requires;  
-- depends\_on;  
-- compatible\_with;  
-- incompatible\_with;  
-- has\_failure\_mode;  
-- has\_condition;  
-- has\_risk;  
-- has\_role;  
-- has\_review\_need;  
-- has\_public\_use\_boundary.
+\- uses\_option;  
+\- uses\_tool;  
+\- requires;  
+\- depends\_on;  
+\- compatible\_with;  
+\- incompatible\_with;  
+\- has\_failure\_mode;  
+\- has\_condition;  
+\- has\_risk;  
+\- has\_role;  
+\- has\_review\_need;  
+\- has\_public\_use\_boundary.
 
-#### Governance and structural integrity relationships
+\#\#\#\# Governance and structural integrity relationships
 
 These help expose power, responsibility, and control:
 
-- governed\_by;  
-- controlled\_by;  
-- accountable\_to;  
-- reviewed\_by;  
-- escalated\_to;  
-- has\_authority;  
-- has\_control\_point;  
-- has\_decision\_right;  
-- has\_obligation;  
-- violates\_constraint;  
-- exposes\_risk;  
-- requires\_disclosure.
+\- governed\_by;  
+\- controlled\_by;  
+\- accountable\_to;  
+\- reviewed\_by;  
+\- escalated\_to;  
+\- has\_authority;  
+\- has\_control\_point;  
+\- has\_decision\_right;  
+\- has\_obligation;  
+\- violates\_constraint;  
+\- exposes\_risk;  
+\- requires\_disclosure.
 
-#### Evolution relationships
+\#\#\#\# Evolution relationships
 
 These help represent learning and system updates:
 
-- generates\_signal;  
-- interpreted\_by;  
-- routed\_to;  
-- triggers\_review;  
-- updates;  
-- deprecates;  
-- reinforces;  
-- constrains;  
-- rebalances;  
-- probes;  
-- redesigns;  
-- preserved\_as\_open\_question.
+\- generates\_signal;  
+\- interpreted\_by;  
+\- routed\_to;  
+\- triggers\_review;  
+\- updates;  
+\- deprecates;  
+\- reinforces;  
+\- constrains;  
+\- rebalances;  
+\- probes;  
+\- redesigns;  
+\- preserved\_as\_open\_question.
 
----
+\---
 
-### Relationship quality
+\#\#\# Relationship quality
 
 Not all relationships are equally strong.
 
 A relationship may be:
 
-- obvious;  
-- inferred;  
-- suggested;  
-- source-linked;  
-- reviewed;  
-- contested;  
-- deprecated.
+\- obvious;  
+\- inferred;  
+\- suggested;  
+\- source-linked;  
+\- reviewed;  
+\- contested;  
+\- deprecated.
 
 Where possible, relationship status should be visible.
 
@@ -3356,182 +3356,182 @@ For v0.1, it may be enough to mark uncertain relationships as \`candidate\` or \
 
 AI-assisted relationship detection should be treated as candidate until reviewed.
 
----
+\---
 
-### Classification layers
+\#\#\# Classification layers
 
 Classification layers are metadata dimensions, not necessarily ontology types.
 
 They help filter, route, and interpret entries.
 
-#### Domain
+\#\#\#\# Domain
 
 What field or domain does this relate to?
 
 Examples:
 
-- ecological;  
-- social;  
-- economic;  
-- governance;  
-- technical;  
-- cultural;  
-- legal;  
-- educational;  
-- civic;  
-- bioregional;  
-- public goods;  
-- AI / knowledge systems.
+\- ecological;  
+\- social;  
+\- economic;  
+\- governance;  
+\- technical;  
+\- cultural;  
+\- legal;  
+\- educational;  
+\- civic;  
+\- bioregional;  
+\- public goods;  
+\- AI / knowledge systems.
 
-#### Function
+\#\#\#\# Function
 
 What does this do?
 
 Examples:
 
-- explanation;  
-- setup guide;  
-- operational guide;  
-- strategy;  
-- coordination;  
-- funding;  
-- governance;  
-- mapping;  
-- verification;  
-- review;  
-- learning;  
-- implementation;  
-- risk management;  
-- source system;  
-- pattern;  
-- case study.
+\- explanation;  
+\- setup guide;  
+\- operational guide;  
+\- strategy;  
+\- coordination;  
+\- funding;  
+\- governance;  
+\- mapping;  
+\- verification;  
+\- review;  
+\- learning;  
+\- implementation;  
+\- risk management;  
+\- source system;  
+\- pattern;  
+\- case study.
 
-#### Audience
+\#\#\#\# Audience
 
 Who is this most useful for?
 
 Examples:
 
-- newcomer;  
-- individual contributor;  
-- local organizer;  
-- community steward;  
-- DAO operator;  
-- developer;  
-- researcher;  
-- funder;  
-- reviewer;  
-- civic partner;  
-- ecological practitioner;  
-- AI-native contributor.
+\- newcomer;  
+\- individual contributor;  
+\- local organizer;  
+\- community steward;  
+\- DAO operator;  
+\- developer;  
+\- researcher;  
+\- funder;  
+\- reviewer;  
+\- civic partner;  
+\- ecological practitioner;  
+\- AI-native contributor.
 
-#### Maturity
+\#\#\#\# Maturity
 
 How developed or reliable is it?
 
 Examples:
 
-- raw;  
-- stub;  
-- draft;  
-- candidate;  
-- source-linked;  
-- reviewed;  
-- field-informed;  
-- pattern-generating;  
-- deprecated;  
-- high-risk;  
-- open question.
+\- raw;  
+\- stub;  
+\- draft;  
+\- candidate;  
+\- source-linked;  
+\- reviewed;  
+\- field-informed;  
+\- pattern-generating;  
+\- deprecated;  
+\- high-risk;  
+\- open question.
 
-#### Scale
+\#\#\#\# Scale
 
 At what scale does it apply?
 
 Examples:
 
-- individual;  
-- pair;  
-- team;  
-- working group;  
-- organization;  
-- local node;  
-- network;  
-- bioregional;  
-- ecosystem;  
-- global.
+\- individual;  
+\- pair;  
+\- team;  
+\- working group;  
+\- organization;  
+\- local node;  
+\- network;  
+\- bioregional;  
+\- ecosystem;  
+\- global.
 
-#### Context
+\#\#\#\# Context
 
 Where or under what conditions does it apply?
 
 Examples:
 
-- online;  
-- local;  
-- urban;  
-- rural;  
-- bioregional;  
-- institutional;  
-- grassroots;  
-- hybrid;  
-- event-based;  
-- long-term network;  
-- field implementation.
+\- online;  
+\- local;  
+\- urban;  
+\- rural;  
+\- bioregional;  
+\- institutional;  
+\- grassroots;  
+\- hybrid;  
+\- event-based;  
+\- long-term network;  
+\- field implementation.
 
-#### Tech surface
+\#\#\#\# Tech surface
 
 What technical environment does it touch?
 
 Examples:
 
-- offchain;  
-- onchain;  
-- hybrid;  
-- Ethereum;  
-- L2;  
-- multi-chain;  
-- AI-assisted;  
-- graph-based;  
-- markdown-based;  
-- database-backed;  
-- geospatial;  
-- identity-related;  
-- privacy-sensitive.
+\- offchain;  
+\- onchain;  
+\- hybrid;  
+\- Ethereum;  
+\- L2;  
+\- multi-chain;  
+\- AI-assisted;  
+\- graph-based;  
+\- markdown-based;  
+\- database-backed;  
+\- geospatial;  
+\- identity-related;  
+\- privacy-sensitive.
 
-#### Stage
+\#\#\#\# Stage
 
 Where in a journey or lifecycle does it belong?
 
 Examples:
 
-- discover;  
-- orient;  
-- learn;  
-- map;  
-- compare;  
-- design;  
-- compose;  
-- deploy;  
-- implement;  
-- review;  
-- evolve;  
-- archive;  
-- compost.
+\- discover;  
+\- orient;  
+\- learn;  
+\- map;  
+\- compare;  
+\- design;  
+\- compose;  
+\- deploy;  
+\- implement;  
+\- review;  
+\- evolve;  
+\- archive;  
+\- compost.
 
-#### Forms of capital
+\#\#\#\# Forms of capital
 
 What forms of capital does it create, depend on, convert, strengthen, deplete, protect, or make visible?
 
 Examples:
 
-- financial;  
-- material / built;  
-- living / natural;  
-- social;  
-- intellectual;  
-- experiential;  
-- cultural;  
-- spiritual.
+\- financial;  
+\- material / built;  
+\- living / natural;  
+\- social;  
+\- intellectual;  
+\- experiential;  
+\- cultural;  
+\- spiritual.
 
 These should be used as classification fields, not root entity types.
 
@@ -3539,255 +3539,255 @@ The 8 Forms of Capital should expand what the Toolkit notices.
 
 They should not become a rigid metric system.
 
-#### Review sensitivity
+\#\#\#\# Review sensitivity
 
 What kind of review might be required?
 
 Examples:
 
-- source review;  
-- ontology review;  
-- technical review;  
-- ecological / MRV review;  
-- governance review;  
-- privacy / consent review;  
-- claims review;  
-- community review;  
-- token / incentive review;  
-- AI review;  
-- legal review.
+\- source review;  
+\- ontology review;  
+\- technical review;  
+\- ecological / MRV review;  
+\- governance review;  
+\- privacy / consent review;  
+\- claims review;  
+\- community review;  
+\- token / incentive review;  
+\- AI review;  
+\- legal review.
 
 This field is especially important for high-stakes content.
 
----
+\---
 
-### Minimum ontology rule
+\#\#\# Minimum ontology rule
 
 The Toolkit should use this rule:
 
-> Add a new type only when it changes routing, relationships, review needs, templates, permissions, deployment logic, or interface behavior.
+\> Add a new type only when it changes routing, relationships, review needs, templates, permissions, deployment logic, or interface behavior.
 
 Otherwise, use a tag, classification, subtype, or note.
 
 Examples:
 
-- \`Ecological\` is probably a domain tag.  
-- \`High-risk\` is probably a review classification.  
-- \`Tool\` may be a type because it has control, dependency, and usage relationships.  
-- \`Source System\` may be a type because it needs stewardship, reuse, attribution, currentness, and return-path fields.  
-- \`Track\` may be a type because it composes knowledge, options, resources, and deployment checks.  
-- \`Signal\` may be a type because it feeds Evolution.
+\- \`Ecological\` is probably a domain tag.  
+\- \`High-risk\` is probably a review classification.  
+\- \`Tool\` may be a type because it has control, dependency, and usage relationships.  
+\- \`Source System\` may be a type because it needs stewardship, reuse, attribution, currentness, and return-path fields.  
+\- \`Track\` may be a type because it composes knowledge, options, resources, and deployment checks.  
+\- \`Signal\` may be a type because it feeds Evolution.
 
 This rule helps prevent ontology sprawl.
 
----
+\---
 
-### Ontology governance
+\#\#\# Ontology governance
 
 The ontology should not evolve informally.
 
 It should have a lightweight change process.
 
-#### Change triggers
+\#\#\#\# Change triggers
 
 Ontology changes should be considered when:
 
-- repeated ambiguity blocks coordination;  
-- multiple contributors use the same term differently;  
-- a source system cannot be mapped cleanly;  
-- a deployment requires a distinction that does not exist;  
-- AI workflows repeatedly misclassify an object;  
-- review needs differ across object types;  
-- a tag is being used like a type;  
-- an implementation generates a new reusable distinction;  
-- an external ontology offers a better mapping;  
-- a term becomes obsolete, misleading, or harmful.
+\- repeated ambiguity blocks coordination;  
+\- multiple contributors use the same term differently;  
+\- a source system cannot be mapped cleanly;  
+\- a deployment requires a distinction that does not exist;  
+\- AI workflows repeatedly misclassify an object;  
+\- review needs differ across object types;  
+\- a tag is being used like a type;  
+\- an implementation generates a new reusable distinction;  
+\- an external ontology offers a better mapping;  
+\- a term becomes obsolete, misleading, or harmful.
 
-#### Change process
+\#\#\#\# Change process
 
 A lightweight process:
 
-1. Surface issue or ambiguity.  
-2. Name the affected object, type, relationship, or field.  
-3. Check whether it can be solved with a tag, subtype, or metadata field.  
-4. Check alignment with Octo / BKC and other relevant schemas.  
-5. Assess complexity cost.  
-6. Assess deployment or review usefulness.  
-7. Propose change.  
-8. Review with relevant stewards.  
-9. Accept, revise, reject, or preserve as open question.  
-10. Version the change.
+1\. Surface issue or ambiguity.  
+2\. Name the affected object, type, relationship, or field.  
+3\. Check whether it can be solved with a tag, subtype, or metadata field.  
+4\. Check alignment with Octo / BKC and other relevant schemas.  
+5\. Assess complexity cost.  
+6\. Assess deployment or review usefulness.  
+7\. Propose change.  
+8\. Review with relevant stewards.  
+9\. Accept, revise, reject, or preserve as open question.  
+10\. Version the change.
 
 This should be simple enough to use, but explicit enough to prevent silent drift.
 
-#### Ontology stewardship
+\#\#\#\# Ontology stewardship
 
 The ontology should be open to broad input but not edited casually as canonical structure.
 
 Suggested roles:
 
-- ontology steward;  
-- source-system steward;  
-- technical schema reviewer;  
-- domain reviewer;  
-- implementation reviewer;  
-- AI workflow reviewer;  
-- contributor proposing changes.
+\- ontology steward;  
+\- source-system steward;  
+\- technical schema reviewer;  
+\- domain reviewer;  
+\- implementation reviewer;  
+\- AI workflow reviewer;  
+\- contributor proposing changes.
 
 Anyone can propose additions, changes, mappings, deprecations, or unresolved questions.
 
 Canonical changes should be reviewed.
 
----
+\---
 
-### Open ontology questions
+\#\#\# Open ontology questions
 
 These questions should remain visible for future technical and community work.
 
-#### Alignment questions
+\#\#\#\# Alignment questions
 
-- Should Octo / BKC be the main base alignment?  
-- Which Octo predicates should be reused directly?  
-- Which Toolkit relationships require extension?  
-- Should SuperBenefit, OpenCivics, Schema.org, Wikidata, LinkML, or other systems be mapped?  
-- What is the minimum useful ontology for v0.1?
+\- Should Octo / BKC be the main base alignment?  
+\- Which Octo predicates should be reused directly?  
+\- Which Toolkit relationships require extension?  
+\- Should SuperBenefit, OpenCivics, Schema.org, Wikidata, LinkML, or other systems be mapped?  
+\- What is the minimum useful ontology for v0.1?
 
-#### Type questions
+\#\#\#\# Type questions
 
-- Is Resource a true ontology type or only an intake wrapper?  
-- Should Tool be a subtype of Artifact or a separate operational type?  
-- Should Mechanism map to Pattern, Protocol, or both?  
-- Should Track be a Playbook, Flow, Artifact, or Toolkit-specific type?  
-- Should Deployment and Implementation be separate root types?  
-- Should Signal map to Evidence, or remain separate because it feeds Evolution?  
-- Should Source System be a first-class type?  
-- Should Obligation, Risk, and Public-Use Boundary become types or fields?
+\- Is Resource a true ontology type or only an intake wrapper?  
+\- Should Tool be a subtype of Artifact or a separate operational type?  
+\- Should Mechanism map to Pattern, Protocol, or both?  
+\- Should Track be a Playbook, Flow, Artifact, or Toolkit-specific type?  
+\- Should Deployment and Implementation be separate root types?  
+\- Should Signal map to Evidence, or remain separate because it feeds Evolution?  
+\- Should Source System be a first-class type?  
+\- Should Obligation, Risk, and Public-Use Boundary become types or fields?
 
-#### Relationship questions
+\#\#\#\# Relationship questions
 
-- Which relationships are required for a minimum graph?  
-- Which relationships should be inferred by AI but marked candidate?  
-- Which relationships require human review?  
-- Which relationships imply structural risk or responsibility?  
-- Which relationships are too vague to be useful?
+\- Which relationships are required for a minimum graph?  
+\- Which relationships should be inferred by AI but marked candidate?  
+\- Which relationships require human review?  
+\- Which relationships imply structural risk or responsibility?  
+\- Which relationships are too vague to be useful?
 
-#### Review questions
+\#\#\#\# Review questions
 
-- What ontology changes require review?  
-- What can contributors add freely?  
-- How should deprecated terms be preserved?  
-- How should disagreements be represented?  
-- How should local language map to shared kernel terms?
+\- What ontology changes require review?  
+\- What can contributors add freely?  
+\- How should deprecated terms be preserved?  
+\- How should disagreements be represented?  
+\- How should local language map to shared kernel terms?
 
-#### Technical questions
+\#\#\#\# Technical questions
 
-- Should the ontology be represented in JSON-LD, LinkML, YAML, RDF, Markdown frontmatter, a graph database, or multiple formats?  
-- What fields are needed for AI-native classification and retrieval?  
-- What fields are needed for provenance and attribution?  
-- What fields are needed for deployment validation?  
-- What fields are needed for public-use boundaries?  
-- What fields are needed for source-system care?
+\- Should the ontology be represented in JSON-LD, LinkML, YAML, RDF, Markdown frontmatter, a graph database, or multiple formats?  
+\- What fields are needed for AI-native classification and retrieval?  
+\- What fields are needed for provenance and attribution?  
+\- What fields are needed for deployment validation?  
+\- What fields are needed for public-use boundaries?  
+\- What fields are needed for source-system care?
 
----
+\---
 
-### Practical v0.1 recommendation
+\#\#\# Practical v0.1 recommendation
 
 For v0.1, do not try to fully formalize everything.
 
 Start with a practical working model:
 
-#### Required for every entry
+\#\#\#\# Required for every entry
 
-- title;  
-- object type;  
-- short description;  
-- source or origin;  
-- status / maturity;  
-- related concepts;  
-- related resources or source systems;  
-- notes / open questions.
+\- title;  
+\- object type;  
+\- short description;  
+\- source or origin;  
+\- status / maturity;  
+\- related concepts;  
+\- related resources or source systems;  
+\- notes / open questions.
 
-#### Recommended for higher-value entries
+\#\#\#\# Recommended for higher-value entries
 
-- steward / contributor;  
-- domain;  
-- function;  
-- audience;  
-- scale;  
-- context;  
-- tech surface;  
-- related options;  
-- related tracks;  
-- related implementations;  
-- review needs;  
-- public-use boundary.
+\- steward / contributor;  
+\- domain;  
+\- function;  
+\- audience;  
+\- scale;  
+\- context;  
+\- tech surface;  
+\- related options;  
+\- related tracks;  
+\- related implementations;  
+\- review needs;  
+\- public-use boundary.
 
-#### Required for high-risk entries
+\#\#\#\# Required for high-risk entries
 
-- claim-evidence separation;  
-- source lineage;  
-- reviewer or review need;  
-- uncertainty;  
-- public-use boundary;  
-- consent or representation notes, if relevant;  
-- ecological / governance / legal / token / privacy review flag, if relevant.
+\- claim-evidence separation;  
+\- source lineage;  
+\- reviewer or review need;  
+\- uncertainty;  
+\- public-use boundary;  
+\- consent or representation notes, if relevant;  
+\- ecological / governance / legal / token / privacy review flag, if relevant.
 
 This keeps the ontology useful without making every entry heavy.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Ontology & Semantic Kernel is the shared meaning layer of the Toolkit.
 
 It should:
 
-- preserve a constrained interoperable core;  
-- align with Octo / BKC where useful;  
-- use CSIS as a structural integrity overlay, not a replacement ontology;  
-- distinguish types from tags;  
-- support Resource Graph, Encyclopedia, Option Library, Deployment, Tracks, Implementation Memory, Evolution, and Infrastructure;  
-- remain graph-compatible and AI-readable;  
-- remain human-governed;  
-- make ontology changes explicit and reviewable.
+\- preserve a constrained interoperable core;  
+\- align with Octo / BKC where useful;  
+\- use CSIS as a structural integrity overlay, not a replacement ontology;  
+\- distinguish types from tags;  
+\- support Resource Graph, Encyclopedia, Option Library, Deployment, Tracks, Implementation Memory, Evolution, and Infrastructure;  
+\- remain graph-compatible and AI-readable;  
+\- remain human-governed;  
+\- make ontology changes explicit and reviewable.
 
 The practical posture is:
 
-> Start small.    
-> Map carefully.    
-> Extend only when useful.    
-> Preserve uncertainty.    
-> Keep source lineage visible.    
-> Let implementation reveal what the ontology actually needs.
+\> Start small.    
+\> Map carefully.    
+\> Extend only when useful.    
+\> Preserve uncertainty.    
+\> Keep source lineage visible.    
+\> Let implementation reveal what the ontology actually needs.
 
 # 📖 Knowledge Commons / Encyclopedia
 
-## 6. Knowledge Commons / Encyclopedia
+\#\# 6\. Knowledge Commons / Encyclopedia
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Knowledge Commons / Encyclopedia is the explanatory and educational layer of the Toolkit.
 
 It helps answer:
 
-- What does this concept mean?  
-- Why does it matter?  
-- What is it often confused with?  
-- What frameworks help explain it?  
-- What domains does it belong to?  
-- What should someone read first?  
-- How does this idea relate to resources, options, tracks, deployments, implementations, and open questions?
+\- What does this concept mean?  
+\- Why does it matter?  
+\- What is it often confused with?  
+\- What frameworks help explain it?  
+\- What domains does it belong to?  
+\- What should someone read first?  
+\- How does this idea relate to resources, options, tracks, deployments, implementations, and open questions?
 
 This layer turns fragmented exposure into structured understanding.
 
 It should help people move from:
 
-- scattered links to coherent learning;  
-- isolated terms to shared vocabulary;  
-- abstract ideas to applied interpretation;  
-- web3 jargon to usable coordination literacy;  
-- regenerative aspiration to practical systems thinking;  
-- disconnected content to a navigable knowledge commons.
+\- scattered links to coherent learning;  
+\- isolated terms to shared vocabulary;  
+\- abstract ideas to applied interpretation;  
+\- web3 jargon to usable coordination literacy;  
+\- regenerative aspiration to practical systems thinking;  
+\- disconnected content to a navigable knowledge commons.
 
 The Encyclopedia is not the raw resource aggregation layer.    
 It is not the ontology.    
@@ -3798,9 +3798,9 @@ It is not the technical substrate.
 
 It is the place where concepts, frameworks, comparisons, guides, domains, anti-patterns, and open questions are explained.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 This layer is a living knowledge architecture.
 
@@ -3814,38 +3814,38 @@ The goal is not to finish the Encyclopedia immediately.
 
 The goal is to create enough structure that new entries can be added without making the knowledge commons harder to navigate.
 
----
+\---
 
-### Function
+\#\#\# Function
 
 The Encyclopedia exists to make the broader ecosystem intelligible without flattening it.
 
 Its functions include:
 
-- defining important concepts;  
-- explaining frameworks;  
-- comparing adjacent ideas;  
-- organizing knowledge into domains;  
-- supporting multiple audiences;  
-- reducing repeated explanatory labor;  
-- helping contributors share vocabulary;  
-- preserving plural perspectives where needed;  
-- distinguishing settled knowledge from exploratory knowledge;  
-- helping readers move from learning to design and implementation;  
-- supporting tracks, options, deployments, and implementation review.
+\- defining important concepts;  
+\- explaining frameworks;  
+\- comparing adjacent ideas;  
+\- organizing knowledge into domains;  
+\- supporting multiple audiences;  
+\- reducing repeated explanatory labor;  
+\- helping contributors share vocabulary;  
+\- preserving plural perspectives where needed;  
+\- distinguishing settled knowledge from exploratory knowledge;  
+\- helping readers move from learning to design and implementation;  
+\- supporting tracks, options, deployments, and implementation review.
 
 This layer should function as both:
 
-- a reference system;  
-- a navigable learning system.
+\- a reference system;  
+\- a navigable learning system.
 
 It should support quick orientation and deeper study.
 
----
+\---
 
-### Layer relations
+\#\#\# Layer relations
 
-#### Inputs into the Encyclopedia
+\#\#\#\# Inputs into the Encyclopedia
 
 The Encyclopedia receives material from:
 
@@ -3859,7 +3859,7 @@ The Encyclopedia receives material from:
 | Implementation & Learning Memory | Case-linked knowledge, examples, failures, adaptations, and field-informed lessons. |  
 | Evolution Layer | Missing topics, outdated explanations, unclear definitions, repeated confusion, and frontier questions. |
 
-#### Outputs from the Encyclopedia
+\#\#\#\# Outputs from the Encyclopedia
 
 The Encyclopedia supports:
 
@@ -3876,30 +3876,30 @@ The Encyclopedia explains.
 
 Other layers select, deploy, implement, validate, or update.
 
----
+\---
 
-### Boundary rule
+\#\#\# Boundary rule
 
 A page belongs primarily in the Encyclopedia if its main role is to:
 
-- explain;  
-- define;  
-- compare;  
-- orient;  
-- synthesize;  
-- contextualize;  
-- frame a concept, framework, domain, question, or tension.
+\- explain;  
+\- define;  
+\- compare;  
+\- orient;  
+\- synthesize;  
+\- contextualize;  
+\- frame a concept, framework, domain, question, or tension.
 
 A page probably belongs somewhere else if its main role is to:
 
-- list raw references;  
-- classify source systems;  
-- define formal ontology types;  
-- catalog reusable design components;  
-- specify deployment requirements;  
-- document a concrete implementation as the primary object;  
-- record a signal, issue, or update proposal;  
-- manage technical infrastructure.
+\- list raw references;  
+\- classify source systems;  
+\- define formal ontology types;  
+\- catalog reusable design components;  
+\- specify deployment requirements;  
+\- document a concrete implementation as the primary object;  
+\- record a signal, issue, or update proposal;  
+\- manage technical infrastructure.
 
 Examples:
 
@@ -3916,205 +3916,205 @@ Examples:
 
 The same topic may appear across multiple layers, but each layer should do a different job.
 
----
+\---
 
-### Core page types
+\#\#\# Core page types
 
 The Encyclopedia should support several kinds of entries.
 
-#### 1. Concept pages
+\#\#\#\# 1\. Concept pages
 
 Focused entries that define and orient around a concept.
 
 Examples:
 
-- governance;  
-- coordination;  
-- public goods;  
-- commons;  
-- decentralization;  
-- legitimacy;  
-- trust;  
-- incentives;  
-- resilience;  
-- attestation;  
-- knowledge commons;  
-- regenerative obligation;  
-- bioregionalism.
+\- governance;  
+\- coordination;  
+\- public goods;  
+\- commons;  
+\- decentralization;  
+\- legitimacy;  
+\- trust;  
+\- incentives;  
+\- resilience;  
+\- attestation;  
+\- knowledge commons;  
+\- regenerative obligation;  
+\- bioregionalism.
 
 Suggested structure:
 
-- definition;  
-- why it matters;  
-- common confusions;  
-- related concepts;  
-- relevant domains;  
-- related frameworks;  
-- related options;  
-- related cases;  
-- open questions;  
-- source lineage;  
-- maturity / review status.
+\- definition;  
+\- why it matters;  
+\- common confusions;  
+\- related concepts;  
+\- relevant domains;  
+\- related frameworks;  
+\- related options;  
+\- related cases;  
+\- open questions;  
+\- source lineage;  
+\- maturity / review status.
 
-#### 2. Framework pages
+\#\#\#\# 2\. Framework pages
 
 Entries for interpretive or analytical lenses.
 
 Examples:
 
-- Cynefin;  
-- CSIS;  
-- 8 Forms of Capital;  
-- Viable System Model;  
-- Theory of Change;  
-- Regenerative Development;  
-- Commons Theory;  
-- Pattern Language;  
-- Mechanism Design;  
-- Political Economy;  
-- Systems Thinking;  
-- Network Science.
+\- Cynefin;  
+\- CSIS;  
+\- 8 Forms of Capital;  
+\- Viable System Model;  
+\- Theory of Change;  
+\- Regenerative Development;  
+\- Commons Theory;  
+\- Pattern Language;  
+\- Mechanism Design;  
+\- Political Economy;  
+\- Systems Thinking;  
+\- Network Science.
 
 Suggested structure:
 
-- what the framework is;  
-- what problem it helps interpret;  
-- what it is useful for;  
-- what it is often confused with;  
-- how it relates to the Toolkit;  
-- related concepts;  
-- related options;  
-- related implementation examples;  
-- limitations;  
-- review status.
+\- what the framework is;  
+\- what problem it helps interpret;  
+\- what it is useful for;  
+\- what it is often confused with;  
+\- how it relates to the Toolkit;  
+\- related concepts;  
+\- related options;  
+\- related implementation examples;  
+\- limitations;  
+\- review status.
 
-#### 3. Comparison pages
+\#\#\#\# 3\. Comparison pages
 
 Entries comparing adjacent ideas, models, or approaches.
 
 Examples:
 
-- governance vs coordination;  
-- taxonomy vs ontology;  
-- public goods vs commons;  
-- grants vs retroPGF vs quadratic funding;  
-- decentralization vs federation vs local autonomy;  
-- DAO governance vs cooperative governance;  
-- attestation vs verification vs oracle;  
-- source vs source system;  
-- signal vs metric;  
-- track vs deployment;  
-- implementation vs pattern.
+\- governance vs coordination;  
+\- taxonomy vs ontology;  
+\- public goods vs commons;  
+\- grants vs retroPGF vs quadratic funding;  
+\- decentralization vs federation vs local autonomy;  
+\- DAO governance vs cooperative governance;  
+\- attestation vs verification vs oracle;  
+\- source vs source system;  
+\- signal vs metric;  
+\- track vs deployment;  
+\- implementation vs pattern.
 
 Suggested structure:
 
-- what is being compared;  
-- shared ground;  
-- key differences;  
-- where each is useful;  
-- common confusions;  
-- consequences of confusing them;  
-- related entries.
+\- what is being compared;  
+\- shared ground;  
+\- key differences;  
+\- where each is useful;  
+\- common confusions;  
+\- consequences of confusing them;  
+\- related entries.
 
 Comparison pages are important because the Toolkit contains many adjacent terms that are easy to blur.
 
-#### 4. Guide pages
+\#\#\#\# 4\. Guide pages
 
 Practical orientation pages that help readers navigate a domain, pathway, or part of the Toolkit.
 
 Examples:
 
-- introduction to regenerative web3;  
-- how the Toolkit layers fit together;  
-- how to use the Resource Graph;  
-- how to read an Option entry;  
-- how to move from learning to deployment;  
-- how to document an implementation;  
-- how to review an impact claim;  
-- how to contribute a new source system;  
-- how to use AI-assisted synthesis responsibly.
+\- introduction to regenerative web3;  
+\- how the Toolkit layers fit together;  
+\- how to use the Resource Graph;  
+\- how to read an Option entry;  
+\- how to move from learning to deployment;  
+\- how to document an implementation;  
+\- how to review an impact claim;  
+\- how to contribute a new source system;  
+\- how to use AI-assisted synthesis responsibly.
 
 Guide pages should orient without becoming deployment checklists unless they are explicitly moved into Deployment.
 
-#### 5. Case-linked knowledge pages
+\#\#\#\# 5\. Case-linked knowledge pages
 
 Explanatory pages anchored in real examples.
 
 Examples:
 
-- how a local node structure worked in practice;  
-- how a funding mechanism functioned in an actual round;  
-- how a documentation system supported coordination;  
-- how governance failure emerged in a specific case;  
-- how an ecological monitoring workflow created review challenges.
+\- how a local node structure worked in practice;  
+\- how a funding mechanism functioned in an actual round;  
+\- how a documentation system supported coordination;  
+\- how governance failure emerged in a specific case;  
+\- how an ecological monitoring workflow created review challenges.
 
 These pages bridge the Encyclopedia and Implementation Memory.
 
 They should preserve context and avoid overgeneralization.
 
-#### 6. Anti-pattern and failure pages
+\#\#\#\# 6\. Anti-pattern and failure pages
 
 Entries explaining recurring failure modes.
 
 Examples:
 
-- governance capture;  
-- token plutocracy;  
-- coordination overload;  
-- knowledge fragmentation;  
-- metric theater;  
-- grant dependency;  
-- hidden power;  
-- documentation decay;  
-- AI-mediated confusion;  
-- public impact overclaiming;  
-- local node drift;  
-- source extraction.
+\- governance capture;  
+\- token plutocracy;  
+\- coordination overload;  
+\- knowledge fragmentation;  
+\- metric theater;  
+\- grant dependency;  
+\- hidden power;  
+\- documentation decay;  
+\- AI-mediated confusion;  
+\- public impact overclaiming;  
+\- local node drift;  
+\- source extraction.
 
 Suggested structure:
 
-- what the failure looks like;  
-- common causes;  
-- early signals;  
-- related options or deployments;  
-- examples or cases;  
-- prevention strategies;  
-- unresolved questions.
+\- what the failure looks like;  
+\- common causes;  
+\- early signals;  
+\- related options or deployments;  
+\- examples or cases;  
+\- prevention strategies;  
+\- unresolved questions.
 
 The Encyclopedia should explain not only what people hope to build, but how systems commonly break.
 
-#### 7. Frontier / open-question pages
+\#\#\#\# 7\. Frontier / open-question pages
 
 Pages for unresolved, emerging, or exploratory areas.
 
 Examples:
 
-- AI as coordination infrastructure;  
-- decentralized ecological monitoring;  
-- place-based attestations;  
-- hybrid civic / web3 institutions;  
-- local currencies and movement finance;  
-- machine-readable governance;  
-- multi-organization ontology interoperability;  
-- regenerative data infrastructures;  
-- knowledge commons federation;  
-- source-system reciprocity.
+\- AI as coordination infrastructure;  
+\- decentralized ecological monitoring;  
+\- place-based attestations;  
+\- hybrid civic / web3 institutions;  
+\- local currencies and movement finance;  
+\- machine-readable governance;  
+\- multi-organization ontology interoperability;  
+\- regenerative data infrastructures;  
+\- knowledge commons federation;  
+\- source-system reciprocity.
 
 Suggested structure:
 
-- current understanding;  
-- why it matters;  
-- major tensions;  
-- candidate frameworks;  
-- adjacent experiments;  
-- open questions;  
-- review needs.
+\- current understanding;  
+\- why it matters;  
+\- major tensions;  
+\- candidate frameworks;  
+\- adjacent experiments;  
+\- open questions;  
+\- review needs.
 
 These pages should preserve inquiry rather than forcing premature certainty.
 
----
+\---
 
-### Entry metadata
+\#\#\# Entry metadata
 
 Each Encyclopedia entry should eventually include metadata so it can connect to the rest of the Toolkit.
 
@@ -4144,26 +4144,26 @@ Not every entry needs all fields immediately.
 
 But higher-risk or more public-facing entries need stronger metadata.
 
----
+\---
 
-### Knowledge posture
+\#\#\# Knowledge posture
 
 The Encyclopedia should hold different knowledge states without pretending they are the same.
 
 It should be able to hold:
 
-- stable definitions;  
-- competing interpretations;  
-- introductory explanations;  
-- advanced frameworks;  
-- rough stubs;  
-- source-linked drafts;  
-- AI-assisted drafts;  
-- reviewed pages;  
-- field-informed lessons;  
-- unresolved questions;  
-- deprecated concepts;  
-- anti-patterns and warnings.
+\- stable definitions;  
+\- competing interpretations;  
+\- introductory explanations;  
+\- advanced frameworks;  
+\- rough stubs;  
+\- source-linked drafts;  
+\- AI-assisted drafts;  
+\- reviewed pages;  
+\- field-informed lessons;  
+\- unresolved questions;  
+\- deprecated concepts;  
+\- anti-patterns and warnings.
 
 The Toolkit should not erase uncertainty to sound complete.
 
@@ -4171,18 +4171,18 @@ It should make uncertainty useful.
 
 A good Encyclopedia entry may say:
 
-- “This is the common definition.”  
-- “This is how web3 communities often use the term.”  
-- “This is how commons theorists may use it differently.”  
-- “This is still unresolved.”  
-- “This page is AI-assisted and needs review.”  
-- “This is safe as an explainer, but not as implementation guidance.”
+\- “This is the common definition.”  
+\- “This is how web3 communities often use the term.”  
+\- “This is how commons theorists may use it differently.”  
+\- “This is still unresolved.”  
+\- “This page is AI-assisted and needs review.”  
+\- “This is safe as an explainer, but not as implementation guidance.”
 
 This posture is especially important because the Toolkit connects fields that do not always share language: web3, public goods, ecology, governance, coordination theory, regenerative practice, localism, AI, and knowledge commons.
 
----
+\---
 
-## Core knowledge domains
+\#\# Core knowledge domains
 
 The following domain map should guide future Encyclopedia expansion.
 
@@ -4190,677 +4190,677 @@ This is not final.
 
 It is a working structure that preserves the depth of previous iterations while leaving room for new subtrees.
 
----
+\---
 
-### 0. Meta-foundation and orientation
+\#\#\# 0\. Meta-foundation and orientation
 
 This domain explains the knowledge system itself and the broader context of the Toolkit.
 
 Topics include:
 
-- purpose of the knowledge commons;  
-- knowledge as coordination infrastructure;  
-- documentation as memory and alignment;  
-- how the Toolkit layers relate;  
-- how to navigate by concept, domain, track, audience, resource, or case;  
-- epistemic posture;  
-- plurality of perspectives;  
-- canonical clarity where useful;  
-- disagreement preserved where useful;  
-- uncertainty and open questions;  
-- anti-extractive synthesis;  
-- human-AI knowledge work;  
-- public-use boundaries;  
-- maturity and review status.
+\- purpose of the knowledge commons;  
+\- knowledge as coordination infrastructure;  
+\- documentation as memory and alignment;  
+\- how the Toolkit layers relate;  
+\- how to navigate by concept, domain, track, audience, resource, or case;  
+\- epistemic posture;  
+\- plurality of perspectives;  
+\- canonical clarity where useful;  
+\- disagreement preserved where useful;  
+\- uncertainty and open questions;  
+\- anti-extractive synthesis;  
+\- human-AI knowledge work;  
+\- public-use boundaries;  
+\- maturity and review status.
 
 Relevant page candidates:
 
-- What is the Regen Knowledge Commons Toolkit?  
-- Knowledge as coordination infrastructure  
-- How to navigate the Toolkit  
-- What is a living knowledge commons?  
-- Why maturity labels matter  
-- Source lineage and regenerative obligation  
-- AI-assisted but human-governed knowledge systems
+\- What is the Regen Knowledge Commons Toolkit?  
+\- Knowledge as coordination infrastructure  
+\- How to navigate the Toolkit  
+\- What is a living knowledge commons?  
+\- Why maturity labels matter  
+\- Source lineage and regenerative obligation  
+\- AI-assisted but human-governed knowledge systems
 
----
+\---
 
-### 1. Concept spine
+\#\#\# 1\. Concept spine
 
 These are cross-cutting anchor concepts that connect the whole system.
 
-#### Governance
+\#\#\#\# Governance
 
 Topics:
 
-- authority;  
-- legitimacy;  
-- decision systems;  
-- consent;  
-- consensus;  
-- delegation;  
-- participation;  
-- representation;  
-- stewardship;  
-- governance capture;  
-- meta-governance.
+\- authority;  
+\- legitimacy;  
+\- decision systems;  
+\- consent;  
+\- consensus;  
+\- delegation;  
+\- participation;  
+\- representation;  
+\- stewardship;  
+\- governance capture;  
+\- meta-governance.
 
-#### Coordination
-
-Topics:
-
-- alignment of action;  
-- synchronization;  
-- communication systems;  
-- collaboration protocols;  
-- collective intelligence;  
-- coordination overhead;  
-- fragmentation;  
-- dependency management;  
-- handoffs;  
-- coordination failure.
-
-#### Power
+\#\#\#\# Coordination
 
 Topics:
 
-- formal power;  
-- informal power;  
-- infrastructure control;  
-- narrative power;  
-- agenda-setting power;  
-- influence vs authority;  
-- hidden centralization;  
-- power visibility;  
-- structural power;  
-- capture dynamics.
+\- alignment of action;  
+\- synchronization;  
+\- communication systems;  
+\- collaboration protocols;  
+\- collective intelligence;  
+\- coordination overhead;  
+\- fragmentation;  
+\- dependency management;  
+\- handoffs;  
+\- coordination failure.
 
-#### Value
-
-Topics:
-
-- value creation;  
-- value recognition;  
-- value capture;  
-- value distribution;  
-- public goods;  
-- commons;  
-- mutual aid;  
-- regenerative value;  
-- value pluralism;  
-- non-financial value.
-
-#### Incentives
+\#\#\#\# Power
 
 Topics:
 
-- intrinsic motivation;  
-- extrinsic motivation;  
-- token incentives;  
-- social incentives;  
-- behavioral shaping;  
-- reward systems;  
-- incentive misalignment;  
-- gaming and perverse incentives.
+\- formal power;  
+\- informal power;  
+\- infrastructure control;  
+\- narrative power;  
+\- agenda-setting power;  
+\- influence vs authority;  
+\- hidden centralization;  
+\- power visibility;  
+\- structural power;  
+\- capture dynamics.
 
-#### Trust
-
-Topics:
-
-- trust minimization;  
-- trust maximization;  
-- social trust;  
-- technical trust;  
-- verification;  
-- reputation;  
-- attestations;  
-- confidence;  
-- uncertainty;  
-- legitimacy and trust.
-
-#### Knowledge
+\#\#\#\# Value
 
 Topics:
 
-- knowledge capture;  
-- documentation;  
-- curation;  
-- memory;  
-- semantic drift;  
-- knowledge decay;  
-- synthesis;  
-- shared understanding;  
-- retrieval;  
-- knowledge graphs.
+\- value creation;  
+\- value recognition;  
+\- value capture;  
+\- value distribution;  
+\- public goods;  
+\- commons;  
+\- mutual aid;  
+\- regenerative value;  
+\- value pluralism;  
+\- non-financial value.
 
-#### Impact
-
-Topics:
-
-- outputs vs outcomes;  
-- contribution visibility;  
-- evidence;  
-- verification;  
-- ecological and social impact;  
-- impact claims;  
-- feedback from measurement.
-
-#### Resilience
+\#\#\#\# Incentives
 
 Topics:
 
-- redundancy;  
-- antifragility;  
-- safe-to-fail systems;  
-- adaptive capacity;  
-- fault tolerance;  
-- resilience across scales;  
-- failure containment.
+\- intrinsic motivation;  
+\- extrinsic motivation;  
+\- token incentives;  
+\- social incentives;  
+\- behavioral shaping;  
+\- reward systems;  
+\- incentive misalignment;  
+\- gaming and perverse incentives.
 
-#### Legibility
+\#\#\#\# Trust
 
 Topics:
 
-- structural legibility;  
-- semantic legibility;  
-- documentation legibility;  
-- institutional legibility;  
-- visibility of decisions;  
-- visibility of power;  
-- visibility of changes;  
-- interpretability across actors.
+\- trust minimization;  
+\- trust maximization;  
+\- social trust;  
+\- technical trust;  
+\- verification;  
+\- reputation;  
+\- attestations;  
+\- confidence;  
+\- uncertainty;  
+\- legitimacy and trust.
 
----
+\#\#\#\# Knowledge
 
-### 2. Systems thinking and complexity
+Topics:
+
+\- knowledge capture;  
+\- documentation;  
+\- curation;  
+\- memory;  
+\- semantic drift;  
+\- knowledge decay;  
+\- synthesis;  
+\- shared understanding;  
+\- retrieval;  
+\- knowledge graphs.
+
+\#\#\#\# Impact
+
+Topics:
+
+\- outputs vs outcomes;  
+\- contribution visibility;  
+\- evidence;  
+\- verification;  
+\- ecological and social impact;  
+\- impact claims;  
+\- feedback from measurement.
+
+\#\#\#\# Resilience
+
+Topics:
+
+\- redundancy;  
+\- antifragility;  
+\- safe-to-fail systems;  
+\- adaptive capacity;  
+\- fault tolerance;  
+\- resilience across scales;  
+\- failure containment.
+
+\#\#\#\# Legibility
+
+Topics:
+
+\- structural legibility;  
+\- semantic legibility;  
+\- documentation legibility;  
+\- institutional legibility;  
+\- visibility of decisions;  
+\- visibility of power;  
+\- visibility of changes;  
+\- interpretability across actors.
+
+\---
+
+\#\#\# 2\. Systems thinking and complexity
 
 This domain explains why coordination, governance, ecology, and public goods problems are rarely linear.
 
 Topics include:
 
-- systems;  
-- emergence;  
-- feedback loops;  
-- non-linearity;  
-- adaptation;  
-- leverage points;  
-- path dependence;  
-- interdependence;  
-- system boundaries;  
-- multi-scalar effects;  
-- complex adaptive systems;  
-- cybernetics;  
-- resilience thinking;  
-- self-organization;  
-- distributed cognition;  
-- thermodynamics and information;  
-- ecological systems thinking.
+\- systems;  
+\- emergence;  
+\- feedback loops;  
+\- non-linearity;  
+\- adaptation;  
+\- leverage points;  
+\- path dependence;  
+\- interdependence;  
+\- system boundaries;  
+\- multi-scalar effects;  
+\- complex adaptive systems;  
+\- cybernetics;  
+\- resilience thinking;  
+\- self-organization;  
+\- distributed cognition;  
+\- thermodynamics and information;  
+\- ecological systems thinking.
 
 Frameworks and references may include:
 
-- systems mapping;  
-- causal loop diagrams;  
-- Cynefin;  
-- Donella Meadows;  
-- Stafford Beer / Viable System Model;  
-- Gregory Bateson;  
-- Fritjof Capra;  
-- pattern languages;  
-- network analysis.
+\- systems mapping;  
+\- causal loop diagrams;  
+\- Cynefin;  
+\- Donella Meadows;  
+\- Stafford Beer / Viable System Model;  
+\- Gregory Bateson;  
+\- Fritjof Capra;  
+\- pattern languages;  
+\- network analysis.
 
 Toolkit implications:
 
-- coordination problems are rarely solved by single tools;  
-- architecture matters as much as intention;  
-- local adaptation must coexist with shared coherence;  
-- failure signals should be surfaced early;  
-- safe-to-fail probes are often better than premature standards;  
-- over-simple metrics can distort complex systems.
+\- coordination problems are rarely solved by single tools;  
+\- architecture matters as much as intention;  
+\- local adaptation must coexist with shared coherence;  
+\- failure signals should be surfaced early;  
+\- safe-to-fail probes are often better than premature standards;  
+\- over-simple metrics can distort complex systems.
 
----
+\---
 
-### 3. Economics, value, and capital
+\#\#\# 3\. Economics, value, and capital
 
 This domain explains value systems, economic coordination, and capital formation.
 
 Topics include:
 
-- money;  
-- currency;  
-- credit;  
-- debt;  
-- liquidity;  
-- asset vs flow;  
-- scarcity and abundance;  
-- market signals vs social need;  
-- public goods;  
-- commons;  
-- mutual aid;  
-- gift economies;  
-- solidarity economics;  
-- cooperative economics;  
-- regenerative economics;  
-- political economy;  
-- crypto-economic systems;  
-- local and bioregional economics;  
-- movement finance;  
-- endowments;  
-- non-extractive finance;  
-- capital formation;  
-- value capture and value leakage.
+\- money;  
+\- currency;  
+\- credit;  
+\- debt;  
+\- liquidity;  
+\- asset vs flow;  
+\- scarcity and abundance;  
+\- market signals vs social need;  
+\- public goods;  
+\- commons;  
+\- mutual aid;  
+\- gift economies;  
+\- solidarity economics;  
+\- cooperative economics;  
+\- regenerative economics;  
+\- political economy;  
+\- crypto-economic systems;  
+\- local and bioregional economics;  
+\- movement finance;  
+\- endowments;  
+\- non-extractive finance;  
+\- capital formation;  
+\- value capture and value leakage.
 
 Capital frameworks may include:
 
-- financial capital;  
-- material / built capital;  
-- living / natural capital;  
-- social capital;  
-- intellectual capital;  
-- experiential capital;  
-- cultural capital;  
-- spiritual capital.
+\- financial capital;  
+\- material / built capital;  
+\- living / natural capital;  
+\- social capital;  
+\- intellectual capital;  
+\- experiential capital;  
+\- cultural capital;  
+\- spiritual capital.
 
 Toolkit-specific tensions:
 
-- how value is recognized in decentralized systems;  
-- how local ecosystems form and retain capital;  
-- how non-financial value enters allocation systems;  
-- how tokens distort or clarify value;  
-- how regenerative claims interact with financialization;  
-- how funding systems avoid dependency and short-termism.
+\- how value is recognized in decentralized systems;  
+\- how local ecosystems form and retain capital;  
+\- how non-financial value enters allocation systems;  
+\- how tokens distort or clarify value;  
+\- how regenerative claims interact with financialization;  
+\- how funding systems avoid dependency and short-termism.
 
----
+\---
 
-### 4. Web3 and digital infrastructure
+\#\#\# 4\. Web3 and digital infrastructure
 
 This domain explains web3 concepts, tools, risks, and why they matter for regenerative coordination.
 
 Topics include:
 
-- blockchain;  
-- distributed ledgers;  
-- smart contracts;  
-- wallets;  
-- keys;  
-- cryptography;  
-- Ethereum;  
-- L2s;  
-- identity primitives;  
-- onchain / offchain interaction;  
-- decentralization;  
-- permissionlessness;  
-- credible neutrality;  
-- transparency;  
-- censorship resistance;  
-- composability;  
-- modularity;  
-- programmability;  
-- interoperability;  
-- trust surfaces.
+\- blockchain;  
+\- distributed ledgers;  
+\- smart contracts;  
+\- wallets;  
+\- keys;  
+\- cryptography;  
+\- Ethereum;  
+\- L2s;  
+\- identity primitives;  
+\- onchain / offchain interaction;  
+\- decentralization;  
+\- permissionlessness;  
+\- credible neutrality;  
+\- transparency;  
+\- censorship resistance;  
+\- composability;  
+\- modularity;  
+\- programmability;  
+\- interoperability;  
+\- trust surfaces.
 
 Mechanism-related infrastructure:
 
-- tokens;  
-- NFTs;  
-- attestations;  
-- DAOs;  
-- identity and reputation systems;  
-- treasury tooling;  
-- governance infrastructure;  
-- allocation infrastructure;  
-- oracles;  
-- decentralized storage;  
-- verifiable credentials.
+\- tokens;  
+\- NFTs;  
+\- attestations;  
+\- DAOs;  
+\- identity and reputation systems;  
+\- treasury tooling;  
+\- governance infrastructure;  
+\- allocation infrastructure;  
+\- oracles;  
+\- decentralized storage;  
+\- verifiable credentials.
 
 Limits and risks:
 
-- custody risk;  
-- security risk;  
-- governance theater;  
-- token overreach;  
-- speculative distortion;  
-- platform risk;  
-- UX friction;  
-- complexity overload;  
-- mismatch between tool and context;  
-- hidden admin control;  
-- social legitimacy gaps.
+\- custody risk;  
+\- security risk;  
+\- governance theater;  
+\- token overreach;  
+\- speculative distortion;  
+\- platform risk;  
+\- UX friction;  
+\- complexity overload;  
+\- mismatch between tool and context;  
+\- hidden admin control;  
+\- social legitimacy gaps.
 
 Why web3 matters here:
 
-- coordination infrastructure;  
-- programmable allocation;  
-- shared ledgers;  
-- verifiable claims;  
-- plural institutional design;  
-- translocal coordination;  
-- composable public infrastructure.
+\- coordination infrastructure;  
+\- programmable allocation;  
+\- shared ledgers;  
+\- verifiable claims;  
+\- plural institutional design;  
+\- translocal coordination;  
+\- composable public infrastructure.
 
----
+\---
 
-### 5. Governance, coordination, power, and institutional design
+\#\#\# 5\. Governance, coordination, power, and institutional design
 
 This domain explains how groups make decisions, coordinate action, distribute authority, and build institutions.
 
 Topics include:
 
-- governance vs management;  
-- governance vs coordination;  
-- legitimacy;  
-- authority;  
-- participation;  
-- representation;  
-- sovereignty;  
-- stewardship;  
-- governance layers;  
-- decision systems;  
-- proposal lifecycles;  
-- delegation;  
-- councils;  
-- dispute handling;  
-- emergency pathways;  
-- quorum and thresholds;  
-- review and ratification.
+\- governance vs management;  
+\- governance vs coordination;  
+\- legitimacy;  
+\- authority;  
+\- participation;  
+\- representation;  
+\- sovereignty;  
+\- stewardship;  
+\- governance layers;  
+\- decision systems;  
+\- proposal lifecycles;  
+\- delegation;  
+\- councils;  
+\- dispute handling;  
+\- emergency pathways;  
+\- quorum and thresholds;  
+\- review and ratification.
 
 Governance systems:
 
-- DAO governance;  
-- sociocracy;  
-- holacracy;  
-- cooperative governance;  
-- representative governance;  
-- federated governance;  
-- council systems;  
-- hybrid systems;  
-- institutionally anchored hybrids.
+\- DAO governance;  
+\- sociocracy;  
+\- holacracy;  
+\- cooperative governance;  
+\- representative governance;  
+\- federated governance;  
+\- council systems;  
+\- hybrid systems;  
+\- institutionally anchored hybrids.
 
 Coordination systems:
 
-- working groups;  
-- circles;  
-- guilds;  
-- pods;  
-- check-ins;  
-- retrospectives;  
-- async review;  
-- facilitation;  
-- role handoffs;  
-- dependency management;  
-- cross-org coordination.
+\- working groups;  
+\- circles;  
+\- guilds;  
+\- pods;  
+\- check-ins;  
+\- retrospectives;  
+\- async review;  
+\- facilitation;  
+\- role handoffs;  
+\- dependency management;  
+\- cross-org coordination.
 
 Institutional and organizational forms:
 
-- DAO;  
-- cooperative;  
-- nonprofit;  
-- foundation;  
-- association;  
-- company;  
-- hybrid organization;  
-- network-of-networks;  
-- local chapter / federation structures;  
-- fiscal sponsorship;  
-- steward ownership;  
-- data trusts;  
-- legal wrappers.
+\- DAO;  
+\- cooperative;  
+\- nonprofit;  
+\- foundation;  
+\- association;  
+\- company;  
+\- hybrid organization;  
+\- network-of-networks;  
+\- local chapter / federation structures;  
+\- fiscal sponsorship;  
+\- steward ownership;  
+\- data trusts;  
+\- legal wrappers.
 
 Power analysis:
 
-- formal vs informal power;  
-- information asymmetry;  
-- infrastructure control;  
-- treasury control;  
-- narrative control;  
-- hidden centralization;  
-- capture dynamics;  
-- legitimacy erosion;  
-- institutional opacity.
+\- formal vs informal power;  
+\- information asymmetry;  
+\- infrastructure control;  
+\- treasury control;  
+\- narrative control;  
+\- hidden centralization;  
+\- capture dynamics;  
+\- legitimacy erosion;  
+\- institutional opacity.
 
 Failure and tension points:
 
-- governance capture;  
-- voter apathy;  
-- authority ambiguity;  
-- coordination overload;  
-- hidden hierarchy;  
-- legitimacy collapse;  
-- fragmentation across nodes or teams;  
-- no escalation path.
+\- governance capture;  
+\- voter apathy;  
+\- authority ambiguity;  
+\- coordination overload;  
+\- hidden hierarchy;  
+\- legitimacy collapse;  
+\- fragmentation across nodes or teams;  
+\- no escalation path.
 
----
+\---
 
-### 6. Funding, allocation, treasury, and incentive systems
+\#\#\# 6\. Funding, allocation, treasury, and incentive systems
 
 This domain explains how resources are gathered, governed, distributed, and used to shape behavior.
 
 Funding systems:
 
-- grants;  
-- quadratic funding;  
-- retroPGF;  
-- conviction voting;  
-- direct grants;  
-- milestone-based funding;  
-- endowments;  
-- pooled funds;  
-- donations;  
-- memberships;  
-- revenue models;  
-- challenge prizes;  
-- procurement;  
-- local currencies;  
-- community exchange systems.
+\- grants;  
+\- quadratic funding;  
+\- retroPGF;  
+\- conviction voting;  
+\- direct grants;  
+\- milestone-based funding;  
+\- endowments;  
+\- pooled funds;  
+\- donations;  
+\- memberships;  
+\- revenue models;  
+\- challenge prizes;  
+\- procurement;  
+\- local currencies;  
+\- community exchange systems.
 
 Treasury systems:
 
-- multisigs;  
-- DAO treasuries;  
-- delegated treasury review;  
-- budget systems;  
-- sub-treasuries;  
-- reserve structures;  
-- capital diversification;  
-- shared treasury governance.
+\- multisigs;  
+\- DAO treasuries;  
+\- delegated treasury review;  
+\- budget systems;  
+\- sub-treasuries;  
+\- reserve structures;  
+\- capital diversification;  
+\- shared treasury governance.
 
 Allocation logic:
 
-- proposal review;  
-- participatory budgeting;  
-- delegated review;  
-- committee review;  
-- reputation-informed allocation;  
-- milestone release;  
-- domain-specific pools;  
-- challenge-based allocation;  
-- public goods rounds.
+\- proposal review;  
+\- participatory budgeting;  
+\- delegated review;  
+\- committee review;  
+\- reputation-informed allocation;  
+\- milestone release;  
+\- domain-specific pools;  
+\- challenge-based allocation;  
+\- public goods rounds.
 
 Incentive systems:
 
-- token incentives;  
-- reputation systems;  
-- bounties;  
-- non-financial recognition;  
-- hybrid compensation;  
-- symbolic systems;  
-- access-based incentives;  
-- retroactive rewards;  
-- contribution-linked credentials;  
-- dynamic NFTs;  
-- voucher systems.
+\- token incentives;  
+\- reputation systems;  
+\- bounties;  
+\- non-financial recognition;  
+\- hybrid compensation;  
+\- symbolic systems;  
+\- access-based incentives;  
+\- retroactive rewards;  
+\- contribution-linked credentials;  
+\- dynamic NFTs;  
+\- voucher systems.
 
 Distortions and failure modes:
 
-- farming;  
-- grant dependency;  
-- misaligned incentives;  
-- metric gaming;  
-- capital concentration;  
-- weak review;  
-- short-termism;  
-- extraction without contribution;  
-- speculative distortion;  
-- reward extraction without value creation.
+\- farming;  
+\- grant dependency;  
+\- misaligned incentives;  
+\- metric gaming;  
+\- capital concentration;  
+\- weak review;  
+\- short-termism;  
+\- extraction without contribution;  
+\- speculative distortion;  
+\- reward extraction without value creation.
 
----
+\---
 
-### 7. Knowledge systems, ontology, and documentation
+\#\#\# 7\. Knowledge systems, ontology, and documentation
 
 This domain explains how knowledge is captured, structured, retrieved, reviewed, and maintained.
 
 Topics include:
 
-- knowledge gardens;  
-- wikis;  
-- markdown systems;  
-- graph structures;  
-- knowledge hubs;  
-- searchable archives;  
-- curated pathways;  
-- documentation standards;  
-- decision logs;  
-- versioning;  
-- editorial workflows;  
-- source tracking;  
-- source lineage;  
-- canonical docs;  
-- review loops;  
-- update processes.
+\- knowledge gardens;  
+\- wikis;  
+\- markdown systems;  
+\- graph structures;  
+\- knowledge hubs;  
+\- searchable archives;  
+\- curated pathways;  
+\- documentation standards;  
+\- decision logs;  
+\- versioning;  
+\- editorial workflows;  
+\- source tracking;  
+\- source lineage;  
+\- canonical docs;  
+\- review loops;  
+\- update processes.
 
 Ontology and taxonomy topics:
 
-- classification;  
-- types vs tags;  
-- entities and relationships;  
-- semantic consistency;  
-- graph compatibility;  
-- crosswalks across systems;  
-- interoperability;  
-- ontological commoning;  
-- source systems;  
-- schema design.
+\- classification;  
+\- types vs tags;  
+\- entities and relationships;  
+\- semantic consistency;  
+\- graph compatibility;  
+\- crosswalks across systems;  
+\- interoperability;  
+\- ontological commoning;  
+\- source systems;  
+\- schema design.
 
 Retrieval and machine use:
 
-- structured metadata;  
-- RAG;  
-- GraphRAG;  
-- graph querying;  
-- semantic search;  
-- knowledge retrieval;  
-- ambiguity management;  
-- AI-readable architecture;  
-- source-aware synthesis;  
-- corpus design.
+\- structured metadata;  
+\- RAG;  
+\- GraphRAG;  
+\- graph querying;  
+\- semantic search;  
+\- knowledge retrieval;  
+\- ambiguity management;  
+\- AI-readable architecture;  
+\- source-aware synthesis;  
+\- corpus design.
 
 Risks:
 
-- semantic drift;  
-- duplicated categories;  
-- outdated docs;  
-- weak source control;  
-- poor discoverability;  
-- no stewardship model;  
-- fragmentation across teams or organizations;  
-- AI hallucination and false coherence.
+\- semantic drift;  
+\- duplicated categories;  
+\- outdated docs;  
+\- weak source control;  
+\- poor discoverability;  
+\- no stewardship model;  
+\- fragmentation across teams or organizations;  
+\- AI hallucination and false coherence.
 
----
+\---
 
-### 8. Social systems, culture, narrative, and community infrastructure
+\#\#\# 8\. Social systems, culture, narrative, and community infrastructure
 
 This domain explains community life, belonging, meaning-making, narrative, and social practices.
 
 Topics include:
 
-- participation;  
-- identity;  
-- belonging;  
-- commitment;  
-- retention;  
-- inclusion;  
-- role recognition;  
-- trust formation;  
-- storytelling;  
-- memetics;  
-- symbolic systems;  
-- movement language;  
-- framing;  
-- sensemaking;  
-- culture transmission;  
-- rituals;  
-- gatherings;  
-- onboarding rituals;  
-- retrospectives;  
-- peer recognition;  
-- contribution acknowledgment;  
-- community rhythms.
+\- participation;  
+\- identity;  
+\- belonging;  
+\- commitment;  
+\- retention;  
+\- inclusion;  
+\- role recognition;  
+\- trust formation;  
+\- storytelling;  
+\- memetics;  
+\- symbolic systems;  
+\- movement language;  
+\- framing;  
+\- sensemaking;  
+\- culture transmission;  
+\- rituals;  
+\- gatherings;  
+\- onboarding rituals;  
+\- retrospectives;  
+\- peer recognition;  
+\- contribution acknowledgment;  
+\- community rhythms.
 
 Culture as infrastructure:
 
-- norms;  
-- habits;  
-- interpretive frameworks;  
-- conflict handling;  
-- stewardship culture;  
-- emotional and relational load;  
-- coherence through shared practice;  
-- rituals of review and renewal.
+\- norms;  
+\- habits;  
+\- interpretive frameworks;  
+\- conflict handling;  
+\- stewardship culture;  
+\- emotional and relational load;  
+\- coherence through shared practice;  
+\- rituals of review and renewal.
 
 This domain matters because coordination does not happen only through tools and governance mechanisms.
 
 It happens through culture, trust, relationship, memory, rhythm, and shared meaning.
 
----
+\---
 
-### 9. Impact, evidence, verification, and measurement
+\#\#\# 9\. Impact, evidence, verification, and measurement
 
 This domain explains how impact is claimed, evidenced, verified, interpreted, and learned from.
 
 Core topics:
 
-- impact;  
-- outputs;  
-- outcomes;  
-- indicators;  
-- evidence;  
-- verification;  
-- contribution traceability;  
-- signal vs noise;  
-- claim-evidence discipline;  
-- qualitative and quantitative evidence;  
-- social vs technical verification;  
-- narrative vs measurable evidence.
+\- impact;  
+\- outputs;  
+\- outcomes;  
+\- indicators;  
+\- evidence;  
+\- verification;  
+\- contribution traceability;  
+\- signal vs noise;  
+\- claim-evidence discipline;  
+\- qualitative and quantitative evidence;  
+\- social vs technical verification;  
+\- narrative vs measurable evidence.
 
 Measurement systems:
 
-- KPI systems;  
-- CIDS;  
-- MRV;  
-- milestone reporting;  
-- attestations;  
-- dashboards;  
-- qualitative reflection;  
-- mixed-method assessment;  
-- third-party verification;  
-- peer review.
+\- KPI systems;  
+\- CIDS;  
+\- MRV;  
+\- milestone reporting;  
+\- attestations;  
+\- dashboards;  
+\- qualitative reflection;  
+\- mixed-method assessment;  
+\- third-party verification;  
+\- peer review.
 
 Common tensions:
 
-- measurement burden;  
-- what gets counted vs what matters;  
-- ecological complexity vs dashboard simplification;  
-- legitimacy of self-report;  
-- data quality vs usability;  
-- reporting disconnected from decision-making;  
-- overclaiming public impact;  
-- incentive distortion from measurement.
+\- measurement burden;  
+\- what gets counted vs what matters;  
+\- ecological complexity vs dashboard simplification;  
+\- legitimacy of self-report;  
+\- data quality vs usability;  
+\- reporting disconnected from decision-making;  
+\- overclaiming public impact;  
+\- incentive distortion from measurement.
 
 This domain is high-risk when connected to funding, ecological claims, public reporting, or governance decisions.
 
 Review status and public-use boundaries matter here.
 
----
+\---
 
-### 10. Environmental, local, and bioregional systems
+\#\#\# 10\. Environmental, local, and bioregional systems
 
 This domain is one of the Toolkit’s key differentiators.
 
@@ -4868,53 +4868,53 @@ The knowledge layer should not only explain generic web3 systems. It should supp
 
 Environmental applications:
 
-- agroforestry;  
-- biodiversity;  
-- ecological restoration;  
-- climate coordination;  
-- stewardship systems;  
-- regeneration monitoring;  
-- land-based contribution systems;  
-- invasive species management;  
-- watershed and soil health;  
-- community science.
+\- agroforestry;  
+\- biodiversity;  
+\- ecological restoration;  
+\- climate coordination;  
+\- stewardship systems;  
+\- regeneration monitoring;  
+\- land-based contribution systems;  
+\- invasive species management;  
+\- watershed and soil health;  
+\- community science.
 
 Local and bioregional systems:
 
-- local nodes;  
-- place-based coordination;  
-- bioregional identity;  
-- municipal partnerships;  
-- civic partnerships;  
-- land and territory context;  
-- local institutions;  
-- local support networks;  
-- community resilience;  
-- local resource flows;  
-- mutual aid.
+\- local nodes;  
+\- place-based coordination;  
+\- bioregional identity;  
+\- municipal partnerships;  
+\- civic partnerships;  
+\- land and territory context;  
+\- local institutions;  
+\- local support networks;  
+\- community resilience;  
+\- local resource flows;  
+\- mutual aid.
 
 Hybrid local / digital systems:
 
-- digital support for local coordination;  
-- translocal knowledge exchange;  
-- local action with networked infrastructure;  
-- place-linked data collection;  
-- verification across distributed actors;  
-- local-to-global reporting;  
-- regenerative data commons.
+\- digital support for local coordination;  
+\- translocal knowledge exchange;  
+\- local action with networked infrastructure;  
+\- place-linked data collection;  
+\- verification across distributed actors;  
+\- local-to-global reporting;  
+\- regenerative data commons.
 
 Care notes:
 
-- local knowledge is contextual;  
-- ecological claims need review;  
-- exact locations may be sensitive;  
-- community representation may require consent;  
-- practices may not transfer cleanly across places;  
-- digital abstraction should not override local specificity.
+\- local knowledge is contextual;  
+\- ecological claims need review;  
+\- exact locations may be sensitive;  
+\- community representation may require consent;  
+\- practices may not transfer cleanly across places;  
+\- digital abstraction should not override local specificity.
 
----
+\---
 
-### 11. AI, intelligence infrastructure, and machine-supported coordination
+\#\#\# 11\. AI, intelligence infrastructure, and machine-supported coordination
 
 This domain should be treated as a major subtree, not a side note.
 
@@ -4922,237 +4922,237 @@ AI is not only a tooling topic. It intersects with knowledge systems, ontology, 
 
 Core AI topics:
 
-- AI basics;  
-- model types;  
-- language models;  
-- retrieval systems;  
-- agentic systems;  
-- tool use;  
-- workflow automation;  
-- AI limitations;  
-- hallucination;  
-- uncertainty;  
-- interpretability;  
-- model governance.
+\- AI basics;  
+\- model types;  
+\- language models;  
+\- retrieval systems;  
+\- agentic systems;  
+\- tool use;  
+\- workflow automation;  
+\- AI limitations;  
+\- hallucination;  
+\- uncertainty;  
+\- interpretability;  
+\- model governance.
 
 AI and knowledge systems:
 
-- RAG architectures;  
-- semantic search;  
-- structured metadata;  
-- knowledge graphs;  
-- ontology-aware retrieval;  
-- corpus design;  
-- source lineage;  
-- synthesis pipelines;  
-- memory systems;  
-- machine-readable documentation.
+\- RAG architectures;  
+\- semantic search;  
+\- structured metadata;  
+\- knowledge graphs;  
+\- ontology-aware retrieval;  
+\- corpus design;  
+\- source lineage;  
+\- synthesis pipelines;  
+\- memory systems;  
+\- machine-readable documentation.
 
 AI and coordination:
 
-- AI as coordination support;  
-- summarization;  
-- synthesis;  
-- routing;  
-- recommendation;  
-- organizational memory;  
-- governance workflow support;  
-- project management;  
-- cross-org knowledge gardening.
+\- AI as coordination support;  
+\- summarization;  
+\- synthesis;  
+\- routing;  
+\- recommendation;  
+\- organizational memory;  
+\- governance workflow support;  
+\- project management;  
+\- cross-org knowledge gardening.
 
 AI and ontology:
 
-- ontology-aware querying;  
-- entity extraction;  
-- relation extraction;  
-- typed retrieval;  
-- graph-assisted generation;  
-- semantic normalization;  
-- ontology drift under AI use;  
-- human review in semantic systems.
+\- ontology-aware querying;  
+\- entity extraction;  
+\- relation extraction;  
+\- typed retrieval;  
+\- graph-assisted generation;  
+\- semantic normalization;  
+\- ontology drift under AI use;  
+\- human review in semantic systems.
 
 AI and governance:
 
-- proposal analysis;  
-- funding review support;  
-- documentation of decisions;  
-- deliberation support;  
-- dispute support;  
-- authority boundaries;  
-- accountability for machine-supported recommendations.
+\- proposal analysis;  
+\- funding review support;  
+\- documentation of decisions;  
+\- deliberation support;  
+\- dispute support;  
+\- authority boundaries;  
+\- accountability for machine-supported recommendations.
 
 AI and labor:
 
-- augmentation vs replacement;  
-- invisible review labor;  
-- editorial labor;  
-- stewardship labor;  
-- cognitive load shifting;  
-- maintenance under AI acceleration.
+\- augmentation vs replacement;  
+\- invisible review labor;  
+\- editorial labor;  
+\- stewardship labor;  
+\- cognitive load shifting;  
+\- maintenance under AI acceleration.
 
 AI and epistemics:
 
-- confidence vs correctness;  
-- synthetic coherence vs truth;  
-- source attribution;  
-- uncertainty communication;  
-- ambiguous concepts under model compression;  
-- induced semantic drift;  
-- model-mediated interpretation.
+\- confidence vs correctness;  
+\- synthetic coherence vs truth;  
+\- source attribution;  
+\- uncertainty communication;  
+\- ambiguous concepts under model compression;  
+\- induced semantic drift;  
+\- model-mediated interpretation.
 
 AI and local / regenerative contexts:
 
-- ecological monitoring support;  
-- local knowledge augmentation;  
-- translation and accessibility;  
-- multilingual knowledge gardening;  
-- place-based data synthesis;  
-- risks of abstraction overriding local specificity.
+\- ecological monitoring support;  
+\- local knowledge augmentation;  
+\- translation and accessibility;  
+\- multilingual knowledge gardening;  
+\- place-based data synthesis;  
+\- risks of abstraction overriding local specificity.
 
 Failure modes:
 
-- hallucination;  
-- over-centralization of interpretation;  
-- flattening disagreement;  
-- over-trust in model outputs;  
-- automation without accountability;  
-- loss of provenance;  
-- hidden bias in retrieval and synthesis;  
-- replacing judgment with interface convenience.
+\- hallucination;  
+\- over-centralization of interpretation;  
+\- flattening disagreement;  
+\- over-trust in model outputs;  
+\- automation without accountability;  
+\- loss of provenance;  
+\- hidden bias in retrieval and synthesis;  
+\- replacing judgment with interface convenience.
 
----
+\---
 
-### 12. Practical orientations and learning pathways
+\#\#\# 12\. Practical orientations and learning pathways
 
 These are knowledge-facing orientations within the Encyclopedia.
 
 They are not the same thing as full Tracks, but they can support tracks and help different users enter the system.
 
-#### Newcomer orientation
+\#\#\#\# Newcomer orientation
 
 Topics:
 
-- what web3 is;  
-- why coordination matters;  
-- basic governance;  
-- treasury basics;  
-- wallets and keys;  
-- key risks and misconceptions;  
-- common vocabulary;  
-- public goods;  
-- commons;  
-- regeneration basics.
+\- what web3 is;  
+\- why coordination matters;  
+\- basic governance;  
+\- treasury basics;  
+\- wallets and keys;  
+\- key risks and misconceptions;  
+\- common vocabulary;  
+\- public goods;  
+\- commons;  
+\- regeneration basics.
 
-#### Organizer orientation
-
-Topics:
-
-- community structure;  
-- decision systems;  
-- role design;  
-- funding and documentation;  
-- coordination patterns;  
-- power and accountability basics;  
-- onboarding;  
-- contributor flows;  
-- conflict and escalation.
-
-#### Builder orientation
+\#\#\#\# Organizer orientation
 
 Topics:
 
-- infrastructure;  
-- mechanism design;  
-- data and ontology;  
-- tool integration;  
-- system architecture;  
-- machine-readable knowledge;  
-- web3 primitives;  
-- AI-supported workflows.
+\- community structure;  
+\- decision systems;  
+\- role design;  
+\- funding and documentation;  
+\- coordination patterns;  
+\- power and accountability basics;  
+\- onboarding;  
+\- contributor flows;  
+\- conflict and escalation.
 
-#### Researcher orientation
-
-Topics:
-
-- frameworks;  
-- ontology;  
-- evidence;  
-- comparative systems;  
-- case-linked analysis;  
-- open questions;  
-- source systems;  
-- knowledge graph design.
-
-#### Local node / chapter orientation
+\#\#\#\# Builder orientation
 
 Topics:
 
-- place-based coordination;  
-- federation;  
-- autonomy boundaries;  
-- local resource flows;  
-- civic partnerships;  
-- documentation and reporting;  
-- community legitimacy;  
-- implementation constraints.
+\- infrastructure;  
+\- mechanism design;  
+\- data and ontology;  
+\- tool integration;  
+\- system architecture;  
+\- machine-readable knowledge;  
+\- web3 primitives;  
+\- AI-supported workflows.
 
-#### Funder / reviewer orientation
+\#\#\#\# Researcher orientation
 
 Topics:
 
-- impact evidence;  
-- public goods funding mechanisms;  
-- claim-evidence discipline;  
-- milestone review;  
-- funding risks;  
-- governance and power;  
-- accountability loops;  
-- avoiding metric theater.
+\- frameworks;  
+\- ontology;  
+\- evidence;  
+\- comparative systems;  
+\- case-linked analysis;  
+\- open questions;  
+\- source systems;  
+\- knowledge graph design.
 
----
+\#\#\#\# Local node / chapter orientation
 
-### 13. Failure, resilience, and anti-patterns
+Topics:
+
+\- place-based coordination;  
+\- federation;  
+\- autonomy boundaries;  
+\- local resource flows;  
+\- civic partnerships;  
+\- documentation and reporting;  
+\- community legitimacy;  
+\- implementation constraints.
+
+\#\#\#\# Funder / reviewer orientation
+
+Topics:
+
+\- impact evidence;  
+\- public goods funding mechanisms;  
+\- claim-evidence discipline;  
+\- milestone review;  
+\- funding risks;  
+\- governance and power;  
+\- accountability loops;  
+\- avoiding metric theater.
+
+\---
+
+\#\#\# 13\. Failure, resilience, and anti-patterns
 
 The Encyclopedia should preserve not only models and aspirations, but also anti-patterns, recurrent breakdowns, and lessons about how systems fail.
 
 Failure categories:
 
-- governance failure;  
-- coordination failure;  
-- documentation failure;  
-- semantic fragmentation;  
-- funding collapse;  
-- incentive misalignment;  
-- local node drift;  
-- implementation overload;  
-- AI-mediated confusion;  
-- ecological abstraction without place grounding;  
-- public impact overclaiming;  
-- knowledge extraction;  
-- hidden power concentration;  
-- source-system decay.
+\- governance failure;  
+\- coordination failure;  
+\- documentation failure;  
+\- semantic fragmentation;  
+\- funding collapse;  
+\- incentive misalignment;  
+\- local node drift;  
+\- implementation overload;  
+\- AI-mediated confusion;  
+\- ecological abstraction without place grounding;  
+\- public impact overclaiming;  
+\- knowledge extraction;  
+\- hidden power concentration;  
+\- source-system decay.
 
 Resilience strategies:
 
-- redundancy;  
-- role clarity;  
-- documentation discipline;  
-- bounded experimentation;  
-- review loops;  
-- semantic consistency;  
-- clear interfaces between layers;  
-- local adaptation with explicit boundaries;  
-- failure detection;  
-- public-use boundaries;  
-- source lineage;  
-- contributor care;  
-- stewardship continuity.
+\- redundancy;  
+\- role clarity;  
+\- documentation discipline;  
+\- bounded experimentation;  
+\- review loops;  
+\- semantic consistency;  
+\- clear interfaces between layers;  
+\- local adaptation with explicit boundaries;  
+\- failure detection;  
+\- public-use boundaries;  
+\- source lineage;  
+\- contributor care;  
+\- stewardship continuity.
 
 This domain matters because serious knowledge systems should teach people how things break, not only how they are supposed to work.
 
----
+\---
 
-### 14. Frontier questions and unresolved areas
+\#\#\# 14\. Frontier questions and unresolved areas
 
 This domain preserves inquiry.
 
@@ -5160,106 +5160,106 @@ Not everything should be flattened into a settled explanation.
 
 Open or emerging areas include:
 
-- multi-organization interoperability;  
-- AI-assisted knowledge gardening;  
-- place-based attestations;  
-- ecological verification;  
-- hybrid civic / web3 institutions;  
-- local currencies and movement finance;  
-- machine-readable governance;  
-- regenerative data infrastructures;  
-- translocal learning systems;  
-- source-system reciprocity;  
-- decentralized monitoring;  
-- commons federation;  
-- local-to-network knowledge flows;  
-- public-use boundaries for AI synthesis;  
-- CSIS-informed but non-conformant deployment review.
+\- multi-organization interoperability;  
+\- AI-assisted knowledge gardening;  
+\- place-based attestations;  
+\- ecological verification;  
+\- hybrid civic / web3 institutions;  
+\- local currencies and movement finance;  
+\- machine-readable governance;  
+\- regenerative data infrastructures;  
+\- translocal learning systems;  
+\- source-system reciprocity;  
+\- decentralized monitoring;  
+\- commons federation;  
+\- local-to-network knowledge flows;  
+\- public-use boundaries for AI synthesis;  
+\- CSIS-informed but non-conformant deployment review.
 
 This area should hold:
 
-- unresolved questions;  
-- emerging frameworks;  
-- candidate subtrees;  
-- draft ideas that need more work;  
-- places where community contribution is especially valuable.
+\- unresolved questions;  
+\- emerging frameworks;  
+\- candidate subtrees;  
+\- draft ideas that need more work;  
+\- places where community contribution is especially valuable.
 
 A good frontier page should make uncertainty visible and useful.
 
----
+\---
 
-### Distinctions from adjacent layers
+\#\#\# Distinctions from adjacent layers
 
-#### Encyclopedia vs Resource Graph
+\#\#\#\# Encyclopedia vs Resource Graph
 
 Resource Graph \= real-world entities, references, tools, source systems, maps, projects, and links.
 
 Encyclopedia \= explanatory knowledge about concepts, frameworks, domains, comparisons, and questions.
 
-#### Encyclopedia vs Ontology
+\#\#\#\# Encyclopedia vs Ontology
 
 Ontology \= semantic types, relationships, and classification logic.
 
 Encyclopedia \= human-readable explanation and learning.
 
-#### Encyclopedia vs Concept Ecology
+\#\#\#\# Encyclopedia vs Concept Ecology
 
 Concept Ecology \= idea lineages, tensions, paradigms, metaphors, and conceptual movements.
 
 Encyclopedia \= structured explanation of concepts and frameworks.
 
-#### Encyclopedia vs Option Library
+\#\#\#\# Encyclopedia vs Option Library
 
 Option Library \= reusable design components that can be selected, compared, and composed.
 
 Encyclopedia \= conceptual grounding for understanding those components.
 
-#### Encyclopedia vs Deployment
+\#\#\#\# Encyclopedia vs Deployment
 
 Deployment \= explicit structural requirements for real use.
 
 Encyclopedia \= explanation of the concepts behind those requirements.
 
-#### Encyclopedia vs Tracks
+\#\#\#\# Encyclopedia vs Tracks
 
 Tracks \= guided pathways across knowledge, resources, options, and deployment checks.
 
 Encyclopedia \= knowledge substrate that supports those pathways.
 
-#### Encyclopedia vs Implementation Memory
+\#\#\#\# Encyclopedia vs Implementation Memory
 
 Implementation Memory \= what happened in practice.
 
 Encyclopedia \= explanation, synthesis, and case-linked learning derived from or connected to practice.
 
----
+\---
 
-### Minimum rule for this layer
+\#\#\# Minimum rule for this layer
 
 A page belongs in the Encyclopedia if its main role is to:
 
-- explain;  
-- compare;  
-- orient;  
-- synthesize;  
-- contextualize;  
-- frame a concept, framework, domain, anti-pattern, or question.
+\- explain;  
+\- compare;  
+\- orient;  
+\- synthesize;  
+\- contextualize;  
+\- frame a concept, framework, domain, anti-pattern, or question.
 
 If its main role is to:
 
-- aggregate raw references;  
-- define reusable design components;  
-- specify structural validity conditions;  
-- type entities formally;  
-- document a concrete implementation as the primary object;  
-- record signals or updates;  
-- define technical infrastructure;
+\- aggregate raw references;  
+\- define reusable design components;  
+\- specify structural validity conditions;  
+\- type entities formally;  
+\- document a concrete implementation as the primary object;  
+\- record signals or updates;  
+\- define technical infrastructure;
 
 then it belongs primarily in another layer, even if it should be linked from the Encyclopedia.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Knowledge Commons / Encyclopedia is the Toolkit’s explanatory layer.
 
@@ -5267,12 +5267,12 @@ It should help people understand concepts, frameworks, domains, comparisons, gui
 
 It should remain:
 
-- structured but expandable;  
-- plural but not vague;  
-- accessible but not shallow;  
-- source-aware;  
-- review-aware;  
-- connected to resources, options, tracks, deployments, implementations, and evolution.
+\- structured but expandable;  
+\- plural but not vague;  
+\- accessible but not shallow;  
+\- source-aware;  
+\- review-aware;  
+\- connected to resources, options, tracks, deployments, implementations, and evolution.
 
 The Encyclopedia should not try to do every job.
 
@@ -5282,115 +5282,115 @@ The rest of the Toolkit can then help people map, choose, compose, deploy, imple
 
 # 🌐 Resource Graph & Ecosystem Atlas
 
-## **> ## Handoff Note — Preserve the Full Resource Graph Before Rewriting**
+## **\> \#\# Handoff Note — Preserve the Full Resource Graph Before Rewriting**
 
->
+\>
 
-> This Resource Graph & Ecosystem Atlas section contains a large amount of raw but potentially valuable material from previous iterations, including links, source systems, books, papers, tools, maps, organizations, social feeds, loose leads, implementation references, and failure cases.
+\> This Resource Graph & Ecosystem Atlas section contains a large amount of raw but potentially valuable material from previous iterations, including links, source systems, books, papers, tools, maps, organizations, social feeds, loose leads, implementation references, and failure cases.
 
->
+\>
 
-> \*\*Do not replace this section with a shorter synthesized version until the full resource inventory has been extracted, routed, and intentionally reviewed.\*\*
+\> \*\*Do not replace this section with a shorter synthesized version until the full resource inventory has been extracted, routed, and intentionally reviewed.\*\*
 
->
+\>
 
-> Recent cleanup attempts have shown that summarized versions can accidentally drop useful links and concrete references, especially from:
+\> Recent cleanup attempts have shown that summarized versions can accidentally drop useful links and concrete references, especially from:
 
->
+\>
 
-> - the full raw resource list;
+\> \- the full raw resource list;
 
-> - the Local ReFi / GreenPill Toolkit link aggregation;
+\> \- the Local ReFi / GreenPill Toolkit link aggregation;
 
-> - source-system candidates;
+\> \- source-system candidates;
 
-> - social curation surfaces;
+\> \- social curation surfaces;
 
-> - “Don’t Know” / loose lead pools;
+\> \- “Don’t Know” / loose lead pools;
 
-> - mapping and ecosystem atlas references;
+\> \- mapping and ecosystem atlas references;
 
-> - failure case references;
+\> \- failure case references;
 
-> - older Google Sheet-derived materials;
+\> \- older Google Sheet-derived materials;
 
-> - v2 prioritization notes;
+\> \- v2 prioritization notes;
 
-> - infrastructure, AI, MRV, localism, and governance tool references.
+\> \- infrastructure, AI, MRV, localism, and governance tool references.
 
->
+\>
 
-> For now, this section should be treated as a \*\*raw preservation layer\*\*, not a polished public registry.
+\> For now, this section should be treated as a \*\*raw preservation layer\*\*, not a polished public registry.
 
->
+\>
 
-> Inclusion in this section does \*\*not\*\* mean endorsement, approval, priority, currentness, or public-use readiness. It only means:
+\> Inclusion in this section does \*\*not\*\* mean endorsement, approval, priority, currentness, or public-use readiness. It only means:
 
->
+\>
 
-> > “This item may be relevant enough to preserve, classify, route, review, or intentionally remove later.”
+\> \> “This item may be relevant enough to preserve, classify, route, review, or intentionally remove later.”
 
->
+\>
 
-> Before compressing, deleting, or replacing any part of this section, future contributors should first create a structured inventory with fields such as:
+\> Before compressing, deleting, or replacing any part of this section, future contributors should first create a structured inventory with fields such as:
 
->
+\>
 
-> | Field | Purpose |
+\> | Field | Purpose |
 
-> |---|---|
+\> |---|---|
 
-> | Resource / lead name | Preserve the concrete thing. |
+\> | Resource / lead name | Preserve the concrete thing. |
 
-> | Link / reference | Preserve the URL, citation, or lookup clue. |
+\> | Link / reference | Preserve the URL, citation, or lookup clue. |
 
-> | Category | Rough domain or cluster. |
+\> | Category | Rough domain or cluster. |
 
-> | Type | Resource, source system, tool, book, paper, map, org, event, case, loose lead, etc. |
+\> | Type | Resource, source system, tool, book, paper, map, org, event, case, loose lead, etc. |
 
-> | Suggested route | Resource Graph, Source System Card, Encyclopedia, Option Library, Track, Deployment, Implementation Memory, Backlog, Archive. |
+\> | Suggested route | Resource Graph, Source System Card, Encyclopedia, Option Library, Track, Deployment, Implementation Memory, Backlog, Archive. |
 
-> | Status | Raw, recovered, source-system candidate, needs review, missing link, high-risk, duplicate possible, deprecated, remove candidate. |
+\> | Status | Raw, recovered, source-system candidate, needs review, missing link, high-risk, duplicate possible, deprecated, remove candidate. |
 
-> | Notes | Context, uncertainty, attribution, review needs, or why it was preserved. |
+\> | Notes | Context, uncertainty, attribution, review needs, or why it was preserved. |
 
->
+\>
 
-> The goal is not to keep every item forever.
+\> The goal is not to keep every item forever.
 
->
+\>
 
-> The goal is to avoid accidental knowledge loss before the material has been intentionally processed.
+\> The goal is to avoid accidental knowledge loss before the material has been intentionally processed.
 
->
+\>
 
-> Recommended next step:
+\> Recommended next step:
 
->
+\>
 
-> 1. Extract the full section into a table or spreadsheet.
+\> 1\. Extract the full section into a table or spreadsheet.
 
-> 2. Preserve all concrete links and named references.
+\> 2\. Preserve all concrete links and named references.
 
-> 3. Mark uncertain items as \`raw lead\` instead of deleting them.
+\> 3\. Mark uncertain items as \`raw lead\` instead of deleting them.
 
-> 4. Separate individual resources from source systems.
+\> 4\. Separate individual resources from source systems.
 
-> 5. Route items into the appropriate Toolkit layers.
+\> 5\. Route items into the appropriate Toolkit layers.
 
-> 6. Create Source System Cards only for priority living knowledge environments.
+\> 6\. Create Source System Cards only for priority living knowledge environments.
 
-> 7. Move low-priority or unresolved material into Backlog / Loose Leads.
+\> 7\. Move low-priority or unresolved material into Backlog / Loose Leads.
 
-> 8. Only then rewrite a cleaner narrative version of the Resource Graph & Ecosystem Atlas.
+\> 8\. Only then rewrite a cleaner narrative version of the Resource Graph & Ecosystem Atlas.
 
->
+\>
 
-> Until that happens, prefer \*\*preservation over compression\*\*.
+\> Until that happens, prefer \*\*preservation over compression\*\*.
 
->
+\>
 
-> A shorter narrative section can explain the purpose and structure of the Resource Graph, but it should not replace the full raw inventory.
+\> A shorter narrative section can explain the purpose and structure of the Resource Graph, but it should not replace the full raw inventory.
 
 ## 
 
@@ -7196,9 +7196,9 @@ The purpose is to help the ecosystem see itself, credit itself, connect itself, 
 
 # 🌺 Concept & Idea Ecology
 
-## 8. Concept & Idea Ecology
+\#\# 8\. Concept & Idea Ecology
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Concept & Idea Ecology layer helps the Toolkit understand where ideas come from, how they move, what they carry, what they conflict with, and how they change across communities.
 
@@ -7212,16 +7212,16 @@ The Concept & Idea Ecology maps the living movement of ideas.
 
 It helps answer:
 
-- Where did this idea come from?  
-- Which traditions, communities, or source systems shaped it?  
-- What assumptions does it carry?  
-- What metaphors does it use?  
-- What adjacent ideas does it overlap with?  
-- What tensions or contradictions should remain visible?  
-- What ideas are being merged too quickly?  
-- What ideas are being flattened by translation, summarization, or AI synthesis?  
-- What concepts are stable enough to define, and which should remain open?  
-- What paradigms are influencing the Toolkit’s architecture?
+\- Where did this idea come from?  
+\- Which traditions, communities, or source systems shaped it?  
+\- What assumptions does it carry?  
+\- What metaphors does it use?  
+\- What adjacent ideas does it overlap with?  
+\- What tensions or contradictions should remain visible?  
+\- What ideas are being merged too quickly?  
+\- What ideas are being flattened by translation, summarization, or AI synthesis?  
+\- What concepts are stable enough to define, and which should remain open?  
+\- What paradigms are influencing the Toolkit’s architecture?
 
 This layer prevents the Toolkit from treating concepts as static dictionary entries.
 
@@ -7229,125 +7229,125 @@ Many important terms in this project — regeneration, commons, governance, publ
 
 The Concept & Idea Ecology keeps that context visible.
 
----
+\---
 
-### Why this layer exists
+\#\#\# Why this layer exists
 
 The Toolkit brings together many fields:
 
-- regenerative design;  
-- web3;  
-- public goods;  
-- commons theory;  
-- localism;  
-- bioregionalism;  
-- civic infrastructure;  
-- ecological stewardship;  
-- governance;  
-- funding mechanisms;  
-- organizational design;  
-- systems thinking;  
-- AI;  
-- knowledge commons;  
-- source-system stewardship;  
-- implementation learning.
+\- regenerative design;  
+\- web3;  
+\- public goods;  
+\- commons theory;  
+\- localism;  
+\- bioregionalism;  
+\- civic infrastructure;  
+\- ecological stewardship;  
+\- governance;  
+\- funding mechanisms;  
+\- organizational design;  
+\- systems thinking;  
+\- AI;  
+\- knowledge commons;  
+\- source-system stewardship;  
+\- implementation learning.
 
 These fields do not always use the same words in the same way.
 
 A term like “commons” means different things in:
 
-- Ostrom-style commons governance;  
-- open-source software;  
-- Creative Commons licensing;  
-- web3 public goods;  
-- local mutual aid;  
-- land stewardship;  
-- knowledge commoning;  
-- digital infrastructure.
+\- Ostrom-style commons governance;  
+\- open-source software;  
+\- Creative Commons licensing;  
+\- web3 public goods;  
+\- local mutual aid;  
+\- land stewardship;  
+\- knowledge commoning;  
+\- digital infrastructure.
 
 A term like “decentralization” means different things in:
 
-- crypto infrastructure;  
-- political theory;  
-- organizational design;  
-- local governance;  
-- networks of local nodes;  
-- data architecture;  
-- identity systems.
+\- crypto infrastructure;  
+\- political theory;  
+\- organizational design;  
+\- local governance;  
+\- networks of local nodes;  
+\- data architecture;  
+\- identity systems.
 
 A term like “regeneration” means different things in:
 
-- ecological restoration;  
-- regenerative agriculture;  
-- regenerative development;  
-- ReFi;  
-- local community work;  
-- movement narrative;  
-- tokenized ecological finance.
+\- ecological restoration;  
+\- regenerative agriculture;  
+\- regenerative development;  
+\- ReFi;  
+\- local community work;  
+\- movement narrative;  
+\- tokenized ecological finance.
 
 If the Toolkit ignores these differences, it will create false clarity.
 
 If it preserves them well, it can become a stronger commons.
 
----
+\---
 
-### Function
+\#\#\# Function
 
 The Concept & Idea Ecology layer exists to:
 
-- map idea lineages;  
-- preserve conceptual plurality;  
-- identify tensions and contradictions;  
-- prevent premature standardization;  
-- support better Encyclopedia entries;  
-- support ontology decisions without collapsing local meaning;  
-- reveal where terms are overloaded;  
-- preserve metaphors and framing choices;  
-- track emerging concepts and frontier ideas;  
-- protect source systems from conceptual extraction;  
-- help AI-assisted synthesis avoid flattening disagreement;  
-- support regenerative, civic, ecological, and web3 translation work.
+\- map idea lineages;  
+\- preserve conceptual plurality;  
+\- identify tensions and contradictions;  
+\- prevent premature standardization;  
+\- support better Encyclopedia entries;  
+\- support ontology decisions without collapsing local meaning;  
+\- reveal where terms are overloaded;  
+\- preserve metaphors and framing choices;  
+\- track emerging concepts and frontier ideas;  
+\- protect source systems from conceptual extraction;  
+\- help AI-assisted synthesis avoid flattening disagreement;  
+\- support regenerative, civic, ecological, and web3 translation work.
 
 This layer helps the Toolkit become more than an organized archive.
 
 It helps the Toolkit become a living semantic ecology.
 
----
+\---
 
-### Relationship to adjacent layers
+\#\#\# Relationship to adjacent layers
 
-#### Concept Ecology vs Encyclopedia
+\#\#\#\# Concept Ecology vs Encyclopedia
 
 The Encyclopedia explains concepts clearly for readers.
 
 The Concept Ecology tracks:
 
-- origins;  
-- lineages;  
-- tensions;  
-- metaphors;  
-- conflicts;  
-- unresolved interpretations;  
-- shifts across communities.
+\- origins;  
+\- lineages;  
+\- tensions;  
+\- metaphors;  
+\- conflicts;  
+\- unresolved interpretations;  
+\- shifts across communities.
 
 Example:
 
-- Encyclopedia page: “What is regenerative finance?”  
-- Concept Ecology note: “How the meaning of ReFi shifts between carbon markets, local finance, web3 public goods, ecological restoration, and movement-building.”
+\- Encyclopedia page: “What is regenerative finance?”  
+\- Concept Ecology note: “How the meaning of ReFi shifts between carbon markets, local finance, web3 public goods, ecological restoration, and movement-building.”
 
-#### Concept Ecology vs Ontology
+\#\#\#\# Concept Ecology vs Ontology
 
 The Ontology asks:
 
-> What type of thing is this, and how does it relate to other things?
+\> What type of thing is this, and how does it relate to other things?
 
 The Concept Ecology asks:
 
-> What meanings, histories, assumptions, and tensions are carried by this term?
+\> What meanings, histories, assumptions, and tensions are carried by this term?
 
 Ontology should not force conceptual closure where the idea ecology is still unsettled.
 
-#### Concept Ecology vs Resource Graph
+\#\#\#\# Concept Ecology vs Resource Graph
 
 The Resource Graph maps sources and entities.
 
@@ -7355,10 +7355,10 @@ The Concept Ecology maps how ideas move through those sources.
 
 Example:
 
-- Resource Graph: Bloom Network, ReFi DAO, GreenPill, Gitcoin, Octo / BKC, OpenCivics.  
-- Concept Ecology: how “commons,” “regeneration,” “public goods,” “localism,” and “knowledge commoning” mean different things across those source systems.
+\- Resource Graph: Bloom Network, ReFi DAO, GreenPill, Gitcoin, Octo / BKC, OpenCivics.  
+\- Concept Ecology: how “commons,” “regeneration,” “public goods,” “localism,” and “knowledge commoning” mean different things across those source systems.
 
-#### Concept Ecology vs Option Library
+\#\#\#\# Concept Ecology vs Option Library
 
 The Option Library records reusable choices.
 
@@ -7366,10 +7366,10 @@ The Concept Ecology helps identify the worldview or assumptions behind those cho
 
 Example:
 
-- Option Library: quadratic funding.  
-- Concept Ecology: assumptions about preference aggregation, public goods, plural funding, legitimacy, and Sybil resistance.
+\- Option Library: quadratic funding.  
+\- Concept Ecology: assumptions about preference aggregation, public goods, plural funding, legitimacy, and Sybil resistance.
 
-#### Concept Ecology vs Deployment
+\#\#\#\# Concept Ecology vs Deployment
 
 Deployment asks what must be explicit before use.
 
@@ -7377,166 +7377,166 @@ Concept Ecology helps reveal when a deployment may be carrying hidden assumption
 
 Example:
 
-- A “local node” deployment may carry assumptions from web3 chapters, bioregional organizing, community hubs, municipal networks, or activist cells. These are not the same.
+\- A “local node” deployment may carry assumptions from web3 chapters, bioregional organizing, community hubs, municipal networks, or activist cells. These are not the same.
 
-#### Concept Ecology vs Evolution
+\#\#\#\# Concept Ecology vs Evolution
 
 The Evolution Layer updates the system based on signals.
 
 The Concept Ecology helps interpret semantic signals:
 
-- repeated confusion;  
-- terminology conflict;  
-- ideological drift;  
-- mismatch between local and network language;  
-- AI-generated flattening;  
-- concept overuse;  
-- false consensus.
+\- repeated confusion;  
+\- terminology conflict;  
+\- ideological drift;  
+\- mismatch between local and network language;  
+\- AI-generated flattening;  
+\- concept overuse;  
+\- false consensus.
 
----
+\---
 
-### Core objects in this layer
+\#\#\# Core objects in this layer
 
 Concept & Idea Ecology can include several object types.
 
-#### 1. Concept lineage
+\#\#\#\# 1\. Concept lineage
 
 A short map of where a concept comes from and how it entered the Toolkit.
 
 Example prompts:
 
-- What traditions shaped this concept?  
-- Which source systems use it?  
-- Which communities use it differently?  
-- What authors, movements, or practices are associated with it?  
-- What meaning did the Toolkit inherit?  
-- What meaning is being adapted?
+\- What traditions shaped this concept?  
+\- Which source systems use it?  
+\- Which communities use it differently?  
+\- What authors, movements, or practices are associated with it?  
+\- What meaning did the Toolkit inherit?  
+\- What meaning is being adapted?
 
-#### 2. Concept cluster
+\#\#\#\# 2\. Concept cluster
 
 A group of related concepts that should be understood together.
 
 Examples:
 
-- governance / coordination / management / facilitation / stewardship;  
-- public goods / commons / mutual aid / open source / civic infrastructure;  
-- regeneration / restoration / sustainability / resilience / adaptation;  
-- decentralization / federation / autonomy / subsidiarity / polycentricity;  
-- impact / evidence / verification / MRV / attribution / claims;  
-- token / incentive / reputation / value / capital;  
-- knowledge commons / ontology / source systems / AI retrieval / curation.
+\- governance / coordination / management / facilitation / stewardship;  
+\- public goods / commons / mutual aid / open source / civic infrastructure;  
+\- regeneration / restoration / sustainability / resilience / adaptation;  
+\- decentralization / federation / autonomy / subsidiarity / polycentricity;  
+\- impact / evidence / verification / MRV / attribution / claims;  
+\- token / incentive / reputation / value / capital;  
+\- knowledge commons / ontology / source systems / AI retrieval / curation.
 
-#### 3. Tension map
+\#\#\#\# 3\. Tension map
 
 A named unresolved tension between ideas, values, or system needs.
 
 Examples:
 
-- local autonomy vs shared coherence;  
-- openness vs consent;  
-- interoperability vs plural language;  
-- AI acceleration vs human review;  
-- legibility vs control;  
-- flexibility vs structural integrity;  
-- public impact claims vs evidence quality;  
-- token incentives vs intrinsic motivation;  
-- regeneration vs financialization;  
-- decentralization vs accountability;  
-- source aggregation vs source reciprocity.
+\- local autonomy vs shared coherence;  
+\- openness vs consent;  
+\- interoperability vs plural language;  
+\- AI acceleration vs human review;  
+\- legibility vs control;  
+\- flexibility vs structural integrity;  
+\- public impact claims vs evidence quality;  
+\- token incentives vs intrinsic motivation;  
+\- regeneration vs financialization;  
+\- decentralization vs accountability;  
+\- source aggregation vs source reciprocity.
 
-#### 4. Concept distinction
+\#\#\#\# 4\. Concept distinction
 
 A focused clarification between terms that are often confused.
 
 Examples:
 
-- resource vs source system;  
-- track vs deployment;  
-- implementation vs pattern;  
-- signal vs metric;  
-- ontology vs taxonomy;  
-- public goods vs commons;  
-- funding mechanism vs capital strategy;  
-- tool vs protocol;  
-- practice vs pattern;  
-- claim vs evidence;  
-- source-linked vs reviewed;  
-- AI-assisted vs human-reviewed.
+\- resource vs source system;  
+\- track vs deployment;  
+\- implementation vs pattern;  
+\- signal vs metric;  
+\- ontology vs taxonomy;  
+\- public goods vs commons;  
+\- funding mechanism vs capital strategy;  
+\- tool vs protocol;  
+\- practice vs pattern;  
+\- claim vs evidence;  
+\- source-linked vs reviewed;  
+\- AI-assisted vs human-reviewed.
 
 These may become Encyclopedia comparison pages.
 
-#### 5. Paradigm note
+\#\#\#\# 5\. Paradigm note
 
 A note about a worldview, theoretical tradition, or interpretive frame influencing the Toolkit.
 
 Examples:
 
-- commons theory;  
-- regenerative development;  
-- web3 public goods;  
-- bioregionalism;  
-- systems thinking;  
-- cybernetics;  
-- complexity science;  
-- political economy;  
-- cypherpunk;  
-- civic technology;  
-- open-source culture;  
-- knowledge commoning;  
-- cooperative economics;  
-- localism;  
-- AI-assisted collective intelligence.
+\- commons theory;  
+\- regenerative development;  
+\- web3 public goods;  
+\- bioregionalism;  
+\- systems thinking;  
+\- cybernetics;  
+\- complexity science;  
+\- political economy;  
+\- cypherpunk;  
+\- civic technology;  
+\- open-source culture;  
+\- knowledge commoning;  
+\- cooperative economics;  
+\- localism;  
+\- AI-assisted collective intelligence.
 
-#### 6. Metaphor note
+\#\#\#\# 6\. Metaphor note
 
 A note about a metaphor shaping interpretation.
 
 Examples:
 
-- knowledge garden;  
-- commons;  
-- swarm;  
-- atlas;  
-- graph;  
-- protocol;  
-- mycelium;  
-- regeneration;  
-- seed / compost / harvest;  
-- node;  
-- federation;  
-- kernel;  
-- substrate;  
-- signal;  
-- stewardship.
+\- knowledge garden;  
+\- commons;  
+\- swarm;  
+\- atlas;  
+\- graph;  
+\- protocol;  
+\- mycelium;  
+\- regeneration;  
+\- seed / compost / harvest;  
+\- node;  
+\- federation;  
+\- kernel;  
+\- substrate;  
+\- signal;  
+\- stewardship.
 
 Metaphors are useful, but they can also mislead.
 
 The Concept Ecology can preserve both their usefulness and limits.
 
-#### 7. Frontier concept
+\#\#\#\# 7\. Frontier concept
 
 A concept that appears important but is not yet stable enough for a canonical page.
 
 Examples:
 
-- regenerative obligation;  
-- source-system reciprocity;  
-- AI-native knowledge commons;  
-- local-to-network intelligence;  
-- public-use boundary;  
-- deployment validity;  
-- structural integrity overlay;  
-- epistemic-operational system;  
-- sensemaking substrate;  
-- knowledge commons assembly;  
-- bioregional public goods;  
-- implementation memory.
+\- regenerative obligation;  
+\- source-system reciprocity;  
+\- AI-native knowledge commons;  
+\- local-to-network intelligence;  
+\- public-use boundary;  
+\- deployment validity;  
+\- structural integrity overlay;  
+\- epistemic-operational system;  
+\- sensemaking substrate;  
+\- knowledge commons assembly;  
+\- bioregional public goods;  
+\- implementation memory.
 
 Frontier concepts should remain visible without being over-finalized.
 
----
+\---
 
-### Concept lineage template
+\#\#\# Concept lineage template
 
 A useful concept lineage entry may include:
 
@@ -7559,9 +7559,9 @@ Not every concept needs this.
 
 Use it for concepts that carry multiple traditions or recurring confusion.
 
----
+\---
 
-### Tension map template
+\#\#\# Tension map template
 
 A tension map may include:
 
@@ -7581,457 +7581,457 @@ The goal is not always to solve tensions.
 
 Some tensions are structural and must be held carefully.
 
----
+\---
 
-## Core concept clusters
+\#\# Core concept clusters
 
 The following clusters preserve key conceptual relationships for the Toolkit.
 
 They should guide future Encyclopedia entries, comparison pages, ontology mapping, option entries, and deployment review.
 
----
+\---
 
-### 1. Knowledge commons cluster
-
-Core concepts:
-
-- knowledge commons;  
-- knowledge garden;  
-- source system;  
-- curation;  
-- stewardship;  
-- ontology;  
-- taxonomy;  
-- metadata;  
-- graph;  
-- wiki;  
-- repository;  
-- documentation;  
-- source lineage;  
-- attribution;  
-- return path;  
-- AI-assisted synthesis;  
-- human review;  
-- public-use boundary;  
-- open question;  
-- compost;  
-- archive.
-
-Key tensions:
-
-- openness vs consent;  
-- clarity vs over-polishing;  
-- AI speed vs human review;  
-- source aggregation vs source reciprocity;  
-- interoperability vs local language;  
-- canonical structure vs living plurality;  
-- searchability vs context preservation.
-
-Questions:
-
-- How can the Toolkit aggregate knowledge without extracting from source systems?  
-- What should be treated as canonical, provisional, exploratory, or composted?  
-- How can AI help with knowledge gardening without becoming the authority?  
-- What metadata is enough to preserve source lineage without overwhelming contributors?
-
----
-
-### 2. Regeneration cluster
+\#\#\# 1\. Knowledge commons cluster
 
 Core concepts:
 
-- regeneration;  
-- restoration;  
-- sustainability;  
-- resilience;  
-- ecological stewardship;  
-- regenerative development;  
-- regenerative finance;  
-- natural capital;  
-- living systems;  
-- reciprocity;  
-- place-based practice;  
-- bioregion;  
-- land stewardship;  
-- ecosystem health;  
-- local knowledge;  
-- community science.
+\- knowledge commons;  
+\- knowledge garden;  
+\- source system;  
+\- curation;  
+\- stewardship;  
+\- ontology;  
+\- taxonomy;  
+\- metadata;  
+\- graph;  
+\- wiki;  
+\- repository;  
+\- documentation;  
+\- source lineage;  
+\- attribution;  
+\- return path;  
+\- AI-assisted synthesis;  
+\- human review;  
+\- public-use boundary;  
+\- open question;  
+\- compost;  
+\- archive.
 
 Key tensions:
 
-- regeneration vs sustainability;  
-- ecological complexity vs dashboard metrics;  
-- local specificity vs scalable templates;  
-- stewardship vs ownership;  
-- ecological care vs financialization;  
-- ReFi market logic vs regenerative development;  
-- public impact claims vs evidence quality.
+\- openness vs consent;  
+\- clarity vs over-polishing;  
+\- AI speed vs human review;  
+\- source aggregation vs source reciprocity;  
+\- interoperability vs local language;  
+\- canonical structure vs living plurality;  
+\- searchability vs context preservation.
 
 Questions:
 
-- What does regeneration mean in this Toolkit, and where should it remain plural?  
-- How can ecological claims be made responsibly?  
-- What should not be abstracted away from place?  
-- How should regenerative obligation shape source use and implementation learning?
+\- How can the Toolkit aggregate knowledge without extracting from source systems?  
+\- What should be treated as canonical, provisional, exploratory, or composted?  
+\- How can AI help with knowledge gardening without becoming the authority?  
+\- What metadata is enough to preserve source lineage without overwhelming contributors?
 
----
+\---
 
-### 3. Public goods and commons cluster
+\#\#\# 2\. Regeneration cluster
 
 Core concepts:
 
-- public goods;  
-- commons;  
-- commoning;  
-- mutual aid;  
-- open source;  
-- civic infrastructure;  
-- digital public goods;  
-- shared resources;  
-- stewardship;  
-- contribution;  
-- free riding;  
-- collective action;  
-- underfunding;  
-- enclosure;  
-- governance;  
-- legitimacy.
+\- regeneration;  
+\- restoration;  
+\- sustainability;  
+\- resilience;  
+\- ecological stewardship;  
+\- regenerative development;  
+\- regenerative finance;  
+\- natural capital;  
+\- living systems;  
+\- reciprocity;  
+\- place-based practice;  
+\- bioregion;  
+\- land stewardship;  
+\- ecosystem health;  
+\- local knowledge;  
+\- community science.
 
 Key tensions:
 
-- public goods vs commons;  
-- open access vs governed access;  
-- funding visibility vs contribution depth;  
-- public benefit vs local accountability;  
-- digital commons vs land-based commons;  
-- contribution recognition vs metric gaming;  
-- ecosystem-wide benefit vs project-level reporting.
+\- regeneration vs sustainability;  
+\- ecological complexity vs dashboard metrics;  
+\- local specificity vs scalable templates;  
+\- stewardship vs ownership;  
+\- ecological care vs financialization;  
+\- ReFi market logic vs regenerative development;  
+\- public impact claims vs evidence quality.
 
 Questions:
 
-- When should something be framed as a public good, commons, or shared infrastructure?  
-- How do web3 public goods funding systems inherit or distort commons logic?  
-- What governance is required for a commons, beyond funding?
+\- What does regeneration mean in this Toolkit, and where should it remain plural?  
+\- How can ecological claims be made responsibly?  
+\- What should not be abstracted away from place?  
+\- How should regenerative obligation shape source use and implementation learning?
 
----
+\---
 
-### 4. Governance, coordination, and power cluster
+\#\#\# 3\. Public goods and commons cluster
 
 Core concepts:
 
-- governance;  
-- coordination;  
-- management;  
-- facilitation;  
-- authority;  
-- legitimacy;  
-- consent;  
-- consensus;  
-- delegation;  
-- stewardship;  
-- accountability;  
-- decision rights;  
-- proposal flow;  
-- dispute handling;  
-- power visibility;  
-- formal power;  
-- informal power;  
-- infrastructure control;  
-- treasury control.
+\- public goods;  
+\- commons;  
+\- commoning;  
+\- mutual aid;  
+\- open source;  
+\- civic infrastructure;  
+\- digital public goods;  
+\- shared resources;  
+\- stewardship;  
+\- contribution;  
+\- free riding;  
+\- collective action;  
+\- underfunding;  
+\- enclosure;  
+\- governance;  
+\- legitimacy.
 
 Key tensions:
 
-- governance vs coordination;  
-- formal authority vs informal influence;  
-- decentralization vs accountability;  
-- speed vs legitimacy;  
-- local autonomy vs network coherence;  
-- openness vs responsibility;  
-- flatness vs hidden hierarchy;  
-- participation vs decision quality;  
-- consent vs paralysis;  
-- delegation vs capture.
+\- public goods vs commons;  
+\- open access vs governed access;  
+\- funding visibility vs contribution depth;  
+\- public benefit vs local accountability;  
+\- digital commons vs land-based commons;  
+\- contribution recognition vs metric gaming;  
+\- ecosystem-wide benefit vs project-level reporting.
 
 Questions:
 
-- How does the Toolkit distinguish governance from coordination?  
-- What forms of power need to be visible in deployments?  
-- How can local nodes remain autonomous without fragmenting the commons?  
-- What decision systems fit which contexts?
+\- When should something be framed as a public good, commons, or shared infrastructure?  
+\- How do web3 public goods funding systems inherit or distort commons logic?  
+\- What governance is required for a commons, beyond funding?
 
----
+\---
 
-### 5. Funding, value, and incentives cluster
+\#\#\# 4\. Governance, coordination, and power cluster
 
 Core concepts:
 
-- value;  
-- capital;  
-- funding;  
-- allocation;  
-- grants;  
-- quadratic funding;  
-- retroactive funding;  
-- conviction voting;  
-- treasury;  
-- incentives;  
-- tokens;  
-- reputation;  
-- bounties;  
-- endowments;  
-- local currencies;  
-- vouchers;  
-- impact claims;  
-- contribution recognition;  
-- capital formation.
+\- governance;  
+\- coordination;  
+\- management;  
+\- facilitation;  
+\- authority;  
+\- legitimacy;  
+\- consent;  
+\- consensus;  
+\- delegation;  
+\- stewardship;  
+\- accountability;  
+\- decision rights;  
+\- proposal flow;  
+\- dispute handling;  
+\- power visibility;  
+\- formal power;  
+\- informal power;  
+\- infrastructure control;  
+\- treasury control.
 
 Key tensions:
 
-- financial value vs non-financial value;  
-- recognition vs reward extraction;  
-- token incentives vs intrinsic motivation;  
-- metric visibility vs metric gaming;  
-- grant dependency vs sustainability;  
-- local capital retention vs global funding flows;  
-- impact funding vs impact theater;  
-- open participation vs Sybil resistance;  
-- capital allocation vs care work.
+\- governance vs coordination;  
+\- formal authority vs informal influence;  
+\- decentralization vs accountability;  
+\- speed vs legitimacy;  
+\- local autonomy vs network coherence;  
+\- openness vs responsibility;  
+\- flatness vs hidden hierarchy;  
+\- participation vs decision quality;  
+\- consent vs paralysis;  
+\- delegation vs capture.
 
 Questions:
 
-- How should the Toolkit compare funding mechanisms without treating them as interchangeable?  
-- What must be explicit before a funding mechanism is deployed?  
-- How can local ecosystems form and retain capital?  
-- How should non-financial forms of value be represented without forcing them into weak metrics?
+\- How does the Toolkit distinguish governance from coordination?  
+\- What forms of power need to be visible in deployments?  
+\- How can local nodes remain autonomous without fragmenting the commons?  
+\- What decision systems fit which contexts?
 
----
+\---
 
-### 6. Web3 infrastructure cluster
+\#\#\# 5\. Funding, value, and incentives cluster
 
 Core concepts:
 
-- blockchain;  
-- Ethereum;  
-- smart contracts;  
-- wallets;  
-- keys;  
-- DAOs;  
-- tokens;  
-- attestations;  
-- reputation;  
-- identity;  
-- oracles;  
-- decentralized storage;  
-- onchain / offchain;  
-- composability;  
-- interoperability;  
-- credible neutrality;  
-- trust minimization;  
-- censorship resistance;  
-- programmability.
+\- value;  
+\- capital;  
+\- funding;  
+\- allocation;  
+\- grants;  
+\- quadratic funding;  
+\- retroactive funding;  
+\- conviction voting;  
+\- treasury;  
+\- incentives;  
+\- tokens;  
+\- reputation;  
+\- bounties;  
+\- endowments;  
+\- local currencies;  
+\- vouchers;  
+\- impact claims;  
+\- contribution recognition;  
+\- capital formation.
 
 Key tensions:
 
-- trust minimization vs social trust;  
-- transparency vs privacy;  
-- decentralization vs usability;  
-- composability vs security risk;  
-- onchain permanence vs contextual consent;  
-- tokenization vs relational value;  
-- public ledgers vs sensitive local data;  
-- infrastructure neutrality vs power concentration.
+\- financial value vs non-financial value;  
+\- recognition vs reward extraction;  
+\- token incentives vs intrinsic motivation;  
+\- metric visibility vs metric gaming;  
+\- grant dependency vs sustainability;  
+\- local capital retention vs global funding flows;  
+\- impact funding vs impact theater;  
+\- open participation vs Sybil resistance;  
+\- capital allocation vs care work.
 
 Questions:
 
-- Which web3 primitives are useful for regenerative coordination?  
-- Which web3 tools create unnecessary complexity?  
-- What must be made explicit before using onchain tools in local or ecological contexts?  
-- How can attestations support evidence without replacing judgment?
+\- How should the Toolkit compare funding mechanisms without treating them as interchangeable?  
+\- What must be explicit before a funding mechanism is deployed?  
+\- How can local ecosystems form and retain capital?  
+\- How should non-financial forms of value be represented without forcing them into weak metrics?
 
----
+\---
 
-### 7. Localism and bioregional coordination cluster
+\#\#\# 6\. Web3 infrastructure cluster
 
 Core concepts:
 
-- local node;  
-- chapter;  
-- bioregion;  
-- place-based coordination;  
-- civic partnership;  
-- municipal interface;  
-- local economy;  
-- local knowledge;  
-- mutual aid;  
-- community hub;  
-- commons hub;  
-- local resource flows;  
-- translocal coordination;  
-- federation;  
-- subsidiarity;  
-- local autonomy;  
-- network coherence.
+\- blockchain;  
+\- Ethereum;  
+\- smart contracts;  
+\- wallets;  
+\- keys;  
+\- DAOs;  
+\- tokens;  
+\- attestations;  
+\- reputation;  
+\- identity;  
+\- oracles;  
+\- decentralized storage;  
+\- onchain / offchain;  
+\- composability;  
+\- interoperability;  
+\- credible neutrality;  
+\- trust minimization;  
+\- censorship resistance;  
+\- programmability.
 
 Key tensions:
 
-- local autonomy vs shared standards;  
-- local specificity vs replicability;  
-- physical place vs digital network;  
-- municipal partnership vs grassroots autonomy;  
-- bioregional identity vs administrative boundaries;  
-- local legitimacy vs network branding;  
-- documentation burden vs local action;  
-- external funding vs local self-determination.
+\- trust minimization vs social trust;  
+\- transparency vs privacy;  
+\- decentralization vs usability;  
+\- composability vs security risk;  
+\- onchain permanence vs contextual consent;  
+\- tokenization vs relational value;  
+\- public ledgers vs sensitive local data;  
+\- infrastructure neutrality vs power concentration.
 
 Questions:
 
-- What is a local node in this Toolkit?  
-- How does a local node differ from a chapter, hub, cell, or community?  
-- What should be shared across nodes and what should remain locally adaptive?  
-- How can local implementation feed translocal learning without extraction?
+\- Which web3 primitives are useful for regenerative coordination?  
+\- Which web3 tools create unnecessary complexity?  
+\- What must be made explicit before using onchain tools in local or ecological contexts?  
+\- How can attestations support evidence without replacing judgment?
 
----
+\---
 
-### 8. Impact, evidence, and verification cluster
+\#\#\# 7\. Localism and bioregional coordination cluster
 
 Core concepts:
 
-- impact;  
-- evidence;  
-- verification;  
-- measurement;  
-- MRV;  
-- indicators;  
-- outputs;  
-- outcomes;  
-- claims;  
-- attestations;  
-- dashboards;  
-- contribution traceability;  
-- public reporting;  
-- qualitative reflection;  
-- field evidence;  
-- community review.
+\- local node;  
+\- chapter;  
+\- bioregion;  
+\- place-based coordination;  
+\- civic partnership;  
+\- municipal interface;  
+\- local economy;  
+\- local knowledge;  
+\- mutual aid;  
+\- community hub;  
+\- commons hub;  
+\- local resource flows;  
+\- translocal coordination;  
+\- federation;  
+\- subsidiarity;  
+\- local autonomy;  
+\- network coherence.
 
 Key tensions:
 
-- what gets measured vs what matters;  
-- dashboard simplicity vs ecological complexity;  
-- self-report vs third-party verification;  
-- public claims vs uncertainty;  
-- funding accountability vs reporting burden;  
-- evidence quality vs usability;  
-- technical verification vs social legitimacy;  
-- impact storytelling vs impact overclaiming.
+\- local autonomy vs shared standards;  
+\- local specificity vs replicability;  
+\- physical place vs digital network;  
+\- municipal partnership vs grassroots autonomy;  
+\- bioregional identity vs administrative boundaries;  
+\- local legitimacy vs network branding;  
+\- documentation burden vs local action;  
+\- external funding vs local self-determination.
 
 Questions:
 
-- What kind of evidence is appropriate for which claim?  
-- When is a claim safe for public use?  
-- How can qualitative and quantitative evidence coexist?  
-- How should ecological claims be reviewed?  
-- How can measurement feed learning instead of becoming theater?
+\- What is a local node in this Toolkit?  
+\- How does a local node differ from a chapter, hub, cell, or community?  
+\- What should be shared across nodes and what should remain locally adaptive?  
+\- How can local implementation feed translocal learning without extraction?
 
----
+\---
 
-### 9. AI and intelligence infrastructure cluster
+\#\#\# 8\. Impact, evidence, and verification cluster
 
 Core concepts:
 
-- AI;  
-- LLMs;  
-- RAG;  
-- GraphRAG;  
-- knowledge retrieval;  
-- entity extraction;  
-- relationship extraction;  
-- AI-assisted synthesis;  
-- AI-assisted routing;  
-- collective intelligence;  
-- human review;  
-- hallucination;  
-- source lineage;  
-- model-mediated interpretation;  
-- AI governance;  
-- machine-readable documentation.
+\- impact;  
+\- evidence;  
+\- verification;  
+\- measurement;  
+\- MRV;  
+\- indicators;  
+\- outputs;  
+\- outcomes;  
+\- claims;  
+\- attestations;  
+\- dashboards;  
+\- contribution traceability;  
+\- public reporting;  
+\- qualitative reflection;  
+\- field evidence;  
+\- community review.
 
 Key tensions:
 
-- AI speed vs human judgment;  
-- synthetic coherence vs truth;  
-- summarization vs context loss;  
-- automation vs accountability;  
-- personalization vs privacy;  
-- AI-assisted review vs AI authority;  
-- graph structure vs living meaning;  
-- retrieval convenience vs source depth.
+\- what gets measured vs what matters;  
+\- dashboard simplicity vs ecological complexity;  
+\- self-report vs third-party verification;  
+\- public claims vs uncertainty;  
+\- funding accountability vs reporting burden;  
+\- evidence quality vs usability;  
+\- technical verification vs social legitimacy;  
+\- impact storytelling vs impact overclaiming.
 
 Questions:
 
-- What should AI be allowed to do in the Toolkit?  
-- What should AI never silently decide?  
-- How can AI-assisted synthesis preserve source lineage?  
-- What review states are needed for AI-generated classifications?  
-- How can AI support knowledge commons without centralizing interpretation?
+\- What kind of evidence is appropriate for which claim?  
+\- When is a claim safe for public use?  
+\- How can qualitative and quantitative evidence coexist?  
+\- How should ecological claims be reviewed?  
+\- How can measurement feed learning instead of becoming theater?
 
----
+\---
 
-### 10. Infrastructure and substrate cluster
+\#\#\# 9\. AI and intelligence infrastructure cluster
 
 Core concepts:
 
-- document;  
-- markdown;  
-- GitHub;  
-- wiki;  
-- site;  
-- database;  
-- graph;  
-- schema;  
-- API;  
-- frontmatter;  
-- JSON-LD;  
-- LinkML;  
-- RDF;  
-- RAG;  
-- decentralized storage;  
-- versioning;  
-- export;  
-- federation;  
-- portability;  
-- interface;  
-- annotation.
+\- AI;  
+\- LLMs;  
+\- RAG;  
+\- GraphRAG;  
+\- knowledge retrieval;  
+\- entity extraction;  
+\- relationship extraction;  
+\- AI-assisted synthesis;  
+\- AI-assisted routing;  
+\- collective intelligence;  
+\- human review;  
+\- hallucination;  
+\- source lineage;  
+\- model-mediated interpretation;  
+\- AI governance;  
+\- machine-readable documentation.
 
 Key tensions:
 
-- tool choice vs workflow clarity;  
-- human-readable vs machine-readable;  
-- simple docs vs structured database;  
-- central hosting vs federation;  
-- local control vs shared infrastructure;  
-- public access vs sensitive material;  
-- contributor ease vs technical rigor;  
-- portability vs platform convenience.
+\- AI speed vs human judgment;  
+\- synthetic coherence vs truth;  
+\- summarization vs context loss;  
+\- automation vs accountability;  
+\- personalization vs privacy;  
+\- AI-assisted review vs AI authority;  
+\- graph structure vs living meaning;  
+\- retrieval convenience vs source depth.
 
 Questions:
 
-- What should remain in docs?  
-- What should move into tables or schemas?  
-- What should be graph-native?  
-- What should be public, private, or staged?  
-- What infrastructure should wait until workflows stabilize?
+\- What should AI be allowed to do in the Toolkit?  
+\- What should AI never silently decide?  
+\- How can AI-assisted synthesis preserve source lineage?  
+\- What review states are needed for AI-generated classifications?  
+\- How can AI support knowledge commons without centralizing interpretation?
 
----
+\---
 
-## Important conceptual distinctions
+\#\#\# 10\. Infrastructure and substrate cluster
+
+Core concepts:
+
+\- document;  
+\- markdown;  
+\- GitHub;  
+\- wiki;  
+\- site;  
+\- database;  
+\- graph;  
+\- schema;  
+\- API;  
+\- frontmatter;  
+\- JSON-LD;  
+\- LinkML;  
+\- RDF;  
+\- RAG;  
+\- decentralized storage;  
+\- versioning;  
+\- export;  
+\- federation;  
+\- portability;  
+\- interface;  
+\- annotation.
+
+Key tensions:
+
+\- tool choice vs workflow clarity;  
+\- human-readable vs machine-readable;  
+\- simple docs vs structured database;  
+\- central hosting vs federation;  
+\- local control vs shared infrastructure;  
+\- public access vs sensitive material;  
+\- contributor ease vs technical rigor;  
+\- portability vs platform convenience.
+
+Questions:
+
+\- What should remain in docs?  
+\- What should move into tables or schemas?  
+\- What should be graph-native?  
+\- What should be public, private, or staged?  
+\- What infrastructure should wait until workflows stabilize?
+
+\---
+
+\#\# Important conceptual distinctions
 
 The following distinctions should be preserved throughout the Toolkit.
 
 They may become Encyclopedia comparison pages, ontology notes, or contributor guidance.
 
----
+\---
 
-### Resource vs Source System
+\#\#\# Resource vs Source System
 
 A resource is a useful item that has been surfaced.
 
@@ -8039,30 +8039,30 @@ A source system is a living knowledge environment that curates, maintains, organ
 
 A resource may be:
 
-- an article;  
-- a book;  
-- a tool;  
-- a dataset;  
-- a map;  
-- a project;  
-- a link.
+\- an article;  
+\- a book;  
+\- a tool;  
+\- a dataset;  
+\- a map;  
+\- a project;  
+\- a link.
 
 A source system may be:
 
-- a wiki;  
-- a repository;  
-- a documentation site;  
-- a maintained map;  
-- a community knowledge garden;  
-- a research database;  
-- a forum;  
-- a curated directory.
+\- a wiki;  
+\- a repository;  
+\- a documentation site;  
+\- a maintained map;  
+\- a community knowledge garden;  
+\- a research database;  
+\- a forum;  
+\- a curated directory.
 
 The distinction matters because source systems carry stewardship, update rhythms, attribution needs, reuse conditions, and possible return paths.
 
----
+\---
 
-### Ontology vs Taxonomy
+\#\#\# Ontology vs Taxonomy
 
 A taxonomy classifies.
 
@@ -8070,11 +8070,11 @@ An ontology defines types and relationships.
 
 Taxonomy helps answer:
 
-> What category does this belong to?
+\> What category does this belong to?
 
 Ontology helps answer:
 
-> What kind of thing is this, and how does it relate to other things?
+\> What kind of thing is this, and how does it relate to other things?
 
 The Toolkit needs both.
 
@@ -8082,9 +8082,9 @@ Taxonomy can support navigation and filtering.
 
 Ontology supports interoperability, graph structure, AI-readable retrieval, and cross-layer relationships.
 
----
+\---
 
-### Concept vs Framework
+\#\#\# Concept vs Framework
 
 A concept is a meaningful idea or term.
 
@@ -8092,18 +8092,18 @@ A framework is a structured interpretive model used to diagnose, explain, or des
 
 Examples:
 
-- “governance” is a concept;  
-- “Cynefin” is a framework;  
-- “public goods” is a concept;  
-- “8 Forms of Capital” is a framework;  
-- “coordination” is a concept;  
-- “CSIS” is a structural integrity framework.
+\- “governance” is a concept;  
+\- “Cynefin” is a framework;  
+\- “public goods” is a concept;  
+\- “8 Forms of Capital” is a framework;  
+\- “coordination” is a concept;  
+\- “CSIS” is a structural integrity framework.
 
 The distinction matters because frameworks often carry assumptions and should not be treated as neutral definitions.
 
----
+\---
 
-### Practice vs Pattern
+\#\#\# Practice vs Pattern
 
 A practice is something people do.
 
@@ -8111,16 +8111,16 @@ A pattern is a reusable abstraction derived from multiple practices or cases.
 
 Example:
 
-- “weekly coordination call” is a practice;  
-- “recurring alignment ritual” may be a pattern.
+\- “weekly coordination call” is a practice;  
+\- “recurring alignment ritual” may be a pattern.
 
 A single practice should not become a pattern too quickly.
 
 Patterns should preserve the conditions under which they work or fail.
 
----
+\---
 
-### Protocol vs Playbook
+\#\#\# Protocol vs Playbook
 
 A protocol defines a rule sequence or coordination procedure.
 
@@ -8128,16 +8128,16 @@ A playbook explains how to apply a protocol, pattern, or set of options in a con
 
 Example:
 
-- a proposal process is a protocol;  
-- a local chapter governance guide is a playbook.
+\- a proposal process is a protocol;  
+\- a local chapter governance guide is a playbook.
 
 A protocol can be precise.
 
 A playbook can be contextual.
 
----
+\---
 
-### Option vs Deployment
+\#\#\# Option vs Deployment
 
 An option is a reusable design choice.
 
@@ -8145,14 +8145,14 @@ A deployment is a specific configuration for use.
 
 Example:
 
-- quadratic funding is an option;  
-- a specific community funding round using QF with eligibility rules, reviewers, dispute process, treasury controls, and reporting requirements is a deployment.
+\- quadratic funding is an option;  
+\- a specific community funding round using QF with eligibility rules, reviewers, dispute process, treasury controls, and reporting requirements is a deployment.
 
 The distinction matters because options are not automatically safe or coherent in every context.
 
----
+\---
 
-### Track vs Deployment
+\#\#\# Track vs Deployment
 
 A track is a guided pathway across the Toolkit.
 
@@ -8160,16 +8160,16 @@ A deployment is a specific configuration in a real context.
 
 Example:
 
-- “Local Node Builder” may be a track;  
-- “GreenPill Brasil local node onboarding and governance flow for a specific season” may be a deployment.
+\- “Local Node Builder” may be a track;  
+\- “GreenPill Brasil local node onboarding and governance flow for a specific season” may be a deployment.
 
 Tracks prepare.
 
 Deployments specify.
 
----
+\---
 
-### Deployment vs Implementation
+\#\#\# Deployment vs Implementation
 
 A deployment is the specified structure.
 
@@ -8177,14 +8177,14 @@ An implementation is what actually happens.
 
 Example:
 
-- a funding round design is a deployment;  
-- the completed funding round, including participation, failures, adaptations, and outcomes, is an implementation.
+\- a funding round design is a deployment;  
+\- the completed funding round, including participation, failures, adaptations, and outcomes, is an implementation.
 
 Implementation Memory should record the gap between plan and reality.
 
----
+\---
 
-### Implementation vs Pattern
+\#\#\# Implementation vs Pattern
 
 An implementation is a case.
 
@@ -8194,15 +8194,15 @@ A successful implementation can suggest a pattern, but it does not automatically
 
 The Toolkit should preserve:
 
-- what happened;  
-- what context mattered;  
-- what was unique;  
-- what repeated elsewhere;  
-- what should not be generalized.
+\- what happened;  
+\- what context mattered;  
+\- what was unique;  
+\- what repeated elsewhere;  
+\- what should not be generalized.
 
----
+\---
 
-### Signal vs Metric
+\#\#\# Signal vs Metric
 
 A signal is an observed indicator that something may need interpretation.
 
@@ -8210,8 +8210,8 @@ A metric is a formalized measure.
 
 Example:
 
-- “contributors seem confused about proposal rights” is a signal;  
-- “average time-to-first-contribution” is a metric.
+\- “contributors seem confused about proposal rights” is a signal;  
+\- “average time-to-first-contribution” is a metric.
 
 Signals can be qualitative, weak, ambiguous, or early.
 
@@ -8219,9 +8219,9 @@ Metrics are more formal, but not always more meaningful.
 
 The Toolkit should use both.
 
----
+\---
 
-### Claim vs Evidence
+\#\#\# Claim vs Evidence
 
 A claim asserts something.
 
@@ -8229,14 +8229,14 @@ Evidence supports, opposes, or complicates a claim.
 
 Example:
 
-- Claim: “This local node improved coordination.”  
-- Evidence: meeting records, participant interviews, task completion logs, funding flows, implementation retrospectives.
+\- Claim: “This local node improved coordination.”  
+\- Evidence: meeting records, participant interviews, task completion logs, funding flows, implementation retrospectives.
 
 The distinction matters because public claims should not be made stronger than the evidence supports.
 
----
+\---
 
-### Public Goods vs Commons
+\#\#\# Public Goods vs Commons
 
 Public goods are generally non-excludable and non-rivalrous, or at least widely beneficial.
 
@@ -8248,9 +8248,9 @@ A commons can produce public goods.
 
 The Toolkit should avoid treating all public goods funding as commons governance.
 
----
+\---
 
-### Decentralization vs Federation vs Local Autonomy
+\#\#\# Decentralization vs Federation vs Local Autonomy
 
 Decentralization distributes control or architecture.
 
@@ -8264,9 +8264,9 @@ A system can be decentralized but not locally autonomous.
 A system can be federated but still have shared standards.    
 A system can claim decentralization while hiding admin or treasury control.
 
----
+\---
 
-### Regeneration vs Sustainability vs Restoration
+\#\#\# Regeneration vs Sustainability vs Restoration
 
 Sustainability often focuses on maintaining or reducing harm.
 
@@ -8278,9 +8278,9 @@ The Toolkit should not use these terms interchangeably.
 
 In ecological contexts, claims about regeneration require special care.
 
----
+\---
 
-### AI-assisted vs Human-reviewed
+\#\#\# AI-assisted vs Human-reviewed
 
 AI-assisted content has been supported by model-generated synthesis, classification, summarization, or drafting.
 
@@ -8292,47 +8292,47 @@ Human-reviewed does not mean perfect.
 
 But the distinction matters for trust, public-use boundaries, and accountability.
 
----
+\---
 
-## Concept Ecology practices
+\#\# Concept Ecology practices
 
 The Toolkit can maintain this layer through simple practices.
 
-### 1. Preserve overloaded terms
+\#\#\# 1\. Preserve overloaded terms
 
 When a term is used differently across communities, do not force immediate closure.
 
 Instead:
 
-- preserve the competing meanings;  
-- name which source systems use which meaning;  
-- clarify current Toolkit usage;  
-- add an open question if needed.
+\- preserve the competing meanings;  
+\- name which source systems use which meaning;  
+\- clarify current Toolkit usage;  
+\- add an open question if needed.
 
-### 2. Create comparison pages
+\#\#\# 2\. Create comparison pages
 
 When two ideas are repeatedly confused, create a comparison page or note.
 
 Examples:
 
-- public goods vs commons;  
-- taxonomy vs ontology;  
-- track vs deployment;  
-- tool vs protocol;  
-- signal vs metric.
+\- public goods vs commons;  
+\- taxonomy vs ontology;  
+\- track vs deployment;  
+\- tool vs protocol;  
+\- signal vs metric.
 
-### 3. Track conceptual drift
+\#\#\# 3\. Track conceptual drift
 
 If a term changes meaning over time, record the drift.
 
 Examples:
 
-- ReFi shifting from carbon markets to broader regenerative finance;  
-- public goods shifting from economic theory to web3 funding discourse;  
-- DAO shifting from technical governance to community brand;  
-- AI agent shifting from technical architecture to marketing label.
+\- ReFi shifting from carbon markets to broader regenerative finance;  
+\- public goods shifting from economic theory to web3 funding discourse;  
+\- DAO shifting from technical governance to community brand;  
+\- AI agent shifting from technical architecture to marketing label.
 
-### 4. Preserve tensions
+\#\#\# 4\. Preserve tensions
 
 Do not resolve all tensions prematurely.
 
@@ -8340,13 +8340,13 @@ Some tensions are productive and should guide design.
 
 Examples:
 
-- openness vs consent;  
-- interoperability vs local language;  
-- metrics vs meaning;  
-- speed vs stewardship;  
-- decentralization vs accountability.
+\- openness vs consent;  
+\- interoperability vs local language;  
+\- metrics vs meaning;  
+\- speed vs stewardship;  
+\- decentralization vs accountability.
 
-### 5. Treat metaphors carefully
+\#\#\# 5\. Treat metaphors carefully
 
 Metaphors are powerful because they help people understand.
 
@@ -8354,12 +8354,12 @@ They are risky because they can hide assumptions.
 
 Examples:
 
-- “knowledge garden” emphasizes growth and cultivation, but may hide governance and maintenance labor.  
-- “swarm” emphasizes distributed action, but may hide coordination costs and accountability.  
-- “protocol” emphasizes rules and interoperability, but may hide social context.  
-- “regeneration” emphasizes renewal, but may hide specific ecological evidence needs.
+\- “knowledge garden” emphasizes growth and cultivation, but may hide governance and maintenance labor.  
+\- “swarm” emphasizes distributed action, but may hide coordination costs and accountability.  
+\- “protocol” emphasizes rules and interoperability, but may hide social context.  
+\- “regeneration” emphasizes renewal, but may hide specific ecological evidence needs.
 
-### 6. Mark frontier concepts
+\#\#\# 6\. Mark frontier concepts
 
 Do not bury emerging concepts because they are not stable yet.
 
@@ -8367,31 +8367,31 @@ Mark them as frontier, candidate, or open.
 
 Examples:
 
-- regenerative obligation;  
-- source-system reciprocity;  
-- epistemic-operational system;  
-- deployment validity;  
-- public-use boundary;  
-- implementation memory;  
-- AI-native knowledge commons.
+\- regenerative obligation;  
+\- source-system reciprocity;  
+\- epistemic-operational system;  
+\- deployment validity;  
+\- public-use boundary;  
+\- implementation memory;  
+\- AI-native knowledge commons.
 
-### 7. Connect concepts to implementation
+\#\#\# 7\. Connect concepts to implementation
 
 Concept Ecology should not remain abstract.
 
 For important concepts, ask:
 
-- where has this appeared in practice?  
-- what implementation cases clarify it?  
-- what failures reveal its limits?  
-- what deployment checks does it imply?  
-- what options depend on it?
+\- where has this appeared in practice?  
+\- what implementation cases clarify it?  
+\- what failures reveal its limits?  
+\- what deployment checks does it imply?  
+\- what options depend on it?
 
----
+\---
 
-### Concept Ecology entry examples
+\#\#\# Concept Ecology entry examples
 
-#### Example: Regenerative obligation
+\#\#\#\# Example: Regenerative obligation
 
 Working meaning:
 
@@ -8399,38 +8399,38 @@ Regenerative obligation is the idea that when the Toolkit draws value from peopl
 
 Related concepts:
 
-- reciprocity;  
-- source lineage;  
-- attribution;  
-- consent;  
-- commons;  
-- stewardship;  
-- regeneration;  
-- anti-extractive synthesis;  
-- return paths.
+\- reciprocity;  
+\- source lineage;  
+\- attribution;  
+\- consent;  
+\- commons;  
+\- stewardship;  
+\- regeneration;  
+\- anti-extractive synthesis;  
+\- return paths.
 
 Tensions:
 
-- open knowledge vs community consent;  
-- use value vs return obligation;  
-- visibility vs extraction;  
-- public benefit vs source burden.
+\- open knowledge vs community consent;  
+\- use value vs return obligation;  
+\- visibility vs extraction;  
+\- public benefit vs source burden.
 
 Possible applications:
 
-- source-system cards;  
-- implementation case reviews;  
-- ecological knowledge handling;  
-- local community representation;  
-- AI-assisted synthesis boundaries.
+\- source-system cards;  
+\- implementation case reviews;  
+\- ecological knowledge handling;  
+\- local community representation;  
+\- AI-assisted synthesis boundaries.
 
 Status:
 
-- frontier concept;  
-- useful enough to preserve;  
-- needs further refinement and examples.
+\- frontier concept;  
+\- useful enough to preserve;  
+\- needs further refinement and examples.
 
-#### Example: Source system
+\#\#\#\# Example: Source system
 
 Working meaning:
 
@@ -8438,37 +8438,37 @@ A source system is a living knowledge environment that curates, maintains, organ
 
 Related concepts:
 
-- resource;  
-- provenance;  
-- attribution;  
-- return path;  
-- stewardship;  
-- knowledge commons;  
-- source lineage;  
-- currentness;  
-- reuse conditions.
+\- resource;  
+\- provenance;  
+\- attribution;  
+\- return path;  
+\- stewardship;  
+\- knowledge commons;  
+\- source lineage;  
+\- currentness;  
+\- reuse conditions.
 
 Tensions:
 
-- easy aggregation vs non-extractive relationship;  
-- source visibility vs maintenance burden;  
-- openness vs license/consent;  
-- static citation vs living system.
+\- easy aggregation vs non-extractive relationship;  
+\- source visibility vs maintenance burden;  
+\- openness vs license/consent;  
+\- static citation vs living system.
 
 Possible applications:
 
-- Resource Graph;  
-- Source System Registry;  
-- Swarm context;  
-- AI retrieval;  
-- public-use boundaries.
+\- Resource Graph;  
+\- Source System Registry;  
+\- Swarm context;  
+\- AI retrieval;  
+\- public-use boundaries.
 
 Status:
 
-- strong candidate Toolkit type;  
-- should be tested through real Source System Cards.
+\- strong candidate Toolkit type;  
+\- should be tested through real Source System Cards.
 
-#### Example: Deployment validity
+\#\#\#\# Example: Deployment validity
 
 Working meaning:
 
@@ -8476,52 +8476,52 @@ Deployment validity means a selected configuration is explicit enough to be revi
 
 Related concepts:
 
-- deployment;  
-- option;  
-- track;  
-- decision system;  
-- information requirements;  
-- power visibility;  
-- accountability;  
-- failure detection;  
-- structural classification;  
-- CSIS-informed review.
+\- deployment;  
+\- option;  
+\- track;  
+\- decision system;  
+\- information requirements;  
+\- power visibility;  
+\- accountability;  
+\- failure detection;  
+\- structural classification;  
+\- CSIS-informed review.
 
 Tensions:
 
-- flexibility vs structural clarity;  
-- informal trust vs explicit design;  
-- speed vs safety;  
-- local adaptation vs shared standards.
+\- flexibility vs structural clarity;  
+\- informal trust vs explicit design;  
+\- speed vs safety;  
+\- local adaptation vs shared standards.
 
 Possible applications:
 
-- Deployment templates;  
-- Track review;  
-- Option Library constraints;  
-- implementation retrospectives.
+\- Deployment templates;  
+\- Track review;  
+\- Option Library constraints;  
+\- implementation retrospectives.
 
 Status:
 
-- important operational concept;  
-- should be tested through actual deployments.
+\- important operational concept;  
+\- should be tested through actual deployments.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 Concept & Idea Ecology is the Toolkit’s layer for preserving the living context of ideas.
 
 It maps:
 
-- lineages;  
-- clusters;  
-- tensions;  
-- distinctions;  
-- metaphors;  
-- paradigms;  
-- frontier concepts;  
-- conceptual drift.
+\- lineages;  
+\- clusters;  
+\- tensions;  
+\- distinctions;  
+\- metaphors;  
+\- paradigms;  
+\- frontier concepts;  
+\- conceptual drift.
 
 Its role is not to replace the Encyclopedia or Ontology.
 
@@ -8531,29 +8531,29 @@ This layer helps the Toolkit stay plural, source-aware, context-sensitive, and h
 
 # 📚 Option Library
 
-## 9. Option Library
+\#\# 9\. Option Library
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Option Library is the reusable design component layer of the Toolkit.
 
 It helps answer:
 
-- What can be used to build a system?
+\- What can be used to build a system?
 
-- What governance, coordination, funding, documentation, measurement, incentive, infrastructure, or implementation options are available?
+\- What governance, coordination, funding, documentation, measurement, incentive, infrastructure, or implementation options are available?
 
-- What are the tradeoffs?
+\- What are the tradeoffs?
 
-- What conditions are required?
+\- What conditions are required?
 
-- What risks and failure modes are known?
+\- What risks and failure modes are known?
 
-- What options are commonly paired together?
+\- What options are commonly paired together?
 
-- What options should not be combined without additional review?
+\- What options should not be combined without additional review?
 
-- Which options are mature, experimental, high-risk, or context-specific?
+\- Which options are mature, experimental, high-risk, or context-specific?
 
 The Option Library turns knowledge into selectable design space.
 
@@ -8579,31 +8579,31 @@ An option is not automatically deployment-ready.
 
 An option becomes usable only when it is selected for a context and its structural conditions are made explicit.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 This layer should be treated as a working design library.
 
 Previous iterations already surfaced strong Option Library categories, including:
 
-- governance options;
+\- governance options;
 
-- coordination options;
+\- coordination options;
 
-- organizational structure options;
+\- organizational structure options;
 
-- funding and capital options;
+\- funding and capital options;
 
-- token and incentive options;
+\- token and incentive options;
 
-- knowledge and documentation options;
+\- knowledge and documentation options;
 
-- impact and measurement options;
+\- impact and measurement options;
 
-- implementation and operations options;
+\- implementation and operations options;
 
-- experimentation options.
+\- experimentation options.
 
 This section preserves that structure while making it more clearly connected to ontology, resources, tracks, deployment, and implementation learning.
 
@@ -8625,59 +8625,59 @@ Some may later be removed or reframed.
 
 Inclusion in the Option Library means:
 
-> This is a potentially reusable design choice worth documenting and reviewing.
+\> This is a potentially reusable design choice worth documenting and reviewing.
 
 It does not mean:
 
-> This is recommended for every context.
+\> This is recommended for every context.
 
----
+\---
 
-### What counts as an option
+\#\#\# What counts as an option
 
 An option is a reusable component that can be selected, adapted, combined, or rejected in design and implementation.
 
 Options may include:
 
-- governance models;
+\- governance models;
 
-- decision mechanisms;
+\- decision mechanisms;
 
-- coordination patterns;
+\- coordination patterns;
 
-- organizational forms;
+\- organizational forms;
 
-- role systems;
+\- role systems;
 
-- funding mechanisms;
+\- funding mechanisms;
 
-- treasury patterns;
+\- treasury patterns;
 
-- incentive models;
+\- incentive models;
 
-- token systems;
+\- token systems;
 
-- documentation practices;
+\- documentation practices;
 
-- knowledge systems;
+\- knowledge systems;
 
-- measurement systems;
+\- measurement systems;
 
-- verification systems;
+\- verification systems;
 
-- tools or tool categories;
+\- tools or tool categories;
 
-- implementation patterns;
+\- implementation patterns;
 
-- experimentation patterns;
+\- experimentation patterns;
 
-- review processes;
+\- review processes;
 
-- templates;
+\- templates;
 
-- protocols;
+\- protocols;
 
-- playbooks.
+\- playbooks.
 
 An option is different from a concept.
 
@@ -8723,11 +8723,11 @@ The Option Library should make choices visible.
 
 Deployment makes choices operational.
 
----
+\---
 
-### Layer relations
+\#\#\# Layer relations
 
-#### Inputs into the Option Library
+\#\#\#\# Inputs into the Option Library
 
 | Source layer | What it provides |
 
@@ -8745,7 +8745,7 @@ Deployment makes choices operational.
 
 | Evolution Layer | Updates based on failure patterns, drift, new use cases, and emerging needs. |
 
-#### Outputs from the Option Library
+\#\#\#\# Outputs from the Option Library
 
 | Target layer | What it receives |
 
@@ -8763,9 +8763,9 @@ Deployment makes choices operational.
 
 The Option Library is where reusable design space becomes visible before context-specific deployment.
 
----
+\---
 
-### Option entry template
+\#\#\# Option entry template
 
 Each option should eventually have a consistent entry structure.
 
@@ -8819,9 +8819,9 @@ The goal is not to fill every field immediately.
 
 The goal is to make options progressively more usable and reviewable.
 
----
+\---
 
-### Option maturity
+\#\#\# Option maturity
 
 Options should have visible maturity.
 
@@ -8857,9 +8857,9 @@ A source-linked option can still need review.
 
 A field-informed option may not generalize.
 
----
+\---
 
-### Option review and risk
+\#\#\# Option review and risk
 
 Review should scale with risk.
 
@@ -8869,1795 +8869,1795 @@ Other options need careful handling because they affect money, power, governance
 
 High-risk options include:
 
-- token systems;
+\- token systems;
 
-- funding mechanisms;
+\- funding mechanisms;
 
-- governance mechanisms;
+\- governance mechanisms;
 
-- identity and reputation systems;
+\- identity and reputation systems;
 
-- ecological MRV systems;
+\- ecological MRV systems;
 
-- impact verification systems;
+\- impact verification systems;
 
-- public scoring or ranking systems;
+\- public scoring or ranking systems;
 
-- AI recommendation systems;
+\- AI recommendation systems;
 
-- legal or tax structures;
+\- legal or tax structures;
 
-- community representation processes;
+\- community representation processes;
 
-- local mapping systems;
+\- local mapping systems;
 
-- credentialing systems.
+\- credentialing systems.
 
 A high-risk option should include:
 
-- known failure modes;
+\- known failure modes;
 
-- deployment requirements;
+\- deployment requirements;
 
-- public-use boundaries;
+\- public-use boundaries;
 
-- review needs;
+\- review needs;
 
-- evidence or source lineage;
+\- evidence or source lineage;
 
-- examples of where it has worked or failed;
+\- examples of where it has worked or failed;
 
-- warnings against common misuse.
+\- warnings against common misuse.
 
 The Option Library should not only describe options optimistically.
 
 It should help people avoid predictable failure.
 
----
+\---
 
-## Core option categories
+\#\# Core option categories
 
 The following categories preserve the useful structure from previous iterations.
 
 They should be treated as a working map, not a final taxonomy.
 
----
+\---
 
-### 1. Governance Options
+\#\#\# 1\. Governance Options
 
 Governance options define authority distribution, decision-making, proposal flow, delegation, legitimacy, dispute handling, and meta-governance.
 
-#### Governance models
+\#\#\#\# Governance models
 
 Examples:
 
-- DAO governance;
+\- DAO governance;
 
-- sociocracy;
+\- sociocracy;
 
-- holacracy;
+\- holacracy;
 
-- cooperative governance;
+\- cooperative governance;
 
-- representative governance;
+\- representative governance;
 
-- liquid democracy;
+\- liquid democracy;
 
-- hybrid governance;
+\- hybrid governance;
 
-- stewardship governance;
+\- stewardship governance;
 
-- council-based systems;
+\- council-based systems;
 
-- multi-layer governance;
+\- multi-layer governance;
 
-- federated governance;
+\- federated governance;
 
-- community governance;
+\- community governance;
 
-- institutional hybrids.
+\- institutional hybrids.
 
-#### Decision mechanisms
-
-Examples:
-
-- token voting;
-
-- one-person-one-vote;
-
-- quadratic voting;
-
-- conviction voting;
-
-- consent-based decision-making;
-
-- consensus decision-making;
-
-- delegated voting;
-
-- rotating delegation;
-
-- reputation-weighted input;
-
-- multisig approval flows;
-
-- committee approval;
-
-- steward approval;
-
-- sortition;
-
-- participatory budgeting.
-
-#### Governance infrastructure
+\#\#\#\# Decision mechanisms
 
 Examples:
 
-- Snapshot;
+\- token voting;
 
-- Tally;
+\- one-person-one-vote;
 
-- Gardens;
+\- quadratic voting;
 
-- forums;
+\- conviction voting;
 
-- custom governance contracts;
+\- consent-based decision-making;
 
-- offchain deliberation \+ onchain execution;
+\- consensus decision-making;
 
-- multisigs;
+\- delegated voting;
 
-- proposal platforms;
+\- rotating delegation;
 
-- governance dashboards.
+\- reputation-weighted input;
 
-#### Governance patterns
+\- multisig approval flows;
+
+\- committee approval;
+
+\- steward approval;
+
+\- sortition;
+
+\- participatory budgeting.
+
+\#\#\#\# Governance infrastructure
 
 Examples:
 
-- proposal lifecycle design;
+\- Snapshot;
 
-- delegation frameworks;
+\- Tally;
 
-- multi-stage proposal review;
+\- Gardens;
 
-- dispute / appeal processes;
+\- forums;
 
-- threshold-based escalation;
+\- custom governance contracts;
 
-- role-based governance partitioning;
+\- offchain deliberation \+ onchain execution;
 
-- meta-governance processes;
+\- multisigs;
 
-- emergency decision pathways;
+\- proposal platforms;
 
-- ratification cycles;
+\- governance dashboards.
 
-- working-group mandates.
+\#\#\#\# Governance patterns
 
-#### Selection questions
+Examples:
 
-- What kinds of decisions exist?
+\- proposal lifecycle design;
 
-- Who can propose?
+\- delegation frameworks;
 
-- Who can decide?
+\- multi-stage proposal review;
 
-- What counts as approval?
+\- dispute / appeal processes;
 
-- Who can execute?
+\- threshold-based escalation;
 
-- Where are decisions recorded?
+\- role-based governance partitioning;
 
-- What happens during disagreement?
+\- meta-governance processes;
 
-- What happens during emergency?
+\- emergency decision pathways;
 
-- Is legitimacy based on tokens, membership, roles, expertise, consent, representation, or another basis?
+\- ratification cycles;
 
-- Does the system prioritize speed, legitimacy, inclusion, expertise, resilience, or accountability?
+\- working-group mandates.
 
-#### Common dependencies
+\#\#\#\# Selection questions
+
+\- What kinds of decisions exist?
+
+\- Who can propose?
+
+\- Who can decide?
+
+\- What counts as approval?
+
+\- Who can execute?
+
+\- Where are decisions recorded?
+
+\- What happens during disagreement?
+
+\- What happens during emergency?
+
+\- Is legitimacy based on tokens, membership, roles, expertise, consent, representation, or another basis?
+
+\- Does the system prioritize speed, legitimacy, inclusion, expertise, resilience, or accountability?
+
+\#\#\#\# Common dependencies
 
 Governance options often depend on:
 
-- role clarity;
+\- role clarity;
 
-- documentation;
+\- documentation;
 
-- decision records;
+\- decision records;
 
-- communication channels;
+\- communication channels;
 
-- participation requirements;
+\- participation requirements;
 
-- dispute pathways;
+\- dispute pathways;
 
-- treasury controls;
+\- treasury controls;
 
-- review cadence;
+\- review cadence;
 
-- power visibility.
+\- power visibility.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- governance capture;
+\- governance capture;
 
-- token plutocracy;
+\- token plutocracy;
 
-- voter apathy;
+\- voter apathy;
 
-- unclear authority boundaries;
+\- unclear authority boundaries;
 
-- procedural overload;
+\- procedural overload;
 
-- centralization drift;
+\- centralization drift;
 
-- hidden informal governance overriding formal governance;
+\- hidden informal governance overriding formal governance;
 
-- emergency ambiguity;
+\- emergency ambiguity;
 
-- governance theater;
+\- governance theater;
 
-- low-context voting;
+\- low-context voting;
 
-- unclear proposal rights.
+\- unclear proposal rights.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any governance option should define:
 
-- decision scope;
+\- decision scope;
 
-- proposal rights;
+\- proposal rights;
 
-- decision authority;
+\- decision authority;
 
-- thresholds;
+\- thresholds;
 
-- escalation paths;
+\- escalation paths;
 
-- execution authority;
+\- execution authority;
 
-- record location;
+\- record location;
 
-- review process;
+\- review process;
 
-- override conditions;
+\- override conditions;
 
-- fixed / configurable / experimental parts.
+\- fixed / configurable / experimental parts.
 
----
+\---
 
-### 2. Coordination Options
+\#\#\# 2\. Coordination Options
 
 Coordination options define how people align work, share context, synchronize action, resolve dependencies, and maintain operational rhythm.
 
-#### Coordination structures
+\#\#\#\# Coordination structures
 
 Examples:
 
-- working groups;
+\- working groups;
 
-- pods;
+\- pods;
 
-- guilds;
+\- guilds;
 
-- circles;
+\- circles;
 
-- committees;
+\- committees;
 
-- steward groups;
+\- steward groups;
 
-- federated teams;
+\- federated teams;
 
-- cross-functional working groups;
+\- cross-functional working groups;
 
-- local node structures;
+\- local node structures;
 
-- project squads;
+\- project squads;
 
-- seasonal cohorts;
+\- seasonal cohorts;
 
-- contributor circles.
+\- contributor circles.
 
-#### Coordination protocols
-
-Examples:
-
-- weekly syncs;
-
-- check-in / check-out;
-
-- retrospectives;
-
-- proposal shaping flows;
-
-- facilitation protocols;
-
-- asynchronous review flows;
-
-- escalation protocols;
-
-- dependency tracking protocols;
-
-- handoff rituals;
-
-- working agreements;
-
-- meeting cadence;
-
-- decision logs;
-
-- office hours;
-
-- peer review cycles.
-
-#### Coordination patterns
+\#\#\#\# Coordination protocols
 
 Examples:
 
-- bounties;
+\- weekly syncs;
 
-- raids;
+\- check-in / check-out;
 
-- sprint cycles;
+\- retrospectives;
 
-- working sessions;
+\- proposal shaping flows;
 
-- async task boards;
+\- facilitation protocols;
 
-- rotating facilitators;
+\- asynchronous review flows;
 
-- coordination calendars;
+\- escalation protocols;
 
-- shared planning cadences;
+\- dependency tracking protocols;
 
-- contributor onboarding flows;
+\- handoff rituals;
 
-- role rotation;
+\- working agreements;
 
-- steward check-ins;
+\- meeting cadence;
 
-- support requests;
+\- decision logs;
 
-- open working sessions.
+\- office hours;
 
-#### Communication systems
+\- peer review cycles.
+
+\#\#\#\# Coordination patterns
 
 Examples:
 
-- Discord;
+\- bounties;
 
-- Telegram;
+\- raids;
 
-- Slack;
+\- sprint cycles;
 
-- forums;
+\- working sessions;
 
-- email;
+\- async task boards;
 
-- async docs;
+\- rotating facilitators;
 
-- issue boards;
+\- coordination calendars;
 
-- shared knowledge hubs;
+\- shared planning cadences;
 
-- public calls;
+\- contributor onboarding flows;
 
-- working group channels;
+\- role rotation;
 
-- local community channels.
+\- steward check-ins;
 
-#### Selection questions
+\- support requests;
 
-- Is the work synchronous, asynchronous, or hybrid?
+\- open working sessions.
 
-- Are participants volunteers, paid operators, or mixed?
+\#\#\#\# Communication systems
 
-- Is the coordination local, networked, cross-org, or global?
+Examples:
 
-- What rhythm is sustainable?
+\- Discord;
 
-- How are blockers surfaced?
+\- Telegram;
 
-- Where is current state visible?
+\- Slack;
 
-- How are handoffs made?
+\- forums;
 
-- Who facilitates?
+\- email;
 
-- What is the escalation path?
+\- async docs;
 
-#### Common dependencies
+\- issue boards;
+
+\- shared knowledge hubs;
+
+\- public calls;
+
+\- working group channels;
+
+\- local community channels.
+
+\#\#\#\# Selection questions
+
+\- Is the work synchronous, asynchronous, or hybrid?
+
+\- Are participants volunteers, paid operators, or mixed?
+
+\- Is the coordination local, networked, cross-org, or global?
+
+\- What rhythm is sustainable?
+
+\- How are blockers surfaced?
+
+\- Where is current state visible?
+
+\- How are handoffs made?
+
+\- Who facilitates?
+
+\- What is the escalation path?
+
+\#\#\#\# Common dependencies
 
 Coordination options often depend on:
 
-- shared context;
+\- shared context;
 
-- role clarity;
+\- role clarity;
 
-- documentation;
+\- documentation;
 
-- communication norms;
+\- communication norms;
 
-- facilitation capacity;
+\- facilitation capacity;
 
-- decision systems;
+\- decision systems;
 
-- accountability loops;
+\- accountability loops;
 
-- onboarding flows.
+\- onboarding flows.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- coordination fatigue;
+\- coordination fatigue;
 
-- duplication of effort;
+\- duplication of effort;
 
-- channel fragmentation;
+\- channel fragmentation;
 
-- unclear ownership;
+\- unclear ownership;
 
-- hidden blockers;
+\- hidden blockers;
 
-- meeting overload;
+\- meeting overload;
 
-- weak handoffs;
+\- weak handoffs;
 
-- no escalation pathway;
+\- no escalation pathway;
 
-- context collapse;
+\- context collapse;
 
-- contributor burnout;
+\- contributor burnout;
 
-- social osmosis replacing documentation.
+\- social osmosis replacing documentation.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any coordination option should define:
 
-- cadence;
+\- cadence;
 
-- participants;
+\- participants;
 
-- channel;
+\- channel;
 
-- purpose;
+\- purpose;
 
-- output;
+\- output;
 
-- owner or facilitator;
+\- owner or facilitator;
 
-- documentation location;
+\- documentation location;
 
-- issue reporting path;
+\- issue reporting path;
 
-- relationship to decisions;
+\- relationship to decisions;
 
-- fixed / adaptable parts.
+\- fixed / adaptable parts.
 
----
+\---
 
-### 3. Organizational Structure Options
+\#\#\# 3\. Organizational Structure Options
 
 Organizational structure options define the shape of a group, network, institution, chapter, node, coalition, or operating system.
 
-#### Organizational forms
+\#\#\#\# Organizational forms
 
 Examples:
 
-- DAO;
+\- DAO;
 
-- nonprofit;
+\- nonprofit;
 
-- cooperative;
+\- cooperative;
 
-- foundation;
+\- foundation;
 
-- association;
+\- association;
 
-- company;
+\- company;
 
-- fiscal sponsor model;
+\- fiscal sponsor model;
 
-- hybrid structure;
+\- hybrid structure;
 
-- network-of-networks;
+\- network-of-networks;
 
-- bioregional federation;
+\- bioregional federation;
 
-- local chapter;
+\- local chapter;
 
-- public benefit company;
+\- public benefit company;
 
-- steward-owned organization;
+\- steward-owned organization;
 
-- community association;
+\- community association;
 
-- informal collective.
+\- informal collective.
 
-#### Structural patterns
-
-Examples:
-
-- hierarchy;
-
-- network;
-
-- circle-based structure;
-
-- role-based structure;
-
-- guild-based structure;
-
-- chapter model;
-
-- cell-based structure;
-
-- hub-and-spoke;
-
-- federation;
-
-- coalition;
-
-- shared-services model;
-
-- council structure;
-
-- pod structure.
-
-#### Role systems
+\#\#\#\# Structural patterns
 
 Examples:
 
-- stewards;
+\- hierarchy;
 
-- builders;
+\- network;
 
-- facilitators;
+\- circle-based structure;
 
-- contributors;
+\- role-based structure;
 
-- operators;
+\- guild-based structure;
 
-- maintainers;
+\- chapter model;
 
-- reviewers;
+\- cell-based structure;
 
-- coordinators;
+\- hub-and-spoke;
 
-- delegates;
+\- federation;
 
-- council members;
+\- coalition;
 
-- local node leads;
+\- shared-services model;
 
-- knowledge gardeners;
+\- council structure;
 
-- source-system stewards;
+\- pod structure.
 
-- implementation scribes.
-
-#### Scaling patterns
+\#\#\#\# Role systems
 
 Examples:
 
-- local nodes;
+\- stewards;
 
-- chapters;
+\- builders;
 
-- regional clusters;
+\- facilitators;
 
-- federated governance;
+\- contributors;
 
-- layered organization;
+\- operators;
 
-- shared services across organizations;
+\- maintainers;
 
-- central support with local autonomy;
+\- reviewers;
 
-- replication kits;
+\- coordinators;
 
-- local adaptation frameworks;
+\- delegates;
 
-- nested circles.
+\- council members;
 
-#### Selection questions
+\- local node leads;
 
-- Is the system local, networked, federated, or institutionally anchored?
+\- knowledge gardeners;
 
-- Does it need legal personality?
+\- source-system stewards;
 
-- What must remain shared across units?
+\- implementation scribes.
 
-- What can adapt locally?
+\#\#\#\# Scaling patterns
 
-- Where does authority sit?
+Examples:
 
-- Where does operational capacity sit?
+\- local nodes;
 
-- How are roles reviewed?
+\- chapters;
 
-- How does the structure handle growth?
+\- regional clusters;
 
-- Does the structure prioritize speed, autonomy, representation, resilience, consistency, or experimentation?
+\- federated governance;
 
-#### Common dependencies
+\- layered organization;
+
+\- shared services across organizations;
+
+\- central support with local autonomy;
+
+\- replication kits;
+
+\- local adaptation frameworks;
+
+\- nested circles.
+
+\#\#\#\# Selection questions
+
+\- Is the system local, networked, federated, or institutionally anchored?
+
+\- Does it need legal personality?
+
+\- What must remain shared across units?
+
+\- What can adapt locally?
+
+\- Where does authority sit?
+
+\- Where does operational capacity sit?
+
+\- How are roles reviewed?
+
+\- How does the structure handle growth?
+
+\- Does the structure prioritize speed, autonomy, representation, resilience, consistency, or experimentation?
+
+\#\#\#\# Common dependencies
 
 Organizational structures depend on:
 
-- governance model;
+\- governance model;
 
-- coordination rhythm;
+\- coordination rhythm;
 
-- role definitions;
+\- role definitions;
 
-- legal interface;
+\- legal interface;
 
-- treasury structure;
+\- treasury structure;
 
-- documentation;
+\- documentation;
 
-- review and accountability;
+\- review and accountability;
 
-- conflict process.
+\- conflict process.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- role ambiguity;
+\- role ambiguity;
 
-- central hub overload;
+\- central hub overload;
 
-- local node drift;
+\- local node drift;
 
-- hidden hierarchy;
+\- hidden hierarchy;
 
-- accountability gaps;
+\- accountability gaps;
 
-- poor federation design;
+\- poor federation design;
 
-- fragmentation between core and edge;
+\- fragmentation between core and edge;
 
-- unclear legal / informal interface;
+\- unclear legal / informal interface;
 
-- steward burnout;
+\- steward burnout;
 
-- under-supported volunteers.
+\- under-supported volunteers.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any organizational option should define:
 
-- purpose;
+\- purpose;
 
-- unit boundaries;
+\- unit boundaries;
 
-- roles;
+\- roles;
 
-- authority;
+\- authority;
 
-- decision scope;
+\- decision scope;
 
-- reporting expectations;
+\- reporting expectations;
 
-- autonomy boundaries;
+\- autonomy boundaries;
 
-- escalation paths;
+\- escalation paths;
 
-- legal / fiscal interface, if relevant;
+\- legal / fiscal interface, if relevant;
 
-- review cadence.
+\- review cadence.
 
----
+\---
 
-### 4. Funding and Capital Options
+\#\#\# 4\. Funding and Capital Options
 
 Funding and capital options define how financial and non-financial resources are gathered, held, allocated, governed, and renewed.
 
-#### Funding mechanisms
+\#\#\#\# Funding mechanisms
 
 Examples:
 
-- grants;
+\- grants;
 
-- quadratic funding;
+\- quadratic funding;
 
-- retroactive public goods funding;
+\- retroactive public goods funding;
 
-- direct grants;
+\- direct grants;
 
-- conviction funding;
+\- conviction funding;
 
-- streaming funding;
+\- streaming funding;
 
-- milestone-based funding;
+\- milestone-based funding;
 
-- challenge prizes;
+\- challenge prizes;
 
-- procurement models;
+\- procurement models;
 
-- donation pools;
+\- donation pools;
 
-- endowments;
+\- endowments;
 
-- matching pools;
+\- matching pools;
 
-- participatory budgeting;
+\- participatory budgeting;
 
-- community funds;
+\- community funds;
 
-- commitment pooling;
+\- commitment pooling;
 
-- cooperative finance;
+\- cooperative finance;
 
-- local currency systems;
+\- local currency systems;
 
-- voucher-backed systems.
+\- voucher-backed systems.
 
-#### Capital formation options
-
-Examples:
-
-- donations;
-
-- membership fees;
-
-- service revenue;
-
-- protocol revenue;
-
-- sponsorship;
-
-- pooled capital;
-
-- token issuance;
-
-- treasury yield strategies;
-
-- cooperative revenue flows;
-
-- local currencies;
-
-- regenerative endowments;
-
-- fiscal sponsorship;
-
-- community investment;
-
-- mutual credit.
-
-#### Allocation systems
+\#\#\#\# Capital formation options
 
 Examples:
 
-- milestone-based allocation;
+\- donations;
 
-- proposal-based allocation;
+\- membership fees;
 
-- reputation-based allocation;
+\- service revenue;
 
-- delegated allocation;
+\- protocol revenue;
 
-- committee review;
+\- sponsorship;
 
-- participatory budgeting;
+\- pooled capital;
 
-- domain-specific allocation pools;
+\- token issuance;
 
-- tiered review systems;
+\- treasury yield strategies;
 
-- quadratic allocation;
+\- cooperative revenue flows;
 
-- retroactive allocation;
+\- local currencies;
 
-- reviewer panels;
+\- regenerative endowments;
 
-- public vote;
+\- fiscal sponsorship;
 
-- steward allocation;
+\- community investment;
 
-- conviction voting.
+\- mutual credit.
 
-#### Treasury systems
+\#\#\#\# Allocation systems
 
 Examples:
 
-- multisig wallets;
+\- milestone-based allocation;
 
-- DAO treasuries;
+\- proposal-based allocation;
 
-- shared treasury committees;
+\- reputation-based allocation;
 
-- sub-treasuries;
+\- delegated allocation;
 
-- local treasury cells;
+\- committee review;
 
-- reserve structures;
+\- participatory budgeting;
 
-- diversification strategies;
+\- domain-specific allocation pools;
 
-- budget cycles;
+\- tiered review systems;
 
-- disbursement controls;
+\- quadratic allocation;
 
-- audit trails;
+\- retroactive allocation;
 
-- treasury dashboards.
+\- reviewer panels;
 
-#### Selection questions
+\- public vote;
 
-- Is the capital recurring or one-time?
+\- steward allocation;
 
-- Is legitimacy more important than speed?
+\- conviction voting.
 
-- Is funding local, donor-driven, token-based, grant-based, or revenue-based?
+\#\#\#\# Treasury systems
 
-- Are capital flows centrally managed or distributed?
+Examples:
 
-- Who controls funds?
+\- multisig wallets;
 
-- Who approves allocations?
+\- DAO treasuries;
 
-- What evidence is required?
+\- shared treasury committees;
 
-- What happens if funds are misused?
+\- sub-treasuries;
 
-- How does the system avoid dependency?
+\- local treasury cells;
 
-- How does the system support renewal?
+\- reserve structures;
 
-#### Common dependencies
+\- diversification strategies;
+
+\- budget cycles;
+
+\- disbursement controls;
+
+\- audit trails;
+
+\- treasury dashboards.
+
+\#\#\#\# Selection questions
+
+\- Is the capital recurring or one-time?
+
+\- Is legitimacy more important than speed?
+
+\- Is funding local, donor-driven, token-based, grant-based, or revenue-based?
+
+\- Are capital flows centrally managed or distributed?
+
+\- Who controls funds?
+
+\- Who approves allocations?
+
+\- What evidence is required?
+
+\- What happens if funds are misused?
+
+\- How does the system avoid dependency?
+
+\- How does the system support renewal?
+
+\#\#\#\# Common dependencies
 
 Funding options depend on:
 
-- governance legitimacy;
+\- governance legitimacy;
 
-- treasury controls;
+\- treasury controls;
 
-- allocation criteria;
+\- allocation criteria;
 
-- documentation;
+\- documentation;
 
-- review loops;
+\- review loops;
 
-- impact evidence;
+\- impact evidence;
 
-- fraud response;
+\- fraud response;
 
-- role clarity;
+\- role clarity;
 
-- legal/tax review where relevant.
+\- legal/tax review where relevant.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- grant dependency;
+\- grant dependency;
 
-- short-term incentives;
+\- short-term incentives;
 
-- capital concentration;
+\- capital concentration;
 
-- poor treasury controls;
+\- poor treasury controls;
 
-- weak evaluation;
+\- weak evaluation;
 
-- slow disbursement;
+\- slow disbursement;
 
-- misaligned allocation incentives;
+\- misaligned allocation incentives;
 
-- no sustainability path after initial funding;
+\- no sustainability path after initial funding;
 
-- metric gaming;
+\- metric gaming;
 
-- favoritism;
+\- favoritism;
 
-- unclear accountability;
+\- unclear accountability;
 
-- public impact overclaiming.
+\- public impact overclaiming.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any funding option should define:
 
-- eligibility;
+\- eligibility;
 
-- application process;
+\- application process;
 
-- review criteria;
+\- review criteria;
 
-- decision authority;
+\- decision authority;
 
-- fund control;
+\- fund control;
 
-- disbursement process;
+\- disbursement process;
 
-- reporting requirements;
+\- reporting requirements;
 
-- appeal or dispute process;
+\- appeal or dispute process;
 
-- misuse response;
+\- misuse response;
 
-- public claim boundaries;
+\- public claim boundaries;
 
-- legal/tax review needs.
+\- legal/tax review needs.
 
----
+\---
 
-### 5. Token and Incentive Options
+\#\#\# 5\. Token and Incentive Options
 
 Token and incentive options define how behavior, access, recognition, rewards, ownership, governance, and participation are shaped.
 
-#### Token models
+\#\#\#\# Token models
 
 Examples:
 
-- governance tokens;
+\- governance tokens;
 
-- utility tokens;
+\- utility tokens;
 
-- reputation tokens;
+\- reputation tokens;
 
-- non-transferable tokens;
+\- non-transferable tokens;
 
-- soulbound tokens;
+\- soulbound tokens;
 
-- stablecoins;
+\- stablecoins;
 
-- local currencies;
+\- local currencies;
 
-- dynamic NFTs;
+\- dynamic NFTs;
 
-- membership tokens;
+\- membership tokens;
 
-- voucher models;
+\- voucher models;
 
-- contribution-linked tokens;
+\- contribution-linked tokens;
 
-- impact certificates;
+\- impact certificates;
 
-- attestation-linked credentials;
+\- attestation-linked credentials;
 
-- access tokens.
+\- access tokens.
 
-#### Incentive systems
-
-Examples:
-
-- bounties;
-
-- reputation rewards;
-
-- token rewards;
-
-- hybrid compensation;
-
-- retroactive rewards;
-
-- role-based stipends;
-
-- peer recognition;
-
-- status systems;
-
-- access-based incentives;
-
-- non-financial incentives;
-
-- contributor tiers;
-
-- quest systems;
-
-- public acknowledgments;
-
-- mentorship credits.
-
-#### Distribution mechanisms
+\#\#\#\# Incentive systems
 
 Examples:
 
-- airdrops;
+\- bounties;
 
-- contribution-based rewards;
+\- reputation rewards;
 
-- staking systems;
+\- token rewards;
 
-- claims-based distribution;
+\- hybrid compensation;
 
-- milestone release;
+\- retroactive rewards;
 
-- cohort-based issuance;
+\- role-based stipends;
 
-- retroactive distribution;
+\- peer recognition;
 
-- delegated reward assignment;
+\- status systems;
 
-- peer nomination;
+\- access-based incentives;
 
-- proof-of-participation;
+\- non-financial incentives;
 
-- proof-of-impact;
+\- contributor tiers;
 
-- voucher redemption.
+\- quest systems;
 
-#### Selection questions
+\- public acknowledgments;
 
-- Is the incentive meant to motivate work, recognize impact, coordinate access, govern decisions, or signal membership?
+\- mentorship credits.
 
-- Is transferability desirable or harmful?
+\#\#\#\# Distribution mechanisms
 
-- Can the system tolerate gaming?
+Examples:
 
-- What evidence supports rewards?
+\- airdrops;
 
-- Who can issue?
+\- contribution-based rewards;
 
-- Who can revoke?
+\- staking systems;
 
-- What happens when incentives distort behavior?
+\- claims-based distribution;
 
-- Is the reward financial, symbolic, relational, local, governance-linked, or access-based?
+\- milestone release;
 
-- Is the incentive aligned with intrinsic motivation?
+\- cohort-based issuance;
 
-#### Common dependencies
+\- retroactive distribution;
+
+\- delegated reward assignment;
+
+\- peer nomination;
+
+\- proof-of-participation;
+
+\- proof-of-impact;
+
+\- voucher redemption.
+
+\#\#\#\# Selection questions
+
+\- Is the incentive meant to motivate work, recognize impact, coordinate access, govern decisions, or signal membership?
+
+\- Is transferability desirable or harmful?
+
+\- Can the system tolerate gaming?
+
+\- What evidence supports rewards?
+
+\- Who can issue?
+
+\- Who can revoke?
+
+\- What happens when incentives distort behavior?
+
+\- Is the reward financial, symbolic, relational, local, governance-linked, or access-based?
+
+\- Is the incentive aligned with intrinsic motivation?
+
+\#\#\#\# Common dependencies
 
 Token and incentive options depend on:
 
-- verification logic;
+\- verification logic;
 
-- governance;
+\- governance;
 
-- treasury;
+\- treasury;
 
-- role definitions;
+\- role definitions;
 
-- contribution tracking;
+\- contribution tracking;
 
-- identity / reputation systems;
+\- identity / reputation systems;
 
-- privacy and consent;
+\- privacy and consent;
 
-- fraud detection;
+\- fraud detection;
 
-- public-use boundaries.
+\- public-use boundaries.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- farming behavior;
+\- farming behavior;
 
-- speculative distortion;
+\- speculative distortion;
 
-- perverse incentives;
+\- perverse incentives;
 
-- reward extraction without contribution;
+\- reward extraction without contribution;
 
-- status concentration;
+\- status concentration;
 
-- weak verification;
+\- weak verification;
 
-- misalignment between recognition and actual value creation;
+\- misalignment between recognition and actual value creation;
 
-- token overreach;
+\- token overreach;
 
-- community fragmentation;
+\- community fragmentation;
 
-- reputational lock-in;
+\- reputational lock-in;
 
-- privacy harms.
+\- privacy harms.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any token or incentive option should define:
 
-- purpose;
+\- purpose;
 
-- eligibility;
+\- eligibility;
 
-- issuance process;
+\- issuance process;
 
-- transferability;
+\- transferability;
 
-- evidence requirements;
+\- evidence requirements;
 
-- issuer authority;
+\- issuer authority;
 
-- revocation or correction process;
+\- revocation or correction process;
 
-- gaming risks;
+\- gaming risks;
 
-- privacy risks;
+\- privacy risks;
 
-- governance implications;
+\- governance implications;
 
-- public interpretation boundaries.
+\- public interpretation boundaries.
 
 Token and incentive options are high-risk by default.
 
 They should receive extra review.
 
----
+\---
 
-### 6. Knowledge and Documentation Options
+\#\#\# 6\. Knowledge and Documentation Options
 
 Knowledge and documentation options define how a group captures, organizes, retrieves, publishes, reviews, and preserves knowledge.
 
-#### Knowledge systems
+\#\#\#\# Knowledge systems
 
 Examples:
 
-- knowledge gardens;
+\- knowledge gardens;
 
-- wikis;
+\- wikis;
 
-- documentation hubs;
+\- documentation hubs;
 
-- markdown systems;
+\- markdown systems;
 
-- graph-based knowledge systems;
+\- graph-based knowledge systems;
 
-- note systems;
+\- note systems;
 
-- case libraries;
+\- case libraries;
 
-- curated path systems;
+\- curated path systems;
 
-- searchable archives;
+\- searchable archives;
 
-- public resource libraries;
+\- public resource libraries;
 
-- source-system registries;
+\- source-system registries;
 
-- implementation memory systems.
+\- implementation memory systems.
 
-#### Tools and substrates
-
-Examples:
-
-- Notion;
-
-- Obsidian;
-
-- GitHub;
-
-- Google Docs;
-
-- Astro / Starlight;
-
-- Markdown repositories;
-
-- Quartz;
-
-- MediaWiki;
-
-- graph databases;
-
-- spreadsheets;
-
-- Airtable / Baserow;
-
-- searchable archives;
-
-- RAG systems;
-
-- GraphRAG systems;
-
-- annotation tools.
-
-#### Documentation practices
+\#\#\#\# Tools and substrates
 
 Examples:
 
-- templates;
+\- Notion;
 
-- versioning;
+\- Obsidian;
 
-- decision logs;
+\- GitHub;
 
-- glossary systems;
+\- Google Docs;
 
-- ontology-linked metadata;
+\- Astro / Starlight;
 
-- source tracking;
+\- Markdown repositories;
 
-- source-system cards;
+\- Quartz;
 
-- synthesis notes;
+\- MediaWiki;
 
-- review workflows;
+\- graph databases;
 
-- editorial pipelines;
+\- spreadsheets;
 
-- changelogs;
+\- Airtable / Baserow;
 
-- public-use labels;
+\- searchable archives;
 
-- deprecation notes;
+\- RAG systems;
 
-- compost / archive practices.
+\- GraphRAG systems;
 
-#### Selection questions
+\- annotation tools.
 
-- Is the goal publishing, internal coordination, memory retention, machine readability, or all of the above?
+\#\#\#\# Documentation practices
 
-- Who will maintain it?
+Examples:
 
-- Who can contribute?
+\- templates;
 
-- What needs to be public?
+\- versioning;
 
-- What needs to remain private?
+\- decision logs;
 
-- Does the system need AI querying?
+\- glossary systems;
 
-- Does it need structured metadata?
+\- ontology-linked metadata;
 
-- Is portability important?
+\- source tracking;
 
-- What happens when maintainers leave?
+\- source-system cards;
 
-- What is the lowest-maintenance substrate that still works?
+\- synthesis notes;
 
-#### Common dependencies
+\- review workflows;
+
+\- editorial pipelines;
+
+\- changelogs;
+
+\- public-use labels;
+
+\- deprecation notes;
+
+\- compost / archive practices.
+
+\#\#\#\# Selection questions
+
+\- Is the goal publishing, internal coordination, memory retention, machine readability, or all of the above?
+
+\- Who will maintain it?
+
+\- Who can contribute?
+
+\- What needs to be public?
+
+\- What needs to remain private?
+
+\- Does the system need AI querying?
+
+\- Does it need structured metadata?
+
+\- Is portability important?
+
+\- What happens when maintainers leave?
+
+\- What is the lowest-maintenance substrate that still works?
+
+\#\#\#\# Common dependencies
 
 Knowledge options depend on:
 
-- contributor habits;
+\- contributor habits;
 
-- editorial stewardship;
+\- editorial stewardship;
 
-- ontology or tagging discipline;
+\- ontology or tagging discipline;
 
-- source lineage;
+\- source lineage;
 
-- review process;
+\- review process;
 
-- infrastructure capacity;
+\- infrastructure capacity;
 
-- search and navigation;
+\- search and navigation;
 
-- maintenance roles.
+\- maintenance roles.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- knowledge decay;
+\- knowledge decay;
 
-- fragmentation;
+\- fragmentation;
 
-- outdated docs;
+\- outdated docs;
 
-- duplicated structures;
+\- duplicated structures;
 
-- low adoption;
+\- low adoption;
 
-- weak searchability;
+\- weak searchability;
 
-- no ownership over curation;
+\- no ownership over curation;
 
-- drift between docs and actual practice;
+\- drift between docs and actual practice;
 
-- inaccessible archives;
+\- inaccessible archives;
 
-- AI hallucination from weak corpus design;
+\- AI hallucination from weak corpus design;
 
-- overbuilding tools before workflows are clear.
+\- overbuilding tools before workflows are clear.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any knowledge option should define:
 
-- source of truth;
+\- source of truth;
 
-- contribution process;
+\- contribution process;
 
-- update process;
+\- update process;
 
-- review process;
+\- review process;
 
-- metadata needs;
+\- metadata needs;
 
-- public/private boundaries;
+\- public/private boundaries;
 
-- stewardship roles;
+\- stewardship roles;
 
-- archive / compost process;
+\- archive / compost process;
 
-- export / portability needs;
+\- export / portability needs;
 
-- AI-use boundaries.
+\- AI-use boundaries.
 
----
+\---
 
-### 7. Impact and Measurement Options
+\#\#\# 7\. Impact and Measurement Options
 
 Impact and measurement options define how activity, outcomes, evidence, claims, learning, and accountability are captured and interpreted.
 
-#### Measurement systems
+\#\#\#\# Measurement systems
 
 Examples:
 
-- KPI frameworks;
+\- KPI frameworks;
 
-- CIDS;
+\- CIDS;
 
-- MRV;
+\- MRV;
 
-- milestone tracking;
+\- milestone tracking;
 
-- contribution tracking;
+\- contribution tracking;
 
-- qualitative reflection systems;
+\- qualitative reflection systems;
 
-- mixed-method evaluation;
+\- mixed-method evaluation;
 
-- learning reports;
+\- learning reports;
 
-- dashboards;
+\- dashboards;
 
-- retrospective templates;
+\- retrospective templates;
 
-- outcome harvesting;
+\- outcome harvesting;
 
-- theory of change;
+\- theory of change;
 
-- case-based evaluation.
+\- case-based evaluation.
 
-#### Data systems
-
-Examples:
-
-- dashboards;
-
-- analytics pipelines;
-
-- spreadsheet systems;
-
-- attestations;
-
-- forms;
-
-- reporting systems;
-
-- onchain / offchain data combinations;
-
-- data warehouses;
-
-- public impact pages;
-
-- contribution ledgers.
-
-#### Verification systems
+\#\#\#\# Data systems
 
 Examples:
 
-- attestations;
+\- dashboards;
 
-- peer review;
+\- analytics pipelines;
 
-- committee review;
+\- spreadsheet systems;
 
-- third-party validation;
+\- attestations;
 
-- oracle-linked systems;
+\- forms;
 
-- evidence-based reporting;
+\- reporting systems;
 
-- case-based validation;
+\- onchain / offchain data combinations;
 
-- community review;
+\- data warehouses;
 
-- ecological monitoring;
+\- public impact pages;
 
-- photo evidence;
+\- contribution ledgers.
 
-- field logs;
+\#\#\#\# Verification systems
 
-- data audits.
+Examples:
 
-#### Selection questions
+\- attestations;
 
-- Is the main need accountability, learning, funding legitimacy, public communication, or scientific verification?
+\- peer review;
 
-- Are outputs, outcomes, or systemic effects being measured?
+\- committee review;
 
-- Is verification social, procedural, technical, or hybrid?
+\- third-party validation;
 
-- Who makes the claim?
+\- oracle-linked systems;
 
-- Who reviews the evidence?
+\- evidence-based reporting;
 
-- What is the cost of reporting?
+\- case-based validation;
 
-- What will the data be used for?
+\- community review;
 
-- Could the metric distort behavior?
+\- ecological monitoring;
 
-- What should remain qualitative?
+\- photo evidence;
 
-- What public-use boundary applies?
+\- field logs;
 
-#### Common dependencies
+\- data audits.
+
+\#\#\#\# Selection questions
+
+\- Is the main need accountability, learning, funding legitimacy, public communication, or scientific verification?
+
+\- Are outputs, outcomes, or systemic effects being measured?
+
+\- Is verification social, procedural, technical, or hybrid?
+
+\- Who makes the claim?
+
+\- Who reviews the evidence?
+
+\- What is the cost of reporting?
+
+\- What will the data be used for?
+
+\- Could the metric distort behavior?
+
+\- What should remain qualitative?
+
+\- What public-use boundary applies?
+
+\#\#\#\# Common dependencies
 
 Impact options depend on:
 
-- clear claims;
+\- clear claims;
 
-- evidence standards;
+\- evidence standards;
 
-- source lineage;
+\- source lineage;
 
-- data quality;
+\- data quality;
 
-- reporting capacity;
+\- reporting capacity;
 
-- review roles;
+\- review roles;
 
-- public-use boundaries;
+\- public-use boundaries;
 
-- governance and funding requirements.
+\- governance and funding requirements.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- metric theater;
+\- metric theater;
 
-- measuring outputs instead of outcomes;
+\- measuring outputs instead of outcomes;
 
-- unverified claims;
+\- unverified claims;
 
-- data overhead too high for contributors;
+\- data overhead too high for contributors;
 
-- disconnected reporting systems;
+\- disconnected reporting systems;
 
-- low-signal metrics;
+\- low-signal metrics;
 
-- no feedback into decision-making;
+\- no feedback into decision-making;
 
-- ecological complexity flattened into dashboards;
+\- ecological complexity flattened into dashboards;
 
-- public overclaiming;
+\- public overclaiming;
 
-- funding incentives distorting evidence.
+\- funding incentives distorting evidence.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any impact or measurement option should define:
 
-- claim type;
+\- claim type;
 
-- evidence required;
+\- evidence required;
 
-- data source;
+\- data source;
 
-- reviewer;
+\- reviewer;
 
-- reporting cadence;
+\- reporting cadence;
 
-- public-use boundary;
+\- public-use boundary;
 
-- uncertainty;
+\- uncertainty;
 
-- correction process;
+\- correction process;
 
-- use in funding or governance;
+\- use in funding or governance;
 
-- privacy or consent concerns.
+\- privacy or consent concerns.
 
 Impact and measurement options are high-risk when connected to public claims, ecological outcomes, funding, or governance.
 
----
+\---
 
-### 8. Implementation and Operations Options
+\#\#\# 8\. Implementation and Operations Options
 
 Implementation and operations options define how work actually runs in specific contexts.
 
-#### Local implementation patterns
+\#\#\#\# Local implementation patterns
 
 Examples:
 
-- local chapters;
+\- local chapters;
 
-- local nodes;
+\- local nodes;
 
-- bioregional hubs;
+\- bioregional hubs;
 
-- community circles;
+\- community circles;
 
-- program cohorts;
+\- program cohorts;
 
-- field teams;
+\- field teams;
 
-- coalition-based local implementation;
+\- coalition-based local implementation;
 
-- civic partnership teams;
+\- civic partnership teams;
 
-- mutual aid networks;
+\- mutual aid networks;
 
-- community gardens;
+\- community gardens;
 
-- restoration campaigns;
+\- restoration campaigns;
 
-- public goods working groups.
+\- public goods working groups.
 
-#### Operational systems
-
-Examples:
-
-- event coordination;
-
-- volunteer management;
-
-- contributor onboarding;
-
-- partnership workflows;
-
-- operational calendars;
-
-- intake and triage;
-
-- support and stewardship functions;
-
-- local-to-network reporting;
-
-- field data collection;
-
-- community check-ins;
-
-- resource matching;
-
-- requests and offers boards;
-
-- maintenance roles.
-
-#### Infrastructure
+\#\#\#\# Operational systems
 
 Examples:
 
-- digital platforms;
+\- event coordination;
 
-- physical spaces;
+\- volunteer management;
 
-- hybrid coordination systems;
+\- contributor onboarding;
 
-- shared service layers;
+\- partnership workflows;
 
-- local communications infrastructure;
+\- operational calendars;
 
-- field data collection systems;
+\- intake and triage;
 
-- civic interfaces;
+\- support and stewardship functions;
 
-- local treasury tools;
+\- local-to-network reporting;
 
-- community mapping tools.
+\- field data collection;
 
-#### Selection questions
+\- community check-ins;
 
-- Is the operating context local, networked, hybrid, or institutional?
+\- resource matching;
 
-- Is the main constraint people, process, capital, infrastructure, trust, or knowledge?
+\- requests and offers boards;
 
-- Does the system require replication across places or deep context-specific adaptation?
+\- maintenance roles.
 
-- What minimum structure is needed?
+\#\#\#\# Infrastructure
 
-- What local autonomy is required?
+Examples:
 
-- What must be shared with the network?
+\- digital platforms;
 
-- Who maintains the operation?
+\- physical spaces;
 
-- What happens if volunteers leave?
+\- hybrid coordination systems;
 
-#### Common dependencies
+\- shared service layers;
+
+\- local communications infrastructure;
+
+\- field data collection systems;
+
+\- civic interfaces;
+
+\- local treasury tools;
+
+\- community mapping tools.
+
+\#\#\#\# Selection questions
+
+\- Is the operating context local, networked, hybrid, or institutional?
+
+\- Is the main constraint people, process, capital, infrastructure, trust, or knowledge?
+
+\- Does the system require replication across places or deep context-specific adaptation?
+
+\- What minimum structure is needed?
+
+\- What local autonomy is required?
+
+\- What must be shared with the network?
+
+\- Who maintains the operation?
+
+\- What happens if volunteers leave?
+
+\#\#\#\# Common dependencies
 
 Operations options depend on:
 
-- governance;
+\- governance;
 
-- coordination;
+\- coordination;
 
-- funding;
+\- funding;
 
-- documentation;
+\- documentation;
 
-- roles;
+\- roles;
 
-- local legitimacy;
+\- local legitimacy;
 
-- tools;
+\- tools;
 
-- review loops;
+\- review loops;
 
-- physical context;
+\- physical context;
 
-- partner relationships.
+\- partner relationships.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- operational overload;
+\- operational overload;
 
-- weak role handoff;
+\- weak role handoff;
 
-- unclear local autonomy;
+\- unclear local autonomy;
 
-- under-supported volunteers;
+\- under-supported volunteers;
 
-- infrastructure mismatch;
+\- infrastructure mismatch;
 
-- central support bottlenecks;
+\- central support bottlenecks;
 
-- poor replication across sites;
+\- poor replication across sites;
 
-- reliance on heroic labor;
+\- reliance on heroic labor;
 
-- no succession plan;
+\- no succession plan;
 
-- local context ignored.
+\- local context ignored.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any operations option should define:
 
-- context;
+\- context;
 
-- roles;
+\- roles;
 
-- cadence;
+\- cadence;
 
-- tools;
+\- tools;
 
-- dependencies;
+\- dependencies;
 
-- support needs;
+\- support needs;
 
-- reporting expectations;
+\- reporting expectations;
 
-- failure detection;
+\- failure detection;
 
-- local adaptation boundaries;
+\- local adaptation boundaries;
 
-- review cadence.
+\- review cadence.
 
----
+\---
 
-### 9. Experimentation Options
+\#\#\# 9\. Experimentation Options
 
 Experimentation options define how the Toolkit tests new structures, mechanisms, workflows, and practices safely.
 
-#### Experiment forms
+\#\#\#\# Experiment forms
 
 Examples:
 
-- pilot programs;
+\- pilot programs;
 
-- hypothesis-driven experiments;
+\- hypothesis-driven experiments;
 
-- safe-to-fail tests;
+\- safe-to-fail tests;
 
-- sandbox deployments;
+\- sandbox deployments;
 
-- parallel trials;
+\- parallel trials;
 
-- bounded local experiments;
+\- bounded local experiments;
 
-- mechanism tests;
+\- mechanism tests;
 
-- governance pilots;
+\- governance pilots;
 
-- documentation experiments;
+\- documentation experiments;
 
-- AI workflow tests;
+\- AI workflow tests;
 
-- funding round experiments;
+\- funding round experiments;
 
-- local node probes.
+\- local node probes.
 
-#### Iteration systems
+\#\#\#\# Iteration systems
 
 Examples:
 
-- feedback loops;
+\- feedback loops;
 
-- review cycles;
+\- review cycles;
 
-- reflection sessions;
+\- reflection sessions;
 
-- experimental cohorts;
+\- experimental cohorts;
 
-- retrospective synthesis;
+\- retrospective synthesis;
 
-- adaptation logs;
+\- adaptation logs;
 
-- versioned protocol updates;
+\- versioned protocol updates;
 
-- stop / continue / scale reviews;
+\- stop / continue / scale reviews;
 
-- learning briefs;
+\- learning briefs;
 
-- signal harvesting.
+\- signal harvesting.
 
-#### Selection questions
+\#\#\#\# Selection questions
 
-- What is fixed and what is being tested?
+\- What is fixed and what is being tested?
 
-- Can failure be contained?
+\- Can failure be contained?
 
-- Who knows this is experimental?
+\- Who knows this is experimental?
 
-- What evidence will count as success, failure, or revision trigger?
+\- What evidence will count as success, failure, or revision trigger?
 
-- What is the rollback plan?
+\- What is the rollback plan?
 
-- Who reviews results?
+\- Who reviews results?
 
-- What gets documented?
+\- What gets documented?
 
-- When does an experiment become a pattern candidate?
+\- When does an experiment become a pattern candidate?
 
-- When should it stop?
+\- When should it stop?
 
-#### Common dependencies
+\#\#\#\# Common dependencies
 
 Experimentation options depend on:
 
-- clear hypothesis;
+\- clear hypothesis;
 
-- safe boundaries;
+\- safe boundaries;
 
-- participant awareness;
+\- participant awareness;
 
-- review process;
+\- review process;
 
-- documentation;
+\- documentation;
 
-- feedback channels;
+\- feedback channels;
 
-- rollback conditions;
+\- rollback conditions;
 
-- implementation memory.
+\- implementation memory.
 
-#### Common failure modes
+\#\#\#\# Common failure modes
 
-- unclear hypothesis;
+\- unclear hypothesis;
 
-- experimentation without documentation;
+\- experimentation without documentation;
 
-- treating experiments as permanent systems too early;
+\- treating experiments as permanent systems too early;
 
-- no criteria for stopping or scaling;
+\- no criteria for stopping or scaling;
 
-- participants unaware that the system is experimental;
+\- participants unaware that the system is experimental;
 
-- failure hidden to preserve appearance;
+\- failure hidden to preserve appearance;
 
-- lessons not integrated.
+\- lessons not integrated.
 
-#### Required deployment checks
+\#\#\#\# Required deployment checks
 
 Any experimentation option should define:
 
-- hypothesis;
+\- hypothesis;
 
-- scope;
+\- scope;
 
-- participants;
+\- participants;
 
-- fixed / configurable / experimental elements;
+\- fixed / configurable / experimental elements;
 
-- success / failure criteria;
+\- success / failure criteria;
 
-- stop conditions;
+\- stop conditions;
 
-- rollback plan;
+\- rollback plan;
 
-- review cadence;
+\- review cadence;
 
-- documentation process;
+\- documentation process;
 
-- learning integration path.
+\- learning integration path.
 
----
+\---
 
-## Cross-category compositions
+\#\# Cross-category compositions
 
 Options usually do not operate in isolation.
 
@@ -10665,271 +10665,271 @@ The Toolkit should eventually document common compositions that combine multiple
 
 Compositions can later become Tracks or Deployment templates.
 
----
+\---
 
-### Example composition: Local Node Model
-
-May include:
-
-- local chapter or node structure;
-
-- steward role system;
-
-- hybrid governance;
-
-- async \+ sync coordination rhythm;
-
-- contributor onboarding;
-
-- local resource mapping;
-
-- grants \+ local fundraising;
-
-- documentation hub;
-
-- milestone tracking;
-
-- periodic retrospectives;
-
-- public-use boundaries for local claims;
-
-- local-to-network reporting.
-
-Key deployment questions:
-
-- What autonomy does the local node have?
-
-- What must remain aligned with the wider network?
-
-- Who are the stewards?
-
-- Where are decisions recorded?
-
-- How are local claims reviewed?
-
-- How does the node avoid becoming dependent on central support?
-
-- How does implementation learning flow back?
-
----
-
-### Example composition: Participatory Allocation System
+\#\#\# Example composition: Local Node Model
 
 May include:
 
-- proposal-based governance;
+\- local chapter or node structure;
 
-- public forum or intake process;
+\- steward role system;
 
-- quadratic, delegated, conviction, or committee allocation;
+\- hybrid governance;
 
-- review committee;
+\- async \+ sync coordination rhythm;
 
-- evidence or attestation layer;
+\- contributor onboarding;
 
-- treasury control;
+\- local resource mapping;
 
-- dispute process;
+\- grants \+ local fundraising;
 
-- public documentation;
+\- documentation hub;
 
-- post-round reflection.
+\- milestone tracking;
+
+\- periodic retrospectives;
+
+\- public-use boundaries for local claims;
+
+\- local-to-network reporting.
 
 Key deployment questions:
 
-- Who can apply?
+\- What autonomy does the local node have?
 
-- Who can vote or review?
+\- What must remain aligned with the wider network?
 
-- What evidence is required?
+\- Who are the stewards?
 
-- Who controls the funds?
+\- Where are decisions recorded?
 
-- What prevents gaming?
+\- How are local claims reviewed?
 
-- What public claims are allowed?
+\- How does the node avoid becoming dependent on central support?
 
-- How are failures documented?
+\- How does implementation learning flow back?
 
----
+\---
 
-### Example composition: Knowledge Garden Network
+\#\#\# Example composition: Participatory Allocation System
 
 May include:
 
-- markdown / wiki / graph knowledge system;
+\- proposal-based governance;
 
-- ontology-linked metadata;
+\- public forum or intake process;
 
-- source-system cards;
+\- quadratic, delegated, conviction, or committee allocation;
 
-- contributor role system;
+\- review committee;
 
-- editorial workflow;
+\- evidence or attestation layer;
 
-- case study pattern;
+\- treasury control;
 
-- AI-assisted classification;
+\- dispute process;
 
-- cross-org curation protocols;
+\- public documentation;
 
-- feedback and versioning loop;
-
-- public-use boundaries.
+\- post-round reflection.
 
 Key deployment questions:
 
-- What is the source of truth?
+\- Who can apply?
 
-- Who can add content?
+\- Who can vote or review?
 
-- Who reviews high-risk claims?
+\- What evidence is required?
 
-- How are source systems credited?
+\- Who controls the funds?
 
-- What is AI allowed to do?
+\- What prevents gaming?
 
-- What gets archived or composted?
+\- What public claims are allowed?
 
-- How does knowledge stay alive?
+\- How are failures documented?
 
----
+\---
 
-### Example composition: Ecological Impact Reporting Flow
+\#\#\# Example composition: Knowledge Garden Network
 
 May include:
 
-- field data collection;
+\- markdown / wiki / graph knowledge system;
 
-- photo evidence;
+\- ontology-linked metadata;
 
-- ecological indicators;
+\- source-system cards;
 
-- MRV or monitoring framework;
+\- contributor role system;
 
-- local steward review;
+\- editorial workflow;
 
-- public claim template;
+\- case study pattern;
 
-- attestation or evidence record;
+\- AI-assisted classification;
 
-- dashboard;
+\- cross-org curation protocols;
 
-- community review;
+\- feedback and versioning loop;
 
-- funding report;
-
-- uncertainty notes.
+\- public-use boundaries.
 
 Key deployment questions:
 
-- What claim is being made?
+\- What is the source of truth?
 
-- What evidence supports it?
+\- Who can add content?
 
-- Who collected the data?
+\- Who reviews high-risk claims?
 
-- Who reviewed it?
+\- How are source systems credited?
 
-- What uncertainty remains?
+\- What is AI allowed to do?
 
-- Is the claim safe for public use?
+\- What gets archived or composted?
 
-- Could the data expose sensitive locations or communities?
+\- How does knowledge stay alive?
 
-- How does the reporting feed future action?
+\---
 
----
-
-### Example composition: AI-Assisted Knowledge Commons Workflow
+\#\#\# Example composition: Ecological Impact Reporting Flow
 
 May include:
 
-- source ingestion;
+\- field data collection;
 
-- metadata extraction;
+\- photo evidence;
 
-- entity and relation suggestions;
+\- ecological indicators;
 
-- draft summaries;
+\- MRV or monitoring framework;
 
-- source-system cards;
+\- local steward review;
 
-- human review workflow;
+\- public claim template;
 
-- public-use labeling;
+\- attestation or evidence record;
 
-- retrieval / RAG system;
+\- dashboard;
 
-- knowledge graph updates;
+\- community review;
 
-- deprecation and archive process.
+\- funding report;
+
+\- uncertainty notes.
 
 Key deployment questions:
 
-- What can AI classify automatically?
+\- What claim is being made?
 
-- What must humans review?
+\- What evidence supports it?
 
-- How are hallucinations caught?
+\- Who collected the data?
 
-- How is source lineage preserved?
+\- Who reviewed it?
 
-- What relationships are candidate vs reviewed?
+\- What uncertainty remains?
 
-- What content is too sensitive for AI workflows?
+\- Is the claim safe for public use?
 
-- Who is accountable for public outputs?
+\- Could the data expose sensitive locations or communities?
 
----
+\- How does the reporting feed future action?
 
-## Option classification fields
+\---
+
+\#\#\# Example composition: AI-Assisted Knowledge Commons Workflow
+
+May include:
+
+\- source ingestion;
+
+\- metadata extraction;
+
+\- entity and relation suggestions;
+
+\- draft summaries;
+
+\- source-system cards;
+
+\- human review workflow;
+
+\- public-use labeling;
+
+\- retrieval / RAG system;
+
+\- knowledge graph updates;
+
+\- deprecation and archive process.
+
+Key deployment questions:
+
+\- What can AI classify automatically?
+
+\- What must humans review?
+
+\- How are hallucinations caught?
+
+\- How is source lineage preserved?
+
+\- What relationships are candidate vs reviewed?
+
+\- What content is too sensitive for AI workflows?
+
+\- Who is accountable for public outputs?
+
+\---
+
+\#\# Option classification fields
 
 Every option should eventually be classifiable using shared metadata.
 
 Useful fields include:
 
-- domain;
+\- domain;
 
-- function;
+\- function;
 
-- audience;
+\- audience;
 
-- maturity;
+\- maturity;
 
-- scale;
+\- scale;
 
-- context;
+\- context;
 
-- tech surface;
+\- tech surface;
 
-- stage;
+\- stage;
 
-- capital forms affected;
+\- capital forms affected;
 
-- dependency level;
+\- dependency level;
 
-- governance sensitivity;
+\- governance sensitivity;
 
-- operational overhead;
+\- operational overhead;
 
-- review needs;
+\- review needs;
 
-- public-use boundary;
+\- public-use boundary;
 
-- implementation evidence;
+\- implementation evidence;
 
-- failure mode severity;
+\- failure mode severity;
 
-- compatibility notes.
+\- compatibility notes.
 
 This allows the Option Library to become filterable and composable rather than a flat list.
 
----
+\---
 
-### Distinctions from adjacent layers
+\#\#\# Distinctions from adjacent layers
 
-#### Option Library vs Encyclopedia
+\#\#\#\# Option Library vs Encyclopedia
 
 The Encyclopedia explains what something means.
 
@@ -10937,11 +10937,11 @@ The Option Library records it as a reusable design choice.
 
 Example:
 
-- Encyclopedia: “What is quadratic funding?”
+\- Encyclopedia: “What is quadratic funding?”
 
-- Option Library: “Quadratic funding as an allocation mechanism, including dependencies, use cases, and failure modes.”
+\- Option Library: “Quadratic funding as an allocation mechanism, including dependencies, use cases, and failure modes.”
 
-#### Option Library vs Resource Graph
+\#\#\#\# Option Library vs Resource Graph
 
 The Resource Graph contains real-world examples and references.
 
@@ -10949,11 +10949,11 @@ The Option Library abstracts reusable choices from them.
 
 Example:
 
-- Resource Graph: Gitcoin, Allo, Octant, Commons Stack.
+\- Resource Graph: Gitcoin, Allo, Octant, Commons Stack.
 
-- Option Library: grants, QF, retroPGF, conviction funding, milestone-based funding.
+\- Option Library: grants, QF, retroPGF, conviction funding, milestone-based funding.
 
-#### Option Library vs Deployment
+\#\#\#\# Option Library vs Deployment
 
 The Option Library contains possible components.
 
@@ -10961,11 +10961,11 @@ The Deployment layer defines the explicit structural conditions required to inst
 
 Example:
 
-- Option: multisig treasury.
+\- Option: multisig treasury.
 
-- Deployment: specific signers, threshold, spending authority, reporting, emergency process, rotation, conflict process.
+\- Deployment: specific signers, threshold, spending authority, reporting, emergency process, rotation, conflict process.
 
-#### Option Library vs Tracks
+\#\#\#\# Option Library vs Tracks
 
 The Option Library contains modular components.
 
@@ -10973,11 +10973,11 @@ Tracks are pre-composed pathways using selected components.
 
 Example:
 
-- Option: local node model.
+\- Option: local node model.
 
-- Track: Local Node Builder pathway.
+\- Track: Local Node Builder pathway.
 
-#### Option Library vs Implementation Memory
+\#\#\#\# Option Library vs Implementation Memory
 
 The Option Library describes reusable choices.
 
@@ -10985,107 +10985,107 @@ Implementation Memory records what happened when those choices were used.
 
 Example:
 
-- Option: contributor bounty system.
+\- Option: contributor bounty system.
 
-- Implementation Memory: a specific bounty program, participation results, review friction, gaming attempts, and lessons.
+\- Implementation Memory: a specific bounty program, participation results, review friction, gaming attempts, and lessons.
 
----
+\---
 
-### Minimum rule for this layer
+\#\#\# Minimum rule for this layer
 
 An item belongs in the Option Library only if it can function as a reusable design choice, structural pattern, mechanism, protocol, tool category, template, or component that can be selected and composed in multiple contexts.
 
 Items that are only:
 
-- broad concepts;
+\- broad concepts;
 
-- raw links;
+\- raw links;
 
-- one-off implementations;
+\- one-off implementations;
 
-- undeclared assumptions;
+\- undeclared assumptions;
 
-- source systems;
+\- source systems;
 
-- unreviewed claims;
+\- unreviewed claims;
 
 should remain in adjacent layers unless explicitly abstracted into a reusable option.
 
----
+\---
 
-### Practical v0.1 recommendation
+\#\#\# Practical v0.1 recommendation
 
 For the next iteration, do not attempt to complete every option entry.
 
 Instead:
 
-1. Preserve the nine major option categories.
+1\. Preserve the nine major option categories.
 
-2. Create 2–3 example entries in each category.
+2\. Create 2–3 example entries in each category.
 
-3. Mark raw options as candidates.
+3\. Mark raw options as candidates.
 
-4. Add failure modes and deployment checks to high-risk options first.
+4\. Add failure modes and deployment checks to high-risk options first.
 
-5. Link priority options to Encyclopedia pages and Resource Graph references.
+5\. Link priority options to Encyclopedia pages and Resource Graph references.
 
-6. Route options into relevant Tracks later.
+6\. Route options into relevant Tracks later.
 
-7. Use implementation cases to update maturity over time.
+7\. Use implementation cases to update maturity over time.
 
 Priority example options for v0.1 could include:
 
-- local node model;
+\- local node model;
 
-- source-system card;
+\- source-system card;
 
-- claim-evidence record;
+\- claim-evidence record;
 
-- consent-based decision-making;
+\- consent-based decision-making;
 
-- multisig treasury;
+\- multisig treasury;
 
-- quadratic funding;
+\- quadratic funding;
 
-- milestone-based grants;
+\- milestone-based grants;
 
-- attestation-based evidence record;
+\- attestation-based evidence record;
 
-- knowledge garden workflow;
+\- knowledge garden workflow;
 
-- implementation retrospective;
+\- implementation retrospective;
 
-- safe-to-fail probe;
+\- safe-to-fail probe;
 
-- AI-assisted source classification.
+\- AI-assisted source classification.
 
 The Option Library becomes useful when it helps people compare and choose, not when it lists everything.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Option Library is the Toolkit’s reusable design layer.
 
 It organizes:
 
-- governance options;
+\- governance options;
 
-- coordination options;
+\- coordination options;
 
-- organizational structure options;
+\- organizational structure options;
 
-- funding and capital options;
+\- funding and capital options;
 
-- token and incentive options;
+\- token and incentive options;
 
-- knowledge and documentation options;
+\- knowledge and documentation options;
 
-- impact and measurement options;
+\- impact and measurement options;
 
-- implementation and operations options;
+\- implementation and operations options;
 
-- experimentation options.
+\- experimentation options.
 
 Its job is to make design space legible.
 
@@ -11097,28 +11097,28 @@ The Option Library should help people choose with care, compose with context, an
 
 # 🧰 Deployment & Structural Integrity
 
-## 10. Deployment & Structural Integrity
+\#\# 10\. Deployment & Structural Integrity
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Deployment & Structural Integrity layer defines what must be explicit before an option, track, tool, process, governance model, funding mechanism, knowledge workflow, or implementation design is used in practice.
 
 It helps answer:
 
-- What exactly is being deployed?  
-- In what context?  
-- By whom?  
-- For whom?  
-- Who decides?  
-- Who participates?  
-- Who holds authority?  
-- Who controls infrastructure, funds, data, or access?  
-- What information is required?  
-- What risks are visible?  
-- What obligations exist?  
-- What failure modes are expected?  
-- What is fixed, configurable, or experimental?  
-- What review is required before this can be treated as ready?
+\- What exactly is being deployed?  
+\- In what context?  
+\- By whom?  
+\- For whom?  
+\- Who decides?  
+\- Who participates?  
+\- Who holds authority?  
+\- Who controls infrastructure, funds, data, or access?  
+\- What information is required?  
+\- What risks are visible?  
+\- What obligations exist?  
+\- What failure modes are expected?  
+\- What is fixed, configurable, or experimental?  
+\- What review is required before this can be treated as ready?
 
 This layer exists because a good idea is not the same as a valid deployment.
 
@@ -11132,15 +11132,15 @@ But none of those are automatically safe or coherent in a new context.
 
 Deployment is where choices become operational.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 This layer should be treated as one of the main stabilization priorities for the Toolkit.
 
 Previous iterations already contained a strong deployment principle:
 
-> A deployment is valid only if all required structures are explicitly defined and visible.
+\> A deployment is valid only if all required structures are explicitly defined and visible.
 
 That principle should be preserved.
 
@@ -11148,47 +11148,47 @@ The Toolkit should not encourage people to copy mechanisms, governance models, f
 
 This is especially important for:
 
-- governance systems;  
-- funding mechanisms;  
-- token or incentive systems;  
-- identity and reputation systems;  
-- ecological or MRV workflows;  
-- local node models;  
-- public goods funding rounds;  
-- AI-assisted knowledge systems;  
-- community mapping;  
-- source-system aggregation;  
-- impact claims;  
-- civic partnerships;  
-- data collection;  
-- public reporting.
+\- governance systems;  
+\- funding mechanisms;  
+\- token or incentive systems;  
+\- identity and reputation systems;  
+\- ecological or MRV workflows;  
+\- local node models;  
+\- public goods funding rounds;  
+\- AI-assisted knowledge systems;  
+\- community mapping;  
+\- source-system aggregation;  
+\- impact claims;  
+\- civic partnerships;  
+\- data collection;  
+\- public reporting.
 
 Deployment should be where optimism is translated into responsibility.
 
----
+\---
 
-### What deployment means
+\#\#\# What deployment means
 
 A deployment is a specific configuration prepared for use in a real context.
 
 It may include:
 
-- selected options;  
-- tools;  
-- roles;  
-- rules;  
-- decisions;  
-- authority boundaries;  
-- consent conditions;  
-- communication channels;  
-- review processes;  
-- funding flows;  
-- data flows;  
-- documentation practices;  
-- escalation paths;  
-- failure detection;  
-- public-use boundaries;  
-- implementation context.
+\- selected options;  
+\- tools;  
+\- roles;  
+\- rules;  
+\- decisions;  
+\- authority boundaries;  
+\- consent conditions;  
+\- communication channels;  
+\- review processes;  
+\- funding flows;  
+\- data flows;  
+\- documentation practices;  
+\- escalation paths;  
+\- failure detection;  
+\- public-use boundaries;  
+\- implementation context.
 
 A deployment is more specific than an option.
 
@@ -11212,45 +11212,45 @@ A deployment is the specified setup.
 
 An implementation is what actually happens.
 
----
+\---
 
-### Why this layer matters
+\#\#\# Why this layer matters
 
 Many systems fail because they import tools or mechanisms without importing the structural conditions that made those tools work elsewhere.
 
 Examples:
 
-- A funding mechanism is copied without anti-fraud review.  
-- A governance model is copied without role clarity.  
-- A local node model is copied without autonomy boundaries.  
-- A dashboard is published without evidence quality review.  
-- An AI workflow is deployed without human review boundaries.  
-- An attestation system is created without privacy and revocation logic.  
-- A community map is published without consent.  
-- A source system is aggregated without attribution or return path.  
-- A token incentive is launched without gaming analysis.  
-- A public claim is made without separating claim from evidence.
+\- A funding mechanism is copied without anti-fraud review.  
+\- A governance model is copied without role clarity.  
+\- A local node model is copied without autonomy boundaries.  
+\- A dashboard is published without evidence quality review.  
+\- An AI workflow is deployed without human review boundaries.  
+\- An attestation system is created without privacy and revocation logic.  
+\- A community map is published without consent.  
+\- A source system is aggregated without attribution or return path.  
+\- A token incentive is launched without gaming analysis.  
+\- A public claim is made without separating claim from evidence.
 
 Deployment protects against this.
 
 It forces the Toolkit to ask:
 
-> What must be true for this to be used responsibly here?
+\> What must be true for this to be used responsibly here?
 
----
+\---
 
-### Structural integrity
+\#\#\# Structural integrity
 
 Structural integrity means that the necessary relationships, responsibilities, constraints, and feedback paths of a deployment are visible enough to be reviewed.
 
 A structurally legible deployment should make the following explicit:
 
-1. Decision system    
-2. Information requirements    
-3. Power structure    
-4. Accountability system    
-5. Failure detection system    
-6. Fixed / configurable / experimental boundaries
+1\. Decision system    
+2\. Information requirements    
+3\. Power structure    
+4\. Accountability system    
+5\. Failure detection system    
+6\. Fixed / configurable / experimental boundaries
 
 These six components form the minimum deployment integrity check.
 
@@ -11258,108 +11258,108 @@ They do not guarantee success.
 
 They make success, failure, risk, and responsibility easier to see.
 
----
+\---
 
-## Minimum deployment integrity check
+\#\# Minimum deployment integrity check
 
-### 1. Decision system
+\#\#\# 1\. Decision system
 
 Every deployment should define how decisions are made.
 
 Questions:
 
-- What decisions exist?  
-- Who can propose?  
-- Who can approve?  
-- Who can reject?  
-- Who can execute?  
-- Who can pause or reverse?  
-- What thresholds apply?  
-- What decisions are delegated?  
-- What decisions require consent, vote, review, or steward approval?  
-- Where are decisions recorded?  
-- How are decisions communicated?  
-- What happens when there is disagreement?  
-- What happens in emergencies?
+\- What decisions exist?  
+\- Who can propose?  
+\- Who can approve?  
+\- Who can reject?  
+\- Who can execute?  
+\- Who can pause or reverse?  
+\- What thresholds apply?  
+\- What decisions are delegated?  
+\- What decisions require consent, vote, review, or steward approval?  
+\- Where are decisions recorded?  
+\- How are decisions communicated?  
+\- What happens when there is disagreement?  
+\- What happens in emergencies?
 
 Examples of decision systems:
 
-- steward approval;  
-- multisig approval;  
-- token vote;  
-- one-person-one-vote;  
-- consent process;  
-- committee review;  
-- delegated decision rights;  
-- local node autonomy;  
-- domain-specific working group decision;  
-- public forum \+ steward ratification;  
-- legal entity board approval;  
-- hybrid online/offline process.
+\- steward approval;  
+\- multisig approval;  
+\- token vote;  
+\- one-person-one-vote;  
+\- consent process;  
+\- committee review;  
+\- delegated decision rights;  
+\- local node autonomy;  
+\- domain-specific working group decision;  
+\- public forum \+ steward ratification;  
+\- legal entity board approval;  
+\- hybrid online/offline process.
 
 Risks if unclear:
 
-- hidden authority;  
-- decision paralysis;  
-- informal capture;  
-- legitimacy disputes;  
-- unclear execution;  
-- conflict escalation;  
-- public confusion;  
-- governance theater.
+\- hidden authority;  
+\- decision paralysis;  
+\- informal capture;  
+\- legitimacy disputes;  
+\- unclear execution;  
+\- conflict escalation;  
+\- public confusion;  
+\- governance theater.
 
----
+\---
 
-### 2. Information requirements
+\#\#\# 2\. Information requirements
 
 Every deployment should define what information is needed for people to act responsibly.
 
 Questions:
 
-- What information is required before a decision?  
-- What information is required before participation?  
-- What information is required before public claims?  
-- What evidence is required?  
-- What must be documented?  
-- What must be visible to participants?  
-- What must remain private?  
-- Where is the source of truth?  
-- Who maintains the information?  
-- How is outdated information corrected?  
-- What uncertainties must remain visible?
+\- What information is required before a decision?  
+\- What information is required before participation?  
+\- What information is required before public claims?  
+\- What evidence is required?  
+\- What must be documented?  
+\- What must be visible to participants?  
+\- What must remain private?  
+\- Where is the source of truth?  
+\- Who maintains the information?  
+\- How is outdated information corrected?  
+\- What uncertainties must remain visible?
 
 Examples of information requirements:
 
-- eligibility criteria;  
-- budget;  
-- roles;  
-- governance rules;  
-- evidence requirements;  
-- data sources;  
-- implementation context;  
-- risk notes;  
-- public-use boundaries;  
-- review status;  
-- source lineage;  
-- local consent notes;  
-- privacy constraints;  
-- claim-evidence records.
+\- eligibility criteria;  
+\- budget;  
+\- roles;  
+\- governance rules;  
+\- evidence requirements;  
+\- data sources;  
+\- implementation context;  
+\- risk notes;  
+\- public-use boundaries;  
+\- review status;  
+\- source lineage;  
+\- local consent notes;  
+\- privacy constraints;  
+\- claim-evidence records.
 
 Risks if unclear:
 
-- low-context decisions;  
-- weak accountability;  
-- false claims;  
-- duplicated work;  
-- hidden dependencies;  
-- overconfident public communication;  
-- participants acting without enough context;  
-- AI-generated false coherence;  
-- outdated or conflicting documentation.
+\- low-context decisions;  
+\- weak accountability;  
+\- false claims;  
+\- duplicated work;  
+\- hidden dependencies;  
+\- overconfident public communication;  
+\- participants acting without enough context;  
+\- AI-generated false coherence;  
+\- outdated or conflicting documentation.
 
----
+\---
 
-### 3. Power structure
+\#\#\# 3\. Power structure
 
 Every deployment should define where power sits.
 
@@ -11367,165 +11367,165 @@ Power includes more than formal governance.
 
 It may include:
 
-- decision rights;  
-- treasury control;  
-- admin access;  
-- data control;  
-- infrastructure control;  
-- moderation power;  
-- agenda-setting power;  
-- review authority;  
-- technical maintainer control;  
-- legal authority;  
-- narrative authority;  
-- ability to include or exclude participants;  
-- ability to publish or suppress information.
+\- decision rights;  
+\- treasury control;  
+\- admin access;  
+\- data control;  
+\- infrastructure control;  
+\- moderation power;  
+\- agenda-setting power;  
+\- review authority;  
+\- technical maintainer control;  
+\- legal authority;  
+\- narrative authority;  
+\- ability to include or exclude participants;  
+\- ability to publish or suppress information.
 
 Questions:
 
-- Who has formal authority?  
-- Who has informal influence?  
-- Who controls funds?  
-- Who controls data?  
-- Who controls infrastructure?  
-- Who controls access?  
-- Who can remove content?  
-- Who can change rules?  
-- Who can approve public claims?  
-- Who can represent the group externally?  
-- Who benefits from the deployment?  
-- Who carries risk?  
-- Who is affected but not represented?
+\- Who has formal authority?  
+\- Who has informal influence?  
+\- Who controls funds?  
+\- Who controls data?  
+\- Who controls infrastructure?  
+\- Who controls access?  
+\- Who can remove content?  
+\- Who can change rules?  
+\- Who can approve public claims?  
+\- Who can represent the group externally?  
+\- Who benefits from the deployment?  
+\- Who carries risk?  
+\- Who is affected but not represented?
 
 Risks if unclear:
 
-- hidden centralization;  
-- capture;  
-- abuse of admin access;  
-- unaccountable treasury control;  
-- community misrepresentation;  
-- local autonomy violations;  
-- extractive source use;  
-- governance appearing decentralized while power remains centralized;  
-- vulnerable participants exposed to harm.
+\- hidden centralization;  
+\- capture;  
+\- abuse of admin access;  
+\- unaccountable treasury control;  
+\- community misrepresentation;  
+\- local autonomy violations;  
+\- extractive source use;  
+\- governance appearing decentralized while power remains centralized;  
+\- vulnerable participants exposed to harm.
 
----
+\---
 
-### 4. Accountability system
+\#\#\# 4\. Accountability system
 
 Every deployment should define how responsibility is tracked and corrected.
 
 Questions:
 
-- Who is accountable for what?  
-- What commitments exist?  
-- Where are commitments recorded?  
-- Who reviews whether commitments were met?  
-- How are mistakes corrected?  
-- How are disputes handled?  
-- How are harms surfaced?  
-- How can participants appeal?  
-- How can contributors give feedback?  
-- What happens if someone fails to perform a role?  
-- What happens if funds are misused?  
-- What happens if public claims are wrong?  
-- What happens if a source system is misrepresented?
+\- Who is accountable for what?  
+\- What commitments exist?  
+\- Where are commitments recorded?  
+\- Who reviews whether commitments were met?  
+\- How are mistakes corrected?  
+\- How are disputes handled?  
+\- How are harms surfaced?  
+\- How can participants appeal?  
+\- How can contributors give feedback?  
+\- What happens if someone fails to perform a role?  
+\- What happens if funds are misused?  
+\- What happens if public claims are wrong?  
+\- What happens if a source system is misrepresented?
 
 Examples of accountability systems:
 
-- role charters;  
-- milestone reporting;  
-- retrospectives;  
-- public decision logs;  
-- review committees;  
-- dispute processes;  
-- appeal pathways;  
-- issue trackers;  
-- contributor feedback forms;  
-- community review;  
-- treasury reports;  
-- source correction process;  
-- revocation or correction processes for attestations.
+\- role charters;  
+\- milestone reporting;  
+\- retrospectives;  
+\- public decision logs;  
+\- review committees;  
+\- dispute processes;  
+\- appeal pathways;  
+\- issue trackers;  
+\- contributor feedback forms;  
+\- community review;  
+\- treasury reports;  
+\- source correction process;  
+\- revocation or correction processes for attestations.
 
 Risks if unclear:
 
-- no correction path;  
-- unresolved conflict;  
-- broken trust;  
-- weak follow-through;  
-- public misrepresentation;  
-- unreviewed claims;  
-- failure without learning;  
-- hidden harm;  
-- responsibility diffusion.
+\- no correction path;  
+\- unresolved conflict;  
+\- broken trust;  
+\- weak follow-through;  
+\- public misrepresentation;  
+\- unreviewed claims;  
+\- failure without learning;  
+\- hidden harm;  
+\- responsibility diffusion.
 
----
+\---
 
-### 5. Failure detection system
+\#\#\# 5\. Failure detection system
 
 Every deployment should define how failure, risk, and drift will be detected.
 
 Questions:
 
-- What would count as failure?  
-- What early warning signals matter?  
-- What should trigger review?  
-- What should trigger pause?  
-- What should trigger escalation?  
-- What should trigger redesign?  
-- What should trigger deprecation?  
-- Who watches for signals?  
-- How are signals recorded?  
-- How does learning flow into the Evolution Layer?
+\- What would count as failure?  
+\- What early warning signals matter?  
+\- What should trigger review?  
+\- What should trigger pause?  
+\- What should trigger escalation?  
+\- What should trigger redesign?  
+\- What should trigger deprecation?  
+\- Who watches for signals?  
+\- How are signals recorded?  
+\- How does learning flow into the Evolution Layer?
 
 Possible failure signals:
 
-- repeated confusion;  
-- low participation;  
-- contributor burnout;  
-- governance disputes;  
-- funding capture;  
-- sybil attack;  
-- incentive gaming;  
-- ecological claim uncertainty;  
-- reporting burden too high;  
-- public claim overreach;  
-- source-system complaint;  
-- privacy concern;  
-- local legitimacy concern;  
-- tool dependency failure;  
-- data quality issue;  
-- AI hallucination;  
-- broken links;  
-- outdated documentation;  
-- community trust breakdown.
+\- repeated confusion;  
+\- low participation;  
+\- contributor burnout;  
+\- governance disputes;  
+\- funding capture;  
+\- sybil attack;  
+\- incentive gaming;  
+\- ecological claim uncertainty;  
+\- reporting burden too high;  
+\- public claim overreach;  
+\- source-system complaint;  
+\- privacy concern;  
+\- local legitimacy concern;  
+\- tool dependency failure;  
+\- data quality issue;  
+\- AI hallucination;  
+\- broken links;  
+\- outdated documentation;  
+\- community trust breakdown.
 
 Risks if unclear:
 
-- failure noticed too late;  
-- damage hidden to preserve reputation;  
-- no learning loop;  
-- repeated mistakes;  
-- reactive overcorrection;  
-- inability to distinguish one-off issues from structural problems.
+\- failure noticed too late;  
+\- damage hidden to preserve reputation;  
+\- no learning loop;  
+\- repeated mistakes;  
+\- reactive overcorrection;  
+\- inability to distinguish one-off issues from structural problems.
 
----
+\---
 
-### 6. Fixed / configurable / experimental boundaries
+\#\#\# 6\. Fixed / configurable / experimental boundaries
 
 Every deployment should define what is fixed, what can be adapted, and what is being tested.
 
 Questions:
 
-- What cannot be changed without review?  
-- What can local teams adapt?  
-- What is intentionally experimental?  
-- What is optional?  
-- What is required?  
-- What is temporary?  
-- What must be reviewed before reuse?  
-- What should be deprecated if it fails?  
-- What should be preserved as an open question?
+\- What cannot be changed without review?  
+\- What can local teams adapt?  
+\- What is intentionally experimental?  
+\- What is optional?  
+\- What is required?  
+\- What is temporary?  
+\- What must be reviewed before reuse?  
+\- What should be deprecated if it fails?  
+\- What should be preserved as an open question?
 
 Boundary categories:
 
@@ -11540,16 +11540,16 @@ Boundary categories:
 
 Risks if unclear:
 
-- local teams modify critical structures accidentally;  
-- experiments become permanent without review;  
-- people treat examples as requirements;  
-- people treat requirements as suggestions;  
-- adaptation becomes drift;  
-- rigidity blocks learning.
+\- local teams modify critical structures accidentally;  
+\- experiments become permanent without review;  
+\- people treat examples as requirements;  
+\- people treat requirements as suggestions;  
+\- adaptation becomes drift;  
+\- rigidity blocks learning.
 
----
+\---
 
-## Deployment entry template
+\#\# Deployment entry template
 
 A deployment entry should eventually include:
 
@@ -11586,94 +11586,94 @@ Not every small deployment needs every field fully developed.
 
 But high-risk deployments do.
 
----
+\---
 
-## Deployment classification
+\#\# Deployment classification
 
 A deployment may be classified by type, scale, context, maturity, and risk.
 
-### Deployment type
+\#\#\# Deployment type
 
 Examples:
 
-- governance deployment;  
-- funding deployment;  
-- local node deployment;  
-- knowledge system deployment;  
-- ecological reporting deployment;  
-- AI workflow deployment;  
-- source-system aggregation deployment;  
-- identity / credential deployment;  
-- event / gathering deployment;  
-- treasury deployment;  
-- civic partnership deployment.
+\- governance deployment;  
+\- funding deployment;  
+\- local node deployment;  
+\- knowledge system deployment;  
+\- ecological reporting deployment;  
+\- AI workflow deployment;  
+\- source-system aggregation deployment;  
+\- identity / credential deployment;  
+\- event / gathering deployment;  
+\- treasury deployment;  
+\- civic partnership deployment.
 
-### Deployment scale
-
-Examples:
-
-- individual;  
-- team;  
-- working group;  
-- local node;  
-- organization;  
-- network;  
-- ecosystem;  
-- bioregion;  
-- multi-organization collaboration.
-
-### Deployment context
+\#\#\# Deployment scale
 
 Examples:
 
-- online;  
-- local;  
-- hybrid;  
-- civic;  
-- ecological;  
-- institutional;  
-- DAO;  
-- grassroots;  
-- public-facing;  
-- internal-only;  
-- experimental.
+\- individual;  
+\- team;  
+\- working group;  
+\- local node;  
+\- organization;  
+\- network;  
+\- ecosystem;  
+\- bioregion;  
+\- multi-organization collaboration.
 
-### Deployment maturity
+\#\#\# Deployment context
 
 Examples:
 
-- draft;  
-- candidate;  
-- ready for review;  
-- reviewed;  
-- pilot;  
-- active;  
-- paused;  
-- deprecated;  
-- archived.
+\- online;  
+\- local;  
+\- hybrid;  
+\- civic;  
+\- ecological;  
+\- institutional;  
+\- DAO;  
+\- grassroots;  
+\- public-facing;  
+\- internal-only;  
+\- experimental.
 
-### Deployment risk
+\#\#\# Deployment maturity
 
 Examples:
 
-- low risk;  
-- governance risk;  
-- funding risk;  
-- ecological / MRV risk;  
-- privacy risk;  
-- identity risk;  
-- legal / tax risk;  
-- token / incentive risk;  
-- community representation risk;  
-- AI risk;  
-- infrastructure dependency risk;  
-- public claim risk.
+\- draft;  
+\- candidate;  
+\- ready for review;  
+\- reviewed;  
+\- pilot;  
+\- active;  
+\- paused;  
+\- deprecated;  
+\- archived.
+
+\#\#\# Deployment risk
+
+Examples:
+
+\- low risk;  
+\- governance risk;  
+\- funding risk;  
+\- ecological / MRV risk;  
+\- privacy risk;  
+\- identity risk;  
+\- legal / tax risk;  
+\- token / incentive risk;  
+\- community representation risk;  
+\- AI risk;  
+\- infrastructure dependency risk;  
+\- public claim risk.
 
 Risk should determine review depth.
 
----
+\---
 
-## Deployment review types
+\#\# Deployment review types
 
 Different deployments require different review.
 
@@ -11695,183 +11695,183 @@ The purpose of review is not to block action.
 
 It is to make action safer, clearer, and more accountable.
 
----
+\---
 
-## High-risk deployment areas
+\#\# High-risk deployment areas
 
 Some deployment areas should receive extra care by default.
 
-### 1. Funding mechanisms
+\#\#\# 1\. Funding mechanisms
 
 Risks:
 
-- gaming;  
-- capture;  
-- poor evaluation;  
-- unclear treasury control;  
-- grant dependency;  
-- favoritism;  
-- weak accountability;  
-- public overclaiming.
+\- gaming;  
+\- capture;  
+\- poor evaluation;  
+\- unclear treasury control;  
+\- grant dependency;  
+\- favoritism;  
+\- weak accountability;  
+\- public overclaiming.
 
 Required clarity:
 
-- eligibility;  
-- review criteria;  
-- fund control;  
-- anti-fraud process;  
-- disbursement;  
-- reporting;  
-- dispute process;  
-- public claim boundaries.
+\- eligibility;  
+\- review criteria;  
+\- fund control;  
+\- anti-fraud process;  
+\- disbursement;  
+\- reporting;  
+\- dispute process;  
+\- public claim boundaries.
 
-### 2. Token and incentive systems
+\#\#\# 2\. Token and incentive systems
 
 Risks:
 
-- speculation;  
-- perverse incentives;  
-- farming;  
-- reputational lock-in;  
-- reward extraction;  
-- governance capture;  
-- privacy harms.
+\- speculation;  
+\- perverse incentives;  
+\- farming;  
+\- reputational lock-in;  
+\- reward extraction;  
+\- governance capture;  
+\- privacy harms.
 
 Required clarity:
 
-- purpose;  
-- transferability;  
-- issuance;  
-- revocation;  
-- verification;  
-- gaming risks;  
-- governance implications;  
-- privacy boundaries.
+\- purpose;  
+\- transferability;  
+\- issuance;  
+\- revocation;  
+\- verification;  
+\- gaming risks;  
+\- governance implications;  
+\- privacy boundaries.
 
-### 3. Governance systems
+\#\#\# 3\. Governance systems
 
 Risks:
 
-- hidden power;  
-- low participation;  
-- unclear authority;  
-- capture;  
-- legitimacy disputes;  
-- emergency ambiguity.
+\- hidden power;  
+\- low participation;  
+\- unclear authority;  
+\- capture;  
+\- legitimacy disputes;  
+\- emergency ambiguity.
 
 Required clarity:
 
-- decision rights;  
-- proposal rights;  
-- execution authority;  
-- thresholds;  
-- escalation;  
-- dispute process;  
-- review cadence.
+\- decision rights;  
+\- proposal rights;  
+\- execution authority;  
+\- thresholds;  
+\- escalation;  
+\- dispute process;  
+\- review cadence.
 
-### 4. Ecological / MRV systems
+\#\#\# 4\. Ecological / MRV systems
 
 Risks:
 
-- overclaiming;  
-- weak evidence;  
-- ecological simplification;  
-- sensitive location exposure;  
-- false public impact narratives;  
-- inappropriate financialization.
+\- overclaiming;  
+\- weak evidence;  
+\- ecological simplification;  
+\- sensitive location exposure;  
+\- false public impact narratives;  
+\- inappropriate financialization.
 
 Required clarity:
 
-- claim type;  
-- evidence type;  
-- reviewer;  
-- uncertainty;  
-- public-use boundary;  
-- data sensitivity;  
-- correction process.
+\- claim type;  
+\- evidence type;  
+\- reviewer;  
+\- uncertainty;  
+\- public-use boundary;  
+\- data sensitivity;  
+\- correction process.
 
-### 5. AI-assisted systems
+\#\#\# 5\. AI-assisted systems
 
 Risks:
 
-- hallucination;  
-- false coherence;  
-- source loss;  
-- automation without accountability;  
-- hidden bias;  
-- over-trust;  
-- public misrepresentation.
+\- hallucination;  
+\- false coherence;  
+\- source loss;  
+\- automation without accountability;  
+\- hidden bias;  
+\- over-trust;  
+\- public misrepresentation.
 
 Required clarity:
 
-- what AI can do;  
-- what humans must review;  
-- source lineage;  
-- confidence boundaries;  
-- public-use labels;  
-- correction process.
+\- what AI can do;  
+\- what humans must review;  
+\- source lineage;  
+\- confidence boundaries;  
+\- public-use labels;  
+\- correction process.
 
-### 6. Community mapping and representation
+\#\#\# 6\. Community mapping and representation
 
 Risks:
 
-- misrepresentation;  
-- consent violations;  
-- sensitive data exposure;  
-- false authority;  
-- local context flattening;  
-- extractive visibility.
+\- misrepresentation;  
+\- consent violations;  
+\- sensitive data exposure;  
+\- false authority;  
+\- local context flattening;  
+\- extractive visibility.
 
 Required clarity:
 
-- consent;  
-- represented parties;  
-- steward review;  
-- location precision;  
-- public/private boundaries;  
-- correction path.
+\- consent;  
+\- represented parties;  
+\- steward review;  
+\- location precision;  
+\- public/private boundaries;  
+\- correction path.
 
----
+\---
 
-## CSIS-informed deployment posture
+\#\# CSIS-informed deployment posture
 
 The Deployment layer may be informed by CSIS, but it should not claim CSIS conformance unless formally assessed.
 
 A useful posture:
 
-> CSIS helps the Toolkit ask structural questions.    
-> It does not automatically certify the Toolkit or any deployment.
+\> CSIS helps the Toolkit ask structural questions.    
+\> It does not automatically certify the Toolkit or any deployment.
 
 CSIS-informed deployment thinking may focus on:
 
-- information asymmetry;  
-- structural gaps;  
-- power and control;  
-- accountability;  
-- external override;  
-- conflict pathways;  
-- contestability;  
-- capacity development;  
-- adverse signals;  
-- failure detection;  
-- system drift.
+\- information asymmetry;  
+\- structural gaps;  
+\- power and control;  
+\- accountability;  
+\- external override;  
+\- conflict pathways;  
+\- contestability;  
+\- capacity development;  
+\- adverse signals;  
+\- failure detection;  
+\- system drift.
 
 The Toolkit can use CSIS as a discipline for asking:
 
-- What is structurally missing?  
-- Who has authority without accountability?  
-- Who carries obligations without power?  
-- What information is required but unavailable?  
-- What external forces can override the system?  
-- Where could conflict emerge?  
-- What failure signals would appear first?  
-- What feedback loops are missing?
+\- What is structurally missing?  
+\- Who has authority without accountability?  
+\- Who carries obligations without power?  
+\- What information is required but unavailable?  
+\- What external forces can override the system?  
+\- Where could conflict emerge?  
+\- What failure signals would appear first?  
+\- What feedback loops are missing?
 
 This should strengthen deployment review without overcomplicating every small action.
 
----
+\---
 
-## Deployment validity levels
+\#\# Deployment validity levels
 
 Deployments can be classified by readiness.
 
@@ -11889,170 +11889,170 @@ Deployments can be classified by readiness.
 
 This helps prevent a rough idea from being presented as a usable system.
 
----
+\---
 
-## Example deployment checks
+\#\# Example deployment checks
 
-### Example: Public goods funding round deployment
-
-Required fields:
-
-- round purpose;  
-- eligibility;  
-- matching pool source;  
-- application process;  
-- review criteria;  
-- voter eligibility;  
-- sybil resistance;  
-- allocation mechanism;  
-- dispute process;  
-- treasury control;  
-- disbursement process;  
-- reporting expectations;  
-- public claim boundaries;  
-- post-round retrospective;  
-- failure signals;  
-- update path.
-
-Likely review needs:
-
-- governance review;  
-- funding review;  
-- token / incentive review;  
-- public-use review;  
-- implementation review.
-
-Common failure signals:
-
-- application confusion;  
-- eligibility disputes;  
-- voter farming;  
-- low-quality reporting;  
-- favoritism concerns;  
-- weak post-round learning;  
-- projects overclaiming impact.
-
----
-
-### Example: Local node deployment
+\#\#\# Example: Public goods funding round deployment
 
 Required fields:
 
-- local context;  
-- node purpose;  
-- local stewards;  
-- relationship to wider network;  
-- autonomy boundaries;  
-- decision process;  
-- coordination rhythm;  
-- resource flow;  
-- documentation process;  
-- local partnerships;  
-- public representation boundaries;  
-- reporting expectations;  
-- support needs;  
-- failure signals;  
-- review cadence.
+\- round purpose;  
+\- eligibility;  
+\- matching pool source;  
+\- application process;  
+\- review criteria;  
+\- voter eligibility;  
+\- sybil resistance;  
+\- allocation mechanism;  
+\- dispute process;  
+\- treasury control;  
+\- disbursement process;  
+\- reporting expectations;  
+\- public claim boundaries;  
+\- post-round retrospective;  
+\- failure signals;  
+\- update path.
 
 Likely review needs:
 
-- governance review;  
-- community review;  
-- local/place-based review;  
-- funding review, if funds involved;  
-- public-use review.
+\- governance review;  
+\- funding review;  
+\- token / incentive review;  
+\- public-use review;  
+\- implementation review.
 
 Common failure signals:
 
-- local stewards overloaded;  
-- network expectations unclear;  
-- local autonomy contested;  
-- funding dependence;  
-- poor documentation;  
-- community misrepresentation;  
-- central network overreach;  
-- local action disconnected from learning loop.
+\- application confusion;  
+\- eligibility disputes;  
+\- voter farming;  
+\- low-quality reporting;  
+\- favoritism concerns;  
+\- weak post-round learning;  
+\- projects overclaiming impact.
 
----
+\---
 
-### Example: AI-assisted knowledge workflow deployment
+\#\#\# Example: Local node deployment
 
 Required fields:
 
-- corpus;  
-- source systems;  
-- AI tasks;  
-- human review requirements;  
-- classification schema;  
-- relationship status labels;  
-- source lineage process;  
-- public/private boundaries;  
-- hallucination detection;  
-- correction process;  
-- review cadence;  
-- public-use rules;  
-- data privacy constraints;  
-- deprecation / archive logic.
+\- local context;  
+\- node purpose;  
+\- local stewards;  
+\- relationship to wider network;  
+\- autonomy boundaries;  
+\- decision process;  
+\- coordination rhythm;  
+\- resource flow;  
+\- documentation process;  
+\- local partnerships;  
+\- public representation boundaries;  
+\- reporting expectations;  
+\- support needs;  
+\- failure signals;  
+\- review cadence.
 
 Likely review needs:
 
-- AI review;  
-- source-system review;  
-- ontology review;  
-- privacy review;  
-- editorial review.
+\- governance review;  
+\- community review;  
+\- local/place-based review;  
+\- funding review, if funds involved;  
+\- public-use review.
 
 Common failure signals:
 
-- hallucinated summaries;  
-- missing attribution;  
-- false relationship suggestions;  
-- source-system complaints;  
-- AI outputs treated as reviewed;  
-- outdated content resurfaced;  
-- overconfidence in search results.
+\- local stewards overloaded;  
+\- network expectations unclear;  
+\- local autonomy contested;  
+\- funding dependence;  
+\- poor documentation;  
+\- community misrepresentation;  
+\- central network overreach;  
+\- local action disconnected from learning loop.
 
----
+\---
 
-### Example: Ecological reporting deployment
+\#\#\# Example: AI-assisted knowledge workflow deployment
 
 Required fields:
 
-- ecological claim type;  
-- data collection method;  
-- location precision;  
-- evidence required;  
-- local steward review;  
-- domain reviewer;  
-- uncertainty statement;  
-- public-use boundary;  
-- sensitive data policy;  
-- correction process;  
-- relation to funding or governance;  
-- reporting cadence;  
-- learning integration.
+\- corpus;  
+\- source systems;  
+\- AI tasks;  
+\- human review requirements;  
+\- classification schema;  
+\- relationship status labels;  
+\- source lineage process;  
+\- public/private boundaries;  
+\- hallucination detection;  
+\- correction process;  
+\- review cadence;  
+\- public-use rules;  
+\- data privacy constraints;  
+\- deprecation / archive logic.
 
 Likely review needs:
 
-- ecological / MRV review;  
-- community review;  
-- privacy / location review;  
-- public-use review;  
-- funding review, if tied to funding.
+\- AI review;  
+\- source-system review;  
+\- ontology review;  
+\- privacy review;  
+\- editorial review.
 
 Common failure signals:
 
-- evidence too weak for claim;  
-- data collection inconsistent;  
-- public dashboard overstates results;  
-- local context missing;  
-- sensitive sites exposed;  
-- funders use data beyond intended scope;  
-- no correction path.
+\- hallucinated summaries;  
+\- missing attribution;  
+\- false relationship suggestions;  
+\- source-system complaints;  
+\- AI outputs treated as reviewed;  
+\- outdated content resurfaced;  
+\- overconfidence in search results.
 
----
+\---
 
-## Deployment and tracks
+\#\#\# Example: Ecological reporting deployment
+
+Required fields:
+
+\- ecological claim type;  
+\- data collection method;  
+\- location precision;  
+\- evidence required;  
+\- local steward review;  
+\- domain reviewer;  
+\- uncertainty statement;  
+\- public-use boundary;  
+\- sensitive data policy;  
+\- correction process;  
+\- relation to funding or governance;  
+\- reporting cadence;  
+\- learning integration.
+
+Likely review needs:
+
+\- ecological / MRV review;  
+\- community review;  
+\- privacy / location review;  
+\- public-use review;  
+\- funding review, if tied to funding.
+
+Common failure signals:
+
+\- evidence too weak for claim;  
+\- data collection inconsistent;  
+\- public dashboard overstates results;  
+\- local context missing;  
+\- sensitive sites exposed;  
+\- funders use data beyond intended scope;  
+\- no correction path.
+
+\---
+
+\#\# Deployment and tracks
 
 Tracks help people move through a pathway.
 
@@ -12060,24 +12060,24 @@ Deployment specifies what actually gets used.
 
 A track may include:
 
-- learning resources;  
-- concepts;  
-- options;  
-- tools;  
-- examples;  
-- prompts;  
-- checklists.
+\- learning resources;  
+\- concepts;  
+\- options;  
+\- tools;  
+\- examples;  
+\- prompts;  
+\- checklists.
 
 A deployment must include:
 
-- decisions;  
-- roles;  
-- authority;  
-- information requirements;  
-- risks;  
-- failure detection;  
-- accountability;  
-- review boundaries.
+\- decisions;  
+\- roles;  
+\- authority;  
+\- information requirements;  
+\- risks;  
+\- failure detection;  
+\- accountability;  
+\- review boundaries.
 
 Example:
 
@@ -12092,9 +12092,9 @@ Tracks can prepare a deployment.
 
 They should not be mistaken for one.
 
----
+\---
 
-## Deployment and implementation
+\#\# Deployment and implementation
 
 Deployment is plan plus structure.
 
@@ -12102,74 +12102,74 @@ Implementation is real-world execution.
 
 Implementation Memory should record:
 
-- what was deployed;  
-- what changed in practice;  
-- what assumptions failed;  
-- what adaptations happened;  
-- what signals emerged;  
-- what should update the deployment template;  
-- what should update the Option Library;  
-- what should update the Encyclopedia;  
-- what should update the Resource Graph;  
-- what should become a pattern candidate;  
-- what should be deprecated or composted.
+\- what was deployed;  
+\- what changed in practice;  
+\- what assumptions failed;  
+\- what adaptations happened;  
+\- what signals emerged;  
+\- what should update the deployment template;  
+\- what should update the Option Library;  
+\- what should update the Encyclopedia;  
+\- what should update the Resource Graph;  
+\- what should become a pattern candidate;  
+\- what should be deprecated or composted.
 
 This relationship is central to the Toolkit’s learning loop.
 
----
+\---
 
-## Minimum rule for this layer
+\#\# Minimum rule for this layer
 
 Nothing should be treated as deployment-ready unless the following are explicit:
 
-1. Decision system    
-2. Information requirements    
-3. Power structure    
-4. Accountability system    
-5. Failure detection system    
-6. Fixed / configurable / experimental boundaries
+1\. Decision system    
+2\. Information requirements    
+3\. Power structure    
+4\. Accountability system    
+5\. Failure detection system    
+6\. Fixed / configurable / experimental boundaries
 
 For low-risk internal experiments, this can be lightweight.
 
 For high-risk public, financial, ecological, identity, governance, or AI-assisted deployments, this should be detailed and reviewed.
 
----
+\---
 
-### Practical v0.1 recommendation
+\#\#\# Practical v0.1 recommendation
 
 For the next iteration, do not try to create full deployment specs for everything.
 
 Start with a few high-value deployment templates:
 
-1. Local Node Deployment  
-2. Public Goods Funding Round Deployment  
-3. Knowledge Commons / Source System Deployment  
-4. AI-Assisted Knowledge Workflow Deployment  
-5. Ecological Impact Reporting Deployment  
-6. Governance Process Deployment  
-7. Treasury / Multisig Deployment  
-8. Claim-Evidence Record Deployment
+1\. Local Node Deployment  
+2\. Public Goods Funding Round Deployment  
+3\. Knowledge Commons / Source System Deployment  
+4\. AI-Assisted Knowledge Workflow Deployment  
+5\. Ecological Impact Reporting Deployment  
+6\. Governance Process Deployment  
+7\. Treasury / Multisig Deployment  
+8\. Claim-Evidence Record Deployment
 
 Each template should include:
 
-- purpose;  
-- context;  
-- selected options;  
-- roles;  
-- decision system;  
-- information requirements;  
-- power structure;  
-- accountability;  
-- failure signals;  
-- review needs;  
-- public-use boundary;  
-- learning loop.
+\- purpose;  
+\- context;  
+\- selected options;  
+\- roles;  
+\- decision system;  
+\- information requirements;  
+\- power structure;  
+\- accountability;  
+\- failure signals;  
+\- review needs;  
+\- public-use boundary;  
+\- learning loop.
 
 These templates can be improved through real implementations.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 Deployment is where the Toolkit becomes operational.
 
@@ -12177,16 +12177,16 @@ It is the layer that prevents concepts, options, tracks, tools, or inspiring exa
 
 The core deployment principle is:
 
-> A deployment is valid only if the required structures are explicitly defined and visible.
+\> A deployment is valid only if the required structures are explicitly defined and visible.
 
 The minimum required structures are:
 
-- decision system;  
-- information requirements;  
-- power structure;  
-- accountability system;  
-- failure detection system;  
-- fixed / configurable / experimental boundaries.
+\- decision system;  
+\- information requirements;  
+\- power structure;  
+\- accountability system;  
+\- failure detection system;  
+\- fixed / configurable / experimental boundaries.
 
 Deployment does not guarantee success.
 
@@ -12194,9 +12194,9 @@ It makes success, failure, risk, responsibility, and learning visible enough to 
 
 # 🚂 Tracks & Composition
 
-## 11. Tracks & Composition
+\#\# 11\. Tracks & Composition
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 Tracks are guided pathways through the Toolkit.
 
@@ -12204,15 +12204,15 @@ They help a person, group, node, project, or partner move through relevant conce
 
 Tracks help answer:
 
-- Where should someone start?  
-- What should they understand first?  
-- What resources are most relevant?  
-- Which options should they compare?  
-- What tools or templates may help?  
-- What risks should they notice?  
-- What deployment checks are required before action?  
-- What implementation examples or failure cases should inform their work?  
-- What should they document and feed back into the Toolkit?
+\- Where should someone start?  
+\- What should they understand first?  
+\- What resources are most relevant?  
+\- Which options should they compare?  
+\- What tools or templates may help?  
+\- What risks should they notice?  
+\- What deployment checks are required before action?  
+\- What implementation examples or failure cases should inform their work?  
+\- What should they document and feed back into the Toolkit?
 
 Tracks make the Toolkit usable.
 
@@ -12228,9 +12228,9 @@ Tracks prepare people for action.
 Deployments specify action.    
 Implementations record what actually happened.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 This layer should remain flexible.
 
@@ -12242,86 +12242,86 @@ For v0.1, the goal is to define a small number of useful tracks that can help di
 
 A good track should:
 
-- provide orientation;  
-- select relevant concepts;  
-- surface key resources;  
-- suggest options to compare;  
-- point to examples and cases;  
-- name risks and failure modes;  
-- link to deployment templates;  
-- invite implementation learning back into the commons.
+\- provide orientation;  
+\- select relevant concepts;  
+\- surface key resources;  
+\- suggest options to compare;  
+\- point to examples and cases;  
+\- name risks and failure modes;  
+\- link to deployment templates;  
+\- invite implementation learning back into the commons.
 
 A track should not pretend to solve a context automatically.
 
 It should help someone prepare better.
 
----
+\---
 
-### What a track is
+\#\#\# What a track is
 
 A track is a curated pathway across Toolkit layers.
 
 It may include:
 
-- concepts;  
-- encyclopedia pages;  
-- source systems;  
-- resource graph entries;  
-- option library entries;  
-- tools;  
-- templates;  
-- examples;  
-- case studies;  
-- anti-patterns;  
-- failure cases;  
-- deployment checks;  
-- reflection prompts;  
-- implementation memory prompts;  
-- open questions.
+\- concepts;  
+\- encyclopedia pages;  
+\- source systems;  
+\- resource graph entries;  
+\- option library entries;  
+\- tools;  
+\- templates;  
+\- examples;  
+\- case studies;  
+\- anti-patterns;  
+\- failure cases;  
+\- deployment checks;  
+\- reflection prompts;  
+\- implementation memory prompts;  
+\- open questions.
 
 A track should be useful to a specific audience or purpose.
 
 Examples:
 
-- Newcomer Orientation;  
-- Community Organizer;  
-- Local Node Builder;  
-- Public Goods Funding Round;  
-- Knowledge Commons Builder;  
-- Governance Deep Dive;  
-- Environmental Impact;  
-- Bioregional Coordination;  
-- AI-Assisted Knowledge Garden;  
-- ReFi Builder;  
-- Implementation Reviewer.
+\- Newcomer Orientation;  
+\- Community Organizer;  
+\- Local Node Builder;  
+\- Public Goods Funding Round;  
+\- Knowledge Commons Builder;  
+\- Governance Deep Dive;  
+\- Environmental Impact;  
+\- Bioregional Coordination;  
+\- AI-Assisted Knowledge Garden;  
+\- ReFi Builder;  
+\- Implementation Reviewer.
 
 Tracks should help people avoid starting from a blank page.
 
----
+\---
 
-### What a track is not
+\#\#\# What a track is not
 
 A track is not:
 
-- a final curriculum;  
-- a finished implementation plan;  
-- a universal playbook;  
-- a deployment specification;  
-- a certification process;  
-- a substitute for local judgment;  
-- a claim that one pathway works everywhere;  
-- a promise that listed options are safe to use;  
-- a guarantee that included resources are reviewed or endorsed.
+\- a final curriculum;  
+\- a finished implementation plan;  
+\- a universal playbook;  
+\- a deployment specification;  
+\- a certification process;  
+\- a substitute for local judgment;  
+\- a claim that one pathway works everywhere;  
+\- a promise that listed options are safe to use;  
+\- a guarantee that included resources are reviewed or endorsed.
 
 A track is a guided composition.
 
 It should make the next step clearer without hiding uncertainty.
 
----
+\---
 
-### Track vs adjacent layers
+\#\#\# Track vs adjacent layers
 
-#### Track vs Encyclopedia
+\#\#\#\# Track vs Encyclopedia
 
 The Encyclopedia explains concepts.
 
@@ -12329,10 +12329,10 @@ A track sequences the concepts that a person may need for a specific purpose.
 
 Example:
 
-- Encyclopedia page: “What is quadratic funding?”  
-- Track: “Public Goods Funding Round” includes QF as one possible funding mechanism to compare.
+\- Encyclopedia page: “What is quadratic funding?”  
+\- Track: “Public Goods Funding Round” includes QF as one possible funding mechanism to compare.
 
-#### Track vs Resource Graph
+\#\#\#\# Track vs Resource Graph
 
 The Resource Graph stores resources.
 
@@ -12340,10 +12340,10 @@ A track selects relevant resources for a pathway.
 
 Example:
 
-- Resource Graph: Gitcoin, Allo, Octant, Commons Stack, Hypercerts.  
-- Track: “Public Goods Funding Round” links to these only where they support the track.
+\- Resource Graph: Gitcoin, Allo, Octant, Commons Stack, Hypercerts.  
+\- Track: “Public Goods Funding Round” links to these only where they support the track.
 
-#### Track vs Option Library
+\#\#\#\# Track vs Option Library
 
 The Option Library contains reusable choices.
 
@@ -12351,10 +12351,10 @@ A track recommends which options to compare or consider for a context.
 
 Example:
 
-- Option Library: grants, QF, retroPGF, conviction voting, milestone funding.  
-- Track: “Public Goods Funding Round” helps a user compare which may fit their needs.
+\- Option Library: grants, QF, retroPGF, conviction voting, milestone funding.  
+\- Track: “Public Goods Funding Round” helps a user compare which may fit their needs.
 
-#### Track vs Deployment
+\#\#\#\# Track vs Deployment
 
 A track is a pathway.
 
@@ -12362,12 +12362,12 @@ A deployment is a specific configuration.
 
 Example:
 
-- Track: “Local Node Builder.”  
-- Deployment: “GreenPill Brasil local node onboarding, governance, and funding flow for Season X.”
+\- Track: “Local Node Builder.”  
+\- Deployment: “GreenPill Brasil local node onboarding, governance, and funding flow for Season X.”
 
 The track helps prepare the deployment, but it does not replace it.
 
-#### Track vs Implementation Memory
+\#\#\#\# Track vs Implementation Memory
 
 Implementation Memory records what happened.
 
@@ -12375,32 +12375,32 @@ A track can use implementation cases as examples, warnings, or evidence.
 
 Example:
 
-- Track: “Knowledge Commons Builder.”  
-- Implementation Memory: “What happened when a team tried to migrate from Google Docs into Markdown and GitHub.”
+\- Track: “Knowledge Commons Builder.”  
+\- Implementation Memory: “What happened when a team tried to migrate from Google Docs into Markdown and GitHub.”
 
-#### Track vs Evolution Layer
+\#\#\#\# Track vs Evolution Layer
 
 The Evolution Layer updates tracks based on signals.
 
 Examples:
 
-- repeated confusion in a track;  
-- outdated resources;  
-- missing deployment checks;  
-- failure cases;  
-- new implementation lessons;  
-- source-system changes;  
-- emerging risks.
+\- repeated confusion in a track;  
+\- outdated resources;  
+\- missing deployment checks;  
+\- failure cases;  
+\- new implementation lessons;  
+\- source-system changes;  
+\- emerging risks.
 
 Tracks should evolve through use.
 
----
+\---
 
-## Track structure
+\#\# Track structure
 
 A track should have a consistent structure so contributors can create and improve them over time.
 
-### Track template
+\#\#\# Track template
 
 | Field | Prompt |  
 |---|---|  
@@ -12431,9 +12431,9 @@ Not every track needs to be fully developed at first.
 
 A track can begin as a rough pathway and mature through use.
 
----
+\---
 
-### Track maturity
+\#\#\# Track maturity
 
 Tracks should have maturity states.
 
@@ -12451,1144 +12451,1144 @@ A draft track can still be useful.
 
 But public-facing or high-risk tracks should show their maturity and review needs.
 
----
+\---
 
-### Track composition logic
+\#\#\# Track composition logic
 
 Tracks are composed from multiple Toolkit layers.
 
 A strong track should usually include:
 
-1. \*\*Orientation\*\*  
-   - What is this track for?  
-   - Who is it for?  
-   - What assumptions does it make?
+1\. \*\*Orientation\*\*  
+   \- What is this track for?  
+   \- Who is it for?  
+   \- What assumptions does it make?
 
-2. \*\*Concept foundation\*\*  
-   - What concepts need to be understood first?  
-   - What terms are commonly confused?
+2\. \*\*Concept foundation\*\*  
+   \- What concepts need to be understood first?  
+   \- What terms are commonly confused?
 
-3. \*\*Resource grounding\*\*  
-   - What source systems, projects, tools, maps, or references should be visible?
+3\. \*\*Resource grounding\*\*  
+   \- What source systems, projects, tools, maps, or references should be visible?
 
-4. \*\*Option comparison\*\*  
-   - What reusable choices are available?  
-   - What tradeoffs matter?
+4\. \*\*Option comparison\*\*  
+   \- What reusable choices are available?  
+   \- What tradeoffs matter?
 
-5. \*\*Risk and failure awareness\*\*  
-   - How does this pathway commonly fail?  
-   - What signals should people watch for?
+5\. \*\*Risk and failure awareness\*\*  
+   \- How does this pathway commonly fail?  
+   \- What signals should people watch for?
 
-6. \*\*Deployment preparation\*\*  
-   - What must be explicit before use?  
-   - What review is required?
+6\. \*\*Deployment preparation\*\*  
+   \- What must be explicit before use?  
+   \- What review is required?
 
-7. \*\*Implementation memory\*\*  
-   - What should be documented after trying this?  
-   - What signals should feed the Evolution Layer?
+7\. \*\*Implementation memory\*\*  
+   \- What should be documented after trying this?  
+   \- What signals should feed the Evolution Layer?
 
 Tracks should move from orientation toward action without skipping structural integrity.
 
----
+\---
 
-## Core track candidates
+\#\# Core track candidates
 
 The following tracks are strong candidates for v0.1.
 
 They should be treated as drafts until developed and tested.
 
----
+\---
 
-### 1. Newcomer Orientation Track
+\#\#\# 1\. Newcomer Orientation Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help someone new to regenerative web3, public goods, knowledge commons, or local coordination understand the basic landscape without drowning in jargon.
 
-#### Audience
+\#\#\#\# Audience
 
-- newcomers;  
-- curious community members;  
-- early contributors;  
-- local organizers entering web3;  
-- web3 participants entering regeneration;  
-- public goods people entering knowledge commons.
+\- newcomers;  
+\- curious community members;  
+\- early contributors;  
+\- local organizers entering web3;  
+\- web3 participants entering regeneration;  
+\- public goods people entering knowledge commons.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What is this ecosystem?  
-- Why do web3, regeneration, public goods, and local coordination intersect?  
-- What are the basic terms?  
-- What should I read first?  
-- What should I not assume?  
-- How can I contribute without needing to understand everything?
+\- What is this ecosystem?  
+\- Why do web3, regeneration, public goods, and local coordination intersect?  
+\- What are the basic terms?  
+\- What should I read first?  
+\- What should I not assume?  
+\- How can I contribute without needing to understand everything?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- web3;  
-- public goods;  
-- commons;  
-- regeneration;  
-- ReFi;  
-- governance;  
-- coordination;  
-- local nodes;  
-- knowledge commons;  
-- source systems;  
-- impact;  
-- funding;  
-- attestations;  
-- AI-assisted knowledge work.
+\- web3;  
+\- public goods;  
+\- commons;  
+\- regeneration;  
+\- ReFi;  
+\- governance;  
+\- coordination;  
+\- local nodes;  
+\- knowledge commons;  
+\- source systems;  
+\- impact;  
+\- funding;  
+\- attestations;  
+\- AI-assisted knowledge work.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- public goods vs commons;  
-- web3 vs crypto speculation;  
-- regeneration vs sustainability;  
-- resource vs source system;  
-- learning path vs deployment;  
-- AI-assisted vs reviewed.
+\- public goods vs commons;  
+\- web3 vs crypto speculation;  
+\- regeneration vs sustainability;  
+\- resource vs source system;  
+\- learning path vs deployment;  
+\- AI-assisted vs reviewed.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- GreenPill Network;  
-- ReFi DAO;  
-- Bankless Academy;  
-- Kernel;  
-- Ethereum.org;  
-- Regen Atlas;  
-- Bloom Network;  
-- Gitcoin;  
-- local/regenerative examples from Implementation Memory.
+\- GreenPill Network;  
+\- ReFi DAO;  
+\- Bankless Academy;  
+\- Kernel;  
+\- Ethereum.org;  
+\- Regen Atlas;  
+\- Bloom Network;  
+\- Gitcoin;  
+\- local/regenerative examples from Implementation Memory.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- newcomer onboarding flow;  
-- learning circle;  
-- glossary system;  
-- contributor orientation;  
-- community call rhythm;  
-- starter task / bounty;  
-- resource map.
+\- newcomer onboarding flow;  
+\- learning circle;  
+\- glossary system;  
+\- contributor orientation;  
+\- community call rhythm;  
+\- starter task / bounty;  
+\- resource map.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- jargon overload;  
-- speculative crypto framing dominates;  
-- too much theory before action;  
-- unclear contribution pathway;  
-- newcomers confuse tools with purpose;  
-- AI summaries create false confidence.
+\- jargon overload;  
+\- speculative crypto framing dominates;  
+\- too much theory before action;  
+\- unclear contribution pathway;  
+\- newcomers confuse tools with purpose;  
+\- AI summaries create false confidence.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 If this track becomes an onboarding program, specify:
 
-- who facilitates;  
-- what resources are canonical;  
-- how questions are answered;  
-- how newcomers contribute;  
-- what public claims are safe;  
-- how learning feedback is captured.
+\- who facilitates;  
+\- what resources are canonical;  
+\- how questions are answered;  
+\- how newcomers contribute;  
+\- what public claims are safe;  
+\- how learning feedback is captured.
 
----
+\---
 
-### 2. Community Organizer Track
+\#\#\# 2\. Community Organizer Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help organizers build and maintain healthy community coordination systems.
 
-#### Audience
+\#\#\#\# Audience
 
-- community stewards;  
-- chapter leads;  
-- guild leads;  
-- DAO operators;  
-- local organizers;  
-- working group coordinators;  
-- event hosts.
+\- community stewards;  
+\- chapter leads;  
+\- guild leads;  
+\- DAO operators;  
+\- local organizers;  
+\- working group coordinators;  
+\- event hosts.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- How do we coordinate without burning people out?  
-- How do we create clear roles?  
-- How do we make decisions?  
-- How do we onboard contributors?  
-- How do we preserve memory?  
-- How do we handle conflict or ambiguity?  
-- How do we connect local work to network learning?
+\- How do we coordinate without burning people out?  
+\- How do we create clear roles?  
+\- How do we make decisions?  
+\- How do we onboard contributors?  
+\- How do we preserve memory?  
+\- How do we handle conflict or ambiguity?  
+\- How do we connect local work to network learning?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- coordination;  
-- governance;  
-- stewardship;  
-- roles;  
-- participation;  
-- legitimacy;  
-- trust;  
-- facilitation;  
-- documentation;  
-- accountability;  
-- community rhythms;  
-- contribution pathways;  
-- power visibility.
+\- coordination;  
+\- governance;  
+\- stewardship;  
+\- roles;  
+\- participation;  
+\- legitimacy;  
+\- trust;  
+\- facilitation;  
+\- documentation;  
+\- accountability;  
+\- community rhythms;  
+\- contribution pathways;  
+\- power visibility.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- governance vs coordination;  
-- role vs person;  
-- facilitator vs decision-maker;  
-- participation vs accountability;  
-- community event vs implementation;  
-- informal power vs formal authority.
+\- governance vs coordination;  
+\- role vs person;  
+\- facilitator vs decision-maker;  
+\- participation vs accountability;  
+\- community event vs implementation;  
+\- informal power vs formal authority.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- Priya Parker — The Art of Gathering;  
-- Emergent Strategy;  
-- Sociocracy 3.0;  
-- Team Topologies;  
-- Team of Teams;  
-- GreenPill onboarding materials;  
-- Bloom community posts;  
-- community climate resources.
+\- Priya Parker — The Art of Gathering;  
+\- Emergent Strategy;  
+\- Sociocracy 3.0;  
+\- Team Topologies;  
+\- Team of Teams;  
+\- GreenPill onboarding materials;  
+\- Bloom community posts;  
+\- community climate resources.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- working groups;  
-- circles;  
-- guilds;  
-- stewardship roles;  
-- weekly sync rhythm;  
-- retrospectives;  
-- contributor onboarding;  
-- role charters;  
-- decision logs;  
-- escalation protocols;  
-- support request process.
+\- working groups;  
+\- circles;  
+\- guilds;  
+\- stewardship roles;  
+\- weekly sync rhythm;  
+\- retrospectives;  
+\- contributor onboarding;  
+\- role charters;  
+\- decision logs;  
+\- escalation protocols;  
+\- support request process.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- role ambiguity;  
-- meeting overload;  
-- hidden hierarchy;  
-- contributor burnout;  
-- undocumented decisions;  
-- no escalation path;  
-- coordination depends on one person;  
-- cultural norms conflict with governance process.
+\- role ambiguity;  
+\- meeting overload;  
+\- hidden hierarchy;  
+\- contributor burnout;  
+\- undocumented decisions;  
+\- no escalation path;  
+\- coordination depends on one person;  
+\- cultural norms conflict with governance process.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 If this becomes a community operating system, specify:
 
-- roles;  
-- authority;  
-- meeting cadence;  
-- documentation location;  
-- decision process;  
-- conflict process;  
-- onboarding process;  
-- review cadence;  
-- failure signals.
+\- roles;  
+\- authority;  
+\- meeting cadence;  
+\- documentation location;  
+\- decision process;  
+\- conflict process;  
+\- onboarding process;  
+\- review cadence;  
+\- failure signals.
 
----
+\---
 
-### 3. Local Node Builder Track
+\#\#\# 3\. Local Node Builder Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help a group prepare a local node, chapter, hub, or place-based coordination structure.
 
-#### Audience
+\#\#\#\# Audience
 
-- local chapter leaders;  
-- GreenPill local organizers;  
-- ReFi local nodes;  
-- bioregional organizers;  
-- civic partners;  
-- local community builders;  
-- regenerative project coordinators.
+\- local chapter leaders;  
+\- GreenPill local organizers;  
+\- ReFi local nodes;  
+\- bioregional organizers;  
+\- civic partners;  
+\- local community builders;  
+\- regenerative project coordinators.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What is a local node?  
-- What is its relationship to the wider network?  
-- What should be local and what should be shared?  
-- Who are the stewards?  
-- How is legitimacy established?  
-- How does the node coordinate resources?  
-- How does local learning feed back into the commons?
+\- What is a local node?  
+\- What is its relationship to the wider network?  
+\- What should be local and what should be shared?  
+\- Who are the stewards?  
+\- How is legitimacy established?  
+\- How does the node coordinate resources?  
+\- How does local learning feed back into the commons?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- local node;  
-- chapter;  
-- hub;  
-- bioregion;  
-- place-based coordination;  
-- local autonomy;  
-- federation;  
-- subsidiarity;  
-- civic partnership;  
-- community legitimacy;  
-- local resource flows;  
-- mutual aid;  
-- implementation memory.
+\- local node;  
+\- chapter;  
+\- hub;  
+\- bioregion;  
+\- place-based coordination;  
+\- local autonomy;  
+\- federation;  
+\- subsidiarity;  
+\- civic partnership;  
+\- community legitimacy;  
+\- local resource flows;  
+\- mutual aid;  
+\- implementation memory.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- local node vs chapter;  
-- local autonomy vs network coherence;  
-- local legitimacy vs brand affiliation;  
-- local action vs public claim;  
-- implementation case vs pattern;  
-- place-based knowledge vs generic template.
+\- local node vs chapter;  
+\- local autonomy vs network coherence;  
+\- local legitimacy vs brand affiliation;  
+\- local action vs public claim;  
+\- implementation case vs pattern;  
+\- place-based knowledge vs generic template.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- GreenPill Network local chapter materials;  
-- ReFi DAO localism finance;  
-- Ethereum Localism;  
-- LocalScale;  
-- Bloom Network;  
-- Hylo;  
-- Community Climate Coaches;  
-- Sarafu / Grassroots Economics;  
-- local implementation examples such as Regen Rio or GreenPill Brasil.
+\- GreenPill Network local chapter materials;  
+\- ReFi DAO localism finance;  
+\- Ethereum Localism;  
+\- LocalScale;  
+\- Bloom Network;  
+\- Hylo;  
+\- Community Climate Coaches;  
+\- Sarafu / Grassroots Economics;  
+\- local implementation examples such as Regen Rio or GreenPill Brasil.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- local node structure;  
-- stewardship circle;  
-- local treasury;  
-- requests/offers board;  
-- community mapping;  
-- civic partnership workflow;  
-- local event rhythm;  
-- local impact reporting;  
-- mutual aid flow;  
-- local-to-network reporting.
+\- local node structure;  
+\- stewardship circle;  
+\- local treasury;  
+\- requests/offers board;  
+\- community mapping;  
+\- civic partnership workflow;  
+\- local event rhythm;  
+\- local impact reporting;  
+\- mutual aid flow;  
+\- local-to-network reporting.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- local steward burnout;  
-- unclear autonomy boundaries;  
-- central network overreach;  
-- local node used mainly as branding;  
-- weak documentation;  
-- local claims not reviewed;  
-- funding dependence;  
-- local context flattened by network templates;  
-- no succession plan.
+\- local steward burnout;  
+\- unclear autonomy boundaries;  
+\- central network overreach;  
+\- local node used mainly as branding;  
+\- weak documentation;  
+\- local claims not reviewed;  
+\- funding dependence;  
+\- local context flattened by network templates;  
+\- no succession plan.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 Before launching a local node, specify:
 
-- local purpose;  
-- local stewards;  
-- autonomy boundaries;  
-- relationship to wider network;  
-- decision process;  
-- funding flow;  
-- documentation system;  
-- community consent and representation;  
-- local partnerships;  
-- public-use boundaries;  
-- review cadence;  
-- failure signals.
+\- local purpose;  
+\- local stewards;  
+\- autonomy boundaries;  
+\- relationship to wider network;  
+\- decision process;  
+\- funding flow;  
+\- documentation system;  
+\- community consent and representation;  
+\- local partnerships;  
+\- public-use boundaries;  
+\- review cadence;  
+\- failure signals.
 
----
+\---
 
-### 4. Public Goods Funding Round Track
+\#\#\# 4\. Public Goods Funding Round Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help a community design or prepare for a public goods funding round.
 
-#### Audience
+\#\#\#\# Audience
 
-- funding round operators;  
-- DAO treasury stewards;  
-- grant program designers;  
-- reviewers;  
-- funders;  
-- community allocation teams;  
-- public goods ecosystems.
+\- funding round operators;  
+\- DAO treasury stewards;  
+\- grant program designers;  
+\- reviewers;  
+\- funders;  
+\- community allocation teams;  
+\- public goods ecosystems.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What funding mechanism fits the context?  
-- Who is eligible?  
-- Who decides?  
-- What evidence is required?  
-- How is the treasury controlled?  
-- How are results reviewed?  
-- How do we avoid fraud, favoritism, overclaiming, or metric theater?  
-- How does the round produce learning?
+\- What funding mechanism fits the context?  
+\- Who is eligible?  
+\- Who decides?  
+\- What evidence is required?  
+\- How is the treasury controlled?  
+\- How are results reviewed?  
+\- How do we avoid fraud, favoritism, overclaiming, or metric theater?  
+\- How does the round produce learning?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- public goods;  
-- commons;  
-- grants;  
-- quadratic funding;  
-- retroPGF;  
-- conviction voting;  
-- allocation;  
-- treasury;  
-- legitimacy;  
-- Sybil resistance;  
-- evidence;  
-- impact claims;  
-- review;  
-- accountability.
+\- public goods;  
+\- commons;  
+\- grants;  
+\- quadratic funding;  
+\- retroPGF;  
+\- conviction voting;  
+\- allocation;  
+\- treasury;  
+\- legitimacy;  
+\- Sybil resistance;  
+\- evidence;  
+\- impact claims;  
+\- review;  
+\- accountability.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- grants vs QF vs retroPGF;  
-- public goods vs commons;  
-- output vs outcome;  
-- claim vs evidence;  
-- allocation mechanism vs deployment;  
-- voting vs review;  
-- funding success vs impact.
+\- grants vs QF vs retroPGF;  
+\- public goods vs commons;  
+\- output vs outcome;  
+\- claim vs evidence;  
+\- allocation mechanism vs deployment;  
+\- voting vs review;  
+\- funding success vs impact.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- Gitcoin;  
-- Allo Protocol;  
-- Octant;  
-- Optimism RetroPGF;  
-- Commons Stack;  
-- Hypercerts;  
-- Karma GAP;  
-- Open Source Observer;  
-- Gitcoin Grants Stack;  
-- Allo Capital mechanism resources.
+\- Gitcoin;  
+\- Allo Protocol;  
+\- Octant;  
+\- Optimism RetroPGF;  
+\- Commons Stack;  
+\- Hypercerts;  
+\- Karma GAP;  
+\- Open Source Observer;  
+\- Gitcoin Grants Stack;  
+\- Allo Capital mechanism resources.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- direct grants;  
-- quadratic funding;  
-- retroPGF;  
-- conviction voting;  
-- milestone-based grants;  
-- delegated review;  
-- review committee;  
-- matching pool;  
-- treasury multisig;  
-- public reporting;  
-- post-round retrospective.
+\- direct grants;  
+\- quadratic funding;  
+\- retroPGF;  
+\- conviction voting;  
+\- milestone-based grants;  
+\- delegated review;  
+\- review committee;  
+\- matching pool;  
+\- treasury multisig;  
+\- public reporting;  
+\- post-round retrospective.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- Sybil attacks;  
-- vote farming;  
-- project overclaiming;  
-- unclear eligibility;  
-- low-quality proposals;  
-- weak review;  
-- public narrative outruns evidence;  
-- grantee dependency;  
-- treasury control unclear;  
-- no learning after the round.
+\- Sybil attacks;  
+\- vote farming;  
+\- project overclaiming;  
+\- unclear eligibility;  
+\- low-quality proposals;  
+\- weak review;  
+\- public narrative outruns evidence;  
+\- grantee dependency;  
+\- treasury control unclear;  
+\- no learning after the round.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 Before running a funding round, specify:
 
-- round purpose;  
-- eligibility;  
-- funding source;  
-- application process;  
-- review criteria;  
-- voter/reviewer eligibility;  
-- allocation mechanism;  
-- anti-fraud process;  
-- treasury control;  
-- disbursement process;  
-- reporting requirements;  
-- dispute process;  
-- public-use boundaries;  
-- post-round learning process.
+\- round purpose;  
+\- eligibility;  
+\- funding source;  
+\- application process;  
+\- review criteria;  
+\- voter/reviewer eligibility;  
+\- allocation mechanism;  
+\- anti-fraud process;  
+\- treasury control;  
+\- disbursement process;  
+\- reporting requirements;  
+\- dispute process;  
+\- public-use boundaries;  
+\- post-round learning process.
 
----
+\---
 
-### 5. Knowledge Commons Builder Track
+\#\#\# 5\. Knowledge Commons Builder Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help a team build or improve a knowledge commons, knowledge garden, documentation hub, wiki, resource graph, or source-aware archive.
 
-#### Audience
+\#\#\#\# Audience
 
-- knowledge gardeners;  
-- documentation stewards;  
-- AI workflow designers;  
-- ontology contributors;  
-- source-system stewards;  
-- community archivists;  
-- research teams;  
-- Swarm collaborators.
+\- knowledge gardeners;  
+\- documentation stewards;  
+\- AI workflow designers;  
+\- ontology contributors;  
+\- source-system stewards;  
+\- community archivists;  
+\- research teams;  
+\- Swarm collaborators.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What knowledge needs to be preserved?  
-- What is the source of truth?  
-- What is a resource, concept, option, deployment, implementation, or signal?  
-- How should source systems be credited?  
-- What should AI help with?  
-- What needs human review?  
-- How will knowledge stay alive?
+\- What knowledge needs to be preserved?  
+\- What is the source of truth?  
+\- What is a resource, concept, option, deployment, implementation, or signal?  
+\- How should source systems be credited?  
+\- What should AI help with?  
+\- What needs human review?  
+\- How will knowledge stay alive?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- knowledge commons;  
-- knowledge garden;  
-- ontology;  
-- taxonomy;  
-- source system;  
-- source lineage;  
-- metadata;  
-- review state;  
-- public-use boundary;  
-- AI-assisted synthesis;  
-- implementation memory;  
-- compost.
+\- knowledge commons;  
+\- knowledge garden;  
+\- ontology;  
+\- taxonomy;  
+\- source system;  
+\- source lineage;  
+\- metadata;  
+\- review state;  
+\- public-use boundary;  
+\- AI-assisted synthesis;  
+\- implementation memory;  
+\- compost.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- ontology vs taxonomy;  
-- resource vs source system;  
-- source-linked vs reviewed;  
-- AI-assisted vs human-reviewed;  
-- archive vs compost;  
-- encyclopedia vs resource graph;  
-- option vs deployment.
+\- ontology vs taxonomy;  
+\- resource vs source system;  
+\- source-linked vs reviewed;  
+\- AI-assisted vs human-reviewed;  
+\- archive vs compost;  
+\- encyclopedia vs resource graph;  
+\- option vs deployment.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- Knowledge Commoning Swarm;  
-- Octo / BKC;  
-- OpenCivics;  
-- SuperBenefit Knowledge Garden;  
-- Bloom wiki;  
-- P2P Foundation;  
-- Commons Library;  
-- Schema.org;  
-- Wikidata;  
-- Obsidian;  
-- GitHub;  
-- Markdown;  
-- LinkML;  
-- Quartz;  
-- Astro / Starlight.
+\- Knowledge Commoning Swarm;  
+\- Octo / BKC;  
+\- OpenCivics;  
+\- SuperBenefit Knowledge Garden;  
+\- Bloom wiki;  
+\- P2P Foundation;  
+\- Commons Library;  
+\- Schema.org;  
+\- Wikidata;  
+\- Obsidian;  
+\- GitHub;  
+\- Markdown;  
+\- LinkML;  
+\- Quartz;  
+\- Astro / Starlight.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- source-system card;  
-- markdown knowledge garden;  
-- wiki;  
-- resource graph;  
-- ontology-linked metadata;  
-- AI-assisted classification;  
-- editorial workflow;  
-- review labels;  
-- public-use labels;  
-- archive / compost process;  
-- source lineage process.
+\- source-system card;  
+\- markdown knowledge garden;  
+\- wiki;  
+\- resource graph;  
+\- ontology-linked metadata;  
+\- AI-assisted classification;  
+\- editorial workflow;  
+\- review labels;  
+\- public-use labels;  
+\- archive / compost process;  
+\- source lineage process.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- link dump without meaning;  
-- overbuilt ontology;  
-- no stewardship;  
-- broken source lineage;  
-- weak review;  
-- AI-generated false coherence;  
-- duplicated structures;  
-- outdated docs;  
-- contributors cannot find where to add things;  
-- polished content treated as reviewed.
+\- link dump without meaning;  
+\- overbuilt ontology;  
+\- no stewardship;  
+\- broken source lineage;  
+\- weak review;  
+\- AI-generated false coherence;  
+\- duplicated structures;  
+\- outdated docs;  
+\- contributors cannot find where to add things;  
+\- polished content treated as reviewed.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 Before launching a knowledge commons workflow, specify:
 
-- source of truth;  
-- object types;  
-- contribution process;  
-- review process;  
-- source-system treatment;  
-- AI-use boundaries;  
-- publishing workflow;  
-- maintenance roles;  
-- archive / compost process;  
-- public/private boundaries;  
-- export and portability needs.
+\- source of truth;  
+\- object types;  
+\- contribution process;  
+\- review process;  
+\- source-system treatment;  
+\- AI-use boundaries;  
+\- publishing workflow;  
+\- maintenance roles;  
+\- archive / compost process;  
+\- public/private boundaries;  
+\- export and portability needs.
 
----
+\---
 
-### 6. Governance Deep Dive Track
+\#\#\# 6\. Governance Deep Dive Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help contributors, stewards, and operators understand governance options, power structures, and decision systems more deeply.
 
-#### Audience
+\#\#\#\# Audience
 
-- governance stewards;  
-- DAO operators;  
-- local node leads;  
-- council members;  
-- working group leads;  
-- funders;  
-- reviewers;  
-- institutional partners.
+\- governance stewards;  
+\- DAO operators;  
+\- local node leads;  
+\- council members;  
+\- working group leads;  
+\- funders;  
+\- reviewers;  
+\- institutional partners.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- Who decides?  
-- Why are decisions legitimate?  
-- What power is visible or hidden?  
-- What governance model fits this context?  
-- What happens during disagreement?  
-- How are decisions recorded and reviewed?  
-- How do we prevent capture?  
-- How does governance relate to coordination?
+\- Who decides?  
+\- Why are decisions legitimate?  
+\- What power is visible or hidden?  
+\- What governance model fits this context?  
+\- What happens during disagreement?  
+\- How are decisions recorded and reviewed?  
+\- How do we prevent capture?  
+\- How does governance relate to coordination?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- governance;  
-- coordination;  
-- authority;  
-- legitimacy;  
-- consent;  
-- delegation;  
-- representation;  
-- stewardship;  
-- accountability;  
-- power;  
-- capture;  
-- dispute;  
-- escalation;  
-- meta-governance.
+\- governance;  
+\- coordination;  
+\- authority;  
+\- legitimacy;  
+\- consent;  
+\- delegation;  
+\- representation;  
+\- stewardship;  
+\- accountability;  
+\- power;  
+\- capture;  
+\- dispute;  
+\- escalation;  
+\- meta-governance.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- governance vs coordination;  
-- formal power vs informal power;  
-- decision rights vs execution rights;  
-- voting vs deliberation;  
-- participation vs legitimacy;  
-- decentralization vs accountability;  
-- consent vs consensus;  
-- DAO governance vs cooperative governance.
+\- governance vs coordination;  
+\- formal power vs informal power;  
+\- decision rights vs execution rights;  
+\- voting vs deliberation;  
+\- participation vs legitimacy;  
+\- decentralization vs accountability;  
+\- consent vs consensus;  
+\- DAO governance vs cooperative governance.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- Ostrom;  
-- MetaGov;  
-- DAOstar;  
-- CSIS;  
-- Plurality;  
-- Radical Markets;  
-- Sociocracy 3.0;  
-- Commons Stack;  
-- GreenPill governance materials;  
-- Gardens documentation.
+\- Ostrom;  
+\- MetaGov;  
+\- DAOstar;  
+\- CSIS;  
+\- Plurality;  
+\- Radical Markets;  
+\- Sociocracy 3.0;  
+\- Commons Stack;  
+\- GreenPill governance materials;  
+\- Gardens documentation.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- consent decision-making;  
-- token voting;  
-- delegated governance;  
-- council model;  
-- multisig governance;  
-- proposal lifecycle;  
-- dispute process;  
-- working group mandates;  
-- role charters;  
-- governance review cycle.
+\- consent decision-making;  
+\- token voting;  
+\- delegated governance;  
+\- council model;  
+\- multisig governance;  
+\- proposal lifecycle;  
+\- dispute process;  
+\- working group mandates;  
+\- role charters;  
+\- governance review cycle.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- governance theater;  
-- hidden centralization;  
-- token plutocracy;  
-- low participation;  
-- authority ambiguity;  
-- unclear execution;  
-- no dispute process;  
-- informal power overriding formal process;  
-- emergency ambiguity.
+\- governance theater;  
+\- hidden centralization;  
+\- token plutocracy;  
+\- low participation;  
+\- authority ambiguity;  
+\- unclear execution;  
+\- no dispute process;  
+\- informal power overriding formal process;  
+\- emergency ambiguity.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 Before deploying governance, specify:
 
-- decision domains;  
-- proposal rights;  
-- decision authority;  
-- execution authority;  
-- thresholds;  
-- escalation paths;  
-- dispute process;  
-- recordkeeping;  
-- review cycle;  
-- emergency process;  
-- power and control points.
+\- decision domains;  
+\- proposal rights;  
+\- decision authority;  
+\- execution authority;  
+\- thresholds;  
+\- escalation paths;  
+\- dispute process;  
+\- recordkeeping;  
+\- review cycle;  
+\- emergency process;  
+\- power and control points.
 
----
+\---
 
-### 7. Environmental Impact Track
+\#\#\# 7\. Environmental Impact Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help projects think more responsibly about ecological, climate, biodiversity, restoration, land-based, or local environmental impact.
 
-#### Audience
+\#\#\#\# Audience
 
-- regenerative projects;  
-- ReFi builders;  
-- ecological stewards;  
-- local nodes;  
-- restoration projects;  
-- funders;  
-- reviewers;  
-- community scientists;  
-- MRV system designers.
+\- regenerative projects;  
+\- ReFi builders;  
+\- ecological stewards;  
+\- local nodes;  
+\- restoration projects;  
+\- funders;  
+\- reviewers;  
+\- community scientists;  
+\- MRV system designers.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What ecological claim is being made?  
-- What evidence is needed?  
-- Who reviews it?  
-- What uncertainty remains?  
-- What data should be public or private?  
-- How does local context shape interpretation?  
-- How does this reporting feed learning rather than just funding claims?
+\- What ecological claim is being made?  
+\- What evidence is needed?  
+\- Who reviews it?  
+\- What uncertainty remains?  
+\- What data should be public or private?  
+\- How does local context shape interpretation?  
+\- How does this reporting feed learning rather than just funding claims?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- ecological impact;  
-- MRV;  
-- biodiversity;  
-- restoration;  
-- regeneration;  
-- carbon;  
-- soil;  
-- water;  
-- agroforestry;  
-- invasive species;  
-- field evidence;  
-- community science;  
-- claim-evidence discipline;  
-- public-use boundaries.
+\- ecological impact;  
+\- MRV;  
+\- biodiversity;  
+\- restoration;  
+\- regeneration;  
+\- carbon;  
+\- soil;  
+\- water;  
+\- agroforestry;  
+\- invasive species;  
+\- field evidence;  
+\- community science;  
+\- claim-evidence discipline;  
+\- public-use boundaries.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- output vs outcome;  
-- claim vs evidence;  
-- restoration vs regeneration;  
-- local evidence vs generalizable pattern;  
-- monitoring vs verification;  
-- public dashboard vs reviewed claim;  
-- ecological data vs financialized asset.
+\- output vs outcome;  
+\- claim vs evidence;  
+\- restoration vs regeneration;  
+\- local evidence vs generalizable pattern;  
+\- monitoring vs verification;  
+\- public dashboard vs reviewed claim;  
+\- ecological data vs financialized asset.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- GBIF;  
-- iNaturalist;  
-- Global Forest Watch;  
-- Restor;  
-- Open Forest Protocol;  
-- Silvi Protocol;  
-- Regen Network;  
-- GainForest;  
-- farmOS;  
-- local field reports;  
-- TreeKipedia / GreenGoods context;  
-- community science methods.
+\- GBIF;  
+\- iNaturalist;  
+\- Global Forest Watch;  
+\- Restor;  
+\- Open Forest Protocol;  
+\- Silvi Protocol;  
+\- Regen Network;  
+\- GainForest;  
+\- farmOS;  
+\- local field reports;  
+\- TreeKipedia / GreenGoods context;  
+\- community science methods.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- ecological claim record;  
-- field data collection;  
-- photo evidence workflow;  
-- local steward review;  
-- MRV framework;  
-- biodiversity observation workflow;  
-- restoration monitoring;  
-- public impact report;  
-- attestation-based evidence record.
+\- ecological claim record;  
+\- field data collection;  
+\- photo evidence workflow;  
+\- local steward review;  
+\- MRV framework;  
+\- biodiversity observation workflow;  
+\- restoration monitoring;  
+\- public impact report;  
+\- attestation-based evidence record.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- overclaiming;  
-- weak evidence;  
-- sensitive locations exposed;  
-- ecological complexity flattened;  
-- data collected but not used for learning;  
-- public narrative outruns review;  
-- local knowledge extracted;  
-- funding incentives distort reporting.
+\- overclaiming;  
+\- weak evidence;  
+\- sensitive locations exposed;  
+\- ecological complexity flattened;  
+\- data collected but not used for learning;  
+\- public narrative outruns review;  
+\- local knowledge extracted;  
+\- funding incentives distort reporting.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 Before public ecological reporting, specify:
 
-- claim type;  
-- evidence required;  
-- data collection method;  
-- reviewer;  
-- uncertainty;  
-- location sensitivity;  
-- public-use boundary;  
-- consent considerations;  
-- correction process;  
-- relationship to funding;  
-- implementation learning path.
+\- claim type;  
+\- evidence required;  
+\- data collection method;  
+\- reviewer;  
+\- uncertainty;  
+\- location sensitivity;  
+\- public-use boundary;  
+\- consent considerations;  
+\- correction process;  
+\- relationship to funding;  
+\- implementation learning path.
 
----
+\---
 
-### 8. Bioregional Coordination Track
+\#\#\# 8\. Bioregional Coordination Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help communities think through bioregional, local-to-network, watershed, civic, or place-based coordination.
 
-#### Audience
+\#\#\#\# Audience
 
-- bioregional organizers;  
-- local nodes;  
-- civic partners;  
-- ecological networks;  
-- ReFi localism groups;  
-- community resilience projects;  
-- commons hubs.
+\- bioregional organizers;  
+\- local nodes;  
+\- civic partners;  
+\- ecological networks;  
+\- ReFi localism groups;  
+\- community resilience projects;  
+\- commons hubs.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What is the bioregional context?  
-- What places, communities, institutions, and ecosystems are involved?  
-- What knowledge already exists locally?  
-- What resources are flowing?  
-- What should be mapped?  
-- What should remain private?  
-- How can digital infrastructure support place-based coordination without flattening it?
+\- What is the bioregional context?  
+\- What places, communities, institutions, and ecosystems are involved?  
+\- What knowledge already exists locally?  
+\- What resources are flowing?  
+\- What should be mapped?  
+\- What should remain private?  
+\- How can digital infrastructure support place-based coordination without flattening it?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- bioregion;  
-- watershed;  
-- local autonomy;  
-- place-based coordination;  
-- local economy;  
-- civic partnership;  
-- mutual aid;  
-- community resilience;  
-- ecosystem stewardship;  
-- translocal learning;  
-- federation.
+\- bioregion;  
+\- watershed;  
+\- local autonomy;  
+\- place-based coordination;  
+\- local economy;  
+\- civic partnership;  
+\- mutual aid;  
+\- community resilience;  
+\- ecosystem stewardship;  
+\- translocal learning;  
+\- federation.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- bioregion vs administrative region;  
-- local node vs chapter;  
-- map vs territory;  
-- visibility vs consent;  
-- local knowledge vs network knowledge;  
-- local autonomy vs network coherence;  
-- resource flow vs impact claim.
+\- bioregion vs administrative region;  
+\- local node vs chapter;  
+\- map vs territory;  
+\- visibility vs consent;  
+\- local knowledge vs network knowledge;  
+\- local autonomy vs network coherence;  
+\- resource flow vs impact claim.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- Bioregional Learning Centre;  
-- LocalScale;  
-- Ethereum Localism;  
-- ReFi DAO localism finance;  
-- Sarafu / Grassroots Economics;  
-- Hylo;  
-- Restor;  
-- Open Referral;  
-- community climate resources;  
-- local ecosystem maps.
+\- Bioregional Learning Centre;  
+\- LocalScale;  
+\- Ethereum Localism;  
+\- ReFi DAO localism finance;  
+\- Sarafu / Grassroots Economics;  
+\- Hylo;  
+\- Restor;  
+\- Open Referral;  
+\- community climate resources;  
+\- local ecosystem maps.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- bioregional map;  
-- local resource flow map;  
-- mutual aid system;  
-- local currency;  
-- civic partnership workflow;  
-- local stewardship circle;  
-- community directory;  
-- local event rhythm;  
-- local-to-network reporting;  
-- place-based evidence record.
+\- bioregional map;  
+\- local resource flow map;  
+\- mutual aid system;  
+\- local currency;  
+\- civic partnership workflow;  
+\- local stewardship circle;  
+\- community directory;  
+\- local event rhythm;  
+\- local-to-network reporting;  
+\- place-based evidence record.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- mapping without consent;  
-- local identity imposed externally;  
-- municipal partnership overrides grassroots legitimacy;  
-- local complexity flattened into network narrative;  
-- no maintenance of local maps;  
-- external funding distorts priorities;  
-- public claims overrepresent local support.
+\- mapping without consent;  
+\- local identity imposed externally;  
+\- municipal partnership overrides grassroots legitimacy;  
+\- local complexity flattened into network narrative;  
+\- no maintenance of local maps;  
+\- external funding distorts priorities;  
+\- public claims overrepresent local support.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 Before bioregional coordination work, specify:
 
-- geographic scope;  
-- community scope;  
-- stewards;  
-- consent process;  
-- data sensitivity;  
-- civic partners;  
-- governance relationship;  
-- resource flow visibility;  
-- public claims;  
-- local review;  
-- network reporting boundaries.
+\- geographic scope;  
+\- community scope;  
+\- stewards;  
+\- consent process;  
+\- data sensitivity;  
+\- civic partners;  
+\- governance relationship;  
+\- resource flow visibility;  
+\- public claims;  
+\- local review;  
+\- network reporting boundaries.
 
----
+\---
 
-### 9. AI-Assisted Knowledge Garden Track
+\#\#\# 9\. AI-Assisted Knowledge Garden Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help a team use AI to support knowledge gardening without losing source lineage, review, context, or human authority.
 
-#### Audience
+\#\#\#\# Audience
 
-- knowledge gardeners;  
-- researchers;  
-- documentation teams;  
-- AI workflow designers;  
-- ontology stewards;  
-- source-system stewards;  
-- Swarm collaborators;  
-- editorial teams.
+\- knowledge gardeners;  
+\- researchers;  
+\- documentation teams;  
+\- AI workflow designers;  
+\- ontology stewards;  
+\- source-system stewards;  
+\- Swarm collaborators;  
+\- editorial teams.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What should AI help with?  
-- What must humans review?  
-- How are sources preserved?  
-- How are relationships marked as candidate vs reviewed?  
-- What content should not be processed by AI?  
-- How are hallucinations caught?  
-- How does AI support the commons rather than become the authority?
+\- What should AI help with?  
+\- What must humans review?  
+\- How are sources preserved?  
+\- How are relationships marked as candidate vs reviewed?  
+\- What content should not be processed by AI?  
+\- How are hallucinations caught?  
+\- How does AI support the commons rather than become the authority?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- AI-assisted synthesis;  
-- RAG;  
-- GraphRAG;  
-- ontology-aware retrieval;  
-- source lineage;  
-- relationship extraction;  
-- review states;  
-- hallucination;  
-- human governance;  
-- public-use boundary;  
-- machine-readable documentation.
+\- AI-assisted synthesis;  
+\- RAG;  
+\- GraphRAG;  
+\- ontology-aware retrieval;  
+\- source lineage;  
+\- relationship extraction;  
+\- review states;  
+\- hallucination;  
+\- human governance;  
+\- public-use boundary;  
+\- machine-readable documentation.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- AI-assisted vs human-reviewed;  
-- summary vs source;  
-- inferred relationship vs reviewed relationship;  
-- retrieval vs understanding;  
-- confidence vs correctness;  
-- automation vs accountability.
+\- AI-assisted vs human-reviewed;  
+\- summary vs source;  
+\- inferred relationship vs reviewed relationship;  
+\- retrieval vs understanding;  
+\- confidence vs correctness;  
+\- automation vs accountability.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- Civic AI;  
-- Collective Intelligence Project;  
-- Bonfires;  
-- Compute Regen;  
-- Gaia AI / Gaia Commons;  
-- OpenMined;  
-- EleutherAI;  
-- source-aware RAG references;  
-- Toolkit ontology and metadata fields.
+\- Civic AI;  
+\- Collective Intelligence Project;  
+\- Bonfires;  
+\- Compute Regen;  
+\- Gaia AI / Gaia Commons;  
+\- OpenMined;  
+\- EleutherAI;  
+\- source-aware RAG references;  
+\- Toolkit ontology and metadata fields.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- AI-assisted classification;  
-- entity extraction workflow;  
-- relationship suggestion workflow;  
-- source-system card generation;  
-- AI draft \+ human review process;  
-- RAG corpus design;  
-- GraphRAG workflow;  
-- hallucination review checklist;  
-- public-use labeling process.
+\- AI-assisted classification;  
+\- entity extraction workflow;  
+\- relationship suggestion workflow;  
+\- source-system card generation;  
+\- AI draft \+ human review process;  
+\- RAG corpus design;  
+\- GraphRAG workflow;  
+\- hallucination review checklist;  
+\- public-use labeling process.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- hallucinated summaries;  
-- source lineage lost;  
-- AI-generated relationships treated as reviewed;  
-- false coherence;  
-- old resources resurfaced as current;  
-- sensitive community data processed without consent;  
-- AI interface centralizes interpretation;  
-- contributors overtrust generated text.
+\- hallucinated summaries;  
+\- source lineage lost;  
+\- AI-generated relationships treated as reviewed;  
+\- false coherence;  
+\- old resources resurfaced as current;  
+\- sensitive community data processed without consent;  
+\- AI interface centralizes interpretation;  
+\- contributors overtrust generated text.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 Before deploying AI workflows, specify:
 
-- corpus;  
-- data boundaries;  
-- source lineage process;  
-- AI tasks;  
-- human review steps;  
-- status labels;  
-- privacy restrictions;  
-- hallucination detection;  
-- correction process;  
-- public-use rules;  
-- review cadence;  
-- accountability.
+\- corpus;  
+\- data boundaries;  
+\- source lineage process;  
+\- AI tasks;  
+\- human review steps;  
+\- status labels;  
+\- privacy restrictions;  
+\- hallucination detection;  
+\- correction process;  
+\- public-use rules;  
+\- review cadence;  
+\- accountability.
 
----
+\---
 
-### 10. Implementation Reviewer Track
+\#\#\# 10\. Implementation Reviewer Track
 
-#### Purpose
+\#\#\#\# Purpose
 
 Help reviewers, stewards, and contributors evaluate what happened in practice and route learning back into the Toolkit.
 
-#### Audience
+\#\#\#\# Audience
 
-- implementation scribes;  
-- reviewers;  
-- project leads;  
-- funders;  
-- governance stewards;  
-- local node stewards;  
-- knowledge gardeners;  
-- researchers.
+\- implementation scribes;  
+\- reviewers;  
+\- project leads;  
+\- funders;  
+\- governance stewards;  
+\- local node stewards;  
+\- knowledge gardeners;  
+\- researchers.
 
-#### Core questions
+\#\#\#\# Core questions
 
-- What was attempted?  
-- What was actually implemented?  
-- What changed from the plan?  
-- What worked?  
-- What failed?  
-- What signals emerged?  
-- What claims are supported?  
-- What should update the Toolkit?  
-- What should not be generalized?
+\- What was attempted?  
+\- What was actually implemented?  
+\- What changed from the plan?  
+\- What worked?  
+\- What failed?  
+\- What signals emerged?  
+\- What claims are supported?  
+\- What should update the Toolkit?  
+\- What should not be generalized?
 
-#### Core concepts
+\#\#\#\# Core concepts
 
-- implementation memory;  
-- deployment;  
-- signal;  
-- pattern;  
-- failure mode;  
-- retrospective;  
-- claim-evidence record;  
-- field-informed learning;  
-- maturity update;  
-- evolution loop.
+\- implementation memory;  
+\- deployment;  
+\- signal;  
+\- pattern;  
+\- failure mode;  
+\- retrospective;  
+\- claim-evidence record;  
+\- field-informed learning;  
+\- maturity update;  
+\- evolution loop.
 
-#### Key distinctions
+\#\#\#\# Key distinctions
 
-- deployment vs implementation;  
-- signal vs conclusion;  
-- case vs pattern;  
-- claim vs evidence;  
-- field-informed vs reviewed;  
-- success story vs implementation record.
+\- deployment vs implementation;  
+\- signal vs conclusion;  
+\- case vs pattern;  
+\- claim vs evidence;  
+\- field-informed vs reviewed;  
+\- success story vs implementation record.
 
-#### Priority resources
+\#\#\#\# Priority resources
 
 Possible resources:
 
-- implementation retrospectives;  
-- Gitcoin / Octant / Gardens / GreenPill funding round reports;  
-- local node reports;  
-- Knowledge Garden sprint reports;  
-- GreenGoods / TreeKipedia field context;  
-- Karma GAP updates;  
-- CIDS-style reports.
+\- implementation retrospectives;  
+\- Gitcoin / Octant / Gardens / GreenPill funding round reports;  
+\- local node reports;  
+\- Knowledge Garden sprint reports;  
+\- GreenGoods / TreeKipedia field context;  
+\- Karma GAP updates;  
+\- CIDS-style reports.
 
-#### Option Library entries
+\#\#\#\# Option Library entries
 
-- implementation retrospective;  
-- learning brief;  
-- signal log;  
-- claim-evidence record;  
-- failure case template;  
-- maturity update process;  
-- pattern candidate process;  
-- post-deployment review.
+\- implementation retrospective;  
+\- learning brief;  
+\- signal log;  
+\- claim-evidence record;  
+\- failure case template;  
+\- maturity update process;  
+\- pattern candidate process;  
+\- post-deployment review.
 
-#### Failure modes
+\#\#\#\# Failure modes
 
-- only documenting success;  
-- no distinction between plan and reality;  
-- lessons too vague to reuse;  
-- failure hidden;  
-- context omitted;  
-- case overgeneralized into pattern;  
-- no updates made to Toolkit layers;  
-- evidence too weak for public claims.
+\- only documenting success;  
+\- no distinction between plan and reality;  
+\- lessons too vague to reuse;  
+\- failure hidden;  
+\- context omitted;  
+\- case overgeneralized into pattern;  
+\- no updates made to Toolkit layers;  
+\- evidence too weak for public claims.
 
-#### Deployment checks
+\#\#\#\# Deployment checks
 
 If this becomes a review process, specify:
 
-- reviewer roles;  
-- documentation template;  
-- evidence requirements;  
-- claim boundaries;  
-- signal routing;  
-- update proposal process;  
-- public/private boundary;  
-- review cadence.
+\- reviewer roles;  
+\- documentation template;  
+\- evidence requirements;  
+\- claim boundaries;  
+\- signal routing;  
+\- update proposal process;  
+\- public/private boundary;  
+\- review cadence.
 
----
+\---
 
-## Track composition examples
+\#\# Track composition examples
 
 The following examples show how tracks can compose Toolkit layers.
 
----
+\---
 
-### Example: Local Node Builder composition
+\#\#\# Example: Local Node Builder composition
 
 | Layer | Track component |  
 |---|---|  
@@ -13600,9 +13600,9 @@ The following examples show how tracks can compose Toolkit layers.
 | Implementation Memory | Local node retrospectives, events, campaigns, failures, adaptation logs. |  
 | Evolution | Signals about autonomy, burnout, reporting burden, legitimacy, local impact claims. |
 
----
+\---
 
-### Example: Knowledge Commons Builder composition
+\#\#\# Example: Knowledge Commons Builder composition
 
 | Layer | Track component |  
 |---|---|  
@@ -13614,9 +13614,9 @@ The following examples show how tracks can compose Toolkit layers.
 | Implementation Memory | Migration logs, editorial retrospectives, review bottlenecks, source-system corrections. |  
 | Evolution | Signals about outdated pages, broken links, semantic drift, AI review failures. |
 
----
+\---
 
-### Example: Public Goods Funding Round composition
+\#\#\# Example: Public Goods Funding Round composition
 
 | Layer | Track component |  
 |---|---|  
@@ -13628,9 +13628,9 @@ The following examples show how tracks can compose Toolkit layers.
 | Implementation Memory | Round reports, grantee outcomes, failure cases, public claim reviews. |  
 | Evolution | Signals about farming, weak evidence, eligibility confusion, public overclaiming. |
 
----
+\---
 
-### Example: Environmental Impact composition
+\#\#\# Example: Environmental Impact composition
 
 | Layer | Track component |  
 |---|---|  
@@ -13642,124 +13642,124 @@ The following examples show how tracks can compose Toolkit layers.
 | Implementation Memory | Field reports, local restoration cases, monitoring results, uncertainty logs. |  
 | Evolution | Signals about weak evidence, sensitive location exposure, reporting burden, claim overreach. |
 
----
+\---
 
-## Track lifecycle
+\#\# Track lifecycle
 
 Tracks should evolve through use.
 
-### 1. Draft
+\#\#\# 1\. Draft
 
 A pathway is proposed.
 
 Questions:
 
-- Who is this for?  
-- What problem does it solve?  
-- What concepts and resources should be included?
+\- Who is this for?  
+\- What problem does it solve?  
+\- What concepts and resources should be included?
 
-### 2. Pilot
+\#\#\# 2\. Pilot
 
 A small group uses the track.
 
 Questions:
 
-- Where did they get stuck?  
-- What was missing?  
-- What was too much?  
-- What was confusing?  
-- What should be added or removed?
+\- Where did they get stuck?  
+\- What was missing?  
+\- What was too much?  
+\- What was confusing?  
+\- What should be added or removed?
 
-### 3. Active
+\#\#\# 3\. Active
 
 The track is used by a broader group.
 
 Questions:
 
-- What must be maintained?  
-- What needs review?  
-- What resources are outdated?  
-- What assumptions are failing?
+\- What must be maintained?  
+\- What needs review?  
+\- What resources are outdated?  
+\- What assumptions are failing?
 
-### 4. Field-informed
+\#\#\# 4\. Field-informed
 
 The track is updated based on implementation memory.
 
 Questions:
 
-- What happened when people used it?  
-- Which deployment checks mattered?  
-- What failure signals emerged?  
-- What should change?
+\- What happened when people used it?  
+\- Which deployment checks mattered?  
+\- What failure signals emerged?  
+\- What should change?
 
-### 5. Reviewed or deprecated
+\#\#\# 5\. Reviewed or deprecated
 
 The track is either stabilized, revised, composted, or retired.
 
 Questions:
 
-- Is this still useful?  
-- Is it misleading?  
-- Does it need to split into multiple tracks?  
-- Should it be archived?
+\- Is this still useful?  
+\- Is it misleading?  
+\- Does it need to split into multiple tracks?  
+\- Should it be archived?
 
----
+\---
 
-## Track governance and stewardship
+\#\# Track governance and stewardship
 
 Tracks should have stewards where possible.
 
 A track steward may:
 
-- maintain the track;  
-- review resources;  
-- update links;  
-- collect feedback;  
-- route signals;  
-- coordinate reviewers;  
-- add implementation examples;  
-- flag outdated guidance;  
-- propose revisions.
+\- maintain the track;  
+\- review resources;  
+\- update links;  
+\- collect feedback;  
+\- route signals;  
+\- coordinate reviewers;  
+\- add implementation examples;  
+\- flag outdated guidance;  
+\- propose revisions.
 
 Possible track stewardship roles:
 
-- domain steward;  
-- source-system steward;  
-- implementation reviewer;  
-- editor / knowledge gardener;  
-- local context reviewer;  
-- technical reviewer;  
-- AI workflow reviewer;  
-- community reviewer.
+\- domain steward;  
+\- source-system steward;  
+\- implementation reviewer;  
+\- editor / knowledge gardener;  
+\- local context reviewer;  
+\- technical reviewer;  
+\- AI workflow reviewer;  
+\- community reviewer.
 
 Not every track needs a full team.
 
 But high-risk tracks should not be maintained anonymously or casually.
 
----
+\---
 
-## Track review questions
+\#\# Track review questions
 
 Before publishing or using a track, ask:
 
-- Is the audience clear?  
-- Is the pathway coherent?  
-- Are concepts explained or linked?  
-- Are resources source-aware?  
-- Are options clearly distinguished from deployments?  
-- Are risks and failure modes visible?  
-- Are public-use boundaries named where needed?  
-- Are high-risk areas flagged?  
-- Are implementation examples contextualized?  
-- Are review needs visible?  
-- Is the track too broad?  
-- Is the track too narrow?  
-- Does the track point toward deployment without pretending to be one?  
-- Is there a feedback path into the Evolution Layer?
+\- Is the audience clear?  
+\- Is the pathway coherent?  
+\- Are concepts explained or linked?  
+\- Are resources source-aware?  
+\- Are options clearly distinguished from deployments?  
+\- Are risks and failure modes visible?  
+\- Are public-use boundaries named where needed?  
+\- Are high-risk areas flagged?  
+\- Are implementation examples contextualized?  
+\- Are review needs visible?  
+\- Is the track too broad?  
+\- Is the track too narrow?  
+\- Does the track point toward deployment without pretending to be one?  
+\- Is there a feedback path into the Evolution Layer?
 
----
+\---
 
-## Minimum rule for this layer
+\#\# Minimum rule for this layer
 
 A track should not be treated as a deployment.
 
@@ -13767,71 +13767,71 @@ A track can help someone learn, compare, prepare, and compose.
 
 A deployment must specify:
 
-- decision system;  
-- information requirements;  
-- power structure;  
-- accountability system;  
-- failure detection system;  
-- fixed / configurable / experimental boundaries.
+\- decision system;  
+\- information requirements;  
+\- power structure;  
+\- accountability system;  
+\- failure detection system;  
+\- fixed / configurable / experimental boundaries.
 
 The track may link to deployment templates, but it does not replace them.
 
----
+\---
 
-### Practical v0.1 recommendation
+\#\#\# Practical v0.1 recommendation
 
 For the next version, do not try to formalize every possible pathway.
 
 Start with five practical tracks:
 
-1. Newcomer Orientation  
-2. Local Node Builder  
-3. Public Goods Funding Round  
-4. Knowledge Commons Builder  
-5. Environmental Impact
+1\. Newcomer Orientation  
+2\. Local Node Builder  
+3\. Public Goods Funding Round  
+4\. Knowledge Commons Builder  
+5\. Environmental Impact
 
 Then add secondary tracks as capacity allows:
 
-6. Community Organizer  
-7. Governance Deep Dive  
-8. Bioregional Coordination  
-9. AI-Assisted Knowledge Garden  
-10. Implementation Reviewer
+6\. Community Organizer  
+7\. Governance Deep Dive  
+8\. Bioregional Coordination  
+9\. AI-Assisted Knowledge Garden  
+10\. Implementation Reviewer
 
 Each v0.1 track should include:
 
-- purpose;  
-- audience;  
-- core concepts;  
-- key distinctions;  
-- priority resources;  
-- relevant options;  
-- failure modes;  
-- deployment checks;  
-- implementation memory prompt.
+\- purpose;  
+\- audience;  
+\- core concepts;  
+\- key distinctions;  
+\- priority resources;  
+\- relevant options;  
+\- failure modes;  
+\- deployment checks;  
+\- implementation memory prompt.
 
 The goal is not to create perfect curricula.
 
 The goal is to make the Toolkit navigable and useful.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 Tracks are guided pathways through the Toolkit.
 
 They compose:
 
-- concepts;  
-- source systems;  
-- resources;  
-- options;  
-- tools;  
-- templates;  
-- cases;  
-- failure modes;  
-- deployment checks;  
-- implementation memory prompts.
+\- concepts;  
+\- source systems;  
+\- resources;  
+\- options;  
+\- tools;  
+\- templates;  
+\- cases;  
+\- failure modes;  
+\- deployment checks;  
+\- implementation memory prompts.
 
 Tracks help people move from orientation toward action.
 
@@ -13845,28 +13845,28 @@ Tracks make the commons usable without pretending that one pathway fits every co
 
 # 🧠 Implementation & Learning Memory
 
-## 12. Implementation & Learning Memory
+\#\# 12\. Implementation & Learning Memory
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 Implementation & Learning Memory is the layer that records what actually happens when ideas, options, tracks, deployments, tools, funding mechanisms, governance systems, local nodes, knowledge workflows, or ecological practices are used in the world.
 
 It helps answer:
 
-- What was attempted?  
-- What was actually implemented?  
-- Who participated?  
-- What context mattered?  
-- What assumptions were tested?  
-- What changed from the original deployment?  
-- What worked?  
-- What failed?  
-- What adapted?  
-- What evidence was produced?  
-- What signals emerged?  
-- What should update the Toolkit?  
-- What should not be generalized?  
-- What could become a reusable pattern later?
+\- What was attempted?  
+\- What was actually implemented?  
+\- Who participated?  
+\- What context mattered?  
+\- What assumptions were tested?  
+\- What changed from the original deployment?  
+\- What worked?  
+\- What failed?  
+\- What adapted?  
+\- What evidence was produced?  
+\- What signals emerged?  
+\- What should update the Toolkit?  
+\- What should not be generalized?  
+\- What could become a reusable pattern later?
 
 This layer exists because the Toolkit should not only organize knowledge before action.
 
@@ -13876,31 +13876,31 @@ A deployment is the specified structure.
 An implementation is what happened in reality.    
 Learning Memory is how the Toolkit preserves the difference.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 This layer should be treated as a major future value layer for the Toolkit.
 
 Many previous project contexts already contain implementation learning, even if they were not originally documented in this format:
 
-- GreenPill Brasil activities;  
-- Regen Rio;  
-- GreenGoods;  
-- Gitcoin Grants Garden;  
-- Cookie Jar Research Raid planning;  
-- Gardens v2 usage;  
-- Karma GAP reporting;  
-- CIDS-style impact updates;  
-- local chapter onboarding;  
-- public goods funding rounds;  
-- knowledge commons drafting;  
-- AI-assisted documentation workflows;  
-- ecological data and reporting pilots;  
-- community workshops;  
-- governance experiments;  
-- bounties and contribution tracking;  
-- resource mapping and source-system organization.
+\- GreenPill Brasil activities;  
+\- Regen Rio;  
+\- GreenGoods;  
+\- Gitcoin Grants Garden;  
+\- Cookie Jar Research Raid planning;  
+\- Gardens v2 usage;  
+\- Karma GAP reporting;  
+\- CIDS-style impact updates;  
+\- local chapter onboarding;  
+\- public goods funding rounds;  
+\- knowledge commons drafting;  
+\- AI-assisted documentation workflows;  
+\- ecological data and reporting pilots;  
+\- community workshops;  
+\- governance experiments;  
+\- bounties and contribution tracking;  
+\- resource mapping and source-system organization.
 
 Some of this material is already in docs, chats, Charmverse, GitHub, Karma GAP, forum posts, grant applications, spreadsheets, or field notes.
 
@@ -13908,41 +13908,41 @@ The purpose of this layer is not to rewrite all of that immediately.
 
 The purpose is to create a structure so future implementation learning can be captured and routed back into the Toolkit.
 
----
+\---
 
-### Why this layer matters
+\#\#\# Why this layer matters
 
 Without Implementation Memory, the Toolkit risks becoming:
 
-- a theory archive;  
-- a polished knowledge base disconnected from practice;  
-- a list of options with no evidence of use;  
-- a set of tracks with no feedback;  
-- a deployment framework with no field testing;  
-- an AI-generated synthesis layer without reality checks.
+\- a theory archive;  
+\- a polished knowledge base disconnected from practice;  
+\- a list of options with no evidence of use;  
+\- a set of tracks with no feedback;  
+\- a deployment framework with no field testing;  
+\- an AI-generated synthesis layer without reality checks.
 
 Implementation Memory makes the Toolkit accountable to use.
 
 It allows the system to ask:
 
-- Did this actually work?  
-- Under what conditions?  
-- What changed when people tried it?  
-- What was misunderstood?  
-- What broke?  
-- What was adapted locally?  
-- What was more difficult than expected?  
-- What should be improved before reuse?  
-- What should be retired?  
-- What should become a pattern candidate?
+\- Did this actually work?  
+\- Under what conditions?  
+\- What changed when people tried it?  
+\- What was misunderstood?  
+\- What broke?  
+\- What was adapted locally?  
+\- What was more difficult than expected?  
+\- What should be improved before reuse?  
+\- What should be retired?  
+\- What should become a pattern candidate?
 
 This is how the commons becomes field-informed.
 
----
+\---
 
-### Implementation vs adjacent layers
+\#\#\# Implementation vs adjacent layers
 
-#### Implementation vs Deployment
+\#\#\#\# Implementation vs Deployment
 
 Deployment is the plan plus structure.
 
@@ -13950,10 +13950,10 @@ Implementation is what happened.
 
 Example:
 
-- Deployment: a public goods funding round design with eligibility, review, matching pool, treasury controls, reporting, and dispute process.  
-- Implementation: the actual round, including applications received, voter behavior, reviewer bottlenecks, disputes, funding distribution, reporting quality, and post-round learning.
+\- Deployment: a public goods funding round design with eligibility, review, matching pool, treasury controls, reporting, and dispute process.  
+\- Implementation: the actual round, including applications received, voter behavior, reviewer bottlenecks, disputes, funding distribution, reporting quality, and post-round learning.
 
-#### Implementation vs Track
+\#\#\#\# Implementation vs Track
 
 A track is a guided pathway.
 
@@ -13961,10 +13961,10 @@ Implementation is a real-world case.
 
 Example:
 
-- Track: Local Node Builder.  
-- Implementation: a local node actually launched in a city or bioregion, with named stewards, events, challenges, partnerships, failures, and outcomes.
+\- Track: Local Node Builder.  
+\- Implementation: a local node actually launched in a city or bioregion, with named stewards, events, challenges, partnerships, failures, and outcomes.
 
-#### Implementation vs Option
+\#\#\#\# Implementation vs Option
 
 An option is a reusable design choice.
 
@@ -13972,10 +13972,10 @@ Implementation shows what happened when the option was used.
 
 Example:
 
-- Option: milestone-based grants.  
-- Implementation: a specific grant program using milestones, including whether milestones clarified delivery, created reporting burden, or failed to capture important work.
+\- Option: milestone-based grants.  
+\- Implementation: a specific grant program using milestones, including whether milestones clarified delivery, created reporting burden, or failed to capture important work.
 
-#### Implementation vs Pattern
+\#\#\#\# Implementation vs Pattern
 
 An implementation is one case.
 
@@ -13987,7 +13987,7 @@ A failed implementation should not automatically condemn an option.
 
 The context matters.
 
-#### Implementation vs Signal
+\#\#\#\# Implementation vs Signal
 
 A signal is something learned, observed, or flagged from an implementation.
 
@@ -13995,52 +13995,52 @@ An implementation may generate many signals.
 
 Example:
 
-- Implementation: an AI-assisted source classification sprint.  
-- Signals: source lineage was lost in summaries; duplicate categories emerged; reviewers found AI useful for routing but not for final classification.
+\- Implementation: an AI-assisted source classification sprint.  
+\- Signals: source lineage was lost in summaries; duplicate categories emerged; reviewers found AI useful for routing but not for final classification.
 
-#### Implementation vs Case Study
+\#\#\#\# Implementation vs Case Study
 
 A case study is a narrative or analytical artifact about an implementation.
 
 Implementation Memory may include case studies, but it should also preserve structured fields, signals, and update implications.
 
----
+\---
 
-## What belongs in Implementation Memory
+\#\# What belongs in Implementation Memory
 
 This layer can include:
 
-- pilots;  
-- campaigns;  
-- funding rounds;  
-- governance experiments;  
-- local node launches;  
-- onboarding programs;  
-- workshops;  
-- community events;  
-- ecological monitoring efforts;  
-- public goods reporting cycles;  
-- knowledge garden sprints;  
-- AI workflow tests;  
-- tool deployments;  
-- source-system mapping sprints;  
-- partnership experiments;  
-- coordination failures;  
-- retrospective reports;  
-- field notes;  
-- implementation case studies;  
-- failure cases;  
-- adaptation logs;  
-- learning briefs;  
-- signal logs.
+\- pilots;  
+\- campaigns;  
+\- funding rounds;  
+\- governance experiments;  
+\- local node launches;  
+\- onboarding programs;  
+\- workshops;  
+\- community events;  
+\- ecological monitoring efforts;  
+\- public goods reporting cycles;  
+\- knowledge garden sprints;  
+\- AI workflow tests;  
+\- tool deployments;  
+\- source-system mapping sprints;  
+\- partnership experiments;  
+\- coordination failures;  
+\- retrospective reports;  
+\- field notes;  
+\- implementation case studies;  
+\- failure cases;  
+\- adaptation logs;  
+\- learning briefs;  
+\- signal logs.
 
 Implementation Memory should include successes and failures.
 
 A commons that only records success stories cannot learn.
 
----
+\---
 
-## Implementation record template
+\#\# Implementation record template
 
 A useful implementation record may include:
 
@@ -14080,9 +14080,9 @@ Not every implementation record needs every field at first.
 
 But high-risk or public-facing implementations should be more complete.
 
----
+\---
 
-## Implementation maturity
+\#\# Implementation maturity
 
 Implementation records should have visible maturity.
 
@@ -14102,268 +14102,268 @@ A raw implementation note can still be valuable.
 
 The important thing is to avoid presenting it as reviewed or generalizable before it is ready.
 
----
+\---
 
-## Types of implementation records
+\#\# Types of implementation records
 
-### 1. Pilot record
+\#\#\# 1\. Pilot record
 
 A bounded test of a new structure, option, tool, or workflow.
 
 Examples:
 
-- testing a source-system card template;  
-- running an AI-assisted classification sprint;  
-- piloting a local node onboarding flow;  
-- testing a field data collection process;  
-- experimenting with a funding review workflow.
+\- testing a source-system card template;  
+\- running an AI-assisted classification sprint;  
+\- piloting a local node onboarding flow;  
+\- testing a field data collection process;  
+\- experimenting with a funding review workflow.
 
 Important fields:
 
-- hypothesis;  
-- scope;  
-- participants;  
-- what was fixed;  
-- what was experimental;  
-- failure criteria;  
-- learning produced.
+\- hypothesis;  
+\- scope;  
+\- participants;  
+\- what was fixed;  
+\- what was experimental;  
+\- failure criteria;  
+\- learning produced.
 
----
+\---
 
-### 2. Campaign record
+\#\#\# 2\. Campaign record
 
 A coordinated effort with a defined goal.
 
 Examples:
 
-- invasive species management campaign;  
-- tree observation campaign;  
-- onboarding campaign;  
-- public goods education campaign;  
-- local chapter activation campaign;  
-- grant application campaign.
+\- invasive species management campaign;  
+\- tree observation campaign;  
+\- onboarding campaign;  
+\- public goods education campaign;  
+\- local chapter activation campaign;  
+\- grant application campaign.
 
 Important fields:
 
-- campaign goal;  
-- participants;  
-- tasks;  
-- outputs;  
-- evidence;  
-- community response;  
-- follow-up work;  
-- signals.
+\- campaign goal;  
+\- participants;  
+\- tasks;  
+\- outputs;  
+\- evidence;  
+\- community response;  
+\- follow-up work;  
+\- signals.
 
----
+\---
 
-### 3. Funding round record
+\#\#\# 3\. Funding round record
 
 A record of a grant, QF, retroactive, conviction, or other allocation process.
 
 Examples:
 
-- Gitcoin rounds;  
-- Octant-related funding;  
-- Gardens rounds;  
-- GreenPill funding pools;  
-- local public goods rounds;  
-- Cookie Jar allocation experiments.
+\- Gitcoin rounds;  
+\- Octant-related funding;  
+\- Gardens rounds;  
+\- GreenPill funding pools;  
+\- local public goods rounds;  
+\- Cookie Jar allocation experiments.
 
 Important fields:
 
-- mechanism used;  
-- fund source;  
-- eligibility;  
-- applicants;  
-- reviewers/voters;  
-- allocation results;  
-- disputes;  
-- reporting quality;  
-- impact claims;  
-- learning;  
-- failure modes.
+\- mechanism used;  
+\- fund source;  
+\- eligibility;  
+\- applicants;  
+\- reviewers/voters;  
+\- allocation results;  
+\- disputes;  
+\- reporting quality;  
+\- impact claims;  
+\- learning;  
+\- failure modes.
 
----
+\---
 
-### 4. Governance implementation record
+\#\#\# 4\. Governance implementation record
 
 A record of a decision system or governance structure being used.
 
 Examples:
 
-- Gardens conviction voting pool;  
-- council decision;  
-- local chapter governance;  
-- multisig process;  
-- proposal review flow;  
-- role election;  
-- dispute process.
+\- Gardens conviction voting pool;  
+\- council decision;  
+\- local chapter governance;  
+\- multisig process;  
+\- proposal review flow;  
+\- role election;  
+\- dispute process.
 
 Important fields:
 
-- decision domain;  
-- participants;  
-- formal process;  
-- informal process;  
-- authority;  
-- power dynamics;  
-- disputes;  
-- legitimacy signals;  
-- accountability outcomes;  
-- changes needed.
+\- decision domain;  
+\- participants;  
+\- formal process;  
+\- informal process;  
+\- authority;  
+\- power dynamics;  
+\- disputes;  
+\- legitimacy signals;  
+\- accountability outcomes;  
+\- changes needed.
 
----
+\---
 
-### 5. Local node record
+\#\#\# 5\. Local node record
 
 A record of local or place-based coordination.
 
 Examples:
 
-- GreenPill Brasil local activities;  
-- local ReFi nodes;  
-- bioregional hubs;  
-- civic partnership initiatives;  
-- community garden coordination;  
-- local climate action groups.
+\- GreenPill Brasil local activities;  
+\- local ReFi nodes;  
+\- bioregional hubs;  
+\- civic partnership initiatives;  
+\- community garden coordination;  
+\- local climate action groups.
 
 Important fields:
 
-- place;  
-- stewards;  
-- community context;  
-- local legitimacy;  
-- network relationship;  
-- autonomy boundaries;  
-- events/actions;  
-- resources mobilized;  
-- public claims;  
-- local feedback;  
-- lessons.
+\- place;  
+\- stewards;  
+\- community context;  
+\- local legitimacy;  
+\- network relationship;  
+\- autonomy boundaries;  
+\- events/actions;  
+\- resources mobilized;  
+\- public claims;  
+\- local feedback;  
+\- lessons.
 
----
+\---
 
-### 6. Knowledge commons implementation record
+\#\#\# 6\. Knowledge commons implementation record
 
 A record of documentation, source mapping, ontology, or knowledge garden work.
 
 Examples:
 
-- creating the master doc;  
-- migrating docs into Markdown;  
-- building a Resource Graph;  
-- creating Source System Cards;  
-- organizing an article inventory;  
-- testing AI-assisted synthesis;  
-- building the Toolkit site.
+\- creating the master doc;  
+\- migrating docs into Markdown;  
+\- building a Resource Graph;  
+\- creating Source System Cards;  
+\- organizing an article inventory;  
+\- testing AI-assisted synthesis;  
+\- building the Toolkit site.
 
 Important fields:
 
-- corpus;  
-- source systems;  
-- structure used;  
-- contributor workflow;  
-- AI role;  
-- review process;  
-- source lineage;  
-- what was lost or preserved;  
-- navigation problems;  
-- maintenance needs.
+\- corpus;  
+\- source systems;  
+\- structure used;  
+\- contributor workflow;  
+\- AI role;  
+\- review process;  
+\- source lineage;  
+\- what was lost or preserved;  
+\- navigation problems;  
+\- maintenance needs.
 
----
+\---
 
-### 7. Ecological / MRV implementation record
+\#\#\# 7\. Ecological / MRV implementation record
 
 A record of ecological monitoring, restoration, biodiversity, tree planting, agroforestry, carbon, or place-based environmental work.
 
 Examples:
 
-- GreenGoods invasive species management;  
-- TreeKipedia data work;  
-- Silvi integration;  
-- agroforestry field data;  
-- community science observations;  
-- local restoration reporting.
+\- GreenGoods invasive species management;  
+\- TreeKipedia data work;  
+\- Silvi integration;  
+\- agroforestry field data;  
+\- community science observations;  
+\- local restoration reporting.
 
 Important fields:
 
-- ecological context;  
-- claim type;  
-- data collected;  
-- method;  
-- local reviewer;  
-- scientific reviewer, if any;  
-- uncertainty;  
-- sensitive location issues;  
-- public-use boundary;  
-- relation to funding;  
-- learning for future deployments.
+\- ecological context;  
+\- claim type;  
+\- data collected;  
+\- method;  
+\- local reviewer;  
+\- scientific reviewer, if any;  
+\- uncertainty;  
+\- sensitive location issues;  
+\- public-use boundary;  
+\- relation to funding;  
+\- learning for future deployments.
 
----
+\---
 
-### 8. Event / workshop record
+\#\#\# 8\. Event / workshop record
 
 A record of a gathering that produced learning, coordination, onboarding, or implementation signals.
 
 Examples:
 
-- workshops with communities;  
-- web3 onboarding sessions;  
-- climate events;  
-- governance calls;  
-- research raids;  
-- local gatherings;  
-- ecosystem convenings.
+\- workshops with communities;  
+\- web3 onboarding sessions;  
+\- climate events;  
+\- governance calls;  
+\- research raids;  
+\- local gatherings;  
+\- ecosystem convenings.
 
 Important fields:
 
-- purpose;  
-- participants;  
-- format;  
-- outputs;  
-- questions raised;  
-- follow-up actions;  
-- signals;  
-- feedback;  
-- documentation links.
+\- purpose;  
+\- participants;  
+\- format;  
+\- outputs;  
+\- questions raised;  
+\- follow-up actions;  
+\- signals;  
+\- feedback;  
+\- documentation links.
 
----
+\---
 
-### 9. Failure case record
+\#\#\# 9\. Failure case record
 
 A record of breakdown, harm, collapse, drift, capture, or misalignment.
 
 Examples:
 
-- governance capture;  
-- funding round farming;  
-- documentation failure;  
-- local node burnout;  
-- source extraction;  
-- AI hallucination incident;  
-- ecological overclaiming;  
-- community misrepresentation;  
-- failed coordination process.
+\- governance capture;  
+\- funding round farming;  
+\- documentation failure;  
+\- local node burnout;  
+\- source extraction;  
+\- AI hallucination incident;  
+\- ecological overclaiming;  
+\- community misrepresentation;  
+\- failed coordination process.
 
 Important fields:
 
-- what failed;  
-- context;  
-- early signals;  
-- structural causes;  
-- affected parties;  
-- what was corrected;  
-- what remains unresolved;  
-- what should update Deployment or Option Library;  
-- what should not be overgeneralized.
+\- what failed;  
+\- context;  
+\- early signals;  
+\- structural causes;  
+\- affected parties;  
+\- what was corrected;  
+\- what remains unresolved;  
+\- what should update Deployment or Option Library;  
+\- what should not be overgeneralized.
 
 Failure cases should be handled carefully.
 
 They should teach without becoming blame artifacts.
 
----
+\---
 
-## Signal capture
+\#\# Signal capture
 
 Implementation Memory should generate signals for the Evolution Layer.
 
@@ -14371,17 +14371,17 @@ A signal is an observation that may require interpretation.
 
 Signals can be:
 
-- positive;  
-- negative;  
-- weak;  
-- repeated;  
-- surprising;  
-- ambiguous;  
-- adverse;  
-- structural;  
-- local;  
-- one-off;  
-- pattern-generating.
+\- positive;  
+\- negative;  
+\- weak;  
+\- repeated;  
+\- surprising;  
+\- ambiguous;  
+\- adverse;  
+\- structural;  
+\- local;  
+\- one-off;  
+\- pattern-generating.
 
 Examples:
 
@@ -14402,24 +14402,24 @@ A signal is not automatically a conclusion.
 
 It should be routed for sensemaking.
 
----
+\---
 
-## Learning loop
+\#\# Learning loop
 
 Implementation Memory connects to the Toolkit’s learning loop:
 
-> Deployment → Implementation → Signal → Sensemaking → Update → Memory
+\> Deployment → Implementation → Signal → Sensemaking → Update → Memory
 
 The loop should ask:
 
-1. What was deployed?  
-2. What happened?  
-3. What signals emerged?  
-4. What do the signals mean?  
-5. What should change?  
-6. Which layer should be updated?  
-7. What should be preserved as memory?  
-8. What should remain an open question?
+1\. What was deployed?  
+2\. What happened?  
+3\. What signals emerged?  
+4\. What do the signals mean?  
+5\. What should change?  
+6\. Which layer should be updated?  
+7\. What should be preserved as memory?  
+8\. What should remain an open question?
 
 Possible update destinations:
 
@@ -14444,47 +14444,47 @@ Learning Memory is not just storage.
 
 It should feed maintenance and evolution.
 
----
+\---
 
-## Claim-evidence records in implementation
+\#\# Claim-evidence records in implementation
 
 Many implementations produce claims.
 
 Examples:
 
-- “This funding round supported public goods.”  
-- “This local node improved community coordination.”  
-- “This campaign restored ecological function.”  
-- “This governance process increased legitimacy.”  
-- “This AI workflow improved knowledge routing.”  
-- “This onboarding program increased contributor retention.”
+\- “This funding round supported public goods.”  
+\- “This local node improved community coordination.”  
+\- “This campaign restored ecological function.”  
+\- “This governance process increased legitimacy.”  
+\- “This AI workflow improved knowledge routing.”  
+\- “This onboarding program increased contributor retention.”
 
 These claims should be separated from evidence.
 
 Implementation records should identify:
 
-- what is being claimed;  
-- what evidence supports it;  
-- what evidence complicates it;  
-- what remains uncertain;  
-- who reviewed it;  
-- whether it is safe for public use.
+\- what is being claimed;  
+\- what evidence supports it;  
+\- what evidence complicates it;  
+\- what remains uncertain;  
+\- who reviewed it;  
+\- whether it is safe for public use.
 
 A public report should not turn implementation enthusiasm into unsupported claims.
 
 This is especially important for:
 
-- funding;  
-- ecological impact;  
-- community representation;  
-- governance legitimacy;  
-- AI performance;  
-- public goods impact;  
-- local node success.
+\- funding;  
+\- ecological impact;  
+\- community representation;  
+\- governance legitimacy;  
+\- AI performance;  
+\- public goods impact;  
+\- local node success.
 
----
+\---
 
-## Public-use boundaries in implementation
+\#\# Public-use boundaries in implementation
 
 Some implementation material can be public.
 
@@ -14496,16 +14496,16 @@ Some requires consent or review before publication.
 
 Implementation records should ask:
 
-- Does this include people or community data?  
-- Does this include exact locations?  
-- Does this include ecological claims?  
-- Does this include funding or financial information?  
-- Does this include unresolved conflict?  
-- Does this include private feedback?  
-- Does this represent a community publicly?  
-- Does this rely on AI synthesis?  
-- Does this make claims about success, legitimacy, or impact?  
-- Does anyone affected need to review it first?
+\- Does this include people or community data?  
+\- Does this include exact locations?  
+\- Does this include ecological claims?  
+\- Does this include funding or financial information?  
+\- Does this include unresolved conflict?  
+\- Does this include private feedback?  
+\- Does this represent a community publicly?  
+\- Does this rely on AI synthesis?  
+\- Does this make claims about success, legitimacy, or impact?  
+\- Does anyone affected need to review it first?
 
 Possible public-use states:
 
@@ -14525,9 +14525,9 @@ The goal is not to hide learning.
 
 The goal is to share responsibly.
 
----
+\---
 
-## Pattern generation
+\#\# Pattern generation
 
 Implementation Memory can generate patterns over time.
 
@@ -14547,222 +14547,222 @@ A possible progression:
 
 Questions before promoting a case to pattern:
 
-- Has this happened more than once?  
-- Are the conditions clear?  
-- What context made it work?  
-- What context made it fail?  
-- What must not be generalized?  
-- What evidence supports transferability?  
-- Who reviewed the pattern?  
-- What are the known failure modes?
+\- Has this happened more than once?  
+\- Are the conditions clear?  
+\- What context made it work?  
+\- What context made it fail?  
+\- What must not be generalized?  
+\- What evidence supports transferability?  
+\- Who reviewed the pattern?  
+\- What are the known failure modes?
 
 A story can be inspiring without being a pattern.
 
----
+\---
 
-## Implementation Memory and source systems
+\#\# Implementation Memory and source systems
 
 Implementation records often depend on source systems.
 
 Examples:
 
-- Karma GAP updates;  
-- GitHub issues;  
-- Charmverse pages;  
-- forum threads;  
-- Notion pages;  
-- Google Docs;  
-- spreadsheets;  
-- onchain records;  
-- dashboards;  
-- grant reports;  
-- workshop notes;  
-- field data platforms;  
-- photo archives;  
-- community channels.
+\- Karma GAP updates;  
+\- GitHub issues;  
+\- Charmverse pages;  
+\- forum threads;  
+\- Notion pages;  
+\- Google Docs;  
+\- spreadsheets;  
+\- onchain records;  
+\- dashboards;  
+\- grant reports;  
+\- workshop notes;  
+\- field data platforms;  
+\- photo archives;  
+\- community channels.
 
 Implementation Memory should preserve source lineage:
 
-- where the record came from;  
-- who created it;  
-- who maintains it;  
-- whether it is public;  
-- whether it is current;  
-- what can be quoted or reused;  
-- what should flow back to the source.
+\- where the record came from;  
+\- who created it;  
+\- who maintains it;  
+\- whether it is public;  
+\- whether it is current;  
+\- what can be quoted or reused;  
+\- what should flow back to the source.
 
 If Implementation Memory summarizes another source system, it should preserve attribution and return paths.
 
----
+\---
 
-## Implementation Memory and AI
+\#\# Implementation Memory and AI
 
 AI can help organize implementation learning.
 
 It may assist with:
 
-- summarizing reports;  
-- extracting signals;  
-- identifying repeated patterns;  
-- routing lessons to Toolkit layers;  
-- generating draft case records;  
-- comparing deployments;  
-- finding contradictions;  
-- highlighting missing evidence;  
-- identifying public-use risks;  
-- suggesting maturity updates.
+\- summarizing reports;  
+\- extracting signals;  
+\- identifying repeated patterns;  
+\- routing lessons to Toolkit layers;  
+\- generating draft case records;  
+\- comparing deployments;  
+\- finding contradictions;  
+\- highlighting missing evidence;  
+\- identifying public-use risks;  
+\- suggesting maturity updates.
 
 But AI should not silently decide what happened.
 
 Implementation records involving AI should mark:
 
-- AI-assisted draft;  
-- human-reviewed;  
-- source-linked;  
-- inferred;  
-- disputed;  
-- public-use boundary;  
-- review needs.
+\- AI-assisted draft;  
+\- human-reviewed;  
+\- source-linked;  
+\- inferred;  
+\- disputed;  
+\- public-use boundary;  
+\- review needs.
 
 AI is especially risky when summarizing:
 
-- conflict;  
-- ecological claims;  
-- governance legitimacy;  
-- community representation;  
-- local knowledge;  
-- funding outcomes;  
-- personal or sensitive data.
+\- conflict;  
+\- ecological claims;  
+\- governance legitimacy;  
+\- community representation;  
+\- local knowledge;  
+\- funding outcomes;  
+\- personal or sensitive data.
 
 AI can help with memory.
 
 It should not become the judge of reality.
 
----
+\---
 
-## Example implementation records
+\#\# Example implementation records
 
-### Example: Public goods funding round
-
-Record should include:
-
-- round name;  
-- dates;  
-- funding source;  
-- mechanism;  
-- eligibility;  
-- applicants;  
-- reviewers / voters;  
-- allocation results;  
-- disputes or appeals;  
-- grantee reporting;  
-- public claims;  
-- metrics used;  
-- what worked;  
-- what failed;  
-- gaming or capture signals;  
-- lessons for next round;  
-- updates to funding options or deployment template.
-
-Possible signals:
-
-- applicants misunderstood eligibility;  
-- public impact claims exceeded evidence;  
-- reviewers were overloaded;  
-- treasury disbursement was delayed;  
-- QF produced attention imbalance;  
-- post-round reporting did not feed learning.
-
----
-
-### Example: Local node implementation
+\#\#\# Example: Public goods funding round
 
 Record should include:
 
-- place;  
-- local stewards;  
-- network relationship;  
-- local purpose;  
-- events or actions;  
-- governance process;  
-- funding flow;  
-- community partners;  
-- documentation;  
-- public representation;  
-- challenges;  
-- local feedback;  
-- what adapted;  
-- what should update the Local Node Builder Track.
+\- round name;  
+\- dates;  
+\- funding source;  
+\- mechanism;  
+\- eligibility;  
+\- applicants;  
+\- reviewers / voters;  
+\- allocation results;  
+\- disputes or appeals;  
+\- grantee reporting;  
+\- public claims;  
+\- metrics used;  
+\- what worked;  
+\- what failed;  
+\- gaming or capture signals;  
+\- lessons for next round;  
+\- updates to funding options or deployment template.
 
 Possible signals:
 
-- local autonomy unclear;  
-- chapter identity stronger than implementation capacity;  
-- local community did not understand web3 framing;  
-- central reporting burden too high;  
-- local partnerships created legitimacy;  
-- funding dependency emerged.
+\- applicants misunderstood eligibility;  
+\- public impact claims exceeded evidence;  
+\- reviewers were overloaded;  
+\- treasury disbursement was delayed;  
+\- QF produced attention imbalance;  
+\- post-round reporting did not feed learning.
 
----
+\---
 
-### Example: Knowledge commons sprint
+\#\#\# Example: Local node implementation
 
 Record should include:
 
-- corpus;  
-- contributors;  
-- tools used;  
-- source systems reviewed;  
-- object types created;  
-- AI role;  
-- review process;  
-- what was preserved;  
-- what was lost;  
-- confusing categories;  
-- metadata issues;  
-- source-system concerns;  
-- updates needed.
+\- place;  
+\- local stewards;  
+\- network relationship;  
+\- local purpose;  
+\- events or actions;  
+\- governance process;  
+\- funding flow;  
+\- community partners;  
+\- documentation;  
+\- public representation;  
+\- challenges;  
+\- local feedback;  
+\- what adapted;  
+\- what should update the Local Node Builder Track.
 
 Possible signals:
 
-- raw links were lost during synthesis;  
-- source systems needed separate cards;  
-- contributors confused resources and concepts;  
-- Markdown was easier for portability but harder for non-technical contributors;  
-- AI classification accelerated sorting but introduced false relationships.
+\- local autonomy unclear;  
+\- chapter identity stronger than implementation capacity;  
+\- local community did not understand web3 framing;  
+\- central reporting burden too high;  
+\- local partnerships created legitimacy;  
+\- funding dependency emerged.
 
----
+\---
 
-### Example: Ecological reporting pilot
+\#\#\# Example: Knowledge commons sprint
 
 Record should include:
 
-- project;  
-- place;  
-- ecological claim;  
-- data collection method;  
-- evidence;  
-- reviewer;  
-- uncertainty;  
-- sensitive location issues;  
-- funding relation;  
-- public-use boundary;  
-- local feedback;  
-- next monitoring step.
+\- corpus;  
+\- contributors;  
+\- tools used;  
+\- source systems reviewed;  
+\- object types created;  
+\- AI role;  
+\- review process;  
+\- what was preserved;  
+\- what was lost;  
+\- confusing categories;  
+\- metadata issues;  
+\- source-system concerns;  
+\- updates needed.
 
 Possible signals:
 
-- evidence was adequate for internal learning but not public impact claims;  
-- location data needed generalization;  
-- local steward review was necessary;  
-- biodiversity data required external source validation;  
-- reporting burden exceeded field capacity.
+\- raw links were lost during synthesis;  
+\- source systems needed separate cards;  
+\- contributors confused resources and concepts;  
+\- Markdown was easier for portability but harder for non-technical contributors;  
+\- AI classification accelerated sorting but introduced false relationships.
 
----
+\---
 
-## Implementation Memory practices
+\#\#\# Example: Ecological reporting pilot
 
-### 1. Record the gap between plan and reality
+Record should include:
+
+\- project;  
+\- place;  
+\- ecological claim;  
+\- data collection method;  
+\- evidence;  
+\- reviewer;  
+\- uncertainty;  
+\- sensitive location issues;  
+\- funding relation;  
+\- public-use boundary;  
+\- local feedback;  
+\- next monitoring step.
+
+Possible signals:
+
+\- evidence was adequate for internal learning but not public impact claims;  
+\- location data needed generalization;  
+\- local steward review was necessary;  
+\- biodiversity data required external source validation;  
+\- reporting burden exceeded field capacity.
+
+\---
+
+\#\# Implementation Memory practices
+
+\#\#\# 1\. Record the gap between plan and reality
 
 Do not only document what was supposed to happen.
 
@@ -14770,30 +14770,30 @@ Document what actually happened.
 
 Ask:
 
-- What changed?  
-- What was harder than expected?  
-- What was easier than expected?  
-- What assumptions failed?  
-- What emerged unexpectedly?
+\- What changed?  
+\- What was harder than expected?  
+\- What was easier than expected?  
+\- What assumptions failed?  
+\- What emerged unexpectedly?
 
-### 2. Preserve context
+\#\#\# 2\. Preserve context
 
 Implementation learning without context becomes misleading.
 
 Preserve:
 
-- place;  
-- time;  
-- participants;  
-- tools;  
-- constraints;  
-- resources;  
-- power dynamics;  
-- local conditions;  
-- maturity level;  
-- external dependencies.
+\- place;  
+\- time;  
+\- participants;  
+\- tools;  
+\- constraints;  
+\- resources;  
+\- power dynamics;  
+\- local conditions;  
+\- maturity level;  
+\- external dependencies.
 
-### 3. Document failures without blame
+\#\#\# 3\. Document failures without blame
 
 Failure cases are valuable.
 
@@ -14801,91 +14801,91 @@ They should be documented in ways that support learning, not shame.
 
 Ask:
 
-- What structural conditions contributed?  
-- What early signals existed?  
-- What could be changed next time?  
-- What should not be repeated?
+\- What structural conditions contributed?  
+\- What early signals existed?  
+\- What could be changed next time?  
+\- What should not be repeated?
 
-### 4. Separate claims from evidence
+\#\#\# 4\. Separate claims from evidence
 
 Do not let public-facing stories make stronger claims than the evidence supports.
 
-### 5. Route signals
+\#\#\# 5\. Route signals
 
 A lesson is only useful if it reaches the right layer.
 
 Route it to:
 
-- Ontology;  
-- Encyclopedia;  
-- Resource Graph;  
-- Option Library;  
-- Deployment;  
-- Tracks;  
-- Infrastructure;  
-- Backlog;  
-- Archive / Compost;  
-- Evolution Layer.
+\- Ontology;  
+\- Encyclopedia;  
+\- Resource Graph;  
+\- Option Library;  
+\- Deployment;  
+\- Tracks;  
+\- Infrastructure;  
+\- Backlog;  
+\- Archive / Compost;  
+\- Evolution Layer.
 
-### 6. Do not generalize too quickly
+\#\#\# 6\. Do not generalize too quickly
 
 Ask what is local, unique, repeated, transferable, or still uncertain.
 
-### 7. Feed the commons
+\#\#\# 7\. Feed the commons
 
 Implementation Memory should not sit in a separate folder forever.
 
 It should update:
 
-- concept pages;  
-- option entries;  
-- deployment templates;  
-- tracks;  
-- source-system cards;  
-- failure case library;  
-- maturity statuses;  
-- open questions.
+\- concept pages;  
+\- option entries;  
+\- deployment templates;  
+\- tracks;  
+\- source-system cards;  
+\- failure case library;  
+\- maturity statuses;  
+\- open questions.
 
----
+\---
 
-## Minimum rule for this layer
+\#\# Minimum rule for this layer
 
 Every meaningful implementation record should answer at least:
 
-1. What was attempted?  
-2. What actually happened?  
-3. What context mattered?  
-4. What worked?  
-5. What failed or changed?  
-6. What signals emerged?  
-7. What should update the Toolkit?  
-8. What should not be generalized?
+1\. What was attempted?  
+2\. What actually happened?  
+3\. What context mattered?  
+4\. What worked?  
+5\. What failed or changed?  
+6\. What signals emerged?  
+7\. What should update the Toolkit?  
+8\. What should not be generalized?
 
 For high-risk implementations, add:
 
-- claim-evidence separation;  
-- public-use boundary;  
-- consent / representation review;  
-- domain review;  
-- uncertainty statement;  
-- source lineage.
+\- claim-evidence separation;  
+\- public-use boundary;  
+\- consent / representation review;  
+\- domain review;  
+\- uncertainty statement;  
+\- source lineage.
 
----
+\---
 
-### Practical v0.1 recommendation
+\#\#\# Practical v0.1 recommendation
 
 For the next iteration, create a small Implementation Memory folder or section with 5–8 starter records.
 
 Possible starter records:
 
-1. Regen Toolkit master doc stabilization process  
-2. Resource Graph recovery / preservation issue  
-3. GreenPill Brasil local coordination and reporting  
-4. Regen Rio GG23 / Celo / Sarafu context  
-5. Gitcoin Grants Garden / Gardens v2 usage  
-6. Cookie Jar Research Raid planning  
-7. GreenGoods / TreeKipedia / Silvi ecological data context  
-8. AI-assisted knowledge gardening and synthesis process
+1\. Regen Toolkit master doc stabilization process  
+2\. Resource Graph recovery / preservation issue  
+3\. GreenPill Brasil local coordination and reporting  
+4\. Regen Rio GG23 / Celo / Sarafu context  
+5\. Gitcoin Grants Garden / Gardens v2 usage  
+6\. Cookie Jar Research Raid planning  
+7\. GreenGoods / TreeKipedia / Silvi ecological data context  
+8\. AI-assisted knowledge gardening and synthesis process
 
 Each starter record can be rough.
 
@@ -14893,14 +14893,14 @@ The point is to test the template.
 
 The first real lesson is already visible:
 
-> Summarized cleanup can accidentally remove important raw resource links.    
-> Therefore, raw inventories should be preserved before synthesis.
+\> Summarized cleanup can accidentally remove important raw resource links.    
+\> Therefore, raw inventories should be preserved before synthesis.
 
 That signal should update the Resource Graph section and future AI-assisted documentation workflows.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 Implementation & Learning Memory is the Toolkit’s reality-check layer.
 
@@ -14908,15 +14908,15 @@ It records what happened when people tried to use ideas, options, tracks, deploy
 
 Its job is to preserve:
 
-- context;  
-- evidence;  
-- adaptations;  
-- failures;  
-- signals;  
-- claims;  
-- uncertainty;  
-- lessons;  
-- update implications.
+\- context;  
+\- evidence;  
+\- adaptations;  
+\- failures;  
+\- signals;  
+\- claims;  
+\- uncertainty;  
+\- lessons;  
+\- update implications.
 
 Implementation Memory prevents the Toolkit from becoming only theory.
 
@@ -14928,30 +14928,30 @@ It helps the commons remember.
 
 # 🧬 Evolution Layer
 
-## 13. Evolution Layer
+\#\# 13\. Evolution Layer
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Evolution Layer defines how the Toolkit learns, updates, corrects itself, and adapts over time.
 
 It helps answer:
 
-- What signals are being received?  
-- What do those signals mean?  
-- Which signals are isolated, repeated, structural, or contextual?  
-- What should be updated?  
-- What should be preserved as an open question?  
-- What should be deprecated, archived, or composted?  
-- What should trigger review?  
-- What should become a new concept, option, track, deployment check, or pattern candidate?  
-- How does learning from implementation change the Toolkit?  
-- How does the Toolkit avoid both stagnation and reactive overcorrection?
+\- What signals are being received?  
+\- What do those signals mean?  
+\- Which signals are isolated, repeated, structural, or contextual?  
+\- What should be updated?  
+\- What should be preserved as an open question?  
+\- What should be deprecated, archived, or composted?  
+\- What should trigger review?  
+\- What should become a new concept, option, track, deployment check, or pattern candidate?  
+\- How does learning from implementation change the Toolkit?  
+\- How does the Toolkit avoid both stagnation and reactive overcorrection?
 
 The Evolution Layer is the adaptive learning layer of the Toolkit.
 
 It connects:
 
-> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
+\> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
 
 This layer exists because a living knowledge commons cannot remain static.
 
@@ -14959,9 +14959,9 @@ But it also cannot change randomly every time someone has feedback.
 
 The Evolution Layer helps the Toolkit update with care.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 This layer should be treated as a working adaptive process, not a fully formal governance system.
 
@@ -14973,45 +14973,45 @@ Evolution requires interpretation, routing, decision, integration, and memory.
 
 The Toolkit should be able to receive signals from many places:
 
-- implementation cases;  
-- funding rounds;  
-- governance experiments;  
-- local node activity;  
-- source-system updates;  
-- broken links;  
-- AI workflow failures;  
-- ecological review;  
-- community feedback;  
-- concept confusion;  
-- repeated contributor questions;  
-- outdated resources;  
-- failed deployments;  
-- public-use concerns;  
-- infrastructure friction;  
-- new external source systems;  
-- changes in the wider ecosystem.
+\- implementation cases;  
+\- funding rounds;  
+\- governance experiments;  
+\- local node activity;  
+\- source-system updates;  
+\- broken links;  
+\- AI workflow failures;  
+\- ecological review;  
+\- community feedback;  
+\- concept confusion;  
+\- repeated contributor questions;  
+\- outdated resources;  
+\- failed deployments;  
+\- public-use concerns;  
+\- infrastructure friction;  
+\- new external source systems;  
+\- changes in the wider ecosystem.
 
 But those signals should not automatically rewrite the system.
 
 They should move through a visible learning process.
 
----
+\---
 
-### Why this layer matters
+\#\#\# Why this layer matters
 
 Without an Evolution Layer, the Toolkit may become:
 
-- outdated;  
-- overgrown;  
-- reactive;  
-- internally inconsistent;  
-- disconnected from implementation;  
-- unable to correct public claims;  
-- full of dead links and stale resources;  
-- full of old assumptions;  
-- over-shaped by AI synthesis;  
-- dependent on one person’s memory;  
-- unable to distinguish weak signals from structural patterns.
+\- outdated;  
+\- overgrown;  
+\- reactive;  
+\- internally inconsistent;  
+\- disconnected from implementation;  
+\- unable to correct public claims;  
+\- full of dead links and stale resources;  
+\- full of old assumptions;  
+\- over-shaped by AI synthesis;  
+\- dependent on one person’s memory;  
+\- unable to distinguish weak signals from structural patterns.
 
 A knowledge commons becomes alive when it can learn.
 
@@ -15019,82 +15019,82 @@ But learning requires structure.
 
 The Evolution Layer gives the Toolkit a way to ask:
 
-- What happened?  
-- What does it mean?  
-- What layer does it affect?  
-- What should change?  
-- Who should review it?  
-- What should be remembered?  
-- What should remain unresolved?
+\- What happened?  
+\- What does it mean?  
+\- What layer does it affect?  
+\- What should change?  
+\- Who should review it?  
+\- What should be remembered?  
+\- What should remain unresolved?
 
----
+\---
 
-## Core evolution loop
+\#\# Core evolution loop
 
 The working loop is:
 
-> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
+\> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
 
 Each step has a different function.
 
----
+\---
 
-### 1. Signal
+\#\#\# 1\. Signal
 
 A signal is an observation that something may need attention.
 
 Signals can come from:
 
-- implementation records;  
-- user feedback;  
-- contributor confusion;  
-- field observations;  
-- governance disputes;  
-- ecological review;  
-- broken links;  
-- stale source systems;  
-- funding round outcomes;  
-- AI-generated errors;  
-- repeated questions;  
-- public-use concerns;  
-- source-system complaints;  
-- failed options;  
-- successful patterns;  
-- new ecosystem developments.
+\- implementation records;  
+\- user feedback;  
+\- contributor confusion;  
+\- field observations;  
+\- governance disputes;  
+\- ecological review;  
+\- broken links;  
+\- stale source systems;  
+\- funding round outcomes;  
+\- AI-generated errors;  
+\- repeated questions;  
+\- public-use concerns;  
+\- source-system complaints;  
+\- failed options;  
+\- successful patterns;  
+\- new ecosystem developments.
 
 A signal is not automatically a conclusion.
 
 Example signals:
 
-- “People keep confusing tracks with deployments.”  
-- “The cleaned resource section dropped many useful links.”  
-- “This ecological claim is too strong for the evidence.”  
-- “AI classification grouped source systems and individual links together.”  
-- “Local node stewards are overloaded by reporting expectations.”  
-- “A funding round produced strong outputs but weak evidence of outcomes.”  
-- “Several communities independently created similar stewardship circles.”  
-- “A source system has become inactive.”  
-- “A tool listed in the Resource Graph is no longer maintained.”  
-- “A public page sounds more certain than the review status supports.”
+\- “People keep confusing tracks with deployments.”  
+\- “The cleaned resource section dropped many useful links.”  
+\- “This ecological claim is too strong for the evidence.”  
+\- “AI classification grouped source systems and individual links together.”  
+\- “Local node stewards are overloaded by reporting expectations.”  
+\- “A funding round produced strong outputs but weak evidence of outcomes.”  
+\- “Several communities independently created similar stewardship circles.”  
+\- “A source system has become inactive.”  
+\- “A tool listed in the Resource Graph is no longer maintained.”  
+\- “A public page sounds more certain than the review status supports.”
 
 Signals should be captured before they are interpreted.
 
----
+\---
 
-### 2. Sensemaking
+\#\#\# 2\. Sensemaking
 
 Sensemaking interprets signals.
 
 It asks:
 
-- What exactly happened?  
-- Is this an isolated issue or a repeated pattern?  
-- What context matters?  
-- What assumptions were involved?  
-- Which layer does this affect?  
-- Is this a content problem, ontology problem, deployment problem, governance problem, infrastructure problem, or implementation problem?  
-- Does the signal require immediate correction, future review, or simple memory preservation?  
-- Who should interpret this?
+\- What exactly happened?  
+\- Is this an isolated issue or a repeated pattern?  
+\- What context matters?  
+\- What assumptions were involved?  
+\- Which layer does this affect?  
+\- Is this a content problem, ontology problem, deployment problem, governance problem, infrastructure problem, or implementation problem?  
+\- Does the signal require immediate correction, future review, or simple memory preservation?  
+\- Who should interpret this?
 
 Sensemaking should avoid both dismissal and overreaction.
 
@@ -15108,48 +15108,48 @@ Not every complaint means the system is wrong.
 
 But every meaningful signal should have a place to go.
 
----
+\---
 
-### 3. Balance Assessment
+\#\#\# 3\. Balance Assessment
 
 Balance Assessment asks whether the signal indicates movement toward or away from the Toolkit’s desired qualities.
 
 The Toolkit should remain:
 
-- source-aware;  
-- review-aware;  
-- regenerative;  
-- usable;  
-- interoperable;  
-- implementation-informed;  
-- non-extractive;  
-- context-sensitive;  
-- human-governed;  
-- adaptable;  
-- structurally legible;  
-- alive.
+\- source-aware;  
+\- review-aware;  
+\- regenerative;  
+\- usable;  
+\- interoperable;  
+\- implementation-informed;  
+\- non-extractive;  
+\- context-sensitive;  
+\- human-governed;  
+\- adaptable;  
+\- structurally legible;  
+\- alive.
 
 Balance Assessment asks:
 
-- Is the Toolkit becoming too abstract?  
-- Is it becoming too rigid?  
-- Is it losing source lineage?  
-- Is it over-relying on AI?  
-- Is it under-reviewing public claims?  
-- Is it overburdening contributors?  
-- Is it preserving too much clutter?  
-- Is it deleting useful memory too quickly?  
-- Is it drifting from implementation?  
-- Is it over-standardizing before enough use?  
-- Is it becoming hard to navigate?  
-- Is it treating raw leads as recommendations?  
-- Is it treating polished text as reviewed knowledge?
+\- Is the Toolkit becoming too abstract?  
+\- Is it becoming too rigid?  
+\- Is it losing source lineage?  
+\- Is it over-relying on AI?  
+\- Is it under-reviewing public claims?  
+\- Is it overburdening contributors?  
+\- Is it preserving too much clutter?  
+\- Is it deleting useful memory too quickly?  
+\- Is it drifting from implementation?  
+\- Is it over-standardizing before enough use?  
+\- Is it becoming hard to navigate?  
+\- Is it treating raw leads as recommendations?  
+\- Is it treating polished text as reviewed knowledge?
 
 This step helps the Toolkit avoid reactive updates that solve one problem while creating another.
 
----
+\---
 
-### 4. Intervention
+\#\#\# 4\. Intervention
 
 An intervention is a deliberate response to a signal.
 
@@ -15183,9 +15183,9 @@ A source-system complaint may need attribution review and correction.
 A failed deployment may need a template update.    
 An implementation success may need more evidence before becoming a pattern.
 
----
+\---
 
-### 5. Integration
+\#\#\# 5\. Integration
 
 Integration is the act of updating the Toolkit.
 
@@ -15209,272 +15209,272 @@ Integration should preserve memory of why a change happened.
 
 The Toolkit should not silently mutate.
 
----
+\---
 
-### 6. Memory
+\#\#\# 6\. Memory
 
 Memory preserves the learning behind the change.
 
 It asks:
 
-- What signal triggered the update?  
-- What was decided?  
-- Who reviewed it?  
-- What changed?  
-- What remains unresolved?  
-- What should future contributors know?  
-- Should the old version be archived or composted?  
-- Does this update create a pattern candidate?  
-- Does this update reveal a new open question?
+\- What signal triggered the update?  
+\- What was decided?  
+\- Who reviewed it?  
+\- What changed?  
+\- What remains unresolved?  
+\- What should future contributors know?  
+\- Should the old version be archived or composted?  
+\- Does this update create a pattern candidate?  
+\- Does this update reveal a new open question?
 
 Memory may be stored in:
 
-- changelog;  
-- evolution log;  
-- implementation record;  
-- issue / tension record;  
-- update proposal;  
-- pattern candidate;  
-- deprecation note;  
-- source-system update;  
-- archive / compost note.
+\- changelog;  
+\- evolution log;  
+\- implementation record;  
+\- issue / tension record;  
+\- update proposal;  
+\- pattern candidate;  
+\- deprecation note;  
+\- source-system update;  
+\- archive / compost note.
 
 A living system needs memory so it does not relearn the same lessons repeatedly.
 
----
+\---
 
-## Signal types
+\#\# Signal types
 
 The Toolkit should recognize different types of signals.
 
-### 1. Content signal
+\#\#\# 1\. Content signal
 
 Something in the writing, explanation, or documentation needs attention.
 
 Examples:
 
-- unclear definition;  
-- repeated confusion;  
-- duplicated explanation;  
-- missing caveat;  
-- outdated statement;  
-- over-polished but unreviewed section.
+\- unclear definition;  
+\- repeated confusion;  
+\- duplicated explanation;  
+\- missing caveat;  
+\- outdated statement;  
+\- over-polished but unreviewed section.
 
 Possible route:
 
-- Encyclopedia;  
-- Concept Ecology;  
-- editorial review;  
-- maturity label.
+\- Encyclopedia;  
+\- Concept Ecology;  
+\- editorial review;  
+\- maturity label.
 
----
+\---
 
-### 2. Ontology signal
+\#\#\# 2\. Ontology signal
 
 A semantic structure may need revision.
 
 Examples:
 
-- a type is overloaded;  
-- a tag is being used like a type;  
-- contributors classify the same object differently;  
-- a relationship is too vague;  
-- AI misclassifies entries repeatedly;  
-- external ontology mapping does not fit.
+\- a type is overloaded;  
+\- a tag is being used like a type;  
+\- contributors classify the same object differently;  
+\- a relationship is too vague;  
+\- AI misclassifies entries repeatedly;  
+\- external ontology mapping does not fit.
 
 Possible route:
 
-- Ontology & Semantic Kernel;  
-- ontology review;  
-- schema update proposal;  
-- type/tag clarification.
+\- Ontology & Semantic Kernel;  
+\- ontology review;  
+\- schema update proposal;  
+\- type/tag clarification.
 
----
+\---
 
-### 3. Resource signal
+\#\#\# 3\. Resource signal
 
 A resource or source system needs attention.
 
 Examples:
 
-- broken link;  
-- stale source system;  
-- duplicate resource;  
-- missing attribution;  
-- unclear source quality;  
-- raw lead treated as recommendation;  
-- useful resource omitted during cleanup.
+\- broken link;  
+\- stale source system;  
+\- duplicate resource;  
+\- missing attribution;  
+\- unclear source quality;  
+\- raw lead treated as recommendation;  
+\- useful resource omitted during cleanup.
 
 Possible route:
 
-- Resource Graph;  
-- Source System Card;  
-- source review;  
-- archive / deprecation;  
-- preservation note.
+\- Resource Graph;  
+\- Source System Card;  
+\- source review;  
+\- archive / deprecation;  
+\- preservation note.
 
----
+\---
 
-### 4. Option signal
+\#\#\# 4\. Option signal
 
 A reusable option needs clarification, review, or maturity update.
 
 Examples:
 
-- option fails in practice;  
-- option has hidden dependencies;  
-- option repeatedly requires same deployment check;  
-- option works well in several contexts;  
-- option is too risky without caveats;  
-- option is confused with a concept or tool.
+\- option fails in practice;  
+\- option has hidden dependencies;  
+\- option repeatedly requires same deployment check;  
+\- option works well in several contexts;  
+\- option is too risky without caveats;  
+\- option is confused with a concept or tool.
 
 Possible route:
 
-- Option Library;  
-- Deployment section;  
-- Implementation Memory;  
-- pattern candidate process.
+\- Option Library;  
+\- Deployment section;  
+\- Implementation Memory;  
+\- pattern candidate process.
 
----
+\---
 
-### 5. Deployment signal
+\#\#\# 5\. Deployment signal
 
 A deployment template or deployment record is missing structural requirements.
 
 Examples:
 
-- unclear decision rights;  
-- hidden power;  
-- missing accountability;  
-- no failure detection;  
-- no public-use boundary;  
-- experimental element treated as fixed;  
-- unclear review needs.
+\- unclear decision rights;  
+\- hidden power;  
+\- missing accountability;  
+\- no failure detection;  
+\- no public-use boundary;  
+\- experimental element treated as fixed;  
+\- unclear review needs.
 
 Possible route:
 
-- Deployment & Structural Integrity;  
-- governance review;  
-- risk review;  
-- implementation retrospective.
+\- Deployment & Structural Integrity;  
+\- governance review;  
+\- risk review;  
+\- implementation retrospective.
 
----
+\---
 
-### 6. Track signal
+\#\#\# 6\. Track signal
 
 A guided pathway needs improvement.
 
 Examples:
 
-- track is too broad;  
-- audience unclear;  
-- missing concept foundation;  
-- resources outdated;  
-- options not linked;  
-- deployment checks missing;  
-- users treat the track as a deployment.
+\- track is too broad;  
+\- audience unclear;  
+\- missing concept foundation;  
+\- resources outdated;  
+\- options not linked;  
+\- deployment checks missing;  
+\- users treat the track as a deployment.
 
 Possible route:
 
-- Tracks & Composition;  
-- track steward;  
-- user feedback review;  
-- split / merge / update.
+\- Tracks & Composition;  
+\- track steward;  
+\- user feedback review;  
+\- split / merge / update.
 
----
+\---
 
-### 7. Implementation signal
+\#\#\# 7\. Implementation signal
 
 Real-world practice produced learning.
 
 Examples:
 
-- assumptions failed;  
-- field adaptation worked;  
-- funding process created friction;  
-- local node governance changed in practice;  
-- ecological evidence was hard to gather;  
-- AI workflow saved time but introduced errors.
+\- assumptions failed;  
+\- field adaptation worked;  
+\- funding process created friction;  
+\- local node governance changed in practice;  
+\- ecological evidence was hard to gather;  
+\- AI workflow saved time but introduced errors.
 
 Possible route:
 
-- Implementation Memory;  
-- Option Library;  
-- Deployment;  
-- Evolution Log;  
-- pattern candidate.
+\- Implementation Memory;  
+\- Option Library;  
+\- Deployment;  
+\- Evolution Log;  
+\- pattern candidate.
 
----
+\---
 
-### 8. Public-use signal
+\#\#\# 8\. Public-use signal
 
 Material may be unsafe, overconfident, or misleading if public.
 
 Examples:
 
-- unreviewed ecological claim;  
-- community representation concern;  
-- AI-generated synthesis presented as reviewed;  
-- legal/tax implication;  
-- identity or privacy risk;  
-- funding success overstated.
+\- unreviewed ecological claim;  
+\- community representation concern;  
+\- AI-generated synthesis presented as reviewed;  
+\- legal/tax implication;  
+\- identity or privacy risk;  
+\- funding success overstated.
 
 Possible route:
 
-- public-use boundary;  
-- domain review;  
-- community review;  
-- correction or pause.
+\- public-use boundary;  
+\- domain review;  
+\- community review;  
+\- correction or pause.
 
----
+\---
 
-### 9. Source-system signal
+\#\#\# 9\. Source-system signal
 
 A living external knowledge environment needs care.
 
 Examples:
 
-- source system has a steward;  
-- source system has reuse conditions;  
-- source system changed;  
-- source system became inactive;  
-- source system objects to aggregation;  
-- source system deserves return path;  
-- source system should not be reduced to links.
+\- source system has a steward;  
+\- source system has reuse conditions;  
+\- source system changed;  
+\- source system became inactive;  
+\- source system objects to aggregation;  
+\- source system deserves return path;  
+\- source system should not be reduced to links.
 
 Possible route:
 
-- Source System Card;  
-- attribution review;  
-- Resource Graph;  
-- source-system steward.
+\- Source System Card;  
+\- attribution review;  
+\- Resource Graph;  
+\- source-system steward.
 
----
+\---
 
-### 10. Infrastructure signal
+\#\#\# 10\. Infrastructure signal
 
 The technical substrate needs adjustment.
 
 Examples:
 
-- docs are too hard to maintain;  
-- table belongs in a spreadsheet;  
-- graph requires better schema;  
-- AI retrieval fails due to bad metadata;  
-- contributors cannot use GitHub;  
-- site navigation does not reflect architecture;  
-- tool dependency risk appears.
+\- docs are too hard to maintain;  
+\- table belongs in a spreadsheet;  
+\- graph requires better schema;  
+\- AI retrieval fails due to bad metadata;  
+\- contributors cannot use GitHub;  
+\- site navigation does not reflect architecture;  
+\- tool dependency risk appears.
 
 Possible route:
 
-- Infrastructure & Substrate;  
-- technical review;  
-- workflow redesign;  
-- tool comparison.
+\- Infrastructure & Substrate;  
+\- technical review;  
+\- workflow redesign;  
+\- tool comparison.
 
----
+\---
 
-## Evolution records
+\#\# Evolution records
 
 Important updates should be recorded.
 
@@ -15499,9 +15499,9 @@ This does not need to be heavy.
 
 Even a small log can prevent repeated confusion.
 
----
+\---
 
-## Update proposal template
+\#\# Update proposal template
 
 For larger changes, use an Update Proposal.
 
@@ -15521,115 +15521,115 @@ For larger changes, use an Update Proposal.
 
 Use update proposals for changes such as:
 
-- adding ontology types;  
-- changing relationship grammar;  
-- promoting an option to reviewed;  
-- deprecating a track;  
-- changing deployment validity rules;  
-- moving a source system to high priority;  
-- introducing a new infrastructure substrate;  
-- changing public-use policy;  
-- promoting implementation learning into a pattern candidate.
+\- adding ontology types;  
+\- changing relationship grammar;  
+\- promoting an option to reviewed;  
+\- deprecating a track;  
+\- changing deployment validity rules;  
+\- moving a source system to high priority;  
+\- introducing a new infrastructure substrate;  
+\- changing public-use policy;  
+\- promoting implementation learning into a pattern candidate.
 
----
+\---
 
-## Pattern candidate process
+\#\# Pattern candidate process
 
 The Evolution Layer should help identify emerging patterns.
 
 A pattern candidate may emerge when:
 
-- similar signals appear across implementations;  
-- the same option works in multiple contexts;  
-- the same failure mode repeats;  
-- a deployment check becomes consistently necessary;  
-- multiple teams independently invent similar practices;  
-- a local adaptation reveals broader usefulness.
+\- similar signals appear across implementations;  
+\- the same option works in multiple contexts;  
+\- the same failure mode repeats;  
+\- a deployment check becomes consistently necessary;  
+\- multiple teams independently invent similar practices;  
+\- a local adaptation reveals broader usefulness.
 
 Pattern candidate process:
 
-1. Identify repeated signal.  
-2. Gather related implementation records.  
-3. Compare contexts.  
-4. Identify common structure.  
-5. Identify conditions and limits.  
-6. Identify failure modes.  
-7. Review with relevant stewards.  
-8. Add as pattern candidate.  
-9. Test in future deployments.  
-10. Promote, revise, or archive.
+1\. Identify repeated signal.  
+2\. Gather related implementation records.  
+3\. Compare contexts.  
+4\. Identify common structure.  
+5\. Identify conditions and limits.  
+6\. Identify failure modes.  
+7\. Review with relevant stewards.  
+8\. Add as pattern candidate.  
+9\. Test in future deployments.  
+10\. Promote, revise, or archive.
 
 A pattern should carry:
 
-- where it came from;  
-- what evidence supports it;  
-- where it may not apply;  
-- what review it has received;  
-- how it can fail.
+\- where it came from;  
+\- what evidence supports it;  
+\- where it may not apply;  
+\- what review it has received;  
+\- how it can fail.
 
 The Toolkit should practice pattern humility.
 
----
+\---
 
-## Archive, compost, and deprecation
+\#\# Archive, compost, and deprecation
 
 Not all updates mean deletion.
 
 The Toolkit should distinguish:
 
-### Archive
+\#\#\# Archive
 
 Preserve for history.
 
 Use when:
 
-- material is no longer active;  
-- project ended;  
-- source is stale but historically relevant;  
-- old decision matters for memory.
+\- material is no longer active;  
+\- project ended;  
+\- source is stale but historically relevant;  
+\- old decision matters for memory.
 
-### Compost
+\#\#\# Compost
 
 Transform outdated or failed material into learning.
 
 Use when:
 
-- an idea no longer works but taught something;  
-- a failed deployment generated useful signals;  
-- an old structure explains current architecture;  
-- a removed section should still inform future work.
+\- an idea no longer works but taught something;  
+\- a failed deployment generated useful signals;  
+\- an old structure explains current architecture;  
+\- a removed section should still inform future work.
 
-### Deprecate
+\#\#\# Deprecate
 
 Mark as no longer recommended.
 
 Use when:
 
-- material is misleading;  
-- option is unsafe;  
-- resource is outdated;  
-- claim should not be used;  
-- track no longer fits;  
-- implementation lesson was superseded.
+\- material is misleading;  
+\- option is unsafe;  
+\- resource is outdated;  
+\- claim should not be used;  
+\- track no longer fits;  
+\- implementation lesson was superseded.
 
-### Remove
+\#\#\# Remove
 
 Delete or remove from active view only when:
 
-- duplicate;  
-- harmful;  
-- irrelevant;  
-- broken without value;  
-- violates privacy or consent;  
-- source should not have been included.
+\- duplicate;  
+\- harmful;  
+\- irrelevant;  
+\- broken without value;  
+\- violates privacy or consent;  
+\- source should not have been included.
 
 When in doubt, preserve first, then route.
 
 Do not erase useful memory just to make the document look clean.
 
----
+\---
 
-## Review and cadence
+\#\# Review and cadence
 
 Evolution can happen continuously, but some review cycles should be periodic.
 
@@ -15652,9 +15652,9 @@ Cadence should match capacity.
 
 A lightweight review that actually happens is better than a perfect review process that nobody maintains.
 
----
+\---
 
-## Evolution roles
+\#\# Evolution roles
 
 Possible roles:
 
@@ -15676,101 +15676,101 @@ One person may hold multiple roles early on.
 
 But the roles should still be named so hidden labor becomes visible.
 
----
+\---
 
-## Common evolution failures
+\#\# Common evolution failures
 
 The Toolkit should watch for its own failure modes.
 
-### 1. Reactive overcorrection
+\#\#\# 1\. Reactive overcorrection
 
 One issue causes a major structural change too quickly.
 
 Response:
 
-- preserve as signal;  
-- check recurrence;  
-- run a small probe;  
-- avoid redesigning too soon.
+\- preserve as signal;  
+\- check recurrence;  
+\- run a small probe;  
+\- avoid redesigning too soon.
 
-### 2. Stagnation
+\#\#\# 2\. Stagnation
 
 Signals accumulate but nothing changes.
 
 Response:
 
-- create review cadence;  
-- assign steward;  
-- prioritize high-risk updates.
+\- create review cadence;  
+\- assign steward;  
+\- prioritize high-risk updates.
 
-### 3. Overgrowth
+\#\#\# 3\. Overgrowth
 
 Backlog grows faster than routing capacity.
 
 Response:
 
-- create compost process;  
-- separate raw leads from active work;  
-- prioritize high-value entries.
+\- create compost process;  
+\- separate raw leads from active work;  
+\- prioritize high-value entries.
 
-### 4. Silent drift
+\#\#\# 4\. Silent drift
 
 Definitions, tags, or templates change without memory.
 
 Response:
 
-- maintain changelog;  
-- use update proposals;  
-- version important changes.
+\- maintain changelog;  
+\- use update proposals;  
+\- version important changes.
 
-### 5. AI-driven false coherence
+\#\#\# 5\. AI-driven false coherence
 
 AI rewrites messy but meaningful material into clean text that drops links, uncertainty, or source lineage.
 
 Response:
 
-- preserve raw material;  
-- add source checks;  
-- mark AI-assisted drafts;  
-- require human review for synthesis.
+\- preserve raw material;  
+\- add source checks;  
+\- mark AI-assisted drafts;  
+\- require human review for synthesis.
 
-### 6. Review bottleneck
+\#\#\# 6\. Review bottleneck
 
 Everything waits for review and contributors stop contributing.
 
 Response:
 
-- allow raw and draft states;  
-- scale review with risk;  
-- distinguish contribution from publication.
+\- allow raw and draft states;  
+\- scale review with risk;  
+\- distinguish contribution from publication.
 
-### 7. Public overconfidence
+\#\#\# 7\. Public overconfidence
 
 Draft material is published as if reviewed.
 
 Response:
 
-- use maturity labels;  
-- public-use boundaries;  
-- claim-evidence records;  
-- high-risk review flags.
+\- use maturity labels;  
+\- public-use boundaries;  
+\- claim-evidence records;  
+\- high-risk review flags.
 
-### 8. Memory loss
+\#\#\# 8\. Memory loss
 
 Old decisions, failures, and context disappear.
 
 Response:
 
-- archive;  
-- compost;  
-- implementation memory;  
-- evolution logs.
+\- archive;  
+\- compost;  
+\- implementation memory;  
+\- evolution logs.
 
----
+\---
 
-## Example evolution records
+\#\# Example evolution records
 
-### Example 1 — Resource loss during synthesis
+\#\#\# Example 1 — Resource loss during synthesis
 
 Signal:
 
@@ -15782,10 +15782,10 @@ AI-assisted synthesis can preserve categories while losing concrete resources.
 
 Affected layers:
 
-- Resource Graph;  
-- AI-assisted knowledge workflow;  
-- Infrastructure;  
-- Evolution.
+\- Resource Graph;  
+\- AI-assisted knowledge workflow;  
+\- Infrastructure;  
+\- Evolution.
 
 Intervention:
 
@@ -15799,9 +15799,9 @@ Memory note:
 
 Prefer preservation over compression when processing raw resource inventories.
 
----
+\---
 
-### Example 2 — Track vs deployment confusion
+\#\#\# Example 2 — Track vs deployment confusion
 
 Signal:
 
@@ -15813,10 +15813,10 @@ Layer distinction needs reinforcement.
 
 Affected layers:
 
-- Tracks;  
-- Deployment;  
-- Concept Ecology;  
-- Option Library.
+\- Tracks;  
+\- Deployment;  
+\- Concept Ecology;  
+\- Option Library.
 
 Intervention:
 
@@ -15830,9 +15830,9 @@ Memory note:
 
 Every track should link to deployment checks when action is implied.
 
----
+\---
 
-### Example 3 — Ecological impact overclaiming
+\#\#\# Example 3 — Ecological impact overclaiming
 
 Signal:
 
@@ -15844,11 +15844,11 @@ Claim-evidence discipline and public-use boundaries are needed.
 
 Affected layers:
 
-- Implementation Memory;  
-- Environmental Impact Track;  
-- Impact and Measurement Options;  
-- Deployment;  
-- Cross-Cutting Principles.
+\- Implementation Memory;  
+\- Environmental Impact Track;  
+\- Impact and Measurement Options;  
+\- Deployment;  
+\- Cross-Cutting Principles.
 
 Intervention:
 
@@ -15862,9 +15862,9 @@ Memory note:
 
 Ecological claims need review proportional to public and funding consequences.
 
----
+\---
 
-### Example 4 — AI classification creates false relationships
+\#\#\# Example 4 — AI classification creates false relationships
 
 Signal:
 
@@ -15876,10 +15876,10 @@ Relationship status must distinguish candidate from reviewed.
 
 Affected layers:
 
-- Ontology;  
-- Resource Graph;  
-- AI-Assisted Knowledge Garden Track;  
-- Infrastructure.
+\- Ontology;  
+\- Resource Graph;  
+\- AI-Assisted Knowledge Garden Track;  
+\- Infrastructure.
 
 Intervention:
 
@@ -15893,52 +15893,52 @@ Memory note:
 
 AI can suggest relationships but should not silently validate them.
 
----
+\---
 
-## Minimum rule for this layer
+\#\# Minimum rule for this layer
 
 Every meaningful signal should be either:
 
-1. captured;  
-2. routed;  
-3. reviewed;  
-4. integrated;  
-5. preserved as open question;  
-6. archived;  
-7. composted;  
-8. deprecated;  
-9. intentionally ignored with reason.
+1\. captured;  
+2\. routed;  
+3\. reviewed;  
+4\. integrated;  
+5\. preserved as open question;  
+6\. archived;  
+7\. composted;  
+8\. deprecated;  
+9\. intentionally ignored with reason.
 
 The Toolkit does not need to act on every signal immediately.
 
 But important signals should not disappear.
 
----
+\---
 
-### Practical v0.1 recommendation
+\#\#\# Practical v0.1 recommendation
 
 For the next iteration, create a small \*\*Evolution Log\*\*.
 
 Start with a few known signals:
 
-1. Resource Graph synthesis can lose important raw links.  
-2. Source systems need separate treatment from ordinary resources.  
-3. Tracks should not be confused with deployments.  
-4. AI-assisted drafts require human review and source checks.  
-5. Ecological and impact claims need claim-evidence separation.  
-6. Octo / BKC should remain an alignment candidate, not a final ontology decision.  
-7. CSIS should be framed as an influence, not conformance.  
-8. The Toolkit needs enough structure to help contributors, but not so much that contribution stops.  
-9. Implementation learning should update the Toolkit, not sit in isolated reports.  
-10. Public-use boundaries should scale with risk.
+1\. Resource Graph synthesis can lose important raw links.  
+2\. Source systems need separate treatment from ordinary resources.  
+3\. Tracks should not be confused with deployments.  
+4\. AI-assisted drafts require human review and source checks.  
+5\. Ecological and impact claims need claim-evidence separation.  
+6\. Octo / BKC should remain an alignment candidate, not a final ontology decision.  
+7\. CSIS should be framed as an influence, not conformance.  
+8\. The Toolkit needs enough structure to help contributors, but not so much that contribution stops.  
+9\. Implementation learning should update the Toolkit, not sit in isolated reports.  
+10\. Public-use boundaries should scale with risk.
 
 Each entry can be short.
 
 The point is to start preserving learning.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Evolution Layer is how the Toolkit learns.
 
@@ -15946,19 +15946,19 @@ It turns signals into sensemaking, sensemaking into interventions, interventions
 
 The core loop is:
 
-> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
+\> Signal → Sensemaking → Balance Assessment → Intervention → Integration → Memory
 
 This layer helps the Toolkit avoid:
 
-- stagnation;  
-- reactive overcorrection;  
-- AI-driven false coherence;  
-- review bottlenecks;  
-- memory loss;  
-- public overconfidence;  
-- ontology drift;  
-- source-system extraction;  
-- implementation learning loss.
+\- stagnation;  
+\- reactive overcorrection;  
+\- AI-driven false coherence;  
+\- review bottlenecks;  
+\- memory loss;  
+\- public overconfidence;  
+\- ontology drift;  
+\- source-system extraction;  
+\- implementation learning loss.
 
 A living knowledge commons should not only grow.
 
@@ -15966,35 +15966,35 @@ It should notice, interpret, adapt, remember, and compost.
 
 # 🧩 Infrastructure & Substrate
 
-## 14. Infrastructure & Substrate
+\#\# 14\. Infrastructure & Substrate
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Infrastructure & Substrate layer defines the technical and organizational foundations that can support the Toolkit.
 
 It helps answer:
 
-- Where should the Toolkit live?
+\- Where should the Toolkit live?
 
-- What should remain in documents?
+\- What should remain in documents?
 
-- What should move into tables?
+\- What should move into tables?
 
-- What should become structured data?
+\- What should become structured data?
 
-- What should be graph-native?
+\- What should be graph-native?
 
-- What should become public site content?
+\- What should become public site content?
 
-- What should remain private, internal, or review-gated?
+\- What should remain private, internal, or review-gated?
 
-- What tools can support contribution, review, search, publishing, versioning, AI workflows, and interoperability?
+\- What tools can support contribution, review, search, publishing, versioning, AI workflows, and interoperability?
 
-- What should be human-readable?
+\- What should be human-readable?
 
-- What should be machine-readable?
+\- What should be machine-readable?
 
-- What should remain substrate-agnostic until workflows are clearer?
+\- What should remain substrate-agnostic until workflows are clearer?
 
 This layer should support the commons without prematurely defining it.
 
@@ -16006,37 +16006,37 @@ A tool can also distort the commons around its own assumptions.
 
 Infrastructure should serve the work.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 The Toolkit is currently moving from a mostly document-based working environment toward a more structured knowledge commons.
 
 Current and likely substrates include:
 
-- master documents;
+\- master documents;
 
-- Google Docs;
+\- Google Docs;
 
-- Markdown;
+\- Markdown;
 
-- GitHub;
+\- GitHub;
 
-- Astro / Starlight-style documentation sites;
+\- Astro / Starlight-style documentation sites;
 
-- Vercel deployment;
+\- Vercel deployment;
 
-- resource link dumps;
+\- resource link dumps;
 
-- spreadsheets;
+\- spreadsheets;
 
-- source-system cards;
+\- source-system cards;
 
-- possible JSON / YAML / frontmatter structures;
+\- possible JSON / YAML / frontmatter structures;
 
-- possible graph or database layers;
+\- possible graph or database layers;
 
-- possible AI-assisted retrieval and classification workflows.
+\- possible AI-assisted retrieval and classification workflows.
 
 This is normal.
 
@@ -16056,15 +16056,15 @@ Schemas are better for interoperability and AI-readable workflows.
 
 AI can help with routing, synthesis, and retrieval, but only if source lineage and review states are preserved.
 
----
+\---
 
-### Core infrastructure principle
+\#\#\# Core infrastructure principle
 
 Infrastructure should follow function.
 
 Before choosing a tool, ask:
 
-> What work does this part of the Toolkit need to do?
+\> What work does this part of the Toolkit need to do?
 
 Different parts of the Toolkit need different substrates.
 
@@ -16104,747 +16104,747 @@ No single tool needs to do everything.
 
 The Toolkit may need a hybrid substrate.
 
----
+\---
 
-## Substrate types
+\#\# Substrate types
 
-### 1. Master documents
+\#\#\# 1\. Master documents
 
 Master documents are useful for:
 
-- architecture;
+\- architecture;
 
-- synthesis;
+\- synthesis;
 
-- working orientation;
+\- working orientation;
 
-- handoff notes;
+\- handoff notes;
 
-- longform reasoning;
+\- longform reasoning;
 
-- unresolved questions;
+\- unresolved questions;
 
-- early integration;
+\- early integration;
 
-- human-readable coherence.
+\- human-readable coherence.
 
 They are less useful for:
 
-- long resource inventories;
+\- long resource inventories;
 
-- filtered registries;
+\- filtered registries;
 
-- relationship queries;
+\- relationship queries;
 
-- structured review states;
+\- structured review states;
 
-- source-system tracking;
+\- source-system tracking;
 
-- machine-readable workflows;
+\- machine-readable workflows;
 
-- public navigation at scale.
+\- public navigation at scale.
 
 Use master docs for coherence.
 
 Do not force master docs to carry all structured data forever.
 
----
+\---
 
-### 2. Markdown
+\#\#\# 2\. Markdown
 
 Markdown is a strong default substrate for portable knowledge.
 
 It is useful for:
 
-- public documentation;
+\- public documentation;
 
-- version-controlled knowledge;
+\- version-controlled knowledge;
 
-- simple metadata through frontmatter;
+\- simple metadata through frontmatter;
 
-- static site generation;
+\- static site generation;
 
-- human-readable source files;
+\- human-readable source files;
 
-- AI-readable text corpus;
+\- AI-readable text corpus;
 
-- exportability;
+\- exportability;
 
-- low-cost maintenance;
+\- low-cost maintenance;
 
-- GitHub-based collaboration.
+\- GitHub-based collaboration.
 
 Markdown can support:
 
-- Encyclopedia entries;
+\- Encyclopedia entries;
 
-- Concept Ecology notes;
+\- Concept Ecology notes;
 
-- Option entries;
+\- Option entries;
 
-- Track pages;
+\- Track pages;
 
-- Deployment templates;
+\- Deployment templates;
 
-- Implementation records;
+\- Implementation records;
 
-- Evolution logs;
+\- Evolution logs;
 
-- Source System Cards;
+\- Source System Cards;
 
-- contributor guides.
+\- contributor guides.
 
 Potential limitations:
 
-- non-technical contributors may find Git workflows hard;
+\- non-technical contributors may find Git workflows hard;
 
-- complex tables become difficult to maintain;
+\- complex tables become difficult to maintain;
 
-- relational data can become duplicated;
+\- relational data can become duplicated;
 
-- metadata consistency requires discipline;
+\- metadata consistency requires discipline;
 
-- review workflows need tooling support.
+\- review workflows need tooling support.
 
 Markdown is a good portable base, but it should be supported by structured tables or schemas where needed.
 
----
+\---
 
-### 3. Google Docs
+\#\#\# 3\. Google Docs
 
 Google Docs are useful for:
 
-- collaborative drafting;
+\- collaborative drafting;
 
-- comments;
+\- comments;
 
-- easy participation;
+\- easy participation;
 
-- live editing;
+\- live editing;
 
-- early-stage synthesis;
+\- early-stage synthesis;
 
-- non-technical contributors;
+\- non-technical contributors;
 
-- workshop notes;
+\- workshop notes;
 
-- messy handoff documents.
+\- messy handoff documents.
 
 Limitations:
 
-- weak structured metadata;
+\- weak structured metadata;
 
-- hard to query as a graph;
+\- hard to query as a graph;
 
-- versioning can be confusing;
+\- versioning can be confusing;
 
-- difficult to maintain as source of truth at scale;
+\- difficult to maintain as source of truth at scale;
 
-- AI workflows may lose structure;
+\- AI workflows may lose structure;
 
-- link inventories become hard to manage.
+\- link inventories become hard to manage.
 
 Google Docs are good for drafting.
 
 They should not be the long-term home for all structured resources.
 
----
+\---
 
-### 4. GitHub
+\#\#\# 4\. GitHub
 
 GitHub is useful for:
 
-- version control;
+\- version control;
 
-- markdown files;
+\- markdown files;
 
-- issue tracking;
+\- issue tracking;
 
-- pull requests;
+\- pull requests;
 
-- changelogs;
+\- changelogs;
 
-- templates;
+\- templates;
 
-- public collaboration;
+\- public collaboration;
 
-- technical review;
+\- technical review;
 
-- site deployment;
+\- site deployment;
 
-- schema files;
+\- schema files;
 
-- structured data;
+\- structured data;
 
-- reproducible workflows.
+\- reproducible workflows.
 
 It can support:
 
-- Toolkit site source;
+\- Toolkit site source;
 
-- markdown pages;
+\- markdown pages;
 
-- ontology files;
+\- ontology files;
 
-- issue-based review;
+\- issue-based review;
 
-- implementation records;
+\- implementation records;
 
-- source-system cards;
+\- source-system cards;
 
-- resource data exports;
+\- resource data exports;
 
-- AI workflow scripts;
+\- AI workflow scripts;
 
-- changelogs.
+\- changelogs.
 
 Limitations:
 
-- contributor barrier for non-technical users;
+\- contributor barrier for non-technical users;
 
-- Git workflows can be intimidating;
+\- Git workflows can be intimidating;
 
-- discussions can become fragmented;
+\- discussions can become fragmented;
 
-- not ideal as the only interface for local organizers or non-developers.
+\- not ideal as the only interface for local organizers or non-developers.
 
 GitHub is a strong infrastructure backbone, but it should not be the only contributor interface.
 
----
+\---
 
-### 5. Static documentation site
+\#\#\# 5\. Static documentation site
 
 A static documentation site is useful for:
 
-- public navigation;
+\- public navigation;
 
-- stable guides;
+\- stable guides;
 
-- search;
+\- search;
 
-- track pages;
+\- track pages;
 
-- topic pages;
+\- topic pages;
 
-- public-facing explanations;
+\- public-facing explanations;
 
-- versioned content;
+\- versioned content;
 
-- low-cost hosting;
+\- low-cost hosting;
 
-- editorial structure.
+\- editorial structure.
 
 Possible site substrates:
 
-- Astro;
+\- Astro;
 
-- Starlight;
+\- Starlight;
 
-- Quartz;
+\- Quartz;
 
-- Docusaurus;
+\- Docusaurus;
 
-- MkDocs;
+\- MkDocs;
 
-- custom static site;
+\- custom static site;
 
-- Vercel deployment;
+\- Vercel deployment;
 
-- GitHub Pages.
+\- GitHub Pages.
 
 A site can publish:
 
-- Encyclopedia;
+\- Encyclopedia;
 
-- Tracks;
+\- Tracks;
 
-- selected Resource Graph views;
+\- selected Resource Graph views;
 
-- Option Library pages;
+\- Option Library pages;
 
-- public templates;
+\- public templates;
 
-- public Implementation Memory summaries;
+\- public Implementation Memory summaries;
 
-- contributor guides;
+\- contributor guides;
 
-- glossary;
+\- glossary;
 
-- maps and indexes.
+\- maps and indexes.
 
 Limitations:
 
-- not ideal for raw inventory management;
+\- not ideal for raw inventory management;
 
-- public site may create false finality;
+\- public site may create false finality;
 
-- review status must be visible;
+\- review status must be visible;
 
-- unpublished/internal material needs a separate workflow;
+\- unpublished/internal material needs a separate workflow;
 
-- site navigation can lag behind architecture.
+\- site navigation can lag behind architecture.
 
 A public site should publish reviewed or clearly labeled material.
 
 It should not make raw drafts appear final.
 
----
+\---
 
-### 6. Spreadsheets and structured tables
+\#\#\# 6\. Spreadsheets and structured tables
 
 Spreadsheets are useful for:
 
-- resource inventories;
+\- resource inventories;
 
-- source-system registries;
+\- source-system registries;
 
-- option catalogs;
+\- option catalogs;
 
-- implementation case lists;
+\- implementation case lists;
 
-- review status tracking;
+\- review status tracking;
 
-- public-use boundaries;
+\- public-use boundaries;
 
-- link cleanup;
+\- link cleanup;
 
-- routing notes;
+\- routing notes;
 
-- maturity labels;
+\- maturity labels;
 
-- backlog organization;
+\- backlog organization;
 
-- lightweight databases.
+\- lightweight databases.
 
 Possible tools:
 
-- Google Sheets;
+\- Google Sheets;
 
-- Airtable;
+\- Airtable;
 
-- Baserow;
+\- Baserow;
 
-- Coda;
+\- Coda;
 
-- Notion databases;
+\- Notion databases;
 
-- CSV files;
+\- CSV files;
 
-- GitHub-hosted CSV / JSON.
+\- GitHub-hosted CSV / JSON.
 
 Spreadsheets are especially useful for the Resource Graph because the previous master doc contains many raw links and concrete references that can be lost during prose synthesis.
 
 Structured table fields may include:
 
-- title;
+\- title;
 
-- link;
+\- link;
 
-- type;
+\- type;
 
-- category;
+\- category;
 
-- domain;
+\- domain;
 
-- function;
+\- function;
 
-- source system;
+\- source system;
 
-- steward;
+\- steward;
 
-- status;
+\- status;
 
-- maturity;
+\- maturity;
 
-- review need;
+\- review need;
 
-- public-use boundary;
+\- public-use boundary;
 
-- suggested route;
+\- suggested route;
 
-- notes.
+\- notes.
 
 Limitations:
 
-- relationships can become hard to model;
+\- relationships can become hard to model;
 
-- long notes can become messy;
+\- long notes can become messy;
 
-- versioning depends on tool;
+\- versioning depends on tool;
 
-- public/private boundaries need care;
+\- public/private boundaries need care;
 
-- schema drift can happen without stewardship.
+\- schema drift can happen without stewardship.
 
 Spreadsheets are a good bridge between raw docs and formal databases.
 
----
+\---
 
-### 7. Databases
+\#\#\# 7\. Databases
 
 Databases are useful when the Toolkit needs:
 
-- filtering;
+\- filtering;
 
-- multi-user editing;
+\- multi-user editing;
 
-- structured records;
+\- structured records;
 
-- status tracking;
+\- status tracking;
 
-- permissions;
+\- permissions;
 
-- richer queries;
+\- richer queries;
 
-- interfaces;
+\- interfaces;
 
-- API access;
+\- API access;
 
-- relationship management.
+\- relationship management.
 
 Possible substrates:
 
-- Airtable;
+\- Airtable;
 
-- Baserow;
+\- Baserow;
 
-- Supabase;
+\- Supabase;
 
-- Postgres;
+\- Postgres;
 
-- SQLite;
+\- SQLite;
 
-- Notion database;
+\- Notion database;
 
-- custom admin interface.
+\- custom admin interface.
 
 Potential use cases:
 
-- Resource Graph;
+\- Resource Graph;
 
-- Source System Registry;
+\- Source System Registry;
 
-- Option Library;
+\- Option Library;
 
-- Implementation Memory;
+\- Implementation Memory;
 
-- Review queue;
+\- Review queue;
 
-- Evolution Log;
+\- Evolution Log;
 
-- contributor directory, if consented;
+\- contributor directory, if consented;
 
-- claim-evidence records.
+\- claim-evidence records.
 
 Limitations:
 
-- higher maintenance burden;
+\- higher maintenance burden;
 
-- schema decisions become more consequential;
+\- schema decisions become more consequential;
 
-- migration can be difficult;
+\- migration can be difficult;
 
-- contributor experience depends on interface;
+\- contributor experience depends on interface;
 
-- machine-readability is improved but human-readable context may suffer if not linked to prose.
+\- machine-readability is improved but human-readable context may suffer if not linked to prose.
 
 Do not move to a database until the core fields and workflows are stable enough.
 
----
+\---
 
-### 8. Graphs and knowledge graphs
+\#\#\# 8\. Graphs and knowledge graphs
 
 Graph infrastructure is useful when relationships matter as much as records.
 
 The Toolkit may eventually need graph support for:
 
-- concepts and related concepts;
+\- concepts and related concepts;
 
-- source systems and resources;
+\- source systems and resources;
 
-- resources supporting concepts;
+\- resources supporting concepts;
 
-- options used in deployments;
+\- options used in deployments;
 
-- implementations generating signals;
+\- implementations generating signals;
 
-- claims supported by evidence;
+\- claims supported by evidence;
 
-- tracks composing resources and options;
+\- tracks composing resources and options;
 
-- source lineage;
+\- source lineage;
 
-- ontology mappings;
+\- ontology mappings;
 
-- ecosystem maps;
+\- ecosystem maps;
 
-- people, organizations, places, tools, projects, and cases.
+\- people, organizations, places, tools, projects, and cases.
 
 Possible graph substrates:
 
-- JSON-LD;
+\- JSON-LD;
 
-- RDF;
+\- RDF;
 
-- Neo4j;
+\- Neo4j;
 
-- GraphDB;
+\- GraphDB;
 
-- Kuzu;
+\- Kuzu;
 
-- Wikibase;
+\- Wikibase;
 
-- Geobrowser / Knowledge Graph Protocol;
+\- Geobrowser / Knowledge Graph Protocol;
 
-- network visualization tools;
+\- network visualization tools;
 
-- markdown backlinks;
+\- markdown backlinks;
 
-- Obsidian / Quartz graph;
+\- Obsidian / Quartz graph;
 
-- graph exports from structured tables.
+\- graph exports from structured tables.
 
 Graph infrastructure can help the Toolkit become more than a folder of pages.
 
 Limitations:
 
-- graph complexity can grow quickly;
+\- graph complexity can grow quickly;
 
-- relationship quality matters;
+\- relationship quality matters;
 
-- inferred relationships need review;
+\- inferred relationships need review;
 
-- visualization can create false understanding;
+\- visualization can create false understanding;
 
-- graph tooling can be hard for non-technical contributors;
+\- graph tooling can be hard for non-technical contributors;
 
-- ontology decisions become more important.
+\- ontology decisions become more important.
 
 A graph should emerge from useful relationships, not from the desire to have a graph.
 
----
+\---
 
-### 9. Ontology and schema tools
+\#\#\# 9\. Ontology and schema tools
 
 The Toolkit may eventually need formal schemas for interoperability and AI workflows.
 
 Possible schema tools and standards:
 
-- YAML;
+\- YAML;
 
-- JSON;
+\- JSON;
 
-- CSV;
+\- CSV;
 
-- Markdown frontmatter;
+\- Markdown frontmatter;
 
-- JSON-LD;
+\- JSON-LD;
 
-- RDF;
+\- RDF;
 
-- LinkML;
+\- LinkML;
 
-- Schema.org;
+\- Schema.org;
 
-- Wikidata mappings;
+\- Wikidata mappings;
 
-- Open Civic Data Standards;
+\- Open Civic Data Standards;
 
-- custom lightweight schema.
+\- custom lightweight schema.
 
 Schemas can support:
 
-- typed entries;
+\- typed entries;
 
-- consistent metadata;
+\- consistent metadata;
 
-- validation;
+\- validation;
 
-- export;
+\- export;
 
-- AI retrieval;
+\- AI retrieval;
 
-- graph generation;
+\- graph generation;
 
-- site navigation;
+\- site navigation;
 
-- API access;
+\- API access;
 
-- interoperability with adjacent systems.
+\- interoperability with adjacent systems.
 
 Potential schema areas:
 
-- Resource;
+\- Resource;
 
-- Source System;
+\- Source System;
 
-- Concept;
+\- Concept;
 
-- Option;
+\- Option;
 
-- Track;
+\- Track;
 
-- Deployment;
+\- Deployment;
 
-- Implementation;
+\- Implementation;
 
-- Signal;
+\- Signal;
 
-- Claim;
+\- Claim;
 
-- Evidence;
+\- Evidence;
 
-- Review state;
+\- Review state;
 
-- Public-use boundary.
+\- Public-use boundary.
 
 Limitations:
 
-- formal schemas can over-stabilize early assumptions;
+\- formal schemas can over-stabilize early assumptions;
 
-- non-technical contributors may struggle;
+\- non-technical contributors may struggle;
 
-- schema changes require governance;
+\- schema changes require governance;
 
-- ontology sprawl can become expensive.
+\- ontology sprawl can become expensive.
 
 Start with lightweight frontmatter and tables before full formalization.
 
----
+\---
 
-### 10. AI-assisted infrastructure
+\#\#\# 10\. AI-assisted infrastructure
 
 AI may support:
 
-- summarization;
+\- summarization;
 
-- classification;
+\- classification;
 
-- duplicate detection;
+\- duplicate detection;
 
-- source extraction;
+\- source extraction;
 
-- entity extraction;
+\- entity extraction;
 
-- relationship suggestions;
+\- relationship suggestions;
 
-- resource routing;
+\- resource routing;
 
-- draft Source System Cards;
+\- draft Source System Cards;
 
-- draft Option entries;
+\- draft Option entries;
 
-- implementation signal extraction;
+\- implementation signal extraction;
 
-- review queue preparation;
+\- review queue preparation;
 
-- glossary generation;
+\- glossary generation;
 
-- track composition suggestions;
+\- track composition suggestions;
 
-- metadata generation;
+\- metadata generation;
 
-- RAG-based search;
+\- RAG-based search;
 
-- GraphRAG workflows.
+\- GraphRAG workflows.
 
 But AI workflows need explicit boundaries.
 
 AI should not silently:
 
-- decide review status;
+\- decide review status;
 
-- validate claims;
+\- validate claims;
 
-- infer source-system permission;
+\- infer source-system permission;
 
-- approve public-use boundaries;
+\- approve public-use boundaries;
 
-- promote cases into patterns;
+\- promote cases into patterns;
 
-- rewrite raw inventories without preserving links;
+\- rewrite raw inventories without preserving links;
 
-- collapse disagreement into false consensus;
+\- collapse disagreement into false consensus;
 
-- classify sensitive community material without review.
+\- classify sensitive community material without review.
 
 AI outputs should be marked:
 
-- AI-assisted;
+\- AI-assisted;
 
-- candidate;
+\- candidate;
 
-- source-linked;
+\- source-linked;
 
-- needs human review;
+\- needs human review;
 
-- reviewed;
+\- reviewed;
 
-- disputed;
+\- disputed;
 
-- deprecated.
+\- deprecated.
 
 The recent Resource Graph issue is a key lesson:
 
-> AI-assisted synthesis can preserve categories while losing concrete links.
+\> AI-assisted synthesis can preserve categories while losing concrete links.
 
 Therefore, when AI is used to clean or summarize raw material, the raw source should be preserved until extraction is verified.
 
----
+\---
 
-### 11. Decentralized and federated infrastructure
+\#\#\# 11\. Decentralized and federated infrastructure
 
 The Toolkit may eventually explore decentralized or federated substrates.
 
 Possible tools or directions:
 
-- IPFS;
+\- IPFS;
 
-- Filecoin;
+\- Filecoin;
 
-- Arweave;
+\- Arweave;
 
-- Radicle;
+\- Radicle;
 
-- ActivityPub;
+\- ActivityPub;
 
-- RSS;
+\- RSS;
 
-- decentralized identifiers;
+\- decentralized identifiers;
 
-- verifiable credentials;
+\- verifiable credentials;
 
-- Ethereum Attestation Service;
+\- Ethereum Attestation Service;
 
-- Ceramic;
+\- Ceramic;
 
-- Tableland;
+\- Tableland;
 
-- Git-based federation;
+\- Git-based federation;
 
-- static site mirrors;
+\- static site mirrors;
 
-- data export packages;
+\- data export packages;
 
-- content-addressed archives.
+\- content-addressed archives.
 
 These may support:
 
-- long-term preservation;
+\- long-term preservation;
 
-- source lineage;
+\- source lineage;
 
-- claims and attestations;
+\- claims and attestations;
 
-- decentralized publishing;
+\- decentralized publishing;
 
-- portable data;
+\- portable data;
 
-- federated knowledge commons;
+\- federated knowledge commons;
 
-- independent local mirrors;
+\- independent local mirrors;
 
-- interoperation with source systems.
+\- interoperation with source systems.
 
 Use caution.
 
@@ -16854,581 +16854,581 @@ Not everything should be permanent.
 
 The Toolkit should distinguish:
 
-- public durable knowledge;
+\- public durable knowledge;
 
-- reviewed claims;
+\- reviewed claims;
 
-- historical records;
+\- historical records;
 
-- sensitive material;
+\- sensitive material;
 
-- local context;
+\- local context;
 
-- private notes;
+\- private notes;
 
-- deprecated or corrected claims;
+\- deprecated or corrected claims;
 
-- material requiring consent.
+\- material requiring consent.
 
 Decentralization should not override care.
 
----
+\---
 
-## Infrastructure by Toolkit layer
+\#\# Infrastructure by Toolkit layer
 
-### Ontology & Semantic Kernel
-
-Useful substrates:
-
-- Markdown for current explanation;
-
-- YAML / JSON for lightweight schema;
-
-- LinkML or JSON-LD for future formalization;
-
-- GitHub for versioning;
-
-- frontmatter for page metadata;
-
-- mapping files for external ontology alignment.
-
-Needs:
-
-- versioning;
-
-- review process;
-
-- type/tag clarity;
-
-- relationship grammar;
-
-- mapping to Octo / BKC and other systems;
-
-- change log.
-
-Avoid:
-
-- premature formal lock-in;
-
-- creating root types too quickly;
-
-- letting AI infer canonical ontology without review.
-
----
-
-### Knowledge Commons / Encyclopedia
+\#\#\# Ontology & Semantic Kernel
 
 Useful substrates:
 
-- Markdown pages;
+\- Markdown for current explanation;
 
-- static site;
+\- YAML / JSON for lightweight schema;
 
-- tags and categories;
+\- LinkML or JSON-LD for future formalization;
 
-- related-entry metadata;
+\- GitHub for versioning;
 
-- source links;
+\- frontmatter for page metadata;
 
-- glossary pages;
-
-- learning paths;
-
-- review labels.
+\- mapping files for external ontology alignment.
 
 Needs:
 
-- readable public pages;
+\- versioning;
 
-- maturity labels;
+\- review process;
 
-- source lineage;
+\- type/tag clarity;
 
-- crosslinks;
+\- relationship grammar;
 
-- search;
+\- mapping to Octo / BKC and other systems;
 
-- editorial workflow;
-
-- comparison pages;
-
-- open-question handling.
+\- change log.
 
 Avoid:
 
-- presenting drafts as reviewed;
+\- premature formal lock-in;
 
-- mixing raw link dumps into explanation pages;
+\- creating root types too quickly;
 
-- losing source lineage during synthesis.
+\- letting AI infer canonical ontology without review.
 
----
+\---
 
-### Resource Graph & Ecosystem Atlas
+\#\#\# Knowledge Commons / Encyclopedia
 
 Useful substrates:
 
-- spreadsheet or structured table for raw inventory;
+\- Markdown pages;
 
-- Source System Cards in Markdown;
+\- static site;
 
-- CSV / JSON export;
+\- tags and categories;
 
-- graph view later;
+\- related-entry metadata;
 
-- ecosystem maps;
+\- source links;
 
-- review status fields;
+\- glossary pages;
 
-- routing notes.
+\- learning paths;
+
+\- review labels.
 
 Needs:
 
-- preservation of concrete links;
+\- readable public pages;
 
-- source-system distinction;
+\- maturity labels;
 
-- maturity status;
+\- source lineage;
 
-- categories;
+\- crosslinks;
 
-- suggested route;
+\- search;
 
-- attribution notes;
+\- editorial workflow;
 
-- duplicate detection;
+\- comparison pages;
 
-- currentness review.
+\- open-question handling.
 
 Avoid:
 
-- replacing raw inventory with short prose before full extraction;
+\- presenting drafts as reviewed;
 
-- treating inclusion as endorsement;
+\- mixing raw link dumps into explanation pages;
 
-- flattening source systems into links;
+\- losing source lineage during synthesis.
 
-- deleting loose leads too early.
+\---
 
----
-
-### Concept & Idea Ecology
+\#\#\# Resource Graph & Ecosystem Atlas
 
 Useful substrates:
 
-- Markdown notes;
+\- spreadsheet or structured table for raw inventory;
 
-- concept lineage pages;
+\- Source System Cards in Markdown;
 
-- tension maps;
+\- CSV / JSON export;
 
-- comparison pages;
+\- graph view later;
 
-- graph links;
+\- ecosystem maps;
 
-- tags for paradigms and source traditions.
+\- review status fields;
+
+\- routing notes.
 
 Needs:
 
-- plurality;
+\- preservation of concrete links;
 
-- source traditions;
+\- source-system distinction;
 
-- unresolved tensions;
+\- maturity status;
 
-- metaphor notes;
+\- categories;
 
-- frontier concepts;
+\- suggested route;
 
-- conceptual drift tracking.
+\- attribution notes;
+
+\- duplicate detection;
+
+\- currentness review.
 
 Avoid:
 
-- over-standardizing living concepts;
+\- replacing raw inventory with short prose before full extraction;
 
-- AI flattening disagreements;
+\- treating inclusion as endorsement;
 
-- turning every tension into a premature conclusion.
+\- flattening source systems into links;
 
----
+\- deleting loose leads too early.
 
-### Option Library
+\---
+
+\#\#\# Concept & Idea Ecology
 
 Useful substrates:
 
-- structured entries;
+\- Markdown notes;
 
-- markdown option pages;
+\- concept lineage pages;
 
-- spreadsheet catalog;
+\- tension maps;
 
-- metadata fields;
+\- comparison pages;
 
-- related resources and implementations;
+\- graph links;
 
-- failure mode fields.
+\- tags for paradigms and source traditions.
 
 Needs:
 
-- category;
+\- plurality;
 
-- use cases;
+\- source traditions;
 
-- dependencies;
+\- unresolved tensions;
 
-- failure modes;
+\- metaphor notes;
 
-- deployment checks;
+\- frontier concepts;
 
-- maturity;
-
-- review needs;
-
-- related tracks.
+\- conceptual drift tracking.
 
 Avoid:
 
-- listing options without risks;
+\- over-standardizing living concepts;
 
-- treating option inclusion as recommendation;
+\- AI flattening disagreements;
 
-- confusing options with deployments.
+\- turning every tension into a premature conclusion.
 
----
+\---
 
-### Deployment & Structural Integrity
+\#\#\# Option Library
 
 Useful substrates:
 
-- templates;
+\- structured entries;
 
-- checklists;
+\- markdown option pages;
 
-- structured forms;
+\- spreadsheet catalog;
 
-- deployment records;
+\- metadata fields;
 
-- review queues;
+\- related resources and implementations;
 
-- issue tracking;
-
-- decision logs.
+\- failure mode fields.
 
 Needs:
 
-- decision system;
+\- category;
 
-- information requirements;
+\- use cases;
 
-- power structure;
+\- dependencies;
 
-- accountability;
+\- failure modes;
 
-- failure detection;
+\- deployment checks;
 
-- fixed/configurable/experimental boundaries;
+\- maturity;
 
-- review type;
+\- review needs;
 
-- public-use boundary.
+\- related tracks.
 
 Avoid:
 
-- deploying from vague tracks;
+\- listing options without risks;
 
-- skipping power and accountability;
+\- treating option inclusion as recommendation;
 
-- treating tools as enough.
+\- confusing options with deployments.
 
----
+\---
 
-### Tracks & Composition
+\#\#\# Deployment & Structural Integrity
 
 Useful substrates:
 
-- public track pages;
+\- templates;
 
-- pathway maps;
+\- checklists;
 
-- guided checklists;
+\- structured forms;
 
-- structured track templates;
+\- deployment records;
 
-- related resource and option metadata.
+\- review queues;
+
+\- issue tracking;
+
+\- decision logs.
 
 Needs:
 
-- audience;
+\- decision system;
 
-- purpose;
+\- information requirements;
 
-- core concepts;
+\- power structure;
 
-- key distinctions;
+\- accountability;
 
-- priority resources;
+\- failure detection;
 
-- options;
+\- fixed/configurable/experimental boundaries;
 
-- failure modes;
+\- review type;
 
-- deployment checks;
-
-- implementation memory prompt.
+\- public-use boundary.
 
 Avoid:
 
-- treating tracks as deployments;
+\- deploying from vague tracks;
 
-- overloading tracks with every possible resource;
+\- skipping power and accountability;
 
-- hiding uncertainty.
+\- treating tools as enough.
 
----
+\---
 
-### Implementation & Learning Memory
+\#\#\# Tracks & Composition
 
 Useful substrates:
 
-- implementation records;
+\- public track pages;
 
-- case study pages;
+\- pathway maps;
 
-- structured fields;
+\- guided checklists;
 
-- retrospective templates;
+\- structured track templates;
 
-- signal logs;
-
-- claim-evidence records;
-
-- source links;
-
-- public/private status.
+\- related resource and option metadata.
 
 Needs:
 
-- context;
+\- audience;
 
-- what happened;
+\- purpose;
 
-- evidence;
+\- core concepts;
 
-- adaptations;
+\- key distinctions;
 
-- failures;
+\- priority resources;
 
-- signals;
+\- options;
 
-- update implications;
+\- failure modes;
 
-- public-use boundary;
+\- deployment checks;
 
-- review state.
+\- implementation memory prompt.
 
 Avoid:
 
-- only documenting success;
+\- treating tracks as deployments;
 
-- overgeneralizing cases into patterns;
+\- overloading tracks with every possible resource;
 
-- public claims without evidence.
+\- hiding uncertainty.
 
----
+\---
 
-### Evolution Layer
+\#\#\# Implementation & Learning Memory
 
 Useful substrates:
 
-- evolution log;
+\- implementation records;
 
-- changelog;
+\- case study pages;
 
-- issue tracker;
+\- structured fields;
 
-- update proposals;
+\- retrospective templates;
 
-- pattern candidate records;
+\- signal logs;
 
-- archive / compost notes.
+\- claim-evidence records;
+
+\- source links;
+
+\- public/private status.
 
 Needs:
 
-- signal capture;
+\- context;
 
-- interpretation;
+\- what happened;
 
-- intervention;
+\- evidence;
 
-- integration;
+\- adaptations;
 
-- memory;
+\- failures;
 
-- status;
+\- signals;
 
-- reviewer/steward.
+\- update implications;
+
+\- public-use boundary;
+
+\- review state.
 
 Avoid:
 
-- silent drift;
+\- only documenting success;
 
-- reactive overcorrection;
+\- overgeneralizing cases into patterns;
 
-- losing old decisions;
+\- public claims without evidence.
 
-- leaving signals untracked.
+\---
 
----
+\#\#\# Evolution Layer
 
-## Suggested infrastructure stack by phase
+Useful substrates:
 
-### Phase 1 — Stabilization
+\- evolution log;
+
+\- changelog;
+
+\- issue tracker;
+
+\- update proposals;
+
+\- pattern candidate records;
+
+\- archive / compost notes.
+
+Needs:
+
+\- signal capture;
+
+\- interpretation;
+
+\- intervention;
+
+\- integration;
+
+\- memory;
+
+\- status;
+
+\- reviewer/steward.
+
+Avoid:
+
+\- silent drift;
+
+\- reactive overcorrection;
+
+\- losing old decisions;
+
+\- leaving signals untracked.
+
+\---
+
+\#\# Suggested infrastructure stack by phase
+
+\#\#\# Phase 1 — Stabilization
 
 Best for current work.
 
 Use:
 
-- master doc for architecture;
+\- master doc for architecture;
 
-- raw previous doc preserved as source;
+\- raw previous doc preserved as source;
 
-- Google Docs for collaborative drafting;
+\- Google Docs for collaborative drafting;
 
-- Markdown for cleaner sections;
+\- Markdown for cleaner sections;
 
-- spreadsheet for Resource Graph inventory;
+\- spreadsheet for Resource Graph inventory;
 
-- simple Source System Cards;
+\- simple Source System Cards;
 
-- simple Option entries;
+\- simple Option entries;
 
-- simple Implementation records;
+\- simple Implementation records;
 
-- handoff notes for unresolved material.
+\- handoff notes for unresolved material.
 
 Goal:
 
-- preserve knowledge;
+\- preserve knowledge;
 
-- reduce confusion;
+\- reduce confusion;
 
-- avoid link loss;
+\- avoid link loss;
 
-- clarify layers;
+\- clarify layers;
 
-- create usable templates.
+\- create usable templates.
 
 Do not overbuild.
 
----
+\---
 
-### Phase 2 — Structured workbench
-
-Use:
-
-- GitHub repository;
-
-- Markdown pages with frontmatter;
-
-- static site for public pages;
-
-- CSV / spreadsheet for Resource Graph;
-
-- Source System Cards as Markdown;
-
-- Option Library table;
-
-- Implementation Memory table;
-
-- Evolution Log;
-
-- issue templates.
-
-Goal:
-
-- make contribution routable;
-
-- create public/private separation;
-
-- enable search and filtering;
-
-- support AI-assisted classification with review.
-
----
-
-### Phase 3 — Graph-aware system
+\#\#\# Phase 2 — Structured workbench
 
 Use:
 
-- structured data exports;
+\- GitHub repository;
 
-- JSON / YAML / JSON-LD;
+\- Markdown pages with frontmatter;
 
-- LinkML schema exploration;
+\- static site for public pages;
 
-- graph database or graph visualization;
+\- CSV / spreadsheet for Resource Graph;
 
-- relationship quality statuses;
+\- Source System Cards as Markdown;
 
-- ontology mappings;
+\- Option Library table;
 
-- AI retrieval with citations and review states;
+\- Implementation Memory table;
 
-- source-system relationship tracking.
+\- Evolution Log;
+
+\- issue templates.
 
 Goal:
 
-- support relationship queries;
+\- make contribution routable;
 
-- support ecosystem atlas views;
+\- create public/private separation;
 
-- support AI-native workflows;
+\- enable search and filtering;
 
-- support cross-system interoperability.
+\- support AI-assisted classification with review.
 
----
+\---
 
-### Phase 4 — Federated commons infrastructure
+\#\#\# Phase 3 — Graph-aware system
+
+Use:
+
+\- structured data exports;
+
+\- JSON / YAML / JSON-LD;
+
+\- LinkML schema exploration;
+
+\- graph database or graph visualization;
+
+\- relationship quality statuses;
+
+\- ontology mappings;
+
+\- AI retrieval with citations and review states;
+
+\- source-system relationship tracking.
+
+Goal:
+
+\- support relationship queries;
+
+\- support ecosystem atlas views;
+
+\- support AI-native workflows;
+
+\- support cross-system interoperability.
+
+\---
+
+\#\#\# Phase 4 — Federated commons infrastructure
 
 Use only if workflows and governance are ready.
 
 Possible additions:
 
-- decentralized storage;
+\- decentralized storage;
 
-- attestations;
+\- attestations;
 
-- verifiable credentials;
+\- verifiable credentials;
 
-- ActivityPub / RSS feeds;
+\- ActivityPub / RSS feeds;
 
-- API access;
+\- API access;
 
-- cross-commons synchronization;
+\- cross-commons synchronization;
 
-- local mirrors;
+\- local mirrors;
 
-- source-system exchange protocols;
+\- source-system exchange protocols;
 
-- public contribution interfaces.
+\- public contribution interfaces.
 
 Goal:
 
-- interoperability across commons;
+\- interoperability across commons;
 
-- durable source lineage;
+\- durable source lineage;
 
-- federated updates;
+\- federated updates;
 
-- distributed stewardship.
+\- distributed stewardship.
 
 Caution:
 
 Federation should not happen before stewardship, consent, attribution, review, and correction paths are clear.
 
----
+\---
 
-## Possible tool map
+\#\# Possible tool map
 
 This is a raw tool map, not a final recommendation list.
 
@@ -17470,33 +17470,33 @@ This is a raw tool map, not a final recommendation list.
 
 Each tool should be evaluated by workflow fit, maintenance burden, contributor accessibility, portability, and review needs.
 
----
+\---
 
-## Contributor interface
+\#\# Contributor interface
 
 Infrastructure should make contribution easier.
 
 A contributor should be able to say:
 
-- I found a resource.
+\- I found a resource.
 
-- I found a source system.
+\- I found a source system.
 
-- I want to explain a concept.
+\- I want to explain a concept.
 
-- I want to add an option.
+\- I want to add an option.
 
-- I want to document a deployment.
+\- I want to document a deployment.
 
-- I want to record an implementation.
+\- I want to record an implementation.
 
-- I want to flag a signal.
+\- I want to flag a signal.
 
-- I want to propose an update.
+\- I want to propose an update.
 
-- I want to mark something outdated.
+\- I want to mark something outdated.
 
-- I want to add a failure case.
+\- I want to add a failure case.
 
 The interface should route the contribution.
 
@@ -17524,9 +17524,9 @@ Possible intake forms:
 
 This could begin as simple Markdown templates or forms before becoming a database.
 
----
+\---
 
-## Public / private / internal boundaries
+\#\# Public / private / internal boundaries
 
 Infrastructure should support different visibility states.
 
@@ -17562,9 +17562,9 @@ Infrastructure should make these boundaries visible.
 
 A static site alone may not be enough unless publication status is clear.
 
----
+\---
 
-## AI-readable metadata
+\#\# AI-readable metadata
 
 To support future AI workflows, entries should gradually include consistent metadata.
 
@@ -17616,9 +17616,9 @@ notes:
 
 # 👷 Contributor Roles & Working Practices
 
-## 15. Contributor Roles & Working Practices
+\#\# 15\. Contributor Roles & Working Practices
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 The Toolkit needs people, not only structure.
 
@@ -17626,16 +17626,16 @@ Contributor Roles & Working Practices define how humans can care for the Toolkit
 
 This section helps answer:
 
-- Who can contribute?  
-- What kinds of contributions are useful?  
-- What roles are needed to maintain the commons?  
-- Who reviews what?  
-- How should raw material be handled?  
-- How should uncertainty be preserved?  
-- How should AI-assisted work be reviewed?  
-- How should source systems be treated?  
-- How should implementation learning return to the Toolkit?  
-- How can the Toolkit stay alive without depending on one person’s memory?
+\- Who can contribute?  
+\- What kinds of contributions are useful?  
+\- What roles are needed to maintain the commons?  
+\- Who reviews what?  
+\- How should raw material be handled?  
+\- How should uncertainty be preserved?  
+\- How should AI-assisted work be reviewed?  
+\- How should source systems be treated?  
+\- How should implementation learning return to the Toolkit?  
+\- How can the Toolkit stay alive without depending on one person’s memory?
 
 The Toolkit should be easy enough to contribute to, but structured enough to avoid chaos.
 
@@ -17643,9 +17643,9 @@ A person should not need to understand the entire architecture to add one useful
 
 But every useful thing should become easier to route, review, connect, and improve over time.
 
----
+\---
 
-### Current status
+\#\#\# Current status
 
 This layer should remain lightweight at first.
 
@@ -17655,12 +17655,12 @@ It does need clear working roles, simple contribution pathways, review states, a
 
 Previous iterations included useful role ideas such as:
 
-- knowledge gardener;  
-- source steward;  
-- concept steward;  
-- structural reviewer;  
-- implementation scribe;  
-- maintainer.
+\- knowledge gardener;  
+\- source steward;  
+\- concept steward;  
+\- structural reviewer;  
+\- implementation scribe;  
+\- maintainer.
 
 These should be preserved, but not turned into rigid bureaucracy too early.
 
@@ -17670,30 +17670,30 @@ The important thing is to make the kinds of labor visible.
 
 Hidden maintenance labor is one of the main ways commons decay.
 
----
+\---
 
-## Contribution posture
+\#\# Contribution posture
 
 The Toolkit should welcome contributions at different maturity levels.
 
 A contribution can be:
 
-- a raw resource;  
-- a missing link;  
-- a source-system lead;  
-- a concept clarification;  
-- a correction;  
-- a question;  
-- a comparison;  
-- an implementation note;  
-- a failure case;  
-- an option entry;  
-- a deployment checklist;  
-- a track suggestion;  
-- a review note;  
-- an update proposal;  
-- a compost note;  
-- a public-use concern.
+\- a raw resource;  
+\- a missing link;  
+\- a source-system lead;  
+\- a concept clarification;  
+\- a correction;  
+\- a question;  
+\- a comparison;  
+\- an implementation note;  
+\- a failure case;  
+\- an option entry;  
+\- a deployment checklist;  
+\- a track suggestion;  
+\- a review note;  
+\- an update proposal;  
+\- a compost note;  
+\- a public-use concern.
 
 Contributions do not need to be perfect.
 
@@ -17708,246 +17708,246 @@ A source-system link is useful if attribution and return-path questions remain v
 
 The goal is to make contribution possible without pretending everything is ready.
 
----
+\---
 
-## Basic contribution types
+\#\# Basic contribution types
 
-### 1. Add a resource
+\#\#\# 1\. Add a resource
 
 For someone who found something useful.
 
 Minimum fields:
 
-- title;  
-- link or reference;  
-- short note on why it may matter;  
-- rough category;  
-- contributor name or source, if appropriate;  
-- status: raw lead.
+\- title;  
+\- link or reference;  
+\- short note on why it may matter;  
+\- rough category;  
+\- contributor name or source, if appropriate;  
+\- status: raw lead.
 
 Possible route:
 
-- Resource Graph;  
-- Source System Registry;  
-- Encyclopedia;  
-- Option Library;  
-- Track;  
-- Backlog.
+\- Resource Graph;  
+\- Source System Registry;  
+\- Encyclopedia;  
+\- Option Library;  
+\- Track;  
+\- Backlog.
 
----
+\---
 
-### 2. Add a source system
+\#\#\# 2\. Add a source system
 
 For someone who found a living knowledge environment.
 
 Minimum fields:
 
-- name;  
-- link;  
-- steward / maintainer, if known;  
-- what it contains;  
-- why it may matter;  
-- reuse or attribution questions;  
-- status: source-system candidate.
+\- name;  
+\- link;  
+\- steward / maintainer, if known;  
+\- what it contains;  
+\- why it may matter;  
+\- reuse or attribution questions;  
+\- status: source-system candidate.
 
 Possible route:
 
-- Source System Card;  
-- Resource Graph;  
-- Swarm context;  
-- Infrastructure;  
-- Backlog.
+\- Source System Card;  
+\- Resource Graph;  
+\- Swarm context;  
+\- Infrastructure;  
+\- Backlog.
 
----
+\---
 
-### 3. Improve a concept
+\#\#\# 3\. Improve a concept
 
 For someone clarifying language.
 
 Minimum fields:
 
-- concept name;  
-- proposed definition or clarification;  
-- source or inspiration;  
-- related concepts;  
-- known confusions;  
-- open questions.
+\- concept name;  
+\- proposed definition or clarification;  
+\- source or inspiration;  
+\- related concepts;  
+\- known confusions;  
+\- open questions.
 
 Possible route:
 
-- Encyclopedia;  
-- Concept Ecology;  
-- Ontology;  
-- Tracks.
+\- Encyclopedia;  
+\- Concept Ecology;  
+\- Ontology;  
+\- Tracks.
 
----
+\---
 
-### 4. Add an option
+\#\#\# 4\. Add an option
 
 For someone identifying a reusable design choice.
 
 Minimum fields:
 
-- option name;  
-- option category;  
-- short description;  
-- use case;  
-- known dependencies;  
-- known risks;  
-- source or example.
+\- option name;  
+\- option category;  
+\- short description;  
+\- use case;  
+\- known dependencies;  
+\- known risks;  
+\- source or example.
 
 Possible route:
 
-- Option Library;  
-- Deployment;  
-- Tracks;  
-- Implementation Memory.
+\- Option Library;  
+\- Deployment;  
+\- Tracks;  
+\- Implementation Memory.
 
----
+\---
 
-### 5. Add a deployment note
+\#\#\# 5\. Add a deployment note
 
 For someone specifying how something could be used in practice.
 
 Minimum fields:
 
-- deployment name;  
-- context;  
-- selected options;  
-- roles;  
-- decision system;  
-- information requirements;  
-- power structure;  
-- accountability;  
-- failure detection;  
-- fixed / configurable / experimental boundaries.
+\- deployment name;  
+\- context;  
+\- selected options;  
+\- roles;  
+\- decision system;  
+\- information requirements;  
+\- power structure;  
+\- accountability;  
+\- failure detection;  
+\- fixed / configurable / experimental boundaries.
 
 Possible route:
 
-- Deployment & Structural Integrity;  
-- Track;  
-- Implementation Memory, if attempted later.
+\- Deployment & Structural Integrity;  
+\- Track;  
+\- Implementation Memory, if attempted later.
 
----
+\---
 
-### 6. Add an implementation record
+\#\#\# 6\. Add an implementation record
 
 For someone documenting what happened.
 
 Minimum fields:
 
-- what was attempted;  
-- when and where;  
-- who was involved;  
-- what actually happened;  
-- what worked;  
-- what failed;  
-- what changed;  
-- what signals emerged;  
-- what should update the Toolkit.
+\- what was attempted;  
+\- when and where;  
+\- who was involved;  
+\- what actually happened;  
+\- what worked;  
+\- what failed;  
+\- what changed;  
+\- what signals emerged;  
+\- what should update the Toolkit.
 
 Possible route:
 
-- Implementation Memory;  
-- Evolution Layer;  
-- Option Library;  
-- Deployment;  
-- Tracks.
+\- Implementation Memory;  
+\- Evolution Layer;  
+\- Option Library;  
+\- Deployment;  
+\- Tracks.
 
----
+\---
 
-### 7. Add a signal
+\#\#\# 7\. Add a signal
 
 For someone noticing something that needs attention.
 
 Minimum fields:
 
-- signal;  
-- source;  
-- affected layer;  
-- why it matters;  
-- suggested route;  
-- urgency or risk.
+\- signal;  
+\- source;  
+\- affected layer;  
+\- why it matters;  
+\- suggested route;  
+\- urgency or risk.
 
 Possible route:
 
-- Evolution Log;  
-- relevant layer;  
-- review queue.
+\- Evolution Log;  
+\- relevant layer;  
+\- review queue.
 
----
+\---
 
-### 8. Add a failure case
+\#\#\# 8\. Add a failure case
 
 For someone documenting breakdown or risk.
 
 Minimum fields:
 
-- what failed;  
-- context;  
-- early signals;  
-- affected parties;  
-- what can be learned;  
-- what should not be generalized;  
-- review or sensitivity needs.
+\- what failed;  
+\- context;  
+\- early signals;  
+\- affected parties;  
+\- what can be learned;  
+\- what should not be generalized;  
+\- review or sensitivity needs.
 
 Possible route:
 
-- Implementation Memory;  
-- Failure Case Library;  
-- Option Library;  
-- Deployment;  
-- Encyclopedia anti-patterns.
+\- Implementation Memory;  
+\- Failure Case Library;  
+\- Option Library;  
+\- Deployment;  
+\- Encyclopedia anti-patterns.
 
----
+\---
 
-### 9. Add a review note
+\#\#\# 9\. Add a review note
 
 For someone checking quality, safety, or clarity.
 
 Minimum fields:
 
-- what was reviewed;  
-- review type;  
-- reviewer;  
-- decision or concern;  
-- recommended action;  
-- public-use implication.
+\- what was reviewed;  
+\- review type;  
+\- reviewer;  
+\- decision or concern;  
+\- recommended action;  
+\- public-use implication.
 
 Possible route:
 
-- maturity update;  
-- public-use boundary;  
-- Evolution Log;  
-- relevant section.
+\- maturity update;  
+\- public-use boundary;  
+\- Evolution Log;  
+\- relevant section.
 
----
+\---
 
-### 10. Add an update proposal
+\#\#\# 10\. Add an update proposal
 
 For someone proposing a meaningful change.
 
 Minimum fields:
 
-- proposed change;  
-- reason;  
-- affected layers;  
-- alternatives;  
-- risks;  
-- review needs;  
-- decision status.
+\- proposed change;  
+\- reason;  
+\- affected layers;  
+\- alternatives;  
+\- risks;  
+\- review needs;  
+\- decision status.
 
 Possible route:
 
-- Evolution Layer;  
-- ontology review;  
-- editorial review;  
-- infrastructure review;  
-- governance review.
+\- Evolution Layer;  
+\- ontology review;  
+\- editorial review;  
+\- infrastructure review;  
+\- governance review.
 
----
+\---
 
-## Working roles
+\#\# Working roles
 
 The following roles describe kinds of stewardship labor.
 
@@ -17955,440 +17955,440 @@ They do not need to be formal positions at first.
 
 One person may hold several roles.
 
----
+\---
 
-### 1. Knowledge Gardener
+\#\#\# 1\. Knowledge Gardener
 
 A Knowledge Gardener helps the commons stay alive, navigable, and coherent.
 
 Responsibilities may include:
 
-- routing raw material;  
-- improving structure;  
-- connecting related entries;  
-- adding crosslinks;  
-- identifying duplicates;  
-- preserving uncertainty;  
-- composting old material;  
-- maintaining section coherence;  
-- helping contributors find where things belong.
+\- routing raw material;  
+\- improving structure;  
+\- connecting related entries;  
+\- adding crosslinks;  
+\- identifying duplicates;  
+\- preserving uncertainty;  
+\- composting old material;  
+\- maintaining section coherence;  
+\- helping contributors find where things belong.
 
 A Knowledge Gardener asks:
 
-- What kind of thing is this?  
-- Where does it belong?  
-- What does it relate to?  
-- What should happen next?  
-- Is this raw, draft, reviewed, or high-risk?  
-- Should this be preserved, routed, archived, or composted?
+\- What kind of thing is this?  
+\- Where does it belong?  
+\- What does it relate to?  
+\- What should happen next?  
+\- Is this raw, draft, reviewed, or high-risk?  
+\- Should this be preserved, routed, archived, or composted?
 
 This role is central to the Toolkit.
 
----
+\---
 
-### 2. Source-System Steward
+\#\#\# 2\. Source-System Steward
 
 A Source-System Steward cares for relationships with external knowledge environments.
 
 Responsibilities may include:
 
-- identifying source systems;  
-- creating Source System Cards;  
-- checking currentness;  
-- preserving attribution;  
-- noting reuse conditions;  
-- identifying return paths;  
-- flagging source-system complaints or concerns;  
-- preventing extractive aggregation.
+\- identifying source systems;  
+\- creating Source System Cards;  
+\- checking currentness;  
+\- preserving attribution;  
+\- noting reuse conditions;  
+\- identifying return paths;  
+\- flagging source-system complaints or concerns;  
+\- preventing extractive aggregation.
 
 A Source-System Steward asks:
 
-- Is this just a resource or a living source system?  
-- Who maintains it?  
-- What is its scope?  
-- How should it be credited?  
-- Can material be reused?  
-- What should flow back?  
-- Is this active, dormant, stale, or unknown?  
-- Does this require consent or review?
+\- Is this just a resource or a living source system?  
+\- Who maintains it?  
+\- What is its scope?  
+\- How should it be credited?  
+\- Can material be reused?  
+\- What should flow back?  
+\- Is this active, dormant, stale, or unknown?  
+\- Does this require consent or review?
 
 This role matters because knowledge commons can become extractive when they aggregate without relationship.
 
----
+\---
 
-### 3. Concept Steward
+\#\#\# 3\. Concept Steward
 
 A Concept Steward helps maintain clarity around important ideas.
 
 Responsibilities may include:
 
-- improving definitions;  
-- creating comparison pages;  
-- preserving conceptual plurality;  
-- mapping lineages;  
-- identifying overloaded terms;  
-- preventing false clarity;  
-- maintaining Concept Ecology notes;  
-- clarifying local vs shared meanings.
+\- improving definitions;  
+\- creating comparison pages;  
+\- preserving conceptual plurality;  
+\- mapping lineages;  
+\- identifying overloaded terms;  
+\- preventing false clarity;  
+\- maintaining Concept Ecology notes;  
+\- clarifying local vs shared meanings.
 
 A Concept Steward asks:
 
-- What does this term mean here?  
-- Which communities use it differently?  
-- What is it often confused with?  
-- What tensions does it carry?  
-- Should this become an Encyclopedia page?  
-- Should it remain an open question?  
-- Is AI flattening the meaning?
+\- What does this term mean here?  
+\- Which communities use it differently?  
+\- What is it often confused with?  
+\- What tensions does it carry?  
+\- Should this become an Encyclopedia page?  
+\- Should it remain an open question?  
+\- Is AI flattening the meaning?
 
 This role matters because the Toolkit crosses many fields that use similar words differently.
 
----
+\---
 
-### 4. Ontology Steward
+\#\#\# 4\. Ontology Steward
 
 An Ontology Steward maintains the semantic kernel.
 
 Responsibilities may include:
 
-- reviewing entity types;  
-- distinguishing types from tags;  
-- reviewing relationship grammar;  
-- maintaining mappings to Octo / BKC or other schemas;  
-- reviewing new type proposals;  
-- preventing ontology sprawl;  
-- documenting deprecated terms;  
-- supporting AI-readable metadata.
+\- reviewing entity types;  
+\- distinguishing types from tags;  
+\- reviewing relationship grammar;  
+\- maintaining mappings to Octo / BKC or other schemas;  
+\- reviewing new type proposals;  
+\- preventing ontology sprawl;  
+\- documenting deprecated terms;  
+\- supporting AI-readable metadata.
 
 An Ontology Steward asks:
 
-- Is this a type, subtype, tag, field, or note?  
-- Does this distinction affect routing, review, interface, schema, or deployment?  
-- Does this align with adjacent ontologies?  
-- Does this create unnecessary complexity?  
-- What changes need versioning?
+\- Is this a type, subtype, tag, field, or note?  
+\- Does this distinction affect routing, review, interface, schema, or deployment?  
+\- Does this align with adjacent ontologies?  
+\- Does this create unnecessary complexity?  
+\- What changes need versioning?
 
 This role should be careful, not controlling.
 
----
+\---
 
-### 5. Option Steward
+\#\#\# 5\. Option Steward
 
 An Option Steward maintains reusable design entries.
 
 Responsibilities may include:
 
-- drafting option entries;  
-- adding use cases;  
-- adding dependencies;  
-- adding failure modes;  
-- linking examples;  
-- updating maturity based on implementation;  
-- linking options to tracks and deployment checks;  
-- flagging high-risk options.
+\- drafting option entries;  
+\- adding use cases;  
+\- adding dependencies;  
+\- adding failure modes;  
+\- linking examples;  
+\- updating maturity based on implementation;  
+\- linking options to tracks and deployment checks;  
+\- flagging high-risk options.
 
 An Option Steward asks:
 
-- What is this option for?  
-- What context does it fit?  
-- What does it depend on?  
-- How does it fail?  
-- What review is needed?  
-- What implementation evidence exists?  
-- Is this option being treated as a recommendation too soon?
+\- What is this option for?  
+\- What context does it fit?  
+\- What does it depend on?  
+\- How does it fail?  
+\- What review is needed?  
+\- What implementation evidence exists?  
+\- Is this option being treated as a recommendation too soon?
 
 This role helps the Toolkit move from explanation to practical design.
 
----
+\---
 
-### 6. Deployment Reviewer
+\#\#\# 6\. Deployment Reviewer
 
 A Deployment Reviewer checks whether a proposed deployment has enough structure to be used responsibly.
 
 Responsibilities may include:
 
-- reviewing decision systems;  
-- reviewing information requirements;  
-- identifying power and control points;  
-- checking accountability;  
-- checking failure detection;  
-- marking fixed / configurable / experimental boundaries;  
-- routing high-risk deployments for domain review.
+\- reviewing decision systems;  
+\- reviewing information requirements;  
+\- identifying power and control points;  
+\- checking accountability;  
+\- checking failure detection;  
+\- marking fixed / configurable / experimental boundaries;  
+\- routing high-risk deployments for domain review.
 
 A Deployment Reviewer asks:
 
-- Who decides?  
-- Who controls funds, data, tools, or access?  
-- What information is required?  
-- How are mistakes corrected?  
-- What failure signals are being watched?  
-- What is experimental?  
-- What review is needed before use?
+\- Who decides?  
+\- Who controls funds, data, tools, or access?  
+\- What information is required?  
+\- How are mistakes corrected?  
+\- What failure signals are being watched?  
+\- What is experimental?  
+\- What review is needed before use?
 
 This role is central for funding, governance, ecological, AI, and community-facing deployments.
 
----
+\---
 
-### 7. Implementation Scribe
+\#\#\# 7\. Implementation Scribe
 
 An Implementation Scribe records what actually happened.
 
 Responsibilities may include:
 
-- documenting pilots;  
-- writing retrospectives;  
-- capturing adaptations;  
-- recording failures;  
-- extracting signals;  
-- preserving context;  
-- separating claims from evidence;  
-- routing lessons into the Toolkit.
+\- documenting pilots;  
+\- writing retrospectives;  
+\- capturing adaptations;  
+\- recording failures;  
+\- extracting signals;  
+\- preserving context;  
+\- separating claims from evidence;  
+\- routing lessons into the Toolkit.
 
 An Implementation Scribe asks:
 
-- What was attempted?  
-- What actually happened?  
-- What changed?  
-- What worked?  
-- What failed?  
-- What signals emerged?  
-- What should update the Toolkit?  
-- What should not be generalized?
+\- What was attempted?  
+\- What actually happened?  
+\- What changed?  
+\- What worked?  
+\- What failed?  
+\- What signals emerged?  
+\- What should update the Toolkit?  
+\- What should not be generalized?
 
 This role turns practice into memory.
 
----
+\---
 
-### 8. Domain Reviewer
+\#\#\# 8\. Domain Reviewer
 
 A Domain Reviewer reviews specialized content.
 
 Domains may include:
 
-- ecology / MRV;  
-- governance;  
-- funding;  
-- legal / tax;  
-- token engineering;  
-- AI;  
-- privacy;  
-- community representation;  
-- local / bioregional context;  
-- technical infrastructure.
+\- ecology / MRV;  
+\- governance;  
+\- funding;  
+\- legal / tax;  
+\- token engineering;  
+\- AI;  
+\- privacy;  
+\- community representation;  
+\- local / bioregional context;  
+\- technical infrastructure.
 
 A Domain Reviewer asks:
 
-- Is this accurate enough for its intended use?  
-- What evidence is missing?  
-- What risks are being underplayed?  
-- What caveats are needed?  
-- Is this safe for public use?  
-- Does this need stronger review before deployment?
+\- Is this accurate enough for its intended use?  
+\- What evidence is missing?  
+\- What risks are being underplayed?  
+\- What caveats are needed?  
+\- Is this safe for public use?  
+\- Does this need stronger review before deployment?
 
 Domain review should scale with risk.
 
----
+\---
 
-### 9. Community Reviewer
+\#\#\# 9\. Community Reviewer
 
 A Community Reviewer checks whether a community, group, place, or local context is represented fairly and safely.
 
 Responsibilities may include:
 
-- reviewing community profiles;  
-- checking consent;  
-- reviewing local maps;  
-- identifying misrepresentation;  
-- flagging sensitive information;  
-- reviewing public claims about communities;  
-- ensuring affected people can correct or respond.
+\- reviewing community profiles;  
+\- checking consent;  
+\- reviewing local maps;  
+\- identifying misrepresentation;  
+\- flagging sensitive information;  
+\- reviewing public claims about communities;  
+\- ensuring affected people can correct or respond.
 
 A Community Reviewer asks:
 
-- Who is being represented?  
-- Did they consent?  
-- Could this expose harm?  
-- Is local context flattened?  
-- Who should review before publication?  
-- What should remain private?
+\- Who is being represented?  
+\- Did they consent?  
+\- Could this expose harm?  
+\- Is local context flattened?  
+\- Who should review before publication?  
+\- What should remain private?
 
 This role matters especially for local, ecological, civic, and community-facing work.
 
----
+\---
 
-### 10. Technical Maintainer
+\#\#\# 10\. Technical Maintainer
 
 A Technical Maintainer cares for the infrastructure.
 
 Responsibilities may include:
 
-- maintaining repositories;  
-- managing site deployment;  
-- maintaining schemas;  
-- supporting data exports;  
-- handling broken builds;  
-- managing tables or databases;  
-- supporting AI retrieval workflows;  
-- preserving backups and raw archives;  
-- supporting contributors with tooling.
+\- maintaining repositories;  
+\- managing site deployment;  
+\- maintaining schemas;  
+\- supporting data exports;  
+\- handling broken builds;  
+\- managing tables or databases;  
+\- supporting AI retrieval workflows;  
+\- preserving backups and raw archives;  
+\- supporting contributors with tooling.
 
 A Technical Maintainer asks:
 
-- Is the infrastructure working?  
-- Is the data portable?  
-- Are schemas consistent?  
-- Are raw sources preserved?  
-- Can contributors use the system?  
-- Is the site publishing the correct material?  
-- Are AI workflows using the right corpus and metadata?
+\- Is the infrastructure working?  
+\- Is the data portable?  
+\- Are schemas consistent?  
+\- Are raw sources preserved?  
+\- Can contributors use the system?  
+\- Is the site publishing the correct material?  
+\- Are AI workflows using the right corpus and metadata?
 
 This role supports the substrate without letting tools dominate the commons.
 
----
+\---
 
-### 11. Editorial Steward
+\#\#\# 11\. Editorial Steward
 
 An Editorial Steward improves public readability and coherence.
 
 Responsibilities may include:
 
-- copyediting;  
-- formatting;  
-- section coherence;  
-- public-facing tone;  
-- removing duplication;  
-- clarifying caveats;  
-- improving navigation;  
-- checking maturity labels;  
-- ensuring public pages do not overclaim.
+\- copyediting;  
+\- formatting;  
+\- section coherence;  
+\- public-facing tone;  
+\- removing duplication;  
+\- clarifying caveats;  
+\- improving navigation;  
+\- checking maturity labels;  
+\- ensuring public pages do not overclaim.
 
 An Editorial Steward asks:
 
-- Is this clear?  
-- Is this too polished for its review state?  
-- Is uncertainty visible?  
-- Is the reader guided?  
-- Are we losing important nuance?  
-- Is this safe to publish?
+\- Is this clear?  
+\- Is this too polished for its review state?  
+\- Is uncertainty visible?  
+\- Is the reader guided?  
+\- Are we losing important nuance?  
+\- Is this safe to publish?
 
 Editorial work should improve clarity without erasing uncertainty.
 
----
+\---
 
-### 12. AI Workflow Reviewer
+\#\#\# 12\. AI Workflow Reviewer
 
 An AI Workflow Reviewer checks AI-assisted processes and outputs.
 
 Responsibilities may include:
 
-- reviewing AI-generated summaries;  
-- checking source lineage;  
-- validating extracted links;  
-- checking classification suggestions;  
-- detecting hallucinations;  
-- marking AI-assisted content;  
-- ensuring human review boundaries;  
-- improving prompts and workflows;  
-- preserving raw sources before synthesis.
+\- reviewing AI-generated summaries;  
+\- checking source lineage;  
+\- validating extracted links;  
+\- checking classification suggestions;  
+\- detecting hallucinations;  
+\- marking AI-assisted content;  
+\- ensuring human review boundaries;  
+\- improving prompts and workflows;  
+\- preserving raw sources before synthesis.
 
 An AI Workflow Reviewer asks:
 
-- What did AI generate?  
-- What sources were used?  
-- Were links preserved?  
-- Were uncertainties preserved?  
-- Are relationships inferred or reviewed?  
-- Could this output be mistaken as authoritative?  
-- What human review is required?
+\- What did AI generate?  
+\- What sources were used?  
+\- Were links preserved?  
+\- Were uncertainties preserved?  
+\- Are relationships inferred or reviewed?  
+\- Could this output be mistaken as authoritative?  
+\- What human review is required?
 
 This role is increasingly important as the Toolkit becomes AI-assisted.
 
----
+\---
 
-## Working practices
+\#\# Working practices
 
-### 1. Preserve before compressing
+\#\#\# 1\. Preserve before compressing
 
 Before rewriting, summarizing, or cleaning raw material, preserve the original.
 
 This is especially important for:
 
-- resource inventories;  
-- link dumps;  
-- handoff notes;  
-- implementation records;  
-- source-system lists;  
-- field notes;  
-- AI-generated drafts;  
-- old master docs.
+\- resource inventories;  
+\- link dumps;  
+\- handoff notes;  
+\- implementation records;  
+\- source-system lists;  
+\- field notes;  
+\- AI-generated drafts;  
+\- old master docs.
 
 Working rule:
 
-> Preserve raw material until extraction is verified.
+\> Preserve raw material until extraction is verified.
 
 The Resource Graph link-loss issue makes this rule essential.
 
----
+\---
 
-### 2. Route instead of delete
+\#\#\# 2\. Route instead of delete
 
 Messy material should not be deleted just because it is not polished.
 
 First ask:
 
-- Does this belong in another layer?  
-- Is this a raw lead?  
-- Is this a source-system candidate?  
-- Is this a future option?  
-- Is this implementation memory?  
-- Is this a signal?  
-- Is this a backlog item?  
-- Should this be archived or composted?
+\- Does this belong in another layer?  
+\- Is this a raw lead?  
+\- Is this a source-system candidate?  
+\- Is this a future option?  
+\- Is this implementation memory?  
+\- Is this a signal?  
+\- Is this a backlog item?  
+\- Should this be archived or composted?
 
 Delete only when material is clearly duplicate, irrelevant, harmful, or unsafe to retain.
 
----
+\---
 
-### 3. Label maturity
+\#\#\# 3\. Label maturity
 
 Use visible maturity states.
 
 Examples:
 
-- raw;  
-- stub;  
-- draft;  
-- AI-assisted draft;  
-- candidate;  
-- source-linked;  
-- reviewed;  
-- field-informed;  
-- high-risk;  
-- open question;  
-- deprecated;  
-- archived.
+\- raw;  
+\- stub;  
+\- draft;  
+\- AI-assisted draft;  
+\- candidate;  
+\- source-linked;  
+\- reviewed;  
+\- field-informed;  
+\- high-risk;  
+\- open question;  
+\- deprecated;  
+\- archived.
 
 This lets rough work remain useful without pretending it is finished.
 
----
+\---
 
-### 4. Separate claim from evidence
+\#\#\# 4\. Separate claim from evidence
 
 When content asserts something important, ask:
 
-- What is the claim?  
-- What evidence supports it?  
-- What source does the evidence come from?  
-- What interpretation is being made?  
-- What uncertainty remains?  
-- What review is needed?  
-- Is it safe for public use?
+\- What is the claim?  
+\- What evidence supports it?  
+\- What source does the evidence come from?  
+\- What interpretation is being made?  
+\- What uncertainty remains?  
+\- What review is needed?  
+\- Is it safe for public use?
 
 This is especially important for ecological, funding, governance, AI, community, and public impact claims.
 
----
+\---
 
-### 5. Scale review with risk
+\#\#\# 5\. Scale review with risk
 
 Not every contribution needs review before being saved.
 
@@ -18396,25 +18396,25 @@ But some content needs review before public use or implementation.
 
 High-review areas:
 
-- ecological / MRV claims;  
-- funding recommendations;  
-- token incentives;  
-- governance systems;  
-- legal / tax claims;  
-- identity or reputation systems;  
-- AI recommendations;  
-- community representation;  
-- sensitive local maps;  
-- source-system reuse;  
-- public impact reporting.
+\- ecological / MRV claims;  
+\- funding recommendations;  
+\- token incentives;  
+\- governance systems;  
+\- legal / tax claims;  
+\- identity or reputation systems;  
+\- AI recommendations;  
+\- community representation;  
+\- sensitive local maps;  
+\- source-system reuse;  
+\- public impact reporting.
 
 The goal is not gatekeeping.
 
 The goal is responsible use.
 
----
+\---
 
-### 6. Distinguish contribution from publication
+\#\#\# 6\. Distinguish contribution from publication
 
 A contribution can be raw.
 
@@ -18422,63 +18422,63 @@ Publication requires stronger care.
 
 For example:
 
-- adding a resource link can be easy;  
-- publishing a recommendation list requires review;  
-- recording an implementation can be rough;  
-- publishing a public success claim requires evidence;  
-- drafting a concept with AI can be useful;  
-- presenting it as reviewed requires human review.
+\- adding a resource link can be easy;  
+\- publishing a recommendation list requires review;  
+\- recording an implementation can be rough;  
+\- publishing a public success claim requires evidence;  
+\- drafting a concept with AI can be useful;  
+\- presenting it as reviewed requires human review.
 
 This distinction keeps contribution open while protecting public trust.
 
----
+\---
 
-### 7. Keep source systems relational
+\#\#\# 7\. Keep source systems relational
 
 When using another knowledge system, ask:
 
-- Who made this?  
-- Who maintains it?  
-- How should it be credited?  
-- Can it be reused?  
-- What context does it carry?  
-- What should flow back?  
-- Is it active or stale?  
-- Does it need consent or attribution review?
+\- Who made this?  
+\- Who maintains it?  
+\- How should it be credited?  
+\- Can it be reused?  
+\- What context does it carry?  
+\- What should flow back?  
+\- Is it active or stale?  
+\- Does it need consent or attribution review?
 
 Do not flatten source systems into links.
 
----
+\---
 
-### 8. Use AI as assistant, not authority
+\#\#\# 8\. Use AI as assistant, not authority
 
 AI can help with:
 
-- routing;  
-- summarizing;  
-- classifying;  
-- extracting;  
-- comparing;  
-- drafting;  
-- checking for duplicates;  
-- identifying gaps.
+\- routing;  
+\- summarizing;  
+\- classifying;  
+\- extracting;  
+\- comparing;  
+\- drafting;  
+\- checking for duplicates;  
+\- identifying gaps.
 
 AI should not silently decide:
 
-- review status;  
-- public-use readiness;  
-- ecological truth;  
-- governance legitimacy;  
-- community representation;  
-- ontology changes;  
-- pattern promotion;  
-- source-system consent.
+\- review status;  
+\- public-use readiness;  
+\- ecological truth;  
+\- governance legitimacy;  
+\- community representation;  
+\- ontology changes;  
+\- pattern promotion;  
+\- source-system consent.
 
 AI-assisted work should be marked and reviewed proportionally to risk.
 
----
+\---
 
-### 9. Preserve failures
+\#\#\# 9\. Preserve failures
 
 Failure cases are useful.
 
@@ -18486,152 +18486,152 @@ They should be documented carefully.
 
 Avoid:
 
-- blame;  
-- gossip;  
-- oversimplification;  
-- treating one failure as universal proof;  
-- erasing affected parties;  
-- making unsupported claims.
+\- blame;  
+\- gossip;  
+\- oversimplification;  
+\- treating one failure as universal proof;  
+\- erasing affected parties;  
+\- making unsupported claims.
 
 Ask:
 
-- what failed?  
-- what context mattered?  
-- what early signals existed?  
-- what changed?  
-- what should be learned?  
-- what should not be repeated?  
-- what should not be generalized?
+\- what failed?  
+\- what context mattered?  
+\- what early signals existed?  
+\- what changed?  
+\- what should be learned?  
+\- what should not be repeated?  
+\- what should not be generalized?
 
----
+\---
 
-### 10. Compost old material
+\#\#\# 10\. Compost old material
 
 Not everything old should remain active.
 
 Some material should be:
 
-- archived;  
-- deprecated;  
-- composted;  
-- preserved as historical context;  
-- transformed into a lesson.
+\- archived;  
+\- deprecated;  
+\- composted;  
+\- preserved as historical context;  
+\- transformed into a lesson.
 
 Compost means old material feeds future learning without confusing current readers.
 
----
+\---
 
-## Review workflows
+\#\# Review workflows
 
-### Lightweight review workflow
+\#\#\# Lightweight review workflow
 
 For ordinary contributions:
 
-1. Contributor adds raw item.  
-2. Knowledge Gardener routes it.  
-3. Maturity status is added.  
-4. Source or context is noted.  
-5. Related layer is linked.  
-6. Item is improved over time.
+1\. Contributor adds raw item.  
+2\. Knowledge Gardener routes it.  
+3\. Maturity status is added.  
+4\. Source or context is noted.  
+5\. Related layer is linked.  
+6\. Item is improved over time.
 
 Use for:
 
-- raw resources;  
-- concept stubs;  
-- loose leads;  
-- draft options;  
-- open questions.
+\- raw resources;  
+\- concept stubs;  
+\- loose leads;  
+\- draft options;  
+\- open questions.
 
----
+\---
 
-### High-risk review workflow
+\#\#\# High-risk review workflow
 
 For high-risk content:
 
-1. Contributor adds item or claim.  
-2. Maturity is marked as raw / needs review.  
-3. Public-use boundary is added.  
-4. Relevant reviewer is identified.  
-5. Evidence is separated from claim.  
-6. Domain or community review happens.  
-7. Status is updated.  
-8. Public content is revised or held back.  
-9. Evolution Log records the decision if important.
+1\. Contributor adds item or claim.  
+2\. Maturity is marked as raw / needs review.  
+3\. Public-use boundary is added.  
+4\. Relevant reviewer is identified.  
+5\. Evidence is separated from claim.  
+6\. Domain or community review happens.  
+7\. Status is updated.  
+8\. Public content is revised or held back.  
+9\. Evolution Log records the decision if important.
 
 Use for:
 
-- ecological claims;  
-- funding claims;  
-- governance recommendations;  
-- identity systems;  
-- community representation;  
-- AI-generated public guidance;  
-- legal / tax material;  
-- token systems;  
-- sensitive maps.
+\- ecological claims;  
+\- funding claims;  
+\- governance recommendations;  
+\- identity systems;  
+\- community representation;  
+\- AI-generated public guidance;  
+\- legal / tax material;  
+\- token systems;  
+\- sensitive maps.
 
----
+\---
 
-### Source-system review workflow
+\#\#\# Source-system review workflow
 
 For source systems:
 
-1. Identify possible source system.  
-2. Create minimal Source System Card.  
-3. Note steward / maintainer if known.  
-4. Note scope and domain.  
-5. Check attribution or reuse conditions.  
-6. Add return-path note.  
-7. Mark currentness.  
-8. Route to Resource Graph, Encyclopedia, Option Library, or Tracks as needed.  
-9. Revisit periodically.
+1\. Identify possible source system.  
+2\. Create minimal Source System Card.  
+3\. Note steward / maintainer if known.  
+4\. Note scope and domain.  
+5\. Check attribution or reuse conditions.  
+6\. Add return-path note.  
+7\. Mark currentness.  
+8\. Route to Resource Graph, Encyclopedia, Option Library, or Tracks as needed.  
+9\. Revisit periodically.
 
 Use for:
 
-- wikis;  
-- repositories;  
-- maps;  
-- directories;  
-- forums;  
-- knowledge gardens;  
-- documentation hubs;  
-- community libraries.
+\- wikis;  
+\- repositories;  
+\- maps;  
+\- directories;  
+\- forums;  
+\- knowledge gardens;  
+\- documentation hubs;  
+\- community libraries.
 
----
+\---
 
-### Implementation review workflow
+\#\#\# Implementation review workflow
 
 For implementation records:
 
-1. Record what happened.  
-2. Preserve context.  
-3. Separate plan from reality.  
-4. Capture evidence.  
-5. Capture signals.  
-6. Identify public-use boundary.  
-7. Route lessons to Toolkit layers.  
-8. Create update proposals if needed.  
-9. Mark whether this is a case, repeated signal, or pattern candidate.
+1\. Record what happened.  
+2\. Preserve context.  
+3\. Separate plan from reality.  
+4\. Capture evidence.  
+5\. Capture signals.  
+6\. Identify public-use boundary.  
+7\. Route lessons to Toolkit layers.  
+8\. Create update proposals if needed.  
+9\. Mark whether this is a case, repeated signal, or pattern candidate.
 
 Use for:
 
-- pilots;  
-- rounds;  
-- campaigns;  
-- local nodes;  
-- workshops;  
-- tool deployments;  
-- governance experiments;  
-- ecological reporting.
+\- pilots;  
+\- rounds;  
+\- campaigns;  
+\- local nodes;  
+\- workshops;  
+\- tool deployments;  
+\- governance experiments;  
+\- ecological reporting.
 
----
+\---
 
-## Contribution templates
+\#\# Contribution templates
 
-### Resource contribution template
+\#\#\# Resource contribution template
 
 \`\`\`md  
-### Resource contribution
+\#\#\# Resource contribution
 
 \*\*Title:\*\*    
 \*\*Link / reference:\*\*    
@@ -18647,13 +18647,13 @@ Use for:
 
 # 📝 Backlog, Notes, Appendices & Future Design Seeds
 
-Previous drafts/iterations - [Regen Web3 Toolkit](https://docs.google.com/document/d/1Qi4Enl16mwMFokdQGepwVYaNSr2RJwp-A2gVZ1ZgWN4/edit?tab=t.jepq9bikbcic)
+Previous drafts/iterations \- [Regen Web3 Toolkit](https://docs.google.com/document/d/1Qi4Enl16mwMFokdQGepwVYaNSr2RJwp-A2gVZ1ZgWN4/edit?tab=t.jepq9bikbcic)
 
 —----------------------------
 
-## 16. Backlog, Notes, Appendices & Future Design Seeds
+\#\# 16\. Backlog, Notes, Appendices & Future Design Seeds
 
-### Purpose of this section
+\#\#\# Purpose of this section
 
 This section preserves useful material that supports the Regen Knowledge Commons Toolkit but does not yet belong cleanly in the main architecture.
 
@@ -18661,8 +18661,8 @@ It holds unresolved work, raw notes, dense reference material, appendices, histo
 
 The purpose is twofold:
 
-1. \*\*Prevent useful material from being lost.\*\*  
-2. \*\*Keep the main body of the document coherent enough to work from.\*\*
+1\. \*\*Prevent useful material from being lost.\*\*  
+2\. \*\*Keep the main body of the document coherent enough to work from.\*\*
 
 This section is not a junk drawer.
 
@@ -18674,9 +18674,9 @@ Instead, each item should eventually be routed, reviewed, integrated, archived, 
 
 When unsure, preserve the material and add a routing note.
 
----
+\---
 
-### Current posture
+\#\#\# Current posture
 
 This document is still in a stabilization and integration phase.
 
@@ -18690,37 +18690,37 @@ Do not delete dense or messy material just because it is unpolished.
 
 Instead:
 
-- preserve useful material;  
-- clarify where each piece belongs;  
-- route messy notes into the correct layer;  
-- mark uncertainty instead of erasing it;  
-- add review or maturity status where needed;  
-- move unresolved material into Backlog / Next Sprint;  
-- keep dense reference material in Appendices where appropriate;  
-- avoid treating candidate structures as final decisions.
+\- preserve useful material;  
+\- clarify where each piece belongs;  
+\- route messy notes into the correct layer;  
+\- mark uncertainty instead of erasing it;  
+\- add review or maturity status where needed;  
+\- move unresolved material into Backlog / Next Sprint;  
+\- keep dense reference material in Appendices where appropriate;  
+\- avoid treating candidate structures as final decisions.
 
 The document should remain dense, practical, source-aware, and implementation-oriented.
 
----
+\---
 
-### How to use this section
+\#\#\# How to use this section
 
 When reviewing backlog material, ask:
 
-- Does this belong in the Ontology & Semantic Kernel?  
-- Does this belong in the Knowledge Commons / Encyclopedia?  
-- Does this belong in the Resource Graph & Ecosystem Atlas?  
-- Does this belong in the Concept & Idea Ecology?  
-- Does this belong in the Option Library?  
-- Does this belong in Deployment & Structural Integrity?  
-- Does this belong in Tracks & Composition?  
-- Does this belong in Implementation & Learning Memory?  
-- Does this belong in the Evolution Layer?  
-- Does this belong in Infrastructure & Substrate?  
-- Does this belong in Contributor Roles & Working Practices?  
-- Should it stay as a backlog item, appendix, or raw note for now?  
-- Should it become an implementation case, source-system card, option entry, review trigger, or evolution signal?  
-- Should it be archived or composted?
+\- Does this belong in the Ontology & Semantic Kernel?  
+\- Does this belong in the Knowledge Commons / Encyclopedia?  
+\- Does this belong in the Resource Graph & Ecosystem Atlas?  
+\- Does this belong in the Concept & Idea Ecology?  
+\- Does this belong in the Option Library?  
+\- Does this belong in Deployment & Structural Integrity?  
+\- Does this belong in Tracks & Composition?  
+\- Does this belong in Implementation & Learning Memory?  
+\- Does this belong in the Evolution Layer?  
+\- Does this belong in Infrastructure & Substrate?  
+\- Does this belong in Contributor Roles & Working Practices?  
+\- Should it stay as a backlog item, appendix, or raw note for now?  
+\- Should it become an implementation case, source-system card, option entry, review trigger, or evolution signal?  
+\- Should it be archived or composted?
 
 When unsure, preserve first.
 
@@ -18728,9 +18728,9 @@ Add a status label.
 
 Route later.
 
----
+\---
 
-## Backlog status labels
+\#\# Backlog status labels
 
 Use these labels to keep unfinished material legible.
 
@@ -18753,13 +18753,13 @@ Use these labels to keep unfinished material legible.
 
 Backlog material should not silently become guidance.
 
----
+\---
 
-## Current known gaps
+\#\# Current known gaps
 
 The following areas are known gaps, thin sections, missing operational pieces, or priorities for the next stabilization pass.
 
-### 1. How to Use This Master Doc
+\#\#\# 1\. How to Use This Master Doc
 
 Status: \*\*Deferred / not priority right now\*\*
 
@@ -18783,9 +18783,9 @@ Possible reader pathways:
 
 This section is useful but not required before continuing the main stabilization pass.
 
----
+\---
 
-### 2. Full Resource Graph extraction
+\#\#\# 2\. Full Resource Graph extraction
 
 Status: \*\*Highest priority / preserve before compressing\*\*
 
@@ -18795,14 +18795,14 @@ Cleaned narrative versions can accidentally drop useful links and concrete refer
 
 Before replacing or compressing the previous Resource Graph section, future contributors should:
 
-1. preserve the raw section;  
-2. extract all concrete links and named references;  
-3. place them into a structured table or spreadsheet;  
-4. distinguish individual resources from source systems;  
-5. mark raw leads clearly;  
-6. route each item to the appropriate Toolkit layer;  
-7. create Source System Cards for priority living knowledge environments;  
-8. only then create a cleaner narrative version.
+1\. preserve the raw section;  
+2\. extract all concrete links and named references;  
+3\. place them into a structured table or spreadsheet;  
+4\. distinguish individual resources from source systems;  
+5\. mark raw leads clearly;  
+6\. route each item to the appropriate Toolkit layer;  
+7\. create Source System Cards for priority living knowledge environments;  
+8\. only then create a cleaner narrative version.
 
 Recommended table fields:
 
@@ -18818,13 +18818,13 @@ Recommended table fields:
 
 Working principle:
 
-> Preserve before compressing.
+\> Preserve before compressing.
 
 The cleaned Resource Graph narrative should not be treated as a complete recovery of all previous resources.
 
----
+\---
 
-### 3. Article Inventory & Site Implementation Context
+\#\#\# 3\. Article Inventory & Site Implementation Context
 
 Status: \*\*Useful, but can remain raw for now\*\*
 
@@ -18832,17 +18832,17 @@ The master architecture eventually needs to be connected to the actual public si
 
 Known context from previous iterations:
 
-- 67 articles were drafted and deployed through an editorial pipeline;  
-- the site is built with Astro / Starlight;  
-- articles live at clean URLs;  
-- the Explorer contains learning paths;  
-- the Tag Explorer exposes structured metadata;  
-- Matt’s taxonomy was integrated as article metadata;  
-- the full 254-article inventory was extracted and categorized;  
-- 43 medium-length articles were queued for expansion;  
-- 139 stubs still needed writing from scratch;  
-- human review is still needed for published AI-assisted drafts;  
-- approved source maps such as Restor, Hylo, P2P Foundation, ReFi Ecosystem, Weavers Network, and Second Renaissance were used or referenced as real-world example sources.
+\- 67 articles were drafted and deployed through an editorial pipeline;  
+\- the site is built with Astro / Starlight;  
+\- articles live at clean URLs;  
+\- the Explorer contains learning paths;  
+\- the Tag Explorer exposes structured metadata;  
+\- Matt’s taxonomy was integrated as article metadata;  
+\- the full 254-article inventory was extracted and categorized;  
+\- 43 medium-length articles were queued for expansion;  
+\- 139 stubs still needed writing from scratch;  
+\- human review is still needed for published AI-assisted drafts;  
+\- approved source maps such as Restor, Hylo, P2P Foundation, ReFi Ecosystem, Weavers Network, and Second Renaissance were used or referenced as real-world example sources.
 
 Future table fields:
 
@@ -18862,9 +18862,9 @@ This does not need to block the stabilization pass.
 
 But it should not be forgotten.
 
----
+\---
 
-### 4. Actual Source System Cards
+\#\#\# 4\. Actual Source System Cards
 
 Status: \*\*High priority / candidate v0.1 implementation\*\*
 
@@ -18874,23 +18874,23 @@ Source systems are living knowledge environments, not just links.
 
 Priority candidates include:
 
-- Knowledge Commoning Swarm;  
-- OpenCivics;  
-- Octo / Bioregional Knowledge Commons;  
-- GreenPill Network;  
-- ReFi DAO;  
-- Bloom Network;  
-- Gitcoin / Allo;  
-- Regen Atlas;  
-- SuperBenefit Knowledge Garden;  
-- P2P Foundation;  
-- IEF.wiki / Impact Evaluation Foundation;  
-- RKC / Communities for Future;  
-- CSIS;  
-- Green Goods;  
-- Karma GAP;  
-- Open Source Observer;  
-- Mapping Infrastructure source maps.
+\- Knowledge Commoning Swarm;  
+\- OpenCivics;  
+\- Octo / Bioregional Knowledge Commons;  
+\- GreenPill Network;  
+\- ReFi DAO;  
+\- Bloom Network;  
+\- Gitcoin / Allo;  
+\- Regen Atlas;  
+\- SuperBenefit Knowledge Garden;  
+\- P2P Foundation;  
+\- IEF.wiki / Impact Evaluation Foundation;  
+\- RKC / Communities for Future;  
+\- CSIS;  
+\- Green Goods;  
+\- Karma GAP;  
+\- Open Source Observer;  
+\- Mapping Infrastructure source maps.
 
 This list is raw and may change.
 
@@ -18913,9 +18913,9 @@ Minimum Source System Card fields:
 | Status | Raw, candidate, source-linked, reviewed, dormant, deprecated. |  
 | Notes | Context, questions, risks, or relationship notes. |
 
----
+\---
 
-### 5. Actual Option Library entries
+\#\#\# 5\. Actual Option Library entries
 
 Status: \*\*High priority / needs examples\*\*
 
@@ -18923,41 +18923,41 @@ The Option Library should include concrete entries, not only categories.
 
 Starter option entries:
 
-- Source System Card;  
-- Claim-Evidence Record;  
-- Local Node Structure;  
-- Public Goods Funding Round;  
-- AI-Assisted Curation Workflow;  
-- Implementation Retrospective;  
-- Deployment Context Card;  
-- Community Discovery / Affinity Map;  
-- Ecological Evidence Review;  
-- Governance Proposal Flow;  
-- Source Graph Inventory;  
-- Knowledge Garden Workflow;  
-- Multisig Treasury;  
-- Milestone-Based Grants;  
-- Attestation-Based Evidence Record;  
-- Safe-to-Fail Probe.
+\- Source System Card;  
+\- Claim-Evidence Record;  
+\- Local Node Structure;  
+\- Public Goods Funding Round;  
+\- AI-Assisted Curation Workflow;  
+\- Implementation Retrospective;  
+\- Deployment Context Card;  
+\- Community Discovery / Affinity Map;  
+\- Ecological Evidence Review;  
+\- Governance Proposal Flow;  
+\- Source Graph Inventory;  
+\- Knowledge Garden Workflow;  
+\- Multisig Treasury;  
+\- Milestone-Based Grants;  
+\- Attestation-Based Evidence Record;  
+\- Safe-to-Fail Probe.
 
 Each option should include:
 
-- purpose;  
-- use context;  
-- required conditions;  
-- dependencies;  
-- risks;  
-- failure modes;  
-- compatible options;  
-- incompatible options;  
-- review needs;  
-- deployment questions;  
-- related resources;  
-- related implementation cases.
+\- purpose;  
+\- use context;  
+\- required conditions;  
+\- dependencies;  
+\- risks;  
+\- failure modes;  
+\- compatible options;  
+\- incompatible options;  
+\- review needs;  
+\- deployment questions;  
+\- related resources;  
+\- related implementation cases.
 
----
+\---
 
-### 6. Implementation case stubs
+\#\#\# 6\. Implementation case stubs
 
 Status: \*\*High priority / practical next step\*\*
 
@@ -18965,42 +18965,42 @@ The Implementation Memory layer needs real or stubbed cases.
 
 Priority stubs:
 
-- Green Goods;  
-- Regen Rio;  
-- GreenPill Brasil local coordination and reporting;  
-- GreenPill local chapters;  
-- Gitcoin / Gardens funding rounds;  
-- Cookie Jar Research Raid;  
-- Knowledge garden experiments;  
-- Swarm participation;  
-- Regen Toolkit site implementation;  
-- Resource Graph recovery / link-loss issue;  
-- GreenGoods / TreeKipedia / Silvi ecological data context;  
-- Regen Rio GG23 / Celo / Sarafu context;  
-- Octant / Green Goods proposal learning;  
-- AI-assisted knowledge gardening and synthesis process.
+\- Green Goods;  
+\- Regen Rio;  
+\- GreenPill Brasil local coordination and reporting;  
+\- GreenPill local chapters;  
+\- Gitcoin / Gardens funding rounds;  
+\- Cookie Jar Research Raid;  
+\- Knowledge garden experiments;  
+\- Swarm participation;  
+\- Regen Toolkit site implementation;  
+\- Resource Graph recovery / link-loss issue;  
+\- GreenGoods / TreeKipedia / Silvi ecological data context;  
+\- Regen Rio GG23 / Celo / Sarafu context;  
+\- Octant / Green Goods proposal learning;  
+\- AI-assisted knowledge gardening and synthesis process.
 
 Each stub should capture:
 
-- context;  
-- related track;  
-- related deployment;  
-- tools/options used;  
-- what happened;  
-- signals;  
-- review needs;  
-- source lineage;  
-- public-use boundary;  
-- suggested Toolkit updates.
+\- context;  
+\- related track;  
+\- related deployment;  
+\- tools/options used;  
+\- what happened;  
+\- signals;  
+\- review needs;  
+\- source lineage;  
+\- public-use boundary;  
+\- suggested Toolkit updates.
 
 The first real implementation lesson is already visible:
 
-> Summarized cleanup can accidentally remove important raw resource links.    
-> Therefore, raw inventories should be preserved before synthesis.
+\> Summarized cleanup can accidentally remove important raw resource links.    
+\> Therefore, raw inventories should be preserved before synthesis.
 
----
+\---
 
-### 7. Evolution Log
+\#\#\# 7\. Evolution Log
 
 Status: \*\*High priority / small but important\*\*
 
@@ -19027,9 +19027,9 @@ Known first entries:
 | Tracks do not yet enforce structural validity. | Add deployment readiness rules to tracks. |  
 | Published articles may look more reviewed than they are. | Add maturity labels and human review status. |
 
----
+\---
 
-### 8. Public-Use Boundary Guide
+\#\#\# 8\. Public-Use Boundary Guide
 
 Status: \*\*High priority / keep lightweight\*\*
 
@@ -19037,20 +19037,20 @@ Some material is useful internally but not safe for public use yet.
 
 Be especially careful with:
 
-- ecological / MRV claims;  
-- biodiversity, carbon, soil, water, restoration, or climate claims;  
-- funding claims;  
-- AI-generated synthesis;  
-- community representation;  
-- local maps;  
-- identity / reputation systems;  
-- governance recommendations;  
-- CSIS-related structural assessments;  
-- implementation claims;  
-- legal or tax guidance;  
-- token and incentive models;  
-- public rankings or scoring;  
-- claims involving unresolved conflict.
+\- ecological / MRV claims;  
+\- biodiversity, carbon, soil, water, restoration, or climate claims;  
+\- funding claims;  
+\- AI-generated synthesis;  
+\- community representation;  
+\- local maps;  
+\- identity / reputation systems;  
+\- governance recommendations;  
+\- CSIS-related structural assessments;  
+\- implementation claims;  
+\- legal or tax guidance;  
+\- token and incentive models;  
+\- public rankings or scoring;  
+\- claims involving unresolved conflict.
 
 Suggested statuses:
 
@@ -19071,9 +19071,9 @@ High-risk does not mean remove.
 
 It means include with visible care, boundaries, and review needs.
 
----
+\---
 
-### 9. Infrastructure & Technical Workbench
+\#\#\# 9\. Infrastructure & Technical Workbench
 
 Status: \*\*Important / avoid premature stack decisions\*\*
 
@@ -19081,111 +19081,111 @@ The infrastructure section should compare substrates without prematurely choosin
 
 Important possible substrates:
 
-- Google Docs;  
-- Markdown;  
-- GitHub;  
-- Astro / Starlight;  
-- Quartz;  
-- Notion;  
-- Obsidian;  
-- MediaWiki;  
-- spreadsheets / Airtable / Baserow;  
-- JSON / CSV;  
-- LinkML;  
-- JSON-LD;  
-- graph database;  
-- RAG / GraphRAG;  
-- IPFS / decentralized storage;  
-- EAS / attestations;  
-- site implementation pipeline.
+\- Google Docs;  
+\- Markdown;  
+\- GitHub;  
+\- Astro / Starlight;  
+\- Quartz;  
+\- Notion;  
+\- Obsidian;  
+\- MediaWiki;  
+\- spreadsheets / Airtable / Baserow;  
+\- JSON / CSV;  
+\- LinkML;  
+\- JSON-LD;  
+\- graph database;  
+\- RAG / GraphRAG;  
+\- IPFS / decentralized storage;  
+\- EAS / attestations;  
+\- site implementation pipeline.
 
 Important principle:
 
-> Do not choose infrastructure before workflows are clear.
+\> Do not choose infrastructure before workflows are clear.
 
 The next practical move is likely a hybrid workbench:
 
-- master doc for architecture;  
-- raw appendix for preservation;  
-- spreadsheet for Resource Graph;  
-- Markdown for stable sections;  
-- Source System Cards;  
-- Option Library table;  
-- Implementation Memory folder;  
-- Evolution Log;  
-- public site for reviewed or clearly labeled content.
+\- master doc for architecture;  
+\- raw appendix for preservation;  
+\- spreadsheet for Resource Graph;  
+\- Markdown for stable sections;  
+\- Source System Cards;  
+\- Option Library table;  
+\- Implementation Memory folder;  
+\- Evolution Log;  
+\- public site for reviewed or clearly labeled content.
 
----
+\---
 
-### 10. Concept & Idea Ecology review
+\#\#\# 10\. Concept & Idea Ecology review
 
 Status: \*\*Needs checking during next pass\*\*
 
 Concept & Idea Ecology should map:
 
-- idea lineages;  
-- paradigms;  
-- tensions;  
-- metaphors;  
-- conceptual clusters;  
-- unresolved questions;  
-- relationships between public goods, commons, bioregionalism, ReFi, governance, coordination, AI, and localism.
+\- idea lineages;  
+\- paradigms;  
+\- tensions;  
+\- metaphors;  
+\- conceptual clusters;  
+\- unresolved questions;  
+\- relationships between public goods, commons, bioregionalism, ReFi, governance, coordination, AI, and localism.
 
 It should not duplicate the Encyclopedia.
 
 Working distinction:
 
-> Encyclopedia explains concepts.    
-> Concept Ecology maps their movement, ancestry, tensions, metaphors, and relationships.
+\> Encyclopedia explains concepts.    
+\> Concept Ecology maps their movement, ancestry, tensions, metaphors, and relationships.
 
----
+\---
 
-### 11. Deployment & Structural Integrity review
+\#\#\# 11\. Deployment & Structural Integrity review
 
 Status: \*\*Needs operational hardening\*\*
 
 Deployment should include:
 
-- roles;  
-- authority;  
-- participation;  
-- consent;  
-- power visibility;  
-- control points;  
-- decision paths;  
-- information requirements;  
-- accountability;  
-- failure modes;  
-- review needs;  
-- validity conditions;  
-- fixed / configurable / experimental boundaries;  
-- CSIS-informed but not CSIS-conformant language.
+\- roles;  
+\- authority;  
+\- participation;  
+\- consent;  
+\- power visibility;  
+\- control points;  
+\- decision paths;  
+\- information requirements;  
+\- accountability;  
+\- failure modes;  
+\- review needs;  
+\- validity conditions;  
+\- fixed / configurable / experimental boundaries;  
+\- CSIS-informed but not CSIS-conformant language.
 
 Known operational questions to preserve:
 
-- How will deployments be procedurally or programmatically validated as valid/invalid?  
-- Who enforces deployment validity?  
-- What tooling supports validation?  
-- What are the acceptance criteria?  
-- How are incompatible option combinations prevented?  
-- How are tracks constrained so they cannot combine incompatible options?  
-- What templates or validation rules are required before a track is published or adopted?  
-- How does feedback from real-world implementation loop back into Encyclopedia, Ontology, Option Library, Deployment, and Tracks?  
-- How is evidence provenance preserved?
+\- How will deployments be procedurally or programmatically validated as valid/invalid?  
+\- Who enforces deployment validity?  
+\- What tooling supports validation?  
+\- What are the acceptance criteria?  
+\- How are incompatible option combinations prevented?  
+\- How are tracks constrained so they cannot combine incompatible options?  
+\- What templates or validation rules are required before a track is published or adopted?  
+\- How does feedback from real-world implementation loop back into Encyclopedia, Ontology, Option Library, Deployment, and Tracks?  
+\- How is evidence provenance preserved?
 
----
+\---
 
-## Core template candidates
+\#\# Core template candidates
 
 The following templates should be preserved as candidates for a future Template Library.
 
 They may eventually live in Appendices, Option Library, Deployment, Implementation Memory, or Infrastructure.
 
-### 1. Source System Card
+\#\#\# 1\. Source System Card
 
 Use for living knowledge environments.
 
-### 2. Claim-Evidence Record
+\#\#\# 2\. Claim-Evidence Record
 
 Use whenever a claim requires support, especially for ecological, funding, governance, community, AI, or impact claims.
 
@@ -19202,119 +19202,119 @@ Fields:
 | Public-use boundary | Can this be shared publicly? |  
 | Correction path | How can this be updated if wrong? |
 
-### 3. Deployment Context Card
+\#\#\# 3\. Deployment Context Card
 
 Use before an option or track becomes operational.
 
 Fields may include:
 
-- context;  
-- purpose;  
-- participants;  
-- affected parties;  
-- selected options;  
-- tools;  
-- roles;  
-- decision system;  
-- information requirements;  
-- power structure;  
-- accountability;  
-- failure detection;  
-- review needs;  
-- public-use boundary.
+\- context;  
+\- purpose;  
+\- participants;  
+\- affected parties;  
+\- selected options;  
+\- tools;  
+\- roles;  
+\- decision system;  
+\- information requirements;  
+\- power structure;  
+\- accountability;  
+\- failure detection;  
+\- review needs;  
+\- public-use boundary.
 
-### 4. Structural Exposure Card
+\#\#\# 4\. Structural Exposure Card
 
 Use for identifying hidden power, control, dependencies, and risk.
 
 Fields may include:
 
-- control points;  
-- admin access;  
-- treasury access;  
-- data access;  
-- infrastructure dependencies;  
-- external override risks;  
-- affected parties;  
-- contestability paths;  
-- failure signals.
+\- control points;  
+\- admin access;  
+\- treasury access;  
+\- data access;  
+\- infrastructure dependencies;  
+\- external override risks;  
+\- affected parties;  
+\- contestability paths;  
+\- failure signals.
 
-### 5. Review Trigger Matrix
+\#\#\# 5\. Review Trigger Matrix
 
 Use to decide what kind of review is needed.
 
 Possible review triggers:
 
-- ecological/MRV claim;  
-- funding recommendation;  
-- governance recommendation;  
-- public ranking/scoring;  
-- identity/reputation;  
-- local map;  
-- community representation;  
-- AI recommendation;  
-- legal/tax claim;  
-- token/incentive model;  
-- source-system reuse;  
-- unresolved conflict.
+\- ecological/MRV claim;  
+\- funding recommendation;  
+\- governance recommendation;  
+\- public ranking/scoring;  
+\- identity/reputation;  
+\- local map;  
+\- community representation;  
+\- AI recommendation;  
+\- legal/tax claim;  
+\- token/incentive model;  
+\- source-system reuse;  
+\- unresolved conflict.
 
-### 6. Response Log
+\#\#\# 6\. Response Log
 
 Use to record named responses to signals.
 
 Fields:
 
-- signal;  
-- response;  
-- reviewer/steward;  
-- decision;  
-- integration;  
-- status;  
-- memory note.
+\- signal;  
+\- response;  
+\- reviewer/steward;  
+\- decision;  
+\- integration;  
+\- status;  
+\- memory note.
 
-### 7. Consent / Visibility Note
+\#\#\# 7\. Consent / Visibility Note
 
 Use when people, places, communities, sensitive data, or local knowledge are represented.
 
 Fields:
 
-- who/what is represented;  
-- visibility level;  
-- consent status;  
-- sensitivity;  
-- affected parties;  
-- public-use boundary;  
-- reviewer;  
-- correction path.
+\- who/what is represented;  
+\- visibility level;  
+\- consent status;  
+\- sensitivity;  
+\- affected parties;  
+\- public-use boundary;  
+\- reviewer;  
+\- correction path.
 
-### 8. Deployment Readiness Note
+\#\#\# 8\. Deployment Readiness Note
 
 Use to prevent draft structures from being treated as ready.
 
 Fields:
 
-- readiness level;  
-- missing requirements;  
-- review needs;  
-- public-use boundary;  
-- pilot status;  
-- next step.
+\- readiness level;  
+\- missing requirements;  
+\- review needs;  
+\- public-use boundary;  
+\- pilot status;  
+\- next step.
 
-### 9. Implementation Retrospective
+\#\#\# 9\. Implementation Retrospective
 
 Use after a deployment, campaign, round, sprint, or local implementation.
 
-### 10. Signal Log
+\#\#\# 10\. Signal Log
 
 Use for observations that should enter the Evolution Layer.
 
-### 11. Update Proposal
+\#\#\# 11\. Update Proposal
 
 Use for ontology, architecture, section, track, deployment, option, or infrastructure changes.
 
----
+\---
 
-## Named Response Vocabulary
+\#\# Named Response Vocabulary
 
 The Toolkit should use a shared vocabulary for responding to signals, concerns, risks, and review findings.
 
@@ -19334,9 +19334,9 @@ The Toolkit should use a shared vocabulary for responding to signals, concerns, 
 
 This response vocabulary should be used in the Evolution Log, public-use review, deployment review, and backlog maintenance.
 
----
+\---
 
-## Deployment Readiness Levels
+\#\# Deployment Readiness Levels
 
 Use readiness levels to avoid treating draft structures as mature deployments.
 
@@ -19354,105 +19354,105 @@ These levels are not certification.
 
 They are orientation labels.
 
----
+\---
 
-## CSIS-informed design seeds
+\#\# CSIS-informed design seeds
 
 The Toolkit should remain CSIS-informed without claiming CSIS conformance.
 
 CSIS is most relevant to:
 
-- Deployment & Structural Integrity;  
-- Tracks & Composition;  
-- Option Library constraints;  
-- Implementation & Learning Memory;  
-- Evolution Layer;  
-- contributor care and adverse signal handling.
+\- Deployment & Structural Integrity;  
+\- Tracks & Composition;  
+\- Option Library constraints;  
+\- Implementation & Learning Memory;  
+\- Evolution Layer;  
+\- contributor care and adverse signal handling.
 
 Do not use language such as:
 
-- CSIS-certified;  
-- CSIS-compliant;  
-- fully CSIS-conformant;  
-- structurally validated.
+\- CSIS-certified;  
+\- CSIS-compliant;  
+\- fully CSIS-conformant;  
+\- structurally validated.
 
 Use language such as:
 
-- CSIS-informed;  
-- structurally aware;  
-- informed by structural integrity questions;  
-- compatible with future CSIS assessment;  
-- not yet assessed for CSIS conformance.
+\- CSIS-informed;  
+\- structurally aware;  
+\- informed by structural integrity questions;  
+\- compatible with future CSIS assessment;  
+\- not yet assessed for CSIS conformance.
 
-### 1. Precision vs over-specification
+\#\#\# 1\. Precision vs over-specification
 
 Add a precision check to major templates.
 
 Prompt:
 
-> Is this term, role, or process under-specified enough to hide violations, or over-specified enough to create compliance theater?
+\> Is this term, role, or process under-specified enough to hide violations, or over-specified enough to create compliance theater?
 
-### 2. Adverse signal handling
+\#\#\# 2\. Adverse signal handling
 
 Treat adverse signals as first-class Evolution objects.
 
 A concern, contradiction, failed assumption, or community objection should be captured, routed, and given a named response rather than reframed as noise.
 
-### 3. Information asymmetry classes
+\#\#\# 3\. Information asymmetry classes
 
 Add information asymmetry type to Deployment / Structural Exposure templates.
 
 Possible classes:
 
-- positional;  
-- temporal;  
-- interpretive;  
-- relational;  
-- omission;  
-- complexity;  
-- descriptive-capacity asymmetry.
+\- positional;  
+\- temporal;  
+\- interpretive;  
+\- relational;  
+\- omission;  
+\- complexity;  
+\- descriptive-capacity asymmetry.
 
 Prompt:
 
-> Who knows what, when, from what position, and through what interpretive frame?
+\> Who knows what, when, from what position, and through what interpretive frame?
 
-### 4. Contestability of structural power
+\#\#\# 4\. Contestability of structural power
 
 Add a contestability field to Deployment templates.
 
 Prompt:
 
-> Who has less power here, and how can they contest decisions, descriptions, claims, or infrastructure control?
+\> Who has less power here, and how can they contest decisions, descriptions, claims, or infrastructure control?
 
-### 5. External override risk
+\#\#\# 5\. External override risk
 
 Add external override risks to Deployment checks.
 
 Possible override classes:
 
-- financial;  
-- coercive;  
-- regulatory;  
-- platform;  
-- epistemic;  
-- normative;  
-- relational dependency.
+\- financial;  
+\- coercive;  
+\- regulatory;  
+\- platform;  
+\- epistemic;  
+\- normative;  
+\- relational dependency.
 
 This is especially useful for:
 
-- GitHub;  
-- Notion;  
-- Vercel;  
-- funders;  
-- platforms;  
-- fiscal hosts;  
-- token infrastructure;  
-- standards bodies;  
-- API dependencies;  
-- legal entities;  
-- treasury systems.
+\- GitHub;  
+\- Notion;  
+\- Vercel;  
+\- funders;  
+\- platforms;  
+\- fiscal hosts;  
+\- token infrastructure;  
+\- standards bodies;  
+\- API dependencies;  
+\- legal entities;  
+\- treasury systems.
 
-### 6. Regenerative obligation
+\#\#\# 6\. Regenerative obligation
 
 Strengthen regenerative obligation with three checks:
 
@@ -19464,26 +19464,26 @@ Strengthen regenerative obligation with three checks:
 
 Use this when the Toolkit draws from contributor labor, attention, knowledge, legitimacy, local context, ecological data, community trust, or source-system stewardship.
 
-### 7. Coordination scale thresholds
+\#\#\# 7\. Coordination scale thresholds
 
 Add a scale check.
 
 Prompt:
 
-> Is this deployment operating at roughly 5, 15, 50, 150, 500, or 1500 participants? What coordination structure becomes necessary at this scale?
+\> Is this deployment operating at roughly 5, 15, 50, 150, 500, or 1500 participants? What coordination structure becomes necessary at this scale?
 
 This should inform:
 
-- governance;  
-- documentation;  
-- role clarity;  
-- decision process;  
-- review capacity;  
-- conflict process;  
-- onboarding;  
-- information requirements.
+\- governance;  
+\- documentation;  
+\- role clarity;  
+\- decision process;  
+\- review capacity;  
+\- conflict process;  
+\- onboarding;  
+\- information requirements.
 
-### 8. Conflict transformation as coordination work
+\#\#\# 8\. Conflict transformation as coordination work
 
 Conflict work should be recognized as coordination labor.
 
@@ -19491,9 +19491,9 @@ It should not be invisible emotional labor.
 
 Prompt:
 
-> What structural issue is this conflict revealing, and how should it be routed?
+\> What structural issue is this conflict revealing, and how should it be routed?
 
-### 9. Capacity batteries
+\#\#\# 9\. Capacity batteries
 
 Add contributor capacity checks using four batteries:
 
@@ -19506,7 +19506,7 @@ Add contributor capacity checks using four batteries:
 
 Use this for contributor care, deployment readiness, local node health, knowledge commons maintenance, and hidden-labor detection.
 
-### 10. Partial adoption honesty
+\#\#\# 10\. Partial adoption honesty
 
 Partial adoption is legitimate.
 
@@ -19516,103 +19516,103 @@ If the Toolkit adopts only part of a framework, disclose that clearly.
 
 Example:
 
-> This deployment is CSIS-informed in its review questions, but it has not been formally assessed for CSIS conformance.
+\> This deployment is CSIS-informed in its review questions, but it has not been formally assessed for CSIS conformance.
 
----
+\---
 
-## Regenerative design seeds
+\#\# Regenerative design seeds
 
 These are high-potential ideas that should be preserved but not over-integrated yet.
 
-### 1. Living regenerative knowledge cycle
+\#\#\# 1\. Living regenerative knowledge cycle
 
 The Toolkit can be understood as a living cycle:
 
-> Gather → Root → Name → Compare → Prepare → Act → Sense → Learn → Return → Compost → Evolve
+\> Gather → Root → Name → Compare → Prepare → Act → Sense → Learn → Return → Compost → Evolve
 
 This complements the existing movement:
 
-> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
+\> Discover → Understand → Connect → Compose → Specify → Implement → Learn → Evolve
 
 Potential reframing:
 
-> The Toolkit is not just a map of regenerative knowledge.    
-> It is a living protocol for how regenerative knowledge becomes responsible action.
+\> The Toolkit is not just a map of regenerative knowledge.    
+\> It is a living protocol for how regenerative knowledge becomes responsible action.
 
-### 2. Living System Health
+\#\#\# 2\. Living System Health
 
 Track health of the commons, not only content quality.
 
 Possible dimensions:
 
-- energy;  
-- relationship;  
-- memory;  
-- reciprocity;  
-- adaptation;  
-- coherence;  
-- fertility;  
-- trust;  
-- contribution flow;  
-- review capacity;  
-- maintenance capacity;  
-- compost.
+\- energy;  
+\- relationship;  
+\- memory;  
+\- reciprocity;  
+\- adaptation;  
+\- coherence;  
+\- fertility;  
+\- trust;  
+\- contribution flow;  
+\- review capacity;  
+\- maintenance capacity;  
+\- compost.
 
-### 3. Compost Layer
+\#\#\# 3\. Compost Layer
 
 Treat outdated, failed, or deprecated material as soil for future learning.
 
 Prompt:
 
-> What does this dead thing feed?
+\> What does this dead thing feed?
 
 Use for:
 
-- old drafts;  
-- failed deployments;  
-- deprecated options;  
-- outdated source systems;  
-- old claims;  
-- broken assumptions;  
-- abandoned tools.
+\- old drafts;  
+\- failed deployments;  
+\- deprecated options;  
+\- outdated source systems;  
+\- old claims;  
+\- broken assumptions;  
+\- abandoned tools.
 
-### 4. Care Pathways
+\#\#\# 4\. Care Pathways
 
 Reframe review as care.
 
 Care types:
 
-- source care;  
-- community care;  
-- ecological care;  
-- contributor care;  
-- language care;  
-- evidence care;  
-- maintenance care;  
-- conflict care;  
-- infrastructure care.
+\- source care;  
+\- community care;  
+\- ecological care;  
+\- contributor care;  
+\- language care;  
+\- evidence care;  
+\- maintenance care;  
+\- conflict care;  
+\- infrastructure care.
 
-### 5. Contribution Quests
+\#\#\# 5\. Contribution Quests
 
 Make contribution magnetic and bounded.
 
 Possible quests:
 
-- Find a seed;  
-- Trace a root;  
-- Name a pattern;  
-- Compost a failure;  
-- Tend a claim;  
-- Protect a place;  
-- Weave a bridge;  
-- Add a source system;  
-- Review an AI-assisted draft;  
-- Restore a broken link;  
-- Create an implementation stub.
+\- Find a seed;  
+\- Trace a root;  
+\- Name a pattern;  
+\- Compost a failure;  
+\- Tend a claim;  
+\- Protect a place;  
+\- Weave a bridge;  
+\- Add a source system;  
+\- Review an AI-assisted draft;  
+\- Restore a broken link;  
+\- Create an implementation stub.
 
 Use carefully to avoid incentive distortion.
 
-### 6. Aliveness Thresholds
+\#\#\# 6\. Aliveness Thresholds
 
 Define when objects become “alive.”
 
@@ -19629,23 +19629,23 @@ Examples:
 | Implementation | It records what happened, what changed, and what signals emerged. |  
 | Signal | It is captured, routed, and assigned a response/status. |
 
-### 7. Mycelial Knowledge
+\#\#\# 7\. Mycelial Knowledge
 
 Some knowledge is tacit, relational, local, or place-bound.
 
 Use labels such as:
 
-- requires relationship;  
-- not safe to generalize;  
-- ask a steward;  
-- local context required;  
-- community review needed;  
-- place-sensitive;  
-- not for public extraction.
+\- requires relationship;  
+\- not safe to generalize;  
+\- ask a steward;  
+\- local context required;  
+\- community review needed;  
+\- place-sensitive;  
+\- not for public extraction.
 
 This is especially important for local, Indigenous, ecological, community, and field knowledge.
 
-### 8. Regenerative Clarity
+\#\#\# 8\. Regenerative Clarity
 
 Distinguish extractive clarity from regenerative clarity.
 
@@ -19653,15 +19653,15 @@ Extractive clarity simplifies by removing context.
 
 Regenerative clarity makes things understandable while preserving:
 
-- source lineage;  
-- uncertainty;  
-- obligations;  
-- affected parties;  
-- context;  
-- relationship;  
-- limits of generalization.
+\- source lineage;  
+\- uncertainty;  
+\- obligations;  
+\- affected parties;  
+\- context;  
+\- relationship;  
+\- limits of generalization.
 
-### 9. Return Flow Dashboard
+\#\#\# 9\. Return Flow Dashboard
 
 Future seed.
 
@@ -19669,67 +19669,67 @@ Track what the Toolkit gives back to source systems, contributors, communities, 
 
 Possible return types:
 
-- credit;  
-- links;  
-- corrections;  
-- upstream contributions;  
-- collaboration;  
-- funding;  
-- review invitations;  
-- visibility;  
-- documentation support;  
-- translation;  
-- tool improvements;  
-- relationship maintenance.
+\- credit;  
+\- links;  
+\- corrections;  
+\- upstream contributions;  
+\- collaboration;  
+\- funding;  
+\- review invitations;  
+\- visibility;  
+\- documentation support;  
+\- translation;  
+\- tool improvements;  
+\- relationship maintenance.
 
 Do not build this yet unless real cases exist.
 
-### 10. Capacity Budget
+\#\#\# 10\. Capacity Budget
 
 Every meaningful deployment should eventually name:
 
-- maintenance load;  
-- hidden labor risk;  
-- required skills;  
-- review capacity;  
-- contributor energy required;  
-- what happens if maintainers disappear;  
-- pause conditions;  
-- sunset conditions.
+\- maintenance load;  
+\- hidden labor risk;  
+\- required skills;  
+\- review capacity;  
+\- contributor energy required;  
+\- what happens if maintainers disappear;  
+\- pause conditions;  
+\- sunset conditions.
 
 This should apply especially to:
 
-- local nodes;  
-- public resource graphs;  
-- source-system registries;  
-- funding rounds;  
-- AI workflows;  
-- ecological reporting;  
-- knowledge commons infrastructure.
+\- local nodes;  
+\- public resource graphs;  
+\- source-system registries;  
+\- funding rounds;  
+\- AI workflows;  
+\- ecological reporting;  
+\- knowledge commons infrastructure.
 
-### 11. Seasonality and rituals
+\#\#\# 11\. Seasonality and rituals
 
 The Toolkit may benefit from seasonal rhythms.
 
 Possible rituals:
 
-- weekly gardening;  
-- seasonal compost sessions;  
-- source gratitude rounds;  
-- pattern harvests;  
-- track refresh cycles;  
-- public-use review cycles;  
-- implementation harvests;  
-- ontology review seasons;  
-- contributor onboarding seasons.
+\- weekly gardening;  
+\- seasonal compost sessions;  
+\- source gratitude rounds;  
+\- pattern harvests;  
+\- track refresh cycles;  
+\- public-use review cycles;  
+\- implementation harvests;  
+\- ontology review seasons;  
+\- contributor onboarding seasons.
 
 North star:
 
-> A small, used, cared-for commons is better than a complete but dead architecture.
+\> A small, used, cared-for commons is better than a complete but dead architecture.
 
----
+\---
 
-## 8 Forms of Capital lens
+\#\# 8 Forms of Capital lens
 
 The 8 Forms of Capital should be made explicit as a cross-cutting regenerative design lens.
 
@@ -19763,9 +19763,9 @@ Some should be described.
 Some should be protected.    
 Some should remain relational, contextual, or sacred.
 
----
+\---
 
-## Frame Language Audit
+\#\# Frame Language Audit
 
 Status: \*\*Important / should be integrated into Concept Ecology and public review\*\*
 
@@ -19773,53 +19773,53 @@ Important terms should periodically be audited for hidden assumptions.
 
 Ask:
 
-- What structure does this term secretly import?  
-- What possibilities does it make visible?  
-- What possibilities does it remove?  
-- Is this bridge language for accessibility or structural language for design?  
-- Where should the more precise term be used?
+\- What structure does this term secretly import?  
+\- What possibilities does it make visible?  
+\- What possibilities does it remove?  
+\- Is this bridge language for accessibility or structural language for design?  
+\- Where should the more precise term be used?
 
 Priority terms:
 
-- governance;  
-- accountability;  
-- public goods;  
-- community;  
-- ecosystem;  
-- impact;  
-- stakeholder;  
-- contributor;  
-- steward;  
-- local node;  
-- regenerative;  
-- evidence;  
-- claim;  
-- implementation;  
-- resource;  
-- commons;  
-- participation;  
-- coordination;  
-- legitimacy;  
-- decentralization;  
-- federation;  
-- source system;  
-- AI-assisted;  
-- reviewed;  
-- deployment;  
-- pattern.
+\- governance;  
+\- accountability;  
+\- public goods;  
+\- community;  
+\- ecosystem;  
+\- impact;  
+\- stakeholder;  
+\- contributor;  
+\- steward;  
+\- local node;  
+\- regenerative;  
+\- evidence;  
+\- claim;  
+\- implementation;  
+\- resource;  
+\- commons;  
+\- participation;  
+\- coordination;  
+\- legitimacy;  
+\- decentralization;  
+\- federation;  
+\- source system;  
+\- AI-assisted;  
+\- reviewed;  
+\- deployment;  
+\- pattern.
 
 This can support:
 
-- Concept Ecology;  
-- public-use review;  
-- grant writing;  
-- implementation reports;  
-- AI-assisted synthesis review;  
-- community representation review.
+\- Concept Ecology;  
+\- public-use review;  
+\- grant writing;  
+\- implementation reports;  
+\- AI-assisted synthesis review;  
+\- community representation review.
 
----
+\---
 
-## Decision Rules v0.1
+\#\# Decision Rules v0.1
 
 Use these compact routing rules during stabilization.
 
@@ -19834,113 +19834,113 @@ Use these compact routing rules during stabilization.
 | A claim becomes high-risk when it involves ecological, financial, governance, identity, community representation, AI recommendation, legal/tax, or public impact claims. | High-risk claims need stronger review. |  
 | AI-assisted material becomes public guidance only after source review and appropriate human review. | AI can assist, not certify. |
 
----
+\---
 
-## Research backlog
+\#\# Research backlog
 
-### Knowledge commons and ontology
+\#\#\# Knowledge commons and ontology
 
-- What is the minimum viable ontology for v0.1?  
-- How should Octo / BKC alignment be tested?  
-- Which relationships are essential?  
-- How can the Toolkit avoid ontology sprawl?  
-- How should local language map to shared semantic structures?  
-- Who owns ontology changes?  
-- What decision rights govern types, relationships, and classifications?
+\- What is the minimum viable ontology for v0.1?  
+\- How should Octo / BKC alignment be tested?  
+\- Which relationships are essential?  
+\- How can the Toolkit avoid ontology sprawl?  
+\- How should local language map to shared semantic structures?  
+\- Who owns ontology changes?  
+\- What decision rights govern types, relationships, and classifications?
 
-### Source systems
+\#\#\# Source systems
 
-- Which source systems should receive priority cards?  
-- What makes a source system active, dormant, stale, or high-priority?  
-- What return paths are practical?  
-- How should attribution work across source systems?  
-- What reuse conditions need review?
+\- Which source systems should receive priority cards?  
+\- What makes a source system active, dormant, stale, or high-priority?  
+\- What return paths are practical?  
+\- How should attribution work across source systems?  
+\- What reuse conditions need review?
 
-### Deployment
+\#\#\# Deployment
 
-- What deployment templates should be tested first?  
-- What minimum structural checks prevent the most common failures?  
-- How can CSIS-informed review stay lightweight?  
-- Which deployment types need the strongest review?  
-- How can deployment validity be procedurally or programmatically checked?  
-- What are examples of valid vs invalid deployments?
+\- What deployment templates should be tested first?  
+\- What minimum structural checks prevent the most common failures?  
+\- How can CSIS-informed review stay lightweight?  
+\- Which deployment types need the strongest review?  
+\- How can deployment validity be procedurally or programmatically checked?  
+\- What are examples of valid vs invalid deployments?
 
-### Tracks
+\#\#\# Tracks
 
-- How should tracks be curated and constrained?  
-- How can tracks avoid combining incompatible options?  
-- What validation rules are needed before a track is published?  
-- What minimum knowledge is needed for each track’s audience?  
-- How do the five site learning paths map to the new track architecture?
+\- How should tracks be curated and constrained?  
+\- How can tracks avoid combining incompatible options?  
+\- What validation rules are needed before a track is published?  
+\- What minimum knowledge is needed for each track’s audience?  
+\- How do the five site learning paths map to the new track architecture?
 
-### Implementation learning
+\#\#\# Implementation learning
 
-- What starter implementation records best test the system?  
-- What signals already exist from GreenPill Brasil, Regen Rio, Gitcoin Grants Garden, Cookie Jar, GreenGoods, and Toolkit stabilization?  
-- How should failure cases be documented safely?  
-- When does a case become a pattern candidate?  
-- How does implementation feedback update Encyclopedia, Ontology, Option Library, Deployment, and Tracks?
+\- What starter implementation records best test the system?  
+\- What signals already exist from GreenPill Brasil, Regen Rio, Gitcoin Grants Garden, Cookie Jar, GreenGoods, and Toolkit stabilization?  
+\- How should failure cases be documented safely?  
+\- When does a case become a pattern candidate?  
+\- How does implementation feedback update Encyclopedia, Ontology, Option Library, Deployment, and Tracks?
 
-### AI workflows
+\#\#\# AI workflows
 
-- What AI tasks are safe for raw routing?  
-- What AI tasks require review?  
-- How can source lineage be preserved in AI synthesis?  
-- How can AI detect but not validate relationships?  
-- What metadata improves retrieval without overburdening contributors?  
-- How is responsibility for AI-assisted content errors tracked?
+\- What AI tasks are safe for raw routing?  
+\- What AI tasks require review?  
+\- How can source lineage be preserved in AI synthesis?  
+\- How can AI detect but not validate relationships?  
+\- What metadata improves retrieval without overburdening contributors?  
+\- How is responsibility for AI-assisted content errors tracked?
 
-### Public-use and review
+\#\#\# Public-use and review
 
-- What claims need strongest review?  
-- What public-use labels are enough for v0.1?  
-- What requires community consent?  
-- How should ecological claims be reviewed?  
-- How should funding impact claims be bounded?  
-- How should local maps and community profiles be protected?
+\- What claims need strongest review?  
+\- What public-use labels are enough for v0.1?  
+\- What requires community consent?  
+\- How should ecological claims be reviewed?  
+\- How should funding impact claims be bounded?  
+\- How should local maps and community profiles be protected?
 
-### Resource and site inventory
+\#\#\# Resource and site inventory
 
-- Which links from the previous Resource Graph are still missing from the structured table?  
-- Which site pages map to which Toolkit layers?  
-- Which tags are domains, functions, audiences, maturity states, tracks, or object types?  
-- Which public pages should be marked AI-assisted draft?  
-- Which articles require human review before being treated as authoritative?
+\- Which links from the previous Resource Graph are still missing from the structured table?  
+\- Which site pages map to which Toolkit layers?  
+\- Which tags are domains, functions, audiences, maturity states, tracks, or object types?  
+\- Which public pages should be marked AI-assisted draft?  
+\- Which articles require human review before being treated as authoritative?
 
----
+\---
 
-## Appendices to preserve
+\#\# Appendices to preserve
 
 Appendices should support the main architecture without interrupting readability.
 
 Possible appendices:
 
-- full raw Resource Graph inventory;  
-- Source System Registry table;  
-- Source System Cards;  
-- Option Library index;  
-- deployment templates;  
-- Claim-Evidence Record template;  
-- public-use boundary table;  
-- article inventory;  
-- site implementation map;  
-- implementation case stubs;  
-- failure case library;  
-- ontology mapping tables;  
-- schema sketches;  
-- infrastructure comparison table;  
-- AI workflow notes;  
-- historical handoff notes;  
-- previous iteration excerpts;  
-- review backlog.
+\- full raw Resource Graph inventory;  
+\- Source System Registry table;  
+\- Source System Cards;  
+\- Option Library index;  
+\- deployment templates;  
+\- Claim-Evidence Record template;  
+\- public-use boundary table;  
+\- article inventory;  
+\- site implementation map;  
+\- implementation case stubs;  
+\- failure case library;  
+\- ontology mapping tables;  
+\- schema sketches;  
+\- infrastructure comparison table;  
+\- AI workflow notes;  
+\- historical handoff notes;  
+\- previous iteration excerpts;  
+\- review backlog.
 
 Appendix material can be dense.
 
 The main body should stay navigable.
 
----
+\---
 
-## Backlog routing table
+\#\# Backlog routing table
 
 Use this table to decide what should happen to backlog items.
 
@@ -19964,120 +19964,120 @@ Use this table to decide what should happen to backlog items.
 | Interesting but not actionable | Future Design Seeds |  
 | Clearly duplicate or irrelevant | Remove candidate |
 
----
+\---
 
-## Backlog maintenance process
+\#\# Backlog maintenance process
 
 The Backlog should not grow forever without care.
 
 Suggested process:
 
-1. Add raw note or future seed.  
-2. Label status.  
-3. Add suggested route if known.  
-4. Review periodically.  
-5. Move high-priority items into active work.  
-6. Archive or compost old items.  
-7. Remove only when clearly irrelevant, duplicate, harmful, or intentionally rejected.
+1\. Add raw note or future seed.  
+2\. Label status.  
+3\. Add suggested route if known.  
+4\. Review periodically.  
+5\. Move high-priority items into active work.  
+6\. Archive or compost old items.  
+7\. Remove only when clearly irrelevant, duplicate, harmful, or intentionally rejected.
 
 Possible review rhythm:
 
-- quick monthly triage;  
-- deeper quarterly review;  
-- review after major implementation cycles;  
-- review before public site releases;  
-- review before AI-assisted synthesis rewrites raw material.
+\- quick monthly triage;  
+\- deeper quarterly review;  
+\- review after major implementation cycles;  
+\- review before public site releases;  
+\- review before AI-assisted synthesis rewrites raw material.
 
----
+\---
 
-## What to avoid in the next pass
+\#\# What to avoid in the next pass
 
 Avoid:
 
-- starting over;  
-- turning the doc into a public pitch;  
-- deleting useful raw material too aggressively;  
-- over-polishing uncertain material;  
-- treating the resource registry as endorsed;  
-- treating site articles as canonical without review;  
-- collapsing tracks into deployments;  
-- collapsing implementation cases into patterns;  
-- treating AI synthesis as reviewed;  
-- turning Octo / BKC into a final ontology decision;  
-- claiming CSIS conformance;  
-- choosing infrastructure before workflows are clear;  
-- flattening source systems into link lists;  
-- removing uncertainty just to make the document cleaner;  
-- compressing raw resource inventories before extracting links;  
-- making the Toolkit sound more complete than it is.
+\- starting over;  
+\- turning the doc into a public pitch;  
+\- deleting useful raw material too aggressively;  
+\- over-polishing uncertain material;  
+\- treating the resource registry as endorsed;  
+\- treating site articles as canonical without review;  
+\- collapsing tracks into deployments;  
+\- collapsing implementation cases into patterns;  
+\- treating AI synthesis as reviewed;  
+\- turning Octo / BKC into a final ontology decision;  
+\- claiming CSIS conformance;  
+\- choosing infrastructure before workflows are clear;  
+\- flattening source systems into link lists;  
+\- removing uncertainty just to make the document cleaner;  
+\- compressing raw resource inventories before extracting links;  
+\- making the Toolkit sound more complete than it is.
 
----
+\---
 
-## Recommended next stabilization pass
+\#\# Recommended next stabilization pass
 
 Use this sequence:
 
-1. Preserve the previous Resource Graph raw inventory as appendix.  
-2. Extract Resource Graph links and named references into a table.  
-3. Clean section numbering and heading hierarchy.  
-4. Clarify Ontology vs Encyclopedia boundaries where still duplicated.  
-5. Keep the article/site inventory raw but visible.  
-6. Create 5–10 actual Source System Cards.  
-7. Create 10 actual Option Library entries.  
-8. Create 5–8 Implementation Case Stubs.  
-9. Add an Evolution Log.  
-10. Add Public-Use Boundary labels.  
-11. Add Deployment Readiness Levels to deployment templates.  
-12. Add CSIS-informed checks where useful, without claiming conformance.  
-13. Move unresolved material into Backlog / Future Design Seeds rather than deleting it.  
-14. Add routing notes instead of deleting unclear material.  
-15. Test the system through real entries before adding more conceptual architecture.
+1\. Preserve the previous Resource Graph raw inventory as appendix.  
+2\. Extract Resource Graph links and named references into a table.  
+3\. Clean section numbering and heading hierarchy.  
+4\. Clarify Ontology vs Encyclopedia boundaries where still duplicated.  
+5\. Keep the article/site inventory raw but visible.  
+6\. Create 5–10 actual Source System Cards.  
+7\. Create 10 actual Option Library entries.  
+8\. Create 5–8 Implementation Case Stubs.  
+9\. Add an Evolution Log.  
+10\. Add Public-Use Boundary labels.  
+11\. Add Deployment Readiness Levels to deployment templates.  
+12\. Add CSIS-informed checks where useful, without claiming conformance.  
+13\. Move unresolved material into Backlog / Future Design Seeds rather than deleting it.  
+14\. Add routing notes instead of deleting unclear material.  
+15\. Test the system through real entries before adding more conceptual architecture.
 
----
+\---
 
-## Suggested AI instruction
+\#\# Suggested AI instruction
 
 If an AI assistant is asked to work on this document, it should follow these rules:
 
-1. Use the latest master doc as the backbone.  
-2. Do not start from scratch.  
-3. Preserve useful content from previous iterations.  
-4. Do not separate old and new content unless asked.  
-5. Re-home material into the correct layer.  
-6. Maintain distinctions between Resource, Concept, Option, Track, Deployment, Implementation, Signal, and Pattern.  
-7. Mark uncertainty and maturity state.  
-8. Preserve source lineage and attribution.  
-9. Flag high-risk public-use material.  
-10. Treat Octo / BKC as an ontology alignment candidate, not a final decision.  
-11. Treat CSIS as an informing framework, not a conformance claim.  
-12. Prefer stabilization, routing, and implementation scaffolding over conceptual expansion.  
-13. Move messy unresolved material to Backlog / Next Sprint rather than deleting it.  
-14. Keep the document dense, practical, source-aware, and implementation-oriented.  
-15. Preserve raw resource inventories before summarizing.  
-16. Do not treat AI-assisted synthesis as reviewed knowledge.  
-17. If cleanup drops concrete links, restore the raw source and extract before rewriting.
+1\. Use the latest master doc as the backbone.  
+2\. Do not start from scratch.  
+3\. Preserve useful content from previous iterations.  
+4\. Do not separate old and new content unless asked.  
+5\. Re-home material into the correct layer.  
+6\. Maintain distinctions between Resource, Concept, Option, Track, Deployment, Implementation, Signal, and Pattern.  
+7\. Mark uncertainty and maturity state.  
+8\. Preserve source lineage and attribution.  
+9\. Flag high-risk public-use material.  
+10\. Treat Octo / BKC as an ontology alignment candidate, not a final decision.  
+11\. Treat CSIS as an informing framework, not a conformance claim.  
+12\. Prefer stabilization, routing, and implementation scaffolding over conceptual expansion.  
+13\. Move messy unresolved material to Backlog / Next Sprint rather than deleting it.  
+14\. Keep the document dense, practical, source-aware, and implementation-oriented.  
+15\. Preserve raw resource inventories before summarizing.  
+16\. Do not treat AI-assisted synthesis as reviewed knowledge.  
+17\. If cleanup drops concrete links, restore the raw source and extract before rewriting.
 
----
+\---
 
-### Working summary
+\#\#\# Working summary
 
 The Backlog, Notes, Appendices & Future Design Seeds section exists to preserve unfinished intelligence without destabilizing the main architecture.
 
 It should hold:
 
-- raw notes;  
-- useful handoff material;  
-- future design ideas;  
-- CSIS-informed seeds;  
-- regenerative design seeds;  
-- source-system leads;  
-- implementation stubs;  
-- template candidates;  
-- article/site inventory notes;  
-- public-use warnings;  
-- research questions;  
-- technical possibilities;  
-- previous-iteration memory.
+\- raw notes;  
+\- useful handoff material;  
+\- future design ideas;  
+\- CSIS-informed seeds;  
+\- regenerative design seeds;  
+\- source-system leads;  
+\- implementation stubs;  
+\- template candidates;  
+\- article/site inventory notes;  
+\- public-use warnings;  
+\- research questions;  
+\- technical possibilities;  
+\- previous-iteration memory.
 
 The Backlog should be maintained, not ignored.
 
@@ -20085,11 +20085,11 @@ A healthy backlog lets the Toolkit remain open to future intelligence without ma
 
 The rule is:
 
-> Preserve useful material.    
-> Label its status.    
-> Route it when ready.    
-> Compost it when old.    
-> Do not let it silently become guidance.
+\> Preserve useful material.    
+\> Label its status.    
+\> Route it when ready.    
+\> Compost it when old.    
+\> Do not let it silently become guidance.
 
 # ✴️ Problems, Theory of Change, Outputs, and Outcomes
 
@@ -20123,7 +20123,7 @@ The Toolkit is rooted in regenerative coordination. Ethereum and related web3 in
 
 ## **Problems We Are Trying to Solve**
 
-### **1. Shared knowledge is difficult to find, understand, and use**
+### **1\. Shared knowledge is difficult to find, understand, and use**
 
 People inside and around regenerative coordination often ask similar questions:
 
@@ -20147,7 +20147,7 @@ Move from scattered knowledge and informal discovery to a clearer commons where 
 
 ---
 
-### **2. Coordination capacity is unevenly distributed**
+### **2\. Coordination capacity is unevenly distributed**
 
 Much of the ecosystem’s knowledge is held by people who are already doing a lot of work: organizing chapters, supporting local nodes, stewarding communities, building tools, running events, managing grants, maintaining partnerships, creating media, and holding relational context across networks.
 
@@ -20164,7 +20164,7 @@ Move from coordination capacity concentrated in a few high-context people to a h
 
 ---
 
-### **3. The field is too complex for any one person or organization to hold alone**
+### **3\. The field is too complex for any one person or organization to hold alone**
 
 Regenerative coordination touches many domains at once: public goods, ReFi, localism, ecology, governance, funding, Ethereum infrastructure, civic systems, AI, culture, media, community organizing, bioregionalism, and place-based practice.
 
@@ -20179,7 +20179,7 @@ Move from isolated understanding and fragmented local knowledge to a more connec
 
 ---
 
-### **4. Aligned people, projects, and organizations are not discoverable enough to one another**
+### **4\. Aligned people, projects, and organizations are not discoverable enough to one another**
 
 Many people and groups are working on related problems without knowing who else shares their interests, skills, or local context. Someone may be focused on agroforestry, local currencies, mutual aid, public goods funding, civic tech, community media, regenerative education, governance, ecological monitoring, AI-assisted coordination, or knowledge commons, but not know where similar work is happening.
 
@@ -20192,7 +20192,7 @@ Move from parallel efforts that remain hard to see to a more discoverable ecosys
 
 ---
 
-### **5. Organizations and initiatives need clearer documentation, theory of change, and memory**
+### **5\. Organizations and initiatives need clearer documentation, theory of change, and memory**
 
 Chapters, local nodes, working groups, projects, and initiatives often need clearer documentation of what they are doing, why it matters, who is involved, which tools and workflows they use, what has been tried, what has been learned, and what support is needed next.
 
@@ -20205,7 +20205,7 @@ Move from organizational knowledge living in scattered documents and individual 
 
 ---
 
-### **6. Knowledge is not consistently connected to action**
+### **6\. Knowledge is not consistently connected to action**
 
 Many resources explain concepts or list tools, but they do not help people decide what to do next.
 
@@ -20218,7 +20218,7 @@ Move from static resources and general explanations to contextual pathways that 
 
 ---
 
-### **7. Complex systems thinking needs to become more accessible**
+### **7\. Complex systems thinking needs to become more accessible**
 
 Regenerative coordination is complex. It involves living systems, local context, trust, incentives, governance, power, culture, ecology, funding, technology, and uncertainty.
 
@@ -20233,7 +20233,7 @@ Move from simplified explanations that hide complexity to accessible systems thi
 
 ---
 
-### **8. Trust, review, and maturity are unclear**
+### **8\. Trust, review, and maturity are unclear**
 
 Not all knowledge in the ecosystem has the same status.
 
@@ -20252,7 +20252,7 @@ Move from everything appearing equally authoritative to a clearer knowledge comm
 
 ---
 
-### **9. Implementation learning is being lost**
+### **9\. Implementation learning is being lost**
 
 Communities are constantly experimenting: running funding rounds, launching local nodes, hosting workshops, testing governance processes, producing media, building tools, documenting impact, forming partnerships, and adapting to local conditions.
 
@@ -20265,7 +20265,7 @@ Move from isolated experiments and lost learning to shared memory where lessons,
 
 ---
 
-### **10. Structural integrity is named more easily than it is practiced**
+### **10\. Structural integrity is named more easily than it is practiced**
 
 Many coordination systems can describe their values, roles, processes, and intentions. Fewer can show whether those structures are precise enough to be reviewed, challenged, corrected, or improved.
 
@@ -20595,7 +20595,7 @@ It does not guarantee regenerative outcomes.
 
 ## **Problems We Are Trying to Solve**
 
-### **1. Shared knowledge is difficult to find, understand, and use**
+### **1\. Shared knowledge is difficult to find, understand, and use**
 
 People inside and around regenerative coordination often ask similar questions:
 
@@ -20637,7 +20637,7 @@ Move from scattered knowledge and informal discovery to a clearer commons where 
 
 ---
 
-### **2. Coordination capacity is unevenly distributed**
+### **2\. Coordination capacity is unevenly distributed**
 
 Much of the ecosystem’s knowledge is held by people who are already doing a lot of work: organizing chapters, supporting local nodes, stewarding communities, building tools, running events, managing grants, maintaining partnerships, creating media, reviewing proposals, hosting podcasts, and holding relational context across networks.
 
@@ -20657,7 +20657,7 @@ Move from coordination capacity concentrated in a few high-context people to a h
 
 ---
 
-### **3. The field is too complex for any one person or organization to hold alone**
+### **3\. The field is too complex for any one person or organization to hold alone**
 
 Regenerative coordination touches many domains at once: public goods, ReFi, localism, ecology, governance, funding, Ethereum infrastructure, civic systems, AI, culture, media, community organizing, bioregionalism, privacy, open-source tooling, knowledge commons, and place-based practice.
 
@@ -20681,7 +20681,7 @@ Move from isolated understanding and fragmented local knowledge to a more connec
 
 ---
 
-### **4. Aligned people, projects, and organizations are not discoverable enough to one another**
+### **4\. Aligned people, projects, and organizations are not discoverable enough to one another**
 
 Many people and groups are working on related problems without knowing who else shares their interests, skills, local context, or design questions.
 
@@ -20703,7 +20703,7 @@ Move from parallel efforts that remain hard to see to a more discoverable ecosys
 
 ---
 
-### **5. Organizations and initiatives need clearer documentation, theory of change, and memory**
+### **5\. Organizations and initiatives need clearer documentation, theory of change, and memory**
 
 Chapters, local nodes, working groups, projects, and initiatives often need clearer documentation of what they are doing, why it matters, who is involved, which tools and workflows they use, what has been tried, what has been learned, what remains uncertain, and what support is needed next.
 
@@ -20721,7 +20721,7 @@ Move from organizational knowledge living in scattered documents, media, calls, 
 
 ---
 
-### **6. Knowledge is not consistently connected to action**
+### **6\. Knowledge is not consistently connected to action**
 
 Many resources explain concepts or list tools, but they do not help people decide what to do next.
 
@@ -20739,7 +20739,7 @@ Move from static resources, chronological media feeds, and general explanations 
 
 ---
 
-### **7. Complex systems thinking needs to become more accessible**
+### **7\. Complex systems thinking needs to become more accessible**
 
 Regenerative coordination is complex. It involves living systems, local context, trust, incentives, governance, power, culture, ecology, funding, technology, narrative, identity, media, and uncertainty.
 
@@ -20759,7 +20759,7 @@ Move from simplified explanations that hide complexity to accessible systems thi
 
 ---
 
-### **8. Trust, review, and maturity are unclear**
+### **8\. Trust, review, and maturity are unclear**
 
 Not all knowledge in the ecosystem has the same status.
 
@@ -20793,7 +20793,7 @@ Move from everything appearing equally authoritative to a clearer knowledge comm
 
 ---
 
-### **9. Implementation learning is being lost**
+### **9\. Implementation learning is being lost**
 
 Communities are constantly experimenting: running funding rounds, launching local nodes, hosting workshops, testing governance processes, producing media, building tools, documenting impact, forming partnerships, using attestations, running public goods campaigns, and adapting to local conditions.
 
@@ -20813,7 +20813,7 @@ Move from isolated experiments and lost learning to shared memory where lessons,
 
 ---
 
-### **10. Public goods builders often rebuild without enough shared context**
+### **10\. Public goods builders often rebuild without enough shared context**
 
 Public goods builders, developers, grant recipients, and tooling teams often work under conditions of limited funding, short timelines, fragmented documentation, and unclear ecosystem visibility.
 
@@ -20853,7 +20853,7 @@ Move from isolated public goods development and repeated reinvention toward a mo
 
 ---
 
-### **11. High-signal conversations and media archives are not becoming shared memory**
+### **11\. High-signal conversations and media archives are not becoming shared memory**
 
 A large amount of regenerative coordination knowledge does not live in formal papers, polished documentation, or canonical guides.
 
@@ -20905,7 +20905,7 @@ Move from podcasts, calls, and social feeds as scattered media streams toward li
 
 ---
 
-### **12. Regenerative media ecosystems are under-connected to each other**
+### **12\. Regenerative media ecosystems are under-connected to each other**
 
 The podcast synthesis shows that Greenpill, Ma Earth, Crypto Altruists, ReFi DAO media, and adjacent shows are not redundant. They are complementary source systems.
 
@@ -20925,7 +20925,7 @@ Move from separate media feeds with implicit overlap toward an explicit media co
 
 ---
 
-### **13. Automated curation and amplification are still too manual, biased, and incomplete**
+### **13\. Automated curation and amplification are still too manual, biased, and incomplete**
 
 Much of the ecosystem’s knowledge discovery currently depends on who is in the right Telegram group, who follows the right people, who attends the right calls, who already knows which forum to search, who listens to the right podcasts, or who has enough time to manually track scattered updates.
 
@@ -20949,7 +20949,7 @@ Move from fragile manual discovery and informal amplification toward more transp
 
 ---
 
-### **14. Structural integrity is named more easily than it is practiced**
+### **14\. Structural integrity is named more easily than it is practiced**
 
 Many coordination systems can describe their values, roles, processes, and intentions. Fewer can show whether those structures are precise enough to be reviewed, challenged, corrected, or improved.
 
@@ -22119,7 +22119,7 @@ The Toolkit should move toward structural integrity through iteration, testing, 
 
 ---
 
-# **1. Current posture**
+# **1\. Current posture**
 
 The Regen Knowledge Commons Toolkit is currently in a **pre-compliance architecture phase**.
 
@@ -22142,7 +22142,7 @@ The Toolkit is structurally integrity-oriented, but not structurally integrity-c
 
 ---
 
-# **2. Relationship to CSIS**
+# **2\. Relationship to CSIS**
 
 CSIS, the Coordination Structural Integrity Suite, is a high-quality structural integrity reference associated with Durgadas and collaborators.
 
@@ -22197,7 +22197,7 @@ At this stage, most CSIS-related material should be treated as either cited refe
 
 ---
 
-# **3. Why this matters**
+# **3\. Why this matters**
 
 A knowledge commons can accidentally create false authority.
 
@@ -22226,7 +22226,7 @@ A deployment, claim, or recommendation is not valid simply because its fields ar
 
 ---
 
-# **4. From visibility toward falsifiability**
+# **4\. From visibility toward falsifiability**
 
 A major structural upgrade for the Toolkit is the shift from **visibility** to **falsifiability**.
 
@@ -22270,7 +22270,7 @@ The Toolkit does not need to reach this standard everywhere immediately. But thi
 
 ---
 
-# **5. Three levels of structural use**
+# **5\. Three levels of structural use**
 
 To avoid overclaiming, the master doc should distinguish three levels of structural use.
 
@@ -22331,7 +22331,7 @@ Only a small number of enforceable standards should be introduced at first. Over
 
 ---
 
-# **6. Minimum enforceable safeguards for the next version**
+# **6\. Minimum enforceable safeguards for the next version**
 
 The next version of the Toolkit can adopt a small set of basic safeguards without claiming full structural certification.
 
@@ -22439,7 +22439,7 @@ A case should not be treated as a universal pattern without review.
 
 ---
 
-# **7. CSIS construct handling map**
+# **7\. CSIS construct handling map**
 
 This table identifies how CSIS-adjacent constructs should be handled in the next version.
 
@@ -22456,7 +22456,7 @@ This table identifies how CSIS-adjacent constructs should be handled in the next
 
 ---
 
-# **8. Theory of Change repair questions**
+# **8\. Theory of Change repair questions**
 
 The Toolkit should avoid claiming that better knowledge automatically produces regeneration.
 
@@ -22482,7 +22482,7 @@ These questions do not need to be fully answered for every early resource. But t
 
 ---
 
-# **9. Source-lineage enforcement**
+# **9\. Source-lineage enforcement**
 
 The Resource Graph and Source System Registry should become the first practical place where structural integrity becomes more than vocabulary.
 
@@ -22525,7 +22525,7 @@ This is a concrete way to respond to the critique that source lineage was named 
 
 ---
 
-# **10. Public-facing simplification without structural thinning**
+# **10\. Public-facing simplification without structural thinning**
 
 The public-facing version of the Toolkit should become easier to read, but not structurally weaker.
 
@@ -22562,7 +22562,7 @@ This is how the Toolkit can remain accessible without becoming careless.
 
 ---
 
-# **11. Recommended placement in the master doc**
+# **11\. Recommended placement in the master doc**
 
 This map can be included in two ways.
 
@@ -22582,7 +22582,7 @@ Its purpose is to help future editors, reviewers, and AI assistants understand h
 
 ---
 
-# **12. Open decisions for the next iteration**
+# **12\. Open decisions for the next iteration**
 
 These decisions should be resolved or explicitly marked as open before a broader public release.
 
@@ -22664,7 +22664,7 @@ What mix of recognition, attribution, attestations, compensation, bounties, retr
 
 ---
 
-# **13. Handoff note for future editors and AI assistants**
+# **13\. Handoff note for future editors and AI assistants**
 
 This section should be preserved as a handoff note.
 
@@ -22722,11 +22722,11 @@ The previously generated resource appendix v0.2.2 should be treated as a rough s
 
 ---
 
-# **1. Project context**
+# **1\. Project context**
 
 The Regen Knowledge Commons Toolkit has three connected artifacts:
 
-## **1. Public-facing v1 site**
+## **1\. Public-facing v1 site**
 
 Live site:
 
@@ -22750,7 +22750,7 @@ The live site is still being updated and may look different by the time it is sh
 
 The master doc should reference the v1 site lightly, but should not be organized around it.
 
-## **2. Master Knowledge Commons Toolkit doc**
+## **2\. Master Knowledge Commons Toolkit doc**
 
 The master doc is the deeper working synthesis / operating system.
 
@@ -22772,7 +22772,7 @@ It includes:
 
 The master doc is large, dense, and still a work in progress. It should not be treated as final, canonical, or fully reviewed.
 
-## **3. Forum / Hub post**
+## **3\. Forum / Hub post**
 
 The forum post is the public invitation layer.
 
@@ -22790,7 +22790,7 @@ The forum post should come after the next master doc iteration.
 
 ---
 
-# **2. Core framing decisions**
+# **2\. Core framing decisions**
 
 ## **Core problem**
 
@@ -22876,7 +22876,7 @@ The Toolkit is for:
 
 ---
 
-# **3. Updated Problems / Theory of Change section**
+# **3\. Updated Problems / Theory of Change section**
 
 A new section was drafted and should be included in the master doc:
 
@@ -22927,7 +22927,7 @@ This prevents overclaiming.
 
 ---
 
-# **4. Structural Integrity / CSIS feedback**
+# **4\. Structural Integrity / CSIS feedback**
 
 ## **Durgadas feedback summary**
 
@@ -23054,7 +23054,7 @@ Recommended placement:
 
 ---
 
-# **5. Resource appendix / database status**
+# **5\. Resource appendix / database status**
 
 ## **Important correction**
 
@@ -23123,7 +23123,7 @@ But only after:
 
 ---
 
-# **6. Pending Twitter/X data**
+# **6\. Pending Twitter/X data**
 
 Twitter/X data is pending.
 
@@ -23183,7 +23183,7 @@ ecosystem signals, not endorsements.
 
 ---
 
-# **7. Podcast and media source systems**
+# **7\. Podcast and media source systems**
 
 Three important podcast/media source systems were identified.
 
@@ -23320,7 +23320,7 @@ Fields:
 
 ---
 
-# **8. Carbon Copy ReFi Projects**
+# **8\. Carbon Copy ReFi Projects**
 
 Link:
 
@@ -23350,7 +23350,7 @@ If data becomes available later, extract:
 
 ---
 
-# **9. Source systems and forums to preserve**
+# **9\. Source systems and forums to preserve**
 
 ## **High-priority source-system options**
 
@@ -23399,7 +23399,7 @@ Prioritize:
 
 ---
 
-# **10. Opening / orientation direction**
+# **10\. Opening / orientation direction**
 
 The next master doc needs a stronger opening.
 
@@ -23432,7 +23432,7 @@ Core opening logic:
 
 ---
 
-# **11. Master doc update workflow**
+# **11\. Master doc update workflow**
 
 Do not start by rewriting the whole master doc from scratch.
 
@@ -23529,7 +23529,7 @@ After master doc vNext:
 
 ---
 
-# **12. Public forum / Hub post plan**
+# **12\. Public forum / Hub post plan**
 
 Forum post should include:
 
@@ -23576,7 +23576,7 @@ Do not overbuild contribution governance before public feedback.
 
 ---
 
-# **13. Rewards / contribution governance**
+# **13\. Rewards / contribution governance**
 
 Rewards and contribution governance should be treated as future design seeds with cross-cutting importance.
 
@@ -23611,7 +23611,7 @@ Important, but not finalized. Mention as future design seed, not as settled prot
 
 ---
 
-# **14. Private / restricted memory**
+# **14\. Private / restricted memory**
 
 The Toolkit should default toward openness for public knowledge, but it may need restricted or private memory spaces for sensitive, unresolved, interpersonal, ecological, legal, safety, or reputational material.
 
@@ -23641,7 +23641,7 @@ Do not frame privacy as anti-open-source. Frame it as responsible stewardship.
 
 ---
 
-# **15. Deployment and option-library improvements**
+# **15\. Deployment and option-library improvements**
 
 The Deployment layer needs stronger compatibility and review logic.
 
@@ -23675,7 +23675,7 @@ Do not claim full certification yet.
 
 ---
 
-# **16. Resource database design correction**
+# **16\. Resource database design correction**
 
 The next resource database should use this structure.
 
@@ -23789,7 +23789,7 @@ Fields:
 
 ---
 
-# **17. Pro model guidance**
+# **17\. Pro model guidance**
 
 Do not use Pro for every small step.
 
@@ -23818,7 +23818,7 @@ Not necessary for:
 
 ---
 
-# **18. Immediate next steps for new thread**
+# **18\. Immediate next steps for new thread**
 
 ## **User should upload/provide**
 
@@ -23843,7 +23843,7 @@ Not necessary for:
 
 ---
 
-# **19. Key warnings for future assistants**
+# **19\. Key warnings for future assistants**
 
 Do not treat v0.2.2 as the clean resource database.
 
@@ -23881,7 +23881,7 @@ Do preserve:
 
 ---
 
-# **20. Current best next move**
+# **20\. Current best next move**
 
 The clean next move is:
 
@@ -23905,11 +23905,11 @@ The goal is not to rewrite everything from scratch. The goal is to integrate the
 
 ---
 
-# **1. Current state of the project**
+# **1\. Current state of the project**
 
 There are now two connected artifacts and one planned public invitation.
 
-## **1. Heenal’s simplified v1 website**
+## **1\. Heenal’s simplified v1 website**
 
 Live site:
 
@@ -23938,7 +23938,7 @@ The v1 site is the public-facing learning and navigation prototype of the broade
 
 It makes one part of the larger architecture usable now.
 
-## **2. The master Knowledge Commons Toolkit doc**
+## **2\. The master Knowledge Commons Toolkit doc**
 
 The master doc is the deeper working synthesis / operating system behind the simplified v1 site.
 
@@ -23960,7 +23960,7 @@ It includes the broader knowledge commons architecture:
 
 The current master doc is strong but dense. It is not a final publication, canonical ontology, or complete implementation plan. It should be treated as a living working draft.
 
-## **3. The public forum / Hub post**
+## **3\. The public forum / Hub post**
 
 The forum post is the public invitation layer.
 
@@ -23981,7 +23981,7 @@ The v1 site is the usable front door. The master doc is the deeper knowledge com
 
 ---
 
-# **2. Why the v1 site \+ forum post is a good plan**
+# **2\. Why the v1 site \+ forum post is a good plan**
 
 The simplified v1 site and the forum post are a good strategy because they solve different communication problems.
 
@@ -24008,7 +24008,7 @@ The public sharing should be framed as an invitation, not a final launch.
 
 ---
 
-# **3. Core meeting insights**
+# **3\. Core meeting insights**
 
 ## **Public is not the same as commons**
 
@@ -24058,7 +24058,7 @@ This does not have to be solved before the public post, but it is a useful futur
 
 ---
 
-# **4. Durgadas / CSIS feedback thread**
+# **4\. Durgadas / CSIS feedback thread**
 
 Durgadas’s main critique from the earlier call was that the project risked having a “theory of build” rather than a “theory of change.”
 
@@ -24119,7 +24119,7 @@ The user wants this included in the broader master doc, but not necessarily over
 
 ---
 
-# **5. Preferred tone and style**
+# **5\. Preferred tone and style**
 
 The user wants the next master doc iteration and public explanation to be:
 
@@ -24164,7 +24164,7 @@ Use:
 
 ---
 
-# **6. User group framing**
+# **6\. User group framing**
 
 The Toolkit is for people working across Greenpill, ReFi DAO, Bloom Network, and the broader regenerative web3, public goods, civic, ecological, and place-based coordination ecosystem.
 
@@ -24202,11 +24202,11 @@ The Regen Knowledge Commons Toolkit is for people working across Greenpill, ReFi
 
 ---
 
-# **7. Problems we are trying to solve — refined version**
+# **7\. Problems we are trying to solve — refined version**
 
 The latest direction for the Problems / Theory of Change section should be based on these problems.
 
-## **1. Shared knowledge is difficult to find, understand, and use**
+## **1\. Shared knowledge is difficult to find, understand, and use**
 
 This should replace the narrower “new people cannot easily find their way in.”
 
@@ -24233,7 +24233,7 @@ Desired shift:
 
 Move from scattered knowledge and informal discovery to a clearer commons where people can bring their context, explore relevant pathways, and find useful knowledge, people, tools, organizations, examples, and next steps.
 
-## **2. Coordination capacity is unevenly distributed**
+## **2\. Coordination capacity is unevenly distributed**
 
 Do not over-focus on “leaders are overloaded,” although that is real.
 
@@ -24253,7 +24253,7 @@ Desired shift:
 
 Move from coordination capacity concentrated in a few high-context people to a healthier distribution of knowledge, contribution, and support across the ecosystem.
 
-## **3. The field is too complex for any one person or organization to hold alone**
+## **3\. The field is too complex for any one person or organization to hold alone**
 
 Use a broader frame than “stewards cannot know everything.”
 
@@ -24269,7 +24269,7 @@ Desired shift:
 
 Move from isolated understanding and fragmented local knowledge to a more connected field where knowledge can travel, adapt, and compound across contexts.
 
-## **4. Aligned people are not discoverable enough to one another**
+## **4\. Aligned people are not discoverable enough to one another**
 
 Avoid saying “people struggle” if possible. Use constructive framing.
 
@@ -24285,7 +24285,7 @@ Desired shift:
 
 Move from parallel efforts that remain hard to see to a more discoverable ecosystem where aligned people, projects, organizations, and working groups can connect and team up.
 
-## **5. Organizations and initiatives need clearer documentation, theory of change, and memory**
+## **5\. Organizations and initiatives need clearer documentation, theory of change, and memory**
 
 Chapters, local nodes, working groups, projects, and initiatives often need clearer documentation of what they are doing, why it matters, who is involved, which tools and workflows they use, what has been tried, what has been learned, and what support is needed next.
 
@@ -24299,7 +24299,7 @@ Desired shift:
 
 Move from organizational knowledge living in scattered documents and individual memory to clearer initiative maps, theory-of-change drafts, documentation pathways, and learning records.
 
-## **6. Knowledge is not consistently connected to action**
+## **6\. Knowledge is not consistently connected to action**
 
 Many resources explain concepts or list tools, but they do not help people decide what to do next.
 
@@ -24311,7 +24311,7 @@ Desired shift:
 
 Move from static resources and general explanations to contextual pathways that help people find their own next useful action.
 
-## **7. Complex systems thinking needs to become more accessible**
+## **7\. Complex systems thinking needs to become more accessible**
 
 The user wants this included.
 
@@ -24327,7 +24327,7 @@ Desired shift:
 
 Move from simplified explanations that hide complexity to accessible systems thinking that helps people understand the real tensions, tradeoffs, relationships, and feedback loops they are working within.
 
-## **8. Trust, review, and maturity are unclear**
+## **8\. Trust, review, and maturity are unclear**
 
 Not all knowledge has the same status.
 
@@ -24349,7 +24349,7 @@ Desired shift:
 
 Move from everything appearing equally authoritative to a clearer knowledge commons where people can see what is raw, reviewed, source-linked, field-informed, experimental, high-risk, outdated, or ready for public use.
 
-## **9. Implementation learning is being lost**
+## **9\. Implementation learning is being lost**
 
 Communities are constantly experimenting: running funding rounds, launching local nodes, hosting workshops, testing governance processes, producing media, building tools, documenting impact, forming partnerships, and adapting to local conditions.
 
@@ -24363,7 +24363,7 @@ Move from isolated experiments and lost learning to shared memory where lessons,
 
 ---
 
-# **8. Theory of Change — refined version**
+# **8\. Theory of Change — refined version**
 
 Use this as the current best version:
 
@@ -24389,7 +24389,7 @@ The change is: We reduce knowledge coordination friction so people and organizat
 
 ---
 
-# **9. Outputs and outcomes**
+# **9\. Outputs and outcomes**
 
 The user asked whether outputs and outcomes should be framed. Answer: yes.
 
@@ -24435,7 +24435,7 @@ Outputs are concrete artifacts:
 
 ---
 
-# **10. First practical test and learning signals**
+# **10\. First practical test and learning signals**
 
 The first test should not be whether the whole architecture is complete.
 
@@ -24464,7 +24464,7 @@ The goal is to learn whether the Toolkit is reducing friction or creating more f
 
 ---
 
-# **11. Open source values to mirror**
+# **11\. Open source values to mirror**
 
 The Toolkit should mirror the values and benefits of open source software, translated into knowledge commons work.
 
@@ -24491,7 +24491,7 @@ Like open source software, the Toolkit should help people build from what alread
 
 ---
 
-# **12. Forum / Hub post plan**
+# **12\. Forum / Hub post plan**
 
 The forum post should share both artifacts:
 
@@ -24502,25 +24502,25 @@ It should be framed as an invitation, not a final launch.
 
 Suggested structure:
 
-## **1. Why this exists**
+## **1\. Why this exists**
 
 Explain knowledge coordination friction.
 
 Not just onboarding: shared knowledge, coordination capacity, aligned discovery, organizational memory, complex systems thinking, action pathways, trust/review, and implementation learning.
 
-## **2. What we are sharing**
+## **2\. What we are sharing**
 
 * v1 website;  
 * master doc;  
 * how they relate.
 
-## **3. How they relate**
+## **3\. How they relate**
 
 * site \= usable public-facing learning/navigation prototype;  
 * master doc \= deeper operating system / architecture;  
 * forum post \= invitation layer.
 
-## **4. Who it is for**
+## **4\. Who it is for**
 
 * Greenpill;  
 * ReFi DAO;  
@@ -24529,7 +24529,7 @@ Not just onboarding: shared knowledge, coordination capacity, aligned discovery,
 * Swarm;  
 * broader regenerative web3 / place-based / public goods / civic / ecological / knowledge commons communities.
 
-## **5. What we need feedback on**
+## **5\. What we need feedback on**
 
 * problem framing;  
 * theory of change;  
@@ -24544,7 +24544,7 @@ Not just onboarding: shared knowledge, coordination capacity, aligned discovery,
 * interoperability with other commons;  
 * how to make it actually used.
 
-## **6. How people can contribute**
+## **6\. How people can contribute**
 
 * test the site;  
 * suggest resources;  
@@ -24558,7 +24558,7 @@ Not just onboarding: shared knowledge, coordination capacity, aligned discovery,
 * help with AI / skills / agent workflows;  
 * help with governance / contribution protocols.
 
-## **7. What happens next**
+## **7\. What happens next**
 
 * one more master doc iteration;  
 * v1 site refinement;  
@@ -24571,7 +24571,7 @@ Do not overbuild contribution governance before the post. Mention it as an activ
 
 ---
 
-# **13. Latest meeting action items**
+# **13\. Latest meeting action items**
 
 ## **Matty / user**
 
@@ -24626,7 +24626,7 @@ Do not overbuild contribution governance before the post. Mention it as an activ
 
 ---
 
-# **14. Recommended next-thread workflow**
+# **14\. Recommended next-thread workflow**
 
 In the next thread:
 
@@ -24653,7 +24653,7 @@ The next task is not a full conceptual rewrite. It is an integration pass that c
 
 ---
 
-# **15. One-line summary**
+# **15\. One-line summary**
 
 The Regen Knowledge Commons Toolkit is moving from a dense working architecture toward a public commons process: Heenal’s v1 site gives people a usable front door, the master doc holds the deeper operating system, and the forum post should invite the wider ecosystem to use it, critique it, contribute to it, and help turn public knowledge into a living commons.
 
@@ -24661,15 +24661,15 @@ The Regen Knowledge Commons Toolkit is moving from a dense working architecture 
 
 # **Still flawed but better**
 
-[Local Regen Toolkit](https://docs.google.com/spreadsheets/d/1yMVWQb3omCmd66BBRimaPk5uVH10EEoPDGGlBon1_3E/edit?gid=903711939#gid=903711939)and “GreenGoods - Regenerative Design Foundation” tab
+[Local Regen Toolkit](https://docs.google.com/spreadsheets/d/1yMVWQb3omCmd66BBRimaPk5uVH10EEoPDGGlBon1_3E/edit?gid=903711939#gid=903711939)and “GreenGoods \- Regenerative Design Foundation” tab
 
 Stuff from previous iterations [Regen Web3 Toolkit](https://docs.google.com/document/d/1Qi4Enl16mwMFokdQGepwVYaNSr2RJwp-A2gVZ1ZgWN4/edit?tab=t.jepq9bikbcic) 
 
 Twitter data from Greenpill Network and Greenpill Writers Guild (Matty can share files)
 
-Afo podcast synthesis file - NOT IN ITERATION BELOW - [Regenerative Podcast Mapping.md](https://docs.google.com/document/d/1KCmIifLhI0R-G85eLpdZF-5VhrKF3Q-3NUWQdsTT-_s/edit?tab=t.0)
+Afo podcast synthesis file \- NOT IN ITERATION BELOW \- [Regenerative Podcast Mapping.md](https://docs.google.com/document/d/1KCmIifLhI0R-G85eLpdZF-5VhrKF3Q-3NUWQdsTT-_s/edit?tab=t.0)
 
-Better curate source systems - CarbonCopy, Durgadas and prominent knowledge gardeners
+Better curate source systems \- CarbonCopy, Durgadas and prominent knowledge gardeners
 
 “Regen Knowledge Commons Resource Database V3 June 13th” Matt laptop
 
@@ -24737,7 +24737,7 @@ Better curate source systems - CarbonCopy, Durgadas and prominent knowledge gard
 | Systems, Complexity & Sensemaking | Autopoiesis and Cognition | Maturana & Varela | Book | [https://link.springer.com/book/10.1007/978-94-009-8947-4](https://link.springer.com/book/10.1007/978-94-009-8947-4) | High-value | autopoiesis, cognition |
 | Systems, Complexity & Sensemaking | The Tree of Knowledge | Maturana & Varela | Book | [https://www.shambhala.com/the-tree-of-knowledge-1220.html](https://www.shambhala.com/the-tree-of-knowledge-1220.html) | High-value | cognition, living systems |
 | Systems, Complexity & Sensemaking | Steps to an Ecology of Mind | Gregory Bateson | Book | [https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html](https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html) | High-value | recursion, learning |
-| Systems, Complexity & Sensemaking | Mind and Nature | Gregory Bateson | Book | [https://www.hamptonpress.com/Merchant2/merchant.mvc?Screen=PROD&Product\_Code=9781572734340](https://www.hamptonpress.com/Merchant2/merchant.mvc?Screen=PROD&Product_Code=9781572734340) | High-value | pattern, epistemology |
+| Systems, Complexity & Sensemaking | Mind and Nature | Gregory Bateson | Book | [https://www.hamptonpress.com/Merchant2/merchant.mvc?Screen=PROD\&Product\_Code=9781572734340](https://www.hamptonpress.com/Merchant2/merchant.mvc?Screen=PROD&Product_Code=9781572734340) | High-value | pattern, epistemology |
 | Systems, Complexity & Sensemaking | The Matter With Things | Iain McGilchrist | Book | [https://channelmcgilchrist.com/the-matter-with-things/](https://channelmcgilchrist.com/the-matter-with-things/) | Complementary | cognition, context |
 | Systems, Complexity & Sensemaking | Reassembling the Social | Bruno Latour | Book | [https://global.oup.com/academic/product/reassembling-the-social-9780199256051](https://global.oup.com/academic/product/reassembling-the-social-9780199256051) | Complementary | actor-network theory |
 | Systems, Complexity & Sensemaking | Cosmopolitics | Isabelle Stengers | Book | [https://www.upress.umn.edu/book-division/books/cosmopolitics-i](https://www.upress.umn.edu/book-division/books/cosmopolitics-i) | Complementary | plurality, epistemology |
@@ -24820,7 +24820,7 @@ Better curate source systems - CarbonCopy, Durgadas and prominent knowledge gard
 | Web3, Ethereum & Mechanism Design | Colony | Colony | DAO operations tool | [https://colony.io/](https://colony.io/) | Practical | DAO ops |
 | Web3, Ethereum & Mechanism Design | Guild.xyz | Guild.xyz | Membership / roles | [https://guild.xyz/](https://guild.xyz/) | Practical | roles |
 | Web3, Ethereum & Mechanism Design | Guild Guild | Guild Guild | Protocol / community | [https://guildguild.org/](https://guildguild.org/) | Triage | guilds |
-| Web3, Ethereum & Mechanism Design | Postcapitalist Agency | Postcapitalist Agency | Protocol studio | [https://postcapitalist.agency/#](https://postcapitalist.agency/#) | Complementary | postcapitalism |
+| Web3, Ethereum & Mechanism Design | Postcapitalist Agency | Postcapitalist Agency | Protocol studio | [https://postcapitalist.agency/\#](https://postcapitalist.agency/#) | Complementary | postcapitalism |
 | Web3, Ethereum & Mechanism Design | Chain for Good | Chain for Good | Impact org | [https://chainforgood.org/](https://chainforgood.org/) | Complementary | impact blockchain |
 | Web3, Ethereum & Mechanism Design | Bankless Academy | Bankless Academy | Education | [https://app.banklessacademy.com/](https://app.banklessacademy.com/) | Practical | web3 education |
 | Web3, Ethereum & Mechanism Design | Dabl Club Learn | Dabl Club | Learning | [https://learn.dabl.club/](https://learn.dabl.club/) | Triage | web3 learning |
@@ -24848,7 +24848,7 @@ Better curate source systems - CarbonCopy, Durgadas and prominent knowledge gard
 | ReFi, Localism & Regenerative Crypto | Silvi Protocol | Silvi | Protocol | [https://silvi.earth/](https://silvi.earth/) | High-value | trees, MRV |
 | ReFi, Localism & Regenerative Crypto | Kolektivo | Kolektivo | Local economy network | [https://www.kolektivo.network/](https://www.kolektivo.network/) | Complementary | local economy |
 | ReFi, Localism & Regenerative Crypto | Climate Collective | Climate Collective | Network | [https://climatecollective.org/](https://climatecollective.org/) | Complementary | climate finance |
-| ReFi, Localism & Regenerative Crypto | Climate Collective Web3 Climate Map | Climate Collective / Kumu | Ecosystem map | [https://kumu.io/climate-collective/web3-climate-map#main](https://kumu.io/climate-collective/web3-climate-map#main) | Practical | ReFi map |
+| ReFi, Localism & Regenerative Crypto | Climate Collective Web3 Climate Map | Climate Collective / Kumu | Ecosystem map | [https://kumu.io/climate-collective/web3-climate-map\#main](https://kumu.io/climate-collective/web3-climate-map#main) | Practical | ReFi map |
 | ReFi, Localism & Regenerative Crypto | Carbon Copy ReFi Projects | Carbon Copy | Directory | [https://carboncopy.news/refi/projects](https://carboncopy.news/refi/projects) | Practical | ReFi projects |
 | ReFi, Localism & Regenerative Crypto | Regen Atlas | Regen Atlas | Map | [https://www.regenatlas.xyz/](https://www.regenatlas.xyz/) | Practical | regen map |
 | ReFi, Localism & Regenerative Crypto | LocalScale | LocalScale | Local economy / mapping | [https://localscale.org/](https://localscale.org/) | Triage | localism |
@@ -24913,14 +24913,14 @@ Better curate source systems - CarbonCopy, Durgadas and prominent knowledge gard
 | Knowledge Commons & Ontologies | OpenHaven | OpenHaven | Platform | [http://openhaven.net](http://openhaven.net/) | Triage | open infra |
 | Knowledge Commons & Ontologies | CIBC Notion | CIBC | Notion database | [https://cibc.notion.site/?v=46a06370514c4adb8c7743a29f16d78b](https://cibc.notion.site/?v=46a06370514c4adb8c7743a29f16d78b) | Triage | knowledge base |
 | Knowledge Commons & Ontologies | Conscious States Curation 2025 | Nataliya AI | Notion | [https://nataliyaai.notion.site/Conscious-States-Curation-2025-27b1e0664f6380eabf86e7ec62ccc0d9](https://nataliyaai.notion.site/Conscious-States-Curation-2025-27b1e0664f6380eabf86e7ec62ccc0d9) | Triage | curation |
-| Knowledge Commons & Ontologies | Local ReFi Toolkit Figma | GreenPill / Local ReFi | Figma board | [https://www.figma.com/board/FaL4EbFWM6s3u3DeNklHMW/Local-ReFi-Toolkit?node-id=0-1&p=f](https://www.figma.com/board/FaL4EbFWM6s3u3DeNklHMW/Local-ReFi-Toolkit?node-id=0-1&p=f) | Internal / Triage | toolkit |
+| Knowledge Commons & Ontologies | Local ReFi Toolkit Figma | GreenPill / Local ReFi | Figma board | [https://www.figma.com/board/FaL4EbFWM6s3u3DeNklHMW/Local-ReFi-Toolkit?node-id=0-1\&p=f](https://www.figma.com/board/FaL4EbFWM6s3u3DeNklHMW/Local-ReFi-Toolkit?node-id=0-1&p=f) | Internal / Triage | toolkit |
 | Knowledge Commons & Ontologies | GreenPill Toolkit Prompts | GreenPill Network | Charmverse | [https://app.charmverse.io/greenpill-network/outline-the-greenpill-toolkit-prompts-3804070330081286](https://app.charmverse.io/greenpill-network/outline-the-greenpill-toolkit-prompts-3804070330081286) | Internal / Triage | toolkit |
 | Knowledge Commons & Ontologies | Tools for Regeneration Project Plan | GreenPill Writers Guild | Charmverse | [https://app.charmverse.io/greenpill-writers-guild/tools-for-regeneration-project-plan-6070706289406744](https://app.charmverse.io/greenpill-writers-guild/tools-for-regeneration-project-plan-6070706289406744) | Internal / Triage | regeneration |
 | Knowledge Commons & Ontologies | Bringing the Network Onchain | GreenPill Network | Charmverse | [https://app.charmverse.io/greenpill-network/bringing-the-network-onchain-5570822392643502](https://app.charmverse.io/greenpill-network/bringing-the-network-onchain-5570822392643502) | Internal / Triage | onchain |
 | Knowledge Commons & Ontologies | Gov Guild | GreenPill Network | Charmverse | [https://app.charmverse.io/greenpill-network/gov-guild-9027690650435296](https://app.charmverse.io/greenpill-network/gov-guild-9027690650435296) | Internal / Triage | governance |
 | Knowledge Commons & Ontologies | New Chapter Onboarding | Regen Coordination | Forum | [https://hub.regencoordination.xyz/t/new-chapter-onboarding/129](https://hub.regencoordination.xyz/t/new-chapter-onboarding/129) | Internal / Triage | onboarding |
-| Knowledge Commons & Ontologies | GreenPill Garden Season 1 / Theory of Change | GreenPill Garden | Google Doc | [https://docs.google.com/document/d/1vgLsJQrg5bCrCig5BHiF4mmX83nIN8Mizqi1LSgGm1I/edit?tab=t.50y045hh9o4l#heading=h.67okitz0z313](https://docs.google.com/document/d/1vgLsJQrg5bCrCig5BHiF4mmX83nIN8Mizqi1LSgGm1I/edit?tab=t.50y045hh9o4l#heading=h.67okitz0z313) | Internal / Triage | strategy |
-| Knowledge Commons & Ontologies | Internal GreenPill / Regen Doc | Unknown | Google Doc | [https://docs.google.com/document/d/1p3QniseWVT0FSW7Wn-DVm5EGZfvLDblTrWOLl4pg0NA/edit?tab=t.0#heading=h.bbeg63wrcq01](https://docs.google.com/document/d/1p3QniseWVT0FSW7Wn-DVm5EGZfvLDblTrWOLl4pg0NA/edit?tab=t.0#heading=h.bbeg63wrcq01) | Internal / Triage | toolkit |
+| Knowledge Commons & Ontologies | GreenPill Garden Season 1 / Theory of Change | GreenPill Garden | Google Doc | [https://docs.google.com/document/d/1vgLsJQrg5bCrCig5BHiF4mmX83nIN8Mizqi1LSgGm1I/edit?tab=t.50y045hh9o4l\#heading=h.67okitz0z313](https://docs.google.com/document/d/1vgLsJQrg5bCrCig5BHiF4mmX83nIN8Mizqi1LSgGm1I/edit?tab=t.50y045hh9o4l#heading=h.67okitz0z313) | Internal / Triage | strategy |
+| Knowledge Commons & Ontologies | Internal GreenPill / Regen Doc | Unknown | Google Doc | [https://docs.google.com/document/d/1p3QniseWVT0FSW7Wn-DVm5EGZfvLDblTrWOLl4pg0NA/edit?tab=t.0\#heading=h.bbeg63wrcq01](https://docs.google.com/document/d/1p3QniseWVT0FSW7Wn-DVm5EGZfvLDblTrWOLl4pg0NA/edit?tab=t.0#heading=h.bbeg63wrcq01) | Internal / Triage | toolkit |
 | Knowledge Commons & Ontologies | Network Nations Google Doc | Network Nations | Google Doc | [https://docs.google.com/document/d/1GBuGlpDQShC70yvxqytN-S0QIgRf9dQ4MyiD8O3Zv-E/edit?tab=t.0](https://docs.google.com/document/d/1GBuGlpDQShC70yvxqytN-S0QIgRf9dQ4MyiD8O3Zv-E/edit?tab=t.0) | Internal / Triage | network nations |
 
 | Category | Resource | Author / Org | Type | Link | Priority | Tags |
@@ -25005,7 +25005,7 @@ Better curate source systems - CarbonCopy, Durgadas and prominent knowledge gard
 | Culture, Narrative & Movement Building | Kernel Substack | Kernel | Publication | [https://kernel0x.substack.com/](https://kernel0x.substack.com/) | Practical | web3 writing |
 | Culture, Narrative & Movement Building | Gospel of Change | Gospel of Change | Resource hub | [https://linktr.ee/gospelofchange](https://linktr.ee/gospelofchange) | Triage | change |
 | Culture, Narrative & Movement Building | Why You Need to Replace Your Purpose Statement With a Guiding Question | Conductal | Article | [https://conductal.medium.com/why-you-need-to-replace-your-purpose-statement-with-a-guiding-question-5b227e48353c](https://conductal.medium.com/why-you-need-to-replace-your-purpose-statement-with-a-guiding-question-5b227e48353c) | Complementary | purpose, inquiry |
-| Culture, Narrative & Movement Building | Guiding Question YouTube Playlist | Unknown | YouTube playlist | [https://www.youtube.com/watch?v=JsXcufk1km4&list=PLRSlwLW1riHMzDQErGIjENI3ZJERMGf\_p](https://www.youtube.com/watch?v=JsXcufk1km4&list=PLRSlwLW1riHMzDQErGIjENI3ZJERMGf_p) | Triage | guiding question |
+| Culture, Narrative & Movement Building | Guiding Question YouTube Playlist | Unknown | YouTube playlist | [https://www.youtube.com/watch?v=JsXcufk1km4\&list=PLRSlwLW1riHMzDQErGIjENI3ZJERMGf\_p](https://www.youtube.com/watch?v=JsXcufk1km4&list=PLRSlwLW1riHMzDQErGIjENI3ZJERMGf_p) | Triage | guiding question |
 | Culture, Narrative & Movement Building | 4th Generation Civilization | 4th Generation Civilization | Substack | [https://4thgenerationcivilization.substack.com/](https://4thgenerationcivilization.substack.com/) | Triage | civilization |
 | Culture, Narrative & Movement Building | Gospel of Change | Gospel of Change | Resource hub | [https://linktr.ee/gospelofchange](https://linktr.ee/gospelofchange) | Triage | narrative |
 | Culture, Narrative & Movement Building | T-MI / Sidick GP Ivory Coast | T-MI | Paragraph | [https://paragraph.com/@t-mi](https://paragraph.com/@t-mi) | Triage | local case study |
@@ -25076,14 +25076,14 @@ https://x.com/localscale/status/2022611284986876044
 https://x.com/i/status/2036916080514654465  
 https://cibc.notion.site/?v=46a06370514c4adb8c7743a29f16d78b  
 https://nataliyaai.notion.site/Conscious-States-Curation-2025-27b1e0664f6380eabf86e7ec62ccc0d9  
-https://docs.google.com/document/d/1vgLsJQrg5bCrCig5BHiF4mmX83nIN8Mizqi1LSgGm1I/edit?tab=t.50y045hh9o4l#heading=h.67okitz0z313  
-https://docs.google.com/document/d/1p3QniseWVT0FSW7Wn-DVm5EGZfvLDblTrWOLl4pg0NA/edit?tab=t.0#heading=h.bbeg63wrcq01  
+https://docs.google.com/document/d/1vgLsJQrg5bCrCig5BHiF4mmX83nIN8Mizqi1LSgGm1I/edit?tab=t.50y045hh9o4l\#heading=h.67okitz0z313  
+https://docs.google.com/document/d/1p3QniseWVT0FSW7Wn-DVm5EGZfvLDblTrWOLl4pg0NA/edit?tab=t.0\#heading=h.bbeg63wrcq01  
 https://docs.google.com/document/d/1GBuGlpDQShC70yvxqytN-S0QIgRf9dQ4MyiD8O3Zv-E/edit?tab=t.0  
 https://app.charmverse.io/greenpill-network/outline-the-greenpill-toolkit-prompts-3804070330081286  
 https://app.charmverse.io/greenpill-writers-guild/tools-for-regeneration-project-plan-6070706289406744  
 https://app.charmverse.io/greenpill-network/bringing-the-network-onchain-5570822392643502  
 https://app.charmverse.io/greenpill-network/gov-guild-9027690650435296  
-https://www.figma.com/board/FaL4EbFWM6s3u3DeNklHMW/Local-ReFi-Toolkit?node-id=0-1&p=f  
+https://www.figma.com/board/FaL4EbFWM6s3u3DeNklHMW/Local-ReFi-Toolkit?node-id=0-1\&p=f  
 https://luma.com/35utsgw8?tk=xh7h7s  
 https://hub.regencoordination.xyz/t/new-chapter-onboarding/129  
 https://gbaglobal.org/  
@@ -25158,9 +25158,9 @@ https://paragraph.com/@holonic-horizons/p/2
 
 # 🫓 Next Working Draft
 
-Regen Knowledge Commons Toolkit - vNext Raw Working Draft
+Regen Knowledge Commons Toolkit \- vNext Raw Working Draft
 
-Raw working draft for review - not final, not canonical, not a mature resource database.
+Raw working draft for review \- not final, not canonical, not a mature resource database.
 
 Working draft generated for review. Prepared June 2026 from the June 13 master doc, the older Regen Web3 Toolkit iteration, the handoff documents, the user read-through notes, the improved resource seed, and the newly provided Twitter/X tweet archive data.
 
@@ -25170,51 +25170,51 @@ The purpose of this version is to preserve more intelligence, not less. It is me
 
 # **Document map**
 
-·       1. Working orientation and short description
+·       1\. Working orientation and short description
 
-·       2. Relationship between artifacts
+·       2\. Relationship between artifacts
 
-·       3. Problems, theory of change, outputs, and outcomes
+·       3\. Problems, theory of change, outputs, and outcomes
 
-·       4. System overview and operating loop
+·       4\. System overview and operating loop
 
-·       5. Contribution model and deep intake
+·       5\. Contribution model and deep intake
 
-·       6. Ontology and semantic kernel
+·       6\. Ontology and semantic kernel
 
-·       7. Knowledge Commons / Encyclopedia layer
+·       7\. Knowledge Commons / Encyclopedia layer
 
-·       8. Resource Graph and Source Systems
+·       8\. Resource Graph and Source Systems
 
-·       9. Social Signal Scan and Twitter/X curation layer
+·       9\. Social Signal Scan and Twitter/X curation layer
 
-·       10. Concept and idea ecology
+·       10\. Concept and idea ecology
 
-·       11. Option Library
+·       11\. Option Library
 
-·       12. Tracks and composition
+·       12\. Tracks and composition
 
-·       13. Deployment and structural integrity
+·       13\. Deployment and structural integrity
 
-·       14. Implementation and learning memory
+·       14\. Implementation and learning memory
 
-·       15. Evolution layer and restricted memory
+·       15\. Evolution layer and restricted memory
 
-·       16. Infrastructure and substrate
+·       16\. Infrastructure and substrate
 
-·       17. Contributor roles, review, and stewardship
+·       17\. Contributor roles, review, and stewardship
 
-·       18. Reward and contribution economy future seed
+·       18\. Reward and contribution economy future seed
 
-·       19. Source systems starter selection
+·       19\. Source systems starter selection
 
-·       20. Backlog and future iteration ideas
+·       20\. Backlog and future iteration ideas
 
-·       21. Review prompts for Durgadas, team, and public feedback
+·       21\. Review prompts for Durgadas, team, and public feedback
 
 ·       Appendices: templates, schemas, readiness levels, source-system cards, social signal fields, and next-step checklists
 
-# **1. Working orientation and short description**
+# **1\. Working orientation and short description**
 
 ## **Status of this document**
 
@@ -25360,7 +25360,7 @@ Avoid:
 
 ·       letting the resource database silently disappear behind summary prose.
 
-# **2. Relationship between artifacts**
+# **2\. Relationship between artifacts**
 
 ## **The three artifact model**
 
@@ -25448,7 +25448,7 @@ This vNext should optimize for both:
 
 These goals are not in conflict if the document has clear entry points and a healthy backlog.
 
-# **3. Problems, theory of change, outputs, and outcomes**
+# **3\. Problems, theory of change, outputs, and outcomes**
 
 ## **Context**
 
@@ -25460,53 +25460,53 @@ The Toolkit should help people bring their context, interests, questions, or pro
 
 ## **Problems we are trying to solve**
 
-1.   	Shared knowledge is difficult to find, understand, and use.
+1\.   	Shared knowledge is difficult to find, understand, and use.
 
 People often ask: Where should I start? What should I read first? Who is working on this? Which tools are relevant? What has already been tried? What does this term mean? What is mature, experimental, or uncertain? What is a meaningful next step from where I am?
 
 The larger problem is not only onboarding. It is that regenerative knowledge is not organized well enough as a common resource.
 
-2.   	Coordination capacity is unevenly distributed.
+2\.   	Coordination capacity is unevenly distributed.
 
 Much ecosystem knowledge is held by people who are already overloaded. The goal is not to replace human guidance with documentation. The goal is to make human guidance more effective.
 
 When people arrive with better context, conversations can move beyond repeated basic orientation toward judgment, relationship-building, collaboration, and action.
 
-3.   	The field is too complex for any one person or organization to hold alone.
+3\.   	The field is too complex for any one person or organization to hold alone.
 
 Regenerative coordination touches public goods, ReFi, localism, ecology, governance, complexity, token engineering, public funding, civic infrastructure, AI, media, open source, legal structures, cooperative design, impact measurement, and on-the-ground implementation.
 
 A living commons should help distribute sensemaking across many contributors and many source systems.
 
-4.   	Aligned people, projects, and organizations are not discoverable enough to one another.
+4\.   	Aligned people, projects, and organizations are not discoverable enough to one another.
 
 Many aligned efforts exist but remain hidden behind fragmented channels, local contexts, events, social media, forums, private chats, and partial directories.
 
 The Toolkit should make relevant people, organizations, projects, tools, resources, and source systems more discoverable without turning people into extractive graph nodes.
 
-5.   	Organizations and initiatives need clearer documentation, theory of change, and memory.
+5\.   	Organizations and initiatives need clearer documentation, theory of change, and memory.
 
 Groups need better ways to explain what they do, why it matters, what they are trying, what tools they use, what risks they see, what evidence they have, and what support they need.
 
 The Toolkit should provide templates and examples that help groups document themselves without forcing every group into the same form.
 
-6.   	Knowledge is not consistently connected to action.
+6\.   	Knowledge is not consistently connected to action.
 
 A knowledge commons should not stop at articles and definitions. It should help people compare options, compose pathways, specify deployment choices, identify risks, document implementation, and learn from what happens.
 
-7.   	Complex systems thinking needs to become more accessible.
+7\.   	Complex systems thinking needs to become more accessible.
 
 Regenerative coordination requires people to understand feedback loops, tradeoffs, delayed effects, hidden power, local context, failure modes, emergence, path dependence, and tension between autonomy and coherence.
 
 The Toolkit should make systems thinking practical without flattening complexity into slogans.
 
-8.   	Trust, review, and maturity are unclear.
+8\.   	Trust, review, and maturity are unclear.
 
 A raw note is not the same as a reviewed guide. A polished AI summary is not the same as human-reviewed understanding. A case study is not the same as a universal pattern. A tool recommendation is not the same as a deployment plan. A public impact claim is not the same as verified evidence.
 
 The Toolkit should distinguish raw, reviewed, source-linked, field-informed, experimental, high-risk, outdated, private, and public-use-ready material.
 
-9.   	Implementation learning is being lost.
+9\.   	Implementation learning is being lost.
 
 Communities are constantly experimenting with funding rounds, local nodes, workshops, governance processes, media production, grants, partnerships, tooling, impact documentation, and local adaptation.
 
@@ -25514,7 +25514,7 @@ Too much learning remains in calls, chats, memories, forum threads, grant report
 
 The Toolkit should help implementation learning become part of the commons.
 
-10.   Structural integrity is named more easily than it is practiced.
+10\.   Structural integrity is named more easily than it is practiced.
 
 Many coordination systems can name values, roles, processes, and intentions. Fewer can show whether those structures are precise enough to be reviewed, challenged, corrected, or improved.
 
@@ -25688,7 +25688,7 @@ Use learning signals rather than performance theater:
 
 The goal is to learn whether the Toolkit is reducing friction or creating more friction.
 
-# **4. System overview and operating loop**
+# **4\. System overview and operating loop**
 
 ## **Core movement**
 
@@ -25696,11 +25696,11 @@ The Toolkit should support a movement from fragmented knowledge toward responsib
 
 A useful sequence is:
 
-Discover -> Understand -> Connect -> Compose -> Specify -> Implement -> Learn -> Evolve
+Discover \-\> Understand \-\> Connect \-\> Compose \-\> Specify \-\> Implement \-\> Learn \-\> Evolve
 
 Another shorthand is:
 
-Resource -> Concept -> Option -> Track -> Deployment -> Implementation -> Signal -> Evolution
+Resource \-\> Concept \-\> Option \-\> Track \-\> Deployment \-\> Implementation \-\> Signal \-\> Evolution
 
 This movement does not mean every contributor must move through every layer. A contributor can add one useful thing. The system should route it.
 
@@ -25802,7 +25802,7 @@ The Toolkit should mirror important open source values:
 
 Like open source software, the Toolkit should help people build from what already exists rather than repeatedly starting over.
 
-# **5. Contribution model and deep intake**
+# **5\. Contribution model and deep intake**
 
 ## **Core contribution principle**
 
@@ -25944,7 +25944,7 @@ AI can then suggest:
 
 The contributor should not have to understand ontology before contributing.
 
-# **6. Ontology and semantic kernel**
+# **6\. Ontology and semantic kernel**
 
 ## **Ontology vs metadata tagging**
 
@@ -26186,7 +26186,7 @@ Use the following distinctions:
 
 The Toolkit can use all of these. They should not be confused.
 
-# **7. Knowledge Commons / Encyclopedia layer**
+# **7\. Knowledge Commons / Encyclopedia layer**
 
 ## **Role of the Encyclopedia**
 
@@ -26346,7 +26346,7 @@ The next human sweep should look for missing material around:
 
 ·       field-level failure modes.
 
-# **8. Resource Graph and Source Systems**
+# **8\. Resource Graph and Source Systems**
 
 ## **Resource Graph role**
 
@@ -26420,7 +26420,7 @@ The full resource database should not be dumped into this master doc.
 
 This master doc should define the logic, field structure, source-system strategy, and review questions. The resource database should be shared separately as a working registry.
 
-The improved resource seed appears to contain 339 parsed rows across categories such as Web3, Ethereum & Mechanism Design: 50; Knowledge Commons & Ontologies: 45; Coordination & Governance: 37; ReFi, Localism & Regenerative Crypto: 37; Regeneration, Ecology & Design: 31; Systems, Complexity & Sensemaking: 28; Civic Tech, Localism & Network States: 21; Culture, Narrative & Movement Building: 17; Events, Conferences & Learning Communities: 15; AI, Collective Intelligence & Coordination: 14; Environmental Data, MRV & Mapping: 14; Participatory Research & Community Knowledge: 13; Open Source, Public Code & Digital Public Goods: 9; Privacy, Identity & Digital Rights: 8. Treat that seed as valuable raw registry material, not as a polished curated list.
+The improved resource seed appears to contain 339 parsed rows across categories such as Web3, Ethereum & Mechanism Design: 50; Knowledge Commons & Ontologies: 45; Coordination & Governance: 37; ReFi, Localism & Regenerative Crypto: 37; Regeneration, Ecology & Design: 31; Systems, Complexity & Sensemaking: 28; Civic Tech, Localism & Network States: 21; Culture, Narrative & Movement Building: 17; Events, Conferences & Learning Communities: 15; AI, Collective Intelligence & Coordination: 14; Environmental Data, MRV & Mapping: 14; Participatory Research & Community Knowledge: 13; Open Source, Public Code & Digital Public Goods: 9; Privacy, Identity & Digital Rights: 8\. Treat that seed as valuable raw registry material, not as a polished curated list.
 
 ## **Normalized registry fields**
 
@@ -26582,7 +26582,7 @@ Initial source-system categories:
 
 ·       Social signal and curation channels.
 
-# **9. Social Signal Scan and Twitter/X curation layer**
+# **9\. Social Signal Scan and Twitter/X curation layer**
 
 ## **Status of tweet archive ingestion**
 
@@ -26634,7 +26634,7 @@ Top retweeted accounts included:
 
 Initial theme counts from simple keyword scans:
 
-public goods funding and capital flows: 130; attestations, impact records, accountability: 115; privacy, security, and Ethereum infrastructure: 37; local nodes and place-based implementation: 75; regeneration, ReFi, ecology, and MRV: 156; knowledge commons, AI, plurality, and civic systems: 331; cooperatives, solidarity, commons economy: 65.
+public goods funding and capital flows: 130; attestations, impact records, accountability: 115; privacy, security, and Ethereum infrastructure: 37; local nodes and place-based implementation: 75; regeneration, ReFi, ecology, and MRV: 156; knowledge commons, AI, plurality, and civic systems: 331; cooperatives, solidarity, commons economy: 65\.
 
 These counts are not final analysis. They are a routing aid for social-signal normalization.
 
@@ -26642,31 +26642,31 @@ These counts are not final analysis. They are a routing aid for social-signal no
 
 The Twitter/X data strengthens several layers of the Toolkit:
 
-11.   Public goods funding and capital flows.
+11\.   Public goods funding and capital flows.
 
 Repeated signals point toward Octant, Gitcoin, Giveth, Funding the Commons, yield vaults, quadratic funding, coalitional funding, public goods rounds, cause rounds, donation tokens, public goods staking, and funding infrastructure.
 
-12.   Impact records, attestations, and grant accountability.
+12\.   Impact records, attestations, and grant accountability.
 
 Repeated signals point toward Karma GAP, Hypercerts, EAS-style attestations, public goods impact records, Gitcoin and Octant learning loops, and the need to track milestones, contribution evidence, and retrospective funding.
 
-13.   Privacy, fairness, and Ethereum infrastructure.
+13\.   Privacy, fairness, and Ethereum infrastructure.
 
 Signals include Shutter Network, encrypted mempools, Shutter PEN, privacy-native tokens, Ethereum audit subsidies, passkeys, L2 privacy pages, post-quantum signatures, and security-oriented funding rounds.
 
-14.   Local nodes, implementation cases, and real-world context.
+14\.   Local nodes, implementation cases, and real-world context.
 
 Signals include GreenPill Phangan, Greenpill Nigeria, TAS Hub / Tech and Sun Hub, GreenSofa Taiwan, Green Goods, Ma Earth, Regen Atlas, PizzaDAO coordination events, local public goods rounds, and other place-based implementation references.
 
-15.   ReFi, ecology, MRV, and regeneration.
+15\.   ReFi, ecology, MRV, and regeneration.
 
 Signals include Regen Network, Carbon Copy ReFi, Ma Earth, BigWater, arkreen, Kokonut, Regen Atlas, carbon methodology public comments, ecological impact mechanisms, local resilience, and climate / biodiversity data leads.
 
-16.   Knowledge commons, AI, plurality, and civic systems.
+16\.   Knowledge commons, AI, plurality, and civic systems.
 
 Signals include Plurality Institute, Audrey Tang / Taiwan model references, BlockchainGov, civic AI, Funding the Commons AI governance work, Bonfires AI, LocalNodes-type knowledge gardens, and public AI infrastructure.
 
-17.   Solidarity, cooperatives, and commons economy.
+17\.   Solidarity, cooperatives, and commons economy.
 
 Signals include Bread Cooperative, Gardens, Sarafu / commitment pooling, cooperative crypto, mutual aid, local finance, community currencies, and commons-oriented capital flows.
 
@@ -26746,7 +26746,7 @@ Signal types:
 
 ·       Preserve links and timestamps in the separate registry so signals can be audited later.
 
-# **10. Concept and idea ecology**
+# **10\. Concept and idea ecology**
 
 ## **Why a concept and idea ecology matters**
 
@@ -26860,7 +26860,7 @@ Concept entries can have maturity states:
 
 ·       Deprecated or composted concept.
 
-# **11. Option Library**
+# **11\. Option Library**
 
 ## **Role of the Option Library**
 
@@ -27158,7 +27158,7 @@ Example compatibility questions:
 
 ·       If a group uses restricted memory, who can access it and how can misuse be challenged?
 
-# **12. Tracks and composition**
+# **12\. Tracks and composition**
 
 ## **What tracks are**
 
@@ -27174,23 +27174,23 @@ Initial tracks should be narrower than the full universe.
 
 Recommended initial tracks:
 
-18.   Newcomer Orientation Track.
+18\.   Newcomer Orientation Track.
 
 For people entering regenerative coordination, Greenpill, ReFi, Bloom, Ethereum public goods, local nodes, or knowledge commons for the first time.
 
-19.   Local Node Builder Track.
+19\.   Local Node Builder Track.
 
 For people starting or improving a local node, chapter, community hub, bioregional effort, or place-based coordination cell.
 
-20.   Knowledge Commons Builder Track.
+20\.   Knowledge Commons Builder Track.
 
 For people building a knowledge garden, source-system registry, community documentation system, or AI-assisted knowledge commons.
 
-21.   Operational Contributor Track.
+21\.   Operational Contributor Track.
 
 For people who are not complete newcomers and want to form a team, pick tools, understand admin, coordinate roles, and move toward concrete action.
 
-22.   Public Goods Funding, Capital Flows, and Stewardship Track.
+22\.   Public Goods Funding, Capital Flows, and Stewardship Track.
 
 For people designing, running, reviewing, or improving public goods funding systems, grant rounds, yield-based funding, endowments, treasuries, contribution records, and impact documentation.
 
@@ -27280,7 +27280,7 @@ Each track should ask:
 
 ·       What evidence would show the track is creating harm or confusion?
 
-# **13. Deployment and structural integrity**
+# **13\. Deployment and structural integrity**
 
 ## **Current posture**
 
@@ -27334,15 +27334,15 @@ A deployment is review-ready only when its structural conditions are defined pre
 
 ## **Three levels of structural use**
 
-Level 1 - Principles.
+Level 1 \- Principles.
 
 Guiding values such as source lineage, attribution, non-extractive synthesis, maturity, review state, public-use boundaries, non-harming, and disconfirmation.
 
-Level 2 - Review prompts.
+Level 2 \- Review prompts.
 
 Questions that support review and sensemaking but do not certify soundness. Examples: Who holds power here? What information is asymmetric? Who is affected but not represented? What would count as failure? What would change our mind?
 
-Level 3 - Enforceable standards.
+Level 3 \- Enforceable standards.
 
 Criteria precise enough to detect satisfaction or violation. Examples: a public claim must have a source or be marked unverified; AI synthesis must be marked AI-assisted until reviewed; deployment recommendations should identify authority, evidence, assumptions, and failure conditions.
 
@@ -27428,19 +27428,19 @@ A deployment entry should include:
 
 Use readiness levels to avoid treating draft structures as mature deployments:
 
-·       Level 0 - Idea: not yet deployable.
+·       Level 0 \- Idea: not yet deployable.
 
-·       Level 1 - Internal draft: can be used privately or by a small working group.
+·       Level 1 \- Internal draft: can be used privately or by a small working group.
 
-·       Level 2 - Internal pilot: can be tested with known participants.
+·       Level 2 \- Internal pilot: can be tested with known participants.
 
-·       Level 3 - Community pilot: can be tested with a defined community.
+·       Level 3 \- Community pilot: can be tested with a defined community.
 
-·       Level 4 - Public beta: can be public with clear limitations.
+·       Level 4 \- Public beta: can be public with clear limitations.
 
-·       Level 5 - Reviewed deployment: has defined roles, review, consent, maintenance, and response paths.
+·       Level 5 \- Reviewed deployment: has defined roles, review, consent, maintenance, and response paths.
 
-·       Level 6 - Field-informed pattern: has been tested across contexts and reviewed as reusable, while remaining context-sensitive.
+·       Level 6 \- Field-informed pattern: has been tested across contexts and reviewed as reusable, while remaining context-sensitive.
 
 ## **Examples of weak vs stronger deployment standards**
 
@@ -27472,7 +27472,7 @@ For each CSIS-related construct, choose one of four statuses:
 
 At this stage, most CSIS-related material should be cited reference, review prompt, or future alignment pathway.
 
-# **14. Implementation and learning memory**
+# **14\. Implementation and learning memory**
 
 ## **Role of implementation memory**
 
@@ -27618,7 +27618,7 @@ The Toolkit should make room for third-party memory so implementation records do
 
 This requires public-use boundaries, careful sourcing, and sometimes restricted or anonymized handling.
 
-# **15. Evolution layer and restricted memory**
+# **15\. Evolution layer and restricted memory**
 
 ## **Role of the Evolution layer**
 
@@ -27776,7 +27776,7 @@ Every major update should eventually be recorded with:
 
 ·       status.
 
-# **16. Infrastructure and substrate**
+# **16\. Infrastructure and substrate**
 
 ## **Infrastructure posture**
 
@@ -27916,7 +27916,7 @@ This means:
 
 ·       Bonfires AI and related sensemaking tools.
 
-# **17. Contributor roles, review, and stewardship**
+# **17\. Contributor roles, review, and stewardship**
 
 ## **Contributor role families**
 
@@ -28000,19 +28000,19 @@ Before broader release, use a guided process with initial contributors and revie
 
 Possible process:
 
-23.   Share this raw draft with a small high-context review group.
+23\.   Share this raw draft with a small high-context review group.
 
-24.   Ask each reviewer to focus on one layer or question.
+24\.   Ask each reviewer to focus on one layer or question.
 
-25.   Collect comments as signals, not as final decisions.
+25\.   Collect comments as signals, not as final decisions.
 
-26.   Route comments into Architecture, Resource, Source-System, Option, Track, Deployment, Implementation, Evolution, or Backlog queues.
+26\.   Route comments into Architecture, Resource, Source-System, Option, Track, Deployment, Implementation, Evolution, or Backlog queues.
 
-27.   Create a shorter public review version.
+27\.   Create a shorter public review version.
 
-28.   Publish forum / Hub invitation.
+28\.   Publish forum / Hub invitation.
 
-29.   Open broad contribution flows after the initial structure is less confusing.
+29\.   Open broad contribution flows after the initial structure is less confusing.
 
 ## **Reviewer prompts**
 
@@ -28040,7 +28040,7 @@ Ask reviewers:
 
 ·       What should be in the separate resource database instead of the master doc?
 
-# **18. Reward and contribution economy future seed**
+# **18\. Reward and contribution economy future seed**
 
 ## **Current posture**
 
@@ -28122,7 +28122,7 @@ If a contribution helps the commons become more useful, and later value flows fr
 
 Do not make this sound like a settled protocol yet.
 
-# **19. Source systems starter selection**
+# **19\. Source systems starter selection**
 
 ## **How to read this list**
 
@@ -28132,241 +28132,241 @@ Inclusion means: potentially relevant for review, routing, source-system card cr
 
 ## **Core regenerative coordination and ecosystem networks**
 
-·       Greenpill Network - core regenerative web3 and public goods coordination community - https://greenpill.network/
+·       Greenpill Network \- core regenerative web3 and public goods coordination community \- https://greenpill.network/
 
-·       GreenPill Dev Guild / Greenpill Writers Guild - technical and writing source-system leads - https://github.com/greenpill-dev-guild/coop
+·       GreenPill Dev Guild / Greenpill Writers Guild \- technical and writing source-system leads \- https://github.com/greenpill-dev-guild/coop
 
-·       ReFi DAO - regenerative finance network, localism, education, ecosystem mapping - https://refidao.com/
+·       ReFi DAO \- regenerative finance network, localism, education, ecosystem mapping \- https://refidao.com/
 
-·       Bloom Network - regenerative local action and impact reporting network - https://bloomnetwork.earth/
+·       Bloom Network \- regenerative local action and impact reporting network \- https://bloomnetwork.earth/
 
-·       Regen Coordination Hub - coordination context and possible source system - https://regencoordination.xyz/
+·       Regen Coordination Hub \- coordination context and possible source system \- https://regencoordination.xyz/
 
-·       Regens Unite - gatherings and regenerative web3 community source - https://www.regensunite.earth/
+·       Regens Unite \- gatherings and regenerative web3 community source \- https://www.regensunite.earth/
 
-·       Regen Network - ecological data, ecological assets, Regen forum - https://www.regen.network/
+·       Regen Network \- ecological data, ecological assets, Regen forum \- https://www.regen.network/
 
-·       Regen Foundation - ecosystem steward / funding / governance context - https://regen.foundation/
+·       Regen Foundation \- ecosystem steward / funding / governance context \- https://regen.foundation/
 
-·       Regen Atlas - regenerative project atlas / mapping candidate - https://www.regenatlas.xyz/
+·       Regen Atlas \- regenerative project atlas / mapping candidate \- https://www.regenatlas.xyz/
 
-·       Celo / Celo Public Goods - mobile-first and ReFi-adjacent blockchain ecosystem - https://celo.org/
+·       Celo / Celo Public Goods \- mobile-first and ReFi-adjacent blockchain ecosystem \- https://celo.org/
 
-·       Climate Collective - climate web3 and ReFi ecosystem context - https://climatecollective.org/
+·       Climate Collective \- climate web3 and ReFi ecosystem context \- https://climatecollective.org/
 
-·       Ethereum Localism - localism and Ethereum context - https://www.ethereumlocalism.xyz/
+·       Ethereum Localism \- localism and Ethereum context \- https://www.ethereumlocalism.xyz/
 
 ## **Public goods funding and capital flow systems**
 
-·       Gitcoin - public goods funding platform and source system - https://gitcoin.co/
+·       Gitcoin \- public goods funding platform and source system \- https://gitcoin.co/
 
-·       Gitcoin Governance Forum - governance, grants, funding rounds, retrospectives - https://gov.gitcoin.co/
+·       Gitcoin Governance Forum \- governance, grants, funding rounds, retrospectives \- https://gov.gitcoin.co/
 
-·       Giveth - donations, QF, causes, project pages - https://giveth.io/
+·       Giveth \- donations, QF, causes, project pages \- https://giveth.io/
 
-·       Giveth Forum - project and governance archive - https://forum.giveth.io/
+·       Giveth Forum \- project and governance archive \- https://forum.giveth.io/
 
-·       Octant - public goods funding and yield-based allocation system - https://octant.build/
+·       Octant \- public goods funding and yield-based allocation system \- https://octant.build/
 
-·       Octant v2 docs - funding model and developer documentation - https://docs.v2.octant.build/
+·       Octant v2 docs \- funding model and developer documentation \- https://docs.v2.octant.build/
 
-·       Funding the Commons - public goods funding conference, research, talks, reports - https://fundingthecommons.io/
+·       Funding the Commons \- public goods funding conference, research, talks, reports \- https://fundingthecommons.io/
 
-·       Commons Stack - commons and mechanism design source system - https://www.commonsstack.org/
+·       Commons Stack \- commons and mechanism design source system \- https://www.commonsstack.org/
 
-·       Open Collective - fiscal hosting and open collective finance - https://opencollective.com/
+·       Open Collective \- fiscal hosting and open collective finance \- https://opencollective.com/
 
-·       Gardens - shared resource coordination / funding governance lead - https://gardens.fund/
+·       Gardens \- shared resource coordination / funding governance lead \- https://gardens.fund/
 
-·       Bread Cooperative - solidarity crypto and distribution cycles - https://breadchain.xyz/
+·       Bread Cooperative \- solidarity crypto and distribution cycles \- https://breadchain.xyz/
 
-·       Grassroots Economics / Sarafu - commitment pooling, community currencies, local finance - https://www.grassrootseconomics.org/
+·       Grassroots Economics / Sarafu \- commitment pooling, community currencies, local finance \- https://www.grassrootseconomics.org/
 
-·       Sarafu Network - community currency and local exchange platform - https://sarafu.network/
+·       Sarafu Network \- community currency and local exchange platform \- https://sarafu.network/
 
-·       Hypercerts - structured impact records and retrospective funding leads - https://docs.hypercerts.org/
+·       Hypercerts \- structured impact records and retrospective funding leads \- https://docs.hypercerts.org/
 
-·       Karma GAP - grantee accountability and milestone/progress updates - https://docs.gap.karmahq.xyz/
+·       Karma GAP \- grantee accountability and milestone/progress updates \- https://docs.gap.karmahq.xyz/
 
 ## **Knowledge gardens, ontology, and source-system peers**
 
-·       Knowledge Commoning Swarm - broader knowledge commons collaboration context.
+·       Knowledge Commoning Swarm \- broader knowledge commons collaboration context.
 
-·       Octo / Bioregional Knowledge Commons - ontology and bioregional knowledge commoning candidate - https://github.com/BioregionalKnowledgeCommons/Octo
+·       Octo / Bioregional Knowledge Commons \- ontology and bioregional knowledge commoning candidate \- https://github.com/BioregionalKnowledgeCommons/Octo
 
-·       BKC Roadmap - bioregional knowledge commons roadmap - https://bioregionalknowledgecommons.github.io/roadmap/
+·       BKC Roadmap \- bioregional knowledge commons roadmap \- https://bioregionalknowledgecommons.github.io/roadmap/
 
-·       SuperBenefit Knowledge Garden - adjacent knowledge garden and public goods/regenerative web3 source - https://knowledge.superbenefit.org/
+·       SuperBenefit Knowledge Garden \- adjacent knowledge garden and public goods/regenerative web3 source \- https://knowledge.superbenefit.org/
 
-·       LocalNodes - AI-powered community knowledge garden candidate - https://localnodes.xyz/
+·       LocalNodes \- AI-powered community knowledge garden candidate \- https://localnodes.xyz/
 
-·       Network Nations Garden - knowledge garden / network state-adjacent source - https://garden.networknations.network/
+·       Network Nations Garden \- knowledge garden / network state-adjacent source \- https://garden.networknations.network/
 
-·       P2P Foundation Wiki - commons, peer production, civic and economic source system - https://wiki.p2pfoundation.net/
+·       P2P Foundation Wiki \- commons, peer production, civic and economic source system \- https://wiki.p2pfoundation.net/
 
-·       Commons Library - commons resources and knowledge archive - https://commonslibrary.org/
+·       Commons Library \- commons resources and knowledge archive \- https://commonslibrary.org/
 
-·       Open Knowledge Foundation - open knowledge / data commons source system - https://okfn.org/
+·       Open Knowledge Foundation \- open knowledge / data commons source system \- https://okfn.org/
 
-·       Creative Commons - licensing and knowledge commons legal infrastructure - https://creativecommons.org/
+·       Creative Commons \- licensing and knowledge commons legal infrastructure \- https://creativecommons.org/
 
-·       Open Data Commons - data licensing - https://opendatacommons.org/
+·       Open Data Commons \- data licensing \- https://opendatacommons.org/
 
 ## **Governance, coordination, and social architecture**
 
-·       CSIS / Coordination Structural Integrity Suite - structural integrity reference - https://github.com/coordination-structural-integrity-suite/suite
+·       CSIS / Coordination Structural Integrity Suite \- structural integrity reference \- https://github.com/coordination-structural-integrity-suite/suite
 
-·       Holonic Horizons - Durgadas writing, social architecture, frame language source - https://paragraph.com/@holonic-horizons
+·       Holonic Horizons \- Durgadas writing, social architecture, frame language source \- https://paragraph.com/@holonic-horizons
 
-·       Gravity DAO standards - governance / standards source - https://github.com/durgadasji/standards
+·       Gravity DAO standards \- governance / standards source \- https://github.com/durgadasji/standards
 
-·       Metagov - digital governance research - https://metagov.org/
+·       Metagov \- digital governance research \- https://metagov.org/
 
-·       Govbase - governance pattern library - https://govbase.io/
+·       Govbase \- governance pattern library \- https://govbase.io/
 
-·       DAOstar - DAO standards and DAOIPs - https://daostar.org/
+·       DAOstar \- DAO standards and DAOIPs \- https://daostar.org/
 
-·       Sociocracy 3.0 - consent and governance framework - https://sociocracy30.org/
+·       Sociocracy 3.0 \- consent and governance framework \- https://sociocracy30.org/
 
-·       Platform Cooperativism Consortium - cooperative platform source - https://platform.coop/
+·       Platform Cooperativism Consortium \- cooperative platform source \- https://platform.coop/
 
-·       Purpose Foundation / steward ownership - ownership model - https://purpose-economy.org/en/
+·       Purpose Foundation / steward ownership \- ownership model \- https://purpose-economy.org/en/
 
-·       Token Engineering Commons - mechanism and token engineering community - https://tokenengineeringcommons.org/
+·       Token Engineering Commons \- mechanism and token engineering community \- https://tokenengineeringcommons.org/
 
-·       Token Engineering Labs - token engineering research and tooling - https://www.tokenengineeringlabs.com/
+·       Token Engineering Labs \- token engineering research and tooling \- https://www.tokenengineeringlabs.com/
 
-·       BlockScience - complex systems and token engineering - https://block.science/
+·       BlockScience \- complex systems and token engineering \- https://block.science/
 
-·       Mechanism Design for Social Good - mechanism design research - https://www.md4sg.com/
+·       Mechanism Design for Social Good \- mechanism design research \- https://www.md4sg.com/
 
 ## **Ethereum, protocol, and public goods infrastructure**
 
-·       Ethereum.org - canonical Ethereum ecosystem entry - https://ethereum.org/
+·       Ethereum.org \- canonical Ethereum ecosystem entry \- https://ethereum.org/
 
-·       Ethereum Magicians - protocol governance forum - https://ethereum-magicians.org/
+·       Ethereum Magicians \- protocol governance forum \- https://ethereum-magicians.org/
 
-·       ethresear.ch - Ethereum research forum - https://ethresear.ch/
+·       ethresear.ch \- Ethereum research forum \- https://ethresear.ch/
 
-·       Ethereum Foundation / Devcon / Ethereum Everywhere / Use Case Lab - source-system cluster.
+·       Ethereum Foundation / Devcon / Ethereum Everywhere / Use Case Lab \- source-system cluster.
 
-·       Optimism Governance Forum - public goods and governance context - https://gov.optimism.io/
+·       Optimism Governance Forum \- public goods and governance context \- https://gov.optimism.io/
 
-·       Arbitrum Governance Forum - ecosystem governance - https://forum.arbitrum.foundation/
+·       Arbitrum Governance Forum \- ecosystem governance \- https://forum.arbitrum.foundation/
 
-·       ENS Governance Forum - identity/name governance - https://discuss.ens.domains/
+·       ENS Governance Forum \- identity/name governance \- https://discuss.ens.domains/
 
-·       Token Engineering Commons Forum - mechanism governance context - https://forum.tecommons.org/
+·       Token Engineering Commons Forum \- mechanism governance context \- https://forum.tecommons.org/
 
-·       Celo Forum - ReFi / public goods ecosystem governance - https://forum.celo.org/
+·       Celo Forum \- ReFi / public goods ecosystem governance \- https://forum.celo.org/
 
-·       Maker / Sky Governance Forum - governance / treasury source - https://forum.sky.money/
+·       Maker / Sky Governance Forum \- governance / treasury source \- https://forum.sky.money/
 
-·       Protocol Guild - Ethereum commons funding context - https://protocol-guild.readthedocs.io/
+·       Protocol Guild \- Ethereum commons funding context \- https://protocol-guild.readthedocs.io/
 
 ## **Identity, attestations, access, reputation, and records**
 
-·       Ethereum Attestation Service - attestation infrastructure - https://docs.attest.org/
+·       Ethereum Attestation Service \- attestation infrastructure \- https://docs.attest.org/
 
-·       EAS Explorer - schemas and attestations - https://easscan.org/
+·       EAS Explorer \- schemas and attestations \- https://easscan.org/
 
-·       Hypercerts - structured impact records - https://docs.hypercerts.org/
+·       Hypercerts \- structured impact records \- https://docs.hypercerts.org/
 
-·       Karma GAP - grant accountability and progress records - https://docs.gap.karmahq.xyz/
+·       Karma GAP \- grant accountability and progress records \- https://docs.gap.karmahq.xyz/
 
-·       POAP - participation and event memory - https://poap.xyz/
+·       POAP \- participation and event memory \- https://poap.xyz/
 
-·       Unlock Protocol - onchain memberships and subscriptions - https://docs.unlock-protocol.com/
+·       Unlock Protocol \- onchain memberships and subscriptions \- https://docs.unlock-protocol.com/
 
-·       Hats Protocol - roles and accountability - https://www.hatsprotocol.xyz/
+·       Hats Protocol \- roles and accountability \- https://www.hatsprotocol.xyz/
 
-·       Gitcoin Passport / Human Passport - Sybil resistance and identity - https://passport.xyz/
+·       Gitcoin Passport / Human Passport \- Sybil resistance and identity \- https://passport.xyz/
 
-·       BrightID - identity / anti-Sybil reference - https://www.brightid.org/
+·       BrightID \- identity / anti-Sybil reference \- https://www.brightid.org/
 
-·       Collab.Land - token-gated community access - https://collab.land/
+·       Collab.Land \- token-gated community access \- https://collab.land/
 
-·       Self Protocol - privacy-preserving identity lead - https://self.xyz/
+·       Self Protocol \- privacy-preserving identity lead \- https://self.xyz/
 
 ## **Privacy, safety, and security source systems**
 
-·       Shutter Network - threshold encryption, fairness, encrypted mempools, PEN-related lead - https://docs.shutter.network/
+·       Shutter Network \- threshold encryption, fairness, encrypted mempools, PEN-related lead \- https://docs.shutter.network/
 
-·       Web3Privacy Now - privacy research and ecosystem mapping - https://web3privacy.info/
+·       Web3Privacy Now \- privacy research and ecosystem mapping \- https://web3privacy.info/
 
-·       Cypherpunk research archives - privacy and decentralization context.
+·       Cypherpunk research archives \- privacy and decentralization context.
 
-·       L2BEAT privacy pages - privacy and L2 infrastructure source candidate.
+·       L2BEAT privacy pages \- privacy and L2 infrastructure source candidate.
 
-·       Ethereum audit subsidy sources - security funding lead.
+·       Ethereum audit subsidy sources \- security funding lead.
 
-·       pERC20 / privacy-native token discussions - Ethereum research / EIP lead.
+·       pERC20 / privacy-native token discussions \- Ethereum research / EIP lead.
 
 ## **ReFi, ecology, MRV, and mapping systems**
 
-·       Carbon Copy ReFi Projects - project directory / extraction pending - https://carboncopy.news/refi/projects
+·       Carbon Copy ReFi Projects \- project directory / extraction pending \- https://carboncopy.news/refi/projects
 
-·       Open Forest Protocol - forest MRV / climate web3 - https://openforestprotocol.org/
+·       Open Forest Protocol \- forest MRV / climate web3 \- https://openforestprotocol.org/
 
-·       Silvi Protocol - tree planting / MRV lead - https://silvi.earth/
+·       Silvi Protocol \- tree planting / MRV lead \- https://silvi.earth/
 
-·       Toucan Protocol - carbon market protocol; high-review claims area - https://toucan.earth/
+·       Toucan Protocol \- carbon market protocol; high-review claims area \- https://toucan.earth/
 
-·       GainForest - conservation tech, AI, ecological funding - https://gainforest.earth/
+·       GainForest \- conservation tech, AI, ecological funding \- https://gainforest.earth/
 
-·       Open Earth Foundation - climate data infrastructure - https://openearth.org/
+·       Open Earth Foundation \- climate data infrastructure \- https://openearth.org/
 
-·       Restor - restoration project map - https://restor.eco/
+·       Restor \- restoration project map \- https://restor.eco/
 
-·       Global Forest Watch - forest monitoring - https://www.globalforestwatch.org/
+·       Global Forest Watch \- forest monitoring \- https://www.globalforestwatch.org/
 
-·       GBIF - biodiversity data - https://www.gbif.org/
+·       GBIF \- biodiversity data \- https://www.gbif.org/
 
-·       iNaturalist - biodiversity observations - https://www.inaturalist.org/
+·       iNaturalist \- biodiversity observations \- https://www.inaturalist.org/
 
-·       OpenStreetMap / HOT OSM - open and humanitarian mapping - https://www.openstreetmap.org/ and https://www.hotosm.org/
+·       OpenStreetMap / HOT OSM \- open and humanitarian mapping \- https://www.openstreetmap.org/ and https://www.hotosm.org/
 
-·       QGIS - geospatial tool - https://qgis.org/
+·       QGIS \- geospatial tool \- https://qgis.org/
 
-·       Regen Learnings - Regen ecosystem learning source - https://regenlearnings.xyz/
+·       Regen Learnings \- Regen ecosystem learning source \- https://regenlearnings.xyz/
 
-·       Ecofrontiers - ecology / ReFi source candidate - https://ecofrontiers.xyz/
+·       Ecofrontiers \- ecology / ReFi source candidate \- https://ecofrontiers.xyz/
 
 ## **Media, podcasts, and narrative archives**
 
-·       GreenPill Podcast - regenerative crypto, public goods, mechanism design, Ethereum coordination - https://podcasts.apple.com/us/podcast/greenpill/id1609313639
+·       GreenPill Podcast \- regenerative crypto, public goods, mechanism design, Ethereum coordination \- https://podcasts.apple.com/us/podcast/greenpill/id1609313639
 
-·       Crypto Altruists Podcast - web3 impact, ReFi, humanitarian aid, DeSci, public goods - https://www.cryptoaltruists.com/podcasts
+·       Crypto Altruists Podcast \- web3 impact, ReFi, humanitarian aid, DeSci, public goods \- https://www.cryptoaltruists.com/podcasts
 
-·       The Blockchain Socialist - crypto-left, cooperative crypto, public AI, Fileverse, Bread Coop - https://theblockchainsocialist.com/
+·       The Blockchain Socialist \- crypto-left, cooperative crypto, public AI, Fileverse, Bread Coop \- https://theblockchainsocialist.com/
 
-·       Funding the Commons talks - public goods funding and mechanism design source.
+·       Funding the Commons talks \- public goods funding and mechanism design source.
 
-·       The Daily Gwei - Ethereum education and media source.
+·       The Daily Gwei \- Ethereum education and media source.
 
-·       Kernel - learning community / web3 education source - https://kernel.community/
+·       Kernel \- learning community / web3 education source \- https://kernel.community/
 
-·       Other Internet / New Public / Data and Society - civic media / public internet / AI context.
+·       Other Internet / New Public / Data and Society \- civic media / public internet / AI context.
 
 ## **Civic, plurality, AI, and democratic infrastructure**
 
-·       Plurality Institute - plurality, civic technology, democratic innovation - https://www.plurality.net/
+·       Plurality Institute \- plurality, civic technology, democratic innovation \- https://www.plurality.net/
 
-·       Collective Intelligence Project - collective intelligence and AI governance - https://cip.org/
+·       Collective Intelligence Project \- collective intelligence and AI governance \- https://cip.org/
 
-·       Civic AI - civic AI source candidate.
+·       Civic AI \- civic AI source candidate.
 
-·       OpenCivics - civic infrastructure / Swarm context.
+·       OpenCivics \- civic infrastructure / Swarm context.
 
-·       Bonfires AI - AI sensemaking source lead.
+·       Bonfires AI \- AI sensemaking source lead.
 
-·       Gaia AI - AI / coordination source lead.
+·       Gaia AI \- AI / coordination source lead.
 
-·       Audrey Tang / Taiwan model sources - civic technology, democracy, public AI.
+·       Audrey Tang / Taiwan model sources \- civic technology, democracy, public AI.
 
-·       BlockchainGov - governance and blockchain research signals.
+·       BlockchainGov \- governance and blockchain research signals.
 
-·       Edge City / Zuzalu / popup city source systems - civic experimentation and local coordination.
+·       Edge City / Zuzalu / popup city source systems \- civic experimentation and local coordination.
 
 ## **Local node and implementation leads**
 
@@ -28402,7 +28402,7 @@ Inclusion means: potentially relevant for review, routing, source-system card cr
 
 These should mostly begin as implementation leads or source-system leads, not as mature patterns.
 
-# **20. Backlog and future iteration ideas**
+# **20\. Backlog and future iteration ideas**
 
 ## **Backlog principle**
 
@@ -28558,7 +28558,7 @@ The rule:
 
 ·       What should be evaluated by Durgadas / CSIS-literate reviewers?
 
-# **21. Review prompts for Durgadas, team, and public feedback**
+# **21\. Review prompts for Durgadas, team, and public feedback**
 
 ## **For Durgadas / CSIS review**
 
@@ -28660,7 +28660,7 @@ The rule:
 
 ·       What implementation learning can you contribute?
 
-# **Appendix A - Source-system card template**
+# **Appendix A \- Source-system card template**
 
 Use this template for first-class source systems.
 
@@ -28700,7 +28700,7 @@ Review status:
 
 Open questions:
 
-# **Appendix B - Resource registry schema**
+# **Appendix B \- Resource registry schema**
 
 Minimum fields:
 
@@ -28754,7 +28754,7 @@ Minimum fields:
 
 ·       notes.
 
-# **Appendix C - Deep intake template**
+# **Appendix C \- Deep intake template**
 
 Submitted thing:
 
@@ -28788,7 +28788,7 @@ Suggested routes:
 
 Review status:
 
-# **Appendix D - Option entry template**
+# **Appendix D \- Option entry template**
 
 Name:
 
@@ -28822,7 +28822,7 @@ Deployment questions:
 
 Open questions:
 
-# **Appendix E - Deployment template**
+# **Appendix E \- Deployment template**
 
 Deployment name:
 
@@ -28872,7 +28872,7 @@ Readiness level:
 
 Open questions:
 
-# **Appendix F - Implementation memory template**
+# **Appendix F \- Implementation memory template**
 
 Implementation name:
 
@@ -28914,7 +28914,7 @@ Public-use boundary:
 
 Review status:
 
-# **Appendix G - Social Signal Scan fields**
+# **Appendix G \- Social Signal Scan fields**
 
 Source account:
 
@@ -28942,7 +28942,7 @@ Notes:
 
 Review status:
 
-# **Appendix H - Starter glossary**
+# **Appendix H \- Starter glossary**
 
 Knowledge coordination friction: the difficulty of finding, understanding, verifying, reusing, adapting, and connecting knowledge to action across fragmented systems.
 
@@ -28972,27 +28972,27 @@ CSIS-informed: influenced by CSIS concerns and language without claiming conform
 
 CSIS-conformant: assessed against the actual CSIS standards, dependencies, enforcement logic, and violation-detection criteria.
 
-# **Appendix I - Immediate next steps after this draft**
+# **Appendix I \- Immediate next steps after this draft**
 
-30.   Share this draft with the immediate team for high-context review.
+30\.   Share this draft with the immediate team for high-context review.
 
-31.   Ask reviewers to comment by layer rather than trying to review everything at once.
+31\.   Ask reviewers to comment by layer rather than trying to review everything at once.
 
-32.   Create a separate Resource Appendix v0.3 from the improved seed, old link dump, and social signal scan.
+32\.   Create a separate Resource Appendix v0.3 from the improved seed, old link dump, and social signal scan.
 
-33.   Create a first batch of Source System Cards.
+33\.   Create a first batch of Source System Cards.
 
-34.   Create starter Option Library entries for public goods funding, attestations, documentation, source systems, and local node building.
+34\.   Create starter Option Library entries for public goods funding, attestations, documentation, source systems, and local node building.
 
-35.   Create starter Implementation Memory records from known public goods rounds, local nodes, Bloom impact reports, Karma GAP updates, and forum retrospectives.
+35\.   Create starter Implementation Memory records from known public goods rounds, local nodes, Bloom impact reports, Karma GAP updates, and forum retrospectives.
 
-36.   Ask Durgadas / CSIS-literate reviewers to review the structural integrity posture and deployment template.
+36\.   Ask Durgadas / CSIS-literate reviewers to review the structural integrity posture and deployment template.
 
-37.   Prepare a shorter public forum / Hub post that shares the v1 site and this deeper architecture as an invitation to feedback.
+37\.   Prepare a shorter public forum / Hub post that shares the v1 site and this deeper architecture as an invitation to feedback.
 
-38.   Keep all unintegrated material in the Backlog rather than deleting it.
+38\.   Keep all unintegrated material in the Backlog rather than deleting it.
 
-39.   Do not launch broad contribution flows until source-system, resource, and review routing is less confusing.
+39\.   Do not launch broad contribution flows until source-system, resource, and review routing is less confusing.
 
 # **Addendum — New Context, Resource Expansion, Podcast Synthesis, and Next Iteration Seeds**
 
@@ -29014,7 +29014,7 @@ This addendum is intentionally raw and review-facing. It should help future revi
 
 ---
 
-## **1. Do not replace the existing draft too quickly**
+## **1\. Do not replace the existing draft too quickly**
 
 A key lesson from the recent iteration process is that aggressive synthesis can accidentally erase useful intelligence.
 
@@ -29038,7 +29038,7 @@ The large draft should remain available for deeper review, AI-assisted querying,
 
 ---
 
-## **2. Updated artifact model**
+## **2\. Updated artifact model**
 
 The project should now be understood as a set of connected artifacts, not one master document.
 
@@ -29063,7 +29063,7 @@ The master doc should not try to contain everything. It should define the archit
 
 ---
 
-## **3. Resource database update**
+## **3\. Resource database update**
 
 The resource database should be treated as a separate working registry, not as a polished appendix inside the master doc.
 
@@ -29109,7 +29109,7 @@ The resource database should not disappear behind summary prose. It is one of th
 
 ---
 
-## **4. Social signal scan update**
+## **4\. Social signal scan update**
 
 The social signal scan should be understood as a routing and discovery layer.
 
@@ -29139,7 +29139,7 @@ Social signals help us notice what deserves review. They do not tell us what is 
 
 ---
 
-## **5. Podcast synthesis update**
+## **5\. Podcast synthesis update**
 
 The podcast synthesis adds a major new layer to the Toolkit.
 
@@ -29176,7 +29176,7 @@ They can become living knowledge artifacts.
 
 ---
 
-## **6. Media Source System / Living Artifact Track**
+## **6\. Media Source System / Living Artifact Track**
 
 A future Toolkit track should be added:
 
@@ -29216,7 +29216,7 @@ The purpose is to keep valuable field intelligence from disappearing, while pres
 
 ---
 
-## **7. Podcast-derived objects to add to the ontology**
+## **7\. Podcast-derived objects to add to the ontology**
 
 The ontology / semantic kernel should be expanded carefully to support media source systems.
 
@@ -29267,7 +29267,7 @@ Candidate relationships:
 
 ---
 
-## **8. Media source-system safeguards**
+## **8\. Media source-system safeguards**
 
 Podcast and media archives require structural caution.
 
@@ -29302,7 +29302,7 @@ The goal is to preserve conversational knowledge without overstating its authori
 
 ---
 
-## **9. Public goods builder / open-source tooling update**
+## **9\. Public goods builder / open-source tooling update**
 
 The conversation also added a stronger public goods builder lens.
 
@@ -29343,7 +29343,7 @@ The goal is to help people build with more awareness, interoperability, reuse, a
 
 ---
 
-## **10. Automated curation and amplification update**
+## **10\. Automated curation and amplification update**
 
 Automated curation should be treated as a future or experimental layer.
 
@@ -29395,7 +29395,7 @@ Automated curation should disclose:
 
 ---
 
-## **11. CSIS and structural integrity update**
+## **11\. CSIS and structural integrity update**
 
 The new context reinforces the importance of CSIS-informed structural caution.
 
@@ -29445,7 +29445,7 @@ The Toolkit should gradually help move material from:
 
 ---
 
-## **12. Updated theory-of-change implication**
+## **12\. Updated theory-of-change implication**
 
 The theory of change should now explicitly include:
 
@@ -29467,7 +29467,7 @@ If regenerative coordination ecosystems are slowed down by scattered knowledge, 
 
 ---
 
-## **13. Updated outcomes to consider**
+## **13\. Updated outcomes to consider**
 
 Add these outcome categories to the next iteration.
 
@@ -29501,7 +29501,7 @@ Add these outcome categories to the next iteration.
 
 ---
 
-## **14. Updated source-system categories**
+## **14\. Updated source-system categories**
 
 The next iteration should explicitly include these source-system categories:
 
@@ -29523,7 +29523,7 @@ The next iteration should explicitly include these source-system categories:
 
 ---
 
-## **15. Updated backlog items**
+## **15\. Updated backlog items**
 
 Add these to the backlog:
 
@@ -29547,7 +29547,7 @@ Add these to the backlog:
 
 ---
 
-## **16. Next iteration strategy**
+## **16\. Next iteration strategy**
 
 The next iteration should not try to rewrite everything at once.
 
@@ -29568,7 +29568,7 @@ Recommended approach:
 
 ---
 
-## **17. Closing note for reviewers**
+## **17\. Closing note for reviewers**
 
 This addendum does not invalidate the existing draft.
 
@@ -29648,7 +29648,7 @@ It should help each reader find the right depth.
 
 This part helps a new reviewer understand what they are looking at before entering the dense architecture.
 
-### **1. Working Orientation and Draft Status**
+### **1\. Working Orientation and Draft Status**
 
 Explain that this is a raw, overgrown, review-facing draft. It is not final, canonical, fully reviewed, CSIS-conformant, or a mature public resource database.
 
@@ -29661,7 +29661,7 @@ Include the key posture:
 * this is a public feedback invitation draft, not a final launch;  
 * the master doc is not the whole project.
 
-### **2. Plain-Language Introduction**
+### **2\. Plain-Language Introduction**
 
 A simple human-readable explanation:
 
@@ -29669,7 +29669,7 @@ The Toolkit helps regenerative communities organize scattered knowledge into a l
 
 This section should be short enough for a non-expert to understand.
 
-### **3. Why This Exists: Knowledge Coordination Friction**
+### **3\. Why This Exists: Knowledge Coordination Friction**
 
 Explain the core problem:
 
@@ -29677,7 +29677,7 @@ Useful knowledge already exists, but it is scattered across documents, websites,
 
 The Toolkit exists to reduce knowledge coordination friction.
 
-### **4. Artifact Map**
+### **4\. Artifact Map**
 
 Explain the relationship between:
 
@@ -29692,7 +29692,7 @@ Explain the relationship between:
 
 This section should prevent people from thinking the master doc is the whole project.
 
-### **5. How to Read and Review This Draft**
+### **5\. How to Read and Review This Draft**
 
 Give reviewers instructions.
 
@@ -29712,7 +29712,7 @@ Examples:
 
 This part should contain the updated problems/theory/outcomes material, but in a modular way.
 
-### **6. Problems We Are Trying to Solve**
+### **6\. Problems We Are Trying to Solve**
 
 Include the updated problem list:
 
@@ -29731,7 +29731,7 @@ Include the updated problem list:
 13. Automated curation and amplification are still too manual, biased, and incomplete.  
 14. Structural integrity is named more easily than it is practiced.
 
-### **7. Theory of Change**
+### **7\. Theory of Change**
 
 Keep the core line:
 
@@ -29754,7 +29754,7 @@ Include updated logic around:
 * implementation memory;  
 * CSIS-informed review.
 
-### **8. Outputs and Outcomes**
+### **8\. Outputs and Outcomes**
 
 Organize into:
 
@@ -29775,7 +29775,7 @@ Make sure this includes:
 * automated curation layer;  
 * review and maturity labels.
 
-### **9. First Practical Tests and Learning Signals**
+### **9\. First Practical Tests and Learning Signals**
 
 Use the practical tests:
 
@@ -29797,7 +29797,7 @@ The lifecycle should now be:
 
 Capture → Understand → Relate → Compose → Specify → Implement → Learn → Evolve → Steward → Interoperate
 
-### **10. The Knowledge Lifecycle Overview**
+### **10\. The Knowledge Lifecycle Overview**
 
 Explain how knowledge moves through the Toolkit.
 
@@ -29818,7 +29818,7 @@ It may become:
 * Track Input;  
 * Review Queue Item.
 
-### **11. Capture: Resources, Social Signals, Media, Repositories, and Source Systems**
+### **11\. Capture: Resources, Social Signals, Media, Repositories, and Source Systems**
 
 This replaces the old “Resource Graph” and “Social Signal” sections as the first lifecycle phase.
 
@@ -29836,7 +29836,7 @@ Important principle:
 
 Capture broadly, but do not treat everything as equally reviewed, useful, safe, or public-ready.
 
-### **12. Understand: Encyclopedia, Concepts, Glossary, and Learning Paths**
+### **12\. Understand: Encyclopedia, Concepts, Glossary, and Learning Paths**
 
 This is where the explanatory layer lives.
 
@@ -29851,7 +29851,7 @@ Include:
 
 The Encyclopedia explains; it does not replace the resource database, option library, or deployment layer.
 
-### **13. Relate: Ontology, Metadata, Source Lineage, Claims, and Evidence**
+### **13\. Relate: Ontology, Metadata, Source Lineage, Claims, and Evidence**
 
 This is the semantic kernel section.
 
@@ -29872,7 +29872,7 @@ Key line:
 
 Metadata helps us filter things. Ontology helps us understand what things are and how they relate.
 
-### **14. Compose: Options, Mechanisms, Patterns, Templates, and Design Choices**
+### **14\. Compose: Options, Mechanisms, Patterns, Templates, and Design Choices**
 
 This is the Option Library section.
 
@@ -29892,7 +29892,7 @@ Important distinction:
 
 An option is not automatically good. It is a reusable choice with context, tradeoffs, dependencies, risks, and compatibility concerns.
 
-### **15. Specify: Tracks, Deployments, Compatibility, and Structural Constraints**
+### **15\. Specify: Tracks, Deployments, Compatibility, and Structural Constraints**
 
 This combines tracks and deployment logic but keeps them distinct.
 
@@ -29913,7 +29913,7 @@ Key distinction:
 
 A track helps someone navigate. A deployment specifies what will actually be used.
 
-### **16. Implement: Pilots, Local Nodes, Campaigns, Rounds, Tools, and Case Records**
+### **16\. Implement: Pilots, Local Nodes, Campaigns, Rounds, Tools, and Case Records**
 
 This is where real-world activity enters.
 
@@ -29932,7 +29932,7 @@ Include:
 
 This section should not turn cases into patterns too quickly.
 
-### **17. Learn: Implementation Memory, Feedback, Failure, and Third-Party Signals**
+### **17\. Learn: Implementation Memory, Feedback, Failure, and Third-Party Signals**
 
 This is the implementation memory layer.
 
@@ -29952,7 +29952,7 @@ Key line:
 
 The goal is not to create success stories. The goal is to help the field remember honestly.
 
-### **18. Evolve: Revision, Versioning, Signals, and Adaptive Loops**
+### **18\. Evolve: Revision, Versioning, Signals, and Adaptive Loops**
 
 This is the evolution layer.
 
@@ -29969,7 +29969,7 @@ Include:
 * ontology updates;  
 * public-use boundary updates.
 
-### **19. Steward: Review, Attribution, Consent, Restricted Memory, and Future Rewards**
+### **19\. Steward: Review, Attribution, Consent, Restricted Memory, and Future Rewards**
 
 This is the commons governance / stewardship layer.
 
@@ -29989,7 +29989,7 @@ Include:
 
 This section can absorb the old governance/reward sections.
 
-### **20. Interoperate: Infrastructure, Schemas, Publishing, AI Workflows, and Federation**
+### **20\. Interoperate: Infrastructure, Schemas, Publishing, AI Workflows, and Federation**
 
 This is the infrastructure section.
 
@@ -30020,35 +30020,35 @@ Choose infrastructure after workflows are clearer. Do not prematurely lock the c
 
 Instead of scattering tracks inside the architecture, give the first important tracks their own part.
 
-### **21. Newcomer Orientation Track**
+### **21\. Newcomer Orientation Track**
 
 For people entering Greenpill, ReFi, Bloom, Ethereum public goods, local nodes, knowledge commons, or regenerative coordination.
 
-### **22. Local Node Builder Track**
+### **22\. Local Node Builder Track**
 
 For people starting or improving a chapter, local node, community hub, or bioregional coordination cell.
 
-### **23. Knowledge Commons Builder Track**
+### **23\. Knowledge Commons Builder Track**
 
 For people building a source-system registry, community documentation system, knowledge garden, ontology-aligned archive, or AI-assisted commons.
 
-### **24. Public Goods Builder / Open-Source Tooling Track**
+### **24\. Public Goods Builder / Open-Source Tooling Track**
 
 This is now important enough to be first-class.
 
 For builders, developers, grant applicants, reviewers, and infrastructure teams trying to reuse existing tools, avoid duplication, design for interoperability, and return learning to the commons.
 
-### **25. Media Source System / Living Artifact Track**
+### **25\. Media Source System / Living Artifact Track**
 
 This is also now important enough to be first-class.
 
 For podcast stewards, knowledge gardeners, researchers, and contributors turning podcasts, calls, interviews, event recordings, and media archives into structured field memory.
 
-### **26. Public Goods Funding, Capital Flows, and Stewardship Track**
+### **26\. Public Goods Funding, Capital Flows, and Stewardship Track**
 
 For people designing, running, reviewing, or improving public goods funding systems, grant rounds, endowments, treasuries, contribution records, and impact documentation.
 
-### **27. Future Track Candidates**
+### **27\. Future Track Candidates**
 
 Include:
 
@@ -30069,27 +30069,27 @@ Include:
 
 This should hold the source-system universe without trying to make the whole document a giant registry.
 
-### **28. Source-System Strategy**
+### **28\. Source-System Strategy**
 
 Explain what a source system is and why it matters.
 
 A source system is a living knowledge environment, not an extractable link pool.
 
-### **29. Resource Database Strategy**
+### **29\. Resource Database Strategy**
 
 Explain the normalized database, the raw capture layer, review states, fields, provenance, and public-use boundaries.
 
-### **30. Social Signal Strategy**
+### **30\. Social Signal Strategy**
 
 Explain Twitter/X and social signals as routing aids, not endorsements.
 
-### **31. Media Source-System Strategy**
+### **31\. Media Source-System Strategy**
 
 Explain podcast/media archives as field memory.
 
 Include Greenpill, Ma Earth, Crypto Altruists, ReFi DAO media, Funding the Commons, The Blockchain Socialist, OpenCivics calls, and related archives.
 
-### **32. Starter Source-System Selection**
+### **32\. Starter Source-System Selection**
 
 Keep the big list here or in an appendix.
 
@@ -30113,13 +30113,13 @@ Organize by:
 
 This deserves its own major part because of Durgadas / CSIS feedback.
 
-### **33. Structural Integrity Posture**
+### **33\. Structural Integrity Posture**
 
 State clearly:
 
 The Toolkit is CSIS-informed, not CSIS-conformant.
 
-### **34. From Visibility to Falsifiability**
+### **34\. From Visibility to Falsifiability**
 
 Explain the difference between:
 
@@ -30129,7 +30129,7 @@ Explain the difference between:
 * reviewed claims;  
 * falsifiable standards.
 
-### **35. Review and Maturity Model**
+### **35\. Review and Maturity Model**
 
 Define states:
 
@@ -30144,7 +30144,7 @@ Define states:
 * mature guidance;  
 * deprecated / composted.
 
-### **36. Minimum Practical Safeguards**
+### **36\. Minimum Practical Safeguards**
 
 Include safeguards for:
 
@@ -30160,19 +30160,19 @@ Include safeguards for:
 * open-source tooling;  
 * automated curation.
 
-### **37. Builder and Tooling Safeguards**
+### **37\. Builder and Tooling Safeguards**
 
 Open-source license, maintenance, dependencies, security, reuse, duplication, interoperability, documentation, public goods return.
 
-### **38. Media Source-System Safeguards**
+### **38\. Media Source-System Safeguards**
 
 Transcript status, speaker context, guest claims, Indigenous knowledge, consent, quote accuracy, extraction review, context preservation.
 
-### **39. Deployment Template and Readiness Levels**
+### **39\. Deployment Template and Readiness Levels**
 
 Keep deployment readiness levels and template here.
 
-### **40. CSIS Review Questions**
+### **40\. CSIS Review Questions**
 
 Specific questions for Durgadas / CSIS-literate reviewers.
 
@@ -30180,11 +30180,11 @@ Specific questions for Durgadas / CSIS-literate reviewers.
 
 ## **Part 6 — Backlog, Appendices, and Review Prompts**
 
-### **41. Backlog and Future Design Seeds**
+### **41\. Backlog and Future Design Seeds**
 
 Preserve unfinished intelligence here.
 
-### **42. Immediate Next Steps**
+### **42\. Immediate Next Steps**
 
 Practical next steps:
 
@@ -30195,11 +30195,11 @@ Practical next steps:
 * prepare forum post;  
 * ask reviewers to comment by layer.
 
-### **43. Reviewer Worksheet**
+### **43\. Reviewer Worksheet**
 
 General reviewer prompts.
 
-### **44. Specialized Reviewer Prompts**
+### **44\. Specialized Reviewer Prompts**
 
 Separate prompts for:
 
@@ -30213,7 +30213,7 @@ Separate prompts for:
 * source-system maintainers;  
 * broader public reviewers.
 
-### **45. Appendices**
+### **45\. Appendices**
 
 Appendices should include:
 
@@ -30799,7 +30799,7 @@ Preserve the overgrown intelligence, but create clearer doors into it.
 
 Luiz toolkit Monday \+ Resources, Options library, Mapping \+ Regen OS, Coop, Tech stack/Heenal V1
 
-Add more source material - carboncopy database, x curation with network and writers guild retweets, map and branch from everything already collected, ai recommended expansion
+Add more source material \- carboncopy database, x curation with network and writers guild retweets, map and branch from everything already collected, ai recommended expansion
 
 “Knowledge Commons, Toolkit” tab in Matt opersonal doc
 
@@ -30807,7 +30807,7 @@ Add more source material - carboncopy database, x curation with network and writ
 
 Luiz Regen OS
 
-Swarm - user templates, what else was discussed on the opening calls?
+Swarm \- user templates, what else was discussed on the opening calls?
 
 Notes from OpenCivics bonfires ai thing
 
@@ -30816,8 +30816,8 @@ Need a much simpler to understand and short description for new people being int
 Did we lose some stuff from previous encyclopedia iterations?
 
 Durgadas "Idea Processor" \+ “frame language analyzer” — Fill out Greenpill Garden Guide worksheet with this project  
-Durgadas last feedback - CSIS or not  
-Source Systems - Journo dao greenpill podcast knowledge garden season
+Durgadas last feedback \- CSIS or not  
+Source Systems \- Journo dao greenpill podcast knowledge garden season
 
 Meeting notes \+ things shard in tg 
 
@@ -30829,13 +30829,13 @@ Next iteration and more cohesive aggregation, Durgadas feedback, Expansion of re
 
 How this connects to automated curation and amplification with network socials?
 
-Seed - Greenpill and ReFi DAO and Bloom newsletters \+ Articles \+ Podcast data
+Seed \- Greenpill and ReFi DAO and Bloom newsletters \+ Articles \+ Podcast data
 
-Problems/Outcomes/Theory of Change - Also to help with public goods builders and ensuring code/tooling that is open source is used as completely as possible \+ Ensure builders are taking full advantage of shared knowledge and structural integrity since there are limited funds and we need to build interoperable and interconnected things (GG24 PG Tooling round)
+Problems/Outcomes/Theory of Change \- Also to help with public goods builders and ensuring code/tooling that is open source is used as completely as possible \+ Ensure builders are taking full advantage of shared knowledge and structural integrity since there are limited funds and we need to build interoperable and interconnected things (GG24 PG Tooling round)
 
-Matt GPT history/project - Choose a structure, And then go section by section asking GPT for new iterations - Then try new workflow?
+Matt GPT history/project \- Choose a structure, And then go section by section asking GPT for new iterations \- Then try new workflow?
 
-Theory of Change “3. The field is too complex for any one person or organization to hold alone” - also we want to help each other understand new things. 
+Theory of Change “3. The field is too complex for any one person or organization to hold alone” \- also we want to help each other understand new things. 
 
 Incorporate Afo Greenpill Theory of Change doc and Coi’s architecture infographic
 
@@ -30845,4 +30845,4 @@ Regen OS documentation cooked into this
 
 Opinionated Infrastructure 
 
-- Org-OS - https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/ORG-OS.md
+- Org-OS \- https://github.com/explorience/regen-toolkit/blob/feature/org-os-overlay/docs/ORG-OS.md

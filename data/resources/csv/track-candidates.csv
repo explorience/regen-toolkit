@@ -1,0 +1,148 @@
+id,name,type,url,source_origin,route,notes,review_status
+TC00001,Carl Cervone,person,,explicit_podcast_synthesis,People/Account Review,Hypercerts / retro funding bridge,raw; needs review
+TC00002,Glen Weyl,person,,explicit_podcast_synthesis,People/Account Review,"Plurality, quadratic funding, civic tech",raw; needs review
+TC00003,Austin Griffith,person,,adjacent_expansion,People/Account Review,Ethereum builder tooling,raw; needs review
+TC00004,Zak Cole,person,,adjacent_expansion,People/Account Review,Builder tooling / AI agents context,raw; needs review
+TC00005,Juan Benet,person,,adjacent_expansion,People/Account Review,Public goods funding / decentralized storage,raw; needs review
+TC00006,Scott Moore,person,,adjacent_expansion,People/Account Review,Public goods funding / Gitcoin,raw; needs review
+TC00007,URL lead - paragraph.com,Organizations Network,https://paragraph.com/@greenpilldevguild/greenwill-powering-governance-through-reputation-tracking,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: RT @greenpilldevs: Part 4 🌱 GreenWill - Powering Governance Through Reputation Tracking
+
+🔗 https://t.co/2ooeRRdspx
+
+The next piece of the r…",raw; needs review
+TC00008,Ethereum Foundation ESP,Funding Mechanisms Capital Flow,https://esp.ethereum.foundation/,resource_registry_v0_2,Resource Graph,"Added as a reviewable expansion lead; verify fit, URL, and priority before treating as curated.",raw; needs review
+TC00009,Obol,Funding Mechanisms Capital Flow,https://obol.org/,resource_registry_v0_2,Resource Graph,"Added as a reviewable expansion lead; verify fit, URL, and priority before treating as curated.",raw; needs review
+TC00010,Lido Impact Staking,Funding Mechanisms Capital Flow,https://x.com/impactstake,resource_registry_v0_2,Resource Graph,"Auto-extracted account lead from Twitter archive. Counts are mention/retweet signals, not endorsement.",raw; needs review
+TC00011,Funding the Commons,Funding Mechanisms Capital Flow,https://fundingthecommons.io/,resource_registry_v0_2,Resource Graph,,raw; needs review
+TC00012,Schelling Point,Funding Mechanisms Capital Flow,https://schellingpoint.gitcoin.co/,resource_registry_v0_2,Resource Graph,,raw; needs review
+TC00013,URL lead - bloomnetwork.earth,Tools Protocols Platform,http://bloomnetwork.earth,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: RT @mbauwens: Retroactive public funding rewards the people who have already done the work:
+
+* Bloom Network,
+
+https://t.co/OhgRtaxPYz
+
+ is…",raw; needs review
+TC00014,URL lead - carboncopy.news,Tools Protocols Platform,https://carboncopy.news/content/web3-tooling-series/the-experience,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: Getting locals to use web3 tools is hard because much can go wrong; funding loss, tooling abandonment, complexity fatigue - you name it.
+
+This article, second in the series, shares how ReFi communities navigate these issues.  
+
+Have a delightful read.
+
+https://t.co/jA2yxnfQmx htt",raw; needs review
+TC00015,URL lead - gov.gitcoin.co,Tools Protocols Platform,https://gov.gitcoin.co/t/gg23-predictive-funding-challenge-retrospective/25163,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: RT @VitalikButerin: Deep funding is continuing, and recently finished a major round!
+
+https://t.co/Pp5lyW6EDE
+
+I think my main advice to @d…",raw; needs review
+TC00016,URL lead - hackmd.io,Tools Protocols Platform,https://hackmd.io/@Carboclanc/SJFYXKt_ex,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: RT @theobtl: Find all links and resources around the Ethereum Research Funding Forum New York 2025 here:
+https://t.co/zIdnk6EX2p",raw; needs review
+TC00017,URL lead - mountainjournal.org,Tools Protocols Platform,https://mountainjournal.org/wildlife-crossings-could-see-permanent-federal-funding-through-bipartisan-bill-introduced-by-zinke-and-beyer/,resource_registry_v0_2,Resource Graph,Auto-extracted URL lead from Twitter archive. Context: RT @tmoindustries: Wildlife Crossings Could See Permanent Federal Funding Through Bipartisan Bill - Mountain Journal https://t.co/pF0PT4XzhS,raw; needs review
+TC00018,URL lead - paragraph.com,Tools Protocols Platform,https://paragraph.com/@holonic-horizons/beyond-funding-web3s-real-coordination-crisis-and-the-paradoxes-were-ignoring,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: RT @durgadasjii: https://t.co/eCDRx4jCtF My latest post on Web3, funding, and coordination.",raw; needs review
+TC00019,URL lead - x.com,Tools Protocols Platform,https://x.com/GreenpillWrites/status/2015695327731302766,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: Getting locals to use web3 tools is hard because much can go wrong; funding loss, tooling abandonment, complexity fatigue - you name it.
+
+This article, second in the series, shares how ReFi communities navigate these issues.  
+
+Have a delightful read.
+
+https://t.co/jA2yxnfQmx htt",raw; needs review
+TC00020,Raw URL lead - breadchain.xyz,Tools Protocols Platform,https://breadchain.xyz/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: ion / funding governance lead - https://gardens.fund/ - Bread Cooperative - solidarity crypto and distribution cycles - https://breadchain.xyz/ - Grassroots Economics / Sarafu - commitment pooling, community currencies, local finance - https://www.grassrootsecono",raw; needs review
+TC00021,Raw URL lead - docs.gap.karmahq.xyz,Tools Protocols Platform,https://docs.gap.karmahq.xyz/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: tive funding leads - https://docs.hypercerts.org/ - Karma GAP - grantee accountability and milestone/progress updates - https://docs.gap.karmahq.xyz/ ### Knowledge gardens, ontology, and source-system peers - Knowledge Commoning Swarm - broader knowledge commons coll | ts - structured impact records - https://docs.hypercerts.org/ - Karma GAP - grant accountability and progress records - https://do",raw; needs review
+TC00022,Raw URL lead - docs.hypercerts.org,Tools Protocols Platform,https://docs.hypercerts.org/,resource_registry_v0_2,Resource Graph,Preserved from uploaded documents/text. Context: exchange platform - https://sarafu.network/ - Hypercerts - structured impact records and retrospective funding leads - https://docs.hypercerts.org/ - Karma GAP - grantee accountability and milestone/progress updates - https://docs.gap.karmahq.xyz/ ### Knowledge gard | attest.org/ - EAS Explorer - schemas and attestations - https://easscan.org/ - Hypercerts - structured impact records - https://doc,raw; needs review
+TC00023,Raw URL lead - forum.giveth.io,Tools Protocols Platform,https://forum.giveth.io/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: - Giveth - donations, QF, causes, project pages - https://giveth.io/ - Giveth Forum - project and governance archive - https://forum.giveth.io/ - Octant - public goods funding and yield-based allocation system - https://octant.build/ - Octant v2 docs - funding mo | Coordination Hub — https://hub.regencoordination.xyz/ Gitcoin Governance Forum — https://gov.gitcoin.co/ Giveth Forum — https://forum.",raw; needs review
+TC00024,Raw URL lead - forum.sky.money,Tools Protocols Platform,https://forum.sky.money/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: ic goods ecosystem governance - https://forum.celo.org/ - Maker / Sky Governance Forum - governance / treasury source - https://forum.sky.money/ - Protocol Guild - Ethereum commons funding context - https://protocol-guild.readthedocs.io/ ### Identity, attestation | magicians.org/ ethresear.ch — https://ethresear.ch/ Celo Forum — https://forum.celo.org/ Maker / Sky Governance Forum — https://forum.",raw; needs review
+TC00025,Raw URL lead - gardens.fund,Tools Protocols Platform,https://gardens.fund/,resource_registry_v0_2,Resource Graph,Preserved from uploaded documents/text. Context: n collective finance - https://opencollective.com/ - Gardens - shared resource coordination / funding governance lead - https://gardens.fund/ - Bread Cooperative - solidarity crypto and distribution cycles - https://breadchain.xyz/ - Grassroots Economics / Sara,raw; needs review
+TC00026,Raw URL lead - giveth.io,Tools Protocols Platform,https://giveth.io/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: nce, grants, funding rounds, retrospectives - https://gov.gitcoin.co/ - Giveth - donations, QF, causes, project pages - https://giveth.io/ - Giveth Forum - project and governance archive - https://forum.giveth.io/ - Octant - public goods funding and yield-ba",raw; needs review
+TC00027,Raw URL lead - gov.gitcoin.co,Tools Protocols Platform,https://gov.gitcoin.co/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: d source system - https://gitcoin.co/ - Gitcoin Governance Forum - governance, grants, funding rounds, retrospectives - https://gov.gitcoin.co/ - Giveth - donations, QF, causes, project pages - https://giveth.io/ - Giveth Forum - project and governance archive - | orum/governance archive surfaces Regen Coordination Hub — https://hub.regencoordination.xyz/ Gitcoin Governance Forum — https://gov.git",raw; needs review
+TC00028,Raw URL lead - octant.build,Tools Protocols Platform,https://octant.build/,resource_registry_v0_2,Resource Graph,Preserved from uploaded documents/text. Context: t and governance archive - https://forum.giveth.io/ - Octant - public goods funding and yield-based allocation system - https://octant.build/ - Octant v2 docs - funding model and developer documentation - https://docs.v2.octant.build/ - Funding the Commons - pu,raw; needs review
+TC00029,Raw URL lead - openearth.org,Tools Protocols Platform,https://openearth.org/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: vation tech, AI, ecological funding - https://gainforest.earth/ - Open Earth Foundation - climate data infrastructure - https://openearth.org/ - Restor - restoration project map - https://restor.eco/ - Global Forest Watch - forest monitoring - https://www.global",raw; needs review
+TC00030,Raw URL lead - podcasts.apple.com,Podcasts Media Show,https://podcasts.apple.com/us/podcast/greenpill/id1609313639,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: narrative archives - GreenPill Podcast - regenerative crypto, public goods, mechanism design, Ethereum coordination - https://podcasts.apple.com/us/podcast/greenpill/id1609313639 - Crypto Altruists Podcast - web3 impact, ReFi, humanitarian aid, DeSci, public goods - https://www.cryptoaltruists.com | ast and media source systems Three important podcast/media source systems were identified. 7.1 Gree",raw; needs review
+TC00031,Raw URL lead - regen.foundation,Tools Protocols Platform,https://regen.foundation/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: ssets, Regen forum - https://www.regen.network/ - Regen Foundation - ecosystem steward / funding / governance context - https://regen.foundation/ - Regen Atlas - regenerative project atlas / mapping candidate - https://www.regenatlas.xyz/ - Celo / Celo Public Goods",raw; needs review
+TC00032,Raw URL lead - sarafu.network,Tools Protocols Platform,https://sarafu.network/,resource_registry_v0_2,Resource Graph,Preserved from uploaded documents/text. Context: ocal finance - https://www.grassrootseconomics.org/ - Sarafu Network - community currency and local exchange platform - https://sarafu.network/ - Hypercerts - structured impact records and retrospective funding leads - https://docs.hypercerts.org/ - Karma GAP - g,raw; needs review
+TC00033,Raw URL lead - theblockchainsocialist.com,Tools Protocols Platform,https://theblockchainsocialist.com/,resource_registry_v0_2,Resource Graph,"Preserved from uploaded documents/text. Context: altruists.com/podcasts - The Blockchain Socialist - crypto-left, cooperative crypto, public AI, Fileverse, Bread Coop - https://theblockchainsocialist.com/ - Funding the Commons talks - public goods funding and mechanism design source. - The Daily Gwei - Ethereum education a | nge. Routing: Source System Candidate / Podcast Archive / Web3 Impact Case Library. 7.3 The Blockchain Socialist Links: ht",raw; needs review
+TC00034,GoodDollar 💙🌏,Funding Mechanisms Capital Flow,https://x.com/gooddollarorg,resource_registry_v0_2,Resource Graph,"Auto-extracted account lead from Twitter archive. Counts are mention/retweet signals, not endorsement.",raw; needs review
+TC00035,URL lead - ethresear.ch,Projects Initiative,https://ethresear.ch/t/building-index-tracking-assets-on-top-of-options-instead-of-debt/25036,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: RT @VitalikButerin: Building index-tracking assets on top of options instead of debt
+
+https://t.co/isSkr3901W
+
+What if the use options as t…",raw; needs review
+TC00036,Sarafu / Grassroots Economics,Funding Mechanisms Capital Flow,https://www.grassrootseconomics.org/,resource_registry_v0_2,Resource Graph,,raw; needs review
+TC00037,Citizen Wallet,Funding Mechanisms Capital Flow,https://citizenwallet.xyz/,resource_registry_v0_2,Resource Graph,,raw; needs review
+TC00038,Grassroots Economics,Funding Mechanisms Capital Flow,https://www.grassecon.org/,resource_registry_v0_2,Resource Graph,"Added as a reviewable expansion lead; verify fit, URL, and priority before treating as curated.",raw; needs review
+TC00039,Sarafu Network,Funding Mechanisms Capital Flow,https://sarafu.network/,resource_registry_v0_2,Resource Graph,"Added as a reviewable expansion lead; verify fit, URL, and priority before treating as curated.",raw; needs review
+TC00040,URL lead - carboncopy.news,Tools Protocols Platform,https://carboncopy.news/content/web3-tooling-series/the-recommendation,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: ReFi innovation is found in the simple tools that enable long-term impact.
+
+Part 3 of our series offers recommendations for builders and community stewards that prioritize human-centered design.
+
+https://t.co/tnZbdi9Z5m https://t.co/RVQsN9XFgs",raw; needs review
+TC00041,URL lead - sarafu.network,Funding Mechanisms Capital Flow,http://sarafu.network,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: RT @mbauwens: Will Ruddick argues, and shows, through practice in the https://t.co/kyK2lnCikg , that
+
+* Through Cosmo-Local Credit,
+
+""the c…",raw; needs review
+TC00042,URL lead - x.com,Tools Protocols Platform,https://x.com/GreenpillWrites/status/2018253617677959424,resource_registry_v0_2,Resource Graph,"Auto-extracted URL lead from Twitter archive. Context: ReFi innovation is found in the simple tools that enable long-term impact.
+
+Part 3 of our series offers recommendations for builders and community stewards that prioritize human-centered design.
+
+https://t.co/tnZbdi9Z5m https://t.co/RVQsN9XFgs",raw; needs review
+TC00043,Circles,Funding Mechanisms Capital Flow,https://www.aboutcircles.com/,resource_registry_v0_2,Resource Graph,,raw; needs review
+TC00044,Deep Funding,Funding Mechanisms Capital Flow,https://deepfunding.ai/,resource_registry_v0_2,Resource Graph,,raw; needs review
+TC00045,Ma Earth Learning Lab,Podcasts Media Show,https://maearth.com/,resource_registry_v0_2,Resource Graph,~15 Learning Lab episodes; should be tracked as part of Ma Earth media source system.,raw; needs review
+TC00046,Funding the Commons Recordings,Podcasts Media Show,https://fundingthecommons.io/,resource_registry_v0_2,Resource Graph,Relevant media source system for public goods funding and open-source tooling learning.,raw; needs review
+TC00047,Kevin Owocki,Funding Mechanisms Capital Flow,Raw / no canonical link,resource_registry_v0_2,Resource Graph,"Podcast synthesis identifies this person/org as a bridge, guest lead, or cross-pollination node. Treat as social/source-system signal; do not treat as public person profile without review.",raw; needs review
+TC00048,Will Ruddick,Funding Mechanisms Capital Flow,Raw / no canonical link,resource_registry_v0_2,Resource Graph,"Podcast synthesis identifies this person/org as a bridge, guest lead, or cross-pollination node. Treat as social/source-system signal; do not treat as public person profile without review.",raw; needs review
+TC00049,The Regeneration Will Be Funded,podcast/media feed,https://podcasts.apple.com/us/podcast/the-regeneration-will-be-funded/id1706728107,web_verified; podcast_synthesis,Media Source System Track; Source System Card,Ma Earth podcast about regenerative finance / living planet; Apple entry lists Ma Earth and episodes including nature finance/carbon finance topics,raw; needs review
+TC00050,Crypto Altruists,organization/media,https://www.cryptoaltruism.org/,web_verified; podcast_synthesis,Media Source System Track; Source System Card,Web3 impact platform; site describes podcast/blog/resources for crypto and web3 social impact,raw; needs review
+TC00051,Crypto Altruists Podcast,podcast/media feed,https://www.cryptoaltruism.org/podcasts,web_verified; podcast_synthesis,Media Source System Track,Podcast highlighting real-world social/environmental impact powered by crypto/web3,raw; needs review
+TC00052,Funding the Commons,organization/event/media,https://fundingthecommons.io/,web_verified; adjacent_expansion,Source System Card; Public Goods Builder Track,"Public goods funding community and conference/media archive; StreamETH page says it bridges Web2, Web3, research, philanthropy, and industry",raw; needs review
+TC00053,Funding the Commons YouTube,media feed,https://www.youtube.com/@Funding-the-Commons,web_verified; adjacent_expansion,Media Source System Track,Talk archive / public goods funding media source,raw; needs review
+TC00054,The Blockchain Socialist,podcast/media feed,https://theblockchainsocialist.com/,resource_seed; podcast_synthesis,Media Source System Track,Cooperative crypto / crypto-left / public AI media source,raw; needs review
+TC00055,Regen Network,protocol/network,https://www.regen.network/,resource_seed; podcast_synthesis; twitter_signal,Source System Card; dMRV Track,Ecological data and ecological assets network,raw; needs review
+TC00056,Gitcoin,organization/platform,https://gitcoin.co/,resource_seed; twitter_signal,Source System Card; Public Goods Builder,Public goods funding ecosystem,raw; needs review
+TC00057,Gitcoin Governance Forum,governance forum,https://gov.gitcoin.co/,resource_seed,Source System Card,Funding rounds / governance / retrospectives,raw; needs review
+TC00058,Allo Capital Resources,resource hub,https://www.allo.capital/resources,resource_seed,Resource Registry; Source System Candidate,Resources for Allo and funding design,raw; needs review
+TC00059,Octant,platform/organization,https://octant.build/,resource_seed; twitter_signal,Source System Card,Public goods funding via ETH staking/yield distribution,raw; needs review
+TC00060,Octant v2 Docs,documentation,https://docs.v2.octant.build/,resource_seed,Source System Card,Developer and funding model docs,raw; needs review
+TC00061,Protocol Guild,funding mechanism/organization,https://protocol-guild.readthedocs.io/,resource_seed,Source System Candidate,Ethereum core protocol funding commons,raw; needs review
+TC00062,Drips,funding protocol,https://www.drips.network/,adjacent_expansion,Option Library,Open-source funding and dependency graph funding,raw; needs review
+TC00063,Glo Dollar,stablecoin/project,https://glodollar.org/,podcast_synthesis,Entity Lead; Funding Mechanisms,Stablecoin for public goods / impact funding,raw; needs review
+TC00064,Mercy Corps Ventures,organization/program,https://www.mercycorpsventures.org/,adjacent_expansion,Source System Candidate,Humanitarian / frontier tech funding context,raw; needs review
+TC00065,Optimism Retro Funding,funding mechanism/program,https://community.optimism.io/docs/governance/retropgf/,adjacent_expansion,Funding Mechanism; Implementation Memory,Retroactive public goods funding context,raw; needs review
+TC00066,EasyRetroPGF,tool/platform,https://easyretropgf.xyz/,adjacent_expansion,Tooling,Retro funding tooling lead,raw; needs review
+TC00067,GainForest,organization/project,https://gainforest.earth/,resource_seed; podcast_synthesis,Source System Candidate,"Conservation tech, AI, ecological funding",raw; needs review
+TC00068,Funding the Commons Research,Talks/research archive,https://fundingthecommons.io/,web_verified; adjacent_expansion,Encyclopedia; Resource Graph,Public goods funding research corpus,raw; needs review
+TC00069,Living artifact,concept/workflow,,podcast_synthesis,Media Source System Track,"A source-aware, review-aware artifact produced from evolving media/conversation/source-system material",raw; needs review
+TC00070,Source lineage,methodology,,project_context,Ontology; Review Model,Track where knowledge came from and how it was transformed,raw; needs review
+TC00071,Media white-space map,workflow,,podcast_synthesis,Media Source System Track,Map under-covered topics emerging from podcast/media/source-system review,raw; needs review
+TC00072,Public goods builder reuse layer,workflow,,project_context,Public Goods Builder Track,Help builders discover prior tools/repos/standards/retrospectives before rebuilding,raw; needs review
+TC00073,Quadratic Funding,funding mechanism,,resource_seed; adjacent_expansion,Option Library,Funding mechanism emphasizing breadth of support,raw; needs review
+TC00074,Retroactive Public Goods Funding,funding mechanism,,resource_seed; adjacent_expansion,Option Library,Rewarding contributions after impact is observed,raw; needs review
+TC00075,Optimism Retro Funding,funding program,https://community.optimism.io/docs/governance/retropgf/,adjacent_expansion,Implementation Memory,Major RetroPGF implementation context,raw; needs review
+TC00076,Hypercerts marketplaces,funding/impact mechanism,https://docs.hypercerts.org/,resource_seed; podcast_synthesis,Option Library,Claims about impact and retro funding markets,raw; needs review
+TC00077,Octant-style yield funding,funding mechanism,https://octant.build/,resource_seed; twitter_signal,Option Library,ETH staking/yield-based public goods distribution,raw; needs review
+TC00078,Public goods staking,funding mechanism,,resource_seed,Option Library,Using staking yield for public goods funding,raw; needs review
+TC00079,Commitment pooling,funding/community mechanism,,podcast_synthesis,Option Library,Grassroots Economics / Sarafu-adjacent pooling of commitments,raw; needs review
+TC00080,Conviction voting,governance/funding mechanism,,resource_seed,Option Library,Time-weighted preference signaling / allocation,raw; needs review
+TC00081,Participatory budgeting,governance/funding mechanism,,adjacent_expansion,Option Library,Community allocation mechanism,raw; needs review
+TC00082,MACI-based private voting,governance/privacy mechanism,https://maci.pse.dev/,adjacent_expansion,Option Library,Privacy/collusion resistance for voting/funding,raw; needs review
+TC00083,Greenpill S10 Ep.6 - Vitalik Buterin: Public Goods Funding in 2026,episode/talk/recording,https://www.youtube.com/@Green_Pill_Podcast,web_verified; adjacent_expansion,Media Source System Track,Greenpill YouTube/Apple listing; web verified,raw; needs review
+TC00084,Greenpill S10 Ep.10 - AI Agents on Ethereum with Austin Griffith & Zak Cole,episode/talk/recording,https://playpodcasts.com/podcasts/greenpill,web_verified; adjacent_expansion,Media Source System Track,PlayPodcasts listing / Greenpill episode lead,raw; needs review
+TC00085,The Regeneration Will Be Funded - Nature on the Balance Sheet,episode/talk/recording,https://podcasts.apple.com/us/podcast/the-regeneration-will-be-funded/id1706728107,web_verified; adjacent_expansion,Media Source System Track,Apple listing lead,raw; needs review
+TC00086,The Regeneration Will Be Funded - Forward Carbon Financing,episode/talk/recording,https://podcasts.apple.com/us/podcast/the-regeneration-will-be-funded/id1706728107,web_verified; adjacent_expansion,Media Source System Track,Apple listing lead,raw; needs review
+TC00087,The Regeneration Will Be Funded - The Problem with Net Zero,episode/talk/recording,https://podcasts.apple.com/us/podcast/the-regeneration-will-be-funded/id1706728107,web_verified; adjacent_expansion,Media Source System Track,Apple listing lead,raw; needs review
+TC00088,Crypto Altruists Episode 250 - The Quiet Revolution,episode/talk/recording,https://podcasts.apple.com/pg/podcast/crypto-altruists-real-world-stories-of-social/id1628620328,web_verified; adjacent_expansion,Media Source System Track,Apple listing lead,raw; needs review
+TC00089,Crypto Altruists - Bioregional Reforestation,episode/talk/recording,,podcast_synthesis,Media Source System Track,Podcast synthesis sample lead,raw; needs review
+TC00090,Crypto Altruists - Commitment Pooling,episode/talk/recording,,podcast_synthesis,Media Source System Track,Podcast synthesis sample lead,raw; needs review
+TC00091,Crypto Altruists - Savings Circles,episode/talk/recording,,podcast_synthesis,Media Source System Track,Podcast synthesis sample lead,raw; needs review
+TC00092,Greenpill - Network Nations / Regen Network of Networks,episode/talk/recording,,podcast_synthesis,Media Source System Track,Podcast synthesis sample lead,raw; needs review
+TC00093,Greenpill - Technologies Grown from Dirt,episode/talk/recording,,podcast_synthesis,Media Source System Track,Podcast synthesis sample lead,raw; needs review
+TC00094,Greenpill - Metrics-Based Voting on RPGF Round 4,episode/talk/recording,,podcast_synthesis,Media Source System Track,Podcast synthesis sample lead,raw; needs review
+TC00095,Bioregional QF playbooks,white-space/research prompt,,podcast_synthesis,Public Goods Funding Track; Local Node Builder Track,How to actually run a regen QF round in a bioregion,raw; needs review
+TC00096,dMRV in practice,white-space/research prompt,,podcast_synthesis,Ecological MRV Track; Implementation Memory,"Practical deep dives into dMRV implementation, evidence, and failure modes",raw; needs review
+TC00097,Indigenous and Global South primary voices,white-space/research prompt,,podcast_synthesis,Media Source System Track; Public-use Review,More first-person source systems and consent-aware extraction,raw; needs review
+TC00098,Capital-stack reality checks for regen projects,white-space/research prompt,,podcast_synthesis,Public Goods Builder Track; ReFi Track,"How grants, philanthropy, revenue, tokens, stablecoins, and land finance stack in practice",raw; needs review
+TC00099,Public goods tooling postmortems,white-space/research prompt,,project_context,Public Goods Builder Track,"What tools were built, maintained, abandoned, duplicated, or reused",raw; needs review
+TC00100,Stablecoins as impact rails,white-space/research prompt,,podcast_synthesis,Funding Mechanisms; Tooling,"Humanitarian, nonprofit, and local-economy use cases",raw; needs review
+TC00101,Media archive to living artifact workflow,white-space/research prompt,,project_context,Media Source System Track,How to turn podcasts/calls into review-aware structured knowledge,raw; needs review
+TC00102,Podcast archives can become living artifacts,claim/question/evidence lead,,podcast_synthesis,Media Source System Track,"High-signal conversations can become source-linked, review-aware, searchable field memory.",raw; needs review
+TC00103,Public goods builders often rebuild without enough shared context,claim/question/evidence lead,,project_context,Public Goods Builder Track,"Existing tools, repos, standards, and retrospectives are difficult to discover before building.",raw; needs review
+TC00104,Open-source publication is not maintained public goods infrastructure,claim/question/evidence lead,,project_context,Builder Safeguards,"A public repo may not be documented, maintained, secure, or reusable.",raw; needs review
