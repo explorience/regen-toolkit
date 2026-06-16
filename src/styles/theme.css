@@ -1,0 +1,174 @@
+/* =====================================================================
+   REGEN TOOLKIT — "Regenerative Field Guide" design system
+   Warm paper, editorial serifs, deep moss + clay + new-growth accent.
+   Shared by custom landing pages and (mapped) by the Starlight articles.
+   ===================================================================== */
+
+:root {
+  /* ---- type ---- */
+  --font-display: "Fraunces", "Times New Roman", serif;        /* characterful soft serif */
+  --font-body: "Newsreader", Georgia, "Times New Roman", serif; /* editorial reading serif */
+  --font-ui: "Hanken Grotesk", system-ui, sans-serif;          /* clean UI/labels */
+  --font-mono: "Spline Sans Mono", ui-monospace, monospace;    /* eyebrows, code */
+
+  /* ---- light "paper field guide" palette ---- */
+  --paper:      #F4EEE0;
+  --paper-2:    #ECE3D1;
+  --paper-3:    #E3D8C0;
+  --ink:        #1C2A1F;
+  --ink-soft:   #41503F;
+  --ink-faint:  #6B7665;
+
+  --moss:       #2E5D3A;
+  --moss-deep:  #1E3F28;
+  --moss-soft:  #4C7E54;
+
+  --clay:       #BF6537;
+  --clay-soft:  #D98B5C;
+
+  --growth:     #93C631;   /* sharp signature accent — new growth */
+  --growth-deep:#6E9A1E;
+
+  --teal:       #5E988F;
+  --gold:       #DE9F38;
+
+  --line:       #D6C9AE;   /* hairlines on paper */
+  --line-strong:#C3B189;
+
+  /* ---- semantic ---- */
+  --bg:         var(--paper);
+  --bg-soft:    var(--paper-2);
+  --text:       var(--ink);
+  --text-soft:  var(--ink-soft);
+  --accent:     var(--moss);
+  --spark:      var(--growth);
+
+  /* ---- shape & depth ---- */
+  --radius: 5px;
+  --radius-lg: 6px;
+  --shadow-sm: 0 1px 2px rgba(28,42,31,.06), 0 2px 8px rgba(28,42,31,.05);
+  --shadow:    0 4px 14px rgba(28,42,31,.08), 0 14px 40px rgba(28,42,31,.08);
+  --shadow-lg: 0 10px 30px rgba(28,42,31,.12), 0 30px 70px rgba(30,63,40,.14);
+
+  --maxw: 1140px;
+  --ease: cubic-bezier(.2,.7,.2,1);
+
+  /* paper grain (subtle fibrous noise) */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+}
+
+:root[data-theme="dark"] {
+  --paper:      #10160F;
+  --paper-2:    #161E13;
+  --paper-3:    #1D2718;
+  --ink:        #ECE6D4;
+  --ink-soft:   #C4C9B5;
+  --ink-faint:  #8C9580;
+
+  --moss:       #74B584;
+  --moss-deep:  #0F1B11;
+  --moss-soft:  #5E9E6B;
+
+  --clay:       #E08A5A;
+  --clay-soft:  #C56A3E;
+
+  --growth:     #B4E24C;
+  --growth-deep:#8FBE2F;
+
+  --teal:       #79B5AB;
+  --gold:       #E8B45A;
+
+  --line:       #2C3A26;
+  --line-strong:#3A4A30;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
+  --shadow:    0 6px 22px rgba(0,0,0,.5);
+  --shadow-lg: 0 20px 60px rgba(0,0,0,.6);
+}
+
+/* ============================ base (custom pages) ===================== */
+.fg-root {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.6;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.fg-root::before {  /* global grain overlay */
+  content: "";
+  position: fixed; inset: 0;
+  background-image: var(--grain);
+  opacity: .5; mix-blend-mode: multiply;
+  pointer-events: none; z-index: 9999;
+}
+:root[data-theme="dark"] .fg-root::before { mix-blend-mode: screen; opacity: .35; }
+
+.fg-root * { box-sizing: border-box; }
+:where(.fg-root a) { color: inherit; text-decoration: none; }
+
+h1,h2,h3,h4 { font-family: var(--font-display); font-weight: 540; line-height: 1.04; letter-spacing: -.015em; margin: 0; }
+.eyebrow {
+  font-family: var(--font-mono); font-size: .74rem; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--moss-soft); font-weight: 500;
+}
+
+.wrap { max-width: var(--maxw); margin-inline: auto; padding-inline: clamp(20px, 5vw, 48px); }
+
+/* ---- buttons ---- */
+.btn {
+  display: inline-flex; align-items: center; gap: .55em;
+  font-family: var(--font-ui); font-weight: 600; font-size: 1rem;
+  padding: .8em 1.4em; border-radius: 100px; border: 1.5px solid transparent;
+  cursor: pointer; transition: transform .25s var(--ease), box-shadow .25s var(--ease), background-color .2s;
+  will-change: transform;
+}
+.btn--primary { background: var(--ink); color: var(--paper); box-shadow: var(--shadow); }
+.btn--primary:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.btn--spark { background: var(--growth); color: var(--moss-deep); }
+.btn--spark:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(147,198,49,.45); }
+.btn--ghost { border-color: var(--line-strong); color: var(--text); }
+.btn--ghost:hover { border-color: var(--moss); transform: translateY(-3px); }
+.btn .arrow { transition: transform .25s var(--ease); }
+.btn:hover .arrow { transform: translateX(4px); }
+
+/* ---- cards & surfaces ---- */
+.card {
+  background: var(--paper-2); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: clamp(22px, 3vw, 34px);
+  box-shadow: var(--shadow-sm);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s;
+}
+
+/* ---- chips ---- */
+.chip {
+  display: inline-flex; align-items: center; gap: .45em;
+  font-family: var(--font-ui); font-size: .82rem; font-weight: 600;
+  padding: .35em .8em; border-radius: 100px;
+  background: color-mix(in oklab, var(--moss) 12%, transparent);
+  color: var(--moss); border: 1px solid color-mix(in oklab, var(--moss) 22%, transparent);
+}
+.chip--clay { background: color-mix(in oklab, var(--clay) 14%, transparent); color: var(--clay); border-color: color-mix(in oklab, var(--clay) 26%, transparent); }
+
+/* ---- motion ---- */
+@keyframes sprout { from { opacity: 0; transform: translateY(18px) scale(.985); } to { opacity: 1; transform: none; } }
+@keyframes drawline { from { stroke-dashoffset: var(--dash,400); } to { stroke-dashoffset: 0; } }
+@keyframes sway { 0%,100% { transform: rotate(-1.2deg); } 50% { transform: rotate(1.2deg); } }
+@keyframes float-slow { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+
+.reveal { opacity: 0; animation: sprout .85s var(--ease) forwards; }
+.reveal[data-d="1"] { animation-delay: .08s; }
+.reveal[data-d="2"] { animation-delay: .18s; }
+.reveal[data-d="3"] { animation-delay: .30s; }
+.reveal[data-d="4"] { animation-delay: .42s; }
+.reveal[data-d="5"] { animation-delay: .54s; }
+.reveal[data-d="6"] { animation-delay: .66s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { animation: none; opacity: 1; }
+  .btn, .card { transition: none; }
+  * { animation-duration: .001ms !important; }
+}

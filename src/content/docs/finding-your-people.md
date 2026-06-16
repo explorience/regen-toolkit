@@ -48,16 +48,16 @@ You need to know who you're looking for:
 ## Where to Look
 
 ### Online Spaces
-- **Discord servers** — Web3 communities
-- **Twitter/X** — Hashtags, conversations
-- **Reddit** — Relevant subreddits
-- **LinkedIn** — Professional groups
+- **Discord servers**, Web3 communities
+- **Twitter/X**, Hashtags, conversations
+- **Reddit**, Relevant subreddits
+- **LinkedIn**, Professional groups
 
 ### Offline Spaces
-- **Local meetups** — Blockchain, tech, sustainability
-- **Co-working spaces** — Entrepreneurial community
-- **Community events** — Local gatherings
-- **University groups** — Student organizations
+- **Local meetups**, Blockchain, tech, sustainability
+- **Co-working spaces**, Entrepreneurial community
+- **Community events**, Local gatherings
+- **University groups**, Student organizations
 
 ---
 

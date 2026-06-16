@@ -31,7 +31,7 @@ category: applied
 ## How to develop the skills and systems your community needs to sustain Web3 operations.
 
 ## What Is Internal Capacity?
-Internal capacity is your community's ability to do things independently — without relying on external experts, consultants, or hired help. It's the skills, knowledge, and systems that live within your members.
+Internal capacity is your community's ability to do things independently, without relying on external experts, consultants, or hired help. It's the skills, knowledge, and systems that live within your members.
 
 ## Key Capacity Areas
 
@@ -77,4 +77,4 @@ Let people practice new skills on small tasks before critical ones.
 Create guides, templates, and processes that anyone can follow.
 
 ## Moving Forward
-Capacity building is slow but essential. Invest in your members' skills — it's the highest-return investment your node can make.
+Capacity building is slow but essential. Invest in your members' skills, it's the highest-return investment your node can make.

@@ -1,132 +1,77 @@
 ---
-title: What is ReFi?
-description: A clear introduction to Regenerative Finance — what it is, how it works,
-  and why it matters for communities building ecological and social change.
-section: '1.1'
-track: 1
-status: published
-last_updated: '2026-03-26'
-author: Regen Toolkit
-sources:
-- Toucan Protocol Documentation
-- Gitcoin Quadratic Funding Research
-- ReFi DAO Local ReFi Toolkit
-target_audience:
-- grounded-regen
-category: foundations
-stage: build
-tags:
-  function: Education
-  domain: Ecosystem
-  systems:
-    - Circular-Economy
-    - Commons
-    - Resilience
-audience: Individual
-maturity: Beginner
-related:
-  - why-regens-interested
-  - what-web3-can-cant-do
-  - cooperative-commons
-  - what-is-dao
+title: "What Is ReFi?"
+description: "A plain-language introduction to Regenerative Finance for community organisers and growers new to crypto: what it is, why it might matter for your work, and how to check it's real."
 ---
 
-# What is ReFi?
+# What Is ReFi?
 
-*A straightforward guide to Regenerative Finance*
+You spend a season rebuilding the soil on a community plot: planting hedgerows, getting neighbours to compost, watching the land come back to life. But the money side never reflects any of it. The grant runs out, the value you created stays invisible on a spreadsheet somewhere, and you're back to writing applications. **Regenerative Finance (ReFi)** is an attempt to fix that mismatch, so money flows *toward* the people healing land and community instead of away from them.
 
----
+If you're new to crypto and a little wary of it, good, keep that instinct. This guide explains ReFi in plain terms, points to real projects you can check yourself, and stays honest about what's working and what isn't.
 
-## A Different Kind of Money
+## The core idea: money that builds soil instead of mining it
 
-Most financial systems are built to extract. They take value from communities and ecosystems, concentrate wealth in fewer hands, and treat the natural world as if it costs nothing. Regenerative Finance (ReFi) asks a different question: what if money could help heal instead of harm?
+Most of our financial system is **extractive**. It treats a forest as worth more cut down than alive, and counts pollution as someone else's problem. Think of it like farming that strips the soil for one big harvest and leaves the field dead.
 
-ReFi is an approach to finance that connects financial tools with ecological and social goals. It draws from traditional finance and from decentralized finance (DeFi), but takes a different direction. The goal is not just to build better financial products — it is to create economic systems that actively restore the world.
+Regenerative agriculture does the opposite: you farm so the soil is *richer* next year. ReFi borrows that exact logic for money. The aim isn't to do less harm (that's sustainability), it's to leave the system measurably healthier than you found it. Sustainability *maintains*; regeneration *improves*.
 
-This matters because the financial infrastructure we use shapes what gets built, who benefits, and what we consider valuable. When that infrastructure is extractive, it pulls wealth away from communities and ecosystems. When it is regenerative, it can channel resources toward healing.
+The tool ReFi reaches for is **blockchain**: a shared public record that many computers keep at once, so no single company or government controls it and nobody can quietly rewrite the history. Picture the village's communal ledger that everyone can read, rather than one locked in the bank manager's drawer.
 
----
+## Why a grower or organiser might actually care
 
-## How ReFi Differs from Conventional Finance
+Three real problems in on-the-ground regenerative work map onto things blockchains happen to be good at.
 
-| Conventional Finance | Regenerative Finance |
-|---|---|
-| Extracts from communities | Invests in communities |
-| Ignores environmental costs | Accounts for ecological impact |
-| Concentrates wealth | Distributes value widely |
-| Treats nature as infinite | Recognises nature's real worth |
+**Proving impact without a gatekeeper.** A blockchain entry is timestamped and public. **Silvi**, a tree-stewardship platform, has planters log each tree with GPS coordinates and a photo, stored so the claim is independently checkable rather than taken on trust. As of 2026 the Silvi app is in open beta, used by 500+ planters across dozens of countries. It's the digital version of a witnessed planting day, except the whole world can verify it later.
 
-Sustainability means maintaining balance — doing less harm. ReFi goes further: it is about strengthening systems so they actually improve over time. It is the difference between not breaking something and actively repairing it.
+**Getting funded by your community, not just one big funder.** **Quadratic funding** is a matching method where the *number* of people who chip in matters more than the size of any single cheque, so a hundred neighbours giving £5 can unlock far more matching money than one wealthy donor. **Gitcoin** has run this model for years, distributing over $60 million to more than 3,700 projects. It has since broadened into a mix of funding methods, but the small-donors-count principle remains its signature.
 
----
+**Keeping value circulating locally.** Some communities issue their own digital tokens, a modern, programmable version of a local currency or a LETS scheme, so the value created by local work keeps cycling between local people instead of leaking straight out to a distant supplier.
 
-## How It Works in Practice
+## A concrete example: pricing nature in
 
-ReFi uses web3 tools — tokens, blockchain, smart contracts — to do four things that conventional finance struggles with:
+ReFi's headline idea is putting a real number on things our economy usually treats as free: clean water, healthy soil, a living reef, carbon pulled from the air.
 
-**Valuing nature.** ReFi puts a price on things that normally have no market value: carbon sequestration, biodiversity, clean water, healthy soil. Once these have value, they can be bought, sold, and protected. This is not about commodifying nature — it is about making invisible value visible so it can be accounted for.
+The clearest case is carbon. **Toucan** is infrastructure that turns verified carbon credits into digital tokens anyone can buy, hold, or permanently "retire." Toucan now accounts for roughly 85% of all digital carbon credits and has supported around $4 billion in trading volume, working alongside established standards bodies like Gold Standard and Puro.earth.
 
-**Directing money to regeneration.** Financial flows can be channelled directly to projects that heal ecosystems — reforestation, renewable energy, regenerative farming, community infrastructure. ReFi creates pathways that bypass traditional gatekeepers.
+Here's the honest part, because this is exactly where greenwashing hides. In 2023 the standards body Verra **banned** converting already-retired credits into tokens, after critics showed many tokenised credits were tied to old, low-quality projects that weren't really helping the climate. The industry is now working toward a cleaner "immobilise, don't double-count" approach. The lesson for you: *tokenising something does not automatically make it good.* A carbon token is only as honest as the project underneath it, same as any offset.
 
-**Creating accountability.** Every transaction on a blockchain is recorded permanently and transparently. This makes it possible to verify where money actually goes, not just where organisations say it goes. For communities funding environmental work, this kind of transparency changes the relationship with funders.
+## "But isn't crypto an environmental disaster?"
 
-**Distributing ownership.** Rather than financial systems controlled by distant institutions, ReFi aims for communities to own and govern the financial infrastructure that affects their lives. This is about power as much as money.
+This is the right question to ask, and the answer has changed. The enormous energy use you've read about comes from **Bitcoin**'s "proof-of-work" mining, which deliberately burns electricity to stay secure.
 
----
+Most ReFi runs on **Ethereum** and networks built on it. In September 2022 Ethereum switched to **proof-of-stake**, a different way of securing the network that doesn't rely on racing computers, and cut its energy use by over 99.9% overnight, from roughly a small country's worth of electricity to about that of a few hundred homes. **Celo**, the network much of ReFi runs on, joined the Ethereum ecosystem in 2025 and runs a carbon-negative offset programme, routing a slice of every transaction fee into reforestation. So while "is this project genuinely green?" is always worth asking, "does the underlying tech burn a forest's worth of power?" is largely a solved problem for the chains ReFi actually uses.
 
-## Real Examples
+## Honest limitations
 
-**Toucan Protocol** tokenizes carbon credits, making them tradeable on blockchain markets. This creates a pathway for more money to reach carbon reduction projects and makes the market more transparent. Projects that previously struggled to access carbon finance can participate in a global market.
+ReFi is not a complete solution, and the movement is young and uneven.
 
-**Gitcoin** uses quadratic funding — a system where many small donations are matched more generously than large ones. This prevents wealthy donors from dominating and ensures community-driven projects get support based on genuine participation, not just cheque size. It has funded millions in open-source developer work and grassroots social projects.
+The tools still have a learning curve that excludes the very people who most need access. Regulation is unsettled: what works today may face legal challenges tomorrow, as the Verra story shows. Many projects are experiments, and not all will survive. And wealth can re-concentrate in these spaces if governance is sloppy; the technology is neutral, the outcomes depend on how people build with it.
 
-**Regenerative agriculture projects** connect farmers who are restoring soil health with funders who want to support ecological regeneration. Rather than waiting for government programmes or traditional investors, farmers can receive direct support for practices that benefit everyone — healthier soil, more carbon stored, cleaner water, greater biodiversity.
+These are reasons to engage thoughtfully, not reasons to walk away. The problems are real. So is the potential.
 
----
+## Your fears, addressed plainly
 
-## Why It Matters
+- **"Is it a scam?"** Some of it is, like any money space. Treat unsolicited DMs, "guaranteed returns," and pressure to act fast as red flags, the same instincts that protect you offline. The legitimate ReFi world is slow, public, and free to lurk in.
+- **"Will I waste my time?"** You can follow this for months without spending a penny. Reading and watching costs nothing.
+- **"Will I look foolish?"** Everyone here was a beginner recently; this field is younger than most of your perennials. Basic questions are normal and welcome.
 
-The climate crisis, biodiversity loss, and wealth inequality all connect to how money flows. Change the financial infrastructure, and you change what becomes possible.
-
-ReFi offers a different approach — one where your financial choices can support:
-
-- Restoring degraded land
-- Building local food systems
-- Funding clean energy
-- Creating community-owned infrastructure
-
-These are not charity projects. They are economic activities with real value. ReFi is about recognising that value and building financial systems that support it.
-
----
-
-## The Limitations Worth Knowing
-
-ReFi is not a complete solution. It has real limitations:
-
-Blockchain technology is still complex and inaccessible to many people. The tools require learning, and that learning curve excludes people who most need the access.
-
-Regulatory uncertainty surrounds much of the space. What works today may face legal challenges tomorrow.
-
-Many ReFi projects are experiments. They are trying new things, and not all of them will succeed. Due diligence matters.
-
-Wealth concentration can replicate itself in ReFi spaces if governance is not designed carefully. The tools are neutral; the outcomes depend on how they are built.
-
-These are reasons to engage thoughtfully, not reasons to disengage. The problems are real. The potential is also real.
-
----
+The core bet of ReFi, that money should reward people who regenerate land and community, is worth understanding before you decide whether it's useful for your work.
 
 ## Try This
 
-Think about your own money. Where does it go? What would it look like if even a small portion of your financial activity supported regeneration? You do not need to change everything at once. But noticing the gap between your values and your financial behaviour is a place to start.
+> **Start here:** Spend 20 minutes on the [Greenpill Network](https://greenpill.network/) site and check whether there's a local chapter near you. No wallet, no money, no commitment, just see what regenerative crypto communities are actually doing on the ground.
 
----
+> **Go deeper:** Open [Toucan's app](https://app.toucan.earth/) and click into a single carbon project. Trace where the credit comes from and what standard backs it. You'll learn more about spotting greenwashing from one real example than from any explainer.
+
+> **Stretch:** Pick one outcome from your own work, trees planted, a workday held, compost diverted, and sketch how you'd *prove* it to a stranger using photos, dates, and locations. Then look at how [Silvi](https://www.silvi.earth/) structures the same thing. That gap is where ReFi tools could plug into your practice.
 
 ## References
 
-- Toucan Protocol: https://app.toucan.earth
-- Gitcoin Grants: https://gitcoin.co
-- ReFi DAO: https://refidao.com
-- Greenpill Network: https://greenpill.live
-- Regenerative Finance explained — Toucan Blog: https://blog.toucan.earth
-- Protokol — What is Regenerative Finance: https://www.protokol.com/insights/what-is-regenerative-finance/
-- Coin Bureau — What is Regenerative Finance: https://coinbureau.com/education/regenerative-finance-explained/
+- [Toucan Protocol](https://toucan.earth/), carbon-credit tokenization infrastructure; current product lineup, scale figures, and standards partners.
+- [Toucan: Response to Verra's announcement](https://blog.toucan.earth/response-to-verras-announcement/), the protocol's own account of the retired-credit tokenization ban and what comes next.
+- [Gitcoin Quadratic Funding](https://gitcoin.co/mechanisms/quadratic-funding), how the small-donors-count matching model works, plus its move to a multi-mechanism approach.
+- [Silvi](https://www.silvi.earth/about-us), tree-stewardship and on-chain verification platform; an on-the-ground ReFi example for growers.
+- [Greenpill Network](https://greenpill.network/), global network of local regenerative chapters; the friendliest entry point for newcomers.
+- [Celo](https://celo.org/), the carbon-negative, mobile-first network where much of the ReFi ecosystem lives, now part of Ethereum.
+- [Consensys: Ethereum cuts its carbon footprint 99.99%](https://consensys.io/blog/ethereum-blockchain-eliminates-99-99-of-its-carbon-footprint-overnight-after-a-successful-merge-according-to-new-report), the energy-use drop after Ethereum's 2022 switch to proof-of-stake.
+- [Coin Bureau: Regenerative Finance explained](https://coinbureau.com/education/regenerative-finance-explained/), a broader plain-language overview of ReFi's principles.

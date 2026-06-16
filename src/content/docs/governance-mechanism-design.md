@@ -44,7 +44,7 @@ For community finance, mechanism design answers questions like: How do we alloca
 Each token equals one vote. Simple, but favors those with more tokens (wealth = power).
 
 **Best for**: Investment DAOs where financial stake should influence decisions.
-**Risks**: Plutocracy — wealthy members dominate.
+**Risks**: Plutocracy, wealthy members dominate.
 
 ### 2. One-Person-One-Vote
 Each verified member gets one equal vote regardless of token holdings.
@@ -65,7 +65,7 @@ Members stake tokens on proposals they support. The longer tokens are staked, th
 **Risks**: Slow for urgent decisions, complex to implement.
 
 ### 5. Consent-Based Decision Making
-Proposals pass unless someone objects. Objections must be reasoned — not just "I don't like it" but "this would cause harm because..."
+Proposals pass unless someone objects. Objections must be reasoned, not just "I don't like it" but "this would cause harm because..."
 
 **Best for**: Small to medium groups (under 30) where trust is high.
 **Risks**: Can be slow, requires facilitation skill, power dynamics can suppress objections.

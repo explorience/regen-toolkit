@@ -58,4 +58,4 @@ Web3 isn't for everyone. Some communities thrive with spreadsheets, group chats,
 Most communities benefit from a hybrid: use Web3 where it adds clear value (treasury management, governance voting) and traditional tools where it doesn't (communication, scheduling, document management).
 
 ## Moving Forward
-Be honest about whether Web3 serves your community or your curiosity. Both are valid — but don't confuse them.
+Be honest about whether Web3 serves your community or your curiosity. Both are valid, but don't confuse them.

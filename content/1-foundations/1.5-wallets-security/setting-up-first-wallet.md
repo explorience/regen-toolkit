@@ -1,113 +1,92 @@
 ---
-title: Setting Up Your First Wallet
-description: A beginner-friendly guide to setting up your first cryptocurrency wallet,
-  using nature analogies and focusing on security for new users.
-slug: setting-up-first-wallet
-section: '1.5'
-track: 1
-status: published
-author: rupa
-sources: []
-audience:
-- 🌱 beginner (grounded-regen)
-estimated_words: 1020
-created: '2026-03-11T09:43:43.250Z'
-last_updated: '2026-03-11T09:43:43.250Z'
-research_done: false
-draft_done: true
-factcheck_done: true
-review_done: true
-critique_done: true
-published_flag: true
-issue: 0
-date: '2026-03-11'
-category: foundations
-stage: published
+title: "Setting Up Your First Wallet"
+description: "A calm, step-by-step guide to creating your first crypto wallet safely, written for community organisers and permaculturists who are brand new to crypto."
 ---
 
 # Setting Up Your First Wallet
 
-## Your Digital Garden Needs a Safe Place to Grow
+You've heard that a grant programme, a community fund, or a tree-planting project you admire "runs on-chain," and to take part you need a wallet. So you searched it, hit a wall of jargon and scam warnings, and quietly closed the tab. That hesitation is healthy. This guide walks you through setting one up the careful way, so you finish with a working wallet and the confidence that you didn't just hand your keys to a stranger.
 
-Just like you need a sturdy garden shed to store your tools and seeds, you need a digital wallet to safely store your cryptocurrency. Think of a crypto wallet as your personal bank account in the digital world—it lets you send, receive, and store your digital money.
+A **crypto wallet** is a small app that lets you receive, hold, and send digital money and prove who you are online. It works like the key ring you use to get into the community garden: the wallet doesn't hold the soil, it holds the keys to your plot. Your funds live on a shared public ledger called a **blockchain** (think of a notebook every member can read but no single person can secretly rewrite). The wallet just holds your key to your row in it.
 
-Unlike a traditional bank where someone else holds your money, a crypto wallet puts you in control. You're the gardener tending your own financial ecosystem, not a customer at someone else's bank.
+The single most useful thing to understand before you start: a wallet puts *you* in charge. There's no bank to phone if something goes wrong. That sounds scary, and the fear is reasonable, so this whole guide is built around making that responsibility small and manageable.
 
-## Hot Wallets vs. Cold Wallets: Indoor Plants vs. Outdoor Gardens
+## Pick the right tool for a beginner
 
-There are two main types of crypto wallets:
+You don't need anything fancy. For your first wallet, use a **hot wallet** — a free app connected to the internet, like a trowel you keep by the back door because you reach for it daily. The most common one is **MetaMask** (a browser extension and phone app, used by tens of millions of people), but **Rainbow** and **Coinbase Wallet** are equally fine, friendly choices. They all do the same core job.
 
-**Hot wallets** are like indoor plants—they're connected to the internet and easy to access. Apps like MetaMask, Rainbow, or Coinbase Wallet are hot wallets. They're perfect for beginners because they're free, easy to use, and great for small amounts you want to access frequently.
+The other kind, a **cold wallet**, is a small physical device that stays offline, like seed stock you keep in a tin in the cellar for next season. Hardware wallets from **Ledger** (Nano S Plus, around $79) or **Trezor** (Safe 3, around $79) fall here. They're the right tool once you're holding meaningful money, but they're overkill for learning. Start with potted herbs before you fence the whole food forest.
 
-**Cold wallets** are like outdoor gardens with fences—they stay offline and are much more secure. Hardware wallets like Ledger or Trezor are cold wallets. They're best for larger amounts you don't need to access every day, like saving seeds for next season.
+This guide uses MetaMask because it's the most documented, but the steps map cleanly onto any of them.
 
-For your first wallet, we recommend starting with a hot wallet like MetaMask. It's like starting with a few potted herbs before you build your entire food forest.
+## Get the real app, not a clone
 
-## Your Seed Phrase: The Master Key to Your Financial Kingdom
+The most common way newcomers lose money isn't hacking — it's downloading a fake. In April 2026, security researchers found 26 counterfeit wallet apps on the Apple App Store impersonating MetaMask, Ledger, Coinbase, and others, all built to steal your keys [HackerNews]. So before anything else:
 
-When you set up most crypto wallets, you'll get a 12 or 24-word phrase called a "seed phrase" or "recovery phrase." This is the most important thing you'll receive.
+- Type the official address yourself: **`metamask.io`**. Don't click a link from an email, a DM, an ad, or a search result you're unsure of.
+- Download the browser extension only from that site, or the phone app only from the official listing linked there.
+- Once installed, bookmark the real site so you never have to search again.
 
-Think of your seed phrase like the genetic code of a rare plant species. If you lose it, you lose the plant forever. There's no customer service to call, no backup plan—just like you can't regrow a plant from nothing if you lose its seeds.
+This one habit — go direct, never click — protects you from most scams you'll ever meet.
 
-**Never share your seed phrase with anyone.** It's like giving someone the master key to your entire garden. Even if they seem trustworthy, once they have those words, they can access everything.
+## Create the wallet, step by step
 
-## Your Wallet Address: Sharing Your Garden's Location
+Open MetaMask and you'll see two paths. Take a breath; this takes about ten minutes.
 
-Your wallet address is a long string of letters and numbers (like `0x7a250...`). This is safe to share with others so they can send you cryptocurrency—it's like giving someone your garden's address so they can send you seeds or tools.
+1. **Click "Create a new wallet."** It may first ask whether to share anonymous usage data. Your choice — it doesn't affect safety.
+2. **Choose how to secure it.** Since 2025, MetaMask offers two options [MetaMask-Social]:
+   - **Secret Recovery Phrase** — the traditional route, where *you* hold the master backup. More on this below. This is the one to learn with.
+   - **Social login** — sign in with a Google or Apple account and a password instead. Easier to start, but it leans on those accounts rather than teaching you key safety. Pick this only if a phrase feels too daunting today.
+3. **Create a strong password.** This unlocks the app *on this device only* — it is not your master backup. Use something long and unique you've never used elsewhere.
+4. **Reveal and write down your Secret Recovery Phrase.** This is the heart of the whole thing (next section).
+5. **Pass the confirmation quiz.** MetaMask asks you to put a few words back in order, to prove you actually wrote them down. You did write them down, right?
+6. **You're in.** You'll land on "Account 1" with a wallet address ready to use.
 
-Unlike your seed phrase, your wallet address is meant to be shared. You can think of it like your email address: safe to give out, but don't give out your password.
+That's it. You now have a wallet.
 
-## Setting Up MetaMask: Your First Digital Garden Shed
+## Your Secret Recovery Phrase: guard it like rare seed
 
-Here's how to set up your first wallet using MetaMask:
+When you set up, MetaMask shows you a **Secret Recovery Phrase** (also called a seed phrase or recovery phrase) — usually 12 plain English words like *garden, river, copper, lantern…* in a fixed order. This is the genetic code of your wallet. Anyone who has those words, in order, controls everything inside, from any device, forever. And if *you* lose them with no other access, the funds are gone — there is no reset link, no support line, no spare key under the mat.
 
-1. **Download MetaMask** - Go to [metamask.io/download](https://metamask.io/download) and select your browser (Chrome/Brave) or mobile app.
-2. **Click "Get Started"** - This opens the setup wizard.
-3. **Click "Create a Wallet"** - Choose this if it's your first time.
-4. **Create a password** - This password only works on the device you create it on.
-5. **Write down your seed phrase** - MetaMask will show you 12 words. Write them down on paper, not on your computer.
-6. **Confirm your seed phrase** - MetaMask will ask you to select the words in order to verify you wrote them down correctly.
-7. **Configure preferences** - You can click "No Thanks" to opt out of data collection.
-8. **Access your wallet** - Your receiving address is ready to receive ETH or other cryptocurrencies.
+So treat it exactly like the only viable seed of a rare heritage plant:
 
-## Security: Building Strong Garden Fences
+- **Write it on paper, by hand.** Never type it into a phone, a photo, a notes app, a password manager, or a cloud document. The whole point is that it never touches the internet.
+- **Make two copies, store them in two safe places** — for example a locked drawer at home and a sealed envelope with someone you trust. If one is lost or damaged, the other survives.
+- **For real money, upgrade to metal.** Stamped steel plates (brands like Cryptosteel or Billfodl) survive fire and flood the way paper won't.
+- **Never share it. With anyone. Ever.** No legitimate company, support agent, or "verification" page will *ever* need it.
 
-Just like you'd protect your physical garden from pests and thieves, you need to protect your digital wallet:
+That last rule is not theoretical. In January 2026, someone lost more than $282 million after a scammer posing as Trezor support talked them into revealing their recovery phrase [Cointelegraph]. The lesson is simple and it never changes: **real support never asks for your phrase. The request itself is the scam.**
 
-- **Store your seed phrase safely** - Write it on two different sheets of paper and keep them in separate safe places. Consider using more durable materials like wood or metal for long-term storage.
-- **Never share your private keys or seed phrase** - No legitimate service will ever ask for these.
-- **Create a strong password** - Use a unique password for your MetaMask wallet.
-- **Watch out for phishing attacks** - Scammers may pretend to be MetaMask support. Always go directly to [metamask.io](https://metamask.io).
-- **Enable phishing detection** - In your MetaMask settings, turn on features that help protect you from scams.
-- **Bookmark metamask.io** - Never click links in emails claiming to be MetaMask support.
+## Your wallet address: this part is meant to be public
 
-## What You'll Need to Get Started
+Alongside the secret phrase, your wallet has an **address** — a long string starting with `0x`, like `0x7a25…f3b2`. This is the *opposite* of secret. It's how people send you funds, like posting your community garden's street address so neighbours can drop off compost. You can paste it in a chat, put it on a flyer, share it freely.
 
-To use your wallet, you'll need a tiny bit of ETH for "gas fees" — think of this like postage for sending letters. Every transaction on Ethereum needs a small fee paid in ETH. Without ETH in your wallet, you can't send, swap, or trade anything. It's like having seeds but no soil to plant them in.
+The easy mental model: your address is like your email address (share it), your recovery phrase is like your password (never). Mixing those two up is the one error that matters here.
 
-## Your First Steps in the Digital Garden
+## Gas fees are no longer the barrier they once were
 
-Now that you have your wallet set up:
+To *do* anything — send money, vote in a community fund, claim a contribution — a blockchain charges a small **gas fee**, the network's running cost, a bit like the stamp on a letter. For years this was a real obstacle: a single action on Ethereum's main network could cost more than the thing you were doing.
 
-1. **Start small** - Test with small amounts first, like planting a few seeds before transforming your entire yard.
-2. **Learn the basics** - Understand how to send and receive before you try more complex actions.
-3. **Stay secure** - Keep your seed phrase safe and be cautious of scams.
-4. **Explore gradually** - As you get comfortable, you can learn about more advanced features.
+That's changed. As of mid-2026, fees on Ethereum's main network sit at a small fraction of a cent in calm periods [Etherscan], and on faster side-networks called **Layer 2s** (such as **Base**, **Arbitrum**, and **Optimism** — extra lanes built on top of Ethereum to make it cheaper and quicker) a typical transaction costs well under a cent [Base-Docs]. Most regen and community projects now run on a Layer 2 for exactly this reason.
 
-Remember, your crypto wallet is like any garden tool—it's only as useful as the person using it. Take your time, learn the basics, and build your confidence step by step.
+Practically: you'll still need a tiny amount of the network's coin (ETH) to cover fees, but "tiny" now means pennies, not a serious cost. If a project lives on Base or another Layer 2, your first transactions will likely cost less than a stamp.
 
-## Ready to Grow?
+## Try This
 
-Your digital wallet is your gateway to the world of cryptocurrency and web3. Just like a well-tended garden can provide food and beauty for years to come, a well-managed crypto wallet can be a powerful tool for your financial future.
+> **Start here:** Go directly to `metamask.io` (type it yourself), watch MetaMask's two-minute setup video, and bookmark the real site. You don't have to install anything yet — just learn to recognise the genuine front door so a fake never fools you.
 
-**Your next steps:**
-1. Download MetaMask at metamask.io
-2. Write down your seed phrase on paper—two copies, two safe places
-3. Get a tiny bit of ETH for gas fees (ask a friend or use a faucet)
-4. Start with a small test transaction
+> **Go deeper:** Install the wallet and create one, choosing the Secret Recovery Phrase option. Write the 12 words on paper by hand, store two copies in two places, and pass the confirmation quiz. Then receive a tiny test amount — grab free practice funds from the [Alchemy Sepolia faucet](https://www.alchemy.com/faucets/ethereum-sepolia) on a test network, where nothing is real money and mistakes cost nothing.
 
-Take it one step at a time, keep your seed phrase safe, and enjoy the journey. Your financial garden is waiting to grow.
+> **Stretch:** Send your wallet address to a friend who already uses crypto and ask them to send you a few cents on a Layer 2 like Base. Watch the fee, confirm the transaction, and send a small amount back. You'll have completed a full real-world round trip for less than the cost of a postage stamp — and you'll never feel intimidated by a wallet again.
 
----
+## References
 
-*This article is based on research from Bankless Academy ([Source D](https://bankless.com)) and the Ottawa Web3 Starter Guide ([Source S](https://web3ottawa.ca)).*
+- [Create a new wallet — MetaMask Help Center](https://support.metamask.io/start/creating-a-new-wallet/) — official, current step-by-step setup, including the Secret Recovery Phrase and social-login options.
+- [Introducing MetaMask social login — MetaMask](https://metamask.io/news/introducing-metamask-social-login) — how the Google/Apple sign-in option works and what it does (and doesn't) change about self-custody.
+- [Securing your Secret Recovery Phrase — MetaMask Help Center](https://support.metamask.io/start/user-guide-secret-recovery-phrase-password-and-private-keys/) — official guidance on storing your phrase and why no one should ever ask for it.
+- [26 FakeWallet apps on the App Store — The Hacker News (April 2026)](https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html) — the counterfeit-app scam, and why you should only download from the official site.
+- [$282M lost to a fake-support seed-phrase scam (January 2026)](https://www.gncrypto.news/news/crypto-holder-massive-seed-phrase-scam-bitcoin-litecoin/) — a real, recent case of why support never asks for your recovery phrase.
+- [Ethereum Gas Tracker — Etherscan](https://etherscan.io/gastracker) — live Ethereum network fees, to see current costs for yourself.
+- [Base network fees — Base Documentation](https://docs.base.org/base-chain/network-information/network-fees) — how cheap transactions are on a typical Layer 2.
+- [Alchemy Sepolia Faucet](https://www.alchemy.com/faucets/ethereum-sepolia) — free test funds so you can practise sending and receiving with zero real-money risk.
+- [Ledger](https://www.ledger.com/) and [Trezor](https://trezor.io/) — official sites for hardware (cold) wallets, for when you're ready to protect larger amounts.

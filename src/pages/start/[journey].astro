@@ -1,0 +1,115 @@
+---
+import Page from "../../layouts/Page.astro";
+import JourneyTrail from "../../components/JourneyTrail.astro";
+import JourneyMark from "../../components/JourneyMark.astro";
+import { journeyList, journeyStats } from "../../data/journeys.js";
+
+const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowledge-commons": "var(--teal)" };
+
+export function getStaticPaths() {
+  return journeyList.map((j) => ({ params: { journey: j.id }, props: { journey: j } }));
+}
+
+const { journey } = Astro.props;
+const stats = journeyStats(journey);
+const others = journeyList.filter((j) => j.id !== journey.id);
+const firstSlug = journey.chapters[0].steps[0][0];
+const accentVar =
+  journey.id === "newcomer" ? "var(--moss)" : journey.id === "local-node" ? "var(--clay)" : "var(--teal)";
+---
+
+<Page title={`${journey.label} · Regen Web3 Toolkit`} description={journey.tagline}>
+  <article class="jp" style={`--jaccent:${accentVar}`}>
+    <header class="jp__hero">
+      <div class="wrap">
+        <a href="/" class="jp__back">← All journeys</a>
+        <div class="jp__hero-grid">
+          <div>
+            <span class="jp__mark reveal" data-d="1" style={`color:${accentVar}`}><JourneyMark journey={journey.id} size={58} /></span>
+            <p class="eyebrow reveal" data-d="1">{journey.kicker}</p>
+            <h1 class="jp__title reveal" data-d="2">{journey.label}</h1>
+            <p class="jp__tagline reveal" data-d="3">{journey.tagline}</p>
+            <p class="jp__intro reveal" data-d="4">{journey.intro}</p>
+            <div class="jp__cta reveal" data-d="5">
+              <a class="btn btn--spark" href={`/${firstSlug}/`}>Begin the journey <span class="arrow">→</span></a>
+              <span class="jp__meta">
+                <strong>{stats.count}</strong> stops · <strong>~{stats.minutes}</strong> min · {stats.chapters} chapters
+              </span>
+            </div>
+          </div>
+          <aside class="jp__outcome reveal" data-d="4">
+            <span class="eyebrow">By the end you can</span>
+            <ul>
+              {journey.outcome.map((o) => (
+                <li><span class="jp__tick" aria-hidden="true">✓</span>{o}</li>
+              ))}
+            </ul>
+          </aside>
+        </div>
+      </div>
+      <div class="jp__rings" aria-hidden="true"></div>
+    </header>
+
+    <section class="jp__trail wrap">
+      <JourneyTrail journey={journey} />
+    </section>
+
+    <section class="jp__next">
+      <div class="wrap">
+        <span class="eyebrow">Other journeys</span>
+        <div class="jp__next-grid">
+          {others.map((j) => (
+            <a class="jp__next-card card" href={j.href}>
+              <span class="jp__next-emoji" aria-hidden="true" style={`color:${accents[j.id]}`}><JourneyMark journey={j.id} size={30} /></span>
+              <span class="jp__next-label">{j.label}</span>
+              <span class="jp__next-tag">{j.tagline}</span>
+              <span class="jp__next-go" aria-hidden="true">→</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </article>
+</Page>
+
+<style>
+  .jp__hero { position: relative; padding-top: clamp(28px, 5vw, 56px); padding-bottom: clamp(30px, 5vw, 60px); overflow: hidden; }
+  .jp__back { font-family: var(--font-ui); font-weight: 500; color: var(--ink-soft); display: inline-block; margin-bottom: 22px; }
+  .jp__back:hover { color: var(--jaccent); }
+  .jp__hero-grid { display: grid; grid-template-columns: 1.55fr .95fr; gap: clamp(28px, 5vw, 64px); align-items: start; }
+  .jp__mark { display: block; margin-bottom: 8px; }
+  .jp__mark :global(.jmark) { display: block; }
+  .jp__title { font-size: clamp(2.4rem, 6vw, 4rem); margin: .08em 0 .15em; }
+  .jp__tagline { font-family: var(--font-display); font-size: clamp(1.2rem, 2.4vw, 1.6rem); color: var(--jaccent); font-weight: 500; max-width: 26ch; }
+  .jp__intro { color: var(--ink-soft); max-width: 56ch; margin-top: 1em; font-size: 1.08rem; }
+  .jp__cta { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; margin-top: 1.8em; }
+  .jp__meta { font-family: var(--font-mono); font-size: .82rem; color: var(--ink-faint); }
+  .jp__meta strong { color: var(--ink); }
+
+  .jp__outcome { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 26px 28px; box-shadow: var(--shadow-sm); }
+  .jp__outcome ul { list-style: none; margin: 14px 0 0; padding: 0; }
+  .jp__outcome li { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; padding: 10px 0; border-top: 1px solid var(--line); font-size: 1rem; color: var(--ink); }
+  .jp__outcome li:first-of-type { border-top: none; }
+  .jp__tick { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in oklab, var(--jaccent) 16%, transparent); color: var(--jaccent); font-size: .8rem; font-weight: 700; }
+
+  .jp__rings { position: absolute; right: -180px; top: -120px; width: 460px; height: 460px; border-radius: 50%;
+    background: repeating-radial-gradient(circle at center, transparent 0 26px, color-mix(in oklab, var(--jaccent) 11%, transparent) 26px 28px);
+    mask: radial-gradient(circle at center, #000 60%, transparent 72%); opacity: .8; pointer-events: none; z-index: -1; }
+
+  .jp__trail { padding-block: clamp(20px, 4vw, 42px) clamp(40px, 7vw, 80px); max-width: 820px; }
+
+  .jp__next { border-top: 1px solid var(--line); background: color-mix(in oklab, var(--paper-2) 60%, transparent); padding-block: clamp(36px, 6vw, 64px); }
+  .jp__next-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 16px; }
+  .jp__next-card { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 8px 16px; padding: 22px 26px; }
+  .jp__next-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--line-strong); }
+  .jp__next-emoji { grid-row: 1 / 3; display: flex; align-items: center; }
+  .jp__next-label { font-family: var(--font-display); font-weight: 560; font-size: 1.18rem; }
+  .jp__next-tag { grid-column: 2; color: var(--ink-soft); font-size: .94rem; }
+  .jp__next-go { grid-row: 1 / 3; color: var(--ink-faint); font-size: 1.3rem; }
+  .jp__next-card:hover .jp__next-go { color: var(--moss); }
+
+  @media (max-width: 860px) {
+    .jp__hero-grid { grid-template-columns: 1fr; }
+    .jp__next-grid { grid-template-columns: 1fr; }
+  }
+</style>

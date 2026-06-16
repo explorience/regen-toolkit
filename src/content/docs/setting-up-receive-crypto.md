@@ -33,9 +33,9 @@ Ready to accept cryptocurrency donations? Here's how to get started in 5 simple 
 
 We covered this in the previous article, but here's a quick recap:
 
-- **The Giving Block** – Full-featured, used by big nonprofits
-- **Infinite Giving** – Simple, great for small orgs
-- **Startssl** – Another option to explore
+- **The Giving Block**, Full-featured, used by big nonprofits
+- **Infinite Giving**, Simple, great for small orgs
+- **Startssl**, Another option to explore
 
 Pick one that fits your budget and needs.
 
@@ -86,9 +86,9 @@ Set up your accounts to generate tax receipts automatically. Most platforms do t
 
 ## Common Setup Mistakes to Avoid
 
-1. **Don't skip testing** – Always test with a small amount first
-2. **Don't accept everything** – Start with major coins, add exotic ones later
-3. **Don't forget to announce** – Put it on your website and social media
+1. **Don't skip testing**, Always test with a small amount first
+2. **Don't accept everything**, Start with major coins, add exotic ones later
+3. **Don't forget to announce**, Put it on your website and social media
 
 ## The Bottom Line
 
@@ -98,6 +98,6 @@ Setting up takes about an hour with most platforms. The hardest part is gatherin
 
 ## Try This
 
-1. **Gather documents** – Find your nonprofit verification paperwork
-2. **Pick a platform** – Choose one and create an account
-3. **Make a test donation** – Use a small amount to verify everything works
+1. **Gather documents**, Find your nonprofit verification paperwork
+2. **Pick a platform**, Choose one and create an account
+3. **Make a test donation**, Use a small amount to verify everything works

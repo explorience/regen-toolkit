@@ -39,13 +39,13 @@ related:
 
 # Security Best Practices for Organizations Using Crypto Wallets
 
-When your organization holds cryptocurrency — whether from donations, grants, or token sales — you are responsible for protecting community resources that fund real-world impact. Unlike traditional finance where banks handle security, in Web3 the responsibility falls entirely on you. This guide covers essential security practices for regenerative organizations managing digital assets.
+When your organization holds cryptocurrency, whether from donations, grants, or token sales, you are responsible for protecting community resources that fund real-world impact. Unlike traditional finance where banks handle security, in Web3 the responsibility falls entirely on you. This guide covers essential security practices for regenerative organizations managing digital assets.
 
 ## The Stakes Are High
 
 In Web3, your private keys are the keys to your safe. They are the ultimate access to your digital assets and must be guarded carefully. Loss or theft means irretrievable loss of funds.
 
-Regenerative organizations often lack dedicated security teams. You are focused on your mission — building regenerative economies, funding projects, growing communities. Security can feel like an afterthought. But one mistake from a team member can result in loss of funds and erosion of community trust.
+Regenerative organizations often lack dedicated security teams. You are focused on your mission, building regenerative economies, funding projects, growing communities. Security can feel like an afterthought. But one mistake from a team member can result in loss of funds and erosion of community trust.
 
 For organizations in East Africa working with international donors or managing cross-border contributions, this responsibility is even more significant. The funds you hold may come from diaspora communities, international grants, or local saving circles converted into digital assets. Protecting them is protecting trust.
 
@@ -57,7 +57,7 @@ This means never using a regular wallet where one person can unilaterally move m
 
 ## Multi-Sig Wallets: Your First Line of Defense
 
-A multi-sig wallet requires multiple private keys to authorize any transaction. Think of it like a corporate bank account that needs two signatures — a standard security practice in traditional finance, adapted for crypto.
+A multi-sig wallet requires multiple private keys to authorize any transaction. Think of it like a corporate bank account that needs two signatures, a standard security practice in traditional finance, adapted for crypto.
 
 ### Common Configurations
 
@@ -78,14 +78,14 @@ Safe is the most widely adopted multi-sig wallet for DAOs and organizations. It 
 When setting up Safe for your organization:
 - Distribute signers across different team members
 - Use hardware wallets for all signers
-- Set spending thresholds — for example, two signers for amounts under a certain limit, three for larger amounts
+- Set spending thresholds, for example, two signers for amounts under a certain limit, three for larger amounts
 - Implement mandatory time delays for large transfers, 24 to 48 hours
 
 ## Layered Access Control
 
 Beyond multi-sig, consider role-based access within your organization:
 
-**Level 1 (Operations):** View-only access for accounting — can see balances and transaction history but cannot propose or execute transactions.
+**Level 1 (Operations):** View-only access for accounting, can see balances and transaction history but cannot propose or execute transactions.
 
 **Level 2 (Managers):** Can propose transactions up to a set limit.
 
@@ -99,7 +99,7 @@ This layered approach prevents both external hacks and internal misuse. Someone 
 
 Separate your operational funds from long-term reserves:
 
-- **Hot wallet:** Keep only what's needed for two to four weeks of operations — enough for payroll, expenses, small grants
+- **Hot wallet:** Keep only what's needed for two to four weeks of operations, enough for payroll, expenses, small grants
 - **Cold storage:** Move treasury reserves to hardware wallets that stay offline
 
 Even if your hot wallet is compromised, the organization's long-term resources remain secure.
@@ -116,7 +116,7 @@ Formalize your security approach in written policies:
 ### Security Protocols
 - Multi-sig requirements for different transaction sizes
 - Key storage procedures
-- Device security requirements — encrypted computers, no unauthorized software
+- Device security requirements, encrypted computers, no unauthorized software
 - Access control lists
 
 ### Emergency Response Plan
@@ -135,9 +135,9 @@ Formalize your security approach in written policies:
 One small mistake from a team member can result in loss of funds or trust. Invest time in educating your team about the risks and best practices of this space.
 
 **Essential training topics:**
-- Recognizing phishing attempts — the most common attack vector
+- Recognizing phishing attempts, the most common attack vector
 - Proper seed phrase handling
-- Safe transaction practices — verifying addresses, using test transactions
+- Safe transaction practices, verifying addresses, using test transactions
 - What to do if suspicious activity is detected
 - Incident reporting procedures
 
@@ -166,15 +166,15 @@ Use this checklist to evaluate your organization's security posture:
 
 **Do not skip the multi-sig.** Even small organizations benefit. The protection gained far outweighs the overhead.
 
-**Do not ignore human error.** Most crypto losses come from user mistakes — sending to wrong addresses, falling for phishing, accidentally exposing seed phrases. Technical security cannot fix human error without training.
+**Do not ignore human error.** Most crypto losses come from user mistakes, sending to wrong addresses, falling for phishing, accidentally exposing seed phrases. Technical security cannot fix human error without training.
 
-**Do not delay.** Start with basic multi-sig protection from day one. You do not need a perfect policy before launching — you need to protect the funds you have now.
+**Do not delay.** Start with basic multi-sig protection from day one. You do not need a perfect policy before launching, you need to protect the funds you have now.
 
 ## The Regenerative Imperative
 
 For regenerative organizations, security is about protecting your mission. The resources you manage fund real work in the world: regenerative agriculture, community development, ecological restoration. Losing those resources to a hack or error means losing the impact you are creating together.
 
-Build security into your organization's ways of working from the beginning. Start small, work with trusted partners, establish clear protocols, and never stop learning. Your community's trust — and your mission's sustainability — depends on it.
+Build security into your organization's ways of working from the beginning. Start small, work with trusted partners, establish clear protocols, and never stop learning. Your community's trust, and your mission's sustainability, depends on it.
 
 ---
 
@@ -186,6 +186,6 @@ Review your organization's current setup. Do you have multi-sig protection? If n
 
 ## References
 
-- Safe (formerly Gnosis Safe) — Multi-signature wallet platform: safe.global
-- Crypto security fundamentals — General guidance on private key management and wallet security
-- Organizational crypto management — Best practices for teams managing shared digital assets
+- Safe (formerly Gnosis Safe), Multi-signature wallet platform: safe.global
+- Crypto security fundamentals, General guidance on private key management and wallet security
+- Organizational crypto management, Best practices for teams managing shared digital assets

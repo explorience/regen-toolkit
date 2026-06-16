@@ -54,11 +54,11 @@ By the end of this guide, you will understand:
 
 ## Start with a Garden Analogy
 
-Imagine you and your neighbors want to manage a community garden together. In a traditional organization, you might elect a committee or appoint a coordinator — they make most decisions about what to plant, when to water, and how to spend the budget.
+Imagine you and your neighbors want to manage a community garden together. In a traditional organization, you might elect a committee or appoint a coordinator, they make most decisions about what to plant, when to water, and how to spend the budget.
 
 Now imagine something different: everyone who gardens there gets a vote on every decision, and there is a transparent record that everyone can see, showing exactly how money was spent and what was decided. No single person is in charge. Rules are agreed upon together, and the record keeps everyone honest.
 
-That is basically what a DAO does, but instead of a notebook, it uses a blockchain — a digital record that cannot be changed or erased.
+That is basically what a DAO does, but instead of a notebook, it uses a blockchain, a digital record that cannot be changed or erased.
 
 ---
 
@@ -67,10 +67,10 @@ That is basically what a DAO does, but instead of a notebook, it uses a blockcha
 DAO stands for Decentralized Autonomous Organization. Here is what that means:
 
 - **Decentralized:** No central boss. Power is shared among all members.
-- **Autonomous:** Things run automatically based on pre-set rules — like a smart irrigation system that waters when the soil is dry.
+- **Autonomous:** Things run automatically based on pre-set rules, like a smart irrigation system that waters when the soil is dry.
 - **Organization:** A group of people working toward a common goal.
 
-Think of it like how a bee colony works — no single bee runs the show, but the whole colony coordinates, adapts, and survives together.
+Think of it like how a bee colony works, no single bee runs the show, but the whole colony coordinates, adapts, and survives together.
 
 ---
 
@@ -80,9 +80,9 @@ A DAO could be a good fit if your group values these things:
 
 ### You Want Everyone to Have a Voice
 
-In a DAO, decisions are made by voting. If you hold a token — your membership — you get to vote on proposals. This works well for small, engaged communities where people genuinely want to participate.
+In a DAO, decisions are made by voting. If you hold a token, your membership, you get to vote on proposals. This works well for small, engaged communities where people genuinely want to participate.
 
-For example, a permaculture land trust could let all members vote on which projects get funding — no executive committee required.
+For example, a permaculture land trust could let all members vote on which projects get funding, no executive committee required.
 
 ### You Need Global Participation
 
@@ -92,7 +92,7 @@ For East African communities with diaspora members in Europe, North America, or 
 
 ### Transparency Is Essential
 
-Every transaction and vote is recorded on the blockchain — visible to everyone, permanently. If your community values radical honesty and openness, this built-in transparency is powerful.
+Every transaction and vote is recorded on the blockchain, visible to everyone, permanently. If your community values radical honesty and openness, this built-in transparency is powerful.
 
 ### You Want to Reward Contributions
 
@@ -106,21 +106,21 @@ DAOs are not magic. They come with real challenges.
 
 ### You Need to Make a Fast Decision
 
-When crisis strikes — a sudden drought, a legal threat, an urgent opportunity — a DAO can be too slow. Voting takes time, and if only a few people participate, decisions may not reflect the whole community's needs. A traditional structure with clear leadership might serve you better in emergencies.
+When crisis strikes, a sudden drought, a legal threat, an urgent opportunity, a DAO can be too slow. Voting takes time, and if only a few people participate, decisions may not reflect the whole community's needs. A traditional structure with clear leadership might serve you better in emergencies.
 
 ### Legal Protection Matters
 
-Most DAOs have no legally recognized status. That means if something goes wrong — someone is injured on your land, or a contract is broken — you may not have the same legal protections as a registered cooperative or nonprofit.
+Most DAOs have no legally recognized status. That means if something goes wrong, someone is injured on your land, or a contract is broken, you may not have the same legal protections as a registered cooperative or nonprofit.
 
 This is a significant consideration for land-based projects where liability is real.
 
 ### The Technical Learning Curve Is Real
 
-Blockchain, wallets, tokens, gas fees — this stuff can feel overwhelming. If your community members are not comfortable with technology, the learning curve might create more stress than benefit. Consider whether the people who would use it are ready for it.
+Blockchain, wallets, tokens, gas fees, this stuff can feel overwhelming. If your community members are not comfortable with technology, the learning curve might create more stress than benefit. Consider whether the people who would use it are ready for it.
 
 ### Governance Attacks Are a Risk
 
-DAOs can be manipulated. A wealthy outsider could buy enough voting tokens to take control — called a governance attack. One well-documented attack stole a significant amount from a DAO called Beanstalk. Small, tight-knit communities are less vulnerable, but it is a risk worth understanding.
+DAOs can be manipulated. A wealthy outsider could buy enough voting tokens to take control, called a governance attack. One well-documented attack stole a significant amount from a DAO called Beanstalk. Small, tight-knit communities are less vulnerable, but it is a risk worth understanding.
 
 ---
 
@@ -148,14 +148,14 @@ If a DAO feels like too much, consider:
 
 ## Try This: The Garden Governance Reflection
 
-Think of a recent decision your community made — for example, where to hold a workshop or how to spend funds.
+Think of a recent decision your community made, for example, where to hold a workshop or how to spend funds.
 
 Ask yourself:
 - Who made the final call? Was everyone comfortable with that process?
 - Would a transparent voting system have changed anything?
 - Did we need to decide quickly, or was there time to discuss?
 
-Use your answers to feel into whether distributed, transparent governance — DAO-style — or more traditional structures fit your group's rhythm.
+Use your answers to feel into whether distributed, transparent governance, DAO-style, or more traditional structures fit your group's rhythm.
 
 ---
 
@@ -174,7 +174,7 @@ Use your answers to feel into whether distributed, transparent governance — DA
 
 ## References
 
-- DAO vs Traditional Companies — Key differences, benefits and advantages explained: rapidinnovation.io
-- DAOs vs Traditional Companies — Colony blog on key differences: blog.colony.io
-- The Hidden Dangers of DAO Governance in Crypto — Overview of risks: onesafe.io
-- DAO Governance Attacks, and How to Avoid Them — a16z Crypto research: a16zcrypto.com
+- DAO vs Traditional Companies, Key differences, benefits and advantages explained: rapidinnovation.io
+- DAOs vs Traditional Companies, Colony blog on key differences: blog.colony.io
+- The Hidden Dangers of DAO Governance in Crypto, Overview of risks: onesafe.io
+- DAO Governance Attacks, and How to Avoid Them, a16z Crypto research: a16zcrypto.com

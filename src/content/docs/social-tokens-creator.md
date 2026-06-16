@@ -53,7 +53,7 @@ Non-transferable tokens that represent contribution history. Think of them as a 
 ## Pitfalls
 1. Don't financialize community relationships unnecessarily
 2. Tokens should reflect value, not create it artificially
-3. Avoid speculation — design for utility, not trading
+3. Avoid speculation, design for utility, not trading
 4. Regulatory considerations (securities law)
 
 ## Moving Forward

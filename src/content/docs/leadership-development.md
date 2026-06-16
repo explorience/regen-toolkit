@@ -49,24 +49,24 @@ related:
 
 Community finance faces a fundamental tension: you need leadership to coordinate collective action, but concentrated leadership creates power imbalances that community finance is supposed to solve. Too little leadership and nothing gets done. Too much and you recreate the hierarchies you are trying to escape.
 
-The solution is not finding the right amount of leadership — it is developing the right kind of leadership. Distributed leadership, where multiple people hold leadership responsibilities and power flows contextually, is how healthy communities function.
+The solution is not finding the right amount of leadership, it is developing the right kind of leadership. Distributed leadership, where multiple people hold leadership responsibilities and power flows contextually, is how healthy communities function.
 
-This requires intentional development. Leaders do not emerge naturally — they need to be identified, supported, and given opportunities to grow.
+This requires intentional development. Leaders do not emerge naturally, they need to be identified, supported, and given opportunities to grow.
 
-In many East African and Somaliland contexts, leadership has always been relational and contextual — clan elders, women's group leaders, mosque committee members, and trading network coordinators all hold different kinds of authority in different domains. Your local node can build on this cultural foundation rather than importing a foreign model of a single heroic leader.
+In many East African and Somaliland contexts, leadership has always been relational and contextual, clan elders, women's group leaders, mosque committee members, and trading network coordinators all hold different kinds of authority in different domains. Your local node can build on this cultural foundation rather than importing a foreign model of a single heroic leader.
 
 ---
 
 ## Beyond the "Founder Trap"
 
-Most communities start with a founder who does everything. This works early on — someone needed to take initiative. But as the community grows, this becomes a bottleneck:
+Most communities start with a founder who does everything. This works early on, someone needed to take initiative. But as the community grows, this becomes a bottleneck:
 
 - The founder becomes overwhelmed
 - Others do not develop because they do not have to
 - The community is fragile (what happens if the founder leaves?)
 - Power concentrates, creating potential for abuse
 
-The fix is not to remove the founder — it is to share leadership deliberately.
+The fix is not to remove the founder, it is to share leadership deliberately.
 
 ---
 
@@ -76,7 +76,7 @@ Not everyone who seems active makes a good leader. Look for these qualities:
 
 ### Initiative
 
-They see something that needs doing and do it without being asked. Not to get credit — because they notice and care.
+They see something that needs doing and do it without being asked. Not to get credit, because they notice and care.
 
 **Signs**: They have organized something, started a conversation, volunteered for a task without prompting.
 
@@ -100,7 +100,7 @@ They admit what they do not know, ask questions, and reflect on their mistakes.
 
 ### Long-Term Thinking
 
-They think beyond the immediate to the community's future. They are not just interested in now — they care about what happens next year.
+They think beyond the immediate to the community's future. They are not just interested in now, they care about what happens next year.
 
 **Signs**: They raise strategic questions. They think about sustainability. They plan beyond the current event or project.
 
@@ -110,7 +110,7 @@ They think beyond the immediate to the community's future. They are not just int
 
 ### 1. Give Them Responsibility (With Support)
 
-The fastest way to develop a leader is to give them something meaningful to own. Not busywork — real responsibility that matters.
+The fastest way to develop a leader is to give them something meaningful to own. Not busywork, real responsibility that matters.
 
 **Approach**: Start with bounded responsibilities. "Can you handle the welcome table at our next event?" That is finite, manageable, and impactful.
 
@@ -207,7 +207,7 @@ What happens if your key leaders leave? Communities have collapsed when founders
 
 ### Mistake 3: Leaders Who Do Not Lead
 
-Sometimes you identify someone as a leader, give them responsibility, and they do not follow through. This is not failure — it is information. They might need more support, or leadership might not be the right fit for them right now.
+Sometimes you identify someone as a leader, give them responsibility, and they do not follow through. This is not failure, it is information. They might need more support, or leadership might not be the right fit for them right now.
 
 ### Mistake 4: Concentrating Power
 
@@ -255,13 +255,13 @@ Leadership takes time. If your community has resources, compensate leaders. If y
 - Served as leader through multiple cycles
 - Focuses on succession and sustainability
 
-Not everyone will move through all stages — and that is fine. The goal is not to make everyone a leader, but to ensure leadership opportunities are available for those who want them.
+Not everyone will move through all stages, and that is fine. The goal is not to make everyone a leader, but to ensure leadership opportunities are available for those who want them.
 
 ---
 
 ## Building a Leadership Culture
 
-Leadership development is not just about individuals — it is about culture:
+Leadership development is not just about individuals, it is about culture:
 
 - **Normalize leadership**: Make it expected that members will eventually take on leadership roles
 - **Celebrate leadership**: When someone steps up, acknowledge it
@@ -304,4 +304,4 @@ Do this twice a year. Your community becomes less fragile every time.
 
 Start by identifying 1-2 emerging leaders in your community. Give them a meaningful responsibility with support. See how they do. Iterate.
 
-The goal is not to create a leadership pipeline that produces perfect leaders. It is to create a culture where leadership is shared, developed, and distributed — so your community can survive the departure of any individual and thrive with many.
+The goal is not to create a leadership pipeline that produces perfect leaders. It is to create a culture where leadership is shared, developed, and distributed, so your community can survive the departure of any individual and thrive with many.

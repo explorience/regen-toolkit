@@ -44,9 +44,9 @@ related:
 
 ## Why This Matters for Community Treasuries
 
-If your community holds any funds — from membership dues, grants, or program funding — at some point you will need to make decisions about that money. Who approves spending? What happens if a committee member leaves? What stops one person from taking everything?
+If your community holds any funds, from membership dues, grants, or program funding, at some point you will need to make decisions about that money. Who approves spending? What happens if a committee member leaves? What stops one person from taking everything?
 
-These are not abstract questions. Every community fund that has ever been mismanaged failed to answer them clearly in advance. A multi-signature wallet — multisig — is a tool that builds these protections directly into how the money moves.
+These are not abstract questions. Every community fund that has ever been mismanaged failed to answer them clearly in advance. A multi-signature wallet, multisig, is a tool that builds these protections directly into how the money moves.
 
 This article explains what a multisig is, how it works, what configuration makes sense for different communities, and how to set one up step by step.
 
@@ -56,13 +56,13 @@ This article explains what a multisig is, how it works, what configuration makes
 
 A multi-signature wallet requires multiple people to approve a transaction before it can be executed. Instead of one person holding the keys to all the funds, a threshold of signers must agree before any money moves.
 
-For example, a 3-of-5 multisig means that any 3 out of 5 designated signers must approve a transaction. If one signer is compromised — their phone is stolen, they act in bad faith, or they simply become unavailable — they cannot move funds alone. No single point of failure can take down the whole system.
+For example, a 3-of-5 multisig means that any 3 out of 5 designated signers must approve a transaction. If one signer is compromised, their phone is stolen, they act in bad faith, or they simply become unavailable, they cannot move funds alone. No single point of failure can take down the whole system.
 
 This matters for communities for several reasons:
 
 **It eliminates single points of failure.** One person losing their key, going offline, or acting maliciously does not compromise the funds.
 
-**It enables genuine distributed governance.** Signers can be different community members, each representing different interests — a core team member, a general member, a representative from a local working group.
+**It enables genuine distributed governance.** Signers can be different community members, each representing different interests, a core team member, a general member, a representative from a local working group.
 
 **It creates accountability.** Transactions require multiple approvals. Everyone can see what was proposed, who approved it, and when it happened. This is public record on the blockchain.
 
@@ -86,21 +86,21 @@ For most community treasuries, 3-of-5 is a sensible starting point.
 
 ### The Signers
 
-The signers are the individuals who hold the keys — literally, the private keys to their wallets — that allow them to approve transactions. Choosing your signers carefully matters.
+The signers are the individuals who hold the keys, literally, the private keys to their wallets, that allow them to approve transactions. Choosing your signers carefully matters.
 
 Consider:
 
-- **Geographic spread**: Signers in different locations are less likely to face the same disruptions — a power outage, a flood, an internet shutdown.
-- **Role diversity**: Include people with different relationships to the funds — core team members, general community members, perhaps an external advisor.
-- **Technical capacity**: Signers need to be able to use the wallet software. This is a real consideration — do not assume everyone is comfortable with blockchain tools.
+- **Geographic spread**: Signers in different locations are less likely to face the same disruptions, a power outage, a flood, an internet shutdown.
+- **Role diversity**: Include people with different relationships to the funds, core team members, general community members, perhaps an external advisor.
+- **Technical capacity**: Signers need to be able to use the wallet software. This is a real consideration, do not assume everyone is comfortable with blockchain tools.
 
 You want identifiable humans as signers, not anonymous addresses. Communities benefit when signers are known and can be held accountable.
 
 ### Timelock
 
-A timelock is a delay between when a transaction is proposed and when it executes. It allows other signers — and the broader community — to review large transactions and cancel them if something looks wrong.
+A timelock is a delay between when a transaction is proposed and when it executes. It allows other signers, and the broader community, to review large transactions and cancel them if something looks wrong.
 
-For small, routine transactions, you might allow immediate execution. For large transactions — say, more than 10% of the total treasury — a 24-hour timelock gives people time to notice and respond if something is wrong.
+For small, routine transactions, you might allow immediate execution. For large transactions, say, more than 10% of the total treasury, a 24-hour timelock gives people time to notice and respond if something is wrong.
 
 Timelocks are not always available on all multisig setups. Gnosis Safe supports them. They are worth asking about when you are setting up.
 
@@ -112,7 +112,7 @@ Timelocks are not always available on all multisig setups. Gnosis Safe supports 
 
 **Gnosis Safe** is the most widely used multisig wallet. It works on Ethereum and related networks, is well-audited by security researchers, and has a straightforward interface. It is free to create and use.
 
-**Argent** offers a mobile-focused experience with social recovery built in — a trusted guardian can help you recover access if you lose your keys.
+**Argent** offers a mobile-focused experience with social recovery built in, a trusted guardian can help you recover access if you lose your keys.
 
 **Multis** is more business-oriented, with integrations to banking.
 
@@ -164,9 +164,9 @@ Start small. Deposit a modest amount first, make a transaction, confirm everythi
 
 Any signer can propose a transaction. A proposal includes:
 
-- The recipient address — the wallet that will receive the funds
-- The amount — how much to send
-- Any data — if interacting with a contract, the data field carries instructions
+- The recipient address, the wallet that will receive the funds
+- The amount, how much to send
+- Any data, if interacting with a contract, the data field carries instructions
 
 ### The Approval Process
 
@@ -176,13 +176,13 @@ Any signer can propose a transaction. A proposal includes:
 
 ### What the Community Should See
 
-All transactions are permanently recorded on the blockchain. Anyone can look them up. Maintain off-chain records as well — a shared document explaining why each transaction was made. This builds trust and helps future signers understand the community's priorities.
+All transactions are permanently recorded on the blockchain. Anyone can look them up. Maintain off-chain records as well, a shared document explaining why each transaction was made. This builds trust and helps future signers understand the community's priorities.
 
 ---
 
 ## Security Best Practices
 
-**Key management**: Each signer should use a hardware wallet — a physical device that stores keys offline — or at minimum a secure mobile wallet. Keys are never stored in plain text, never shared over email or chat, never kept on a shared computer.
+**Key management**: Each signer should use a hardware wallet, a physical device that stores keys offline, or at minimum a secure mobile wallet. Keys are never stored in plain text, never shared over email or chat, never kept on a shared computer.
 
 **Access control**: There should be a clear process for adding and removing signers. When someone leaves, they are removed from the multisig. This requires a transaction, which itself needs the threshold number of approvals.
 
@@ -196,7 +196,7 @@ All transactions are permanently recorded on the blockchain. Anyone can look the
 
 **Threshold set too low**: A 2-of-3 multisig is vulnerable. If any two signers collude or become unavailable, the funds are at risk or inaccessible. Use 3-of-5 or higher for community treasuries.
 
-**All signers from the same group**: If the entire multisig team works in the same office and talks to each other every day, the multisig adds less security. Include diverse signers — different roles, different locations, different relationships to the funds.
+**All signers from the same group**: If the entire multisig team works in the same office and talks to each other every day, the multisig adds less security. Include diverse signers, different roles, different locations, different relationships to the funds.
 
 **No timelock for large transactions**: Without a delay, a compromised signer could approve a large transfer before anyone notices. Configure timelocks for transactions above a set threshold.
 
@@ -206,9 +206,9 @@ All transactions are permanently recorded on the blockchain. Anyone can look the
 
 ## Social Recovery as an Alternative
 
-Some wallets — Argent and SoulWallet are examples — offer social recovery instead of multisig. With social recovery, a designated guardian (a device, a trusted person, or both) can help you recover access to your wallet if you lose your keys.
+Some wallets, Argent and SoulWallet are examples, offer social recovery instead of multisig. With social recovery, a designated guardian (a device, a trusted person, or both) can help you recover access to your wallet if you lose your keys.
 
-Social recovery is simpler for individual wallets and offers more flexibility. For community treasuries — where multiple people should have ongoing, legitimate access — multisig remains the better choice. The two approaches address different problems.
+Social recovery is simpler for individual wallets and offers more flexibility. For community treasuries, where multiple people should have ongoing, legitimate access, multisig remains the better choice. The two approaches address different problems.
 
 ---
 
@@ -231,5 +231,5 @@ Write these answers down. Then compare them to what a multisig actually provides
 - Gnosis Safe documentation: https://docs.gnosis-safe.io
 - Argent wallet: https://www.argent.xyz
 - Wallet security guides: https://www.coingecko.com/learn/cryptocurrency-wallet-security
-- Commons Stack — Treasury management: https://commonsstack.org
-- Bankless — Multisig explainer: https://academy.bankless.community
+- Commons Stack, Treasury management: https://commonsstack.org
+- Bankless, Multisig explainer: https://academy.bankless.community
