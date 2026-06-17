@@ -1,0 +1,21 @@
+# K3 — Shared AI-readable metadata base. Every entry type `extends: frontmatter`.
+# This is the substrate of federated search + exportable schemas.
+id: frontmatter
+version: 0.1.0
+description: Shared metadata base inherited by every entry type.
+required: [title, type]
+fields:
+  title: { type: string }
+  type: { type: string }
+  maturity: { axis: maturity }            # validated against K1
+  public_use: { axis: public_use }        # validated against K1
+  lifecycle_state: { axis: lifecycle_state }  # validated against K1
+  ai_assisted: { type: boolean }          # orthogonal flag (Principle 14)
+  high_risk: { type: boolean }            # orthogonal flag (high-risk triggers)
+  domain: { type: string }
+  function: { type: string }
+  source_lineage: { type: string }        # Principle 1
+  steward: { type: string }
+  review_needs: { type: string }
+  last_reviewed: { type: string }
+  notes: { type: string }

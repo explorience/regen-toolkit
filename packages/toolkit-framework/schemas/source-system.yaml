@@ -1,0 +1,24 @@
+# K2 — Source System card. THE federation primitive.
+# A source system is a living knowledge environment treated as a PEER, not an
+# extractable link pool (master doc L652). The return_path field is the
+# contribute-back / reciprocity hook (Principle 7).
+id: source-system
+version: 0.1.0
+extends: frontmatter
+description: A stewarded knowledge environment (wiki, repo, forum, garden, archive…) treated as a peer.
+required: [title, type, steward, return_path]
+fields:
+  url: { type: string }
+  steward: { type: string }
+  type:
+    enum: [wiki, map, repo, forum, knowledge-garden, directory, archive, database, library, docs-site, convening, podcast, newsletter, dataset]
+  what_it_curates: { type: string }
+  why_it_matters: { type: string }
+  how_to_credit: { type: string }       # attribution (Principle 2)
+  use_type: { type: string }
+  reuse_conditions: { type: string }
+  return_path: { type: string }         # ← the federation / contribute-back primitive
+  currentness: { type: string }
+  update_rhythm: { type: string }
+  extraction_status: { type: string }
+  toolkit_route: { type: string }

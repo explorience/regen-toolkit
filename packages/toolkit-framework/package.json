@@ -1,0 +1,28 @@
+{
+  "name": "@regen-commons/toolkit-framework",
+  "version": "0.0.1",
+  "description": "Regen Knowledge Commons Toolkit framework — a portable, org-os-agnostic system for building a federated, interoperable knowledge commons (semantic kernel, schemas, process, agentic skills). The operational distillation of the master doc; adopt the package, not the 30k-line doc.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": {
+    "toolkit-framework": "src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node src/cli.mjs validate"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "knowledge-commons",
+    "regenerative",
+    "framework",
+    "ontology",
+    "semantic-kernel",
+    "federation",
+    "interoperability",
+    "org-os-agnostic"
+  ]
+}

@@ -1,0 +1,11 @@
+# Public-use boundary — visibility / restricted-memory tiers (Evolution §15).
+# "Not everything that can be mapped should be mapped publicly" (Principle 8).
+id: public-use-boundary
+version: 0.1.0
+description: Visibility tier for sensitive, unresolved, or consent-bound material.
+required: [tier]
+fields:
+  tier:
+    enum: [public, public-with-caveat, restricted-working-notes, private-steward-memory, anonymized-lessons, composted-patterns, never-publish-without-consent]
+  consent_note: { type: string }
+  review_type: { type: string }

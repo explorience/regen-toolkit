@@ -24,6 +24,18 @@ Branch consolidation + site merge **done**. Now driven by the [**convergence pip
 
 > Full roadmap (waves, dependencies, skills-to-load per plan): [`docs/plans/CONVERGENCE-PIPELINE.md`](docs/plans/CONVERGENCE-PIPELINE.md).
 
+### Framework Build — `packages/toolkit-framework` _(NEW 2026-06-17, IN PROGRESS)_
+
+Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0–SP11). The framework = a standalone, org-os-agnostic package (zero-build ESM + YAML + markdown) seeding a federated network of forkable-but-interoperable commons. Gap analysis + reconciliations: [`framework/COVERAGE.md`](framework/COVERAGE.md) · [`framework/RECONCILIATIONS.md`](framework/RECONCILIATIONS.md) · [`framework/FEEDBACK-LOOPS.md`](framework/FEEDBACK-LOOPS.md).
+
+- [x] **SP-DEC** — R1 (3-axis canonical state model) / R3 (kernel = ontology subset) / R7 (Octo-candidate, CSIS-informed) resolved
+- [x] **SP0** — package scaffolded; validator + CLI; **12/12 tests green**
+- [x] **SP1** — shared-schema keystones K1 (review-maturity) · K2 (source-system / return-path) · K3 (frontmatter) · K5 (contribution-record) + signal/provenance/public-use-boundary
+- [ ] **SP2** — semantic kernel (core/extension entities, `maps_to_core`, relationships, crosswalks, JSON-LD, fork-compatibility) — the interoperability contract. *Next.*
+- [ ] SP3/SP4 — layer schemas + compatibility engine · SP5 — process · SP6 — agentic skills (capture-and-route, compose-journey, csis-review)
+- [ ] SP-DEC open items to the biweekly: confirm R1/R3/R7 with Matty/Durgadas/Rather (ontology + CSIS)
+- [ ] **Batch the R1/R3/R7 master-doc proposals** for Matty (Loop 2 — draft-and-present)
+
 ### Master Doc 2026-06-15 Iteration _(NEW 2026-06-16)_
 
 - [ ] **Revise CSIS posture** (`docs/CSIS.md`) → "CSIS-Informed, Not CSIS-Conformant" + the 3-level model (Principles / Review prompts / Enforceable standards) + minimum enforceable safeguards. The new master doc formalizes this — resolves the long-standing "posture revision pending" flag.

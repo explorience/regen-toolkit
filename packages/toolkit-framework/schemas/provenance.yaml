@@ -1,0 +1,14 @@
+# Provenance — reusable source-lineage block (Principle 1). Mixed into objects
+# that carry lineage; keeps attribution + transformation + authorship visible.
+id: provenance
+version: 0.1.0
+description: Source-lineage block making origin, transformation, and authorship explicit.
+required: [origin]
+fields:
+  origin: { type: string }
+  surfaced_by: { type: string }
+  adapted_from: { type: string }
+  transformation:
+    enum: [quoted, summarized, synthesized, translated, remixed, inferred]
+  authorship:
+    enum: [human-authored, ai-assisted, inferred, reviewed, disputed, deprecated, candidate]

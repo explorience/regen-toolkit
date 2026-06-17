@@ -1,0 +1,17 @@
+# K5 — Contribution record. Central to federated contribute-back.
+# Capture now; reward later (the reward mechanism is a deferred design-seed).
+# The source_system_reciprocity field is the §18 -> §16 federation hook.
+id: contribution-record
+version: 0.1.0
+extends: frontmatter
+description: A durable attestation of a contribution to the commons.
+required: [contributor, what, where_it_appears]
+fields:
+  contributor: { type: string }
+  what: { type: string }
+  where_it_appears: { type: string }
+  labor_kind:
+    enum: [capture, routing, extraction, review, synthesis, maintenance, source-system-reciprocity, implementation-learning, stewardship]
+  improved_public_usefulness: { type: boolean }
+  source_system_reciprocity: { type: string }   # ← federation hook
+  reviewed: { type: boolean }

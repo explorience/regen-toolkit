@@ -2,6 +2,13 @@
 
 > **Created 2026-06-17.** The build plan for `packages/toolkit-framework` (+ `org-os-kms`) — to encompass the **full** master-doc framework, grown dialectically. Grounded in [`framework/COVERAGE.md`](../../framework/COVERAGE.md) (the master-doc↔package map + keystones K1–K8 + reconciliations R1–R10) and [`framework/FEEDBACK-LOOPS.md`](../../framework/FEEDBACK-LOOPS.md). Part of the [convergence pipeline](../CONVERGENCE-PIPELINE.md) (this is the detailed expansion of **P1**).
 
+## Progress
+
+- ✅ **SP-DEC** — R1/R3/R7 resolved ([`framework/RECONCILIATIONS.md`](../../framework/RECONCILIATIONS.md)).
+- ✅ **SP0** — `packages/toolkit-framework` scaffolded (zero-build ESM + YAML + markdown; `js-yaml` only); validator + CLI; **12/12 tests green**.
+- ✅ **SP1** — shared-schema keystones: K1 `review-maturity` (3-axis state model), K3 `frontmatter`, K2 `source-system` (return-path), K5 `contribution-record` (reciprocity hook), + `signal`/`provenance`/`public-use-boundary`.
+- ⏭ **Next: SP2** — the semantic kernel (core/extension entities + `maps_to_core` + relationships + crosswalks + JSON-LD + fork-compatibility). R9 resolves here.
+
 ## Build strategy
 
 1. **Keystone-first, then dialectical.** Build K1–K8 (the shared base everything depends on) as a minimal-but-real spine; grow the rest by metabolizing reconciliations (R1–R10) + adoptions (ReFi DAO/BCN). **No "finish then ship"** (FEEDBACK-LOOPS).

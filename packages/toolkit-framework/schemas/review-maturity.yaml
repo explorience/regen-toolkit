@@ -1,0 +1,71 @@
+# K1 — Canonical state model (the shared trust/readiness vocabulary).
+# Resolves COVERAGE R1 + R2: the master doc's ~7 divergent maturity ladders are
+# really THREE ORTHOGONAL AXES + two flags. Every per-layer ladder crosswalks here.
+# See framework/RECONCILIATIONS.md (R1).
+id: review-maturity
+version: 0.1.0
+
+axes:
+  maturity:
+    description: How developed and trustworthy the content itself is.
+    values:
+      - raw                  # captured, unprocessed
+      - draft                # written but not source-linked
+      - candidate            # proposed for inclusion
+      - source-linked        # has provenance/citations
+      - reviewed             # human-reviewed
+      - field-informed       # informed by real implementation
+      - pattern-generating   # repeated enough to suggest a pattern (ceiling, per Principle 12)
+      - deprecated           # no longer recommended
+      - archived             # preserved, not active
+
+  public_use:
+    description: Whether the item is safe to expose publicly (independent of maturity).
+    values:
+      - internal-only
+      - raw-lead
+      - ok-with-caveat
+      - source-linked-unreviewed
+      - reviewed-for-explanation
+      - reviewed-for-guidance
+      - requires-community-consent
+      - requires-domain-review
+      - not-public-yet
+      - deprecated
+
+  lifecycle_state:
+    description: Where the item sits in the intake → compost pipeline (the contribution lifecycle).
+    values:
+      - raw-lead
+      - routed
+      - extracted
+      - source-linked
+      - ai-synthesis
+      - human-reviewed
+      - field-informed
+      - public-candidate
+      - mature
+      - compost
+
+# Orthogonal boolean flags (NOT states) — Principle 14 (AI-but-human-governed) + high-risk triggers.
+flags:
+  ai_assisted: boolean
+  high_risk: boolean
+
+# Per-layer ladders crosswalk to the `maturity` axis so the compose/validate engine
+# never has to special-case each layer.
+crosswalks:
+  deployment_readiness:   # Deployment layer L0–L6 -> maturity
+    L0-idea: raw
+    L1-internal-draft: draft
+    L2-internal-pilot: candidate
+    L3-community-pilot: source-linked
+    L4-public-beta: reviewed
+    L5-reviewed-deployment: reviewed
+    L6-field-informed-pattern: pattern-generating
+  legacy_ontology:        # data/ontology/*.yaml (old) -> maturity (R1/R7 reconciliation)
+    seed: raw
+    experimental: candidate
+    emerging: source-linked
+    proven: field-informed
+    canonical: pattern-generating

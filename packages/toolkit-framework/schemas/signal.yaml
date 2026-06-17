@@ -1,0 +1,14 @@
+# Signal — something learned or flagged. Feeds the Evolution layer's adaptive loop
+# (Signal -> Sensemaking -> Balance -> Intervention -> Integration -> Memory).
+id: signal
+version: 0.1.0
+extends: frontmatter
+description: A learning, correction, tension, failure, or observation that may update the commons.
+required: [title, signal_type]
+fields:
+  signal_type:
+    enum: [content, ontology, resource, option, deployment, track, implementation, public-use, source-system, infrastructure]
+  affected_layer: { type: string }
+  interpretation: { type: string }
+  proposed_intervention:
+    enum: [preserve, update, route, merge, split, review, restrict, cite, flag, deprecate, archive, compost, remove]
