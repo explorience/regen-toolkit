@@ -104,7 +104,74 @@ Mapping confirmed and documented. One correction to the plan's shorthand: the tr
 
 ## Processing Counts
 
-_TODO — populated by Tasks 2–6 (article/entry counts as content is processed through the framework)._
+_Populated by Tasks 2–6 as content is processed through the framework._
+
+### Task 2 — V3 Resource Lift
+
+**Source:** `data/resources/csv/toolkit-layer-crosswalk.csv` (the V3 resource DB crosswalk).
+**ETL:** framework SP7 lift (`packages/toolkit-framework/src/lift.mjs` — `parseCsv`, `liftRow`), consumed read-only by the reproducible instance script `scripts/lift-v3-resources.mjs`.
+**Outputs replaced/created:** `data/resources.yaml` (replaces the April lift — superseded shape) and `data/source-systems.yaml` (new).
+
+#### Row accounting (no silent loss)
+
+| Bucket | Count | Destination |
+|---|---|---|
+| CSV file lines (minus header) | 2820 | — (raw file) |
+| **Parsed rows** (framework `parseCsv`) | **2617** | — (multi-line quoted `notes` fields collapse 2820 → 2617 records) |
+| → **Resources** (Resource Graph) | **1616** emitted (+214 de-duped) = 1830 routed | `data/resources.yaml` |
+| → **Source systems** | **89** emitted (+0 de-duped) | `data/source-systems.yaml` |
+| → **Held** (review-queue rows, not lifted) | **698** | recorded below; rows stay in the CSV |
+| Unrouted (could not classify) | 0 | — |
+| Skipped as noise (route has `http` or len > 60) | 0 | — |
+
+Reconciliation: 1830 (resource-routed) + 89 (source-system) + 698 (held) = **2617** = all parsed rows. Nothing dropped.
+
+> **Note on the "368 empty routes" / "2985 rows" figures from the naive survey:** those were artifacts of comma-splitting the CSV without honoring quoted `notes` fields (which contain commas and embedded newlines). The framework's `parseCsv` is authoritative: **2617** real records, **0** truly-empty routes. The compound-route counts (e.g. `Media Source System Track; Source System Card`) push the "Source System" total to 89, higher than the single-route distribution implied.
+
+#### Held (not lifted — review-queue rows)
+
+These were **counted and recorded, not written** into `resources.yaml`. The rows remain in the CSV for a future review pass. Held by route:
+
+| Route | Count |
+|---|---|
+| Social Signal Review | 622 |
+| People/Account Review | 64 |
+| Structural Integrity Review | 5 |
+| Tooling; Deployment Safeguards | 1 |
+| Ontology; Review Model | 1 |
+| Social Signal Layer | 1 |
+| Automated Curation | 1 |
+| Media Safeguards | 1 |
+| Social Signal Strategy | 1 |
+| Builder Safeguards | 1 |
+| **Total held** | **698** |
+
+Rationale: the plan's loose "the rest → resources.yaml" would have dumped 622 raw social-signal mentions + 64 person/account-review rows into the Resource Graph as noise, contradicting the crosswalk's own routing column. Held rows are review-queue destinations (signal review, account review, structural-integrity review, safeguards, automated-curation) — not curated artifacts.
+
+#### Routing rules applied
+
+- **→ source-systems.yaml** (transformed to `source-system` objects): any row whose `toolkit_route` contains "Source System" (case-insensitive), including compound routes (`Media Source System Track`, `Tooling; Source System Card`, `Events; Source System`, …). Checked **first**, so a curated-artifact route wins over a co-tagged safeguard (`Source System Candidate; Public-use caution` → source system).
+- **→ resources.yaml** (`resource` objects, lift kept verbatim): `Resource Graph` plus clearly-resource destinations (`Books Papers Articles*`, `Datasets/Maps`, `Projects Initiative(s)`, `Tooling`, `Concept Entry`, `Option Library`, `Implementation Memory*`, `Infrastructure*`, `Public Goods Builder Track`, `Resource Lead`, `Encyclopedia`, `Ontology`, `Repositories/Codebases`, `Podcasts/Media Shows`, `Events`, `Funding Mechanisms`, `Claims/Evidence`, `dMRV Track`, etc.).
+- **HELD** (not lifted): review-queue routes (see table above).
+
+#### Source-system transform
+
+Each source-system row was transformed from the lift's resource shape to a `source-system` object:
+- `title` ← name; `url`, `original_source`, `toolkit_route` carried over; `notes` ← `review_status`.
+- `type` ← best-fit enum inferred from `primary_type`/route (podcast/media → `podcast`; repo/codebase → `repo`; dataset → `dataset`; convening/event → `convening`; garden/pattern-library → `knowledge-garden`; forum, docs-site, library, etc.). **Fallback `database`** when no confident match (60 of 89; these are `organization/*`, `platform/*`, `domain/source-system candidate`, `white-space/research prompt` rows that don't map cleanly to the narrow enum).
+- `steward` = `"UNKNOWN — needs identification"`, `return_path` = `"UNKNOWN — needs return_path"` (the `needs: return_path` marker — required field, so a non-empty placeholder), `review_needs` = `"steward, return_path, type confirmation"`.
+- State: `maturity: raw`, `public_use: raw-lead`, `lifecycle_state: raw-lead`, `extraction_status: raw-lead`. **Nothing auto-promoted.**
+
+Emitted source-system `type` distribution: database 60, podcast 16, convening 6, knowledge-garden 3, repo 1, forum 1, docs-site 1, library 1.
+
+#### De-dupe + replace
+
+- De-duped by normalized title (stable key; falls back to `global_id`). **214** duplicate resources dropped; **0** duplicate source systems.
+- `data/resources.yaml` (April lift; `schema_version 1.0`, `generated_from docs/MASTER.md`) **fully replaced** by the V3 lift (`schema_version 2.0`). The old April-lift shape is superseded.
+
+#### Validation (honest-state confirmation)
+
+Every emitted object was validated **in a batch loop** via the framework API `validateObject(schemaName, obj)` (`packages/toolkit-framework/src/index.mjs`) before any file write — schema `resource` for 1616 objects, `source-system` for 89. The script **refuses to write** if any object fails. Result: **1616/1616 resources valid, 89/89 source systems valid** (0 failures). No object exceeds `raw` / `raw-lead` state; `review_status` is preserved in `notes` but never used to promote.
 
 ---
 

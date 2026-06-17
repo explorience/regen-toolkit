@@ -1,0 +1,1341 @@
+schema_version: '2.0'
+generated_from: data/resources/csv/toolkit-layer-crosswalk.csv
+generated_at: '2026-06-17'
+generator: scripts/lift-v3-resources.mjs (framework SP7 lift)
+note: V3 resource DB lifted through the framework. Raw leads — never auto-promoted (honest-state discipline). 89 source systems.
+source_systems:
+  - title: Ma Earth
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Publisher of The Regeneration Will Be Funded / bioregional finance context
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: The Regeneration Will Be Funded
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Ma Earth podcast about regenerative finance / living planet; Apple entry lists Ma Earth and episodes including nature finance/carbon finance topics
+    use_type: ''
+    toolkit_route: Media Source System Track; Source System Card
+    original_source: web_verified; podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Crypto Altruists
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Web3 impact platform; site describes podcast/blog/resources for crypto and web3 social impact
+    use_type: ''
+    toolkit_route: Media Source System Track; Source System Card
+    original_source: web_verified; podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Crypto Altruists Podcast
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Podcast highlighting real-world social/environmental impact powered by crypto/web3
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Funding the Commons
+    type: convening
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Public goods funding community and conference/media archive; StreamETH page says it bridges Web2, Web3, research, philanthropy, and industry
+    use_type: ''
+    toolkit_route: Source System Card; Public Goods Builder Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Funding the Commons YouTube
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Talk archive / public goods funding media source
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: The Blockchain Socialist
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Cooperative crypto / crypto-left / public AI media source
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: resource_seed; podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Bloom Network
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Regenerative local action and impact network
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Regen Network
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Ecological data and ecological assets network
+    use_type: ''
+    toolkit_route: Source System Card; dMRV Track
+    original_source: resource_seed; podcast_synthesis; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: OpenCivics
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Civic infrastructure and knowledge commoning context
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed; project_context
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Knowledge Commoning Swarm
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Knowledge commoning collaboration context
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: project_context
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: BKC Roadmap
+    type: knowledge-garden
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Bioregional Knowledge Commons roadmap
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: SuperBenefit Knowledge Garden
+    type: knowledge-garden
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Adjacent public goods/regenerative web3 knowledge garden
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: LocalNodes
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: AI-powered community knowledge garden candidate
+    use_type: ''
+    toolkit_route: Tooling; Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Holonic Horizons
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Durgadas writing / frame language / social architecture
+    use_type: ''
+    toolkit_route: Source System Card; Structural Integrity
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Gravity DAO Standards
+    type: repo
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Governance/standards source
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Gitcoin
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Public goods funding ecosystem
+    use_type: ''
+    toolkit_route: Source System Card; Public Goods Builder
+    original_source: resource_seed; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Gitcoin Governance Forum
+    type: forum
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Funding rounds / governance / retrospectives
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Allo Capital Resources
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Resources for Allo and funding design
+    use_type: ''
+    toolkit_route: Resource Registry; Source System Candidate
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Giveth
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Donation platform / QF / causes
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Octant
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Public goods funding via ETH staking/yield distribution
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Octant v2 Docs
+    type: docs-site
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Developer and funding model docs
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Protocol Guild
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Ethereum core protocol funding commons
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Commons Stack
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Commons mechanism design and TEC context
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Token Engineering Commons
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Token engineering and mechanism design community
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Govbase
+    type: knowledge-garden
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Governance pattern library
+    use_type: ''
+    toolkit_route: Option Library; Source System
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Murmurations
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Distributed data interoperability / profiles
+    use_type: ''
+    toolkit_route: Infrastructure; Source System
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Geo / Geobrowser
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Knowledge graph / web3 knowledge organization lead
+    use_type: ''
+    toolkit_route: Infrastructure; Source System Candidate
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Grassroots Economics
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Community currencies and local exchange infrastructure
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed; podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Bread Cooperative
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Solidarity crypto and distribution cycles
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Endaoment
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Crypto philanthropy / donor-advised funds
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Every.org
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Nonprofit fundraising and crypto donation infrastructure
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Mercy Corps Ventures
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Humanitarian / frontier tech funding context
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: UNICEF CryptoFund
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Crypto humanitarian/public good program
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Stellar Development Foundation
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Stablecoin/payment rails for social impact context
+    use_type: ''
+    toolkit_route: Tooling; Source System
+    original_source: podcast_adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Celo
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Mobile-first and ReFi-adjacent blockchain ecosystem
+    use_type: ''
+    toolkit_route: Source System Card
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: GainForest
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Conservation tech, AI, ecological funding
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed; podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: HOT OSM
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Humanitarian OpenStreetMap Team
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Open Earth Foundation
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Climate data infrastructure
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Local Contexts
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Traditional Knowledge / Biocultural Labels; needed for Indigenous/local knowledge handling
+    use_type: ''
+    toolkit_route: Public-use Safeguard; Source System
+    original_source: adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Amazon Sacred Headwaters
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Indigenous-led Amazon bioregional protection context
+    use_type: ''
+    toolkit_route: Source System Candidate; Public-use caution
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Biome Trust
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Regeneration Will Be Funded link / bioregional finance context
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Bioneers
+    type: convening
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Regenerative ecological conference/source system
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Edge City
+    type: convening
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Popup city/civic experimentation source system
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Zuzalu
+    type: convening
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Popup city / governance/social experimentation
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Devcon
+    type: convening
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Ethereum conference/source archive
+    use_type: ''
+    toolkit_route: Events; Source System
+    original_source: resource_seed; twitter_signal
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Regens Unite
+    type: convening
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Regenerative web3 gatherings
+    use_type: ''
+    toolkit_route: Events; Source System
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Gardens
+    type: library
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Shared resource coordination / conviction voting / commons governance
+    use_type: ''
+    toolkit_route: Source System; Option Library
+    original_source: resource_seed
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Living artifact
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: A source-aware, review-aware artifact produced from evolving media/conversation/source-system material
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Media white-space map
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Map under-covered topics emerging from podcast/media/source-system review
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: 'Greenpill S10 Ep.6 - Vitalik Buterin: Public Goods Funding in 2026'
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Greenpill YouTube/Apple listing; web verified
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Greenpill S10 Ep.10 - AI Agents on Ethereum with Austin Griffith & Zak Cole
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: PlayPodcasts listing / Greenpill episode lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: The Regeneration Will Be Funded - Nature on the Balance Sheet
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Apple listing lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: The Regeneration Will Be Funded - Forward Carbon Financing
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Apple listing lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: The Regeneration Will Be Funded - The Problem with Net Zero
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Apple listing lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Crypto Altruists Episode 250 - The Quiet Revolution
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Apple listing lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: web_verified; adjacent_expansion
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Crypto Altruists - Bioregional Reforestation
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Podcast synthesis sample lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Crypto Altruists - Commitment Pooling
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Podcast synthesis sample lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Crypto Altruists - Savings Circles
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Podcast synthesis sample lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Greenpill - Network Nations / Regen Network of Networks
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Podcast synthesis sample lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Greenpill - Technologies Grown from Dirt
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Podcast synthesis sample lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Greenpill - Metrics-Based Voting on RPGF Round 4
+    type: podcast
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Podcast synthesis sample lead
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs verification
+  - title: Indigenous and Global South primary voices
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: More first-person source systems and consent-aware extraction
+    use_type: ''
+    toolkit_route: Media Source System Track; Public-use Review
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: Berachain and next-wave L1/L2 regen experiments
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Review emerging regen experiments outside existing Greenpill/Gitcoin cluster
+    use_type: ''
+    toolkit_route: Source System Expansion
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: Media archive to living artifact workflow
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: How to turn podcasts/calls into review-aware structured knowledge
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: project_context
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: Source-system reciprocity protocols
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: How to avoid extractive aggregation and return value to source systems
+    use_type: ''
+    toolkit_route: Source System Strategy
+    original_source: project_context
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: Podcast archives can become living artifacts
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: High-signal conversations can become source-linked, review-aware, searchable field memory.
+    use_type: ''
+    toolkit_route: Media Source System Track
+    original_source: podcast_synthesis
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: Source systems are not extractable link pools
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: Living knowledge environments carry worldview, stewardship, attribution, and return-path needs.
+    use_type: ''
+    toolkit_route: Source System Strategy
+    original_source: project_context
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: x.com
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=197
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: paragraph.com
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=33
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: open.substack.com
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=6
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: gov.gitcoin.co
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=5
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: github.com
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=4
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: wiki.p2pfoundation.net
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=4
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: carboncopy.news
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=4
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: explorer.gitcoin.co
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=4
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: medium.com
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=3
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: forms.gle
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=3
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: vitalik.eth.limo
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=3
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: frontiersin.org
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=3
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: ethresear.ch
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: link.springer.com
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: app.t2.world
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: bloomnetwork.earth
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: resilience.org
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: forum.regen.network
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: willruddick.substack.com
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: sarafu.network
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
+  - title: chones.xyz
+    type: database
+    steward: UNKNOWN — needs identification
+    return_path: UNKNOWN — needs return_path
+    what_it_curates: domain_count=2
+    use_type: ''
+    toolkit_route: Source System Candidate
+    original_source: Twitter/X archive
+    extraction_status: raw-lead
+    maturity: raw
+    public_use: raw-lead
+    lifecycle_state: raw-lead
+    ai_assisted: false
+    review_needs: steward, return_path, type confirmation
+    notes: raw; needs review
