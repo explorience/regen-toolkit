@@ -1,112 +1,133 @@
 # Framework Review — Placement & Operation
 
-> **Status:** review for discussion (2026-06-17). Requested before continuing past P1. This examines **where the framework lives** and **how it operates**, grounded in the actual federation topology. Pairs with [`README.md`](README.md), [`SEPARATION.md`](SEPARATION.md), and [D1](../docs/plans/architecture-lifecycle-vs-layers.md).
+> **Status:** review v2 (2026-06-17). **Supersedes the "profile-of-org-os" framing** with a **modular-package** model per operator direction: develop the framework as a standalone, **org-os-agnostic** package (usable anywhere), with org-os integration as a separate, **replaceable** module. Pairs with [`README.md`](README.md), [`SEPARATION.md`](SEPARATION.md), and [D1](../docs/plans/architecture-lifecycle-vs-layers.md).
 
 ---
 
-## 1. Ground truth — the topology we're actually in
-
-From `federation.yaml` + the vault structure:
+## 1. Ground truth — topology (unchanged)
 
 ```
-lf-zettelkasten-os (hub vault)
-└─ 03 Libraries/
-   ├─ regen-coordination-os/         ← THE org-os FRAMEWORK (template + standards)
-   │  └─ repos/
-   │     ├─ organizational-os-template/   (the org-os template)
-   │     └─ regen-toolkit/   ← WE ARE HERE = ReFi Web3 Toolkit INSTANCE
-   │                            upstream: github.com/regen-coordination/org-os-template (overlay sync)
-   ├─ refi-dao-os/           ← sibling org instance (future toolkit instance — P9)
-   ├─ refi-bcn-os/           ← sibling org instance (future toolkit instance — P10)
-   └─ refi-med-os/, dao-os/, coop-os/, bread-coop-os/, …
+03 Libraries/
+├─ regen-coordination-os/         ← the org-os framework (template + standards) + RegenOS
+│  └─ repos/regen-toolkit/         ← WE ARE HERE = ReFi Web3 Toolkit instance
+│     └─ packages/                 ← @org-os/* TS packages (koi-bridge, regen-agents, …)
+├─ refi-dao-os/  refi-bcn-os/  …   ← sibling instances (P9/P10 targets)
 ```
 
-**Three facts that change the framework question:**
-1. **regen-toolkit is already an org-os instance.** It overlays `org-os-template`. The "framework vs instance" pattern *already exists* — we're inside it. org-os = framework, regen-toolkit = instance.
-2. **The generic substrate already flows from upstream** (overlay sync from org-os-template): the `/initialize`–`/close` mechanism, registries, base skills, federation. We don't re-own those.
-3. **refi-dao-os / refi-bcn-os are siblings** (at `03 Libraries/`), each already its own org-os instance. They are the *targets* for the toolkit framework (P9/P10). *(Path note: from `regen-toolkit`, they're `../../../refi-dao-os`, not `../refi-dao-os` — fix in P9/P10.)*
+Two facts from recon that shape this: **(a)** the upstream `org-os-template` dir is **empty** — the org-os substrate is currently *baked into* this repo, not a live dependency; **(b)** `packages/` is an established monorepo of `@org-os/*` TS packages with `src/`→`dist/` + CLIs. A framework package fits the existing convention.
 
-## 2. What the framework IS, restated in topology terms
+## 2. What the framework IS — a modular, org-os-AGNOSTIC core (revised model)
 
-The "Regen Knowledge Commons Toolkit framework" is **not a new top-level thing** — it's a **knowledge-commons *profile* of org-os**:
+The framework is **the toolkit's reusable core, extracted as a standalone package that does not depend on org-os.** org-os becomes *one* (replaceable) host. Inverted dependency, three modular layers:
 
 ```
-org-os  (substrate: overlay mechanism, registries, base skills, federation, instance pattern)
-  └─ + Knowledge Commons profile  (THE framework we're naming)
-        · the layer/lifecycle architecture (D1)
-        · the resource-graph + source-system model
-        · the journey-based site generator (Heenal's work)
-        · the CSIS-informed contribution/review process
-        · the knowledge-commons agent skills (curator, meeting/podcast intake, resource lift)
-        └─ = INSTANCE  (org-os + profile + domain content)
-              · regen-toolkit  → ReFi Web3 content
-              · refi-dao-os    → ReFi DAO podcasts/blog (P9)
-              · refi-bcn-os    → bioregional/local-node (P10)
+┌─ packages/toolkit-framework   ★ THE FRAMEWORK — standalone, org-os-AGNOSTIC
+│    The full master-doc framework as a portable, adoptable artifact:
+│      · architecture: layers + lifecycle spine + mapping (D1)
+│      · schemas / ontology / semantic kernel (the data model, portable)
+│      · contribution + CSIS-informed review process + maturity states
+│      · journey / site MODEL (generator-agnostic)
+│      · AGENTIC SKILLS (work in ANY agent context — Claude Code, Cursor, Zed…)
+│      · templates (instance skeleton) + a small CLI/API
+│    → adoptable in ANY repo/context, WITH OR WITHOUT org-os
+│
+├─ org-os-kms                    ○ the org-os INTEGRATION — REPLACEABLE
+│    "org-os Knowledge Management System": binds the framework into org-os —
+│    setup, /initialize–/close lifecycle, registries, federation/RegenOS —
+│    to create + manage toolkits and knowledge commons.
+│    depends on: toolkit-framework + org-os. Swap it for a different host
+│    (plain CLI, another OS, a SaaS) without touching the framework.
+│
+└─ INSTANCE                       (regen-toolkit, refi-dao-os, refi-bcn-os, …)
+     consumes toolkit-framework (+ org-os-kms if using org-os) + domain content + identity
 ```
 
-So the framework sits **between org-os and the instances** — a specialization layer. This is the cleanest mental model and it reuses the federation pattern that already works.
+**Why this is better than "profile of org-os":** it makes the framework **independently adoptable** (the master doc's whole point — "somebody not even related to us could structure it this way"). org-os stops being a *requirement* and becomes a *convenience host*. High modularity: every layer is replaceable.
 
-## 3. WHERE it should live — options
+**This answers "usable without org-os":** adopt `toolkit-framework` + its skills alone → you have a working knowledge-commons method. Add `org-os-kms` only when you want the full org-os management/federation.
 
-The framework has **two kinds of content** with different homes:
+## 3. WHERE it lives — develop as a package; mirror to a repo
 
-**(a) Generic substrate additions** (skills, schemas, the overlay mechanics) → belong **upstream in `org-os-template`** (push when stable; instances inherit via overlay sync). Low debate.
+**Both of the operator's options, sequenced:**
+- **Develop as `packages/toolkit-framework`** (in this monorepo) — matches the `@org-os/*` convention, immediately consumable by this instance, versioned, low-friction iteration. *(Scope: NOT `@org-os/` — it must be agnostic. Proposed `@regen-commons/toolkit-framework` or `@knowledge-commons/framework` — naming is a decision.)*
+- **Mirror/publish to its own repo** when stable — the public artifact external orgs adopt (npm package + GitHub repo). The package *is* the repo; mirroring is a publish step, not a fork.
+- **`org-os-kms`** → `packages/org-os-kms` (`@org-os/kms`) to start; it naturally homes in the org-os framework (`regen-coordination-os`) later, since it's an org-os concern.
 
-**(b) The knowledge-commons profile** (layer/lifecycle spec, journey site generator, resource/source-system model, CSIS process) → the real placement question:
+So: **package-first, repo-when-ready.** You get modularity now and a clean adoptable artifact later, without committing to repo overhead prematurely (Matty: "not necessarily its own repo yet").
 
-| Option | What | Pros | Cons |
-|---|---|---|---|
-| **1. In-repo `framework/`** (current) | profile spec lives in regen-toolkit | zero infra; the praxis is here; iterate freely | conflates framework w/ instance (the thing we're separating); a 2nd instance must copy/submodule |
-| **2. Fold into `org-os-template`** | profile becomes part of the generic template | one upstream; all instances inherit | org-os is broader than knowledge-commons; pollutes the generic template with KC-specific stuff |
-| **3. Own template repo** | `regen-knowledge-commons-template` (an org-os *profile* template) | clean; versioned; instances overlay it like they overlay org-os | most overhead now; Matty: "not necessarily its own repo yet" |
-| **4. Hybrid, phased** (recommended) | spec in `framework/` now → generic bits upstream as they stabilize → extract profile to its own template when a 2nd instance needs it | matches reality; lets the boundary be *discovered*, not guessed; no premature abstraction | requires discipline to not let instance creep into `framework/` |
-
-## 4. HOW it operates — the operation model
-
-An instance running the framework follows the **lifecycle loop** (D1) on the org-os substrate:
+## 4. Proposed package layout
 
 ```
-/initialize  (org-os: sync all branches)
-   ↓
-CAPTURE   domain sources (podcasts, blog, links, transcripts, repos)
-   → via skills: knowledge-curator, meeting/podcast intake, resource-lift
-   ↓
-UNDERSTAND · RELATE · COMPOSE · SPECIFY   (route into layers/registries; ontology relates)
-   ↓
-REVIEW    CSIS-informed queues (maturity/review state; not-endorsement caveats)   ← P5
-   ↓
-IMPLEMENT · LEARN · EVOLVE   (cases, signals, feedback back into the commons)
-   ↓
-INTEROPERATE   generate the journey site (public door) + schemas/feeds
-   ↓
-/close  (org-os: sync) → FEDERATE via RegenOS (declare upstream/downstream)
+packages/toolkit-framework/              @regen-commons/toolkit-framework  (agnostic)
+  package.json   README.md               ← the adoption front door (the "artifact")
+  src/{ index.ts, cli.ts }               ← programmatic API + CLI: init|validate|capture|route|review|compose|build
+  architecture/                          ← the master-doc framework, distilled + operational
+    ARCHITECTURE.md (layers+lifecycle+mapping, D1) · layers/ · lifecycle/ ·
+    minimum-operating-kernel.md · cross-cutting-principles.md (18)
+  schemas/                               ← portable data model (JSON Schema / YAML)
+    ontology · resource · source-system · concept · option · track ·
+    deployment · implementation · signal · review-state · contribution-record
+  process/                               ← contribution intake · review queues ·
+    csis-safeguards · maturity-states (CSIS-informed; P5)
+  site/                                  ← journey/site MODEL (generator-agnostic) + journey.schema
+  skills/                                ← AGENTIC skills, org-os-agnostic
+    knowledge-commons-init · capture-and-route · review · compose-journey
+  templates/instance/                    ← instance skeleton (data/, identity, config slots)
+
+packages/org-os-kms/                     @org-os/kms  (replaceable integration)
+  src/{ cli.ts, bind.ts }                ← kms create|manage; wires framework→org-os
+  (binds: schemas→org-os registries · lifecycle→/initialize–/close · federation→RegenOS)
 ```
 
-**Relationships:**
-- **To org-os:** the framework is an org-os *profile* (specialization). org-os gives the substrate + mechanism; the profile adds the knowledge architecture + site generator + process.
-- **To RegenOS** (`regen-coordination-os` as the coordination layer): RegenOS **federates instances** (upstream/downstream; knowledge-source vs organizational federation). The framework is **what each instance runs**; **self-qualifying adoption = running the framework's process** — which is exactly RegenOS's non-arbitrary federation filter. (So the framework and RegenOS are two halves of the same story: framework = the thing you adopt; RegenOS = how adoption federates you in.)
-- **To the instance:** instance = profile + `data/` + content + identity files. To make a new instance: overlay the framework, fill the lifecycle/layer slots, run the skills over the domain's sources.
+**Maps to the master doc 1:1** — every framework section of `docs/MASTER.md` (System Overview, Ontology, Resource Graph + Source Systems, Concept Ecology, Option Library, Deployment, Tracks, Implementation, Evolution, Infrastructure, Contributor Roles + the CSIS map) lands in `architecture/` + `schemas/` + `process/`. The package is the **operational distillation** of the 30k-line doc — you adopt the package, you don't read the doc.
 
-## 5. Recommendation
+## 5. HOW it operates
 
-1. **Adopt the mental model:** the framework is a **knowledge-commons profile of org-os** (§2). State it in `README.md`. This dissolves most of the confusion.
-2. **Placement: Option 4 (hybrid, phased).** Keep the **spec** in `framework/` *now* (where the praxis is, low-risk, iterable). Mark generic pieces in `SEPARATION.md` for **upstream to org-os-template** as they stabilize. **Let P9 (refi-dao-os) force the profile extraction** — when a second instance actually needs to consume the profile, extract it to its own template repo (Option 3). Don't abstract before the second consumer exists.
-3. **Operation: confirm the lifecycle loop (§4)** as the framework's operating model (depends on D1 confirming the lifecycle spine).
-4. **Boundary discipline:** `framework/` holds **only domain-agnostic** spec/templates. Anything ReFi-specific stays in the instance (`data/`, `src/content/`). `SEPARATION.md` is the contract; review it with the group before any file moves (mark-don't-move, P1).
-5. **Don't restructure the repo yet.** Validate the boundary with the **P3 prototype** + group feedback first. The framework is being *recognized* (it's the group's praxis); recognition before relocation.
+The framework runs its **lifecycle loop** via its **own** skills/CLI — no org-os required:
 
-## 6. Key decisions for you / the group
-1. **Confirm the model** — framework = knowledge-commons *profile* of org-os? (Yes → everything else follows.)
-2. **Placement now** — keep spec in `framework/` (recommended) vs push to org-os-template now vs own repo now?
-3. **Extraction trigger** — agree "extract the profile to its own template *when refi-dao-os needs it* (P9)" rather than now?
-4. **What goes upstream to org-os-template** — which generic skills/schemas/mechanics, and on what cadence? (coordinate with the org-os framework at `regen-coordination-os`.)
-5. **Framework ↔ RegenOS naming** — are they two halves (adopt-the-framework / federate-via-RegenOS), or is "RegenOS" the umbrella? (affects P6 docs.)
+```
+toolkit-framework init        → scaffold an instance from templates/
+CAPTURE      skill: capture-and-route   (source → typed object → layer)
+RELATE       schemas + ontology         (the semantic kernel)
+COMPOSE/SPECIFY  options/tracks/deployment models
+REVIEW       skill: review              (CSIS-informed queues; maturity/not-endorsement)   ← P5
+INTEROPERATE toolkit-framework build    (journey site model → site)
+```
 
-## 7. What this review does NOT decide (deferred)
-- The lifecycle-vs-layers spine → **D1** (must land first; it shapes the profile's structure).
-- The physical file extraction → **P1 Phase 5** (after boundary validated).
-- ReFi Commons stewardship/branding of the framework → **P8** (if the toolkit moves under ReFi Commons, the framework's home/branding may shift — keep `framework/` thin until then).
+`org-os-kms` then *adds* (optionally): `/initialize`–`/close` sync, the org-os registries/dashboard, branch-per-collaborator, Notion/Obsidian, and **RegenOS federation** (self-qualifying adoption). Remove `org-os-kms` → the framework still works, just without the org-os management/federation niceties.
+
+- **Framework ↔ RegenOS:** the framework is *what you adopt*; RegenOS (via `org-os-kms`) is *how an org-os-hosted instance federates*. A non-org-os adopter uses the framework standalone and can federate later by adding `org-os-kms`.
+
+## 6. How the current repo refactors into this (the real P1 work)
+
+This is what "framework/instance split" concretely becomes:
+
+| Current (in `regen-toolkit`) | → moves to |
+|---|---|
+| `skills/{knowledge-curator, meeting-processor, schema-generator, research, idea-scout}` (agnostic versions) | `packages/toolkit-framework/skills/` |
+| `skills/{org-os-init, heartbeat-monitor, workspace-improver}` | `packages/org-os-kms/` (org-os-coupled) |
+| `schemas/`, `data/ontology/` shapes, option-library/deployment/feedback *schemas* | `packages/toolkit-framework/schemas/` |
+| `docs/layers/`, `docs/MASTER.md` framework sections (distilled) | `packages/toolkit-framework/architecture/` |
+| journey site *generator* (`src/data/journeys.js` shape, `start/[journey]`) | `packages/toolkit-framework/site/` (model) + instance keeps the impl |
+| `scripts/{generate-schemas, validate-structure, lift-resources, gen-graph}` | `toolkit-framework` CLI commands |
+| ReFi content (`src/content/docs`, the V3 resource DB, the 3 journeys, `data/*` entries) | **stays in the instance** |
+| `IDENTITY/SOUL/MEMORY/HEARTBEAT/federation.yaml` | **stays in the instance** (filled from `templates/instance/`) |
+
+`framework/` (this dir) stays as the **spec/manifest** during extraction, then becomes the package's `README` + `architecture/`.
+
+## 7. Decisions for you / the group
+1. **Confirm the modular model** — standalone `toolkit-framework` package + replaceable `org-os-kms`? (vs my earlier profile-of-org-os.)
+2. **Package name/scope** — `@regen-commons/toolkit-framework`? `@knowledge-commons/framework`? (must NOT be `@org-os/`.)
+3. **`org-os-kms` home** — `packages/org-os-kms` here, or develop it in `regen-coordination-os` (the org-os framework) and consume it? (it's an org-os concern.)
+4. **Skills in the framework** — confirm shipping agentic skills *inside* `toolkit-framework/skills/` (for agnostic adoption), with org-os-specific skills in `org-os-kms`.
+5. **Repo mirror timing** — package now, public repo when stable (recommended) vs own repo immediately.
+6. **Scope of "fully developed"** — encompass *all* master-doc framework sections in v1, or land the spine (architecture + schemas + 1–2 skills) first and grow? (recommend spine-first, then completeness.)
+
+## 8. Deferred
+- D1 (lifecycle spine) still gates `architecture/`.
+- ReFi Commons stewardship of the framework artifact → P8 (may shift naming/branding).
+- The actual build is a substantial multi-session effort → re-scope **P1** around this package (see below).
 
 ---
 
-_This is a review to discuss, not a restructure. Recommendation in one line: **the framework is org-os's knowledge-commons profile; keep its spec in `framework/` now and let the second instance (ReFi DAO) force the extraction — recognize the boundary before relocating it.**_
+_One line: **develop the framework as a standalone, org-os-agnostic `packages/toolkit-framework` (the full master-doc framework + agentic skills, adoptable anywhere), with a separate replaceable `org-os-kms` integration module; package-first, mirror to a public repo when stable.**_

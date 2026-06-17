@@ -17,11 +17,19 @@ The **instance** is what you get when you fill the framework with a domain's con
 3. **Graspability** — "a framework you can instantiate" is concrete; "a 30,000-line master doc" is not. The group can hold the former.
 4. **Immediate utility** — ReFi DAO has been waiting months to process its podcasts/blog into a knowledge commons; the framework makes that a fill-in-the-blanks job (plan [P9](../docs/plans/deploy-refi-dao-instance.md)).
 
-## How it relates to org-os
+## How it's built (modular — see `PLACEMENT.md`)
 
-**The framework is a knowledge-commons *profile* of org-os** — a specialization layer between the generic org-os substrate and the domain instances. See [`PLACEMENT.md`](PLACEMENT.md) for the full placement + operation review.
+**The framework is a standalone, org-os-AGNOSTIC package** — `packages/toolkit-framework` — usable in any context (any agent, any repo, with or without org-os). org-os is *one* (replaceable) host, integrated via a separate module:
 
-The framework is **org-os + the knowledge-commons architecture**. `org-os` already gives the instance pattern (template → instances), the overlay mechanism (`/initialize`, `/close`, branch-per-collaborator, Notion/Obsidian sync), the data registries, and agent skills. The Regen Knowledge Commons Toolkit framework adds: the **layer/lifecycle knowledge architecture**, the **journey-based site generator**, the **resource-graph + source-system model**, and the **CSIS-informed contribution/review process**. Generic pieces should flow **upstream** to `org-os-template`; knowledge-commons-specific pieces live here.
+```
+packages/toolkit-framework  ★ the framework: architecture · schemas · process · site model · AGENTIC SKILLS · CLI/API · templates  (agnostic)
+        ↑ consumed by
+org-os-kms                  ○ replaceable org-os integration: setup, /initialize–/close, registries, RegenOS federation
+        ↑ consumed by
+INSTANCE                    regen-toolkit (ReFi Web3) · refi-dao-os · refi-bcn-os = framework (+ org-os-kms) + domain content
+```
+
+Adopt `toolkit-framework` + its skills alone → a working knowledge-commons method. Add `org-os-kms` only for the full org-os management/federation. The package is the **operational distillation of the master doc** — you adopt the package, not the 30k-line doc. See [`PLACEMENT.md`](PLACEMENT.md) for the full model, the package layout, and the refactor map.
 
 ## Contents (as this fills out — see P1)
 

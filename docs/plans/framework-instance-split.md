@@ -7,7 +7,9 @@
 
 ## Goal
 
-Cleanly separate the **domain-agnostic framework** (the Regen Knowledge Commons Toolkit *system*) from the **ReFi Web3 instance** (the *content*) inside `regen-toolkit-os`, so that (a) the framework can be instantiated by other orgs (ReFi DAO, ReFi BCN) and (b) the group can grasp it as a concrete, runnable thing rather than a 30k-line doc.
+Extract the **domain-agnostic framework** into a **standalone, org-os-agnostic package** — `packages/toolkit-framework` — that encompasses the full master-doc framework + agentic skills and is adoptable in any context (with or without org-os), plus a separate **replaceable `org-os-kms`** integration module. So that (a) any org can adopt the framework as a portable artifact, (b) it's usable without org-os, and (c) the group grasps it as a concrete, runnable package rather than a 30k-line doc.
+
+> **Architecture (per [`framework/PLACEMENT.md`](../../framework/PLACEMENT.md) v2):** modular, inverted dependency — `packages/toolkit-framework` (agnostic core: architecture · schemas · process · site model · skills · CLI) ← `org-os-kms` (replaceable org-os integration) ← instances. The concrete current→package refactor map is **PLACEMENT §6**.
 
 ## Context
 
@@ -37,11 +39,14 @@ The framework tree shape depends on whether the spine is the **10 layers** (curr
 ### Phase 1 — Separation manifest (the design artifact)
 Produce `framework/SEPARATION.md` (started in the scaffold): an explicit line-item mapping of every significant repo area → framework | instance | both. This is the brainstorming output and the contract for the extraction. Get Matty/Heenal/Durgadas eyes on it before moving files.
 
-### Phase 2 — Framework spec + structure (mostly docs, low-risk)
-Stand up `framework/` (scaffolded): README, the architecture spec (derived from `docs/MASTER.md`, NOT a copy — a distilled, instantiable spec), the layer/lifecycle definitions, the contribution + review process, the CSIS-informed safeguards, and **instance templates** (a `framework/templates/` skeleton an org fills in). Derive from the master doc; don't move it (it's Matty's working doc + the instance's spec source).
+### Phase 2 — Scaffold `packages/toolkit-framework` (agnostic core)
+Create the package skeleton per PLACEMENT §4: `package.json` (neutral scope, minimal deps), `src/{index,cli}`, `architecture/` · `schemas/` · `process/` · `site/` · `skills/` · `templates/instance/`. Populate `architecture/ARCHITECTURE.md` from the master doc framework sections (distilled, NOT a copy) once **D1** sets the spine. Ship the first **agentic skill** (`knowledge-commons-init` or `capture-and-route`) to prove agnostic operation.
 
-### Phase 3 — Mark, don't move (first pass)
-Rather than physically relocating files (risky, breaks the live site + org-os), **annotate** in the separation manifest + add `framework: true|false` markers / a small `framework/INDEX.md` that points at the existing framework-grade assets in place (`data/` schemas, `skills/`, the site generator, the org-os overlay files). Physical extraction (Phase 5) comes only after the prototype validates the boundary.
+### Phase 3 — Extract per the refactor map (PLACEMENT §6)
+Move framework-grade assets into the package, leaving instance content in place: agnostic `skills/*` → `toolkit-framework/skills/`; `schemas/` + `data/` schema shapes → `toolkit-framework/schemas/`; the journey site *model* → `toolkit-framework/site/`; framework scripts → CLI commands. **Mark-don't-move first** (annotate in `SEPARATION.md`), then physically move once the boundary is validated (P3). Don't break `npm run build` / `validate:schemas`.
+
+### Phase 3b — Scaffold `org-os-kms` (replaceable integration)
+Create `packages/org-os-kms` (`@org-os/kms`): binds `toolkit-framework` → org-os (setup, `/initialize`–`/close`, registries, RegenOS federation). Move org-os-coupled skills (`org-os-init`, `heartbeat-monitor`) here. The instance consumes `toolkit-framework` + `org-os-kms`.
 
 ### Phase 4 — Instance clarity
 Make the ReFi instance content explicit and bounded: the resource DB V3 (P2), the 119 articles + 3 journeys, the ReFi-specific `data/` entries. Document "to make a new instance, replace these."
@@ -74,7 +79,7 @@ Hand off to [`framework-prototype-demo.md`](framework-prototype-demo.md): the ru
 
 ## Open decisions (resolve in brainstorming, surface to group)
 1. **D1** — lifecycle spine vs 10 layers (or both: lifecycle as spine, layers as appendices per Structure Options).
-2. **Own repo or in-place?** Matty: "not necessarily its own repo yet, but conceptually separate." Start in-place (`framework/`); extract to its own repo only if/when adoption demands it.
-3. **Framework name** — "Regen Knowledge Commons Toolkit (framework)" vs a distinct name. The *instance* is "ReFi Web3 Toolkit."
-4. **Relationship to org-os** — is the framework an org-os *extension* (upstream-able) or a sibling? Likely: framework = org-os + knowledge-commons architecture; push generic bits upstream.
+2. **Package now, repo when stable** — RESOLVED: develop as `packages/toolkit-framework`; mirror/publish to its own public repo when stable (PLACEMENT v2 §3).
+3. **Framework name / scope** — must be org-os-agnostic (NOT `@org-os/`). Proposed `@regen-commons/toolkit-framework` or `@knowledge-commons/framework`. *(open)*
+4. **Relationship to org-os** — RESOLVED: the framework is **agnostic** (does not depend on org-os); org-os integration is a separate **replaceable** `org-os-kms` module that consumes the framework (PLACEMENT v2 §2). org-os becomes a host, not a requirement.
 5. **ReFi Commons home** — if the toolkit moves under ReFi Commons (2026-06-15), does the framework's stewardship/branding shift? Keep `framework/` thin until that settles.
