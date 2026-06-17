@@ -1,0 +1,16 @@
+# Claim-Evidence (Principle 5) — keeps claims and their support separate + reviewable.
+# Claim ≠ Evidence (invariant). High-risk claims (impact/ecological/funding/governance) require this.
+id: claim-evidence
+version: 0.1.0
+extends: frontmatter
+description: A structured claim with its evidence, uncertainty, and review state.
+required: [title, type, claim]
+fields:
+  claim: { type: string }
+  evidence: { type: string }
+  source_lineage: { type: string }
+  interpretation: { type: string }
+  uncertainty: { type: string }
+  reviewed_by: { type: string }
+  maturity: { axis: maturity }
+  public_use: { axis: public_use }

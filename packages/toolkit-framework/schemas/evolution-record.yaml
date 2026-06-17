@@ -1,0 +1,16 @@
+# Evolution record (Layer 9) — a logged turn of the adaptive loop
+# (Signal -> Sensemaking -> Balance -> Intervention -> Integration -> Memory).
+id: evolution-record
+version: 0.1.0
+extends: frontmatter
+description: A record of a signal interpreted and acted on, updating the commons.
+required: [title, type, signal_ref, intervention]
+fields:
+  signal_ref: { type: string }
+  affected_layer: { type: string }
+  interpretation: { type: string }
+  intervention:
+    enum: [preserve, update, route, merge, split, review, restrict, cite, flag, deprecate, archive, compost, remove]
+  integration_note: { type: string }
+  memory_note: { type: string }
+  maturity: { axis: maturity }

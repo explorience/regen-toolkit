@@ -1,0 +1,17 @@
+# Encyclopedia entry (Layer 2) — explains. NOT a raw resource list (invariant).
+# page_type drives the entry's internal structure.
+id: encyclopedia-entry
+version: 0.1.0
+extends: frontmatter
+description: An explanatory page — concept, framework, comparison, guide, case-linked, anti-pattern, or frontier.
+required: [title, type, page_type]
+fields:
+  page_type:
+    enum: [concept, framework, comparison, guide, case-linked, anti-pattern, frontier]
+  summary: { type: string }
+  audience: { type: string }
+  known_tensions: { type: array }
+  related_concepts: { type: array }
+  related_resources: { type: array }
+  maturity: { axis: maturity }
+  public_use: { axis: public_use }

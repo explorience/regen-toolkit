@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import yaml from 'js-yaml';
 import { listSchemas, validateObject, isValid, validateKernel, toJsonLdContext } from './index.mjs';
+import { parseCsv, liftRows } from './lift.mjs';
 
 const require = createRequire(import.meta.url);
 const { version } = require('../package.json');
@@ -40,6 +41,16 @@ switch (cmd) {
   case 'context': {
     // emit the JSON-LD @context generated from the kernel
     console.log(JSON.stringify(toJsonLdContext(), null, 2));
+    break;
+  }
+
+  case 'lift': {
+    // lift <crosswalk.csv> -> resources YAML (crosswalk-driven; raw leads never auto-promoted)
+    const [file] = args;
+    if (!file) { console.error('usage: toolkit-framework lift <crosswalk.csv>'); process.exit(2); }
+    const { resources, skipped } = liftRows(parseCsv(readFileSync(file, 'utf8')));
+    console.error(`lifted ${resources.length} resources; skipped ${skipped.length} noisy rows`);
+    console.log(yaml.dump({ resources }));
     break;
   }
 

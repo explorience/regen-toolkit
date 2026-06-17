@@ -8,6 +8,9 @@ import yaml from 'js-yaml';
 const here = dirname(fileURLToPath(import.meta.url));
 export const SCHEMA_DIR = join(here, '..', 'schemas');
 
+// Re-export the compatibility engine (K6) as part of the package API.
+export { checkOptionCompatibility, checkDeploymentValidity, checkTrackComposition } from './compatibility.mjs';
+
 const _cache = new Map();
 
 /** Load a schema YAML by name (without extension), cached. */

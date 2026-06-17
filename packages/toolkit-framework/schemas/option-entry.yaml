@@ -1,0 +1,20 @@
+# Option (Layer 5) — a reusable design choice. The compatibility engine (SP4) consumes
+# `incompatibilities`, `common_pairings`, `required_deployment_checks`.
+id: option-entry
+version: 0.1.0
+extends: frontmatter
+description: A reusable governance/coordination/funding/incentive/measurement component.
+required: [title, type, category]
+fields:
+  category:
+    enum: [governance, coordination, organizational-structure, funding-capital, token-incentive, knowledge-documentation, impact-measurement, implementation-operations, experimentation]
+  use_cases: { type: string }
+  not_for: { type: string }
+  scale: { type: string }
+  context: { type: string }
+  required_deployment_checks: { type: array }   # feeds Deployment validity
+  common_pairings: { type: array }              # option ids that compose well
+  incompatibilities: { type: array }            # option ids/categories that conflict
+  failure_modes: { type: array }
+  maturity: { axis: maturity }
+  related_concepts: { type: array }

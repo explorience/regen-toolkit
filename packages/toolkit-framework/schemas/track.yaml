@@ -1,0 +1,17 @@
+# Track (Layer 7) — a guided pathway composing concepts + options for a context.
+# A track is NOT a deployment (invariant). The compose-journey skill (SP6) builds these;
+# the compatibility engine checks the track's options compose without conflict.
+id: track
+version: 0.1.0
+extends: frontmatter
+description: A guided pathway (audience/context-specific) over the lifecycle.
+required: [title, type, audience]
+fields:
+  audience: { type: string }
+  starting_context: { type: string }
+  outcome: { type: string }
+  concepts: { type: array }
+  options: { type: array }              # option ids -> compatibility checked
+  deployment_checks: { type: array }
+  failure_modes: { type: array }
+  maturity: { axis: maturity }

@@ -1,0 +1,14 @@
+# Update proposal — a governed request to change the commons or the shared kernel.
+# The vehicle for contribute-back promotion (FEEDBACK-LOOPS Loop 4) + ontology change.
+id: update-proposal
+version: 0.1.0
+extends: frontmatter
+description: A proposed change (to content, schema, or the Layer-A kernel) for review.
+required: [title, type, target, rationale]
+fields:
+  target: { type: string }            # what it proposes to change
+  rationale: { type: string }
+  proposed_change: { type: string }
+  maps_to_core: { type: string }      # if proposing a new extension type
+  review_status: { axis: lifecycle_state }
+  decision: { enum: [open, accepted, rejected, deferred, promoted-to-core] }

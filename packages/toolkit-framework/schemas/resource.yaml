@@ -1,0 +1,16 @@
+# Resource (Layer 3) — a found thing grounded in reality. Normalized registry entry.
+# Schema = framework; the lifted ReFi entries = instance data.
+id: resource
+version: 0.1.0
+extends: frontmatter
+description: A project, tool, org, person, dataset, map, paper, or reference.
+required: [title, type]
+fields:
+  url: { type: string }
+  resource_type: { type: string }       # tool/org/article/dataset/... (open vocab)
+  is_source_system_candidate: { type: boolean }
+  toolkit_route: { type: string }
+  link_status: { enum: [active, broken, redirected, inaccessible, paywalled, archived, duplicate, replacement-needed, unresolved] }
+  original_source: { type: string }     # provenance of the lift (sheet/row)
+  related_concepts: { type: array }
+  related_options: { type: array }

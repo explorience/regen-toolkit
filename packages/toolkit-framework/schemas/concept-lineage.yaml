@@ -1,0 +1,16 @@
+# Concept lineage (Layer 4) — maps where a concept comes from + its adjacent meanings,
+# distinctions, and risks-of-flattening. Preserves plurality (don't assert one definition).
+id: concept-lineage
+version: 0.1.0
+extends: frontmatter
+description: A concept's source traditions, usages, distinctions, and tensions.
+required: [title, type]
+fields:
+  short_description: { type: string }
+  source_traditions: { type: array }
+  toolkit_usage: { type: string }
+  adjacent_meanings: { type: array }
+  important_distinctions: { type: array }
+  tensions: { type: array }
+  risks_of_flattening: { type: string }
+  maturity: { axis: maturity }

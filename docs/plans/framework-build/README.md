@@ -8,7 +8,13 @@
 - ✅ **SP0** — `packages/toolkit-framework` scaffolded (zero-build ESM + YAML + markdown; `js-yaml` only); validator + CLI; **12/12 tests green**.
 - ✅ **SP1** — shared-schema keystones: K1 `review-maturity` (3-axis state model), K3 `frontmatter`, K2 `source-system` (return-path), K5 `contribution-record` (reciprocity hook), + `signal`/`provenance`/`public-use-boundary`.
 - ✅ **SP2** — semantic kernel: `core-entities` (15, frozen Layer A) + `extension-entities` (31, each `maps_to_core`) + `relationships` (unified grammar, separable CSIS module — R9 ✅) + `kernel-profile` (MOK-5) + JSON-LD context generator + fork-compat validator + `architecture/{ontology-posture,fork-compatibility,type-tag-discipline}.md`. **19/19 tests green; `kernel-check` ✓.**
-- ⏭ **Next: SP3/SP4** — layer entry schemas (resource/option/track/deployment/implementation + Appendices A–I templates) + the shared compatibility engine. Then SP6 (agentic skills: capture-and-route, compose-journey, csis-review).
+- ✅ **SP3** — 10 layer entry schemas (resource, option-entry, track, deployment, implementation-record, claim-evidence, evolution-record, concept-lineage, encyclopedia-entry, update-proposal).
+- ✅ **SP4** — compatibility engine (`src/compatibility.mjs`): option incompatibilities · deployment 6-component validity · track composition. One engine, three callers.
+- ✅ **SP6** — agentic skills (`skills/capture-and-route`, `compose-journey`, `csis-review`).
+- ✅ **SP7** — resource lift ETL (`src/lift.mjs` + CLI `lift`); runs against the real V3 crosswalk (2,617 rows); raw leads never auto-promoted.
+- ✅ **SP9** — architecture docs (`architecture/{README,layers,operating-loop,kernel-objects,problems-and-theory-of-change,invariants}.md`; R4/R5 resolved) + `site/journey-model.md`.
+- 🔄 **SP5** — process docs (in progress).
+- ⏭ **Remaining: SP8** (wire invariants → src validators), **SP10** (`org-os-kms` module + profile), **SP11** (first ReFi DAO adoption — the dialectic). **31/31 tests green.**
 
 ## Build strategy
 

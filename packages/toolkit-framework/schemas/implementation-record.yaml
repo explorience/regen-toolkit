@@ -1,0 +1,20 @@
+# Implementation (Layer 8) — a record of what actually happened. NOT a deployment, NOT a
+# pattern (invariants). Carries source_position (anti-promotional) + what_returns_to_commons.
+id: implementation-record
+version: 0.1.0
+extends: frontmatter
+description: A record of what happened when an option/track/deployment was used in practice.
+required: [title, type, source_position]
+fields:
+  related_deployment: { type: string }
+  related_track: { type: string }
+  context: { type: string }
+  source_position:
+    enum: [self-report, participant-reflection, funder-review, community-member, affected-community, third-party-observer, public-forum, grant-update, ai-assisted-synthesis, anonymous-or-restricted]
+  what_worked: { type: string }
+  what_failed: { type: string }
+  adaptations: { type: string }
+  what_returns_to_commons: { type: string }   # contribute-back hook
+  record_type:
+    enum: [pilot, campaign, funding-round, governance, local-node, knowledge-commons, ecological-mrv, event, failure-case]
+  maturity: { axis: maturity }

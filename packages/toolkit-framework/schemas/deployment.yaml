@@ -1,0 +1,21 @@
+# Deployment (Layer 6) — something specified for use. The 6-component structural-integrity
+# check is the required core; readiness_level crosswalks to maturity (K1). The compatibility
+# engine (SP4) checks the 6 components are present + the readiness level is set.
+id: deployment
+version: 0.1.0
+extends: frontmatter
+description: A specified configuration (roles, authority, decisions, risks, review) ready for use.
+required: [title, type, decision_system, information_requirements, power_structure, accountability, failure_detection, boundaries]
+fields:
+  selected_options: { type: array }              # option ids -> compatibility checked
+  decision_system: { type: string }              # 6-component integrity check ...
+  information_requirements: { type: string }
+  power_structure: { type: string }
+  accountability: { type: string }
+  failure_detection: { type: string }
+  boundaries: { type: string }                   # fixed / configurable / experimental
+  readiness_level:
+    enum: [L0-idea, L1-internal-draft, L2-internal-pilot, L3-community-pilot, L4-public-beta, L5-reviewed-deployment, L6-field-informed-pattern]
+  disqualifiers: { type: array }
+  evidence_requirements: { type: array }
+  risks: { type: array }
