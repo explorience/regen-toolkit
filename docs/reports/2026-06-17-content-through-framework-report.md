@@ -153,6 +153,7 @@ Rationale: the plan's loose "the rest → resources.yaml" would have dumped 622 
 - **→ source-systems.yaml** (transformed to `source-system` objects): any row whose `toolkit_route` contains "Source System" (case-insensitive), including compound routes (`Media Source System Track`, `Tooling; Source System Card`, `Events; Source System`, …). Checked **first**, so a curated-artifact route wins over a co-tagged safeguard (`Source System Candidate; Public-use caution` → source system).
 - **→ resources.yaml** (`resource` objects, lift kept verbatim): `Resource Graph` plus clearly-resource destinations (`Books Papers Articles*`, `Datasets/Maps`, `Projects Initiative(s)`, `Tooling`, `Concept Entry`, `Option Library`, `Implementation Memory*`, `Infrastructure*`, `Public Goods Builder Track`, `Resource Lead`, `Encyclopedia`, `Ontology`, `Repositories/Codebases`, `Podcasts/Media Shows`, `Events`, `Funding Mechanisms`, `Claims/Evidence`, `dMRV Track`, etc.).
 - **HELD** (not lifted): review-queue routes (see table above).
+- **Precedence: source-system wins over held; held wins over resource.** Routes are checked in that fixed order, so a compound route like `Tooling; Deployment Safeguards` is HELD even though `Tooling` is itself a resource keyword — safety-first (a co-tagged safeguard route is never silently lifted into the Resource Graph).
 
 #### Source-system transform
 

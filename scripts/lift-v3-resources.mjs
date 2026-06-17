@@ -111,6 +111,11 @@ const text = readFileSync(CSV_PATH, 'utf8');
 const fileLineCount = text.split('\n').filter((l) => l.length > 0).length - 1; // minus header
 const rows = parseCsv(text);
 
+if (rows.length === 0) {
+  console.error('ERROR: parsed 0 rows from the crosswalk CSV — aborting (no silent empty write).');
+  process.exit(1);
+}
+
 const resources = [];
 const sourceSystems = [];
 const held = [];        // { route, row }
@@ -143,7 +148,7 @@ for (const { row, obj } of resources) {
   const key = normTitle(obj.title) || row.global_id;
   if (resSeen.has(key)) { resDeduped++; continue; }
   resSeen.set(key, true);
-  resourcesOut.push({ ...obj, original_source: obj.original_source });
+  resourcesOut.push(obj);
 }
 
 // De-dupe source systems by normalized title too.
