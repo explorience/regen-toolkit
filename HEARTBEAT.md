@@ -31,8 +31,9 @@ Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0�
 - [x] **SP-DEC** — R1 (3-axis canonical state model) / R3 (kernel = ontology subset) / R7 (Octo-candidate, CSIS-informed) resolved
 - [x] **SP0** — package scaffolded; validator + CLI; **12/12 tests green**
 - [x] **SP1** — shared-schema keystones K1 (review-maturity) · K2 (source-system / return-path) · K3 (frontmatter) · K5 (contribution-record) + signal/provenance/public-use-boundary
-- [ ] **SP2** — semantic kernel (core/extension entities, `maps_to_core`, relationships, crosswalks, JSON-LD, fork-compatibility) — the interoperability contract. *Next.*
-- [ ] SP3/SP4 — layer schemas + compatibility engine · SP5 — process · SP6 — agentic skills (capture-and-route, compose-journey, csis-review)
+- [x] **SP2** — semantic kernel: 15 frozen core types + 31 extensions (all `maps_to_core`) + unified relationships (R9 ✅, CSIS separable) + MOK-5 profile + JSON-LD generator + fork-compat validator + 3 architecture docs. **19/19 tests green.**
+- [ ] **SP3/SP4** — layer entry schemas (resource/option/track/deployment/implementation + Appendix templates) + the shared compatibility engine. *Next.*
+- [ ] SP5 — process · SP6 — agentic skills (capture-and-route, compose-journey, csis-review)
 - [ ] SP-DEC open items to the biweekly: confirm R1/R3/R7 with Matty/Durgadas/Rather (ontology + CSIS)
 - [ ] **Batch the R1/R3/R7 master-doc proposals** for Matty (Loop 2 — draft-and-present)
 

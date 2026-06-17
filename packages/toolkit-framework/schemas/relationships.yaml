@@ -1,0 +1,69 @@
+# K4 — Relationship predicates (the graph edges of the federation). R9 resolution:
+# ONE unified grammar = core interop predicates + domain groups + a SEPARABLE,
+# OPTIONAL csis/governance module (a fork can run the core graph with zero CSIS edges — R7).
+# `from`/`to` are entity-type constraints ("any" = unconstrained).
+id: relationships
+version: 0.1.0
+description: Predicate vocabulary, grouped; governance/CSIS is an optional module.
+
+groups:
+  core_interop:
+    description: The minimal predicates that must hold across all forks (Layer A).
+    predicates:
+      is_a: { from: any, to: any }
+      instance_of: { from: any, to: any }
+      part_of: { from: any, to: any }
+      related_to: { from: any, to: any }   # generic fallback — prefer a specific predicate
+      broader: { from: concept, to: concept }
+      narrower: { from: concept, to: concept }
+      overlaps_with: { from: any, to: any }
+      maps_to: { from: any, to: any }       # cross-ontology / cross-fork alignment
+      derived_from: { from: any, to: any }
+      version_of: { from: any, to: any }
+
+  practice_pattern:
+    predicates:
+      practiced_by: { from: practice, to: any }
+      documents: { from: any, to: any }
+      builds_on: { from: any, to: any }
+      aggregates_into: { from: case-study, to: pattern }
+      implemented_by: { from: any, to: any }
+      produces: { from: any, to: any }
+      generates_signal: { from: any, to: signal }
+
+  discourse:
+    predicates:
+      about: { from: any, to: any }
+      defines: { from: any, to: concept }
+      explains: { from: any, to: any }
+      supports: { from: any, to: any }
+      contradicts: { from: any, to: any }
+      raises_question: { from: any, to: question }
+      confused_with: { from: concept, to: concept }
+      source_for: { from: any, to: any }
+
+  source_lineage:
+    description: The anti-extraction / contribute-back edges (Principles 1, 2, 7).
+    predicates:
+      stewarded_by: { from: any, to: any }
+      curated_by: { from: any, to: any }
+      sourced_from: { from: any, to: source-system }
+      adapted_from: { from: any, to: any }
+      attributed_to: { from: any, to: any }
+      requires_attribution: { from: any, to: any }
+      has_return_path: { from: source-system, to: any }   # federation reciprocity
+      has_reuse_conditions: { from: any, to: any }
+      currentness_checked_by: { from: any, to: any }
+
+  governance_csis:
+    optional: true      # SEPARABLE module — forks may omit it entirely (R7: CSIS-informed, not conformant)
+    description: Structural-integrity edges (CSIS overlay). Adopt only with CSIS-literate review.
+    predicates:
+      governed_by: { from: any, to: any }
+      controlled_by: { from: any, to: any }
+      accountable_to: { from: any, to: any }
+      has_authority: { from: any, to: any }
+      has_control_point: { from: any, to: any }
+      has_failure_mode: { from: any, to: failure-mode }
+      has_public_use_boundary: { from: any, to: public-use-boundary }
+      requires_review: { from: any, to: any }

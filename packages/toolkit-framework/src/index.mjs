@@ -70,3 +70,49 @@ export function validateObject(schemaName, obj) {
   }
   return { valid: errors.length === 0, errors };
 }
+
+// --- semantic kernel (SP2): the interoperability contract ---
+
+/**
+ * Validate the kernel's internal consistency (the fork-compatibility contract):
+ * every Layer-B extension declares a `maps_to_core` that resolves to a real Layer-A
+ * core type; the kernel-profile (MOK) references real types. Returns { valid, errors }.
+ */
+export function validateKernel() {
+  const errors = [];
+  const core = loadSchema('core-entities');
+  const ext = loadSchema('extension-entities');
+  const coreNames = new Set(Object.keys(core.entities || {}));
+  for (const [name, def] of Object.entries(ext.entities || {})) {
+    if (!def.maps_to_core) errors.push(`extension "${name}" missing maps_to_core`);
+    else if (!coreNames.has(def.maps_to_core)) errors.push(`extension "${name}" maps_to_core "${def.maps_to_core}" is not a core type`);
+  }
+  const kp = loadSchema('kernel-profile');
+  const allNames = new Set([...coreNames, ...Object.keys(ext.entities || {})]);
+  for (const [name, def] of Object.entries(kp.objects || {})) {
+    const t = String(def.type || '').split('/').pop();
+    if (!allNames.has(t)) errors.push(`kernel object "${name}" references unknown type "${t}"`);
+  }
+  return { valid: errors.length === 0, errors };
+}
+
+/** Is a fork's local extension type interop-compatible? (must map to a real core type) */
+export function isForkCompatible(localType) {
+  const core = loadSchema('core-entities');
+  const coreNames = new Set(Object.keys(core.entities || {}));
+  return !!localType?.maps_to_core && coreNames.has(localType.maps_to_core);
+}
+
+/** Generate a JSON-LD @context from the kernel (graph-compatible / AI-readable serialization). */
+export function toJsonLdContext(baseIri = 'https://regen-commons.org/ns/') {
+  const ctx = { '@version': 1.1, '@vocab': baseIri };
+  for (const schemaName of ['core-entities', 'extension-entities']) {
+    const s = loadSchema(schemaName);
+    for (const name of Object.keys(s.entities || {})) ctx[name] = baseIri + name;
+  }
+  const rels = loadSchema('relationships');
+  for (const group of Object.values(rels.groups || {})) {
+    for (const p of Object.keys(group.predicates || {})) ctx[p] = { '@id': baseIri + p, '@type': '@id' };
+  }
+  return { '@context': ctx };
+}

@@ -1,0 +1,63 @@
+# K4 / Layer A — the FROZEN interoperable semantic core.
+# This is the federation contract: every fork inherits these types UNCHANGED so the
+# network stays interoperable + graph/AI-readable ("interoperability without forced
+# uniformity"). Changes here are BREAKING — version strictly (semver).
+# Forks add local types in extension-entities (Layer B), each mapping back here.
+# `maps_to` are crosswalk HINTS (optional, align-where-clean — R7), not mandates.
+id: core-entities
+version: 0.1.0   # FROZEN — bump major on any change to this set
+layer: A
+description: The minimal shared type set every fork inherits unchanged.
+
+entities:
+  concept:
+    description: An idea, distinction, framework, or term that helps people understand.
+    key_relations: [related_to, broader, narrower, defines, confused_with]
+    maps_to: { octo: Concept }
+  person:
+    description: An individual (use with consent; default to non-public — Principle 8).
+    key_relations: [stewarded_by, attributed_to]
+    maps_to: { octo: Person }
+  group:
+    description: An organization, network, node, cell, community, or working group.
+    key_relations: [part_of, governed_by, stewarded_by]
+    maps_to: { octo: Organization }
+  place:
+    description: A located context (city, region, site).
+    key_relations: [part_of]
+    maps_to: { octo: Place }
+  bioregion:
+    description: An ecologically-defined place; a first-class context for regenerative work.
+    key_relations: [part_of]
+    maps_to: { octo: Place }
+  practice:
+    description: A way of doing something (a method enacted, not just specified).
+    key_relations: [practiced_by, documents, produces]
+  pattern:
+    description: A reviewed, transferable abstraction generalized from multiple cases (Principle 12).
+    key_relations: [derived_from, builds_on, aggregates_into]
+  protocol:
+    description: A specified procedure/standard with explicit steps, roles, or rules.
+    key_relations: [implemented_by, governed_by]
+  playbook:
+    description: A composed pathway/guide that sequences concepts, options, and steps.
+    key_relations: [builds_on, documents]
+  case-study:
+    description: A documented example of what happened in a specific instance.
+    key_relations: [about, documents, generates_signal]
+  question:
+    description: An open question, tension, or uncertainty worth keeping visible.
+    key_relations: [about, raises_question]
+  claim:
+    description: An assertion (impact, ecological, funding, governance) requiring evidence.
+    key_relations: [supports, contradicts, about]
+    maps_to: { octo: Claim }
+  evidence:
+    description: Material supporting or complicating a claim (with source lineage).
+    key_relations: [supports, sourced_from]
+  artifact:
+    description: A produced thing — document, dataset, tool output, resource, template.
+    key_relations: [references, derived_from]
+  source-system:
+    description: A living, stewarded knowledge environment treated as a PEER (carries return paths).
+    key_relations: [stewarded_by, curated_by, has_return_path, has_reuse_conditions]

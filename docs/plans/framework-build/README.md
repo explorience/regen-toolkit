@@ -7,7 +7,8 @@
 - ✅ **SP-DEC** — R1/R3/R7 resolved ([`framework/RECONCILIATIONS.md`](../../framework/RECONCILIATIONS.md)).
 - ✅ **SP0** — `packages/toolkit-framework` scaffolded (zero-build ESM + YAML + markdown; `js-yaml` only); validator + CLI; **12/12 tests green**.
 - ✅ **SP1** — shared-schema keystones: K1 `review-maturity` (3-axis state model), K3 `frontmatter`, K2 `source-system` (return-path), K5 `contribution-record` (reciprocity hook), + `signal`/`provenance`/`public-use-boundary`.
-- ⏭ **Next: SP2** — the semantic kernel (core/extension entities + `maps_to_core` + relationships + crosswalks + JSON-LD + fork-compatibility). R9 resolves here.
+- ✅ **SP2** — semantic kernel: `core-entities` (15, frozen Layer A) + `extension-entities` (31, each `maps_to_core`) + `relationships` (unified grammar, separable CSIS module — R9 ✅) + `kernel-profile` (MOK-5) + JSON-LD context generator + fork-compat validator + `architecture/{ontology-posture,fork-compatibility,type-tag-discipline}.md`. **19/19 tests green; `kernel-check` ✓.**
+- ⏭ **Next: SP3/SP4** — layer entry schemas (resource/option/track/deployment/implementation + Appendices A–I templates) + the shared compatibility engine. Then SP6 (agentic skills: capture-and-route, compose-journey, csis-review).
 
 ## Build strategy
 

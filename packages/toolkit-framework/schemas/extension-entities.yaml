@@ -1,0 +1,42 @@
+# K4 / Layer B — the Toolkit operational extension types.
+# More opinionated; this is where coordination/deployment/review/learning live.
+# CONTRACT: every extension declares `maps_to_core` (a Layer-A type) so a consuming
+# node can downgrade an unfamiliar local type to its nearest core type and still
+# ingest the graph. This is the fork-compatibility mechanism (validated by validateKernel).
+id: extension-entities
+version: 0.1.0
+layer: B
+description: Opinionated Toolkit types; each maps back to a Layer-A core type.
+
+entities:
+  resource:        { maps_to_core: artifact,     description: Something found — a tool, link, dataset, doc, project reference. }
+  tool:            { maps_to_core: artifact,      description: A software/protocol tool that can be used in a deployment. }
+  mechanism:       { maps_to_core: pattern,       description: A reusable coordination/funding/governance mechanism. }
+  framework:       { maps_to_core: pattern,       description: A structured conceptual model applied across cases. }
+  standard:        { maps_to_core: protocol,      description: An agreed specification (data, metadata, interop). }
+  template:        { maps_to_core: artifact,      description: A reusable structure to fill in. }
+  network:         { maps_to_core: group,         description: A network of organizations/nodes. }
+  node:            { maps_to_core: group,         description: A local node / chapter. }
+  cell:            { maps_to_core: group,         description: A small activation unit (troika-scale). }
+  partner-org:     { maps_to_core: group,         description: A partner organization. }
+  role:            { maps_to_core: concept,       description: A scoped contributor role (steward, reviewer, …). }
+  steward:         { maps_to_core: person,        description: A person stewarding a layer/source-system. }
+  contributor:     { maps_to_core: person,        description: A person contributing to the commons. }
+  option:          { maps_to_core: pattern,       description: A reusable design choice (governance/funding/incentive/measurement). }
+  track:           { maps_to_core: playbook,      description: A guided pathway composing concepts + options for a context. }
+  deployment:      { maps_to_core: protocol,      description: A specified configuration for use (roles, authority, risks, review). }
+  implementation:  { maps_to_core: case-study,    description: A record of what happened when something was used. }
+  flow:            { maps_to_core: pattern,       description: A process/data flow between layers or actors. }
+  action:          { maps_to_core: practice,      description: A concrete step taken. }
+  program:         { maps_to_core: playbook,      description: A coordinated set of activities. }
+  project:         { maps_to_core: case-study,    description: A bounded initiative. }
+  metric:          { maps_to_core: claim,         description: A measured indicator (a claim with a method). }
+  signal:          { maps_to_core: claim,         description: Something learned or flagged; feeds Evolution. }
+  review-cycle:    { maps_to_core: practice,      description: A periodic review of a layer/artifact. }
+  probe:           { maps_to_core: practice,      description: A small experiment in a complex domain. }
+  issue:           { maps_to_core: question,      description: A tension, conflict, or open problem. }
+  update-proposal: { maps_to_core: artifact,      description: A proposed change to the commons/ontology. }
+  failure-mode:    { maps_to_core: pattern,       description: A way something can go wrong. }
+  obligation:      { maps_to_core: concept,       description: A regenerative return owed when value is drawn (Principle 7). }
+  risk:            { maps_to_core: concept,       description: A potential harm to surface + handle. }
+  public-use-boundary: { maps_to_core: concept,   description: A visibility/consent boundary on an item. }

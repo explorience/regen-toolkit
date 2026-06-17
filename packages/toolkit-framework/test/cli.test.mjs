@@ -23,3 +23,10 @@ test('cli check-state validates against K1', () => {
   assert.match(out, /valid maturity/);
   assert.throws(() => execFileSync('node', [cli, 'check-state', 'maturity', 'canonical'], { encoding: 'utf8', stdio: 'pipe' }));
 });
+
+test('cli kernel-check passes + context emits valid JSON-LD', () => {
+  const out = execFileSync('node', [cli, 'kernel-check'], { encoding: 'utf8' });
+  assert.match(out, /kernel consistent/);
+  const ctx = JSON.parse(execFileSync('node', [cli, 'context'], { encoding: 'utf8' }));
+  assert.ok(ctx['@context']['source-system']);
+});

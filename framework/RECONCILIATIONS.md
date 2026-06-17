@@ -43,7 +43,7 @@ Plus two **orthogonal boolean flags** (not states): `ai_assisted`, `high_risk`.
 - **R5** (Deployment→Tracks vs Track→Deployment ordering) ⏳ → SP9
 - **R6** (9-row cross-cutting table vs 18 principles — encode once) ⏳ → SP5
 - **R8** (role lists 12+11+17 → one registry) ⏳ → SP5
-- **R9** (two relationship grammars → unify) ⏳ → SP2
+- **R9** (two relationship grammars → unify) ✅ (2026-06-17, SP2) → unified into one `relationships.yaml` grammar: `core_interop` + domain groups (`practice_pattern`, `discourse`, `source_lineage`) + a **separable optional `governance_csis` module** (R7). The old `data/ontology/relationships.yaml` becomes a lift-source to reconcile against this.
 - **R10** (`feedback-process.yaml` wrong loop → adopt Signal→Sensemaking→Balance→Intervention→Integration→Memory) ⏳ → SP5
 
 ---

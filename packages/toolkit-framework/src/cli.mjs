@@ -3,7 +3,7 @@
 import { readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import yaml from 'js-yaml';
-import { listSchemas, validateObject, isValid } from './index.mjs';
+import { listSchemas, validateObject, isValid, validateKernel, toJsonLdContext } from './index.mjs';
 
 const require = createRequire(import.meta.url);
 const { version } = require('../package.json');
@@ -30,6 +30,19 @@ switch (cmd) {
     break;
   }
 
+  case 'kernel-check': {
+    const { valid, errors } = validateKernel();
+    if (valid) { console.log('✓ kernel consistent (every extension maps to a real core type)'); }
+    else { console.error(`✗ kernel inconsistent:\n  - ${errors.join('\n  - ')}`); process.exit(1); }
+    break;
+  }
+
+  case 'context': {
+    // emit the JSON-LD @context generated from the kernel
+    console.log(JSON.stringify(toJsonLdContext(), null, 2));
+    break;
+  }
+
   case 'validate': {
     // validate <schema> <file.yaml|json>
     const [schemaName, file] = args;
@@ -47,6 +60,8 @@ switch (cmd) {
     console.log('  version                         print version');
     console.log('  list-schemas                    list available schemas');
     console.log('  check-state <axis> <value>      validate a value against the K1 state model');
+    console.log('  kernel-check                    verify the semantic kernel is internally consistent');
+    console.log('  context                         emit the JSON-LD @context generated from the kernel');
     console.log('  validate <schema> <file>        validate an object file against a schema');
     if (cmd && cmd !== 'help' && cmd !== '--help') process.exit(2);
 }

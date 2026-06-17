@@ -1,0 +1,24 @@
+# R3 — the Minimum Operating Kernel (MOK). The 5 working objects that are the v0.1
+# CONTRIBUTOR FRONT DOOR. These are a CURATED SUBSET of the full ontology (a usage-layer
+# view), NOT a parallel type system: each points at its real core/extension type.
+# A contributor uses 5; the system refines into the fuller types over time.
+id: kernel-profile
+version: 0.1.0
+description: The 5-object contributor front door (a curated view of the ontology).
+
+objects:
+  resource:
+    type: extension-entities/resource
+    prompt: Something found. Grounds the commons in real projects, tools, people, sources.
+  concept:
+    type: core-entities/concept
+    prompt: Something explained. Meaning, frameworks, comparisons, common confusions.
+  option:
+    type: extension-entities/option
+    prompt: Something reusable. A design choice made visible, comparable, composable.
+  deployment:
+    type: extension-entities/deployment
+    prompt: Something specified for use. Roles, authority, decisions, risks, review.
+  signal:
+    type: extension-entities/signal
+    prompt: Something learned or flagged. Feedback, failures, tensions, lessons.
