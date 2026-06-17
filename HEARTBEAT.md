@@ -36,7 +36,8 @@ Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0�
 - [x] **SP5** — 8 process docs (R6/R8/R10 ✅) · **SP6** — 3 agentic skills (capture-and-route, compose-journey, csis-review) · **SP7** — resource lift ETL · **SP8** — invariants validators · **SP9** — architecture + site docs (R4/R5 ✅)
 - [x] **SP10** — `packages/org-os-kms` (module + org-os profile, framework pre-loaded; replaceable)
 - [x] **✅ FRAMEWORK FULLY BUILT (SP0–SP10):** toolkit-framework **34/34 tests**, 21 schemas, 3 skills; org-os-kms 2/2. All R1–R10 resolved.
-- [ ] **SP11 — first ReFi DAO adoption** (the dialectic / pipeline P9): instantiate the profile, process podcasts/blog, contribute back → framework v0.1. *Next phase.*
+- [ ] **★ Process toolkit content through the framework + public site** — plan ready: [`docs/plans/site-and-content-convergence.md`](docs/plans/site-and-content-convergence.md). Run Heenal's live v1 + other branches + the V3 DB through the framework → populate the instance `data/`; fork/extend Heenal's site with a **framework page** + a **regen-toolkit-os page** on `regen-toolkit-os`. **For a dedicated session.** (The first real adoption — SP11 rehearsal on the reference instance.)
+- [ ] **SP11 — first ReFi DAO adoption** (the dialectic / pipeline P9): instantiate the profile, process podcasts/blog, contribute back → framework v0.1. *After the reference-instance rehearsal above.*
 - [ ] **Batch the R1–R10 master-doc proposals** for Matty (Loop 2 — draft-and-present) + confirm with Durgadas/Rather at the biweekly
 
 ### Master Doc 2026-06-15 Iteration _(NEW 2026-06-16)_
