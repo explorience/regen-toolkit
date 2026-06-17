@@ -1,0 +1,34 @@
+# org-os-kms PROFILE — a ready-to-run org-os configuration with the toolkit-framework
+# pre-loaded as the default knowledge system. Instantiating this profile = an org-os
+# instance that is already a knowledge commons. (The MODULE is src/bind.mjs.)
+profile: org-os-kms
+version: 0.0.1
+default_knowledge_system: "@regen-commons/toolkit-framework"
+description: >
+  Spin up an org-os instance that is a Regen Knowledge Commons Toolkit instance out of
+  the box: the framework's schemas, skills, and process are wired into the org-os
+  registries, the /initialize–/close lifecycle, and RegenOS federation.
+
+bundles:
+  framework: "@regen-commons/toolkit-framework"   # pre-loaded
+  skills:
+    - capture-and-route       # intake (org-os: on contribution / meeting-processing)
+    - compose-journey         # build tracks/journeys
+    - csis-review             # structural-integrity review on /close
+
+registry_bindings:            # framework schema -> org-os registry (instance output)
+  resource: data/resources.yaml
+  source-system: data/source-systems.yaml
+  option-entry: data/option-library.yaml
+  track: data/tracks.yaml
+  deployment: data/deployments.yaml
+  implementation-record: data/implementation-memory.yaml
+  signal: data/signals.yaml
+  contribution-record: data/contributions.yaml
+
+lifecycle_bindings:
+  initialize: [sync upstream, load framework schemas, render dashboard]
+  close: [csis-review changed objects, emit contribution-records, sync + push]
+
+federation: RegenOS (upstream/downstream; knowledge-source + organizational; self-qualifying adoption)
+replaceable: true             # swap this host without touching the framework

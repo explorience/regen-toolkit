@@ -38,13 +38,15 @@ Plus two **orthogonal boolean flags** (not states): `ai_assisted`, `high_risk`.
 
 ---
 
-## Open (resolve as their wave begins)
-- **R4** (10 vs 11 layers — source-system registry) ⏳ → SP9
-- **R5** (Deployment→Tracks vs Track→Deployment ordering) ⏳ → SP9
-- **R6** (9-row cross-cutting table vs 18 principles — encode once) ⏳ → SP5
-- **R8** (role lists 12+11+17 → one registry) ⏳ → SP5
-- **R9** (two relationship grammars → unify) ✅ (2026-06-17, SP2) → unified into one `relationships.yaml` grammar: `core_interop` + domain groups (`practice_pattern`, `discourse`, `source_lineage`) + a **separable optional `governance_csis` module** (R7). The old `data/ontology/relationships.yaml` becomes a lift-source to reconcile against this.
-- **R10** (`feedback-process.yaml` wrong loop → adopt Signal→Sensemaking→Balance→Intervention→Integration→Memory) ⏳ → SP5
+## All resolved (2026-06-17)
+- **R4** ✅ (SP9) — 10 layers; the Source-System Registry is a **sub-layer of Layer 3 (3a)**, not an 11th layer. `architecture/layers.md`.
+- **R5** ✅ (SP9) — lifecycle is the human spine, the layer sequence is the data-model view, the lifecycle↔layer table is the bridge. `architecture/operating-loop.md`.
+- **R6** ✅ (SP5) — the 18 principles are the single home; the master doc's 9-row cross-cutting-systems table is a coarser rollup (mapping table, not duplicated). `process/principles.md`.
+- **R8** ✅ (SP5) — one reconciled superset **role registry (19 scoped roles)** with an "appears in" provenance column (§15 / §13.9 / §17). `process/roles.md`.
+- **R9** ✅ (SP2) — one unified `relationships.yaml` grammar: `core_interop` + domain groups + a **separable optional `governance_csis` module** (R7).
+- **R10** ✅ (SP5) — canonical adaptive loop **Signal→Sensemaking→Balance→Intervention→Integration→Memory**; retires the old Capture/Classify/Review/Update/Communicate/Version loop in `data/feedback-process.yaml`. `process/evolution-loop.md`.
+
+**→ Master-doc feedback (Loop 2):** R1–R10 are now batched for Matty's next iteration as draft-and-present proposals (one canonical maturity model, MOK-as-subset, align-and-map posture, 10-not-11 layers, lifecycle+layers reconciliation, encode-cross-cutting-once, one role registry, unified relationship grammar, the adaptive loop).
 
 ---
 

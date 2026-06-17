@@ -1,0 +1,16 @@
+{
+  "name": "@org-os/kms",
+  "version": "0.0.1",
+  "description": "org-os Knowledge Management System — binds @regen-commons/toolkit-framework into org-os (a MODULE) and ships it pre-loaded as the default knowledge system (an org-os PROFILE). Replaceable: swap the host without touching the framework.",
+  "type": "module",
+  "main": "src/bind.mjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@regen-commons/toolkit-framework": "*",
+    "js-yaml": "^4.1.0"
+  },
+  "license": "MIT",
+  "keywords": ["org-os", "knowledge-management", "knowledge-commons", "toolkit-framework", "profile", "federation"]
+}

@@ -13,8 +13,11 @@
 - ✅ **SP6** — agentic skills (`skills/capture-and-route`, `compose-journey`, `csis-review`).
 - ✅ **SP7** — resource lift ETL (`src/lift.mjs` + CLI `lift`); runs against the real V3 crosswalk (2,617 rows); raw leads never auto-promoted.
 - ✅ **SP9** — architecture docs (`architecture/{README,layers,operating-loop,kernel-objects,problems-and-theory-of-change,invariants}.md`; R4/R5 resolved) + `site/journey-model.md`.
-- 🔄 **SP5** — process docs (in progress).
-- ⏭ **Remaining: SP8** (wire invariants → src validators), **SP10** (`org-os-kms` module + profile), **SP11** (first ReFi DAO adoption — the dialectic). **31/31 tests green.**
+- ✅ **SP5** — process docs (8): principles (R6 ✅), review, contribution, csis-safeguards, federation, roles (R8 ✅), evolution-loop (R10 ✅), ontology-change-process.
+- ✅ **SP8** — invariants wired to `src/invariants.mjs` (Track≠Deployment, AI-assisted≠Human-reviewed, Inclusion≠Endorsement) + tests.
+- ✅ **SP10** — `packages/org-os-kms` (module + org-os profile, framework pre-loaded as default KMS; replaceable). 2/2 tests; profile loads the framework's 21 schemas live.
+- **✅ FRAMEWORK FULLY BUILT (SP0–SP10).** toolkit-framework: **34/34 tests**, 21 schemas, 3 skills, full architecture + process + site docs, semantic kernel + compatibility engine + lift ETL. All reconciliations R1–R10 resolved.
+- ⏭ **Remaining = the dialectic, not framework-building: SP11** — first ReFi DAO adoption (pipeline P9): instantiate the profile, process podcasts/blog, contribute back → framework v0.1.
 
 ## Build strategy
 

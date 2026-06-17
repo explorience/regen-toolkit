@@ -2,7 +2,7 @@
 
 The **Regen Knowledge Commons Toolkit framework** — a portable, **org-os-agnostic** system for building a federated, interoperable knowledge commons. It is the *operational distillation* of the [master doc](../../docs/MASTER.md): **adopt the package, not the 30,000-line doc.**
 
-> **Status: v0.0.1 — keystone foundation.** The shared state model + core schemas + CLI are in place and tested. Built dialectically (grows through adoption — see [build plan](../../docs/plans/framework-build/README.md)). Design: [`framework/`](../../framework/) (PLACEMENT, COVERAGE, FEEDBACK-LOOPS, RECONCILIATIONS).
+> **Status: v0.1.0 — fully built (SP0–SP10), 34/34 tests green.** Semantic kernel + 21 schemas + compatibility engine + 3 agentic skills + lift ETL + full architecture/process/site docs. Grows further dialectically through adoption (first: ReFi DAO). Design: [`framework/`](../../framework/) (PLACEMENT, COVERAGE, FEEDBACK-LOOPS, RECONCILIATIONS) · [build plan](../../docs/plans/framework-build/README.md).
 
 ## Why it exists
 
@@ -40,11 +40,17 @@ validateObject('source-system', card);     // { valid, errors }
 
 **Validator + CLI** (`src/`) — schema loading, object validation (with `extends` inheritance + K1-axis enforcement), and a zero-dep CLI.
 
-## Roadmap (next, per the [build plan](../../docs/plans/framework-build/README.md))
+## What's built (full)
 
-- **SP2** — the **semantic kernel** (`core-entities` + `extension-entities` w/ `maps_to_core` + relationships + crosswalks + JSON-LD + fork-compatibility). The interoperability contract.
-- **SP3/SP4** — layer schemas (resource/option/track/deployment/implementation) + the compatibility engine.
-- **SP6** — agentic skills (`capture-and-route`, `compose-journey`, `csis-review`) for agnostic adoption.
+- **Semantic kernel** — `core-entities` (15 frozen Layer-A) + `extension-entities` (31, each `maps_to_core`) + `relationships` (unified, CSIS separable) + `kernel-profile` (MOK-5) + JSON-LD `context` generator + fork-compatibility validator.
+- **10 layer schemas** — resource · option-entry · track · deployment · implementation-record · claim-evidence · evolution-record · concept-lineage · encyclopedia-entry · update-proposal.
+- **Compatibility engine** (`src/compatibility.mjs`) + **invariants** (`src/invariants.mjs`) + **lift ETL** (`src/lift.mjs`, CLI `lift`).
+- **3 agentic skills** — `capture-and-route`, `compose-journey`, `csis-review`.
+- **Docs** — `architecture/` (layers, operating-loop, kernel-objects, problems-ToC, invariants, ontology-posture, fork-compatibility, type-tag-discipline), `process/` (8: principles, review, contribution, csis-safeguards, federation, roles, evolution-loop, ontology-change-process), `site/journey-model.md`.
+
+## Next — the dialectic (not framework-building)
+
+First adoption: **ReFi DAO** (via `@org-os/kms` profile) — process podcasts/blog, contribute back → framework v0.1.x. Then ReFi BCN + network.
 
 ## Design note
 

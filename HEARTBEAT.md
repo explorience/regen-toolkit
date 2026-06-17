@@ -31,11 +31,13 @@ Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0�
 - [x] **SP-DEC** — R1 (3-axis canonical state model) / R3 (kernel = ontology subset) / R7 (Octo-candidate, CSIS-informed) resolved
 - [x] **SP0** — package scaffolded; validator + CLI; **12/12 tests green**
 - [x] **SP1** — shared-schema keystones K1 (review-maturity) · K2 (source-system / return-path) · K3 (frontmatter) · K5 (contribution-record) + signal/provenance/public-use-boundary
-- [x] **SP2** — semantic kernel: 15 frozen core types + 31 extensions (all `maps_to_core`) + unified relationships (R9 ✅, CSIS separable) + MOK-5 profile + JSON-LD generator + fork-compat validator + 3 architecture docs. **19/19 tests green.**
-- [ ] **SP3/SP4** — layer entry schemas (resource/option/track/deployment/implementation + Appendix templates) + the shared compatibility engine. *Next.*
-- [ ] SP5 — process · SP6 — agentic skills (capture-and-route, compose-journey, csis-review)
-- [ ] SP-DEC open items to the biweekly: confirm R1/R3/R7 with Matty/Durgadas/Rather (ontology + CSIS)
-- [ ] **Batch the R1/R3/R7 master-doc proposals** for Matty (Loop 2 — draft-and-present)
+- [x] **SP2** — semantic kernel: 15 frozen core types + 31 extensions (all `maps_to_core`) + unified relationships (R9 ✅) + MOK-5 + JSON-LD generator + fork-compat
+- [x] **SP3/SP4** — 10 layer entry schemas + the compatibility engine (option/track/deployment)
+- [x] **SP5** — 8 process docs (R6/R8/R10 ✅) · **SP6** — 3 agentic skills (capture-and-route, compose-journey, csis-review) · **SP7** — resource lift ETL · **SP8** — invariants validators · **SP9** — architecture + site docs (R4/R5 ✅)
+- [x] **SP10** — `packages/org-os-kms` (module + org-os profile, framework pre-loaded; replaceable)
+- [x] **✅ FRAMEWORK FULLY BUILT (SP0–SP10):** toolkit-framework **34/34 tests**, 21 schemas, 3 skills; org-os-kms 2/2. All R1–R10 resolved.
+- [ ] **SP11 — first ReFi DAO adoption** (the dialectic / pipeline P9): instantiate the profile, process podcasts/blog, contribute back → framework v0.1. *Next phase.*
+- [ ] **Batch the R1–R10 master-doc proposals** for Matty (Loop 2 — draft-and-present) + confirm with Durgadas/Rather at the biweekly
 
 ### Master Doc 2026-06-15 Iteration _(NEW 2026-06-16)_
 
