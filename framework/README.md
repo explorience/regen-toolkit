@@ -34,8 +34,11 @@ Adopt `toolkit-framework` + its skills alone → a working knowledge-commons met
 ## Contents (as this fills out — see P1)
 
 - `README.md` — this file
-- `PLACEMENT.md` — **review of where the framework lives + how it operates** (profile-of-org-os model; placement options; operation loop)
-- `SEPARATION.md` — the framework | instance line-item manifest (the design contract; **review with the group**)
+- `PLACEMENT.md` — where the framework lives + how it operates (modular package model; federation + co-evolution)
+- `COVERAGE.md` — **master-doc ↔ package coverage map** (every section → package home + status; keystones K1–K8; reconciliations R1–R10)
+- `FEEDBACK-LOOPS.md` — **how master-doc ↔ framework ↔ instances co-develop** (the 4 loops + mechanisms + cadence)
+- `SEPARATION.md` — the framework | instance line-item manifest (superseded in detail by COVERAGE)
+- build plan: [`docs/plans/framework-build/`](../docs/plans/framework-build/README.md) — the SP0–SP11 wave plan
 - `ARCHITECTURE.md` — the distilled, instantiable architecture spec (derived from `docs/MASTER.md`, not a copy) — *to write*
 - `INDEX.md` — pointer map to framework-grade assets that live in place (schemas, skills, site generator) — *to write*
 - `templates/` — the instance skeleton an org fills in — *to write*

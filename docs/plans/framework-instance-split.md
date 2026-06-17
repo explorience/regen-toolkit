@@ -9,7 +9,9 @@
 
 Extract the **domain-agnostic framework** into a **standalone, org-os-agnostic package** — `packages/toolkit-framework` — that encompasses the full master-doc framework + agentic skills and is adoptable in any context (with or without org-os), plus a separate **replaceable `org-os-kms`** integration module. So that (a) any org can adopt the framework as a portable artifact, (b) it's usable without org-os, and (c) the group grasps it as a concrete, runnable package rather than a 30k-line doc.
 
-> **Architecture (per [`framework/PLACEMENT.md`](../../framework/PLACEMENT.md) v2):** modular, inverted dependency — `packages/toolkit-framework` (agnostic core: architecture · schemas · process · site model · skills · CLI) ← `org-os-kms` (replaceable org-os integration) ← instances. The concrete current→package refactor map is **PLACEMENT §6**.
+> **Architecture (per [`framework/PLACEMENT.md`](../../framework/PLACEMENT.md) v3):** modular, inverted dependency — `packages/toolkit-framework` (agnostic core) ← `org-os-kms` (module + org-os profile, framework pre-loaded) ← self-contained instances, seeding a federated network of forkable-but-interoperable commons.
+>
+> **DETAILED BUILD PLAN: [`docs/plans/framework-build/README.md`](framework-build/README.md)** — SP0–SP11 waves, grounded in [`framework/COVERAGE.md`](../../framework/COVERAGE.md) (full master-doc↔package map, keystones K1–K8, reconciliations R1–R10) + [`framework/FEEDBACK-LOOPS.md`](../../framework/FEEDBACK-LOOPS.md). This plan (P1) is now the strategic frame; the build-plan set is the executable detail.
 
 ## Context
 
