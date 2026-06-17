@@ -4,17 +4,27 @@
 
 ---
 
-## 1. Ground truth — topology (unchanged)
+## 1. Principle — self-contained repos in a federated network
+
+**Repos are fully self-contained.** No design here depends on local filesystem layout (vault dirs, sibling paths). An instance depends on the framework via **package dependency + git**, never via directory adjacency. This is what lets an instance be **forked and adapted** anywhere by anyone.
+
+The target is the master doc's premise — *"a federated knowledge commons with a shared semantic kernel... interoperability without forced uniformity... treat adjacent commons as peers, not inputs to be absorbed"* (`docs/MASTER.md` L40, L408, L404):
 
 ```
-03 Libraries/
-├─ regen-coordination-os/         ← the org-os framework (template + standards) + RegenOS
-│  └─ repos/regen-toolkit/         ← WE ARE HERE = ReFi Web3 Toolkit instance
-│     └─ packages/                 ← @org-os/* TS packages (koi-bridge, regen-agents, …)
-├─ refi-dao-os/  refi-bcn-os/  …   ← sibling instances (P9/P10 targets)
+            ┌──────────────────────────────────────────────┐
+            │  toolkit-framework  (the shared base)         │
+            │  · interoperable semantic kernel (base guideline)
+            │  · architecture · schemas · process · skills   │
+            └──────────────────────────────────────────────┘
+                fork + adapt ↓          ↑ contribute back (peers, attributed)
+   ┌───────────────┐  ┌───────────────┐  ┌───────────────┐
+   │ ReFi Web3     │  │ ReFi DAO      │  │ ReFi BCN  …    │   self-contained
+   │ (this repo)   │  │ (podcasts/blog)│  │ (bioregional) │   instance repos
+   └───────────────┘  └───────────────┘  └───────────────┘
+        each: interoperable core + local extensions ("not uniform")
 ```
 
-Two facts from recon that shape this: **(a)** the upstream `org-os-template` dir is **empty** — the org-os substrate is currently *baked into* this repo, not a live dependency; **(b)** `packages/` is an established monorepo of `@org-os/*` TS packages with `src/`→`dist/` + CLIs. A framework package fits the existing convention.
+Each instance forks the framework, keeps the **interoperable core** (so ontologies stay compatible + graph/AI-readable), and **extends locally** (own language, content, tools). They **contribute back** — patterns, signals, resources — to the framework and to each other as peers, with attribution. (Convention recon: existing packages are `@org-os/*` TS, `src/`→`dist/` + CLI — the framework package follows the shape with a neutral scope.)
 
 ## 2. What the framework IS — a modular, org-os-AGNOSTIC core (revised model)
 
@@ -31,12 +41,15 @@ The framework is **the toolkit's reusable core, extracted as a standalone packag
 │      · templates (instance skeleton) + a small CLI/API
 │    → adoptable in ANY repo/context, WITH OR WITHOUT org-os
 │
-├─ org-os-kms                    ○ the org-os INTEGRATION — REPLACEABLE
+├─ org-os-kms                    ○ org-os INTEGRATION = a MODULE *and* an org-os PROFILE
 │    "org-os Knowledge Management System": binds the framework into org-os —
 │    setup, /initialize–/close lifecycle, registries, federation/RegenOS —
 │    to create + manage toolkits and knowledge commons.
-│    depends on: toolkit-framework + org-os. Swap it for a different host
-│    (plain CLI, another OS, a SaaS) without touching the framework.
+│    • as a MODULE: a package other code consumes (toolkit-framework + org-os)
+│    • as a PROFILE: a ready-to-run org-os configuration that SHIPS
+│      toolkit-framework PRE-LOADED as the initial default knowledge system.
+│      → instantiating the profile = an org-os instance that is already a
+│        knowledge commons, framework wired in. Still REPLACEABLE (swap the host).
 │
 └─ INSTANCE                       (regen-toolkit, refi-dao-os, refi-bcn-os, …)
      consumes toolkit-framework (+ org-os-kms if using org-os) + domain content + identity
@@ -51,7 +64,7 @@ The framework is **the toolkit's reusable core, extracted as a standalone packag
 **Both of the operator's options, sequenced:**
 - **Develop as `packages/toolkit-framework`** (in this monorepo) — matches the `@org-os/*` convention, immediately consumable by this instance, versioned, low-friction iteration. *(Scope: NOT `@org-os/` — it must be agnostic. Proposed `@regen-commons/toolkit-framework` or `@knowledge-commons/framework` — naming is a decision.)*
 - **Mirror/publish to its own repo** when stable — the public artifact external orgs adopt (npm package + GitHub repo). The package *is* the repo; mirroring is a publish step, not a fork.
-- **`org-os-kms`** → `packages/org-os-kms` (`@org-os/kms`) to start; it naturally homes in the org-os framework (`regen-coordination-os`) later, since it's an org-os concern.
+- **`org-os-kms`** = a **module** (`packages/org-os-kms`, `@org-os/kms`) **+** an **org-os profile** (a ready-to-run org-os configuration with `toolkit-framework` **pre-loaded** as the default KMS). Develop the module here; the profile is an org-os concern that homes in the org-os framework. Both self-contained — an adopter clones the profile repo and runs it; no FS-topology assumptions.
 
 So: **package-first, repo-when-ready.** You get modularity now and a clean adoptable artifact later, without committing to repo overhead prematurely (Matty: "not necessarily its own repo yet").
 
@@ -115,6 +128,27 @@ This is what "framework/instance split" concretely becomes:
 
 `framework/` (this dir) stays as the **spec/manifest** during extraction, then becomes the package's `README` + `architecture/`.
 
+## 6b. Federation, interoperability & co-evolution (the network premise)
+
+The framework isn't built for one toolkit — it's built to seed a **federated network of forkable, interoperable knowledge commons** (master doc: "federated knowledge commons with a shared semantic kernel"). Two things the framework must encode:
+
+**(i) Base guidelines — what every fork KEEPS (so the network stays interoperable):**
+- the **interoperable semantic kernel** — a shared core ontology (Octo/BKC-aligned) every instance inherits → compatible ontologies, graph- + AI-readable. *This is the load-bearing "base guideline."*
+- the portable **schema shapes** (resource/source-system/option/track/deployment/signal/review-state/contribution-record).
+- the **maturity + review-state vocabulary** and the **source-system + attribution discipline** (CSIS-informed).
+
+**(ii) What every fork ADAPTS freely (interoperability without forced uniformity):**
+- local language, content, journeys, tools, and **domain extensions** to the ontology (extend the core, don't replace it).
+
+**Contribute-back (peers, not absorbed):** instances feed **patterns, signals, resources, and ontology extensions** back to the framework and to each other — via git (PRs / federation) carrying `contribution-record` + attribution. The master doc is explicit: "treat adjacent commons as peers, not inputs to be absorbed" — contribute-back is reciprocal, attributed, never extractive.
+
+**Dialectical co-evolution (the key dynamic):** the framework **develops through being adopted**. Standing up ReFi DAO's commons (podcasts + blog) on the framework produces *both* ReFi DAO's v1 *and* the framework's v1 — each real adoption surfaces gaps that refine the framework (and the shared kernel), which the next adoption inherits. So:
+- there is **no "finish the framework, then deploy"** phase. The framework's v1 *is* the residue of the first 2–3 adoptions (ReFi DAO, ReFi BCN, …).
+- the framework ships **deliberately minimal-but-real** (spine + kernel + a few skills), and grows by metabolizing what adoption teaches.
+- this is why **`org-os-kms` ships the framework pre-loaded**: the fastest path to "another community has a working commons" is "instantiate the profile," and each instantiation is a co-evolution event.
+
+**RegenOS** is the federation/coordination layer over all of this (knowledge-source + organizational federation); **self-qualifying adoption** (running the framework's process) is the non-arbitrary filter for federating in. Framework = what you adopt; org-os-kms = the standard way to run it; RegenOS = how runs federate.
+
 ## 7. Decisions for you / the group
 1. **Confirm the modular model** — standalone `toolkit-framework` package + replaceable `org-os-kms`? (vs my earlier profile-of-org-os.)
 2. **Package name/scope** — `@regen-commons/toolkit-framework`? `@knowledge-commons/framework`? (must NOT be `@org-os/`.)
@@ -130,4 +164,4 @@ This is what "framework/instance split" concretely becomes:
 
 ---
 
-_One line: **develop the framework as a standalone, org-os-agnostic `packages/toolkit-framework` (the full master-doc framework + agentic skills, adoptable anywhere), with a separate replaceable `org-os-kms` integration module; package-first, mirror to a public repo when stable.**_
+_One line: **develop a standalone, org-os-agnostic `packages/toolkit-framework` (the master-doc framework distilled — interoperable semantic kernel + architecture + schemas + process + agentic skills — adoptable in any self-contained repo) that seeds a federated network of forkable-but-interoperable knowledge commons; ship it pre-loaded via `org-os-kms` (module + org-os profile); and grow the framework's v1 dialectically through the first real adoptions (ReFi DAO, ReFi BCN, …), which contribute back as peers.**_
