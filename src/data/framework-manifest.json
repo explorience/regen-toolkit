@@ -1,7 +1,6 @@
 {
   "name": "@regen-commons/toolkit-framework",
   "version": "0.1.0-beta.1",
-  "generatedAt": "2026-06-22T23:20:09.995Z",
   "schemaCount": 21,
   "schemas": [
     "claim-evidence",

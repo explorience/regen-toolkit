@@ -44,10 +44,12 @@ try {
   process.exitCode = 1;
 }
 
+// No generatedAt timestamp: the manifest must be deterministic so a rebuild
+// doesn't churn the committed file. It changes only when the framework's
+// version / schema set / kernel status actually changes.
 const manifest = {
   name,
   version,
-  generatedAt: new Date().toISOString(),
   schemaCount: schemas.length,
   schemas,
   kernelOk: kernel.valid,
