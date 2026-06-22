@@ -1,0 +1,31 @@
+{
+  "name": "@regen-commons/toolkit-framework",
+  "version": "0.1.0-beta.1",
+  "generatedAt": "2026-06-22T23:20:09.995Z",
+  "schemaCount": 21,
+  "schemas": [
+    "claim-evidence",
+    "concept-lineage",
+    "contribution-record",
+    "core-entities",
+    "deployment",
+    "encyclopedia-entry",
+    "evolution-record",
+    "extension-entities",
+    "frontmatter",
+    "implementation-record",
+    "kernel-profile",
+    "option-entry",
+    "provenance",
+    "public-use-boundary",
+    "relationships",
+    "resource",
+    "review-maturity",
+    "signal",
+    "source-system",
+    "track",
+    "update-proposal"
+  ],
+  "kernelOk": true,
+  "kernelErrors": []
+}

@@ -10,6 +10,8 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "gen:framework-manifest": "node scripts/gen-framework-manifest.mjs",
+    "prebuild": "node scripts/gen-framework-manifest.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "initialize": "node scripts/initialize.mjs",

@@ -1,0 +1,270 @@
+---
+import Page from "../layouts/Page.astro";
+// Framework data is snapshotted at build time by scripts/gen-framework-manifest.mjs
+// (an npm "prebuild" step) which runs the framework API in plain Node — where its
+// fs-based schema reads work — and writes this JSON. The page imports the snapshot
+// rather than the framework .mjs directly, because Vite rewrites the .mjs into the
+// build output and its import.meta.url-relative schema path breaks there.
+import manifest from "../data/framework-manifest.json";
+
+// Live (build-time) framework data.
+const schemas = manifest.schemas;
+const kernel = { valid: manifest.kernelOk, errors: manifest.kernelErrors ?? [] };
+const fwVersion = manifest.version;
+
+// Human-readable groupings of the schema list, just for layout.
+const kernelKeystones = [
+  "review-maturity",
+  "frontmatter",
+  "source-system",
+  "contribution-record",
+  "core-entities",
+  "extension-entities",
+  "kernel-profile",
+  "relationships",
+];
+const layerSchemas = schemas.filter((s) => !kernelKeystones.includes(s));
+const presentKeystones = kernelKeystones.filter((s) => schemas.includes(s));
+
+const layers = [
+  ["Resources", "Things worth pointing to — tools, docs, repos, people, orgs. The graph of what exists."],
+  ["Source systems", "The places resources come from — treated as peers, with a path to contribute back, not link pools to drain."],
+  ["Concepts", "The shared vocabulary, so terms mean the same thing across a federated network."],
+  ["Options", "Reusable design choices a group can pick from when building something."],
+  ["Tracks", "Guided paths through the material for a particular kind of reader or task."],
+  ["Deployments", "How an option actually gets stood up, with its requirements."],
+  ["Implementation", "What really happened when someone tried it — the honest record."],
+  ["Claims & evidence", "Statements backed (or not) by sources, kept checkable."],
+  ["Evolution", "How the commons changes over time — proposals, decisions, lineage."],
+  ["Encyclopedia", "Settled, reference-grade entries that have earned their place."],
+];
+---
+
+<Page
+  title="The framework · Regen Web3 Toolkit"
+  description="The reusable core behind this site — a small semantic kernel, layer schemas, and skills any group can fork to run a knowledge commons, and stay interoperable."
+>
+  <!-- ============================== HERO ============================== -->
+  <section class="fw-hero">
+    <div class="wrap fw-hero__inner">
+      <p class="eyebrow reveal" data-d="1">About the system</p>
+      <h1 class="fw-hero__title reveal" data-d="2">
+        The framework<br />behind this site.
+      </h1>
+      <p class="fw-hero__lede reveal" data-d="3">
+        This site is one knowledge commons. Underneath it is a small, reusable core —
+        a shared structure any group can pick up to run their own. It isn't a product or a
+        platform. It's a set of agreements about how knowledge is shaped, so separate commons
+        can stay readable to each other.
+      </p>
+      <div class="fw-hero__meta reveal" data-d="4">
+        <span class="chip chip--clay">Beta · v{fwVersion}</span>
+        <span class="fw-hero__metasep" aria-hidden="true"></span>
+        <span>Forkable</span>
+        <span class="fw-hero__metasep" aria-hidden="true"></span>
+        <span>Interoperable</span>
+        <span class="fw-hero__metasep" aria-hidden="true"></span>
+        <span>org-os-agnostic</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ WHAT IT IS ========================== -->
+  <section class="fw-what">
+    <div class="wrap fw-what__grid">
+      <div class="fw-what__lead">
+        <p class="eyebrow">What it is</p>
+        <h2 class="fw-h2">A shared structure, not a finished thing.</h2>
+        <p>
+          The framework is the reusable core of this toolkit, pulled out so it doesn't depend on
+          how this particular site is run. It's three plain ingredients: a small <strong>semantic
+          kernel</strong> (the core objects and how they relate), a set of <strong>layer
+          schemas</strong> (the shapes data takes), and a few <strong>agentic skills</strong>
+          (instructions an AI assistant follows to capture, route, and review material).
+        </p>
+        <p>
+          A group forks it, keeps the core compatible, and adds their own language and content on
+          top. That's the whole idea: many commons, each local, all still able to read each other.
+        </p>
+      </div>
+      <ul class="fw-what__points">
+        <li>
+          <span class="fw-ic" aria-hidden="true">◇</span>
+          <div><strong>A core, not a copy.</strong> You inherit the shared shapes and extend them locally — you don't rebuild from scratch or get locked into someone else's content.</div>
+        </li>
+        <li>
+          <span class="fw-ic" aria-hidden="true">⟲</span>
+          <div><strong>Interoperable by default.</strong> Keep the kernel compatible and your commons stays readable — by people, by graphs, and by the next group that forks it.</div>
+        </li>
+        <li>
+          <span class="fw-ic" aria-hidden="true">⌥</span>
+          <div><strong>No platform required.</strong> Schemas are plain files, skills are plain markdown, the checker is a small script. No build step, no lock-in, no host you can't swap out.</div>
+        </li>
+        <li>
+          <span class="fw-ic" aria-hidden="true">↺</span>
+          <div><strong>Contribute back as peers.</strong> Patterns and resources flow back to the shared core with attribution — adjacent commons are peers, not sources to drain.</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========================= KERNEL + LAYERS ======================= -->
+  <section class="fw-layers">
+    <div class="wrap">
+      <header class="fw-sec-head">
+        <p class="eyebrow">The kernel and the layers</p>
+        <h2 class="fw-h2">A small core, then ten layers on top.</h2>
+        <p class="fw-sec-sub">
+          At the centre is a kernel: a handful of core object types and the rules that keep a fork
+          compatible. Around it sit ten layers — the kinds of thing a knowledge commons keeps track
+          of. Each layer has a schema (its shape). The full, live list is below.
+        </p>
+      </header>
+      <ol class="fw-layer-list">
+        {layers.map(([name, desc], i) => (
+          <li class="fw-layer">
+            <span class="fw-layer__num">{String(i + 1).padStart(2, "0")}</span>
+            <div>
+              <h3 class="fw-layer__name">{name}</h3>
+              <p class="fw-layer__desc">{desc}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- =================== LIVE SCHEMA LIST + KERNEL ==================== -->
+  <section class="fw-live">
+    <div class="wrap">
+      <header class="fw-sec-head">
+        <p class="eyebrow">From the framework itself</p>
+        <h2 class="fw-h2">The schemas, read straight from the package.</h2>
+        <p class="fw-sec-sub">
+          These aren't a hand-kept list. They're read from the framework package when this page is
+          built, so what you see is what the framework actually ships.
+        </p>
+      </header>
+
+      <div class="fw-live__status" data-ok={kernel.valid ? "true" : "false"}>
+        {kernel.valid ? (
+          <span class="fw-live__badge fw-live__badge--ok">kernel consistent ✓</span>
+        ) : (
+          <span class="fw-live__badge fw-live__badge--warn">kernel check: {kernel.errors.length} issue(s)</span>
+        )}
+        <span class="fw-live__count">{schemas.length} schemas</span>
+      </div>
+
+      <div class="fw-schemas">
+        <div class="fw-schemas__col">
+          <h4 class="fw-schemas__h">Kernel keystones</h4>
+          <ul class="fw-schema-grid">
+            {presentKeystones.map((s) => <li class="fw-schema">{s}</li>)}
+          </ul>
+        </div>
+        <div class="fw-schemas__col">
+          <h4 class="fw-schemas__h">Layer &amp; supporting schemas</h4>
+          <ul class="fw-schema-grid">
+            {layerSchemas.map((s) => <li class="fw-schema">{s}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <p class="fw-live__caption">
+        Generated at build from <code>@regen-commons/toolkit-framework</code> v{fwVersion}.
+        {kernel.valid
+          ? " The kernel check passed: every extension maps to a real core type."
+          : " The kernel check flagged issues — see the package."}
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================ HOW TO ADOPT ======================= -->
+  <section class="fw-adopt">
+    <div class="wrap fw-adopt__inner">
+      <p class="eyebrow">How to adopt it</p>
+      <h2 class="fw-h2">Fork the core, keep it compatible.</h2>
+      <p class="fw-adopt__lede">
+        Adopting looks like this: take the framework, keep the kernel intact so you stay
+        interoperable, and add your own content, language, and tools on top. You can run it on its
+        own — the schemas and skills work in any repo. If you want the full coordination setup
+        (sessions, registries, federation), there's an integration package,
+        <code>@org-os/kms</code>, that wires the framework into an org-os instance with it
+        pre-loaded — replaceable if you'd rather host it your own way.
+      </p>
+      <div class="fw-adopt__cta">
+        <a class="btn btn--ghost" href="https://github.com/explorience/regen-toolkit/tree/main/packages/toolkit-framework">Read the framework on GitHub <span class="arrow">→</span></a>
+      </div>
+      <p class="fw-adopt__honest">
+        Honest status: this is a <strong>try-able beta</strong> (v{fwVersion}). The kernel, the {schemas.length}
+        schemas, the skills, and the checker are real and tested — but it's early, and it grows by
+        being adopted. Expect rough edges, and expect it to change as the first communities use it.
+      </p>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .fw-h2 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); max-width: 22ch; line-height: 1.08; }
+  .fw-sec-head { margin-bottom: clamp(24px, 4vw, 40px); max-width: 60ch; }
+  .fw-sec-head .eyebrow { margin-bottom: .7em; }
+  .fw-sec-sub { color: var(--ink-soft); margin-top: .7em; font-size: 1.05rem; max-width: 58ch; }
+
+  /* hero */
+  .fw-hero { position: relative; overflow: hidden; padding-block: clamp(48px, 9vw, 104px) clamp(30px, 5vw, 60px); }
+  .fw-hero__inner { max-width: 880px; }
+  .fw-hero__title { font-size: clamp(2.4rem, 5.6vw, 4.4rem); font-weight: 600; letter-spacing: -.025em; margin: .18em 0 0; }
+  .fw-hero__lede { font-size: clamp(1.08rem, 1.6vw, 1.28rem); color: var(--ink-soft); max-width: 58ch; margin-top: 1.1em; }
+  .fw-hero__meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 2em; font-family: var(--font-mono); font-size: .82rem; color: var(--ink-faint); }
+  .fw-hero__metasep { width: 5px; height: 5px; border-radius: 50%; background: var(--line-strong); }
+
+  /* what it is */
+  .fw-what { padding-block: clamp(40px, 7vw, 84px); }
+  .fw-what__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(30px, 5vw, 64px); align-items: start; }
+  .fw-what__lead p { color: var(--ink-soft); margin-top: 1em; max-width: 48ch; font-size: 1.05rem; }
+  .fw-what__lead strong { color: var(--ink); font-weight: 600; }
+  .fw-what__points { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+  .fw-what__points li { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; padding: 18px 0; border-top: 1px solid var(--line); }
+  .fw-what__points li:first-child { border-top: none; }
+  .fw-what__points div { color: var(--ink-soft); }
+  .fw-what__points strong { color: var(--ink); font-family: var(--font-display); font-weight: 560; font-size: 1.08rem; display: block; margin-bottom: .15em; }
+  .fw-ic { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in oklab, var(--moss) 13%, transparent); color: var(--moss); font-size: 1.05rem; flex: none; }
+  :root[data-theme="dark"] .fw-ic { color: var(--growth); }
+  @media (max-width: 820px) { .fw-what__grid { grid-template-columns: 1fr; } }
+
+  /* layers */
+  .fw-layers { padding-block: clamp(40px, 7vw, 84px); border-top: 1px solid var(--line); background: color-mix(in oklab, var(--paper-2) 50%, transparent); }
+  .fw-layer-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 clamp(24px, 4vw, 56px); }
+  .fw-layer { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; padding: 18px 0; border-top: 1px solid var(--line); }
+  .fw-layer__num { font-family: var(--font-mono); font-size: .82rem; color: var(--moss-soft); padding-top: .35em; }
+  .fw-layer__name { font-family: var(--font-display); font-weight: 560; font-size: 1.16rem; }
+  .fw-layer__desc { color: var(--ink-soft); font-size: .98rem; margin-top: .25em; max-width: 46ch; }
+  @media (max-width: 760px) { .fw-layer-list { grid-template-columns: 1fr; } }
+
+  /* live schemas */
+  .fw-live { padding-block: clamp(40px, 7vw, 84px); }
+  .fw-live__status { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 22px; }
+  .fw-live__badge { font-family: var(--font-mono); font-size: .82rem; font-weight: 600; padding: .4em .9em; border-radius: 100px; }
+  .fw-live__badge--ok { background: color-mix(in oklab, var(--growth) 20%, transparent); color: var(--growth-deep); border: 1px solid color-mix(in oklab, var(--growth) 40%, transparent); }
+  :root[data-theme="dark"] .fw-live__badge--ok { color: var(--growth); }
+  .fw-live__badge--warn { background: color-mix(in oklab, var(--clay) 16%, transparent); color: var(--clay); border: 1px solid color-mix(in oklab, var(--clay) 32%, transparent); }
+  .fw-live__count { font-family: var(--font-mono); font-size: .82rem; color: var(--ink-faint); }
+
+  .fw-schemas { display: grid; grid-template-columns: 1fr 2fr; gap: clamp(24px, 4vw, 48px); }
+  .fw-schemas__h { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; color: var(--moss-soft); margin-bottom: 1em; }
+  .fw-schema-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .fw-schema { font-family: var(--font-mono); font-size: .82rem; color: var(--ink); background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius); padding: .5em .7em; }
+  .fw-live__caption { margin-top: 24px; color: var(--ink-faint); font-size: .92rem; max-width: 62ch; }
+  .fw-live__caption code, .fw-adopt__lede code, .fw-adopt__honest code { font-family: var(--font-mono); font-size: .9em; background: var(--paper-2); border: 1px solid var(--line); border-radius: 4px; padding: .1em .4em; }
+  @media (max-width: 700px) { .fw-schemas { grid-template-columns: 1fr; } }
+
+  /* adopt */
+  .fw-adopt { padding-block: clamp(44px, 7vw, 92px); border-top: 1px solid var(--line); }
+  .fw-adopt__inner { max-width: 720px; }
+  .fw-adopt .eyebrow { margin-bottom: .7em; }
+  .fw-adopt__lede { color: var(--ink-soft); margin-top: 1em; font-size: 1.08rem; max-width: 60ch; }
+  .fw-adopt__lede strong { color: var(--ink); }
+  .fw-adopt__cta { margin-top: 1.8em; }
+  .fw-adopt__honest { margin-top: 2em; padding-top: 1.4em; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .98rem; max-width: 60ch; }
+  .fw-adopt__honest strong { color: var(--clay); }
+</style>
