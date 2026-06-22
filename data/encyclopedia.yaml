@@ -1,0 +1,1278 @@
+schema_version: 0.1.0
+generated_from: src/content/docs/*.md
+generated_at: "2026-06-17"
+generator: scripts/process-content.mjs
+honest_state_note: AI-pipeline drafts (live on Heenal v1 site) — NOT human-reviewed. maturity=draft, public_use=source-linked-unreviewed, ai_assisted=true. See docs/MASTER.md.
+entries:
+  - id: ai-assisted-classification
+    title: AI-Assisted Classification for Your Knowledge Commons
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/ai-assisted-classification.md
+    summary: A practical, opinionated guide to using AI to sort and tag a growing knowledge base, for small teams who run on docs and GitHub but aren't ontologists.
+  - id: ai-community-tools
+    title: AI Tools for Community Knowledge
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/ai-community-tools.md
+    summary: A practical, opinionated guide to the AI tools that help a small team build a knowledge commons that survives turnover, for people comfortable with docs and GitHub.
+  - id: archive-compost
+    title: "Archive or Compost: Handling Outdated Knowledge Without Losing the Plot"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/archive-compost.md
+    summary: A practical guide to retiring stale documents in a knowledge commons without deleting your memory or confusing readers, for teams stewarding docs that must outlive turnover.
+  - id: bitcoin-history
+    title: Bitcoin History
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/bitcoin-history.md
+    summary: Learn about bitcoin history in this Regen Toolkit article.
+  - id: building-founding-team
+    title: Building Your Founding Team
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/building-founding-team.md
+    summary: How to assemble a small, durable founding team for a local ReFi node without burning out the people who show up first. For organizers standing up a node.
+  - id: building-in-public
+    title: Building in Public
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/building-in-public.md
+    summary: Guide to building in public.
+  - id: building-internal-capacity
+    title: Building Internal Capacity
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/building-internal-capacity.md
+    summary: Guide to building internal capacity.
+  - id: building-momentum
+    title: Building Momentum for Your Local Node
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/building-momentum.md
+    summary: How to keep your community excited and growing over time.
+    related_concepts:
+      - building-trust
+      - onboarding-members
+      - common-pitfalls
+      - leadership-development
+  - id: building-trust
+    title: Building Trust in Community Finance
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/building-trust.md
+    summary: The practices that create the trust a local node needs to run a treasury, timebank, or community currency, for organizers already working in regen and Web3.
+  - id: case-studies-nonprofits
+    title: "Case studies: Nonprofits in web3"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/case-studies-nonprofits.md
+    summary: "Learn about case studies: nonprofits in web3 in this Regen Toolkit article."
+  - id: centralized-vs-decentralized
+    title: "Centralized vs. Decentralized Systems: What It Means for Your Garden and Community"
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/centralized-vs-decentralized.md
+    summary: "Learn about centralized vs. decentralized systems: what it means for your garden and community in this Regen Toolkit article."
+    related_concepts:
+      - decentralization-spectrum
+      - decentralization-resilience
+      - what-is-blockchain
+  - id: common-concerns
+    title: Common Concerns About Web3, Answered Honestly
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/common-concerns.md
+    summary: Straight answers to the real worries (scams, energy, speculation, mistakes) for permaculturists and organisers brand new to crypto.
+  - id: common-pitfalls
+    title: Common Pitfalls When Starting a Local Node
+    type: encyclopedia-entry
+    page_type: anti-pattern
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/common-pitfalls.md
+    summary: The failure patterns that sink local regen nodes (burnout, premature tokenomics, governance theatre) and how experienced organizers sidestep them.
+  - id: common-scams
+    title: Common Crypto Scams and How to Spot Them
+    type: encyclopedia-entry
+    page_type: anti-pattern
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/common-scams.md
+    summary: A plain-language field guide to the scams you'll meet in Web3, written for community organisers and newcomers who want to take part without getting burned.
+  - id: communicating-stakeholders
+    title: Communicating with stakeholders
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/communicating-stakeholders.md
+    summary: Learn about communicating with stakeholders in this Regen Toolkit article.
+  - id: compliance-legal
+    title: Compliance and legal considerations
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/compliance-legal.md
+    summary: Learn about compliance and legal considerations in this Regen Toolkit article.
+  - id: conflict-resolution
+    title: Conflict Resolution for Local Nodes
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/conflict-resolution.md
+    summary: A practitioner's playbook for handling disagreements in a local regen node or chapter, with real DAO examples and the tooling that backs it up.
+  - id: cooperative-commons
+    title: Cooperative Economics and Digital Commons
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/cooperative-commons.md
+    summary: Learn how cooperative economics and digital commons can help regenerative communities build wealth that stays local.
+    related_concepts:
+      - local-currency
+      - tokens-coordination-tools
+      - what-is-refi
+      - decentralization-resilience
+  - id: coordination-transparency
+    title: "The promise: Coordination, transparency, and new economic models"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/coordination-transparency.md
+    summary: "Learn about the promise: coordination, transparency, and new economic models in this Regen Toolkit article."
+  - id: creating-buying-earning
+    title: Creating Buying Earning
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/creating-buying-earning.md
+    summary: Learn about creating buying earning in this Regen Toolkit article.
+  - id: credentials-certifications
+    title: Credentials and Certifications
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/credentials-certifications.md
+    summary: How web3 credentials create portable, verifiable proof of your skills and achievements.
+    related_concepts:
+      - identity-verification
+      - onchain-attestations
+      - nfts-beyond-art
+  - id: crypto-donation-platforms
+    title: Crypto donation platforms
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/crypto-donation-platforms.md
+    summary: Learn about crypto donation platforms in this Regen Toolkit article.
+  - id: custodial-vs-noncustodial
+    title: "Custodial vs Non-Custodial Wallets: Understanding Who Holds the Keys"
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/custodial-vs-noncustodial.md
+    summary: Learn about custodial vs noncustodial in this Regen Toolkit article.
+    related_concepts:
+      - what-is-wallet
+      - setting-up-first-wallet
+      - seed-phrases
+      - hot-vs-cold
+  - id: dao-governance-models
+    title: DAO Governance Models
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/dao-governance-models.md
+    summary: "An overview of the main governance models DAOs use to make decisions: token voting, quadratic voting, reputation systems, and more."
+    related_concepts:
+      - voting-mechanisms
+      - what-is-dao
+      - daos-vs-traditional
+      - is-dao-right
+  - id: dao-tooling
+    title: DAO Tooling Landscape
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/dao-tooling.md
+    summary: Learn about dao tooling landscape in this Regen Toolkit article.
+    related_concepts:
+      - dao-governance-models
+      - multisig-setup
+      - voting-mechanisms
+      - what-is-dao
+  - id: daos-vs-traditional
+    title: DAOs vs Traditional Organizations
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/daos-vs-traditional.md
+    summary: Learn about daos vs traditional in this Regen Toolkit article.
+    related_concepts:
+      - what-is-dao
+      - dao-governance-models
+      - legal-structures
+      - is-dao-right
+  - id: decentralization-resilience
+    title: Decentralization and Resilience
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/decentralization-resilience.md
+    summary: Learn about decentralization resilience in this Regen Toolkit article.
+    related_concepts:
+      - centralized-vs-decentralized
+      - decentralization-spectrum
+      - cooperative-commons
+  - id: decentralization-spectrum
+    title: The Decentralization Spectrum
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/decentralization-spectrum.md
+    summary: Learn about decentralization spectrum in this Regen Toolkit article.
+    related_concepts:
+      - centralized-vs-decentralized
+      - decentralization-resilience
+      - trust-transparency
+  - id: delegation-representation
+    title: Delegation and Representation in DAOs
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/delegation-representation.md
+    summary: How to design delegation systems that balance participation with practicality in community governance.
+  - id: dmrv
+    title: dMRV (Digital Measurement, Reporting, and Verification)
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/dmrv.md
+    summary: Learn about digital measurement, reporting, and verification (dMRV) and how it works for regenerative projects.
+    related_concepts:
+      - why-measurement-matters
+      - onchain-attestations
+      - silvi-protocol
+  - id: documentation-knowledge
+    title: Documentation for Local Nodes
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/documentation-knowledge.md
+    summary: How to capture and share knowledge so your community learns and grows.
+    related_concepts:
+      - building-momentum
+      - minimum-viable-node
+      - onboarding-members
+  - id: donor-stewardship
+    title: Donor stewardship in web3
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/donor-stewardship.md
+    summary: Learn about donor stewardship in web3 in this Regen Toolkit article.
+  - id: editorial-workflow
+    title: An Editorial Workflow Your Commons Won't Outgrow
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/editorial-workflow.md
+    summary: How a small team can move knowledge from rough draft to trusted, maintained page, with real tools and a review process that survives turnover.
+  - id: ethereum-ecosystem
+    title: The Ethereum Ecosystem
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/ethereum-ecosystem.md
+    summary: Learn what Ethereum is, how it works, and why it matters for regenerative communities in East Africa and beyond.
+    related_concepts:
+      - what-is-ethereum
+      - what-you-can-do-ethereum
+      - layer-2s
+      - smart-contracts-explained
+  - id: examples-impact-daos
+    title: Examples Impact Daos
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/examples-impact-daos.md
+    summary: Learn about examples impact daos in this Regen Toolkit article.
+    related_concepts:
+      - what-is-dao
+      - dao-governance-models
+      - what-is-refi
+      - is-dao-right
+  - id: federation-portability
+    title: "Federation and Portability: Building a Commons That Outlives Its Tools"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/federation-portability.md
+    summary: How to keep a small team's knowledge commons portable across people, platforms, and time, for leads who live in docs and GitHub but aren't ontologists.
+  - id: find-your-community
+    title: Find Your Community
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/find-your-community.md
+    summary: A plain-language guide for community organisers and permaculturists on finding a trustworthy, real-world regenerative crypto community without getting scammed or wasting time.
+  - id: finding-support-mentorship
+    title: Finding Support and Mentorship
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/finding-support-mentorship.md
+    summary: Guide to finding support and mentorship.
+  - id: finding-your-people
+    title: Finding Your People
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/finding-your-people.md
+    summary: How to attract the right community members to your local node.
+  - id: first-90-days
+    title: Your First 90 Days Running a Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/first-90-days.md
+    summary: A paced, source-backed playbook for standing up a local ReFi node without burning out or building something nobody shows up to.
+  - id: funding-gatherings
+    title: Funding Your Gatherings
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/funding-gatherings.md
+    summary: How to fund community events as a local regen node, from zero-budget potlucks to grant-funded gatherings, without burning out or overspending.
+  - id: funding-landscape
+    title: The Funding Landscape
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/funding-landscape.md
+    summary: "A map of web3 and ReFi-native funding mechanisms for local node builders: how each works, what signals legitimacy, and where the traps are."
+  - id: funding-your-node
+    title: Funding Your Local Node
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/funding-your-node.md
+    summary: Concrete funding patterns, real tools, and the pitfalls to avoid when you're standing up a local regen node and want it to last.
+  - id: gas-fees
+    title: Gas Fees
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/gas-fees.md
+    summary: Learn about gas fees in this Regen Toolkit article.
+  - id: gatherings-pattern
+    title: The Gatherings Pattern
+    type: encyclopedia-entry
+    page_type: framework
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/gatherings-pattern.md
+    summary: A framework for designing gatherings that build community, deepen relationships, and create lasting impact.
+    related_concepts:
+      - types-of-gatherings
+      - planning-web3-events
+      - funding-gatherings
+      - building-momentum
+  - id: gitcoin-grants-qf
+    title: Gitcoin Grants and Quadratic Funding
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/gitcoin-grants-qf.md
+    summary: How quadratic funding distributes a matching pool by counting people, not dollars, and how to run a round for your local node without burning out.
+  - id: giveth-donations
+    title: "Giveth: Zero-Fee Crypto Donations for Your Local Node"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/giveth-donations.md
+    summary: "A practical guide to funding a local regen node or chapter through Giveth: zero platform fees, peer-vouched verification, and recurring streams, for builders who already know web3 basics."
+  - id: governance-mechanism-design
+    title: Governance Mechanism Design
+    type: encyclopedia-entry
+    page_type: framework
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/governance-mechanism-design.md
+    summary: How to design governance mechanisms that are fair, effective, and resistant to manipulation.
+  - id: hot-vs-cold
+    title: Hot Wallets vs Cold Storage
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/hot-vs-cold.md
+    summary: Learn the difference between hot wallets and cold storage, and how to choose the right approach for your crypto security.
+    related_concepts:
+      - custodial-vs-noncustodial
+      - setting-up-first-wallet
+      - seed-phrases
+      - wallet-comparison-guide
+  - id: how-to-get-crypto
+    title: How to Get Your First Crypto
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/how-to-get-crypto.md
+    summary: A calm, scam-aware guide for community organisers and growers on getting your first cryptocurrency safely, starting tiny, and connecting it to real regenerative work.
+  - id: how-transactions-work
+    title: How Transactions Work
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/how-transactions-work.md
+    summary: Learn about how transactions work in this Regen Toolkit article.
+  - id: human-review-boundaries
+    title: Human Review Boundaries for a Knowledge Commons
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/human-review-boundaries.md
+    summary: >-
+      How to decide what gets human review before it enters your shared knowledge base, so the commons survives staff turnover without drowning your reviewers. For teams stewarding a wiki, digital
+      garden, or knowledge base.
+  - id: identity-verification
+    title: Identity Verification
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/identity-verification.md
+    summary: Understanding identity verification in web3 and what it means for your community.
+    related_concepts:
+      - credentials-certifications
+      - onchain-attestations
+      - operational-security
+  - id: impact-certificates-hypercerts
+    title: Impact Certificates Hypercerts
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/impact-certificates-hypercerts.md
+    summary: Learn about impact certificates hypercerts in this Regen Toolkit article.
+  - id: inclusive-practices
+    title: Inclusive Practices for Community Finance
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/inclusive-practices.md
+    summary: How to design community finance systems that welcome and serve diverse participants, regardless of background, ability, or experience.
+    related_concepts:
+      - onboarding-members
+      - building-trust
+      - conflict-resolution
+      - leadership-development
+  - id: is-community-ready
+    title: Is Your Community Ready for a Local Node?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/is-community-ready.md
+    summary: A readiness check for organizers standing up a local ReFi node, so you build on real community capacity instead of burning out.
+  - id: is-dao-right
+    title: Is a DAO Right for Your Community?
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/is-dao-right.md
+    summary: A plain-language guide to help permaculture communities and grassroots groups decide if DAO structure is the right fit.
+    related_concepts:
+      - what-is-dao
+      - daos-vs-traditional
+      - dao-governance-models
+      - legal-structures
+  - id: is-web3-right
+    title: Is Web3 Right for Your Community?
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/is-web3-right.md
+    summary: Guide to is web3 right for your community?.
+  - id: key-terms-a-z
+    title: Key Terms A-Z
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/key-terms-a-z.md
+    summary: A comprehensive glossary of key web3 and Regen terms for beginners.
+    related_concepts:
+      - what-is-blockchain
+      - what-is-cryptocurrency
+      - what-is-ethereum
+      - what-is-refi
+  - id: knowledge-gardens
+    title: Knowledge Gardens
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/knowledge-gardens.md
+    summary: How to build a community knowledge garden that survives turnover, using real tools like Obsidian, Quartz, and the SuperBenefit garden as a model.
+  - id: knowledge-tools-directory
+    title: A Tools Directory for Knowledge That Outlives Turnover
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/knowledge-tools-directory.md
+    summary: An opinionated, named-tool guide to building a team knowledge commons that survives people leaving, for small teams who live in docs and GitHub, not ontologists.
+  - id: layer-2s
+    title: Layer 2 Solutions
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/layer-2s.md
+    summary: Learn how Layer 2 solutions scale Ethereum and why they matter for regenerative finance.
+    related_concepts:
+      - what-is-ethereum
+      - ethereum-ecosystem
+      - which-chain-right
+      - other-chains
+  - id: leadership-development
+    title: Leadership Development for Community Finance
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/leadership-development.md
+    summary: How to identify, develop, and distribute leadership within your local node for sustainable community governance.
+    related_concepts:
+      - conflict-resolution
+      - building-trust
+      - inclusive-practices
+      - building-momentum
+  - id: legal-structures
+    title: Legal Structures for Your Local Node
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/legal-structures.md
+    summary: How to choose a legal wrapper that protects your community node without burying you in paperwork, for organizers ready to hold funds, sign things, and run events.
+  - id: local-currency
+    title: Local Currency Design for Community Finance
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/local-currency.md
+    summary: A practical guide to designing and launching a community currency that works for your local node.
+    related_concepts:
+      - cooperative-commons
+      - tokens-coordination-tools
+      - what-are-tokens
+      - stablecoins
+  - id: local-node-model
+    title: Choosing a Model for Your Local Node
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/local-node-model.md
+    summary: The four organizational models local ReFi nodes actually use, when each one fits, and how to evolve without burning out your core team.
+  - id: local-nodes-and-daos
+    title: "Local Nodes and DAOs: When (and Whether) to Formalize"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/local-nodes-and-daos.md
+    summary: "For organizers standing up a local node: how nodes relate to DAO structures, which tools actually survive, and how to add governance without burning out or handing power to the wrong people."
+  - id: metadata-that-matters
+    title: Metadata That Matters
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/metadata-that-matters.md
+    summary: How to design a small, durable set of metadata fields so your knowledge commons stays findable and trustworthy after the people who built it move on.
+  - id: minimum-viable-node
+    title: Building a Minimum Viable Node
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/minimum-viable-node.md
+    summary: "A practical guide for regen organizers ready to launch a local node: start with the smallest thing that proves your community wants it, then grow without burning out."
+  - id: multisig-setup
+    title: Multisig Setup for Community Treasuries
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/multisig-setup.md
+    summary: How to set up multi-signature wallets to secure community funds with distributed control and transparent governance.
+    related_concepts:
+      - security-best-practices-orgs
+      - dao-tooling
+      - funding-your-node
+      - operational-security
+  - id: nfts-beyond-art
+    title: "NFTs Beyond Art: Practical Applications of Digital Ownership"
+    type: encyclopedia-entry
+    page_type: frontier
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/nfts-beyond-art.md
+    summary: Learn how NFTs, blockchain-based ownership records, are being used for gaming, identity, real estate, supply chains, ticketing, and music.
+    related_concepts:
+      - what-are-tokens
+      - token-standards
+      - credentials-certifications
+      - onchain-attestations
+  - id: onboarding-members
+    title: Onboarding New Members to Your Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/onboarding-members.md
+    summary: A practical guide for local node stewards on welcoming, orienting, and integrating new members without burning out or recreating the centralization you're trying to escape.
+  - id: onchain-attestations
+    title: On-Chain Attestations
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/onchain-attestations.md
+    summary: Learn how on-chain attestations create verifiable proof of skills, achievements, and impact.
+    related_concepts:
+      - credentials-certifications
+      - identity-verification
+      - dmrv
+      - nfts-beyond-art
+  - id: ontology-vs-taxonomy
+    title: "Ontology vs Taxonomy: Which One Does Your Commons Need?"
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/ontology-vs-taxonomy.md
+    summary: "A plain-language guide for teams building a knowledge commons: when a simple taxonomy is enough, when you need an ontology, and the named tools to use for each."
+  - id: other-chains
+    title: Other Chains and Ecosystems
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/other-chains.md
+    summary: Explore the major blockchain ecosystems beyond Ethereum, Solana, Cosmos, Polkadot, Avalanche, and Near, and what each offers for regenerative projects.
+    related_concepts:
+      - which-chain-right
+      - ethereum-ecosystem
+      - layer-2s
+      - what-is-ethereum
+  - id: planning-web3-events
+    title: Planning Web3 Events for Your Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/planning-web3-events.md
+    summary: A practical playbook for running events that grow a local regen node without burning out the people who run them.
+  - id: proposal-writing
+    title: Proposal Writing for DAOs
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/proposal-writing.md
+    summary: Guide to proposal writing for daos.
+  - id: recovery-planning
+    title: Recovery Planning
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/recovery-planning.md
+    summary: Learn about recovery planning in this Regen Toolkit article.
+    related_concepts:
+      - seed-phrases
+      - hot-vs-cold
+      - operational-security
+      - custodial-vs-noncustodial
+  - id: refi-vs-defi-tradfi
+    title: "ReFi vs. DeFi vs. TradFi: Three Ways to Move Money"
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/refi-vs-defi-tradfi.md
+    summary: A plain-language guide for community organisers and permaculturists to the three big financial systems, and where regenerative finance fits your real-world work.
+  - id: relates-to-existing-work
+    title: How web3 relates to your existing work
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/relates-to-existing-work.md
+    summary: Learn about how web3 relates to your existing work in this Regen Toolkit article.
+  - id: review-and-maturity
+    title: "Review and Maturity: Labelling What Your Knowledge Can Be Trusted To Do"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/review-and-maturity.md
+    summary: >-
+      How to mark which pages in your knowledge commons are checked and which are still drafts, so the project survives turnover without losing trust. For small teams building docs that must outlive
+      their authors.
+  - id: security-best-practices-orgs
+    title: Security Best Practices for Organizations Using Crypto Wallets
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/security-best-practices-orgs.md
+    summary: Essential security practices for regenerative organizations managing digital assets.
+    related_concepts:
+      - multisig-setup
+      - operational-security
+      - recovery-planning
+      - common-scams
+  - id: seed-phrases
+    title: "Seed Phrases: Your Master Key to Crypto"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/seed-phrases.md
+    summary: "A plain-language guide to seed phrases for community organisers and regenerative practitioners new to crypto: what they are, how to keep them safe, and how to avoid the scams that target them."
+  - id: setting-up-first-wallet
+    title: Setting Up Your First Wallet
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/setting-up-first-wallet.md
+    summary: A calm, step-by-step guide to creating your first crypto wallet safely, written for organisers and growers brand new to Web3.
+  - id: setting-up-receive-crypto
+    title: Setting up to receive crypto
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/setting-up-receive-crypto.md
+    summary: Learn about setting up to receive crypto in this Regen Toolkit article.
+  - id: silvi-protocol
+    title: Silvi Protocol Playbook
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/silvi-protocol.md
+    summary: A practical guide to using Silvi Protocol for tree planting and impact verification.
+    related_concepts:
+      - dmrv
+      - onchain-attestations
+      - what-is-refi
+      - why-measurement-matters
+  - id: smart-contracts-explained
+    title: Smart Contracts Explained
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/smart-contracts-explained.md
+    summary: Learn about smart contracts explained in this Regen Toolkit article.
+    related_concepts:
+      - what-is-ethereum
+      - what-is-blockchain
+      - ethereum-ecosystem
+      - dao-tooling
+  - id: social-tokens-creator
+    title: Social Tokens for Creators
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/social-tokens-creator.md
+    summary: Guide to social tokens for creators.
+  - id: source-systems
+    title: "Source Systems: Knowledge That Outlives Turnover"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/source-systems.md
+    summary: How to treat the wikis, repos, and gardens you rely on as living source systems with stewards and credit, so your knowledge commons survives when people leave.
+  - id: stablecoins
+    title: "Stablecoins: Digital Dollars That Hold Their Value"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/stablecoins.md
+    summary: "A plain-language guide to stablecoins for community organisers and regenerative practitioners new to crypto: what they are, why they matter for your work, and how to spot the safe ones."
+  - id: stewardship-roles
+    title: Stewardship Roles for a Knowledge Commons That Outlives You
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/stewardship-roles.md
+    summary: How to name, assign, and hand off the stewardship roles that keep a community knowledge commons alive through turnover, for small teams comfortable with docs and GitHub.
+  - id: stories-regens-leap
+    title: "Stories: Regens who made the leap"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/stories-regens-leap.md
+    summary: "Learn about stories: regens who made the leap in this Regen Toolkit article."
+  - id: tax-implications
+    title: Tax Implications
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/tax-implications.md
+    summary: Learn about tax implications in this Regen Toolkit article.
+  - id: token-standards
+    title: Token Standards
+    type: encyclopedia-entry
+    page_type: framework
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/token-standards.md
+    summary: Learn about token standards in this Regen Toolkit article.
+    related_concepts:
+      - what-are-tokens
+      - nfts-beyond-art
+      - smart-contracts-explained
+      - tokens-coordination-tools
+  - id: tokens-coordination-tools
+    title: Tokens as Coordination Tools
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/tokens-coordination-tools.md
+    summary: Learn how tokens can help regenerative communities coordinate decisions, allocate resources, and govern shared funds, without a central authority.
+    related_concepts:
+      - what-are-tokens
+      - cooperative-commons
+      - local-currency
+      - token-standards
+  - id: tokens-real-world-assets
+    title: Tokens Real World Assets
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/tokens-real-world-assets.md
+    summary: Learn about tokens real world assets in this Regen Toolkit article.
+  - id: treasury-management
+    title: Treasury Management
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/treasury-management.md
+    summary: Learn about treasury management in this Regen Toolkit article.
+  - id: trust-transparency
+    title: Trust and Transparency in Decentralized Systems
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/trust-transparency.md
+    summary: Learn about trust transparency in this Regen Toolkit article.
+    related_concepts:
+      - building-trust
+      - decentralization-spectrum
+      - centralized-vs-decentralized
+      - what-is-blockchain
+  - id: types-of-gatherings
+    title: Types of Gatherings for Local Nodes
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/types-of-gatherings.md
+    summary: A practical guide to choosing the right gathering format for your local node at each stage, with real ReFi examples and how to avoid burnout.
+  - id: voting-mechanisms
+    title: Voting Mechanisms
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/voting-mechanisms.md
+    summary: Learn about voting mechanisms in this Regen Toolkit article.
+    related_concepts:
+      - dao-governance-models
+      - what-is-dao
+      - dao-tooling
+      - conflict-resolution
+  - id: wallet-comparison-guide
+    title: Wallet Comparison Guide
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/wallet-comparison-guide.md
+    summary: Compare the best crypto wallets to find the right one for your needs.
+    related_concepts:
+      - setting-up-first-wallet
+      - what-is-wallet
+      - custodial-vs-noncustodial
+      - hot-vs-cold
+  - id: what-are-tokens
+    title: What Are Tokens? A Beginner's Guide to Digital Assets
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-are-tokens.md
+    summary: Learn about what are tokens in this Regen Toolkit article.
+    related_concepts:
+      - token-standards
+      - what-is-cryptocurrency
+      - nfts-beyond-art
+      - tokens-coordination-tools
+  - id: what-is-blockchain
+    title: What Is a Blockchain?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-blockchain.md
+    summary: A plain-language, no-hype introduction to blockchains for community organisers and growers new to crypto, with real regenerative examples and an honest look at the costs.
+  - id: what-is-cryptocurrency
+    title: What Is Cryptocurrency?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-cryptocurrency.md
+    summary: "A plain-language introduction to cryptocurrency for community organisers and growers new to crypto: what it is, why it matters for on-the-ground work, and what to watch out for."
+  - id: what-is-dao
+    title: What Is a DAO?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-dao.md
+    summary: A plain-language introduction to DAOs for community organisers and regenerative practitioners new to crypto, with real tools and a hands-on first step.
+  - id: what-is-decentralization
+    title: What Is Decentralization?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-decentralization.md
+    summary: A plain-language guide to decentralization for community organizers and permaculturists new to crypto, what it means, why it matters for your work, and how to spot it.
+  - id: what-is-ethereum
+    title: What is Ethereum? A Friendly Guide for Regenerative Community Builders
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-ethereum.md
+    summary: Learn about what is ethereum in this Regen Toolkit article.
+    related_concepts:
+      - what-is-blockchain
+      - ethereum-ecosystem
+      - what-you-can-do-ethereum
+      - smart-contracts-explained
+  - id: what-is-knowledge-commons
+    title: What Is a Knowledge Commons?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-knowledge-commons.md
+    summary: A plain-language guide to building a shared knowledge base that survives team turnover, for small teams comfortable with docs and GitHub.
+  - id: what-is-local-node
+    title: What Is a Local Node?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-local-node.md
+    summary: "A practical guide to local nodes: place-based regen chapters that use Web3 tools to coordinate, and how to start one without burning out, for people ready to build."
+  - id: what-is-refi
+    title: What Is ReFi?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-refi.md
+    summary: "A plain-language introduction to Regenerative Finance for community organisers and growers new to crypto: what it is, why it might matter for your work, and how to check it's real."
+  - id: what-is-wallet
+    title: What Is a Crypto Wallet?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-wallet.md
+    summary: A plain-language guide to crypto wallets for community organisers and permaculturists new to Web3, covering keys, recovery, safety, and energy use.
+  - id: what-web3-can-cant-do
+    title: What Web3 Can and Can't Do
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-web3-can-cant-do.md
+    summary: A plain-language honest look at where blockchain genuinely helps community and regenerative work, and where it just adds cost and risk.
+  - id: what-you-can-do-ethereum
+    title: What You Can Do on Ethereum
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/what-you-can-do-ethereum.md
+    related_concepts:
+      - what-is-ethereum
+      - ethereum-ecosystem
+      - smart-contracts-explained
+      - layer-2s
+  - id: which-chain-right
+    title: Which Chain is Right for Your Project?
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/which-chain-right.md
+    summary: Learn about which chain is right in this Regen Toolkit article.
+    related_concepts:
+      - other-chains
+      - ethereum-ecosystem
+      - layer-2s
+      - what-is-ethereum
+  - id: why-accept-crypto
+    title: Why Accept Crypto Donations?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/why-accept-crypto.md
+    summary: Learn why your regenerative organization should consider accepting cryptocurrency donations, and how to get started simply.
+    related_concepts:
+      - how-to-get-crypto
+      - stablecoins
+      - what-is-cryptocurrency
+      - setting-up-first-wallet
+  - id: why-local-matters
+    title: Why Local Matters
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/why-local-matters.md
+    summary: Why place-based nodes do the work global protocols can't, and how to start one without burning out or building something nobody uses.
+  - id: why-measurement-matters
+    title: Why Measurement Matters for Your Local Node
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/why-measurement-matters.md
+    summary: How local node and chapter builders can measure impact without bureaucracy or burnout, and turn that proof into funding, trust, and autonomy.
+  - id: why-regens-interested
+    title: Why Regens Are Interested in Blockchain
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/why-regens-interested.md
+    summary: "For permaculturists and community organisers brand new to crypto: why people who care about healing land and communities are paying attention to blockchain, and how it might help your real work."
+  - id: writing-grant-proposals
+    title: Writing Grant Proposals
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: src/content/docs/writing-grant-proposals.md
+    summary: A practical guide for local node builders on writing web3 grant proposals that fund real work, without becoming dependent on a single pool.

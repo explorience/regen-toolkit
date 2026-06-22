@@ -220,6 +220,7 @@
   },
   "active": "a36e40ec9c51391c",
   "lastOpenFiles": [
+    "docs/plans/SESSION-HANDOFF.md",
     "memory/2026-06-17.md",
     "framework/PLACEMENT.md",
     "docs/plans/deploy-refi-bcn-network.md",
@@ -260,7 +261,6 @@
     "src/content/docs/knowledge-tools-directory.md",
     "src/content/docs/human-review-boundaries.md",
     "src/content/docs/federation-portability.md",
-    "src/content/docs/editorial-workflow.md",
     "public/logos/superbenefit.png",
     "public/logos/refidao.svg",
     "public/logos/ics.png",

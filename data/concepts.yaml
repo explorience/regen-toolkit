@@ -1,0 +1,62 @@
+schema_version: 0.1.0
+generated_from: src/content/docs/*.md
+generated_at: "2026-06-17"
+generator: scripts/process-content.mjs
+honest_state_note: AI-pipeline drafts (live on Heenal v1 site) — NOT human-reviewed. maturity=draft, public_use=source-linked-unreviewed, ai_assisted=true. See docs/MASTER.md.
+concepts:
+  - id: what-is-blockchain
+    title: Blockchain
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-blockchain.md
+    short_description: A plain-language, no-hype introduction to blockchains for community organisers and growers new to crypto, with real regenerative examples and an honest look at the costs.
+  - id: what-is-cryptocurrency
+    title: Cryptocurrency
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-cryptocurrency.md
+    short_description: "A plain-language introduction to cryptocurrency for community organisers and growers new to crypto: what it is, why it matters for on-the-ground work, and what to watch out for."
+  - id: what-is-dao
+    title: DAO
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-dao.md
+    short_description: A plain-language introduction to DAOs for community organisers and regenerative practitioners new to crypto, with real tools and a hands-on first step.
+  - id: what-is-decentralization
+    title: Decentralization
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-decentralization.md
+    short_description: A plain-language guide to decentralization for community organizers and permaculturists new to crypto, what it means, why it matters for your work, and how to spot it.
+  - id: what-is-knowledge-commons
+    title: Knowledge Commons
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-knowledge-commons.md
+    short_description: A plain-language guide to building a shared knowledge base that survives team turnover, for small teams comfortable with docs and GitHub.
+  - id: what-is-local-node
+    title: Local Node
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-local-node.md
+    short_description: "A practical guide to local nodes: place-based regen chapters that use Web3 tools to coordinate, and how to start one without burning out, for people ready to build."
+  - id: what-is-refi
+    title: ReFi
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-refi.md
+    short_description: "A plain-language introduction to Regenerative Finance for community organisers and growers new to crypto: what it is, why it might matter for your work, and how to check it's real."
+  - id: what-is-wallet
+    title: Crypto Wallet
+    type: concept-lineage
+    maturity: draft
+    ai_assisted: true
+    source_lineage: src/content/docs/what-is-wallet.md
+    short_description: A plain-language guide to crypto wallets for community organisers and permaculturists new to Web3, covering keys, recovery, safety, and energy use.
