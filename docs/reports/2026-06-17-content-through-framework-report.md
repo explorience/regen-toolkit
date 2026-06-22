@@ -174,6 +174,65 @@ Emitted source-system `type` distribution: database 60, podcast 16, convening 6,
 
 Every emitted object was validated **in a batch loop** via the framework API `validateObject(schemaName, obj)` (`packages/toolkit-framework/src/index.mjs`) before any file write — schema `resource` for 1616 objects, `source-system` for 89. The script **refuses to write** if any object fails. Result: **1616/1616 resources valid, 89/89 source systems valid** (0 failures). No object exceeds `raw` / `raw-lead` state; `review_status` is preserved in `notes` but never used to promote.
 
+### Task 3 — 119 Articles → Encyclopedia + Concepts
+
+**Source:** `src/content/docs/*.md` (the live v1 site's article corpus — AI-pipeline drafts).
+**Processor:** `scripts/process-content.mjs` (test-first; `scripts/process-content.test.mjs`, 16/16 pass). Reads each article, parses frontmatter (`gray-matter`), infers `page_type` by ordered title/body heuristics, emits `encyclopedia-entry` objects, and conservatively extracts `concept-lineage` candidates. Every object is validated via the framework API before any write; the script **refuses to write** on any failure.
+**Outputs:** `data/encyclopedia.yaml` (119 `encyclopedia-entry` objects) and `data/concepts.yaml` (8 `concept-lineage` objects).
+
+#### Article → entry reconciliation (no silent loss)
+
+| Bucket | Count | Destination |
+|---|---|---|
+| Articles on disk (`src/content/docs/*.md`) | 119 | — (source) |
+| → **Encyclopedia entries** (one per article) | **119** | `data/encyclopedia.yaml` |
+| Articles WITHOUT an entry | 0 | — |
+| Entries WITHOUT a source article (orphans) | 0 | — |
+
+Reconciliation: **119 articles = 119 entries**, one-to-one by `id` (the slug). No article was dropped and no entry was invented. Each entry carries `source_lineage: src/content/docs/<slug>.md` — round-trippable provenance back to the article. Regeneration is **byte-identical** to the committed `data/encyclopedia.yaml` (deterministic; sorted by slug), so the artifact is reproducible from the source corpus.
+
+#### `page_type` distribution (heuristic output)
+
+The processor infers one of the seven schema enum values (`concept | framework | comparison | guide | case-linked | anti-pattern | frontier`) from ordered title/body heuristics, defaulting to `concept` (the most defensible default — an explanatory page about a thing) when ambiguous:
+
+| `page_type` | Count |
+|---|---|
+| concept | 44 |
+| case-linked | 40 |
+| guide | 17 |
+| comparison | 12 |
+| framework | 3 |
+| anti-pattern | 2 |
+| frontier | 1 |
+| **Total** | **119** |
+
+This is a **draft classification**, not an authored one — the heuristic's output is recorded honestly as a starting point for a human curation pass (Layer 2 owner), not as a reviewed taxonomy.
+
+#### Concept extraction (conservative — did NOT over-extract)
+
+**Rule:** extract a `concept-lineage` only for unambiguous defined-term articles — slug `what-is-…` / `what-are-…` (or title "What is/are X"), **excluding** any whose title also reads as a how-to / comparison / pitfall / guide / playbook. The intent is to capture the clear "what is X" concepts, not to turn all 119 articles into lineage stubs.
+
+Result: **8 `concept-lineage` objects** — Blockchain, Cryptocurrency, DAO, Decentralization, Knowledge Commons, Local Node, ReFi, Crypto Wallet.
+
+There are **10** `what-is/are-` slugs on disk; the rule extracted **8**. The two deliberately skipped are **`what-are-tokens`** ("What Are Tokens? A Beginner's **Guide** to Digital Assets") and **`what-is-ethereum`** ("What is Ethereum? A Friendly **Guide** for Regenerative Community Builders") — both titles self-describe as a *guide*, which the conservative exclusion filter (`\bguide\b`) catches. This is the anti-over-extraction rule working as designed; both remain encyclopedia entries (`what-are-tokens` → `concept`, `what-is-ethereum` → `guide`), so no content is lost — only the lineage-stub promotion is withheld pending a human lineage pass. Each concept stub carries the article's description as `short_description` and its `source_lineage`; `source_traditions` / `adjacent_meanings` / `important_distinctions` are **intentionally omitted** (not fabricated — a Layer 4 lineage owner fills these in).
+
+#### Honest-state confirmation
+
+These articles are **AI-pipeline drafts** that happen to be live on the v1 site. Per `docs/MASTER.md` ("Do not treat AI synthesis as human-reviewed"; "human review is still needed for published AI-assisted drafts"), the pipeline's own `review_done: true` is a **pipeline-stage flag** (research → draft → factcheck → review → critique), **not** independent human sign-off. So:
+
+- **Every entry `maturity: draft`** — 0 marked `reviewed`. The `HUMAN_REVIEWED` allowlist is **empty** (no evidence any of the 119 has had independent human sign-off), so nothing is promoted. An entry with `review_done: true` in its frontmatter is explicitly tested to stay `draft`.
+- **Every entry `public_use: source-linked-unreviewed`** — 0 carry a `reviewed-*` value. This is the honest rung: written/published, below `reviewed-for-explanation` / `reviewed-for-guidance` on the `public_use` axis (`packages/toolkit-framework/schemas/review-maturity.yaml`).
+- **Every entry `ai_assisted: true`** — 119/119.
+- **Concepts likewise** — all 8 `maturity: draft`, `ai_assisted: true`, 0 `reviewed`.
+
+Nothing was auto-promoted. The state recorded is the floor (draft / unreviewed), never an overclaim.
+
+#### Validation
+
+Every emitted object was validated **in a batch loop** via the framework API `validateObject(schemaName, obj)` — schema `encyclopedia-entry` (required `[title, type, page_type]`) for 119 objects, `concept-lineage` (required `[title, type]`) for 8. Result: **119/119 encyclopedia-entry valid, 8/8 concept-lineage valid** (0 failures). The processor itself runs this same validation before writing and exits non-zero on any invalid object. (Note: the framework *CLI* `validate` reads a YAML file as a single object and so reports "invalid" against the wrapped `{ entries: [...] }` list shape — the per-object `validateObject` loop is the authoritative path for these list files.)
+
+Baseline preserved: framework package tests 34/34 pass; Task 3 tests 16/16 pass.
+
 ---
 
 ## Review Summary
