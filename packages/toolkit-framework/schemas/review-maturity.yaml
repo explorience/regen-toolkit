@@ -4,6 +4,7 @@
 # See framework/RECONCILIATIONS.md (R1).
 id: review-maturity
 version: 0.1.0
+description: The canonical state model (K1) — three orthogonal axes (maturity · public_use · lifecycle_state) plus flags and crosswalks that every per-layer ladder maps to.
 
 axes:
   maturity:

@@ -9,7 +9,8 @@ const cli = join(here, '..', 'src', 'cli.mjs');
 
 test('cli prints a semver version', () => {
   const out = execFileSync('node', [cli, 'version'], { encoding: 'utf8' }).trim();
-  assert.match(out, /^\d+\.\d+\.\d+$/);
+  // semver incl. optional pre-release (e.g. 0.1.0-beta.1) + build metadata
+  assert.match(out, /^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$/);
 });
 
 test('cli lists schemas', () => {

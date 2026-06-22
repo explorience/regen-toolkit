@@ -2,7 +2,7 @@
 
 The **Regen Knowledge Commons Toolkit framework** — a portable, **org-os-agnostic** system for building a federated, interoperable knowledge commons. It is the *operational distillation* of the [master doc](../../docs/MASTER.md): **adopt the package, not the 30,000-line doc.**
 
-> **Status: v0.1.0 — fully built (SP0–SP10), 34/34 tests green.** Semantic kernel + 21 schemas + compatibility engine + 3 agentic skills + lift ETL + full architecture/process/site docs. Grows further dialectically through adoption (first: ReFi DAO). Design: [`framework/`](../../framework/) (PLACEMENT, COVERAGE, FEEDBACK-LOOPS, RECONCILIATIONS) · [build plan](../../docs/plans/framework-build/README.md).
+> **Status: v0.1.0-beta.1 — try-able beta.** Semantic kernel + 21 schemas + compatibility engine + 3 agentic skills + lift ETL + full architecture/process docs, now with a knowledge base ([`docs/`](docs/README.md)), one validating [`examples/`](examples/) instance per object-schema, Appendix A–H instance [`templates/`](templates/instance/), and a gaps register ([`framework/GAPS.md`](../../framework/GAPS.md)). Tests green. Grows dialectically through adoption (first: ReFi DAO). Design: [`framework/`](../../framework/) · [build plan](../../docs/plans/framework-build/README.md).
 
 ## Why it exists
 
@@ -19,6 +19,8 @@ node src/cli.mjs validate source-system my-card.yaml   # validate an object agai
 npm test                                               # node --test
 ```
 
+**New here? Start with the [knowledge base](docs/README.md)** → [`GETTING-STARTED`](docs/GETTING-STARTED.md) · [`WORKED-EXAMPLE`](docs/WORKED-EXAMPLE.md) · [`GLOSSARY`](docs/GLOSSARY.md).
+
 Programmatic:
 
 ```js
@@ -29,7 +31,7 @@ isValid('maturity', 'canonical');          // false (old vocab, deliberately rej
 validateObject('source-system', card);     // { valid, errors }
 ```
 
-## What's here (v0.0.1)
+## What's here (the keystones)
 
 **Shared schemas** (`schemas/`) — the keystones every entry type builds on:
 - **`review-maturity`** (K1) — the canonical state model: three orthogonal axes (`maturity` · `public_use` · `lifecycle_state`) + `ai_assisted`/`high_risk` flags + crosswalks. *Resolves the master doc's ~7 conflicting maturity ladders.*
