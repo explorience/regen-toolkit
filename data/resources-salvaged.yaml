@@ -1,0 +1,52 @@
+schema_version: 0.1.0
+generated_from: archive/luizfernando-refidao:research/*.md (read-only archive tag)
+generated_at: "2026-06-23"
+generator: scripts/process-content.mjs (harvest)
+honest_state_note: >-
+  SALVAGED deep-research dumps from the refidao archive branch. Kept RAW — unreviewed research artifacts. maturity=raw, public_use=raw-lead, ai_assisted=true; NEVER auto-promoted. Separate file so the
+  canonical data/resources.yaml (V3 lift) is preserved.
+resources:
+  - id: gitcoin-grants-research
+    title: "Gitcoin Grants & Quadratic Funding: Deep Research Report"
+    type: resource
+    resource_type: research-dump
+    maturity: raw
+    public_use: raw-lead
+    ai_assisted: true
+    source_lineage: archive/luizfernando-refidao:research/gitcoin-grants-research.md
+    salvaged_from: archive/luizfernando-refidao:research/gitcoin-grants-research.md
+    original_source: archive/luizfernando-refidao:research/gitcoin-grants-research.md
+    notes: "Research Date: 2026-02-11"
+  - id: gnosis-safe-research
+    title: Safe (formerly Gnosis Safe) - Deep Research Report
+    type: resource
+    resource_type: research-dump
+    maturity: raw
+    public_use: raw-lead
+    ai_assisted: true
+    source_lineage: archive/luizfernando-refidao:research/gnosis-safe-research.md
+    salvaged_from: archive/luizfernando-refidao:research/gnosis-safe-research.md
+    original_source: archive/luizfernando-refidao:research/gnosis-safe-research.md
+    notes: "Research Date: 2026-02-11"
+  - id: refi-dao-content-inventory
+    title: ReFi DAO Content Inventory Report
+    type: resource
+    resource_type: research-dump
+    maturity: raw
+    public_use: raw-lead
+    ai_assisted: true
+    source_lineage: archive/luizfernando-refidao:research/refi-dao-content-inventory.md
+    salvaged_from: archive/luizfernando-refidao:research/refi-dao-content-inventory.md
+    original_source: archive/luizfernando-refidao:research/refi-dao-content-inventory.md
+    notes: "Date: February 11, 2026"
+  - id: silvi-protocol-research
+    title: Silvi Protocol - Deep Research Report
+    type: resource
+    resource_type: research-dump
+    maturity: raw
+    public_use: raw-lead
+    ai_assisted: true
+    source_lineage: archive/luizfernando-refidao:research/silvi-protocol-research.md
+    salvaged_from: archive/luizfernando-refidao:research/silvi-protocol-research.md
+    original_source: archive/luizfernando-refidao:research/silvi-protocol-research.md
+    notes: "Date: 250211 (February 11, 2026)"

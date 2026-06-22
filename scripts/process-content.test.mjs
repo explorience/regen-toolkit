@@ -19,6 +19,10 @@ import {
   HUMAN_REVIEWED,
   journeyToTrack,
   deriveTracks,
+  tolerantFrontmatter,
+  articleToSalvagedEntry,
+  researchDumpToResource,
+  readSalvageCandidates,
 } from './process-content.mjs';
 import { journeys } from '../src/data/journeys.js';
 
@@ -232,6 +236,121 @@ test('journeyToTrack: traceability — id slug + source_lineage back to journeys
 test('journeyToTrack: options NOT fabricated — left empty (journeys carry no option ids)', () => {
   const t = journeyToTrack(journeys.newcomer);
   assert.deepEqual(t.options, []);
+});
+
+// --- Task 5: salvage (other-branch + legacy content) -------------------------
+
+// tolerantFrontmatter handles the LEGACY content/ shape: leading blank line, YAML keys,
+// then a single lone `---` (no opening `---`). gray-matter returns {} for these — the
+// salvage path must still recover the title.
+test('tolerantFrontmatter: parses legacy frontmatter (no opening ---, single closing ---)', () => {
+  const raw = '\ntitle: Consensus mechanisms explained\nstatus: not-started\n---\n\nBody text here.\n';
+  const { data, content } = tolerantFrontmatter(raw);
+  assert.equal(data.title, 'Consensus mechanisms explained');
+  assert.equal(data.status, 'not-started');
+  assert.ok(content.includes('Body text here.'));
+});
+
+test('tolerantFrontmatter: parses standard frontmatter (---...---) like the live articles', () => {
+  const raw = '---\ntitle: Bitcoin History\nstatus: published\n---\n\nThe body.\n';
+  const { data, content } = tolerantFrontmatter(raw);
+  assert.equal(data.title, 'Bitcoin History');
+  assert.equal(data.status, 'published');
+  assert.ok(content.includes('The body.'));
+});
+
+test('tolerantFrontmatter: falls back to the H1 heading when there is no YAML title', () => {
+  const raw = '\n# Key ReFi Projects and Protocols\n\nFrom KlimaDAO to Gitcoin.\n\n---\n';
+  const { data } = tolerantFrontmatter(raw);
+  assert.equal(data.title, 'Key ReFi Projects and Protocols');
+});
+
+// A known survivor slug → a valid encyclopedia-entry with honest salvage provenance.
+test('articleToSalvagedEntry: produces a valid encyclopedia-entry (framework validateObject)', () => {
+  const entry = articleToSalvagedEntry({
+    slug: 'consensus-mechanisms',
+    title: 'Consensus mechanisms explained',
+    description: 'How blockchains agree.',
+    body: 'Proof of work, proof of stake.',
+    frontmatter: { status: 'not-started' },
+    source: 'content/1-foundations/1.3-blockchain-fundamentals/consensus-mechanisms.md',
+  });
+  const { valid, errors } = validateObject('encyclopedia-entry', entry);
+  assert.ok(valid, `expected valid encyclopedia-entry, got: ${JSON.stringify(errors)}`);
+});
+
+test('articleToSalvagedEntry: honest-state — draft, ai_assisted, salvaged_from provenance, never reviewed', () => {
+  const entry = articleToSalvagedEntry({
+    slug: 'gitcoin-grants',
+    title: 'Gitcoin Grants: Running and participating in QF rounds',
+    description: 'A guide.',
+    body: 'Quadratic funding.',
+    frontmatter: { status: 'not-started' },
+    source: 'content/3-playbooks/3.1-protocol-playbooks/gitcoin-grants.md',
+  });
+  assert.equal(entry.maturity, 'draft');
+  assert.notEqual(entry.maturity, 'reviewed');
+  assert.equal(entry.ai_assisted, true);
+  assert.equal(entry.public_use, 'source-linked-unreviewed');
+  assert.ok(!/^reviewed-/.test(entry.public_use), `public_use overclaims: ${entry.public_use}`);
+  assert.equal(entry.salvaged_from, 'content/3-playbooks/3.1-protocol-playbooks/gitcoin-grants.md');
+  assert.equal(entry.source_lineage, 'content/3-playbooks/3.1-protocol-playbooks/gitcoin-grants.md');
+  assert.equal(entry.id, 'gitcoin-grants');
+  assert.equal(entry.type, 'encyclopedia-entry');
+});
+
+// A research dump → a valid `resource` object, kept raw.
+test('researchDumpToResource: produces a valid resource (framework validateObject), kept raw', () => {
+  const res = researchDumpToResource({
+    slug: 'silvi-protocol-research',
+    title: 'Silvi Protocol — Deep Research Report',
+    body: 'Executive summary ...',
+    source: 'archive/luizfernando-refidao:research/silvi-protocol-research.md',
+  });
+  const { valid, errors } = validateObject('resource', res);
+  assert.ok(valid, `expected valid resource, got: ${JSON.stringify(errors)}`);
+  assert.equal(res.type, 'resource');
+  assert.equal(res.maturity, 'raw');
+  assert.equal(res.public_use, 'raw-lead');
+  assert.notEqual(res.maturity, 'reviewed');
+  assert.equal(res.resource_type, 'research-dump');
+  assert.equal(res.salvaged_from, 'archive/luizfernando-refidao:research/silvi-protocol-research.md');
+  assert.equal(res.source_lineage, 'archive/luizfernando-refidao:research/silvi-protocol-research.md');
+});
+
+// Dedup: survivors are the content/ leaf-slugs NOT in the live set; superseded slugs are excluded.
+test('readSalvageCandidates: excludes superseded slugs (in the live set), keeps survivors', () => {
+  // A live slug present on disk under content/ (e.g. bitcoin-history) must NOT appear as a survivor.
+  const live = new Set([
+    'bitcoin-history', 'what-is-blockchain', 'what-is-dao', 'common-scams', 'stablecoins',
+  ]);
+  const survivors = readSalvageCandidates(live);
+  const slugs = new Set(survivors.map((s) => s.slug));
+  // superseded → excluded
+  assert.ok(!slugs.has('bitcoin-history'), 'bitcoin-history is live → must be dropped as superseded');
+  assert.ok(!slugs.has('what-is-blockchain'), 'what-is-blockchain is live → must be dropped');
+  // known not-live survivors → present
+  assert.ok(slugs.has('gitcoin-grants'), 'gitcoin-grants is not live → must be a survivor');
+  assert.ok(slugs.has('consensus-mechanisms'), 'consensus-mechanisms is not live → must be a survivor');
+  // dedup-within: one entry per leaf slug (no duplicate slugs across paths)
+  assert.equal(slugs.size, survivors.length, 'survivors must be unique by leaf slug');
+});
+
+test('readSalvageCandidates: every survivor → a valid salvaged encyclopedia-entry', () => {
+  // Use the real live set so this asserts the actual emitted corpus is all-valid.
+  const liveSlugs = new Set(
+    readSalvageCandidates.__liveSlugsForTest
+      ? readSalvageCandidates.__liveSlugsForTest()
+      : [],
+  );
+  // Fall back to an empty live set if the helper is unavailable — still asserts validity.
+  const survivors = readSalvageCandidates(liveSlugs);
+  assert.ok(survivors.length > 0, 'expected at least one survivor');
+  for (const a of survivors) {
+    const entry = articleToSalvagedEntry(a);
+    const { valid, errors } = validateObject('encyclopedia-entry', entry);
+    assert.ok(valid, `survivor ${a.slug} invalid: ${JSON.stringify(errors)}`);
+  }
 });
 
 // sanity: the module under test lives where we expect.

@@ -1,0 +1,1587 @@
+schema_version: 0.1.0
+generated_from: content/{1-foundations,2-applied,3-playbooks}/**.md (legacy pipeline, working-tree)
+generated_at: "2026-06-23"
+generator: scripts/process-content.mjs (harvest)
+honest_state_note: >-
+  SALVAGED legacy/other-branch articles NOT superseded by the 119 live articles (dedup by leaf slug). These are old AI-pipeline drafts — most are `not-started` stubs. maturity=draft,
+  public_use=source-linked-unreviewed, ai_assisted=true; NEVER reviewed. Separate file so the canonical data/encyclopedia.yaml (119=119, byte-identical) is preserved. Human triage needed (see notes:
+  legacy pipeline status). See docs/reports/2026-06-17-content-through-framework-report.md.
+entries:
+  - id: blockchain-vs-database
+    title: Blockchain vs traditional database
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.3-blockchain-fundamentals/blockchain-vs-database.md
+    salvaged_from: content/1-foundations/1.3-blockchain-fundamentals/blockchain-vs-database.md
+    summary: Learn about blockchain vs traditional database in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: consensus-mechanisms
+    title: Consensus mechanisms explained
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.3-blockchain-fundamentals/consensus-mechanisms.md
+    salvaged_from: content/1-foundations/1.3-blockchain-fundamentals/consensus-mechanisms.md
+    summary: Learn about consensus mechanisms explained in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: key-properties
+    title: Key properties of blockchains
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.3-blockchain-fundamentals/key-properties.md
+    salvaged_from: content/1-foundations/1.3-blockchain-fundamentals/key-properties.md
+    summary: Learn about key properties of blockchains in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: limitations-tradeoffs
+    title: Limitations and tradeoffs
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.3-blockchain-fundamentals/limitations-tradeoffs.md
+    salvaged_from: content/1-foundations/1.3-blockchain-fundamentals/limitations-tradeoffs.md
+    summary: Learn about limitations and tradeoffs in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: public-vs-private
+    title: Public vs private blockchains
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.3-blockchain-fundamentals/public-vs-private.md
+    salvaged_from: content/1-foundations/1.3-blockchain-fundamentals/public-vs-private.md
+    summary: Learn about public vs private blockchains in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: setup-first-wallet
+    title: Setup First Wallet
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.5-wallets-security/setup-first-wallet.md
+    salvaged_from: content/1-foundations/1.5-wallets-security/setup-first-wallet.md
+    summary: Learn about setup first wallet in this Regen Toolkit article.
+    notes: "legacy pipeline status: published"
+  - id: gitcoin-public-goods
+    title: Gitcoin and public goods funding
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.9-refi-landscape/gitcoin-public-goods.md
+    salvaged_from: content/1-foundations/1.9-refi-landscape/gitcoin-public-goods.md
+    summary: Learn about gitcoin and public goods funding in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: greenpill-movement
+    title: The Greenpill movement
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.9-refi-landscape/greenpill-movement.md
+    salvaged_from: content/1-foundations/1.9-refi-landscape/greenpill-movement.md
+    summary: Learn about the greenpill movement in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: key-projects-protocols
+    title: Key ReFi Projects and Protocols
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.9-refi-landscape/key-projects-protocols.md
+    salvaged_from: content/1-foundations/1.9-refi-landscape/key-projects-protocols.md
+  - id: local-nodes-refi-dao
+    title: What are Local Nodes and ReFi DAOs?
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.9-refi-landscape/local-nodes-refi-dao.md
+    salvaged_from: content/1-foundations/1.9-refi-landscape/local-nodes-refi-dao.md
+  - id: mapping-resources
+    title: Mapping Regenerative Finance Resources
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/1-foundations/1.9-refi-landscape/mapping-resources.md
+    salvaged_from: content/1-foundations/1.9-refi-landscape/mapping-resources.md
+  - id: choosing-starting-point
+    title: Choosing a Starting Point
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.1-local-nodes/choosing-starting-point.md
+    salvaged_from: content/2-applied/2.1-local-nodes/choosing-starting-point.md
+    summary: Guide to choosing a starting point.
+    notes: "legacy pipeline status: published"
+  - id: existing-local-nodes
+    title: Existing Local Nodes
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.1-local-nodes/existing-local-nodes.md
+    salvaged_from: content/2-applied/2.1-local-nodes/existing-local-nodes.md
+    summary: Learn about existing local nodes in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: how-nodes-connect
+    title: How Nodes Connect
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.1-local-nodes/how-nodes-connect.md
+    salvaged_from: content/2-applied/2.1-local-nodes/how-nodes-connect.md
+    summary: Learn about how nodes connect in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: local-node-ecosystem
+    title: The Local Node Ecosystem
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.1-local-nodes/local-node-ecosystem.md
+    salvaged_from: content/2-applied/2.1-local-nodes/local-node-ecosystem.md
+    summary: How local nodes connect to each other and the broader regenerative Web3 ecosystem.
+    notes: "legacy pipeline status: published"
+  - id: local-node-setup
+    title: Setting Up a Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.1-local-nodes/local-node-setup.md
+    salvaged_from: content/2-applied/2.1-local-nodes/local-node-setup.md
+    summary: Step-by-step guide to launching your own local node from scratch.
+    notes: "legacy pipeline status: published"
+  - id: local-nodes-and-dao
+    title: Local Nodes and DAOs
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.1-local-nodes/local-nodes-and-dao.md
+    salvaged_from: content/2-applied/2.1-local-nodes/local-nodes-and-dao.md
+    summary: Guide to local nodes and daos.
+    notes: "legacy pipeline status: published"
+  - id: cash-transfers-aid
+    title: Cash Transfers and Aid Delivery
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.10-blockchain-program-delivery/cash-transfers-aid.md
+    salvaged_from: content/2-applied/2.10-blockchain-program-delivery/cash-transfers-aid.md
+    summary: Learn about cash transfers and aid delivery in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: delivery-models
+    title: Delivery Models for Blockchain Programs
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.10-blockchain-program-delivery/delivery-models.md
+    salvaged_from: content/2-applied/2.10-blockchain-program-delivery/delivery-models.md
+    summary: How to structure and deliver blockchain education and adoption programs in your community.
+    notes: "legacy pipeline status: published"
+  - id: program-design
+    title: Designing Blockchain Education Programs
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.10-blockchain-program-delivery/program-design.md
+    salvaged_from: content/2-applied/2.10-blockchain-program-delivery/program-design.md
+    summary: How to design effective blockchain education programs for your community.
+    notes: "legacy pipeline status: published"
+  - id: real-world-asset-tokenization
+    title: Real World Asset Tokenization
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.10-blockchain-program-delivery/real-world-asset-tokenization.md
+    salvaged_from: content/2-applied/2.10-blockchain-program-delivery/real-world-asset-tokenization.md
+    summary: Learn about real world asset tokenization in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: supply-chain-transparency
+    title: Supply Chain Transparency
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.10-blockchain-program-delivery/supply-chain-transparency.md
+    salvaged_from: content/2-applied/2.10-blockchain-program-delivery/supply-chain-transparency.md
+    summary: Learn about supply chain transparency in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: wallet-security
+    title: Teaching Wallet Security
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.10-blockchain-program-delivery/wallet-security.md
+    salvaged_from: content/2-applied/2.10-blockchain-program-delivery/wallet-security.md
+    summary: How to teach wallet security effectively to community members.
+    notes: "legacy pipeline status: published"
+  - id: when-blockchain-right-tool
+    title: When Blockchain is the Right Tool
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.10-blockchain-program-delivery/when-blockchain-right-tool.md
+    salvaged_from: content/2-applied/2.10-blockchain-program-delivery/when-blockchain-right-tool.md
+    summary: Learn about when blockchain is the right tool in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: operational-security
+    title: Operational Security Basics
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-operational-security/operational-security.md
+    salvaged_from: content/2-applied/2.11-operational-security/operational-security.md
+    summary: Essential security practices to protect yourself and your community in web3.
+    notes: "legacy pipeline status: published"
+  - id: incident-response
+    title: Incident Response
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-web3-safety-security/incident-response.md
+    salvaged_from: content/2-applied/2.11-web3-safety-security/incident-response.md
+    summary: Learn about incident response in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: insurance-risk
+    title: Insurance and Risk Management
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-web3-safety-security/insurance-risk.md
+    salvaged_from: content/2-applied/2.11-web3-safety-security/insurance-risk.md
+    summary: Learn about insurance and risk management in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: key-management-policies
+    title: Key Management Policies
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-web3-safety-security/key-management-policies.md
+    salvaged_from: content/2-applied/2.11-web3-safety-security/key-management-policies.md
+    summary: Learn about key management policies in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: key-management
+    title: Key Management for Communities
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-web3-safety-security/key-management.md
+    salvaged_from: content/2-applied/2.11-web3-safety-security/key-management.md
+    summary: Guide to key management for communities.
+    notes: "legacy pipeline status: published"
+  - id: multisig-management
+    title: Multisig Management
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-web3-safety-security/multisig-management.md
+    salvaged_from: content/2-applied/2.11-web3-safety-security/multisig-management.md
+    summary: Learn about multisig management in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: regulatory-considerations
+    title: Regulatory Considerations
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-web3-safety-security/regulatory-considerations.md
+    salvaged_from: content/2-applied/2.11-web3-safety-security/regulatory-considerations.md
+    summary: Learn about regulatory considerations in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: scam-prevention
+    title: Scam Prevention for Communities
+    type: encyclopedia-entry
+    page_type: anti-pattern
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.11-web3-safety-security/scam-prevention.md
+    salvaged_from: content/2-applied/2.11-web3-safety-security/scam-prevention.md
+    summary: Guide to scam prevention for communities.
+    notes: "legacy pipeline status: published"
+  - id: ai-assistants-coordination
+    title: AI Assistants for Coordination
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.12-ai-web3/ai-assistants-coordination.md
+    salvaged_from: content/2-applied/2.12-ai-web3/ai-assistants-coordination.md
+    summary: Learn about ai assistants for coordination in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: ai-web3-intersection
+    title: The AI-Web3 Intersection
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.12-ai-web3/ai-web3-intersection.md
+    salvaged_from: content/2-applied/2.12-ai-web3/ai-web3-intersection.md
+    summary: Learn about the ai-web3 intersection in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: emerging-tools
+    title: Emerging Tools
+    type: encyclopedia-entry
+    page_type: frontier
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.12-ai-web3/emerging-tools.md
+    salvaged_from: content/2-applied/2.12-ai-web3/emerging-tools.md
+    summary: Learn about emerging tools in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: ethical-considerations
+    title: Ethical Considerations
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.12-ai-web3/ethical-considerations.md
+    salvaged_from: content/2-applied/2.12-ai-web3/ethical-considerations.md
+    summary: Learn about ethical considerations in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: federated-knowledge-commons
+    title: Federated Knowledge Commons
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.12-ai-web3/federated-knowledge-commons.md
+    salvaged_from: content/2-applied/2.12-ai-web3/federated-knowledge-commons.md
+    summary: Learn about federated knowledge commons in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: knowledge-management-rag
+    title: Knowledge Management and RAG
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.12-ai-web3/knowledge-management-rag.md
+    salvaged_from: content/2-applied/2.12-ai-web3/knowledge-management-rag.md
+    summary: Learn about knowledge management and rag in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: avoiding-hype
+    title: Avoiding Hype
+    type: encyclopedia-entry
+    page_type: anti-pattern
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.13-web3-marketing/avoiding-hype.md
+    salvaged_from: content/2-applied/2.13-web3-marketing/avoiding-hype.md
+    summary: How to communicate authentically without resorting to crypto hype.
+    notes: "legacy pipeline status: published"
+  - id: events-conferences
+    title: Web3 Events and Conferences for Local Nodes
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.13-web3-marketing/events-conferences.md
+    salvaged_from: content/2-applied/2.13-web3-marketing/events-conferences.md
+    summary: How to use events and conferences to grow your community.
+    notes: "legacy pipeline status: published"
+  - id: partnering-projects
+    title: Partnering with Projects
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.13-web3-marketing/partnering-projects.md
+    salvaged_from: content/2-applied/2.13-web3-marketing/partnering-projects.md
+    summary: How to build relationships with other Web3 projects and organizations.
+    notes: "legacy pipeline status: published"
+  - id: iterating-learning
+    title: Iterating and Learning
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.14-web3-action-plan/iterating-learning.md
+    salvaged_from: content/2-applied/2.14-web3-action-plan/iterating-learning.md
+    summary: Guide to iterating and learning.
+    notes: "legacy pipeline status: published"
+  - id: realistic-goals
+    title: Setting Realistic Goals
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.14-web3-action-plan/realistic-goals.md
+    salvaged_from: content/2-applied/2.14-web3-action-plan/realistic-goals.md
+    summary: Learn about setting realistic goals in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: benefits-of-participation
+    title: Benefits of Participation in Local Nodes
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/benefits-of-participation.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/benefits-of-participation.md
+    summary: Why joining a local node benefits you and your community.
+    notes: "legacy pipeline status: draft"
+  - id: benefits-participation
+    title: Benefits of Participation
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/benefits-participation.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/benefits-participation.md
+    summary: Guide to benefits of participation.
+    notes: "legacy pipeline status: published"
+  - id: building-relationships
+    title: Building Relationships
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/building-relationships.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/building-relationships.md
+    summary: Learn about building relationships in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: finding-local-node
+    title: Finding a Local Node
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/finding-local-node.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/finding-local-node.md
+    summary: Learn about finding a local node in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: joining-a-local-node
+    title: Joining a Local Node
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/joining-a-local-node.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/joining-a-local-node.md
+    summary: How to find, evaluate, and join an existing local node in your area.
+    notes: "legacy pipeline status: draft"
+  - id: joining-process
+    title: Joining a Local Node
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/joining-process.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/joining-process.md
+    summary: Guide to joining a local node.
+    notes: "legacy pipeline status: published"
+  - id: lurker-to-leader
+    title: From Lurker to Leader
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/lurker-to-leader.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/lurker-to-leader.md
+    summary: Learn about from lurker to leader in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: onboarding-processes
+    title: Onboarding Processes
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/onboarding-processes.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/onboarding-processes.md
+    summary: Learn about onboarding processes in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: ways-to-contribute
+    title: Ways to Contribute
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/ways-to-contribute.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/ways-to-contribute.md
+    summary: Learn about ways to contribute in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: what-to-expect
+    title: What to Expect
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.2-joining-local-node/what-to-expect.md
+    salvaged_from: content/2-applied/2.2-joining-local-node/what-to-expect.md
+    summary: Learn about what to expect in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: progressive-adoption
+    title: Progressive Adoption
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.3-starting-local-node/progressive-adoption.md
+    salvaged_from: content/2-applied/2.3-starting-local-node/progressive-adoption.md
+    summary: Learn about progressive adoption in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: balancing-online-irl
+    title: Balancing Online and IRL
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.4-community-building/balancing-online-irl.md
+    salvaged_from: content/2-applied/2.4-community-building/balancing-online-irl.md
+    summary: Learn about balancing online and irl in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: community-vs-audience
+    title: Community vs Audience
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.4-community-building/community-vs-audience.md
+    salvaged_from: content/2-applied/2.4-community-building/community-vs-audience.md
+    summary: Learn about community vs audience in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: discord-telegram-tools
+    title: Discord, Telegram, and Community Tools
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.4-community-building/discord-telegram-tools.md
+    salvaged_from: content/2-applied/2.4-community-building/discord-telegram-tools.md
+    summary: Learn about discord, telegram, and community tools in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: governance-decision-making
+    title: Governance and Decision Making
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.4-community-building/governance-decision-making.md
+    salvaged_from: content/2-applied/2.4-community-building/governance-decision-making.md
+    summary: Learn about governance and decision making in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: sustaining-community
+    title: Sustaining Community
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.4-community-building/sustaining-community.md
+    salvaged_from: content/2-applied/2.4-community-building/sustaining-community.md
+    summary: Learn about sustaining community in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: token-gated-communities
+    title: Token-Gated Communities
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.4-community-building/token-gated-communities.md
+    salvaged_from: content/2-applied/2.4-community-building/token-gated-communities.md
+    summary: Learn about token-gated communities in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: event-follow-up
+    title: Event Follow Up
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.5-gatherings-events/event-follow-up.md
+    salvaged_from: content/2-applied/2.5-gatherings-events/event-follow-up.md
+    summary: How to follow up after events to maintain momentum.
+    notes: "legacy pipeline status: published"
+  - id: hosting-first-event
+    title: Hosting Your First Event
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.5-gatherings-events/hosting-first-event.md
+    salvaged_from: content/2-applied/2.5-gatherings-events/hosting-first-event.md
+    summary: A step-by-step guide to running your first local node gathering.
+    notes: "legacy pipeline status: published"
+  - id: grants-daos-foundations
+    title: Grants from DAOs and Foundations
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.6-funding-mechanisms/grants-daos-foundations.md
+    salvaged_from: content/2-applied/2.6-funding-mechanisms/grants-daos-foundations.md
+    summary: Learn about grants from daos and foundations in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: rpgf
+    title: Retroactive Public Goods Funding
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.6-funding-mechanisms/rpgf.md
+    salvaged_from: content/2-applied/2.6-funding-mechanisms/rpgf.md
+    summary: Learn about retroactive public goods funding in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: sustainable-funding-mix
+    title: Building a Sustainable Funding Mix
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.6-funding-mechanisms/sustainable-funding-mix.md
+    salvaged_from: content/2-applied/2.6-funding-mechanisms/sustainable-funding-mix.md
+    summary: Learn about building a sustainable funding mix in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: governance-attacks
+    title: Governance Attacks
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.7-decentralized-governance/governance-attacks.md
+    salvaged_from: content/2-applied/2.7-decentralized-governance/governance-attacks.md
+    summary: Understanding and preventing attacks on community governance.
+    notes: "legacy pipeline status: published"
+  - id: treasury-best-practices
+    title: Treasury Best Practices
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.7-decentralized-governance/treasury-best-practices.md
+    salvaged_from: content/2-applied/2.7-decentralized-governance/treasury-best-practices.md
+    summary: How to manage community funds responsibly and transparently.
+    notes: "legacy pipeline status: published"
+  - id: voting-systems-compared
+    title: Voting Systems Compared
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.7-decentralized-governance/voting-systems-compared.md
+    salvaged_from: content/2-applied/2.7-decentralized-governance/voting-systems-compared.md
+    summary: Different voting systems and when to use each.
+    notes: "legacy pipeline status: published"
+  - id: avoiding-impact-washing
+    title: Avoiding Impact Washing
+    type: encyclopedia-entry
+    page_type: anti-pattern
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.8-impact-measurement/avoiding-impact-washing.md
+    salvaged_from: content/2-applied/2.8-impact-measurement/avoiding-impact-washing.md
+    summary: Learn about avoiding impact washing in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: connecting-impact-funding
+    title: Connecting Impact to Funding
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.8-impact-measurement/connecting-impact-funding.md
+    salvaged_from: content/2-applied/2.8-impact-measurement/connecting-impact-funding.md
+    summary: Learn about connecting impact to funding in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: hypercerts-impact-certificates
+    title: Hypercerts and Impact Certificates
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.8-impact-measurement/hypercerts-impact-certificates.md
+    salvaged_from: content/2-applied/2.8-impact-measurement/hypercerts-impact-certificates.md
+    summary: Learn about hypercerts and impact certificates in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: impact-metrics
+    title: Impact Metrics for Community Finance
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.8-impact-measurement/impact-metrics.md
+    salvaged_from: content/2-applied/2.8-impact-measurement/impact-metrics.md
+    summary: Guide to impact metrics for community finance.
+    notes: "legacy pipeline status: published"
+  - id: karma-gap
+    title: Karma GAP
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.8-impact-measurement/karma-gap.md
+    salvaged_from: content/2-applied/2.8-impact-measurement/karma-gap.md
+    summary: Learn about karma gap in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: reporting-frameworks
+    title: Impact Reporting Frameworks
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.8-impact-measurement/reporting-frameworks.md
+    salvaged_from: content/2-applied/2.8-impact-measurement/reporting-frameworks.md
+    summary: Guide to impact reporting frameworks.
+    notes: "legacy pipeline status: published"
+  - id: commitment-pooling
+    title: Commitment Pooling
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/commitment-pooling.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/commitment-pooling.md
+    summary: Learn about commitment pooling in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: community-currencies
+    title: Community Currencies
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/community-currencies.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/community-currencies.md
+    summary: Learn about community currencies in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: designing-token-incentives
+    title: Designing Token Incentives
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/designing-token-incentives.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/designing-token-incentives.md
+    summary: Learn about designing token incentives in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: inflation-model
+    title: Inflation Models for Community Currencies
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/inflation-model.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/inflation-model.md
+    summary: Understanding and managing inflation in local currency systems.
+    notes: "legacy pipeline status: published"
+  - id: local-currency-design
+    title: Local Currency Design
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/local-currency-design.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/local-currency-design.md
+    summary: Guide to local currency design.
+    notes: "legacy pipeline status: published"
+  - id: sarafu-case-study
+    title: Sarafu Case Study
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/sarafu-case-study.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/sarafu-case-study.md
+    summary: Learn about sarafu case study in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: token-economics-basics
+    title: Token Economics Basics
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/token-economics-basics.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/token-economics-basics.md
+    summary: Learn about token economics basics in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: token-supply
+    title: Token Supply and Community Currencies
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/token-supply.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/token-supply.md
+    summary: How to determine the total supply of your community currency and manage inflation.
+    notes: "legacy pipeline status: published"
+  - id: tokenomics-mistakes
+    title: Common Tokenomics Mistakes
+    type: encyclopedia-entry
+    page_type: anti-pattern
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/2-applied/2.9-tokenomics-community-currencies/tokenomics-mistakes.md
+    salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/tokenomics-mistakes.md
+    summary: Learn about common tokenomics mistakes in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: gitcoin-grants
+    title: "Gitcoin Grants: Running and participating in QF rounds"
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.1-protocol-playbooks/gitcoin-grants.md
+    salvaged_from: content/3-playbooks/3.1-protocol-playbooks/gitcoin-grants.md
+    summary: "Learn about gitcoin grants: running and participating in qf rounds in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: giveth
+    title: "Giveth: Setting up projects and donations"
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.1-protocol-playbooks/giveth.md
+    salvaged_from: content/3-playbooks/3.1-protocol-playbooks/giveth.md
+    summary: "Learn about giveth: setting up projects and donations in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: gnosis-safe
+    title: "Gnosis Safe: Multi-sig setup and management"
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.1-protocol-playbooks/gnosis-safe.md
+    salvaged_from: content/3-playbooks/3.1-protocol-playbooks/gnosis-safe.md
+    summary: "Learn about gnosis safe: multi-sig setup and management in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: hypercerts
+    title: "Hypercerts: Creating and managing impact certificates"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.1-protocol-playbooks/hypercerts.md
+    salvaged_from: content/3-playbooks/3.1-protocol-playbooks/hypercerts.md
+    summary: "Learn about hypercerts: creating and managing impact certificates in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: sarafu
+    title: "Sarafu: Community currency deployment"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.1-protocol-playbooks/sarafu.md
+    salvaged_from: content/3-playbooks/3.1-protocol-playbooks/sarafu.md
+    summary: "Learn about sarafu: community currency deployment in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: snapshot
+    title: "Snapshot: Governance and voting"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.1-protocol-playbooks/snapshot.md
+    salvaged_from: content/3-playbooks/3.1-protocol-playbooks/snapshot.md
+    summary: "Learn about snapshot: governance and voting in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: conducting-token-airdrop
+    title: Conducting a Token Airdrop
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/conducting-token-airdrop.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/conducting-token-airdrop.md
+    summary: Learn about conducting a token airdrop in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: creating-community-token
+    title: Creating a Community Token
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/creating-community-token.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/creating-community-token.md
+    summary: Learn about creating a community token in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: creating-poap-event
+    title: Creating a POAP Event
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/creating-poap-event.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/creating-poap-event.md
+    summary: Learn about creating a poap event in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: fiscal-bridge-pattern
+    title: Fiscal Bridge Pattern
+    type: encyclopedia-entry
+    page_type: framework
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/fiscal-bridge-pattern.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/fiscal-bridge-pattern.md
+    summary: Learn about fiscal bridge pattern in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: progressive-web3-adoption
+    title: Progressive Web3 Adoption
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/progressive-web3-adoption.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/progressive-web3-adoption.md
+    summary: Learn about progressive web3 adoption in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: receiving-crypto-donations
+    title: Receiving Crypto Donations
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/receiving-crypto-donations.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/receiving-crypto-donations.md
+    summary: Learn about receiving crypto donations in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: running-community-vote
+    title: Running a Community Vote
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/running-community-vote.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/running-community-vote.md
+    summary: Learn about running a community vote in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: setting-up-bounty-program
+    title: Setting Up a Bounty Program
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/setting-up-bounty-program.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/setting-up-bounty-program.md
+    summary: Learn about setting up a bounty program in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: setting-up-multisig-treasury
+    title: Setting Up a Multisig Treasury
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.2-implementation-patterns/setting-up-multisig-treasury.md
+    salvaged_from: content/3-playbooks/3.2-implementation-patterns/setting-up-multisig-treasury.md
+    summary: Learn about setting up a multisig treasury in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: africa-kenya-sarafu
+    title: "Africa: Kenya Sarafu Network"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/africa-kenya-sarafu.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/africa-kenya-sarafu.md
+    summary: "Learn about africa: kenya sarafu network in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: asia-crypto-garden
+    title: "Asia: Crypto Garden and Regional Nodes"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/asia-crypto-garden.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/asia-crypto-garden.md
+    summary: "Learn about asia: crypto garden and regional nodes in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: denver-ecosystem
+    title: Denver Ecosystem
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/denver-ecosystem.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/denver-ecosystem.md
+    summary: Learn about denver ecosystem in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: europe-regens-unite
+    title: "Europe: Regens Unite"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/europe-regens-unite.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/europe-regens-unite.md
+    summary: "Learn about europe: regens unite in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: global-cross-regional
+    title: Global & Cross-Regional Initiatives
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/global-cross-regional.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/global-cross-regional.md
+    summary: Learn about global & cross-regional initiatives in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: global-network-coordination
+    title: Global Network Coordination
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/global-network-coordination.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/global-network-coordination.md
+    summary: Learn about global network coordination in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: greenpill-chapters
+    title: Greenpill Chapters
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/greenpill-chapters.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/greenpill-chapters.md
+    summary: Learn about greenpill chapters in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: latin-america-refi-latam
+    title: "Latin America: ReFi LATAM Nodes"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/latin-america-refi-latam.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/latin-america-refi-latam.md
+    summary: "Learn about latin america: refi latam nodes in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: middle-east-emerging
+    title: "Middle East: Emerging Nodes"
+    type: encyclopedia-entry
+    page_type: frontier
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/middle-east-emerging.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/middle-east-emerging.md
+    summary: "Learn about middle east: emerging nodes in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: north-america-colorado
+    title: "North America: Colorado Green Pill"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/north-america-colorado.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/north-america-colorado.md
+    summary: "Learn about north america: colorado green pill in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: oceania-australia-nz
+    title: "Oceania: Australia and New Zealand"
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/oceania-australia-nz.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/oceania-australia-nz.md
+    summary: "Learn about oceania: australia and new zealand in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: refi-barcelona
+    title: ReFi Barcelona
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-barcelona.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-barcelona.md
+    summary: Learn about refi barcelona in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-costa-rica
+    title: ReFi Costa Rica
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-costa-rica.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-costa-rica.md
+    summary: Learn about refi costa rica in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-kenya-sarafu
+    title: ReFi Kenya & Sarafu
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-kenya-sarafu.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-kenya-sarafu.md
+    summary: Learn about refi kenya & sarafu in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-lagos
+    title: ReFi Lagos
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-lagos.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-lagos.md
+    summary: Learn about refi lagos in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-lisbon
+    title: ReFi Lisbon
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-lisbon.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-lisbon.md
+    summary: Learn about refi lisbon in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-medellin
+    title: ReFi Medellin
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-medellin.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-medellin.md
+    summary: Learn about refi medellin in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-nyc
+    title: ReFi NYC
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-nyc.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-nyc.md
+    summary: Learn about refi nyc in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-tanzania
+    title: ReFi Tanzania
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/refi-tanzania.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/refi-tanzania.md
+    summary: Learn about refi tanzania in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: reimagining-power
+    title: Reimagining Power
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.3-case-studies-region/reimagining-power.md
+    salvaged_from: content/3-playbooks/3.3-case-studies-region/reimagining-power.md
+    summary: Learn about reimagining power in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: climate-environment
+    title: "Climate & Environment: Silvi, carbon credits, reforestation"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/climate-environment.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/climate-environment.md
+    summary: "Learn about climate & environment: silvi, carbon credits, reforestation in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: community-energy
+    title: Community Energy Projects
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/community-energy.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/community-energy.md
+    summary: Learn about community energy projects in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: dao-governance
+    title: "DAO Governance: SuperBenefit, Greenpill chapters"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/dao-governance.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/dao-governance.md
+    summary: "Learn about dao governance: superbenefit, greenpill chapters in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: humanitarian-aid
+    title: "Humanitarian Aid: Cash transfers, disaster response"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/humanitarian-aid.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/humanitarian-aid.md
+    summary: "Learn about humanitarian aid: cash transfers, disaster response in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: indigenous-led
+    title: Indigenous-Led Initiatives
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/indigenous-led.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/indigenous-led.md
+    summary: Learn about indigenous-led initiatives in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: land-stewardship
+    title: Land Stewardship and Conservation
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/land-stewardship.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/land-stewardship.md
+    summary: Learn about land stewardship and conservation in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: public-goods-funding
+    title: "Public Goods Funding: Gitcoin rounds, RPGF"
+    type: encyclopedia-entry
+    page_type: case-linked
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/public-goods-funding.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/public-goods-funding.md
+    summary: "Learn about public goods funding: gitcoin rounds, rpgf in this Regen Toolkit article."
+    notes: "legacy pipeline status: not-started"
+  - id: regenerative-agriculture
+    title: Regenerative Agriculture Projects
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/regenerative-agriculture.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/regenerative-agriculture.md
+    summary: Learn about regenerative agriculture projects in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: urban-regeneration
+    title: Urban Regeneration
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.4-case-studies-theme/urban-regeneration.md
+    salvaged_from: content/3-playbooks/3.4-case-studies-theme/urban-regeneration.md
+    summary: Learn about urban regeneration in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: analytics-dashboards
+    title: Analytics and dashboards
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/analytics-dashboards.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/analytics-dashboards.md
+    summary: Learn about analytics and dashboards in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: communication-platforms
+    title: Communication platforms
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/communication-platforms.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/communication-platforms.md
+    summary: Learn about communication platforms in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: community-platforms-comparison
+    title: Community Platforms Comparison
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/community-platforms-comparison.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/community-platforms-comparison.md
+    summary: Learn about community platforms comparison in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: dao-tooling-guide
+    title: DAO Tooling Guide
+    type: encyclopedia-entry
+    page_type: guide
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/dao-tooling-guide.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/dao-tooling-guide.md
+    summary: Learn about dao tooling guide in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: dao-tooling-landscape
+    title: DAO tooling landscape
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/dao-tooling-landscape.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/dao-tooling-landscape.md
+    summary: Learn about dao tooling landscape in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: essential-tools-directory
+    title: Essential Tools Directory
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/essential-tools-directory.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/essential-tools-directory.md
+    summary: Learn about essential tools directory in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: funding-platforms-comparison
+    title: Funding Platforms Comparison
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/funding-platforms-comparison.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/funding-platforms-comparison.md
+    summary: Learn about funding platforms comparison in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: funding-platforms
+    title: Funding platforms
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/funding-platforms.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/funding-platforms.md
+    summary: Learn about funding platforms in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: governance-tools
+    title: Governance tools
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/governance-tools.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/governance-tools.md
+    summary: Learn about governance tools in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: learning-resources
+    title: Learning Resources
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/learning-resources.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/learning-resources.md
+    summary: Learn about learning resources in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: wallet-options
+    title: Wallet options compared
+    type: encyclopedia-entry
+    page_type: comparison
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.5-tools-resources/wallet-options.md
+    salvaged_from: content/3-playbooks/3.5-tools-resources/wallet-options.md
+    summary: Learn about wallet options compared in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: acronym-decoder
+    title: Acronym decoder
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.6-glossary/acronym-decoder.md
+    salvaged_from: content/3-playbooks/3.6-glossary/acronym-decoder.md
+    summary: Learn about acronym decoder in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: blockchain-terms
+    title: Blockchain & Crypto Terms
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.6-glossary/blockchain-terms.md
+    salvaged_from: content/3-playbooks/3.6-glossary/blockchain-terms.md
+    summary: Learn about blockchain & crypto terms in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: conceptual-frameworks
+    title: Conceptual frameworks
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.6-glossary/conceptual-frameworks.md
+    salvaged_from: content/3-playbooks/3.6-glossary/conceptual-frameworks.md
+    summary: Learn about conceptual frameworks in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: dao-governance-terms
+    title: DAO & Governance Terms
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.6-glossary/dao-governance-terms.md
+    salvaged_from: content/3-playbooks/3.6-glossary/dao-governance-terms.md
+    summary: Learn about dao & governance terms in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: refi-terms
+    title: ReFi & Impact Terms
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.6-glossary/refi-terms.md
+    salvaged_from: content/3-playbooks/3.6-glossary/refi-terms.md
+    summary: Learn about refi & impact terms in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"
+  - id: web3-culture-terms
+    title: Web3 Culture Terms
+    type: encyclopedia-entry
+    page_type: concept
+    maturity: draft
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    source_lineage: content/3-playbooks/3.6-glossary/web3-culture-terms.md
+    salvaged_from: content/3-playbooks/3.6-glossary/web3-culture-terms.md
+    summary: Learn about web3 culture terms in this Regen Toolkit article.
+    notes: "legacy pipeline status: not-started"

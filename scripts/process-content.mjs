@@ -18,9 +18,10 @@
 //
 // Exported functions are reused by Task 4/5. main() is guarded so importing has no side effects.
 
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { dirname, join } from 'node:path';
+import { dirname, join, relative } from 'node:path';
+import { execSync } from 'node:child_process';
 import matter from 'gray-matter';
 import yaml from 'js-yaml';
 
@@ -37,6 +38,27 @@ const TRACKS_OUT = join(REPO_ROOT, 'data', 'tracks.yaml');
 const GENERATED_AT = '2026-06-17';
 // Task 4 derives `data/tracks.yaml` from src/data/journeys.js; that pass was run 2026-06-23.
 const TRACKS_GENERATED_AT = '2026-06-23';
+
+// --- Task 5: salvage (other-branch + legacy content) -------------------------
+// Output to SEPARATE files (NOT the canonical data/encyclopedia.yaml / data/resources.yaml) so:
+//   (a) Task 3's verified invariant "119 articles = 119 entries, byte-identical regeneration"
+//       is preserved (salvaged drafts never pollute the canonical encyclopedia), and
+//   (b) the next canonical generator run never clobbers the salvage.
+// This is a deliberate deviation from the plan's literal "append to …" — documented in the report.
+const CONTENT_DIR = join(REPO_ROOT, 'content');
+const SALVAGE_SUBDIRS = ['1-foundations', '2-applied', '3-playbooks']; // article dirs only
+const ENCYCLOPEDIA_SALVAGED_OUT = join(REPO_ROOT, 'data', 'encyclopedia-salvaged.yaml');
+const RESOURCES_SALVAGED_OUT = join(REPO_ROOT, 'data', 'resources-salvaged.yaml');
+const SALVAGE_GENERATED_AT = '2026-06-23';
+
+// The legacy refidao research dumps live only in this read-only archive tag.
+const RESEARCH_ARCHIVE_REF = 'archive/luizfernando-refidao';
+const RESEARCH_DUMP_PATHS = [
+  'research/gitcoin-grants-research.md',
+  'research/gnosis-safe-research.md',
+  'research/refi-dao-content-inventory.md',
+  'research/silvi-protocol-research.md',
+];
 
 // --- journeys → tracks (Task 4) honest-state -----------------------------------
 //
@@ -242,6 +264,198 @@ export function deriveTracks(journeysMap = journeys) {
   return Object.values(journeysMap).map(journeyToTrack);
 }
 
+// --- Task 5: salvage helpers -------------------------------------------------
+
+/**
+ * Tolerant frontmatter parser for the LEGACY `content/` corpus.
+ *
+ * The live articles (`src/content/docs/*.md`) use standard `---`…`---` frontmatter, which
+ * gray-matter parses fine. But ~80% of the legacy `content/` files are MALFORMED: they begin
+ * with a blank line, then bare YAML keys, terminated by a single lone `---` (NO opening `---`).
+ * gray-matter requires the doc to START with `---`, so it returns `{ data: {} }` for these and
+ * loses the title. This parser recovers both shapes, plus an H1 fallback for the few stubs that
+ * carry their title only as a leading `# Heading` (no YAML title at all). Returns { data, content }.
+ */
+export function tolerantFrontmatter(raw) {
+  const s = String(raw).replace(/^﻿/, '');
+
+  // 1. Standard frontmatter — split on `---`…`---`, then parse the YAML leniently. We do NOT use
+  // gray-matter here: some legacy files have DUPLICATE mapping keys (e.g. `status:` twice), which
+  // js-yaml's strict load (gray-matter's default) throws on. `{ json: true }` is lenient (last wins).
+  const std = s.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
+  if (std) {
+    const data = loadYamlLenient(std[1]);
+    if (data) return ensureTitle(data, std[2]);
+    return ensureTitle({}, s);
+  }
+
+  // 2. Legacy: optional leading blank line(s), YAML keys, then a lone `---`, then the body.
+  const stripped = s.replace(/^(?:\s*\r?\n)+/, '');
+  const m = stripped.match(/^([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
+  if (m && /^[A-Za-z0-9_-]+\s*:/.test(stripped)) {
+    const data = loadYamlLenient(m[1]);
+    if (data) return ensureTitle(data, m[2]);
+  }
+
+  // 3. No parseable frontmatter — keep the whole thing as body, recover an H1 title if present.
+  return ensureTitle({}, s);
+}
+
+/** Parse a YAML mapping leniently (tolerates duplicate keys — last wins). Returns object or null. */
+function loadYamlLenient(src) {
+  try {
+    const data = yaml.load(src, { json: true });
+    return data && typeof data === 'object' && !Array.isArray(data) ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+/** If `data` has no `title`, recover one from the body's first `# H1` heading (honest fallback). */
+function ensureTitle(data, content) {
+  if (!data.title) {
+    const h1 = String(content).match(/^\s*#\s+(.+?)\s*$/m);
+    if (h1) data = { ...data, title: h1[1].trim() };
+  }
+  return { data, content };
+}
+
+/**
+ * Build a VALID encyclopedia-entry from a SALVAGED legacy/other-branch article.
+ * Same shape as `articleToEntry`, but with salvage provenance and NEVER promoted:
+ *   maturity=draft, public_use=source-linked-unreviewed, ai_assisted=true (old AI pipeline),
+ *   salvaged_from + source_lineage = the legacy path. `legacy_status` carries the pipeline's
+ *   own `status` (e.g. `not-started`) so a human triage pass can see the stub/published split.
+ */
+export function articleToSalvagedEntry(a) {
+  const { slug, title, description, frontmatter = {}, body = '', source } = a;
+  const entry = {
+    id: slug,
+    title: title || slug,
+    type: 'encyclopedia-entry',
+    page_type: inferPageType(title || slug, body),
+    maturity: DEFAULT_MATURITY,            // draft — never `reviewed` (HUMAN_REVIEWED is empty)
+    public_use: DEFAULT_PUBLIC_USE,        // source-linked-unreviewed
+    ai_assisted: true,
+    source_lineage: source,
+    salvaged_from: source,                 // explicit salvage provenance (open-model extra field)
+  };
+  if (description) entry.summary = description;
+  const rel = relatedConcepts(frontmatter);
+  if (rel) entry.related_concepts = rel;
+  // Carry the pipeline's own status into notes so the stub/published split is visible (honest).
+  const legacyStatus = frontmatter.status ? String(frontmatter.status) : undefined;
+  if (legacyStatus) entry.notes = `legacy pipeline status: ${legacyStatus}`;
+  return entry;
+}
+
+/**
+ * Build a VALID `resource` object from a SALVAGED research dump (a deep-research markdown report).
+ * Kept RAW — these are unreviewed research artifacts, never auto-promoted:
+ *   maturity=raw, public_use=raw-lead, resource_type=research-dump, salvaged_from + source_lineage.
+ */
+export function researchDumpToResource(d) {
+  const { slug, title, body = '', source } = d;
+  const res = {
+    id: slug,
+    title: title || slug,
+    type: 'resource',
+    resource_type: 'research-dump',
+    maturity: 'raw',
+    public_use: 'raw-lead',
+    ai_assisted: true,
+    source_lineage: source,
+    salvaged_from: source,
+    original_source: source,
+  };
+  // First non-empty prose line → a one-line summary (honest, not fabricated).
+  const firstLine = String(body)
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .find((l) => l && !l.startsWith('#') && !l.startsWith('---'));
+  if (firstLine) res.notes = firstLine.replace(/[*_`]/g, '').slice(0, 280);
+  return res;
+}
+
+/** Recursively collect every `*.md` file under `dir` (absolute paths). */
+function walkMarkdown(dir) {
+  if (!existsSync(dir)) return [];
+  const out = [];
+  for (const name of readdirSync(dir)) {
+    const p = join(dir, name);
+    const st = statSync(p);
+    if (st.isDirectory()) out.push(...walkMarkdown(p));
+    else if (name.endsWith('.md')) out.push(p);
+  }
+  return out;
+}
+
+/**
+ * Enumerate the SALVAGE survivor articles from the legacy `content/` tree.
+ *
+ * Scope (per Task 5): only markdown under content/{1-foundations,2-applied,3-playbooks}, EXCLUDING
+ *   - any `working/` subdir (pipeline intermediates: research/factcheck/critique/review), and
+ *   - `content/archive-pipeline-v1/` (a nested archive — superseded by definition; not under our dirs).
+ * Dedup: a candidate is a SURVIVOR iff its leaf slug ∉ `liveSlugs` (the 119 live articles).
+ * When a survivor leaf slug appears in >1 path, the FIRST in sorted order wins (deterministic);
+ * the discarded duplicate paths are returned on the survivor as `dupPaths` for the report.
+ *
+ * Returns the survivor objects { slug, title, description, body, frontmatter, source, dupPaths }.
+ */
+export function readSalvageCandidates(liveSlugs, contentDir = CONTENT_DIR) {
+  const files = SALVAGE_SUBDIRS
+    .flatMap((sub) => walkMarkdown(join(contentDir, sub)))
+    .filter((p) => !/\/working\//.test(p))
+    .sort();
+
+  const bySlug = new Map();
+  for (const abs of files) {
+    const slug = abs.split('/').pop().replace(/\.md$/, '');
+    if (liveSlugs.has(slug)) continue;                 // superseded → dropped (recorded by caller)
+    const source = relative(REPO_ROOT, abs);
+    if (!bySlug.has(slug)) {
+      const { data, content } = tolerantFrontmatter(readFileSync(abs, 'utf8'));
+      bySlug.set(slug, {
+        slug,
+        title: data.title ? String(data.title) : slug,
+        description: data.description ? String(data.description) : undefined,
+        body: content,
+        frontmatter: data,
+        source,
+        dupPaths: [],
+      });
+    } else {
+      bySlug.get(slug).dupPaths.push(source);          // deterministic: first sorted path wins
+    }
+  }
+  return [...bySlug.values()];
+}
+
+/** The 119 live slugs (the canonical superseded set) — leaf names of src/content/docs/*.md. */
+export function liveSlugs(docsDir = DOCS_DIR) {
+  return new Set(
+    readdirSync(docsDir).filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, '')),
+  );
+}
+
+// Test affordance: lets a test reuse the REAL live slug set without re-globbing in the test file.
+readSalvageCandidates.__liveSlugsForTest = () => [...liveSlugs()];
+
+/** Read each refidao research dump from the read-only archive tag via `git show`. */
+export function readResearchDumps(ref = RESEARCH_ARCHIVE_REF, paths = RESEARCH_DUMP_PATHS) {
+  return paths.map((p) => {
+    const raw = execSync(`git show ${ref}:${p}`, { cwd: REPO_ROOT, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 });
+    const { data, content } = tolerantFrontmatter(raw);
+    const slug = p.split('/').pop().replace(/\.md$/, '');
+    return {
+      slug,
+      title: data.title ? String(data.title) : slug,
+      body: content,
+      source: `${ref}:${p}`,
+    };
+  });
+}
+
 // --- main --------------------------------------------------------------------
 
 /** Read + parse every article into { slug, title, description, body, frontmatter }. */
@@ -260,6 +474,86 @@ export function readArticles(docsDir = DOCS_DIR) {
         frontmatter: data,
       };
     });
+}
+
+/**
+ * Task 5 harvest pass — salvage non-superseded legacy + other-branch content into SEPARATE files
+ * (data/encyclopedia-salvaged.yaml, data/resources-salvaged.yaml), leaving the canonical
+ * data/encyclopedia.yaml / data/resources.yaml / data/concepts.yaml / data/tracks.yaml untouched
+ * (preserves Task 3's byte-identical invariant; idempotent — never clobbered by the canonical pass).
+ * Validates every emitted object via the framework API and REFUSES to write on any failure.
+ */
+export function harvest() {
+  const live = liveSlugs();
+  const survivors = readSalvageCandidates(live);
+  const salvagedEntries = survivors.map(articleToSalvagedEntry);
+
+  const dumps = readResearchDumps();
+  const salvagedResources = dumps.map(researchDumpToResource);
+
+  // Validate EVERYTHING before writing. Refuse on any invalid object (same gate as main()).
+  const failures = [];
+  for (const e of salvagedEntries) {
+    const { valid, errors } = validateObject('encyclopedia-entry', e);
+    if (!valid) failures.push(`salvaged encyclopedia-entry ${e.id}: ${errors.join('; ')}`);
+  }
+  for (const r of salvagedResources) {
+    const { valid, errors } = validateObject('resource', r);
+    if (!valid) failures.push(`salvaged resource ${r.id}: ${errors.join('; ')}`);
+  }
+  if (failures.length) {
+    console.error(`✖ ${failures.length} salvaged object(s) failed framework validation — refusing to write:`);
+    for (const f of failures) console.error(`  - ${f}`);
+    process.exitCode = 1;
+    return { ok: false, failures };
+  }
+
+  const dumpOpts = { lineWidth: 200, quotingType: '"', forceQuotes: false, sortKeys: false };
+
+  const encSalvagedDoc = {
+    schema_version: '0.1.0',
+    generated_from: 'content/{1-foundations,2-applied,3-playbooks}/**.md (legacy pipeline, working-tree)',
+    generated_at: SALVAGE_GENERATED_AT,
+    generator: 'scripts/process-content.mjs (harvest)',
+    honest_state_note:
+      'SALVAGED legacy/other-branch articles NOT superseded by the 119 live articles (dedup by leaf ' +
+      'slug). These are old AI-pipeline drafts — most are `not-started` stubs. maturity=draft, ' +
+      'public_use=source-linked-unreviewed, ai_assisted=true; NEVER reviewed. Separate file so the ' +
+      'canonical data/encyclopedia.yaml (119=119, byte-identical) is preserved. Human triage needed ' +
+      '(see notes: legacy pipeline status). See docs/reports/2026-06-17-content-through-framework-report.md.',
+    entries: salvagedEntries,
+  };
+
+  const resSalvagedDoc = {
+    schema_version: '0.1.0',
+    generated_from: `${RESEARCH_ARCHIVE_REF}:research/*.md (read-only archive tag)`,
+    generated_at: SALVAGE_GENERATED_AT,
+    generator: 'scripts/process-content.mjs (harvest)',
+    honest_state_note:
+      'SALVAGED deep-research dumps from the refidao archive branch. Kept RAW — unreviewed research ' +
+      'artifacts. maturity=raw, public_use=raw-lead, ai_assisted=true; NEVER auto-promoted. Separate ' +
+      'file so the canonical data/resources.yaml (V3 lift) is preserved.',
+    resources: salvagedResources,
+  };
+
+  writeFileSync(ENCYCLOPEDIA_SALVAGED_OUT, yaml.dump(encSalvagedDoc, dumpOpts));
+  writeFileSync(RESOURCES_SALVAGED_OUT, yaml.dump(resSalvagedDoc, dumpOpts));
+
+  // Report.
+  const dupCount = survivors.reduce((n, s) => n + s.dupPaths.length, 0);
+  const statusDist = survivors.reduce((acc, s) => {
+    const st = s.frontmatter?.status ? String(s.frontmatter.status) : 'none';
+    acc[st] = (acc[st] || 0) + 1;
+    return acc;
+  }, {});
+  console.log(`✓ ${salvagedEntries.length} salvaged encyclopedia entries → ${ENCYCLOPEDIA_SALVAGED_OUT}`);
+  console.log(`    (deduped ${dupCount} duplicate-path survivor(s); all maturity=draft, ai_assisted=true)`);
+  console.log('    legacy status distribution:');
+  for (const [k, v] of Object.entries(statusDist).sort((x, y) => y[1] - x[1])) {
+    console.log(`      ${String(v).padStart(4)} — ${k}`);
+  }
+  console.log(`✓ ${salvagedResources.length} salvaged research dumps → ${RESOURCES_SALVAGED_OUT} (all maturity=raw)`);
+  return { ok: true, salvagedEntries, salvagedResources, survivors, statusDist };
 }
 
 export function main() {
@@ -333,7 +627,12 @@ export function main() {
   for (const t of tracks) {
     console.log(`    ${t.id}: "${t.title}" — ${t.concepts.length} concepts, maturity=${t.maturity}`);
   }
-  return { ok: true, entries, concepts, tracks, dist };
+
+  // Task 5 — salvage pass (separate files; canonical outputs above are untouched).
+  const salvage = harvest();
+  if (!salvage.ok) return salvage;
+
+  return { ok: true, entries, concepts, tracks, dist, salvage };
 }
 
 // Guard: only run when invoked directly (so the test can import functions side-effect-free).
