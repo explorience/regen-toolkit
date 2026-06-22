@@ -39,9 +39,11 @@ try {
   schemas = fw.listSchemas();
   kernel = fw.validateKernel();
 } catch (err) {
-  // Fail loud: a broken manifest is better caught here than shipped silently.
+  // Fail closed: exit BEFORE writing. A transient framework breakage (e.g. the
+  // package mid-edit) must not clobber the committed manifest with an empty one;
+  // the non-zero exit halts the prebuild so the build fails loudly instead.
   console.error('[gen-framework-manifest] failed to load framework API:', err.message);
-  process.exitCode = 1;
+  process.exit(1);
 }
 
 // No generatedAt timestamp: the manifest must be deterministic so a rebuild

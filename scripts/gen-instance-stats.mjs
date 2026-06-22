@@ -94,7 +94,11 @@ const stats = {
     otherDraft: salvStatus.draft + salvStatus.other, // the rest (draft/none)
     resourceDumps: (resSalv.resources ?? []).length, // 4
   },
-  // V3 resource lift — rows held for review, not lifted (from the report).
+  // V3 resource lift — rows HELD for review, not lifted. This is a frozen Task-2
+  // figure: held rows stay in the source CSV (not in any data/*.yaml), so it can't
+  // be recomputed from the registries here. Source of truth: the report's "Held
+  // (not lifted — review-queue rows)" table (docs/reports/2026-06-17-content-
+  // through-framework-report.md, Task 2). Bump this if the lift is re-run.
   resourcesHeldForReview: 698,
   // Honest state of everything above.
   reviewState: 'draft', // AI-pipeline / lifted — NOT human-reviewed
