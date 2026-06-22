@@ -420,3 +420,40 @@ Processor tests **38/38** pass (32 prior + 6 new); framework package tests **38/
 #### Honest-state attestation
 
 **Raw was never promoted** (resources + source-systems stay `raw`/`raw-lead`; 0 reviewed overclaims). **AI-drafts were never marked `reviewed`** (0 of 263 encyclopedia entries claim `reviewed`; `HUMAN_REVIEWED` allowlist empty). **High-risk financial/security topics are now bounded** (34 entries carry a `public-with-caveat` `public_use_boundary` flagging them for human review before relied upon). The review **flags, it does not certify** — escalate to a human (and, for CSIS constructs, a CSIS-literate reviewer) before any of this content is treated as reviewed.
+
+---
+
+## Phase 3 — Site (Tasks 7–9 — the framework + instance pages)
+
+Two sibling "About the system" pages surface the framework/instance split on the live front door, on the `regen-toolkit-os` dev branch (the live deploy stays Heenal's `main`; nothing here touches `main`, the live deploy, or the `site:` URL).
+
+### The two pages
+
+- **`/framework/`** (`src/pages/framework.astro`, Task 7) — the reusable core: the small semantic kernel, the layer schemas, the agentic skills, and how to fork it. Reads its data live from the framework package at build time.
+- **`/regen-toolkit-os/`** (`src/pages/regen-toolkit-os.astro`, Task 8 — this work) — **this instance**: the org-os coordination overlay wrapped around the toolkit's work, *and* the first concrete instance of the framework (ReFi web3), dogfooded on its own reference content. Sections: what the instance is (overlay + instance #1); the populated registries; what's held separately for review; how it operates (the `/initialize`–`/close` loop, the ten layers, federation via RegenOS); and a cross-link pair. The two pages are mutually linked (framework's adopt CTA → instance; instance hero + cross-link section → framework).
+
+### Stats shown on the instance page (the EXACT figures — honest-state)
+
+Rendered at build time from the populated `data/*.yaml`:
+
+- **Canonical framework-typed counts (the headline):** 1,616 resources · 89 source systems · 119 encyclopedia entries · 8 concept lineages · 3 tracks. Every one labelled **draft** (AI-pipeline / lifted, not human-reviewed).
+- **CSIS high-risk pass:** 34 `public_use_boundary` markers (15 canonical + 19 salvaged) — flags for review, does not certify.
+- **Held separately (never summed into the headline):** 144 salvaged legacy drafts — **27 with real published content, 112 unfinished `not-started` stubs** (rest partial draft) — plus 4 salvaged research dumps and 698 V3 resource rows held for review.
+- **Honesty guard:** the page never presents a combined "263 articles" figure (verified absent in the built HTML); the salvaged set is always shown apart from the canonical counts.
+
+### Manifest / stats-generator approach
+
+Astro pages can't import `data/*.yaml` directly — Vite rewrites the page into the build output and breaks fs-relative reads (the same reason Task 7 snapshots the framework). So instance stats follow the proven pattern: `scripts/gen-instance-stats.mjs` reads the registries in plain Node (js-yaml) and writes a **deterministic** `src/data/instance-stats.json` (no timestamp), which the page imports. It's wired into the npm `prebuild` step, chained after `gen-framework-manifest.mjs`. Both generated JSON files are byte-identical across reruns (md5-verified) — a rebuild does not churn them. The generator fails closed (non-zero exit) if a registry can't be read, so an under-count can't ship silently.
+
+### Sidebar + homepage
+
+- `astro.config.mjs`: appended `{ label: 'This instance', link: '/regen-toolkit-os/' }` to the existing "About the system" sidebar group (now Framework · This instance).
+- `src/pages/index.astro`: a slim secondary "What is this, underneath?" strip below the knowledge-map callout links to both pages — Heenal's three journeys stay primary (this is a one-row band, not a hero change).
+
+### `site:` decision (Task 9.2)
+
+**Left unchanged** at `https://regen-toolkit-site.vercel.app`. This branch is the framework-aware fork for review; the live deploy stays Heenal's. Changing `site:` is deferred to whoever owns the eventual deploy target for this fork — flagged here, not decided unilaterally.
+
+### Build
+
+`npm run build` succeeds — **126 pages** (125 → 126; the only new page vs the framework-page state is `/regen-toolkit-os/`). `dist/regen-toolkit-os/index.html` and `dist/framework/index.html` both present; the homepage strip and both cross-link directions render in the built HTML.

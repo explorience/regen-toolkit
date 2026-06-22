@@ -37,7 +37,7 @@ export default defineConfig({
       ],
       sidebar: [
         { label: 'Start here', items: [{ label: 'All journeys', link: '/' }, { label: 'Knowledge map', link: '/explorer/' }] },
-        { label: 'About the system', items: [{ label: 'The framework', link: '/framework/' }] },
+        { label: 'About the system', items: [{ label: 'The framework', link: '/framework/' }, { label: 'This instance', link: '/regen-toolkit-os/' }] },
         ...journeySidebar,
       ],
       pagination: true,

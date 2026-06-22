@@ -90,6 +90,20 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
     </div>
   </section>
 
+  <!-- ========================= SYSTEM STRIP ========================= -->
+  <section class="sysrow">
+    <div class="wrap sysrow__inner">
+      <p class="sysrow__lead">
+        <span class="sysrow__eye">What is this, underneath?</span>
+        This site runs on a small, reusable framework — and is its first instance.
+      </p>
+      <div class="sysrow__links">
+        <a class="sysrow__link" href="/framework/">The framework <span class="arrow">→</span></a>
+        <a class="sysrow__link" href="/regen-toolkit-os/">This instance <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
   <!-- =========================== MANIFESTO =========================== -->
   <section class="manifesto">
     <div class="wrap manifesto__grid">
@@ -256,6 +270,19 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
   .plate:hover .plate__go .arrow { transform: translateX(4px); }
 
   @media (max-width: 880px) { .plates { grid-template-columns: 1fr; } .plate { border-left: none; border-top: 1px solid var(--line); } .plate:first-child { border-top: none; } }
+
+  /* system strip — slim secondary band exposing the framework/instance split */
+  .sysrow { padding-block: clamp(18px, 3vw, 30px); }
+  .sysrow__inner { display: flex; align-items: center; justify-content: space-between; gap: 18px 28px; flex-wrap: wrap;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding-block: clamp(16px, 2.5vw, 22px); }
+  .sysrow__lead { color: var(--ink-soft); font-size: .98rem; max-width: 52ch; }
+  .sysrow__eye { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .12em; font-size: .7rem; color: var(--moss-soft); display: block; margin-bottom: .3em; }
+  .sysrow__links { display: flex; gap: 10px clamp(18px, 3vw, 30px); flex-wrap: wrap; }
+  .sysrow__link { font-family: var(--font-ui); font-weight: 600; color: var(--moss); white-space: nowrap; transition: color .2s; }
+  .sysrow__link:hover { color: var(--moss-deep); }
+  :root[data-theme="dark"] .sysrow__link { color: var(--growth); }
+  .sysrow__link .arrow { transition: transform .25s var(--ease); display: inline-block; }
+  .sysrow__link:hover .arrow { transform: translateX(4px); }
 
   /* manifesto, always a dark moss band with fixed light text (theme-independent) */
   .manifesto { --mf: #F3EDDF; background: #16291b; color: var(--mf); padding-block: clamp(48px, 8vw, 96px); position: relative; border-block: 1px solid #20371f; }

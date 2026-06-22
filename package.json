@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "astro dev",
     "gen:framework-manifest": "node scripts/gen-framework-manifest.mjs",
-    "prebuild": "node scripts/gen-framework-manifest.mjs",
+    "gen:instance-stats": "node scripts/gen-instance-stats.mjs",
+    "prebuild": "node scripts/gen-framework-manifest.mjs && node scripts/gen-instance-stats.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "initialize": "node scripts/initialize.mjs",

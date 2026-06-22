@@ -1,0 +1,23 @@
+{
+  "canonical": {
+    "encyclopediaEntries": 119,
+    "concepts": 8,
+    "tracks": 3,
+    "resources": 1616,
+    "sourceSystems": 89
+  },
+  "publicUseBoundaries": {
+    "canonical": 15,
+    "salvaged": 19,
+    "total": 34
+  },
+  "salvaged": {
+    "encyclopediaDrafts": 144,
+    "withRealContent": 27,
+    "unfinishedStubs": 112,
+    "otherDraft": 5,
+    "resourceDumps": 4
+  },
+  "resourcesHeldForReview": 698,
+  "reviewState": "draft"
+}

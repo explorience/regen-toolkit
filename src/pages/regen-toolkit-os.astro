@@ -1,0 +1,305 @@
+---
+import Page from "../layouts/Page.astro";
+// Instance stats are snapshotted at build time by scripts/gen-instance-stats.mjs
+// (an npm "prebuild" step) which reads the populated data/*.yaml registries in
+// plain Node — where fs reads work — and writes this JSON. The page imports the
+// snapshot rather than the YAML directly, because Vite's fs-relative reads break
+// in the build output (same reason framework.astro imports a manifest).
+import stats from "../data/instance-stats.json";
+
+const c = stats.canonical;
+const salv = stats.salvaged;
+const bound = stats.publicUseBoundaries;
+
+// The five canonical, framework-typed registry counts — the honest headline.
+// Salvaged + held-for-review figures are kept SEPARATE below (never summed in).
+const registries = [
+  [c.resources.toLocaleString("en-US"), "resources", "Things worth pointing to — tools, repos, orgs, people, papers — lifted from the V3 database."],
+  [c.sourceSystems, "source systems", "The places those resources come from, treated as peers with a path to contribute back."],
+  [c.encyclopediaEntries, "encyclopedia entries", "Reference articles, framework-typed from the live v1 site."],
+  [c.concepts, "concept lineages", "Shared vocabulary, kept conservative — extracted, not invented."],
+  [c.tracks, "tracks", "Guided paths, derived from Heenal's three journeys."],
+];
+
+// The /initialize–/close session loop, plainly.
+const loop = [
+  ["/initialize", "Opens a session: syncs git, renders the dashboard (layers, tasks, calendar, federation), loads the master doc as canonical."],
+  ["Work", "Process meetings, update registries, route TODOs to the backlog, draft against the master doc — each change tagged to a layer."],
+  ["/close", "Writes the daily memory log, updates HEARTBEAT, commits, and pushes. Nothing leaves the session unrecorded."],
+];
+---
+
+<Page
+  title="This instance · Regen Web3 Toolkit"
+  description="The org-os coordination overlay wrapped around this toolkit — and the first concrete instance of the framework, with its registries populated by running the site's own content through it."
+>
+  <!-- ============================== HERO ============================== -->
+  <section class="in-hero">
+    <div class="wrap in-hero__inner">
+      <p class="eyebrow reveal" data-d="1">About the system</p>
+      <h1 class="in-hero__title reveal" data-d="2">
+        This instance,<br />running the framework.
+      </h1>
+      <p class="in-hero__lede reveal" data-d="3">
+        Two things live in this one repository: the public knowledge site you're reading, and a
+        coordination overlay — <strong>org-os</strong> — that the team works in to develop it. It's
+        also the first real instance of <a href="/framework/">the framework</a>: the same toolkit,
+        dogfooded on its own content. The registries below were filled by running this site's
+        articles, journeys, and resource lists <em>through</em> the framework.
+      </p>
+      <div class="in-hero__meta reveal" data-d="4">
+        <span class="chip chip--clay">First instance · ReFi Web3</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>org-os overlay</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>federated</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>drafts, not verdicts</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ WHAT IT IS ========================== -->
+  <section class="in-what">
+    <div class="wrap in-what__grid">
+      <div class="in-what__lead">
+        <p class="eyebrow">What this instance is</p>
+        <h2 class="in-h2">A coordination overlay, and proof the framework runs.</h2>
+        <p>
+          The overlay is plain structure: a fixed place for meetings, decisions, memory and tasks,
+          plus a session loop the team and its agents both follow. It wraps the toolkit's work
+          without changing how the site is built — the site still ships on its own.
+        </p>
+        <p>
+          And because the framework's job is to give a knowledge commons a shared shape, the honest
+          test is to point it at this commons. So we did: the articles, journeys and resource lists
+          here were processed into the framework's layers. What you see in the counts is that run —
+          not a hand-kept tally.
+        </p>
+      </div>
+      <ul class="in-what__points">
+        <li>
+          <span class="in-ic" aria-hidden="true">◇</span>
+          <div><strong>The overlay, not the site.</strong> Coordination lives in root docs, <code>data/</code> registries, and <code>packages/operations/</code>. The site in <code>src/</code> stays untouched and keeps shipping.</div>
+        </li>
+        <li>
+          <span class="in-ic" aria-hidden="true">⟲</span>
+          <div><strong>The framework, in use.</strong> This is instance #1 (ReFi web3). The same kernel and layers any group would fork, exercised on real content first.</div>
+        </li>
+        <li>
+          <span class="in-ic" aria-hidden="true">◐</span>
+          <div><strong>Drafts, said plainly.</strong> The populated registries are AI-pipeline drafts and lifted leads — processed, not human-reviewed. They're a starting surface, not a verdict.</div>
+        </li>
+        <li>
+          <span class="in-ic" aria-hidden="true">↺</span>
+          <div><strong>Federated as a peer.</strong> It syncs with sibling org-os instances through RegenOS — adjacent nodes are peers to coordinate with, not pools to draw down.</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== POPULATED REGISTRIES ====================== -->
+  <section class="in-reg">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">The populated registries</p>
+        <h2 class="in-h2">What came out of running the content through.</h2>
+        <p class="in-sec-sub">
+          These are the framework-typed counts, read from <code>data/*.yaml</code> when this page is
+          built. Every one of them is <strong>draft</strong> state: this content was processed, not
+          reviewed by a person. Read them as "here's what exists to look at", not "here's what's
+          settled".
+        </p>
+      </header>
+
+      <ul class="in-stat-grid">
+        {registries.map(([n, label, desc]) => (
+          <li class="in-stat">
+            <span class="in-stat__n">{n}</span>
+            <span class="in-stat__label">{label}</span>
+            <span class="in-stat__desc">{desc}</span>
+          </li>
+        ))}
+      </ul>
+
+      <p class="in-reg__caption">
+        Generated at build from the instance's <code>data/</code> registries. State:
+        <strong>draft</strong> throughout — nothing here is marked reviewed.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== HONEST CAVEATS / HELD =================== -->
+  <section class="in-held">
+    <div class="wrap in-held__grid">
+      <div class="in-held__card">
+        <p class="eyebrow">Held separately for review</p>
+        <h3 class="in-held__h">{salv.encyclopediaDrafts} legacy drafts, not folded in.</h3>
+        <p>
+          Salvaged from older branches and kept apart from the canonical set on purpose — only
+          <strong>{salv.withRealContent}</strong> have real published content; <strong>{salv.unfinishedStubs}</strong>
+          are unfinished <code>not-started</code> stubs (the rest are partial drafts). They are
+          <em>not</em> counted as articles. A further <strong>{salv.resourceDumps}</strong> raw research
+          dumps and <strong>{stats.resourcesHeldForReview}</strong> resource rows are also held back,
+          awaiting human review before anything is promoted.
+        </p>
+      </div>
+      <div class="in-held__card">
+        <p class="eyebrow">Flagged for human review</p>
+        <h3 class="in-held__h">{bound.total} high-risk entries, marked with a boundary.</h3>
+        <p>
+          A structural-integrity pass tagged every entry whose error could cost someone real money
+          or security — wallets, seed phrases, custody, treasuries, tax — with a
+          <code>public-use-boundary</code> ({bound.canonical} canonical + {bound.salvaged} salvaged).
+          The boundary <strong>flags for review; it doesn't certify</strong>. Treat these as drafts
+          that need a human (and, for risk content, a literate reviewer) before anyone relies on them.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================== HOW IT OPERATES ===================== -->
+  <section class="in-ops">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">How it operates</p>
+        <h2 class="in-h2">A session loop, ten layers, and peers.</h2>
+        <p class="in-sec-sub">
+          Day to day, work runs through a simple open–work–close loop. Every change maps to one of
+          the framework's ten layers, and the instance coordinates with its peers over the network.
+        </p>
+      </header>
+
+      <ol class="in-loop">
+        {loop.map(([step, desc], i) => (
+          <li class="in-loop__item">
+            <span class="in-loop__num">{String(i + 1).padStart(2, "0")}</span>
+            <div>
+              <h3 class="in-loop__step"><code>{step}</code></h3>
+              <p class="in-loop__desc">{desc}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      <div class="in-ops__notes">
+        <div>
+          <h4 class="in-ops__h">Mapped to the layers</h4>
+          <p>
+            Every change is tagged to one of the framework's ten layers — Resources, Source systems,
+            Concepts, Options, Tracks, Deployments, Implementation, Claims, Evolution, Encyclopedia.
+            The counts above are those layers, filled. See <a href="/framework/">the framework</a> for
+            what each one holds.
+          </p>
+        </div>
+        <div>
+          <h4 class="in-ops__h">Federated via RegenOS</h4>
+          <p>
+            This instance is a node in the Regen Coordination network. It syncs with sibling org-os
+            instances as peers — sharing patterns and resources back with attribution, rather than
+            treating adjacent commons as link pools to drain.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ CROSS-LINK ======================== -->
+  <section class="in-cross">
+    <div class="wrap in-cross__inner">
+      <p class="eyebrow">The pair</p>
+      <h2 class="in-h2">The reusable core is documented separately.</h2>
+      <p class="in-cross__lede">
+        This page is the instance — the framework <em>in use</em>, on real content. If you want the
+        reusable core itself — the kernel, the layer schemas, the skills, and how to fork it for your
+        own commons — that's the framework page.
+      </p>
+      <div class="in-cross__cta">
+        <a class="btn btn--ghost" href="/framework/">This instance runs the framework <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href="https://github.com/explorience/regen-toolkit">Read the repo on GitHub <span class="arrow">→</span></a>
+      </div>
+      <p class="in-cross__honest">
+        Honest status: the overlay is real and in daily use, but the registries you see are
+        <strong>draft</strong> — content processed through the framework, not yet human-reviewed.
+        They're a surface to read and improve, not a finished record.
+      </p>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .in-h2 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); max-width: 22ch; line-height: 1.08; }
+  .in-sec-head { margin-bottom: clamp(24px, 4vw, 40px); max-width: 60ch; }
+  .in-sec-head .eyebrow { margin-bottom: .7em; }
+  .in-sec-sub { color: var(--ink-soft); margin-top: .7em; font-size: 1.05rem; max-width: 60ch; }
+  .in-h2 code, .in-sec-sub code, .in-what__points code, .in-held__card code, .in-reg__caption code, .in-loop__step code { font-family: var(--font-mono); font-size: .9em; background: var(--paper-2); border: 1px solid var(--line); border-radius: 4px; padding: .1em .4em; }
+  .in-what__lead a, .in-ops__notes a, .in-hero__lede a { color: var(--moss); text-decoration: underline; text-underline-offset: 3px; }
+
+  /* hero */
+  .in-hero { position: relative; overflow: hidden; padding-block: clamp(48px, 9vw, 104px) clamp(30px, 5vw, 60px); }
+  .in-hero__inner { max-width: 880px; }
+  .in-hero__title { font-size: clamp(2.4rem, 5.6vw, 4.4rem); font-weight: 600; letter-spacing: -.025em; margin: .18em 0 0; }
+  .in-hero__lede { font-size: clamp(1.08rem, 1.6vw, 1.28rem); color: var(--ink-soft); max-width: 60ch; margin-top: 1.1em; }
+  .in-hero__lede strong { color: var(--ink); font-weight: 600; }
+  .in-hero__meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 2em; font-family: var(--font-mono); font-size: .82rem; color: var(--ink-faint); }
+  .in-hero__metasep { width: 5px; height: 5px; border-radius: 50%; background: var(--line-strong); }
+
+  /* what it is */
+  .in-what { padding-block: clamp(40px, 7vw, 84px); }
+  .in-what__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(30px, 5vw, 64px); align-items: start; }
+  .in-what__lead p { color: var(--ink-soft); margin-top: 1em; max-width: 48ch; font-size: 1.05rem; }
+  .in-what__lead strong { color: var(--ink); font-weight: 600; }
+  .in-what__points { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+  .in-what__points li { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; padding: 18px 0; border-top: 1px solid var(--line); }
+  .in-what__points li:first-child { border-top: none; }
+  .in-what__points div { color: var(--ink-soft); }
+  .in-what__points strong { color: var(--ink); font-family: var(--font-display); font-weight: 560; font-size: 1.08rem; display: block; margin-bottom: .15em; }
+  .in-ic { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in oklab, var(--moss) 13%, transparent); color: var(--moss); font-size: 1.05rem; flex: none; }
+  :root[data-theme="dark"] .in-ic { color: var(--growth); }
+  @media (max-width: 820px) { .in-what__grid { grid-template-columns: 1fr; } }
+
+  /* populated registries */
+  .in-reg { padding-block: clamp(40px, 7vw, 84px); border-top: 1px solid var(--line); background: color-mix(in oklab, var(--paper-2) 50%, transparent); }
+  .in-stat-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: clamp(16px, 2.5vw, 26px); }
+  .in-stat { display: flex; flex-direction: column; padding: 22px 22px 24px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); }
+  .in-stat__n { font-family: var(--font-display); font-weight: 600; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1; color: var(--moss); letter-spacing: -.02em; }
+  :root[data-theme="dark"] .in-stat__n { color: var(--growth); }
+  .in-stat__label { font-family: var(--font-ui); font-weight: 560; font-size: 1.02rem; margin-top: .5em; color: var(--ink); }
+  .in-stat__desc { color: var(--ink-soft); font-size: .92rem; margin-top: .4em; }
+  .in-reg__caption { margin-top: 24px; color: var(--ink-faint); font-size: .92rem; max-width: 62ch; }
+  .in-reg__caption strong { color: var(--clay); }
+
+  /* held / caveats */
+  .in-held { padding-block: clamp(40px, 7vw, 84px); }
+  .in-held__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(20px, 3vw, 32px); }
+  .in-held__card { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(24px, 3vw, 34px); }
+  .in-held__card .eyebrow { color: var(--clay); margin-bottom: .7em; }
+  .in-held__h { font-family: var(--font-display); font-weight: 560; font-size: 1.3rem; line-height: 1.12; }
+  .in-held__card p { color: var(--ink-soft); margin-top: .7em; font-size: 1rem; }
+  .in-held__card strong { color: var(--ink); font-weight: 600; }
+  @media (max-width: 760px) { .in-held__grid { grid-template-columns: 1fr; } }
+
+  /* how it operates */
+  .in-ops { padding-block: clamp(40px, 7vw, 84px); border-top: 1px solid var(--line); background: color-mix(in oklab, var(--paper-2) 50%, transparent); }
+  .in-loop { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 clamp(24px, 4vw, 56px); }
+  .in-loop__item { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; padding: 18px 0; border-top: 1px solid var(--line); }
+  .in-loop__num { font-family: var(--font-mono); font-size: .82rem; color: var(--moss-soft); padding-top: .35em; }
+  .in-loop__step { font-family: var(--font-display); font-weight: 560; font-size: 1.1rem; }
+  .in-loop__desc { color: var(--ink-soft); font-size: .96rem; margin-top: .35em; }
+  @media (max-width: 760px) { .in-loop { grid-template-columns: 1fr; } }
+
+  .in-ops__notes { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 48px); margin-top: clamp(28px, 4vw, 44px); }
+  .in-ops__h { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; color: var(--moss-soft); margin-bottom: .8em; }
+  .in-ops__notes p { color: var(--ink-soft); font-size: 1rem; max-width: 50ch; }
+  @media (max-width: 760px) { .in-ops__notes { grid-template-columns: 1fr; } }
+
+  /* cross-link */
+  .in-cross { padding-block: clamp(44px, 7vw, 92px); border-top: 1px solid var(--line); }
+  .in-cross__inner { max-width: 720px; }
+  .in-cross .eyebrow { margin-bottom: .7em; }
+  .in-cross__lede { color: var(--ink-soft); margin-top: 1em; font-size: 1.08rem; max-width: 60ch; }
+  .in-cross__lede em { color: var(--ink); font-style: italic; }
+  .in-cross__cta { margin-top: 1.8em; display: flex; gap: 14px; flex-wrap: wrap; }
+  .in-cross__honest { margin-top: 2em; padding-top: 1.4em; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .98rem; max-width: 60ch; }
+  .in-cross__honest strong { color: var(--clay); }
+</style>
