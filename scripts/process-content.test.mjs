@@ -17,7 +17,10 @@ import {
   isConceptArticle,
   articleToConcept,
   HUMAN_REVIEWED,
+  journeyToTrack,
+  deriveTracks,
 } from './process-content.mjs';
+import { journeys } from '../src/data/journeys.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
 
@@ -165,6 +168,70 @@ test('articleToConcept produces a valid concept-lineage (framework validateObjec
   assert.equal(concept.source_lineage, 'src/content/docs/what-is-dao.md');
   // honest: do not fabricate traditions/distinctions.
   assert.ok(!concept.source_traditions || concept.source_traditions.length === 0);
+});
+
+// --- journeys → tracks (Task 4) ----------------------------------------------
+
+test('deriveTracks: the 3 journeys map to 3 track objects', () => {
+  const tracks = deriveTracks(journeys);
+  assert.equal(tracks.length, 3);
+  assert.deepEqual(
+    tracks.map((t) => t.id).sort(),
+    ['knowledge-commons', 'local-node', 'newcomer'],
+  );
+});
+
+test('deriveTracks: every derived track validates against schemas/track.yaml', () => {
+  for (const t of deriveTracks(journeys)) {
+    const { valid, errors } = validateObject('track', t);
+    assert.ok(valid, `track ${t.id} invalid: ${JSON.stringify(errors)}`);
+  }
+});
+
+test('journeyToTrack: required fields present — title, type=track, non-empty audience', () => {
+  const t = journeyToTrack(journeys.newcomer);
+  assert.equal(t.title, 'Newcomer Orientation');
+  assert.equal(t.type, 'track');
+  assert.equal(typeof t.audience, 'string');
+  assert.ok(t.audience.length > 0, 'audience must be a non-empty string');
+});
+
+test('journeyToTrack: outcome[] array is collapsed to a single string', () => {
+  const t = journeyToTrack(journeys.newcomer);
+  assert.equal(typeof t.outcome, 'string');
+  assert.ok(t.outcome.length > 0);
+  // each of the journey's outcome bullets must survive into the joined string.
+  for (const bullet of journeys.newcomer.outcome) {
+    assert.ok(t.outcome.includes(bullet), `outcome string missing bullet: ${bullet}`);
+  }
+});
+
+test('journeyToTrack: concepts = flattened, ordered step slugs across all chapters', () => {
+  const t = journeyToTrack(journeys.newcomer);
+  assert.ok(Array.isArray(t.concepts));
+  // newcomer has 16 steps across 4 chapters.
+  const expected = journeys.newcomer.chapters.flatMap((c) => c.steps.map((s) => s[0]));
+  assert.deepEqual(t.concepts, expected);
+  // spot-check a known slug is present and order is preserved.
+  assert.ok(t.concepts.includes('what-is-blockchain'));
+  assert.equal(t.concepts[0], 'why-regens-interested');
+});
+
+test('journeyToTrack: maturity is the valid axis value field-informed (Heenal v1, not auto-promoted to reviewed)', () => {
+  const t = journeyToTrack(journeys.newcomer);
+  assert.equal(t.maturity, 'field-informed');
+  assert.notEqual(t.maturity, 'reviewed');
+});
+
+test('journeyToTrack: traceability — id slug + source_lineage back to journeys.js', () => {
+  const t = journeyToTrack(journeys['knowledge-commons']);
+  assert.equal(t.id, 'knowledge-commons');
+  assert.equal(t.source_lineage, 'src/data/journeys.js#knowledge-commons');
+});
+
+test('journeyToTrack: options NOT fabricated — left empty (journeys carry no option ids)', () => {
+  const t = journeyToTrack(journeys.newcomer);
+  assert.deepEqual(t.options, []);
 });
 
 // sanity: the module under test lives where we expect.

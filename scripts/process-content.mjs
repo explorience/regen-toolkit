@@ -25,13 +25,27 @@ import matter from 'gray-matter';
 import yaml from 'js-yaml';
 
 import { validateObject } from '../packages/toolkit-framework/src/index.mjs';
+import { journeys } from '../src/data/journeys.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(here, '..');
 const DOCS_DIR = join(REPO_ROOT, 'src', 'content', 'docs');
+const JOURNEYS_SRC = join(REPO_ROOT, 'src', 'data', 'journeys.js');
 const ENCYCLOPEDIA_OUT = join(REPO_ROOT, 'data', 'encyclopedia.yaml');
 const CONCEPTS_OUT = join(REPO_ROOT, 'data', 'concepts.yaml');
+const TRACKS_OUT = join(REPO_ROOT, 'data', 'tracks.yaml');
 const GENERATED_AT = '2026-06-17';
+// Task 4 derives `data/tracks.yaml` from src/data/journeys.js; that pass was run 2026-06-23.
+const TRACKS_GENERATED_AT = '2026-06-23';
+
+// --- journeys → tracks (Task 4) honest-state -----------------------------------
+//
+// The 3 journeys in src/data/journeys.js are Heenal's curated, reviewed v1 pathways —
+// more mature than the AI-draft articles. On the K1 maturity axis (review-maturity.yaml)
+// the honest rung is `field-informed` ("informed by real implementation"): these are
+// hand-authored v1 journeys, NOT merely `reviewed` editorial copy and not auto-promoted.
+// `field-informed` is a valid maturity-axis value (verified) — no substitution needed.
+const TRACK_MATURITY = 'field-informed';
 
 // --- honest-state constants --------------------------------------------------
 
@@ -188,6 +202,46 @@ export function articleToConcept(a) {
   return concept;
 }
 
+// --- journey → track (Task 4) ------------------------------------------------
+
+/** Flatten a journey's chapters → the ordered list of step slugs (the entry ids). */
+function journeyStepSlugs(journey) {
+  return (journey.chapters || []).flatMap((c) => (c.steps || []).map((s) => s[0]));
+}
+
+/**
+ * Map a site journey (src/data/journeys.js) → a framework `track` object (Layer 7).
+ * This is the DERIVED framework view; journeys.js stays the site's source of truth
+ * (per Task 1, docs/reports/2026-06-17-content-through-framework-report.md).
+ *
+ * Honest-state: maturity = `field-informed` (Heenal's curated v1 journeys), NOT `reviewed`;
+ * `options` left empty (journeys carry no option ids — not fabricated); `outcome[]` collapsed
+ * to a single string (schema's `outcome` is a string, journey's is an array).
+ */
+export function journeyToTrack(journey) {
+  const track = {
+    id: journey.id,
+    title: journey.label,
+    type: 'track',
+    audience: String(journey.kicker || '').trim(),
+    outcome: (journey.outcome || []).map(String).join('; '),
+    concepts: journeyStepSlugs(journey),
+    options: [], // journeys don't carry option ids — do not fabricate.
+    maturity: TRACK_MATURITY,
+    ai_assisted: false, // hand-authored by Heenal (the v1 journeys are curated, not AI-drafted).
+    source_lineage: `src/data/journeys.js#${journey.id}`,
+  };
+  // starting_context ← intro (best semantic home per Task 1), falling back to tagline.
+  const startingContext = journey.intro || journey.tagline;
+  if (startingContext) track.starting_context = String(startingContext).trim();
+  return track;
+}
+
+/** Derive a `track` object from each journey in the journeys map (insertion order preserved). */
+export function deriveTracks(journeysMap = journeys) {
+  return Object.values(journeysMap).map(journeyToTrack);
+}
+
 // --- main --------------------------------------------------------------------
 
 /** Read + parse every article into { slug, title, description, body, frontmatter }. */
@@ -213,6 +267,7 @@ export function main() {
 
   const entries = articles.map(articleToEntry);
   const concepts = articles.filter((a) => isConceptArticle(a.slug, a.title)).map(articleToConcept);
+  const tracks = deriveTracks(journeys); // Task 4 — derived framework view of the site journeys.
 
   // Validate EVERYTHING through the framework before writing. Refuse on any invalid object.
   const failures = [];
@@ -223,6 +278,10 @@ export function main() {
   for (const c of concepts) {
     const { valid, errors } = validateObject('concept-lineage', c);
     if (!valid) failures.push(`concept-lineage ${c.id}: ${errors.join('; ')}`);
+  }
+  for (const t of tracks) {
+    const { valid, errors } = validateObject('track', t);
+    if (!valid) failures.push(`track ${t.id}: ${errors.join('; ')}`);
   }
   if (failures.length) {
     console.error(`✖ ${failures.length} object(s) failed framework validation — refusing to write:`);
@@ -242,9 +301,23 @@ export function main() {
     [kind]: list,
   });
 
+  // Tracks have a distinct source/date/honest-note (derived from journeys.js, not the articles).
+  const tracksDoc = {
+    schema_version: '0.1.0',
+    generated_from: 'src/data/journeys.js',
+    generated_at: TRACKS_GENERATED_AT,
+    generator: 'scripts/process-content.mjs',
+    honest_state_note:
+      "Derived from Heenal's curated v1 journeys (src/data/journeys.js). Tracks are the " +
+      'framework view; journeys.js stays the site source of truth. maturity=field-informed ' +
+      '(hand-authored v1, NOT auto-promoted to reviewed); options left empty (not fabricated).',
+    tracks,
+  };
+
   const dumpOpts = { lineWidth: 200, quotingType: '"', forceQuotes: false, sortKeys: false };
   writeFileSync(ENCYCLOPEDIA_OUT, yaml.dump(header('entries', entries, 'scripts/process-content.mjs'), dumpOpts));
   writeFileSync(CONCEPTS_OUT, yaml.dump(header('concepts', concepts, 'scripts/process-content.mjs'), dumpOpts));
+  writeFileSync(TRACKS_OUT, yaml.dump(tracksDoc, dumpOpts));
 
   // Report.
   const dist = entries.reduce((acc, e) => ((acc[e.page_type] = (acc[e.page_type] || 0) + 1), acc), {});
@@ -256,7 +329,11 @@ export function main() {
   }
   console.log(`  maturity: all "${DEFAULT_MATURITY}" (HUMAN_REVIEWED allowlist size: ${HUMAN_REVIEWED.size})`);
   console.log(`  public_use: all "${DEFAULT_PUBLIC_USE}", ai_assisted: true`);
-  return { ok: true, entries, concepts, dist };
+  console.log(`✓ ${tracks.length} tracks (from journeys.js) → ${TRACKS_OUT}`);
+  for (const t of tracks) {
+    console.log(`    ${t.id}: "${t.title}" — ${t.concepts.length} concepts, maturity=${t.maturity}`);
+  }
+  return { ok: true, entries, concepts, tracks, dist };
 }
 
 // Guard: only run when invoked directly (so the test can import functions side-effect-free).

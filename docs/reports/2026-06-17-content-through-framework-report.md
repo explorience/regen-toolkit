@@ -233,6 +233,60 @@ Every emitted object was validated **in a batch loop** via the framework API `va
 
 Baseline preserved: framework package tests 34/34 pass; Task 3 tests 16/16 pass.
 
+### Task 4 — Journeys → Tracks
+
+**Source:** `src/data/journeys.js` (the live site's 3 ordered journey definitions — Heenal's curated v1 pathways).
+**Processor:** `scripts/process-content.mjs`, extended with `journeyToTrack(journey)` + `deriveTracks(journeysMap)` (test-first; `scripts/process-content.test.mjs` grew 16 → 24 tests, all pass). The script imports `journeys` from `journeys.js` (a real ES module — read-only) and emits `data/tracks.yaml`. Every track is validated via the framework API before any write; the script **refuses to write** on any failure (same gate as entries/concepts).
+**Output:** `data/tracks.yaml` — 3 `track` objects (Layer 7). Source-of-truth decision from Task 1 stands: **`journeys.js` stays the site source of truth; `data/tracks.yaml` is the derived framework view** (the site is not made to read tracks.yaml).
+
+#### Journey → track reconciliation (no silent loss)
+
+| Bucket | Count | Destination |
+|---|---|---|
+| Journeys in `journeys.js` | 3 | — (source) |
+| → **Tracks** (one per journey) | **3** | `data/tracks.yaml` |
+| Journeys WITHOUT a track | 0 | — |
+| Tracks WITHOUT a source journey | 0 | — |
+
+Reconciliation: **3 journeys = 3 tracks**, one-to-one by `id`. Each track carries `source_lineage: src/data/journeys.js#<id>` — round-trippable provenance back to the journey.
+
+#### Field mapping applied
+
+| Site `journey` field | Framework `track` field | Transform |
+|---|---|---|
+| `id` | `id` (record key + traceability) | verbatim slug. |
+| `label` | `title` (required) | verbatim. |
+| — | `type` | constant `"track"`. |
+| `kicker` (the "If you're …" line) | `audience` (required) | trimmed string. Non-empty for all 3. |
+| `intro` (fallback `tagline`) | `starting_context` | trimmed prose. |
+| `outcome` (**array** of strings) | `outcome` (**string**) | **collapsed** — joined with `"; "`. Schema's `outcome` is a string; the journey's is an array, so it MUST be flattened. Every bullet survives into the joined string (asserted in tests). |
+| `chapters[].steps[][0]` (step slugs) | `concepts` (array) | **flattened, ordered** across all chapters. Chapter grouping is site-side only (Task 1 divergence) — not represented on the track. |
+| — | `options` | left `[]` — journeys carry no option ids; **not fabricated**. |
+| — | `maturity` | `field-informed` (see below). |
+| — | `ai_assisted` | `false` — these journeys are hand-authored by Heenal, not AI-drafted (unlike the article corpus). |
+| `emoji`, `tagline`, `minutes`, `href`, `badge`, chapter `label` | — | presentation-only; stay site-side (Task 1 divergences 1–2). |
+
+#### Maturity value chosen (no substitution)
+
+`maturity: field-informed` for all 3 tracks. **No substitution was needed** — `field-informed` ("informed by real implementation") is a valid value on the K1 maturity axis (`packages/toolkit-framework/schemas/review-maturity.yaml`, verified via `isValid('maturity','field-informed') === true`). It honestly reflects "Heenal's curated, reviewed v1 journeys": more mature than the AI-draft articles (`draft`), but not over-claimed as `reviewed` editorial copy. The tests assert `maturity === 'field-informed'` and `!== 'reviewed'`.
+
+#### Concepts count per track
+
+| Track | `id` | Concepts (step slugs) |
+|---|---|---|
+| Newcomer Orientation | `newcomer` | 16 |
+| Local Node Builder | `local-node` | 22 |
+| Knowledge Commons Builder | `knowledge-commons` | 14 |
+| **Total** | | **52** |
+
+(`newcomer`'s concepts include `what-is-blockchain`, ordered first as `why-regens-interested` — both asserted in tests.)
+
+#### Validation
+
+Each emitted track validated via the framework API `validateObject('track', t)` (required `[title, type, audience]`). Result: **3/3 tracks valid** (0 failures). The processor runs this same gate before writing `data/tracks.yaml` and exits non-zero on any invalid object.
+
+Baseline preserved: framework package tests 34/34 pass; processor tests 24/24 pass (16 prior + 8 new); `npm run build` builds (124 pages) — `journeys.js` was read-only, not modified. `data/encyclopedia.yaml` / `data/concepts.yaml` regenerate byte-identical (no drift).
+
 ---
 
 ## Review Summary

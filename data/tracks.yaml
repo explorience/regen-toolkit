@@ -1,0 +1,99 @@
+schema_version: 0.1.0
+generated_from: src/data/journeys.js
+generated_at: "2026-06-23"
+generator: scripts/process-content.mjs
+honest_state_note: >-
+  Derived from Heenal's curated v1 journeys (src/data/journeys.js). Tracks are the framework view; journeys.js stays the site source of truth. maturity=field-informed (hand-authored v1, NOT
+  auto-promoted to reviewed); options left empty (not fabricated).
+tracks:
+  - id: newcomer
+    title: Newcomer Orientation
+    type: track
+    audience: If you're new to all of this
+    outcome: Explain blockchain, wallets and ReFi to a friend without flinching; Set up a wallet and avoid the common scams; Know where you fit and take a confident first step
+    concepts:
+      - why-regens-interested
+      - what-web3-can-cant-do
+      - common-concerns
+      - what-is-decentralization
+      - what-is-blockchain
+      - what-is-cryptocurrency
+      - stablecoins
+      - how-to-get-crypto
+      - what-is-wallet
+      - setting-up-first-wallet
+      - seed-phrases
+      - common-scams
+      - what-is-dao
+      - what-is-refi
+      - refi-vs-defi-tradfi
+      - find-your-community
+    options: []
+    maturity: field-informed
+    ai_assisted: false
+    source_lineage: src/data/journeys.js#newcomer
+    starting_context: >-
+      A guided walk for anyone arriving in regenerative web3 with no crypto background. No jargon left undefined, no hype, no assumptions. We start with why this matters for real-world work, give you
+      the core ideas, get you set up safely, then point you at the regen world and how to find your people.
+  - id: local-node
+    title: Local Node Builder
+    type: track
+    audience: If you're starting something local
+    outcome: Decide whether a local node is right for your community; Stand up a minimum viable node and fund it sustainably; Grow a healthy community and show your impact
+    concepts:
+      - what-is-local-node
+      - local-node-model
+      - why-local-matters
+      - local-nodes-and-daos
+      - is-community-ready
+      - minimum-viable-node
+      - building-founding-team
+      - legal-structures
+      - first-90-days
+      - funding-your-node
+      - funding-landscape
+      - gitcoin-grants-qf
+      - giveth-donations
+      - writing-grant-proposals
+      - building-trust
+      - onboarding-members
+      - conflict-resolution
+      - common-pitfalls
+      - types-of-gatherings
+      - planning-web3-events
+      - funding-gatherings
+      - why-measurement-matters
+    options: []
+    maturity: field-informed
+    ai_assisted: false
+    source_lineage: src/data/journeys.js#local-node
+    starting_context: >-
+      A practical path for anyone forming a place-based regen group, a Greenpill chapter, a ReFi local node, a bioregional hub. It moves from “is our community ready?” through standing it up, funding
+      it, growing it, and showing real impact. Built from patterns that have actually worked, with the pitfalls marked.
+  - id: knowledge-commons
+    title: Knowledge Commons Builder
+    type: track
+    audience: If you're building shared knowledge
+    outcome: Structure knowledge so people and AI can actually use it; Use AI to help without letting it invent false coherence; Set up stewardship so the commons doesn't rot
+    concepts:
+      - what-is-knowledge-commons
+      - knowledge-gardens
+      - source-systems
+      - ontology-vs-taxonomy
+      - metadata-that-matters
+      - review-and-maturity
+      - ai-community-tools
+      - ai-assisted-classification
+      - human-review-boundaries
+      - knowledge-tools-directory
+      - editorial-workflow
+      - archive-compost
+      - stewardship-roles
+      - federation-portability
+    options: []
+    maturity: field-informed
+    ai_assisted: false
+    source_lineage: src/data/journeys.js#knowledge-commons
+    starting_context: >-
+      A path for knowledge gardeners, documentation stewards and research teams who want to build something that stays alive, a wiki, knowledge garden, resource graph or source-aware archive. It moves
+      from why a commons beats a doc-dump, through structuring knowledge well, using AI without losing the plot, the practical toolbox, and keeping it alive over time.
