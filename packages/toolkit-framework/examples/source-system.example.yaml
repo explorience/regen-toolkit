@@ -1,0 +1,16 @@
+# K2 — the federation primitive. return_path is the reciprocity hook (Principle 7).
+title: Gitcoin Governance Forum
+type: forum
+steward: Gitcoin DAO stewards
+maturity: reviewed
+public_use: reviewed-for-explanation
+url: https://gov.gitcoin.co
+what_it_curates: governance proposals, funding-round retrospectives, steward debate
+why_it_matters: primary record of how quadratic-funding rounds are actually governed
+how_to_credit: link the thread; name the proposal authors
+use_type: reference + implementation-memory source
+reuse_conditions: public; attribute the forum thread
+return_path: post corrections and derived implementation-records back to the forum thread
+update_rhythm: continuous
+extraction_status: partially-extracted
+toolkit_route: layer-3-resource-graph

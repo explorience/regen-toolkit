@@ -1,0 +1,9 @@
+title: Add a dispute-window variant after Q2 collusion
+type: evolution-record
+signal_ref: signal/q2-collusion-clusters
+intervention: update
+maturity: field-informed
+affected_layer: layer-4-option-library
+interpretation: collusion under QF is a recurring failure mode, not a one-off
+integration_note: added dispute-window as a common pairing on the quadratic-funding option
+memory_note: keep the Q2 clawback as a cited implementation-record

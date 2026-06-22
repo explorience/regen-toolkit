@@ -1,0 +1,12 @@
+title: ReFi BCN Q2 matching round — what actually happened
+type: implementation-record
+source_position: participant-reflection
+maturity: field-informed
+record_type: funding-round
+related_deployment: ReFi BCN Q2 community matching round
+related_track: Fund public goods in your local node
+context: 18 projects, 240 voters, 4 ETH matching pool
+what_worked: small projects with real community ties got meaningfully matched
+what_failed: two collusion clusters required manual review and partial clawback
+adaptations: added a pre-round passport threshold and a dispute window mid-round
+what_returns_to_commons: a sybil-threshold heuristic + a dispute-window option variant

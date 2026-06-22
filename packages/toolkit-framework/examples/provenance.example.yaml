@@ -1,0 +1,6 @@
+# provenance is a mixin block (does NOT extend frontmatter); only `origin` is required.
+origin: Gitcoin Grants documentation
+surfaced_by: capture-and-route over the Resource DB V3
+adapted_from: Gitcoin docs + round retrospectives
+transformation: summarized
+authorship: ai-assisted

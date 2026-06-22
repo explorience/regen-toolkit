@@ -1,0 +1,8 @@
+title: Promote sybil-resistance from tag to Layer-A concept
+type: update-proposal
+target: schemas/core-entities.yaml
+rationale: sybil-resistance now changes routing + review across funding options, meeting the type-vs-tag gate
+proposed_change: add `sybil-resistance` as a concept with crosswalk to existing tags
+maps_to_core: concept
+review_status: routed
+decision: open

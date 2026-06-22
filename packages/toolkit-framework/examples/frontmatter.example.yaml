@@ -1,0 +1,13 @@
+# The metadata base every entry extends (K3). Shown standalone here for reference.
+title: Quadratic Funding
+type: concept
+maturity: reviewed
+public_use: reviewed-for-explanation
+lifecycle_state: human-reviewed
+ai_assisted: false
+high_risk: false
+domain: funding-capital
+function: explains a mechanism
+source_lineage: Gitcoin docs; Buterin/Hitzig/Weyl 2018
+steward: funding-concepts-steward
+last_reviewed: 2026-06-15

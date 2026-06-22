@@ -1,0 +1,10 @@
+title: Quadratic Funding
+type: encyclopedia-entry
+page_type: concept
+maturity: reviewed
+public_use: reviewed-for-explanation
+summary: a matching mechanism that weights community breadth over donation size
+audience: contributors choosing a funding option for a public-goods pool
+known_tensions: [sybil-resistance-cost, plutocracy-vs-breadth]
+related_concepts: [public-goods-funding, sybil-resistance]
+related_resources: [gitcoin-grants]

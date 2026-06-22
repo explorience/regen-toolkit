@@ -1,0 +1,10 @@
+title: Quadratic funding increases small-donor influence
+type: claim-evidence
+claim: QF shifts allocation toward projects with many small supporters vs few large ones
+evidence: Gitcoin round data showing match curves favoring breadth of support
+source_lineage: Gitcoin round retrospectives; Buterin/Hitzig/Weyl 2018
+interpretation: holds where sybil resistance is adequate; degrades under collusion
+uncertainty: effect size varies widely by round design and identity rigor
+reviewed_by: funding-concepts-steward
+maturity: source-linked
+public_use: reviewed-for-explanation

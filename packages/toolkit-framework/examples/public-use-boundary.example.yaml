@@ -1,0 +1,4 @@
+# public-use-boundary is a mixin block (does NOT extend frontmatter); only `tier` is required.
+tier: public-with-caveat
+consent_note: clearing-house figures are illustrative; verify against the live round before quoting
+review_type: domain-review-for-funding-claims

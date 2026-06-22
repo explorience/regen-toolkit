@@ -1,0 +1,10 @@
+# contribution-record extends frontmatter (title+type required) + its own required fields.
+title: added Gitcoin Governance Forum source-system card
+type: contribution-record
+contributor: luiz
+what: a source-system card for the Gitcoin Governance Forum
+where_it_appears: data/source-systems.yaml
+labor_kind: capture
+improved_public_usefulness: true
+source_system_reciprocity: agreed to post derived implementation-records back to the forum
+reviewed: false

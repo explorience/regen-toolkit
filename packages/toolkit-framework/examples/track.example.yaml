@@ -1,0 +1,10 @@
+title: Fund public goods in your local node
+type: track
+audience: a local ReFi node treasurer with a small matching pool
+maturity: draft
+starting_context: you have a treasury and want to allocate it to community projects
+outcome: a chosen funding option with its deployment checks surfaced
+concepts: [public-goods-funding, quadratic-funding, sybil-resistance]
+options: [quadratic-funding, retroactive-public-goods-funding]
+deployment_checks: [sybil-resistance, matching-pool-source, eligibility-rules]
+failure_modes: [sybil-collusion, whale-distortion-without-caps]

@@ -1,0 +1,13 @@
+title: Quadratic Funding
+type: option
+category: funding-capital
+maturity: field-informed
+use_cases: allocating a matching pool to many small public-goods projects by community preference
+not_for: small grantee sets; contexts with weak sybil resistance
+scale: community to ecosystem
+context: requires a matching pool and identity/sybil mitigation
+required_deployment_checks: [sybil-resistance, matching-pool-source, eligibility-rules]
+common_pairings: [retroactive-public-goods-funding, passport-sybil-defense]
+incompatibilities: [pure-1p1v-without-identity]
+failure_modes: [sybil-collusion, whale-distortion-without-caps]
+related_concepts: [quadratic-funding, public-goods-funding]

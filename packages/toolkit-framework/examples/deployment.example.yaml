@@ -1,0 +1,14 @@
+# Deployment requires the 6 minimum-structural fields (the "valid only if visible" rule).
+title: ReFi BCN Q3 community matching round
+type: deployment
+decision_system: stewards propose eligibility; community ranks via quadratic vote
+information_requirements: project applications, sybil/passport scores, matching-pool balance
+power_structure: 3 stewards (separation of duties); no single steward can release funds
+accountability: public round retrospective + on-chain disbursement record
+failure_detection: collusion-cluster detection + post-round dispute window
+boundaries: matching formula fixed; pool size configurable; eligibility rules experimental
+selected_options: [quadratic-funding, passport-sybil-defense]
+readiness_level: L3-community-pilot
+disqualifiers: [no-sybil-mitigation, undisclosed-matching-source]
+evidence_requirements: [sybil-score-distribution, pre-round-eligibility-list]
+risks: [collusion, low-turnout-distortion]

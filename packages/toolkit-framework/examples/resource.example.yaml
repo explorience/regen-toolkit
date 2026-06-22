@@ -1,0 +1,12 @@
+title: Gitcoin Grants
+type: resource
+maturity: source-linked
+public_use: reviewed-for-explanation
+url: https://www.gitcoin.co/grants
+resource_type: platform
+is_source_system_candidate: true
+toolkit_route: option-library/quadratic-funding
+link_status: active
+original_source: Resource DB V3 row 1182
+related_concepts: [quadratic-funding, public-goods-funding]
+related_options: [quadratic-funding]

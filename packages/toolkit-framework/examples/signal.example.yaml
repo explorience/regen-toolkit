@@ -1,0 +1,7 @@
+# signal extends frontmatter, so `type` is required alongside `signal_type`.
+title: Q2 round showed collusion clusters
+type: signal
+signal_type: option
+affected_layer: layer-4-option-library
+interpretation: QF without strong identity invites collusion — recurring, not incidental
+proposed_intervention: route
