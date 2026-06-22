@@ -139,6 +139,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/common-scams.md
     summary: A plain-language field guide to the scams you'll meet in Web3, written for community organisers and newcomers who want to take part without getting burned.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: communicating-stakeholders
     title: Communicating with stakeholders
     type: encyclopedia-entry
@@ -234,6 +237,9 @@ entries:
       - setting-up-first-wallet
       - seed-phrases
       - hot-vs-cold
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: dao-governance-models
     title: DAO Governance Models
     type: encyclopedia-entry
@@ -464,6 +470,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/gas-fees.md
     summary: Learn about gas fees in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: gatherings-pattern
     title: The Gatherings Pattern
     type: encyclopedia-entry
@@ -519,6 +528,9 @@ entries:
       - setting-up-first-wallet
       - seed-phrases
       - wallet-comparison-guide
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: how-to-get-crypto
     title: How to Get Your First Crypto
     type: encyclopedia-entry
@@ -749,6 +761,9 @@ entries:
       - dao-tooling
       - funding-your-node
       - operational-security
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: nfts-beyond-art
     title: "NFTs Beyond Art: Practical Applications of Digital Ownership"
     type: encyclopedia-entry
@@ -841,6 +856,9 @@ entries:
       - hot-vs-cold
       - operational-security
       - custodial-vs-noncustodial
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: refi-vs-defi-tradfi
     title: "ReFi vs. DeFi vs. TradFi: Three Ways to Move Money"
     type: encyclopedia-entry
@@ -884,6 +902,9 @@ entries:
       - operational-security
       - recovery-planning
       - common-scams
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: seed-phrases
     title: "Seed Phrases: Your Master Key to Crypto"
     type: encyclopedia-entry
@@ -893,6 +914,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/seed-phrases.md
     summary: "A plain-language guide to seed phrases for community organisers and regenerative practitioners new to crypto: what they are, how to keep them safe, and how to avoid the scams that target them."
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: setting-up-first-wallet
     title: Setting Up Your First Wallet
     type: encyclopedia-entry
@@ -902,6 +926,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/setting-up-first-wallet.md
     summary: A calm, step-by-step guide to creating your first crypto wallet safely, written for organisers and growers brand new to Web3.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: setting-up-receive-crypto
     title: Setting up to receive crypto
     type: encyclopedia-entry
@@ -948,6 +975,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/social-tokens-creator.md
     summary: Guide to social tokens for creators.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: source-systems
     title: "Source Systems: Knowledge That Outlives Turnover"
     type: encyclopedia-entry
@@ -966,6 +996,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/stablecoins.md
     summary: "A plain-language guide to stablecoins for community organisers and regenerative practitioners new to crypto: what they are, why they matter for your work, and how to spot the safe ones."
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: stewardship-roles
     title: Stewardship Roles for a Knowledge Commons That Outlives You
     type: encyclopedia-entry
@@ -993,6 +1026,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/tax-implications.md
     summary: Learn about tax implications in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: token-standards
     title: Token Standards
     type: encyclopedia-entry
@@ -1039,6 +1075,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/treasury-management.md
     summary: Learn about treasury management in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: trust-transparency
     title: Trust and Transparency in Decentralized Systems
     type: encyclopedia-entry
@@ -1090,6 +1129,9 @@ entries:
       - what-is-wallet
       - custodial-vs-noncustodial
       - hot-vs-cold
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: what-are-tokens
     title: What Are Tokens? A Beginner's Guide to Digital Assets
     type: encyclopedia-entry
@@ -1190,6 +1232,9 @@ entries:
     ai_assisted: true
     source_lineage: src/content/docs/what-is-wallet.md
     summary: A plain-language guide to crypto wallets for community organisers and permaculturists new to Web3, covering keys, recovery, safety, and energy use.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
   - id: what-web3-can-cant-do
     title: What Web3 Can and Can't Do
     type: encyclopedia-entry

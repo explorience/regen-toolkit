@@ -23,6 +23,8 @@ import {
   articleToSalvagedEntry,
   researchDumpToResource,
   readSalvageCandidates,
+  isHighRisk,
+  highRiskBoundary,
 } from './process-content.mjs';
 import { journeys } from '../src/data/journeys.js';
 
@@ -351,6 +353,95 @@ test('readSalvageCandidates: every survivor → a valid salvaged encyclopedia-en
     const { valid, errors } = validateObject('encyclopedia-entry', entry);
     assert.ok(valid, `survivor ${a.slug} invalid: ${JSON.stringify(errors)}`);
   }
+});
+
+// --- Task 6: CSIS check #3 — high-risk public-use boundaries ------------------
+
+test('isHighRisk: true for financial/security guidance (named in-set examples)', () => {
+  for (const [slug, title] of [
+    ['seed-phrases', 'Seed Phrases: Your Master Key to Crypto'],
+    ['setting-up-multisig-treasury', 'Setting Up a Multisig Treasury'],
+    ['common-scams', 'Common Crypto Scams and How to Spot Them'],
+    ['conducting-token-airdrop', 'Conducting a Token Airdrop'],
+    ['tax-implications', 'Tax Implications'],
+    ['stablecoins', 'Stablecoins: Digital Dollars That Hold Their Value'],
+    ['gas-fees', 'Gas Fees'],
+    ['treasury-best-practices', 'Treasury Best Practices'],
+    ['key-management', 'Key Management for Communities'],
+    ['wallet-security', 'Teaching Wallet Security'],
+  ]) {
+    assert.equal(isHighRisk(slug, title), true, `expected high-risk: ${slug}`);
+  }
+});
+
+test('isHighRisk: false for general explainers and grant/fundraising-strategy pages (no over-classify)', () => {
+  for (const [slug, title] of [
+    ['what-is-dao', 'What Is a DAO?'],                              // general concept — NOT high-risk
+    ['funding-landscape', 'The Funding Landscape'],                 // fundraising strategy, not custody
+    ['funding-your-node', 'Funding Your Local Node'],
+    ['writing-grant-proposals', 'Writing Grant Proposals'],
+    ['gitcoin-grants-qf', 'Gitcoin Grants and Quadratic Funding'],
+    ['rpgf', 'Retroactive Public Goods Funding'],
+    ['what-are-tokens', "What Are Tokens? A Beginner's Guide to Digital Assets"], // pure token concept
+    ['token-standards', 'Token Standards'],                         // technical concept, not guidance
+    ['tokens-coordination-tools', 'Tokens as Coordination Tools'],
+  ]) {
+    assert.equal(isHighRisk(slug, title), false, `expected NOT high-risk: ${slug}`);
+  }
+});
+
+test('highRiskBoundary: returns a VALID public-use-boundary for high-risk, undefined otherwise', () => {
+  const b = highRiskBoundary('seed-phrases', 'Seed Phrases: Your Master Key to Crypto');
+  assert.ok(b, 'seed-phrases must get a boundary');
+  assert.equal(b.tier, 'public-with-caveat');
+  const { valid, errors } = validateObject('public-use-boundary', b);
+  assert.ok(valid, `boundary invalid: ${JSON.stringify(errors)}`);
+  // a general explainer gets none.
+  assert.equal(highRiskBoundary('what-is-dao', 'What Is a DAO?'), undefined);
+});
+
+test('articleToEntry: attaches public_use_boundary to a high-risk entry; entry still validates', () => {
+  const entry = articleToEntry({
+    slug: 'seed-phrases',
+    title: 'Seed Phrases: Your Master Key to Crypto',
+    description: 'Protect your master key.',
+    body: 'A seed phrase is your master key.',
+    frontmatter: {},
+  });
+  assert.ok(entry.public_use_boundary, 'high-risk entry must carry public_use_boundary');
+  assert.equal(entry.public_use_boundary.tier, 'public-with-caveat');
+  // open model: extra field is allowed — entry still validates as an encyclopedia-entry.
+  const { valid, errors } = validateObject('encyclopedia-entry', entry);
+  assert.ok(valid, `entry invalid: ${JSON.stringify(errors)}`);
+  // the sub-object validates as a public-use-boundary.
+  const b = validateObject('public-use-boundary', entry.public_use_boundary);
+  assert.ok(b.valid, `boundary invalid: ${JSON.stringify(b.errors)}`);
+});
+
+test('articleToEntry: a general explainer gets NO boundary (no over-classify)', () => {
+  const entry = articleToEntry({
+    slug: 'what-is-dao',
+    title: 'What Is a DAO?',
+    description: 'A plain-language intro.',
+    body: 'A DAO is ...',
+    frontmatter: {},
+  });
+  assert.equal(entry.public_use_boundary, undefined);
+});
+
+test('articleToSalvagedEntry: high-risk salvaged entry also carries a valid boundary', () => {
+  const entry = articleToSalvagedEntry({
+    slug: 'setting-up-multisig-treasury',
+    title: 'Setting Up a Multisig Treasury',
+    description: 'How to set up a multisig.',
+    body: 'A multisig requires M-of-N signatures.',
+    frontmatter: { status: 'not-started' },
+    source: 'content/3-playbooks/3.x/setting-up-multisig-treasury.md',
+  });
+  assert.ok(entry.public_use_boundary, 'high-risk salvaged entry must carry a boundary');
+  assert.equal(entry.public_use_boundary.tier, 'public-with-caveat');
+  const { valid, errors } = validateObject('encyclopedia-entry', entry);
+  assert.ok(valid, `salvaged entry invalid: ${JSON.stringify(errors)}`);
 });
 
 // sanity: the module under test lives where we expect.

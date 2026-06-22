@@ -72,6 +72,9 @@ entries:
     source_lineage: content/1-foundations/1.5-wallets-security/setup-first-wallet.md
     salvaged_from: content/1-foundations/1.5-wallets-security/setup-first-wallet.md
     summary: Learn about setup first wallet in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: published"
   - id: gitcoin-public-goods
     title: Gitcoin and public goods funding
@@ -253,6 +256,9 @@ entries:
     source_lineage: content/2-applied/2.10-blockchain-program-delivery/wallet-security.md
     salvaged_from: content/2-applied/2.10-blockchain-program-delivery/wallet-security.md
     summary: How to teach wallet security effectively to community members.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: published"
   - id: when-blockchain-right-tool
     title: When Blockchain is the Right Tool
@@ -275,6 +281,9 @@ entries:
     source_lineage: content/2-applied/2.11-operational-security/operational-security.md
     salvaged_from: content/2-applied/2.11-operational-security/operational-security.md
     summary: Essential security practices to protect yourself and your community in web3.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: published"
   - id: incident-response
     title: Incident Response
@@ -286,6 +295,9 @@ entries:
     source_lineage: content/2-applied/2.11-web3-safety-security/incident-response.md
     salvaged_from: content/2-applied/2.11-web3-safety-security/incident-response.md
     summary: Learn about incident response in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: insurance-risk
     title: Insurance and Risk Management
@@ -297,6 +309,9 @@ entries:
     source_lineage: content/2-applied/2.11-web3-safety-security/insurance-risk.md
     salvaged_from: content/2-applied/2.11-web3-safety-security/insurance-risk.md
     summary: Learn about insurance and risk management in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: key-management-policies
     title: Key Management Policies
@@ -308,6 +323,9 @@ entries:
     source_lineage: content/2-applied/2.11-web3-safety-security/key-management-policies.md
     salvaged_from: content/2-applied/2.11-web3-safety-security/key-management-policies.md
     summary: Learn about key management policies in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: key-management
     title: Key Management for Communities
@@ -319,6 +337,9 @@ entries:
     source_lineage: content/2-applied/2.11-web3-safety-security/key-management.md
     salvaged_from: content/2-applied/2.11-web3-safety-security/key-management.md
     summary: Guide to key management for communities.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: published"
   - id: multisig-management
     title: Multisig Management
@@ -330,6 +351,9 @@ entries:
     source_lineage: content/2-applied/2.11-web3-safety-security/multisig-management.md
     salvaged_from: content/2-applied/2.11-web3-safety-security/multisig-management.md
     summary: Learn about multisig management in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: regulatory-considerations
     title: Regulatory Considerations
@@ -352,6 +376,9 @@ entries:
     source_lineage: content/2-applied/2.11-web3-safety-security/scam-prevention.md
     salvaged_from: content/2-applied/2.11-web3-safety-security/scam-prevention.md
     summary: Guide to scam prevention for communities.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: published"
   - id: ai-assistants-coordination
     title: AI Assistants for Coordination
@@ -737,6 +764,9 @@ entries:
     source_lineage: content/2-applied/2.7-decentralized-governance/treasury-best-practices.md
     salvaged_from: content/2-applied/2.7-decentralized-governance/treasury-best-practices.md
     summary: How to manage community funds responsibly and transparently.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: published"
   - id: voting-systems-compared
     title: Voting Systems Compared
@@ -847,6 +877,9 @@ entries:
     source_lineage: content/2-applied/2.9-tokenomics-community-currencies/designing-token-incentives.md
     salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/designing-token-incentives.md
     summary: Learn about designing token incentives in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: inflation-model
     title: Inflation Models for Community Currencies
@@ -891,6 +924,9 @@ entries:
     source_lineage: content/2-applied/2.9-tokenomics-community-currencies/token-economics-basics.md
     salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/token-economics-basics.md
     summary: Learn about token economics basics in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: token-supply
     title: Token Supply and Community Currencies
@@ -902,6 +938,9 @@ entries:
     source_lineage: content/2-applied/2.9-tokenomics-community-currencies/token-supply.md
     salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/token-supply.md
     summary: How to determine the total supply of your community currency and manage inflation.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: published"
   - id: tokenomics-mistakes
     title: Common Tokenomics Mistakes
@@ -913,6 +952,9 @@ entries:
     source_lineage: content/2-applied/2.9-tokenomics-community-currencies/tokenomics-mistakes.md
     salvaged_from: content/2-applied/2.9-tokenomics-community-currencies/tokenomics-mistakes.md
     summary: Learn about common tokenomics mistakes in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: gitcoin-grants
     title: "Gitcoin Grants: Running and participating in QF rounds"
@@ -946,6 +988,9 @@ entries:
     source_lineage: content/3-playbooks/3.1-protocol-playbooks/gnosis-safe.md
     salvaged_from: content/3-playbooks/3.1-protocol-playbooks/gnosis-safe.md
     summary: "Learn about gnosis safe: multi-sig setup and management in this Regen Toolkit article."
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: hypercerts
     title: "Hypercerts: Creating and managing impact certificates"
@@ -990,6 +1035,9 @@ entries:
     source_lineage: content/3-playbooks/3.2-implementation-patterns/conducting-token-airdrop.md
     salvaged_from: content/3-playbooks/3.2-implementation-patterns/conducting-token-airdrop.md
     summary: Learn about conducting a token airdrop in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: creating-community-token
     title: Creating a Community Token
@@ -1001,6 +1049,9 @@ entries:
     source_lineage: content/3-playbooks/3.2-implementation-patterns/creating-community-token.md
     salvaged_from: content/3-playbooks/3.2-implementation-patterns/creating-community-token.md
     summary: Learn about creating a community token in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: creating-poap-event
     title: Creating a POAP Event
@@ -1078,6 +1129,9 @@ entries:
     source_lineage: content/3-playbooks/3.2-implementation-patterns/setting-up-multisig-treasury.md
     salvaged_from: content/3-playbooks/3.2-implementation-patterns/setting-up-multisig-treasury.md
     summary: Learn about setting up a multisig treasury in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: africa-kenya-sarafu
     title: "Africa: Kenya Sarafu Network"
@@ -1518,6 +1572,9 @@ entries:
     source_lineage: content/3-playbooks/3.5-tools-resources/wallet-options.md
     salvaged_from: content/3-playbooks/3.5-tools-resources/wallet-options.md
     summary: Learn about wallet options compared in this Regen Toolkit article.
+    public_use_boundary:
+      tier: public-with-caveat
+      review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)"
     notes: "legacy pipeline status: not-started"
   - id: acronym-decoder
     title: Acronym decoder

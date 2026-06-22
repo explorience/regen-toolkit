@@ -378,4 +378,45 @@ Baseline preserved: framework package tests 38/38 pass (package consumed read-on
 
 ## Review Summary
 
-_TODO — CSIS review summary added by Task 6._
+### Task 6 — CSIS review pass (structural-integrity audit of the processed content)
+
+A CSIS-informed (not CSIS-conformant — `skills/csis-review` SKILL R7: *flags for review, does not certify*) review pass over **every object this plan emitted**: `data/encyclopedia.yaml` (119 `encyclopedia-entry`), `data/concepts.yaml` (8 `concept-lineage`), `data/tracks.yaml` (3 `track`), `data/resources.yaml` (1616 `resource`), `data/source-systems.yaml` (89 `source-system`), `data/encyclopedia-salvaged.yaml` (144 salvaged entries), `data/resources-salvaged.yaml` (4 salvaged resources) — **1983 objects total**.
+
+#### `checkInvariants` — mechanically-enforceable invariants (SP8)
+
+Ran the framework's `checkInvariants` (`packages/toolkit-framework/src/invariants.mjs`, exported from `src/index.mjs`) over all 1983 emitted objects. It enforces the schema-mechanical subset of the 16 distinctions: **Track ≠ Deployment** (a track must not carry the 6 Deployment structural fields), **AI-assisted ≠ Human-reviewed** (`ai_assisted: true` + `maturity: reviewed` is forbidden), and **raw ≠ reviewed / Inclusion ≠ Endorsement** (a `maturity: raw` or `lifecycle_state: raw-lead` item cannot be `public_use: reviewed-for-*`).
+
+**Result: 0 violations across all 1983 objects** (clean). Nothing required downgrading. This corroborates the earlier task-level honest-state discipline: tracks carry no deployment fields; no AI-assisted object claims `reviewed`; no raw resource/source-system overclaims a `reviewed-*` public_use.
+
+#### Check #1 — nothing raw claims review
+
+No object with `maturity: raw` (or `lifecycle_state: raw-lead`) carries a `public_use: reviewed-for-*`. Audited resources + source-systems specifically (the lift output, where this risk lives): `data/resources.yaml` is uniformly `maturity: raw` / `public_use: raw-lead` (1616/1616), `data/source-systems.yaml` uniformly `raw` / `raw-lead` (89/89), `data/resources-salvaged.yaml` uniformly `raw` / `raw-lead` (4/4). **Result: 0 violations — clean.** No downgrade needed (Task 2's lift was strict — `review_status` is preserved in `notes` but never used to promote). No lift-script edit was required.
+
+#### Check #2 — AI-pipeline articles aren't `maturity: reviewed`
+
+Programmatic count over both encyclopedia files: `data/encyclopedia.yaml` — **0 of 119** entries `maturity: reviewed` (0 `ai_assisted + reviewed`); `data/encyclopedia-salvaged.yaml` — **0 of 144** `maturity: reviewed` (0 `ai_assisted + reviewed`). The `HUMAN_REVIEWED` allowlist remains empty (no evidence of independent human sign-off on any of the AI-pipeline drafts). **Result: clean — every encyclopedia entry stays `draft`.**
+
+#### Check #3 — high-risk topics carry a `public-use-boundary` (the main new work)
+
+CSIS check §5 (*"high-risk content carries a public-use-boundary"*). **High-risk** = financial-instrument / custody / security guidance whose **error can cause real loss** (funds drained, keys compromised, tax/legal exposure) — not merely a page that mentions money.
+
+**Keyword rule** (matched on `id` + `title`, implemented as `isHighRisk` in `scripts/process-content.mjs`): `wallet(s)` · `seed-phrase` · `multisig`/`multi-sig` · `treasury`/`treasuries` · `custod*` · hot/cold-storage · `scam(s)` · `key-management`/`private-key` · `airdrop` · `stablecoin` · `gas-fee` · `tax`/`tax-implications` · org-security (`security best practices` / `operational security` / `incident response` / `security basics`) · token design/economics (`token incentive`/`economics`/`supply`/`airdrop`, `tokenomics`, `community token`, `social tokens`) · `insurance`/`risk management` · `recovery-planning`. **Deliberately NOT classified** (anti-over-classification): general explainers (`what-is-dao`) and grant/fundraising-**strategy** pages (`funding-landscape`, `funding-your-node`, `writing-grant-proposals`, `gitcoin-grants-qf`, `rpgf`, `public-goods-funding`, `grants-daos-foundations`, `sustainable-funding-mix`, …) — these carry *program* risk, not custody/security risk — and pure-concept token explainers (`what-are-tokens`, `token-standards`, `tokens-coordination-tools`). All of the plan's explicitly named in-set examples are caught (`setting-up-multisig-treasury`, `seed-phrases`, `common-scams`, `conducting-token-airdrop`, `tax-implications`, `stablecoins`, `gas-fees`, `treasury-best-practices`, `key-management`, `wallet-security`); all named not-high-risk cases are excluded (asserted in tests).
+
+**Boundary attached** (lightweight idiomatic form): a `public_use_boundary` sub-object on the entry — `{ tier: public-with-caveat, review_type: "high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)" }`. `encyclopedia-entry extends frontmatter` (open model), so the extra field is permitted and the entry still validates; the sub-object itself validates against `schemas/public-use-boundary.yaml` (`required: [tier]`, tier ∈ enum). **Tier = `public-with-caveat`** (not `restricted-*`): these pages **are** published on the live v1 site, so they're public — but they carry real risk and need human review before relied upon. The boundary **flags** for review; it does not certify.
+
+**34 high-risk entries matched** (15 canonical + 19 salvaged):
+
+- `data/encyclopedia.yaml` (15): `common-scams`, `custodial-vs-noncustodial`, `gas-fees`, `hot-vs-cold`, `multisig-setup`, `recovery-planning`, `security-best-practices-orgs`, `seed-phrases`, `setting-up-first-wallet`, `social-tokens-creator`, `stablecoins`, `tax-implications`, `treasury-management`, `wallet-comparison-guide`, `what-is-wallet`.
+- `data/encyclopedia-salvaged.yaml` (19): `setup-first-wallet`, `wallet-security`, `operational-security`, `incident-response`, `insurance-risk`, `key-management-policies`, `key-management`, `multisig-management`, `scam-prevention`, `treasury-best-practices`, `designing-token-incentives`, `token-economics-basics`, `token-supply`, `tokenomics-mistakes`, `gnosis-safe`, `conducting-token-airdrop`, `creating-community-token`, `setting-up-multisig-treasury`, `wallet-options`.
+
+#### Idempotent-generator note (no hand-edited generated files)
+
+The boundary attachment is implemented **in the generator** (`scripts/process-content.mjs` — `isHighRisk` + `highRiskBoundary`, attached during both the canonical `articleToEntry` and the salvaged `articleToSalvagedEntry` passes), **not** hand-edited into the YAML (which would be clobbered on the next run). The encyclopedia files were then **regenerated**. Re-running the generator twice produces **byte-identical** output (md5-verified), so the artifacts remain reproducible and idempotent. This **intentionally** changes `data/encyclopedia.yaml` from its Task-3 byte-identical state: it now carries `public_use_boundary` sub-objects on the 15 high-risk canonical entries (and 19 salvaged). All other emitted files (`concepts.yaml`, `tracks.yaml`, `resources.yaml`, `source-systems.yaml`, `resources-salvaged.yaml`) regenerate unchanged. New tests added to `scripts/process-content.test.mjs` (6) assert the classifier (`seed-phrases` → boundary; `what-is-dao` → none), boundary validity, and that high-risk entries still validate as `encyclopedia-entry`.
+
+#### Tests / build / counts
+
+Processor tests **38/38** pass (32 prior + 6 new); framework package tests **38/38** pass (consumed read-only, untouched); `npm run build` builds **124 pages**; canonical counts intact — **119** encyclopedia entries, **8** concepts, **3** tracks (plus 144 salvaged entries, 4 salvaged resources, unchanged). Post-regeneration validation: 34 boundaries, **0 invalid boundaries, 0 invalid entries, 0 invariant violations**.
+
+#### Honest-state attestation
+
+**Raw was never promoted** (resources + source-systems stay `raw`/`raw-lead`; 0 reviewed overclaims). **AI-drafts were never marked `reviewed`** (0 of 263 encyclopedia entries claim `reviewed`; `HUMAN_REVIEWED` allowlist empty). **High-risk financial/security topics are now bounded** (34 entries carry a `public-with-caveat` `public_use_boundary` flagging them for human review before relied upon). The review **flags, it does not certify** — escalate to a human (and, for CSIS constructs, a CSIS-literate reviewer) before any of this content is treated as reviewed.

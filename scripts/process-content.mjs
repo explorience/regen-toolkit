@@ -144,6 +144,66 @@ export function inferPageType(title = '', body = '') {
   return 'concept';
 }
 
+// --- high-risk public-use boundary (Task 6 — CSIS review) --------------------
+//
+// CSIS check #3 (csis-review SKILL §5: "High-risk content carries a public-use-boundary").
+// High-risk here = financial-instrument / custody / security guidance whose ERROR can cause
+// REAL loss (funds drained, keys compromised, tax/legal exposure) — not merely a topic that
+// mentions money. We deliberately DO NOT classify:
+//   - grant/fundraising-strategy pages (program risk, not custody/security risk):
+//     funding-landscape, funding-your-node, writing-grant-proposals, gitcoin-grants-qf, rpgf,
+//     public-goods-funding, grants-daos-foundations, sustainable-funding-mix, …
+//   - pure-concept token explainers (what-are-tokens, token-standards, tokens-coordination-tools).
+// We DO classify: wallet/seed-phrase/multisig/treasury/custody/cold-storage/scam/key-management/
+// airdrop/stablecoin/gas-fee/tax/org-security/token-design-economics/insurance/recovery topics.
+//
+// Matched on id + title keywords. The boundary attached is the LIGHTWEIGHT idiomatic form: a
+// `public_use_boundary` sub-object on the entry (encyclopedia-entry extends frontmatter — the open
+// model permits extra fields; the sub-object validates against schemas/public-use-boundary.yaml).
+// Tier = `public-with-caveat`: these pages ARE published on the live site (so not `restricted-*`),
+// but carry real risk and need human review before relied upon. The boundary FLAGS for review —
+// it does not certify (csis-review is CSIS-informed, not CSIS-conformant).
+const HIGH_RISK_RULES = [
+  /\bwallets?\b/i,                                   // wallet setup / security / custody
+  /seed[- ]?phrase/i,                               // seed phrases (master key)
+  /\bmultisig\b|multi-?sig/i,                        // multisig treasury setup
+  /\btreasur(y|ies)\b/i,                             // treasury management / custody
+  /\bcustod/i,                                       // custodial vs non-custodial
+  /hot[- ]?vs[- ]?cold|cold[- ]?storage|hot wallet/i, // hot / cold storage
+  /\bscams?\b/i,                                     // scams / fraud prevention
+  /key[- ]?management|private[- ]?key/i,             // key management
+  /\bairdrop/i,                                      // conducting a token airdrop
+  /\bstablecoin/i,                                   // stablecoins (financial instrument)
+  /\bgas[- ]?fee/i,                                  // gas fees (loss-on-error)
+  /\btax\b|tax[- ]implications/i,                    // tax / legal exposure
+  /security best practices|operational security|incident response|security basics/i, // org security
+  /token (incentive|economics|supply|airdrop)|tokenomics|community token|social tokens/i, // token design/economics
+  /\binsurance\b|risk management/i,                  // insurance / risk
+  /recovery[- ]planning/i,                           // key / treasury recovery
+];
+
+/**
+ * Does this entry (by slug + title) cover a HIGH-RISK financial/security topic that needs a
+ * public-use boundary? Returns true/false. (Exported for the test.)
+ */
+export function isHighRisk(slug = '', title = '') {
+  const hay = `${slug} ${title}`;
+  return HIGH_RISK_RULES.some((re) => re.test(hay));
+}
+
+/**
+ * The `public_use_boundary` sub-object for a high-risk entry, or undefined if not high-risk.
+ * Validates against schemas/public-use-boundary.yaml (required: [tier]; tier enum). Exported for the test.
+ */
+export function highRiskBoundary(slug = '', title = '') {
+  if (!isHighRisk(slug, title)) return undefined;
+  return {
+    tier: 'public-with-caveat',
+    review_type:
+      'high-risk: financial/security guidance — needs human review before relied upon (CSIS check #3)',
+  };
+}
+
 // --- article → encyclopedia-entry --------------------------------------------
 
 /** Normalize a frontmatter `related` value to an array of slug strings, or undefined. */
@@ -175,6 +235,10 @@ export function articleToEntry(a) {
 
   const rel = relatedConcepts(frontmatter);
   if (rel) entry.related_concepts = rel;
+
+  // CSIS check #3 — attach a public-use boundary to high-risk financial/security topics.
+  const boundary = highRiskBoundary(slug, title);
+  if (boundary) entry.public_use_boundary = boundary;
 
   return entry;
 }
@@ -343,6 +407,9 @@ export function articleToSalvagedEntry(a) {
   if (description) entry.summary = description;
   const rel = relatedConcepts(frontmatter);
   if (rel) entry.related_concepts = rel;
+  // CSIS check #3 — same high-risk boundary attachment for the salvaged pass.
+  const boundary = highRiskBoundary(slug, title || slug);
+  if (boundary) entry.public_use_boundary = boundary;
   // Carry the pipeline's own status into notes so the stub/published split is visible (honest).
   const legacyStatus = frontmatter.status ? String(frontmatter.status) : undefined;
   if (legacyStatus) entry.notes = `legacy pipeline status: ${legacyStatus}`;
