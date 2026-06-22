@@ -17,7 +17,7 @@ Think of it like choosing between a community seed library and a bank vault. The
 
 You can send money or digital tokens to anyone, anywhere, at any hour, without a bank or a service like Western Union deciding whether you are allowed. A **token** is just a digital unit of value recorded on a blockchain, the way a poker chip stands in for cash at a table.
 
-This is not theoretical. **Grassroots Economics**, a Kenyan nonprofit, runs **Sarafu**, a community currency that over 50,000 people have used to trade food, goods, and services in places where regular cash and banking are scarce. It works on basic phones over USSD (the same dial-a-code menus used for mobile money like M-Pesa), and the transaction record lives on a public blockchain so the community, not a bank, governs it. For mutual-aid networks and local economies, that is a real capability that ordinary banking cannot match.
+This is not theoretical. **Grassroots Economics**, a Kenyan nonprofit, runs **Sarafu**, a community currency that 26,600+ people have used to trade food, goods, and services in places where regular cash and banking are scarce. It works on basic phones over USSD (the same dial-a-code menus used for mobile money like M-Pesa), and the transaction record lives on a public blockchain so the community, not a bank, governs it. For mutual-aid networks and local economies, that is a real capability that ordinary banking cannot match.
 
 ### It lets anyone build without asking permission
 
