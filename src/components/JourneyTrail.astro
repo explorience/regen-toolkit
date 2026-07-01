@@ -1,6 +1,7 @@
 ---
 // A vertical "field-guide trail": chapters with numbered, connected stops.
 const { journey } = Astro.props;
+const base = import.meta.env.BASE_URL;          // '/' on Vercel, '/regen-toolkit/' on Pages
 let n = 0;
 ---
 <ol class="trail" aria-label={`${journey.label} steps`}>
@@ -15,7 +16,7 @@ let n = 0;
           n += 1;
           return (
             <li class="trail__step">
-              <a href={`/${slug}/`} class="trail__link">
+              <a href={`${base}${slug}/`} class="trail__link">
                 <span class="trail__num" aria-hidden="true">{String(n).padStart(2, "0")}</span>
                 <span class="trail__body">
                   <span class="trail__title">{title}</span>

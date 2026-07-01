@@ -30,7 +30,7 @@ This is the "something concrete" I said I'd bring. It's a first cut — the poin
 
 ## Try it in 5 minutes
 
-**Everyone (visual):** the two new pages — `/framework` (what the framework is + a *live* list of the 21 schemas and a green kernel-check) and `/regen-toolkit-os` (what this instance is), linked from Heenal's homepage. *(Action: deploy the `regen-toolkit-os` branch to a Vercel preview so it's a clickable URL — see Action Items. Locally: `npm run dev`.)*
+**Everyone (visual):** the two new pages — `/framework` (what the framework is + a *live* list of the 21 schemas and a green kernel-check) and `/regen-toolkit-os` (what this instance is), linked from Heenal's homepage. **Preview (GitHub Pages, once enabled): `https://explorience.github.io/regen-toolkit/`** → `/framework/` + `/regen-toolkit-os/`. *(A GitHub Actions workflow deploys the `regen-toolkit-os` branch there — no Vercel needed; the live site stays on `main`. Locally: `npm run dev`.)*
 
 **Technical (Rather / anyone with the repo):**
 ```bash
@@ -105,7 +105,7 @@ None of these are edits to your doc yet — they're proposals. Ratify → I fold
 
 ## Action items
 
-- [ ] **Luiz — deploy the `regen-toolkit-os` branch to a Vercel preview** so Matty/Heenal can click the two pages. *(The one thing that makes this visually shareable.)*
+- [ ] **Luiz — enable GitHub Pages** (repo → Settings → Pages → Source: **GitHub Actions**). The workflow (`.github/workflows/deploy-pages.yml`) then deploys the `regen-toolkit-os` branch to `https://explorience.github.io/regen-toolkit/` on every push. *(The one manual step that makes the two pages clickable for Matty/Heenal — no Vercel needed.)*
 - [ ] **Luiz — send the messages below** (Matty DM + group + a note to Rather).
 - [ ] **Group — ratify the top-5** (async or on the call).
 - [ ] **Luiz — full iteration next week** (sync to Matty's v3, deepen, V3 review pass) → then the hub post.

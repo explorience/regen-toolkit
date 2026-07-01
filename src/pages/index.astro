@@ -4,6 +4,8 @@ import JourneyMark from "../components/JourneyMark.astro";
 import { journeyList, journeyStats } from "../data/journeys.js";
 const totalStops = journeyList.reduce((n, j) => n + journeyStats(j).count, 0);
 const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowledge-commons": "var(--teal)" };
+const base = import.meta.env.BASE_URL;          // '/' on Vercel, '/regen-toolkit/' on Pages
+const withBase = (p) => base + String(p).replace(/^\//, "");
 ---
 
 <Page>
@@ -20,7 +22,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
         follow it stop by stop, and come out the other side actually knowing what you're doing.
       </p>
       <div class="hero__cta reveal" data-d="4">
-        <a class="btn btn--primary" href="/start/newcomer/">I'm new to this <span class="arrow">→</span></a>
+        <a class="btn btn--primary" href={withBase("/start/newcomer/")}>I'm new to this <span class="arrow">→</span></a>
         <a class="btn btn--ghost" href="#journeys">See the journeys</a>
       </div>
       <div class="hero__stats reveal" data-d="5">
@@ -50,7 +52,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
         {journeyList.map((j, i) => {
           const s = journeyStats(j);
           return (
-            <a class="plate reveal" data-d={i + 1} href={j.href} style={`--jc:${accents[j.id]}`}>
+            <a class="plate reveal" data-d={i + 1} href={withBase(j.href)} style={`--jc:${accents[j.id]}`}>
               <span class="plate__rule" aria-hidden="true"></span>
               <div class="plate__head">
                 <span class="plate__num">{String(i + 1).padStart(2, "0")}</span>
@@ -86,7 +88,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
         <h2 class="kmap__title">Or wander the whole map.</h2>
         <p class="kmap__sub">Every article is a node in one living knowledge graph. Explore by topic, follow the threads, and find your own path through.</p>
       </div>
-      <a class="btn btn--ghost kmap__btn" href="/explorer/">Open the knowledge map <span class="arrow">→</span></a>
+      <a class="btn btn--ghost kmap__btn" href={withBase("/explorer/")}>Open the knowledge map <span class="arrow">→</span></a>
     </div>
   </section>
 
@@ -98,8 +100,8 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
         This site runs on a small, reusable framework — and is its first instance.
       </p>
       <div class="sysrow__links">
-        <a class="sysrow__link" href="/framework/">The framework <span class="arrow">→</span></a>
-        <a class="sysrow__link" href="/regen-toolkit-os/">This instance <span class="arrow">→</span></a>
+        <a class="sysrow__link" href={withBase("/framework/")}>The framework <span class="arrow">→</span></a>
+        <a class="sysrow__link" href={withBase("/regen-toolkit-os/")}>This instance <span class="arrow">→</span></a>
       </div>
     </div>
   </section>
@@ -206,7 +208,7 @@ const accents = { newcomer: "var(--moss)", "local-node": "var(--clay)", "knowled
       <h2 class="closer__title">Ready to find your footing?</h2>
       <p class="closer__sub">Start where you are. You can always switch paths.</p>
       <div class="hero__cta">
-        <a class="btn btn--spark" href="/start/newcomer/">Start the newcomer journey <span class="arrow">→</span></a>
+        <a class="btn btn--spark" href={withBase("/start/newcomer/")}>Start the newcomer journey <span class="arrow">→</span></a>
         <a class="btn btn--ghost" href="https://github.com/explorience/regen-toolkit">Help build it</a>
       </div>
     </div>

@@ -16,13 +16,15 @@ const others = journeyList.filter((j) => j.id !== journey.id);
 const firstSlug = journey.chapters[0].steps[0][0];
 const accentVar =
   journey.id === "newcomer" ? "var(--moss)" : journey.id === "local-node" ? "var(--clay)" : "var(--teal)";
+const base = import.meta.env.BASE_URL;          // '/' on Vercel, '/regen-toolkit/' on Pages
+const withBase = (p) => base + String(p).replace(/^\//, "");
 ---
 
 <Page title={`${journey.label} · Regen Web3 Toolkit`} description={journey.tagline}>
   <article class="jp" style={`--jaccent:${accentVar}`}>
     <header class="jp__hero">
       <div class="wrap">
-        <a href="/" class="jp__back">← All journeys</a>
+        <a href={base} class="jp__back">← All journeys</a>
         <div class="jp__hero-grid">
           <div>
             <span class="jp__mark reveal" data-d="1" style={`color:${accentVar}`}><JourneyMark journey={journey.id} size={58} /></span>
@@ -31,7 +33,7 @@ const accentVar =
             <p class="jp__tagline reveal" data-d="3">{journey.tagline}</p>
             <p class="jp__intro reveal" data-d="4">{journey.intro}</p>
             <div class="jp__cta reveal" data-d="5">
-              <a class="btn btn--spark" href={`/${firstSlug}/`}>Begin the journey <span class="arrow">→</span></a>
+              <a class="btn btn--spark" href={withBase(`/${firstSlug}/`)}>Begin the journey <span class="arrow">→</span></a>
               <span class="jp__meta">
                 <strong>{stats.count}</strong> stops · <strong>~{stats.minutes}</strong> min · {stats.chapters} chapters
               </span>
@@ -59,7 +61,7 @@ const accentVar =
         <span class="eyebrow">Other journeys</span>
         <div class="jp__next-grid">
           {others.map((j) => (
-            <a class="jp__next-card card" href={j.href}>
+            <a class="jp__next-card card" href={withBase(j.href)}>
               <span class="jp__next-emoji" aria-hidden="true" style={`color:${accents[j.id]}`}><JourneyMark journey={j.id} size={30} /></span>
               <span class="jp__next-label">{j.label}</span>
               <span class="jp__next-tag">{j.tagline}</span>

@@ -27,6 +27,8 @@ const loop = [
   ["Work", "Process meetings, update registries, route TODOs to the backlog, draft against the master doc — each change tagged to a layer."],
   ["/close", "Writes the daily memory log, updates HEARTBEAT, commits, and pushes. Nothing leaves the session unrecorded."],
 ];
+const base = import.meta.env.BASE_URL;          // '/' on Vercel, '/regen-toolkit/' on Pages
+const withBase = (p) => base + String(p).replace(/^\//, "");
 ---
 
 <Page
@@ -43,7 +45,7 @@ const loop = [
       <p class="in-hero__lede reveal" data-d="3">
         Two things live in this one repository: the public knowledge site you're reading, and a
         coordination overlay — <strong>org-os</strong> — that the team works in to develop it. It's
-        also the first real instance of <a href="/framework/">the framework</a>: the same toolkit,
+        also the first real instance of <a href={withBase("/framework/")}>the framework</a>: the same toolkit,
         dogfooded on its own content. The registries below were filled by running this site's
         articles, journeys, and resource lists <em>through</em> the framework.
       </p>
@@ -188,7 +190,7 @@ const loop = [
           <p>
             Every change is tagged to one of the framework's ten layers — Resources, Source systems,
             Concepts, Options, Tracks, Deployments, Implementation, Claims, Evolution, Encyclopedia.
-            The counts above are those layers, filled. See <a href="/framework/">the framework</a> for
+            The counts above are those layers, filled. See <a href={withBase("/framework/")}>the framework</a> for
             what each one holds.
           </p>
         </div>
@@ -215,7 +217,7 @@ const loop = [
         own commons — that's the framework page.
       </p>
       <div class="in-cross__cta">
-        <a class="btn btn--ghost" href="/framework/">This instance runs the framework <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href={withBase("/framework/")}>This instance runs the framework <span class="arrow">→</span></a>
         <a class="btn btn--ghost" href="https://github.com/explorience/regen-toolkit">Read the repo on GitHub <span class="arrow">→</span></a>
       </div>
       <p class="in-cross__honest">

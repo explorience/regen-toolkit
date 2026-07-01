@@ -1,9 +1,11 @@
 ---
 import "../styles/theme.css";
 const { title = "Regen Web3 Toolkit", description = "Practical, jargon-free knowledge for communities using web3 to regenerate the world." } = Astro.props;
+const base = import.meta.env.BASE_URL;          // '/' on Vercel, '/regen-toolkit/' on Pages
+const withBase = (p) => base + String(p).replace(/^\//, "");
 const nav = [
-  { label: "Journeys", href: "/#journeys" },
-  { label: "Knowledge map", href: "/explorer/" },
+  { label: "Journeys", href: withBase("/#journeys") },
+  { label: "Knowledge map", href: withBase("/explorer/") },
 ];
 ---
 <!doctype html>
@@ -13,7 +15,7 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href={withBase("/favicon.svg")} type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,7 +35,7 @@ const nav = [
   <body class="fg-root">
     <header class="site-header">
       <div class="wrap site-header__row">
-        <a href="/" class="brand" aria-label="Regen Web3 Toolkit home">
+        <a href={base} class="brand" aria-label="Regen Web3 Toolkit home">
           <span class="brand__mark" aria-hidden="true">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
               <path d="M12 21c0-5 0-9 0-9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
@@ -68,14 +70,14 @@ const nav = [
         </div>
         <div>
           <h4 class="site-footer__h">Journeys</h4>
-          <a href="/start/newcomer/">Newcomer Orientation</a>
-          <a href="/start/local-node/">Local Node Builder</a>
-          <a href="/start/knowledge-commons/">Knowledge Commons Builder</a>
+          <a href={withBase("/start/newcomer/")}>Newcomer Orientation</a>
+          <a href={withBase("/start/local-node/")}>Local Node Builder</a>
+          <a href={withBase("/start/knowledge-commons/")}>Knowledge Commons Builder</a>
         </div>
         <div>
           <h4 class="site-footer__h">More</h4>
-          <a href="/explorer/">Knowledge map</a>
-          <a href="/what-is-blockchain/">Browse all articles</a>
+          <a href={withBase("/explorer/")}>Knowledge map</a>
+          <a href={withBase("/what-is-blockchain/")}>Browse all articles</a>
           <a href="https://github.com/explorience/regen-toolkit">Contribute on GitHub</a>
         </div>
       </div>

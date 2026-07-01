@@ -25,6 +25,8 @@ const kernelKeystones = [
 ];
 const layerSchemas = schemas.filter((s) => !kernelKeystones.includes(s));
 const presentKeystones = kernelKeystones.filter((s) => schemas.includes(s));
+const base = import.meta.env.BASE_URL;          // '/' on Vercel, '/regen-toolkit/' on Pages
+const withBase = (p) => base + String(p).replace(/^\//, "");
 
 const layers = [
   ["Resources", "Things worth pointing to — tools, docs, repos, people, orgs. The graph of what exists."],
@@ -193,7 +195,7 @@ const layers = [
         pre-loaded — replaceable if you'd rather host it your own way.
       </p>
       <div class="fw-adopt__cta">
-        <a class="btn btn--ghost" href="/regen-toolkit-os/">See the framework in use → this instance <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href={withBase("/regen-toolkit-os/")}>See the framework in use → this instance <span class="arrow">→</span></a>
         <a class="btn btn--ghost" href="https://github.com/explorience/regen-toolkit/tree/main/packages/toolkit-framework">Read the framework on GitHub <span class="arrow">→</span></a>
       </div>
       <p class="fw-adopt__honest">

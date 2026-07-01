@@ -2,6 +2,13 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import { journeyList } from './src/data/journeys.js';
 
+// GitHub Pages project site is served under /<repo>/ — set base+site only for the
+// Pages build (env GITHUB_PAGES=true, set by the workflow). The Vercel/main build
+// leaves both unset (base defaults to '/'), so nothing changes there.
+const onPages = process.env.GITHUB_PAGES === 'true';
+const pagesSite = onPages ? 'https://explorience.github.io' : 'https://regen-toolkit-site.vercel.app';
+const pagesBase = onPages ? '/regen-toolkit/' : undefined;
+
 // Build the sidebar from the journey definitions. Use `link` (not `slug`) so the
 // build never breaks on an article that's still being generated; the link simply
 // resolves once the file lands.
@@ -15,7 +22,8 @@ const journeySidebar = journeyList.map((j) => ({
 }));
 
 export default defineConfig({
-  site: 'https://regen-toolkit-site.vercel.app',
+  site: pagesSite,
+  base: pagesBase,
   integrations: [
     starlight({
       title: 'Regen Web3 Toolkit',
