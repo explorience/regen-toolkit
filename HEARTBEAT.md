@@ -28,7 +28,7 @@ Branch consolidation + site merge **done**. Now driven by the [**convergence pip
 
 Framework built + content processed + site forked (2 pages) + GAPS + master-doc proposals all done (2026-06-23 sessions). Share pack ready: [`docs/reports/2026-07-02-toolkit-framework-share-pack.md`](docs/reports/2026-07-02-toolkit-framework-share-pack.md) — tailored to Matty's/Rather's 29 Jun asks (tooling, Resource-Graph-as-portable-DB, artifact interconnection, opinionated decisions).
 
-- [ ] **Enable GitHub Pages** (Settings → Pages → Source: GitHub Actions) → the workflow deploys `regen-toolkit-os` to `https://explorience.github.io/regen-toolkit/` on push. Site is now base-aware (`/regen-toolkit/`), both builds verified. Makes the 2 pages (`/framework`, `/regen-toolkit-os`) clickable — no Vercel needed. *(One manual step; top priority for shareability.)*
+- [x] **Preview site LIVE** at `https://luizfernandosg.github.io/regen-toolkit/` (`/framework/` + `/regen-toolkit-os/`) — GitHub Pages via Actions on the `luizfernandosg/regen-toolkit` fork (explorience repo isn't admin-accessible to enable Pages). Site made base-aware; live production stays on `main`/Vercel. **Redeploy: `git push fork regen-toolkit-os`.** All 4 pages verified 200 + live schema/counts rendering.
 - [ ] **Send the 3 messages** (Matty DM · group · Rather) from the share pack — draft-and-present done; review + send
 - [ ] **Sync with Rather** — hand him the schema/JSON-LD substrate for knowledge-graphing/retrieval (piece 1) so he builds on it, not parallel; his website-UI/pluggable-content (piece 2) slots into `data/`
 - [ ] **Group — ratify the top-5 decisions** (R1, R7, R8, R3, D1) — async or on the call

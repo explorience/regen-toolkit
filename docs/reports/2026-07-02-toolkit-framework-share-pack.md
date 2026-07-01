@@ -30,7 +30,12 @@ This is the "something concrete" I said I'd bring. It's a first cut — the poin
 
 ## Try it in 5 minutes
 
-**Everyone (visual):** the two new pages — `/framework` (what the framework is + a *live* list of the 21 schemas and a green kernel-check) and `/regen-toolkit-os` (what this instance is), linked from Heenal's homepage. **Preview (GitHub Pages, once enabled): `https://explorience.github.io/regen-toolkit/`** → `/framework/` + `/regen-toolkit-os/`. *(A GitHub Actions workflow deploys the `regen-toolkit-os` branch there — no Vercel needed; the live site stays on `main`. Locally: `npm run dev`.)*
+**Everyone (visual) — LIVE:** the two new pages, linked from Heenal's homepage:
+- **`https://luizfernandosg.github.io/regen-toolkit/framework/`** — what the framework is + a *live* list of the 21 schemas and a green kernel-check
+- **`https://luizfernandosg.github.io/regen-toolkit/regen-toolkit-os/`** — what this instance is (live registry counts)
+- homepage: **`https://luizfernandosg.github.io/regen-toolkit/`**
+
+*(GitHub Pages preview deployed via GitHub Actions from a fork — `explorience/regen-toolkit` isn't admin-accessible to enable Pages, so it runs on `luizfernandosg/regen-toolkit`. The live production site stays on `main`/Vercel. Redeploy = `git push fork regen-toolkit-os`.)*
 
 **Technical (Rather / anyone with the repo):**
 ```bash
@@ -105,7 +110,7 @@ None of these are edits to your doc yet — they're proposals. Ratify → I fold
 
 ## Action items
 
-- [ ] **Luiz — enable GitHub Pages** (repo → Settings → Pages → Source: **GitHub Actions**). The workflow (`.github/workflows/deploy-pages.yml`) then deploys the `regen-toolkit-os` branch to `https://explorience.github.io/regen-toolkit/` on every push. *(The one manual step that makes the two pages clickable for Matty/Heenal — no Vercel needed.)*
+- [x] **Preview deployed + verified LIVE** at `https://luizfernandosg.github.io/regen-toolkit/` (`/framework/` + `/regen-toolkit-os/`), via GitHub Actions on the `luizfernandosg/regen-toolkit` fork. Redeploy on change: `git push fork regen-toolkit-os`.
 - [ ] **Luiz — send the messages below** (Matty DM + group + a note to Rather).
 - [ ] **Group — ratify the top-5** (async or on the call).
 - [ ] **Luiz — full iteration next week** (sync to Matty's v3, deepen, V3 review pass) → then the hub post.
