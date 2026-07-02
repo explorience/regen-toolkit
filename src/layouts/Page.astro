@@ -6,6 +6,8 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
 const nav = [
   { label: "Journeys", href: withBase("/#journeys") },
   { label: "Knowledge map", href: withBase("/explorer/") },
+  { label: "Toolkit Framework", href: withBase("/framework/") },
+  { label: "Regen-Toolkit-OS", href: withBase("/regen-toolkit-os/") },
 ];
 ---
 <!doctype html>
@@ -78,6 +80,8 @@ const nav = [
           <h4 class="site-footer__h">More</h4>
           <a href={withBase("/explorer/")}>Knowledge map</a>
           <a href={withBase("/what-is-blockchain/")}>Browse all articles</a>
+          <a href={withBase("/framework/")}>Toolkit Framework</a>
+          <a href={withBase("/regen-toolkit-os/")}>Regen-Toolkit-OS</a>
           <a href="https://github.com/explorience/regen-toolkit">Contribute on GitHub</a>
         </div>
       </div>
@@ -107,6 +111,10 @@ const nav = [
       }
       .site-nav a:not(.site-nav__gh):hover::after { width: 100%; }
       .site-nav__gh { color: var(--ink-faint); display: inline-flex; }
+      @media (max-width: 900px) {
+        /* the two longer 'system' links live in the homepage cards + footer too */
+        .site-nav a:nth-of-type(3), .site-nav a:nth-of-type(4) { display: none; }
+      }
       @media (max-width: 620px) {
         .site-nav { gap: 16px; font-size: .85rem; }
         .brand__text { font-size: 1.05rem; }
