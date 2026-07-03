@@ -27,13 +27,14 @@ Design constraints from the call:
 | 6 | org-os-kms | Promoted from scaffold to **real module, built in parallel** — developed against the ReFi DAO adoption, not speculatively. Agnostic core stays org-os-free. |
 | 7 | Site | **Thin slice now (B), growing into the dev environment (C)**: `/framework` page gains an ingestion view; both pages verified against the master doc; the C flow (process → preview graph → publish) stays additive on the same JSON-LD export. |
 | 8 | Build sequencing | **Vertical slice first, then parallel tracks** (machine depth ∥ adoption) — keystone-first + dialectical, per June's FEEDBACK-LOOPS discipline. |
+| 9 | Replication & federation | **One easy, first-class mechanism to replicate a KB (new or wrapping existing content) and federate it** — `cli init --new / --existing` + the federation handshake (§6a). The pilots (toolkit self-ingestion, ReFi DAO, ReFi BCN) don't just use it; they *are* its proof. |
 
 ## 3. Architecture — the package shape and the three seams
 
 ```
 packages/toolkit-framework/
   src/
-    index.mjs, cli.mjs            existing (CLI gains: init · ingest · store · review · kb)
+    index.mjs, cli.mjs            existing (CLI gains: init · ingest · store · review · kb · federate)
     workorder.mjs                 NEW — work-order lifecycle (create/claim/fulfill/accept)
     storage.mjs                   NEW — the adapter interface + registry
     adapters/
@@ -108,6 +109,21 @@ Properties: **idempotent** (work orders keyed by source hash — re-running `pre
 
 Every kms feature exists because an adoption needed it.
 
+### 6a. Replication & federation — the pilot mechanism
+
+Replicating a knowledge base must be **one easy, repeatable path**, not a bespoke setup per org. Two entry modes, one command:
+
+- **`cli init --new`** — stamp a fresh KB into any repo/folder: substrate (`kb/`, `.workorders/`, config), templates, skills wiring. Minutes to a working, ingestable KB.
+- **`cli init --existing <path>`** — wrap content that already exists (a site, a docs tree, a resource DB): stamps the substrate *around* it, then queues the existing corpus as the first ingestion (`register-source` → work orders). This is what every pilot actually is — toolkit (Heenal's site), ReFi DAO (podcasts/blog), ReFi BCN (its knowledge commons).
+
+**The federation handshake** — replication isn't complete until the new KB is *addressable by the network*:
+
+1. On init, the instance generates its **own `source-system` card** (identity, `return_path`, `reuse_conditions`, `how_to_credit`, currentness) — every KB is born a federation citizen, not retrofitted into one.
+2. **`cli federate add <peer>`** — register a peer KB as a `source-system` entry; **`cli federate check <peer>`** runs the kernel-profile **fork-compatibility check** (`isForkCompatible()`, already built) so two KBs know whether their ontologies compose before exchanging content.
+3. Peer content ingested later automatically carries the peer's source-system provenance + return path (K2/K5) — reciprocity is structural, not etiquette.
+
+org-os instances get this wrapped by `org-os-kms` (federation.yaml + RegenOS declaration); non-org-os adopters get the same mechanics bare. **The pilots are the mechanism's proof:** each one runs init → handshake → ingest, and by week 2 the three KBs (toolkit · ReFi DAO · ReFi BCN) form the first federated triangle — each registered as a source-system in the others, fork-compat verified.
+
 **Adoptions:** self-ingestion of this repo (week 1) → ReFi DAO (`refi-dao-os`: kms init → register podcast/blog sources → ingest slice ≈5–10 items → review → KB visible in its dashboard) → ReFi BCN (week 2, threads with the Andrea invite). Each produces an **adoption report**: every friction point becomes a reconciliation or fix (Loop 3).
 
 **Extraction (Sunday, once the contract suite locks the seams):** one-way publish of `packages/toolkit-framework` → public repo via sync script; monorepo stays the dev home. Consumption: `npx degit`/clone + `cli init`, documented in GETTING-STARTED. Adoptions consume the public repo from day one.
@@ -148,8 +164,9 @@ TDD throughout (June discipline; `superpowers:test-driven-development`):
 2. Both adapters passing the shared contract suite.
 3. Adoption report(s): gaps → reconciliations.
 4. This repo's `/framework` page rendering live ingestion state; both pages verified against the master doc.
+5. **Replication proven as one easy path:** each pilot KB stood up via `cli init --new/--existing` + federation handshake (own source-system card, `federate add`/`check` against peers) — no bespoke setup; the toolkit·ReFi-DAO(·ReFi-BCN) federated triangle forming.
 
-**Machine DoD (Sunday night):** vertical slice + machine depth complete, tests green, extracted, tagged `0.2.0`.
+**Machine DoD (Sunday night):** vertical slice + machine depth complete (incl. `init` + `federate` verbs), tests green, extracted, tagged `0.2.0`.
 
 ## 10. Feedback loops, risks, non-goals
 
