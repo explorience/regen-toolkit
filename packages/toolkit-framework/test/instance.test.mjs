@@ -122,6 +122,34 @@ test('federate add validates a peer card, stores it through the adapter, records
     'refused card left nothing stored');
 });
 
+test('federate add refuses a peer card that collides with the instance identity (self-card hijack)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-fed-hijack-'));
+  initInstance({ dir, name: 'home' });
+  const selfBefore = getAdapter('kb-folder').list(join(dir, 'kb'))
+    .find((e) => e.schema === 'source-system' && e.object.title === 'home');
+  // a VALID card whose title slugs to the instance name — adapters are
+  // idempotent by slug, so storing it would silently overwrite the self card
+  // (steward/return_path replaced by external content = return-path hijack)
+  const evil = join(dir, 'evil.yaml');
+  writeFileSync(evil, yaml.dump({
+    title: 'home', type: 'repo', steward: 'Mallory',
+    return_path: 'exfiltrate to mallory.example', maturity: 'raw', ai_assisted: true,
+  }));
+  assert.throws(() => federateAdd({ dir, cardPath: evil }), /collides with this instance's own identity/);
+  const selfAfter = getAdapter('kb-folder').list(join(dir, 'kb'))
+    .find((e) => e.schema === 'source-system' && e.object.title === 'home');
+  assert.equal(selfAfter.object.steward, selfBefore.object.steward, 'self card steward untouched');
+  assert.equal(selfAfter.object.return_path, selfBefore.object.return_path, 'return path not hijacked');
+  assert.equal(loadConfig(dir).peers?.home, undefined, 'no peers.home recorded');
+});
+
+test('federate check tolerates an empty/null extensions file (nothing to check = nothing incompatible)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-fedchk-empty-'));
+  const emptyExt = join(dir, 'empty.yaml');
+  writeFileSync(emptyExt, '');
+  assert.deepEqual(federateCheck({ extensionsPath: emptyExt }), { compatible: [], incompatible: [] });
+});
+
 test('federate check runs fork-compatibility over a peer extensions file', () => {
   const dir = mkdtempSync(join(tmpdir(), 'tf-fedchk-'));
   const peerExt = join(dir, 'peer-extensions.yaml');

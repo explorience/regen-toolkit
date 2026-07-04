@@ -119,3 +119,18 @@ test('cli federate add registers a peer card through the adapter — visible in 
   const idx = JSON.parse(run(['kb', 'index'], { cwd: dir }));
   assert.equal(idx.total, 2, 'self + peer both counted');
 });
+
+test('cli federate check fails cleanly on a missing extensions file (✗ + exit 1, no raw stack)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-fedchk-noent-'));
+  run(['init', dir, '--name', 'chkhome']);
+  assert.throws(() => run(['federate', 'check', '/nonexistent.yaml'], { cwd: dir, stdio: 'pipe' }),
+    (e) => e.status === 1 && /✗/.test(String(e.stderr)));
+});
+
+test('cli federate check on an empty extensions file succeeds with an honest 0/0', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-fedchk-empty-'));
+  run(['init', dir, '--name', 'chkhome']);
+  writeFileSync(join(dir, 'empty.yaml'), '');
+  const out = run(['federate', 'check', 'empty.yaml'], { cwd: dir });
+  assert.match(out, /fork-compatible: 0\/0/);
+});

@@ -197,11 +197,13 @@ switch (cmd) {
     } else if (sub === 'check') {
       const [extPath] = positional;
       if (!extPath) { console.error('usage: toolkit-framework federate check <peer-extensions.yaml>'); process.exit(2); }
-      const { compatible, incompatible } = federateCheck({ extensionsPath: extPath });
-      for (const n of compatible) console.log(`✓ ${n}`);
-      for (const n of incompatible) console.log(`✗ ${n} — no maps_to_core to a real core type`);
-      if (incompatible.length) process.exit(1);
-      console.log(`fork-compatible: ${compatible.length}/${compatible.length}`);
+      try {
+        const { compatible, incompatible } = federateCheck({ extensionsPath: extPath });
+        for (const n of compatible) console.log(`✓ ${n}`);
+        for (const n of incompatible) console.log(`✗ ${n} — no maps_to_core to a real core type`);
+        console.log(`fork-compatible: ${compatible.length}/${compatible.length + incompatible.length}`);
+        if (incompatible.length) process.exit(1);
+      } catch (e) { console.error(`✗ ${e.message}`); process.exit(1); }
     } else { console.error('usage: toolkit-framework federate <add|check> …'); process.exit(2); }
     break;
   }

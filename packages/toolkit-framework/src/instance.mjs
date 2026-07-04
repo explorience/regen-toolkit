@@ -124,11 +124,18 @@ export function federateAdd({ dir, cardPath }) {
   const card = yaml.load(readFileSync(cardPath, 'utf8'));
   const { valid, errors } = validateObject('source-system', card);
   if (!valid) throw new Error(`peer card invalid:\n  - ${errors.join('\n  - ')}`);
+  const slug = slugify(card.title);
+  // Adapters are idempotent by slug(title): a peer card slugging to the
+  // instance's own name would silently OVERWRITE the self card — external
+  // content replacing our steward/return_path through the primary federation
+  // verb (a return-path hijack). A peer can never be us; refuse before any write.
+  if (slug === slugify(cfg.instance)) {
+    throw new Error(`peer card collides with this instance's own identity ("${card.title}") — a peer cannot replace the self card`);
+  }
   const a = getAdapter(cfg.adapter);
   const targetDir = join(dir, cfg.target);
   const { stored } = a.store(targetDir, [{ schema: 'source-system', object: card }]);
   a.writeIndex(targetDir);
-  const slug = slugify(card.title);
   const peers = { ...(cfg.peers || {}), [slug]: stored[0] };
   writeFileSync(join(dir, 'kms.yaml'), yaml.dump({ ...cfg, peers }));
   return { slug, ref: stored[0] };
@@ -138,9 +145,12 @@ export function federateAdd({ dir, cardPath }) {
  * The federation handshake, part 2: does a peer's ontology extension set compose
  * with ours? Fork-compatibility (isForkCompatible, K4) over a peer-published
  * extensions file shaped `{ entities: { <name>: { maps_to_core } } }`.
+ * A missing file throws a clear error; an empty/null doc means nothing to
+ * check — { compatible: [], incompatible: [] }, i.e. vacuously compatible.
  */
 export function federateCheck({ extensionsPath }) {
-  const doc = yaml.load(readFileSync(extensionsPath, 'utf8'));
+  if (!existsSync(extensionsPath)) throw new Error(`peer extensions file not found: ${extensionsPath}`);
+  const doc = yaml.load(readFileSync(extensionsPath, 'utf8')) || {};
   const compatible = []; const incompatible = [];
   for (const [name, def] of Object.entries(doc.entities || {})) {
     (isForkCompatible(def) ? compatible : incompatible).push(name);
