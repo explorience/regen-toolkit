@@ -8,6 +8,11 @@ export function slugify(s) {
     .replace(/^-+|-+$/g, '');
 }
 
+/** The single definition of "awaiting review" — used by reviewQueue AND the derived index. */
+export function isAwaitingReview(object) {
+  return object.maturity === 'raw' || object.ai_assisted === true;
+}
+
 /**
  * Shared derived-index computation over an adapter's list() output.
  * Lives here (a leaf module) rather than storage.mjs so adapters can import it
@@ -21,7 +26,7 @@ export function deriveIndex(items, from) {
   for (const { schema, object } of items) {
     by_type[schema] = (by_type[schema] || 0) + 1;
     if (object.maturity) by_maturity[object.maturity] = (by_maturity[object.maturity] || 0) + 1;
-    if (object.maturity === 'raw' || object.ai_assisted === true) review_queue += 1;
+    if (isAwaitingReview(object)) review_queue += 1;
   }
   return { total: items.length, by_type, by_maturity, review_queue, generated_from: `derived — rebuildable from ${from}` };
 }

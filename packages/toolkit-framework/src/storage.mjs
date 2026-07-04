@@ -28,5 +28,5 @@ export function getAdapter(name) {
   return a;
 }
 
-// deriveIndex lives in util.mjs (a leaf module) — see its docstring for why.
-export { slugify, deriveIndex } from './util.mjs';
+// deriveIndex + isAwaitingReview live in util.mjs (a leaf module) — see its docstring for why.
+export { slugify, deriveIndex, isAwaitingReview } from './util.mjs';

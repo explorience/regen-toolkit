@@ -41,3 +41,22 @@ test('promote validates the maturity value against K1', () => {
   assert.throws(() => promote({ adapter: 'kb-folder', target: kb, ref, maturity: 'canonical', reviewer: 'x' }),
     /not a valid maturity/);
 });
+
+test('promote checks invariants BEFORE writing — failed demotion leaves disk untouched', () => {
+  const kb = mkdtempSync(join(tmpdir(), 'tf-rev-torn-'));
+  const a = getAdapter('kb-folder');
+  a.store(kb, [{ schema: 'source-system',
+    object: { title: 'Guided Wiki', type: 'wiki', steward: 'S', return_path: 'r',
+      maturity: 'reviewed', public_use: 'reviewed-for-guidance', ai_assisted: false } }]);
+  const [{ ref }] = getAdapter('kb-folder').list(kb).map((e) => e);
+  assert.throws(() => promote({ adapter: 'kb-folder', target: kb, ref, maturity: 'raw' }),
+    /would violate invariants — nothing written/);
+  const [{ object }] = a.list(kb);
+  assert.equal(object.maturity, 'reviewed', 'disk untouched after refused demotion');
+});
+
+test('promote rejects refs that are not in this KB (no arbitrary-file writes)', () => {
+  const { kb } = seed();
+  assert.throws(() => promote({ adapter: 'kb-folder', target: kb, ref: '/tmp/anything.yaml', maturity: 'raw' }),
+    /ref not found in this KB/);
+});
