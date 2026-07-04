@@ -1,0 +1,16 @@
+{
+  "total": 10,
+  "by_type": {
+    "claim-evidence": 1,
+    "concept-lineage": 1,
+    "public-use-boundary": 1,
+    "resource": 2,
+    "signal": 3,
+    "source-system": 2
+  },
+  "by_maturity": {
+    "raw": 9
+  },
+  "review_queue": 10,
+  "generated_from": "derived — rebuildable from objects/"
+}

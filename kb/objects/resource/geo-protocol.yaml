@@ -1,0 +1,26 @@
+title: Geo Protocol
+type: resource
+resource_type: protocol
+link_status: unresolved
+is_source_system_candidate: true
+notes: >-
+  Per Rather on the 2026-07-02 planning call — an SDK for adding content, a
+  lightweight abstracted Aragon governance interface, and a read API that can
+  pull content from your own space or any other Geo space and compose knowledge
+  across them. Built on IPFS + The Graph. Raised as the interop path for Koi's
+  two Portuguese apps (services analysis / digital-tools analysis) and as
+  candidate connective tissue for the infrastructure layer. No URL captured on
+  the call; resolve before promoting.
+related_concepts:
+  - interoperability
+  - opinionated-infrastructure
+toolkit_route: layer-10-infrastructure-and-substrate
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+  surfaced_by: Rather (Speaker 7, 2026-07-02 planning call)
+  transformation: synthesized
+  authorship: ai-assisted
+work_order: wo-f68a0669a899
+source_lineage: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md

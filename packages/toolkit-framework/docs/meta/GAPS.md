@@ -147,13 +147,16 @@ These are the R1–R10 reconciliations restated as plain-language decisions. For
 
 ## (c) Points-to-develop — what's a stub/scaffold vs done
 
+_Status refreshed 2026-07-05 at 0.2.0 (the "machine" iteration: work-order pipeline, storage adapters, init/federate, 7 skills, 100/100 tests)._
+
 Concrete next-steps with our recommendation:
 
-- **`org-os-kms` is a scaffold** (module + profile, 2/2 tests) — the real org-os binding is pending the first adoption. **Recommendation:** develop it against the ReFi DAO adoption (Loop 3).
-- **Crosswalks** (`octo` / `superbenefit` / `csis`) are **starters** — they need a real mapping pass. **Recommendation:** fill them during the V3 lift review.
-- **The lift ETL ran, but the resource DB needs the real V3 review pass** (28 CSVs / 12,456 rows; raw is never auto-promoted). **Recommendation:** schedule the human review pass before publishing lifted resources.
+- **`org-os-kms` is still a scaffold** (module + profile, 2/2 tests) — the real org-os binding is pending the first adoption. **Recommendation:** develop it against the ReFi DAO adoption (Loop 3, week 1 of the machine plan).
+- **Crosswalks** (`octo` / `superbenefit` / `csis`) are **starters** — they need a real mapping pass. The new `map-ontology` skill now defines the crosswalk workflow (`crosswalks/<source>.yaml`), but no schema/validator backs that format yet. **Recommendation:** fill them during the V3 lift review; add a crosswalk schema when the first real one (Gen Brasil) lands.
+- **The lift ETL ran, but the resource DB needs the real V3 review pass** (28 CSVs / 12,456 rows; raw is never auto-promoted). The `review-promote` skill + `review` CLI now exist to run that pass. **Recommendation:** schedule the human review pass before publishing lifted resources.
 - **Reward-economy is design-seed only.** **Recommendation:** keep it as a design-seed until an instance needs it.
-- **The 3 skills** (`capture-and-route`, `compose-journey`, `csis-review`) are **spec-complete but not exercised at scale**, and `architecture/type-tag-discipline.md` is concise. **Recommendation:** deepen them with worked examples as adoption surfaces them (the beta `docs/WORKED-EXAMPLE.md` is the first).
+- **Skills are now 7** (`ingest`, `register-source`, `review-promote`, `map-ontology` + the original 3) and the pipeline was **exercised on real content** (the 2026-07-02 planning call → 10 typed objects, first-pass accept). `capture-and-route`/`compose-journey` remain unexercised at scale. **Recommendation:** the toolkit self-ingestion + ReFi DAO adoption (week 1) are the scale test.
+- **The lift ETL is now one source type** (`csv-crosswalk`) of the general ingest pipeline — `prepare` classifies transcripts, documents, csv, url-lists.
 - **`data/option-library.yaml` is a 9-category stub; `data/sources.yaml` is mis-shaped** (do not build on it). **Recommendation:** enrich the option library to 10 real entries (already a backlog item); reshape sources to the `source-system` schema.
 
 ---

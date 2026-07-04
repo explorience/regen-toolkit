@@ -1,6 +1,6 @@
 # Framework | Instance — Separation Manifest
 
-> **Status:** draft for group review (2026-06-16). Plan [P1](../docs/plans/framework-instance-split.md). This is the **design contract**: every significant repo area mapped to **framework** (domain-agnostic, reusable), **instance** (ReFi Web3 content), or **both** (framework-shaped but currently holding ReFi content). **Mark, don't move** (P1 Phase 3) — physical extraction happens only after the prototype validates the boundary.
+> **Status:** draft for group review (2026-06-16). Plan [P1](../../../../docs/plans/framework-instance-split.md). This is the **design contract**: every significant repo area mapped to **framework** (domain-agnostic, reusable), **instance** (ReFi Web3 content), or **both** (framework-shaped but currently holding ReFi content). **Mark, don't move** (P1 Phase 3) — physical extraction happens only after the prototype validates the boundary.
 
 Legend: 🟦 framework · 🟨 instance · 🟩 both (mechanism = framework, content = instance)
 
@@ -41,7 +41,7 @@ Legend: 🟦 framework · 🟨 instance · 🟩 both (mechanism = framework, con
 2. Which 🟦 skills/scripts flow **upstream** to org-os-template vs stay toolkit-specific? (Luiz + org-os.)
 3. Does **CSIS** sit in the framework as a required layer or an optional overlay? (Durgadas; see P5.)
 4. Where does the **resource-graph + source-system schema** live — framework schema, instance data? → proposed: schema = framework, the V3 DB = instance.
-5. Lifecycle vs layers as the framework spine? → [D1](../docs/plans/architecture-lifecycle-vs-layers.md).
+5. Lifecycle vs layers as the framework spine? → [D1](../../../../docs/plans/architecture-lifecycle-vs-layers.md).
 
 ---
 

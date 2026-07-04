@@ -72,7 +72,7 @@ Instances stay interoperable + share directly.
 
 ## The honest sequencing implication
 
-Because Loop 4 (adoption) is the main driver and Loop 2 (reconciliation) is forced by building, the framework is built **deliberately minimal-but-real first** (the keystones K1–K8), then grown by: (a) resolving reconciliations as you hit them, (b) metabolizing what ReFi DAO/BCN adoption teaches. There is no "finish then ship." The build plan ([`docs/plans/framework-build/`](../docs/plans/framework-build/README.md)) is sequenced accordingly.
+Because Loop 4 (adoption) is the main driver and Loop 2 (reconciliation) is forced by building, the framework is built **deliberately minimal-but-real first** (the keystones K1–K8), then grown by: (a) resolving reconciliations as you hit them, (b) metabolizing what ReFi DAO/BCN adoption teaches. There is no "finish then ship." The build plan ([`docs/plans/framework-build/`](../../../../docs/plans/framework-build/README.md)) is sequenced accordingly.
 
 ---
 

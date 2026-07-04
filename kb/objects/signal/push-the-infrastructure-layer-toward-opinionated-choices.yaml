@@ -1,0 +1,21 @@
+title: Push the infrastructure layer toward opinionated choices
+type: signal
+signal_type: infrastructure
+affected_layer: layer-10-infrastructure-and-substrate
+interpretation: >-
+  The infrastructure layer is deliberately unopinionated ("throw everything
+  in"). Matty argued for more opinionated infrastructure choices — Geo Protocol
+  and AT Protocol as candidate connective tissue across everyone's work;
+  Durgadas wants to investigate. First concrete interop case: Koi's two
+  Portuguese apps (services analysis / digital-tools analysis) feeding the
+  schemas via Geo Protocol, per Rather.
+proposed_intervention: route
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+  surfaced_by: Matty (2026-07-02 planning call)
+  transformation: synthesized
+  authorship: ai-assisted
+work_order: wo-f68a0669a899
+source_lineage: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md

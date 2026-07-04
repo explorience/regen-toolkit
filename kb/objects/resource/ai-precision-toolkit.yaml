@@ -1,0 +1,23 @@
+title: AI Precision Toolkit
+type: resource
+resource_type: methodology-toolkit
+steward: Durgadas
+link_status: unresolved
+notes: >-
+  Announced by Durgadas on the 2026-07-02 planning call — release expected in
+  ~1-2 weeks; makes his research methodology (the one behind the failure-mode
+  analyses and the CSIS standards) available for use. No URL yet; update
+  link_status when released.
+related_concepts:
+  - structural-integrity
+  - frame-language
+toolkit_route: layer-3-resource-graph
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+  surfaced_by: Durgadas (2026-07-02 planning call)
+  transformation: synthesized
+  authorship: ai-assisted
+work_order: wo-f68a0669a899
+source_lineage: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md

@@ -2,7 +2,7 @@
 
 > Source: master doc **§10 "Infrastructure & Substrate"** (federation), **Principle 2
 > (attribution & return paths)**, **Principle 7 (regenerative obligation)**, **Principle
-> 10 (interoperability without forced uniformity)**. Carrier: `framework/FEEDBACK-LOOPS.md`
+> 10 (interoperability without forced uniformity)**. Carrier: `../docs/meta/FEEDBACK-LOOPS.md`
 > **Loop 4 / Loop 4b**.
 
 ## The stance: interconnect gardens, don't centralize
@@ -96,4 +96,4 @@ Instances stay interoperable and share **directly**, without a hub:
 | Exportable schema base | `frontmatter.yaml` (K3) + `core-entities.yaml` (K4, frozen) |
 | Fork compatibility | `extension-entities.yaml` `maps_to_core` + `architecture/fork-compatibility.md` |
 | Promotion gate | `update-proposal.yaml` `decision: promoted-to-core` + `csis-review` skill |
-| The loops themselves | `framework/FEEDBACK-LOOPS.md` (Loop 4 / 4b) |
+| The loops themselves | `../docs/meta/FEEDBACK-LOOPS.md` (Loop 4 / 4b) |

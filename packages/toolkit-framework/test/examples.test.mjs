@@ -13,7 +13,7 @@ const OBJECT_SCHEMAS = [
   'frontmatter', 'resource', 'source-system', 'option-entry', 'track', 'deployment',
   'implementation-record', 'claim-evidence', 'evolution-record', 'concept-lineage',
   'encyclopedia-entry', 'update-proposal', 'signal', 'contribution-record',
-  'provenance', 'public-use-boundary',
+  'provenance', 'public-use-boundary', 'work-order',
 ];
 
 test('examples/ directory exists', () => {

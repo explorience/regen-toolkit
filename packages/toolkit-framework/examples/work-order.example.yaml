@@ -1,0 +1,8 @@
+title: "ingest meetings/call.md"
+type: work-order
+source_path: meetings/call.md
+source_hash: 3d3f2c9b8a7e6d5c4b3a29181716151413121110efcdab8967452301fedcba98
+source_type: transcript
+target_schemas: [source-system, resource, signal]
+instructions: "Deep intake per the ingest skill: one shared thing becomes many entries."
+status: open

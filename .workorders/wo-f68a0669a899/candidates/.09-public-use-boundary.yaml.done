@@ -1,0 +1,21 @@
+# Boundary case for the high-risk claim-evidence entry (08) — high-risk trigger discipline.
+schema: public-use-boundary
+object:
+  title: Boundary — Durgadas structural-integrity claim from the 2026-07-02 call
+  tier: public-with-caveat
+  consent_note: >-
+    The claim "structure beats intention" is attributed to Durgadas from a
+    noisy dual-track auto-transcription of an internal planning call. Verify
+    the wording with him before quoting publicly, and cite his published
+    standards / AI Precision Toolkit (once released) rather than the call
+    transcript.
+  review_type: steward-review-before-public-use
+  notes: >-
+    Covers the claim-evidence entry "When intention and structure diverge,
+    structure beats intention" (same work order). Governance-relevant claims
+    from internal calls carry high_risk and this boundary by default.
+  ai_assisted: true
+  provenance:
+    origin: "packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md"
+    transformation: synthesized
+    authorship: ai-assisted

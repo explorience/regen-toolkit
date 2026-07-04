@@ -25,3 +25,33 @@ A review report: per-item findings with a recommended **handling mode** (cited-r
 ## Guardrail
 
 Until the open CSIS decisions resolve, do not assert conformance. Draft-and-present any public-facing output.
+
+## Mode: frame-language-audit
+
+Grounding (2026-07-02 planning call, paraphrased — the exact wording comes from
+a noisy auto-transcription and is **not verified for public quoting**; see the
+KB's claim-evidence record + its public-use-boundary companion before citing):
+Frame-1 terms can make a thing *structurally* not regenerative — the point is
+structural, not semantic; where intention and structure diverge,
+**structure beats intention**. This mode audits language as structure, per CSIS's
+informed-not-conformant posture (R7). Cite the published CSIS/Craft standards
+(and the AI Precision Toolkit once released) rather than call transcripts.
+
+**Scope:** any doc set — site pages, framework docs, the master doc, KB objects.
+
+1. **Scan** for Frame-1 markers: *governance, accountability, compliance,
+   enforcement, stakeholder, incentivize, capture (of value), leverage,
+   scale (as verb), best practice, human resources* — and power-over phrasings
+   ("ensure members comply", "hold contributors accountable").
+2. **For each hit, judge structurally, not lexically:** does the surrounding
+   mechanism actually create hierarchy/extraction, or is it a loose word on a
+   sound structure? Only the first is a finding; the second is a wording note.
+3. **Propose the regenerative reframe** with the mechanism named: e.g.
+   "governance options" → "coordination agreements / decision-making patterns";
+   "accountability" → "reciprocity + visible provenance"; "enforce" →
+   "make structurally impossible or visibly divergent".
+4. **Report** as a table (term · location · structural? · proposed reframe ·
+   owner) and emit `signal` candidates for structural findings. Master-doc
+   findings batch as draft-and-present proposals (Loop 2) — never edit it.
+5. **First exercise targets:** the framework package's own docs + the two site
+   pages (`/framework`, `/regen-toolkit-os`) — per the 2026-07-02 action item.

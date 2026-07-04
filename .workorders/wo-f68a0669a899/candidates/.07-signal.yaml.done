@@ -1,0 +1,23 @@
+# Durgadas's Frame 1 warning — a structural point, not a stylistic nit.
+schema: signal
+object:
+  title: Frame 1 language warning — audit governance/accountability terms
+  type: signal
+  signal_type: content
+  affected_layer: cross-cutting (master doc + framework copy)
+  interpretation: >-
+    Durgadas flagged the continued use of Frame 1 terms ("governance",
+    "accountability") as making the artifact structurally not regenerative —
+    "it seems like a semantic point, but it's really a structural point."
+    Frame Language / CSIS exist to keep intention and structure aligned. The
+    framework currently being built uses those very terms, so this is a real
+    audit item across the master doc and framework copy, not a wording
+    preference.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: "packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md"
+    surfaced_by: Durgadas (2026-07-02 planning call)
+    transformation: synthesized
+    authorship: ai-assisted

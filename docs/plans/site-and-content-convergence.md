@@ -85,7 +85,7 @@
 
 **Files:** Create `src/pages/framework.astro` (or `src/content/docs/framework.md` — see Step 7.3). Modify `astro.config.mjs`.
 
-- [ ] **Step 7.1:** Build a `/framework` page using the site's layout (`src/layouts/Page.astro`). Content (derive from `packages/toolkit-framework/README.md` + `framework/PLACEMENT.md`): what the framework is (the reusable, org-os-agnostic core), the kernel + layers, that it's **forkable + interoperable** (the base guideline), how to adopt (the `@org-os/kms` profile). Anti-hype, jargon-free (match Heenal's voice).
+- [ ] **Step 7.1:** Build a `/framework` page using the site's layout (`src/layouts/Page.astro`). Content (derive from `packages/toolkit-framework/README.md` + `packages/toolkit-framework/docs/meta/PLACEMENT.md`): what the framework is (the reusable, org-os-agnostic core), the kernel + layers, that it's **forkable + interoperable** (the base guideline), how to adopt (the `@org-os/kms` profile). Anti-hype, jargon-free (match Heenal's voice).
 - [ ] **Step 7.2 (live data option):** At build time, import the framework API and render the **live schema list + kernel-check status**: `import { listSchemas, validateKernel } from '../../packages/toolkit-framework/src/index.mjs'` → show the 21 schemas + "kernel consistent ✓". (Verify Astro can import the sibling ESM package; if the relative path is awkward, copy a generated `framework-manifest.json` via a prebuild step instead.)
 - [ ] **Step 7.3 (routing):** If a standalone `.astro` page conflicts with Starlight's content routing, instead author `src/content/docs/framework.md` (a Starlight doc) + add it to the sidebar under a new "About the system" group. Pick whichever builds cleanly.
 - [ ] **Step 7.4:** `npm run build` → the `/framework` (or `/framework/`) page renders. **Commit.**
@@ -126,5 +126,5 @@
 
 1. **"Fork" interpretation:** extend Heenal's site in-place on `regen-toolkit-os` (recommended) vs a separate deploy. Confirm the `site:` URL / preview deploy with the operator.
 2. **Live deploy unchanged:** `main` keeps serving Heenal's site; this branch is the framework-aware version.
-3. **This is the dialectic in miniature:** processing ReFi Web3's own content through the framework is the first real adoption (SP11 rehearsal) — capture the framework gaps it surfaces into `framework/RECONCILIATIONS.md` + new Update Proposals (FEEDBACK-LOOPS Loop 4) before doing ReFi DAO.
+3. **This is the dialectic in miniature:** processing ReFi Web3's own content through the framework is the first real adoption (SP11 rehearsal) — capture the framework gaps it surfaces into `packages/toolkit-framework/docs/meta/RECONCILIATIONS.md` + new Update Proposals (FEEDBACK-LOOPS Loop 4) before doing ReFi DAO.
 4. **frontmatter parser:** prefer `gray-matter` if already a dep; else a minimal frontmatter splitter (no new dep) consistent with the framework's zero-build ethos.

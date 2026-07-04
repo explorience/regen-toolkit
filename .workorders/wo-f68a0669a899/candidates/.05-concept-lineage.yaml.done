@@ -1,0 +1,33 @@
+# Framework-as-package — the direction the 2026-07-02 biweekly converged on.
+schema: concept-lineage
+object:
+  title: Framework-as-package
+  type: concept-lineage
+  short_description: >-
+    The toolkit framework as a portable package you drop into a repository, so
+    agents can process unstructured resources and data into a knowledge base
+    that fits the toolkit's ontology, architecture, and functioning.
+  source_traditions: [software packaging, knowledge management, agentic workflows]
+  toolkit_usage: >-
+    Adopted direction (2026-07-02 planning call, proposed by Luiz). Recommended
+    workflow — open a repo, consolidate existing data/resources, bring the
+    framework in, agents process the data per the framework, out comes a
+    structured knowledge base (ontology, tagging, structure). Initial testable
+    version targeted ~2 weeks out; first real cases are Koi's Gen Brasil
+    Commons artifacts and Durgadas's Proof of Coordination protocol.
+  important_distinctions:
+    - ingestion-is-not-storage (Durgadas's design constraint — keep them separable)
+    - framework-vs-instance (the package is the framework; each repo it lands in is an instance)
+  tensions:
+    - portability-vs-opinionated-infrastructure (drop-in-anywhere vs. the push for opinionated infra choices)
+  risks_of_flattening: >-
+    Reducing the framework to a file-format converter — losing the ontology,
+    provenance, review states, and return paths that make the knowledge base a
+    commons rather than a pile.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: "packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md"
+    surfaced_by: Luiz Fernando (2026-07-02 planning call)
+    transformation: synthesized
+    authorship: ai-assisted

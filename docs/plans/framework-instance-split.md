@@ -9,9 +9,9 @@
 
 Extract the **domain-agnostic framework** into a **standalone, org-os-agnostic package** — `packages/toolkit-framework` — that encompasses the full master-doc framework + agentic skills and is adoptable in any context (with or without org-os), plus a separate **replaceable `org-os-kms`** integration module. So that (a) any org can adopt the framework as a portable artifact, (b) it's usable without org-os, and (c) the group grasps it as a concrete, runnable package rather than a 30k-line doc.
 
-> **Architecture (per [`framework/PLACEMENT.md`](../../framework/PLACEMENT.md) v3):** modular, inverted dependency — `packages/toolkit-framework` (agnostic core) ← `org-os-kms` (module + org-os profile, framework pre-loaded) ← self-contained instances, seeding a federated network of forkable-but-interoperable commons.
+> **Architecture (per [`PLACEMENT.md`](../../packages/toolkit-framework/docs/meta/PLACEMENT.md) v3):** modular, inverted dependency — `packages/toolkit-framework` (agnostic core) ← `org-os-kms` (module + org-os profile, framework pre-loaded) ← self-contained instances, seeding a federated network of forkable-but-interoperable commons.
 >
-> **DETAILED BUILD PLAN: [`docs/plans/framework-build/README.md`](framework-build/README.md)** — SP0–SP11 waves, grounded in [`framework/COVERAGE.md`](../../framework/COVERAGE.md) (full master-doc↔package map, keystones K1–K8, reconciliations R1–R10) + [`framework/FEEDBACK-LOOPS.md`](../../framework/FEEDBACK-LOOPS.md). This plan (P1) is now the strategic frame; the build-plan set is the executable detail.
+> **DETAILED BUILD PLAN: [`docs/plans/framework-build/README.md`](framework-build/README.md)** — SP0–SP11 waves, grounded in [`COVERAGE.md`](../../packages/toolkit-framework/docs/meta/COVERAGE.md) (full master-doc↔package map, keystones K1–K8, reconciliations R1–R10) + [`FEEDBACK-LOOPS.md`](../../packages/toolkit-framework/docs/meta/FEEDBACK-LOOPS.md). This plan (P1) is now the strategic frame; the build-plan set is the executable detail.
 
 ## Context
 
@@ -39,7 +39,7 @@ This is **already the praxis of the group** — Heenal's journey site (the frame
 The framework tree shape depends on whether the spine is the **10 layers** (current per-layer docs) or the **Knowledge Lifecycle** (Capture→…→Interoperate, recommended by the master doc's Structure Options as "Small Core, Large Appendices + Lifecycle spine"). **Do not build the tree until D1 is decided.** See [`architecture-lifecycle-vs-layers.md`](architecture-lifecycle-vs-layers.md). Surface at the next biweekly with the group.
 
 ### Phase 1 — Separation manifest (the design artifact)
-Produce `framework/SEPARATION.md` (started in the scaffold): an explicit line-item mapping of every significant repo area → framework | instance | both. This is the brainstorming output and the contract for the extraction. Get Matty/Heenal/Durgadas eyes on it before moving files.
+Produce `packages/toolkit-framework/docs/meta/SEPARATION.md` (started in the scaffold): an explicit line-item mapping of every significant repo area → framework | instance | both. This is the brainstorming output and the contract for the extraction. Get Matty/Heenal/Durgadas eyes on it before moving files.
 
 ### Phase 2 — Scaffold `packages/toolkit-framework` (agnostic core)
 Create the package skeleton per PLACEMENT §4: `package.json` (neutral scope, minimal deps), `src/{index,cli}`, `architecture/` · `schemas/` · `process/` · `site/` · `skills/` · `templates/instance/`. Populate `architecture/ARCHITECTURE.md` from the master doc framework sections (distilled, NOT a copy) once **D1** sets the spine. Ship the first **agentic skill** (`knowledge-commons-init` or `capture-and-route`) to prove agnostic operation.
@@ -61,7 +61,7 @@ Hand off to [`framework-prototype-demo.md`](framework-prototype-demo.md): the ru
 
 ## Deliverables
 - `framework/README.md` — what the framework is + how to instantiate (scaffolded)
-- `framework/SEPARATION.md` — the framework|instance manifest (scaffolded; to be filled in brainstorming)
+- `packages/toolkit-framework/docs/meta/SEPARATION.md` — the framework|instance manifest (scaffolded; to be filled in brainstorming)
 - `framework/ARCHITECTURE.md` — distilled instantiable architecture spec (from MASTER.md)
 - `framework/templates/` — instance skeleton
 - `framework/INDEX.md` — pointer map to in-place framework assets

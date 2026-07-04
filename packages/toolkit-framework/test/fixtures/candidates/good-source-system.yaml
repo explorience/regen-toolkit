@@ -1,0 +1,15 @@
+schema: source-system
+object:
+  title: Fixture Wiki
+  type: wiki
+  steward: Fixture Collective
+  url: https://fixture-wiki.example.org
+  return_path: contribute via pull requests
+  reuse_conditions: CC-BY-SA
+  update_rhythm: monthly
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: "test/fixtures/transcript.md"
+    transformation: synthesized
+    authorship: ai-assisted

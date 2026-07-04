@@ -1,0 +1,29 @@
+title: When intention and structure diverge, structure beats intention
+type: claim-evidence
+claim: >-
+  "When they diverge, the structure beats your intention every time, in every
+  failure mode." (Durgadas, 2026-07-02 planning call)
+evidence: >-
+  Durgadas's failure-mode analysis of hundreds of organizations, including
+  DAO-space cases he cited on the call (The DAO, Aave, Nouns, ENS — pillaged or
+  being pillaged by single actors / small groups); he reports structure winning
+  100% of the time in his corpus.
+interpretation: >-
+  Language and structural choices in the framework and master doc are design
+  decisions with failure-mode consequences, not copywriting. Motivates the Frame
+  1 audit signal and the CSIS/Craft/Valcre standards ingestion.
+uncertainty: >-
+  Evidence base is Durgadas's own research; the corpus and methodology have not
+  been independently reviewed here. His AI Precision Toolkit (release ~1-2 weeks
+  out) is expected to open the methodology. Quote wording comes from a noisy
+  dual-track auto-transcription.
+high_risk: true
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+  surfaced_by: Durgadas (2026-07-02 planning call)
+  transformation: synthesized
+  authorship: ai-assisted
+work_order: wo-f68a0669a899
+source_lineage: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
