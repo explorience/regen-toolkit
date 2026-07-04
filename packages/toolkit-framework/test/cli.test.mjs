@@ -75,12 +75,16 @@ test('cli ingest accept fails loudly on a bad candidate (exit ≠ 0, notes saved
   mkdirSync(cdir, { recursive: true });
   copyFileSync(join(CANDIDATES, 'bad-maturity.yaml'), join(cdir, 'bad-maturity.yaml'));
   run(['ingest', 'fulfill', id, '--dir', wodir]);
-  assert.throws(() => run(['ingest', 'accept', id, '--dir', wodir], { stdio: 'pipe' }));
+  assert.throws(() => run(['ingest', 'accept', id, '--dir', wodir], { stdio: 'pipe' }),
+    (e) => e.status === 1, 'domain failure must exit 1');
   const wo = yaml.load(readFileSync(join(wodir, `${id}.yaml`), 'utf8'));
   assert.ok(wo.error_notes.includes('maturity must be "raw"'));
 });
 
 test('cli ingest rejects malformed work-order ids (no path fishing)', () => {
   const dir = mkdtempSync(join(tmpdir(), 'tf-cli-id-'));
-  assert.throws(() => run(['ingest', 'claim', '../escape', '--dir', join(dir, '.workorders')], { stdio: 'pipe' }));
+  // must exit 2 (usage error from the id-shape guard) — NOT 1 from a downstream
+  // "not found" throw, which would mean the guard was bypassed or removed
+  assert.throws(() => run(['ingest', 'claim', '../escape', '--dir', join(dir, '.workorders')], { stdio: 'pipe' }),
+    (e) => e.status === 2 && /usage/.test(String(e.stderr)), 'id guard must reject with usage + exit 2');
 });
