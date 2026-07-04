@@ -7,7 +7,7 @@ import yaml from 'js-yaml';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const skillsDir = join(here, '..', 'skills');
-const SKILLS = ['capture-and-route', 'compose-journey', 'csis-review', 'ingest'];
+const SKILLS = ['capture-and-route', 'compose-journey', 'csis-review', 'ingest', 'register-source', 'review-promote'];
 
 test('every agentic skill has a SKILL.md with well-formed, agnostic frontmatter', () => {
   for (const s of SKILLS) {
