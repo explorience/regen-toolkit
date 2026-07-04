@@ -6,6 +6,7 @@ import { join, dirname } from 'node:path';
 import yaml from 'js-yaml';
 import { slugify } from '../util.mjs';
 import { toJsonLdContext } from '../index.mjs';
+import { hashContent } from '../workorder.mjs';
 
 function atomicWrite(path, text) {
   mkdirSync(dirname(path), { recursive: true });
@@ -14,8 +15,14 @@ function atomicWrite(path, text) {
   renameSync(tmp, path);
 }
 
+function safeSchema(schema) {
+  if (!/^[a-z0-9][a-z0-9-]*$/.test(String(schema))) throw new Error(`invalid schema name for storage: ${JSON.stringify(schema)}`);
+  return schema;
+}
+
 function objectPath(target, schema, object) {
-  return join(target, 'objects', schema, `${slugify(object.title || object.id || 'untitled')}.yaml`);
+  const slug = slugify(object.title || object.id || '') || `untitled-${hashContent(yaml.dump(object)).slice(0, 8)}`;
+  return join(target, 'objects', safeSchema(schema), `${slug}.yaml`);
 }
 
 export const kbFolderAdapter = {

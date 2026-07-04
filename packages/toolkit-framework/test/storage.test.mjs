@@ -25,6 +25,22 @@ test('slugify produces stable file-safe slugs', () => {
   assert.equal(slugify('Fixture Wiki — a Source!'), 'fixture-wiki-a-source');
 });
 
+test('non-Latin titles never degenerate to an empty slug / hidden file', () => {
+  const kb = mkdtempSync(join(tmpdir(), 'tf-kb-slug-'));
+  const a = getAdapter('kb-folder');
+  const { stored } = a.store(kb, [
+    { schema: 'source-system', object: { title: '知识共享', type: 'wiki', steward: 'S', return_path: 'r' } },
+  ]);
+  assert.ok(!stored[0].endsWith('/.yaml'), `got hidden file: ${stored[0]}`);
+  assert.equal(a.list(kb).length, 1);
+});
+
+test('store rejects path-escaping schema names', () => {
+  const kb = mkdtempSync(join(tmpdir(), 'tf-kb-schema-'));
+  const a = getAdapter('kb-folder');
+  assert.throws(() => a.store(kb, [{ schema: '../../evil', object: { title: 'x' } }]), /invalid schema name/);
+});
+
 test('kb-folder stores, lists, updates, indexes — atomic, idempotent, derived index', () => {
   const kb = mkdtempSync(join(tmpdir(), 'tf-kb-'));
   const a = getAdapter('kb-folder');
