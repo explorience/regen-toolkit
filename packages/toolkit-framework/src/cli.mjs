@@ -9,6 +9,7 @@ import { parseCsv, liftRows } from './lift.mjs';
 import { prepare, acceptWorkOrder } from './ingest.mjs';
 import { loadWorkOrders, loadWorkOrder, transition, saveWorkOrder } from './workorder.mjs';
 import { getAdapter } from './storage.mjs';
+import { reviewQueue, promote } from './review.mjs';
 
 const require = createRequire(import.meta.url);
 const { version } = require('../package.json');
@@ -140,6 +141,24 @@ switch (cmd) {
     break;
   }
 
+  case 'review': {
+    const [sub, ...rest] = args;
+    const { flags, positional } = parseFlags(rest, { adapter: 'kb-folder', target: 'kb' });
+    if (sub === 'list') {
+      const q = reviewQueue({ adapter: flags.adapter, target: flags.target });
+      for (const { schema, object, ref } of q) console.log(`${ref}\n  ${schema} · "${object.title}" · maturity=${object.maturity} ai_assisted=${object.ai_assisted}`);
+      console.log(`${q.length} awaiting review`);
+    } else if (sub === 'promote') {
+      const [ref] = positional;
+      if (!ref || !flags.maturity) { console.error('usage: toolkit-framework review promote <ref> --maturity <value> [--reviewer <name>]'); process.exit(2); }
+      try {
+        const { object } = promote({ adapter: flags.adapter, target: flags.target, ref, maturity: flags.maturity, reviewer: flags.reviewer, date: flags.date });
+        console.log(`✓ "${object.title}" → ${object.maturity}${flags.reviewer ? ` (reviewed by ${flags.reviewer})` : ''}`);
+      } catch (e) { console.error(`✗ ${e.message}`); process.exit(1); }
+    } else { console.error('usage: toolkit-framework review <list|promote> …'); process.exit(2); }
+    break;
+  }
+
   default:
     console.log('toolkit-framework — Regen Knowledge Commons Toolkit framework');
     console.log('commands:');
@@ -153,5 +172,6 @@ switch (cmd) {
     console.log('  ingest list|claim|fulfill|accept  drive the work-order lifecycle');
     console.log('  store [--adapter --target]      write accepted objects via a storage adapter');
     console.log('  kb index [--adapter --target]   print the derived KB index');
+    console.log('  review list|promote <ref>       operate the review queue (human gate)');
     if (cmd && cmd !== 'help' && cmd !== '--help') process.exit(2);
 }
