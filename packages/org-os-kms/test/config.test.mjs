@@ -28,3 +28,8 @@ test('throws when adapter or target is missing', () => {
   const dir = tmpInstance('instance: t\n');
   assert.throws(() => loadKmsConfig(dir), /missing "adapter"/);
 });
+
+test('throws when target is missing but adapter is present', () => {
+  const dir = tmpInstance('instance: t\nadapter: repo-data\n');
+  assert.throws(() => loadKmsConfig(dir), /missing "target"/);
+});
