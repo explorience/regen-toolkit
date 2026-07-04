@@ -1,6 +1,7 @@
-// src/ingest.mjs — the deterministic half of ingestion (seam 1, CLI side):
-// classify → chunk → emit idempotent work orders. The semantic half is the
-// agent's (skills/ingest); acceptance is acceptWorkOrder (Task 4).
+// src/ingest.mjs — both ends of seam 1's CLI side: `prepare` sends work out
+// (classify → chunk → emit idempotent work orders) and `acceptWorkOrder` takes
+// results back in (validate candidates, stamp lineage, atomic accept). The
+// semantic half between the two is the agent's (skills/ingest).
 import {
   readFileSync, readdirSync, statSync, existsSync, writeFileSync, mkdirSync, renameSync,
 } from 'node:fs';
@@ -9,7 +10,7 @@ import yaml from 'js-yaml';
 import {
   makeWorkOrder, saveWorkOrder, loadWorkOrders, loadWorkOrder, transition,
 } from './workorder.mjs';
-import { validateObject, checkInvariants, listSchemas, schemaFields } from './index.mjs';
+import { validateObject, checkInvariants, listSchemas, loadSchema, schemaFields } from './index.mjs';
 
 const CHUNK_MAX = 24000; // chars — best-effort split at heading, then paragraph boundaries; keeps one work order comfortably in an agent's working set
 const INGESTIBLE = new Set(['.md', '.markdown', '.txt', '.csv']);
@@ -105,6 +106,8 @@ export function prepare({ path, workOrdersDir }) {
 }
 
 /** Load an order's candidate files: .workorders/<id>/candidates/*.yaml, each { schema, object }.
+ * Keys are picked EXPLICITLY (never spread) so a candidate document cannot inject
+ * `file` (path traversal) or `parse_error` — the agent controls only schema + object.
  * A file that fails to parse comes back as { file, parse_error } — never throws,
  * so the accept gate can turn agent-written garbage into error_notes, not a crash. */
 export function loadCandidates(workOrdersDir, id) {
@@ -112,7 +115,8 @@ export function loadCandidates(workOrdersDir, id) {
   if (!existsSync(dir)) return [];
   return readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((file) => {
     try {
-      return { file, ...yaml.load(readFileSync(join(dir, file), 'utf8')) };
+      const doc = yaml.load(readFileSync(join(dir, file), 'utf8'));
+      return { file, schema: doc?.schema, object: doc?.object };
     } catch (e) {
       return { file, parse_error: e.message };
     }
@@ -138,11 +142,20 @@ export function acceptWorkOrder({ workOrdersDir, id }) {
   if (!candidates.length) return { accepted: false, errors: [`no candidates found for ${id}`], objects: [] };
 
   const errors = [];
-  const known = new Set(listSchemas());
+  // Candidates may only target entry/mixin schemas — structural schemas
+  // (core-entities, kernel-profile, …) have no `fields` and would validate
+  // vacuously; work-order is pipeline state; frontmatter is the abstract base.
+  const all = new Set(listSchemas());
+  const known = new Set(listSchemas().filter((n) => {
+    if (n === 'work-order' || n === 'frontmatter') return false; // pipeline state / abstract base
+    const s = loadSchema(n);
+    return Boolean(s.fields && Object.keys(s.fields).length);    // entry/mixin schemas only
+  }));
   for (const c of candidates) {
     const where = (msg) => `${c.file}: ${msg}`;
     if (c.parse_error) { errors.push(where(`invalid YAML — ${c.parse_error}`)); continue; }
-    if (!c.schema || !known.has(c.schema)) { errors.push(where(`unknown schema "${c.schema}"`)); continue; }
+    if (!c.schema || !all.has(c.schema)) { errors.push(where(`unknown schema "${c.schema}"`)); continue; }
+    if (!known.has(c.schema)) { errors.push(where(`not an ingestible schema "${c.schema}"`)); continue; }
     if (!c.object || typeof c.object !== 'object') { errors.push(where('missing object')); continue; }
     const v = validateObject(c.schema, c.object);
     if (!v.valid) errors.push(...v.errors.map(where));
@@ -163,11 +176,15 @@ export function acceptWorkOrder({ workOrdersDir, id }) {
   mkdirSync(acceptedDir, { recursive: true });
   const objects = [];
   for (const c of candidates) {
+    // The agent MAY refine source_lineage (e.g. per-chunk page/section refs);
+    // work_order is the tamper-proof link back to the order the CLI stamps itself.
     const object = { ...c.object, work_order: id, source_lineage: c.object.source_lineage || wo.source_path };
     writeFileSync(join(acceptedDir, c.file), yaml.dump({ schema: c.schema, object }));
     renameSync(join(workOrdersDir, id, 'candidates', c.file), join(workOrdersDir, id, 'candidates', `.${c.file}.done`));
     objects.push({ schema: c.schema, object });
   }
-  saveWorkOrder(workOrdersDir, transition(wo, 'accepted'));
+  // Strip stale error_notes from earlier failed attempts — the accepted order is clean.
+  const { error_notes: _stale, ...clean } = wo;
+  saveWorkOrder(workOrdersDir, transition(clean, 'accepted'));
   return { accepted: true, errors: [], objects };
 }

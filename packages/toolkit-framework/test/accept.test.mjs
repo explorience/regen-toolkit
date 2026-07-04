@@ -54,6 +54,35 @@ test('accept enforces the born-rules: ai_assisted true + maturity raw + provenan
   assert.match(all, /provenance\.origin/);
 });
 
+test('accept rejects file-key injection — candidate cannot control its own path (C1)', () => {
+  const { woDir, id } = setup(['good-source-system.yaml']);
+  writeFileSync(join(woDir, id, 'candidates', 'evil.yaml'),
+    'file: ../../../escaped.yaml\nschema: source-system\nobject:\n  title: Evil\n  type: wiki\n  steward: X\n  return_path: r\n  maturity: raw\n  ai_assisted: true\n  provenance:\n    origin: nowhere\n');
+  const res = acceptWorkOrder({ workOrdersDir: woDir, id });
+  // the injected file key must be ignored: candidate processes under its REAL name
+  if (res.accepted) {
+    assert.ok(existsSync(join(woDir, id, 'accepted', 'evil.yaml')), 'accepted under real filename');
+    assert.ok(!existsSync(join(woDir, 'escaped.yaml')), 'no traversal write');
+  }
+});
+
+test('accept rejects structural/meta schemas as candidate targets (C2)', () => {
+  const { woDir, id } = setup(['good-source-system.yaml']);
+  writeFileSync(join(woDir, id, 'candidates', 'meta.yaml'),
+    'schema: core-entities\nobject:\n  anything: goes\n');
+  const res = acceptWorkOrder({ workOrdersDir: woDir, id });
+  assert.equal(res.accepted, false);
+  assert.ok(res.errors.some((e) => e.includes('not an ingestible schema')), res.errors.join(' | '));
+});
+
+test('accept still allows mixin candidates (public-use-boundary)', () => {
+  const { woDir, id } = setup(['good-source-system.yaml']);
+  writeFileSync(join(woDir, id, 'candidates', 'pub.yaml'),
+    'schema: public-use-boundary\nobject:\n  tier: restricted-working-notes\n');
+  const res = acceptWorkOrder({ workOrdersDir: woDir, id });
+  assert.equal(res.accepted, true, JSON.stringify(res.errors));
+});
+
 test('accept survives malformed candidate YAML — graceful per-file error, notes saved', () => {
   const { woDir, id } = setup(['good-source-system.yaml']);
   writeFileSync(join(woDir, id, 'candidates', 'broken.yaml'), 'schema: [unclosed\nobject:\n  title: broken\n');
