@@ -7,21 +7,24 @@
 // see objects/<schema>/*.yaml — a loose file would be invisible to `kb index`
 // and to review/promote, i.e. the instance would NOT actually be a federation
 // citizen from the adapter's point of view. Storing via the adapter means the
-// card is real inventory from birth (kb index → total 1).
+// card is real inventory from birth (kb index → total 1). Peer cards (federate
+// add, below) get the identical treatment — same visibility principle, applied
+// twice: peers are first-class KB inventory, not a loose kb/federation/ folder.
 //
-// Design note (self_ref is adapter-opaque, NOT a path): refs are adapter-opaque
-// tokens (storage.mjs contract — kb-folder issues file paths, repo-data issues
-// `<file>#<slug>`). kms.yaml's `self_ref` stores that ref EXACTLY as the adapter
-// issued it. Never parse it, join() it against `dir`, or resolve it as a path
-// outside the adapter. Card PRESENCE/staleness is decided by asking the adapter
-// itself (findSelfCard, below) — never by existsSync on a derived path, which
-// broke under adapters whose refs aren't filesystem paths (e.g. repo-data).
+// Design note (self_ref / peers.<slug> are adapter-opaque, NOT paths): refs are
+// adapter-opaque tokens (storage.mjs contract — kb-folder issues file paths,
+// repo-data issues `<file>#<slug>`). kms.yaml stores them EXACTLY as the adapter
+// issued them. Never parse a ref, join() it against `dir`, or resolve it as a
+// path outside the adapter. Card PRESENCE/staleness is decided by asking the
+// adapter itself (findSelfCard, below) — never by existsSync on a derived path,
+// which broke under adapters whose refs aren't filesystem paths (e.g. repo-data).
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'node:fs';
 import { join, basename, resolve } from 'node:path';
 import yaml from 'js-yaml';
 import { prepare } from './ingest.mjs';
 import { getAdapter } from './storage.mjs';
-import { validateObject } from './index.mjs';
+import { validateObject, isForkCompatible } from './index.mjs';
+import { slugify } from './util.mjs';
 
 export function loadConfig(dir = '.') {
   const p = join(dir, 'kms.yaml');
@@ -84,12 +87,12 @@ export function initInstance({ dir, name = null, mode = 'new', existingPath = nu
       writeFileSync(join(dir, 'kms.yaml'), yaml.dump({
         instance, adapter: useAdapter, target: useTarget,
         self_ref: selfRef,
-        source_registry: `${useTarget}/federation`,
+        peers: {},
         framework: '@regen-commons/toolkit-framework',
       }));
     } else if (cfg.self_ref !== selfRef) {
       // Heal re-stamped the missing card: update ONLY self_ref — every other
-      // config key stays exactly as the operator left it.
+      // config key (including peers) stays exactly as the operator left it.
       writeFileSync(join(dir, 'kms.yaml'), yaml.dump({ ...cfg, self_ref: selfRef }));
     }
   } else if (cfg && cfg.self_ref !== found.ref) {
@@ -105,4 +108,42 @@ export function initInstance({ dir, name = null, mode = 'new', existingPath = nu
     workOrders = prepare({ path: existingPath, workOrdersDir: join(dir, '.workorders') }).created.length;
   }
   return { instance, dir, workOrders };
+}
+
+/**
+ * The federation handshake, part 1 (design spec §6a): register a peer KB.
+ * Validate its source-system card, then store it through THIS instance's own
+ * adapter — same visibility principle as the self card: a peer is first-class
+ * KB inventory (visible to kb index/review/site), not a loose federation/ file.
+ * Validation happens before any write, so an invalid card leaves kms.yaml and
+ * the KB untouched (nothing partially stored).
+ */
+export function federateAdd({ dir, cardPath }) {
+  const cfg = loadConfig(dir);
+  if (!cfg) throw new Error(`not an initialized instance (no kms.yaml): ${dir} — run init first`);
+  const card = yaml.load(readFileSync(cardPath, 'utf8'));
+  const { valid, errors } = validateObject('source-system', card);
+  if (!valid) throw new Error(`peer card invalid:\n  - ${errors.join('\n  - ')}`);
+  const a = getAdapter(cfg.adapter);
+  const targetDir = join(dir, cfg.target);
+  const { stored } = a.store(targetDir, [{ schema: 'source-system', object: card }]);
+  a.writeIndex(targetDir);
+  const slug = slugify(card.title);
+  const peers = { ...(cfg.peers || {}), [slug]: stored[0] };
+  writeFileSync(join(dir, 'kms.yaml'), yaml.dump({ ...cfg, peers }));
+  return { slug, ref: stored[0] };
+}
+
+/**
+ * The federation handshake, part 2: does a peer's ontology extension set compose
+ * with ours? Fork-compatibility (isForkCompatible, K4) over a peer-published
+ * extensions file shaped `{ entities: { <name>: { maps_to_core } } }`.
+ */
+export function federateCheck({ extensionsPath }) {
+  const doc = yaml.load(readFileSync(extensionsPath, 'utf8'));
+  const compatible = []; const incompatible = [];
+  for (const [name, def] of Object.entries(doc.entities || {})) {
+    (isForkCompatible(def) ? compatible : incompatible).push(name);
+  }
+  return { compatible, incompatible };
 }

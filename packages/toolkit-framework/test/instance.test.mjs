@@ -3,10 +3,11 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, rmSync, renameSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
-import { initInstance, loadConfig } from '../src/instance.mjs';
+import { initInstance, loadConfig, federateAdd, federateCheck } from '../src/instance.mjs';
 import { validateObject } from '../src/index.mjs';
 import { loadWorkOrders } from '../src/workorder.mjs';
 import { getAdapter } from '../src/storage.mjs';
+import yaml from 'js-yaml';
 
 test('init --new stamps the substrate: kb/, .workorders/, kms.yaml, self source-system card', () => {
   const dir = mkdtempSync(join(tmpdir(), 'tf-init-'));
@@ -97,4 +98,40 @@ test('loadConfig throws a clear error on malformed kms.yaml (not a raw YAML pars
   const dir = mkdtempSync(join(tmpdir(), 'tf-badcfg-'));
   writeFileSync(join(dir, 'kms.yaml'), 'foo: [unclosed');
   assert.throws(() => loadConfig(dir), (e) => /kms\.yaml/.test(e.message) && /is not valid YAML/.test(e.message));
+});
+
+test('federate add validates a peer card, stores it through the adapter, records it in kms.yaml', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-fed-'));
+  initInstance({ dir, name: 'home' });
+  const peerCard = join(dir, 'peer.yaml');
+  writeFileSync(peerCard, yaml.dump({
+    title: 'ReFi DAO Commons', type: 'repo', steward: 'ReFi DAO',
+    return_path: 'PRs to refi-dao-os', maturity: 'raw', ai_assisted: true,
+  }));
+  const res = federateAdd({ dir, cardPath: peerCard });
+  assert.equal(res.slug, 'refi-dao-commons');
+  const cards = getAdapter('kb-folder').list(join(dir, 'kb'))
+    .filter((e) => e.schema === 'source-system');
+  assert.equal(cards.length, 2, 'self + peer both first-class KB inventory');
+  assert.equal(loadConfig(dir).peers['refi-dao-commons'], res.ref);
+  // invalid card refuses (nothing stored)
+  const bad = join(dir, 'bad.yaml');
+  writeFileSync(bad, yaml.dump({ title: 'No Return Path', type: 'repo', steward: 'X' }));
+  assert.throws(() => federateAdd({ dir, cardPath: bad }), /return_path/);
+  assert.equal(getAdapter('kb-folder').list(join(dir, 'kb')).filter((e) => e.schema === 'source-system').length, 2,
+    'refused card left nothing stored');
+});
+
+test('federate check runs fork-compatibility over a peer extensions file', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-fedchk-'));
+  const peerExt = join(dir, 'peer-extensions.yaml');
+  writeFileSync(peerExt, yaml.dump({
+    entities: {
+      'mediation-protocol': { maps_to_core: 'protocol' },
+      'vibes-object': {},
+    },
+  }));
+  const res = federateCheck({ extensionsPath: peerExt });
+  assert.deepEqual(res.compatible, ['mediation-protocol']);
+  assert.deepEqual(res.incompatible, ['vibes-object']);
 });

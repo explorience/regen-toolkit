@@ -10,7 +10,7 @@ import { prepare, acceptWorkOrder } from './ingest.mjs';
 import { loadWorkOrders, loadWorkOrder, transition, saveWorkOrder } from './workorder.mjs';
 import { getAdapter } from './storage.mjs';
 import { reviewQueue, promote } from './review.mjs';
-import { initInstance, loadConfig } from './instance.mjs';
+import { initInstance, loadConfig, federateAdd, federateCheck } from './instance.mjs';
 
 const require = createRequire(import.meta.url);
 const { version } = require('../package.json');
@@ -184,6 +184,28 @@ switch (cmd) {
     break;
   }
 
+  case 'federate': {
+    const [sub, ...rest] = args;
+    const { positional } = parseFlags(rest, {});
+    if (sub === 'add') {
+      const [cardPath] = positional;
+      if (!cardPath) { console.error('usage: toolkit-framework federate add <peer-card.yaml>'); process.exit(2); }
+      try {
+        const { slug, ref } = federateAdd({ dir: '.', cardPath });
+        console.log(`✓ peer "${slug}" registered → ${ref}`);
+      } catch (e) { console.error(`✗ ${e.message}`); process.exit(1); }
+    } else if (sub === 'check') {
+      const [extPath] = positional;
+      if (!extPath) { console.error('usage: toolkit-framework federate check <peer-extensions.yaml>'); process.exit(2); }
+      const { compatible, incompatible } = federateCheck({ extensionsPath: extPath });
+      for (const n of compatible) console.log(`✓ ${n}`);
+      for (const n of incompatible) console.log(`✗ ${n} — no maps_to_core to a real core type`);
+      if (incompatible.length) process.exit(1);
+      console.log(`fork-compatible: ${compatible.length}/${compatible.length}`);
+    } else { console.error('usage: toolkit-framework federate <add|check> …'); process.exit(2); }
+    break;
+  }
+
   default:
     console.log('toolkit-framework — Regen Knowledge Commons Toolkit framework');
     console.log('commands:');
@@ -199,5 +221,6 @@ switch (cmd) {
     console.log('  store [--adapter --target]      write accepted objects via a storage adapter');
     console.log('  kb index [--adapter --target]   print the derived KB index');
     console.log('  review list|promote <ref>       operate the review queue (human gate)');
+    console.log('  federate add|check              register a peer KB / check ontology fork-compatibility');
     if (cmd && cmd !== 'help' && cmd !== '--help') process.exit(2);
 }

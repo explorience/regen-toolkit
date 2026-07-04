@@ -105,3 +105,17 @@ test('cli surfaces a malformed kms.yaml as a clean error, not a raw stack (store
   assert.throws(() => run(['kb', 'index'], { cwd: dir, stdio: 'pipe' }),
     (e) => e.status === 1 && /kms\.yaml/.test(String(e.stderr)));
 });
+
+test('cli federate add registers a peer card through the adapter — visible in kb index', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-fed-'));
+  run(['init', dir, '--name', 'fedhome']);
+  const peerCard = join(dir, 'peer.yaml');
+  writeFileSync(peerCard, yaml.dump({
+    title: 'Peer Commons', type: 'repo', steward: 'Peer',
+    return_path: 'PRs', maturity: 'raw', ai_assisted: true,
+  }));
+  const out = run(['federate', 'add', 'peer.yaml'], { cwd: dir });
+  assert.match(out, /✓ peer "peer-commons" registered/);
+  const idx = JSON.parse(run(['kb', 'index'], { cwd: dir }));
+  assert.equal(idx.total, 2, 'self + peer both counted');
+});
