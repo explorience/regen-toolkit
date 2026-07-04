@@ -1,15 +1,36 @@
 #!/usr/bin/env node
 // toolkit-framework CLI — zero-dep argv parsing (portable, no build step).
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
 import { createRequire } from 'node:module';
 import yaml from 'js-yaml';
 import { listSchemas, validateObject, isValid, validateKernel, toJsonLdContext } from './index.mjs';
 import { parseCsv, liftRows } from './lift.mjs';
+import { prepare, acceptWorkOrder } from './ingest.mjs';
+import { loadWorkOrders, loadWorkOrder, transition, saveWorkOrder } from './workorder.mjs';
+import { getAdapter } from './storage.mjs';
 
 const require = createRequire(import.meta.url);
 const { version } = require('../package.json');
 
 const [cmd, ...args] = process.argv.slice(2);
+
+// zero-dep flag parsing: pull `--flag value` pairs out of args, leave positionals
+function parseFlags(rawArgs, defaults = {}) {
+  const flags = { ...defaults };
+  const positional = [];
+  for (let i = 0; i < rawArgs.length; i++) {
+    if (rawArgs[i].startsWith('--')) { flags[rawArgs[i].slice(2)] = rawArgs[i + 1]; i++; }
+    else positional.push(rawArgs[i]);
+  }
+  return { flags, positional };
+}
+
+// work-order ids come from user argv and become file paths — validate the shape
+function requireWoId(id, usage) {
+  if (!id || !/^wo-[0-9a-f]{12}$/.test(id)) { console.error(usage); process.exit(2); }
+  return id;
+}
 
 switch (cmd) {
   case 'version':
@@ -65,6 +86,60 @@ switch (cmd) {
     break;
   }
 
+  case 'ingest': {
+    const [sub, ...rest] = args;
+    const { flags, positional } = parseFlags(rest, { dir: '.workorders' });
+    if (sub === 'prepare') {
+      const [path] = positional;
+      if (!path) { console.error('usage: toolkit-framework ingest prepare <path> [--dir .workorders]'); process.exit(2); }
+      const { created, skipped } = prepare({ path, workOrdersDir: flags.dir });
+      console.log(`${created.length} work order(s) created, ${skipped.length} skipped (already prepared)`);
+      for (const wo of created) console.log(`  ${wo.id}  ${wo.source_type}  ${wo.source_path}${wo.chunk ? ` [${wo.chunk}]` : ''}`);
+    } else if (sub === 'list') {
+      const orders = loadWorkOrders(flags.dir).filter((w) => !flags.status || w.status === flags.status);
+      for (const w of orders) console.log(`${w.id}  ${w.status}  ${w.source_path}`);
+    } else if (sub === 'claim' || sub === 'fulfill') {
+      const next = sub === 'claim' ? 'claimed' : 'fulfilled';
+      const id = requireWoId(positional[0], `usage: toolkit-framework ingest ${sub} <wo-id> [--dir .workorders]`);
+      const wo = transition(loadWorkOrder(flags.dir, id), next);
+      if (flags.by) wo.claimed_by = flags.by;
+      saveWorkOrder(flags.dir, wo);
+      console.log(`${id} → ${next}`);
+    } else if (sub === 'accept') {
+      const id = requireWoId(positional[0], 'usage: toolkit-framework ingest accept <wo-id> [--dir .workorders]');
+      const res = acceptWorkOrder({ workOrdersDir: flags.dir, id });
+      if (res.accepted) { console.log(`✓ ${id} accepted (${res.objects.length} object(s))`); }
+      else { console.error(`✗ ${id} not accepted:\n  - ${res.errors.join('\n  - ')}`); process.exit(1); }
+    } else { console.error('usage: toolkit-framework ingest <prepare|list|claim|fulfill|accept> …'); process.exit(2); }
+    break;
+  }
+
+  case 'store': {
+    const { flags } = parseFlags(args, { dir: '.workorders', adapter: 'kb-folder', target: 'kb' });
+    const adapter = getAdapter(flags.adapter);
+    let count = 0;
+    for (const wo of loadWorkOrders(flags.dir).filter((w) => w.status === 'accepted' && !w.produced)) {
+      const dir = join(flags.dir, wo.id, 'accepted');
+      const entries = readdirSync(dir).filter((f) => f.endsWith('.yaml'))
+        .map((f) => yaml.load(readFileSync(join(dir, f), 'utf8')));
+      const { stored } = adapter.store(flags.target, entries);
+      saveWorkOrder(flags.dir, { ...wo, produced: stored });
+      count += stored.length;
+    }
+    adapter.writeIndex(flags.target);
+    console.log(`stored ${count} object${count === 1 ? '' : 's'} via ${flags.adapter} → ${flags.target}`);
+    break;
+  }
+
+  case 'kb': {
+    const [sub, ...rest] = args;
+    const { flags } = parseFlags(rest, { adapter: 'kb-folder', target: 'kb' });
+    if (sub === 'index') {
+      console.log(JSON.stringify(getAdapter(flags.adapter).index(flags.target), null, 2));
+    } else { console.error('usage: toolkit-framework kb index [--adapter kb-folder] [--target kb]'); process.exit(2); }
+    break;
+  }
+
   default:
     console.log('toolkit-framework — Regen Knowledge Commons Toolkit framework');
     console.log('commands:');
@@ -74,5 +149,9 @@ switch (cmd) {
     console.log('  kernel-check                    verify the semantic kernel is internally consistent');
     console.log('  context                         emit the JSON-LD @context generated from the kernel');
     console.log('  validate <schema> <file>        validate an object file against a schema');
+    console.log('  ingest prepare <path>           scan a source → idempotent work orders');
+    console.log('  ingest list|claim|fulfill|accept  drive the work-order lifecycle');
+    console.log('  store [--adapter --target]      write accepted objects via a storage adapter');
+    console.log('  kb index [--adapter --target]   print the derived KB index');
     if (cmd && cmd !== 'help' && cmd !== '--help') process.exit(2);
 }

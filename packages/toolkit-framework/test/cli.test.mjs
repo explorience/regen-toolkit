@@ -3,6 +3,9 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { mkdtempSync, mkdirSync, copyFileSync, readFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import yaml from 'js-yaml';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const cli = join(here, '..', 'src', 'cli.mjs');
@@ -30,4 +33,54 @@ test('cli kernel-check passes + context emits valid JSON-LD', () => {
   assert.match(out, /kernel consistent/);
   const ctx = JSON.parse(execFileSync('node', [cli, 'context'], { encoding: 'utf8' }));
   assert.ok(ctx['@context']['source-system']);
+});
+
+const FIXTURE = join(here, 'fixtures', 'transcript.md');
+const CANDIDATES = join(here, 'fixtures', 'candidates');
+const run = (args, opts = {}) => execFileSync('node', [cli, ...args], { encoding: 'utf8', ...opts });
+
+test('cli drives the full pipeline: prepare → claim → fulfill → accept → store → kb index', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-'));
+  const wodir = join(dir, '.workorders');
+  const kb = join(dir, 'kb');
+
+  const prep = run(['ingest', 'prepare', FIXTURE, '--dir', wodir]);
+  assert.match(prep, /1 work order/);
+  const id = run(['ingest', 'list', '--dir', wodir]).trim().split(/\s+/)[0];
+  assert.match(id, /^wo-/);
+
+  run(['ingest', 'claim', id, '--dir', wodir, '--by', 'test-agent']);
+  const cdir = join(wodir, id, 'candidates');
+  mkdirSync(cdir, { recursive: true });
+  copyFileSync(join(CANDIDATES, 'good-source-system.yaml'), join(cdir, 'good-source-system.yaml'));
+  run(['ingest', 'fulfill', id, '--dir', wodir]);
+  assert.match(run(['ingest', 'accept', id, '--dir', wodir]), /accepted/);
+
+  assert.match(run(['store', '--dir', wodir, '--adapter', 'kb-folder', '--target', kb]), /stored 1 object/);
+  // idempotent: re-store finds nothing new
+  assert.match(run(['store', '--dir', wodir, '--adapter', 'kb-folder', '--target', kb]), /stored 0 objects/);
+
+  const idx = JSON.parse(run(['kb', 'index', '--adapter', 'kb-folder', '--target', kb]));
+  assert.equal(idx.total, 1);
+  assert.equal(idx.by_type['source-system'], 1);
+});
+
+test('cli ingest accept fails loudly on a bad candidate (exit ≠ 0, notes saved)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-bad-'));
+  const wodir = join(dir, '.workorders');
+  run(['ingest', 'prepare', FIXTURE, '--dir', wodir]);
+  const id = run(['ingest', 'list', '--dir', wodir]).trim().split(/\s+/)[0];
+  run(['ingest', 'claim', id, '--dir', wodir]);
+  const cdir = join(wodir, id, 'candidates');
+  mkdirSync(cdir, { recursive: true });
+  copyFileSync(join(CANDIDATES, 'bad-maturity.yaml'), join(cdir, 'bad-maturity.yaml'));
+  run(['ingest', 'fulfill', id, '--dir', wodir]);
+  assert.throws(() => run(['ingest', 'accept', id, '--dir', wodir], { stdio: 'pipe' }));
+  const wo = yaml.load(readFileSync(join(wodir, `${id}.yaml`), 'utf8'));
+  assert.ok(wo.error_notes.includes('maturity must be "raw"'));
+});
+
+test('cli ingest rejects malformed work-order ids (no path fishing)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-id-'));
+  assert.throws(() => run(['ingest', 'claim', '../escape', '--dir', join(dir, '.workorders')], { stdio: 'pipe' }));
 });
