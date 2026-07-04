@@ -1,0 +1,19 @@
+# Seam 1 — the ingestion contract. A unit of semantic work an AGENT fulfills;
+# only the CLI accepts results and only the CLI writes storage (spec §3/§5).
+id: work-order
+version: 0.2.0
+description: A unit of ingestion work — source ref + instructions + lifecycle status. Agents fulfill; the CLI validates, accepts, stores.
+required: [title, type, source_path, source_hash, status]
+fields:
+  title: { type: string }
+  type: { enum: [work-order] }
+  source_path: { type: string }
+  source_hash: { type: string }          # sha256 of source content — the idempotency key
+  source_type: { enum: [transcript, document, csv-crosswalk, url-list, directory, unknown] }
+  target_schemas: { type: list }         # suggested object-schemas to extract
+  instructions: { type: string }
+  status: { enum: [open, claimed, fulfilled, accepted, rejected] }
+  claimed_by: { type: string }
+  chunk: { type: string }                # "2/5" when a large source is split
+  produced: { type: list }               # storage refs, stamped by `store`
+  error_notes: { type: string }          # validator output — the retry instructions
