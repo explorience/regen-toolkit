@@ -11,7 +11,8 @@ import { renderDashboardSection, renderSiteData } from './render.mjs';
 import { checkPeers } from './federate.mjs';
 
 export const OPS = {
-  'config.load': { kind: 'exec', write: false, run: (ctx) => {
+  // write:true here = CRITICAL/fail-hard: if kms.yaml can't load, no downstream op can run.
+  'config.load': { kind: 'exec', write: true, run: (ctx) => {
     ctx.config = loadKmsConfig(ctx.dir);
     return { ok: true, report: { instance: ctx.config.instance } };
   } },

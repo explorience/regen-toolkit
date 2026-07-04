@@ -51,6 +51,19 @@ test('fail-hard: a write op that returns {ok:false} (no throw) stops the run', (
   assert.match(r.errors[0], /a.softfail: reported failure/);
 });
 
-test('default deps use the real OPS + LIFECYCLE_BINDINGS', () => {
+test('op registry is importable and wired (import sanity)', () => {
   assert.ok(OPS['config.load']); // sanity: real registry wired
+});
+
+test('fail-hard: an unregistered op-name halts the run', () => {
+  const order = [];
+  const r = runLifecycle('initialize', { dir: '.' },
+    { events: { initialize: ['a.read', 'a.ghost', 'a.read'] },
+      ops: { 'a.read': { kind: 'exec', write: false, run: () => { order.push('a.read'); return { ok: true }; } } } });
+  assert.deepEqual(order, ['a.read']); // stops at the unregistered op; the second a.read never runs
+  assert.match(r.errors[0], /unregistered op: a.ghost/);
+});
+
+test('throws on an unknown lifecycle event', () => {
+  assert.throws(() => runLifecycle('nope', {}, { events: {} }), /unknown lifecycle event/);
 });
