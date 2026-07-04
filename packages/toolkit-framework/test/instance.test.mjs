@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { initInstance, loadConfig } from '../src/instance.mjs';
@@ -22,7 +22,8 @@ test('init --new stamps the substrate: kb/, .workorders/, kms.yaml, self source-
   const entries = getAdapter('kb-folder').list(join(dir, 'kb'));
   assert.equal(entries.length, 1);
   const card = entries[0].object;
-  assert.equal(entries[0].ref, cfg.self_ref, 'kms.yaml remembers where the self card lives');
+  // self_ref is recorded dir-RELATIVE (portable — instance dirs move)
+  assert.equal(entries[0].ref, join(dir, cfg.self_ref), 'kms.yaml remembers where the self card lives (dir-relative)');
   const { valid, errors } = validateObject('source-system', card);
   assert.equal(valid, true, errors.join('; '));
   assert.equal(card.maturity, 'raw', 'draft card until the operator completes it via register-source');
@@ -49,4 +50,17 @@ test('init is idempotent — re-running never clobbers an existing kms.yaml or c
   assert.equal(readFileSync(join(dir, 'kms.yaml'), 'utf8'), before, 'existing config untouched');
   // and the card inventory is still exactly one entry — re-init did not re-stamp
   assert.equal(getAdapter('kb-folder').list(join(dir, 'kb')).length, 1);
+});
+
+test('init heals a deleted self card on re-run (self_ref always resolves)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-init-heal-'));
+  initInstance({ dir, name: 'healable' });
+  const cfg = loadConfig(dir);
+  const cardPath = join(dir, cfg.self_ref);            // self_ref must be dir-relative (portable)
+  assert.ok(existsSync(cardPath), `self_ref must resolve relative to the instance dir: ${cfg.self_ref}`);
+  rmSync(cardPath);
+  initInstance({ dir, name: 'ignored' });
+  assert.ok(existsSync(cardPath), 'card re-stamped');
+  const cfgAfter = loadConfig(dir);
+  assert.equal(cfgAfter.instance, 'healable', 'config identity untouched by heal');
 });
