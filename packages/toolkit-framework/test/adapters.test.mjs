@@ -2,7 +2,7 @@
 // the same assertions; the interface is what this file says it is.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, existsSync, readFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
@@ -69,3 +69,16 @@ for (const name of SHIPPING) {
     assert.equal(out.trim(), name);
   });
 }
+
+// repo-data-specific: a hand-edited registry file without `entries:` must not crash writes
+test('[repo-data] store/update tolerate a legacy registry file lacking entries key', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-repo-data-legacy-'));
+  const a = getAdapter('repo-data');
+  mkdirSync(join(target, 'data', 'kb'), { recursive: true });
+  writeFileSync(join(target, 'data', 'kb', 'source-system.yaml'), 'foo: bar\n');
+  const { stored } = a.store(target, [entry('Legacy Survivor')]);
+  assert.equal(stored.length, 1);
+  assert.equal(a.list(target).length, 1);
+  const { object } = a.update(target, stored[0], { maturity: 'plausible' });
+  assert.equal(object.maturity, 'plausible');
+});

@@ -25,7 +25,11 @@ function slugFor(object) {
 }
 
 const fileFor = (target, schema) => join(target, 'data', 'kb', `${safeSchema(schema)}.yaml`);
-const loadFile = (p) => (existsSync(p) ? yaml.load(readFileSync(p, 'utf8')) : { entries: {} });
+// normalize: a hand-edited/legacy file without an `entries:` key must not crash store/update
+const loadFile = (p) => {
+  const doc = (existsSync(p) ? yaml.load(readFileSync(p, 'utf8')) : null) || {};
+  return { ...doc, entries: doc.entries || {} };
+};
 
 export const repoDataAdapter = {
   name: 'repo-data',
