@@ -39,6 +39,18 @@ test('fail-hard: a write op error stops the run', () => {
   assert.match(r.errors[0], /write boom/);
 });
 
+test('fail-hard: a write op that returns {ok:false} (no throw) stops the run', () => {
+  const order = [];
+  const ops = {
+    'a.softfail': { kind: 'exec', write: true, run: () => { order.push('a.softfail'); return { ok: false }; } },
+    'a.read': { kind: 'exec', write: false, run: () => { order.push('a.read'); return { ok: true }; } },
+  };
+  const r = runLifecycle('initialize', { dir: '.' },
+    { events: { initialize: ['a.softfail', 'a.read'] }, ops });
+  assert.deepEqual(order, ['a.softfail']); // a.read never runs
+  assert.match(r.errors[0], /a.softfail: reported failure/);
+});
+
 test('default deps use the real OPS + LIFECYCLE_BINDINGS', () => {
   assert.ok(OPS['config.load']); // sanity: real registry wired
 });

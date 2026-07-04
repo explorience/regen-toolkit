@@ -473,6 +473,18 @@ test('fail-hard: a write op error stops the run', () => {
   assert.match(r.errors[0], /write boom/);
 });
 
+test('fail-hard: a write op that returns {ok:false} (no throw) stops the run', () => {
+  const order = [];
+  const ops = {
+    'a.softfail': { kind: 'exec', write: true, run: () => { order.push('a.softfail'); return { ok: false }; } },
+    'a.read': { kind: 'exec', write: false, run: () => { order.push('a.read'); return { ok: true }; } },
+  };
+  const r = runLifecycle('initialize', { dir: '.' },
+    { events: { initialize: ['a.softfail', 'a.read'] }, ops });
+  assert.deepEqual(order, ['a.softfail']); // a.read never runs
+  assert.match(r.errors[0], /a.softfail: reported failure/);
+});
+
 test('default deps use the real OPS + LIFECYCLE_BINDINGS', () => {
   assert.ok(OPS['config.load']); // sanity: real registry wired
 });
@@ -506,10 +518,14 @@ export function runLifecycle(event, ctx = {}, deps = {}) {
     if (op.kind === 'skill') { report.skills.push(op.skill); continue; }
     try {
       const res = op.run(ctx) || {};
-      report.ran.push({ op: name, ok: res.ok !== false, report: res.report });
+      const ok = res.ok !== false;
+      report.ran.push({ op: name, ok, report: res.report });
+      // A write op that REPORTS failure (without throwing) is also fail-hard: the real write
+      // ops (bridge) signal errors via { ok:false }, not exceptions.
+      if (!ok && op.write) { report.errors.push(`${name}: reported failure`); return report; }
     } catch (e) {
       report.errors.push(`${name}: ${e.message}`);
-      if (op.write) return report; // fail-hard
+      if (op.write) return report; // fail-hard on throw
       // else fail-soft: continue
     }
   }
