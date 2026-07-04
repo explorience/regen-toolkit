@@ -1,7 +1,7 @@
 {
   "name": "@regen-commons/toolkit-framework",
-  "version": "0.1.0-beta.1",
-  "schemaCount": 21,
+  "version": "0.2.0",
+  "schemaCount": 22,
   "schemas": [
     "claim-evidence",
     "concept-lineage",
@@ -23,8 +23,24 @@
     "signal",
     "source-system",
     "track",
-    "update-proposal"
+    "update-proposal",
+    "work-order"
   ],
   "kernelOk": true,
-  "kernelErrors": []
+  "kernelErrors": [],
+  "skillCount": 7,
+  "skills": [
+    "capture-and-route",
+    "compose-journey",
+    "csis-review",
+    "ingest",
+    "map-ontology",
+    "register-source",
+    "review-promote"
+  ],
+  "adapters": [
+    "kb-folder",
+    "repo-data",
+    "geo"
+  ]
 }

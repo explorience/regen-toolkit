@@ -6,10 +6,18 @@ import Page from "../layouts/Page.astro";
 // snapshot rather than the YAML directly, because Vite's fs-relative reads break
 // in the build output (same reason framework.astro imports a manifest).
 import stats from "../data/instance-stats.json";
+// The derived index of the first real pipeline run — read straight from the KB
+// the 0.2 machine produced (kb/objects/**), not a hand-kept number.
+import kbIndex from "../../kb/index.json";
 
 const c = stats.canonical;
 const salv = stats.salvaged;
 const bound = stats.publicUseBoundaries;
+
+// First ingestion: the 2026-07-02 planning call → typed objects, all still raw.
+const kbTypes = Object.entries(kbIndex.by_type)
+  .sort((a, b) => b[1] - a[1])
+  .map(([type, n]) => `${n} ${type.replace(/-/g, " ")}${n > 1 ? "s" : ""}`);
 
 // The five canonical, framework-typed registry counts — the honest headline.
 // Salvaged + held-for-review figures are kept SEPARATE below (never summed in).
@@ -47,7 +55,8 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
         coordination overlay — <strong>org-os</strong> — that the team works in to develop it. It's
         also the first real instance of <a href={withBase("/framework/")}>the framework</a>: the same toolkit,
         dogfooded on its own content. The registries below were filled by running this site's
-        articles, journeys, and resource lists <em>through</em> the framework.
+        articles, journeys, and resource lists <em>through</em> the framework — and now, with the
+        0.2 ingestion pipeline, new material gets processed the same way, source by source.
       </p>
       <div class="in-hero__meta reveal" data-d="4">
         <span class="chip chip--clay">First instance · ReFi Web3</span>
@@ -131,6 +140,30 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
     </div>
   </section>
 
+  <!-- ===================== FIRST PIPELINE RUN ====================== -->
+  <section class="in-run">
+    <div class="wrap in-run__grid">
+      <div class="in-run__lead">
+        <p class="eyebrow">The first pipeline run</p>
+        <h2 class="in-h2">One meeting, straight through the machine.</h2>
+        <p>
+          The registries above were a bulk lift. This is the 0.2 pipeline doing its actual job on a
+          single new source: the team's <strong>2026-07-02 planning call</strong> was pointed at the
+          machine and came out as <strong>{kbIndex.total} typed objects</strong> — each one traced
+          back to the transcript, each one still <code>raw</code> and waiting for a person. It's a
+          small run on purpose: proof the loop works end to end before it's pointed at bigger corpora.
+        </p>
+        <p class="in-run__note">
+          All {kbIndex.reviewQueue ?? kbIndex.review_queue} are in the review queue — nothing here has
+          been promoted. This count is read from the knowledge base the run produced, not typed by hand.
+        </p>
+      </div>
+      <ul class="in-run__types">
+        {kbTypes.map((t) => <li class="in-run__type">{t}</li>)}
+      </ul>
+    </div>
+  </section>
+
   <!-- ===================== HONEST CAVEATS / HELD =================== -->
   <section class="in-held">
     <div class="wrap in-held__grid">
@@ -186,12 +219,13 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
 
       <div class="in-ops__notes">
         <div>
-          <h4 class="in-ops__h">Mapped to the layers</h4>
+          <h4 class="in-ops__h">Filled by the pipeline</h4>
           <p>
-            Every change is tagged to one of the framework's ten layers — Resources, Source systems,
-            Concepts, Options, Tracks, Deployments, Implementation, Claims, Evolution, Encyclopedia.
-            The counts above are those layers, filled. See <a href={withBase("/framework/")}>the framework</a> for
-            what each one holds.
+            New material enters through the 0.2 machine — <code>ingest</code> turns a source into
+            checked, typed candidates, the review queue holds them until a person promotes them, and
+            <code>federate</code> registers peer commons as sources with a path back. Every object
+            maps to one of the framework's ten layers. See <a href={withBase("/framework/")}>the framework</a> for
+            how the pipeline works.
           </p>
         </div>
         <div>
@@ -271,8 +305,19 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
   .in-reg__caption { margin-top: 24px; color: var(--ink-faint); font-size: .92rem; max-width: 62ch; }
   .in-reg__caption strong { color: var(--clay); }
 
+  /* first pipeline run */
+  .in-run { padding-block: clamp(40px, 7vw, 84px); }
+  .in-run__grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(30px, 5vw, 64px); align-items: start; }
+  .in-run__lead p { color: var(--ink-soft); margin-top: 1em; max-width: 52ch; font-size: 1.05rem; }
+  .in-run__lead strong { color: var(--ink); font-weight: 600; }
+  .in-run__note { font-size: .95rem !important; color: var(--ink-faint) !important; }
+  .in-run__types { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .in-run__type { font-family: var(--font-mono); font-size: .9rem; color: var(--ink); background: var(--paper-2); border: 1px solid var(--line); border-left: 3px solid var(--moss); border-radius: var(--radius); padding: .7em 1em; }
+  :root[data-theme="dark"] .in-run__type { border-left-color: var(--growth); }
+  @media (max-width: 820px) { .in-run__grid { grid-template-columns: 1fr; } }
+
   /* held / caveats */
-  .in-held { padding-block: clamp(40px, 7vw, 84px); }
+  .in-held { padding-block: clamp(40px, 7vw, 84px); border-top: 1px solid var(--line); }
   .in-held__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(20px, 3vw, 32px); }
   .in-held__card { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(24px, 3vw, 34px); }
   .in-held__card .eyebrow { color: var(--clay); margin-bottom: .7em; }

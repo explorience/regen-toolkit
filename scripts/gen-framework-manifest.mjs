@@ -10,7 +10,7 @@
 //
 // Runs before `astro build` (see the npm "prebuild" script). Idempotent.
 
-import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync, readdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -19,6 +19,16 @@ const repoRoot = join(here, '..');
 const frameworkDir = join(repoRoot, 'packages', 'toolkit-framework');
 const outDir = join(repoRoot, 'src', 'data');
 const outFile = join(outDir, 'framework-manifest.json');
+
+// Read the agentic skills straight from the package (each skills/<name>/SKILL.md).
+function readSkills() {
+  const dir = join(frameworkDir, 'skills');
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir, { withFileTypes: true })
+    .filter((e) => e.isDirectory() && existsSync(join(dir, e.name, 'SKILL.md')))
+    .map((e) => e.name)
+    .sort();
+}
 
 function readVersion() {
   try {
@@ -33,11 +43,16 @@ const { name, version } = readVersion();
 
 let schemas = [];
 let kernel = { valid: false, errors: ['framework API not loaded'] };
+let adapters = [];
 
 try {
   const fw = await import(join(frameworkDir, 'src', 'index.mjs'));
   schemas = fw.listSchemas();
   kernel = fw.validateKernel();
+  // Storage adapters are the ingestion≠storage seam (0.2 "machine"). listAdapters
+  // lives in storage.mjs, not the index barrel.
+  const storage = await import(join(frameworkDir, 'src', 'storage.mjs'));
+  adapters = storage.listAdapters();
 } catch (err) {
   // Fail closed: exit BEFORE writing. A transient framework breakage (e.g. the
   // package mid-edit) must not clobber the committed manifest with an empty one;
@@ -49,6 +64,8 @@ try {
 // No generatedAt timestamp: the manifest must be deterministic so a rebuild
 // doesn't churn the committed file. It changes only when the framework's
 // version / schema set / kernel status actually changes.
+const skills = readSkills();
+
 const manifest = {
   name,
   version,
@@ -56,10 +73,13 @@ const manifest = {
   schemas,
   kernelOk: kernel.valid,
   kernelErrors: kernel.errors,
+  skillCount: skills.length,
+  skills,
+  adapters,
 };
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(outFile, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
 console.log(
-  `[gen-framework-manifest] wrote ${schemas.length} schemas · kernel ${kernel.valid ? 'consistent ✓' : 'INVALID'} → src/data/framework-manifest.json`,
+  `[gen-framework-manifest] wrote ${schemas.length} schemas · ${skills.length} skills · ${adapters.length} adapters · kernel ${kernel.valid ? 'consistent ✓' : 'INVALID'} → src/data/framework-manifest.json`,
 );
