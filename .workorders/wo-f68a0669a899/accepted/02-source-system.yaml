@@ -1,0 +1,34 @@
+schema: source-system
+object:
+  title: CSIS / Craft / Valcre standards site
+  type: docs-site
+  steward: Durgadas
+  what_it_curates: >-
+    Structural-integrity standards set up for AI/ML use — the "rigor sandwich"
+    (second page), an explorable prompt library, an implementation guide, and a
+    dedicated conflict standard.
+  why_it_matters: >-
+    The standards target for making the toolkit framework agent-ingestible
+    (Luiz's ask on the 2026-07-02 call); the conflict standard is directly
+    relevant to Koi's conflict-mediation artifact.
+  how_to_credit: Credit Durgadas and the CSIS / Craft / Valcre standards by name.
+  use_type: standards reference for framework + deployment structural integrity
+  reuse_conditions: Not yet stated — confirm with Durgadas when he sends the links.
+  return_path: >-
+    Via Durgadas — he is sending Luiz the links and remains the contact for
+    feedback, corrections, and derived material.
+  currentness: >-
+    actively developed (AI Precision Toolkit release ~1-2 weeks out as of
+    2026-07-02)
+  update_rhythm: ongoing
+  extraction_status: pending — links promised but not yet received
+  toolkit_route: layer-6-deployment-and-structural-integrity
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+    surfaced_by: Durgadas (2026-07-02 planning call)
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-f68a0669a899
+  source_lineage: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md

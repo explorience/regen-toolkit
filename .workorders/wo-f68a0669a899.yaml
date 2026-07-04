@@ -1,0 +1,34 @@
+id: wo-f68a0669a899
+title: ingest packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+type: work-order
+source_path: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+source_hash: 985a75f98ecc842a006ad831afd5103bc8d0b4c41487cebaa029ed7f9759154b
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: claude-sonnet-t7
+produced:
+  - kb/objects/source-system/gen-brasil-commons-program-artifacts.yaml
+  - kb/objects/source-system/csis-craft-valcre-standards-site.yaml
+  - kb/objects/resource/ai-precision-toolkit.yaml
+  - kb/objects/resource/geo-protocol.yaml
+  - kb/objects/concept-lineage/framework-as-package.yaml
+  - kb/objects/signal/ingestion-and-storage-must-be-separable.yaml
+  - >-
+    kb/objects/signal/frame-1-language-warning-audit-governance-accountability-terms.yaml
+  - >-
+    kb/objects/claim-evidence/when-intention-and-structure-diverge-structure-beats-intention.yaml
+  - >-
+    kb/objects/public-use-boundary/boundary-durgadas-structural-integrity-claim-from-the-2026-07-02-call.yaml
+  - >-
+    kb/objects/signal/push-the-infrastructure-layer-toward-opinionated-choices.yaml

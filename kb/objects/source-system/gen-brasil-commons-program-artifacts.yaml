@@ -1,0 +1,32 @@
+title: Gen Brasil Commons program artifacts
+type: archive
+steward: Caue "Koi" Mtomaz
+what_it_curates: >-
+  Artifacts from the completed Gen Brasil Commons program — two books plus other
+  materials, including a conflict-mediation protocol built over six calls that
+  is headed for open-source publication.
+why_it_matters: >-
+  Named on the 2026-07-02 planning call as the first real external test case for
+  the toolkit framework's ingestion pipeline; the conflict-mediation protocol
+  also intersects Durgadas's dedicated conflict standard.
+how_to_credit: Credit the Gen Brasil Commons program and its steward Caue "Koi" Mtomaz.
+use_type: ingestion test corpus + future knowledge-commons content
+reuse_conditions: >-
+  Not yet stated — conflict-mediation protocol intended as an open-source
+  publication; confirm terms with Koi before reuse.
+return_path: >-
+  Via Koi — he is sending the artifacts to Luiz and remains the contact for
+  corrections, derived entries, and publication decisions.
+currentness: program wrapped 2026-07-01 (closing call the day before the meeting)
+update_rhythm: program complete — a bounded corpus; publication pending
+extraction_status: not-yet-extracted (artifacts not yet received)
+toolkit_route: layer-3-resource-graph
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+  surfaced_by: Caue "Koi" Mtomaz (2026-07-02 planning call)
+  transformation: synthesized
+  authorship: ai-assisted
+work_order: wo-f68a0669a899
+source_lineage: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md

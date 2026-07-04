@@ -1,0 +1,22 @@
+schema: signal
+object:
+  title: Ingestion and storage must be separable
+  type: signal
+  signal_type: infrastructure
+  affected_layer: layer-10-infrastructure-and-substrate
+  interpretation: >-
+    Durgadas needs an ingestion layer for his Proof of Coordination protocol and
+    flagged that the framework Luiz described "seems like both an ingestion
+    process and a place where things land" — he specifically needs those two
+    broken apart. Design constraint on the framework package: keep the ingestion
+    pipeline and the storage target behind separate, swappable seams.
+  proposed_intervention: update
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
+    surfaced_by: Durgadas (2026-07-02 planning call)
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-f68a0669a899
+  source_lineage: packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md
