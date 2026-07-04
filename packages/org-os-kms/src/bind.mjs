@@ -18,7 +18,7 @@ export const REGISTRY_BINDINGS = {
   'evolution-record': 'data/evolution-log.yaml',
   signal: 'data/signals.yaml',
   'contribution-record': 'data/contributions.yaml',
-  'encyclopedia-entry': 'src/content/docs/',
+  'encyclopedia-entry': 'src/content/docs/kb/',
 };
 
 /** org-os session lifecycle -> ordered framework op-names (resolved by src/ops.mjs). */

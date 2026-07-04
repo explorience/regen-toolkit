@@ -26,7 +26,7 @@ registry_bindings:            # framework schema -> org-os registry (must match 
   evolution-record: data/evolution-log.yaml
   signal: data/signals.yaml
   contribution-record: data/contributions.yaml
-  encyclopedia-entry: src/content/docs/
+  encyclopedia-entry: src/content/docs/kb/
 
 lifecycle_bindings:
   initialize: [config.load, index.rebuild, review.list, render.dashboard, render.site]

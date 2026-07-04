@@ -38,7 +38,7 @@ test('lifecycle bindings are canonical op-names (initialize/close)', () => {
 
 test('REGISTRY_BINDINGS keeps all 10 schema targets', () => {
   assert.equal(Object.keys(REGISTRY_BINDINGS).length, 10);
-  assert.equal(REGISTRY_BINDINGS['encyclopedia-entry'], 'src/content/docs/');
+  assert.equal(REGISTRY_BINDINGS['encyclopedia-entry'], 'src/content/docs/kb/');
 });
 
 test('profile.yaml stays in sync with bind.mjs (no drift)', () => {

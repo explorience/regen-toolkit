@@ -54,7 +54,20 @@ test('encyclopedia-entry writes a markdown doc, not a registry row', () => {
     { schema: 'encyclopedia-entry', object: { id: 'topic-x', title: 'Topic X', body: 'Hello.' } },
   ]);
   bridge({ dir, config: { adapter: 'repo-data', target: dir } });
-  const p = join(dir, 'src/content/docs/topic-x.md');
+  const p = join(dir, 'src/content/docs/kb/topic-x.md');
   assert.ok(existsSync(p));
   assert.match(readFileSync(p, 'utf8'), /^---\n[\s\S]*title: Topic X[\s\S]*---\n\nHello\./);
+});
+
+test('real registry shape: scalar header + underscore key are preserved, new row added under existing key', () => {
+  const dir = seed();
+  mkdirSync(join(dir, 'data'), { recursive: true });
+  writeFileSync(join(dir, 'data/source-systems.yaml'),
+    yaml.dump({ schema_version: '2.0', source_systems: [{ id: 'keep', title: 'Keep' }] }));
+  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  const doc = yaml.load(readFileSync(join(dir, 'data/source-systems.yaml'), 'utf8'));
+  assert.equal(doc.schema_version, '2.0');                 // scalar header preserved
+  assert.ok(doc.source_systems.some(e => e.id === 'keep')); // existing row preserved
+  assert.ok(doc.source_systems.some(e => e.id === 's1'));   // new row added under the existing underscore key
+  assert.equal(doc.source_systems.filter(e => e.id === 's1').length, 1);
 });
