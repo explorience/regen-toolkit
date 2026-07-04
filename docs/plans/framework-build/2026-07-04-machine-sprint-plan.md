@@ -552,7 +552,7 @@ export function slugify(s) {
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, renameSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import yaml from 'js-yaml';
-import { slugify } from '../storage.mjs';
+import { slugify } from '../util.mjs';   // ⚠ NOT '../storage.mjs' — storage imports every adapter; importing storage back creates a TDZ cycle (see fix 7261151)
 import { toJsonLdContext } from '../index.mjs';
 
 function atomicWrite(path, text) {
@@ -1277,9 +1277,27 @@ for (const name of SHIPPING) {
 
     const { indexPath, contextPath } = a.writeIndex(target);
     assert.ok(existsSync(indexPath) && existsSync(contextPath));
+    // index.json content is real, not just present
+    const written = JSON.parse(readFileSync(indexPath, 'utf8'));
+    assert.equal(written.total, 1);
+
+    // empty target: list/index degrade gracefully
+    const empty = mkdtempSync(join(tmpdir(), `tf-${name}-empty-`));
+    assert.deepEqual(a.list(empty), []);
+    assert.equal(a.index(empty).total, 0);
+  });
+
+  test(`[${name}] adapter module is importable as the entry module (no import cycle)`, () => {
+    const file = name === 'kb-folder' ? 'kb-folder' : name;
+    const out = execFileSync('node', ['-e',
+      `import('./src/adapters/${file}.mjs').then(m => console.log(Object.values(m)[0].name))`],
+      { encoding: 'utf8', cwd: join(here, '..') });
+    assert.equal(out.trim(), name);
   });
 }
 ```
+
+(Add `readFileSync` to the `node:fs` import, `execFileSync` from `node:child_process`, and `here` via `dirname(fileURLToPath(import.meta.url))` — see test/storage.test.mjs for the established pattern. Contract note: adapter methods use `this` internally — always call them ON the adapter object, never destructure; document this in the storage.mjs contract block if not already there.)
 
 - [ ] **Step 2: Run to verify failure**
 
@@ -1295,7 +1313,7 @@ Expected: `kb-folder` passes; `repo-data` FAILS (`unknown storage adapter: repo-
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, renameSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import yaml from 'js-yaml';
-import { slugify } from '../storage.mjs';
+import { slugify } from '../util.mjs';   // ⚠ NOT '../storage.mjs' — storage imports every adapter; importing storage back creates a TDZ cycle (see fix 7261151)
 import { toJsonLdContext } from '../index.mjs';
 
 function atomicWrite(path, text) {
