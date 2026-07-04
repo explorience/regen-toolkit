@@ -11,7 +11,7 @@ test('every lifecycle op-name resolves to a registered op', () => {
 test('exec ops carry a run() fn; skill ops carry a skill name', () => {
   for (const [name, op] of Object.entries(OPS)) {
     if (op.kind === 'exec') assert.equal(typeof op.run, 'function', `${name} missing run`);
-    else assert.equal(op.kind, 'skill') && assert.ok(op.skill, `${name} missing skill`);
+    else { assert.equal(op.kind, 'skill'); assert.ok(op.skill, `${name} missing skill`); }
   }
 });
 
