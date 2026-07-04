@@ -3,6 +3,54 @@
   "type": "MeetingRegistry",
   "meetings": [
     {
+      "id": "mtg-20260702-regen-web3-toolkit-planning",
+      "title": "Regen Web3 Toolkit Planning Call — Framework-as-Package + First Ingestion Test Cases",
+      "date": "2026-07-02",
+      "type": "planning",
+      "participants": [
+        "Matty",
+        "did:refi-bcn:luiz-fernando",
+        "Durgadas",
+        "Caue \"Koi\" Mtomaz",
+        "Afo",
+        "Rathermercurial",
+        "Heenal"
+      ],
+      "duration_minutes": 59,
+      "recording_url": null,
+      "transcript_path": "packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md",
+      "summary": "Converged on framework-as-package (Luiz): a portable module dropped into a repo that ingests unstructured resources into an ontology-structured knowledge base, articulated with the live site (two pages integrated on regen-toolkit-os: Toolkit Framework + Regen-Toolkit-OS). Two first ingestion test cases: Koi's just-finished Gen Brasil Commons artifacts (2 books + a 6-call conflict-mediation protocol) and Durgadas's Proof of Coordination protocol — with Durgadas requiring ingestion and storage to be separable. Matty committed to one more master-doc iteration (handoff docs + new theory of change, incorporating Frame Language Analyzer + Idea Processor); Options (governance/tooling) named as the core of a real deployment. Durgadas issued a Frame 1 language warning ('structure beats intention 100%') and offered CSIS/Craft/Valcre standards. Infra interop thread: Geo Protocol (IPFS + The Graph, SDK/Aragon/API) + AT Protocol as connective tissue; push for more opinionated infra. Funding: no feedback yet on Regen Coordination budget/scope; expects a hunk of the QF distribution; not rushing. Next checkpoint ~2 weeks.",
+      "decisions": [
+        "Framework-as-package is the adopted build direction (portable module → agents process resources → ontology-structured KB); initial testable version ~2 weeks",
+        "Sequencing: Matty (master doc) → Luiz (structure into the system) → Afo (content workflows fill gaps + interconnect)",
+        "Matty owns one more master-doc iteration (handoff docs + new theory of change; incorporate Frame Language Analyzer + Idea Processor)",
+        "Options (governance options, tooling options) are the concrete core of an actual deployment — the focus after seeding the resources DB",
+        "Framework must keep ingestion and storage separable (Durgadas's constraint)",
+        "Don't rush funding or the hub post — take work to a concrete checkpoint first, then throw it out"
+      ],
+      "action_items": [
+        "Luiz: build initial framework-package version (~2 weeks); iterate + verify the 2 site pages vs master doc; request website publish permissions + dev environment; pull CSIS/Craft/Valcre standards; test on Koi's artifacts; invite Andrea",
+        "Matty: one more master-doc iteration (handoff docs + new ToC + Frame Language Analyzer + Idea Processor); seed resources DB (tools/links/orgs); focus on Options; push Regen Coordination budget/scope",
+        "Durgadas: send CSIS/Craft/Valcre links (rigor sandwich, prompt library, implementation guide, conflict standard); release AI Precision Toolkit (~1-2 wks); build ingestion layer for Proof of Coordination; make Idea Processor functional on Vercel",
+        "Koi: send Gen Brasil Commons artifacts (conflict-mediation protocol first) as ingestion test case; explore Geo-Protocol interop for his 2 Portuguese apps; help with data ingestion",
+        "Afo: set up dev environment + grant Luiz publish permissions by next meeting; back on website next week; content workflows to fill gaps after structure calcifies",
+        "Rather: share Geo Protocol integration details (SDK/Aragon/API; IPFS + The Graph) with Koi; build a job board",
+        "Team: consider a grants subgroup (Super Benefit methodology); push infra toward more opinionated choices (Geo + AT Protocol); audit Frame 1 language in master doc + framework"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "framework-as-package",
+        "external-artifact-ingestion",
+        "frame-one-language-warning",
+        "csis-craft-valcre",
+        "geo-protocol",
+        "at-protocol",
+        "opinionated-infrastructure",
+        "master-doc-next-iteration",
+        "regen-coordination-funding"
+      ]
+    },
+    {
       "id": "mtg-20260615-toolkit-worksession-matty",
       "title": "Toolkit Work Session with Matty — RegenOS + Knowledge Commons Architecture",
       "date": "2026-06-15",

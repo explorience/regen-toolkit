@@ -35,6 +35,25 @@ Framework built + content processed + site forked (2 pages) + GAPS + master-doc 
 - [ ] **Full iteration next week** — sync the framework's `problems-and-theory-of-change.md` to Matty's **v3 ToC update (26 Jun)**; deepen the 3 skills; run the **V3 resource review pass** (human review before publishing lifted resources); then the hub post
 - [ ] **Schedule the call** end of next week (ratify structure + opinionated decisions)
 
+### Biweekly 2026-07-02 — fresh commitments _(NEW 2026-07-02)_
+
+The share pack above was effectively presented at this biweekly. Direction ratified: **framework-as-package** (portable module → agents ingest resources → ontology-structured KB). Two **first ingestion test cases** are now real. Full note: [`packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md`](packages/operations/meetings/260702%20Regen%20Web3%20Toolkit%20Planning%20Call.md). **Next checkpoint ~2 weeks (~2026-07-16).**
+
+- [ ] **Luiz — initial testable framework-package version (~2 weeks)** — ingest external resources → ontology-structured KB. **Design constraint (Durgadas): keep ingestion and storage separable.** (Feeds Framework Build → "★ Process toolkit content" below.)
+- [ ] **Luiz — verify the 2 site pages** (Toolkit Framework · Regen-Toolkit-OS) against the master doc (drafts not yet verified); iterate for clarity/usability
+- [ ] **Luiz — request website publish permissions + a dev environment** from Afo (publish prototypes into detail pages; process resources → preview graph → publish)
+- [ ] **Luiz — test the framework on Koi's Gen Brasil Commons artifacts** (first real external case)
+- [ ] **Koi — send Luiz the Gen Brasil Commons artifacts** — 2 books + a 6-call **conflict-mediation protocol** (open-source publication); the first ingestion test
+- [ ] **Durgadas — send Luiz the CSIS / Craft / Valcre links** — rigor sandwich, prompt library, implementation guide, conflict standard (already AI/ML-ready). *(Resolves the standing "find the CSIS repo" ask.)*
+- [ ] **Durgadas — AI Precision Toolkit release (~1–2 wks)**; build an ingestion layer for the **Proof of Coordination protocol**; make the **Idea Processor** functional on Vercel
+- [ ] **Matty — one more master-doc iteration** (handoff docs + new theory of change; **incorporate Frame Language Analyzer + Idea Processor**); seed resources DB (tools/links/orgs); **focus on Options** (governance/tooling — the core of a deployment). *(Threads with Master Doc + Resource DB V3 sections.)*
+- [ ] **Afo — dev environment + Luiz publish permissions by next meeting**; back on website next week; content-creation workflows to fill gaps + interconnect once structure calcifies
+- [ ] **Rather — share Geo Protocol integration details** (SDK / abstracted Aragon interface / read API; IPFS + The Graph) with Koi for app interop; build a **job board** (collect resumes)
+- [ ] **Infra — get more opinionated:** evaluate **Geo Protocol** + **AT Protocol** as connective tissue across everyone's work (Matty; Durgadas to dig in). *(Extends Infra Stack & Federation below — pairs with the Geo Browser review.)*
+- [ ] **Frame-language audit** — Durgadas's Frame 1 warning ("governance/accountability" terms → structurally non-regenerative; *structure beats intention 100%*); audit the master doc **and** the framework, which is being built with those very terms
+- [ ] **Luiz — invite Andrea** (ReFi Barcelona) to reprocess the ReFi BCN knowledge commons + her bioregional work (she's been away). *(Advances the Andrea/RegenOS thread below.)*
+- [ ] **Grants subgroup** — Durgadas + Afo both looking for work; **Super Benefit** methodology as reference (Durgadas to raise over the next couple weeks)
+
 ### Framework Build — `packages/toolkit-framework` _(0.1.0-beta.1 — BUILT)_
 
 Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0–SP11). The framework = a standalone, org-os-agnostic package (zero-build ESM + YAML + markdown) seeding a federated network of forkable-but-interoperable commons. Gap analysis + reconciliations: [`framework/COVERAGE.md`](framework/COVERAGE.md) · [`framework/RECONCILIATIONS.md`](framework/RECONCILIATIONS.md) · [`framework/FEEDBACK-LOOPS.md`](framework/FEEDBACK-LOOPS.md).
