@@ -17,6 +17,9 @@ do not store — the CLI's accept gate does.
 
 1. **Pick an open order:** `node <framework>/src/cli.mjs ingest list --status open --dir .workorders`
 2. **Claim it:** `… ingest claim <wo-id> --by <your-name> --dir .workorders`
+   - Claim races happen (two agents pull the same open list). If `claim` fails
+     with an illegal-transition error, someone else got it — go back to step 1
+     rather than retrying the same order.
 3. **Read the order** (`.workorders/<wo-id>.yaml`): `source_path`, `source_type`,
    `target_schemas` (suggestions, not a cage), `instructions`.
 4. **Read the source. Decompose (deep intake):** one shared thing becomes many
@@ -47,11 +50,18 @@ do not store — the CLI's accept gate does.
      # …schema fields; run `validate <schema> <file>` locally if unsure
    ```
 
-8. **Mark fulfilled:** `… ingest fulfill <wo-id> --dir .workorders`
-9. **Hand to the gate:** `… ingest accept <wo-id> --dir .workorders`
-   - Rejected? The order's `error_notes` are your retry instructions. Fix the
-     candidates, `fulfill` is already set — run `accept` again.
-10. **Never run `store` yourself unless the operator asked** — storing is an
+8. **Record what you assessed but EXCLUDED** — silence is indistinguishable
+   from a miss. Before fulfilling, append an `# assessed-but-excluded` YAML
+   comment block to one of your candidate files (or a `notes` field on the most
+   related object) listing material you deliberately left out and why (e.g.
+   "funding thread — would need high_risk + internal-only boundary; excluded",
+   "personal job-seeking mentions — personal info, excluded"). Reviewers can
+   then tell discipline from oversight.
+9. **Mark fulfilled:** `… ingest fulfill <wo-id> --dir .workorders`
+10. **Hand to the gate:** `… ingest accept <wo-id> --dir .workorders`
+    - Rejected? The order's `error_notes` are your retry instructions. Fix the
+      candidates, `fulfill` is already set — run `accept` again.
+11. **Never run `store` yourself unless the operator asked** — storing is an
     operator/CI decision (`store --adapter <kb-folder|repo-data> --target <dir>`).
 
 ## Hard rules

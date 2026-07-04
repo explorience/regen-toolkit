@@ -28,11 +28,14 @@ Until the open CSIS decisions resolve, do not assert conformance. Draft-and-pres
 
 ## Mode: frame-language-audit
 
-Durgadas (2026-07-02): Frame-1 terms make a thing *structurally* not
-regenerative — "it seems like a semantic point, but it's really a structural
-point… when intention and structure diverge, **structure beats intention 100%
-of the time**." This mode audits language as structure, per CSIS's
-informed-not-conformant posture (R7).
+Grounding (2026-07-02 planning call, paraphrased — the exact wording comes from
+a noisy auto-transcription and is **not verified for public quoting**; see the
+KB's claim-evidence record + its public-use-boundary companion before citing):
+Frame-1 terms can make a thing *structurally* not regenerative — the point is
+structural, not semantic; where intention and structure diverge,
+**structure beats intention**. This mode audits language as structure, per CSIS's
+informed-not-conformant posture (R7). Cite the published CSIS/Craft standards
+(and the AI Precision Toolkit once released) rather than call transcripts.
 
 **Scope:** any doc set — site pages, framework docs, the master doc, KB objects.
 

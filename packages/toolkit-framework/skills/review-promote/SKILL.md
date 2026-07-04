@@ -13,6 +13,9 @@ named reviewer in the room.
 
 ## Session loop
 
+CLI entrypoint: `node <framework>/src/cli.mjs` (abbreviated `…` below). Run from
+the instance dir so `kms.yaml` defaults and stored refs resolve.
+
 1. `… review list --adapter <a> --target <t>` — show the queue, grouped by schema.
 2. For each object (or the slice the reviewer picks): present it whole — title,
    fields, provenance chain (origin → work_order → source_lineage). Flag anything
@@ -27,6 +30,10 @@ named reviewer in the room.
    at a time. The CLI validates the merged object BEFORE writing (a refused
    promotion writes nothing), clears `ai_assisted` on any reviewer-present
    promotion (provenance.authorship keeps the AI history), and re-derives the index.
+   - **Refused by invariants?** The message names the conflict — usually a
+     structural field must move first (e.g. a demotion to `raw` while
+     `public_use` is still `reviewed-for-*`: reset `public_use` via the
+     "edit first" path, then demote). Loop back to step 3.
 5. **Demotion** (`--maturity raw`, no reviewer needed): the CLI leaves old
    `reviewed_by`/`last_reviewed` stamps in place as history — record WHY in the
    object's `notes` field (edit before demoting) so the trail is honest.

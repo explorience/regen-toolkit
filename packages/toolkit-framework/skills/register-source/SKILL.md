@@ -32,7 +32,7 @@ the card must exist BEFORE the content does.
    never naked assertions in prose fields.
 6. **Emit** as a candidate in the current work order (or via capture-and-route
    for a standalone registration), then validate:
-   `… validate source-system <file>`.
+   `node <framework>/src/cli.mjs validate source-system <file>`.
 
 ## In the pilots
 
