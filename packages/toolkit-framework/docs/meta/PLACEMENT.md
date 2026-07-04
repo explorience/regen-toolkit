@@ -1,6 +1,6 @@
 # Framework Review — Placement & Operation
 
-> **Status:** review v2 (2026-06-17). **Supersedes the "profile-of-org-os" framing** with a **modular-package** model per operator direction: develop the framework as a standalone, **org-os-agnostic** package (usable anywhere), with org-os integration as a separate, **replaceable** module. Pairs with [`README.md`](README.md), [`SEPARATION.md`](SEPARATION.md), and [D1](../../../../docs/plans/architecture-lifecycle-vs-layers.md).
+> **Status:** review v2 (2026-06-17). **Supersedes the "profile-of-org-os" framing** with a **modular-package** model per operator direction: develop the framework as a standalone, **org-os-agnostic** package (usable anywhere), with org-os integration as a separate, **replaceable** module. Pairs with the [package README](../../README.md), [`SEPARATION.md`](SEPARATION.md), and [D1](../../../../docs/plans/architecture-lifecycle-vs-layers.md).
 
 ---
 
