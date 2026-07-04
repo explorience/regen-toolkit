@@ -1,6 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import yaml from 'js-yaml';
 import { toOrgOsRegistries, profileManifest, REGISTRY_BINDINGS, LIFECYCLE_BINDINGS } from '../src/bind.mjs';
+
+const here = dirname(fileURLToPath(import.meta.url));
 
 test('binds framework objects to their org-os registries (module)', () => {
   const out = toOrgOsRegistries([
@@ -33,4 +39,10 @@ test('lifecycle bindings are canonical op-names (initialize/close)', () => {
 test('REGISTRY_BINDINGS keeps all 10 schema targets', () => {
   assert.equal(Object.keys(REGISTRY_BINDINGS).length, 10);
   assert.equal(REGISTRY_BINDINGS['encyclopedia-entry'], 'src/content/docs/');
+});
+
+test('profile.yaml stays in sync with bind.mjs (no drift)', () => {
+  const profile = yaml.load(readFileSync(join(here, '../profile/profile.yaml'), 'utf8'));
+  assert.deepEqual(profile.registry_bindings, REGISTRY_BINDINGS);
+  assert.deepEqual(profile.lifecycle_bindings, LIFECYCLE_BINDINGS);
 });
