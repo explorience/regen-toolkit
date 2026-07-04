@@ -124,3 +124,20 @@ test('[repo-data] update works when the target path itself contains "#"', () => 
   assert.equal(upd.object.maturity, 'plausible');
   assert.equal(a.list(target)[0].object.maturity, 'plausible');
 });
+
+// geo is a registered, documented STUB — the seam Rather's Geo Protocol SDK fills.
+// Not in SHIPPING: it must never pass the round-trip; it must fail loudly with docs.
+test('[geo] is a documented stub: registered, but every operation throws with the seam docs', () => {
+  const geo = getAdapter('geo');
+  assert.equal(geo.name, 'geo');
+  for (const call of [() => geo.store('x', []), () => geo.list('x'), () => geo.update('x', 'r', {}), () => geo.index('x'), () => geo.writeIndex('x')]) {
+    assert.throws(call, /geo adapter is a documented stub[\s\S]*(Geo Protocol|IPFS)/);
+  }
+});
+
+test('[geo] adapter module is importable as the entry module (no import cycle)', () => {
+  const out = execFileSync('node', ['-e',
+    "import('./src/adapters/geo.mjs').then(m => console.log(Object.values(m)[0].name))"],
+    { encoding: 'utf8', cwd: join(here, '..') });
+  assert.equal(out.trim(), 'geo');
+});

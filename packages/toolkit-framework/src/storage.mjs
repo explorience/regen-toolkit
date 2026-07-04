@@ -16,8 +16,9 @@
 //   are `<file>#<slug>`).
 import { kbFolderAdapter } from './adapters/kb-folder.mjs';
 import { repoDataAdapter } from './adapters/repo-data.mjs';
+import { geoAdapter } from './adapters/geo.mjs';
 
-const ADAPTERS = { 'kb-folder': kbFolderAdapter, 'repo-data': repoDataAdapter };
+const ADAPTERS = { 'kb-folder': kbFolderAdapter, 'repo-data': repoDataAdapter, geo: geoAdapter };
 
 export function listAdapters() { return Object.keys(ADAPTERS); }
 
