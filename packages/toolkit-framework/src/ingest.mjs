@@ -104,13 +104,19 @@ export function prepare({ path, workOrdersDir }) {
   return { created, skipped };
 }
 
-/** Load an order's candidate files: .workorders/<id>/candidates/*.yaml, each { schema, object }. */
+/** Load an order's candidate files: .workorders/<id>/candidates/*.yaml, each { schema, object }.
+ * A file that fails to parse comes back as { file, parse_error } — never throws,
+ * so the accept gate can turn agent-written garbage into error_notes, not a crash. */
 export function loadCandidates(workOrdersDir, id) {
   const dir = join(workOrdersDir, id, 'candidates');
   if (!existsSync(dir)) return [];
-  return readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((file) => ({
-    file, ...yaml.load(readFileSync(join(dir, file), 'utf8')),
-  }));
+  return readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((file) => {
+    try {
+      return { file, ...yaml.load(readFileSync(join(dir, file), 'utf8')) };
+    } catch (e) {
+      return { file, parse_error: e.message };
+    }
+  });
 }
 
 /**
@@ -135,6 +141,7 @@ export function acceptWorkOrder({ workOrdersDir, id }) {
   const known = new Set(listSchemas());
   for (const c of candidates) {
     const where = (msg) => `${c.file}: ${msg}`;
+    if (c.parse_error) { errors.push(where(`invalid YAML — ${c.parse_error}`)); continue; }
     if (!c.schema || !known.has(c.schema)) { errors.push(where(`unknown schema "${c.schema}"`)); continue; }
     if (!c.object || typeof c.object !== 'object') { errors.push(where('missing object')); continue; }
     const v = validateObject(c.schema, c.object);

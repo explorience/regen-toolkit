@@ -1,7 +1,7 @@
 // test/accept.test.mjs
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, copyFileSync, existsSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, copyFileSync, existsSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -52,4 +52,16 @@ test('accept enforces the born-rules: ai_assisted true + maturity raw + provenan
   const all = res.errors.join(' | ');
   assert.match(all, /maturity must be "raw" at accept/);
   assert.match(all, /provenance\.origin/);
+});
+
+test('accept survives malformed candidate YAML — graceful per-file error, notes saved', () => {
+  const { woDir, id } = setup(['good-source-system.yaml']);
+  writeFileSync(join(woDir, id, 'candidates', 'broken.yaml'), 'schema: [unclosed\nobject:\n  title: broken\n');
+  const res = acceptWorkOrder({ workOrdersDir: woDir, id });
+  assert.equal(res.accepted, false);
+  assert.ok(res.errors.some((e) => e.startsWith('broken.yaml: invalid YAML')), res.errors.join(' | '));
+  const wo = loadWorkOrder(woDir, id);
+  assert.equal(wo.status, 'fulfilled');
+  assert.match(wo.error_notes, /broken\.yaml: invalid YAML/);
+  assert.ok(!existsSync(join(woDir, id, 'accepted')), 'nothing partially accepted');
 });
