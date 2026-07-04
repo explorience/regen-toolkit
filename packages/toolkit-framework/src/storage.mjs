@@ -9,8 +9,9 @@
 //   writeIndex(target)          // persist index.json + context.jsonld next to the objects → { indexPath, contextPath }
 // }
 import { kbFolderAdapter } from './adapters/kb-folder.mjs';
+import { repoDataAdapter } from './adapters/repo-data.mjs';
 
-const ADAPTERS = { 'kb-folder': kbFolderAdapter };
+const ADAPTERS = { 'kb-folder': kbFolderAdapter, 'repo-data': repoDataAdapter };
 
 export function listAdapters() { return Object.keys(ADAPTERS); }
 
@@ -20,4 +21,5 @@ export function getAdapter(name) {
   return a;
 }
 
-export { slugify } from './util.mjs';
+// deriveIndex lives in util.mjs (a leaf module) — see its docstring for why.
+export { slugify, deriveIndex } from './util.mjs';

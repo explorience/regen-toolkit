@@ -4,7 +4,7 @@
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, renameSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import yaml from 'js-yaml';
-import { slugify } from '../util.mjs';
+import { slugify, deriveIndex } from '../util.mjs';
 import { toJsonLdContext } from '../index.mjs';
 import { hashContent } from '../workorder.mjs';
 
@@ -60,16 +60,7 @@ export const kbFolderAdapter = {
   },
 
   index(target) {
-    const items = this.list(target);
-    const by_type = {}; const by_maturity = {};
-    let review_queue = 0;
-    for (const { schema, object } of items) {
-      by_type[schema] = (by_type[schema] || 0) + 1;
-      if (object.maturity) by_maturity[object.maturity] = (by_maturity[object.maturity] || 0) + 1;
-      if (object.maturity === 'raw' || object.ai_assisted === true) review_queue += 1;
-    }
-    return { total: items.length, by_type, by_maturity, review_queue,
-      generated_from: 'derived — rebuildable from objects/' };
+    return deriveIndex(this.list(target), 'objects/');
   },
 
   writeIndex(target) {
