@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { mkdtempSync, mkdirSync, copyFileSync, readFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, copyFileSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import yaml from 'js-yaml';
 
@@ -93,7 +93,15 @@ test('cli init stamps an instance and kms.yaml defaults feed store/kb', () => {
   const dir = mkdtempSync(join(tmpdir(), 'tf-cli-init-'));
   const out = run(['init', dir, '--name', 'smoke']);
   assert.match(out, /✓ instance "smoke" initialized/);
+  assert.match(out, /next: complete the self source-system card/, 'no path printed — self_ref is adapter-opaque');
   // kms.yaml defaults picked up when cwd is the instance dir
   const idx = JSON.parse(run(['kb', 'index'], { cwd: dir }));
   assert.equal(idx.total, 1, 'self card visible via config-default adapter/target');
+});
+
+test('cli surfaces a malformed kms.yaml as a clean error, not a raw stack (store/kb/review/init)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-badcfg-'));
+  writeFileSync(join(dir, 'kms.yaml'), 'foo: [unclosed');
+  assert.throws(() => run(['kb', 'index'], { cwd: dir, stdio: 'pipe' }),
+    (e) => e.status === 1 && /kms\.yaml/.test(String(e.stderr)));
 });

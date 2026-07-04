@@ -34,6 +34,13 @@ function requireWoId(id, usage) {
   return id;
 }
 
+// config-reading verbs (store/kb/review/init) must surface a malformed kms.yaml
+// as a clean "✗ message" + exit 1 — never a raw stack trace from loadConfig().
+function loadConfigOrExit(dir) {
+  try { return loadConfig(dir) || {}; }
+  catch (e) { console.error(`✗ ${e.message}`); process.exit(1); }
+}
+
 switch (cmd) {
   case 'version':
   case '--version':
@@ -120,17 +127,18 @@ switch (cmd) {
     const { flags, positional } = parseFlags(args, {});
     const dir = positional[0] || '.';
     const mode = 'existing' in flags ? 'existing' : 'new';
-    const res = initInstance({ dir, mode, existingPath: flags.existing || null,
-      name: flags.name || null, adapter: flags.adapter || 'kb-folder' });
-    const cfg = loadConfig(dir) || {};
-    console.log(`✓ instance "${res.instance}" initialized at ${res.dir}` +
-      (res.workOrders ? ` — ${res.workOrders} work order(s) queued from existing content` : ''));
-    console.log(`next: complete ${cfg.self_ref || 'the self source-system card'} (register-source skill), then run the ingest skill`);
+    try {
+      const res = initInstance({ dir, mode, existingPath: flags.existing || null,
+        name: flags.name || null, adapter: flags.adapter || 'kb-folder' });
+      console.log(`✓ instance "${res.instance}" initialized at ${res.dir}` +
+        (res.workOrders ? ` — ${res.workOrders} work order(s) queued from existing content` : ''));
+      console.log('next: complete the self source-system card (register-source skill), then run the ingest skill');
+    } catch (e) { console.error(`✗ ${e.message}`); process.exit(1); }
     break;
   }
 
   case 'store': {
-    const cfg = loadConfig('.') || {};
+    const cfg = loadConfigOrExit('.');
     const { flags } = parseFlags(args, { dir: '.workorders', adapter: cfg.adapter || 'kb-folder', target: cfg.target || 'kb' });
     const adapter = getAdapter(flags.adapter);
     let count = 0;
@@ -149,7 +157,7 @@ switch (cmd) {
 
   case 'kb': {
     const [sub, ...rest] = args;
-    const cfg = loadConfig('.') || {};
+    const cfg = loadConfigOrExit('.');
     const { flags } = parseFlags(rest, { adapter: cfg.adapter || 'kb-folder', target: cfg.target || 'kb' });
     if (sub === 'index') {
       console.log(JSON.stringify(getAdapter(flags.adapter).index(flags.target), null, 2));
@@ -159,7 +167,7 @@ switch (cmd) {
 
   case 'review': {
     const [sub, ...rest] = args;
-    const cfg = loadConfig('.') || {};
+    const cfg = loadConfigOrExit('.');
     const { flags, positional } = parseFlags(rest, { adapter: cfg.adapter || 'kb-folder', target: cfg.target || 'kb' });
     if (sub === 'list') {
       const q = reviewQueue({ adapter: flags.adapter, target: flags.target });

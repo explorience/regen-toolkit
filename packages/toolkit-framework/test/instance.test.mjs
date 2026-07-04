@@ -1,8 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, rmSync, renameSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
 import { initInstance, loadConfig } from '../src/instance.mjs';
 import { validateObject } from '../src/index.mjs';
 import { loadWorkOrders } from '../src/workorder.mjs';
@@ -22,8 +22,9 @@ test('init --new stamps the substrate: kb/, .workorders/, kms.yaml, self source-
   const entries = getAdapter('kb-folder').list(join(dir, 'kb'));
   assert.equal(entries.length, 1);
   const card = entries[0].object;
-  // self_ref is recorded dir-RELATIVE (portable — instance dirs move)
-  assert.equal(entries[0].ref, join(dir, cfg.self_ref), 'kms.yaml remembers where the self card lives (dir-relative)');
+  // self_ref is recorded as the adapter-opaque ref VERBATIM (not a path to
+  // parse/join — the contract every adapter, including non-path ones, honors)
+  assert.equal(entries[0].ref, cfg.self_ref, 'kms.yaml remembers the self card via an adapter-opaque ref');
   const { valid, errors } = validateObject('source-system', card);
   assert.equal(valid, true, errors.join('; '));
   assert.equal(card.maturity, 'raw', 'draft card until the operator completes it via register-source');
@@ -56,11 +57,44 @@ test('init heals a deleted self card on re-run (self_ref always resolves)', () =
   const dir = mkdtempSync(join(tmpdir(), 'tf-init-heal-'));
   initInstance({ dir, name: 'healable' });
   const cfg = loadConfig(dir);
-  const cardPath = join(dir, cfg.self_ref);            // self_ref must be dir-relative (portable)
-  assert.ok(existsSync(cardPath), `self_ref must resolve relative to the instance dir: ${cfg.self_ref}`);
+  const cardPath = cfg.self_ref;            // self_ref is the adapter's ref, verbatim (kb-folder: a file path)
+  assert.ok(existsSync(cardPath), `self_ref must resolve to the stored card: ${cfg.self_ref}`);
   rmSync(cardPath);
   initInstance({ dir, name: 'ignored' });
   assert.ok(existsSync(cardPath), 'card re-stamped');
   const cfgAfter = loadConfig(dir);
   assert.equal(cfgAfter.instance, 'healable', 'config identity untouched by heal');
+  assert.equal(getAdapter('kb-folder').list(join(dir, cfg.target)).length, 1, 'exactly one card — no duplication');
+});
+
+test('init --adapter repo-data: re-init never duplicates the self card (adapter-agnostic presence check)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-init-rd-'));
+  initInstance({ dir, name: 'rd', adapter: 'repo-data' });
+  initInstance({ dir, name: 'rd', adapter: 'repo-data' });
+  const cfg = loadConfig(dir);
+  assert.equal(cfg.adapter, 'repo-data');
+  const cards = getAdapter('repo-data').list(join(dir, cfg.target))
+    .filter((e) => e.schema === 'source-system');
+  assert.equal(cards.length, 1, 'repo-data refs (`<file>#<slug>`) never resolve as filesystem paths — presence must not be decided by existsSync');
+  assert.equal(cfg.self_ref, cards[0].ref);
+});
+
+test('init heals a moved/renamed self card without duplication (repoints self_ref, does not re-stamp)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-init-rename-'));
+  initInstance({ dir, name: 'renameable' });
+  const cfg = loadConfig(dir);
+  const oldRef = cfg.self_ref;
+  const renamed = join(dirname(oldRef), 'renamed-card.yaml');
+  renameSync(oldRef, renamed);
+  initInstance({ dir, name: 'ignored' });
+  const cfgAfter = loadConfig(dir);
+  assert.equal(cfgAfter.self_ref, renamed, 'self_ref repointed to the found ref');
+  const cards = getAdapter('kb-folder').list(join(dir, cfg.target)).filter((e) => e.schema === 'source-system');
+  assert.equal(cards.length, 1, 'moved card found by title, not re-stamped as a duplicate');
+});
+
+test('loadConfig throws a clear error on malformed kms.yaml (not a raw YAML parser stack)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-badcfg-'));
+  writeFileSync(join(dir, 'kms.yaml'), 'foo: [unclosed');
+  assert.throws(() => loadConfig(dir), (e) => /kms\.yaml/.test(e.message) && /is not valid YAML/.test(e.message));
 });
