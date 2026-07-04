@@ -1,0 +1,10 @@
+# invalid on TWO counts: claims 'reviewed' maturity while ai_assisted (invariant)
+# and is missing provenance.origin (born-rule)
+schema: source-system
+object:
+  title: Overclaiming Wiki
+  type: wiki
+  steward: Nobody
+  return_path: none
+  maturity: reviewed
+  ai_assisted: true

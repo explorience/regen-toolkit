@@ -52,6 +52,11 @@ function collectRequired(schema) {
   return [...new Set([...inherited, ...(schema.required || [])])];
 }
 
+/** Public: the effective field map of a schema (with `extends` inheritance applied). */
+export function schemaFields(schemaName) {
+  return collectFields(loadSchema(schemaName));
+}
+
 /**
  * Validate a plain object against an object-schema (`required` + `fields`, with `extends`).
  * Extra fields are allowed (the model is open/extensible per Principle 11). A field def may
