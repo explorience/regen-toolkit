@@ -13,6 +13,11 @@ test('dashboard section renders totals, types, and review depth', () => {
   assert.match(s, /1 awaiting review/);
 });
 
+test('dashboard section counts review_queue when it is an array (deriveIndex shape)', () => {
+  const s = renderDashboardSection({ total: 5, by_type: { resource: 5 }, review_queue: ['a', 'b'] });
+  assert.match(s, /2 awaiting review/);
+});
+
 test('dashboard section tolerates an empty index', () => {
   const s = renderDashboardSection({});
   assert.match(s, /0 objects/);
