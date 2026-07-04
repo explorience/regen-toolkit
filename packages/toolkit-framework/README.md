@@ -2,7 +2,7 @@
 
 The **Regen Knowledge Commons Toolkit framework** — a portable, **org-os-agnostic** system for building a federated, interoperable knowledge commons. It is the *operational distillation* of the [master doc](../../docs/MASTER.md): **adopt the package, not the 30,000-line doc.**
 
-> **Status: v0.1.0-beta.1 — try-able beta.** Semantic kernel + 21 schemas + compatibility engine + 3 agentic skills + lift ETL + full architecture/process docs, now with a knowledge base ([`docs/`](docs/README.md)), one validating [`examples/`](examples/) instance per object-schema, Appendix A–H instance [`templates/`](templates/instance/), and a gaps register ([`framework/GAPS.md`](../../framework/GAPS.md)). Tests green. Grows dialectically through adoption (first: ReFi DAO). Design: [`framework/`](../../framework/) · [build plan](../../docs/plans/framework-build/README.md).
+> **Status: v0.1.0-beta.1 — try-able beta.** Semantic kernel + 21 schemas + compatibility engine + 3 agentic skills + lift ETL + full architecture/process docs, now with a knowledge base ([`docs/`](docs/README.md)), one validating [`examples/`](examples/) instance per object-schema, Appendix A–H instance [`templates/`](templates/instance/), and a gaps register ([`docs/meta/GAPS.md`](docs/meta/GAPS.md)). Tests green. Grows dialectically through adoption (first: ReFi DAO). Design: [`docs/meta/`](docs/meta/) · [build plan](../../docs/plans/framework-build/README.md).
 
 ## Why it exists
 
@@ -56,4 +56,4 @@ First adoption: **ReFi DAO** (via `@org-os/kms` profile) — process podcasts/bl
 
 ## Design note
 
-This package deliberately uses **zero-build ESM + YAML + markdown** (not the repo's TypeScript convention) so it is adoptable in any context by cloning — no compile. See [`framework/PLACEMENT.md`](../../framework/PLACEMENT.md).
+This package deliberately uses **zero-build ESM + YAML + markdown** (not the repo's TypeScript convention) so it is adoptable in any context by cloning — no compile. See [`docs/meta/PLACEMENT.md`](docs/meta/PLACEMENT.md).

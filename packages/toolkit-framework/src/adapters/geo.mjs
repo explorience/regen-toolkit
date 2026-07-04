@@ -5,12 +5,12 @@
 // (one triple-set per object, serialized via the kernel's JSON-LD @context:
 // `toolkit-framework context`); list()/index() → the Geo read API over this
 // instance's space; update() → content-add of the new version. Ask Rather for
-// the SDK + space setup; see framework/GAPS.md (repo root; interop gaps).
+// the SDK + space setup; see docs/meta/GAPS.md (package-relative; interop gaps).
 const SEAM = `geo adapter is a documented stub — the seam the Geo Protocol SDK fills.
 Geo = IPFS + The Graph. store() → SDK content-add (objects serialize via the
 kernel's JSON-LD @context: \`toolkit-framework context\`); list()/index() → the
 Geo read API over this instance's space; update() → content-add a new version.
-Ask Rather for the SDK + space setup; see framework/GAPS.md (repo root; interop gaps).`;
+Ask Rather for the SDK + space setup; see docs/meta/GAPS.md (package-relative; interop gaps).`;
 
 const stub = () => { throw new Error(SEAM); };
 

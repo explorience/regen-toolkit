@@ -1,10 +1,10 @@
 # Framework Build — Plan Set
 
-> **Created 2026-06-17.** The build plan for `packages/toolkit-framework` (+ `org-os-kms`) — to encompass the **full** master-doc framework, grown dialectically. Grounded in [`framework/COVERAGE.md`](../../framework/COVERAGE.md) (the master-doc↔package map + keystones K1–K8 + reconciliations R1–R10) and [`framework/FEEDBACK-LOOPS.md`](../../framework/FEEDBACK-LOOPS.md). Part of the [convergence pipeline](../CONVERGENCE-PIPELINE.md) (this is the detailed expansion of **P1**).
+> **Created 2026-06-17.** The build plan for `packages/toolkit-framework` (+ `org-os-kms`) — to encompass the **full** master-doc framework, grown dialectically. Grounded in [`COVERAGE.md`](../../../packages/toolkit-framework/docs/meta/COVERAGE.md) (the master-doc↔package map + keystones K1–K8 + reconciliations R1–R10) and [`FEEDBACK-LOOPS.md`](../../../packages/toolkit-framework/docs/meta/FEEDBACK-LOOPS.md). Part of the [convergence pipeline](../CONVERGENCE-PIPELINE.md) (this is the detailed expansion of **P1**).
 
 ## Progress
 
-- ✅ **SP-DEC** — R1/R3/R7 resolved ([`framework/RECONCILIATIONS.md`](../../framework/RECONCILIATIONS.md)).
+- ✅ **SP-DEC** — R1/R3/R7 resolved ([`RECONCILIATIONS.md`](../../../packages/toolkit-framework/docs/meta/RECONCILIATIONS.md)).
 - ✅ **SP0** — `packages/toolkit-framework` scaffolded (zero-build ESM + YAML + markdown; `js-yaml` only); validator + CLI; **12/12 tests green**.
 - ✅ **SP1** — shared-schema keystones: K1 `review-maturity` (3-axis state model), K3 `frontmatter`, K2 `source-system` (return-path), K5 `contribution-record` (reciprocity hook), + `signal`/`provenance`/`public-use-boundary`.
 - ✅ **SP2** — semantic kernel: `core-entities` (15, frozen Layer A) + `extension-entities` (31, each `maps_to_core`) + `relationships` (unified grammar, separable CSIS module — R9 ✅) + `kernel-profile` (MOK-5) + JSON-LD context generator + fork-compat validator + `architecture/{ontology-posture,fork-compatibility,type-tag-discipline}.md`. **19/19 tests green; `kernel-check` ✓.**
@@ -22,7 +22,7 @@
 ## Build strategy
 
 1. **Keystone-first, then dialectical.** Build K1–K8 (the shared base everything depends on) as a minimal-but-real spine; grow the rest by metabolizing reconciliations (R1–R10) + adoptions (ReFi DAO/BCN). **No "finish then ship"** (FEEDBACK-LOOPS).
-2. **Reconcile-as-you-build.** Each R1–R10 is resolved when its artifact is built, logged in `framework/RECONCILIATIONS.md`, and fed back to the master doc as a draft-and-present proposal (Loop 2). The build IS the master doc's editor.
+2. **Reconcile-as-you-build.** Each R1–R10 is resolved when its artifact is built, logged in `packages/toolkit-framework/docs/meta/RECONCILIATIONS.md`, and fed back to the master doc as a draft-and-present proposal (Loop 2). The build IS the master doc's editor.
 3. **TDD throughout.** Schemas get validation tests (valid/invalid fixtures); the compatibility engine + CLI + skills get behavior tests. No production code without a failing test first (`superpowers:test-driven-development`).
 4. **Self-contained + agnostic.** `toolkit-framework` has zero org-os dependency; org-os coupling lives only in `org-os-kms`.
 
@@ -40,7 +40,7 @@ Do **not** pre-expand all SPs to TDD now — expand each as its wave begins (dia
 
 ### Wave 0 — Scaffold + gating decisions
 **SP0 — Package scaffold.** `packages/toolkit-framework/{package.json (neutral scope, NOT @org-os),tsconfig,src/{index,cli},test setup}` + CI (`build`, `test`, `validate`). First TDD: `toolkit-framework --version` / `validate` no-op. **DoD:** `npm test` + `npm run build` green in the package. Skills: TDD. Depends: —.
-**SP-DEC — Resolve gating reconciliations** (decision work, draft-and-present to Matty + group): **R1** (one canonical maturity/state vocab + crosswalks), **R3** (kernel-5 vs entity-ontology relationship), **R7** (Octo-candidate / CSIS-informed posture — relax the YAML). Output → `framework/RECONCILIATIONS.md` + master-doc proposals. **Gates K1, K4.** Skills: brainstorming + deep-research. Depends: —.
+**SP-DEC — Resolve gating reconciliations** (decision work, draft-and-present to Matty + group): **R1** (one canonical maturity/state vocab + crosswalks), **R3** (kernel-5 vs entity-ontology relationship), **R7** (Octo-candidate / CSIS-informed posture — relax the YAML). Output → `packages/toolkit-framework/docs/meta/RECONCILIATIONS.md` + master-doc proposals. **Gates K1, K4.** Skills: brainstorming + deep-research. Depends: —.
 
 ### Wave 1 — Shared base (keystones K1–K5, K8)
 **SP1 — Shared schemas (build-once).** K1 `review-maturity.yaml` · K3 `frontmatter.schema` · K2 `source-system.schema` (return-path) · K5 `contribution-record.schema` · `public-use-boundary.schema` · `provenance.schema` · `signal.schema`. TDD: valid + invalid fixtures per schema. **DoD:** every schema validates fixtures; R1/R2 resolved + logged. Depends: SP0, SP-DEC(R1).
@@ -74,7 +74,7 @@ SP0 ─┬─ SP-DEC(R1,R3,R7) ─┬─ SP1 ─┬─ SP3 ─┬─ SP4 ─ SP6
 
 ## Coverage guarantee
 
-[`framework/COVERAGE.md`](../../framework/COVERAGE.md) lists every master-doc framework section → its SP. As each SP completes, its rows move 🟥→🟩 in COVERAGE, and its reconciliations resolve in `framework/RECONCILIATIONS.md` + flow to the master doc (Loop 2). **The build is "done" for an iteration when COVERAGE has no 🟥 keystones and the open reconciliations are either resolved or routed to BACKLOG.**
+[`COVERAGE.md`](../../../packages/toolkit-framework/docs/meta/COVERAGE.md) lists every master-doc framework section → its SP. As each SP completes, its rows move 🟥→🟩 in COVERAGE, and its reconciliations resolve in `packages/toolkit-framework/docs/meta/RECONCILIATIONS.md` + flow to the master doc (Loop 2). **The build is "done" for an iteration when COVERAGE has no 🟥 keystones and the open reconciliations are either resolved or routed to BACKLOG.**
 
 ## What we DON'T build (per master doc)
 

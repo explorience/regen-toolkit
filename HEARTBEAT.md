@@ -37,7 +37,7 @@ Framework built + content processed + site forked (2 pages) + GAPS + master-doc 
 
 ### Framework Build — `packages/toolkit-framework` _(0.1.0-beta.1 — BUILT)_
 
-Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0–SP11). The framework = a standalone, org-os-agnostic package (zero-build ESM + YAML + markdown) seeding a federated network of forkable-but-interoperable commons. Gap analysis + reconciliations: [`framework/COVERAGE.md`](framework/COVERAGE.md) · [`framework/RECONCILIATIONS.md`](framework/RECONCILIATIONS.md) · [`framework/FEEDBACK-LOOPS.md`](framework/FEEDBACK-LOOPS.md).
+Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0–SP11). The framework = a standalone, org-os-agnostic package (zero-build ESM + YAML + markdown) seeding a federated network of forkable-but-interoperable commons. Gap analysis + reconciliations: [`COVERAGE.md`](packages/toolkit-framework/docs/meta/COVERAGE.md) · [`RECONCILIATIONS.md`](packages/toolkit-framework/docs/meta/RECONCILIATIONS.md) · [`FEEDBACK-LOOPS.md`](packages/toolkit-framework/docs/meta/FEEDBACK-LOOPS.md).
 
 - [x] **SP-DEC** — R1 (3-axis canonical state model) / R3 (kernel = ontology subset) / R7 (Octo-candidate, CSIS-informed) resolved
 - [x] **SP0** — package scaffolded; validator + CLI; **12/12 tests green**

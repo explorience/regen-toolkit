@@ -13,7 +13,7 @@ The Toolkit is **structurally integrity-oriented, but not structurally integrity
 It is **CSIS-informed, not CSIS-conformant.** It borrows CSIS language, questions, and
 concerns — it does **not** claim to have preserved CSIS's enforcement machinery.
 
-This matches reconciliation **R7** (`framework/RECONCILIATIONS.md`): CSIS is a **candidate**
+This matches reconciliation **R7** (`../docs/meta/RECONCILIATIONS.md`): CSIS is a **candidate**
 and a **separable, optional overlay**, not a mandatory base. A fork can run the core kernel
 with **zero CSIS edges** — the `governance_csis` predicate group in
 [`schemas/relationships.yaml`](../schemas/relationships.yaml) is marked `optional: true`.

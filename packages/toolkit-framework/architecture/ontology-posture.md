@@ -17,4 +17,4 @@ The `governance_csis` predicate group in `relationships.yaml` is marked `optiona
 
 Authoring is in **YAML** (human-friendly); the **JSON-LD `@context`** is *generated* from the kernel (`toolkit-framework context`) for graph/AI-readable interchange. Author once, generate the graph form.
 
-See also: [`type-tag-discipline.md`](type-tag-discipline.md) · [`fork-compatibility.md`](fork-compatibility.md) · `../../../framework/RECONCILIATIONS.md` (R3, R7, R9).
+See also: [`type-tag-discipline.md`](type-tag-discipline.md) · [`fork-compatibility.md`](fork-compatibility.md) · `../docs/meta/RECONCILIATIONS.md` (R3, R7, R9).

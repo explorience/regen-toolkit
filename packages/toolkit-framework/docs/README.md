@@ -38,6 +38,16 @@ Concept · Option · Deployment · Signal. The Minimum Operating Kernel. See als
 - [`compose-journey`](../skills/compose-journey/SKILL.md) — assemble a track + run the compatibility engine.
 - [`csis-review`](../skills/csis-review/SKILL.md) — structural-integrity review (flags, never certifies).
 
+## Meta (package ↔ master-doc analysis)
+The docs that map this package to `docs/MASTER.md` and track its own build health —
+not needed to *use* the framework, but the record of *why it's shaped this way*.
+- [`meta/COVERAGE.md`](meta/COVERAGE.md) — master-doc ↔ package coverage map (every section → package home + status; keystones K1–K8; reconciliations R1–R10).
+- [`meta/GAPS.md`](meta/GAPS.md) — open gaps, contradictions, and questions — the artifact the group reviews.
+- [`meta/RECONCILIATIONS.md`](meta/RECONCILIATIONS.md) — how each R1–R10 contradiction was resolved.
+- [`meta/FEEDBACK-LOOPS.md`](meta/FEEDBACK-LOOPS.md) — how master-doc ↔ framework ↔ instances co-develop (the 4 loops + mechanisms + cadence).
+- [`meta/PLACEMENT.md`](meta/PLACEMENT.md) — where the framework lives + how it operates (modular package model; federation + co-evolution).
+- [`meta/SEPARATION.md`](meta/SEPARATION.md) — the framework | instance line-item manifest (superseded in detail by COVERAGE).
+
 ## Reference
 - **Schemas** (`../schemas/`) — 21 total: 16 object-schemas + 5 structural. Full table below.
 - **Examples** ([`../examples/`](../examples/)) — one validating instance per object-schema.
@@ -71,4 +81,4 @@ Concept · Option · Deployment · Signal. The Minimum Operating Kernel. See als
 | `public-use-boundary` | object | — | [example](../examples/public-use-boundary.example.yaml) |
 
 > **Status:** v0.1.0-beta.1. Gaps, contradictions, and open questions are tracked in
-> [`framework/GAPS.md`](../../../framework/GAPS.md) — that's the artifact the group reviews.
+> [`meta/GAPS.md`](meta/GAPS.md) — that's the artifact the group reviews.
