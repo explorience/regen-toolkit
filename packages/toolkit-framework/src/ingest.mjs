@@ -5,7 +5,7 @@ import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, extname, relative } from 'node:path';
 import { makeWorkOrder, saveWorkOrder, loadWorkOrders } from './workorder.mjs';
 
-const CHUNK_MAX = 24000; // chars — keeps one work order comfortably in an agent's working set
+const CHUNK_MAX = 24000; // chars — best-effort split at heading, then paragraph boundaries; keeps one work order comfortably in an agent's working set
 const INGESTIBLE = new Set(['.md', '.markdown', '.txt', '.csv']);
 
 export function classifySource(path, content) {
@@ -20,10 +20,17 @@ export function classifySource(path, content) {
   return 'unknown';
 }
 
-/** Split oversized markdown at `## ` boundaries; returns [{ text, chunk }] (chunk null when whole). */
+/** Split oversized markdown at `## ` boundaries, falling back to paragraph
+ * boundaries when a single section alone exceeds max; returns [{ text, chunk }]
+ * (chunk null when whole). Lossless: parts rejoin to the original content. */
 export function chunkContent(content, max = CHUNK_MAX) {
   if (content.length <= max) return [{ text: content, chunk: null }];
-  const sections = content.split(/(?=\n## )/);
+  // Heading split first; any section still over max is re-split at paragraph
+  // boundaries (after a blank-line run — lookaround keeps separators, so the
+  // pieces rejoin losslessly). A single paragraph over max stays whole.
+  const sections = content
+    .split(/(?=\n## )/)
+    .flatMap((s) => (s.length > max ? s.split(/(?<=\n\n)(?!\n)/) : [s]));
   const parts = [];
   let buf = '';
   for (const s of sections) {
@@ -31,6 +38,7 @@ export function chunkContent(content, max = CHUNK_MAX) {
     buf += s;
   }
   if (buf) parts.push(buf);
+  if (parts.length === 1) return [{ text: parts[0], chunk: null }];
   return parts.map((text, i) => ({ text, chunk: `${i + 1}/${parts.length}` }));
 }
 

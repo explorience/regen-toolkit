@@ -28,6 +28,25 @@ test('chunkContent splits oversized markdown at heading boundaries', () => {
   assert.equal(chunks[0].chunk, `1/${chunks.length}`);
 });
 
+test('chunkContent enforces max via paragraph fallback when no headings exist', () => {
+  const original = ('para ' + 'x'.repeat(95) + '\n\n').repeat(10); // 10 paragraphs, no headings
+  const max = 300;
+  const chunks = chunkContent(original, max);
+  assert.ok(chunks.length >= 2, 'heading-free oversized content must still split');
+  for (const c of chunks) {
+    assert.ok(c.text.length <= max, `each chunk within max (got ${c.text.length})`);
+  }
+  assert.equal(chunks.map((c) => c.text).join(''), original, 'chunks rejoin losslessly');
+});
+
+test('chunkContent labels single-part oversized output as chunk null', () => {
+  const giant = 'a'.repeat(50); // one unsplittable paragraph: no headings, no blank lines
+  const chunks = chunkContent(giant, 10);
+  assert.equal(chunks.length, 1);
+  assert.equal(chunks[0].chunk, null, 'single part is whole, not 1/1');
+  assert.equal(chunks[0].text, giant);
+});
+
 test('prepare emits work orders and is idempotent by source hash', () => {
   const dir = mkdtempSync(join(tmpdir(), 'tf-prep-'));
   const woDir = join(dir, '.workorders');
