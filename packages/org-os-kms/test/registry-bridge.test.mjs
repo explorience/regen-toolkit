@@ -71,3 +71,11 @@ test('real registry shape: scalar header + underscore key are preserved, new row
   assert.ok(doc.source_systems.some(e => e.id === 's1'));   // new row added under the existing underscore key
   assert.equal(doc.source_systems.filter(e => e.id === 's1').length, 1);
 });
+
+test('creates a brand-new registry file with the underscore-form key (source_systems)', () => {
+  const dir = seed(); // stores a source-system into data/kb/, but no data/source-systems.yaml exists
+  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  const doc = yaml.load(readFileSync(join(dir, 'data/source-systems.yaml'), 'utf8'));
+  assert.ok(Array.isArray(doc.source_systems), 'new file keys the list as source_systems (underscore), not the hyphenated filename');
+  assert.ok(doc.source_systems.some(e => e.id === 's1'));
+});
