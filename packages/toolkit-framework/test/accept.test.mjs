@@ -60,10 +60,9 @@ test('accept rejects file-key injection — candidate cannot control its own pat
     'file: ../../../escaped.yaml\nschema: source-system\nobject:\n  title: Evil\n  type: wiki\n  steward: X\n  return_path: r\n  maturity: raw\n  ai_assisted: true\n  provenance:\n    origin: nowhere\n');
   const res = acceptWorkOrder({ workOrdersDir: woDir, id });
   // the injected file key must be ignored: candidate processes under its REAL name
-  if (res.accepted) {
-    assert.ok(existsSync(join(woDir, id, 'accepted', 'evil.yaml')), 'accepted under real filename');
-    assert.ok(!existsSync(join(woDir, 'escaped.yaml')), 'no traversal write');
-  }
+  assert.equal(res.accepted, true, `expected accept to succeed: ${JSON.stringify(res.errors)}`);
+  assert.ok(existsSync(join(woDir, id, 'accepted', 'evil.yaml')), 'accepted under real filename');
+  assert.ok(!existsSync(join(woDir, 'escaped.yaml')), 'no traversal write');
 });
 
 test('accept rejects structural/meta schemas as candidate targets (C2)', () => {
