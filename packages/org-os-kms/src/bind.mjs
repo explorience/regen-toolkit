@@ -5,7 +5,7 @@
 //
 // (Imports the sibling framework package by relative path; the package.json declares the
 //  @regen-commons/toolkit-framework dependency for published/workspace installs.)
-import { listSchemas } from '../../toolkit-framework/src/index.mjs';
+import { listSchemas } from './framework.mjs';
 
 /** Framework schema -> the org-os registry file it populates (instance-side output). */
 export const REGISTRY_BINDINGS = {
