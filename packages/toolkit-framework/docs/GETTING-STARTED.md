@@ -7,16 +7,17 @@ nothing is faked.
 
 ## 1. Get the framework
 
-**Today the framework lives inside the regen-toolkit monorepo** (branch
-`regen-toolkit-os`), at `packages/toolkit-framework` — the branch is not yet on
-the public repo's `main`. A standalone public repo with an `npx degit`
-one-liner arrives with the 0.2.0 extraction; *this section gets replaced then.*
-Until it does, use your existing checkout (or ask on the team channel):
-
 ```bash
-cd <regen-toolkit>/packages/toolkit-framework
+mkdir -p /tmp/tf-demo && cd /tmp/tf-demo
+npx degit luizfernandosg/toolkit-framework toolkit-framework
+cd toolkit-framework
 npm install            # installs js-yaml only
 ```
+
+(The public repo is a one-way publish of `packages/toolkit-framework` in the
+[regen-toolkit monorepo](https://github.com/explorience/regen-toolkit) — the
+dev home. Contribute there; consume here. `@regen-commons` npm scope reserved
+for a later registry release.)
 
 ```
 added 2 packages, and audited 3 packages in 980ms
