@@ -7,14 +7,16 @@ nothing is faked.
 
 ## 1. Get the framework
 
+**Today the framework lives inside the regen-toolkit monorepo** (branch
+`regen-toolkit-os`), at `packages/toolkit-framework` — the branch is not yet on
+the public repo's `main`. A standalone public repo with an `npx degit`
+one-liner arrives with the 0.2.0 extraction; *this section gets replaced then.*
+Until it does, use your existing checkout (or ask on the team channel):
+
 ```bash
-mkdir -p /tmp/tf-demo && cd /tmp/tf-demo
-git clone https://github.com/explorience/regen-toolkit.git
-cd regen-toolkit/packages/toolkit-framework
+cd <regen-toolkit>/packages/toolkit-framework
 npm install            # installs js-yaml only
 ```
-
-*(public-repo one-liner arrives with the 0.2.0 extraction)*
 
 ```
 added 2 packages, and audited 3 packages in 980ms
@@ -27,6 +29,7 @@ found 0 vulnerabilities
 
 ```bash
 export FW=$PWD          # remember where the framework lives; used from every other dir below
+mkdir -p /tmp/tf-demo   # scratch space for the rest of this walkthrough
 ```
 
 ## 2. Replicate: init
