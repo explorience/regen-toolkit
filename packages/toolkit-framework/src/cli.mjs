@@ -10,6 +10,7 @@ import { prepare, acceptWorkOrder } from './ingest.mjs';
 import { loadWorkOrders, loadWorkOrder, transition, saveWorkOrder } from './workorder.mjs';
 import { getAdapter } from './storage.mjs';
 import { reviewQueue, promote } from './review.mjs';
+import { initInstance, loadConfig } from './instance.mjs';
 
 const require = createRequire(import.meta.url);
 const { version } = require('../package.json');
@@ -115,8 +116,22 @@ switch (cmd) {
     break;
   }
 
+  case 'init': {
+    const { flags, positional } = parseFlags(args, {});
+    const dir = positional[0] || '.';
+    const mode = 'existing' in flags ? 'existing' : 'new';
+    const res = initInstance({ dir, mode, existingPath: flags.existing || null,
+      name: flags.name || null, adapter: flags.adapter || 'kb-folder' });
+    const cfg = loadConfig(dir) || {};
+    console.log(`✓ instance "${res.instance}" initialized at ${res.dir}` +
+      (res.workOrders ? ` — ${res.workOrders} work order(s) queued from existing content` : ''));
+    console.log(`next: complete ${cfg.self_ref || 'the self source-system card'} (register-source skill), then run the ingest skill`);
+    break;
+  }
+
   case 'store': {
-    const { flags } = parseFlags(args, { dir: '.workorders', adapter: 'kb-folder', target: 'kb' });
+    const cfg = loadConfig('.') || {};
+    const { flags } = parseFlags(args, { dir: '.workorders', adapter: cfg.adapter || 'kb-folder', target: cfg.target || 'kb' });
     const adapter = getAdapter(flags.adapter);
     let count = 0;
     for (const wo of loadWorkOrders(flags.dir).filter((w) => w.status === 'accepted' && !w.produced)) {
@@ -134,7 +149,8 @@ switch (cmd) {
 
   case 'kb': {
     const [sub, ...rest] = args;
-    const { flags } = parseFlags(rest, { adapter: 'kb-folder', target: 'kb' });
+    const cfg = loadConfig('.') || {};
+    const { flags } = parseFlags(rest, { adapter: cfg.adapter || 'kb-folder', target: cfg.target || 'kb' });
     if (sub === 'index') {
       console.log(JSON.stringify(getAdapter(flags.adapter).index(flags.target), null, 2));
     } else { console.error('usage: toolkit-framework kb index [--adapter kb-folder] [--target kb]'); process.exit(2); }
@@ -143,7 +159,8 @@ switch (cmd) {
 
   case 'review': {
     const [sub, ...rest] = args;
-    const { flags, positional } = parseFlags(rest, { adapter: 'kb-folder', target: 'kb' });
+    const cfg = loadConfig('.') || {};
+    const { flags, positional } = parseFlags(rest, { adapter: cfg.adapter || 'kb-folder', target: cfg.target || 'kb' });
     if (sub === 'list') {
       const q = reviewQueue({ adapter: flags.adapter, target: flags.target });
       for (const { schema, object, ref } of q) console.log(`${ref}\n  ${schema} · "${object.title}" · maturity=${object.maturity} ai_assisted=${object.ai_assisted}`);
@@ -168,6 +185,7 @@ switch (cmd) {
     console.log('  kernel-check                    verify the semantic kernel is internally consistent');
     console.log('  context                         emit the JSON-LD @context generated from the kernel');
     console.log('  validate <schema> <file>        validate an object file against a schema');
+    console.log('  init [dir] [--existing <path>]  replicate: stamp a new KB instance (or wrap existing content)');
     console.log('  ingest prepare <path>           scan a source → idempotent work orders');
     console.log('  ingest list|claim|fulfill|accept  drive the work-order lifecycle');
     console.log('  store [--adapter --target]      write accepted objects via a storage adapter');

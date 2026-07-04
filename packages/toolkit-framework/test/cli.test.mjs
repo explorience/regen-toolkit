@@ -88,3 +88,12 @@ test('cli ingest rejects malformed work-order ids (no path fishing)', () => {
   assert.throws(() => run(['ingest', 'claim', '../escape', '--dir', join(dir, '.workorders')], { stdio: 'pipe' }),
     (e) => e.status === 2 && /usage/.test(String(e.stderr)), 'id guard must reject with usage + exit 2');
 });
+
+test('cli init stamps an instance and kms.yaml defaults feed store/kb', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'tf-cli-init-'));
+  const out = run(['init', dir, '--name', 'smoke']);
+  assert.match(out, /✓ instance "smoke" initialized/);
+  // kms.yaml defaults picked up when cwd is the instance dir
+  const idx = JSON.parse(run(['kb', 'index'], { cwd: dir }));
+  assert.equal(idx.total, 1, 'self card visible via config-default adapter/target');
+});
