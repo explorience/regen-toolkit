@@ -16,19 +16,21 @@ bundles:
     - compose-journey         # build tracks/journeys
     - csis-review             # structural-integrity review on /close
 
-registry_bindings:            # framework schema -> org-os registry (instance output)
+registry_bindings:            # framework schema -> org-os registry (must match src/bind.mjs)
   resource: data/resources.yaml
   source-system: data/source-systems.yaml
   option-entry: data/option-library.yaml
   track: data/tracks.yaml
   deployment: data/deployments.yaml
   implementation-record: data/implementation-memory.yaml
+  evolution-record: data/evolution-log.yaml
   signal: data/signals.yaml
   contribution-record: data/contributions.yaml
+  encyclopedia-entry: src/content/docs/
 
 lifecycle_bindings:
-  initialize: [sync upstream, load framework schemas, render dashboard]
-  close: [csis-review changed objects, emit contribution-records, sync + push]
+  initialize: [config.load, index.rebuild, review.list, render.dashboard, render.site]
+  close: [csis-review, bridge, emit-contributions, federate.check, render.site, render.dashboard, sync.push]
 
 federation: RegenOS (upstream/downstream; knowledge-source + organizational; self-qualifying adoption)
 replaceable: true             # swap this host without touching the framework

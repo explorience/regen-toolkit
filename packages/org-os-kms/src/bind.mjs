@@ -21,10 +21,10 @@ export const REGISTRY_BINDINGS = {
   'encyclopedia-entry': 'src/content/docs/',
 };
 
-/** org-os session lifecycle -> framework operations bound to each command. */
+/** org-os session lifecycle -> ordered framework op-names (resolved by src/ops.mjs). */
 export const LIFECYCLE_BINDINGS = {
-  '/initialize': ['sync upstream branches', 'load framework schemas', 'render dashboard'],
-  '/close': ['run csis-review on changed objects', 'emit contribution-records', 'sync + push'],
+  initialize: ['config.load', 'index.rebuild', 'review.list', 'render.dashboard', 'render.site'],
+  close: ['csis-review', 'bridge', 'emit-contributions', 'federate.check', 'render.site', 'render.dashboard', 'sync.push'],
 };
 
 /** Group framework objects by their target org-os registry. */
