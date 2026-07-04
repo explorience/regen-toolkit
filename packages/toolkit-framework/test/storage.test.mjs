@@ -2,8 +2,19 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtempSync, existsSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import { getAdapter, listAdapters, slugify } from '../src/storage.mjs';
+
+const here = dirname(fileURLToPath(import.meta.url));
+
+test('kb-folder adapter is importable as the entry module (no circular-import TDZ)', () => {
+  const out = execFileSync('node', ['-e',
+    "import('./src/adapters/kb-folder.mjs').then(m => console.log(m.kbFolderAdapter.name))"],
+    { encoding: 'utf8', cwd: join(here, '..') });
+  assert.equal(out.trim(), 'kb-folder');
+});
 
 test('adapter registry knows kb-folder; unknown names error with the available list', () => {
   assert.ok(listAdapters().includes('kb-folder'));

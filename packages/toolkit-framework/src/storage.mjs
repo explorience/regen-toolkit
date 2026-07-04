@@ -20,9 +20,4 @@ export function getAdapter(name) {
   return a;
 }
 
-export function slugify(s) {
-  return String(s).toLowerCase().normalize('NFKD')
-    .replace(/[̀-ͯ]/g, '')      // strip diacritics
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
+export { slugify } from './util.mjs';

@@ -4,7 +4,7 @@
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, renameSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import yaml from 'js-yaml';
-import { slugify } from '../storage.mjs';
+import { slugify } from '../util.mjs';
 import { toJsonLdContext } from '../index.mjs';
 
 function atomicWrite(path, text) {
