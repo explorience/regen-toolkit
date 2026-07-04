@@ -1471,3 +1471,19 @@ With approval, copy the package dir into the canonical home (e.g. `rsync -a --ex
 **Placeholder scan:** none — every code step has complete code; every command has expected output.
 
 **Type consistency:** `bridge(ctx)`, `renderSiteData({dir,target,outPath})`, `renderDashboardSection(index)`, `checkPeers(ctx)`, `addPeer({dir,cardPath})`, `contribute({dir,slug,records})`, `promote({from,to,apply})`, `runLifecycle(event,ctx,deps)`, `loadKmsConfig(dir)`, `dispatch(argv,opts)` — names + signatures match across all tasks and the CLI wiring.
+
+---
+
+## Post-review implementation deltas
+
+Changes made during subagent-driven execution in response to spec/quality review (the code files are authoritative; these override the as-written task bodies above):
+
+- **Task 1:** `bind.mjs` now imports the framework via `./framework.mjs` (not the direct relative path), so the shim is genuinely the single seam.
+- **Task 2:** added a machine-checked **profile↔bind no-drift** test (loads `profile.yaml`, deep-equals the JS constants) — the "no drift" requirement is now enforced, not just commented.
+- **Task 4:** added a `target`-missing guard test (that branch was untested) + a rationale comment on the `=== undefined` check.
+- **Task 5:** `config.load` is `write:true` (**fail-hard** — a missing/invalid `kms.yaml` halts the run cleanly instead of cascading soft errors). The executor also **fail-hards when a write op returns `{ok:false}` without throwing** (the real `bridge` signals failure that way, not by throwing). Added unregistered-op and unknown-event coverage.
+- **Task 6 (hardening):**
+  - **`encyclopedia-entry` binding is `src/content/docs/kb/`** (namespaced under `kb/`), NOT `src/content/docs/` — the site's docs root holds ~119 hand-authored articles with bare slugs, and an unconditional overwrite there is a data-loss vector. Generated encyclopedia docs live under `kb/` so they can never clobber hand-authored ones. (This changes the `REGISTRY_BINDINGS['encyclopedia-entry']` value in `bind.mjs` + `profile.yaml` + the Task 2 assertion accordingly.)
+  - **Bridge batches objects by target file** (one read+write per registry) instead of per-object read-modify-write — linear (not O(n²)) on the real ~1616-row `data/resources.yaml`, and produces clean diffs.
+  - **New-file registry key uses the underscore form** (`source_systems`, not the hyphenated filename) to match the org-os generated-registry convention.
+  - Added tests for the real production registry shape (scalar `schema_version` header + underscore key preserved) and the new-file underscore-key fallback (revert-proven).
