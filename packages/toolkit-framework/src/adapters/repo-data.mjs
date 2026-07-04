@@ -25,10 +25,24 @@ function slugFor(object) {
 }
 
 const fileFor = (target, schema) => join(target, 'data', 'kb', `${safeSchema(schema)}.yaml`);
-// normalize: a hand-edited/legacy file without an `entries:` key must not crash store/update
+
+const isPlainObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
+
+// Normalize: a hand-edited/legacy file without an `entries:` key must not crash
+// store/update. But a doc that IS present and NOT a mapping (scalar, list) can't
+// be round-tripped through the mapping model — refuse loudly rather than coerce,
+// because coercion would silently drop the existing content on the next write.
 const loadFile = (p) => {
-  const doc = (existsSync(p) ? yaml.load(readFileSync(p, 'utf8')) : null) || {};
-  return { ...doc, entries: doc.entries || {} };
+  if (!existsSync(p)) return { entries: {} };
+  const doc = yaml.load(readFileSync(p, 'utf8'));
+  if (doc !== null && doc !== undefined && !isPlainObject(doc)) {
+    throw new Error(`not a registry file (expected a YAML mapping): ${p}`);
+  }
+  const d = doc || {};
+  if ('entries' in d && !isPlainObject(d.entries)) {
+    throw new Error(`registry file has a non-mapping "entries" key (hand-edited?) — refusing to touch it: ${p}`);
+  }
+  return { ...d, entries: d.entries || {} };
 };
 
 export const repoDataAdapter = {
@@ -63,7 +77,10 @@ export const repoDataAdapter = {
   },
 
   update(target, ref, patch) {
-    const [file, slug] = ref.split('#');
+    // slugs are [a-z0-9-] and never contain '#', but the target path may — split at the LAST '#'
+    const i = ref.lastIndexOf('#');
+    const file = ref.slice(0, i);
+    const slug = ref.slice(i + 1);
     const doc = loadFile(file);
     if (!doc.entries[slug]) throw new Error(`no entry "${slug}" in ${file}`);
     doc.entries[slug] = { ...doc.entries[slug], ...patch };

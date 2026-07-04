@@ -24,10 +24,15 @@ for (const name of SHIPPING) {
 
     const { stored } = a.store(target, [entry()]);
     assert.equal(stored.length, 1);
-    a.store(target, [entry()]);                       // idempotent by slug
+    // idempotent by slug: a re-store with a changed field overwrites in place
+    a.store(target, [{ ...entry(), object: { ...entry().object, steward: 'Suite v2' } }]);
     assert.equal(a.list(target).length, 1);
+    assert.equal(a.list(target)[0].object.steward, 'Suite v2');
+    assert.equal(a.list(target)[0].ref, stored[0]);   // list refs identical to store refs
 
-    a.update(target, stored[0], { maturity: 'plausible' });
+    const upd = a.update(target, stored[0], { maturity: 'plausible' });
+    assert.equal(upd.ref, stored[0]);                 // update returns { ref, object }
+    assert.equal(upd.object.maturity, 'plausible');
     assert.equal(a.list(target)[0].object.maturity, 'plausible');
 
     const idx = a.index(target);
@@ -81,4 +86,41 @@ test('[repo-data] store/update tolerate a legacy registry file lacking entries k
   assert.equal(a.list(target).length, 1);
   const { object } = a.update(target, stored[0], { maturity: 'plausible' });
   assert.equal(object.maturity, 'plausible');
+});
+
+// repo-data-specific: a registry file whose `entries` is a YAML LIST cannot be
+// round-tripped through the mapping model — refusing loudly beats silently
+// dropping the list items on the next write.
+test('[repo-data] store refuses a registry file whose entries is a list — file left untouched', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-repo-data-list-'));
+  const a = getAdapter('repo-data');
+  const file = join(target, 'data', 'kb', 'source-system.yaml');
+  mkdirSync(dirname(file), { recursive: true });
+  const original = 'entries:\n  - a\n  - b\n';
+  writeFileSync(file, original);
+  assert.throws(() => a.store(target, [entry('Doomed')]), /non-mapping "entries"/);
+  assert.equal(readFileSync(file, 'utf8'), original); // no silent loss: bytes unchanged
+});
+
+// repo-data-specific: a scalar doc is not a registry at all — spreading a string
+// would leak its character indices into the registry.
+test('[repo-data] store refuses a scalar (non-mapping) registry file', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-repo-data-scalar-'));
+  const a = getAdapter('repo-data');
+  const file = join(target, 'data', 'kb', 'source-system.yaml');
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, 'just a string\n');
+  assert.throws(() => a.store(target, [entry('Doomed')]), /not a registry file/);
+});
+
+// repo-data-specific: refs are <file>#<slug>; slugs are [a-z0-9-] and never
+// contain '#', but the TARGET path may — update must split at the last '#'.
+test('[repo-data] update works when the target path itself contains "#"', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-hash#dir-'));
+  const a = getAdapter('repo-data');
+  const { stored } = a.store(target, [entry('Hash Path')]);
+  const upd = a.update(target, stored[0], { maturity: 'plausible' });
+  assert.equal(upd.ref, stored[0]);
+  assert.equal(upd.object.maturity, 'plausible');
+  assert.equal(a.list(target)[0].object.maturity, 'plausible');
 });
