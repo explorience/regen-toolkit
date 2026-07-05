@@ -4,6 +4,7 @@
   "description": "org-os Knowledge Management System — binds @regen-commons/toolkit-framework into org-os (a MODULE) and ships it pre-loaded as the default knowledge system (an org-os PROFILE). Replaceable: swap the host without touching the framework.",
   "type": "module",
   "main": "src/bind.mjs",
+  "bin": { "org-os-kms": "src/cli.mjs" },
   "scripts": {
     "test": "node --test"
   },
