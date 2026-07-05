@@ -79,3 +79,17 @@ test('creates a brand-new registry file with the underscore-form key (source_sys
   assert.ok(Array.isArray(doc.source_systems), 'new file keys the list as source_systems (underscore), not the hyphenated filename');
   assert.ok(doc.source_systems.some(e => e.id === 's1'));
 });
+
+test('bridge does not line-fold long scalars (diff-clean YAML, lineWidth:-1)', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'kms-bridge-width-'));
+  // A long scalar WITH internal spaces: at the default width (80) js-yaml folds it across
+  // multiple lines (breaking the contiguous run); at lineWidth:-1 it stays on one line.
+  // (A no-space run like 'x'.repeat(200) can't be folded, so it wouldn't exercise the guard.)
+  const longVal = Array(40).fill('word').join(' ');
+  fw.getAdapter('repo-data').store(dir, [
+    { schema: 'resource', object: { id: 'long-1', title: 'Long', summary: longVal } },
+  ]);
+  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  const raw = readFileSync(join(dir, 'data/resources.yaml'), 'utf8');
+  assert.ok(raw.includes(longVal), 'the long scalar stays on one line (not folded)');
+});

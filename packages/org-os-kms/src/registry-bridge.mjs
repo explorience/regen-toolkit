@@ -36,13 +36,13 @@ function upsertRegistryMany(absPath, stem, objects) {
     else doc[key].push(row);
     results.push({ registry: absPath, key, id, action: i >= 0 ? 'update' : 'insert' });
   }
-  atomicWrite(absPath, yaml.dump(doc));
+  atomicWrite(absPath, yaml.dump(doc, { lineWidth: -1 }));
   return results;
 }
 
 function writeMarkdownDoc(absPath, obj) {
   const { title = 'Untitled', body = '', ...rest } = obj;
-  const fm = yaml.dump({ title, ...rest }).trim();
+  const fm = yaml.dump({ title, ...rest }, { lineWidth: -1 }).trim();
   atomicWrite(absPath, `---\n${fm}\n---\n\n${body}\n`);
   return { doc: absPath };
 }
