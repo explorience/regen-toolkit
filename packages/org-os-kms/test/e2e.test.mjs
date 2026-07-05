@@ -14,10 +14,11 @@ import { runLifecycle } from '../src/executor.mjs';
 
 test('e2e: framework store → bridge → index → render, under the org-os lifecycle', () => {
   const dir = mkdtempSync(join(tmpdir(), 'kms-e2e-'));
-  // target = dir (absolute) so the whole run is hermetic to the temp instance (tests don't
-  // chdir). The real repo uses target '.' because its cwd IS the instance root.
+  // target = '.' (the framework convention: the package resolves join(dir, target)), with dir =
+  // the temp instance root so the whole run stays hermetic (tests don't chdir). The real repo
+  // also uses target '.' because its cwd IS the instance root.
   writeFileSync(join(dir, 'kms.yaml'), yaml.dump({
-    instance: 'e2e', adapter: 'repo-data', target: dir, framework: '@regen-commons/toolkit-framework',
+    instance: 'e2e', adapter: 'repo-data', target: '.', framework: '@regen-commons/toolkit-framework',
     peers: {}, render: { site_data: 'src/data/kms-index.json' },
   }));
 
@@ -31,14 +32,14 @@ test('e2e: framework store → bridge → index → render, under the org-os lif
   assert.ok(existsSync(join(dir, 'data/kb/index.json')));
 
   // 2) Bridge into instance registries.
-  const b = bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  const b = bridge({ dir, config: { adapter: 'repo-data', target: '.' } });
   assert.equal(b.ok, true);
   const resDoc = yaml.load(readFileSync(join(dir, 'data/resources.yaml'), 'utf8'));
   const resKey = Object.keys(resDoc).find(k => Array.isArray(resDoc[k]));
   assert.ok(resDoc[resKey].some(e => e.id === 'kb-1'));
 
   // 3) Render both surfaces.
-  const site = renderSiteData({ dir, target: dir, outPath: 'src/data/kms-index.json' });
+  const site = renderSiteData({ dir, target: '.', outPath: 'src/data/kms-index.json' });
   assert.equal(site.ok, true);
   const section = renderDashboardSection(a.index(dir));
   assert.match(section, /2 objects/);

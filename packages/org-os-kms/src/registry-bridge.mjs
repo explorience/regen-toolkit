@@ -49,7 +49,7 @@ function writeMarkdownDoc(absPath, obj) {
 
 export function bridge(ctx) {
   const { dir, config } = ctx;
-  const items = fw.getAdapter(config.adapter).list(config.target);
+  const items = fw.getAdapter(config.adapter).list(join(dir, config.target));
   const report = { bridged: [], docs: [], skipped: [], errors: [] };
   const byRegistry = new Map(); // registryPath -> [objects]
 

@@ -20,10 +20,10 @@ export function renderDashboardSection(index = {}) {
 }
 
 export function renderSiteData({ dir, target, outPath }) {
-  // Read from `target` (where the repo-data adapter wrote the KB); write under `dir` (the
-  // instance root). Do NOT join dir+target — for repo-data they denote the same root, and an
-  // absolute target would break path.join.
-  const src = join(target, 'data', 'kb', 'index.json');
+  // Read from <dir>/<target>/data/kb/index.json (where the adapter wrote the KB, resolved the
+  // framework's way: join(dir, target)); write under `dir` (the instance root). In production
+  // dir='.'/target='.' so this is unchanged, but --dir <path> is now honored.
+  const src = join(dir, target, 'data', 'kb', 'index.json');
   if (!existsSync(src)) return { ok: false, report: 'no data/kb/index.json — run index.rebuild first' };
   const data = JSON.parse(readFileSync(src, 'utf8'));
   const out = join(dir, outPath);

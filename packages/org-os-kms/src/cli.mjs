@@ -10,7 +10,7 @@ import { promote } from './promote.mjs';
 import { loadKmsConfig } from './config.mjs';
 import * as fw from './framework.mjs';
 import { fileURLToPath } from 'node:url';
-import { resolve } from 'node:path';
+import { resolve, join } from 'node:path';
 
 const VERBS = new Set(['lifecycle', 'bridge', 'render', 'federate', 'promote', 'init']);
 
@@ -38,7 +38,7 @@ export function dispatch(argv, opts = {}) {
       const cfg = loadKmsConfig(dir);
       if (args[0] === 'site') return renderSiteData({ dir, target: cfg.target, outPath: (cfg.render && cfg.render.site_data) || 'src/data/kms-index.json' });
       const a = fw.getAdapter(cfg.adapter);
-      return { section: renderDashboardSection(a.index(cfg.target)) };
+      return { section: renderDashboardSection(a.index(join(dir, cfg.target))) };
     }
     case 'federate': {
       if (args[0] === 'add')      return addPeer({ dir, cardPath: flags.card });

@@ -27,7 +27,7 @@ test('site data copies the derived index.json to the site path', () => {
   const dir = mkdtempSync(join(tmpdir(), 'kms-render-'));
   mkdirSync(join(dir, 'data/kb'), { recursive: true });
   writeFileSync(join(dir, 'data/kb/index.json'), JSON.stringify({ total: 2, by_type: { resource: 2 } }));
-  const out = renderSiteData({ dir, target: dir, outPath: 'src/data/kms-index.json' });
+  const out = renderSiteData({ dir, target: '.', outPath: 'src/data/kms-index.json' });
   assert.equal(out.ok, true);
   const written = JSON.parse(readFileSync(join(dir, 'src/data/kms-index.json'), 'utf8'));
   assert.equal(written.total, 2);
@@ -35,6 +35,6 @@ test('site data copies the derived index.json to the site path', () => {
 
 test('site data returns ok:false (fail-soft) when no index.json exists yet', () => {
   const dir = mkdtempSync(join(tmpdir(), 'kms-render-empty-'));
-  const out = renderSiteData({ dir, target: dir, outPath: 'src/data/kms-index.json' });
+  const out = renderSiteData({ dir, target: '.', outPath: 'src/data/kms-index.json' });
   assert.equal(out.ok, false);
 });

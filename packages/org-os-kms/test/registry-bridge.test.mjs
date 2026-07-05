@@ -20,7 +20,7 @@ function seed() {
 
 test('bridges framework KB objects into data/<registry>.yaml, upsert by id', () => {
   const dir = seed();
-  const ctx = { dir, config: { adapter: 'repo-data', target: dir } };
+  const ctx = { dir, config: { adapter: 'repo-data', target: '.' } };
   const out = bridge(ctx);
   assert.equal(out.ok, true);
   const resDoc = yaml.load(readFileSync(join(dir, 'data/resources.yaml'), 'utf8'));
@@ -30,7 +30,7 @@ test('bridges framework KB objects into data/<registry>.yaml, upsert by id', () 
 
 test('idempotent: bridging twice does not duplicate', () => {
   const dir = seed();
-  const ctx = { dir, config: { adapter: 'repo-data', target: dir } };
+  const ctx = { dir, config: { adapter: 'repo-data', target: '.' } };
   bridge(ctx); bridge(ctx);
   const resDoc = yaml.load(readFileSync(join(dir, 'data/resources.yaml'), 'utf8'));
   const key = Object.keys(resDoc).find(k => Array.isArray(resDoc[k]));
@@ -42,7 +42,7 @@ test('non-destructive: pre-existing registry entries survive', () => {
   mkdirSync(join(dir, 'data'), { recursive: true });
   writeFileSync(join(dir, 'data/resources.yaml'),
     yaml.dump({ resources: [{ id: 'keep', title: 'Keep Me' }] }));
-  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  bridge({ dir, config: { adapter: 'repo-data', target: '.' } });
   const resDoc = yaml.load(readFileSync(join(dir, 'data/resources.yaml'), 'utf8'));
   assert.ok(resDoc.resources.some(e => e.id === 'keep'));
   assert.ok(resDoc.resources.some(e => e.id === 'r1'));
@@ -53,7 +53,7 @@ test('encyclopedia-entry writes a markdown doc, not a registry row', () => {
   fw.getAdapter('repo-data').store(dir, [
     { schema: 'encyclopedia-entry', object: { id: 'topic-x', title: 'Topic X', body: 'Hello.' } },
   ]);
-  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  bridge({ dir, config: { adapter: 'repo-data', target: '.' } });
   const p = join(dir, 'src/content/docs/kb/topic-x.md');
   assert.ok(existsSync(p));
   assert.match(readFileSync(p, 'utf8'), /^---\n[\s\S]*title: Topic X[\s\S]*---\n\nHello\./);
@@ -64,7 +64,7 @@ test('real registry shape: scalar header + underscore key are preserved, new row
   mkdirSync(join(dir, 'data'), { recursive: true });
   writeFileSync(join(dir, 'data/source-systems.yaml'),
     yaml.dump({ schema_version: '2.0', source_systems: [{ id: 'keep', title: 'Keep' }] }));
-  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  bridge({ dir, config: { adapter: 'repo-data', target: '.' } });
   const doc = yaml.load(readFileSync(join(dir, 'data/source-systems.yaml'), 'utf8'));
   assert.equal(doc.schema_version, '2.0');                 // scalar header preserved
   assert.ok(doc.source_systems.some(e => e.id === 'keep')); // existing row preserved
@@ -74,7 +74,7 @@ test('real registry shape: scalar header + underscore key are preserved, new row
 
 test('creates a brand-new registry file with the underscore-form key (source_systems)', () => {
   const dir = seed(); // stores a source-system into data/kb/, but no data/source-systems.yaml exists
-  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  bridge({ dir, config: { adapter: 'repo-data', target: '.' } });
   const doc = yaml.load(readFileSync(join(dir, 'data/source-systems.yaml'), 'utf8'));
   assert.ok(Array.isArray(doc.source_systems), 'new file keys the list as source_systems (underscore), not the hyphenated filename');
   assert.ok(doc.source_systems.some(e => e.id === 's1'));
@@ -89,7 +89,7 @@ test('bridge does not line-fold long scalars (diff-clean YAML, lineWidth:-1)', (
   fw.getAdapter('repo-data').store(dir, [
     { schema: 'resource', object: { id: 'long-1', title: 'Long', summary: longVal } },
   ]);
-  bridge({ dir, config: { adapter: 'repo-data', target: dir } });
+  bridge({ dir, config: { adapter: 'repo-data', target: '.' } });
   const raw = readFileSync(join(dir, 'data/resources.yaml'), 'utf8');
   assert.ok(raw.includes(longVal), 'the long scalar stays on one line (not folded)');
 });

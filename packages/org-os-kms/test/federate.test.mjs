@@ -10,9 +10,10 @@ import * as fw from '../src/framework.mjs';
 // initInstance writes kms.yaml + a self card; then register a peer card.
 function initTmp() {
   const dir = mkdtempSync(join(tmpdir(), 'kms-fed-'));
-  // target = dir (absolute): tests run from the package dir, so the adapter must be pointed
-  // at the temp instance root, not the relative '.' the real repo uses (cwd == repo root).
-  fw.initInstance({ dir, name: 'primary', adapter: 'repo-data', target: dir });
+  // target = '.' (the framework convention: initInstance joins dir+target, and contribute's
+  // join(dir, cfg.target) matches). dir = the temp instance root keeps the run hermetic even
+  // though tests run from the package dir and never chdir.
+  fw.initInstance({ dir, name: 'primary', adapter: 'repo-data', target: '.' });
   return dir;
 }
 

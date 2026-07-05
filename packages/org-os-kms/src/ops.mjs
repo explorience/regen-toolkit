@@ -4,6 +4,7 @@
 // (kind:'skill'). This is what makes the declarative lifecycle actually run, without
 // reimplementing any framework logic. `write:true` marks ops whose failure must stop the
 // run (fail-hard); reads/renders are fail-soft.
+import { join } from 'node:path';
 import * as fw from './framework.mjs';
 import { loadKmsConfig } from './config.mjs';
 import { bridge } from './registry-bridge.mjs';
@@ -19,13 +20,14 @@ export const OPS = {
 
   'index.rebuild': { kind: 'exec', write: false, run: (ctx) => {
     const a = fw.getAdapter(ctx.config.adapter);
-    const written = a.writeIndex(ctx.config.target);
-    ctx.index = a.index(ctx.config.target);
+    const t = join(ctx.dir, ctx.config.target);
+    const written = a.writeIndex(t);
+    ctx.index = a.index(t);
     return { ok: true, report: { total: ctx.index.total, ...written } };
   } },
 
   'review.list': { kind: 'exec', write: false, run: (ctx) => {
-    ctx.review = fw.reviewQueue({ adapter: ctx.config.adapter, target: ctx.config.target });
+    ctx.review = fw.reviewQueue({ adapter: ctx.config.adapter, target: join(ctx.dir, ctx.config.target) });
     return { ok: true, report: { awaiting: ctx.review.length } };
   } },
 
