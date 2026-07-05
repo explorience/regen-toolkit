@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // src/cli.mjs
 // Thin zero-dep CLI. dispatch(argv, {dry}) is unit-testable: with dry:true it only parses +
 // routes; without it, it executes. Framework-style hand-rolled --flag value parsing.
@@ -52,6 +53,12 @@ export function dispatch(argv, opts = {}) {
 
 // Entry point when run directly (robust to relative argv + spaces/encoding in the path).
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const result = dispatch(process.argv.slice(2));
-  console.log(JSON.stringify(result, null, 2));
+  try {
+    const result = dispatch(process.argv.slice(2));
+    console.log(JSON.stringify(result, null, 2));
+    if (result && result.error) process.exit(1); // unknown verb / bad subcommand
+  } catch (e) {
+    console.error(`✗ ${e.message}`);              // clean message, not a raw stack trace
+    process.exit(1);
+  }
 }
