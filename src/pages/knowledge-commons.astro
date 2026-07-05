@@ -1,0 +1,18 @@
+---
+// Minimal Knowledge Commons surface (Seam 3: data → site). Reads the derived KMS index
+// that org-os-kms render.site writes. Kept plain so it never risks the Starlight build.
+import index from '../data/kms-index.json';
+const byType = Object.entries(index.by_type ?? {});
+const awaiting = Array.isArray(index.review_queue) ? index.review_queue.length : (index.review_queue ?? 0);
+---
+<html lang="en">
+  <head><meta charset="utf-8" /><title>Knowledge Commons</title></head>
+  <body>
+    <h1>Knowledge Commons</h1>
+    <p>{index.total} objects · {byType.length} types · {awaiting} awaiting review</p>
+    <ul>
+      {byType.map(([type, n]) => <li>{n} — {type}</li>)}
+    </ul>
+    <p><small>{index.generated_from}</small></p>
+  </body>
+</html>
