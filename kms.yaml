@@ -1,0 +1,13 @@
+# org-os-kms instance config for regen-toolkit (the primary adoption instance).
+# Read by @regen-commons/toolkit-framework loadConfig + @org-os/kms.
+instance: regen-toolkit
+adapter: repo-data          # framework writes data/kb/<schema>.yaml
+target: "."                 # repo root; repo-data appends data/kb/
+framework: "@regen-commons/toolkit-framework"
+self_ref: ""                # filled by `org-os-kms init` on first run
+peers: {}                   # filled by `federate add` (e.g. refi-dao-os)
+federation_namespace: RegenOS
+upstream: "/03 Libraries/org-os/packages/org-os-kms"   # A→C promotion target
+render:
+  site_data: src/data/kms-index.json
+peer_extensions: {}         # slug -> path of a peer's extension-entities.yaml (for federate.check)
