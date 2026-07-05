@@ -2,9 +2,8 @@
 // Federation wrapper. Delegates peer registration + fork-compat to the framework
 // (federateAdd/federateCheck) and adds two org-os-kms concerns: the RegenOS namespace, and
 // a contribute() that is DRAFT-ONLY — cross-repo contribute-back is always draft-and-present.
-import { readFileSync, existsSync } from 'node:fs';
-import { join, isAbsolute } from 'node:path';
-import yaml from 'js-yaml';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import * as fw from './framework.mjs';
 
 export const NAMESPACE = 'RegenOS';
@@ -19,6 +18,7 @@ export function checkPeers(ctx) {
   const peers = (cfg && cfg.peers) || {};
   const results = [];
   for (const [slug] of Object.entries(peers)) {
+    // peer_extensions is operator-supplied in kms.yaml; absent → we skip fork-compat for that peer.
     const ext = cfg.peer_extensions && cfg.peer_extensions[slug];
     const extAbs = ext ? join(ctx.dir, ext) : null;
     if (extAbs && existsSync(extAbs)) {
@@ -30,21 +30,16 @@ export function checkPeers(ctx) {
   return { ok: true, report: { namespace: NAMESPACE, peers: results } };
 }
 
-function readCard(absFile, ref) {
-  if (!existsSync(absFile)) return null;
-  const doc = yaml.load(readFileSync(absFile, 'utf8')) || {};
-  const slug = ref.split('#').pop();
-  return (doc.entries || {})[slug] || null;
-}
-
 export function contribute({ dir, slug, records = [] }) {
   const cfg = fw.loadConfig(dir);
   const ref = cfg && cfg.peers && cfg.peers[slug];
   if (!ref) throw new Error(`unknown peer: ${slug}`);
-  const [file] = ref.split('#');
-  const cardPath = isAbsolute(file) ? file : join(dir, file); // refs may be absolute or dir-relative
-  const card = readCard(cardPath, ref);
-  const returnPath = (card && card.return_path) || '(unknown return_path)';
+  // Look the card up via the adapter — refs are adapter-opaque; never parse them as paths.
+  // Enumerate the same target federateAdd stored at (join(dir, target)) so list()'s refs are
+  // identical to the stored peers[slug] ref (adapter contract). In production target === '.'
+  // and dir is the instance root, so this equals cfg.target.
+  const found = fw.getAdapter(cfg.adapter).list(join(dir, cfg.target)).find((e) => e.ref === ref);
+  const returnPath = (found && found.object && found.object.return_path) || '(unknown return_path)';
   // draft-and-present: return the plan; a human approves the actual cross-repo hand-off.
   return { applied: false, draft: { peer: slug, namespace: NAMESPACE, return_path: returnPath, records } };
 }
