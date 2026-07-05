@@ -1487,3 +1487,16 @@ Changes made during subagent-driven execution in response to spec/quality review
   - **Bridge batches objects by target file** (one read+write per registry) instead of per-object read-modify-write — linear (not O(n²)) on the real ~1616-row `data/resources.yaml`, and produces clean diffs.
   - **New-file registry key uses the underscore form** (`source_systems`, not the hyphenated filename) to match the org-os generated-registry convention.
   - Added tests for the real production registry shape (scalar `schema_version` header + underscore key preserved) and the new-file underscore-key fallback (revert-proven).
+  - **Bridge dumps YAML at `{ lineWidth: -1 }`** (both registry + markdown-frontmatter dumps) to match how the real `data/*.yaml` were generated — without this, inserting one row reformats ~1,360 lines of `source-systems.yaml` / ~17,791 of `resources.yaml`, making the draft-and-present diff unreviewable. Guarded by a no-fold regression test.
+- **Task 7:** added a `review_queue`-as-array coverage test (the deriveIndex shape).
+- **Task 8:** `contribute` reads the peer card via the adapter (`getAdapter().list().find(e => e.ref === ref)`) instead of parsing the opaque ref as a path — works across adapters. It enumerates `join(dir, cfg.target)` to match how the framework's `federateAdd` stores refs. Added a `checkPeers` fork-compat delegation test. **Latent follow-up:** framework (`instance.mjs`) treats `target` as dir-relative (`join(dir,target)`) while the package (`bridge`/`render`/`index.rebuild`) uses raw `target`; masked in production (dir=cwd, target=`.`) — unify on `join(dir,target)` so `--dir` is honored everywhere.
+- **Task 9:** added a safety test that `promote({apply:true})` is inert (returns `applied:false`, writes nothing).
+- **Task 10:** robust CLI entry-point guard (`resolve(process.argv[1]) === fileURLToPath(import.meta.url)`) — handles relative argv + the space in the repo path; added `#!/usr/bin/env node` shebang (bin needs it) + try/catch entry that prints `✗ <msg>` and `exit(1)` on error.
+- **Task 5 (again) / lifecycle:** `/close` now runs `index.rebuild` before its renders (was rendering a stale "0 objects" index).
+- **Task 14:** e2e gate hardened against a vacuous pass — asserts the five `initialize` ops actually ran (`report.ran` op sequence), all returned `ok`, the site artifact landed with `total === 2`, and the signal path bridged (break-proven: an empty `initialize` binding makes it fail).
+
+## Deferred follow-ups (post-dogfood, documented not done)
+- Unify the framework-vs-package `target` convention on `join(dir, target)` (latent; not triggered by the dogfood which runs dir=`.`/target=`.`).
+- `generate:schemas` coverage for the new registries (`deployments`, `signals`, `implementation-memory`, `evolution-log`, `contributions`) — the bridge writes them but `.well-known/` generation isn't wired to a registry loop.
+- Validate `encyclopedia-entry` frontmatter against Starlight's `docsSchema()` before the first encyclopedia bridge (unexpected keys could fail `npm run build`).
+- Cosmetic: `emit-contributions` maps to the `register-source` skill; render says "1 types" (no pluralization).
