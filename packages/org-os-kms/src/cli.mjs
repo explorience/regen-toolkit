@@ -8,6 +8,8 @@ import { addPeer, checkPeers, contribute } from './federate.mjs';
 import { promote } from './promote.mjs';
 import { loadKmsConfig } from './config.mjs';
 import * as fw from './framework.mjs';
+import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
 
 const VERBS = new Set(['lifecycle', 'bridge', 'render', 'federate', 'promote', 'init']);
 
@@ -48,8 +50,8 @@ export function dispatch(argv, opts = {}) {
   }
 }
 
-// Entry point when run directly.
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Entry point when run directly (robust to relative argv + spaces/encoding in the path).
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const result = dispatch(process.argv.slice(2));
   console.log(JSON.stringify(result, null, 2));
 }
