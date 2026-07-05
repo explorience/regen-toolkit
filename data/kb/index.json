@@ -1,0 +1,11 @@
+{
+  "total": 1,
+  "by_type": {
+    "source-system": 1
+  },
+  "by_maturity": {
+    "raw": 1
+  },
+  "review_queue": 1,
+  "generated_from": "derived — rebuildable from data/kb/"
+}

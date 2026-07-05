@@ -1,0 +1,12 @@
+entries:
+  regen-toolkit:
+    title: regen-toolkit
+    type: repo
+    steward: regen-toolkit
+    return_path: unset — complete via the register-source skill
+    maturity: raw
+    lifecycle_state: raw-lead
+    ai_assisted: true
+    notes: >-
+      Self card created by init. Complete steward, return_path,
+      reuse_conditions, how_to_credit before federating.
