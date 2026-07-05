@@ -46,4 +46,16 @@ test('e2e: framework store → bridge → index → render, under the org-os lif
   // 4) Lifecycle initialize runs end-to-end against this instance (real ops, no throw).
   const report = runLifecycle('initialize', { dir });
   assert.equal(report.errors.length, 0, JSON.stringify(report.errors));
+  // Guard against a vacuous pass: the five exec ops must actually have RUN and all returned ok
+  // (catches a fail-soft op silently returning {ok:false}), and the lifecycle's own render.site
+  // must have landed the site artifact on disk with the real object count.
+  assert.deepEqual(report.ran.map(r => r.op),
+    ['config.load', 'index.rebuild', 'review.list', 'render.dashboard', 'render.site']);
+  assert.ok(report.ran.every(r => r.ok), JSON.stringify(report.ran));
+  const siteIdx = JSON.parse(readFileSync(join(dir, 'src/data/kms-index.json'), 'utf8'));
+  assert.equal(siteIdx.total, 2);
+  // the signal path bridged too (not only resource): sig-1 landed in data/signals.yaml
+  const sigDoc = yaml.load(readFileSync(join(dir, 'data/signals.yaml'), 'utf8'));
+  const sigKey = Object.keys(sigDoc).find(k => Array.isArray(sigDoc[k]));
+  assert.ok(sigDoc[sigKey].some(e => e.id === 'sig-1'));
 });
