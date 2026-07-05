@@ -1146,6 +1146,24 @@ function mergeData(local, notion) {
   return local;
 }
 
+// ── Knowledge Commons (org-os-kms) ───────────────────────────────────────────
+// Guarded: returns an ASCII section string from the derived KB index, or "" when
+// the KB isn't initialized (no data/kb/index.json) or the render module can't
+// load. A "" result makes the dashboard render exactly as before.
+async function renderKmsSection() {
+  try {
+    const idxPath = path.join(rootDir, "data", "kb", "index.json");
+    if (!fs.existsSync(idxPath)) return "";
+    // Relative specifier resolves against this module (scripts/), i.e. repo-root/packages/…
+    const { renderDashboardSection } = await import(
+      "../packages/org-os-kms/src/render.mjs"
+    );
+    return renderDashboardSection(JSON.parse(fs.readFileSync(idxPath, "utf-8")));
+  } catch {
+    return ""; // KB absent or module unavailable — dashboard renders without it
+  }
+}
+
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -1195,6 +1213,8 @@ async function main() {
 
   // Render dashboard immediately with local data
   if (format === "markdown") {
+    // org-os-kms: compute the guarded Knowledge Commons section (no-op if KB absent).
+    state.kmsSection = await renderKmsSection();
     console.log(renderMarkdown(state));
   } else {
     console.log(JSON.stringify(state, null, 2));
@@ -1396,7 +1416,7 @@ function renderMarkdown(state) {
   const {
     identity, status, projects, tasks, backlog, events, meetings,
     funding, recentMemory, federation, apps, git, pipelines,
-    plans, warnings,
+    plans, warnings, kmsSection,
   } = state;
   const today = new Date();
   const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -1746,6 +1766,11 @@ function renderMarkdown(state) {
       out += `  ${pad(left, 38)}${right}\n`;
     }
   }
+
+  // ── Knowledge Commons (org-os-kms) ──────────────────────────────────────
+  // kmsSection is a self-contained ASCII block (own header + trailing blank line)
+  // or "" when the KB isn't initialized; prepend "\n" to match section spacing.
+  if (kmsSection) out += "\n" + kmsSection;
 
   // ── Federation ──────────────────────────────────────────────────────────
   if (config.federation?.show !== false && federation) {
