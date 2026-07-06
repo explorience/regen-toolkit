@@ -1,0 +1,249 @@
+# Ontology comparison — Heenal's Regen Toolkit build ↔ toolkit-framework kernel.
+# The STRUCTURED DIFF (Phase 4 of docs/plans/2026-07-05-ontology-comparison-plan.md).
+# Companion narrative: docs/reports/2026-07-05-ontology-comparison.md.
+#
+# This file merges three things into one machine-readable surface:
+#   1. the type / classification / relationship dispositions from the crosswalk
+#      (data/crosswalks/regen-toolkit.yaml) — the "what maps where" backbone;
+#   2. the content-reprocess coverage from June's already-generated framework view
+#      (data/encyclopedia.yaml et al., docs/reports/2026-06-17-content-through-framework-report.md);
+#   3. the b_candidates — the subsets where June's heuristic typing is thin enough
+#      to warrant a surgical machine re-run (ingest → accept → store → map-ontology).
+# All counts reconcile with the crosswalk summary, the frontmatter census, and June's report.
+
+comparison: heenal-vs-framework
+generated: 2026-07-05
+skill: map-ontology@0.2.0
+posture: align-and-map (never conform-or-reject) — architecture/ontology-posture.md
+inputs:
+  crosswalk: data/crosswalks/regen-toolkit.yaml
+  snapshot: data/ontology/snapshot-2026-07-05    # frontmatter-census.yaml + content-structure.md + 4 frozen ontology *.yaml
+  framework_view:                                # June's 2026-06-17 reprocess, reused as "framework view v1"
+    - data/encyclopedia.yaml          # 119 encyclopedia-entry
+    - data/concepts.yaml              # 8 concept-lineage
+    - data/tracks.yaml                # 3 track
+    - data/resources.yaml             # 1616 resource
+    - data/source-systems.yaml        # 89 source-system
+    - data/encyclopedia-salvaged.yaml # 144 salvaged encyclopedia-entry (held apart)
+    - data/resources-salvaged.yaml    # 4 salvaged resource (research dumps)
+  kernel: packages/toolkit-framework/schemas/{core-entities,extension-entities,encyclopedia-entry,review-maturity}.yaml
+  june_report: docs/reports/2026-06-17-content-through-framework-report.md
+
+# ---------------------------------------------------------------------------
+# TYPE COVERAGE — Heenal's 19 core types → framework 15 core + 31 extension.
+# Counts by RELATION QUALITY across both target layers (see crosswalk type_mappings).
+#   direct 14 = 11 direct-to-core + 3 direct-to-extension (mechanism, tool, resource)
+#   near    5 = 4  near-to-core (group, place, gathering, story) + 1 near-to-extension (framework)
+# ---------------------------------------------------------------------------
+type_coverage:
+  heenal_types: 19        # NOT 21 — the octo-mapping's 2 extra rows are translation_examples (Tool/Gardens, Mechanism/QF)
+  direct: 14              # concept person practice pattern protocol playbook case_study question claim evidence artifact | mechanism tool resource
+  near: 5                 # group place gathering story | framework
+  unmapped: 0             # every Heenal core type has a disposition (some via lossy downgrade)
+  to_core: 15             # concept person group place gathering practice pattern protocol playbook case_study story question claim evidence artifact
+  to_extension: 4         # mechanism tool framework resource
+  target_only_core_additions: [bioregion, source-system]   # framework promotes to core; absent in Heenal (bioregion is a place SUBTYPE there; source-system entirely absent)
+  lossy_near:                                               # mapped, but the fit loses meaning — must be read WITH the notes below
+    - type: group
+      loss: "umbrella maps to core group, but Heenal's subtypes (organization/team/network/community/working-group) become distinct framework EXTENSION types (network/node/cell/partner-org). Split, not 1:1."
+    - type: place
+      loss: "umbrella maps to core place, but Heenal's `bioregion` subtype is PROMOTED to a first-class framework CORE type, and `local node` shifts axis to extension `node` (maps_to_core: group, not place)."
+    - type: gathering
+      loss: "no first-class event/gathering type; downgrades to core `practice`. The time-bound EVENT distinction (meeting/workshop/residency/conference) is flattened. Candidate extension regen-toolkit/gathering."
+    - type: story
+      loss: "no first-class narrative type; downgrades to core `case-study` (= 'what HAPPENED'). Heenal `story` also covers speculative / future / IMAGINED narrative — that sense has NO framework home. Candidate extension regen-toolkit/story."
+    - type: framework
+      loss: "name-identical extension exists but the core ANCHOR FLIPS: Heenal anchors framework→Concept; the framework extension anchors maps_to_core: PATTERN. A naive downgrade lands it in pattern, not concept."
+  also_note:
+    mechanism: "direct to extension `mechanism`, BUT Heenal's Pattern/Protocol dual collapses to maps_to_core: pattern — the protocol/rules half is dropped at the core downgrade."
+    resource: "STATUS INVERSION: Heenal warns resource is '⚠ not a primary organizing type'; the framework centers it (first-class L3, 1616 objects here). Same name, opposite emphasis."
+
+# ---------------------------------------------------------------------------
+# CLASSIFICATION COVERAGE — Heenal's 9 attribute-layers → framework model.
+# ---------------------------------------------------------------------------
+classification_coverage:
+  heenal_layers: 9
+  mapped: 5               # domain (direct→frontmatter), function (direct→frontmatter), audience (near→per-schema), maturity (near→K1), tech_surface (partial/near→K1 ai_assisted only)
+  unmapped: [scale, context, stage, forms_of_capital]
+  detail:
+    domain:       { relation: direct,  target: "frontmatter.domain (K3, uncontrolled string)" }
+    function:     { relation: direct,  target: "frontmatter.function (K3, uncontrolled string)", caveat: "`pattern` and `case study` are BOTH Heenal function-values AND framework core TYPES — a type/tag collision to reconcile in curation." }
+    audience:     { relation: near,    target: "track.audience (required) / encyclopedia-entry.audience / option-entry.audience — per-schema, not a universal attribute" }
+    maturity:     { relation: near,    target: "K1 maturity axis (review-maturity.yaml crosswalks.legacy_ontology, shipped verbatim: seed→raw … canonical→pattern-generating)", strongest: true }
+    tech_surface: { relation: partial, target: "ONLY `AI-assisted` → K1 ai_assisted flag; onchain/offchain/Ethereum/L2/multi-chain have no classification home (Layer 10 reasons structurally)" }
+    scale:        { relation: unmapped, note: "no scale attribute; re-encoded structurally via type hierarchy (person/group/network/bioregion) + part_of. Not a carryable per-item tag." }
+    context:      { relation: unmapped, note: "no context classification field; partial overlaps (bioregion type / tech_surface / CSIS posture) but no single home." }
+    stage:        { relation: unmapped, note: "learner-journey progression (explore…sustain); K1's 3 axes are none of them. Closest is Layer-7 Tracks (a POSITION in a pathway), not an item attribute." }
+    forms_of_capital: { relation: unmapped, flagship_contribute_back: true, note: "8 Forms of Capital + capital predicates — NO framework home at all. The kernel has no capital-accounting axis. Heenal itself marks it octo:extension / superbenefit:not_native." }
+  census_reality_check:   # from data/ontology/snapshot-2026-07-05/frontmatter-census.yaml — what the LIVE content actually populates
+    note: "The classification is largely aspirational in live frontmatter. Of 119 live articles: maturity present on 41 (using a Beginner/Intermediate/Advanced DIFFICULTY scale, 0/41 matching the declared seed…canonical vocab); stage on 44 (build/draft — an editorial pipeline flag, not the explore…sustain journey); domain/function only nested under `tags` on 41, both drifting from declared vocab; and scale/context/tech_surface/forms_of_capital appear on 0/119. The richest declared layer (capital) is entirely unpopulated."
+
+# ---------------------------------------------------------------------------
+# RELATIONSHIP COVERAGE — Heenal's 5 predicate groups → framework relationships.yaml.
+# ---------------------------------------------------------------------------
+relationship_coverage:
+  heenal_groups: 5
+  mapped: 4               # structural (direct), practice_and_design (near), discourse (near), operational (near/split)
+  unmapped: 1             # capital_predicates (creates_capital / depends_on_capital / impacts_capital) — the relationship-side of the forms_of_capital gap
+  dropped_predicates: [practiced_in, suggests, funded_by, serves_function]   # no framework equivalent
+  renamed: { opposes: contradicts }
+  split:   { generates: [raises_question, generates_signal] }
+  no_exact_target: { informs: "nearest explains / source_for" }
+
+# ---------------------------------------------------------------------------
+# CONTENT COVERAGE — Heenal's live corpus ↔ June's framework view v1 (Phase 3).
+# ---------------------------------------------------------------------------
+content_coverage:
+  live_articles: 119                # src/content/docs/*.md (measured)
+  june_encyclopedia: 119            # data/encyclopedia.yaml (grep -c '^  - id:')
+  reconciled:
+    verdict: "1:1 — PERFECT. `comm -3` of live-doc slugs vs encyclopedia ids returns EMPTY (0 missing, 0 extra). Every entry carries source_lineage: src/content/docs/<slug>.md. Regeneration is byte-identical (deterministic, sorted by slug)."
+    articles_without_entry: 0
+    entries_without_article: 0
+  page_type_distribution:           # heuristic inference (title/body); matches June's report exactly
+    concept: 44
+    case-linked: 40
+    guide: 17
+    comparison: 12
+    framework: 3
+    anti-pattern: 2
+    frontier: 1
+    total: 119
+  state_honesty:                    # K1 floor — verified, nothing auto-promoted
+    maturity: "draft (119/119)"
+    public_use: "source-linked-unreviewed (119/119)"
+    ai_assisted: "true (119/119)"
+    reviewed_overclaims: 0
+    verdict: "HONEST. Every entry sits at the floor. review_done:true in frontmatter is a pipeline-stage flag, explicitly kept as draft. HUMAN_REVIEWED allowlist empty. 0 invariant violations across 1983 objects (June Task 6)."
+  quality_spot_check:               # ~15 entries read across page_types
+    verdict: "PLAUSIBLE-AS-DRAFT, not authored. Title-keyword-driven types (guide/comparison/anti-pattern/case-linked) are clean, defensible catches. Three thin spots (see b_candidates): (a) `framework` (3) is a catch-all for pattern/reference titles where the enum has no `pattern` value — e.g. 'The Gatherings Pattern' typed framework, token-standards typed framework; (b) the title-anchored heuristic misses BODY-signaled guides — building-in-public / building-internal-capacity typed `concept` though their summaries literally read 'Guide to…'; (c) 32 entries carry stub-boilerplate summaries ('Learn about X in this Regen Toolkit article'), signalling thin source content where any page_type is a default guess (→ mostly concept)."
+  concept_lineage: { generated: 8, candidates: 10, note: "conservative: 2 what-is/are-* excluded because their titles self-describe as a 'guide' (what-are-tokens, what-is-ethereum). source_traditions / adjacent_meanings / important_distinctions intentionally OMITTED (not fabricated — a Layer-4 lineage owner fills them)." }
+  tracks: { generated: 3, concepts_total: 52, note: "chapters DROPPED as site-side presentation grouping (track schema is a flat ordered composition, no `chapters` field); outcome ARRAY flattened to a '; '-joined string (schema outcome is scalar). Both are honest divergences, not losses of source." }
+  resources: { generated: 1616, deduped: 214, held_for_review: 698, note: "698 held out of the Resource Graph (622 social-signal-review, 64 account-review, 12 other) — no typed lifecycle home. Reconciliation: 1830 resource-routed + 89 source-system + 698 held = 2617 parsed rows, nothing dropped." }
+  source_systems: { generated: 89, note: "type enum too narrow — 60/89 fell back to `database`; all steward/return_path = UNKNOWN placeholders (raw-lead)." }
+  salvaged: { entries: 144, resources: 4, note: "HELD APART from the 119 canonical (never summed). Split: 112 not-started stubs, 27 published, 3 none, 2 draft. Topically-close overlaps flagged (gitcoin-grants ~ live gitcoin-grants-qf, etc.); 5 duplicate-path survivors recorded." }
+
+# ---------------------------------------------------------------------------
+# B_CANDIDATES — subsets where June's heuristic typing is thin enough to warrant
+# a surgical machine re-run. Each is opt-in per section; this lists the TRIGGERS,
+# not an automatic full re-ingest. b_command sketches the 0.2 machine path.
+# ---------------------------------------------------------------------------
+b_candidates:
+  - area: concept-lineage
+    why_thin: "8/10 generated; conservative heuristic skipped 2 guide-titled what-is/are-* (what-are-tokens, what-is-ethereum). And all 8 stubs OMIT source_traditions / adjacent_meanings / important_distinctions — the Layer-4 lineage substance is empty by design."
+    b_fixes: "recover the 2 skipped concepts as lineage stubs; populate the 3 empty lineage arrays from article body + external traditions."
+    b_command: "ingest prepare --path 'src/content/docs/what-{is,are}-*.md' → accept → store --type concept-lineage → map-ontology"
+  - area: page_type-reinference
+    why_thin: "title-anchored heuristic: `framework` (3) is a catch-all for pattern/reference titles (no `pattern` enum value); body-signaled guides typed `concept` (building-in-public, building-internal-capacity); 32 stub-summary entries default to `concept` on too-thin content."
+    b_fixes: "re-infer page_type from FULL BODY (not title), reconcile the framework/pattern overlap, upgrade the mis-typed guides."
+    b_command: "ingest prepare --path 'src/content/docs/*.md' --full-body → accept → store --type encyclopedia-entry → map-ontology (re-derive page_type)"
+  - area: tracks-chapter-structure
+    why_thin: "3 tracks generated but chapter grouping dropped and outcome array flattened — the site's richer journey structure is lossy in the track projection (framework schema limitation, not a processing error)."
+    b_fixes: "requires a framework schema change first (track.chapters + track.outcome:array — June gap #3); THEN re-derive to preserve structure."
+    b_command: "(blocked on kernel) contribute-back track.outcome:array + optional chapters, then re-run journeyToTrack"
+  - area: held-resource-rows
+    why_thin: "698 rows held out of the Resource Graph with no typed destination (social-signal-review 622, account-review 64, structural-integrity-review 5, safeguards/curation 7). Counted-but-homeless — they live only in the CSV + report."
+    b_fixes: "needs a review-queue / triage lifecycle target in the kernel (June gap #5) BEFORE these can be stored as typed objects rather than held."
+    b_command: "(blocked on kernel) add signal-review / review-queue state, then: ingest prepare --path data/resources/csv/toolkit-layer-crosswalk.csv --routes 'Social Signal Review,People/Account Review' → accept → store --type signal-review"
+  - area: salvaged-vs-live-merge
+    why_thin: "144 salvaged legacy drafts held apart; 27 are real published content and several topically overlap live entries (gitcoin-grants~gitcoin-grants-qf, dao-governance~dao-governance-models, local-currency-design~local-currency, …). Overlap is flagged but not resolved."
+    b_fixes: "human-guided merge/dedupe of the 27 published survivors into their canonical entries; retype the 112 not-started stubs or route to compost."
+    b_command: "ingest prepare --path <the 27 published survivors> → accept (merge-mode) → store --type encyclopedia-entry → map-ontology"
+  - area: source-system-enrichment
+    why_thin: "89 source-systems with 60/89 fallback `type: database` and steward/return_path = UNKNOWN placeholders — the federation primitive (return path) is unpopulated."
+    b_fixes: "widen the type enum (June corroborating gap), then re-classify; identify stewards + return paths (human)."
+    b_command: "(enum-widen first) ingest prepare --path data/source-systems.yaml → accept → store --type source-system → map-ontology"
+
+# ---------------------------------------------------------------------------
+# GAPS — merged crosswalk gaps + June's 6 framework gaps, deduped and ranked.
+# disposition: contribute-back (to the framework kernel) | schema-fix | tooling |
+#              curation (instance-side) | accept-loss | inverse (Heenal must add to federate)
+# ---------------------------------------------------------------------------
+gaps:
+  - gap: "forms_of_capital (8 capitals) + capital_predicates (creates/depends_on/impacts_capital) — NO framework home; the kernel has no capital-accounting axis or capital-flow predicates."
+    severity: high
+    disposition: contribute-back
+    note: "The single strongest contribute-back. The flagship regenerative construct Heenal carries and the framework lacks entirely. Loop-4 update-proposal to the master doc."
+  - gap: "held / review-queue rows (698) have no typed lifecycle home — counted-but-homeless out of the Resource Graph."
+    severity: high
+    disposition: contribute-back
+    note: "June gap #5. Needs a triage / signal-review state so held rows have a typed destination. Blocks the held-resource b_candidate."
+  - gap: "stage (explore/learn/build/deploy/scale/sustain) — no framework learner-journey axis. K1 carries maturity/public_use/lifecycle_state, none journey-oriented."
+    severity: medium
+    disposition: contribute-back
+    note: "Model as a Layer-7 track-position, or add a `stage` frontmatter field. Live content already misuses the field as an editorial pipeline flag (build/draft), so a curation fix is also needed."
+  - gap: "gathering (time-bound event) — no first-class type; downgrades to core practice, losing the event distinction."
+    severity: medium
+    disposition: contribute-back
+    note: "Candidate namespaced extension regen-toolkit/gathering (maps_to_core: practice). 2-applied/2.5-gatherings-events is a whole content section, so the loss is material."
+  - gap: "story (narrative) — downgrades to core case-study, but the speculative / future / IMAGINED sense (core to Heenal's story) has no home."
+    severity: medium
+    disposition: contribute-back
+    note: "Candidate namespaced extension regen-toolkit/story (maps_to_core: case-study)."
+  - gap: "no first-class public_use_boundary FIELD on content schemas — the 34 high-risk boundaries validate only via the open frontmatter model, not as a declared checkable field."
+    severity: medium
+    disposition: schema-fix
+    note: "June gap #4. Declare optional public_use_boundary on encyclopedia-entry / resource referencing the existing public-use-boundary schema."
+  - gap: "track.outcome is a scalar string but real journeys carry an array of 3–5 outcomes (flattened to a '; '-joined string)."
+    severity: medium
+    disposition: schema-fix
+    note: "June gap #3. Make outcome an array (or add outcomes:array) on the track schema. Blocks the tracks-chapter b_candidate."
+  - gap: "scale (individual…global) — no framework scale attribute; re-encoded structurally via the type hierarchy + part_of, not carryable per-item."
+    severity: low
+    disposition: accept-loss
+    note: "Acceptable — genuinely re-encoded as structure, not lost. Optional: contribute a `scale` frontmatter field or tag."
+  - gap: "context (urban/rural/online/institutional/grassroots) — no framework context classification; would live as ad-hoc tags."
+    severity: low
+    disposition: accept-loss
+    note: "Partial overlaps (bioregion type, tech_surface, CSIS posture) but no single home. Live content populates it 0/119."
+  - gap: "tech_surface — only the AI-assisted value maps (→ K1 ai_assisted); the chain/substrate family (onchain/offchain/Ethereum/L2/multi-chain) has no classification field."
+    severity: low
+    disposition: accept-loss
+    note: "Layer 10 reasons about substrate structurally, not as a per-item tag. Live content populates it 0/119."
+  - gap: "relationship predicates with no framework equivalent: practiced_in, suggests, funded_by, serves_function, and an exact target for informs (nearest explains/source_for). opposes survives only via rename to contradicts."
+    severity: low
+    disposition: accept-loss
+    note: "Minor edge losses; most Heenal predicates map cleanly. serves_function is a frontmatter field in the framework, not a predicate."
+  - gap: "anchor divergences at the core downgrade: Heenal framework→Concept vs framework-ext→pattern; Heenal mechanism is Pattern/Protocol dual, framework collapses to pattern (protocol/rules half dropped)."
+    severity: low
+    disposition: accept-loss
+    note: "Ingestible either way; the lineage/anchor differs. Document, don't fix."
+  - gap: "function value/type collision — Heenal's function VALUES `pattern` and `case study` are ALSO framework core TYPES."
+    severity: low
+    disposition: curation
+    note: "Per type-tag-discipline these belong as types, not classification tags. A curation pass reconciles the overlap so a value isn't both a type and a tag."
+  - gap: "salvage/provenance is ad-hoc (salvaged_from on 144 entries); content schemas don't reference the existing provenance schema."
+    severity: low
+    disposition: schema-fix
+    note: "June gap #6. Add a standard optional provenance field, or document salvaged_from/source_lineage as the convention."
+  - gap: "source-system type enum too narrow — 60/89 fell back to `database`."
+    severity: low
+    disposition: schema-fix
+    note: "June corroborating gap. Widen the enum or add organization/other."
+  - gap: "CLI `validate` can't validate a collection file (reads the whole YAML as one object)."
+    severity: low
+    disposition: tooling
+    note: "June gap #1. Add a list/batch validate mode. API validateObject is correct; this is CLI ergonomics only."
+  - gap: "the framework package can't be imported into an Astro/Vite build (import.meta.url SCHEMA_DIR is rewritten by the bundler)."
+    severity: low
+    disposition: tooling
+    note: "June gap #2. Ship a build-safe consumption path (precompiled manifest / inlined schemas). Worked around with a Node prebuild manifest."
+  - gap: "INVERSE (framework richer than Heenal): `source-system` (return-path / anti-extraction primitive, L3a) and `bioregion` as a first-class TYPE are absent from Heenal (bioregion is only a place subtype)."
+    severity: informational
+    disposition: inverse
+    note: "Heenal would need to add these to federate. Not a framework loss — a framework GAIN Heenal lacks. See target_only_core_additions."
+
+# ---------------------------------------------------------------------------
+# RECOMMENDATION
+# ---------------------------------------------------------------------------
+recommendation:
+  verdict: hybrid
+  one_line: "Adopt the framework as the operational + interop backbone (it is materially richer on L5–L10 and ships the K1 state model + federation primitives Heenal lacks), keep Heenal's capital accounting + stage/scale/context as a namespaced extension, and contribute the 8 Forms of Capital back to the kernel — pure-adopt would drop the flagship regen construct; keep-both forfeits interop and duplicates work."
+  gains_from_framework: "K1 three-axis state model + flags (Heenal has only a 5-rung maturity ladder); ~26 L5–L10 operational types (deployment/implementation/review/evolution) Heenal doesn't model; source-system + bioregion as first-class types; CSIS-informed structural integrity; the federation/return-path primitive."
+  losses_to_absorb: "capital accounting (contribute back), the gathering event distinction + story speculative sense (namespaced extensions), stage/scale/context per-item classification (mostly accept-loss / structural re-encode)."
+  side_effect: "corpus normalization — moving through the framework surfaces and forces honest state (all 119 pinned to draft/source-linked-unreviewed; 34 high-risk boundaries; 698 rows honestly held) that Heenal's inconsistent frontmatter never enforced."
+  needs_operator_judgment:
+    - "the function value/type collision (pattern, case study) — a curation fix, not automatable."
+    - "maturity/stage NORMALIZATION — live frontmatter uses a Beginner/Intermediate/Advanced difficulty scale and a build/draft pipeline flag, NEITHER matching the declared ontology vocab; a human must decide the canonical mapping before any re-run."
+    - "which of the 27 published salvaged survivors to merge vs keep."
+    - "whether to promote the 2 blocked contribute-backs (capital, review-queue state) into a formal Loop-4 update-proposal to docs/MASTER.md."
