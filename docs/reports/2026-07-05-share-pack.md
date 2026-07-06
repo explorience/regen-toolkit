@@ -1,6 +1,6 @@
 # Share Pack — Knowledge Commons Toolkit progress (2026-07-05)
 
-**Status: DRAFTS for review — nothing sent.** Two messages sharing what was done, from the master-doc framework build onwards. Companion to the full report: `docs/reports/2026-07-05-ontology-comparison.md`.
+**Status: DRAFTS for review — nothing sent.** Two messages sharing what was done, from the master-doc framework build onwards — framed around what each step *means* and *unlocks*. Companion to the full report: `docs/reports/2026-07-05-ontology-comparison.md`.
 
 Attribution to check before sending: master doc = **Matt**; current toolkit content/ontology = **Heenal's build**. Adjust names/links/channel to taste.
 
@@ -8,21 +8,33 @@ Attribution to check before sending: master doc = **Matt**; current toolkit cont
 
 ## A · Message to the group
 
-> **Regen Knowledge Commons Toolkit — the stack is real and running end-to-end.** Quick share on where this landed.
+> **The Regen Knowledge Commons Toolkit is now real infrastructure — a running system, not a doc.** Sharing where it got to, and what each step opens up.
 >
-> The arc:
+> **The framework is on the repo.**
+> The master doc (~24.7k lines) is now a working, tested package — the semantic kernel, the honest-state model, "the machine" (capture → review → publish), the schemas and skills.
+> → *What it means:* the method is executable, not just described. You adopt the package, not read the doc.
+> → *What it unlocks:* shared types across orgs — so knowledge becomes interoperable, not siloed per project.
 >
-> **1. The framework is built.** The master doc (~24.7k lines) is now distilled into a working, tested package — `@regen-commons/toolkit-framework`: the semantic kernel (15 core + 31 extension types across 10 layers), the honest-state model, "the machine" (capture → review → publish), 22 schemas, 7 agent skills, 3 storage adapters. 100 tests green. You adopt the package, not the 30k-line doc.
+> **It's wired into org-os, and installed centrally.**
+> There's now a binding that turns any org-os instance into a knowledge commons out of the box — and both packages live in the canonical org-os.
+> → *What it means:* no org has to rebuild this. You inherit it.
+> → *What it unlocks:* network-wide adoption from one source — and federation between instances (RegenOS).
 >
-> **2. It plugs into org-os.** Built `@org-os/kms` — the binding + profile that makes any org-os instance a knowledge commons out of the box (session lifecycle, registry bridge, CLI, RegenOS federation). 44 tests. Installed into the canonical org-os, so every node can adopt it.
+> **ReFi DAO is the first live pilot.**
+> The commons is initialized in refi-dao-os and configured for its site.
+> → *What it means:* the first real org is set up to run its own commons, on its own content.
+> → *What it unlocks:* bringing ReFi DAO's blog (207 articles) into a structured, reviewed, federated commons — reviewed, not scraped — as the template for every org after it.
 >
-> **3. ReFi DAO is the first pilot.** The KMS is initialized in refi-dao-os and configured for its site; the next step is bringing its blog corpus (207 articles) into the commons — reviewed, not scraped.
+> **We now know exactly how the current toolkit relates to the framework.**
+> Heenal's 119 articles reprocessed through the framework — they map **1:1, cleanly**.
+> → *What it means:* adopting the framework doesn't cost us the existing work; there's a clean crosswalk.
+> → *What it unlocks:* moving forward with confidence — one decision, not a migration debate.
 >
-> **4. We compared the two ontologies.** Took the toolkit's current content (Heenal's build) and ran it through the framework: the 119 live articles map **1:1, cleanly**. Full crosswalk + comparison is written up.
+> **The one thing to feed upstream: the 8 Forms of Capital.**
+> Everything maps except capital accounting — the kernel doesn't hold it yet, and it's the regenerative heart.
+> → *So the path is hybrid:* adopt the framework as the shared backbone, and contribute the capital model back to it. Align and feed the missing piece upstream — not conform to a standard.
 >
-> **The headline:** adopt the framework as the shared backbone — and **contribute the 8 Forms of Capital back to it.** That's the one regenerative construct the kernel doesn't yet hold; everything else maps. So this isn't "conform to a standard," it's "align, and feed the missing piece upstream."
->
-> **Open for the group:** the capital contribute-back (a proposal for the master doc), a couple of small schema fixes, and some content-curation calls — all in §8 of the report. Happy to walk anyone through it.
+> **Open for the group** (§8 of the report): the capital contribute-back, a couple of schema fixes, some content-curation calls. Happy to walk anyone through it.
 >
 > Report: `docs/reports/2026-07-05-ontology-comparison.md`
 
@@ -30,19 +42,28 @@ Attribution to check before sending: master doc = **Matt**; current toolkit cont
 
 ## B · Message to Matty (DM)
 
-> Quick update on the toolkit-framework + KMS work — it landed further than I expected.
+> Update on the toolkit-framework + KMS work — and, more to the point, what it opens up.
 >
-> The framework (the operational distillation of the master doc) is now a real, installable, tested package, and I built the org-os binding around it — `@org-os/kms` — so any instance becomes a knowledge commons out of the box: lifecycle, registry bridge, federation, the lot (44 tests). Installed it into the canonical org-os and stood up a **ReFi DAO pilot** — KMS initialized, configured for their Quartz site, blog corpus queued.
+> **The framework is now on the repo as a real package.** The master doc distilled into something installable and tested.
+> → We're past "spec" — the method runs.
 >
-> Then I ran the comparison we'd talked about: the toolkit's current content (Heenal's build) vs the framework ontology. The **119 articles reprocess into framework objects 1:1**, cleanly — the framework is clearly the stronger operational + interop backbone (it carries the whole L5–L10 operational layer, the 3-axis state model, and the federation primitives — `source-system`, `bioregion` — that Heenal's knowledge-typing ontology doesn't).
+> **I built the org-os binding around it and installed it into the canonical org-os.** Any instance becomes a knowledge commons out of the box.
+> → We can roll this out across the network from one source, and instances can federate.
 >
-> The one real gap — and I think it's a genuine **contribute-back to the master doc** — is the **8 Forms of Capital.** Heenal's ontology carries them as a first-class extension (+ capital-flow predicates); the framework kernel has no capital-accounting axis at all. Everything else maps; capital is the thing worth adding upstream. I'd love to shape that update-proposal with you. There are also two small schema fixes worth doing (`track.outcome` → array; a first-class `public_use_boundary` field).
+> **Stood up a ReFi DAO pilot** — KMS initialized, configured for their Quartz site, blog corpus queued.
+> → The first real org is ready to run its own commons. The proof case.
 >
-> Full detail's written up if useful: `docs/reports/2026-07-05-ontology-comparison.md`. Also relevant to the ReFi Commons home conversation — this is the substrate for it.
+> **Ran the comparison we talked about** — Heenal's build vs the framework ontology. The 119 articles reprocess **1:1**.
+> → We can adopt the framework without losing the current work. And it's clearly the stronger backbone — the whole L5–L10 operational layer, the 3-axis state model, the federation primitives (`source-system`, `bioregion`) Heenal's ontology doesn't carry.
+>
+> **The one real gap is the 8 Forms of Capital** — and I think it's a genuine contribute-back to the master doc. The kernel has no capital-accounting axis at all; Heenal carries it first-class.
+> → This is the piece I'd love to shape with you — as an update-proposal to the master doc. Plus two small schema fixes (`track.outcome` → array; a first-class `public_use_boundary` field).
+>
+> It's also the substrate for the ReFi Commons home conversation. Written up: `docs/reports/2026-07-05-ontology-comparison.md`
 
 ---
 
-## C · What each links to (for when you send)
+## C · Links (for when you send)
 
 - **Full report:** `docs/reports/2026-07-05-ontology-comparison.md` (§8 = open items for the group)
 - **Crosswalk + diff:** `data/crosswalks/regen-toolkit.yaml`, `data/crosswalks/comparison.yaml`
