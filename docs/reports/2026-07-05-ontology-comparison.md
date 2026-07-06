@@ -14,7 +14,7 @@
 - **The one big loss is capital.** Heenal's **8 Forms of Capital** + its three capital predicates (`creates_capital` / `depends_on_capital` / `impacts_capital`) have **no framework home at all** — the kernel has no capital-accounting axis. This is the flagship contribute-back, not something to drop.
 - **The operational-richness gain is large.** The framework ships the K1 state model (3 orthogonal axes — maturity · public_use · lifecycle_state — + `ai_assisted`/`high_risk` flags), the **source-system** federation/return-path primitive, **bioregion** as a first-class type, and CSIS-informed structural integrity — none of which exist in Heenal's knowledge-typing-focused ontology.
 - **A corpus-normalization side-effect falls out for free.** Running Heenal's content through the framework forces honest state: all **119** live articles pinned to `draft` / `source-linked-unreviewed` / `ai_assisted:true`, 34 high-risk pages given a `public_use_boundary`, and 698 noisy resource rows honestly held out — a discipline Heenal's inconsistent frontmatter never enforced (the census shows the capital layer populated **0/119**).
-- **Recommendation: HYBRID (adopt-with-contribute-back).** Adopt the framework as the operational + interop backbone, keep Heenal's capital accounting + `stage`/`scale`/`context` as a namespaced extension, and contribute the 8 Forms of Capital back to the kernel. Pure-adopt would delete the regenerative heart; keep-both forfeits interop and duplicates work.
+- **Decision — HYBRID (adopt-with-contribute-back), agreed 2026-07-05.** Adopt the framework as the operational + interop backbone, keep Heenal's capital accounting + `stage`/`scale`/`context` as a namespaced extension, and contribute the 8 Forms of Capital back to the kernel. Pure-adopt would delete the regenerative heart; keep-both forfeits interop and duplicates work. (§8 lists what this opens for the group.)
 
 ---
 
@@ -142,7 +142,29 @@ Adopt the framework as the **operational + interoperability backbone**: it is ma
 
 ---
 
-## 8 · Appendix — pointers
+## 8 · Open items — what's decided, what needs the group
+
+**Decided (2026-07-05):** HYBRID — adopt the framework backbone; keep + contribute back Heenal's capital accounting. The comparison below is settled; what remains is development + a few human calls.
+
+**Needs the group / to be developed:**
+
+| Item | What it is | Kind | Best owner |
+|---|---|---|---|
+| **8 Forms of Capital → kernel** | The flagship gap: the framework has no capital-accounting axis or predicates. Propose adding them. | Loop-4 `update-proposal` to `docs/MASTER.md` | framework maintainer + Matt |
+| **`held` / review-queue state** | 698 resource rows are counted-but-homeless (no lifecycle state for "held for review"). Blocks a clean resource import. | kernel state addition | framework maintainer |
+| **Schema fixes** | `track.outcome` scalar→array; first-class `public_use_boundary` field; widen the `source-system` type enum (60/89 fell back to `database`). | framework PRs | framework maintainer |
+| **`gathering` + `story` extensions** | Restore the event + speculative-narrative senses lost when they downgrade to `practice`/`case-study`. | namespaced extension schemas | ontology |
+| **`function` value/type collision** | Heenal uses `pattern` and `case study` as *both* classification values *and* entity types — must reconcile per type-tag discipline. | curation call | content curator |
+| **Maturity / stage normalization** | Live frontmatter uses a Beginner/Intermediate/Advanced *difficulty* scale and a build/draft *pipeline* flag — neither matches the ontology or K1. Set the canonical mapping. | curation call | content curator |
+| **Salvaged-vs-live merge** | 27 published salvaged survivors overlap live entries; decide merge-vs-keep + retype the 112 not-started stubs. | human-guided merge | content curator |
+
+**Ready to run now (opt-in, per-section):** the 6 `b_candidates` (§5) — surgical framework re-runs where June's heuristic was thin. Cheapest high-value one: **page_type re-inference from full body** (fixes the `framework` catch-all + the mis-typed guides).
+
+**Nothing here blocks adoption** — the framework is the backbone today; these are the develop-forward items.
+
+---
+
+## 9 · Appendix — pointers
 
 - **Snapshot (Heenal v1, frozen):** `data/ontology/snapshot-2026-07-05/` — `frontmatter-census.yaml` (field frequency + value vocab across the 119, with divergence notes), `content-structure.md` (3 journeys / 14 chapters / 52 steps; the 254-article legacy taxonomy), + the 4 frozen ontology `*.yaml`.
 - **Crosswalk (the backbone):** `data/crosswalks/regen-toolkit.yaml` — 19 type rows, 9 classification rows, 5 relationship-group rows, an explicit `gaps` block, and a `summary` with the count reconciliation (19 not 21).
