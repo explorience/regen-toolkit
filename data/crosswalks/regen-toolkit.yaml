@@ -1,0 +1,442 @@
+# Ontology crosswalk — Heenal's Regen Toolkit ontology → toolkit-framework kernel.
+# Produced per the `map-ontology` skill (packages/toolkit-framework/skills/map-ontology/SKILL.md):
+# survey → map types → map states → emit crosswalk. Posture is align-and-map, never
+# conform-or-reject (architecture/ontology-posture.md): reuse core/extension where it fits,
+# flag honestly where it does not. This file is a DOCUMENTATION artifact (a crosswalk), not a
+# fork extension schema — it does not itself run through validateKernel; it CITES the kernel's
+# own crosswalk data (review-maturity legacy_ontology, extension maps_to_core, octo mapping).
+#
+# Field conventions
+# -----------------
+# relation: quality of the fit
+#   direct    — same name + meaning, clean 1:1 (target may be core OR extension)
+#   near      — an existing framework type carries it, but with rename / split / partial fit
+#   extension — expressible only through Layer B; here folded into `near`/`direct` + target_layer
+#   unmapped  — no framework home; candidate contribute-back (Loop 4)
+# target_layer: where the target lives — core (frozen Layer A, 15) | extension (Layer B, 31) | none
+# Every one of Heenal's 19 core types + 9 attribute-layers + 5 predicate groups has a row.
+
+crosswalk: regen-toolkit
+source_ontology: "Heenal build (data/ontology/*.yaml — CSIS-aligned, Octo-inspired, SuperBenefit-crosswalked)"
+target: "@regen-commons/toolkit-framework kernel (15 core + 31 extension, 10 layers, K1 state model)"
+generated: 2026-07-05
+skill: "map-ontology@0.2.0"
+
+# ---------------------------------------------------------------------------
+# COUNT NOTE (honesty): the plan/task cite "21 core types." The authoritative
+# file `data/ontology/regen-toolkit-entities.yaml` lists 19 entities under
+# `core_entities`. The "21" is the number of `regen_toolkit:` lines in
+# `regen-toolkit-octo-mapping.yaml` — but 2 of those are `translation_examples`
+# (Tool/Gardens, Mechanism/"Quadratic Funding"), i.e. instance rows, not distinct
+# types. 12 core_entity_mapping + 7 extended_type_mapping = 19 distinct types.
+# This crosswalk maps all 19; there are no silent omissions.
+# ---------------------------------------------------------------------------
+
+type_mappings:
+
+  # --- clean direct-to-core (11) ---
+  - source: concept
+    target: concept
+    target_layer: core
+    relation: direct
+    source_octo_base: Concept
+    notes: >-
+      octo-mapping: "Direct match" (Concept=Concept=concept). Framework core-entities
+      `concept` = "idea, distinction, framework, or term." 1:1.
+
+  - source: person
+    target: person
+    target_layer: core
+    relation: direct
+    source_octo_base: Person
+    notes: >-
+      octo-mapping: "Direct match." Framework adds a semantic constraint Heenal does not:
+      "use with consent; default to non-public (Principle 8)." Type identity is unchanged.
+
+  - source: practice
+    target: practice
+    target_layer: core
+    relation: direct
+    source_octo_base: Practice
+    notes: >-
+      octo-mapping: "One of the most important shared primitives." Heenal CSIS requirement
+      "must define actor, context, outcome" has no schema field but aligns with the framework's
+      governance_csis edges (accountable_to / has_control_point) — informed, not enforced.
+
+  - source: pattern
+    target: pattern
+    target_layer: core
+    relation: direct
+    source_octo_base: Pattern
+    notes: >-
+      octo-mapping: "Supports abstraction layer." Framework core `pattern` STRENGTHENS Heenal's:
+      "a REVIEWED, transferable abstraction generalized from multiple cases (Principle 12)" +
+      pattern-humility ("a single case is not a pattern"). Heenal: "reusable abstraction derived
+      from multiple practices." Same type, framework adds a review gate.
+
+  - source: protocol
+    target: protocol
+    target_layer: core
+    relation: direct
+    source_octo_base: Protocol
+    notes: 'octo-mapping: "Direct match." CSIS "must define rules + authority" ↔ framework key_relations implemented_by / governed_by.'
+
+  - source: playbook
+    target: playbook
+    target_layer: core
+    relation: direct
+    source_octo_base: Artifact
+    notes: >-
+      Name-identical. NOTE a status change: Heenal anchors playbook to octo_base "Artifact"
+      (an instructional artifact); the framework PROMOTES `playbook` to a first-class Layer-A
+      CORE type ("a composed pathway/guide sequencing concepts, options, steps"). Framework
+      also carries extension refinements `track` and `program` (both maps_to_core: playbook).
+
+  - source: case_study
+    target: case-study
+    target_layer: core
+    relation: direct
+    source_octo_base: CaseStudy
+    notes: 'octo-mapping: "Direct match." Name normalizes case_study → case-study. Framework: "a documented example of what happened in a specific instance."'
+
+  - source: question
+    target: question
+    target_layer: core
+    relation: direct
+    source_octo_base: Question
+    notes: 'octo-mapping: "Direct match." 1:1.'
+
+  - source: claim
+    target: claim
+    target_layer: core
+    relation: direct
+    source_octo_base: Claim
+    notes: 'octo-mapping notes "Octo stronger here" (SuperBenefit implicit). Framework core `claim` = "an assertion requiring evidence." 1:1.'
+
+  - source: evidence
+    target: evidence
+    target_layer: core
+    relation: direct
+    source_octo_base: Evidence
+    notes: 'octo-mapping notes "Octo stronger here." Framework core `evidence` = "material supporting or complicating a claim (with source lineage)." 1:1.'
+
+  - source: artifact
+    target: artifact
+    target_layer: core
+    relation: direct
+    source_octo_base: Artifact
+    notes: >-
+      octo-mapping: "Base wrapper for content." Heenal subtypes [article, document, dataset, map,
+      media, codebase] are NOT framework types — per type-tag-discipline they become tags/metadata
+      on the core `artifact` (which itself lists "document, dataset, tool output, resource, template").
+
+  # --- near / split / renamed to core (4) ---
+  - source: group
+    target: group
+    target_layer: core
+    relation: near
+    source_octo_base: Group
+    source_subtypes: [organization, team, network, community, "working group"]
+    notes: >-
+      SPLIT, not clean-direct. Umbrella maps to core `group` (octo-mapping "Direct match — orgs,
+      communities, teams"; framework `group` = "organization, network, node, cell, community, or
+      working group"). But Heenal's SUBTYPES are promoted to first-class framework EXTENSION types:
+      network → extension `network`, local node → extension `node`, small unit → extension `cell`,
+      external org → `partner-org` (all maps_to_core: group). Heenal keeps them as `group.subtypes`;
+      the framework types them. CSIS "must define decision + power structure" ↔ governance_csis
+      (governed_by / controlled_by / has_authority), the optional module.
+
+  - source: place
+    target: place
+    target_layer: core
+    relation: near
+    source_octo_base: "Place / Bioregion"
+    source_subtypes: [bioregion, city, territory, "local node", "digital space"]
+    notes: >-
+      SPLIT. Umbrella → core `place`. But Heenal's `bioregion` SUBTYPE is PROMOTED by the framework
+      to its own first-class CORE type `bioregion` ("an ecologically-defined place; a first-class
+      context for regenerative work") — see target_only_additions. Heenal's `local node` subtype maps
+      instead to extension `node` (which maps_to_core: GROUP, not place) — an axis shift (org vs place).
+      octo-mapping already flagged this: "Direct match, Octo emphasizes bioregions."
+
+  - source: gathering
+    target: practice
+    target_layer: core
+    relation: near
+    source_octo_base: "Practice (time-bound)"
+    notes: >-
+      NO first-class event/gathering type in the framework. Nearest downgrade is core `practice`,
+      which is what Heenal's own octo_base already does ("Practice (time-bound)"). Ingestible, but the
+      TIME-BOUND EVENT distinction (meeting / workshop / residency / conference) is LOST — it flattens
+      into a generic practice. Candidate namespaced extension `regen-toolkit/gathering`
+      (maps_to_core: practice). See gaps.
+
+  - source: story
+    target: case-study
+    target_layer: core
+    relation: near
+    source_octo_base: "CaseStudy / Artifact"
+    notes: >-
+      NO first-class `story`/narrative type in the framework. Nearest downgrade is core `case-study`
+      (or `artifact`, per Heenal's dual octo_base). BUT the fit is partial and honestly lossy: Heenal
+      `story` = "a narrative describing what happened, what MAY happen, or what is IMAGINED"; framework
+      `case-study` is strictly "what HAPPENED in a specific instance." The speculative / future / imagined
+      narrative sense has NO framework home. Candidate extension `regen-toolkit/story`
+      (maps_to_core: case-study). See gaps.
+
+  # --- direct to a framework EXTENSION type (Layer B) (3) ---
+  - source: mechanism
+    target: mechanism
+    target_layer: extension
+    relation: direct
+    source_octo_base: "Pattern / Protocol"
+    maps_to_core: pattern
+    notes: >-
+      Framework has a first-class extension `mechanism` (maps_to_core: pattern) —
+      "a reusable coordination/funding/governance mechanism." Name + meaning match (QF, conviction
+      voting, retroPGF). NOTE the dual-nature collapse: Heenal octo_base "Pattern / Protocol"; the
+      framework's single maps_to_core is `pattern` — the PROTOCOL/rules half is dropped at the core
+      downgrade (a mechanism-as-protocol loses its rule semantics for a naive consumer).
+
+  - source: tool
+    target: tool
+    target_layer: extension
+    relation: direct
+    source_octo_base: Artifact
+    maps_to_core: artifact
+    notes: >-
+      Framework extension `tool` (maps_to_core: artifact) = "a software/protocol tool used in a
+      deployment." octo-mapping: "treated as a specific kind of artifact" (Gardens, Snapshot, EAS).
+      Clean. CSIS "must define control + dependency" ↔ governance_csis has_control_point.
+
+  # --- near / anchor-diverged to a framework EXTENSION type (1) ---
+  - source: framework
+    target: framework
+    target_layer: extension
+    relation: near
+    source_octo_base: Concept
+    maps_to_core: pattern
+    notes: >-
+      Name-identical framework extension `framework` exists, BUT the core anchor is FLIPPED:
+      Heenal anchors `framework` to octo_base "Concept" (a mental model IS-A concept — Cynefin, VSM,
+      "8 forms of capital"); the framework's extension anchors maps_to_core: PATTERN ("a structured
+      conceptual model applied across cases"). So a naive downgrade lands a Heenal `framework` in
+      `pattern`, whereas Heenal would downgrade it to `concept`. Ingestible either way, but the
+      lineage/anchor differs — hence near, not direct.
+
+  # --- name-identical, but a KERNEL-STATUS INVERSION (1) ---
+  - source: resource
+    target: resource
+    target_layer: extension
+    relation: direct
+    source_octo_base: "Artifact / Place-bound entity"
+    maps_to_core: artifact
+    source_warning: "Not a primary organizing type — use only when necessary"
+    notes: >-
+      STATUS INVERSION worth flagging. Heenal warns resource is "⚠ NOT a primary organizing type";
+      the framework makes `resource` a first-class, heavily-used LAYER-3 extension ("the Resource Graph
+      / Ecosystem Atlas" — 1,616 resource objects in this instance's June reprocess). Same name, opposite
+      emphasis: Heenal de-prioritizes it, the framework centers it (posture: "add broadly, classify
+      lightly, mark maturity honestly, route carefully"). maps_to_core: artifact.
+
+classification_mappings:   # Heenal's 9 attribute-layers → framework model
+
+  - source_layer: domain
+    source_values: [ecological, social, economic, governance, technical, cultural, legal, educational]
+    target: "frontmatter.domain (K3)"
+    relation: direct
+    notes: >-
+      Framework K3 `frontmatter` declares a `domain` field (type: string) inherited by every entry
+      type. It is UNCONTROLLED (no enum) — Heenal's 8 values become a candidate value-vocabulary for
+      the free-form field, not a schema constraint.
+
+  - source_layer: function
+    source_values: [education, "setup guide", "operational guide", strategy, pattern, "case study", "risk management", coordination]
+    target: "frontmatter.function (K3)"
+    relation: direct
+    notes: >-
+      Framework `frontmatter.function` (type: string) is the home. CAVEAT: two of Heenal's function
+      values — `pattern` and `case study` — collide with framework TYPES (pattern is core; case-study
+      is core). Per type-tag-discipline these should be types, not function-tags; a curation pass should
+      reconcile the overlap so a value isn't both a type and a classification tag.
+
+  - source_layer: audience
+    source_values: [individual, "local organizer", "community steward", "DAO operator", developer, nonprofit, researcher]
+    target: "track.audience (required) / encyclopedia-entry.audience / option-entry.audience"
+    relation: near
+    notes: >-
+      Not in the frontmatter BASE — but audience is a first-class field on the specific schemas where
+      it matters: `track.audience` is REQUIRED (Layer 7), and encyclopedia-entry / option-entry carry
+      an optional `audience`. So audience is expressed, but per-schema (near), not as one universal
+      attribute. Values are free-form strings; Heenal's 7 are a candidate vocab.
+
+  - source_layer: maturity
+    source_values: [seed, experimental, emerging, proven, canonical]
+    target: "K1 maturity axis (review-maturity.yaml)"
+    relation: near
+    value_crosswalk:            # verbatim from review-maturity.yaml crosswalks.legacy_ontology
+      seed: raw
+      experimental: candidate
+      emerging: source-linked
+      proven: field-informed
+      canonical: pattern-generating
+    notes: >-
+      STRONGEST classification mapping — the framework SHIPS this crosswalk itself as
+      `crosswalks.legacy_ontology` in review-maturity.yaml (R1/R7 reconciliation), reused verbatim
+      above. `near` (not direct) because it is a value-ladder crosswalk: Heenal's 5-rung ladder maps
+      into the framework's richer 9-value `maturity` axis (raw → draft → candidate → source-linked →
+      reviewed → field-informed → pattern-generating → deprecated → archived). Note Heenal has no
+      analogue of the framework's OTHER two orthogonal state axes — public_use and lifecycle_state —
+      nor its ai_assisted / high_risk flags; those are framework-only state richness.
+
+  - source_layer: scale
+    source_values: [individual, team, organization, network, bioregional, global]
+    target: "(none — no framework scale attribute)"
+    relation: unmapped
+    notes: >-
+      No scale axis/field in the framework. NOTABLE: the framework expresses scale STRUCTURALLY through
+      its TYPE hierarchy + `part_of` edges rather than as an attribute — individual≈person, team/
+      organization/network≈group/network extension, bioregional≈bioregion (core), global≈network of
+      networks. So it is not lost so much as re-encoded as structure; as a carryable per-item CLASSIFICATION
+      it has no home. Candidate: a tag, or contribute-back a `scale` frontmatter field.
+
+  - source_layer: context
+    source_values: [urban, rural, bioregional, online, hybrid, institutional, grassroots]
+    target: "(none — no framework context classification)"
+    relation: unmapped
+    notes: >-
+      No `context` classification field in the framework. Partial overlaps exist elsewhere (bioregional
+      ↔ core bioregion type; online/hybrid ↔ tech_surface below; institutional/grassroots ↔ a governance
+      posture the framework only carries as CSIS edges), but there is no single home for this attribute.
+      Would live as ad-hoc tags. Candidate contribute-back.
+
+  - source_layer: tech_surface
+    source_values: [offchain, onchain, hybrid, Ethereum, L2, multi-chain, AI-assisted]
+    target: "K1 ai_assisted flag (ONLY the AI-assisted value); rest (none)"
+    relation: near
+    notes: >-
+      PARTIAL. Only ONE of Heenal's 7 values maps: `AI-assisted` → the K1 orthogonal boolean flag
+      `ai_assisted` (frontmatter). The chain/substrate values (onchain / offchain / hybrid / Ethereum /
+      L2 / multi-chain) have NO framework classification field — Layer 10 (Infrastructure & Substrate)
+      reasons about substrate STRUCTURALLY ("infrastructure follows function"), not as a per-item tag.
+      So mostly unmapped; flagged in gaps.
+
+  - source_layer: stage
+    source_values: [explore, learn, build, deploy, scale, sustain]
+    target: "(none — no framework stage axis)"
+    relation: unmapped
+    notes: >-
+      No equivalent axis. K1's three axes are maturity / public_use / lifecycle_state; NONE is a
+      learner/journey progression. Heenal's `stage` is journey-oriented (where a PERSON is in their
+      path), conceptually closer to the framework's Layer-7 Tracks/journeys composition than to an item
+      state — but it is not an attribute the framework carries. Candidate contribute-back (or model as a
+      track-position rather than an item tag). Flagged in gaps.
+
+  - source_layer: forms_of_capital
+    source_values: [financial, social, cultural, intellectual, experiential, natural, built, spiritual]
+    target: "(none — no framework capital model)"
+    relation: unmapped
+    notes: >-
+      NO framework home — the single STRONGEST contribute-back candidate. The 8 Forms of Capital are a
+      Heenal/Regen extension (Heenal itself marks it octo_compatibility: extension,
+      superbenefit_compatibility: not_native). Used as attributes via the capital predicates
+      (creates_capital / depends_on / impacts) — which ALSO have no framework home (see
+      relationship_mappings.capital_predicates). The framework kernel has no capital accounting axis at
+      all. This is the clearest ontology-feedback item for the master doc (Loop 4 / update-proposal).
+
+relationship_mappings:   # Heenal's 5 predicate groups → framework relationships.yaml groups
+
+  - source_group: structural
+    source_predicates: [is_a, part_of, instance_of, related_to, broader, narrower]
+    target_group: core_interop
+    relation: direct
+    notes: >-
+      All 6 Heenal structural predicates exist in framework `core_interop` (is_a, instance_of, part_of,
+      related_to, broader, narrower). Framework ADDS overlaps_with, maps_to, derived_from, version_of —
+      superset, no loss. Clean.
+
+  - source_group: practice_and_design
+    source_predicates: [practiced_by, practiced_in, aggregates_into, suggests, implemented_by, builds_on, documents]
+    target_group: practice_pattern
+    relation: near
+    unmapped_predicates: [practiced_in, suggests]
+    notes: >-
+      Most map: practiced_by / aggregates_into / implemented_by / builds_on / documents all present in
+      framework `practice_pattern`. TWO have no framework equivalent: `practiced_in` (Practice→Place —
+      the framework carries no located-practice edge; nearest is generic part_of / related_to), and
+      `suggests` (Pattern→Practice, Heenal's explicit inverse of aggregates_into — the framework has no
+      inverse edge). Also a from/to shift: Heenal `aggregates_into` is Practice→Pattern; framework's is
+      case-study→pattern. Hence near.
+
+  - source_group: discourse
+    source_predicates: [about, supports, opposes, informs, generates]
+    target_group: discourse
+    relation: near
+    notes: >-
+      about → about (direct); supports → supports (direct). RENAME: `opposes` → framework `contradicts`.
+      SPLIT: `generates` (Practice/Gathering → Question/Claim) → framework `raises_question` (→question)
+      + `generates_signal` (→signal, in the practice_pattern group). NO exact target for `informs`
+      (Evidence → Question/Practice); nearest is `explains` / `source_for`. Framework discourse also adds
+      defines, confused_with — superset otherwise.
+
+  - source_group: operational
+    source_predicates: [uses_tool, governed_by, funded_by, depends_on, serves_function]
+    target_group: "SPLIT — governance_csis (optional) + core_interop fallback"
+    relation: near
+    unmapped_predicates: [funded_by, serves_function]
+    notes: >-
+      Scattered, and partly gated behind the OPTIONAL CSIS module. `governed_by` → framework
+      governance_csis.governed_by (but that group is optional: true — a fork may omit it entirely).
+      `uses_tool` → no first-class edge; Heenal itself maps it to octo "relates_to / implemented_by"
+      (framework has implemented_by / related_to). `depends_on` → no generic dependency edge; nearest
+      related_to (Heenal itself says "relates_to; keep minimal"). NO home for `funded_by` (nearest
+      related_to fallback) or `serves_function` (function is a frontmatter FIELD, not a predicate). Near.
+
+  - source_group: capital_predicates
+    source_predicates: [creates_capital, depends_on_capital, impacts_capital]
+    target_group: "(none)"
+    relation: unmapped
+    notes: >-
+      NO framework home — the relationship-side of the forms_of_capital gap. The framework has no capital
+      group and no capital vocabulary; its nearest concern is the anti-extraction `source_lineage` group
+      (stewarded_by / has_return_path / requires_attribution), which tracks contribution reciprocity but
+      NOT the 8-capital value flows Heenal models. Strongest contribute-back alongside forms_of_capital.
+
+gaps:   # the honest "what does not cleanly map" list
+  - "forms_of_capital (8 Forms of Capital) + capital_predicates (creates_capital / depends_on / impacts_capital) — NO framework home. The framework kernel has no capital-accounting axis or capital-flow predicates. STRONGEST contribute-back candidate (Heenal already flags it octo-extension / SuperBenefit not_native)."
+  - "stage (explore / learn / build / deploy / scale / sustain) — no framework equivalent axis. K1 carries maturity / public_use / lifecycle_state; none is a learner-journey progression. Closest is Layer-7 Tracks (a position IN a pathway), but it is not a carryable item attribute."
+  - "scale (individual … global) — no framework scale attribute. Re-encoded structurally via the type hierarchy (person/group/network/bioregion) + part_of, but not available as a per-item classification."
+  - "context (urban / rural / online / institutional / grassroots …) — no framework context classification field. Partial overlaps with bioregion (type), tech_surface, and CSIS governance posture, but no single home."
+  - "tech_surface — only the AI-assisted value maps (→ K1 ai_assisted flag). The chain/substrate family (onchain / offchain / Ethereum / L2 / multi-chain) has no classification field; Layer 10 reasons about substrate structurally, not as a tag."
+  - "gathering (event / time-bound practice) — no first-class type; downgrades to core `practice`, losing the event distinction. Candidate extension regen-toolkit/gathering (maps_to_core: practice)."
+  - "story (narrative) — no first-class type; downgrades to core `case-study`, but case-study is 'what happened' only. The speculative / imagined / future-narrative sense (a core part of Heenal's `story`) has no home. Candidate extension regen-toolkit/story (maps_to_core: case-study)."
+  - "Heenal relationship predicates with no framework equivalent: practiced_in (Practice→Place), suggests (Pattern→Practice inverse), funded_by, serves_function, and an exact target for informs (nearest: explains/source_for). opposes survives only via a rename to contradicts."
+  - "Anchor divergences at the core downgrade: Heenal `framework` anchors to Concept, the framework extension anchors to pattern; Heenal `mechanism` is Pattern/Protocol dual, the framework collapses it to pattern (protocol/rules half dropped)."
+  - "INVERSE gaps (framework richer than Heenal — Heenal would need these to federate): `source-system` (the peer / return-path / anti-extraction primitive, Layer 3a) and `bioregion` as a first-class type are absent from Heenal's ontology (bioregion is only a place subtype there). See target_only_additions."
+  - "Related framework gaps surfaced by the June dogfooding reprocess (docs/reports/2026-06-17-content-through-framework-report.md, Loop 4) that touch typing/state — NOT ontology-mapping gaps per se but relevant to any adoption: (a) no first-class public_use_boundary FIELD on content schemas (attached only via the open frontmatter model); (b) held/review-queue rows have no typed lifecycle home (698 rows homeless); (c) standardize salvage/provenance (salvaged_from is ad-hoc); (d) track.outcome is scalar but real journeys carry an outcome ARRAY."
+
+summary:
+  heenal_core_types_total: 19        # NOT 21 — see COUNT NOTE (2 octo-mapping rows are translation_examples)
+  count_discrepancy_note: "Plan/task cite 21; regen-toolkit-entities.yaml core_entities lists 19 distinct types. The 21 counts the octo-mapping's 21 `regen_toolkit:` lines, 2 of which are translation_examples (Tool/Gardens, Mechanism/Quadratic Funding)."
+  # by fit quality
+  mapped_direct: 11        # direct → core:  concept, person, practice, pattern, protocol, playbook, case_study, question, claim, evidence, artifact
+  mapped_near: 4           # near   → core:  group, place, gathering, story
+  mapped_extension: 4      # → Layer B:      mechanism (direct), tool (direct), resource (direct), framework (near)
+  unmapped_types: 0        # every Heenal core type has a disposition (some via lossy downgrade — see gaps)
+  # by target layer (orthogonal view of the same 19)
+  types_to_core: 15        # concept person group place gathering practice pattern protocol playbook case_study story question claim evidence artifact
+  types_to_extension: 4    # mechanism tool framework resource
+  # classification (9 attribute-layers)
+  classification_total: 9
+  classification_mapped: 5      # domain (direct), function (direct), audience (near), maturity (near), tech_surface (partial/near)
+  classification_unmapped: 4    # scale, context, stage, forms_of_capital
+  # relationship groups (5)
+  relationship_groups_total: 5
+  relationship_groups_mapped: 4         # structural (direct), practice_and_design (near), discourse (near), operational (near/split)
+  relationship_groups_unmapped: 1       # capital_predicates
+  # framework has, Heenal lacks
+  target_only_additions:
+    core: [bioregion, source-system]     # promotions: bioregion (Heenal = place subtype only); source-system (absent entirely — the federation/return-path primitive)
+    extension_operational: [network, node, cell, partner-org, role, steward, contributor, option, track, deployment, implementation, flow, action, program, project, metric, signal, review-cycle, probe, issue, update-proposal, failure-mode, obligation, risk, public-use-boundary, standard, template]
+    note: "The ~26 Layer-B operational types encode the framework's coordination/deployment/review/evolution layers (L5-L10). Heenal's ontology is knowledge-typing-focused and does not model these operational objects — the framework is materially richer on the operational side, poorer on capital accounting."
+  disposition_completeness: "All 19 core types + all 9 attribute-layers + all 5 predicate groups have an explicit disposition. No silent omissions."

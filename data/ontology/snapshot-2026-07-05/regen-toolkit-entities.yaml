@@ -1,0 +1,154 @@
+schema_version: "1.0"
+source: "docs/projects/regen-toolkit/Web3 Toolkit.md (lines 6118-6648)"
+status: "v1 canonical — supersedes v2a/v2b variants pending design decision"
+
+# Regen Toolkit Ontology — Core Entity Types
+# CSIS-aligned, Octo-inspired. Every entity type resolves to an Octo base type for interop.
+# Rule: Everything must be (1) clearly typed, (2) clearly related, (3) clearly classified.
+
+core_entities:
+  - id: concept
+    name: "Concept"
+    definition: "A meaningful term or idea used to describe reality"
+    examples: [governance, decentralization, "public goods", antifragility]
+    octo_base: "Concept"
+
+  - id: person
+    name: "Person"
+    definition: "An individual human with agency, responsibility, and roles"
+    octo_base: "Person"
+
+  - id: group
+    name: "Group"
+    definition: "A collection of people acting together"
+    subtypes: [organization, team, network, community, "working group"]
+    octo_base: "Group"
+    csis_requirement: "must define decision + power structure"
+
+  - id: place
+    name: "Place"
+    definition: "A location represented for ecological, social, or operational purposes"
+    subtypes: [bioregion, city, territory, "local node", "digital space"]
+    octo_base: "Place / Bioregion"
+
+  - id: gathering
+    name: "Gathering"
+    definition: "A bounded event where people come together in time and place"
+    examples: [meeting, workshop, residency, conference]
+    octo_base: "Practice (time-bound)"
+
+  - id: practice
+    name: "Practice"
+    definition: "A repeated set of actions performed by a person or group"
+    examples:
+      - "weekly coordination calls"
+      - "retro sessions"
+      - "agroforestry planting cycles"
+      - "proposal review flows"
+    octo_base: "Practice"
+    csis_requirement: "must define actor, context, outcome"
+
+  - id: pattern
+    name: "Pattern"
+    definition: "A reusable abstraction derived from multiple practices"
+    examples: ["rotating facilitation", "delegated review", "progressive formalization"]
+    octo_base: "Pattern"
+    csis_requirement: "must define problem + abstraction"
+
+  - id: protocol
+    name: "Protocol"
+    definition: "A defined coordination procedure or rule system"
+    examples: ["proposal process", "governance protocol", "conflict escalation protocol"]
+    octo_base: "Protocol"
+    csis_requirement: "must define rules + authority"
+
+  - id: playbook
+    name: "Playbook"
+    definition: "A contextual guide for implementing a protocol or set of patterns"
+    examples: ["local chapter setup guide", "DAO governance playbook"]
+    octo_base: "Artifact"
+
+  - id: mechanism
+    name: "Mechanism"
+    definition: "A structured incentive or allocation system that shapes behavior"
+    examples: ["quadratic funding", "conviction voting", "retroPGF"]
+    octo_base: "Pattern / Protocol"
+    csis_requirement: "must define incentives + risks"
+    notes: "Dual nature — design + rules"
+
+  - id: tool
+    name: "Tool"
+    definition: "A system, platform, or instrument used in practice"
+    examples: [Gardens, Snapshot, Obsidian, EAS]
+    octo_base: "Artifact"
+    csis_requirement: "must define control + dependency"
+
+  - id: framework
+    name: "Framework"
+    definition: "A mental model or interpretive structure"
+    examples: [Cynefin, CSIS, "8 forms of capital", "viable system model"]
+    octo_base: "Concept"
+
+  - id: case_study
+    name: "Case Study"
+    definition: "A real-world implementation or documented example"
+    octo_base: "CaseStudy"
+
+  - id: story
+    name: "Story"
+    definition: "A narrative describing what happened, what may happen, or what is imagined"
+    octo_base: "CaseStudy / Artifact"
+
+  - id: question
+    name: "Question"
+    definition: "A clearly defined unknown that is valuable to explore"
+    octo_base: "Question"
+
+  - id: claim
+    name: "Claim"
+    definition: "An assertion or hypothesis"
+    octo_base: "Claim"
+
+  - id: evidence
+    name: "Evidence"
+    definition: "Data or observations that support or challenge a claim"
+    octo_base: "Evidence"
+
+  - id: artifact
+    name: "Artifact"
+    definition: "A tangible or digital object"
+    subtypes: [article, document, dataset, map, media, codebase]
+    octo_base: "Artifact"
+
+  - id: resource
+    name: "Resource"
+    definition: "Broad wrapper for natural, physical, immaterial, or digital resources"
+    warning: "Not a primary organizing type — use only when necessary"
+    octo_base: "Artifact / Place-bound entity"
+
+# Interoperable minimum — use only these for guaranteed cross-system compatibility
+safe_core:
+  - concept
+  - person
+  - group
+  - place
+  - practice
+  - pattern
+  - protocol
+  - case_study
+  - question
+  - claim
+  - evidence
+  - artifact
+
+csis_principles:
+  - id: clarity_over_volume
+    rule: "Only create a new entity type if it has distinct meaning, distinct relationships, and improves coordination clarity"
+  - id: distinguish_abstraction_levels
+    rule: "Clearly separate Concept (idea) / Pattern (abstraction) / Protocol (rules) / Playbook (implementation guide) / Practice (real-world action)"
+  - id: power_legibility
+    rule: "Ontology must make visible: who acts, who decides, who controls systems, how coordination actually occurs"
+  - id: support_disagreement
+    rule: "System must allow questions, competing claims, supporting and opposing evidence — avoid forced consensus"
+  - id: types_vs_tags
+    rule: "Do not confuse entity type (what something is) with classification (how it is categorized)"

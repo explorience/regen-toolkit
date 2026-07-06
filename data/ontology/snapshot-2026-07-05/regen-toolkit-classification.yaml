@@ -1,0 +1,66 @@
+schema_version: "1.0"
+source: "docs/projects/regen-toolkit/Web3 Toolkit.md (lines 6433-6551, 7136-7151)"
+
+# Regen Toolkit Ontology — Cross-Cutting Classification Layers
+# These are ATTRIBUTES applied to entities, NOT entity types.
+# All 9 are compatible with Octo; 8-forms-of-capital is a Regen Toolkit extension.
+
+classification_layers:
+  - id: domain
+    name: "Domain"
+    values: [ecological, social, economic, governance, technical, cultural, legal, educational]
+    octo_compatibility: compatible
+    superbenefit_compatibility: partial
+
+  - id: function
+    name: "Function"
+    values: [education, "setup guide", "operational guide", strategy, pattern, "case study", "risk management", coordination]
+    octo_compatibility: compatible
+    superbenefit_compatibility: strong
+
+  - id: audience
+    name: "Audience"
+    values: [individual, "local organizer", "community steward", "DAO operator", developer, nonprofit, researcher]
+    octo_compatibility: compatible
+    superbenefit_compatibility: strong
+
+  - id: maturity
+    name: "Maturity"
+    values: [seed, experimental, emerging, proven, canonical]
+    octo_compatibility: compatible
+    superbenefit_compatibility: partial
+
+  - id: scale
+    name: "Scale"
+    values: [individual, team, organization, network, bioregional, global]
+    octo_compatibility: compatible
+    superbenefit_compatibility: partial
+
+  - id: context
+    name: "Context"
+    values: [urban, rural, bioregional, online, hybrid, institutional, grassroots]
+    octo_compatibility: compatible
+    superbenefit_compatibility: partial
+
+  - id: tech_surface
+    name: "Tech Surface"
+    values: [offchain, onchain, hybrid, Ethereum, L2, multi-chain, AI-assisted]
+    octo_compatibility: compatible
+    superbenefit_compatibility: strong
+
+  - id: stage
+    name: "Stage"
+    values: [explore, learn, build, deploy, scale, sustain]
+    octo_compatibility: compatible
+    superbenefit_compatibility: strong
+
+  - id: forms_of_capital
+    name: "8 Forms of Capital"
+    values: [financial, social, cultural, intellectual, experiential, natural, built, spiritual]
+    octo_compatibility: extension
+    superbenefit_compatibility: not_native
+    usage:
+      - "creates_capital — what a system creates (e.g. Practice → Social, Natural)"
+      - "depends_on — what it depends on (e.g. Mechanism → Financial)"
+      - "impacts — what it impacts (e.g. Tool → Cultural)"
+    notes: "Not an entity type — a classification layer. Used as attributes on other entities."
