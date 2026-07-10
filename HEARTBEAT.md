@@ -12,6 +12,18 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 > **2026-06-16 checkpoint.** Gap-fill (260521 + 260604 biweeklies) processed; **new master doc 2026-06-15 working iteration** is canonical (30,847 lines — integration pass, 10-layer core stable; see [`docs/MASTER-DOC-CHANGES-2026-06-15.md`](docs/MASTER-DOC-CHANGES-2026-06-15.md)); **resource DB V3** staged at [`data/resources/`](data/resources/). **Convergence is parked behind an operator checkpoint** (site merge, branch cleanup, framework/instance split, full resource lift) — see ⏸ section below.
 
+### org-os KMS shipped + ontology comparison — DONE _(2026-07-05)_
+
+**`@org-os/kms` built + installed** — the org-os binding for the 0.2 "machine." Advances P9 (deploy→ReFi DAO) + the framework-as-package direction.
+
+- [x] **`@org-os/kms` module** — binds `@regen-commons/toolkit-framework` into org-os (module + profile). Full 6-piece module, **44 tests**, subagent-driven TDD + spec/quality review. `packages/org-os-kms/`. Design: [`docs/plans/2026-07-05-org-os-kms-design.md`](docs/plans/2026-07-05-org-os-kms-design.md); plan: [`...-implementation.md`](docs/plans/2026-07-05-org-os-kms-implementation.md).
+- [x] **Installed** — activated in regen-toolkit (`init` → `data/kb/` + self card); promoted both packages to **canonical org-os** (`v0.5`, pushed; framework 100/100 + kms 44/44 in place); registered in `packages-matrix.yaml`.
+- [x] **ReFi DAO pilot** — KMS `init` + Quartz-config-reconciled in refi-dao-os (left uncommitted — their repo). Runbook: [`docs/plans/2026-07-05-org-os-kms-per-instance-adoption.md`](docs/plans/2026-07-05-org-os-kms-per-instance-adoption.md).
+- [x] **Ontology comparison** (Heenal ↔ framework) — snapshot + crosswalk + comparison + report ([`docs/reports/2026-07-05-ontology-comparison.md`](docs/reports/2026-07-05-ontology-comparison.md)). **HYBRID adopted:** adopt framework backbone, contribute the **8 Forms of Capital** back to the kernel. 119 articles reprocess **1:1**.
+- [ ] **Process ReFi DAO's knowledge** through the framework (kickoff prompt ready) — blog first (207 articles): register-source → ingest → review → bridge → render → federate.
+- [ ] **Send the share-pack** (group + Matty) — [`docs/reports/2026-07-05-share-pack.md`](docs/reports/2026-07-05-share-pack.md); **carries the current arc** (updates the older "Send the 3 messages" item below).
+- [ ] **Capital → `update-proposal`** to `docs/MASTER.md` (with Matty); framework schema fixes (`track.outcome`→array, first-class `public_use_boundary`, held/review-queue state); curation calls (function collision, maturity/stage normalization, salvaged merge); run the 6 `b_candidates`.
+
 ### Convergence — IN PROGRESS _(2026-06-16)_
 
 Branch consolidation + site merge **done**. Now driven by the [**convergence pipeline**](docs/plans/CONVERGENCE-PIPELINE.md) (D1 + P1–P10).

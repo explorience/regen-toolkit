@@ -1,6 +1,8 @@
 # Plan Queue — Toolkit (instance plans)
 
-> Last updated: 2026-06-16
+> Last updated: 2026-07-05
+>
+> **2026-07-05 — org-os-kms built + installed; ontology comparison.** Built **`@org-os/kms`** (the org-os binding for the 0.2 framework — module + profile, 44 tests, subagent-driven TDD); installed in regen-toolkit + promoted to canonical org-os (`v0.5`) + a **ReFi DAO pilot** (`init` + Quartz config). Ran the **Heenal↔framework ontology comparison** → **HYBRID** (adopt the framework backbone; contribute the 8 Forms of Capital back to the kernel; 119 articles reprocess 1:1). This delivers a big chunk of **[site-and-content-convergence](site-and-content-convergence.md)** — the framework-typing + comparison half; the site-fork half is separate. New plans: `2026-07-05-org-os-kms-{design,implementation,per-instance-adoption}.md`, `2026-07-05-ontology-comparison-plan.md`. Report: `docs/reports/2026-07-05-ontology-comparison.md`.
 >
 > **2026-06-16 gap-fill + master-doc intake.** Processed the 260521 + 260604 biweeklies. **New master doc 2026-06-15 working iteration is canonical** (30,847 lines; integration pass, 10-layer core stable — [`MASTER-DOC-CHANGES-2026-06-15.md`](../MASTER-DOC-CHANGES-2026-06-15.md)). **Resource DB V3 staged** at [`data/resources/`](../../data/resources/). **Convergence parked behind an operator checkpoint** — site merge (overlay↔main v1, vault-snapshot first), full resource lift, branch cleanup, framework/instance split. New HEARTBEAT sections: Convergence (⏸), Master Doc 2026-06-15, Theory of Change, V1 Public Site, Resource DB V3, Greenpill/Andrea.
 >
