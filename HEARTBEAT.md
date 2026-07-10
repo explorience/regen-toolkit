@@ -39,8 +39,8 @@ Framework built + content processed + site forked (2 pages) + GAPS + master-doc 
 
 The share pack above was effectively presented at this biweekly. Direction ratified: **framework-as-package** (portable module → agents ingest resources → ontology-structured KB). Two **first ingestion test cases** are now real. Full note: [`packages/operations/meetings/260702 Regen Web3 Toolkit Planning Call.md`](packages/operations/meetings/260702%20Regen%20Web3%20Toolkit%20Planning%20Call.md). **Next checkpoint ~2 weeks (~2026-07-16).**
 
-- [ ] **Luiz — initial testable framework-package version (~2 weeks)** — ingest external resources → ontology-structured KB. **Design constraint (Durgadas): keep ingestion and storage separable.** (Feeds Framework Build → "★ Process toolkit content" below.)
-- [ ] **Luiz — verify the 2 site pages** (Toolkit Framework · Regen-Toolkit-OS) against the master doc (drafts not yet verified); iterate for clarity/usability
+- [x] **Luiz — initial testable framework-package version** ✅ _(2026-07-04)_ — **DONE + shipped early.** The 0.2.0 "machine": work-order ingestion pipeline → validated ontology-structured KB; **ingestion≠storage IS the architecture** (adapter seam: kb-folder/repo-data/geo-stub) per Durgadas. 100/100 tests; extracted to public repo [`luizfernandosg/toolkit-framework`](https://github.com/luizfernandosg/toolkit-framework); first real ingestion = the 07-02 call → 10 typed objects. Spec+plan: [`docs/plans/framework-build/2026-07-04-machine-*.md`](docs/plans/framework-build/).
+- [ ] **Luiz — verify the 2 site pages** against the **master doc** — pages **updated to reflect 0.2 the machine** _(2026-07-04, live)_ + frame-language-clean, but the master-doc verification pass is still owed.
 - [ ] **Luiz — request website publish permissions + a dev environment** from Afo (publish prototypes into detail pages; process resources → preview graph → publish)
 - [ ] **Luiz — test the framework on Koi's Gen Brasil Commons artifacts** (first real external case)
 - [ ] **Koi — send Luiz the Gen Brasil Commons artifacts** — 2 books + a 6-call **conflict-mediation protocol** (open-source publication); the first ingestion test
@@ -54,7 +54,11 @@ The share pack above was effectively presented at this biweekly. Direction ratif
 - [ ] **Luiz — invite Andrea** (ReFi Barcelona) to reprocess the ReFi BCN knowledge commons + her bioregional work (she's been away). *(Advances the Andrea/RegenOS thread below.)*
 - [ ] **Grants subgroup** — Durgadas + Afo both looking for work; **Super Benefit** methodology as reference (Durgadas to raise over the next couple weeks)
 
-### Framework Build — `packages/toolkit-framework` _(0.1.0-beta.1 — BUILT)_
+### Framework Build — `packages/toolkit-framework` _(0.2.0 — THE MACHINE, shipped 2026-07-04)_
+
+> **0.2.0 machine iteration DONE + merged + extracted** _(2026-07-04)_. The 0.1 skeleton became a functional ingestion machine: work-order pipeline (agents draft candidates → CLI accept gate → review queue → store), storage adapters (kb-folder/repo-data/geo-stub — ingestion≠storage), `init`/`federate` replication, 7 skills, first real ingestion (07-02 call → 10 objects). **100/100 tests**, merged to `regen-toolkit-os` (`a885d7f`), tagged `toolkit-framework-v0.2.0`, public repo [`luizfernandosg/toolkit-framework`](https://github.com/luizfernandosg/toolkit-framework). Spec+plan+log: [`docs/plans/framework-build/2026-07-04-machine-*.md`](docs/plans/framework-build/) · [`memory/2026-07-04.md`](memory/2026-07-04.md). The SP0–SP10 (0.1) history below is retained for provenance.
+
+
 
 Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0–SP11). The framework = a standalone, org-os-agnostic package (zero-build ESM + YAML + markdown) seeding a federated network of forkable-but-interoperable commons. Gap analysis + reconciliations: [`COVERAGE.md`](packages/toolkit-framework/docs/meta/COVERAGE.md) · [`RECONCILIATIONS.md`](packages/toolkit-framework/docs/meta/RECONCILIATIONS.md) · [`FEEDBACK-LOOPS.md`](packages/toolkit-framework/docs/meta/FEEDBACK-LOOPS.md).
 
@@ -66,8 +70,8 @@ Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0�
 - [x] **SP5** — 8 process docs (R6/R8/R10 ✅) · **SP6** — 3 agentic skills (capture-and-route, compose-journey, csis-review) · **SP7** — resource lift ETL · **SP8** — invariants validators · **SP9** — architecture + site docs (R4/R5 ✅)
 - [x] **SP10** — `packages/org-os-kms` (module + org-os profile, framework pre-loaded; replaceable)
 - [x] **✅ FRAMEWORK FULLY BUILT (SP0–SP10):** toolkit-framework **34/34 tests**, 21 schemas, 3 skills; org-os-kms 2/2. All R1–R10 resolved.
-- [ ] **★ Process toolkit content through the framework + public site** — plan ready: [`docs/plans/site-and-content-convergence.md`](docs/plans/site-and-content-convergence.md). Run Heenal's live v1 + other branches + the V3 DB through the framework → populate the instance `data/`; fork/extend Heenal's site with a **framework page** + a **regen-toolkit-os page** on `regen-toolkit-os`. **For a dedicated session.** (The first real adoption — SP11 rehearsal on the reference instance.)
-- [ ] **SP11 — first ReFi DAO adoption** (the dialectic / pipeline P9): instantiate the profile, process podcasts/blog, contribute back → framework v0.1. *After the reference-instance rehearsal above.*
+- [~] **★ Process toolkit content through the framework + public site** — site half DONE (framework + regen-toolkit-os pages live, now reflecting 0.2 the machine). **Week 1 next:** run Heenal's live content through the **0.2 ingestion pipeline** (`init --existing` → `ingest` → review) → populate the instance KB — the real self-ingestion, now that the machine exists.
+- [ ] **SP11 — first ReFi DAO adoption** (the dialectic / pipeline P9): `init` the framework into `../refi-dao-os` **from the public repo** (proves portability), process podcasts/blog through the pipeline, contribute back → framework v0.2.x. **org-os-kms → real module** developed against this adoption. *Week 1, after the reference-instance self-ingestion above.*
 - [ ] **Batch the R1–R10 master-doc proposals** for Matty (Loop 2 — draft-and-present) + confirm with Durgadas/Rather at the biweekly
 
 ### Master Doc 2026-06-15 Iteration _(NEW 2026-06-16)_
@@ -292,4 +296,4 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ---
 
-_Last updated: 2026-06-16_
+_Last updated: 2026-07-04 (framework 0.2.0 "machine" shipped + site pages updated + pushed)_
