@@ -1,4 +1,6 @@
 // src/util.mjs — dependency-free helpers shared across the package.
+import yaml from 'js-yaml';
+import { hashContent } from './workorder.mjs';
 
 /** Stable, file-safe slug from a title. */
 export function slugify(s) {
@@ -11,6 +13,15 @@ export function slugify(s) {
 /** The single definition of "awaiting review" — used by reviewQueue AND the derived index. */
 export function isAwaitingReview(object) {
   return object.maturity === 'raw' || object.maturity === 'held' || object.ai_assisted === true;
+}
+
+// Two stored objects are "the same object" (idempotent update) when their ids match,
+// or — lacking ids — when their content hashes match. Distinct objects that merely
+// share a title-slug are NOT the same object (the B5 data-loss surface: two different
+// contributions with the same title must never silently clobber one another).
+export function sameStoredObject(a, b) {
+  if (a && b && a.id != null && b.id != null) return a.id === b.id;
+  return hashContent(yaml.dump(a)) === hashContent(yaml.dump(b));
 }
 
 /**

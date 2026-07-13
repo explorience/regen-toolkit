@@ -11,9 +11,11 @@ import { getAdapter } from '../src/storage.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const SHIPPING = ['kb-folder', 'repo-data'];
+// id is a stable identity for the "same object, re-stored" contract test below
+// (B5 fix: a shared title-slug alone no longer implies "same object" — same id does).
 const entry = (title = 'Contract Fixture') => ({
   schema: 'source-system',
-  object: { title, type: 'wiki', steward: 'Suite', return_path: 'PRs', maturity: 'raw', ai_assisted: true },
+  object: { id: 'contract-fixture', title, type: 'wiki', steward: 'Suite', return_path: 'PRs', maturity: 'raw', ai_assisted: true },
 });
 
 for (const name of SHIPPING) {
@@ -24,7 +26,7 @@ for (const name of SHIPPING) {
 
     const { stored } = a.store(target, [entry()]);
     assert.equal(stored.length, 1);
-    // idempotent by slug: a re-store with a changed field overwrites in place
+    // idempotent by id: a re-store of the SAME object (same id) with a changed field overwrites in place
     a.store(target, [{ ...entry(), object: { ...entry().object, steward: 'Suite v2' } }]);
     assert.equal(a.list(target).length, 1);
     assert.equal(a.list(target)[0].object.steward, 'Suite v2');
@@ -123,6 +125,32 @@ test('[repo-data] update works when the target path itself contains "#"', () => 
   assert.equal(upd.ref, stored[0]);
   assert.equal(upd.object.maturity, 'plausible');
   assert.equal(a.list(target)[0].object.maturity, 'plausible');
+});
+
+// B5: distinct objects that merely share a title-slug must never clobber each
+// other in the registry — the newcomer gets a hash-suffixed key and the
+// collision is reported, not silently swallowed.
+test('[repo-data] B5: distinct objects with the same title-slug do not clobber', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-repo-data-b5-'));
+  const a = getAdapter('repo-data');
+  const objA = { title: 'Impact Vault', id: 'obj-a', body: 'first author' };
+  const objB = { title: 'Impact Vault', id: 'obj-b', body: 'second author' };
+  const res = a.store(target, [{ schema: 'resource', object: objA }, { schema: 'resource', object: objB }]);
+  const items = a.list(target).filter((i) => i.schema === 'resource');
+  assert.equal(items.length, 2, 'both distinct objects survive');
+  assert.deepEqual(items.map((i) => i.object.body).sort(), ['first author', 'second author']);
+  assert.equal(res.collisions.length, 1, 'the collision is reported, not silent');
+});
+
+test('[repo-data] idempotent: re-storing the same object (same id) stays one entry', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-repo-data-b5-idem-'));
+  const a = getAdapter('repo-data');
+  const objA = { title: 'Impact Vault', id: 'obj-a', body: 'v1' };
+  a.store(target, [{ schema: 'resource', object: objA }]);
+  a.store(target, [{ schema: 'resource', object: { ...objA, body: 'v2' } }]);
+  const items = a.list(target).filter((i) => i.schema === 'resource');
+  assert.equal(items.length, 1, 'same id overwrites in place');
+  assert.equal(items[0].object.body, 'v2');
 });
 
 // geo is a registered, documented STUB — the seam Rather's Geo Protocol SDK fills.

@@ -67,3 +67,26 @@ test('kb-folder stores, lists, updates, indexes — atomic, idempotent, derived 
   assert.ok(existsSync(indexPath) && existsSync(contextPath));
   assert.ok(JSON.parse(readFileSync(contextPath, 'utf8'))['@context']);
 });
+
+test('B5: distinct objects with the same title-slug do not clobber', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-kb-b5-'));
+  const adapter = getAdapter('kb-folder');
+  const a = { title: 'Impact Vault', id: 'obj-a', body: 'first author' };
+  const b = { title: 'Impact Vault', id: 'obj-b', body: 'second author' };
+  const res = adapter.store(target, [{ schema: 'resource', object: a }, { schema: 'resource', object: b }]);
+  const items = adapter.list(target).filter((i) => i.schema === 'resource');
+  assert.equal(items.length, 2, 'both distinct objects survive');
+  assert.deepEqual(items.map((i) => i.object.body).sort(), ['first author', 'second author']);
+  assert.equal(res.collisions.length, 1, 'the collision is reported, not silent');
+});
+
+test('idempotent: re-storing the same object (same id) stays one file', () => {
+  const target = mkdtempSync(join(tmpdir(), 'tf-kb-b5-idem-'));
+  const adapter = getAdapter('kb-folder');
+  const a = { title: 'Impact Vault', id: 'obj-a', body: 'v1' };
+  adapter.store(target, [{ schema: 'resource', object: a }]);
+  adapter.store(target, [{ schema: 'resource', object: { ...a, body: 'v2' } }]);
+  const items = adapter.list(target).filter((i) => i.schema === 'resource');
+  assert.equal(items.length, 1, 'same id overwrites in place');
+  assert.equal(items[0].object.body, 'v2');
+});

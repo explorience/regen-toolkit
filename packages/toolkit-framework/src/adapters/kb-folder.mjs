@@ -2,9 +2,9 @@
 // (objects/ + derived index.json + context.jsonld). Repo-agnostic, syncable,
 // graph-exportable. An adopter can point an ingestion at a bare directory.
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, renameSync, statSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { join, dirname, basename } from 'node:path';
 import yaml from 'js-yaml';
-import { slugify, deriveIndex } from '../util.mjs';
+import { slugify, deriveIndex, sameStoredObject } from '../util.mjs';
 import { toJsonLdContext } from '../index.mjs';
 import { hashContent } from '../workorder.mjs';
 
@@ -30,12 +30,24 @@ export const kbFolderAdapter = {
 
   store(target, entries) {
     const stored = [];
+    const collisions = [];
     for (const { schema, object } of entries) {
-      const p = objectPath(target, schema, object);
+      let p = objectPath(target, schema, object);
+      if (existsSync(p)) {
+        const existing = yaml.load(readFileSync(p, 'utf8'));
+        if (!sameStoredObject(existing, object)) {
+          // Same title-slug, different object (B5): never clobber — write the
+          // newcomer to a hash-suffixed key and report the collision.
+          const suffix = hashContent(yaml.dump(object)).slice(0, 8);
+          const base = basename(p, '.yaml');
+          p = join(dirname(p), `${base}-${suffix}.yaml`);
+          collisions.push({ schema, slug: base, wroteTo: p });
+        }
+      }
       atomicWrite(p, yaml.dump(object));
       stored.push(p);
     }
-    return { stored };
+    return { stored, collisions };
   },
 
   list(target) {
