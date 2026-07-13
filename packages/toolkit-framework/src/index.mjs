@@ -76,6 +76,9 @@ export function validateObject(schemaName, obj) {
     if (!def) continue; // unknown fields permitted (open model)
     if (def.enum && !def.enum.includes(v)) errors.push(`invalid value for "${k}": ${JSON.stringify(v)}`);
     if (def.axis && !isValid(def.axis, v)) errors.push(`invalid ${def.axis} for "${k}": ${JSON.stringify(v)}`);
+    if (def.type === 'array' && v !== undefined && !Array.isArray(v)) {
+      errors.push(`${k} must be an array`);
+    }
   }
   return { valid: errors.length === 0, errors };
 }

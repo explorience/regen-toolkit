@@ -72,3 +72,14 @@ test('source-system accepts type: publication', () => {
   const r = validateObject('source-system', { ...goodSource, type: 'publication' });
   assert.equal(r.valid, true, r.errors.join('; '));
 });
+
+test('track.outcome accepts an array', () => {
+  const obj = { title: 'T', type: 'journey', audience: 'newcomers', outcome: ['understands DAOs', 'has a wallet'] };
+  const r = validateObject('track', obj);
+  assert.equal(r.valid, true, r.errors.join('; '));
+});
+test('a field declared type: array rejects a scalar', () => {
+  const obj = { title: 'T', type: 'journey', audience: 'newcomers', outcome: 'a single string' };
+  const r = validateObject('track', obj);
+  assert.ok(r.errors.some((e) => /outcome/.test(e) && /array/.test(e)), `expected an array error, got: ${JSON.stringify(r.errors)}`);
+});

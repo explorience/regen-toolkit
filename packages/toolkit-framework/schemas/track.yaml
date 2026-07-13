@@ -9,7 +9,7 @@ required: [title, type, audience]
 fields:
   audience: { type: string }
   starting_context: { type: string }
-  outcome: { type: string }
+  outcome: { type: array }
   concepts: { type: array }
   options: { type: array }              # option ids -> compatibility checked
   deployment_checks: { type: array }
