@@ -1,0 +1,37 @@
+schema: claim-evidence
+object:
+  title: >-
+    Grassroots Economics' Sarafu network scaled from vouchers, not a token
+    launch
+  type: claim-evidence
+  claim: >-
+    Grassroots Economics (the Kenyan nonprofit behind the Sarafu network) did
+    not launch with a token economy — Sarafu began as community members issuing
+    simple vouchers, and only migrated onto the Celo blockchain after the model
+    had proven itself on the ground. The network now supports tens of thousands
+    of small businesses across Kenya, Cameroon, and South Africa; in a 2025
+    survey of active users, 95% said the network is important or very important
+    to their household economy.
+  evidence: >-
+    Cited in the article's References to "Grassroots Economics, Sarafu Network"
+    (https://www.grassrootseconomics.org/sarafu-network), "Why Celo"
+    (https://www.grassrootseconomics.org/celo-ge), and "2025 Sarafu Network
+    Study Results"
+    (https://grassecon.substack.com/p/2025-sarafu-network-study-results).
+  source_lineage: src/content/docs/minimum-viable-node.md
+  interpretation: >-
+    Used in the article as the concrete real-world example of "earning your way
+    onto a blockchain" — the technology as an upgrade to a working community
+    practice, never a substitute for it.
+  uncertainty: >-
+    Figures (survey percentage, business counts, country coverage) as reported
+    in Grassroots Economics' own materials; not independently re-verified for
+    this ingestion.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-810346fad236

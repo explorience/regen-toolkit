@@ -1,0 +1,29 @@
+schema: concept-lineage
+object:
+  title: Pig butchering (romance scam)
+  type: concept-lineage
+  short_description: >-
+    A long-con scam that builds a genuine-feeling romantic or personal
+    relationship before introducing a crypto "opportunity" — the name refers
+    to "fattening up" a victim with affection and small wins before draining
+    their funds.
+  source_traditions:
+    - romance-scam fraud pattern, adapted to crypto investment fraud
+  toolkit_usage: >-
+    Presented per Chainalysis research as among the most financially
+    damaging scam categories; article gives a behavioral pattern (dating-app
+    or "wrong number" contact, weeks of warm conversation, fake trading app,
+    pressure to reinvest, then silence) and defenses (video call test, treat
+    romance+investing overlap as a red flag).
+  adjacent_meanings:
+    - investment-scam
+  risks_of_flattening: >-
+    Article's defenses (ask for a video call, watch for a romance/investing
+    overlap) don't address increasingly convincing AI-generated video/voice,
+    which the article itself flags as an emerging gap.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-scams.md
+    transformation: summarized
+    authorship: ai-assisted

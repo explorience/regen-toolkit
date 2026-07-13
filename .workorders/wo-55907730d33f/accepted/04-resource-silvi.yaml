@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Silvi
+  type: resource
+  url: https://www.silvi.earth/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - regenerative-finance-refi
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Tree-stewardship platform where planters log each tree with GPS coordinates
+    and a photo, making the claim independently checkable rather than taken on
+    trust. Per the article, as of 2026 in open beta with 500+ planters across
+    dozens of countries.
+  work_order: wo-55907730d33f
+  source_lineage: what-is-refi.md

@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: "Taxonomy first, ontology later — the strong default for small-team commons"
+  type: claim-evidence
+  claim: >-
+    "For a team your size, the strong default is: ship a SKOS taxonomy now,
+    and only reach for an ontology when a specific, recurring task can't be
+    done by hand." Ask one question to decide: does anything need to reason
+    over your relationships, or do humans just need to find things?
+  evidence: >-
+    Cited to SGKG's framing (taxonomy-as-classification vs. ontology-as-
+    relationships, and how they layer) and Hedden Information Management's
+    breakdown of the SKOS/OWL standards landscape; illustrated with Wikipedia's
+    category system and Schema.org as taxonomy-scale examples vs. Wikidata as
+    an ontology-scale example.
+  source_lineage: src/content/docs/ontology-vs-taxonomy.md ([SGKG], [HEDDEN], [SCHEMA], [WIKIDATA] references)
+  interpretation: >-
+    A practical decision heuristic for the Regen Toolkit's own Layer 1
+    (Ontology & Semantic Kernel) posture, which the article explicitly quotes:
+    "not to create a perfect ontology before use" but enough shared meaning
+    to avoid silently incompatible categories.
+  uncertainty: >-
+    This is editorial guidance from a knowledge-site article, not a
+    peer-reviewed study — reasonable as a heuristic, not a proven rule for
+    every commons.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ontology-vs-taxonomy.md
+    transformation: summarized
+    authorship: ai-assisted

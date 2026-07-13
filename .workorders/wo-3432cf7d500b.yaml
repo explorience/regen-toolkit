@@ -1,0 +1,29 @@
+id: wo-3432cf7d500b
+title: ingest gatherings-pattern.md
+type: work-order
+source_path: gatherings-pattern.md
+source_hash: 467a4fe817ca4ad87f45c474b5aca3347b3f21332e76fc1fcd25a13c37ade3a6
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-B
+produced:
+  - data/kb/encyclopedia-entry.yaml#the-gatherings-pattern
+  - >-
+    data/kb/concept-lineage.yaml#purpose-people-place-process-practice-5p-gathering-framework
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-cultural-indigenous-attribution-in-the-5p-gathering-framework-gatherings-pattern-md
+  - >-
+    data/kb/claim-evidence.yaml#priya-parker-on-structure-and-hosting-spirit-in-gatherings
+  - data/kb/resource.yaml#the-art-of-gathering
+  - data/kb/resource.yaml#liberating-structures

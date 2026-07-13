@@ -1,0 +1,40 @@
+schema: claim-evidence
+object:
+  title: ActivityPub/Mastodon federates followers but not post content (as of 2025)
+  type: claim-evidence
+  claim: >-
+    Mastodon's account-migration `Move` activity carries a user's followers
+    (and, via exported CSV, their follows) to a new server, but as of 2025 the
+    actual posts do not move automatically; true content portability is still
+    being specified via the W3C Social Web Community Group's data-portability
+    draft and the LOLA proposal.
+  evidence: >-
+    Cited to Mastodon's own migration documentation and the W3C SWICG
+    data-portability draft.
+  source_lineage: >-
+    https://docs.joinmastodon.org/user/moving/ ;
+    https://swicg.github.io/activitypub-data-portability/
+  interpretation: >-
+    Used as the article's "honest caveat" example — showing that even a working,
+    widely-adopted federation protocol (ActivityPub) has an incomplete
+    portability story, to temper expectations that adopting a protocol instantly
+    solves portability too.
+  uncertainty: >-
+    Standards work (W3C SWICG draft, LOLA) is explicitly in-progress and may
+    have moved since the article's writing; status should be re-checked before
+    being cited as current.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: |
+    # assessed-but-excluded
+    - "The Order That Saves You" 4-step sequence and the "Try This" prompts —
+      operational/coaching guidance, not distinct knowledge objects; captured
+      at summary level in the encyclopedia-entry instead of split out.
+    - Xebia blog post (Markdown+Git case for docs) — a one-off supporting
+      citation, not a living knowledge environment the toolkit will keep
+      drawing from; not registered as its own source-system.
+  work_order: wo-4e11e89a5db3

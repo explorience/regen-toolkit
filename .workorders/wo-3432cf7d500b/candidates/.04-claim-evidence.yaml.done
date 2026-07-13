@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: Priya Parker on structure and hosting spirit in gatherings
+  type: claim-evidence
+  claim: >-
+    "Gatherings crackle and flourish when real thought goes into them, when
+    (often invisible) structure is baked into them, and when a host has the
+    curiosity, willingness, and generosity of spirit to try."
+  evidence: >-
+    Direct quotation attributed to Priya Parker, "The Art of Gathering: How
+    We Meet and Why It Matters" (Riverhead Books, 2018), as cited in the
+    article's References.
+  source_lineage: src/content/docs/gatherings-pattern.md
+  interpretation: >-
+    Used in the article as the founding rationale for treating gatherings as
+    an intentional design challenge rather than a default "find a venue, post
+    an invite" script.
+  uncertainty: >-
+    Quote reproduced as given in the article; page/edition location within
+    the book was not independently verified for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gatherings-pattern.md
+    transformation: quoted
+    authorship: ai-assisted

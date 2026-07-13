@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Aave (lending protocol)
+  type: resource
+  url: https://aave.com/
+  resource_type: protocol
+  link_status: active
+  notes: >-
+    Cited twice in treasury-management.md — as a DeFi lending market where
+    stablecoin holdings can be lent for yield, and as the example of a
+    "reserve factor" mechanism where a portion of borrower interest flows
+    directly to a protocol's ecosystem treasury as stablecoins (no token
+    sales required). Also cited as a protocol DAOs can deposit native tokens
+    into to borrow stablecoins without selling.
+  related_concepts:
+    - dao-treasury-diversification
+  original_source: src/content/docs/treasury-management.md
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted

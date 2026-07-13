@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: DAO treasury diversification
+  type: concept-lineage
+  short_description: >-
+    Holding a DAO's treasury across multiple asset types — especially
+    stablecoins (USDC, DAI) alongside the native governance token — rather
+    than concentrating value in one volatile, illiquid asset, in order to
+    maintain operational continuity through market cycles.
+  source_traditions:
+    - "traditional corporate/nonprofit treasury and reserve-fund management"
+    - "DeFi lending and market-making mechanisms (Aave, Gnosis Auction, OTC desks)"
+  toolkit_usage: >-
+    Practical heuristic given: maintain 2-3 years of operating expenses in
+    stablecoins as a survival buffer; diversify via organic stablecoin
+    revenue, strategic token sales (OTC, batch auctions, bonding curves),
+    strategic partnerships (discounted token swaps with lock-ups), or
+    borrowing against native tokens.
+  adjacent_meanings:
+    - "portfolio diversification (traditional finance) — same risk-reduction logic applied to a DAO's own governance token"
+  important_distinctions:
+    - "treasury size (paper wealth in governance tokens) vs. treasury liquidity (actual spendable/stable value) — the article's central paradox"
+    - "diversification method choice (revenue vs. sale vs. partnership vs. borrowing) carries different risk/governance trade-offs, not interchangeable tactics"
+  tensions:
+    - "diversifying by selling native tokens can itself crash the token's price (the liquidity problem it's trying to solve)"
+    - "borrowing against tokens avoids sales but introduces liquidation risk if token prices drop"
+  risks_of_flattening: >-
+    Treating "diversify into stablecoins" as a universal prescription without
+    weighing a specific DAO's values, risk tolerance, and governance
+    structure — the article frames treasury management as inseparable from
+    governance (who holds power), not a purely technical finance decision.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted

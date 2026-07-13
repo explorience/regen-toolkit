@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: "SKOS — Simple Knowledge Organization System (W3C)"
+  type: resource
+  url: https://www.w3.org/2004/02/skos/
+  resource_type: standard
+  link_status: active
+  notes: >-
+    W3C standard (published 18 August 2009) for representing taxonomies,
+    thesauri, and controlled vocabularies as linked data — prefLabel,
+    altLabel, broader, narrower, related. Cited in ontology-vs-taxonomy.md as
+    the recommended bridge: build a taxonomy in SKOS now, keep the door open
+    to RDF/RDFS/OWL ontology work later without redoing it.
+  related_concepts:
+    - taxonomy
+    - ontology
+  original_source: src/content/docs/ontology-vs-taxonomy.md ([SKOS] reference)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ontology-vs-taxonomy.md
+    transformation: summarized
+    authorship: ai-assisted

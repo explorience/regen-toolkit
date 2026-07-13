@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: Source system
+  type: concept-lineage
+  short_description: >-
+    A living knowledge environment (wiki, repo, research database, forum,
+    digital garden) — not a single document or a static link — that has a
+    steward, receives ongoing additions, and offers a return path to credit
+    and trace material back to its origin.
+  source_traditions:
+    - digital-garden practice (Maggie Appleton)
+    - commons governance (Elinor Ostrom's design principles)
+    - open-source repo/maintainer conventions
+  toolkit_usage: >-
+    The Regen Knowledge Commons Toolkit's Resource Graph layer is explicitly
+    framed as "not a link list" but the place the rest of the toolkit stays
+    grounded in reality; the three-question test (Who tends this? Is new
+    material still added? Can I trace and credit it?) determines whether a
+    dependency is a source system or a rotting link.
+  adjacent_meanings:
+    - "link list / resources page (a flat, unowned, unmaintained set of URLs — explicitly NOT a source system)"
+    - "Resource Graph vs. Ecosystem Atlas (storage-with-lineage vs. the interpretive lens layered on top of it)"
+  important_distinctions:
+    - "a source system has three required properties: steward, ongoing additions, return path to credit — a source lacking any one of these is a link, not a system"
+    - "inclusion does not mean endorsement — adding a source system as a reference is not the project vouching for its content"
+  tensions:
+    - "openness to add broadly vs. the discipline of marking maturity honestly so raw inclusions don't silently become 'true'"
+  risks_of_flattening: >-
+    Treating any URL you cite as a "source system" without a steward or
+    return path — this collapses the distinction the whole concept exists to
+    preserve, and lets link rot back in under a new name.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted

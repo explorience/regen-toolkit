@@ -1,0 +1,41 @@
+schema: encyclopedia-entry
+object:
+  title: Gitcoin Grants and Quadratic Funding
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    How quadratic funding distributes a matching pool by counting contributor
+    count rather than dollar totals (sum-the-square-roots-then-square
+    formula), illustrated with a real regen QF round (GG24's Bioregional
+    Reforestation Round), the sybil-defense mechanisms rounds use (Human
+    Passport proof-of-personhood, Connection-Oriented Cluster Matching), a
+    walkthrough for running your own round on Grants Stack, and burnout
+    guardrails for first-time round organizers.
+  audience: local node organizers considering running or joining a QF round
+  known_tensions:
+    - >-
+      Live "estimated match" figures move after a round closes as Passport
+      eligibility and COCM corrections are applied — organizers are warned
+      not to promise applicants an exact payout in advance.
+    - >-
+      QF amplifies an existing community; it does not conjure one — a round
+      run before relationships exist will underperform regardless of
+      mechanism design.
+  related_concepts:
+    - quadratic-funding-formula
+  related_resources:
+    - grants-stack
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gitcoin-grants-qf.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-55b29771dc58, gitcoin-grants-qf.md):
+# - The step-by-step Grants Stack setup flow (six numbered steps) — folded
+#   into the "grants-stack" resource note rather than modeled as its own
+#   procedural object; no schema in list-schemas fits a step-by-step
+#   procedure better than a resource note at this maturity.
+# - "Try This" beginner/intermediate/advanced exercise prompts — reader
+#   action items, not extractable knowledge-graph content.

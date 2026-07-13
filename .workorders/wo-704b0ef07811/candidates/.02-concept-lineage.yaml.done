@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: Quadratic Funding (QF)
+  type: concept-lineage
+  short_description: >-
+    Crowdfunding with a matching pool, where the match grows with the number
+    of distinct backers rather than the dollar amount they give — "a vote you
+    cast with a small donation."
+  source_traditions:
+    - >-
+      Constrained Liberal Radicalism algorithm — "Liberal Radicalism," a 2018
+      paper by Vitalik Buterin, Zoë Hitzig, and E. Glen Weyl
+  toolkit_usage: >-
+    Presented as the prospective-funding mechanism a local node is most
+    likely to use before it has a track record; Gitcoin Grants and Giveth run
+    the largest QF rounds. Framed as a turnout exercise for organizers, not a
+    grant application — outcomes are mostly decided by contributor-list size
+    before a round even opens.
+  adjacent_meanings:
+    - direct grants (application-based, no matching-pool mechanics)
+    - streaming QF (Gitcoin/Geo Web via Superfluid — real-time flow-rate matching)
+    - conviction voting (1Hive — continuous token-weighted staking, no round cadence)
+  important_distinctions:
+    - >-
+      QF is prospective (pays before the work), distinct from retroactive
+      funding (RetroPGF/Retro Funding) and hypercerts, which pay after impact
+      is shown.
+  tensions:
+    - >-
+      Breadth-of-participation design goal vs. Sybil attacks (fake identities)
+      and collusion (coordinated real users) — the article's stated "pitfall
+      you most need to hear."
+  risks_of_flattening: >-
+    Treating a QF round as free money rather than what the article insists it
+    is: a turnout mechanism that rewards community-building work done long
+    before the round opens.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-landscape.md
+    transformation: summarized
+    authorship: ai-assisted

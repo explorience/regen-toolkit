@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Snapshot (snapshot.org)
+  type: resource
+  url: https://snapshot.org
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - decentralization
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-decentralization.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Gasless DAO voting tool described in the article as, as of early 2026, the
+    most widely used voting tool in the space; votes are signed from each
+    member's wallet and stored publicly. Article's "Go deeper" exercise points
+    readers to browse a live DAO's votes there.
+  work_order: wo-0f39787ee74e
+  source_lineage: what-is-decentralization.md

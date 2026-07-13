@@ -1,0 +1,33 @@
+schema: concept-lineage
+object:
+  title: Local node (ReFi)
+  type: concept-lineage
+  short_description: >-
+    A place-based community that meets regularly to learn and apply
+    regenerative-finance tools on the ground, rooted in a specific town or city
+    with a long-term commitment to regeneration.
+  source_traditions:
+    - ReFi DAO local-node network
+  toolkit_usage: >-
+    The organizing unit for the whole 90-day playbook; ReFi DAO is cited as
+    coordinating the largest network of these nodes (100+ events across 58
+    cities).
+  adjacent_meanings:
+    - local-node-incubator
+    - regen-coordination-hub
+  important_distinctions:
+    - >-
+      local-node-vs-product-launch — the article stresses a node is a
+      relationship that starts with people, not a treasury or token launch
+  risks_of_flattening: >-
+    Treating "local node" as a template to copy-paste (fixed structure, fixed
+    timeline) rather than a relationship-first process that varies by city and
+    community.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e009425cced2
+  source_lineage: first-90-days.md

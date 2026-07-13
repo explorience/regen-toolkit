@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: Quadratic funding formula and the breadth-over-wealth design goal
+  type: concept-lineage
+  short_description: >-
+    For each project, take the square root of every individual donation, sum
+    those roots, then square the total — that squared number is the project's
+    share of a shared matching pool. The design goal: the number of distinct
+    backers matters more than the size of any single donation.
+  source_traditions:
+    - >-
+      "Liberal Radicalism: A Flexible Design for Philanthropic Matching Funds,"
+      a 2018 paper by Vitalik Buterin, Zoë Hitzig, and Glen Weyl
+  toolkit_usage: >-
+    Walked through with a worked example in the article (100 people giving $1
+    each outweighs one person giving $100, 10,000 vs. 100 matching weight) to
+    make the "breadth beats whales" design goal concrete for organizers deciding
+    whether to run a round.
+  adjacent_meanings:
+    - >-
+      Deep Funding, MACI private voting, Conviction Voting, Retroactive Funding,
+      and peer-reviewed Hypercerts — the five other mechanisms GG24 ran
+      alongside QF in the same cycle, per the article's "plural toolkit"
+      framing.
+  important_distinctions:
+    - >-
+      Democratic communities systematically underfund shared goods because no
+      single person captures the full benefit — QF is designed to correct for
+      that specific market failure, not to replace grants generally.
+  tensions:
+    - >-
+      Rewarding breadth of support vs. vulnerability to sybil attacks (one
+      person spinning up many wallets to fake a crowd).
+  risks_of_flattening: >-
+    Reducing QF to "more donors equals more match" without the sybil-defense
+    caveats (proof of personhood, cluster-matching corrections) that make a
+    round's match trustworthy in practice.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gitcoin-grants-qf.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-55b29771dc58
+  source_lineage: gitcoin-grants-qf.md

@@ -1,0 +1,31 @@
+schema: public-use-boundary
+object:
+  title: Boundary — Regen Coordination 2024 funding-distribution figures
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the claim-evidence entry "Regen Coordination distributed $236,000+ to
+    communities across 2024" (same work order). The underlying figures are from
+    a public ReFi DAO blog wrap-up, but funding-distribution data is treated as
+    high-risk by default per framework policy; verify figures against the source
+    post before reusing them in external comms or grant reporting.
+  review_type: steward-review-before-external-comms-use
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: synthesized
+    authorship: ai-assisted
+  notes: |
+    # assessed-but-excluded
+    - Named-individual quote from Tereza Bízková (ReFi Medellín co-founder) —
+      kept as attributed quoted text inside the track/claim-evidence/
+      encyclopedia-entry fields (she is already a public, named source in a
+      published interview); no standalone public person-node created.
+    - "Try This" action prompts — coaching/exercise content, not extracted as
+      a separate knowledge object.
+    - Liberating Structures (specific facilitation formats like 1-2-4-All,
+      Troika Consulting) — considered for its own concept-lineage entry but
+      folded into the track's `concepts` list instead, since the article
+      treats it as a supporting method rather than a concept central to this
+      source the way local-node and quadratic-funding are.
+  work_order: wo-e009425cced2
+  source_lineage: first-90-days.md

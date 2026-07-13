@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: "Verra banned tokenizing already-retired carbon credits (2023)"
+  type: claim-evidence
+  claim: >-
+    In 2023 the standards body Verra banned converting already-retired
+    carbon credits into tokens, after critics showed many tokenized credits
+    were tied to old, low-quality projects that weren't genuinely helping
+    the climate; the industry is now working toward an "immobilize, don't
+    double-count" approach instead.
+  evidence: >-
+    Stated in the source article as historical/regulatory context for
+    Toucan and the broader carbon-tokenization space; article links to
+    Toucan's own blog response to Verra's announcement as a reference.
+  source_lineage: src/content/docs/what-is-refi.md
+  interpretation: >-
+    Article uses this as its central "honest part" — the concrete
+    greenwashing cautionary example backing its claim that "tokenizing
+    something does not automatically make it good."
+  uncertainty: >-
+    Presented from the source article's summary and Toucan's own
+    response-to-Verra post (one interested party's framing); the underlying
+    Verra policy text and independent reporting on the episode were not
+    reviewed directly here.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted

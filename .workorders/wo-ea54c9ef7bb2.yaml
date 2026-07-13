@@ -1,0 +1,31 @@
+id: wo-ea54c9ef7bb2
+title: ingest review-and-maturity.md
+type: work-order
+source_path: review-and-maturity.md
+source_hash: 332ebd50479dc524478f101f9f4ffb32952372675019efc16fc9e4750c942bdb
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-C
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#review-and-maturity-labelling-what-your-knowledge-can-be-trusted-to-do
+  - >-
+    data/kb/concept-lineage.yaml#review-maturity-ladder-four-rung-draft-reviewed-maintained-deprecated
+  - data/kb/concept-lineage.yaml#bus-factor
+  - data/kb/resource.yaml#madr-markdown-architectural-decision-records
+  - data/kb/resource.yaml#diataxis-documentation-framework
+  - >-
+    data/kb/claim-evidence.yaml#polished-writing-is-not-automatically-reviewed-knowledge
+  - >-
+    data/kb/signal.yaml#reviewed-pages-silently-rot-silent-drift-maturity-needs-an-expiry-mechanism

@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: "Treasury Management for DAOs"
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    Practical guide to DAO treasury management: the "native token problem"
+    (thin liquidity, extreme volatility, broken operational continuity when
+    a treasury holds mostly its own governance token), the case for holding
+    2-3 years of operating expenses in stablecoins, four diversification
+    methods (earning stablecoin revenue, strategic token sales, strategic
+    partnerships, borrowing against tokens), and Maya Protocol as a
+    transitioning-to-DAO-governance example.
+  audience: "🌱 Maya (beginner track, DAO governance/finance foundations)"
+  known_tensions:
+    - "diversification improves resilience but strategic token sales and borrowing both carry market-impact / liquidation risk"
+    - "treasury management choices are framed as governance choices (who holds power), not purely financial ones"
+  related_concepts:
+    - dao-treasury-diversification
+    - native-token-concentration-risk
+  related_resources:
+    - Maya Protocol
+    - Aave
+    - Gnosis Auction
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+# - No 8-forms-of-capital framing appears anywhere in this article — it is
+#   purely financial/crypto-treasury content (stablecoins, tokens, lending
+#   protocols). No capital-forms claim-evidence/signal objects were created
+#   since there is no such language to capture faithfully.
+# - Wintermute, UMA Protocol "success tokens", Compound, Element, Yield:
+#   named only in passing as one-line examples of OTC/borrowing mechanisms —
+#   not given standalone resource objects to avoid inflating minor mentions
+#   into first-class entries; noted here for traceability instead.
+# - The article itself carries `sources: []` in its own frontmatter despite
+#   citing precise figures ($15B, $748M, 95% slippage) — flagged separately
+#   as a signal (03-signal.yaml) rather than silently treated as verified fact.

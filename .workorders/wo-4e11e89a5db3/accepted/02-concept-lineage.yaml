@@ -1,0 +1,36 @@
+schema: concept-lineage
+object:
+  title: Portability (knowledge commons)
+  type: concept-lineage
+  short_description: >-
+    The property that knowledge can move between tools, people, and
+    organizations without rotting on the way — i.e., without depending on one
+    vendor's proprietary format to remain readable.
+  source_traditions:
+    - plain-text/local-first software advocacy
+    - version-control (Git) culture
+  toolkit_usage: >-
+    The article's recommended floor for the Regen Knowledge Commons Toolkit
+    itself: canonical content in Markdown tracked in Git, with structural
+    metadata (title, tags, audience, source lineage) kept in YAML frontmatter
+    rather than an app's hidden database.
+  adjacent_meanings:
+    - federation
+    - vendor-lock-in
+  important_distinctions:
+    - >-
+      portability-vs-federation — portability is about YOUR commons moving
+      freely; federation is about connecting to OTHER people's commons without
+      merging
+  risks_of_flattening: >-
+    Treating "plain text" alone as sufficient for portability ignores that
+    structure (frontmatter/metadata schema) must also travel with the content,
+    or the exported files become an unstructured pile.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-4e11e89a5db3
+  source_lineage: federation-portability.md

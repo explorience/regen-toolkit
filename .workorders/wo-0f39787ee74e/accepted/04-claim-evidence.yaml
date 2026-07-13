@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Decentralization is a spectrum, not a binary switch
+  type: claim-evidence
+  claim: >-
+    Almost nothing is fully decentralized, and that's fine — most real-world
+    systems (crypto and non-crypto) sit somewhere on a spectrum rather than
+    being purely centralized or purely decentralized.
+  evidence: >-
+    Article's own examples: a community garden may have a small steering group
+    handling the calendar/bank account while every gardener decides freely what
+    to grow in their plot; a crypto project may keep a fully open, tamper-proof
+    public ledger while day-to-day decisions still flow through a handful of
+    founders. Both are presented as normal hybrids, not failures.
+  source_lineage: src/content/docs/what-is-decentralization.md
+  interpretation: >-
+    Reframes the useful diagnostic question away from "is this decentralized,
+    yes or no?" toward "who holds power here, over what, and could they abuse
+    it?" — used by the article to help a non-crypto-native audience evaluate
+    real projects without treating "decentralized" as a binary marketing claim.
+  uncertainty: >-
+    Illustrative framing from a plain-language guide, not a formal/quantified
+    study of decentralization spectra; no named methodology or dataset behind
+    the claim.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-decentralization.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-0f39787ee74e

@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Toucan accounts for ~85% of digital carbon-credit volume
+  type: claim-evidence
+  claim: >-
+    Toucan now accounts for roughly 85% of all digital carbon credits and has
+    supported around $4 billion in trading volume, working alongside established
+    standards bodies like Gold Standard and Puro.earth.
+  evidence: >-
+    Stated directly in the source article as a scale figure for Toucan Protocol,
+    without an inline citation to a specific report or dashboard.
+  source_lineage: src/content/docs/what-is-refi.md
+  interpretation: >-
+    Used by the article to establish Toucan as the dominant infrastructure for
+    carbon-credit tokenization before pivoting to the Verra retired-credit
+    controversy — i.e. scale is presented alongside a caution about quality, not
+    as an unqualified endorsement.
+  uncertainty: >-
+    No primary source or date-stamped figure is cited in the article for the 85%
+    / $4B numbers; not independently verified here. Carbon-market volume figures
+    are also known to shift quickly and to be reported inconsistently across
+    trackers.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-55907730d33f

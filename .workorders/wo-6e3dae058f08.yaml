@@ -1,0 +1,34 @@
+id: wo-6e3dae058f08
+title: ingest treasury-management.md
+type: work-order
+source_path: treasury-management.md
+source_hash: a4f8140fe423241f0032aaf91099e5621795cfb024a85c1cf2e87d60bcb00948
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-C
+produced:
+  - data/kb/encyclopedia-entry.yaml#treasury-management-for-daos
+  - data/kb/concept-lineage.yaml#dao-treasury-diversification
+  - data/kb/concept-lineage.yaml#native-token-concentration-risk
+  - data/kb/resource.yaml#maya-protocol
+  - data/kb/resource.yaml#aave-lending-protocol
+  - data/kb/resource.yaml#gnosis-auction
+  - >-
+    data/kb/claim-evidence.yaml#top-50-dao-treasuries-hold-15b-concentrated-in-native-token
+  - >-
+    data/kb/claim-evidence.yaml#recommendation-hold-2-3-years-of-operating-expenses-in-stablecoins
+  - >-
+    data/kb/signal.yaml#treasury-management-md-carries-precise-financial-figures-with-sources
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-treasury-management-md-financial-governance-claims-and-recommendations

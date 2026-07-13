@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Astro Starlight
+  type: resource
+  resource_type: documentation-framework
+  url: https://starlight.astro.build/
+  link_status: active
+  is_source_system_candidate: true
+  notes: >-
+    Heavier-duty documentation-site framework: sidebar navigation generated from
+    file structure, dark mode, and built-in full-text search powered by Pagefind
+    that runs entirely at build time (no external service, no API key, no
+    monthly fee). The article notes the Regen Toolkit's own site runs on
+    Starlight — named as the pick when a public commons needs to look and behave
+    like proper docs.
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-205d26f8a05e
+  source_lineage: knowledge-tools-directory.md

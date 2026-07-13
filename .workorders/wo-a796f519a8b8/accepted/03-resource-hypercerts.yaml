@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Hypercerts Protocol
+  type: resource
+  url: https://hypercerts.org/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - outputs-vs-outcomes-vs-impact
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Verifiable records of a piece of impactful work, used so funders can
+    allocate capital against proven contributions rather than pitches; per the
+    article, used in Gitcoin Grants 24 (GG24) as peer-reviewed hypercerts, and
+    shifted in 2026 from ERC-1155 tokens on Optimism toward living digital
+    records built on the AT Protocol.
+  work_order: wo-a796f519a8b8
+  source_lineage: why-measurement-matters.md

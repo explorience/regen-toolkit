@@ -1,0 +1,32 @@
+schema: encyclopedia-entry
+object:
+  title: Your First 90 Days Running a Local Node
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A paced playbook for standing up a ReFi local node without burnout: convene
+    before you build (days 1-30), distribute the work early (days 31-60), and
+    only fund the thing once there's a track record (days 61-90). Draws on ReFi
+    Medellín's founding story (Tereza Bízková) and Commons Social Change Library
+    burnout research, and points to existing networks (ReFi DAO, Greenpill
+    Network, Regen Coordination) so organizers don't have to invent the whole
+    stack.
+  audience: people starting a new place-based ReFi/regenerative-finance node
+  known_tensions:
+    - >-
+      grant-payout-timing-vs-early-costs — Gitcoin-style grants can take up to
+      three months to pay out, so early events must be funded some other way
+  related_concepts:
+    - local-node
+    - quadratic-funding
+  related_resources:
+    - refi-dao-local-node-incubator
+    - glo-dollar
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e009425cced2
+  source_lineage: first-90-days.md

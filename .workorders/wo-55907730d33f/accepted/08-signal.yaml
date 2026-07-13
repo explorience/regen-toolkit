@@ -1,0 +1,21 @@
+schema: signal
+object:
+  title: Greenpill Network source-system card has no known return path
+  type: signal
+  signal_type: source-system
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    The Greenpill Network source-system card created from this article has
+    return_path and reuse_conditions both set to "unknown" — the article only
+    points readers to the site, it doesn't establish a
+    contribute-back/reciprocity channel. Per the framework's reciprocity
+    principle, this is a finding (a gap to close), not a blank to leave.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-55907730d33f
+  source_lineage: what-is-refi.md

@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: The Art of Gathering
+  type: resource
+  resource_type: book
+  steward: Priya Parker
+  link_status: unresolved
+  notes: >-
+    "The Art of Gathering: How We Meet and Why It Matters" (Riverhead Books,
+    2018) — the primary source cited for the 5P gathering framework's core
+    thesis that intentional structure, not a default script, is what makes
+    gatherings work.
+  related_concepts:
+    - purpose-people-place-process-practice
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gatherings-pattern.md
+    transformation: summarized
+    authorship: ai-assisted

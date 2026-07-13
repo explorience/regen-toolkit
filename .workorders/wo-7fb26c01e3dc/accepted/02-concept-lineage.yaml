@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: Taxonomy (knowledge organization)
+  type: concept-lineage
+  short_description: >-
+    A hierarchy of categories used to file and find things — each item sits
+    under a broader category. The formal (SKOS) version gives each concept one
+    preferred label and any number of alternate labels (synonyms), with
+    broader/narrower/related relations.
+  source_traditions:
+    - library and information science
+    - controlled-vocabulary / thesaurus practice
+    - SKOS (W3C linked-data standard)
+  toolkit_usage: >-
+    Recommended default for knowledge commons: build the taxonomy in SKOS first
+    (prefLabel/altLabel/broader/narrower), reach for an ontology only when a
+    specific recurring task needs machine reasoning.
+  adjacent_meanings:
+    - folksonomy (uncontrolled, user-generated tagging — taxonomy is controlled)
+    - category tree / folder hierarchy (informal analogue)
+  important_distinctions:
+    - >-
+      taxonomy classifies and enables navigation; it does not encode reasoning
+      rules (that's ontology's job)
+    - >-
+      a taxonomy concept has ONE preferred label + alternates — this is what
+      stops label drift (e.g. 'grants'/'funding'/'money')
+  tensions:
+    - >-
+      simplicity/accessibility (non-technical teammates can read and extend it)
+      vs. expressive limits (no inference)
+  risks_of_flattening: >-
+    Treating every useful adjective or tag as if it were a taxonomy type causes
+    the same "ontology sprawl" problem taxonomies are meant to avoid — the
+    type/tag distinction has to be actively maintained, not assumed.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ontology-vs-taxonomy.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7fb26c01e3dc
+  source_lineage: ontology-vs-taxonomy.md

@@ -1,0 +1,1001 @@
+entries:
+  decentralization-is-a-spectrum-not-a-binary-switch:
+    title: Decentralization is a spectrum, not a binary switch
+    type: claim-evidence
+    claim: >-
+      Almost nothing is fully decentralized, and that's fine — most real-world
+      systems (crypto and non-crypto) sit somewhere on a spectrum rather than
+      being purely centralized or purely decentralized.
+    evidence: >-
+      Article's own examples: a community garden may have a small steering group
+      handling the calendar/bank account while every gardener decides freely
+      what to grow in their plot; a crypto project may keep a fully open,
+      tamper-proof public ledger while day-to-day decisions still flow through a
+      handful of founders. Both are presented as normal hybrids, not failures.
+    source_lineage: src/content/docs/what-is-decentralization.md
+    interpretation: >-
+      Reframes the useful diagnostic question away from "is this decentralized,
+      yes or no?" toward "who holds power here, over what, and could they abuse
+      it?" — used by the article to help a non-crypto-native audience evaluate
+      real projects without treating "decentralized" as a binary marketing
+      claim.
+    uncertainty: >-
+      Illustrative framing from a plain-language guide, not a formal/quantified
+      study of decentralization spectra; no named methodology or dataset behind
+      the claim.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-decentralization.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-0f39787ee74e
+  priya-parker-on-structure-and-hosting-spirit-in-gatherings:
+    title: Priya Parker on structure and hosting spirit in gatherings
+    type: claim-evidence
+    claim: >-
+      "Gatherings crackle and flourish when real thought goes into them, when
+      (often invisible) structure is baked into them, and when a host has the
+      curiosity, willingness, and generosity of spirit to try."
+    evidence: >-
+      Direct quotation attributed to Priya Parker, "The Art of Gathering: How We
+      Meet and Why It Matters" (Riverhead Books, 2018), as cited in the
+      article's References.
+    source_lineage: src/content/docs/gatherings-pattern.md
+    interpretation: >-
+      Used in the article as the founding rationale for treating gatherings as
+      an intentional design challenge rather than a default "find a venue, post
+      an invite" script.
+    uncertainty: >-
+      Quote reproduced as given in the article; page/edition location within the
+      book was not independently verified for this ingestion.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gatherings-pattern.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-3432cf7d500b
+  koi-net-reached-public-beta-in-may-2025-and-is-actively-maintained:
+    title: KOI-net reached public beta in May 2025 and is actively maintained
+    type: claim-evidence
+    claim: >-
+      KOI-net, the network protocol and Python framework implementing RID-based
+      federation, hit public beta in May 2025, is MIT-licensed, and is actively
+      maintained (v2.0.7 as of May 2026, per `koi-net` on GitHub).
+    evidence: Cited to the BlockScience/koi-net GitHub repository.
+    source_lineage: https://github.com/BlockScience/koi-net
+    interpretation: >-
+      Supports the article's framing of KOI-net as a credible, currently-usable
+      protocol option (not vaporware) for teams ready to move beyond ad hoc
+      "federate by hand" sharing.
+    uncertainty: >-
+      Version/maintenance status was not independently re-checked against the
+      live repository at ingestion time; verify current version before citing
+      externally.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-4e11e89a5db3
+  activitypub-mastodon-federates-followers-but-not-post-content-as-of-2025:
+    title: ActivityPub/Mastodon federates followers but not post content (as of 2025)
+    type: claim-evidence
+    claim: >-
+      Mastodon's account-migration `Move` activity carries a user's followers
+      (and, via exported CSV, their follows) to a new server, but as of 2025 the
+      actual posts do not move automatically; true content portability is still
+      being specified via the W3C Social Web Community Group's data-portability
+      draft and the LOLA proposal.
+    evidence: >-
+      Cited to Mastodon's own migration documentation and the W3C SWICG
+      data-portability draft.
+    source_lineage: >-
+      https://docs.joinmastodon.org/user/moving/ ;
+      https://swicg.github.io/activitypub-data-portability/
+    interpretation: >-
+      Used as the article's "honest caveat" example — showing that even a
+      working, widely-adopted federation protocol (ActivityPub) has an
+      incomplete portability story, to temper expectations that adopting a
+      protocol instantly solves portability too.
+    uncertainty: >-
+      Standards work (W3C SWICG draft, LOLA) is explicitly in-progress and may
+      have moved since the article's writing; status should be re-checked before
+      being cited as current.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: |
+      # assessed-but-excluded
+      - "The Order That Saves You" 4-step sequence and the "Try This" prompts —
+        operational/coaching guidance, not distinct knowledge objects; captured
+        at summary level in the encyclopedia-entry instead of split out.
+      - Xebia blog post (Markdown+Git case for docs) — a one-off supporting
+        citation, not a living knowledge environment the toolkit will keep
+        drawing from; not registered as its own source-system.
+    work_order: wo-4e11e89a5db3
+  no-legitimate-service-ever-asks-for-your-recovery-phrase:
+    title: No legitimate service ever asks for your recovery phrase
+    type: claim-evidence
+    claim: >-
+      Anyone who reads your recovery phrase controls your wallet completely,
+      with no bank to call and no fraud department to reverse a theft — and the
+      single rule that defends against nearly every newcomer scam is that no
+      legitimate wallet, exchange, or "support agent" will ever ask you to type
+      or share it.
+    evidence: >-
+      Article names three recurring scam patterns as evidence: (1) fake support
+      agents claiming an account is "frozen" and requesting the recovery phrase
+      to "fix" it; (2) "free-money bait" posts that publicly share a wallet's
+      recovery phrase, tricking people into importing it and draining their own
+      funds instead; (3) lookalike sites/apps, near-perfect copies of real
+      wallets built to capture what's typed.
+    source_lineage: src/content/docs/what-is-wallet.md
+    interpretation: >-
+      Positioned as the single highest-leverage safety rule in the article —
+      "hold that one line and you've avoided most of the danger" — because it
+      covers all three named scam vectors at once.
+    uncertainty: >-
+      General security guidance stated as settled fact in a plain-language
+      guide; no incidence statistics or named source cited for how common each
+      scam pattern is.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-553392f77839
+  paper-is-no-longer-a-sufficient-recovery-phrase-backup:
+    title: Paper is no longer a sufficient recovery-phrase backup
+    type: claim-evidence
+    claim: >-
+      Faded ink, fire, flood, and simple misplacement now rank among the leading
+      causes of permanently lost crypto, so paper alone is no longer considered
+      a sufficient backup for a recovery phrase.
+    evidence: >-
+      Stated in the article's "Going deeper" callout, which recommends
+      steel-plate backups (brands named: Cryptosteel, Billfodl) stored in a
+      second, separate location, plus notes that newer passkey/guardian-based
+      smart wallets (Base App, Argent "Ready") now offer an alternative to paper
+      backups entirely.
+    source_lineage: src/content/docs/what-is-wallet.md
+    interpretation: >-
+      Used to justify recommending steel backups and/or smart-wallet recovery
+      over plain paper, without dismissing paper as unusable, only as
+      insufficient on its own for anything the reader would be upset to lose.
+    uncertainty: >-
+      No cited statistics or named study on lost-crypto causes; the claim reads
+      as accepted community wisdom in the source article rather than a sourced
+      figure.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-553392f77839
+  toucan-accounts-for-85-of-digital-carbon-credit-volume:
+    title: Toucan accounts for ~85% of digital carbon-credit volume
+    type: claim-evidence
+    claim: >-
+      Toucan now accounts for roughly 85% of all digital carbon credits and has
+      supported around $4 billion in trading volume, working alongside
+      established standards bodies like Gold Standard and Puro.earth.
+    evidence: >-
+      Stated directly in the source article as a scale figure for Toucan
+      Protocol, without an inline citation to a specific report or dashboard.
+    source_lineage: src/content/docs/what-is-refi.md
+    interpretation: >-
+      Used by the article to establish Toucan as the dominant infrastructure for
+      carbon-credit tokenization before pivoting to the Verra retired-credit
+      controversy — i.e. scale is presented alongside a caution about quality,
+      not as an unqualified endorsement.
+    uncertainty: >-
+      No primary source or date-stamped figure is cited in the article for the
+      85% / $4B numbers; not independently verified here. Carbon-market volume
+      figures are also known to shift quickly and to be reported inconsistently
+      across trackers.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55907730d33f
+  verra-banned-tokenizing-already-retired-carbon-credits-2023:
+    title: Verra banned tokenizing already-retired carbon credits (2023)
+    type: claim-evidence
+    claim: >-
+      In 2023 the standards body Verra banned converting already-retired carbon
+      credits into tokens, after critics showed many tokenized credits were tied
+      to old, low-quality projects that weren't genuinely helping the climate;
+      the industry is now working toward an "immobilize, don't double-count"
+      approach instead.
+    evidence: >-
+      Stated in the source article as historical/regulatory context for Toucan
+      and the broader carbon-tokenization space; article links to Toucan's own
+      blog response to Verra's announcement as a reference.
+    source_lineage: src/content/docs/what-is-refi.md
+    interpretation: >-
+      Article uses this as its central "honest part" — the concrete greenwashing
+      cautionary example backing its claim that "tokenizing something does not
+      automatically make it good."
+    uncertainty: >-
+      Presented from the source article's summary and Toucan's own
+      response-to-Verra post (one interested party's framing); the underlying
+      Verra policy text and independent reporting on the episode were not
+      reviewed directly here.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55907730d33f
+  gg24-bioregional-reforestation-round-scale:
+    title: GG24 Bioregional Reforestation Round scale
+    type: claim-evidence
+    claim: >-
+      In GG24 (the round Gitcoin ran October 14-28, 2025 as the first round of
+      its "Gitcoin 3.0" relaunch), the Bioregional Reforestation Round carried a
+      $100,000 matching pool spread across nine bioregions, including Nigeria,
+      Kenya/Uganda, Cascadia, and the Mediterranean Coast, with roughly 1,286
+      unique donors making about 3,042 donations, and co-funders including
+      CeloPG, the Ethereum Foundation, the Climate Coordination Network, and the
+      BioFi Project.
+    evidence: >-
+      Cited in the article's References to "Gitcoin Grants 24 (GG24)"
+      (https://gitcoin.co/campaigns/gitcoin-grants-24-gg24) and "Bioregional
+      Reforestation Round"
+      (https://gov.gitcoin.co/t/bioregional-reforestation-round/24927).
+    source_lineage: src/content/docs/gitcoin-grants-qf.md
+    interpretation: >-
+      Used in the article as proof that quadratic funding already routes real
+      money to on-the-ground regenerative work, not just crypto infrastructure —
+      offered as the concrete case a local node running tree-planting, food
+      sovereignty, or watershed work could look to.
+    uncertainty: >-
+      Donor/donation counts are approximate ("roughly," "about") as reported in
+      the article's cited sources; not independently re-verified for this
+      ingestion.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gitcoin-grants-qf.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55b29771dc58
+  gitcoin-s-two-layer-sybil-defense-human-passport-and-cocm:
+    title: Gitcoin's two-layer sybil defense — Human Passport and COCM
+    type: claim-evidence
+    claim: >-
+      Gitcoin QF rounds defend against sybil attacks in two main ways: proof of
+      personhood via Human Passport (formerly Gitcoin Passport, acquired by the
+      Holonym Foundation in February 2025), which scores donors before their
+      contribution counts toward matching; and post-round correction via
+      Connection-Oriented Cluster Matching (COCM), which dials down the match
+      for donor clusters that always co-donate together.
+    evidence: >-
+      Cited in the article's References to "Human Passport (formerly Gitcoin
+      Passport)"
+      (https://human.tech/blog/from-gitcoin-passport-to-human-passport-we-re-now-part-of-human-tech)
+      and "Leveling the Field: Connection-Oriented Cluster Matching"
+      (https://www.gitcoin.co/blog/leveling-the-field-how-connection-oriented-cluster-matching-strengthens-quadratic-funding).
+    source_lineage: src/content/docs/gitcoin-grants-qf.md
+    interpretation: >-
+      Presented as the two things a round organizer must understand before
+      running a round, because final allocations move after donations close as
+      these corrections are applied.
+    uncertainty: >-
+      Acquisition date and mechanism descriptions as reported in the cited
+      Gitcoin/Human Passport sources; not independently re-verified.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gitcoin-grants-qf.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55b29771dc58
+  top-50-dao-treasuries-hold-15b-concentrated-in-native-token:
+    title: Top 50 DAO treasuries hold ~$15B, concentrated in native token
+    type: claim-evidence
+    claim: >-
+      "The top 50 DAO treasuries together hold approximately $15 billion in
+      assets. Yet most of these treasuries are heavily concentrated in a single
+      asset: their own governance token."
+    evidence: >-
+      No citation or source is given in the article itself (article frontmatter
+      lists `sources: []`); the figure is stated as fact without a linked
+      dataset, dashboard, or dated snapshot.
+    source_lineage: src/content/docs/treasury-management.md
+    interpretation: >-
+      Grounds the article's central argument (paper wealth vs. actual financial
+      flexibility) but the number is undated and unsourced within the article,
+      so its currentness cannot be verified from this text alone.
+    uncertainty: >-
+      High — a specific dollar figure with no citation, dataset, or as-of date.
+      Treasury totals in crypto move quickly; treat as illustrative rather than
+      a verified, current statistic until a primary source is attached.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+  recommendation-hold-2-3-years-of-operating-expenses-in-stablecoins:
+    title: 'Recommendation: hold 2-3 years of operating expenses in stablecoins'
+    type: claim-evidence
+    claim: >-
+      "The most practical solution: maintain 2-3 years of operating expenses in
+      stablecoins like USDC or DAI" as a DAO treasury's survival buffer through
+      bear markets.
+    evidence: >-
+      Argued from the four stated benefits (resilience during downturns,
+      predictable budgeting, contributor flexibility, yield/credit
+      opportunities) — no external study, dataset, or named DAO case is cited to
+      support the specific "2-3 years" figure.
+    source_lineage: src/content/docs/treasury-management.md
+    interpretation: >-
+      This is a concrete financial/governance recommendation a reader could act
+      on directly (how much of a DAO's treasury to hold, and in what form) — the
+      kind of guidance that materially affects a DAO's finances and
+      decision-making power if followed uncritically.
+    uncertainty: >-
+      The "2-3 years" figure is presented as a rule of thumb without supporting
+      data or named precedent; appropriate runway depends heavily on a specific
+      DAO's burn rate, revenue, and risk tolerance.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+  refi-dao-s-2024-grassroots-funding-distribution-to-local-nodes:
+    title: ReFi DAO's 2024 grassroots funding distribution to Local Nodes
+    type: claim-evidence
+    claim: >-
+      ReFi DAO distributed over $236,000 to grassroots communities, including
+      its Local Nodes, through 2024 funding rounds, and ran a Local Node
+      Incubator that put more than 100 participants through a 13-session
+      program.
+    evidence: >-
+      Cited in the article's References to "ReFi DAO, Local Nodes Showcase 2024"
+      (https://blog.refidao.com/refi-local-nodes-showcase-2024/); no
+      primary-source figures were independently re-verified for this ingestion.
+    source_lineage: src/content/docs/funding-landscape.md
+    interpretation: >-
+      Framed in the article as evidence that direct grants are "where most local
+      nodes actually get their first money," ahead of more exotic on-chain
+      mechanisms.
+    uncertainty: >-
+      Figures are as reported by ReFi DAO's own blog post (secondary citation,
+      not independently verified); "over $236,000" is the article's exact
+      wording, not a re-derived total.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-landscape.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-704b0ef07811
+  gitcoin-passport-s-sybil-influence-reduction-and-its-centralization-trade-off:
+    title: >-
+      Gitcoin Passport's Sybil-influence reduction and its centralization
+      trade-off
+    type: claim-evidence
+    claim: >-
+      Gitcoin Passport (now Human Passport) scoring cut Sybil influence in
+      quadratic-funding rounds by roughly 90%, but introduced acknowledged
+      points of centralization, including reliance on Gitcoin's own identity
+      tooling.
+    evidence: >-
+      Cited in the article's References to "Gitcoin, Sybil Resistance in
+      Quadratic Funding"
+      (https://gitcoin.co/research/quadratic-funding-sybil-resistance) and "How
+      to Attack and Defend Quadratic Funding"
+      (https://www.gitcoin.co/blog/how-to-attack-and-defend-quadratic-funding).
+    source_lineage: src/content/docs/funding-landscape.md
+    interpretation: >-
+      Used in the article as the concrete illustration of its stated principle
+      that "every fix for Sybil resistance trades away some decentralisation for
+      integrity."
+    uncertainty: >-
+      The ~90% figure is as reported in Gitcoin's own research post (secondary
+      citation, not independently re-derived here).
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-landscape.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-704b0ef07811
+  us-crypto-related-losses-reported-to-the-fbi-hit-9-3b-in-2024:
+    title: US crypto-related losses reported to the FBI hit $9.3B in 2024
+    type: claim-evidence
+    claim: >-
+      Victims reported $9.3 billion in crypto-related losses to the FBI in 2024,
+      a 66% jump from the year before; investment fraud was the single largest
+      category at $5.8 billion.
+    evidence: >-
+      FBI 2024 Internet Crime Report (IC3), cited by URL in the article's
+      references.
+    source_lineage: >-
+      FBI 2024 Internet Crime Report (IC3) —
+      https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+    interpretation: >-
+      Used to establish stakes before walking through specific scam types;
+      investment-fraud share motivates the article's dedicated "too-good-to-be-
+      true returns" section.
+    uncertainty: >-
+      FBI IC3 figures rely on victim self-reporting, which undercounts actual
+      losses (many victims don't report). Not independently re-verified against
+      the source PDF here.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-7d08281b2f7e
+  taxonomy-first-ontology-later-the-strong-default-for-small-team-commons:
+    title: Taxonomy first, ontology later — the strong default for small-team commons
+    type: claim-evidence
+    claim: >-
+      "For a team your size, the strong default is: ship a SKOS taxonomy now,
+      and only reach for an ontology when a specific, recurring task can't be
+      done by hand." Ask one question to decide: does anything need to reason
+      over your relationships, or do humans just need to find things?
+    evidence: >-
+      Cited to SGKG's framing (taxonomy-as-classification vs. ontology-as-
+      relationships, and how they layer) and Hedden Information Management's
+      breakdown of the SKOS/OWL standards landscape; illustrated with
+      Wikipedia's category system and Schema.org as taxonomy-scale examples vs.
+      Wikidata as an ontology-scale example.
+    source_lineage: >-
+      src/content/docs/ontology-vs-taxonomy.md ([SGKG], [HEDDEN], [SCHEMA],
+      [WIKIDATA] references)
+    interpretation: >-
+      A practical decision heuristic for the Regen Toolkit's own Layer 1
+      (Ontology & Semantic Kernel) posture, which the article explicitly quotes:
+      "not to create a perfect ontology before use" but enough shared meaning to
+      avoid silently incompatible categories.
+    uncertainty: >-
+      This is editorial guidance from a knowledge-site article, not a
+      peer-reviewed study — reasonable as a heuristic, not a proven rule for
+      every commons.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ontology-vs-taxonomy.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7fb26c01e3dc
+  grassroots-economics-sarafu-network-scaled-from-vouchers-not-a-token-launch:
+    title: >-
+      Grassroots Economics' Sarafu network scaled from vouchers, not a token
+      launch
+    type: claim-evidence
+    claim: >-
+      Grassroots Economics (the Kenyan nonprofit behind the Sarafu network) did
+      not launch with a token economy — Sarafu began as community members
+      issuing simple vouchers, and only migrated onto the Celo blockchain after
+      the model had proven itself on the ground. The network now supports tens
+      of thousands of small businesses across Kenya, Cameroon, and South Africa;
+      in a 2025 survey of active users, 95% said the network is important or
+      very important to their household economy.
+    evidence: >-
+      Cited in the article's References to "Grassroots Economics, Sarafu
+      Network" (https://www.grassrootseconomics.org/sarafu-network), "Why Celo"
+      (https://www.grassrootseconomics.org/celo-ge), and "2025 Sarafu Network
+      Study Results"
+      (https://grassecon.substack.com/p/2025-sarafu-network-study-results).
+    source_lineage: src/content/docs/minimum-viable-node.md
+    interpretation: >-
+      Used in the article as the concrete real-world example of "earning your
+      way onto a blockchain" — the technology as an upgrade to a working
+      community practice, never a substitute for it.
+    uncertainty: >-
+      Figures (survey percentage, business counts, country coverage) as reported
+      in Grassroots Economics' own materials; not independently re-verified for
+      this ingestion.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/minimum-viable-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-810346fad236
+  bristol-pound-and-bristol-pay-wound-down-for-lack-of-funding-not-a-flawed-idea:
+    title: >-
+      Bristol Pound and Bristol Pay wound down for lack of funding, not a flawed
+      idea
+    type: claim-evidence
+    claim: >-
+      The Bristol Pound ran a respected local currency in the UK for nearly a
+      decade and still wound down in 2020-2021, not because the idea was wrong,
+      but because the organization couldn't secure the funding to keep the
+      lights on. Its successor, Bristol Pay, tried to carry the mission forward
+      in digital form and was itself discontinued in 2023, again for lack of
+      funding.
+    evidence: >-
+      Cited in the article's References to "Bristol Pound (Wikipedia)"
+      (https://en.wikipedia.org/wiki/Bristol_pound).
+    source_lineage: src/content/docs/minimum-viable-node.md
+    interpretation: >-
+      Used in the article as a sustainability cautionary tale — the takeaway
+      given is "design for sustainability from week one," not "don't bother."
+    uncertainty: >-
+      Sourced to a single tertiary reference (Wikipedia); dates and cause of
+      discontinuation not independently cross-checked against primary sources
+      for this ingestion.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/minimum-viable-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-810346fad236
+  commons-governance-principles-ostrom-apply-to-source-system-stewardship:
+    title: Commons governance principles (Ostrom) apply to source-system stewardship
+    type: claim-evidence
+    claim: >-
+      A source system that no one is allowed to govern eventually gets trashed
+      or abandoned; Ostrom's commons-design principles — clearly defined
+      boundaries (who may use/change the resource) and graduated sanctions
+      (proportionate responses to rule-breaking) — translate directly into "who
+      can edit/add/delete" and "how to handle a contributor who keeps adding
+      unsourced claims."
+    evidence: >-
+      Cites Elinor Ostrom's Nobel-winning work on common-pool resource
+      governance (P2P Foundation summary of her eight design principles) and the
+      Token Engineering Commons' "Cultural Build," which explicitly builds on
+      those same eight principles.
+    source_lineage: src/content/docs/source-systems.md ([P2P], [TEC] references)
+    interpretation: >-
+      Frames source-system stewardship as fundamentally a social/governance
+      problem, not a tooling problem — "tools store the knowledge; stewards keep
+      it trustworthy."
+    uncertainty: >-
+      The application of Ostrom's principles (developed for physical common-pool
+      resources like fisheries and irrigation systems) to digital knowledge
+      commons is an analogy the article asserts rather than empirically
+      demonstrates for this specific context.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+  inclusion-does-not-mean-endorsement:
+    title: Inclusion does not mean endorsement
+    type: claim-evidence
+    claim: >-
+      Adding a source to a knowledge commons means it is "relevant enough to
+      preserve, classify, review, route, or revisit" — it does not mean the
+      project vouches for or endorses its content.
+    evidence: >-
+      Stated as an explicit Toolkit rule in its own reference docs [RKC], paired
+      with the practice of recording provenance on everything so raw, unverified
+      material can be kept without quietly becoming treated as true.
+    source_lineage: src/content/docs/source-systems.md ([RKC] reference)
+    interpretation: >-
+      This is the mechanical justification for why provenance and honest
+      maturity labelling matter — without them, "inclusion ≠ endorsement" cannot
+      actually hold, because readers have no way to tell reviewed material from
+      raw inclusions.
+    uncertainty: >-
+      Sourced to the toolkit's own internal reference docs via a generic
+      placeholder URL in this article's references list — verify the actual
+      citation target before treating this as an external, independently
+      reviewed claim.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+  eas-has-recorded-9-5m-attestations-as-of-mid-2026:
+    title: EAS has recorded 9.5M+ attestations as of mid-2026
+    type: claim-evidence
+    claim: >-
+      The Ethereum Attestation Service (EAS), described as the most widely used
+      attestation tool, had recorded over 9.5 million attestations as of
+      mid-2026.
+    evidence: >-
+      Stated directly in the source article as a scale figure for EAS, without
+      an inline citation to a live dashboard or report; article links to
+      attest.org and the easscan.org explorer.
+    source_lineage: src/content/docs/why-measurement-matters.md
+    interpretation: >-
+      Used to establish EAS as mature, widely-adopted infrastructure before
+      recommending a local node attest its own events (workshops, plantings,
+      deliverables) on it as a portable, verifiable impact record.
+    uncertainty: >-
+      No primary dashboard snapshot or date-stamped source cited in the article
+      for the 9.5M figure; attestation counts on public explorers change
+      continuously, so this number is a point-in-time claim, not independently
+      re-verified here.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a796f519a8b8
+  retroactive-funding-pays-for-demonstrated-impact-not-promises:
+    title: Retroactive funding pays for demonstrated impact, not promises
+    type: claim-evidence
+    claim: >-
+      Retroactive funding (paying for work after it's done and its impact is
+      demonstrated, rather than funding promises up front) has become a core
+      Web3 funding pattern — popularized by Optimism's RetroPGF rounds and used
+      in Gitcoin Grants 24 (GG24, late 2025 into 2026), which deployed six
+      funding mechanisms at once including retroactive funding and peer-reviewed
+      hypercerts.
+    evidence: >-
+      Article states the RetroPGF logic ("easier to agree on what was useful
+      than to predict what will be") and cites GG24's six-mechanism design as a
+      concrete instance, without linking a primary GG24 results report.
+    source_lineage: src/content/docs/why-measurement-matters.md
+    interpretation: >-
+      Used to argue that for a Web3-native local node, measurement is the
+      funding rail itself, not paperwork filed after funding — "no record, no
+      reward" is the article's summary line.
+    uncertainty: >-
+      GG24 mechanism count and framing taken from the article's summary; no
+      direct citation to Gitcoin's own GG24 results/retrospective was checked
+      here, and "core pattern" is the article's characterization rather than a
+      cited adoption metric.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a796f519a8b8
+  crypto-donations-to-nonprofits-grew-386-year-over-year-in-2024:
+    title: Crypto donations to nonprofits grew 386% year-over-year in 2024
+    type: claim-evidence
+    claim: >-
+      More than $1 billion in crypto was donated to nonprofits in 2024, a 386%
+      increase from 2023; about 70% of Forbes' Top 100 US charities now accept
+      crypto, up from 12% in 2020.
+    evidence: Cited to The Giving Block (annual crypto-giving report).
+    source_lineage: The Giving Block 2025 Annual Report (as cited in the article)
+    interpretation: >-
+      Signals rapid mainstreaming of crypto philanthropy among large US
+      charities; article extrapolates this trend as relevant to smaller
+      nonprofits too.
+    uncertainty: >-
+      Figures are taken at face value from the article; the underlying Giving
+      Block report was not independently checked, and The Giving Block is a
+      commercial platform with an incentive to report favorable growth.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/case-studies-nonprofits.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b3d9480838b4
+  mercy-corps-ventures-cut-delivery-costs-60-using-stablecoins-in-syria:
+    title: Mercy Corps Ventures cut delivery costs 60% using stablecoins in Syria
+    type: claim-evidence
+    claim: >-
+      Mercy Corps Ventures cut delivery costs by 60% by using stablecoins
+      instead of traditional money transfers in Syria.
+    evidence: Cited to cryptoaltruism.org (CryptoAltruists Web3 Impact Toolkit).
+    source_lineage: CryptoAltruists Web3 Impact Toolkit (as cited in the article)
+    interpretation: >-
+      Used as the article's concrete "everyday operations" proof point for
+      stablecoins beyond emergency crisis fundraising.
+    uncertainty: >-
+      Single-source figure with no methodology given for how the 60% cost
+      reduction was calculated; not independently verified here.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/case-studies-nonprofits.md
+      transformation: quoted
+      authorship: ai-assisted
+    notes: |
+      # assessed-but-excluded
+      - Ukraine 2022 emergency-fundraising narrative (banks froze, $50M+ raised
+        in bitcoin, UkraineDAO) — read and considered for its own claim-evidence
+        entry, but excluded as a duplicate of the same "web3 = fast disaster
+        infrastructure" claim already covered structurally by this entry and the
+        encyclopedia-entry summary; flagging here rather than silently dropping.
+      - Direct quotes from named individuals (Tammy Tibbetts of She's the First;
+        CryptoAltruists commentary) — kept as quoted text inside claim-evidence /
+        encyclopedia-entry fields, not turned into standalone public person-nodes
+        (per the do-not-create-public-person-nodes rule).
+      - "Try This" action-prompt section — operational/coaching text, not a
+        knowledge object; not extracted.
+    work_order: wo-b3d9480838b4
+  bitcoin-s-proof-of-work-energy-use-138-twh-year-cambridge-2025:
+    title: 'Bitcoin''s proof-of-work energy use: ~138 TWh/year (Cambridge, 2025)'
+    type: claim-evidence
+    claim: >-
+      Bitcoin secures itself via proof of work "using on the order of 138
+      terawatt-hours a year (Cambridge, 2025), comparable to a mid-sized
+      country."
+    evidence: >-
+      Attributed to the Cambridge Bitcoin Electricity Consumption Index, an
+      independent, regularly updated estimate maintained by the University of
+      Cambridge, linked in the article's references.
+    source_lineage: >-
+      src/content/docs/what-is-blockchain.md — Cambridge Bitcoin Electricity
+      Consumption Index (https://ccaf.io/cbnsi/cbeci)
+    interpretation: >-
+      Used to ground the "energy" honesty section — contrasted directly with
+      Ethereum's post-Merge proof-of-stake energy use to show the claim
+      "blockchain wastes energy" does not generalize across consensus
+      mechanisms.
+    uncertainty: >-
+      Cambridge's index is a continuously updated estimate, not a fixed figure —
+      "on the order of 138 TWh" should be treated as a snapshot (dated 2025 per
+      the article) that will drift over time; verify against the live index
+      before citing a precise number.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+  ethereum-s-merge-cut-energy-use-by-99-95:
+    title: Ethereum's Merge cut energy use by ~99.95%
+    type: claim-evidence
+    claim: >-
+      "On 15 September 2022, Ethereum ... switched to proof of stake, which
+      secures the chain through deposited funds rather than raw computing, and
+      cut its energy use by about 99.95% overnight."
+    evidence: >-
+      Attributed to Ethereum.org's official account of "The Merge," linked in
+      the article's references.
+    source_lineage: >-
+      src/content/docs/what-is-blockchain.md — Ethereum.org: The Merge
+      (https://ethereum.org/en/roadmap/merge/)
+    interpretation: >-
+      Central to the article's argument that "blockchain wastes energy" is
+      outdated for the networks (Ethereum, Celo) most regenerative projects
+      actually build on.
+    uncertainty: >-
+      The 99.95% figure and date are well-documented and widely corroborated for
+      Ethereum's own transition; not independently re-verified here beyond the
+      cited official source.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+  walmart-mango-traceback-dropped-from-7-days-to-2-2-seconds-on-hyperledger-fabric:
+    title: >-
+      Walmart mango traceback dropped from ~7 days to 2.2 seconds on Hyperledger
+      Fabric
+    type: claim-evidence
+    claim: >-
+      "In a pilot tracing mangoes, finding a fruit's origin dropped from about
+      seven days to 2.2 seconds" using Hyperledger Fabric.
+    evidence: >-
+      Attributed to the LF Decentralized Trust Walmart case study, linked in the
+      article's references.
+    source_lineage: >-
+      src/content/docs/what-is-blockchain.md — LF Decentralized Trust: Walmart
+      case study
+      (https://www.lfdecentralizedtrust.org/case-studies/walmart-case-study)
+    interpretation: >-
+      Used as the enterprise-scale comparison point for how a shared, checkable
+      record turns a contamination-scare investigation from days of guesswork
+      into a same-minute answer.
+    uncertainty: >-
+      Pilot-result figures reported by the platform steward's own case study;
+      not independently re-verified against Walmart's own disclosures here.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+  grassroots-economics-sarafu-network-scale-26-000-people-290-communities:
+    title: >-
+      Grassroots Economics' Sarafu Network scale (26,000+ people, ~290
+      communities)
+    type: claim-evidence
+    claim: >-
+      "Grassroots Economics reports the network has supported more than 26,000
+      people across roughly 290 communities, with thousands now coordinating
+      through Celo-based 'commitment pools.'"
+    evidence: >-
+      Attributed to Grassroots Economics' own Sarafu Network page, linked in the
+      article's references — a self-reported figure by the project steward.
+    source_lineage: >-
+      src/content/docs/what-is-blockchain.md — Grassroots Economics: Sarafu
+      Network (https://www.grassrootseconomics.org/pages/sarafu-network)
+    interpretation: >-
+      Used as the article's lead real-world example of blockchain-enabled
+      community currency reaching people without smartphones (via USSD/basic
+      phones), grounding the "trustless" and "immutable" concepts in a live
+      deployment.
+    uncertainty: >-
+      Self-reported by the project steward (Grassroots Economics), not an
+      independently audited figure; treat as the organization's own claim about
+      its reach rather than third-party-verified impact data.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+  regen-network-s-on-chain-ecological-data-lets-a-distant-funder-trust-regeneration-happened:
+    title: >-
+      Regen Network's on-chain ecological data lets a distant funder trust
+      regeneration happened
+    type: claim-evidence
+    claim: >-
+      "Regen Network pays land stewards for measurable ecological work, like
+      restored soil or biodiversity, by recording verified ecological data on a
+      blockchain and issuing credits that buyers can purchase. The shared,
+      checkable record is what lets a funder half a world away trust that the
+      regeneration actually happened."
+    evidence: >-
+      Described at a high level in the article with a link to Regen Network's
+      own site; no specific MRV (measurement/reporting/verification)
+      methodology, dataset, or third-party audit is cited or described in the
+      source text itself.
+    source_lineage: >-
+      src/content/docs/what-is-blockchain.md — Regen Network
+      (https://www.regen.network/)
+    interpretation: >-
+      This is an ecological/MRV-adjacent claim (a standing high-risk trigger per
+      the ingest skill) about what an on-chain record can vouch for ("the
+      regeneration actually happened"). The blockchain guarantees
+      tamper-evidence of whatever data was recorded — it does not by itself
+      verify that the underlying ecological measurement was accurate; the
+      article does not separate these two claims.
+    uncertainty: >-
+      High for the ecological-outcome portion of the claim: the article asserts
+      trust is warranted but does not describe Regen Network's actual MRV
+      methodology, verifier credentials, or audit process. The tamper-evidence
+      portion (blockchain records are checkable) is on firmer ground than the
+      implied ecological-accuracy portion.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+  refi-dao-has-supported-100-events-across-58-cities:
+    title: ReFi DAO has supported 100+ events across 58 cities
+    type: claim-evidence
+    claim: >-
+      ReFi DAO has supported 100+ events across 58 cities through its local-node
+      network.
+    evidence: >-
+      Stated in the article as a scale indicator for the ReFi DAO local-node
+      network; not attributed to a specific dated report.
+    source_lineage: src/content/docs/first-90-days.md (uncited scale figure)
+    interpretation: >-
+      Used to establish that ReFi DAO coordinates a real, sizeable network,
+      supporting the article's recommendation to plug into an existing network
+      rather than build alone.
+    uncertainty: >-
+      No specific source or as-of date is given for this figure in the article;
+      treat as an approximate, unverified network-scale claim.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/first-90-days.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-e009425cced2
+  regen-coordination-distributed-236-000-to-communities-across-2024:
+    title: Regen Coordination distributed $236,000+ to communities across 2024
+    type: claim-evidence
+    claim: >-
+      Across 2024, Regen Coordination programs distributed over $236,000 to
+      regenerative communities, and the Local Node Incubator ran 13 sessions
+      with over 100 participants. Separately, ReFi Medellín raised roughly
+      $4,000 in Gitcoin Grants 17 (March 2023).
+    evidence: >-
+      Cited to ReFi DAO Wrapped 2024 (blog.refidao.com) and the Bízková
+      interview on ReFi Medellín's Gitcoin Grants 17 experience.
+    source_lineage: >-
+      ReFi DAO Wrapped 2024 (https://blog.refidao.com/refi-dao-wrapped-2024/) ;
+      Gitcoin Grants & ReFi Medellín interview with Tereza Bízková
+    interpretation: >-
+      Used as evidence that real funding flows through this network, but the
+      article frames it as accruing to nodes that have already proven they
+      convene people and ship events — not as money available on demand.
+    uncertainty: >-
+      Figures taken from the article's citations at face value; underlying
+      reports were not independently re-checked at ingestion time. This is
+      organizational funding-distribution data, which the framework treats as
+      high-risk-by-default even when the source is a public wrap-up post.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/first-90-days.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-e009425cced2
+  polished-writing-is-not-automatically-reviewed-knowledge:
+    title: Polished writing is not automatically reviewed knowledge
+    type: claim-evidence
+    claim: >-
+      "Polished writing is not automatically reviewed knowledge" — readers
+      cannot distinguish a beautifully written unreviewed draft from a
+      fact-checked, reviewed page unless the review state is explicitly
+      labelled.
+    evidence: >-
+      Named as one of the Regen Web3 Toolkit's own cross-cutting principles
+      (Maturity and review state), illustrated by the article's opening example
+      of a confident-looking but unreviewed treasury-payout page.
+    source_lineage: src/content/docs/review-and-maturity.md
+    interpretation: >-
+      Argues for mandatory, visible maturity labelling (not just internal
+      metadata) as the cheap fix — a badge at the top of the page, not a
+      footnote.
+    uncertainty: >-
+      Editorial/design guidance rather than an empirically tested claim; the
+      treasury-payout scenario is illustrative, not a documented incident.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/review-and-maturity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ea54c9ef7bb2
+  token-concentration-can-negate-sociopolitical-decentralization:
+    title: Token concentration can negate sociopolitical decentralization
+    type: claim-evidence
+    claim: >-
+      In blockchain systems, token holdings often determine sociopolitical
+      power; a system where one wallet controls 50% of tokens is not truly
+      decentralized regardless of its technical architecture.
+    evidence: >-
+      Asserted directly in the article as an illustrative example, not tied to a
+      specific named blockchain or on-chain data source.
+    source_lineage: >-
+      src/content/docs/decentralization-spectrum.md (author's own framing; no
+      external citation given)
+    interpretation: >-
+      Central to the article's "two dimensions" argument — used to show that
+      technological decentralization (node count/distribution) and
+      sociopolitical decentralization (who actually controls decisions/value)
+      must be assessed separately.
+    uncertainty: >-
+      The 50%-single-wallet example is illustrative/general rather than backed
+      by a cited case or dataset; no specific chain or holder analysis is
+      referenced. Treat as a reasoned claim, not an empirically sourced one.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/decentralization-spectrum.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ee62e83173d4

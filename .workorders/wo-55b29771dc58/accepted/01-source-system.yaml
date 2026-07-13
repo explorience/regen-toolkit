@@ -1,0 +1,37 @@
+schema: source-system
+object:
+  title: Gitcoin (gitcoin.co)
+  type: docs-site
+  steward: Gitcoin
+  what_it_curates: >-
+    Mechanism explainers (quadratic funding, retroactive funding), blog posts,
+    research write-ups, case studies (e.g. GG24), and round-operator
+    documentation for Grants Stack, Gitcoin's open QF-round tooling.
+  why_it_matters: >-
+    The primary living source behind this article's mechanism description,
+    formula, GG24 Bioregional Reforestation Round case study, sybil-defense
+    explanation, and Grants Stack setup walkthrough — cited across nearly every
+    section.
+  how_to_credit: Credit Gitcoin by name and link to the specific gitcoin.co page cited.
+  use_type: mechanism reference + round-operator documentation
+  reuse_conditions: not stated in the source article — unconfirmed
+  return_path: >-
+    none known — flag to steward. Gitcoin's governance forum (gov.gitcoin.co,
+    cited elsewhere in this article for round proposals) is the likely
+    contribute-back channel; not confirmed for this ingestion.
+  currentness: >-
+    actively maintained; article cites GG24 (Oct-Nov 2025) as Gitcoin's most
+    recent funding round as of this writing
+  update_rhythm: ongoing (quarterly-ish funding rounds; blog/research posts as published)
+  extraction_status: >-
+    partial — content summarized from the article, not fetched directly from
+    gitcoin.co
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gitcoin-grants-qf.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-55b29771dc58
+  source_lineage: gitcoin-grants-qf.md

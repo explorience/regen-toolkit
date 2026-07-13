@@ -1,0 +1,46 @@
+schema: concept-lineage
+object:
+  title: Minimum Viable Node (MVN)
+  type: concept-lineage
+  short_description: >-
+    The smallest real version of a local initiative that actually does something
+    for real people — the smallest loop of people coordinating value together
+    that can be run with the people already on hand, before tokens, treasuries,
+    or on-chain governance enter the picture.
+  source_traditions:
+    - lean-startup minimum viable product (MVP)
+  toolkit_usage: >-
+    Framed as the answer to three specific organizer fears — burnout, building
+    something nobody wants, and central overreach — and operationalized in the
+    article as three load-bearing parts: a one-sentence shared purpose, a way to
+    track value, and five to ten people who reliably show up.
+  adjacent_meanings:
+    - minimum viable product (MVP), the lean-startup source concept
+  important_distinctions:
+    - >-
+      "One is a plan. The other is a working node with a sample size of two." —
+      the article's own distinction between writing a whitepaper for a community
+      currency and actually lending a neighbour a drill in exchange for tracked
+      time.
+    - >-
+      Autonomous yet connected — an MVN is explicitly not isolationist; the
+      article distinguishes "belonging to a network" from "being captured by
+      one."
+  tensions:
+    - >-
+      Guarding against central overreach (keeping heavy machinery out) vs.
+      tapping shared learning from networks like ReFi DAO and Greenpill so the
+      node doesn't reinvent every wheel.
+  risks_of_flattening: >-
+    Treating "minimum viable" as an excuse to skip the hard part (real
+    conversations, an actual exchange with real people) rather than as a
+    sequencing discipline that defers technology until human coordination is
+    actually straining.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-810346fad236
+  source_lineage: minimum-viable-node.md

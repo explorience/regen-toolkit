@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: >-
+    Walmart mango traceback dropped from ~7 days to 2.2 seconds on Hyperledger
+    Fabric
+  type: claim-evidence
+  claim: >-
+    "In a pilot tracing mangoes, finding a fruit's origin dropped from about
+    seven days to 2.2 seconds" using Hyperledger Fabric.
+  evidence: >-
+    Attributed to the LF Decentralized Trust Walmart case study, linked in the
+    article's references.
+  source_lineage: >-
+    src/content/docs/what-is-blockchain.md — LF Decentralized Trust: Walmart
+    case study
+    (https://www.lfdecentralizedtrust.org/case-studies/walmart-case-study)
+  interpretation: >-
+    Used as the enterprise-scale comparison point for how a shared, checkable
+    record turns a contamination-scare investigation from days of guesswork into
+    a same-minute answer.
+  uncertainty: >-
+    Pilot-result figures reported by the platform steward's own case study; not
+    independently re-verified against Walmart's own disclosures here.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c60d165437c8

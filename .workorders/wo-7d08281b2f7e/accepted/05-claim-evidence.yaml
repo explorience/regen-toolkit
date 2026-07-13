@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: US crypto-related losses reported to the FBI hit $9.3B in 2024
+  type: claim-evidence
+  claim: >-
+    Victims reported $9.3 billion in crypto-related losses to the FBI in 2024, a
+    66% jump from the year before; investment fraud was the single largest
+    category at $5.8 billion.
+  evidence: >-
+    FBI 2024 Internet Crime Report (IC3), cited by URL in the article's
+    references.
+  source_lineage: >-
+    FBI 2024 Internet Crime Report (IC3) —
+    https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+  interpretation: >-
+    Used to establish stakes before walking through specific scam types;
+    investment-fraud share motivates the article's dedicated "too-good-to-be-
+    true returns" section.
+  uncertainty: >-
+    FBI IC3 figures rely on victim self-reporting, which undercounts actual
+    losses (many victims don't report). Not independently re-verified against
+    the source PDF here.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-scams.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-7d08281b2f7e

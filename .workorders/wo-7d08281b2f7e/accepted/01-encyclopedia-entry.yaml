@@ -1,0 +1,29 @@
+schema: encyclopedia-entry
+object:
+  title: Common Crypto Scams and How to Spot Them
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A plain-language field guide to the main crypto scam patterns — phishing,
+    investment/"guaranteed returns" fraud, romance/"pig butchering" scams, and
+    rug pulls — plus the psychological levers (urgency, authority, trust)
+    scammers reuse, practical defenses (hardware wallets, 2FA, bookmarked URLs,
+    multi-sig for shared funds), and what to do if you've been scammed (stop
+    contact, document, report to IC3, alert your community).
+  audience: community organisers and newcomers to Web3
+  known_tensions:
+    - >-
+      article notes AI is now used to generate convincing scam content/voices,
+      which erodes "professional appearance" as a trust signal
+  related_concepts:
+    - phishing
+    - rug-pull
+    - pig-butchering-scam
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-scams.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7d08281b2f7e
+  source_lineage: common-scams.md

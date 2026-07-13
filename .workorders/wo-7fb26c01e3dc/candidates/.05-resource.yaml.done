@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: "Protégé (Stanford ontology editor)"
+  type: resource
+  url: https://protege.stanford.edu/
+  resource_type: tool
+  link_status: active
+  notes: >-
+    Free, open-source OWL 2 ontology editor from Stanford, ships with
+    reasoners like HermiT. Recommended in ontology-vs-taxonomy.md's "Stretch"
+    exercise: model one real relationship (e.g. "Grant requires Report") and
+    run the reasoner against three real records to test whether an ontology
+    earns its keep before committing to building one.
+  related_concepts:
+    - ontology
+  original_source: src/content/docs/ontology-vs-taxonomy.md ([PROTEGE] reference)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ontology-vs-taxonomy.md
+    transformation: summarized
+    authorship: ai-assisted

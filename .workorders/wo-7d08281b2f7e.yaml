@@ -1,0 +1,32 @@
+id: wo-7d08281b2f7e
+title: ingest common-scams.md
+type: work-order
+source_path: common-scams.md
+source_hash: 7a705503e4a75cc03e584d733db6981078e3806938444b7d7372430daef781a4
+source_type: transcript
+target_schemas:
+  - source-system
+  - resource
+  - concept-lineage
+  - signal
+  - claim-evidence
+instructions: >-
+  Deep intake (transcript): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-A
+produced:
+  - data/kb/encyclopedia-entry.yaml#common-crypto-scams-and-how-to-spot-them
+  - data/kb/concept-lineage.yaml#phishing-crypto
+  - data/kb/concept-lineage.yaml#rug-pull
+  - data/kb/concept-lineage.yaml#pig-butchering-romance-scam
+  - >-
+    data/kb/claim-evidence.yaml#us-crypto-related-losses-reported-to-the-fbi-hit-9-3b-in-2024
+  - >-
+    data/kb/signal.yaml#ai-is-escalating-scam-realism-and-scale-the-pattern-list-needs-periodic-refresh
+  - data/kb/source-system.yaml#chainalysis-crypto-crime-report-annual
+  - >-
+    data/kb/signal.yaml#no-known-return-path-to-chainalysis-or-fbi-ic3-outreach-needed

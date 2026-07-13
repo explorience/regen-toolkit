@@ -1,0 +1,34 @@
+schema: encyclopedia-entry
+object:
+  title: Why Measurement Matters for Your Local Node
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practical guide for local-node and chapter builders on measuring impact
+    without bureaucracy or burnout: why measurement prevents burnout on
+    non-compounding activity, the outputs/outcomes/impact distinction, why in
+    Web3 measurement is the funding rail rather than after-the-fact paperwork
+    (retroactive funding, attestation, hypercerts), why holding your own
+    verified record supports node autonomy, and a start-small honest-reporting
+    practice.
+  audience: local node and chapter builders
+  known_tensions:
+    - measurement rigor vs. burnout / bureaucracy risk
+    - >-
+      node autonomy from a parent DAO/umbrella org vs. needing to report up to
+      the network
+  related_concepts:
+    - outputs-vs-outcomes-vs-impact
+  related_resources:
+    - Ethereum Attestation Service (EAS)
+    - Hypercerts Protocol
+    - Regen Network Registry
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a796f519a8b8
+  source_lineage: why-measurement-matters.md

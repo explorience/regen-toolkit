@@ -1,0 +1,33 @@
+id: wo-55907730d33f
+title: ingest what-is-refi.md
+type: work-order
+source_path: what-is-refi.md
+source_hash: a660140d69f49490810f6a674488c3bde4f78d47a5d5c360bb4995f1373ab5ef
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-D
+produced:
+  - data/kb/source-system.yaml#greenpill-network
+  - data/kb/resource.yaml#toucan-protocol
+  - data/kb/resource.yaml#gitcoin-quadratic-funding
+  - data/kb/resource.yaml#silvi
+  - data/kb/concept-lineage.yaml#regenerative-finance-refi
+  - >-
+    data/kb/claim-evidence.yaml#toucan-accounts-for-85-of-digital-carbon-credit-volume
+  - >-
+    data/kb/claim-evidence.yaml#verra-banned-tokenizing-already-retired-carbon-credits-2023
+  - >-
+    data/kb/signal.yaml#greenpill-network-source-system-card-has-no-known-return-path
+  - data/kb/public-use-boundary.yaml#untitled-24c9cdae
+  - data/kb/encyclopedia-entry.yaml#what-is-refi

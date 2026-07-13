@@ -1,0 +1,29 @@
+schema: concept-lineage
+object:
+  title: Rug pull
+  type: concept-lineage
+  short_description: >-
+    A project's creators take investors' pooled funds and abandon the
+    project, often after building tokenomics that quietly blocks holders from
+    selling.
+  source_traditions:
+    - crypto/DeFi token-launch culture
+  toolkit_usage: >-
+    Illustrated in the article with the SQUID token (2021) case: price
+    spiked from cents to $2,800+, then developers drained funds and the
+    sell-blocking code trapped 40,000+ buyers.
+  important_distinctions:
+    - >-
+      anonymous-team-vs-rug-pull — the article stresses an anonymous team
+      isn't automatically a scam; trust should come from open code and
+      independent audits, not team visibility alone
+  risks_of_flattening: >-
+    Not every failed/abandoned crypto project is a deliberate rug pull;
+    conflating negligence, failure, and intentional fraud under one label
+    can mislabel honest failures as scams.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-scams.md
+    transformation: summarized
+    authorship: ai-assisted

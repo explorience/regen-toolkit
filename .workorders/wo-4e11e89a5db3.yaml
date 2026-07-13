@@ -1,0 +1,31 @@
+id: wo-4e11e89a5db3
+title: ingest federation-portability.md
+type: work-order
+source_path: federation-portability.md
+source_hash: 05590d5d179c76d309b3b27a842d5f0c08a1d5ad5c35f0f3024ca4af2ff7b9f6
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-A
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#federation-and-portability-building-a-commons-that-outlives-its-tools
+  - data/kb/concept-lineage.yaml#portability-knowledge-commons
+  - data/kb/concept-lineage.yaml#federation-knowledge-commons
+  - data/kb/concept-lineage.yaml#rid-reference-identifier
+  - data/kb/source-system.yaml#koi-net-blockscience-metagov-rmit
+  - data/kb/resource.yaml#obsidian-256b900d
+  - >-
+    data/kb/claim-evidence.yaml#koi-net-reached-public-beta-in-may-2025-and-is-actively-maintained
+  - >-
+    data/kb/claim-evidence.yaml#activitypub-mastodon-federates-followers-but-not-post-content-as-of-2025

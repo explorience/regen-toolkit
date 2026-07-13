@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: Smart wallets with passkey/guardian recovery (Base App, Argent "Ready")
+  type: resource
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - crypto-wallet-keys-not-money
+  is_source_system_candidate: false
+  link_status: unresolved
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-wallet.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Newer wallet category described in the article: replaces the lone written
+    recovery phrase with passkey sign-in (Face ID/fingerprint) plus recovery via
+    phone backup or trusted "guardians" who can help restore access but cannot
+    spend funds. Named examples: the Base App (Coinbase's wallet, replaced the
+    older Coinbase Wallet in 2025) and Argent (rebranded "Ready" in mid-2025).
+    Grouped as one resource entry since the article treats them as one emerging
+    pattern rather than profiling each separately; no single canonical URL given
+    for the pattern itself.
+  work_order: wo-553392f77839
+  source_lineage: what-is-wallet.md

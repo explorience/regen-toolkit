@@ -1,0 +1,41 @@
+schema: claim-evidence
+object:
+  title: >-
+    Regen Network's on-chain ecological data lets a distant funder trust
+    regeneration happened
+  type: claim-evidence
+  claim: >-
+    "Regen Network pays land stewards for measurable ecological work, like
+    restored soil or biodiversity, by recording verified ecological data on a
+    blockchain and issuing credits that buyers can purchase. The shared,
+    checkable record is what lets a funder half a world away trust that the
+    regeneration actually happened."
+  evidence: >-
+    Described at a high level in the article with a link to Regen Network's own
+    site; no specific MRV (measurement/reporting/verification) methodology,
+    dataset, or third-party audit is cited or described in the source text
+    itself.
+  source_lineage: >-
+    src/content/docs/what-is-blockchain.md — Regen Network
+    (https://www.regen.network/)
+  interpretation: >-
+    This is an ecological/MRV-adjacent claim (a standing high-risk trigger per
+    the ingest skill) about what an on-chain record can vouch for ("the
+    regeneration actually happened"). The blockchain guarantees tamper-evidence
+    of whatever data was recorded — it does not by itself verify that the
+    underlying ecological measurement was accurate; the article does not
+    separate these two claims.
+  uncertainty: >-
+    High for the ecological-outcome portion of the claim: the article asserts
+    trust is warranted but does not describe Regen Network's actual MRV
+    methodology, verifier credentials, or audit process. The tamper-evidence
+    portion (blockchain records are checkable) is on firmer ground than the
+    implied ecological-accuracy portion.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c60d165437c8

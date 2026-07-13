@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Logseq
+  type: resource
+  resource_type: note-taking-tool
+  url: https://logseq.com/
+  link_status: active
+  notes: >-
+    Open-source, local-first notes tool long loved for keeping notes as
+    local Markdown. Cited as a portability caution: it shipped a new
+    SQLite-backed "DB version" in 2025-2026 to fix performance limits on
+    large graphs — faster, but data now lives in a database schema rather
+    than portable text, and the two formats are not interoperable. The
+    article's lesson: "file-on-disk" is a property to keep checking for, not
+    assume, even for historically file-based tools.
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted

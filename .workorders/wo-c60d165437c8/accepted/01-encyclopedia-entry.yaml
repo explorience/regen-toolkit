@@ -1,0 +1,40 @@
+schema: encyclopedia-entry
+object:
+  title: What Is a Blockchain?
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Plain-language, no-hype introduction to blockchains via a "village notebook"
+    analogy: many computers (nodes) keep identical copies of a record, batched
+    into blocks that hash-chain to make history tamper-evident ("immutable"),
+    removing the need to trust any single keeper ("trustless") and solving
+    double-spending without a referee. Covers real regenerative/community
+    examples (Grassroots Economics' Sarafu Network, Regen Network), an
+    enterprise comparison (Walmart on Hyperledger Fabric), and an honest costs
+    section (energy use differences between proof-of-work and proof-of-stake,
+    permanence cutting both ways, and that blockchains record agreement but
+    don't create it).
+  audience: community organisers and growers new to crypto
+  known_tensions:
+    - >-
+      immutability is good for trust but unforgiving for mistakes (wrong
+      entries/payments usually can't be undone)
+    - >-
+      'blockchain wastes energy' is true of proof-of-work chains like Bitcoin
+      but false of proof-of-stake chains most regenerative projects actually use
+  related_concepts:
+    - blockchain
+    - proof-of-work-vs-proof-of-stake
+  related_resources:
+    - Grassroots Economics / Sarafu Network
+    - Regen Network
+    - Walmart / Hyperledger Fabric case study
+    - Bankless Academy
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c60d165437c8
+  source_lineage: what-is-blockchain.md

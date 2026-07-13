@@ -1,0 +1,31 @@
+id: wo-55b29771dc58
+title: ingest gitcoin-grants-qf.md
+type: work-order
+source_path: gitcoin-grants-qf.md
+source_hash: 087ae080b4ff634184a48836d6930e530d2e68d4477370a9ce59441ffd2f2cb6
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-B
+produced:
+  - data/kb/source-system.yaml#gitcoin-gitcoin-co
+  - data/kb/signal.yaml#confirm-gitcoin-s-contribute-back-return-path
+  - data/kb/encyclopedia-entry.yaml#gitcoin-grants-and-quadratic-funding
+  - >-
+    data/kb/concept-lineage.yaml#quadratic-funding-formula-and-the-breadth-over-wealth-design-goal
+  - data/kb/claim-evidence.yaml#gg24-bioregional-reforestation-round-scale
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-gg24-bioregional-reforestation-round-figures-gitcoin-grants-qf-md
+  - >-
+    data/kb/claim-evidence.yaml#gitcoin-s-two-layer-sybil-defense-human-passport-and-cocm
+  - data/kb/resource.yaml#grants-stack

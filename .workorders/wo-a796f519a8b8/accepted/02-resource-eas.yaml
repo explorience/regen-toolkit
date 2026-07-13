@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Ethereum Attestation Service (EAS)
+  type: resource
+  url: https://attest.org/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - outputs-vs-outcomes-vs-impact
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Open standard for recording signed, tamper-evident attestations (on-chain or
+    off-chain, free schemas); article states over 9.5 million attestations
+    recorded as of mid-2026. Positioned as the recommended plumbing for a local
+    node to attest workshops, plantings, or shipped deliverables. Explorer:
+    easscan.org.
+  work_order: wo-a796f519a8b8
+  source_lineage: why-measurement-matters.md

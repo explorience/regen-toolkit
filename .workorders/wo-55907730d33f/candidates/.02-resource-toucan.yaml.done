@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: "Toucan Protocol"
+  type: resource
+  url: "https://toucan.earth/"
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - regenerative-finance-refi
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Infrastructure that turns verified carbon credits into digital tokens;
+    per the article, accounts for roughly 85% of digital carbon-credit
+    volume and has supported ~$4B in trading volume, working alongside Gold
+    Standard and Puro.earth. Involved in a 2023 Verra policy dispute over
+    tokenizing already-retired credits (see linked claim-evidence).

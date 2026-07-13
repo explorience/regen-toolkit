@@ -1,0 +1,25 @@
+schema: claim-evidence
+object:
+  title: ReFi DAO has supported 100+ events across 58 cities
+  type: claim-evidence
+  claim: >-
+    ReFi DAO has supported 100+ events across 58 cities through its local-node
+    network.
+  evidence: >-
+    Stated in the article as a scale indicator for the ReFi DAO local-node
+    network; not attributed to a specific dated report.
+  source_lineage: src/content/docs/first-90-days.md (uncited scale figure)
+  interpretation: >-
+    Used to establish that ReFi DAO coordinates a real, sizeable network,
+    supporting the article's recommendation to plug into an existing network
+    rather than build alone.
+  uncertainty: >-
+    No specific source or as-of date is given for this figure in the article;
+    treat as an approximate, unverified network-scale claim.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-e009425cced2

@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: Blockchain
+  type: concept-lineage
+  short_description: >-
+    A digital record (ledger) that many computers (nodes) keep identical,
+    synchronized copies of, organized into blocks that each carry a hash
+    (fingerprint) of the previous block, making the history tamper-evident
+    and removing the need for a single trusted keeper.
+  source_traditions:
+    - "distributed systems / distributed ledger technology"
+    - "cryptography (cryptographic hashing, consensus mechanisms)"
+    - "digital currency (Bitcoin's original use case)"
+  toolkit_usage: >-
+    Introduced via a "village notebook" analogy for readers new to crypto;
+    grounds the toolkit's later, more technical articles (proof of
+    work/stake, wallets, decentralization) in a plain-language first
+    encounter.
+  adjacent_meanings:
+    - "distributed ledger (the general category; a blockchain is one specific structure — hash-chained blocks — within it)"
+    - "database with replication (superficially similar copy-everywhere idea, but lacks the hash-chaining + consensus that make a blockchain tamper-evident without a trusted operator)"
+  important_distinctions:
+    - "immutable ≠ unchangeable-in-theory — rewriting settled history is possible in principle but requires redoing every subsequent block and persuading a majority of nodes simultaneously, which is what makes it impractical rather than impossible"
+    - "trustless ≠ untrustworthy — it means no single keeper needs to be trusted because every node can verify every other node's records"
+  tensions:
+    - "permanence protects against tampering but also means mistakes (wrong entries, misdirected payments) usually can't be undone"
+    - "public chains are often fully visible, so transparency and privacy pull against each other for sensitive community information"
+  risks_of_flattening: >-
+    Treating "blockchain" as a single monolithic technology with one energy
+    profile or one privacy model — proof-of-work vs. proof-of-stake chains
+    differ by roughly three orders of magnitude in energy use, and public
+    vs. permissioned chains differ sharply in visibility.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted

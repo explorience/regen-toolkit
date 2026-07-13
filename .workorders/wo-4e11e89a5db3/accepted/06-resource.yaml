@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Obsidian
+  type: resource
+  resource_type: tool
+  url: https://obsidian.md
+  notes: >-
+    Local-first notes app whose entire database is plain Markdown files on the
+    user's own machine — used in the article as the concrete,
+    non-technical-friendly proof that Markdown+Git portability works ("if
+    Obsidian disappeared tomorrow, your vault would still open in TextEdit").
+  related_concepts:
+    - portability
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-4e11e89a5db3
+  source_lineage: federation-portability.md

@@ -1,0 +1,57 @@
+schema: encyclopedia-entry
+object:
+  title: The Funding Landscape
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A map of web3 and ReFi-native funding mechanisms for local node builders,
+    organized around one axis: prospective funding (grants, quadratic funding)
+    that pays before the work happens, versus retrospective funding (RetroPGF /
+    Retro Funding, hypercerts) that pays after impact is shown. Also surveys
+    direct grants, streaming/recurring funding, yield-based ("evergreen")
+    funding, and conviction voting, and closes on Sybil/collusion risk in QF
+    and the case for blending funding sources so no single funder sets a
+    node's direction.
+  audience: local node organizers evaluating funding mechanisms
+  known_tensions:
+    - >-
+      Quadratic funding rewards breadth but is structurally vulnerable to
+      Sybil attacks and collusion; every fix (e.g. identity verification via
+      Gitcoin Passport/Human Passport) trades away some decentralization for
+      integrity.
+    - >-
+      Retro funding rewards track record, which favors established nodes over
+      brand-new ones with no visible output yet.
+    - >-
+      External/grant funding "often means external priorities entering your
+      community space" — the article's own defense is blending sources, not
+      avoiding funding.
+  related_concepts:
+    - quadratic-funding
+    - retroactive-public-goods-funding
+    - hypercerts
+  related_resources:
+    - octant
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-landscape.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-704b0ef07811, funding-landscape.md):
+# - "8 forms of capital" framing (financial/social/living/cultural/etc.) — the
+#   work-order brief flagged this as a watch-item, but the article does not use
+#   multi-capital language at all; it frames capital purely as prospective vs.
+#   retrospective funding-mechanism families. Nothing to extract here — noting
+#   the absence rather than inventing the framing.
+# - Individual named ReFi local nodes (ReFi Costa Rica, ReFi Lagos, ReFi
+#   Barcelona, ReFi Tanzania, ReFi Sicilia) — mentioned only as one-line
+#   examples of direct-grant recipients; not enough substance per node for a
+#   standalone resource object in this pass. Captured in aggregate via the
+#   ReFi DAO claim-evidence candidate instead.
+# - The companion article "Funding Your Local Node" and "Building a
+#   Sustainable Funding Mix" — referenced by internal link but not the source
+#   of this work order; left for their own ingestion pass.
+# - Narrative/rhetorical framing ("the question that empties the room") —
+#   scene-setting device, not extractable content.

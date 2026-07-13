@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Gnosis Auction
+  type: resource
+  resource_type: mechanism
+  link_status: unresolved
+  notes: >-
+    Cited in treasury-management.md as an example of a "batch auction" —
+    aggregates buyer interest and sets a single clearing price, preventing
+    manipulation, as one of the strategic token-sale approaches for diversifying
+    a treasury with reduced market impact. No URL captured in the source
+    article.
+  related_concepts:
+    - dao-treasury-diversification
+  original_source: src/content/docs/treasury-management.md
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6e3dae058f08
+  source_lineage: treasury-management.md

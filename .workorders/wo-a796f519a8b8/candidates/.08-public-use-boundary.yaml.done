@@ -1,0 +1,22 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the two claim-evidence entries in this work order that carry
+    MRV/impact-measurement scale figures (EAS's 9.5M+ attestations; GG24's
+    retroactive-funding mechanism count). Both are stated in a
+    plain-language article without primary-source citation; treat as
+    impact-measurement/MRV-adjacent claims needing verification against
+    primary sources (EAS's own explorer, Gitcoin's GG24 reporting) before
+    any public or funding-decision-relevant reuse.
+  review_type: steward-review-before-public-use
+  notes: >-
+    High-risk trigger: MRV/carbon and impact-measurement claims (per ingest
+    skill's high-risk triggers). Covers candidates
+    05-claim-evidence-eas-attestations.yaml and
+    06-claim-evidence-retroactive-funding.yaml in this work order.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: synthesized
+    authorship: ai-assisted

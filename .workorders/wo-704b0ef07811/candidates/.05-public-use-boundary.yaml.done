@@ -1,0 +1,20 @@
+schema: public-use-boundary
+object:
+  title: Boundary — ReFi DAO 2024 funding-distribution claim (funding-landscape.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Funding-amount and program-scale figures for ReFi DAO's 2024 rounds are
+    taken from a secondary citation (ReFi DAO's own blog recap), not
+    independently verified. Confirm current figures with ReFi DAO before
+    reusing them in funding-recommendation contexts.
+  review_type: steward-review-before-public-use
+  notes: >-
+    Covers the claim-evidence entry "ReFi DAO's 2024 grassroots funding
+    distribution to Local Nodes" (same work order). Funding-related claims
+    carry high_risk and this boundary by default per the ingest skill's
+    high-risk triggers.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-landscape.md
+    transformation: synthesized
+    authorship: ai-assisted

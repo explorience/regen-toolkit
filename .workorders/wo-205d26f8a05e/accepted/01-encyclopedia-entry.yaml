@@ -1,0 +1,43 @@
+schema: encyclopedia-entry
+object:
+  title: A Tools Directory for Knowledge That Outlives Turnover
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    An opinionated, named-tool guide for building a team knowledge commons that
+    survives contributor turnover. Organized around one governing principle
+    ("infrastructure should follow function") and one portability test ("would
+    your knowledge survive the tool dying?"), it maps tool choices to jobs (team
+    knowledge base, individual notes, public site) and names a
+    public/internal/private visibility-tier substrate mapping.
+  audience: small teams and local nodes choosing knowledge-commons tooling
+  known_tensions:
+    - >-
+      Polished, collaboration-friendly tools (Notion) vs. durable,
+      portable-in-plain-text tools (Markdown + Git) — the article resolves this
+      as "own your source of truth in plain text and Git; use everything else as
+      a publishing or collaboration layer on top."
+    - >-
+      Even historically file-based tools can drift away from portability —
+      Logseq's 2025-2026 SQLite-backed "DB version" is cited as a caution that
+      "file-on-disk" is a property to keep checking, not assume.
+  related_concepts:
+    - infrastructure-follows-function
+  related_resources:
+    - obsidian
+    - quartz
+    - astro-starlight
+    - bookstack
+    - outline
+    - wiki-js
+    - gitbook
+    - notion
+    - logseq
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-205d26f8a05e
+  source_lineage: knowledge-tools-directory.md

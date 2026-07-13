@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: 1Hive
+  type: resource
+  url: https://about.1hive.org/
+  resource_type: org
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - decentralization
+  is_source_system_candidate: true
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-decentralization.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Community building open governance tools; cited in the article as the source
+    of the "free, fair, open, and humane" decentralization checklist used to
+    structure the piece's "What Good Decentralization Looks Like" section.
+  work_order: wo-0f39787ee74e
+  source_lineage: what-is-decentralization.md

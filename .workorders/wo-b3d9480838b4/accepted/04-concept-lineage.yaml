@@ -1,0 +1,34 @@
+schema: concept-lineage
+object:
+  title: Stablecoins
+  type: concept-lineage
+  short_description: >-
+    Cryptocurrencies pegged to a stable reference asset (typically the US
+    dollar) so their value doesn't swing the way bitcoin's does, making them
+    practical for organizations needing predictable budgets.
+  source_traditions:
+    - crypto/DeFi
+    - traditional finance (currency-peg concept)
+  toolkit_usage: >-
+    Positioned in this article as the practical, everyday-operations use case
+    for nonprofits (vs. bitcoin/volatile-crypto donations for one-off crisis
+    fundraising) — cross-border payments and predictable budgeting.
+  adjacent_meanings:
+    - crypto-donations
+    - cross-border-payments
+  important_distinctions:
+    - >-
+      stablecoins-vs-volatile-crypto — stablecoins are framed as suited to
+      recurring operational use, not speculative holding
+  risks_of_flattening: >-
+    The article doesn't distinguish stablecoin types (fiat-collateralized vs.
+    algorithmic vs. crypto-collateralized) or their differing risk profiles —
+    treating "stablecoin" as a single practical mechanism.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/case-studies-nonprofits.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b3d9480838b4
+  source_lineage: case-studies-nonprofits.md

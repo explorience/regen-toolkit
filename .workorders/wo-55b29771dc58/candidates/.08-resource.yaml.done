@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Grants Stack
+  type: resource
+  resource_type: round-operator-tooling
+  url: https://roundoperations.gitcoin.co/round-operations/round-setup/setup-on-grants-stack
+  link_status: active
+  is_source_system_candidate: false
+  notes: >-
+    Gitcoin's open tooling for running a QF round end to end (create a
+    program, choose Quadratic Funding, set round basics, payout token and
+    matching pool, optional matching cap/minimum donation/Human Passport
+    requirement, eligibility rules, then launch on-chain). The article frames
+    the hard part as everything around the software — raising a real
+    matching pool, recruiting genuine projects, and driving real donor
+    turnout in a short window.
+  related_concepts:
+    - quadratic-funding-formula
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gitcoin-grants-qf.md
+    transformation: summarized
+    authorship: ai-assisted

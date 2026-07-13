@@ -1,0 +1,55 @@
+schema: concept-lineage
+object:
+  title: Crypto Wallet (keys, not money)
+  type: concept-lineage
+  short_description: >-
+    A crypto wallet does not store cryptocurrency itself — funds live on the
+    blockchain. A wallet holds the cryptographic keys (a public key/address to
+    receive with, and a private key that must never be shared) that prove a
+    slice of the shared ledger belongs to you.
+  source_traditions:
+    - public-key cryptography
+    - blockchain / distributed ledgers
+  toolkit_usage: >-
+    Foundations-layer explainer for community organizers and permaculturists new
+    to Web3; builds the public/private key distinction, then the recovery-phrase
+    concept, then newer passkey-based "smart wallet" recovery, then hot-vs-cold
+    wallet trade-offs, then names common scam patterns.
+  adjacent_meanings:
+    - >-
+      traditional bank account (explicitly contrasted: no 'forgot password' or
+      fraud department for a crypto wallet)
+    - >-
+      smart wallet (passkey + guardian-based recovery, positioned as a newer
+      alternative to the classic recovery-phrase model)
+  important_distinctions:
+    - >-
+      public-key-vs-private-key — the article's central operational distinction:
+      the public key/address is safe to share (like a street address), the
+      private key must never be shared (like the only key to your front door).
+    - >-
+      recovery-phrase-vs-smart-wallet-recovery — classic 12–24-word seed phrase
+      backup vs. newer passkey + guardian-based recovery (e.g. Argent "Ready",
+      Base App) that removes the single-written-artifact failure mode.
+    - >-
+      hot-wallet-vs-cold-wallet — always-online convenience (phone/browser) vs.
+      offline hardware-device security; framed as a convenience/security
+      trade-off, not a strict better/worse.
+  tensions:
+    - >-
+      convenience-vs-security — the article's own suggested pattern is a small
+      amount in a hot wallet for everyday use and larger amounts in cold
+      storage, rather than resolving the trade-off one way.
+  risks_of_flattening: >-
+    Treating "wallet" as synonymous with "exchange account" erases the article's
+    core point that a wallet holds keys to a decentralized public ledger, not
+    custodied funds — the whole recovery-phrase/scam-risk section only makes
+    sense once that distinction is clear.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-wallet.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-553392f77839
+  source_lineage: what-is-wallet.md

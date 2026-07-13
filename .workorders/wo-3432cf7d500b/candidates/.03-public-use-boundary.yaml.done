@@ -1,0 +1,23 @@
+schema: public-use-boundary
+object:
+  title: Boundary — cultural/Indigenous attribution in the 5P gathering framework (gatherings-pattern.md)
+  tier: public-with-caveat
+  consent_note: >-
+    The article attributes small-group-before-large-group decision patterns
+    and Circle Practice's talking-piece format to "many East African
+    communities" and "many African and Indigenous traditions" without naming
+    a specific community or citing a community-authored source. This is a
+    secondary, broad-strokes attribution from a toolkit article, not sourced
+    directly from the communities named. Do not present as authoritative
+    ethnographic claim; seek community-sourced or specialist review before
+    republishing in a context that speaks on behalf of those traditions.
+  review_type: domain-review-before-public-use
+  notes: >-
+    Covers the concept-lineage entry "Purpose-People-Place-Process-Practice
+    (5P gathering framework)" (same work order) — flagged per the ingest
+    skill's TEK/Indigenous-knowledge high-risk trigger.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gatherings-pattern.md
+    transformation: synthesized
+    authorship: ai-assisted

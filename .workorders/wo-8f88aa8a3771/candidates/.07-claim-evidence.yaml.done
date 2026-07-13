@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: "Commons governance principles (Ostrom) apply to source-system stewardship"
+  type: claim-evidence
+  claim: >-
+    A source system that no one is allowed to govern eventually gets trashed
+    or abandoned; Ostrom's commons-design principles — clearly defined
+    boundaries (who may use/change the resource) and graduated sanctions
+    (proportionate responses to rule-breaking) — translate directly into
+    "who can edit/add/delete" and "how to handle a contributor who keeps
+    adding unsourced claims."
+  evidence: >-
+    Cites Elinor Ostrom's Nobel-winning work on common-pool resource
+    governance (P2P Foundation summary of her eight design principles) and
+    the Token Engineering Commons' "Cultural Build," which explicitly builds
+    on those same eight principles.
+  source_lineage: src/content/docs/source-systems.md ([P2P], [TEC] references)
+  interpretation: >-
+    Frames source-system stewardship as fundamentally a social/governance
+    problem, not a tooling problem — "tools store the knowledge; stewards
+    keep it trustworthy."
+  uncertainty: >-
+    The application of Ostrom's principles (developed for physical
+    common-pool resources like fisheries and irrigation systems) to digital
+    knowledge commons is an analogy the article asserts rather than
+    empirically demonstrates for this specific context.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted

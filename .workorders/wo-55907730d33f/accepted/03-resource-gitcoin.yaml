@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Gitcoin (Quadratic Funding)
+  type: resource
+  url: https://gitcoin.co/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - regenerative-finance-refi
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Has run quadratic funding (a matching model where number of contributors
+    matters more than size of any single donation) for years, per the article
+    distributing over $60 million to more than 3,700 projects, and has since
+    broadened into a mix of funding mechanisms.
+  work_order: wo-55907730d33f
+  source_lineage: what-is-refi.md

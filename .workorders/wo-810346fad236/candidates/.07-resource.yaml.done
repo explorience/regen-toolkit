@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Safe (Wallet)
+  type: resource
+  resource_type: multisig-treasury-tool
+  url: https://safe.global/
+  link_status: active
+  notes: >-
+    Multisig smart-contract wallet (formerly Gnosis Safe), named in the
+    article's complexity-trigger table as the default treasury tool once
+    real money is pooled and one person shouldn't hold the keys alone (e.g.
+    3-of-5 signatures); deploys on Base or Arbitrum for under a dollar.
+  related_concepts:
+    - minimum-viable-node
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: summarized
+    authorship: ai-assisted

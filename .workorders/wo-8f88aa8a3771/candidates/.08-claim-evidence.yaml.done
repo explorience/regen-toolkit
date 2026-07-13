@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: "Inclusion does not mean endorsement"
+  type: claim-evidence
+  claim: >-
+    Adding a source to a knowledge commons means it is "relevant enough to
+    preserve, classify, review, route, or revisit" — it does not mean the
+    project vouches for or endorses its content.
+  evidence: >-
+    Stated as an explicit Toolkit rule in its own reference docs [RKC],
+    paired with the practice of recording provenance on everything so raw,
+    unverified material can be kept without quietly becoming treated as true.
+  source_lineage: src/content/docs/source-systems.md ([RKC] reference)
+  interpretation: >-
+    This is the mechanical justification for why provenance and honest
+    maturity labelling matter — without them, "inclusion ≠ endorsement"
+    cannot actually hold, because readers have no way to tell reviewed
+    material from raw inclusions.
+  uncertainty: >-
+    Sourced to the toolkit's own internal reference docs via a generic
+    placeholder URL in this article's references list — verify the actual
+    citation target before treating this as an external, independently
+    reviewed claim.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted

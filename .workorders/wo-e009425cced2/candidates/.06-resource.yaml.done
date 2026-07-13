@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Glo Dollar (USDGLO)
+  type: resource
+  resource_type: treasury-instrument
+  url: 'https://www.glodollar.org'
+  notes: >-
+    A fully-backed, audited stablecoin that donates 100% of the interest
+    earned on its reserves to public goods and anti-poverty programs. Cited
+    as ReFi Medellín's example of a treasury choice matching mission — but
+    the article notes Medellín had a community and treasury before adopting
+    it (tooling follows people, not the reverse).
+  related_concepts:
+    - local-node
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: summarized
+    authorship: ai-assisted

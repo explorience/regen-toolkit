@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: Token concentration can negate sociopolitical decentralization
+  type: claim-evidence
+  claim: >-
+    In blockchain systems, token holdings often determine sociopolitical
+    power; a system where one wallet controls 50% of tokens is not truly
+    decentralized regardless of its technical architecture.
+  evidence: >-
+    Asserted directly in the article as an illustrative example, not tied to
+    a specific named blockchain or on-chain data source.
+  source_lineage: src/content/docs/decentralization-spectrum.md (author's own framing; no external citation given)
+  interpretation: >-
+    Central to the article's "two dimensions" argument — used to show that
+    technological decentralization (node count/distribution) and
+    sociopolitical decentralization (who actually controls decisions/value)
+    must be assessed separately.
+  uncertainty: >-
+    The 50%-single-wallet example is illustrative/general rather than backed
+    by a cited case or dataset; no specific chain or holder analysis is
+    referenced. Treat as a reasoned claim, not an empirically sourced one.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-spectrum.md
+    transformation: summarized
+    authorship: ai-assisted

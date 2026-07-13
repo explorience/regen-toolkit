@@ -1,0 +1,33 @@
+id: wo-205d26f8a05e
+title: ingest knowledge-tools-directory.md
+type: work-order
+source_path: knowledge-tools-directory.md
+source_hash: f610858b3841b93637979d8956742c35c9eb981d7e90336f24ea7108b80a7ca0
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-B
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#a-tools-directory-for-knowledge-that-outlives-turnover
+  - data/kb/concept-lineage.yaml#infrastructure-follows-function
+  - data/kb/resource.yaml#obsidian
+  - data/kb/resource.yaml#quartz
+  - data/kb/resource.yaml#astro-starlight
+  - data/kb/resource.yaml#bookstack
+  - data/kb/resource.yaml#outline
+  - data/kb/resource.yaml#wiki-js
+  - data/kb/resource.yaml#gitbook
+  - data/kb/resource.yaml#notion
+  - data/kb/resource.yaml#logseq
+  - data/kb/resource.yaml#gravitydao

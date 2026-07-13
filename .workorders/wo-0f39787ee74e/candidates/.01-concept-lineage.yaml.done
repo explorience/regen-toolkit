@@ -1,0 +1,64 @@
+schema: concept-lineage
+object:
+  title: "Decentralization"
+  type: concept-lineage
+  short_description: >-
+    Spreading control and decision-making across many people instead of
+    concentrating it in one place, so no single person, company, or office
+    can shut things down, change the rules alone, or lock everyone else out.
+    Framed in the article as a way of organizing power, not primarily a
+    technology.
+  source_traditions:
+    - cooperatives
+    - mutual aid networks
+    - seed-saving circles / community seed swaps
+    - rotating savings groups
+    - crypto / DAO governance
+  toolkit_usage: >-
+    Used as a foundations-layer explainer for community organizers and
+    permaculturists new to crypto — reframes "decentralization" away from
+    crypto-hype jargon toward practices (seed swaps, shared tooling, group
+    decision-making) the audience already runs, then bridges to crypto-native
+    tools (Snapshot, quadratic voting) and ReFi DAO's Local Nodes model as
+    concrete implementations.
+  adjacent_meanings:
+    - "technical/architectural decentralization (e.g. node distribution, consensus)"
+    - "governance decentralization (who decides, per this article's framing)"
+    - "economic decentralization (distributed ownership of value/tokens)"
+  important_distinctions:
+    - >-
+      decentralization-is-a-spectrum-not-a-switch — most real systems are
+      hybrids (e.g. an open, tamper-proof ledger paired with founder-driven
+      day-to-day decisions); the honest question is "who holds power, over
+      what, and could they abuse it?" not a binary yes/no.
+    - >-
+      transparency-is-not-optional — the article argues real decentralization
+      comes with *more* transparency, not less, and treats "no one's in
+      charge" framing without visible decisions/money/people as a scam signal.
+  tensions:
+    - >-
+      openness-vs-founder-control — a project can have a fully open, immutable
+      public ledger while day-to-day decisions still run through a small
+      founding group; the article treats this as normal-but-worth-naming
+      rather than a failure state.
+  risks_of_flattening: >-
+    Treating decentralization as purely a technical/architecture property
+    (node count, consensus mechanism) erases the article's core claim that
+    it is fundamentally about organizing power and accountability — a
+    community garden with a rotating steering group can be meaningfully
+    decentralized without touching a blockchain.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-decentralization.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+# - Coordinape's 2025 app wind-down: treated as a passing tool-churn example,
+#   not extracted as its own resource/signal — too thin to stand alone without
+#   more sourcing, folded into the claim-evidence entry on the spectrum framing
+#   instead.
+# - ReFi DAO Local Nodes mention: already covered as a source-system elsewhere
+#   in this ingestion batch (what-is-refi.md work order); not re-registered
+#   here to avoid a duplicate source-system card for the same entity.

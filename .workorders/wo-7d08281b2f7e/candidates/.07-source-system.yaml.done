@@ -1,0 +1,27 @@
+schema: source-system
+object:
+  title: Chainalysis Crypto Crime Report (annual)
+  type: publication
+  steward: Chainalysis
+  what_it_curates: >-
+    Annual blockchain-intelligence research report on crypto crime, cited in
+    this article for the projected $17B global 2025 scam-loss figure, the
+    rise of AI-assisted scam operations, and the 1,400%+ YoY growth in
+    impersonation scams.
+  why_it_matters: >-
+    A recurring, cited data source for this article and likely future
+    scam/security content across the toolkit; worth tracking as a peer
+    source rather than a one-off link.
+  use_type: cited statistics on scam trends
+  reuse_conditions: unknown — not stated in the article; confirm with Chainalysis before reuse
+  return_path: 'none known — flag to steward (Chainalysis)'
+  currentness: cited edition covers 2025 data (referenced as "Chainalysis 2026 Crypto Crime Report")
+  update_rhythm: annual report
+  extraction_status: partial — only the statistics quoted in this article have been captured
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-scams.md
+    transformation: synthesized
+    authorship: ai-assisted

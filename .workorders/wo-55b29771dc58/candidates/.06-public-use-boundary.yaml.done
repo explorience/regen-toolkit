@@ -1,0 +1,19 @@
+schema: public-use-boundary
+object:
+  title: Boundary — GG24 Bioregional Reforestation Round figures (gitcoin-grants-qf.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Donor counts, donation counts, and pool figures for GG24's Bioregional
+    Reforestation Round are taken from Gitcoin's own campaign page and
+    governance-forum post (secondary citations), not independently
+    re-verified. Confirm current figures with Gitcoin before reusing in a
+    funding-recommendation or impact-measurement context.
+  review_type: steward-review-before-public-use
+  notes: >-
+    Covers the claim-evidence entry "GG24 Bioregional Reforestation Round
+    scale" (same work order).
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gitcoin-grants-qf.md
+    transformation: synthesized
+    authorship: ai-assisted

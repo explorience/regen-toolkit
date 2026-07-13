@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Bristol Pound and Bristol Pay wound down for lack of funding, not a flawed idea
+  type: claim-evidence
+  claim: >-
+    The Bristol Pound ran a respected local currency in the UK for nearly a
+    decade and still wound down in 2020-2021, not because the idea was
+    wrong, but because the organization couldn't secure the funding to keep
+    the lights on. Its successor, Bristol Pay, tried to carry the mission
+    forward in digital form and was itself discontinued in 2023, again for
+    lack of funding.
+  evidence: >-
+    Cited in the article's References to "Bristol Pound (Wikipedia)"
+    (https://en.wikipedia.org/wiki/Bristol_pound).
+  source_lineage: src/content/docs/minimum-viable-node.md
+  interpretation: >-
+    Used in the article as a sustainability cautionary tale — the takeaway
+    given is "design for sustainability from week one," not "don't bother."
+  uncertainty: >-
+    Sourced to a single tertiary reference (Wikipedia); dates and cause of
+    discontinuation not independently cross-checked against primary sources
+    for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: summarized
+    authorship: ai-assisted

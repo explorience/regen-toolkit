@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: >-
+    Grassroots Economics' Sarafu Network scale (26,000+ people, ~290
+    communities)
+  type: claim-evidence
+  claim: >-
+    "Grassroots Economics reports the network has supported more than 26,000
+    people across roughly 290 communities, with thousands now coordinating
+    through Celo-based 'commitment pools.'"
+  evidence: >-
+    Attributed to Grassroots Economics' own Sarafu Network page, linked in the
+    article's references — a self-reported figure by the project steward.
+  source_lineage: >-
+    src/content/docs/what-is-blockchain.md — Grassroots Economics: Sarafu
+    Network (https://www.grassrootseconomics.org/pages/sarafu-network)
+  interpretation: >-
+    Used as the article's lead real-world example of blockchain-enabled
+    community currency reaching people without smartphones (via USSD/basic
+    phones), grounding the "trustless" and "immutable" concepts in a live
+    deployment.
+  uncertainty: >-
+    Self-reported by the project steward (Grassroots Economics), not an
+    independently audited figure; treat as the organization's own claim about
+    its reach rather than third-party-verified impact data.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c60d165437c8

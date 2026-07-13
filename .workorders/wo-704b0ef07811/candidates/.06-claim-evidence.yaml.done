@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Gitcoin Passport's Sybil-influence reduction and its centralization trade-off
+  type: claim-evidence
+  claim: >-
+    Gitcoin Passport (now Human Passport) scoring cut Sybil influence in
+    quadratic-funding rounds by roughly 90%, but introduced acknowledged
+    points of centralization, including reliance on Gitcoin's own identity
+    tooling.
+  evidence: >-
+    Cited in the article's References to "Gitcoin, Sybil Resistance in
+    Quadratic Funding" (https://gitcoin.co/research/quadratic-funding-sybil-resistance)
+    and "How to Attack and Defend Quadratic Funding"
+    (https://www.gitcoin.co/blog/how-to-attack-and-defend-quadratic-funding).
+  source_lineage: src/content/docs/funding-landscape.md
+  interpretation: >-
+    Used in the article as the concrete illustration of its stated principle
+    that "every fix for Sybil resistance trades away some decentralisation
+    for integrity."
+  uncertainty: >-
+    The ~90% figure is as reported in Gitcoin's own research post (secondary
+    citation, not independently re-derived here).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-landscape.md
+    transformation: summarized
+    authorship: ai-assisted

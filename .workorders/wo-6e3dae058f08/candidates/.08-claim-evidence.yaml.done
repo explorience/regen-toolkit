@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: "Recommendation: hold 2-3 years of operating expenses in stablecoins"
+  type: claim-evidence
+  claim: >-
+    "The most practical solution: maintain 2-3 years of operating expenses
+    in stablecoins like USDC or DAI" as a DAO treasury's survival buffer
+    through bear markets.
+  evidence: >-
+    Argued from the four stated benefits (resilience during downturns,
+    predictable budgeting, contributor flexibility, yield/credit
+    opportunities) — no external study, dataset, or named DAO case is cited
+    to support the specific "2-3 years" figure.
+  source_lineage: src/content/docs/treasury-management.md
+  interpretation: >-
+    This is a concrete financial/governance recommendation a reader could
+    act on directly (how much of a DAO's treasury to hold, and in what
+    form) — the kind of guidance that materially affects a DAO's finances
+    and decision-making power if followed uncritically.
+  uncertainty: >-
+    The "2-3 years" figure is presented as a rule of thumb without
+    supporting data or named precedent; appropriate runway depends heavily
+    on a specific DAO's burn rate, revenue, and risk tolerance.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted

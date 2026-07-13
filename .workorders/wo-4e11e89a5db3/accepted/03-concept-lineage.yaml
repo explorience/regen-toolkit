@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: Federation (knowledge commons)
+  type: concept-lineage
+  short_description: >-
+    Separate groups sharing knowledge with each other without merging into one
+    unified database, closed-source software, or surrendering control over
+    sensitive information.
+  source_traditions:
+    - KOI (Knowledge Organization Infrastructure) — BlockScience, Metagov, RMIT
+    - Fediverse / ActivityPub (Mastodon)
+  toolkit_usage: >-
+    Framed as mostly a governance-and-naming problem, not a tooling one: name
+    what's public/internal/private, give shared things stable names, and you can
+    federate "by hand" (a synced public folder) long before adopting a protocol
+    like KOI-net.
+  adjacent_meanings:
+    - reference-identifier-rid
+    - portability
+  important_distinctions:
+    - >-
+      federation-vs-consolidation — federation preserves each group's boundaries
+      and control; consolidation forces everyone into one shared database
+    - >-
+      identity-portability-vs-content-portability — ActivityPub/Mastodon already
+      federates account identity/followers; it does not yet (as of 2025)
+      federate the underlying post content
+  tensions:
+    - >-
+      protocol-adoption-cost-vs-informal-federation — KOI-net gives structured
+      sensor/processor/coordinator roles but requires real setup; an agreed
+      shared folder of public Markdown is nearly free but has no formal
+      guarantees
+  risks_of_flattening: >-
+    Equating "federation" with any protocol adoption misses that the article's
+    core claim is federation is achievable informally through named boundaries
+    and stable references, without any protocol at all.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-4e11e89a5db3
+  source_lineage: federation-portability.md

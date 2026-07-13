@@ -1,0 +1,40 @@
+schema: encyclopedia-entry
+object:
+  title: 'Review and Maturity: Labelling What Your Knowledge Can Be Trusted To Do'
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    Guidance for labelling how trustworthy each page in a knowledge commons is,
+    so trust survives founder/author turnover. Names the trap ("polished writing
+    is not automatically reviewed knowledge"), borrows three proven maturity
+    ladders (Wikipedia content assessment, ADR/MADR status field, Kubernetes
+    Alpha/Beta/Stable), proposes a shippable four-rung ladder
+    (Draft/Reviewed/Maintained/Deprecated) stored in frontmatter, ties review
+    rigor to risk level, and treats maturity as an ongoing maintenance signal
+    (expiry by date, compost instead of delete) rather than a one-time label.
+  audience: small-team leads building docs/wikis that must outlive their authors
+  known_tensions:
+    - >-
+      self-claimed states (draft/proposed/alpha) vs. granted states
+      (reviewed/accepted/stable) — the promotion gate only belongs on granted
+      tiers
+    - >-
+      review-everything-equally burns teams out vs. review-scaled-to-risk leaves
+      gaps if risk is misjudged
+  related_concepts:
+    - review-maturity-ladder
+    - bus-factor
+    - silent-drift
+  related_resources:
+    - MADR (Markdown Architectural Decision Records)
+    - Diátaxis
+    - 'Wikipedia: Content assessment'
+    - 'Kubernetes: Feature Gates'
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/review-and-maturity.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ea54c9ef7bb2
+  source_lineage: review-and-maturity.md

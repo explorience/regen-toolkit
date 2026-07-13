@@ -1,0 +1,35 @@
+schema: claim-evidence
+object:
+  title: GG24 Bioregional Reforestation Round scale
+  type: claim-evidence
+  claim: >-
+    In GG24 (the round Gitcoin ran October 14-28, 2025 as the first round of its
+    "Gitcoin 3.0" relaunch), the Bioregional Reforestation Round carried a
+    $100,000 matching pool spread across nine bioregions, including Nigeria,
+    Kenya/Uganda, Cascadia, and the Mediterranean Coast, with roughly 1,286
+    unique donors making about 3,042 donations, and co-funders including CeloPG,
+    the Ethereum Foundation, the Climate Coordination Network, and the BioFi
+    Project.
+  evidence: >-
+    Cited in the article's References to "Gitcoin Grants 24 (GG24)"
+    (https://gitcoin.co/campaigns/gitcoin-grants-24-gg24) and "Bioregional
+    Reforestation Round"
+    (https://gov.gitcoin.co/t/bioregional-reforestation-round/24927).
+  source_lineage: src/content/docs/gitcoin-grants-qf.md
+  interpretation: >-
+    Used in the article as proof that quadratic funding already routes real
+    money to on-the-ground regenerative work, not just crypto infrastructure —
+    offered as the concrete case a local node running tree-planting, food
+    sovereignty, or watershed work could look to.
+  uncertainty: >-
+    Donor/donation counts are approximate ("roughly," "about") as reported in
+    the article's cited sources; not independently re-verified for this
+    ingestion.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gitcoin-grants-qf.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-55b29771dc58

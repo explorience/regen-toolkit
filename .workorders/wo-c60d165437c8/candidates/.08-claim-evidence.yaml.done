@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: "Bitcoin's proof-of-work energy use: ~138 TWh/year (Cambridge, 2025)"
+  type: claim-evidence
+  claim: >-
+    Bitcoin secures itself via proof of work "using on the order of 138
+    terawatt-hours a year (Cambridge, 2025), comparable to a mid-sized
+    country."
+  evidence: >-
+    Attributed to the Cambridge Bitcoin Electricity Consumption Index, an
+    independent, regularly updated estimate maintained by the University of
+    Cambridge, linked in the article's references.
+  source_lineage: "src/content/docs/what-is-blockchain.md — Cambridge Bitcoin Electricity Consumption Index (https://ccaf.io/cbnsi/cbeci)"
+  interpretation: >-
+    Used to ground the "energy" honesty section — contrasted directly with
+    Ethereum's post-Merge proof-of-stake energy use to show the claim
+    "blockchain wastes energy" does not generalize across consensus
+    mechanisms.
+  uncertainty: >-
+    Cambridge's index is a continuously updated estimate, not a fixed
+    figure — "on the order of 138 TWh" should be treated as a snapshot
+    (dated 2025 per the article) that will drift over time; verify against
+    the live index before citing a precise number.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted

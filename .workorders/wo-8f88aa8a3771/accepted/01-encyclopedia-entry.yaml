@@ -1,0 +1,42 @@
+schema: encyclopedia-entry
+object:
+  title: 'Source Systems: Knowledge That Outlives Turnover'
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Defines a "source system" as a living knowledge environment (wiki, repo,
+    forum, garden…) rather than a one-off link — one that has a steward, keeps
+    getting new material added, and offers a return path to credit and trace
+    claims back to their origin. Contrasts this with a static "link list" that
+    rots. Ties provenance (recorded origin/history) to the principle "inclusion
+    does not mean endorsement," gives real named tools (Obsidian, Logseq,
+    TiddlyWiki, CITATION.cff, ADR/MADR) that already encode these properties,
+    and frames stewardship of a source system as a governance problem (Ostrom's
+    commons-design principles), not just tidying.
+  audience: >-
+    small-team leads maintaining wikis/repos/knowledge bases who want them to
+    survive contributor turnover
+  known_tensions:
+    - >-
+      add-broadly-classify-lightly (low friction intake) vs.
+      mark-maturity-honestly (don't let raw material pass as endorsed)
+    - >-
+      a link list is easy to start and cheap to maintain; a source system
+      requires an actual steward and return path, which is more work up front
+  related_concepts:
+    - source-system
+    - provenance
+    - digital-garden
+  related_resources:
+    - Obsidian
+    - Logseq
+    - TiddlyWiki
+    - Citation File Format (CITATION.cff)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-8f88aa8a3771
+  source_lineage: source-systems.md

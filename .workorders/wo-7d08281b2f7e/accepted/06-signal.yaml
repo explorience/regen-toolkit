@@ -1,0 +1,25 @@
+schema: signal
+object:
+  title: >-
+    AI is escalating scam realism and scale — the pattern list needs periodic
+    refresh
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia-explains
+  interpretation: >-
+    Per Chainalysis (cited in the article), AI-assisted scam operations earn
+    several times more than traditional ones, and impersonation scams grew
+    1,400%+ year-over-year in 2025; scammers now use AI to fake voices, faces,
+    and profiles. This is a moving target — static advice like "request a live
+    video call" degrades as AI voice/video fakes improve, so this guide's
+    defenses should be revisited on a regular cadence rather than treated as
+    settled.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-scams.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-7d08281b2f7e
+  source_lineage: common-scams.md

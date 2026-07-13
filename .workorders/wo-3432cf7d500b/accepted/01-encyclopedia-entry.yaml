@@ -1,0 +1,34 @@
+schema: encyclopedia-entry
+object:
+  title: The Gatherings Pattern
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    A five-element framework (Purpose, People, Place, Process, Practice) for
+    designing intentional gatherings for local nodes, plus four ready-made
+    gathering formats (Onboarding, Governance, Trust-Building, Learning) and
+    five cross-cutting hosting principles. Framed as the primary way local nodes
+    build the trust and shared understanding that community finance systems
+    require.
+  audience: local node organizers / community hosts
+  known_tensions:
+    - >-
+      "Don't default to everyone's invited" small-curated-group guidance vs. the
+      inclusive, open-participation norms many decentralized communities hold as
+      a default.
+    - >-
+      Generous authority (a single host holding structure) vs. anti-hierarchy
+      instincts in horizontally-organized communities.
+  related_concepts:
+    - purpose-people-place-process-practice
+  related_resources:
+    - the-art-of-gathering
+    - liberating-structures
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gatherings-pattern.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-3432cf7d500b
+  source_lineage: gatherings-pattern.md

@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: Provenance (vs. lineage)
+  type: concept-lineage
+  short_description: >-
+    The recorded origin and history of a piece of knowledge — where it came
+    from, who made it, and how it changed — distinguished from "lineage," which
+    is the path data took through systems. Provenance answers "why do we believe
+    this, and who said it first?"
+  source_traditions:
+    - data-engineering (data lineage vs. provenance distinction)
+    - archival/records science (chain of custody)
+  toolkit_usage: >-
+    Directly maps to this framework's own `provenance` mixin
+    (schemas/provenance.yaml: origin, surfaced_by, adapted_from, transformation,
+    authorship) — the mechanism that keeps "inclusion does not mean endorsement"
+    honest by making origin traceable on every object.
+  adjacent_meanings:
+    - >-
+      data lineage (the technical path through systems — a related but distinct
+      concept per the Snowflake source cited)
+  important_distinctions:
+    - >-
+      lineage = the path data took through systems; provenance = the historical
+      record of origin, custody, and trust
+  tensions:
+    - >-
+      provenance is the highest-leverage habit for a long-lived commons, but it
+      is also the part contributors most often skip because it feels like
+      overhead in the moment
+  risks_of_flattening: >-
+    Losing provenance lets claims decay into folklore — repeated by everyone,
+    backed by no one — which is exactly the failure mode a knowledge commons is
+    trying to avoid by recording origin every time.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-8f88aa8a3771
+  source_lineage: source-systems.md

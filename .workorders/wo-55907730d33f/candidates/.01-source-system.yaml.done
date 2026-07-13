@@ -1,0 +1,39 @@
+schema: source-system
+object:
+  title: "Greenpill Network"
+  type: blog
+  url: "https://greenpill.network/"
+  steward: "Greenpill Network (ReFi/regenerative-crypto community network)"
+  what_it_curates: >-
+    A global network of local, place-based regenerative-crypto chapters
+    ("Local Nodes"-style structure) plus community/onboarding content;
+    described in the article as the friendliest entry point for newcomers to
+    the ReFi ecosystem.
+  why_it_matters: >-
+    Cited in the article as the recommended first stop for a newcomer to
+    check whether there's a local regenerative-crypto chapter near them —
+    functions as the on-ramp into the wider ReFi community this article
+    introduces.
+  how_to_credit: "Credit Greenpill Network by name and link to greenpill.network."
+  use_type: community/chapter directory + educational content, referenced as a "Start here" pointer
+  reuse_conditions: "unknown — not stated in the source article; confirm with the steward"
+  return_path: "none known — flag to steward"
+  currentness: "referenced as of the article's 2026 publication; not independently re-verified here"
+  update_rhythm: unknown
+  extraction_status: "raw-lead — single mention in one article, not yet cross-checked against the live site"
+  toolkit_route: layer-3-resource-graph
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+# - "ReFi DAO" as a distinct named entity: the article itself never names
+#   "ReFi DAO" — it names Greenpill Network as the community/chapter network.
+#   Registering it here under the Greenpill Network title rather than
+#   inventing a separate "ReFi DAO" card not supported by this source's text;
+#   real-world ReFi DAO / Greenpill Network relationship is not asserted here
+#   to avoid overclaiming lineage the article does not state.

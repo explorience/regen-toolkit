@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: "Paper is no longer a sufficient recovery-phrase backup"
+  type: claim-evidence
+  claim: >-
+    Faded ink, fire, flood, and simple misplacement now rank among the
+    leading causes of permanently lost crypto, so paper alone is no longer
+    considered a sufficient backup for a recovery phrase.
+  evidence: >-
+    Stated in the article's "Going deeper" callout, which recommends
+    steel-plate backups (brands named: Cryptosteel, Billfodl) stored in a
+    second, separate location, plus notes that newer passkey/guardian-based
+    smart wallets (Base App, Argent "Ready") now offer an alternative to
+    paper backups entirely.
+  source_lineage: src/content/docs/what-is-wallet.md
+  interpretation: >-
+    Used to justify recommending steel backups and/or smart-wallet recovery
+    over plain paper, without dismissing paper as unusable, only as
+    insufficient on its own for anything the reader would be upset to lose.
+  uncertainty: >-
+    No cited statistics or named study on lost-crypto causes; the claim
+    reads as accepted community wisdom in the source article rather than a
+    sourced figure.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-wallet.md
+    transformation: summarized
+    authorship: ai-assisted

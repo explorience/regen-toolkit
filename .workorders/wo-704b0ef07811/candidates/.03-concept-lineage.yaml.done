@@ -1,0 +1,36 @@
+schema: concept-lineage
+object:
+  title: Retroactive Public Goods Funding (RetroPGF / Retro Funding)
+  type: concept-lineage
+  short_description: >-
+    Funding that flips prospective funding's timing: instead of pitching a
+    plan, a project ships work first, and a later round looks back and pays
+    for what proved useful. The Optimism Collective runs the largest version.
+  source_traditions:
+    - Optimism Collective (850M OP reserved for public goods, 20% of supply)
+  toolkit_usage: >-
+    Positioned as suiting nodes that already produce visible, attributable
+    work rather than brand-new ones; hypercerts are presented as the
+    evidentiary record that lets a retro round know what a node actually did.
+  adjacent_meanings:
+    - hypercerts (the structured impact record retro rounds are read against)
+    - quadratic funding (the prospective counterpart in the article's "two families" framing)
+  important_distinctions:
+    - >-
+      Retrospective (pays after impact is shown) vs. prospective (pays before
+      the work happens) — the article's organizing distinction for the whole
+      funding landscape.
+  tensions:
+    - >-
+      "No proposal-writing theatre" relief vs. the risk of funding yourself
+      out of pocket first and hoping a future round notices you.
+  risks_of_flattening: >-
+    Assuming retro funding suits any node, when the article is explicit it
+    rewards track records and therefore suits established nodes, not
+    brand-new ones.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-landscape.md
+    transformation: summarized
+    authorship: ai-assisted

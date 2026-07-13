@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Regen Network Registry
+  type: resource
+  url: https://www.registry.regen.network/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - outputs-vs-outcomes-vs-impact
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Issues ecological credits against published MRV methodologies; article
+    recommends routing verified ecological outcomes through this registry once a
+    node is doing ecological work, ahead of reaching for heavier dMRV
+    (satellite/sensor-based digital MRV) tooling.
+  work_order: wo-a796f519a8b8
+  source_lineage: why-measurement-matters.md

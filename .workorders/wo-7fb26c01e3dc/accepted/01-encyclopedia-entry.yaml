@@ -1,0 +1,41 @@
+schema: encyclopedia-entry
+object:
+  title: 'Ontology vs Taxonomy: Which One Does Your Commons Need?'
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    A plain-language guide for teams building a knowledge commons: a taxonomy is
+    a labelled filing cabinet (hierarchy of categories, preferred/alternate
+    labels, broader/narrower/related relations) for browsing and finding things;
+    an ontology adds typed classes, individuals, and named relationships that
+    let software infer facts (e.g. flagging a missing report). The practical
+    heuristic: taxonomy first, ontology only when a specific, recurring task
+    needs machine reasoning over relationships. SKOS is offered as the bridge
+    that keeps the door to an ontology open without wasted work.
+  audience: >-
+    small-team leads building a knowledge commons who are comfortable in
+    docs/GitHub but not ontologists
+  known_tensions:
+    - >-
+      taxonomy-vs-ontology scope creep — promoting every useful tag to a
+      structural type balloons the model (ontology sprawl)
+    - >-
+      classification (taxonomy) vs. machine-reasoning (ontology) are often
+      conflated in practice
+  related_concepts:
+    - taxonomy
+    - ontology
+    - SKOS
+  related_resources:
+    - SKOS (W3C standard)
+    - Protégé (ontology editor)
+    - Schema.org
+    - Wikidata
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ontology-vs-taxonomy.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7fb26c01e3dc
+  source_lineage: ontology-vs-taxonomy.md

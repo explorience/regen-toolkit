@@ -1,0 +1,34 @@
+schema: concept-lineage
+object:
+  title: Phishing (crypto)
+  type: concept-lineage
+  short_description: >-
+    Impersonating a trusted service to steal login details or private keys/seed
+    phrases — via fake emails, typosquatted websites, DMs offering "help," or
+    malicious browser extensions.
+  source_traditions:
+    - >-
+      general information-security phishing terminology, applied to crypto
+      wallets/exchanges
+  toolkit_usage: >-
+    Used as the first scam pattern in the article's field guide; the "golden
+    rule" defense given is that no legitimate service ever asks for a seed
+    phrase or private key.
+  adjacent_meanings:
+    - typosquatting
+  important_distinctions:
+    - >-
+      phishing-vs-rug-pull — phishing steals credentials/keys from a victim; a
+      rug pull is a project's own team absconding with pooled funds
+  risks_of_flattening: >-
+    Treating all phishing as identical hides real variation in vector (email vs.
+    malicious browser extension vs. DM) that requires different specific
+    defenses.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-scams.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7d08281b2f7e
+  source_lineage: common-scams.md

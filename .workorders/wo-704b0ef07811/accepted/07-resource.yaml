@@ -1,0 +1,28 @@
+schema: resource
+object:
+  title: Octant
+  type: resource
+  resource_type: yield-based-funding-protocol
+  url: >-
+    https://oakresearch.io/en/reports/protocols/octant-decentralized-platform-financing-public-goods-golem-foundation-glm
+  steward: Golem Foundation
+  link_status: unresolved
+  is_source_system_candidate: false
+  notes: >-
+    "Evergreen" / yield-based funding mechanism cited as the article's example
+    of the most structurally sustainable funding pattern: stakes 100,000 ETH and
+    directs the bulk of each epoch's staking yield to public goods (over 2,340
+    ETH to 80+ projects across its first eight epochs; ninth epoch, the
+    "Ethereum Stories" cohort, as of early 2026). Relevant to nodes able to
+    build even a small endowment.
+  related_concepts:
+    - yield-based-funding
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-landscape.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-704b0ef07811
+  source_lineage: funding-landscape.md

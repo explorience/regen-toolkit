@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Grassroots Economics / Sarafu Network
+  type: resource
+  url: https://www.grassrootseconomics.org/pages/sarafu-network
+  resource_type: project
+  is_source_system_candidate: true
+  link_status: active
+  notes: >-
+    Runs the Sarafu Network in Kenya — local "community asset vouchers" for
+    trading goods/services when national-currency cash is scarce, now on the
+    Celo blockchain, with feature-phone (USSD) access requiring no smartphone or
+    internet plan. Cited in what-is-blockchain.md as a live community-currency
+    network, with usage figures captured separately as a claim-evidence object
+    (see 08-claim-evidence.yaml).
+  related_concepts:
+    - blockchain
+  original_source: src/content/docs/what-is-blockchain.md
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c60d165437c8
+  source_lineage: what-is-blockchain.md

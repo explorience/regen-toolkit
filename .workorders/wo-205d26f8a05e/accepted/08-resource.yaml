@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Wiki.js
+  type: resource
+  resource_type: self-hosted-wiki
+  url: https://js.wiki/
+  link_status: active
+  notes: >-
+    A Node.js wiki that can sync its content to a Git repository, giving a wiki
+    UI and a plain-text-in-Git backup in one move. Named as the fit for
+    technical teams that want non-technical people to edit comfortably while
+    engineers keep a versioned copy.
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-205d26f8a05e
+  source_lineage: knowledge-tools-directory.md

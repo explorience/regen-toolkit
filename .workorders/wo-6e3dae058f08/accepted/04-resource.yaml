@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Maya Protocol
+  type: resource
+  resource_type: protocol
+  link_status: unresolved
+  notes: >-
+    Cross-chain liquidity protocol, per the article handling approximately $748
+    million in yearly volume and earning about $3 million in fees; cited as an
+    example of a protocol transitioning to full DAO governance, where token
+    holders will govern protocol upgrades and treasury allocations. No URL
+    captured in the source article.
+  related_concepts:
+    - dao-treasury-diversification
+  original_source: src/content/docs/treasury-management.md
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6e3dae058f08
+  source_lineage: treasury-management.md

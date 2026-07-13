@@ -1,0 +1,35 @@
+schema: claim-evidence
+object:
+  title: Mercy Corps Ventures cut delivery costs 60% using stablecoins in Syria
+  type: claim-evidence
+  claim: >-
+    Mercy Corps Ventures cut delivery costs by 60% by using stablecoins instead
+    of traditional money transfers in Syria.
+  evidence: Cited to cryptoaltruism.org (CryptoAltruists Web3 Impact Toolkit).
+  source_lineage: CryptoAltruists Web3 Impact Toolkit (as cited in the article)
+  interpretation: >-
+    Used as the article's concrete "everyday operations" proof point for
+    stablecoins beyond emergency crisis fundraising.
+  uncertainty: >-
+    Single-source figure with no methodology given for how the 60% cost
+    reduction was calculated; not independently verified here.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/case-studies-nonprofits.md
+    transformation: quoted
+    authorship: ai-assisted
+  notes: |
+    # assessed-but-excluded
+    - Ukraine 2022 emergency-fundraising narrative (banks froze, $50M+ raised
+      in bitcoin, UkraineDAO) — read and considered for its own claim-evidence
+      entry, but excluded as a duplicate of the same "web3 = fast disaster
+      infrastructure" claim already covered structurally by this entry and the
+      encyclopedia-entry summary; flagging here rather than silently dropping.
+    - Direct quotes from named individuals (Tammy Tibbetts of She's the First;
+      CryptoAltruists commentary) — kept as quoted text inside claim-evidence /
+      encyclopedia-entry fields, not turned into standalone public person-nodes
+      (per the do-not-create-public-person-nodes rule).
+    - "Try This" action-prompt section — operational/coaching text, not a
+      knowledge object; not extracted.
+  work_order: wo-b3d9480838b4

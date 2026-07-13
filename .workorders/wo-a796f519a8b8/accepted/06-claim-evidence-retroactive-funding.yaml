@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: Retroactive funding pays for demonstrated impact, not promises
+  type: claim-evidence
+  claim: >-
+    Retroactive funding (paying for work after it's done and its impact is
+    demonstrated, rather than funding promises up front) has become a core Web3
+    funding pattern — popularized by Optimism's RetroPGF rounds and used in
+    Gitcoin Grants 24 (GG24, late 2025 into 2026), which deployed six funding
+    mechanisms at once including retroactive funding and peer-reviewed
+    hypercerts.
+  evidence: >-
+    Article states the RetroPGF logic ("easier to agree on what was useful than
+    to predict what will be") and cites GG24's six-mechanism design as a
+    concrete instance, without linking a primary GG24 results report.
+  source_lineage: src/content/docs/why-measurement-matters.md
+  interpretation: >-
+    Used to argue that for a Web3-native local node, measurement is the funding
+    rail itself, not paperwork filed after funding — "no record, no reward" is
+    the article's summary line.
+  uncertainty: >-
+    GG24 mechanism count and framing taken from the article's summary; no direct
+    citation to Gitcoin's own GG24 results/retrospective was checked here, and
+    "core pattern" is the article's characterization rather than a cited
+    adoption metric.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a796f519a8b8

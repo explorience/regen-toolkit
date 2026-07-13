@@ -10,3 +10,167 @@ entries:
     notes: >-
       Self card created by init. Complete steward, return_path,
       reuse_conditions, how_to_credit before federating.
+  koi-net-blockscience-metagov-rmit:
+    title: KOI-net (BlockScience / Metagov / RMIT)
+    type: repo
+    steward: BlockScience, with Metagov and RMIT
+    what_it_curates: >-
+      The KOI-net protocol and its MIT-licensed Python implementation (`koi-net`
+      on GitHub) — network protocol for federating knowledge across
+      organizational boundaries via RIDs and sensor/processor/coordinator node
+      roles. The article notes the Regen Toolkit already wires a `regen-koi`
+      integration and treats its own repo layout as "sensor-friendly today."
+    why_it_matters: >-
+      The most structured federation protocol option cited in the article, and
+      directly relevant since the Toolkit already has a regen-koi integration
+      path.
+    url: https://github.com/BlockScience/koi-net
+    use_type: protocol/reference implementation to evaluate for future federation
+    reuse_conditions: MIT-licensed (per the article)
+    return_path: >-
+      GitHub issues/PRs on BlockScience/koi-net — not explicitly confirmed as a
+      maintained contribution channel here
+    currentness: public beta since May 2025; v2.0.7 as of May 2026 per the article
+    update_rhythm: actively maintained (per the article)
+    extraction_status: >-
+      partial — only the framing given in this article has been captured, not
+      the protocol docs themselves
+    toolkit_route: layer-10-infrastructure-and-substrate
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4e11e89a5db3
+    source_lineage: federation-portability.md
+  greenpill-network:
+    title: Greenpill Network
+    type: blog
+    url: https://greenpill.network/
+    steward: Greenpill Network (ReFi/regenerative-crypto community network)
+    what_it_curates: >-
+      A global network of local, place-based regenerative-crypto chapters
+      ("Local Nodes"-style structure) plus community/onboarding content;
+      described in the article as the friendliest entry point for newcomers to
+      the ReFi ecosystem.
+    why_it_matters: >-
+      Cited in the article as the recommended first stop for a newcomer to check
+      whether there's a local regenerative-crypto chapter near them — functions
+      as the on-ramp into the wider ReFi community this article introduces.
+    how_to_credit: Credit Greenpill Network by name and link to greenpill.network.
+    use_type: >-
+      community/chapter directory + educational content, referenced as a "Start
+      here" pointer
+    reuse_conditions: unknown — not stated in the source article; confirm with the steward
+    return_path: none known — flag to steward
+    currentness: >-
+      referenced as of the article's 2026 publication; not independently
+      re-verified here
+    update_rhythm: unknown
+    extraction_status: >-
+      raw-lead — single mention in one article, not yet cross-checked against
+      the live site
+    toolkit_route: layer-3-resource-graph
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55907730d33f
+    source_lineage: what-is-refi.md
+  gitcoin-gitcoin-co:
+    title: Gitcoin (gitcoin.co)
+    type: docs-site
+    steward: Gitcoin
+    what_it_curates: >-
+      Mechanism explainers (quadratic funding, retroactive funding), blog posts,
+      research write-ups, case studies (e.g. GG24), and round-operator
+      documentation for Grants Stack, Gitcoin's open QF-round tooling.
+    why_it_matters: >-
+      The primary living source behind this article's mechanism description,
+      formula, GG24 Bioregional Reforestation Round case study, sybil-defense
+      explanation, and Grants Stack setup walkthrough — cited across nearly
+      every section.
+    how_to_credit: Credit Gitcoin by name and link to the specific gitcoin.co page cited.
+    use_type: mechanism reference + round-operator documentation
+    reuse_conditions: not stated in the source article — unconfirmed
+    return_path: >-
+      none known — flag to steward. Gitcoin's governance forum (gov.gitcoin.co,
+      cited elsewhere in this article for round proposals) is the likely
+      contribute-back channel; not confirmed for this ingestion.
+    currentness: >-
+      actively maintained; article cites GG24 (Oct-Nov 2025) as Gitcoin's most
+      recent funding round as of this writing
+    update_rhythm: ongoing (quarterly-ish funding rounds; blog/research posts as published)
+    extraction_status: >-
+      partial — content summarized from the article, not fetched directly from
+      gitcoin.co
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gitcoin-grants-qf.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-55b29771dc58
+    source_lineage: gitcoin-grants-qf.md
+  chainalysis-crypto-crime-report-annual:
+    title: Chainalysis Crypto Crime Report (annual)
+    type: publication
+    steward: Chainalysis
+    what_it_curates: >-
+      Annual blockchain-intelligence research report on crypto crime, cited in
+      this article for the projected $17B global 2025 scam-loss figure, the rise
+      of AI-assisted scam operations, and the 1,400%+ YoY growth in
+      impersonation scams.
+    why_it_matters: >-
+      A recurring, cited data source for this article and likely future
+      scam/security content across the toolkit; worth tracking as a peer source
+      rather than a one-off link.
+    use_type: cited statistics on scam trends
+    reuse_conditions: unknown — not stated in the article; confirm with Chainalysis before reuse
+    return_path: none known — flag to steward (Chainalysis)
+    currentness: >-
+      cited edition covers 2025 data (referenced as "Chainalysis 2026 Crypto
+      Crime Report")
+    update_rhythm: annual report
+    extraction_status: partial — only the statistics quoted in this article have been captured
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-7d08281b2f7e
+    source_lineage: common-scams.md
+  cryptoaltruists-web3-impact-toolkit:
+    title: CryptoAltruists Web3 Impact Toolkit
+    type: publication
+    steward: CryptoAltruists (cryptoaltruism.org)
+    what_it_curates: >-
+      Research and toolkit content on nonprofit/humanitarian crypto adoption —
+      the source of the Ukraine emergency-fundraising figures and the Mercy
+      Corps Ventures stablecoin cost-reduction figure cited in this article.
+    why_it_matters: >-
+      Primary cited source for the article's headline statistics (crypto
+      donation growth, % of Forbes Top 100 charities accepting crypto, Ukraine
+      fundraising, Mercy Corps stablecoin savings).
+    use_type: cited statistics and case narrative
+    reuse_conditions: unknown — not stated in the article; confirm with steward before reuse
+    return_path: none known — flag to steward (cryptoaltruism.org)
+    currentness: cited figures reference 2024-2025 data; card created 2026-01-15
+    extraction_status: partial — only the statistics quoted in this article have been captured
+    toolkit_route: layer-3-resource-graph
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/case-studies-nonprofits.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-b3d9480838b4
+    source_lineage: case-studies-nonprofits.md

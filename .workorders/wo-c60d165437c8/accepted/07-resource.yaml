@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: 'Bankless Academy: Blockchain Basics'
+  type: resource
+  url: https://app.banklessacademy.com/lessons/blockchain-basics
+  resource_type: course
+  link_status: active
+  notes: >-
+    Free, open-source, interactive, no-wallet-required lesson recommended in the
+    article's "Go deeper" exercise for readers new to crypto.
+  related_concepts:
+    - blockchain
+  original_source: src/content/docs/what-is-blockchain.md
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c60d165437c8
+  source_lineage: what-is-blockchain.md

@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Quartz
+  type: resource
+  resource_type: static-site-generator
+  url: https://quartz.jzhao.xyz/
+  link_status: active
+  notes: >-
+    Publishes an Obsidian vault straight to the web for free, with client-side
+    full-text search and a graph view. Named as the most common free alternative
+    to the paid Obsidian Publish add-on, and the shortest path from private
+    notes to a public garden for teams already living in Obsidian.
+  related_concepts:
+    - infrastructure-follows-function
+  related_resources:
+    - obsidian
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-205d26f8a05e
+  source_lineage: knowledge-tools-directory.md

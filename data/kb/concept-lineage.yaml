@@ -1,0 +1,1311 @@
+entries:
+  decentralization:
+    title: Decentralization
+    type: concept-lineage
+    short_description: >-
+      Spreading control and decision-making across many people instead of
+      concentrating it in one place, so no single person, company, or office can
+      shut things down, change the rules alone, or lock everyone else out.
+      Framed in the article as a way of organizing power, not primarily a
+      technology.
+    source_traditions:
+      - cooperatives
+      - mutual aid networks
+      - seed-saving circles / community seed swaps
+      - rotating savings groups
+      - crypto / DAO governance
+    toolkit_usage: >-
+      Used as a foundations-layer explainer for community organizers and
+      permaculturists new to crypto — reframes "decentralization" away from
+      crypto-hype jargon toward practices (seed swaps, shared tooling, group
+      decision-making) the audience already runs, then bridges to crypto-native
+      tools (Snapshot, quadratic voting) and ReFi DAO's Local Nodes model as
+      concrete implementations.
+    adjacent_meanings:
+      - >-
+        technical/architectural decentralization (e.g. node distribution,
+        consensus)
+      - governance decentralization (who decides, per this article's framing)
+      - economic decentralization (distributed ownership of value/tokens)
+    important_distinctions:
+      - >-
+        decentralization-is-a-spectrum-not-a-switch — most real systems are
+        hybrids (e.g. an open, tamper-proof ledger paired with founder-driven
+        day-to-day decisions); the honest question is "who holds power, over
+        what, and could they abuse it?" not a binary yes/no.
+      - >-
+        transparency-is-not-optional — the article argues real decentralization
+        comes with *more* transparency, not less, and treats "no one's in
+        charge" framing without visible decisions/money/people as a scam signal.
+    tensions:
+      - >-
+        openness-vs-founder-control — a project can have a fully open, immutable
+        public ledger while day-to-day decisions still run through a small
+        founding group; the article treats this as normal-but-worth-naming
+        rather than a failure state.
+    risks_of_flattening: >-
+      Treating decentralization as purely a technical/architecture property
+      (node count, consensus mechanism) erases the article's core claim that it
+      is fundamentally about organizing power and accountability — a community
+      garden with a rotating steering group can be meaningfully decentralized
+      without touching a blockchain.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-decentralization.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-0f39787ee74e
+    source_lineage: what-is-decentralization.md
+  infrastructure-follows-function:
+    title: Infrastructure Follows Function
+    type: concept-lineage
+    short_description: >-
+      Before choosing a knowledge-management tool, ask what work this part of
+      the commons needs to do (explain a concept, inventory resources, track
+      decisions, publish a guide) and pick the substrate that fits that job —
+      not the tool with the nicest landing page. Corollary: no single tool needs
+      to do everything; a healthy commons is usually a hybrid.
+    source_traditions:
+      - Regen Knowledge Commons Toolkit, Layer 10 (Infrastructure & Substrate)
+    toolkit_usage: >-
+      Used as the article's governing principle for its tool-by-job directory,
+      and again for its public/internal/private visibility-tier mapping (each
+      tier gets its own substrate rather than one tool for everything).
+    adjacent_meanings:
+      - >-
+        the portability test — "would your knowledge survive the tool dying?"
+        (plain-text/Git as the durable baseline, everything else as a publishing
+        or collaboration layer on top)
+    important_distinctions:
+      - >-
+        A tool can make a workflow easier, but it can also distort the commons
+        around its own assumptions — infrastructure should serve the work, not
+        the reverse.
+    risks_of_flattening: >-
+      Picking a tool for its polish or landing page rather than the specific job
+      (explaining, inventorying, tracking, publishing) it needs to do — the
+      article names this as the most common way commons rot.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  purpose-people-place-process-practice-5p-gathering-framework:
+    title: Purpose-People-Place-Process-Practice (5P gathering framework)
+    type: concept-lineage
+    short_description: >-
+      A five-element design framework for gatherings — a specific purpose, a
+      deliberate guest list, a matched space, a designed process arc (opening/
+      body/closing), and post-gathering practice (follow-through) — treating
+      every gathering as an intentional design challenge rather than a default
+      meetup script.
+    source_traditions:
+      - Priya Parker, "The Art of Gathering" (Riverhead Books, 2018)
+      - Adrienne Maree Brown, "Emergent Strategy" (AK Press, 2017)
+      - Open Civics Framework
+    toolkit_usage: >-
+      Applied to four local-node gathering formats (Onboarding, Governance,
+      Trust-Building, Learning) as the structural template organizers are
+      instructed to work through before hosting.
+    adjacent_meanings:
+      - World Café
+      - Fishbowl
+      - Open Space Technology
+      - Liberating Structures (33 facilitation methods)
+      - Circle Practice (talking-piece format)
+    important_distinctions:
+      - >-
+        "Purpose is not topic" — the article is explicit that "to learn about
+        Web3" is a topic, not a purpose; a purpose states what will be different
+        afterward.
+      - >-
+        "Agreements are mutual, rules are imposed" — the article deliberately
+        avoids "ground rules" language in the Opening step.
+    tensions:
+      - >-
+        Small-group-first, curated-guest-list design guidance vs. open/
+        inclusive-by-default community norms.
+    risks_of_flattening: >-
+      The article attributes Circle Practice's talking-piece format and the
+      small-group-before-large-group decision pattern to "many African and
+      Indigenous traditions" and "many East African communities" in passing,
+      secondary-source, non-attributed-to-a-specific-community language.
+      Treating that as settled ethnography rather than a broad-strokes,
+      unverified attribution risks flattening living traditions into a
+      facilitation technique. See accompanying public-use-boundary.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gatherings-pattern.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3432cf7d500b
+    source_lineage: gatherings-pattern.md
+  portability-knowledge-commons:
+    title: Portability (knowledge commons)
+    type: concept-lineage
+    short_description: >-
+      The property that knowledge can move between tools, people, and
+      organizations without rotting on the way — i.e., without depending on one
+      vendor's proprietary format to remain readable.
+    source_traditions:
+      - plain-text/local-first software advocacy
+      - version-control (Git) culture
+    toolkit_usage: >-
+      The article's recommended floor for the Regen Knowledge Commons Toolkit
+      itself: canonical content in Markdown tracked in Git, with structural
+      metadata (title, tags, audience, source lineage) kept in YAML frontmatter
+      rather than an app's hidden database.
+    adjacent_meanings:
+      - federation
+      - vendor-lock-in
+    important_distinctions:
+      - >-
+        portability-vs-federation — portability is about YOUR commons moving
+        freely; federation is about connecting to OTHER people's commons without
+        merging
+    risks_of_flattening: >-
+      Treating "plain text" alone as sufficient for portability ignores that
+      structure (frontmatter/metadata schema) must also travel with the content,
+      or the exported files become an unstructured pile.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4e11e89a5db3
+    source_lineage: federation-portability.md
+  federation-knowledge-commons:
+    title: Federation (knowledge commons)
+    type: concept-lineage
+    short_description: >-
+      Separate groups sharing knowledge with each other without merging into one
+      unified database, closed-source software, or surrendering control over
+      sensitive information.
+    source_traditions:
+      - >-
+        KOI (Knowledge Organization Infrastructure) — BlockScience, Metagov,
+        RMIT
+      - Fediverse / ActivityPub (Mastodon)
+    toolkit_usage: >-
+      Framed as mostly a governance-and-naming problem, not a tooling one: name
+      what's public/internal/private, give shared things stable names, and you
+      can federate "by hand" (a synced public folder) long before adopting a
+      protocol like KOI-net.
+    adjacent_meanings:
+      - reference-identifier-rid
+      - portability
+    important_distinctions:
+      - >-
+        federation-vs-consolidation — federation preserves each group's
+        boundaries and control; consolidation forces everyone into one shared
+        database
+      - >-
+        identity-portability-vs-content-portability — ActivityPub/Mastodon
+        already federates account identity/followers; it does not yet (as of
+        2025) federate the underlying post content
+    tensions:
+      - >-
+        protocol-adoption-cost-vs-informal-federation — KOI-net gives structured
+        sensor/processor/coordinator roles but requires real setup; an agreed
+        shared folder of public Markdown is nearly free but has no formal
+        guarantees
+    risks_of_flattening: >-
+      Equating "federation" with any protocol adoption misses that the article's
+      core claim is federation is achievable informally through named boundaries
+      and stable references, without any protocol at all.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4e11e89a5db3
+    source_lineage: federation-portability.md
+  rid-reference-identifier:
+    title: RID (Reference Identifier)
+    type: concept-lineage
+    short_description: >-
+      A stable label that points to a knowledge object (doc, message, record)
+      without handing over the object itself — like a library call number.
+    source_traditions:
+      - KOI-net protocol (BlockScience, with Metagov and RMIT)
+    toolkit_usage: >-
+      The mechanism cited as enabling federation without consolidation:
+      organizations share the RID (the label/pointer) while keeping the
+      underlying content and access rules under their own control. Attributed to
+      BlockScience's Michael Zargham and Ilan Ben-Meir: "a stable concept of a
+      reference as something distinct from (but referring to) an underlying
+      referent is thus the mechanism that enables organizations to interoperate
+      while retaining (and securing) their respective boundaries."
+    adjacent_meanings:
+      - federation
+      - koi-net
+    important_distinctions:
+      - >-
+        reference-vs-referent — the RID is the pointer/label; the referent (the
+        actual document/message/record) is never itself transferred
+    risks_of_flattening: >-
+      Only quoting the RID concept without KOI-net's supporting node roles
+      (sensor/processor/coordinator) can make it sound like a naming scheme
+      alone accomplishes federation; the roles are what actually move and
+      transform the referenced knowledge across a network.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-4e11e89a5db3
+    source_lineage: federation-portability.md
+  crypto-wallet-keys-not-money:
+    title: Crypto Wallet (keys, not money)
+    type: concept-lineage
+    short_description: >-
+      A crypto wallet does not store cryptocurrency itself — funds live on the
+      blockchain. A wallet holds the cryptographic keys (a public key/address to
+      receive with, and a private key that must never be shared) that prove a
+      slice of the shared ledger belongs to you.
+    source_traditions:
+      - public-key cryptography
+      - blockchain / distributed ledgers
+    toolkit_usage: >-
+      Foundations-layer explainer for community organizers and permaculturists
+      new to Web3; builds the public/private key distinction, then the
+      recovery-phrase concept, then newer passkey-based "smart wallet" recovery,
+      then hot-vs-cold wallet trade-offs, then names common scam patterns.
+    adjacent_meanings:
+      - >-
+        traditional bank account (explicitly contrasted: no 'forgot password' or
+        fraud department for a crypto wallet)
+      - >-
+        smart wallet (passkey + guardian-based recovery, positioned as a newer
+        alternative to the classic recovery-phrase model)
+    important_distinctions:
+      - >-
+        public-key-vs-private-key — the article's central operational
+        distinction: the public key/address is safe to share (like a street
+        address), the private key must never be shared (like the only key to
+        your front door).
+      - >-
+        recovery-phrase-vs-smart-wallet-recovery — classic 12–24-word seed
+        phrase backup vs. newer passkey + guardian-based recovery (e.g. Argent
+        "Ready", Base App) that removes the single-written-artifact failure
+        mode.
+      - >-
+        hot-wallet-vs-cold-wallet — always-online convenience (phone/browser)
+        vs. offline hardware-device security; framed as a convenience/security
+        trade-off, not a strict better/worse.
+    tensions:
+      - >-
+        convenience-vs-security — the article's own suggested pattern is a small
+        amount in a hot wallet for everyday use and larger amounts in cold
+        storage, rather than resolving the trade-off one way.
+    risks_of_flattening: >-
+      Treating "wallet" as synonymous with "exchange account" erases the
+      article's core point that a wallet holds keys to a decentralized public
+      ledger, not custodied funds — the whole recovery-phrase/scam-risk section
+      only makes sense once that distinction is clear.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-553392f77839
+    source_lineage: what-is-wallet.md
+  regenerative-finance-refi:
+    title: Regenerative Finance (ReFi)
+    type: concept-lineage
+    short_description: >-
+      Money flows that "build soil instead of mining it" — the article's core
+      framing: rather than being extractive (treating a forest as worth more cut
+      down than alive) or merely sustainable (doing less harm), ReFi aims to
+      leave the system measurably healthier than it found it, using blockchain
+      as a shared, tamper-resistant public record.
+    source_traditions:
+      - regenerative agriculture
+      - blockchain / public ledgers
+      - quadratic funding / mechanism design
+      - carbon-market tokenization
+    toolkit_usage: >-
+      Introductory foundations-layer concept for community organizers and
+      growers new to crypto; explicitly distinguishes "sustainability maintains,
+      regeneration improves" and walks through three concrete problem/solution
+      pairs (proving impact via Silvi, community-driven funding via Gitcoin
+      quadratic funding, local value circulation via community tokens) before
+      addressing energy-use and greenwashing objections.
+    adjacent_meanings:
+      - >-
+        sustainability (doing less harm — explicitly distinguished as a lesser
+        goal than regeneration)
+      - >-
+        DeFi (decentralized finance generally, of which ReFi is framed as a
+        values-driven subset)
+    important_distinctions:
+      - >-
+        sustainability-maintains-vs-regeneration-improves — the article's
+        central conceptual hinge distinguishing ReFi from ordinary
+        sustainability framing.
+      - >-
+        tokenizing-is-not-automatically-good — a carbon token (or any tokenized
+        "nature asset") is only as honest as the underlying project;
+        tokenization is a wrapper, not a verification of quality.
+    tensions:
+      - >-
+        pricing-nature-vs-commodifying-nature — putting a number on carbon,
+        water, or biodiversity is presented as ReFi's headline move, but the
+        article itself flags this is "exactly where greenwashing hides."
+    risks_of_flattening: >-
+      Reducing ReFi to "carbon tokens" or "crypto for climate" erases the
+      article's broader claim that it is fundamentally about redirecting money
+      toward people doing regenerative work (soil, community, local
+      circulation), not only about pricing ecological assets.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55907730d33f
+    source_lineage: what-is-refi.md
+  quadratic-funding-formula-and-the-breadth-over-wealth-design-goal:
+    title: Quadratic funding formula and the breadth-over-wealth design goal
+    type: concept-lineage
+    short_description: >-
+      For each project, take the square root of every individual donation, sum
+      those roots, then square the total — that squared number is the project's
+      share of a shared matching pool. The design goal: the number of distinct
+      backers matters more than the size of any single donation.
+    source_traditions:
+      - >-
+        "Liberal Radicalism: A Flexible Design for Philanthropic Matching
+        Funds," a 2018 paper by Vitalik Buterin, Zoë Hitzig, and Glen Weyl
+    toolkit_usage: >-
+      Walked through with a worked example in the article (100 people giving $1
+      each outweighs one person giving $100, 10,000 vs. 100 matching weight) to
+      make the "breadth beats whales" design goal concrete for organizers
+      deciding whether to run a round.
+    adjacent_meanings:
+      - >-
+        Deep Funding, MACI private voting, Conviction Voting, Retroactive
+        Funding, and peer-reviewed Hypercerts — the five other mechanisms GG24
+        ran alongside QF in the same cycle, per the article's "plural toolkit"
+        framing.
+    important_distinctions:
+      - >-
+        Democratic communities systematically underfund shared goods because no
+        single person captures the full benefit — QF is designed to correct for
+        that specific market failure, not to replace grants generally.
+    tensions:
+      - >-
+        Rewarding breadth of support vs. vulnerability to sybil attacks (one
+        person spinning up many wallets to fake a crowd).
+    risks_of_flattening: >-
+      Reducing QF to "more donors equals more match" without the sybil-defense
+      caveats (proof of personhood, cluster-matching corrections) that make a
+      round's match trustworthy in practice.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gitcoin-grants-qf.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55b29771dc58
+    source_lineage: gitcoin-grants-qf.md
+  dao-treasury-diversification:
+    title: DAO treasury diversification
+    type: concept-lineage
+    short_description: >-
+      Holding a DAO's treasury across multiple asset types — especially
+      stablecoins (USDC, DAI) alongside the native governance token — rather
+      than concentrating value in one volatile, illiquid asset, in order to
+      maintain operational continuity through market cycles.
+    source_traditions:
+      - traditional corporate/nonprofit treasury and reserve-fund management
+      - >-
+        DeFi lending and market-making mechanisms (Aave, Gnosis Auction, OTC
+        desks)
+    toolkit_usage: >-
+      Practical heuristic given: maintain 2-3 years of operating expenses in
+      stablecoins as a survival buffer; diversify via organic stablecoin
+      revenue, strategic token sales (OTC, batch auctions, bonding curves),
+      strategic partnerships (discounted token swaps with lock-ups), or
+      borrowing against native tokens.
+    adjacent_meanings:
+      - >-
+        portfolio diversification (traditional finance) — same risk-reduction
+        logic applied to a DAO's own governance token
+    important_distinctions:
+      - >-
+        treasury size (paper wealth in governance tokens) vs. treasury liquidity
+        (actual spendable/stable value) — the article's central paradox
+      - >-
+        diversification method choice (revenue vs. sale vs. partnership vs.
+        borrowing) carries different risk/governance trade-offs, not
+        interchangeable tactics
+    tensions:
+      - >-
+        diversifying by selling native tokens can itself crash the token's price
+        (the liquidity problem it's trying to solve)
+      - >-
+        borrowing against tokens avoids sales but introduces liquidation risk if
+        token prices drop
+    risks_of_flattening: >-
+      Treating "diversify into stablecoins" as a universal prescription without
+      weighing a specific DAO's values, risk tolerance, and governance structure
+      — the article frames treasury management as inseparable from governance
+      (who holds power), not a purely technical finance decision.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+    source_lineage: treasury-management.md
+  native-token-concentration-risk:
+    title: Native token concentration risk
+    type: concept-lineage
+    short_description: >-
+      The risk a DAO carries when most of its treasury value sits in its own
+      governance token: thin order books (illiquidity), extreme volatility, and
+      operational continuity breaking down precisely when the community most
+      needs stability (bear markets).
+    source_traditions:
+      - crypto-market microstructure (order-book liquidity, slippage)
+      - DAO/protocol treasury commentary
+    toolkit_usage: >-
+      Named as the article's core paradox: DAOs holding "$15 billion" across the
+      top 50 treasuries appear wealthy on paper while actual financial
+      flexibility is severely limited by this concentration.
+    adjacent_meanings:
+      - >-
+        home-bias / concentration risk (traditional finance analogue —
+        over-exposure to a single, correlated asset)
+    important_distinctions:
+      - >-
+        governance power (what the token measures) vs. spendable value (what the
+        token can reliably realize in a sale) — the token does both jobs poorly
+        when treated as the treasury's main asset
+    tensions:
+      - >-
+        the token that best represents community ownership/governance is often
+        the worst asset to actually spend from
+    risks_of_flattening: >-
+      Reducing this to "sell the token" ignores that forced or large token sales
+      are exactly what triggers the illiquidity/slippage problem being described
+      — the risk and its naive fix are in tension.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+    source_lineage: treasury-management.md
+  quadratic-funding-qf:
+    title: Quadratic Funding (QF)
+    type: concept-lineage
+    short_description: >-
+      Crowdfunding with a matching pool, where the match grows with the number
+      of distinct backers rather than the dollar amount they give — "a vote you
+      cast with a small donation."
+    source_traditions:
+      - >-
+        Constrained Liberal Radicalism algorithm — "Liberal Radicalism," a 2018
+        paper by Vitalik Buterin, Zoë Hitzig, and E. Glen Weyl
+    toolkit_usage: >-
+      Presented as the prospective-funding mechanism a local node is most likely
+      to use before it has a track record; Gitcoin Grants and Giveth run the
+      largest QF rounds. Framed as a turnout exercise for organizers, not a
+      grant application — outcomes are mostly decided by contributor-list size
+      before a round even opens.
+    adjacent_meanings:
+      - direct grants (application-based, no matching-pool mechanics)
+      - >-
+        streaming QF (Gitcoin/Geo Web via Superfluid — real-time flow-rate
+        matching)
+      - >-
+        conviction voting (1Hive — continuous token-weighted staking, no round
+        cadence)
+    important_distinctions:
+      - >-
+        QF is prospective (pays before the work), distinct from retroactive
+        funding (RetroPGF/Retro Funding) and hypercerts, which pay after impact
+        is shown.
+    tensions:
+      - >-
+        Breadth-of-participation design goal vs. Sybil attacks (fake identities)
+        and collusion (coordinated real users) — the article's stated "pitfall
+        you most need to hear."
+    risks_of_flattening: >-
+      Treating a QF round as free money rather than what the article insists it
+      is: a turnout mechanism that rewards community-building work done long
+      before the round opens.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-landscape.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-704b0ef07811
+    source_lineage: funding-landscape.md
+  retroactive-public-goods-funding-retropgf-retro-funding:
+    title: Retroactive Public Goods Funding (RetroPGF / Retro Funding)
+    type: concept-lineage
+    short_description: >-
+      Funding that flips prospective funding's timing: instead of pitching a
+      plan, a project ships work first, and a later round looks back and pays
+      for what proved useful. The Optimism Collective runs the largest version.
+    source_traditions:
+      - Optimism Collective (850M OP reserved for public goods, 20% of supply)
+    toolkit_usage: >-
+      Positioned as suiting nodes that already produce visible, attributable
+      work rather than brand-new ones; hypercerts are presented as the
+      evidentiary record that lets a retro round know what a node actually did.
+    adjacent_meanings:
+      - hypercerts (the structured impact record retro rounds are read against)
+      - >-
+        quadratic funding (the prospective counterpart in the article's "two
+        families" framing)
+    important_distinctions:
+      - >-
+        Retrospective (pays after impact is shown) vs. prospective (pays before
+        the work happens) — the article's organizing distinction for the whole
+        funding landscape.
+    tensions:
+      - >-
+        "No proposal-writing theatre" relief vs. the risk of funding yourself
+        out of pocket first and hoping a future round notices you.
+    risks_of_flattening: >-
+      Assuming retro funding suits any node, when the article is explicit it
+      rewards track records and therefore suits established nodes, not brand-new
+      ones.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-landscape.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-704b0ef07811
+    source_lineage: funding-landscape.md
+  phishing-crypto:
+    title: Phishing (crypto)
+    type: concept-lineage
+    short_description: >-
+      Impersonating a trusted service to steal login details or private
+      keys/seed phrases — via fake emails, typosquatted websites, DMs offering
+      "help," or malicious browser extensions.
+    source_traditions:
+      - >-
+        general information-security phishing terminology, applied to crypto
+        wallets/exchanges
+    toolkit_usage: >-
+      Used as the first scam pattern in the article's field guide; the "golden
+      rule" defense given is that no legitimate service ever asks for a seed
+      phrase or private key.
+    adjacent_meanings:
+      - typosquatting
+    important_distinctions:
+      - >-
+        phishing-vs-rug-pull — phishing steals credentials/keys from a victim; a
+        rug pull is a project's own team absconding with pooled funds
+    risks_of_flattening: >-
+      Treating all phishing as identical hides real variation in vector (email
+      vs. malicious browser extension vs. DM) that requires different specific
+      defenses.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7d08281b2f7e
+    source_lineage: common-scams.md
+  rug-pull:
+    title: Rug pull
+    type: concept-lineage
+    short_description: >-
+      A project's creators take investors' pooled funds and abandon the project,
+      often after building tokenomics that quietly blocks holders from selling.
+    source_traditions:
+      - crypto/DeFi token-launch culture
+    toolkit_usage: >-
+      Illustrated in the article with the SQUID token (2021) case: price spiked
+      from cents to $2,800+, then developers drained funds and the sell-blocking
+      code trapped 40,000+ buyers.
+    important_distinctions:
+      - >-
+        anonymous-team-vs-rug-pull — the article stresses an anonymous team
+        isn't automatically a scam; trust should come from open code and
+        independent audits, not team visibility alone
+    risks_of_flattening: >-
+      Not every failed/abandoned crypto project is a deliberate rug pull;
+      conflating negligence, failure, and intentional fraud under one label can
+      mislabel honest failures as scams.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7d08281b2f7e
+    source_lineage: common-scams.md
+  pig-butchering-romance-scam:
+    title: Pig butchering (romance scam)
+    type: concept-lineage
+    short_description: >-
+      A long-con scam that builds a genuine-feeling romantic or personal
+      relationship before introducing a crypto "opportunity" — the name refers
+      to "fattening up" a victim with affection and small wins before draining
+      their funds.
+    source_traditions:
+      - romance-scam fraud pattern, adapted to crypto investment fraud
+    toolkit_usage: >-
+      Presented per Chainalysis research as among the most financially damaging
+      scam categories; article gives a behavioral pattern (dating-app or "wrong
+      number" contact, weeks of warm conversation, fake trading app, pressure to
+      reinvest, then silence) and defenses (video call test, treat
+      romance+investing overlap as a red flag).
+    adjacent_meanings:
+      - investment-scam
+    risks_of_flattening: >-
+      Article's defenses (ask for a video call, watch for a romance/investing
+      overlap) don't address increasingly convincing AI-generated video/voice,
+      which the article itself flags as an emerging gap.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7d08281b2f7e
+    source_lineage: common-scams.md
+  taxonomy-knowledge-organization:
+    title: Taxonomy (knowledge organization)
+    type: concept-lineage
+    short_description: >-
+      A hierarchy of categories used to file and find things — each item sits
+      under a broader category. The formal (SKOS) version gives each concept one
+      preferred label and any number of alternate labels (synonyms), with
+      broader/narrower/related relations.
+    source_traditions:
+      - library and information science
+      - controlled-vocabulary / thesaurus practice
+      - SKOS (W3C linked-data standard)
+    toolkit_usage: >-
+      Recommended default for knowledge commons: build the taxonomy in SKOS
+      first (prefLabel/altLabel/broader/narrower), reach for an ontology only
+      when a specific recurring task needs machine reasoning.
+    adjacent_meanings:
+      - >-
+        folksonomy (uncontrolled, user-generated tagging — taxonomy is
+        controlled)
+      - category tree / folder hierarchy (informal analogue)
+    important_distinctions:
+      - >-
+        taxonomy classifies and enables navigation; it does not encode reasoning
+        rules (that's ontology's job)
+      - >-
+        a taxonomy concept has ONE preferred label + alternates — this is what
+        stops label drift (e.g. 'grants'/'funding'/'money')
+    tensions:
+      - >-
+        simplicity/accessibility (non-technical teammates can read and extend
+        it) vs. expressive limits (no inference)
+    risks_of_flattening: >-
+      Treating every useful adjective or tag as if it were a taxonomy type
+      causes the same "ontology sprawl" problem taxonomies are meant to avoid —
+      the type/tag distinction has to be actively maintained, not assumed.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ontology-vs-taxonomy.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7fb26c01e3dc
+    source_lineage: ontology-vs-taxonomy.md
+  ontology-knowledge-organization:
+    title: Ontology (knowledge organization)
+    type: concept-lineage
+    short_description: >-
+      Describes the kinds of things (classes) in a domain and the specific,
+      named, typed relationships between them and their instances (individuals),
+      in a form a computer can reason over — enabling inference (e.g. flagging a
+      Grant missing a required Report) that a taxonomy cannot do.
+    source_traditions:
+      - knowledge engineering / semantic web (RDF, RDFS, OWL)
+      - artificial intelligence (knowledge representation)
+    toolkit_usage: >-
+      The Regen Toolkit's own ontology layer aims for "enough shared meaning
+      that people, tools, and future AI workflows can work together without
+      silently inventing incompatible categories" — not a perfect ontology
+      before use. Positioned as the second step after a taxonomy, adopted only
+      when a genuine need for machine-readable relationships and inference
+      exists.
+    adjacent_meanings:
+      - >-
+        knowledge graph (a populated instance of an ontology's classes +
+        relationships)
+      - >-
+        controlled vocabulary (taxonomy's simpler cousin, often confused with
+        ontology)
+    important_distinctions:
+      - class vs. individual — Grant (type) vs. this March seed grant (instance)
+      - >-
+        a type defines what something IS; a tag describes how something may be
+        classified/filtered — confusing them creates ontology sprawl
+    tensions:
+      - >-
+        expressive power (inference, structured queries) vs. maintenance cost
+        (full-time modeling work if scope isn't disciplined)
+    risks_of_flattening: >-
+      Building a full ontology before a task actually needs machine reasoning —
+      most knowledge commons never need this step, and premature ontology work
+      is the "opposite of outliving turnover" the article warns against.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ontology-vs-taxonomy.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7fb26c01e3dc
+    source_lineage: ontology-vs-taxonomy.md
+  minimum-viable-node-mvn:
+    title: Minimum Viable Node (MVN)
+    type: concept-lineage
+    short_description: >-
+      The smallest real version of a local initiative that actually does
+      something for real people — the smallest loop of people coordinating value
+      together that can be run with the people already on hand, before tokens,
+      treasuries, or on-chain governance enter the picture.
+    source_traditions:
+      - lean-startup minimum viable product (MVP)
+    toolkit_usage: >-
+      Framed as the answer to three specific organizer fears — burnout, building
+      something nobody wants, and central overreach — and operationalized in the
+      article as three load-bearing parts: a one-sentence shared purpose, a way
+      to track value, and five to ten people who reliably show up.
+    adjacent_meanings:
+      - minimum viable product (MVP), the lean-startup source concept
+    important_distinctions:
+      - >-
+        "One is a plan. The other is a working node with a sample size of two."
+        — the article's own distinction between writing a whitepaper for a
+        community currency and actually lending a neighbour a drill in exchange
+        for tracked time.
+      - >-
+        Autonomous yet connected — an MVN is explicitly not isolationist; the
+        article distinguishes "belonging to a network" from "being captured by
+        one."
+    tensions:
+      - >-
+        Guarding against central overreach (keeping heavy machinery out) vs.
+        tapping shared learning from networks like ReFi DAO and Greenpill so the
+        node doesn't reinvent every wheel.
+    risks_of_flattening: >-
+      Treating "minimum viable" as an excuse to skip the hard part (real
+      conversations, an actual exchange with real people) rather than as a
+      sequencing discipline that defers technology until human coordination is
+      actually straining.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/minimum-viable-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-810346fad236
+    source_lineage: minimum-viable-node.md
+  source-system:
+    title: Source system
+    type: concept-lineage
+    short_description: >-
+      A living knowledge environment (wiki, repo, research database, forum,
+      digital garden) — not a single document or a static link — that has a
+      steward, receives ongoing additions, and offers a return path to credit
+      and trace material back to its origin.
+    source_traditions:
+      - digital-garden practice (Maggie Appleton)
+      - commons governance (Elinor Ostrom's design principles)
+      - open-source repo/maintainer conventions
+    toolkit_usage: >-
+      The Regen Knowledge Commons Toolkit's Resource Graph layer is explicitly
+      framed as "not a link list" but the place the rest of the toolkit stays
+      grounded in reality; the three-question test (Who tends this? Is new
+      material still added? Can I trace and credit it?) determines whether a
+      dependency is a source system or a rotting link.
+    adjacent_meanings:
+      - >-
+        link list / resources page (a flat, unowned, unmaintained set of URLs —
+        explicitly NOT a source system)
+      - >-
+        Resource Graph vs. Ecosystem Atlas (storage-with-lineage vs. the
+        interpretive lens layered on top of it)
+    important_distinctions:
+      - >-
+        a source system has three required properties: steward, ongoing
+        additions, return path to credit — a source lacking any one of these is
+        a link, not a system
+      - >-
+        inclusion does not mean endorsement — adding a source system as a
+        reference is not the project vouching for its content
+    tensions:
+      - >-
+        openness to add broadly vs. the discipline of marking maturity honestly
+        so raw inclusions don't silently become 'true'
+    risks_of_flattening: >-
+      Treating any URL you cite as a "source system" without a steward or return
+      path — this collapses the distinction the whole concept exists to
+      preserve, and lets link rot back in under a new name.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+    source_lineage: source-systems.md
+  provenance-vs-lineage:
+    title: Provenance (vs. lineage)
+    type: concept-lineage
+    short_description: >-
+      The recorded origin and history of a piece of knowledge — where it came
+      from, who made it, and how it changed — distinguished from "lineage,"
+      which is the path data took through systems. Provenance answers "why do we
+      believe this, and who said it first?"
+    source_traditions:
+      - data-engineering (data lineage vs. provenance distinction)
+      - archival/records science (chain of custody)
+    toolkit_usage: >-
+      Directly maps to this framework's own `provenance` mixin
+      (schemas/provenance.yaml: origin, surfaced_by, adapted_from,
+      transformation, authorship) — the mechanism that keeps "inclusion does not
+      mean endorsement" honest by making origin traceable on every object.
+    adjacent_meanings:
+      - >-
+        data lineage (the technical path through systems — a related but
+        distinct concept per the Snowflake source cited)
+    important_distinctions:
+      - >-
+        lineage = the path data took through systems; provenance = the
+        historical record of origin, custody, and trust
+    tensions:
+      - >-
+        provenance is the highest-leverage habit for a long-lived commons, but
+        it is also the part contributors most often skip because it feels like
+        overhead in the moment
+    risks_of_flattening: >-
+      Losing provenance lets claims decay into folklore — repeated by everyone,
+      backed by no one — which is exactly the failure mode a knowledge commons
+      is trying to avoid by recording origin every time.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+    source_lineage: source-systems.md
+  outputs-vs-outcomes-vs-impact:
+    title: Outputs vs. Outcomes vs. Impact
+    type: concept-lineage
+    short_description: >-
+      The core distinction the impact-measurement field rests on: outputs are
+      countable activity ("we ran 12 workshops"), outcomes are what actually
+      changed for people or ecosystems as a result ("30 farmers adopted a
+      regenerative practice"), and impact is the difference the work made versus
+      what would have happened anyway (if the trees would have been planted
+      regardless, impact is zero even with 400 outputs).
+    source_traditions:
+      - impact evaluation / M&E (monitoring & evaluation)
+      - theory of change methodology
+      - MRV (measurement, reporting, verification) for ecological projects
+    toolkit_usage: >-
+      Central diagnostic frame for local-node builders in the article: most
+      nodes count outputs because they're "easy and seductive," but funders and
+      the node's own future self care about outcomes and impact; the article
+      uses it to argue for lightweight before/after surveys and follow-ups
+      rather than a research budget.
+    adjacent_meanings:
+      - >-
+        vanity metrics (activity counted for its own sake, named as the failure
+        mode this distinction guards against)
+      - >-
+        theory of change (the one-page map from activities to desired change,
+        used to decide which two or three numbers are worth collecting)
+    important_distinctions:
+      - >-
+        counting-activity-vs-demonstrating-change — "we ran 12 workshops"
+        (output) tells no one anything on its own; "12 workshops, after which 30
+        farmers switched to cover-cropping, up from 4 the year before" (outcome)
+        is a story with a spine.
+      - >-
+        outcome-vs-counterfactual-impact — an outcome can occur without the
+        node's work being the cause of it; impact specifically nets out what
+        would have happened anyway.
+    tensions:
+      - >-
+        rigor-vs-burnout — the article explicitly warns against "becoming a
+        spreadsheet bureaucracy"; the recommended discipline is a small number
+        of weekly-checked metrics, not comprehensive measurement.
+    risks_of_flattening: >-
+      Treating any counted number as equally meaningful "measurement" erases the
+      distinction the whole article is built on — a high output count can
+      coexist with zero real impact, and the article frames that gap as where
+      "good local initiatives quietly die."
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a796f519a8b8
+    source_lineage: why-measurement-matters.md
+  stablecoins:
+    title: Stablecoins
+    type: concept-lineage
+    short_description: >-
+      Cryptocurrencies pegged to a stable reference asset (typically the US
+      dollar) so their value doesn't swing the way bitcoin's does, making them
+      practical for organizations needing predictable budgets.
+    source_traditions:
+      - crypto/DeFi
+      - traditional finance (currency-peg concept)
+    toolkit_usage: >-
+      Positioned in this article as the practical, everyday-operations use case
+      for nonprofits (vs. bitcoin/volatile-crypto donations for one-off crisis
+      fundraising) — cross-border payments and predictable budgeting.
+    adjacent_meanings:
+      - crypto-donations
+      - cross-border-payments
+    important_distinctions:
+      - >-
+        stablecoins-vs-volatile-crypto — stablecoins are framed as suited to
+        recurring operational use, not speculative holding
+    risks_of_flattening: >-
+      The article doesn't distinguish stablecoin types (fiat-collateralized vs.
+      algorithmic vs. crypto-collateralized) or their differing risk profiles —
+      treating "stablecoin" as a single practical mechanism.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/case-studies-nonprofits.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b3d9480838b4
+    source_lineage: case-studies-nonprofits.md
+  blockchain:
+    title: Blockchain
+    type: concept-lineage
+    short_description: >-
+      A digital record (ledger) that many computers (nodes) keep identical,
+      synchronized copies of, organized into blocks that each carry a hash
+      (fingerprint) of the previous block, making the history tamper-evident and
+      removing the need for a single trusted keeper.
+    source_traditions:
+      - distributed systems / distributed ledger technology
+      - cryptography (cryptographic hashing, consensus mechanisms)
+      - digital currency (Bitcoin's original use case)
+    toolkit_usage: >-
+      Introduced via a "village notebook" analogy for readers new to crypto;
+      grounds the toolkit's later, more technical articles (proof of work/stake,
+      wallets, decentralization) in a plain-language first encounter.
+    adjacent_meanings:
+      - >-
+        distributed ledger (the general category; a blockchain is one specific
+        structure — hash-chained blocks — within it)
+      - >-
+        database with replication (superficially similar copy-everywhere idea,
+        but lacks the hash-chaining + consensus that make a blockchain
+        tamper-evident without a trusted operator)
+    important_distinctions:
+      - >-
+        immutable ≠ unchangeable-in-theory — rewriting settled history is
+        possible in principle but requires redoing every subsequent block and
+        persuading a majority of nodes simultaneously, which is what makes it
+        impractical rather than impossible
+      - >-
+        trustless ≠ untrustworthy — it means no single keeper needs to be
+        trusted because every node can verify every other node's records
+    tensions:
+      - >-
+        permanence protects against tampering but also means mistakes (wrong
+        entries, misdirected payments) usually can't be undone
+      - >-
+        public chains are often fully visible, so transparency and privacy pull
+        against each other for sensitive community information
+    risks_of_flattening: >-
+      Treating "blockchain" as a single monolithic technology with one energy
+      profile or one privacy model — proof-of-work vs. proof-of-stake chains
+      differ by roughly three orders of magnitude in energy use, and public vs.
+      permissioned chains differ sharply in visibility.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+    source_lineage: what-is-blockchain.md
+  proof-of-work-vs-proof-of-stake:
+    title: Proof of work vs. proof of stake
+    type: concept-lineage
+    short_description: >-
+      Two blockchain consensus mechanisms for agreeing what's true across nodes
+      without a central authority. Proof of work secures the chain by burning
+      computing power/electricity (Bitcoin); proof of stake secures it through
+      deposited funds rather than raw computation (Ethereum since its 2022
+      "Merge," and Celo).
+    source_traditions:
+      - cryptography / distributed-consensus research
+    toolkit_usage: >-
+      Used in the article's "honest costs" section to correct a dated
+      assumption: "blockchain wastes energy" is true of proof-of-work chains
+      like Bitcoin but false of proof-of-stake chains, which is what most
+      regenerative-economy projects (built on Ethereum, Celo) actually run on.
+    adjacent_meanings:
+      - >-
+        mining (the proof-of-work process of competing to add the next block)
+        vs. staking (the proof-of-stake process of depositing funds to earn the
+        right to validate)
+    important_distinctions:
+      - >-
+        energy use differs by roughly three orders of magnitude between the two
+        mechanisms per the article's cited figures — they are not
+        interchangeable when evaluating a project's environmental footprint
+      - >-
+        Ethereum's 2022 switch ("the Merge") changed only the consensus
+        mechanism, not what the chain is used for — same network, different
+        security method
+    tensions:
+      - >-
+        proof-of-work's energy cost buys a very long, battle-tested security
+        track record (Bitcoin); proof-of-stake trades some of that track record
+        for far lower energy use
+    risks_of_flattening: >-
+      Citing Bitcoin's energy use as if it applied to "blockchain" generally —
+      the article explicitly warns this generalization is now false for Ethereum
+      and Celo, the chains most regenerative projects actually use.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+    source_lineage: what-is-blockchain.md
+  local-node-refi:
+    title: Local node (ReFi)
+    type: concept-lineage
+    short_description: >-
+      A place-based community that meets regularly to learn and apply
+      regenerative-finance tools on the ground, rooted in a specific town or
+      city with a long-term commitment to regeneration.
+    source_traditions:
+      - ReFi DAO local-node network
+    toolkit_usage: >-
+      The organizing unit for the whole 90-day playbook; ReFi DAO is cited as
+      coordinating the largest network of these nodes (100+ events across 58
+      cities).
+    adjacent_meanings:
+      - local-node-incubator
+      - regen-coordination-hub
+    important_distinctions:
+      - >-
+        local-node-vs-product-launch — the article stresses a node is a
+        relationship that starts with people, not a treasury or token launch
+    risks_of_flattening: >-
+      Treating "local node" as a template to copy-paste (fixed structure, fixed
+      timeline) rather than a relationship-first process that varies by city and
+      community.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/first-90-days.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e009425cced2
+    source_lineage: first-90-days.md
+  quadratic-funding:
+    title: Quadratic funding
+    type: concept-lineage
+    short_description: >-
+      A matching-fund mechanism that weights the number of backers more heavily
+      than the size of any single gift, so broad community support outweighs one
+      large donor ("one whale").
+    source_traditions:
+      - Gitcoin Grants matching-round design
+    toolkit_usage: >-
+      Explains why Gitcoin Grants is recommended as the main funding on-ramp for
+      a local node once it has a track record — small, broad-based community
+      donations get amplified by a matching pool.
+    adjacent_meanings:
+      - gitcoin-grants
+      - gitcoin-passport
+    important_distinctions:
+      - >-
+        quadratic-funding-vs-flat-matching — rewards breadth of small backers
+        rather than simply matching whatever is donated 1:1
+    risks_of_flattening: >-
+      The article doesn't cover known quadratic-funding attack vectors (e.g.
+      collusion/Sybil attacks), which Gitcoin Passport is partly designed to
+      mitigate — worth linking if a dedicated quadratic-funding page exists.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/first-90-days.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e009425cced2
+    source_lineage: first-90-days.md
+  review-maturity-ladder-four-rung-draft-reviewed-maintained-deprecated:
+    title: >-
+      Review-maturity ladder (four-rung: Draft / Reviewed / Maintained /
+      Deprecated)
+    type: concept-lineage
+    short_description: >-
+      A shippable per-page trust-state label for knowledge commons: Draft
+      (written, unchecked, anyone can edit) -> Reviewed (a second person
+      confirmed accuracy) -> Maintained (reviewed AND someone owns keeping it
+      current, with a review date) -> Deprecated (kept for history, points to
+      its replacement). Stored in page frontmatter (`status`, `reviewed_by`,
+      `last_reviewed`) so it travels with the content.
+    source_traditions:
+      - Wikipedia content assessment (Stub -> Start -> C -> B -> GA -> FA)
+      - >-
+        Architecture Decision Records / MADR (Proposed -> Accepted ->
+        Deprecated/Superseded)
+      - Kubernetes feature gates (Alpha -> Beta -> Stable)
+    toolkit_usage: >-
+      Crosswalks onto this toolkit's own K1 review-maturity model
+      (schemas/review-maturity.yaml): Draft -> maturity "draft", Reviewed ->
+      maturity "reviewed", Deprecated -> maturity "deprecated". "Maintained" has
+      no exact K1 rung — it layers ownership + a recency check (last_reviewed
+      expiry) on top of "reviewed" rather than being a distinct maturity value,
+      which is itself a useful gap to flag for K1's crosswalk table.
+    adjacent_meanings:
+      - >-
+        self-claimed state (Draft/Proposed/Alpha — 'I wrote this') vs. granted
+        state (Reviewed/Accepted/Stable — 'someone else checked this')
+    important_distinctions:
+      - >-
+        'Maintained' is not just 'still reviewed' — it requires an owner AND a
+        last_reviewed date, i.e. an active maintenance commitment, not a static
+        label
+      - >-
+        review effort should scale with risk (low-stakes: one reader;
+        high-stakes — money/legal/ecological/governance: two reviewers + an
+        owner) rather than a single fixed bar for every page
+    tensions:
+      - >-
+        frictionless draft tiers (encourage capture) vs. gated granted tiers
+        (protect trust) — loosening either side breaks the mechanism
+    risks_of_flattening: >-
+      Treating "Reviewed" as a permanent badge rather than a maintenance
+      commitment — the article's core warning is that reviewed pages silently
+      rot once nobody re-checks them; conflating "was reviewed once" with "is
+      still trustworthy" undoes the whole point of the ladder.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/review-and-maturity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ea54c9ef7bb2
+    source_lineage: review-and-maturity.md
+  bus-factor:
+    title: Bus factor
+    type: concept-lineage
+    short_description: >-
+      The number of people who would have to disappear before a project stalls —
+      knowledge concentrated in one head has a bus factor of one, meaning a
+      single departure breaks continuity.
+    source_traditions:
+      - software engineering / knowledge-management risk metrics
+    toolkit_usage: >-
+      Motivates maturity labelling in the Regen Toolkit: when the one expert
+      leaves, unreviewed drafts stay behind looking as authoritative as reviewed
+      pages unless the trust-state was made legible in advance.
+    adjacent_meanings:
+      - >-
+        key-person dependency / single point of failure (general risk-management
+        framing)
+    important_distinctions:
+      - >-
+        bus factor is about knowledge concentration risk, not about the quality
+        of any single piece of writing — a well-written draft can still raise
+        the bus factor if it is the only record of a decision
+    tensions: []
+    risks_of_flattening: >-
+      Reducing bus factor to "hire more people" rather than "make trust state
+      and provenance legible" — the article's point is that labelling is a cheap
+      mitigation that does not require more staff.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/review-and-maturity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ea54c9ef7bb2
+    source_lineage: review-and-maturity.md
+  decentralization-ae8ffd00:
+    title: Decentralization
+    type: concept-lineage
+    short_description: >-
+      The distribution of power, control, and decision-making away from a single
+      hub, existing on a spectrum (centralized → decentralized → distributed)
+      rather than as a binary state.
+    source_traditions:
+      - network/distributed-systems architecture (computer science)
+      - >-
+        public-administration governance typology (deconcentration, delegation,
+        devolution, privatization)
+      - blockchain/crypto governance discourse
+    toolkit_usage: >-
+      Anchor concept for Layer 1 (Foundations) — used to teach that
+      "decentralized" is not a single yes/no property but a position on multiple
+      independent axes (architecture and governance; technological and
+      sociopolitical), and that the right position is context-dependent rather
+      than an ideological default.
+    adjacent_meanings:
+      - subsidiarity
+      - polycentric-governance
+      - distributed-systems
+    important_distinctions:
+      - >-
+        architecture-vs-governance — a system can be architecturally
+        decentralized (nodes) while remaining politically centralized (who
+        decides), or vice versa
+      - >-
+        technological-vs-sociopolitical-decentralization — infrastructure
+        independence is separate from equitable distribution of actual power
+        (e.g., token concentration)
+      - >-
+        deconcentration-vs-delegation-vs-devolution-vs-privatization — four
+        governance forms of increasing (then differently-directed, in
+        privatization's case) authority transfer
+    tensions:
+      - >-
+        decentralization-as-tool-vs-decentralization-as-ideology — the article
+        explicitly warns against treating maximal distribution as inherently
+        superior ("a tool, not a religion")
+    risks_of_flattening: >-
+      Collapsing "decentralized" into a single label hides that a system can
+      score very differently on technical vs. sociopolitical decentralization —
+      e.g., a blockchain with thousands of nodes but 50% of tokens in one wallet
+      is technologically distributed yet sociopolitically centralized.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/decentralization-spectrum.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ee62e83173d4
+    source_lineage: decentralization-spectrum.md

@@ -1,0 +1,24 @@
+schema: claim-evidence
+object:
+  title: KOI-net reached public beta in May 2025 and is actively maintained
+  type: claim-evidence
+  claim: >-
+    KOI-net, the network protocol and Python framework implementing RID-based
+    federation, hit public beta in May 2025, is MIT-licensed, and is actively
+    maintained (v2.0.7 as of May 2026, per `koi-net` on GitHub).
+  evidence: 'Cited to the BlockScience/koi-net GitHub repository.'
+  source_lineage: 'https://github.com/BlockScience/koi-net'
+  interpretation: >-
+    Supports the article's framing of KOI-net as a credible, currently-usable
+    protocol option (not vaporware) for teams ready to move beyond ad hoc
+    "federate by hand" sharing.
+  uncertainty: >-
+    Version/maintenance status was not independently re-checked against the
+    live repository at ingestion time; verify current version before citing
+    externally.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: quoted
+    authorship: ai-assisted

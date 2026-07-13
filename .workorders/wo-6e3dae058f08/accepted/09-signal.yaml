@@ -1,0 +1,23 @@
+schema: signal
+object:
+  title: 'treasury-management.md carries precise financial figures with sources: []'
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia (content review / fact-check)
+  interpretation: >-
+    The article's own frontmatter declares `sources: []` and `author: unknown`
+    while `factcheck_done: true` and `review_done: true` are also set to true,
+    yet the body states specific, checkable figures ($15B across top-50 DAO
+    treasuries, Maya Protocol's ~$748M yearly volume and ~$3M in fees, "95%
+    slippage" claims) with no inline citations. The factcheck/review flags in
+    frontmatter and the absence of any source list are in tension and worth
+    reconciling before this content is promoted past raw/draft.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-6e3dae058f08
+  source_lineage: treasury-management.md

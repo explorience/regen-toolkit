@@ -1,0 +1,19 @@
+schema: public-use-boundary
+object:
+  title: Boundary — Grassroots Economics / Sarafu network figures (minimum-viable-node.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Business-count, country-coverage, and survey-percentage figures for the
+    Sarafu network are taken from Grassroots Economics' own published
+    materials (secondary citations), not independently re-verified. Confirm
+    current figures with Grassroots Economics before reusing them in a
+    funding- or impact-recommendation context.
+  review_type: steward-review-before-public-use
+  notes: >-
+    Covers the claim-evidence entry "Grassroots Economics' Sarafu network
+    scaled from vouchers, not a token launch" (same work order).
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: synthesized
+    authorship: ai-assisted

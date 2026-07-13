@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Notion
+  type: resource
+  resource_type: workspace-tool
+  url: https://www.notion.com/help/export-your-content
+  link_status: active
+  notes: >-
+    Polished block-based workspace, genuinely good for collaboration, but
+    cited as a portability cautionary example: its export is lossy —
+    databases come out as flat CSV snapshots that drop every view, filter,
+    relation, and rollup; callouts export as raw HTML; nested pages produce
+    filenames stuffed with 32-character IDs. After a few years, leaving
+    Notion means manually reconstructing anything more complex than a plain
+    page.
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted

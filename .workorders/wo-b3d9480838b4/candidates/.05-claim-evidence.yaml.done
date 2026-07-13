@@ -1,0 +1,24 @@
+schema: claim-evidence
+object:
+  title: Crypto donations to nonprofits grew 386% year-over-year in 2024
+  type: claim-evidence
+  claim: >-
+    More than $1 billion in crypto was donated to nonprofits in 2024, a 386%
+    increase from 2023; about 70% of Forbes' Top 100 US charities now accept
+    crypto, up from 12% in 2020.
+  evidence: 'Cited to The Giving Block (annual crypto-giving report).'
+  source_lineage: The Giving Block 2025 Annual Report (as cited in the article)
+  interpretation: >-
+    Signals rapid mainstreaming of crypto philanthropy among large US
+    charities; article extrapolates this trend as relevant to smaller
+    nonprofits too.
+  uncertainty: >-
+    Figures are taken at face value from the article; the underlying Giving
+    Block report was not independently checked, and The Giving Block is a
+    commercial platform with an incentive to report favorable growth.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/case-studies-nonprofits.md
+    transformation: quoted
+    authorship: ai-assisted

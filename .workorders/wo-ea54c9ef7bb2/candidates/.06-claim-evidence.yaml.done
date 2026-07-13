@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: "Polished writing is not automatically reviewed knowledge"
+  type: claim-evidence
+  claim: >-
+    "Polished writing is not automatically reviewed knowledge" — readers
+    cannot distinguish a beautifully written unreviewed draft from a
+    fact-checked, reviewed page unless the review state is explicitly labelled.
+  evidence: >-
+    Named as one of the Regen Web3 Toolkit's own cross-cutting principles
+    (Maturity and review state), illustrated by the article's opening example
+    of a confident-looking but unreviewed treasury-payout page.
+  source_lineage: src/content/docs/review-and-maturity.md
+  interpretation: >-
+    Argues for mandatory, visible maturity labelling (not just internal
+    metadata) as the cheap fix — a badge at the top of the page, not a
+    footnote.
+  uncertainty: >-
+    Editorial/design guidance rather than an empirically tested claim; the
+    treasury-payout scenario is illustrative, not a documented incident.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/review-and-maturity.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,46 @@
+schema: concept-lineage
+object:
+  title: Ontology (knowledge organization)
+  type: concept-lineage
+  short_description: >-
+    Describes the kinds of things (classes) in a domain and the specific, named,
+    typed relationships between them and their instances (individuals), in a
+    form a computer can reason over — enabling inference (e.g. flagging a Grant
+    missing a required Report) that a taxonomy cannot do.
+  source_traditions:
+    - knowledge engineering / semantic web (RDF, RDFS, OWL)
+    - artificial intelligence (knowledge representation)
+  toolkit_usage: >-
+    The Regen Toolkit's own ontology layer aims for "enough shared meaning that
+    people, tools, and future AI workflows can work together without silently
+    inventing incompatible categories" — not a perfect ontology before use.
+    Positioned as the second step after a taxonomy, adopted only when a genuine
+    need for machine-readable relationships and inference exists.
+  adjacent_meanings:
+    - >-
+      knowledge graph (a populated instance of an ontology's classes +
+      relationships)
+    - >-
+      controlled vocabulary (taxonomy's simpler cousin, often confused with
+      ontology)
+  important_distinctions:
+    - class vs. individual — Grant (type) vs. this March seed grant (instance)
+    - >-
+      a type defines what something IS; a tag describes how something may be
+      classified/filtered — confusing them creates ontology sprawl
+  tensions:
+    - >-
+      expressive power (inference, structured queries) vs. maintenance cost
+      (full-time modeling work if scope isn't disciplined)
+  risks_of_flattening: >-
+    Building a full ontology before a task actually needs machine reasoning —
+    most knowledge commons never need this step, and premature ontology work is
+    the "opposite of outliving turnover" the article warns against.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ontology-vs-taxonomy.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7fb26c01e3dc
+  source_lineage: ontology-vs-taxonomy.md

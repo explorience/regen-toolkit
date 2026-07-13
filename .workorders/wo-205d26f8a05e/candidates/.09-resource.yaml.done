@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: GitBook
+  type: resource
+  resource_type: hosted-docs
+  url: https://www.gitbook.com/pricing
+  link_status: active
+  notes: >-
+    Hosted docs platform with GitHub/GitLab sync; has a free tier and is free
+    for open-source and nonprofit projects, but custom domains and team
+    collaborators require a paid plan. Named as fine for a polished public
+    handbook — the article's caution is to check the paywall boundary before
+    depending on a feature that lives behind it.
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted

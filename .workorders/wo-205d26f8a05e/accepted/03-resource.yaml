@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Obsidian
+  type: resource
+  resource_type: note-taking-tool
+  url: https://obsidian.md/
+  link_status: active
+  notes: >-
+    Keeps everything as Markdown files in a folder ("vault") you fully control,
+    with a graph view, backlinks, and a large plugin ecosystem. Named as the fit
+    for "notes and thinking that a few people maintain" — because the files are
+    plain Markdown on disk, the whole vault can be handed to the next maintainer
+    with zero migration. Paid add-on: Obsidian Publish ($10/site/month, or
+    $8/month billed annually).
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-205d26f8a05e
+  source_lineage: knowledge-tools-directory.md

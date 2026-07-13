@@ -1,0 +1,57 @@
+schema: encyclopedia-entry
+object:
+  title: A Tools Directory for Knowledge That Outlives Turnover
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    An opinionated, named-tool guide for building a team knowledge commons
+    that survives contributor turnover. Organized around one governing
+    principle ("infrastructure should follow function") and one portability
+    test ("would your knowledge survive the tool dying?"), it maps tool
+    choices to jobs (team knowledge base, individual notes, public site) and
+    names a public/internal/private visibility-tier substrate mapping.
+  audience: small teams and local nodes choosing knowledge-commons tooling
+  known_tensions:
+    - >-
+      Polished, collaboration-friendly tools (Notion) vs. durable,
+      portable-in-plain-text tools (Markdown + Git) — the article resolves
+      this as "own your source of truth in plain text and Git; use
+      everything else as a publishing or collaboration layer on top."
+    - >-
+      Even historically file-based tools can drift away from portability —
+      Logseq's 2025-2026 SQLite-backed "DB version" is cited as a caution
+      that "file-on-disk" is a property to keep checking, not assume.
+  related_concepts:
+    - infrastructure-follows-function
+  related_resources:
+    - obsidian
+    - quartz
+    - astro-starlight
+    - bookstack
+    - outline
+    - wiki-js
+    - gitbook
+    - notion
+    - logseq
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-205d26f8a05e, knowledge-tools-directory.md):
+# - LinkML — the work-order brief mentioned "Obsidian/Quartz/GitHub/LinkML"
+#   as expected named tools, but LinkML does not appear anywhere in the
+#   actual source article. Not fabricated here; noting the discrepancy
+#   between the brief and the source rather than inventing a LinkML mention.
+# - Git/GitHub — discussed only generically as the version-control substrate
+#   underneath Markdown-based durability (not as a specific product with its
+#   own section); folded into this encyclopedia-entry's summary rather than
+#   given its own resource object.
+# - No high-risk triggers identified in this article (no people, exact
+#   locations, TEK/Indigenous knowledge, MRV/carbon claims, or funding/legal/
+#   governance recommendations) — no claim-evidence or public-use-boundary
+#   candidates produced for this work order.
+# - "Try This" exercise prompts — reader action items, not extractable
+#   knowledge-graph content.

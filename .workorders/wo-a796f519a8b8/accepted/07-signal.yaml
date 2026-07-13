@@ -1,0 +1,22 @@
+schema: signal
+object:
+  title: Outputs vs. outcomes vs. impact is a reusable toolkit-wide frame
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia
+  interpretation: >-
+    This article's outputs/outcomes/impact distinction (and its "measurement is
+    the funding rail, not the paperwork after it" framing for Web3-native nodes)
+    reads as a pattern likely useful beyond this one article — e.g. for other
+    funding-landscape and local-node-building articles in the same content set.
+    Flagging for the curator to consider cross-linking rather than letting each
+    article redefine the distinction independently.
+  proposed_intervention: cite
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-a796f519a8b8
+  source_lineage: why-measurement-matters.md

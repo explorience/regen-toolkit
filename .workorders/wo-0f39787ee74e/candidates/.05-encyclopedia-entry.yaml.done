@@ -1,0 +1,27 @@
+schema: encyclopedia-entry
+object:
+  title: "What Is Decentralization?"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A plain-language guide to decentralization for community organizers and
+    permaculturists new to crypto: what it means, why it matters for their
+    existing work (local chapters, volunteer coordination, shared treasuries),
+    how it's a spectrum rather than a binary, and how to spot genuine versus
+    hyped decentralization using free/open/fair criteria plus concrete tools
+    (Snapshot, quadratic voting).
+  audience: "community organizers and permaculturists new to crypto"
+  known_tensions:
+    - "openness of infrastructure vs. concentration of day-to-day decision power"
+  related_concepts:
+    - decentralization
+  related_resources:
+    - "1Hive"
+    - "Snapshot (snapshot.org)"
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-decentralization.md
+    transformation: summarized
+    authorship: ai-assisted

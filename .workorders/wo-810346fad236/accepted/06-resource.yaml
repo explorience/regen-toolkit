@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Snapshot
+  type: resource
+  resource_type: governance-voting-tool
+  url: https://snapshot.box/
+  link_status: active
+  notes: >-
+    Gasless, signature-based off-chain voting used by tens of thousands of
+    communities. Named in the article's complexity-trigger table as the boring,
+    durable 2026 default for a small node that starts voting often and wants it
+    free and verifiable — explicitly contrasted with the older DAOstack/Alchemy
+    stack, called out as stale advice.
+  related_concepts:
+    - minimum-viable-node
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-810346fad236
+  source_lineage: minimum-viable-node.md

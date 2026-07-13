@@ -1,0 +1,35 @@
+schema: encyclopedia-entry
+object:
+  title: What Is ReFi?
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A plain-language introduction to Regenerative Finance for community
+    organizers and growers new to crypto: the "money that builds soil instead of
+    mining it" framing, three concrete problem/solution pairs (Silvi for proving
+    impact, Gitcoin quadratic funding for community-driven grants, local tokens
+    for keeping value circulating), the carbon-tokenization example with its
+    Verra greenwashing caution, the proof-of-stake energy-use correction, and
+    honest limitations.
+  audience: community organisers and growers new to crypto
+  known_tensions:
+    - pricing nature in vs. commodifying/greenwashing risk (the Verra episode)
+    - >-
+      crypto energy-use reputation (Bitcoin proof-of-work) vs. actual footprint
+      of the Ethereum/Celo-based tools ReFi mostly uses
+  related_concepts:
+    - regenerative-finance-refi
+  related_resources:
+    - Toucan Protocol
+    - Gitcoin (Quadratic Funding)
+    - Silvi
+    - Greenpill Network
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-55907730d33f
+  source_lineage: what-is-refi.md

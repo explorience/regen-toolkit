@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Logseq (local-first note tool)
+  type: resource
+  url: https://logseq.com/
+  resource_type: tool
+  link_status: active
+  notes: >-
+    Local-first, Markdown-based note tool with bidirectional linking, cited
+    in source-systems.md alongside Obsidian as a tool that gives stewardship
+    and ongoing additions in plain files you own.
+  related_concepts:
+    - source-system
+    - digital-garden
+  original_source: src/content/docs/source-systems.md ([GLU] reference)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted

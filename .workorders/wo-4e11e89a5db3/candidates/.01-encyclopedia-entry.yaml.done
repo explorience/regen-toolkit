@@ -1,0 +1,32 @@
+schema: encyclopedia-entry
+object:
+  title: 'Federation and Portability: Building a Commons That Outlives Its Tools'
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    Argues that a knowledge commons needs both portability (moving your data
+    between tools/people/orgs without rot) and federation (sharing across
+    groups without merging into one database). Recommends a "portability
+    floor" of plain Markdown in Git (readable, diffable, greppable,
+    vendor-independent) with structure kept in frontmatter, then layers
+    federation on top via named public/internal/private boundaries and
+    stable references — from ad hoc shared folders up to protocols like
+    KOI-net (RIDs) or ActivityPub (Mastodon).
+  audience: small-team leads who work in docs/GitHub but aren't ontologists
+  known_tensions:
+    - >-
+      protocol-maturity-gap — ActivityPub/Mastodon federates social identity
+      well but, as of 2025, doesn't yet portable-move actual post content
+  related_concepts:
+    - portability
+    - federation
+    - reference-identifier-rid
+  related_resources:
+    - obsidian
+    - koi-net
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: summarized
+    authorship: ai-assisted

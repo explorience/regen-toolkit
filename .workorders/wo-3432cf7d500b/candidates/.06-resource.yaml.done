@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Liberating Structures
+  type: resource
+  resource_type: facilitation-methodology
+  url: https://www.liberatingstructures.com/
+  link_status: active
+  notes: >-
+    A collection of 33 facilitation methods, each 10-30 minutes, designed to
+    include everyone and release collective intelligence, replacing
+    traditional presentations or managed discussions. Named as one of the
+    Process-step formats that work well for local-node gatherings.
+  related_concepts:
+    - purpose-people-place-process-practice
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gatherings-pattern.md
+    transformation: summarized
+    authorship: ai-assisted

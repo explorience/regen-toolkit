@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: The Giving Block
+  type: resource
+  resource_type: donation-platform
+  url: 'https://thegivingblock.com'
+  notes: >-
+    Platform that lets nonprofits accept crypto donations ("as easy as adding
+    a donate button" per the article) and publishes an annual crypto-giving
+    report cited for the 386% YoY donation growth figure and the 70%-of-
+    Forbes-Top-100-charities figure.
+  related_concepts:
+    - crypto-donations
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/case-studies-nonprofits.md
+    transformation: summarized
+    authorship: ai-assisted

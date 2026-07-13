@@ -1,0 +1,28 @@
+schema: signal
+object:
+  title: Article's References section lists only homepages, not per-claim citations
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia-explains
+  interpretation: >-
+    The References section links bitcoin.org, ethereum.org, m-pesa.com, and
+    ica.coop as general homepages rather than citing the specific
+    claims/statistics made in the body (e.g., the M-Pesa centralization
+    framing, the 50%-token-concentration claim). This weakens
+    source-linked-ness for an otherwise well-structured framework piece.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-spectrum.md
+    transformation: inferred
+    authorship: ai-assisted
+  notes: |
+    # assessed-but-excluded
+    - "Try This" self-reflection prompts — coaching/exercise content, not a
+      knowledge object; not extracted.
+    - Governance-form typology (deconcentration/delegation/devolution/
+      privatization) — folded into the single Decentralization concept-lineage
+      entry's important_distinctions per the work order's explicit instruction
+      to extract decentralization as ONE core concept object rather than
+      spinning up a separate concept-lineage entry per governance form.

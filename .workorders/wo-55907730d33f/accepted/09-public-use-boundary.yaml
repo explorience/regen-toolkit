@@ -1,0 +1,23 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the two carbon-market claim-evidence entries from this work order
+    (Toucan's ~85% market-share / ~$4B volume figures, and the 2023 Verra
+    retired-credit tokenization ban). Both are stated in a plain-language
+    article without primary-source citation for the figures; treat as
+    carbon/MRV-market claims needing verification against primary sources
+    (Toucan's own data, Verra's published policy) before any public or
+    decision-relevant reuse.
+  review_type: steward-review-before-public-use
+  notes: >-
+    High-risk trigger: MRV/carbon claims (per ingest skill's high-risk
+    triggers). Covers candidates 06-claim-evidence-toucan-scale.yaml and
+    07-claim-evidence-verra-ban.yaml in this work order.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-55907730d33f
+  source_lineage: what-is-refi.md

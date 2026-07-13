@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: Regen Coordination distributed $236,000+ to communities across 2024
+  type: claim-evidence
+  claim: >-
+    Across 2024, Regen Coordination programs distributed over $236,000 to
+    regenerative communities, and the Local Node Incubator ran 13 sessions
+    with over 100 participants. Separately, ReFi Medellín raised roughly
+    $4,000 in Gitcoin Grants 17 (March 2023).
+  evidence: 'Cited to ReFi DAO Wrapped 2024 (blog.refidao.com) and the Bízková interview on ReFi Medellín''s Gitcoin Grants 17 experience.'
+  source_lineage: >-
+    ReFi DAO Wrapped 2024 (https://blog.refidao.com/refi-dao-wrapped-2024/) ;
+    Gitcoin Grants & ReFi Medellín interview with Tereza Bízková
+  interpretation: >-
+    Used as evidence that real funding flows through this network, but the
+    article frames it as accruing to nodes that have already proven they
+    convene people and ship events — not as money available on demand.
+  uncertainty: >-
+    Figures taken from the article's citations at face value; underlying
+    reports were not independently re-checked at ingestion time. This is
+    organizational funding-distribution data, which the framework treats as
+    high-risk-by-default even when the source is a public wrap-up post.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: quoted
+    authorship: ai-assisted

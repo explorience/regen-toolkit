@@ -1,0 +1,27 @@
+id: wo-ee62e83173d4
+title: ingest decentralization-spectrum.md
+type: work-order
+source_path: decentralization-spectrum.md
+source_hash: 957039869101ec544760e5bbde7c4acaa265157acf93ab3a601d86724edd6d60
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-A
+produced:
+  - data/kb/encyclopedia-entry.yaml#the-decentralization-spectrum
+  - data/kb/concept-lineage.yaml#decentralization-ae8ffd00
+  - data/kb/resource.yaml#m-pesa
+  - >-
+    data/kb/claim-evidence.yaml#token-concentration-can-negate-sociopolitical-decentralization
+  - >-
+    data/kb/signal.yaml#article-s-references-section-lists-only-homepages-not-per-claim-citations

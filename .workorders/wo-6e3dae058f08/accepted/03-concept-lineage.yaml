@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: Native token concentration risk
+  type: concept-lineage
+  short_description: >-
+    The risk a DAO carries when most of its treasury value sits in its own
+    governance token: thin order books (illiquidity), extreme volatility, and
+    operational continuity breaking down precisely when the community most needs
+    stability (bear markets).
+  source_traditions:
+    - crypto-market microstructure (order-book liquidity, slippage)
+    - DAO/protocol treasury commentary
+  toolkit_usage: >-
+    Named as the article's core paradox: DAOs holding "$15 billion" across the
+    top 50 treasuries appear wealthy on paper while actual financial flexibility
+    is severely limited by this concentration.
+  adjacent_meanings:
+    - >-
+      home-bias / concentration risk (traditional finance analogue —
+      over-exposure to a single, correlated asset)
+  important_distinctions:
+    - >-
+      governance power (what the token measures) vs. spendable value (what the
+      token can reliably realize in a sale) — the token does both jobs poorly
+      when treated as the treasury's main asset
+  tensions:
+    - >-
+      the token that best represents community ownership/governance is often the
+      worst asset to actually spend from
+  risks_of_flattening: >-
+    Reducing this to "sell the token" ignores that forced or large token sales
+    are exactly what triggers the illiquidity/slippage problem being described —
+    the risk and its naive fix are in tension.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6e3dae058f08
+  source_lineage: treasury-management.md

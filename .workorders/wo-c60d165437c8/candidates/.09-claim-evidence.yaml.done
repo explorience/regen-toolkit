@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: "Ethereum's Merge cut energy use by ~99.95%"
+  type: claim-evidence
+  claim: >-
+    "On 15 September 2022, Ethereum ... switched to proof of stake, which
+    secures the chain through deposited funds rather than raw computing, and
+    cut its energy use by about 99.95% overnight."
+  evidence: >-
+    Attributed to Ethereum.org's official account of "The Merge," linked in
+    the article's references.
+  source_lineage: "src/content/docs/what-is-blockchain.md — Ethereum.org: The Merge (https://ethereum.org/en/roadmap/merge/)"
+  interpretation: >-
+    Central to the article's argument that "blockchain wastes energy" is
+    outdated for the networks (Ethereum, Celo) most regenerative projects
+    actually build on.
+  uncertainty: >-
+    The 99.95% figure and date are well-documented and widely corroborated
+    for Ethereum's own transition; not independently re-verified here beyond
+    the cited official source.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted

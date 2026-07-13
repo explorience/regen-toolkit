@@ -1,0 +1,61 @@
+schema: track
+object:
+  title: Building a Minimum Viable Node (8-week MVN roadmap)
+  type: track
+  audience: regen organizers ready to launch a local node
+  starting_context: >-
+    An organizer with community energy and prior exposure to other nodes'
+    playbooks, facing the temptation to build a token, treasury, governance
+    framework, and constitution before anyone can join — the pattern the
+    article says burns out good organizers within three months.
+  outcome:
+    - >-
+      A working minimum viable node: a shared one-sentence purpose, a way to
+      track value, and five to ten people who reliably show up.
+    - >-
+      Real signal on whether the idea has legs, gathered in eight weeks
+      instead of sunk months.
+    - >-
+      A concrete trigger table for when (and only when) to add technology —
+      ledger software, lightweight roles, Snapshot voting, a Safe multisig —
+      so complexity is added because coordination is straining, not to look
+      serious.
+  concepts:
+    - minimum-viable-node
+  deployment_checks:
+    - shared purpose statable in one sentence by the whole founding crew
+    - a way to track value in place (spreadsheet, paper ledger, or hOurworld)
+    - five to ten people who show up when it is raining, not just "interested"
+  failure_modes:
+    - >-
+      Planning forever instead of running one real exchange — "this is where
+      most nodes die."
+    - >-
+      Adding blockchain/DAO tooling (token, on-chain governance, legal
+      entity) before human coordination has actually started to strain.
+    - >-
+      Running out of the funding needed to keep the lights on, even with a
+      sound model and community support (the Bristol Pound/Bristol Pay
+      precedent cited in the article).
+    - >-
+      Treating heavyweight legacy DAO frameworks (e.g. the older DAOstack/
+      Alchemy stack) as a starting line rather than a later destination.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: synthesized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-810346fad236, minimum-viable-node.md):
+# - The week-by-week (1-2, 3, 4-6, 7-8) build schedule — folded into this
+#   track's outcome/failure_modes rather than modeled as separate objects;
+#   it's the same track's internal sequencing, not an independently reusable
+#   concept, resource, or claim.
+# - ReFi DAO's Local Node Beta Incubator and Greenpill Network's steward-call
+#   on-ramp — mentioned as connection points but not deep enough in this
+#   article to source independent resource cards beyond the two produced
+#   (Snapshot, Safe, hOurworld); revisit if a dedicated ReFi DAO/Greenpill
+#   source is ingested separately.
+# - "Try This" exercise prompts — reader action items, not extractable
+#   knowledge-graph content.

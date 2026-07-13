@@ -1,0 +1,32 @@
+id: wo-e009425cced2
+title: ingest first-90-days.md
+type: work-order
+source_path: first-90-days.md
+source_hash: e9d238b637ec4909ddc9f1db3715f3169276b781449bc3f002e514c456e7acbd
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-A
+produced:
+  - data/kb/track.yaml#first-90-days-local-node-playbook
+  - data/kb/encyclopedia-entry.yaml#your-first-90-days-running-a-local-node
+  - data/kb/concept-lineage.yaml#local-node-refi
+  - data/kb/concept-lineage.yaml#quadratic-funding
+  - data/kb/resource.yaml#refi-dao-local-node-incubator-regen-coordination-hub
+  - data/kb/resource.yaml#glo-dollar-usdglo
+  - >-
+    data/kb/claim-evidence.yaml#refi-dao-has-supported-100-events-across-58-cities
+  - >-
+    data/kb/claim-evidence.yaml#regen-coordination-distributed-236-000-to-communities-across-2024
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-regen-coordination-2024-funding-distribution-figures

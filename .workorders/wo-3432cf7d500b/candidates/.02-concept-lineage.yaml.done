@@ -1,0 +1,51 @@
+schema: concept-lineage
+object:
+  title: Purpose-People-Place-Process-Practice (5P gathering framework)
+  type: concept-lineage
+  short_description: >-
+    A five-element design framework for gatherings — a specific purpose, a
+    deliberate guest list, a matched space, a designed process arc (opening/
+    body/closing), and post-gathering practice (follow-through) — treating
+    every gathering as an intentional design challenge rather than a default
+    meetup script.
+  source_traditions:
+    - Priya Parker, "The Art of Gathering" (Riverhead Books, 2018)
+    - Adrienne Maree Brown, "Emergent Strategy" (AK Press, 2017)
+    - Open Civics Framework
+  toolkit_usage: >-
+    Applied to four local-node gathering formats (Onboarding, Governance,
+    Trust-Building, Learning) as the structural template organizers are
+    instructed to work through before hosting.
+  adjacent_meanings:
+    - World Café
+    - Fishbowl
+    - Open Space Technology
+    - Liberating Structures (33 facilitation methods)
+    - Circle Practice (talking-piece format)
+  important_distinctions:
+    - >-
+      "Purpose is not topic" — the article is explicit that "to learn about
+      Web3" is a topic, not a purpose; a purpose states what will be
+      different afterward.
+    - >-
+      "Agreements are mutual, rules are imposed" — the article deliberately
+      avoids "ground rules" language in the Opening step.
+  tensions:
+    - >-
+      Small-group-first, curated-guest-list design guidance vs. open/
+      inclusive-by-default community norms.
+  risks_of_flattening: >-
+    The article attributes Circle Practice's talking-piece format and the
+    small-group-before-large-group decision pattern to "many African and
+    Indigenous traditions" and "many East African communities" in passing,
+    secondary-source, non-attributed-to-a-specific-community language.
+    Treating that as settled ethnography rather than a broad-strokes,
+    unverified attribution risks flattening living traditions into a
+    facilitation technique. See accompanying public-use-boundary.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gatherings-pattern.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,30 @@
+id: wo-8f88aa8a3771
+title: ingest source-systems.md
+type: work-order
+source_path: source-systems.md
+source_hash: 816eaeb4f0e9e3dfd869688698451227c37373c68a6d31c428e5c2ee48867d8c
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-C
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#source-systems-knowledge-that-outlives-turnover
+  - data/kb/concept-lineage.yaml#source-system
+  - data/kb/concept-lineage.yaml#provenance-vs-lineage
+  - data/kb/resource.yaml#obsidian-local-first-note-tool
+  - data/kb/resource.yaml#logseq-local-first-note-tool
+  - data/kb/resource.yaml#citation-file-format-citation-cff
+  - >-
+    data/kb/claim-evidence.yaml#commons-governance-principles-ostrom-apply-to-source-system-stewardship
+  - data/kb/claim-evidence.yaml#inclusion-does-not-mean-endorsement

@@ -1,0 +1,34 @@
+schema: concept-lineage
+object:
+  title: Proof of work vs. proof of stake
+  type: concept-lineage
+  short_description: >-
+    Two blockchain consensus mechanisms for agreeing what's true across
+    nodes without a central authority. Proof of work secures the chain by
+    burning computing power/electricity (Bitcoin); proof of stake secures it
+    through deposited funds rather than raw computation (Ethereum since its
+    2022 "Merge," and Celo).
+  source_traditions:
+    - "cryptography / distributed-consensus research"
+  toolkit_usage: >-
+    Used in the article's "honest costs" section to correct a dated
+    assumption: "blockchain wastes energy" is true of proof-of-work chains
+    like Bitcoin but false of proof-of-stake chains, which is what most
+    regenerative-economy projects (built on Ethereum, Celo) actually run on.
+  adjacent_meanings:
+    - "mining (the proof-of-work process of competing to add the next block) vs. staking (the proof-of-stake process of depositing funds to earn the right to validate)"
+  important_distinctions:
+    - "energy use differs by roughly three orders of magnitude between the two mechanisms per the article's cited figures — they are not interchangeable when evaluating a project's environmental footprint"
+    - "Ethereum's 2022 switch (\"the Merge\") changed only the consensus mechanism, not what the chain is used for — same network, different security method"
+  tensions:
+    - "proof-of-work's energy cost buys a very long, battle-tested security track record (Bitcoin); proof-of-stake trades some of that track record for far lower energy use"
+  risks_of_flattening: >-
+    Citing Bitcoin's energy use as if it applied to "blockchain" generally —
+    the article explicitly warns this generalization is now false for
+    Ethereum and Celo, the chains most regenerative projects actually use.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted

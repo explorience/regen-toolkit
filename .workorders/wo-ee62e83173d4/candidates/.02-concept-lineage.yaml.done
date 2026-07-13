@@ -1,0 +1,52 @@
+schema: concept-lineage
+object:
+  title: Decentralization
+  type: concept-lineage
+  short_description: >-
+    The distribution of power, control, and decision-making away from a
+    single hub, existing on a spectrum (centralized → decentralized →
+    distributed) rather than as a binary state.
+  source_traditions:
+    - network/distributed-systems architecture (computer science)
+    - public-administration governance typology (deconcentration, delegation,
+      devolution, privatization)
+    - blockchain/crypto governance discourse
+  toolkit_usage: >-
+    Anchor concept for Layer 1 (Foundations) — used to teach that
+    "decentralized" is not a single yes/no property but a position on
+    multiple independent axes (architecture and governance; technological and
+    sociopolitical), and that the right position is context-dependent rather
+    than an ideological default.
+  adjacent_meanings:
+    - subsidiarity
+    - polycentric-governance
+    - distributed-systems
+  important_distinctions:
+    - >-
+      architecture-vs-governance — a system can be architecturally
+      decentralized (nodes) while remaining politically centralized (who
+      decides), or vice versa
+    - >-
+      technological-vs-sociopolitical-decentralization — infrastructure
+      independence is separate from equitable distribution of actual power
+      (e.g., token concentration)
+    - >-
+      deconcentration-vs-delegation-vs-devolution-vs-privatization — four
+      governance forms of increasing (then differently-directed, in
+      privatization's case) authority transfer
+  tensions:
+    - >-
+      decentralization-as-tool-vs-decentralization-as-ideology — the article
+      explicitly warns against treating maximal distribution as inherently
+      superior ("a tool, not a religion")
+  risks_of_flattening: >-
+    Collapsing "decentralized" into a single label hides that a system can
+    score very differently on technical vs. sociopolitical decentralization —
+    e.g., a blockchain with thousands of nodes but 50% of tokens in one
+    wallet is technologically distributed yet sociopolitically centralized.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-spectrum.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,40 @@
+schema: concept-lineage
+object:
+  title: "Review-maturity ladder (four-rung: Draft / Reviewed / Maintained / Deprecated)"
+  type: concept-lineage
+  short_description: >-
+    A shippable per-page trust-state label for knowledge commons: Draft
+    (written, unchecked, anyone can edit) -> Reviewed (a second person
+    confirmed accuracy) -> Maintained (reviewed AND someone owns keeping it
+    current, with a review date) -> Deprecated (kept for history, points to
+    its replacement). Stored in page frontmatter (`status`, `reviewed_by`,
+    `last_reviewed`) so it travels with the content.
+  source_traditions:
+    - "Wikipedia content assessment (Stub -> Start -> C -> B -> GA -> FA)"
+    - "Architecture Decision Records / MADR (Proposed -> Accepted -> Deprecated/Superseded)"
+    - "Kubernetes feature gates (Alpha -> Beta -> Stable)"
+  toolkit_usage: >-
+    Crosswalks onto this toolkit's own K1 review-maturity model
+    (schemas/review-maturity.yaml): Draft -> maturity "draft", Reviewed ->
+    maturity "reviewed", Deprecated -> maturity "deprecated". "Maintained" has
+    no exact K1 rung — it layers ownership + a recency check (last_reviewed
+    expiry) on top of "reviewed" rather than being a distinct maturity value,
+    which is itself a useful gap to flag for K1's crosswalk table.
+  adjacent_meanings:
+    - "self-claimed state (Draft/Proposed/Alpha — 'I wrote this') vs. granted state (Reviewed/Accepted/Stable — 'someone else checked this')"
+  important_distinctions:
+    - "'Maintained' is not just 'still reviewed' — it requires an owner AND a last_reviewed date, i.e. an active maintenance commitment, not a static label"
+    - "review effort should scale with risk (low-stakes: one reader; high-stakes — money/legal/ecological/governance: two reviewers + an owner) rather than a single fixed bar for every page"
+  tensions:
+    - "frictionless draft tiers (encourage capture) vs. gated granted tiers (protect trust) — loosening either side breaks the mechanism"
+  risks_of_flattening: >-
+    Treating "Reviewed" as a permanent badge rather than a maintenance
+    commitment — the article's core warning is that reviewed pages silently
+    rot once nobody re-checks them; conflating "was reviewed once" with
+    "is still trustworthy" undoes the whole point of the ladder.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/review-and-maturity.md
+    transformation: summarized
+    authorship: ai-assisted

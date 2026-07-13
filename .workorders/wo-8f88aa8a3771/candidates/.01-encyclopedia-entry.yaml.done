@@ -1,0 +1,51 @@
+schema: encyclopedia-entry
+object:
+  title: "Source Systems: Knowledge That Outlives Turnover"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Defines a "source system" as a living knowledge environment (wiki, repo,
+    forum, garden…) rather than a one-off link — one that has a steward,
+    keeps getting new material added, and offers a return path to credit and
+    trace claims back to their origin. Contrasts this with a static "link
+    list" that rots. Ties provenance (recorded origin/history) to the
+    principle "inclusion does not mean endorsement," gives real named tools
+    (Obsidian, Logseq, TiddlyWiki, CITATION.cff, ADR/MADR) that already encode
+    these properties, and frames stewardship of a source system as a
+    governance problem (Ostrom's commons-design principles), not just tidying.
+  audience: small-team leads maintaining wikis/repos/knowledge bases who want them to survive contributor turnover
+  known_tensions:
+    - "add-broadly-classify-lightly (low friction intake) vs. mark-maturity-honestly (don't let raw material pass as endorsed)"
+    - "a link list is easy to start and cheap to maintain; a source system requires an actual steward and return path, which is more work up front"
+  related_concepts:
+    - source-system
+    - provenance
+    - digital-garden
+  related_resources:
+    - Obsidian
+    - Logseq
+    - TiddlyWiki
+    - "Citation File Format (CITATION.cff)"
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+# - Gravity DAO / Durgadas "operations lead" mention: personal role
+#   attribution — excluded as a public person-node per the ingest skill's
+#   high-risk trigger guidance (no public person-nodes by default). The
+#   Ostrom-governance claim below cites Gravity DAO/TEC only as an
+#   organizational example, not as a person profile.
+# - Architecture Decision Records / MADR: already captured as a resource
+#   object in wo-ea54c9ef7bb2 (review-and-maturity.md) — not duplicated here
+#   to avoid a redundant candidate; this article's re-citation is noted in
+#   the encyclopedia entry's summary instead.
+# - The [RKC] "Regen Knowledge Commons Toolkit reference docs" citation: this
+#   points back at the toolkit's own reference material (this project), not
+#   an external living environment distinct from the framework being
+#   ingested into — not registered as a new source-system card to avoid a
+#   self-referential loop; flag for the operator if a distinct external URL
+#   for [RKC] should be registered instead.

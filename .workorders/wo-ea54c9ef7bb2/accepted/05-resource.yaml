@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Diátaxis (documentation framework)
+  type: resource
+  url: https://diataxis.fr/
+  resource_type: framework
+  link_status: active
+  notes: >-
+    Daniele Procida's documentation framework, adopted by Gatsby and Cloudflare.
+    Cited in review-and-maturity.md as useful for deciding what *kind* of page
+    you are reviewing before rating its maturity.
+  related_concepts:
+    - review-maturity-ladder
+  original_source: src/content/docs/review-and-maturity.md (Diátaxis reference)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/review-and-maturity.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ea54c9ef7bb2
+  source_lineage: review-and-maturity.md

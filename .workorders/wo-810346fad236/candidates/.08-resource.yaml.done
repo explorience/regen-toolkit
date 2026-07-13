@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: hOurworld
+  type: resource
+  resource_type: timebanking-software
+  url: https://hourworld.org/_TimeAndTalents.htm
+  link_status: active
+  notes: >-
+    Free timebanking software that runs hundreds of active timebanks across
+    dozens of countries, no blockchain required. Named in the article as one
+    valid "way to track value" for a minimum viable node — the rule given is
+    to pick the simplest tool everyone already trusts, offline or on-chain.
+  related_concepts:
+    - minimum-viable-node
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,20 @@
+schema: signal
+object:
+  title: Stale advice — DAOstack/Alchemy no longer the live default for small-node on-chain tooling
+  type: signal
+  signal_type: content
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    The article explicitly flags that "the older DAOstack/Alchemy stack that
+    early ReFi guides leaned on is no longer the live default," and names
+    Snapshot (voting) plus Safe (treasury) as the 2026 boring, durable
+    replacement. Any existing toolkit content that still recommends
+    DAOstack/Alchemy for a small node's first on-chain tooling should be
+    flagged and reviewed against this correction.
+  proposed_intervention: update
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/minimum-viable-node.md
+    transformation: synthesized
+    authorship: ai-assisted

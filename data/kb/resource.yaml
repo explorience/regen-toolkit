@@ -1,0 +1,1117 @@
+entries:
+  1hive:
+    title: 1Hive
+    type: resource
+    url: https://about.1hive.org/
+    resource_type: org
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - decentralization
+    is_source_system_candidate: true
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-decentralization.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Community building open governance tools; cited in the article as the
+      source of the "free, fair, open, and humane" decentralization checklist
+      used to structure the piece's "What Good Decentralization Looks Like"
+      section.
+    work_order: wo-0f39787ee74e
+    source_lineage: what-is-decentralization.md
+  snapshot-snapshot-org:
+    title: Snapshot (snapshot.org)
+    type: resource
+    url: https://snapshot.org
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - decentralization
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-decentralization.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Gasless DAO voting tool described in the article as, as of early 2026, the
+      most widely used voting tool in the space; votes are signed from each
+      member's wallet and stored publicly. Article's "Go deeper" exercise points
+      readers to browse a live DAO's votes there.
+    work_order: wo-0f39787ee74e
+    source_lineage: what-is-decentralization.md
+  obsidian:
+    title: Obsidian
+    type: resource
+    resource_type: note-taking-tool
+    url: https://obsidian.md/
+    link_status: active
+    notes: >-
+      Keeps everything as Markdown files in a folder ("vault") you fully
+      control, with a graph view, backlinks, and a large plugin ecosystem. Named
+      as the fit for "notes and thinking that a few people maintain" — because
+      the files are plain Markdown on disk, the whole vault can be handed to the
+      next maintainer with zero migration. Paid add-on: Obsidian Publish
+      ($10/site/month, or $8/month billed annually).
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  quartz:
+    title: Quartz
+    type: resource
+    resource_type: static-site-generator
+    url: https://quartz.jzhao.xyz/
+    link_status: active
+    notes: >-
+      Publishes an Obsidian vault straight to the web for free, with client-side
+      full-text search and a graph view. Named as the most common free
+      alternative to the paid Obsidian Publish add-on, and the shortest path
+      from private notes to a public garden for teams already living in
+      Obsidian.
+    related_concepts:
+      - infrastructure-follows-function
+    related_resources:
+      - obsidian
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  astro-starlight:
+    title: Astro Starlight
+    type: resource
+    resource_type: documentation-framework
+    url: https://starlight.astro.build/
+    link_status: active
+    is_source_system_candidate: true
+    notes: >-
+      Heavier-duty documentation-site framework: sidebar navigation generated
+      from file structure, dark mode, and built-in full-text search powered by
+      Pagefind that runs entirely at build time (no external service, no API
+      key, no monthly fee). The article notes the Regen Toolkit's own site runs
+      on Starlight — named as the pick when a public commons needs to look and
+      behave like proper docs.
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  bookstack:
+    title: BookStack
+    type: resource
+    resource_type: self-hosted-wiki
+    url: https://www.bookstackapp.com/
+    link_status: active
+    notes: >-
+      Free, MIT-licensed, self-hosted wiki organizing content into a shelves ->
+      books -> chapters -> pages hierarchy. Runs on ordinary PHP/MySQL hosting;
+      named as the good default for a team knowledge base when you want order
+      without much fiddling.
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  outline:
+    title: Outline
+    type: resource
+    resource_type: self-hosted-wiki
+    url: https://www.getoutline.com/
+    link_status: active
+    notes: >-
+      The most polished self-hosted knowledge-base option — feels like a private
+      Notion, with slash commands, nested docs, and real-time editing. Trade-off
+      named in the article: no built-in username/password login, so it must be
+      wired to an identity provider (Google, Slack, or any OIDC source) before
+      anyone can sign in.
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  wiki-js:
+    title: Wiki.js
+    type: resource
+    resource_type: self-hosted-wiki
+    url: https://js.wiki/
+    link_status: active
+    notes: >-
+      A Node.js wiki that can sync its content to a Git repository, giving a
+      wiki UI and a plain-text-in-Git backup in one move. Named as the fit for
+      technical teams that want non-technical people to edit comfortably while
+      engineers keep a versioned copy.
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  gitbook:
+    title: GitBook
+    type: resource
+    resource_type: hosted-docs
+    url: https://www.gitbook.com/pricing
+    link_status: active
+    notes: >-
+      Hosted docs platform with GitHub/GitLab sync; has a free tier and is free
+      for open-source and nonprofit projects, but custom domains and team
+      collaborators require a paid plan. Named as fine for a polished public
+      handbook — the article's caution is to check the paywall boundary before
+      depending on a feature that lives behind it.
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  notion:
+    title: Notion
+    type: resource
+    resource_type: workspace-tool
+    url: https://www.notion.com/help/export-your-content
+    link_status: active
+    notes: >-
+      Polished block-based workspace, genuinely good for collaboration, but
+      cited as a portability cautionary example: its export is lossy — databases
+      come out as flat CSV snapshots that drop every view, filter, relation, and
+      rollup; callouts export as raw HTML; nested pages produce filenames
+      stuffed with 32-character IDs. After a few years, leaving Notion means
+      manually reconstructing anything more complex than a plain page.
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  logseq:
+    title: Logseq
+    type: resource
+    resource_type: note-taking-tool
+    url: https://logseq.com/
+    link_status: active
+    notes: >-
+      Open-source, local-first notes tool long loved for keeping notes as local
+      Markdown. Cited as a portability caution: it shipped a new SQLite-backed
+      "DB version" in 2025-2026 to fix performance limits on large graphs —
+      faster, but data now lives in a database schema rather than portable text,
+      and the two formats are not interoperable. The article's lesson:
+      "file-on-disk" is a property to keep checking for, not assume, even for
+      historically file-based tools.
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  gravitydao:
+    title: GravityDAO
+    type: resource
+    resource_type: org
+    url: https://gravitydao.org/
+    link_status: active
+    notes: >-
+      A conflict-management and trust-building collective that grew out of the
+      Token Engineering Commons to offer dispute resolution for Web3 projects.
+      Cited in the article's closing section as a reminder that a commons's
+      durability rests on coordination and care as much as on tool substrate —
+      "tools preserve knowledge; they do not preserve trust."
+    related_concepts:
+      - infrastructure-follows-function
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  the-art-of-gathering:
+    title: The Art of Gathering
+    type: resource
+    resource_type: book
+    steward: Priya Parker
+    link_status: unresolved
+    notes: >-
+      "The Art of Gathering: How We Meet and Why It Matters" (Riverhead Books,
+      2018) — the primary source cited for the 5P gathering framework's core
+      thesis that intentional structure, not a default script, is what makes
+      gatherings work.
+    related_concepts:
+      - purpose-people-place-process-practice
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gatherings-pattern.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3432cf7d500b
+    source_lineage: gatherings-pattern.md
+  liberating-structures:
+    title: Liberating Structures
+    type: resource
+    resource_type: facilitation-methodology
+    url: https://www.liberatingstructures.com/
+    link_status: active
+    notes: >-
+      A collection of 33 facilitation methods, each 10-30 minutes, designed to
+      include everyone and release collective intelligence, replacing
+      traditional presentations or managed discussions. Named as one of the
+      Process-step formats that work well for local-node gatherings.
+    related_concepts:
+      - purpose-people-place-process-practice
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gatherings-pattern.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3432cf7d500b
+    source_lineage: gatherings-pattern.md
+  obsidian-256b900d:
+    title: Obsidian
+    type: resource
+    resource_type: tool
+    url: https://obsidian.md
+    notes: >-
+      Local-first notes app whose entire database is plain Markdown files on the
+      user's own machine — used in the article as the concrete,
+      non-technical-friendly proof that Markdown+Git portability works ("if
+      Obsidian disappeared tomorrow, your vault would still open in TextEdit").
+    related_concepts:
+      - portability
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4e11e89a5db3
+    source_lineage: federation-portability.md
+  giveth:
+    title: Giveth
+    type: resource
+    url: https://giveth.io/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - crypto-wallet-keys-not-money
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Donation platform running since 2016; lets anyone create a project page
+      and receive donations directly with no platform fees taken out. Article
+      uses it as the practical reason a community organizer would need a wallet
+      at all.
+    work_order: wo-553392f77839
+    source_lineage: what-is-wallet.md
+  metamask:
+    title: MetaMask
+    type: resource
+    url: https://metamask.io/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - crypto-wallet-keys-not-money
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in the article as a common, free-to-install hot wallet (alongside
+      Base App and Rainbow); the article's hands-on "Go deeper" exercise walks a
+      reader through creating a wallet in MetaMask or the Base App.
+    work_order: wo-553392f77839
+    source_lineage: what-is-wallet.md
+  smart-wallets-with-passkey-guardian-recovery-base-app-argent-ready:
+    title: Smart wallets with passkey/guardian recovery (Base App, Argent "Ready")
+    type: resource
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - crypto-wallet-keys-not-money
+    is_source_system_candidate: false
+    link_status: unresolved
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Newer wallet category described in the article: replaces the lone written
+      recovery phrase with passkey sign-in (Face ID/fingerprint) plus recovery
+      via phone backup or trusted "guardians" who can help restore access but
+      cannot spend funds. Named examples: the Base App (Coinbase's wallet,
+      replaced the older Coinbase Wallet in 2025) and Argent (rebranded "Ready"
+      in mid-2025). Grouped as one resource entry since the article treats them
+      as one emerging pattern rather than profiling each separately; no single
+      canonical URL given for the pattern itself.
+    work_order: wo-553392f77839
+    source_lineage: what-is-wallet.md
+  hardware-cold-wallets-ledger-trezor:
+    title: Hardware / cold wallets (Ledger, Trezor)
+    type: resource
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - crypto-wallet-keys-not-money
+    is_source_system_candidate: false
+    link_status: unresolved
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Small offline devices (about the size of a USB stick) that hold keys off
+      the internet and only approve a payment when physically confirmed on the
+      device; article's example of cold storage for larger holdings. Grouped as
+      one entry (named examples Ledger and Trezor) rather than two, since the
+      article treats them as one category with no distinguishing detail between
+      the two brands.
+    work_order: wo-553392f77839
+    source_lineage: what-is-wallet.md
+  toucan-protocol:
+    title: Toucan Protocol
+    type: resource
+    url: https://toucan.earth/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - regenerative-finance-refi
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Infrastructure that turns verified carbon credits into digital tokens; per
+      the article, accounts for roughly 85% of digital carbon-credit volume and
+      has supported ~$4B in trading volume, working alongside Gold Standard and
+      Puro.earth. Involved in a 2023 Verra policy dispute over tokenizing
+      already-retired credits (see linked claim-evidence).
+    work_order: wo-55907730d33f
+    source_lineage: what-is-refi.md
+  gitcoin-quadratic-funding:
+    title: Gitcoin (Quadratic Funding)
+    type: resource
+    url: https://gitcoin.co/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - regenerative-finance-refi
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Has run quadratic funding (a matching model where number of contributors
+      matters more than size of any single donation) for years, per the article
+      distributing over $60 million to more than 3,700 projects, and has since
+      broadened into a mix of funding mechanisms.
+    work_order: wo-55907730d33f
+    source_lineage: what-is-refi.md
+  silvi:
+    title: Silvi
+    type: resource
+    url: https://www.silvi.earth/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - regenerative-finance-refi
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Tree-stewardship platform where planters log each tree with GPS
+      coordinates and a photo, making the claim independently checkable rather
+      than taken on trust. Per the article, as of 2026 in open beta with 500+
+      planters across dozens of countries.
+    work_order: wo-55907730d33f
+    source_lineage: what-is-refi.md
+  grants-stack:
+    title: Grants Stack
+    type: resource
+    resource_type: round-operator-tooling
+    url: >-
+      https://roundoperations.gitcoin.co/round-operations/round-setup/setup-on-grants-stack
+    link_status: active
+    is_source_system_candidate: false
+    notes: >-
+      Gitcoin's open tooling for running a QF round end to end (create a
+      program, choose Quadratic Funding, set round basics, payout token and
+      matching pool, optional matching cap/minimum donation/Human Passport
+      requirement, eligibility rules, then launch on-chain). The article frames
+      the hard part as everything around the software — raising a real matching
+      pool, recruiting genuine projects, and driving real donor turnout in a
+      short window.
+    related_concepts:
+      - quadratic-funding-formula
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gitcoin-grants-qf.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55b29771dc58
+    source_lineage: gitcoin-grants-qf.md
+  maya-protocol:
+    title: Maya Protocol
+    type: resource
+    resource_type: protocol
+    link_status: unresolved
+    notes: >-
+      Cross-chain liquidity protocol, per the article handling approximately
+      $748 million in yearly volume and earning about $3 million in fees; cited
+      as an example of a protocol transitioning to full DAO governance, where
+      token holders will govern protocol upgrades and treasury allocations. No
+      URL captured in the source article.
+    related_concepts:
+      - dao-treasury-diversification
+    original_source: src/content/docs/treasury-management.md
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+    source_lineage: treasury-management.md
+  aave-lending-protocol:
+    title: Aave (lending protocol)
+    type: resource
+    url: https://aave.com/
+    resource_type: protocol
+    link_status: active
+    notes: >-
+      Cited twice in treasury-management.md — as a DeFi lending market where
+      stablecoin holdings can be lent for yield, and as the example of a
+      "reserve factor" mechanism where a portion of borrower interest flows
+      directly to a protocol's ecosystem treasury as stablecoins (no token sales
+      required). Also cited as a protocol DAOs can deposit native tokens into to
+      borrow stablecoins without selling.
+    related_concepts:
+      - dao-treasury-diversification
+    original_source: src/content/docs/treasury-management.md
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+    source_lineage: treasury-management.md
+  gnosis-auction:
+    title: Gnosis Auction
+    type: resource
+    resource_type: mechanism
+    link_status: unresolved
+    notes: >-
+      Cited in treasury-management.md as an example of a "batch auction" —
+      aggregates buyer interest and sets a single clearing price, preventing
+      manipulation, as one of the strategic token-sale approaches for
+      diversifying a treasury with reduced market impact. No URL captured in the
+      source article.
+    related_concepts:
+      - dao-treasury-diversification
+    original_source: src/content/docs/treasury-management.md
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+    source_lineage: treasury-management.md
+  octant:
+    title: Octant
+    type: resource
+    resource_type: yield-based-funding-protocol
+    url: >-
+      https://oakresearch.io/en/reports/protocols/octant-decentralized-platform-financing-public-goods-golem-foundation-glm
+    steward: Golem Foundation
+    link_status: unresolved
+    is_source_system_candidate: false
+    notes: >-
+      "Evergreen" / yield-based funding mechanism cited as the article's example
+      of the most structurally sustainable funding pattern: stakes 100,000 ETH
+      and directs the bulk of each epoch's staking yield to public goods (over
+      2,340 ETH to 80+ projects across its first eight epochs; ninth epoch, the
+      "Ethereum Stories" cohort, as of early 2026). Relevant to nodes able to
+      build even a small endowment.
+    related_concepts:
+      - yield-based-funding
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-landscape.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-704b0ef07811
+    source_lineage: funding-landscape.md
+  skos-simple-knowledge-organization-system-w3c:
+    title: SKOS — Simple Knowledge Organization System (W3C)
+    type: resource
+    url: https://www.w3.org/2004/02/skos/
+    resource_type: standard
+    link_status: active
+    notes: >-
+      W3C standard (published 18 August 2009) for representing taxonomies,
+      thesauri, and controlled vocabularies as linked data — prefLabel,
+      altLabel, broader, narrower, related. Cited in ontology-vs-taxonomy.md as
+      the recommended bridge: build a taxonomy in SKOS now, keep the door open
+      to RDF/RDFS/OWL ontology work later without redoing it.
+    related_concepts:
+      - taxonomy
+      - ontology
+    original_source: src/content/docs/ontology-vs-taxonomy.md ([SKOS] reference)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ontology-vs-taxonomy.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7fb26c01e3dc
+    source_lineage: ontology-vs-taxonomy.md
+  protege-stanford-ontology-editor:
+    title: Protégé (Stanford ontology editor)
+    type: resource
+    url: https://protege.stanford.edu/
+    resource_type: tool
+    link_status: active
+    notes: >-
+      Free, open-source OWL 2 ontology editor from Stanford, ships with
+      reasoners like HermiT. Recommended in ontology-vs-taxonomy.md's "Stretch"
+      exercise: model one real relationship (e.g. "Grant requires Report") and
+      run the reasoner against three real records to test whether an ontology
+      earns its keep before committing to building one.
+    related_concepts:
+      - ontology
+    original_source: src/content/docs/ontology-vs-taxonomy.md ([PROTEGE] reference)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ontology-vs-taxonomy.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7fb26c01e3dc
+    source_lineage: ontology-vs-taxonomy.md
+  snapshot:
+    title: Snapshot
+    type: resource
+    resource_type: governance-voting-tool
+    url: https://snapshot.box/
+    link_status: active
+    notes: >-
+      Gasless, signature-based off-chain voting used by tens of thousands of
+      communities. Named in the article's complexity-trigger table as the
+      boring, durable 2026 default for a small node that starts voting often and
+      wants it free and verifiable — explicitly contrasted with the older
+      DAOstack/Alchemy stack, called out as stale advice.
+    related_concepts:
+      - minimum-viable-node
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/minimum-viable-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-810346fad236
+    source_lineage: minimum-viable-node.md
+  safe-wallet:
+    title: Safe (Wallet)
+    type: resource
+    resource_type: multisig-treasury-tool
+    url: https://safe.global/
+    link_status: active
+    notes: >-
+      Multisig smart-contract wallet (formerly Gnosis Safe), named in the
+      article's complexity-trigger table as the default treasury tool once real
+      money is pooled and one person shouldn't hold the keys alone (e.g. 3-of-5
+      signatures); deploys on Base or Arbitrum for under a dollar.
+    related_concepts:
+      - minimum-viable-node
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/minimum-viable-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-810346fad236
+    source_lineage: minimum-viable-node.md
+  hourworld:
+    title: hOurworld
+    type: resource
+    resource_type: timebanking-software
+    url: https://hourworld.org/_TimeAndTalents.htm
+    link_status: active
+    notes: >-
+      Free timebanking software that runs hundreds of active timebanks across
+      dozens of countries, no blockchain required. Named in the article as one
+      valid "way to track value" for a minimum viable node — the rule given is
+      to pick the simplest tool everyone already trusts, offline or on-chain.
+    related_concepts:
+      - minimum-viable-node
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/minimum-viable-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-810346fad236
+    source_lineage: minimum-viable-node.md
+  obsidian-local-first-note-tool:
+    title: Obsidian (local-first note tool)
+    type: resource
+    url: https://obsidian.md/
+    resource_type: tool
+    link_status: active
+    notes: >-
+      Local-first note tool cited in source-systems.md as an example of
+      stewardship + ongoing additions in plain files you own — stores notes as
+      plain Markdown with bidirectional linking so the knowledge graph builds
+      itself as you write. Recommended in the "Stretch" exercise for standing up
+      a real source system.
+    related_concepts:
+      - source-system
+      - digital-garden
+    original_source: src/content/docs/source-systems.md ([GLU] reference)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+    source_lineage: source-systems.md
+  logseq-local-first-note-tool:
+    title: Logseq (local-first note tool)
+    type: resource
+    url: https://logseq.com/
+    resource_type: tool
+    link_status: active
+    notes: >-
+      Local-first, Markdown-based note tool with bidirectional linking, cited in
+      source-systems.md alongside Obsidian as a tool that gives stewardship and
+      ongoing additions in plain files you own.
+    related_concepts:
+      - source-system
+      - digital-garden
+    original_source: src/content/docs/source-systems.md ([GLU] reference)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+    source_lineage: source-systems.md
+  citation-file-format-citation-cff:
+    title: Citation File Format (CITATION.cff)
+    type: resource
+    url: https://citation-file-format.github.io/
+    resource_type: standard
+    link_status: active
+    notes: >-
+      Plain-text file dropped in a GitHub repo root; on the default branch
+      GitHub auto-generates a "Cite this repository" link with APA/BibTeX
+      citations. Cited in source-systems.md as a concrete, machine-readable
+      answer to "who made this and how do I credit them," and recommended in the
+      "Go deeper" exercise.
+    related_concepts:
+      - provenance
+      - source-system
+    original_source: src/content/docs/source-systems.md ([GHC], [CFF] references)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+    source_lineage: source-systems.md
+  ethereum-attestation-service-eas:
+    title: Ethereum Attestation Service (EAS)
+    type: resource
+    url: https://attest.org/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - outputs-vs-outcomes-vs-impact
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Open standard for recording signed, tamper-evident attestations (on-chain
+      or off-chain, free schemas); article states over 9.5 million attestations
+      recorded as of mid-2026. Positioned as the recommended plumbing for a
+      local node to attest workshops, plantings, or shipped deliverables.
+      Explorer: easscan.org.
+    work_order: wo-a796f519a8b8
+    source_lineage: why-measurement-matters.md
+  hypercerts-protocol:
+    title: Hypercerts Protocol
+    type: resource
+    url: https://hypercerts.org/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - outputs-vs-outcomes-vs-impact
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Verifiable records of a piece of impactful work, used so funders can
+      allocate capital against proven contributions rather than pitches; per the
+      article, used in Gitcoin Grants 24 (GG24) as peer-reviewed hypercerts, and
+      shifted in 2026 from ERC-1155 tokens on Optimism toward living digital
+      records built on the AT Protocol.
+    work_order: wo-a796f519a8b8
+    source_lineage: why-measurement-matters.md
+  regen-network-registry:
+    title: Regen Network Registry
+    type: resource
+    url: https://www.registry.regen.network/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - outputs-vs-outcomes-vs-impact
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Issues ecological credits against published MRV methodologies; article
+      recommends routing verified ecological outcomes through this registry once
+      a node is doing ecological work, ahead of reaching for heavier dMRV
+      (satellite/sensor-based digital MRV) tooling.
+    work_order: wo-a796f519a8b8
+    source_lineage: why-measurement-matters.md
+  the-giving-block:
+    title: The Giving Block
+    type: resource
+    resource_type: donation-platform
+    url: https://thegivingblock.com
+    notes: >-
+      Platform that lets nonprofits accept crypto donations ("as easy as adding
+      a donate button" per the article) and publishes an annual crypto-giving
+      report cited for the 386% YoY donation growth figure and the 70%-of-
+      Forbes-Top-100-charities figure.
+    related_concepts:
+      - crypto-donations
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/case-studies-nonprofits.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b3d9480838b4
+    source_lineage: case-studies-nonprofits.md
+  grassroots-economics-sarafu-network:
+    title: Grassroots Economics / Sarafu Network
+    type: resource
+    url: https://www.grassrootseconomics.org/pages/sarafu-network
+    resource_type: project
+    is_source_system_candidate: true
+    link_status: active
+    notes: >-
+      Runs the Sarafu Network in Kenya — local "community asset vouchers" for
+      trading goods/services when national-currency cash is scarce, now on the
+      Celo blockchain, with feature-phone (USSD) access requiring no smartphone
+      or internet plan. Cited in what-is-blockchain.md as a live
+      community-currency network, with usage figures captured separately as a
+      claim-evidence object (see 08-claim-evidence.yaml).
+    related_concepts:
+      - blockchain
+    original_source: src/content/docs/what-is-blockchain.md
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+    source_lineage: what-is-blockchain.md
+  regen-network:
+    title: Regen Network
+    type: resource
+    url: https://www.regen.network/
+    resource_type: project
+    is_source_system_candidate: true
+    link_status: active
+    high_risk: true
+    notes: >-
+      Blockchain platform issuing science-backed ecological credits, per the
+      article: pays land stewards for measurable ecological work (restored soil,
+      biodiversity) by recording verified ecological data on-chain and issuing
+      purchasable credits. Flagged high_risk because ecological/MRV
+      (measurement, reporting, verification) claims are a standing high-risk
+      trigger — the specific claim that "the regeneration actually happened" is
+      captured separately with a public-use-boundary (see 09-claim-evidence.yaml
+      / 10-public-use-boundary.yaml).
+    related_concepts:
+      - blockchain
+    original_source: src/content/docs/what-is-blockchain.md
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+    source_lineage: what-is-blockchain.md
+  walmart-hyperledger-fabric-mango-traceability-case-study:
+    title: Walmart / Hyperledger Fabric mango traceability case study
+    type: resource
+    url: https://www.lfdecentralizedtrust.org/case-studies/walmart-case-study
+    resource_type: case-study
+    link_status: active
+    notes: >-
+      Enterprise-blockchain comparison in what-is-blockchain.md: Walmart traces
+      leafy greens through Hyperledger Fabric (an enterprise blockchain
+      framework stewarded by the Linux Foundation's Decentralized Trust group).
+      The specific pilot result (mango origin traceback time) is captured
+      separately as a claim-evidence object.
+    related_concepts:
+      - blockchain
+    original_source: src/content/docs/what-is-blockchain.md
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+    source_lineage: what-is-blockchain.md
+  bankless-academy-blockchain-basics:
+    title: 'Bankless Academy: Blockchain Basics'
+    type: resource
+    url: https://app.banklessacademy.com/lessons/blockchain-basics
+    resource_type: course
+    link_status: active
+    notes: >-
+      Free, open-source, interactive, no-wallet-required lesson recommended in
+      the article's "Go deeper" exercise for readers new to crypto.
+    related_concepts:
+      - blockchain
+    original_source: src/content/docs/what-is-blockchain.md
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+    source_lineage: what-is-blockchain.md
+  refi-dao-local-node-incubator-regen-coordination-hub:
+    title: ReFi DAO Local Node Incubator / Regen Coordination Hub
+    type: resource
+    resource_type: program
+    url: https://hub.regencoordination.xyz
+    notes: >-
+      Published Local Node Toolkit and incubator program; runs registration
+      through Luma and structures sessions around Liberating Structures
+      facilitation formats. Cited as the main "don't build the stack alone"
+      on-ramp for new local-node organizers, alongside Greenpill Network and the
+      wider Regen Coordination constellation (BioFi, Bloom Network).
+    related_concepts:
+      - local-node
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/first-90-days.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e009425cced2
+    source_lineage: first-90-days.md
+  glo-dollar-usdglo:
+    title: Glo Dollar (USDGLO)
+    type: resource
+    resource_type: treasury-instrument
+    url: https://www.glodollar.org
+    notes: >-
+      A fully-backed, audited stablecoin that donates 100% of the interest
+      earned on its reserves to public goods and anti-poverty programs. Cited as
+      ReFi Medellín's example of a treasury choice matching mission — but the
+      article notes Medellín had a community and treasury before adopting it
+      (tooling follows people, not the reverse).
+    related_concepts:
+      - local-node
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/first-90-days.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e009425cced2
+    source_lineage: first-90-days.md
+  madr-markdown-architectural-decision-records:
+    title: MADR — Markdown Architectural Decision Records
+    type: resource
+    url: https://adr.github.io/madr/
+    resource_type: template
+    link_status: active
+    notes: >-
+      Widely used template for Architecture Decision Records with a built-in
+      status field (proposed / accepted / deprecated / superseded). Cited in
+      review-and-maturity.md as a working example of a granted-vs-self-claimed
+      maturity ladder, and as a "Go deeper" recommendation for adopting a status
+      field in page frontmatter.
+    related_concepts:
+      - review-maturity-ladder
+    original_source: src/content/docs/review-and-maturity.md (MADR reference)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/review-and-maturity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ea54c9ef7bb2
+    source_lineage: review-and-maturity.md
+  diataxis-documentation-framework:
+    title: Diátaxis (documentation framework)
+    type: resource
+    url: https://diataxis.fr/
+    resource_type: framework
+    link_status: active
+    notes: >-
+      Daniele Procida's documentation framework, adopted by Gatsby and
+      Cloudflare. Cited in review-and-maturity.md as useful for deciding what
+      *kind* of page you are reviewing before rating its maturity.
+    related_concepts:
+      - review-maturity-ladder
+    original_source: src/content/docs/review-and-maturity.md (Diátaxis reference)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/review-and-maturity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ea54c9ef7bb2
+    source_lineage: review-and-maturity.md
+  m-pesa:
+    title: M-Pesa
+    type: resource
+    resource_type: case-example
+    url: https://www.m-pesa.com
+    notes: >-
+      East African mobile-money service used in the article as a real-world
+      example of a system that "started with a relatively centralized model" —
+      useful for rapid deployment but carrying single-infrastructure
+      vulnerabilities.
+    related_concepts:
+      - decentralization
+      - centralized-systems
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/decentralization-spectrum.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ee62e83173d4
+    source_lineage: decentralization-spectrum.md

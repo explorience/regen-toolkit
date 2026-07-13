@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: MetaMask
+  type: resource
+  url: https://metamask.io/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - crypto-wallet-keys-not-money
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-wallet.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Named in the article as a common, free-to-install hot wallet (alongside Base
+    App and Rainbow); the article's hands-on "Go deeper" exercise walks a reader
+    through creating a wallet in MetaMask or the Base App.
+  work_order: wo-553392f77839
+  source_lineage: what-is-wallet.md

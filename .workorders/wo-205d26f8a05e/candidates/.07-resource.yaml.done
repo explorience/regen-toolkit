@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Outline
+  type: resource
+  resource_type: self-hosted-wiki
+  url: https://www.getoutline.com/
+  link_status: active
+  notes: >-
+    The most polished self-hosted knowledge-base option — feels like a
+    private Notion, with slash commands, nested docs, and real-time editing.
+    Trade-off named in the article: no built-in username/password login, so
+    it must be wired to an identity provider (Google, Slack, or any OIDC
+    source) before anyone can sign in.
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted

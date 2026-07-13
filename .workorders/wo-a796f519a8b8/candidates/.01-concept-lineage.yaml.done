@@ -1,0 +1,60 @@
+schema: concept-lineage
+object:
+  title: "Outputs vs. Outcomes vs. Impact"
+  type: concept-lineage
+  short_description: >-
+    The core distinction the impact-measurement field rests on: outputs are
+    countable activity ("we ran 12 workshops"), outcomes are what actually
+    changed for people or ecosystems as a result ("30 farmers adopted a
+    regenerative practice"), and impact is the difference the work made
+    versus what would have happened anyway (if the trees would have been
+    planted regardless, impact is zero even with 400 outputs).
+  source_traditions:
+    - impact evaluation / M&E (monitoring & evaluation)
+    - theory of change methodology
+    - MRV (measurement, reporting, verification) for ecological projects
+  toolkit_usage: >-
+    Central diagnostic frame for local-node builders in the article: most
+    nodes count outputs because they're "easy and seductive," but funders
+    and the node's own future self care about outcomes and impact; the
+    article uses it to argue for lightweight before/after surveys and
+    follow-ups rather than a research budget.
+  adjacent_meanings:
+    - "vanity metrics (activity counted for its own sake, named as the failure mode this distinction guards against)"
+    - "theory of change (the one-page map from activities to desired change, used to decide which two or three numbers are worth collecting)"
+  important_distinctions:
+    - >-
+      counting-activity-vs-demonstrating-change — "we ran 12 workshops"
+      (output) tells no one anything on its own; "12 workshops, after which
+      30 farmers switched to cover-cropping, up from 4 the year before"
+      (outcome) is a story with a spine.
+    - >-
+      outcome-vs-counterfactual-impact — an outcome can occur without the
+      node's work being the cause of it; impact specifically nets out what
+      would have happened anyway.
+  tensions:
+    - >-
+      rigor-vs-burnout — the article explicitly warns against "becoming a
+      spreadsheet bureaucracy"; the recommended discipline is a small number
+      of weekly-checked metrics, not comprehensive measurement.
+  risks_of_flattening: >-
+    Treating any counted number as equally meaningful "measurement" erases
+    the distinction the whole article is built on — a high output count can
+    coexist with zero real impact, and the article frames that gap as where
+    "good local initiatives quietly die."
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+# - Silvi as a named tool: already registered as a resource object from the
+#   what-is-refi.md work order in this same ingestion batch; not
+#   re-registered here to avoid a duplicate resource card for the same tool,
+#   though it is cited again in this article's burnout-insurance example.
+# - Gitcoin / GG24 as a resource: Gitcoin itself already registered as a
+#   resource from the what-is-refi.md work order; this article's
+#   Gitcoin-specific claim (GG24's six funding mechanisms) is captured in a
+#   claim-evidence entry here instead of a second resource card.

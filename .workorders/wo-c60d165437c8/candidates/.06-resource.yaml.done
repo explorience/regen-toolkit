@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: "Walmart / Hyperledger Fabric mango traceability case study"
+  type: resource
+  url: https://www.lfdecentralizedtrust.org/case-studies/walmart-case-study
+  resource_type: case-study
+  link_status: active
+  notes: >-
+    Enterprise-blockchain comparison in what-is-blockchain.md: Walmart traces
+    leafy greens through Hyperledger Fabric (an enterprise blockchain
+    framework stewarded by the Linux Foundation's Decentralized Trust
+    group). The specific pilot result (mango origin traceback time) is
+    captured separately as a claim-evidence object.
+  related_concepts:
+    - blockchain
+  original_source: src/content/docs/what-is-blockchain.md
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: summarized
+    authorship: ai-assisted

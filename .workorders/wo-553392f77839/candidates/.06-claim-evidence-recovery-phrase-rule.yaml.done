@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: "No legitimate service ever asks for your recovery phrase"
+  type: claim-evidence
+  claim: >-
+    Anyone who reads your recovery phrase controls your wallet completely,
+    with no bank to call and no fraud department to reverse a theft — and
+    the single rule that defends against nearly every newcomer scam is that
+    no legitimate wallet, exchange, or "support agent" will ever ask you to
+    type or share it.
+  evidence: >-
+    Article names three recurring scam patterns as evidence: (1) fake
+    support agents claiming an account is "frozen" and requesting the
+    recovery phrase to "fix" it; (2) "free-money bait" posts that publicly
+    share a wallet's recovery phrase, tricking people into importing it and
+    draining their own funds instead; (3) lookalike sites/apps, near-perfect
+    copies of real wallets built to capture what's typed.
+  source_lineage: src/content/docs/what-is-wallet.md
+  interpretation: >-
+    Positioned as the single highest-leverage safety rule in the article —
+    "hold that one line and you've avoided most of the danger" — because it
+    covers all three named scam vectors at once.
+  uncertainty: >-
+    General security guidance stated as settled fact in a plain-language
+    guide; no incidence statistics or named source cited for how common each
+    scam pattern is.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-wallet.md
+    transformation: summarized
+    authorship: ai-assisted

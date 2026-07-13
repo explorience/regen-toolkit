@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: ReFi DAO's 2024 grassroots funding distribution to Local Nodes
+  type: claim-evidence
+  claim: >-
+    ReFi DAO distributed over $236,000 to grassroots communities, including
+    its Local Nodes, through 2024 funding rounds, and ran a Local Node
+    Incubator that put more than 100 participants through a 13-session
+    program.
+  evidence: >-
+    Cited in the article's References to "ReFi DAO, Local Nodes Showcase
+    2024" (https://blog.refidao.com/refi-local-nodes-showcase-2024/); no
+    primary-source figures were independently re-verified for this ingestion.
+  source_lineage: src/content/docs/funding-landscape.md
+  interpretation: >-
+    Framed in the article as evidence that direct grants are "where most
+    local nodes actually get their first money," ahead of more exotic
+    on-chain mechanisms.
+  uncertainty: >-
+    Figures are as reported by ReFi DAO's own blog post (secondary citation,
+    not independently verified); "over $236,000" is the article's exact
+    wording, not a re-derived total.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-landscape.md
+    transformation: summarized
+    authorship: ai-assisted

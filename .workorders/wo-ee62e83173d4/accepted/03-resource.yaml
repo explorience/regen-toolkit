@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: M-Pesa
+  type: resource
+  resource_type: case-example
+  url: https://www.m-pesa.com
+  notes: >-
+    East African mobile-money service used in the article as a real-world
+    example of a system that "started with a relatively centralized model" —
+    useful for rapid deployment but carrying single-infrastructure
+    vulnerabilities.
+  related_concepts:
+    - decentralization
+    - centralized-systems
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-spectrum.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ee62e83173d4
+  source_lineage: decentralization-spectrum.md

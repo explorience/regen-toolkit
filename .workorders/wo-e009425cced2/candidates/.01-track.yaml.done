@@ -1,0 +1,54 @@
+schema: track
+object:
+  title: 'First 90 Days: Local Node Playbook'
+  type: track
+  audience: aspiring ReFi local-node organizers starting a place-based community
+  starting_context: >-
+    A city, a handful of interested people, and no treasury, token, or
+    incorporated entity yet.
+  outcome:
+    - >-
+      days 1-30 — convene: find people already doing the work, host one small
+      gathering (not a conference), reach a named core group of 3-5 people who
+      showed up twice
+    - >-
+      days 31-60 — distribute the work: rotate facilitation and roles
+      (events, partnerships, notes) so no single person is load-bearing; run a
+      sustainable monthly rhythm
+    - >-
+      days 61-90 — fund carefully: only pursue funding (e.g. Gitcoin Grants)
+      once there's a real group and a track record of a few events
+  concepts:
+    - local-node
+    - quadratic-funding
+    - liberating-structures
+  options:
+    - luma-event-registration
+    - gitcoin-grants
+    - glo-dollar-treasury
+  deployment_checks:
+    - >-
+      does a named core group of 3-5 repeat attendees exist before any
+      incorporation/fundraising step?
+    - >-
+      are roles (events, partnerships, notes/follow-up) explicitly rotated
+      rather than held by one person?
+    - >-
+      is the funding round (e.g. Gitcoin) walked through with the community
+      beforehand (Gitcoin Passport, payout timing, gas fees)?
+  failure_modes:
+    - >-
+      treating the node launch like a product launch (fundraising/token/
+      treasury before relationships exist)
+    - >-
+      one person carrying all coordination work until burnout stalls the node
+      (per Commons Social Change Library's burnout research)
+    - >-
+      fundraising before a track record exists, creating a chicken-and-egg gap
+      given multi-month grant payout timelines
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: synthesized
+    authorship: ai-assisted

@@ -1,0 +1,39 @@
+id: wo-c60d165437c8
+title: ingest what-is-blockchain.md
+type: work-order
+source_path: what-is-blockchain.md
+source_hash: 5e4ec0d078132179eeb7ea23ab63c7e54a4071bfb287f041daf98880c538a567
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-C
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-is-a-blockchain
+  - data/kb/concept-lineage.yaml#blockchain
+  - data/kb/concept-lineage.yaml#proof-of-work-vs-proof-of-stake
+  - data/kb/resource.yaml#grassroots-economics-sarafu-network
+  - data/kb/resource.yaml#regen-network
+  - >-
+    data/kb/resource.yaml#walmart-hyperledger-fabric-mango-traceability-case-study
+  - data/kb/resource.yaml#bankless-academy-blockchain-basics
+  - >-
+    data/kb/claim-evidence.yaml#bitcoin-s-proof-of-work-energy-use-138-twh-year-cambridge-2025
+  - data/kb/claim-evidence.yaml#ethereum-s-merge-cut-energy-use-by-99-95
+  - >-
+    data/kb/claim-evidence.yaml#walmart-mango-traceback-dropped-from-7-days-to-2-2-seconds-on-hyperledger-fabric
+  - >-
+    data/kb/claim-evidence.yaml#grassroots-economics-sarafu-network-scale-26-000-people-290-communities
+  - >-
+    data/kb/claim-evidence.yaml#regen-network-s-on-chain-ecological-data-lets-a-distant-funder-trust-regeneration-happened
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-regen-network-ecological-mrv-claim-in-what-is-blockchain-md

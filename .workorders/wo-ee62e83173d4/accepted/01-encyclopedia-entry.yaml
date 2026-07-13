@@ -1,0 +1,36 @@
+schema: encyclopedia-entry
+object:
+  title: The Decentralization Spectrum
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    Frames decentralization as a spectrum rather than a binary. Covers three
+    network-architecture types (centralized, decentralized, distributed), four
+    governance forms (deconcentration, delegation, devolution, privatization),
+    and two cross-cutting dimensions (technological vs. sociopolitical
+    decentralization) that must both be evaluated to judge how decentralized a
+    system really is. Argues decentralization is a design tool to be tuned to
+    context, not an ideology to maximize.
+  audience: >-
+    individuals building or participating in regenerative systems (beginner
+    level)
+  known_tensions:
+    - >-
+      technological-vs-sociopolitical — a system can be technically
+      decentralized (many nodes) while power/token concentration keeps real
+      control narrow
+    - >-
+      resilience-vs-decision-speed — fully distributed systems maximize
+      resilience but can struggle to make timely decisions
+  related_concepts:
+    - decentralization
+    - subsidiarity
+    - polycentric-governance
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-spectrum.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ee62e83173d4
+  source_lineage: decentralization-spectrum.md

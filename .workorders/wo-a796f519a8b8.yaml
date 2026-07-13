@@ -1,0 +1,32 @@
+id: wo-a796f519a8b8
+title: ingest why-measurement-matters.md
+type: work-order
+source_path: why-measurement-matters.md
+source_hash: 08815d52091b222c2daa030ea09666355108b36920d83434817d8bb10a56cf7f
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-D
+produced:
+  - data/kb/concept-lineage.yaml#outputs-vs-outcomes-vs-impact
+  - data/kb/resource.yaml#ethereum-attestation-service-eas
+  - data/kb/resource.yaml#hypercerts-protocol
+  - data/kb/resource.yaml#regen-network-registry
+  - >-
+    data/kb/claim-evidence.yaml#eas-has-recorded-9-5m-attestations-as-of-mid-2026
+  - >-
+    data/kb/claim-evidence.yaml#retroactive-funding-pays-for-demonstrated-impact-not-promises
+  - >-
+    data/kb/signal.yaml#outputs-vs-outcomes-vs-impact-is-a-reusable-toolkit-wide-frame
+  - data/kb/public-use-boundary.yaml#untitled-ae702a4c
+  - data/kb/encyclopedia-entry.yaml#why-measurement-matters-for-your-local-node

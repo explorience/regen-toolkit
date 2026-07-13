@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: EAS has recorded 9.5M+ attestations as of mid-2026
+  type: claim-evidence
+  claim: >-
+    The Ethereum Attestation Service (EAS), described as the most widely used
+    attestation tool, had recorded over 9.5 million attestations as of mid-2026.
+  evidence: >-
+    Stated directly in the source article as a scale figure for EAS, without an
+    inline citation to a live dashboard or report; article links to attest.org
+    and the easscan.org explorer.
+  source_lineage: src/content/docs/why-measurement-matters.md
+  interpretation: >-
+    Used to establish EAS as mature, widely-adopted infrastructure before
+    recommending a local node attest its own events (workshops, plantings,
+    deliverables) on it as a portable, verifiable impact record.
+  uncertainty: >-
+    No primary dashboard snapshot or date-stamped source cited in the article
+    for the 9.5M figure; attestation counts on public explorers change
+    continuously, so this number is a point-in-time claim, not independently
+    re-verified here.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-measurement-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a796f519a8b8

@@ -1,0 +1,226 @@
+entries:
+  greenpill-network-source-system-card-has-no-known-return-path:
+    title: Greenpill Network source-system card has no known return path
+    type: signal
+    signal_type: source-system
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      The Greenpill Network source-system card created from this article has
+      return_path and reuse_conditions both set to "unknown" — the article only
+      points readers to the site, it doesn't establish a
+      contribute-back/reciprocity channel. Per the framework's reciprocity
+      principle, this is a finding (a gap to close), not a blank to leave.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-55907730d33f
+    source_lineage: what-is-refi.md
+  confirm-gitcoin-s-contribute-back-return-path:
+    title: Confirm Gitcoin's contribute-back / return path
+    type: signal
+    signal_type: source-system
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      The Gitcoin source-system card registered from this article has no
+      confirmed return_path — the article doesn't state how corrections or
+      contributions flow back to Gitcoin. Gitcoin's governance forum
+      (gov.gitcoin.co) is cited elsewhere in the article for round proposals and
+      is the likely channel, but this needs steward confirmation before the
+      source-system card's return_path can be marked reliable.
+    proposed_intervention: route
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gitcoin-grants-qf.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-55b29771dc58
+    source_lineage: gitcoin-grants-qf.md
+  treasury-management-md-carries-precise-financial-figures-with-sources:
+    title: 'treasury-management.md carries precise financial figures with sources: []'
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia (content review / fact-check)
+    interpretation: >-
+      The article's own frontmatter declares `sources: []` and `author: unknown`
+      while `factcheck_done: true` and `review_done: true` are also set to true,
+      yet the body states specific, checkable figures ($15B across top-50 DAO
+      treasuries, Maya Protocol's ~$748M yearly volume and ~$3M in fees, "95%
+      slippage" claims) with no inline citations. The factcheck/review flags in
+      frontmatter and the absence of any source list are in tension and worth
+      reconciling before this content is promoted past raw/draft.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+    source_lineage: treasury-management.md
+  ai-is-escalating-scam-realism-and-scale-the-pattern-list-needs-periodic-refresh:
+    title: >-
+      AI is escalating scam realism and scale — the pattern list needs periodic
+      refresh
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia-explains
+    interpretation: >-
+      Per Chainalysis (cited in the article), AI-assisted scam operations earn
+      several times more than traditional ones, and impersonation scams grew
+      1,400%+ year-over-year in 2025; scammers now use AI to fake voices, faces,
+      and profiles. This is a moving target — static advice like "request a live
+      video call" degrades as AI voice/video fakes improve, so this guide's
+      defenses should be revisited on a regular cadence rather than treated as
+      settled.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-7d08281b2f7e
+    source_lineage: common-scams.md
+  no-known-return-path-to-chainalysis-or-fbi-ic3-outreach-needed:
+    title: No known return path to Chainalysis or FBI IC3 — outreach needed
+    type: signal
+    signal_type: source-system
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      This article leans on Chainalysis and FBI IC3 statistics but the toolkit
+      has no established reciprocity/contribute-back channel with either
+      (register-source skill: "no return path is a finding, not a blank").
+      Recommend a steward reach out to establish how corrections or citations of
+      toolkit derivative work should flow back, particularly if this content is
+      published publicly and cites their figures.
+    proposed_intervention: route
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: inferred
+      authorship: ai-assisted
+    notes: |
+      # assessed-but-excluded
+      - source_type on this work order was auto-classified "transcript" by the
+        CLI's speaker-line heuristic (lines like "Your shield: reach crypto
+        services..." false-positive-match the "Speaker: " regex); the article
+        is actually a written guide/document. Processed it as such rather than
+        forcing a transcript-shaped decomposition — flagging as a classifier
+        friction, not silently overriding without note.
+      - "Building your security ecosystem" / "When prevention fails" sections —
+        practical checklists and incident-response steps; treated as supporting
+        material for the guide's encyclopedia-entry summary rather than split
+        into their own objects (no new claim or concept beyond what's already
+        captured).
+      - Direct references to FTC and Washington Post articles — kept as
+        citations within existing objects rather than separate source-system
+        cards, since they're one-off news citations, not living knowledge
+        environments the toolkit will keep drawing from (unlike the
+        Chainalysis annual report, which is recurring).
+    work_order: wo-7d08281b2f7e
+    source_lineage: common-scams.md
+  stale-advice-daostack-alchemy-no-longer-the-live-default-for-small-node-on-chain-tooling:
+    title: >-
+      Stale advice — DAOstack/Alchemy no longer the live default for small-node
+      on-chain tooling
+    type: signal
+    signal_type: content
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      The article explicitly flags that "the older DAOstack/Alchemy stack that
+      early ReFi guides leaned on is no longer the live default," and names
+      Snapshot (voting) plus Safe (treasury) as the 2026 boring, durable
+      replacement. Any existing toolkit content that still recommends
+      DAOstack/Alchemy for a small node's first on-chain tooling should be
+      flagged and reviewed against this correction.
+    proposed_intervention: update
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/minimum-viable-node.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-810346fad236
+    source_lineage: minimum-viable-node.md
+  outputs-vs-outcomes-vs-impact-is-a-reusable-toolkit-wide-frame:
+    title: Outputs vs. outcomes vs. impact is a reusable toolkit-wide frame
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia
+    interpretation: >-
+      This article's outputs/outcomes/impact distinction (and its "measurement
+      is the funding rail, not the paperwork after it" framing for Web3-native
+      nodes) reads as a pattern likely useful beyond this one article — e.g. for
+      other funding-landscape and local-node-building articles in the same
+      content set. Flagging for the curator to consider cross-linking rather
+      than letting each article redefine the distinction independently.
+    proposed_intervention: cite
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-a796f519a8b8
+    source_lineage: why-measurement-matters.md
+  reviewed-pages-silently-rot-silent-drift-maturity-needs-an-expiry-mechanism:
+    title: >-
+      Reviewed pages silently rot (silent drift) — maturity needs an expiry
+      mechanism
+    type: signal
+    signal_type: content
+    affected_layer: cross-cutting (review-maturity / Evolution Layer)
+    interpretation: >-
+      The article names "silent drift" (reviewed content going stale while still
+      trusted) alongside stagnation and reactive overcorrection as the Toolkit's
+      own named failure modes, with the governing rule "a signal is not a
+      conclusion." It proposes two concrete mitigations worth evaluating for
+      this framework's own K1 model: (1) expiry-by-date — a rule that demotes
+      "Maintained" pages older than N months back to "Reviewed" until
+      re-checked; (2) compost-not-delete — mark wrong-but-historically-useful
+      content Deprecated with a pointer to its replacement rather than erasing
+      it.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/review-and-maturity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ea54c9ef7bb2
+    source_lineage: review-and-maturity.md
+  article-s-references-section-lists-only-homepages-not-per-claim-citations:
+    title: Article's References section lists only homepages, not per-claim citations
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia-explains
+    interpretation: >-
+      The References section links bitcoin.org, ethereum.org, m-pesa.com, and
+      ica.coop as general homepages rather than citing the specific
+      claims/statistics made in the body (e.g., the M-Pesa centralization
+      framing, the 50%-token-concentration claim). This weakens
+      source-linked-ness for an otherwise well-structured framework piece.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/decentralization-spectrum.md
+      transformation: inferred
+      authorship: ai-assisted
+    notes: |
+      # assessed-but-excluded
+      - "Try This" self-reflection prompts — coaching/exercise content, not a
+        knowledge object; not extracted.
+      - Governance-form typology (deconcentration/delegation/devolution/
+        privatization) — folded into the single Decentralization concept-lineage
+        entry's important_distinctions per the work order's explicit instruction
+        to extract decentralization as ONE core concept object rather than
+        spinning up a separate concept-lineage entry per governance form.
+    work_order: wo-ee62e83173d4
+    source_lineage: decentralization-spectrum.md

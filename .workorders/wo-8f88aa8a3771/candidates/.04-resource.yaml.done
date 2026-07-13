@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Obsidian (local-first note tool)
+  type: resource
+  url: https://obsidian.md/
+  resource_type: tool
+  link_status: active
+  notes: >-
+    Local-first note tool cited in source-systems.md as an example of
+    stewardship + ongoing additions in plain files you own — stores notes as
+    plain Markdown with bidirectional linking so the knowledge graph builds
+    itself as you write. Recommended in the "Stretch" exercise for standing
+    up a real source system.
+  related_concepts:
+    - source-system
+    - digital-garden
+  original_source: src/content/docs/source-systems.md ([GLU] reference)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/source-systems.md
+    transformation: summarized
+    authorship: ai-assisted

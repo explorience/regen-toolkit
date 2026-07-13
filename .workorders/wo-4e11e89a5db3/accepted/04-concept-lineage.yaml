@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: RID (Reference Identifier)
+  type: concept-lineage
+  short_description: >-
+    A stable label that points to a knowledge object (doc, message, record)
+    without handing over the object itself — like a library call number.
+  source_traditions:
+    - KOI-net protocol (BlockScience, with Metagov and RMIT)
+  toolkit_usage: >-
+    The mechanism cited as enabling federation without consolidation:
+    organizations share the RID (the label/pointer) while keeping the underlying
+    content and access rules under their own control. Attributed to
+    BlockScience's Michael Zargham and Ilan Ben-Meir: "a stable concept of a
+    reference as something distinct from (but referring to) an underlying
+    referent is thus the mechanism that enables organizations to interoperate
+    while retaining (and securing) their respective boundaries."
+  adjacent_meanings:
+    - federation
+    - koi-net
+  important_distinctions:
+    - >-
+      reference-vs-referent — the RID is the pointer/label; the referent (the
+      actual document/message/record) is never itself transferred
+  risks_of_flattening: >-
+    Only quoting the RID concept without KOI-net's supporting node roles
+    (sensor/processor/coordinator) can make it sound like a naming scheme alone
+    accomplishes federation; the roles are what actually move and transform the
+    referenced knowledge across a network.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-4e11e89a5db3
+  source_lineage: federation-portability.md

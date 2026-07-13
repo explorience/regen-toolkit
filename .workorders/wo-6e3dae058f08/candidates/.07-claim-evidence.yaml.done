@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: "Top 50 DAO treasuries hold ~$15B, concentrated in native token"
+  type: claim-evidence
+  claim: >-
+    "The top 50 DAO treasuries together hold approximately $15 billion in
+    assets. Yet most of these treasuries are heavily concentrated in a
+    single asset: their own governance token."
+  evidence: >-
+    No citation or source is given in the article itself (article
+    frontmatter lists `sources: []`); the figure is stated as fact without a
+    linked dataset, dashboard, or dated snapshot.
+  source_lineage: src/content/docs/treasury-management.md
+  interpretation: >-
+    Grounds the article's central argument (paper wealth vs. actual
+    financial flexibility) but the number is undated and unsourced within
+    the article, so its currentness cannot be verified from this text alone.
+  uncertainty: >-
+    High — a specific dollar figure with no citation, dataset, or as-of date.
+    Treasury totals in crypto move quickly; treat as illustrative rather
+    than a verified, current statistic until a primary source is attached.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/treasury-management.md
+    transformation: summarized
+    authorship: ai-assisted

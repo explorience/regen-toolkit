@@ -1,0 +1,29 @@
+schema: source-system
+object:
+  title: KOI-net (BlockScience / Metagov / RMIT)
+  type: repo
+  steward: BlockScience, with Metagov and RMIT
+  what_it_curates: >-
+    The KOI-net protocol and its MIT-licensed Python implementation
+    (`koi-net` on GitHub) — network protocol for federating knowledge across
+    organizational boundaries via RIDs and sensor/processor/coordinator node
+    roles. The article notes the Regen Toolkit already wires a `regen-koi`
+    integration and treats its own repo layout as "sensor-friendly today."
+  why_it_matters: >-
+    The most structured federation protocol option cited in the article, and
+    directly relevant since the Toolkit already has a regen-koi integration
+    path.
+  url: 'https://github.com/BlockScience/koi-net'
+  use_type: protocol/reference implementation to evaluate for future federation
+  reuse_conditions: MIT-licensed (per the article)
+  return_path: 'GitHub issues/PRs on BlockScience/koi-net — not explicitly confirmed as a maintained contribution channel here'
+  currentness: 'public beta since May 2025; v2.0.7 as of May 2026 per the article'
+  update_rhythm: actively maintained (per the article)
+  extraction_status: partial — only the framing given in this article has been captured, not the protocol docs themselves
+  toolkit_route: layer-10-infrastructure-and-substrate
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/federation-portability.md
+    transformation: summarized
+    authorship: ai-assisted

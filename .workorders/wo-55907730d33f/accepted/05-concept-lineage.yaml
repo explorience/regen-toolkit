@@ -1,0 +1,55 @@
+schema: concept-lineage
+object:
+  title: Regenerative Finance (ReFi)
+  type: concept-lineage
+  short_description: >-
+    Money flows that "build soil instead of mining it" — the article's core
+    framing: rather than being extractive (treating a forest as worth more cut
+    down than alive) or merely sustainable (doing less harm), ReFi aims to leave
+    the system measurably healthier than it found it, using blockchain as a
+    shared, tamper-resistant public record.
+  source_traditions:
+    - regenerative agriculture
+    - blockchain / public ledgers
+    - quadratic funding / mechanism design
+    - carbon-market tokenization
+  toolkit_usage: >-
+    Introductory foundations-layer concept for community organizers and growers
+    new to crypto; explicitly distinguishes "sustainability maintains,
+    regeneration improves" and walks through three concrete problem/solution
+    pairs (proving impact via Silvi, community-driven funding via Gitcoin
+    quadratic funding, local value circulation via community tokens) before
+    addressing energy-use and greenwashing objections.
+  adjacent_meanings:
+    - >-
+      sustainability (doing less harm — explicitly distinguished as a lesser
+      goal than regeneration)
+    - >-
+      DeFi (decentralized finance generally, of which ReFi is framed as a
+      values-driven subset)
+  important_distinctions:
+    - >-
+      sustainability-maintains-vs-regeneration-improves — the article's central
+      conceptual hinge distinguishing ReFi from ordinary sustainability framing.
+    - >-
+      tokenizing-is-not-automatically-good — a carbon token (or any tokenized
+      "nature asset") is only as honest as the underlying project; tokenization
+      is a wrapper, not a verification of quality.
+  tensions:
+    - >-
+      pricing-nature-vs-commodifying-nature — putting a number on carbon, water,
+      or biodiversity is presented as ReFi's headline move, but the article
+      itself flags this is "exactly where greenwashing hides."
+  risks_of_flattening: >-
+    Reducing ReFi to "carbon tokens" or "crypto for climate" erases the
+    article's broader claim that it is fundamentally about redirecting money
+    toward people doing regenerative work (soil, community, local circulation),
+    not only about pricing ecological assets.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-refi.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-55907730d33f
+  source_lineage: what-is-refi.md

@@ -1,0 +1,31 @@
+schema: concept-lineage
+object:
+  title: Quadratic funding
+  type: concept-lineage
+  short_description: >-
+    A matching-fund mechanism that weights the number of backers more
+    heavily than the size of any single gift, so broad community support
+    outweighs one large donor ("one whale").
+  source_traditions:
+    - Gitcoin Grants matching-round design
+  toolkit_usage: >-
+    Explains why Gitcoin Grants is recommended as the main funding on-ramp
+    for a local node once it has a track record — small, broad-based
+    community donations get amplified by a matching pool.
+  adjacent_meanings:
+    - gitcoin-grants
+    - gitcoin-passport
+  important_distinctions:
+    - >-
+      quadratic-funding-vs-flat-matching — rewards breadth of small backers
+      rather than simply matching whatever is donated 1:1
+  risks_of_flattening: >-
+    The article doesn't cover known quadratic-funding attack vectors (e.g.
+    collusion/Sybil attacks), which Gitcoin Passport is partly designed to
+    mitigate — worth linking if a dedicated quadratic-funding page exists.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/first-90-days.md
+    transformation: summarized
+    authorship: ai-assisted

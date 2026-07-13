@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: BookStack
+  type: resource
+  resource_type: self-hosted-wiki
+  url: https://www.bookstackapp.com/
+  link_status: active
+  notes: >-
+    Free, MIT-licensed, self-hosted wiki organizing content into a shelves ->
+    books -> chapters -> pages hierarchy. Runs on ordinary PHP/MySQL hosting;
+    named as the good default for a team knowledge base when you want order
+    without much fiddling.
+  related_concepts:
+    - infrastructure-follows-function
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-205d26f8a05e
+  source_lineage: knowledge-tools-directory.md

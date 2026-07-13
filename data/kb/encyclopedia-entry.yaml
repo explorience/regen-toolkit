@@ -1,0 +1,639 @@
+entries:
+  what-is-decentralization:
+    title: What Is Decentralization?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language guide to decentralization for community organizers and
+      permaculturists new to crypto: what it means, why it matters for their
+      existing work (local chapters, volunteer coordination, shared treasuries),
+      how it's a spectrum rather than a binary, and how to spot genuine versus
+      hyped decentralization using free/open/fair criteria plus concrete tools
+      (Snapshot, quadratic voting).
+    audience: community organizers and permaculturists new to crypto
+    known_tensions:
+      - >-
+        openness of infrastructure vs. concentration of day-to-day decision
+        power
+    related_concepts:
+      - decentralization
+    related_resources:
+      - 1Hive
+      - Snapshot (snapshot.org)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-decentralization.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-0f39787ee74e
+    source_lineage: what-is-decentralization.md
+  a-tools-directory-for-knowledge-that-outlives-turnover:
+    title: A Tools Directory for Knowledge That Outlives Turnover
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      An opinionated, named-tool guide for building a team knowledge commons
+      that survives contributor turnover. Organized around one governing
+      principle ("infrastructure should follow function") and one portability
+      test ("would your knowledge survive the tool dying?"), it maps tool
+      choices to jobs (team knowledge base, individual notes, public site) and
+      names a public/internal/private visibility-tier substrate mapping.
+    audience: small teams and local nodes choosing knowledge-commons tooling
+    known_tensions:
+      - >-
+        Polished, collaboration-friendly tools (Notion) vs. durable,
+        portable-in-plain-text tools (Markdown + Git) — the article resolves
+        this as "own your source of truth in plain text and Git; use everything
+        else as a publishing or collaboration layer on top."
+      - >-
+        Even historically file-based tools can drift away from portability —
+        Logseq's 2025-2026 SQLite-backed "DB version" is cited as a caution that
+        "file-on-disk" is a property to keep checking, not assume.
+    related_concepts:
+      - infrastructure-follows-function
+    related_resources:
+      - obsidian
+      - quartz
+      - astro-starlight
+      - bookstack
+      - outline
+      - wiki-js
+      - gitbook
+      - notion
+      - logseq
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-tools-directory.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-205d26f8a05e
+    source_lineage: knowledge-tools-directory.md
+  the-gatherings-pattern:
+    title: The Gatherings Pattern
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      A five-element framework (Purpose, People, Place, Process, Practice) for
+      designing intentional gatherings for local nodes, plus four ready-made
+      gathering formats (Onboarding, Governance, Trust-Building, Learning) and
+      five cross-cutting hosting principles. Framed as the primary way local
+      nodes build the trust and shared understanding that community finance
+      systems require.
+    audience: local node organizers / community hosts
+    known_tensions:
+      - >-
+        "Don't default to everyone's invited" small-curated-group guidance vs.
+        the inclusive, open-participation norms many decentralized communities
+        hold as a default.
+      - >-
+        Generous authority (a single host holding structure) vs. anti-hierarchy
+        instincts in horizontally-organized communities.
+    related_concepts:
+      - purpose-people-place-process-practice
+    related_resources:
+      - the-art-of-gathering
+      - liberating-structures
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gatherings-pattern.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3432cf7d500b
+    source_lineage: gatherings-pattern.md
+  federation-and-portability-building-a-commons-that-outlives-its-tools:
+    title: 'Federation and Portability: Building a Commons That Outlives Its Tools'
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      Argues that a knowledge commons needs both portability (moving your data
+      between tools/people/orgs without rot) and federation (sharing across
+      groups without merging into one database). Recommends a "portability
+      floor" of plain Markdown in Git (readable, diffable, greppable,
+      vendor-independent) with structure kept in frontmatter, then layers
+      federation on top via named public/internal/private boundaries and stable
+      references — from ad hoc shared folders up to protocols like KOI-net
+      (RIDs) or ActivityPub (Mastodon).
+    audience: small-team leads who work in docs/GitHub but aren't ontologists
+    known_tensions:
+      - >-
+        protocol-maturity-gap — ActivityPub/Mastodon federates social identity
+        well but, as of 2025, doesn't yet portable-move actual post content
+    related_concepts:
+      - portability
+      - federation
+      - reference-identifier-rid
+    related_resources:
+      - obsidian
+      - koi-net
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/federation-portability.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4e11e89a5db3
+    source_lineage: federation-portability.md
+  what-is-a-crypto-wallet:
+    title: What Is a Crypto Wallet?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language guide to crypto wallets for community organizers and
+      permaculturists new to Web3: the "wallet holds keys, not money"
+      distinction, public vs. private keys, recovery phrases and their
+      single-point-of-failure risk, newer passkey/guardian-based smart-wallet
+      recovery, hot vs. cold wallet trade-offs, energy-use context, and named
+      scam patterns.
+    audience: community organisers and permaculturists new to Web3
+    known_tensions:
+      - convenience (hot wallet) vs. security (cold wallet)
+      - >-
+        classic recovery-phrase model (full user responsibility, no recourse)
+        vs. smart-wallet guardian recovery (friendlier, newer, less
+        battle-tested)
+    related_concepts:
+      - crypto-wallet-keys-not-money
+    related_resources:
+      - Giveth
+      - MetaMask
+      - Smart wallets with passkey/guardian recovery (Base App, Argent "Ready")
+      - Hardware / cold wallets (Ledger, Trezor)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-wallet.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-553392f77839
+    source_lineage: what-is-wallet.md
+  what-is-refi:
+    title: What Is ReFi?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language introduction to Regenerative Finance for community
+      organizers and growers new to crypto: the "money that builds soil instead
+      of mining it" framing, three concrete problem/solution pairs (Silvi for
+      proving impact, Gitcoin quadratic funding for community-driven grants,
+      local tokens for keeping value circulating), the carbon-tokenization
+      example with its Verra greenwashing caution, the proof-of-stake energy-use
+      correction, and honest limitations.
+    audience: community organisers and growers new to crypto
+    known_tensions:
+      - pricing nature in vs. commodifying/greenwashing risk (the Verra episode)
+      - >-
+        crypto energy-use reputation (Bitcoin proof-of-work) vs. actual
+        footprint of the Ethereum/Celo-based tools ReFi mostly uses
+    related_concepts:
+      - regenerative-finance-refi
+    related_resources:
+      - Toucan Protocol
+      - Gitcoin (Quadratic Funding)
+      - Silvi
+      - Greenpill Network
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-refi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55907730d33f
+    source_lineage: what-is-refi.md
+  gitcoin-grants-and-quadratic-funding:
+    title: Gitcoin Grants and Quadratic Funding
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      How quadratic funding distributes a matching pool by counting contributor
+      count rather than dollar totals (sum-the-square-roots-then-square
+      formula), illustrated with a real regen QF round (GG24's Bioregional
+      Reforestation Round), the sybil-defense mechanisms rounds use (Human
+      Passport proof-of-personhood, Connection-Oriented Cluster Matching), a
+      walkthrough for running your own round on Grants Stack, and burnout
+      guardrails for first-time round organizers.
+    audience: local node organizers considering running or joining a QF round
+    known_tensions:
+      - >-
+        Live "estimated match" figures move after a round closes as Passport
+        eligibility and COCM corrections are applied — organizers are warned not
+        to promise applicants an exact payout in advance.
+      - >-
+        QF amplifies an existing community; it does not conjure one — a round
+        run before relationships exist will underperform regardless of mechanism
+        design.
+    related_concepts:
+      - quadratic-funding-formula
+    related_resources:
+      - grants-stack
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gitcoin-grants-qf.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-55b29771dc58
+    source_lineage: gitcoin-grants-qf.md
+  treasury-management-for-daos:
+    title: Treasury Management for DAOs
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      Practical guide to DAO treasury management: the "native token problem"
+      (thin liquidity, extreme volatility, broken operational continuity when a
+      treasury holds mostly its own governance token), the case for holding 2-3
+      years of operating expenses in stablecoins, four diversification methods
+      (earning stablecoin revenue, strategic token sales, strategic
+      partnerships, borrowing against tokens), and Maya Protocol as a
+      transitioning-to-DAO-governance example.
+    audience: 🌱 Maya (beginner track, DAO governance/finance foundations)
+    known_tensions:
+      - >-
+        diversification improves resilience but strategic token sales and
+        borrowing both carry market-impact / liquidation risk
+      - >-
+        treasury management choices are framed as governance choices (who holds
+        power), not purely financial ones
+    related_concepts:
+      - dao-treasury-diversification
+      - native-token-concentration-risk
+    related_resources:
+      - Maya Protocol
+      - Aave
+      - Gnosis Auction
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/treasury-management.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6e3dae058f08
+    source_lineage: treasury-management.md
+  the-funding-landscape:
+    title: The Funding Landscape
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A map of web3 and ReFi-native funding mechanisms for local node builders,
+      organized around one axis: prospective funding (grants, quadratic funding)
+      that pays before the work happens, versus retrospective funding (RetroPGF
+      / Retro Funding, hypercerts) that pays after impact is shown. Also surveys
+      direct grants, streaming/recurring funding, yield-based ("evergreen")
+      funding, and conviction voting, and closes on Sybil/collusion risk in QF
+      and the case for blending funding sources so no single funder sets a
+      node's direction.
+    audience: local node organizers evaluating funding mechanisms
+    known_tensions:
+      - >-
+        Quadratic funding rewards breadth but is structurally vulnerable to
+        Sybil attacks and collusion; every fix (e.g. identity verification via
+        Gitcoin Passport/Human Passport) trades away some decentralization for
+        integrity.
+      - >-
+        Retro funding rewards track record, which favors established nodes over
+        brand-new ones with no visible output yet.
+      - >-
+        External/grant funding "often means external priorities entering your
+        community space" — the article's own defense is blending sources, not
+        avoiding funding.
+    related_concepts:
+      - quadratic-funding
+      - retroactive-public-goods-funding
+      - hypercerts
+    related_resources:
+      - octant
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-landscape.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-704b0ef07811
+    source_lineage: funding-landscape.md
+  common-crypto-scams-and-how-to-spot-them:
+    title: Common Crypto Scams and How to Spot Them
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A plain-language field guide to the main crypto scam patterns — phishing,
+      investment/"guaranteed returns" fraud, romance/"pig butchering" scams, and
+      rug pulls — plus the psychological levers (urgency, authority, trust)
+      scammers reuse, practical defenses (hardware wallets, 2FA, bookmarked
+      URLs, multi-sig for shared funds), and what to do if you've been scammed
+      (stop contact, document, report to IC3, alert your community).
+    audience: community organisers and newcomers to Web3
+    known_tensions:
+      - >-
+        article notes AI is now used to generate convincing scam content/voices,
+        which erodes "professional appearance" as a trust signal
+    related_concepts:
+      - phishing
+      - rug-pull
+      - pig-butchering-scam
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-scams.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7d08281b2f7e
+    source_lineage: common-scams.md
+  ontology-vs-taxonomy-which-one-does-your-commons-need:
+    title: 'Ontology vs Taxonomy: Which One Does Your Commons Need?'
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      A plain-language guide for teams building a knowledge commons: a taxonomy
+      is a labelled filing cabinet (hierarchy of categories, preferred/alternate
+      labels, broader/narrower/related relations) for browsing and finding
+      things; an ontology adds typed classes, individuals, and named
+      relationships that let software infer facts (e.g. flagging a missing
+      report). The practical heuristic: taxonomy first, ontology only when a
+      specific, recurring task needs machine reasoning over relationships. SKOS
+      is offered as the bridge that keeps the door to an ontology open without
+      wasted work.
+    audience: >-
+      small-team leads building a knowledge commons who are comfortable in
+      docs/GitHub but not ontologists
+    known_tensions:
+      - >-
+        taxonomy-vs-ontology scope creep — promoting every useful tag to a
+        structural type balloons the model (ontology sprawl)
+      - >-
+        classification (taxonomy) vs. machine-reasoning (ontology) are often
+        conflated in practice
+    related_concepts:
+      - taxonomy
+      - ontology
+      - SKOS
+    related_resources:
+      - SKOS (W3C standard)
+      - Protégé (ontology editor)
+      - Schema.org
+      - Wikidata
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ontology-vs-taxonomy.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7fb26c01e3dc
+    source_lineage: ontology-vs-taxonomy.md
+  source-systems-knowledge-that-outlives-turnover:
+    title: 'Source Systems: Knowledge That Outlives Turnover'
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Defines a "source system" as a living knowledge environment (wiki, repo,
+      forum, garden…) rather than a one-off link — one that has a steward, keeps
+      getting new material added, and offers a return path to credit and trace
+      claims back to their origin. Contrasts this with a static "link list" that
+      rots. Ties provenance (recorded origin/history) to the principle
+      "inclusion does not mean endorsement," gives real named tools (Obsidian,
+      Logseq, TiddlyWiki, CITATION.cff, ADR/MADR) that already encode these
+      properties, and frames stewardship of a source system as a governance
+      problem (Ostrom's commons-design principles), not just tidying.
+    audience: >-
+      small-team leads maintaining wikis/repos/knowledge bases who want them to
+      survive contributor turnover
+    known_tensions:
+      - >-
+        add-broadly-classify-lightly (low friction intake) vs.
+        mark-maturity-honestly (don't let raw material pass as endorsed)
+      - >-
+        a link list is easy to start and cheap to maintain; a source system
+        requires an actual steward and return path, which is more work up front
+    related_concepts:
+      - source-system
+      - provenance
+      - digital-garden
+    related_resources:
+      - Obsidian
+      - Logseq
+      - TiddlyWiki
+      - Citation File Format (CITATION.cff)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/source-systems.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-8f88aa8a3771
+    source_lineage: source-systems.md
+  why-measurement-matters-for-your-local-node:
+    title: Why Measurement Matters for Your Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practical guide for local-node and chapter builders on measuring impact
+      without bureaucracy or burnout: why measurement prevents burnout on
+      non-compounding activity, the outputs/outcomes/impact distinction, why in
+      Web3 measurement is the funding rail rather than after-the-fact paperwork
+      (retroactive funding, attestation, hypercerts), why holding your own
+      verified record supports node autonomy, and a start-small honest-reporting
+      practice.
+    audience: local node and chapter builders
+    known_tensions:
+      - measurement rigor vs. burnout / bureaucracy risk
+      - >-
+        node autonomy from a parent DAO/umbrella org vs. needing to report up to
+        the network
+    related_concepts:
+      - outputs-vs-outcomes-vs-impact
+    related_resources:
+      - Ethereum Attestation Service (EAS)
+      - Hypercerts Protocol
+      - Regen Network Registry
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-measurement-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a796f519a8b8
+    source_lineage: why-measurement-matters.md
+  case-studies-how-nonprofits-are-using-web3:
+    title: 'Case Studies: How Nonprofits Are Using Web3'
+    type: encyclopedia-entry
+    page_type: case-linked
+    summary: >-
+      Surveys real-world nonprofit adoption of crypto: Ukraine's 2022 emergency
+      crypto fundraising after banks froze, Mercy Corps Ventures cutting
+      delivery costs 60% with stablecoins in Syria, and the fast growth of
+      crypto donations reported by The Giving Block. Frames web3 tools as
+      practical infrastructure (fast settlement, transparency, lower
+      cross-border fees) rather than a speculative novelty, and gives small
+      nonprofits a low-effort on-ramp (accept crypto donations, use stablecoins
+      for cross-border payments, use blockchain records for transparent
+      reporting).
+    audience: nonprofit staff and small charity operators new to crypto
+    known_tensions:
+      - >-
+        article leans on cited statistics from interested parties (The Giving
+        Block, CryptoAltruists) without independent verification
+    related_concepts:
+      - stablecoins
+      - crypto-donations
+      - blockchain-transparency
+    related_resources:
+      - the-giving-block
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/case-studies-nonprofits.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b3d9480838b4
+    source_lineage: case-studies-nonprofits.md
+  what-is-a-blockchain:
+    title: What Is a Blockchain?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Plain-language, no-hype introduction to blockchains via a "village
+      notebook" analogy: many computers (nodes) keep identical copies of a
+      record, batched into blocks that hash-chain to make history tamper-evident
+      ("immutable"), removing the need to trust any single keeper ("trustless")
+      and solving double-spending without a referee. Covers real
+      regenerative/community examples (Grassroots Economics' Sarafu Network,
+      Regen Network), an enterprise comparison (Walmart on Hyperledger Fabric),
+      and an honest costs section (energy use differences between proof-of-work
+      and proof-of-stake, permanence cutting both ways, and that blockchains
+      record agreement but don't create it).
+    audience: community organisers and growers new to crypto
+    known_tensions:
+      - >-
+        immutability is good for trust but unforgiving for mistakes (wrong
+        entries/payments usually can't be undone)
+      - >-
+        'blockchain wastes energy' is true of proof-of-work chains like Bitcoin
+        but false of proof-of-stake chains most regenerative projects actually
+        use
+    related_concepts:
+      - blockchain
+      - proof-of-work-vs-proof-of-stake
+    related_resources:
+      - Grassroots Economics / Sarafu Network
+      - Regen Network
+      - Walmart / Hyperledger Fabric case study
+      - Bankless Academy
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-blockchain.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c60d165437c8
+    source_lineage: what-is-blockchain.md
+  your-first-90-days-running-a-local-node:
+    title: Your First 90 Days Running a Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A paced playbook for standing up a ReFi local node without burnout:
+      convene before you build (days 1-30), distribute the work early (days
+      31-60), and only fund the thing once there's a track record (days 61-90).
+      Draws on ReFi Medellín's founding story (Tereza Bízková) and Commons
+      Social Change Library burnout research, and points to existing networks
+      (ReFi DAO, Greenpill Network, Regen Coordination) so organizers don't have
+      to invent the whole stack.
+    audience: people starting a new place-based ReFi/regenerative-finance node
+    known_tensions:
+      - >-
+        grant-payout-timing-vs-early-costs — Gitcoin-style grants can take up to
+        three months to pay out, so early events must be funded some other way
+    related_concepts:
+      - local-node
+      - quadratic-funding
+    related_resources:
+      - refi-dao-local-node-incubator
+      - glo-dollar
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/first-90-days.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e009425cced2
+    source_lineage: first-90-days.md
+  review-and-maturity-labelling-what-your-knowledge-can-be-trusted-to-do:
+    title: 'Review and Maturity: Labelling What Your Knowledge Can Be Trusted To Do'
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      Guidance for labelling how trustworthy each page in a knowledge commons
+      is, so trust survives founder/author turnover. Names the trap ("polished
+      writing is not automatically reviewed knowledge"), borrows three proven
+      maturity ladders (Wikipedia content assessment, ADR/MADR status field,
+      Kubernetes Alpha/Beta/Stable), proposes a shippable four-rung ladder
+      (Draft/Reviewed/Maintained/Deprecated) stored in frontmatter, ties review
+      rigor to risk level, and treats maturity as an ongoing maintenance signal
+      (expiry by date, compost instead of delete) rather than a one-time label.
+    audience: small-team leads building docs/wikis that must outlive their authors
+    known_tensions:
+      - >-
+        self-claimed states (draft/proposed/alpha) vs. granted states
+        (reviewed/accepted/stable) — the promotion gate only belongs on granted
+        tiers
+      - >-
+        review-everything-equally burns teams out vs. review-scaled-to-risk
+        leaves gaps if risk is misjudged
+    related_concepts:
+      - review-maturity-ladder
+      - bus-factor
+      - silent-drift
+    related_resources:
+      - MADR (Markdown Architectural Decision Records)
+      - Diátaxis
+      - 'Wikipedia: Content assessment'
+      - 'Kubernetes: Feature Gates'
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/review-and-maturity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ea54c9ef7bb2
+    source_lineage: review-and-maturity.md
+  the-decentralization-spectrum:
+    title: The Decentralization Spectrum
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      Frames decentralization as a spectrum rather than a binary. Covers three
+      network-architecture types (centralized, decentralized, distributed), four
+      governance forms (deconcentration, delegation, devolution, privatization),
+      and two cross-cutting dimensions (technological vs. sociopolitical
+      decentralization) that must both be evaluated to judge how decentralized a
+      system really is. Argues decentralization is a design tool to be tuned to
+      context, not an ideology to maximize.
+    audience: >-
+      individuals building or participating in regenerative systems (beginner
+      level)
+    known_tensions:
+      - >-
+        technological-vs-sociopolitical — a system can be technically
+        decentralized (many nodes) while power/token concentration keeps real
+        control narrow
+      - >-
+        resilience-vs-decision-speed — fully distributed systems maximize
+        resilience but can struggle to make timely decisions
+    related_concepts:
+      - decentralization
+      - subsidiarity
+      - polycentric-governance
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/decentralization-spectrum.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ee62e83173d4
+    source_lineage: decentralization-spectrum.md

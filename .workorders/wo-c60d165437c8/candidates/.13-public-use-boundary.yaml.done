@@ -1,0 +1,20 @@
+schema: public-use-boundary
+object:
+  title: "Boundary — Regen Network ecological/MRV claim in what-is-blockchain.md"
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the Regen Network resource entry and its companion claim-evidence
+    object (this work order) — the assertion that on-chain recording lets a
+    "funder half a world away trust that the regeneration actually
+    happened" conflates tamper-evidence (a real property of blockchains)
+    with ecological-measurement accuracy (a separate, unverified claim in
+    this source text). Ecological/carbon/MRV claims are a standing high-risk
+    trigger; do not present this as a verified account of Regen Network's
+    MRV methodology without checking Regen Network's own published
+    verification standards.
+  review_type: domain-review-before-ecological-claims-are-cited-as-verified
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-blockchain.md
+    transformation: synthesized
+    authorship: ai-assisted

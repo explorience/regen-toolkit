@@ -1,0 +1,31 @@
+id: wo-704b0ef07811
+title: ingest funding-landscape.md
+type: work-order
+source_path: funding-landscape.md
+source_hash: 625cc3606e4e94a20767dbd51f0bbec6db707f3390bd3844a6dd58de170ddb4e
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-B
+produced:
+  - data/kb/encyclopedia-entry.yaml#the-funding-landscape
+  - data/kb/concept-lineage.yaml#quadratic-funding-qf
+  - >-
+    data/kb/concept-lineage.yaml#retroactive-public-goods-funding-retropgf-retro-funding
+  - >-
+    data/kb/claim-evidence.yaml#refi-dao-s-2024-grassroots-funding-distribution-to-local-nodes
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-refi-dao-2024-funding-distribution-claim-funding-landscape-md
+  - >-
+    data/kb/claim-evidence.yaml#gitcoin-passport-s-sybil-influence-reduction-and-its-centralization-trade-off
+  - data/kb/resource.yaml#octant

@@ -1,0 +1,31 @@
+id: wo-553392f77839
+title: ingest what-is-wallet.md
+type: work-order
+source_path: what-is-wallet.md
+source_hash: 26de1a5615408260dc78977854f69269871a07f6f7f488d92fba846628b6027e
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-D
+produced:
+  - data/kb/concept-lineage.yaml#crypto-wallet-keys-not-money
+  - data/kb/resource.yaml#giveth
+  - data/kb/resource.yaml#metamask
+  - >-
+    data/kb/resource.yaml#smart-wallets-with-passkey-guardian-recovery-base-app-argent-ready
+  - data/kb/resource.yaml#hardware-cold-wallets-ledger-trezor
+  - >-
+    data/kb/claim-evidence.yaml#no-legitimate-service-ever-asks-for-your-recovery-phrase
+  - >-
+    data/kb/claim-evidence.yaml#paper-is-no-longer-a-sufficient-recovery-phrase-backup
+  - data/kb/encyclopedia-entry.yaml#what-is-a-crypto-wallet

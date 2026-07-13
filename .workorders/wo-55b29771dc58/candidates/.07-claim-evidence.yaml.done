@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Gitcoin's two-layer sybil defense — Human Passport and COCM
+  type: claim-evidence
+  claim: >-
+    Gitcoin QF rounds defend against sybil attacks in two main ways: proof of
+    personhood via Human Passport (formerly Gitcoin Passport, acquired by the
+    Holonym Foundation in February 2025), which scores donors before their
+    contribution counts toward matching; and post-round correction via
+    Connection-Oriented Cluster Matching (COCM), which dials down the match
+    for donor clusters that always co-donate together.
+  evidence: >-
+    Cited in the article's References to "Human Passport (formerly Gitcoin
+    Passport)" (https://human.tech/blog/from-gitcoin-passport-to-human-passport-we-re-now-part-of-human-tech)
+    and "Leveling the Field: Connection-Oriented Cluster Matching"
+    (https://www.gitcoin.co/blog/leveling-the-field-how-connection-oriented-cluster-matching-strengthens-quadratic-funding).
+  source_lineage: src/content/docs/gitcoin-grants-qf.md
+  interpretation: >-
+    Presented as the two things a round organizer must understand before
+    running a round, because final allocations move after donations close as
+    these corrections are applied.
+  uncertainty: >-
+    Acquisition date and mechanism descriptions as reported in the cited
+    Gitcoin/Human Passport sources; not independently re-verified.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gitcoin-grants-qf.md
+    transformation: summarized
+    authorship: ai-assisted

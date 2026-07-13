@@ -1,0 +1,22 @@
+schema: signal
+object:
+  title: "Reviewed pages silently rot (silent drift) — maturity needs an expiry mechanism"
+  type: signal
+  signal_type: content
+  affected_layer: cross-cutting (review-maturity / Evolution Layer)
+  interpretation: >-
+    The article names "silent drift" (reviewed content going stale while
+    still trusted) alongside stagnation and reactive overcorrection as the
+    Toolkit's own named failure modes, with the governing rule "a signal is
+    not a conclusion." It proposes two concrete mitigations worth evaluating
+    for this framework's own K1 model: (1) expiry-by-date — a rule that
+    demotes "Maintained" pages older than N months back to "Reviewed" until
+    re-checked; (2) compost-not-delete — mark wrong-but-historically-useful
+    content Deprecated with a pointer to its replacement rather than erasing it.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/review-and-maturity.md
+    transformation: summarized
+    authorship: ai-assisted

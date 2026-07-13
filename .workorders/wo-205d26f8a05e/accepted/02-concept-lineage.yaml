@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: Infrastructure Follows Function
+  type: concept-lineage
+  short_description: >-
+    Before choosing a knowledge-management tool, ask what work this part of the
+    commons needs to do (explain a concept, inventory resources, track
+    decisions, publish a guide) and pick the substrate that fits that job — not
+    the tool with the nicest landing page. Corollary: no single tool needs to do
+    everything; a healthy commons is usually a hybrid.
+  source_traditions:
+    - Regen Knowledge Commons Toolkit, Layer 10 (Infrastructure & Substrate)
+  toolkit_usage: >-
+    Used as the article's governing principle for its tool-by-job directory, and
+    again for its public/internal/private visibility-tier mapping (each tier
+    gets its own substrate rather than one tool for everything).
+  adjacent_meanings:
+    - >-
+      the portability test — "would your knowledge survive the tool dying?"
+      (plain-text/Git as the durable baseline, everything else as a publishing
+      or collaboration layer on top)
+  important_distinctions:
+    - >-
+      A tool can make a workflow easier, but it can also distort the commons
+      around its own assumptions — infrastructure should serve the work, not the
+      reverse.
+  risks_of_flattening: >-
+    Picking a tool for its polish or landing page rather than the specific job
+    (explaining, inventorying, tracking, publishing) it needs to do — the
+    article names this as the most common way commons rot.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-tools-directory.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-205d26f8a05e
+  source_lineage: knowledge-tools-directory.md
