@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadSchema, isValid } from '../src/index.mjs';
+import { isAwaitingReview } from '../src/util.mjs';
 
 // K1 / R1: the canonical state model is THREE orthogonal axes (not one ladder).
 test('review-maturity defines the three orthogonal axes', () => {
@@ -27,4 +28,11 @@ test('deployment readiness L0–L6 crosswalks to maturity', () => {
   const s = loadSchema('review-maturity');
   assert.equal(s.crosswalks.deployment_readiness['L5-reviewed-deployment'], 'reviewed');
   assert.equal(s.crosswalks.deployment_readiness['L0-idea'], 'raw');
+});
+
+test('maturity axis includes held', () => {
+  assert.equal(isValid('maturity', 'held'), true);
+});
+test('held objects are awaiting review', () => {
+  assert.equal(isAwaitingReview({ maturity: 'held' }), true);
 });

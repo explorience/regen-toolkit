@@ -11,6 +11,7 @@ axes:
     description: How developed and trustworthy the content itself is.
     values:
       - raw                  # captured, unprocessed
+      - held                 # early pre-triage: parked for review before further processing
       - draft                # written but not source-linked
       - candidate            # proposed for inclusion
       - source-linked        # has provenance/citations

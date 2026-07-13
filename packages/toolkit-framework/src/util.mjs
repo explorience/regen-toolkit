@@ -10,7 +10,7 @@ export function slugify(s) {
 
 /** The single definition of "awaiting review" — used by reviewQueue AND the derived index. */
 export function isAwaitingReview(object) {
-  return object.maturity === 'raw' || object.ai_assisted === true;
+  return object.maturity === 'raw' || object.maturity === 'held' || object.ai_assisted === true;
 }
 
 /**
