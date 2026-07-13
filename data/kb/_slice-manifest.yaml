@@ -1,0 +1,79 @@
+# Representative slice for the 2026-07-16 self-ingestion demo (framework-validation-pass V2).
+# 19 of the 119 live articles, chosen to exercise EVERY ingestible object type + the four
+# known edge cases. NOT the full 119 — that run resumes post-demo once V1 fixes are confirmed.
+# Sampled across all 3 journeys, weighted toward the Knowledge-Commons journey (most on-theme
+# for the toolkit team + the richest typed-object yield).
+selected: 2026-07-14
+count: 19
+articles:
+  # — Newcomer journey —
+  - slug: what-is-blockchain
+    journey: newcomer
+    covers: [concept, encyclopedia-entry]
+  - slug: what-is-decentralization
+    journey: newcomer
+    covers: [concept, title-collision]     # pairs with decentralization-spectrum → "Decentralization"
+  - slug: what-is-wallet
+    journey: newcomer
+    covers: [concept, encyclopedia-entry]
+  - slug: what-is-refi
+    journey: newcomer
+    covers: [concept, source-system, enum-fallback]   # references the ReFi DAO ecosystem/blog
+  - slug: common-scams
+    journey: newcomer
+    covers: [claim-evidence, encyclopedia-entry]
+  # — Local-node journey —
+  - slug: minimum-viable-node
+    journey: local-node
+    covers: [track, playbook]
+  - slug: first-90-days
+    journey: local-node
+    covers: [track, playbook]
+  - slug: treasury-management
+    journey: local-node
+    covers: [resource, capital-heavy]
+  - slug: funding-landscape
+    journey: local-node
+    covers: [resource, capital-heavy]
+  - slug: gitcoin-grants-qf
+    journey: local-node
+    covers: [resource, source-system]      # Gitcoin as a platform/source
+  # — Knowledge-Commons journey (the on-theme heart) —
+  - slug: source-systems
+    journey: knowledge-commons
+    covers: [source-system, concept]        # the article literally about source systems
+  - slug: knowledge-tools-directory
+    journey: knowledge-commons
+    covers: [resource, source-system]       # Obsidian/Quartz/GitHub/LinkML — a named-tool guide
+  - slug: ontology-vs-taxonomy
+    journey: knowledge-commons
+    covers: [concept]
+  - slug: review-and-maturity
+    journey: knowledge-commons
+    covers: [concept]                       # maps to K1 — most on-theme
+  - slug: federation-portability
+    journey: knowledge-commons
+    covers: [concept]                       # KOI/federation — on-theme
+  - slug: why-measurement-matters
+    journey: knowledge-commons
+    covers: [claim-evidence, signal]
+  # — Explicit edge-case articles —
+  - slug: gatherings-pattern
+    journey: local-node
+    covers: [pattern, function-collision]   # "The Gatherings Pattern" — pattern-as-type vs value
+  - slug: case-studies-nonprofits
+    journey: local-node
+    covers: [case-study, function-collision]
+  - slug: decentralization-spectrum
+    journey: newcomer
+    covers: [concept, title-collision]      # pairs with what-is-decentralization
+edge_cases:
+  capital_heavy: [treasury-management, funding-landscape]
+  function_collision: [gatherings-pattern, case-studies-nonprofits]
+  enum_fallback: [what-is-refi, source-systems, knowledge-tools-directory]  # verify a source lands as blog/publication, not database
+  title_collision: [what-is-decentralization, decentralization-spectrum]    # both → a "Decentralization" concept → B5 guard must keep both
+notes: >
+  Selection rationale so the diff can honestly say "representative subset, chosen to
+  exercise every object type + the four edge cases." The enum-fallback edge is emergent
+  (depends on how the ingest agent types the referenced sources) — verified at store time
+  in V2.4/V2.5, not guaranteed by a single article.
