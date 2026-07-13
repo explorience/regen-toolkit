@@ -1,3 +1,7 @@
+> **⛔ SUPERSEDED 2026-07-14** by [`framework-validation-pass`](../framework-validation-pass.md).
+> Its live scope is absorbed there (V2/V3 for content-through-framework + the site page; the resource
+> lift is post-Jul-16, gated on the `held` state). Kept as historical record — do not execute.
+
 # Process Toolkit Content Through the Framework + Public Site — Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: use `superpowers:subagent-driven-development` (recommended) or `superpowers:executing-plans` to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax. **Run in a dedicated session** (this plan was prepared in a planning session).

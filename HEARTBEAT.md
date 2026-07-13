@@ -12,6 +12,16 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 > **2026-06-16 checkpoint.** Gap-fill (260521 + 260604 biweeklies) processed; **new master doc 2026-06-15 working iteration** is canonical (30,847 lines — integration pass, 10-layer core stable; see [`docs/MASTER-DOC-CHANGES-2026-06-15.md`](docs/MASTER-DOC-CHANGES-2026-06-15.md)); **resource DB V3** staged at [`data/resources/`](data/resources/). **Convergence is parked behind an operator checkpoint** (site merge, branch cleanup, framework/instance split, full resource lift) — see ⏸ section below.
 
+### Framework Validation Pass — self-ingestion + Jul 16 demo _(ACTIVE 2026-07-14)_
+
+> Master plan: [`docs/plans/framework-validation-pass.md`](docs/plans/framework-validation-pass.md). Demo **Thu Jul 16**. Symmetric to the ReFi DAO `kms-koi-pipeline`. Design + implementation: [`docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md`](docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md) + [`...-2026-07-14-...-implementation.md`](docs/plans/framework-build/2026-07-14-framework-validation-pass-implementation.md).
+
+- [ ] **V0 — consolidate the plan surface** (master plan · 3 stale plans archived · QUEUE/HEARTBEAT reconciled). ▶ in progress.
+- [ ] **V1 — kernel fixes** (framework, TDD, keep 100/100): source-system enum (+`blog`/`publication`) · `held` maturity state · `track.outcome`→array · **B5 silent-overwrite guard** (the ReFi DAO data-loss-at-scale bug). V1.4 gates any real ingest.
+- [ ] **V2 — slice self-ingestion** — ~15–20 articles → real `ingest` pipeline → `data/kb/` (repo-data adapter).
+- [ ] **V3 — three artifacts** — live page + Obsidian canvas + diff report.
+- [ ] **V4 — capital `update-proposal`** (draft-only, to shape with Matty).
+
 ### org-os KMS shipped + ontology comparison — DONE _(2026-07-05)_
 
 **`@org-os/kms` built + installed** — the org-os binding for the 0.2 "machine." Advances P9 (deploy→ReFi DAO) + the framework-as-package direction.
@@ -82,7 +92,7 @@ Executing the [framework build plan](docs/plans/framework-build/README.md) (SP0�
 - [x] **SP5** — 8 process docs (R6/R8/R10 ✅) · **SP6** — 3 agentic skills (capture-and-route, compose-journey, csis-review) · **SP7** — resource lift ETL · **SP8** — invariants validators · **SP9** — architecture + site docs (R4/R5 ✅)
 - [x] **SP10** — `packages/org-os-kms` (module + org-os profile, framework pre-loaded; replaceable)
 - [x] **✅ FRAMEWORK FULLY BUILT (SP0–SP10):** toolkit-framework **34/34 tests**, 21 schemas, 3 skills; org-os-kms 2/2. All R1–R10 resolved.
-- [~] **★ Process toolkit content through the framework + public site** — site half DONE (framework + regen-toolkit-os pages live, now reflecting 0.2 the machine). **Week 1 next:** run Heenal's live content through the **0.2 ingestion pipeline** (`init --existing` → `ingest` → review) → populate the instance KB — the real self-ingestion, now that the machine exists.
+- [~] **★ Process toolkit content through the framework + public site** — site half DONE (framework + regen-toolkit-os pages live, now reflecting 0.2 the machine). **Week 1 next:** run Heenal's live content through the **0.2 ingestion pipeline** (`init --existing` → `ingest` → review) → populate the instance KB — the real self-ingestion, now that the machine exists. → now driven by [`framework-validation-pass`](docs/plans/framework-validation-pass.md) (V2 slice first, full 119 post-demo).
 - [ ] **SP11 — first ReFi DAO adoption** (the dialectic / pipeline P9): `init` the framework into `../refi-dao-os` **from the public repo** (proves portability), process podcasts/blog through the pipeline, contribute back → framework v0.2.x. **org-os-kms → real module** developed against this adoption. *Week 1, after the reference-instance self-ingestion above.*
 - [ ] **Batch the R1–R10 master-doc proposals** for Matty (Loop 2 — draft-and-present) + confirm with Durgadas/Rather at the biweekly
 

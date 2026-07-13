@@ -1,3 +1,7 @@
+> **⛔ SUPERSEDED 2026-07-14** by [`framework-validation-pass`](../framework-validation-pass.md).
+> The 698-row lift is post-Jul-16, gated on V1's `held` maturity state landing first. Crosswalk detail
+> preserved at `data/resources/csv/toolkit-layer-crosswalk.csv`. Kept as historical record — do not execute.
+
 # P2 — Resource DB V3 Lift
 
 > **Status:** ready · **Wave:** 1 · **Owner:** Luiz (+ Brandon curation) · **Skills:** `superpowers:test-driven-development`; data engineering

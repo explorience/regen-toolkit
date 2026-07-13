@@ -1,6 +1,7 @@
 # Plan Queue — Toolkit (instance plans)
 
-> Last updated: 2026-07-05
+> Last updated: 2026-07-14 (framework-validation-pass consolidated → active; 3 plans archived)
+> Prior: 2026-07-05
 >
 > **2026-07-05 — org-os-kms built + installed; ontology comparison.** Built **`@org-os/kms`** (the org-os binding for the 0.2 framework — module + profile, 44 tests, subagent-driven TDD); installed in regen-toolkit + promoted to canonical org-os (`v0.5`) + a **ReFi DAO pilot** (`init` + Quartz config). Ran the **Heenal↔framework ontology comparison** → **HYBRID** (adopt the framework backbone; contribute the 8 Forms of Capital back to the kernel; 119 articles reprocess 1:1). This delivers a big chunk of **[site-and-content-convergence](site-and-content-convergence.md)** — the framework-typing + comparison half; the site-fork half is separate. New plans: `2026-07-05-org-os-kms-{design,implementation,per-instance-adoption}.md`, `2026-07-05-ontology-comparison-plan.md`. Report: `docs/reports/2026-07-05-ontology-comparison.md`.
 >
@@ -18,8 +19,9 @@ Toolkit-instance work plans. Strategic / network-level plans live in `regen-coor
 
 ## Active
 
-0. **[CONVERGENCE-PIPELINE](CONVERGENCE-PIPELINE.md) — ★ ACTIVE 2026-06-16.** The roadmap converging everything into a **framework + instances** model on the new `regen-toolkit-os` branch. Branch consolidation + v1 site merge **done**. Waves: **D1** architecture decision (gates P1) · **P1** framework/instance split (active; `framework/` scaffolded) · **P2** resource-DB V3 lift · **P3** group prototype · **P4** theory of change · **P5** CSIS posture · **P6** RegenOS docs · **P7** hub post · **P8** governance/Impact Vault · **P9** deploy→ReFi DAO · **P10** deploy→ReFi BCN/network. Each plan developed individually with its own skills (see the pipeline table).
-1. [master-doc-iteration-may-15-2026](master-doc-iteration-may-15-2026.md) — **ACTIVE 2026-05-15.** Integrate the 2026-05-15 stabilization-draft iteration. Phase A (save + archive) done. Phase B (10 per-layer docs) done. Phase C (10 layer canvases) done. Phase D (master canvas) done. Phase E (structured refactor against new iteration) + Phase F (repo dev infrastructure) sequenced post-2026-05-21 biweekly. Phase G (site IA) deferred.
+0. **[framework-validation-pass](framework-validation-pass.md) — ★ ACTIVE 2026-07-14 (TIME-CRITICAL, demo Thu Jul 16).** Run the toolkit through its own 0.2 machine (representative slice) + kernel fixes + 3 artifacts + a staged capital proposal. Consolidates site-and-content-convergence · framework-instance-split · resource-db-v3-lift (archived); executes CONVERGENCE-PIPELINE P2/P3. Design + implementation plans in [`docs/plans/framework-build/`](framework-build/).
+1. **[CONVERGENCE-PIPELINE](CONVERGENCE-PIPELINE.md) — ★ ACTIVE 2026-06-16.** The roadmap converging everything into a **framework + instances** model on the new `regen-toolkit-os` branch. Branch consolidation + v1 site merge **done**. Waves: **D1** architecture decision (gates P1) · **P1** framework/instance split (active; `framework/` scaffolded) · **P2** resource-DB V3 lift · **P3** group prototype · **P4** theory of change · **P5** CSIS posture · **P6** RegenOS docs · **P7** hub post · **P8** governance/Impact Vault · **P9** deploy→ReFi DAO · **P10** deploy→ReFi BCN/network. Each plan developed individually with its own skills (see the pipeline table).
+2. [master-doc-iteration-may-15-2026](master-doc-iteration-may-15-2026.md) — **ACTIVE 2026-05-15.** Integrate the 2026-05-15 stabilization-draft iteration. Phase A (save + archive) done. Phase B (10 per-layer docs) done. Phase C (10 layer canvases) done. Phase D (master canvas) done. Phase E (structured refactor against new iteration) + Phase F (repo dev infrastructure) sequenced post-2026-05-21 biweekly. Phase G (site IA) deferred.
 
 ## Pending operator action
 
@@ -27,7 +29,8 @@ _(none currently — sharing pack sent 2026-05-06)_
 
 ## Queued — high-priority
 
-0. **[site-and-content-convergence](site-and-content-convergence.md) — ★ NEW 2026-06-17, READY FOR A DEDICATED SESSION.** Process the current toolkit content (Heenal's live v1 site + other branches via `archive/*` tags + the V3 resource DB) **through the now-built framework** → populate the instance's `data/` with framework-typed objects (resources, source-systems, encyclopedia entries, concepts, tracks); then **fork/extend Heenal's site** with a **framework page** + a **regen-toolkit-os instance page** on `regen-toolkit-os`. The first real adoption (SP11 rehearsal on the reference instance) + the public face of the framework/instance split. Execute via subagent-driven-development.
+> **[site-and-content-convergence]** — SUPERSEDED 2026-07-14 by [framework-validation-pass](framework-validation-pass.md); moved to `archive/`. Its scope (content-through-framework + site fork) is now V2/V3 there.
+
 1. [regen-os-documentation](regen-os-documentation.md) — **NEW 2026-06-15.** RegenOS documentation + a simple public website (target **July**). Origin: Matty + Luiz work session — RegenOS is referenced only vaguely in the master doc and needs a concrete write-up. Phase 3 distills the three external Google-Doc contributions (RegenOS description, OrgOS link, infra-stack write-up) from the internal docs (draft-and-present). Threads with the framework/instance split + ReFi Commons home.
 2. [swarm-contribution-pack](swarm-contribution-pack.md) — **NEW 2026-05-06.** v0.1 contribution pack for the Knowledge Commoning Swarm. Pulse 1 happened 2026-05-09–10 (retro owed). 7 short deliverables packaging Toolkit distinctions. Realistic v0.1 scope: 3–4 deliverables. **Stream #4 (Implementation Memory) now co-authored with Koi (Bonfires substrate).**
 

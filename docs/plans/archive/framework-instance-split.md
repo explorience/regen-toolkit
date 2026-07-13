@@ -1,3 +1,7 @@
+> **⛔ SUPERSEDED 2026-07-14** by [`framework-validation-pass`](../framework-validation-pass.md).
+> The split is real (the framework is extracted as a package); residual conceptual items are absorbed
+> there. Kept as historical record — do not execute.
+
 # P1 — Framework / Instance Separation
 
 > **Status:** active · **Wave:** 1 · **Owner:** Luiz · **Branch:** `regen-toolkit-os`
