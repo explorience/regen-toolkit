@@ -1,6 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import yamlLib from 'js-yaml';
 import { listSchemas, loadSchema, validateObject } from '../src/index.mjs';
+
+const goodSource = yamlLib.load(
+  readFileSync(new URL('./fixtures/candidates/good-source-system.yaml', import.meta.url), 'utf8')
+).object;
 
 test('all schemas load and are well-formed (id + version)', () => {
   const names = listSchemas();
@@ -56,4 +62,13 @@ test('signal + public-use-boundary enums validate', () => {
   // public-use-boundary is a mixin block (no frontmatter), only `tier` required
   assert.equal(validateObject('public-use-boundary', { tier: 'restricted-working-notes' }).valid, true);
   assert.equal(validateObject('public-use-boundary', { tier: 'totally-public' }).valid, false);
+});
+
+test('source-system accepts type: blog', () => {
+  const r = validateObject('source-system', { ...goodSource, type: 'blog' });
+  assert.equal(r.valid, true, r.errors.join('; '));
+});
+test('source-system accepts type: publication', () => {
+  const r = validateObject('source-system', { ...goodSource, type: 'publication' });
+  assert.equal(r.valid, true, r.errors.join('; '));
 });
