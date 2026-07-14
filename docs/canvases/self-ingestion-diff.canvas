@@ -1,34 +1,246 @@
 {
-	"nodes":[
-		{"id":"lane-input","type":"group","label":"① INPUT","x":-1250,"y":-550,"width":650,"height":1000,"color":"1"},
-		{"id":"lane-machine","type":"group","label":"② THE MACHINE","x":-450,"y":-550,"width":700,"height":1450,"color":"4"},
-		{"id":"lane-output","type":"group","label":"③ OUTPUT","x":350,"y":-550,"width":700,"height":850,"color":"2"},
-
-		{"id":"input-header","type":"text","text":"① INPUT — representative slice (19 of 119 live articles)","x":-1150,"y":-450,"width":480,"height":120,"color":"1"},
-		{"id":"in-file-1","type":"file","file":"src/content/docs/what-is-decentralization.md","x":-1150,"y":-300,"width":450,"height":80,"color":"1"},
-		{"id":"in-file-2","type":"file","file":"src/content/docs/knowledge-tools-directory.md","x":-1150,"y":-100,"width":450,"height":80,"color":"1"},
-		{"id":"in-file-3","type":"file","file":"src/content/docs/source-systems.md","x":-1150,"y":100,"width":450,"height":80,"color":"1"},
-		{"id":"in-file-4","type":"file","file":"src/content/docs/treasury-management.md","x":-1150,"y":300,"width":450,"height":80,"color":"1"},
-
-		{"id":"machine-header","type":"text","text":"② THE 0.2 MACHINE — capture → review → publish","x":-400,"y":-450,"width":600,"height":100,"color":"4"},
-		{"id":"m-prepare","type":"text","text":"`ingest prepare` → 19 work orders","x":-400,"y":-300,"width":600,"height":120,"color":"4"},
-		{"id":"m-decompose","type":"text","text":"agents decompose → candidate objects (per work order)","x":-400,"y":-100,"width":600,"height":140,"color":"4"},
-		{"id":"m-accept","type":"text","text":"accept gate — born-rules: `maturity: raw` · `ai_assisted: true` · `provenance.origin`","x":-400,"y":120,"width":600,"height":160,"color":"4"},
-		{"id":"m-store","type":"text","text":"`store` → data/kb/ (repo-data adapter)","x":-400,"y":360,"width":600,"height":120,"color":"4"},
-		{"id":"m-b5","type":"text","text":"🛡 B5 overwrite guard — distinct objects sharing a title-slug never clobber (surfaced by the ReFi DAO run, fixed in the framework). This slice: `decentralization` + `obsidian` each appeared twice → both preserved.","x":-400,"y":560,"width":600,"height":260,"color":"5"},
-
-		{"id":"output-header","type":"text","text":"③ OUTPUT — 154 typed objects (data/kb/), all `raw`, 155 in review queue, nothing promoted","x":400,"y":-450,"width":600,"height":140,"color":"2"},
-		{"id":"output-counts","type":"text","text":"resource 48 · claim-evidence 33 · concept-lineage 30 · encyclopedia-entry 18 · public-use-boundary 9 · signal 9 · source-system 6 · track 2","x":400,"y":-280,"width":600,"height":160,"color":"2"},
-		{"id":"output-before-after","type":"text","text":"before → after: 1 → 155 typed objects","x":400,"y":-80,"width":600,"height":100,"color":"2"},
-		{"id":"output-index","type":"file","file":"data/kb/index.json","x":400,"y":80,"width":500,"height":80,"color":"2"}
+	"nodes": [
+		{
+			"id": "lane-input",
+			"type": "group",
+			"label": "① INPUT",
+			"x": -1250,
+			"y": -550,
+			"width": 650,
+			"height": 1000,
+			"color": "1"
+		},
+		{
+			"id": "lane-machine",
+			"type": "group",
+			"label": "② THE MACHINE",
+			"x": -450,
+			"y": -550,
+			"width": 700,
+			"height": 1450,
+			"color": "4"
+		},
+		{
+			"id": "lane-output",
+			"type": "group",
+			"label": "③ OUTPUT",
+			"x": 350,
+			"y": -550,
+			"width": 700,
+			"height": 850,
+			"color": "2"
+		},
+		{
+			"id": "input-header",
+			"type": "text",
+			"text": "① INPUT — the full corpus — 119 live articles",
+			"x": -1150,
+			"y": -450,
+			"width": 480,
+			"height": 120,
+			"color": "1"
+		},
+		{
+			"id": "in-file-1",
+			"type": "file",
+			"file": "src/content/docs/what-is-decentralization.md",
+			"x": -1150,
+			"y": -300,
+			"width": 450,
+			"height": 80,
+			"color": "1"
+		},
+		{
+			"id": "in-file-2",
+			"type": "file",
+			"file": "src/content/docs/knowledge-tools-directory.md",
+			"x": -1150,
+			"y": -100,
+			"width": 450,
+			"height": 80,
+			"color": "1"
+		},
+		{
+			"id": "in-file-3",
+			"type": "file",
+			"file": "src/content/docs/source-systems.md",
+			"x": -1150,
+			"y": 100,
+			"width": 450,
+			"height": 80,
+			"color": "1"
+		},
+		{
+			"id": "in-file-4",
+			"type": "file",
+			"file": "src/content/docs/treasury-management.md",
+			"x": -1150,
+			"y": 300,
+			"width": 450,
+			"height": 80,
+			"color": "1"
+		},
+		{
+			"id": "machine-header",
+			"type": "text",
+			"text": "② THE 0.2 MACHINE — capture → review → publish",
+			"x": -400,
+			"y": -450,
+			"width": 600,
+			"height": 100,
+			"color": "4"
+		},
+		{
+			"id": "m-prepare",
+			"type": "text",
+			"text": "`ingest prepare` → 119 work orders",
+			"x": -400,
+			"y": -300,
+			"width": 600,
+			"height": 120,
+			"color": "4"
+		},
+		{
+			"id": "m-decompose",
+			"type": "text",
+			"text": "agents decompose → candidate objects (per work order)",
+			"x": -400,
+			"y": -100,
+			"width": 600,
+			"height": 140,
+			"color": "4"
+		},
+		{
+			"id": "m-accept",
+			"type": "text",
+			"text": "accept gate — born-rules: `maturity: raw` · `ai_assisted: true` · `provenance.origin`",
+			"x": -400,
+			"y": 120,
+			"width": 600,
+			"height": 160,
+			"color": "4"
+		},
+		{
+			"id": "m-store",
+			"type": "text",
+			"text": "`store` → data/kb/ (repo-data adapter)",
+			"x": -400,
+			"y": 360,
+			"width": 600,
+			"height": 120,
+			"color": "4"
+		},
+		{
+			"id": "m-b5",
+			"type": "text",
+			"text": "🛡 B5 overwrite guard — distinct objects sharing a title-slug never clobber (surfaced by the ReFi DAO run, fixed in the framework). Full corpus: 65 objects shared a title-slug → all preserved for review (65 would-be silent losses).",
+			"x": -400,
+			"y": 560,
+			"width": 600,
+			"height": 260,
+			"color": "5"
+		},
+		{
+			"id": "output-header",
+			"type": "text",
+			"text": "③ OUTPUT — 722 typed objects (data/kb/), all `raw`, 714 in review queue, nothing promoted",
+			"x": 400,
+			"y": -450,
+			"width": 600,
+			"height": 140,
+			"color": "2"
+		},
+		{
+			"id": "output-counts",
+			"type": "text",
+			"text": "resource 226 · claim-evidence 146 · concept-lineage 143 · encyclopedia-entry 116 · public-use-boundary 34 · signal 33 · source-system 21 · track 3",
+			"x": 400,
+			"y": -280,
+			"width": 600,
+			"height": 160,
+			"color": "2"
+		},
+		{
+			"id": "output-before-after",
+			"type": "text",
+			"text": "before → after: 1 → 722 typed objects",
+			"x": 400,
+			"y": -80,
+			"width": 600,
+			"height": 100,
+			"color": "2"
+		},
+		{
+			"id": "output-index",
+			"type": "file",
+			"file": "data/kb/index.json",
+			"x": 400,
+			"y": 80,
+			"width": 500,
+			"height": 80,
+			"color": "2"
+		}
 	],
-	"edges":[
-		{"id":"e1","fromNode":"input-header","fromSide":"right","toNode":"m-prepare","toSide":"left","label":"prepare","color":"1"},
-		{"id":"e2","fromNode":"m-prepare","fromSide":"bottom","toNode":"m-decompose","toSide":"top","label":"decompose","color":"4"},
-		{"id":"e3","fromNode":"m-decompose","fromSide":"bottom","toNode":"m-accept","toSide":"top","label":"accept","color":"4"},
-		{"id":"e4","fromNode":"m-accept","fromSide":"bottom","toNode":"m-store","toSide":"top","label":"store","color":"4"},
-		{"id":"e5","fromNode":"m-store","fromSide":"right","toNode":"output-header","toSide":"left","label":"publish","color":"2"},
-		{"id":"e6","fromNode":"m-store","fromSide":"bottom","toNode":"m-b5","toSide":"top","label":"guard","color":"5"}
+	"edges": [
+		{
+			"id": "e1",
+			"fromNode": "input-header",
+			"fromSide": "right",
+			"toNode": "m-prepare",
+			"toSide": "left",
+			"label": "prepare",
+			"color": "1"
+		},
+		{
+			"id": "e2",
+			"fromNode": "m-prepare",
+			"fromSide": "bottom",
+			"toNode": "m-decompose",
+			"toSide": "top",
+			"label": "decompose",
+			"color": "4"
+		},
+		{
+			"id": "e3",
+			"fromNode": "m-decompose",
+			"fromSide": "bottom",
+			"toNode": "m-accept",
+			"toSide": "top",
+			"label": "accept",
+			"color": "4"
+		},
+		{
+			"id": "e4",
+			"fromNode": "m-accept",
+			"fromSide": "bottom",
+			"toNode": "m-store",
+			"toSide": "top",
+			"label": "store",
+			"color": "4"
+		},
+		{
+			"id": "e5",
+			"fromNode": "m-store",
+			"fromSide": "right",
+			"toNode": "output-header",
+			"toSide": "left",
+			"label": "publish",
+			"color": "2"
+		},
+		{
+			"id": "e6",
+			"fromNode": "m-store",
+			"fromSide": "bottom",
+			"toNode": "m-b5",
+			"toSide": "top",
+			"label": "guard",
+			"color": "5"
+		}
 	],
-	"metadata":{"name":"Self-ingestion diff","generated":"2026-07-14","slice":19,"objects":154}
+	"metadata": {
+		"name": "Self-ingestion diff",
+		"generated": "2026-07-14",
+		"slice": 119,
+		"objects": 722
+	}
 }

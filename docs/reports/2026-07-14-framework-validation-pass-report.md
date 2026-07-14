@@ -13,7 +13,7 @@ run through its own machine."* In one focused pass we:
 
 - **Consolidated the plan surface** — one master plan (`framework-validation-pass`) now governs the arc; three overlapping plans were archived.
 - **Landed the four kernel fixes** the ingestion needed — including the **B5 silent-overwrite guard**, the real data-loss-at-scale bug the ReFi DAO run surfaced. Framework tests: **100 → 110, all green.**
-- **Ran the toolkit's own content through the real 0.2 pipeline** — a validated 19-article slice produced **154 typed objects**; the **full 119-article run is underway** (see §4).
+- **Ran the toolkit's own content through the real 0.2 pipeline** — validated on a 19-article slice, then ran the **full 119 articles → 722 typed objects** in `data/kb/`, all `raw` and review-gated (see §4). The B5 guard preserved **65 title-collisions** the old code would have silently destroyed.
 - **Produced three shareable artifacts** — a live web page, an Obsidian canvas, and an honest diff report — plus a **staged 8-Forms-of-Capital contribute-back proposal** for Matt.
 - **Deployed the live page** to the GitHub Pages preview.
 
@@ -52,11 +52,13 @@ cases, run through the real `ingest` pipeline (capture → accept-gate → store
 - Edge cases landed: the B5 guard preserved same-title collisions; the widened enum typed real blogs/publications; the machine unprompted flagged `public-use-boundary` objects for cultural/Indigenous attribution and `signal` objects for missing return-paths and unsourced figures.
 - Full detail: [`docs/reports/2026-07-13-self-ingestion-diff.md`](2026-07-13-self-ingestion-diff.md).
 
-**Full 119 run:** **underway as of this report** — the remaining 100 articles are prepared as work
-orders and being ingested by parallel runners; the numbers above will grow to the full corpus. (This
-was originally sequenced post-demo; pulled forward at the operator's request so the call sees the
-whole corpus, not just the slice. All objects remain `raw` and review-gated — the human review pass is
-still owed and un-bypassed.)
+**Full 119 run:** **complete.** All 119 articles ran through the real pipeline → **`data/kb` total
+1 → 722 typed objects.** Full corpus by type: resource 226 · claim-evidence 146 · concept-lineage 143
+· encyclopedia-entry 116 · public-use-boundary 34 · signal 33 · source-system 21 · track 3. **The B5
+guard preserved 65 title-collisions** across the corpus — 65 objects the old code would have silently
+clobbered, now kept as distinct objects for review. (Pulled forward from post-demo at the operator's
+request so the call sees the whole corpus. Everything remains `raw` and review-gated — the human
+review pass, which merges genuine duplicates and checks claims, is still owed and un-bypassed.)
 
 ## 5 · The artifacts (V3) + capital proposal (V4)
 

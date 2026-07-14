@@ -5,20 +5,22 @@
 
 > **What this is.** For the first time, the current toolkit's *own* content was run through the 0.2
 > machine's real `ingest` pipeline (capture → accept-gate → store) — not the June v0.1 heuristic, not
-> a mapping exercise. This is a **representative slice: 19 of the 119 live articles**, deliberately
-> chosen to exercise every object type + four known edge cases. The full 119 run resumes next, once
-> the kernel fixes below are confirmed. The honest word is *slice* — see §5.
+> a mapping exercise. We **validated on a 19-article slice** (every object type + four edge cases),
+> then ran the **full 119-article corpus → 722 typed objects**. The per-type table below (§2) shows
+> the validated slice as the sample; the full-corpus totals are in §1. Everything is `raw` — see §5.
 
 ## 1 · Before → after
 
 | | typed objects | source |
 |---|---|---|
 | **Before** (`data/kb/_baseline-index.json`) | **1** | just the `regen-toolkit` self source-system card |
-| **After** (`data/kb/index.json`) | **155** | self-card + **154 new objects** from the 19-article slice |
+| **After — validated slice** | **155** | self-card + 154 objects from the 19-article slice |
+| **After — full 119 corpus** | **722** | the whole site re-typed through the machine |
 
-All 154 are `maturity: raw`, `ai_assisted: true`, each with `provenance.origin`. **155 in the review
-queue; 0 promoted** — a human reviews before anything is published (that's a separate `review promote`
-session, by design).
+Full-corpus by type: resource 226 · claim-evidence 146 · concept-lineage 143 · encyclopedia-entry 116
+· public-use-boundary 34 · signal 33 · source-system 21 · track 3. All `maturity: raw`,
+`ai_assisted: true`, each with `provenance.origin`. **714 in the review queue; 0 promoted** — a human
+reviews before anything is published (a separate `review promote` session, by design).
 
 ## 2 · Per-type breakdown (what the machine produced)
 
@@ -39,14 +41,14 @@ designed). Ingestion ran as 4 parallel agents over the 19 sources.
 
 ## 3 · The edge cases — what the machine caught that a heuristic wouldn't
 
-- **The overwrite guard (B5) fired on real data.** `what-is-decentralization` and
-  `decentralization-spectrum` *both* produced a "Decentralization" `concept-lineage`; `Obsidian`
-  appeared as a resource from two articles. The store keys them by title-slug — so **before this
-  week's fix, the second would have silently clobbered the first: real, invisible knowledge loss.**
-  The guard preserved both (`decentralization-ae8ffd00`, `obsidian-256b900d`) and reported the
-  collision. This bug was surfaced by the **ReFi DAO run at scale**, fixed in the framework this week,
-  and the toolkit's own self-ingestion is the first beneficiary — the federation feedback loop working
-  end to end.
+- **The overwrite guard (B5) fired on real data — 65 times across the full corpus.** 65 objects
+  shared a title-slug with another (e.g. "Decentralization" from `what-is-decentralization` +
+  `decentralization-spectrum`; `Obsidian` from several tool articles). The store keys objects by
+  title-slug — so **before this week's fix, each later one would have silently clobbered the earlier:
+  65 real, invisible knowledge losses.** The guard preserved every one (hash-suffixed keys) and
+  reported the collisions for the human reviewer to merge intentionally. This bug was surfaced by the
+  **ReFi DAO run at scale**, fixed in the framework this week, and the toolkit's own self-ingestion is
+  the first beneficiary — the federation feedback loop working end to end.
 - **Source typing used the widened enum.** Three sources landed as first-class `blog`/`publication`
   types — `Greenpill Network → blog`, `Chainalysis Crypto Crime Report → publication`,
   `CryptoAltruists Web3 Impact Toolkit → publication` — where before this week's enum fix they'd have
@@ -74,8 +76,9 @@ These become the post-demo fix round and feed the Jul-14 ReFi DAO architecture c
 
 ## 5 · Honest caveats (nothing overclaimed)
 
-- **It's a slice, not the corpus.** 19 of 119 articles. The full 119 self-ingestion is the next phase,
-  gated on confirming the fixes above. The counts here are a representative sample, not the whole.
+- **Slice validated first, then the full corpus.** We ran a 19-article slice to validate, then the
+  full 119 (722 objects). The §2 per-type table is the slice sample; §1 carries the full-corpus totals.
+  The full run reused the same fixes — no scaled ingest before they were confirmed.
 - **The "capital-heavy" articles weren't 8-forms-of-capital.** `treasury-management` and
   `funding-landscape` turned out crypto-financial (stablecoins, treasury, lending), not the
   regenerative 8-forms language. So this slice does **not** vividly demonstrate the capital gap — that

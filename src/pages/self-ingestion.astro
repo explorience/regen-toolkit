@@ -33,15 +33,15 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
         The toolkit,<br />run through its own machine.
       </h1>
       <p class="in-hero__lede reveal" data-d="3">
-        A <strong>representative slice of 19 of the 119 live articles</strong> was pointed at the
-        real 0.2 ingestion pipeline — <strong>capture → accept-gate → store</strong> — the same
-        machine described on <a href={withBase("/framework/")}>the framework page</a>. The full
-        119-article run resumes next; this slice is the proof it works end to end first. Every
-        object that came out is <code>raw</code> and sitting in the review queue — nothing has
-        been promoted. A human reviews before anything is published.
+        <strong>All 119 live articles</strong> were pointed at the real 0.2 ingestion pipeline —
+        <strong>capture → accept-gate → store</strong> — the same machine described on
+        <a href={withBase("/framework/")}>the framework page</a>. We validated on a 19-article
+        slice first, then ran the whole corpus. Every object that came out is <code>raw</code> and
+        sitting in the review queue — nothing has been promoted. A human reviews before anything is
+        published.
       </p>
       <div class="in-hero__meta reveal" data-d="4">
-        <span class="chip chip--clay">19 of 119 articles</span>
+        <span class="chip chip--clay">119 articles</span>
         <span class="in-hero__metasep" aria-hidden="true"></span>
         <span>0.2 pipeline</span>
         <span class="in-hero__metasep" aria-hidden="true"></span>
@@ -74,7 +74,7 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
         <li class="in-stat">
           <span class="in-stat__n">{afterTotal}</span>
           <span class="in-stat__label">typed objects, after</span>
-          <span class="in-stat__desc">The 19-article slice, run through capture → accept-gate → store, read from the resulting index.</span>
+          <span class="in-stat__desc">All 119 articles, run through capture → accept-gate → store, read from the resulting index.</span>
         </li>
       </ul>
 
@@ -92,7 +92,7 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
         <p class="eyebrow">The type breakdown</p>
         <h2 class="in-h2">What the slice came out as.</h2>
         <p>
-          Pointing the pipeline at 19 articles didn't just produce more of one thing — it typed the
+          Pointing the pipeline at all 119 articles didn't just produce more of one thing — it typed the
           material into the framework's own layers: claims and evidence, concept lineages,
           encyclopedia entries, public-use boundaries, resources, signals, source systems, and
           tracks. Each one traces back to the source article it was drafted from.
@@ -116,10 +116,10 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
         <h3 class="in-held__h">Provenance, maturity, and no silent overwrites.</h3>
         <p>
           Every object carries typed provenance and a maturity state — nothing enters unmarked.
-          Two distinct source articles both happened to title themselves "decentralization," and
-          two more both used "obsidian" — the accept-gate's silent-overwrite guard kept
-          <strong>both</strong> pairs as separate objects rather than letting the second clobber the
-          first.
+          Across the full corpus, <strong>65 objects shared a title-slug with another</strong> —
+          the accept-gate's silent-overwrite guard kept every one of them as a separate object for
+          review rather than letting the later one clobber the earlier. Before this week's fix,
+          those 65 would have been silently lost.
         </p>
       </div>
       <div class="in-held__card">
@@ -151,7 +151,8 @@ const withBase = (p) => base + String(p).replace(/^\//, "");
       </div>
       <p class="in-cross__honest">
         Honest status: {reviewQueue} objects, all <strong>raw</strong> and awaiting human review —
-        nothing here has been promoted. The full 119-article run resumes from this slice.
+        nothing here has been promoted. The human review pass (merging duplicates, checking claims)
+        is the next step, and it is un-bypassed.
       </p>
     </div>
   </section>

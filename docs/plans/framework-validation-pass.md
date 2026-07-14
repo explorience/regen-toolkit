@@ -27,10 +27,10 @@ land the non-controversial kernel fixes it needs, and put three concrete artifac
 | **V0 — Consolidate** | Master plan · stale plans archived · QUEUE/HEARTBEAT reconciled | Jul 14 | ✅ done |
 | **V1 — Kernel fixes** | source-system enum · `held` state · `track.outcome`→array · **B5 overwrite guard** | Jul 14 | ✅ done (110/110 tests) |
 | **V1-intake — Jul 14 feedback** | Fold ReFi DAO post-R3 `route: toolkit-framework` items (confirm/extend V1) | Jul 14 | ⏳ pending Monty deep-dive (non-blocking) |
-| **V2 — Slice self-ingestion** | 19 articles → real `ingest` pipeline → `data/kb/` | Jul 14 | ✅ done (154 objects, total 1→155) |
+| **V2 — Self-ingestion** | slice (19) validated → **full 119** → real `ingest` pipeline → `data/kb/` | Jul 14 | ✅ done (**722 objects**, total 1→722; 65 B5 collisions preserved) |
 | **V3 — Three artifacts** | Live page · Obsidian canvas · diff report | Jul 14 | ✅ built (deploy = draft-and-present gate) |
 | **V4 — Capital proposal** | 8 Forms of Capital as a staged `update-proposal` (draft-only) | Jul 14 | ✅ drafted (to shape w/ Matt) |
-| **Post-demo** | Full 119 self-ingestion · **feedback harvest fixes (below)** · repo migration · OS→main · V3 resource lift | after Jul 16 | ⏳ queued |
+| **Post-demo** | Human review pass (`review promote`, merge dup collisions) · **feedback harvest fixes (below)** · repo migration · OS→main · V3 resource lift | after Jul 16 | ⏳ queued |
 
 **V1.4 (overwrite guard) was the gate before any real `store` — cleared.** The Jul 16 demo has V2 + V3.
 
@@ -60,6 +60,7 @@ itself, mirroring the ReFi DAO testbed. All `route: toolkit-framework`; queued f
 | 2026-07-14 | Slice "capital-heavy" articles were crypto-financial, not 8-forms — capital gap stands on the ontology comparison, not this run | self-ingestion run |
 | 2026-07-14 | MASTER already describes 8 Forms as prose ("classification fields, not root types") — proposal formalizes his own stated design, not a new idea | V4 grep of MASTER |
 | 2026-07-14 | V1-intake: Monty deep-dive not yet held; V1 stands on its own; fold the batch as confirmation when it lands | operator |
+| 2026-07-14 | Full 119 self-ingestion pulled forward (ahead of the call): 722 objects; 65 B5 collisions preserved; 7-item feedback harvest reconfirmed at scale | operator request |
 
 ## Absorbed backlog (from superseded plans)
 
