@@ -1,0 +1,158 @@
+---
+import Page from "../layouts/Page.astro";
+// The BEFORE snapshot: the framework's baseline index, before this instance's own
+// content had been run through the 0.2 pipeline — copied at build-input time from
+// data/kb/_baseline-index.json so Vite can import it like any other JSON asset.
+import baseline from "../data/self-ingestion-baseline.json";
+// The AFTER snapshot: the derived index from the repo-data run — the same
+// data/kb/index.json that regen-toolkit-os.astro reads, produced by pointing the
+// real 0.2 pipeline (capture → accept-gate → store) at a representative slice of
+// this site's own articles.
+import after from "../../data/kb/index.json";
+
+const beforeTotal = baseline.total;
+const afterTotal = after.total;
+const reviewQueue = after.review_queue ?? after.reviewQueue;
+const afterTypes = Object.entries(after.by_type)
+  .sort((a, b) => b[1] - a[1])
+  .map(([type, n]) => `${n} ${type.replace(/-/g, " ")}${n > 1 ? "s" : ""}`);
+
+const base = import.meta.env.BASE_URL;          // '/' on Vercel, '/regen-toolkit/' on Pages
+const withBase = (p) => base + String(p).replace(/^\//, "");
+---
+
+<Page
+  title="Self-ingestion diff · Regen Web3 Toolkit"
+  description="The toolkit's own 0.2 ingestion pipeline, run on a representative slice of this site's articles — the honest before/after."
+>
+  <!-- ============================== HERO ============================== -->
+  <section class="in-hero">
+    <div class="wrap in-hero__inner">
+      <p class="eyebrow reveal" data-d="1">Self-ingestion</p>
+      <h1 class="in-hero__title reveal" data-d="2">
+        The toolkit,<br />run through its own machine.
+      </h1>
+      <p class="in-hero__lede reveal" data-d="3">
+        A <strong>representative slice of 19 of the 119 live articles</strong> was pointed at the
+        real 0.2 ingestion pipeline — <strong>capture → accept-gate → store</strong> — the same
+        machine described on <a href={withBase("/framework/")}>the framework page</a>. The full
+        119-article run resumes next; this slice is the proof it works end to end first. Every
+        object that came out is <code>raw</code> and sitting in the review queue — nothing has
+        been promoted. A human reviews before anything is published.
+      </p>
+      <div class="in-hero__meta reveal" data-d="4">
+        <span class="chip chip--clay">19 of 119 articles</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>0.2 pipeline</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>all raw</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>nothing promoted</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BEFORE → AFTER ====================== -->
+  <section class="in-reg">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">Before → after</p>
+        <h2 class="in-h2">One typed object, then a whole slice of them.</h2>
+        <p class="in-sec-sub">
+          The baseline is the framework's starting index — a single source-system row, before this
+          instance's own content had been run through. The after count is read straight from the
+          knowledge base the pipeline produced, not typed by hand.
+        </p>
+      </header>
+
+      <ul class="in-stat-grid">
+        <li class="in-stat">
+          <span class="in-stat__n">{beforeTotal}</span>
+          <span class="in-stat__label">typed object, before</span>
+          <span class="in-stat__desc">The framework's baseline index — one source-system row, nothing else ingested yet.</span>
+        </li>
+        <li class="in-stat">
+          <span class="in-stat__n">{afterTotal}</span>
+          <span class="in-stat__label">typed objects, after</span>
+          <span class="in-stat__desc">The 19-article slice, run through capture → accept-gate → store, read from the resulting index.</span>
+        </li>
+      </ul>
+
+      <p class="in-reg__caption">
+        Generated at build from <code>data/kb/index.json</code>, the derived index the pipeline run
+        produced. State: <strong>raw</strong> throughout — nothing here is marked reviewed.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== TYPE BREAKDOWN ====================== -->
+  <section class="in-run">
+    <div class="wrap in-run__grid">
+      <div class="in-run__lead">
+        <p class="eyebrow">The type breakdown</p>
+        <h2 class="in-h2">What the slice came out as.</h2>
+        <p>
+          Pointing the pipeline at 19 articles didn't just produce more of one thing — it typed the
+          material into the framework's own layers: claims and evidence, concept lineages,
+          encyclopedia entries, public-use boundaries, resources, signals, source systems, and
+          tracks. Each one traces back to the source article it was drafted from.
+        </p>
+        <p class="in-run__note">
+          All {reviewQueue} are in the review queue — nothing here has been promoted. This count is
+          read from the knowledge base the run produced, not typed by hand.
+        </p>
+      </div>
+      <ul class="in-run__types">
+        {afterTypes.map((t) => <li class="in-run__type">{t}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== WHAT THE MACHINE CAUGHT =================== -->
+  <section class="in-held">
+    <div class="wrap in-held__grid">
+      <div class="in-held__card">
+        <p class="eyebrow">What the machine caught</p>
+        <h3 class="in-held__h">Provenance, maturity, and no silent overwrites.</h3>
+        <p>
+          Every object carries typed provenance and a maturity state — nothing enters unmarked.
+          Two distinct source articles both happened to title themselves "decentralization," and
+          two more both used "obsidian" — the accept-gate's silent-overwrite guard kept
+          <strong>both</strong> pairs as separate objects rather than letting the second clobber the
+          first.
+        </p>
+      </div>
+      <div class="in-held__card">
+        <p class="eyebrow">Typed, not defaulted</p>
+        <h3 class="in-held__h">Three sources typed as blog or publication.</h3>
+        <p>
+          Three of the nineteen source articles were correctly typed as <code>blog</code> or
+          <code>publication</code> source-systems rather than falling back to a generic
+          <code>database</code> type — the kind of small, checkable correctness that only shows up
+          when you actually run the pipeline on real content.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ CROSS-LINK ======================== -->
+  <section class="in-cross">
+    <div class="wrap in-cross__inner">
+      <p class="eyebrow">The pair</p>
+      <h2 class="in-h2">See the pipeline, and the instance it runs in.</h2>
+      <p class="in-cross__lede">
+        This page is one run of the machine, on a slice of this site's own articles. For how the
+        pipeline itself works — capture, accept-gate, review queue, store — see the framework page.
+        For the coordination overlay this run lives inside, see the instance page.
+      </p>
+      <div class="in-cross__cta">
+        <a class="btn btn--ghost" href={withBase("/framework/")}>How the pipeline works <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href={withBase("/regen-toolkit-os/")}>The instance this runs in <span class="arrow">→</span></a>
+      </div>
+      <p class="in-cross__honest">
+        Honest status: {reviewQueue} objects, all <strong>raw</strong> and awaiting human review —
+        nothing here has been promoted. The full 119-article run resumes from this slice.
+      </p>
+    </div>
+  </section>
+</Page>
