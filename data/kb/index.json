@@ -11,8 +11,11 @@
     "track": 3
   },
   "by_maturity": {
-    "raw": 692
+    "raw": 671,
+    "reviewed": 1,
+    "candidate": 14,
+    "deprecated": 6
   },
-  "review_queue": 714,
+  "review_queue": 693,
   "generated_from": "derived — rebuildable from data/kb/"
 }

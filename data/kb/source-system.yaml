@@ -2,14 +2,16 @@ entries:
   regen-toolkit:
     title: regen-toolkit
     type: repo
-    steward: regen-toolkit
-    return_path: unset — complete via the register-source skill
-    maturity: raw
+    steward: Regen Coordination / Regen Web3 Toolkit team
+    return_path: >-
+      GitHub issues/PRs on the regen-toolkit repo; content contributions via the
+      toolkit editorial workflow
+    maturity: reviewed
     lifecycle_state: raw-lead
-    ai_assisted: true
-    notes: >-
-      Self card created by init. Complete steward, return_path,
-      reuse_conditions, how_to_credit before federating.
+    ai_assisted: false
+    notes: Self source-system card for this instance. Reviewed 2026-07-14.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   koi-net-blockscience-metagov-rmit:
     title: KOI-net (BlockScience / Metagov / RMIT)
     type: repo
@@ -36,14 +38,16 @@ entries:
       partial — only the framing given in this article has been captured, not
       the protocol docs themselves
     toolkit_route: layer-10-infrastructure-and-substrate
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/federation-portability.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-4e11e89a5db3
     source_lineage: federation-portability.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   greenpill-network:
     title: Greenpill Network
     type: blog
@@ -73,14 +77,19 @@ entries:
       the live site
     toolkit_route: layer-3-resource-graph
     high_risk: true
-    maturity: raw
-    ai_assisted: true
+    maturity: deprecated
+    ai_assisted: false
     provenance:
       origin: src/content/docs/what-is-refi.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-55907730d33f
     source_lineage: what-is-refi.md
+    notes: >-
+      Superseded 2026-07-14 by greenpill-network-6b752193 — same source,
+      duplicate card ingested from a different article. Kept as history.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   gitcoin-gitcoin-co:
     title: Gitcoin (gitcoin.co)
     type: docs-site
@@ -109,14 +118,16 @@ entries:
       partial — content summarized from the article, not fetched directly from
       gitcoin.co
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/gitcoin-grants-qf.md
       transformation: synthesized
       authorship: ai-assisted
     work_order: wo-55b29771dc58
     source_lineage: gitcoin-grants-qf.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   chainalysis-crypto-crime-report-annual:
     title: Chainalysis Crypto Crime Report (annual)
     type: publication
@@ -139,14 +150,16 @@ entries:
     update_rhythm: annual report
     extraction_status: partial — only the statistics quoted in this article have been captured
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/common-scams.md
       transformation: synthesized
       authorship: ai-assisted
     work_order: wo-7d08281b2f7e
     source_lineage: common-scams.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   cryptoaltruists-web3-impact-toolkit:
     title: CryptoAltruists Web3 Impact Toolkit
     type: publication
@@ -166,14 +179,16 @@ entries:
     extraction_status: partial — only the statistics quoted in this article have been captured
     toolkit_route: layer-3-resource-graph
     high_risk: true
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/case-studies-nonprofits.md
       transformation: synthesized
       authorship: ai-assisted
     work_order: wo-b3d9480838b4
     source_lineage: case-studies-nonprofits.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   refi-dao:
     title: ReFi DAO
     type: directory
@@ -196,8 +211,8 @@ entries:
     how_to_credit: Credit as "ReFi DAO" with a link to refidao.com.
     use_type: public directory + network coordination
     toolkit_route: layer-9-federation
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/types-of-gatherings.md
       transformation: summarized
@@ -209,6 +224,8 @@ entries:
       register-source pass may want to verify currentness/update_rhythm directly
       with ReFi DAO rather than inferring only from this one article.
     work_order: wo-0953aae86e06
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   greenpill-network-cda42cd3:
     title: Greenpill Network
     type: convening
@@ -236,14 +253,19 @@ entries:
       partial — only the chapter-count claim and general network role were
       extracted from this article.
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: deprecated
+    ai_assisted: false
     provenance:
       origin: src/content/docs/planning-web3-events.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-13f3c98bb4d6
     source_lineage: planning-web3-events.md
+    notes: >-
+      Superseded 2026-07-14 by greenpill-network-6b752193 — same source,
+      duplicate card ingested from a different article. Kept as history.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   regen-coordination-hub:
     title: Regen Coordination Hub
     type: forum
@@ -256,27 +278,35 @@ entries:
     how_to_credit: link the specific chapter post/thread referenced
     use_type: peer coordination forum
     reuse_conditions: public; attribute the originating chapter thread
-    return_path: post your own node's retrospectives and open questions back to the hub
+    return_path: >-
+      Post your node retrospectives and open questions back to the hub
+      (hub.regencoordination.xyz); reciprocal channel of the Regen Coordination
+      network.
     update_rhythm: continuous (chapter-driven)
     extraction_status: unextracted
     toolkit_route: layer-3-resource-graph
-    maturity: raw
+    maturity: candidate
     public_use: source-linked-unreviewed
-    ai_assisted: true
+    ai_assisted: false
     provenance:
       origin: src/content/docs/common-pitfalls.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-143cd63d37c3
     source_lineage: common-pitfalls.md
+    notes: >-
+      Canonical card; duplicate cards of this source deprecated (merged)
+      2026-07-14.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   superbenefit-knowledge-garden:
     title: SuperBenefit Knowledge Garden
     type: knowledge-garden
     steward: SuperBenefit
     return_path: >-
-      contribute observations on consequence-based tiering (and any adaptation
-      of it made in this toolkit) back to the SuperBenefit Knowledge Garden as a
-      comment or linked note, per its own contribution norms
+      Public knowledge garden (Obsidian/Markdown, published via Quartz) — likely
+      GitHub issues/PRs against github.com/superbenefit/knowledge-garden;
+      inferred, needs steward confirmation.
     url: https://knowledge.superbenefit.org/
     what_it_curates: >-
       a live, tiered knowledge commons (raw notes, working documents, refined
@@ -292,14 +322,19 @@ entries:
     update_rhythm: unknown
     extraction_status: partially-extracted
     toolkit_route: layer-2-encyclopedia
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/human-review-boundaries.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-16d3d5100c36
     source_lineage: human-review-boundaries.md
+    notes: >-
+      Canonical card; duplicate cards of this source deprecated (merged)
+      2026-07-14.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   refi-dao-local-node-incubator-local-nodes-network:
     title: ReFi DAO Local Node Incubator / Local Nodes network
     type: convening
@@ -330,14 +365,16 @@ entries:
       partial — only the maturity model and cohort statistics were extracted
       from this article; the incubator curriculum itself was not.
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/onboarding-members.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-4d064e9381ba
     source_lineage: onboarding-members.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   regen-coordination-hub-0faecb9b:
     title: Regen Coordination Hub
     type: forum
@@ -358,14 +395,19 @@ entries:
     update_rhythm: unknown — not stated in the article
     extraction_status: partial — only the framing given in this article has been captured
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: deprecated
+    ai_assisted: false
     provenance:
       origin: src/content/docs/why-local-matters.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-5e5d4bf53655
     source_lineage: why-local-matters.md
+    notes: >-
+      Superseded 2026-07-14 by regen-coordination-hub — same source, duplicate
+      card ingested from a different article. Kept as history.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   cryptoaltruists:
     title: CryptoAltruists
     type: directory
@@ -386,15 +428,17 @@ entries:
     update_rhythm: unspecified in source article
     extraction_status: unextracted
     toolkit_route: layer-3-resource-graph
-    maturity: raw
+    maturity: candidate
     public_use: source-linked-unreviewed
-    ai_assisted: true
+    ai_assisted: false
     provenance:
       origin: src/content/docs/crypto-donation-platforms.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-620c0c65c46f
     source_lineage: crypto-donation-platforms.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   superbenefit-knowledge-garden-39b234ba:
     title: SuperBenefit Knowledge Garden
     type: knowledge-garden
@@ -427,20 +471,20 @@ entries:
     toolkit_route: >-
       Layer 2 (Knowledge Commons) / Layer 4 (Concept Lineage) — pattern-library
       peer
-    maturity: raw
+    maturity: deprecated
     public_use: source-linked-unreviewed
-    ai_assisted: true
+    ai_assisted: false
     provenance:
       origin: src/content/docs/knowledge-gardens.md
       transformation: summarized
       authorship: ai-assisted
     notes: >-
-      return_path is a best-effort inference (the article only links to the
-      garden's homepage) — a human reviewer should confirm SuperBenefit's actual
-      contribute-back mechanism (Discord, GitHub, contact form) before promoting
-      this card past raw.
+      Superseded 2026-07-14 by superbenefit-knowledge-garden — same source,
+      duplicate card ingested from a different article. Kept as history.
     work_order: wo-69cdee6ddcfe
     source_lineage: knowledge-gardens.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   grassroots-economics-sarafu-network:
     title: Grassroots Economics (Sarafu Network)
     type: blog
@@ -462,14 +506,16 @@ entries:
     update_rhythm: unknown — not stated in the article
     extraction_status: partial — only the framing given in this article has been captured
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/what-web3-can-cant-do.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-9cd1291b92b8
     source_lineage: what-web3-can-cant-do.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   superbenefit-knowledge-garden-752eeb3d:
     title: SuperBenefit Knowledge Garden
     type: docs-site
@@ -492,14 +538,19 @@ entries:
     how_to_credit: SuperBenefit
     extraction_status: raw-lead
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: deprecated
+    ai_assisted: false
     provenance:
       origin: src/content/docs/ai-community-tools.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-ae4676958221
     source_lineage: ai-community-tools.md
+    notes: >-
+      Superseded 2026-07-14 by superbenefit-knowledge-garden — same source,
+      duplicate card ingested from a different article. Kept as history.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   greenpill-network-6b752193:
     title: Greenpill Network
     type: directory
@@ -515,19 +566,26 @@ entries:
       nearby node before building one from scratch.
     how_to_credit: unknown — not stated in the article
     reuse_conditions: unknown — not stated in the article
-    return_path: unknown — not stated in the article
+    return_path: >-
+      Contribute back via greenpill.network and Greenpill community channels; no
+      formal PR channel confirmed — flag to steward.
     currentness: ~12 active chapters as of mid-2026, per the article
     update_rhythm: unknown — not stated in the article
     extraction_status: partial — only the framing given in this article has been captured
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/what-is-local-node.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-d579c610b491
     source_lineage: what-is-local-node.md
+    notes: >-
+      Canonical card; duplicate cards of this source deprecated (merged)
+      2026-07-14.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   superbenefit-knowledge-garden-269368a2:
     title: SuperBenefit Knowledge Garden
     type: knowledge-garden
@@ -553,14 +611,19 @@ entries:
     update_rhythm: unknown — not stated in the article
     extraction_status: partial — only the framing given in this article has been captured
     toolkit_route: layer-2-encyclopedia
-    maturity: raw
-    ai_assisted: true
+    maturity: deprecated
+    ai_assisted: false
     provenance:
       origin: src/content/docs/what-is-knowledge-commons.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-d94f3822e08d
     source_lineage: what-is-knowledge-commons.md
+    notes: >-
+      Superseded 2026-07-14 by superbenefit-knowledge-garden — same source,
+      duplicate card ingested from a different article. Kept as history.
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   giveth-docs:
     title: Giveth Docs
     type: docs-site
@@ -585,14 +648,16 @@ entries:
     update_rhythm: living docs site, updated as the platform evolves
     extraction_status: partially-extracted (this article's summarized subset only)
     toolkit_route: layer-3-resource-graph
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     provenance:
       origin: src/content/docs/giveth-donations.md
       transformation: summarized
       authorship: ai-assisted
     work_order: wo-e98c2d2a09ac
     source_lineage: giveth-donations.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   silvi-protocol:
     title: Silvi Protocol
     type: docs-site
@@ -621,8 +686,8 @@ entries:
       partial — captured only as framed in this single promotional playbook, not
       from Silvi's own technical/legal docs
     toolkit_route: layer-9-evolution-signals
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     high_risk: true
     public_use: not-public-yet
     provenance:
@@ -637,6 +702,8 @@ entries:
       fit for a protocol's public-facing site/app).
     work_order: wo-ec7a53915677
     source_lineage: silvi-protocol.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
   treekipedia:
     title: Treekipedia
     type: database
@@ -656,8 +723,8 @@ entries:
     currentness: as described in the March 2026 playbook
     extraction_status: partial — captured only as framed in this single promotional playbook
     toolkit_route: layer-9-evolution-signals
-    maturity: raw
-    ai_assisted: true
+    maturity: candidate
+    ai_assisted: false
     high_risk: true
     public_use: not-public-yet
     provenance:
@@ -666,3 +733,5 @@ entries:
       authorship: ai-assisted
     work_order: wo-ec7a53915677
     source_lineage: silvi-protocol.md
+    reviewed_by: Luiz Fernando
+    last_reviewed: '2026-07-14'
