@@ -24,15 +24,28 @@ land the non-controversial kernel fixes it needs, and put three concrete artifac
 
 | Phase | What | When | Status |
 |---|---|---|---|
-| **V0 — Consolidate** | Master plan · stale plans archived · QUEUE/HEARTBEAT reconciled | Jul 14 | ▶ |
-| **V1 — Kernel fixes** | source-system enum · `held` state · `track.outcome`→array · **B5 overwrite guard** | Jul 14 | |
-| **V1-intake — Jul 14 feedback** | Fold ReFi DAO post-R3 `route: toolkit-framework` items (confirm/extend V1) | Jul 14 | |
-| **V2 — Slice self-ingestion** | ~15–20 articles → real `ingest` pipeline → `data/kb/` | Jul 15 | |
-| **V3 — Three artifacts** | Live page · Obsidian canvas · diff report | Jul 15–16 | |
-| **V4 — Capital proposal** | 8 Forms of Capital as a staged `update-proposal` (draft-only) | Jul 15 | |
-| **Post-demo** | Full 119 self-ingestion · repo migration · OS→main · V3 resource lift | after Jul 16 | |
+| **V0 — Consolidate** | Master plan · stale plans archived · QUEUE/HEARTBEAT reconciled | Jul 14 | ✅ done |
+| **V1 — Kernel fixes** | source-system enum · `held` state · `track.outcome`→array · **B5 overwrite guard** | Jul 14 | ✅ done (110/110 tests) |
+| **V1-intake — Jul 14 feedback** | Fold ReFi DAO post-R3 `route: toolkit-framework` items (confirm/extend V1) | Jul 14 | ⏳ pending Monty deep-dive (non-blocking) |
+| **V2 — Slice self-ingestion** | 19 articles → real `ingest` pipeline → `data/kb/` | Jul 14 | ✅ done (154 objects, total 1→155) |
+| **V3 — Three artifacts** | Live page · Obsidian canvas · diff report | Jul 14 | ✅ built (deploy = draft-and-present gate) |
+| **V4 — Capital proposal** | 8 Forms of Capital as a staged `update-proposal` (draft-only) | Jul 14 | ✅ drafted (to shape w/ Matt) |
+| **Post-demo** | Full 119 self-ingestion · **feedback harvest fixes (below)** · repo migration · OS→main · V3 resource lift | after Jul 16 | ⏳ queued |
 
-**V1.4 (overwrite guard) is the gate before any real `store`.** The Jul 16 demo needs V2 + V3.
+**V1.4 (overwrite guard) was the gate before any real `store` — cleared.** The Jul 16 demo has V2 + V3.
+
+## Framework-feedback harvest (from the V2 self-ingestion run, 2026-07-14)
+
+The self-ingestion generated the next round of framework fixes — the loop working on the toolkit
+itself, mirroring the ReFi DAO testbed. All `route: toolkit-framework`; queued for the post-demo round:
+
+1. `source-system.type` has no `platform`/`dapp` value (Gitcoin → `docs-site`, imperfect) — extends the enum item.
+2. `public-use-boundary` doesn't `extends: frontmatter` → exempt from the maturity born-rule (the 146-vs-155 `by_maturity` gap).
+3. `public-use-boundary.tier` enum lacks a "requires domain review" value (caused the one accept-rejection).
+4. `list-schemas` doesn't distinguish ingestible vs structural schemas — wants a `--ingestible` flag.
+5. `ingest prepare` should stamp the resolved `source_path` (bare filenames collide with stale `content/` drafts).
+6. `classifySource` misclassifies prose as `transcript` on colon-terminated lead-ins.
+7. No top-level `case-study` schema (resolved via `encyclopedia-entry` + `page_type: case-linked`).
 
 ## Decision log
 
@@ -43,6 +56,10 @@ land the non-controversial kernel fixes it needs, and put three concrete artifac
 | 2026-07-13 | Option B (demo + kernel fixes), slice-then-full ingestion | brainstorm |
 | 2026-07-14 | `public_use_boundary` already first-class (schema exists) — dropped from fix list | exploration |
 | 2026-07-14 | Real run targets `data/kb/` (repo-data per kms.yaml); root `kb/` is a stale kb-folder run | exploration |
+| 2026-07-14 | V2 run: 19-article slice → 154 objects; B5 guard fired real (decentralization/obsidian preserved); V1.1 enum used (blog/publication) | self-ingestion run |
+| 2026-07-14 | Slice "capital-heavy" articles were crypto-financial, not 8-forms — capital gap stands on the ontology comparison, not this run | self-ingestion run |
+| 2026-07-14 | MASTER already describes 8 Forms as prose ("classification fields, not root types") — proposal formalizes his own stated design, not a new idea | V4 grep of MASTER |
+| 2026-07-14 | V1-intake: Monty deep-dive not yet held; V1 stands on its own; fold the batch as confirmation when it lands | operator |
 
 ## Absorbed backlog (from superseded plans)
 
