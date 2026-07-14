@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Obsidian
+  type: resource
+  resource_type: tool
+  url: https://obsidian.md/
+  is_source_system_candidate: false
+  toolkit_route: Layer 2 (Knowledge Commons) tooling
+  link_status: active
+  related_concepts:
+    - Digital Garden (seedling / budding / evergreen)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-gardens.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Free desktop app that edits a folder of local markdown files; gives
+    wikilinks, backlinks, and a graph view with no account required. Paid
+    Obsidian Publish ($8/mo annual, $10/mo month-to-month) turns a vault into
+    a hosted site.

@@ -1,0 +1,41 @@
+schema: encyclopedia-entry
+object:
+  title: How to Get Your First Crypto
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A scam-aware, "start tiny" guide for community organizers acquiring their
+    first cryptocurrency, covering three ways in (centralized exchange,
+    peer-to-peer with escrow, earning through paid work/bounties/staking), the
+    energy objection (Bitcoin proof-of-work vs. Ethereum's post-Merge
+    proof-of-stake), and a set of non-negotiable scam-avoidance habits.
+  audience: >-
+    community organizers and growers with no prior crypto experience, especially
+    those weighing crypto for cross-border grant/donation receipt
+  known_tensions:
+    - >-
+      convenience-of-a-centralized-exchange-vs-custody-risk-of-trusting-a-company
+    - earning-crypto-through-real-work-vs-chasing-free-airdrops
+  related_concepts:
+    - peer-to-peer-crypto-exchange-with-escrow
+  related_resources:
+    - localcoinswap
+    - bisq
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-to-get-crypto.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: Greenpill Network is not re-created as a new
+    source-system object here — it already exists in data/kb/source-system.yaml
+    from a prior ingestion slice. The Ethereum Merge ~99.95% energy-reduction
+    claim and the "no legitimate service asks for your seed phrase" warning are
+    not re-created as new claim-evidence objects — near-identical claims already
+    exist in data/kb/claim-evidence.yaml. Coinbase/Kraken are not created as new
+    resource objects (generic, well-known centralized exchanges named only in
+    passing); LocalCoinSwap and Bisq were chosen as the more novel P2P-specific
+    resources worth capturing.
+  work_order: wo-3926c8735083
+  source_lineage: how-to-get-crypto.md

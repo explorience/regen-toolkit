@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Ithaca Hours
+  type: resource
+  resource_type: case-study
+  is_source_system_candidate: false
+  toolkit_route: Layer 5 (Option Library) / local-currency case studies
+  link_status: unresolved
+  related_concepts:
+    - Local / Community Currency
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-currency.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Longest-running time-based community currency (New York, USA; launched
+    1991). One Ithaca Hour equals one hour of labour — cited as the
+    canonical time-based-unit example.

@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Common Pitfalls When Starting a Local Node
+  type: encyclopedia-entry
+  page_type: anti-pattern
+  summary: >-
+    Eight recurring failure patterns that sink new local regen nodes/chapters —
+    designing in a vacuum, chasing on-chain tooling before the coordination
+    problem is proven, premature governance theatre, founder burnout, confusing
+    motion with progress, over-isolating or over-attaching to a parent network,
+    and giving up during a natural low-participation dip — each paired with a
+    concrete fix drawn from real projects (Greenpill Network, Grassroots
+    Economics/Sarafu, Compound DAO's Proposal 289, hOurworld).
+  audience: people starting or stewarding a new local regen node/chapter
+  known_tensions:
+    - move-fast-with-a-token vs prove-the-coordination-problem-manually-first
+    - autonomous-node vs connected-to-the-wider-network
+    - sophisticated-governance-tooling vs actual-voter-participation
+  related_concepts:
+    - local-node
+    - dao-voter-apathy
+    - autonomous-yet-connected
+  related_resources:
+    - Greenpill Network
+    - Grassroots Economics / Sarafu
+    - hOurworld
+    - Regen Coordination Hub
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-pitfalls.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-143cd63d37c3
+  source_lineage: common-pitfalls.md
+  notes: >
+    # assessed-but-excluded
+
+    - no individual people are named/profiled (the "Golden Boys" delegate bloc
+    in the
+      Compound example is a public, already-widely-reported pseudonymous group, not an
+      identifiable private person) — treated as a governance-history claim, not a
+      person-node.

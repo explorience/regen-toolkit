@@ -1,0 +1,21 @@
+schema: signal
+object:
+  title: Social tokens flagged for securities-law exposure without elaboration
+  type: signal
+  signal_type: content
+  affected_layer: layer-5-option-library
+  interpretation: >-
+    The article lists "regulatory considerations (securities law)" as a pitfall
+    with no further detail, jurisdiction, or citation. This is a thin spot in
+    current coverage: a local node acting on this guide alone would have no
+    concrete starting point for assessing securities-law risk before issuing a
+    social token.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/social-tokens-creator.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-7b882179b803
+  source_lineage: social-tokens-creator.md

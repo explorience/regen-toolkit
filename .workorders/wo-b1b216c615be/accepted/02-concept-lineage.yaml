@@ -1,0 +1,52 @@
+schema: concept-lineage
+object:
+  title: Decentralized Trust (from institutions to code)
+  type: concept-lineage
+  short_description: >-
+    The shift from trusting institutional intermediaries (banks, platforms) to
+    trusting verifiable, distributed systems — open-source code, consensus
+    mechanisms, and cryptography — as the basis for coordinating value and
+    information.
+  source_traditions:
+    - >-
+      Web2 platform/institutional trust model (the article's explicit contrast
+      case)
+    - blockchain consensus mechanism design (Proof of Work / Proof of Stake)
+    - >-
+      community-reputation-based trust (article names Somali and East African
+      community/clan-network traditions as a loose historical analogue,
+      unattributed to a specific source)
+  toolkit_usage: >-
+    Used to frame blockchain not as "trustless" but as trust-relocated — a
+    reframing device for explaining decentralization's value proposition.
+  adjacent_meanings:
+    - >-
+      trust as reputation/community-standing (pre-digital, e.g. the article's
+      Somali/East African community-trust aside)
+    - trust as cryptographic verifiability (the article's main thesis)
+  important_distinctions:
+    - >-
+      trustless (a common but, the article implies, imprecise marketing term) vs
+      trust-relocated (to code/math/consensus)
+    - >-
+      transparency (visibility) vs accountability (consequences) — related but
+      not identical
+  tensions:
+    - >-
+      verifiability-in-principle (anyone *can* inspect open-source code) vs
+      verifiability-in-practice (most users lack the expertise to actually audit
+      it)
+  risks_of_flattening: >-
+    Naming "Somali and East African traditions" as a general parallel to
+    decentralized trust risks flattening distinct community practices into a
+    single undifferentiated analogy; the article does not cite a specific
+    community, elder, or documented practice, so this lineage note should be
+    treated as an unverified generalization pending a real source.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/trust-transparency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: trust-transparency.md
+  work_order: wo-b1b216c615be

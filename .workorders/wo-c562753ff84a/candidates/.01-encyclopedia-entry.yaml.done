@@ -1,0 +1,50 @@
+schema: encyclopedia-entry
+object:
+  title: Real Examples of Impact DAOs
+  type: encyclopedia-entry
+  page_type: case-linked
+  summary: >-
+    Introduces Impact DAOs (DAOs organized specifically for positive change)
+    to a permaculture/regenerative-community audience through three named
+    cases — ReFi DAO's global network of place-based Local Nodes, Greenpill's
+    "degens to regens" chapter model with tiered participation, and Klima
+    DAO's approach to bringing verified carbon credits on-chain — and draws an
+    explicit analogy to permaculture principles (working with natural
+    systems, local resilience connected to broader networks, sharing over
+    hoarding, regenerative over extractive economies).
+  audience: permaculture practitioners and regenerative-community members new
+    to web3/DAOs
+  known_tensions:
+    - >-
+      Frames DAOs as "trust built into the system rather than relying on one
+      person," which risks overstating how automatic trust is in practice —
+      DAO participation, accountability, and decision quality are named
+      elsewhere in the site as real, unresolved challenges.
+    - >-
+      Klima DAO's premise (bringing carbon credits on-chain for a liquid,
+      accessible market) assumes the underlying off-chain carbon
+      verification is sound; the article does not examine that layer's
+      integrity.
+  related_concepts:
+    - impact-dao
+  related_resources:
+    - refi-dao
+    - greenpill-network
+    - klima-dao
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/examples-impact-daos.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-c562753ff84a, examples-impact-daos.md):
+# - Individual ReFi DAO local-node vignettes (ReFi Costa Rica, ReFi Tanzania,
+#   ReFi BayArea) — folded into the ReFi DAO resource entry's context rather
+#   than split into separate resource/deployment objects; too thin on their
+#   own (one sentence each, no URLs) to stand as independent entries.
+# - "Try This" exercise prompts — reader action items, not extractable
+#   knowledge-graph content.
+# - Frontmatter production/workflow metadata (author: unknown, research_done,
+#   draft_done, factcheck_done, review_done, critique_done, published_flag,
+#   estimated_words, section/track numbers) — internal site-authoring state.

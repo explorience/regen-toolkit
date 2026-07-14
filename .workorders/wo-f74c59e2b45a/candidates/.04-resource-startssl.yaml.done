@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: "Startssl (named in source as a third donation-platform option)"
+  type: resource
+  resource_type: crypto-donation-platform
+  is_source_system_candidate: false
+  link_status: unresolved
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - crypto-donation-onboarding
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-receive-crypto.md
+    transformation: quoted
+    authorship: ai-assisted
+  notes: >-
+    Named verbatim in the source article as "Startssl, Another option to
+    explore" alongside The Giving Block and Infinite Giving. "StartSSL" is
+    publicly known as a defunct SSL-certificate authority, not a crypto
+    donation platform — this looks like a data-quality issue in the source
+    (possibly a mis-transcribed platform name). Captured faithfully as named,
+    flagged unresolved for a human to verify or correct rather than silently
+    dropped or silently "fixed."

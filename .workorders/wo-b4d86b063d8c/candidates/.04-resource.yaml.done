@@ -1,0 +1,16 @@
+schema: resource
+object:
+  title: Ethereum
+  type: resource
+  resource_type: platform
+  url: https://ethereum.org
+  link_status: active
+  original_source: src/content/docs/ethereum-ecosystem.md (References)
+  related_concepts:
+    - decentralized-finance-defi
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ethereum-ecosystem.md
+    transformation: quoted
+    authorship: ai-assisted

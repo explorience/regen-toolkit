@@ -1,0 +1,47 @@
+schema: concept-lineage
+object:
+  title: Seed Phrase (BIP39 / HD Derivation)
+  type: concept-lineage
+  short_description: >-
+    A 12- or 24-word mnemonic, generated per the BIP39 standard from a random
+    number and a fixed 2,048-word list, that acts as the master backup for a
+    wallet's private keys and addresses across every BIP39-compatible chain
+    and wallet app.
+  source_traditions:
+    - >-
+      BIP39 (Bitcoin Improvement Proposal 39) — the cross-wallet standard
+      defining the wordlist and phrase-generation/checksum rules.
+    - >-
+      Hierarchical deterministic (HD) wallet derivation — the design that lets
+      one phrase regenerate every private key and address beneath it.
+  toolkit_usage: >-
+    Used in the article as the foundational self-custody concept: back up the
+    phrase once, and it can rebuild every key/address on every chain that
+    follows the standard.
+  adjacent_meanings:
+    - Secret Recovery Phrase (MetaMask's term)
+    - mnemonic phrase
+  important_distinctions:
+    - >-
+      Seed phrase vs private key vs address: the article is explicit that the
+      chain runs phrase -> private keys -> addresses; the phrase is the single
+      backup point for all of them, not a stand-in for a private key.
+    - >-
+      12-word (128-bit entropy) vs 24-word (256-bit entropy) phrases — both
+      considered unguessable; 24 words framed as a preference for larger
+      treasuries/long-term holdings, not a security requirement.
+  tensions:
+    - >-
+      One phrase controlling many chains is simultaneously the feature (no
+      per-chain backups) and the risk (single point of compromise for
+      everything at once).
+  risks_of_flattening: >-
+    Treating "seed phrase" as interchangeable with "password" undersells that
+    there is no reset mechanism at all — the article stresses this is a
+    categorical difference from conventional account recovery.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/seed-phrases.md
+    transformation: summarized
+    authorship: ai-assisted

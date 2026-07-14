@@ -213,3 +213,537 @@ entries:
         source the way local-node and quadratic-funding are.
     work_order: wo-e009425cced2
     source_lineage: first-90-days.md
+  untitled-36764558:
+    tier: public-with-caveat
+    consent_note: >-
+      The article recommends specific treasury-governance configurations (a
+      3-of-5 Safe multisig signer setup, a graduated-trust ramp culminating in
+      treasury-signing authority) for community finance. This is general
+      best-practice guidance from a toolkit article, not tailored to any
+      specific organization's risk profile, legal context, or membership size.
+      Treat as a starting template requiring steward review before adoption by
+      any one node, per the ingest skill's funding/governance-recommendation
+      high-risk trigger.
+    review_type: steward-review-before-public-use
+    notes: >-
+      Covers the main encyclopedia entry and the Safe multisig resource object
+      from this work order.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-trust.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-06b003d4c0b2
+    source_lineage: building-trust.md
+  untitled-9b511085:
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the ecological/MRV impact claim in 04-claim-evidence.yaml (grazing-
+      land recovery confirmed by satellite) and the two named-location worked
+      examples in the encyclopedia entry (Fatima's group in Hargeisa; a women's
+      cooperative in Berbera). No surnames or other identifying detail beyond
+      first name + general community + location + activity, and the examples
+      read as illustrative rather than confirmed real reporting. Safe to publish
+      as illustrative material with a caveat that specific figures/outcomes are
+      unverified, not as confirmed impact data.
+    review_type: domain-review-required
+    notes: >-
+      High-risk triggers: exact locations (Hargeisa, Berbera) + ecological/
+      MRV/carbon claims (per ingest skill's high-risk triggers list). Covers
+      candidate 04-claim-evidence.yaml and the worked examples in
+      01-encyclopedia-entry.yaml.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dmrv.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-0e8b32eb0398
+    source_lineage: dmrv.md
+  boundary-grant-strategy-funding-sustainability-recommendations-writing-grant-proposals-md:
+    title: >-
+      Boundary — grant strategy / funding-sustainability recommendations
+      (writing-grant-proposals.md)
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the encyclopedia-entry from this work order. The article gives
+      concrete funding-strategy recommendations (diversify away from
+      single-source grants, target a specific sustainability-plan structure,
+      named funding mechanisms and match-pool figures). This is general
+      educational guidance from a toolkit article, not a tailored funding/
+      governance plan for any specific node. Flagged per the ingest skill's
+      high-risk trigger for funding/governance recommendations — treat as a
+      starting framework for discussion, not a compliance-checked funding
+      strategy, before reuse in a context that commits a real node's fundraising
+      plan.
+    review_type: steward-review-before-public-use
+    notes: covers 01-encyclopedia-entry.yaml from this work order.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/writing-grant-proposals.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-44ab6b54437e
+    source_lineage: writing-grant-proposals.md
+  multisig-setup-for-community-treasuries-public-use-boundary:
+    title: Multisig Setup for Community Treasuries — public-use boundary
+    tier: public-with-caveat
+    consent_note: >-
+      This article and its derived objects contain treasury/security
+      configuration guidance (thresholds, signer selection, key management) for
+      real community funds. High-risk trigger: funding/governance
+      recommendations (per skills/ingest) — getting this wrong has direct
+      financial consequences. Should be presented alongside a recommendation to
+      test thoroughly with small amounts first (as the source article itself
+      advises) and not treated as a substitute for a security review by someone
+      experienced with the chosen wallet software before real funds are
+      deposited.
+    review_type: >-
+      domain-review (security/operational) recommended before public-facing
+      promotion past raw
+    work_order: wo-56e6a89fcec1
+    source_lineage: multisig-setup.md
+  untitled-b96eb568:
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the delegation-power-cap governance recommendation
+      (03-claim-evidence.yaml) — a generic design suggestion (cap delegates at
+      20-30% of voting power) from a published guide, not tied to a specific
+      real DAO's funding, legal structure, or named individuals. Safe to publish
+      as one design option among several, but should carry an explicit caveat
+      that it is a recommendation, not a proven/mandatory standard, until a
+      human governance reviewer signs off.
+    review_type: governance-recommendation-review
+    notes: >-
+      High-risk trigger: governance recommendation (per ingest skill's high-risk
+      triggers list). Covers candidate 03-claim-evidence.yaml in this work
+      order.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/delegation-representation.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6675a98b235f
+    source_lineage: delegation-representation.md
+  untitled-6169389d:
+    tier: public-with-caveat
+    consent_note: >-
+      Web3 credentials/SBTs are identity- and reputation-linked by design (tied
+      to a wallet address, aggregated across platforms like Gitcoin Passport).
+      Content here explains the mechanism generally and names no specific
+      individual's credential history, but any future examples or case studies
+      built on this entry should avoid publishing identifiable individuals'
+      wallet-linked credential histories without their consent, since that
+      aggregation is itself a privacy/doxing risk the source article surfaces
+      implicitly (wallet rotation fragmenting/consolidating one's trackable
+      history).
+    review_type: domain-review-for-identity-and-privacy-implications
+    work_order: wo-77d9f87bf031
+    source_lineage: credentials-certifications.md
+  boundary-crypto-donation-tax-financial-guidance-why-accept-crypto-md:
+    title: Boundary — crypto-donation tax/financial guidance (why-accept-crypto.md)
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the encyclopedia-entry and the capital-gains tax example
+      claim-evidence from this work order. The article gives general US-centric
+      tax-benefit guidance and financial-security recommendations (multisig
+      wallets, converting crypto to fiat immediately). Per the ingest skill's
+      high-risk trigger for funding/legal/governance recommendations: this is
+      general education aimed at an East Africa/Somaliland nonprofit audience
+      operating under different tax jurisdictions — do not present as
+      jurisdiction-specific tax or legal advice without a qualified local
+      reviewer before reuse in donor-facing or compliance-relevant materials.
+    review_type: steward-review-before-public-use
+    notes: >-
+      covers 01-encyclopedia-entry.yaml and 02-claim-evidence-tax-example.yaml
+      from this work order.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-accept-crypto.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-7849165f5a17
+    source_lineage: why-accept-crypto.md
+  untitled-dbfc040d:
+    tier: public-with-caveat
+    consent_note: >-
+      The article attributes its rhythm/celebration/gathering model to "East
+      African contexts" broadly — naming saving circles, inter-clan
+      coordination, and community meals after jumu'ah prayers, and later
+      referencing Ramadan and harvest season as normal low-momentum periods —
+      without naming a specific community or citing a community-authored source
+      for these practices. This is a secondary, broad-strokes cultural
+      attribution from a toolkit guide, not sourced directly from the
+      communities named. Do not present as an authoritative ethnographic account
+      of any specific community's practice; seek community-sourced or specialist
+      review before republishing in a context that speaks on behalf of those
+      traditions.
+    review_type: domain-review-before-public-use
+    notes: >-
+      Covers the main encyclopedia entry and the "community momentum flywheel
+      and rhythm model" concept-lineage entry from this work order — flagged per
+      the ingest skill's TEK/cultural-attribution high-risk trigger (parallel to
+      the prior gatherings-pattern.md ingestion in this framework).
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-momentum.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-88bafbd86463
+    source_lineage: building-momentum.md
+  boundary-silvi-dmrv-impact-verification-claim-what-you-can-do-ethereum-md:
+    title: >-
+      Boundary — Silvi dMRV impact-verification claim
+      (what-you-can-do-ethereum.md)
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the claim-evidence entry that dMRV "is used in programs like Silvi
+      to prove tree planting and get paid for impact." This is an MRV/impact-
+      verification claim with no citation in the source article, and the source
+      article itself is flagged factcheck_done: false / review_done: false in
+      its own frontmatter. Per the ingest skill's MRV-claims high-risk trigger:
+      do not present as verified fact without checking Silvi's own documentation
+      before public or funding-relevant reuse.
+    review_type: steward-review-before-public-use
+    notes: >-
+      covers 03-claim-evidence-silvi.yaml and 04-resource-silvi.yaml from this
+      work order.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-you-can-do-ethereum.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-8ded39036549
+    source_lineage: what-you-can-do-ethereum.md
+  boundary-chamas-iqqub-hawala-attribution-in-inclusive-practices-md:
+    title: Boundary — chamas/iqqub/hawala attribution in inclusive-practices.md
+    tier: public-with-caveat
+    consent_note: >-
+      inclusive-practices.md references chamas (Kenya), iqqub (Ethiopia and
+      Eritrea), and hawala networks as evidence that community-designed
+      financial systems already serve people banks refuse. This is a
+      broad-strokes, secondary-source reference to whole national/regional
+      practices, not sourced to a specific community, operator, or citation. Do
+      not present as an authoritative or complete account of these systems; seek
+      community-sourced or specialist review before republishing in a context
+      that speaks on behalf of the communities that run them.
+    review_type: domain-review-before-public-use
+    notes: >-
+      Covers the concept-lineage entry "Informal community savings mechanisms
+      (chamas, iqqub, hawala)" and the accompanying claim-evidence entry (same
+      work order) — flagged per the ingest skill's community/cultural-
+      attribution high-risk trigger.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/inclusive-practices.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-8e6fb42f1e74
+    source_lineage: inclusive-practices.md
+  legal-structures-for-your-local-node-public-use-boundary:
+    title: Legal Structures for Your Local Node — public-use boundary
+    tier: public-with-caveat
+    consent_note: >-
+      This article and its derived objects (encyclopedia-entry, concept-
+      lineage: Legal Wrapper, and the DUNA/501(c)(3) claim-evidence objects)
+      contain jurisdiction- and time-specific legal/governance guidance (entity
+      types, fees, statutes). It is educational summary, not legal advice, and
+      must not be presented to a community as a substitute for consulting a
+      lawyer, cooperative development center, or the relevant Secretary of
+      State/IRS before filing. High-risk trigger: legal/ governance
+      recommendations (per skills/ingest).
+    review_type: >-
+      domain-review (legal) recommended before any public-facing promotion past
+      raw
+    work_order: wo-9984e9183a81
+    source_lineage: legal-structures.md
+  boundary-toucan-verra-carbon-credit-mrv-claim-what-web3-can-cant-do-md:
+    title: Boundary — Toucan/Verra carbon-credit MRV claim (what-web3-can-cant-do.md)
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the claim-evidence entry describing Verra's May 2022 block on
+      Toucan's tokenization of retired carbon credits. This is an MRV/carbon-
+      market claim sourced only to one party's (Toucan's) account of a
+      regulatory dispute. Per the ingest skill's MRV/carbon-claims high-risk
+      trigger: do not present as a settled, neutral account of the dispute
+      without cross-checking Verra's own published ruling before any
+      decision-relevant or public reuse.
+    review_type: steward-review-before-public-use
+    notes: covers 03-claim-evidence-toucan-verra.yaml from this work order.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-web3-can-cant-do.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-9cd1291b92b8
+    source_lineage: what-web3-can-cant-do.md
+  untitled-87837bf2:
+    tier: anonymized-lessons
+    consent_note: >-
+      Article src/content/docs/stories-regens-leap.md presents three named or
+      quoted "case" narratives (Maria's community garden; an unnamed climate-
+      coalition organizer; ReFi Africa entrepreneurs), sourced per frontmatter
+      from "ReFi DAO Local ReFi Toolkit" and "Reimagining Power." These read as
+      illustrative/composite personas rather than independently verified,
+      individually-consented case studies. No public person-nodes were created;
+      only the pattern (start small / find allies / iterate / mission-first) and
+      a couple of anonymized claim-evidence entries were extracted. Treat any
+      reuse of the named details (e.g. "Maria," specific dollar figures) as
+      unverified illustrative material pending confirmation from the original
+      toolkit sources.
+    review_type: domain-review (people-in-content + provenance verification)
+    work_order: wo-a657ed1dd5c3
+    source_lineage: stories-regens-leap.md
+  untitled-0c15efd3:
+    tier: public-with-caveat
+    consent_note: >-
+      Tax/legal framing in this article (esp. the capital-gains-avoidance claim)
+      is vendor-sourced messaging guidance, not verified tax advice for any
+      specific jurisdiction; flag for domain review before treating as guidance
+      an org can rely on. Ties to 02-claim-evidence-capital-gains.yaml.
+    review_type: domain-review-for-tax-and-legal-claims
+    work_order: wo-a729337a8976
+    source_lineage: communicating-stakeholders.md
+  boundary-article-written-for-a-named-vulnerable-population-program-sarreya:
+    title: >-
+      Boundary — article written for a named vulnerable-population program
+      (Sarreya)
+    tier: public-with-caveat
+    consent_note: >-
+      The source article ("Why Does This Matter For You?" section) directly
+      addresses "you, a young woman in Sarreya programs" and references "Sarreya
+      coordinators and program leaders" — naming a specific training/mentorship
+      program that appears (from sibling articles in this batch referencing
+      Somaliland/East Africa) to serve a vulnerable population. No individual
+      names or exact locations are given, but the program name itself is a
+      potential identifier. Do not create a public person-node or expand this
+      into named-individual detail; treat the "Sarreya" reference as a high-risk
+      trigger (identity/community profile) per the ingest skill's guardrails.
+    review_type: steward-review-before-public-use
+    notes: >-
+      Applies to the sibling encyclopedia-entry and concept-lineage candidates
+      from this same work order. Recommend a human reviewer confirm whether
+      "Sarreya" should be named at all in any public-facing derived content, or
+      generalized to "community training programs."
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/onchain-attestations.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-b40786d63ff2
+    source_lineage: onchain-attestations.md
+  boundary-organizational-security-treasury-recommendations-carry-real-financial-risk:
+    title: >-
+      Boundary — organizational security/treasury recommendations carry real
+      financial risk
+    tier: public-with-caveat
+    consent_note: >-
+      This article gives concrete operational security recommendations for
+      organizations holding real cryptocurrency treasuries (multi-sig
+      thresholds, hot/cold wallet splits, access-control tiers, emergency
+      response procedures). If treated as complete or authoritative guidance
+      without adaptation to a specific organization's context, gaps could
+      directly expose real funds. Per the ingest skill's high-risk triggers
+      ("funding... recommendations"), flag for security-domain-expert review
+      before promotion to public "reviewed" guidance.
+    review_type: security-domain-expert-review-before-promotion
+    notes: >-
+      Applies to the sibling encyclopedia-entry, concept-lineage, claim-
+      evidence, and resource candidates from this same work order.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/security-best-practices-orgs.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-b79788c6a798
+    source_lineage: security-best-practices-orgs.md
+  boundary-treasury-multisig-and-funding-source-recommendations-what-is-local-node-md:
+    title: >-
+      Boundary — treasury/multisig and funding-source recommendations
+      (what-is-local-node.md)
+    tier: public-with-caveat
+    consent_note: >-
+      The article gives concrete governance/treasury recommendations (a 3-of-5
+      Safe multisig as a "sane default," Snapshot for voting, naming the
+      Localism Fund and Gitcoin quadratic funding as funding sources). This is
+      general educational guidance from a toolkit article, not tailored
+      legal/financial/governance advice for any specific organization. Flagged
+      per the ingest skill's high-risk trigger for funding/legal/governance
+      recommendations — treat as a starting point for discussion, not a
+      compliance-checked recommendation, before reuse in a context that commits
+      real funds.
+    review_type: steward-review-before-public-use
+    notes: >-
+      Covers the encyclopedia-entry and the two claim-evidence entries from this
+      work order (Localism Fund, Incubator).
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-local-node.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-d579c610b491
+    source_lineage: what-is-local-node.md
+  boundary-us-crypto-donation-tax-compliance-guidance-giveth-donations-md:
+    title: >-
+      Boundary — US crypto-donation tax/compliance guidance
+      (giveth-donations.md)
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the claim-evidence entry on US Form 990 Schedule M / Form 8283 /
+      2026 AGI-floor rules (same work order). This is general educational
+      summary of published tax rules, not tailored legal/tax advice for any
+      specific node; a node should confirm current thresholds with a qualified
+      tax advisor before acting on it, especially given the article's own note
+      that the underlying law changed in 2026.
+    review_type: domain-review-before-acting (tax/legal)
+    notes: >-
+      High-risk trigger: funding/legal recommendation (master doc §5 triggers).
+      Flagging per the ingest skill's rule that legal/funding recs require
+      high_risk + a public-use-boundary.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/giveth-donations.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-e98c2d2a09ac
+    source_lineage: giveth-donations.md
+  untitled-f874da11:
+    tier: public-with-caveat
+    consent_note: >-
+      Claims about Silvi Protocol's tree-verification pipeline and automated
+      payment mechanism are drawn from a single promotional playbook
+      (src/content/docs/silvi-protocol.md, sources: [] in frontmatter). Treat
+      verification-accuracy and "provable impact" claims as unverified marketing
+      language until corroborated against Silvi's own technical documentation or
+      an independent audit. No named individuals or specific planting locations
+      were captured; this boundary is about the MRV/ecological-claim content,
+      not personal data.
+    review_type: domain-review (MRV/ecological-claims + third-party protocol accuracy)
+    work_order: wo-ec7a53915677
+    source_lineage: silvi-protocol.md
+  boundary-wallet-recovery-inheritance-recommendations-carry-real-financial-risk:
+    title: >-
+      Boundary — wallet recovery/inheritance recommendations carry real
+      financial risk
+    tier: public-with-caveat
+    consent_note: >-
+      This article gives concrete operational recommendations for safeguarding
+      and recovering real financial assets (seed-phrase storage locations,
+      multi-sig threshold configurations, inheritance/succession procedures) for
+      both individuals and organizational treasuries. A wrong or outdated
+      recommendation, if treated as authoritative guidance, could directly cause
+      loss of funds. Per the ingest skill's high-risk triggers ("funding...
+      recommendations"), flag for domain-expert (security practitioner) review
+      before being promoted to public "reviewed" guidance.
+    review_type: security-domain-expert-review-before-promotion
+    notes: >-
+      Applies to the sibling encyclopedia-entry, concept-lineage, and resource
+      candidates from this same work order — none of these should be treated as
+      definitive security guidance until reviewed.
+    high_risk: true
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/recovery-planning.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-efc28adfc7a7
+    source_lineage: recovery-planning.md
+  boundary-financial-safety-guidance-on-wallet-setup-and-recovery-phrases-setting-up-first-wallet-md:
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/setting-up-first-wallet.md
+    title: >-
+      Boundary — financial-safety guidance on wallet setup and recovery phrases
+      (setting-up-first-wallet.md)
+    tier: public-with-caveat
+    consent_note: >-
+      High-stakes, irreversible financial-safety guidance (recovery-phrase
+      handling, self-custody). Publish only with the caveat that loss of the
+      recovery phrase is unrecoverable and the steps reflect MetaMask's flow at
+      time of writing; a human should verify the setup steps against the current
+      MetaMask UI before promotion.
+    review_type: domain-review
+    work_order: wo-f176964ca85a
+    source_lineage: setting-up-first-wallet.md
+  untitled-8fba7701:
+    tier: public-with-caveat
+    consent_note: >-
+      This article names real, identifiable community organizers (Tereza Bízková
+      and Juan Giraldo of ReFi Medellín; Daniela, Ximena, Diana Monclou, and
+      Fabio Anaya of ReFi Cartagena) and recommends specific governance/treasury
+      structures (multisig signer counts, role concentration limits) for local
+      nodes. The named individuals are already public in the article's own cited
+      sources (a public Medium interview and a public grant report on the ReFi
+      coordination hub), but this ingestion reproduces their names and roles
+      secondhand without directly re-confirming current consent for wider reuse.
+      Governance/treasury recommendations are general best-practice guidance,
+      not org-specific advice, and should be reviewed by a steward before being
+      presented as authoritative for any one node's specific situation.
+    review_type: steward-review-before-public-use
+    notes: >-
+      Covers the ReFi Medellín and ReFi Cartagena resource objects and the main
+      encyclopedia entry from this work order (people/community-profile and
+      funding/governance-recommendation high-risk triggers per the ingest
+      skill).
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-founding-team.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-f2680cdb2876
+    source_lineage: building-founding-team.md
+  boundary-governance-sequencing-recommendation-governance-mechanism-design-md:
+    title: >-
+      Boundary — governance-sequencing recommendation
+      (governance-mechanism-design.md)
+    tier: public-with-caveat
+    consent_note: >-
+      Covers the claim-evidence entry recommending consent-based decisions
+      first, then quadratic voting plus delegation (same work order). This is a
+      generic governance-design pattern from a draft-status article, not
+      tailored governance advice for any specific DAO or community; a group
+      should treat it as a starting hypothesis to test against their own
+      context, not a validated best practice.
+    review_type: steward-review-before-public-use
+    notes: >-
+      High-risk trigger: governance recommendation (master doc §5 triggers).
+      Source article's own frontmatter status is "draft" (unlike the other nine
+      articles in this batch, which are "published") — worth the reviewer's
+      attention alongside the content risk.
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/governance-mechanism-design.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-f2e5810230ed
+    source_lineage: governance-mechanism-design.md
+  untitled-1555d304:
+    tier: restricted-working-notes
+    consent_note: >-
+      Entire article is US-centric tax/legal guidance sourced from a single
+      donation-platform-adjacent hub (CryptoAltruists), not primary legal/tax
+      authority. Do not surface as jurisdiction-general legal advice without a
+      domain (tax/legal) reviewer signing off; the source article itself tells
+      readers to consult a nonprofit lawyer.
+    review_type: domain-review-for-tax-and-legal-claims
+    work_order: wo-f8cf63c4e847
+    source_lineage: compliance-legal.md
+  untitled-22cdaa83:
+    tier: public-with-caveat
+    consent_note: >-
+      Article src/content/docs/tax-implications.md provides US-specific
+      cryptocurrency tax guidance (capital gains treatment, taxable events,
+      NFT/DeFi tax tables, IRS forms). It carries the source's own disclaimer:
+      "Educational purposes only. Not tax advice. Consult a qualified
+      professional for your specific situation." Flag for domain review before
+      any public reuse, especially outside a US tax context, and note the
+      article's own acknowledgment that the NFT "collectibles" tax treatment is
+      debated/unsettled.
+    review_type: domain-review (tax/legal accuracy + jurisdiction scope)
+    work_order: wo-f9ef4b407217
+    source_lineage: tax-implications.md

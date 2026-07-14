@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: ERC-20 (Fungible Token Standard)
+  type: concept-lineage
+  short_description: >-
+    The most widely used Ethereum token standard, covering fungible tokens where
+    every unit is interchangeable with every other unit, with a shared interface
+    for balances, transfers, and delegated spending.
+  source_traditions:
+    - Ethereum Improvement Proposal 20 (ERC-20), per ethereum.org documentation.
+  toolkit_usage: >-
+    Named in the article as the standard behind community currencies, governance
+    tokens, loyalty/reward systems, and stablecoins like USDC.
+  adjacent_meanings:
+    - fungible token
+  important_distinctions:
+    - >-
+      ERC-20 vs ERC-721: every ERC-20 unit is identical to every other unit,
+      unlike ERC-721's one-of-a-kind tokens.
+  tensions:
+    - >-
+      ERC-20 tokens sent to an incompatible smart-contract address can become
+      permanently stuck — a well-known standard-level footgun the article
+      quantifies (see accompanying claim-evidence).
+  risks_of_flattening: >-
+    Describing ERC-20 only through its "SIM card" interoperability analogy risks
+    omitting the real-world failure mode (irrecoverable loss on
+    incompatible-address sends) that the article itself flags as a named
+    limitation.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/token-standards.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d9f74145465f
+  source_lineage: token-standards.md

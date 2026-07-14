@@ -1,0 +1,24 @@
+schema: signal
+object:
+  title: "Composite/anonymized adoption narratives should not become person-nodes"
+  type: signal
+  signal_type: content
+  affected_layer: layer-9-evolution-signals
+  interpretation: >-
+    The three stories in this article (Maria, climate coalition, ReFi
+    Africa) are illustrative case narratives drawn from secondary toolkit
+    sources, not independently verified individual accounts. They usefully
+    illustrate a recurring on-ramp pattern (start small, find one ally,
+    iterate through mistakes, stay mission-focused) worth preserving as a
+    concept, but should not be treated as verified citations or expanded
+    into named person/org profiles without going back to the original
+    sourced toolkits for consent and verification.
+  proposed_intervention: preserve
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/stories-regens-leap.md
+    transformation: synthesized
+    authorship: ai-assisted

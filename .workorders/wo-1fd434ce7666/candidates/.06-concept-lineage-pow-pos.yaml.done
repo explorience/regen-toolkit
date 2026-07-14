@@ -1,0 +1,32 @@
+schema: concept-lineage
+object:
+  title: Proof of Work vs Proof of Stake
+  type: concept-lineage
+  short_description: >-
+    The two dominant consensus mechanisms blockchains use to agree on the
+    record book, with very different energy footprints — the article uses this
+    distinction to give a precise (not hand-wavy) answer to "is crypto bad for
+    the environment."
+  toolkit_usage: >-
+    Used in common-concerns.md to explain why Bitcoin (proof of work,
+    ~140-175 TWh/year per Cambridge CBECI) and Ethereum/Celo (proof of stake,
+    ~99.95% less energy after Ethereum's 2022 "Merge") cannot be answered with
+    one blanket environmental verdict.
+  adjacent_meanings:
+    - mining (the proof-of-work compute race)
+    - staking (the proof-of-stake deposit-and-follow-rules model)
+  important_distinctions:
+    - "the network/consensus method, not 'crypto' as a category, determines energy footprint"
+  tensions:
+    - security-via-energy-expenditure (PoW) vs security-via-economic-stake (PoS)
+  risks_of_flattening: >-
+    Treating "crypto" as a single monolithic energy story erases the real,
+    large difference between individual networks' designs.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-concerns.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-1fd434ce7666
+  source_lineage: common-concerns.md

@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: Blockchain transparency is a double-edged sword ("transparency paradox")
+  type: claim-evidence
+  claim: >-
+    Blockchain transparency has enabled real-time monitoring, detection of
+    suspicious token movements, and community enforcement without
+    regulators, and on-chain analytics have exposed insider trading and
+    concentrated ownership — but that same visibility of wallet holdings,
+    vault exposures, and open positions lets sophisticated actors plan
+    attacks precisely, and can trigger backlash against legitimate
+    concentrated-ownership cases.
+  evidence: >-
+    General assertion in the article; the only named supporting
+    resource/tool is Dune Analytics (dune.com) in the References section,
+    with no specific cited incident, dataset, or study for the "exposed
+    insider trading" or "enabled attacks" claims.
+  source_lineage: src/content/docs/trust-transparency.md
+  interpretation: >-
+    Central nuance of the article — used to argue that transparency's value
+    is not unconditionally positive, and that system design must actively
+    manage the trade-off rather than assume more visibility is always safer.
+  uncertainty: >-
+    No specific named incident, dataset, or citation backs either side of the
+    paradox (neither the "exposed fraud" cases nor the "enabled attacks"
+    cases); this is presented as a generally-known dynamic in the space
+    rather than a documented, sourced case study.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/trust-transparency.md
+    transformation: summarized
+    authorship: ai-assisted

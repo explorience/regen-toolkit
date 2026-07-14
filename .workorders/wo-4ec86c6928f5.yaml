@@ -1,0 +1,25 @@
+id: wo-4ec86c6928f5
+title: ingest which-chain-right.md
+type: work-order
+source_path: which-chain-right.md
+source_hash: e158b0b0dba6826b3884fda6708ee23b18fcd1e21938006262dd6452248468c0
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#which-chain-is-right-for-your-project
+  - data/kb/concept-lineage.yaml#blockchain-trilemma
+  - >-
+    data/kb/claim-evidence.yaml#comparative-tps-and-typical-fees-across-five-chains-ethereum-l1-base-arbitrum-solana-polygon
+  - data/kb/resource.yaml#l2beat

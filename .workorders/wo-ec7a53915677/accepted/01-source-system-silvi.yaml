@@ -1,0 +1,45 @@
+schema: source-system
+object:
+  title: Silvi Protocol
+  type: docs-site
+  steward: Silvi
+  return_path: >-
+    unset in article — join the Silvi community on Telegram or Twitter per the
+    article's "Next Steps"; no formal contribute-back channel confirmed in this
+    source.
+  url: https://silvi.earth
+  what_it_curates: >-
+    A mobile-app-based protocol for documenting tree planting: photo +
+    geolocation capture, AI + community verification of tree existence and
+    species, and automated stablecoin (cUSD/USDC) payment to planters once
+    verified, all recorded on-chain. Integrates the Treekipedia tree-species
+    database.
+  why_it_matters: >-
+    Cited in the playbook as a way for individual planters/communities to prove
+    reforestation impact directly to funders without a middleman, and to get
+    paid automatically once verified.
+  use_type: >-
+    dMRV (decentralized monitoring, reporting, verification) tool for tree
+    planting
+  return_path_note: not independently confirmed in this source beyond community channels
+  currentness: article created/updated March 2026
+  extraction_status: >-
+    partial — captured only as framed in this single promotional playbook, not
+    from Silvi's own technical/legal docs
+  toolkit_route: layer-9-evolution-signals
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/silvi-protocol.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    high_risk: true — this is an ecological/MRV impact-verification and payment
+    claim about a named third-party protocol; see accompanying
+    public-use-boundary candidate. "type" set to docs-site per ingest
+    instructions (no platform/dapp enum value exists; docs-site is the closest
+    fit for a protocol's public-facing site/app).
+  work_order: wo-ec7a53915677
+  source_lineage: silvi-protocol.md

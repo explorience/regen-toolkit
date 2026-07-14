@@ -1,0 +1,35 @@
+schema: claim-evidence
+object:
+  title: A buddy system measurably improves newcomer onboarding satisfaction and retention
+  type: claim-evidence
+  claim: >-
+    Pairing each newcomer with one existing member as a "buddy" measurably
+    raises onboarding satisfaction and retention: Microsoft's internal
+    onboarding-buddy program found new hires with a buddy were 23% more
+    satisfied with onboarding in their first week, rising to 36% more
+    satisfied by 90 days; separately, a membership-sector analysis puts
+    members who don't engage in their first 90 days at 60-70% more likely to
+    be gone by renewal.
+  evidence: >-
+    Article cites: Microsoft, "Every New Employee Needs an Onboarding Buddy"
+    (techcommunity.microsoft.com, internal HR study, 23%→36% figures); i4a,
+    "90-Day New Member Onboarding" (i4a.com, membership-sector data behind the
+    60-70% figure); VolunteerHub, "Onboarding for Retention" (volunteerhub.com,
+    the "leave knowing one person's name" retention pattern).
+  source_lineage: src/content/docs/onboarding-members.md (References section)
+  interpretation: >-
+    Used to justify the buddy system as "the single highest-leverage move" for
+    local-node onboarding, and to support treating the first-90-days window as
+    the critical retention period.
+  uncertainty: >-
+    The article itself explicitly flags this: "Treat the exact percentages as
+    directional, not gospel (they come from corporate HR contexts)." The
+    Microsoft and i4a figures are drawn from corporate/membership-association
+    contexts, not volunteer-run regenerative-finance local nodes specifically,
+    so the magnitude may not transfer even if the direction is sound.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onboarding-members.md
+    transformation: summarized
+    authorship: ai-assisted

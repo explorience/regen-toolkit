@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Token-quorum voting typically sees participation below 10%
+  type: claim-evidence
+  claim: >-
+    Under token-based quorum voting, many DAOs set a quorum around 4% of all
+    token holders needing to vote for a result to be valid, but actual
+    participation is often below 10%, and because voting power follows
+    token holdings, wealthy actors can buy votes or make sudden moves to
+    swing outcomes.
+  evidence: >-
+    General assertion in the article; no specific dataset, DAO name, or
+    citation is given for the "often below 10%" participation figure or the
+    "4% quorum" norm.
+  source_lineage: src/content/docs/voting-mechanisms.md
+  interpretation: >-
+    Used to establish quorum voting's core weakness (low participation +
+    plutocratic power) that the other five mechanisms in the article are
+    each, in different ways, a response to.
+  uncertainty: >-
+    Both the "4% is a common quorum" and "often below 10% participation"
+    figures are presented as general industry knowledge without a named
+    source, dataset, or specific DAO example — should be treated as
+    plausible-but-unverified pending a citation.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/voting-mechanisms.md
+    transformation: summarized
+    authorship: ai-assisted

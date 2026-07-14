@@ -1,0 +1,46 @@
+schema: encyclopedia-entry
+object:
+  title: Conflict Resolution for Local Nodes
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practitioner playbook for handling disagreement in a local regen node:
+    most conflict is really about trust/power/being-unheard rather than the
+    surface issue; the Gottman-style escalation ladder (disagreement → contempt
+    → stonewalling); why reaching for a governance mechanism to end a fight
+    tends to break trust instead (the Aragon $200M treasury episode); five
+    NVC-informed principles; a six-step clean conflict process; when tooling
+    like 1Hive's optimistic-governance covenant-challenge pattern or Kleros
+    arbitration genuinely helps; the slow-burn contributor-rewards conflict
+    (SourceCred, Gitcoin stewards); and when to escalate outside the node.
+  audience: people stewarding or organizing a local regen node/chapter
+  known_tensions:
+    - >-
+      reaching-for-a-mechanism-to-end-discomfort vs
+      protecting-the-relationship-first
+    - >-
+      rewarding-contribution-algorithmically vs
+      agreeing-on-values-before-metrics
+  related_concepts:
+    - nonviolent-communication
+    - optimistic-governance
+    - conflict-escalation-ladder
+  related_resources:
+    - Gardens v2 (1Hive)
+    - Celeste
+    - Kleros
+    - Snapshot
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/conflict-resolution.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ee6204d14f2b
+  source_lineage: conflict-resolution.md
+  notes: |
+    # assessed-but-excluded
+    - the Aragon, SourceCred, and Gitcoin case studies are treated as
+      organizational/governance history (public, already-reported DAO events),
+      not person-nodes; no named private individuals.

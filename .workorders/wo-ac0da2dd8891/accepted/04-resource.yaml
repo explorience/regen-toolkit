@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Arbitrum
+  type: resource
+  resource_type: layer-2-network
+  original_source: src/content/docs/gas-fees.md
+  related_concepts:
+    - gas-fee-eip-1559-base-fee-plus-tip-model
+  notes: >-
+    Named as an example Layer 2 network for cheap, fast transactions; no URL
+    given in this article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gas-fees.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-ac0da2dd8891
+  source_lineage: gas-fees.md

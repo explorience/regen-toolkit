@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: ReFi Cartagena
+  type: resource
+  resource_type: org
+  high_risk: true
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: unresolved
+  related_concepts:
+    - node-founding-team-roles
+  maturity: raw
+  public_use: requires-community-consent
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md
+  notes: >-
+    A ReFi node cited as an example of a tight core founding team: four named
+    team leaders per the article's cited source (a public grant report) —
+    Daniela, Ximena, and Diana Monclou plus Fabio Anaya. Named individuals are
+    reproduced here only as already publicly cited in the article's own source;
+    see the companion public-use-boundary object for reuse guidance.

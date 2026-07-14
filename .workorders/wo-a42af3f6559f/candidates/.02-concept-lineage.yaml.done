@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: "Centralization vs decentralization spectrum"
+  type: concept-lineage
+  short_description: >-
+    Centralized systems put one authority in charge of a resource or
+    decision (a bank, a single telecom's mobile-money network, a handful of
+    large farms); decentralized systems spread control across many
+    independent parts that collaborate toward shared goals (cooperatives,
+    rotating savings circles, seed banks, Bitcoin). Most real systems are
+    hybrids somewhere on a spectrum between the two poles.
+  source_traditions:
+    - Bankless Academy's "Foundations of Decentralization" course
+    - permaculture design principles (resilience through diversity)
+    - food-systems resilience research (PMC 2022 study)
+  toolkit_usage: >-
+    Used as a foundations-layer bridge concept: reframes "decentralization"
+    for an audience of gardeners and permaculturists by mapping it onto
+    systems they already run (community gardens, seed swaps, cooperatives)
+    before connecting it to blockchain/crypto examples like Bitcoin.
+  adjacent_meanings:
+    - technical/architectural decentralization (node count, consensus mechanism)
+    - economic decentralization (distributed ownership of value/tokens)
+  important_distinctions:
+    - "the spectrum framing: most effective organizations are hybrids (e.g. a steering committee providing coordination while individual members make their own decisions), not purely one pole or the other"
+    - "single point of failure is the article's named weakness of centralization; distributed resilience (the whole continues if one node fails) is its named strength for decentralization"
+  tensions:
+    - >-
+      the article's cited 2022 study found decentralization improves
+      supply-chain resilience but centralization can better address labor
+      shortages — used to argue "decentralization is not always the answer,"
+      not a categorical claim of superiority either way.
+  risks_of_flattening: >-
+    Treating decentralization as an unqualified good (or centralization as
+    an unqualified failure mode) erases the article's explicit both-sided
+    framing and its closing line: "neither is inherently better. The
+    question is which approach fits the problem you are trying to solve."
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/centralized-vs-decentralized.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a42af3f6559f
+  source_lineage: centralized-vs-decentralized.md

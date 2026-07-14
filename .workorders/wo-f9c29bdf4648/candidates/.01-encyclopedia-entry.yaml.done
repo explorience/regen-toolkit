@@ -1,0 +1,43 @@
+schema: encyclopedia-entry
+object:
+  title: Choosing a Model for Your Local Node
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Compares four organizational models local ReFi nodes actually use — the
+    Collective (5-10 people, consensus), Working Groups (10-30, domain
+    autonomy, ReFi DAO's "Network Initiatives" as the network-scale
+    example), the Council (20-50+, consent-based governance, ReFi DAO's
+    Steward Council as the example), and the Cooperative (15+, formal legal
+    entity) — with a size/formality/decision-speed/legal-protection
+    comparison table and guidance to evolve on purpose between models as
+    group size and treasury size grow, rather than in crisis.
+  audience: local-node organizers deciding on or evolving their governance structure
+  known_tensions:
+    - >-
+      structure vs. overhead — "the honest rule: pick the simplest model
+      that holds your current size and stakes... structure you don't need
+      yet is just overhead"
+  related_concepts:
+    - Consent-based Governance (sociocracy)
+  related_resources:
+    - Safe (multisig wallet)
+    - Open Collective
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-node-model.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+#   - ReFi DAO and Greenpill Network are referenced here as illustrative
+#     examples of Working-Groups/Council models at network scale; they are
+#     not lifted as standalone resource objects in THIS work order to avoid
+#     duplicating the Safe/Open Collective + ReFi-DAO/Greenpill resource
+#     objects created for the sibling article local-nodes-and-daos.md
+#     (same batch, same run) — see that work order's candidates for
+#     Snapshot and Hats Protocol, and this one's for Safe and Open
+#     Collective, so the same tool/org is not registered twice under two
+#     slightly different titles.

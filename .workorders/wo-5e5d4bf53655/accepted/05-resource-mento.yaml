@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Mento (Celo local-currency stablecoins)
+  type: resource
+  url: https://www.mento.org/
+  resource_type: protocol
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - subsidiarity
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-local-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Issues local-currency stablecoins on Celo (a mobile-first Ethereum Layer 2),
+    including cKES (Kenya), cREAL (Brazil), cCOP (Colombia), and PUSO
+    (Philippines) — cited as a "borrow rather than build" tool for community
+    currency.
+  work_order: wo-5e5d4bf53655
+  source_lineage: why-local-matters.md

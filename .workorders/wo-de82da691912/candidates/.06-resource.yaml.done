@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Avalanche
+  type: resource
+  url: https://docs.avax.network
+  resource_type: layer-1 blockchain with custom-subnet architecture
+  link_status: active
+  notes: >-
+    Uses a consensus mechanism distinct from Proof of Work and standard Proof
+    of Stake to process thousands of transactions per second while
+    maintaining decentralization; its subnet architecture lets a project spin
+    up an independent blockchain network with its own tokens, rules, and
+    validator set within the Avalanche ecosystem. Article suggests subnets fit
+    a carbon-tracking network, community currency, or local regenerative
+    economy that wants its own chain while staying connected to a larger
+    ecosystem.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/other-chains.md
+    transformation: summarized
+    authorship: ai-assisted

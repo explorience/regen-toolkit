@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: Ethereum Security QF round (Apr 23-May 14 2026) — Giveth's largest matching pool
+  type: claim-evidence
+  claim: >-
+    "The Ethereum Security QF round (April 23 to May 14, 2026) ran a
+    637.4274 ETH matching pool, Giveth's largest ever, drawing $315,020 in
+    community donations across 13,805 transactions from 3,934 unique donors
+    across 134 projects."
+  evidence: >-
+    Cited to the Giveth Forum results thread, "Ethereum Security QF Round
+    Results, Apr, May 2026" (forum.giveth.io), listed in the article's References.
+  source_lineage: "src/content/docs/giveth-donations.md, References: forum.giveth.io Ethereum Security QF Round Results thread"
+  interpretation: >-
+    A specific, sourced, quantitative result reported directly from Giveth's
+    own forum post-round summary; used in the article to make Giveth's
+    quadratic-funding scale claim concrete rather than abstract.
+  uncertainty: >-
+    Single-source figure (Giveth's own forum announcement), not
+    independently cross-checked at ingestion time; describes one historical
+    round and should not be read as typical or ongoing round size.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: quoted
+    authorship: ai-assisted

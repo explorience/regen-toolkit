@@ -1,0 +1,24 @@
+schema: signal
+object:
+  title: "building-momentum.md sources are generic categories with no inline citations despite factcheck_done: true"
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia (content review / fact-check)
+  interpretation: >-
+    The article's frontmatter lists `sources: [Greenpill Local Regen Guide,
+    Community building literature, DAO governance]` — generic categories
+    rather than specific, dereferenceable citations — alongside
+    `factcheck_done: true`, `review_done: true`, and `critique_done: true`.
+    The article body has a References section but it repeats the same
+    generic, non-linked categories rather than specific sources. This
+    matches the metadata-integrity pattern flagged in sibling articles
+    (building-in-public.md, building-internal-capacity.md) in this batch.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-momentum.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-88bafbd86463
+  source_lineage: building-momentum.md

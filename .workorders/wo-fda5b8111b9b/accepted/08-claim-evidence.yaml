@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: DAOs collectively manage $30B+ across 13,000+ organizations
+  type: claim-evidence
+  claim: >-
+    Together, DAOs now manage over $30 billion in collective assets across more
+    than 13,000 organizations globally.
+  evidence: >-
+    Stated directly in the article's "The Big Picture" section, framed as
+    context for why the tooling ecosystem matters; article's reference list
+    cites Yellow.com's "2025 Platform Guide" as a general source for the DAO
+    tooling landscape.
+  interpretation: >-
+    Used to establish scale and stakes before walking through specific tool
+    categories — the implicit argument is that this much real money being
+    coordinated justifies investing in good tooling.
+  uncertainty: >-
+    No specific dataset, date-stamp, or direct citation is attached to this
+    exact figure within the article body; treat as an approximate,
+    unverified-in-this-source aggregate statistic pending cross-check against a
+    dedicated DAO analytics source (e.g. DeepDAO).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-fda5b8111b9b
+  source_lineage: dao-tooling.md

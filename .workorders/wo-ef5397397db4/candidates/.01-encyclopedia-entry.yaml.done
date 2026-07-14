@@ -1,0 +1,45 @@
+schema: encyclopedia-entry
+object:
+  title: "What Are Tokens? A Beginner's Guide to Digital Assets"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Explains tokens as "digital keys" built on blockchain technology (using
+    a theme-park-pass analogy), distinguishes them from native coins,
+    contrasts fungible tokens (interchangeable, e.g. cryptocurrencies,
+    stablecoins) with non-fungible tokens/NFTs (unique, one-of-a-kind),
+    explains how smart contracts execute token logic (vending-machine
+    analogy), covers ERC-20/ERC-721/ERC-1155 token standards, and frames
+    tokens' relevance to regenerative communities via carbon-credit
+    tokenization and cooperative/community-asset ownership.
+  audience: permaculture teachers, land stewards, and regenerative communities new to tokens
+  known_tensions:
+    - tokens-as-speculative-assets vs tokens-as-representations-of-real-value (carbon credits, land stewardship rights)
+    - technology-still-evolving vs legitimate volatility/regulation concerns (named directly in the conclusion)
+  related_concepts:
+    - fungible-vs-nonfungible-tokens
+    - token-standards-erc20-erc721-erc1155
+  related_resources:
+    - Carbonmark
+    - Puro.earth
+    - KlimaDAO
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-are-tokens.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-are-tokens.md
+  notes: |
+    # assessed-but-excluded
+    - Bankless Academy and Ledger Academy are named only as general
+      education-platform references in the article's reference list, not
+      elaborated on in the body text; excluded as separate resource objects
+      to avoid mega-listing thin mentions (small-objects-over-mega-objects,
+      but this is the reverse: skip near-empty ones).
+    - the M-Pesa mobile-money mention (East Africa) is captured as a
+      resource object below rather than excluded, since the article uses
+      it as a concrete fungible-token analogy, not just a passing mention;
+      no high-risk trigger (it names a public financial system, not
+      individuals or exact locations).

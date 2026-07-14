@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Safe (formerly Gnosis Safe)
+  type: resource
+  resource_type: tool
+  url: https://safe.global
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: what-is-dao.md
+  related_concepts:
+    - dao-core-parts
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-dao.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-dao.md
+  work_order: wo-e5c042958e07

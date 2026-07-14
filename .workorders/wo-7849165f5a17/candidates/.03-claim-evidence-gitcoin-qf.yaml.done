@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Gitcoin Grants has distributed over $60M through quadratic funding
+  type: claim-evidence
+  claim: >-
+    Gitcoin Grants has distributed over $60 million through quadratic funding
+    rounds, with hundreds of thousands of unique donors contributing to
+    thousands of projects, and regenerative/open-source projects have been
+    significant beneficiaries.
+  evidence: >-
+    Referenced to "Gitcoin Grants quadratic funding rounds" (gitcoin.co/grants)
+    in the article's References; no specific dated snapshot is cited for the
+    $60M figure.
+  source_lineage: src/content/docs/why-accept-crypto.md
+  interpretation: >-
+    Used to introduce quadratic funding as a mechanism organizations can
+    participate in without understanding the technical mechanics, by "showing
+    up where these conversations are happening."
+  uncertainty: >-
+    Cumulative platform-level figure likely to be understated by the time this
+    is read (Gitcoin's distributed total grows with each round); no as-of date
+    given in the article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-accept-crypto.md
+    transformation: summarized
+    authorship: ai-assisted

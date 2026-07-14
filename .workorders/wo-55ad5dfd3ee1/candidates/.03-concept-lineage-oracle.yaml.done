@@ -1,0 +1,40 @@
+schema: concept-lineage
+object:
+  title: Blockchain Oracle
+  type: concept-lineage
+  short_description: >-
+    A service that feeds external, real-world data (weather, shipment
+    arrival, prices) into a blockchain so smart contracts — which are closed
+    systems by design — can respond to real-world events.
+  source_traditions:
+    - >-
+      Framed in the article as the answer to smart contracts' fundamental
+      limitation: a blockchain cannot natively observe anything outside
+      itself.
+  toolkit_usage: >-
+    Used to explain why smart-contract failures in practice are often oracle
+    failures (bad or manipulated data feeds), not contract-logic failures —
+    directly relevant to regenerative-monitoring and supply-chain use cases.
+  adjacent_meanings:
+    - data feed
+    - real-world bridge
+  important_distinctions:
+    - >-
+      Oracle (external data provider) vs smart contract (the on-chain logic
+      that consumes that data) — two separate trust surfaces.
+  tensions:
+    - >-
+      Oracles reintroduce a trust/centralization point into an otherwise
+      "trustless" system, which the article flags as "worth knowing before
+      you trust a contract with real value."
+  risks_of_flattening: >-
+    Discussing smart contracts without naming the oracle dependency risks
+    implying blockchain systems are fully autonomous verifiers of physical
+    reality, when they in fact inherit the reliability of whatever oracle
+    feeds them.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/smart-contracts-explained.md
+    transformation: summarized
+    authorship: ai-assisted

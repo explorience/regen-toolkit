@@ -1,0 +1,48 @@
+schema: encyclopedia-entry
+object:
+  title: Knowledge Gardens
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    How to build a community knowledge garden that survives contributor
+    turnover: linking over filing, openly-marked growth stages
+    (seedling/budding/evergreen), and active tending by a named gardener.
+    Uses SuperBenefit's public Knowledge Garden as a worked model (Docs,
+    Lexicon, Links, Patterns) and recommends plain markdown + Git (Obsidian
+    + Quartz + GitHub) as the durable, non-lock-in tool stack.
+  audience: community organizers and local-node stewards building a team knowledge commons
+  known_tensions:
+    - >-
+      polished, collaboration-friendly tools (Notion) vs. durable,
+      portable-in-plain-text tools (Markdown + Git) — the article resolves
+      this as "own your source of truth in plain text and Git; use anything
+      prettier as a window onto it, not the vault itself"
+  related_concepts:
+    - Digital Garden (seedling/budding/evergreen)
+    - knowledge commons
+  related_resources:
+    - Obsidian
+    - Quartz
+    - SuperBenefit Knowledge Garden
+    - GravityDAO
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-gardens.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+#   - Mike Caulfield and Maggie Appleton were not modeled as public person-
+#     nodes (signals/attributions only, folded into the concept-lineage
+#     candidate) — per the ingest skill's "do not create public person-
+#     nodes by default" guardrail.
+#   - The "Try This" exercise steps were not split into a separate
+#     implementation-record/track object — they are prompts for the reader,
+#     not a documented deployment.
+#   - ReFi DAO Local Node Toolkit (referenced in the article's own
+#     references list as originating context) was not lifted to a separate
+#     resource object here — it is this toolkit's own umbrella project, not
+#     an external thing to register.
+

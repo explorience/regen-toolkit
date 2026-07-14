@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: Solana
+  type: resource
+  url: https://docs.solana.com
+  resource_type: layer-1 blockchain
+  link_status: active
+  notes: >-
+    High-throughput (tens of thousands TPS), sub-cent-fee chain using Proof of
+    History to parallelize transaction processing. Article flags network
+    outage history and non-EVM tooling/skills as tradeoffs. Suited, per the
+    article, to high-frequency low-value transactions: community token
+    distributions, micro-donations, at-scale carbon-credit tracking.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/other-chains.md
+    transformation: summarized
+    authorship: ai-assisted

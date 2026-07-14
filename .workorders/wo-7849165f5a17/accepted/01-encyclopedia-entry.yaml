@@ -1,0 +1,39 @@
+schema: encyclopedia-entry
+object:
+  title: Why Accept Crypto Donations?
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A beginner guide for local organizers (Somaliland/East Africa audience)
+    making the case for accepting cryptocurrency donations: the tax advantage to
+    donors (avoiding capital-gains tax by donating appreciated crypto directly),
+    lower cross-border processing costs than bank wires or card fees, access to
+    a younger/values-aligned donor community, quadratic funding as an amplifier
+    for small donations (via Gitcoin Grants), and honest treatment of concerns
+    (price volatility, security, energy footprint). Recommends four donor-facing
+    platforms (The Giving Block, Endaoment, Every.org, Givepact) that convert
+    crypto to fiat automatically so the receiving organization never has to hold
+    volatile crypto.
+  audience: >-
+    local organizers/nonprofits in East Africa/Somaliland considering crypto
+    donations
+  known_tensions:
+    - >-
+      Donor tax benefit vs. organizational risk — the article's tax-advantage
+      argument is aimed at the donor's incentive, while separately acknowledging
+      the receiving organization's own volatility/security risk, which it
+      resolves by recommending instant fiat-conversion platforms.
+  related_concepts:
+    - quadratic-funding
+  related_resources:
+    - every-org
+    - the-giving-block
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/why-accept-crypto.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7849165f5a17
+  source_lineage: why-accept-crypto.md

@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Bankless Academy — Foundations of Decentralization
+  type: resource
+  resource_type: course
+  url: https://app.banklessacademy.com
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: unresolved
+  related_concepts:
+    - centralization-decentralization-spectrum
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/centralized-vs-decentralized.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a42af3f6559f
+  source_lineage: centralized-vs-decentralized.md
+  notes: >-
+    Listed in the article's References as a source for its foundations-of-
+    decentralization framing; link_status set to unresolved since the exact
+    course URL/page was not independently verified for this ingestion.

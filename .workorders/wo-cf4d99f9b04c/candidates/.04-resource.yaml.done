@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Hats Protocol
+  type: resource
+  resource_type: tool
+  url: https://www.hatsprotocol.xyz/
+  is_source_system_candidate: false
+  toolkit_route: Layer 6 (Deployment) / roles-and-permissions tooling
+  link_status: active
+  related_concepts:
+    - DAO (Decentralized Autonomous Organization) vs. Local Node
+  related_resources:
+    - Snapshot
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-nodes-and-daos.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Turns each responsibility (treasury signer, onboarding lead, events
+    coordinator) into an onchain "hat" (ERC-1155 token) so permissions
+    follow the role rather than the person; article states it is trusted
+    by 50+ DAOs. Recommended only once "who is allowed to do what" is a
+    real source of confusion, not pre-emptively.

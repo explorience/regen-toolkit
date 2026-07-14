@@ -1,0 +1,47 @@
+schema: concept-lineage
+object:
+  title: Community Readiness Model (nine-stage readiness assessment)
+  type: concept-lineage
+  short_description: >-
+    A nine-stage framework (from "no awareness" through "preplanning,"
+    "preparation," "initiation," to "community ownership") for assessing how
+    ready a community actually is to take on a new initiative, developed for
+    public health work and applied here to launching a local ReFi node.
+  source_traditions:
+    - >-
+      Tri-Ethnic Center for Prevention Research, Colorado State University
+      (public health readiness research)
+    - >-
+      adrienne maree brown's "emergent strategy" (complex systems developing
+      through experimentation and relationship, not master plans)
+  toolkit_usage: >-
+    Used in is-community-ready.md to set an honest launch threshold ("stage 5,
+    preparation": leadership emerged, active planning, people mobilizing) below
+    which a node is being pushed onto a community that hasn't decided it wants
+    one.
+  adjacent_meanings:
+    - local-node-refi
+    - emergent-strategy
+  important_distinctions:
+    - >-
+      "Interested" is distinguished from "ready" — the article insists on 5-7
+      people who are *already showing up*, not people who might join.
+    - Readiness is a stage on a spectrum, not a binary yes/no gate.
+  tensions:
+    - >-
+      Wanting to talk a community out of premature launch vs. not gatekeeping
+      genuine grassroots energy that's simply framed informally ("Web3 is
+      interesting" vs. a felt shared problem).
+  risks_of_flattening: >-
+    A model built for public-health behavior change is applied here to
+    financial-system adoption without validating that the same nine stages
+    transfer cleanly; the article itself only claims it "travels well," not that
+    it was validated for this context.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-community-ready.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-18f3652d0e28
+  source_lineage: is-community-ready.md

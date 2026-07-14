@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: Quartz
+  type: resource
+  resource_type: tool
+  url: https://quartz.jzhao.xyz/
+  is_source_system_candidate: false
+  toolkit_route: Layer 2 (Knowledge Commons) tooling
+  link_status: active
+  related_concepts:
+    - Digital Garden (seedling / budding / evergreen)
+  related_resources:
+    - Obsidian
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-gardens.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Free, open-source (MIT), currently v4, static-site generator built for
+    Obsidian vaults — carries wikilinks, backlinks, graph, and full-text search
+    to a published site. SuperBenefit ran Obsidian+Quartz before migrating to a
+    custom Astro build.
+  work_order: wo-69cdee6ddcfe
+  source_lineage: knowledge-gardens.md

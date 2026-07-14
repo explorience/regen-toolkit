@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Gitcoin Grants
+  type: resource
+  resource_type: funding-platform
+  url: https://grants.gitcoin.co/
+  link_status: active
+  original_source: "src/content/docs/funding-gatherings.md (References)"
+  related_concepts:
+    - quadratic-funding
+  notes: >-
+    Runs funding rounds using quadratic funding; current rounds (GG24 cycle,
+    per the article) mix QF with other allocation mechanisms by domain.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: quoted
+    authorship: ai-assisted

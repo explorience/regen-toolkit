@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Chamas, iqqub, and hawala have long served communities banks refuse
+  type: claim-evidence
+  claim: >-
+    Informal saving mechanisms like chamas in Kenya, iqqub in Ethiopia and
+    Eritrea, or hawala networks have long served communities that banks refuse
+    to touch, because they were designed by communities, for communities.
+  evidence: >-
+    Stated directly in inclusive-practices.md's "Why Inclusion Matters" section,
+    with no citation, study, or named source.
+  source_lineage: src/content/docs/inclusive-practices.md
+  interpretation: >-
+    Used as the article's central argument for why a new community finance
+    system must design for inclusion rather than default to banking's
+    exclusions.
+  uncertainty: >-
+    General, uncited assertion about broad regional practices; no specific data,
+    study, or named community source is given. See accompanying
+    public-use-boundary on the same cultural-attribution risk.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/inclusive-practices.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-8e6fb42f1e74

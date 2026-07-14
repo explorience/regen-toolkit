@@ -1,0 +1,31 @@
+id: wo-b4d86b063d8c
+title: ingest ethereum-ecosystem.md
+type: work-order
+source_path: ethereum-ecosystem.md
+source_hash: a5db123476adc20b77c957f507cf40233310800f45053789dcc72568a49ee8be
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g4
+produced:
+  - data/kb/encyclopedia-entry.yaml#the-ethereum-ecosystem
+  - data/kb/concept-lineage.yaml#decentralized-finance-defi
+  - >-
+    data/kb/claim-evidence.yaml#over-66-governance-and-coordination-tools-exist-on-ethereum
+  - data/kb/resource.yaml#ethereum
+  - data/kb/resource.yaml#metamask-56c674be
+  - data/kb/resource.yaml#uniswap
+  - data/kb/resource.yaml#aave
+  - data/kb/resource.yaml#base
+  - data/kb/resource.yaml#opensea
+  - data/kb/resource.yaml#etherscan-436f5e90

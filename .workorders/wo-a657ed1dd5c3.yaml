@@ -1,0 +1,29 @@
+id: wo-a657ed1dd5c3
+title: ingest stories-regens-leap.md
+type: work-order
+source_path: stories-regens-leap.md
+source_hash: dc3bc0966d01479ee5a8cdcabf0c6b906d2896e788c1ea504bbf49983ac546a2
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - data/kb/encyclopedia-entry.yaml#stories-regens-who-made-the-leap
+  - data/kb/public-use-boundary.yaml#untitled-87837bf2
+  - >-
+    data/kb/signal.yaml#composite-anonymized-adoption-narratives-should-not-become-person-nodes
+  - data/kb/concept-lineage.yaml#grassroots-web3-adoption-pattern
+  - data/kb/resource.yaml#gitcoin-be8d09e0
+  - data/kb/resource.yaml#snapshot-6c130fc6
+  - >-
+    data/kb/claim-evidence.yaml#coalition-of-15-environmental-nonprofits-improved-via-multisig-treasury

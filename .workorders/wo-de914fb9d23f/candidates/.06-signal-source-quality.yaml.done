@@ -1,0 +1,24 @@
+schema: signal
+object:
+  title: tokens-real-world-assets.md has placeholder/garbage frontmatter and no real citations
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia
+  interpretation: >-
+    The source article's frontmatter has clear placeholder artifacts —
+    `sources: [l, i, s, t]` (a broken/garbage list, not real sources),
+    `author: unknown`, empty-looking `target_audience`, and an explicit
+    self-declared draft note ("This is a draft document for the Regen
+    Toolkit. Target learner: Maya."). The body text also cites no external
+    sources or links anywhere (no References section, unlike sibling
+    articles in this batch). This looks like an early/unfinished draft that
+    was marked `published_flag: true` in frontmatter despite the content
+    itself flagging as unfinished.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-real-world-assets.md
+    transformation: inferred
+    authorship: ai-assisted
+  source_lineage: tokens-real-world-assets.md

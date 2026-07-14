@@ -1,0 +1,27 @@
+schema: public-use-boundary
+object:
+  title: >-
+    Boundary — treasury/multisig and funding-source recommendations
+    (what-is-local-node.md)
+  tier: public-with-caveat
+  consent_note: >-
+    The article gives concrete governance/treasury recommendations (a 3-of-5
+    Safe multisig as a "sane default," Snapshot for voting, naming the Localism
+    Fund and Gitcoin quadratic funding as funding sources). This is general
+    educational guidance from a toolkit article, not tailored
+    legal/financial/governance advice for any specific organization. Flagged per
+    the ingest skill's high-risk trigger for funding/legal/governance
+    recommendations — treat as a starting point for discussion, not a
+    compliance-checked recommendation, before reuse in a context that commits
+    real funds.
+  review_type: steward-review-before-public-use
+  notes: >-
+    Covers the encyclopedia-entry and the two claim-evidence entries from this
+    work order (Localism Fund, Incubator).
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-local-node.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-d579c610b491
+  source_lineage: what-is-local-node.md

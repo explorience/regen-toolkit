@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: Ethereum's Merge cut network energy use by roughly 99.95%
+  type: claim-evidence
+  claim: >-
+    Ethereum's September 2022 switch from proof-of-work to proof-of-stake
+    ("The Merge") cut the network's energy use by roughly 99.95%, meaning the
+    honest answer to "is crypto bad for the environment" depends entirely on
+    which network and consensus method a project is built on, not on crypto
+    as a monolith.
+  evidence: >-
+    Article cites ethereum.org's own Merge explainer for the ~99.95% figure,
+    and separately cites the Cambridge Centre for Alternative Finance's
+    Bitcoin Electricity Consumption Index (~140-175 TWh/year) as the contrasting
+    proof-of-work baseline.
+  source_lineage: src/content/docs/common-concerns.md
+  interpretation: >-
+    Used to reframe an all-or-nothing question ("is crypto clean or dirty")
+    into a design-choice question ("which consensus method does this specific
+    network use") — Ethereum and Celo (proof-of-stake) vs. Bitcoin (proof-of-work).
+  uncertainty: >-
+    Figures are drawn from the cited primary sources (ethereum.org, Cambridge
+    CBECI) but not independently re-verified here; CBECI's Bitcoin estimate is
+    itself a range/model, not a single hard measurement.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-concerns.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-1fd434ce7666

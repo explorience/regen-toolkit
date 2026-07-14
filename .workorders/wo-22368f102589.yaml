@@ -1,0 +1,28 @@
+id: wo-22368f102589
+title: ingest nfts-beyond-art.md
+type: work-order
+source_path: nfts-beyond-art.md
+source_hash: 2c357b8bd0ff176f4426fa83ace9b7497a7a4524cec87623b574f033dc2a4833
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g7
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#nfts-beyond-art-practical-applications-of-digital-ownership
+  - >-
+    data/kb/concept-lineage.yaml#nft-as-verifiable-ownership-record-beyond-the-art-collectible-use-case
+  - >-
+    data/kb/claim-evidence.yaml#universities-have-experimented-with-blockchain-based-diplomas
+  - data/kb/resource.yaml#axie-infinity
+  - data/kb/resource.yaml#ibm-food-trust

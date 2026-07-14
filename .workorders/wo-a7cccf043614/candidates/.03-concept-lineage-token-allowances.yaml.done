@@ -1,0 +1,29 @@
+schema: concept-lineage
+object:
+  title: Token allowances (dApp spending permissions)
+  type: concept-lineage
+  short_description: >-
+    The permission a user grants a smart contract to access/spend their
+    tokens when using a dApp; the article's core security advice is to limit
+    the allowance to the immediate trade size rather than the full balance.
+  toolkit_usage: >-
+    Presented as a "Security Essentials" item in creating-buying-earning.md,
+    alongside seed-phrase custody and starting-small advice.
+  adjacent_meanings:
+    - seed-phrase-custody (the other named security essential in the same article)
+  important_distinctions:
+    - "an allowance is a revocable smart-contract permission, distinct from a seed phrase, which is full wallet control"
+  tensions:
+    - convenience-of-unlimited-approval vs exposure-if-that-contract-is-later-exploited
+  risks_of_flattening: >-
+    The article gives the rule ("limit allowances") without explaining how to
+    check or revoke existing allowances (e.g. via a token-approval checker
+    tool) — a practical gap for a true beginner guide.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/creating-buying-earning.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a7cccf043614
+  source_lineage: creating-buying-earning.md

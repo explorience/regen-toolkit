@@ -1,0 +1,28 @@
+schema: resource
+object:
+  title: Sarafu Network (Grassroots Economics)
+  type: resource
+  resource_type: org
+  url: https://www.grassrootseconomics.org/sarafu-network
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: what-is-cryptocurrency.md
+  related_concepts:
+    - community-currencies
+    - cryptocurrency-blockchain-decentralisation
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-cryptocurrency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-cryptocurrency.md
+  notes: >-
+    Kenyan community currency reported (as of early 2026, per article) to
+    support roughly 26,000 people across ~290 communities, running on the
+    low-energy Celo blockchain; same project already ingested from
+    common-concerns.md as "Sarafu (Grassroots Economics)" — duplication
+    across source articles is expected at ingest time and left for the
+    review/dedupe layer.

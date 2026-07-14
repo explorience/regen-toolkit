@@ -1,0 +1,15 @@
+schema: resource
+object:
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-first-wallet.md
+  title: L2Fees.info (live layer-2 transaction cost tracker)
+  type: resource
+  url: https://l2fees.info/
+  what_it_is: >-
+    A live tracker of real-time transaction costs across Optimism, Arbitrum and
+    other layer-2 networks, cited to show that L2 fees are typically a fraction
+    of a cent.
+  work_order: wo-f176964ca85a
+  source_lineage: setting-up-first-wallet.md

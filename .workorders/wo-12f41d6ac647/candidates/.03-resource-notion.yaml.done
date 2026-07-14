@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Notion
+  type: resource
+  url: https://www.notion.so/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - institutional-memory
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/documentation-knowledge.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Recommended in the article as the "structured and powerful" documentation
+    tier: built-in databases and templates, good for wikis and knowledge
+    bases, works on mobile and desktop.
+  work_order: wo-12f41d6ac647
+  source_lineage: documentation-knowledge.md

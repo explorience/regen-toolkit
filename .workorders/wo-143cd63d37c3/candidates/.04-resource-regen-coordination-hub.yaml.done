@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: Regen Coordination Hub
+  type: forum
+  steward: Regen Coordination network (per article)
+  url: https://hub.regencoordination.xyz/
+  what_it_curates: local-node retrospectives, cross-chapter help requests and shared learning
+  why_it_matters: >-
+    lets local nodes stay "autonomous yet connected" — coordinate openly without
+    ceding sovereignty to a central foundation
+  how_to_credit: link the specific chapter post/thread referenced
+  use_type: peer coordination forum
+  reuse_conditions: public; attribute the originating chapter thread
+  return_path: post your own node's retrospectives and open questions back to the hub
+  update_rhythm: continuous (chapter-driven)
+  extraction_status: unextracted
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-pitfalls.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-143cd63d37c3
+  source_lineage: common-pitfalls.md

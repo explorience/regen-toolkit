@@ -1,0 +1,26 @@
+id: wo-b3a05e9b7743
+title: ingest building-internal-capacity.md
+type: work-order
+source_path: building-internal-capacity.md
+source_hash: a743ee469bdcf01f1f0fb70bc39f1dbf065a8a3116f8792eed87373dbc319a0d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - data/kb/encyclopedia-entry.yaml#building-internal-capacity
+  - data/kb/concept-lineage.yaml#internal-capacity
+  - >-
+    data/kb/claim-evidence.yaml#capacity-building-is-the-highest-return-investment-a-node-can-make
+  - >-
+    data/kb/signal.yaml#building-internal-capacity-md-has-no-references-section-or-specific-citations-despite-factcheck-done-true

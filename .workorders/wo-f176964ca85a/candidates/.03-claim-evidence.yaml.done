@@ -1,0 +1,13 @@
+schema: claim-evidence
+object:
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-first-wallet.md
+  title: A legitimate wallet app never asks for your recovery phrase
+  type: claim-evidence
+  claim: A real wallet app never asks for your Secret Recovery Phrase during normal
+    use; anyone who asks is trying to steal your funds.
+  evidence: Stated in the article as the single habit that prevents the most common
+    way beginners get drained; consistent with MetaMask Help Center guidance cited
+    in the article's references.

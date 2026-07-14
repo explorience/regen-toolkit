@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: Oracle (blockchain)
+  type: concept-lineage
+  short_description: >-
+    A service that feeds outside (off-chain) data to a blockchain, so a smart
+    contract can react to real-world information it otherwise has no way to
+    observe.
+  source_traditions:
+    - ethereum.org developer documentation on oracles
+  toolkit_usage: >-
+    Introduced to explain the limit of "a blockchain cannot verify the real
+    world for you" — oracles are presented as a partial bridge, not a
+    solution, since "someone still has to be trusted to report the truth in
+    the first place."
+  adjacent_meanings:
+    - dMRV (digital measurement, reporting, and verification — an applied use of oracle-fed data for impact claims)
+  important_distinctions:
+    - >-
+      An oracle moves the trust problem, it does not remove it — the chain
+      only knows what the oracle told it, so oracle data quality/trustworthiness
+      becomes the new bottleneck.
+  tensions:
+    - >-
+      The article's own cautionary example (Toucan/Verra) shows that even with
+      good-faith tokenization, the underlying real-world/regulatory truth can
+      diverge from the on-chain record in ways an oracle alone does not prevent.
+  risks_of_flattening: >-
+    Presenting oracles as a full solution to "blockchain can't see the real
+    world" understates the article's own point — oracles bridge the gap but
+    still depend on trusted reporting.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-web3-can-cant-do.md
+    transformation: summarized
+    authorship: ai-assisted

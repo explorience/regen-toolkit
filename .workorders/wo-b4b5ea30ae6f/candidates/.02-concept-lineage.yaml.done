@@ -1,0 +1,40 @@
+schema: concept-lineage
+object:
+  title: Regenerative Finance (ReFi)
+  type: concept-lineage
+  short_description: >-
+    Tools and projects built to create economies that restore ecosystems and
+    communities rather than deplete them; the article quotes Ethereum's own
+    explainer describing ReFi as systems that "create value for participants
+    while simultaneously benefiting ecosystems and communities."
+  source_traditions:
+    - Web3 / crypto-native regenerative-economics movement (ReFi DAO, Greenpill Network)
+    - Ethereum Foundation's own ReFi explainer (ethereum.org/refi)
+  toolkit_usage: >-
+    Used as the umbrella "corner" of the crypto space this guide points
+    newcomers toward, deliberately distinguished ("closer to compost than to
+    a casino") from purely speculative crypto culture.
+  adjacent_meanings:
+    - Impact investing / ESG finance (non-crypto analogue, not discussed in article)
+    - Regenerative agriculture / permaculture economics (the article's bridging analogy)
+  important_distinctions:
+    - >-
+      ReFi (a values/mission orientation within web3) vs. crypto broadly
+      (which includes purely speculative or extractive projects the article
+      explicitly warns readers away from).
+  tensions:
+    - >-
+      The "closer to compost than to a casino" framing is aspirational
+      branding as much as description; the article does not examine whether
+      self-labeled ReFi projects consistently deliver on that framing.
+  risks_of_flattening: >-
+    Presenting ReFi DAO and Greenpill as *the* two front doors risks implying
+    ReFi is smaller/more centralized than the many overlapping, loosely
+    connected circles the article itself says exist ("no single crypto
+    community").
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/find-your-community.md
+    transformation: synthesized
+    authorship: ai-assisted

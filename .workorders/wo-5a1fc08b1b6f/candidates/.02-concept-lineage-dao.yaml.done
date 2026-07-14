@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: DAO (Decentralised Autonomous Organisation)
+  type: concept-lineage
+  short_description: >-
+    A group that agrees its rules up front, writes them where everyone can
+    see, and decides by votes anyone can verify — described in the article as
+    "a far scarier name than the thing deserves."
+  source_traditions:
+    - >-
+      Framed via the analogy of a seed-saving collective with its bylaws
+      pinned to a noticeboard that can't be quietly edited and whose vote count
+      can't be fudged.
+  toolkit_usage: >-
+    Introduced to make transparent, verifiable group decision-making concrete
+    for a non-technical audience, paired with Snapshot as the free tool to
+    actually see the pattern in action.
+  adjacent_meanings:
+    - self-custody (holding funds directly rather than through a company)
+    - token (a membership/voting marker, distinct from a speculative asset)
+  important_distinctions:
+    - >-
+      Transparent process is not the same as good outcomes — the article is
+      explicit that "a transparent vote on a bad idea is still a bad idea";
+      DAOs remove a specific suspicion (did the count really happen honestly?),
+      not a group's culture problems.
+  tensions: []
+  risks_of_flattening: >-
+    Reducing a DAO to "the jargon-y crypto version of a bylaws document" misses
+    the article's actual selling point — verifiable, un-editable process, not
+    novelty for its own sake.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-regens-interested.md
+    transformation: summarized
+    authorship: ai-assisted

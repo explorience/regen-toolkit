@@ -1,0 +1,33 @@
+schema: claim-evidence
+object:
+  title: >-
+    2022 study: decentralized food systems recover faster from supply
+    disruption, but labor shortages can favor centralization
+  type: claim-evidence
+  claim: >-
+    A 2022 study found that decentralization of food systems improves resilience
+    when supply chains are disrupted, and that communities with diverse,
+    decentralized food sources recover faster — but the same research found that
+    responding to labor shortages can favor more centralized systems.
+  evidence: >-
+    Cited in the article as "National Library of Medicine, 'Resilience
+    assessment of centralized and distributed food systems' (PMC, 2022)," listed
+    in the article's References.
+  interpretation: >-
+    Used by the article as its central piece of academic support for the claim
+    that decentralized, diverse food networks are more resilient to shocks —
+    while also being the article's own evidence for its closing point that
+    decentralization "is not always the answer."
+  uncertainty: >-
+    Reproduces the article's own characterization of the study's findings; the
+    study's methodology, dataset, and precise scope are not detailed in the
+    article, and the claim was not independently re-verified against the primary
+    PMC paper for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/centralized-vs-decentralized.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a42af3f6559f
+  source_lineage: centralized-vs-decentralized.md

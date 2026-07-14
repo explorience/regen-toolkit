@@ -1,0 +1,14 @@
+schema: encyclopedia-entry
+object:
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-first-wallet.md
+  title: Setting Up Your First Wallet
+  type: encyclopedia-entry
+  page_type: guide
+  summary: 'A calm, step-by-step guide to creating a first self-custody crypto wallet
+    (MetaMask) safely: what a wallet is, hot vs cold wallets, guarding the Secret
+    Recovery Phrase, the wallet address vs phrase distinction, the setup steps, gas
+    on layer-2 networks, and beginner safety habits.'
+  audience: community organisers and growers brand new to Web3

@@ -1,0 +1,28 @@
+id: wo-f9c29bdf4648
+title: ingest local-node-model.md
+type: work-order
+source_path: local-node-model.md
+source_hash: efab372794872a8e472ec08962ef2a770fb19deb26938d6318633ed6700a91b4
+source_type: transcript
+target_schemas:
+  - source-system
+  - resource
+  - concept-lineage
+  - signal
+  - claim-evidence
+instructions: >-
+  Deep intake (transcript): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#choosing-a-model-for-your-local-node
+  - data/kb/concept-lineage.yaml#consent-based-governance-sociocracy
+  - data/kb/resource.yaml#safe-multisig-wallet
+  - data/kb/resource.yaml#open-collective-097a29b8
+  - data/kb/claim-evidence.yaml#group-size-to-governance-model-comparison-table
+  - >-
+    data/kb/signal.yaml#safe-snapshot-recur-as-the-default-tooling-pair-across-multiple-local-node-articles

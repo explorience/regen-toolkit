@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Ledger (hardware wallet)
+  type: resource
+  url: https://www.ledger.com
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - self-custody
+    - non-custodial-wallet
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/custodial-vs-noncustodial.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Named alongside Trezor as a hardware wallet offering an additional security
+    layer by storing private keys offline; article recommends this for holding
+    significant value.
+  work_order: wo-ce41b10364c7
+  source_lineage: custodial-vs-noncustodial.md

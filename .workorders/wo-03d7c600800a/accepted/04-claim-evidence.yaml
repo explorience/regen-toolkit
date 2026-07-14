@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: >-
+    Once included in a block, a transaction becomes an immutable part of
+    blockchain history
+  type: claim-evidence
+  claim: >-
+    "Once the transaction is included in a block, it becomes an immutable part
+    of the blockchain's history."
+  evidence: >-
+    Direct quotation attributed to "[Source S]" in how-transactions-work.md's
+    "Confirmation" step, which the article's References section identifies as
+    Ledger Academy: How Does a Blockchain Transaction Work.
+  source_lineage: src/content/docs/how-transactions-work.md
+  interpretation: >-
+    Used to explain why the number of confirmations (blocks added on top)
+    matters — the deeper a transaction is buried, the more computationally
+    infeasible it is to reverse.
+  uncertainty: >-
+    Quote reproduced as given in the article; "immutable" is a practical, not
+    absolute, property (contingent on the chain's ongoing security/consensus
+    assumptions) — not independently re-verified for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-transactions-work.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-03d7c600800a

@@ -1,0 +1,40 @@
+schema: encyclopedia-entry
+object:
+  title: Creating, Buying, and Earning Tokens & NFTs
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practical how-to for getting started with digital assets: minting NFTs
+    (OpenSea/Blur) and fungible ERC-20 tokens, buying crypto via CEX/DEX/
+    onramps (with a Layer-2-first tip for low fees), and earning tokens through
+    staking, DeFi lending, governance-token rewards, and learning modules
+    (Bankless Academy) — plus security basics on token allowances and seed
+    phrases.
+  audience: >-
+    newcomers wanting a hands-on first step into creating/buying/earning digital
+    assets
+  known_tensions:
+    - permissionless-token-creation vs quality-and-scam-risk-that-comes-with-it
+    - >-
+      staking-yield-appeal vs
+      the-underlying-lockup-and-slashing-risk-not-detailed-in-the-article
+  related_concepts:
+    - token-allowances
+    - staking-solo-pool-liquid
+  related_resources:
+    - OpenSea
+    - Bankless Academy
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/creating-buying-earning.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a7cccf043614
+  source_lineage: creating-buying-earning.md
+  notes: |
+    # assessed-but-excluded
+    - source frontmatter's `sources: [l, i, s, t]` field looks like a broken/
+      placeholder value from the original pipeline, not real source data —
+      excluded as noise, not treated as a citation.

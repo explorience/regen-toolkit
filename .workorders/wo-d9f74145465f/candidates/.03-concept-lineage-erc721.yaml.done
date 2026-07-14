@@ -1,0 +1,36 @@
+schema: concept-lineage
+object:
+  title: "ERC-721 (Non-Fungible Token Standard)"
+  type: concept-lineage
+  short_description: >-
+    An Ethereum token standard, launched in 2018, in which every token is
+    unique and individually identified within its contract — used for
+    digital art/collectibles, event tickets, ownership certificates, and
+    impact tokens like carbon-removal or biodiversity credits.
+  source_traditions:
+    - Ethereum Improvement Proposal 721 (ERC-721), per ethereum.org documentation.
+  toolkit_usage: >-
+    Named in the article as the standard for representing
+    specific-verifiable-action impact credits (e.g. carbon removal,
+    biodiversity), land/credential ownership certificates, and event tickets.
+  adjacent_meanings:
+    - non-fungible token (NFT)
+  important_distinctions:
+    - >-
+      ERC-721 vs ERC-20: uniqueness (each token has its own ID) vs
+      interchangeability.
+    - >-
+      ERC-721's "safe transfer" function only sends tokens to addresses
+      capable of handling them — a safeguard the article contrasts with
+      ERC-20's lack of that protection.
+  tensions: []
+  risks_of_flattening: >-
+    Grouping all "impact tokens" under ERC-721 risks obscuring that
+    ERC-1155 can represent similar unique/semi-fungible impact assets
+    within a single contract, which the article covers separately.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/token-standards.md
+    transformation: summarized
+    authorship: ai-assisted

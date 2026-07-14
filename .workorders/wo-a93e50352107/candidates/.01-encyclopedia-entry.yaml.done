@@ -1,0 +1,34 @@
+schema: encyclopedia-entry
+object:
+  title: Is a DAO Right for Your Community?
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    A plain-language decision guide for permaculture/grassroots communities
+    weighing DAO structure, using a community-garden analogy to explain
+    decentralized/autonomous/organization, listing when a DAO fits (everyone
+    wants a voice, global participation, transparency, rewarding
+    contribution) and when it doesn't (fast emergency decisions, need for
+    legal protection, low tech comfort, governance-attack risk), a five-
+    question discussion guide, and cooperative/sociocracy/simple-voting-tool
+    alternatives.
+  audience: permaculture and grassroots community organizers evaluating governance structures
+  known_tensions:
+    - >-
+      radical-transparency-and-global-participation-vs-no-legal-protection-and-real-technical-learning-curve
+  related_concepts:
+    - dao-alternatives-cooperatives-sociocracy-lightweight-voting-tools
+  related_resources:
+    - loomio
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-dao-right.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: a generic "DAO" concept-lineage object was not
+    created here to avoid duplicating what the still-open what-is-dao.md
+    work order is expected to define directly; this ingestion instead
+    captures the article's distinctive angle (governance-attack risk and
+    non-DAO alternatives) as claim-evidence and concept-lineage objects.

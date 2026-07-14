@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: IBM Food Trust
+  type: resource
+  url: https://www.ibm.com/blockchain/solutions/food-trust
+  resource_type: blockchain supply-chain / food-provenance tracking platform
+  notes: >-
+    Cited in the article's Supply Chains and Product Authenticity section as an
+    example of blockchain-based produce/food traceability from farm to store —
+    relevant to communities producing goods for export wanting to prove ethical
+    or fair-price production.
+  related_concepts:
+    - nft-as-verifiable-ownership-record
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/nfts-beyond-art.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-22368f102589
+  source_lineage: nfts-beyond-art.md

@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: A private key exclusively controls signing authority over a blockchain account
+  type: claim-evidence
+  claim: >-
+    "Your private key has the power to control your entire account. This
+    allows you to make decisions on the blockchain, or in other words, sign
+    transactions."
+  evidence: >-
+    Direct quotation attributed to "[Source S]" in how-transactions-work.md's
+    "Signing" step, which the article's References section identifies as
+    Ledger Academy: How Does a Blockchain Transaction Work.
+  source_lineage: src/content/docs/how-transactions-work.md
+  interpretation: >-
+    Used to explain why a private key must never be shared — it is the sole
+    mechanism proving transaction authorization.
+  uncertainty: >-
+    Quote reproduced as given in the article; exact wording was not
+    independently checked against the live Ledger Academy page for this
+    ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-transactions-work.md
+    transformation: quoted
+    authorship: ai-assisted

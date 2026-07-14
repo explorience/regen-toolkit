@@ -1,0 +1,27 @@
+schema: source-system
+object:
+  title: Regen Coordination Hub
+  type: forum
+  url: https://hub.regencoordination.xyz/
+  steward: Regen Coordination (joint effort of ReFi DAO and Greenpill Network)
+  what_it_curates: >-
+    A shared Local ReFi Toolkit pooling guides from Greenpill Chapters, Celo
+    regional hubs, and the BioFi Project into one bank of patterns for local
+    nodes.
+  why_it_matters: >-
+    Named in the article's closing section as a place to borrow shared
+    playbooks rather than rebuilding a node's own funding rails, currency, or
+    toolkit from scratch.
+  how_to_credit: unknown — not stated in the article
+  reuse_conditions: unknown — not stated in the article
+  return_path: unknown — not stated in the article
+  currentness: unknown — not stated in the article
+  update_rhythm: unknown — not stated in the article
+  extraction_status: partial — only the framing given in this article has been captured
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-local-matters.md
+    transformation: summarized
+    authorship: ai-assisted

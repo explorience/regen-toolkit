@@ -1,0 +1,40 @@
+schema: concept-lineage
+object:
+  title: Eight Forms of Capital
+  type: concept-lineage
+  short_description: >-
+    A framework naming eight forms of capital, financial, social, cultural,
+    material, living, spiritual, experiential, and intellectual, used to argue
+    that sending money alone doesn't grow the deep local roots that make
+    regeneration last.
+  source_traditions:
+    - >-
+      Ethan Roland and Gregory Landua (credited in the article as the
+      framework's coiners)
+  toolkit_usage: >-
+    Used to justify why a local node's "unglamorous translation work"
+    (relationships, language, cultural context) matters beyond just moving
+    funding — the node is framed as what grows the seven non-financial forms of
+    capital.
+  adjacent_meanings:
+    - >-
+      subsidiarity (the governance principle that assigns this work to the local
+      level)
+  important_distinctions:
+    - >-
+      Financial capital vs. the other seven — the article's point is
+      specifically that Greenpill-style regen communities lean on this framework
+      to avoid conflating "funded" with "regenerating."
+  tensions: []
+  risks_of_flattening: >-
+    Treating the eight forms of capital as a checklist to tick off risks missing
+    the article's actual point — that these forms are built through sustained
+    local relationship-work, not through a program or a grant line item.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-local-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5e5d4bf53655
+  source_lineage: why-local-matters.md

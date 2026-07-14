@@ -1,0 +1,24 @@
+schema: encyclopedia-entry
+object:
+  title: Proposal Writing for DAOs
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A short guide to writing DAO governance proposals that pass and get
+    implemented. Lays out a seven-part proposal anatomy (title, summary,
+    background/context, specification, budget, success criteria, risks),
+    recommends informal pre-proposal steps (temperature check, coalition
+    building, preemptively addressing objections), and lists five common
+    mistakes (vague language, no budget, no success criteria, no timeline,
+    surprising the community with an undiscussed proposal).
+  audience: DAO members / grounded-regen practitioners drafting governance proposals
+  known_tensions: []
+  related_concepts:
+    - anatomy-of-a-good-dao-proposal
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/proposal-writing.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: Ethereum (2015) was the first blockchain capable of running smart contracts
+  type: claim-evidence
+  claim: >-
+    Nick Szabo coined the term "smart contract" in 1994, but the technology did
+    not exist until Ethereum launched in 2015 as the first blockchain capable of
+    running programs like this.
+  evidence: >-
+    Asserted directly in the article's opening section; article's References
+    list Ethereum Foundation documentation (ethereum.org) generally, not a
+    specific citation tied to this historical claim.
+  source_lineage: src/content/docs/smart-contracts-explained.md
+  interpretation: >-
+    Establishes the historical grounding for why smart contracts are treated as
+    a distinct, comparatively recent (2015-onward) technology.
+  uncertainty: >-
+    Widely-repeated history in the Ethereum ecosystem; not independently
+    re-verified against primary sources in this ingestion pass.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/smart-contracts-explained.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-55ad5dfd3ee1

@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: L2BEAT
+  type: resource
+  resource_type: tool
+  url: https://l2beat.com
+  is_source_system_candidate: true
+  toolkit_route: Layer 1 (Infrastructure & Substrate) / due-diligence tooling
+  link_status: active
+  related_concepts:
+    - Layer 2 (Ethereum scaling)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/layer-2s.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Independent site tracking Layer 2 stats and risk assessments, cited in
+    the article's references for doing due diligence on newer/less
+    established L2 networks. Flagged is_source_system_candidate: true — it
+    is a maintained, living data resource, not a static link; a future
+    ingest pass could register it as a full source-system card.

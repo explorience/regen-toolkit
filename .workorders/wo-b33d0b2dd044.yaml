@@ -1,0 +1,31 @@
+id: wo-b33d0b2dd044
+title: ingest stewardship-roles.md
+type: work-order
+source_path: stewardship-roles.md
+source_hash: 1973fff5cbee9e0370cb2f9fd451e2e5e8cba59332bff5d90abeee9492572b3e
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#stewardship-roles-for-a-knowledge-commons-that-outlives-you
+  - data/kb/concept-lineage.yaml#stewardship-roles-knowledge-commons
+  - data/kb/concept-lineage.yaml#contributor-absence-factor-bus-factor
+  - >-
+    data/kb/claim-evidence.yaml#chaoss-defines-contributor-absence-factor-as-the-smallest-n-for-50-metric
+  - data/kb/resource.yaml#github-codeowners
+  - data/kb/resource.yaml#all-contributors
+  - data/kb/resource.yaml#gravity-dao
+  - data/kb/resource.yaml#protocol-guild
+  - data/kb/resource.yaml#wikimedia-stewards

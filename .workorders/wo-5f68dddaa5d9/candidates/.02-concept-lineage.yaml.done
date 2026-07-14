@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: "Building in public (as a community practice)"
+  type: concept-lineage
+  short_description: >-
+    Sharing progress, failures, and learnings openly as you build rather
+    than only announcing finished results — for local nodes, this means
+    posting updates, sharing decisions, and being transparent about
+    challenges as they happen.
+  source_traditions:
+    - indie-hacker / startup "build in public" culture (originating outside web3, adopted broadly by crypto-native builders)
+    - web3/DAO transparency norms
+  toolkit_usage: >-
+    Applied in the article specifically to local regen nodes: the "journey IS
+    the content," and public commitments and shared struggles are framed as
+    tools for accountability and trust, not just marketing.
+  adjacent_meanings:
+    - marketing/growth-hacking use of "build in public" (purely promotional cadence, without the accountability/trust framing this article emphasizes)
+  important_distinctions:
+    - >-
+      the article distinguishes vague positivity ("Things are going great!")
+      from specific, falsifiable updates ("We held our first event with 12
+      attendees"), naming specificity as a best practice in its own right.
+  tensions: []
+  risks_of_flattening: >-
+    Reducing "building in public" to a content/marketing tactic misses the
+    article's framing of it as an accountability and trust mechanism —
+    public commitments are described as "harder to abandon," which is a
+    governance effect, not just a communications one.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-in-public.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5f68dddaa5d9
+  source_lineage: building-in-public.md

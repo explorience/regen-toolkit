@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: "\"Over 66 governance and coordination tools exist on Ethereum\""
+  type: claim-evidence
+  claim: >-
+    "Over 66 governance and coordination tools exist on Ethereum" (stated in
+    the context of DAOs as an organizational model).
+  evidence: >-
+    No citation or source is given in the article for this figure; it appears
+    as an unsupported assertion in the "DAOs: New Forms of Collective
+    Organization" section.
+  source_lineage: src/content/docs/ethereum-ecosystem.md (no external source cited)
+  interpretation: >-
+    Likely a rough figure gesturing at the breadth of the DAO-tooling
+    ecosystem (e.g. Snapshot, Aragon, DAOhaus, Colony, and similar), not a
+    precise, sourced count.
+  uncertainty: >-
+    Unsourced number; could not be verified against an external registry at
+    ingestion time. Treat as illustrative, not authoritative, until a source
+    is attached.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ethereum-ecosystem.md
+    transformation: quoted
+    authorship: ai-assisted

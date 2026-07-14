@@ -1,0 +1,33 @@
+schema: claim-evidence
+object:
+  title: >-
+    Millions of Bitcoin have been permanently lost to forgotten passwords and
+    lost seed phrases
+  type: claim-evidence
+  claim: >-
+    "Estimates suggest that millions of Bitcoin, worth billions of dollars, have
+    been permanently lost due to forgotten passwords, lost seed phrases, and
+    deceased owners with no succession plan." (recovery-planning.md, "Why
+    Recovery Planning Matters")
+  evidence: >-
+    No specific study or named estimate (e.g. Chainalysis-style lost-coin
+    research) is cited in the article body. Article frontmatter lists `sources:
+    []` — no supporting citation attached.
+  source_lineage: src/content/docs/recovery-planning.md (frontmatter sources field is empty)
+  interpretation: >-
+    Used as the opening justification for why recovery planning is "essential"
+    rather than merely advisable, framing the entire article's stakes.
+  uncertainty: >-
+    "Millions of Bitcoin" is directionally consistent with widely-circulated
+    third-party lost-coin estimates (e.g. Chainalysis-style research often cited
+    elsewhere in the industry, commonly landing in the 3-4 million BTC range),
+    but no such source is named or linked in this article, and the article's own
+    `sources: []` field confirms nothing was attached. Treat the magnitude as
+    directionally plausible but unverified from this source alone.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/recovery-planning.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-efc28adfc7a7

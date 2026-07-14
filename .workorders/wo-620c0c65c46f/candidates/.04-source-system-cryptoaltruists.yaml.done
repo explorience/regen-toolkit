@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: CryptoAltruists
+  type: directory
+  steward: CryptoAltruists (per article; steward org name not further specified in source)
+  what_it_curates: a directory/resource hub of crypto-donation platforms and related guidance
+  why_it_matters: >-
+    helps nonprofits find a donation platform that fits their needs; also the
+    cited source for several tax/legal framing claims elsewhere in this batch
+    (compliance-legal.md)
+  how_to_credit: attribute as "CryptoAltruists" per article citation style
+  use_type: directory + guidance source
+  reuse_conditions: unspecified in source article
+  return_path: unspecified in source article — flag for follow-up if this source system is engaged directly
+  update_rhythm: unspecified in source article
+  extraction_status: unextracted
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/crypto-donation-platforms.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-620c0c65c46f
+  source_lineage: crypto-donation-platforms.md

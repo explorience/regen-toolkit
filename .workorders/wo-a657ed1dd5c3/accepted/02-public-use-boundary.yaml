@@ -1,0 +1,18 @@
+schema: public-use-boundary
+object:
+  tier: anonymized-lessons
+  consent_note: >-
+    Article src/content/docs/stories-regens-leap.md presents three named or
+    quoted "case" narratives (Maria's community garden; an unnamed climate-
+    coalition organizer; ReFi Africa entrepreneurs), sourced per frontmatter
+    from "ReFi DAO Local ReFi Toolkit" and "Reimagining Power." These read as
+    illustrative/composite personas rather than independently verified,
+    individually-consented case studies. No public person-nodes were created;
+    only the pattern (start small / find allies / iterate / mission-first) and a
+    couple of anonymized claim-evidence entries were extracted. Treat any reuse
+    of the named details (e.g. "Maria," specific dollar figures) as unverified
+    illustrative material pending confirmation from the original toolkit
+    sources.
+  review_type: domain-review (people-in-content + provenance verification)
+  work_order: wo-a657ed1dd5c3
+  source_lineage: stories-regens-leap.md

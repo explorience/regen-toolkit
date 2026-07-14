@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: "Form 1099-DA is a new broker-reporting form starting 2025+"
+  type: claim-evidence
+  claim: >-
+    Form 1099-DA is a new IRS form, applicable from 2025 onward, that
+    brokers will send to report digital-asset transactions.
+  evidence: >-
+    Stated in the article's "IRS Forms You'll Need" section; no external
+    citation given.
+  source_lineage: src/content/docs/tax-implications.md
+  interpretation: >-
+    Presented as an upcoming compliance change readers should be aware of
+    alongside existing forms (8949, Schedule D, Schedule 1).
+  uncertainty: >-
+    Regulatory-rollout detail; not independently re-verified against current
+    IRS guidance in this ingestion pass — broker-reporting requirements for
+    digital assets have been subject to phased implementation and possible
+    delay/change.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/tax-implications.md
+    transformation: summarized
+    authorship: ai-assisted

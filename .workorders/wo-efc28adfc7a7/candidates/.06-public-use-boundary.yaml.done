@@ -1,0 +1,25 @@
+schema: public-use-boundary
+object:
+  title: Boundary — wallet recovery/inheritance recommendations carry real financial risk
+  tier: public-with-caveat
+  consent_note: >-
+    This article gives concrete operational recommendations for safeguarding
+    and recovering real financial assets (seed-phrase storage locations,
+    multi-sig threshold configurations, inheritance/succession procedures) for
+    both individuals and organizational treasuries. A wrong or outdated
+    recommendation, if treated as authoritative guidance, could directly
+    cause loss of funds. Per the ingest skill's high-risk triggers
+    ("funding... recommendations"), flag for domain-expert (security
+    practitioner) review before being promoted to public "reviewed" guidance.
+  review_type: security-domain-expert-review-before-promotion
+  notes: >-
+    Applies to the sibling encyclopedia-entry, concept-lineage, and resource
+    candidates from this same work order — none of these should be treated as
+    definitive security guidance until reviewed.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/recovery-planning.md
+    transformation: synthesized
+    authorship: ai-assisted

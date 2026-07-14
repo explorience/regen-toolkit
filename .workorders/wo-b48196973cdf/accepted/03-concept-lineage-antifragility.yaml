@@ -1,0 +1,47 @@
+schema: concept-lineage
+object:
+  title: Anti-Fragility (in decentralized systems)
+  type: concept-lineage
+  short_description: >-
+    A property beyond mere robustness — systems that don't just survive stress
+    but actually strengthen under pressure, developing stronger bonds, better
+    protocols, and deeper trust through each disruption.
+  source_traditions:
+    - >-
+      Nassim Nicholas Taleb's "Antifragile" framework (concept not attributed by
+      name in this article, but the definition given matches Taleb's usage)
+    - decentralized-network resilience theory
+    - community-organizing / mutual-aid practice under crisis
+  toolkit_usage: >-
+    Used in this article as the fourth of four mechanisms (with redundancy,
+    fault tolerance, adaptive capacity) linking decentralization to resilience —
+    positioned as the strongest claim: not just "survives" but "strengthens."
+  adjacent_meanings:
+    - anti-fragility as an individual/organizational trait (broader usage)
+    - >-
+      anti-fragility as a systems-engineering property (this article's framing,
+      applied to community coordination systems)
+  important_distinctions:
+    - >-
+      resilience-vs-anti-fragility — the article treats these as a graduated
+      scale: redundancy and fault tolerance produce resilience (surviving),
+      while anti-fragility is a stronger claim (thriving because of stress), and
+      it should not be assumed automatically from mere decentralization.
+  tensions:
+    - >-
+      the-article-asserts-rather-than-demonstrates — "communities that navigate
+      challenges together... often develop stronger bonds" is a plausible but
+      unevidenced generalization within this piece.
+  risks_of_flattening: >-
+    Assuming any decentralized system is automatically anti-fragile flattens the
+    distinction the article itself draws between the four mechanisms —
+    redundancy and fault tolerance are the load-bearing, well-evidenced claims;
+    anti-fragility is presented as an aspiration, not a guarantee.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-resilience.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b48196973cdf
+  source_lineage: decentralization-resilience.md

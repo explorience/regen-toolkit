@@ -1,0 +1,23 @@
+id: wo-7bdc70aba13e
+title: ingest relates-to-existing-work.md
+type: work-order
+source_path: relates-to-existing-work.md
+source_hash: ea4ad216da2ec6757f63aa62284285313f1c9cf03a1f9c284f483024c8112d07
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g7
+produced:
+  - data/kb/encyclopedia-entry.yaml#how-web3-relates-to-your-existing-work
+  - >-
+    data/kb/concept-lineage.yaml#web3-as-addition-not-replacement-to-existing-mission-driven-work

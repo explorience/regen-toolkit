@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: 'Custodial wallets carry counterparty/solvency risk: the FTX collapse'
+  type: claim-evidence
+  claim: >-
+    Holding funds in a custodial wallet exposes users to counterparty risk — the
+    security and solvency of the custodian, not just their own security
+    practices.
+  evidence: >-
+    Article cites the 2022 FTX collapse as an example where thousands of users
+    lost funds held on a custodial exchange.
+  source_lineage: src/content/docs/custodial-vs-noncustodial.md
+  interpretation: >-
+    Used to ground the abstract "not your keys, not your crypto" saying in a
+    concrete, real-world event, supporting the article's broader trade-off
+    framing between custodial convenience and non-custodial control.
+  uncertainty: >-
+    Single named event cited without a source link in this article's own
+    reference list; FTX collapse is widely documented externally but not
+    independently re-verified here.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/custodial-vs-noncustodial.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ce41b10364c7

@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: POAP (Proof of Attendance Protocol)
+  type: resource
+  url: https://poap.xyz/
+  resource_type: attendance-badge NFT protocol
+  link_status: active
+  notes: >-
+    Cited in the article as a way to make a newcomer's first event a "small
+    gift, not a test" — a free collectible NFT minted to attendees, issued on
+    Gnosis Chain so both organizers and attendees pay nothing. Distributed via
+    QR code at the event.
+  related_concepts:
+    - onboarding-as-trellis-not-funnel
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onboarding-members.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded: Grassroots Economics / Sarafu (USSD community-currency
+# onboarding, Kenya) is discussed in this article but is captured more fully as
+# a resource in the refi-vs-defi-tradfi.md ingestion (same organization, richer
+# treatment there) — not duplicated here to avoid a thin duplicate entry.

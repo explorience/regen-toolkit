@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: NFT as verifiable ownership record (beyond the art/collectible use case)
+  type: concept-lineage
+  short_description: >-
+    An NFT (non-fungible token) is a blockchain record asserting unique-item
+    ownership. The article's core reframe: the underlying capability isn't
+    "digital art" — it's permanent, tamper-resistant, instantly-verifiable
+    proof of ownership or credential, which generalizes to gaming assets,
+    credentials, property, supply-chain provenance, tickets, and music rights.
+  source_traditions:
+    - Ethereum NFT standard (ethereum.org NFT explainer, cited in article references)
+  toolkit_usage: >-
+    Used in the article as the unifying concept behind six otherwise-unrelated
+    application domains (gaming, credentials, real estate, supply chains,
+    ticketing, music).
+  adjacent_meanings:
+    - Digital collectible / profile-picture NFT (the "hype" use case the article explicitly sets aside)
+    - Verifiable credential / on-chain attestation (overlapping but distinct — see onchain-attestations entry)
+    - Fractional ownership token (property/asset divided into tradeable shares)
+  important_distinctions:
+    - >-
+      "An NFT is a blockchain record of ownership for a unique digital item" —
+      the article is explicit that the ownership-record function, not the
+      image/media attached to it, is what generalizes beyond art.
+    - >-
+      NFT credentials vs. on-chain attestations: the article treats
+      blockchain diplomas/certifications as an NFT use case, while a sibling
+      article (onchain-attestations) treats attestations as a related but
+      separate primitive — worth reconciling in ontology review.
+  tensions:
+    - >-
+      Player/creator value capture (gaming, music) vs. platform/marketplace
+      capture — the article raises this without resolving it.
+  risks_of_flattening: >-
+    None flagged as high-risk; article is general-audience education, not a
+    claim about a specific community or person.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/nfts-beyond-art.md
+    transformation: summarized
+    authorship: ai-assisted

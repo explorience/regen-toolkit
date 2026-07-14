@@ -1,0 +1,54 @@
+schema: encyclopedia-entry
+object:
+  title: What Is Cryptocurrency?
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A plain-language introduction to cryptocurrency for community organizers and
+    growers, using a "shared notebook" analogy for blockchain, drawing the
+    coin/token distinction, and grounding the "why should I care" question in
+    four concrete cases (Sarafu Network local currency, Regen Network ecological
+    credits, Glo Dollar's donation-funding stablecoin, and cheap cross-border
+    remittances), before addressing head-on the three standard fears:
+    environmental impact, scams, and hype.
+  audience: >-
+    community organisers and growers new to crypto (gardens, tool libraries,
+    seed swaps)
+  known_tensions:
+    - >-
+      decentralisation-as-no-single-boss vs the practical need for someone to
+      still write good software and maintain it
+    - >-
+      crypto's real environmental cost is chain-specific (proof-of-work vs
+      proof-of-stake), not a single verdict
+    - >-
+      the honest "you almost certainly don't need crypto" framing vs the four
+      cases presented as genuinely useful
+  related_concepts:
+    - blockchain-shared-ledger
+    - coins-vs-tokens
+  related_resources:
+    - Sarafu Network / Grassroots Economics
+    - Regen Network
+    - Glo Dollar
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-cryptocurrency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-cryptocurrency.md
+  notes: |
+    # assessed-but-excluded
+    - GiveDirectly is mentioned only as "a major recipient" of Glo Dollar's
+      donated interest, a brief supporting detail folded into the Glo
+      Dollar resource note rather than given its own object.
+    - Bankless Academy and Kaspersky are cited only as general educational
+      references (a lesson platform and a definitional source), not
+      elaborated on in the body; excluded as their own resource objects to
+      avoid mega-listing thin mentions.
+    - no people/community profiles, exact locations, TEK, or funding/legal
+      recommendations named; standard scam-safety guidance is not a
+      high-risk trigger under the framework's list.
+  work_order: wo-21b470d1f9f4

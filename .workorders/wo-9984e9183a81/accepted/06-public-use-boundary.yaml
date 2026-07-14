@@ -1,0 +1,18 @@
+schema: public-use-boundary
+object:
+  title: Legal Structures for Your Local Node — public-use boundary
+  tier: public-with-caveat
+  consent_note: >-
+    This article and its derived objects (encyclopedia-entry, concept- lineage:
+    Legal Wrapper, and the DUNA/501(c)(3) claim-evidence objects) contain
+    jurisdiction- and time-specific legal/governance guidance (entity types,
+    fees, statutes). It is educational summary, not legal advice, and must not
+    be presented to a community as a substitute for consulting a lawyer,
+    cooperative development center, or the relevant Secretary of State/IRS
+    before filing. High-risk trigger: legal/ governance recommendations (per
+    skills/ingest).
+  review_type: >-
+    domain-review (legal) recommended before any public-facing promotion past
+    raw
+  work_order: wo-9984e9183a81
+  source_lineage: legal-structures.md

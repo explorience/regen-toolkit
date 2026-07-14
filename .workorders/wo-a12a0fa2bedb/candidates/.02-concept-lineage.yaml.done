@@ -1,0 +1,34 @@
+schema: concept-lineage
+object:
+  title: Anatomy of a good DAO proposal
+  type: concept-lineage
+  short_description: >-
+    A seven-part structure for a governance proposal: (1) a clear, specific
+    title, (2) a 2-3 sentence summary of what's proposed/costs/outcome, (3)
+    background/context explaining the need and evidence, (4) a specification
+    of exact deliverables/timeline/responsible parties, (5) a detailed budget
+    breakdown, (6) measurable success criteria, and (7) a risks section with
+    mitigations.
+  toolkit_usage: >-
+    Presented as the complete template structure the article recommends DAO
+    members follow, paired with a "before you propose" stage (informal
+    temperature check, coalition-building, preemptive objection-handling).
+  adjacent_meanings:
+    - Grant-application templates (title/summary/budget/timeline structures used in traditional funding contexts — not named in the article but structurally similar)
+  important_distinctions:
+    - >-
+      The article distinguishes the *proposal document* structure from the
+      *pre-proposal process* (temperature check, coalition-building) —
+      framing proposal failure as usually a process failure ("proposal is
+      unclear, poorly scoped, or doesn't address community concerns") rather
+      than an idea-quality failure.
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — a generic governance-process template, not attributed to a
+    specific tradition or community.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/proposal-writing.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,57 @@
+schema: concept-lineage
+object:
+  title: Institutional Memory (for community nodes)
+  type: concept-lineage
+  short_description: >-
+    Durable, documented knowledge (decisions, processes, history) that survives
+    personnel changes, so a community "becomes more than the sum of its current
+    members" and doesn't lose knowledge every time someone leaves.
+  source_traditions:
+    - >-
+      organizational-memory theory (broader management/knowledge-management
+      field)
+    - >-
+      the Greenpill Local Regen Guide (named directly in the article as
+      emphasizing that communities need to "remember what they have learned")
+    - open-source project documentation culture (GitHub/GitBook practices)
+  toolkit_usage: >-
+    Used as this article's central justification for documentation practice —
+    framed specifically for Local Node communities (per ReFi DAO's Local Nodes
+    model) rather than generic corporate knowledge management, with East
+    Africa-specific tool-accessibility framing (basic smartphones, data/WiFi
+    access).
+  adjacent_meanings:
+    - >-
+      institutional memory as formal records-management practice (broader, more
+      bureaucratic usage)
+    - >-
+      institutional memory as informal oral tradition passed between members
+      (the implicit "before" state this article is trying to move nodes away
+      from)
+  important_distinctions:
+    - >-
+      documentation-vs-institutional-memory — documentation is the mechanism;
+      institutional memory is the outcome. The article is explicit that
+      undocumented knowledge "walks out the door when people leave," making
+      documentation the necessary but not sufficient condition (it must also be
+      maintained, per the article's "Maintaining Documentation Over Time"
+      section).
+  tensions:
+    - >-
+      documentation-effort-now vs benefit-realized-later — institutional
+      memory's value is often invisible until a key person leaves or a dispute
+      needs resolving, making it easy to deprioritize versus urgent day-to-day
+      work.
+  risks_of_flattening: >-
+    Treating "we have a wiki" as equivalent to having institutional memory
+    flattens the article's explicit warning that outdated, unowned documentation
+    "can actually cause harm" — the memory has to stay current and owned, not
+    merely exist.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/documentation-knowledge.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-12f41d6ac647
+  source_lineage: documentation-knowledge.md

@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Giveth
+  type: resource
+  resource_type: donation-platform
+  url: https://giveth.io/
+  link_status: active
+  is_source_system_candidate: true
+  original_source: "src/content/docs/giveth-donations.md (References)"
+  notes: >-
+    Zero-platform-fee crypto donation platform, peer-to-peer wallet-to-wallet;
+    running since 2016; per the article's headline stats, over 8,100
+    projects, roughly $5.7M in donations, and nearly 26,000 givers (a
+    point-in-time snapshot, not necessarily current). Supports recipient
+    addresses across Ethereum Mainnet, Gnosis Chain, Polygon, Polygon zkEVM,
+    Stellar, Celo, Optimism, Solana, Arbitrum, Base, and Ethereum Classic.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: summarized
+    authorship: ai-assisted

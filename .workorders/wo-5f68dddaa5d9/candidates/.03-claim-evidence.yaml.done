@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: "Weekly building-in-public updates beat monthly dumps"
+  type: claim-evidence
+  claim: >-
+    "Be consistent, weekly updates beat monthly dumps" — listed as the first
+    of four best practices for building in public.
+  evidence: >-
+    Stated directly as prescriptive guidance in the article's "Best
+    Practices" section; the article cites no study, data source, or named
+    case backing this specific cadence claim.
+  source_lineage: src/content/docs/building-in-public.md
+  interpretation: >-
+    Used as the article's operating rule for communication frequency: small,
+    regular updates sustain audience attention and accountability better
+    than infrequent large ones.
+  uncertainty: >-
+    This is asserted as practitioner wisdom without citation — the article's
+    frontmatter lists only a generic "Community building" source and no
+    References section exists, unlike several sibling articles in this
+    batch. Treat as an opinionated claim, not an evidenced finding.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-in-public.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5f68dddaa5d9

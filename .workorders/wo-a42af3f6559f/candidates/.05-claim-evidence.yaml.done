@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: "COVID-19 disrupted over 80% of concentrated meat-processing production"
+  type: claim-evidence
+  claim: >-
+    When COVID-19 shut down a handful of major meat-processing plants, over
+    80 percent of production was disrupted and millions of people felt the
+    impact — used as the article's example of centralized food distribution's
+    single-point-of-failure weakness.
+  evidence: >-
+    Stated as fact in the article's "What Are Centralized Systems?" section;
+    the article's References list only Bankless Academy and the PMC 2022
+    study generally, with no specific inline citation tied to this 80%
+    figure.
+  source_lineage: src/content/docs/centralized-vs-decentralized.md
+  interpretation: >-
+    Used as the concrete real-world illustration of "single point of
+    failure": concentrating production in a small number of large
+    facilities means one disruption cascades widely.
+  uncertainty: >-
+    The specific "over 80 percent" figure has no dedicated citation in the
+    article itself (unlike the article's other major claim, which is tied
+    to the named 2022 PMC study) — treat as an uncited statistic pending
+    verification against a primary source (e.g. USDA or CDC COVID-19 meat-
+    processing disruption reporting).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/centralized-vs-decentralized.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a42af3f6559f

@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Wikimedia Stewards
+  type: resource
+  url: https://meta.wikimedia.org/wiki/Stewards
+  resource_type: org
+  is_source_system_candidate: true
+  link_status: active
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - stewardship-knowledge-commons
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stewardship-roles.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Globally elected Wikimedia role, deliberately barred from using its powers
+    on wikis where the steward is an active local editor — cited as a real-world
+    example of keeping stewardship about the commons rather than home-turf
+    power.
+  work_order: wo-b33d0b2dd044
+  source_lineage: stewardship-roles.md

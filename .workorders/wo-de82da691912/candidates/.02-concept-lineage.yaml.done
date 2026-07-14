@@ -1,0 +1,35 @@
+schema: concept-lineage
+object:
+  title: Chain-selection tradeoffs (speed, sovereignty, shared security, accessibility)
+  type: concept-lineage
+  short_description: >-
+    A framework for choosing among non-Ethereum blockchain ecosystems along
+    four axes: raw transaction speed/cost (Solana), full chain sovereignty via
+    custom application-specific chains (Cosmos), shared/borrowed security
+    without running your own validator set (Polkadot parachains, Avalanche
+    subnets), and accessibility/usability for non-technical users (Near).
+  toolkit_usage: >-
+    Structures the whole article — each ecosystem section maps to one point on
+    this tradeoff space, and the closing "Choosing Where to Build" section
+    makes the framework explicit as a four-question decision guide.
+  adjacent_meanings:
+    - EVM-compatibility (a separate axis: whether existing Ethereum tooling/skills transfer directly)
+    - Layer-2 scaling (a different approach to the speed/cost tradeoff, built on top of Ethereum rather than a separate L1 — referenced in the article's `related` frontmatter but not discussed in the body)
+  important_distinctions:
+    - >-
+      "You don't need to pick a favourite" — the article frames ecosystem
+      choice as context-dependent rather than a single best-chain ranking.
+    - >-
+      Cosmos (build-your-own-chain) is distinguished from Polkadot/Avalanche
+      (borrow shared security for a custom chain) — both let a project have
+      "its own chain," but with very different infrastructure commitments.
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — general technical/ecosystem comparison, not attributed to
+    a specific community or tradition.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/other-chains.md
+    transformation: summarized
+    authorship: ai-assisted

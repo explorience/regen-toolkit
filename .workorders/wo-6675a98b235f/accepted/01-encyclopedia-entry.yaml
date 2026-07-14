@@ -1,0 +1,45 @@
+schema: encyclopedia-entry
+object:
+  title: Delegation and Representation in DAOs
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A design guide for DAO delegation systems, covering four delegation types
+    (full, topic-based, liquid, time-limited), key design questions, concrete
+    recommendations for local nodes (optional delegation, power caps of 20-30%,
+    transparency, accountability, always-available direct voting),
+    accountability mechanisms (delegate reports, recall, term limits, conflict
+    disclosure), and common mistakes to avoid.
+  audience: DAO-Operator / Local-Node governance designers
+  known_tensions:
+    - >-
+      reducing-voter-fatigue-via-delegation vs concentrating-power-in-delegates
+      — the whole article is an argument for building delegation carefully so it
+      solves the first problem without causing the second.
+    - >-
+      flexibility-of-liquid-delegation vs complexity-requiring-sophisticated-
+      tooling.
+  related_concepts:
+    - liquid-democracy
+    - delegation-accountability
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/delegation-representation.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6675a98b235f
+  source_lineage: delegation-representation.md
+  notes: |
+    # assessed-but-excluded
+    - No named tools/platforms are cited in this article (unlike dao-tooling.md
+      or dao-governance-models.md) — no resource objects created; this is a
+      pure governance-design guide with generic "on-chain/off-chain/hybrid"
+      language rather than named implementations.
+    - No people/community profiles, exact locations, or high-risk triggers
+      identified. Note: the article does make a governance-design
+      recommendation (cap delegate power at 20-30%) — this is generic best-
+      practice advice, not a claim about a specific real DAO's funding/legal
+      status, so it was not treated as a high-risk governance recommendation
+      requiring a public-use-boundary; flagged here for reviewer judgment call.

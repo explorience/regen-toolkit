@@ -1,0 +1,28 @@
+schema: encyclopedia-entry
+object:
+  title: Understanding Gas Fees in Cryptocurrency
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A quick, plain-language explainer of blockchain gas fees: what gas is and
+    why it exists (pay validators, prevent spam, allocate block space), the
+    EIP-1559 base-fee + tip fee model (base fee auto-adjusts with demand and is
+    burned; priority fee/tip jumps the queue), typical gas costs by transaction
+    type, what drives fees up or down (network demand, time of day, transaction
+    complexity), and five ways to save (time transactions, avoid volatility
+    spikes, use fee estimators, use Layer 2, set max fees).
+  audience: newcomers doing their first crypto transactions
+  known_tensions: []
+  related_concepts:
+    - gas-fee-eip-1559-base-fee-plus-tip-model
+  related_resources:
+    - arbitrum
+    - optimism
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gas-fees.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ac0da2dd8891
+  source_lineage: gas-fees.md

@@ -1,0 +1,16 @@
+schema: claim-evidence
+object:
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-first-wallet.md
+  title: Layer-2 networks make transactions cost a fraction of a cent
+  type: claim-evidence
+  claim: >-
+    Most regen and community projects run on layer-2 networks (Base, Optimism,
+    Arbitrum) where a transaction typically costs a fraction of a cent, so the
+    'expensive gas' fear mostly applies to Ethereum mainnet, not where beginners
+    actually work.
+  evidence: Article assertion, supported by its cited live tracker l2fees.info.
+  work_order: wo-f176964ca85a
+  source_lineage: setting-up-first-wallet.md

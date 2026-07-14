@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Wallet Comparison Guide
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    A beginner-oriented comparison of four Android crypto wallets (Coinbase
+    Wallet, MetaMask, Trust Wallet, Rainbow) on ease of use, feature breadth,
+    and blockchain support, plus core wallet concepts (public address vs
+    secret/seed phrase), safety tips, and step-by-step first-wallet setup
+    instructions tied to a specific program's onboarding flow.
+  audience: complete beginners setting up their first crypto wallet on Android, within a specific program's onboarding
+  known_tensions:
+    - ease-of-use (Coinbase Wallet) vs feature breadth/Web3-app-compatibility (MetaMask)
+    - simplicity for beginners vs the safety burden of self-custody (no bank to call if the seed phrase is lost or stolen)
+  related_concepts:
+    - self-custody-wallets
+    - seed-phrase-security
+  related_resources:
+    - Coinbase Wallet
+    - MetaMask
+    - Trust Wallet
+    - Rainbow Wallet
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/wallet-comparison-guide.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: wallet-comparison-guide.md
+  notes: |
+    # assessed-but-excluded
+    - the article names an unspecified "Sarreya program coordinator" as the
+      support contact and references sending "test USDC" — this points to a
+      specific onboarding program whose identity/affiliation is not
+      explained in the article itself. Not enough information to build a
+      faithful source-system or resource card without inventing facts about
+      what "Sarreya" is; captured instead as a signal flagging the gap for a
+      human reviewer, per the "don't invent facts" rule.
+    - no exact personal locations or named individuals; general safety
+      advice (never share your seed phrase) is standard guidance, not a
+      high-risk trigger under the framework's list (people/locations/TEK/
+      MRV/funding-legal-governance).

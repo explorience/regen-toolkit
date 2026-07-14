@@ -1,0 +1,33 @@
+schema: claim-evidence
+object:
+  title: Silvi verifies trees and pays planters directly, with no middlemen
+  type: claim-evidence
+  claim: >-
+    Once a planted tree is verified (via phone photo, AI check, and community
+    review), Silvi Protocol automatically sends payment (in cUSD or USDC)
+    directly to the planter's wallet, with no middlemen and no delays, on a
+    fully transparent, unchangeable blockchain record.
+  evidence: >-
+    Asserted throughout the article's "What is Silvi Protocol," "Why Does This
+    Matter," and "How It Works" sections; no independent audit, technical
+    documentation, or third-party account is cited in this source.
+  source_lineage: src/content/docs/silvi-protocol.md
+  interpretation: >-
+    Functions as the article's core value proposition: technology replacing
+    trust intermediaries in ecological-impact funding.
+  uncertainty: >-
+    Single-sourced promotional playbook (no listed sources per frontmatter
+    `sources: []`); payment reliability, AI-verification accuracy, and
+    "permanent record that anyone can verify" claims are not independently
+    confirmed here. High-risk as an ecological/MRV + payment claim about a named
+    third-party protocol — should be corroborated against Silvi's own technical
+    docs/audits before any public-facing reuse.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/silvi-protocol.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ec7a53915677

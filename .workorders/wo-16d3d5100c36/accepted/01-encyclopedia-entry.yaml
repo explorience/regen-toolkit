@@ -1,0 +1,42 @@
+schema: encyclopedia-entry
+object:
+  title: Human Review Boundaries for a Knowledge Commons
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    Argues that a knowledge commons needs an explicit, written "review boundary"
+    — sorted by the consequence of an entry being wrong, not by its volume or
+    length — so it neither buries reviewers under every edit nor lets unreviewed
+    content masquerade as agreed truth. Proposes a three-tier model
+    (ephemeral/personal, working/shared, canonical/load-bearing), grounds it in
+    Elinor Ostrom's commons-governance principles, and shows how a Git/PR
+    workflow (or a Notion Status property) can make the tool enforce the gate
+    instead of a person policing it.
+  audience: >-
+    small teams stewarding a wiki, digital garden, or knowledge base who need it
+    to survive staff/volunteer turnover
+  known_tensions:
+    - >-
+      reviewing-everything-bottlenecks-the-steward-vs-reviewing-nothing-lets-the-commons-rot
+    - >-
+      git-PR-audit-trail-rigor-vs-Notion's-lower-learning-curve-for-non-technical-teams
+  related_concepts:
+    - review-boundary-consequence-based-content-tiering
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/human-review-boundaries.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: Quartz, Obsidian, and Astro Starlight are not
+    re-created as new resource objects here — identically- or
+    near-identically-titled resources already exist in data/kb/resource.yaml
+    from a prior ingestion slice. Ostrom's design principles were not
+    re-asserted as a duplicate claim-evidence object — a near-identical claim
+    ("Commons governance principles (Ostrom) apply to source-system
+    stewardship") already exists in data/kb/claim-evidence.yaml; a more specific
+    SuperBenefit-tiering claim was captured instead.
+  work_order: wo-16d3d5100c36
+  source_lineage: human-review-boundaries.md

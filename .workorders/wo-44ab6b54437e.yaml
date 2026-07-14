@@ -1,0 +1,29 @@
+id: wo-44ab6b54437e
+title: ingest writing-grant-proposals.md
+type: work-order
+source_path: writing-grant-proposals.md
+source_hash: 5ee099914e443919a4dc12da65d1a40050877a0dd3aa5a8543032411ddace055
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#writing-grant-proposals
+  - data/kb/concept-lineage.yaml#quadratic-funding-qf-65af3951
+  - >-
+    data/kb/claim-evidence.yaml#refi-dao-s-gg18-local-node-round-30k-pool-18-new-nodes-1-550-contributions
+  - >-
+    data/kb/claim-evidence.yaml#optimism-s-retro-funding-thesis-easier-to-agree-on-what-was-useful-than-what-will-be-useful
+  - data/kb/resource.yaml#gitcoin-grants-tips-for-grant-success
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-grant-strategy-funding-sustainability-recommendations-writing-grant-proposals-md

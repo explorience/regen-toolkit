@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: Retrieval-Augmented Generation (RAG)
+  type: concept-lineage
+  short_description: >-
+    An AI answers only from documents you give it instead of its general
+    training, and returns citations back to the exact passage it drew from.
+  source_traditions:
+    - information-retrieval + language-model synthesis (NLP research)
+  toolkit_usage: >-
+    Named in the article as "the single most useful pattern for a knowledge
+    commons, because answers come with receipts." Google NotebookLM is given as
+    the accessible entry point: load your governance docs and meeting summaries,
+    then a new member can ask "how do we make spending decisions?" and get a
+    sourced answer instead of pinging a person on Discord.
+  adjacent_meanings:
+    - >-
+      general-purpose chat with an LLM's training-data knowledge (no grounding,
+      no citations)
+    - >-
+      fine-tuning (baking documents into model weights, a different technique
+      with different risks)
+  important_distinctions:
+    - >-
+      "when it cites nothing, the knowledge is not there" — the article frames
+      an uncited answer as a documentation gap to fill, not a failure of the
+      tool.
+  tensions:
+    - >-
+      grounded-but-cloud-hosted (NotebookLM, convenient, but files live on
+      Google's servers) vs local-and-private (Smart Connections on Obsidian,
+      slower to adopt, fully offline).
+  risks_of_flattening: >-
+    Treating RAG as "AI search" flattens the distinction the article leans on:
+    the discipline of the format (a system that literally cannot answer beyond
+    what's uploaded) is what makes it trustworthy for governance questions, not
+    any general capability of the underlying model.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-community-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ae4676958221
+  source_lineage: ai-community-tools.md

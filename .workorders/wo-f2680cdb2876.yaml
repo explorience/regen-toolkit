@@ -1,0 +1,32 @@
+id: wo-f2680cdb2876
+title: ingest building-founding-team.md
+type: work-order
+source_path: building-founding-team.md
+source_hash: 1bfa5c431c88e0a0d4913d8f82c2a57ad60c7ffb45fb0d2c98de3fad3da143e0
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - data/kb/encyclopedia-entry.yaml#building-your-founding-team
+  - >-
+    data/kb/concept-lineage.yaml#node-founding-team-roles-convener-builder-doer-treasurer-ops
+  - data/kb/resource.yaml#refi-medellin
+  - data/kb/resource.yaml#refi-cartagena
+  - data/kb/resource.yaml#safe-multisig-wallets-b44d9b39
+  - data/kb/resource.yaml#refi-dao-local-node-incubator
+  - >-
+    data/kb/claim-evidence.yaml#founder-team-conflict-is-a-leading-cause-of-startup-failure-wasserman
+  - >-
+    data/kb/claim-evidence.yaml#ambiguous-role-expectations-are-a-fast-route-to-dao-contributor-burnout
+  - data/kb/public-use-boundary.yaml#untitled-8fba7701

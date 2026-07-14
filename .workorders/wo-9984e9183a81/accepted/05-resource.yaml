@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Wyoming DUNA
+  type: resource
+  resource_type: legal-structure
+  is_source_system_candidate: false
+  toolkit_route: Layer 5 (Option Library) / legal structures
+  link_status: unresolved
+  related_concepts:
+    - Legal Wrapper
+  high_risk: true
+  maturity: raw
+  public_use: requires-domain-review
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/legal-structures.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Decentralized Unincorporated Nonprofit Association, effective July 1, 2024 —
+    DAO-specific legal wrapper requiring 100+ members and meaningful on-chain
+    governance; Uniswap Foundation's DUNI (est. via governance vote, 2025) is
+    named as a worked adopter example. Not a substitute for legal counsel; see
+    paired public-use-boundary object.
+  work_order: wo-9984e9183a81
+  source_lineage: legal-structures.md

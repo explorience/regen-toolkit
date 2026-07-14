@@ -1,0 +1,25 @@
+schema: signal
+object:
+  title: >-
+    Article references an unexplained "Sarreya program coordinator" and
+    test-USDC onboarding flow
+  type: signal
+  signal_type: content
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    The article's "Getting Started" and "Need Help?" sections instruct the
+    reader to have a program coordinator send "test USDC" and to ask a named
+    "Sarreya program coordinator" for setup help, but the article gives no other
+    context on what "Sarreya" is (a specific onboarding cohort, an organization,
+    a person's name?). Faithful extraction cannot invent that context, so this
+    is flagged for a human reviewer to confirm what "Sarreya" refers to before
+    this article's provenance/audience metadata is trusted at face value.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/wallet-comparison-guide.md
+    transformation: inferred
+    authorship: ai-assisted
+  source_lineage: wallet-comparison-guide.md
+  work_order: wo-003c0d82b00d

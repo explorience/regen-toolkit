@@ -1,0 +1,25 @@
+schema: signal
+object:
+  title: >-
+    coordination-transparency.md makes several definitional claims with no
+    citations
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia
+  interpretation: >-
+    Unlike several sibling articles in this batch (e.g. common-concerns.md,
+    common-pitfalls.md), this article's frontmatter shows research_done: false,
+    and the body makes claims (transparency-vs-theater, DAO/quadratic-
+    voting/futarchy descriptions, "regenerative tokens", outcome-based bonds)
+    without a References section or inline sourcing. Flagging for a
+    source-linking pass before this entry is promoted past raw/
+    source-linked-unreviewed.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/coordination-transparency.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-97dd78ba716a
+  source_lineage: coordination-transparency.md

@@ -1,0 +1,52 @@
+schema: concept-lineage
+object:
+  title: Distributed Leadership
+  type: concept-lineage
+  short_description: >-
+    Leadership where multiple people hold leadership responsibilities and power
+    flows contextually, rather than concentrating in one founder or "heroic
+    leader."
+  source_traditions:
+    - >-
+      organizing/community-organizing training traditions (cited: "Organizing
+      for America training materials") cooperative leadership development
+      practice
+    - >-
+      East African / Somaliland relational-authority traditions (clan elders,
+      women's group leaders, mosque committee members, trading network
+      coordinators) named explicitly as a cultural foundation to build on rather
+      than replace
+  toolkit_usage: >-
+    Positioned as the resolution to the article's "leadership paradox" — not
+    less leadership, but a different kind, distributed across roles and people
+    so no single point of failure exists.
+  adjacent_meanings:
+    - the "founder trap" (single-founder model this concept is defined against)
+    - >-
+      shared/rotating leadership (a specific structural technique, see role
+      rotation)
+  important_distinctions:
+    - >-
+      distributed leadership ≠ no leadership — the article is explicit that "too
+      little leadership and nothing gets done"; the goal is distribution, not
+      absence
+  tensions:
+    - >-
+      the article imports Western organizing-training language ("Organizing for
+      America") for a technique it then explicitly grounds in existing East
+      African/Somaliland relational authority — worth watching whether the
+      framing privileges the imported vocabulary over the local one
+  risks_of_flattening: >-
+    "Distributed leadership" as a slogan can mask real power concentration if
+    roles are distributed on paper but one person retains informal veto — the
+    article's own "Mistake 4: Concentrating Power" section names this risk
+    directly.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/leadership-development.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-2e536fd73e7a
+  source_lineage: leadership-development.md

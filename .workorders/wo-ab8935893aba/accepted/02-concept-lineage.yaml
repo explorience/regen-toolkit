@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: Zero-knowledge proof (selective disclosure)
+  type: concept-lineage
+  short_description: >-
+    A cryptographic method letting someone prove a statement about themselves
+    (e.g. "I am over 18") is true without revealing the underlying data (e.g. an
+    exact birthdate or ID document) that makes it true.
+  source_traditions:
+    - cryptography (zero-knowledge proof research)
+    - privacy-preserving-computation
+  toolkit_usage: >-
+    Presented in identity-verification.md as the mechanism that lets a web3
+    verification system ask yes/no questions ("are you over 18?", "do you live
+    in Somaliland?") and get an answer without collecting the underlying
+    document.
+  adjacent_meanings:
+    - verifiable-credential-wallet-held-attestation
+    - onchain-attestation
+  important_distinctions:
+    - >-
+      Proving "yes, over 18" is not the same as disclosing a birthdate — the
+      article is explicit that this is the "clever part" distinguishing web3
+      verification from showing an ID card.
+  tensions:
+    - >-
+      Selective-disclosure privacy benefits vs. the practical reality that the
+      issuing credential system still had to verify the underlying fact at some
+      point.
+  risks_of_flattening: >-
+    The article's "prove you have a key without showing the key" analogy is a
+    simplification; it does not capture the specific cryptographic guarantees or
+    failure modes of any particular ZK-proof scheme.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/identity-verification.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-ab8935893aba
+  source_lineage: identity-verification.md

@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Ledger Academy - How Does a Blockchain Transaction Work
+  type: resource
+  resource_type: article
+  url: https://www.ledger.com/academy/how-does-a-blockchain-transaction-work
+  link_status: active
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  notes: >-
+    Educational article cited as "[Source S]" for both of
+    how-transactions-work.md's direct quotations on private-key signing
+    authority and block-confirmation immutability.
+  related_concepts:
+    - mempool-transaction-waiting-room
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-transactions-work.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Dublin Core
+  type: resource
+  resource_type: standard
+  url: https://www.dublincore.org/specifications/dublin-core/dces/
+  is_source_system_candidate: false
+  toolkit_route: Layer 2 (Knowledge Commons) / metadata standards
+  link_status: active
+  related_concepts:
+    - Type vs. Tag (metadata discipline)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/metadata-that-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Fifteen broad, generic metadata properties (Title, Creator, Date, Subject,
+    Description, Type, Source, Rights, and seven more) standardized
+    internationally as ISO 15836, maintained since the 1990s. Article recommends
+    borrowing its battle-tested field names (e.g. Creator, Subject) rather than
+    inventing new ones.
+  work_order: wo-db092c6eb4e9
+  source_lineage: metadata-that-matters.md

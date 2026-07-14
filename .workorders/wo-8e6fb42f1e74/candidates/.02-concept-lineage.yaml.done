@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: Dimensions of inclusion (economic, technical, temporal, social, accessibility)
+  type: concept-lineage
+  short_description: >-
+    A five-dimension checklist for whether a community finance system
+    actually welcomes diverse participants: can people with limited money,
+    limited technical skill, limited time, different social backgrounds, and
+    disabilities all participate?
+  source_traditions:
+    - community-organizing / accessibility-design practice
+  toolkit_usage: >-
+    The organizing structure of inclusive-practices.md, used to walk through
+    concrete design choices (sliding-scale fees, low-tech options, flexible
+    meeting times, culturally appropriate spaces, physical/cognitive
+    accessibility) dimension by dimension.
+  adjacent_meanings:
+    - accessibility-as-afterthought-anti-pattern
+    - inclusion-as-tokenism-anti-pattern
+  important_distinctions:
+    - >-
+      "Inclusion as tokenism" (diverse faces, unchanged power structures) is
+      explicitly distinguished from true inclusion, defined as sharing power.
+    - >-
+      "Measuring participation" (headcounts) is distinguished from
+      "measuring belonging" (do people feel valued, do they influence
+      decisions, do they stay).
+  tensions:
+    - >-
+      Designing multiple on-ramps and flexible formats for every dimension
+      vs. the real coordination overhead of maintaining many parallel paths.
+  risks_of_flattening: >-
+    Presenting the five dimensions as a checklist risks treating inclusion as
+    a box to check rather than, as the article itself insists, "an ongoing
+    practice" with "no destination where you have arrived."
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/inclusive-practices.md
+    transformation: synthesized
+    authorship: ai-assisted

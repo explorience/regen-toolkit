@@ -1,0 +1,51 @@
+schema: concept-lineage
+object:
+  title: Quadratic Voting
+  type: concept-lineage
+  short_description: >-
+    A voting mechanism where the cost of each additional vote a member casts on
+    a proposal increases quadratically (1 vote = 1 credit, 2 votes = 4 credits,
+    3 votes = 9 credits), balancing intensity of preference against breadth of
+    support.
+  source_traditions:
+    - >-
+      Mechanism design theory (credited generally to Glen Weyl / Vitalik
+      Buterin's "quadratic" family of mechanisms, not individually cited in this
+      article)
+  toolkit_usage: >-
+    Recommended in this article for allocating resources across multiple
+    competing options (e.g. treasury allocation, which projects to fund), and
+    named as a whale-resistance safeguard against wealthy members dominating
+    decisions.
+  adjacent_meanings:
+    - >-
+      Quadratic funding (a matching-pool allocation formula for donations, not a
+      voting mechanism — see the funding-gatherings and funding-your-node
+      articles' treatment)
+    - >-
+      Token-weighted voting (the plutocratic mechanism quadratic voting is
+      designed to counterbalance)
+  important_distinctions:
+    - >-
+      Quadratic voting (governance decisions, personal credit budget) vs.
+      quadratic funding (donation-matching, sponsor-funded pool) — same
+      underlying quadratic-cost math, applied to structurally different
+      problems; conflating them is a common error.
+  tensions:
+    - >-
+      The article names its own risk directly: "complex to understand, requires
+      credits system" — a mechanism designed for fairness can fail in practice
+      if members don't understand how to use it.
+  risks_of_flattening: >-
+    Presenting quadratic voting as simply "the mechanism for fair resource
+    allocation" risks understating its real implementation burden (a credits
+    system, voter education, and Sybil-resistant identity to prevent
+    vote-splitting across fake accounts).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/governance-mechanism-design.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-f2e5810230ed
+  source_lineage: governance-mechanism-design.md

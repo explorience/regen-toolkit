@@ -1,0 +1,35 @@
+schema: claim-evidence
+object:
+  title: Donating appreciated crypto directly can let a donor skip capital-gains tax
+  type: claim-evidence
+  claim: >-
+    A donor who bought Ethereum worth $1,000 that is now worth $20,000 would
+    owe tax on the $19,000 gain if they sold it, but if they donate it directly
+    to a nonprofit they can skip the tax bill and receive a federal income tax
+    deduction for the full $20,000 value.
+  evidence: >-
+    Presented as a worked illustrative example in the article body; the
+    References section cites general guidance from Fidelity Charitable and IRS
+    Notice 2014-21 on cryptocurrency donations, without pointing to a specific
+    ruling for this exact numeric example.
+  source_lineage: src/content/docs/why-accept-crypto.md
+  interpretation: >-
+    Used as the article's core argument for why crypto donors are motivated to
+    give directly in-kind rather than sell-then-donate, and therefore why an
+    organization that can't accept crypto is invisible to them.
+  uncertainty: >-
+    This is general US federal tax guidance (long-term capital-gains and
+    charitable-deduction treatment of appreciated property), illustrative and
+    jurisdiction-specific (assumes US tax law) rather than universally
+    applicable to a donor or organization in Somaliland/East Africa. Flagged
+    high-risk per the ingest skill's funding/legal/governance-recommendation
+    trigger — treat as general education, not tax advice for any specific
+    donor or organization, and confirm current IRS guidance / local tax law
+    before repeating this example in donor-facing materials.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/why-accept-crypto.md
+    transformation: summarized
+    authorship: ai-assisted

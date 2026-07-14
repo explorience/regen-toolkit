@@ -1,0 +1,19 @@
+schema: signal
+object:
+  title: Paxful wound down 1 Nov 2025 — outdated P2P crypto guides still recommend it
+  type: signal
+  signal_type: resource
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    how-to-get-crypto.md flags that Paxful, "the platform most older guides
+    still recommend," closed completely by 1 November 2025, and uses this as
+    a live example of why crypto-tooling recommendations need a
+    currentness/last-checked marker — the same "check dates on anything
+    crypto-related" caution applies to any resource this toolkit lists.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-to-get-crypto.md
+    transformation: synthesized
+    authorship: ai-assisted

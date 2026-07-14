@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Mondragon Worker Cooperative Federation
+  type: resource
+  resource_type: org
+  url: https://www.mondragon-corporation.com/en
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: cooperative-commons.md
+  related_concepts:
+    - worker-cooperative
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/cooperative-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d800b62ea134
+  source_lineage: cooperative-commons.md
+  notes: >-
+    Basque Country worker-cooperative federation spanning manufacturing, retail,
+    finance, and education; cited as the best-known large worker-cooperative
+    example, sustaining employment through economic cycles.

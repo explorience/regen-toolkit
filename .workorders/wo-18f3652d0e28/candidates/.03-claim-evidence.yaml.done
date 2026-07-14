@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: Ithaca Hours, Bristol Pound, and Brixton Pound declined after single-steward dependency
+  type: claim-evidence
+  claim: >-
+    Ithaca Hours (a paper local currency launched in Ithaca, NY in 1991, with
+    over $100,000 in circulation at its peak) declined after founder Paul
+    Glover moved away and stopped acting as the full-time promoter/
+    facilitator/troubleshooter; the Bristol Pound withdrew its currency in
+    2020 and its successor closed in 2023; the Brixton Pound is now paused
+    for a governance transition.
+  evidence: >-
+    Stated in is-community-ready.md's "The One Failure Mode to Plan Around"
+    section, citing the Wikipedia overview of Ithaca Hours for that case and
+    asserting the Bristol/Brixton Pound outcomes without a direct citation
+    for those two.
+  source_lineage: src/content/docs/is-community-ready.md
+  interpretation: >-
+    Used as the article's central cautionary pattern: a local-currency/node
+    project that runs on one heroic individual has that individual as a
+    single point of failure.
+  uncertainty: >-
+    The Ithaca Hours account traces to the article's cited Wikipedia source;
+    the Bristol Pound and Brixton Pound outcomes are asserted without a
+    specific citation in the source article and were not independently
+    verified for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-community-ready.md
+    transformation: summarized
+    authorship: ai-assisted

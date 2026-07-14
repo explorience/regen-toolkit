@@ -1,0 +1,49 @@
+schema: encyclopedia-entry
+object:
+  title: DAO Tooling Landscape
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    Tours the software categories a DAO needs — governance/voting (Snapshot,
+    Tally, OpenZeppelin Governor, Aragon), treasury management (Gnosis Safe,
+    XDAO), contributor compensation (Coordinape), and DAO-creation platforms
+    (Colony, Juicebox, Boardroom, DAOstack) — with recommended starting setups
+    and a note that DAOs collectively manage over $30 billion in assets across
+    13,000+ organizations.
+  audience: DAO-Operator
+  known_tensions:
+    - >-
+      recommended-signer-thresholds (3-of-5 under $10M, 4-of-7 for larger
+      treasuries) trade speed of execution against concentration-of-control
+      risk.
+    - >-
+      peer-allocated compensation (Coordinape) vs manager-decided compensation —
+      framed as aligned with regenerative, non-hierarchical values.
+  related_concepts:
+    - multisig-treasury-management
+  related_resources:
+    - Snapshot
+    - Tally
+    - Gnosis Safe
+    - Coordinape
+    - Aragon
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-fda5b8111b9b
+  source_lineage: dao-tooling.md
+  notes: |
+    # assessed-but-excluded
+    - XDAO, Juicebox, Colony, Boardroom, DAOstack, OpenZeppelin Governor are
+      named with one or two sentences each; not built out as separate resource
+      objects (kept the five given the deepest, multi-paragraph treatment —
+      Snapshot, Tally, Gnosis Safe, Coordinape, Aragon — as resources instead,
+      per "small objects, not mega-objects" but avoiding a 10-way resource
+      dump for one-line mentions).
+    - No people/community profiles, exact locations, or high-risk triggers
+      identified — general tool-literacy content; no public-use-boundary
+      object created.

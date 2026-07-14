@@ -1,0 +1,33 @@
+schema: claim-evidence
+object:
+  title: >-
+    Traditional remittances cost ~6% on average; stable-digital-dollar rails
+    cost a cent or two
+  type: claim-evidence
+  claim: >-
+    Sending money home through a traditional money-transfer service costs about
+    6% of the amount on average worldwide (and often more), according to the
+    World Bank, while a stable digital dollar sent on a low-cost network can
+    cost a cent or two — a meaningful gap for diaspora communities and
+    cross-border solidarity funds.
+  evidence: >-
+    Cited to the World Bank's Remittance Prices Worldwide dataset, linked in the
+    article's references (remittanceprices.worldbank.org).
+  source_lineage: src/content/docs/what-is-cryptocurrency.md
+  interpretation: >-
+    Used to make the "why this might matter for your work" case concrete —
+    reframing crypto's cost advantage as relevant to real diaspora/solidarity
+    cross-border transfers rather than abstract finance.
+  uncertainty: >-
+    "About 6%" is a global average masking large corridor-to-corridor variation;
+    the "a cent or two" figure for stable-digital-dollar transfer is
+    illustrative and network/fee-condition dependent, not sourced to a specific
+    transaction example.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-cryptocurrency.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-21b470d1f9f4

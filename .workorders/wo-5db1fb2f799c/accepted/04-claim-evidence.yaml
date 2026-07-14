@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: Ethereum's 2022 proof-of-stake switch cut energy use by roughly 99.95%
+  type: claim-evidence
+  claim: >-
+    "In September 2022, Ethereum switched to a method called proof-of-stake, and
+    independent analysts measured the result: energy use dropped by roughly
+    99.95% overnight, from a small country's worth of electricity down to a tiny
+    fraction of that."
+  evidence: >-
+    Article cites "Ethereum.org, The Merge" (ethereum.org/roadmap/merge/) as
+    "the official record of Ethereum's 2022 switch to proof-of-stake and the
+    ~99.95% drop in energy use."
+  source_lineage: src/content/docs/refi-vs-defi-tradfi.md (References section)
+  interpretation: >-
+    Used to directly answer the article's own framed objection ("But Doesn't
+    Crypto Boil the Planet?"), distinguishing Bitcoin's proof-of-work energy
+    profile from Ethereum/proof-of-stake, which most ReFi activity runs on.
+  uncertainty: >-
+    The 99.95% figure is a widely-corroborated, independently-measured result of
+    the Merge (commonly cited across the industry) and the article attributes it
+    to "independent analysts" as well as ethereum.org's own record —
+    moderate-to-high confidence, though this ingestion did not independently
+    re-verify the exact percentage against a named third-party study.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/refi-vs-defi-tradfi.md
+    surfaced_by: Ethereum.org, The Merge
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-5db1fb2f799c

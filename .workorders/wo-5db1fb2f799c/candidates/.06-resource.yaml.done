@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Gitcoin
+  type: resource
+  url: https://www.gitcoin.co/
+  resource_type: quadratic-funding public-goods platform
+  link_status: active
+  notes: >-
+    Cited as the article's example of "community-directed funding" via
+    quadratic funding, a matching system where many small donations count for
+    far more than a few large ones. Article states Gitcoin has channelled
+    "over $67 million to more than 5,000 public-good projects" this way.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/refi-vs-defi-tradfi.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded: Grassroots Economics / Sarafu is discussed at length
+# in this article but was already written up as a resource candidate in the
+# onboarding-members.md ingestion earlier in this session — not duplicated
+# here. DefiLlama (referenced only in the References list, not discussed in
+# body) was also assessed and excluded for the same reason as other
+# reference-only links (no synthesized body content to attach).

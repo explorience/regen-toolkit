@@ -1,0 +1,33 @@
+schema: encyclopedia-entry
+object:
+  title: "ReFi vs. DeFi vs. TradFi: Three Ways to Move Money"
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    A plain-language comparison of three financial systems for community
+    organizers: TradFi (centralized institutions — banks, credit unions,
+    grant foundations), DeFi (no-gatekeeper smart-contract finance, mostly
+    speculative in practice), and ReFi (DeFi's machinery redirected at
+    ecological/social repair, illustrated with Regen Network's ecocredit
+    registry, Gitcoin's quadratic funding, and Grassroots Economics' Sarafu
+    community currency). Addresses the "doesn't crypto boil the planet"
+    objection via Ethereum's 2022 proof-of-stake switch, and closes with a
+    task-to-tool matching table rather than an either/or framing.
+  audience: community organisers and permaculturists new to web3 finance concepts
+  known_tensions:
+    - >-
+      DeFi is described as genuinely powerful infrastructure ("$150 billion...
+      on any given day") but "usually just 'more money'" with no connection to
+      anything growing in the ground — the article holds both points at once
+      rather than resolving them.
+  related_concepts:
+    - regenerative-finance-refi
+  related_resources:
+    - regen-network
+    - gitcoin
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/refi-vs-defi-tradfi.md
+    transformation: summarized
+    authorship: ai-assisted

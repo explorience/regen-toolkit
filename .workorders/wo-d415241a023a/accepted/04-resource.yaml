@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Cryptocurrency Security Standards (CCSS)
+  type: resource
+  resource_type: standard
+  url: https://cryptocurrencysecuritystandard.org
+  link_status: unresolved
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  notes: >-
+    Referenced in hot-vs-cold.md's References as a place for deeper security
+    practices beyond the article's introductory hot/cold framing.
+  related_concepts:
+    - layered-custody-hot-cold-multisig-by-purpose
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/hot-vs-cold.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d415241a023a
+  source_lineage: hot-vs-cold.md

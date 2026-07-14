@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: Verifiable credential (wallet-held attestation)
+  type: concept-lineage
+  short_description: >-
+    A digital credential issued into a user's wallet once a verification
+    system confirms an attribute or requirement is met; the holder chooses
+    when to present it and when to keep it hidden.
+  source_traditions:
+    - decentralized-identity / self-sovereign-identity movement
+  toolkit_usage: >-
+    Described in identity-verification.md's "A Credential Is Created" step
+    as what a wallet holds after a zero-knowledge verification succeeds, and
+    as the thing a person can "show when you need to prove something, and
+    hide when you don't."
+  adjacent_meanings:
+    - zero-knowledge-proof-selective-disclosure
+    - onchain-attestation
+  important_distinctions:
+    - >-
+      Holding a credential is not the same as broadcasting it — the article
+      stresses user-controlled disclosure as the differentiator from
+      regular-internet data collection.
+  tensions:
+    - >-
+      Building a portable reputation across platforms (the article's stated
+      benefit) vs. the risk that a credential becomes a new form of
+      cross-platform tracking if not designed carefully.
+  risks_of_flattening: >-
+    The article does not name a specific credential standard or issuer, so
+    "verifiable credential" here reflects the article's general conceptual
+    framing rather than a specific technical implementation.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/identity-verification.md
+    transformation: synthesized
+    authorship: ai-assisted

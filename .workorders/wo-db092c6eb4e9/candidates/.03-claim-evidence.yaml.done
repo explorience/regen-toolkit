@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: 42% of institutional knowledge is unique to the individual
+  type: claim-evidence
+  claim: >-
+    In a 2018 study of more than 1,000 US workers, Panopto and YouGov found
+    that 42% of institutional knowledge is unique to the individual —
+    acquired for their current role and shared by none of their coworkers —
+    meaning colleagues cannot do 42% of a departing person's job.
+  evidence: >-
+    Cited to "Panopto: Inefficient Knowledge Sharing Costs Large Businesses
+    $47 Million Per Year" (panopto.com/company/news/...), a 2018 Panopto/
+    YouGov survey of 1,000+ US workers.
+  source_lineage: src/content/docs/metadata-that-matters.md
+  interpretation: >-
+    A named, dated, sourced statistic from an identifiable study — reasonably
+    strong evidence for the article's framing device, though it is a
+    corporate-sponsored survey (Panopto sells knowledge-management
+    software), which is worth noting as a potential source-interest bias
+    even if the methodology (YouGov-run survey) is credible.
+  uncertainty: >-
+    Low-moderate — the figure is specifically sourced and dated, but this
+    ingest pass did not independently verify the original survey
+    methodology or sample beyond the article's citation; the sponsor
+    (Panopto) has a commercial interest in the finding.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/metadata-that-matters.md
+    transformation: quoted
+    authorship: ai-assisted

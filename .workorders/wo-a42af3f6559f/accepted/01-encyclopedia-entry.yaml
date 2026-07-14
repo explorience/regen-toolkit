@@ -1,0 +1,54 @@
+schema: encyclopedia-entry
+object:
+  title: >-
+    Centralized vs. Decentralized Systems: What It Means for Your Garden and
+    Community
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    A foundations-track explainer contrasting centralized systems (one authority
+    in charge — banks, concentrated food-processing, single- telecom mobile
+    money) against decentralized systems (control spread across many independent
+    parts — cooperatives, rotating savings circles, community seed banks,
+    Bitcoin), aimed at community gardeners and permaculturists new to crypto.
+    Argues most real systems are hybrids on a spectrum, ties the distinction to
+    permaculture's resilience-through- diversity principle, and cites a 2022
+    food-systems resilience study as supporting evidence while noting the same
+    study found centralization can help during labor shortages.
+  audience: individual community gardeners/permaculturists new to web3
+  known_tensions:
+    - >-
+      centralized systems are easier to manage and can produce more cheaply (a
+      single large farm vs many small ones) but carry a single point of failure;
+      decentralized systems trade some efficiency for resilience.
+    - >-
+      the article's own cited study found decentralization improves resilience
+      under supply-chain disruption but centralization can be favored when
+      responding to labor shortages — presented as evidence that neither
+      approach is categorically better.
+  related_concepts:
+    - centralization-decentralization-spectrum
+  related_resources:
+    - Bankless Academy
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/centralized-vs-decentralized.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a42af3f6559f
+  source_lineage: centralized-vs-decentralized.md
+  notes: |
+    # assessed-but-excluded
+    - Satoshi Nakamoto is referenced only as Bitcoin's creator/motivation
+      (a widely public, already-documented historical fact, consistent with
+      this batch's bitcoin-history.md ingestion) — not modeled as a public
+      person-node, no high-risk trigger.
+    - No exact locations, TEK/Indigenous knowledge specifics, MRV/carbon
+      claims, or funding/legal/governance recommendations present; the
+      article's mentions of Ethiopian/Kenyan cooperatives and savings
+      circles (ekub, chamas) are used only as brief, already-widely-known
+      illustrative examples, not attributed practices requiring the deeper
+      cultural-attribution review applied to building-momentum.md elsewhere
+      in this batch.

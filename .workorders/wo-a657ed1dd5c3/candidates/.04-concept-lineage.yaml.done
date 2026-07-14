@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: "Grassroots Web3 Adoption Pattern"
+  type: concept-lineage
+  short_description: >-
+    A recurring on-ramp pattern observed across illustrative
+    regenerative-practitioner adoption stories: start small, find at least
+    one person who understands the tech, keep learning through mistakes, and
+    stay focused on mission rather than the technology itself.
+  source_traditions:
+    - >-
+      Distilled in the article from three composite/illustrative stories
+      sourced from "ReFi DAO Local ReFi Toolkit" and "Reimagining Power."
+  toolkit_usage: >-
+    Used as reassurance content: "you don't need a computer science degree,
+    a huge budget, or to understand everything" to begin using web3 tools
+    for regenerative work.
+  adjacent_meanings:
+    - web3 onboarding pattern
+    - first-90-days pattern
+  important_distinctions:
+    - >-
+      Distinguishes "finding one ally who understands the tech" from
+      "becoming a crypto expert yourself" — the pattern explicitly does not
+      require individual technical mastery.
+  tensions: []
+  risks_of_flattening: >-
+    The pattern is drawn from a small number of illustrative
+    (possibly composite) stories, not a systematic study of adoption
+    outcomes — presenting it as a proven universal path risks overstating
+    its evidentiary base.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stories-regens-leap.md
+    transformation: synthesized
+    authorship: ai-assisted

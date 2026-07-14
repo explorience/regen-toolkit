@@ -1,0 +1,31 @@
+id: wo-8e6fb42f1e74
+title: ingest inclusive-practices.md
+type: work-order
+source_path: inclusive-practices.md
+source_hash: 576590128317bb15b4c543aa5c6faac94576f9f9c6c1c93ed055ca72eacad4a1
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g5
+produced:
+  - data/kb/encyclopedia-entry.yaml#inclusive-practices-for-community-finance
+  - >-
+    data/kb/concept-lineage.yaml#dimensions-of-inclusion-economic-technical-temporal-social-accessibility
+  - >-
+    data/kb/concept-lineage.yaml#informal-community-savings-mechanisms-chamas-iqqub-hawala
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-chamas-iqqub-hawala-attribution-in-inclusive-practices-md
+  - >-
+    data/kb/claim-evidence.yaml#chamas-iqqub-and-hawala-have-long-served-communities-banks-refuse
+  - >-
+    data/kb/signal.yaml#inclusive-practices-md-distinguishes-measuring-participation-from-measuring-belonging

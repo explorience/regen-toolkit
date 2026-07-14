@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: Giveth (conviction voting pioneer)
+  type: resource
+  resource_type: org
+  url: https://giveth.io
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: voting-mechanisms.md
+  related_concepts:
+    - conviction-voting
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/voting-mechanisms.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: voting-mechanisms.md

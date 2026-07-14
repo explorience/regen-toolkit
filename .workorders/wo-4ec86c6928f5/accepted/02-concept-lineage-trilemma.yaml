@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: Blockchain Trilemma
+  type: concept-lineage
+  short_description: >-
+    The observation that every blockchain must balance three competing
+    priorities — scalability (can it handle growing transaction volumes?),
+    security (how protected against attacks?), and decentralization (how widely
+    distributed is network control?) — and that optimizing for one typically
+    means compromising on another.
+  source_traditions:
+    - >-
+      Widely used framing in Ethereum-ecosystem developer discourse; cited in
+      the article via ethereum.org's chain-comparison material.
+  toolkit_usage: >-
+    Used as the article's core decision lens: Ethereum L1 is positioned as
+    prioritizing security/decentralization at the cost of scalability, Solana as
+    prioritizing scalability at some cost to decentralization, and Layer 2s as a
+    middle path that inherits Ethereum's security while improving scalability.
+  adjacent_meanings:
+    - >-
+      EVM compatibility (a technical-portability property distinct from the
+      trilemma tradeoffs)
+  important_distinctions:
+    - >-
+      No single "best" chain — the article insists the right choice is
+      use-case-dependent, not an objective ranking across the trilemma's three
+      axes.
+  tensions: []
+  risks_of_flattening: >-
+    Reducing the trilemma to "pick two" oversimplifies — the article shows real
+    chains (Layer 2s, Polkadot/Cosmos) attempting partial mitigations (inherited
+    security, interoperability) rather than a strict binary tradeoff.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/which-chain-right.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-4ec86c6928f5
+  source_lineage: which-chain-right.md

@@ -1,0 +1,11 @@
+schema: concept-lineage
+object:
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-first-wallet.md
+  title: Self-custody (non-custodial wallet)
+  type: concept-lineage
+  definition: A wallet where the user holds the private keys directly rather than
+    a company custodying them — full control and full responsibility, contrasted with
+    a bank that can freeze, reverse, or recover funds.

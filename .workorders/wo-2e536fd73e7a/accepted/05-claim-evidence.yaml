@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Communities collapse when key leaders leave without succession
+  type: claim-evidence
+  claim: >-
+    "Communities have collapsed when founders moved away or burned out" —
+    presented as the rationale for "Mistake 2: Not Preparing for Exit," with the
+    fix being deliberate development of multiple leaders per key function so
+    there is no single point of failure.
+  evidence: >-
+    No specific case, study, or citation given in the source article — the claim
+    is stated as a general pattern observation, not linked to a named example or
+    dataset.
+  source_lineage: src/content/docs/leadership-development.md
+  interpretation: >-
+    Plausible and consistent with widely-observed "founder dependency" /
+    bus-factor risk in volunteer and cooperative organizations generally, but
+    presented here as anecdotal pattern-matching rather than a sourced finding.
+  uncertainty: >-
+    High — no named community, no citation, no data. Should be treated as a
+    reasonable heuristic worth acting on (the prescribed mitigation is low-cost
+    and sound) rather than an evidenced fact.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/leadership-development.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-2e536fd73e7a

@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Donor Stewardship in Web3
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A short guide on stewarding crypto donors: thank donors within 24 hours
+    (including the transaction ID as blockchain proof), provide ongoing impact
+    updates (photos, stories, crypto-to-impact conversions), understand crypto
+    donor motivations (transparency, global access, innovation), consider
+    publishing onchain proof of fund usage, and build community around major
+    crypto donors.
+  audience: nonprofit/regenerative-project fundraisers (grounded-regen)
+  known_tensions:
+    - >-
+      crypto-native donor expectation of onchain transparency vs traditional
+      nonprofit donor-communication norms — the article frames this gap as an
+      opportunity ("builds trust in a way traditional finance can't match")
+      rather than a problem.
+  related_concepts:
+    - blockchain-transparency-for-nonprofits
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/donor-stewardship.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6040541f9808
+  source_lineage: donor-stewardship.md
+  notes: |
+    # assessed-but-excluded
+    - Article's own frontmatter marks research_done: false and gives a single
+      source ("CryptoAltruists Web3 Impact Toolkit") with no link — no
+      resource object created for it since the article gives no URL and no
+      further descriptive detail to responsibly build a resource card without
+      inventing facts.
+    - No people/community profiles, exact locations, or MRV/ecological claims
+      in this short article. The suggestion to "publish onchain proof of how
+      funds are used" / a donor address is a lightweight operational
+      suggestion, not a funding/legal/governance recommendation about a
+      specific organization — judged not to cross the high-risk threshold, but
+      flagged here for reviewer judgment call given it touches financial
+      transparency practice.

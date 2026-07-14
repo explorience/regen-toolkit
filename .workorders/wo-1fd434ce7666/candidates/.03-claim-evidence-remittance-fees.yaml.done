@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: Global remittance fees average far more than crypto rails would cost
+  type: claim-evidence
+  claim: >-
+    Sending $200 abroad cost a global average of 6.36% in fees in late 2025,
+    and averaged nearly 15% through a bank specifically, making cheap
+    crypto-based transfers matter most to people with the least, not a luxury
+    for the wealthy.
+  evidence: >-
+    Cited to the World Bank's Remittance Prices Worldwide quarterly dataset.
+  source_lineage: src/content/docs/common-concerns.md
+  interpretation: >-
+    Used to rebut the "crypto is only for rich people" concern by pointing at
+    who actually bears high fees today: low-income remittance senders.
+  uncertainty: >-
+    Global average masks large variation by corridor and provider; article
+    does not cite the specific corridor(s) measured for the ~15% bank figure.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-concerns.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-1fd434ce7666

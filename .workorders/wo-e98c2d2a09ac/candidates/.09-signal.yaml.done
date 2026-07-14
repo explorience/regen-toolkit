@@ -1,0 +1,21 @@
+schema: signal
+object:
+  title: Anonymous crypto donors break thank-you and tax-receipt workflows
+  type: signal
+  signal_type: content
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    The article flags, quoting a nonprofit resource, that "many
+    cryptocurrency donations arrive with no donor name attached, only a
+    wallet address ... this anonymity makes it nearly impossible to send a
+    proper tax receipt or a thank-you." Operational gap worth surfacing to
+    any local node adopting Giveth or a similar zero-fee donation rail: plan
+    a donor-name-capture step (a follow-up form, a Discord role) before
+    relationships depend on it.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: summarized
+    authorship: ai-assisted

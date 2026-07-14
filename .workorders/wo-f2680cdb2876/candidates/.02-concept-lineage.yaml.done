@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: "Node founding-team roles: convener, builder/doer, treasurer-ops"
+  type: concept-lineage
+  short_description: >-
+    A minimal role model for a local node's founding team, filling jobs
+    rather than titles — the convener (runs meetings, holds the calendar),
+    the builder/doer (ships events/workshops/on-chain actions), and the
+    treasurer/ops (holds the multisig, tracks grants, keeps the spreadsheet).
+  source_traditions:
+    - ReFi Medellín and ReFi Cartagena's real named team structures (cited as worked examples)
+    - BanklessDAO's contributor playbook (specialize, delegate decisions)
+    - Other Internet's "Web3 Work" research on DAO contributor burnout
+  toolkit_usage: >-
+    Presented as the antidote to "you don't need a CEO, you need a few jobs
+    covered." The article's explicit rule: one person can hold two of the
+    three roles at the start, but no one should hold all three for long, and
+    ownership should be named out loud even informally.
+  adjacent_meanings:
+    - conventional startup C-suite roles (CEO/COO/CFO) — the article explicitly rejects this framing ("you do not need a CEO")
+  important_distinctions:
+    - >-
+      role clarity (naming who owns what) is treated as the cheapest
+      burnout-prevention tool available, distinct from skill level or
+      technical expertise.
+  tensions:
+    - >-
+      fast bootstrapping (one person covering multiple roles early) vs.
+      burnout risk and single-point-of-failure risk if that concentration
+      persists.
+  risks_of_flattening: >-
+    Treating "founding team" as a headcount question rather than a coverage
+    question misses the article's core claim: two people who trust each
+    other and cover the three roles beats ten who attended one call.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md

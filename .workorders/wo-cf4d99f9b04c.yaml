@@ -1,0 +1,30 @@
+id: wo-cf4d99f9b04c
+title: ingest local-nodes-and-daos.md
+type: work-order
+source_path: local-nodes-and-daos.md
+source_hash: 24a51ca3172e79326c106d2a874291ca2afff5fe2d5ac28ccbb2196b4274bb51
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#local-nodes-and-daos-when-and-whether-to-formalize
+  - >-
+    data/kb/concept-lineage.yaml#dao-decentralized-autonomous-organization-vs-local-node
+  - data/kb/resource.yaml#snapshot-7ada9f22
+  - data/kb/resource.yaml#hats-protocol
+  - >-
+    data/kb/claim-evidence.yaml#dao-tooling-churn-tally-and-coordinape-wind-downs
+  - >-
+    data/kb/signal.yaml#dao-tooling-landscape-churns-fast-flag-for-periodic-freshness-re-check

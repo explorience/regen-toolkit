@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: GENIUS Act (July 2025) — first US federal stablecoin law
+  type: claim-evidence
+  claim: >-
+    In July 2025 the US passed the GENIUS Act, the first federal law for
+    stablecoins, requiring fiat-backed issuers to hold genuine 1:1 reserves and
+    publish a monthly reserve report checked by an independent accounting firm.
+  evidence: >-
+    Article cites a Latham & Watkins legal-explainer summary of the GENIUS Act
+    in its References section.
+  source_lineage: src/content/docs/stablecoins.md
+  interpretation: >-
+    Presented as a trust-building regulatory development for fiat-backed
+    stablecoins, giving "better-run coins" legal pressure to prove reserves.
+  uncertainty: >-
+    Legislative summary as reported by a law-firm explainer; not independently
+    re-verified against the statute's text in this ingestion pass, and subject
+    to future regulatory/implementation changes.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stablecoins.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-95e1e939f56d

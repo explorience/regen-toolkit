@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Greenpill Network
+  type: resource
+  resource_type: org
+  url: https://greenpill.network/
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: common-pitfalls.md
+  related_concepts:
+    - local-node
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-pitfalls.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-143cd63d37c3
+  source_lineage: common-pitfalls.md
+  notes: >-
+    Global regen network with 12 active local chapters as of mid-2026 (per
+    article); also publishes a Local Regen Guide PDF
+    (greenpill.network/pdf/local-regen-guide.pdf).

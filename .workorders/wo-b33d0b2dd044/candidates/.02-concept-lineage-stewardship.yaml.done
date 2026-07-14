@@ -1,0 +1,50 @@
+schema: concept-lineage
+object:
+  title: Stewardship Roles (Knowledge Commons)
+  type: concept-lineage
+  short_description: >-
+    Five named jobs — Editor, Curator, Facilitator, Maintainer, Onboarder —
+    that together cover the tending a knowledge commons needs to survive
+    turnover: publish-worthiness, routing/composting, conflict-hosting,
+    upkeep, and onboarding legibility.
+  source_traditions:
+    - >-
+      Regen Toolkit's cross-cutting principle of "living systems health"
+      (energy, trust, contribution flow, maintenance capacity).
+    - >-
+      GitHub's graduated permission model (triage vs maintainer), cited via
+      Ben Balter's open-source-governance guide, as prior art for handing out
+      roles without handing out full write access.
+  toolkit_usage: >-
+    Framed as "a verb before it is a title" — the article stresses one
+    person can hold several roles on a small team, but each role must be
+    named, not assumed.
+  adjacent_meanings:
+    - open-source maintainer roles
+    - governance role
+  important_distinctions:
+    - >-
+      Editor (claim-evidence discipline: what's true enough to publish) is
+      distinct from Curator (what belongs and where — routing, pruning,
+      composting).
+    - >-
+      Facilitator (hosts disagreement) is distinct from Maintainer
+      (keeps the technical lights on) — conflict-work and ops-work are
+      different jobs even though both are often invisible.
+  tensions:
+    - >-
+      A role you cannot hand off is called out in the article as "not a
+      role, it is a hostage situation" — naming a role is necessary but not
+      sufficient; the handoff must be documented while the holder is still
+      present.
+  risks_of_flattening: >-
+    Treating "stewardship" as one generic job flattens five genuinely
+    different failure modes (unreviewed claims, junk-drawer sprawl,
+    unresolved conflict, technical rot, and un-onboardable contributors) that
+    each need a differently-shaped intervention.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stewardship-roles.md
+    transformation: summarized
+    authorship: ai-assisted

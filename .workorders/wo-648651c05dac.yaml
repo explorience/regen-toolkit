@@ -1,0 +1,29 @@
+id: wo-648651c05dac
+title: ingest bitcoin-history.md
+type: work-order
+source_path: bitcoin-history.md
+source_hash: ccc18c284a03b18493886113d1615bce41953df8bfcc8e1ca352cbcb40bd81d1
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - data/kb/encyclopedia-entry.yaml#the-history-of-bitcoin
+  - >-
+    data/kb/concept-lineage.yaml#double-spend-problem-and-the-pre-bitcoin-proof-of-work-lineage
+  - >-
+    data/kb/claim-evidence.yaml#bitcoin-s-genesis-block-embeds-a-times-of-london-bailout-headline
+  - >-
+    data/kb/claim-evidence.yaml#august-2010-bitcoin-value-overflow-bug-created-92-billion-btc-fixed-within-hours
+  - >-
+    data/kb/signal.yaml#bitcoin-history-md-carries-placeholder-frontmatter-sources-l-i-s-t-author-unknown-despite-factcheck-done-true

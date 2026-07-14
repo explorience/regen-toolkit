@@ -1,0 +1,25 @@
+id: wo-a7cccf043614
+title: ingest creating-buying-earning.md
+type: work-order
+source_path: creating-buying-earning.md
+source_hash: fcdc1246f014dff589ab972f279b3a10cc81e88677c40e374457f4753d5e9eea
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g2
+produced:
+  - data/kb/encyclopedia-entry.yaml#creating-buying-and-earning-tokens-nfts
+  - >-
+    data/kb/claim-evidence.yaml#ethereum-staking-yields-cited-at-roughly-3-16-annually
+  - data/kb/concept-lineage.yaml#token-allowances-dapp-spending-permissions
+  - data/kb/resource.yaml#bankless-academy

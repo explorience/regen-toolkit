@@ -1,0 +1,25 @@
+id: wo-12f41d6ac647
+title: ingest documentation-knowledge.md
+type: work-order
+source_path: documentation-knowledge.md
+source_hash: 070d72c0cdbe6c738d1b2f6208f119b1e4387cbedea9d92289f6aec818117dee
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - data/kb/encyclopedia-entry.yaml#documentation-for-local-nodes
+  - data/kb/concept-lineage.yaml#institutional-memory-for-community-nodes
+  - data/kb/resource.yaml#notion-f52b695e
+  - data/kb/resource.yaml#gitbook-ba9bfb8f
+  - data/kb/claim-evidence.yaml#outdated-documentation-can-cause-harm

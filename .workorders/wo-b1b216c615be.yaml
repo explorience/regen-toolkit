@@ -1,0 +1,27 @@
+id: wo-b1b216c615be
+title: ingest trust-transparency.md
+type: work-order
+source_path: trust-transparency.md
+source_hash: 3cc093b1194c74057213cb33d9e21a7664b583c07e2d15453467863c203d6d3b
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g9
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#trust-and-transparency-in-decentralized-systems
+  - data/kb/concept-lineage.yaml#decentralized-trust-from-institutions-to-code
+  - >-
+    data/kb/claim-evidence.yaml#blockchain-transparency-is-a-double-edged-sword-transparency-paradox
+  - data/kb/resource.yaml#dune-analytics
+  - data/kb/resource.yaml#w3c-decentralized-identifiers-did-standard

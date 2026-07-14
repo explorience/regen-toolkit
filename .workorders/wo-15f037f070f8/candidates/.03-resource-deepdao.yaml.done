@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: DeepDAO
+  type: resource
+  url: https://deepdao.io
+  resource_type: dataset
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - flat-vs-hierarchical-organization
+  is_source_system_candidate: true
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/daos-vs-traditional.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Cited in the article's references as the source for DAO statistics and
+    landscape data (used to ground the "over 215 DAOs / $9.5B / ~500,000
+    active members" figure). Flagged as a possible source-system candidate
+    (a living analytics database) but not built out into a full source-system
+    card here — no steward/return_path detail is given in this article.
+  work_order: wo-15f037f070f8
+  source_lineage: daos-vs-traditional.md

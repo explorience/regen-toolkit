@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: Peer-Vouched Verification (DeVouch Model)
+  type: concept-lineage
+  short_description: >-
+    A decentralized alternative to a single-authority "verified" stamp:
+    trusted verifiers across the ecosystem issue on-chain vouches (worth 1,
+    3, or 30 points by tier) for a project, replacing one central office's
+    approval decision.
+  source_traditions:
+    - Giveth's project-verification system, decentralized into DeVouch
+    - Web-of-trust / social-vouching models generally (not named in the source article)
+  toolkit_usage: >-
+    Presented in this article as the mechanic that lets a local node earn
+    donor-facing rewards (GIVpower boost at 3 points, GIVbacks eligibility at
+    30 points) "decided by your peers, not a gate."
+  adjacent_meanings:
+    - Centralized platform verification (e.g. a single company's "verified" badge)
+    - KYC-based identity verification (a different trust problem — identity, not project legitimacy)
+  important_distinctions:
+    - >-
+      Peer-vouched verification establishes project legitimacy/reputation; it
+      is not the same as Sybil-resistant identity verification (see
+      governance-mechanism-design.md's treatment of proof-of-humanity tools
+      like Gitcoin Passport/BrightID, a related but distinct problem).
+  tensions:
+    - >-
+      "Decided by your peers, not a gate" is still a gate — access to
+      GIVpower/GIVbacks depends on which verifiers choose to vouch, which
+      concentrates influence in whoever already has standing in "reputable
+      organizations in the Ethereum ecosystem."
+  risks_of_flattening: >-
+    Framing this purely as decentralization-of-trust risks obscuring that
+    new/unconnected local nodes without existing Ethereum-ecosystem
+    relationships may find it just as hard to get vouched as to get
+    centrally verified.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: synthesized
+    authorship: ai-assisted

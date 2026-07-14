@@ -1,0 +1,27 @@
+id: wo-c562753ff84a
+title: ingest examples-impact-daos.md
+type: work-order
+source_path: examples-impact-daos.md
+source_hash: 7040c76e8cf02796b1d622cdc78827263c980936f81f0f0eff3e892a1f73fabd
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g4
+produced:
+  - data/kb/encyclopedia-entry.yaml#real-examples-of-impact-daos
+  - data/kb/concept-lineage.yaml#impact-dao
+  - >-
+    data/kb/claim-evidence.yaml#refi-dao-local-nodes-in-costa-rica-barcelona-tanzania-and-mexico
+  - data/kb/resource.yaml#refi-dao-66d3eafe
+  - data/kb/resource.yaml#greenpill-network-22bee54a
+  - data/kb/resource.yaml#klima-dao

@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Vale (prose linter)
+  type: resource
+  url: https://vale.sh/docs
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - claim-evidence-discipline
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/editorial-workflow.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Open-source prose linter recommended as a GitHub Action: checks every
+    pull request against style rules (banned hype words, heading conventions,
+    terminology) and posts inline comments before a human reviews, so human
+    review time goes to accuracy rather than nitpicks.
+  work_order: wo-379fb55cc1a6
+  source_lineage: editorial-workflow.md

@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: Global average cross-border remittance cost was 6.36% in late 2025 (banks averaging 14.99%)
+  type: claim-evidence
+  claim: >-
+    "The World Bank found the global average cost of sending money across
+    borders was 6.36% in late 2025, with banks averaging 14.99%, roughly five
+    times the United Nations' 3% target."
+  evidence: >-
+    Article cites "World Bank, Remittance Prices Worldwide"
+    (remittanceprices.worldbank.org), described as quarterly Q3-2025 data.
+  source_lineage: "src/content/docs/refi-vs-defi-tradfi.md (References section)"
+  interpretation: >-
+    Used to support the article's claim that TradFi's centralized "middle
+    seat" in cross-border payments costs real time and money, motivating
+    interest in DeFi/ReFi alternatives for remittance-style use cases.
+  uncertainty: >-
+    Sourced to a specific, named, generally reliable institutional dataset
+    (World Bank's Remittance Prices Worldwide tracker), which increases
+    confidence; however, this ingestion did not independently verify the
+    exact Q3-2025 figures against the live dataset, so treat as
+    source-linked-but-unverified-by-this-ingestion pending a direct check.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/refi-vs-defi-tradfi.md
+    surfaced_by: "World Bank, Remittance Prices Worldwide"
+    transformation: quoted
+    authorship: ai-assisted

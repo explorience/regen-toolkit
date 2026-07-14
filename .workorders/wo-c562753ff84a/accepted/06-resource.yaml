@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Klima DAO
+  type: resource
+  resource_type: org
+  original_source: src/content/docs/examples-impact-daos.md
+  related_concepts:
+    - impact-dao
+  notes: >-
+    Bridges verified off-chain carbon credits onto the blockchain for trading;
+    no URL given in the source article's References list.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/examples-impact-daos.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c562753ff84a
+  source_lineage: examples-impact-daos.md

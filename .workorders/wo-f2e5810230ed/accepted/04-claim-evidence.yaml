@@ -1,0 +1,38 @@
+schema: claim-evidence
+object:
+  title: >-
+    Recommended governance sequencing — consent-based first, then quadratic
+    voting and delegation
+  type: claim-evidence
+  claim: >-
+    "Start with consent-based decision making for small groups. As you grow,
+    introduce quadratic voting for resource allocation and delegation for
+    routine decisions. Review and iterate quarterly."
+  evidence: >-
+    Presented as the article's own closing design recommendation, following from
+    its stated design principles (match mechanism to context, minimize
+    complexity, build in safeguards, iterate, transparency); no external case
+    study or citation is given for this specific sequencing.
+  source_lineage: >-
+    src/content/docs/governance-mechanism-design.md (sources listed generically
+    as "Mechanism design theory," "DAO governance patterns," "Quadratic voting
+    research" — no specific citations)
+  interpretation: >-
+    A governance-design recommendation intended to be applied directly by a
+    reader standing up or evolving a DAO's decision-making process — this is
+    exactly the "governance recs" category the ingest skill flags as high-risk,
+    since a group could adopt this sequencing as prescriptive advice for their
+    specific context without independent review.
+  uncertainty: >-
+    No empirical backing (case studies, adoption data, or citations) is given
+    for why this particular sequence works better than alternatives; treat as
+    one reasonable design pattern, not a validated best practice. The article's
+    own frontmatter marks its status as "draft."
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/governance-mechanism-design.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f2e5810230ed

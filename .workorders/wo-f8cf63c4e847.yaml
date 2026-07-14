@@ -1,0 +1,28 @@
+id: wo-f8cf63c4e847
+title: ingest compliance-legal.md
+type: work-order
+source_path: compliance-legal.md
+source_hash: fd9d12b8e9e3eee5e382b05f0a115d3613b0acd402d4d34bcfdc1145bbac6c3d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g2
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#compliance-and-legal-considerations-for-crypto-donations
+  - >-
+    data/kb/claim-evidence.yaml#irs-treats-cryptocurrency-as-property-enabling-charitable-deduction-treatment-like-cash-or-stock
+  - >-
+    data/kb/claim-evidence.yaml#donating-appreciated-crypto-directly-can-avoid-us-donor-capital-gains-tax
+  - data/kb/public-use-boundary.yaml#untitled-1555d304
+  - data/kb/concept-lineage.yaml#kyc-aml-handling-on-crypto-donation-platforms

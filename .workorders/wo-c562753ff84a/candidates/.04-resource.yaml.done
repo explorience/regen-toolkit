@@ -1,0 +1,15 @@
+schema: resource
+object:
+  title: ReFi DAO
+  type: resource
+  resource_type: org
+  is_source_system_candidate: true
+  original_source: "src/content/docs/examples-impact-daos.md (References: refidao.local)"
+  related_concepts:
+    - impact-dao
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/examples-impact-daos.md
+    transformation: summarized
+    authorship: ai-assisted

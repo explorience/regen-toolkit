@@ -1,0 +1,18 @@
+schema: resource
+object:
+  title: BrightID
+  type: resource
+  resource_type: proof-of-humanity-tool
+  original_source: src/content/docs/governance-mechanism-design.md
+  notes: >-
+    Named under Sybil Resistance measures as a proof-of-humanity tool to prevent
+    one person creating multiple identities to gain extra votes; no URL given in
+    this article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/governance-mechanism-design.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-f2e5810230ed
+  source_lineage: governance-mechanism-design.md

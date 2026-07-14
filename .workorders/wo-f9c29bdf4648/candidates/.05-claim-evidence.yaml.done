@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: Group-size-to-governance-model comparison table
+  type: claim-evidence
+  claim: >-
+    The article's comparison table maps group size to model: Collective
+    fits 5-10 people (no legal protection, no setup effort, slow decisions);
+    Working Groups fit 10-30 (low setup, medium speed); Council fits
+    20-50+ (medium/high formality, fast decisions); Cooperative fits 15+
+    (high formality, high setup effort, legal protection, medium decision
+    speed).
+  evidence: >-
+    Presented as the article's own synthesized guidance table, not
+    attributed to a study, survey, or dataset of actual ReFi/DAO nodes —
+    the ReFi DAO Steward Council and Network Initiatives examples support
+    the qualitative descriptions but not the specific numeric size bands.
+  source_lineage: src/content/docs/local-node-model.md
+  interpretation: >-
+    A practitioner heuristic useful for a rough first cut at "which model
+    fits us," but the size bands overlap (e.g. Cooperative "15+" overlaps
+    Working Groups "10-30" and Council "20-50+") and are not derived from
+    a cited comparative study of local-node governance transitions.
+  uncertainty: >-
+    High for the precise numeric bands (authorial heuristic, overlapping
+    ranges); low for the qualitative ordering (Collective → Working Groups →
+    Council → Cooperative as increasing formality), which is well-reasoned
+    within the article.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-node-model.md
+    transformation: summarized
+    authorship: ai-assisted

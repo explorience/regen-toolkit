@@ -1,0 +1,51 @@
+schema: concept-lineage
+object:
+  title: Digital Garden (seedling / budding / evergreen)
+  type: concept-lineage
+  short_description: >-
+    A living, linked collection of notes tended over time rather than published
+    once, using openly-marked growth stages so readers can tell a rough sketch
+    from a settled, maintained answer.
+  source_traditions:
+    - >-
+      Mike Caulfield's 2015 talk "The Garden and the Stream," which contrasted
+      the chronological "stream" of feeds/chat with the slowly-cultivated
+      "garden" of linked, revisited knowledge
+    - >-
+      Maggie Appleton's digital-garden writing, which popularized the seedling
+      (🌱) / budding (🌿) / evergreen (🌳) growth-stage convention
+  toolkit_usage: >-
+    Used in this article as the organizing metaphor for community knowledge
+    commons, paired with a concrete stack recommendation (Obsidian + Quartz +
+    GitHub) and a named "gardener" role responsible for tending.
+  adjacent_meanings:
+    - wiki (typically filled once, less emphasis on revisiting/pruning)
+    - document dump / shared drive ("a compost heap nobody turns")
+  important_distinctions:
+    - >-
+      Garden ≠ document dump — the difference is three habits (linking over
+      filing, openly-marked growth stages, active tending), not which tool is
+      used
+    - >-
+      Stream ≠ garden — chat/feeds are chronological and ephemeral; a garden is
+      linked and revisited
+  tensions:
+    - >-
+      "growth stage" maturity marking (seedling/budding/evergreen) is a
+      different vocabulary from this toolkit's own K1 maturity axis
+      (raw/draft/candidate/reviewed/...) — both solve the same problem (letting
+      readers trust the right things) but do not map 1:1
+  risks_of_flattening: >-
+    Treating the seedling/budding/evergreen convention as just a labeling scheme
+    misses its actual function: it is a permission structure that lets
+    contributors publish before perfect, which is the harder cultural change
+    than the labels themselves.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-gardens.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-69cdee6ddcfe
+  source_lineage: knowledge-gardens.md

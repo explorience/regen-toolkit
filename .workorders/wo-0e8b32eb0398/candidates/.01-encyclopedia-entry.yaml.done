@@ -1,0 +1,47 @@
+schema: encyclopedia-entry
+object:
+  title: 'What is dMRV and Why Should You Care?'
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A beginner-friendly introduction to Digital Measurement, Reporting, and
+    Verification (dMRV) — proving that regenerative work (tree planting, water
+    conservation, grazing-land recovery) really happened, using phones/apps
+    for data collection and either automated (satellite) or human verification.
+    Walks through worked examples from Hargeisa and Berbera, a simple four-step
+    process, and a five-step getting-started guide using tools like
+    KoboToolbox, ODK, or Google Forms.
+  audience: Researcher / grassroots practitioners (beginner)
+  known_tensions:
+    - >-
+      simple-phone-based-data-collection vs the technical/carbon-market
+      expectations of formal MRV standards — the article deliberately keeps the
+      bar low ("you don't need expensive equipment") while still connecting to
+      "carbon markets and environmental programs" that require verified data.
+  related_concepts:
+    - digital-measurement-reporting-verification
+  related_resources:
+    - KoboToolbox
+    - ODK
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/dmrv.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-0e8b32eb0398
+  source_lineage: dmrv.md
+  notes: >
+    # assessed-but-excluded
+
+    - "Fatima's group in Hargeisa" and "a women's cooperative in Berbera" are
+      described anonymously (first name only / no surname, no identifying
+      detail beyond location + activity) — treated as illustrative composite
+      examples, not real named individuals to profile; no public person-node
+      created per the ingest skill's guardrail against creating public
+      person-nodes. The named locations (Hargeisa, Berbera) combined with
+      specific project outcomes are a high-risk trigger (exact locations +
+      ecological/impact claims) — see the claim-evidence and
+      public-use-boundary objects below.

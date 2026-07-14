@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: "Evergreen notes / seedling-budding-evergreen maturity taxonomy"
+  type: concept-lineage
+  short_description: >-
+    A practice of writing notes that "evolve, contribute, and accumulate over
+    time, across projects" (Andy Matuschak's definition), paired with a
+    visible maturity label — seedling, budding, evergreen — so a reader can
+    tell at a glance whether they're looking at a rough sketch or a settled
+    idea (Maggie Appleton's digital-garden taxonomy).
+  source_traditions:
+    - Andy Matuschak's "Evergreen notes" essay
+    - Maggie Appleton's digital-garden maturity taxonomy ("Growing the Evergreens")
+    - Quartz (static-site generator) frontmatter maturity/publish flags
+  toolkit_usage: >-
+    Cited in the article as the ethic behind composting: a dying page may
+    contain a few paragraphs that were never about the deprecated content at
+    all (working agreements, a good rationale, hard-won gotchas), and
+    composting means lifting those into pages that carry the same growth-
+    state signal so readers can trust what they're reading.
+  adjacent_meanings:
+    - the Toolkit's own K1 maturity axis (raw/held/draft/candidate/source-linked/reviewed/...), a different, more granular ladder for a different purpose (trust/review state, not editorial roughness)
+  important_distinctions:
+    - >-
+      "seedling/budding/evergreen" signals *editorial* maturity (how settled
+      the writing is); it is not the same axis as the Toolkit's K1
+      maturity/public_use/lifecycle_state model, though both aim to make
+      trust visible rather than assumed.
+  tensions: []
+  risks_of_flattening: >-
+    Treating maturity labeling as decoration rather than a load-bearing trust
+    signal misses the article's point: the label is what lets a reader tell a
+    rough sketch from a settled idea without asking anyone.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md

@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: 'DAOs vs Traditional Organizations: A New Way to Coordinate'
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Contrasts DAOs with traditional hierarchical firms across four dimensions —
+    how decisions get made, organizational structure (flat vs pyramid), and how
+    capital is raised (token issuance vs venture capital/loans/IPOs) — then
+    lists benefits (reduced overhead, transparency, global access, aligned
+    incentives) and honest challenges (voter fatigue, token concentration, legal
+    uncertainty), with East-Africa-specific framing around cooperatives and
+    cross-border participation.
+  audience: Community-Steward
+  known_tensions:
+    - >-
+      open-participation-for-anyone-with-a-token vs
+      voter-fatigue-and-low-turnout — the article notes low participation is a
+      real risk even though the option to participate is open.
+    - >-
+      wide-token-distribution-in-principle vs token-concentration-in-practice —
+      "if a few people hold most tokens, governance can become centralized in
+      practice."
+  related_concepts:
+    - flat-vs-hierarchical-organization
+  related_resources:
+    - DeepDAO
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/daos-vs-traditional.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-15f037f070f8
+  source_lineage: daos-vs-traditional.md
+  notes: |
+    # assessed-but-excluded
+    - No specific named tools beyond Snapshot (already covered as a resource in
+      the dao-tooling.md ingest from this same batch) and DeepDAO (new here) —
+      did not re-create a duplicate Snapshot resource object for this article.
+    - No people/community profiles, exact locations, or high-risk triggers
+      identified — general comparative/educational content; no
+      public-use-boundary object created.

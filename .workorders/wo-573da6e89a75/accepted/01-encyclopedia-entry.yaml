@@ -1,0 +1,27 @@
+schema: encyclopedia-entry
+object:
+  title: Finding Support and Mentorship
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A short guide for local-node builders on finding mentors, peer networks,
+    technical support, and funding support. Names four support types (mentorship
+    via other node leaders/cooperative-development orgs/community
+    foundations/social-enterprise mentors; peer networks of similarly-staged
+    nodes; technical support via developer communities and protocol teams;
+    funding support via Gitcoin Grants, Giveth, and local funds), four ways to
+    find mentors, and norms for being a good mentee.
+  audience: local regen node builders
+  known_tensions: []
+  related_concepts: []
+  related_resources:
+    - gitcoin-grants
+    - giveth
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/finding-support-mentorship.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-573da6e89a75
+  source_lineage: finding-support-mentorship.md

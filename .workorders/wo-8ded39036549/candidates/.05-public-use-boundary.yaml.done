@@ -1,0 +1,19 @@
+schema: public-use-boundary
+object:
+  title: Boundary — Silvi dMRV impact-verification claim (what-you-can-do-ethereum.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the claim-evidence entry that dMRV "is used in programs like Silvi
+    to prove tree planting and get paid for impact." This is an MRV/impact-
+    verification claim with no citation in the source article, and the source
+    article itself is flagged factcheck_done: false / review_done: false in
+    its own frontmatter. Per the ingest skill's MRV-claims high-risk trigger:
+    do not present as verified fact without checking Silvi's own
+    documentation before public or funding-relevant reuse.
+  review_type: steward-review-before-public-use
+  notes: covers 03-claim-evidence-silvi.yaml and 04-resource-silvi.yaml from this work order.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-you-can-do-ethereum.md
+    transformation: inferred
+    authorship: ai-assisted

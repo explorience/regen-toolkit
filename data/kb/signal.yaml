@@ -224,3 +224,580 @@ entries:
         spinning up a separate concept-lineage entry per governance form.
     work_order: wo-ee62e83173d4
     source_lineage: decentralization-spectrum.md
+  article-references-an-unexplained-sarreya-program-coordinator-and-test-usdc-onboarding-flow:
+    title: >-
+      Article references an unexplained "Sarreya program coordinator" and
+      test-USDC onboarding flow
+    type: signal
+    signal_type: content
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      The article's "Getting Started" and "Need Help?" sections instruct the
+      reader to have a program coordinator send "test USDC" and to ask a named
+      "Sarreya program coordinator" for setup help, but the article gives no
+      other context on what "Sarreya" is (a specific onboarding cohort, an
+      organization, a person's name?). Faithful extraction cannot invent that
+      context, so this is flagged for a human reviewer to confirm what "Sarreya"
+      refers to before this article's provenance/audience metadata is trusted at
+      face value.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/wallet-comparison-guide.md
+      transformation: inferred
+      authorship: ai-assisted
+    source_lineage: wallet-comparison-guide.md
+    work_order: wo-003c0d82b00d
+  format-determines-outcome-more-than-topic-and-open-house-is-the-best-burnout-defense:
+    title: >-
+      Format determines outcome more than topic — and open house is the best
+      burnout defense
+    type: signal
+    signal_type: track
+    affected_layer: layer-7-tracks
+    interpretation: >-
+      Two reusable patterns worth carrying into any future local-node-onboarding
+      track: (1) the same topic run through a different container produces a
+      different outcome (a lecture on governance produces passive listeners; a
+      fishbowl discussion on the same topic produces engaged co-thinkers), so
+      format should be chosen deliberately, not defaulted to; (2) among all the
+      formats in this guide, the recurring open house is named explicitly as the
+      single best burnout defense for a node host (low cost, high consistency,
+      keeps the node visible between bigger events) — worth surfacing as a
+      starter recommendation whenever a node onboarding track is built.
+    proposed_intervention: cite
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/types-of-gatherings.md
+      transformation: inferred
+      authorship: ai-assisted
+    source_lineage: types-of-gatherings.md
+    work_order: wo-0953aae86e06
+  poap-entered-maintenance-mode-march-2026-existing-content-referencing-it-as-an-active-issuance-tool-needs-review:
+    title: >-
+      POAP entered maintenance mode (March 2026) — existing content referencing
+      it as an active issuance tool needs review
+    type: signal
+    signal_type: resource
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      As of March 2026, POAP stopped onboarding new badge issuers (existing
+      badges/integrations/collector tools keep working, per the article's cited
+      source: Phemex News, "POAP to enter maintenance mode"). Any prior toolkit
+      content recommending POAP as the default live way to issue *new* event
+      attendance badges (e.g. the onboarding-members.md article in this same
+      batch, which recommends "set up a free POAP for your next event") is now
+      stale and should be cross-checked/updated to note Galxe OAT as the current
+      active alternative.
+    proposed_intervention: update
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/planning-web3-events.md
+      surfaced_by: Phemex News (2026), POAP to enter maintenance mode
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-13f3c98bb4d6
+    source_lineage: planning-web3-events.md
+  human-review-boundaries-md-s-tiering-model-parallels-this-framework-s-k1-maturity-axis:
+    title: >-
+      human-review-boundaries.md's tiering model parallels this framework's K1
+      maturity axis
+    type: signal
+    signal_type: content
+    affected_layer: review-maturity-k1
+    interpretation: >-
+      The source article's ephemeral/working/canonical three-tier model and its
+      "cheap reviewer checklist" + "named rotating reviewers" guidance map
+      closely onto this framework's existing review-maturity (K1) axis and the
+      review-promote skill's human gate — worth an explicit cross-reference when
+      this framework's own docs cite external precedent for the K1 model.
+    proposed_intervention: cite
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/human-review-boundaries.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-16d3d5100c36
+    source_lineage: human-review-boundaries.md
+  paxful-wound-down-1-nov-2025-outdated-p2p-crypto-guides-still-recommend-it:
+    title: >-
+      Paxful wound down 1 Nov 2025 — outdated P2P crypto guides still recommend
+      it
+    type: signal
+    signal_type: resource
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      how-to-get-crypto.md flags that Paxful, "the platform most older guides
+      still recommend," closed completely by 1 November 2025, and uses this as a
+      live example of why crypto-tooling recommendations need a
+      currentness/last-checked marker — the same "check dates on anything
+      crypto-related" caution applies to any resource this toolkit lists.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/how-to-get-crypto.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-3926c8735083
+    source_lineage: how-to-get-crypto.md
+  building-in-public-md-has-no-references-section-or-specific-citations-despite-factcheck-done-true:
+    title: >-
+      building-in-public.md has no References section or specific citations
+      despite factcheck_done: true
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia (content review / fact-check)
+    interpretation: >-
+      The article's frontmatter declares `sources: [Community building]` (a
+      generic category, not a citable source), `author: Tej`, and
+      `factcheck_done: true` / `review_done: true` / `critique_done: true`, but
+      the article body contains no References section and no inline citations
+      for any of its prescriptive claims (e.g. "weekly updates beat monthly
+      dumps"). This is a metadata-integrity gap between the declared review
+      pipeline state and the visible source lineage of the content.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-in-public.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-5f68dddaa5d9
+    source_lineage: building-in-public.md
+  bitcoin-history-md-carries-placeholder-frontmatter-sources-l-i-s-t-author-unknown-despite-factcheck-done-true:
+    title: >-
+      bitcoin-history.md carries placeholder frontmatter (sources: [l,i,s,t],
+      author: unknown) despite factcheck_done: true
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia (content review / fact-check)
+    interpretation: >-
+      The article's own frontmatter lists `sources: [l, i, s, t]` — apparently a
+      placeholder artifact from a template (the letters of the word "list" split
+      into array entries) rather than real citations — and `author: unknown`,
+      while simultaneously declaring `research_done: true`, `factcheck_done:
+      true`, `review_done: true`, and `critique_done: true`. No References
+      section appears in the article body either, unlike several sibling
+      articles in this same batch. This is a metadata-integrity gap: the claimed
+      review pipeline states are not backed by visible source lineage.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/bitcoin-history.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-648651c05dac
+    source_lineage: bitcoin-history.md
+  social-tokens-flagged-for-securities-law-exposure-without-elaboration:
+    title: Social tokens flagged for securities-law exposure without elaboration
+    type: signal
+    signal_type: content
+    affected_layer: layer-5-option-library
+    interpretation: >-
+      The article lists "regulatory considerations (securities law)" as a
+      pitfall with no further detail, jurisdiction, or citation. This is a thin
+      spot in current coverage: a local node acting on this guide alone would
+      have no concrete starting point for assessing securities-law risk before
+      issuing a social token.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/social-tokens-creator.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-7b882179b803
+    source_lineage: social-tokens-creator.md
+  building-momentum-md-sources-are-generic-categories-with-no-inline-citations-despite-factcheck-done-true:
+    title: >-
+      building-momentum.md sources are generic categories with no inline
+      citations despite factcheck_done: true
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia (content review / fact-check)
+    interpretation: >-
+      The article's frontmatter lists `sources: [Greenpill Local Regen Guide,
+      Community building literature, DAO governance]` — generic categories
+      rather than specific, dereferenceable citations — alongside
+      `factcheck_done: true`, `review_done: true`, and `critique_done: true`.
+      The article body has a References section but it repeats the same generic,
+      non-linked categories rather than specific sources. This matches the
+      metadata-integrity pattern flagged in sibling articles
+      (building-in-public.md, building-internal-capacity.md) in this batch.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-momentum.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-88bafbd86463
+    source_lineage: building-momentum.md
+  inclusive-practices-md-distinguishes-measuring-participation-from-measuring-belonging:
+    title: >-
+      inclusive-practices.md distinguishes measuring participation from
+      measuring belonging
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia
+    interpretation: >-
+      The article's "Measuring Inclusion" section explicitly separates headcount
+      participation metrics from belonging metrics ("do people feel valued," "do
+      diverse voices actually influence decisions") — a reusable frame this
+      toolkit could apply anywhere it discusses community-health or inclusion
+      metrics, not just in this one article.
+    proposed_intervention: cite
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/inclusive-practices.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-8e6fb42f1e74
+    source_lineage: inclusive-practices.md
+  coordination-transparency-md-makes-several-definitional-claims-with-no-citations:
+    title: >-
+      coordination-transparency.md makes several definitional claims with no
+      citations
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia
+    interpretation: >-
+      Unlike several sibling articles in this batch (e.g. common-concerns.md,
+      common-pitfalls.md), this article's frontmatter shows research_done:
+      false, and the body makes claims (transparency-vs-theater, DAO/quadratic-
+      voting/futarchy descriptions, "regenerative tokens", outcome-based bonds)
+      without a References section or inline sourcing. Flagging for a
+      source-linking pass before this entry is promoted past raw/
+      source-linked-unreviewed.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/coordination-transparency.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-97dd78ba716a
+    source_lineage: coordination-transparency.md
+  composite-anonymized-adoption-narratives-should-not-become-person-nodes:
+    title: Composite/anonymized adoption narratives should not become person-nodes
+    type: signal
+    signal_type: content
+    affected_layer: layer-9-evolution-signals
+    interpretation: >-
+      The three stories in this article (Maria, climate coalition, ReFi Africa)
+      are illustrative case narratives drawn from secondary toolkit sources, not
+      independently verified individual accounts. They usefully illustrate a
+      recurring on-ramp pattern (start small, find one ally, iterate through
+      mistakes, stay mission-focused) worth preserving as a concept, but should
+      not be treated as verified citations or expanded into named person/org
+      profiles without going back to the original sourced toolkits for consent
+      and verification.
+    proposed_intervention: preserve
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    public_use: not-public-yet
+    provenance:
+      origin: src/content/docs/stories-regens-leap.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-a657ed1dd5c3
+    source_lineage: stories-regens-leap.md
+  superbenefit-knowledge-garden-source-system-card-has-no-confirmed-return-path:
+    title: >-
+      SuperBenefit Knowledge Garden source-system card has no confirmed return
+      path
+    type: signal
+    signal_type: source-system
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      The source-system card for SuperBenefit's Knowledge Garden (this work
+      order) has return_path unconfirmed — the article describes the vault's
+      structure (Markdown, public Git, Quartz publishing) but never states how
+      corrections or contributions actually flow back to SuperBenefit. A public
+      Git repo strongly implies pull requests, but that is an inference, not a
+      stated fact.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-community-tools.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-ae4676958221
+    source_lineage: ai-community-tools.md
+  building-internal-capacity-md-has-no-references-section-or-specific-citations-despite-factcheck-done-true:
+    title: >-
+      building-internal-capacity.md has no References section or specific
+      citations despite factcheck_done: true
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia (content review / fact-check)
+    interpretation: >-
+      The article's frontmatter declares `sources: [Community building]` (a
+      generic category, not a citable source), `author: Tej`, and
+      `factcheck_done: true` / `review_done: true` / `critique_done: true`, but
+      the article body contains no References section and no citation for any of
+      its claims, including the "highest-return investment" assertion. Same
+      metadata-integrity pattern observed across several sibling articles in
+      this batch (building-in-public.md, building-momentum.md).
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-internal-capacity.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-b3a05e9b7743
+    source_lineage: building-internal-capacity.md
+  local-currency-article-is-tightly-scoped-to-east-africa-somaliland-check-generalizability:
+    title: >-
+      Local-currency article is tightly scoped to East Africa/Somaliland — check
+      generalizability
+    type: signal
+    signal_type: content
+    affected_layer: Layer 2 (Knowledge Commons) / Layer 5 (Option Library)
+    interpretation: >-
+      The article's target_audience frontmatter is "grounded-regen" but its body
+      text is heavily localized (Hargeisa, Mombasa, Nairobi, Addis,
+      Kenyan/Somali shillings, clan structure, chamas/ROSCAs). This is a good
+      practice (concrete, locally-grounded advice) but means the article as
+      written may read as narrower than its track/section metadata (section 2.9,
+      general "Community Finance" track) suggests to a reader outside that
+      regional context. Worth a human check on whether related articles in track
+      2 need an explicit regional-variant note or whether this one should be
+      tagged more specifically.
+    proposed_intervention: review
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-currency.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-bb8c4077a9fb
+    source_lineage: local-currency.md
+  is-web3-right-md-s-only-listed-source-is-a-generic-placeholder-community-building:
+    title: >-
+      is-web3-right.md's only listed source is a generic placeholder ("Community
+      building")
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia
+    interpretation: >-
+      The article's frontmatter `sources` field contains only the string
+      "Community building" — not an actual citation, link, or named source — and
+      the article body has no References section. Its claims (e.g. the "under 10
+      and high-trust" and "2-3 people who can support others technically"
+      thresholds) are presented as generalizable advice without any backing
+      evidence. Worth flagging for review-promote before this content moves past
+      `raw`/`draft`.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/is-web3-right.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-c5735ba16b9b
+    source_lineage: is-web3-right.md
+  dao-tooling-landscape-churns-fast-flag-for-periodic-freshness-re-check:
+    title: DAO-tooling landscape churns fast — flag for periodic freshness re-check
+    type: signal
+    signal_type: infrastructure
+    affected_layer: Layer 6 (Deployment) / tooling references toolkit-wide
+    interpretation: >-
+      This article explicitly documents two major tool sunsets (Tally,
+      Coordinape) within roughly a year of each other and warns that "every tool
+      list, including this one, is perishable." Any toolkit content referencing
+      named DAO tools (this article, local-node-model.md, multisig-setup.md)
+      carries an implicit expiry risk. Recommend a recurring content-maintenance
+      check (e.g. semi-annual) across all tool-referencing articles/resource
+      objects rather than treating any single ingest as a one-time fact-check.
+    proposed_intervention: review
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-nodes-and-daos.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-cf4d99f9b04c
+    source_lineage: local-nodes-and-daos.md
+  superbenefit-knowledge-garden-source-system-card-has-no-confirmed-return-path-8974adf4:
+    title: >-
+      SuperBenefit Knowledge Garden source-system card has no confirmed return
+      path
+    type: signal
+    signal_type: source-system
+    affected_layer: layer-2-encyclopedia
+    interpretation: >-
+      The SuperBenefit Knowledge Garden source-system card created from this
+      article has return_path and update_rhythm both set to "unknown" — the
+      article only describes the garden's structure and licensing, it doesn't
+      state how corrections or contributions flow back to SuperBenefit. Per the
+      framework's reciprocity principle this is a gap to close via
+      skills/register-source, not a blank to leave.
+    proposed_intervention: route
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-knowledge-commons.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-d94f3822e08d
+    source_lineage: what-is-knowledge-commons.md
+  tokens-real-world-assets-md-has-placeholder-garbage-frontmatter-and-no-real-citations:
+    title: >-
+      tokens-real-world-assets.md has placeholder/garbage frontmatter and no
+      real citations
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia
+    interpretation: >-
+      The source article's frontmatter has clear placeholder artifacts —
+      `sources: [l, i, s, t]` (a broken/garbage list, not real sources),
+      `author: unknown`, empty-looking `target_audience`, and an explicit
+      self-declared draft note ("This is a draft document for the Regen Toolkit.
+      Target learner: Maya."). The body text also cites no external sources or
+      links anywhere (no References section, unlike sibling articles in this
+      batch). This looks like an early/unfinished draft that was marked
+      `published_flag: true` in frontmatter despite the content itself flagging
+      as unfinished.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tokens-real-world-assets.md
+      transformation: inferred
+      authorship: ai-assisted
+    source_lineage: tokens-real-world-assets.md
+    work_order: wo-de914fb9d23f
+  impact-certificates-hypercerts-md-s-built-on-the-at-protocol-claim-looks-like-a-factual-error:
+    title: >-
+      impact-certificates-hypercerts.md's "Built on the AT Protocol" claim looks
+      like a factual error
+    type: signal
+    signal_type: content
+    affected_layer: layer-2-encyclopedia
+    interpretation: >-
+      The article states hypercerts are "Built on the AT Protocol,
+      decentralized, community-owned" directly after stating "Hypercerts are
+      NFTs (ERC-1155 standard)... Live on Ethereum, permanent, immutable." AT
+      Protocol is the protocol behind Bluesky/the social web, not an Ethereum
+      smart-contract standard — this looks like a source-article error or
+      hallucination rather than a fact worth propagating as-is. Flagging for a
+      human fact-check rather than asserting it as a hypercert claim-evidence
+      object.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/impact-certificates-hypercerts.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-df4c53425ba7
+    source_lineage: impact-certificates-hypercerts.md
+  coordinape-peer-reward-tool-wound-down-its-app-in-2025-dao-tool-churn-caution:
+    title: >-
+      Coordinape (peer reward tool) wound down its app in 2025 — DAO tool churn
+      caution
+    type: signal
+    signal_type: resource
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      The article itself flags that Coordinape, "a once-popular peer reward
+      tool," wound down its app in 2025, and uses this as a direct caution: the
+      DAO tooling space moves fast, tools come and go, and anyone adopting a
+      tool should first check that it is still actively maintained. Worth
+      carrying forward as a standing caveat on any DAO tooling resource entries
+      in the toolkit (Snapshot, Safe, Aragon included), not just a one-off
+      historical note.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-dao.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-dao.md
+    work_order: wo-e5c042958e07
+  anonymous-crypto-donors-break-thank-you-and-tax-receipt-workflows:
+    title: Anonymous crypto donors break thank-you and tax-receipt workflows
+    type: signal
+    signal_type: content
+    affected_layer: layer-3-resource-graph
+    interpretation: >-
+      The article flags, quoting a nonprofit resource, that "many cryptocurrency
+      donations arrive with no donor name attached, only a wallet address ...
+      this anonymity makes it nearly impossible to send a proper tax receipt or
+      a thank-you." Operational gap worth surfacing to any local node adopting
+      Giveth or a similar zero-fee donation rail: plan a donor-name-capture step
+      (a follow-up form, a Discord role) before relationships depend on it.
+    proposed_intervention: flag
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/giveth-donations.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e98c2d2a09ac
+    source_lineage: giveth-donations.md
+  silvi-protocol-playbook-is-single-sourced-promotional-content:
+    title: Silvi Protocol playbook is single-sourced promotional content
+    type: signal
+    signal_type: content
+    affected_layer: layer-9-evolution-signals
+    interpretation: >-
+      This article's frontmatter lists `sources: []` while making specific
+      verification/payment/impact claims about a third-party protocol (Silvi).
+      Future ingestion or reuse of this content should route it through the
+      high-risk MRV/ecological-claims review path rather than treating it as a
+      neutral factual explainer.
+    proposed_intervention: review
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    public_use: not-public-yet
+    provenance:
+      origin: src/content/docs/silvi-protocol.md
+      transformation: synthesized
+      authorship: ai-assisted
+    work_order: wo-ec7a53915677
+    source_lineage: silvi-protocol.md
+  safe-snapshot-recur-as-the-default-tooling-pair-across-multiple-local-node-articles:
+    title: >-
+      Safe + Snapshot recur as the default tooling pair across multiple
+      local-node articles
+    type: signal
+    signal_type: resource
+    affected_layer: Layer 6 (Deployment) / tooling
+    interpretation: >-
+      Safe (multisig treasury) is recommended in this article as the very first
+      practical step even for the lightest "Collective" model, and recurs
+      identically in local-nodes-and-daos.md and multisig-setup.md (ingested in
+      this same batch) alongside Snapshot for voting. This consistency across
+      independently-written articles suggests "Safe + Snapshot" is a genuinely
+      stable, cross-article toolkit convention worth considering as a named
+      pattern/option-entry once a human reviewer consolidates the three sibling
+      resource objects (this work order's Safe + Open Collective,
+      local-nodes-and-daos' Snapshot + Hats Protocol, multisig-setup's Argent)
+      rather than leaving the recommendation scattered across three raw
+      encyclopedia entries.
+    proposed_intervention: preserve
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-node-model.md
+      transformation: inferred
+      authorship: ai-assisted
+    work_order: wo-f9c29bdf4648
+    source_lineage: local-node-model.md

@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Compound DAO's Proposal 289 shows low turnout can enable treasury capture
+  type: claim-evidence
+  claim: >-
+    On 28 July 2024, a delegate bloc nicknamed the "Golden Boys" passed Compound
+    DAO Proposal 289 (moving 499,000 COMP, ~$24M, from the treasury into a vault
+    they controlled) by amassing enough delegated COMP to clear quorum while
+    most of the community stayed home (682,191 vs 633,636 votes); the proposal
+    was rescinded days later under community pressure.
+  evidence: >-
+    Cited to contemporaneous CoinDesk and Cointelegraph reporting on the
+    proposal and its rescission.
+  source_lineage: src/content/docs/common-pitfalls.md
+  interpretation: >-
+    Used as the article's central cautionary example that sophisticated on-chain
+    governance tooling does not by itself produce legitimacy — DAO voter turnout
+    across most DAOs sits below 10% (Uniswap often 2-3%), which concentrates
+    effective power in whoever bothers to show up.
+  uncertainty: >-
+    Figures (vote counts, COMP amount, USD value) are as reported by the cited
+    press sources at the time; USD value of COMP fluctuates with market price.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-pitfalls.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-143cd63d37c3

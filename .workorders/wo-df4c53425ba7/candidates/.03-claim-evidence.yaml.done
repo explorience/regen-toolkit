@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: ProjectTogether used pay-after-results funding for 2022 Ukraine refugee relief
+  type: claim-evidence
+  claim: >-
+    In 2022, ProjectTogether coordinated Ukraine refugee relief where funders
+    paid after seeing the work done, so resources flowed based on
+    demonstrated need rather than upfront promises.
+  evidence: >-
+    Stated as a standalone example in impact-certificates-hypercerts.md's
+    "How Retroactive Funding Works" section, with no citation or link
+    provided.
+  source_lineage: src/content/docs/impact-certificates-hypercerts.md
+  interpretation: >-
+    Used by the article as a concrete illustration of retroactive funding
+    working in a real humanitarian-response context.
+  uncertainty: >-
+    No source is cited for this example (the article has no References
+    section); the specific mechanism, funders, and outcome were not
+    independently verified for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/impact-certificates-hypercerts.md
+    transformation: summarized
+    authorship: ai-assisted

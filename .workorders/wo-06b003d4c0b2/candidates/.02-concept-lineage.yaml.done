@@ -1,0 +1,40 @@
+schema: concept-lineage
+object:
+  title: "Three kinds of trust: competence, integrity, benevolence"
+  type: concept-lineage
+  short_description: >-
+    A three-part model for the trust a community finance system needs:
+    competence trust ("can you do what you say?"), integrity trust ("will
+    you do what you said?", built through consistency), and benevolence
+    trust ("do you care about me?", built by listening and helping without
+    keeping score).
+  source_traditions:
+    - organizational-trust research (the competence/integrity/benevolence typology is a standard framing in trust literature, applied here to community finance specifically)
+    - Francis Fukuyama's social-trust-and-cooperation thesis (cited elsewhere in the same article)
+  toolkit_usage: >-
+    Used to argue that community finance needs all three at once: competence
+    to manage funds, integrity to follow the rules, and benevolence so
+    members believe the rules protect them rather than trap them. Each type
+    is paired with a concrete building practice (e.g. "I am still learning
+    this" earning more competence-trust than overclaiming).
+  adjacent_meanings:
+    - "'trust' used loosely as a single undifferentiated feeling, without the article's three-part decomposition"
+  important_distinctions:
+    - >-
+      competence trust is about ability, integrity trust is about kept
+      promises, benevolence trust is about care for the other person's
+      interests — the article treats these as separable and each
+      independently buildable.
+  tensions: []
+  risks_of_flattening: >-
+    Treating "trust" as one thing collapses the article's practical
+    distinction between three different failure modes (incompetence,
+    unreliability, self-interest) that require different remedies.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-trust.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-06b003d4c0b2
+  source_lineage: building-trust.md

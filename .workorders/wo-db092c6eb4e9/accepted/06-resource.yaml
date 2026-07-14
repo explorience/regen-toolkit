@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: remark-lint-frontmatter-schema
+  type: resource
+  resource_type: tool
+  url: https://github.com/JulianCataldo/remark-lint-frontmatter-schema
+  is_source_system_candidate: false
+  toolkit_route: Layer 2 (Knowledge Commons) / metadata enforcement tooling
+  link_status: active
+  related_concepts:
+    - Type vs. Tag (metadata discipline)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/metadata-that-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Validates markdown frontmatter against a JSON Schema (types, required
+    fields, enums), with inline VS Code warnings and auto-fix suggestions —
+    recommended for plain-markdown repositories that are not using an Astro/Zod
+    content-collection setup.
+  work_order: wo-db092c6eb4e9
+  source_lineage: metadata-that-matters.md

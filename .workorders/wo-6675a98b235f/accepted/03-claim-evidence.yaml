@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Recommend capping delegate power at 20-30% of total voting power
+  type: claim-evidence
+  claim: >-
+    No delegate should hold more than 20-30% of total voting power, to prevent
+    concentration.
+  evidence: >-
+    Stated as a direct recommendation in the article's "Recommendations for
+    Local Nodes" section, alongside other design defaults (optional delegation,
+    transparency requirements, accountability mechanisms).
+  interpretation: >-
+    Positioned as a practical governance-design default for ReFi DAO Local Nodes
+    specifically, not a universally proven optimum — paired with the article's
+    "Common Mistake 3: No Power Caps," which cites a hypothetical of a delegate
+    accumulating 60% of voting power as defeating the purpose of distributed
+    governance.
+  uncertainty: >-
+    No cited study, dataset, or named real-world DAO backs the specific 20-30%
+    figure — it reads as the author's design recommendation rather than an
+    empirically derived threshold; flagged as a governance-design recommendation
+    for human review before treating as settled guidance.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/delegation-representation.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-6675a98b235f
+  high_risk: true
+  source_lineage: delegation-representation.md

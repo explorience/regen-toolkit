@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: >-
+    95% of Sarafu users called the network important to their household economy
+    (2025 survey)
+  type: claim-evidence
+  claim: >-
+    In Grassroots Economics' 2025 survey of the Sarafu community-currency
+    network in Kenya, 95% of users called the network important or very
+    important to their household economy.
+  evidence: >-
+    Cited to "Grassroots Economics, 2025 survey" (grassecon.substack.com/p/
+    2025-sarafu-network-study-results) in the article's References.
+  source_lineage: src/content/docs/why-regens-interested.md
+  interpretation: >-
+    Used as the article's grounded, non-speculative example of "ownership that
+    stays local" — money designed to circulate rather than be flipped for profit
+    — as a contrast to the article's opening warning about crypto speculation
+    and scams.
+  uncertainty: >-
+    Self-reported network survey conducted/published by Grassroots Economics
+    itself (the organization running Sarafu), not an independent third-party
+    study; sample size and methodology are not described in this article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-regens-interested.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5a1fc08b1b6f

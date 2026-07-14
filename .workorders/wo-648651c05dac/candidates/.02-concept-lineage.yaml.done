@@ -1,0 +1,39 @@
+schema: concept-lineage
+object:
+  title: "Double-spend problem and the pre-Bitcoin proof-of-work lineage"
+  type: concept-lineage
+  short_description: >-
+    The problem of preventing someone from spending the same unit of digital
+    money twice without a trusted central bank to check balances — the
+    central puzzle Bitcoin's 2008 whitepaper solved by having every
+    participant keep a shared, proof-of-work-verified record of all
+    transactions.
+  source_traditions:
+    - David Chaum's ecash (1983) — privacy-preserving digital money, still needed a central authority
+    - Adam Back's hashcash (1997) — introduced proof-of-work (computers prove they expended energy)
+    - Wei Dai's b-money (1998) — distributed ledger where everyone tracks everyone else's money, couldn't work without a central server
+    - Nick Szabo's bit gold (1998) — digital tokens with real scarcity via proof-of-work, never launched
+    - Hal Finney's RPOW (2004) — proved proof-of-work tokens could transfer between people
+  toolkit_usage: >-
+    Used in the article as the throughline connecting five prior attempts at
+    digital cash to Satoshi Nakamoto's 2008 whitepaper, which the article
+    frames as solving the double-spend problem "without a bank" by having
+    "everyone... keep a shared record of all transactions, verified through
+    proof-of-work."
+  adjacent_meanings:
+    - byzantine fault tolerance (the general distributed-systems problem of reaching agreement despite unreliable/adversarial participants)
+  important_distinctions:
+    - "each pioneer solved a piece (privacy, proof-of-work, distributed tracking, scarcity, transferability) but none combined all of them into a working, launched system before Bitcoin"
+  tensions: []
+  risks_of_flattening: >-
+    Crediting Bitcoin's whitepaper as a single point of invention erases the
+    30-year lineage of prior attempts the article itself documents — the
+    innovation was combination and shipping, not any one novel primitive.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/bitcoin-history.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-648651c05dac
+  source_lineage: bitcoin-history.md

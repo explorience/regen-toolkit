@@ -1,0 +1,31 @@
+id: wo-06b003d4c0b2
+title: ingest building-trust.md
+type: work-order
+source_path: building-trust.md
+source_hash: 917531aee4074a888b266709767901ead45b431fe5703096b9d7bba157e0b8bd
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - data/kb/encyclopedia-entry.yaml#building-trust-in-community-finance
+  - >-
+    data/kb/concept-lineage.yaml#three-kinds-of-trust-competence-integrity-benevolence
+  - data/kb/resource.yaml#grassroots-economics-sarafu-network-ea6cc59f
+  - data/kb/resource.yaml#safe-multisig-wallets
+  - data/kb/resource.yaml#human-passport
+  - >-
+    data/kb/claim-evidence.yaml#fukuyama-social-trust-underwrites-low-cost-economic-cooperation
+  - >-
+    data/kb/claim-evidence.yaml#95-of-surveyed-sarafu-users-called-it-important-to-their-household-2025
+  - data/kb/public-use-boundary.yaml#untitled-36764558

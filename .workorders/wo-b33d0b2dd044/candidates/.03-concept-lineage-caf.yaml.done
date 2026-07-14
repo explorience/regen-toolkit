@@ -1,0 +1,36 @@
+schema: concept-lineage
+object:
+  title: Contributor Absence Factor (Bus Factor)
+  type: concept-lineage
+  short_description: >-
+    A metric defined as "the smallest number of contributors responsible
+    for 50% of total contributions" — sort contributors by volume, add them
+    up until crossing 50% of total contributions, and count how many it
+    took.
+  source_traditions:
+    - >-
+      CHAOSS project (Community Health Analytics in Open Source Software), a
+      Linux Foundation effort — formerly called the "Bus Factor."
+  toolkit_usage: >-
+    Presented as a computable-by-hand (about ten minutes, from a commit log
+    or wiki revision history) fragility check, meant to be run on a calendar
+    rather than discovered during a burnout crisis.
+  adjacent_meanings:
+    - Bus Factor (the metric's older, more informal name)
+  important_distinctions:
+    - >-
+      The number itself ("1 or 2") is a diagnostic trigger, not the point —
+      the article stresses the real value is turning "who does half the
+      work here?" into a scheduled question rather than a crisis discovery.
+  tensions: []
+  risks_of_flattening: >-
+    Renaming "Bus Factor" to "Contributor Absence Factor" is itself a
+    deliberate reframing (removing a morbid metaphor) — using only one name
+    risks losing the metric's more widely recognized prior identity for
+    people searching under the older term.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stewardship-roles.md
+    transformation: summarized
+    authorship: ai-assisted

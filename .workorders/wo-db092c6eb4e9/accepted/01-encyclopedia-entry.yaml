@@ -1,0 +1,35 @@
+schema: encyclopedia-entry
+object:
+  title: Metadata That Matters
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    How to design a small, durable set of metadata fields (title, type, status,
+    owner, source, updated, tags) so a knowledge commons stays findable and
+    trustworthy after the people who built it move on. Draws the type-vs-tag
+    distinction (one type per document, many tags, a controlled vocabulary to
+    prevent sprawl), recommends borrowing established field names (Dublin Core,
+    Murmurations) rather than inventing new ones, and shows how to make the
+    schema machine-enforced (Astro/Zod content collections,
+    remark-lint-frontmatter-schema) so consistency does not depend on memory.
+    Names status, owner, and source as the three non-negotiable "trust fields."
+  audience: knowledge-commons builders and stewards (any team, not local-node-specific)
+  known_tensions:
+    - >-
+      minimal metadata (fast to fill in, low friction) vs. rich metadata (more
+      useful for trust/findability) — resolved as "spend the field budget
+      carefully," six or seven fields as a starting default
+  related_concepts:
+    - Type vs. Tag (metadata discipline)
+  related_resources:
+    - Dublin Core
+    - Murmurations Protocol
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/metadata-that-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-db092c6eb4e9
+  source_lineage: metadata-that-matters.md

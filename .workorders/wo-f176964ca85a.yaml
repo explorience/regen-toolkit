@@ -1,0 +1,29 @@
+id: wo-f176964ca85a
+title: ingest setting-up-first-wallet.md
+type: work-order
+source_path: setting-up-first-wallet.md
+source_hash: a1687ec5787876613189d590aae5fbf3a727c1ee09851df817413e47671a139f
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: operator-sweep
+produced:
+  - data/kb/encyclopedia-entry.yaml#setting-up-your-first-wallet
+  - data/kb/concept-lineage.yaml#self-custody-non-custodial-wallet
+  - >-
+    data/kb/claim-evidence.yaml#a-legitimate-wallet-app-never-asks-for-your-recovery-phrase
+  - >-
+    data/kb/claim-evidence.yaml#layer-2-networks-make-transactions-cost-a-fraction-of-a-cent
+  - data/kb/resource.yaml#l2fees-info-live-layer-2-transaction-cost-tracker
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-financial-safety-guidance-on-wallet-setup-and-recovery-phrases-setting-up-first-wallet-md

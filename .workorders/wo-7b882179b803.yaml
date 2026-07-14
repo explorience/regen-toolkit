@@ -1,0 +1,26 @@
+id: wo-7b882179b803
+title: ingest social-tokens-creator.md
+type: work-order
+source_path: social-tokens-creator.md
+source_hash: db84501b13e5c414faf09eb9d9f389160fd1462342cc9ec93d01776a22724848
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - data/kb/encyclopedia-entry.yaml#social-tokens-for-creators
+  - data/kb/concept-lineage.yaml#social-token
+  - >-
+    data/kb/claim-evidence.yaml#design-principle-tokens-should-reflect-value-not-create-it-artificially
+  - >-
+    data/kb/signal.yaml#social-tokens-flagged-for-securities-law-exposure-without-elaboration

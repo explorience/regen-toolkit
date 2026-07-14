@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Safe (multisig wallet)
+  type: resource
+  resource_type: tool
+  url: https://safe.global/
+  is_source_system_candidate: false
+  toolkit_route: Layer 6 (Deployment) / treasury tooling
+  link_status: active
+  related_concepts:
+    - Consent-based Governance (sociocracy)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-node-model.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Formerly Gnosis Safe. Article recommends a 3-of-5 multisig for even the
+    lightest "Collective" model as a low-cost way to remove single-person
+    custody risk before any legal wrapper exists. (See also multisig- setup.md
+    for a dedicated deep-dive on multisig configuration, ingested separately in
+    this batch.)
+  work_order: wo-f9c29bdf4648
+  source_lineage: local-node-model.md

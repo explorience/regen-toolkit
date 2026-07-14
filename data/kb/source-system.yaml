@@ -174,3 +174,495 @@ entries:
       authorship: ai-assisted
     work_order: wo-b3d9480838b4
     source_lineage: case-studies-nonprofits.md
+  refi-dao:
+    title: ReFi DAO
+    type: directory
+    steward: ReFi DAO core team and its local-node stewards
+    return_path: >-
+      Local nodes register and can be found via refidao.com/local-nodes; the
+      network's own reciprocal touchpoint is a monthly community call (third
+      Thursday of each month) that holds the worldwide network together — a node
+      contributes back by showing up there and by listing itself in the
+      directory rather than operating as an extracted case study.
+    url: https://refidao.com
+    what_it_curates: >-
+      A global directory and coordination layer for local, self-organizing
+      regen-finance chapters ("local nodes") running real-world experiments on
+      the ground.
+    why_it_matters: >-
+      It is the article's primary named authority and source for concrete
+      examples (ReFi Cape Town's informal-gathering-first approach, the
+      third-Thursday global call cadence) used throughout the guide.
+    how_to_credit: Credit as "ReFi DAO" with a link to refidao.com.
+    use_type: public directory + network coordination
+    toolkit_route: layer-9-federation
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/types-of-gatherings.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: types-of-gatherings.md
+    notes: >-
+      Registered here as a source-system per skills/ingest step 6 (living
+      knowledge environment referenced before content objects use it); a fuller
+      register-source pass may want to verify currentness/update_rhythm directly
+      with ReFi DAO rather than inferring only from this one article.
+    work_order: wo-0953aae86e06
+  greenpill-network-cda42cd3:
+    title: Greenpill Network
+    type: convening
+    steward: Greenpill Network
+    what_it_curates: >-
+      A global network of local regenerative-finance chapters ("Greenpill
+      chapters"); the article cites the network as listing 12 active chapters
+      worldwide as of 2026 (e.g. Greenpill London Ontario), each running events
+      on local energy rather than head-office mandates.
+    why_it_matters: >-
+      Cited alongside ReFi DAO as one of the two named networks whose local
+      nodes/chapters this article's event-planning guidance is written for; used
+      as the article's example of decentralized-but-supported local organizing
+      ("networks offer toolkits, incubators, and guides... the gathering is
+      yours to shape").
+    how_to_credit: Credit the Greenpill Network and the specific local chapter referenced.
+    use_type: cited network directory / example source for event-planning guidance
+    reuse_conditions: Not stated in the source article; public network homepage.
+    return_path: >-
+      Not directly captured in this article — surface via greenpill.network if a
+      contribute-back hook is needed later.
+    currentness: 12 active chapters cited as of 2026 per the article
+    update_rhythm: Presumably ongoing as new chapters launch; not specified in article.
+    extraction_status: >-
+      partial — only the chapter-count claim and general network role were
+      extracted from this article.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/planning-web3-events.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-13f3c98bb4d6
+    source_lineage: planning-web3-events.md
+  regen-coordination-hub:
+    title: Regen Coordination Hub
+    type: forum
+    steward: Regen Coordination network (per article)
+    url: https://hub.regencoordination.xyz/
+    what_it_curates: local-node retrospectives, cross-chapter help requests and shared learning
+    why_it_matters: >-
+      lets local nodes stay "autonomous yet connected" — coordinate openly
+      without ceding sovereignty to a central foundation
+    how_to_credit: link the specific chapter post/thread referenced
+    use_type: peer coordination forum
+    reuse_conditions: public; attribute the originating chapter thread
+    return_path: post your own node's retrospectives and open questions back to the hub
+    update_rhythm: continuous (chapter-driven)
+    extraction_status: unextracted
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-pitfalls.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-143cd63d37c3
+    source_lineage: common-pitfalls.md
+  superbenefit-knowledge-garden:
+    title: SuperBenefit Knowledge Garden
+    type: knowledge-garden
+    steward: SuperBenefit
+    return_path: >-
+      contribute observations on consequence-based tiering (and any adaptation
+      of it made in this toolkit) back to the SuperBenefit Knowledge Garden as a
+      comment or linked note, per its own contribution norms
+    url: https://knowledge.superbenefit.org/
+    what_it_curates: >-
+      a live, tiered knowledge commons (raw notes, working documents, refined
+      "artifacts") documenting SuperBenefit's own practice
+    why_it_matters: >-
+      cited in human-review-boundaries.md as the clearest real-world example of
+      sorting knowledge-commons content by review state — the three-tier model
+      in this ingestion's encyclopedia entry is adapted from it
+    how_to_credit: link the Knowledge Garden page and name SuperBenefit
+    use_type: reference source for the review-boundary tiering pattern
+    reuse_conditions: public digital garden; attribute SuperBenefit
+    currentness: unknown — not independently checked at ingestion time
+    update_rhythm: unknown
+    extraction_status: partially-extracted
+    toolkit_route: layer-2-encyclopedia
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/human-review-boundaries.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-16d3d5100c36
+    source_lineage: human-review-boundaries.md
+  refi-dao-local-node-incubator-local-nodes-network:
+    title: ReFi DAO Local Node Incubator / Local Nodes network
+    type: convening
+    steward: ReFi DAO
+    what_it_curates: >-
+      An 8-15 week structured incubator program for place-based regenerative-
+      finance chapters ("local nodes"), plus a live global directory of those
+      nodes. Source of the Seed/Sapling/Canopy node-maturity model cited in
+      onboarding-members.md; the article reports a cohort of 100-plus
+      participants and a steward Net Promoter Score of 9.4/10.
+    why_it_matters: >-
+      Primary named framework and evidence source for the article's node-growth
+      model and steward-burnout-prevention argument; also the network layer the
+      article tells stewards to lean on ("that's not central overreach, that's
+      mutual aid").
+    how_to_credit: Credit ReFi DAO and the Local Node Incubator program.
+    use_type: cited framework + directory referenced for onboarding guidance
+    reuse_conditions: Not stated in the source article; public blog + public directory.
+    return_path: >-
+      Not directly captured in this article — surface via ReFi DAO's own
+      channels (blog.refidao.com, refidao.com/local-nodes) if a contribute-back
+      hook is needed later.
+    currentness: >-
+      Beta cohort retrospective cited; alpha/beta cohort era, exact date not
+      given in article.
+    update_rhythm: Ongoing program; directory presumably updates as new nodes are incubated.
+    extraction_status: >-
+      partial — only the maturity model and cohort statistics were extracted
+      from this article; the incubator curriculum itself was not.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/onboarding-members.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4d064e9381ba
+    source_lineage: onboarding-members.md
+  regen-coordination-hub-0faecb9b:
+    title: Regen Coordination Hub
+    type: forum
+    url: https://hub.regencoordination.xyz/
+    steward: Regen Coordination (joint effort of ReFi DAO and Greenpill Network)
+    what_it_curates: >-
+      A shared Local ReFi Toolkit pooling guides from Greenpill Chapters, Celo
+      regional hubs, and the BioFi Project into one bank of patterns for local
+      nodes.
+    why_it_matters: >-
+      Named in the article's closing section as a place to borrow shared
+      playbooks rather than rebuilding a node's own funding rails, currency, or
+      toolkit from scratch.
+    how_to_credit: unknown — not stated in the article
+    reuse_conditions: unknown — not stated in the article
+    return_path: unknown — not stated in the article
+    currentness: unknown — not stated in the article
+    update_rhythm: unknown — not stated in the article
+    extraction_status: partial — only the framing given in this article has been captured
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-local-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-5e5d4bf53655
+    source_lineage: why-local-matters.md
+  cryptoaltruists:
+    title: CryptoAltruists
+    type: directory
+    steward: >-
+      CryptoAltruists (per article; steward org name not further specified in
+      source)
+    what_it_curates: a directory/resource hub of crypto-donation platforms and related guidance
+    why_it_matters: >-
+      helps nonprofits find a donation platform that fits their needs; also the
+      cited source for several tax/legal framing claims elsewhere in this batch
+      (compliance-legal.md)
+    how_to_credit: attribute as "CryptoAltruists" per article citation style
+    use_type: directory + guidance source
+    reuse_conditions: unspecified in source article
+    return_path: >-
+      unspecified in source article — flag for follow-up if this source system
+      is engaged directly
+    update_rhythm: unspecified in source article
+    extraction_status: unextracted
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/crypto-donation-platforms.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-620c0c65c46f
+    source_lineage: crypto-donation-platforms.md
+  superbenefit-knowledge-garden-39b234ba:
+    title: SuperBenefit Knowledge Garden
+    type: knowledge-garden
+    url: https://knowledge.superbenefit.org/
+    steward: SuperBenefit (a DAO researching web3 systems-change)
+    what_it_curates: >-
+      A public knowledge garden organized into four section types — Docs
+      (finished explanations/guides), Lexicon (shared-vocabulary definitions),
+      Links (annotated external resources), and Patterns (reusable solutions to
+      recurring governance/coordination problems) — including a published
+      "Knowledge Gardens" pattern describing SuperBenefit's own gardening
+      practice (gardeners, sensemaking sessions, seasonal reviews).
+    why_it_matters: >-
+      A live, real-world worked example of the garden model this toolkit article
+      recommends: a durable community knowledge structure that outlives
+      contributor turnover, cited as the model to copy.
+    how_to_credit: Credit SuperBenefit and link to https://knowledge.superbenefit.org/
+    return_path: >-
+      Not specified in source article beyond the public garden URL — engage via
+      SuperBenefit's public knowledge garden site; no explicit
+      contribute-back/PR process was documented in this source, flagged for
+      follow-up (see notes).
+    currentness: >-
+      Article notes SuperBenefit ran Obsidian+Quartz before migrating to a
+      custom Astro build; currentness of the garden's tooling as of the
+      article's writing (2026), not independently re-verified here.
+    extraction_status: >-
+      raw AI-assisted extraction from a single toolkit article — not
+      independently verified against the live site
+    toolkit_route: >-
+      Layer 2 (Knowledge Commons) / Layer 4 (Concept Lineage) — pattern-library
+      peer
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-gardens.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      return_path is a best-effort inference (the article only links to the
+      garden's homepage) — a human reviewer should confirm SuperBenefit's actual
+      contribute-back mechanism (Discord, GitHub, contact form) before promoting
+      this card past raw.
+    work_order: wo-69cdee6ddcfe
+    source_lineage: knowledge-gardens.md
+  grassroots-economics-sarafu-network:
+    title: Grassroots Economics (Sarafu Network)
+    type: blog
+    url: https://www.grassrootseconomics.org/sarafu-network
+    steward: Grassroots Economics (Kenyan nonprofit)
+    what_it_curates: >-
+      Sarafu, a community currency over 50,000 people have used to trade food,
+      goods, and services where regular cash/banking is scarce. Works on basic
+      phones over USSD; the transaction record lives on a public blockchain so
+      the community, not a bank, governs it.
+    why_it_matters: >-
+      The article's clearest real (non-theoretical) example of Web3 doing
+      something ordinary banking cannot: cross-border/no-gatekeeper value
+      movement for a mutual-aid/local economy at real scale.
+    how_to_credit: unknown — not stated in the article
+    reuse_conditions: unknown — not stated in the article
+    return_path: unknown — not stated in the article
+    currentness: 50,000+ users per the article (undated snapshot)
+    update_rhythm: unknown — not stated in the article
+    extraction_status: partial — only the framing given in this article has been captured
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-web3-can-cant-do.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-9cd1291b92b8
+    source_lineage: what-web3-can-cant-do.md
+  superbenefit-knowledge-garden-752eeb3d:
+    title: SuperBenefit Knowledge Garden
+    type: docs-site
+    steward: SuperBenefit
+    return_path: >-
+      Not stated in the article — it describes the Knowledge Garden as an
+      Obsidian vault maintained as Markdown in a public Git repository and
+      published with Quartz, which implies a pull-request-style contribution
+      path, but no explicit contribute-back channel is named. Needs steward
+      confirmation (see companion signal object).
+    url: https://knowledge.superbenefit.org/
+    what_it_curates: >-
+      Docs, a lexicon of defined terms, a curated link library, and design
+      patterns for community/DAO practice, maintained as Markdown in a public
+      Git repository.
+    why_it_matters: >-
+      Cited in the article as a working, community-scale example of the Markdown
+      + Git + static-publisher pattern: a knowledge commons a small team can run
+      for years with no platform bill and full ownership of the archive.
+    how_to_credit: SuperBenefit
+    extraction_status: raw-lead
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-community-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ae4676958221
+    source_lineage: ai-community-tools.md
+  greenpill-network-6b752193:
+    title: Greenpill Network
+    type: directory
+    url: https://greenpill.network/
+    steward: Greenpill Network
+    what_it_curates: >-
+      A world map / directory of 12 active local regen chapters (as of the
+      article, mid-2026), an entry path for would-be founders, and a Local Regen
+      Guide (PDF) field guide to organizing a place-based regen chapter.
+    why_it_matters: >-
+      One of the two networks (with ReFi DAO) running the most local nodes
+      currently; the article's first recommended stop for scouting an existing
+      nearby node before building one from scratch.
+    how_to_credit: unknown — not stated in the article
+    reuse_conditions: unknown — not stated in the article
+    return_path: unknown — not stated in the article
+    currentness: ~12 active chapters as of mid-2026, per the article
+    update_rhythm: unknown — not stated in the article
+    extraction_status: partial — only the framing given in this article has been captured
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-local-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d579c610b491
+    source_lineage: what-is-local-node.md
+  superbenefit-knowledge-garden-269368a2:
+    title: SuperBenefit Knowledge Garden
+    type: knowledge-garden
+    url: https://knowledge.superbenefit.org/
+    steward: SuperBenefit
+    what_it_curates: >-
+      A shared knowledge base for a Web3 ecosystem, organized into docs, a
+      lexicon of definitions, a curated links library, and reusable patterns.
+      Plain Markdown files edited in Obsidian and published with Quartz, kept in
+      a public, MIT-licensed GitHub repo
+      (github.com/superbenefit/knowledge-garden).
+    why_it_matters: >-
+      Cited in the article as a small-team knowledge commons "you can actually
+      copy" — its plain-Markdown/portable/version-controlled/MIT-licensed stack
+      is presented as the anti-lock-in property to aim for.
+    how_to_credit: MIT license per the GitHub repo
+    reuse_conditions: MIT-licensed
+    return_path: >-
+      unknown — not stated in the article; likely GitHub issues/PRs against
+      github.com/superbenefit/knowledge-garden, but this is inferred, not
+      confirmed by the source
+    currentness: as described in the article (undated)
+    update_rhythm: unknown — not stated in the article
+    extraction_status: partial — only the framing given in this article has been captured
+    toolkit_route: layer-2-encyclopedia
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-knowledge-commons.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d94f3822e08d
+    source_lineage: what-is-knowledge-commons.md
+  giveth-docs:
+    title: Giveth Docs
+    type: docs-site
+    steward: Giveth
+    what_it_curates: >-
+      Product documentation for the Giveth donation platform: zero-fees model,
+      project creation flow, GIVbacks, GIVpower, project verification, recurring
+      donations (Superfluid streaming), and quadratic funding mechanics.
+    why_it_matters: >-
+      The primary living reference this article draws on for exact platform
+      mechanics (fee structure, verification tiers, reward math); a local node
+      setting up a Giveth project should treat these docs, not this summary
+      article, as the current source of truth.
+    how_to_credit: Credit Giveth and link to docs.giveth.io.
+    use_type: platform documentation for donation/fundraising setup
+    reuse_conditions: Publicly published documentation; not otherwise specified in this article.
+    return_path: >-
+      Via docs.giveth.io and Giveth's own community channels (not specified
+      further in this article); corrections/updates should be checked against
+      the live docs site directly.
+    currentness: as reflected in the source article, dated 2026
+    update_rhythm: living docs site, updated as the platform evolves
+    extraction_status: partially-extracted (this article's summarized subset only)
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/giveth-donations.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e98c2d2a09ac
+    source_lineage: giveth-donations.md
+  silvi-protocol:
+    title: Silvi Protocol
+    type: docs-site
+    steward: Silvi
+    return_path: >-
+      unset in article — join the Silvi community on Telegram or Twitter per the
+      article's "Next Steps"; no formal contribute-back channel confirmed in
+      this source.
+    url: https://silvi.earth
+    what_it_curates: >-
+      A mobile-app-based protocol for documenting tree planting: photo +
+      geolocation capture, AI + community verification of tree existence and
+      species, and automated stablecoin (cUSD/USDC) payment to planters once
+      verified, all recorded on-chain. Integrates the Treekipedia tree-species
+      database.
+    why_it_matters: >-
+      Cited in the playbook as a way for individual planters/communities to
+      prove reforestation impact directly to funders without a middleman, and to
+      get paid automatically once verified.
+    use_type: >-
+      dMRV (decentralized monitoring, reporting, verification) tool for tree
+      planting
+    return_path_note: not independently confirmed in this source beyond community channels
+    currentness: article created/updated March 2026
+    extraction_status: >-
+      partial — captured only as framed in this single promotional playbook, not
+      from Silvi's own technical/legal docs
+    toolkit_route: layer-9-evolution-signals
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    public_use: not-public-yet
+    provenance:
+      origin: src/content/docs/silvi-protocol.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      high_risk: true — this is an ecological/MRV impact-verification and
+      payment claim about a named third-party protocol; see accompanying
+      public-use-boundary candidate. "type" set to docs-site per ingest
+      instructions (no platform/dapp enum value exists; docs-site is the closest
+      fit for a protocol's public-facing site/app).
+    work_order: wo-ec7a53915677
+    source_lineage: silvi-protocol.md
+  treekipedia:
+    title: Treekipedia
+    type: database
+    steward: Silvi
+    return_path: >-
+      unset in article — no explicit contribute-back mechanism for Treekipedia
+      described in this source.
+    what_it_curates: >-
+      A tree-species database, described in the article as helping identify tree
+      species and confirm which species are right for a given planting area;
+      built into the Silvi app.
+    why_it_matters: >-
+      Referenced as the species-matching layer that helps planters choose
+      species likely to survive in their local conditions, which the article
+      frames as important for both ecological outcomes and verification.
+    use_type: reference database consulted through the Silvi app
+    currentness: as described in the March 2026 playbook
+    extraction_status: partial — captured only as framed in this single promotional playbook
+    toolkit_route: layer-9-evolution-signals
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    public_use: not-public-yet
+    provenance:
+      origin: src/content/docs/silvi-protocol.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ec7a53915677
+    source_lineage: silvi-protocol.md

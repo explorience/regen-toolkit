@@ -1,0 +1,50 @@
+schema: concept-lineage
+object:
+  title: Stablecoin
+  type: concept-lineage
+  short_description: >-
+    A crypto token engineered to hold a steady value, almost always pegged
+    to one US dollar, via one of three backing designs: fiat-backed,
+    crypto-backed (overcollateralised), or algorithmic.
+  source_traditions:
+    - >-
+      Fiat-backed model: USDC (Circle) and USDT (Tether) — company-held
+      dollar/short-term-bond reserves.
+    - >-
+      Crypto-backed model: DAI/Sky (rebranded from MakerDAO) and Liquity's
+      BOLD — overcollateralised, transparent smart-contract-held reserves.
+    - >-
+      Algorithmic model: Terra (UST) and early Frax — code-only peg
+      mechanisms with no real backing.
+  toolkit_usage: >-
+    Introduced via a "seed that doesn't change variety in storage" analogy
+    to explain why a stable-value token is practically useful for
+    cross-border community payments and grant receipt.
+  adjacent_meanings:
+    - digital dollar
+    - peg
+  important_distinctions:
+    - >-
+      Fiat-backed (auditable, freezable) vs crypto-backed (transparent
+      on-chain, overcollateralised, harder to freeze) vs algorithmic
+      (unbacked, historically prone to collapse).
+    - >-
+      "Stable" means "usually," not "guaranteed" — small wobbles are normal;
+      real depegs have happened even to fiat-backed coins (USDC, March 2023).
+  tensions:
+    - >-
+      Regulated fiat-backed coins offer legal/audit assurance (reinforced by
+      the 2025 GENIUS Act) but concentrate freeze power in one company;
+      decentralised crypto-backed coins remove that single point of control
+      but are harder for a newcomer to independently verify.
+  risks_of_flattening: >-
+    Calling any of the three designs simply "stablecoins" without
+    distinguishing backing mechanism flattens a real risk spectrum — from
+    audited fiat reserves to a fully algorithmic peg, the latter of which
+    (Terra/UST) collapsed to near zero in 2022.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stablecoins.md
+    transformation: summarized
+    authorship: ai-assisted

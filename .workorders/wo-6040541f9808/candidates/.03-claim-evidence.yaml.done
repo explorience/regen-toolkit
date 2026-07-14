@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Crypto donors are motivated by transparency, global access, and innovation
+  type: claim-evidence
+  claim: >-
+    Crypto donors often care about transparency (seeing onchain where funds
+    go), global access (caring about people everywhere), and innovation
+    (wanting to support new models).
+  evidence: >-
+    Stated directly in the article's "Understand Their Motivation" section;
+    article's frontmatter cites "CryptoAltruists Web3 Impact Toolkit" as its
+    single source, but this specific list is not attributed to a page/quote
+    within that source.
+  source_lineage: src/content/docs/donor-stewardship.md
+  interpretation: >-
+    Used to justify the article's specific stewardship recommendations
+    (share onchain proof, communicate global impact, frame the org as
+    innovative) as targeted to these three motivations rather than generic
+    donor-care advice.
+  uncertainty: >-
+    The article's own frontmatter marks research_done: false; this is a
+    general characterization of "crypto donors" as a group without a cited
+    survey, study, or dataset — treat as an untested generalization pending
+    verification.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/donor-stewardship.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6040541f9808

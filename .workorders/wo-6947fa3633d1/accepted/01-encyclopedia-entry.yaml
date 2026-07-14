@@ -1,0 +1,47 @@
+schema: encyclopedia-entry
+object:
+  title: Voting Mechanisms in DAOs
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Compares six DAO decision-making mechanisms — token-based quorum voting,
+    quadratic voting, conviction voting, holographic consensus, multi-sig
+    voting, and off-chain voting via Snapshot — on the trade-offs of speed vs
+    inclusivity, simplicity vs manipulation-resistance, and participation vs
+    scalability, and notes that most mature DAOs combine several mechanisms
+    rather than relying on one.
+  audience: DAO operators choosing or designing a governance/voting process
+  known_tensions:
+    - >-
+      speed vs inclusivity (multi-sig fast-but-concentrated vs conviction-voting
+      open-but-slow)
+    - >-
+      simplicity vs manipulation-resistance (quorum voting easy-to-understand
+      but vulnerable)
+    - participation vs scalability (everyone-votes-on-everything does not scale)
+  related_concepts:
+    - dao-voting-mechanisms
+    - token-weighted-governance
+  related_resources:
+    - Snapshot
+    - Giveth
+    - Moloch DAO
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/voting-mechanisms.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: voting-mechanisms.md
+  notes: |
+    # assessed-but-excluded
+    - the "Try This" reflection on cooperative/savings-group decision-making
+      is folded into the encyclopedia summary framing rather than a
+      separate object; it's an exercise prompt, not a distinct typed fact.
+    - no people/community profiles, exact locations, TEK, or funding/legal
+      recommendations named; the Somaliland/East-Africa aside is a general,
+      unattributed comparison (cooperative boards facing similar low-turnout
+      dynamics), not a specific claim with a named source — captured only as
+      an adjacent note in the concept-lineage object.
+  work_order: wo-6947fa3633d1

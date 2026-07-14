@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: '"The Web3 community is remarkably generous with time and knowledge"'
+  type: claim-evidence
+  claim: >-
+    "The Web3 community is remarkably generous with time and knowledge." Framed
+    as the closing encouragement to reach out and ask for help.
+  evidence: >-
+    No citation, study, or specific example is given in the article; it is
+    presented as the author's own observation/encouragement.
+  source_lineage: src/content/docs/finding-support-mentorship.md (no external source cited)
+  interpretation: >-
+    A motivational generalization rather than a verifiable claim; plausible
+    given the mentorship/peer-support culture described elsewhere on the site
+    (e.g. Greenpill's tiered participation model), but not independently
+    evidenced here.
+  uncertainty: >-
+    Anecdotal / unsourced. Should not be read as a measured or universal claim
+    about the whole web3 community, which the site elsewhere acknowledges
+    includes scams and bad actors alongside generous ones.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/finding-support-mentorship.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-573da6e89a75

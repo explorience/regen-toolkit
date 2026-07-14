@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: Crypto-donation platform setup takes about an hour
+  type: claim-evidence
+  claim: >-
+    Setting up to receive crypto donations "takes about an hour with most
+    platforms," with the hardest part being gathering nonprofit verification
+    documents.
+  evidence: >-
+    Asserted directly by the article's "Bottom Line" section; no external
+    citation or platform-by-platform timing data given.
+  source_lineage: src/content/docs/setting-up-receive-crypto.md
+  interpretation: >-
+    A rough operational estimate meant to lower the perceived barrier to entry
+    for nonprofits considering crypto donations.
+  uncertainty: >-
+    Self-reported estimate with no supporting data or named platform benchmarks;
+    likely varies significantly by platform and by how quickly an org can
+    produce nonprofit-status documentation.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-receive-crypto.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f74c59e2b45a

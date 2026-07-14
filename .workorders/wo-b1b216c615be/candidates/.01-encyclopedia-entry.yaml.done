@@ -1,0 +1,48 @@
+schema: encyclopedia-entry
+object:
+  title: Trust and Transparency in Decentralized Systems
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Argues decentralization does not eliminate trust but relocates it — from
+    institutions (banks, platforms) to open-source code, consensus
+    mechanisms, and public verifiability. Explains how blockchain properties
+    (immutability, transparency, cryptographic security) enable this, walks
+    through Proof of Work vs Proof of Stake as the "trust engine," then names
+    a "transparency paradox": the same public visibility that enables
+    accountability (detecting insider trading, concentrated ownership) also
+    creates attack surfaces (sophisticated actors planning attacks on visible
+    positions). Closes on decentralized identity (DIDs) as returning
+    ownership of one's digital self.
+  audience: general readers evaluating whether/why decentralized trust models matter
+  known_tensions:
+    - trust-in-institutions vs trust-in-code/math/consensus
+    - transparency-enables-accountability vs transparency-enables-attack-planning
+    - individual-control-of-identity vs currently-scattered-centralized-identity-databases
+  related_concepts:
+    - decentralized-trust
+    - consensus-mechanisms
+    - decentralized-identity
+    - transparency-paradox
+  related_resources:
+    - Dune Analytics
+    - W3C Decentralized Identifiers (DID)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/trust-transparency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: trust-transparency.md
+  notes: |
+    # assessed-but-excluded
+    - the article's aside that "in Somali and East African traditions, trust
+      has historically been built through community networks, clan
+      relationships, and reputation" is a broad, unattributed cultural
+      generalization (no named community, individual, or specific
+      tradition/source cited) rather than a documented TEK claim with a
+      lineage to trace — captured only as an adjacent-meaning note in the
+      concept-lineage object, not elevated to its own claim-evidence object
+      or flagged high-risk, since it names no specific people or exact
+      location and cites no source.

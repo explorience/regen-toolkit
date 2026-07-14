@@ -1,0 +1,38 @@
+schema: encyclopedia-entry
+object:
+  title: Multisig Setup for Community Treasuries
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A step-by-step guide to multi-signature wallets for community treasuries:
+    what a multisig is and why it eliminates single points of failure, threshold
+    configurations (2-of-3, 3-of-5, 4-of-7) and how to choose signers
+    (geographic spread, role diversity, technical capacity), timelocks for large
+    transactions, a five-step setup process on Gnosis Safe, ongoing operations
+    (proposing/approving transactions), security best practices, common
+    mistakes, and social recovery (Argent, SoulWallet) as an alternative for
+    individual (not community) wallets.
+  audience: DAO operators and community treasurers
+  known_tensions:
+    - >-
+      lower threshold (2-of-3: faster, but "if you lose any two signers, you
+      lose access to the funds") vs. higher threshold (3-of-5 or 4-of-7: more
+      resilient, but requires more coordination)
+  related_concepts:
+    - Multisig (multi-signature wallet)
+  related_resources:
+    - Argent
+  high_risk: true
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/multisig-setup.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Flagged high_risk: true — treasury/security guidance where getting the
+    configuration wrong has direct financial consequences for a community; see
+    paired public-use-boundary object (05-).
+  work_order: wo-56e6a89fcec1
+  source_lineage: multisig-setup.md

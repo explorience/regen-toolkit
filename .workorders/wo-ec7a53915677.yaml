@@ -1,0 +1,31 @@
+id: wo-ec7a53915677
+title: ingest silvi-protocol.md
+type: work-order
+source_path: silvi-protocol.md
+source_hash: 11b9e1a7cbf4d6369df5af13bc41569febd55dbd89072e8ce3b90e8c87eee7f3
+source_type: transcript
+target_schemas:
+  - source-system
+  - resource
+  - concept-lineage
+  - signal
+  - claim-evidence
+instructions: >-
+  Deep intake (transcript): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - data/kb/source-system.yaml#silvi-protocol
+  - data/kb/source-system.yaml#treekipedia
+  - >-
+    data/kb/resource.yaml#mobile-wallets-supported-by-silvi-metamask-valora-opera-minipay
+  - data/kb/concept-lineage.yaml#decentralized-mrv-dmrv-for-tree-planting
+  - >-
+    data/kb/claim-evidence.yaml#silvi-verifies-trees-and-pays-planters-directly-with-no-middlemen
+  - data/kb/public-use-boundary.yaml#untitled-f874da11
+  - >-
+    data/kb/signal.yaml#silvi-protocol-playbook-is-single-sourced-promotional-content

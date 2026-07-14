@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: "Otter.ai free-tier transcription limits (300 min/month, 30 min/call)"
+  type: claim-evidence
+  claim: >-
+    Otter.ai's free tier gives 300 transcription minutes a month, capped at
+    30 minutes per conversation, with automated summaries and action items;
+    the Pro plan is $8.33/month billed annually for 1,200 minutes.
+  evidence: >-
+    Cited in the article from Otter.ai's own pricing page
+    (otter.ai/pricing), referenced in the article's References section.
+  interpretation: >-
+    Used to size Otter.ai's free tier as "enough for a small team's weekly
+    call" in the article's recommended starter stack.
+  uncertainty: >-
+    The article itself flags this figure as time-sensitive: "verify the
+    current limits before you commit; transcription pricing changes often."
+    Not independently re-verified against Otter.ai's live pricing page for
+    this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-community-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ae4676958221
+  source_lineage: ai-community-tools.md

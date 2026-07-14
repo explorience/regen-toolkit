@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: Layer 2 (Ethereum scaling)
+  type: concept-lineage
+  short_description: >-
+    A secondary network built on top of a main blockchain (here, Ethereum)
+    that processes transactions separately and cheaply while still relying
+    on the base chain's security for final settlement.
+  source_traditions:
+    - Ethereum scaling research (rollup-centric roadmap)
+    - Optimistic Rollup design (fraud-proof / challenge-window model)
+    - Zero-Knowledge Rollup design (validity-proof model)
+  toolkit_usage: >-
+    Framed for regen projects as the affordability unlock for on-chain
+    micro-transactions, carbon-credit tracking, and community token systems
+    — the difference between "sustainable" and "unsustainable" fee costs at
+    scale.
+  adjacent_meanings:
+    - sidechain (independent security model, not inheriting L1 security directly)
+    - Layer 1 / Ethereum Mainnet (the base chain being scaled)
+  important_distinctions:
+    - >-
+      Optimistic Rollup ≠ ZK Rollup — Optimistic assumes validity and allows
+      a ~7-day fraud-challenge window; ZK Rollups submit a mathematical
+      proof of correctness verified immediately, no waiting period
+    - >-
+      Layer 2 ≠ independent blockchain — a genuine L2 inherits Ethereum's
+      security guarantees; assets are not held by a company that could fail
+  tensions:
+    - >-
+      the article frames ZK Rollups as "still maturing" and Optimistic
+      Rollups as "more accessible... for now" — a claim that is time-bound
+      and likely to shift as ZK tooling matures
+  risks_of_flattening: >-
+    "Layer 2s are as secure as Ethereum" is true of the cryptographic
+    settlement guarantee but glosses over operational risk: each L2 still
+    has its own sequencer/team/infrastructure, which is a real (if smaller)
+    trust surface the article itself flags in its "Note on Security."
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/layer-2s.md
+    transformation: synthesized
+    authorship: ai-assisted

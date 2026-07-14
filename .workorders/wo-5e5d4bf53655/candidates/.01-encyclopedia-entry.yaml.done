@@ -1,0 +1,47 @@
+schema: encyclopedia-entry
+object:
+  title: "Why Local Matters"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Argues that place-based nodes do work global protocols structurally
+    cannot: capital is light and can flow anywhere, but trust is heavy and
+    must be built face-to-face over time (the "Ethereum Localism" framing:
+    "what is heavy should be local, what is light should be global and
+    shared" — i.e. subsidiarity). Covers what a node does that a protocol
+    can't (onboarding, deciding which local projects are real, custody/
+    accountability, the "eight forms of capital" beyond money), the standing
+    network infrastructure a new node can plug into (Greenpill Network,
+    quadratic funding via Gitcoin Grants), the "start small" pattern against
+    building something nobody uses, designing against founder burnout from day
+    one, and concrete tools a node can borrow (Mento/Celo local stablecoins,
+    impactMarket UBI rails, the Regen Coordination Local ReFi Toolkit, BioFi
+    Project templates).
+  audience: people who already know web3 and are ready to stand up a local node
+  known_tensions:
+    - >-
+      Local autonomy vs. central overreach — the article frames subsidiarity
+      and distributed local ownership as the defence against both a global
+      DAO/funder steering local work and against founder burnout.
+    - >-
+      Starting small vs. building infrastructure — explicitly warns against
+      setting up a DAO/token/five-tier governance model before the group has
+      the coordination problems those solve.
+  related_concepts:
+    - subsidiarity
+    - eight-forms-of-capital
+  related_resources:
+    - greenpill-network
+    - mento
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-local-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+# - Did not create a separate resource card for impactMarket or the BioFi Project individually —
+#   both are named "borrow, don't build" infrastructure examples in a single closing list, not
+#   independently developed; captured Mento/Celo as the single representative example since it's
+#   discussed with the most named detail (specific stablecoins: cKES, cREAL, cCOP, PUSO).

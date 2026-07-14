@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Ambiguous role expectations are a fast route to DAO contributor burnout
+  type: claim-evidence
+  claim: >-
+    Other Internet's "Web3 Work" research, which interviewed long-tenured
+    full-time DAO contributors, found the fastest route to burnout is
+    contributors working "without specific working hours/days nor clear outlines
+    for what is expected from them" inside an always-online culture; the same
+    report found people are drawn into DAOs by "a desire for collaboration" and
+    aligned relationships more than by tokens or tech.
+  evidence: >-
+    Cited in the article from Other Internet's "Web3 Work research report,"
+    listed in the article's References with a link to the Substack post.
+  interpretation: >-
+    Used by the article to argue for naming roles out loud and recruiting for
+    shared purpose and reliability first, since ambiguity (not workload itself)
+    is framed as the primary burnout driver.
+  uncertainty: >-
+    Direct quotations reproduced as given in the article; the underlying
+    interview sample size/methodology is not detailed in the article itself, and
+    was not independently verified for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md

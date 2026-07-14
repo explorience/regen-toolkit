@@ -1,0 +1,37 @@
+schema: encyclopedia-entry
+object:
+  title: Building Internal Capacity
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A guide on developing the skills and systems a community needs to sustain
+    web3 operations independently, without relying on external experts or
+    consultants. Names four capacity areas (technical: wallet management, smart
+    contract interaction, treasury operations, security; governance:
+    facilitation, proposal writing, conflict resolution, decision-making;
+    communication: writing, social media, community management, outreach;
+    financial: bookkeeping, grant writing, budgeting, fundraising) and a
+    five-step process to build it: identify gaps, map existing skills, create
+    learning pathways, practice with low stakes, and document everything.
+  audience: local node organizers investing in member skill development
+  known_tensions: []
+  related_concepts:
+    - internal-capacity
+  related_resources: []
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-internal-capacity.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b3a05e9b7743
+  source_lineage: building-internal-capacity.md
+  notes: |
+    # assessed-but-excluded
+    - No people/community profiles, exact locations, TEK, MRV/carbon claims,
+      or funding/legal/governance recommendations specific enough to trigger
+      high_risk — "grant writing" and "fundraising" are named only as generic
+      skill-building categories, not specific recommendations.
+    - No named tools, orgs, or external sources appear in this article at
+      all (it has no References section) — no resource objects to extract.

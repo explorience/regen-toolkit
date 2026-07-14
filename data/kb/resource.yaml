@@ -1115,3 +1115,3900 @@ entries:
       authorship: ai-assisted
     work_order: wo-ee62e83173d4
     source_lineage: decentralization-spectrum.md
+  coinbase-wallet:
+    title: Coinbase Wallet
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: wallet-comparison-guide.md
+    related_concepts:
+      - self-custody-wallets
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/wallet-comparison-guide.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: wallet-comparison-guide.md
+    notes: >-
+      Ranked easiest for complete beginners; distributed via Google Play Store
+      per the article, no direct URL given so link_status is unresolved.
+    work_order: wo-003c0d82b00d
+  metamask-cbffca76:
+    title: MetaMask
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: wallet-comparison-guide.md
+    related_concepts:
+      - self-custody-wallets
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/wallet-comparison-guide.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: wallet-comparison-guide.md
+    notes: >-
+      Described as the industry standard for Web3-app compatibility; supports
+      many blockchains and has a desktop browser-extension option per the
+      article; no direct URL given so link_status is unresolved.
+    work_order: wo-003c0d82b00d
+  trust-wallet:
+    title: Trust Wallet
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: wallet-comparison-guide.md
+    related_concepts:
+      - self-custody-wallets
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/wallet-comparison-guide.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: wallet-comparison-guide.md
+    notes: >-
+      Supports 100+ blockchains per the article and is owned by Binance;
+      built-in browser for Web3 apps; no direct URL given so link_status is
+      unresolved.
+    work_order: wo-003c0d82b00d
+  rainbow-wallet:
+    title: Rainbow Wallet
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: wallet-comparison-guide.md
+    related_concepts:
+      - self-custody-wallets
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/wallet-comparison-guide.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: wallet-comparison-guide.md
+    notes: >-
+      Praised for Ethereum and Base network support and polished design; fewer
+      coins supported than the others per the article; no direct URL given so
+      link_status is unresolved.
+    work_order: wo-003c0d82b00d
+  ledger-academy-how-does-a-blockchain-transaction-work:
+    title: Ledger Academy - How Does a Blockchain Transaction Work
+    type: resource
+    resource_type: article
+    url: https://www.ledger.com/academy/how-does-a-blockchain-transaction-work
+    link_status: active
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    notes: >-
+      Educational article cited as "[Source S]" for both of
+      how-transactions-work.md's direct quotations on private-key signing
+      authority and block-confirmation immutability.
+    related_concepts:
+      - mempool-transaction-waiting-room
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/how-transactions-work.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-03d7c600800a
+    source_lineage: how-transactions-work.md
+  grassroots-economics-sarafu-network-ea6cc59f:
+    title: 'Grassroots Economics: Sarafu Network'
+    type: resource
+    resource_type: org
+    url: https://www.grassrootseconomics.org/sarafu-network
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - three-kinds-of-trust-competence-integrity-benevolence
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-trust.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-06b003d4c0b2
+    source_lineage: building-trust.md
+    notes: >-
+      A Kenya-based network letting people exchange Community Asset Vouchers
+      (promises of future goods/labor/services) through shared "commitment
+      pools" that track who has offered, taken, and fulfilled promises over
+      time. Cited in the article as the clearest working example of trust backed
+      by relationships rather than substituted by technology.
+  safe-multisig-wallets:
+    title: Safe (multisig wallets)
+    type: resource
+    resource_type: tool
+    url: https://safe.global/
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - three-kinds-of-trust-competence-integrity-benevolence
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-trust.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-06b003d4c0b2
+    source_lineage: building-trust.md
+    notes: >-
+      Standard multisig wallet (formerly Gnosis Safe) for on-chain treasuries.
+      Article recommends a 3-of-5 signer setup as a transparency practice: every
+      member gets a public, real-time ledger of every movement, and no single
+      person can move funds alone.
+  human-passport:
+    title: Human Passport
+    type: resource
+    resource_type: tool
+    url: https://passport.human.tech/
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - three-kinds-of-trust-competence-integrity-benevolence
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-trust.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-06b003d4c0b2
+    source_lineage: building-trust.md
+    notes: >-
+      Formerly Gitcoin Passport — a proof-of-personhood / sybil-resistance tool
+      letting a node confirm members are unique real people, not one person
+      wearing ten wallets. Article frames it as scaffolding toward human trust
+      for larger, open networks, not a permanent replacement for it.
+  greenpill-network:
+    title: GreenPill Network
+    type: resource
+    resource_type: org
+    url: https://greenpill.network
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: types-of-gatherings.md
+    related_concepts:
+      - local-node-pattern
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/types-of-gatherings.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: types-of-gatherings.md
+    notes: >-
+      A regen network of local chapters, named as a sister model to ReFi DAO's
+      local nodes; flagged as a source-system candidate for a future
+      register-source pass (it curates its own chapter directory).
+    work_order: wo-0953aae86e06
+  canodrom-barcelona-s-ateneu-d-innovacio-digital-i-democratica:
+    title: Canòdrom (Barcelona's Ateneu d'Innovació Digital i Democràtica)
+    type: resource
+    resource_type: venue
+    url: https://canodrom.barcelona/en
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: types-of-gatherings.md
+    related_concepts:
+      - workshop-gathering-format
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/types-of-gatherings.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: types-of-gatherings.md
+    notes: >-
+      Barcelona's public digital-innovation and democracy centre, mapped by ReFi
+      Barcelona as an aligned local venue for hands-on workshops; a public civic
+      venue, not a private location, so no high-risk trigger.
+    work_order: wo-0953aae86e06
+  metamask-acc29a01:
+    title: MetaMask
+    type: resource
+    url: https://metamask.io/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - smart-contract
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-ethereum.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Recommended free wallet for exploring Ethereum with test ETH on Sepolia
+      testnet, no real money required.
+    source_lineage: what-is-ethereum.md
+    work_order: wo-0e57f85327bf
+  ethereum-name-service-ens:
+    title: Ethereum Name Service (ENS)
+    type: resource
+    url: https://ens.domains/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - smart-contract
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-ethereum.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described in the article's "Try This" exercise as a phonebook for Ethereum
+      addresses — search any ENS name with no account needed.
+    source_lineage: what-is-ethereum.md
+    work_order: wo-0e57f85327bf
+  kobotoolbox:
+    title: KoboToolbox
+    type: resource
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - digital-measurement-reporting-verification
+    is_source_system_candidate: false
+    link_status: unresolved
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dmrv.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in the article as one of the basic-smartphone-friendly dMRV data
+      collection tools (alongside ODK and Google Forms). No URL given in this
+      article's own text; not invented here.
+    work_order: wo-0e8b32eb0398
+    source_lineage: dmrv.md
+  notion-f52b695e:
+    title: Notion
+    type: resource
+    url: https://www.notion.so/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - institutional-memory
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/documentation-knowledge.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Recommended in the article as the "structured and powerful" documentation
+      tier: built-in databases and templates, good for wikis and knowledge
+      bases, works on mobile and desktop.
+    work_order: wo-12f41d6ac647
+    source_lineage: documentation-knowledge.md
+  gitbook-ba9bfb8f:
+    title: GitBook
+    type: resource
+    url: https://www.gitbook.com/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - institutional-memory
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/documentation-knowledge.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Recommended in the article as the "technical and durable" tier alongside
+      GitHub: version control, markdown-based, built for long-term persistence;
+      article specifically recommends it for communities that want documentation
+      to survive platform changes.
+    work_order: wo-12f41d6ac647
+    source_lineage: documentation-knowledge.md
+  luma-lu-ma:
+    title: Luma (lu.ma)
+    type: resource
+    url: https://lu.ma/
+    resource_type: event listing / registration platform
+    link_status: active
+    notes: >-
+      Article's cited default for regen-scene event listing/registration. Free
+      events have no platform fee; paid tickets carry a 5% platform fee plus
+      Stripe processing (~2.9% + 30¢/ticket); "Luma Plus" removes the 5% fee for
+      $69/month ($59/month billed annually). Pricing verified as of mid-2026 per
+      the article; note prices shift, re-verify before relying on this.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/planning-web3-events.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-13f3c98bb4d6
+    source_lineage: planning-web3-events.md
+  galxe-oat-on-chain-achievement-token:
+    title: Galxe OAT (On-chain Achievement Token)
+    type: resource
+    url: https://help.galxe.com/
+    resource_type: attendance / achievement NFT badge tool
+    link_status: active
+    notes: >-
+      Article's cited active alternative to POAP for attendance/achievement
+      badges as of March 2026 (POAP entered maintenance mode — see accompanying
+      signal). Organizers design a badge campaign on galxe.com; attendees claim
+      it for free (gasless) by email or QR code.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/planning-web3-events.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-13f3c98bb4d6
+    source_lineage: planning-web3-events.md
+  greenpill-network-60d88800:
+    title: Greenpill Network
+    type: resource
+    resource_type: org
+    url: https://greenpill.network/
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: common-pitfalls.md
+    related_concepts:
+      - local-node
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-pitfalls.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-143cd63d37c3
+    source_lineage: common-pitfalls.md
+    notes: >-
+      Global regen network with 12 active local chapters as of mid-2026 (per
+      article); also publishes a Local Regen Guide PDF
+      (greenpill.network/pdf/local-regen-guide.pdf).
+  deepdao:
+    title: DeepDAO
+    type: resource
+    url: https://deepdao.io
+    resource_type: dataset
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - flat-vs-hierarchical-organization
+    is_source_system_candidate: true
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/daos-vs-traditional.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Cited in the article's references as the source for DAO statistics and
+      landscape data (used to ground the "over 215 DAOs / $9.5B / ~500,000
+      active members" figure). Flagged as a possible source-system candidate (a
+      living analytics database) but not built out into a full source-system
+      card here — no steward/return_path detail is given in this article.
+    work_order: wo-15f037f070f8
+    source_lineage: daos-vs-traditional.md
+  tri-ethnic-center-community-readiness-model-assessment-manuals:
+    title: Tri-Ethnic Center Community Readiness Model (assessment manuals)
+    type: resource
+    resource_type: assessment-framework
+    url: https://tec.colostate.edu/communityreadiness/
+    link_status: active
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    notes: >-
+      The nine-stage Community Readiness Model and its assessment manuals,
+      developed by the Tri-Ethnic Center for Prevention Research at Colorado
+      State University, cited in is-community-ready.md as the framework
+      underlying its launch-readiness guidance.
+    related_concepts:
+      - community-readiness-model-nine-stage-readiness-assessment
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/is-community-ready.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-18f3652d0e28
+    source_lineage: is-community-ready.md
+  sarafu-grassroots-economics:
+    title: Sarafu (Grassroots Economics)
+    type: resource
+    resource_type: org
+    url: https://www.grassrootseconomics.org/
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: common-concerns.md
+    related_concepts:
+      - low-cost-mobile-community-currency
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-concerns.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-1fd434ce7666
+    source_lineage: common-concerns.md
+    notes: >-
+      Kenyan community currency run by nonprofit Grassroots Economics;
+      USSD/basic-phone access, no smartphone or bank account required; reports
+      26,000+ people across ~290 communities (per article, as of source date).
+  silvi-protocol:
+    title: Silvi Protocol
+    type: resource
+    resource_type: tool
+    url: https://www.silvi.earth/about-us
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: common-concerns.md
+    related_concepts:
+      - MRV-verified-restoration
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-concerns.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-1fd434ce7666
+    source_lineage: common-concerns.md
+    notes: >-
+      Pays people to plant/steward trees; records GPS coordinates and photos per
+      tree so claims can be independently checked rather than taken on faith
+      (MRV-style verification pattern). This is an ecological/carbon-adjacent
+      claim — see assessed-but-excluded note on the encyclopedia-entry object;
+      not elevated to high_risk here since the article does not itself assert a
+      specific carbon quantity, only the verification method.
+  sarafu-network-grassroots-economics:
+    title: Sarafu Network (Grassroots Economics)
+    type: resource
+    resource_type: org
+    url: https://www.grassrootseconomics.org/sarafu-network
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-cryptocurrency.md
+    related_concepts:
+      - community-currencies
+      - cryptocurrency-blockchain-decentralisation
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-cryptocurrency.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-cryptocurrency.md
+    notes: >-
+      Kenyan community currency reported (as of early 2026, per article) to
+      support roughly 26,000 people across ~290 communities, running on the
+      low-energy Celo blockchain; same project already ingested from
+      common-concerns.md as "Sarafu (Grassroots Economics)" — duplication across
+      source articles is expected at ingest time and left for the review/dedupe
+      layer.
+    work_order: wo-21b470d1f9f4
+  regen-network-28bbb052:
+    title: Regen Network
+    type: resource
+    resource_type: org
+    url: https://www.regen.network/
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-cryptocurrency.md
+    related_concepts:
+      - ecological-credits
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-cryptocurrency.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-cryptocurrency.md
+    notes: >-
+      Lets land stewards register regenerative projects and issue ecological
+      credits for measured outcomes (e.g. soil carbon), sold to buyers directly
+      per the article; flagged as a source-system candidate for a future
+      register-source pass since it's a living registry/marketplace.
+    work_order: wo-21b470d1f9f4
+  glo-dollar:
+    title: Glo Dollar
+    type: resource
+    resource_type: tool
+    url: https://www.glodollar.org/articles/how-glo-dollar-works
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-cryptocurrency.md
+    related_concepts:
+      - donation-funded-stablecoins
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-cryptocurrency.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-cryptocurrency.md
+    notes: >-
+      A nonprofit digital dollar whose cash/US-government-bond reserve interest
+      is donated to charities the holder chooses; the article names GiveDirectly
+      as a major recipient.
+    work_order: wo-21b470d1f9f4
+  axie-infinity:
+    title: Axie Infinity
+    type: resource
+    url: https://axieinfinity.com
+    resource_type: play-to-earn game / NFT-based virtual economy
+    notes: >-
+      Cited in the article's Gaming and Virtual Economies section as an example
+      of NFT-based in-game asset ownership and play-to-earn mechanics.
+    related_concepts:
+      - nft-as-verifiable-ownership-record
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/nfts-beyond-art.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-22368f102589
+    source_lineage: nfts-beyond-art.md
+  ibm-food-trust:
+    title: IBM Food Trust
+    type: resource
+    url: https://www.ibm.com/blockchain/solutions/food-trust
+    resource_type: blockchain supply-chain / food-provenance tracking platform
+    notes: >-
+      Cited in the article's Supply Chains and Product Authenticity section as
+      an example of blockchain-based produce/food traceability from farm to
+      store — relevant to communities producing goods for export wanting to
+      prove ethical or fair-price production.
+    related_concepts:
+      - nft-as-verifiable-ownership-record
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/nfts-beyond-art.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-22368f102589
+    source_lineage: nfts-beyond-art.md
+  leadership-on-the-line-heifetz-linsky:
+    title: Leadership on the Line (Heifetz & Linsky)
+    type: resource
+    resource_type: reference-work
+    is_source_system_candidate: false
+    toolkit_route: Layer 2 (Knowledge Commons) / leadership-development references
+    link_status: unresolved
+    related_concepts:
+      - Distributed Leadership
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/leadership-development.md
+      transformation: quoted
+      authorship: ai-assisted
+    notes: >-
+      Full citation: Heifetz, Ronald, and Marty Linsky. "Leadership on the Line:
+      Staying Alive Through the Dangers of Leading." Harvard Business Review
+      Press, 2002. Listed in the article's references alongside Stone & Patton's
+      "Difficult Conversations" (Penguin, 2000), ICA:UK's "Facilitative
+      Leadership" (ica-uk.co.uk), and Greenpill Local's "Distributed Leadership
+      in Practice" (greenpill.live) — those three are noted here rather than
+      split into separate objects (see assessed-but-excluded on the
+      encyclopedia-entry candidate).
+    work_order: wo-2e536fd73e7a
+    source_lineage: leadership-development.md
+  gitbook-change-requests:
+    title: GitBook (change requests)
+    type: resource
+    url: https://gitbook.com/docs/collaboration/change-requests
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - claim-evidence-discipline
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/editorial-workflow.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Recommended as a pull-request-equivalent review container for
+      non-technical reviewers: its "change request" workflow gives a visual
+      review link so a program lead or legal reviewer can approve without
+      touching Git.
+    work_order: wo-379fb55cc1a6
+    source_lineage: editorial-workflow.md
+  vale-prose-linter:
+    title: Vale (prose linter)
+    type: resource
+    url: https://vale.sh/docs
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - claim-evidence-discipline
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/editorial-workflow.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Open-source prose linter recommended as a GitHub Action: checks every pull
+      request against style rules (banned hype words, heading conventions,
+      terminology) and posts inline comments before a human reviews, so human
+      review time goes to accuracy rather than nitpicks.
+    work_order: wo-379fb55cc1a6
+    source_lineage: editorial-workflow.md
+  bip39-specification-bitcoin-improvement-proposals:
+    title: BIP39 Specification (Bitcoin Improvement Proposals)
+    type: resource
+    url: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+    resource_type: standard/specification
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - seed-phrase-bip39-hd-derivation
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/seed-phrases.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      The original standard defining the 2,048-word list and how seed phrases
+      are generated; cited in the article's References section.
+    work_order: wo-38c3e2b4e44f
+    source_lineage: seed-phrases.md
+  safe-safe-global:
+    title: Safe (safe.global)
+    type: resource
+    url: https://safe.global/
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - seed-phrase-bip39-hd-derivation
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/seed-phrases.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      The widely used multisig smart wallet (e.g. 3-of-5 signer approval)
+      recommended in the article as the group-treasury alternative to a single
+      person holding one seed phrase.
+    work_order: wo-38c3e2b4e44f
+    source_lineage: seed-phrases.md
+  metamask-support-restoring-and-understanding-a-secret-recovery-phrase:
+    title: 'MetaMask Support: Restoring and Understanding a Secret Recovery Phrase'
+    type: resource
+    url: >-
+      https://support.metamask.io/start/learn/what-is-a-secret-recovery-phrase-and-how-to-keep-your-crypto-wallet-secure/
+    resource_type: documentation
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - seed-phrase-bip39-hd-derivation
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/seed-phrases.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Combines the article's two cited MetaMask support links: the step-by-step
+      restore guide and the plain explanation of why the phrase matters and how
+      to keep it secure.
+    work_order: wo-38c3e2b4e44f
+    source_lineage: seed-phrases.md
+  localcoinswap:
+    title: LocalCoinSwap
+    type: resource
+    resource_type: p2p-exchange
+    url: https://localcoinswap.com/
+    link_status: active
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    notes: >-
+      Non-custodial peer-to-peer crypto marketplace operating in 190+ countries
+      with roughly a 1% fee, named in how-to-get-crypto.md as a 2026-current
+      working P2P option (superseding the now-defunct Paxful).
+    related_concepts:
+      - peer-to-peer-crypto-exchange-with-escrow
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/how-to-get-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3926c8735083
+    source_lineage: how-to-get-crypto.md
+  bisq:
+    title: Bisq
+    type: resource
+    resource_type: p2p-exchange
+    url: https://bisq.network/
+    link_status: active
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    notes: >-
+      Open-source, non-custodial desktop peer-to-peer exchange with no sign-up
+      and no company holding funds, named in how-to-get-crypto.md as the
+      privacy-focused P2P option.
+    related_concepts:
+      - peer-to-peer-crypto-exchange-with-escrow
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/how-to-get-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3926c8735083
+    source_lineage: how-to-get-crypto.md
+  safe:
+    title: Safe
+    type: resource
+    resource_type: tool
+    url: https://safe.global
+    link_status: active
+    original_source: src/content/docs/funding-your-node.md (References)
+    notes: >-
+      Standard multisig wallet for shared, no-single-point-of-control community
+      treasuries, per the article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  open-collective:
+    title: Open Collective
+    type: resource
+    resource_type: fiscal-hosting-platform
+    url: https://opencollective.com/fiscal-hosting
+    link_status: active
+    original_source: src/content/docs/funding-your-node.md (References)
+    notes: >-
+      Fiscal-hosting platform; budget becomes a public ledger anyone can audit
+      in real time. Hosts like The Social Change Nest handle
+      accounting/compliance.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  gitcoin-grants:
+    title: Gitcoin Grants
+    type: resource
+    resource_type: funding-platform
+    url: https://grants.gitcoin.co/
+    link_status: active
+    original_source: src/content/docs/funding-your-node.md (References)
+    related_concepts:
+      - quadratic-funding
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  greenpill-network-7fea7496:
+    title: Greenpill Network
+    type: resource
+    resource_type: org
+    url: https://greenpill.network/
+    link_status: active
+    is_source_system_candidate: true
+    original_source: src/content/docs/funding-your-node.md (References)
+    notes: >-
+      Runs Greenpill-specific quadratic funding rounds for local chapters during
+      Gitcoin events, and mints hypercerts for each chapter; around a dozen
+      active chapters worldwide per the article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  refi-dao:
+    title: ReFi DAO
+    type: resource
+    resource_type: org
+    url: https://refidao.com/
+    link_status: active
+    is_source_system_candidate: true
+    original_source: src/content/docs/funding-your-node.md (References)
+    notes: >-
+      Regen coordination network; home of the Local Node program and
+      match-funding history (via Gitcoin and Giveth match pools) per the
+      article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  giveth-24afba7c:
+    title: Giveth
+    type: resource
+    resource_type: funding-platform
+    url: https://giveth.io/
+    link_status: active
+    original_source: src/content/docs/funding-your-node.md (References)
+    notes: >-
+      Zero-fee crypto donation platform with a GIVbacks rewards program (GIV
+      tokens to donors); used for match-funding pools per the article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  hypercerts:
+    title: Hypercerts
+    type: resource
+    resource_type: protocol
+    url: https://hypercerts.org/
+    link_status: active
+    original_source: src/content/docs/funding-your-node.md (References)
+    notes: >-
+      On-chain impact certificates for recording and retroactively funding
+      regenerative work; minted by Greenpill for its chapters per the article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  gitcoin-grants-tips-for-grant-success:
+    title: Gitcoin Grants (tips for grant success)
+    type: resource
+    url: >-
+      https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants/tips-for-grant-success
+    resource_type: docs
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - quadratic-funding
+    is_source_system_candidate: true
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/writing-grant-proposals.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Source of the article's core proposal-writing advice: lead with a TL;DR
+      including how you'll spend the money, list team qualifications, show
+      you're iterating, and give supporters time to set up wallets.
+    work_order: wo-44ab6b54437e
+    source_lineage: writing-grant-proposals.md
+  poap-proof-of-attendance-protocol:
+    title: POAP (Proof of Attendance Protocol)
+    type: resource
+    url: https://poap.xyz/
+    resource_type: attendance-badge NFT protocol
+    link_status: active
+    notes: >-
+      Cited in the article as a way to make a newcomer's first event a "small
+      gift, not a test" — a free collectible NFT minted to attendees, issued on
+      Gnosis Chain so both organizers and attendees pay nothing. Distributed via
+      QR code at the event.
+    related_concepts:
+      - onboarding-as-trellis-not-funnel
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/onboarding-members.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4d064e9381ba
+    source_lineage: onboarding-members.md
+  l2beat:
+    title: L2Beat
+    type: resource
+    url: https://l2beat.com/
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - blockchain-trilemma
+    is_source_system_candidate: true
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/which-chain-right.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Cited as a Layer 2 comparison and risk-assessment tool in the article's
+      References.
+    work_order: wo-4ec86c6928f5
+    source_lineage: which-chain-right.md
+  etherscan:
+    title: Etherscan
+    type: resource
+    url: https://etherscan.io
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - smart-contract-nick-szabo-ethereum
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/smart-contracts-explained.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in "Try This" Exercise 1 as the place to look up a real deployed
+      contract (e.g. Uniswap or OpenSea) and see its layout/functions.
+    work_order: wo-55ad5dfd3ee1
+    source_lineage: smart-contracts-explained.md
+  metamask-test-network:
+    title: MetaMask (test network)
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - smart-contract-nick-szabo-ethereum
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/smart-contracts-explained.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in "Try This" Exercise 3 as a browser wallet to switch to a test
+      network and experiment with transactions using free fake currency, no real
+      money required.
+    work_order: wo-55ad5dfd3ee1
+    source_lineage: smart-contracts-explained.md
+  chainlink-what-is-a-blockchain-oracle:
+    title: 'Chainlink: What Is a Blockchain Oracle?'
+    type: resource
+    url: https://chain.link
+    resource_type: documentation
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - blockchain-oracle
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/smart-contracts-explained.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: Cited in the article's References list for the oracle concept.
+    work_order: wo-55ad5dfd3ee1
+    source_lineage: smart-contracts-explained.md
+  argent:
+    title: Argent
+    type: resource
+    resource_type: tool
+    url: https://www.argent.xyz
+    is_source_system_candidate: false
+    toolkit_route: Layer 6 (Deployment) / wallet tooling
+    link_status: active
+    related_concepts:
+      - Multisig (multi-signature wallet)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/multisig-setup.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Mobile-focused wallet with social recovery built in (a trusted guardian
+      can help recover access instead of requiring a multisig threshold).
+      Article frames social recovery and multisig as addressing different
+      problems: simpler/more flexible for individual wallets, but multisig
+      "remains the better choice" for community treasuries needing ongoing,
+      legitimate multi-person access.
+    work_order: wo-56e6a89fcec1
+    source_lineage: multisig-setup.md
+  gitcoin-grants-2bdf544a:
+    title: Gitcoin Grants
+    type: resource
+    resource_type: funding-platform
+    original_source: src/content/docs/finding-support-mentorship.md
+    notes: >-
+      Listed under "Funding Support" as an organization that funds community
+      projects; no URL given in this article (see funding-gatherings.md and
+      funding-your-node.md for fuller treatment with URLs).
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/finding-support-mentorship.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-573da6e89a75
+    source_lineage: finding-support-mentorship.md
+  giveth-2b45c521:
+    title: Giveth
+    type: resource
+    resource_type: funding-platform
+    original_source: src/content/docs/finding-support-mentorship.md
+    notes: >-
+      Listed under "Funding Support" as an organization that funds community
+      projects; no URL given in this article (see giveth-donations.md for full
+      treatment with URLs and mechanics).
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/finding-support-mentorship.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-573da6e89a75
+    source_lineage: finding-support-mentorship.md
+  snapshot-snapshot-org-bdca5890:
+    title: Snapshot (snapshot.org)
+    type: resource
+    url: https://snapshot.org
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - dao
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-regens-interested.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Gasless DAO voting tool; article cites "over 7,500 groups now use it"
+      (daotimes.com/snapshot-dao-tool-report-for-2025/) and recommends browsing
+      real groups' live votes with no account or wallet as the "Start here"
+      exercise.
+    work_order: wo-5a1fc08b1b6f
+    source_lineage: why-regens-interested.md
+  regen-network-95d7e76e:
+    title: Regen Network
+    type: resource
+    url: https://www.regen.network/
+    resource_type: on-chain ecological-credit registry and marketplace
+    link_status: active
+    notes: >-
+      Cited as the article's example of "an on-chain registry for ecological
+      credits" — verified outcomes (carbon stored, grassland restored) become
+      "ecocredits" that buyers purchase and permanently retire, with proof
+      recorded openly rather than in a private spreadsheet.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/refi-vs-defi-tradfi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-5db1fb2f799c
+    source_lineage: refi-vs-defi-tradfi.md
+  gitcoin:
+    title: Gitcoin
+    type: resource
+    url: https://www.gitcoin.co/
+    resource_type: quadratic-funding public-goods platform
+    link_status: active
+    notes: >-
+      Cited as the article's example of "community-directed funding" via
+      quadratic funding, a matching system where many small donations count for
+      far more than a few large ones. Article states Gitcoin has channelled
+      "over $67 million to more than 5,000 public-good projects" this way.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/refi-vs-defi-tradfi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-5db1fb2f799c
+    source_lineage: refi-vs-defi-tradfi.md
+  mento-celo-local-currency-stablecoins:
+    title: Mento (Celo local-currency stablecoins)
+    type: resource
+    url: https://www.mento.org/
+    resource_type: protocol
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - subsidiarity
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-local-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Issues local-currency stablecoins on Celo (a mobile-first Ethereum Layer
+      2), including cKES (Kenya), cREAL (Brazil), cCOP (Colombia), and PUSO
+      (Philippines) — cited as a "borrow rather than build" tool for community
+      currency.
+    work_order: wo-5e5d4bf53655
+    source_lineage: why-local-matters.md
+  the-giving-block-424e924a:
+    title: The Giving Block
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: crypto-donation-platforms.md
+    related_concepts:
+      - crypto-donation-platform
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/crypto-donation-platforms.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-620c0c65c46f
+    source_lineage: crypto-donation-platforms.md
+    notes: >-
+      Described as one of the largest crypto-donation platforms, used by many
+      major nonprofits, offering a suite of tools beyond just accepting
+      donations. No URL given in source article; link_status left unresolved.
+  infinite-giving:
+    title: Infinite Giving
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: crypto-donation-platforms.md
+    related_concepts:
+      - crypto-donation-platform
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/crypto-donation-platforms.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-620c0c65c46f
+    source_lineage: crypto-donation-platforms.md
+    notes: >-
+      Described as designed specifically for nonprofits, focused on ease of use,
+      good for smaller orgs just starting out; also referenced (with sourced
+      messaging quote) in the sibling communicating-stakeholders.md article. No
+      URL given in this source article; link_status left unresolved.
+  ens-dao:
+    title: ENS DAO
+    type: resource
+    url: https://docs.ens.domains
+    resource_type: org
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - token-weighted-voting
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-governance-models.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Cited as the article's example of token-weighted voting, managing Ethereum
+      Name Service decisions.
+    work_order: wo-687e48ae4084
+    source_lineage: dao-governance-models.md
+  safedao:
+    title: SafeDAO
+    type: resource
+    url: https://safe.global
+    resource_type: org
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - multi-signature-governance
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-governance-models.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Cited as the article's example of multi-signature governance, coordinating
+      treasury management and protocol upgrades.
+    work_order: wo-687e48ae4084
+    source_lineage: dao-governance-models.md
+  giveth-conviction-voting-pioneer:
+    title: Giveth (conviction voting pioneer)
+    type: resource
+    resource_type: org
+    url: https://giveth.io
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: voting-mechanisms.md
+    related_concepts:
+      - conviction-voting
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/voting-mechanisms.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: voting-mechanisms.md
+    work_order: wo-6947fa3633d1
+  snapshot-gasless-off-chain-dao-voting:
+    title: Snapshot (gasless off-chain DAO voting)
+    type: resource
+    resource_type: tool
+    url: https://snapshot.org
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: voting-mechanisms.md
+    related_concepts:
+      - off-chain-voting
+      - dao-voting-mechanisms
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/voting-mechanisms.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: voting-mechanisms.md
+    notes: >-
+      Supports yes/no, approval, quadratic, and ranked-choice voting per the
+      article; its limitation is noted as double-voting risk since signatures
+      aren't submitted directly to the blockchain.
+    work_order: wo-6947fa3633d1
+  moloch-dao-quorum-voting-reference-implementation:
+    title: Moloch DAO (quorum voting reference implementation)
+    type: resource
+    resource_type: repo
+    url: https://github.com/MolochVentures/moloch
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: voting-mechanisms.md
+    related_concepts:
+      - token-based-quorum-voting
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/voting-mechanisms.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: voting-mechanisms.md
+    work_order: wo-6947fa3633d1
+  obsidian-64b6552d:
+    title: Obsidian
+    type: resource
+    resource_type: tool
+    url: https://obsidian.md/
+    is_source_system_candidate: false
+    toolkit_route: Layer 2 (Knowledge Commons) tooling
+    link_status: active
+    related_concepts:
+      - Digital Garden (seedling / budding / evergreen)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-gardens.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Free desktop app that edits a folder of local markdown files; gives
+      wikilinks, backlinks, and a graph view with no account required. Paid
+      Obsidian Publish ($8/mo annual, $10/mo month-to-month) turns a vault into
+      a hosted site.
+    work_order: wo-69cdee6ddcfe
+    source_lineage: knowledge-gardens.md
+  quartz-ef8d9d94:
+    title: Quartz
+    type: resource
+    resource_type: tool
+    url: https://quartz.jzhao.xyz/
+    is_source_system_candidate: false
+    toolkit_route: Layer 2 (Knowledge Commons) tooling
+    link_status: active
+    related_concepts:
+      - Digital Garden (seedling / budding / evergreen)
+    related_resources:
+      - Obsidian
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-gardens.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Free, open-source (MIT), currently v4, static-site generator built for
+      Obsidian vaults — carries wikilinks, backlinks, graph, and full-text
+      search to a published site. SuperBenefit ran Obsidian+Quartz before
+      migrating to a custom Astro build.
+    work_order: wo-69cdee6ddcfe
+    source_lineage: knowledge-gardens.md
+  gravitydao-9122d41c:
+    title: GravityDAO
+    type: resource
+    resource_type: org
+    url: https://gravitydao.org/conflict-management/
+    is_source_system_candidate: false
+    toolkit_route: Layer 9 (Evolution) / community stewardship
+    link_status: active
+    related_concepts:
+      - Digital Garden (seedling / budding / evergreen)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-gardens.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Provides conflict management and trust-building for DAOs; cited in the
+      article as an example of communities treating a commons' soft
+      infrastructure (shared meaning, maintained agreements, surfaced tension)
+      as active-care work, analogous to garden tending.
+    work_order: wo-69cdee6ddcfe
+    source_lineage: knowledge-gardens.md
+  gitcoin-passport:
+    title: Gitcoin Passport
+    type: resource
+    resource_type: tool
+    url: https://passport.gitcoin.co
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: credentials-certifications.md
+    related_concepts:
+      - sybil-resistance
+      - verifiable-credentials
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/credentials-certifications.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-77d9f87bf031
+    source_lineage: credentials-certifications.md
+    notes: >-
+      Aggregates web3 activity/verifications ("stamps") into a score used by
+      grants programs and DAOs to confirm a real, active participant rather than
+      a bot/sybil; used to weight Gitcoin Grants quadratic-funding matching.
+  disco-xyz:
+    title: Disco.xyz
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: credentials-certifications.md
+    related_concepts:
+      - portable-web3-identity
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/credentials-certifications.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-77d9f87bf031
+    source_lineage: credentials-certifications.md
+    notes: >-
+      Described as built specifically for managing and sharing web3 identity and
+      credentials in readable form ("a CV layer on top of your wallet"); no URL
+      given in source, link_status left unresolved pending verification.
+  every-org-crypto-donations:
+    title: Every.org (crypto donations)
+    type: resource
+    url: https://every.org/crypto
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - quadratic-funding
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-accept-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      The article's explicit "start here" recommendation — free, ~15 minutes to
+      set up, converts crypto donations to fiat automatically. Best for
+      organizations starting out or with smaller operations.
+    work_order: wo-7849165f5a17
+    source_lineage: why-accept-crypto.md
+  silvi-963a6920:
+    title: Silvi
+    type: resource
+    resource_type: platform
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - dmrv
+    is_source_system_candidate: true
+    link_status: unresolved
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-you-can-do-ethereum.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named as a program using dMRV to prove tree planting and pay for impact.
+      No URL given in the article itself; link_status set to "unresolved"
+      pending a human confirming the canonical Silvi Protocol URL (a
+      "silvi-protocol.md" article exists elsewhere in this site's open work
+      orders and may cover it in more depth).
+    work_order: wo-8ded39036549
+    source_lineage: what-you-can-do-ethereum.md
+  defillama-stablecoins-dashboard:
+    title: DefiLlama Stablecoins Dashboard
+    type: resource
+    url: https://defillama.com/stablecoins
+    resource_type: dataset/dashboard
+    is_source_system_candidate: true
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - stablecoin
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stablecoins.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Recommended in "Try This: Start here" as a live, no-money-required way to
+      see stablecoin sizes and peg stability; flagged is_source_system_candidate
+      since it is a continuously updated living data source, not a static
+      document.
+    work_order: wo-95e1e939f56d
+    source_lineage: stablecoins.md
+  glo-dollar-usdglo-18033758:
+    title: Glo Dollar (USDGLO)
+    type: resource
+    url: https://www.glodollar.org/
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - stablecoin
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stablecoins.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      A fiat-backed stablecoin that donates 100% of reserve profit to public
+      goods and anti-poverty charities (default recipient GiveDirectly per the
+      article); named as a concrete ReFi-aligned stablecoin example.
+    work_order: wo-95e1e939f56d
+    source_lineage: stablecoins.md
+  wyoming-duna:
+    title: Wyoming DUNA
+    type: resource
+    resource_type: legal-structure
+    is_source_system_candidate: false
+    toolkit_route: Layer 5 (Option Library) / legal structures
+    link_status: unresolved
+    related_concepts:
+      - Legal Wrapper
+    high_risk: true
+    maturity: raw
+    public_use: requires-domain-review
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/legal-structures.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Decentralized Unincorporated Nonprofit Association, effective July 1, 2024
+      — DAO-specific legal wrapper requiring 100+ members and meaningful
+      on-chain governance; Uniswap Foundation's DUNI (est. via governance vote,
+      2025) is named as a worked adopter example. Not a substitute for legal
+      counsel; see paired public-use-boundary object.
+    work_order: wo-9984e9183a81
+    source_lineage: legal-structures.md
+  etherscan-8a0936a8:
+    title: Etherscan
+    type: resource
+    url: https://etherscan.io
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - oracle
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-web3-can-cant-do.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Public block explorer recommended in the "Try This" exercise to see how
+      little privacy a public chain actually offers — any wallet or transaction
+      can be looked up.
+    work_order: wo-9cd1291b92b8
+    source_lineage: what-web3-can-cant-do.md
+  bankless-academy-foundations-of-decentralization:
+    title: Bankless Academy — Foundations of Decentralization
+    type: resource
+    resource_type: course
+    url: https://app.banklessacademy.com
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    related_concepts:
+      - centralization-decentralization-spectrum
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/centralized-vs-decentralized.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a42af3f6559f
+    source_lineage: centralized-vs-decentralized.md
+    notes: >-
+      Listed in the article's References as a source for its foundations-of-
+      decentralization framing; link_status set to unresolved since the exact
+      course URL/page was not independently verified for this ingestion.
+  gitcoin-be8d09e0:
+    title: Gitcoin
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - grassroots-web3-adoption-pattern
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stories-regens-leap.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named as one of the tools (funding) the illustrative "ReFi Africa" group
+      used to build its community from scratch.
+    work_order: wo-a657ed1dd5c3
+    source_lineage: stories-regens-leap.md
+  snapshot-6c130fc6:
+    title: Snapshot
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - grassroots-web3-adoption-pattern
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stories-regens-leap.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named as one of the tools (decisions/voting) the illustrative "ReFi
+      Africa" group used for governance.
+    work_order: wo-a657ed1dd5c3
+    source_lineage: stories-regens-leap.md
+  bankless-academy:
+    title: Bankless Academy
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: creating-buying-earning.md
+    related_concepts:
+      - learn-to-earn
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/creating-buying-earning.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a7cccf043614
+    source_lineage: creating-buying-earning.md
+    notes: >-
+      Cited as the source the whole guide draws from ("This guide draws from
+      Bankless Academy's educational resources") and as the learn-to-earn
+      platform giving collectible badges for completed lessons; no URL given in
+      the source article, link_status left unresolved pending verification.
+  loomio:
+    title: Loomio
+    type: resource
+    resource_type: decision-making-tool
+    link_status: unresolved
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    notes: >-
+      Named in is-dao-right.md's "A Note on Alternatives" as a simple voting
+      tool suitable for low-tech communities choosing a lighter-weight decision
+      process instead of a DAO.
+    related_concepts:
+      - dao-alternatives-cooperatives-sociocracy-lightweight-voting-tools
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/is-dao-right.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a93e50352107
+    source_lineage: is-dao-right.md
+  arbitrum:
+    title: Arbitrum
+    type: resource
+    resource_type: layer-2-network
+    original_source: src/content/docs/gas-fees.md
+    related_concepts:
+      - gas-fee-eip-1559-base-fee-plus-tip-model
+    notes: >-
+      Named as an example Layer 2 network for cheap, fast transactions; no URL
+      given in this article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gas-fees.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-ac0da2dd8891
+    source_lineage: gas-fees.md
+  optimism:
+    title: Optimism
+    type: resource
+    resource_type: layer-2-network
+    original_source: src/content/docs/gas-fees.md
+    related_concepts:
+      - gas-fee-eip-1559-base-fee-plus-tip-model
+    notes: >-
+      Named as an example Layer 2 network for cheap, fast transactions; no URL
+      given in this article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gas-fees.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-ac0da2dd8891
+    source_lineage: gas-fees.md
+  otter-ai:
+    title: Otter.ai
+    type: resource
+    resource_type: tool
+    url: https://otter.ai/pricing
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - retrieval-augmented-generation
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-community-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ae4676958221
+    source_lineage: ai-community-tools.md
+    notes: >-
+      Meeting transcription tool, named as the default place a small team should
+      start. Free tier: 300 transcription minutes/month, capped at 30 minutes
+      per conversation, with automated summaries and action items. Pro plan
+      ($8.33/month billed annually) lifts to 1,200 minutes. Article warns
+      transcription pricing changes often and to verify current limits before
+      committing.
+  google-notebooklm:
+    title: Google NotebookLM
+    type: resource
+    resource_type: tool
+    url: https://notebooklm.google/
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - retrieval-augmented-generation
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-community-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ae4676958221
+    source_lineage: ai-community-tools.md
+    notes: >-
+      Free with a Google account; load up to 50 sources on the free tier and ask
+      questions grounded in exactly those documents, with citations to the
+      passage. Article's recommended "find answers" leg of a starter stack: load
+      governance docs, past meeting summaries, and the founding agreement.
+  smart-connections-obsidian-plugin:
+    title: Smart Connections (Obsidian plugin)
+    type: resource
+    resource_type: tool
+    url: https://github.com/brianpetro/obsidian-smart-connections
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - retrieval-augmented-generation
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-community-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ae4676958221
+    source_lineage: ai-community-tools.md
+    notes: >-
+      Obsidian plugin that builds embeddings entirely on-device, enabling
+      semantic search and chat with a vault fully offline, with nothing sent to
+      the cloud. Article's recommended tool for teams whose commons holds
+      sensitive community data or that want the archive to outlive any one
+      company.
+  dune-analytics:
+    title: Dune Analytics
+    type: resource
+    resource_type: tool
+    url: https://dune.com
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: trust-transparency.md
+    related_concepts:
+      - transparency-paradox
+      - on-chain-analytics
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/trust-transparency.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: trust-transparency.md
+    notes: >-
+      On-chain analytics platform cited as the tool that enables the
+      transparency described in the article (detecting suspicious token
+      movements etc.); flagged as a source-system candidate since it's a living,
+      queryable data environment, not a static reference.
+    work_order: wo-b1b216c615be
+  w3c-decentralized-identifiers-did-standard:
+    title: W3C Decentralized Identifiers (DID) standard
+    type: resource
+    resource_type: standard
+    url: https://w3c.org/did
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: trust-transparency.md
+    related_concepts:
+      - decentralized-identity
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/trust-transparency.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: trust-transparency.md
+    work_order: wo-b1b216c615be
+  github-codeowners:
+    title: GitHub CODEOWNERS
+    type: resource
+    url: https://docs.github.com/articles/about-code-owners
+    resource_type: documentation
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - stewardship-knowledge-commons
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stewardship-roles.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described as turning the Editor role into a merge rule: a CODEOWNERS file
+      auto-requests the right reviewer when someone opens a PR touching their
+      owned paths.
+    work_order: wo-b33d0b2dd044
+    source_lineage: stewardship-roles.md
+  all-contributors:
+    title: all-contributors
+    type: resource
+    url: https://github.com/all-contributors/all-contributors
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - stewardship-knowledge-commons
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stewardship-roles.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      A bot + specification for recognizing non-code contributions (docs,
+      review, mentoring, event organizing) via a comment command that updates
+      the repo README's contributor list.
+    work_order: wo-b33d0b2dd044
+    source_lineage: stewardship-roles.md
+  gravity-dao:
+    title: Gravity DAO
+    type: resource
+    url: https://gravitydao.org/
+    resource_type: org
+    is_source_system_candidate: true
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - stewardship-knowledge-commons
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stewardship-roles.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      A conflict-management collective from the Token Engineering Commons, cited
+      as the model for the Facilitator role — treats disagreement as
+      "transformational opportunities" toward good-faith compromise.
+    work_order: wo-b33d0b2dd044
+    source_lineage: stewardship-roles.md
+  protocol-guild:
+    title: Protocol Guild
+    type: resource
+    url: https://protocol-guild.readthedocs.io/en/latest/01-membership.html
+    resource_type: org
+    is_source_system_candidate: true
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - stewardship-knowledge-commons
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stewardship-roles.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Onchain registry funding 180+ Ethereum core maintainers across 29 teams,
+      cited as an example of keeping funding strictly separate from protocol
+      decision power (so getting paid never buys a vote).
+    work_order: wo-b33d0b2dd044
+    source_lineage: stewardship-roles.md
+  wikimedia-stewards:
+    title: Wikimedia Stewards
+    type: resource
+    url: https://meta.wikimedia.org/wiki/Stewards
+    resource_type: org
+    is_source_system_candidate: true
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - stewardship-knowledge-commons
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stewardship-roles.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Globally elected Wikimedia role, deliberately barred from using its powers
+      on wikis where the steward is an active local editor — cited as a
+      real-world example of keeping stewardship about the commons rather than
+      home-turf power.
+    work_order: wo-b33d0b2dd044
+    source_lineage: stewardship-roles.md
+  refi-dao-local-nodes-directory:
+    title: ReFi DAO Local Nodes directory
+    type: resource
+    resource_type: directory
+    url: https://refidao.com/local-nodes
+    link_status: active
+    is_source_system_candidate: true
+    original_source: src/content/docs/find-your-community.md (References)
+    related_concepts:
+      - regenerative-finance-refi
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/find-your-community.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4b5ea30ae6f
+    source_lineage: find-your-community.md
+  greenpill-network-f857cfd7:
+    title: Greenpill Network
+    type: resource
+    resource_type: org
+    url: https://greenpill.network
+    link_status: active
+    is_source_system_candidate: true
+    original_source: src/content/docs/find-your-community.md (References)
+    related_concepts:
+      - regenerative-finance-refi
+    notes: >-
+      Runs local chapters and the Greenpill podcast (hosted by Kevin Owocki,
+      Gitcoin co-founder); article names roughly a dozen active chapters as of
+      mid-2026 including Cape Town, Nairobi, Taipei, Rio de Janeiro, NYC, and
+      London Ontario.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/find-your-community.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b4b5ea30ae6f
+    source_lineage: find-your-community.md
+  ethereum:
+    title: Ethereum
+    type: resource
+    resource_type: platform
+    url: https://ethereum.org
+    link_status: active
+    original_source: src/content/docs/ethereum-ecosystem.md (References)
+    related_concepts:
+      - decentralized-finance-defi
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  metamask-56c674be:
+    title: MetaMask
+    type: resource
+    resource_type: tool
+    url: https://metamask.io
+    link_status: active
+    original_source: src/content/docs/ethereum-ecosystem.md (References)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  uniswap:
+    title: Uniswap
+    type: resource
+    resource_type: tool
+    url: https://app.uniswap.org
+    link_status: active
+    original_source: src/content/docs/ethereum-ecosystem.md (References)
+    related_concepts:
+      - decentralized-finance-defi
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  aave:
+    title: Aave
+    type: resource
+    resource_type: tool
+    url: https://aave.com
+    link_status: active
+    original_source: src/content/docs/ethereum-ecosystem.md (References)
+    related_concepts:
+      - decentralized-finance-defi
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  base:
+    title: Base
+    type: resource
+    resource_type: layer-2-network
+    url: https://base.org
+    link_status: active
+    original_source: src/content/docs/ethereum-ecosystem.md (References)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  opensea:
+    title: OpenSea
+    type: resource
+    resource_type: tool
+    url: https://opensea.io
+    link_status: active
+    original_source: src/content/docs/ethereum-ecosystem.md (References)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  etherscan-436f5e90:
+    title: Etherscan
+    type: resource
+    resource_type: tool
+    url: https://etherscan.io
+    link_status: active
+    original_source: src/content/docs/ethereum-ecosystem.md (References)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  safe-formerly-gnosis-safe:
+    title: Safe (formerly Gnosis Safe)
+    type: resource
+    url: https://safe.global
+    resource_type: multi-signature wallet platform
+    link_status: active
+    notes: >-
+      Cited in the article as "the most widely adopted multi-sig wallet for DAOs
+      and organizations," offering role-based access control, transaction
+      limits/spending caps, time-locks on large transactions, and audit trails.
+      Same tool also cited in the sibling recovery-planning.md article in this
+      batch.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/security-best-practices-orgs.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b79788c6a798
+    source_lineage: security-best-practices-orgs.md
+  ithaca-hours:
+    title: Ithaca Hours
+    type: resource
+    resource_type: case-study
+    is_source_system_candidate: false
+    toolkit_route: Layer 5 (Option Library) / local-currency case studies
+    link_status: unresolved
+    related_concepts:
+      - Local / Community Currency
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-currency.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Longest-running time-based community currency (New York, USA; launched
+      1991). One Ithaca Hour equals one hour of labour — cited as the canonical
+      time-based-unit example.
+    work_order: wo-bb8c4077a9fb
+    source_lineage: local-currency.md
+  brixton-pound:
+    title: Brixton Pound
+    type: resource
+    resource_type: case-study
+    is_source_system_candidate: false
+    toolkit_route: Layer 5 (Option Library) / local-currency case studies
+    link_status: unresolved
+    related_concepts:
+      - Local / Community Currency
+    related_resources:
+      - Ithaca Hours
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-currency.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Local paper currency for Brixton, London, UK, with some later blockchain
+      adoption — cited as a value-based-unit example distinct from the
+      time-based Ithaca Hours.
+    work_order: wo-bb8c4077a9fb
+    source_lineage: local-currency.md
+  refi-dao-66d3eafe:
+    title: ReFi DAO
+    type: resource
+    resource_type: org
+    is_source_system_candidate: true
+    original_source: 'src/content/docs/examples-impact-daos.md (References: refidao.local)'
+    related_concepts:
+      - impact-dao
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/examples-impact-daos.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c562753ff84a
+    source_lineage: examples-impact-daos.md
+  greenpill-network-22bee54a:
+    title: Greenpill Network
+    type: resource
+    resource_type: org
+    url: https://greenpill.network
+    link_status: active
+    is_source_system_candidate: true
+    original_source: 'src/content/docs/examples-impact-daos.md (References: greenpill.network)'
+    related_concepts:
+      - impact-dao
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/examples-impact-daos.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c562753ff84a
+    source_lineage: examples-impact-daos.md
+  klima-dao:
+    title: Klima DAO
+    type: resource
+    resource_type: org
+    original_source: src/content/docs/examples-impact-daos.md
+    related_concepts:
+      - impact-dao
+    notes: >-
+      Bridges verified off-chain carbon credits onto the blockchain for trading;
+      no URL given in the source article's References list.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/examples-impact-daos.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c562753ff84a
+    source_lineage: examples-impact-daos.md
+  base-layer-2-network:
+    title: Base (Layer 2 network)
+    type: resource
+    resource_type: tool
+    url: https://base.org
+    is_source_system_candidate: false
+    toolkit_route: Layer 1 (Infrastructure & Substrate) / Ethereum scaling
+    link_status: active
+    related_concepts:
+      - Layer 2 (Ethereum scaling)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/layer-2s.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Optimistic Rollup built by Coinbase; launched 2023 and described in the
+      article as one of the friendliest L2 options for newcomers, compatible
+      with MetaMask/Uniswap and most existing Ethereum tools.
+    work_order: wo-c97e3164ddf7
+    source_lineage: layer-2s.md
+  arbitrum-c6791899:
+    title: Arbitrum
+    type: resource
+    resource_type: tool
+    url: https://arbitrum.io
+    is_source_system_candidate: false
+    toolkit_route: Layer 1 (Infrastructure & Substrate) / Ethereum scaling
+    link_status: active
+    related_concepts:
+      - Layer 2 (Ethereum scaling)
+    related_resources:
+      - Base (Layer 2 network)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/layer-2s.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Optimistic Rollup, one of the article's two named "main examples" of
+      Optimistic Rollups (with Base); also named as an ecosystem that funds
+      public goods via grants/retroactive funding.
+    work_order: wo-c97e3164ddf7
+    source_lineage: layer-2s.md
+  l2beat-b9e49491:
+    title: L2BEAT
+    type: resource
+    resource_type: tool
+    url: https://l2beat.com
+    is_source_system_candidate: true
+    toolkit_route: Layer 1 (Infrastructure & Substrate) / due-diligence tooling
+    link_status: active
+    related_concepts:
+      - Layer 2 (Ethereum scaling)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/layer-2s.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Independent site tracking Layer 2 stats and risk assessments, cited in the
+      article's references for doing due diligence on newer/less established L2
+      networks. Flagged is_source_system_candidate: true — it is a maintained,
+      living data resource, not a static link; a future ingest pass could
+      register it as a full source-system card.
+    work_order: wo-c97e3164ddf7
+    source_lineage: layer-2s.md
+  metamask-ee8aea83:
+    title: MetaMask
+    type: resource
+    url: https://metamask.io
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - self-custody
+      - non-custodial-wallet
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/custodial-vs-noncustodial.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in the article as a well-known non-custodial wallet; described as
+      generating the seed phrase on-device and signing transactions locally
+      without exposing the private key to the internet.
+    work_order: wo-ce41b10364c7
+    source_lineage: custodial-vs-noncustodial.md
+  ledger-hardware-wallet:
+    title: Ledger (hardware wallet)
+    type: resource
+    url: https://www.ledger.com
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - self-custody
+      - non-custodial-wallet
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/custodial-vs-noncustodial.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named alongside Trezor as a hardware wallet offering an additional
+      security layer by storing private keys offline; article recommends this
+      for holding significant value.
+    work_order: wo-ce41b10364c7
+    source_lineage: custodial-vs-noncustodial.md
+  snapshot-7ada9f22:
+    title: Snapshot
+    type: resource
+    resource_type: tool
+    url: https://snapshot.org
+    is_source_system_candidate: false
+    toolkit_route: Layer 6 (Deployment) / governance tooling
+    link_status: active
+    related_concepts:
+      - DAO (Decentralized Autonomous Organization) vs. Local Node
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-nodes-and-daos.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Free, gasless, off-chain voting platform; article states 35,000+
+      communities use it, with a November 2025 "Spaces 2.0" release adding
+      custom domains (e.g. vote.yournode.eth). For onchain/binding votes, the
+      article points to Snapshot X (Starknet) as the live path after Tally's
+      March 2026 wind-down — see the paired claim-evidence object.
+    work_order: wo-cf4d99f9b04c
+    source_lineage: local-nodes-and-daos.md
+  hats-protocol:
+    title: Hats Protocol
+    type: resource
+    resource_type: tool
+    url: https://www.hatsprotocol.xyz/
+    is_source_system_candidate: false
+    toolkit_route: Layer 6 (Deployment) / roles-and-permissions tooling
+    link_status: active
+    related_concepts:
+      - DAO (Decentralized Autonomous Organization) vs. Local Node
+    related_resources:
+      - Snapshot
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-nodes-and-daos.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Turns each responsibility (treasury signer, onboarding lead, events
+      coordinator) into an onchain "hat" (ERC-1155 token) so permissions follow
+      the role rather than the person; article states it is trusted by 50+ DAOs.
+      Recommended only once "who is allowed to do what" is a real source of
+      confusion, not pre-emptively.
+    work_order: wo-cf4d99f9b04c
+    source_lineage: local-nodes-and-daos.md
+  cryptosteel-metal-seed-phrase-storage:
+    title: Cryptosteel (metal seed-phrase storage)
+    type: resource
+    resource_type: hardware-accessory
+    url: https://cryptosteel.com
+    link_status: unresolved
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    notes: >-
+      A metal seed-phrase storage product mentioned in hot-vs-cold.md as
+      protection for a wallet's recovery seed phrase against fire and water
+      damage, as an alternative/complement to paper backups.
+    related_concepts:
+      - layered-custody-hot-cold-multisig-by-purpose
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/hot-vs-cold.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d415241a023a
+    source_lineage: hot-vs-cold.md
+  cryptocurrency-security-standards-ccss:
+    title: Cryptocurrency Security Standards (CCSS)
+    type: resource
+    resource_type: standard
+    url: https://cryptocurrencysecuritystandard.org
+    link_status: unresolved
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    notes: >-
+      Referenced in hot-vs-cold.md's References as a place for deeper security
+      practices beyond the article's introductory hot/cold framing.
+    related_concepts:
+      - layered-custody-hot-cold-multisig-by-purpose
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/hot-vs-cold.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d415241a023a
+    source_lineage: hot-vs-cold.md
+  read-the-docs-deprecating-content-guide:
+    title: Read the Docs — deprecating content guide
+    type: resource
+    resource_type: article
+    url: >-
+      https://docs.readthedocs.com/platform/stable/guides/deprecating-content.html
+    is_source_system_candidate: false
+    toolkit_route: layer-9-evolution
+    link_status: active
+    related_concepts:
+      - archive-compost-deprecate-remove
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/archive-compost.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d6e9e6e15257
+    source_lineage: archive-compost.md
+    notes: >-
+      Documentation-hosting platform's guide recommending a warning banner atop
+      a stale page rather than pulling it — deleting "will break existing links,
+      and you don't necessary [sic] want to make the content inaccessible" —
+      and, when a page must be removed, creating redirects to replacement
+      content rather than letting links break.
+  grafana-writers-toolkit-deprecate-or-remove-content:
+    title: Grafana Writers' Toolkit — deprecate or remove content
+    type: resource
+    resource_type: article
+    url: https://grafana.com/docs/writers-toolkit/write/deprecate-remove/
+    is_source_system_candidate: false
+    toolkit_route: layer-9-evolution
+    link_status: active
+    related_concepts:
+      - archive-compost-deprecate-remove
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/archive-compost.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d6e9e6e15257
+    source_lineage: archive-compost.md
+    notes: >-
+      Draws a sharp line: deprecated means "planned for removal in a future
+      release," removed means "removed and no longer supported." Grafana
+      notifies users two minor releases in advance before anything disappears,
+      with a stock notice template ("Starting with [release], [feature] is
+      deprecated. It will be removed in a future release.").
+  quartz-072df0ca:
+    title: Quartz
+    type: resource
+    resource_type: tool
+    url: https://quartz.jzhao.xyz/
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - evergreen-notes-maturity-taxonomy
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/archive-compost.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d6e9e6e15257
+    source_lineage: archive-compost.md
+    notes: >-
+      Open-source static-site generator that turns an Obsidian or Markdown
+      folder into a published site. Article notes it lets teams carry a
+      publish/maturity flag in each note's frontmatter, so the growth state that
+      helps the writer also signals trust to readers.
+  mondragon-worker-cooperative-federation:
+    title: Mondragon Worker Cooperative Federation
+    type: resource
+    resource_type: org
+    url: https://www.mondragon-corporation.com/en
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: cooperative-commons.md
+    related_concepts:
+      - worker-cooperative
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/cooperative-commons.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d800b62ea134
+    source_lineage: cooperative-commons.md
+    notes: >-
+      Basque Country worker-cooperative federation spanning manufacturing,
+      retail, finance, and education; cited as the best-known large
+      worker-cooperative example, sustaining employment through economic cycles.
+  gravitydao-2c8bb93e:
+    title: GravityDAO
+    type: resource
+    url: https://gravitydao.org/
+    resource_type: org
+    toolkit_route: layer-2-encyclopedia
+    related_concepts:
+      - knowledge-commons
+    is_source_system_candidate: true
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-knowledge-commons.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Cited as the governance-half example: brings conflict management and trust
+      creation to DAOs via alternative dispute resolution rather than top-down
+      arbitration. Used in the article to make the point that a commons' hardest
+      maintenance problems are usually disagreements about what's true/settled,
+      not technical ones.
+    work_order: wo-d94f3822e08d
+    source_lineage: what-is-knowledge-commons.md
+  openzeppelin:
+    title: OpenZeppelin
+    type: resource
+    url: https://www.openzeppelin.com/
+    resource_type: library
+    is_source_system_candidate: false
+    link_status: active
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - erc-20-fungible-token-standard
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/token-standards.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Cited in the article's References as the widely used open-source
+      implementation library for ERC token standards.
+    work_order: wo-d9f74145465f
+    source_lineage: token-standards.md
+  opensea-b9410647:
+    title: OpenSea
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - erc-721-non-fungible-token-standard
+      - erc-1155-multi-token-standard
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/token-standards.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in "Try This" Exercise 3 as a marketplace to browse "Collections"
+      and see how ERC-721 NFTs and ERC-1155 multi-token assets are presented.
+    work_order: wo-d9f74145465f
+    source_lineage: token-standards.md
+  dublin-core:
+    title: Dublin Core
+    type: resource
+    resource_type: standard
+    url: https://www.dublincore.org/specifications/dublin-core/dces/
+    is_source_system_candidate: false
+    toolkit_route: Layer 2 (Knowledge Commons) / metadata standards
+    link_status: active
+    related_concepts:
+      - Type vs. Tag (metadata discipline)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/metadata-that-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Fifteen broad, generic metadata properties (Title, Creator, Date, Subject,
+      Description, Type, Source, Rights, and seven more) standardized
+      internationally as ISO 15836, maintained since the 1990s. Article
+      recommends borrowing its battle-tested field names (e.g. Creator, Subject)
+      rather than inventing new ones.
+    work_order: wo-db092c6eb4e9
+    source_lineage: metadata-that-matters.md
+  murmurations-protocol:
+    title: Murmurations Protocol
+    type: resource
+    resource_type: standard
+    url: https://docs.murmurations.network/guides/create-a-schema.html
+    is_source_system_candidate: true
+    toolkit_route: Layer 2 (Knowledge Commons) / metadata standards, federation
+    link_status: active
+    related_concepts:
+      - Type vs. Tag (metadata discipline)
+    related_resources:
+      - Dublin Core
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/metadata-that-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      A regen-adjacent network protocol maintaining a public field library of
+      pre-defined, reusable metadata fields (e.g. `longitude`, not `long`).
+      Cited as the example of why shared field names matter across a network of
+      communities — directly analogous to this toolkit's own federation
+      concerns. Flagged is_source_system_candidate: true — a future ingest pass
+      could register Murmurations as a full source-system peer (it maintains a
+      living, updatable field library, not a static document).
+    work_order: wo-db092c6eb4e9
+    source_lineage: metadata-that-matters.md
+  remark-lint-frontmatter-schema:
+    title: remark-lint-frontmatter-schema
+    type: resource
+    resource_type: tool
+    url: https://github.com/JulianCataldo/remark-lint-frontmatter-schema
+    is_source_system_candidate: false
+    toolkit_route: Layer 2 (Knowledge Commons) / metadata enforcement tooling
+    link_status: active
+    related_concepts:
+      - Type vs. Tag (metadata discipline)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/metadata-that-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Validates markdown frontmatter against a JSON Schema (types, required
+      fields, enums), with inline VS Code warnings and auto-fix suggestions —
+      recommended for plain-markdown repositories that are not using an
+      Astro/Zod content-collection setup.
+    work_order: wo-db092c6eb4e9
+    source_lineage: metadata-that-matters.md
+  superbenefit-knowledge-garden-anticapture-framework:
+    title: SuperBenefit Knowledge Garden — Anticapture Framework
+    type: resource
+    resource_type: framework
+    url: https://knowledge.superbenefit.org
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: tokens-coordination-tools.md
+    related_concepts:
+      - anticapture-governance-design
+      - token-based-coordination-mechanisms
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tokens-coordination-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: tokens-coordination-tools.md
+    notes: >-
+      A governance framework focused on resisting concentration of power
+      (distributing authority rather than replacing one central power with
+      another); flagged as a source-system candidate because it's a living
+      knowledge garden, not a static document — a future ingestion pass should
+      register it properly via skills/register-source with a return_path.
+    work_order: wo-dc7ddba72524
+  snapshot-off-chain-dao-voting-platform:
+    title: Snapshot (off-chain DAO voting platform)
+    type: resource
+    resource_type: tool
+    url: https://snapshot.org
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: tokens-coordination-tools.md
+    related_concepts:
+      - token-based-coordination-mechanisms
+      - off-chain-voting
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tokens-coordination-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: tokens-coordination-tools.md
+    work_order: wo-dc7ddba72524
+  solana:
+    title: Solana
+    type: resource
+    url: https://docs.solana.com
+    resource_type: layer-1 blockchain
+    link_status: active
+    notes: >-
+      High-throughput (tens of thousands TPS), sub-cent-fee chain using Proof of
+      History to parallelize transaction processing. Article flags network
+      outage history and non-EVM tooling/skills as tradeoffs. Suited, per the
+      article, to high-frequency low-value transactions: community token
+      distributions, micro-donations, at-scale carbon-credit tracking.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/other-chains.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-de82da691912
+    source_lineage: other-chains.md
+  cosmos:
+    title: Cosmos
+    type: resource
+    url: https://cosmos.network
+    resource_type: multi-chain / app-chain framework (Tendermint + Cosmos SDK)
+    link_status: active
+    notes: >-
+      Lets a project launch its own purpose-built blockchain (via the Cosmos SDK
+      and Tendermint consensus) that stays interoperable with other chains via
+      the Inter-Blockchain Communication (IBC) protocol. Article frames this as
+      suited to projects needing full control over their own economics (e.g. a
+      regional community currency with tailored governance) but flags running
+      your own chain — validators, community participation, maintenance — as a
+      major commitment, "probably overkill" for most regenerative communities.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/other-chains.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-de82da691912
+    source_lineage: other-chains.md
+  polkadot:
+    title: Polkadot
+    type: resource
+    url: https://wiki.polkadot.network
+    resource_type: layer-0 / relay-chain shared-security network
+    link_status: active
+    notes: >-
+      A central relay chain provides shared security to connected specialized
+      chains ("parachains") that lease a parachain slot rather than running
+      their own validator network. Article frames this as appealing for a
+      regenerative project that needs reliable infrastructure without a large
+      team.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/other-chains.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-de82da691912
+    source_lineage: other-chains.md
+  avalanche:
+    title: Avalanche
+    type: resource
+    url: https://docs.avax.network
+    resource_type: layer-1 blockchain with custom-subnet architecture
+    link_status: active
+    notes: >-
+      Uses a consensus mechanism distinct from Proof of Work and standard Proof
+      of Stake to process thousands of transactions per second while maintaining
+      decentralization; its subnet architecture lets a project spin up an
+      independent blockchain network with its own tokens, rules, and validator
+      set within the Avalanche ecosystem. Article suggests subnets fit a
+      carbon-tracking network, community currency, or local regenerative economy
+      that wants its own chain while staying connected to a larger ecosystem.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/other-chains.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-de82da691912
+    source_lineage: other-chains.md
+  near-protocol:
+    title: Near Protocol
+    type: resource
+    url: https://near.org
+    resource_type: layer-1 blockchain, sharded, accessibility-focused
+    link_status: active
+    notes: >-
+      Prioritizes developer experience and user accessibility; uses "Nightshade"
+      sharding to process blockchain data in parallel pieces, and leans on
+      account abstraction to make wallet experiences feel more familiar to
+      non-crypto-native users. Article notes Near has funded carbon removal for
+      its own operations and frames its usability focus as aligned with bringing
+      web3 to people outside the space already.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/other-chains.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-de82da691912
+    source_lineage: other-chains.md
+  centrifuge-rwa-tokenization-platform:
+    title: Centrifuge (RWA tokenization platform)
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: tokens-real-world-assets.md
+    related_concepts:
+      - real-world-asset-tokenization
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tokens-real-world-assets.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: tokens-real-world-assets.md
+    notes: >-
+      Named in the article as a company/platform for tokenizing assets
+      (issuer/platform category); article gives no URL, so link_status is
+      unresolved rather than invented.
+    work_order: wo-de914fb9d23f
+  polymath-rwa-tokenization-platform:
+    title: Polymath (RWA tokenization platform)
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: tokens-real-world-assets.md
+    related_concepts:
+      - real-world-asset-tokenization
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tokens-real-world-assets.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: tokens-real-world-assets.md
+    notes: >-
+      Named alongside Centrifuge as an example platform to explore tokenized
+      assets; article gives no URL, so link_status is unresolved rather than
+      invented.
+    work_order: wo-de914fb9d23f
+  bertopic:
+    title: BERTopic
+    type: resource
+    resource_type: tool
+    url: https://github.com/MaartenGr/BERTopic
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - typing-vs-tagging
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-assisted-classification.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e50c8f7e3b5d
+    source_lineage: ai-assisted-classification.md
+    notes: >-
+      MIT-licensed Python library (Maarten Grootendorst) for embedding-based
+      topic discovery: turns documents into embeddings, clusters them, and
+      labels each cluster with its most distinctive words. Supports guided topic
+      modeling via a seed_topic_list. Article's recommended tool for a one-time
+      "discovery" pass to design a taxonomy, not a daily driver.
+  auto-classifier-obsidian-plugin:
+    title: Auto Classifier (Obsidian plugin)
+    type: resource
+    resource_type: tool
+    url: https://github.com/HyeonseoNam/auto-classifier
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - typing-vs-tagging
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-assisted-classification.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e50c8f7e3b5d
+    source_lineage: ai-assisted-classification.md
+    notes: >-
+      Obsidian plugin (by HyeonseoNam) that classifies notes against three
+      reference modes: all tags in the vault, a filtered regex subset, or a
+      manual hand-curated category list (the supervised "bucketing" pattern,
+      built in). Works with any OpenAI-compatible API (OpenAI, local Ollama,
+      LocalAI) and can also use the Jina AI Classifier, which has a free tier.
+  ai-tagger-obsidian-ai-tagger:
+    title: AI Tagger (obsidian-ai-tagger)
+    type: resource
+    resource_type: tool
+    url: https://github.com/lucagrippa/obsidian-ai-tagger
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - typing-vs-tagging
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-assisted-classification.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e50c8f7e3b5d
+    source_lineage: ai-assisted-classification.md
+    notes: >-
+      Obsidian plugin for one-click and batch tagging across many LLM providers
+      (OpenAI, Anthropic, Google, Groq, Mistral, local Ollama). Returns up to
+      five tags you've used before and at most three genuinely new ones per
+      note, so existing vocabulary is reused first and novelty is rationed — the
+      article holds this up as a model for a deliberate "new tag" escape hatch
+      reviewed in weekly batches.
+  ollama:
+    title: Ollama
+    type: resource
+    resource_type: tool
+    url: https://ollama.com
+    is_source_system_candidate: false
+    toolkit_route: layer-6-infrastructure-substrate
+    link_status: active
+    related_concepts:
+      - typing-vs-tagging
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-assisted-classification.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e50c8f7e3b5d
+    source_lineage: ai-assisted-classification.md
+    notes: >-
+      Runs open LLMs locally. Article frames running classification through
+      Ollama as more than a cost choice: it keeps unreviewed community material
+      on the team's own machine instead of shipping it to a third-party API —
+      the same public/private boundary the Toolkit's infrastructure layer asks
+      teams to respect for high-risk or sensitive material.
+  snapshot-gasless-dao-voting:
+    title: Snapshot (gasless DAO voting)
+    type: resource
+    resource_type: tool
+    url: https://snapshot.org
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-dao.md
+    related_concepts:
+      - dao-core-parts
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-dao.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-dao.md
+    notes: >-
+      Described as the most widely used DAO voting tool, with tens of thousands
+      of community spaces per the article; keeps votes off-chain and gasless via
+      wallet-signature verification.
+    work_order: wo-e5c042958e07
+  safe-formerly-gnosis-safe-d389c6bb:
+    title: Safe (formerly Gnosis Safe)
+    type: resource
+    resource_type: tool
+    url: https://safe.global
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-dao.md
+    related_concepts:
+      - dao-core-parts
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-dao.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-dao.md
+    work_order: wo-e5c042958e07
+  aragon:
+    title: Aragon
+    type: resource
+    resource_type: tool
+    url: https://www.aragon.org
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-dao.md
+    related_concepts:
+      - dao-core-parts
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-dao.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-dao.md
+    notes: >-
+      A no-code platform for creating a DAO, issuing voting rights, and setting
+      rules across several blockchains, per the article.
+    work_order: wo-e5c042958e07
+  refi-dao-local-nodes:
+    title: ReFi DAO Local Nodes
+    type: resource
+    resource_type: org
+    url: https://refidao.com/local-nodes
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-dao.md
+    related_concepts:
+      - dao-core-parts
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-dao.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-dao.md
+    notes: >-
+      Connects regenerative-finance projects worldwide through self-governing
+      Local Nodes per the article; same organization already registered as a
+      source-system from types-of-gatherings.md ingestion — flagged here again
+      as a candidate since duplication across source articles is expected and
+      left for the review/dedupe layer.
+    work_order: wo-e5c042958e07
+  greenpill-network-e0339b78:
+    title: Greenpill Network
+    type: resource
+    resource_type: org
+    url: https://greenpill.network
+    is_source_system_candidate: true
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-is-dao.md
+    related_concepts:
+      - dao-core-parts
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-dao.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-dao.md
+    notes: >-
+      A global network of local chapters using crypto tools to fund and
+      coordinate public goods per the article; same org already registered as a
+      resource from types-of-gatherings.md ingestion.
+    work_order: wo-e5c042958e07
+  giveth-4abb4b14:
+    title: Giveth
+    type: resource
+    resource_type: donation-platform
+    url: https://giveth.io/
+    link_status: active
+    is_source_system_candidate: true
+    original_source: src/content/docs/giveth-donations.md (References)
+    notes: >-
+      Zero-platform-fee crypto donation platform, peer-to-peer wallet-to-wallet;
+      running since 2016; per the article's headline stats, over 8,100 projects,
+      roughly $5.7M in donations, and nearly 26,000 givers (a point-in-time
+      snapshot, not necessarily current). Supports recipient addresses across
+      Ethereum Mainnet, Gnosis Chain, Polygon, Polygon zkEVM, Stellar, Celo,
+      Optimism, Solana, Arbitrum, Base, and Ethereum Classic.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/giveth-donations.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e98c2d2a09ac
+    source_lineage: giveth-donations.md
+  devouch:
+    title: DeVouch
+    type: resource
+    resource_type: verification-protocol
+    original_source: src/content/docs/giveth-donations.md
+    notes: >-
+      "A system for members of reputable organizations in the Ethereum ecosystem
+      to vouch for or flag projects that are looking to raise funding" (quoted
+      in the article). Decentralizes Giveth's project verification: trusted
+      verifiers issue on-chain vouches worth 1, 3, or 30 points by tier; 3
+      points unlocks GIVpower boost, 30 points unlocks donor GIVbacks
+      eligibility. No standalone URL given in this article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/giveth-donations.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-e98c2d2a09ac
+    source_lineage: giveth-donations.md
+  superfluid:
+    title: Superfluid
+    type: resource
+    resource_type: protocol
+    original_source: src/content/docs/giveth-donations.md
+    notes: >-
+      Protocol that streams tokens by the second rather than in one-off chunks;
+      powers Giveth's recurring-donation "Stream Balance" feature, currently on
+      Optimism or Base only, with ETH, OP, DAI, USDC, and GIV eligible per the
+      article. No standalone URL given in this article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/giveth-donations.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e98c2d2a09ac
+    source_lineage: giveth-donations.md
+  mobile-wallets-supported-by-silvi-metamask-valora-opera-minipay:
+    title: Mobile wallets supported by Silvi (MetaMask, Valora, Opera MiniPay)
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - decentralized-mrv-dmrv
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/silvi-protocol.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Article names three wallet options a planter connects to Silvi to receive
+      payment: MetaMask, Valora ("easy for beginners"), and Opera MiniPay
+      ("simple mobile option"). Grouped as one resource entry since the article
+      treats them as interchangeable payment-receiving options rather than
+      distinct subjects of discussion.
+    work_order: wo-ec7a53915677
+    source_lineage: silvi-protocol.md
+  gardens-v2-1hive:
+    title: Gardens v2 (1Hive)
+    type: resource
+    resource_type: tool
+    url: https://app.gardens.fund/
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: conflict-resolution.md
+    related_concepts:
+      - optimistic-governance
+      - conviction-voting
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/conflict-resolution.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ee6204d14f2b
+    source_lineage: conflict-resolution.md
+    notes: >-
+      Conviction-voting DAO framework with covenant-based dispute resolution via
+      Celeste; live on Gnosis Chain, Optimism, Arbitrum, Base, Polygon, and Celo
+      per article.
+  carbonmark:
+    title: Carbonmark
+    type: resource
+    resource_type: tool
+    url: https://carbonmark.com
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-are-tokens.md
+    related_concepts:
+      - carbon-credit-tokenization
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-are-tokens.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-are-tokens.md
+    notes: >-
+      Suggested in the article's "Try This" exercise as a place to browse real,
+      individually-tracked carbon credits.
+    work_order: wo-ef5397397db4
+  puro-earth:
+    title: Puro.earth
+    type: resource
+    resource_type: tool
+    url: https://puro.earth
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-are-tokens.md
+    related_concepts:
+      - carbon-credit-tokenization
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-are-tokens.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-are-tokens.md
+    work_order: wo-ef5397397db4
+  klimadao:
+    title: KlimaDAO
+    type: resource
+    resource_type: org
+    url: https://klimaDAO.com
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    original_source: what-are-tokens.md
+    related_concepts:
+      - carbon-credit-tokenization
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-are-tokens.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-are-tokens.md
+    notes: >-
+      URL is copied as printed in the article's reference list (klimaDAO.com);
+      worth double-checking at review time against the project's canonical
+      domain.
+    work_order: wo-ef5397397db4
+  m-pesa-east-african-mobile-money:
+    title: M-Pesa (East African mobile money)
+    type: resource
+    resource_type: platform
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    original_source: what-are-tokens.md
+    related_concepts:
+      - fungible-vs-nonfungible-tokens
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-are-tokens.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-are-tokens.md
+    notes: >-
+      Named as a real-world fungibility analogy (mobile money units are
+      interchangeable 1:1); no URL given in the article so link_status is
+      unresolved rather than invented.
+    work_order: wo-ef5397397db4
+  argent-0d596849:
+    title: Argent
+    type: resource
+    url: https://argent.xyz
+    resource_type: social-recovery Ethereum wallet
+    link_status: active
+    notes: >-
+      Cited in the article as a "popular Ethereum social recovery wallet" —
+      guardians (3-5 trusted contacts) can collectively help recover a lost
+      wallet; adding a guardian is as simple as entering their address or name.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/recovery-planning.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-efc28adfc7a7
+    source_lineage: recovery-planning.md
+  safe-formerly-gnosis-safe-17b2bc43:
+    title: Safe (formerly Gnosis Safe)
+    type: resource
+    url: https://safe.global
+    resource_type: multi-signature wallet platform
+    link_status: active
+    notes: >-
+      Cited in the article as "the most widely used multi-sig solution for DAOs
+      and organisations." Recommended for treasury management with 3-of-5 or
+      4-of-7 threshold configurations depending on organization size, plus
+      time-locks (24-48 hours) for large transfers.
+    toolkit_route: layer-3-resource-graph
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/recovery-planning.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-efc28adfc7a7
+    source_lineage: recovery-planning.md
+  l2fees-info-live-layer-2-transaction-cost-tracker:
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/setting-up-first-wallet.md
+    title: L2Fees.info (live layer-2 transaction cost tracker)
+    type: resource
+    url: https://l2fees.info/
+    what_it_is: >-
+      A live tracker of real-time transaction costs across Optimism, Arbitrum
+      and other layer-2 networks, cited to show that L2 fees are typically a
+      fraction of a cent.
+    work_order: wo-f176964ca85a
+    source_lineage: setting-up-first-wallet.md
+  refi-medellin:
+    title: ReFi Medellín
+    type: resource
+    resource_type: org
+    high_risk: true
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    related_concepts:
+      - node-founding-team-roles
+    maturity: raw
+    public_use: requires-community-consent
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-founding-team.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f2680cdb2876
+    source_lineage: building-founding-team.md
+    notes: >-
+      Colombia's first ReFi node, launched April 2023 with two founders (named
+      in the article and its cited source: Tereza Bízková and Juan Giraldo),
+      growing to a roughly seven-person team and ~150-person community within
+      months. Cited as the article's worked example of starting tiny and growing
+      through partnerships with existing local organizations (PlatoHedro,
+      impactMarket) rather than building from scratch. Named individuals are
+      reproduced here only as already publicly cited in the article's own source
+      (a public Medium interview); see the companion public-use-boundary object
+      for reuse guidance.
+  refi-cartagena:
+    title: ReFi Cartagena
+    type: resource
+    resource_type: org
+    high_risk: true
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    related_concepts:
+      - node-founding-team-roles
+    maturity: raw
+    public_use: requires-community-consent
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-founding-team.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f2680cdb2876
+    source_lineage: building-founding-team.md
+    notes: >-
+      A ReFi node cited as an example of a tight core founding team: four named
+      team leaders per the article's cited source (a public grant report) —
+      Daniela, Ximena, and Diana Monclou plus Fabio Anaya. Named individuals are
+      reproduced here only as already publicly cited in the article's own
+      source; see the companion public-use-boundary object for reuse guidance.
+  safe-multisig-wallets-b44d9b39:
+    title: Safe (multisig wallets)
+    type: resource
+    resource_type: tool
+    url: https://safe.global
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: active
+    related_concepts:
+      - node-founding-team-roles
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-founding-team.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f2680cdb2876
+    source_lineage: building-founding-team.md
+    notes: >-
+      Article's recommended tool for a node treasury: a 2-of-3 multisig so funds
+      need at least two approvals to move, named as the "Stretch" action item
+      and as one of the two node-specific no-single-point-of-failure rules (at
+      least two people on the multisig).
+  refi-dao-local-node-incubator:
+    title: ReFi DAO Local Node Incubator
+    type: resource
+    resource_type: program
+    is_source_system_candidate: false
+    toolkit_route: layer-3-resource-graph
+    link_status: unresolved
+    related_concepts:
+      - node-founding-team-roles
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-founding-team.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f2680cdb2876
+    source_lineage: building-founding-team.md
+    notes: >-
+      A 15-week beta cohort run by ReFi DAO with over 100 participants and
+      25-plus attending weekly, scoring 9.4/10 on recommendation, per the
+      article's cited retrospective. Named alongside GreenPill Network as
+      existing support a new founding team can plug into rather than inventing
+      the playbook alone.
+  gitcoin-passport-568bd61c:
+    title: Gitcoin Passport
+    type: resource
+    resource_type: proof-of-humanity-tool
+    original_source: src/content/docs/governance-mechanism-design.md
+    notes: >-
+      Named under Sybil Resistance measures as a proof-of-humanity tool to
+      prevent one person creating multiple identities to gain extra votes; no
+      URL given in this article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/governance-mechanism-design.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-f2e5810230ed
+    source_lineage: governance-mechanism-design.md
+  brightid:
+    title: BrightID
+    type: resource
+    resource_type: proof-of-humanity-tool
+    original_source: src/content/docs/governance-mechanism-design.md
+    notes: >-
+      Named under Sybil Resistance measures as a proof-of-humanity tool to
+      prevent one person creating multiple identities to gain extra votes; no
+      URL given in this article.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/governance-mechanism-design.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-f2e5810230ed
+    source_lineage: governance-mechanism-design.md
+  the-giving-block-02f43527:
+    title: The Giving Block
+    type: resource
+    resource_type: crypto-donation-platform
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - crypto-donation-onboarding
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/setting-up-receive-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described in the article as the "full-featured" platform option, used by
+      large nonprofits, for accepting crypto donations. URL not given in
+      article; link_status left unresolved pending verification.
+    work_order: wo-f74c59e2b45a
+    source_lineage: setting-up-receive-crypto.md
+  infinite-giving-d521bd7a:
+    title: Infinite Giving
+    type: resource
+    resource_type: crypto-donation-platform
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - crypto-donation-onboarding
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/setting-up-receive-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described in the article as the "simple" option, good fit for small
+      organisations. URL not given in article; link_status left unresolved
+      pending verification.
+    work_order: wo-f74c59e2b45a
+    source_lineage: setting-up-receive-crypto.md
+  startssl-named-in-source-as-a-third-donation-platform-option:
+    title: Startssl (named in source as a third donation-platform option)
+    type: resource
+    resource_type: crypto-donation-platform
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - crypto-donation-onboarding
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/setting-up-receive-crypto.md
+      transformation: quoted
+      authorship: ai-assisted
+    notes: >-
+      Named verbatim in the source article as "Startssl, Another option to
+      explore" alongside The Giving Block and Infinite Giving. "StartSSL" is
+      publicly known as a defunct SSL-certificate authority, not a crypto
+      donation platform — this looks like a data-quality issue in the source
+      (possibly a mis-transcribed platform name). Captured faithfully as named,
+      flagged unresolved for a human to verify or correct rather than silently
+      dropped or silently "fixed."
+    work_order: wo-f74c59e2b45a
+    source_lineage: setting-up-receive-crypto.md
+  safe-multisig-wallet:
+    title: Safe (multisig wallet)
+    type: resource
+    resource_type: tool
+    url: https://safe.global/
+    is_source_system_candidate: false
+    toolkit_route: Layer 6 (Deployment) / treasury tooling
+    link_status: active
+    related_concepts:
+      - Consent-based Governance (sociocracy)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-node-model.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Formerly Gnosis Safe. Article recommends a 3-of-5 multisig for even the
+      lightest "Collective" model as a low-cost way to remove single-person
+      custody risk before any legal wrapper exists. (See also multisig- setup.md
+      for a dedicated deep-dive on multisig configuration, ingested separately
+      in this batch.)
+    work_order: wo-f9c29bdf4648
+    source_lineage: local-node-model.md
+  open-collective-097a29b8:
+    title: Open Collective
+    type: resource
+    resource_type: tool
+    url: https://opencollective.com/
+    is_source_system_candidate: false
+    toolkit_route: Layer 6 (Deployment) / fiscal hosting
+    link_status: active
+    related_concepts:
+      - Legal Wrapper
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-node-model.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Fiscal-hosting platform letting an unincorporated group raise and spend
+      money transparently under a host (e.g. Open Source Collective, Open
+      Collective Europe) without registering a legal entity — presented as a way
+      to get most of a cooperative's benefits before incorporating.
+    work_order: wo-f9c29bdf4648
+    source_lineage: local-node-model.md
+  cointracker:
+    title: CoinTracker
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - capital-gains-crypto
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tax-implications.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in "Your Action Steps" as a crypto tax tool that automates the hard
+      parts of tracking transactions.
+    work_order: wo-f9ef4b407217
+    source_lineage: tax-implications.md
+  koinly:
+    title: Koinly
+    type: resource
+    resource_type: tool
+    is_source_system_candidate: false
+    link_status: unresolved
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - capital-gains-crypto
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tax-implications.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Named in "Your Action Steps" alongside CoinTracker as a crypto tax tool
+      that automates transaction tracking.
+    work_order: wo-f9ef4b407217
+    source_lineage: tax-implications.md
+  gitcoin-grants-d0ef2404:
+    title: Gitcoin Grants
+    type: resource
+    resource_type: funding-platform
+    url: https://grants.gitcoin.co/
+    link_status: active
+    original_source: src/content/docs/funding-gatherings.md (References)
+    related_concepts:
+      - quadratic-funding
+    notes: >-
+      Runs funding rounds using quadratic funding; current rounds (GG24 cycle,
+      per the article) mix QF with other allocation mechanisms by domain.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-gatherings.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-fbc6bfc6b3e0
+    source_lineage: funding-gatherings.md
+  giveth-69fecc4d:
+    title: Giveth
+    type: resource
+    resource_type: funding-platform
+    url: https://giveth.io/
+    link_status: active
+    original_source: src/content/docs/funding-gatherings.md (References)
+    notes: >-
+      Zero-fee crypto donation platform; article notes it supports recurring
+      donations streamed via Superfluid on Optimism and Base.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-gatherings.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-fbc6bfc6b3e0
+    source_lineage: funding-gatherings.md
+  endaoment:
+    title: Endaoment
+    type: resource
+    resource_type: funding-platform
+    url: https://endaoment.org/
+    link_status: active
+    original_source: src/content/docs/funding-gatherings.md (References)
+    notes: >-
+      On-chain 501(c)(3) / donor-advised-fund platform; lets crypto donors give
+      tax-deductibly if the node has charitable status or a fiscal sponsor.
+      Creating a fund is free; donors pay a one-time 1.5% admin fee.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-gatherings.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-fbc6bfc6b3e0
+    source_lineage: funding-gatherings.md
+  juicebox:
+    title: Juicebox
+    type: resource
+    resource_type: tool
+    url: https://juicebox.money/
+    link_status: active
+    original_source: src/content/docs/funding-gatherings.md (References)
+    notes: >-
+      Programmable on-chain treasury and fundraising tool; per the article, V4
+      deploys across Ethereum, Arbitrum, Base, and OP Mainnet.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-gatherings.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-fbc6bfc6b3e0
+    source_lineage: funding-gatherings.md
+  ethereum-foundation-ecosystem-support-program:
+    title: Ethereum Foundation Ecosystem Support Program
+    type: resource
+    resource_type: grant-program
+    url: https://esp.ethereum.foundation/
+    link_status: active
+    original_source: src/content/docs/funding-gatherings.md (References)
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-gatherings.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-fbc6bfc6b3e0
+    source_lineage: funding-gatherings.md
+  octant-d3101afa:
+    title: Octant
+    type: resource
+    resource_type: funding-platform
+    url: https://octant.app/
+    link_status: active
+    original_source: src/content/docs/funding-gatherings.md (References)
+    notes: >-
+      Public-goods funding driven by GLM staking and recurring epochs; cited in
+      the article as "useful context on how on-chain funders allocate," not
+      otherwise discussed in the body text.
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-gatherings.md
+      transformation: quoted
+      authorship: ai-assisted
+    work_order: wo-fbc6bfc6b3e0
+    source_lineage: funding-gatherings.md
+  snapshot-db36bea9:
+    title: Snapshot
+    type: resource
+    url: https://snapshot.org
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - token-weighted-voting
+      - quadratic-voting
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-tooling.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described as the most widely used DAO voting platform: gasless voting,
+      flexible voting strategies, off-chain IPFS storage; Snapshot X (2025)
+      added fully on-chain voting on Starknet at lower cost.
+    work_order: wo-fda5b8111b9b
+    source_lineage: dao-tooling.md
+  tally:
+    title: Tally
+    type: resource
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - token-weighted-voting
+    is_source_system_candidate: false
+    link_status: unresolved
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-tooling.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described as the rigorous on-chain governance option, built on the
+      OpenZeppelin Governor framework, handling governance for protocols
+      managing billions in assets; offers immutable records, automatic
+      execution, and delegation tracking. Article does not give a URL directly
+      (no reference-list entry for Tally); URL left unresolved rather than
+      invented.
+    work_order: wo-fda5b8111b9b
+    source_lineage: dao-tooling.md
+  gnosis-safe:
+    title: Gnosis Safe
+    type: resource
+    url: https://safe.global
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - multisig-treasury-management
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-tooling.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described as the standard DAO treasury tool: multi-signature wallet
+      securing billions of dollars across millions of accounts, M-of-N approval,
+      multi-chain support (20+ networks), hardware wallet compatibility.
+    work_order: wo-fda5b8111b9b
+    source_lineage: dao-tooling.md
+  coordinape:
+    title: Coordinape
+    type: resource
+    url: https://coordinape.com
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - peer-allocated-compensation
+    is_source_system_candidate: false
+    link_status: active
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-tooling.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Used by 100+ DAOs including Bankless and Yearn Finance per the article;
+      contributors allocate "GIVE" recognition tokens to peers, and allocated
+      tokens determine payment distribution — a peer-to-peer alternative to
+      manager-decided compensation.
+    work_order: wo-fda5b8111b9b
+    source_lineage: dao-tooling.md
+  aragon-9ad5b781:
+    title: Aragon
+    type: resource
+    resource_type: tool
+    toolkit_route: layer-3-resource-graph
+    related_concepts:
+      - token-weighted-voting
+    is_source_system_candidate: false
+    link_status: unresolved
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-tooling.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Described as one of the first no-code DAO creation platforms, offering
+      templates for governance structures. Article gives no URL in its reference
+      list; not invented here.
+    work_order: wo-fda5b8111b9b
+    source_lineage: dao-tooling.md

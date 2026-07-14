@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: Walking substantially boosts creative idea generation over sitting
+  type: claim-evidence
+  claim: >-
+    In a set of Stanford experiments, between 81% and 100% of participants
+    (depending on the specific test) produced more creative ideas while
+    walking than while sitting, indoors or outdoors, and walkers roughly
+    doubled their novel responses — used to justify the walk-and-talk
+    gathering format for brainstorming and processing difficult
+    conversations.
+  evidence: >-
+    Cited to Oppezzo & Schwartz, "Give Your Ideas Some Legs" (APA, 2014),
+    linked in the article's references
+    (https://www.apa.org/news/press/releases/2014/04/creativity-walk).
+  source_lineage: src/content/docs/types-of-gatherings.md
+  interpretation: >-
+    Used to justify the walk-and-talk format specifically for brainstorming
+    and for lowering the intensity of hard one-on-one conversations
+    (side-by-side positioning reduces eye-contact pressure).
+  uncertainty: >-
+    The article's own reading is careful ("the walking itself did the work,
+    not the scenery"), but it does not specify which of the study's multiple
+    conditions/tests produced the 81% vs 100% range, so the precise figure
+    per condition is not verifiable from this article alone.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/types-of-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted

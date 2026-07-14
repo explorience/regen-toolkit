@@ -1,0 +1,27 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    This article names real, identifiable community organizers (Tereza Bízková
+    and Juan Giraldo of ReFi Medellín; Daniela, Ximena, Diana Monclou, and Fabio
+    Anaya of ReFi Cartagena) and recommends specific governance/treasury
+    structures (multisig signer counts, role concentration limits) for local
+    nodes. The named individuals are already public in the article's own cited
+    sources (a public Medium interview and a public grant report on the ReFi
+    coordination hub), but this ingestion reproduces their names and roles
+    secondhand without directly re-confirming current consent for wider reuse.
+    Governance/treasury recommendations are general best-practice guidance, not
+    org-specific advice, and should be reviewed by a steward before being
+    presented as authoritative for any one node's specific situation.
+  review_type: steward-review-before-public-use
+  notes: >-
+    Covers the ReFi Medellín and ReFi Cartagena resource objects and the main
+    encyclopedia entry from this work order (people/community-profile and
+    funding/governance-recommendation high-risk triggers per the ingest skill).
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md

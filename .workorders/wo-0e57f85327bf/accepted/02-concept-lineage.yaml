@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: Smart Contract
+  type: concept-lineage
+  short_description: >-
+    A small program that lives on a blockchain network and executes
+    automatically when its conditions are met — no salesperson, no negotiation,
+    no third party enforcing the rules.
+  source_traditions:
+    - Ethereum developer documentation (ethereum.org)
+  toolkit_usage: >-
+    Introduced via a vending-machine metaphor (pick item → see price → insert
+    payment → machine verifies → item dispensed) to make the concept concrete
+    for a non-technical audience, then applied to two regen scenarios:
+    transparent community-garden fundraising (funds released only when members
+    vote yes) and automatic crop insurance (payout triggered by external weather
+    data via an oracle).
+  adjacent_meanings:
+    - DAO (a group that uses smart contracts to govern collective decisions)
+    - oracle (a service that feeds real-world data to a smart contract)
+  important_distinctions:
+    - >-
+      A smart contract enforces rules already agreed and coded — it does not
+      decide the rules or verify real-world facts on its own; the crop-insurance
+      example still depends on trusted weather data reaching the contract.
+  tensions:
+    - >-
+      "The code does what it was programmed to do" is reassuring but also the
+      limit: a bug or a bad initial rule is enforced just as faithfully as a
+      good one.
+  risks_of_flattening: >-
+    Reducing "smart contract" to just "automatic payment" erases the point the
+    article is making — that the interesting part is removing a trusted
+    middleman for a *class* of coordination problems (fundraising, voting,
+    conditional payouts), not any single payment.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-ethereum.md
+  work_order: wo-0e57f85327bf

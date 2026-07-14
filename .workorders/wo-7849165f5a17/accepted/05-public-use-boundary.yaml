@@ -1,0 +1,25 @@
+schema: public-use-boundary
+object:
+  title: Boundary — crypto-donation tax/financial guidance (why-accept-crypto.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the encyclopedia-entry and the capital-gains tax example
+    claim-evidence from this work order. The article gives general US-centric
+    tax-benefit guidance and financial-security recommendations (multisig
+    wallets, converting crypto to fiat immediately). Per the ingest skill's
+    high-risk trigger for funding/legal/governance recommendations: this is
+    general education aimed at an East Africa/Somaliland nonprofit audience
+    operating under different tax jurisdictions — do not present as
+    jurisdiction-specific tax or legal advice without a qualified local reviewer
+    before reuse in donor-facing or compliance-relevant materials.
+  review_type: steward-review-before-public-use
+  notes: >-
+    covers 01-encyclopedia-entry.yaml and 02-claim-evidence-tax-example.yaml
+    from this work order.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-accept-crypto.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-7849165f5a17
+  source_lineage: why-accept-crypto.md

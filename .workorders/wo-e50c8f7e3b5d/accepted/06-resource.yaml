@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Ollama
+  type: resource
+  resource_type: tool
+  url: https://ollama.com
+  is_source_system_candidate: false
+  toolkit_route: layer-6-infrastructure-substrate
+  link_status: active
+  related_concepts:
+    - typing-vs-tagging
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-assisted-classification.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e50c8f7e3b5d
+  source_lineage: ai-assisted-classification.md
+  notes: >-
+    Runs open LLMs locally. Article frames running classification through Ollama
+    as more than a cost choice: it keeps unreviewed community material on the
+    team's own machine instead of shipping it to a third-party API — the same
+    public/private boundary the Toolkit's infrastructure layer asks teams to
+    respect for high-risk or sensitive material.

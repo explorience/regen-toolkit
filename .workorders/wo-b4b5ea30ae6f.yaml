@@ -1,0 +1,26 @@
+id: wo-b4b5ea30ae6f
+title: ingest find-your-community.md
+type: work-order
+source_path: find-your-community.md
+source_hash: 6ccc5a591e361eb1c69a4da6d4409b9cd88c736c9b1a1dcae56d0c279804c5e5
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g4
+produced:
+  - data/kb/encyclopedia-entry.yaml#find-your-community
+  - data/kb/concept-lineage.yaml#regenerative-finance-refi-86252131
+  - >-
+    data/kb/claim-evidence.yaml#no-legitimate-community-will-ever-ask-for-your-seed-phrase
+  - data/kb/resource.yaml#refi-dao-local-nodes-directory
+  - data/kb/resource.yaml#greenpill-network-f857cfd7

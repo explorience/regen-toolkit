@@ -1,0 +1,34 @@
+schema: encyclopedia-entry
+object:
+  title: Why Regens Are Interested in Blockchain
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    An entry-level explainer for permaculturists and community organizers brand
+    new to crypto, framing blockchain as plumbing, not magic, and asking why a
+    "regen" (regenerative practitioner) would care. Names the fears first
+    (scams, energy use, wasting time/looking foolish) and answers each honestly.
+    Covers three concrete draws: funding without a gatekeeper (quadratic funding
+    via Gitcoin), deciding things together in the open (DAOs, Snapshot voting),
+    and ownership that stays local (self-custody, tokens as membership/voting
+    markers, Sarafu as the grounded example). Closes by citing Greenpill
+    Network's "tool-first honesty" stance: start with the community's actual
+    problem, then ask whether blockchain helps.
+  audience: permaculturists and community organizers brand new to crypto
+  known_tensions:
+    - >-
+      Tool-first honesty vs. crypto evangelism — the article explicitly
+      distances the "regen corner" from broader crypto speculation/scam culture,
+      framing usefulness-to-the-work as the only relevant test.
+  related_concepts:
+    - dao
+  related_resources:
+    - snapshot
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-regens-interested.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5a1fc08b1b6f
+  source_lineage: why-regens-interested.md

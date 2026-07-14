@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Sarafu Network supports 26,000+ people across ~290 Kenyan communities
+  type: claim-evidence
+  claim: >-
+    Sarafu Network, run by the Kenyan nonprofit Grassroots Economics,
+    supports 26,000+ people across roughly 290 communities using commitment
+    pools (shared accounts where members issue Community Asset Vouchers) and
+    runs on the Celo blockchain via USSD, so it works on basic phones without
+    internet.
+  evidence: >-
+    Stated in is-community-ready.md's "The One Failure Mode to Plan Around"
+    section, linking to Grassroots Economics: Sarafu Network.
+  source_lineage: src/content/docs/is-community-ready.md
+  interpretation: >-
+    Used as the counter-example to founder-dependent local currencies —
+    Sarafu survives because it grew from existing community trust networks
+    and no single person is load-bearing.
+  uncertainty: >-
+    Figures (26,000+ people, ~290 communities) are as stated in the article;
+    not independently re-verified against Grassroots Economics' current
+    reporting for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-community-ready.md
+    transformation: summarized
+    authorship: ai-assisted

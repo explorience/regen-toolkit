@@ -1,0 +1,42 @@
+schema: encyclopedia-entry
+object:
+  title: Writing Grant Proposals
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practical guide for local node builders writing Web3 grant proposals.
+    Distinguishes prospective grants (fund a promise of future work) from
+    retroactive grants (reward already-delivered impact, e.g. Optimism's Retro
+    Funding), explains quadratic funding (QF) math and its implication that
+    "your job isn't only to impress a panel, it's to turn out a lot of real
+    people," lists what a working proposal contains per Gitcoin's own guidance
+    (lead with a TL;DR including how the money will be spent, metrics over
+    promises, show your team, iterate in public), argues that for a local node
+    in a QF round the proposal IS the fundraising campaign (anchored on ReFi
+    DAO's GG18 Local Node round case study), and closes with an explicit warning
+    against single-source grant dependency as a burnout/turnover trap,
+    recommending diversified funding.
+  audience: local node builders writing their first Web3 grant proposal
+  known_tensions:
+    - >-
+      Grant as finish line vs. grant as one input — the article's central
+      argument is that single-source grant dependency is a burnout/turnover
+      risk, not that grants are bad.
+    - >-
+      Impressing a panel vs. turning out real people — in QF specifically, the
+      article reframes proposal-writing as a community-organizing task, not a
+      persuasive-writing task.
+  related_concepts:
+    - quadratic-funding
+    - retroactive-public-goods-funding
+  related_resources:
+    - gitcoin-grants
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/writing-grant-proposals.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-44ab6b54437e
+  source_lineage: writing-grant-proposals.md

@@ -1,0 +1,10 @@
+schema: public-use-boundary
+object:
+  tier: restricted-working-notes
+  consent_note: >-
+    Entire article is US-centric tax/legal guidance sourced from a single
+    donation-platform-adjacent hub (CryptoAltruists), not primary legal/tax
+    authority. Do not surface as jurisdiction-general legal advice without a
+    domain (tax/legal) reviewer signing off; the source article itself tells
+    readers to consult a nonprofit lawyer.
+  review_type: domain-review-for-tax-and-legal-claims

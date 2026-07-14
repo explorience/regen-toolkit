@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Hypercerts
+  type: resource
+  resource_type: protocol
+  url: https://hypercerts.org/
+  link_status: active
+  original_source: src/content/docs/funding-your-node.md (References)
+  notes: >-
+    On-chain impact certificates for recording and retroactively funding
+    regenerative work; minted by Greenpill for its chapters per the article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-3a548f510339
+  source_lineage: funding-your-node.md

@@ -1,0 +1,45 @@
+schema: encyclopedia-entry
+object:
+  title: "The History of Bitcoin"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A chronological explainer of Bitcoin's origins, foundations-track intro
+    article: the pre-Bitcoin digital-cash experiments (Chaum's ecash, Back's
+    hashcash, Dai's b-money, Szabo's bit gold, Finney's RPOW), Satoshi
+    Nakamoto's October 2008 whitepaper solving the double-spend problem
+    without a central authority, the January 2009 genesis block, the 2010
+    Bitcoin Pizza Day transaction and the August 2010 value-overflow bug and
+    its fix, Bitcoin's 2011-2012 mainstream milestones, and Satoshi's
+    disappearance. Frames Bitcoin as the culmination of 30+ years of attempts
+    to build money that doesn't depend on central authorities.
+  audience: newcomers to crypto/web3 in a foundations learning track
+  known_tensions:
+    - >-
+      each pioneer (Chaum, Back, Dai, Szabo, Finney) solved one piece of the
+      digital-cash puzzle but needed a central authority or never launched;
+      the article frames Bitcoin's contribution as synthesis, not any single
+      novel idea.
+  related_concepts:
+    - double-spend-problem-and-proof-of-work-lineage
+  related_resources: []
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/bitcoin-history.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-648651c05dac
+  source_lineage: bitcoin-history.md
+  notes: |
+    # assessed-but-excluded
+    - Named individuals (Satoshi Nakamoto, Hal Finney, Wei Dai, Nick Szabo,
+      Adam Back, David Chaum, Laszlo Hanyecz, Gavin Andresen) are treated as
+      already-public, extensively documented historical/crypto-history
+      figures rather than community members whose profiles need protecting —
+      no public-person-node created and no high_risk flag set, since this is
+      canonical, widely-published history rather than a community identity
+      disclosure.
+    - No exact locations, TEK/Indigenous knowledge, MRV/carbon claims, or
+      funding/legal/governance recommendations present.

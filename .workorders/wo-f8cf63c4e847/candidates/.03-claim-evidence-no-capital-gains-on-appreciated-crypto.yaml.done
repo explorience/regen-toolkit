@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: "Donating appreciated crypto directly can avoid US donor capital gains tax"
+  type: claim-evidence
+  claim: >-
+    For US donors, donating appreciated crypto directly (rather than selling
+    then donating cash) can mean no capital gains tax owed, and donors can
+    deduct the full fair market value; for the receiving organization,
+    charitable donations generally are not subject to income tax.
+  evidence: >-
+    Attributed in-article to "CryptoAltruists" as the source.
+  source_lineage: src/content/docs/compliance-legal.md
+  interpretation: >-
+    Used to explain why crypto donations can be more tax-advantageous than
+    cash for a donor, and reassure orgs about their own tax exposure.
+  uncertainty: >-
+    Same single secondary source as the property-treatment claim; jurisdiction-
+    and individual-situation-specific in practice — not verified against a
+    primary IRS source here.
+  maturity: raw
+  public_use: not-public-yet
+  high_risk: true
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/compliance-legal.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f8cf63c4e847

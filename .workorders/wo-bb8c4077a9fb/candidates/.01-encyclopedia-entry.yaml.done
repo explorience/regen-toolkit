@@ -1,0 +1,46 @@
+schema: encyclopedia-entry
+object:
+  title: Local Currency Design for Community Finance
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practical guide to designing and launching a community currency: what
+    unit to use (time-based, value-based, points-based), what backs it
+    (nothing/fiat, labour, goods, national currency), who issues it
+    (member-issued, system-issued, hybrid), what rules to set (earning,
+    spending, expiry, fees), and technical implementation choices (paper
+    ledgers, shared digital ledger, blockchain). Covers a three-phase launch
+    process (design, pilot, scale), common mistakes, and named case studies
+    (Ithaca Hours, Brixton Pound, Sardex, BerkShares, and East African
+    chamas/ROSCAs as an existing informal precedent to build on).
+  audience: local-node organizers, East Africa-focused track (Somaliland, Kenya, Tanzania context)
+  known_tensions:
+    - >-
+      keeping value local (the core purpose of a local currency) vs. tying
+      the unit to a national currency (value-based backing), which
+      re-imports the inflation/instability the currency is meant to buffer
+      against
+  related_concepts:
+    - Local / Community Currency
+  related_resources:
+    - Ithaca Hours
+    - Brixton Pound
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-currency.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+#   - Sardex, BerkShares, and Chamas/ROSCAs were named as case studies within
+#     the concept-lineage's source_traditions rather than each given a
+#     standalone resource object — only the two most historically cited
+#     examples (Ithaca Hours, Brixton Pound) were lifted separately, to keep
+#     this batch proportionate.
+#   - The blockchain-based implementation option was captured in the guide
+#     summary/concept-lineage rather than split into its own claim-evidence
+#     — the article itself is cautious/non-committal about it ("almost no
+#     new community currencies" need it), so there is no strong claim to
+#     evidence-check.

@@ -1,0 +1,26 @@
+id: wo-a93e50352107
+title: ingest is-dao-right.md
+type: work-order
+source_path: is-dao-right.md
+source_hash: 61ed8b768869b1b86c5b019c7f00c21cdc439539e53af3b6bea8b181f860f8af
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g5
+produced:
+  - data/kb/encyclopedia-entry.yaml#is-a-dao-right-for-your-community
+  - >-
+    data/kb/concept-lineage.yaml#dao-alternatives-cooperatives-sociocracy-lightweight-voting-tools
+  - >-
+    data/kb/claim-evidence.yaml#a-well-documented-governance-attack-stole-a-significant-amount-from-the-beanstalk-dao
+  - data/kb/resource.yaml#loomio

@@ -1,0 +1,27 @@
+id: wo-ce41b10364c7
+title: ingest custodial-vs-noncustodial.md
+type: work-order
+source_path: custodial-vs-noncustodial.md
+source_hash: fad10c3cf3fed9684d517a3ce16bd1bbfb0f128d3dbc4990bb713a6ea16415dd
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#custodial-vs-non-custodial-wallets-understanding-who-holds-the-keys
+  - data/kb/concept-lineage.yaml#self-custody-non-custodial-wallets
+  - data/kb/resource.yaml#metamask-ee8aea83
+  - data/kb/resource.yaml#ledger-hardware-wallet
+  - >-
+    data/kb/claim-evidence.yaml#custodial-wallets-carry-counterparty-solvency-risk-the-ftx-collapse

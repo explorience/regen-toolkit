@@ -1,0 +1,50 @@
+schema: concept-lineage
+object:
+  title: Cryptocurrency, Blockchain, and Decentralisation
+  type: concept-lineage
+  short_description: >-
+    Money that exists only as digital records, moved directly between people via
+    a shared, tamper-resistant ledger (blockchain) copied across many computers,
+    with no single bank, company, or government running the system
+    (decentralisation).
+  source_traditions:
+    - Bitcoin (2009), the first cryptocurrency, as the article's origin point
+    - >-
+      mutual-credit / community-currency traditions (the article's explicit
+      "digital version of mutual credit" framing for the Sarafu Network)
+  toolkit_usage: >-
+    Used as the plain-language on-ramp article for readers with no prior crypto
+    exposure, translating blockchain/decentralisation into a "shared lending
+    notebook" analogy drawn from seed-library practice.
+  adjacent_meanings:
+    - >-
+      a coin (native money of its own chain, e.g. Bitcoin, ether) vs a token
+      (built atop an existing chain for a specific purpose)
+    - >-
+      proof of work vs proof of stake as different ways a blockchain achieves
+      that shared, tamper-resistant record
+  important_distinctions:
+    - >-
+      owning cryptocurrency means owning a key that moves a record, not owning a
+      physical thing (the article's core reframing)
+    - >-
+      community-set rules (what a token represents) vs blockchain-provided
+      honesty (the ledger just keeps the count straight)
+  tensions:
+    - >-
+      the article's own honest framing (you almost certainly don't need crypto)
+      vs four specific cases where it is presented as genuinely useful
+  risks_of_flattening: >-
+    Framing decentralisation via the "farmers' market without a central boss"
+    analogy risks understating the real infrastructure, expertise, and
+    governance that blockchains still require (node operators, protocol
+    developers, validator/miner economics) — the article simplifies for a
+    first-time audience rather than engaging this.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-cryptocurrency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-cryptocurrency.md
+  work_order: wo-21b470d1f9f4

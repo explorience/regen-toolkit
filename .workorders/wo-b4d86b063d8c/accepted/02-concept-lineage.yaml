@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: Decentralized Finance (DeFi)
+  type: concept-lineage
+  short_description: >-
+    Financial services (swaps, lending, stablecoins) built on public blockchains
+    that operate without traditional intermediaries like banks; anyone with a
+    wallet can access them directly.
+  source_traditions:
+    - >-
+      Ethereum smart-contract protocol design (Uniswap, Aave, Compound,
+      MakerDAO)
+  toolkit_usage: >-
+    Introduced in this article as one of four pillars of the Ethereum ecosystem
+    (alongside Layer 2s, NFTs, and DAOs), framed for regenerative communities as
+    a lens on "community-controlled finance" running on transparent, auditable
+    code rather than closed corporate infrastructure.
+  adjacent_meanings:
+    - Traditional finance (TradFi) intermediated by banks/brokers
+    - Community currencies / local exchange systems (non-blockchain analogues)
+  important_distinctions:
+    - >-
+      DeFi is permissionless access to financial primitives (swap, lend,
+      borrow), not a guarantee of safety or fairness — it removes an
+      intermediary, it does not remove risk.
+  tensions:
+    - >-
+      The article's own caution ("smart contracts can have bugs... the space has
+      seen significant losses from hacks and fraud") sits alongside its framing
+      of DeFi as an opportunity for community finance; the two need to be held
+      together, not resolved into pure optimism.
+  risks_of_flattening: >-
+    Presenting DeFi purely as "transparent, auditable" risks understating that
+    audits are imperfect and that transparency does not equal safety for a
+    first-time, low-resource user.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ethereum-ecosystem.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-b4d86b063d8c
+  source_lineage: ethereum-ecosystem.md

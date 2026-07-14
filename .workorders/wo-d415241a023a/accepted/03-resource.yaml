@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Cryptosteel (metal seed-phrase storage)
+  type: resource
+  resource_type: hardware-accessory
+  url: https://cryptosteel.com
+  link_status: unresolved
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  notes: >-
+    A metal seed-phrase storage product mentioned in hot-vs-cold.md as
+    protection for a wallet's recovery seed phrase against fire and water
+    damage, as an alternative/complement to paper backups.
+  related_concepts:
+    - layered-custody-hot-cold-multisig-by-purpose
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/hot-vs-cold.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d415241a023a
+  source_lineage: hot-vs-cold.md

@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Brixton Pound
+  type: resource
+  resource_type: case-study
+  is_source_system_candidate: false
+  toolkit_route: Layer 5 (Option Library) / local-currency case studies
+  link_status: unresolved
+  related_concepts:
+    - Local / Community Currency
+  related_resources:
+    - Ithaca Hours
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-currency.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Local paper currency for Brixton, London, UK, with some later blockchain
+    adoption — cited as a value-based-unit example distinct from the
+    time-based Ithaca Hours.

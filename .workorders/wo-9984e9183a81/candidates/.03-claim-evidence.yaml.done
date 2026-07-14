@@ -1,0 +1,36 @@
+schema: claim-evidence
+object:
+  title: Wyoming DUNA requires 100+ members and on-chain governance
+  type: claim-evidence
+  claim: >-
+    The Wyoming Decentralized Unincorporated Nonprofit Association (DUNA),
+    effective July 1, 2024, gives DAO members liability protection (a
+    judgment against the DUNA does not reach individuals) but the statute
+    requires at least 100 members plus meaningful on-chain governance,
+    making it suitable for a maturing node, not a five-person start.
+  evidence: >-
+    Cited to "Global Fintech & Digital Assets Blog, Wyoming Adopts New Legal
+    Structure for DAOs" (2024) for the effective date and 100-member rule,
+    and to "a16z crypto, The DUNA: An Oasis for DAOs" for the liability-
+    shield mechanics; the Uniswap Foundation's DUNI (established via
+    governance vote in 2025) is cited as a worked real-world adopter.
+  source_lineage: src/content/docs/legal-structures.md
+  interpretation: >-
+    High-risk/governance claim: accurately reflects what the article's cited
+    sources say, but a DAO considering this structure should verify current
+    statute text directly (Wyoming Secretary of State) rather than relying
+    on secondary summaries, since the structure is new (2024) and still
+    accumulating case law and administrative practice.
+  uncertainty: >-
+    Moderate — sourced to named secondary articles (Global Fintech & Digital
+    Assets Blog, a16z) rather than the statute text itself; the 100-member
+    threshold and its practical enforcement are asserted, not independently
+    verified against the current Wyoming statute in this ingest pass.
+  high_risk: true
+  maturity: raw
+  public_use: requires-domain-review
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/legal-structures.md
+    transformation: summarized
+    authorship: ai-assisted

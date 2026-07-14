@@ -1,0 +1,34 @@
+schema: encyclopedia-entry
+object:
+  title: Seed Phrases
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A plain-language explainer of seed phrases (Secret Recovery Phrase /
+    mnemonic phrase) for community organisers and regenerative practitioners new
+    to crypto: what the 12-24 word BIP39 phrase is, why it works across wallets
+    and chains, how to store it safely, the phishing/social-engineering scams
+    that target it, and multisig (Safe) as the group-treasury alternative to a
+    single point of failure.
+  audience: community organisers and regenerative practitioners new to crypto
+  known_tensions:
+    - >-
+      Full personal responsibility for the phrase (no password reset, no support
+      line) is presented as empowering self-custody, but is also a real
+      single-point-of-failure risk for individuals and treasuries.
+  related_concepts:
+    - hd-derivation
+    - multisig
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/seed-phrases.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: no high-risk personal/location/TEK/MRV content in
+    this article; no public person-nodes to create. The "For Community
+    Treasuries" section's succession-planning questions are general governance
+    prompts, not specific funding/legal advice, so not flagged high_risk.
+  work_order: wo-38c3e2b4e44f
+  source_lineage: seed-phrases.md

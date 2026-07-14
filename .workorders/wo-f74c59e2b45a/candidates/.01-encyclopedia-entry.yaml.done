@@ -1,0 +1,32 @@
+schema: encyclopedia-entry
+object:
+  title: "Setting Up to Receive Crypto: A Step-by-Step Guide"
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A 5-step walkthrough for a nonprofit/organisation to start accepting
+    crypto donations: choose a donation platform, verify nonprofit status,
+    set up the account, connect a donate button/widget to the website, then
+    test before going live. Also flags automatic tax-receipt generation and
+    common setup mistakes.
+  audience: nonprofit/organisation staff new to accepting crypto donations
+  known_tensions:
+    - >-
+      Article frames setup as "about an hour," but the real bottleneck it
+      names is gathering nonprofit verification documents, which is not
+      within the org's direct control on that timeline.
+  related_concepts: []
+  related_resources:
+    - the-giving-block
+    - infinite-giving
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-receive-crypto.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Frontmatter lists source "CryptoAltruists Web3 Impact Toolkit" — this
+    article appears to be a derivative/summary of that toolkit's content, not
+    independently reported. assessed-but-excluded: no high-risk
+    people/location/TEK/MRV content.

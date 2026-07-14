@@ -1,0 +1,34 @@
+schema: encyclopedia-entry
+object:
+  title: 'Token Standards: The Building Blocks of Digital Assets'
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Compares the three main Ethereum token standards — ERC-20 (fungible),
+    ERC-721 (unique/non-fungible), and ERC-1155 (flexible multi-token) —
+    explaining what each is used for and how a community project (savings
+    tokens, impact credits, marketplaces) should pick between them, framed for
+    East African/Somaliland community and cooperative use cases.
+  audience: >-
+    community organisers/cooperatives choosing a token standard for their
+    project
+  known_tensions: []
+  related_concepts:
+    - erc-20-fungible-token-standard
+    - erc-721-non-fungible-token-standard
+    - erc-1155-multi-token-standard
+  related_resources:
+    - openzeppelin
+    - opensea
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/token-standards.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: no people/location/TEK/MRV high-risk content; the
+    "Hargesa Savings Token" example is a generic illustrative name, not a real
+    identifiable entity.
+  work_order: wo-d9f74145465f
+  source_lineage: token-standards.md

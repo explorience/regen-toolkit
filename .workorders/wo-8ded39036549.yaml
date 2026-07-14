@@ -1,0 +1,28 @@
+id: wo-8ded39036549
+title: ingest what-you-can-do-ethereum.md
+type: work-order
+source_path: what-you-can-do-ethereum.md
+source_hash: 4d189c35004dc5c081fa581df351bb282b8c59d4f0f8312fd4cf602d5cb3ef4f
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-you-can-do-on-ethereum
+  - >-
+    data/kb/concept-lineage.yaml#dmrv-digital-measurement-reporting-and-verification
+  - >-
+    data/kb/claim-evidence.yaml#silvi-uses-dmrv-to-prove-tree-planting-and-pay-for-impact
+  - data/kb/resource.yaml#silvi-963a6920
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-silvi-dmrv-impact-verification-claim-what-you-can-do-ethereum-md

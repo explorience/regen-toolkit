@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: POAP (Proof of Attendance Protocol)
+  type: resource
+  url: https://poap.xyz/
+  resource_type: attendance-badge NFT protocol
+  link_status: active
+  notes: >-
+    Cited in the article as a way to make a newcomer's first event a "small
+    gift, not a test" — a free collectible NFT minted to attendees, issued on
+    Gnosis Chain so both organizers and attendees pay nothing. Distributed via
+    QR code at the event.
+  related_concepts:
+    - onboarding-as-trellis-not-funnel
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onboarding-members.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-4d064e9381ba
+  source_lineage: onboarding-members.md

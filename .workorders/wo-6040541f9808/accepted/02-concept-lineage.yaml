@@ -1,0 +1,52 @@
+schema: concept-lineage
+object:
+  title: Onchain Donation Transparency
+  type: concept-lineage
+  short_description: >-
+    Publishing blockchain-verifiable proof of how donated crypto funds are used
+    — e.g. a nonprofit publishing its wallet address so donors can trace fund
+    flows directly, without relying solely on the organization's own reporting.
+  source_traditions:
+    - traditional nonprofit financial-transparency/annual-reporting practice
+    - >-
+      blockchain's public-ledger property (any transaction is traceable by
+      design)
+    - >-
+      crypto-philanthropy platforms and communities (the article's cited source,
+      CryptoAltruists Web3 Impact Toolkit)
+  toolkit_usage: >-
+    Positioned in this article as a differentiator crypto donors specifically
+    value, tied to the donor-motivation category "transparency" and offered as a
+    concrete stewardship action nonprofits can take (publish a wallet address,
+    share transaction IDs in thank-yous).
+  adjacent_meanings:
+    - >-
+      onchain transparency as a technical property of any public blockchain
+      (baseline, not donor-facing)
+    - >-
+      onchain transparency as a deliberate donor-relations practice (this
+      article's framing — actively surfacing that traceability to donors)
+  important_distinctions:
+    - >-
+      technically-traceable-vs-actively-communicated — a transaction being
+      technically traceable on a public ledger is different from a nonprofit
+      actively publishing and explaining that trace to donors; the article's
+      recommendation is specifically about the latter, more deliberate practice.
+  tensions:
+    - >-
+      donor-trust-benefit vs organizational-financial-privacy — publishing a
+      wallet address exposes an organization's full transaction history
+      (including amounts and counterparties) publicly and permanently, a
+      trade-off this short article does not explore in depth.
+  risks_of_flattening: >-
+    Presenting onchain transparency as a purely additive trust-building feature
+    flattens the real trade-off (permanent public exposure of an organization's
+    full financial activity) that the article's brevity does not surface.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/donor-stewardship.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6040541f9808
+  source_lineage: donor-stewardship.md

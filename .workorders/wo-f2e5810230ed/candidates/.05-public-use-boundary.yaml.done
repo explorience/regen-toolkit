@@ -1,0 +1,22 @@
+schema: public-use-boundary
+object:
+  title: Boundary — governance-sequencing recommendation (governance-mechanism-design.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the claim-evidence entry recommending consent-based decisions
+    first, then quadratic voting plus delegation (same work order). This is
+    a generic governance-design pattern from a draft-status article, not
+    tailored governance advice for any specific DAO or community; a group
+    should treat it as a starting hypothesis to test against their own
+    context, not a validated best practice.
+  review_type: steward-review-before-public-use
+  notes: >-
+    High-risk trigger: governance recommendation (master doc §5 triggers).
+    Source article's own frontmatter status is "draft" (unlike the other
+    nine articles in this batch, which are "published") — worth the
+    reviewer's attention alongside the content risk.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/governance-mechanism-design.md
+    transformation: synthesized
+    authorship: ai-assisted

@@ -1,0 +1,19 @@
+schema: public-use-boundary
+object:
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-first-wallet.md
+  title: >-
+    Boundary — financial-safety guidance on wallet setup and recovery phrases
+    (setting-up-first-wallet.md)
+  tier: public-with-caveat
+  consent_note: >-
+    High-stakes, irreversible financial-safety guidance (recovery-phrase
+    handling, self-custody). Publish only with the caveat that loss of the
+    recovery phrase is unrecoverable and the steps reflect MetaMask's flow at
+    time of writing; a human should verify the setup steps against the current
+    MetaMask UI before promotion.
+  review_type: domain-review
+  work_order: wo-f176964ca85a
+  source_lineage: setting-up-first-wallet.md

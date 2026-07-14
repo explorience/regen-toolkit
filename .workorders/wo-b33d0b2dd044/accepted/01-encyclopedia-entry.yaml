@@ -1,0 +1,40 @@
+schema: encyclopedia-entry
+object:
+  title: Stewardship Roles for a Knowledge Commons That Outlives You
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A guide on naming, assigning, and handing off the five stewardship roles
+    (Editor, Curator, Facilitator, Maintainer, Onboarder) a knowledge commons
+    needs, how to measure fragility via the Contributor Absence Factor (Bus
+    Factor), and how to wire roles into existing tooling (CODEOWNERS,
+    all-contributors, GOVERNANCE.md) so succession survives turnover.
+  audience: small teams running a docs/GitHub-based knowledge commons
+  known_tensions:
+    - >-
+      Roles "written in a Notion page nobody opens are decoration"; the article
+      argues roles only become real when enforced by tooling (CODEOWNERS, bots)
+      rather than documented as intent.
+  related_concepts:
+    - stewardship-knowledge-commons
+    - contributor-absence-factor-bus-factor
+  related_resources:
+    - codeowners
+    - all-contributors
+    - gravity-dao
+    - protocol-guild
+    - wikimedia-stewards
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stewardship-roles.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: the article addresses a reader named "Sol" directly
+    ("Sol, this is where it gets concrete") — this reads as an audience persona
+    / direct-address device, not a real private individual's personal
+    information being exposed, so no person-node or public-use-boundary created
+    for it. No ecological/MRV/funding-decision content triggering high_risk.
+  work_order: wo-b33d0b2dd044
+  source_lineage: stewardship-roles.md

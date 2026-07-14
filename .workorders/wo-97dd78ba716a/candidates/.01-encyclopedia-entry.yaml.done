@@ -1,0 +1,38 @@
+schema: encyclopedia-entry
+object:
+  title: "The Promise: Coordination, Transparency, and New Economic Models"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A high-level orientation to why web3 excites regens beyond money: DAOs,
+    quadratic voting, and futarchy as coordination-without-central-control
+    tools; blockchain transparency as verifiable (not "transparency theater")
+    accountability; and new economic models (credentialing via POAPs/Gitcoin/
+    retroactive funding, community value capture, and impact-aligned
+    instruments like regenerative tokens and outcome-based bonds).
+  audience: regens evaluating whether web3 coordination tools are worth exploring
+  known_tensions:
+    - experimental-and-imperfect-tools vs genuinely-new-coordination-possibilities
+  related_concepts:
+    - dao
+    - quadratic-voting
+    - futarchy
+    - retroactive-public-goods-funding
+  related_resources:
+    - Snapshot
+    - Radicle
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/coordination-transparency.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-97dd78ba716a
+  source_lineage: coordination-transparency.md
+  notes: |
+    # assessed-but-excluded
+    - article is thin on citations (mostly definitional/promotional claims about
+      web3 capabilities with no sourcing); treated as concept overview rather
+      than claim-evidence since there is no specific verifiable figure to
+      isolate as a claim.

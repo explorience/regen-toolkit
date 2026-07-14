@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Galxe OAT (On-chain Achievement Token)
+  type: resource
+  url: https://help.galxe.com/
+  resource_type: attendance / achievement NFT badge tool
+  link_status: active
+  notes: >-
+    Article's cited active alternative to POAP for attendance/achievement badges
+    as of March 2026 (POAP entered maintenance mode — see accompanying signal).
+    Organizers design a badge campaign on galxe.com; attendees claim it for free
+    (gasless) by email or QR code.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/planning-web3-events.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-13f3c98bb4d6
+  source_lineage: planning-web3-events.md

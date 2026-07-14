@@ -1,0 +1,18 @@
+schema: resource
+object:
+  title: Axie Infinity
+  type: resource
+  url: https://axieinfinity.com
+  resource_type: play-to-earn game / NFT-based virtual economy
+  notes: >-
+    Cited in the article's Gaming and Virtual Economies section as an example
+    of NFT-based in-game asset ownership and play-to-earn mechanics.
+  related_concepts:
+    - nft-as-verifiable-ownership-record
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/nfts-beyond-art.md
+    transformation: summarized
+    authorship: ai-assisted

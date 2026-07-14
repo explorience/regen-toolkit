@@ -1,0 +1,39 @@
+schema: concept-lineage
+object:
+  title: Tokenomics
+  type: concept-lineage
+  short_description: >-
+    The economics of a cryptocurrency or token system — how many tokens
+    exist, how they are distributed, and what incentives are built in.
+  source_traditions:
+    - mechanism design / game theory
+    - traditional monetary economics (supply, inflation)
+    - token engineering (post-2018 DeFi practice)
+  toolkit_usage: >-
+    Defined in the glossary's "T" section alongside Token, Transaction Fee,
+    and Treasury; underlies design choices covered elsewhere in the toolkit
+    (e.g. local-currency design questions of unit, backing, and issuance).
+  adjacent_meanings:
+    - token design (the mechanics of a single token's rules)
+    - monetary policy (the macro discipline tokenomics borrows from)
+  important_distinctions:
+    - >-
+      Tokenomics ≠ Token — a token is the asset; tokenomics is the designed
+      system of incentives, supply, and distribution around it
+  tensions:
+    - >-
+      the glossary treats tokenomics as a neutral, technical discipline;
+      elsewhere in web3 discourse "tokenomics" is often used to paper over
+      extractive incentive design (Frame 1 language flagged in docs/CSIS.md)
+  risks_of_flattening: >-
+    Reducing tokenomics to "supply, distribution, incentives" omits the
+    value judgments embedded in any incentive design — who benefits from a
+    given distribution schedule is a governance question, not just an
+    economics one.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/key-terms-a-z.md
+    transformation: synthesized
+    authorship: ai-assisted

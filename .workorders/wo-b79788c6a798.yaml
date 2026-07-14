@@ -1,0 +1,29 @@
+id: wo-b79788c6a798
+title: ingest security-best-practices-orgs.md
+type: work-order
+source_path: security-best-practices-orgs.md
+source_hash: db17442dd7379a30455f919d33f7d6fb33e994d54bc1d810eb563f59379a841d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g7
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#security-best-practices-for-organizations-using-crypto-wallets
+  - >-
+    data/kb/concept-lineage.yaml#no-single-point-of-failure-organizational-crypto-custody
+  - >-
+    data/kb/claim-evidence.yaml#most-crypto-losses-come-from-human-error-not-technical-failure
+  - data/kb/resource.yaml#safe-formerly-gnosis-safe
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-organizational-security-treasury-recommendations-carry-real-financial-risk

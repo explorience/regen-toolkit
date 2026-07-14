@@ -1,0 +1,25 @@
+id: wo-88bafbd86463
+title: ingest building-momentum.md
+type: work-order
+source_path: building-momentum.md
+source_hash: 08be2ee43e4501d386d5505379555b73cbe6a7156c98e6ec73c64581ffa466e5
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - data/kb/encyclopedia-entry.yaml#building-momentum-for-your-local-node
+  - data/kb/concept-lineage.yaml#community-momentum-flywheel-and-rhythm-model
+  - data/kb/public-use-boundary.yaml#untitled-dbfc040d
+  - >-
+    data/kb/signal.yaml#building-momentum-md-sources-are-generic-categories-with-no-inline-citations-despite-factcheck-done-true

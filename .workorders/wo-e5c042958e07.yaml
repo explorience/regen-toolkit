@@ -1,0 +1,32 @@
+id: wo-e5c042958e07
+title: ingest what-is-dao.md
+type: work-order
+source_path: what-is-dao.md
+source_hash: 90146de21ef1a5d48dfadc92ecdb42522a28a0ceef7f70bea6520df4259936d7
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g9
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-is-a-dao
+  - >-
+    data/kb/concept-lineage.yaml#dao-decentralized-autonomous-organization-core-parts
+  - >-
+    data/kb/claim-evidence.yaml#safe-formerly-gnosis-safe-is-the-standard-multi-signature-treasury-guard-for-daos
+  - data/kb/resource.yaml#snapshot-gasless-dao-voting
+  - data/kb/resource.yaml#safe-formerly-gnosis-safe-d389c6bb
+  - data/kb/resource.yaml#aragon
+  - data/kb/resource.yaml#refi-dao-local-nodes
+  - data/kb/resource.yaml#greenpill-network-e0339b78
+  - >-
+    data/kb/signal.yaml#coordinape-peer-reward-tool-wound-down-its-app-in-2025-dao-tool-churn-caution

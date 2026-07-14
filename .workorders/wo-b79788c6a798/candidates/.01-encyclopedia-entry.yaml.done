@@ -1,0 +1,28 @@
+schema: encyclopedia-entry
+object:
+  title: Security Best Practices for Organizations Using Crypto Wallets
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    Security guidance for regenerative organizations holding crypto assets:
+    the core rule is no single point of failure, achieved via multi-sig
+    wallets (e.g. Safe) with configurations from 2-of-3 to 4-of-7 depending on
+    org size; layered role-based access control (operations/managers/
+    executives/board); separation of hot wallets (2-4 weeks of operating
+    funds) from cold-storage treasury reserves; a written policy framework
+    (digital-asset management, security protocols, emergency response,
+    smart-contract vetting); and ongoing team training on phishing and safe
+    transaction practices. Includes a practical security checklist and an
+    explicit warning against using personal wallets for organizational funds.
+  audience: DAO operators / regenerative organizations managing crypto treasuries
+  known_tensions: []
+  related_concepts:
+    - no-single-point-of-failure
+  related_resources:
+    - safe
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/security-best-practices-orgs.md
+    transformation: summarized
+    authorship: ai-assisted

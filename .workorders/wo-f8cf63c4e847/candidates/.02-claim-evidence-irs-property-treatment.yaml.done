@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: "IRS treats cryptocurrency as property, enabling charitable-deduction treatment like cash or stock"
+  type: claim-evidence
+  claim: >-
+    In the United States, nonprofits can legally accept cryptocurrency
+    donations; the IRS treats cryptocurrency as property, so donors can claim
+    charitable deductions similar to cash or stock donations. Laws vary by
+    country, and the article recommends checking local regulations or a
+    nonprofit lawyer.
+  evidence: >-
+    Attributed in-article to "CryptoAltruists" as the source.
+  source_lineage: src/content/docs/compliance-legal.md
+  interpretation: >-
+    Presented as general US-context legal/tax orientation for a nonprofit
+    deciding whether to accept crypto, not as jurisdiction-specific legal advice.
+  uncertainty: >-
+    Single secondary source (CryptoAltruists, a donation-platform-adjacent
+    resource hub, not a primary IRS citation); tax law changes over time and
+    varies by country — the article itself flags this and recommends
+    professional legal counsel.
+  maturity: raw
+  public_use: not-public-yet
+  high_risk: true
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/compliance-legal.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f8cf63c4e847

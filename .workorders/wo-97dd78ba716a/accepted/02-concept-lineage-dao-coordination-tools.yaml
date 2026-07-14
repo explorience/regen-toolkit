@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: >-
+    Coordination-without-central-control tools (DAOs, quadratic voting,
+    futarchy)
+  type: concept-lineage
+  short_description: >-
+    A family of decision-making mechanisms the article groups together as web3
+    alternatives to hierarchical organization: DAOs (community-vote governed
+    orgs), quadratic voting (dampens wealth-weighted dominance), and futarchy
+    (deciding via prediction markets).
+  toolkit_usage: >-
+    Introduced together in coordination-transparency.md as evidence that "groups
+    can make decisions together, even if they've never met," framed as the
+    non-monetary appeal of web3 for regens.
+  adjacent_meanings:
+    - >-
+      quadratic-funding (a related but distinct mechanism for allocating money,
+      not votes)
+  important_distinctions:
+    - >-
+      quadratic voting (decision weight) is distinct from quadratic funding
+      (matching-fund allocation), though both use the same square-root
+      mathematical dampening idea
+    - >-
+      futarchy (bet-driven decisions) is a much less-adopted, more experimental
+      mechanism than DAOs or quadratic voting
+  tensions:
+    - >-
+      decision-quality-in-theory vs
+      low-real-world-adoption-of-futarchy-specifically
+  risks_of_flattening: >-
+    Grouping DAOs, quadratic voting, and futarchy as equally mature options
+    obscures that futarchy remains largely theoretical/experimental compared to
+    the other two, which the source article does not distinguish.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/coordination-transparency.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-97dd78ba716a
+  source_lineage: coordination-transparency.md

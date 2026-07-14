@@ -1,0 +1,27 @@
+schema: source-system
+object:
+  title: Greenpill Network
+  type: directory
+  url: https://greenpill.network/
+  steward: Greenpill Network
+  what_it_curates: >-
+    A world map / directory of 12 active local regen chapters (as of the
+    article, mid-2026), an entry path for would-be founders, and a Local Regen
+    Guide (PDF) field guide to organizing a place-based regen chapter.
+  why_it_matters: >-
+    One of the two networks (with ReFi DAO) running the most local nodes
+    currently; the article's first recommended stop for scouting an existing
+    nearby node before building one from scratch.
+  how_to_credit: unknown — not stated in the article
+  reuse_conditions: unknown — not stated in the article
+  return_path: unknown — not stated in the article
+  currentness: "~12 active chapters as of mid-2026, per the article"
+  update_rhythm: unknown — not stated in the article
+  extraction_status: partial — only the framing given in this article has been captured
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-local-node.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Quartz
+  type: resource
+  resource_type: tool
+  url: https://quartz.jzhao.xyz/
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  related_concepts:
+    - evergreen-notes-maturity-taxonomy
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md
+  notes: >-
+    Open-source static-site generator that turns an Obsidian or Markdown
+    folder into a published site. Article notes it lets teams carry a
+    publish/maturity flag in each note's frontmatter, so the growth state
+    that helps the writer also signals trust to readers.

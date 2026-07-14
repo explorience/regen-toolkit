@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: "August 2010 Bitcoin value-overflow bug created 92 billion BTC, fixed within hours"
+  type: claim-evidence
+  claim: >-
+    On August 15, 2010, a bug let someone create 92 billion BTC in a single
+    transaction; developers fixed it within hours, and miners forked the
+    blockchain to reverse the exploit — described in the article as
+    Bitcoin's first real test of decentralized crisis response.
+  evidence: >-
+    Stated as historical fact in the article's "2010: Pizza and a Crisis"
+    section; this event (the "value overflow incident") is well documented
+    in Bitcoin's public history and version-control record, though the
+    article itself cites no dedicated source.
+  source_lineage: src/content/docs/bitcoin-history.md
+  interpretation: >-
+    Framed by the article as evidence that Bitcoin's decentralized model
+    could respond to a critical bug quickly and without a central authority
+    unilaterally deciding the fix.
+  uncertainty: >-
+    Core facts (date, bug type, fork response) align with widely published
+    accounts of the incident, but this article provides no inline citation
+    or reference link, and its frontmatter carries placeholder source values
+    rather than real citations (see companion signal object).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/bitcoin-history.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-648651c05dac

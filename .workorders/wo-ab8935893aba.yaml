@@ -1,0 +1,26 @@
+id: wo-ab8935893aba
+title: ingest identity-verification.md
+type: work-order
+source_path: identity-verification.md
+source_hash: 0529db745abb584aa50fc4bb5e7476e9e71d0b18a42ee05fe36cd1c2b8d5fce9
+source_type: transcript
+target_schemas:
+  - source-system
+  - resource
+  - concept-lineage
+  - signal
+  - claim-evidence
+instructions: >-
+  Deep intake (transcript): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g5
+produced:
+  - data/kb/encyclopedia-entry.yaml#identity-verification-in-web3
+  - data/kb/concept-lineage.yaml#zero-knowledge-proof-selective-disclosure
+  - data/kb/concept-lineage.yaml#verifiable-credential-wallet-held-attestation
+  - >-
+    data/kb/claim-evidence.yaml#web3-verification-can-prove-an-attribute-without-revealing-underlying-documents

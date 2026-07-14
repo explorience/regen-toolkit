@@ -1,0 +1,26 @@
+id: wo-ac0da2dd8891
+title: ingest gas-fees.md
+type: work-order
+source_path: gas-fees.md
+source_hash: 7d08406b2e36a3980efa6a04e1a68955f13f007842367d722767625c0b3f9ab1
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g4
+produced:
+  - data/kb/encyclopedia-entry.yaml#understanding-gas-fees-in-cryptocurrency
+  - data/kb/concept-lineage.yaml#gas-fee-eip-1559-base-fee-tip-model
+  - >-
+    data/kb/claim-evidence.yaml#layer-2-fees-drop-90-99-a-5-mainnet-swap-costs-0-05-on-arbitrum
+  - data/kb/resource.yaml#arbitrum
+  - data/kb/resource.yaml#optimism

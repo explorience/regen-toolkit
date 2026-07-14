@@ -1,0 +1,30 @@
+id: wo-fbc6bfc6b3e0
+title: ingest funding-gatherings.md
+type: work-order
+source_path: funding-gatherings.md
+source_hash: 2f3286ac2507a3d872ff86f118319a563be8c4b215c527dffacc10cae81b06fc
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g4
+produced:
+  - data/kb/encyclopedia-entry.yaml#funding-your-gatherings
+  - data/kb/concept-lineage.yaml#quadratic-funding-88322c59
+  - >-
+    data/kb/claim-evidence.yaml#ethereum-foundation-esp-explicitly-supports-community-events-and-hubs
+  - data/kb/resource.yaml#gitcoin-grants-d0ef2404
+  - data/kb/resource.yaml#giveth-69fecc4d
+  - data/kb/resource.yaml#endaoment
+  - data/kb/resource.yaml#juicebox
+  - data/kb/resource.yaml#ethereum-foundation-ecosystem-support-program
+  - data/kb/resource.yaml#octant-d3101afa

@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: USDC's March 2023 depeg to ~$0.87 (Silicon Valley Bank exposure)
+  type: claim-evidence
+  claim: >-
+    In March 2023, USDC briefly fell to about $0.87 because Circle had $3.3
+    billion of its reserves stuck in Silicon Valley Bank when that bank failed;
+    it recovered fully within days once the money was secured.
+  evidence: >-
+    Article cites a CoinDesk report ("Circle confirms $3.3B stuck at Silicon
+    Valley Bank") in its References section.
+  source_lineage: src/content/docs/stablecoins.md
+  interpretation: >-
+    Used as the article's central "real breaks happen" example, to
+    counterbalance the reassurance that fiat-backed stablecoins are safe — even
+    a fully-reserved, regularly-audited coin depegged under real counterparty
+    risk.
+  uncertainty: >-
+    Matches the well-documented March 2023 SVB/USDC depeg event; not
+    independently re-verified against the cited CoinDesk article in this
+    ingestion pass.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stablecoins.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-95e1e939f56d

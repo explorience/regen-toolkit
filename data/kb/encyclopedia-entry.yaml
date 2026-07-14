@@ -637,3 +637,3933 @@ entries:
       authorship: ai-assisted
     work_order: wo-ee62e83173d4
     source_lineage: decentralization-spectrum.md
+  wallet-comparison-guide:
+    title: Wallet Comparison Guide
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      A beginner-oriented comparison of four Android crypto wallets (Coinbase
+      Wallet, MetaMask, Trust Wallet, Rainbow) on ease of use, feature breadth,
+      and blockchain support, plus core wallet concepts (public address vs
+      secret/seed phrase), safety tips, and step-by-step first-wallet setup
+      instructions tied to a specific program's onboarding flow.
+    audience: >-
+      complete beginners setting up their first crypto wallet on Android, within
+      a specific program's onboarding
+    known_tensions:
+      - >-
+        ease-of-use (Coinbase Wallet) vs feature breadth/Web3-app-compatibility
+        (MetaMask)
+      - >-
+        simplicity for beginners vs the safety burden of self-custody (no bank
+        to call if the seed phrase is lost or stolen)
+    related_concepts:
+      - self-custody-wallets
+      - seed-phrase-security
+    related_resources:
+      - Coinbase Wallet
+      - MetaMask
+      - Trust Wallet
+      - Rainbow Wallet
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/wallet-comparison-guide.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: wallet-comparison-guide.md
+    notes: |
+      # assessed-but-excluded
+      - the article names an unspecified "Sarreya program coordinator" as the
+        support contact and references sending "test USDC" — this points to a
+        specific onboarding program whose identity/affiliation is not
+        explained in the article itself. Not enough information to build a
+        faithful source-system or resource card without inventing facts about
+        what "Sarreya" is; captured instead as a signal flagging the gap for a
+        human reviewer, per the "don't invent facts" rule.
+      - no exact personal locations or named individuals; general safety
+        advice (never share your seed phrase) is standard guidance, not a
+        high-risk trigger under the framework's list (people/locations/TEK/
+        MRV/funding-legal-governance).
+    work_order: wo-003c0d82b00d
+  how-blockchain-transactions-work:
+    title: How Blockchain Transactions Work
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      Walks through the seven-step life cycle of a blockchain transaction —
+      creation, signing (with a private key), broadcasting to the mempool, node
+      verification, block inclusion, network consensus, and confirmation — and
+      connects it to why transparent, permanent, no-single-entity records matter
+      for community economies.
+    audience: beginners with no prior blockchain background
+    known_tensions: []
+    related_concepts:
+      - mempool-transaction-waiting-room
+    related_resources:
+      - ledger-academy-how-does-a-blockchain-transaction-work
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/how-transactions-work.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: the article's "Try This" permaculture-notebook
+      analogies and blockchain-explorer exercise were left as narrative
+      exercises, not extracted as separate typed objects. "Bankless Academy -
+      Blockchain Basics" is not re-created as a new resource object — an
+      identically-titled resource already exists in data/kb/resource.yaml from a
+      prior ingestion slice.
+    work_order: wo-03d7c600800a
+    source_lineage: how-transactions-work.md
+  building-trust-in-community-finance:
+    title: Building Trust in Community Finance
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A guide to building and protecting the trust a local node's community
+      finance (timebank, local currency, shared treasury) runs on, for
+      organizers already working in regen/web3. Distinguishes verification
+      (proof of what happened) from trust (belief people will do what they say),
+      names three kinds of trust to build deliberately (competence, integrity,
+      benevolence), lists concrete trust-building practices (transparency by
+      default, consistency, owning mistakes, keeping commitments, inclusion,
+      celebrating trustworthy behavior), addresses the "trust velocity"
+      bootstrapping paradox, names early warning signs of trust breakdown, and
+      gives a five-step repair process after a breach. Cites Fukuyama's
+      social-trust thesis and Grassroots Economics' Sarafu Network as worked
+      evidence.
+    audience: organizers running community treasuries, timebanks, or local currencies
+    known_tensions:
+      - >-
+        technology gives verification, not trust — the article treats a smart
+        contract as able to enforce a rule but not make people want to show up,
+        arguing nodes must build social trust rather than substitute technology
+        for trust not yet earned.
+      - >-
+        trust velocity paradox — you need trust to run community finance, but
+        you need to run community finance together to build trust; resolved by
+        starting low-stakes and graduating trust over time.
+    related_concepts:
+      - three-kinds-of-trust-competence-integrity-benevolence
+    related_resources:
+      - 'Grassroots Economics: Sarafu Network'
+      - Safe (multisig wallets)
+      - Human Passport
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-trust.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-06b003d4c0b2
+    source_lineage: building-trust.md
+    notes: |
+      # assessed-but-excluded
+      - No individual community members named; no exact locations, TEK, or
+        MRV/carbon claims. The article does give specific treasury/governance
+        configuration advice (e.g. 3-of-5 multisig signer setups), which is a
+        funding/governance-recommendation trigger — see the companion
+        public-use-boundary object.
+      - Fukuyama's book and the Sarafu Network survey are modeled as their own
+        claim-evidence objects rather than folded into this summary, since each
+        carries independent, checkable evidentiary weight.
+  types-of-gatherings-for-local-nodes:
+    title: Types of Gatherings for Local Nodes
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practical guide for regen local-node organizers to a repertoire of
+      gathering formats — informal (community meal, walk-and-talk, open house),
+      educational (workshop, learning circle, demonstration day),
+      decision-making (town hall using consent-based decision-making,
+      retrospective), and celebration (milestone party, open celebration) —
+      matched to a node's stage of development (pre-formation through renewal),
+      with a sustainable weekly/monthly/quarterly rhythm and named real-world
+      examples from ReFi Cape Town, ReFi Barcelona, and ReFi DAO's global
+      cadence.
+    audience: >-
+      people starting or running a regen local node (ReFi DAO / GreenPill
+      Network chapter organizers)
+    known_tensions:
+      - format-choice-determines-outcome vs topic-choice (the guide's core claim: same topic, different container, opposite result)
+      - >-
+        high-effort/ambitious-calendar vs low-effort/sustainable-rhythm (burnout
+        risk)
+      - >-
+        central-facilitator-driven decisions vs genuinely-shared decision-making
+        (why the guide pushes consent-based process)
+    related_concepts:
+      - gathering-format-selection
+      - consent-based-decision-making
+      - node-burnout-prevention
+    related_resources:
+      - ReFi DAO
+      - GreenPill Network
+      - Canòdrom
+      - The World Café
+      - Open Space Technology
+      - Liberating Structures
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/types-of-gatherings.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: types-of-gatherings.md
+    notes: |
+      # assessed-but-excluded
+      - Priya Parker's "The Art of Gathering" and the Sociocracy For All /
+        Prime Directive (Norm Kerth) citations are folded into the
+        concept-lineage's source_traditions rather than separate resource
+        objects, since they're cited as intellectual lineage, not tools to
+        adopt directly.
+      - no people/community profiles beyond named orgs (ReFi Cape Town, ReFi
+        Barcelona) and no exact private locations; Canòdrom is a public civic
+        venue named by its public role, not a private address — no high-risk
+        trigger identified.
+    work_order: wo-0953aae86e06
+  what-is-ethereum:
+    title: What Is Ethereum?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A beginner explainer for regenerative community builders (written for a
+      Somaliland/East Africa audience) framing Ethereum not as "another
+      cryptocurrency" but as a shared, tamper-proof digital notebook run by
+      thousands of computers with no single controller. Explains smart contracts
+      via a vending-machine metaphor (set conditions, code executes
+      automatically, no middleman), sketches concrete regen use cases (DAO
+      decision-making, transparent fundraising, automatic crop insurance via
+      oracles), and addresses the energy-use objection head-on (Ethereum's 2022
+      "Merge" cut energy use ~99%).
+    audience: individual community builders new to Web3, East Africa / Somaliland
+    known_tensions:
+      - >-
+        Ethereum-as-money vs. Ethereum-as-platform — the article's central
+        reframing is that Ethereum's differentiator from Bitcoin is programmable
+        smart contracts, not just being "digital cash."
+    related_concepts:
+      - smart-contract
+      - dao
+    related_resources:
+      - metamask
+      - ethereum-name-service
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-ethereum.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-ethereum.md
+    work_order: wo-0e57f85327bf
+  what-is-dmrv-and-why-should-you-care:
+    title: What is dMRV and Why Should You Care?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A beginner-friendly introduction to Digital Measurement, Reporting, and
+      Verification (dMRV) — proving that regenerative work (tree planting, water
+      conservation, grazing-land recovery) really happened, using phones/apps
+      for data collection and either automated (satellite) or human
+      verification. Walks through worked examples from Hargeisa and Berbera, a
+      simple four-step process, and a five-step getting-started guide using
+      tools like KoboToolbox, ODK, or Google Forms.
+    audience: Researcher / grassroots practitioners (beginner)
+    known_tensions:
+      - >-
+        simple-phone-based-data-collection vs the technical/carbon-market
+        expectations of formal MRV standards — the article deliberately keeps
+        the bar low ("you don't need expensive equipment") while still
+        connecting to "carbon markets and environmental programs" that require
+        verified data.
+    related_concepts:
+      - digital-measurement-reporting-verification
+    related_resources:
+      - KoboToolbox
+      - ODK
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    high_risk: true
+    provenance:
+      origin: src/content/docs/dmrv.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-0e8b32eb0398
+    source_lineage: dmrv.md
+    notes: |
+      # assessed-but-excluded
+      - "Fatima's group in Hargeisa" and "a women's cooperative in Berbera" are
+        described anonymously (first name only / no surname, no identifying
+        detail beyond location + activity) — treated as illustrative composite
+        examples, not real named individuals to profile; no public person-node
+        created per the ingest skill's guardrail against creating public
+        person-nodes. The named locations (Hargeisa, Berbera) combined with
+        specific project outcomes are a high-risk trigger (exact locations +
+        ecological/impact claims) — see the claim-evidence and
+        public-use-boundary objects below.
+  documentation-for-local-nodes:
+    title: Documentation for Local Nodes
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practical guide to community documentation: why it builds institutional
+      memory, the four types a node needs (governance, process, historical,
+      knowledge-base), tool choices by tier (Google Docs/Drive, Notion/Coda,
+      GitHub/GitBook), a priority guide (must-have/should-have/nice-to-have),
+      maintenance practices (assign ownership, review schedule), a two-track
+      documentation workflow (event-driven and ongoing), best practices (clear,
+      concise, current, accessible), and common mistakes to avoid.
+    audience: Local-Organizer
+    known_tensions:
+      - >-
+        over-documentation-risk vs the core argument that documentation prevents
+        knowledge loss — the article explicitly warns "do not try to document
+        everything," in tension with its own case for documenting thoroughly.
+      - >-
+        accessible-familiar-tools (Google Docs) vs durable-technical-tools
+        (GitHub/GitBook) — the article frames this as a real trade-off between
+        ease of adoption and long-term platform survival.
+    related_concepts:
+      - institutional-memory
+    related_resources:
+      - Notion
+      - GitBook
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/documentation-knowledge.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-12f41d6ac647
+    source_lineage: documentation-knowledge.md
+    notes: |
+      # assessed-but-excluded
+      - Google Docs/Drive and Coda are named tools with brief descriptions but
+        not built into separate resource objects — kept Notion and GitBook (the
+        two given the most specific "good for X" framing plus explicit external
+        links in the references) as resources, per "small objects, not
+        mega-objects" while avoiding a near-complete tool-list dump for
+        one-line mentions.
+      - No people/community profiles, exact locations, or high-risk triggers
+        identified — general documentation-practice guidance, not tied to any
+        specific real organization's funding/legal/governance situation; no
+        public-use-boundary object created.
+  planning-web3-events-for-your-local-node:
+    title: Planning Web3 Events for Your Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practitioner playbook for running local-node events without burning out
+      organizers. Core moves: pick one job per event (educational, social,
+      working, or celebration — never all four at once); tie web3 tooling to a
+      concrete local question rather than leading with tokenomics; follow a
+      five-phase repeatable plan (define the job, set logistics, promote, run
+      the day, follow up within 24 hours); budget for the tier you can repeat
+      monthly rather than a heroic one-off; and rotate hosting/roles so no
+      single person becomes the node. Includes a current (mid-2026) survey of
+      event tooling costs and status changes (Luma, Meetup, Eventbrite, Gather,
+      POAP, Galxe OAT).
+    audience: local node stewards / community organizers
+    known_tensions:
+      - >-
+        Attendance-badge collections (POAP/Galxe OAT) are framed as a nice
+        touch, but the article also notes they "quietly become your node's
+        on-chain history of who showed up," which "can later inform who gets a
+        vote, a role, or a share of a grant" — a governance-relevant use the
+        article flags but does not fully work through.
+    related_concepts:
+      - one-job-per-event
+    related_resources:
+      - luma
+      - galxe-oat
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/planning-web3-events.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-13f3c98bb4d6
+    source_lineage: planning-web3-events.md
+  common-pitfalls-when-starting-a-local-node:
+    title: Common Pitfalls When Starting a Local Node
+    type: encyclopedia-entry
+    page_type: anti-pattern
+    summary: >-
+      Eight recurring failure patterns that sink new local regen nodes/chapters
+      — designing in a vacuum, chasing on-chain tooling before the coordination
+      problem is proven, premature governance theatre, founder burnout,
+      confusing motion with progress, over-isolating or over-attaching to a
+      parent network, and giving up during a natural low-participation dip —
+      each paired with a concrete fix drawn from real projects (Greenpill
+      Network, Grassroots Economics/Sarafu, Compound DAO's Proposal 289,
+      hOurworld).
+    audience: people starting or stewarding a new local regen node/chapter
+    known_tensions:
+      - move-fast-with-a-token vs prove-the-coordination-problem-manually-first
+      - autonomous-node vs connected-to-the-wider-network
+      - sophisticated-governance-tooling vs actual-voter-participation
+    related_concepts:
+      - local-node
+      - dao-voter-apathy
+      - autonomous-yet-connected
+    related_resources:
+      - Greenpill Network
+      - Grassroots Economics / Sarafu
+      - hOurworld
+      - Regen Coordination Hub
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-pitfalls.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-143cd63d37c3
+    source_lineage: common-pitfalls.md
+    notes: >
+      # assessed-but-excluded
+
+      - no individual people are named/profiled (the "Golden Boys" delegate bloc
+      in the
+        Compound example is a public, already-widely-reported pseudonymous group, not an
+        identifiable private person) — treated as a governance-history claim, not a
+        person-node.
+  daos-vs-traditional-organizations-a-new-way-to-coordinate:
+    title: 'DAOs vs Traditional Organizations: A New Way to Coordinate'
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Contrasts DAOs with traditional hierarchical firms across four dimensions
+      — how decisions get made, organizational structure (flat vs pyramid), and
+      how capital is raised (token issuance vs venture capital/loans/IPOs) —
+      then lists benefits (reduced overhead, transparency, global access,
+      aligned incentives) and honest challenges (voter fatigue, token
+      concentration, legal uncertainty), with East-Africa-specific framing
+      around cooperatives and cross-border participation.
+    audience: Community-Steward
+    known_tensions:
+      - >-
+        open-participation-for-anyone-with-a-token vs
+        voter-fatigue-and-low-turnout — the article notes low participation is a
+        real risk even though the option to participate is open.
+      - >-
+        wide-token-distribution-in-principle vs token-concentration-in-practice
+        — "if a few people hold most tokens, governance can become centralized
+        in practice."
+    related_concepts:
+      - flat-vs-hierarchical-organization
+    related_resources:
+      - DeepDAO
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/daos-vs-traditional.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-15f037f070f8
+    source_lineage: daos-vs-traditional.md
+    notes: >
+      # assessed-but-excluded
+
+      - No specific named tools beyond Snapshot (already covered as a resource
+      in
+        the dao-tooling.md ingest from this same batch) and DeepDAO (new here) —
+        did not re-create a duplicate Snapshot resource object for this article.
+      - No people/community profiles, exact locations, or high-risk triggers
+        identified — general comparative/educational content; no
+        public-use-boundary object created.
+  human-review-boundaries-for-a-knowledge-commons:
+    title: Human Review Boundaries for a Knowledge Commons
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      Argues that a knowledge commons needs an explicit, written "review
+      boundary" — sorted by the consequence of an entry being wrong, not by its
+      volume or length — so it neither buries reviewers under every edit nor
+      lets unreviewed content masquerade as agreed truth. Proposes a three-tier
+      model (ephemeral/personal, working/shared, canonical/load-bearing),
+      grounds it in Elinor Ostrom's commons-governance principles, and shows how
+      a Git/PR workflow (or a Notion Status property) can make the tool enforce
+      the gate instead of a person policing it.
+    audience: >-
+      small teams stewarding a wiki, digital garden, or knowledge base who need
+      it to survive staff/volunteer turnover
+    known_tensions:
+      - >-
+        reviewing-everything-bottlenecks-the-steward-vs-reviewing-nothing-lets-the-commons-rot
+      - >-
+        git-PR-audit-trail-rigor-vs-Notion's-lower-learning-curve-for-non-technical-teams
+    related_concepts:
+      - review-boundary-consequence-based-content-tiering
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/human-review-boundaries.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: Quartz, Obsidian, and Astro Starlight are not
+      re-created as new resource objects here — identically- or
+      near-identically-titled resources already exist in data/kb/resource.yaml
+      from a prior ingestion slice. Ostrom's design principles were not
+      re-asserted as a duplicate claim-evidence object — a near-identical claim
+      ("Commons governance principles (Ostrom) apply to source-system
+      stewardship") already exists in data/kb/claim-evidence.yaml; a more
+      specific SuperBenefit-tiering claim was captured instead.
+    work_order: wo-16d3d5100c36
+    source_lineage: human-review-boundaries.md
+  is-your-community-ready-for-a-local-node:
+    title: Is Your Community Ready for a Local Node?
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A readiness check for organizers standing up a local ReFi node, arguing
+      that the technology is the easy part and the gap between imagined and
+      actual participation is what kills these projects. Uses the nine-stage
+      Community Readiness Model to set "stage 5, preparation" as the honest
+      launch cutoff, lists green/red flags, gives a three-part readiness test
+      (organize one small thing, handle one small conflict, sustain effort three
+      months), and warns against single-founder dependency using the collapse of
+      Ithaca Hours, the Bristol Pound, and the Brixton Pound as cautionary
+      examples, contrasted with the resilient, multi-stakeholder Sarafu Network.
+    audience: organizers preparing to launch a local ReFi node/chapter
+    known_tensions:
+      - >-
+        this-isnt-gatekeeping-framing-vs-the-real-effect-of-telling-a-community-it-isnt-ready-yet
+    related_concepts:
+      - community-readiness-model-nine-stage-readiness-assessment
+    related_resources:
+      - tri-ethnic-center-community-readiness-model-assessment-manuals
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/is-community-ready.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: "Grassroots Economics / Sarafu Network" is not
+      re-created as a new resource object — it already exists in
+      data/kb/resource.yaml from a prior ingestion slice. A separate "single
+      point of failure" concept-lineage was not created — the framework already
+      has an equivalent "Bus factor" concept-lineage; the Ithaca Hours/Bristol
+      Pound/Brixton Pound specifics are instead captured as a claim-evidence
+      object linked to that existing concept.
+    work_order: wo-18f3652d0e28
+    source_lineage: is-community-ready.md
+  common-concerns-about-web3-answered-honestly:
+    title: Common Concerns About Web3, Answered Honestly
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A myth-by-myth response to the standard newcomer worries about web3 for
+      permaculturists and community organisers: is it a scam, is it only for the
+      rich, is it just gambling, what about the environment, do I need to
+      understand the tech, and what happens when I make mistakes. Distinguishes
+      fraud (a human problem) from the tool, separates the volatile token from
+      the underlying technology, and gives a precise (not hand-wavy) answer on
+      energy use by contrasting proof-of-work and proof-of-stake networks.
+    audience: >-
+      permaculturists and community organisers new to Web3, weighing whether to
+      look closer
+    known_tensions:
+      - transparency-as-scam-fighter vs transparency-does-not-stop-fraud
+      - token-price-speculation vs the-underlying-coordination-technology
+      - >-
+        irreversibility protects against reversal-fraud but also punishes user
+        error
+    related_concepts:
+      - proof-of-work-vs-proof-of-stake
+      - blockchain-as-shared-record
+      - wallet-and-seed-phrase-basics
+    related_resources:
+      - Sarafu / Grassroots Economics
+      - Silvi Protocol
+      - World Bank Remittance Prices Worldwide
+      - Cambridge Bitcoin Electricity Consumption Index
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/common-concerns.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-1fd434ce7666
+    source_lineage: common-concerns.md
+    notes: >
+      # assessed-but-excluded
+
+      - "the scammer psychology / pressure tactics" material (do X right now)
+      folded into
+        the claim-evidence object below rather than a separate object; too thin on its own.
+      - no people/community profiles or exact locations named in this article;
+      no
+        high-risk trigger identified — it's general consumer-facing FAQ content.
+  what-is-cryptocurrency:
+    title: What Is Cryptocurrency?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language introduction to cryptocurrency for community organizers
+      and growers, using a "shared notebook" analogy for blockchain, drawing the
+      coin/token distinction, and grounding the "why should I care" question in
+      four concrete cases (Sarafu Network local currency, Regen Network
+      ecological credits, Glo Dollar's donation-funding stablecoin, and cheap
+      cross-border remittances), before addressing head-on the three standard
+      fears: environmental impact, scams, and hype.
+    audience: >-
+      community organisers and growers new to crypto (gardens, tool libraries,
+      seed swaps)
+    known_tensions:
+      - >-
+        decentralisation-as-no-single-boss vs the practical need for someone to
+        still write good software and maintain it
+      - >-
+        crypto's real environmental cost is chain-specific (proof-of-work vs
+        proof-of-stake), not a single verdict
+      - >-
+        the honest "you almost certainly don't need crypto" framing vs the four
+        cases presented as genuinely useful
+    related_concepts:
+      - blockchain-shared-ledger
+      - coins-vs-tokens
+    related_resources:
+      - Sarafu Network / Grassroots Economics
+      - Regen Network
+      - Glo Dollar
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-cryptocurrency.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-cryptocurrency.md
+    notes: |
+      # assessed-but-excluded
+      - GiveDirectly is mentioned only as "a major recipient" of Glo Dollar's
+        donated interest, a brief supporting detail folded into the Glo
+        Dollar resource note rather than given its own object.
+      - Bankless Academy and Kaspersky are cited only as general educational
+        references (a lesson platform and a definitional source), not
+        elaborated on in the body; excluded as their own resource objects to
+        avoid mega-listing thin mentions.
+      - no people/community profiles, exact locations, TEK, or funding/legal
+        recommendations named; standard scam-safety guidance is not a
+        high-risk trigger under the framework's list.
+    work_order: wo-21b470d1f9f4
+  nfts-beyond-art-practical-applications-of-digital-ownership:
+    title: 'NFTs Beyond Art: Practical Applications of Digital Ownership'
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      Surveys non-collectible uses of NFTs (blockchain records of unique-item
+      ownership): gaming/virtual-economy asset ownership, digital
+      credentials/attestations for informally-trained skills, real-estate
+      fractional ownership, supply-chain/product-provenance tracking,
+      fraud-proof event ticketing with enforced resale rules, and direct-to-fan
+      music releases with automatic royalty splits. Frames the value as
+      permanent, verifiable, hard-to-forge ownership records rather than the
+      speculative art/collectible use case.
+    audience: community organizers / individuals exploring web3 tools
+    known_tensions:
+      - >-
+        Gaming section raises "who captures the value" of in-game digital labor
+        once assets are player-owned and tradeable, without resolving it.
+      - >-
+        Real-estate fractionalization is framed as opening property investment
+        access, but the article itself flags open questions about what
+        fractionalizing collective/community-trust property would mean in
+        practice.
+    related_concepts:
+      - nft-as-verifiable-ownership-record
+    related_resources:
+      - axie-infinity
+      - ibm-food-trust
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/nfts-beyond-art.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-22368f102589
+    source_lineage: nfts-beyond-art.md
+  leadership-development-for-community-finance:
+    title: Leadership Development for Community Finance
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      How to identify, develop, and distribute leadership within a local node so
+      community finance survives the departure of any single person. Names the
+      "leadership paradox" (need coordination, but concentrated leadership
+      recreates hierarchy), the "founder trap," qualities to look for in
+      emerging leaders (initiative, reliability, relational skill, learning
+      orientation, long-term thinking), a five-part development model, three
+      distribution structures (role rotation, nested leadership, federated
+      structure), five common mistakes, and a five-stage pathway from Observer
+      to Elder. Frames leadership in East African / Somaliland contexts as
+      already relational and contextual (clan elders, women's group leaders,
+      mosque committee members) rather than importing a single-founder model.
+    audience: >-
+      local-node organizers and community stewards, East Africa /
+      Somaliland-focused track
+    known_tensions:
+      - >-
+        the "leadership paradox" itself — enough leadership to coordinate
+        collective action vs. too much leadership recreating the hierarchies
+        community finance is meant to escape
+    related_concepts:
+      - Distributed Leadership
+      - Nested Leadership / Leadership Pathway
+    related_resources:
+      - Leadership on the Line (Heifetz & Linsky)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/leadership-development.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-2e536fd73e7a
+    source_lineage: leadership-development.md
+  an-editorial-workflow-your-commons-won-t-outgrow:
+    title: An Editorial Workflow Your Commons Won't Outgrow
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A concrete editorial workflow for knowledge commons: five stages (Draft,
+      Review, Approve, Publish, Maintain); making trust-state visible on every
+      page (status field or growth labels like seedling/budding/evergreen);
+      separating claims from evidence with a Wikipedia Good-Article-style
+      citation spot-check; using pull requests (and GitBook's change-request
+      equivalent for non-coders) as the review container, with CODEOWNERS
+      auto-assigning reviewers; sorting pages by Diátaxis type (tutorial,
+      how-to, reference, explanation) so reviewers know what "good" means for
+      that page; treating maintenance as an owned, scheduled stage rather than
+      an afterthought; and handling disagreement as a normal, non-violent part
+      of the review process.
+    audience: small knowledge-commons/documentation teams
+    known_tensions:
+      - >-
+        polished-writing vs reviewed-knowledge — "a well-written page can still
+        be wrong," the article's core justification for separate Review/Approve
+        stages.
+      - >-
+        friendly-non-technical-tooling (GitBook) vs rigorous-technical-tooling
+        (GitHub pull requests + CODEOWNERS) — presented as the same underlying
+        container with a friendlier door, not a real trade-off in outcome.
+    related_concepts:
+      - claim-evidence-discipline
+      - diataxis-documentation-framework
+    related_resources:
+      - GitBook
+      - Vale
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/editorial-workflow.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-379fb55cc1a6
+    source_lineage: editorial-workflow.md
+    notes: |
+      # assessed-but-excluded
+      - Wikipedia's Good Article process, GitHub CODEOWNERS, and GravityDAO's
+        conflict-management approach are all cited with named sources but treated
+        as supporting citations within the encyclopedia entry / concept-lineage
+        objects rather than separate resource cards, since the article uses them
+        as evidentiary references rather than tools this commons would adopt
+        directly (unlike GitBook and Vale, which are actionable recommendations).
+      - No people/community profiles, exact locations, or MRV/ecological/funding
+        claims — this is meta-level guidance about documentation process; no
+        public-use-boundary object created.
+  seed-phrases:
+    title: Seed Phrases
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language explainer of seed phrases (Secret Recovery Phrase /
+      mnemonic phrase) for community organisers and regenerative practitioners
+      new to crypto: what the 12-24 word BIP39 phrase is, why it works across
+      wallets and chains, how to store it safely, the
+      phishing/social-engineering scams that target it, and multisig (Safe) as
+      the group-treasury alternative to a single point of failure.
+    audience: community organisers and regenerative practitioners new to crypto
+    known_tensions:
+      - >-
+        Full personal responsibility for the phrase (no password reset, no
+        support line) is presented as empowering self-custody, but is also a
+        real single-point-of-failure risk for individuals and treasuries.
+    related_concepts:
+      - hd-derivation
+      - multisig
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/seed-phrases.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: no high-risk personal/location/TEK/MRV content in
+      this article; no public person-nodes to create. The "For Community
+      Treasuries" section's succession-planning questions are general governance
+      prompts, not specific funding/legal advice, so not flagged high_risk.
+    work_order: wo-38c3e2b4e44f
+    source_lineage: seed-phrases.md
+  how-to-get-your-first-crypto:
+    title: How to Get Your First Crypto
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A scam-aware, "start tiny" guide for community organizers acquiring their
+      first cryptocurrency, covering three ways in (centralized exchange,
+      peer-to-peer with escrow, earning through paid work/bounties/staking), the
+      energy objection (Bitcoin proof-of-work vs. Ethereum's post-Merge
+      proof-of-stake), and a set of non-negotiable scam-avoidance habits.
+    audience: >-
+      community organizers and growers with no prior crypto experience,
+      especially those weighing crypto for cross-border grant/donation receipt
+    known_tensions:
+      - >-
+        convenience-of-a-centralized-exchange-vs-custody-risk-of-trusting-a-company
+      - earning-crypto-through-real-work-vs-chasing-free-airdrops
+    related_concepts:
+      - peer-to-peer-crypto-exchange-with-escrow
+    related_resources:
+      - localcoinswap
+      - bisq
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/how-to-get-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: Greenpill Network is not re-created as a new
+      source-system object here — it already exists in
+      data/kb/source-system.yaml from a prior ingestion slice. The Ethereum
+      Merge ~99.95% energy-reduction claim and the "no legitimate service asks
+      for your seed phrase" warning are not re-created as new claim-evidence
+      objects — near-identical claims already exist in
+      data/kb/claim-evidence.yaml. Coinbase/Kraken are not created as new
+      resource objects (generic, well-known centralized exchanges named only in
+      passing); LocalCoinSwap and Bisq were chosen as the more novel
+      P2P-specific resources worth capturing.
+    work_order: wo-3926c8735083
+    source_lineage: how-to-get-crypto.md
+  funding-your-local-node:
+    title: Funding Your Local Node
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      A staged funding framework for local regen nodes: start free on purpose
+      (free tools, learn real costs), move to member contributions and sweat
+      equity, add earned revenue (workshops, goods, service fees) that stays
+      local, manage money transparently via a fiscal host (Open Collective) or
+      on-chain multisig (Safe) before scaling, then pursue external funding
+      (Gitcoin Grants, Greenpill Network chapter rounds + hypercerts, ReFi DAO's
+      Local Node program) only once the model is proven. Names concrete pitfalls
+      (taking big money too early, over-funding, no Year-2 plan, letting the
+      funding model reshape community values) and a realistic month-by-month
+      sequence.
+    audience: local regen node builders deciding how to fund the node
+    known_tensions:
+      - >-
+        The "funding model shapes your community" table names real trade-offs
+        (member fees risk excluding lower-income members; grants drift toward
+        funder priorities; earned revenue pulls toward what sells; sweat equity
+        risks burnout) without resolving them — presented as an honest choice,
+        not a solved problem.
+    related_concepts:
+      - rosca-rotating-savings-and-credit-association
+    related_resources:
+      - safe
+      - open-collective
+      - gitcoin-grants
+      - greenpill-network
+      - refi-dao
+      - giveth
+      - hypercerts
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-your-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-3a548f510339
+    source_lineage: funding-your-node.md
+  writing-grant-proposals:
+    title: Writing Grant Proposals
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practical guide for local node builders writing Web3 grant proposals.
+      Distinguishes prospective grants (fund a promise of future work) from
+      retroactive grants (reward already-delivered impact, e.g. Optimism's Retro
+      Funding), explains quadratic funding (QF) math and its implication that
+      "your job isn't only to impress a panel, it's to turn out a lot of real
+      people," lists what a working proposal contains per Gitcoin's own guidance
+      (lead with a TL;DR including how the money will be spent, metrics over
+      promises, show your team, iterate in public), argues that for a local node
+      in a QF round the proposal IS the fundraising campaign (anchored on ReFi
+      DAO's GG18 Local Node round case study), and closes with an explicit
+      warning against single-source grant dependency as a burnout/turnover trap,
+      recommending diversified funding.
+    audience: local node builders writing their first Web3 grant proposal
+    known_tensions:
+      - >-
+        Grant as finish line vs. grant as one input — the article's central
+        argument is that single-source grant dependency is a burnout/turnover
+        risk, not that grants are bad.
+      - >-
+        Impressing a panel vs. turning out real people — in QF specifically, the
+        article reframes proposal-writing as a community-organizing task, not a
+        persuasive-writing task.
+    related_concepts:
+      - quadratic-funding
+      - retroactive-public-goods-funding
+    related_resources:
+      - gitcoin-grants
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    provenance:
+      origin: src/content/docs/writing-grant-proposals.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-44ab6b54437e
+    source_lineage: writing-grant-proposals.md
+  onboarding-new-members-to-your-local-node:
+    title: Onboarding New Members to Your Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practical playbook for local-node stewards on welcoming and integrating
+      new members without becoming the bottleneck. Reframes onboarding as a
+      "trellis, not a funnel" — a pre-built structure newcomers climb rather
+      than a conversion pipeline. Centers the first-90-days retention window, a
+      one-buddy-per-newcomer system, a repeatable first-week structure, using
+      web3 tooling (POAP, USSD access) as a welcome mat rather than a gate, and
+      graduating members into roles (observe → first contribution → real role)
+      so onboarding becomes self-sustaining and steward burnout is addressed as
+      part of the onboarding design itself.
+    audience: local node stewards / community organizers
+    known_tensions:
+      - >-
+        Token-gating as a filtering instinct ("prove you belong before we let
+        you in") vs. the article's explicit recommendation to use web3 tools
+        (POAP, phone-first access) to lower barriers instead.
+      - >-
+        Leaning on network-level support (ReFi DAO incubator, shared guides)
+        framed as "mutual aid, not central overreach" — the article draws this
+        line but flags it as something a steward must actively guard.
+    related_concepts:
+      - onboarding-as-trellis-not-funnel
+      - seed-sapling-canopy-node-maturity
+    related_resources:
+      - poap
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/onboarding-members.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4d064e9381ba
+    source_lineage: onboarding-members.md
+  which-chain-is-right-for-your-project:
+    title: Which Chain Is Right for Your Project?
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      A decision-framework guide (Somaliland/East Africa audience, Community-
+      Steward level) for choosing a blockchain among 1,000+ options. Frames the
+      choice around the "blockchain trilemma" (scalability, security,
+      decentralization), maps use cases to chains (Ethereum L1 for high-value
+      DeFi, Layer 2s like Base/Optimism/Arbitrum for general apps, Solana for
+      high-volume consumer apps, Polygon for gaming), gives a TPS/fee comparison
+      table, covers ecosystem/composability, developer-language fit (Solidity vs
+      Rust vs Move), EVM-compatibility, consensus-mechanism energy tradeoffs
+      (PoS vs PoW), and cross-chain bridge risk, closing with a six-question
+      decision framework.
+    audience: community-steward-level project builders choosing a blockchain
+    known_tensions:
+      - >-
+        The blockchain trilemma itself — the article states plainly that
+        optimizing for one of scalability/security/decentralization typically
+        means compromising on another; there is no chain that maximizes all
+        three.
+    related_concepts:
+      - blockchain-trilemma
+    related_resources:
+      - l2beat
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/which-chain-right.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-4ec86c6928f5
+    source_lineage: which-chain-right.md
+  smart-contracts-explained:
+    title: Smart Contracts Explained
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      An accessible explainer of smart contracts (self-executing, transparent,
+      immutable, decentralized programs on a blockchain), how they work (write
+      -> deploy -> monitor -> execute -> record), their permissionless and
+      composability properties, multisig contracts, the oracle problem (why they
+      can't see the real world), and their limits (bugs are permanent, size
+      limits, no legal recognition yet) — framed for East African regenerative
+      communities.
+    audience: East African regenerative/community practitioners new to smart contracts
+    known_tensions:
+      - >-
+        "Code is law" is presented as both a strength (no one can secretly alter
+        the rules) and a risk (bugs execute exactly as written, with no undo).
+      - >-
+        Oracles are named as the mechanism that connects contracts to real-world
+        data, and also as one of the most common failure points in practice.
+    related_concepts:
+      - smart-contract-nick-szabo-ethereum
+      - blockchain-oracle
+    related_resources:
+      - etherscan
+      - chainlink
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/smart-contracts-explained.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: no people/location/TEK/MRV high-risk content; the
+      Hargeisa/Djibouti/sesame-trader scenario and sorghum-farmer/NGO examples
+      are illustrative hypotheticals, not real named individuals, so no
+      public-use-boundary or person-node created.
+    work_order: wo-55ad5dfd3ee1
+    source_lineage: smart-contracts-explained.md
+  multisig-setup-for-community-treasuries:
+    title: Multisig Setup for Community Treasuries
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A step-by-step guide to multi-signature wallets for community treasuries:
+      what a multisig is and why it eliminates single points of failure,
+      threshold configurations (2-of-3, 3-of-5, 4-of-7) and how to choose
+      signers (geographic spread, role diversity, technical capacity), timelocks
+      for large transactions, a five-step setup process on Gnosis Safe, ongoing
+      operations (proposing/approving transactions), security best practices,
+      common mistakes, and social recovery (Argent, SoulWallet) as an
+      alternative for individual (not community) wallets.
+    audience: DAO operators and community treasurers
+    known_tensions:
+      - >-
+        lower threshold (2-of-3: faster, but "if you lose any two signers, you
+        lose access to the funds") vs. higher threshold (3-of-5 or 4-of-7: more
+        resilient, but requires more coordination)
+    related_concepts:
+      - Multisig (multi-signature wallet)
+    related_resources:
+      - Argent
+    high_risk: true
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/multisig-setup.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Flagged high_risk: true — treasury/security guidance where getting the
+      configuration wrong has direct financial consequences for a community; see
+      paired public-use-boundary object (05-).
+    work_order: wo-56e6a89fcec1
+    source_lineage: multisig-setup.md
+  finding-support-and-mentorship:
+    title: Finding Support and Mentorship
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A short guide for local-node builders on finding mentors, peer networks,
+      technical support, and funding support. Names four support types
+      (mentorship via other node leaders/cooperative-development orgs/community
+      foundations/social-enterprise mentors; peer networks of similarly-staged
+      nodes; technical support via developer communities and protocol teams;
+      funding support via Gitcoin Grants, Giveth, and local funds), four ways to
+      find mentors, and norms for being a good mentee.
+    audience: local regen node builders
+    known_tensions: []
+    related_concepts: []
+    related_resources:
+      - gitcoin-grants
+      - giveth
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/finding-support-mentorship.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-573da6e89a75
+    source_lineage: finding-support-mentorship.md
+  why-regens-are-interested-in-blockchain:
+    title: Why Regens Are Interested in Blockchain
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      An entry-level explainer for permaculturists and community organizers
+      brand new to crypto, framing blockchain as plumbing, not magic, and asking
+      why a "regen" (regenerative practitioner) would care. Names the fears
+      first (scams, energy use, wasting time/looking foolish) and answers each
+      honestly. Covers three concrete draws: funding without a gatekeeper
+      (quadratic funding via Gitcoin), deciding things together in the open
+      (DAOs, Snapshot voting), and ownership that stays local (self-custody,
+      tokens as membership/voting markers, Sarafu as the grounded example).
+      Closes by citing Greenpill Network's "tool-first honesty" stance: start
+      with the community's actual problem, then ask whether blockchain helps.
+    audience: permaculturists and community organizers brand new to crypto
+    known_tensions:
+      - >-
+        Tool-first honesty vs. crypto evangelism — the article explicitly
+        distances the "regen corner" from broader crypto speculation/scam
+        culture, framing usefulness-to-the-work as the only relevant test.
+    related_concepts:
+      - dao
+    related_resources:
+      - snapshot
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-regens-interested.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-5a1fc08b1b6f
+    source_lineage: why-regens-interested.md
+  refi-vs-defi-vs-tradfi-three-ways-to-move-money:
+    title: 'ReFi vs. DeFi vs. TradFi: Three Ways to Move Money'
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      A plain-language comparison of three financial systems for community
+      organizers: TradFi (centralized institutions — banks, credit unions, grant
+      foundations), DeFi (no-gatekeeper smart-contract finance, mostly
+      speculative in practice), and ReFi (DeFi's machinery redirected at
+      ecological/social repair, illustrated with Regen Network's ecocredit
+      registry, Gitcoin's quadratic funding, and Grassroots Economics' Sarafu
+      community currency). Addresses the "doesn't crypto boil the planet"
+      objection via Ethereum's 2022 proof-of-stake switch, and closes with a
+      task-to-tool matching table rather than an either/or framing.
+    audience: community organisers and permaculturists new to web3 finance concepts
+    known_tensions:
+      - >-
+        DeFi is described as genuinely powerful infrastructure ("$150 billion...
+        on any given day") but "usually just 'more money'" with no connection to
+        anything growing in the ground — the article holds both points at once
+        rather than resolving them.
+    related_concepts:
+      - regenerative-finance-refi
+    related_resources:
+      - regen-network
+      - gitcoin
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/refi-vs-defi-tradfi.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-5db1fb2f799c
+    source_lineage: refi-vs-defi-tradfi.md
+  why-local-matters:
+    title: Why Local Matters
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Argues that place-based nodes do work global protocols structurally
+      cannot: capital is light and can flow anywhere, but trust is heavy and
+      must be built face-to-face over time (the "Ethereum Localism" framing:
+      "what is heavy should be local, what is light should be global and shared"
+      — i.e. subsidiarity). Covers what a node does that a protocol can't
+      (onboarding, deciding which local projects are real, custody/
+      accountability, the "eight forms of capital" beyond money), the standing
+      network infrastructure a new node can plug into (Greenpill Network,
+      quadratic funding via Gitcoin Grants), the "start small" pattern against
+      building something nobody uses, designing against founder burnout from day
+      one, and concrete tools a node can borrow (Mento/Celo local stablecoins,
+      impactMarket UBI rails, the Regen Coordination Local ReFi Toolkit, BioFi
+      Project templates).
+    audience: people who already know web3 and are ready to stand up a local node
+    known_tensions:
+      - >-
+        Local autonomy vs. central overreach — the article frames subsidiarity
+        and distributed local ownership as the defence against both a global
+        DAO/funder steering local work and against founder burnout.
+      - >-
+        Starting small vs. building infrastructure — explicitly warns against
+        setting up a DAO/token/five-tier governance model before the group has
+        the coordination problems those solve.
+    related_concepts:
+      - subsidiarity
+      - eight-forms-of-capital
+    related_resources:
+      - greenpill-network
+      - mento
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/why-local-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-5e5d4bf53655
+    source_lineage: why-local-matters.md
+  building-in-public:
+    title: Building in Public
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A short practice guide for local nodes on sharing progress, failures, and
+      learnings openly as they build: posting updates, sharing decisions, and
+      being transparent about challenges. Lists why it works (attracts
+      supporters, creates accountability, builds trust, generates content, helps
+      other nodes), what to share (progress updates, lessons learned,
+      behind-the-scenes decision-making and financial transparency), where to
+      share (Twitter/X, Farcaster, blog, newsletter, Discord/Telegram), and four
+      best practices: be consistent, be honest, be specific, engage with
+      responses.
+    audience: local node organizers deciding how to communicate publicly
+    known_tensions:
+      - >-
+        consistency vs polish — the article's closing line, "consistency matters
+        more than polish," treats frequent small updates as more valuable than
+        infrequent, highly produced ones.
+    related_concepts:
+      - building-in-public-as-practice
+    related_resources: []
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-in-public.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-5f68dddaa5d9
+    source_lineage: building-in-public.md
+    notes: |
+      # assessed-but-excluded
+      - No people/community profiles, exact locations, TEK, MRV/carbon claims,
+        or funding/legal/governance recommendations — no high-risk trigger.
+        "Financial transparency" is listed only as a category of content to
+        share, not a specific recommendation about treasury structure.
+      - The article names no specific tools, orgs, or external sources beyond
+        generic platform categories (Twitter/X, Farcaster, Discord/Telegram) —
+        too generic to warrant dedicated resource objects.
+  donor-stewardship-in-web3:
+    title: Donor Stewardship in Web3
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A short guide on stewarding crypto donors: thank donors within 24 hours
+      (including the transaction ID as blockchain proof), provide ongoing impact
+      updates (photos, stories, crypto-to-impact conversions), understand crypto
+      donor motivations (transparency, global access, innovation), consider
+      publishing onchain proof of fund usage, and build community around major
+      crypto donors.
+    audience: nonprofit/regenerative-project fundraisers (grounded-regen)
+    known_tensions:
+      - >-
+        crypto-native donor expectation of onchain transparency vs traditional
+        nonprofit donor-communication norms — the article frames this gap as an
+        opportunity ("builds trust in a way traditional finance can't match")
+        rather than a problem.
+    related_concepts:
+      - blockchain-transparency-for-nonprofits
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/donor-stewardship.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6040541f9808
+    source_lineage: donor-stewardship.md
+    notes: |
+      # assessed-but-excluded
+      - Article's own frontmatter marks research_done: false and gives a single
+        source ("CryptoAltruists Web3 Impact Toolkit") with no link — no
+        resource object created for it since the article gives no URL and no
+        further descriptive detail to responsibly build a resource card without
+        inventing facts.
+      - No people/community profiles, exact locations, or MRV/ecological claims
+        in this short article. The suggestion to "publish onchain proof of how
+        funds are used" / a donor address is a lightweight operational
+        suggestion, not a funding/legal/governance recommendation about a
+        specific organization — judged not to cross the high-risk threshold, but
+        flagged here for reviewer judgment call given it touches financial
+        transparency practice.
+  crypto-donation-platforms-what-you-need-to-know:
+    title: 'Crypto Donation Platforms: What You Need to Know'
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Orients a nonprofit to what crypto-donation platforms do (donor landing
+      page, handling blockchain transactions, optional conversion to dollars,
+      payout, tax receipts), surveys named options (The Giving Block, Infinite
+      Giving, CryptoAltruists, plus Causes/Facebook giving, Binance Charity,
+      Alchemy Pay), gives a what-to-look-for checklist (fees, supported coins,
+      instant conversion, integration, support), and a getting-started flow
+      (verify 501(c)(3) status, customize page, publish, promote).
+    audience: nonprofit staff choosing a crypto-donation platform to onboard
+    known_tensions:
+      - >-
+        holding-crypto-for-appreciation vs
+        instant-conversion-to-avoid-volatility
+    related_concepts:
+      - crypto-donation-adoption-communication
+    related_resources:
+      - The Giving Block
+      - Infinite Giving
+      - CryptoAltruists
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/crypto-donation-platforms.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-620c0c65c46f
+    source_lineage: crypto-donation-platforms.md
+    notes: >
+      # assessed-but-excluded
+
+      - no independent verification of platform fee levels, supported-coin
+      counts,
+        or nonprofit-verification requirements beyond what the article itself
+        states; treated as a directory-style overview, not fact-checked pricing.
+  key-terms-a-z:
+    title: Key Terms A-Z
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      An A-Z glossary of beginner web3 and Regen terms (Airdrop through Yield
+      Farming) — wallets and keys, DeFi mechanics (APR, liquidity, staking),
+      DAOs and governance tokens, and crypto slang (FOMO, rug pull, moon). Ends
+      with a security reminder never to share a seed phrase or private key.
+    audience: beginners new to web3 and regenerative finance
+    known_tensions:
+      - >-
+        glossary brevity vs. accuracy — each term is a one- or two-sentence
+        simplification of concepts (e.g. Proof of Stake, oracles) that have much
+        deeper technical and economic nuance elsewhere in the toolkit
+    related_concepts:
+      - ReFi (Regenerative Finance)
+      - Tokenomics
+      - DAO
+      - Layer 2
+    related_resources: []
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/key-terms-a-z.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Source is a flat A-Z glossary (~80 terms) authored by Tej Pipeline for the
+      "Sarreya programs" cohort; captured whole as one encyclopedia entry rather
+      than one object per term.
+    work_order: wo-64084e777fab
+    source_lineage: key-terms-a-z.md
+  the-history-of-bitcoin:
+    title: The History of Bitcoin
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A chronological explainer of Bitcoin's origins, foundations-track intro
+      article: the pre-Bitcoin digital-cash experiments (Chaum's ecash, Back's
+      hashcash, Dai's b-money, Szabo's bit gold, Finney's RPOW), Satoshi
+      Nakamoto's October 2008 whitepaper solving the double-spend problem
+      without a central authority, the January 2009 genesis block, the 2010
+      Bitcoin Pizza Day transaction and the August 2010 value-overflow bug and
+      its fix, Bitcoin's 2011-2012 mainstream milestones, and Satoshi's
+      disappearance. Frames Bitcoin as the culmination of 30+ years of attempts
+      to build money that doesn't depend on central authorities.
+    audience: newcomers to crypto/web3 in a foundations learning track
+    known_tensions:
+      - >-
+        each pioneer (Chaum, Back, Dai, Szabo, Finney) solved one piece of the
+        digital-cash puzzle but needed a central authority or never launched;
+        the article frames Bitcoin's contribution as synthesis, not any single
+        novel idea.
+    related_concepts:
+      - double-spend-problem-and-proof-of-work-lineage
+    related_resources: []
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/bitcoin-history.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-648651c05dac
+    source_lineage: bitcoin-history.md
+    notes: |
+      # assessed-but-excluded
+      - Named individuals (Satoshi Nakamoto, Hal Finney, Wei Dai, Nick Szabo,
+        Adam Back, David Chaum, Laszlo Hanyecz, Gavin Andresen) are treated as
+        already-public, extensively documented historical/crypto-history
+        figures rather than community members whose profiles need protecting —
+        no public-person-node created and no high_risk flag set, since this is
+        canonical, widely-published history rather than a community identity
+        disclosure.
+      - No exact locations, TEK/Indigenous knowledge, MRV/carbon claims, or
+        funding/legal/governance recommendations present.
+  delegation-and-representation-in-daos:
+    title: Delegation and Representation in DAOs
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A design guide for DAO delegation systems, covering four delegation types
+      (full, topic-based, liquid, time-limited), key design questions, concrete
+      recommendations for local nodes (optional delegation, power caps of
+      20-30%, transparency, accountability, always-available direct voting),
+      accountability mechanisms (delegate reports, recall, term limits, conflict
+      disclosure), and common mistakes to avoid.
+    audience: DAO-Operator / Local-Node governance designers
+    known_tensions:
+      - >-
+        reducing-voter-fatigue-via-delegation vs
+        concentrating-power-in-delegates — the whole article is an argument for
+        building delegation carefully so it solves the first problem without
+        causing the second.
+      - >-
+        flexibility-of-liquid-delegation vs complexity-requiring-sophisticated-
+        tooling.
+    related_concepts:
+      - liquid-democracy
+      - delegation-accountability
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/delegation-representation.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-6675a98b235f
+    source_lineage: delegation-representation.md
+    notes: >
+      # assessed-but-excluded
+
+      - No named tools/platforms are cited in this article (unlike
+      dao-tooling.md
+        or dao-governance-models.md) — no resource objects created; this is a
+        pure governance-design guide with generic "on-chain/off-chain/hybrid"
+        language rather than named implementations.
+      - No people/community profiles, exact locations, or high-risk triggers
+        identified. Note: the article does make a governance-design
+        recommendation (cap delegate power at 20-30%) — this is generic best-
+        practice advice, not a claim about a specific real DAO's funding/legal
+        status, so it was not treated as a high-risk governance recommendation
+        requiring a public-use-boundary; flagged here for reviewer judgment call.
+  dao-governance-models:
+    title: DAO Governance Models
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Surveys five DAO governance models — token-weighted voting, quadratic
+      voting, reputation-based governance, multi-signature governance, and
+      hybrid governance — with pros/cons and a named example DAO for each, then
+      gives guidance on choosing a model based on purpose, size, desired
+      decentralization, speed-vs-fairness, and scalability.
+    audience: DAO-Operator
+    known_tensions:
+      - >-
+        simplicity-and-investment-alignment (token voting) vs
+        whale-dominance-risk — wealth translating directly into decision power.
+      - >-
+        efficiency-of-multi-sig vs
+        centralization-risk-if-signers-are-not-rotated.
+      - flexibility-of-hybrid-models vs complexity-and-communication-overhead.
+    related_concepts:
+      - token-weighted-voting
+      - quadratic-voting
+      - reputation-based-governance
+    related_resources:
+      - ENS DAO
+      - SafeDAO
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-governance-models.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-687e48ae4084
+    source_lineage: dao-governance-models.md
+    notes: >
+      # assessed-but-excluded
+
+      - CityDAO, MakerDAO, and Decentraland DAO are named as one-line examples
+      for
+        quadratic/reputation/hybrid models respectively; not built out as separate
+        resource objects since the article gives no more than a single sentence
+        about each beyond "uses this model" — kept ENS DAO and SafeDAO (the two
+        given the most concrete operational detail: ENS name-service governance,
+        SafeDAO's treasury/upgrade coordination) as resources instead.
+      - Soulbound Tokens and conviction voting are mentioned as "emerging
+        mechanisms" in one closing paragraph with no worked example in this
+        article; left as a mention inside the encyclopedia entry rather than a
+        standalone concept-lineage, since there isn't enough source material here
+        to responsibly trace their lineage/tensions.
+      - No people/community profiles, exact locations, or high-risk triggers
+        (funding/legal/governance recommendations are generic best-practice, not
+        directed at a specific real DAO or person) — no public-use-boundary
+        object created.
+  voting-mechanisms-in-daos:
+    title: Voting Mechanisms in DAOs
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Compares six DAO decision-making mechanisms — token-based quorum voting,
+      quadratic voting, conviction voting, holographic consensus, multi-sig
+      voting, and off-chain voting via Snapshot — on the trade-offs of speed vs
+      inclusivity, simplicity vs manipulation-resistance, and participation vs
+      scalability, and notes that most mature DAOs combine several mechanisms
+      rather than relying on one.
+    audience: DAO operators choosing or designing a governance/voting process
+    known_tensions:
+      - >-
+        speed vs inclusivity (multi-sig fast-but-concentrated vs
+        conviction-voting open-but-slow)
+      - >-
+        simplicity vs manipulation-resistance (quorum voting easy-to-understand
+        but vulnerable)
+      - >-
+        participation vs scalability (everyone-votes-on-everything does not
+        scale)
+    related_concepts:
+      - dao-voting-mechanisms
+      - token-weighted-governance
+    related_resources:
+      - Snapshot
+      - Giveth
+      - Moloch DAO
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/voting-mechanisms.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: voting-mechanisms.md
+    notes: |
+      # assessed-but-excluded
+      - the "Try This" reflection on cooperative/savings-group decision-making
+        is folded into the encyclopedia summary framing rather than a
+        separate object; it's an exercise prompt, not a distinct typed fact.
+      - no people/community profiles, exact locations, TEK, or funding/legal
+        recommendations named; the Somaliland/East-Africa aside is a general,
+        unattributed comparison (cooperative boards facing similar low-turnout
+        dynamics), not a specific claim with a named source — captured only as
+        an adjacent note in the concept-lineage object.
+    work_order: wo-6947fa3633d1
+  knowledge-gardens:
+    title: Knowledge Gardens
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      How to build a community knowledge garden that survives contributor
+      turnover: linking over filing, openly-marked growth stages
+      (seedling/budding/evergreen), and active tending by a named gardener. Uses
+      SuperBenefit's public Knowledge Garden as a worked model (Docs, Lexicon,
+      Links, Patterns) and recommends plain markdown + Git (Obsidian + Quartz +
+      GitHub) as the durable, non-lock-in tool stack.
+    audience: >-
+      community organizers and local-node stewards building a team knowledge
+      commons
+    known_tensions:
+      - >-
+        polished, collaboration-friendly tools (Notion) vs. durable,
+        portable-in-plain-text tools (Markdown + Git) — the article resolves
+        this as "own your source of truth in plain text and Git; use anything
+        prettier as a window onto it, not the vault itself"
+    related_concepts:
+      - Digital Garden (seedling/budding/evergreen)
+      - knowledge commons
+    related_resources:
+      - Obsidian
+      - Quartz
+      - SuperBenefit Knowledge Garden
+      - GravityDAO
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/knowledge-gardens.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-69cdee6ddcfe
+    source_lineage: knowledge-gardens.md
+  credentials-and-certifications-web3-verifiable-credentials:
+    title: Credentials and Certifications (Web3 verifiable credentials)
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Explains web3 credentials as records tied to a wallet address and signed
+      by an issuer's private key, independently verifiable without contacting
+      the issuer — Verifiable Credentials (VCs) and Soulbound Tokens (SBTs); the
+      trust problem they solve especially where institutions are weak or hard to
+      reach at a distance; active issuers (Gitcoin Passport, Karma, Lens, Galxe,
+      Open Badges); use in grant/DAO gating; and practical setup via MetaMask,
+      Ceramic/IDX, and Disco.xyz. High-risk: this whole topic is
+      identity/reputation infrastructure — see paired public-use-boundary.
+    audience: >-
+      individuals (e.g. in East Africa) building a portable, verifiable track
+      record via web3
+    known_tensions:
+      - >-
+        portability-and-verifiability vs
+        wallet-linked-identity-and-reputation-being-inherently-trackable/doxable
+      - >-
+        credential-gating-as-sybil-resistance vs
+        credential-gating-as-gatekeeping
+    related_concepts:
+      - verifiable-credentials
+      - soulbound-tokens
+      - sybil-resistance
+    related_resources:
+      - Gitcoin Passport
+      - Disco.xyz
+    maturity: raw
+    public_use: not-public-yet
+    high_risk: true
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/credentials-certifications.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-77d9f87bf031
+    source_lineage: credentials-certifications.md
+    notes: |
+      # assessed-but-excluded
+      - "Sarreya itself issues credentials on completion of path milestones" —
+        appears to reference a specific platform/product by name not otherwise
+        described in this batch; kept as prose context, not spun into its own
+        resource object since the article gives no further detail to verify against.
+  why-accept-crypto-donations:
+    title: Why Accept Crypto Donations?
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A beginner guide for local organizers (Somaliland/East Africa audience)
+      making the case for accepting cryptocurrency donations: the tax advantage
+      to donors (avoiding capital-gains tax by donating appreciated crypto
+      directly), lower cross-border processing costs than bank wires or card
+      fees, access to a younger/values-aligned donor community, quadratic
+      funding as an amplifier for small donations (via Gitcoin Grants), and
+      honest treatment of concerns (price volatility, security, energy
+      footprint). Recommends four donor-facing platforms (The Giving Block,
+      Endaoment, Every.org, Givepact) that convert crypto to fiat automatically
+      so the receiving organization never has to hold volatile crypto.
+    audience: >-
+      local organizers/nonprofits in East Africa/Somaliland considering crypto
+      donations
+    known_tensions:
+      - >-
+        Donor tax benefit vs. organizational risk — the article's tax-advantage
+        argument is aimed at the donor's incentive, while separately
+        acknowledging the receiving organization's own volatility/security risk,
+        which it resolves by recommending instant fiat-conversion platforms.
+    related_concepts:
+      - quadratic-funding
+    related_resources:
+      - every-org
+      - the-giving-block
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    provenance:
+      origin: src/content/docs/why-accept-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7849165f5a17
+    source_lineage: why-accept-crypto.md
+  social-tokens-for-creators:
+    title: Social Tokens for Creators
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A short guide to social tokens (community-specific tokens for membership,
+      access, or reputation) covering the three main types (creator, community,
+      reputation tokens), use cases for local regen nodes (event access,
+      governance weight, incentive alignment, community identity), and pitfalls
+      (over-financializing relationships, designing for speculation,
+      securities-law exposure).
+    audience: creators and local-node community organisers considering social tokens
+    known_tensions:
+      - >-
+        The guide encourages using tokens to "track and reward contribution"
+        while simultaneously warning against financializing community
+        relationships and against designing for speculation — a tension it names
+        but does not resolve with concrete guardrails.
+    related_concepts:
+      - social-token
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/social-tokens-creator.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: article is short (60 lines) with no named external
+      tools, no people/location/TEK/MRV content, and no specific funding/legal
+      recommendation beyond a generic pointer to consult securities-law
+      considerations — not treated as high_risk since it is a caution flag, not
+      advice given. No resource-schema candidate produced; the article names no
+      specific external tool/platform to register as a resource.
+    work_order: wo-7b882179b803
+    source_lineage: social-tokens-creator.md
+  how-web3-relates-to-your-existing-work:
+    title: How Web3 Relates to Your Existing Work
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A short orientation piece framing web3 as an addition to an organization's
+      existing mission-driven work (community relationships, program delivery,
+      physical presence), not a replacement for it. Offers a pain-point-matching
+      exercise across four areas (fundraising, transparency, coordination,
+      community building) mapping each to a corresponding web3 tool category
+      (crypto donations, blockchain transparency, DAOs/governance tools,
+      tokens/credentials), and recommends starting with one small, reversible
+      use case (a crypto-donate button, a Snapshot vote, a POAP, an on-chain
+      published budget) rather than rebuilding everything.
+    audience: mission-driven organizations and community groups new to web3
+    known_tensions: []
+    related_concepts:
+      - web3-as-addition-not-replacement
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/relates-to-existing-work.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-7bdc70aba13e
+    source_lineage: relates-to-existing-work.md
+  building-momentum-for-your-local-node:
+    title: Building Momentum for Your Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    high_risk: true
+    summary: >-
+      A guide to sustaining a local node's energy past initial launch
+      excitement, aimed at organizers in East African contexts. Covers a rhythm
+      model (weekly/monthly/quarterly/annual cadences), a celebration strategy
+      for small and large wins, a four-stage newcomer pathway (awareness, first
+      interaction, first action, ownership), an engagement loop that turns
+      contributors into recruiters, common pitfalls (founder bottleneck,
+      expertise trap, evening-only meetings, insider circles), how to manage
+      low-momentum "dips," leadership rotation, and a growth-vs- sustainability
+      framing that favors 20 engaged people over 100 on a mailing list. The
+      article explicitly builds its rhythm/celebration model on existing East
+      African community traditions (saving circles, inter-clan coordination,
+      community meals after jumu'ah prayers) rather than inventing new ones.
+    audience: local-organizer (East African regen/ReFi context)
+    known_tensions:
+      - >-
+        growth vs sustainability — the article's rule of thumb: "if you're
+        sacrificing sustainability for growth, you're on borrowed time,"
+        favoring 20 actively engaged people over 100 on a mailing list.
+      - >-
+        communication cadence — too little communication and momentum dies, too
+        much and people tune out; the article prescribes a specific weekly/
+        monthly/as-needed rhythm as the resolution.
+    related_concepts:
+      - community-momentum-flywheel-and-rhythm-model
+    related_resources: []
+    maturity: raw
+    public_use: requires-community-consent
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-momentum.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-88bafbd86463
+    source_lineage: building-momentum.md
+    notes: |
+      # assessed-but-excluded
+      - No individual community members are named (no public-person-node
+        risk); high_risk is set here because the article makes broad-strokes
+        cultural attributions ("in many East African traditions...", "already
+        deeply embedded in how people relate, through saving circles, through
+        inter-clan coordination, through community meals after jumu'ah
+        prayers") without citing a specific community or community-authored
+        source — the same TEK/cultural-attribution trigger pattern already
+        flagged in this framework's prior ingestion of gatherings-pattern.md.
+        See the companion public-use-boundary object.
+      - The article's frontmatter lists generic sources ("Greenpill Local Regen
+        Guide," "Community building literature," "DAO governance") with no
+        inline citations or References section — see the companion signal
+        object.
+  what-you-can-do-on-ethereum:
+    title: What You Can Do on Ethereum
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A narrowly-scoped beginner guide, written for participants in "the Sarreya
+      programs," that deliberately limits Ethereum's relevance to three concrete
+      uses: (1) sending/receiving digital money (e.g. USDC stablecoin transfers,
+      low "gas" fees), (2) earning verifiable digital credentials for completed
+      trainings/skills, and (3) tracking and proving real-world impact (photo +
+      location submitted and recorded on-chain), which the article names as
+      digital measurement, reporting, and verification (dMRV), citing Silvi as
+      an example program. Explicitly tells readers NOT to worry about NFTs, DeFi
+      lending, staking, or app development.
+    audience: >-
+      participants in the Sarreya program(s); general audience individuals new
+      to Ethereum
+    known_tensions:
+      - >-
+        Simplicity vs. completeness — the article deliberately narrows scope to
+        3 uses and tells the reader to ignore the rest of the Ethereum
+        ecosystem, trading completeness for actionability.
+    related_concepts:
+      - dmrv
+    related_resources:
+      - silvi
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-you-can-do-ethereum.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Source-article frontmatter flags this piece itself as still in-progress:
+      factcheck_done: false, review_done: false, critique_done: false,
+      published_flag: false, stage: draft. This does not change our own
+      maturity: raw / ai_assisted: true rating (that reflects THIS extraction),
+      but a human reviewer should weigh that the underlying article has not yet
+      been fact-checked by its own authors, particularly the dMRV/Silvi claim
+      below.
+    work_order: wo-8ded39036549
+    source_lineage: what-you-can-do-ethereum.md
+  inclusive-practices-for-community-finance:
+    title: Inclusive Practices for Community Finance
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      Argues that community finance systems default to excluding the same people
+      banks already exclude unless designed otherwise, and lays out five
+      dimensions of inclusion (economic, technical, temporal, social,
+      accessibility), practical strategies (plain language, multiple on-ramps,
+      rotating what gets centered, explicit invitation, accountability), common
+      mistakes (tokenism, one-size-fits-all design, uncompensated burden on
+      marginalized groups), and community-finance-specific barriers (financial
+      literacy, technical barriers, time poverty, trust barriers) with matched
+      solutions.
+    audience: community stewards designing or running a community finance system
+    known_tensions:
+      - >-
+        counting-participation-is-easy-vs-measuring-whether-people-feel-valued-and-influence-decisions-is-the-actual-goal
+      - >-
+        rewarding-time-and-care-contributions-equally-to-money-vs-avoiding-uncompensated-inclusion-labor-falling-on-marginalized-members
+    related_concepts:
+      - dimensions-of-inclusion-economic-technical-temporal-social-accessibility
+      - informal-community-savings-mechanisms-chamas-iqqub-hawala
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/inclusive-practices.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: the article's References section lists only generic
+      topic labels ("Inclusive community design principles", "Equity in economic
+      systems and community finance", "Accessibility guidelines for community
+      organizations") with no actual sources/links — not turned into resource
+      objects since they name no identifiable, findable source. The "Try This"
+      self-audit exercise was left as a narrative prompt, not extracted as a
+      separate object.
+    work_order: wo-8e6fb42f1e74
+    source_lineage: inclusive-practices.md
+  stablecoins-digital-dollars-that-hold-their-value:
+    title: 'Stablecoins: Digital Dollars That Hold Their Value'
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language explainer of stablecoins for community organisers: what a
+      peg is, why dollar-stable digital money is useful for cross-border
+      payments and grants, the energy-use difference between Bitcoin and
+      proof-of-stake chains, the three stablecoin designs (fiat-backed,
+      crypto-backed, algorithmic), where stablecoins actually break (USDC's 2023
+      depeg, Terra/UST's 2022 collapse), and a caution on "earning interest"
+      yield offers.
+    audience: community organisers and regenerative practitioners new to crypto
+    known_tensions:
+      - >-
+        Fiat-backed stablecoins are framed as the safer, auditable choice, but
+        the article also notes issuers can freeze balances under law enforcement
+        order — safety and censorship-resistance trade off against each other.
+    related_concepts:
+      - stablecoin
+    related_resources:
+      - defillama-stablecoins-dashboard
+      - glo-dollar
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stablecoins.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: no people/location/TEK content requiring a
+      public-use-boundary; market-size and depeg-event figures are captured
+      separately as claim-evidence objects with uncertainty noted rather than
+      asserted as flat fact here.
+    work_order: wo-95e1e939f56d
+    source_lineage: stablecoins.md
+  the-promise-coordination-transparency-and-new-economic-models:
+    title: 'The Promise: Coordination, Transparency, and New Economic Models'
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A high-level orientation to why web3 excites regens beyond money: DAOs,
+      quadratic voting, and futarchy as coordination-without-central-control
+      tools; blockchain transparency as verifiable (not "transparency theater")
+      accountability; and new economic models (credentialing via POAPs/Gitcoin/
+      retroactive funding, community value capture, and impact-aligned
+      instruments like regenerative tokens and outcome-based bonds).
+    audience: regens evaluating whether web3 coordination tools are worth exploring
+    known_tensions:
+      - >-
+        experimental-and-imperfect-tools vs
+        genuinely-new-coordination-possibilities
+    related_concepts:
+      - dao
+      - quadratic-voting
+      - futarchy
+      - retroactive-public-goods-funding
+    related_resources:
+      - Snapshot
+      - Radicle
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/coordination-transparency.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-97dd78ba716a
+    source_lineage: coordination-transparency.md
+    notes: >
+      # assessed-but-excluded
+
+      - article is thin on citations (mostly definitional/promotional claims
+      about
+        web3 capabilities with no sourcing); treated as concept overview rather
+        than claim-evidence since there is no specific verifiable figure to
+        isolate as a claim.
+  legal-structures-for-your-local-node:
+    title: Legal Structures for Your Local Node
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      How to choose a legal wrapper (co-op, nonprofit, LLC, DAO-specific
+      structure) for a local ReFi node so the entity, not individual members,
+      holds liability. Walks through risk-sizing (low/medium/high), staying
+      informal, cooperatives, 501(c)(3) nonprofits, LLCs, and DAO-specific
+      wrappers (Wyoming DUNA, DAO LLC, Marshall Islands DAO LLC, Cayman Islands
+      foundation), with 2026 costs, a decision path, three common mistakes, and
+      where to get free help.
+    audience: >-
+      local-node organizers ready to hold funds, sign contracts, or run public
+      events
+    known_tensions:
+      - >-
+        protection vs. overhead — "over-wrapping too early" (e.g. a Cayman
+        foundation for a $3,000 treasury) is named as one of the three mistakes
+        that actually hurt people
+    related_concepts:
+      - Legal Wrapper
+    related_resources:
+      - Wyoming DUNA
+    high_risk: true
+    maturity: raw
+    public_use: requires-domain-review
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/legal-structures.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      High-risk trigger: legal/governance recommendations (Principle from
+      skills/ingest and skills/capture-and-route). This is jurisdiction- and
+      time-specific (2026 fee figures, a 2024-effective statute) guidance, not
+      legal advice — see the paired public-use-boundary object (05-).
+    work_order: wo-9984e9183a81
+    source_lineage: legal-structures.md
+  what-web3-can-and-can-t-do:
+    title: What Web3 Can and Can't Do
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      An honest capability/limits comparison for community and regenerative
+      work. What Web3 does well, moving value across borders without a
+      gatekeeper, permissionless building, public/hard-to-fake records, and
+      censorship resistance, illustrated with Grassroots Economics' Sarafu
+      network. What it cannot do (yet): cheap high-volume transactions on the
+      main chain (though Layer 2s help), replacing a normal
+      spreadsheet/database, verifying real-world facts (the Toucan/Verra
+      carbon-credit case as the cautionary tale), and keeping activity private
+      by default. Ends with a single screening question ("do multiple parties
+      who don't fully trust each other need to share one record none of them can
+      secretly change?") as the decision rule.
+    audience: community organizers deciding whether to use blockchain tools
+    known_tensions:
+      - >-
+        Hype vs. honest fit — the article explicitly positions itself against
+        "put it on the blockchain" as an unexamined buzzword answer.
+      - >-
+        On-chain code correctness vs. off-chain reality — the Toucan/Verra case
+        shows a smart contract can work exactly as coded while the real-world
+        facts and rules around it still fail to cooperate.
+    related_concepts:
+      - oracle
+      - layer-2
+    related_resources:
+      - etherscan
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-web3-can-cant-do.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-9cd1291b92b8
+    source_lineage: what-web3-can-cant-do.md
+  proposal-writing-for-daos:
+    title: Proposal Writing for DAOs
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A short guide to writing DAO governance proposals that pass and get
+      implemented. Lays out a seven-part proposal anatomy (title, summary,
+      background/context, specification, budget, success criteria, risks),
+      recommends informal pre-proposal steps (temperature check, coalition
+      building, preemptively addressing objections), and lists five common
+      mistakes (vague language, no budget, no success criteria, no timeline,
+      surprising the community with an undiscussed proposal).
+    audience: DAO members / grounded-regen practitioners drafting governance proposals
+    known_tensions: []
+    related_concepts:
+      - anatomy-of-a-good-dao-proposal
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/proposal-writing.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a12a0fa2bedb
+    source_lineage: proposal-writing.md
+  centralized-vs-decentralized-systems-what-it-means-for-your-garden-and-community:
+    title: >-
+      Centralized vs. Decentralized Systems: What It Means for Your Garden and
+      Community
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      A foundations-track explainer contrasting centralized systems (one
+      authority in charge — banks, concentrated food-processing, single- telecom
+      mobile money) against decentralized systems (control spread across many
+      independent parts — cooperatives, rotating savings circles, community seed
+      banks, Bitcoin), aimed at community gardeners and permaculturists new to
+      crypto. Argues most real systems are hybrids on a spectrum, ties the
+      distinction to permaculture's resilience-through- diversity principle, and
+      cites a 2022 food-systems resilience study as supporting evidence while
+      noting the same study found centralization can help during labor
+      shortages.
+    audience: individual community gardeners/permaculturists new to web3
+    known_tensions:
+      - >-
+        centralized systems are easier to manage and can produce more cheaply (a
+        single large farm vs many small ones) but carry a single point of
+        failure; decentralized systems trade some efficiency for resilience.
+      - >-
+        the article's own cited study found decentralization improves resilience
+        under supply-chain disruption but centralization can be favored when
+        responding to labor shortages — presented as evidence that neither
+        approach is categorically better.
+    related_concepts:
+      - centralization-decentralization-spectrum
+    related_resources:
+      - Bankless Academy
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/centralized-vs-decentralized.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a42af3f6559f
+    source_lineage: centralized-vs-decentralized.md
+    notes: |
+      # assessed-but-excluded
+      - Satoshi Nakamoto is referenced only as Bitcoin's creator/motivation
+        (a widely public, already-documented historical fact, consistent with
+        this batch's bitcoin-history.md ingestion) — not modeled as a public
+        person-node, no high-risk trigger.
+      - No exact locations, TEK/Indigenous knowledge specifics, MRV/carbon
+        claims, or funding/legal/governance recommendations present; the
+        article's mentions of Ethiopian/Kenyan cooperatives and savings
+        circles (ekub, chamas) are used only as brief, already-widely-known
+        illustrative examples, not attributed practices requiring the deeper
+        cultural-attribution review applied to building-momentum.md elsewhere
+        in this batch.
+  stories-regens-who-made-the-leap:
+    title: 'Stories: Regens Who Made the Leap'
+    type: encyclopedia-entry
+    page_type: case-linked
+    summary: >-
+      Three illustrative adoption stories (a community garden receiving a crypto
+      donation, an environmental-nonprofit coalition moving its treasury to a
+      multisig, and a from-scratch African ReFi community using
+      Discord/Gitcoin/Snapshot/POAPs) used to show that starting small, finding
+      one knowledgeable ally, and staying mission-focused is enough to begin
+      using web3 tools without deep technical expertise.
+    audience: regenerative practitioners considering their first step into web3
+    known_tensions: []
+    related_concepts:
+      - grassroots-web3-adoption-pattern
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    public_use: not-public-yet
+    provenance:
+      origin: src/content/docs/stories-regens-leap.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      high_risk: true — the article names individuals/groups (Maria, an unnamed
+      "organizer," ReFi Africa entrepreneurs) with direct quotes; see
+      accompanying public-use-boundary. Per ingest rules, no public person-nodes
+      were created for Maria or the other named/quoted figures.
+    work_order: wo-a657ed1dd5c3
+    source_lineage: stories-regens-leap.md
+  communicating-with-stakeholders-about-crypto:
+    title: Communicating with Stakeholders About Crypto
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A guide for nonprofits on talking to board, staff, and donors before/while
+      adopting crypto donations: educate first, prepare the board on legality,
+      tax, risk and asset-management questions, address volatility/security/
+      complexity concerns openly, communicate the new option across channels
+      once ready, and build reusable templates.
+    audience: nonprofit leaders preparing to introduce crypto donations to their org
+    known_tensions:
+      - honesty-about-risk vs not-scaring-off-a-skeptical-board
+    related_concepts:
+      - crypto-donation-adoption-communication
+    related_resources:
+      - nonprofitfinancials.org
+      - Infinite Giving
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/communicating-stakeholders.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a729337a8976
+    source_lineage: communicating-stakeholders.md
+    notes: >
+      # assessed-but-excluded
+
+      - no named individuals profiled ("one nonprofit leader" is an anonymous
+      quote
+        attributed to a source URL, not a person-node); no exact locations.
+  creating-buying-and-earning-tokens-nfts:
+    title: Creating, Buying, and Earning Tokens & NFTs
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practical how-to for getting started with digital assets: minting NFTs
+      (OpenSea/Blur) and fungible ERC-20 tokens, buying crypto via CEX/DEX/
+      onramps (with a Layer-2-first tip for low fees), and earning tokens
+      through staking, DeFi lending, governance-token rewards, and learning
+      modules (Bankless Academy) — plus security basics on token allowances and
+      seed phrases.
+    audience: >-
+      newcomers wanting a hands-on first step into creating/buying/earning
+      digital assets
+    known_tensions:
+      - >-
+        permissionless-token-creation vs
+        quality-and-scam-risk-that-comes-with-it
+      - >-
+        staking-yield-appeal vs
+        the-underlying-lockup-and-slashing-risk-not-detailed-in-the-article
+    related_concepts:
+      - token-allowances
+      - staking-solo-pool-liquid
+    related_resources:
+      - OpenSea
+      - Bankless Academy
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/creating-buying-earning.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-a7cccf043614
+    source_lineage: creating-buying-earning.md
+    notes: |
+      # assessed-but-excluded
+      - source frontmatter's `sources: [l, i, s, t]` field looks like a broken/
+        placeholder value from the original pipeline, not real source data —
+        excluded as noise, not treated as a citation.
+  is-a-dao-right-for-your-community:
+    title: Is a DAO Right for Your Community?
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      A plain-language decision guide for permaculture/grassroots communities
+      weighing DAO structure, using a community-garden analogy to explain
+      decentralized/autonomous/organization, listing when a DAO fits (everyone
+      wants a voice, global participation, transparency, rewarding contribution)
+      and when it doesn't (fast emergency decisions, need for legal protection,
+      low tech comfort, governance-attack risk), a five- question discussion
+      guide, and cooperative/sociocracy/simple-voting-tool alternatives.
+    audience: >-
+      permaculture and grassroots community organizers evaluating governance
+      structures
+    known_tensions:
+      - >-
+        radical-transparency-and-global-participation-vs-no-legal-protection-and-real-technical-learning-curve
+    related_concepts:
+      - dao-alternatives-cooperatives-sociocracy-lightweight-voting-tools
+    related_resources:
+      - loomio
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/is-dao-right.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: a generic "DAO" concept-lineage object was not
+      created here to avoid duplicating what the still-open what-is-dao.md work
+      order is expected to define directly; this ingestion instead captures the
+      article's distinctive angle (governance-attack risk and non-DAO
+      alternatives) as claim-evidence and concept-lineage objects.
+    work_order: wo-a93e50352107
+    source_lineage: is-dao-right.md
+  identity-verification-in-web3:
+    title: Identity Verification in Web3
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Explains wallet-based identity verification as proving attributes about
+      yourself (age, membership, location) without handing over documents to
+      every counterparty, using zero-knowledge proofs and wallet-held
+      credentials, framed for community members considering web3 grants, DAOs,
+      or reputation-building in a Somaliland/East Africa context.
+    audience: >-
+      community members and stewards new to web3, evaluating whether/how to
+      engage with verification-gated programs
+    known_tensions:
+      - >-
+        access-to-verification-gated-opportunities-vs-privacy-cost-of-any-identity-linkage
+    related_concepts:
+      - zero-knowledge-proof-selective-disclosure
+      - verifiable-credential-wallet-held-attestation
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/identity-verification.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: the article has no References/sources section (its
+      frontmatter sources: [] is empty) and names no specific verification
+      protocol, product, or platform, so no resource object was created — the
+      content is purely conceptual/explanatory. No public person-nodes or
+      location-specific individual data were created; the Somaliland/Sarreya
+      programs reference is kept general (audience framing only, no named
+      individuals).
+    work_order: wo-ab8935893aba
+    source_lineage: identity-verification.md
+  understanding-gas-fees-in-cryptocurrency:
+    title: Understanding Gas Fees in Cryptocurrency
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A quick, plain-language explainer of blockchain gas fees: what gas is and
+      why it exists (pay validators, prevent spam, allocate block space), the
+      EIP-1559 base-fee + tip fee model (base fee auto-adjusts with demand and
+      is burned; priority fee/tip jumps the queue), typical gas costs by
+      transaction type, what drives fees up or down (network demand, time of
+      day, transaction complexity), and five ways to save (time transactions,
+      avoid volatility spikes, use fee estimators, use Layer 2, set max fees).
+    audience: newcomers doing their first crypto transactions
+    known_tensions: []
+    related_concepts:
+      - gas-fee-eip-1559-base-fee-plus-tip-model
+    related_resources:
+      - arbitrum
+      - optimism
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/gas-fees.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ac0da2dd8891
+    source_lineage: gas-fees.md
+  ai-tools-for-community-knowledge:
+    title: AI Tools for Community Knowledge
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      An opinionated guide to the AI tools that help a small team build a
+      knowledge commons that survives contributor turnover. Organized around one
+      governing rule, "infrastructure should serve the work, not define it" —
+      ask what job needs doing (capture, synthesize, search) before picking a
+      tool. Walks through transcription (Otter.ai) for capture,
+      retrieval-augmented generation (Google NotebookLM) for grounded synthesis,
+      and local-first search (Obsidian + Smart Connections) for private, durable
+      ownership, then closes on three guardrails: privacy, attribution, and
+      naming one steward.
+    audience: small community teams building a durable, AI-assisted knowledge base
+    known_tensions:
+      - >-
+        cloud convenience (NotebookLM, Otter.ai) vs local ownership (Obsidian +
+        Smart Connections) — article resolves this by routing sensitive or
+        long-lived material to local tools and using cloud tools for
+        lower-stakes synthesis and search.
+      - >-
+        polished AI writing reads as trustworthy whether or not it is accurate —
+        the article treats this as more dangerous than a messy human note, not
+        less, and insists AI drafts be marked distinctly from human-confirmed
+        knowledge.
+    related_concepts:
+      - retrieval-augmented-generation
+    related_resources:
+      - Otter.ai
+      - Google NotebookLM
+      - Smart Connections
+      - Quartz
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-community-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ae4676958221
+    source_lineage: ai-community-tools.md
+    notes: |
+      # assessed-but-excluded
+      - No people/community profiles or exact locations named in this article;
+        privacy/consent is discussed as general advice about handling
+        transcripts, not itself sensitive material — no high-risk trigger on
+        the entry itself.
+      - GravityDAO is mentioned only as an analogy ("the kind of practice
+        GravityDAO has built its work around") rather than described in enough
+        detail to warrant its own resource object; folded into this entry's
+        summary instead.
+  trust-and-transparency-in-decentralized-systems:
+    title: Trust and Transparency in Decentralized Systems
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Argues decentralization does not eliminate trust but relocates it — from
+      institutions (banks, platforms) to open-source code, consensus mechanisms,
+      and public verifiability. Explains how blockchain properties
+      (immutability, transparency, cryptographic security) enable this, walks
+      through Proof of Work vs Proof of Stake as the "trust engine," then names
+      a "transparency paradox": the same public visibility that enables
+      accountability (detecting insider trading, concentrated ownership) also
+      creates attack surfaces (sophisticated actors planning attacks on visible
+      positions). Closes on decentralized identity (DIDs) as returning ownership
+      of one's digital self.
+    audience: general readers evaluating whether/why decentralized trust models matter
+    known_tensions:
+      - trust-in-institutions vs trust-in-code/math/consensus
+      - >-
+        transparency-enables-accountability vs
+        transparency-enables-attack-planning
+      - >-
+        individual-control-of-identity vs
+        currently-scattered-centralized-identity-databases
+    related_concepts:
+      - decentralized-trust
+      - consensus-mechanisms
+      - decentralized-identity
+      - transparency-paradox
+    related_resources:
+      - Dune Analytics
+      - W3C Decentralized Identifiers (DID)
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/trust-transparency.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: trust-transparency.md
+    notes: |
+      # assessed-but-excluded
+      - the article's aside that "in Somali and East African traditions, trust
+        has historically been built through community networks, clan
+        relationships, and reputation" is a broad, unattributed cultural
+        generalization (no named community, individual, or specific
+        tradition/source cited) rather than a documented TEK claim with a
+        lineage to trace — captured only as an adjacent-meaning note in the
+        concept-lineage object, not elevated to its own claim-evidence object
+        or flagged high-risk, since it names no specific people or exact
+        location and cites no source.
+    work_order: wo-b1b216c615be
+  stewardship-roles-for-a-knowledge-commons-that-outlives-you:
+    title: Stewardship Roles for a Knowledge Commons That Outlives You
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A guide on naming, assigning, and handing off the five stewardship roles
+      (Editor, Curator, Facilitator, Maintainer, Onboarder) a knowledge commons
+      needs, how to measure fragility via the Contributor Absence Factor (Bus
+      Factor), and how to wire roles into existing tooling (CODEOWNERS,
+      all-contributors, GOVERNANCE.md) so succession survives turnover.
+    audience: small teams running a docs/GitHub-based knowledge commons
+    known_tensions:
+      - >-
+        Roles "written in a Notion page nobody opens are decoration"; the
+        article argues roles only become real when enforced by tooling
+        (CODEOWNERS, bots) rather than documented as intent.
+    related_concepts:
+      - stewardship-knowledge-commons
+      - contributor-absence-factor-bus-factor
+    related_resources:
+      - codeowners
+      - all-contributors
+      - gravity-dao
+      - protocol-guild
+      - wikimedia-stewards
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/stewardship-roles.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: the article addresses a reader named "Sol" directly
+      ("Sol, this is where it gets concrete") — this reads as an audience
+      persona / direct-address device, not a real private individual's personal
+      information being exposed, so no person-node or public-use-boundary
+      created for it. No ecological/MRV/funding-decision content triggering
+      high_risk.
+    work_order: wo-b33d0b2dd044
+    source_lineage: stewardship-roles.md
+  building-internal-capacity:
+    title: Building Internal Capacity
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A guide on developing the skills and systems a community needs to sustain
+      web3 operations independently, without relying on external experts or
+      consultants. Names four capacity areas (technical: wallet management,
+      smart contract interaction, treasury operations, security; governance:
+      facilitation, proposal writing, conflict resolution, decision-making;
+      communication: writing, social media, community management, outreach;
+      financial: bookkeeping, grant writing, budgeting, fundraising) and a
+      five-step process to build it: identify gaps, map existing skills, create
+      learning pathways, practice with low stakes, and document everything.
+    audience: local node organizers investing in member skill development
+    known_tensions: []
+    related_concepts:
+      - internal-capacity
+    related_resources: []
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-internal-capacity.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b3a05e9b7743
+    source_lineage: building-internal-capacity.md
+    notes: |
+      # assessed-but-excluded
+      - No people/community profiles, exact locations, TEK, MRV/carbon claims,
+        or funding/legal/governance recommendations specific enough to trigger
+        high_risk — "grant writing" and "fundraising" are named only as generic
+        skill-building categories, not specific recommendations.
+      - No named tools, orgs, or external sources appear in this article at
+        all (it has no References section) — no resource objects to extract.
+  on-chain-attestations-your-digital-proof-record:
+    title: 'On-Chain Attestations: Your Digital Proof Record'
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A beginner-level explainer of on-chain attestations as permanent,
+      verifiable, tamper-proof digital proof records for skills, training
+      completion, volunteering, and community impact — framed as a replacement
+      for paper certificates that can be lost, damaged, or forged. Explains the
+      mechanism in three steps (someone vouches for you → it's recorded
+      permanently on a blockchain → anyone can verify it) and lists use cases:
+      proving skills for scholarships/jobs, building a portable reputation,
+      showing community impact, and accessing opportunity programs that require
+      verifiable proof.
+    audience: >-
+      Written directly for young women participants in "Sarreya programs" (a
+      named training/mentorship context referenced in the source article,
+      apparently East Africa / Somaliland-adjacent based on sibling articles in
+      this batch); beginner, non-technical.
+    known_tensions:
+      - >-
+        The article asserts attestations are simply superior to paper
+        certificates on every axis (permanent, verifiable, portable,
+        trustworthy) without discussing failure modes (e.g. the vouching party
+        itself being wrong, revoked, or unaccountable) — see accompanying
+        claim-evidence entry.
+    related_concepts:
+      - onchain-attestation-as-vouching-record
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/onchain-attestations.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b40786d63ff2
+    source_lineage: onchain-attestations.md
+  decentralization-and-resilience:
+    title: Decentralization and Resilience
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      Frames decentralization as a practical foundation for community survival
+      rather than a technical abstraction, via four mechanisms — redundancy,
+      fault tolerance, adaptive capacity, and anti-fragility — then introduces
+      "cosmo-local coordination" (global standards + local control) and gives
+      regenerative-community applications (local ReFi nodes, decentralized
+      energy/food networks, community savings circles/ROSCAs) plus six
+      principles for building resilient regeneration.
+    audience: Community-Steward
+    known_tensions:
+      - >-
+        local-autonomy vs global-coordination — "isolation breeds fragility;
+        dependence on a single external power breeds capture."
+    related_concepts:
+      - cosmo-local-coordination
+      - anti-fragility
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/decentralization-resilience.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b48196973cdf
+    source_lineage: decentralization-resilience.md
+    notes: >
+      # assessed-but-excluded
+
+      - Greenpill Local and RadicalxChange appear only in the reference list
+        (URLs, no in-body description of what they curate or a return path), so
+        no source-system card was created for either here — insufficient
+        in-article material to responsibly fill steward/return_path without
+        inventing facts.
+      - ROSCA (rotating savings and loan association) is described only
+      generically
+        as "a time-tested form of decentralization"; not enough distinct source
+        material for its own concept-lineage beyond what's captured in the
+        encyclopedia entry's applications section.
+      - No people/community profiles, exact locations, or high-risk triggers
+        identified; no public-use-boundary object created.
+  find-your-community:
+    title: Find Your Community
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A plain-language guide for community organizers and permaculturists on
+      finding a trustworthy, real-world ReFi (regenerative finance) community
+      without getting scammed or wasting time. Frames ReFi DAO and Greenpill
+      Network as the two established "front doors," recommends listening before
+      committing (field notes, public Telegram, assessment, steward call), and
+      gives concrete rules for telling a real community from a scam (never share
+      a seed phrase, real teams don't DM first, always type the known URL
+      yourself, never send money first, big member counts aren't proof, slow is
+      safe).
+    audience: community organizers and permaculturists new to ReFi/web3, wary of scams
+    known_tensions:
+      - >-
+        Encourages joining named, centralized-looking "front doors" (ReFi DAO,
+        Greenpill) as the safe path, which is itself a form of gatekeeping —
+        worth naming that "established" is being used as a proxy for "safe," not
+        a guarantee.
+    related_concepts:
+      - regenerative-finance-refi
+    related_resources:
+      - refi-dao
+      - greenpill-network
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/find-your-community.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b4b5ea30ae6f
+    source_lineage: find-your-community.md
+  the-ethereum-ecosystem:
+    title: The Ethereum Ecosystem
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A grounded, hype-free tour of Ethereum for regenerative communities in
+      East Africa and Somaliland: what Ethereum is (a shared, permissionless
+      compute platform, not just a currency), Layer 2 networks as a cost/speed
+      fix, DeFi (swaps, lending, stablecoins), NFTs as provable digital
+      ownership, and DAOs as a new organizational form. Closes with practical
+      low-risk starter steps (wallet, L2 browsing, block explorer, browsing a
+      DAO's governance).
+    audience: >-
+      beginner community members and organizers in East Africa / Somaliland
+      exploring web3 for the first time
+    known_tensions:
+      - >-
+        The article frames the technology as neutral ("can serve extractive
+        finance or regenerative purposes") while also actively encouraging
+        exploration of DeFi/DAOs — readers should weigh real risk (smart
+        contract bugs, volatility, hacks) against the framed opportunity.
+    related_concepts:
+      - decentralized-finance-defi
+    related_resources:
+      - ethereum
+      - metamask
+      - uniswap
+      - base
+      - etherscan
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ethereum-ecosystem.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b4d86b063d8c
+    source_lineage: ethereum-ecosystem.md
+  security-best-practices-for-organizations-using-crypto-wallets:
+    title: Security Best Practices for Organizations Using Crypto Wallets
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      Security guidance for regenerative organizations holding crypto assets:
+      the core rule is no single point of failure, achieved via multi-sig
+      wallets (e.g. Safe) with configurations from 2-of-3 to 4-of-7 depending on
+      org size; layered role-based access control (operations/managers/
+      executives/board); separation of hot wallets (2-4 weeks of operating
+      funds) from cold-storage treasury reserves; a written policy framework
+      (digital-asset management, security protocols, emergency response,
+      smart-contract vetting); and ongoing team training on phishing and safe
+      transaction practices. Includes a practical security checklist and an
+      explicit warning against using personal wallets for organizational funds.
+    audience: DAO operators / regenerative organizations managing crypto treasuries
+    known_tensions: []
+    related_concepts:
+      - no-single-point-of-failure
+    related_resources:
+      - safe
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/security-best-practices-orgs.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-b79788c6a798
+    source_lineage: security-best-practices-orgs.md
+  local-currency-design-for-community-finance:
+    title: Local Currency Design for Community Finance
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practical guide to designing and launching a community currency: what
+      unit to use (time-based, value-based, points-based), what backs it
+      (nothing/fiat, labour, goods, national currency), who issues it
+      (member-issued, system-issued, hybrid), what rules to set (earning,
+      spending, expiry, fees), and technical implementation choices (paper
+      ledgers, shared digital ledger, blockchain). Covers a three-phase launch
+      process (design, pilot, scale), common mistakes, and named case studies
+      (Ithaca Hours, Brixton Pound, Sardex, BerkShares, and East African
+      chamas/ROSCAs as an existing informal precedent to build on).
+    audience: >-
+      local-node organizers, East Africa-focused track (Somaliland, Kenya,
+      Tanzania context)
+    known_tensions:
+      - >-
+        keeping value local (the core purpose of a local currency) vs. tying the
+        unit to a national currency (value-based backing), which re-imports the
+        inflation/instability the currency is meant to buffer against
+    related_concepts:
+      - Local / Community Currency
+    related_resources:
+      - Ithaca Hours
+      - Brixton Pound
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-currency.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-bb8c4077a9fb
+    source_lineage: local-currency.md
+  real-examples-of-impact-daos:
+    title: Real Examples of Impact DAOs
+    type: encyclopedia-entry
+    page_type: case-linked
+    summary: >-
+      Introduces Impact DAOs (DAOs organized specifically for positive change)
+      to a permaculture/regenerative-community audience through three named
+      cases — ReFi DAO's global network of place-based Local Nodes, Greenpill's
+      "degens to regens" chapter model with tiered participation, and Klima
+      DAO's approach to bringing verified carbon credits on-chain — and draws an
+      explicit analogy to permaculture principles (working with natural systems,
+      local resilience connected to broader networks, sharing over hoarding,
+      regenerative over extractive economies).
+    audience: >-
+      permaculture practitioners and regenerative-community members new to
+      web3/DAOs
+    known_tensions:
+      - >-
+        Frames DAOs as "trust built into the system rather than relying on one
+        person," which risks overstating how automatic trust is in practice —
+        DAO participation, accountability, and decision quality are named
+        elsewhere in the site as real, unresolved challenges.
+      - >-
+        Klima DAO's premise (bringing carbon credits on-chain for a liquid,
+        accessible market) assumes the underlying off-chain carbon verification
+        is sound; the article does not examine that layer's integrity.
+    related_concepts:
+      - impact-dao
+    related_resources:
+      - refi-dao
+      - greenpill-network
+      - klima-dao
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/examples-impact-daos.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c562753ff84a
+    source_lineage: examples-impact-daos.md
+  is-web3-right-for-your-community:
+    title: Is Web3 Right for Your Community?
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A short decision-framing guide arguing web3 isn't for everyone: it lists
+      when web3 adds value (transparent/verifiable finance, programmable
+      governance, cross-border coordination, connecting to the wider web3
+      ecosystem, immutable records) versus when it doesn't (small high-trust
+      groups, minimal financial activity, low tech comfort, "a spreadsheet does
+      everything you need"), five questions to ask before adopting it, and
+      recommends a hybrid approach — web3 where it adds clear value, traditional
+      tools elsewhere.
+    audience: community groups deciding whether to adopt web3 tools at all
+    known_tensions:
+      - >-
+        web3-genuinely-solving-a-coordination-problem-vs-adopting-it-out-of-curiosity-or-hype
+    related_concepts:
+      - hybrid-web3-adoption-selective-tool-use-by-function
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/is-web3-right.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: no resource/source-system objects were created —
+      the article names no specific tool, platform, or protocol, only generic
+      categories ("Web3 tools," "spreadsheets," "group chats"). See accompanying
+      signal noting the article's frontmatter sources field is a placeholder
+      ("Community building") rather than an actual citation.
+    work_order: wo-c5735ba16b9b
+    source_lineage: is-web3-right.md
+  layer-2-solutions:
+    title: Layer 2 Solutions
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Explains how Layer 2 networks (Base, Arbitrum, Optimism, zkSync Era,
+      Starknet, Scroll) scale Ethereum by processing transactions off the main
+      chain and settling compressed batches back to it, cutting fees from
+      several dollars to fractions of a cent. Covers Optimistic vs. ZK rollup
+      designs, why this matters for regenerative-finance projects running
+      micro-transactions or community token systems, and how to get started
+      (MetaMask, bridging, using L2 dApps).
+    audience: >-
+      regen project builders new to Ethereum scaling, East Africa /
+      Somaliland-focused track
+    known_tensions:
+      - >-
+        Optimistic Rollups (accessible, widely compatible, ~7-day challenge
+        window) vs. ZK Rollups (faster finality, no challenge window, more
+        technically complex, "still maturing")
+    related_concepts:
+      - Layer 2 (Ethereum scaling)
+    related_resources:
+      - Base
+      - Arbitrum
+      - L2BEAT
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/layer-2s.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-c97e3164ddf7
+    source_lineage: layer-2s.md
+  custodial-vs-non-custodial-wallets-understanding-who-holds-the-keys:
+    title: 'Custodial vs Non-Custodial Wallets: Understanding Who Holds the Keys'
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Compares custodial wallets (a third party like an exchange holds your
+      private keys, similar to a bank) against non-custodial wallets (you hold
+      your own keys/seed phrase, no intermediary). Walks through the trade-offs
+      of each — recovery, ease of use, DeFi access, privacy, counterparty risk —
+      then gives East-Africa-specific framing (mobile money precedents like
+      M-Pesa, Eva, Telesom ZAAD) and decision guidance for when to choose which.
+    audience: Individual (beginner, East African communities)
+    known_tensions:
+      - >-
+        ease-of-use-and-recoverability (custodial) vs
+        full-ownership-and-no-safety-net (non-custodial) — the article frames
+        this as situational, not a universal "better" choice.
+      - >-
+        convenience of built-in recovery vs the "not your keys, not your crypto"
+        principle of true ownership.
+    related_concepts:
+      - custodial-wallet
+      - non-custodial-wallet
+      - seed-phrase
+      - self-custody
+    related_resources:
+      - MetaMask
+      - Ledger
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/custodial-vs-noncustodial.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ce41b10364c7
+    source_lineage: custodial-vs-noncustodial.md
+    notes: >
+      # assessed-but-excluded
+
+      - Coinbase/Binance/Kraken and Trust Wallet/Rainbow/Trezor mentioned only
+      as
+        one-line named examples alongside MetaMask/Ledger; not built out as
+        separate resource objects to avoid mega-listing named brands with no
+        distinct content beyond "it's an exchange" / "it's a wallet app" — kept
+        the two most-detailed examples (MetaMask, Ledger) as resources instead.
+      - No people/community profiles, exact locations, or
+      funding/legal/governance
+        recommendations in this article; no high-risk trigger identified — it is
+        general consumer wallet-literacy content, so no public-use-boundary
+        object was created.
+  local-nodes-and-daos-when-and-whether-to-formalize:
+    title: 'Local Nodes and DAOs: When (and Whether) to Formalize'
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      Distinguishes a local node (a community concept — people in a place,
+      organized around shared purpose) from a DAO (a legal-and-technical form).
+      Argues for "minimum viable coordination" (SuperBenefit's term) rather than
+      building governance machinery pre-emptively. Names the three concrete
+      things formalizing actually gives you (a treasury no one person controls,
+      decisions anyone can verify, roles that survive people leaving), surveys
+      which DAO tools are actually still standing as of mid-2026 (Safe,
+      Snapshot/Snapshot X, Hats Protocol — with Tally and Coordinape flagged as
+      having wound down), and recommends a hybrid model: informal/human for the
+      social layer, onchain only for the parts that need a trust backstop.
+    audience: local-node organizers deciding whether/how to formalize governance
+    known_tensions:
+      - >-
+        formalizing to gain trust/legitimacy vs. formalizing as maintenance
+        burden that "exhausts founders and quietly kills nodes" — the article
+        argues structure should be added only in response to a named, current
+        problem
+    related_concepts:
+      - DAO (Decentralized Autonomous Organization) vs. Local Node
+    related_resources:
+      - Snapshot
+      - Hats Protocol
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-nodes-and-daos.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-cf4d99f9b04c
+    source_lineage: local-nodes-and-daos.md
+  hot-wallets-vs-cold-storage:
+    title: Hot Wallets vs. Cold Storage
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Contrasts internet-connected "hot" wallets (fast, convenient, higher theft
+      risk) with fully offline "cold storage" (hardware or paper, slower to
+      access, much lower theft risk), and recommends a layered custody model —
+      hot for operational funds, hardware cold storage for reserves/grants,
+      multi-signature for organizational decisions.
+    audience: >-
+      community organizers or treasurers deciding where to keep organizational
+      or personal crypto holdings
+    known_tensions:
+      - convenience-of-hot-wallets-vs-security-of-cold-storage
+      - >-
+        upfront-hardware-wallet-cost-vs-perceived-affordability-for-small-holdings
+    related_concepts:
+      - layered-custody-hot-cold-multisig-by-purpose
+    related_resources:
+      - cryptosteel-metal-seed-phrase-storage
+      - cryptocurrency-security-standards-ccss
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/hot-vs-cold.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: the article's "Try This" self-audit checklist
+      (identify holdings, classify hot/cold, check seed-phrase storage, rate
+      exposure 1-10) was excluded as a standalone object — it is an exercise
+      prompt, not a typed knowledge object, and is preserved in full in the
+      source file. MetaMask, Ledger, Trezor, and Safe/Gnosis Safe were not
+      re-created as new resource objects: equivalent resources ("MetaMask",
+      "Hardware / cold wallets (Ledger, Trezor)", "Safe (Wallet)") already exist
+      in data/kb/resource.yaml from a prior ingestion slice.
+    work_order: wo-d415241a023a
+    source_lineage: hot-vs-cold.md
+  what-is-a-local-node:
+    title: What Is a Local Node?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A practical guide for people ready to build, defining a "local node" as a
+      place-based community group using Web3 tools and regenerative principles
+      to coordinate real-world action in one specific area — simultaneously
+      self-governing and network-connected. Covers what nodes do (pool
+      resources, fund public goods, onboard newcomers, run a steady meetup
+      cadence, connect outward), when Web3 tooling actually earns its place vs.
+      a spreadsheet, the Localism Fund / quadratic-funding network-funding
+      picture, common structural patterns, a three-stage Seed/Sapling/Canopy
+      maturity model (ReFi DAO), and the single biggest failure mode:
+      bus-factor- of-one burnout.
+    audience: people ready to build a place-based Web3-enabled regen community group
+    known_tensions:
+      - >-
+        Node autonomy vs. central overreach — the article frames "subsidiarity"
+        (decisions at the most local level able to make them) as the design
+        answer to the fear that a network could swallow a local project.
+      - >-
+        Technology-first vs. relationships-first — "a node with strong
+        relationships and a Google Sheet beats a node with flawless tokenomics
+        and no trust."
+    related_concepts:
+      - subsidiarity
+      - local-node
+    related_resources:
+      - greenpill-network
+      - safe-multisig
+      - snapshot
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    provenance:
+      origin: src/content/docs/what-is-local-node.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d579c610b491
+    source_lineage: what-is-local-node.md
+  archive-or-compost-handling-outdated-knowledge-without-losing-the-plot:
+    title: 'Archive or Compost: Handling Outdated Knowledge Without Losing the Plot'
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      A practical framework for retiring stale documents in a knowledge commons
+      without deleting institutional memory or confusing readers. Names four
+      moves — archive (preserve as labeled history), compost (harvest the still
+      -good parts into living pages, retire the husk), deprecate (mark obsolete
+      with a warning and a pointer), and remove (rare; last resort) — against
+      the Regen Knowledge Commons Toolkit's Evolution Layer and cross-cutting
+      principle #17, "compost, archive, and memory." Closes on the governance
+      rule that keeps this from becoming chaos: a staleness flag is a signal,
+      not a conclusion — a named steward decides which move applies and does it
+      on the record.
+    audience: teams stewarding docs/wikis that must outlive contributor turnover
+    known_tensions:
+      - >-
+        most teams only know two verbs, keep and delete — keeping lets the wiki
+        silently rot, deleting erases the memory of why a decision was made; the
+        article's four-move framework is presented as the fix.
+      - >-
+        composting requires human judgment (deciding what's worth keeping) while
+        archiving and deprecating are described as "near-mechanical" — the
+        article treats this as why composting is the most valuable and least
+        practiced of the four moves.
+    related_concepts:
+      - archive-compost-deprecate-remove
+      - evergreen-notes-maturity-taxonomy
+    related_resources:
+      - Read the Docs
+      - Grafana Writers' Toolkit
+      - Quartz
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/archive-compost.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d6e9e6e15257
+    source_lineage: archive-compost.md
+    notes: |
+      # assessed-but-excluded
+      - No people/community profiles, exact locations, TEK, MRV/carbon claims,
+        or funding/legal/governance recommendations in this article — no
+        high-risk trigger identified. It is a general documentation-hygiene
+        practice guide.
+      - GravityDAO is mentioned only as an analogy for tending trust on purpose,
+        not described in enough detail here to warrant its own resource object
+        (a fuller GravityDAO resource object already exists from other
+        ingestions of articles that describe it directly).
+  cooperative-economics-and-digital-commons:
+    title: Cooperative Economics and Digital Commons
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      Explains cooperative economics (worker, consumer, savings-and-loan, and
+      multi-stakeholder cooperatives) grounded in Somaliland/East African
+      traditions (coffee cooperatives, savings circles), extends the idea to the
+      digital commons and DAOs, walks through Elinor Ostrom's eight principles
+      for governing shared resources, and lists funding paths (member
+      contributions, savings-group formalization, grants, quadratic funding,
+      community currencies).
+    audience: >-
+      community stewards in Somaliland/East Africa building cooperative or
+      commons-based projects
+    known_tensions:
+      - >-
+        informal-savings-circles-already-work vs
+        formalizing-them-into-registered-cooperatives-with-broader-reach
+    related_concepts:
+      - ostroms-eight-principles
+      - digital-commons
+      - tokenization
+    related_resources:
+      - Mondragon Worker Cooperative Federation
+      - Greenpill Network
+      - Gitcoin Grants
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/cooperative-commons.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d800b62ea134
+    source_lineage: cooperative-commons.md
+    notes: >
+      # assessed-but-excluded
+
+      - "target_audience: Somaliland / East Africa" in the source frontmatter
+      names a
+        region, not an exact location or individual/community profile, so no
+        high-risk flag; kept as general geographic/cultural framing only.
+  what-is-a-knowledge-commons:
+    title: What Is a Knowledge Commons?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language guide for small teams comfortable with docs/GitHub on
+      building a shared knowledge base that survives team turnover.
+      Distinguishes a "commons" from a plain wiki by governance (drawing on
+      Elinor Ostrom's commons-governance principles and her later "knowledge as
+      a commons" work with Charlotte Hess), argues turnover is the real test of
+      a knowledge base, profiles three real working examples at different scales
+      (Wikipedia, SuperBenefit Knowledge Garden, GravityDAO), introduces the
+      "digital garden" posture (rough/unfinished notes published openly rather
+      than perfected before publishing), and warns against building an ontology
+      before content exists.
+    audience: small teams and local nodes new to knowledge-commons practice
+    known_tensions:
+      - >-
+        Perfectionism vs. "digital garden" posture — the article argues pages
+        must be allowed to be rough/unfinished and openly marked as such, rather
+        than withheld until polished.
+      - >-
+        Structure-first vs. content-first — explicitly argues against designing
+        a full ontology before a real pile of notes exists to inform it.
+    related_concepts:
+      - knowledge-commons
+      - digital-garden
+    related_resources:
+      - superbenefit-knowledge-garden
+      - gravitydao
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-knowledge-commons.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-d94f3822e08d
+    source_lineage: what-is-knowledge-commons.md
+  token-standards-the-building-blocks-of-digital-assets:
+    title: 'Token Standards: The Building Blocks of Digital Assets'
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Compares the three main Ethereum token standards — ERC-20 (fungible),
+      ERC-721 (unique/non-fungible), and ERC-1155 (flexible multi-token) —
+      explaining what each is used for and how a community project (savings
+      tokens, impact credits, marketplaces) should pick between them, framed for
+      East African/Somaliland community and cooperative use cases.
+    audience: >-
+      community organisers/cooperatives choosing a token standard for their
+      project
+    known_tensions: []
+    related_concepts:
+      - erc-20-fungible-token-standard
+      - erc-721-non-fungible-token-standard
+      - erc-1155-multi-token-standard
+    related_resources:
+      - openzeppelin
+      - opensea
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/token-standards.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: no people/location/TEK/MRV high-risk content; the
+      "Hargesa Savings Token" example is a generic illustrative name, not a real
+      identifiable entity.
+    work_order: wo-d9f74145465f
+    source_lineage: token-standards.md
+  metadata-that-matters:
+    title: Metadata That Matters
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      How to design a small, durable set of metadata fields (title, type,
+      status, owner, source, updated, tags) so a knowledge commons stays
+      findable and trustworthy after the people who built it move on. Draws the
+      type-vs-tag distinction (one type per document, many tags, a controlled
+      vocabulary to prevent sprawl), recommends borrowing established field
+      names (Dublin Core, Murmurations) rather than inventing new ones, and
+      shows how to make the schema machine-enforced (Astro/Zod content
+      collections, remark-lint-frontmatter-schema) so consistency does not
+      depend on memory. Names status, owner, and source as the three
+      non-negotiable "trust fields."
+    audience: >-
+      knowledge-commons builders and stewards (any team, not
+      local-node-specific)
+    known_tensions:
+      - >-
+        minimal metadata (fast to fill in, low friction) vs. rich metadata (more
+        useful for trust/findability) — resolved as "spend the field budget
+        carefully," six or seven fields as a starting default
+    related_concepts:
+      - Type vs. Tag (metadata discipline)
+    related_resources:
+      - Dublin Core
+      - Murmurations Protocol
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/metadata-that-matters.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-db092c6eb4e9
+    source_lineage: metadata-that-matters.md
+  tokens-as-coordination-tools:
+    title: Tokens as Coordination Tools
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Explains how tokens function as coordination mechanisms for distributed
+      groups: signaling (temperature checks before formal votes), on-chain vs
+      off-chain voting, reputation-based alternatives to pure token wealth, and
+      incentive/penalty design. Walks through MakerDAO, Gitcoin DAO, and
+      KlimaDAO as real examples, then names the recurring failure modes (low
+      participation, wealth concentration, hidden multisig hierarchies,
+      short-termism) and points to the SuperBenefit anticapture framework as a
+      design response.
+    audience: >-
+      regenerative community members and DAO organizers weighing whether/how to
+      use tokens for governance
+    known_tensions:
+      - token-weighted-voting vs one-person-one-voice ideals
+      - >-
+        decentralization-as-stated-value vs
+        multisig-concentrated-power-in-practice
+      - short-term-price-speculation vs long-term-ecosystem-health
+    related_concepts:
+      - token-based-coordination-mechanisms
+      - reputation-based-governance
+      - anticapture-governance-design
+    related_resources:
+      - SuperBenefit Knowledge Garden
+      - MakerDAO
+      - Gitcoin DAO
+      - KlimaDAO
+      - Colony
+      - Tally
+      - Snapshot
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tokens-coordination-tools.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: tokens-coordination-tools.md
+    notes: >
+      # assessed-but-excluded
+
+      - "Try This" exercise (visit Snapshot, look at active proposals) folded
+      into
+        the encyclopedia entry's framing rather than a separate object; it's an
+        exercise prompt, not a distinct typed fact.
+      - no people/community profiles, exact locations, TEK, or funding/legal
+        recommendations in this article; no high-risk trigger identified.
+    work_order: wo-dc7ddba72524
+  other-chains-and-ecosystems:
+    title: Other Chains and Ecosystems
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      A comparison of five blockchain ecosystems beyond Ethereum — Solana,
+      Cosmos, Polkadot, Avalanche, and Near — covering each chain's core
+      mechanism, tradeoffs, and relevance to regenerative-finance projects
+      (micro-donation/carbon-credit throughput, sovereign community-currency
+      chains, shared-security launches, custom subnets, and accessibility/
+      climate focus respectively). Closes with a four-factor decision framework
+      for choosing where to build (team skills, transaction needs, community
+      location, project type).
+    audience: >-
+      individuals evaluating which blockchain ecosystem fits a regenerative
+      project
+    known_tensions: []
+    related_concepts:
+      - chain-selection-tradeoffs
+    related_resources:
+      - solana
+      - cosmos
+      - polkadot
+      - avalanche
+      - near-protocol
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/other-chains.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-de82da691912
+    source_lineage: other-chains.md
+  tokens-for-real-world-assets:
+    title: Tokens for Real-World Assets
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Introduces real-world-asset (RWA) tokenization: turning off-chain valuable
+      things (real estate, gold, bonds, art, carbon credits) into blockchain
+      tokens that prove ownership and can be fractionally traded. Covers the
+      claimed benefits (liquidity, fractional access, transparency, lower cost,
+      global access), the real challenges (legal complexity across borders,
+      valuation/oracle dependence, custody of the physical asset, scalability),
+      the actors involved (issuers, platforms, liquidity providers, service
+      providers), and beginner action items.
+    audience: >-
+      newcomers exploring what asset tokenization is and whether to look closer
+      (per source, "target learner Maya")
+    known_tensions:
+      - >-
+        blockchain-token-portability vs
+        national-legal-jurisdiction-over-the-underlying-asset
+      - >-
+        claimed-transparency-and-lower-fraud vs
+        continued-dependence-on-a-human-custodian-for-the-physical-asset
+    related_concepts:
+      - real-world-asset-tokenization
+      - fractional-ownership
+    related_resources:
+      - Centrifuge
+      - Polymath
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/tokens-real-world-assets.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: tokens-real-world-assets.md
+    notes: |
+      # assessed-but-excluded
+      - no people/community profiles, exact locations, TEK, or specific
+        funding/legal recommendations named in this article beyond generic
+        "watch your country's regs" advice; no high-risk trigger identified.
+      - see the accompanying signal object flagging this source document's low
+        metadata/citation quality (frontmatter has placeholder/garbage
+        "sources: [l, i, s, t]" and no real audience/target_audience array).
+    work_order: wo-de914fb9d23f
+  impact-certificates-hypercerts:
+    title: Impact Certificates & Hypercerts
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Introduces hypercerts as tokens claiming "this group did this work, here,
+      during this time" and retroactive funding as paying after impact is
+      demonstrated rather than upfront, describing the creator/funder/evaluator
+      roles, the split-and-merge property, and links to quadratic funding,
+      RetroPGF, and MRV as connected ReFi tools.
+    audience: >-
+      community organizers and funders new to impact-certificate / retroactive-
+      funding mechanisms
+    known_tensions:
+      - >-
+        pay-after-proof-reduces-funder-risk-vs-creators-still-need-working-capital-before-impact-exists
+    related_concepts:
+      - hypercert-erc-1155-impact-claim-token
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/impact-certificates-hypercerts.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      assessed-but-excluded: "Hypercerts Protocol" was not re-created as a new
+      resource object — it already exists in data/kb/resource.yaml from a prior
+      ingestion slice. "Retroactive Public Goods Funding (RetroPGF / Retro
+      Funding)" was not re-created as a new concept-lineage object for the same
+      reason, and the existing claim-evidence "Retroactive funding pays for
+      demonstrated impact, not promises" already covers the general retroactive-
+      funding thesis — this ingestion instead captures the ERC-1155 hypercert
+      token structure and the specific (uncited) ProjectTogether example. See
+      the accompanying signal for a likely factual error in the article ("Built
+      on the AT Protocol").
+    work_order: wo-df4c53425ba7
+    source_lineage: impact-certificates-hypercerts.md
+  ai-assisted-classification-for-your-knowledge-commons:
+    title: AI-Assisted Classification for Your Knowledge Commons
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      An opinionated guide for small teams on using AI to sort and tag a growing
+      document pile without letting it silently invent its own taxonomy.
+      Distinguishes typing (what kind of thing) from tagging (what it's about),
+      contrasts unsupervised discovery (BERTopic) with supervised bucketing
+      (LLMs against a fixed category list), and argues for running discovery
+      once to design a taxonomy then constraining all later AI output to an enum
+      so the categories stay stable. Closes with a human-in-the-loop discipline:
+      store model confidence, stamp provenance on every tag, and never let an AI
+      suggestion pass as a settled decision.
+    audience: small teams and local nodes running a shared docs/GitHub knowledge base
+    known_tensions:
+      - >-
+        discovery (let the data surprise you) vs bucketing (force answers into a
+        fixed list) — article resolves this as "discovery once to design the
+        taxonomy, bucketing for everything after."
+      - >-
+        constrained output (schema/enum-locked classification) prevents taxonomy
+        sprawl but also means a genuinely new category needs a deliberate,
+        reviewed "new tag" escape hatch rather than silent invention.
+    related_concepts:
+      - typing-vs-tagging
+    related_resources:
+      - BERTopic
+      - Auto Classifier (Obsidian plugin)
+      - AI Tagger (obsidian-ai-tagger)
+      - Ollama
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/ai-assisted-classification.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e50c8f7e3b5d
+    source_lineage: ai-assisted-classification.md
+    notes: >
+      # assessed-but-excluded
+
+      - No people/community profiles, exact locations, TEK, MRV/carbon claims,
+      or
+        funding/legal/governance recommendations in this article — no high-risk
+        trigger identified. It is a general practitioner's guide to classification
+        tooling.
+      - The article's closing "Try This" exercise ladder
+      (start/go-deeper/stretch)
+        was read but not modeled as a separate object — it is a pedagogical
+        structure of this one entry, not a distinct typed object.
+  what-is-a-dao:
+    title: What Is a DAO?
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      A plain-language DAO primer for regenerative community organizers, using a
+      "community garden bank account, made visible and rule-bound" analogy.
+      Breaks down the acronym (Decentralized / Autonomous / Organization),
+      contrasts it with a familiar savings circle, names the four core parts of
+      any DAO (treasury, proposals, voting, smart contracts), and walks through
+      the standard tooling (Snapshot for gasless voting, Safe for multi-sig
+      treasury custody, Aragon for no-code DAO creation), plus real regen-space
+      examples (ReFi DAO, Greenpill Network).
+    audience: >-
+      community organisers and regenerative practitioners new to crypto,
+      evaluating whether a DAO would help their group
+    known_tensions:
+      - >-
+        a DAO encodes existing trust into structure vs it cannot manufacture
+        trust a group doesn't already have (the article's explicit "it's
+        plumbing, not magic" framing)
+      - >-
+        Snapshot's off-chain speed/cost-savings vs its lack of automatic
+        on-chain enforcement (a trusted signer must still act)
+    related_concepts:
+      - dao-core-parts
+      - dao-voting-mechanisms
+    related_resources:
+      - Snapshot
+      - Safe
+      - Aragon
+      - ReFi DAO
+      - Greenpill Network
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-is-dao.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-is-dao.md
+    notes: |
+      # assessed-but-excluded
+      - no people/community profiles, exact locations, TEK, or funding/legal
+        recommendations named beyond general organizational patterns; no
+        high-risk trigger identified.
+      - see the accompanying signal object on Coordinape's 2025 wind-down,
+        used by the article itself as a caution about tool churn rather than
+        a claim needing evidentiary weighing.
+    work_order: wo-e5c042958e07
+  finding-your-people:
+    title: Finding Your People
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      A member-attraction framework for local regen node builders: define your
+      ideal member (values, skills, contribution, needs) and your non-ideal
+      member before looking; look in named online spaces (Discord, Twitter/X,
+      Reddit, LinkedIn) and offline spaces (local meetups, co-working spaces,
+      community events, university groups); attract people through content
+      marketing, community presence, events, and one-on-one relationships; and
+      move them through a four-stage funnel (Awareness, Interest, Visit, Join)
+      toward what ultimately attracts people to stay — authenticity, belonging,
+      purpose, and value.
+    audience: local regen node builders/organizers
+    known_tensions:
+      - >-
+        Uses explicit marketing-funnel language ("Content Marketing," "The
+        Funnel," attracting an "ideal member") for what is otherwise framed
+        elsewhere on the site as organic, trust-based community building — the
+        instrumental framing sits in tension with the site's broader
+        anti-extractive posture (see the "Know Your Non-Ideal" step, which
+        itself gates who belongs).
+    related_concepts:
+      - community-member-attraction-funnel
+    related_resources: []
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/finding-your-people.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-e73a1f57e3c0
+    source_lineage: finding-your-people.md
+  conflict-resolution-for-local-nodes:
+    title: Conflict Resolution for Local Nodes
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A practitioner playbook for handling disagreement in a local regen node:
+      most conflict is really about trust/power/being-unheard rather than the
+      surface issue; the Gottman-style escalation ladder (disagreement →
+      contempt → stonewalling); why reaching for a governance mechanism to end a
+      fight tends to break trust instead (the Aragon $200M treasury episode);
+      five NVC-informed principles; a six-step clean conflict process; when
+      tooling like 1Hive's optimistic-governance covenant-challenge pattern or
+      Kleros arbitration genuinely helps; the slow-burn contributor-rewards
+      conflict (SourceCred, Gitcoin stewards); and when to escalate outside the
+      node.
+    audience: people stewarding or organizing a local regen node/chapter
+    known_tensions:
+      - >-
+        reaching-for-a-mechanism-to-end-discomfort vs
+        protecting-the-relationship-first
+      - >-
+        rewarding-contribution-algorithmically vs
+        agreeing-on-values-before-metrics
+    related_concepts:
+      - nonviolent-communication
+      - optimistic-governance
+      - conflict-escalation-ladder
+    related_resources:
+      - Gardens v2 (1Hive)
+      - Celeste
+      - Kleros
+      - Snapshot
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/conflict-resolution.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-ee6204d14f2b
+    source_lineage: conflict-resolution.md
+    notes: |
+      # assessed-but-excluded
+      - the Aragon, SourceCred, and Gitcoin case studies are treated as
+        organizational/governance history (public, already-reported DAO events),
+        not person-nodes; no named private individuals.
+  what-are-tokens-a-beginner-s-guide-to-digital-assets:
+    title: What Are Tokens? A Beginner's Guide to Digital Assets
+    type: encyclopedia-entry
+    page_type: concept
+    summary: >-
+      Explains tokens as "digital keys" built on blockchain technology (using a
+      theme-park-pass analogy), distinguishes them from native coins, contrasts
+      fungible tokens (interchangeable, e.g. cryptocurrencies, stablecoins) with
+      non-fungible tokens/NFTs (unique, one-of-a-kind), explains how smart
+      contracts execute token logic (vending-machine analogy), covers
+      ERC-20/ERC-721/ERC-1155 token standards, and frames tokens' relevance to
+      regenerative communities via carbon-credit tokenization and
+      cooperative/community-asset ownership.
+    audience: >-
+      permaculture teachers, land stewards, and regenerative communities new to
+      tokens
+    known_tensions:
+      - >-
+        tokens-as-speculative-assets vs tokens-as-representations-of-real-value
+        (carbon credits, land stewardship rights)
+      - >-
+        technology-still-evolving vs legitimate volatility/regulation concerns
+        (named directly in the conclusion)
+    related_concepts:
+      - fungible-vs-nonfungible-tokens
+      - token-standards-erc20-erc721-erc1155
+    related_resources:
+      - Carbonmark
+      - Puro.earth
+      - KlimaDAO
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/what-are-tokens.md
+      transformation: summarized
+      authorship: ai-assisted
+    source_lineage: what-are-tokens.md
+    notes: |
+      # assessed-but-excluded
+      - Bankless Academy and Ledger Academy are named only as general
+        education-platform references in the article's reference list, not
+        elaborated on in the body text; excluded as separate resource objects
+        to avoid mega-listing thin mentions (small-objects-over-mega-objects,
+        but this is the reverse: skip near-empty ones).
+      - the M-Pesa mobile-money mention (East Africa) is captured as a
+        resource object below rather than excluded, since the article uses
+        it as a concrete fungible-token analogy, not just a passing mention;
+        no high-risk trigger (it names a public financial system, not
+        individuals or exact locations).
+    work_order: wo-ef5397397db4
+  crypto-wallet-recovery-planning-ensuring-access-for-the-long-term:
+    title: 'Crypto Wallet Recovery Planning: Ensuring Access for the Long Term'
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A guide to crypto wallet recovery methods for individuals and regenerative
+      organizations: seed-phrase backups (paper, metal, geographic
+      distribution), social recovery wallets (guardian-based, e.g. Argent),
+      multi-signature wallets (e.g. Safe, 2-of-3 through 4-of-7 configurations),
+      Shamir Secret Sharing, and inheritance/succession planning. Gives
+      context-specific best practices for individuals, organizations, and DAOs,
+      plus common mistakes (single point of failure, improvised
+      secret-splitting, undocumented passphrases, no written procedures,
+      unavailable guardians). Includes region-specific guidance for
+      Somaliland/East Africa (trusted community storage locations where bank
+      deposit boxes are scarce).
+    audience: individuals and regenerative organizations managing crypto treasuries
+    known_tensions: []
+    related_concepts:
+      - social-recovery-and-multisig-recovery-methods
+    related_resources:
+      - argent-wallet
+      - safe
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/recovery-planning.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-efc28adfc7a7
+    source_lineage: recovery-planning.md
+  setting-up-your-first-wallet:
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/setting-up-first-wallet.md
+    title: Setting Up Your First Wallet
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A calm, step-by-step guide to creating a first self-custody crypto wallet
+      (MetaMask) safely: what a wallet is, hot vs cold wallets, guarding the
+      Secret Recovery Phrase, the wallet address vs phrase distinction, the
+      setup steps, gas on layer-2 networks, and beginner safety habits.
+    audience: community organisers and growers brand new to Web3
+    work_order: wo-f176964ca85a
+    source_lineage: setting-up-first-wallet.md
+  building-your-founding-team:
+    title: Building Your Founding Team
+    type: encyclopedia-entry
+    page_type: guide
+    high_risk: true
+    summary: >-
+      A guide for organizers standing up a local ReFi node on assembling a
+      small, durable founding team. Argues to start with two or three committed
+      people rather than a crowd, fill roles (convener, builder/doer,
+      treasurer/ops) rather than titles, bring people in through real work
+      rather than abstract membership, and design against burnout from day one
+      (no single point of failure, legitimate rest). Cites named real-world
+      nodes (ReFi Medellín, ReFi Cartagena) and their named founders as worked
+      examples, plus research on founder conflict and DAO burnout.
+    audience: organizers standing up a local ReFi/regen node
+    known_tensions:
+      - >-
+        recruiting a crowd feels like momentum but the article argues small,
+        trust-bonded founding teams (2-3 people) outperform larger, looser ones
+        that "attended one call."
+      - >-
+        one person can hold two of the three core roles at the start, but the
+        article warns against any one person holding all three for long —
+        tension between fast bootstrapping and burnout risk.
+    related_concepts:
+      - node-founding-team-roles
+    related_resources:
+      - ReFi Medellín
+      - ReFi Cartagena
+      - Safe (multisig wallets)
+      - ReFi DAO Local Node Incubator
+    maturity: raw
+    public_use: requires-community-consent
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/building-founding-team.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f2680cdb2876
+    source_lineage: building-founding-team.md
+    notes: |
+      # assessed-but-excluded
+      - Individual named organizers (Tereza Bízková, Juan Giraldo, Daniela,
+        Ximena, Diana Monclou, Fabio Anaya) are NOT modeled as public
+        person-nodes per the ingest skill's high-risk rule. They are referenced
+        only inside the ReFi Medellín / ReFi Cartagena resource objects and the
+        companion public-use-boundary object, all already publicly named in the
+        article's own cited sources (a public interview, a public grant
+        report).
+      - high_risk: true set on this entry because it (a) names real community
+        organizers by name/role and (b) gives governance/structural
+        recommendations (multisig signer counts, role design) for
+        funds-and-leadership decisions — both are ingest-skill high-risk
+        triggers. See the public-use-boundary object for the review gate.
+  governance-mechanism-design:
+    title: Governance Mechanism Design
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      A framework for designing DAO/community governance mechanisms: six core
+      mechanisms (token-weighted voting, one-person-one-vote, quadratic voting,
+      conviction voting, consent-based decision making, futarchy) each with a
+      best-fit context and named risks; a decision-type-to-mechanism mapping
+      table; five design principles (match mechanism to context, minimize
+      complexity, build in safeguards, iterate, transparency); and
+      anti-manipulation measures against Sybil attacks, whale dominance, and
+      collusion. Recommends starting with consent-based decisions for small
+      groups and adding quadratic voting plus delegation as the group grows.
+    audience: DAO/community governance designers
+    known_tensions: []
+    related_concepts:
+      - quadratic-voting
+      - conviction-voting
+    related_resources:
+      - gitcoin-passport
+      - brightid
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/governance-mechanism-design.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f2e5810230ed
+    source_lineage: governance-mechanism-design.md
+  setting-up-to-receive-crypto-a-step-by-step-guide:
+    title: 'Setting Up to Receive Crypto: A Step-by-Step Guide'
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A 5-step walkthrough for a nonprofit/organisation to start accepting
+      crypto donations: choose a donation platform, verify nonprofit status, set
+      up the account, connect a donate button/widget to the website, then test
+      before going live. Also flags automatic tax-receipt generation and common
+      setup mistakes.
+    audience: nonprofit/organisation staff new to accepting crypto donations
+    known_tensions:
+      - >-
+        Article frames setup as "about an hour," but the real bottleneck it
+        names is gathering nonprofit verification documents, which is not within
+        the org's direct control on that timeline.
+    related_concepts: []
+    related_resources:
+      - the-giving-block
+      - infinite-giving
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/setting-up-receive-crypto.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      Frontmatter lists source "CryptoAltruists Web3 Impact Toolkit" — this
+      article appears to be a derivative/summary of that toolkit's content, not
+      independently reported. assessed-but-excluded: no high-risk
+      people/location/TEK/MRV content.
+    work_order: wo-f74c59e2b45a
+    source_lineage: setting-up-receive-crypto.md
+  compliance-and-legal-considerations-for-crypto-donations:
+    title: Compliance and Legal Considerations for Crypto Donations
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      Covers whether nonprofits can legally accept crypto donations, how AML/KYC
+      concerns are typically handled by donation platforms rather than the org
+      itself, whether an org needs to touch a wallet directly, US tax
+      considerations for donors and orgs, and what records a platform should
+      keep for reconciliation. Legal/tax content — see the paired claim-evidence
+      and public-use-boundary objects.
+    audience: >-
+      nonprofit leaders/finance staff evaluating crypto-donation legality and
+      compliance
+    known_tensions:
+      - >-
+        holding-crypto-as-an-asset vs
+        immediate-conversion-to-avoid-volatility-risk
+    related_concepts:
+      - kyc-and-donation-platforms
+    related_resources:
+      - The Giving Block
+      - Infinite Giving
+    maturity: raw
+    public_use: not-public-yet
+    high_risk: true
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/compliance-legal.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f8cf63c4e847
+    source_lineage: compliance-legal.md
+    notes: >
+      # assessed-but-excluded
+
+      - none; whole article is legal/tax-adjacent guidance, kept as one entry
+      plus
+        two claim-evidence objects for the two specific legal assertions (US
+        property-tax treatment; no-tax-on-donations-received) rather than
+        splitting further.
+  choosing-a-model-for-your-local-node:
+    title: Choosing a Model for Your Local Node
+    type: encyclopedia-entry
+    page_type: comparison
+    summary: >-
+      Compares four organizational models local ReFi nodes actually use — the
+      Collective (5-10 people, consensus), Working Groups (10-30, domain
+      autonomy, ReFi DAO's "Network Initiatives" as the network-scale example),
+      the Council (20-50+, consent-based governance, ReFi DAO's Steward Council
+      as the example), and the Cooperative (15+, formal legal entity) — with a
+      size/formality/decision-speed/legal-protection comparison table and
+      guidance to evolve on purpose between models as group size and treasury
+      size grow, rather than in crisis.
+    audience: local-node organizers deciding on or evolving their governance structure
+    known_tensions:
+      - >-
+        structure vs. overhead — "the honest rule: pick the simplest model that
+        holds your current size and stakes... structure you don't need yet is
+        just overhead"
+    related_concepts:
+      - Consent-based Governance (sociocracy)
+    related_resources:
+      - Safe (multisig wallet)
+      - Open Collective
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/local-node-model.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-f9c29bdf4648
+    source_lineage: local-node-model.md
+  tax-implications-of-cryptocurrency:
+    title: Tax Implications of Cryptocurrency
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      A US-centric primer on crypto taxation: crypto is treated as property (not
+      currency), cost basis, short-vs-long-term capital gains, taxable vs
+      non-taxable events, NFT and DeFi-specific tax treatment, gas-fee handling,
+      record-keeping needs, and the relevant IRS forms (8949, Schedule D,
+      Schedule 1, 1099-DA).
+    audience: individuals/organisations transacting in crypto in the US
+    known_tensions:
+      - >-
+        The article flags its own biggest uncertainty: whether NFTs count as
+        "collectibles" taxed at 28% is explicitly called "debated," with a
+        "consult a pro if unsure" caveat.
+    related_concepts:
+      - capital-gains-crypto
+    related_resources:
+      - cointracker
+      - koinly
+    maturity: raw
+    ai_assisted: true
+    high_risk: true
+    public_use: not-public-yet
+    provenance:
+      origin: src/content/docs/tax-implications.md
+      transformation: summarized
+      authorship: ai-assisted
+    notes: >-
+      high_risk: true — this article gives jurisdiction-specific tax/legal
+      guidance (a high-risk trigger category per ingest rules); see accompanying
+      public-use-boundary. The article itself carries an explicit disclaimer:
+      "Educational purposes only. Not tax advice."
+    work_order: wo-f9ef4b407217
+    source_lineage: tax-implications.md
+  funding-your-gatherings:
+    title: Funding Your Gatherings
+    type: encyclopedia-entry
+    page_type: framework
+    summary: >-
+      A four-tier framework for funding local-node gatherings, from zero-budget
+      (shared meals, free venues, skill contributions) through low ($10-100:
+      member contributions, passing the hat, monthly dues), medium ($100-500:
+      local business sponsorship, small grants, web3-native funding via Gitcoin
+      Grants/Giveth/Endaoment) to large ($500+: ticket sales, tiered sponsors,
+      speaker budgets, ecosystem grants like the Ethereum Foundation ESP). Core
+      argument: start with the cheapest thing that works, be transparent about
+      money, and don't outspend your community's actual capacity.
+    audience: local regen node organizers planning their first gatherings
+    known_tensions:
+      - >-
+        Recommends collecting contributions on-chain (multisig, Juicebox) as
+        "the easiest real introduction to wallets your members will ever get" —
+        a genuine convenience argument that also nudges a low-stakes social
+        event toward on-chain tooling before it's strictly needed.
+    related_concepts:
+      - quadratic-funding
+    related_resources:
+      - gitcoin-grants
+      - giveth
+      - endaoment
+      - juicebox
+      - ethereum-foundation-ecosystem-support-program
+      - octant
+    maturity: raw
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/funding-gatherings.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-fbc6bfc6b3e0
+    source_lineage: funding-gatherings.md
+  dao-tooling-landscape:
+    title: DAO Tooling Landscape
+    type: encyclopedia-entry
+    page_type: guide
+    summary: >-
+      Tours the software categories a DAO needs — governance/voting (Snapshot,
+      Tally, OpenZeppelin Governor, Aragon), treasury management (Gnosis Safe,
+      XDAO), contributor compensation (Coordinape), and DAO-creation platforms
+      (Colony, Juicebox, Boardroom, DAOstack) — with recommended starting setups
+      and a note that DAOs collectively manage over $30 billion in assets across
+      13,000+ organizations.
+    audience: DAO-Operator
+    known_tensions:
+      - >-
+        recommended-signer-thresholds (3-of-5 under $10M, 4-of-7 for larger
+        treasuries) trade speed of execution against concentration-of-control
+        risk.
+      - >-
+        peer-allocated compensation (Coordinape) vs manager-decided compensation
+        — framed as aligned with regenerative, non-hierarchical values.
+    related_concepts:
+      - multisig-treasury-management
+    related_resources:
+      - Snapshot
+      - Tally
+      - Gnosis Safe
+      - Coordinape
+      - Aragon
+    maturity: raw
+    public_use: source-linked-unreviewed
+    ai_assisted: true
+    provenance:
+      origin: src/content/docs/dao-tooling.md
+      transformation: summarized
+      authorship: ai-assisted
+    work_order: wo-fda5b8111b9b
+    source_lineage: dao-tooling.md
+    notes: |
+      # assessed-but-excluded
+      - XDAO, Juicebox, Colony, Boardroom, DAOstack, OpenZeppelin Governor are
+        named with one or two sentences each; not built out as separate resource
+        objects (kept the five given the deepest, multi-paragraph treatment —
+        Snapshot, Tally, Gnosis Safe, Coordinape, Aragon — as resources instead,
+        per "small objects, not mega-objects" but avoiding a 10-way resource
+        dump for one-line mentions).
+      - No people/community profiles, exact locations, or high-risk triggers
+        identified — general tool-literacy content; no public-use-boundary
+        object created.

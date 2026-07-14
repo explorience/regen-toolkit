@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: "Over $83M in ERC-20 tokens lost to incompatible-address sends"
+  type: claim-evidence
+  claim: >-
+    Sending ERC-20 tokens to a smart-contract address that cannot receive
+    them can permanently strand those tokens, and this has led to over $83
+    million in lost tokens industry-wide.
+  evidence: >-
+    Stated directly in the article's ERC-20 section; no citation or dataset
+    referenced for the $83 million figure.
+  source_lineage: src/content/docs/token-standards.md
+  interpretation: >-
+    Used to motivate the article's practical warning to "always double-check
+    recipient addresses before sending" and to explain why many wallets now
+    warn about incompatible addresses.
+  uncertainty: >-
+    Figure is asserted without a cited source or date in the article; not
+    independently verified in this ingestion pass. Should be checked against
+    a primary dataset/report before being treated as an authoritative
+    statistic.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/token-standards.md
+    transformation: summarized
+    authorship: ai-assisted

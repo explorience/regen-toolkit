@@ -1,0 +1,27 @@
+id: wo-c97e3164ddf7
+title: ingest layer-2s.md
+type: work-order
+source_path: layer-2s.md
+source_hash: f81ad1e5787d6ee626b006875bdb3d8d2415d8f65627216b996efef2b59f5315
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#layer-2-solutions
+  - data/kb/concept-lineage.yaml#layer-2-ethereum-scaling
+  - data/kb/resource.yaml#base-layer-2-network
+  - data/kb/resource.yaml#arbitrum-c6791899
+  - data/kb/resource.yaml#l2beat-b9e49491
+  - >-
+    data/kb/claim-evidence.yaml#layer-2-fee-reduction-vs-ethereum-mainnet-throughput-limit

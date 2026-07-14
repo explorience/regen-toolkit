@@ -1,0 +1,33 @@
+schema: concept-lineage
+object:
+  title: Stakeholder education before crypto adoption
+  type: concept-lineage
+  short_description: >-
+    The practice of educating board/staff/donors on what crypto is and how
+    donations would work before an org formally adopts crypto donations, so the
+    eventual decision is informed rather than reactive.
+  toolkit_usage: >-
+    Framed in communicating-stakeholders.md as the mandatory first step, ahead
+    of even a board vote — "not in depth, just enough to make an informed
+    decision."
+  adjacent_meanings:
+    - >-
+      change-management (general org practice of preparing stakeholders for a
+      new capability)
+  important_distinctions:
+    - >-
+      education-before-adoption differs from marketing-after-adoption (the later
+      donor-communication step)
+  tensions:
+    - thoroughness-of-education vs board's-limited-attention-and-time
+  risks_of_flattening: >-
+    Treating this as a one-time presentation rather than an ongoing readiness
+    practice risks a board that nods along without real understanding of risk.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/communicating-stakeholders.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a729337a8976
+  source_lineage: communicating-stakeholders.md

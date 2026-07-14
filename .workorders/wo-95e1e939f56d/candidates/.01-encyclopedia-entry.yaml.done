@@ -1,0 +1,36 @@
+schema: encyclopedia-entry
+object:
+  title: "Stablecoins: Digital Dollars That Hold Their Value"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A plain-language explainer of stablecoins for community organisers:
+    what a peg is, why dollar-stable digital money is useful for cross-border
+    payments and grants, the energy-use difference between Bitcoin and
+    proof-of-stake chains, the three stablecoin designs (fiat-backed,
+    crypto-backed, algorithmic), where stablecoins actually break (USDC's
+    2023 depeg, Terra/UST's 2022 collapse), and a caution on "earning
+    interest" yield offers.
+  audience: community organisers and regenerative practitioners new to crypto
+  known_tensions:
+    - >-
+      Fiat-backed stablecoins are framed as the safer, auditable choice, but
+      the article also notes issuers can freeze balances under law
+      enforcement order — safety and censorship-resistance trade off against
+      each other.
+  related_concepts:
+    - stablecoin
+  related_resources:
+    - defillama-stablecoins-dashboard
+    - glo-dollar
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stablecoins.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: no people/location/TEK content requiring a
+    public-use-boundary; market-size and depeg-event figures are captured
+    separately as claim-evidence objects with uncertainty noted rather than
+    asserted as flat fact here.

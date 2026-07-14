@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: GitBook
+  type: resource
+  url: https://www.gitbook.com/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - institutional-memory
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/documentation-knowledge.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Recommended in the article as the "technical and durable" tier alongside
+    GitHub: version control, markdown-based, built for long-term persistence;
+    article specifically recommends it for communities that want documentation
+    to survive platform changes.
+  work_order: wo-12f41d6ac647
+  source_lineage: documentation-knowledge.md

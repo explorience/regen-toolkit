@@ -1,0 +1,24 @@
+schema: signal
+object:
+  title: Local-currency article is tightly scoped to East Africa/Somaliland — check generalizability
+  type: signal
+  signal_type: content
+  affected_layer: Layer 2 (Knowledge Commons) / Layer 5 (Option Library)
+  interpretation: >-
+    The article's target_audience frontmatter is "grounded-regen" but its
+    body text is heavily localized (Hargeisa, Mombasa, Nairobi, Addis,
+    Kenyan/Somali shillings, clan structure, chamas/ROSCAs). This is a good
+    practice (concrete, locally-grounded advice) but means the article as
+    written may read as narrower than its track/section metadata (section
+    2.9, general "Community Finance" track) suggests to a reader outside
+    that regional context. Worth a human check on whether related articles
+    in track 2 need an explicit regional-variant note or whether this one
+    should be tagged more specifically.
+  proposed_intervention: review
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-currency.md
+    transformation: inferred
+    authorship: ai-assisted

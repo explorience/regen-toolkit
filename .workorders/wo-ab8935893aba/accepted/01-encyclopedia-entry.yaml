@@ -1,0 +1,37 @@
+schema: encyclopedia-entry
+object:
+  title: Identity Verification in Web3
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Explains wallet-based identity verification as proving attributes about
+    yourself (age, membership, location) without handing over documents to every
+    counterparty, using zero-knowledge proofs and wallet-held credentials,
+    framed for community members considering web3 grants, DAOs, or
+    reputation-building in a Somaliland/East Africa context.
+  audience: >-
+    community members and stewards new to web3, evaluating whether/how to engage
+    with verification-gated programs
+  known_tensions:
+    - >-
+      access-to-verification-gated-opportunities-vs-privacy-cost-of-any-identity-linkage
+  related_concepts:
+    - zero-knowledge-proof-selective-disclosure
+    - verifiable-credential-wallet-held-attestation
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/identity-verification.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: the article has no References/sources section (its
+    frontmatter sources: [] is empty) and names no specific verification
+    protocol, product, or platform, so no resource object was created — the
+    content is purely conceptual/explanatory. No public person-nodes or
+    location-specific individual data were created; the Somaliland/Sarreya
+    programs reference is kept general (audience framing only, no named
+    individuals).
+  work_order: wo-ab8935893aba
+  source_lineage: identity-verification.md

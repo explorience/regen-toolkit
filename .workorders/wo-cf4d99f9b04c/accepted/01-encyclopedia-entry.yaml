@@ -1,0 +1,36 @@
+schema: encyclopedia-entry
+object:
+  title: 'Local Nodes and DAOs: When (and Whether) to Formalize'
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    Distinguishes a local node (a community concept — people in a place,
+    organized around shared purpose) from a DAO (a legal-and-technical form).
+    Argues for "minimum viable coordination" (SuperBenefit's term) rather than
+    building governance machinery pre-emptively. Names the three concrete things
+    formalizing actually gives you (a treasury no one person controls, decisions
+    anyone can verify, roles that survive people leaving), surveys which DAO
+    tools are actually still standing as of mid-2026 (Safe, Snapshot/Snapshot X,
+    Hats Protocol — with Tally and Coordinape flagged as having wound down), and
+    recommends a hybrid model: informal/human for the social layer, onchain only
+    for the parts that need a trust backstop.
+  audience: local-node organizers deciding whether/how to formalize governance
+  known_tensions:
+    - >-
+      formalizing to gain trust/legitimacy vs. formalizing as maintenance burden
+      that "exhausts founders and quietly kills nodes" — the article argues
+      structure should be added only in response to a named, current problem
+  related_concepts:
+    - DAO (Decentralized Autonomous Organization) vs. Local Node
+  related_resources:
+    - Snapshot
+    - Hats Protocol
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-nodes-and-daos.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-cf4d99f9b04c
+  source_lineage: local-nodes-and-daos.md

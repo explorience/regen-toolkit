@@ -1,0 +1,32 @@
+schema: concept-lineage
+object:
+  title: Retroactive (public goods) funding
+  type: concept-lineage
+  short_description: >-
+    A funding model where contributors get paid for work they already did,
+    even if funding wasn't arranged upfront, rather than the traditional
+    grant-application-before-work pattern.
+  toolkit_usage: >-
+    Listed in coordination-transparency.md under "New Economic Models /
+    Credentialing" alongside POAPs and Gitcoin's peer-reviewed public-goods
+    funding as an example of value capture becoming possible for people/
+    communities who previously could not access it upfront.
+  adjacent_meanings:
+    - grant-funding (the traditional, apply-before-you-build model this contrasts with)
+    - poap (proof-of-attendance token, a related but distinct credentialing primitive named in the same section)
+  important_distinctions:
+    - "retroactive funding rewards proven-useful past work; traditional grants fund proposed future work"
+  tensions:
+    - rewards-what-already-proved-useful vs risk-of-underfunding-untested-new-ideas
+  risks_of_flattening: >-
+    The article names the concept without specifying who judges "usefulness"
+    retroactively or what mechanism (e.g. Optimism's RetroPGF rounds) actually
+    implements it — worth expanding with a concrete implementation record later.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/coordination-transparency.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-97dd78ba716a
+  source_lineage: coordination-transparency.md

@@ -1,0 +1,50 @@
+schema: encyclopedia-entry
+object:
+  title: "Local Nodes and DAOs: When (and Whether) to Formalize"
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    Distinguishes a local node (a community concept — people in a place,
+    organized around shared purpose) from a DAO (a legal-and-technical
+    form). Argues for "minimum viable coordination" (SuperBenefit's term)
+    rather than building governance machinery pre-emptively. Names the three
+    concrete things formalizing actually gives you (a treasury no one
+    person controls, decisions anyone can verify, roles that survive
+    people leaving), surveys which DAO tools are actually still standing as
+    of mid-2026 (Safe, Snapshot/Snapshot X, Hats Protocol — with Tally and
+    Coordinape flagged as having wound down), and recommends a hybrid
+    model: informal/human for the social layer, onchain only for the parts
+    that need a trust backstop.
+  audience: local-node organizers deciding whether/how to formalize governance
+  known_tensions:
+    - >-
+      formalizing to gain trust/legitimacy vs. formalizing as maintenance
+      burden that "exhausts founders and quietly kills nodes" — the article
+      argues structure should be added only in response to a named,
+      current problem
+  related_concepts:
+    - DAO (Decentralized Autonomous Organization) vs. Local Node
+  related_resources:
+    - Snapshot
+    - Hats Protocol
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-nodes-and-daos.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+#   - Safe (multisig) is discussed extensively here but was NOT re-registered
+#     as a separate resource object in this work order — it was already
+#     ingested from the sibling local-node-model.md article in this same
+#     batch (same run, same batch of 10) to avoid two near-identical "Safe"
+#     resource candidates colliding on title-slug uniqueness.
+#   - ReFi DAO and Greenpill Network are cited here as the hybrid model's
+#     real-world examples (30+ nodes across 20+ countries; a dozen active
+#     chapters) but not lifted as standalone resource objects — they
+#     function as networks/case examples within this article rather than
+#     the article's subject; a future ingest pass on refidao.com or
+#     greenpill.network directly would be the right place to register them
+#     properly (with return_path etc.) as source-systems.

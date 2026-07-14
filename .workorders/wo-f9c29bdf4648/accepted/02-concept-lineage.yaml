@@ -1,0 +1,49 @@
+schema: concept-lineage
+object:
+  title: Consent-based Governance (sociocracy)
+  type: concept-lineage
+  short_description: >-
+    A decision-making mode where proposals pass unless someone raises a reasoned
+    objection ("can anyone live with it?"), rather than requiring unanimous
+    enthusiasm or a simple majority vote.
+  source_traditions:
+    - sociocracy (the article names this explicitly as "the core of sociocracy")
+    - >-
+      ReFi DAO's Steward Council as a real-world worked example (first stewards
+      election moving decision-making from founders to elected stewards)
+  toolkit_usage: >-
+    Named as the mechanism that makes the article's third governance model (the
+    Council) legitimate and fast — a small elected/rotating council handles
+    day-to-day decisions, big calls still go to the whole community.
+  adjacent_meanings:
+    - >-
+      simple-majority voting (faster to explain, riskier for minorities — the
+      article contrasts these directly)
+    - >-
+      full consensus (unanimous enthusiasm — the article frames this as "far
+      safer... but far... slower to chase")
+  important_distinctions:
+    - >-
+      consent ≠ consensus — consent asks "can anyone live with it?"
+      (objection-based, faster); consensus asks "does everyone love this?"
+      (unanimity-based, slower)
+  tensions:
+    - >-
+      the article recommends term limits/rotation as the guardrail against
+      "power concentrating and the council drifting out of touch" — an
+      acknowledgment that consent-based councils are not self-correcting by
+      design alone
+  risks_of_flattening: >-
+    Calling a structure "consent-based" does not guarantee it functions that way
+    in practice — the article's own two guardrails (term limits, a written line
+    on what the council can decide alone) suggest the label needs enforced
+    structure behind it, not just adoption of the vocabulary.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-node-model.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-f9c29bdf4648
+  source_lineage: local-node-model.md

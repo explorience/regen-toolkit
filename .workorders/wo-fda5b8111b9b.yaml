@@ -1,0 +1,29 @@
+id: wo-fda5b8111b9b
+title: ingest dao-tooling.md
+type: work-order
+source_path: dao-tooling.md
+source_hash: 1d776239138db6cfb4832fc7ac26230d3ac45c2c89ee0b97e5d1ada4170b64b8
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - data/kb/encyclopedia-entry.yaml#dao-tooling-landscape
+  - data/kb/concept-lineage.yaml#m-of-n-multisig-treasury-management
+  - data/kb/resource.yaml#snapshot-db36bea9
+  - data/kb/resource.yaml#tally
+  - data/kb/resource.yaml#gnosis-safe
+  - data/kb/resource.yaml#coordinape
+  - data/kb/resource.yaml#aragon-9ad5b781
+  - >-
+    data/kb/claim-evidence.yaml#daos-collectively-manage-30b-across-13-000-organizations

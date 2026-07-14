@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Regen Network
+  type: resource
+  resource_type: org
+  url: https://www.regen.network/
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: what-is-cryptocurrency.md
+  related_concepts:
+    - ecological-credits
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-cryptocurrency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-cryptocurrency.md
+  notes: >-
+    Lets land stewards register regenerative projects and issue ecological
+    credits for measured outcomes (e.g. soil carbon), sold to buyers directly
+    per the article; flagged as a source-system candidate for a future
+    register-source pass since it's a living registry/marketplace.
+  work_order: wo-21b470d1f9f4

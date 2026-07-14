@@ -1,0 +1,25 @@
+schema: signal
+object:
+  title: "Format determines outcome more than topic — and open house is the best burnout defense"
+  type: signal
+  signal_type: track
+  affected_layer: layer-7-tracks
+  interpretation: >-
+    Two reusable patterns worth carrying into any future local-node-onboarding
+    track: (1) the same topic run through a different container produces a
+    different outcome (a lecture on governance produces passive listeners;
+    a fishbowl discussion on the same topic produces engaged co-thinkers), so
+    format should be chosen deliberately, not defaulted to; (2) among all
+    the formats in this guide, the recurring open house is named explicitly
+    as the single best burnout defense for a node host (low cost, high
+    consistency, keeps the node visible between bigger events) — worth
+    surfacing as a starter recommendation whenever a node onboarding track
+    is built.
+  proposed_intervention: cite
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/types-of-gatherings.md
+    transformation: inferred
+    authorship: ai-assisted
+  source_lineage: types-of-gatherings.md

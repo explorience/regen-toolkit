@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Cosmos
+  type: resource
+  url: https://cosmos.network
+  resource_type: multi-chain / app-chain framework (Tendermint + Cosmos SDK)
+  link_status: active
+  notes: >-
+    Lets a project launch its own purpose-built blockchain (via the Cosmos SDK
+    and Tendermint consensus) that stays interoperable with other chains via the
+    Inter-Blockchain Communication (IBC) protocol. Article frames this as suited
+    to projects needing full control over their own economics (e.g. a regional
+    community currency with tailored governance) but flags running your own
+    chain — validators, community participation, maintenance — as a major
+    commitment, "probably overkill" for most regenerative communities.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/other-chains.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-de82da691912
+  source_lineage: other-chains.md

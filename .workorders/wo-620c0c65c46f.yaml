@@ -1,0 +1,26 @@
+id: wo-620c0c65c46f
+title: ingest crypto-donation-platforms.md
+type: work-order
+source_path: crypto-donation-platforms.md
+source_hash: 39c9d8020b0626eb8b430da9e1f7467df8618096a2f15d4047598fb511cf73a7
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g2
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#crypto-donation-platforms-what-you-need-to-know
+  - data/kb/resource.yaml#the-giving-block-424e924a
+  - data/kb/resource.yaml#infinite-giving
+  - data/kb/source-system.yaml#cryptoaltruists
+  - data/kb/concept-lineage.yaml#crypto-donation-platform-selection-checklist

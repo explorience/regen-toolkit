@@ -1,0 +1,23 @@
+schema: signal
+object:
+  title: >-
+    SuperBenefit Knowledge Garden source-system card has no confirmed return
+    path
+  type: signal
+  signal_type: source-system
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    The source-system card for SuperBenefit's Knowledge Garden (this work order)
+    has return_path unconfirmed — the article describes the vault's structure
+    (Markdown, public Git, Quartz publishing) but never states how corrections
+    or contributions actually flow back to SuperBenefit. A public Git repo
+    strongly implies pull requests, but that is an inference, not a stated fact.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-community-tools.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-ae4676958221
+  source_lineage: ai-community-tools.md

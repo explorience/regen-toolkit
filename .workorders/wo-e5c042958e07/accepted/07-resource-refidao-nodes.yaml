@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: ReFi DAO Local Nodes
+  type: resource
+  resource_type: org
+  url: https://refidao.com/local-nodes
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: what-is-dao.md
+  related_concepts:
+    - dao-core-parts
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-dao.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-dao.md
+  notes: >-
+    Connects regenerative-finance projects worldwide through self-governing
+    Local Nodes per the article; same organization already registered as a
+    source-system from types-of-gatherings.md ingestion — flagged here again as
+    a candidate since duplication across source articles is expected and left
+    for the review/dedupe layer.
+  work_order: wo-e5c042958e07

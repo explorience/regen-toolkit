@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: ERC-20 (introduced 2015) remains the foundation for most token-based systems
+  type: claim-evidence
+  claim: >-
+    The ERC-20 standard for fungible tokens was introduced in 2015 on the
+    Ethereum blockchain and remains the foundation for most token-based
+    systems today.
+  evidence: >-
+    General assertion, sourced generically to ethereum.org in the article's
+    references; no specific ERC-20 proposal document (EIP-20) or adoption
+    statistic is cited.
+  source_lineage: src/content/docs/what-are-tokens.md
+  interpretation: >-
+    Used to anchor the token-standards section, giving a concrete historical
+    date to an otherwise conceptual explanation of fungible-token mechanics.
+  uncertainty: >-
+    "Remains the foundation for most token-based systems" is a broad,
+    unquantified claim; no adoption data (e.g., number of live ERC-20
+    contracts) is cited to support "most."
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-are-tokens.md
+    transformation: summarized
+    authorship: ai-assisted

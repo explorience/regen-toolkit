@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: Structured Outputs prevents an LLM from inventing an out-of-list category
+  type: claim-evidence
+  claim: >-
+    OpenAI's Structured Outputs feature can constrain a model's response to a
+    fixed JSON-schema enum, such that the model cannot return a value outside
+    that set — as OpenAI puts it, the model will not "hallucinat[e] an invalid
+    enum value." Claude and Gemini offer equivalent schema-constrained output
+    modes.
+  evidence: >-
+    Cited in the article from the OpenAI Structured Outputs guide
+    (developers.openai.com/api/docs/guides/structured-outputs), referenced in
+    the article's own References section.
+  interpretation: >-
+    Used in the article as the mechanical fix for taxonomy sprawl: hand the
+    model a fixed list of approved types/tags via a schema enum so it must
+    choose from them rather than inventing new categories on every pass. The
+    article treats this as the line between "AI that maintains your taxonomy"
+    and "AI that replaces it nightly."
+  uncertainty: >-
+    Reproduces OpenAI's own claim about its feature's guarantee; not
+    independently verified against OpenAI's API behavior for this ingestion. The
+    claim about "Claude and Gemini offer the same" is the article's own
+    characterization, not itself sourced to a specific Anthropic or Google
+    document.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-assisted-classification.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e50c8f7e3b5d
+  source_lineage: ai-assisted-classification.md

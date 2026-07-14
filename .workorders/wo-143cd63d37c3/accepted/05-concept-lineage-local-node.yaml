@@ -1,0 +1,33 @@
+schema: concept-lineage
+object:
+  title: Local Node (regen network chapter)
+  type: concept-lineage
+  short_description: >-
+    A small, place-based chapter of a wider regenerative network that runs its
+    own projects and coordination — the article's central unit of analysis for
+    where founding pitfalls occur.
+  toolkit_usage: >-
+    Used throughout common-pitfalls.md as the thing being founded/stewarded;
+    contrasted against "the wider network" (e.g. Greenpill Network, Regen
+    Coordination Hub) it connects to without being absorbed by.
+  adjacent_meanings:
+    - chapter (Greenpill's term for the same unit)
+    - DAO (a local node may or may not formalize as one)
+  important_distinctions:
+    - >-
+      a local node is autonomous-yet-connected, distinct from both full
+      isolation and full absorption into a parent network
+  tensions:
+    - autonomy vs shared-learning
+    - technology-first vs relationships-first founding
+  risks_of_flattening: >-
+    Treating "local node" as synonymous with "DAO" erases that most founding
+    failures in the article are social/organizational, not technical.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-pitfalls.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-143cd63d37c3
+  source_lineage: common-pitfalls.md

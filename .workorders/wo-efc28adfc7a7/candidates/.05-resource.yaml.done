@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Safe (formerly Gnosis Safe)
+  type: resource
+  url: https://safe.global
+  resource_type: multi-signature wallet platform
+  link_status: active
+  notes: >-
+    Cited in the article as "the most widely used multi-sig solution for DAOs
+    and organisations." Recommended for treasury management with 3-of-5 or
+    4-of-7 threshold configurations depending on organization size, plus
+    time-locks (24-48 hours) for large transfers.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/recovery-planning.md
+    transformation: summarized
+    authorship: ai-assisted

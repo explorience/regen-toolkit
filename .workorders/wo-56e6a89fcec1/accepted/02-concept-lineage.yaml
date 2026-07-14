@@ -1,0 +1,58 @@
+schema: concept-lineage
+object:
+  title: Multisig (multi-signature wallet)
+  type: concept-lineage
+  short_description: >-
+    A wallet that requires a threshold number of designated signers (e.g. 3 of
+    5) to approve a transaction before it executes, so no single person can move
+    community funds alone.
+  source_traditions:
+    - >-
+      Bitcoin/Ethereum multisig smart-contract wallet design (Gnosis Safe/Safe
+      as the dominant implementation)
+    - >-
+      traditional co-signer/dual-control practice in conventional finance and
+      treasury management
+  toolkit_usage: >-
+    Presented as the foundational treasury-security primitive for any community
+    holding funds — recommended even before any legal wrapper or formal
+    governance exists (cross-referenced in local-node-model.md and
+    local-nodes-and-daos.md, both ingested in this same batch).
+  adjacent_meanings:
+    - >-
+      social recovery (a guardian-based alternative for individual wallets, not
+      multi-party community funds)
+    - >-
+      timelock (a complementary delay mechanism, not a substitute for a signing
+      threshold)
+  important_distinctions:
+    - >-
+      multisig ≠ social recovery — multisig is for ongoing, legitimate
+      multi-person access (community treasuries); social recovery is for an
+      individual regaining access to their own single-owner wallet
+    - >-
+      threshold ≠ number of signers — "the threshold should be more than half
+      the signers, but less than all of them," e.g. 3-of-5, not simply "have 5
+      signers"
+  tensions:
+    - >-
+      the article's own "Common Mistakes" section flags a threshold set too low
+      (2-of-3) as vulnerable, in tension with its earlier framing of 2-of-3 as
+      "useful for small teams of 3 people" — the right threshold is genuinely
+      context-dependent, not a single universal rule
+  risks_of_flattening: >-
+    "3-of-5 is a sensible starting point" (repeated across this and sibling
+    articles) can calcify into a default nobody re-examines — the article's own
+    reasoning (geographic spread, role diversity, technical capacity of signers)
+    matters more than the specific numbers and can vary a great deal by
+    community size and risk.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/multisig-setup.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-56e6a89fcec1
+  source_lineage: multisig-setup.md

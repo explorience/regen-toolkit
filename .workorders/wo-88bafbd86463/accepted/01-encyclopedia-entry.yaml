@@ -1,0 +1,56 @@
+schema: encyclopedia-entry
+object:
+  title: Building Momentum for Your Local Node
+  type: encyclopedia-entry
+  page_type: guide
+  high_risk: true
+  summary: >-
+    A guide to sustaining a local node's energy past initial launch excitement,
+    aimed at organizers in East African contexts. Covers a rhythm model
+    (weekly/monthly/quarterly/annual cadences), a celebration strategy for small
+    and large wins, a four-stage newcomer pathway (awareness, first interaction,
+    first action, ownership), an engagement loop that turns contributors into
+    recruiters, common pitfalls (founder bottleneck, expertise trap,
+    evening-only meetings, insider circles), how to manage low-momentum "dips,"
+    leadership rotation, and a growth-vs- sustainability framing that favors 20
+    engaged people over 100 on a mailing list. The article explicitly builds its
+    rhythm/celebration model on existing East African community traditions
+    (saving circles, inter-clan coordination, community meals after jumu'ah
+    prayers) rather than inventing new ones.
+  audience: local-organizer (East African regen/ReFi context)
+  known_tensions:
+    - >-
+      growth vs sustainability — the article's rule of thumb: "if you're
+      sacrificing sustainability for growth, you're on borrowed time," favoring
+      20 actively engaged people over 100 on a mailing list.
+    - >-
+      communication cadence — too little communication and momentum dies, too
+      much and people tune out; the article prescribes a specific weekly/
+      monthly/as-needed rhythm as the resolution.
+  related_concepts:
+    - community-momentum-flywheel-and-rhythm-model
+  related_resources: []
+  maturity: raw
+  public_use: requires-community-consent
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-momentum.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-88bafbd86463
+  source_lineage: building-momentum.md
+  notes: |
+    # assessed-but-excluded
+    - No individual community members are named (no public-person-node
+      risk); high_risk is set here because the article makes broad-strokes
+      cultural attributions ("in many East African traditions...", "already
+      deeply embedded in how people relate, through saving circles, through
+      inter-clan coordination, through community meals after jumu'ah
+      prayers") without citing a specific community or community-authored
+      source — the same TEK/cultural-attribution trigger pattern already
+      flagged in this framework's prior ingestion of gatherings-pattern.md.
+      See the companion public-use-boundary object.
+    - The article's frontmatter lists generic sources ("Greenpill Local Regen
+      Guide," "Community building literature," "DAO governance") with no
+      inline citations or References section — see the companion signal
+      object.

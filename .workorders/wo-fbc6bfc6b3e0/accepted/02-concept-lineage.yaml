@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: Quadratic Funding
+  type: concept-lineage
+  short_description: >-
+    A matching-fund formula that rewards the *number* of contributors to a
+    project rather than just the total dollar amount, so many small donations
+    can out-earn one large donation; used by Gitcoin Grants rounds.
+  source_traditions:
+    - Mechanism design / public-goods funding theory (Buterin, Hitzig, Weyl)
+    - Gitcoin Grants rounds (crypto-native implementation)
+  toolkit_usage: >-
+    Introduced here as the mechanism behind Gitcoin Grants' web3-native funding
+    tier for gatherings, illustrated with "100 people giving $1 can out-earn one
+    person giving $100."
+  adjacent_meanings:
+    - >-
+      Traditional matching-gift programs (dollar-for-dollar, no breadth
+      weighting)
+    - Crowdfunding (raises the base amount but has no matching-pool mechanic)
+  important_distinctions:
+    - >-
+      Quadratic funding (a matching-pool allocation formula, requires a
+      sponsor-funded pool) vs. quadratic voting (a governance-decision mechanism
+      using a personal credit budget) — related math, different use case; see
+      the governance-mechanism-design article's treatment of quadratic voting.
+  tensions:
+    - >-
+      Rewards breadth of donors, which can be gamed by Sybil attacks (many fake
+      small donors); the article does not discuss Gitcoin's anti-Sybil
+      safeguards.
+  risks_of_flattening: >-
+    Presenting "100 people giving $1 can out-earn one person giving $100" as a
+    simple rule risks obscuring that the actual match depends on the specific
+    round's formula, pool size, and anti-Sybil adjustments in effect at the time
+    (the article itself flags that Gitcoin's rounds mix QF with other allocation
+    mechanisms by domain).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-fbc6bfc6b3e0
+  source_lineage: funding-gatherings.md

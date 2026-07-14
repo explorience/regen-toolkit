@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: ReFi DAO Local Node Incubator beta cohort spun up 12 new nodes
+  type: claim-evidence
+  claim: >-
+    The ReFi DAO Local Node Incubator is a 15-week, 13-session program whose
+    beta cohort alone spun up 12 new local nodes.
+  evidence: >-
+    Cited to "ReFi DAO, Local Node Incubator Retrospective" (blog.refidao.com)
+    in the article's References, which the article says is the source of the
+    Seed/Sapling/Canopy maturity model plus the concrete beta-cohort results.
+  source_lineage: src/content/docs/what-is-local-node.md
+  interpretation: >-
+    Used to establish that there is a real, standing on-ramp for people ready to
+    start a node, and to lend credibility to the Seed/Sapling/Canopy maturity
+    framing the article recommends adopting.
+  uncertainty: >-
+    Self-reported program-retrospective figure from the program's own blog, not
+    an independently audited count; "12 new nodes" is not defined further (e.g.
+    whether all 12 remained active after the program ended is not stated in this
+    article).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-local-node.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d579c610b491

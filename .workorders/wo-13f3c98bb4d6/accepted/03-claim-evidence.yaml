@@ -1,0 +1,33 @@
+schema: claim-evidence
+object:
+  title: >-
+    ReFi DAO's alpha-cohort Local Node Incubator supported 30-plus events and
+    raised ~$55k via Gitcoin
+  type: claim-evidence
+  claim: >-
+    "ReFi DAO... runs an eight-week Local Node Incubator. Its alpha cohort
+    supported 30-plus local events and helped nodes raise about $55k through
+    featured rounds on Gitcoin Grants." Named example events: ReFi Miami
+    (tree-planting days), ReFi Tulum (circular-economy projects), ReFi Costa
+    Rica (local venture incubation).
+  evidence: >-
+    Article cites "ReFi DAO, Local Node Incubator"
+    (blog.refidao.com/local-node-beta-incubator/) as the source.
+  source_lineage: src/content/docs/planning-web3-events.md (References section)
+  interpretation: >-
+    Used as concrete proof-of-concept evidence that place-grounded (not
+    crypto-branded) events are what actually work for growing a local node,
+    supporting the article's "tie web3 to something local and real" argument.
+  uncertainty: >-
+    Single-source claim from ReFi DAO's own program blog (a self-reported
+    retrospective, not independently audited); "about $55k" and "30-plus" are
+    approximate figures. No independent verification found in the article
+    itself.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/planning-web3-events.md
+    surfaced_by: ReFi DAO, Local Node Incubator (blog.refidao.com)
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-13f3c98bb4d6

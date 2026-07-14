@@ -1,0 +1,29 @@
+id: wo-6947fa3633d1
+title: ingest voting-mechanisms.md
+type: work-order
+source_path: voting-mechanisms.md
+source_hash: 9b6b65510142128d3328c3c1790410a64c4068253ee93c80d2a590df98c5aa3d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g9
+produced:
+  - data/kb/encyclopedia-entry.yaml#voting-mechanisms-in-daos
+  - data/kb/concept-lineage.yaml#dao-voting-mechanisms
+  - >-
+    data/kb/claim-evidence.yaml#quadratic-voting-cost-curve-1-vote-1-2-votes-4-3-votes-9-reduces-wealth-domination
+  - >-
+    data/kb/claim-evidence.yaml#token-quorum-voting-typically-sees-participation-below-10
+  - data/kb/resource.yaml#giveth-conviction-voting-pioneer
+  - data/kb/resource.yaml#snapshot-gasless-off-chain-dao-voting
+  - data/kb/resource.yaml#moloch-dao-quorum-voting-reference-implementation

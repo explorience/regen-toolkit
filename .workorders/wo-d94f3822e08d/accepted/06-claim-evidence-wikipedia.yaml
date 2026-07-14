@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Wikipedia adopted CC BY-SA in 2009 to prevent re-enclosure of its commons
+  type: claim-evidence
+  claim: >-
+    Wikipedia is licensed CC BY-SA (Creative Commons Attribution-ShareAlike), a
+    "copyleft" license adopted across Wikimedia projects since 2009, meaning
+    anyone can reuse the content as long as they credit it and share derivatives
+    under the same terms.
+  evidence: >-
+    Cited to a 2009 Creative Commons blog post ("Wikipedia + CC BY-SA")
+    announcing the licensing change, linked in the article's References.
+  source_lineage: src/content/docs/what-is-knowledge-commons.md
+  interpretation: >-
+    Used as the article's clearest proof-point that "the license is a governance
+    decision disguised as legal boilerplate" — the share-alike requirement is
+    framed as a structural guarantee that the knowledge can never be re-enclosed
+    behind a paywall or single owner.
+  uncertainty: >-
+    The 2009 date and license name are well-documented and independently
+    verifiable; no material uncertainty in the core claim itself.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-knowledge-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d94f3822e08d

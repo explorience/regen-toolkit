@@ -1,0 +1,26 @@
+schema: signal
+object:
+  title: >-
+    bitcoin-history.md carries placeholder frontmatter (sources: [l,i,s,t],
+    author: unknown) despite factcheck_done: true
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia (content review / fact-check)
+  interpretation: >-
+    The article's own frontmatter lists `sources: [l, i, s, t]` — apparently a
+    placeholder artifact from a template (the letters of the word "list" split
+    into array entries) rather than real citations — and `author: unknown`,
+    while simultaneously declaring `research_done: true`, `factcheck_done:
+    true`, `review_done: true`, and `critique_done: true`. No References section
+    appears in the article body either, unlike several sibling articles in this
+    same batch. This is a metadata-integrity gap: the claimed review pipeline
+    states are not backed by visible source lineage.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/bitcoin-history.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-648651c05dac
+  source_lineage: bitcoin-history.md

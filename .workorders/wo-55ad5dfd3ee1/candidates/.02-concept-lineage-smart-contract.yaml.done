@@ -1,0 +1,46 @@
+schema: concept-lineage
+object:
+  title: Smart Contract
+  type: concept-lineage
+  short_description: >-
+    A program that lives at an address on a blockchain, self-executing its
+    coded conditions with no company, government, or individual able to
+    alter it once deployed.
+  source_traditions:
+    - >-
+      Term coined by cryptographer Nick Szabo in 1994, decades before the
+      technology existed to run one.
+    - >-
+      First implemented practically with Ethereum's 2015 launch, the first
+      blockchain able to run general-purpose smart-contract programs.
+  toolkit_usage: >-
+    Introduced via the market-stall analogy (two traders, a machine that
+    releases payment automatically once delivery conditions are met) to
+    ground an abstract concept in a concrete regional trade scenario.
+  adjacent_meanings:
+    - self-executing agreement
+    - on-chain program
+  important_distinctions:
+    - >-
+      Smart contract vs traditional contract: traditional contracts need
+      lawyers/courts to enforce terms; a smart contract's code enforces the
+      terms automatically.
+    - >-
+      Smart contract vs oracle: the contract's logic is the closed,
+      deterministic part; the oracle is the separate service that feeds it
+      real-world data.
+  tensions:
+    - >-
+      Immutability protects against secret rule changes but also means bugs
+      are permanent — "code is law" cuts both ways.
+  risks_of_flattening: >-
+    Framing smart contracts as simply "automatic enforcement" risks eliding
+    that most real-world regenerative use cases (verified conservation
+    practice, verified shipment) depend entirely on the accuracy of an
+    external oracle feed, not the contract logic itself.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/smart-contracts-explained.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,22 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the delegation-power-cap governance recommendation
+    (03-claim-evidence.yaml) — a generic design suggestion (cap delegates at
+    20-30% of voting power) from a published guide, not tied to a specific real
+    DAO's funding, legal structure, or named individuals. Safe to publish as one
+    design option among several, but should carry an explicit caveat that it is
+    a recommendation, not a proven/mandatory standard, until a human governance
+    reviewer signs off.
+  review_type: governance-recommendation-review
+  notes: >-
+    High-risk trigger: governance recommendation (per ingest skill's high-risk
+    triggers list). Covers candidate 03-claim-evidence.yaml in this work order.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/delegation-representation.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6675a98b235f
+  source_lineage: delegation-representation.md

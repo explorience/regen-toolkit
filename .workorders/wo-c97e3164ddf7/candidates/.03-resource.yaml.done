@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Base (Layer 2 network)
+  type: resource
+  resource_type: tool
+  url: https://base.org
+  is_source_system_candidate: false
+  toolkit_route: Layer 1 (Infrastructure & Substrate) / Ethereum scaling
+  link_status: active
+  related_concepts:
+    - Layer 2 (Ethereum scaling)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/layer-2s.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Optimistic Rollup built by Coinbase; launched 2023 and described in the
+    article as one of the friendliest L2 options for newcomers, compatible
+    with MetaMask/Uniswap and most existing Ethereum tools.

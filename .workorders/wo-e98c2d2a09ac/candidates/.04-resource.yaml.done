@@ -1,0 +1,17 @@
+schema: resource
+object:
+  title: Superfluid
+  type: resource
+  resource_type: protocol
+  original_source: src/content/docs/giveth-donations.md
+  notes: >-
+    Protocol that streams tokens by the second rather than in one-off
+    chunks; powers Giveth's recurring-donation "Stream Balance" feature,
+    currently on Optimism or Base only, with ETH, OP, DAI, USDC, and GIV
+    eligible per the article. No standalone URL given in this article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: summarized
+    authorship: ai-assisted

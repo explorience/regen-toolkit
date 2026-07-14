@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Gitcoin's quadratic funding has funded millions in open-source grants
+  type: claim-evidence
+  claim: >-
+    Gitcoin DAO's quadratic funding mechanism (small contributions matched more
+    generously than large ones) prevents wealthy donors from dominating
+    allocation and "has funded millions of dollars in open-source developer
+    grants."
+  evidence: >-
+    Article assertion, sourced to Gitcoin's own quadratic-funding materials
+    (gitcoin.co) per the article's reference list; no specific dollar figure or
+    dataset is quoted.
+  source_lineage: src/content/docs/tokens-coordination-tools.md
+  interpretation: >-
+    Used as the positive counter-example to token-weighted plutocracy — evidence
+    that mechanism design (not just "more tokens = more power") can shift
+    outcomes toward grassroots-project support.
+  uncertainty: >-
+    "Millions of dollars" is unquantified/unsourced to a specific figure in the
+    article; the mechanism's fairness is also only partial per the article
+    itself ("it still advantages those with more resources").
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-coordination-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-dc7ddba72524

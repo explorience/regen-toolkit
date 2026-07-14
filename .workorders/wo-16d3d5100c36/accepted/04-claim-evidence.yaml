@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: >-
+    SuperBenefit's Knowledge Garden sorts content into raw, working, and
+    refined-artifact tiers
+  type: claim-evidence
+  claim: >-
+    SuperBenefit structures its Knowledge Garden into tiers — raw notes, working
+    documents, and refined "artifacts" — as a working example of content sorted
+    by review/consequence state.
+  evidence: >-
+    Stated in human-review-boundaries.md's "Sort your content by consequence,
+    not by volume" section, linking to https://knowledge.superbenefit.org/.
+  source_lineage: src/content/docs/human-review-boundaries.md
+  interpretation: >-
+    Used as the real-world precedent the article's own three-tier
+    (ephemeral/working/canonical) model is adapted from.
+  uncertainty: >-
+    Not independently verified against the live Knowledge Garden site at
+    ingestion time; tier names/structure may have since evolved.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/human-review-boundaries.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-16d3d5100c36

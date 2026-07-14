@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: "95% of surveyed Sarafu users called it important to their household (2025)"
+  type: claim-evidence
+  claim: >-
+    A 2025 survey of 855 active Sarafu Network users found 95% called it
+    important to their household, with the most common reason being that it
+    gave them a way to give and receive help in their community.
+  evidence: >-
+    Cited in the article, attributed to Grassroots Economics' own reporting
+    on the Sarafu Network, listed in the article's References
+    (grassrootseconomics.org/sarafu-network).
+  interpretation: >-
+    Used as the article's concrete evidence that a trust-based commitment-
+    pooling system can work at real scale, supporting the article's broader
+    claim that "the chain records the promises. The neighbors keep them."
+  uncertainty: >-
+    The survey's full methodology (sampling method, question wording,
+    margin of error) is not detailed in the article itself; the 855-user
+    sample and 95% figure are reproduced as cited, not independently
+    re-verified against Grassroots Economics' primary survey data for this
+    ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-trust.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-06b003d4c0b2
+  source_lineage: building-trust.md

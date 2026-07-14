@@ -1,0 +1,27 @@
+id: wo-56e6a89fcec1
+title: ingest multisig-setup.md
+type: work-order
+source_path: multisig-setup.md
+source_hash: b860141b4fcfa552dca7022a7c40e3d66d4ee1dcb693051063bde6a4b133914d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#multisig-setup-for-community-treasuries
+  - data/kb/concept-lineage.yaml#multisig-multi-signature-wallet
+  - >-
+    data/kb/claim-evidence.yaml#2-of-3-multisig-is-vulnerable-3-of-5-recommended-for-community-treasuries
+  - data/kb/resource.yaml#argent
+  - >-
+    data/kb/public-use-boundary.yaml#multisig-setup-for-community-treasuries-public-use-boundary

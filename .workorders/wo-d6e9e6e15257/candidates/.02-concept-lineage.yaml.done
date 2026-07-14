@@ -1,0 +1,46 @@
+schema: concept-lineage
+object:
+  title: "Archive / Compost / Deprecate / Remove (the four moves)"
+  type: concept-lineage
+  short_description: >-
+    The four ways a knowledge commons can handle a document that has stopped
+    being true: archive (preserve as a labeled historical record), compost
+    (harvest the still-good parts into living pages, then retire the husk),
+    deprecate (mark obsolete with a warning banner pointing to a
+    replacement), and remove (delete outright — treated as rare).
+  source_traditions:
+    - the Regen Knowledge Commons Toolkit's Evolution Layer (cross-cutting principle #17, "compost, archive, and memory")
+    - software documentation practice (Read the Docs, Grafana Writers' Toolkit deprecation conventions)
+    - Wikipedia page-history and talk-page archiving conventions
+    - evergreen-notes / digital-garden practice (Andy Matuschak, Maggie Appleton)
+  toolkit_usage: >-
+    Presented in the article as the antidote to teams that "only know two
+    verbs: keep and delete." Maps directly onto the Toolkit's own Evolution
+    Layer principle, which the article quotes as existing to keep a living
+    commons from "both stagnation and reactive overcorrection."
+  adjacent_meanings:
+    - "'deprecate' in software release management (a feature slated for removal, with a version-numbered timeline)"
+    - "'archive' in general records-management (cold storage, not necessarily discoverable)"
+  important_distinctions:
+    - "archive preserves the whole page as history; compost breaks the page down and reuses only its good parts elsewhere"
+    - "deprecate leaves the page live with a warning; remove is deletion and is the rare, last-resort move"
+  tensions:
+    - >-
+      compost is the only one of the four that requires judgment (what's
+      worth keeping) rather than being near-mechanical, which the article
+      argues is exactly why it's the least-practiced move.
+  risks_of_flattening: >-
+    Collapsing all four moves into "cleanup" or "archiving" erases the
+    distinct trust properties each preserves — a deprecated page still
+    resolves and keeps links alive, an archived page is explicitly historical
+    and excluded from default search, and a composted page's value survives
+    in a different, living location. Treating them as interchangeable
+    re-creates the keep-or-delete trap the framework exists to escape.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md

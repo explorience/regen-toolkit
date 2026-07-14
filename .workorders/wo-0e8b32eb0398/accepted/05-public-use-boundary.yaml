@@ -1,0 +1,25 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the ecological/MRV impact claim in 04-claim-evidence.yaml (grazing-
+    land recovery confirmed by satellite) and the two named-location worked
+    examples in the encyclopedia entry (Fatima's group in Hargeisa; a women's
+    cooperative in Berbera). No surnames or other identifying detail beyond
+    first name + general community + location + activity, and the examples read
+    as illustrative rather than confirmed real reporting. Safe to publish as
+    illustrative material with a caveat that specific figures/outcomes are
+    unverified, not as confirmed impact data.
+  review_type: domain-review-required
+  notes: >-
+    High-risk triggers: exact locations (Hargeisa, Berbera) + ecological/
+    MRV/carbon claims (per ingest skill's high-risk triggers list). Covers
+    candidate 04-claim-evidence.yaml and the worked examples in
+    01-encyclopedia-entry.yaml.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dmrv.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-0e8b32eb0398
+  source_lineage: dmrv.md

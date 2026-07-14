@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: Most crypto losses come from human error, not technical failure
+  type: claim-evidence
+  claim: >-
+    "Do not ignore human error. Most crypto losses come from user mistakes,
+    sending to wrong addresses, falling for phishing, accidentally exposing seed
+    phrases. Technical security cannot fix human error without training."
+  evidence: >-
+    No specific study, dataset, or incident report is cited in the article body.
+    Article frontmatter lists `sources: []` — no citation attached.
+  source_lineage: >-
+    src/content/docs/security-best-practices-orgs.md (frontmatter sources field
+    is empty)
+  interpretation: >-
+    Used to justify the article's emphasis on team training as "your most
+    important investment," positioned alongside (not instead of) technical
+    controls like multi-sig and cold storage.
+  uncertainty: >-
+    Directionally consistent with widely-reported industry patterns (phishing
+    and user error are frequently cited as leading loss vectors across various
+    third-party crypto-crime reports), but no specific source, percentage, or
+    dataset is provided in this article, and its own `sources: []` field
+    confirms nothing was attached. Treat as plausible industry consensus, not a
+    sourced statistic.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/security-best-practices-orgs.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-b79788c6a798

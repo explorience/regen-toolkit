@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: 'As of 2022: 215+ DAOs managed ~$9.5B with ~500,000 active members'
+  type: claim-evidence
+  claim: >-
+    As of 2022, over 215 DAOs collectively managed around $9.5 billion with
+    approximately 500,000 active members.
+  evidence: >-
+    Stated directly in the article body ("How Decisions Get Made" / DAO-scale
+    section); article's reference list cites deepdao.io as the general source
+    for "DAO statistics and landscape."
+  source_lineage: src/content/docs/daos-vs-traditional.md
+  interpretation: >-
+    Used to establish that DAOs are a real-scale phenomenon, not a fringe
+    experiment, before walking through the structural comparison with
+    traditional firms.
+  uncertainty: >-
+    Figure is dated "as of 2022" inside a document created in 2026 — likely
+    stale relative to current DAO landscape figures; no direct link or
+    access-date is given for the deepdao.io citation in this article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/daos-vs-traditional.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-15f037f070f8

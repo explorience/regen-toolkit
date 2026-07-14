@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Localism Fund launched with $155,000 in pooled initial funding
+  type: claim-evidence
+  claim: >-
+    The Localism Fund, stewarded through Regen Coordination (the joint effort
+    of ReFi DAO and Greenpill Network) and OpenCivics, launched with $155,000
+    in initial funding from Gitcoin, Celo Public Goods, Ma Earth, and the
+    Ethereum Foundation, with the stated purpose of helping place-based groups
+    run their own grant programs without extracting from them.
+  evidence: >-
+    Cited to "Introducing the Localism Fund" (blog.refidao.com) in the
+    article's References.
+  source_lineage: src/content/docs/what-is-local-node.md
+  interpretation: >-
+    Used as the article's clearest, most concrete example of the network
+    pooling capital and routing it down to local groups — presented as
+    reassurance against the fear that node-level funding requires competing
+    alone.
+  uncertainty: >-
+    Single-source figure (the fund's own launch announcement); no independent
+    verification of the dollar amount or funder list in this article, and no
+    date given for how current the $155,000 figure remains as the fund
+    disburses over time.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-local-node.md
+    transformation: summarized
+    authorship: ai-assisted

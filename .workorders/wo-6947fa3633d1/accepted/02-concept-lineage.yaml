@@ -1,0 +1,56 @@
+schema: concept-lineage
+object:
+  title: DAO Voting Mechanisms
+  type: concept-lineage
+  short_description: >-
+    The family of mechanisms DAOs use to turn proposals into decisions — ranging
+    from simple token-weighted quorum voting to quadratic voting, time-weighted
+    conviction voting, prediction-market-based holographic consensus,
+    small-group multi-sig approval, and gasless off-chain signature voting.
+  source_traditions:
+    - >-
+      traditional deliberative-assembly quorum rules (the article's own "general
+      assembly" analogy)
+    - Gitcoin's quadratic funding mechanism design
+    - Giveth's conviction voting implementation
+    - prediction-market mechanism design (holographic consensus)
+  toolkit_usage: >-
+    Used as a comparison menu for DAO operators, explicitly concluding that most
+    mature DAOs layer multiple mechanisms rather than picking one.
+  adjacent_meanings:
+    - >-
+      quorum voting as practiced in non-blockchain cooperative boards and
+      community associations (the article notes Somaliland/East-Africa
+      cooperative boards face the same low-active-participation dynamic, without
+      naming a specific case or source)
+  important_distinctions:
+    - >-
+      on-chain quorum/token voting (simple, plutocratic) vs quadratic voting
+      (cost rises with the square of votes cast, dampening wealth dominance)
+    - >-
+      conviction voting (time-weighted, cannot be swung last-minute) vs
+      holographic consensus (prediction-market-based proposal triage)
+    - >-
+      full-community voting vs multi-sig (small trusted group, fast but
+      centralized)
+  tensions:
+    - >-
+      decentralization ideal vs the practical need for fast multi-sig decisions
+      on routine/emergency matters
+    - >-
+      manipulation-resistance (conviction voting, quadratic voting) vs added
+      complexity and slower decisions
+  risks_of_flattening: >-
+    Presenting these six mechanisms as a tidy toolkit risks understating that
+    each embeds different values about whose voice counts more (wealth,
+    time-commitment, prediction-market savvy, or trusted-group membership) — the
+    article does gesture at this ("depends on your community's values") but
+    doesn't work through any single mechanism's failure modes in depth.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/voting-mechanisms.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: voting-mechanisms.md
+  work_order: wo-6947fa3633d1

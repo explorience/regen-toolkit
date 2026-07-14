@@ -1,0 +1,29 @@
+id: wo-d9f74145465f
+title: ingest token-standards.md
+type: work-order
+source_path: token-standards.md
+source_hash: 1d1a1e1b5f6a568fed49e2293b91e549ab8a3b1482b183e144f5ae8d2fbf1ed0
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#token-standards-the-building-blocks-of-digital-assets
+  - data/kb/concept-lineage.yaml#erc-20-fungible-token-standard
+  - data/kb/concept-lineage.yaml#erc-721-non-fungible-token-standard
+  - data/kb/concept-lineage.yaml#erc-1155-multi-token-standard
+  - >-
+    data/kb/claim-evidence.yaml#over-83m-in-erc-20-tokens-lost-to-incompatible-address-sends
+  - data/kb/resource.yaml#openzeppelin
+  - data/kb/resource.yaml#opensea-b9410647

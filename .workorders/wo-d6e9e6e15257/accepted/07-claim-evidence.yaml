@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: >-
+    Grafana gives two minor releases' advance notice before removing a
+    deprecated feature
+  type: claim-evidence
+  claim: >-
+    Grafana's writers' toolkit distinguishes deprecation ("planned for removal
+    in a future release") from removal ("removed and no longer supported"), and
+    the team notifies users two minor releases in advance before a deprecated
+    feature is actually removed.
+  evidence: >-
+    Cited in the article from Grafana Writers' Toolkit's "Deprecate or remove
+    content" page (grafana.com/docs/writers-toolkit/write/deprecate-remove/),
+    listed in the article's References.
+  interpretation: >-
+    Used as the model timeline the article recommends porting into a commons's
+    own deprecation banners: leave the page live, warn readers, and give a real
+    interval before anything disappears.
+  uncertainty: >-
+    Reproduces Grafana's own published policy as stated in the article's
+    citation; not independently re-verified against Grafana's live docs for this
+    ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md

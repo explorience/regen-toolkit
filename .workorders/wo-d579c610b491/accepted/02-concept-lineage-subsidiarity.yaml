@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: Subsidiarity
+  type: concept-lineage
+  short_description: >-
+    The design principle that decisions should sit at the most local level able
+    to make them well — a local node is not a branch office taking orders from a
+    DAO, it's the level where the real call gets made, plugged into a global
+    network for what it can't generate alone.
+  source_traditions:
+    - >-
+      Ethereum Localism (advanced by Greenpill Network and Gitcoin co-founder
+      Kevin Owocki) — frames the chain as infrastructure for local autonomy, not
+      a remote authority.
+  toolkit_usage: >-
+    Used in the article to directly answer the fear "will some central org
+    swallow my project?" — the network (e.g. the Localism Fund, stewarded by
+    Regen Coordination and OpenCivics) funds and shares tools but doesn't run
+    the node's treasury or pick its projects.
+  adjacent_meanings:
+    - local node (the organizational unit subsidiarity is applied to)
+  important_distinctions:
+    - >-
+      subsidiarity vs. isolation — a node practicing subsidiarity still plugs
+      into the wider network for funding, tooling, and solidarity; it is not the
+      same as operating standalone.
+  tensions:
+    - >-
+      Node autonomy vs. network funding dependence — networks fund nodes
+      specifically to avoid extraction, but any funding relationship carries
+      some influence risk the article does not fully resolve.
+  risks_of_flattening: >-
+    Treating subsidiarity as simply "local control" ignores its relational half
+    — the principle explicitly includes staying "plugged into the wider
+    network," not full independence.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-local-node.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d579c610b491
+  source_lineage: what-is-local-node.md

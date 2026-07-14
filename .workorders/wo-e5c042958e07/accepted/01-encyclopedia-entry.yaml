@@ -1,0 +1,51 @@
+schema: encyclopedia-entry
+object:
+  title: What Is a DAO?
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A plain-language DAO primer for regenerative community organizers, using a
+    "community garden bank account, made visible and rule-bound" analogy. Breaks
+    down the acronym (Decentralized / Autonomous / Organization), contrasts it
+    with a familiar savings circle, names the four core parts of any DAO
+    (treasury, proposals, voting, smart contracts), and walks through the
+    standard tooling (Snapshot for gasless voting, Safe for multi-sig treasury
+    custody, Aragon for no-code DAO creation), plus real regen-space examples
+    (ReFi DAO, Greenpill Network).
+  audience: >-
+    community organisers and regenerative practitioners new to crypto,
+    evaluating whether a DAO would help their group
+  known_tensions:
+    - >-
+      a DAO encodes existing trust into structure vs it cannot manufacture trust
+      a group doesn't already have (the article's explicit "it's plumbing, not
+      magic" framing)
+    - >-
+      Snapshot's off-chain speed/cost-savings vs its lack of automatic on-chain
+      enforcement (a trusted signer must still act)
+  related_concepts:
+    - dao-core-parts
+    - dao-voting-mechanisms
+  related_resources:
+    - Snapshot
+    - Safe
+    - Aragon
+    - ReFi DAO
+    - Greenpill Network
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-dao.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-dao.md
+  notes: |
+    # assessed-but-excluded
+    - no people/community profiles, exact locations, TEK, or funding/legal
+      recommendations named beyond general organizational patterns; no
+      high-risk trigger identified.
+    - see the accompanying signal object on Coordinape's 2025 wind-down,
+      used by the article itself as a caution about tool churn rather than
+      a claim needing evidentiary weighing.
+  work_order: wo-e5c042958e07

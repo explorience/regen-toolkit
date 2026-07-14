@@ -1,0 +1,38 @@
+schema: encyclopedia-entry
+object:
+  title: What Web3 Can and Can't Do
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    An honest capability/limits comparison for community and regenerative work.
+    What Web3 does well, moving value across borders without a gatekeeper,
+    permissionless building, public/hard-to-fake records, and censorship
+    resistance, illustrated with Grassroots Economics' Sarafu network. What it
+    cannot do (yet): cheap high-volume transactions on the main chain (though
+    Layer 2s help), replacing a normal spreadsheet/database, verifying
+    real-world facts (the Toucan/Verra carbon-credit case as the cautionary
+    tale), and keeping activity private by default. Ends with a single screening
+    question ("do multiple parties who don't fully trust each other need to
+    share one record none of them can secretly change?") as the decision rule.
+  audience: community organizers deciding whether to use blockchain tools
+  known_tensions:
+    - >-
+      Hype vs. honest fit — the article explicitly positions itself against "put
+      it on the blockchain" as an unexamined buzzword answer.
+    - >-
+      On-chain code correctness vs. off-chain reality — the Toucan/Verra case
+      shows a smart contract can work exactly as coded while the real-world
+      facts and rules around it still fail to cooperate.
+  related_concepts:
+    - oracle
+    - layer-2
+  related_resources:
+    - etherscan
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-web3-can-cant-do.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-9cd1291b92b8
+  source_lineage: what-web3-can-cant-do.md

@@ -1,0 +1,44 @@
+schema: concept-lineage
+object:
+  title: Gathering Formats for Community Building
+  type: concept-lineage
+  short_description: >-
+    A typology of gathering containers (informal, educational,
+    decision-making, celebration) chosen deliberately to match a
+    community's developmental stage, on the premise that the format shapes
+    the outcome more than the topic does.
+  source_traditions:
+    - Priya Parker's The Art of Gathering (intentional gathering design)
+    - agile retrospective practice — Norm Kerth's Project Retrospectives (2001) and its Prime Directive
+    - sociocracy's consent-based decision-making (Sociocracy For All)
+    - The World Café (Juanita Brown) and Open Space Technology (Harrison Owen) — participant-driven large-group formats
+    - Liberating Structures — a menu of facilitation microstructures
+  toolkit_usage: >-
+    Applied as a stage-matched menu (pre-formation, early formation, active
+    operations, growth, renewal) for regen local-node organizers, with a
+    sustainability constraint (weekly/monthly/quarterly rhythm) layered on
+    top of the format choice.
+  adjacent_meanings:
+    - facilitation microstructures (Liberating Structures) as a lighter-weight adjacent toolkit to full gathering formats
+    - consent-based decision-making as both an offline meeting practice and a rehearsal for on-chain governance tools (Snapshot, multisig)
+  important_distinctions:
+    - consent (no remaining objections — Does anyone object / Can you live with this) vs consensus (unanimous enthusiasm)
+    - a retrospective (structured look-back on a project/period) vs a town hall (forward-looking proposal decision)
+    - informal relationship-building gatherings (foundation layer) vs formal decision-making gatherings (built on top of that foundation)
+  tensions:
+    - the guide's own warning against turning a relationship-building meal into a decision-making meeting ("while we're all here, let's just quickly...")
+    - predictability/rhythm vs the temptation to run an ambitious, high-effort calendar
+  risks_of_flattening: >-
+    Presenting a five-stage node lifecycle (pre-formation to renewal) as a
+    clean linear progression risks flattening the reality that real
+    communities cycle between stages non-linearly (e.g., renewal needs can
+    arise mid-"active operations"); the guide does gesture at this by
+    listing renewal as its own recurring stage rather than a one-time end
+    point.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/types-of-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: types-of-gatherings.md

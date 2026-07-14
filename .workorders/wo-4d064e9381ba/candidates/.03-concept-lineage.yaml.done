@@ -1,0 +1,34 @@
+schema: concept-lineage
+object:
+  title: Seed / Sapling / Canopy local-node maturity model
+  type: concept-lineage
+  short_description: >-
+    A three-stage growth model for local (place-based) regenerative-finance
+    nodes: a Seed node is still building its core team; a Sapling has active
+    engagement and real projects; a Canopy node is mature enough to "provide
+    shelter and support" to other nodes. New members are framed as
+    "seedlings" that the onboarding system helps grow.
+  source_traditions:
+    - ReFi DAO Local Node Incubator, Beta Cohort Retrospective
+  toolkit_usage: >-
+    Used in the article both as a description of node-level maturity and as a
+    template readers are told to "map your node against" in the closing
+    exercise.
+  adjacent_meanings:
+    - Deployment-readiness ladders (L0 idea → L6 field-informed pattern) used elsewhere in the toolkit's own K1 state model
+  important_distinctions:
+    - >-
+      This is a node-level maturity model (about the whole local chapter),
+      distinct from individual member-onboarding stages (observe → first
+      contribution → real role) described in the same article.
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — sourced to a named program retrospective, not attributed to
+    an unnamed community or tradition.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onboarding-members.md
+    surfaced_by: ReFi DAO Local Node Incubator, Beta Cohort Retrospective
+    transformation: summarized
+    authorship: ai-assisted

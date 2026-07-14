@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Ethereum secures $410B+ in value and cut energy use ~99% via the 2022 Merge
+  type: claim-evidence
+  claim: >-
+    Ethereum "secures over $410 billion in value and hosts thousands of
+    projects"; in September 2022 it switched consensus mechanisms and reduced
+    its energy use by roughly 99%.
+  evidence: >-
+    Stated directly in the article body, attributed in the References section to
+    ethereum.org's "What is Ethereum?" and general Ethereum.org documentation;
+    no specific dated source cited for the $410B figure itself.
+  source_lineage: src/content/docs/what-is-ethereum.md
+  interpretation: >-
+    Used to (a) establish scale/legitimacy for a skeptical newcomer audience and
+    (b) preempt the standard "crypto wastes energy" objection before introducing
+    smart contracts and DAOs.
+  uncertainty: >-
+    The $410B TVL/market-cap-style figure is inherently time-sensitive (crypto
+    valuations move daily to monthly) and no snapshot date or source link is
+    given for it specifically, unlike the well-documented ~99% energy-reduction
+    figure from The Merge (Sept 2022), which is independently well-sourced
+    elsewhere. Treat the dollar figure as illustrative-at-time-of-writing, not a
+    stable fact.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-0e57f85327bf

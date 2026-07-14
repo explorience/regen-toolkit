@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Regen Network
+  type: resource
+  url: https://www.regen.network/
+  resource_type: on-chain ecological-credit registry and marketplace
+  link_status: active
+  notes: >-
+    Cited as the article's example of "an on-chain registry for ecological
+    credits" — verified outcomes (carbon stored, grassland restored) become
+    "ecocredits" that buyers purchase and permanently retire, with proof
+    recorded openly rather than in a private spreadsheet.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/refi-vs-defi-tradfi.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5db1fb2f799c
+  source_lineage: refi-vs-defi-tradfi.md

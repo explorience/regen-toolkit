@@ -1,0 +1,37 @@
+schema: encyclopedia-entry
+object:
+  title: Planning Web3 Events for Your Local Node
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practitioner playbook for running local-node events without burning out
+    organizers. Core moves: pick one job per event (educational, social,
+    working, or celebration — never all four at once); tie web3 tooling to a
+    concrete local question rather than leading with tokenomics; follow a
+    five-phase repeatable plan (define the job, set logistics, promote, run the
+    day, follow up within 24 hours); budget for the tier you can repeat monthly
+    rather than a heroic one-off; and rotate hosting/roles so no single person
+    becomes the node. Includes a current (mid-2026) survey of event tooling
+    costs and status changes (Luma, Meetup, Eventbrite, Gather, POAP, Galxe
+    OAT).
+  audience: local node stewards / community organizers
+  known_tensions:
+    - >-
+      Attendance-badge collections (POAP/Galxe OAT) are framed as a nice touch,
+      but the article also notes they "quietly become your node's on-chain
+      history of who showed up," which "can later inform who gets a vote, a
+      role, or a share of a grant" — a governance-relevant use the article flags
+      but does not fully work through.
+  related_concepts:
+    - one-job-per-event
+  related_resources:
+    - luma
+    - galxe-oat
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/planning-web3-events.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-13f3c98bb4d6
+  source_lineage: planning-web3-events.md

@@ -1,0 +1,23 @@
+schema: signal
+object:
+  title: DAO-tooling landscape churns fast — flag for periodic freshness re-check
+  type: signal
+  signal_type: infrastructure
+  affected_layer: Layer 6 (Deployment) / tooling references toolkit-wide
+  interpretation: >-
+    This article explicitly documents two major tool sunsets (Tally,
+    Coordinape) within roughly a year of each other and warns that "every
+    tool list, including this one, is perishable." Any toolkit content
+    referencing named DAO tools (this article, local-node-model.md,
+    multisig-setup.md) carries an implicit expiry risk. Recommend a
+    recurring content-maintenance check (e.g. semi-annual) across all
+    tool-referencing articles/resource objects rather than treating any
+    single ingest as a one-time fact-check.
+  proposed_intervention: review
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-nodes-and-daos.md
+    transformation: inferred
+    authorship: ai-assisted

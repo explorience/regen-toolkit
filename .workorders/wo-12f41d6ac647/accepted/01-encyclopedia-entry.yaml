@@ -1,0 +1,49 @@
+schema: encyclopedia-entry
+object:
+  title: Documentation for Local Nodes
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practical guide to community documentation: why it builds institutional
+    memory, the four types a node needs (governance, process, historical,
+    knowledge-base), tool choices by tier (Google Docs/Drive, Notion/Coda,
+    GitHub/GitBook), a priority guide (must-have/should-have/nice-to-have),
+    maintenance practices (assign ownership, review schedule), a two-track
+    documentation workflow (event-driven and ongoing), best practices (clear,
+    concise, current, accessible), and common mistakes to avoid.
+  audience: Local-Organizer
+  known_tensions:
+    - >-
+      over-documentation-risk vs the core argument that documentation prevents
+      knowledge loss — the article explicitly warns "do not try to document
+      everything," in tension with its own case for documenting thoroughly.
+    - >-
+      accessible-familiar-tools (Google Docs) vs durable-technical-tools
+      (GitHub/GitBook) — the article frames this as a real trade-off between
+      ease of adoption and long-term platform survival.
+  related_concepts:
+    - institutional-memory
+  related_resources:
+    - Notion
+    - GitBook
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/documentation-knowledge.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-12f41d6ac647
+  source_lineage: documentation-knowledge.md
+  notes: |
+    # assessed-but-excluded
+    - Google Docs/Drive and Coda are named tools with brief descriptions but
+      not built into separate resource objects — kept Notion and GitBook (the
+      two given the most specific "good for X" framing plus explicit external
+      links in the references) as resources, per "small objects, not
+      mega-objects" while avoiding a near-complete tool-list dump for
+      one-line mentions.
+    - No people/community profiles, exact locations, or high-risk triggers
+      identified — general documentation-practice guidance, not tied to any
+      specific real organization's funding/legal/governance situation; no
+      public-use-boundary object created.

@@ -1,0 +1,28 @@
+id: wo-de914fb9d23f
+title: ingest tokens-real-world-assets.md
+type: work-order
+source_path: tokens-real-world-assets.md
+source_hash: 07d6dc0607bded4ac1559172cf136064c5c72c73bceb507ba03dc7c9c4d8d5f4
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g9
+produced:
+  - data/kb/encyclopedia-entry.yaml#tokens-for-real-world-assets
+  - data/kb/concept-lineage.yaml#real-world-asset-rwa-tokenization
+  - >-
+    data/kb/claim-evidence.yaml#tokenized-real-estate-can-be-fractionally-sold-in-minutes-vs-months-years
+  - data/kb/resource.yaml#centrifuge-rwa-tokenization-platform
+  - data/kb/resource.yaml#polymath-rwa-tokenization-platform
+  - >-
+    data/kb/signal.yaml#tokens-real-world-assets-md-has-placeholder-garbage-frontmatter-and-no-real-citations

@@ -1,0 +1,34 @@
+id: wo-e98c2d2a09ac
+title: ingest giveth-donations.md
+type: work-order
+source_path: giveth-donations.md
+source_hash: 0b4adfe060f6fa9632efa0f1e7843765be05ea3ec6a3a6b2a46cf2c12215e904
+source_type: transcript
+target_schemas:
+  - source-system
+  - resource
+  - concept-lineage
+  - signal
+  - claim-evidence
+instructions: >-
+  Deep intake (transcript): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g4
+produced:
+  - data/kb/source-system.yaml#giveth-docs
+  - data/kb/resource.yaml#giveth-4abb4b14
+  - data/kb/resource.yaml#devouch
+  - data/kb/resource.yaml#superfluid
+  - data/kb/concept-lineage.yaml#peer-vouched-verification-devouch-model
+  - >-
+    data/kb/claim-evidence.yaml#ethereum-security-qf-round-apr-23-may-14-2026-giveth-s-largest-matching-pool
+  - >-
+    data/kb/claim-evidence.yaml#us-crypto-donation-tax-compliance-rules-form-990-schedule-m-form-8283-2026-agi-floor
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-us-crypto-donation-tax-compliance-guidance-giveth-donations-md
+  - >-
+    data/kb/signal.yaml#anonymous-crypto-donors-break-thank-you-and-tax-receipt-workflows

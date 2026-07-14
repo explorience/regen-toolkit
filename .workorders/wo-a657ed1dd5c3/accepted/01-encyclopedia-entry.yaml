@@ -1,0 +1,31 @@
+schema: encyclopedia-entry
+object:
+  title: 'Stories: Regens Who Made the Leap'
+  type: encyclopedia-entry
+  page_type: case-linked
+  summary: >-
+    Three illustrative adoption stories (a community garden receiving a crypto
+    donation, an environmental-nonprofit coalition moving its treasury to a
+    multisig, and a from-scratch African ReFi community using
+    Discord/Gitcoin/Snapshot/POAPs) used to show that starting small, finding
+    one knowledgeable ally, and staying mission-focused is enough to begin using
+    web3 tools without deep technical expertise.
+  audience: regenerative practitioners considering their first step into web3
+  known_tensions: []
+  related_concepts:
+    - grassroots-web3-adoption-pattern
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/stories-regens-leap.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    high_risk: true — the article names individuals/groups (Maria, an unnamed
+    "organizer," ReFi Africa entrepreneurs) with direct quotes; see accompanying
+    public-use-boundary. Per ingest rules, no public person-nodes were created
+    for Maria or the other named/quoted figures.
+  work_order: wo-a657ed1dd5c3
+  source_lineage: stories-regens-leap.md

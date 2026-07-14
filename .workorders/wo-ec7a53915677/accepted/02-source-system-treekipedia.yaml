@@ -1,0 +1,30 @@
+schema: source-system
+object:
+  title: Treekipedia
+  type: database
+  steward: Silvi
+  return_path: >-
+    unset in article — no explicit contribute-back mechanism for Treekipedia
+    described in this source.
+  what_it_curates: >-
+    A tree-species database, described in the article as helping identify tree
+    species and confirm which species are right for a given planting area; built
+    into the Silvi app.
+  why_it_matters: >-
+    Referenced as the species-matching layer that helps planters choose species
+    likely to survive in their local conditions, which the article frames as
+    important for both ecological outcomes and verification.
+  use_type: reference database consulted through the Silvi app
+  currentness: as described in the March 2026 playbook
+  extraction_status: partial — captured only as framed in this single promotional playbook
+  toolkit_route: layer-9-evolution-signals
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/silvi-protocol.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ec7a53915677
+  source_lineage: silvi-protocol.md

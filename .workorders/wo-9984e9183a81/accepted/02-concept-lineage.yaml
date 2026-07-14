@@ -1,0 +1,53 @@
+schema: concept-lineage
+object:
+  title: Legal Wrapper
+  type: concept-lineage
+  short_description: >-
+    A registered entity (co-op, nonprofit, LLC, or DAO-specific structure) that
+    sits "around" a community group so the entity, not individual members, holds
+    money, signs contracts, and absorbs liability.
+  source_traditions:
+    - traditional corporate/nonprofit/cooperative law
+    - emerging DAO-specific legal-personality statutes (Wyoming DUNA, DAO LLC)
+    - default general-partnership liability law (the "do-nothing" baseline)
+  toolkit_usage: >-
+    Framed as risk-matched, not aspiration-matched — "match the structure to the
+    risk, not to how serious you want to look," with a five-step decision path
+    from "stay informal" to "Wyoming DUNA" to "offshore, only for large
+    cross-border treasuries."
+  adjacent_meanings:
+    - unincorporated association (the default, zero-protection starting state)
+    - >-
+      fiscal sponsorship/fiscal host (a lighter-weight alternative that defers
+      full incorporation)
+  important_distinctions:
+    - >-
+      Legal Wrapper ≠ DAO — a DAO-specific wrapper (DUNA, DAO LLC) is one *kind*
+      of legal wrapper suited to groups already voting on-chain or holding a
+      multisig treasury; a co-op or nonprofit wrapper requires no on-chain
+      governance at all
+    - >-
+      general partnership (default, unlimited personal liability) ≠ any
+      registered wrapper (liability sits with the entity)
+  tensions:
+    - >-
+      cost/complexity scales enormously across wrapper types — from "$0, stay
+      informal" to Cayman Islands setup (~US$2,250 plus thousands/year in
+      ongoing fees) — and the article explicitly warns against "over-wrapping,"
+      i.e. choosing based on aspiration rather than actual risk
+  risks_of_flattening: >-
+    Presenting a single "decision path" checklist can read as more settled law
+    than it is — DAO-specific wrappers (DUNA, DAO LLC) are recent (Wyoming DUNA
+    effective July 2024) and largely untested in court; their liability-shield
+    claims rest on statute and early adoption (e.g. Uniswap's DUNI), not
+    extensive case law.
+  maturity: raw
+  public_use: requires-domain-review
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/legal-structures.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-9984e9183a81
+  source_lineage: legal-structures.md

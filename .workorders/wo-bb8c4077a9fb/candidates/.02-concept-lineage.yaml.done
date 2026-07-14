@@ -1,0 +1,58 @@
+schema: concept-lineage
+object:
+  title: Local / Community Currency
+  type: concept-lineage
+  short_description: >-
+    A currency circulating within a defined community (not a national fiat
+    currency) designed to keep value local, recognize labour that national
+    markets undervalue, and enable exchange when mainstream money is scarce.
+  source_traditions:
+    - >-
+      time-banking / timebank movement (one unit = one hour of labour, e.g.
+      Ithaca Hours since 1991)
+    - >-
+      UK transition-town local-currency movement (Brixton Pound, and
+      similar "Totnes Pound"-style projects, value-based and pegged)
+    - >-
+      informal rotating-savings traditions predating any formal currency
+      design — chamas and ROSCAs across Kenya, Tanzania, and wider East
+      Africa; susu rotating savings — named explicitly as proof communities
+      already run mutual financial systems
+  toolkit_usage: >-
+    Framed as a design decision-tree (unit → backing → issuance → rules)
+    rather than a single template, with an explicit recommendation to start
+    with a time-based, labour-backed, member-issued design and paper or a
+    shared spreadsheet before considering blockchain.
+  adjacent_meanings:
+    - timebank (a specific time-based subtype of local currency)
+    - mobile money (a different tool — moves national currency digitally, does not create a local unit)
+  important_distinctions:
+    - >-
+      Local currency ≠ mobile money — mobile money moves the same national
+      currency faster; a local currency creates a new unit that only
+      circulates within the community
+    - >-
+      time-based ≠ value-based unit — time-based ties value to an hour of
+      anyone's labour (equality-oriented); value-based pegs to national
+      currency (familiar, but inherits its instability)
+  tensions:
+    - >-
+      the article's most-cited examples (Ithaca Hours, Brixton Pound,
+      BerkShares) are all Global North projects, while the target audience
+      is explicitly East African/Somaliland — the article itself
+      acknowledges this and reframes the practice as building on chamas/
+      ROSCAs/susu rather than importing the Global North template wholesale
+  risks_of_flattening: >-
+    Presenting "time-based, labour-backed, member-issued, paper-ledger" as
+    the universally-right starting design flattens real variation in what
+    already works locally (e.g. established chama/ROSCA cash-rotation
+    norms) — the article's own advice to "build on practices already
+    common" should be weighed against its own most-detailed prescriptive
+    default.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-currency.md
+    transformation: synthesized
+    authorship: ai-assisted

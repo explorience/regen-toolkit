@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Cooperative Economics and Digital Commons
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    Explains cooperative economics (worker, consumer, savings-and-loan, and
+    multi-stakeholder cooperatives) grounded in Somaliland/East African
+    traditions (coffee cooperatives, savings circles), extends the idea to the
+    digital commons and DAOs, walks through Elinor Ostrom's eight principles for
+    governing shared resources, and lists funding paths (member contributions,
+    savings-group formalization, grants, quadratic funding, community
+    currencies).
+  audience: >-
+    community stewards in Somaliland/East Africa building cooperative or
+    commons-based projects
+  known_tensions:
+    - >-
+      informal-savings-circles-already-work vs
+      formalizing-them-into-registered-cooperatives-with-broader-reach
+  related_concepts:
+    - ostroms-eight-principles
+    - digital-commons
+    - tokenization
+  related_resources:
+    - Mondragon Worker Cooperative Federation
+    - Greenpill Network
+    - Gitcoin Grants
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/cooperative-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d800b62ea134
+  source_lineage: cooperative-commons.md
+  notes: >
+    # assessed-but-excluded
+
+    - "target_audience: Somaliland / East Africa" in the source frontmatter
+    names a
+      region, not an exact location or individual/community profile, so no
+      high-risk flag; kept as general geographic/cultural framing only.

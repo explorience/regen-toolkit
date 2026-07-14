@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: W3C Decentralized Identifiers (DID) standard
+  type: resource
+  resource_type: standard
+  url: https://w3c.org/did
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: trust-transparency.md
+  related_concepts:
+    - decentralized-identity
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/trust-transparency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: trust-transparency.md

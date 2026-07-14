@@ -1,0 +1,18 @@
+schema: resource
+object:
+  title: Octant
+  type: resource
+  resource_type: funding-platform
+  url: https://octant.app/
+  link_status: active
+  original_source: "src/content/docs/funding-gatherings.md (References)"
+  notes: >-
+    Public-goods funding driven by GLM staking and recurring epochs; cited
+    in the article as "useful context on how on-chain funders allocate,"
+    not otherwise discussed in the body text.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: quoted
+    authorship: ai-assisted

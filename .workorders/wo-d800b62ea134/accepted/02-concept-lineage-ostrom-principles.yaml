@@ -1,0 +1,39 @@
+schema: concept-lineage
+object:
+  title: Elinor Ostrom's Eight Principles for Governing Commons
+  type: concept-lineage
+  short_description: >-
+    Eight design principles (clear boundaries, locally-fit rules, participatory
+    decision-making, self-monitoring, graduated sanctions, conflict-resolution
+    mechanisms, recognized right to organize, nested governance) that
+    Nobel-winning research found in communities that successfully self-govern
+    shared resources without privatization or top-down state control.
+  source_traditions:
+    - Elinor Ostrom's commons-governance research (Nobel Prize in Economics)
+  toolkit_usage: >-
+    Applied in cooperative-commons.md as a practical checklist for both physical
+    cooperatives (savings circles, coffee cooperatives) and digital commons/DAOs
+    — the article frames them as guidelines to work through deliberately, not
+    abstract theory.
+  adjacent_meanings:
+    - commons-governance (the broader field Ostrom's work founded)
+  important_distinctions:
+    - >-
+      principles apply equally to physical and digital/on-chain commons per the
+      article's framing
+  tensions:
+    - >-
+      self-governance-legitimacy vs
+      the-work-of-actually-running-graduated-sanctions-and-monitoring
+  risks_of_flattening: >-
+    Listing the eight principles as a checklist can obscure that Ostrom's
+    original research emphasized they interact and depend on context — no single
+    principle guarantees success in isolation.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/cooperative-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d800b62ea134
+  source_lineage: cooperative-commons.md

@@ -1,0 +1,31 @@
+schema: concept-lineage
+object:
+  title: Crypto donation platform selection checklist
+  type: concept-lineage
+  short_description: >-
+    The article's five-factor evaluation framework for choosing among crypto
+    donation platforms — fees, supported cryptocurrencies, instant
+    stablecoin conversion, integration with existing donor-management
+    systems, and setup support.
+  toolkit_usage: >-
+    Given directly in crypto-donation-platforms.md as "What to Look For"
+    ahead of the getting-started steps (create account, verify 501(c)(3)
+    status, customize page, publish, promote).
+  adjacent_meanings:
+    - vendor-selection-checklist (a generic org-tooling pattern this specializes for crypto)
+  important_distinctions:
+    - "these are user-facing selection criteria, not the compliance/KYC criteria covered in the sibling compliance-legal.md article"
+  tensions:
+    - low-fees vs full-feature-set-and-support
+  risks_of_flattening: >-
+    Presenting five bullet factors as sufficient understates real diligence
+    needs (e.g. platform security history, insurance/custody model) not
+    mentioned in the source article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/crypto-donation-platforms.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-620c0c65c46f
+  source_lineage: crypto-donation-platforms.md

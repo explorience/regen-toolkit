@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: MetaMask (test network)
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: false
+  link_status: unresolved
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - smart-contract-nick-szabo-ethereum
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/smart-contracts-explained.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Named in "Try This" Exercise 3 as a browser wallet to switch to a test
+    network and experiment with transactions using free fake currency, no
+    real money required.

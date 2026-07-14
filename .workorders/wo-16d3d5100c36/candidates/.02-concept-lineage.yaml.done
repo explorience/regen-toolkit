@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: Review boundary (consequence-based content tiering)
+  type: concept-lineage
+  short_description: >-
+    A written rule sorting knowledge-commons content into tiers by how much
+    damage a wrong or misleading entry does if unchallenged (ephemeral/
+    personal → working/shared → canonical/load-bearing), with the human
+    review gate applied only where consequence is high.
+  source_traditions:
+    - SuperBenefit Knowledge Garden's raw-notes/working-docs/refined-artifacts tiering
+    - Elinor Ostrom's commons-governance design principles (clear boundaries, locally-made rules)
+    - Git/pull-request code-review practice
+  toolkit_usage: >-
+    The organizing idea of human-review-boundaries.md — proposed as the
+    mechanism that lets a knowledge commons stay both open to contribution
+    and trustworthy for load-bearing claims.
+  adjacent_meanings:
+    - review-and-maturity-k1-state-model
+    - source-system-stewardship
+  important_distinctions:
+    - >-
+      Sort by "the claim the content makes," not by length or authorship — a
+      two-line recorded decision is load-bearing (canonical); a forty-page
+      brainstorm is ephemeral.
+    - >-
+      A review boundary must be legible (written down, findable by a
+      stranger) — an unwritten habit in one steward's head is not a boundary.
+  tensions:
+    - >-
+      Cheap-to-pass reviewer checklists vs. the risk that a shrunk review
+      becomes a rubber stamp.
+  risks_of_flattening: >-
+    Framing this as a settled three-tier model risks obscuring that the
+    right number and definition of tiers is genuinely team-specific — the
+    article itself says the first boundary drawn "will be wrong" and must be
+    revisited.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/human-review-boundaries.md
+    transformation: synthesized
+    authorship: ai-assisted

@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Grafana Writers' Toolkit — deprecate or remove content
+  type: resource
+  resource_type: article
+  url: https://grafana.com/docs/writers-toolkit/write/deprecate-remove/
+  is_source_system_candidate: false
+  toolkit_route: layer-9-evolution
+  link_status: active
+  related_concepts:
+    - archive-compost-deprecate-remove
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md
+  notes: >-
+    Draws a sharp line: deprecated means "planned for removal in a future
+    release," removed means "removed and no longer supported." Grafana notifies
+    users two minor releases in advance before anything disappears, with a stock
+    notice template ("Starting with [release], [feature] is deprecated. It will
+    be removed in a future release.").

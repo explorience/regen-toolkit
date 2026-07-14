@@ -1,0 +1,27 @@
+id: wo-379fb55cc1a6
+title: ingest editorial-workflow.md
+type: work-order
+source_path: editorial-workflow.md
+source_hash: 24a68f07ff52ab472e5d47b7b0379f23ad61d2a0c9f28ab5c2d31ad1bf59f931
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#an-editorial-workflow-your-commons-won-t-outgrow
+  - data/kb/concept-lineage.yaml#claim-evidence-discipline
+  - data/kb/resource.yaml#gitbook-change-requests
+  - data/kb/resource.yaml#vale-prose-linter
+  - >-
+    data/kb/claim-evidence.yaml#wikipedia-good-article-process-requires-a-reviewer-citation-spot-check

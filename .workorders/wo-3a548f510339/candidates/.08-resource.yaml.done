@@ -1,0 +1,18 @@
+schema: resource
+object:
+  title: ReFi DAO
+  type: resource
+  resource_type: org
+  url: https://refidao.com/
+  link_status: active
+  is_source_system_candidate: true
+  original_source: "src/content/docs/funding-your-node.md (References)"
+  notes: >-
+    Regen coordination network; home of the Local Node program and
+    match-funding history (via Gitcoin and Giveth match pools) per the article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Bisq
+  type: resource
+  resource_type: p2p-exchange
+  url: https://bisq.network/
+  link_status: active
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  notes: >-
+    Open-source, non-custodial desktop peer-to-peer exchange with no sign-up
+    and no company holding funds, named in how-to-get-crypto.md as the
+    privacy-focused P2P option.
+  related_concepts:
+    - peer-to-peer-crypto-exchange-with-escrow
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-to-get-crypto.md
+    transformation: summarized
+    authorship: ai-assisted

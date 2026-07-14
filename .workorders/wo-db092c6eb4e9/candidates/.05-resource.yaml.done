@@ -1,0 +1,28 @@
+schema: resource
+object:
+  title: Murmurations Protocol
+  type: resource
+  resource_type: standard
+  url: https://docs.murmurations.network/guides/create-a-schema.html
+  is_source_system_candidate: true
+  toolkit_route: Layer 2 (Knowledge Commons) / metadata standards, federation
+  link_status: active
+  related_concepts:
+    - Type vs. Tag (metadata discipline)
+  related_resources:
+    - Dublin Core
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/metadata-that-matters.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    A regen-adjacent network protocol maintaining a public field library of
+    pre-defined, reusable metadata fields (e.g. `longitude`, not `long`).
+    Cited as the example of why shared field names matter across a network
+    of communities — directly analogous to this toolkit's own federation
+    concerns. Flagged is_source_system_candidate: true — a future ingest
+    pass could register Murmurations as a full source-system peer (it
+    maintains a living, updatable field library, not a static document).

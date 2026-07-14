@@ -1,0 +1,24 @@
+id: wo-6040541f9808
+title: ingest donor-stewardship.md
+type: work-order
+source_path: donor-stewardship.md
+source_hash: 1caf6484a8a4e136a08adf9f4cde3be609b68b64c9a6e10359685f2f70ebfec3
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - data/kb/encyclopedia-entry.yaml#donor-stewardship-in-web3
+  - data/kb/concept-lineage.yaml#onchain-donation-transparency
+  - >-
+    data/kb/claim-evidence.yaml#crypto-donors-are-motivated-by-transparency-global-access-and-innovation

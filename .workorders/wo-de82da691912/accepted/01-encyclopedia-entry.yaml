@@ -1,0 +1,34 @@
+schema: encyclopedia-entry
+object:
+  title: Other Chains and Ecosystems
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    A comparison of five blockchain ecosystems beyond Ethereum — Solana, Cosmos,
+    Polkadot, Avalanche, and Near — covering each chain's core mechanism,
+    tradeoffs, and relevance to regenerative-finance projects
+    (micro-donation/carbon-credit throughput, sovereign community-currency
+    chains, shared-security launches, custom subnets, and accessibility/ climate
+    focus respectively). Closes with a four-factor decision framework for
+    choosing where to build (team skills, transaction needs, community location,
+    project type).
+  audience: >-
+    individuals evaluating which blockchain ecosystem fits a regenerative
+    project
+  known_tensions: []
+  related_concepts:
+    - chain-selection-tradeoffs
+  related_resources:
+    - solana
+    - cosmos
+    - polkadot
+    - avalanche
+    - near-protocol
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/other-chains.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-de82da691912
+  source_lineage: other-chains.md

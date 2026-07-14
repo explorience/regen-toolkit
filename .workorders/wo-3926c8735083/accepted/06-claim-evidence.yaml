@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: Bank/wire cross-border transfers can lose 6%+ to fees vs. crypto
+  type: claim-evidence
+  claim: >-
+    Sending money internationally through banks or services like Western Union
+    can lose 6% or more to fees, and small grassroots projects often can't
+    easily open accounts, whereas crypto can move value to a wallet in minutes
+    for a much smaller cost.
+  evidence: >-
+    Stated in how-to-get-crypto.md's "Why this might actually matter for your
+    work" section as the article's core cross-border-cost rationale for
+    considering crypto at all.
+  source_lineage: src/content/docs/how-to-get-crypto.md
+  interpretation: >-
+    Used to justify why a grassroots/community organization might adopt crypto
+    for receiving grants or donations despite the article's own scam-risk
+    warnings.
+  uncertainty: >-
+    The "6% or more" figure and "much smaller cost" framing are asserted without
+    a cited source, exact fee comparison, or date; remittance and on/off-ramp
+    fees vary significantly by corridor, amount, and provider.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-to-get-crypto.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-3926c8735083

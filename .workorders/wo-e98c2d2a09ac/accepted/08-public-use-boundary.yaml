@@ -1,0 +1,23 @@
+schema: public-use-boundary
+object:
+  title: Boundary — US crypto-donation tax/compliance guidance (giveth-donations.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the claim-evidence entry on US Form 990 Schedule M / Form 8283 / 2026
+    AGI-floor rules (same work order). This is general educational summary of
+    published tax rules, not tailored legal/tax advice for any specific node; a
+    node should confirm current thresholds with a qualified tax advisor before
+    acting on it, especially given the article's own note that the underlying
+    law changed in 2026.
+  review_type: domain-review-before-acting (tax/legal)
+  notes: >-
+    High-risk trigger: funding/legal recommendation (master doc §5 triggers).
+    Flagging per the ingest skill's rule that legal/funding recs require
+    high_risk + a public-use-boundary.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-e98c2d2a09ac
+  source_lineage: giveth-donations.md

@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: Polkadot
+  type: resource
+  url: https://wiki.polkadot.network
+  resource_type: layer-0 / relay-chain shared-security network
+  link_status: active
+  notes: >-
+    A central relay chain provides shared security to connected specialized
+    chains ("parachains") that lease a parachain slot rather than running
+    their own validator network. Article frames this as appealing for a
+    regenerative project that needs reliable infrastructure without a large
+    team.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/other-chains.md
+    transformation: summarized
+    authorship: ai-assisted

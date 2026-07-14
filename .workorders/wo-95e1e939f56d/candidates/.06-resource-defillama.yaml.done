@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: DefiLlama Stablecoins Dashboard
+  type: resource
+  url: https://defillama.com/stablecoins
+  resource_type: dataset/dashboard
+  is_source_system_candidate: true
+  link_status: active
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - stablecoin
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stablecoins.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Recommended in "Try This: Start here" as a live, no-money-required way to
+    see stablecoin sizes and peg stability; flagged
+    is_source_system_candidate since it is a continuously updated living data
+    source, not a static document.

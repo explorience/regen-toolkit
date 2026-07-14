@@ -1,0 +1,32 @@
+schema: encyclopedia-entry
+object:
+  title: How Blockchain Transactions Work
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    Walks through the seven-step life cycle of a blockchain transaction —
+    creation, signing (with a private key), broadcasting to the mempool, node
+    verification, block inclusion, network consensus, and confirmation — and
+    connects it to why transparent, permanent, no-single-entity records matter
+    for community economies.
+  audience: beginners with no prior blockchain background
+  known_tensions: []
+  related_concepts:
+    - mempool-transaction-waiting-room
+  related_resources:
+    - ledger-academy-how-does-a-blockchain-transaction-work
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-transactions-work.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: the article's "Try This" permaculture-notebook
+    analogies and blockchain-explorer exercise were left as narrative exercises,
+    not extracted as separate typed objects. "Bankless Academy - Blockchain
+    Basics" is not re-created as a new resource object — an identically-titled
+    resource already exists in data/kb/resource.yaml from a prior ingestion
+    slice.
+  work_order: wo-03d7c600800a
+  source_lineage: how-transactions-work.md

@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: Peer-to-peer (P2P) crypto exchange with escrow
+  type: concept-lineage
+  short_description: >-
+    A way to buy crypto directly from another person rather than a company:
+    the platform locks the seller's crypto in escrow, the buyer pays the
+    seller directly (bank transfer, PayPal, etc.), and escrow releases the
+    crypto only after the buyer confirms payment.
+  source_traditions:
+    - classifieds-marketplace-model (Craigslist-style listings)
+    - escrow practice from traditional high-value in-person transactions
+  toolkit_usage: >-
+    Presented in how-to-get-crypto.md as "Way 2" of acquiring crypto, for
+    people who would rather not hand ID to a centralized exchange.
+  adjacent_meanings:
+    - centralized-exchange
+    - non-custodial-wallet
+  important_distinctions:
+    - >-
+      The platform's escrow is the safety mechanism — a seller asking to be
+      paid "directly to skip the fee" bypasses escrow entirely and is
+      explicitly flagged in the source article as the scam pattern to walk
+      away from.
+  tensions:
+    - >-
+      Privacy/no-ID-check appeal vs. reduced recourse if a counterparty
+      defrauds outside the escrow flow.
+  risks_of_flattening: >-
+    Naming specific platforms (LocalCoinSwap, Bisq) risks staleness — the
+    source article itself notes that Paxful, "the platform most older guides
+    still recommend," wound down by 1 November 2025.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-to-get-crypto.md
+    transformation: synthesized
+    authorship: ai-assisted

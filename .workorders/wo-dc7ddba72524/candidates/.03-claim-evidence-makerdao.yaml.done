@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: MakerDAO's early MKR accumulation gave outsized governance influence
+  type: claim-evidence
+  claim: >-
+    In MakerDAO, users stake ETH as collateral so their financial interest
+    aligns with system stability, but early investors accumulated significant
+    MKR (the governance token), giving them outsized influence over voting on
+    interest rates and accepted collateral assets — and the article states
+    this pattern ("this happens more often than people admit") recurs across
+    DAOs generally.
+  evidence: >-
+    Article's own description of MakerDAO's mechanics and governance history;
+    no external citation or dataset is linked for the "outsized influence"
+    claim specifically.
+  source_lineage: src/content/docs/tokens-coordination-tools.md
+  interpretation: >-
+    Used as the primary real-world example of the "wealth concentration"
+    challenge in token-based coordination — illustrating that
+    token-alignment-with-system-stability (staking) does not by itself solve
+    governance-power concentration.
+  uncertainty: >-
+    No quantitative source (e.g., on-chain MKR distribution data) is cited to
+    support "significant"/"outsized" — this is an asserted pattern, not a
+    measured one, in the source article.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-coordination-tools.md
+    transformation: summarized
+    authorship: ai-assisted

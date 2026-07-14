@@ -1,0 +1,42 @@
+schema: encyclopedia-entry
+object:
+  title: What You Can Do on Ethereum
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A narrowly-scoped beginner guide, written for participants in "the Sarreya
+    programs," that deliberately limits Ethereum's relevance to three concrete
+    uses: (1) sending/receiving digital money (e.g. USDC stablecoin transfers,
+    low "gas" fees), (2) earning verifiable digital credentials for completed
+    trainings/skills, and (3) tracking and proving real-world impact (photo +
+    location submitted and recorded on-chain), which the article names as
+    digital measurement, reporting, and verification (dMRV), citing Silvi as an
+    example program. Explicitly tells readers NOT to worry about NFTs, DeFi
+    lending, staking, or app development.
+  audience: >-
+    participants in the Sarreya program(s); general audience individuals new to
+    Ethereum
+  known_tensions:
+    - >-
+      Simplicity vs. completeness — the article deliberately narrows scope to 3
+      uses and tells the reader to ignore the rest of the Ethereum ecosystem,
+      trading completeness for actionability.
+  related_concepts:
+    - dmrv
+  related_resources:
+    - silvi
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-you-can-do-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Source-article frontmatter flags this piece itself as still in-progress:
+    factcheck_done: false, review_done: false, critique_done: false,
+    published_flag: false, stage: draft. This does not change our own maturity:
+    raw / ai_assisted: true rating (that reflects THIS extraction), but a human
+    reviewer should weigh that the underlying article has not yet been
+    fact-checked by its own authors, particularly the dMRV/Silvi claim below.
+  work_order: wo-8ded39036549
+  source_lineage: what-you-can-do-ethereum.md

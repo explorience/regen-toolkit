@@ -1,0 +1,27 @@
+id: wo-db092c6eb4e9
+title: ingest metadata-that-matters.md
+type: work-order
+source_path: metadata-that-matters.md
+source_hash: ebe1c517e6431ce67e56471925824ff9488daff8b6cf09f22bc8841ae4d36408
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#metadata-that-matters
+  - data/kb/concept-lineage.yaml#type-vs-tag-metadata-discipline
+  - >-
+    data/kb/claim-evidence.yaml#42-of-institutional-knowledge-is-unique-to-the-individual
+  - data/kb/resource.yaml#dublin-core
+  - data/kb/resource.yaml#murmurations-protocol
+  - data/kb/resource.yaml#remark-lint-frontmatter-schema

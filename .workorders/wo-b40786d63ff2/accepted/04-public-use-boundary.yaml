@@ -1,0 +1,31 @@
+schema: public-use-boundary
+object:
+  title: >-
+    Boundary — article written for a named vulnerable-population program
+    (Sarreya)
+  tier: public-with-caveat
+  consent_note: >-
+    The source article ("Why Does This Matter For You?" section) directly
+    addresses "you, a young woman in Sarreya programs" and references "Sarreya
+    coordinators and program leaders" — naming a specific training/mentorship
+    program that appears (from sibling articles in this batch referencing
+    Somaliland/East Africa) to serve a vulnerable population. No individual
+    names or exact locations are given, but the program name itself is a
+    potential identifier. Do not create a public person-node or expand this into
+    named-individual detail; treat the "Sarreya" reference as a high-risk
+    trigger (identity/community profile) per the ingest skill's guardrails.
+  review_type: steward-review-before-public-use
+  notes: >-
+    Applies to the sibling encyclopedia-entry and concept-lineage candidates
+    from this same work order. Recommend a human reviewer confirm whether
+    "Sarreya" should be named at all in any public-facing derived content, or
+    generalized to "community training programs."
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onchain-attestations.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-b40786d63ff2
+  source_lineage: onchain-attestations.md

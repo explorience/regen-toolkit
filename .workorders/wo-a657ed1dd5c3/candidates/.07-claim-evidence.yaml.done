@@ -1,0 +1,35 @@
+schema: claim-evidence
+object:
+  title: "Coalition of 15 environmental nonprofits improved via multisig treasury"
+  type: claim-evidence
+  claim: >-
+    A coalition of 15 environmental nonprofits moved its pooled treasury
+    from a traditional bank account (where transparency was "always an
+    issue") to a multi-sig wallet, giving every member visibility into funds,
+    onchain voting on decisions, and the ability to accept donations from
+    anywhere; per the account, "our coalition actually functioned better"
+    afterward.
+  evidence: >-
+    A single anonymized, quoted account within the article ("The Climate
+    Coalition" story); no external citation, names, or verifiable source
+    given beyond the article's general frontmatter sources ("ReFi DAO Local
+    ReFi Toolkit," "Reimagining Power").
+  source_lineage: src/content/docs/stories-regens-leap.md
+  interpretation: >-
+    Used as illustrative evidence that multisig treasuries can improve
+    coalition transparency and function, in support of the article's larger
+    persuasive point that web3 tools are approachable.
+  uncertainty: >-
+    Anecdotal, single-sourced, and possibly a composite/illustrative example
+    rather than a specific verifiable case; no coalition name, date, or
+    independent corroboration given. High_risk / restricted per accompanying
+    public-use-boundary, since it involves an account of a named-in-spirit
+    group's internal governance change.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/stories-regens-leap.md
+    transformation: summarized
+    authorship: ai-assisted

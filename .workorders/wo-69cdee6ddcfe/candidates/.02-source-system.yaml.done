@@ -1,0 +1,41 @@
+schema: source-system
+object:
+  title: SuperBenefit Knowledge Garden
+  type: knowledge-garden
+  url: https://knowledge.superbenefit.org/
+  steward: SuperBenefit (a DAO researching web3 systems-change)
+  what_it_curates: >-
+    A public knowledge garden organized into four section types — Docs
+    (finished explanations/guides), Lexicon (shared-vocabulary definitions),
+    Links (annotated external resources), and Patterns (reusable solutions
+    to recurring governance/coordination problems) — including a published
+    "Knowledge Gardens" pattern describing SuperBenefit's own gardening
+    practice (gardeners, sensemaking sessions, seasonal reviews).
+  why_it_matters: >-
+    A live, real-world worked example of the garden model this toolkit
+    article recommends: a durable community knowledge structure that
+    outlives contributor turnover, cited as the model to copy.
+  how_to_credit: Credit SuperBenefit and link to https://knowledge.superbenefit.org/
+  return_path: >-
+    Not specified in source article beyond the public garden URL — engage
+    via SuperBenefit's public knowledge garden site; no explicit
+    contribute-back/PR process was documented in this source, flagged for
+    follow-up (see notes).
+  currentness: >-
+    Article notes SuperBenefit ran Obsidian+Quartz before migrating to a
+    custom Astro build; currentness of the garden's tooling as of the
+    article's writing (2026), not independently re-verified here.
+  extraction_status: raw AI-assisted extraction from a single toolkit article — not independently verified against the live site
+  toolkit_route: Layer 2 (Knowledge Commons) / Layer 4 (Concept Lineage) — pattern-library peer
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/knowledge-gardens.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    return_path is a best-effort inference (the article only links to the
+    garden's homepage) — a human reviewer should confirm SuperBenefit's
+    actual contribute-back mechanism (Discord, GitHub, contact form) before
+    promoting this card past raw.

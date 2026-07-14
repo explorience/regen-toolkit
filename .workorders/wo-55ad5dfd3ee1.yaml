@@ -1,0 +1,28 @@
+id: wo-55ad5dfd3ee1
+title: ingest smart-contracts-explained.md
+type: work-order
+source_path: smart-contracts-explained.md
+source_hash: f4bd59aa4eafb94d5a1422e3497e0e276055390a872457c55931a0c101076209
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - data/kb/encyclopedia-entry.yaml#smart-contracts-explained
+  - data/kb/concept-lineage.yaml#smart-contract-b954ce89
+  - data/kb/concept-lineage.yaml#blockchain-oracle
+  - >-
+    data/kb/claim-evidence.yaml#ethereum-2015-was-the-first-blockchain-capable-of-running-smart-contracts
+  - data/kb/resource.yaml#etherscan
+  - data/kb/resource.yaml#metamask-test-network
+  - data/kb/resource.yaml#chainlink-what-is-a-blockchain-oracle

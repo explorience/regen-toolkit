@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: "CHAOSS defines Contributor Absence Factor as the smallest-N-for-50% metric"
+  type: claim-evidence
+  claim: >-
+    CHAOSS (Community Health Analytics in Open Source Software, a Linux
+    Foundation effort) defines the Contributor Absence Factor as "the
+    smallest number of contributors responsible for 50% of total
+    contributions."
+  evidence: >-
+    Article cites CHAOSS's knowledge base directly
+    (chaoss.community/kb/metric-contributor-absence-factor/) with a quoted
+    definition.
+  source_lineage: src/content/docs/stewardship-roles.md
+  interpretation: >-
+    Used as the article's concrete, computable fragility test for a
+    knowledge commons' contributor base.
+  uncertainty: >-
+    Direct quote from a named, linked source; not independently
+    re-fetched/re-verified in this ingestion pass.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stewardship-roles.md
+    transformation: quoted
+    authorship: ai-assisted

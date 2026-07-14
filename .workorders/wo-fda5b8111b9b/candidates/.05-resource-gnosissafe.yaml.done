@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Gnosis Safe
+  type: resource
+  url: https://safe.global
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - multisig-treasury-management
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Described as the standard DAO treasury tool: multi-signature wallet
+    securing billions of dollars across millions of accounts, M-of-N approval,
+    multi-chain support (20+ networks), hardware wallet compatibility.
+  work_order: wo-fda5b8111b9b
+  source_lineage: dao-tooling.md

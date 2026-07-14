@@ -1,0 +1,25 @@
+id: wo-687e48ae4084
+title: ingest dao-governance-models.md
+type: work-order
+source_path: dao-governance-models.md
+source_hash: 8a7065b42266f65babcf06b5233b99f8c338cb3d7f6210929cd47da09966cca3
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - data/kb/encyclopedia-entry.yaml#dao-governance-models
+  - data/kb/concept-lineage.yaml#quadratic-voting
+  - data/kb/resource.yaml#ens-dao
+  - data/kb/resource.yaml#safedao
+  - data/kb/claim-evidence.yaml#token-weighted-voting-risks-whale-dominance

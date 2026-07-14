@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Greenpill Network
+  type: resource
+  resource_type: org
+  url: https://greenpill.network
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: what-is-dao.md
+  related_concepts:
+    - dao-core-parts
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-dao.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-dao.md
+  notes: >-
+    A global network of local chapters using crypto tools to fund and coordinate
+    public goods per the article; same org already registered as a resource from
+    types-of-gatherings.md ingestion.
+  work_order: wo-e5c042958e07

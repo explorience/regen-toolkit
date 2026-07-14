@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Disco.xyz
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: unresolved
+  original_source: credentials-certifications.md
+  related_concepts:
+    - portable-web3-identity
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/credentials-certifications.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-77d9f87bf031
+  source_lineage: credentials-certifications.md
+  notes: >-
+    Described as built specifically for managing and sharing web3 identity and
+    credentials in readable form ("a CV layer on top of your wallet"); no URL
+    given in source, link_status left unresolved pending verification.

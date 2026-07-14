@@ -1,0 +1,49 @@
+schema: concept-lineage
+object:
+  title: Self-Custody (Non-Custodial Wallets)
+  type: concept-lineage
+  short_description: >-
+    Holding your own private keys/seed phrase directly, with no intermediary
+    able to sign, freeze, or recover a transaction on your behalf — control and
+    responsibility sit entirely with the key holder.
+  source_traditions:
+    - cryptography / public-private key systems
+    - Bitcoin/Ethereum wallet design
+    - the "not your keys, not your crypto" community ethos
+  toolkit_usage: >-
+    Positioned in this article as the higher-responsibility, higher-control
+    counterpart to custodial (exchange-held) wallets, and connected to mobile
+    money precedents (M-Pesa, Eva, Telesom ZAAD) already familiar to East
+    African audiences as a bridge concept.
+  adjacent_meanings:
+    - self-custody as a security practice (key management)
+    - >-
+      self-custody as a political/ideological stance (censorship resistance,
+      anti-intermediary)
+    - self-custody as a treasury design choice (multisig for community funds)
+  important_distinctions:
+    - >-
+      seed-phrase-vs-private-key — the article notes the seed phrase is the
+      human-manageable form; the wallet derives keys from it, generated and kept
+      on-device.
+    - >-
+      custodial-recovery-vs-non-custodial-no-recovery — losing a seed phrase in
+      a non-custodial wallet means permanent loss of funds, unlike a custodial
+      account's password-reset path.
+  tensions:
+    - >-
+      full-ownership vs total-personal-responsibility — the article is explicit
+      that greater control comes with zero safety net for user error.
+  risks_of_flattening: >-
+    Treating "non-custodial" as simply "safer" flattens the article's actual
+    point: it shifts risk from counterparty/exchange failure to individual
+    operational-security failure (malware, lost phrase) — neither is strictly
+    safer, they are different risk profiles.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/custodial-vs-noncustodial.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ce41b10364c7
+  source_lineage: custodial-vs-noncustodial.md

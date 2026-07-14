@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Open Collective
+  type: resource
+  resource_type: tool
+  url: https://opencollective.com/
+  is_source_system_candidate: false
+  toolkit_route: Layer 6 (Deployment) / fiscal hosting
+  link_status: active
+  related_concepts:
+    - Legal Wrapper
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-node-model.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Fiscal-hosting platform letting an unincorporated group raise and spend
+    money transparently under a host (e.g. Open Source Collective, Open
+    Collective Europe) without registering a legal entity — presented as a
+    way to get most of a cooperative's benefits before incorporating.

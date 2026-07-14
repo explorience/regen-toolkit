@@ -1,0 +1,24 @@
+schema: public-use-boundary
+object:
+  title: Boundary — chamas/iqqub/hawala attribution in inclusive-practices.md
+  tier: public-with-caveat
+  consent_note: >-
+    inclusive-practices.md references chamas (Kenya), iqqub (Ethiopia and
+    Eritrea), and hawala networks as evidence that community-designed
+    financial systems already serve people banks refuse. This is a
+    broad-strokes, secondary-source reference to whole national/regional
+    practices, not sourced to a specific community, operator, or
+    citation. Do not present as an authoritative or complete account of these
+    systems; seek community-sourced or specialist review before republishing
+    in a context that speaks on behalf of the communities that run them.
+  review_type: domain-review-before-public-use
+  notes: >-
+    Covers the concept-lineage entry "Informal community savings mechanisms
+    (chamas, iqqub, hawala)" and the accompanying claim-evidence entry (same
+    work order) — flagged per the ingest skill's community/cultural-
+    attribution high-risk trigger.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/inclusive-practices.md
+    transformation: synthesized
+    authorship: ai-assisted

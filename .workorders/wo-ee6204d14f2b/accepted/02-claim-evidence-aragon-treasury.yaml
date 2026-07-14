@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: >-
+    Aragon's 2023 treasury dissolution shows unilateral structural moves can
+    break DAO trust even when 'winning'
+  type: claim-evidence
+  claim: >-
+    In 2023, investors bought up ANT tokens to force a payout of Aragon's ~$200M
+    treasury, which Aragon's team called a "51% attack" by "risk-free- value
+    raiders." Aragon cancelled the handover, dissolved its association, and
+    redeemed the treasury (~86,000 ETH, ~$155M) without a community vote; the
+    remaining DAO then voted to fund legal action against its own founders.
+  evidence: >-
+    Cited to CoinDesk ("Aragon Cancels Planned Community Control of $200M
+    Treasury...") and Cointelegraph ("Aragon Association Dissolves, Disburses
+    $155M...") reporting from 2023.
+  source_lineage: src/content/docs/conflict-resolution.md
+  interpretation: >-
+    Used as the article's central warning that reaching for a unilateral
+    structural lever (even in response to a genuine attack) to end a conflict
+    tends to detonate trust rather than resolve it — "no clever mechanism saves
+    you once trust is gone."
+  uncertainty: >-
+    Figures (ETH amount, USD values) reflect values reported at the time in the
+    cited press sources and will not match current ETH price; "51% attack" and
+    "risk-free-value raiders" are Aragon's own framing of the investor bloc, a
+    contested characterization the article does not independently verify.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/conflict-resolution.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ee6204d14f2b

@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: >-
+    Optimism's Retro Funding thesis: "easier to agree on what was useful than
+    what will be useful"
+  type: claim-evidence
+  claim: >-
+    Optimism's Retroactive Public Goods Funding pays projects for public goods
+    they shipped in the past rather than for promised future work; the thesis
+    (from the 2021 post introducing the idea, with Vitalik Buterin as guest
+    author of the key section) is "it's easier to agree on what was useful than
+    what will be useful."
+  evidence: >-
+    Cited to "Optimism, Retroactive Public Goods Funding" (Medium, July 20,
+    2021, with Vitalik Buterin as guest author of the core section) in the
+    article's References.
+  source_lineage: src/content/docs/writing-grant-proposals.md
+  interpretation: >-
+    Used to establish the second of the article's "two kinds of grants"
+    distinction — retroactive grants require documenting delivered impact with
+    metrics, never aspirational language, which changes what a proposal
+    contains.
+  uncertainty: >-
+    Direct paraphrase/quotation of a named, dated, attributable source (a 2021
+    Optimism blog post); low uncertainty on attribution, though the article does
+    not link the live OP Atlas Retro Funding program details beyond naming
+    atlas.optimism.io/missions as a reference.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/writing-grant-proposals.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-44ab6b54437e

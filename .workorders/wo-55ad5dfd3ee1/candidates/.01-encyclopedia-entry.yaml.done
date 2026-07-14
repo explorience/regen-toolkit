@@ -1,0 +1,40 @@
+schema: encyclopedia-entry
+object:
+  title: Smart Contracts Explained
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    An accessible explainer of smart contracts (self-executing, transparent,
+    immutable, decentralized programs on a blockchain), how they work
+    (write -> deploy -> monitor -> execute -> record), their permissionless
+    and composability properties, multisig contracts, the oracle problem
+    (why they can't see the real world), and their limits (bugs are
+    permanent, size limits, no legal recognition yet) — framed for East
+    African regenerative communities.
+  audience: East African regenerative/community practitioners new to smart contracts
+  known_tensions:
+    - >-
+      "Code is law" is presented as both a strength (no one can secretly
+      alter the rules) and a risk (bugs execute exactly as written, with no
+      undo).
+    - >-
+      Oracles are named as the mechanism that connects contracts to
+      real-world data, and also as one of the most common failure points in
+      practice.
+  related_concepts:
+    - smart-contract-nick-szabo-ethereum
+    - blockchain-oracle
+  related_resources:
+    - etherscan
+    - chainlink
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/smart-contracts-explained.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: no people/location/TEK/MRV high-risk content; the
+    Hargeisa/Djibouti/sesame-trader scenario and sorghum-farmer/NGO examples
+    are illustrative hypotheticals, not real named individuals, so no
+    public-use-boundary or person-node created.

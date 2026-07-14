@@ -1,0 +1,28 @@
+schema: public-use-boundary
+object:
+  title: >-
+    Boundary — organizational security/treasury recommendations carry real
+    financial risk
+  tier: public-with-caveat
+  consent_note: >-
+    This article gives concrete operational security recommendations for
+    organizations holding real cryptocurrency treasuries (multi-sig thresholds,
+    hot/cold wallet splits, access-control tiers, emergency response
+    procedures). If treated as complete or authoritative guidance without
+    adaptation to a specific organization's context, gaps could directly expose
+    real funds. Per the ingest skill's high-risk triggers ("funding...
+    recommendations"), flag for security-domain-expert review before promotion
+    to public "reviewed" guidance.
+  review_type: security-domain-expert-review-before-promotion
+  notes: >-
+    Applies to the sibling encyclopedia-entry, concept-lineage, claim- evidence,
+    and resource candidates from this same work order.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/security-best-practices-orgs.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-b79788c6a798
+  source_lineage: security-best-practices-orgs.md

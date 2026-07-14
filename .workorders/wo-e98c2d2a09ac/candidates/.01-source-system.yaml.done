@@ -1,0 +1,31 @@
+schema: source-system
+object:
+  title: Giveth Docs
+  type: docs-site
+  steward: Giveth
+  what_it_curates: >-
+    Product documentation for the Giveth donation platform: zero-fees model,
+    project creation flow, GIVbacks, GIVpower, project verification, recurring
+    donations (Superfluid streaming), and quadratic funding mechanics.
+  why_it_matters: >-
+    The primary living reference this article draws on for exact platform
+    mechanics (fee structure, verification tiers, reward math); a local node
+    setting up a Giveth project should treat these docs, not this summary
+    article, as the current source of truth.
+  how_to_credit: Credit Giveth and link to docs.giveth.io.
+  use_type: platform documentation for donation/fundraising setup
+  reuse_conditions: Publicly published documentation; not otherwise specified in this article.
+  return_path: >-
+    Via docs.giveth.io and Giveth's own community channels (not specified
+    further in this article); corrections/updates should be checked against
+    the live docs site directly.
+  currentness: "as reflected in the source article, dated 2026"
+  update_rhythm: living docs site, updated as the platform evolves
+  extraction_status: partially-extracted (this article's summarized subset only)
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,57 @@
+schema: concept-lineage
+object:
+  title: DAO (Decentralized Autonomous Organization) vs. Local Node
+  type: concept-lineage
+  short_description: >-
+    A DAO is a legal-and-technical form (membership, money, and decisions
+    encoded onto a blockchain with verifiable votes); a local node is a
+    community concept (people in a place organized around shared purpose). A
+    node becomes DAO-shaped only when the cost of informality exceeds the cost
+    of the tooling.
+  source_traditions:
+    - >-
+      SuperBenefit's "minimum viable coordination" framing (just enough
+      structure to enable collaboration while preserving autonomy)
+    - ReFi DAO and Greenpill Network's hybrid, tool-optional network model
+  toolkit_usage: >-
+    Used to reframe "should we become a DAO?" as "which of three concrete
+    problems (treasury custody, verifiable decisions, roles surviving turnover)
+    do we actually have?" — formalize only the piece that answers a live
+    problem, not the whole stack pre-emptively.
+  adjacent_meanings:
+    - >-
+      legal wrapper (a DAO-specific wrapper like a Wyoming DUNA is one path to
+      legal personality for an on-chain-governed node, not the same as "becoming
+      a DAO" informally)
+    - >-
+      working group / council (organizational models a node can adopt without
+      any on-chain component at all)
+  important_distinctions:
+    - >-
+      DAO ≠ local node — conflating the two is named directly as "two things
+      people constantly merge"; a node can run for years as "a Signal group, a
+      shared calendar, and a monthly meal" without ever becoming DAO-shaped
+    - >-
+      formalizing a treasury (multisig) ≠ formalizing decisions (voting) ≠
+      formalizing roles (onchain permissions) — three separable problems, not
+      one bundled "become a DAO" step
+  tensions:
+    - >-
+      the article frames a healthy network (ReFi DAO, Greenpill) as making a
+      node "more sovereign, not less," while naming central overreach (a network
+      steering or taking custody of a node's funds/decisions) as a real failure
+      mode requiring structural, not just cultural, defense
+  risks_of_flattening: >-
+    "Minimum viable coordination" can be used to justify never adding structure
+    a group genuinely needs, just as easily as it guards against over-building —
+    the article's own guardrail ("add structure in response to a problem you can
+    name") requires the same honest self-assessment in either direction.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-nodes-and-daos.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-cf4d99f9b04c
+  source_lineage: local-nodes-and-daos.md

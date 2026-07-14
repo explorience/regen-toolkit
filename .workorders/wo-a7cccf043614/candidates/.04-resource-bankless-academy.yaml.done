@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Bankless Academy
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: unresolved
+  original_source: creating-buying-earning.md
+  related_concepts:
+    - learn-to-earn
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/creating-buying-earning.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a7cccf043614
+  source_lineage: creating-buying-earning.md
+  notes: >-
+    Cited as the source the whole guide draws from ("This guide draws from
+    Bankless Academy's educational resources") and as the learn-to-earn
+    platform giving collectible badges for completed lessons; no URL given in
+    the source article, link_status left unresolved pending verification.

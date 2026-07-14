@@ -1,0 +1,28 @@
+id: wo-1fd434ce7666
+title: ingest common-concerns.md
+type: work-order
+source_path: common-concerns.md
+source_hash: c90c52330b53453b90782aab5147097a9bcb22fddf7575e19a699a6444924b57
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g2
+produced:
+  - data/kb/encyclopedia-entry.yaml#common-concerns-about-web3-answered-honestly
+  - >-
+    data/kb/claim-evidence.yaml#ethereum-s-merge-cut-network-energy-use-by-roughly-99-95
+  - >-
+    data/kb/claim-evidence.yaml#global-remittance-fees-average-far-more-than-crypto-rails-would-cost
+  - data/kb/resource.yaml#sarafu-grassroots-economics
+  - data/kb/resource.yaml#silvi-protocol
+  - data/kb/concept-lineage.yaml#proof-of-work-vs-proof-of-stake-c9f71633

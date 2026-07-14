@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: "ReFi DAO Local Node Incubator"
+  type: resource
+  resource_type: program
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: unresolved
+  related_concepts:
+    - node-founding-team-roles
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md
+  notes: >-
+    A 15-week beta cohort run by ReFi DAO with over 100 participants and
+    25-plus attending weekly, scoring 9.4/10 on recommendation, per the
+    article's cited retrospective. Named alongside GreenPill Network as
+    existing support a new founding team can plug into rather than inventing
+    the playbook alone.

@@ -1,0 +1,50 @@
+schema: encyclopedia-entry
+object:
+  title: 'Custodial vs Non-Custodial Wallets: Understanding Who Holds the Keys'
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Compares custodial wallets (a third party like an exchange holds your
+    private keys, similar to a bank) against non-custodial wallets (you hold
+    your own keys/seed phrase, no intermediary). Walks through the trade-offs
+    of each — recovery, ease of use, DeFi access, privacy, counterparty risk —
+    then gives East-Africa-specific framing (mobile money precedents like
+    M-Pesa, Eva, Telesom ZAAD) and decision guidance for when to choose which.
+  audience: Individual (beginner, East African communities)
+  known_tensions:
+    - >-
+      ease-of-use-and-recoverability (custodial) vs full-ownership-and-no-safety-net
+      (non-custodial) — the article frames this as situational, not a universal
+      "better" choice.
+    - >-
+      convenience of built-in recovery vs the "not your keys, not your crypto"
+      principle of true ownership.
+  related_concepts:
+    - custodial-wallet
+    - non-custodial-wallet
+    - seed-phrase
+    - self-custody
+  related_resources:
+    - MetaMask
+    - Ledger
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/custodial-vs-noncustodial.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ce41b10364c7
+  source_lineage: custodial-vs-noncustodial.md
+  notes: >
+    # assessed-but-excluded
+
+    - Coinbase/Binance/Kraken and Trust Wallet/Rainbow/Trezor mentioned only as
+      one-line named examples alongside MetaMask/Ledger; not built out as
+      separate resource objects to avoid mega-listing named brands with no
+      distinct content beyond "it's an exchange" / "it's a wallet app" — kept
+      the two most-detailed examples (MetaMask, Ledger) as resources instead.
+    - No people/community profiles, exact locations, or funding/legal/governance
+      recommendations in this article; no high-risk trigger identified — it is
+      general consumer wallet-literacy content, so no public-use-boundary
+      object was created.

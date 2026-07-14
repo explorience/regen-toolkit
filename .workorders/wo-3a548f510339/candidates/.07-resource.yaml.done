@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Greenpill Network
+  type: resource
+  resource_type: org
+  url: https://greenpill.network/
+  link_status: active
+  is_source_system_candidate: true
+  original_source: "src/content/docs/funding-your-node.md (References)"
+  notes: >-
+    Runs Greenpill-specific quadratic funding rounds for local chapters
+    during Gitcoin events, and mints hypercerts for each chapter; around a
+    dozen active chapters worldwide per the article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: summarized
+    authorship: ai-assisted

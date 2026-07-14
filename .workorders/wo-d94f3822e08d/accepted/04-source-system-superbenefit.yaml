@@ -1,0 +1,33 @@
+schema: source-system
+object:
+  title: SuperBenefit Knowledge Garden
+  type: knowledge-garden
+  url: https://knowledge.superbenefit.org/
+  steward: SuperBenefit
+  what_it_curates: >-
+    A shared knowledge base for a Web3 ecosystem, organized into docs, a lexicon
+    of definitions, a curated links library, and reusable patterns. Plain
+    Markdown files edited in Obsidian and published with Quartz, kept in a
+    public, MIT-licensed GitHub repo (github.com/superbenefit/knowledge-garden).
+  why_it_matters: >-
+    Cited in the article as a small-team knowledge commons "you can actually
+    copy" — its plain-Markdown/portable/version-controlled/MIT-licensed stack is
+    presented as the anti-lock-in property to aim for.
+  how_to_credit: MIT license per the GitHub repo
+  reuse_conditions: MIT-licensed
+  return_path: >-
+    unknown — not stated in the article; likely GitHub issues/PRs against
+    github.com/superbenefit/knowledge-garden, but this is inferred, not
+    confirmed by the source
+  currentness: as described in the article (undated)
+  update_rhythm: unknown — not stated in the article
+  extraction_status: partial — only the framing given in this article has been captured
+  toolkit_route: layer-2-encyclopedia
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-knowledge-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d94f3822e08d
+  source_lineage: what-is-knowledge-commons.md

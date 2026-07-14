@@ -1,0 +1,53 @@
+schema: encyclopedia-entry
+object:
+  title: Building Trust in Community Finance
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A guide to building and protecting the trust a local node's community
+    finance (timebank, local currency, shared treasury) runs on, for organizers
+    already working in regen/web3. Distinguishes verification (proof of what
+    happened) from trust (belief people will do what they say), names three
+    kinds of trust to build deliberately (competence, integrity, benevolence),
+    lists concrete trust-building practices (transparency by default,
+    consistency, owning mistakes, keeping commitments, inclusion, celebrating
+    trustworthy behavior), addresses the "trust velocity" bootstrapping paradox,
+    names early warning signs of trust breakdown, and gives a five-step repair
+    process after a breach. Cites Fukuyama's social-trust thesis and Grassroots
+    Economics' Sarafu Network as worked evidence.
+  audience: organizers running community treasuries, timebanks, or local currencies
+  known_tensions:
+    - >-
+      technology gives verification, not trust — the article treats a smart
+      contract as able to enforce a rule but not make people want to show up,
+      arguing nodes must build social trust rather than substitute technology
+      for trust not yet earned.
+    - >-
+      trust velocity paradox — you need trust to run community finance, but you
+      need to run community finance together to build trust; resolved by
+      starting low-stakes and graduating trust over time.
+  related_concepts:
+    - three-kinds-of-trust-competence-integrity-benevolence
+  related_resources:
+    - 'Grassroots Economics: Sarafu Network'
+    - Safe (multisig wallets)
+    - Human Passport
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-trust.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-06b003d4c0b2
+  source_lineage: building-trust.md
+  notes: |
+    # assessed-but-excluded
+    - No individual community members named; no exact locations, TEK, or
+      MRV/carbon claims. The article does give specific treasury/governance
+      configuration advice (e.g. 3-of-5 multisig signer setups), which is a
+      funding/governance-recommendation trigger — see the companion
+      public-use-boundary object.
+    - Fukuyama's book and the Sarafu Network survey are modeled as their own
+      claim-evidence objects rather than folded into this summary, since each
+      carries independent, checkable evidentiary weight.

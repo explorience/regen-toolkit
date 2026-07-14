@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: DAO (Decentralized Autonomous Organization) — Core Parts
+  type: concept-lineage
+  short_description: >-
+    A group that manages shared money and makes decisions together through
+    code-enforced rules rather than a bank, lawyer, or board of directors —
+    reducible to four parts: treasury, proposals, voting, and smart
+    contracts.
+  source_traditions:
+    - traditional community savings circles / ROSCAs (the article's explicit analogy)
+    - Ethereum smart-contract infrastructure (the "vending machine" mechanism behind automatic execution)
+  toolkit_usage: >-
+    Used as the plain-language entry point before naming specific DAO
+    tooling (Snapshot, Safe, Aragon) and real regen-space DAO examples.
+  adjacent_meanings:
+    - a DAO's treasury as the digital-native version of a shared community bank account
+    - Local Nodes (ReFi DAO) as a DAO-adjacent, place-based organizing pattern rather than a single monolithic DAO
+  important_distinctions:
+    - decentralized (no single boss decides) vs autonomous (rules run automatically as code) — the article treats these as separate properties, not synonyms
+    - off-chain signaling (Snapshot, gasless but not self-executing) vs on-chain execution (Safe/Aragon, enforced by code)
+  tensions:
+    - a DAO "encodes trust so it can't be lost, manipulated, or forgotten" vs the article's own caveat that it won't fix a group that doesn't already trust each other
+  risks_of_flattening: >-
+    Reducing every DAO to "four core parts" risks flattening real
+    differences in how treasuries are actually secured (single multisig vs
+    layered governance), how proposals are vetted before a vote, and how
+    much of the "autonomous" execution is genuinely code-enforced versus
+    still requiring a trusted human signer (as the article itself notes for
+    Snapshot).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-dao.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-dao.md

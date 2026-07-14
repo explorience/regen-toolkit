@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Ethereum Foundation ESP explicitly supports community events and hubs
+  type: claim-evidence
+  claim: >-
+    "The Ethereum Foundation Ecosystem Support Program explicitly supports
+    community events and has run requests for proposals to establish permanent
+    community hubs."
+  evidence: Cited to esp.ethereum.foundation in the article's References list.
+  source_lineage: >-
+    src/content/docs/funding-gatherings.md, References:
+    https://esp.ethereum.foundation/
+  interpretation: >-
+    Consistent with ESP's known public-goods/ecosystem-grant remit; the specific
+    claim about "requests for proposals to establish permanent community hubs"
+    is a program-history detail that changes over time as ESP runs new RFPs.
+  uncertainty: >-
+    Program specifics (whether a community-hub RFP is currently open, funding
+    amounts, deadlines) are time-sensitive and were not independently verified
+    against the live ESP site at ingestion time; check esp.ethereum.foundation
+    directly before advising a node to apply.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-fbc6bfc6b3e0

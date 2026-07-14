@@ -1,0 +1,11 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Tax/legal framing in this article (esp. the capital-gains-avoidance claim)
+    is vendor-sourced messaging guidance, not verified tax advice for any
+    specific jurisdiction; flag for domain review before treating as guidance an
+    org can rely on. Ties to 02-claim-evidence-capital-gains.yaml.
+  review_type: domain-review-for-tax-and-legal-claims
+  work_order: wo-a729337a8976
+  source_lineage: communicating-stakeholders.md

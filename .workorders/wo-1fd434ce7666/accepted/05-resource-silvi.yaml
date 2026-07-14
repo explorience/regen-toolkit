@@ -1,0 +1,28 @@
+schema: resource
+object:
+  title: Silvi Protocol
+  type: resource
+  resource_type: tool
+  url: https://www.silvi.earth/about-us
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: common-concerns.md
+  related_concepts:
+    - MRV-verified-restoration
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-concerns.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-1fd434ce7666
+  source_lineage: common-concerns.md
+  notes: >-
+    Pays people to plant/steward trees; records GPS coordinates and photos per
+    tree so claims can be independently checked rather than taken on faith
+    (MRV-style verification pattern). This is an ecological/carbon-adjacent
+    claim — see assessed-but-excluded note on the encyclopedia-entry object; not
+    elevated to high_risk here since the article does not itself assert a
+    specific carbon quantity, only the verification method.

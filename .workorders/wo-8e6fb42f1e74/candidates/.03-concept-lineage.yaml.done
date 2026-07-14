@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: Informal community savings mechanisms (chamas, iqqub, hawala)
+  type: concept-lineage
+  short_description: >-
+    Community-run informal savings and value-transfer systems named in
+    inclusive-practices.md as long-standing alternatives to formal banking in
+    East Africa and the Horn of Africa — Kenyan chamas (savings/investment
+    groups), Ethiopian/Eritrean iqqub (rotating savings associations), and
+    hawala (informal value-transfer networks).
+  source_traditions:
+    - East African and Horn of Africa community finance traditions
+  toolkit_usage: >-
+    Cited in inclusive-practices.md's "Why Inclusion Matters" section as
+    evidence that community-designed financial systems can serve people banks
+    refuse, and as the bar a new community finance system should meet rather
+    than replicate banking's exclusions.
+  adjacent_meanings:
+    - rotating-savings-and-credit-association-ROSCA
+    - dimensions-of-inclusion-economic-technical-temporal-social-accessibility
+  important_distinctions:
+    - >-
+      These are named as a category ("chamas in Kenya," "iqqub in Ethiopia
+      and Eritrea," "hawala networks") without naming specific groups,
+      operators, or communities — a general reference to known
+      practice-types, not a documented case study.
+  tensions: []
+  risks_of_flattening: >-
+    The article attributes these mechanisms to whole countries/regions in
+    passing, secondary-source language, without naming a specific community,
+    operator, or citation. Treating this as settled ethnographic/economic
+    fact rather than a broad-strokes reference risks flattening genuinely
+    diverse, locally-specific practices into a single toolkit talking point.
+    See accompanying public-use-boundary.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/inclusive-practices.md
+    transformation: synthesized
+    authorship: ai-assisted

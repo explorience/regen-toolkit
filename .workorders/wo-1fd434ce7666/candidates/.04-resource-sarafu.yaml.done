@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Sarafu (Grassroots Economics)
+  type: resource
+  resource_type: org
+  url: https://www.grassrootseconomics.org/
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: common-concerns.md
+  related_concepts:
+    - low-cost-mobile-community-currency
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-concerns.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-1fd434ce7666
+  source_lineage: common-concerns.md
+  notes: >-
+    Kenyan community currency run by nonprofit Grassroots Economics; USSD/basic-phone
+    access, no smartphone or bank account required; reports 26,000+ people across
+    ~290 communities (per article, as of source date).

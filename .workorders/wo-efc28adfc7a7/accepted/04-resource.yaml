@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: Argent
+  type: resource
+  url: https://argent.xyz
+  resource_type: social-recovery Ethereum wallet
+  link_status: active
+  notes: >-
+    Cited in the article as a "popular Ethereum social recovery wallet" —
+    guardians (3-5 trusted contacts) can collectively help recover a lost
+    wallet; adding a guardian is as simple as entering their address or name.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/recovery-planning.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-efc28adfc7a7
+  source_lineage: recovery-planning.md

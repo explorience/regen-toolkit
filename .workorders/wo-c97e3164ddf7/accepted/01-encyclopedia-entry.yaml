@@ -1,0 +1,36 @@
+schema: encyclopedia-entry
+object:
+  title: Layer 2 Solutions
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Explains how Layer 2 networks (Base, Arbitrum, Optimism, zkSync Era,
+    Starknet, Scroll) scale Ethereum by processing transactions off the main
+    chain and settling compressed batches back to it, cutting fees from several
+    dollars to fractions of a cent. Covers Optimistic vs. ZK rollup designs, why
+    this matters for regenerative-finance projects running micro-transactions or
+    community token systems, and how to get started (MetaMask, bridging, using
+    L2 dApps).
+  audience: >-
+    regen project builders new to Ethereum scaling, East Africa /
+    Somaliland-focused track
+  known_tensions:
+    - >-
+      Optimistic Rollups (accessible, widely compatible, ~7-day challenge
+      window) vs. ZK Rollups (faster finality, no challenge window, more
+      technically complex, "still maturing")
+  related_concepts:
+    - Layer 2 (Ethereum scaling)
+  related_resources:
+    - Base
+    - Arbitrum
+    - L2BEAT
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/layer-2s.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c97e3164ddf7
+  source_lineage: layer-2s.md

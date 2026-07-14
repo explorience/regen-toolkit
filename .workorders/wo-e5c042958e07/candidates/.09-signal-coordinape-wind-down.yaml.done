@@ -1,0 +1,22 @@
+schema: signal
+object:
+  title: Coordinape (peer reward tool) wound down its app in 2025 — DAO tool churn caution
+  type: signal
+  signal_type: resource
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    The article itself flags that Coordinape, "a once-popular peer reward
+    tool," wound down its app in 2025, and uses this as a direct caution:
+    the DAO tooling space moves fast, tools come and go, and anyone
+    adopting a tool should first check that it is still actively
+    maintained. Worth carrying forward as a standing caveat on any DAO
+    tooling resource entries in the toolkit (Snapshot, Safe, Aragon
+    included), not just a one-off historical note.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-dao.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-dao.md

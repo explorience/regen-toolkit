@@ -1,0 +1,32 @@
+schema: source-system
+object:
+  title: Greenpill Network
+  type: convening
+  steward: Greenpill Network
+  what_it_curates: >-
+    A global network of local regenerative-finance chapters ("Greenpill
+    chapters"); the article cites the network as listing 12 active chapters
+    worldwide as of 2026 (e.g. Greenpill London Ontario), each running events
+    on local energy rather than head-office mandates.
+  why_it_matters: >-
+    Cited alongside ReFi DAO as one of the two named networks whose local
+    nodes/chapters this article's event-planning guidance is written for; used
+    as the article's example of decentralized-but-supported local organizing
+    ("networks offer toolkits, incubators, and guides... the gathering is
+    yours to shape").
+  how_to_credit: Credit the Greenpill Network and the specific local chapter referenced.
+  use_type: cited network directory / example source for event-planning guidance
+  reuse_conditions: Not stated in the source article; public network homepage.
+  return_path: >-
+    Not directly captured in this article — surface via greenpill.network if a
+    contribute-back hook is needed later.
+  currentness: "12 active chapters cited as of 2026 per the article"
+  update_rhythm: Presumably ongoing as new chapters launch; not specified in article.
+  extraction_status: partial — only the chapter-count claim and general network role were extracted from this article.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/planning-web3-events.md
+    transformation: summarized
+    authorship: ai-assisted

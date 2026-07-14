@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: "Safe (multisig wallets)"
+  type: resource
+  resource_type: tool
+  url: https://safe.global/
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  related_concepts:
+    - three-kinds-of-trust-competence-integrity-benevolence
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-trust.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-06b003d4c0b2
+  source_lineage: building-trust.md
+  notes: >-
+    Standard multisig wallet (formerly Gnosis Safe) for on-chain treasuries.
+    Article recommends a 3-of-5 signer setup as a transparency practice:
+    every member gets a public, real-time ledger of every movement, and no
+    single person can move funds alone.

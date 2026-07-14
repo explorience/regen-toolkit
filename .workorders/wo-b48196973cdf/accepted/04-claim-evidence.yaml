@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Decentralized networks route around damage automatically
+  type: claim-evidence
+  claim: >-
+    Because decentralized networks do not rely on a single point of control,
+    they route around damage automatically — e.g. decentralized food networks
+    reroute through different paths when roads become impassable, and
+    decentralized communication tools keep communities connected when a platform
+    shuts down.
+  evidence: >-
+    Presented as illustrative examples within the article's "Fault Tolerance"
+    subsection; no named case study, dataset, or citation attached to the
+    specific food-network or communication-tool claims.
+  interpretation: >-
+    Used to make the abstract "fault tolerance" mechanism concrete and relatable
+    for a community-steward audience, feeding into the article's later practical
+    recommendation to explore decentralized alternatives (e.g. Matrix instead of
+    WhatsApp) for community coordination tools.
+  uncertainty: >-
+    Illustrative/hypothetical framing ("a network of community solar microgrids,
+    for example...") rather than a documented real-world case; no source cited
+    for the specific claims in this passage.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-resilience.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b48196973cdf
+  source_lineage: decentralization-resilience.md

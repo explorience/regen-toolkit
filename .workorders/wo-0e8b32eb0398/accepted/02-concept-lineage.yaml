@@ -1,0 +1,61 @@
+schema: concept-lineage
+object:
+  title: Digital Measurement, Reporting, and Verification (dMRV)
+  type: concept-lineage
+  short_description: >-
+    Using phones/computers to measure what happened (e.g. trees planted), report
+    that information, and verify it is true — the "digital" version of
+    traditional MRV (Measurement, Reporting, Verification) used in
+    environmental/carbon programs.
+  source_traditions:
+    - >-
+      traditional MRV frameworks used in carbon markets and environmental
+      programs (implied by the article's "many carbon markets... now require
+      verified impact data")
+    - participatory/community-based monitoring practice
+    - >-
+      mobile data-collection tooling (KoboToolbox, ODK) developed for
+      humanitarian/development-sector fieldwork
+  toolkit_usage: >-
+    Introduced in this article as an accessible, low-barrier practice for
+    grassroots regenerative-project practitioners (tree planting, water
+    conservation, grazing-land recovery), explicitly framed as something
+    achievable with a basic smartphone rather than expensive equipment.
+  adjacent_meanings:
+    - >-
+      dMRV as a formal carbon-credit-issuance requirement (heavier-weight,
+      standards-body usage, referenced but not detailed in this beginner
+      article)
+    - >-
+      dMRV as informal community impact-storytelling (this article's actual
+      framing — "you become the storytellers of your own impact")
+  important_distinctions:
+    - >-
+      measurement-vs-reporting-vs-verification — the article is careful to
+      define these as three distinct steps, not synonyms: counting/recording,
+      sharing the information, and proving it is true respectively.
+    - >-
+      automated-vs-human-verification — the article names both satellite imagery
+      (automated) and human verifiers as valid verification paths, often used
+      together (e.g. the grazing-land example uses both community observation
+      and satellite confirmation).
+  tensions:
+    - >-
+      simple-community-level-practice vs formal-carbon-market-requirements — the
+      article bridges a low-barrier practice to a high-stakes use case (carbon
+      market access) without fully addressing the gap between informal
+      photo-logging and the rigor formal carbon registries require.
+  risks_of_flattening: >-
+    Treating "took some photos with a phone" as equivalent to formal,
+    registry-grade dMRV flattens a real rigor gap; the article's own framing
+    (start simple, build the habit, connect with practitioner networks) reads as
+    a beginner on-ramp toward more rigorous dMRV, not a claim that phone photos
+    alone satisfy carbon-market verification standards.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dmrv.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-0e8b32eb0398
+  source_lineage: dmrv.md

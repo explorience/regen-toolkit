@@ -1,0 +1,37 @@
+schema: encyclopedia-entry
+object:
+  title: 'NFTs Beyond Art: Practical Applications of Digital Ownership'
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    Surveys non-collectible uses of NFTs (blockchain records of unique-item
+    ownership): gaming/virtual-economy asset ownership, digital
+    credentials/attestations for informally-trained skills, real-estate
+    fractional ownership, supply-chain/product-provenance tracking, fraud-proof
+    event ticketing with enforced resale rules, and direct-to-fan music releases
+    with automatic royalty splits. Frames the value as permanent, verifiable,
+    hard-to-forge ownership records rather than the speculative art/collectible
+    use case.
+  audience: community organizers / individuals exploring web3 tools
+  known_tensions:
+    - >-
+      Gaming section raises "who captures the value" of in-game digital labor
+      once assets are player-owned and tradeable, without resolving it.
+    - >-
+      Real-estate fractionalization is framed as opening property investment
+      access, but the article itself flags open questions about what
+      fractionalizing collective/community-trust property would mean in
+      practice.
+  related_concepts:
+    - nft-as-verifiable-ownership-record
+  related_resources:
+    - axie-infinity
+    - ibm-food-trust
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/nfts-beyond-art.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-22368f102589
+  source_lineage: nfts-beyond-art.md

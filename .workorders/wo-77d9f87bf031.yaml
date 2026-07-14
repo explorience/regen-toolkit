@@ -1,0 +1,26 @@
+id: wo-77d9f87bf031
+title: ingest credentials-certifications.md
+type: work-order
+source_path: credentials-certifications.md
+source_hash: b8bb1d642fdb6b8893dbd958924ae49b17abfb7cb48f2e2f9350a5fbf35474ed
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g2
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#credentials-and-certifications-web3-verifiable-credentials
+  - data/kb/public-use-boundary.yaml#untitled-6169389d
+  - data/kb/concept-lineage.yaml#verifiable-credentials-vs-soulbound-tokens
+  - data/kb/resource.yaml#gitcoin-passport
+  - data/kb/resource.yaml#disco-xyz

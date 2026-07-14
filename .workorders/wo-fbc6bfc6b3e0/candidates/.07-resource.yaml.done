@@ -1,0 +1,17 @@
+schema: resource
+object:
+  title: Juicebox
+  type: resource
+  resource_type: tool
+  url: https://juicebox.money/
+  link_status: active
+  original_source: "src/content/docs/funding-gatherings.md (References)"
+  notes: >-
+    Programmable on-chain treasury and fundraising tool; per the article, V4
+    deploys across Ethereum, Arbitrum, Base, and OP Mainnet.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: quoted
+    authorship: ai-assisted

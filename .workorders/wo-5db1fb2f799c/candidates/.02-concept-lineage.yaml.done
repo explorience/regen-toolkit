@@ -1,0 +1,39 @@
+schema: concept-lineage
+object:
+  title: Regenerative Finance (ReFi)
+  type: concept-lineage
+  short_description: >-
+    Takes DeFi's smart-contract machinery (no-gatekeeper lending, funding,
+    exchange) and points it at ecological and social repair rather than pure
+    financial return. The article's framing: DeFi asks "how do we make
+    money?"; ReFi asks "how do we use money to heal soil, water, forests, and
+    communities?"
+  source_traditions:
+    - DeFi (decentralized finance) — ReFi is explicitly framed as DeFi's tools redirected, not a separate technology stack
+  toolkit_usage: >-
+    Central concept of the article; illustrated through three named real
+    projects (Regen Network ecocredits, Gitcoin quadratic funding, Grassroots
+    Economics Sarafu) rather than defined abstractly.
+  adjacent_meanings:
+    - TradFi (traditional finance — the centralized baseline ReFi/DeFi are contrasted against)
+    - Quadratic funding (a specific ReFi-adjacent mechanism, not synonymous with ReFi as a whole)
+  important_distinctions:
+    - >-
+      "ReFi is young, and parts of it are still messy. But unlike TradFi and
+      DeFi, regeneration is the point, not a side effect someone hopes for" —
+      the article distinguishes ReFi from DeFi by stated intent/purpose, not
+      by underlying technology.
+  tensions:
+    - >-
+      "Decentralised is a spectrum, not a switch" — the article flags that
+      many DeFi/ReFi apps still depend on a small founding team or one
+      company's servers, complicating any clean centralized/decentralized
+      binary.
+  risks_of_flattening: >-
+    None flagged — the article explicitly acknowledges ReFi's youth and messiness rather than overclaiming maturity.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/refi-vs-defi-tradfi.md
+    transformation: summarized
+    authorship: ai-assisted

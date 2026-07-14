@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: "Mobile wallets supported by Silvi (MetaMask, Valora, Opera MiniPay)"
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: false
+  link_status: unresolved
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - decentralized-mrv-dmrv
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/silvi-protocol.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Article names three wallet options a planter connects to Silvi to
+    receive payment: MetaMask, Valora ("easy for beginners"), and Opera
+    MiniPay ("simple mobile option"). Grouped as one resource entry since the
+    article treats them as interchangeable payment-receiving options rather
+    than distinct subjects of discussion.

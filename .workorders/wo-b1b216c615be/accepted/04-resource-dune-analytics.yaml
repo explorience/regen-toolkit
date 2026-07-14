@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: Dune Analytics
+  type: resource
+  resource_type: tool
+  url: https://dune.com
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: trust-transparency.md
+  related_concepts:
+    - transparency-paradox
+    - on-chain-analytics
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/trust-transparency.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: trust-transparency.md
+  notes: >-
+    On-chain analytics platform cited as the tool that enables the transparency
+    described in the article (detecting suspicious token movements etc.);
+    flagged as a source-system candidate since it's a living, queryable data
+    environment, not a static reference.
+  work_order: wo-b1b216c615be

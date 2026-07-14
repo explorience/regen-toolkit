@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Safe
+  type: resource
+  resource_type: tool
+  url: https://safe.global
+  link_status: active
+  original_source: src/content/docs/funding-your-node.md (References)
+  notes: >-
+    Standard multisig wallet for shared, no-single-point-of-control community
+    treasuries, per the article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-3a548f510339
+  source_lineage: funding-your-node.md

@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: Web3 verification can prove an attribute without revealing underlying documents
+  type: claim-evidence
+  claim: >-
+    Web3 identity verification lets a person prove something is true about
+    them (e.g. being over 18) without showing an ID card or revealing their
+    exact birthdate.
+  evidence: >-
+    Asserted directly in identity-verification.md's "You Answer Without
+    Sharing Everything" section, illustrated with the over-18 example.
+  source_lineage: src/content/docs/identity-verification.md
+  interpretation: >-
+    Central to the article's argument that web3 verification is more
+    privacy-preserving than showing physical ID documents.
+  uncertainty: >-
+    The article gives no citation, protocol name, or technical reference for
+    this claim — it is a general explanatory statement about
+    zero-knowledge-proof-based verification, not sourced to a specific
+    implementation or study.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/identity-verification.md
+    transformation: summarized
+    authorship: ai-assisted

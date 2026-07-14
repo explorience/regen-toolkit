@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: DAO tooling churn — Tally and Coordinape wind-downs
+  type: claim-evidence
+  claim: >-
+    Tally, which had powered onchain governance for Arbitrum, Uniswap, ENS and
+    500+ other DAOs, announced it was winding down in March 2026. Coordinape,
+    the former go-to tool for peer-allocated contributor rewards (running
+    2021-2025), wound down its app and contracts in 2025. Both are cited as
+    evidence that "half the essential DAO stack articles online point at tools
+    that no longer exist," and that any tool list (including this one) should be
+    treated as perishable.
+  evidence: >-
+    Stated directly in the article's body and references section, without an
+    external link/citation specifically for the Tally wind-down announcement or
+    the Coordinape sunset beyond the article's own assertion.
+  source_lineage: src/content/docs/local-nodes-and-daos.md
+  interpretation: >-
+    A time-sensitive infrastructure claim rather than a stable fact — by its own
+    logic, this claim itself will decay and should be re-verified against
+    current tool status before being relied on, rather than assumed still
+    accurate.
+  uncertainty: >-
+    Moderate — no external citation link given in-article for either wind-down;
+    specific dates (March 2026 for Tally, "2025" for Coordinape) were not
+    independently re-verified during this ingest pass.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-nodes-and-daos.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-cf4d99f9b04c

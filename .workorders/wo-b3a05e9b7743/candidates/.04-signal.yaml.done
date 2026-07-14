@@ -1,0 +1,23 @@
+schema: signal
+object:
+  title: "building-internal-capacity.md has no References section or specific citations despite factcheck_done: true"
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia (content review / fact-check)
+  interpretation: >-
+    The article's frontmatter declares `sources: [Community building]` (a
+    generic category, not a citable source), `author: Tej`, and
+    `factcheck_done: true` / `review_done: true` / `critique_done: true`, but
+    the article body contains no References section and no citation for any
+    of its claims, including the "highest-return investment" assertion. Same
+    metadata-integrity pattern observed across several sibling articles in
+    this batch (building-in-public.md, building-momentum.md).
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-internal-capacity.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-b3a05e9b7743
+  source_lineage: building-internal-capacity.md

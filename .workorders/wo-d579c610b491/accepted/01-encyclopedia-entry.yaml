@@ -1,0 +1,41 @@
+schema: encyclopedia-entry
+object:
+  title: What Is a Local Node?
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A practical guide for people ready to build, defining a "local node" as a
+    place-based community group using Web3 tools and regenerative principles to
+    coordinate real-world action in one specific area — simultaneously
+    self-governing and network-connected. Covers what nodes do (pool resources,
+    fund public goods, onboard newcomers, run a steady meetup cadence, connect
+    outward), when Web3 tooling actually earns its place vs. a spreadsheet, the
+    Localism Fund / quadratic-funding network-funding picture, common structural
+    patterns, a three-stage Seed/Sapling/Canopy maturity model (ReFi DAO), and
+    the single biggest failure mode: bus-factor- of-one burnout.
+  audience: people ready to build a place-based Web3-enabled regen community group
+  known_tensions:
+    - >-
+      Node autonomy vs. central overreach — the article frames "subsidiarity"
+      (decisions at the most local level able to make them) as the design answer
+      to the fear that a network could swallow a local project.
+    - >-
+      Technology-first vs. relationships-first — "a node with strong
+      relationships and a Google Sheet beats a node with flawless tokenomics and
+      no trust."
+  related_concepts:
+    - subsidiarity
+    - local-node
+  related_resources:
+    - greenpill-network
+    - safe-multisig
+    - snapshot
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/what-is-local-node.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d579c610b491
+  source_lineage: what-is-local-node.md

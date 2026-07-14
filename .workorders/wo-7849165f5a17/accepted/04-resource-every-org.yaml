@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Every.org (crypto donations)
+  type: resource
+  url: https://every.org/crypto
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - quadratic-funding
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-accept-crypto.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    The article's explicit "start here" recommendation — free, ~15 minutes to
+    set up, converts crypto donations to fiat automatically. Best for
+    organizations starting out or with smaller operations.
+  work_order: wo-7849165f5a17
+  source_lineage: why-accept-crypto.md

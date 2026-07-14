@@ -1,0 +1,46 @@
+schema: encyclopedia-entry
+object:
+  title: Funding Your Gatherings
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    A four-tier framework for funding local-node gatherings, from zero-budget
+    (shared meals, free venues, skill contributions) through low ($10-100:
+    member contributions, passing the hat, monthly dues), medium ($100-500:
+    local business sponsorship, small grants, web3-native funding via Gitcoin
+    Grants/Giveth/Endaoment) to large ($500+: ticket sales, tiered sponsors,
+    speaker budgets, ecosystem grants like the Ethereum Foundation ESP).
+    Core argument: start with the cheapest thing that works, be transparent
+    about money, and don't outspend your community's actual capacity.
+  audience: local regen node organizers planning their first gatherings
+  known_tensions:
+    - >-
+      Recommends collecting contributions on-chain (multisig, Juicebox) as
+      "the easiest real introduction to wallets your members will ever get" —
+      a genuine convenience argument that also nudges a low-stakes social
+      event toward on-chain tooling before it's strictly needed.
+  related_concepts:
+    - quadratic-funding
+  related_resources:
+    - gitcoin-grants
+    - giveth
+    - endaoment
+    - juicebox
+    - ethereum-foundation-ecosystem-support-program
+    - octant
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-fbc6bfc6b3e0, funding-gatherings.md):
+# - "Try This" exercise prompts (answer three budget questions, set up a
+#   multisig for one event, build a six-month funding ladder) — reader
+#   action items, not extractable knowledge-graph content.
+# - The itemized 50-person event budget table (venue/food/materials/speaker
+#   honoraria/AV/contingency at Low/Medium/High) — folded into the
+#   encyclopedia summary as illustrative detail rather than split into a
+#   separate object; it is a worked example of the tiers, not a distinct
+#   concept or resource.

@@ -1,0 +1,28 @@
+schema: resource
+object:
+  title: Leadership on the Line (Heifetz & Linsky)
+  type: resource
+  resource_type: reference-work
+  is_source_system_candidate: false
+  toolkit_route: Layer 2 (Knowledge Commons) / leadership-development references
+  link_status: unresolved
+  related_concepts:
+    - Distributed Leadership
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/leadership-development.md
+    transformation: quoted
+    authorship: ai-assisted
+  notes: >-
+    Full citation: Heifetz, Ronald, and Marty Linsky. "Leadership on the Line:
+    Staying Alive Through the Dangers of Leading." Harvard Business Review
+    Press, 2002. Listed in the article's references alongside Stone & Patton's
+    "Difficult Conversations" (Penguin, 2000), ICA:UK's "Facilitative
+    Leadership" (ica-uk.co.uk), and Greenpill Local's "Distributed Leadership in
+    Practice" (greenpill.live) — those three are noted here rather than split
+    into separate objects (see assessed-but-excluded on the encyclopedia-entry
+    candidate).
+  work_order: wo-2e536fd73e7a
+  source_lineage: leadership-development.md

@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: Gas Fee (EIP-1559 Base Fee + Tip Model)
+  type: concept-lineage
+  short_description: >-
+    The cost of processing a transaction on a blockchain, expressed as Gas Used
+    × (Base Fee + Tip). Since Ethereum's EIP-1559 upgrade (2021), the base fee
+    auto-adjusts with network demand and is burned; the tip (priority fee) is an
+    optional extra to jump the queue.
+  source_traditions:
+    - Ethereum protocol economics (EIP-1559, 2021)
+    - >-
+      Pre-EIP-1559 first-price auction gas markets (the older model this
+      replaced)
+  toolkit_usage: >-
+    Explained here as foundational vocabulary (gas, gas price/gwei, gas fee, gas
+    limit) every newcomer needs before transacting, with Layer 2 networks
+    positioned as the practical fee-reduction path.
+  adjacent_meanings:
+    - >-
+      Bitcoin transaction fees (a simpler, non-EIP-1559 fee-market model not
+      discussed in this article)
+    - >-
+      Layer 2 gas fees (same base concept, much lower absolute cost, per the
+      article)
+  important_distinctions:
+    - >-
+      Base fee (burned, algorithmically set) vs. priority fee/tip (paid to the
+      validator, user-set) — conflating the two obscures why "network busy" and
+      "I set a high tip" are different levers on cost.
+  tensions: []
+  risks_of_flattening: >-
+    Describing gas simply as "gasoline for your car" is a useful first analogy
+    but risks obscuring that gas price is a live auction/algorithmic market, not
+    a fixed unit price the way fuel is.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gas-fees.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-ac0da2dd8891
+  source_lineage: gas-fees.md

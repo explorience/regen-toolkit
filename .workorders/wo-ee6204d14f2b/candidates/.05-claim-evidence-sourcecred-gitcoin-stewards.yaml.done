@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: "Algorithmic/unpaid contributor-reward models produced burnout and quiet capture in SourceCred and Gitcoin"
+  type: claim-evidence
+  claim: >-
+    SourceCred's algorithmic contribution-scoring "CredSperiment" led members
+    to optimize for cred instead of mission, concentrated soft power in
+    whoever steered the scoring weights, and wound down by 2022. Gitcoin's
+    volunteer steward model (governance power, no pay, no clear duties) burned
+    out the few active stewards while most went passive; Gitcoin's 2025
+    governance revamp replaced unpaid stewards with compensated delegates with
+    explicit, renewable responsibilities.
+  evidence: >-
+    Cited to Ellie Rennie's ethnography of the SourceCred CredSperiment and
+    Gitcoin's own 2025 Governance Manual describing the revamp.
+  source_lineage: src/content/docs/conflict-resolution.md
+  interpretation: >-
+    Used as the article's cautionary example for "the slow-burn conflict":
+    bolting a rewards algorithm or unpaid-but-powerful role onto a group that
+    has not first agreed what it values corrodes trust gradually rather than
+    exploding.
+  uncertainty: >-
+    Drawn from two secondary sources (an academic-style ethnography and the
+    organization's own retrospective framing of its revamp), not independently
+    cross-verified against other participant accounts.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/conflict-resolution.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ee6204d14f2b

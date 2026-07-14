@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Smart Connections (Obsidian plugin)
+  type: resource
+  resource_type: tool
+  url: https://github.com/brianpetro/obsidian-smart-connections
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  related_concepts:
+    - retrieval-augmented-generation
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-community-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ae4676958221
+  source_lineage: ai-community-tools.md
+  notes: >-
+    Obsidian plugin that builds embeddings entirely on-device, enabling semantic
+    search and chat with a vault fully offline, with nothing sent to the cloud.
+    Article's recommended tool for teams whose commons holds sensitive community
+    data or that want the archive to outlive any one company.

@@ -1,0 +1,39 @@
+schema: encyclopedia-entry
+object:
+  title: Hot Wallets vs. Cold Storage
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Contrasts internet-connected "hot" wallets (fast, convenient, higher theft
+    risk) with fully offline "cold storage" (hardware or paper, slower to
+    access, much lower theft risk), and recommends a layered custody model — hot
+    for operational funds, hardware cold storage for reserves/grants,
+    multi-signature for organizational decisions.
+  audience: >-
+    community organizers or treasurers deciding where to keep organizational or
+    personal crypto holdings
+  known_tensions:
+    - convenience-of-hot-wallets-vs-security-of-cold-storage
+    - upfront-hardware-wallet-cost-vs-perceived-affordability-for-small-holdings
+  related_concepts:
+    - layered-custody-hot-cold-multisig-by-purpose
+  related_resources:
+    - cryptosteel-metal-seed-phrase-storage
+    - cryptocurrency-security-standards-ccss
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/hot-vs-cold.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: the article's "Try This" self-audit checklist
+    (identify holdings, classify hot/cold, check seed-phrase storage, rate
+    exposure 1-10) was excluded as a standalone object — it is an exercise
+    prompt, not a typed knowledge object, and is preserved in full in the source
+    file. MetaMask, Ledger, Trezor, and Safe/Gnosis Safe were not re-created as
+    new resource objects: equivalent resources ("MetaMask", "Hardware / cold
+    wallets (Ledger, Trezor)", "Safe (Wallet)") already exist in
+    data/kb/resource.yaml from a prior ingestion slice.
+  work_order: wo-d415241a023a
+  source_lineage: hot-vs-cold.md

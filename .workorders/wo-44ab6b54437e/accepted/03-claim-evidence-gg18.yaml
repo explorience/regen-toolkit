@@ -1,0 +1,38 @@
+schema: claim-evidence
+object:
+  title: >-
+    ReFi DAO's GG18 Local Node round: $30k pool, 18 new nodes, 1,550+
+    contributions
+  type: claim-evidence
+  claim: >-
+    ReFi DAO's Local Node round on Gitcoin (GG18, 2023) ran a three-month cohort
+    where aspiring nodes drafted grant pages and fundraised by hosting
+    gatherings. With a $30,000 match pool (funded by Celo, Celo Europe DAO, and
+    KNKT DAO), the round saw 18 new local nodes emerge worldwide and collected
+    over 1,550 contributions totalling $6,700+ in additional donations. ReFi
+    Medellín went on to launch a community lending platform; ReFi Costa Rica
+    started a Spanish-language podcast and incubator.
+  evidence: >-
+    Cited to "Gitcoin / ReFi DAO, Catalyzing Change: ReFi DAO's Impact Through
+    Gitcoin Funding Rounds" (gitcoin.mirror.xyz) in the article's References,
+    described there as "the anchor case study."
+  source_lineage: src/content/docs/writing-grant-proposals.md
+  interpretation: >-
+    Used as the article's proof-point that, in a QF round, the proposal and the
+    fundraising campaign are the same thing — the average donation size (a few
+    dollars) is the point, not an incidental detail, and the two named follow-on
+    projects (ReFi Medellín, ReFi Costa Rica) are used to show real nodes came
+    out of this specific round.
+  uncertainty: >-
+    Single-source case study (ReFi DAO / Gitcoin's own retrospective), not
+    independently audited; "18 new local nodes" is not defined further (e.g. how
+    many remained active after the round), consistent with the article's own
+    framing of round-based funding as a starting point rather than a guaranteed
+    outcome.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/writing-grant-proposals.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-44ab6b54437e

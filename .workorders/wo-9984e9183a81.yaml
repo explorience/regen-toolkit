@@ -1,0 +1,28 @@
+id: wo-9984e9183a81
+title: ingest legal-structures.md
+type: work-order
+source_path: legal-structures.md
+source_hash: dbcf7c16b4383e5c0d7bfb699fa7957e455abc83b2a86f92404c3262ebd3b4e7
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#legal-structures-for-your-local-node
+  - data/kb/concept-lineage.yaml#legal-wrapper
+  - >-
+    data/kb/claim-evidence.yaml#wyoming-duna-requires-100-members-and-on-chain-governance
+  - data/kb/claim-evidence.yaml#us-501-c-3-application-fees-2026
+  - data/kb/resource.yaml#wyoming-duna
+  - >-
+    data/kb/public-use-boundary.yaml#legal-structures-for-your-local-node-public-use-boundary

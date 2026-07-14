@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: Social Token
+  type: concept-lineage
+  short_description: >-
+    A community-specific token representing membership, access, or reputation,
+    whose value derives primarily from its social context rather than a
+    stand-alone utility function.
+  source_traditions:
+    - Community-building practice (per article frontmatter source)
+  toolkit_usage: >-
+    Split into three types for local-node use: creator tokens (audience
+    access/governance over a creator's direction), community tokens (membership,
+    earned or purchased, used for governance/access/identity), and reputation
+    tokens (non-transferable, contribution-history record — "a resume
+    on-chain").
+  adjacent_meanings:
+    - creator token
+    - community token
+    - reputation token
+  important_distinctions:
+    - >-
+      Social token vs utility token: a utility token's value comes from a
+      defined function; a social token's value comes from the social context it
+      exists in.
+    - >-
+      Reputation tokens are explicitly non-transferable, distinguishing them
+      from tradeable creator/community tokens.
+  tensions:
+    - >-
+      Community tokens can be "earned through contribution or purchased" — two
+      very different legitimacy models for the same token type, unresolved in
+      the source.
+  risks_of_flattening: >-
+    Treating "social token" as one category flattens real differences in
+    transferability, governance weight, and regulatory exposure between creator,
+    community, and reputation tokens.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/social-tokens-creator.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7b882179b803
+  source_lineage: social-tokens-creator.md

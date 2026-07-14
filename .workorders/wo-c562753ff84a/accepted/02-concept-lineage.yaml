@@ -1,0 +1,46 @@
+schema: concept-lineage
+object:
+  title: Impact DAO
+  type: concept-lineage
+  short_description: >-
+    A DAO (Decentralized Autonomous Organization) whose shared mission is
+    specifically to create positive change — restoring ecosystems, funding local
+    projects, or building alternative economic systems — rather than a DAO
+    organized around, e.g., a protocol, an investment fund, or a social club.
+  source_traditions:
+    - General DAO organizing model (blockchain-coordinated, code-encoded rules)
+    - Regenerative Finance (ReFi) movement
+  toolkit_usage: >-
+    Used in this article as the umbrella term for ReFi DAO, Greenpill, and Klima
+    DAO, positioned as the web3-native analogue to existing cooperative/commons
+    organizing (permaculture design courses, seed swaps, tool libraries) that a
+    non-crypto-native reader already recognizes.
+  adjacent_meanings:
+    - >-
+      "DAO" generally (any blockchain-coordinated group; not all DAOs are
+      impact-oriented — see investment DAOs, protocol-governance DAOs)
+    - >-
+      Cooperative / commons organizing (non-blockchain analogue named explicitly
+      in the article)
+  important_distinctions:
+    - >-
+      Impact DAO vs. DAO broadly: the "impact" qualifier is a stated mission
+      orientation, not a technical or legal distinction — nothing in the tooling
+      enforces that a self-labeled Impact DAO actually delivers impact.
+  tensions:
+    - >-
+      The article's own closing line ("Impact DAOs are not a magic solution...
+      some will succeed, others will fail") sits in tension with the earlier
+      framing of DAOs as trust-built-into-the-system; worth holding both.
+  risks_of_flattening: >-
+    Equating "no central boss" with genuine equity of voice risks flattening
+    real participation and accountability challenges that DAOs face (named only
+    briefly, in the related ethereum-ecosystem article, not here).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/examples-impact-daos.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-c562753ff84a
+  source_lineage: examples-impact-daos.md

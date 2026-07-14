@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Snapshot (off-chain DAO voting platform)
+  type: resource
+  resource_type: tool
+  url: https://snapshot.org
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: tokens-coordination-tools.md
+  related_concepts:
+    - token-based-coordination-mechanisms
+    - off-chain-voting
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-coordination-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: tokens-coordination-tools.md

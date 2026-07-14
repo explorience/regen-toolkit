@@ -1,0 +1,28 @@
+schema: source-system
+object:
+  title: Grassroots Economics (Sarafu Network)
+  type: blog
+  url: https://www.grassrootseconomics.org/sarafu-network
+  steward: Grassroots Economics (Kenyan nonprofit)
+  what_it_curates: >-
+    Sarafu, a community currency over 50,000 people have used to trade food,
+    goods, and services where regular cash/banking is scarce. Works on basic
+    phones over USSD; the transaction record lives on a public blockchain so
+    the community, not a bank, governs it.
+  why_it_matters: >-
+    The article's clearest real (non-theoretical) example of Web3 doing
+    something ordinary banking cannot: cross-border/no-gatekeeper value
+    movement for a mutual-aid/local economy at real scale.
+  how_to_credit: unknown — not stated in the article
+  reuse_conditions: unknown — not stated in the article
+  return_path: unknown — not stated in the article
+  currentness: "50,000+ users per the article (undated snapshot)"
+  update_rhythm: unknown — not stated in the article
+  extraction_status: partial — only the framing given in this article has been captured
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-web3-can-cant-do.md
+    transformation: summarized
+    authorship: ai-assisted

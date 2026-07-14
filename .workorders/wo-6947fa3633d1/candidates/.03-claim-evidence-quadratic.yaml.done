@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Quadratic voting cost curve (1 vote=1, 2 votes=4, 3 votes=9) reduces wealth domination
+  type: claim-evidence
+  claim: >-
+    Under quadratic voting, casting n votes on one position costs n-squared
+    units of influence (1 vote = 1 unit, 2 votes = 4 units, 3 votes = 9
+    units), sharply increasing the cost of piling multiple votes behind one
+    position, and Gitcoin uses this mechanism to allocate grant funding,
+    balancing influence between large and small contributors.
+  evidence: >-
+    Article's own description of the quadratic-cost formula, attributed to
+    Gitcoin's use of the mechanism for grant funding (cited to
+    gitcoin.co/blog/quadratic-voting in the references).
+  source_lineage: src/content/docs/voting-mechanisms.md
+  interpretation: >-
+    Used as the article's central worked example of manipulation-resistant
+    voting math, showing concretely how the mechanism dampens (but the
+    article notes does not eliminate) wealth-based dominance.
+  uncertainty: >-
+    The article itself qualifies the claim ("it's not perfect, it still
+    advantages those with more resources") — no independent outcome data
+    (e.g., measured shift in grant-allocation concentration) is cited beyond
+    the mechanism's design math.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/voting-mechanisms.md
+    transformation: summarized
+    authorship: ai-assisted

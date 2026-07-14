@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Snapshot
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: false
+  link_status: unresolved
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - grassroots-web3-adoption-pattern
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stories-regens-leap.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Named as one of the tools (decisions/voting) the illustrative "ReFi
+    Africa" group used for governance.

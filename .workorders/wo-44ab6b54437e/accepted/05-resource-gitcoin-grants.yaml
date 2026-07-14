@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Gitcoin Grants (tips for grant success)
+  type: resource
+  url: >-
+    https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants/tips-for-grant-success
+  resource_type: docs
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - quadratic-funding
+  is_source_system_candidate: true
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/writing-grant-proposals.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Source of the article's core proposal-writing advice: lead with a TL;DR
+    including how you'll spend the money, list team qualifications, show you're
+    iterating, and give supporters time to set up wallets.
+  work_order: wo-44ab6b54437e
+  source_lineage: writing-grant-proposals.md

@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Aragon
+  type: resource
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - token-weighted-voting
+  is_source_system_candidate: false
+  link_status: unresolved
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Described as one of the first no-code DAO creation platforms, offering
+    templates for governance structures. Article gives no URL in its reference
+    list; not invented here.
+  work_order: wo-fda5b8111b9b
+  source_lineage: dao-tooling.md

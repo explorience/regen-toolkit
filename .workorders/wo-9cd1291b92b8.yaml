@@ -1,0 +1,28 @@
+id: wo-9cd1291b92b8
+title: ingest what-web3-can-cant-do.md
+type: work-order
+source_path: what-web3-can-cant-do.md
+source_hash: 54f9a70c49692fda38c3caec67550e54ac44a97754b5b37409d130e2e2b95e81
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-web3-can-and-can-t-do
+  - data/kb/concept-lineage.yaml#oracle-blockchain
+  - >-
+    data/kb/claim-evidence.yaml#verra-blocked-toucan-s-tokenization-of-retired-carbon-credits-may-2022
+  - data/kb/source-system.yaml#grassroots-economics-sarafu-network
+  - data/kb/resource.yaml#etherscan-8a0936a8
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-toucan-verra-carbon-credit-mrv-claim-what-web3-can-cant-do-md

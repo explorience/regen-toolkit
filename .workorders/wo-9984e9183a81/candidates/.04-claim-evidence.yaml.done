@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: US 501(c)(3) application fees (2026)
+  type: claim-evidence
+  claim: >-
+    As of 2026, the IRS Form 1023-EZ (for groups projecting under $50,000/yr
+    in receipts) costs $275 and processes in a few weeks; the full Form 1023
+    costs $600 and takes three to six months. Groups can run activities while
+    the application is pending.
+  evidence: >-
+    Cited to "IRS, Form 1023 and 1023-EZ user fees" (irs.gov/charities-non-
+    profits/form-1023-and-1023-ez-amount-of-user-fee).
+  source_lineage: src/content/docs/legal-structures.md
+  interpretation: >-
+    Specific dollar figures and timelines from a named official source
+    (IRS); reasonably reliable but fees/timelines are subject to change by
+    the IRS and should be reconfirmed at the official link before acting,
+    especially given this is time-stamped "current as of 2026."
+  uncertainty: >-
+    Low-moderate — sourced to the IRS's own fee page per the article, but
+    not independently re-fetched/verified during this ingest pass.
+  high_risk: true
+  maturity: raw
+  public_use: requires-domain-review
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/legal-structures.md
+    transformation: quoted
+    authorship: ai-assisted

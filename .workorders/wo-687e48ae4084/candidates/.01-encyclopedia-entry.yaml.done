@@ -1,0 +1,54 @@
+schema: encyclopedia-entry
+object:
+  title: DAO Governance Models
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Surveys five DAO governance models — token-weighted voting, quadratic
+    voting, reputation-based governance, multi-signature governance, and hybrid
+    governance — with pros/cons and a named example DAO for each, then gives
+    guidance on choosing a model based on purpose, size, desired
+    decentralization, speed-vs-fairness, and scalability.
+  audience: DAO-Operator
+  known_tensions:
+    - >-
+      simplicity-and-investment-alignment (token voting) vs
+      whale-dominance-risk — wealth translating directly into decision power.
+    - >-
+      efficiency-of-multi-sig vs centralization-risk-if-signers-are-not-rotated.
+    - >-
+      flexibility-of-hybrid-models vs complexity-and-communication-overhead.
+  related_concepts:
+    - token-weighted-voting
+    - quadratic-voting
+    - reputation-based-governance
+  related_resources:
+    - ENS DAO
+    - SafeDAO
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-governance-models.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-687e48ae4084
+  source_lineage: dao-governance-models.md
+  notes: >
+    # assessed-but-excluded
+
+    - CityDAO, MakerDAO, and Decentraland DAO are named as one-line examples for
+      quadratic/reputation/hybrid models respectively; not built out as separate
+      resource objects since the article gives no more than a single sentence
+      about each beyond "uses this model" — kept ENS DAO and SafeDAO (the two
+      given the most concrete operational detail: ENS name-service governance,
+      SafeDAO's treasury/upgrade coordination) as resources instead.
+    - Soulbound Tokens and conviction voting are mentioned as "emerging
+      mechanisms" in one closing paragraph with no worked example in this
+      article; left as a mention inside the encyclopedia entry rather than a
+      standalone concept-lineage, since there isn't enough source material here
+      to responsibly trace their lineage/tensions.
+    - No people/community profiles, exact locations, or high-risk triggers
+      (funding/legal/governance recommendations are generic best-practice, not
+      directed at a specific real DAO or person) — no public-use-boundary
+      object created.

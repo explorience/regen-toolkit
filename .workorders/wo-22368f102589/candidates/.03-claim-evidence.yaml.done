@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Universities have experimented with blockchain-based diplomas
+  type: claim-evidence
+  claim: >-
+    "Some universities have already experimented with blockchain-based
+    diplomas." (nfts-beyond-art.md, Digital Identity and Credentials section)
+  evidence: >-
+    Article cites "MIT Media Lab, Blockchain diplomas" (medium.com/mit-media-lab)
+    as a reference; no specific university, programme, or date is named in the
+    body text itself.
+  source_lineage: src/content/docs/nfts-beyond-art.md (References section)
+  interpretation: >-
+    Used to support the broader claim that NFT/blockchain credentialing has
+    moved from theory into at least pilot practice at formal institutions,
+    which the article leans on to argue the same approach could serve
+    informally-trained community members (health workers, farmers, craftspeople).
+  uncertainty: >-
+    The claim is vague ("some universities") with no named institution or
+    verifiable instance in the body text; the single cited source is a Medium
+    publication link, not a primary institutional announcement. Treat as
+    plausible-but-unverified pending a named example.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/nfts-beyond-art.md
+    transformation: quoted
+    authorship: ai-assisted

@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Critical mass for a local currency is 20-30 active members
+  type: claim-evidence
+  claim: >-
+    "A working local currency needs at least 20-30 active members who are
+    genuinely buying and selling," and "launching without critical mass" —
+    trying to launch to a whole neighbourhood on day one — is named as a common
+    mistake; starting with a closest circle of collaborators is recommended
+    instead.
+  evidence: >-
+    Stated as the article's own guidance, not attributed to an external study,
+    dataset, or named case (the case studies section, e.g. Ithaca Hours' 1991
+    launch, is not linked back to this specific numeric threshold).
+  source_lineage: src/content/docs/local-currency.md
+  interpretation: >-
+    A reasonable practitioner heuristic — matches general common-sense guidance
+    for two-sided-market bootstrapping — but the specific 20-30 number is
+    asserted, not derived from a cited launch dataset across the named case
+    studies (Ithaca Hours, Brixton Pound, Sardex, BerkShares).
+  uncertainty: >-
+    High — no citation for the specific number; treat as design guidance rather
+    than an evidenced threshold.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-currency.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-bb8c4077a9fb

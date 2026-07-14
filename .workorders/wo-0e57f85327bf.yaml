@@ -1,0 +1,26 @@
+id: wo-0e57f85327bf
+title: ingest what-is-ethereum.md
+type: work-order
+source_path: what-is-ethereum.md
+source_hash: a75fc5ff774e2eb2bcf1d9a94e5e4479a5aad10f156bb845d77649c801aeb044
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-is-ethereum
+  - data/kb/concept-lineage.yaml#smart-contract
+  - >-
+    data/kb/claim-evidence.yaml#ethereum-secures-410b-in-value-and-cut-energy-use-99-via-the-2022-merge
+  - data/kb/resource.yaml#metamask-acc29a01
+  - data/kb/resource.yaml#ethereum-name-service-ens

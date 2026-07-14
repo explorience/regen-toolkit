@@ -1,0 +1,61 @@
+schema: concept-lineage
+object:
+  title: Knowledge Commons
+  type: concept-lineage
+  short_description: >-
+    A shared pool of knowledge that a group creates, governs, and maintains
+    together — owned by the group rather than any one person, and structured to
+    keep being useful as people come and go. The "commons" part refers
+    specifically to governance, not just shared access.
+  source_traditions:
+    - >-
+      Elinor Ostrom, "Governing the Commons" (1990) — eight design principles
+      for how communities manage shared resources (fisheries, forests,
+      irrigation) without privatizing or collapsing them: clear boundaries,
+      locally-fit rules, participation of those affected, monitoring, graduated
+      sanctions, accessible conflict resolution, right to self-organize, and
+      nested governance for larger systems.
+    - >-
+      Hess & Ostrom, "Understanding Knowledge as a Commons" (MIT Press, 2007) —
+      extends the commons frame to information itself, treating knowledge as
+      vulnerable to the same enclosure/neglect/pollution risks as a physical
+      commons.
+  toolkit_usage: >-
+    Used to argue that a wiki alone is not a commons — a commons additionally
+    needs rules about who edits, who reviews, and what happens when something is
+    wrong. Applied practically as: write down decisions (not just procedures),
+    assign a steward without centralizing the work, and make contribution
+    legible/low-friction.
+  adjacent_meanings:
+    - wiki (shared editable pages, without necessarily any governance layer)
+    - digital garden (a commons that explicitly admits its unfinished state)
+  important_distinctions:
+    - >-
+      wiki vs. commons — a wiki with no agreement about how it's tended is "just
+      a slower mess"; the commons label requires the governance layer (Ostrom's
+      monitoring, self-organization, conflict resolution), not merely
+      shared-edit access.
+    - >-
+      process docs vs. historical docs — the article (citing the Regen Toolkit's
+      own documentation guidance) distinguishes "how to do X" from "why we
+      decided X, what we tried that failed"; the latter is what typically walks
+      out the door with departing people and is what a commons must deliberately
+      capture.
+  tensions:
+    - >-
+      Open license as governance decision vs. "legal boilerplate" — the article
+      frames choosing CC BY-SA / CC BY 4.0 up front as cheap insurance against
+      future re-enclosure, not a paperwork afterthought.
+  risks_of_flattening: >-
+    Treating "knowledge commons" as simply a synonym for "shared wiki" erases
+    Ostrom's core contribution — that a commons is defined by its governance
+    structure (rules, monitoring, self-organization, conflict resolution), not
+    by mere technical shared-access.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-knowledge-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d94f3822e08d
+  source_lineage: what-is-knowledge-commons.md

@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: "Capital Gains (Crypto, US)"
+  type: concept-lineage
+  short_description: >-
+    Under US tax treatment, crypto is property; capital gains/losses are
+    calculated from cost basis (what you paid, including fees), and taxed
+    differently depending on holding period: short-term (held ≤1 year, taxed
+    as ordinary income) vs long-term (held >1 year, taxed at 0/15/20%).
+  source_traditions:
+    - US Internal Revenue Service property-taxation framework, as applied to crypto.
+  toolkit_usage: >-
+    Presented as the foundational concept the rest of the article's
+    taxable/non-taxable event tables and DeFi/NFT tables build on.
+  adjacent_meanings:
+    - cost basis
+    - short-term vs long-term holding
+  important_distinctions:
+    - >-
+      Taxable events (selling, trading crypto-for-crypto, spending crypto,
+      mining/staking income, airdrops, hard-fork receipts) vs non-taxable
+      events (buying with USD, wallet-to-wallet transfers, charitable
+      donations, gifts under $15,000).
+    - >-
+      Ordinary income treatment (mining/staking/airdrops) vs capital
+      gains/loss treatment (sales/trades) — two different tax categories for
+      different crypto activities.
+  tensions:
+    - >-
+      The article notes NFT "collectible" status (28% rate) is contested
+      because NFTs are not physical, unlike the traditional collectibles the
+      28% rate was designed for.
+  risks_of_flattening: >-
+    This is explicitly US-specific guidance; presenting "crypto tax rules"
+    without a jurisdiction qualifier risks readers outside the US applying
+    US-specific thresholds (e.g. the $15,000 gift-tax figure) and forms
+    (Form 8949, 1099-DA) to a jurisdiction where they don't apply.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/tax-implications.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,46 @@
+schema: track
+object:
+  title: Local Node Gathering Cadence
+  type: track
+  audience: local-node organizers (ReFi DAO / GreenPill Network chapter stewards)
+  starting_context: starting or currently running a regen local node, deciding what to actually do when people show up
+  outcome:
+    - a sustainable weekly/monthly/quarterly gathering rhythm matched to the node's current stage
+    - reduced organizer burnout from over-ambitious calendars
+    - decisions made transparently enough that even people who disagree stay engaged
+  concepts:
+    - gathering-format-selection
+    - consent-based-decision-making
+    - node-burnout-prevention
+  options:
+    - community-meal
+    - walk-and-talk
+    - open-house
+    - workshop
+    - learning-circle
+    - demonstration-day
+    - town-hall
+    - retrospective
+    - milestone-party
+    - open-celebration
+  deployment_checks:
+    - has the node named its current stage honestly (pre-formation / early formation / active operations / growth / renewal)?
+    - is there a single owner for the recurring low-effort touchpoint (open house), not a committee?
+    - are decision proposals circulated at least a week ahead of a town hall?
+  failure_modes:
+    - turning a relationship-building meal into a decision-making meeting ("while we're all here, let's just quickly...")
+    - defaulting to lecture-mode for educational gatherings instead of hands-on/peer formats
+    - running an ambitious high-effort calendar that burns out the host
+    - skipping the informal-relationship layer and going straight to governance
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/types-of-gatherings.md
+    transformation: synthesized
+    authorship: ai-assisted
+  source_lineage: types-of-gatherings.md
+  notes: >-
+    Synthesized from the article's "Choosing the Right Format" stage table
+    and rhythm guidance into a guided-pathway object (track schema), since
+    the article itself functions as exactly that: a stage-matched sequence
+    of options for a local node, not a single deployment.

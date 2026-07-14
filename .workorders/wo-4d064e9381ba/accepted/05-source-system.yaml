@@ -1,0 +1,39 @@
+schema: source-system
+object:
+  title: ReFi DAO Local Node Incubator / Local Nodes network
+  type: convening
+  steward: ReFi DAO
+  what_it_curates: >-
+    An 8-15 week structured incubator program for place-based regenerative-
+    finance chapters ("local nodes"), plus a live global directory of those
+    nodes. Source of the Seed/Sapling/Canopy node-maturity model cited in
+    onboarding-members.md; the article reports a cohort of 100-plus participants
+    and a steward Net Promoter Score of 9.4/10.
+  why_it_matters: >-
+    Primary named framework and evidence source for the article's node-growth
+    model and steward-burnout-prevention argument; also the network layer the
+    article tells stewards to lean on ("that's not central overreach, that's
+    mutual aid").
+  how_to_credit: Credit ReFi DAO and the Local Node Incubator program.
+  use_type: cited framework + directory referenced for onboarding guidance
+  reuse_conditions: Not stated in the source article; public blog + public directory.
+  return_path: >-
+    Not directly captured in this article — surface via ReFi DAO's own channels
+    (blog.refidao.com, refidao.com/local-nodes) if a contribute-back hook is
+    needed later.
+  currentness: >-
+    Beta cohort retrospective cited; alpha/beta cohort era, exact date not given
+    in article.
+  update_rhythm: Ongoing program; directory presumably updates as new nodes are incubated.
+  extraction_status: >-
+    partial — only the maturity model and cohort statistics were extracted from
+    this article; the incubator curriculum itself was not.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onboarding-members.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-4d064e9381ba
+  source_lineage: onboarding-members.md

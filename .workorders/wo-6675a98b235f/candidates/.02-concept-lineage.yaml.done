@@ -1,0 +1,49 @@
+schema: concept-lineage
+object:
+  title: Liquid Delegation
+  type: concept-lineage
+  short_description: >-
+    A delegation model where members can delegate, re-delegate, or revoke
+    their voting power at any time, and delegation can be transitive — Alice
+    delegates to Bob, who delegates to Carol, so Alice's vote flows through Bob
+    to Carol.
+  source_traditions:
+    - liquid democracy theory (named directly in the article's own sources
+      list)
+    - representative-vs-direct-democracy debates
+    - DAO governance-tooling implementations of transitive delegation
+  toolkit_usage: >-
+    Presented in this article as the most flexible of four delegation types
+    (full, topic-based, liquid, time-limited), traded off against full
+    delegation's simplicity and topic-based delegation's expertise-matching.
+  adjacent_meanings:
+    - liquid democracy as a national/political voting-reform proposal (broader
+      usage, not DAO-specific)
+    - liquid delegation as implemented in specific on-chain governance tooling
+      (this article's DAO-specific framing)
+  important_distinctions:
+    - >-
+      liquid-vs-full-delegation — full delegation is a single, static grant of
+      all voting power to one delegate; liquid delegation allows continuous
+      re-delegation and transitive chains.
+    - >-
+      liquid-vs-topic-based-delegation — topic-based splits delegation by
+      subject area (finance, technical, community); liquid is about
+      revocability and transitivity, and the two dimensions can combine.
+  tensions:
+    - >-
+      flexibility-and-responsiveness vs complex-power-chains — the article
+      names "can create complex power chains, requires sophisticated tooling"
+      as liquid delegation's direct con.
+  risks_of_flattening: >-
+    Treating liquid delegation as strictly "more democratic" than full
+    delegation flattens the article's own caution that transitive chains can
+    obscure where power actually concentrates, making accountability harder to
+    track even as flexibility increases.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/delegation-representation.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-6675a98b235f

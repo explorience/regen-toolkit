@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: LocalCoinSwap
+  type: resource
+  resource_type: p2p-exchange
+  url: https://localcoinswap.com/
+  link_status: active
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  notes: >-
+    Non-custodial peer-to-peer crypto marketplace operating in 190+
+    countries with roughly a 1% fee, named in how-to-get-crypto.md as a
+    2026-current working P2P option (superseding the now-defunct Paxful).
+  related_concepts:
+    - peer-to-peer-crypto-exchange-with-escrow
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-to-get-crypto.md
+    transformation: summarized
+    authorship: ai-assisted

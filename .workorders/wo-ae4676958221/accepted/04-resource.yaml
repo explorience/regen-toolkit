@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Google NotebookLM
+  type: resource
+  resource_type: tool
+  url: https://notebooklm.google/
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  related_concepts:
+    - retrieval-augmented-generation
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-community-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ae4676958221
+  source_lineage: ai-community-tools.md
+  notes: >-
+    Free with a Google account; load up to 50 sources on the free tier and ask
+    questions grounded in exactly those documents, with citations to the
+    passage. Article's recommended "find answers" leg of a starter stack: load
+    governance docs, past meeting summaries, and the founding agreement.

@@ -1,0 +1,27 @@
+schema: signal
+object:
+  title: >-
+    POAP entered maintenance mode (March 2026) — existing content referencing it
+    as an active issuance tool needs review
+  type: signal
+  signal_type: resource
+  affected_layer: layer-3-resource-graph
+  interpretation: >-
+    As of March 2026, POAP stopped onboarding new badge issuers (existing
+    badges/integrations/collector tools keep working, per the article's cited
+    source: Phemex News, "POAP to enter maintenance mode"). Any prior toolkit
+    content recommending POAP as the default live way to issue *new* event
+    attendance badges (e.g. the onboarding-members.md article in this same
+    batch, which recommends "set up a free POAP for your next event") is now
+    stale and should be cross-checked/updated to note Galxe OAT as the current
+    active alternative.
+  proposed_intervention: update
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/planning-web3-events.md
+    surfaced_by: Phemex News (2026), POAP to enter maintenance mode
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-13f3c98bb4d6
+  source_lineage: planning-web3-events.md

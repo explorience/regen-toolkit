@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Find Your Community
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A plain-language guide for community organizers and permaculturists on
+    finding a trustworthy, real-world ReFi (regenerative finance) community
+    without getting scammed or wasting time. Frames ReFi DAO and Greenpill
+    Network as the two established "front doors," recommends listening before
+    committing (field notes, public Telegram, assessment, steward call), and
+    gives concrete rules for telling a real community from a scam (never share
+    a seed phrase, real teams don't DM first, always type the known URL
+    yourself, never send money first, big member counts aren't proof, slow is
+    safe).
+  audience: community organizers and permaculturists new to ReFi/web3, wary of
+    scams
+  known_tensions:
+    - >-
+      Encourages joining named, centralized-looking "front doors" (ReFi DAO,
+      Greenpill) as the safe path, which is itself a form of gatekeeping —
+      worth naming that "established" is being used as a proxy for "safe,"
+      not a guarantee.
+  related_concepts:
+    - regenerative-finance-refi
+  related_resources:
+    - refi-dao
+    - greenpill-network
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/find-your-community.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-b4b5ea30ae6f, find-your-community.md):
+# - "Try This" exercise prompts (open greenpill.network / refidao.com,
+#   subscribe to field notes, join Telegram, attend a meeting) — reader
+#   action items, not extractable knowledge-graph content.
+# - Individual scam red-flag bullets (seed-phrase requests, unsolicited DMs,
+#   send-money-first, big-numbers-aren't-proof, urgency tactics) — folded
+#   into the claim-evidence entry on seed-phrase/DM scam patterns rather than
+#   split into many micro-claims; they share one evidentiary basis
+#   (Ledger Academy + Kaspersky) and one safety message.

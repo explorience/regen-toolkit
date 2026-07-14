@@ -1,0 +1,52 @@
+schema: encyclopedia-entry
+object:
+  title: Legal Structures for Your Local Node
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    How to choose a legal wrapper (co-op, nonprofit, LLC, DAO-specific
+    structure) for a local ReFi node so the entity, not individual members,
+    holds liability. Walks through risk-sizing (low/medium/high), staying
+    informal, cooperatives, 501(c)(3) nonprofits, LLCs, and DAO-specific
+    wrappers (Wyoming DUNA, DAO LLC, Marshall Islands DAO LLC, Cayman
+    Islands foundation), with 2026 costs, a decision path, three common
+    mistakes, and where to get free help.
+  audience: local-node organizers ready to hold funds, sign contracts, or run public events
+  known_tensions:
+    - >-
+      protection vs. overhead — "over-wrapping too early" (e.g. a Cayman
+      foundation for a $3,000 treasury) is named as one of the three
+      mistakes that actually hurt people
+  related_concepts:
+    - Legal Wrapper
+  related_resources:
+    - Wyoming DUNA
+  high_risk: true
+  maturity: raw
+  public_use: requires-domain-review
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/legal-structures.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    High-risk trigger: legal/governance recommendations (Principle from
+    skills/ingest and skills/capture-and-route). This is jurisdiction- and
+    time-specific (2026 fee figures, a 2024-effective statute) guidance, not
+    legal advice — see the paired public-use-boundary object (05-).
+
+# assessed-but-excluded:
+#   - The article's decision-path checklist and "Try This" risk-read
+#     exercise were folded into the summary rather than split into a
+#     separate implementation-record — they are reader prompts, not a
+#     documented case.
+#   - MIDAO (Marshall Islands) and the Cayman Islands foundation route were
+#     not each given a standalone resource object — only the Wyoming DUNA,
+#     flagged by the article itself as "the big one for regen nodes," was
+#     lifted; the others are captured within the concept-lineage and
+#     claim-evidence candidates' text instead, to avoid four near-duplicate
+#     "offshore wrapper" resource stubs.
+#   - Legal Nodes (cited source for general-partnership default liability)
+#     was not lifted as its own source-system/resource object — it is used
+#     here purely as a citation, not as a knowledge environment being
+#     registered for reciprocity.

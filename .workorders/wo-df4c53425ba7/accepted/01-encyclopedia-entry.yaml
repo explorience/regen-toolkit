@@ -1,0 +1,39 @@
+schema: encyclopedia-entry
+object:
+  title: Impact Certificates & Hypercerts
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Introduces hypercerts as tokens claiming "this group did this work, here,
+    during this time" and retroactive funding as paying after impact is
+    demonstrated rather than upfront, describing the creator/funder/evaluator
+    roles, the split-and-merge property, and links to quadratic funding,
+    RetroPGF, and MRV as connected ReFi tools.
+  audience: >-
+    community organizers and funders new to impact-certificate / retroactive-
+    funding mechanisms
+  known_tensions:
+    - >-
+      pay-after-proof-reduces-funder-risk-vs-creators-still-need-working-capital-before-impact-exists
+  related_concepts:
+    - hypercert-erc-1155-impact-claim-token
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/impact-certificates-hypercerts.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: "Hypercerts Protocol" was not re-created as a new
+    resource object — it already exists in data/kb/resource.yaml from a prior
+    ingestion slice. "Retroactive Public Goods Funding (RetroPGF / Retro
+    Funding)" was not re-created as a new concept-lineage object for the same
+    reason, and the existing claim-evidence "Retroactive funding pays for
+    demonstrated impact, not promises" already covers the general retroactive-
+    funding thesis — this ingestion instead captures the ERC-1155 hypercert
+    token structure and the specific (uncited) ProjectTogether example. See the
+    accompanying signal for a likely factual error in the article ("Built on the
+    AT Protocol").
+  work_order: wo-df4c53425ba7
+  source_lineage: impact-certificates-hypercerts.md

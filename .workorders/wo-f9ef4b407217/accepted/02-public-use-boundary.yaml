@@ -1,0 +1,15 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Article src/content/docs/tax-implications.md provides US-specific
+    cryptocurrency tax guidance (capital gains treatment, taxable events,
+    NFT/DeFi tax tables, IRS forms). It carries the source's own disclaimer:
+    "Educational purposes only. Not tax advice. Consult a qualified professional
+    for your specific situation." Flag for domain review before any public
+    reuse, especially outside a US tax context, and note the article's own
+    acknowledgment that the NFT "collectibles" tax treatment is
+    debated/unsettled.
+  review_type: domain-review (tax/legal accuracy + jurisdiction scope)
+  work_order: wo-f9ef4b407217
+  source_lineage: tax-implications.md

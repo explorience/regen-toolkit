@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: Silvi uses dMRV to prove tree planting and pay for impact
+  type: claim-evidence
+  claim: >-
+    Digital measurement, reporting, and verification (dMRV) "is used in
+    programs like Silvi to prove tree planting and get paid for impact."
+  evidence: >-
+    Asserted directly in the article body with no citation or reference link
+    given for Silvi specifically (the article's References section points only
+    to ethereum.org for a general technical overview, not to Silvi).
+  source_lineage: src/content/docs/what-you-can-do-ethereum.md
+  interpretation: >-
+    Used as the concrete real-world example anchoring the article's third use
+    case (tracking/proving impact) for Sarreya program participants.
+  uncertainty: >-
+    High-risk MRV/impact-verification claim per the ingest skill's high-risk
+    triggers, and the underlying source article itself is flagged
+    factcheck_done: false / review_done: false in its own frontmatter — this
+    specific Silvi claim has not been fact-checked even by the source
+    article's own authors. Treat as unverified until cross-checked against
+    Silvi's own documentation.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/what-you-can-do-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted

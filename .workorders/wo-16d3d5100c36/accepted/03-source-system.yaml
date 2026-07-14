@@ -1,0 +1,32 @@
+schema: source-system
+object:
+  title: SuperBenefit Knowledge Garden
+  type: knowledge-garden
+  steward: SuperBenefit
+  return_path: >-
+    contribute observations on consequence-based tiering (and any adaptation of
+    it made in this toolkit) back to the SuperBenefit Knowledge Garden as a
+    comment or linked note, per its own contribution norms
+  url: https://knowledge.superbenefit.org/
+  what_it_curates: >-
+    a live, tiered knowledge commons (raw notes, working documents, refined
+    "artifacts") documenting SuperBenefit's own practice
+  why_it_matters: >-
+    cited in human-review-boundaries.md as the clearest real-world example of
+    sorting knowledge-commons content by review state — the three-tier model in
+    this ingestion's encyclopedia entry is adapted from it
+  how_to_credit: link the Knowledge Garden page and name SuperBenefit
+  use_type: reference source for the review-boundary tiering pattern
+  reuse_conditions: public digital garden; attribute SuperBenefit
+  currentness: unknown — not independently checked at ingestion time
+  update_rhythm: unknown
+  extraction_status: partially-extracted
+  toolkit_route: layer-2-encyclopedia
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/human-review-boundaries.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-16d3d5100c36
+  source_lineage: human-review-boundaries.md

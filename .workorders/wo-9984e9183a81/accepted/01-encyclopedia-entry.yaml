@@ -1,0 +1,40 @@
+schema: encyclopedia-entry
+object:
+  title: Legal Structures for Your Local Node
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    How to choose a legal wrapper (co-op, nonprofit, LLC, DAO-specific
+    structure) for a local ReFi node so the entity, not individual members,
+    holds liability. Walks through risk-sizing (low/medium/high), staying
+    informal, cooperatives, 501(c)(3) nonprofits, LLCs, and DAO-specific
+    wrappers (Wyoming DUNA, DAO LLC, Marshall Islands DAO LLC, Cayman Islands
+    foundation), with 2026 costs, a decision path, three common mistakes, and
+    where to get free help.
+  audience: >-
+    local-node organizers ready to hold funds, sign contracts, or run public
+    events
+  known_tensions:
+    - >-
+      protection vs. overhead — "over-wrapping too early" (e.g. a Cayman
+      foundation for a $3,000 treasury) is named as one of the three mistakes
+      that actually hurt people
+  related_concepts:
+    - Legal Wrapper
+  related_resources:
+    - Wyoming DUNA
+  high_risk: true
+  maturity: raw
+  public_use: requires-domain-review
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/legal-structures.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    High-risk trigger: legal/governance recommendations (Principle from
+    skills/ingest and skills/capture-and-route). This is jurisdiction- and
+    time-specific (2026 fee figures, a 2024-effective statute) guidance, not
+    legal advice — see the paired public-use-boundary object (05-).
+  work_order: wo-9984e9183a81
+  source_lineage: legal-structures.md

@@ -1,0 +1,36 @@
+schema: concept-lineage
+object:
+  title: Real-World Asset (RWA) Tokenization
+  type: concept-lineage
+  short_description: >-
+    Representing ownership of an off-chain asset (real estate, gold, bonds,
+    art, carbon credits) as an on-chain token, enabling fractional ownership
+    and blockchain-based trading of a claim on that asset.
+  source_traditions:
+    - securitization / fractional ownership finance (traditional REITs, bond markets)
+    - blockchain token-standard infrastructure (ERC-20/ERC-721-style ownership tokens)
+  toolkit_usage: >-
+    Used in the article as a beginner on-ramp: tokenization framed as
+    "a digital deed" that trades like crypto but derives its value from a
+    real underlying asset.
+  adjacent_meanings:
+    - carbon credit tokenization (ecological asset variant, overlaps with what-are-tokens.md)
+    - tokenized government treasuries (described in article as a fast-growing RWA category)
+  important_distinctions:
+    - owning the token vs owning the underlying asset (custody remains a real-world, off-chain problem)
+    - token price vs oracle-reported real-world value (the two can diverge)
+  tensions:
+    - promise of borderless trading vs assets still bound by national law
+    - promise of "less fraud" via public records vs unresolved custody trust (someone must still physically hold the asset)
+  risks_of_flattening: >-
+    The article presents tokenization benefits (liquidity, access, cost,
+    speed) as largely settled while listing challenges more thinly; a fuller
+    treatment would need more scrutiny of who verifies the oracle price and
+    who is legally accountable when a custodian fails.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-real-world-assets.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: tokens-real-world-assets.md

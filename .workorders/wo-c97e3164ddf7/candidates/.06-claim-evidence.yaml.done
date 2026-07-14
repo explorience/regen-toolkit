@@ -1,0 +1,33 @@
+schema: claim-evidence
+object:
+  title: Layer 2 fee reduction vs. Ethereum Mainnet throughput limit
+  type: claim-evidence
+  claim: >-
+    Ethereum Mainnet handles roughly 15-30 transactions per second; a simple
+    transfer costing several dollars on Mainnet often costs less than a cent
+    on a Layer 2, and a 500-member community token system could cost
+    "hundreds of dollars" per month on Mainnet versus "less than a dollar
+    per month" on Base or Arbitrum.
+  evidence: >-
+    Asserted directly in the article's body text (no external citation or
+    dataset linked); the article's own references section links to Ethereum's
+    documentation on Layer 2s and L2BEAT for independent verification, but no
+    specific figure is sourced to either.
+  source_lineage: src/content/docs/layer-2s.md
+  interpretation: >-
+    Directionally reliable (L2 fees are genuinely orders of magnitude lower
+    than Mainnet during congestion) but the specific numbers (15-30 tps,
+    "hundreds of dollars," "less than a dollar") are illustrative estimates,
+    not measured figures with a timestamp — gas prices and L2 fees both
+    fluctuate significantly with network conditions.
+  uncertainty: >-
+    High for the exact dollar figures (unsourced, likely to drift with
+    market conditions); moderate-low for the qualitative claim that L2s are
+    meaningfully cheaper, which is well-established.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/layer-2s.md
+    transformation: quoted
+    authorship: ai-assisted

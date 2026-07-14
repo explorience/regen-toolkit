@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Luma (lu.ma)
+  type: resource
+  url: https://lu.ma/
+  resource_type: event listing / registration platform
+  link_status: active
+  notes: >-
+    Article's cited default for regen-scene event listing/registration. Free
+    events have no platform fee; paid tickets carry a 5% platform fee plus
+    Stripe processing (~2.9% + 30¢/ticket); "Luma Plus" removes the 5% fee for
+    $69/month ($59/month billed annually). Pricing verified as of mid-2026 per
+    the article; note prices shift, re-verify before relying on this.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/planning-web3-events.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-13f3c98bb4d6
+  source_lineage: planning-web3-events.md

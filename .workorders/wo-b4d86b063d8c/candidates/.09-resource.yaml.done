@@ -1,0 +1,14 @@
+schema: resource
+object:
+  title: OpenSea
+  type: resource
+  resource_type: tool
+  url: https://opensea.io
+  link_status: active
+  original_source: src/content/docs/ethereum-ecosystem.md (References)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ethereum-ecosystem.md
+    transformation: quoted
+    authorship: ai-assisted

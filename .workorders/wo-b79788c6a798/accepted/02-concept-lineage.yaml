@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: No single point of failure (organizational crypto custody)
+  type: concept-lineage
+  short_description: >-
+    "The most critical rule for organizational crypto security: no single
+    individual should have full control over the organization's funds."
+    Operationalized via multi-sig wallets (multiple keys required to authorize
+    any transaction) and layered role-based access control (view-only operations
+    staff, capped-limit managers, approval-authority executives,
+    unlimited-approval board), plus a hot/cold wallet split so a compromised
+    operational wallet never exposes treasury reserves.
+  toolkit_usage: >-
+    The article's stated "core rule," from which every subsequent recommendation
+    (multi-sig, layered access, cold storage, policy framework) is derived.
+  adjacent_meanings:
+    - >-
+      Corporate dual-signature bank accounts (the article's own analogy — "a
+      corporate bank account that needs two signatures")
+    - >-
+      Personal wallet recovery planning (a related but distinct concern — see
+      the sibling recovery-planning.md article in this batch, which covers
+      individual/organizational recovery methods including the same Safe
+      multi-sig tool)
+  important_distinctions:
+    - >-
+      Multi-sig is framed as both security (preventing single-actor theft or
+      collusion) and de facto recovery redundancy (if one signer's device is
+      compromised, attackers still cannot act alone) — the article treats these
+      as one continuous property, not two separate features.
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — a technical governance/custody framework, not attributed to a
+    specific community or tradition.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/security-best-practices-orgs.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b79788c6a798
+  source_lineage: security-best-practices-orgs.md

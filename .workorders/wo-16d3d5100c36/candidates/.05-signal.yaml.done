@@ -1,0 +1,19 @@
+schema: signal
+object:
+  title: human-review-boundaries.md's tiering model parallels this framework's K1 maturity axis
+  type: signal
+  signal_type: content
+  affected_layer: review-maturity-k1
+  interpretation: >-
+    The source article's ephemeral/working/canonical three-tier model and
+    its "cheap reviewer checklist" + "named rotating reviewers" guidance map
+    closely onto this framework's existing review-maturity (K1) axis and the
+    review-promote skill's human gate — worth an explicit cross-reference
+    when this framework's own docs cite external precedent for the K1 model.
+  proposed_intervention: cite
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/human-review-boundaries.md
+    transformation: synthesized
+    authorship: ai-assisted

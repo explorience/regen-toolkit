@@ -1,0 +1,47 @@
+schema: concept-lineage
+object:
+  title: Social recovery and multi-sig as distributed wallet-recovery methods
+  type: concept-lineage
+  short_description: >-
+    Two distinct ways to remove a single point of failure from crypto wallet
+    access. Social recovery designates 3-5 trusted "guardians" who can
+    collectively help restore access to a lost wallet (typically with a
+    threshold approval and a time-lock window for the owner to cancel
+    unauthorized attempts). Multi-signature (multi-sig) requires multiple
+    private keys to authorize any transaction in the first place (e.g. 2-of-3,
+    3-of-5, 4-of-7), functioning as both ongoing security and de facto recovery
+    redundancy.
+  toolkit_usage: >-
+    Presented as two of five recovery methods in the article (alongside seed-
+    phrase backups, Shamir Secret Sharing, and inheritance planning), and
+    recommended as the core organizational/DAO-level practice.
+  adjacent_meanings:
+    - >-
+      Shamir Secret Sharing (splits a single seed into reconstructable shares —
+      a related but mathematically distinct approach to removing single points
+      of failure)
+    - >-
+      Multi-sig as security (the article notes multi-sig is "not just recovery
+      planning, it is ongoing security")
+  important_distinctions:
+    - >-
+      Social recovery restores access to an existing wallet after loss;
+      multi-sig prevents any single actor (including an attacker) from moving
+      funds unilaterally in the first place — the article treats them as
+      complementary, not interchangeable.
+    - >-
+      "Secret sharing done wrong": the article explicitly distinguishes ad hoc
+      seed-phrase splitting (which weakens security) from proper Shamir Secret
+      Sharing (a specific cryptographic scheme).
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — a technical security framework, not attributed to a specific
+    community or tradition.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/recovery-planning.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-efc28adfc7a7
+  source_lineage: recovery-planning.md

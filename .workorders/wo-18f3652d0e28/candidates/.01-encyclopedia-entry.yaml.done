@@ -1,0 +1,38 @@
+schema: encyclopedia-entry
+object:
+  title: Is Your Community Ready for a Local Node?
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A readiness check for organizers standing up a local ReFi node, arguing
+    that the technology is the easy part and the gap between imagined and
+    actual participation is what kills these projects. Uses the nine-stage
+    Community Readiness Model to set "stage 5, preparation" as the honest
+    launch cutoff, lists green/red flags, gives a three-part readiness test
+    (organize one small thing, handle one small conflict, sustain effort
+    three months), and warns against single-founder dependency using the
+    collapse of Ithaca Hours, the Bristol Pound, and the Brixton Pound as
+    cautionary examples, contrasted with the resilient, multi-stakeholder
+    Sarafu Network.
+  audience: organizers preparing to launch a local ReFi node/chapter
+  known_tensions:
+    - >-
+      this-isnt-gatekeeping-framing-vs-the-real-effect-of-telling-a-community-it-isnt-ready-yet
+  related_concepts:
+    - community-readiness-model-nine-stage-readiness-assessment
+  related_resources:
+    - tri-ethnic-center-community-readiness-model-assessment-manuals
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-community-ready.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: "Grassroots Economics / Sarafu Network" is not
+    re-created as a new resource object — it already exists in
+    data/kb/resource.yaml from a prior ingestion slice. A separate
+    "single point of failure" concept-lineage was not created — the
+    framework already has an equivalent "Bus factor" concept-lineage; the
+    Ithaca Hours/Bristol Pound/Brixton Pound specifics are instead captured
+    as a claim-evidence object linked to that existing concept.

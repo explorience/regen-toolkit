@@ -1,0 +1,35 @@
+schema: source-system
+object:
+  title: ReFi DAO
+  type: directory
+  steward: ReFi DAO core team and its local-node stewards
+  return_path: >-
+    Local nodes register and can be found via refidao.com/local-nodes; the
+    network's own reciprocal touchpoint is a monthly community call (third
+    Thursday of each month) that holds the worldwide network together — a
+    node contributes back by showing up there and by listing itself in the
+    directory rather than operating as an extracted case study.
+  url: https://refidao.com
+  what_it_curates: >-
+    A global directory and coordination layer for local, self-organizing
+    regen-finance chapters ("local nodes") running real-world experiments on
+    the ground.
+  why_it_matters: >-
+    It is the article's primary named authority and source for concrete
+    examples (ReFi Cape Town's informal-gathering-first approach, the
+    third-Thursday global call cadence) used throughout the guide.
+  how_to_credit: Credit as "ReFi DAO" with a link to refidao.com.
+  use_type: public directory + network coordination
+  toolkit_route: layer-9-federation
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/types-of-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: types-of-gatherings.md
+  notes: >-
+    Registered here as a source-system per skills/ingest step 6 (living
+    knowledge environment referenced before content objects use it); a
+    fuller register-source pass may want to verify currentness/update_rhythm
+    directly with ReFi DAO rather than inferring only from this one article.

@@ -1,0 +1,52 @@
+schema: encyclopedia-entry
+object:
+  title: An Editorial Workflow Your Commons Won't Outgrow
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A concrete editorial workflow for knowledge commons: five stages (Draft,
+    Review, Approve, Publish, Maintain); making trust-state visible on every
+    page (status field or growth labels like seedling/budding/evergreen);
+    separating claims from evidence with a Wikipedia Good-Article-style citation
+    spot-check; using pull requests (and GitBook's change-request equivalent for
+    non-coders) as the review container, with CODEOWNERS auto-assigning
+    reviewers; sorting pages by Diátaxis type (tutorial, how-to, reference,
+    explanation) so reviewers know what "good" means for that page; treating
+    maintenance as an owned, scheduled stage rather than an afterthought; and
+    handling disagreement as a normal, non-violent part of the review process.
+  audience: small knowledge-commons/documentation teams
+  known_tensions:
+    - >-
+      polished-writing vs reviewed-knowledge — "a well-written page can still be
+      wrong," the article's core justification for separate Review/Approve
+      stages.
+    - >-
+      friendly-non-technical-tooling (GitBook) vs rigorous-technical-tooling
+      (GitHub pull requests + CODEOWNERS) — presented as the same underlying
+      container with a friendlier door, not a real trade-off in outcome.
+  related_concepts:
+    - claim-evidence-discipline
+    - diataxis-documentation-framework
+  related_resources:
+    - GitBook
+    - Vale
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/editorial-workflow.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-379fb55cc1a6
+  source_lineage: editorial-workflow.md
+  notes: |
+    # assessed-but-excluded
+    - Wikipedia's Good Article process, GitHub CODEOWNERS, and GravityDAO's
+      conflict-management approach are all cited with named sources but treated
+      as supporting citations within the encyclopedia entry / concept-lineage
+      objects rather than separate resource cards, since the article uses them
+      as evidentiary references rather than tools this commons would adopt
+      directly (unlike GitBook and Vale, which are actionable recommendations).
+    - No people/community profiles, exact locations, or MRV/ecological/funding
+      claims — this is meta-level guidance about documentation process; no
+      public-use-boundary object created.

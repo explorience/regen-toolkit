@@ -1,0 +1,18 @@
+schema: resource
+object:
+  title: Gitcoin Grants
+  type: resource
+  resource_type: funding-platform
+  url: https://grants.gitcoin.co/
+  link_status: active
+  original_source: src/content/docs/funding-your-node.md (References)
+  related_concepts:
+    - quadratic-funding
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-3a548f510339
+  source_lineage: funding-your-node.md

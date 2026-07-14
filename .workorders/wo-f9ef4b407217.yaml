@@ -1,0 +1,29 @@
+id: wo-f9ef4b407217
+title: ingest tax-implications.md
+type: work-order
+source_path: tax-implications.md
+source_hash: 1367aec6f4f7017e7ac495d7709ca88c88463cc2d2278a849152714363c94c2a
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - data/kb/encyclopedia-entry.yaml#tax-implications-of-cryptocurrency
+  - data/kb/public-use-boundary.yaml#untitled-22cdaa83
+  - data/kb/concept-lineage.yaml#capital-gains-crypto-us
+  - >-
+    data/kb/claim-evidence.yaml#crypto-is-property-not-currency-for-us-tax-purposes
+  - >-
+    data/kb/claim-evidence.yaml#form-1099-da-is-a-new-broker-reporting-form-starting-2025
+  - data/kb/resource.yaml#cointracker
+  - data/kb/resource.yaml#koinly

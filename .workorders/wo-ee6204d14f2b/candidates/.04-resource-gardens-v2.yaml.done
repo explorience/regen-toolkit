@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Gardens v2 (1Hive)
+  type: resource
+  resource_type: tool
+  url: https://app.gardens.fund/
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: conflict-resolution.md
+  related_concepts:
+    - optimistic-governance
+    - conviction-voting
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/conflict-resolution.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ee6204d14f2b
+  source_lineage: conflict-resolution.md
+  notes: >-
+    Conviction-voting DAO framework with covenant-based dispute resolution via
+    Celeste; live on Gnosis Chain, Optimism, Arbitrum, Base, Polygon, and Celo
+    per article.

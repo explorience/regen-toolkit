@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: ReFi (Regenerative Finance)
+  type: concept-lineage
+  short_description: >-
+    Using web3 tools (tokens, DAOs, on-chain markets) to fund and coordinate
+    environmental and social projects, such as carbon credits or conservation
+    efforts.
+  source_traditions:
+    - regenerative economics / regenerative agriculture
+    - DeFi (decentralized finance) tooling and mechanics
+    - impact investing and carbon-market finance
+  toolkit_usage: >-
+    Listed in the glossary's "R" section as one of ~80 beginner terms; the
+    toolkit's own scope and name ("Regen Web3 Toolkit") is built directly on
+    this term.
+  adjacent_meanings:
+    - regenerative agriculture (no web3/finance component)
+    - carbon markets / voluntary carbon credits (may or may not use web3 rails)
+  important_distinctions:
+    - >-
+      ReFi ≠ DeFi — DeFi is the financial-mechanics layer (lending, trading,
+      staking); ReFi is a values/purpose layer that may or may not use DeFi
+      primitives to fund ecological/social outcomes
+  tensions:
+    - >-
+      "ReFi" is used both narrowly (on-chain carbon/biodiversity finance) and
+      broadly (any web3-enabled community/mutual-aid economics) across the
+      toolkit's own articles — this glossary entry gives only the broad,
+      one-line version
+  risks_of_flattening: >-
+    A one-sentence glossary definition ("using web3 tools to fund environmental
+    and social projects") can read as if ReFi is inherently regenerative by
+    virtue of using blockchain — the toolkit's own frame- language discipline
+    (see docs/CSIS.md) cautions against exactly this conflation of "on-chain"
+    with "regenerative."
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/key-terms-a-z.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-64084e777fab
+  source_lineage: key-terms-a-z.md

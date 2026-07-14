@@ -1,0 +1,36 @@
+schema: concept-lineage
+object:
+  title: Mempool (transaction waiting room)
+  type: concept-lineage
+  short_description: >-
+    The pool of unconfirmed transactions a blockchain node holds after a
+    transaction is broadcast but before it is included in a block; higher
+    fees generally earn priority inclusion in the next block.
+  source_traditions:
+    - bitcoin/ethereum node-software terminology
+  toolkit_usage: >-
+    Introduced in how-transactions-work.md as step 3 ("Broadcasting") of the
+    seven-step transaction journey, framed as a "waiting room" for
+    not-yet-confirmed transactions.
+  adjacent_meanings:
+    - block
+    - gas-fee-priority
+  important_distinctions:
+    - >-
+      Being in the mempool is not the same as being confirmed — a
+      transaction can sit in the mempool indefinitely (or be dropped) if fees
+      are too low relative to network demand.
+  tensions:
+    - >-
+      "Higher fees = priority seating" framing simplifies real fee-market
+      dynamics (fee estimation, replace-by-fee, congestion spikes).
+  risks_of_flattening: >-
+    The "bus with limited seats" analogy is a helpful beginner mental model
+    but does not capture that mempool contents differ across nodes (each
+    node's mempool is a local, not globally synchronized, view).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/how-transactions-work.md
+    transformation: synthesized
+    authorship: ai-assisted

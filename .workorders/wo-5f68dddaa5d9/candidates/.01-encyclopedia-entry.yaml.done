@@ -1,0 +1,42 @@
+schema: encyclopedia-entry
+object:
+  title: "Building in Public"
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A short practice guide for local nodes on sharing progress, failures, and
+    learnings openly as they build: posting updates, sharing decisions, and
+    being transparent about challenges. Lists why it works (attracts
+    supporters, creates accountability, builds trust, generates content,
+    helps other nodes), what to share (progress updates, lessons learned,
+    behind-the-scenes decision-making and financial transparency), where to
+    share (Twitter/X, Farcaster, blog, newsletter, Discord/Telegram), and four
+    best practices: be consistent, be honest, be specific, engage with
+    responses.
+  audience: local node organizers deciding how to communicate publicly
+  known_tensions:
+    - >-
+      consistency vs polish — the article's closing line, "consistency
+      matters more than polish," treats frequent small updates as more
+      valuable than infrequent, highly produced ones.
+  related_concepts:
+    - building-in-public-as-practice
+  related_resources: []
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-in-public.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5f68dddaa5d9
+  source_lineage: building-in-public.md
+  notes: |
+    # assessed-but-excluded
+    - No people/community profiles, exact locations, TEK, MRV/carbon claims,
+      or funding/legal/governance recommendations — no high-risk trigger.
+      "Financial transparency" is listed only as a category of content to
+      share, not a specific recommendation about treasury structure.
+    - The article names no specific tools, orgs, or external sources beyond
+      generic platform categories (Twitter/X, Farcaster, Discord/Telegram) —
+      too generic to warrant dedicated resource objects.

@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: Hybrid web3 adoption (selective tool use by function)
+  type: concept-lineage
+  short_description: >-
+    Using web3 tools only where they add clear value (e.g. treasury management,
+    governance voting) while keeping traditional tools where they don't
+    (communication, scheduling, document management), rather than treating "web3
+    vs. not" as an all-or-nothing choice.
+  source_traditions:
+    - pragmatic-tool-selection / "right tool for the job" practice
+  toolkit_usage: >-
+    The recommended default in is-web3-right.md's "The Hybrid Approach" section,
+    positioned as what "most communities" actually benefit from.
+  adjacent_meanings:
+    - is-a-dao-right-for-your-community
+  important_distinctions:
+    - >-
+      Being honest about whether web3 "serves your community or your curiosity"
+      — the article frames both as valid but insists they not be confused with
+      each other.
+  tensions:
+    - >-
+      Simplicity of an all-traditional or all-web3 stack vs. the coordination
+      overhead of maintaining a mixed toolset.
+  risks_of_flattening: >-
+    The article's "when web3 adds value" / "when it doesn't" lists are presented
+    as fairly clean-cut, but in practice the line (e.g. "under 10 and
+    high-trust") is a rule of thumb, not a hard threshold the article
+    substantiates with evidence.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-web3-right.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-c5735ba16b9b
+  source_lineage: is-web3-right.md

@@ -1,0 +1,35 @@
+schema: encyclopedia-entry
+object:
+  title: What Is Ethereum?
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A beginner explainer for regenerative community builders (written for a
+    Somaliland/East Africa audience) framing Ethereum not as "another
+    cryptocurrency" but as a shared, tamper-proof digital notebook run by
+    thousands of computers with no single controller. Explains smart contracts
+    via a vending-machine metaphor (set conditions, code executes automatically,
+    no middleman), sketches concrete regen use cases (DAO decision-making,
+    transparent fundraising, automatic crop insurance via oracles), and
+    addresses the energy-use objection head-on (Ethereum's 2022 "Merge" cut
+    energy use ~99%).
+  audience: individual community builders new to Web3, East Africa / Somaliland
+  known_tensions:
+    - >-
+      Ethereum-as-money vs. Ethereum-as-platform — the article's central
+      reframing is that Ethereum's differentiator from Bitcoin is programmable
+      smart contracts, not just being "digital cash."
+  related_concepts:
+    - smart-contract
+    - dao
+  related_resources:
+    - metamask
+    - ethereum-name-service
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-is-ethereum.md
+  work_order: wo-0e57f85327bf

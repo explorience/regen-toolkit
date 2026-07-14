@@ -1,0 +1,15 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Claims about Silvi Protocol's tree-verification pipeline and automated
+    payment mechanism are drawn from a single promotional playbook
+    (src/content/docs/silvi-protocol.md, sources: [] in frontmatter). Treat
+    verification-accuracy and "provable impact" claims as unverified marketing
+    language until corroborated against Silvi's own technical documentation or
+    an independent audit. No named individuals or specific planting locations
+    were captured; this boundary is about the MRV/ecological-claim content, not
+    personal data.
+  review_type: domain-review (MRV/ecological-claims + third-party protocol accuracy)
+  work_order: wo-ec7a53915677
+  source_lineage: silvi-protocol.md

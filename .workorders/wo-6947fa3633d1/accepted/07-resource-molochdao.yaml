@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Moloch DAO (quorum voting reference implementation)
+  type: resource
+  resource_type: repo
+  url: https://github.com/MolochVentures/moloch
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: voting-mechanisms.md
+  related_concepts:
+    - token-based-quorum-voting
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/voting-mechanisms.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: voting-mechanisms.md
+  work_order: wo-6947fa3633d1

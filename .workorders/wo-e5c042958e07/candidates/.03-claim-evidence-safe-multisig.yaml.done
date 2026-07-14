@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Safe (formerly Gnosis Safe) is the standard multi-signature treasury guard for DAOs
+  type: claim-evidence
+  claim: >-
+    Safe (formerly Gnosis Safe) is a shared wallet requiring several trusted
+    people to approve before any money moves — "the digital version of a
+    cheque that needs two or three signatures" — and this multi-signature
+    setup is described as the standard way DAOs guard a treasury, often used
+    alongside Snapshot's off-chain signalling for the gap Snapshot itself
+    doesn't close (automatic on-chain enforcement).
+  evidence: >-
+    Article's own description, linked to safe.global in the references; no
+    specific adoption statistic (e.g., number of DAOs using Safe, total
+    value secured) is cited.
+  source_lineage: src/content/docs/what-is-dao.md
+  interpretation: >-
+    Used to explain how "most regen groups start with Snapshot for
+    signalling plus a Safe for the money" as a practical two-tool starter
+    stack before reaching for full on-chain governance.
+  uncertainty: >-
+    "The standard way" is asserted without a citation to adoption data; the
+    claim is plausible given Safe's prominence in the space but is not
+    independently verified here.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-dao.md
+    transformation: summarized
+    authorship: ai-assisted

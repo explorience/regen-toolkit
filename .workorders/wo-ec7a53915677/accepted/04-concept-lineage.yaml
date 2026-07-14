@@ -1,0 +1,45 @@
+schema: concept-lineage
+object:
+  title: Decentralized MRV (dMRV) for Tree Planting
+  type: concept-lineage
+  short_description: >-
+    Using a smartphone (photo + geolocation), AI verification, community review,
+    and blockchain recording to monitor, report, and verify individual
+    tree-planting actions, replacing traditional institution-mediated MRV with a
+    phone-and-protocol pipeline.
+  source_traditions:
+    - >-
+      Framed in the article through Silvi Protocol's specific implementation:
+      photo/geo capture -> AI check -> community review -> automated stablecoin
+      payout.
+  toolkit_usage: >-
+    Presented as the mechanism that lets individual planters "prove" impact
+    directly to funders/donors without an intermediary institution.
+  adjacent_meanings:
+    - impact verification
+    - reforestation MRV
+  important_distinctions:
+    - >-
+      AI + community "verification" via photo and geopin is a lighter-weight
+      process than field-audited/scientific dMRV used in formal carbon-credit
+      programs; the article does not distinguish these rigor levels.
+  tensions:
+    - >-
+      The article's framing ("It's transparent... your impact is real and
+      provable") asserts verification confidence that a single promotional
+      source cannot independently substantiate.
+  risks_of_flattening: >-
+    Presenting phone-photo + AI + peer-review verification as equivalent to
+    "real and provable" impact risks flattening the real methodological
+    differences between lightweight community MRV and audited ecological
+    verification used for compliance-grade carbon/biodiversity credits.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/silvi-protocol.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-ec7a53915677
+  source_lineage: silvi-protocol.md

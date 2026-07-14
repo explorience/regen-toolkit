@@ -1,0 +1,27 @@
+id: wo-03d7c600800a
+title: ingest how-transactions-work.md
+type: work-order
+source_path: how-transactions-work.md
+source_hash: 4d6968a10fe28799b10976cd93b0649c50da1a76926d61cf5d6c033f6e9b2c68
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g5
+produced:
+  - data/kb/encyclopedia-entry.yaml#how-blockchain-transactions-work
+  - data/kb/concept-lineage.yaml#mempool-transaction-waiting-room
+  - >-
+    data/kb/claim-evidence.yaml#a-private-key-exclusively-controls-signing-authority-over-a-blockchain-account
+  - >-
+    data/kb/claim-evidence.yaml#once-included-in-a-block-a-transaction-becomes-an-immutable-part-of-blockchain-history
+  - data/kb/resource.yaml#ledger-academy-how-does-a-blockchain-transaction-work

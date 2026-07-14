@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Tokenized real estate can be fractionally sold in minutes vs months/years
+  type: claim-evidence
+  claim: >-
+    Real estate normally takes months or years to sell, but tokenizing a
+    property lets it be divided into fractions that "sell in minutes," and
+    someone could buy 1% of a property for $500 (article's own example:
+    "a college student can own a slice of a building in NYC").
+  evidence: >-
+    No external source, dataset, or named platform transaction is cited —
+    this is an illustrative claim made directly by the article, not
+    attributed to a study or a specific tokenized-property case.
+  source_lineage: src/content/docs/tokens-real-world-assets.md
+  interpretation: >-
+    Used as the primary "why does this matter" argument for RWA tokenization
+    (liquidity + fractional access), the centerpiece benefit claim of the
+    article.
+  uncertainty: >-
+    "Sell in minutes" describes trading a token representing the fraction,
+    not necessarily deep, liquid buyer demand for that token; the article
+    does not address whether a real secondary market exists for a given
+    tokenized fraction at the moment someone wants to sell.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-real-world-assets.md
+    transformation: summarized
+    authorship: ai-assisted

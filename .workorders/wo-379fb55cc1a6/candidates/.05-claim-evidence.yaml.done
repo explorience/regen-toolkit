@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Wikipedia Good Article process requires a reviewer citation spot-check
+  type: claim-evidence
+  claim: >-
+    To pass Wikipedia's Good Article process, an article must cite reliable
+    sources inline for anything that could reasonably be challenged, and the
+    reviewer does a spot-check — sampling citations and confirming each source
+    actually supports the sentence it's attached to.
+  evidence: >-
+    Article cites "Wikipedia: Good Article criteria" (en.wikipedia.org) in its
+    reference list as the source for this description.
+  source_lineage: src/content/docs/editorial-workflow.md
+  interpretation: >-
+    Used as the article's clearest real-world model for the claim-evidence
+    discipline it recommends this commons adopt — held up as the example to
+    emulate in the Review stage.
+  uncertainty: >-
+    Faithfully restates the article's own characterization of Wikipedia's
+    process; not independently re-verified against Wikipedia's actual current
+    Good Article criteria page in this ingest pass.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/editorial-workflow.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-379fb55cc1a6

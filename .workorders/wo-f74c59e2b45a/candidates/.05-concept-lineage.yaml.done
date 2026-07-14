@@ -1,0 +1,33 @@
+schema: concept-lineage
+object:
+  title: Crypto Donation Onboarding (Nonprofit)
+  type: concept-lineage
+  short_description: >-
+    The workflow a nonprofit follows to start accepting crypto donations:
+    choose a donation platform, verify 501(c)(3)/equivalent nonprofit status,
+    configure the account, embed a donate button/widget, and test before
+    going live.
+  source_traditions:
+    - CryptoAltruists Web3 Impact Toolkit (per article frontmatter sources)
+  toolkit_usage: >-
+    Framed in the article as a low-effort ("about an hour") operational
+    add-on once nonprofit documents are ready, paired with automatic
+    tax-receipt generation for donors.
+  adjacent_meanings:
+    - crypto donation platform onboarding
+    - nonprofit crypto acceptance
+  important_distinctions:
+    - >-
+      Choosing which cryptocurrencies to accept (e.g. start with Bitcoin and
+      Ethereum) is separate from choosing the platform itself.
+  tensions: []
+  risks_of_flattening: >-
+    The "about an hour" framing risks understating the real bottleneck the
+    article itself names: gathering nonprofit verification documents, which
+    is often the slower, org-dependent step.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-receive-crypto.md
+    transformation: summarized
+    authorship: ai-assisted

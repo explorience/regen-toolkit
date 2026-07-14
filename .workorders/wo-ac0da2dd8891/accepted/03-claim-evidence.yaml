@@ -1,0 +1,25 @@
+schema: claim-evidence
+object:
+  title: Layer 2 fees drop 90-99%; a $5 mainnet swap costs $0.05 on Arbitrum
+  type: claim-evidence
+  claim: '"Fees drop 90-99%. A $5 swap on mainnet might cost $0.05 on Arbitrum."'
+  evidence: >-
+    Presented as a general rule with one illustrative example; no specific date,
+    transaction, or data source is cited in the article.
+  source_lineage: src/content/docs/gas-fees.md (no external source cited)
+  interpretation: >-
+    Directionally consistent with well-known Layer 2 cost advantages (L2s batch
+    transactions off mainnet, sharing settlement costs); the specific "$5 →
+    $0.05" figure is illustrative, not a live quote.
+  uncertainty: >-
+    Both mainnet and L2 gas costs fluctuate constantly with network demand; the
+    90-99% range and the $5/$0.05 example are approximations that will drift and
+    should not be quoted as current pricing without re-checking live gas
+    trackers.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gas-fees.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-ac0da2dd8891

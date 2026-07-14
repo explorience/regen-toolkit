@@ -1,0 +1,36 @@
+schema: claim-evidence
+object:
+  title: Most rejected DAO proposals fail due to clarity/scoping, not idea quality
+  type: claim-evidence
+  claim: >-
+    "Most rejected proposals fail not because the idea is bad but because the
+    proposal is unclear, poorly scoped, or doesn't address community
+    concerns." (proposal-writing.md, "Why Proposals Fail")
+  evidence: >-
+    No specific study, dataset, or named DAO case is cited. Article
+    frontmatter lists a single generic source: "Community governance" (no
+    further citation detail).
+  source_lineage: "src/content/docs/proposal-writing.md (frontmatter sources field: Community governance)"
+  interpretation: >-
+    Used as the article's foundational justification for the entire
+    proposal-anatomy and pre-proposal-process guidance that follows —
+    reframes proposal failure as a communication/process problem rather than
+    a merit problem.
+  uncertainty: >-
+    Presented as a general truth with no supporting data, named example, or
+    citation beyond a vague "Community governance" source tag. Plausible based
+    on common DAO-governance folk wisdom, but unverified in this article and
+    should be treated as an assertion pending evidence.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/proposal-writing.md
+    transformation: quoted
+    authorship: ai-assisted
+
+# assessed-but-excluded: the article is short (~1 page) and generic (no named
+# DAOs, tools, or specific case studies) — the "Common Mistakes" and "Moving
+# Forward" sections were folded into the concept-lineage/encyclopedia-entry
+# summaries rather than split into further objects, since they add no new
+# citable claims or distinct entities beyond the proposal-anatomy template
+# already captured.

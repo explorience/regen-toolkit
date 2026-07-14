@@ -1,0 +1,50 @@
+schema: encyclopedia-entry
+object:
+  title: "AI-Assisted Classification for Your Knowledge Commons"
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    An opinionated guide for small teams on using AI to sort and tag a growing
+    document pile without letting it silently invent its own taxonomy.
+    Distinguishes typing (what kind of thing) from tagging (what it's about),
+    contrasts unsupervised discovery (BERTopic) with supervised bucketing
+    (LLMs against a fixed category list), and argues for running discovery
+    once to design a taxonomy then constraining all later AI output to an
+    enum so the categories stay stable. Closes with a human-in-the-loop
+    discipline: store model confidence, stamp provenance on every tag, and
+    never let an AI suggestion pass as a settled decision.
+  audience: small teams and local nodes running a shared docs/GitHub knowledge base
+  known_tensions:
+    - >-
+      discovery (let the data surprise you) vs bucketing (force answers into a
+      fixed list) — article resolves this as "discovery once to design the
+      taxonomy, bucketing for everything after."
+    - >-
+      constrained output (schema/enum-locked classification) prevents taxonomy
+      sprawl but also means a genuinely new category needs a deliberate,
+      reviewed "new tag" escape hatch rather than silent invention.
+  related_concepts:
+    - typing-vs-tagging
+  related_resources:
+    - BERTopic
+    - Auto Classifier (Obsidian plugin)
+    - AI Tagger (obsidian-ai-tagger)
+    - Ollama
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-assisted-classification.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e50c8f7e3b5d
+  source_lineage: ai-assisted-classification.md
+  notes: |
+    # assessed-but-excluded
+    - No people/community profiles, exact locations, TEK, MRV/carbon claims, or
+      funding/legal/governance recommendations in this article — no high-risk
+      trigger identified. It is a general practitioner's guide to classification
+      tooling.
+    - The article's closing "Try This" exercise ladder (start/go-deeper/stretch)
+      was read but not modeled as a separate object — it is a pedagogical
+      structure of this one entry, not a distinct typed object.

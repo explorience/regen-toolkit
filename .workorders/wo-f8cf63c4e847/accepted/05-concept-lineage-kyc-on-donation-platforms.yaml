@@ -1,0 +1,35 @@
+schema: concept-lineage
+object:
+  title: KYC/AML handling on crypto-donation platforms
+  type: concept-lineage
+  short_description: >-
+    The article's framing that money-laundering/compliance concerns are largely
+    offloaded by a nonprofit onto its chosen donation platform, which verifies
+    donor identity (KYC), screens transactions, and keeps records.
+  toolkit_usage: >-
+    Used to reassure nonprofit boards that "you're not on your own" for
+    compliance — the platform, not the org, does the heavy lifting.
+  adjacent_meanings:
+    - >-
+      custodial-vs-noncustodial (most nonprofits use a platform that manages the
+      wallet for them)
+  important_distinctions:
+    - >-
+      org-level compliance vs platform-level compliance — the article claims the
+      burden sits mostly with the platform
+  tensions:
+    - >-
+      convenience-of-outsourcing-compliance vs
+      org's-own-fiduciary-responsibility-to-verify-the-platform-is-reputable
+  risks_of_flattening: >-
+    "Reputable platforms handle it" is a generalization; not every platform's
+    KYC/AML program is equivalent, and the article does not name specific
+    compliance certifications to check for.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/compliance-legal.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f8cf63c4e847
+  source_lineage: compliance-legal.md

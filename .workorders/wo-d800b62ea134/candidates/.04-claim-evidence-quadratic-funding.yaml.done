@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: "Quadratic funding lets many small donors collectively outweigh a few large ones"
+  type: claim-evidence
+  claim: >-
+    Quadratic funding (as used by Gitcoin Grants) amplifies small donations by
+    matching them based on how many people contribute rather than how much
+    each person gives, so many small donors collectively have more influence
+    than a few large ones.
+  evidence: >-
+    Article cites Gitcoin Grants as the working example; general mechanism
+    description, no specific match-pool figures cited.
+  source_lineage: src/content/docs/cooperative-commons.md
+  interpretation: >-
+    Presented as one of several viable funding paths for cooperative/commons
+    work, alongside member contributions, savings-group formalization, and
+    grants.
+  uncertainty: >-
+    No citation to a primary quadratic-funding explainer or dataset; mechanism
+    description is accurate at a conceptual level but simplified (real QF
+    implementations add sybil-resistance and collusion mitigations not
+    mentioned here).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/cooperative-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d800b62ea134

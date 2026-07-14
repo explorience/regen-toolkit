@@ -1,0 +1,34 @@
+schema: concept-lineage
+object:
+  title: Optimistic governance (covenant-challenge pattern)
+  type: concept-lineage
+  short_description: >-
+    A governance pattern where proposals execute by default ("act first") and
+    can be challenged if they violate a written covenant, pausing the
+    proposal for adjudication — scales because only contested proposals need
+    review.
+  source_traditions:
+    - 1Hive Gardens (conviction voting + Celeste dispute resolution)
+  toolkit_usage: >-
+    Presented in conflict-resolution.md as the healthy way to put tooling
+    behind a node's social conflict process: anyone can flag a proposal as
+    violating the community's covenant, sending it to Celeste, where randomly
+    selected token-holders rule on the challenge.
+  adjacent_meanings:
+    - optimistic rollups (same "assume valid, allow challenge" pattern applied to blockchain scaling, not governance)
+  important_distinctions:
+    - "optimistic governance (community proposal disputes) is distinct from optimistic rollups (L2 scaling), despite the shared 'optimistic' naming"
+  tensions:
+    - "low overhead for the common case vs. relying on someone noticing and flagging a bad proposal in time"
+  risks_of_flattening: >-
+    Framing this as a pure tooling fix risks skipping the article's own
+    caution that mechanism only works once the social process (a written,
+    agreed covenant) already exists.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/conflict-resolution.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ee6204d14f2b
+  source_lineage: conflict-resolution.md

@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Coordinape
+  type: resource
+  url: https://coordinape.com
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - peer-allocated-compensation
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Used by 100+ DAOs including Bankless and Yearn Finance per the article;
+    contributors allocate "GIVE" recognition tokens to peers, and allocated
+    tokens determine payment distribution — a peer-to-peer alternative to
+    manager-decided compensation.
+  work_order: wo-fda5b8111b9b
+  source_lineage: dao-tooling.md

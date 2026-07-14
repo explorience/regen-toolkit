@@ -1,0 +1,51 @@
+schema: concept-lineage
+object:
+  title: Flat vs Hierarchical Organizational Structure
+  type: concept-lineage
+  short_description: >-
+    A contrast between pyramid-shaped organizations (departments, managers,
+    executives, decisions flowing top-down) and flat, peer-coordinated
+    structures where contributors take on roles by interest and capability
+    rather than job title.
+  source_traditions:
+    - 20th-century theory of the firm (organizational hierarchy as a response
+      to coordination-cost problems)
+    - cooperative and associational governance (East African cooperatives cited
+      in the article as a comparison point)
+    - DAO/blockchain-native peer coordination
+  toolkit_usage: >-
+    Used in this article as the structural half of the DAO-vs-traditional-firm
+    comparison, paired with the decision-making and capital-formation
+    dimensions, and connected to the observation that traditional companies are
+    geographically limited while DAOs are not.
+  adjacent_meanings:
+    - flatness as an absence of formal titles (this article's framing)
+    - flatness as an absence of any power differential (a stronger, contested
+      claim the article does not make)
+  important_distinctions:
+    - >-
+      flat-structure-vs-actual-power-distribution — the article itself
+      cautions elsewhere (token concentration) that a flat org chart does not
+      guarantee flat power; formal hierarchy and informal concentration are
+      different things.
+    - >-
+      even-democratic-traditional-orgs-can-drift — the article notes that
+      "even organizations founded on democratic principles can drift toward
+      concentrated control over time," applying this critique to cooperatives,
+      not only corporations.
+  tensions:
+    - >-
+      flexibility-and-self-direction (flat) vs need-for-self-direction-without-
+      management-support — flatness "creates flexibility but also requires
+      self-direction," per the article.
+  risks_of_flattening: >-
+    Assuming "flat" automatically means "equal" erases the article's own later
+    caution about token concentration recreating centralized control inside a
+    nominally flat structure.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/daos-vs-traditional.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-15f037f070f8

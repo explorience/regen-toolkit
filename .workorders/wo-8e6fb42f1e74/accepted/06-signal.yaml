@@ -1,0 +1,23 @@
+schema: signal
+object:
+  title: >-
+    inclusive-practices.md distinguishes measuring participation from measuring
+    belonging
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia
+  interpretation: >-
+    The article's "Measuring Inclusion" section explicitly separates headcount
+    participation metrics from belonging metrics ("do people feel valued," "do
+    diverse voices actually influence decisions") — a reusable frame this
+    toolkit could apply anywhere it discusses community-health or inclusion
+    metrics, not just in this one article.
+  proposed_intervention: cite
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/inclusive-practices.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-8e6fb42f1e74
+  source_lineage: inclusive-practices.md

@@ -1,0 +1,17 @@
+schema: resource
+object:
+  title: ReFi DAO Local Nodes directory
+  type: resource
+  resource_type: directory
+  url: https://refidao.com/local-nodes
+  link_status: active
+  is_source_system_candidate: true
+  original_source: "src/content/docs/find-your-community.md (References)"
+  related_concepts:
+    - regenerative-finance-refi
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/find-your-community.md
+    transformation: quoted
+    authorship: ai-assisted

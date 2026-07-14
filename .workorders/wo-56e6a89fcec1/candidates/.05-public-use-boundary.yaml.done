@@ -1,0 +1,15 @@
+schema: public-use-boundary
+object:
+  title: Multisig Setup for Community Treasuries — public-use boundary
+  tier: public-with-caveat
+  consent_note: >-
+    This article and its derived objects contain treasury/security
+    configuration guidance (thresholds, signer selection, key management)
+    for real community funds. High-risk trigger: funding/governance
+    recommendations (per skills/ingest) — getting this wrong has direct
+    financial consequences. Should be presented alongside a recommendation
+    to test thoroughly with small amounts first (as the source article
+    itself advises) and not treated as a substitute for a security review
+    by someone experienced with the chosen wallet software before real
+    funds are deposited.
+  review_type: domain-review (security/operational) recommended before public-facing promotion past raw

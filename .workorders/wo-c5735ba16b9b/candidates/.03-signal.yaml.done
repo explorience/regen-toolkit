@@ -1,0 +1,21 @@
+schema: signal
+object:
+  title: is-web3-right.md's only listed source is a generic placeholder ("Community building")
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia
+  interpretation: >-
+    The article's frontmatter `sources` field contains only the string
+    "Community building" — not an actual citation, link, or named source —
+    and the article body has no References section. Its claims (e.g. the
+    "under 10 and high-trust" and "2-3 people who can support others
+    technically" thresholds) are presented as generalizable advice without
+    any backing evidence. Worth flagging for review-promote before this
+    content moves past `raw`/`draft`.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-web3-right.md
+    transformation: synthesized
+    authorship: ai-assisted

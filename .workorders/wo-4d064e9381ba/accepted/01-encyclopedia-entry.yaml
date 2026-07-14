@@ -1,0 +1,38 @@
+schema: encyclopedia-entry
+object:
+  title: Onboarding New Members to Your Local Node
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practical playbook for local-node stewards on welcoming and integrating
+    new members without becoming the bottleneck. Reframes onboarding as a
+    "trellis, not a funnel" — a pre-built structure newcomers climb rather than
+    a conversion pipeline. Centers the first-90-days retention window, a
+    one-buddy-per-newcomer system, a repeatable first-week structure, using web3
+    tooling (POAP, USSD access) as a welcome mat rather than a gate, and
+    graduating members into roles (observe → first contribution → real role) so
+    onboarding becomes self-sustaining and steward burnout is addressed as part
+    of the onboarding design itself.
+  audience: local node stewards / community organizers
+  known_tensions:
+    - >-
+      Token-gating as a filtering instinct ("prove you belong before we let you
+      in") vs. the article's explicit recommendation to use web3 tools (POAP,
+      phone-first access) to lower barriers instead.
+    - >-
+      Leaning on network-level support (ReFi DAO incubator, shared guides)
+      framed as "mutual aid, not central overreach" — the article draws this
+      line but flags it as something a steward must actively guard.
+  related_concepts:
+    - onboarding-as-trellis-not-funnel
+    - seed-sapling-canopy-node-maturity
+  related_resources:
+    - poap
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onboarding-members.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-4d064e9381ba
+  source_lineage: onboarding-members.md

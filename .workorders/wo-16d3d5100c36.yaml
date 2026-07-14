@@ -1,0 +1,29 @@
+id: wo-16d3d5100c36
+title: ingest human-review-boundaries.md
+type: work-order
+source_path: human-review-boundaries.md
+source_hash: 87e452783a1d66dacfd4d573d8ad94dd13dd096259594e75b844ab4ecc5fd31b
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g5
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#human-review-boundaries-for-a-knowledge-commons
+  - >-
+    data/kb/concept-lineage.yaml#review-boundary-consequence-based-content-tiering
+  - data/kb/source-system.yaml#superbenefit-knowledge-garden
+  - >-
+    data/kb/claim-evidence.yaml#superbenefit-s-knowledge-garden-sorts-content-into-raw-working-and-refined-artifact-tiers
+  - >-
+    data/kb/signal.yaml#human-review-boundaries-md-s-tiering-model-parallels-this-framework-s-k1-maturity-axis

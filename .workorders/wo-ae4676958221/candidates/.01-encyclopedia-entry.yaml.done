@@ -1,0 +1,53 @@
+schema: encyclopedia-entry
+object:
+  title: "AI Tools for Community Knowledge"
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    An opinionated guide to the AI tools that help a small team build a
+    knowledge commons that survives contributor turnover. Organized around
+    one governing rule, "infrastructure should serve the work, not define
+    it" — ask what job needs doing (capture, synthesize, search) before
+    picking a tool. Walks through transcription (Otter.ai) for capture,
+    retrieval-augmented generation (Google NotebookLM) for grounded
+    synthesis, and local-first search (Obsidian + Smart Connections) for
+    private, durable ownership, then closes on three guardrails: privacy,
+    attribution, and naming one steward.
+  audience: small community teams building a durable, AI-assisted knowledge base
+  known_tensions:
+    - >-
+      cloud convenience (NotebookLM, Otter.ai) vs local ownership (Obsidian +
+      Smart Connections) — article resolves this by routing sensitive or
+      long-lived material to local tools and using cloud tools for
+      lower-stakes synthesis and search.
+    - >-
+      polished AI writing reads as trustworthy whether or not it is accurate —
+      the article treats this as more dangerous than a messy human note, not
+      less, and insists AI drafts be marked distinctly from human-confirmed
+      knowledge.
+  related_concepts:
+    - retrieval-augmented-generation
+  related_resources:
+    - Otter.ai
+    - Google NotebookLM
+    - Smart Connections
+    - Quartz
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-community-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ae4676958221
+  source_lineage: ai-community-tools.md
+  notes: |
+    # assessed-but-excluded
+    - No people/community profiles or exact locations named in this article;
+      privacy/consent is discussed as general advice about handling
+      transcripts, not itself sensitive material — no high-risk trigger on
+      the entry itself.
+    - GravityDAO is mentioned only as an analogy ("the kind of practice
+      GravityDAO has built its work around") rather than described in enough
+      detail to warrant its own resource object; folded into this entry's
+      summary instead.

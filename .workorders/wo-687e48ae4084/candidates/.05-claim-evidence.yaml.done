@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: Token-weighted voting risks whale dominance
+  type: claim-evidence
+  claim: >-
+    Token-weighted voting, the most widely used DAO governance model, can lead
+    to whale dominance, where a few large token holders control outcomes,
+    because wealth translates directly into voting power.
+  evidence: >-
+    Article's own analysis of the token-weighted model's cons, reiterated in
+    its closing "Key Concerns" section as a concern across all models.
+  interpretation: >-
+    Used to motivate the article's presentation of quadratic voting,
+    reputation-based, multi-sig, and hybrid models as attempts to counter this
+    specific failure mode, and to caution that even alternative models can be
+    captured by other means (e.g. reputation systems captured by established
+    members).
+  uncertainty: >-
+    General mechanism-design claim illustrated with named example DAOs (ENS
+    DAO) but not backed by a specific data source or study in this article;
+    no quantified whale-concentration figures given.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-governance-models.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-687e48ae4084

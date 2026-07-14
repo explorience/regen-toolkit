@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: "Founder/team conflict is a leading cause of startup failure (Wasserman)"
+  type: claim-evidence
+  claim: >-
+    Harvard Business School's Noam Wasserman, studying roughly 10,000
+    founders for "The Founder's Dilemmas," found that founder-related issues
+    (disputes over roles, equity, and commitment) are a leading cause of
+    startup failure, with co-founder conflict frequently cited as derailing
+    a large share of otherwise promising ventures.
+  evidence: >-
+    Cited in the article from Noam Wasserman, "The Founder's Dilemmas"
+    (Princeton University Press), listed in the article's References with a
+    link to the publisher's page.
+  interpretation: >-
+    Used by the article to support its core thesis: "who you build with, and
+    how clearly you agree on terms, decides more than your strategy does" —
+    an argument for small, trust-bonded founding teams over headcount.
+  uncertainty: >-
+    Reproduces the article's own paraphrase of Wasserman's research; the
+    precise share of failures attributed to founder conflict is described in
+    the article only as "a large share," not a specific cited percentage.
+    Not independently verified against the book for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md

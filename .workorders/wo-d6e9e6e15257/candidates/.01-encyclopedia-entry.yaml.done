@@ -1,0 +1,53 @@
+schema: encyclopedia-entry
+object:
+  title: "Archive or Compost: Handling Outdated Knowledge Without Losing the Plot"
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    A practical framework for retiring stale documents in a knowledge commons
+    without deleting institutional memory or confusing readers. Names four
+    moves — archive (preserve as labeled history), compost (harvest the still
+    -good parts into living pages, retire the husk), deprecate (mark obsolete
+    with a warning and a pointer), and remove (rare; last resort) — against
+    the Regen Knowledge Commons Toolkit's Evolution Layer and cross-cutting
+    principle #17, "compost, archive, and memory." Closes on the governance
+    rule that keeps this from becoming chaos: a staleness flag is a signal,
+    not a conclusion — a named steward decides which move applies and does it
+    on the record.
+  audience: teams stewarding docs/wikis that must outlive contributor turnover
+  known_tensions:
+    - >-
+      most teams only know two verbs, keep and delete — keeping lets the wiki
+      silently rot, deleting erases the memory of why a decision was made; the
+      article's four-move framework is presented as the fix.
+    - >-
+      composting requires human judgment (deciding what's worth keeping) while
+      archiving and deprecating are described as "near-mechanical" — the
+      article treats this as why composting is the most valuable and least
+      practiced of the four moves.
+  related_concepts:
+    - archive-compost-deprecate-remove
+    - evergreen-notes-maturity-taxonomy
+  related_resources:
+    - Read the Docs
+    - Grafana Writers' Toolkit
+    - Quartz
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md
+  notes: |
+    # assessed-but-excluded
+    - No people/community profiles, exact locations, TEK, MRV/carbon claims,
+      or funding/legal/governance recommendations in this article — no
+      high-risk trigger identified. It is a general documentation-hygiene
+      practice guide.
+    - GravityDAO is mentioned only as an analogy for tending trust on purpose,
+      not described in enough detail here to warrant its own resource object
+      (a fuller GravityDAO resource object already exists from other
+      ingestions of articles that describe it directly).

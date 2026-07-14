@@ -1,0 +1,30 @@
+id: wo-13f3c98bb4d6
+title: ingest planning-web3-events.md
+type: work-order
+source_path: planning-web3-events.md
+source_hash: 50605b12cbf8010512b05bafb05ecb084c8c2f18c8ce9e3c1dc9918cfc00731d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g7
+produced:
+  - data/kb/encyclopedia-entry.yaml#planning-web3-events-for-your-local-node
+  - >-
+    data/kb/concept-lineage.yaml#one-job-per-event-educational-social-working-celebration
+  - >-
+    data/kb/claim-evidence.yaml#refi-dao-s-alpha-cohort-local-node-incubator-supported-30-plus-events-and-raised-55k-via-gitcoin
+  - data/kb/resource.yaml#luma-lu-ma
+  - data/kb/resource.yaml#galxe-oat-on-chain-achievement-token
+  - >-
+    data/kb/signal.yaml#poap-entered-maintenance-mode-march-2026-existing-content-referencing-it-as-an-active-issuance-tool-needs-review
+  - data/kb/source-system.yaml#greenpill-network-cda42cd3

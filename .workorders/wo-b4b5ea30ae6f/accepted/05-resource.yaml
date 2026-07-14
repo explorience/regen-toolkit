@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Greenpill Network
+  type: resource
+  resource_type: org
+  url: https://greenpill.network
+  link_status: active
+  is_source_system_candidate: true
+  original_source: src/content/docs/find-your-community.md (References)
+  related_concepts:
+    - regenerative-finance-refi
+  notes: >-
+    Runs local chapters and the Greenpill podcast (hosted by Kevin Owocki,
+    Gitcoin co-founder); article names roughly a dozen active chapters as of
+    mid-2026 including Cape Town, Nairobi, Taipei, Rio de Janeiro, NYC, and
+    London Ontario.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/find-your-community.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b4b5ea30ae6f
+  source_lineage: find-your-community.md

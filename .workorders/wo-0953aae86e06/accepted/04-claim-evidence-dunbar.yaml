@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: >-
+    Eating together more often correlates with trust, happiness, and community
+    engagement
+  type: claim-evidence
+  claim: >-
+    People who eat socially more often report trusting others more, feeling
+    happier, and being more engaged with their local community, and the causal
+    arrow runs from eating together to bonding, not the reverse — used to
+    justify the community-meal gathering format as the foundational
+    trust-building layer for a local node.
+  evidence: >-
+    Cited to Dunbar, "Breaking Bread: The Functions of Social Eating" (2017),
+    described as a UK survey study, linked in the article's references
+    (https://link.springer.com/article/10.1007/s40750-017-0061-4).
+  source_lineage: src/content/docs/types-of-gatherings.md
+  interpretation: >-
+    Used to justify prioritizing informal, food-based gatherings before
+    introducing any web3/governance concept to a new local-node community.
+  uncertainty: >-
+    The article asserts a specific causal direction ("the causal arrow runs from
+    eating together to bonding, not the reverse") as settled from a single UK
+    survey study; a single correlational-plus-directional claim from one study
+    should be treated as suggestive rather than definitive, and the study's
+    UK-specific sample may not generalize to all local-node contexts globally.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/types-of-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-0953aae86e06

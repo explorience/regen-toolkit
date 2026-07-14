@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Governance Mechanism Design
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    A framework for designing DAO/community governance mechanisms: six core
+    mechanisms (token-weighted voting, one-person-one-vote, quadratic voting,
+    conviction voting, consent-based decision making, futarchy) each with a
+    best-fit context and named risks; a decision-type-to-mechanism mapping
+    table; five design principles (match mechanism to context, minimize
+    complexity, build in safeguards, iterate, transparency); and
+    anti-manipulation measures against Sybil attacks, whale dominance, and
+    collusion. Recommends starting with consent-based decisions for small
+    groups and adding quadratic voting plus delegation as the group grows.
+  audience: DAO/community governance designers
+  known_tensions: []
+  related_concepts:
+    - quadratic-voting
+    - conviction-voting
+  related_resources:
+    - gitcoin-passport
+    - brightid
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/governance-mechanism-design.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-f2e5810230ed, governance-mechanism-design.md):
+# - The "Decision Type → Recommended Mechanism" table and the "Anti-
+#   Manipulation Measures" bullet lists (Sybil/whale/collusion resistance
+#   tactics) — folded into this entry's summary rather than split into
+#   separate objects; they are structural sub-parts of the same framework,
+#   not independently reusable concepts or sourced claims.
+# - Frontmatter production/workflow metadata (author: Tej, sources listed
+#   generically as "Mechanism design theory," "DAO governance patterns,"
+#   "Quadratic voting research" with no specific citations, research_done,
+#   draft_done, factcheck_done, review_done, critique_done, published_flag,
+#   estimated_words, section/track numbers, status: draft) — internal
+#   site-authoring state, not toolkit content. Note: this article's own
+#   frontmatter status is "draft" (not "published" like the other nine in
+#   this batch) — flagged for the reviewer's attention, not altered here.

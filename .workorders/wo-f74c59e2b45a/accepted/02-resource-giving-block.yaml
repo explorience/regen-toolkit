@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: The Giving Block
+  type: resource
+  resource_type: crypto-donation-platform
+  is_source_system_candidate: false
+  link_status: unresolved
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - crypto-donation-onboarding
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/setting-up-receive-crypto.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Described in the article as the "full-featured" platform option, used by
+    large nonprofits, for accepting crypto donations. URL not given in article;
+    link_status left unresolved pending verification.
+  work_order: wo-f74c59e2b45a
+  source_lineage: setting-up-receive-crypto.md

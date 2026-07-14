@@ -1,0 +1,28 @@
+id: wo-003c0d82b00d
+title: ingest wallet-comparison-guide.md
+type: work-order
+source_path: wallet-comparison-guide.md
+source_hash: 2449b6003c516a4909fd57f94f6bf9dc39f04718dea6d2082f3c8caecf55ca5e
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g9
+produced:
+  - data/kb/encyclopedia-entry.yaml#wallet-comparison-guide
+  - data/kb/concept-lineage.yaml#self-custody-crypto-wallets
+  - data/kb/resource.yaml#coinbase-wallet
+  - data/kb/resource.yaml#metamask-cbffca76
+  - data/kb/resource.yaml#trust-wallet
+  - data/kb/resource.yaml#rainbow-wallet
+  - >-
+    data/kb/signal.yaml#article-references-an-unexplained-sarreya-program-coordinator-and-test-usdc-onboarding-flow

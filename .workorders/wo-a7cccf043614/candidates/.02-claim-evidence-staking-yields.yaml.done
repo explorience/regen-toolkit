@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: "Ethereum staking yields cited at roughly 3-16% annually"
+  type: claim-evidence
+  claim: >-
+    Locking tokens to support a network (staking) can earn roughly 3-16%
+    annually on Ethereum, achievable via solo staking (needs 32 ETH), staking
+    pools (any amount), or liquid staking (a token like rETH representing the
+    staked position while it still holds value and earns).
+  evidence: >-
+    No citation given in-article for the 3-16% range; presented as general
+    knowledge/estimate.
+  source_lineage: src/content/docs/creating-buying-earning.md
+  interpretation: >-
+    Used to motivate staking as a beginner-accessible way to "earn" rather
+    than just buy/hold; the wide range (3-16%) is not broken down by method or
+    time period.
+  uncertainty: >-
+    Uncited figure; actual staking yields fluctuate with total ETH staked,
+    network activity/fees, and validator performance, and can differ
+    materially between solo, pooled, and liquid staking due to fees taken by
+    intermediaries — none of that nuance is in the source article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/creating-buying-earning.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a7cccf043614

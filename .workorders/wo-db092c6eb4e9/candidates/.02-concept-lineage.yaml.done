@@ -1,0 +1,48 @@
+schema: concept-lineage
+object:
+  title: Type vs. Tag (metadata discipline)
+  type: concept-lineage
+  short_description: >-
+    A type says what something *is* (a document has exactly one type,
+    e.g. guide, meeting note, decision, person); a tag says how something
+    might be classified or filtered (a document can have many tags, e.g.
+    governance, solar, draft). Confusing the two creates ontology sprawl.
+  source_traditions:
+    - >-
+      the Regen Web3 Toolkit's own internal ontology principle 11 ("type /
+      tag discipline")
+    - folksonomy research on collaborative/uncontrolled tagging
+    - library/information-science controlled-vocabulary practice
+  toolkit_usage: >-
+    Presented as "the one distinction to get right" before designing any
+    metadata schema — the article states plainly that this toolkit's own
+    architecture "makes this its eleventh cross-cutting principle" and
+    warns that confusing tags with types creates ontology sprawl.
+  adjacent_meanings:
+    - controlled vocabulary (the fix once type/tag is separated — a fixed set of approved tag values)
+    - folksonomy (uncontrolled, emergent tagging — the failure mode this distinction guards against)
+  important_distinctions:
+    - >-
+      type ≠ tag — one type per document (routes it) vs. many tags per
+      document (classifies/filters it); this is the article's central
+      claim
+  tensions:
+    - >-
+      light vocabulary control (recommended) vs. unmoderated folksonomy
+      tagging — research cited ("Folksonomy," Wikipedia) shows unmoderated
+      tags drift into inconsistency, but heavy-handed control kills
+      contribution; the article does not fully resolve where the line sits,
+      only that some control beats none
+  risks_of_flattening: >-
+    Presenting type/tag discipline as a simple binary rule undersells how
+    hard the "what is the type" question can get for genuinely hybrid
+    documents (e.g. a meeting note that is also a decision record) — the
+    article's own examples are the clean cases, not the ambiguous ones a
+    real commons will hit.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/metadata-that-matters.md
+    transformation: synthesized
+    authorship: ai-assisted

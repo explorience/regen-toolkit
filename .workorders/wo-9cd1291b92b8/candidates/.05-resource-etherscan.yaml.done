@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Etherscan
+  type: resource
+  url: https://etherscan.io
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - oracle
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-web3-can-cant-do.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Public block explorer recommended in the "Try This" exercise to see how
+    little privacy a public chain actually offers — any wallet or transaction
+    can be looked up.

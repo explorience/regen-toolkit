@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Tally
+  type: resource
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - token-weighted-voting
+  is_source_system_candidate: false
+  link_status: unresolved
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Described as the rigorous on-chain governance option, built on the
+    OpenZeppelin Governor framework, handling governance for protocols managing
+    billions in assets; offers immutable records, automatic execution, and
+    delegation tracking. Article does not give a URL directly (no reference-list
+    entry for Tally); URL left unresolved rather than invented.
+  work_order: wo-fda5b8111b9b
+  source_lineage: dao-tooling.md

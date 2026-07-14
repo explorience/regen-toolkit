@@ -1,0 +1,36 @@
+schema: claim-evidence
+object:
+  title: On-chain attestations cannot be changed, deleted, or faked once recorded
+  type: claim-evidence
+  claim: >-
+    "Once it's there, it cannot be changed, deleted, or faked. It's like carving
+    something into stone, it stays forever." (onchain-attestations.md,
+    describing attestations once written to a blockchain)
+  evidence: >-
+    No citation given in the article body; `sources: []` in the article's own
+    frontmatter. The claim reflects a generally accurate property of
+    append-only, sufficiently-decentralized blockchains (data written to a
+    sufficiently secure chain is very difficult to alter retroactively) but is
+    stated here as an absolute with no caveats.
+  source_lineage: >-
+    src/content/docs/onchain-attestations.md (frontmatter sources field is
+    empty)
+  interpretation: >-
+    Presented to a beginner, non-technical audience as an unqualified guarantee,
+    to build confidence in attestations as a credentialing tool.
+  uncertainty: >-
+    Overstated as an absolute. In practice: (1) an attestation being
+    "unchangeable" refers to the record of the claim, not the truth of the claim
+    — a false or mistaken attestation is just as permanently recorded as a true
+    one; (2) revocation schemes exist precisely because issuers sometimes need
+    to invalidate an attestation; (3) "cannot be faked" depends entirely on
+    trusting whoever the issuing party is, which the article does not address.
+    The article's own `sources: []` frontmatter field confirms no supporting
+    citation was attached.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onchain-attestations.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-b40786d63ff2

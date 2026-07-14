@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: 'Grazing-land recovery example: rest-rotation grazing confirmed by satellite'
+  type: claim-evidence
+  claim: >-
+    Community members documented grass regrowth in previously degraded grazing
+    areas, proving that their rest-rotation grazing practice was working;
+    satellite verification confirmed their observations.
+  evidence: >-
+    Presented in the article as "Example 3: Grazing Land Recovery," an
+    illustrative case combining community documentation with satellite
+    verification.
+  source_lineage: src/content/docs/dmrv.md
+  interpretation: >-
+    Used to demonstrate the "automated + human verification" pattern in dMRV,
+    and to show an ecological/impact claim being validated through a combination
+    of local observation and remote sensing.
+  uncertainty: >-
+    Presented as an illustrative example without a named location, date,
+    organization, or citable data source — likely a composite/generic scenario
+    rather than a specific, independently verifiable case; treat as an
+    ecological/impact claim requiring domain review before any decision-relevant
+    reuse.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dmrv.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-0e8b32eb0398
+  high_risk: true

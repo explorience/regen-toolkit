@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: Hardware wallets cost roughly $80-$200
+  type: claim-evidence
+  claim: >-
+    Popular hardware wallets (Ledger, Trezor) cost between $80 and $200, a cost
+    the article frames as worthwhile once an organization or individual holds
+    more than a few hundred dollars in crypto.
+  evidence: >-
+    Stated directly in hot-vs-cold.md's "What is Cold Storage?" section as a
+    general price range, without a specific model, retailer, or date cited.
+  source_lineage: src/content/docs/hot-vs-cold.md
+  interpretation: >-
+    Used as the article's cost-justification for recommending hardware wallets
+    over paper wallets for anything beyond small holdings.
+  uncertainty: >-
+    Approximate range only; hardware wallet pricing varies by model/retailer and
+    changes over time — not independently verified against current Ledger/Trezor
+    storefronts for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/hot-vs-cold.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d415241a023a

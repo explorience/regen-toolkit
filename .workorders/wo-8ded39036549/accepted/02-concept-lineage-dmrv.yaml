@@ -1,0 +1,47 @@
+schema: concept-lineage
+object:
+  title: dMRV (Digital Measurement, Reporting, and Verification)
+  type: concept-lineage
+  short_description: >-
+    A system for turning real-world actions (e.g. planting a tree) into
+    unchangeable, verifiable proof by recording photos, location, and other data
+    on the blockchain — used to attract funding, demonstrate accountability, and
+    prove contributions.
+  source_traditions:
+    - >-
+      Named directly in the article as the term for programs like Silvi that
+      prove tree planting and pay contributors for verified impact.
+  toolkit_usage: >-
+    Presented as the third of three Ethereum use cases relevant to "Sarreya"
+    program participants: photograph a planted tree, record its location, and
+    submit through an app, creating permanent, verifiable proof of the
+    contribution.
+  adjacent_meanings:
+    - >-
+      oracle (dMRV data must ultimately be trusted/fed onto the chain by
+      someone)
+  important_distinctions:
+    - >-
+      dMRV proves that specific reported data was submitted and recorded
+      immutably; it does not, on its own, independently verify the underlying
+      real-world claim (e.g. that the tree survives) — this distinction is not
+      made explicit in this particular article, unlike the more cautious framing
+      given in "What Web3 Can and Can't Do."
+  tensions:
+    - >-
+      This article presents dMRV/on-chain impact proof relatively uncritically
+      compared to the toolkit's own "what-web3-can-cant-do" article, which names
+      MRV/carbon claims as a high-risk area requiring oracles and human trust,
+      not just recording data on-chain.
+  risks_of_flattening: >-
+    Describing on-chain impact records as simply "permanent proof of your
+    contribution" risks overstating what dMRV can guarantee — permanence of the
+    record is not the same as verification of the underlying real-world fact.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-you-can-do-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-8ded39036549
+  source_lineage: what-you-can-do-ethereum.md

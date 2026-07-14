@@ -1,0 +1,16 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    Web3 credentials/SBTs are identity- and reputation-linked by design (tied to
+    a wallet address, aggregated across platforms like Gitcoin Passport).
+    Content here explains the mechanism generally and names no specific
+    individual's credential history, but any future examples or case studies
+    built on this entry should avoid publishing identifiable individuals'
+    wallet-linked credential histories without their consent, since that
+    aggregation is itself a privacy/doxing risk the source article surfaces
+    implicitly (wallet rotation fragmenting/consolidating one's trackable
+    history).
+  review_type: domain-review-for-identity-and-privacy-implications
+  work_order: wo-77d9f87bf031
+  source_lineage: credentials-certifications.md

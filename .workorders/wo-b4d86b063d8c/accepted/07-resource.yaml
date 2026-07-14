@@ -1,0 +1,18 @@
+schema: resource
+object:
+  title: Aave
+  type: resource
+  resource_type: tool
+  url: https://aave.com
+  link_status: active
+  original_source: src/content/docs/ethereum-ecosystem.md (References)
+  related_concepts:
+    - decentralized-finance-defi
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ethereum-ecosystem.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-b4d86b063d8c
+  source_lineage: ethereum-ecosystem.md

@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Layer 2 Solutions
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Explains how Layer 2 networks (Base, Arbitrum, Optimism, zkSync Era,
+    Starknet, Scroll) scale Ethereum by processing transactions off the main
+    chain and settling compressed batches back to it, cutting fees from
+    several dollars to fractions of a cent. Covers Optimistic vs. ZK rollup
+    designs, why this matters for regenerative-finance projects running
+    micro-transactions or community token systems, and how to get started
+    (MetaMask, bridging, using L2 dApps).
+  audience: regen project builders new to Ethereum scaling, East Africa / Somaliland-focused track
+  known_tensions:
+    - >-
+      Optimistic Rollups (accessible, widely compatible, ~7-day challenge
+      window) vs. ZK Rollups (faster finality, no challenge window, more
+      technically complex, "still maturing")
+  related_concepts:
+    - Layer 2 (Ethereum scaling)
+  related_resources:
+    - Base
+    - Arbitrum
+    - L2BEAT
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/layer-2s.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded:
+#   - The step-by-step "Getting Started" and "Try This" instructions
+#     (installing MetaMask, bridging funds, sending a test transaction) were
+#     folded into the summary rather than split into a separate
+#     implementation-record — they are generic onboarding steps, not a
+#     documented deployment case.
+#   - Optimism, zkSync Era, Starknet, Scroll, Uniswap, and Across Protocol
+#     were mentioned but not each given a standalone resource object —
+#     only the two most load-bearing examples (Base, Arbitrum) plus the
+#     tracking tool (L2BEAT) were lifted, to avoid one-object-per-brand-
+#     mention sprawl for a single 900-word article.

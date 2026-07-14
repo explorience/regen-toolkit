@@ -1,0 +1,45 @@
+schema: encyclopedia-entry
+object:
+  title: Credentials and Certifications (Web3 verifiable credentials)
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Explains web3 credentials as records tied to a wallet address and signed by
+    an issuer's private key, independently verifiable without contacting the
+    issuer — Verifiable Credentials (VCs) and Soulbound Tokens (SBTs); the trust
+    problem they solve especially where institutions are weak or hard to reach
+    at a distance; active issuers (Gitcoin Passport, Karma, Lens, Galxe, Open
+    Badges); use in grant/DAO gating; and practical setup via MetaMask,
+    Ceramic/IDX, and Disco.xyz. High-risk: this whole topic is
+    identity/reputation infrastructure — see paired public-use-boundary.
+  audience: >-
+    individuals (e.g. in East Africa) building a portable, verifiable track
+    record via web3
+  known_tensions:
+    - >-
+      portability-and-verifiability vs
+      wallet-linked-identity-and-reputation-being-inherently-trackable/doxable
+    - credential-gating-as-sybil-resistance vs credential-gating-as-gatekeeping
+  related_concepts:
+    - verifiable-credentials
+    - soulbound-tokens
+    - sybil-resistance
+  related_resources:
+    - Gitcoin Passport
+    - Disco.xyz
+  maturity: raw
+  public_use: not-public-yet
+  high_risk: true
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/credentials-certifications.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-77d9f87bf031
+  source_lineage: credentials-certifications.md
+  notes: |
+    # assessed-but-excluded
+    - "Sarreya itself issues credentials on completion of path milestones" —
+      appears to reference a specific platform/product by name not otherwise
+      described in this batch; kept as prose context, not spun into its own
+      resource object since the article gives no further detail to verify against.

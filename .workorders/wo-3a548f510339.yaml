@@ -1,0 +1,31 @@
+id: wo-3a548f510339
+title: ingest funding-your-node.md
+type: work-order
+source_path: funding-your-node.md
+source_hash: 6fcbda2096876ae3e34e6286a6742a8c2ecd05be24557671dff4d6e4b8b241e4
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g4
+produced:
+  - data/kb/encyclopedia-entry.yaml#funding-your-local-node
+  - data/kb/concept-lineage.yaml#rosca-rotating-savings-and-credit-association
+  - >-
+    data/kb/claim-evidence.yaml#gitcoin-gg24-round-oct-nov-2025-distributed-over-1-8-million
+  - data/kb/resource.yaml#safe
+  - data/kb/resource.yaml#open-collective
+  - data/kb/resource.yaml#gitcoin-grants
+  - data/kb/resource.yaml#greenpill-network-7fea7496
+  - data/kb/resource.yaml#refi-dao
+  - data/kb/resource.yaml#giveth-24afba7c
+  - data/kb/resource.yaml#hypercerts

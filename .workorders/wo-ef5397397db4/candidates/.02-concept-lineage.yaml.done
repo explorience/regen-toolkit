@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: Fungible vs Non-Fungible Tokens (FT/NFT)
+  type: concept-lineage
+  short_description: >-
+    The foundational token distinction: fungible tokens are mutually
+    interchangeable units of equal value (like currency), while non-fungible
+    tokens (NFTs) are each unique and not interchangeable one-to-one with
+    another of the same type.
+  source_traditions:
+    - Ethereum ERC token-standard ecosystem (ERC-20 fungible, ERC-721 non-fungible, ERC-1155 hybrid)
+    - mobile-money systems (M-Pesa) as a pre-crypto fungibility analogue named directly in the article
+  toolkit_usage: >-
+    Used as the entry-level conceptual split before introducing
+    asset-tokenization use cases (carbon credits, land stewardship rights,
+    cooperative membership) for regenerative communities.
+  adjacent_meanings:
+    - semi-fungible tokens (ERC-1155's hybrid capability, mentioned but not elaborated)
+    - tokens as access keys (the article's opening theme-park-pass framing, broader than the FT/NFT split itself)
+  important_distinctions:
+    - a coin (native to its own blockchain) vs a token (built atop someone else's blockchain) — named as the article's first clarifying distinction
+    - fungible tokens (1:1 interchangeable, e.g. stablecoins) vs NFTs (unique identifier + characteristics, e.g. digital art/collectibles)
+  tensions:
+    - tokens-as-tools-for-real-value (the article's stated conclusion) vs tokens-as-speculation/volatility (named as a real, unresolved concern)
+  risks_of_flattening: >-
+    Treating "carbon credits could be tokenized" and "land stewardship
+    rights could be represented as tokens" as roughly equivalent, low-friction
+    use cases risks flattening the very different legal, ecological-
+    verification, and governance complexity each one actually requires; the
+    article states these as possibilities without engaging that complexity.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-are-tokens.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-are-tokens.md

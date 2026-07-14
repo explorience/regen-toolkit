@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: "Crypto is property, not currency, for US tax purposes"
+  type: claim-evidence
+  claim: >-
+    Crypto is treated as property, not currency, for US tax purposes, so
+    every transaction can potentially trigger a taxable event, similar to
+    stocks or real estate.
+  evidence: >-
+    Stated as the article's foundational premise ("The Short Version");
+    aligns with widely reported IRS guidance (IRS Notice 2014-21 classifies
+    virtual currency as property), though that notice is not directly cited
+    in the article's text.
+  source_lineage: src/content/docs/tax-implications.md
+  interpretation: >-
+    Frames every subsequent taxable/non-taxable event distinction in the
+    article.
+  uncertainty: >-
+    Widely accepted characterization of current US tax treatment as of the
+    article's writing; not independently re-verified against primary IRS
+    guidance in this ingestion pass, and subject to future regulatory
+    change (article itself notes "the rules are evolving").
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/tax-implications.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,44 @@
+schema: concept-lineage
+object:
+  title: Conviction Voting
+  type: concept-lineage
+  short_description: >-
+    A continuous-funding governance mechanism where members stake tokens on
+    proposals they support; the longer tokens stay staked, the more
+    "conviction" builds, and a proposal passes once conviction exceeds a
+    threshold.
+  source_traditions:
+    - >-
+      DAO/commons-funding governance patterns (associated in the wider
+      ecosystem with 1Hive/Gardens-style implementations, not named in this
+      article)
+  toolkit_usage: >-
+    Recommended in this article for continuous funding allocation without
+    discrete voting rounds, positioned alongside quadratic voting as a
+    treasury-allocation mechanism.
+  adjacent_meanings:
+    - Discrete/periodic voting rounds (the model conviction voting replaces)
+    - Token-weighted voting (conviction voting still weights by stake, but adds a time dimension)
+  important_distinctions:
+    - >-
+      Conviction voting encodes preference *intensity over time* (how long
+      you've stayed committed), whereas quadratic voting encodes preference
+      intensity *at a point in time* (how many credits you spend); the two
+      solve different governance problems and the article recommends them
+      for different situations.
+  tensions:
+    - >-
+      The article names its own risk: "slow for urgent decisions, complex to
+      implement" — a mechanism built for continuous, patient allocation is a
+      poor fit exactly when a DAO needs to move fast.
+  risks_of_flattening: >-
+    Describing conviction voting only by its formal mechanic risks
+    understating that it structurally favors well-resourced, patient
+    stakeholders who can afford to leave tokens locked, over cash-constrained
+    members who need liquidity.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/governance-mechanism-design.md
+    transformation: synthesized
+    authorship: ai-assisted

@@ -1,0 +1,30 @@
+schema: signal
+object:
+  title: >-
+    Safe + Snapshot recur as the default tooling pair across multiple local-node
+    articles
+  type: signal
+  signal_type: resource
+  affected_layer: Layer 6 (Deployment) / tooling
+  interpretation: >-
+    Safe (multisig treasury) is recommended in this article as the very first
+    practical step even for the lightest "Collective" model, and recurs
+    identically in local-nodes-and-daos.md and multisig-setup.md (ingested in
+    this same batch) alongside Snapshot for voting. This consistency across
+    independently-written articles suggests "Safe + Snapshot" is a genuinely
+    stable, cross-article toolkit convention worth considering as a named
+    pattern/option-entry once a human reviewer consolidates the three sibling
+    resource objects (this work order's Safe + Open Collective,
+    local-nodes-and-daos' Snapshot + Hats Protocol, multisig-setup's Argent)
+    rather than leaving the recommendation scattered across three raw
+    encyclopedia entries.
+  proposed_intervention: preserve
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-node-model.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-f9c29bdf4648
+  source_lineage: local-node-model.md

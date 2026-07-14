@@ -1,0 +1,19 @@
+schema: resource
+object:
+  title: Open Collective
+  type: resource
+  resource_type: fiscal-hosting-platform
+  url: https://opencollective.com/fiscal-hosting
+  link_status: active
+  original_source: src/content/docs/funding-your-node.md (References)
+  notes: >-
+    Fiscal-hosting platform; budget becomes a public ledger anyone can audit in
+    real time. Hosts like The Social Change Nest handle accounting/compliance.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-3a548f510339
+  source_lineage: funding-your-node.md

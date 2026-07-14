@@ -1,0 +1,47 @@
+schema: encyclopedia-entry
+object:
+  title: Tokens for Real-World Assets
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Introduces real-world-asset (RWA) tokenization: turning off-chain valuable
+    things (real estate, gold, bonds, art, carbon credits) into blockchain
+    tokens that prove ownership and can be fractionally traded. Covers the
+    claimed benefits (liquidity, fractional access, transparency, lower cost,
+    global access), the real challenges (legal complexity across borders,
+    valuation/oracle dependence, custody of the physical asset, scalability),
+    the actors involved (issuers, platforms, liquidity providers, service
+    providers), and beginner action items.
+  audience: >-
+    newcomers exploring what asset tokenization is and whether to look closer
+    (per source, "target learner Maya")
+  known_tensions:
+    - >-
+      blockchain-token-portability vs
+      national-legal-jurisdiction-over-the-underlying-asset
+    - >-
+      claimed-transparency-and-lower-fraud vs
+      continued-dependence-on-a-human-custodian-for-the-physical-asset
+  related_concepts:
+    - real-world-asset-tokenization
+    - fractional-ownership
+  related_resources:
+    - Centrifuge
+    - Polymath
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-real-world-assets.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: tokens-real-world-assets.md
+  notes: |
+    # assessed-but-excluded
+    - no people/community profiles, exact locations, TEK, or specific
+      funding/legal recommendations named in this article beyond generic
+      "watch your country's regs" advice; no high-risk trigger identified.
+    - see the accompanying signal object flagging this source document's low
+      metadata/citation quality (frontmatter has placeholder/garbage
+      "sources: [l, i, s, t]" and no real audience/target_audience array).
+  work_order: wo-de914fb9d23f

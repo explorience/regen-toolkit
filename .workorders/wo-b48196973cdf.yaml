@@ -1,0 +1,25 @@
+id: wo-b48196973cdf
+title: ingest decentralization-resilience.md
+type: work-order
+source_path: decentralization-resilience.md
+source_hash: fa9a4da2d4a16f054bba78d6f6e268aa0d6cb1b003ce52ea0d0e364a5131eb24
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - data/kb/encyclopedia-entry.yaml#decentralization-and-resilience
+  - data/kb/concept-lineage.yaml#cosmo-local-coordination
+  - data/kb/concept-lineage.yaml#anti-fragility-in-decentralized-systems
+  - >-
+    data/kb/claim-evidence.yaml#decentralized-networks-route-around-damage-automatically

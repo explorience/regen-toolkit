@@ -1,0 +1,35 @@
+schema: encyclopedia-entry
+object:
+  title: Finding Your People
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    A member-attraction framework for local regen node builders: define your
+    ideal member (values, skills, contribution, needs) and your non-ideal member
+    before looking; look in named online spaces (Discord, Twitter/X, Reddit,
+    LinkedIn) and offline spaces (local meetups, co-working spaces, community
+    events, university groups); attract people through content marketing,
+    community presence, events, and one-on-one relationships; and move them
+    through a four-stage funnel (Awareness, Interest, Visit, Join) toward what
+    ultimately attracts people to stay — authenticity, belonging, purpose, and
+    value.
+  audience: local regen node builders/organizers
+  known_tensions:
+    - >-
+      Uses explicit marketing-funnel language ("Content Marketing," "The
+      Funnel," attracting an "ideal member") for what is otherwise framed
+      elsewhere on the site as organic, trust-based community building — the
+      instrumental framing sits in tension with the site's broader
+      anti-extractive posture (see the "Know Your Non-Ideal" step, which itself
+      gates who belongs).
+  related_concepts:
+    - community-member-attraction-funnel
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/finding-your-people.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e73a1f57e3c0
+  source_lineage: finding-your-people.md

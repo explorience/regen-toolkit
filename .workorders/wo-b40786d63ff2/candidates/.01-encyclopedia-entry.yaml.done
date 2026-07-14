@@ -1,0 +1,36 @@
+schema: encyclopedia-entry
+object:
+  title: "On-Chain Attestations: Your Digital Proof Record"
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A beginner-level explainer of on-chain attestations as permanent,
+    verifiable, tamper-proof digital proof records for skills, training
+    completion, volunteering, and community impact — framed as a replacement
+    for paper certificates that can be lost, damaged, or forged. Explains the
+    mechanism in three steps (someone vouches for you → it's recorded
+    permanently on a blockchain → anyone can verify it) and lists use cases:
+    proving skills for scholarships/jobs, building a portable reputation,
+    showing community impact, and accessing opportunity programs that require
+    verifiable proof.
+  audience: >-
+    Written directly for young women participants in "Sarreya programs" (a
+    named training/mentorship context referenced in the source article,
+    apparently East Africa / Somaliland-adjacent based on sibling articles in
+    this batch); beginner, non-technical.
+  known_tensions:
+    - >-
+      The article asserts attestations are simply superior to paper
+      certificates on every axis (permanent, verifiable, portable,
+      trustworthy) without discussing failure modes (e.g. the vouching party
+      itself being wrong, revoked, or unaccountable) — see accompanying
+      claim-evidence entry.
+  related_concepts:
+    - onchain-attestation-as-vouching-record
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onchain-attestations.md
+    transformation: summarized
+    authorship: ai-assisted

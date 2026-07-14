@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Snapshot
+  type: resource
+  url: https://snapshot.org
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - token-weighted-voting
+    - quadratic-voting
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Described as the most widely used DAO voting platform: gasless voting,
+    flexible voting strategies, off-chain IPFS storage; Snapshot X (2025) added
+    fully on-chain voting on Starknet at lower cost.
+  work_order: wo-fda5b8111b9b
+  source_lineage: dao-tooling.md

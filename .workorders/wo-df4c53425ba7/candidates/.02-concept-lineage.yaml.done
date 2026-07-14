@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: Hypercert (ERC-1155 impact-claim token)
+  type: concept-lineage
+  short_description: >-
+    A digital token, built on the ERC-1155 multi-token standard on Ethereum,
+    that captures who did what work, where, and during what timeframe, sold
+    prospectively (before work, to raise capital) or retrospectively (after
+    impact, to claim funding for completed work), and that can be split or
+    merged so funders can support exactly the slice of impact they care
+    about.
+  source_traditions:
+    - Hypercerts Foundation protocol design
+    - ERC-1155 multi-token standard (Ethereum)
+  toolkit_usage: >-
+    The core mechanism described in impact-certificates-hypercerts.md for
+    making retroactive-funding claims verifiable, permanent, and transferable.
+  adjacent_meanings:
+    - retroactive-public-goods-funding
+    - quadratic-funding
+  important_distinctions:
+    - >-
+      A hypercert is a claim of work done, not a certified/audited proof —
+      the article names "Evaluators" as the separate role that assesses
+      impact claims and builds reputation for doing so, distinct from the
+      creator and funder roles.
+  tensions:
+    - >-
+      Split/merge flexibility for funders vs. the risk of double-counting or
+      overlapping claims across split certificates if not tracked carefully.
+  risks_of_flattening: >-
+    The article states hypercerts are "Built on the AT Protocol," which
+    appears to be a factual error (AT Protocol is the Bluesky/social-web
+    protocol; hypercerts are ERC-1155 tokens on Ethereum per the same
+    article's "How It Works" section) — flagged separately as a signal
+    rather than repeated here as fact.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/impact-certificates-hypercerts.md
+    transformation: synthesized
+    authorship: ai-assisted

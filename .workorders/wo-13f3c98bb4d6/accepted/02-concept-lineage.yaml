@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: One job per event (educational / social / working / celebration)
+  type: concept-lineage
+  short_description: >-
+    A design constraint for community events: give each gathering exactly one of
+    four jobs — educational (teach one thing), social (build relationships, no
+    agenda), working (make concrete progress together), or celebration (mark a
+    win, thank contributors) — rather than trying to do all of them in one
+    evening.
+  toolkit_usage: >-
+    Structures the article's five-phase event-planning process; "define the job"
+    is phase one, and the article argues social and working events are the most
+    underrated for a young node (education attracts strangers, relationships and
+    shared output make them stay).
+  adjacent_meanings:
+    - >-
+      Priya Parker–style intentional gathering design (purpose-first event
+      framing, referenced by name in a sibling article on gathering patterns
+      rather than this one)
+  important_distinctions:
+    - >-
+      "The single biggest mistake is asking one event to do everything" — the
+      article explicitly contrasts this against combining teaching,
+      relationship-deepening, decision-making, and celebration in one event.
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — a general event-facilitation heuristic, not attributed to a
+    specific tradition or community.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/planning-web3-events.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-13f3c98bb4d6
+  source_lineage: planning-web3-events.md

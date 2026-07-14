@@ -1,0 +1,55 @@
+schema: encyclopedia-entry
+object:
+  title: Building Your Founding Team
+  type: encyclopedia-entry
+  page_type: guide
+  high_risk: true
+  summary: >-
+    A guide for organizers standing up a local ReFi node on assembling a small,
+    durable founding team. Argues to start with two or three committed people
+    rather than a crowd, fill roles (convener, builder/doer, treasurer/ops)
+    rather than titles, bring people in through real work rather than abstract
+    membership, and design against burnout from day one (no single point of
+    failure, legitimate rest). Cites named real-world nodes (ReFi Medellín, ReFi
+    Cartagena) and their named founders as worked examples, plus research on
+    founder conflict and DAO burnout.
+  audience: organizers standing up a local ReFi/regen node
+  known_tensions:
+    - >-
+      recruiting a crowd feels like momentum but the article argues small,
+      trust-bonded founding teams (2-3 people) outperform larger, looser ones
+      that "attended one call."
+    - >-
+      one person can hold two of the three core roles at the start, but the
+      article warns against any one person holding all three for long — tension
+      between fast bootstrapping and burnout risk.
+  related_concepts:
+    - node-founding-team-roles
+  related_resources:
+    - ReFi Medellín
+    - ReFi Cartagena
+    - Safe (multisig wallets)
+    - ReFi DAO Local Node Incubator
+  maturity: raw
+  public_use: requires-community-consent
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md
+  notes: |
+    # assessed-but-excluded
+    - Individual named organizers (Tereza Bízková, Juan Giraldo, Daniela,
+      Ximena, Diana Monclou, Fabio Anaya) are NOT modeled as public
+      person-nodes per the ingest skill's high-risk rule. They are referenced
+      only inside the ReFi Medellín / ReFi Cartagena resource objects and the
+      companion public-use-boundary object, all already publicly named in the
+      article's own cited sources (a public interview, a public grant
+      report).
+    - high_risk: true set on this entry because it (a) names real community
+      organizers by name/role and (b) gives governance/structural
+      recommendations (multisig signer counts, role design) for
+      funds-and-leadership decisions — both are ingest-skill high-risk
+      triggers. See the public-use-boundary object for the review gate.

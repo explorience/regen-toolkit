@@ -1,0 +1,29 @@
+id: wo-5db1fb2f799c
+title: ingest refi-vs-defi-tradfi.md
+type: work-order
+source_path: refi-vs-defi-tradfi.md
+source_hash: 766ddf4016ddd408750ef7640e19abb8028c505ed1e4df8f1369e1f9de2791f4
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g7
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#refi-vs-defi-vs-tradfi-three-ways-to-move-money
+  - data/kb/concept-lineage.yaml#regenerative-finance-refi-b6075069
+  - >-
+    data/kb/claim-evidence.yaml#global-average-cross-border-remittance-cost-was-6-36-in-late-2025-banks-averaging-14-99
+  - >-
+    data/kb/claim-evidence.yaml#ethereum-s-2022-proof-of-stake-switch-cut-energy-use-by-roughly-99-95
+  - data/kb/resource.yaml#regen-network-95d7e76e
+  - data/kb/resource.yaml#gitcoin

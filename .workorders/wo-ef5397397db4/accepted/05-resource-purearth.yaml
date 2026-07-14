@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Puro.earth
+  type: resource
+  resource_type: tool
+  url: https://puro.earth
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: what-are-tokens.md
+  related_concepts:
+    - carbon-credit-tokenization
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-are-tokens.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-are-tokens.md
+  work_order: wo-ef5397397db4

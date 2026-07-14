@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: GravityDAO
+  type: resource
+  url: https://gravitydao.org/
+  resource_type: org
+  toolkit_route: layer-2-encyclopedia
+  related_concepts:
+    - knowledge-commons
+  is_source_system_candidate: true
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-knowledge-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Cited as the governance-half example: brings conflict management and trust
+    creation to DAOs via alternative dispute resolution rather than top-down
+    arbitration. Used in the article to make the point that a commons' hardest
+    maintenance problems are usually disagreements about what's true/settled,
+    not technical ones.

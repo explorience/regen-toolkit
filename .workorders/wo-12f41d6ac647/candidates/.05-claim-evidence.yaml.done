@@ -1,0 +1,27 @@
+schema: claim-evidence
+object:
+  title: Outdated documentation can cause harm
+  type: claim-evidence
+  claim: >-
+    Documentation is only valuable if it stays current — outdated
+    documentation can actually cause harm because people make decisions based
+    on wrong information.
+  evidence: >-
+    Stated directly in the article's "Maintaining Documentation Over Time"
+    section, supported by the article's recommended monthly/quarterly/annual
+    review cadence and "Be Current" best practice (date everything, note
+    review-by dates, mark or remove inaccurate content).
+  interpretation: >-
+    Used to argue that documentation is an ongoing maintenance activity, not
+    a one-time write-and-forget task — directly motivates the article's
+    "Assign Ownership" and "Review on a Schedule" recommendations.
+  uncertainty: >-
+    General principle asserted from the author's own reasoning, not backed by
+    a specific incident, study, or named case in this article.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/documentation-knowledge.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-12f41d6ac647

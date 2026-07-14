@@ -1,0 +1,30 @@
+schema: claim-evidence
+object:
+  title: Comparative TPS and typical fees across five chains (Ethereum L1, Base, Arbitrum, Solana, Polygon)
+  type: claim-evidence
+  claim: >-
+    Approximate transactions-per-second and typical fees: Ethereum L1 15-30
+    TPS / $1-$100+ fees; Base (L2) ~80-90 TPS / $0.01-$0.10; Arbitrum up to
+    40,000 TPS / $0.01-$0.10; Solana up to 65,000 TPS / under $0.001; Polygon
+    ~1,000 TPS / low fees.
+  evidence: >-
+    Presented as a summary table in the article body; the References section
+    points to Ethereum.org's Layer 2 page and L2Beat as general sources, but no
+    per-chain citation or as-of date is given for the specific TPS/fee numbers.
+  source_lineage: src/content/docs/which-chain-right.md
+  interpretation: >-
+    Used to make the trilemma tradeoffs concrete and to support the article's
+    use-case-to-chain mapping (high-value DeFi → Ethereum L1; general apps →
+    Layer 2s; high-volume consumer apps → Solana; gaming → Polygon).
+  uncertainty: >-
+    Blockchain TPS and fee figures fluctuate significantly with network
+    congestion and over time (fee ranges especially); no snapshot date is given
+    for these numbers in the article. Treat as illustrative-at-time-of-writing
+    and verify current figures via L2Beat or the chains' own dashboards before
+    using this table for a real decision.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/which-chain-right.md
+    transformation: summarized
+    authorship: ai-assisted

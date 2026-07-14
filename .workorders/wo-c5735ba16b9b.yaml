@@ -1,0 +1,25 @@
+id: wo-c5735ba16b9b
+title: ingest is-web3-right.md
+type: work-order
+source_path: is-web3-right.md
+source_hash: ce2b1d33d85f191e694ee1fa4e597cce29662d8131d0395a6e877183fa586042
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g5
+produced:
+  - data/kb/encyclopedia-entry.yaml#is-web3-right-for-your-community
+  - >-
+    data/kb/concept-lineage.yaml#hybrid-web3-adoption-selective-tool-use-by-function
+  - >-
+    data/kb/signal.yaml#is-web3-right-md-s-only-listed-source-is-a-generic-placeholder-community-building

@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: Coinbase Wallet
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: unresolved
+  original_source: wallet-comparison-guide.md
+  related_concepts:
+    - self-custody-wallets
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/wallet-comparison-guide.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: wallet-comparison-guide.md
+  notes: >-
+    Ranked easiest for complete beginners; distributed via Google Play Store per
+    the article, no direct URL given so link_status is unresolved.
+  work_order: wo-003c0d82b00d

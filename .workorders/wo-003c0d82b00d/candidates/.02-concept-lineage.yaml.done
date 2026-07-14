@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: Self-Custody Crypto Wallets
+  type: concept-lineage
+  short_description: >-
+    An app that lets a person store, send, and receive digital assets
+    directly, controlled by a public address (shareable, like an account
+    number) and a secret seed phrase (12 or 24 words granting full access),
+    without a bank as intermediary.
+  source_traditions:
+    - Bitcoin/Ethereum-era self-custody wallet design (public/private key pairs)
+    - browser-extension and mobile wallet UX patterns (MetaMask, Coinbase Wallet, Trust Wallet, Rainbow)
+  toolkit_usage: >-
+    Used as the entry point for a beginner-facing program: contrasts
+    "bank account you don't control" with "wallet you fully control,"
+    then routes beginners to a specific first wallet based on their goal.
+  adjacent_meanings:
+    - custodial wallets (e.g., exchange-held funds) as the implicit contrast case, though not directly named in this article
+    - hardware/cold wallets as a more security-hardened but higher-friction alternative (referenced only via the "related" article link, not explained here)
+  important_distinctions:
+    - public address (safe to share) vs secret/seed phrase (never share, full access)
+    - self-custody (you hold the keys) vs custodial (a company holds them for you)
+  tensions:
+    - beginner-friendliness vs the real, unforgiving risk of an irrecoverable loss if the seed phrase is lost or leaked
+  risks_of_flattening: >-
+    The guide's ranked "easiest for beginners" framing risks understating
+    that all four wallets carry the same fundamental self-custody risk
+    (irreversible loss on seed-phrase compromise) — ease-of-setup is not the
+    same axis as security posture, and the article does not clearly
+    distinguish the two.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/wallet-comparison-guide.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: wallet-comparison-guide.md

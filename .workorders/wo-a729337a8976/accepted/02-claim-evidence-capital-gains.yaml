@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: >-
+    Crypto donations let US donors avoid capital gains tax and give larger
+    amounts
+  type: claim-evidence
+  claim: >-
+    Framed as a donor-facing benefit to communicate once an org is ready to
+    accept crypto: in the US, donating appreciated crypto directly can let
+    donors avoid capital gains taxes, enabling larger gifts, alongside speed and
+    global reach.
+  evidence: >-
+    Attributed in-article to Infinite Giving as the source recommending this
+    messaging framing.
+  source_lineage: src/content/docs/communicating-stakeholders.md
+  interpretation: >-
+    Positioned as a donor-communication talking point, not independent tax
+    advice — the article elsewhere tells orgs to consult their own counsel.
+  uncertainty: >-
+    Tax treatment is jurisdiction- and situation-specific (this is a general US
+    framing from a donation-platform vendor, not a tax authority); readers
+    should not treat this as individualized tax advice.
+  maturity: raw
+  public_use: not-public-yet
+  high_risk: true
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/communicating-stakeholders.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-a729337a8976

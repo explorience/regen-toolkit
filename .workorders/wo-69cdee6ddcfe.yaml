@@ -1,0 +1,26 @@
+id: wo-69cdee6ddcfe
+title: ingest knowledge-gardens.md
+type: work-order
+source_path: knowledge-gardens.md
+source_hash: 426e18a0b53e77cb3872869f81a35d239f81a1ad0187795a36c6e94a0df5ab9c
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#knowledge-gardens
+  - data/kb/source-system.yaml#superbenefit-knowledge-garden-39b234ba
+  - data/kb/concept-lineage.yaml#digital-garden-seedling-budding-evergreen
+  - data/kb/resource.yaml#obsidian-64b6552d
+  - data/kb/resource.yaml#quartz-ef8d9d94
+  - data/kb/resource.yaml#gravitydao-9122d41c

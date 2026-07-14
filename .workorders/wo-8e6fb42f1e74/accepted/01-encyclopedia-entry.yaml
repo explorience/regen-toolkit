@@ -1,0 +1,41 @@
+schema: encyclopedia-entry
+object:
+  title: Inclusive Practices for Community Finance
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    Argues that community finance systems default to excluding the same people
+    banks already exclude unless designed otherwise, and lays out five
+    dimensions of inclusion (economic, technical, temporal, social,
+    accessibility), practical strategies (plain language, multiple on-ramps,
+    rotating what gets centered, explicit invitation, accountability), common
+    mistakes (tokenism, one-size-fits-all design, uncompensated burden on
+    marginalized groups), and community-finance-specific barriers (financial
+    literacy, technical barriers, time poverty, trust barriers) with matched
+    solutions.
+  audience: community stewards designing or running a community finance system
+  known_tensions:
+    - >-
+      counting-participation-is-easy-vs-measuring-whether-people-feel-valued-and-influence-decisions-is-the-actual-goal
+    - >-
+      rewarding-time-and-care-contributions-equally-to-money-vs-avoiding-uncompensated-inclusion-labor-falling-on-marginalized-members
+  related_concepts:
+    - dimensions-of-inclusion-economic-technical-temporal-social-accessibility
+    - informal-community-savings-mechanisms-chamas-iqqub-hawala
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/inclusive-practices.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: the article's References section lists only generic
+    topic labels ("Inclusive community design principles", "Equity in economic
+    systems and community finance", "Accessibility guidelines for community
+    organizations") with no actual sources/links — not turned into resource
+    objects since they name no identifiable, findable source. The "Try This"
+    self-audit exercise was left as a narrative prompt, not extracted as a
+    separate object.
+  work_order: wo-8e6fb42f1e74
+  source_lineage: inclusive-practices.md

@@ -1,0 +1,33 @@
+schema: encyclopedia-entry
+object:
+  title: Is Web3 Right for Your Community?
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A short decision-framing guide arguing web3 isn't for everyone: it lists
+    when web3 adds value (transparent/verifiable finance, programmable
+    governance, cross-border coordination, connecting to the wider web3
+    ecosystem, immutable records) versus when it doesn't (small high-trust
+    groups, minimal financial activity, low tech comfort, "a spreadsheet
+    does everything you need"), five questions to ask before adopting it,
+    and recommends a hybrid approach — web3 where it adds clear value,
+    traditional tools elsewhere.
+  audience: community groups deciding whether to adopt web3 tools at all
+  known_tensions:
+    - >-
+      web3-genuinely-solving-a-coordination-problem-vs-adopting-it-out-of-curiosity-or-hype
+  related_concepts:
+    - hybrid-web3-adoption-selective-tool-use-by-function
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-web3-right.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: no resource/source-system objects were created —
+    the article names no specific tool, platform, or protocol, only generic
+    categories ("Web3 tools," "spreadsheets," "group chats"). See
+    accompanying signal noting the article's frontmatter sources field is a
+    placeholder ("Community building") rather than an actual citation.

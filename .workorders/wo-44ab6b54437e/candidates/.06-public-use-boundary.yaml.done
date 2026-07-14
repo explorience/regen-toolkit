@@ -1,0 +1,22 @@
+schema: public-use-boundary
+object:
+  title: Boundary — grant strategy / funding-sustainability recommendations (writing-grant-proposals.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the encyclopedia-entry from this work order. The article gives
+    concrete funding-strategy recommendations (diversify away from
+    single-source grants, target a specific sustainability-plan structure,
+    named funding mechanisms and match-pool figures). This is general
+    educational guidance from a toolkit article, not a tailored funding/
+    governance plan for any specific node. Flagged per the ingest skill's
+    high-risk trigger for funding/governance recommendations — treat as a
+    starting framework for discussion, not a compliance-checked funding
+    strategy, before reuse in a context that commits a real node's fundraising
+    plan.
+  review_type: steward-review-before-public-use
+  notes: covers 01-encyclopedia-entry.yaml from this work order.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/writing-grant-proposals.md
+    transformation: inferred
+    authorship: ai-assisted

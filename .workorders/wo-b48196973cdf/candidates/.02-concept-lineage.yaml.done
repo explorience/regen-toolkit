@@ -1,0 +1,54 @@
+schema: concept-lineage
+object:
+  title: Cosmo-Local Coordination
+  type: concept-lineage
+  short_description: >-
+    Global standards and infrastructure combined with local implementation and
+    governance — communities share knowledge, tools, and resources globally
+    while adapting implementation to their own ecological, cultural, and
+    economic context.
+  source_traditions:
+    - the regenerative-economics / ReFi movement (article names it as
+      "emerging from the regenerative movement")
+    - open-source / commons-based peer production (global standard, local
+      instance pattern)
+    - local currency and community seed-library practice
+  toolkit_usage: >-
+    Used as this article's central framing device: bridges the abstract
+    decentralization/resilience argument to concrete regenerative practice —
+    local currency systems, community seed libraries, and Local ReFi Nodes are
+    all given as cosmo-local examples.
+  adjacent_meanings:
+    - cosmo-localism as a general design philosophy (broader movement usage,
+      not confined to this article)
+    - >-
+      glocal (older, adjacent business/globalization term for a similar
+      global-local balance, not used by this article)
+  important_distinctions:
+    - >-
+      cosmo-local-vs-purely-local — the article is explicit that "you cannot
+      build regenerative economies in isolation"; cosmo-local requires both the
+      global sharing layer and local autonomy, not local action alone.
+    - >-
+      cosmo-local-vs-purely-global — equally, a single global standard imposed
+      without local adaptation is not cosmo-local by this article's definition
+      ("you cannot regenerate a dryland watershed in Somaliland the same way
+      you would regenerate a highland forest in Ethiopia").
+  tensions:
+    - >-
+      shared-global-infrastructure vs risk-of-external-capture — the article's
+      broader principles list warns that "dependence on a single external
+      power breeds capture," a live tension with the "global standards" half of
+      cosmo-local.
+  risks_of_flattening: >-
+    Reducing cosmo-local to "think globally, act locally" flattens the
+    article's more specific claim that it requires actual shared
+    infrastructure/tooling connecting nodes (e.g. a Local ReFi Nodes network),
+    not just a mindset.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-resilience.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b48196973cdf

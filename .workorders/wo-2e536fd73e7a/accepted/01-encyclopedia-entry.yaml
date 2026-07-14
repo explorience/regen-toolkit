@@ -1,0 +1,39 @@
+schema: encyclopedia-entry
+object:
+  title: Leadership Development for Community Finance
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    How to identify, develop, and distribute leadership within a local node so
+    community finance survives the departure of any single person. Names the
+    "leadership paradox" (need coordination, but concentrated leadership
+    recreates hierarchy), the "founder trap," qualities to look for in emerging
+    leaders (initiative, reliability, relational skill, learning orientation,
+    long-term thinking), a five-part development model, three distribution
+    structures (role rotation, nested leadership, federated structure), five
+    common mistakes, and a five-stage pathway from Observer to Elder. Frames
+    leadership in East African / Somaliland contexts as already relational and
+    contextual (clan elders, women's group leaders, mosque committee members)
+    rather than importing a single-founder model.
+  audience: >-
+    local-node organizers and community stewards, East Africa /
+    Somaliland-focused track
+  known_tensions:
+    - >-
+      the "leadership paradox" itself — enough leadership to coordinate
+      collective action vs. too much leadership recreating the hierarchies
+      community finance is meant to escape
+  related_concepts:
+    - Distributed Leadership
+    - Nested Leadership / Leadership Pathway
+  related_resources:
+    - Leadership on the Line (Heifetz & Linsky)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/leadership-development.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-2e536fd73e7a
+  source_lineage: leadership-development.md

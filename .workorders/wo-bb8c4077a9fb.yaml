@@ -1,0 +1,29 @@
+id: wo-bb8c4077a9fb
+title: ingest local-currency.md
+type: work-order
+source_path: local-currency.md
+source_hash: 4f195b1858253a557e0074173f255894aeffefc0ddf5193a4ee87b70ea2fb346
+source_type: transcript
+target_schemas:
+  - source-system
+  - resource
+  - concept-lineage
+  - signal
+  - claim-evidence
+instructions: >-
+  Deep intake (transcript): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#local-currency-design-for-community-finance
+  - data/kb/concept-lineage.yaml#local-community-currency
+  - data/kb/resource.yaml#ithaca-hours
+  - data/kb/resource.yaml#brixton-pound
+  - >-
+    data/kb/claim-evidence.yaml#critical-mass-for-a-local-currency-is-20-30-active-members
+  - >-
+    data/kb/signal.yaml#local-currency-article-is-tightly-scoped-to-east-africa-somaliland-check-generalizability

@@ -1,0 +1,25 @@
+schema: signal
+object:
+  title: >-
+    impact-certificates-hypercerts.md's "Built on the AT Protocol" claim looks
+    like a factual error
+  type: signal
+  signal_type: content
+  affected_layer: layer-2-encyclopedia
+  interpretation: >-
+    The article states hypercerts are "Built on the AT Protocol, decentralized,
+    community-owned" directly after stating "Hypercerts are NFTs (ERC-1155
+    standard)... Live on Ethereum, permanent, immutable." AT Protocol is the
+    protocol behind Bluesky/the social web, not an Ethereum smart-contract
+    standard — this looks like a source-article error or hallucination rather
+    than a fact worth propagating as-is. Flagging for a human fact-check rather
+    than asserting it as a hypercert claim-evidence object.
+  proposed_intervention: flag
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/impact-certificates-hypercerts.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-df4c53425ba7
+  source_lineage: impact-certificates-hypercerts.md

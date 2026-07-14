@@ -1,0 +1,28 @@
+id: wo-7849165f5a17
+title: ingest why-accept-crypto.md
+type: work-order
+source_path: why-accept-crypto.md
+source_hash: 1533ba8078cf1d25aa0f3d9194b43450b2cd56b45a798274fc69904047a15ee1
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#why-accept-crypto-donations
+  - >-
+    data/kb/claim-evidence.yaml#donating-appreciated-crypto-directly-can-let-a-donor-skip-capital-gains-tax
+  - >-
+    data/kb/claim-evidence.yaml#gitcoin-grants-has-distributed-over-60m-through-quadratic-funding
+  - data/kb/resource.yaml#every-org-crypto-donations
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-crypto-donation-tax-financial-guidance-why-accept-crypto-md

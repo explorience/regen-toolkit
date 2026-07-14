@@ -1,0 +1,47 @@
+schema: encyclopedia-entry
+object:
+  title: Key Terms A-Z
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    An A-Z glossary of beginner web3 and Regen terms (Airdrop through Yield
+    Farming) — wallets and keys, DeFi mechanics (APR, liquidity, staking),
+    DAOs and governance tokens, and crypto slang (FOMO, rug pull, moon). Ends
+    with a security reminder never to share a seed phrase or private key.
+  audience: beginners new to web3 and regenerative finance
+  known_tensions:
+    - >-
+      glossary brevity vs. accuracy — each term is a one- or two-sentence
+      simplification of concepts (e.g. Proof of Stake, oracles) that have
+      much deeper technical and economic nuance elsewhere in the toolkit
+  related_concepts:
+    - ReFi (Regenerative Finance)
+    - Tokenomics
+    - DAO
+    - Layer 2
+  related_resources: []
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/key-terms-a-z.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Source is a flat A-Z glossary (~80 terms) authored by Tej Pipeline for
+    the "Sarreya programs" cohort; captured whole as one encyclopedia entry
+    rather than one object per term.
+
+# assessed-but-excluded:
+#   - Each individual glossary term (Airdrop, APR, Bridge, dApp, ENS, Gas,
+#     KYC, Mempool, Oracle, Snapshot, Whale, etc.) was NOT split into its own
+#     concept-lineage object — ~80 short definitions with no distinct source
+#     traditions or tensions of their own would create sprawl for no benefit.
+#     Two terms with genuine lineage/tension worth preserving (ReFi,
+#     Tokenomics) were pulled out separately; see 02- and 03- candidates.
+#   - Tool/platform mentions inside definitions (Curve, Discord, MetaMask-
+#     adjacent terms) were not lifted to standalone resource objects — they
+#     are incidental to the definition, not the glossary's subject.
+#   - The closing security reminder ("never share your seed phrase") was not
+#     split into a claim-evidence object — it is a plain safety instruction,
+#     not a claim needing evidence/uncertainty tracking.

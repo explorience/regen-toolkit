@@ -1,0 +1,50 @@
+schema: concept-lineage
+object:
+  title: "Community momentum flywheel and rhythm model"
+  type: concept-lineage
+  short_description: >-
+    A self-reinforcing cycle (ship → celebrate → invite → onboard → empower
+    → contribute → acknowledge → repeat) paired with predictable rhythms at
+    weekly, monthly, quarterly, and annual cadences, that keeps a local
+    node's energy from fading after its initial launch excitement.
+  source_traditions:
+    - Greenpill Local Regen Guide (cited generically in the article's frontmatter sources)
+    - general community-building and DAO-governance literature (cited generically, not by specific title)
+    - East African community traditions the article names as existing precedent (saving circles, inter-clan coordination, post-jumu'ah community meals)
+  toolkit_usage: >-
+    Framed as a structural fix for the observation that "many nodes launch
+    with enthusiasm, then fade... the culprit is rarely a lack of care, it's
+    a lack of structure." The article explicitly asks organizers to channel
+    existing community rhythms into regen finance work "in ways that feel
+    natural, not foreign," rather than importing an unfamiliar cadence.
+  adjacent_meanings:
+    - generic "community engagement" growth-hacking frameworks (funnel-style, not necessarily rooted in local relational practice)
+  important_distinctions:
+    - >-
+      the article treats "momentum" as distinct from "activity": momentum is
+      meaningful, self-reinforcing activity, not just frequency of events.
+    - >-
+      "dips" (attendance drops, energy decreases) are explicitly named as
+      normal and often seasonal (harvest season, exams, Ramadan), not a sign
+      of failure — a distinction the article asks organizers to plan for
+      rather than panic over.
+  tensions:
+    - >-
+      the article's own claim that this rhythm model builds on "existing
+      traditions rather than inventing new ones" is asserted at a general
+      "East African contexts" level rather than sourced to a specific named
+      community or community-authored account.
+  risks_of_flattening: >-
+    Treating this as a generic, portable "growth loop" framework risks
+    stripping out the article's own framing that the model is meant to
+    channel practices (saving circles, communal meals, rotational
+    leadership) that specific communities already hold — presenting it as
+    culturally neutral would misrepresent the source.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-momentum.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-88bafbd86463
+  source_lineage: building-momentum.md

@@ -1,0 +1,47 @@
+schema: encyclopedia-entry
+object:
+  title: The Ethereum Ecosystem
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A grounded, hype-free tour of Ethereum for regenerative communities in East
+    Africa and Somaliland: what Ethereum is (a shared, permissionless compute
+    platform, not just a currency), Layer 2 networks as a cost/speed fix,
+    DeFi (swaps, lending, stablecoins), NFTs as provable digital ownership, and
+    DAOs as a new organizational form. Closes with practical low-risk starter
+    steps (wallet, L2 browsing, block explorer, browsing a DAO's governance).
+  audience: beginner community members and organizers in East Africa / Somaliland
+    exploring web3 for the first time
+  known_tensions:
+    - >-
+      The article frames the technology as neutral ("can serve extractive
+      finance or regenerative purposes") while also actively encouraging
+      exploration of DeFi/DAOs — readers should weigh real risk (smart
+      contract bugs, volatility, hacks) against the framed opportunity.
+  related_concepts:
+    - decentralized-finance-defi
+  related_resources:
+    - ethereum
+    - metamask
+    - uniswap
+    - base
+    - etherscan
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ethereum-ecosystem.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-b4d86b063d8c, ethereum-ecosystem.md):
+# - Named DAOs mentioned only as illustrative examples in prose (MakerDAO,
+#   Compound DAO, Optimism Collective) — not separately resourced since they
+#   are not in the article's References section and are covered elsewhere in
+#   the site's dedicated DAO articles; folded into this entry's summary only.
+# - "Try This" exercise steps (install MetaMask, browse a Layer 2, search a
+#   block explorer, find a DAO) — action prompts for the reader, not
+#   extractable knowledge-graph content.
+# - Frontmatter production/workflow metadata (author, research_done,
+#   draft_done, factcheck_done, review_done, critique_done, published_flag,
+#   estimated_words, section/track numbers) — internal site-authoring state,
+#   not toolkit content.

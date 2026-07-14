@@ -1,0 +1,32 @@
+id: wo-d6e9e6e15257
+title: ingest archive-compost.md
+type: work-order
+source_path: archive-compost.md
+source_hash: 87a688102b7696b2d5d78a5b2df3079570dcc9f15bb6657419f5d556d3c5c64d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#archive-or-compost-handling-outdated-knowledge-without-losing-the-plot
+  - data/kb/concept-lineage.yaml#archive-compost-deprecate-remove-the-four-moves
+  - >-
+    data/kb/concept-lineage.yaml#evergreen-notes-seedling-budding-evergreen-maturity-taxonomy
+  - data/kb/resource.yaml#read-the-docs-deprecating-content-guide
+  - data/kb/resource.yaml#grafana-writers-toolkit-deprecate-or-remove-content
+  - data/kb/resource.yaml#quartz-072df0ca
+  - >-
+    data/kb/claim-evidence.yaml#grafana-gives-two-minor-releases-advance-notice-before-removing-a-deprecated-feature
+  - >-
+    data/kb/claim-evidence.yaml#wikipedia-preserves-deleted-page-text-so-it-can-be-studied-later

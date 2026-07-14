@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: Layered custody (hot/cold/multisig by purpose)
+  type: concept-lineage
+  short_description: >-
+    A three-tier custody framework for an organization's crypto holdings:
+    day-to-day operational funds in a hot wallet, reserves/grants in hardware
+    cold storage, and any large organizational transaction gated behind a
+    multi-signature wallet requiring three-or-more approvers.
+  source_traditions:
+    - personal-finance cash-in-pocket-vs-savings-account analogy
+    - corporate treasury segregation-of-duties practice
+    - crypto-native multisig treasury management
+  toolkit_usage: >-
+    Recommended in hot-vs-cold.md as the default treasury pattern for a
+    regenerative organization holding crypto, rather than choosing hot OR cold
+    exclusively.
+  adjacent_meanings:
+    - custodial-vs-noncustodial-wallets
+    - multi-signature-wallet
+  important_distinctions:
+    - >-
+      "Hot vs. cold" is a storage-location choice; "multisig" is a
+      decision-authority choice — the article treats them as complementary,
+      not alternatives (a multisig wallet can itself be hot or cold).
+  tensions:
+    - convenience-of-single-signer-access-vs-accountability-of-multisig-approval
+  risks_of_flattening: >-
+    Presenting this as a universal best practice risks understating the real
+    operational cost of multisig for very small or resource-constrained
+    groups (coordination overhead among 3+ signers, key-loss risk multiplied
+    across signers).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/hot-vs-cold.md
+    transformation: synthesized
+    authorship: ai-assisted

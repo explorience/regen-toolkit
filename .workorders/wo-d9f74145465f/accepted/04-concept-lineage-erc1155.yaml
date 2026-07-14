@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: ERC-1155 (Multi-Token Standard)
+  type: concept-lineage
+  short_description: >-
+    An Ethereum token standard that handles both fungible and non-fungible
+    tokens within a single smart contract, supporting batch transfers, lower
+    deployment costs, and semi-fungible tokens (e.g. an event ticket that later
+    becomes a collectible).
+  source_traditions:
+    - >-
+      Ethereum Improvement Proposal 1155 (ERC-1155), per ethereum.org
+      documentation.
+  toolkit_usage: >-
+    Named in the article as the fit for communities managing multiple asset
+    types at once — e.g. fungible carbon-credit tokens and non-fungible
+    land-stewardship certificates under one contract.
+  adjacent_meanings:
+    - multi-token standard
+    - semi-fungible token
+  important_distinctions:
+    - >-
+      ERC-1155 vs deploying separate ERC-20 and ERC-721 contracts: one contract
+      manages both fungible and non-fungible assets, batching transfers and
+      reducing gas costs.
+  tensions: []
+  risks_of_flattening: >-
+    Describing ERC-1155 only as "the flexible one" risks understating that the
+    tradeoff for that flexibility is added contract complexity compared to a
+    single-purpose ERC-20 or ERC-721 deployment.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/token-standards.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d9f74145465f
+  source_lineage: token-standards.md

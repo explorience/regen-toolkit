@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Snapshot (snapshot.org)
+  type: resource
+  url: https://snapshot.org
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - dao
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-regens-interested.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Gasless DAO voting tool; article cites "over 7,500 groups now use it"
+    (daotimes.com/snapshot-dao-tool-report-for-2025/) and recommends browsing
+    real groups' live votes with no account or wallet as the "Start here"
+    exercise.

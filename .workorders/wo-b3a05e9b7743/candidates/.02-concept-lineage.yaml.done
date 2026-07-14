@@ -1,0 +1,39 @@
+schema: concept-lineage
+object:
+  title: "Internal capacity"
+  type: concept-lineage
+  short_description: >-
+    A community's ability to do things independently, without relying on
+    external experts, consultants, or hired help — the skills, knowledge,
+    and systems that live within the members themselves, spanning technical,
+    governance, communication, and financial domains.
+  source_traditions:
+    - community organizing / capacity-building practice (general)
+    - web3-specific operational skills (wallet, smart contract, treasury, security)
+  toolkit_usage: >-
+    Framed in the article as the alternative to permanent dependence on
+    external experts — the five-step build process (identify gaps, map
+    existing skills, create learning pathways, practice with low stakes,
+    document everything) is presented as how a node closes the gap over
+    time.
+  adjacent_meanings:
+    - "'capacity building' in international-development discourse (a broader, often institution-to-institution framing)"
+  important_distinctions:
+    - >-
+      the article separates "what can you do now" from "what can't you do"
+      as the diagnostic starting point, rather than assuming capacity gaps
+      are obvious.
+  tensions: []
+  risks_of_flattening: >-
+    Treating capacity-building as a one-time training event rather than an
+    ongoing five-step cycle (gap → skill map → pathway → low-stakes practice
+    → documentation) loses the article's framing of it as continuous
+    infrastructure work, not a single workshop.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-internal-capacity.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b3a05e9b7743
+  source_lineage: building-internal-capacity.md

@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: OpenSea
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: false
+  link_status: unresolved
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - erc-721-non-fungible-token-standard
+    - erc-1155-multi-token-standard
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/token-standards.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Named in "Try This" Exercise 3 as a marketplace to browse "Collections" and
+    see how ERC-721 NFTs and ERC-1155 multi-token assets are presented.
+  work_order: wo-d9f74145465f
+  source_lineage: token-standards.md

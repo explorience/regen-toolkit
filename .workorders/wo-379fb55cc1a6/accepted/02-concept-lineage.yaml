@@ -1,0 +1,54 @@
+schema: concept-lineage
+object:
+  title: Claim-Evidence Discipline
+  type: concept-lineage
+  short_description: >-
+    Keeping the assertion, the source for it, the interpretation, and the
+    uncertainty as distinct, separately reviewable things, so a reviewer can
+    verify a page's factual claims rather than just admiring its prose.
+  source_traditions:
+    - >-
+      the Regen Toolkit / Regen Knowledge Commons's own claim-evidence
+      discipline (named directly in the article as "the Regen docs call this
+      claim-evidence discipline")
+    - Wikipedia's Good Article citation and verifiability standards
+    - academic citation practice (claims requiring inline, checkable sources)
+  toolkit_usage: >-
+    Positioned in this article as the discipline that makes a commons
+    trustworthy over time, operationalized via a reviewer "spot-check" — pulling
+    a sample of citations and confirming each source actually supports the
+    sentence it's attached to, mirroring Wikipedia's Good Article process.
+  adjacent_meanings:
+    - >-
+      claim-evidence separation as a formal knowledge-schema pattern (this
+      toolkit's own claim-evidence schema/object type)
+    - >-
+      claim-evidence separation as an informal editorial habit (this article's
+      practical framing — "pull three citations and verify")
+  important_distinctions:
+    - >-
+      well-written-vs-reviewed — the article's central distinction: prose
+      quality and factual accuracy are separate axes, and claim-evidence
+      discipline is specifically how you check the second one.
+    - >-
+      full-citation-audit-vs-spot-check — the article recommends a sampling
+      spot-check (a few citations, not every one) as the practical, sustainable
+      version of full verification.
+  tensions:
+    - >-
+      reviewer-time-cost vs thoroughness — a full citation audit of every claim
+      would be prohibitively slow for small teams; the spot-check is an explicit
+      trade-off the article endorses rather than treats as a compromise.
+  risks_of_flattening: >-
+    Treating "it has a citation" as equivalent to "it has been verified"
+    flattens the article's whole point — a citation that doesn't actually
+    support its attached sentence is exactly the failure mode the spot-check
+    step exists to catch.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/editorial-workflow.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-379fb55cc1a6
+  source_lineage: editorial-workflow.md

@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: On-chain attestation as a vouching record
+  type: concept-lineage
+  short_description: >-
+    A digital certificate/proof-record model with three steps: (1) a trusted
+    party — teacher, mentor, organization, or system — "vouches for you" by
+    making a statement, (2) the statement is written to a blockchain where it
+    "cannot be changed, deleted, or faked," (3) anyone can verify it without
+    contacting the original issuer. The article frames this as "trust without
+    needing a middleman."
+  toolkit_usage: >-
+    Central mechanism explained in the article as the basis for all four use
+    cases it lists (skills, reputation, impact, opportunity access).
+  adjacent_meanings:
+    - NFT-based credentials (nfts-beyond-art.md treats blockchain diplomas as an NFT use case — same underlying idea, different framing/schema)
+    - Verifiable credentials (W3C-style digital credential standards; not named in this article but the closest formal analogue)
+  important_distinctions:
+    - >-
+      An attestation is a claim someone else makes about you, not a
+      possession you mint yourself — distinct from an NFT you buy or create,
+      even though both live "on-chain."
+    - >-
+      "Trust without needing a middleman" describes verification, not the
+      original vouching step — the attestation is only as trustworthy as the
+      issuer who created it; the underlying trust is relocated, not removed.
+  tensions:
+    - >-
+      The article's framing implies attestations are inherently more
+      trustworthy than paper certificates, but the trustworthiness of any
+      attestation still depends entirely on who is allowed to issue one — a
+      point the source text doesn't address.
+  risks_of_flattening: >-
+    None regarding a cultural tradition; but see accompanying public-use-
+    boundary regarding the article's specific, named, vulnerable audience.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onchain-attestations.md
+    transformation: summarized
+    authorship: ai-assisted

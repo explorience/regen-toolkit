@@ -1,0 +1,27 @@
+id: wo-97dd78ba716a
+title: ingest coordination-transparency.md
+type: work-order
+source_path: coordination-transparency.md
+source_hash: f972a269aa6622a42a65860cba07dc078a3d6f393de66756fc023ef9048cf86f
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g2
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#the-promise-coordination-transparency-and-new-economic-models
+  - >-
+    data/kb/concept-lineage.yaml#coordination-without-central-control-tools-daos-quadratic-voting-futarchy
+  - data/kb/concept-lineage.yaml#retroactive-public-goods-funding
+  - >-
+    data/kb/signal.yaml#coordination-transparency-md-makes-several-definitional-claims-with-no-citations

@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: BIP39 Specification (Bitcoin Improvement Proposals)
+  type: resource
+  url: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+  resource_type: standard/specification
+  is_source_system_candidate: false
+  link_status: active
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - seed-phrase-bip39-hd-derivation
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/seed-phrases.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    The original standard defining the 2,048-word list and how seed phrases are
+    generated; cited in the article's References section.
+  work_order: wo-38c3e2b4e44f
+  source_lineage: seed-phrases.md

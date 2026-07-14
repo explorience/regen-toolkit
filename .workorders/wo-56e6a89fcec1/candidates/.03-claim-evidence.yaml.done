@@ -1,0 +1,35 @@
+schema: claim-evidence
+object:
+  title: 2-of-3 multisig is vulnerable; 3-of-5 recommended for community treasuries
+  type: claim-evidence
+  claim: >-
+    "Threshold set too low" is named as the first common mistake: a 2-of-3
+    multisig is vulnerable because if any two signers collude or become
+    unavailable, funds are at risk or inaccessible; the article recommends
+    3-of-5 or higher for community treasuries, and states "the threshold
+    should be more than half the signers, but less than all of them."
+  evidence: >-
+    Presented as the article's own security reasoning/best-practice
+    guidance, not attributed to an external audit, incident dataset, or
+    named case of an actual 2-of-3 multisig failure.
+  source_lineage: src/content/docs/multisig-setup.md
+  interpretation: >-
+    Sound, widely-accepted operational-security logic (more signers reduces
+    single/dual-point-of-failure risk) but stated as general best practice
+    rather than backed by a cited incident study; the specific numeric
+    thresholds (2-of-3 vs 3-of-5 vs 4-of-7) are heuristics, not derived
+    from a named risk model.
+  uncertainty: >-
+    Low for the qualitative principle (higher, majority-but-not-unanimous
+    thresholds reduce risk — well-established in multisig/threshold-
+    cryptography practice); moderate for the specific "3-of-5 is the
+    sensible default" recommendation, which is asserted rather than
+    evidenced against community-size or treasury-size data.
+  high_risk: true
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/multisig-setup.md
+    transformation: summarized
+    authorship: ai-assisted

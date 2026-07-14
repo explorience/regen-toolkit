@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: Quadratic Funding (QF)
+  type: concept-lineage
+  short_description: >-
+    A matching system where the number of people who back a project matters more
+    than how much each one gives — the match is calculated by taking the square
+    root of every contribution, summing those roots, then squaring the total, so
+    a hundred people giving $5 pulls far more matching money than one person
+    giving $500.
+  source_traditions:
+    - >-
+      Gitcoin (the platform most associated with running QF rounds at scale, per
+      the article)
+  toolkit_usage: >-
+    Used to explain why, for a local node in a QF round, "the job isn't only to
+    impress a panel — it's to turn out a lot of real people," reframing
+    grant-proposal-writing as a community-organizing task rather than a
+    persuasive-writing task.
+  adjacent_meanings:
+    - prospective grants (a grant category QF rounds typically fall under)
+    - >-
+      retroactive public goods funding (the alternative grant category, distinct
+      from QF)
+  important_distinctions:
+    - >-
+      Breadth of support vs. depth of support — QF is explicitly designed to
+      compress the influence of a few large donors relative to many small ones.
+  tensions: []
+  risks_of_flattening: >-
+    Treating QF as just "a matching pool" misses the article's actual point —
+    the mechanism structurally rewards community-organizing effort (turning out
+    donors), not just proposal quality.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/writing-grant-proposals.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-44ab6b54437e
+  source_lineage: writing-grant-proposals.md

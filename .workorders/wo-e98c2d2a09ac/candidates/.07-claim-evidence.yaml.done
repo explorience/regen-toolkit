@@ -1,0 +1,38 @@
+schema: claim-evidence
+object:
+  title: US crypto-donation tax/compliance rules (Form 990 Schedule M, Form 8283, 2026 AGI floor)
+  type: claim-evidence
+  claim: >-
+    "US nonprofits generally report crypto gifts as non-cash contributions on
+    Form 990 Schedule M (required once non-cash gifts exceed $25,000), and
+    gifts over $5,000 trigger donor appraisal paperwork (Form 8283).
+    Separately, a 2026 law change adds a 0.5%-of-AGI floor for itemizers and
+    caps the top-bracket deduction benefit at 35%." The IRS treats crypto as
+    property, not cash, so its value can swing between the gift and the
+    moment it is spent.
+  evidence: >-
+    Cited to IRS Schedule M / Form 990 (irs.gov), The Giving Block's "Crypto
+    Taxes and Donations" resource, and the Tax Foundation's "Charitable
+    giving changes for 2026," all listed in the article's References.
+  source_lineage: >-
+    src/content/docs/giveth-donations.md, References: IRS Form 990 Schedule
+    M, The Giving Block (Crypto Taxes and Donations), Tax Foundation
+    (Charitable deduction changes 2026)
+  interpretation: >-
+    US-specific, jurisdiction-bound tax/legal guidance offered to local
+    nodes considering crypto donations. This is exactly the kind of
+    funding/legal recommendation the ingest pipeline's high-risk triggers
+    are meant to flag: readers outside the US are explicitly told none of it
+    applies, but a US-based node could act on stale or misapplied figures.
+  uncertainty: >-
+    Tax law changes over time (the article itself notes this is "a 2026 law
+    change"); thresholds and rates should be verified against current IRS
+    guidance and a qualified tax advisor before a node relies on them, not
+    treated as durable toolkit fact.
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/giveth-donations.md
+    transformation: summarized
+    authorship: ai-assisted

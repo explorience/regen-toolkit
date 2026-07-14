@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: OpenZeppelin
+  type: resource
+  url: https://www.openzeppelin.com/
+  resource_type: library
+  is_source_system_candidate: false
+  link_status: active
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - erc-20-fungible-token-standard
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/token-standards.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Cited in the article's References as the widely used open-source
+    implementation library for ERC token standards.

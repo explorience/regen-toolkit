@@ -1,0 +1,33 @@
+schema: claim-evidence
+object:
+  title: Gitcoin GG24 round (Oct-Nov 2025) distributed over $1.8 million
+  type: claim-evidence
+  claim: >-
+    "Gitcoin's GG24 round in October, November 2025 distributed over $1.8
+    million across themed domains using its 3.0 model." Also noted: Gitcoin's
+    older Grants Stack platform wound down in May 2025, and rounds now run
+    across multiple platforms (including Giveth), not one central app.
+    Separately, "one Local Node round [ReFi DAO via Gitcoin/Giveth match
+    pools] offered a $25k matching pool on Celo."
+  evidence: >-
+    Stated in the article's "External Funding" section; the article's
+    References list Gitcoin Grants (grants.gitcoin.co) and Giveth
+    (giveth.io) generally but does not link a specific GG24 results page or
+    the $25k Celo round announcement.
+  source_lineage: src/content/docs/funding-your-node.md (no specific results-page URL cited)
+  interpretation: >-
+    Plausible given Gitcoin's known scale and public shift away from a single
+    Grants Stack app toward a multi-platform model; consistent with figures
+    reported elsewhere in the site's Giveth-focused article for a different,
+    Ethereum Security-themed round.
+  uncertainty: >-
+    Both dollar figures ($1.8M for GG24; $25k Celo matching pool) are
+    unsourced to a specific, checkable URL in this article and are
+    time-bound program history that will go stale; verify against Gitcoin's
+    and ReFi DAO's live pages before repeating as current.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: summarized
+    authorship: ai-assisted

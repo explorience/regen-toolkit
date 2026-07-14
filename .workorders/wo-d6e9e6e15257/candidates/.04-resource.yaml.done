@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: "Read the Docs — deprecating content guide"
+  type: resource
+  resource_type: article
+  url: https://docs.readthedocs.com/platform/stable/guides/deprecating-content.html
+  is_source_system_candidate: false
+  toolkit_route: layer-9-evolution
+  link_status: active
+  related_concepts:
+    - archive-compost-deprecate-remove
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md
+  notes: >-
+    Documentation-hosting platform's guide recommending a warning banner atop
+    a stale page rather than pulling it — deleting "will break existing links,
+    and you don't necessary [sic] want to make the content inaccessible" —
+    and, when a page must be removed, creating redirects to replacement
+    content rather than letting links break.

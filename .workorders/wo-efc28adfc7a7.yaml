@@ -1,0 +1,30 @@
+id: wo-efc28adfc7a7
+title: ingest recovery-planning.md
+type: work-order
+source_path: recovery-planning.md
+source_hash: 25c7b0721c02d614e068ede98941bc688746455ad666ea5720a8ef73caeacbbd
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g7
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#crypto-wallet-recovery-planning-ensuring-access-for-the-long-term
+  - >-
+    data/kb/concept-lineage.yaml#social-recovery-and-multi-sig-as-distributed-wallet-recovery-methods
+  - >-
+    data/kb/claim-evidence.yaml#millions-of-bitcoin-have-been-permanently-lost-to-forgotten-passwords-and-lost-seed-phrases
+  - data/kb/resource.yaml#argent-0d596849
+  - data/kb/resource.yaml#safe-formerly-gnosis-safe-17b2bc43
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-wallet-recovery-inheritance-recommendations-carry-real-financial-risk

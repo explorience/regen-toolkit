@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Ethereum Name Service (ENS)
+  type: resource
+  url: https://ens.domains/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - smart-contract
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Described in the article's "Try This" exercise as a phonebook for Ethereum
+    addresses — search any ENS name with no account needed.
+  source_lineage: what-is-ethereum.md

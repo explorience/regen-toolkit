@@ -1,0 +1,49 @@
+schema: concept-lineage
+object:
+  title: ROSCA (Rotating Savings and Credit Association)
+  type: concept-lineage
+  short_description: >-
+    A savings arrangement where members pool money on a recurring basis and take
+    turns receiving the full pot; used in the article to explain and legitimate
+    the "member contributions" funding model for regen nodes.
+  source_traditions:
+    - >-
+      Pre-crypto community savings-circle traditions, described in the article
+      as having "worked in communities worldwide for generations, long before
+      crypto" (e.g. tandas, susus, chit funds, hui — not individually named in
+      the source article)
+  toolkit_usage: >-
+    Cited as the real-world precedent that makes a node's small recurring
+    member-contribution model ("give what you can," $0-20/month) feel familiar
+    and legitimate rather than a crypto-native invention.
+  adjacent_meanings:
+    - >-
+      Cooperative membership dues (a related but distinct, non-rotating funding
+      pattern)
+    - >-
+      Crypto-native "streaming" contributions (e.g. Superfluid-based recurring
+      donations described elsewhere on the site) — same cadence idea, different
+      mechanism
+  important_distinctions:
+    - >-
+      A ROSCA rotates the full pooled amount to one member at a time; a node's
+      "member contributions" model described in this article does not rotate
+      payouts to members — it pools dues to fund the node itself. The article
+      invokes ROSCA as a legitimating analogy, not an exact structural match.
+  tensions:
+    - >-
+      Using ROSCA as a precedent risks implying more structural similarity to
+      the node's funding model than actually exists (see distinction above).
+  risks_of_flattening: >-
+    Treating "ROSCA" as a single, universal pattern flattens real regional and
+    cultural variation (tandas, susus, chit funds, hui, etc. differ in rules
+    around trust, default risk, and payout order) that the source article does
+    not get into.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-3a548f510339
+  source_lineage: funding-your-node.md

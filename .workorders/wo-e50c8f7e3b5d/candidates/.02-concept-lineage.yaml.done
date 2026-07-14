@@ -1,0 +1,44 @@
+schema: concept-lineage
+object:
+  title: "Typing vs Tagging"
+  type: concept-lineage
+  short_description: >-
+    Two distinct classification jobs that get confused when treated as one:
+    typing answers "what kind of thing is this?" (a small, stable set —
+    guide, tool, case study, meeting note); tagging answers "what is this
+    about, and how might I want to filter it?" (a large, growing set of
+    topics, domains, audiences).
+  source_traditions:
+    - library/information science cataloguing (type vs subject heading)
+    - the Regen Toolkit's own ontology layer
+  toolkit_usage: >-
+    Framed in the article as the reason AI classification projects go wrong:
+    asking a model one mushy question ("classify this") instead of two clear
+    ones (what kind, what about). The article quotes the Toolkit's ontology
+    layer directly: "A type defines what something is. A tag describes how
+    something may be classified, interpreted, filtered, or used. Confusing
+    tags with types creates ontology sprawl."
+  adjacent_meanings:
+    - categorization (used loosely to mean either typing or tagging)
+    - taxonomy (the overall system of types + tags together)
+  important_distinctions:
+    - "type set is small and stable; tag set is large and grows over time"
+    - "keeping type and tag in separate schema fields makes the AI's job easier because each question has one clear answer"
+  tensions:
+    - >-
+      teams often reach for one all-purpose "category" field, which the
+      article argues quietly recreates the sprawl problem it was meant to
+      solve.
+  risks_of_flattening: >-
+    Treating "classification" as a single undifferentiated task erases the
+    distinction the article treats as load-bearing — a taxonomy that mixes
+    types and tags in one field cannot be constrained to a stable enum,
+    because the tag half is supposed to keep growing.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-assisted-classification.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e50c8f7e3b5d
+  source_lineage: ai-assisted-classification.md

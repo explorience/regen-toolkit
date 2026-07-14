@@ -1,0 +1,34 @@
+schema: concept-lineage
+object:
+  title: Digital Garden
+  type: concept-lineage
+  short_description: >-
+    A knowledge base deliberately grown over time rather than published once
+    and frozen — notes are planted rough, tended, and linked to each other,
+    with their maturity shown openly.
+  source_traditions:
+    - Maggie Appleton, "digital-gardeners" (curated resource collection on GitHub)
+  toolkit_usage: >-
+    Framed as "a knowledge commons that admits it's unfinished" — the right
+    posture for a knowledge base meant to outlive team turnover, since waiting
+    for pages to be "perfect" is the enemy of a living knowledge base. The
+    article's practical instruction: mark a page "rough draft" and publish it
+    rather than withholding it.
+  adjacent_meanings:
+    - knowledge commons (the governance layer a digital garden may or may not have)
+    - wiki (a digital garden is typically personal/small-team rather than mass-collaborative)
+  important_distinctions:
+    - >-
+      "rough and published" vs. "polished and withheld" — a flagged half-answer
+      is treated as strictly better than a missing one.
+  tensions: []
+  risks_of_flattening: >-
+    Treating "digital garden" as just an aesthetic/tooling choice (Obsidian +
+    Quartz) misses the article's point that it is a posture toward maturity
+    and honesty about a note's completeness, independent of which tool renders it.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-knowledge-commons.md
+    transformation: summarized
+    authorship: ai-assisted

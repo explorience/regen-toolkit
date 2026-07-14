@@ -1,0 +1,31 @@
+schema: concept-lineage
+object:
+  title: Cooperative types (worker / consumer / savings-and-loan / multi-stakeholder)
+  type: concept-lineage
+  short_description: >-
+    Four cooperative models the article distinguishes as building blocks for
+    thinking about what might work locally — owned/controlled by workers, by
+    consumers pooling purchasing power, by savers/lenders (credit unions), or
+    jointly by multiple stakeholder groups.
+  toolkit_usage: >-
+    Used as a taxonomy readers can map onto existing informal practice
+    (savings circles, burial societies) before deciding what to formalize.
+  adjacent_meanings:
+    - credit-union (the savings-and-loan cooperative form, "one of the most widespread cooperative forms in Africa" per article)
+    - community-supported-agriculture (named as the consumer-cooperative example)
+  important_distinctions:
+    - "a cooperative differs from a company in that the people who do the work/use the service own and govern it, rather than outside investors capturing profits"
+  tensions:
+    - single-stakeholder-simplicity vs multi-stakeholder-representativeness
+  risks_of_flattening: >-
+    Presenting these as four clean categories understates that real-world
+    cooperatives (e.g. Somaliland's informal savings circles) often blend
+    features and predate formal legal typologies.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/cooperative-commons.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d800b62ea134
+  source_lineage: cooperative-commons.md

@@ -1,0 +1,36 @@
+schema: encyclopedia-entry
+object:
+  title: Social Tokens for Creators
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A short guide to social tokens (community-specific tokens for membership,
+    access, or reputation) covering the three main types (creator, community,
+    reputation tokens), use cases for local regen nodes (event access,
+    governance weight, incentive alignment, community identity), and pitfalls
+    (over-financializing relationships, designing for speculation,
+    securities-law exposure).
+  audience: creators and local-node community organisers considering social tokens
+  known_tensions:
+    - >-
+      The guide encourages using tokens to "track and reward contribution" while
+      simultaneously warning against financializing community relationships and
+      against designing for speculation — a tension it names but does not
+      resolve with concrete guardrails.
+  related_concepts:
+    - social-token
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/social-tokens-creator.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    assessed-but-excluded: article is short (60 lines) with no named external
+    tools, no people/location/TEK/MRV content, and no specific funding/legal
+    recommendation beyond a generic pointer to consult securities-law
+    considerations — not treated as high_risk since it is a caution flag, not
+    advice given. No resource-schema candidate produced; the article names no
+    specific external tool/platform to register as a resource.
+  work_order: wo-7b882179b803
+  source_lineage: social-tokens-creator.md

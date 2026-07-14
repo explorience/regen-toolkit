@@ -1,0 +1,20 @@
+schema: public-use-boundary
+object:
+  title: Boundary — Toucan/Verra carbon-credit MRV claim (what-web3-can-cant-do.md)
+  tier: public-with-caveat
+  consent_note: >-
+    Covers the claim-evidence entry describing Verra's May 2022 block on
+    Toucan's tokenization of retired carbon credits. This is an MRV/carbon-
+    market claim sourced only to one party's (Toucan's) account of a regulatory
+    dispute. Per the ingest skill's MRV/carbon-claims high-risk trigger: do not
+    present as a settled, neutral account of the dispute without cross-checking
+    Verra's own published ruling before any decision-relevant or public reuse.
+  review_type: steward-review-before-public-use
+  notes: covers 03-claim-evidence-toucan-verra.yaml from this work order.
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-web3-can-cant-do.md
+    transformation: inferred
+    authorship: ai-assisted
+  work_order: wo-9cd1291b92b8
+  source_lineage: what-web3-can-cant-do.md

@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Tri-Ethnic Center Community Readiness Model (assessment manuals)
+  type: resource
+  resource_type: assessment-framework
+  url: https://tec.colostate.edu/communityreadiness/
+  link_status: active
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  notes: >-
+    The nine-stage Community Readiness Model and its assessment manuals,
+    developed by the Tri-Ethnic Center for Prevention Research at Colorado State
+    University, cited in is-community-ready.md as the framework underlying its
+    launch-readiness guidance.
+  related_concepts:
+    - community-readiness-model-nine-stage-readiness-assessment
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-community-ready.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-18f3652d0e28
+  source_lineage: is-community-ready.md

@@ -1,0 +1,25 @@
+id: wo-6675a98b235f
+title: ingest delegation-representation.md
+type: work-order
+source_path: delegation-representation.md
+source_hash: ba762b5434f26d3db0cc473afea050690b8be89956129dec3d421a2315eeed3b
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - data/kb/encyclopedia-entry.yaml#delegation-and-representation-in-daos
+  - data/kb/concept-lineage.yaml#liquid-delegation
+  - >-
+    data/kb/claim-evidence.yaml#recommend-capping-delegate-power-at-20-30-of-total-voting-power
+  - data/kb/public-use-boundary.yaml#untitled-b96eb568

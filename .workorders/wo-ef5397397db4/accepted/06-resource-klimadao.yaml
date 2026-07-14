@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: KlimaDAO
+  type: resource
+  resource_type: org
+  url: https://klimaDAO.com
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: what-are-tokens.md
+  related_concepts:
+    - carbon-credit-tokenization
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-are-tokens.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: what-are-tokens.md
+  notes: >-
+    URL is copied as printed in the article's reference list (klimaDAO.com);
+    worth double-checking at review time against the project's canonical domain.
+  work_order: wo-ef5397397db4

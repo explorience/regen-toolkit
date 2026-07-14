@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: SuperBenefit Knowledge Garden — Anticapture Framework
+  type: resource
+  resource_type: framework
+  url: https://knowledge.superbenefit.org
+  is_source_system_candidate: true
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  original_source: tokens-coordination-tools.md
+  related_concepts:
+    - anticapture-governance-design
+    - token-based-coordination-mechanisms
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-coordination-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: tokens-coordination-tools.md
+  notes: >-
+    A governance framework focused on resisting concentration of power
+    (distributing authority rather than replacing one central power with
+    another); flagged as a source-system candidate because it's a living
+    knowledge garden, not a static document — a future ingestion pass should
+    register it properly via skills/register-source with a return_path.

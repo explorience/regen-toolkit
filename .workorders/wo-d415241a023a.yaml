@@ -1,0 +1,25 @@
+id: wo-d415241a023a
+title: ingest hot-vs-cold.md
+type: work-order
+source_path: hot-vs-cold.md
+source_hash: 247792df895424b31aa6e377a1e37f022a825ae214dd6d75130d60ed9827873d
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g5
+produced:
+  - data/kb/encyclopedia-entry.yaml#hot-wallets-vs-cold-storage
+  - data/kb/concept-lineage.yaml#layered-custody-hot-cold-multisig-by-purpose
+  - data/kb/resource.yaml#cryptosteel-metal-seed-phrase-storage
+  - data/kb/resource.yaml#cryptocurrency-security-standards-ccss
+  - data/kb/claim-evidence.yaml#hardware-wallets-cost-roughly-80-200

@@ -1,0 +1,44 @@
+schema: encyclopedia-entry
+object:
+  title: Decentralization and Resilience
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    Frames decentralization as a practical foundation for community survival
+    rather than a technical abstraction, via four mechanisms — redundancy,
+    fault tolerance, adaptive capacity, and anti-fragility — then introduces
+    "cosmo-local coordination" (global standards + local control) and gives
+    regenerative-community applications (local ReFi nodes, decentralized
+    energy/food networks, community savings circles/ROSCAs) plus six
+    principles for building resilient regeneration.
+  audience: Community-Steward
+  known_tensions:
+    - >-
+      local-autonomy vs global-coordination — "isolation breeds fragility;
+      dependence on a single external power breeds capture."
+  related_concepts:
+    - cosmo-local-coordination
+    - anti-fragility
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/decentralization-resilience.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b48196973cdf
+  source_lineage: decentralization-resilience.md
+  notes: >
+    # assessed-but-excluded
+
+    - Greenpill Local and RadicalxChange appear only in the reference list
+      (URLs, no in-body description of what they curate or a return path), so
+      no source-system card was created for either here — insufficient
+      in-article material to responsibly fill steward/return_path without
+      inventing facts.
+    - ROSCA (rotating savings and loan association) is described only generically
+      as "a time-tested form of decentralization"; not enough distinct source
+      material for its own concept-lineage beyond what's captured in the
+      encyclopedia entry's applications section.
+    - No people/community profiles, exact locations, or high-risk triggers
+      identified; no public-use-boundary object created.

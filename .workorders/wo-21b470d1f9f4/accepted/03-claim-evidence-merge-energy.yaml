@@ -1,0 +1,34 @@
+schema: claim-evidence
+object:
+  title: Ethereum's 2022 Merge cut network energy use by about 99.95% overnight
+  type: claim-evidence
+  claim: >-
+    Bitcoin's proof-of-work consensus consumes roughly as much electricity each
+    year as a small country like Norway, but Ethereum's 2022 switch to proof of
+    stake cut its electricity use by about 99.95% overnight, and most newer
+    chains (including Celo, used by the Sarafu Network and Regen Network
+    examples in this article) work the low-energy proof-of-stake way — so
+    "crypto wrecks the climate" is largely a Bitcoin-specific story, not a
+    crypto-wide one.
+  evidence: >-
+    Cited to ethereum.org's official Merge account for the ~99.95% figure, and
+    to the Cambridge Bitcoin Electricity Consumption Index for the
+    Bitcoin/Norway energy comparison, both listed in the article's references.
+  source_lineage: src/content/docs/what-is-cryptocurrency.md
+  interpretation: >-
+    Used directly to answer the "isn't this terrible for the planet?" fear by
+    reframing an all-or-nothing question into a chain-specific, design-choice
+    question.
+  uncertainty: >-
+    Figures are drawn from the cited primary sources but not independently
+    re-verified in this article; the Cambridge index's Bitcoin estimate is
+    itself a range/model rather than a single hard measurement, as it is for the
+    near-identical claim already ingested from common-concerns.md.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-is-cryptocurrency.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-21b470d1f9f4

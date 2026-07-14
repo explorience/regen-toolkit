@@ -1,0 +1,29 @@
+id: wo-d579c610b491
+title: ingest what-is-local-node.md
+type: work-order
+source_path: what-is-local-node.md
+source_hash: 7d1c2242d85b38a83f7a13efd8779a92dcaa03f28bda1d870dd1e933a5523ea2
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-is-a-local-node
+  - data/kb/concept-lineage.yaml#subsidiarity
+  - >-
+    data/kb/claim-evidence.yaml#refi-dao-local-node-incubator-beta-cohort-spun-up-12-new-nodes
+  - >-
+    data/kb/claim-evidence.yaml#localism-fund-launched-with-155-000-in-pooled-initial-funding
+  - data/kb/source-system.yaml#greenpill-network-6b752193
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-treasury-multisig-and-funding-source-recommendations-what-is-local-node-md

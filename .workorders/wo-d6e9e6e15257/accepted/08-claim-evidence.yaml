@@ -1,0 +1,29 @@
+schema: claim-evidence
+object:
+  title: Wikipedia preserves deleted-page text so it can be studied later
+  type: claim-evidence
+  claim: >-
+    Wikipedia almost never truly destroys content: old page versions live in
+    page history, talk-page discussions get moved to dated archive subpages
+    rather than erased, and even deleted pages keep their text in the database —
+    as one editor put it, "in 100 years when historians want to study this
+    incident, they can."
+  evidence: >-
+    Cited in the article from Wikipedia's "Help:Page history" and
+    "Help:Archiving a talk page" help pages, listed in the article's References.
+  interpretation: >-
+    Used as the canonical large-scale example of "archive means history, not
+    trash" — the article argues page history is institutional memory that lets a
+    thousand strangers trust the current version of a page.
+  uncertainty: >-
+    The attributed editor quote is reproduced as given in the article, without a
+    named editor or a direct link to the specific discussion it came from; not
+    independently verified for this ingestion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/archive-compost.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-d6e9e6e15257
+  source_lineage: archive-compost.md

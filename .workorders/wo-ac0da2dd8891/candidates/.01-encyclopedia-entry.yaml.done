@@ -1,0 +1,40 @@
+schema: encyclopedia-entry
+object:
+  title: Understanding Gas Fees in Cryptocurrency
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    A quick, plain-language explainer of blockchain gas fees: what gas is and
+    why it exists (pay validators, prevent spam, allocate block space), the
+    EIP-1559 base-fee + tip fee model (base fee auto-adjusts with demand and
+    is burned; priority fee/tip jumps the queue), typical gas costs by
+    transaction type, what drives fees up or down (network demand, time of
+    day, transaction complexity), and five ways to save (time transactions,
+    avoid volatility spikes, use fee estimators, use Layer 2, set max fees).
+  audience: newcomers doing their first crypto transactions
+  known_tensions: []
+  related_concepts:
+    - gas-fee-eip-1559-base-fee-plus-tip-model
+  related_resources:
+    - arbitrum
+    - optimism
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/gas-fees.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-ac0da2dd8891, gas-fees.md):
+# - The gas-limit-by-transaction-type table (21,000 for a simple send,
+#   ~65,000 for a token transfer, etc.) and the "5 Ways to Save on Gas" list
+#   — folded into this entry's summary as illustrative detail, not split into
+#   separate objects; they are sub-structure of the same explainer, not
+#   independently reusable concepts or claims.
+# - Frontmatter production/workflow metadata (author: unknown, sources: [l,
+#   i, s, t] — apparently a data-entry artifact, not real source names —
+#   research_done, draft_done, factcheck_done, review_done, critique_done,
+#   published_flag, estimated_words, section/track numbers) — internal
+#   site-authoring state, not toolkit content. Flagging the garbled
+#   `sources: [l, i, s, t]` frontmatter field as a likely site-authoring bug
+#   worth a signal, not something to carry into a content object.

@@ -1,0 +1,40 @@
+schema: concept-lineage
+object:
+  title: Web3 as addition, not replacement, to existing mission-driven work
+  type: concept-lineage
+  short_description: >-
+    A framing that positions web3 tooling as analogous to "your website" — a
+    tool that supports existing work (community relationships, program delivery,
+    physical presence) without replacing it. The recommended adoption pattern:
+    identify a specific current pain point (fundraising, transparency,
+    coordination, or community building), then try one small web3-native
+    intervention rather than a wholesale rebuild.
+  toolkit_usage: >-
+    The organizing idea of the whole article; every subsequent recommendation
+    (pick one pain point, start small, keep what works) follows directly from
+    this framing.
+  adjacent_meanings:
+    - >-
+      "Tool, not strategy" adoption framing common in general
+      digital-transformation guidance (not named in the article, but the same
+      underlying pattern)
+  important_distinctions:
+    - >-
+      "The goal is impact, not technology for its own sake" — the article is
+      explicit that web3 adoption is instrumental to mission, not a goal in
+      itself.
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — a general adoption-strategy framing, not attributed to a
+    specific community or tradition. Note: this article is short (~380 words)
+    and generic, with no named organizations, tools beyond a passing mention of
+    Snapshot/POAP, or case studies — the concept-lineage here captures the
+    article's full argument rather than a deeper tradition.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/relates-to-existing-work.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-7bdc70aba13e
+  source_lineage: relates-to-existing-work.md

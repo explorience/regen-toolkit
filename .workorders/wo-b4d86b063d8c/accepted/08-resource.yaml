@@ -1,0 +1,16 @@
+schema: resource
+object:
+  title: Base
+  type: resource
+  resource_type: layer-2-network
+  url: https://base.org
+  link_status: active
+  original_source: src/content/docs/ethereum-ecosystem.md (References)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ethereum-ecosystem.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-b4d86b063d8c
+  source_lineage: ethereum-ecosystem.md

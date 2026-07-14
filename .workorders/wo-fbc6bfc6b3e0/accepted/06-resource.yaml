@@ -1,0 +1,20 @@
+schema: resource
+object:
+  title: Endaoment
+  type: resource
+  resource_type: funding-platform
+  url: https://endaoment.org/
+  link_status: active
+  original_source: src/content/docs/funding-gatherings.md (References)
+  notes: >-
+    On-chain 501(c)(3) / donor-advised-fund platform; lets crypto donors give
+    tax-deductibly if the node has charitable status or a fiscal sponsor.
+    Creating a fund is free; donors pay a one-time 1.5% admin fee.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-fbc6bfc6b3e0
+  source_lineage: funding-gatherings.md

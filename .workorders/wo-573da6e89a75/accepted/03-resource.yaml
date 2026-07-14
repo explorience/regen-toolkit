@@ -1,0 +1,18 @@
+schema: resource
+object:
+  title: Giveth
+  type: resource
+  resource_type: funding-platform
+  original_source: src/content/docs/finding-support-mentorship.md
+  notes: >-
+    Listed under "Funding Support" as an organization that funds community
+    projects; no URL given in this article (see giveth-donations.md for full
+    treatment with URLs and mechanics).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/finding-support-mentorship.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-573da6e89a75
+  source_lineage: finding-support-mentorship.md

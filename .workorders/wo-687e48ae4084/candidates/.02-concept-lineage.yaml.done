@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: Quadratic Voting
+  type: concept-lineage
+  short_description: >-
+    A voting mechanism where a member can cast multiple votes on an issue, but
+    each additional vote costs exponentially more (tokens burned), creating
+    diminishing returns that counter simple wealth-weighted dominance.
+  source_traditions:
+    - mechanism design / public-choice economics
+    - Glen Weyl and Eric Posner's "Radical Markets" work (per the article's
+      cited "Essays in Power" reference)
+    - DAO governance experimentation (e.g. CityDAO)
+  toolkit_usage: >-
+    Presented in this article as the second of five DAO governance models —
+    positioned as the direct response to token-weighted voting's whale-dominance
+    problem, at the cost of added conceptual and implementation complexity.
+  adjacent_meanings:
+    - quadratic voting as a governance mechanism (this article's usage)
+    - quadratic funding as a related-but-distinct matching-funds mechanism (not
+      covered in this article)
+  important_distinctions:
+    - >-
+      quadratic-voting-vs-token-weighted-voting — quadratic voting still
+      requires holding tokens to vote, it changes the cost curve of casting
+      additional votes rather than removing the token requirement entirely.
+  tensions:
+    - >-
+      fairer-representation vs harder-to-understand — the article names
+      "requires user familiarity with the underlying mathematics" as a direct
+      con.
+  risks_of_flattening: >-
+    Describing quadratic voting only as "fairer" flattens that it is still a
+    token-gated mechanism — it changes who wins among token holders, not
+    whether non-token-holders get a voice.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-governance-models.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-687e48ae4084

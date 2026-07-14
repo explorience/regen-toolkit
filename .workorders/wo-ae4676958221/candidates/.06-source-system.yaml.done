@@ -1,0 +1,32 @@
+schema: source-system
+object:
+  title: SuperBenefit Knowledge Garden
+  type: docs-site
+  steward: SuperBenefit
+  return_path: >-
+    Not stated in the article — it describes the Knowledge Garden as an
+    Obsidian vault maintained as Markdown in a public Git repository and
+    published with Quartz, which implies a pull-request-style contribution
+    path, but no explicit contribute-back channel is named. Needs steward
+    confirmation (see companion signal object).
+  url: https://knowledge.superbenefit.org/
+  what_it_curates: >-
+    Docs, a lexicon of defined terms, a curated link library, and design
+    patterns for community/DAO practice, maintained as Markdown in a public
+    Git repository.
+  why_it_matters: >-
+    Cited in the article as a working, community-scale example of the
+    Markdown + Git + static-publisher pattern: a knowledge commons a small
+    team can run for years with no platform bill and full ownership of the
+    archive.
+  how_to_credit: SuperBenefit
+  extraction_status: raw-lead
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-community-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-ae4676958221
+  source_lineage: ai-community-tools.md

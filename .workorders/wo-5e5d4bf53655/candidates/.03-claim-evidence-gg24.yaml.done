@@ -1,0 +1,31 @@
+schema: claim-evidence
+object:
+  title: Gitcoin Grants has distributed $67M+ to 5,000+ projects; GG24 included a $100K Bioregional Reforestation round
+  type: claim-evidence
+  claim: >-
+    Gitcoin Grants, the largest quadratic-funding deployment, has helped
+    distribute over $67 million to more than 5,000 projects, and its 2025
+    round (GG24) included a Bioregional Reforestation round with a $100K
+    matching pool split across nine bioregions, including Kenya/Uganda and
+    Nigeria.
+  evidence: >-
+    Cited to "Gitcoin Quadratic Funding" (gitcoin.co/mechanisms/quadratic-
+    funding) and "Gitcoin Grants 24" (grants.gitcoin.co) in the article's
+    References.
+  source_lineage: src/content/docs/why-local-matters.md
+  interpretation: >-
+    Used to support the claim that a small node with no rich donor can still
+    draw meaningful matched funding, because quadratic funding rewards breadth
+    of backers over size of any single donation.
+  uncertainty: >-
+    Cumulative platform totals ($67M+/5,000+ projects) are a moving target that
+    will be understated over time; the GG24 $100K Bioregional Reforestation
+    figure is specific to a named round and should be checked against Gitcoin's
+    own round page for current/final numbers rather than treated as a
+    standing, repeatable figure.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/why-local-matters.md
+    transformation: summarized
+    authorship: ai-assisted

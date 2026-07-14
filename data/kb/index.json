@@ -1,18 +1,18 @@
 {
-  "total": 155,
+  "total": 722,
   "by_type": {
-    "claim-evidence": 33,
-    "concept-lineage": 30,
-    "encyclopedia-entry": 18,
-    "public-use-boundary": 9,
-    "resource": 48,
-    "signal": 9,
-    "source-system": 6,
-    "track": 2
+    "claim-evidence": 146,
+    "concept-lineage": 143,
+    "encyclopedia-entry": 116,
+    "public-use-boundary": 34,
+    "resource": 226,
+    "signal": 33,
+    "source-system": 21,
+    "track": 3
   },
   "by_maturity": {
-    "raw": 146
+    "raw": 692
   },
-  "review_queue": 155,
+  "review_queue": 714,
   "generated_from": "derived — rebuildable from data/kb/"
 }

@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: Verra blocked Toucan's tokenization of retired carbon credits (May 2022)
+  type: claim-evidence
+  claim: >-
+    Toucan Protocol moved carbon credits onto the blockchain so they could be
+    traded openly, but in May 2022 Verra, the world's largest carbon-credit
+    registry, ruled that the specific credits being used (already-retired
+    ones) should not be tokenized that way, and blocked the practice.
+  evidence: >-
+    Cited to "Toucan: Response to Verra's announcement" (blog.toucan.earth) in
+    the article's References — Toucan's own account of the decision.
+  source_lineage: src/content/docs/what-web3-can-cant-do.md
+  interpretation: >-
+    Used as the article's central cautionary tale for "a blockchain cannot
+    verify the real world for you" — the code executed correctly, but the
+    off-chain registry/rules layer around the carbon credits did not
+    cooperate, illustrating that tokenization does not resolve underlying
+    real-world governance disputes.
+  uncertainty: >-
+    High-risk MRV/carbon-market claim per the ingest skill's high-risk
+    triggers. Sourced only to Toucan's own response post (a party to the
+    dispute), not to Verra's original ruling directly; the article does not
+    cite Verra's own statement. Treat as one side's framing of a contested
+    registry decision until cross-checked against Verra's own published policy.
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  provenance:
+    origin: src/content/docs/what-web3-can-cant-do.md
+    transformation: summarized
+    authorship: ai-assisted

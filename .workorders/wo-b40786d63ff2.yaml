@@ -1,0 +1,27 @@
+id: wo-b40786d63ff2
+title: ingest onchain-attestations.md
+type: work-order
+source_path: onchain-attestations.md
+source_hash: 6aeccc23520dc01011b74cdd61c7564f4730dded34d115d61bac229b425275b7
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g7
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#on-chain-attestations-your-digital-proof-record
+  - data/kb/concept-lineage.yaml#on-chain-attestation-as-a-vouching-record
+  - >-
+    data/kb/claim-evidence.yaml#on-chain-attestations-cannot-be-changed-deleted-or-faked-once-recorded
+  - >-
+    data/kb/public-use-boundary.yaml#boundary-article-written-for-a-named-vulnerable-population-program-sarreya

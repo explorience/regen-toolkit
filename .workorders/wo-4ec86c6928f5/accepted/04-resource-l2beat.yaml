@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: L2Beat
+  type: resource
+  url: https://l2beat.com/
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - blockchain-trilemma
+  is_source_system_candidate: true
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/which-chain-right.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Cited as a Layer 2 comparison and risk-assessment tool in the article's
+    References.
+  work_order: wo-4ec86c6928f5
+  source_lineage: which-chain-right.md

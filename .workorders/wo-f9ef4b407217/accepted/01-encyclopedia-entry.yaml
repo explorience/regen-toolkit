@@ -1,0 +1,37 @@
+schema: encyclopedia-entry
+object:
+  title: Tax Implications of Cryptocurrency
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A US-centric primer on crypto taxation: crypto is treated as property (not
+    currency), cost basis, short-vs-long-term capital gains, taxable vs
+    non-taxable events, NFT and DeFi-specific tax treatment, gas-fee handling,
+    record-keeping needs, and the relevant IRS forms (8949, Schedule D, Schedule
+    1, 1099-DA).
+  audience: individuals/organisations transacting in crypto in the US
+  known_tensions:
+    - >-
+      The article flags its own biggest uncertainty: whether NFTs count as
+      "collectibles" taxed at 28% is explicitly called "debated," with a
+      "consult a pro if unsure" caveat.
+  related_concepts:
+    - capital-gains-crypto
+  related_resources:
+    - cointracker
+    - koinly
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/tax-implications.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    high_risk: true — this article gives jurisdiction-specific tax/legal
+    guidance (a high-risk trigger category per ingest rules); see accompanying
+    public-use-boundary. The article itself carries an explicit disclaimer:
+    "Educational purposes only. Not tax advice."
+  work_order: wo-f9ef4b407217
+  source_lineage: tax-implications.md

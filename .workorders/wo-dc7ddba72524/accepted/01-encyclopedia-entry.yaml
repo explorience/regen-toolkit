@@ -1,0 +1,50 @@
+schema: encyclopedia-entry
+object:
+  title: Tokens as Coordination Tools
+  type: encyclopedia-entry
+  page_type: concept
+  summary: >-
+    Explains how tokens function as coordination mechanisms for distributed
+    groups: signaling (temperature checks before formal votes), on-chain vs
+    off-chain voting, reputation-based alternatives to pure token wealth, and
+    incentive/penalty design. Walks through MakerDAO, Gitcoin DAO, and KlimaDAO
+    as real examples, then names the recurring failure modes (low participation,
+    wealth concentration, hidden multisig hierarchies, short-termism) and points
+    to the SuperBenefit anticapture framework as a design response.
+  audience: >-
+    regenerative community members and DAO organizers weighing whether/how to
+    use tokens for governance
+  known_tensions:
+    - token-weighted-voting vs one-person-one-voice ideals
+    - >-
+      decentralization-as-stated-value vs
+      multisig-concentrated-power-in-practice
+    - short-term-price-speculation vs long-term-ecosystem-health
+  related_concepts:
+    - token-based-coordination-mechanisms
+    - reputation-based-governance
+    - anticapture-governance-design
+  related_resources:
+    - SuperBenefit Knowledge Garden
+    - MakerDAO
+    - Gitcoin DAO
+    - KlimaDAO
+    - Colony
+    - Tally
+    - Snapshot
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-coordination-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: tokens-coordination-tools.md
+  notes: |
+    # assessed-but-excluded
+    - "Try This" exercise (visit Snapshot, look at active proposals) folded into
+      the encyclopedia entry's framing rather than a separate object; it's an
+      exercise prompt, not a distinct typed fact.
+    - no people/community profiles, exact locations, TEK, or funding/legal
+      recommendations in this article; no high-risk trigger identified.
+  work_order: wo-dc7ddba72524

@@ -1,0 +1,26 @@
+id: wo-5f68dddaa5d9
+title: ingest building-in-public.md
+type: work-order
+source_path: building-in-public.md
+source_hash: 14686d16cc78f16d31012ddb75c059d9980d0a677144eae8c74436b9587869e5
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - data/kb/encyclopedia-entry.yaml#building-in-public
+  - data/kb/concept-lineage.yaml#building-in-public-as-a-community-practice
+  - >-
+    data/kb/claim-evidence.yaml#weekly-building-in-public-updates-beat-monthly-dumps
+  - >-
+    data/kb/signal.yaml#building-in-public-md-has-no-references-section-or-specific-citations-despite-factcheck-done-true

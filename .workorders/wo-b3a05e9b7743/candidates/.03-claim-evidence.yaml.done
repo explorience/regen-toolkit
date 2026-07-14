@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: "Capacity building is the highest-return investment a node can make"
+  type: claim-evidence
+  claim: >-
+    "Capacity building is slow but essential. Invest in your members'
+    skills, it's the highest-return investment your node can make."
+  evidence: >-
+    Stated directly as the article's closing assertion in "Moving Forward";
+    no study, comparison, or named case is cited to support the
+    "highest-return" framing.
+  source_lineage: src/content/docs/building-internal-capacity.md
+  interpretation: >-
+    Functions as the article's rhetorical closing argument for prioritizing
+    member skill-building over other node investments (e.g. paying external
+    consultants).
+  uncertainty: >-
+    An unevidenced, opinionated claim — the article has no References
+    section and no data comparing capacity-building investment against
+    alternative uses of node time/resources. Treat as practitioner belief,
+    not a measured finding.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-internal-capacity.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-b3a05e9b7743

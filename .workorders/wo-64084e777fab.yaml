@@ -1,0 +1,23 @@
+id: wo-64084e777fab
+title: ingest key-terms-a-z.md
+type: work-order
+source_path: key-terms-a-z.md
+source_hash: 71de07989be3c0858b228a079250b9d0e411f7ca62173e6425050d28c6f9a940
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g6
+produced:
+  - data/kb/encyclopedia-entry.yaml#key-terms-a-z
+  - data/kb/concept-lineage.yaml#refi-regenerative-finance
+  - data/kb/concept-lineage.yaml#tokenomics

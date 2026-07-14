@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Safe (multisig wallets)
+  type: resource
+  resource_type: tool
+  url: https://safe.global
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  related_concepts:
+    - node-founding-team-roles
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-founding-team.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-f2680cdb2876
+  source_lineage: building-founding-team.md
+  notes: >-
+    Article's recommended tool for a node treasury: a 2-of-3 multisig so funds
+    need at least two approvals to move, named as the "Stretch" action item and
+    as one of the two node-specific no-single-point-of-failure rules (at least
+    two people on the multisig).

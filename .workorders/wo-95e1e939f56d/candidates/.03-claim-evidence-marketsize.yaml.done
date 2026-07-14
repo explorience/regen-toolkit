@@ -1,0 +1,26 @@
+schema: claim-evidence
+object:
+  title: "Stablecoin market size ~$320B as of mid-2026 (USDT ~$190B, USDC ~$78B)"
+  type: claim-evidence
+  claim: >-
+    USDT and USDC together make up most of roughly $320 billion of
+    stablecoins in circulation as of mid-2026: USDT around $190 billion,
+    USDC around $78 billion.
+  evidence: >-
+    Stated directly in the article with no in-line citation; the article's
+    References section points to the DefiLlama Stablecoins Dashboard as the
+    general "live data" source for this kind of figure.
+  source_lineage: src/content/docs/stablecoins.md
+  interpretation: >-
+    Used to establish fiat-backed stablecoins' dominant market share among
+    the three design types.
+  uncertainty: >-
+    Point-in-time market-cap figures change continuously; not independently
+    re-verified against DefiLlama at ingestion time. Treat as approximate and
+    time-stamped to the article's stated "mid-2026."
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stablecoins.md
+    transformation: summarized
+    authorship: ai-assisted

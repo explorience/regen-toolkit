@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: Argent
+  type: resource
+  resource_type: tool
+  url: https://www.argent.xyz
+  is_source_system_candidate: false
+  toolkit_route: Layer 6 (Deployment) / wallet tooling
+  link_status: active
+  related_concepts:
+    - Multisig (multi-signature wallet)
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/multisig-setup.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Mobile-focused wallet with social recovery built in (a trusted guardian can
+    help recover access instead of requiring a multisig threshold). Article
+    frames social recovery and multisig as addressing different problems:
+    simpler/more flexible for individual wallets, but multisig "remains the
+    better choice" for community treasuries needing ongoing, legitimate
+    multi-person access.
+  work_order: wo-56e6a89fcec1
+  source_lineage: multisig-setup.md

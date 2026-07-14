@@ -1,0 +1,22 @@
+schema: resource
+object:
+  title: Silvi
+  type: resource
+  resource_type: platform
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - dmrv
+  is_source_system_candidate: true
+  link_status: unresolved
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/what-you-can-do-ethereum.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Named as a program using dMRV to prove tree planting and pay for impact.
+    No URL given in the article itself; link_status set to "unresolved"
+    pending a human confirming the canonical Silvi Protocol URL (a
+    "silvi-protocol.md" article exists elsewhere in this site's open work
+    orders and may cover it in more depth).

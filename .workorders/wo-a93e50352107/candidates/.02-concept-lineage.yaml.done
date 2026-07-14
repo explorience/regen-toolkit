@@ -1,0 +1,38 @@
+schema: concept-lineage
+object:
+  title: DAO alternatives (cooperatives, sociocracy, lightweight voting tools)
+  type: concept-lineage
+  short_description: >-
+    Non-DAO structures offered in is-dao-right.md as fits when a full DAO
+    feels like too much: legal cooperatives with shared ownership,
+    consensus-based decision-making (including sociocracy, used by many
+    permaculture groups), and simple voting tools (Google Forms, Loomio, or
+    paper ballots) for low-tech communities.
+  source_traditions:
+    - cooperative-movement legal structures
+    - sociocracy / consensus-based-facilitation practice
+  toolkit_usage: >-
+    Presented as "A Note on Alternatives" in is-dao-right.md, positioned as
+    the answer when a community's discussion-guide questions point away from
+    a DAO (need for speed/legal protection/low-tech simplicity).
+  adjacent_meanings:
+    - dao-decentralized-autonomous-organization
+    - legal-structures-for-community-organizations
+  important_distinctions:
+    - >-
+      A cooperative offers legal recognition a DAO typically lacks; sociocracy
+      offers a decision-making process, not a legal or financial-custody
+      structure — the article treats these as answering different needs, not
+      as interchangeable DAO substitutes.
+  tensions: []
+  risks_of_flattening: >-
+    Naming "sociocracy" and "cooperatives" as a pair risks implying they are
+    equivalent options; a cooperative is a legal/ownership structure while
+    sociocracy is a decision-making method that could run inside a
+    cooperative, a DAO, or neither.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/is-dao-right.md
+    transformation: synthesized
+    authorship: ai-assisted

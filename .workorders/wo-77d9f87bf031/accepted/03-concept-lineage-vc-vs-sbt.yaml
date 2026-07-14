@@ -1,0 +1,41 @@
+schema: concept-lineage
+object:
+  title: Verifiable Credentials vs Soulbound Tokens
+  type: concept-lineage
+  short_description: >-
+    Two credential formats doing the same underlying job (issuer-signed,
+    independently verifiable proof of achievement) via different technical means
+    — VCs as an open cross-platform data format, SBTs as non-transferable NFTs
+    bound to the earning wallet.
+  toolkit_usage: >-
+    Introduced together in credentials-certifications.md as "the most common
+    standard right now" (VCs) and an alternative format readers might encounter
+    (SBTs), both contrasted against a paper certificate that can be lost,
+    copied, or is hard to verify remotely.
+  adjacent_meanings:
+    - >-
+      open-badges (an older, still-active credentialing standard named alongside
+      VCs/SBTs)
+  important_distinctions:
+    - >-
+      an SBT's non-transferability is the point — it represents something about
+      the holder, not something ownable/sellable, unlike a regular NFT
+    - >-
+      a VC is a data-format standard that can live on-chain or off-chain; an SBT
+      is specifically an on-chain non-transferable token
+  tensions:
+    - >-
+      non-transferability-proves-authenticity vs
+      no-way-to-correct-or-revoke-a-mistaken-issuance-without-issuer-cooperation
+  risks_of_flattening: >-
+    Presenting VCs and SBTs as interchangeable "both do the same job" glosses
+    over real differences in revocability, privacy (SBTs are visibly on-chain by
+    default; VCs can be selectively disclosed), and infrastructure maturity.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/credentials-certifications.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-77d9f87bf031
+  source_lineage: credentials-certifications.md

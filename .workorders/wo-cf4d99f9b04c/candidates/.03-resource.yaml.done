@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Snapshot
+  type: resource
+  resource_type: tool
+  url: https://snapshot.org
+  is_source_system_candidate: false
+  toolkit_route: Layer 6 (Deployment) / governance tooling
+  link_status: active
+  related_concepts:
+    - DAO (Decentralized Autonomous Organization) vs. Local Node
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/local-nodes-and-daos.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Free, gasless, off-chain voting platform; article states 35,000+
+    communities use it, with a November 2025 "Spaces 2.0" release adding
+    custom domains (e.g. vote.yournode.eth). For onchain/binding votes, the
+    article points to Snapshot X (Starknet) as the live path after Tally's
+    March 2026 wind-down — see the paired claim-evidence object.

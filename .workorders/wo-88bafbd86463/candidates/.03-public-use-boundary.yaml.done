@@ -1,0 +1,29 @@
+schema: public-use-boundary
+object:
+  tier: public-with-caveat
+  consent_note: >-
+    The article attributes its rhythm/celebration/gathering model to "East
+    African contexts" broadly — naming saving circles, inter-clan
+    coordination, and community meals after jumu'ah prayers, and later
+    referencing Ramadan and harvest season as normal low-momentum periods —
+    without naming a specific community or citing a community-authored
+    source for these practices. This is a secondary, broad-strokes cultural
+    attribution from a toolkit guide, not sourced directly from the
+    communities named. Do not present as an authoritative ethnographic
+    account of any specific community's practice; seek community-sourced or
+    specialist review before republishing in a context that speaks on behalf
+    of those traditions.
+  review_type: domain-review-before-public-use
+  notes: >-
+    Covers the main encyclopedia entry and the "community momentum flywheel
+    and rhythm model" concept-lineage entry from this work order — flagged
+    per the ingest skill's TEK/cultural-attribution high-risk trigger
+    (parallel to the prior gatherings-pattern.md ingestion in this
+    framework).
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/building-momentum.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-88bafbd86463
+  source_lineage: building-momentum.md

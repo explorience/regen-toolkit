@@ -1,0 +1,23 @@
+schema: resource
+object:
+  title: GitBook (change requests)
+  type: resource
+  url: https://gitbook.com/docs/collaboration/change-requests
+  resource_type: tool
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - claim-evidence-discipline
+  is_source_system_candidate: false
+  link_status: active
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/editorial-workflow.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    Recommended as a pull-request-equivalent review container for non-technical
+    reviewers: its "change request" workflow gives a visual review link so a
+    program lead or legal reviewer can approve without touching Git.
+  work_order: wo-379fb55cc1a6
+  source_lineage: editorial-workflow.md

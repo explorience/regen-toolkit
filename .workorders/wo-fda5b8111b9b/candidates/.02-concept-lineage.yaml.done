@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: M-of-N Multisig Treasury Management
+  type: concept-lineage
+  short_description: >-
+    A treasury control scheme requiring a threshold M of N designated signers
+    to approve any transaction before it executes, instead of a single
+    controller — e.g. 3-of-5 signers must agree.
+  source_traditions:
+    - traditional corporate board-of-directors approval structures
+    - multi-signature cryptography (Bitcoin/Ethereum multisig wallets)
+    - Gnosis Safe's productization of the pattern for DAOs
+  toolkit_usage: >-
+    Presented in this article as the standard DAO treasury pattern, with
+    concrete recommended thresholds by treasury size (3-of-5 under $10M,
+    4-of-7 for larger treasuries) and a hot/warm/cold storage split.
+  adjacent_meanings:
+    - multisig as a governance-decision mechanism (DAO Governance Models
+      article's "Multi-Signature Governance" model)
+    - multisig as a pure treasury-security control (this article's framing)
+  important_distinctions:
+    - >-
+      multisig-governance-model-vs-multisig-treasury-control — the same
+      underlying M-of-N mechanism can be used either to make general DAO
+      decisions (governance) or narrowly to authorize fund movements
+      (treasury security), and this article is specifically about the latter.
+  tensions:
+    - >-
+      efficiency vs decentralization — a small signer set is fast to act but
+      concentrates power if signers are not rotated or diversified.
+  risks_of_flattening: >-
+    Treating "it's multisig, so it's decentralized" flattens that a 3-of-5 (or
+    similar) scheme still concentrates authority in a small, named group of
+    people; the article itself flags this as a real limitation elsewhere in
+    the broader governance-models discussion.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/dao-tooling.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-fda5b8111b9b

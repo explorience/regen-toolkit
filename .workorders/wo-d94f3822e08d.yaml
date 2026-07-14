@@ -1,0 +1,29 @@
+id: wo-d94f3822e08d
+title: ingest what-is-knowledge-commons.md
+type: work-order
+source_path: what-is-knowledge-commons.md
+source_hash: db7dc5cdb0561886c81184e0b96a19dba6055598a98a1a23d693265a4b5c4a4b
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g10
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-is-a-knowledge-commons
+  - data/kb/concept-lineage.yaml#knowledge-commons
+  - data/kb/concept-lineage.yaml#digital-garden
+  - data/kb/source-system.yaml#superbenefit-knowledge-garden-269368a2
+  - >-
+    data/kb/signal.yaml#superbenefit-knowledge-garden-source-system-card-has-no-confirmed-return-path-8974adf4
+  - >-
+    data/kb/claim-evidence.yaml#wikipedia-adopted-cc-by-sa-in-2009-to-prevent-re-enclosure-of-its-commons
+  - data/kb/resource.yaml#gravitydao-2c8bb93e

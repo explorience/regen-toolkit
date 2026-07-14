@@ -1,0 +1,28 @@
+schema: claim-evidence
+object:
+  title: No legitimate community will ever ask for your seed phrase
+  type: claim-evidence
+  claim: >-
+    "No one in a real community will ever ask for your seed phrase"; a
+    near-universal red flag is an unsolicited DM offering "support," a
+    "giveaway," or a "verification" link.
+  evidence: >-
+    Article cites "security guidance from wallet makers and researchers like
+    Kaspersky" and "security write-ups from Ledger and others" for both
+    claims, referencing specifically Ledger Academy's "Web3 Scams Explained"
+    and Kaspersky's "free seed phrase" scam writeup.
+  source_lineage: >-
+    src/content/docs/find-your-community.md, References: Ledger Academy
+    (Web3 Scams Explained) and Kaspersky (the "free seed phrase" scam)
+  interpretation: >-
+    Standard, widely-corroborated web3 security guidance; low risk of being
+    wrong, but presented here without direct quotation of the cited sources.
+  uncertainty: >-
+    The article paraphrases rather than directly quotes Ledger/Kaspersky;
+    exact source wording not verified at ingestion time.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/find-your-community.md
+    transformation: summarized
+    authorship: ai-assisted

@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: ReFi DAO Local Nodes in Costa Rica, Barcelona, Tanzania, and Mexico
+  type: claim-evidence
+  claim: >-
+    "They [ReFi DAO] have helped start Local Nodes in places like Costa Rica,
+    Barcelona, Tanzania, and Mexico," each focused on local environmental
+    challenges (e.g. ReFi Costa Rica merging crypto philanthropy with grassroots
+    activism, ReFi Tanzania addressing urban waste, ReFi BayArea integrating
+    solar energy with regenerative real estate).
+  evidence: >-
+    Stated in the article's "Real Examples You Can Understand" section; cites
+    "refidao.local" in the References list (an internal/informal reference, not
+    a resolvable public URL at ingestion time).
+  source_lineage: 'src/content/docs/examples-impact-daos.md (References: refidao.local)'
+  interpretation: >-
+    Consistent with ReFi DAO's public Local Nodes model described in other site
+    articles (e.g. find-your-community.md references refidao.com/local-nodes as
+    the live, sortable directory).
+  uncertainty: >-
+    The specific node roster (Costa Rica, Barcelona, Tanzania, Mexico, BayArea)
+    is a point-in-time snapshot from the article; ReFi DAO's Local Nodes
+    directory changes over time and should be checked live at
+    refidao.com/local-nodes rather than trusted as current from this article
+    alone. The cited "refidao.local" reference does not resolve to a public URL.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/examples-impact-daos.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-c562753ff84a

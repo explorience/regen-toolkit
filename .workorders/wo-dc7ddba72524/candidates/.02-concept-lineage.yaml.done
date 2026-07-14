@@ -1,0 +1,37 @@
+schema: concept-lineage
+object:
+  title: Token-Based Coordination Mechanisms
+  type: concept-lineage
+  short_description: >-
+    The set of mechanisms (signaling, voting, reputation, incentives/penalties)
+    by which token-holding groups align on priorities and manage shared
+    resources without a single central decision-maker.
+  source_traditions:
+    - DAO governance tooling (Snapshot signaling, Tally on-chain voting)
+    - reputation-based contribution tracking (Colony)
+    - quadratic funding mechanism design (Gitcoin)
+  toolkit_usage: >-
+    Used in the article to frame tokens as a governance/coordination layer
+    for regenerative communities, distinct from tokens as speculative assets.
+  adjacent_meanings:
+    - token-weighted voting (plutocratic variant)
+    - reputation/non-transferable Soulbound Tokens (SBTs) as an alternative to wealth-based influence
+  important_distinctions:
+    - signaling (non-binding temperature check) vs voting (binding decision)
+    - on-chain voting (permanent record, gas cost) vs off-chain voting (lighter weight, e.g. Snapshot)
+    - token-wealth-based influence vs contribution/reputation-based influence
+  tensions:
+    - decentralized framing vs multisig-concentrated real power
+    - rewarding participation vs penalizing inactivity without excluding low-capacity members
+  risks_of_flattening: >-
+    Treating "tokens for coordination" as a single solved pattern risks hiding
+    that most implementations still concentrate power in early/wealthy holders
+    or small multisig groups — the article names this explicitly as a
+    recurring, unsolved problem across "thousands of DAOs."
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/tokens-coordination-tools.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: tokens-coordination-tools.md

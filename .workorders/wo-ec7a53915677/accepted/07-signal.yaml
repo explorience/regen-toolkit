@@ -1,0 +1,23 @@
+schema: signal
+object:
+  title: Silvi Protocol playbook is single-sourced promotional content
+  type: signal
+  signal_type: content
+  affected_layer: layer-9-evolution-signals
+  interpretation: >-
+    This article's frontmatter lists `sources: []` while making specific
+    verification/payment/impact claims about a third-party protocol (Silvi).
+    Future ingestion or reuse of this content should route it through the
+    high-risk MRV/ecological-claims review path rather than treating it as a
+    neutral factual explainer.
+  proposed_intervention: review
+  maturity: raw
+  ai_assisted: true
+  high_risk: true
+  public_use: not-public-yet
+  provenance:
+    origin: src/content/docs/silvi-protocol.md
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-ec7a53915677
+  source_lineage: silvi-protocol.md

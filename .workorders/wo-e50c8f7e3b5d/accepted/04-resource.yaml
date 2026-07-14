@@ -1,0 +1,25 @@
+schema: resource
+object:
+  title: Auto Classifier (Obsidian plugin)
+  type: resource
+  resource_type: tool
+  url: https://github.com/HyeonseoNam/auto-classifier
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: active
+  related_concepts:
+    - typing-vs-tagging
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/ai-assisted-classification.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-e50c8f7e3b5d
+  source_lineage: ai-assisted-classification.md
+  notes: >-
+    Obsidian plugin (by HyeonseoNam) that classifies notes against three
+    reference modes: all tags in the vault, a filtered regex subset, or a manual
+    hand-curated category list (the supervised "bucketing" pattern, built in).
+    Works with any OpenAI-compatible API (OpenAI, local Ollama, LocalAI) and can
+    also use the Jina AI Classifier, which has a free tier.

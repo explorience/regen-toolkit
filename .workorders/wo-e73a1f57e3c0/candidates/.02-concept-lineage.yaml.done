@@ -1,0 +1,42 @@
+schema: concept-lineage
+object:
+  title: Community-Member Attraction Funnel (Awareness → Interest → Visit → Join)
+  type: concept-lineage
+  short_description: >-
+    A four-stage funnel model applied to community building: people discover
+    a node (Awareness, via content/events/referrals), learn more (Interest,
+    via website/docs/conversation), attend (Visit), then commit (Join,
+    becoming members who contribute and stay).
+  source_traditions:
+    - Marketing / growth-funnel frameworks (AIDA and its descendants), applied
+      here to community organizing rather than sales
+  toolkit_usage: >-
+    Used in this article as the structuring device for a local node's
+    member-attraction strategy, paired with content marketing, community
+    presence, events, and one-on-one outreach as the levers that move people
+    through each stage.
+  adjacent_meanings:
+    - Sales/marketing conversion funnels (the direct source of the metaphor)
+    - Organic community formation (mycelial-network framing used elsewhere on
+      the site, e.g. find-your-community.md, which resists funnel language)
+  important_distinctions:
+    - >-
+      A member-attraction funnel (this article) vs. organic, listen-first
+      community discovery (find-your-community.md's guidance to "eavesdrop,
+      not join") — the same site holds both framings without reconciling them.
+  tensions:
+    - >-
+      Funnel/marketing language treats community growth as a conversion
+      process to be optimized, which can pull toward extractive
+      growth-hacking instincts even when the stated goal (authenticity,
+      belonging, purpose) is explicitly anti-extractive.
+  risks_of_flattening: >-
+    Reducing "who joins and stays" to funnel stages risks flattening the
+    slower, relational, trust-building process the site elsewhere insists on
+    (see find-your-community.md's "slow is safe").
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/finding-your-people.md
+    transformation: synthesized
+    authorship: ai-assisted

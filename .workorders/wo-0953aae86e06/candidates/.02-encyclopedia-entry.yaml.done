@@ -1,0 +1,50 @@
+schema: encyclopedia-entry
+object:
+  title: Types of Gatherings for Local Nodes
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A practical guide for regen local-node organizers to a repertoire of
+    gathering formats — informal (community meal, walk-and-talk, open
+    house), educational (workshop, learning circle, demonstration day),
+    decision-making (town hall using consent-based decision-making,
+    retrospective), and celebration (milestone party, open celebration) —
+    matched to a node's stage of development (pre-formation through
+    renewal), with a sustainable weekly/monthly/quarterly rhythm and named
+    real-world examples from ReFi Cape Town, ReFi Barcelona, and ReFi DAO's
+    global cadence.
+  audience: people starting or running a regen local node (ReFi DAO / GreenPill Network chapter organizers)
+  known_tensions:
+    - format-choice-determines-outcome vs topic-choice (the guide's core claim: same topic, different container, opposite result)
+    - high-effort/ambitious-calendar vs low-effort/sustainable-rhythm (burnout risk)
+    - central-facilitator-driven decisions vs genuinely-shared decision-making (why the guide pushes consent-based process)
+  related_concepts:
+    - gathering-format-selection
+    - consent-based-decision-making
+    - node-burnout-prevention
+  related_resources:
+    - ReFi DAO
+    - GreenPill Network
+    - Canòdrom
+    - The World Café
+    - Open Space Technology
+    - Liberating Structures
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/types-of-gatherings.md
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: types-of-gatherings.md
+  notes: |
+    # assessed-but-excluded
+    - Priya Parker's "The Art of Gathering" and the Sociocracy For All /
+      Prime Directive (Norm Kerth) citations are folded into the
+      concept-lineage's source_traditions rather than separate resource
+      objects, since they're cited as intellectual lineage, not tools to
+      adopt directly.
+    - no people/community profiles beyond named orgs (ReFi Cape Town, ReFi
+      Barcelona) and no exact private locations; Canòdrom is a public civic
+      venue named by its public role, not a private address — no high-risk
+      trigger identified.

@@ -1,0 +1,28 @@
+id: wo-a42af3f6559f
+title: ingest centralized-vs-decentralized.md
+type: work-order
+source_path: centralized-vs-decentralized.md
+source_hash: bcc4c6bef58fc5d20b37ff80123f14c3b7e19625ab0b142e49ca7326e60e2d8b
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g1
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#centralized-vs-decentralized-systems-what-it-means-for-your-garden-and-community
+  - data/kb/concept-lineage.yaml#centralization-vs-decentralization-spectrum
+  - data/kb/resource.yaml#bankless-academy-foundations-of-decentralization
+  - >-
+    data/kb/claim-evidence.yaml#2022-study-decentralized-food-systems-recover-faster-from-supply-disruption-but-labor-shortages-can-favor-centralization
+  - >-
+    data/kb/claim-evidence.yaml#covid-19-disrupted-over-80-of-concentrated-meat-processing-production

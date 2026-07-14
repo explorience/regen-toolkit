@@ -1,0 +1,32 @@
+schema: claim-evidence
+object:
+  title: "Bitcoin's genesis block embeds a Times of London bailout headline"
+  type: claim-evidence
+  claim: >-
+    Satoshi Nakamoto mined Bitcoin's genesis block on January 3, 2009,
+    creating 50 BTC, and embedded within it a headline from The Times of
+    London: "Chancellor on brink of second bailout for banks."
+  evidence: >-
+    Stated as historical fact in the article's "January 2009: The Launch"
+    section; this specific fact is extremely widely documented in Bitcoin
+    historiography (the headline is visible in the actual genesis block's
+    coinbase transaction on-chain), though the article itself lists no
+    dedicated source or reference for it.
+  source_lineage: src/content/docs/bitcoin-history.md
+  interpretation: >-
+    The article reads the embedded headline as "a timestamp and a quiet
+    statement about why Bitcoin mattered" — framing Bitcoin's origin as a
+    direct response to the 2008 financial-crisis bank bailouts.
+  uncertainty: >-
+    The underlying fact (headline text and date) is independently verifiable
+    on the Bitcoin blockchain itself and is not contested in the broader
+    literature; however this article carries no citation for it, and its own
+    frontmatter lists placeholder/garbage source values (see companion
+    signal object on this work order).
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/bitcoin-history.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-648651c05dac

@@ -1,0 +1,26 @@
+id: wo-15f037f070f8
+title: ingest daos-vs-traditional.md
+type: work-order
+source_path: daos-vs-traditional.md
+source_hash: 2fde44cf44fd8e0b7b0470617bb5efde22114788926126870c914b6522613d80
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#daos-vs-traditional-organizations-a-new-way-to-coordinate
+  - data/kb/concept-lineage.yaml#flat-vs-hierarchical-organizational-structure
+  - data/kb/resource.yaml#deepdao
+  - >-
+    data/kb/claim-evidence.yaml#as-of-2022-215-daos-managed-9-5b-with-500-000-active-members

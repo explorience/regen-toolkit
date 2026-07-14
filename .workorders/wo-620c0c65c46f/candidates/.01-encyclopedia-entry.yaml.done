@@ -1,0 +1,36 @@
+schema: encyclopedia-entry
+object:
+  title: "Crypto Donation Platforms: What You Need to Know"
+  type: encyclopedia-entry
+  page_type: comparison
+  summary: >-
+    Orients a nonprofit to what crypto-donation platforms do (donor landing
+    page, handling blockchain transactions, optional conversion to dollars,
+    payout, tax receipts), surveys named options (The Giving Block, Infinite
+    Giving, CryptoAltruists, plus Causes/Facebook giving, Binance Charity,
+    Alchemy Pay), gives a what-to-look-for checklist (fees, supported coins,
+    instant conversion, integration, support), and a getting-started flow
+    (verify 501(c)(3) status, customize page, publish, promote).
+  audience: nonprofit staff choosing a crypto-donation platform to onboard
+  known_tensions:
+    - holding-crypto-for-appreciation vs instant-conversion-to-avoid-volatility
+  related_concepts:
+    - crypto-donation-adoption-communication
+  related_resources:
+    - The Giving Block
+    - Infinite Giving
+    - CryptoAltruists
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/crypto-donation-platforms.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-620c0c65c46f
+  source_lineage: crypto-donation-platforms.md
+  notes: |
+    # assessed-but-excluded
+    - no independent verification of platform fee levels, supported-coin counts,
+      or nonprofit-verification requirements beyond what the article itself
+      states; treated as a directory-style overview, not fact-checked pricing.

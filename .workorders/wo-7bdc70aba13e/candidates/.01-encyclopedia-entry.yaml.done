@@ -1,0 +1,26 @@
+schema: encyclopedia-entry
+object:
+  title: How Web3 Relates to Your Existing Work
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A short orientation piece framing web3 as an addition to an
+    organization's existing mission-driven work (community relationships,
+    program delivery, physical presence), not a replacement for it. Offers a
+    pain-point-matching exercise across four areas (fundraising, transparency,
+    coordination, community building) mapping each to a corresponding web3
+    tool category (crypto donations, blockchain transparency, DAOs/governance
+    tools, tokens/credentials), and recommends starting with one small,
+    reversible use case (a crypto-donate button, a Snapshot vote, a POAP, an
+    on-chain published budget) rather than rebuilding everything.
+  audience: mission-driven organizations and community groups new to web3
+  known_tensions: []
+  related_concepts:
+    - web3-as-addition-not-replacement
+  related_resources: []
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/relates-to-existing-work.md
+    transformation: summarized
+    authorship: ai-assisted

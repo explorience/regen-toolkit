@@ -1,0 +1,32 @@
+schema: concept-lineage
+object:
+  title: Onboarding as trellis, not funnel
+  type: concept-lineage
+  short_description: >-
+    A reframe of member onboarding: a marketing "funnel" treats newcomers as
+    throughput to be converted; a "trellis" is a pre-built structure (a known
+    first-week path, a buddy, a graduation sequence) that's already in place
+    before a newcomer arrives, so integration doesn't depend on the steward's
+    personal, one-off effort each time.
+  toolkit_usage: >-
+    Framing device for the whole article: every subsequent recommendation
+    (buddy system, first-week structure, role graduation) is presented as a
+    plank of "the trellis."
+  adjacent_meanings:
+    - Marketing/sales funnel (the framing explicitly rejected as a model for community work)
+    - ReFi DAO's Seed / Sapling / Canopy node-maturity model (a parallel growth metaphor cited in the same article)
+  important_distinctions:
+    - >-
+      "A funnel treats people as throughput. A community is a garden" — the
+      article is explicit that the metaphor shift is meant to change steward
+      behavior, not just language.
+  tensions: []
+  risks_of_flattening: >-
+    None flagged — a general community-management framing device, not a claim
+    about a specific person or tradition.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/onboarding-members.md
+    transformation: summarized
+    authorship: ai-assisted

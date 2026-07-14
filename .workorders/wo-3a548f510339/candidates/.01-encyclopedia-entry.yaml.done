@@ -1,0 +1,49 @@
+schema: encyclopedia-entry
+object:
+  title: Funding Your Local Node
+  type: encyclopedia-entry
+  page_type: framework
+  summary: >-
+    A staged funding framework for local regen nodes: start free on purpose
+    (free tools, learn real costs), move to member contributions and sweat
+    equity, add earned revenue (workshops, goods, service fees) that stays
+    local, manage money transparently via a fiscal host (Open Collective) or
+    on-chain multisig (Safe) before scaling, then pursue external funding
+    (Gitcoin Grants, Greenpill Network chapter rounds + hypercerts, ReFi
+    DAO's Local Node program) only once the model is proven. Names concrete
+    pitfalls (taking big money too early, over-funding, no Year-2 plan,
+    letting the funding model reshape community values) and a realistic
+    month-by-month sequence.
+  audience: local regen node builders deciding how to fund the node
+  known_tensions:
+    - >-
+      The "funding model shapes your community" table names real trade-offs
+      (member fees risk excluding lower-income members; grants drift toward
+      funder priorities; earned revenue pulls toward what sells; sweat
+      equity risks burnout) without resolving them — presented as an honest
+      choice, not a solved problem.
+  related_concepts:
+    - rosca-rotating-savings-and-credit-association
+  related_resources:
+    - safe
+    - open-collective
+    - gitcoin-grants
+    - greenpill-network
+    - refi-dao
+    - giveth
+    - hypercerts
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-your-node.md
+    transformation: summarized
+    authorship: ai-assisted
+
+# assessed-but-excluded (wo-3a548f510339, funding-your-node.md):
+# - "Try This" exercise prompts (answer five funding questions, set up a
+#   transparent treasury, prepare a grant application draft) — reader action
+#   items, not extractable knowledge-graph content.
+# - The "funding model → community pull" comparison table (member
+#   fees/grants/earned revenue/sweat equity) — folded into the encyclopedia
+#   summary as a known tension rather than split into separate claim-evidence
+#   objects; it is a set of design trade-offs, not individually sourced facts.

@@ -1,0 +1,27 @@
+id: wo-0e8b32eb0398
+title: ingest dmrv.md
+type: work-order
+source_path: dmrv.md
+source_hash: 54d28afa5e242abc7244c69e1c26adcbfcee3f413d55ac99d8cfbdd1832b870e
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g3
+produced:
+  - data/kb/encyclopedia-entry.yaml#what-is-dmrv-and-why-should-you-care
+  - >-
+    data/kb/concept-lineage.yaml#digital-measurement-reporting-and-verification-dmrv
+  - data/kb/resource.yaml#kobotoolbox
+  - >-
+    data/kb/claim-evidence.yaml#grazing-land-recovery-example-rest-rotation-grazing-confirmed-by-satellite
+  - data/kb/public-use-boundary.yaml#untitled-9b511085

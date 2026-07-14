@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: The Giving Block
+  type: resource
+  resource_type: tool
+  is_source_system_candidate: false
+  toolkit_route: layer-3-resource-graph
+  link_status: unresolved
+  original_source: crypto-donation-platforms.md
+  related_concepts:
+    - crypto-donation-platform
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/crypto-donation-platforms.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-620c0c65c46f
+  source_lineage: crypto-donation-platforms.md
+  notes: >-
+    Described as one of the largest crypto-donation platforms, used by many
+    major nonprofits, offering a suite of tools beyond just accepting donations.
+    No URL given in source article; link_status left unresolved.

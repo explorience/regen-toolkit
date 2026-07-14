@@ -1,0 +1,16 @@
+schema: resource
+object:
+  title: Ethereum Foundation Ecosystem Support Program
+  type: resource
+  resource_type: grant-program
+  url: https://esp.ethereum.foundation/
+  link_status: active
+  original_source: src/content/docs/funding-gatherings.md (References)
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/funding-gatherings.md
+    transformation: quoted
+    authorship: ai-assisted
+  work_order: wo-fbc6bfc6b3e0
+  source_lineage: funding-gatherings.md

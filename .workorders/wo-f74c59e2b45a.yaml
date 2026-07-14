@@ -1,0 +1,29 @@
+id: wo-f74c59e2b45a
+title: ingest setting-up-receive-crypto.md
+type: work-order
+source_path: setting-up-receive-crypto.md
+source_hash: f9041c8730814a41ebfc39a9d3c2a6649fcc01295b570288933f4854dc959bb7
+source_type: document
+target_schemas:
+  - resource
+  - encyclopedia-entry
+  - concept-lineage
+  - claim-evidence
+instructions: >-
+  Deep intake (document): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: ingest-runner-g8
+produced:
+  - >-
+    data/kb/encyclopedia-entry.yaml#setting-up-to-receive-crypto-a-step-by-step-guide
+  - data/kb/resource.yaml#the-giving-block-02f43527
+  - data/kb/resource.yaml#infinite-giving-d521bd7a
+  - >-
+    data/kb/resource.yaml#startssl-named-in-source-as-a-third-donation-platform-option
+  - data/kb/concept-lineage.yaml#crypto-donation-onboarding-nonprofit
+  - >-
+    data/kb/claim-evidence.yaml#crypto-donation-platform-setup-takes-about-an-hour

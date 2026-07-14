@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Gitcoin
+  type: resource
+  url: https://www.gitcoin.co/
+  resource_type: quadratic-funding public-goods platform
+  link_status: active
+  notes: >-
+    Cited as the article's example of "community-directed funding" via quadratic
+    funding, a matching system where many small donations count for far more
+    than a few large ones. Article states Gitcoin has channelled "over $67
+    million to more than 5,000 public-good projects" this way.
+  toolkit_route: layer-3-resource-graph
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/refi-vs-defi-tradfi.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-5db1fb2f799c
+  source_lineage: refi-vs-defi-tradfi.md

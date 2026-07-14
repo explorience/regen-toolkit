@@ -1,0 +1,42 @@
+schema: encyclopedia-entry
+object:
+  title: Common Concerns About Web3, Answered Honestly
+  type: encyclopedia-entry
+  page_type: guide
+  summary: >-
+    A myth-by-myth response to the standard newcomer worries about web3 for
+    permaculturists and community organisers: is it a scam, is it only for the
+    rich, is it just gambling, what about the environment, do I need to
+    understand the tech, and what happens when I make mistakes. Distinguishes
+    fraud (a human problem) from the tool, separates the volatile token from
+    the underlying technology, and gives a precise (not hand-wavy) answer on
+    energy use by contrasting proof-of-work and proof-of-stake networks.
+  audience: permaculturists and community organisers new to Web3, weighing whether to look closer
+  known_tensions:
+    - transparency-as-scam-fighter vs transparency-does-not-stop-fraud
+    - token-price-speculation vs the-underlying-coordination-technology
+    - irreversibility protects against reversal-fraud but also punishes user error
+  related_concepts:
+    - proof-of-work-vs-proof-of-stake
+    - blockchain-as-shared-record
+    - wallet-and-seed-phrase-basics
+  related_resources:
+    - Sarafu / Grassroots Economics
+    - Silvi Protocol
+    - World Bank Remittance Prices Worldwide
+    - Cambridge Bitcoin Electricity Consumption Index
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/common-concerns.md
+    transformation: summarized
+    authorship: ai-assisted
+  work_order: wo-1fd434ce7666
+  source_lineage: common-concerns.md
+  notes: |
+    # assessed-but-excluded
+    - "the scammer psychology / pressure tactics" material (do X right now) folded into
+      the claim-evidence object below rather than a separate object; too thin on its own.
+    - no people/community profiles or exact locations named in this article; no
+      high-risk trigger identified — it's general consumer-facing FAQ content.

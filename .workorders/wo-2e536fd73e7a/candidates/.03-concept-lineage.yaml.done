@@ -1,0 +1,43 @@
+schema: concept-lineage
+object:
+  title: Nested Leadership / Leadership Pathway
+  type: concept-lineage
+  short_description: >-
+    A layered leadership structure (core team, active members, general
+    members) matched to a five-stage individual pathway (Observer,
+    Contributor, Emerging Leader, Established Leader, Elder) that lets
+    people move between commitment levels in both directions.
+  source_traditions:
+    - cooperative/nonprofit board-and-membership tiering practice
+    - apprenticeship / mentorship models of skill progression
+  toolkit_usage: >-
+    Offered as one of three distribution structures (with role rotation and
+    federated structure) and paired with the five-stage pathway so a
+    community can see both its current leadership layers and each
+    individual's likely trajectory through them.
+  adjacent_meanings:
+    - role rotation (a technique for developing many leaders, not a tiering structure)
+    - federated structure (domain-based, not commitment-based, division of leadership)
+  important_distinctions:
+    - >-
+      nested leadership tiers (core/active/general, by commitment) ≠
+      pathway stages (Observer→Elder, by development) — the article
+      presents both as complementary but they are two different axes
+      (structural layer vs. individual growth)
+  tensions:
+    - >-
+      the article states "not everyone will move through all stages, and
+      that is fine" — in tension with the pathway's implicit ladder framing,
+      which could read as prescribing advancement as the default good outcome
+  risks_of_flattening: >-
+    A five-stage naming (Observer/Contributor/Emerging/Established/Elder)
+    risks becoming a status hierarchy in practice even when the article's
+    intent is descriptive, not a rank to climb — communities adopting this
+    language should watch for that drift.
+  maturity: raw
+  public_use: source-linked-unreviewed
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/leadership-development.md
+    transformation: synthesized
+    authorship: ai-assisted

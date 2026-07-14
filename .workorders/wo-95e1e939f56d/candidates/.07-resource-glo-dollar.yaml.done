@@ -1,0 +1,21 @@
+schema: resource
+object:
+  title: Glo Dollar (USDGLO)
+  type: resource
+  url: https://www.glodollar.org/
+  resource_type: tool
+  is_source_system_candidate: false
+  link_status: active
+  toolkit_route: layer-3-resource-graph
+  related_concepts:
+    - stablecoin
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: src/content/docs/stablecoins.md
+    transformation: summarized
+    authorship: ai-assisted
+  notes: >-
+    A fiat-backed stablecoin that donates 100% of reserve profit to public
+    goods and anti-poverty charities (default recipient GiveDirectly per the
+    article); named as a concrete ReFi-aligned stablecoin example.
