@@ -17,4 +17,5 @@ fields:
   what_returns_to_commons: { type: string }   # contribute-back hook
   record_type:
     enum: [pilot, campaign, funding-round, governance, local-node, knowledge-commons, ecological-mrv, event, failure-case]
+  record_stage: { enum: [prospective, in-progress, retrospective] }   # most Implementation Memory rows are prospective candidates, not completed cases
   maturity: { axis: maturity }

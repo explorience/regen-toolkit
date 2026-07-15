@@ -83,3 +83,38 @@ test('a field declared type: array rejects a scalar', () => {
   const r = validateObject('track', obj);
   assert.ok(r.errors.some((e) => /outcome/.test(e) && /array/.test(e)), `expected an array error, got: ${JSON.stringify(r.errors)}`);
 });
+
+// T4 — enum + field gaps surfaced by the framework<->Database_Spec crosswalk.
+test('source-system accepts type: organization / movement / platform', () => {
+  for (const type of ['organization', 'movement', 'platform']) {
+    const r = validateObject('source-system', { ...goodSource, type });
+    assert.equal(r.valid, true, `${type}: ${r.errors.join('; ')}`);
+  }
+});
+
+test('public-use-boundary accepts tier: requires-domain-review', () => {
+  const r = validateObject('public-use-boundary', { tier: 'requires-domain-review' });
+  assert.equal(r.valid, true, r.errors.join('; '));
+});
+
+test('claim-evidence accepts an evidence_stance (DoD #5)', () => {
+  const ok = validateObject('claim-evidence', {
+    title: 'c', type: 'claim-evidence', claim: 'x', evidence_stance: 'contradicting',
+  });
+  assert.equal(ok.valid, true, ok.errors.join('; '));
+  const bad = validateObject('claim-evidence', {
+    title: 'c', type: 'claim-evidence', claim: 'x', evidence_stance: 'made-up',
+  });
+  assert.equal(bad.valid, false);
+});
+
+test('implementation-record accepts a record_stage (prospective candidates, not just completed cases)', () => {
+  const ok = validateObject('implementation-record', {
+    title: 'i', type: 'implementation-record', source_position: 'self-report', record_stage: 'prospective',
+  });
+  assert.equal(ok.valid, true, ok.errors.join('; '));
+  const bad = validateObject('implementation-record', {
+    title: 'i', type: 'implementation-record', source_position: 'self-report', record_stage: 'made-up',
+  });
+  assert.equal(bad.valid, false);
+});

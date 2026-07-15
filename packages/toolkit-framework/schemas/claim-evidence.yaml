@@ -14,3 +14,4 @@ fields:
   reviewed_by: { type: string }
   maturity: { axis: maturity }
   public_use: { axis: public_use }
+  evidence_stance: { enum: [supporting, qualifying, contradicting, neutral] }   # DoD #5

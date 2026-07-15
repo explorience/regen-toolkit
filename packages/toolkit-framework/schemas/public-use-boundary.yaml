@@ -6,6 +6,6 @@ description: Visibility tier for sensitive, unresolved, or consent-bound materia
 required: [tier]
 fields:
   tier:
-    enum: [public, public-with-caveat, restricted-working-notes, private-steward-memory, anonymized-lessons, composted-patterns, never-publish-without-consent]
+    enum: [public, public-with-caveat, restricted-working-notes, private-steward-memory, anonymized-lessons, composted-patterns, never-publish-without-consent, requires-domain-review]
   consent_note: { type: string }
   review_type: { type: string }
