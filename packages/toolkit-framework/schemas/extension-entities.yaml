@@ -41,3 +41,4 @@ entities:
   risk:            { maps_to_core: concept,       description: A potential harm to surface + handle. }
   public-use-boundary: { maps_to_core: concept,   description: A visibility/consent boundary on an item. }
   relationship-record: { maps_to_core: claim,     description: A sourced assertion of a single relationship (subject-predicate-object) — a first-class, evidenced edge (Database_Spec CD#3). }
+  organization:    { maps_to_core: group,         description: An organization, DAO, company, or collective (crosswalk Entities gap). }

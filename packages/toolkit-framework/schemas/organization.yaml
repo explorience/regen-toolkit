@@ -1,0 +1,13 @@
+# Organization — an org/DAO/company/collective entry (crosswalk "Entities = GAP"; 8/30
+# Database_Spec handoff rows fell back to `resource` for lack of this schema). Maps to
+# the core `group` type (Layer A).
+id: organization
+version: 0.1.0
+extends: frontmatter
+description: An organization, DAO, company, or collective.
+required: [title]
+fields:
+  org_type: { type: string }
+  url: { type: string }
+  steward: { type: string }
+  is_source_system_candidate: { type: boolean }

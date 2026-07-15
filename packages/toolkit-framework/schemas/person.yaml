@@ -1,0 +1,13 @@
+# Person — an individual entry (crosswalk "Entities = GAP"; use with consent, default
+# to non-public — Principle 8). `person` is already a frozen Layer-A core type
+# (core-entities.yaml); this is its per-instance entry schema.
+id: person
+version: 0.1.0
+extends: frontmatter
+description: An individual (use with consent; default to non-public — Principle 8).
+required: [title]
+fields:
+  full_name: { type: string }
+  affiliation: { type: string }
+  consent_status: { type: string }
+  url: { type: string }
