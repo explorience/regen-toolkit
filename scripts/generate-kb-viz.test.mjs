@@ -17,6 +17,7 @@ import {
   deriveEdges,
   pickDescription,
   buildStub,
+  findAmbiguousIds,
 } from './generate-kb-viz.mjs';
 
 function fixtureArticlesDir() {
@@ -161,4 +162,50 @@ test('buildStub renders frontmatter, hub wikilink, related links, source path', 
   const resOne = objs.find((o) => o.id === 'res-one');
   const stub2 = buildStub(resOne, idToType);
   assert.match(stub2, /data\/kb\/resource\.yaml#res-one/);
+});
+
+test('findAmbiguousIds finds an id present under two different types', () => {
+  const objs = [
+    { id: 'dup', type: 'resource', corpus: 'articles', data: {} },
+    { id: 'dup', type: 'concept-lineage', corpus: 'handoff', data: {} },
+    { id: 'unique', type: 'resource', corpus: 'articles', data: {} },
+  ];
+  const ambiguous = findAmbiguousIds(objs);
+  assert.ok(ambiguous instanceof Set);
+  assert.ok(ambiguous.has('dup'));
+  assert.ok(!ambiguous.has('unique'));
+});
+
+test('findAmbiguousIds does not flag an id repeated within the same type', () => {
+  // Same id + same type is not ambiguous (e.g. duplicate load isn't the concern here).
+  const objs = [
+    { id: 'same-type-dup', type: 'resource', corpus: 'articles', data: {} },
+    { id: 'same-type-dup', type: 'resource', corpus: 'handoff', data: {} },
+  ];
+  assert.ok(!findAmbiguousIds(objs).has('same-type-dup'));
+});
+
+test('deriveEdges emits no edge for a reference to an ambiguous id', () => {
+  const objs = [
+    { id: 'dup', type: 'resource', corpus: 'articles', data: {} },
+    { id: 'dup', type: 'concept-lineage', corpus: 'handoff', data: {} },
+    { id: 'referrer', type: 'source-system', corpus: 'articles', data: { related: 'dup' } },
+  ];
+  const ambiguous = findAmbiguousIds(objs);
+  const edges = deriveEdges(objs, ambiguous);
+  assert.ok(!edges.some((e) => e.label === 'related'));
+});
+
+test('buildStub omits ambiguous ids from Related', () => {
+  const objs = [
+    { id: 'dup', type: 'resource', corpus: 'articles', data: {} },
+    { id: 'dup', type: 'concept-lineage', corpus: 'handoff', data: {} },
+    { id: 'referrer', type: 'source-system', corpus: 'articles', data: { title: 'Referrer', related: 'dup' } },
+  ];
+  const idToType = new Map(objs.map((o) => [o.id, o.type]));
+  const ambiguous = findAmbiguousIds(objs);
+  const referrer = objs.find((o) => o.id === 'referrer');
+  const stub = buildStub(referrer, idToType, ambiguous);
+  assert.ok(!stub.includes('Related:'));
+  assert.ok(!/\[\[dup\]\]/.test(stub));
 });

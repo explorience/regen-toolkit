@@ -29,6 +29,25 @@ const typeRank = (t) => {
   return i === -1 ? TYPE_ORDER.length : i;
 };
 
+// Codepoint comparator — deterministic across machines/locales. Bare
+// `a.localeCompare(b)` uses ICU collation, which varies by platform/locale.
+const cmp = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
+
+// IDs that exist under more than one type (a real hazard in the merged corpora:
+// an id like "giveth" as both a resource and an encyclopedia-entry, say). An
+// id→type map can only remember one, so any reference to such an id is
+// unattributable — edges/links must skip them rather than silently pick one.
+export function findAmbiguousIds(objects) {
+  const typesById = new Map();
+  for (const o of objects) {
+    if (!typesById.has(o.id)) typesById.set(o.id, new Set());
+    typesById.get(o.id).add(o.type);
+  }
+  const ambiguous = new Set();
+  for (const [id, types] of typesById) if (types.size > 1) ambiguous.add(id);
+  return ambiguous;
+}
+
 export function loadArticlesCorpus(kbDir) {
   if (!existsSync(kbDir)) return [];
   const out = [];
@@ -72,12 +91,14 @@ function walkValues(node, field, visit) {
 
 // Type→type edges from observed references: a string value that exactly equals
 // another object's id, labeled by the field it sat in. Sparse is honest.
-export function deriveEdges(objects) {
+// References to an ambiguous id (same id under >1 type) are skipped — the id→type
+// map can't attribute them correctly, so a wrong-type edge is worse than no edge.
+export function deriveEdges(objects, ambiguous = new Set()) {
   const idToType = new Map(objects.map((o) => [o.id, o.type]));
   const tally = new Map();
   for (const o of objects) {
     walkValues(o.data, null, (field, value) => {
-      if (value === o.id || !idToType.has(value)) return;
+      if (value === o.id || !idToType.has(value) || ambiguous.has(value)) return;
       const key = `${o.type}|${idToType.get(value)}|${field}`;
       tally.set(key, (tally.get(key) ?? 0) + 1);
     });
@@ -88,9 +109,9 @@ export function deriveEdges(objects) {
       return { from, to, label, count };
     })
     .sort((a, b) =>
-      typeRank(a.from) - typeRank(b.from) || a.from.localeCompare(b.from) ||
-      typeRank(a.to) - typeRank(b.to) || a.to.localeCompare(b.to) ||
-      a.label.localeCompare(b.label));
+      typeRank(a.from) - typeRank(b.from) || cmp(a.from, b.from) ||
+      typeRank(a.to) - typeRank(b.to) || cmp(a.to, b.to) ||
+      cmp(a.label, b.label));
 }
 
 export function buildSchemaGraph(objects) {
@@ -110,8 +131,8 @@ export function buildSchemaGraph(objects) {
     n.byCorpus[o.corpus] += 1;
   }
   const nodes = [...byType.values()].sort((a, b) =>
-    typeRank(a.type) - typeRank(b.type) || a.type.localeCompare(b.type));
-  return { nodes, edges: deriveEdges(objects) };
+    typeRank(a.type) - typeRank(b.type) || cmp(a.type, b.type));
+  return { nodes, edges: deriveEdges(objects, findAmbiguousIds(objects)) };
 }
 
 export function pickDescription(data) {
@@ -123,13 +144,13 @@ export function pickDescription(data) {
 
 const safeName = (s) => String(s).replace(/[/\\:#|?*"<>]/g, '-');
 
-export function buildStub(o, idToType) {
+export function buildStub(o, idToType, ambiguous = new Set()) {
   const title = (typeof o.data?.title === 'string' && o.data.title.trim()) || o.id;
   const related = new Set();
   walkValues(o.data, null, (_field, value) => {
-    if (value !== o.id && idToType.has(value)) related.add(value);
+    if (value !== o.id && idToType.has(value) && !ambiguous.has(value)) related.add(value);
   });
-  const rel = [...related].sort();
+  const rel = [...related].sort(cmp);
   const src = o.corpus === 'articles'
     ? `data/kb/${o.type}.yaml#${o.id}`
     : `kb-handoff/objects/${o.type}/${o.id}.yaml`;
@@ -161,6 +182,10 @@ export function main() {
     articles: objects.filter((o) => o.corpus === 'articles').length,
     handoff: objects.filter((o) => o.corpus === 'handoff').length,
   };
+  const ambiguous = findAmbiguousIds(objects);
+  if (ambiguous.size) {
+    console.warn(`kb-viz: ${ambiguous.size} ambiguous ids skipped for edges/links: ${[...ambiguous].sort(cmp).join(', ')}`);
+  }
 
   // a) The schema-map JSON for the site.
   writeFileSync(join(ROOT, 'src/data/kb-schema-graph.json'), JSON.stringify({
@@ -186,9 +211,9 @@ export function main() {
 
   for (const [type, members] of byType) {
     mkdirSync(join(kbGraph, type), { recursive: true });
-    members.sort((a, b) => a.id.localeCompare(b.id));
+    members.sort((a, b) => cmp(a.id, b.id));
     for (const o of members) {
-      writeFileSync(join(kbGraph, type, `${safeName(o.id)}.md`), buildStub(o, idToType));
+      writeFileSync(join(kbGraph, type, `${safeName(o.id)}.md`), buildStub(o, idToType, ambiguous));
     }
     const n = nodes.find((x) => x.type === type);
     writeFileSync(join(kbGraph, 'hubs', `kb-hub-${type}.md`), [
