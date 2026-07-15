@@ -1,0 +1,699 @@
+# §40 crosswalk — Matty's Database_Spec (Regen Knowledge Commons Toolkit,
+# "Database Update and Ingestion Specification," July 2026 handoff) → the
+# toolkit-framework kernel (already built, shipped 2026-07).
+#
+# This IS master-doc §40 ("Architecture/Framework/Data/AI/Interface Crosswalk")
+# and the schema-to-master-architecture crosswalk the Guide (§10) asks Luiz to
+# return. Produced for the 2026-07-16 toolkit call.
+#
+# Method: manual analysis reading Database_Spec Part II (Production Object
+# Model) + Part III (Semantic/Status/Visibility Rules) + Part V §66-68
+# (Workbook/Normalization Mapping) against the shipped framework schemas —
+# following the map-ontology skill's posture (align-and-map, never
+# conform-or-reject; architecture/ontology-posture.md), not a skill-tool run.
+#
+# Field conventions
+# ------------------
+# relation: fit quality
+#   direct  — a first-class framework schema exists with materially complete field coverage
+#   near    — a first-class framework schema exists but with a real, named field/vocab gap
+#   partial — the family splits: part of it maps, part does not (see notes)
+#   gap     — no framework object/schema home; state exists at most as a free-text field or not at all
+# maps_to: the framework schema id(s), axis, or skill that carries the family/dimension
+
+crosswalk: handoff-database-spec
+source_spec: ".tmp/handoff-txt/Database_Spec.txt (Database Update and Ingestion Specification, July 2026) — Part II §12-30, Part III §33-46, Part V §66-72"
+source_guide: ".tmp/handoff-txt/Guide.txt (Final Current-State Handoff Guide) §7-9"
+target: "@regen-commons/toolkit-framework kernel (packages/toolkit-framework/schemas/*.yaml, 10-layer architecture, K1 state model)"
+generated: 2026-07-15
+validation_checkpoint: "2026-07-16 toolkit call (Thu)"
+companion_report: docs/reports/2026-07-15-framework-masterdoc-crosswalk.md
+
+# ---------------------------------------------------------------------------
+# OBJECT FAMILIES — Database_Spec §13's 14 first-class families → framework schemas.
+# ---------------------------------------------------------------------------
+object_families:
+
+  - id: entities
+    database_spec: "Entities (§14) — identifiable actor/thing/place/program/infrastructure beyond one claim or artifact. 20 subtypes (person, organization, network, community, movement, project, tool, protocol, platform, repository, dataset, standard, place, event, funding round, infrastructure component, publication publisher, working group…)."
+    maps_to: ["core-entities.yaml: person, group, place, bioregion (kernel types)", "extension-entities.yaml: resource, network, node, cell, partner-org, steward, contributor (kernel types)"]
+    relation: gap
+    notes: >-
+      The TYPES exist (person/group/place/bioregion in core-entities.yaml; network/node/cell/
+      partner-org/steward/contributor in extension-entities.yaml) — these are graph-node type
+      discriminators used inside `relationships.yaml` edges. But there is NO dedicated Entity
+      OBJECT SCHEMA carrying Database_Spec's minimum-entity field set (14.2: aliases, primary
+      source, currentness, geography/language, public-use state, representation caution,
+      canonical-match status) or the person/community safeguards (14.3-14.4: do-not-infer rules,
+      representation basis, collective-authority concerns). `resource.yaml` ("a project, tool,
+      org, person, dataset, map, paper, or reference") is the nearest ingestible container but
+      carries none of those fields. Flag for T4: either a first-class `entity` schema, or
+      explicit field additions to `resource.yaml` for the person/community safeguard fields.
+
+  - id: source-systems
+    database_spec: "Source Systems (§15) — maintained/historically-significant knowledge environments (wikis, directories, registries, journals, podcasts, forums, repos, governance archives, event series…). Publication System is a recommended Source-System subtype (§15.1)."
+    maps_to: [source-system.yaml]
+    relation: direct
+    notes: >-
+      Strong direct match — this IS the framework's K2 "federation primitive" schema
+      (source-system.yaml header: "A stewarded knowledge environment... treated as a peer").
+      required: [title, type, steward, return_path] — `return_path` is named explicitly as
+      the reciprocity/contribute-back hook, matching Database_Spec §15.4's "return or
+      reciprocity pathway" field-for-field. `type` enum includes `publication` — confirms
+      Database_Spec §15.1's Publication-System-as-subtype recommendation is ALREADY the
+      framework's model (Omniharmonic example in Database_Spec §52 maps directly:
+      source-system{type: publication} + child `resource`/artifact entries per essay).
+      Narrower vocab: framework's 18-value type enum lacks Database_Spec's `registry`,
+      `governance archive`, `funding platform`, `implementation-memory system`,
+      `federated branch`, `standards environment`, `event series`, `community archive` —
+      these fall back to `directory`/`archive`/`database`. Database_Spec §15.5's
+      "Toolkit relationship status" ladder (discovered→…→archived) has no dedicated enum;
+      the free-text `toolkit_route` field is the nearest analogue.
+
+  - id: source-artifacts
+    database_spec: "Source Artifacts (§16) — books, papers, podcast episodes, repos, datasets, proposals, social posts produced/published by a source system. Minimum fields: authors, publisher, date, language, access/reuse state, abstract (§16.6)."
+    maps_to: ["resource.yaml", "core-entities.yaml: artifact"]
+    relation: near
+    notes: >-
+      Type-level match is solid: core `artifact` = "a produced thing — document, dataset,
+      tool output, resource, template," instanced via `resource.yaml` (maps_to_core:
+      artifact). But `resource.yaml`'s field set (url, resource_type, is_source_system_
+      candidate, link_status, original_source, related_concepts, related_options) has NO
+      authors/creators/publisher/date/language/abstract fields (Database_Spec §16.6) and no
+      ephemeral-source-caution fields (§16.7: speaker role, formal-vs-exploratory status,
+      transcript limitations). These would currently live only in the free-text `notes`
+      field on frontmatter. Real but survivable gap — resource is deliberately
+      lightweight ("add broadly, classify lightly").
+
+  - id: concepts-and-idea-lineages
+    database_spec: "Concepts and Idea Lineages (§17) — terms/ideas/paradigms with historical origin, broader/narrower/adjacent concepts, contested meanings, misuse risks, local/branch meaning (§17.3)."
+    maps_to: [concept-lineage.yaml]
+    relation: direct
+    notes: >-
+      Strong direct match (Layer 4). source_traditions ↔ historical origin;
+      adjacent_meanings ↔ broader/narrower/adjacent concepts; tensions ↔ contested meanings;
+      risks_of_flattening ↔ misuse risks. Database_Spec §17.3's branch-local-meaning support
+      (branch-preferred term, disputed translation, no-safe-mapping state) has no dedicated
+      field on concept-lineage.yaml itself — it lives one layer up, in the map-ontology
+      skill's crosswalk output (`crosswalks/<source-slug>.yaml`, per Part III §37's four
+      vocabulary layers: shared core / domain / branch-local / source-original). Minor,
+      structural-not-missing.
+
+  - id: options
+    database_spec: "Options (§18) — reusable governance/funding/coordination/technical choices, NOT recommendations. System-change fields (§18.4: boundary, leverage, mechanism, disconfirmation). Plural-value fields (§18.5: forms of capital, beneficiaries/burden-holders, commodification caution)."
+    maps_to: [option-entry.yaml]
+    relation: near
+    notes: >-
+      Direct match on the practical core (Layer 5): `category` enum covers Database_Spec's
+      governance/funding/coordination subtypes; `required_deployment_checks`,
+      `common_pairings`, `incompatibilities`, `failure_modes` map cleanly to §18.3's
+      practical fields and feed the framework's compatibility engine (checkTrackComposition).
+      TWO real gaps: (1) Database_Spec §18.4 system-change fields (system boundary, leverage
+      level, expected mechanism, disconfirmation conditions) have no fields on
+      option-entry.yaml, and the Guide's §28.3 "System Model or Change Hypothesis" profile
+      (meant to attach to Option/Deployment/Track/Case) does not exist in the framework
+      either. (2) Database_Spec §18.5 plural-value fields (forms of capital, beneficiaries/
+      burden-holders, commodification caution) map directly onto the ALREADY-KNOWN
+      forms_of_capital gap (data/crosswalks/regen-toolkit.yaml gaps list, "flagship
+      contribute-back candidate") — the kernel has no capital-accounting axis at all; the V4
+      capital update-proposal (Master_Spec decision #5) is the fix in flight.
+
+  - id: tracks
+    database_spec: "Tracks (§19) — guided pathways composing existing objects for a defined user/question. Health fields (§19.3: last reviewed, currentness, known gaps, decay signals, refresh priority)."
+    maps_to: [track.yaml]
+    relation: direct
+    notes: >-
+      Strong direct match (Layer 7). audience/starting_context/concepts/options/
+      deployment_checks/failure_modes all map cleanly to Database_Spec §19.1-19.2. NOTE:
+      `track.outcome` is `type: array` — a prior framework gap (June dogfooding report,
+      "outcome scalar but real journeys carry an array") was already FIXED per commit
+      77b4fc7 ("track.outcome scalar→array + enforce type:array in validateObject").
+      Remaining gap: §19.3 health fields (currentness, known gaps, decay signals, refresh
+      priority) have no fields on track.yaml — same root cause as the currentness/
+      maintenance status-dimension gaps below.
+
+  - id: deployments
+    database_spec: "Deployments (§20) — context-specific configurations combining options, actors, authority, safeguards, claims, maintenance, learning plan. 6 structural fields (§20.3) + readiness values (§20.5: explore→completed)."
+    maps_to: [deployment.yaml]
+    relation: direct
+    notes: >-
+      Strong direct match (Layer 6) — this is the framework's flagship structural-integrity
+      object. The REQUIRED 6-component check (decision_system, information_requirements,
+      power_structure, accountability, failure_detection, boundaries) is functionally the
+      same discipline as Database_Spec §20.3's structural fields (roles/decision authority,
+      information asymmetries, resource/stop authority, override conditions/consent
+      boundaries). `readiness_level` enum (L0-idea…L6-field-informed-pattern) covers the
+      same ground as Database_Spec §20.5's readiness values (explore→proceed→paused→
+      completed) with different vocabulary, and — unlike most other value-ladder
+      differences in this crosswalk — is ALREADY formally crosswalked to K1 maturity via
+      `review-maturity.yaml`'s `crosswalks.deployment_readiness` block (L0-idea: raw …
+      L6-field-informed-pattern: pattern-generating). `selected_options`/`disqualifiers`/
+      `evidence_requirements`/`risks` cover §20.2/§20.4 composition and risk fields.
+
+  - id: implementation-cases
+    database_spec: "Implementation Cases (§21) — what happened in practice. self-reported vs independent evidence, affected-party accounts (§21.4). Case maturity ladder (§21.5: case lead→pattern-contributing)."
+    maps_to: [implementation-record.yaml]
+    relation: direct
+    notes: >-
+      Strong direct match (Layer 8). `source_position` enum (self-report /
+      participant-reflection / funder-review / community-member / affected-community /
+      third-party-observer / public-forum / grant-update / ai-assisted-synthesis /
+      anonymous-or-restricted) is a RICHER operationalization of Database_Spec §21.4's
+      self-reported-vs-independent-evidence distinction than the spec itself proposes —
+      10 explicit values vs. a binary. `what_worked`/`what_failed`/`adaptations` ↔
+      §21.4 successes/failures/frictions/adaptations. `what_returns_to_commons` is the
+      contribute-back hook (no direct Database_Spec equivalent, but same spirit as its
+      reciprocity language elsewhere). Gap: Database_Spec's case-maturity ladder (§21.5:
+      case lead / preliminary / source-linked / reviewed / evidence-bearing / comparative /
+      pattern-contributing) is NOT formally crosswalked to K1 `maturity` the way
+      deployment_readiness is — implementation-record.yaml's `maturity` field uses the
+      generic K1 axis directly, with no dedicated crosswalk block. Minor: add one.
+
+  - id: claims-and-cautions
+    database_spec: "Claims and Cautions (§22) — one family, `claim_mode` distinguishes assertion/hypothesis/caution/etc (§22.1). `claim_type` taxonomy (§22.2: descriptive/causal/impact/ecological/financial/governance/safety/…). Evidence associations (§22.4: supports/contradicts/qualifies/contextualizes/reports/cited-as-evidence-for)."
+    maps_to: [claim-evidence.yaml]
+    relation: near
+    notes: >-
+      The FAMILY-LEVEL decision matches exactly: the Guide §29 explicitly recommends
+      "Cautions: store in the Claims family with claim_mode = caution so source, context,
+      and review remain visible" — this is precisely claim-evidence.yaml's existing design
+      (one schema, no separate caution type). BUT claim-evidence.yaml has no `claim_mode` or
+      `claim_type` FIELD — `claim_mode`/`claim_type` are conflated into the free-text
+      `claim` + `interpretation` fields. Database_Spec's rich claim taxonomy (10 modes, 14
+      types) has no controlled-vocabulary home. Evidence associations (§22.4) are handled
+      indirectly via `relationships.yaml`'s `discourse` group (supports, contradicts, about,
+      explains, source_for) — covers "supports"/"contradicts" cleanly but has no predicate
+      for "qualifies," "contextualizes," "reports," or "is cited as evidence for."
+
+  - id: relationships
+    database_spec: "Relationships (§23) — a sourced ASSERTION connecting two objects, not a graph shortcut. Minimum record (§33.1): relationship_id, subject/predicate/object, direction, source_artifact_id, scope, temporal context, confidence_state, review_state, public_use_state, notes."
+    maps_to: [relationships.yaml]
+    relation: partial
+    notes: >-
+      relationships.yaml is a PREDICATE VOCABULARY REGISTRY (5 groups: core_interop,
+      practice_pattern, discourse, source_lineage, optional governance_csis) — this is the
+      direct analogue of Database_Spec's own §34 "Predicate registry," and covers a superset
+      of Database_Spec's predicate families (identity/structure, participation, knowledge/
+      publication, technical interop, funding/governance all have framework equivalents,
+      often richer — e.g. source_lineage group: stewarded_by/curated_by/has_return_path/
+      requires_attribution is MORE developed than Database_Spec's funding-and-governance
+      predicate list). THE GAP: the framework has NO PER-INSTANCE relationship-ASSERTION
+      object schema. There is no schema anywhere in packages/toolkit-framework/schemas/
+      that stores confidence, temporal scope, review_state, or public_use_state PER EDGE.
+      Relationships are expressed implicitly as array fields on the objects themselves
+      (e.g. option-entry.related_concepts, track.options, deployment.selected_options) —
+      each is a bare ID reference with no confidence/source/date attached. This directly
+      contradicts Database_Spec's Core Decision #3 ("treat relationships as sourced
+      assertions rather than invisible graph facts") — see §7 of the companion report for
+      the honest divergence writeup.
+
+  - id: reviews-and-public-use-decisions
+    database_spec: "Reviews and Public-Use Decisions (§24) — a Review is a recorded EXAMINATION for a specified purpose (review_type, reviewer, materials examined, findings, decision, next review — §24.2), distinct from the public-use decision itself."
+    maps_to: ["review-promote SKILL.md (process, not object)", public-use-boundary.yaml, "frontmatter.yaml: last_reviewed"]
+    relation: gap
+    notes: >-
+      NO dedicated `review` object schema exists. Review in the framework is a STATE
+      TRANSITION performed by the review-promote skill/CLI (`review promote <ref>
+      --maturity <value> --reviewer <name>`), which stamps the object's own `maturity`
+      field and (per claim-evidence.yaml) `reviewed_by`, plus frontmatter's `last_reviewed`
+      — it does NOT create a separate, inspectable Review RECORD with review_type, scope,
+      materials examined, findings, limitations, or next-review date (Database_Spec §24.2).
+      The reviewer's rationale is only preserved if manually written into the object's
+      free-text `notes` field (review-promote SKILL.md step 5: "record WHY in the object's
+      notes field"). Public-Use Decisions are better covered: `public-use-boundary.yaml`
+      (tier enum + consent_note + review_type) plus the K1 `public_use` axis together give
+      most of Database_Spec §39.4's public-use-state ladder (see status_dimensions below) —
+      but even there, no reviewer/date/basis is captured on the decision itself, only the
+      resulting tier.
+
+  - id: research-notes-and-structured-attachments
+    database_spec: "Research Notes (§25) — deep maps, comparative reviews, evidence crosswalks, structural audits, thinker maps, rights matrices, source-coverage reviews, merge-method notes, synthesis, unresolved research memos. Enriches many objects without duplicate ingestion."
+    maps_to: []
+    relation: gap
+    notes: >-
+      No framework schema home. `encyclopedia-entry.yaml`'s page_type enum (concept /
+      framework / comparison / guide / case-linked / anti-pattern / frontier) covers some
+      adjacent ground (comparison ≈ comparative review; guide ≈ synthesis) but is explicitly
+      an EXPLANATORY-PAGE schema for the Encyclopedia layer, not a research-note/audit
+      container that attaches to many objects without becoming a duplicate record. The
+      research-annex mapping mechanisms Database_Spec proposes (§69: Structured Research
+      Notes / Evidence and Case Attachments / Object Enrichment) have no framework
+      equivalent at all. Flag for T4 — likely a new `research-note` extension type
+      (maps_to_core: artifact or claim, since a note both documents and asserts).
+
+  - id: expansion-branches-and-backlog
+    database_spec: "Expansion Branches and Backlog (§26) — bounded research/domain/language/geographic/implementation area with research question, priority, anchor source systems, stopping condition, reopening trigger. Branch states (§26.2: discovery→composted)."
+    maps_to: ["docs/BACKLOG.md (instance-level markdown convention, not a schema)"]
+    relation: gap
+    notes: >-
+      `docs/BACKLOG.md` is the instance's operational analogue — it has status labels
+      (raw-note / future-seed / needs-routing / needs-review / needs-source /
+      needs-examples / needs-implementation-test / needs-owner / candidate-integration /
+      candidate-template / high-risk / candidate-removal / archive / compost) that overlap
+      meaningfully with Database_Spec §26.2's branch states. BUT this is a MARKDOWN
+      DOCUMENT convention at doc-granularity, not a typed, ingestible OBJECT SCHEMA — there
+      is no `branch` or `expansion-branch` schema in packages/toolkit-framework/schemas/,
+      so a branch record has no research_question, anchor_source_systems, stopping_condition,
+      or reopening_trigger FIELDS the way Database_Spec §26.1 requires; it's a checklist
+      bullet with a bracketed label. Real object-family gap, explicitly named in the
+      handoff-integration design doc as T4 scope ("branch/backlog/decision object
+      families").
+
+  - id: decisions-evolution-and-compost-records
+    database_spec: "Decisions/Evolution/Compost (§27) — three sub-records: Ratification Decision (question/options/decision/rationale/authority/reopening trigger), Evolution Signal (feedback/learning by 10 signal types), Compost Record (why material left active use)."
+    maps_to: [signal.yaml, evolution-record.yaml, update-proposal.yaml]
+    relation: partial
+    notes: >-
+      SPLITS three ways. (1) Evolution Signal — DIRECT, strong match: `signal.yaml`
+      (Layer 9) signal_type enum (content/ontology/resource/option/deployment/track/
+      implementation/public-use/source-system/infrastructure) plus `evolution-record.yaml`'s
+      `intervention` enum (preserve/update/route/merge/split/review/restrict/cite/flag/
+      deprecate/archive/compost/remove) together operationalize Database_Spec §27.2's
+      signal-to-intervention loop — arguably richer than the spec's own vocabulary. This IS
+      the framework's Signal→Sensemaking→Balance→Intervention→Integration→Memory loop.
+      (2) Ratification Decision — NEAR, not direct: `update-proposal.yaml` (target/
+      rationale/proposed_change/decision enum: open/accepted/rejected/deferred/
+      promoted-to-core) is the closest fit but is SCOPED specifically to ontology/schema
+      change proposals ("a proposed change to content, schema, or the Layer-A kernel"), not
+      general organizational ratification decisions (Database_Spec §27.1's broader
+      question/options-considered/authority/public-use-implications/supersession fields).
+      (3) Compost Record — PARTIAL: `compost` exists as a VALUE on both K1's
+      `lifecycle_state` axis and `evolution-record.yaml`'s `intervention` enum, so an object
+      CAN be marked composted — but there is no dedicated record preserving WHY (duplicate /
+      stale / superseded / misleading / unsupported / unsafe / abandoned-branch, per §27.3);
+      that reasoning would only live in free-text `notes`.
+
+# ---------------------------------------------------------------------------
+# STATUS DIMENSIONS — Database_Spec §12.3/§39's 8 independent status dimensions
+# → the framework's K1 3-axis + 2-flag model (review-maturity.yaml).
+# ---------------------------------------------------------------------------
+status_dimensions:
+
+  - id: processing
+    database_spec: "processing_state (§39.1): raw → classified → normalized → enriched → routed."
+    maps_to: "K1 lifecycle_state axis"
+    relation: near
+    notes: >-
+      lifecycle_state's ladder (raw-lead / routed / extracted / source-linked / ai-synthesis
+      / human-reviewed / field-informed / public-candidate / mature / compost) covers the
+      same conceptual ground — "where the item sits in the intake pipeline" — with
+      `routed` and `extracted` literally shared vocabulary. Not a 1:1 value crosswalk
+      (framework's ladder also carries review/maturity information processing_state
+      deliberately keeps separate), but the axis exists and does the job.
+
+  - id: maturity
+    database_spec: "maturity_state (§39.2): candidate → draft → source-linked → contextualized → case-linked → implementation-informed → comparative → deprecated."
+    maps_to: "K1 maturity axis"
+    relation: near
+    notes: >-
+      Direct axis match — K1's maturity ladder (raw / held / draft / candidate /
+      source-linked / reviewed / field-informed / pattern-generating / deprecated /
+      archived) is richer and already ships value-crosswalks for other legacy ladders
+      (review-maturity.yaml `crosswalks.legacy_ontology`, `crosswalks.deployment_readiness`)
+      — the same mechanism would crosswalk Database_Spec's ladder cleanly. No crosswalk
+      block exists yet for Database_Spec's specific ladder; recommend adding
+      `crosswalks.database_spec_maturity` following the existing pattern.
+
+  - id: review
+    database_spec: "review_state (§39.3): not reviewed → review requested → review in progress → reviewed for specified purpose → changes requested → disputed → review expired. Always paired with a Review record."
+    maps_to: "K1 maturity (reviewed rung) + lifecycle_state (human-reviewed rung) + review-promote skill process"
+    relation: partial
+    notes: >-
+      NOT an independent axis in the framework — "reviewed" is a RUNG within `maturity`
+      and within `lifecycle_state` (human-reviewed), not a separate field. This means
+      Database_Spec's finer review-workflow states (review requested / review in progress /
+      changes requested / disputed / review expired) have no field to live in at all — an
+      object is either not-yet-reviewed (implied by any pre-`reviewed` maturity value) or
+      `reviewed`, with nothing in between captured as state. Confirms and slightly extends
+      the design doc's 3-gap framing (currentness/confidence/maintenance): review is not a
+      clean GAP (a "reviewed" concept exists) but it is not a clean MAP either — it is
+      folded into maturity/lifecycle_state rather than tracked as Database_Spec's own
+      lifecycle. Worth flagging alongside the 3 headline gaps, one notch lower severity.
+
+  - id: public-use
+    database_spec: "public_use_state (§39.4): internal only → public source link only → public orientation with caveats → public for defined use → public relationship restricted → restricted → withdrawn → archived."
+    maps_to: "K1 public_use axis + public-use-boundary.yaml tier"
+    relation: near
+    notes: >-
+      Good coverage via two mechanisms together: K1's `public_use` axis (internal-only /
+      raw-lead / ok-with-caveat / source-linked-unreviewed / reviewed-for-explanation /
+      reviewed-for-guidance / requires-community-consent / requires-domain-review /
+      not-public-yet / deprecated) plus `public-use-boundary.yaml`'s `tier` enum (public /
+      public-with-caveat / restricted-working-notes / private-steward-memory /
+      anonymized-lessons / composted-patterns / never-publish-without-consent) for
+      high-risk items specifically. Reasonable semantic overlap (internal-only↔internal
+      only; ok-with-caveat↔public-orientation-with-caveats; reviewed-for-guidance↔
+      public-for-defined-use; requires-community-consent≈public-relationship-restricted).
+      GAP within the near-map: Database_Spec §12.5's FIELD-LEVEL visibility controls
+      (public_fields_allowed, sensitive_fields, restriction_reason,
+      withdrawal_or_correction_path) have no framework equivalent — the axis/tier operate
+      at the OBJECT level, not the field level, so there's no declared per-field public
+      allowlist the way Database_Spec's public views (§42) require.
+
+  - id: currentness
+    database_spec: "currentness_state (§39.5): current → uncertain → refresh needed → stale → historical → discontinued → superseded."
+    maps_to: "source-system.yaml: currentness (free string, single schema only)"
+    relation: gap
+    notes: >-
+      GAP, confirmed and narrowed: `source-system.yaml` DOES carry a `currentness` field
+      and an `update_rhythm` field — but both are uncontrolled free-text strings scoped to
+      ONE schema. There is no K1 axis, so claims, options, cases, entities, tracks, and
+      every other object type has no currentness field at all. This is the strongest of
+      the 3 headline status-dimension gaps because Database_Spec treats currentness as
+      universal (every object family needs it — §12.3) while the framework treats it as a
+      source-system-specific concern only.
+
+  - id: confidence
+    database_spec: "confidence_state (§39.6): unknown → low → medium → high → source-confirmed → contested. Applies to claims AND relationship assertions."
+    maps_to: "claim-evidence.yaml: uncertainty (free string, one schema, no controlled ladder)"
+    relation: gap
+    notes: >-
+      GAP, confirmed. `claim-evidence.yaml`'s `uncertainty` field is the only adjacent
+      concept in the whole schema set, and it is a free-text string, not a controlled
+      6-value ladder. There is no confidence field on relationships at all (compounding the
+      relationships-as-instance-record gap above) — Database_Spec explicitly requires
+      confidence PER RELATIONSHIP ASSERTION (§33.1, §33.3: "confidence describes one
+      assertion, not a trust score"), which the framework cannot express since relationships
+      aren't first-class records to begin with.
+
+  - id: maintenance
+    database_spec: "maintenance_state (§39.7): unassigned → AI-monitored → contributor-maintained → functionally stewarded → source-steward connected → locally governed → refresh overdue → paused → archived."
+    maps_to: "frontmatter.yaml: steward (who, not status) + source-system.yaml: update_rhythm (free string)"
+    relation: gap
+    notes: >-
+      GAP, confirmed. `frontmatter.yaml`'s `steward` field answers WHO is responsible, not
+      WHAT STATE maintenance is in — there is no refresh-cadence, overdue-flag, or
+      maintenance-tier field anywhere in the schema set outside `source-system.yaml`'s
+      free-text `update_rhythm`. Ties directly to the missing currentness axis: Database_Spec
+      pairs maintenance_state with refresh_due_at (§12.4 routing/operations fields) to
+      trigger refresh work; the framework has neither.
+
+  - id: ai-involvement
+    database_spec: "ai_involvement_state (§39.8): no material AI involvement → AI-extracted candidate → AI-classified → AI-summarized → AI-synthesized → AI-drafted → AI-checked against source → human-reviewed after AI → rejected AI output."
+    maps_to: "K1 ai_assisted flag (boolean) + provenance.yaml: authorship (6-value enum)"
+    relation: near
+    notes: >-
+      NOT a headline gap, but a real compression worth naming precisely: Database_Spec
+      wants 9 distinct AI-involvement states; the framework's `ai_assisted` is a BOOLEAN.
+      However `provenance.yaml`'s `authorship` enum (human-authored / ai-assisted /
+      inferred / reviewed / disputed / deprecated / candidate) and `transformation` enum
+      (quoted / summarized / synthesized / translated / remixed / inferred) recover
+      meaningful granularity when both are read together with `ai_assisted` — e.g.
+      ai_assisted:true + transformation:synthesized + authorship:ai-assisted ≈
+      "AI-synthesized"; the review-promote skill's rule that `ai_assisted` CLEARS on any
+      reviewer-present promotion is itself the operational equivalent of
+      "human-reviewed-after-AI." Still short of the full 9-value granularity — no explicit
+      "AI-checked-against-source" or "rejected-AI-output" states — but this is the
+      dimension the framework covers best of the three-plus-one flagged as thin.
+
+# ---------------------------------------------------------------------------
+# ZONES — Database_Spec §4's migration zones A-D → framework maturity/public-use equivalents.
+# ---------------------------------------------------------------------------
+zones:
+
+  - id: zone-a-raw-discovery
+    database_spec: "Zone A — unverified links, social signals, AI-extracted candidates, possible duplicates. Easy intake, broad preservation, low assumption, no automatic public use."
+    maps_to: "maturity: raw · lifecycle_state: raw-lead · public_use: raw-lead/internal-only · ai_assisted: true (born-rules)"
+    notes: >-
+      Exactly the framework's ingest-candidate floor. The `ingest` skill's born-rules
+      ("maturity: raw ALWAYS ... ai_assisted: true ALWAYS for agent-produced objects") are
+      a hard-coded, gate-enforced version of Zone A's discipline — an agent cannot emit a
+      candidate that skips this floor; the CLI accept-gate rejects it.
+
+  - id: zone-b-canonical-working-registry
+    database_spec: "Zone B — normalized objects with stable internal IDs, source lineage, canonical matching decisions, explicit type, status fields, cautions, next actions. 'Canonical' means current internal working record, NOT true/endorsed/reviewed/mature/public-safe."
+    maps_to: "maturity: draft/candidate/source-linked · lifecycle_state: extracted/source-linked/ai-synthesis · the accept-gate + B5 collision guard"
+    notes: >-
+      The accept-gate (`ingest accept`) is the promotion INTO Zone B: it validates the
+      candidate against its schema, enforces the born-rules, and — via the B5
+      silent-overwrite guard — performs the stable-identity check Database_Spec §8 requires
+      ("a merged object keeps one canonical ID... distinct objects never clobber"). Once
+      `store`d, an object sits at maturity draft/candidate/source-linked — exactly
+      Database_Spec's "canonical ≠ reviewed" framing (K1 draft/candidate/source-linked are
+      all pre-`reviewed`).
+
+  - id: zone-c-reviewed-operational-objects
+    database_spec: "Zone C — material reviewed for a defined internal purpose (track composition, option comparison, technical integration…). Every review states its purpose."
+    maps_to: "maturity: reviewed · lifecycle_state: human-reviewed · review-promote skill"
+    notes: >-
+      review-promote is the human gate into Zone C: "You NEVER promote without a named
+      reviewer in the room," one object at a time, never batch. `ai_assisted` clears on any
+      reviewer-present promotion. GAP inherited from the object-family analysis: the
+      SESSION happens and the STATE changes, but (per reviews-and-public-use-decisions
+      above) no structured Review record preserving the stated PURPOSE persists —
+      Database_Spec's "every review states its purpose" requirement is honored in the
+      moment (a human reviewer decided) but not preserved as data.
+
+  - id: zone-d-public-use-views
+    database_spec: "Zone D — only fields/records approved for a defined public use. Derived from canonical data, not a separately maintained duplicate registry."
+    maps_to: "public_use axis (reviewed-for-explanation/reviewed-for-guidance) + public-use-boundary.yaml tier: public/public-with-caveat"
+    relation: partial
+    notes: >-
+      The STATE exists (public_use axis + tier), and the discipline is enforced ("nothing
+      from the handoff reaches a public view without the review-promote gate" — Zone D
+      discipline, per the handoff-integration design doc §9 guard rail). GAP: no generic
+      "compile a Zone-D public view" mechanism exists — the framework has produced public
+      views only as bespoke, per-project pages (`/self-ingestion`, `/handoff`), not a
+      reusable CLI/skill that filters an object down to its `public_fields_allowed` (which,
+      per the public-use status-dimension entry above, doesn't exist as a field either).
+
+# ---------------------------------------------------------------------------
+# PIPELINES — Database_Spec's "preserve → normalize → review → publish" (Guide §1, §7)
+# + the AI/human decision boundary → the framework's stages + skills.
+# ---------------------------------------------------------------------------
+pipelines:
+
+  - stage: preserve
+    database_spec: "Intake with original record, fields, source, contributor, date, AI involvement preserved (§47). 'Do not delete a record merely because it is messy or incomplete' (§5)."
+    framework_stage: "ingest prepare (CLI, deterministic half) → candidate decomposition"
+    framework_skills: [ingest, capture-and-route, register-source]
+    notes: >-
+      `capture-and-route`'s deep-intake principle ("one shared thing becomes many entries")
+      is Database_Spec's decomposition discipline in skill form. `register-source` enforces
+      "content objects reference their source system; the card must exist BEFORE the
+      content does" — a stronger ordering guarantee than Database_Spec states explicitly.
+
+  - stage: normalize
+    database_spec: "Classification into object family, entity resolution, canonical matching, normalization/enrichment (§47). Guided by Object-Type Crosswalk, Predicate Map, Controlled Vocabularies (§66-68)."
+    framework_stage: "the CLI accept-gate (schema validation + born-rules + B5 collision guard)"
+    framework_skills: [map-ontology, "the accept gate (no dedicated skill — CLI-enforced)"]
+    notes: >-
+      `map-ontology` is the direct analogue of Database_Spec's normalization-sheet role —
+      it produces the same artifact class (a crosswalk file, `crosswalks/<source>.yaml`)
+      that Database_Spec's Object Type Crosswalk / Controlled Vocabularies sheets are. The
+      accept-gate is where born-rules + schema validation + the B5 guard fire together —
+      this is "normalize" in the mechanical sense (typing + dedup), though see the
+      normalization block below for what's NOT covered (fuzzy entity resolution beyond
+      title-slug collision).
+
+  - stage: review
+    database_spec: "Review for a named purpose; only a Review record changes review_state (§39.3, §40)."
+    framework_stage: "review-promote session (human-gated, one object at a time)"
+    framework_skills: [review-promote, csis-review]
+    notes: >-
+      `csis-review`'s high-risk pass is Database_Spec's "escalate high-consequence
+      conflicts" (§3.5) operationalized — additionally required before promoting MRV/
+      carbon/funding/governance claims to `reviewed`. csis-review explicitly "flags, never
+      certifies" (R7 posture) — matches Database_Spec §12's "promotion does not imply
+      review or public readiness."
+
+  - stage: publish
+    database_spec: "Approved-fields-only public view, generated from canonical data, with correction path (§4.4, §42)."
+    framework_stage: "store (persists to data/kb/ or repo-data) — NOT the same as a public view"
+    framework_skills: ["none dedicated — bespoke per-project pages today"]
+    relation: gap
+    notes: >-
+      Real gap: `store` writes an object into the working KB (Zone B/C territory); it does
+      not compile a filtered public view (Zone D). The framework currently produces public
+      views by hand (`/self-ingestion`, `/handoff` Astro pages), not through a generic
+      "publish" skill or CLI command that reads the public_use axis / public-use-boundary
+      tier and emits an approved-fields-only export. Same root cause as the Zone-D gap
+      above — worth folding into the same T4 item.
+
+  - stage: ai-human-decision-boundary
+    database_spec: "Guide §9 — AI may automate (reversible/low-risk), AI may propose with sampling, human review required (probable merges, affiliations, claim interpretation), specialized/steward review (Indigenous/movement authority, allegations, deployment readiness)."
+    framework_mechanism: "born-rules + high-risk triggers (ingest/capture-and-route) + review-promote's 'no reviewer present = read-only' rule + csis-review's flags-not-verdicts posture"
+    notes: >-
+      Close match. `ingest` SKILL.md: "High-risk triggers (people, exact locations, TEK/
+      Indigenous knowledge, MRV/carbon claims, funding/legal/governance recs) →
+      high_risk:true + a public-use-boundary candidate" is Database_Spec's specialized-
+      review tier, named almost identically (§3.5's escalation list: person/community
+      identity, Indigenous/territorial authority, ecological/impact claims, standards). The
+      "human review required" tier (probable merges, person affiliations, community
+      representation) maps to `review-promote`'s hard rule: "No reviewer present →
+      read-only session... Never batch-promote."
+
+# ---------------------------------------------------------------------------
+# NORMALIZATION — Database_Spec's Object-Type Crosswalk / Predicate Map /
+# Controlled Vocabularies / Normalization Flags (§66-68, §37-38) →
+# the framework's maps_to_core crosswalk + relationships + the B5 guard.
+# ---------------------------------------------------------------------------
+normalization:
+
+  - database_spec_mechanism: "Object Type Crosswalk (Role B sheet, §68) — object-type registry and mappings between workbook categories and production object families."
+    maps_to: "extension-entities.yaml: every entry declares maps_to_core (a Layer-A core type)"
+    relation: direct
+    notes: >-
+      Structurally identical mechanism: every framework extension type MUST declare
+      `maps_to_core` naming a real core-entities.yaml type (enforced by validateKernel per
+      map-ontology SKILL.md) — this is Database_Spec's Object Type Crosswalk as a schema
+      CONSTRAINT rather than a spreadsheet. The map-ontology skill emits the equivalent of
+      a populated crosswalk sheet (`crosswalks/<source>.yaml`) when a foreign corpus is
+      ingested — see data/crosswalks/regen-toolkit.yaml for a worked 19-type example.
+
+  - database_spec_mechanism: "Relationship Predicate Crosswalk (§68) — predicate registry and validation."
+    maps_to: "relationships.yaml (5 predicate groups + from/to type constraints)"
+    relation: direct
+    notes: >-
+      Direct structural match to Database_Spec's own §34.4 predicate registry fields
+      (preferred/inverse labels, definition, allowed subject/object types, sensitivity
+      level). relationships.yaml's `from`/`to` constraints per predicate are the allowed-
+      subject/object-types field; the `governance_csis` group being `optional: true` is the
+      framework's version of Database_Spec's sensitivity-tiering (a fork may omit it
+      entirely — R7).
+
+  - database_spec_mechanism: "Controlled Vocabularies (§37-38) — 4 layers (shared core / domain / branch-local / source-original), mapping types (exact/close/broader/narrower/overlaps/conflicts/translated-as/locally-preferred/no-safe-mapping)."
+    maps_to: "per-schema enum fields (scattered) + K1 review-maturity.yaml crosswalks block"
+    relation: gap
+    notes: >-
+      GAP: the framework enforces controlled vocabulary PER SCHEMA (source-system.type,
+      option-entry.category, deployment.readiness_level, claim-evidence has none, etc.) but
+      has no CENTRAL vocabulary-term registry with Database_Spec's rich mapping-type
+      taxonomy (exact/close/broader/narrower/overlaps/conflicts-with/translated-as/
+      locally-preferred/no-safe-mapping/mapping-under-review). The closest thing —
+      review-maturity.yaml's `crosswalks` block — only covers STATE ladders (maturity),
+      not general vocabulary terms. Branch-local vocabulary (Database_Spec §37.1's 3rd
+      layer) has no schema home at all; it would currently live only in a map-ontology
+      crosswalk file's free-text `notes`.
+
+  - database_spec_mechanism: "Normalization Flags (§66 Role C, 87 duplicate/conflict flags in Matty's Canonical_DB) — a curated, human/AI-reviewed list of specific flagged rows requiring dedup or conflict resolution."
+    maps_to: "the B5 silent-overwrite guard (packages/toolkit-framework/src/util.mjs sameStoredObject + adapters/{kb-folder,repo-data}.mjs)"
+    relation: near
+    notes: >-
+      Complementary, not identical — worth stating precisely for Matty. Database_Spec's 87
+      flags are a CURATED, FINITE list of specific rows a human/AI has already identified as
+      probable duplicates or conflicts (entity-resolution output, per §56: exact match /
+      alias / historical name / probable duplicate / possible duplicate, using name
+      similarity, aliases, official domain — a FUZZY matching process). The B5 guard is a
+      DETERMINISTIC, UNBOUNDED RUNTIME MECHANISM: on every `store`, if a new object's
+      title-slug collides with an existing one and the two are NOT the same object (by id
+      or content hash), the newcomer gets a hash-suffixed key and the collision is logged —
+      it fires on ANY title-slug collision, not just Matty's flagged 87. Demonstrated at
+      scale 2026-07-14: 65 collisions preserved across a 722-object self-ingestion run
+      (commit fdafa8a; docs/plans/framework-validation-pass.md). BUT: B5 only catches
+      collisions that SHARE A TITLE SLUG — it has no fuzzy/alias/domain-based matching, so
+      it would miss the class of duplicate Database_Spec's §56.2 "high-confidence
+      probabilistic matching" (aliases, name similarity, shared official domain) is
+      designed to catch. The two are complementary layers, not the same mechanism — see the
+      companion report §7 for the full honest divergence.
+
+# ---------------------------------------------------------------------------
+# GAPS — the T4 backlog: every status dimension and object family with no
+# (or only a partial) framework home. Ranked by severity for the Jul 16 call.
+# ---------------------------------------------------------------------------
+gaps:
+  - gap: "currentness_state — no K1 axis; only a free-text field scoped to source-system.yaml."
+    severity: high
+    disposition: contribute-back
+    affected: [status_dimension, "tracks (§19.3 health fields)", "entities (§14.2)"]
+  - gap: "confidence_state — no K1 axis; only a free-text `uncertainty` field on claim-evidence.yaml; no per-relationship confidence at all."
+    severity: high
+    disposition: contribute-back
+    affected: [status_dimension, relationships]
+  - gap: "maintenance_state — no axis; only frontmatter.steward (who, not state) + source-system.update_rhythm (free text)."
+    severity: high
+    disposition: contribute-back
+    affected: [status_dimension]
+  - gap: "Relationships have no per-instance assertion record — no schema carries confidence/temporal-scope/review_state/public_use_state per edge. Relationships are implicit array-of-IDs fields on other objects, contradicting Database_Spec's Core Decision #3 (relationships as sourced assertions, not invisible graph facts)."
+    severity: high
+    disposition: contribute-back
+    affected: [object_family: relationships, status_dimension: confidence]
+  - gap: "Reviews have no dedicated object schema — review-promote changes state (maturity/reviewed_by/last_reviewed) but does not persist a structured Review record (type, scope, materials examined, findings, next-review date, per §24.2)."
+    severity: medium
+    disposition: contribute-back
+    affected: [object_family: reviews-and-public-use-decisions, status_dimension: review]
+  - gap: "Research Notes and Structured Attachments — no schema home at all for deep maps, comparative reviews, evidence crosswalks, thinker maps, source-coverage reviews, merge-method notes."
+    severity: medium
+    disposition: contribute-back
+    affected: [object_family: research-notes-and-structured-attachments]
+  - gap: "Expansion Branches and Backlog — docs/BACKLOG.md is a markdown-doc convention, not a typed object schema; no research_question/anchor_source_systems/stopping_condition/reopening_trigger fields exist."
+    severity: medium
+    disposition: contribute-back
+    affected: [object_family: expansion-branches-and-backlog]
+  - gap: "Entities — kernel types exist (person/group/place/bioregion) but no dedicated Entity schema carrying Database_Spec's minimum fields (currentness, geography, representation caution, person/community safeguards)."
+    severity: medium
+    disposition: contribute-back
+    affected: [object_family: entities]
+  - gap: "Ratification Decision — update-proposal.yaml is scoped to ontology/schema changes, not general organizational decisions (§27.1's question/options-considered/authority/supersession fields)."
+    severity: low
+    disposition: "curation (widen scope) or contribute-back (new schema)"
+    affected: [object_family: decisions-evolution-and-compost-records]
+  - gap: "Compost Record — `compost` exists as a lifecycle_state/intervention VALUE but no structured record preserves why (duplicate/stale/superseded/unsafe/abandoned-branch, per §27.3)."
+    severity: low
+    disposition: contribute-back
+    affected: [object_family: decisions-evolution-and-compost-records]
+  - gap: "claim_mode / claim_type controlled vocabulary — Database_Spec's 10 claim modes + 14 claim types have no fields on claim-evidence.yaml; conflated into free-text claim/interpretation."
+    severity: medium
+    disposition: schema-fix
+    affected: [object_family: claims-and-cautions]
+  - gap: "Evidence-association predicates — relationships.yaml's discourse group lacks 'qualifies' / 'contextualizes' / 'reports' / 'is cited as evidence for' (Database_Spec §22.4)."
+    severity: low
+    disposition: schema-fix
+    affected: [object_family: claims-and-cautions]
+  - gap: "Option system-change fields (§18.4: boundary, leverage, mechanism, disconfirmation) and plural-value/capital fields (§18.5) — no fields on option-entry.yaml; the capital half is the ALREADY-KNOWN forms_of_capital gap (data/crosswalks/regen-toolkit.yaml), in flight as the V4 capital update-proposal."
+    severity: medium
+    disposition: "contribute-back (capital: already in flight); schema-fix (system-model fields)"
+    affected: [object_family: options]
+  - gap: "Central Controlled Vocabulary registry — Database_Spec's 4-layer (shared/domain/branch/source-original) term registry with 10 mapping types has no framework equivalent beyond scattered per-schema enums."
+    severity: low
+    disposition: contribute-back
+    affected: [normalization]
+  - gap: "Field-level public-use controls (public_fields_allowed, sensitive_fields, restriction_reason, withdrawal_or_correction_path) — public_use/public-use-boundary operate at the object level, not the field level."
+    severity: medium
+    disposition: schema-fix
+    affected: [status_dimension: public-use, zone: zone-d-public-use-views]
+  - gap: "No 'publish to public view' pipeline stage/skill — store persists to the working KB; public views are hand-built per project (/self-ingestion, /handoff), not generated from the public_use axis."
+    severity: low
+    disposition: tooling
+    affected: [pipeline: publish]
+  - gap: "B5 guard is title-slug collision detection only — no fuzzy/alias/domain-based entity resolution (Database_Spec §56.2's probabilistic matching class)."
+    severity: low
+    disposition: tooling
+    affected: [normalization]
+
+# ---------------------------------------------------------------------------
+# SUMMARY
+# ---------------------------------------------------------------------------
+summary:
+  object_families_total: 14
+  object_families_mapped_direct: 6   # source-systems, concepts-and-idea-lineages, options*, tracks, deployments, implementation-cases (*options is direct-with-named-subgaps, counted here as its practical core is a clean fit)
+  object_families_mapped_near: 2     # source-artifacts, claims-and-cautions
+  object_families_partial: 2         # relationships, decisions-evolution-and-compost-records
+  object_families_gap: 4             # entities, reviews-and-public-use-decisions, research-notes-and-structured-attachments, expansion-branches-and-backlog
+  status_dimensions_total: 8
+  status_dimensions_mapped_near: 4   # processing, maturity, public-use, ai-involvement
+  status_dimensions_partial: 1       # review
+  status_dimensions_gap: 3           # currentness, confidence, maintenance
+  zones_total: 4
+  zones_mapped: 3                    # A, B, C
+  zones_partial: 1                   # D (state exists, no view-compiler)
+  pipeline_stages_total: 4
+  pipeline_stages_mapped: 3          # preserve, normalize, review
+  pipeline_stages_gap: 1             # publish
+  normalization_mechanisms_total: 4
+  normalization_mapped_direct: 2     # object-type crosswalk, predicate crosswalk
+  normalization_mapped_near: 1       # normalization flags -> B5 (complementary, not identical)
+  normalization_gap: 1               # controlled vocabulary registry
+  headline: >-
+    The operational core converges cleanly and concretely: 6 of 14 object families are
+    direct, strong schema matches (source-system, concept-lineage, option-entry, track,
+    deployment, implementation-record), the preserve→normalize→review pipeline maps stage
+    for stage to ingest→accept-gate→review-promote, and the B5 guard already demonstrates
+    Database_Spec's Definition-of-Done #1 (idempotent re-run) at scale (65 collisions,
+    722 objects, 2026-07-14). The real gaps cluster in two places: (1) three status
+    dimensions the framework has never modeled as axes — currentness, confidence,
+    maintenance — all three needed universally, not just on source systems; and (2) a
+    structural gap Database_Spec itself would consider serious — relationships are not
+    first-class sourced-assertion records in the framework, which is exactly the anti-
+    pattern Database_Spec's Core Decision #3 warns against. Both are real T4 work, not
+    naming disagreements.

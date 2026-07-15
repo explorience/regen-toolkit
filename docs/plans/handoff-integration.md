@@ -33,8 +33,8 @@ Guide asks for; §35 names `toolkit-framework` + `regen-toolkit-os`. **The frame
 
 | Phase | What | When | Status |
 |---|---|---|---|
-| **T1 — Intake & orient** | register iteration · save/archive MASTER · `HANDOFF-CHANGES-2026-07.md` · annexes-are-redundant note | Jul 15 | ▶ |
-| **T2 — Crosswalk + DoD conformance** | §40 crosswalk (framework ↔ Database_Spec) + scored 15-item Definition-of-Done report + gap list | Jul 15 | |
+| **T1 — Intake & orient** | register iteration · `HANDOFF-CHANGES-2026-07.md` · annexes-redundant note | Jul 15 | ✅ done |
+| **T2 — Crosswalk + DoD conformance** | §40 crosswalk + scored 15-item DoD (7✅/8🟡) + gap list | Jul 15 | ✅ done |
 | **T3a — Ingestion slice (Jul 16)** | Guide §8 "first prototype corpus": 67 source-system cards + sample of 5 families + 1 merge pilot → machine → `data/kb/` + page | Jul 15–16 | |
 | **T5 — Fit + the call** | re-anchor CONVERGENCE-PIPELINE · capital proposal → decision #5 · **agent-setup for Matty** | Jul 15–16 | |
 | **T3b — Full Canonical_DB ingestion** | 2,689 curated rows via the machine (Database_Spec Phases 0–10) + Discovery_Pool promotion | after Jul 16 | ⏳ |
