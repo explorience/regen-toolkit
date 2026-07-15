@@ -172,6 +172,14 @@ export function buildStub(o, idToType, ambiguous = new Set()) {
   ].join('\n');
 }
 
+// One hub member-list line. The link target is ALWAYS path-qualified
+// (<type>/<id>) — a bare [[<id>]] would resolve to a single file in Obsidian
+// even when an ambiguous id has stubs in two type directories.
+export function hubMemberLine(type, o) {
+  const title = (typeof o.data?.title === 'string' && o.data.title.trim()) || o.id;
+  return `- [[${type}/${safeName(o.id)}|${title.replace(/[|[\]]/g, ' ').trim()}]]`;
+}
+
 export function main() {
   const objects = [
     ...loadArticlesCorpus(join(ROOT, 'data/kb')),
@@ -221,10 +229,7 @@ export function main() {
       `# ${type} — ${n.total} objects`, '',
       `${n.raw} raw · ${n.reviewed} reviewed · articles ${n.byCorpus.articles} / handoff ${n.byCorpus.handoff}`, '',
       `Up: [[kb-commons]]`, '',
-      ...members.map((o) => {
-        const title = (typeof o.data?.title === 'string' && o.data.title.trim()) || o.id;
-        return `- [[${safeName(o.id)}|${title.replace(/[|[\]]/g, ' ').trim()}]]`;
-      }),
+      ...members.map((o) => hubMemberLine(type, o)),
       '',
     ].join('\n'));
   }

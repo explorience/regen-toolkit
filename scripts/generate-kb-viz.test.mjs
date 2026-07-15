@@ -18,6 +18,7 @@ import {
   pickDescription,
   buildStub,
   findAmbiguousIds,
+  hubMemberLine,
 } from './generate-kb-viz.mjs';
 
 function fixtureArticlesDir() {
@@ -208,4 +209,24 @@ test('buildStub omits ambiguous ids from Related', () => {
   const stub = buildStub(referrer, idToType, ambiguous);
   assert.ok(!stub.includes('Related:'));
   assert.ok(!/\[\[dup\]\]/.test(stub));
+});
+
+test('hubMemberLine path-qualifies the wikilink so ambiguous ids resolve per type', () => {
+  // Bare [[giveth|…]] in two hubs would resolve to ONE file in Obsidian;
+  // the link target must be <type>/<id> — always, not just for ambiguous ids.
+  const plain = { id: 'res-one', type: 'resource', corpus: 'articles', data: { title: 'Resource One' } };
+  assert.equal(hubMemberLine('resource', plain), '- [[resource/res-one|Resource One]]');
+
+  // Ambiguous id: same id under two types → two distinct, correctly-typed targets.
+  const asResource = { id: 'giveth', type: 'resource', corpus: 'articles', data: { title: 'Giveth' } };
+  const asSource = { id: 'giveth', type: 'source-system', corpus: 'handoff', data: { title: 'Giveth' } };
+  assert.equal(hubMemberLine('resource', asResource), '- [[resource/giveth|Giveth]]');
+  assert.equal(hubMemberLine('source-system', asSource), '- [[source-system/giveth|Giveth]]');
+
+  // No title → id as the display text; pipe/bracket chars stripped from titles.
+  assert.equal(hubMemberLine('resource', { id: 'x', data: {} }), '- [[resource/x|x]]');
+  assert.equal(
+    hubMemberLine('resource', { id: 'y', data: { title: 'A|B [C]' } }),
+    '- [[resource/y|A B  C]]'
+  );
 });

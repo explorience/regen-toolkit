@@ -8,6 +8,6 @@ kb_hub: track
 
 Up: [[kb-commons]]
 
-- [[building-a-minimum-viable-node-8-week-mvn-roadmap|Building a Minimum Viable Node (8-week MVN roadmap)]]
-- [[first-90-days-local-node-playbook|First 90 Days: Local Node Playbook]]
-- [[local-node-gathering-cadence|Local Node Gathering Cadence]]
+- [[track/building-a-minimum-viable-node-8-week-mvn-roadmap|Building a Minimum Viable Node (8-week MVN roadmap)]]
+- [[track/first-90-days-local-node-playbook|First 90 Days: Local Node Playbook]]
+- [[track/local-node-gathering-cadence|Local Node Gathering Cadence]]
