@@ -3,10 +3,25 @@ import assert from 'node:assert/strict';
 import { loadSchema, isValid } from '../src/index.mjs';
 import { isAwaitingReview } from '../src/util.mjs';
 
-// K1 / R1: the canonical state model is THREE orthogonal axes (not one ladder).
-test('review-maturity defines the three orthogonal axes', () => {
+// K1 / R1: the canonical state model is orthogonal axes (not one ladder). Started as
+// THREE (maturity/public_use/lifecycle_state); T4 adds Matty's 3 missing status
+// dimensions (currentness/confidence/maintenance) as further orthogonal axes.
+test('review-maturity defines the canonical orthogonal axes', () => {
   const s = loadSchema('review-maturity');
-  assert.deepEqual(Object.keys(s.axes).sort(), ['lifecycle_state', 'maturity', 'public_use']);
+  assert.deepEqual(Object.keys(s.axes).sort(),
+    ['confidence', 'currentness', 'lifecycle_state', 'maintenance', 'maturity', 'public_use']);
+});
+
+// T4 — Matty's 3 missing status dimensions (framework<->Database_Spec crosswalk).
+test('currentness/confidence/maintenance axes accept their canonical values', () => {
+  assert.equal(isValid('currentness', 'stale'), true);
+  assert.equal(isValid('confidence', 'low'), true);
+  assert.equal(isValid('maintenance', 'orphaned'), true);
+});
+test('currentness/confidence/maintenance axes reject bogus values', () => {
+  assert.equal(isValid('currentness', 'nonsense'), false);
+  assert.equal(isValid('confidence', 'nonsense'), false);
+  assert.equal(isValid('maintenance', 'nonsense'), false);
 });
 
 test('maturity axis accepts canonical values, rejects the old ontology vocab', () => {

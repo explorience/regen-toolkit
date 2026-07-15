@@ -49,6 +49,21 @@ axes:
       - mature
       - compost
 
+  # T4 — Matty's 3 missing status dimensions (framework<->Database_Spec crosswalk).
+  # Orthogonal to maturity/public_use/lifecycle_state: an item can be fully "reviewed"
+  # and still be stale, low-confidence, or unmaintained — these are separate questions.
+  currentness:
+    description: How current the underlying source/state is.
+    values: [current, aging, stale, discontinued, unknown]
+
+  confidence:
+    description: Confidence in the assertion/classification.
+    values: [high, medium, low, unverified]
+
+  maintenance:
+    description: Maintenance status of the object/source.
+    values: [actively-maintained, community-maintained, paused, unmaintained, orphaned, unknown]
+
 # Orthogonal boolean flags (NOT states) — Principle 14 (AI-but-human-governed) + high-risk triggers.
 flags:
   ai_assisted: boolean
