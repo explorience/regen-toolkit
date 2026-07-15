@@ -1,0 +1,119 @@
+---
+import Page from "../layouts/Page.astro";
+// Matty's curated Canonical_DB, a bounded "first prototype corpus" (Guide §8), run through
+// the real 0.2 pipeline and stored to kb-handoff/ — kept distinct from the article corpus
+// (data/kb/) per his Database_Spec ("do not collapse into one universal table").
+import after from "../../kb-handoff/index.json";
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p) => base + String(p).replace(/^\//, "");
+
+const total = after.total;
+const reviewQueue = after.review_queue ?? after.reviewQueue;
+const types = Object.entries(after.by_type)
+  .sort((a, b) => b[1] - a[1])
+  .map(([type, n]) => `${n} ${type.replace(/-/g, " ")}${n > 1 ? "s" : ""}`);
+---
+
+<Page
+  title="Handoff slice · Regen Web3 Toolkit"
+  description="Matty's curated master-doc database, a bounded prototype corpus, run through the toolkit's own machine — the honest before/after."
+>
+  <section class="in-hero">
+    <div class="wrap in-hero__inner">
+      <p class="eyebrow reveal" data-d="1">Handoff · convergence</p>
+      <h1 class="in-hero__title reveal" data-d="2">
+        Matt's database,<br />run through the machine.
+      </h1>
+      <p class="in-hero__lede reveal" data-d="3">
+        Matt's July master-doc handoff includes a large curated database — and a spec that,
+        remarkably, describes the same capture → review → publish pipeline this toolkit already runs.
+        To test that, we fed a <strong>bounded prototype corpus</strong> of his own Canonical_DB
+        (127 curated rows across 5 object families) through the machine → <strong>{total} typed
+        objects</strong>, each preserving his text and source lineage, all <code>raw</code> in the
+        review queue. Nothing promoted — a human reviews before anything is published.
+      </p>
+      <div class="in-hero__meta reveal" data-d="4">
+        <span class="chip chip--clay">127 curated rows → {total} objects</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>from Canonical_DB</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>all raw</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="in-reg">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">What his data came out as</p>
+        <h2 class="in-h2">Six object families, typed through his own crosswalk.</h2>
+        <p class="in-sec-sub">
+          His Source-System Cards, New Objects, Options, Claims &amp; Cautions, and Implementation
+          Memory sheets, typed via his own normalization crosswalk and run through the accept gate.
+          Relationships were deliberately left parked — the framework doesn't yet carry a first-class
+          per-edge record (an honest gap, not papered over).
+        </p>
+      </header>
+      <ul class="in-stat-grid">
+        <li class="in-stat">
+          <span class="in-stat__n">{total}</span>
+          <span class="in-stat__label">typed objects</span>
+          <span class="in-stat__desc">From 127 curated Canonical_DB rows, read from the resulting index.</span>
+        </li>
+        <li class="in-stat">
+          <span class="in-stat__n">{reviewQueue}</span>
+          <span class="in-stat__label">in the review queue</span>
+          <span class="in-stat__desc">All <code>raw</code>; nothing promoted or published.</span>
+        </li>
+      </ul>
+      <ul class="in-run__types">
+        {types.map((t) => <li class="in-run__type">{t}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="in-held">
+    <div class="wrap in-held__grid">
+      <div class="in-held__card">
+        <p class="eyebrow">The convergence moment</p>
+        <h3 class="in-held__h">His hand-flagged duplicates, caught automatically.</h3>
+        <p>
+          Matt's database hand-flags <strong>4 duplicate source-system pairs</strong>. Ingesting all
+          67 of his cards, the machine's overwrite guard caught the <strong>same 4</strong> on its own
+          — preserving both sides of each rather than letting one silently overwrite the other. His
+          curated dedup and the automatic guard reached the same answer, on his own data.
+        </p>
+      </div>
+      <div class="in-held__card">
+        <p class="eyebrow">The public/private caveat, handled</p>
+        <h3 class="in-held__h">Sensitive rows flagged at the gate.</h3>
+        <p>
+          Matt noted the handoff wasn't reeled in for public vs private. Unprompted, the machine raised
+          <strong>public-use boundaries</strong> on exactly the sensitive rows — Indigenous territory,
+          gender-violence case data, a children's publication. Nothing sensitive reaches a public view
+          without review.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="in-cross">
+    <div class="wrap in-cross__inner">
+      <p class="eyebrow">See the rest</p>
+      <h2 class="in-h2">The machine, the toolkit's own run, and how it maps.</h2>
+      <p class="in-cross__lede">
+        This is one prototype run on Matt's database. For the toolkit's own 119 articles through the
+        same machine, see the self-ingestion page; for how the pipeline works, the framework page.
+      </p>
+      <div class="in-cross__cta">
+        <a class="btn btn--ghost" href={withBase("/self-ingestion/")}>The toolkit's own run <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href={withBase("/framework/")}>How the pipeline works <span class="arrow">→</span></a>
+      </div>
+      <p class="in-cross__honest">
+        Honest status: a bounded prototype slice of ~2,689 curated rows, all <strong>raw</strong> and
+        review-gated — the full migration and the human review pass come next.
+      </p>
+    </div>
+  </section>
+</Page>
