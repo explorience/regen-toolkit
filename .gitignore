@@ -42,3 +42,10 @@ working/
 
 # Matty handoff source (read-only, ~10MB binary; canonical copy on Google Drive)
 docs/RKC_Handoff_July_2026_FINAL_VERIFIED/
+
+# Transient tooling / scratch (keep a fresh clone clean)
+# .superpowers/ = brainstorming visual-companion server files
+# .tmp/ = handoff docx text extractions + scratch; docs/temp/ = scratch drafts
+.superpowers/
+.tmp/
+docs/temp/
