@@ -12,6 +12,16 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 > **2026-06-16 checkpoint.** Gap-fill (260521 + 260604 biweeklies) processed; **new master doc 2026-06-15 working iteration** is canonical (30,847 lines — integration pass, 10-layer core stable; see [`docs/MASTER-DOC-CHANGES-2026-06-15.md`](docs/MASTER-DOC-CHANGES-2026-06-15.md)); **resource DB V3** staged at [`data/resources/`](data/resources/). **Convergence is parked behind an operator checkpoint** (site merge, branch cleanup, framework/instance split, full resource lift) — see ⏸ section below.
 
+### Handoff Integration — Matty's Jul 2026 iteration _(ACTIVE 2026-07-15)_
+
+> Master plan: [`docs/plans/handoff-integration.md`](docs/plans/handoff-integration.md) · Changes map: [`docs/HANDOFF-CHANGES-2026-07.md`](docs/HANDOFF-CHANGES-2026-07.md). **Core finding:** Matty's Database_Spec = the framework machine. Source: `docs/RKC_Handoff_July_2026_FINAL_VERIFIED/`.
+
+- [~] **T1 — intake & orient** — changes map written; iteration registered. ▶
+- [~] **T2 — crosswalk + Definition-of-Done conformance** — §40 crosswalk + 15-item DoD (7✅/8🟡). [`crosswalk`](docs/reports/2026-07-15-framework-masterdoc-crosswalk.md) · [`DoD`](docs/reports/2026-07-15-definition-of-done-conformance.md).
+- [ ] **T3a — real ingestion slice** — Canonical_DB "first prototype corpus" → machine → `/handoff` page (for Jul 16).
+- [ ] **T5 — agent-setup for Matty + call brief** (his ask; free 10:30–11:30 EST Thu).
+- [ ] **After:** T3b full Canonical_DB ingestion (2,689 rows) · T4 framework evolution (currentness/confidence/maintenance dims, branch/decision families) · master 6-Part refactor (awaits Matty's final).
+
 ### Framework Validation Pass — self-ingestion + Jul 16 demo _(ACTIVE 2026-07-14)_
 
 > Master plan: [`docs/plans/framework-validation-pass.md`](docs/plans/framework-validation-pass.md). Demo **Thu Jul 16**. Symmetric to the ReFi DAO `kms-koi-pipeline`. Design + implementation: [`docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md`](docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md) + [`...-2026-07-14-...-implementation.md`](docs/plans/framework-build/2026-07-14-framework-validation-pass-implementation.md).
