@@ -1,0 +1,25 @@
+schema: option-entry
+object:
+  title: Southern Digital Justice Comparison Lens
+  type: option-entry
+  category: knowledge-documentation
+  what_it_is: >-
+    Compare digital systems using regional political economy, colonial history,
+    gender, labor, publicness, rights, infrastructure and community power rather
+    than importing one universal responsible-tech frame.
+  potential_uses: >-
+    AI governance, data policy, DPI, platform regulation, public-interest
+    technology and source-system review.
+  dependencies: >-
+    Regional expertise, multilingual sources, affected-party participation and
+    context-specific evidence.
+  tradeoffs: >-
+    The category 'Global South' can flatten major political, cultural and
+    economic differences.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row12
+    source_lineage: https://itforchange.net/aboutus/
+  work_order: wo-e5b7999ca3a5
+  source_lineage: option-candidates.csv

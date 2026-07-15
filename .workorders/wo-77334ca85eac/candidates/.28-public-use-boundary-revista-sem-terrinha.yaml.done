@@ -1,0 +1,17 @@
+schema: public-use-boundary
+object:
+  title: Boundary — Revista Sem Terrinha
+  tier: public-with-caveat
+  consent_note: >-
+    Publication is produced for and features children (Sem Terrinha / MST youth organizing). Do not
+    extract, quote, or reproduce child-authored or child-featuring content without age-appropriate
+    consent, safeguarding, and representation review.
+  review_type: domain-review-before-public-use
+  notes: >-
+    Covers candidate 27-resource-revista-sem-terrinha.yaml (this work order) — high-risk trigger per
+    ingest skill.
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row26
+    transformation: synthesized
+    authorship: ai-assisted

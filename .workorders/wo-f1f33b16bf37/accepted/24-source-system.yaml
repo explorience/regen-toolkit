@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: Disability Visibility Project
+  type: blog
+  steward: Disability Visibility Project
+  return_path: unset — establish via register-source
+  url: https://disabilityvisibilityproject.com/
+  what_it_curates: >-
+    Blog and guest essays; Disability Visibility anthology; podcast archive;
+    oral histories; resource guides; political and cultural commentary;
+    community campaigns.
+  why_it_matters: >-
+    Online community founded by Alice Wong to create, share and amplify
+    disability media, culture, first-person knowledge and cross-movement
+    analysis.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row25
+    source_lineage: https://disabilityvisibilityproject.com/
+  caution: >-
+    First-person testimony is essential evidence but should not be generalized
+    beyond its scope. Publishing visibility is not the same as representation of
+    all disabled communities.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

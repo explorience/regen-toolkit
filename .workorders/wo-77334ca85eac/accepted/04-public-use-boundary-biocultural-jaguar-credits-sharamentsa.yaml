@@ -1,0 +1,21 @@
+schema: public-use-boundary
+object:
+  title: Boundary — Biocultural Jaguar Credits — Sharamentsa
+  tier: public-with-caveat
+  consent_note: >-
+    Achuar-led project involving territorial governance, ancestral/Indigenous
+    knowledge, and community monitoring data over a named 10,200ha territory. Do
+    not present community data, monitoring specifics, or ancestral-knowledge
+    claims as independently verified without affected-party (Achuar /
+    Sharamentsa) review and consent.
+  review_type: affected-party-review-before-public-use
+  notes: >-
+    Covers candidate 03-resource-biocultural-jaguar-credits-sharamentsa.yaml
+    (this work order) — high-risk trigger per ingest skill.
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row4
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-77334ca85eac
+  source_lineage: new-objects.csv

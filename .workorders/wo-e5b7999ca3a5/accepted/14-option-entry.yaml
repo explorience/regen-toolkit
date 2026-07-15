@@ -1,0 +1,21 @@
+schema: option-entry
+object:
+  title: Product Recognition vs Commons Outcome Crosswalk
+  type: option-entry
+  category: impact-measurement
+  what_it_is: >-
+    Separate product-quality awards and market recognition from cooperative
+    governance, livelihood, ecological and public-value outcomes.
+  potential_uses: Claims review, communications, funder reports and implementation memory.
+  dependencies: Award criteria, production data and distinct social/ecological evidence.
+  tradeoffs: >-
+    May undervalue symbolic recognition or over-formalize community
+    achievements.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row15
+    source_lineage: >-
+      https://mst.org.br/2024/09/16/agroindustria-nutrile-do-mst-da-paraiba-conquista-tres-premios-no-xviii-enel/
+  work_order: wo-e5b7999ca3a5
+  source_lineage: option-candidates.csv

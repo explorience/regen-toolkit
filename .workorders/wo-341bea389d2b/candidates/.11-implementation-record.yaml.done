@@ -1,0 +1,24 @@
+schema: implementation-record
+object:
+  title: Care Web and Maintenance Assignment Pilot
+  type: implementation-record
+  context: >-
+    Assign owner, backup, workload limit, escalation and temporary transfer
+    for one priority source-system set.
+  source_position: self-report
+  record_type: pilot
+  what_returns_to_commons: >-
+    Tests whether distributed care improves continuity without obscuring
+    responsibility.
+  notes: >-
+    What to capture: roles, compensation, response time, missed work,
+    overload, handoff and participant feedback.
+  review_needs: "Priority operational pilot."
+  maturity: raw
+  ai_assisted: true
+  source_lineage: "Internal applied review"
+  provenance:
+    origin: "Canonical_DB.xlsx#Implementation Memory!row12"
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

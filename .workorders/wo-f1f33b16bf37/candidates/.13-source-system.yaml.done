@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: Donella Meadows Project / Academy for Systems Change
+  type: archive
+  steward: Donella Meadows Project / Academy for Systems Change
+  return_path: unset — establish via register-source
+  url: https://donellameadows.org/
+  what_it_curates: >-
+    Donella Meadows archive; Thinking in Systems; Leverage Points; Dancing with Systems; indicators; visioning;
+    systems resources; learning journeys; field stories.
+  why_it_matters: >-
+    Preserves Donella Meadows’s writings and applies systems thinking through current learning programs,
+    tools, field stories and practitioner education.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row14
+    source_lineage: https://donellameadows.org/
+  caution: >-
+    The archive is steward-authored and legacy-oriented. Systems concepts are lenses, not neutral predictions
+    or universal intervention recipes.

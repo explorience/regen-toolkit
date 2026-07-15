@@ -1,0 +1,23 @@
+schema: source-system
+object:
+  title: Allo.Capital
+  type: library
+  steward: Allo.Capital
+  return_path: unset — establish via register-source
+  url: https://www.allo.capital/resources
+  what_it_curates: >-
+    Resources library; Onchain Capital Allocation Handbook Vols. 1–2; Ethereum
+    Localism; Grassroots Economics; historical materials.
+  why_it_matters: >-
+    Useful for distinctive handbooks, localism and grassroots economics
+    resources, and historical Allo Protocol / Grants Stack context.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row3
+    source_lineage: https://www.allo.capital/resources
+  caution: >-
+    Avoid duplicate mechanism deepening. Distinguish current publishing from
+    historical software products.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

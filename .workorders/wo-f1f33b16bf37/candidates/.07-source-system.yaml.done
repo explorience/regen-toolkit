@@ -1,0 +1,20 @@
+schema: source-system
+object:
+  title: Workshop on Governing Knowledge Commons
+  type: library
+  steward: Workshop on Governing Knowledge Commons
+  return_path: unset — establish via register-source
+  url: https://knowledge-commons.net/
+  what_it_curates: >-
+    GKC framework; publications; cases; researchers; teaching resources; network and programs.
+  why_it_matters: >-
+    Research and publication system organizing empirical study of institutions for sharing knowledge,
+    data, science, innovation and culture.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row8
+    source_lineage: https://knowledge-commons.net/
+  caution: >-
+    Academic research requires contextual translation; a framework or case finding is not a universal
+    prescription.

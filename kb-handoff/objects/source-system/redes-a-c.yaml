@@ -1,0 +1,24 @@
+title: REDES A.C.
+type: directory
+steward: REDES A.C.
+return_path: unset — establish via register-source
+url: https://redesac.org.mx/
+what_it_curates: >-
+  Community and Indigenous concessions; spectrum and regulatory advocacy;
+  emergency communications; community intranets; own-content production;
+  training resources; publications.
+why_it_matters: >-
+  Mexican civil association supporting community and Indigenous communication,
+  technological autonomy, policy advocacy, locally produced content and
+  territorial collaboration.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row31
+  source_lineage: https://redesac.org.mx/
+caution: >-
+  Public extraction must respect community authority, collective rights,
+  language, cultural protocols and the distinction between REDES A.C. and the
+  communities it accompanies.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

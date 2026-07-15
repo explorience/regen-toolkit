@@ -1,0 +1,14 @@
+schema: option-entry
+object:
+  title: Multi-Format Knowledge Record
+  type: option-entry
+  category: knowledge-documentation
+  what_it_is: Allow one record or collection to expose concise plain language, full detail, structured data, audio/transcript and visual alternatives without treating one format as canonical for all users.
+  potential_uses: Public collections, implementation memory, source-system cards and educational views.
+  dependencies: Content model, editorial workflow, accessibility standards, version synchronization.
+  tradeoffs: Increases maintenance burden and can create inconsistent representations.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row11
+    source_lineage: Internal disability-access review

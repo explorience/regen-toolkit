@@ -1,0 +1,220 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://regen-commons.org/ns/",
+    "concept": "https://regen-commons.org/ns/concept",
+    "person": "https://regen-commons.org/ns/person",
+    "group": "https://regen-commons.org/ns/group",
+    "place": "https://regen-commons.org/ns/place",
+    "bioregion": "https://regen-commons.org/ns/bioregion",
+    "practice": "https://regen-commons.org/ns/practice",
+    "pattern": "https://regen-commons.org/ns/pattern",
+    "protocol": "https://regen-commons.org/ns/protocol",
+    "playbook": "https://regen-commons.org/ns/playbook",
+    "case-study": "https://regen-commons.org/ns/case-study",
+    "question": "https://regen-commons.org/ns/question",
+    "claim": "https://regen-commons.org/ns/claim",
+    "evidence": "https://regen-commons.org/ns/evidence",
+    "artifact": "https://regen-commons.org/ns/artifact",
+    "source-system": "https://regen-commons.org/ns/source-system",
+    "resource": "https://regen-commons.org/ns/resource",
+    "tool": "https://regen-commons.org/ns/tool",
+    "mechanism": "https://regen-commons.org/ns/mechanism",
+    "framework": "https://regen-commons.org/ns/framework",
+    "standard": "https://regen-commons.org/ns/standard",
+    "template": "https://regen-commons.org/ns/template",
+    "network": "https://regen-commons.org/ns/network",
+    "node": "https://regen-commons.org/ns/node",
+    "cell": "https://regen-commons.org/ns/cell",
+    "partner-org": "https://regen-commons.org/ns/partner-org",
+    "role": "https://regen-commons.org/ns/role",
+    "steward": "https://regen-commons.org/ns/steward",
+    "contributor": "https://regen-commons.org/ns/contributor",
+    "option": "https://regen-commons.org/ns/option",
+    "track": "https://regen-commons.org/ns/track",
+    "deployment": "https://regen-commons.org/ns/deployment",
+    "implementation": "https://regen-commons.org/ns/implementation",
+    "flow": "https://regen-commons.org/ns/flow",
+    "action": "https://regen-commons.org/ns/action",
+    "program": "https://regen-commons.org/ns/program",
+    "project": "https://regen-commons.org/ns/project",
+    "metric": "https://regen-commons.org/ns/metric",
+    "signal": "https://regen-commons.org/ns/signal",
+    "review-cycle": "https://regen-commons.org/ns/review-cycle",
+    "probe": "https://regen-commons.org/ns/probe",
+    "issue": "https://regen-commons.org/ns/issue",
+    "update-proposal": "https://regen-commons.org/ns/update-proposal",
+    "failure-mode": "https://regen-commons.org/ns/failure-mode",
+    "obligation": "https://regen-commons.org/ns/obligation",
+    "risk": "https://regen-commons.org/ns/risk",
+    "public-use-boundary": "https://regen-commons.org/ns/public-use-boundary",
+    "is_a": {
+      "@id": "https://regen-commons.org/ns/is_a",
+      "@type": "@id"
+    },
+    "instance_of": {
+      "@id": "https://regen-commons.org/ns/instance_of",
+      "@type": "@id"
+    },
+    "part_of": {
+      "@id": "https://regen-commons.org/ns/part_of",
+      "@type": "@id"
+    },
+    "related_to": {
+      "@id": "https://regen-commons.org/ns/related_to",
+      "@type": "@id"
+    },
+    "broader": {
+      "@id": "https://regen-commons.org/ns/broader",
+      "@type": "@id"
+    },
+    "narrower": {
+      "@id": "https://regen-commons.org/ns/narrower",
+      "@type": "@id"
+    },
+    "overlaps_with": {
+      "@id": "https://regen-commons.org/ns/overlaps_with",
+      "@type": "@id"
+    },
+    "maps_to": {
+      "@id": "https://regen-commons.org/ns/maps_to",
+      "@type": "@id"
+    },
+    "derived_from": {
+      "@id": "https://regen-commons.org/ns/derived_from",
+      "@type": "@id"
+    },
+    "version_of": {
+      "@id": "https://regen-commons.org/ns/version_of",
+      "@type": "@id"
+    },
+    "practiced_by": {
+      "@id": "https://regen-commons.org/ns/practiced_by",
+      "@type": "@id"
+    },
+    "documents": {
+      "@id": "https://regen-commons.org/ns/documents",
+      "@type": "@id"
+    },
+    "builds_on": {
+      "@id": "https://regen-commons.org/ns/builds_on",
+      "@type": "@id"
+    },
+    "aggregates_into": {
+      "@id": "https://regen-commons.org/ns/aggregates_into",
+      "@type": "@id"
+    },
+    "implemented_by": {
+      "@id": "https://regen-commons.org/ns/implemented_by",
+      "@type": "@id"
+    },
+    "produces": {
+      "@id": "https://regen-commons.org/ns/produces",
+      "@type": "@id"
+    },
+    "generates_signal": {
+      "@id": "https://regen-commons.org/ns/generates_signal",
+      "@type": "@id"
+    },
+    "about": {
+      "@id": "https://regen-commons.org/ns/about",
+      "@type": "@id"
+    },
+    "defines": {
+      "@id": "https://regen-commons.org/ns/defines",
+      "@type": "@id"
+    },
+    "explains": {
+      "@id": "https://regen-commons.org/ns/explains",
+      "@type": "@id"
+    },
+    "supports": {
+      "@id": "https://regen-commons.org/ns/supports",
+      "@type": "@id"
+    },
+    "contradicts": {
+      "@id": "https://regen-commons.org/ns/contradicts",
+      "@type": "@id"
+    },
+    "raises_question": {
+      "@id": "https://regen-commons.org/ns/raises_question",
+      "@type": "@id"
+    },
+    "confused_with": {
+      "@id": "https://regen-commons.org/ns/confused_with",
+      "@type": "@id"
+    },
+    "source_for": {
+      "@id": "https://regen-commons.org/ns/source_for",
+      "@type": "@id"
+    },
+    "stewarded_by": {
+      "@id": "https://regen-commons.org/ns/stewarded_by",
+      "@type": "@id"
+    },
+    "curated_by": {
+      "@id": "https://regen-commons.org/ns/curated_by",
+      "@type": "@id"
+    },
+    "sourced_from": {
+      "@id": "https://regen-commons.org/ns/sourced_from",
+      "@type": "@id"
+    },
+    "adapted_from": {
+      "@id": "https://regen-commons.org/ns/adapted_from",
+      "@type": "@id"
+    },
+    "attributed_to": {
+      "@id": "https://regen-commons.org/ns/attributed_to",
+      "@type": "@id"
+    },
+    "requires_attribution": {
+      "@id": "https://regen-commons.org/ns/requires_attribution",
+      "@type": "@id"
+    },
+    "has_return_path": {
+      "@id": "https://regen-commons.org/ns/has_return_path",
+      "@type": "@id"
+    },
+    "has_reuse_conditions": {
+      "@id": "https://regen-commons.org/ns/has_reuse_conditions",
+      "@type": "@id"
+    },
+    "currentness_checked_by": {
+      "@id": "https://regen-commons.org/ns/currentness_checked_by",
+      "@type": "@id"
+    },
+    "governed_by": {
+      "@id": "https://regen-commons.org/ns/governed_by",
+      "@type": "@id"
+    },
+    "controlled_by": {
+      "@id": "https://regen-commons.org/ns/controlled_by",
+      "@type": "@id"
+    },
+    "accountable_to": {
+      "@id": "https://regen-commons.org/ns/accountable_to",
+      "@type": "@id"
+    },
+    "has_authority": {
+      "@id": "https://regen-commons.org/ns/has_authority",
+      "@type": "@id"
+    },
+    "has_control_point": {
+      "@id": "https://regen-commons.org/ns/has_control_point",
+      "@type": "@id"
+    },
+    "has_failure_mode": {
+      "@id": "https://regen-commons.org/ns/has_failure_mode",
+      "@type": "@id"
+    },
+    "has_public_use_boundary": {
+      "@id": "https://regen-commons.org/ns/has_public_use_boundary",
+      "@type": "@id"
+    },
+    "requires_review": {
+      "@id": "https://regen-commons.org/ns/requires_review",
+      "@type": "@id"
+    }
+  }
+}

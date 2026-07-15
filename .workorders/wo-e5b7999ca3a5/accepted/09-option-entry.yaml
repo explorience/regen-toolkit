@@ -1,0 +1,25 @@
+schema: option-entry
+object:
+  title: Worker-Ownership and Power Review
+  type: option-entry
+  category: governance
+  what_it_is: >-
+    Assess legal ownership, voting, board power, management, algorithm control,
+    work rules, surplus allocation, data rights, grievance processes, and exit
+    rights separately.
+  potential_uses: >-
+    Platform-coop review, public-goods builder support, cooperative technology
+    assessment.
+  dependencies: >-
+    Governance documents, worker interviews, financial structure, labor-process
+    data, affected-worker review.
+  tradeoffs: >-
+    Can overburden small co-ops; formal documentation may diverge from
+    rules-in-use.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row10
+    source_lineage: Internal labor-cluster synthesis
+  work_order: wo-e5b7999ca3a5
+  source_lineage: option-candidates.csv

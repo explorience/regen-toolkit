@@ -1,0 +1,21 @@
+title: Care-Health-Food Knowledge Confluence
+type: option-entry
+category: coordination
+what_it_is: >-
+  Convene ancestral knowledge holders, community health practitioners, rural
+  organizers and public audiences around bodies, food and care.
+potential_uses: Community health learning, care commons and agroecology programs.
+dependencies: >-
+  Medical-safety boundaries, consent, attribution, cultural authority and
+  referral to public health systems.
+tradeoffs: >-
+  Traditional knowledge may be romanticized, medicalized or extracted without
+  community benefit.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row16
+  source_lineage: https://anamuri.cl/2-2/
+high_risk: true
+work_order: wo-e5b7999ca3a5
+source_lineage: option-candidates.csv

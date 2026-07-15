@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: Zenzeleni Community Networks
+  type: directory
+  steward: Zenzeleni Community Networks
+  return_path: unset — establish via register-source
+  url: https://zenzeleni.net/
+  what_it_curates: >-
+    Community cooperatives; nonprofit support entity; hotspots; dedicated
+    access; cooperative seeding; policy submissions; practical guides; evidence
+    and learning resources.
+  why_it_matters: >-
+    South African community-network model combining locally governed cooperative
+    internet service providers with a supporting nonprofit company, practical
+    resources, policy advocacy and local services.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row32
+    source_lineage: https://zenzeleni.net/
+  caution: >-
+    Community ownership should be verified through actual decision rights,
+    benefit distribution, labor, maintenance and community perspectives. Awards
+    and connectivity metrics are not outcome proof.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

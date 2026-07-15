@@ -1,0 +1,30 @@
+schema: source-system
+object:
+  title: >-
+    Platform Cooperativism Consortium / Institute for the Cooperative Digital
+    Economy
+  type: library
+  steward: >-
+    Platform Cooperativism Consortium / Institute for the Cooperative Digital
+    Economy
+  return_path: unset — establish via register-source
+  url: https://platform.coop/
+  what_it_curates: >-
+    Platform co-op resource library; ICDE research; fellows; conferences;
+    Platform Co-op School; business-support and policy materials; global project
+    network.
+  why_it_matters: >-
+    Active global research, education, organizing, and business-support hub for
+    worker- and user-owned digital platforms and cooperative digital
+    infrastructure.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row20
+    source_lineage: https://platform.coop/
+  caution: >-
+    PCC-reported project and worker-reach figures are organizer claims.
+    Cooperative legal form does not by itself establish meaningful worker power,
+    equitable outcomes, viability, or maintenance.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

@@ -1,0 +1,108 @@
+id: wo-f1f33b16bf37
+title: ingest source-system-cards.csv
+type: work-order
+source_path: source-system-cards.csv
+source_hash: cff750a14c7ad52765c5df0e61b97cc6bcb6c25b6f292effb9e7d13cf100ccba
+source_type: csv-crosswalk
+target_schemas:
+  - resource
+  - source-system
+instructions: >-
+  Deep intake (csv-crosswalk): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: handoff-ss
+produced:
+  - kb-handoff/objects/source-system/giveth.yaml
+  - kb-handoff/objects/source-system/allo-capital.yaml
+  - kb-handoff/objects/source-system/artizen-artizen-fund.yaml
+  - kb-handoff/objects/source-system/regen-network-regen-registry.yaml
+  - kb-handoff/objects/source-system/metagov-governance-research-network.yaml
+  - kb-handoff/objects/source-system/decidim-metadecidim.yaml
+  - >-
+    kb-handoff/objects/source-system/workshop-on-governing-knowledge-commons.yaml
+  - kb-handoff/objects/source-system/participedia.yaml
+  - kb-handoff/objects/source-system/people-powered.yaml
+  - >-
+    kb-handoff/objects/source-system/computational-democracy-project-polis-vtaiwan.yaml
+  - kb-handoff/objects/source-system/g0v-gov-zero.yaml
+  - >-
+    kb-handoff/objects/source-system/coordination-structural-integrity-suite-durgadas-standards-family.yaml
+  - >-
+    kb-handoff/objects/source-system/donella-meadows-project-academy-for-systems-change.yaml
+  - kb-handoff/objects/source-system/design-justice-network.yaml
+  - kb-handoff/objects/source-system/global-indigenous-data-alliance-gida.yaml
+  - kb-handoff/objects/source-system/local-contexts.yaml
+  - kb-handoff/objects/source-system/data-feminism-lab-data-feminism.yaml
+  - kb-handoff/objects/source-system/algorithmic-justice-league-ajl.yaml
+  - >-
+    kb-handoff/objects/source-system/platform-cooperativism-consortium-institute-for-the-cooperative-digital-economy.yaml
+  - kb-handoff/objects/source-system/the-maintainers.yaml
+  - kb-handoff/objects/source-system/democracy-at-work-institute.yaml
+  - kb-handoff/objects/source-system/sins-invalid.yaml
+  - kb-handoff/objects/source-system/critical-design-lab.yaml
+  - kb-handoff/objects/source-system/disability-visibility-project.yaml
+  - kb-handoff/objects/source-system/mutual-aid-disaster-relief.yaml
+  - kb-handoff/objects/source-system/laws-of-social-reproduction-project.yaml
+  - >-
+    kb-handoff/objects/source-system/the-commoner-care-work-and-the-commons-archive.yaml
+  - >-
+    kb-handoff/objects/source-system/association-for-progressive-communications-apc.yaml
+  - kb-handoff/objects/source-system/rhizomatica.yaml
+  - kb-handoff/objects/source-system/redes-a-c.yaml
+  - kb-handoff/objects/source-system/zenzeleni-community-networks.yaml
+  - kb-handoff/objects/source-system/it-for-change.yaml
+  - kb-handoff/objects/source-system/research-ict-africa.yaml
+  - kb-handoff/objects/source-system/global-tapestry-of-alternatives.yaml
+  - kb-handoff/objects/source-system/vikalp-sangam.yaml
+  - kb-handoff/objects/source-system/kalpavriksh.yaml
+  - kb-handoff/objects/source-system/la-via-campesina.yaml
+  - kb-handoff/objects/source-system/nyeleni-international-nyeleni-process.yaml
+  - >-
+    kb-handoff/objects/source-system/international-planning-committee-for-food-sovereignty-ipc.yaml
+  - >-
+    kb-handoff/objects/source-system/karnataka-rajya-raitha-sangha-amrita-bhoomi.yaml
+  - kb-handoff/objects/source-system/zimsoff-shashe-agroecology-school.yaml
+  - >-
+    kb-handoff/objects/source-system/movimento-dos-trabalhadores-rurais-sem-terra-mst.yaml
+  - >-
+    kb-handoff/objects/source-system/escola-nacional-florestan-fernandes-enff.yaml
+  - >-
+    kb-handoff/objects/source-system/uniao-nacional-das-cooperativas-da-reforma-agraria-popular-do-brasil-unicrab.yaml
+  - >-
+    kb-handoff/objects/source-system/iaraa-inteligencia-artificial-da-reforma-agraria-e-agroecologia.yaml
+  - kb-handoff/objects/source-system/cloc-la-via-campesina.yaml
+  - >-
+    kb-handoff/objects/source-system/institutos-agroecologicos-latinoamericanos-iala-network.yaml
+  - >-
+    kb-handoff/objects/source-system/voz-campesina-cloc-radio-mundo-real-media-collaboration.yaml
+  - kb-handoff/objects/source-system/anamuri.yaml
+  - kb-handoff/objects/source-system/fensuagro-iala-maria-cano.yaml
+  - >-
+    kb-handoff/objects/source-system/organizacion-boricua-de-agricultura-ecologica.yaml
+  - kb-handoff/objects/source-system/atc-nicaragua-iala-ixim-ulew.yaml
+  - kb-handoff/objects/source-system/anamuri-bd4dc01b.yaml
+  - >-
+    kb-handoff/objects/source-system/escuela-nacional-de-agroecologia-sembradoras-de-esperanza.yaml
+  - >-
+    kb-handoff/objects/source-system/anamuri-publications-and-multimedia-archive.yaml
+  - kb-handoff/objects/source-system/fensuagro-iala-maria-cano-0b296eb1.yaml
+  - >-
+    kb-handoff/objects/source-system/iala-maria-cano-finca-escuela-raul-valbuena.yaml
+  - >-
+    kb-handoff/objects/source-system/fensuagro-peasant-rights-and-human-rights-archive.yaml
+  - >-
+    kb-handoff/objects/source-system/organizacion-boricua-de-agricultura-ecologica-27856434.yaml
+  - kb-handoff/objects/source-system/agroecologia-en-puerto-rico-archive.yaml
+  - >-
+    kb-handoff/objects/source-system/iala-pr-instituto-para-la-investigacion-y-accion-en-agroecologia.yaml
+  - kb-handoff/objects/source-system/certificado-ecologico-boricua-archive.yaml
+  - kb-handoff/objects/source-system/ripess-intercontinental-network.yaml
+  - >-
+    kb-handoff/objects/source-system/international-center-for-community-land-trusts.yaml
+  - kb-handoff/objects/source-system/energy-democracy-project.yaml
+  - kb-handoff/objects/source-system/iwgia-territorial-governance-programme.yaml
+  - kb-handoff/objects/source-system/mutual-aid-disaster-relief-4cbcb03e.yaml

@@ -1,0 +1,24 @@
+schema: option-entry
+object:
+  title: Contextual Integrity Privacy Crosswalk
+  type: option-entry
+  category: governance
+  what_it_is: >-
+    Review personal-information flows by actors, attributes, transmission
+    principles, context, exit, voice, and community governance.
+  potential_uses: >-
+    AI-assisted knowledge systems, social archives, health/data commons, civic
+    platforms, contributor records.
+  dependencies: >-
+    Privacy expertise, data-flow mapping, community norms, threat analysis,
+    correction and deletion mechanisms.
+  tradeoffs: >-
+    Framework use can appear rigorous while missing lived risk or unequal
+    bargaining power.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row5
+    source_lineage: https://knowledge-commons.net/publications/privacy-book/
+  work_order: wo-e5b7999ca3a5
+  source_lineage: option-candidates.csv

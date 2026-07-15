@@ -1,0 +1,21 @@
+schema: concept-lineage
+object:
+  title: Maintenance Community Framework
+  type: concept-lineage
+  short_description: >-
+    Framework documenting lessons from maintenance communities and collaborative groups applying
+    maintenance thinking and action.
+  source_traditions:
+    - The Maintainers
+  toolkit_usage: Potential model for community-specific maintenance practice and knowledge sharing.
+  original_object_type: Framework
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row19
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: The Maintainers | https://themaintainers.org/community/
+  notes: >-
+    Why add: Potential model for community-specific maintenance practice and knowledge sharing.
+    Status/Caution: Framework requires local adaptation and practitioner review

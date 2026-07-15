@@ -1,0 +1,24 @@
+schema: option-entry
+object:
+  title: Governance Prototyping Through Roleplay and Games
+  type: option-entry
+  category: governance
+  what_it_is: >-
+    Use structured games to surface roles, obligations, incentives, authority,
+    conflicts, and possible agreements before real deployment.
+  potential_uses: >-
+    Working-group formation, cross-community coordination, governance
+    onboarding, scenario testing, and design workshops.
+  dependencies: >-
+    Facilitation, participant diversity, clear learning goals, documentation,
+    debrief, and real decision pathways.
+  tradeoffs: >-
+    Games may privilege confident participants, simplify power, create false
+    agreement, or be mistaken for actual governance.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row3
+    source_lineage: https://metagov.org/projects/polycentricity
+  work_order: wo-e5b7999ca3a5
+  source_lineage: option-candidates.csv

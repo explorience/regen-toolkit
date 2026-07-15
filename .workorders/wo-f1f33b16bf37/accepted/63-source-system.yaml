@@ -1,0 +1,22 @@
+schema: source-system
+object:
+  title: RIPESS Intercontinental Network
+  type: directory
+  steward: RIPESS Intercontinental Network
+  return_path: unset — establish via register-source
+  url: https://www.ripess.org/?lang=en
+  what_it_curates: >-
+    Directories, thematic resources, policy materials, news, events and
+    member-network pathways
+  why_it_matters: Global; continental member networks
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row64
+    source_lineage: https://www.ripess.org/?lang=en
+  caution: >-
+    Network self-description and curated resources are authoritative for
+    identity and discovery, not independent proof of member practice or outcomes
+    | Workflow status: Selected in final bounded source-system expansion
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

@@ -1,0 +1,22 @@
+schema: concept-lineage
+object:
+  title: Care web
+  type: concept-lineage
+  short_description: >-
+    Distributed network of reciprocal support, access, resource sharing and relationship that avoids
+    a single caregiver dependency.
+  source_traditions:
+    - Disability justice / mutual aid / care cluster
+  toolkit_usage: Useful for designing resilient contributor and community-support systems.
+  original_object_type: Concept / review lens
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row21
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: Disability justice / mutual aid / care cluster | https://sinsinvalid.org/10-principles/
+  notes: >-
+    Why add: Useful for designing resilient contributor and community-support systems.
+    Status/Caution: Care webs still require boundaries, consent, compensation and contingency
+    planning

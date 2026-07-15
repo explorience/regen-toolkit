@@ -1,0 +1,28 @@
+title: Regen Network / Regen Registry
+type: database
+steward: Regen Network / Regen Registry
+return_path: unset — establish via register-source
+url: https://www.registry.regen.network/
+what_it_curates: >-
+  Regen Registry; Registry Handbook and Program Guide; credit protocols and
+  methodologies; project and credit-class records; Regen Ledger; ecocredit
+  module; data module; marketplace; governance and validation/verification
+  processes.
+why_it_matters: >-
+  Ecological asset registry, standards-development environment, technical
+  ledger, and public library connecting methodologies, project registration,
+  monitoring, reporting, verification, credit issuance, ecological data, and
+  market infrastructure.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row5
+  source_lineage: https://www.registry.regen.network/
+caution: >-
+  Registry status, on-chain issuance, data anchoring, attestations,
+  verification, and credit retirement each mean different things. None alone
+  proves ecological outcomes, community legitimacy, additionality, permanence,
+  or equitable benefit sharing. Place-based and Indigenous knowledge requires
+  consent and context.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

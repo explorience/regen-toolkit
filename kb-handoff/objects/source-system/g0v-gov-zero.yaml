@@ -1,0 +1,24 @@
+title: g0v (gov-zero)
+type: repo
+steward: g0v (gov-zero)
+return_path: unset — establish via register-source
+url: https://g0v.tw/intl/en/
+what_it_curates: >-
+  Manifesto; project portfolio; hackathons; newcomer guides; GitHub
+  repositories; civic tools; language and data projects; community
+  documentation.
+why_it_matters: >-
+  Taiwan-based open-collaboration community whose autonomous projects,
+  hackathons, documentation and open-source outputs connect civic problems,
+  citizen participation, public data and digital services.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row12
+  source_lineage: https://g0v.tw/intl/en/
+caution: >-
+  g0v has no single center or representative. Do not attribute every project or
+  public-policy outcome to Audrey Tang, a unified organization, or the whole
+  community.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

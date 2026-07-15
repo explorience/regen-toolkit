@@ -1,0 +1,24 @@
+schema: source-system
+object:
+  title: IARAA — Inteligência Artificial da Reforma Agrária e Agroecologia
+  type: database
+  steward: IARAA — Inteligência Artificial da Reforma Agrária e Agroecologia
+  return_path: unset — establish via register-source
+  url: https://baobab.iapc.group/pt/iaraa/
+  what_it_curates: >-
+    Three user modes; curated agroecology corpus; RAGFlow and custom Meta-RAG retrieval; named language-model
+    dependency; corpus contribution and oral-knowledge systematization; terms and privacy; governance;
+    field testing; maintenance; correction and safety.
+  why_it_matters: >-
+    Live beta knowledge assistant developed through MST, the World March of Women and the International
+    Association for Popular Cooperation (Baobab), intended to support agroecology, popular agrarian reform
+    and technological sovereignty.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row46
+    source_lineage: https://baobab.iapc.group/pt/iaraa/
+  caution: >-
+    Current public evidence confirms a live beta, broad architecture and organizer-stated principles,
+    but not the full corpus inventory, permissions, decision rights, evaluation, incident handling, infrastructure
+    ownership or independent outcomes.

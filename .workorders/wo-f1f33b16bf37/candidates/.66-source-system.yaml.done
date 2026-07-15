@@ -1,0 +1,19 @@
+schema: source-system
+object:
+  title: IWGIA Territorial Governance Programme
+  type: library
+  steward: IWGIA Territorial Governance Programme
+  return_path: unset — establish via register-source
+  url: https://www.iwgia.org/en/
+  what_it_curates: >-
+    Documentation, publications, rights monitoring, territorial-governance support and advocacy
+  why_it_matters: >-
+    Global Indigenous Peoples; country and regional programs
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row67
+    source_lineage: https://www.iwgia.org/en/
+  caution: >-
+    IWGIA is a support and documentation organization, not a substitute for the authority of Indigenous
+    governments and communities | Workflow status: Selected in final bounded source-system expansion

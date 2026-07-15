@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: Algorithmic Justice League (AJL)
+  type: archive
+  steward: Algorithmic Justice League (AJL)
+  return_path: unset — establish via register-source
+  url: https://www.ajl.org/
+  what_it_curates: >-
+    Gender Shades; AI harms resources; Freedom Flyers; Comply to Fly report;
+    harm reporting; research, campaigns, exhibitions and education; founder Joy
+    Buolamwini.
+  why_it_matters: >-
+    Movement-oriented research, advocacy, art and public education organization
+    focused on exposing AI harms and biases, elevating impacted communities and
+    advancing accountable technology.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row19
+    source_lineage: https://www.ajl.org/
+  caution: >-
+    AJL materials are advocacy and research sources, not universal audits of all
+    AI systems. Performance bias is only one form of harm; accuracy improvements
+    do not resolve surveillance, power or legitimacy.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

@@ -1,0 +1,23 @@
+title: Buckminster Fuller Institute
+type: resource
+url: https://www.bfi.org/
+resource_type: organization
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row7
+summary: Fiscal sponsor referenced by OpenCivics for the Network and Fund.
+original_object_type: Fiscal sponsor / partner organization
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row7
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: OpenCivics | https://www.bfi.org/
+notes: >-
+  Why add: Adds a concrete institutional dependency and stewardship
+  relationship. Status/Caution: Fiscal sponsorship is not the same as governance
+  or endorsement of every network activity; confirm scope and current agreement
+  before stronger claims. T4 gap: framework has no dedicated organization entity
+  schema; mapped to resource per ingest instructions.
+work_order: wo-77334ca85eac

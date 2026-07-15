@@ -1,0 +1,20 @@
+title: Meta-Agenda Setting Through Polis
+type: option-entry
+category: governance
+what_it_is: >-
+  Use Polis to let participants help decide which future issue should receive a
+  full deliberative process.
+potential_uses: Participatory agenda setting, community priorities, program planning.
+dependencies: >-
+  Clear eligibility, topic scoping, moderation, transparency, institutional
+  capacity to act on selected issues.
+tradeoffs: >-
+  Popular or well-networked topics may crowd out urgent, marginalized,
+  technical, or legally constrained issues.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row6
+  source_lineage: https://www.vtaiwan.tw/polis
+work_order: wo-e5b7999ca3a5
+source_lineage: option-candidates.csv

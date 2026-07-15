@@ -1,0 +1,25 @@
+schema: source-system
+object:
+  title: Decidim / Metadecidim
+  type: docs-site
+  steward: Decidim / Metadecidim
+  return_path: unset — establish via register-source
+  url: https://decidim.org/
+  what_it_curates: >-
+    Decidim framework; participatory spaces, components and phases; processes, assemblies, initiatives
+    and conferences; proposals, meetings, debates, budgeting, accountability, sortitions and verification;
+    GraphQL API and modular architecture; Metadecidim community, LAB, Decidim.GOV, Association regulation
+    and sustainability processes; Barcelona, Som Energia, Mérida and cooperative implementations.
+  why_it_matters: >-
+    A mature free/libre participatory-democracy platform and technopolitical community that connects software,
+    public institutions, civic organizations, participatory processes, accountability, documentation,
+    and community governance.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row7
+    source_lineage: https://decidim.org/
+  caution: >-
+    Software and activity metrics do not guarantee democratic quality. Each deployment needs review of
+    authority, recruitment, access, facilitation, verification, privacy, implementation, maintenance and
+    affected-party outcomes.

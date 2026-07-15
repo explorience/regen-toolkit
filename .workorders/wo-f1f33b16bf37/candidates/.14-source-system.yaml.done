@@ -1,0 +1,22 @@
+schema: source-system
+object:
+  title: Design Justice Network
+  type: directory
+  steward: Design Justice Network
+  return_path: unset — establish via register-source
+  url: https://designjustice.org/
+  what_it_curates: >-
+    Design Justice Principles; signatories and members; Steering Committee; Working Groups; Local Nodes;
+    membership model; zines; workshops; Care Pod; events and reflections.
+  why_it_matters: >-
+    A living network, principles framework, resource commons and governance practice focused on shifting
+    design power toward people most affected by design decisions.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row15
+    source_lineage: https://designjustice.org/
+  caution: >-
+    Signing principles or joining the network is not certification. Design justice cannot be reduced to
+    a checklist, workshop brand, demographic representation, or consultation after core decisions are
+    fixed.

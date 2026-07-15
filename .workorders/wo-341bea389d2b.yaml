@@ -1,0 +1,48 @@
+id: wo-341bea389d2b
+title: ingest implementation-memory.csv
+type: work-order
+source_path: implementation-memory.csv
+source_hash: 51ba19782fa21eec100f1b42cb5bdf127c41baf4a089ed5cadd3f6d32101fe3f
+source_type: csv-crosswalk
+target_schemas:
+  - resource
+  - source-system
+instructions: >-
+  Deep intake (csv-crosswalk): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: handoff-impl
+produced:
+  - >-
+    kb-handoff/objects/implementation-record/one-public-goods-project-across-funding-reporting-and-analytics-systems.yaml
+  - >-
+    kb-handoff/objects/implementation-record/koi-net-development-and-configurable-delegation.yaml
+  - >-
+    kb-handoff/objects/implementation-record/global-forum-for-ethereum-localism-boulder.yaml
+  - >-
+    kb-handoff/objects/implementation-record/environmental-knowledge-commons-case-applied-to-regen-registry-or-bioregional-data.yaml
+  - >-
+    kb-handoff/objects/implementation-record/polis-moderation-and-statement-governance-record.yaml
+  - >-
+    kb-handoff/objects/implementation-record/distributed-source-system-stewardship-pilot.yaml
+  - >-
+    kb-handoff/objects/implementation-record/p2p-foundation-wiki-stewardship-and-currency-review.yaml
+  - >-
+    kb-handoff/objects/implementation-record/donella-meadows-systems-thinker-cluster.yaml
+  - >-
+    kb-handoff/objects/implementation-record/university-indigenous-data-governance-review.yaml
+  - >-
+    kb-handoff/objects/implementation-record/disability-justice-review-of-one-toolkit-workflow.yaml
+  - >-
+    kb-handoff/objects/implementation-record/care-web-and-maintenance-assignment-pilot.yaml
+  - >-
+    kb-handoff/objects/implementation-record/participatory-data-stewardship-pilot-follow-up.yaml
+  - >-
+    kb-handoff/objects/implementation-record/asian-peasant-seed-sovereignty-exchange-2025.yaml
+  - >-
+    kb-handoff/objects/implementation-record/iaraa-field-user-test-with-farmer-and-educator-review.yaml
+  - >-
+    kb-handoff/objects/implementation-record/sembradoras-de-esperanza-women-led-school-case.yaml

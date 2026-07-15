@@ -1,0 +1,23 @@
+title: ATC Nicaragua
+type: resource
+url: https://cloc-viacampesina.net/
+resource_type: organization
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row29
+summary: >-
+  Rural worker and peasant organization connected to CLOC-LVC and popular
+  education. Geography/context: Nicaragua.
+original_object_type: Organization / worker-peasant movement
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row29
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: ATC Nicaragua | https://cloc-viacampesina.net/
+notes: >-
+  Why add: Selected branch Status/Caution: Current T4 gap: framework has no
+  dedicated organization entity schema; mapped to resource per ingest
+  instructions.
+work_order: wo-77334ca85eac

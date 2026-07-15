@@ -1,0 +1,22 @@
+title: Funding-to-Evidence Pipeline
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Connect project discovery and capital allocation to milestone reporting,
+  analytics, domain evidence, implementation memory and later review.
+potential_uses: >-
+  Funding programs, public-goods portfolios, ecological projects, open-source
+  projects and local initiatives.
+dependencies: >-
+  Shared project identifiers, source lineage, reporting expectations, evidence
+  fields, correction paths and review roles.
+tradeoffs: >-
+  Can create surveillance or reporting burdens, privilege easily measured work,
+  and imply that linked data proves impact.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row2
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-e5b7999ca3a5
+source_lineage: option-candidates.csv

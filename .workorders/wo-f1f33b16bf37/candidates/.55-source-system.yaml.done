@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: ANAMURI Publications and Multimedia Archive
+  type: archive
+  steward: ANAMURI Publications and Multimedia Archive
+  return_path: unset — establish via register-source
+  url: https://anamuri.cl/publicaciones/
+  what_it_curates: >-
+    Publications; books; cartillas; seasonal-worker materials; multimedia; congress archives; youth media;
+    seed-campaign documents.
+  why_it_matters: >-
+    ANAMURI-controlled collection of books, booklets, bulletins, triptychs, radio clips, audiovisual materials,
+    congress records and campaign documents.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row56
+    source_lineage: https://anamuri.cl/publicaciones/
+  caution: >-
+    Public availability does not equal unrestricted reuse or AI-training permission. Older items require
+    date and context labels; archive completeness is unknown.

@@ -1,0 +1,25 @@
+title: Revista Sem Terrinha
+type: resource
+url: https://mst.org.br/revista-sem-terrinha/
+resource_type: publication
+media_form: children’s publication
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row26
+summary: >-
+  Movement publication for children connected to education, culture, rights and
+  Sem Terrinha organizing.
+original_object_type: Children and youth publication
+high_risk: true
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row26
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: MST | https://mst.org.br/revista-sem-terrinha/
+notes: >-
+  Why add: Adds child-centered knowledge production and educational media.
+  Status/Caution: Child-focused content requires age, consent, safeguarding and
+  representation review
+work_order: wo-77334ca85eac

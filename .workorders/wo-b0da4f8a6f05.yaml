@@ -1,0 +1,47 @@
+id: wo-b0da4f8a6f05
+title: ingest claims-cautions.csv
+type: work-order
+source_path: claims-cautions.csv
+source_hash: 51c62076a89aefcc51979d10f6609f13a338014e89bf88c14d0a8ccb72b3cabc
+source_type: csv-crosswalk
+target_schemas:
+  - resource
+  - source-system
+instructions: >-
+  Deep intake (csv-crosswalk): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: handoff-claim
+produced:
+  - >-
+    kb-handoff/objects/claim-evidence/a-project-appearing-across-several-platforms-is-independently-validated.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/dao-metadata-interoperability-establishes-governance-transparency.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/forum-discussion-equals-ratified-governance.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/ostrom-s-natural-resource-design-principles-can-be-directly-applied-to-knowledge-commons.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/open-source-makes-a-civic-platform-publicly-accountable.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/source-system-stewards-should-control-all-records-about-their-systems.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/generative-and-extractive-systems-are-cleanly-separable.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/more-information-always-improves-system-performance.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/high-average-accuracy-means-an-ai-system-is-safe-or-fair.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/accessibility-can-be-completed-before-publication.yaml
+  - kb-handoff/objects/claim-evidence/connectivity-is-inherently-empowering.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/community-centered-alternatives-are-inherently-inclusive.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/shashe-and-amrita-bhoomi-demonstrate-plural-forms-of-movement-owned-agroecology-education.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/producer-or-beneficiary-counts-demonstrate-equitable-livelihood-gains.yaml
+  - >-
+    kb-handoff/objects/claim-evidence/sembradoras-de-esperanza-is-only-a-technical-agriculture-school.yaml

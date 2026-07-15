@@ -1,0 +1,24 @@
+schema: source-system
+object:
+  title: Participedia
+  type: directory
+  steward: Participedia
+  return_path: unset — establish via register-source
+  url: https://participedia.net/
+  what_it_curates: >-
+    Cases; methods; organizations; collections; research clusters; teaching
+    resources; downloadable data.
+  why_it_matters: >-
+    Global crowdsourcing platform and research network documenting cases,
+    methods, organizations and collections related to public participation and
+    democratic innovation.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row9
+    source_lineage: https://participedia.net/
+  caution: >-
+    Crowdsourced content varies in completeness and review depth; coverage
+    reflects contributor, language and funding patterns.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

@@ -1,0 +1,28 @@
+schema: source-system
+object:
+  title: Movimento dos Trabalhadores Rurais Sem Terra (MST)
+  type: directory
+  steward: Movimento dos Trabalhadores Rurais Sem Terra (MST)
+  return_path: unset — establish via register-source
+  url: https://mst.org.br/
+  what_it_curates: >-
+    Movement organization; settlements and camps; sectors and collectives;
+    education system; ENFF; agroecology; cooperatives and agroindustries;
+    health; women, youth and LGBTI+ organizing; publications and media;
+    technological-sovereignty experiments.
+  why_it_matters: >-
+    Mass social movement organized through territorial, state, regional and
+    national structures, linking land struggle, popular agrarian reform,
+    education, agroecology, cooperation, health, culture, communication and
+    internationalism.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row43
+    source_lineage: https://mst.org.br/
+  caution: >-
+    Movement reporting and political claims require contextual and
+    affected-party review. Do not reduce MST to one spokesperson, one sector or
+    one universal model.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

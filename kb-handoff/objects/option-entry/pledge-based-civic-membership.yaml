@@ -1,0 +1,22 @@
+title: Pledge-Based Civic Membership
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Use a public pledge and shared civic responsibility as a cultural entry point
+  before deeper contribution or co-governance.
+potential_uses: >-
+  Values-oriented networks, local chapters, commons participation, contributor
+  onboarding.
+dependencies: >-
+  Accessible language, consent, concrete practices, review and accountability
+  paths, non-coercive exit.
+tradeoffs: >-
+  Symbolic commitment may substitute for enforceable governance or exclude
+  people who share goals but reject the framing.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row4
+  source_lineage: https://www.opencivics.co/network
+work_order: wo-e5b7999ca3a5
+source_lineage: option-candidates.csv

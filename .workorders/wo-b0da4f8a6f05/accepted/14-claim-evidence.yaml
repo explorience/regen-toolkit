@@ -1,0 +1,20 @@
+schema: claim-evidence
+object:
+  title: Producer or beneficiary counts demonstrate equitable livelihood gains
+  type: claim-evidence
+  claim: Producer or beneficiary counts demonstrate equitable livelihood gains
+  caution: >-
+    Counts do not reveal income distribution, prices, debt, gendered control,
+    labor burden or unequal value capture.
+  safe_working_language: >-
+    State the reported count and separately identify what benefit means and how
+    it is distributed.
+  claim_kind: Caution
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Claims and Cautions!row15
+    source_lineage: >-
+      https://mst.org.br/2025/09/24/assentamento-che-guevara-celebra-a-nutrile-primeira-agroindustria-de-leite-do-nordeste/
+  work_order: wo-b0da4f8a6f05
+  source_lineage: claims-cautions.csv

@@ -1,0 +1,14 @@
+schema: option-entry
+object:
+  title: Movement-Generated Concept Dictionary
+  type: option-entry
+  category: knowledge-documentation
+  what_it_is: Develop multilingual, attributed concepts from movements and communities while preserving differences, contested meanings and source contexts.
+  potential_uses: Ontology design, review lenses, translation, AI vocabulary and public learning.
+  dependencies: Community authorship, language resources, version ownership, multiple definitions and refusal of forced equivalence.
+  tradeoffs: A global dictionary can standardize living concepts or privilege groups with greater writing and translation capacity.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row13
+    source_lineage: https://www.globaltapestryofalternatives.org/assembly:groups:wg:dictionary:index

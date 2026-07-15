@@ -1,0 +1,28 @@
+title: Metagov / Governance Research Network
+type: knowledge-garden
+steward: Metagov / Governance Research Network
+return_path: unset — establish via register-source
+url: https://metagov.org/
+what_it_curates: >-
+  Metagov community and seminar; Govbase; PolicyKit; DAOstar and EIP-4824; KOI
+  Pond; Interoperable Deliberative Tools; Polycentricity; D20 Governance;
+  gov/acc; Metagov Journal; OSS Transitions; Groundwork Fellowship; MetagovDAO;
+  Public AI and AI Renaissance.
+why_it_matters: >-
+  A community of research and practice focused on tools, institutions,
+  standards, datasets, experiments, and communities that enable self-governance
+  in the digital age. It bridges governance research, online-community practice,
+  civic and DAO tooling, field memory, and institutional experimentation.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row6
+  source_lineage: https://metagov.org/
+caution: >-
+  Metagov contains projects at different maturity states. A research prototype,
+  seminar, dataset, standard, completed project, paused tool, or speculative
+  governance experiment should not be treated as the same kind of evidence.
+  Community participation and public archives also require privacy, consent,
+  attribution, and status-sensitive interpretation.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

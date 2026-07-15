@@ -1,0 +1,24 @@
+schema: option-entry
+object:
+  title: Classification Power and Positionality Record
+  type: option-entry
+  category: knowledge-documentation
+  what_it_is: >-
+    Attach important categories and taxonomies to their authors, purposes,
+    assumptions, affected groups, exclusions, contestation and revision rights.
+  potential_uses: >-
+    Ontology, tags, review lenses, people records, AI classification and public
+    navigation.
+  dependencies: >-
+    Category steward, source lineage, affected-party review, dispute process and
+    change log.
+  tradeoffs: >-
+    Documentation alone does not redistribute power or eliminate harmful
+    classification.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Option Candidates!row9
+    source_lineage: https://designjustice.mitpress.mit.edu/
+  work_order: wo-e5b7999ca3a5
+  source_lineage: option-candidates.csv

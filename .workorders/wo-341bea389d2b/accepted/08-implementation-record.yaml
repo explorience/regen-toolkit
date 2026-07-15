@@ -1,0 +1,26 @@
+schema: implementation-record
+object:
+  title: Donella Meadows Systems Thinker Cluster
+  type: implementation-record
+  context: >-
+    Developed the fifth thinker cluster around dynamic behavior, indicators,
+    leverage, vision, resilience and systems humility.
+  source_position: ai-assisted-synthesis
+  what_returns_to_commons: >-
+    Fills the strongest shared gap identified in the first four thinker
+    clusters.
+  notes: >-
+    What to capture: objects, sources, collaborator roles, concepts, options,
+    cautions, relationships, implementation cases and unresolved critiques.
+    NOTE: this row describes a concept/thinker-cluster build, not an event where
+    an option/track/deployment was used in practice — weak fit for
+    implementation-record (see workorder feedback).
+  review_needs: Completed cluster; requires bias and coverage review.
+  maturity: raw
+  ai_assisted: true
+  source_lineage: Internal cluster development — 2026-07-10
+  provenance:
+    origin: Canonical_DB.xlsx#Implementation Memory!row9
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

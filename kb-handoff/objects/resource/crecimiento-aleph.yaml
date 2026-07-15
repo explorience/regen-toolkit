@@ -1,0 +1,24 @@
+title: Crecimiento / Aleph
+type: resource
+url: https://www.fundingthecommons.io/builderresidency2025
+resource_type: organization
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row8
+summary: >-
+  Argentina-based Web3 ecosystem and pop-up-city partner for the 2025 Buenos
+  Aires residency.
+original_object_type: Organization / partner
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row8
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: Funding the Commons | https://www.fundingthecommons.io/builderresidency2025
+notes: >-
+  Why add: Place-based partner for RealFi, public-sector connections, and Latin
+  American builder networks. Status/Caution: Organizer description should be
+  cross-checked with partner sources T4 gap: framework has no dedicated
+  organization entity schema; mapped to resource per ingest instructions.
+work_order: wo-77334ca85eac

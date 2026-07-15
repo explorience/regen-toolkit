@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: Giveth
+  type: docs-site
+  steward: Giveth
+  return_path: unset — establish via register-source
+  url: https://docs.giveth.io/
+  what_it_curates: >-
+    Project directory; project updates; verification; GIVeconomy; GIVbacks; GIVpower; GIVstream; matching
+    pools; DeVouch.
+  why_it_matters: >-
+    Public-goods donation platform connecting project discovery, verification, donor rewards, project
+    boosting, quadratic funding, and community trust signals.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row2
+    source_lineage: https://docs.giveth.io/
+  caution: >-
+    Verification and boosting are platform-specific signals, not proof of impact. Distinguish current
+    and deprecated components.

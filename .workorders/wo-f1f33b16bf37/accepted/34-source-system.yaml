@@ -1,0 +1,27 @@
+schema: source-system
+object:
+  title: Global Tapestry of Alternatives
+  type: convening
+  steward: Global Tapestry of Alternatives
+  return_path: unset — establish via register-source
+  url: https://globaltapestryofalternatives.org/
+  what_it_curates: >-
+    Weavers and endorsers; facilitation team; assemblies; working and thematic
+    groups; Weaving Alternatives periodical; reports; collaborative
+    documentation and mapping; declarations; dialogues; multilingual and visual
+    materials.
+  why_it_matters: >-
+    A global process launched in 2019 that connects and nurtures interactions,
+    learning and collaboration among autonomous regional and thematic networks
+    of alternatives without claiming to be their representative center.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row35
+    source_lineage: https://globaltapestryofalternatives.org/
+  caution: >-
+    Do not treat GTA as owner, validator or representative of alternatives.
+    Preserve weaver authority, source language, territorial context,
+    disagreement, security and choices not to be mapped.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

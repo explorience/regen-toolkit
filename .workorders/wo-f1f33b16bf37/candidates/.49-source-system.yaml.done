@@ -1,0 +1,20 @@
+schema: source-system
+object:
+  title: ANAMURI
+  type: directory
+  steward: ANAMURI
+  return_path: unset — establish via register-source
+  url: https://anamuri.cl/
+  what_it_curates: >-
+    Official site, publications, congress materials, school documentation and campaign pages.
+  why_it_matters: >-
+    National women-led rural and Indigenous organization in Chile with congresses, publications, seed
+    work, agroecology education, youth and territorial branches.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row50
+    source_lineage: https://anamuri.cl/
+  caution: >-
+    National representational claims need territorial verification; roles and governance are date-sensitive;
+    official sources do not prove outcomes. | Workflow status: Selected for full deepening

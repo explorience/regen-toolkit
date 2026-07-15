@@ -1,0 +1,22 @@
+schema: source-system
+object:
+  title: Association for Progressive Communications (APC)
+  type: directory
+  steward: Association for Progressive Communications (APC)
+  return_path: unset — establish via register-source
+  url: https://www.apc.org/en
+  what_it_curates: >-
+    Network members and associates; community networks; feminist internet; environmental justice; digital
+    rights; policy advocacy; publications; grants; podcasts; events; governance and people.
+  why_it_matters: >-
+    Membership-based global network connecting digital justice, feminist internet, environmental justice,
+    community networks, access, rights, policy and movement infrastructure, with strong participation
+    across the Global South.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row29
+    source_lineage: https://www.apc.org/en
+  caution: >-
+    APC is a network, not a single representative voice. Distinguish APC-authored positions from member,
+    partner and community perspectives; preserve regional and affected-community authority.

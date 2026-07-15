@@ -1,0 +1,26 @@
+schema: implementation-record
+object:
+  title: Global Forum for Ethereum Localism — Boulder
+  type: implementation-record
+  context: >-
+    A place-based forum and retrospective connecting Ethereum infrastructure
+    to local civic and community practice.
+  source_position: public-forum
+  record_type: event
+  what_returns_to_commons: >-
+    Useful implementation memory for localism, convening, and
+    technology-to-place translation.
+  notes: >-
+    What to capture: conveners, participants, local partners, agenda,
+    sessions, artifacts, follow-up, local benefit, exclusions, and lessons.
+  review_needs: >-
+    Event and retrospective source; do not generalize from participant
+    narrative alone.
+  maturity: raw
+  ai_assisted: true
+  source_lineage: "https://www.opencivics.co/network"
+  provenance:
+    origin: "Canonical_DB.xlsx#Implementation Memory!row4"
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

@@ -1,0 +1,26 @@
+schema: implementation-record
+object:
+  title: University Indigenous Data Governance Review
+  type: implementation-record
+  context: >-
+    Use the GIDA university communiqué to assess one institution's
+    repositories, research workflows or AI/data practices.
+  source_position: third-party-observer
+  record_type: governance
+  high_risk: true
+  what_returns_to_commons: >-
+    Creates an institution-level implementation case beyond individual
+    research ethics.
+  notes: >-
+    What to capture: data holdings, decision authority, open-data defaults,
+    AI use, repatriation, benefit, Indigenous governance roles, correction
+    and accountability.
+  review_needs: "Requires institution and affected Indigenous perspectives."
+  maturity: raw
+  ai_assisted: true
+  source_lineage: "https://www.gida-global.org/gidacommuniques"
+  provenance:
+    origin: "Canonical_DB.xlsx#Implementation Memory!row10"
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

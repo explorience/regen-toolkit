@@ -1,0 +1,27 @@
+schema: implementation-record
+object:
+  title: P2P Foundation Wiki Stewardship and Currency Review
+  type: implementation-record
+  context: >-
+    Examine how the large wiki is currently maintained, corrected, sourced,
+    archived, and used by communities and researchers.
+  source_position: third-party-observer
+  record_type: knowledge-commons
+  what_returns_to_commons: >-
+    Direct comparator for the Toolkit's own maintenance and public-use
+    challenges.
+  notes: >-
+    What to capture: editors; update cadence; page status; source quality;
+    dead links; governance; contribution rights; forks; exports; current
+    usage.
+  review_needs: >-
+    Candidate; current stewardship information should be confirmed with
+    maintainers.
+  maturity: raw
+  ai_assisted: true
+  source_lineage: "https://wiki.p2pfoundation.net/"
+  provenance:
+    origin: "Canonical_DB.xlsx#Implementation Memory!row8"
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

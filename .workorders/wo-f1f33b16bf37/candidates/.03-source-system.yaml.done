@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: Artizen / artizen.fund
+  type: directory
+  steward: Artizen / artizen.fund
+  return_path: unset — establish via register-source
+  url: https://artizen.fund/
+  what_it_curates: >-
+    Projects; Artifacts; sponsorship; curated Funds; Endowment; match multiples; Boosts; Boost Points;
+    ART; interviews and newsletter.
+  why_it_matters: >-
+    Extends public-goods funding into art, science, technology, and culture through creator fundraising,
+    curated Funds, an Endowment, matching, Artifacts, and community Boosts.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row4
+    source_lineage: https://artizen.fund/
+  caution: >-
+    Sales, sponsorship, boosts, rankings, and allocations are funding or attention signals, not proof
+    of quality or public benefit.

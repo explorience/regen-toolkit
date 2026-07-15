@@ -1,0 +1,18 @@
+title: A project appearing across several platforms is independently validated
+type: claim-evidence
+claim: A project appearing across several platforms is independently validated
+caution: >-
+  Repeated visibility across directories, grants, analytics, registries or media
+  can look like corroboration even when sources reuse the same self-reported
+  information.
+safe_working_language: >-
+  Treat cross-platform presence as a relationship signal. Trace original sources
+  and identify genuinely independent evidence.
+claim_kind: Caution
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row2
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-b0da4f8a6f05
+source_lineage: claims-cautions.csv

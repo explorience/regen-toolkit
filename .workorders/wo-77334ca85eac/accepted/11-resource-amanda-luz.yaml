@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Amanda Luz
+  type: resource
+  url: https://www.peoplepowered.org/about/staff-board
+  resource_type: person
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row11
+  summary: >-
+    Program Director working across learning design, communications, public
+    policy, and civil-society-led governance.
+  original_object_type: Person / program lead
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row11
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: People Powered | https://www.peoplepowered.org/about/staff-board
+  notes: >-
+    Why add: Relevant to knowledge translation and program-learning design.
+    Status/Caution: Public professional role; responsibilities can change over
+    time. T4 gap: framework has no dedicated person entity schema; mapped to
+    resource per ingest instructions.
+  work_order: wo-77334ca85eac

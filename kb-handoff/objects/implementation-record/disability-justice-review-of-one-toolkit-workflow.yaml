@@ -1,0 +1,24 @@
+title: Disability-Justice Review of One Toolkit Workflow
+type: implementation-record
+context: >-
+  Apply the ten principles and access-intimacy lens to one contributor or review
+  workflow from invitation through participation, decision and follow-up.
+source_position: affected-community
+record_type: pilot
+high_risk: true
+what_returns_to_commons: >-
+  Turns disability justice into concrete governance and workflow changes rather
+  than a values statement.
+notes: >-
+  What to capture: decision rights, access budget, disclosure requirements,
+  communication formats, compensation, rest, privacy, feedback, conflicts and
+  remediation.
+review_needs: NEXT applied case; disabled-led review required.
+maturity: raw
+ai_assisted: true
+source_lineage: https://sinsinvalid.org/10-principles/
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row11
+  transformation: synthesized
+  authorship: ai-assisted
+work_order: wo-341bea389d2b

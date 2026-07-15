@@ -1,0 +1,21 @@
+schema: concept-lineage
+object:
+  title: Institutional Diversity
+  type: concept-lineage
+  short_description: >-
+    Recognition that communities use diverse combinations of public, private, communal, formal,
+    informal, and hybrid arrangements.
+  source_traditions:
+    - Elinor Ostrom lineage
+  toolkit_usage: Guards against universal mechanism recommendations and supports context-aware option libraries.
+  original_object_type: Concept / review lens
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row13
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: Elinor Ostrom lineage | https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/
+  notes: >-
+    Why add: Guards against universal mechanism recommendations and supports context-aware option
+    libraries. Status/Caution: Diversity alone does not establish legitimacy or effectiveness

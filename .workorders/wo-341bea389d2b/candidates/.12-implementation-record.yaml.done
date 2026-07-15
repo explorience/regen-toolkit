@@ -1,0 +1,25 @@
+schema: implementation-record
+object:
+  title: Participatory Data Stewardship Pilot Follow-Up
+  type: implementation-record
+  context: >-
+    Review one data-stewardship pilot beyond its initial framework or launch
+    stage.
+  source_position: third-party-observer
+  record_type: pilot
+  what_returns_to_commons: >-
+    Tests whether participatory data institutions survive beyond pilots and
+    preserve community power.
+  notes: >-
+    What to capture: legal form, community authority, value model,
+    infrastructure, participation, financing, scaling, exit, disputes and
+    current operation.
+  review_needs: "Candidate; implementation evidence may be incomplete."
+  maturity: raw
+  ai_assisted: true
+  source_lineage: "https://aapti.in/g3-scaling-community-governance-through-data-stewardship-moving-beyond-pilots/"
+  provenance:
+    origin: "Canonical_DB.xlsx#Implementation Memory!row13"
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

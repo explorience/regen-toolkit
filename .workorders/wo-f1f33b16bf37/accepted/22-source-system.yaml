@@ -1,0 +1,28 @@
+schema: source-system
+object:
+  title: Sins Invalid
+  type: directory
+  steward: Sins Invalid
+  return_path: unset — establish via register-source
+  url: https://sinsinvalid.org/
+  what_it_curates: >-
+    10 Principles of Disability Justice; movement resources; access guides;
+    performance and cultural work; climate, language, reproductive,
+    anti-carceral and international solidarity materials.
+  why_it_matters: >-
+    Disabled-led movement and performance project that helped articulate
+    disability justice, centering disabled Black, Indigenous, queer, trans,
+    nonbinary and other people of color and linking access to collective
+    liberation.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row23
+    source_lineage: https://sinsinvalid.org/
+  caution: >-
+    Do not reduce disability justice to accessibility compliance or
+    universal-design checklists. Sins Invalid is a movement source, not a
+    certification body, and its principles require contextual and community-led
+    interpretation.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

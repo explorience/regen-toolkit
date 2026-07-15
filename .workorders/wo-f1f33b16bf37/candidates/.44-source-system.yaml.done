@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: União Nacional das Cooperativas da Reforma Agrária Popular do Brasil (UNICRAB)
+  type: directory
+  steward: União Nacional das Cooperativas da Reforma Agrária Popular do Brasil (UNICRAB)
+  return_path: unset — establish via register-source
+  url: https://mst.org.br/2024/05/03/conheca-a-unicrab/
+  what_it_curates: >-
+    Member cooperatives and associations; annual meetings; productive chains; agroindustries; territorial
+    support; policy engagement; cooperative education; market coordination.
+  why_it_matters: >-
+    National network connecting cooperatives and associations linked to agrarian reform, healthy-food
+    production, agroecology, processing and market coordination.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row45
+    source_lineage: https://mst.org.br/2024/05/03/conheca-a-unicrab/
+  caution: >-
+    Membership and scale figures are organizer-reported and vary by date. Cooperative registration does
+    not by itself establish democratic rules-in-use, equitable labor or livelihood outcomes.

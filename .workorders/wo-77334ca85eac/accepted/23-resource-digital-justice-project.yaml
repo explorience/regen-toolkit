@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: Digital Justice Project
+  type: resource
+  url: https://projects.itforchange.net/digital-justice-project-html/
+  resource_type: initiative
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row22
+  summary: >-
+    Initiative reframing emerging techno-social systems from a Southern feminist
+    and social-justice perspective.
+  original_object_type: Research and advocacy initiative
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row22
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: >-
+    IT for Change / DAWN |
+    https://projects.itforchange.net/digital-justice-project-html/
+  notes: >-
+    Why add: Useful source for political economy, data extractivism and
+    development sovereignty. Status/Caution: Project framing is
+    advocacy-informed and should be cited as such
+  work_order: wo-77334ca85eac

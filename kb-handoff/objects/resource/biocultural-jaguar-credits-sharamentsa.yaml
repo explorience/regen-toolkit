@@ -1,0 +1,28 @@
+title: Biocultural Jaguar Credits — Sharamentsa
+type: resource
+url: https://app.regen.network/project/sharamentsa-pilot
+resource_type: project
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row4
+summary: >-
+  Achuar-led biodiversity stewardship project covering roughly 10,200 hectares
+  in Ecuador and integrating community monitoring, territorial governance,
+  ancestral knowledge, conservation and finance.
+original_object_type: Ecological project
+high_risk: true
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row4
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: >-
+  Regen Network / Regen Registry |
+  https://app.regen.network/project/sharamentsa-pilot
+notes: >-
+  Why add: Concrete biocultural project with community data stream, monitoring
+  plan, registry-agent review and multi-organization partnership structure.
+  Status/Caution: Indigenous knowledge, consent, data rights, benefit sharing
+  and representation require affected-party governance
+work_order: wo-77334ca85eac

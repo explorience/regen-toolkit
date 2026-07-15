@@ -1,0 +1,24 @@
+title: Democracy at Work Institute
+type: library
+steward: Democracy at Work Institute
+return_path: unset — establish via register-source
+url: https://institute.coop/
+what_it_curates: >-
+  Resource Guide; publications; cooperative-growth ecosystems;
+  employee-ownership transitions; state-of-the-sector research; tools; services;
+  developer and worker-owner guidance.
+why_it_matters: >-
+  National U.S. field-building organization created by the U.S. Federation of
+  Worker Cooperatives to support worker-cooperative development, especially in
+  economically and socially marginalized communities.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row22
+  source_lineage: https://institute.coop/
+caution: >-
+  Primarily U.S.-focused. Worker-cooperative resources should be contextualized
+  by jurisdiction, sector, race, gender, immigration status, financing, and
+  actual worker control.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

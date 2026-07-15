@@ -1,0 +1,24 @@
+title: La Vía Campesina
+type: directory
+steward: La Vía Campesina
+return_path: unset — establish via register-source
+url: https://viacampesina.org/en/
+what_it_curates: >-
+  International conferences and declarations; regional member movements;
+  agroecology; food sovereignty; peasant seeds; UNDROP; women, youth and
+  diversity assemblies; training materials; podcasts and publications.
+why_it_matters: >-
+  Connects food sovereignty, peasant agroecology, seeds, land and water,
+  peasants' rights, climate justice, migrant and rural labor, women, youth and
+  territorial knowledge through a transnational movement structure.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row38
+  source_lineage: https://viacampesina.org/en/
+caution: >-
+  Do not treat the international movement as a single homogeneous voice or infer
+  that every member organization endorses every statement. Preserve regional,
+  constituency and local autonomy.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

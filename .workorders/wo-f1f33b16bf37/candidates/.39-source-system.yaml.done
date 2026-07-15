@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: International Planning Committee for Food Sovereignty (IPC)
+  type: directory
+  steward: International Planning Committee for Food Sovereignty (IPC)
+  return_path: unset — establish via register-source
+  url: https://nyeleni.org/en/about-the-nyeleni-forum-2025/
+  what_it_curates: >-
+    Nyéléni preparatory process; regional and constituency consultations; movement coordination; global
+    forums; food-sovereignty policy engagement; liaison with FAO and related bodies.
+  why_it_matters: >-
+    Coordinates small-scale food-producer and civil-society movements around food sovereignty and serves
+    as a liaison with UN food and agriculture institutions.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row40
+    source_lineage: https://nyeleni.org/en/about-the-nyeleni-forum-2025/
+  caution: >-
+    Do not treat IPC as replacing or speaking uniformly for autonomous participating movements. Current
+    structure, representation and decision rights require direct governance review.

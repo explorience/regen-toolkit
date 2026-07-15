@@ -1,0 +1,16 @@
+id: wo-526bae186945
+title: ingest relationship-leads.csv
+type: work-order
+source_path: relationship-leads.csv
+source_hash: 058e8b0a29fd6641fe0b695ccc533848de898054b5055b4f7551e1b762462bb8
+source_type: csv-crosswalk
+target_schemas:
+  - resource
+  - source-system
+instructions: >-
+  Deep intake (csv-crosswalk): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: open

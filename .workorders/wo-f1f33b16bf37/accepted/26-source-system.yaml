@@ -1,0 +1,23 @@
+schema: source-system
+object:
+  title: Laws of Social Reproduction Project
+  type: publication
+  steward: Laws of Social Reproduction Project
+  return_path: unset — establish via register-source
+  url: https://www.lawsofsocialreproduction.net/
+  what_it_curates: >-
+    Lectures; publications; research notes; teaching resources; contemporary
+    feminist analyses of social reproduction.
+  why_it_matters: >-
+    Interdisciplinary project focused on social reproduction, law, labor, care,
+    feminist political economy and collective struggle.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row27
+    source_lineage: https://www.lawsofsocialreproduction.net/
+  caution: >-
+    Academic framing should not replace worker, caregiver, movement or community
+    knowledge; licensing and context vary by artifact.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

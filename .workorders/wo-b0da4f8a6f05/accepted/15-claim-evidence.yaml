@@ -1,0 +1,20 @@
+schema: claim-evidence
+object:
+  title: Sembradoras de Esperanza is only a technical agriculture school
+  type: claim-evidence
+  claim: Sembradoras de Esperanza is only a technical agriculture school
+  caution: >-
+    Movement sources frame it as political, feminist and agroecological
+    formation embedded in food-sovereignty struggles.
+  safe_working_language: >-
+    Describe technical and political-pedagogical dimensions together, while
+    avoiding claims beyond available outcome evidence.
+  claim_kind: Caution
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Claims and Cautions!row16
+    source_lineage: >-
+      https://viacampesina.org/es/chile-instituto-agroecologico-latinoamericano-para-las-mujeres-del-campo-sembradoras-de-luchas-y-esperanza/
+  work_order: wo-b0da4f8a6f05
+  source_lineage: claims-cautions.csv

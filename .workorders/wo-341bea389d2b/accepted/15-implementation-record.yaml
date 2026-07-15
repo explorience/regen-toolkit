@@ -1,0 +1,22 @@
+schema: implementation-record
+object:
+  title: Sembradoras de Esperanza Women-Led School Case
+  type: implementation-record
+  context: Develop a women-led movement-school case from Chile.
+  source_position: community-member
+  high_risk: true
+  what_returns_to_commons: Adds a women-led territorial education case beyond umbrella declarations.
+  notes: >-
+    What to capture: governance, pedagogy, seed and agroecology practice,
+    Indigenous/rural women's authority, care labor, participants, outcomes and
+    continuity.
+  review_needs: Candidate; deepen from ANAMURI-controlled sources.
+  maturity: raw
+  ai_assisted: true
+  source_lineage: >-
+    https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+  provenance:
+    origin: Canonical_DB.xlsx#Implementation Memory!row16
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

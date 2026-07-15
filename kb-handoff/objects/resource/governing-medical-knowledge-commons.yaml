@@ -1,0 +1,26 @@
+title: Governing Medical Knowledge Commons
+type: resource
+url: https://knowledge-commons.net/publications/medical-book/
+resource_type: book
+media_form: book
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row9
+summary: >-
+  2017 collection of fifteen cases involving researchers, medical professionals,
+  patients, data, innovation, and shared medical knowledge.
+original_object_type: Book / case collection
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row9
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: >-
+  Workshop on Governing Knowledge Commons |
+  https://knowledge-commons.net/publications/medical-book/
+notes: >-
+  Why add: Adds health, patient, research-data, and innovation-governance cases.
+  Status/Caution: Medical and patient data require heightened privacy, consent,
+  and affected-party care.
+work_order: wo-77334ca85eac

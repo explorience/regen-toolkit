@@ -1,0 +1,19 @@
+schema: public-use-boundary
+object:
+  title: Boundary — Assentamento Che Guevara — Casserengue
+  tier: public-with-caveat
+  consent_note: >-
+    Names a specific agrarian-reform settlement (exact location trigger).
+    Preserve the settlement/cooperative distinction; do not attach individual
+    household or resident-identifying data without consent.
+  review_type: domain-review-before-public-use
+  notes: >-
+    Covers candidate 29-resource-assentamento-che-guevara-casserengue.yaml (this
+    work order) — high-risk trigger per ingest skill.
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row27
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-77334ca85eac
+  source_lineage: new-objects.csv

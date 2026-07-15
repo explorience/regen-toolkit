@@ -1,0 +1,29 @@
+schema: resource
+object:
+  title: Assentamento Che Guevara — Casserengue
+  type: resource
+  url: >-
+    https://mst.org.br/2023/06/10/mst-na-paraiba-inaugura-seu-primeiro-laticinio-no-assentamento-che-guevara/
+  resource_type: place
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row27
+  summary: >-
+    Agrarian-reform settlement identified as the cooperative’s organizational
+    and agroindustrial base.
+  original_object_type: Settlement / territorial base
+  high_risk: true
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row27
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: >-
+    COOPAC / MST Paraíba |
+    https://mst.org.br/2023/06/10/mst-na-paraiba-inaugura-seu-primeiro-laticinio-no-assentamento-che-guevara/
+  notes: >-
+    Why add: Preserves place and movement context without collapsing settlement
+    and cooperative. Status/Caution: Place-based case; avoid exposing personal
+    or sensitive household data
+  work_order: wo-77334ca85eac

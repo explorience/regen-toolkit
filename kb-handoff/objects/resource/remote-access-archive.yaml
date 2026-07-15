@@ -1,0 +1,26 @@
+title: Remote Access Archive
+type: resource
+url: https://www.criticaldesignlab.com/project/remote-access-archive
+resource_type: archive
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row20
+summary: >-
+  Crowdsourced community archive documenting disabled people’s remote
+  participation, learning, work, sociality and organizing before and during the
+  COVID-19 era.
+original_object_type: Archive / dataset
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row20
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: >-
+  Critical Design Lab |
+  https://www.criticaldesignlab.com/project/remote-access-archive
+notes: >-
+  Why add: Direct model for community archives, accessible metadata, contributor
+  knowledge and remote participation memory. Status/Caution: Community archive;
+  reuse must preserve contributor context and access practices
+work_order: wo-77334ca85eac

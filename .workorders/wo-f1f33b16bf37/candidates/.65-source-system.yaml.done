@@ -1,0 +1,19 @@
+schema: source-system
+object:
+  title: Energy Democracy Project
+  type: library
+  steward: Energy Democracy Project
+  return_path: unset — establish via register-source
+  url: https://energydemocracy.us/
+  what_it_curates: >-
+    Co-created playbooks, policy resources, campaigns and organizer-developed tools
+  why_it_matters: >-
+    United States with transferable movement resources
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row66
+    source_lineage: https://energydemocracy.us/
+  caution: >-
+    US-centered and advocacy-oriented; distinguish proposals and movement strategy from implemented outcomes
+    | Workflow status: Selected in final bounded source-system expansion

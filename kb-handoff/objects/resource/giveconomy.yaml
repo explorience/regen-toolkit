@@ -1,0 +1,22 @@
+title: GIVeconomy
+type: resource
+url: https://docs.giveth.io/giveconomy
+resource_type: platform
+is_source_system_candidate: false
+link_status: unresolved
+original_source: Canonical_DB.xlsx#New Objects!row2
+summary: >-
+  Token-enabled ecosystem connecting staking, donor rewards, project boosting,
+  and participation.
+original_object_type: Program / mechanism
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row2
+  transformation: summarized
+  authorship: ai-assisted
+source_lineage: Giveth | https://docs.giveth.io/giveconomy
+notes: >-
+  Why add: Core Giveth mechanism family. Status/Caution: Source-linked;
+  components change over time
+work_order: wo-77334ca85eac

@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: Certificado Ecológico Boricuá Archive
+  type: archive
+  steward: Certificado Ecológico Boricuá Archive
+  return_path: unset — establish via register-source
+  url: https://organizacionboricua.blogspot.com/p/certificacion-boricua.html
+  what_it_curates: >-
+    Certification principles; farmer and consumer participation; ecological
+    production criteria; local-market orientation; links to training and
+    brigades.
+  why_it_matters: >-
+    Historical documentation of a Puerto Rican participatory ecological
+    certificate developed by farmers and consumers for small farmers selling
+    directly in local markets.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row63
+    source_lineage: https://organizacionboricua.blogspot.com/p/certificacion-boricua.html
+  caution: >-
+    Current operating status, governance, inspection practice, dispute handling
+    and recognition are not established by the archived page. Treat as a
+    historical implementation lead until steward-reviewed.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

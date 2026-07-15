@@ -1,0 +1,23 @@
+schema: source-system
+object:
+  title: Mutual Aid Disaster Relief
+  type: directory
+  steward: Mutual Aid Disaster Relief
+  return_path: unset — establish via register-source
+  url: https://mutualaiddisasterrelief.org/
+  what_it_curates: >-
+    Guiding principles; workshop guides; community relief practice; disaster
+    mutual-aid resources; network relationships.
+  why_it_matters: >-
+    Grassroots disaster-relief network grounded in solidarity, autonomous direct
+    action, horizontal organizing and community-led response.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row26
+    source_lineage: https://mutualaiddisasterrelief.org/
+  caution: >-
+    Mutual aid should not be romanticized as a substitute for public
+    responsibility, durable funding, safety, or accountable institutions.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

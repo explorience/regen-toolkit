@@ -1,0 +1,19 @@
+schema: claim-evidence
+object:
+  title: Source-system stewards should control all records about their systems
+  type: claim-evidence
+  claim: Source-system stewards should control all records about their systems
+  caution: >-
+    Stewards have valuable context but may also have conflicts of interest or
+    prefer favorable framing.
+  safe_working_language: >-
+    Invite steward review and corrections while preserving independent evidence,
+    criticism, and transparent disagreement.
+  claim_kind: Caution
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Claims and Cautions!row7
+    source_lineage: Internal GKC self-review — 2026-07-10
+  work_order: wo-b0da4f8a6f05
+  source_lineage: claims-cautions.csv

@@ -1,0 +1,19 @@
+schema: claim-evidence
+object:
+  title: Forum discussion equals ratified governance
+  type: claim-evidence
+  claim: Forum discussion equals ratified governance
+  caution: >-
+    Forum posts, call notes, and proposals preserve valuable field memory but
+    may remain exploratory or contested.
+  safe_working_language: >-
+    Record authorship, date, proposal status, decision path, and implementation
+    evidence separately.
+  claim_kind: Caution
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Claims and Cautions!row4
+    source_lineage: https://forum.regen.network/
+  work_order: wo-b0da4f8a6f05
+  source_lineage: claims-cautions.csv

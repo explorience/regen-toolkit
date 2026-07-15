@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: IALA-PR
+  type: resource
+  url: https://www.iala-pr.org/conocenos
+  resource_type: organization
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row31
+  summary: >-
+    Institute accompanying agroecological initiatives through participatory action research,
+    resources, training and land-access work.
+  original_object_type: Organization
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row31
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: Puerto Rico | https://www.iala-pr.org/conocenos
+  notes: >-
+    Why add: Adds contemporary infrastructure and land-governance branch. Status/Caution: Do not
+    confuse with CLOC IALA network schools without explicit affiliation evidence T4 gap: framework
+    has no dedicated organization entity schema; mapped to resource per ingest instructions.

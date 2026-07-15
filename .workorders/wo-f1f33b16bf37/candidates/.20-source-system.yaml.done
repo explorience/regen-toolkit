@@ -1,0 +1,22 @@
+schema: source-system
+object:
+  title: The Maintainers
+  type: archive
+  steward: The Maintainers
+  return_path: unset — establish via register-source
+  url: https://themaintainers.org/
+  what_it_curates: >-
+    Research agenda; community framework; fellowships; study guide; essays; conferences; practitioner
+    network; maintenance, repair, and care cases.
+  why_it_matters: >-
+    Global research and practice network and resource archive centered on maintenance, repair, care, infrastructure,
+    and the labor that sustains human-built systems.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row21
+    source_lineage: https://themaintainers.org/
+  caution: >-
+    The site states that grant-funded organizational operations closed while the network and resources
+    continue. Treat it as a current network/archive, not an active staffed institution unless independently
+    confirmed.

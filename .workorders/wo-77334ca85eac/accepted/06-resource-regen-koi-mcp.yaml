@@ -1,0 +1,28 @@
+schema: resource
+object:
+  title: Regen KOI MCP
+  type: resource
+  url: >-
+    https://forum.regen.network/t/regen-koi-mcp-the-knowledge-brain-of-regeneration/561
+  resource_type: tool
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row6
+  summary: >-
+    Model Context Protocol interface exposing a large Regen ecosystem knowledge
+    collection to AI assistants and agent workflows.
+  original_object_type: AI interface / protocol
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row6
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: >-
+    GAIAI / Regen AI |
+    https://forum.regen.network/t/regen-koi-mcp-the-knowledge-brain-of-regeneration/561
+  notes: >-
+    Why add: Direct comparison for Toolkit agent access, source retrieval, and
+    knowledge-query infrastructure. Status/Caution: Document counts and system
+    capabilities are time-sensitive; retrieval does not equal review or truth
+  work_order: wo-77334ca85eac

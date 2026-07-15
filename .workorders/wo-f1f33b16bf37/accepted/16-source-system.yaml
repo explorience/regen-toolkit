@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: Local Contexts
+  type: database
+  steward: Local Contexts
+  return_path: unset — establish via register-source
+  url: https://localcontexts.org/
+  what_it_curates: >-
+    Local Contexts Hub; TK Labels; BC Labels; Notices; Projects; Registry; API;
+    governance documents; community, institution, researcher and
+    integration-partner accounts; training and implementation resources.
+  why_it_matters: >-
+    Indigenous-led digital infrastructure that enables communities to express
+    authority, protocols, permissions and responsibilities for cultural
+    heritage, data, genetic resources and biocultural collections.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row17
+    source_lineage: https://localcontexts.org/
+  caution: >-
+    Labels are community tools and Notices are institution/researcher tools.
+    Applying an icon or notice is not consent, ownership transfer, consultation
+    completion, or proof of ethical practice.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

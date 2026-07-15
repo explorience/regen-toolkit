@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: Voz Campesina / CLOC–Radio Mundo Real media collaboration
+  type: podcast
+  steward: Voz Campesina / CLOC–Radio Mundo Real media collaboration
+  return_path: unset — establish via register-source
+  url: https://cloc-viacampesina.net/category/voz-campesina
+  what_it_curates: >-
+    Audio editions; interviews; congress coverage; women, youth and diversity articulations; regional
+    reporting; communication-school outputs.
+  why_it_matters: >-
+    Long-running audio program jointly produced by CLOC–La Vía Campesina and Radio Mundo Real, connecting
+    movement voices, regional struggles, assemblies and political education.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row49
+    source_lineage: https://cloc-viacampesina.net/category/voz-campesina
+  caution: >-
+    Broadcast visibility does not establish representative authority. Episodes require dated role, language,
+    consent and archival-status review before reuse.

@@ -1,0 +1,27 @@
+schema: resource
+object:
+  title: Articulating Crisis and Creating Radical Alternatives
+  type: resource
+  url: https://globaltapestryofalternatives.org/reports:articulating:index
+  resource_type: report
+  media_form: report
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row23
+  summary: >-
+    Report documenting GTA’s weaving process, experiences, challenges and alternatives
+    relationships.
+  original_object_type: Report / field synthesis
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row23
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: >-
+    Global Tapestry of Alternatives |
+    https://globaltapestryofalternatives.org/reports:articulating:index
+  notes: >-
+    Why add: Strong source for governance, learning and implementation-memory extraction.
+    Status/Caution: Network-authored synthesis; distinguish participant testimony from independent
+    evaluation

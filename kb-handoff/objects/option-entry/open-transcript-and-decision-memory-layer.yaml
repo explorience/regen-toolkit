@@ -1,0 +1,22 @@
+title: Open Transcript and Decision-Memory Layer
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Publish searchable transcripts, meeting context and decision materials so
+  participation and policy processes remain inspectable and reusable.
+potential_uses: >-
+  Implementation memory, governance review, source-system stewardship and public
+  accountability.
+dependencies: >-
+  Consent, redaction, accessible summaries, retention rules, source integrity
+  and correction pathways.
+tradeoffs: >-
+  Radical transparency can chill participation, expose sensitive actors or
+  privilege those able to process large archives.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row8
+  source_lineage: https://sayit.pdis.nat.gov.tw/speaker/audrey-tang-2
+work_order: wo-e5b7999ca3a5
+source_lineage: option-candidates.csv

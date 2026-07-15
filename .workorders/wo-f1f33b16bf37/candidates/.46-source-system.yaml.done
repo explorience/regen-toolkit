@@ -1,0 +1,24 @@
+schema: source-system
+object:
+  title: CLOC–La Vía Campesina
+  type: directory
+  steward: CLOC–La Vía Campesina
+  return_path: unset — establish via register-source
+  url: https://cloc-viacampesina.net/
+  what_it_curates: >-
+    VIII Continental Congress; Caribbean, Central American and South American regions; women, youth and
+    diversity articulations; IALA network; communications schools; Voz Campesina; declarations; campaigns;
+    member organizations.
+  why_it_matters: >-
+    Coordinates peasant, Indigenous, Afro-descendant, fisher, rural-worker and allied organizations across
+    three continental regions while linking food sovereignty, agrarian reform, agroecology, feminism,
+    youth, diversity and anti-imperialist organizing.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row47
+    source_lineage: https://cloc-viacampesina.net/
+  caution: >-
+    Do not treat CLOC as one uniform voice or assume continental declarations represent identical positions,
+    power or implementation across all member organizations. Scale figures are organizer-reported and
+    date-sensitive.

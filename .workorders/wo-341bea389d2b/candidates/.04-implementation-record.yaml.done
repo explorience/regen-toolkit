@@ -1,0 +1,29 @@
+schema: implementation-record
+object:
+  title: Environmental Knowledge Commons Case Applied to Regen Registry or Bioregional Data
+  type: implementation-record
+  context: >-
+    Use the environmental GKC collection to study one ecological data or
+    registry system as both knowledge infrastructure and part of a material
+    environmental governance process.
+  source_position: third-party-observer
+  record_type: knowledge-commons
+  high_risk: true
+  what_returns_to_commons: >-
+    Connects Batch 1C institutional analysis to Batch 1B ecological evidence
+    infrastructure.
+  notes: >-
+    What to capture: scientific and local knowledge; data contributors;
+    methodologies; values; access; IP; verification; affected communities;
+    decision use; material outcomes; exclusions and externalities.
+  review_needs: >-
+    High-context case; do not infer ecological success from information
+    governance.
+  maturity: raw
+  ai_assisted: true
+  source_lineage: "https://knowledge-commons.net/publications/environmental-book/"
+  provenance:
+    origin: "Canonical_DB.xlsx#Implementation Memory!row5"
+    transformation: synthesized
+    authorship: ai-assisted
+  work_order: wo-341bea389d2b

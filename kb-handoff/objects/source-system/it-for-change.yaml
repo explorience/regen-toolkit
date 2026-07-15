@@ -1,0 +1,23 @@
+title: IT for Change
+type: library
+steward: IT for Change
+return_path: unset — establish via register-source
+url: https://itforchange.net/
+what_it_curates: >-
+  Research programmes; Feminist Digital Justice; Digital Justice Project; policy
+  advocacy; training; feminist AI; platform economy and digital-development
+  analysis.
+why_it_matters: >-
+  India-based research and advocacy organization developing Southern feminist
+  and social-justice perspectives on digital transformation, data, AI,
+  platforms, labor, governance and development sovereignty.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row33
+  source_lineage: https://itforchange.net/
+caution: >-
+  Research and advocacy positions are situated and normative; do not treat IT
+  for Change as representing all feminist or Global South perspectives.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

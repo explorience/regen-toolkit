@@ -1,0 +1,22 @@
+schema: source-system
+object:
+  title: International Center for Community Land Trusts
+  type: library
+  steward: International Center for Community Land Trusts
+  return_path: unset — establish via register-source
+  url: https://www.cltweb.org/
+  what_it_curates: >-
+    Curated library, manuals, case studies, histories, publisher and
+    technical-support programs
+  why_it_matters: International; multilingual resources
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row65
+    source_lineage: https://www.cltweb.org/
+  caution: >-
+    Resource center can document models and cases, but local governance,
+    affordability and resident power require case-level evidence | Workflow
+    status: Selected in final bounded source-system expansion
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

@@ -1,0 +1,27 @@
+schema: source-system
+object:
+  title: Agroecología en Puerto Rico Archive
+  type: archive
+  steward: Agroecología en Puerto Rico Archive
+  return_path: unset — establish via register-source
+  url: https://www.agroecologiapr.org/
+  what_it_curates: >-
+    Farm videos; seed-saving demonstrations; farmer stories; markets and links;
+    school agriculture; production and processing practices; project and license
+    pages.
+  why_it_matters: >-
+    Collaborative video and illustration project created by Juan Manuel Pagán
+    Teitelbaum, Mariolga Reyes Cruz and Organización Boricuá, documenting farms,
+    seed saving, markets, school gardens and ecological practices in Puerto
+    Rico.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row61
+    source_lineage: https://www.agroecologiapr.org/
+  caution: >-
+    Archive is historical and selective. Public educational access does not
+    prove current farm status or consent for new AI uses beyond the stated
+    Creative Commons terms.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

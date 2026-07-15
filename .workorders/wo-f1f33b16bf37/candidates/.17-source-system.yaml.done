@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: Data + Feminism Lab / Data Feminism
+  type: library
+  steward: Data + Feminism Lab / Data Feminism
+  return_path: unset — establish via register-source
+  url: https://dataplusfeminism.mit.edu/
+  what_it_curates: >-
+    Data Feminism book and seven principles; Data + Feminism Lab; participatory research; Data Against
+    Feminicide; Audit the Streets; feminist data methods; Data Feminism for AI.
+  why_it_matters: >-
+    Research and practice ecosystem examining data science as power and developing intersectional feminist
+    approaches to data collection, classification, analysis, visualization, labor and community collaboration.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row18
+    source_lineage: https://dataplusfeminism.mit.edu/
+  caution: >-
+    Feminist framing is not a substitute for affected-community authority, Indigenous governance, disability
+    justice, labor rights or domain-specific evidence. Do not treat the seven principles as certification.

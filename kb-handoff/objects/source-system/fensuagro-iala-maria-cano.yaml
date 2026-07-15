@@ -1,0 +1,23 @@
+title: FENSUAGRO / IALA María Cano
+type: directory
+steward: FENSUAGRO / IALA María Cano
+return_path: unset — establish via register-source
+url: >-
+  https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+what_it_curates: >-
+  CLOC reports, school exchanges, union materials, declarations and
+  participatory-action research records.
+why_it_matters: >-
+  Colombian peasant/agricultural-worker federation and affiliated
+  movement-education infrastructure within CLOC-LVC.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row51
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+caution: >-
+  Security-sensitive context; avoid exposing local people or territories;
+  organizer claims need triangulation. | Workflow status: Selected
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

@@ -1,0 +1,24 @@
+title: Escola Nacional Florestan Fernandes (ENFF)
+type: directory
+steward: Escola Nacional Florestan Fernandes (ENFF)
+return_path: unset — establish via register-source
+url: https://mst.org.br/tag/enff/
+what_it_curates: >-
+  Political formation; pedagogy; courses; territorial-development graduate
+  education; movement-university partnerships; international exchanges; culture
+  and memory; supporter networks; maintenance campaigns.
+why_it_matters: >-
+  MST-founded popular-education institution in Guararema, collectively built and
+  maintained to support political, technical and international formation for MST
+  and allied movements.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row44
+  source_lineage: https://mst.org.br/tag/enff/
+caution: >-
+  Public participation and reach counts are organizer-reported. ENFF should not
+  substitute for decentralized territorial education or be treated as
+  representing every movement voice.
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

@@ -1,0 +1,26 @@
+schema: resource
+object:
+  title: Ellie Rennie
+  type: resource
+  url: https://metagov.org/people
+  resource_type: person
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row5
+  summary: >-
+    Research director and contributor associated with Govbase, KOI Pond, D20
+    Governance, MetagovDAO, and digital-governance research.
+  original_object_type: People / steward lead
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row5
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: Metagov / Governance Research Network | https://metagov.org/people
+  notes: >-
+    Why add: Bridge across community research, knowledge infrastructure, and
+    governance experiments. Status/Caution: Verify current roles before public
+    use. T4 gap: framework has no dedicated person entity schema; mapped to
+    resource per ingest instructions.
+  work_order: wo-77334ca85eac

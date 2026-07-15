@@ -1,0 +1,24 @@
+schema: source-system
+object:
+  title: ATC Nicaragua / IALA Ixim Ulew
+  type: directory
+  steward: ATC Nicaragua / IALA Ixim Ulew
+  return_path: unset — establish via register-source
+  url: https://cloc-viacampesina.net/procesos-de-formacion-que-impulsa-la-cloc-lvc
+  what_it_curates: >-
+    CLOC formation materials, ATC communications, school records and regional
+    youth processes.
+  why_it_matters: >-
+    Nicaraguan rural-worker/peasant organization and agroecology school branch
+    within the CLOC IALA network.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row53
+    source_lineage: >-
+      https://cloc-viacampesina.net/procesos-de-formacion-que-impulsa-la-cloc-lvc
+  caution: >-
+    Current governance, political independence, participant outcomes and
+    maintenance require careful multi-source review. | Workflow status: Selected
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

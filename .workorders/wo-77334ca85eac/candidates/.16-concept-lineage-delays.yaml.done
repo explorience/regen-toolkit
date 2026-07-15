@@ -1,0 +1,23 @@
+schema: concept-lineage
+object:
+  title: Delays
+  type: concept-lineage
+  short_description: >-
+    Time lags between action, observation, response and outcome that can create oscillation,
+    overshoot or premature judgment.
+  source_traditions:
+    - Systems thinking
+  toolkit_usage: >-
+    Critical for funding, ecological outcomes, governance reform, platform adoption and knowledge
+    maintenance.
+  original_object_type: Concept / review lens
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row16
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: Systems thinking | https://donellameadows.org/systems-thinking-resources/
+  notes: >-
+    Why add: Critical for funding, ecological outcomes, governance reform, platform adoption and
+    knowledge maintenance. Status/Caution: Delay estimates are uncertain and context dependent

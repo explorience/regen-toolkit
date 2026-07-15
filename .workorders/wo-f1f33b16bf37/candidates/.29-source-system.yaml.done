@@ -1,0 +1,21 @@
+schema: source-system
+object:
+  title: Rhizomatica
+  type: directory
+  steward: Rhizomatica
+  return_path: unset — establish via register-source
+  url: https://www.rhizomatica.org/
+  what_it_curates: >-
+    Community mobile telephony; HERMES HF radio; Techio Comunitario; Indigenous Network Technician training;
+    decentralized telecom and energy systems; policy and regulatory work.
+  why_it_matters: >-
+    Supports communities to build and maintain self-governed communication and energy infrastructure through
+    appropriate technology, regulatory work, training and direct accompaniment.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row30
+    source_lineage: https://www.rhizomatica.org/
+  caution: >-
+    Support organizations must not be represented as owners or representatives of community systems. Technical
+    success does not establish cultural fit, consent, affordability or durable governance.

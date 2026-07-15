@@ -1,0 +1,17 @@
+title: DAO metadata interoperability establishes governance transparency
+type: claim-evidence
+claim: DAO metadata interoperability establishes governance transparency
+caution: >-
+  Shared metadata can improve discovery but may not reveal actual power,
+  informal influence, conflicts, or decision quality.
+safe_working_language: >-
+  DAOstar and EIP-4824 support common metadata and discoverability; they do not
+  certify transparent or legitimate governance.
+claim_kind: Claim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row3
+  source_lineage: https://metagov.org/projects/daostar
+work_order: wo-b0da4f8a6f05
+source_lineage: claims-cautions.csv

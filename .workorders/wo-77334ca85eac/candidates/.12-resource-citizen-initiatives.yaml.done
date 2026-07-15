@@ -1,0 +1,24 @@
+schema: resource
+object:
+  title: Citizen Initiatives
+  type: resource
+  url: https://docs.decidim.org/en/develop/admin/spaces/initiatives.html
+  resource_type: platform-feature
+  is_source_system_candidate: false
+  link_status: unresolved
+  original_source: Canonical_DB.xlsx#New Objects!row12
+  summary: >-
+    Bottom-up spaces participants can create, commonly using signatures to request organizational or
+    public action.
+  original_object_type: Participatory space
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#New Objects!row12
+    transformation: summarized
+    authorship: ai-assisted
+  source_lineage: Decidim / Metadecidim | https://docs.decidim.org/en/develop/admin/spaces/initiatives.html
+  notes: >-
+    Why add: Adds participant-initiated agenda setting. Status/Caution: Thresholds and response
+    obligations vary Edge case: Crosswalk marks "Participatory space" Other/Review (manual); no
+    clean bullet fit — mapped to resource as a platform-mechanism feature.

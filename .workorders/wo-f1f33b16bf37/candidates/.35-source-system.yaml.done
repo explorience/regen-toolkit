@@ -1,0 +1,22 @@
+schema: source-system
+object:
+  title: Vikalp Sangam
+  type: convening
+  steward: Vikalp Sangam
+  return_path: unset — establish via register-source
+  url: https://vikalpsangam.org/
+  what_it_curates: >-
+    Stories and case materials; regional and thematic Sangams; Alternatives Framework; Alternatives Transformation
+    Format; organizations and initiatives; videos and interviews; multilingual publications; statements;
+    annual and national gatherings.
+  why_it_matters: >-
+    An evolving Indian Alternatives Confluence launched in 2014 that documents, convenes and connects
+    movements and organizations exploring ecologically sustainable, socially just and democratic pathways.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row36
+    source_lineage: https://vikalpsangam.org/
+  caution: >-
+    The platform and facilitators should not displace featured communities or movements. Preserve authorship,
+    location, language, source organization, internal disagreement and limits of self-reported cases.

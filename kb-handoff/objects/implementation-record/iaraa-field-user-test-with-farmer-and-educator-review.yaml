@@ -1,0 +1,24 @@
+title: IARAA Field-User Test with Farmer and Educator Review
+type: implementation-record
+context: >-
+  Run a small, paid and accessible test with farmers and movement educators
+  using real questions, cited outputs and correction rights.
+source_position: third-party-observer
+record_type: pilot
+what_returns_to_commons: >-
+  Tests whether the beta serves intended users rather than only demonstrating
+  technical possibility.
+notes: >-
+  What to capture: participant context; language; device/connectivity; queries;
+  usefulness; errors; missing knowledge; disclosure burden; corrections;
+  compensation; governance response.
+review_needs: Design candidate; requires human partnership and budget.
+maturity: raw
+ai_assisted: true
+source_lineage: >-
+  https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row15
+  transformation: synthesized
+  authorship: ai-assisted
+work_order: wo-341bea389d2b

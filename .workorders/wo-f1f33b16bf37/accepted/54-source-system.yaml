@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: Escuela Nacional de Agroecología Sembradoras de Esperanza
+  type: directory
+  steward: Escuela Nacional de Agroecología Sembradoras de Esperanza
+  return_path: unset — establish via register-source
+  url: https://anamuri.cl/
+  what_it_curates: >-
+    School materials; seminars; agroecology and seed encounters; women’s
+    continental schools; health, food and care seminar; exchange with other
+    IALAs.
+  why_it_matters: >-
+    Women-centered political-pedagogical and agroecological formation process in
+    Chile, linking peasant feminism, seed sovereignty, popular education and
+    territorial practice.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row55
+    source_lineage: https://anamuri.cl/
+  caution: >-
+    Public sources describe events and intent more strongly than curriculum
+    governance, participant selection, completion, outcomes, land control,
+    budget or maintenance.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv

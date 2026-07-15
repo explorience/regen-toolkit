@@ -1,0 +1,59 @@
+id: wo-77334ca85eac
+title: ingest new-objects.csv
+type: work-order
+source_path: new-objects.csv
+source_hash: 854ad9607d05f284afb33becd627c9511702bdfb19c2737374e7fe73fcf0e986
+source_type: csv-crosswalk
+target_schemas:
+  - resource
+  - source-system
+instructions: >-
+  Deep intake (csv-crosswalk): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: handoff-new
+produced:
+  - kb-handoff/objects/resource/giveconomy.yaml
+  - kb-handoff/objects/resource/ghg-and-co-benefits-in-watershed-carbon.yaml
+  - kb-handoff/objects/resource/biocultural-jaguar-credits-sharamentsa.yaml
+  - >-
+    kb-handoff/objects/public-use-boundary/boundary-biocultural-jaguar-credits-sharamentsa.yaml
+  - kb-handoff/objects/resource/ellie-rennie.yaml
+  - kb-handoff/objects/resource/regen-koi-mcp.yaml
+  - kb-handoff/objects/resource/buckminster-fuller-institute.yaml
+  - kb-handoff/objects/resource/crecimiento-aleph.yaml
+  - kb-handoff/objects/resource/governing-medical-knowledge-commons.yaml
+  - kb-handoff/objects/resource/transnational-citizens-assemblies.yaml
+  - kb-handoff/objects/resource/amanda-luz.yaml
+  - kb-handoff/objects/resource/citizen-initiatives.yaml
+  - kb-handoff/objects/concept-lineage/institutional-diversity.yaml
+  - kb-handoff/objects/concept-lineage/transvestment.yaml
+  - >-
+    kb-handoff/objects/resource/cross-common-reporting-outcome-standards-schema.yaml
+  - kb-handoff/objects/concept-lineage/delays.yaml
+  - >-
+    kb-handoff/objects/resource/design-justice-network-activities-and-workshop-resources.yaml
+  - kb-handoff/objects/resource/data-against-feminicide.yaml
+  - kb-handoff/objects/public-use-boundary/boundary-data-against-feminicide.yaml
+  - kb-handoff/objects/concept-lineage/maintenance-community-framework.yaml
+  - kb-handoff/objects/resource/remote-access-archive.yaml
+  - kb-handoff/objects/concept-lineage/care-web.yaml
+  - kb-handoff/objects/resource/digital-justice-project.yaml
+  - >-
+    kb-handoff/objects/resource/articulating-crisis-and-creating-radical-alternatives.yaml
+  - >-
+    kb-handoff/objects/resource/nyeleni-declaration-on-food-sovereignty-2007.yaml
+  - kb-handoff/objects/resource/la-via-campesina-tv.yaml
+  - kb-handoff/objects/resource/revista-sem-terrinha.yaml
+  - kb-handoff/objects/public-use-boundary/boundary-revista-sem-terrinha.yaml
+  - kb-handoff/objects/resource/assentamento-che-guevara-casserengue.yaml
+  - >-
+    kb-handoff/objects/public-use-boundary/boundary-assentamento-che-guevara-casserengue.yaml
+  - kb-handoff/objects/resource/articulacion-continental-de-juventudes.yaml
+  - kb-handoff/objects/resource/atc-nicaragua.yaml
+  - >-
+    kb-handoff/objects/resource/2024-iala-participatory-action-research-exchange.yaml
+  - kb-handoff/objects/resource/iala-pr.yaml

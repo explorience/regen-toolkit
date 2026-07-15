@@ -1,0 +1,39 @@
+id: wo-e5b7999ca3a5
+title: ingest option-candidates.csv
+type: work-order
+source_path: option-candidates.csv
+source_hash: d42fa771733842b0c24fab7990b90500d3dc972957cb622a14af6aea2ca21790
+source_type: csv-crosswalk
+target_schemas:
+  - resource
+  - source-system
+instructions: >-
+  Deep intake (csv-crosswalk): one shared thing becomes many entries. Follow
+  skills/ingest — identify the whole, decompose into typed candidate objects,
+  capture source-system return paths, apply high-risk triggers, assign honest K1
+  state (maturity: raw, ai_assisted: true), preserve provenance. Write
+  candidates to .workorders/<id>/candidates/*.yaml as { schema, object }.
+status: accepted
+claimed_by: handoff-opt
+produced:
+  - kb-handoff/objects/option-entry/funding-to-evidence-pipeline.yaml
+  - >-
+    kb-handoff/objects/option-entry/governance-prototyping-through-roleplay-and-games.yaml
+  - kb-handoff/objects/option-entry/pledge-based-civic-membership.yaml
+  - kb-handoff/objects/option-entry/contextual-integrity-privacy-crosswalk.yaml
+  - kb-handoff/objects/option-entry/meta-agenda-setting-through-polis.yaml
+  - kb-handoff/objects/option-entry/cluster-based-duplicate-resolution.yaml
+  - >-
+    kb-handoff/objects/option-entry/open-transcript-and-decision-memory-layer.yaml
+  - >-
+    kb-handoff/objects/option-entry/classification-power-and-positionality-record.yaml
+  - kb-handoff/objects/option-entry/worker-ownership-and-power-review.yaml
+  - kb-handoff/objects/option-entry/multi-format-knowledge-record.yaml
+  - >-
+    kb-handoff/objects/option-entry/southern-digital-justice-comparison-lens.yaml
+  - kb-handoff/objects/option-entry/movement-generated-concept-dictionary.yaml
+  - >-
+    kb-handoff/objects/option-entry/movement-owned-education-source-system-model.yaml
+  - >-
+    kb-handoff/objects/option-entry/product-recognition-vs-commons-outcome-crosswalk.yaml
+  - kb-handoff/objects/option-entry/care-health-food-knowledge-confluence.yaml

@@ -1,0 +1,26 @@
+schema: source-system
+object:
+  title: ANAMURI
+  type: directory
+  steward: ANAMURI
+  return_path: unset — establish via register-source
+  url: https://anamuri.cl/
+  what_it_curates: >-
+    Who we are; board; Indigenous, salaried-worker, producer and youth branches;
+    congresses; seed campaign; ethical tribunal; formation; multimedia; books,
+    booklets and bulletins.
+  why_it_matters: >-
+    Chile-wide autonomous organization of rural and Indigenous women spanning
+    agricultural workers, seasonal workers, producers, herders, artisans,
+    artisanal fishers, cultural workers and regional organizations.
+  maturity: raw
+  ai_assisted: true
+  provenance:
+    origin: Canonical_DB.xlsx#Source-System Cards!row54
+    source_lineage: https://anamuri.cl/
+  caution: >-
+    National scope and public visibility do not establish equal regional,
+    Indigenous, worker, youth or local decision power. Roles and reach are
+    date-sensitive and organizer-reported.
+  work_order: wo-f1f33b16bf37
+  source_lineage: source-system-cards.csv
