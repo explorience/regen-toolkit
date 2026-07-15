@@ -47,7 +47,7 @@ const dyOf = (t, n) => anchorOf(t) === "middle" ? (pos[t].y < CY ? -(rOf(n) + 10
 const totals = graph.nodes.reduce((s, n) => s + n.total, 0);
 const rawTotal = graph.nodes.reduce((s, n) => s + n.raw, 0);
 const reviewedTotal = graph.nodes.reduce((s, n) => s + n.reviewed, 0);
-const hasHandoff = (graph.corpora?.handoff ?? 0) > 0;
+const hasHandoff = graph.corpora.handoff > 0;
 
 const pipeline = [
   ["Sources", hasHandoff
@@ -152,10 +152,10 @@ const pipeline = [
   </main>
 </Page>
 
-<style is:global>
-  :root { --kb-resource:#2E7D3E; --kb-source-system:#3D6BC2; --kb-concept-lineage:#C05A2A; --kb-claim-evidence:#008C7E; --kb-encyclopedia-entry:#B43A6A; --kb-option-entry:#6E7C1B; --kb-public-use-boundary:#7B4FB0; --kb-implementation-record:#9A6E00; --kb-signal:#A23F9C; --kb-track:#8B4513; }
-  [data-theme="dark"] { --kb-resource:#3FA05F; --kb-source-system:#5F85DD; --kb-concept-lineage:#D86C33; --kb-claim-evidence:#2FA89A; --kb-encyclopedia-entry:#D66590; --kb-option-entry:#8A9C2E; --kb-public-use-boundary:#9A73DA; --kb-implementation-record:#B58D22; --kb-signal:#C965C0; --kb-track:#B5713A; }
+<!-- Palette vars, build-injected from TYPE_COLORS (single source of truth). -->
+<style is:global set:html={`:root{${cssVars(0)}}[data-theme="dark"]{${cssVars(1)}}`}></style>
 
+<style is:global>
   .conv { padding: 3rem 0 4rem; }
   .conv-head .kicker { text-transform: uppercase; letter-spacing: .08em; color: var(--moss-soft); font-weight: 600; font-size: .8rem; }
   .conv-head .lede { max-width: 46rem; color: var(--text-soft); font-size: 1.05rem; }
@@ -175,7 +175,7 @@ const pipeline = [
   .conv-node { stroke: var(--paper); stroke-width: 2; }
   .conv-label { fill: var(--text); font-size: 13px; font-weight: 600; }
   .conv-count { fill: var(--ink-faint); font-size: 11px; }
-  .conv-table { border-collapse: collapse; margin: 1rem 0 0; font-size: .92rem; }
+  .conv-table { border-collapse: collapse; margin: 1rem 0 0; font-size: .92rem; display: block; overflow-x: auto; max-width: 100%; }
   .conv-table th, .conv-table td { text-align: left; padding: .35rem .9rem .35rem 0; border-bottom: 1px solid var(--paper-3); }
   .conv-table .chip { display: inline-block; width: .7rem; height: .7rem; border-radius: 3px; margin-right: .5rem; }
   .conv-links li { margin: .35rem 0; }
