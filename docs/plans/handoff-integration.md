@@ -37,8 +37,8 @@ Guide asks for; §35 names `toolkit-framework` + `regen-toolkit-os`. **The frame
 | **T2 — Crosswalk + DoD conformance** | §40 crosswalk + scored 15-item DoD (7✅/8🟡) + gap list | Jul 15 | ✅ done |
 | **T3a — Ingestion slice** | 127 Canonical_DB rows → 146 objects (kb-handoff/) + /handoff page; B5 caught Matty's 4 dup pairs | Jul 15 | ✅ done |
 | **T5 — Fit + the call** | agent-setup pack + call brief + CONVERGENCE-PIPELINE re-anchor | Jul 15 | ✅ done |
-| **T3b — Full Canonical_DB ingestion** | 2,689 curated rows via the machine (Database_Spec Phases 0–10) + Discovery_Pool promotion | after Jul 16 | ⏳ |
-| **T4 — Framework evolution from gaps** | +currentness/confidence/maintenance dims · branch/backlog/decision families · publication-system↔artifact | after Jul 16 | ⏳ |
+| **T3b — Full Canonical_DB ingestion** | 2,689 rows via the machine → kb-handoff + Discovery_Pool promotion. **Sub-plan written**, uses the new T4 schemas. | after Jul 16 | ⏳ ready |
+| **T4 — Framework evolution from gaps** | ✅ core: `relationship-record` · `person`/`organization` · currentness/confidence/maintenance axes · enum gaps (125 tests). Remainder below. | Jul 15 | ✅ core done |
 | **Master narrative** | 6-Part/§0–43 refactor (Luiz's technical §35–42 + Matty's editorial) — **awaits Matty's next review cycle** | after Matty's handoff | ⏳ |
 
 **Jul 16 needs: T1 + T2 + T3a + T5.** Full ingestion (T3b), framework changes (T4), and the master
@@ -73,7 +73,15 @@ refactor are sequenced after.
 private caveat (Matty): nothing from the handoff reaches a public view without the review-promote gate
 (Zone D). All external artifacts + comms draft-and-present.
 
+## T4 remainder (logged; messier / migration-impacting — a later framework pass)
+
+- `public-use-boundary` → `extends: frontmatter` (born-rule + maturity migration on existing PUB objects).
+- `case-study` entry schema (core type exists; add entry schema / `page_type`).
+- Migrate existing bare-ID-array relationships (`related_concepts`/`related_options`/…) → `relationship-record` objects.
+- CLI ergonomics (the 7-item feedback harvest): `list-schemas --ingestible` · `ingest prepare` stamp resolved `source_path` · `classifySource` colon-terminated-prose→transcript misfire · `ingest claim` auto-create `candidates/` dir.
+- Soft-validate `relationship-record.predicate` against `relationships.yaml` vocab · `option-entry.category` default/optionality.
+
 ## Sub-plans
 
 - Jul-16 executable: `docs/plans/handoff-integration/2026-07-15-jul16-implementation.md`
-- T3b full ingestion: (to write after Jul 16)
+- T3b full ingestion: `docs/plans/handoff-integration/2026-07-15-t3b-full-ingestion.md` (written; run after the call + operator go)
