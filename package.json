@@ -12,7 +12,8 @@
     "dev": "astro dev",
     "gen:framework-manifest": "node scripts/gen-framework-manifest.mjs",
     "gen:instance-stats": "node scripts/gen-instance-stats.mjs",
-    "prebuild": "node scripts/gen-framework-manifest.mjs && node scripts/gen-instance-stats.mjs",
+    "generate:kb-viz": "node scripts/generate-kb-viz.mjs",
+    "prebuild": "node scripts/gen-framework-manifest.mjs && node scripts/gen-instance-stats.mjs && node scripts/generate-kb-viz.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "initialize": "node scripts/initialize.mjs",
@@ -22,7 +23,7 @@
     "validate:structure": "node scripts/validate-structure.mjs",
     "compile:knowledge": "node scripts/compile-knowledge.mjs && node scripts/update-knowledge-index.mjs",
     "lint:knowledge": "node scripts/lint-knowledge.mjs",
-    "knowledge": "npm run compile:knowledge && npm run lint:knowledge",
+    "knowledge": "npm run compile:knowledge && npm run lint:knowledge && npm run generate:kb-viz",
     "deploy:pages": "node scripts/deploy-pages.mjs"
   },
   "engines": {

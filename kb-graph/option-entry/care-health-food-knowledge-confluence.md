@@ -1,0 +1,12 @@
+---
+kb_type: option-entry
+maturity: raw
+corpus: handoff
+ai_assisted: true
+---
+
+# Care-Health-Food Knowledge Confluence
+
+Hub: [[kb-hub-option-entry]]
+
+Source: `kb-handoff/objects/option-entry/care-health-food-knowledge-confluence.yaml`
