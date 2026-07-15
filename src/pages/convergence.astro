@@ -1,0 +1,182 @@
+---
+// The Convergence — web rendering of docs/CONVERGENCE.md.
+// Plain page (non-Starlight, Page.astro layout) so it can never break the docs build.
+// All data is build-time: src/data/kb-schema-graph.json (npm run generate:kb-viz).
+// On main, kb-handoff/ doesn't exist → the graph is single-corpus automatically.
+import Page from "../layouts/Page.astro";
+import graph from "../data/kb-schema-graph.json";
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p) => base + String(p).replace(/^\//, "");
+
+// Validated categorical palette (dataviz six-checks vs #F4EEE0 / #10160F, 2026-07-15).
+// Fixed order = TYPE_ORDER in scripts/generate-kb-viz.mjs. Identity is never color-alone:
+// every node is direct-labeled and a table view follows the chart.
+const TYPE_COLORS = {
+  "resource":              ["#2E7D3E", "#3FA05F"],
+  "source-system":         ["#3D6BC2", "#5F85DD"],
+  "concept-lineage":       ["#C05A2A", "#D86C33"],
+  "claim-evidence":        ["#008C7E", "#2FA89A"],
+  "encyclopedia-entry":    ["#B43A6A", "#D66590"],
+  "option-entry":          ["#6E7C1B", "#8A9C2E"],
+  "public-use-boundary":   ["#7B4FB0", "#9A73DA"],
+  "implementation-record": ["#9A6E00", "#B58D22"],
+  "signal":                ["#A23F9C", "#C965C0"],
+  "track":                 ["#8B4513", "#B5713A"],
+};
+const FALLBACK = ["#667080", "#9AA4B5"]; // any type outside the fixed list
+const cvar = (t) => `var(--kb-${t}, ${ (TYPE_COLORS[t] ?? FALLBACK)[0] })`;
+const cssVars = (i) => Object.entries(TYPE_COLORS)
+  .map(([t, pair]) => `--kb-${t}: ${pair[i]};`).join(" ");
+
+// Circular layout, precomputed at build. No client JS, no dependencies.
+const W = 920, H = 600, CX = W / 2, CY = H / 2, R = 215;
+const N = Math.max(1, graph.nodes.length);
+const pos = Object.fromEntries(graph.nodes.map((n, i) => {
+  const a = -Math.PI / 2 + (i * 2 * Math.PI) / N;
+  return [n.type, { x: CX + R * Math.cos(a), y: CY + R * Math.sin(a) }];
+}));
+const rOf = (n) => Math.max(9, Math.min(30, 4 + Math.sqrt(n.total) * 1.7));
+const drawEdges = graph.edges.filter((e) => e.from !== e.to && pos[e.from] && pos[e.to]);
+const maxEdge = Math.max(1, ...drawEdges.map((e) => e.count));
+const labeledEdges = [...drawEdges].sort((a, b) => b.count - a.count).slice(0, 5);
+const anchorOf = (t) => pos[t].x < CX - 12 ? "end" : pos[t].x > CX + 12 ? "start" : "middle";
+const dxOf = (t, n) => anchorOf(t) === "end" ? -(rOf(n) + 8) : anchorOf(t) === "start" ? rOf(n) + 8 : 0;
+const dyOf = (t, n) => anchorOf(t) === "middle" ? (pos[t].y < CY ? -(rOf(n) + 10) : rOf(n) + 20) : 5;
+
+const totals = graph.nodes.reduce((s, n) => s + n.total, 0);
+const rawTotal = graph.nodes.reduce((s, n) => s + n.raw, 0);
+const reviewedTotal = graph.nodes.reduce((s, n) => s + n.reviewed, 0);
+const hasHandoff = (graph.corpora?.handoff ?? 0) > 0;
+
+const pipeline = [
+  ["Sources", hasHandoff
+    ? `Two corpora so far: the toolkit's own ${graph.corpora.articles}-object article corpus, and ${graph.corpora.handoff} objects from Matty's Canonical_DB slice.`
+    : `The toolkit's own content — ${graph.corpora.articles} objects derived from the article corpus.`],
+  ["Ingest", "The machine slices each source into work orders; agents draft typed candidate objects — always raw, always marked AI-assisted, origin attached."],
+  ["Accept gate", "Every candidate is validated against the schemas and the kernel. Duplicates are guarded (B5); sensitive rows get a public-use boundary. Nothing enters unchecked."],
+  ["The human gate", `review-promote: a named human moves objects past raw — honestly, never in bulk. ${rawTotal} raw · ${reviewedTotal} reviewed today.`],
+  ["The commons", "Typed, provenance-tracked, reviewed objects — the shared substrate."],
+  ["The render layer", "The public site (encyclopedia, tracks, journeys, explorers) renders what clears the gate."],
+];
+---
+<Page title="The Convergence — Regen Web3 Toolkit"
+      description="Three independent builds — the spec, the machine, the site — converging into one knowledge-commons loop.">
+  <main class="wrap conv">
+    <header class="conv-head">
+      <p class="kicker">The Convergence</p>
+      <h1>One system, three builds</h1>
+      <p class="lede">
+        A specification (the master doc's Database_Spec), a public knowledge site, and a tested
+        framework were built largely independently — and converge on the same system. The spec is
+        now a running machine; the site becomes the public rendering of a reviewed commons.
+      </p>
+    </header>
+
+    <section class="conv-builds">
+      <div class="build"><h3>The spec</h3><p>Production object model, migration zones (raw→canonical→reviewed→public), 8 status dimensions, preserve→normalize→review→publish.</p></div>
+      <div class="build"><h3>The machine</h3><p>capture → accept gate → review-promote → store. Typed schemas, maturity ladder, idempotent ingestion. 110/110 tests. <a href={withBase("/framework/")}>The framework →</a></p></div>
+      <div class="build"><h3>The site</h3><p>Encyclopedia, learning journeys, knowledge explorers — the render layer for whatever clears the human gate.</p></div>
+    </section>
+
+    <section>
+      <h2>The loop</h2>
+      <ol class="conv-pipeline">
+        {pipeline.map(([name, blurb]) => (
+          <li><strong>{name}</strong><span>{blurb}</span></li>
+        ))}
+      </ol>
+    </section>
+
+    <section>
+      <h2>The commons, by type</h2>
+      <p class="conv-sub">
+        {totals} objects · {graph.nodes.length} types
+        {hasHandoff ? ` · two corpora (articles ${graph.corpora.articles} / handoff ${graph.corpora.handoff})` : ""} ·
+        edges are references observed in the objects themselves — sparse until relationship
+        records land (the T4 gap, named honestly).
+      </p>
+
+      <figure class="conv-map">
+        <svg viewBox={`0 0 ${W} ${H}`} role="img"
+             aria-label={`Schema map: ${graph.nodes.length} object types with review-state counts`}>
+          {drawEdges.map((e) => (
+            <line x1={pos[e.from].x} y1={pos[e.from].y} x2={pos[e.to].x} y2={pos[e.to].y}
+                  class="conv-edge" stroke-width={1 + 2.5 * (e.count / maxEdge)}>
+              <title>{`${e.from} —${e.label}→ ${e.to} (${e.count})`}</title>
+            </line>
+          ))}
+          {labeledEdges.map((e) => (
+            <text x={(pos[e.from].x + pos[e.to].x) / 2} y={(pos[e.from].y + pos[e.to].y) / 2 - 4}
+                  class="conv-edge-label" text-anchor="middle">{e.label}</text>
+          ))}
+          {graph.nodes.map((n) => (
+            <g>
+              <circle cx={pos[n.type].x} cy={pos[n.type].y} r={rOf(n)}
+                      fill={cvar(n.type)} class="conv-node">
+                <title>{`${n.type}: ${n.total} total · ${n.raw} raw · ${n.reviewed} reviewed`}</title>
+              </circle>
+              <text x={pos[n.type].x + dxOf(n.type, n)} y={pos[n.type].y + dyOf(n.type, n)}
+                    text-anchor={anchorOf(n.type)} class="conv-label">{n.type}</text>
+              <text x={pos[n.type].x + dxOf(n.type, n)} y={pos[n.type].y + dyOf(n.type, n) + 14}
+                    text-anchor={anchorOf(n.type)} class="conv-count">{`${n.total} · ${n.raw} raw`}</text>
+            </g>
+          ))}
+        </svg>
+      </figure>
+
+      <table class="conv-table">
+        <thead><tr><th>type</th><th>total</th><th>raw</th><th>reviewed</th><th>articles</th><th>handoff</th></tr></thead>
+        <tbody>
+          {graph.nodes.map((n) => (
+            <tr>
+              <td><span class="chip" style={`background:${cvar(n.type)}`}></span>{n.type}</td>
+              <td>{n.total}</td><td>{n.raw}</td><td>{n.reviewed}</td>
+              <td>{n.byCorpus.articles}</td><td>{n.byCorpus.handoff}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>The evidence</h2>
+      <ul class="conv-links">
+        <li><a href={withBase("/self-ingestion/")}>/self-ingestion</a> — the toolkit's own articles through the machine</li>
+        <li><a href={withBase("/handoff/")}>/handoff</a> — the Canonical_DB prototype slice through the machine</li>
+        <li><a href="https://github.com/explorience/regen-toolkit/blob/regen-toolkit-os/docs/reports/2026-07-15-framework-masterdoc-crosswalk.md">The §40 crosswalk</a> — framework ↔ Database_Spec, family by family</li>
+        <li><a href="https://github.com/explorience/regen-toolkit/blob/regen-toolkit-os/docs/reports/2026-07-15-definition-of-done-conformance.md">Definition-of-Done conformance</a> — 7✅/8🟡, gaps named</li>
+        <li><a href="https://github.com/explorience/regen-toolkit/blob/regen-toolkit-os/docs/CONVERGENCE.md">The full story</a> — docs/CONVERGENCE.md</li>
+      </ul>
+    </section>
+  </main>
+</Page>
+
+<style is:global>
+  :root { --kb-resource:#2E7D3E; --kb-source-system:#3D6BC2; --kb-concept-lineage:#C05A2A; --kb-claim-evidence:#008C7E; --kb-encyclopedia-entry:#B43A6A; --kb-option-entry:#6E7C1B; --kb-public-use-boundary:#7B4FB0; --kb-implementation-record:#9A6E00; --kb-signal:#A23F9C; --kb-track:#8B4513; }
+  [data-theme="dark"] { --kb-resource:#3FA05F; --kb-source-system:#5F85DD; --kb-concept-lineage:#D86C33; --kb-claim-evidence:#2FA89A; --kb-encyclopedia-entry:#D66590; --kb-option-entry:#8A9C2E; --kb-public-use-boundary:#9A73DA; --kb-implementation-record:#B58D22; --kb-signal:#C965C0; --kb-track:#B5713A; }
+
+  .conv { padding: 3rem 0 4rem; }
+  .conv-head .kicker { text-transform: uppercase; letter-spacing: .08em; color: var(--moss-soft); font-weight: 600; font-size: .8rem; }
+  .conv-head .lede { max-width: 46rem; color: var(--text-soft); font-size: 1.05rem; }
+  .conv-builds { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .conv-builds .build { background: var(--bg-soft); border-radius: 10px; padding: 1rem 1.2rem; }
+  .conv-builds h3 { margin: 0 0 .4rem; }
+  .conv-pipeline { list-style: none; margin: 1rem 0; padding: 0; max-width: 46rem; counter-reset: step; }
+  .conv-pipeline li { position: relative; padding: .55rem 0 .55rem 2.4rem; counter-increment: step; }
+  .conv-pipeline li::before { content: counter(step); position: absolute; left: 0; top: .55rem; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--moss); color: var(--paper); font-weight: 600; font-size: .85rem; display: flex; align-items: center; justify-content: center; }
+  .conv-pipeline li:not(:last-child)::after { content: ""; position: absolute; left: .78rem; top: 2.3rem; bottom: -.4rem; width: 2px; background: var(--paper-3); }
+  .conv-pipeline strong { display: block; }
+  .conv-pipeline span { color: var(--text-soft); font-size: .95rem; }
+  .conv-sub { color: var(--text-soft); max-width: 46rem; }
+  .conv-map svg { width: 100%; height: auto; }
+  .conv-edge { stroke: var(--ink-faint); opacity: .45; }
+  .conv-edge-label { fill: var(--ink-faint); font-size: 11px; }
+  .conv-node { stroke: var(--paper); stroke-width: 2; }
+  .conv-label { fill: var(--text); font-size: 13px; font-weight: 600; }
+  .conv-count { fill: var(--ink-faint); font-size: 11px; }
+  .conv-table { border-collapse: collapse; margin: 1rem 0 0; font-size: .92rem; }
+  .conv-table th, .conv-table td { text-align: left; padding: .35rem .9rem .35rem 0; border-bottom: 1px solid var(--paper-3); }
+  .conv-table .chip { display: inline-block; width: .7rem; height: .7rem; border-radius: 3px; margin-right: .5rem; }
+  .conv-links li { margin: .35rem 0; }
+</style>
