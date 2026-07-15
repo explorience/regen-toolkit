@@ -18,9 +18,12 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 - [~] **T1 — intake & orient** — changes map written; iteration registered. ▶
 - [~] **T2 — crosswalk + Definition-of-Done conformance** — §40 crosswalk + 15-item DoD (7✅/8🟡). [`crosswalk`](docs/reports/2026-07-15-framework-masterdoc-crosswalk.md) · [`DoD`](docs/reports/2026-07-15-definition-of-done-conformance.md).
-- [ ] **T3a — real ingestion slice** — Canonical_DB "first prototype corpus" → machine → `/handoff` page (for Jul 16).
-- [ ] **T5 — agent-setup for Matty + call brief** (his ask; free 10:30–11:30 EST Thu).
-- [ ] **After:** T3b full Canonical_DB ingestion (2,689 rows) · T4 framework evolution (currentness/confidence/maintenance dims, branch/decision families) · master 6-Part refactor (awaits Matty's final).
+- [x] **T3a — real ingestion slice** — 127 Canonical_DB rows → 146 objects (kb-handoff/) + [`/handoff`](https://luizfernandosg.github.io/regen-toolkit/handoff/); B5 caught Matty's 4 dup pairs. ✅
+- [x] **T5 — agent-setup for Matty + call brief** — [`onboarding`](docs/onboarding/operate-the-toolkit-agents.md) + [`brief`](docs/briefings/2026-07-16-toolkit-call-brief.md). ✅
+- [x] **T4 core — framework evolution** — `relationship-record` · `person`/`organization` · currentness/confidence/maintenance axes · enum gaps. **125 tests green.** ✅ (remainder logged in master plan)
+- [ ] **T3b — full Canonical_DB ingestion** (2,689 rows) — sub-plan written ([`t3b`](docs/plans/handoff-integration/2026-07-15-t3b-full-ingestion.md)); run after the call + operator go. Uses the new T4 schemas.
+- [ ] **Master 6-Part refactor** — awaits Matty's final handoff.
+- [ ] **Share pack** ([`draft`](docs/comms/drafts/2026-07-15-share-pack.md)) — drafted, awaiting operator send.
 
 ### Framework Validation Pass — self-ingestion + Jul 16 demo _(ACTIVE 2026-07-14)_
 
