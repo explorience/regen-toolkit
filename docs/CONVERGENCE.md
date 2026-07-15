@@ -93,8 +93,9 @@ specification is a running, tested machine. Content work stops being copy-editin
 
 ## 4 · The content pipeline, kickstarted
 
-**839 objects are `raw` and waiting for named human review** (693 from the articles + 146 from the
-handoff slice). The review pass is the standing workflow from here on:
+**839 objects are awaiting review** (693 from the articles + 146 from the handoff slice) — the
+framework's review queue. Most are explicitly `raw`; the rest are unclassified pending a first
+pass. The review pass is the standing workflow from here on:
 
 - **Tool:** `review promote <ref> --maturity <v> --reviewer "<name>"` — guided by the
   [review-promote skill](../packages/toolkit-framework/skills/review-promote/SKILL.md)
@@ -129,6 +130,9 @@ handoff slice). The review pass is the standing workflow from here on:
 
 ---
 
-*Verified today (2026-07-15): 110/110 framework tests · 722 objects indexed in `data/kb/` (693
-review-queued) · 146 in `kb-handoff/`. Every number in this page is re-derivable from the repo —
-`npm test` in `packages/toolkit-framework`, `kb index` for the corpora.*
+*Verified today (2026-07-15): framework tests green · 722 objects indexed in `data/kb/` (693
+review-queued) · 146 in `kb-handoff/` (146 review-queued) → 839 awaiting review. Every number in this
+page is re-derivable from the repo — `npm test` in `packages/toolkit-framework`, and
+`kb index --adapter repo-data` / `--adapter kb-folder --target kb-handoff` for the corpora (their
+`review_queue` fields sum to 839). The `/convergence` schema map's per-type raw/reviewed counts derive
+from `src/data/kb-schema-graph.json` (`npm run generate:kb-viz`).*

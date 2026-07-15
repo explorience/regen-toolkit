@@ -100,6 +100,20 @@ test('buildSchemaGraph counts totals/raw/reviewed/byCorpus, ordered by TYPE_ORDE
   assert.deepEqual(res.byCorpus, { articles: 2, handoff: 0 });
 });
 
+test('buildSchemaGraph does not count maturity-unset objects as raw (they are unspecified)', () => {
+  const objs = [
+    { id: 'a', type: 'resource', corpus: 'articles', data: { maturity: 'raw' } },
+    { id: 'b', type: 'resource', corpus: 'articles', data: {} },            // no maturity field
+    { id: 'c', type: 'resource', corpus: 'articles', data: { maturity: 'candidate' } },
+  ];
+  const { nodes } = buildSchemaGraph(objs);
+  const res = nodes[0];
+  assert.equal(res.total, 3);
+  assert.equal(res.raw, 1);          // only the explicit-raw one
+  assert.equal(res.reviewed, 0);
+  assert.equal(res.unspecified, 1);  // the field-less one is unspecified, NOT raw
+});
+
 test('deriveEdges finds exact-ID references in strings and arrays, aggregated to type level', () => {
   const objs = [
     ...loadArticlesCorpus(fixtureArticlesDir()),

@@ -12,7 +12,7 @@ kb_hub: root
 - [[kb-hub-claim-evidence|claim-evidence]] — 161 (161 raw · 0 reviewed)
 - [[kb-hub-encyclopedia-entry|encyclopedia-entry]] — 116 (116 raw · 0 reviewed)
 - [[kb-hub-option-entry|option-entry]] — 15 (15 raw · 0 reviewed)
-- [[kb-hub-public-use-boundary|public-use-boundary]] — 38 (38 raw · 0 reviewed)
+- [[kb-hub-public-use-boundary|public-use-boundary]] — 38 (4 raw · 0 reviewed)
 - [[kb-hub-implementation-record|implementation-record]] — 15 (15 raw · 0 reviewed)
 - [[kb-hub-signal|signal]] — 33 (33 raw · 0 reviewed)
 - [[kb-hub-track|track]] — 3 (3 raw · 0 reviewed)

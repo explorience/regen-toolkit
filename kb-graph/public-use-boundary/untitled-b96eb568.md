@@ -1,6 +1,6 @@
 ---
 kb_type: public-use-boundary
-maturity: raw
+maturity: unspecified
 corpus: articles
 ai_assisted: true
 ---

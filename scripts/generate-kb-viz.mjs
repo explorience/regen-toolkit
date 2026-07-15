@@ -119,15 +119,20 @@ export function buildSchemaGraph(objects) {
   for (const o of objects) {
     if (!byType.has(o.type)) {
       byType.set(o.type, {
-        type: o.type, total: 0, raw: 0, reviewed: 0,
+        type: o.type, total: 0, raw: 0, reviewed: 0, unspecified: 0,
         byCorpus: { articles: 0, handoff: 0 },
       });
     }
     const n = byType.get(o.type);
     n.total += 1;
-    const m = o.data?.maturity ?? 'raw';
+    // Count maturity honestly: an object with no maturity field is `unspecified`,
+    // NOT raw. (Folding unset into raw over-reported the raw total; the framework's
+    // own by_maturity bucket counts explicit `raw` only.) candidate/deprecated/other
+    // states contribute to `total` but to none of these named buckets.
+    const m = o.data?.maturity;
     if (m === 'raw') n.raw += 1;
-    if (m === 'reviewed') n.reviewed += 1;
+    else if (m === 'reviewed') n.reviewed += 1;
+    else if (m == null) n.unspecified += 1;
     n.byCorpus[o.corpus] += 1;
   }
   const nodes = [...byType.values()].sort((a, b) =>
@@ -156,7 +161,7 @@ export function buildStub(o, idToType, ambiguous = new Set()) {
     : `kb-handoff/objects/${o.type}/${o.id}.yaml`;
   const fm = yaml.dump({
     kb_type: o.type,
-    maturity: o.data?.maturity ?? 'raw',
+    maturity: o.data?.maturity ?? 'unspecified',
     corpus: o.corpus,
     ai_assisted: o.data?.ai_assisted ?? false,
   }, { lineWidth: -1 }).trimEnd();

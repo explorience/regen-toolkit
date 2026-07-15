@@ -4,7 +4,7 @@ kb_hub: public-use-boundary
 
 # public-use-boundary — 38 objects
 
-38 raw · 0 reviewed · articles 34 / handoff 4
+4 raw · 0 reviewed · articles 34 / handoff 4
 
 Up: [[kb-commons]]
 

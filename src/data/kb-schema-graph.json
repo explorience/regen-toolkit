@@ -10,6 +10,7 @@
       "total": 251,
       "raw": 251,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 226,
         "handoff": 25
@@ -20,6 +21,7 @@
       "total": 88,
       "raw": 67,
       "reviewed": 1,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 21,
         "handoff": 67
@@ -30,6 +32,7 @@
       "total": 148,
       "raw": 148,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 143,
         "handoff": 5
@@ -40,6 +43,7 @@
       "total": 161,
       "raw": 161,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 146,
         "handoff": 15
@@ -50,6 +54,7 @@
       "total": 116,
       "raw": 116,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 116,
         "handoff": 0
@@ -60,6 +65,7 @@
       "total": 15,
       "raw": 15,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 0,
         "handoff": 15
@@ -68,8 +74,9 @@
     {
       "type": "public-use-boundary",
       "total": 38,
-      "raw": 38,
+      "raw": 4,
       "reviewed": 0,
+      "unspecified": 34,
       "byCorpus": {
         "articles": 34,
         "handoff": 4
@@ -80,6 +87,7 @@
       "total": 15,
       "raw": 15,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 0,
         "handoff": 15
@@ -90,6 +98,7 @@
       "total": 33,
       "raw": 33,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 33,
         "handoff": 0
@@ -100,6 +109,7 @@
       "total": 3,
       "raw": 3,
       "reviewed": 0,
+      "unspecified": 0,
       "byCorpus": {
         "articles": 3,
         "handoff": 0

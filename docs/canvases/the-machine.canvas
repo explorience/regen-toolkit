@@ -13,7 +13,7 @@
 		{ "id": "m-store", "type": "text", "text": "**Stored as `raw`** → review queue\nnothing skips review; idempotent re-runs", "x": -570, "y": 70, "width": 520, "height": 110 },
 		{ "id": "m-files", "type": "file", "file": "packages/toolkit-framework/docs/GETTING-STARTED.md", "x": -570, "y": 220, "width": 520, "height": 60 },
 		{ "id": "m-skills", "type": "file", "file": "packages/toolkit-framework/skills/review-promote/SKILL.md", "x": -570, "y": 300, "width": 520, "height": 60 },
-		{ "id": "g-review", "type": "text", "text": "**review-promote** — a NAMED human\npromotes honestly, never in bulk.\nAI-assisted flag clears on human review.\n839 raw today (693 articles + 146 handoff)", "x": 130, "y": -420, "width": 440, "height": 180, "color": "3" },
+		{ "id": "g-review", "type": "text", "text": "**review-promote** — a NAMED human\npromotes honestly, never in bulk.\nAI-assisted flag clears on human review.\n839 awaiting review (review queue: 693 articles + 146 handoff)", "x": 130, "y": -420, "width": 440, "height": 180, "color": "3" },
 		{ "id": "g-people", "type": "text", "text": "**Reviewers:** Luiz · Matty (curation lane) ·\nHeenal (editorial lane) · Durgadas (CSIS lens)", "x": 130, "y": -190, "width": 440, "height": 110 },
 		{ "id": "g-boundary", "type": "text", "text": "**Public ≠ commons:** sensitive material\ncannot reach a public view without\na reviewed public-use decision", "x": 130, "y": -50, "width": 440, "height": 130 },
 		{ "id": "c-commons", "type": "text", "text": "**The commons** — typed, provenance-tracked,\nreviewed objects (maturity ladder)", "x": 750, "y": -420, "width": 460, "height": 110 },
