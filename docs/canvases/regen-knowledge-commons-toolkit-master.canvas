@@ -35,7 +35,8 @@
 		{"id":"L7-canvas","type":"file","file":"docs/canvases/layers/07-tracks.canvas","x":-450,"y":1100,"width":300,"height":80,"color":"5"},
 		{"id":"L8-canvas","type":"file","file":"docs/canvases/layers/08-implementation-memory.canvas","x":-100,"y":1100,"width":350,"height":80,"color":"5"},
 		{"id":"L9-canvas","type":"file","file":"docs/canvases/layers/09-evolution.canvas","x":300,"y":1100,"width":300,"height":80,"color":"5"},
-		{"id":"L10-canvas","type":"file","file":"docs/canvases/layers/10-infrastructure.canvas","x":650,"y":1100,"width":350,"height":80,"color":"5"}
+		{"id":"L10-canvas","type":"file","file":"docs/canvases/layers/10-infrastructure.canvas","x":650,"y":1100,"width":350,"height":80,"color":"5"},
+		{"id":"link-the-machine","type":"file","file":"docs/canvases/the-machine.canvas","x":-2400,"y":-1600,"width":480,"height":80,"color":"4"}
 	],
 	"edges":[
 		{"id":"e-seq-1","fromNode":"L1","fromSide":"right","toNode":"L2","toSide":"left","color":"5","label":"→"},
