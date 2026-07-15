@@ -1,0 +1,19 @@
+# Relationship Record — a first-class, per-edge SOURCED ASSERTION (Database_Spec Core
+# Decision #3 / DoD #6). Today relationships live as bare ID arrays on other objects —
+# the "invisible graph fact" pattern: no evidence, no scope, no confidence, no way to
+# review a single edge. This schema promotes one edge to a reviewable KB-content object
+# (extends frontmatter, so it carries maturity/public_use/provenance like everything else).
+id: relationship-record
+version: 0.1.0
+extends: frontmatter
+description: A sourced assertion of a single relationship (subject–predicate–object) — an edge with evidence, scope, and confidence, not just an ID reference.
+required: [subject, predicate, object]
+fields:
+  subject: { type: string }
+  predicate: { type: string }        # SHOULD be a relationships.yaml predicate (open vocab — validated softly, not enforced)
+  object: { type: string }
+  evidence: { type: string }
+  scope: { type: string }            # time/context bound of the assertion
+  confidence: { axis: confidence }
+  direction: { enum: [directed, bidirectional] }
+  source_lineage: { type: string }
