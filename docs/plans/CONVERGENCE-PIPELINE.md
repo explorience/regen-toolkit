@@ -3,6 +3,8 @@
 > **Created:** 2026-06-16 · **Branch:** `regen-toolkit-os` (consolidated) · **Owner:** Luiz (operator)
 > **Origin:** the 2026-06-15 Matty+Luiz session + the 0521/0604 biweeklies. This pipeline operationalizes the two strategic decisions — **(1) split the work into a domain-agnostic framework + the ReFi Web3 Toolkit as its first instance**, and **(2) house it under ReFi Commons** — and the convergence items from the [2026-06-16 integration report](../reports/2026-06-16-gap-fill-and-master-doc-intake-integration-report.md).
 
+> **2026-07-15 re-anchor.** Execution has moved into two consolidated plans: [`framework-validation-pass`](framework-validation-pass.md) (the machine + self-ingestion, P1/P3 done) and [`handoff-integration`](handoff-integration.md) (Matty's July iteration — P2 resource lift → its Canonical_DB ingestion T3). This pipeline stays the **strategic map**; those plans carry the work.
+
 ## The spine (what we're actually building)
 
 The Regen Knowledge Commons Toolkit is becoming a **framework** — a domain-agnostic system for building a regenerative knowledge commons (layers, flows, schemas, agent skills, a journey-based site generator, a contribution/review process) — with **instances** that fill it with domain content:

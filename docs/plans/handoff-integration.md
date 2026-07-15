@@ -36,7 +36,7 @@ Guide asks for; §35 names `toolkit-framework` + `regen-toolkit-os`. **The frame
 | **T1 — Intake & orient** | register iteration · `HANDOFF-CHANGES-2026-07.md` · annexes-redundant note | Jul 15 | ✅ done |
 | **T2 — Crosswalk + DoD conformance** | §40 crosswalk + scored 15-item DoD (7✅/8🟡) + gap list | Jul 15 | ✅ done |
 | **T3a — Ingestion slice** | 127 Canonical_DB rows → 146 objects (kb-handoff/) + /handoff page; B5 caught Matty's 4 dup pairs | Jul 15 | ✅ done |
-| **T5 — Fit + the call** | re-anchor CONVERGENCE-PIPELINE · capital proposal → decision #5 · **agent-setup for Matty** | Jul 15–16 | |
+| **T5 — Fit + the call** | agent-setup pack + call brief + CONVERGENCE-PIPELINE re-anchor | Jul 15 | ✅ done |
 | **T3b — Full Canonical_DB ingestion** | 2,689 curated rows via the machine (Database_Spec Phases 0–10) + Discovery_Pool promotion | after Jul 16 | ⏳ |
 | **T4 — Framework evolution from gaps** | +currentness/confidence/maintenance dims · branch/backlog/decision families · publication-system↔artifact | after Jul 16 | ⏳ |
 | **Master narrative** | 6-Part/§0–43 refactor (Luiz's technical §35–42 + Matty's editorial) — **awaits Matty's next review cycle** | after Matty's handoff | ⏳ |
