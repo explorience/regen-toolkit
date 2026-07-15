@@ -1,0 +1,47 @@
+# Handoff "first prototype corpus" (Guide §8) — a bounded slice of Matty's Canonical_DB
+# run through the framework machine, 2026-07-15. NOT the full 2,689-row migration (that's T3b).
+# Stored to a SEPARATE target (kb-handoff/) so it stays distinct from the 722-object article
+# corpus (Matty's Database_Spec: "do not collapse into one universal table").
+selected: 2026-07-15
+source: docs/RKC_Handoff_July_2026_FINAL_VERIFIED/02_Core/Canonical_DB.xlsx
+target: kb-handoff/            # kb-folder adapter, kept distinct from data/kb/ (articles)
+families:
+  - sheet: Source-System Cards
+    rows: 67                    # all — the anchor family
+    schema: source-system
+    wo: wo-f1f33b16bf37
+  - sheet: New Objects
+    rows: 30                    # even-spaced sample of 878; typed via Matty's Object Type Crosswalk
+    schema: mixed (concept-lineage / resource / claim-evidence / ...)
+    wo: wo-77334ca85eac
+  - sheet: Option Candidates
+    rows: 15                    # sample of 345
+    schema: option-entry
+    wo: wo-e5b7999ca3a5
+  - sheet: Claims and Cautions
+    rows: 15                    # sample of 504
+    schema: claim-evidence
+    wo: wo-b0da4f8a6f05
+  - sheet: Implementation Memory
+    rows: 15                    # sample of 341
+    schema: implementation-record
+    wo: wo-341bea389d2b
+parked:
+  - sheet: Relationship Leads
+    rows: 20                    # staged (.tmp/handoff-slice/families/relationship-leads.csv, wo-526bae186945)
+    reason: >
+      T4 gap — the framework has a predicate vocabulary but no first-class per-edge
+      sourced-assertion record (Database_Spec Core Decision #3). Left staged, not forced
+      into claim-evidence, to demonstrate the gap honestly. First-class relationship
+      record is T4 framework work.
+normalization_config:                  # Matty's own layer, used to guide typing + dedup
+  - .tmp/handoff-slice/_norm/object-type-crosswalk.csv   # 549 rows — type → canonical class
+  - .tmp/handoff-slice/_norm/predicate-map.csv           # 340 rows — raw verb → canonical predicate
+  - .tmp/handoff-slice/_norm/controlled-vocab.csv        # 44 rows
+  - .tmp/handoff-slice/_norm/normalization-flags.csv     # 87 curated duplicate/conflict flags
+merge_pilots_staged:                   # context for the dedup story
+  - GAIAI (6 sheets) · OpenCivics (6 sheets) — Matty's worked merge examples
+prototype_corpus_coverage: >           # Guide §8 checklist
+  67 source systems (incl. publication/blog/knowledge-garden/funding/ecological types) +
+  a sample of New Objects/Options/Claims/Implementation Memory across families. Relationships
+  parked (T4). Notes fields preserve Matty's exact text + canonical/source lineage.
