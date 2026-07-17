@@ -19,12 +19,18 @@
 > Have a look when you get a sec (no rush): the one-pager [CONVERGENCE], your site through the machine [self-ingestion], and Matt's data [handoff].
 >
 > **What I need from you — the unblock (everything else waits on this):**
-> 1. **Accept the Regen Coordination GitHub org invite** (you were added today).
-> 2. **Transfer the toolkit repo** from your account into the Regen Coordination org.
-> 3. **Reconnect the live-website deploy** (Vercel/Netlify) to the transferred repo so prod keeps building.
-> 4. **Open a Netlify dev build on the `regen-toolkit-os` branch** — a live dev instance that stages the dev branch, so we can **review and visualize the (re)processed content** there (side-by-side with the current build, graph view and all) *before* anything gets pushed to prod.
 >
-> Once the repo's in the org and that dev build is live, the whole review pipeline opens up. (Happy to hop on a quick call and set the transfer + dev build up together — the deploy bits can be fiddly.)
+> **(1) Migrate the repo to the Regen Coordination GitHub org**
+> - Accept the Regen Coordination GitHub org invite (you were added today).
+> - Transfer the toolkit repo from your account into the org.
+>
+> **(2) Reconnect the live-website deploy**
+> - Point the Vercel/Netlify **prod** deploy at the transferred repo so `main` keeps building the live site.
+>
+> **(3) Open a Netlify dev build** (on the `regen-toolkit-os` branch)
+> - A live **dev instance** that stages the dev branch — where we **review and visualize the (re)processed content** (side-by-side with the current build, graph view and all) *before* anything goes to prod.
+>
+> Once the repo's in the org and the dev build is live, the whole review pipeline opens up. (Happy to hop on a quick call and set it all up together — the deploy bits can be fiddly.)
 >
 > **What happens after, so you know the plan (and nothing touches your live site without review):**
 > - `regen-toolkit-os` is the **dev/review** branch; `main` stays **prod** (auto-deploys, as now). Nothing hits the live site except by a reviewed PR to `main`.
