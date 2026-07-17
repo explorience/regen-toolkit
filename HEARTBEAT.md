@@ -12,28 +12,54 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 > **2026-06-16 checkpoint.** Gap-fill (260521 + 260604 biweeklies) processed; **new master doc 2026-06-15 working iteration** is canonical (30,847 lines — integration pass, 10-layer core stable; see [`docs/MASTER-DOC-CHANGES-2026-06-15.md`](docs/MASTER-DOC-CHANGES-2026-06-15.md)); **resource DB V3** staged at [`data/resources/`](data/resources/). **Convergence is parked behind an operator checkpoint** (site merge, branch cleanup, framework/instance split, full resource lift) — see ⏸ section below.
 
+### 2026-07-16 biweekly + Matty 1-on-1 — fresh commitments _(NEW 2026-07-16)_
+
+Two meetings the same day: the morning **Matty 1-on-1** (framework build done + **dev→prod pipeline live**: `regen-toolkit-os` = dev, `main` = prod auto-deploys) and the **biweekly**. Through-line: **the engine is built — now feed it.** Notes: [`260716 Toolkit meeting with Matty.md`](packages/operations/meetings/260716%20Toolkit%20meeting%20with%20Matty.md) · [`260716 Regen Web3 Toolkit Planning Call.md`](packages/operations/meetings/260716%20Regen%20Web3%20Toolkit%20Planning%20Call.md). Integration report (shareable): [`docs/reports/2026-07-16-planning-call-integration.md`](docs/reports/2026-07-16-planning-call-integration.md).
+
+**Repo migration is the unblock** — Netlify dev build, GitHub Projects, Rather's Astro fix, and integration-report PRs are all gated on Hina transferring the repo to the Regen Coordination org.
+
+- [ ] **Luiz — share repo-migration details with Hina** — migrate the repo to the **Regen Coordination GitHub org** + open a **Netlify dev build** (visualize processed content for review). Hina accepts the org invite → transfers → reconnects the live-website repo. **★ unblocks most of the below.** — `task-260716-luiz-repo-migration-hina`
+- [ ] **Luiz — set up the staging/dev site** for reviewing framework-processed content **side-by-side vs Hina's current build** (watch the **graph view** for relationship shifts) before any push to prod. — `task-260716-luiz-staging-dev-site`
+- [ ] **Luiz — drive the review→PR→merge checkpoint** — share how the dev build looks + the specific points to check (what changed vs before) → checklist + **named-reviewer sign-off** per page (~2–4 weeks) → PR to `main` → merge (kick-starts the content pipeline). — `task-260716-luiz-review-pr-merge`
+- [ ] **Luiz — verify + test the name-flagging/removal feature** — **hard privacy gate** before the repo/website can go public (individual names must be handled). — `task-260716-luiz-name-flagging-privacy-gate`
+- [ ] **Luiz — improve the Obsidian canvas visualizations + a one-page intro doc** — needed before any public/semi-public sharing. — `task-260716-luiz-canvas-viz-intro-doc`
+- [ ] **Luiz — write the repo-access + agent-onboarding one-pager** (clone the repo · work with agents · basic GitHub collaboration + **tutorial links** for non-technical contributors). *(Several members: "no idea how to collaborate on GitHub.")* — `task-260716-luiz-agent-onboarding-onepager`
+- [ ] **Luiz — open a Geo Protocol scoping doc** (can start blank) — loop in **Rather + Regis**; assess fit with everything. — `task-260716-luiz-geo-protocol-scoping`
+- [ ] **Luiz — set up GitHub Projects** in the Regen Coordination repo post-migration (task/timeline source of truth); confirm AI agents can auto-create/update issues from RegenOS reports; check Hina's mapped issues survive the migration. — `task-260716-luiz-github-projects`
+- [ ] **Luiz — confirm the ~69 source systems** are the right ones (core sources whose whole ecosystem gets branch-ingested); **integrate the ReFi DAO carbon-copy project DB** (not yet pulled cleanly). — `task-260716-luiz-confirm-source-systems`
+- [ ] **Luiz — connect with Ron Teretsky** (built Bread's automated PM tool — likely overlapping) + **schedule the Brad / Bread Co-op call** (parallel initiatives, Block Science integration, a possible Bread knowledge commons). — `task-260716-luiz-ron-teretsky-bread-coop`
+- [ ] **Rather — DM Luiz + fix the broken Astro content collections** (document the v4→v7 foot guns) without disrupting current work, after the transfer; **jam on Geo Protocol**; publish source-scoring sense-making as a possible sub-standard. — `task-260716-rather-astro-fix`
+- [ ] **Durgadas — share the CRAFT evidence/claims layer + Temper** (modular evidentiary ingestion swap-in — the "prove it" counter-posture; ingestion ≠ storage makes the swap clean); **republish + share the four facilitation case studies** + the community-tailored-playbooks framework. — `task-260716-durgadas-craft-temper`
+- [ ] **Trinity — create content to learn-and-teach** (bridge for less-technical contributors as focus shifts to feeding/populating the engine). — `task-260716-trinity-learn-teach-content`
+- [ ] **Team — create Artizen profiles (artizen.fund) + hold boosts** — save for a coordinated **3–4× multiplier** push (~$2,400 pool; $3k → $20k+ potential); **DM Monty** for immediate funding needs. — `task-260716-team-artizen-profiles`
+- [ ] **Monty — toolkit funding strategy at the next Regen Coordination sync** — update the existing project (lean) vs a toolkit-specific one; Artizen timing. — `task-260716-monty-toolkit-funding`
+- [ ] **Luiz — apply to join Metagov** (personal; research direction — ties to the DAOstar/DAO-IP5 standards thread). — `task-260716-luiz-apply-metagov`
+- [ ] **Joint — define what a "shareable initial version" means** (public-sharing definition-of-done) on the group; advance the **Regen Coordination positioning** (integrate into Regen Commons vs separate membership; contribution = structuring a knowledge commons for Bread). — `task-260716-joint-shareable-version-dod`
+
+> **Standards direction confirmed (both meetings):** **DAOstar** (Metagov) baseline + **CSIS** (org analysis/operationalization) + **DAO IP5** (financial accounting; impact-per-dollar). Threads with the CIDS + DAO IP5 standards-stack item under _ReFi Commons + Standards + Funding_ below.
+
 ### Handoff Integration — Matty's Jul 2026 iteration _(ACTIVE 2026-07-15)_
 
 > Master plan: [`docs/plans/handoff-integration.md`](docs/plans/handoff-integration.md) · Changes map: [`docs/HANDOFF-CHANGES-2026-07.md`](docs/HANDOFF-CHANGES-2026-07.md). **Core finding:** Matty's Database_Spec = the framework machine. Source: `docs/RKC_Handoff_July_2026_FINAL_VERIFIED/`.
 
-- [~] **T1 — intake & orient** — changes map written; iteration registered. ▶
-- [~] **T2 — crosswalk + Definition-of-Done conformance** — §40 crosswalk + 15-item DoD (7✅/8🟡). [`crosswalk`](docs/reports/2026-07-15-framework-masterdoc-crosswalk.md) · [`DoD`](docs/reports/2026-07-15-definition-of-done-conformance.md).
-- [x] **T3a — real ingestion slice** — 127 Canonical_DB rows → 146 objects (kb-handoff/) + [`/handoff`](https://luizfernandosg.github.io/regen-toolkit/handoff/); B5 caught Matty's 4 dup pairs. ✅
-- [x] **T5 — agent-setup for Matty + call brief** — [`onboarding`](docs/onboarding/operate-the-toolkit-agents.md) + [`brief`](docs/briefings/2026-07-16-toolkit-call-brief.md). ✅
-- [x] **T4 core — framework evolution** — `relationship-record` · `person`/`organization` · currentness/confidence/maintenance axes · enum gaps. **125 tests green.** ✅ (remainder logged in master plan)
-- [ ] **T3b — full Canonical_DB ingestion** (2,689 rows) — sub-plan written ([`t3b`](docs/plans/handoff-integration/2026-07-15-t3b-full-ingestion.md)); run after the call + operator go. Uses the new T4 schemas.
-- [ ] **Master 6-Part refactor** — awaits Matty's final handoff.
-- [ ] **Share pack** ([`draft`](docs/comms/drafts/2026-07-15-share-pack.md)) — drafted, awaiting operator send.
+- [~] **T1 — intake & orient** — changes map written; iteration registered. ▶ — `task-260715-handoff-t1-intake`
+- [~] **T2 — crosswalk + Definition-of-Done conformance** — §40 crosswalk + 15-item DoD (7✅/8🟡). [`crosswalk`](docs/reports/2026-07-15-framework-masterdoc-crosswalk.md) · [`DoD`](docs/reports/2026-07-15-definition-of-done-conformance.md). — `task-260715-handoff-t2-crosswalk-dod`
+- [x] **T3a — real ingestion slice** — 127 Canonical_DB rows → 146 objects (kb-handoff/) + [`/handoff`](https://luizfernandosg.github.io/regen-toolkit/handoff/); B5 caught Matty's 4 dup pairs. — `task-260715-handoff-t3a-ingestion-slice` ✅
+- [x] **T5 — agent-setup for Matty + call brief** — [`onboarding`](docs/onboarding/operate-the-toolkit-agents.md) + [`brief`](docs/briefings/2026-07-16-toolkit-call-brief.md). — `task-260715-handoff-t5-agent-setup` ✅
+- [x] **T4 core — framework evolution** — `relationship-record` · `person`/`organization` · currentness/confidence/maintenance axes · enum gaps. **125 tests green.** — `task-260715-handoff-t4-framework-evolution` ✅ (remainder logged in master plan)
+- [ ] **T3b — full Canonical_DB ingestion** (2,689 rows) — sub-plan written ([`t3b`](docs/plans/handoff-integration/2026-07-15-t3b-full-ingestion.md)); run after the call + operator go. Uses the new T4 schemas. — `task-260715-handoff-t3b-full-ingestion`
+- [ ] **Master 6-Part refactor** — awaits Matty's final handoff. — `task-260715-handoff-master-refactor`
+- [ ] **Share pack** ([`draft`](docs/comms/drafts/2026-07-15-share-pack.md)) — drafted, awaiting operator send. — `task-260715-handoff-share-pack`
 
 ### Framework Validation Pass — self-ingestion + Jul 16 demo _(ACTIVE 2026-07-14)_
 
 > Master plan: [`docs/plans/framework-validation-pass.md`](docs/plans/framework-validation-pass.md). Demo **Thu Jul 16**. Symmetric to the ReFi DAO `kms-koi-pipeline`. Design + implementation: [`docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md`](docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md) + [`...-2026-07-14-...-implementation.md`](docs/plans/framework-build/2026-07-14-framework-validation-pass-implementation.md).
 
-- [ ] **V0 — consolidate the plan surface** (master plan · 3 stale plans archived · QUEUE/HEARTBEAT reconciled). ▶ in progress.
-- [ ] **V1 — kernel fixes** (framework, TDD, keep 100/100): source-system enum (+`blog`/`publication`) · `held` maturity state · `track.outcome`→array · **B5 silent-overwrite guard** (the ReFi DAO data-loss-at-scale bug). V1.4 gates any real ingest.
-- [ ] **V2 — slice self-ingestion** — ~15–20 articles → real `ingest` pipeline → `data/kb/` (repo-data adapter).
-- [ ] **V3 — three artifacts** — live page + Obsidian canvas + diff report.
-- [ ] **V4 — capital `update-proposal`** (draft-only, to shape with Matty).
+- [ ] **V0 — consolidate the plan surface** (master plan · 3 stale plans archived · QUEUE/HEARTBEAT reconciled). ▶ in progress. — `task-260714-fvp-v0-consolidate`
+- [ ] **V1 — kernel fixes** (framework, TDD, keep 100/100): source-system enum (+`blog`/`publication`) · `held` maturity state · `track.outcome`→array · **B5 silent-overwrite guard** (the ReFi DAO data-loss-at-scale bug). V1.4 gates any real ingest. — `task-260714-fvp-v1-kernel-fixes`
+- [ ] **V2 — slice self-ingestion** — ~15–20 articles → real `ingest` pipeline → `data/kb/` (repo-data adapter). — `task-260714-fvp-v2-self-ingestion`
+- [ ] **V3 — three artifacts** — live page + Obsidian canvas + diff report. — `task-260714-fvp-v3-artifacts`
+- [ ] **V4 — capital `update-proposal`** (draft-only, to shape with Matty). — `task-260714-fvp-v4-capital`
 
 ### org-os KMS shipped + ontology comparison — DONE _(2026-07-05)_
 
@@ -315,6 +341,7 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ## Recently Completed
 
+- [x] 2026-07-16 — **2026-07-16 meetings processed** (Matty 1-on-1 + biweekly planning call): both source notes fixed (frontmatter + processed pointer) + synthesized notes at `packages/operations/meetings/260716 *.md`; `data/meetings.yaml` +2 (`mtg-20260716-regen-web3-toolkit-planning` + `mtg-20260716-toolkit-worksession-matty`); `memory/2026-07-16.md` written; MEMORY.md (Key Decisions +5, History +1); HEARTBEAT new "2026-07-16 biweekly + Matty 1-on-1" section; integration report `docs/reports/2026-07-16-planning-call-integration.md`; parked items routed to `docs/BACKLOG.md`. **Framework build done + dev→prod pipeline live** is the headline. Attribution correction logged (CRAFT/Temper demo = Durgadas, not Rathermercurial per the auto-summary).
 - [x] 2026-06-16 — **Gap-fill + master-doc intake**: 2026-05-21 + 2026-06-04 biweeklies processed (notes + registry, now 10 meetings); **new master doc 2026-06-15 working iteration saved canonical** (30,847 lines; 2026-05-15 archived; raw preserved; `MASTER-DOC-CHANGES-2026-06-15.md` diff); **resource DB V3 staged** (`data/resources/` — xlsx + 28 CSVs / 12,456 rows + manifest). Stale threads resolved (persona-game superseded; journeys tension resolved; v1 site landed). Convergence (site merge, branch cleanup, framework/instance, full resource lift) parked behind operator checkpoint. Integration report: `docs/reports/2026-06-16-gap-fill-and-master-doc-intake-integration-report.md`.
 - [x] 2026-06-16 — **2026-06-15 Matty + Luiz work session processed** (refi-bcn-os `meeting-processor` pipeline): source note frontmatter fixed + processed pointer; synthesized note at `packages/operations/meetings/260615 Toolkit Work Session with Matty.md`; `data/meetings.yaml` +1 (`mtg-20260615-toolkit-worksession-matty`); `memory/2026-06-16.md` written; MEMORY.md (Key Decisions +5, History +1, Active Context + Relationship Map refreshed); HEARTBEAT 4 new sections (RegenOS docs, framework/instance split, infra stack, ReFi Commons/standards); new plan `docs/plans/regen-os-documentation.md` + QUEUE updated; integration report at `docs/reports/2026-06-15-toolkit-worksession-matty-integration-report.md`. Notion phases N/A (sync broken + toolkit doesn't run Notion as primary); operator weekly/monthly distribution offered (not auto-written).
 - [x] 2026-05-15 — **Master doc 2026-05-15 stabilization-draft iteration processed**: new MASTER.md saved canonical (24,776 lines); 2026-05-06 archived; `MASTER-DOC-CHANGES-2026-05-15.md` diff written; integration plan at `docs/plans/master-doc-iteration-may-15-2026.md`; 10 per-layer docs at `docs/layers/`; 10 per-layer Obsidian canvases at `docs/canvases/layers/`; master overview canvas at `docs/canvases/regen-knowledge-commons-toolkit-master.canvas`; LAYERS.md rewritten against 10-layer model; MEMORY.md + HEARTBEAT.md + QUEUE.md refreshed; `memory/2026-05-15.md` written.
@@ -331,4 +358,4 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ---
 
-_Last updated: 2026-07-04 (framework 0.2.0 "machine" shipped + site pages updated + pushed)_
+_Last updated: 2026-07-16 (2026-07-16 biweekly + Matty 1-on-1 processed — framework build done + dev→prod pipeline live; repo migration is the unblock)_
