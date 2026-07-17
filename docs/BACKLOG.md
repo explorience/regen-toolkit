@@ -29,6 +29,21 @@ For routing, see the **§16 routing table** (master doc lines 24604–24622).
 
 ---
 
+## New items — 2026-07-16 biweekly + Matty 1-on-1
+
+Parked/exploratory items from the 2026-07-16 meetings. Active commitments live in [`HEARTBEAT.md`](../HEARTBEAT.md); these are the not-yet-active or unowned threads. Notes: `packages/operations/meetings/260716 *.md`.
+
+- **Local-node package concept** — `future-seed` → route to Deployment / Infra. A pre-configured system letting a local-node operator run their own knowledge base + a simple hostable website (documentation structure + embedded project system + dev-website workflow). Raised by Luiz; capacity-limited; demand unproven.
+- **Hermes opt-in ingestion model** — `needs-implementation-test` → route to Infra / Federation. Telegram groups **opt in** to pipe shared links through the ingestion pipeline → review → process. **Privacy constraint (high-risk):** no scraping bots; manual curation is the acceptable line. Pairs with the Hermes agent already live on the BCN Telegram.
+- **Bonfire as an alternative/complement to Hermes** — `needs-review` → route to Infra. Evaluate Bonfire for the opt-in-ingestion use case (vs the OpenCivics "Harmonica" demo, seen as less useful here). Threads with Koi's Bonfires substrate.
+- **Ron Teretsky overlap** — `needs-owner` (Luiz to open) → route to Federation / Partnerships. Built an automated project manager (Bread's PM tool); likely overlapping work; intro/direct conversation suggested. *(Also in HEARTBEAT as an active reach-out.)*
+- **GeoBrowser deep-dive** — `needs-review` → route to Infra Stack. One promising option identified; needs further review + fit assessment. Standing item from 2026-06-15; now paired with the Geo Protocol scoping doc.
+- **`communityrule.info`** — `future-seed` → route to Resources / Deployment. Nathan Schneider's tool for organizational constitutions ("set up a garden" → constitution); candidate resource to ingest.
+- **Exit-to-community playbook** (Blockchain Governance / Nathan Schneider — OpenCivics / BreadCoop) — `needs-source` → route to Resources. Flagged as a key upcoming resource being released ~this week; capture the link + ingest once out.
+- **ReFi DAO carbon-copy project DB integration** — `needs-implementation-test` → route to Source Systems. Not yet pulled cleanly; important source; part of the iterative feed-the-engine process.
+
+---
+
 ## Items from master doc §16.2 "Current known gaps"
 
 Master doc enumerates these explicitly. Treat as the team's known list, with overlay-side annotations.

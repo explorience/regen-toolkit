@@ -45,16 +45,58 @@
             "id": "a36e40ec9c51391c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "a22ed9262db34cd4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.13.1"
+                "file": "docs/canvases/self-ingestion-diff.canvas",
+                "viewState": {
+                  "x": -58.008811390246905,
+                  "y": 115.06054285425363,
+                  "zoom": -1.7783611478433377
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.1"
+              "icon": "lucide-layout-dashboard",
+              "title": "self-ingestion-diff"
+            }
+          },
+          {
+            "id": "1f0d98cf7320b641",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "docs/canvases/the-machine.canvas",
+                "viewState": {
+                  "x": 529.7186249455816,
+                  "y": -32.95612483159405,
+                  "zoom": -0.2618827916517719
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "the-machine"
+            }
+          },
+          {
+            "id": "f01a9f5b53030ad3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -113,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.453125
+    "width": 284.5390625
   },
   "right": {
     "id": "8301fea6af17681d",
@@ -218,8 +260,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "a36e40ec9c51391c",
+  "active": "1f0d98cf7320b641",
   "lastOpenFiles": [
+    "docs/reports/2026-07-16-planning-call-integration.md",
+    "memory/2026-07-16.md",
+    "packages/operations/meetings/260716 Regen Web3 Toolkit Planning Call.md",
+    "packages/operations/meetings/260716 Toolkit meeting with Matty.md",
+    "docs/canvases/layers/06-deployment.canvas",
+    "docs/CSIS.md",
+    "docs/canvases/the-machine.canvas",
+    "docs/canvases/layers/09-evolution.canvas",
+    "kb-graph/hubs/kb-hub-resource.md",
+    "kb-graph/resource/amanda-luz.md",
+    "docs/canvases/self-ingestion-diff.canvas",
+    "docs/plans/publish-pipeline/2026-07-16-design.md",
+    "docs/plans/publish-pipeline",
+    "docs/reports/2026-07-15-convergence-visibility-report.md",
+    "docs/plans/repo-consolidation.md",
+    "dist/_astro/framework@_@astro.D184efcN.css",
     "dist/sitemap-index.xml",
     "dist/sitemap-0.xml",
     "dist/pagefind/index/en_fe2e4c7.pf_index",
@@ -228,39 +286,28 @@
     "dist/pagefind/index/en_d8cd724.pf_index",
     "dist/pagefind/index/en_d538b6b.pf_index",
     "dist/pagefind/index/en_c67666e.pf_index",
-    "dist/pagefind/index/en_c4d57f6.pf_index",
-    "dist/pagefind/index/en_b735dff.pf_index",
-    "dist/pagefind/index/en_31b9587.pf_index",
     "dist/logos/superbenefit.png",
     "dist/logos/refidao.svg",
     "dist/logos/ics.png",
     "dist/logos/greenpill.svg",
     "dist/favicon.svg",
-    "docs/reports/2026-07-02-toolkit-framework-share-pack.md",
-    "packages/toolkit-framework/docs/WORKED-EXAMPLE.md",
-    "packages/toolkit-framework/docs/GETTING-STARTED.md",
-    "packages/toolkit-framework/docs/README.md",
-    "framework/GAPS.md",
-    "packages/toolkit-framework/templates/instance/README.md",
-    "packages/toolkit-framework/templates/instance/glossary.md",
-    "packages/toolkit-framework/templates/instance/social-signal-scan.md",
-    "packages/toolkit-framework/templates/instance/implementation-memory.md",
-    "packages/toolkit-framework/templates/instance/deployment.md",
-    "packages/toolkit-framework/templates/instance/option-entry.md",
-    "packages/toolkit-framework/templates/instance/deep-intake.md",
-    "packages/toolkit-framework/templates/instance/resource-registry-entry.md",
-    "packages/toolkit-framework/templates/instance/source-system-card.md",
-    "packages/toolkit-framework/docs/GLOSSARY.md",
-    "packages/toolkit-framework/examples/README.md",
-    "docs/reports/2026-06-23-master-doc-proposals.md",
-    "docs/plans/2026-06-23-framework-beta-kb-gaps.md",
-    "docs/plans/SESSION-HANDOFF.md",
-    "memory/2026-06-17.md",
-    "framework/PLACEMENT.md",
-    "docs/plans/deploy-refi-bcn-network.md",
-    "docs/plans/deploy-refi-dao-instance.md",
-    "docs/plans/contribution-governance-impact-vault.md",
-    "docs/plans/hub-post-public-invitation.md",
+    "kb-graph/encyclopedia-entry/source-systems-knowledge-that-outlives-turnover.md",
+    "kb-graph/track/local-node-gathering-cadence.md",
+    "kb-graph/track/first-90-days-local-node-playbook.md",
+    "kb-graph/track/building-a-minimum-viable-node-8-week-mvn-roadmap.md",
+    "kb-graph/source-system/zimsoff-shashe-agroecology-school.md",
+    "kb-graph/source-system/zenzeleni-community-networks.md",
+    "kb-graph/source-system/workshop-on-governing-knowledge-commons.md",
+    "kb-graph/source-system/voz-campesina-cloc-radio-mundo-real-media-collaboration.md",
+    "kb-graph/source-system/vikalp-sangam.md",
+    "kb-graph/source-system/uniao-nacional-das-cooperativas-da-reforma-agraria-popular-do-brasil-unicrab.md",
+    "kb-graph/source-system/the-maintainers.md",
+    "kb-graph/source-system/treekipedia.md",
+    "kb-graph/source-system/the-commoner-care-work-and-the-commons-archive.md",
+    "kb-graph/source-system/superbenefit-knowledge-garden.md",
+    "kb-graph/source-system/superbenefit-knowledge-garden-752eeb3d.md",
+    "kb-graph/source-system/superbenefit-knowledge-garden-39b234ba.md",
+    "docs/canvases/regen-toolkit-architecture.canvas",
     "public/logos/superbenefit.png",
     "public/logos/refidao.svg",
     "public/logos/ics.png",
@@ -270,10 +317,6 @@
     "docs/canvases/layers/04-concept-ecology.canvas",
     "docs/canvases/layers/03-resource-graph.canvas",
     "docs/canvases/layers/02-encyclopedia.canvas",
-    "docs/canvases/layers/01-ontology.canvas",
-    "docs/canvases/regen-toolkit-architecture.canvas",
-    "docs/canvases/regen-toolkit-master.canvas",
-    "docs/canvases/layers/07-tracks.canvas",
-    "docs/canvases/layers/06-deployment.canvas"
+    "docs/canvases/layers/01-ontology.canvas"
   ]
 }

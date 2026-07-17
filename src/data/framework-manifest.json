@@ -1,7 +1,7 @@
 {
   "name": "@regen-commons/toolkit-framework",
   "version": "0.2.0",
-  "schemaCount": 22,
+  "schemaCount": 25,
   "schemas": [
     "claim-evidence",
     "concept-lineage",
@@ -15,8 +15,11 @@
     "implementation-record",
     "kernel-profile",
     "option-entry",
+    "organization",
+    "person",
     "provenance",
     "public-use-boundary",
+    "relationship-record",
     "relationships",
     "resource",
     "review-maturity",
