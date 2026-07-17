@@ -18,16 +18,17 @@
 >
 > Have a look when you get a sec (no rush): the one-pager [CONVERGENCE], your site through the machine [self-ingestion], and Matt's data [handoff].
 >
-> **What I need from you — the one unblock (everything else waits on this):**
+> **What I need from you — the unblock (everything else waits on this):**
 > 1. **Accept the Regen Coordination GitHub org invite** (you were added today).
 > 2. **Transfer the toolkit repo** from your account into the Regen Coordination org.
 > 3. **Reconnect the live-website deploy** (Vercel/Netlify) to the transferred repo so prod keeps building.
+> 4. **Open a Netlify dev build on the `regen-toolkit-os` branch** — a live dev instance that stages the dev branch, so we can **review and visualize the (re)processed content** there (side-by-side with the current build, graph view and all) *before* anything gets pushed to prod.
 >
-> That's it — once the repo's in the org, the review + content pipeline opens up. (Happy to hop on a quick call and do the transfer together if that's easier — it can be fiddly with the deploy reconnect.)
+> Once the repo's in the org and that dev build is live, the whole review pipeline opens up. (Happy to hop on a quick call and set the transfer + dev build up together — the deploy bits can be fiddly.)
 >
 > **What happens after, so you know the plan (and nothing touches your live site without review):**
 > - `regen-toolkit-os` is the **dev/review** branch; `main` stays **prod** (auto-deploys, as now). Nothing hits the live site except by a reviewed PR to `main`.
-> - I'll stand up a **staging build** so we can see the framework-processed content **side-by-side with your current build** — including the graph view, to watch how relationships shift. Review is **checklist-based, named-reviewer sign-off per page** (~2–4 weeks) before anything merges.
+> - That **Netlify dev build** (on `regen-toolkit-os`) is exactly our **staging** — we review the framework-processed content there, **side-by-side with your current build**, graph view included, and watch how relationships shift. Review is **checklist-based, named-reviewer sign-off per page** (~2–4 weeks) before anything merges to `main`.
 > - **Privacy gate first:** individual names in the content get handled before anything goes public — I'm verifying the name-flagging/removal step.
 > - Heads-up: **Rather** offered to fix the Astro content-collections issue (the v4→v7 foot-guns) *after* the transfer, without disrupting your current setup — so maintaining the site gets easier, not harder.
 > - Your mapped GitHub issues should carry over in the transfer — I'll double-check post-migration.
