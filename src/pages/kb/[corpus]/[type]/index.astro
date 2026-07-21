@@ -1,0 +1,70 @@
+---
+// One listing page per (corpus, type): every object of that type, title +
+// summary + maturity chip, linking to the detail pages. All raw / under review.
+import Page from "../../../../layouts/Page.astro";
+import kb from "../../../../data/kb-content.json";
+
+export function getStaticPaths() {
+  const groups = new Map();
+  for (const o of kb.objects) {
+    const key = `${o.corpus}/${o.type}`;
+    if (!groups.has(key)) groups.set(key, { corpus: o.corpus, type: o.type, items: [] });
+    groups.get(key).items.push(o);
+  }
+  return [...groups.values()].map(({ corpus, type, items }) => ({
+    params: { corpus, type },
+    props: { items: items.sort((a, b) => (a.data.title ?? a.id).localeCompare(b.data.title ?? b.id)) },
+  }));
+}
+
+const { corpus, type } = Astro.params;
+const { items } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p) => base + String(p).replace(/^\//, "");
+
+const CORPUS_LABEL = { articles: "Toolkit articles", handoff: "Handoff (Canonical_DB slice)" };
+const label = type.replace(/-/g, " ");
+const layer = items[0]?.layer;
+---
+
+<Page
+  title={`${label} (${corpus}) · Reprocessed KB (dev)`}
+  description={`All ${items.length} ${label} objects from the ${CORPUS_LABEL[corpus]} corpus — raw, under review.`}
+>
+  <section class="in-reg">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">
+          <a href={withBase("/kb/")}>Reprocessed KB</a> · {CORPUS_LABEL[corpus]}
+          {layer && <> · Layer {layer} — {kb.layers[layer]}</>}
+        </p>
+        <h1 class="in-h2" style="text-transform: capitalize;">{label} · {items.length}</h1>
+        <p class="in-sec-sub">
+          Every object below is <strong>{`raw / under review`}</strong> unless chipped otherwise —
+          nothing is promoted or published.
+        </p>
+      </header>
+      <ul class="kbx-list">
+        {items.map((o) => (
+          <li class="kbx-item">
+            <a class="kbx-item__title" href={withBase(`/kb/${o.corpus}/${o.type}/${o.id}/`)}>
+              {o.data.title ?? o.id}
+            </a>
+            <span class={`chip ${o.data.maturity === "reviewed" ? "" : "chip--clay"}`}>
+              {o.data.maturity ?? "raw"}
+            </span>
+            {o.data.summary && <p class="kbx-item__summary">{o.data.summary}</p>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .kbx-list { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: 1rem; }
+  .kbx-item { padding: 1rem 1.2rem; border: 1px solid color-mix(in oklab, currentColor 18%, transparent); border-radius: 10px; }
+  .kbx-item__title { font-weight: 600; margin-right: 0.6rem; }
+  .kbx-item__summary { margin: 0.5rem 0 0; opacity: 0.85; font-size: 0.95rem; }
+</style>
