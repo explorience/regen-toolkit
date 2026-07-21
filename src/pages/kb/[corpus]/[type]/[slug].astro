@@ -1,0 +1,111 @@
+---
+// One page per typed object: featured fields, provenance (first-class, per the
+// 07-16 meeting), maturity badge, resolved related-object links, cross-link to
+// the source article where provenance points at src/content/docs/, and a
+// generic dump of the remaining fields so nothing is hidden from reviewers.
+import Page from "../../../../layouts/Page.astro";
+import kb from "../../../../data/kb-content.json";
+
+export function getStaticPaths() {
+  return kb.objects.map((o) => ({
+    params: { corpus: o.corpus, type: o.type, slug: o.id },
+    props: { object: o },
+  }));
+}
+
+const { object } = Astro.props;
+const { corpus, type, id, layer, data, links } = object;
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p) => base + String(p).replace(/^\//, "");
+
+const CORPUS_LABEL = { articles: "Toolkit articles", handoff: "Handoff (Canonical_DB slice)" };
+const title = data.title ?? id;
+const maturity = data.maturity ?? "raw";
+
+// Article cross-link: articles-corpus provenance.origin = src/content/docs/<slug>.md
+const origin = String(data.provenance?.origin ?? "");
+const articleMatch = origin.match(/^src\/content\/docs\/(.+)\.md$/);
+const articleHref = articleMatch ? withBase(`/${articleMatch[1]}/`) : null;
+
+// Fields rendered specially above the generic dump
+const FEATURED = new Set(["title", "summary", "maturity", "provenance", "type", "url", "source_lineage", "work_order"]);
+const rest = Object.entries(data).filter(([k]) => !FEATURED.has(k));
+
+const render = (v) =>
+  typeof v === "object" ? JSON.stringify(v, null, 2) : String(v);
+---
+
+<Page title={`${title} · Reprocessed KB (dev)`} description={data.summary ?? title}>
+  <section class="in-reg">
+    <div class="wrap kbx-detail">
+      <p class="eyebrow">
+        <a href={withBase("/kb/")}>Reprocessed KB</a> ·
+        <a href={withBase(`/kb/${corpus}/${type}/`)} style="text-transform: capitalize;">{type.replace(/-/g, " ")}</a>
+        · {CORPUS_LABEL[corpus]}
+        {layer && <> · Layer {layer} — {kb.layers[layer]}</>}
+      </p>
+      <h1 class="in-h2">{title}</h1>
+      <p class="kbx-badges">
+        <span class={`chip ${maturity === "reviewed" ? "" : "chip--clay"}`}>{maturity}{maturity === "reviewed" ? "" : " · under review"}</span>
+        {data.ai_assisted && <span class="chip">ai-assisted</span>}
+        {data.public_use && <span class="chip">{data.public_use}</span>}
+      </p>
+
+      {data.summary && <p class="kbx-summary">{data.summary}</p>}
+      {data.url && <p><a href={data.url} rel="nofollow noopener">{data.url}</a></p>}
+      {articleHref && (
+        <p class="kbx-crosslink">
+          ↔ Compare with the current published article: <a href={articleHref}>{articleMatch[1]}</a>
+        </p>
+      )}
+
+      <h2 class="kbx-h2">Provenance</h2>
+      <dl class="kbx-dl">
+        <dt>origin</dt><dd><code>{origin || "—"}</code></dd>
+        <dt>transformation</dt><dd>{data.provenance?.transformation ?? "—"}</dd>
+        <dt>authorship</dt><dd>{data.provenance?.authorship ?? "—"}</dd>
+        {data.source_lineage && (<><dt>source_lineage</dt><dd>{render(data.source_lineage)}</dd></>)}
+        {data.work_order && (<><dt>work_order</dt><dd><code>{data.work_order}</code></dd></>)}
+      </dl>
+
+      {links.length > 0 && (
+        <>
+          <h2 class="kbx-h2">Related objects</h2>
+          <ul>
+            {links.map((l) => (
+              <li>
+                <span class="kbx-linkfield">{l.field}</span> →
+                <a href={withBase(`/kb/${l.corpus}/${l.type}/${l.id}/`)}>{l.id}</a>
+                <small> ({l.type}, {l.corpus})</small>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      <h2 class="kbx-h2">All fields</h2>
+      <dl class="kbx-dl">
+        {rest.map(([k, v]) => (
+          <>
+            <dt>{k}</dt>
+            <dd>{typeof v === "object" ? <pre class="kbx-pre">{render(v)}</pre> : render(v)}</dd>
+          </>
+        ))}
+      </dl>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .kbx-detail { max-width: 46rem; }
+  .kbx-badges { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.75rem 0 1.25rem; }
+  .kbx-summary { font-size: 1.05rem; }
+  .kbx-crosslink { padding: 0.6rem 0.9rem; border-left: 3px solid currentColor; opacity: 0.9; }
+  .kbx-h2 { font-size: 1.1rem; margin: 2rem 0 0.6rem; }
+  .kbx-dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1rem; }
+  .kbx-dl dt { font-weight: 600; opacity: 0.75; }
+  .kbx-dl dd { margin: 0; overflow-wrap: anywhere; }
+  .kbx-pre { white-space: pre-wrap; font-size: 0.85rem; margin: 0; }
+  .kbx-linkfield { font-family: monospace; font-size: 0.85rem; opacity: 0.8; }
+</style>
