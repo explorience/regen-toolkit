@@ -1,0 +1,106 @@
+---
+// The browse home for the framework-reprocessed KB. Everything here is raw /
+// under review — this is the dev review surface, not published content.
+import Page from "../../layouts/Page.astro";
+import kb from "../../data/kb-content.json";
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p) => base + String(p).replace(/^\//, "");
+
+const CORPUS_LABEL = { articles: "Toolkit articles", handoff: "Handoff (Canonical_DB slice)" };
+
+// type → { corpus → count }, for the per-type browse grid
+const typeCells = new Map();
+for (const o of kb.objects) {
+  if (!typeCells.has(o.type)) typeCells.set(o.type, { type: o.type, layer: o.layer, counts: {} });
+  const cell = typeCells.get(o.type);
+  cell.counts[o.corpus] = (cell.counts[o.corpus] ?? 0) + 1;
+}
+// group types under layers (null layer → "Unmapped", listed last, honest)
+const layerGroups = new Map();
+for (const cell of [...typeCells.values()].sort((a, b) => a.type.localeCompare(b.type))) {
+  const key = cell.layer ?? "unmapped";
+  if (!layerGroups.has(key)) layerGroups.set(key, []);
+  layerGroups.get(key).push(cell);
+}
+const orderedLayers = [...layerGroups.keys()].sort((a, b) =>
+  a === "unmapped" ? 1 : b === "unmapped" ? -1 : a - b
+);
+const layerName = (k) => (k === "unmapped" ? "Unmapped types" : `Layer ${k} — ${kb.layers[k]}`);
+const label = (t) => t.replace(/-/g, " ");
+const rawish = kb.total - (kb.by_maturity.reviewed ?? 0);
+---
+
+<Page
+  title="Reprocessed KB · Regen Web3 Toolkit (dev)"
+  description="Browse the framework-reprocessed knowledge base — raw, under review, dev preview only."
+>
+  <section class="in-hero">
+    <div class="wrap in-hero__inner">
+      <p class="eyebrow">Reprocessed content · dev preview</p>
+      <h1 class="in-hero__title">The knowledge base,<br />as the framework typed it.</h1>
+      <p class="in-hero__lede">
+        <strong>{kb.total} typed objects</strong> — {kb.by_corpus.articles} reprocessed from this
+        site's own articles, {kb.by_corpus.handoff} from the July handoff's Canonical_DB slice.
+        <strong>Everything here is <code>raw</code> / under review</strong>: nothing has been
+        promoted or published. This surface exists so reviewers can compare it side-by-side with
+        the <a href={withBase("/")}>current article build</a> before anything moves to production.
+      </p>
+      <div class="in-hero__meta">
+        <span class="chip chip--clay">{rawish} awaiting review</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>{kb.by_maturity.reviewed ?? 0} reviewed</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>2 corpora</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="in-reg">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">Browse by layer</p>
+        <h2 class="in-h2">Ten layers, {Object.keys(kb.by_type).length} object types.</h2>
+        <p class="in-sec-sub">
+          Each type maps to a layer of the master architecture. Counts are read from the generated
+          snapshot, not typed by hand. Corpus tags: <strong>A</strong> = toolkit articles,
+          <strong>H</strong> = handoff slice.
+        </p>
+      </header>
+      {orderedLayers.map((lk) => (
+        <div class="kbx-layer">
+          <h3 class="kbx-layer__h">{layerName(lk)}</h3>
+          <ul class="kbx-typegrid">
+            {layerGroups.get(lk).map((cell) => (
+              <li class="kbx-type">
+                <span class="kbx-type__name">{label(cell.type)}</span>
+                <span class="kbx-type__links">
+                  {Object.entries(cell.counts).map(([corpus, n]) => (
+                    <a href={withBase(`/kb/${corpus}/${cell.type}/`)} title={CORPUS_LABEL[corpus]}>
+                      {corpus === "articles" ? "A" : "H"}·{n}
+                    </a>
+                  ))}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      <p class="in-reg__caption">
+        Generated at build from <code>src/data/kb-content.json</code> (prebuild snapshot of
+        <code>data/kb/</code> + <code>kb-handoff/objects/</code>). See also the
+        <a href={withBase("/self-ingestion/")}>self-ingestion diff</a> and the
+        <a href={withBase("/handoff/")}>handoff slice</a> summaries.
+      </p>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .kbx-layer { margin-top: 2rem; }
+  .kbx-layer__h { font-size: 1.05rem; margin-bottom: 0.6rem; }
+  .kbx-typegrid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.5rem; }
+  .kbx-type { display: flex; justify-content: space-between; gap: 0.75rem; padding: 0.55rem 0.8rem; border: 1px solid color-mix(in oklab, currentColor 18%, transparent); border-radius: 8px; }
+  .kbx-type__name { text-transform: capitalize; }
+  .kbx-type__links a { margin-left: 0.5rem; font-variant-numeric: tabular-nums; text-decoration: none; border-bottom: 1px dotted currentColor; }
+</style>
