@@ -1,0 +1,217 @@
+---
+// Interactive KB graph — a self-contained canvas island. Reads a baked-layout
+// graph (nodes with x/y + edges), renders it, and handles pan/zoom/hover/click/
+// filter entirely client-side. No runtime physics. Progressive: if JS is off, the
+// page's fallback (in graph.astro) still explains + links to the browse pages.
+const { graph, base } = Astro.props;
+
+// Layer → color + name. Theme palette hues in layer order; 'unmapped' is grey.
+// This component owns the legend AND the layer filter (they're the same chips).
+const LAYER_COLORS = {
+  1: '#6b7280', 2: '#3f7d5a', 3: '#2f6f6f', 4: '#8a6d3b', 5: '#9c5a3c',
+  6: '#7d5a9c', 7: '#3f6d9c', 8: '#4a7d3f', 9: '#9c3f6d', 10: '#5a5a5a',
+  unmapped: '#b0b0b0',
+};
+const LAYER_NAMES = {
+  1: 'Ontology', 2: 'Knowledge', 3: 'Resource graph', 4: 'Concept ecology', 5: 'Option library',
+  6: 'Deployment', 7: 'Tracks', 8: 'Implementation', 9: 'Evolution', 10: 'Infrastructure',
+};
+// Present layers, unmapped last — each renders as a legend chip that is also a filter toggle.
+const legendKeys = Object.keys(graph.by_layer)
+  .sort((a, b) => (a === 'unmapped' ? 1 : b === 'unmapped' ? -1 : Number(a) - Number(b)));
+const chipLabel = (k) => (k === 'unmapped' ? 'Unmapped' : `L${k} · ${LAYER_NAMES[k]}`);
+---
+
+<div class="kbg" data-base={base}>
+  <div class="kbg__controls">
+    <fieldset class="kbg__filters" aria-label="Filter graph">
+      <label><input type="checkbox" data-filter="corpus" value="articles" checked /> Articles</label>
+      <label><input type="checkbox" data-filter="corpus" value="handoff" checked /> Handoff</label>
+      <span class="kbg__sep" aria-hidden="true"></span>
+      <label><input type="checkbox" data-filter="maturity" value="raw-only" /> Spotlight raw</label>
+      <button type="button" class="kbg__reset">Reset view</button>
+    </fieldset>
+    <p class="kbg__hint">Drag to pan · scroll to zoom · hover for detail · click a node to open it</p>
+  </div>
+  <div class="kbg__legend" role="group" aria-label="Layers (click to toggle)">
+    {legendKeys.map((k) => (
+      <button type="button" class="kbg__chip" data-filter="layer" data-layer={k} aria-pressed="true">
+        <span class="kbg__dot" style={`background:${LAYER_COLORS[k]}`}></span>
+        {chipLabel(k)} <small>({graph.by_layer[k]})</small>
+      </button>
+    ))}
+  </div>
+  <canvas class="kbg__canvas" width="1000" height="640" role="img"
+    aria-label={`Force-directed graph of ${graph.node_count} reprocessed knowledge-base objects`}></canvas>
+  <div class="kbg__tooltip" hidden></div>
+  <script type="application/json" set:html={JSON.stringify(graph)} data-kbg-data></script>
+</div>
+
+<style>
+  .kbg { position: relative; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--paper-2); overflow: hidden; }
+  .kbg__controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--line); font-family: var(--font-ui); font-size: .85rem; }
+  .kbg__filters { border: 0; margin: 0; padding: 0; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .kbg__filters label { display: inline-flex; align-items: center; gap: 5px; color: var(--ink-soft); cursor: pointer; }
+  .kbg__sep { width: 1px; height: 16px; background: var(--line-strong); }
+  .kbg__reset { font: inherit; color: var(--ink-soft); background: var(--paper); border: 1px solid var(--line-strong); border-radius: 6px; padding: 2px 10px; cursor: pointer; }
+  .kbg__reset:hover { color: var(--moss); border-color: var(--moss); }
+  .kbg__hint { margin: 0; color: var(--ink-faint); font-size: .78rem; }
+  .kbg__legend { display: flex; flex-wrap: wrap; gap: 6px 8px; padding: 8px 14px; border-bottom: 1px solid var(--line); }
+  .kbg__chip { display: inline-flex; align-items: center; gap: 5px; font: inherit; font-family: var(--font-ui); font-size: .76rem; color: var(--ink-soft); background: var(--paper); border: 1px solid var(--line-strong); border-radius: 999px; padding: 2px 9px; cursor: pointer; transition: opacity .15s; }
+  .kbg__chip[aria-pressed="false"] { opacity: .38; text-decoration: line-through; }
+  .kbg__chip small { color: var(--ink-faint); }
+  .kbg__dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .kbg__canvas { display: block; width: 100%; height: min(70vh, 640px); touch-action: none; cursor: grab; background: var(--paper); }
+  .kbg__canvas:active { cursor: grabbing; }
+  .kbg__tooltip { position: absolute; pointer-events: none; z-index: 5; max-width: 260px; padding: 8px 10px; border-radius: 8px; background: var(--ink); color: var(--paper); font-family: var(--font-ui); font-size: .8rem; line-height: 1.35; box-shadow: var(--shadow); }
+  .kbg__tooltip b { font-weight: 600; }
+  .kbg__tooltip small { opacity: .8; }
+</style>
+
+<script>
+  // Client island. Runs once per graph container on the page.
+  const LAYER_COLORS = {
+    1: '#6b7280', 2: '#3f7d5a', 3: '#2f6f6f', 4: '#8a6d3b', 5: '#9c5a3c',
+    6: '#7d5a9c', 7: '#3f6d9c', 8: '#4a7d3f', 9: '#9c3f6d', 10: '#5a5a5a',
+    unmapped: '#b0b0b0',
+  };
+  const colorFor = (layer) => LAYER_COLORS[layer ?? 'unmapped'] ?? LAYER_COLORS.unmapped;
+
+  for (const root of document.querySelectorAll('.kbg')) {
+    const canvas = root.querySelector('.kbg__canvas');
+    const tip = root.querySelector('.kbg__tooltip');
+    const dataEl = root.querySelector('[data-kbg-data]');
+    if (!canvas || !dataEl) continue;
+    const base = root.getAttribute('data-base') || '/';
+    const graph = JSON.parse(dataEl.textContent);
+    const nodes = graph.nodes;
+    const byKey = new Map(nodes.map((n) => [n.key, n]));
+    const edges = graph.edges.map((e) => ({ a: byKey.get(e.source), b: byKey.get(e.target) })).filter((e) => e.a && e.b);
+    const ctx = canvas.getContext('2d');
+
+    // fit baked layout into view
+    const pad = 40;
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const n of nodes) { minX = Math.min(minX, n.x); minY = Math.min(minY, n.y); maxX = Math.max(maxX, n.x); maxY = Math.max(maxY, n.y); }
+    const spanX = Math.max(1, maxX - minX), spanY = Math.max(1, maxY - minY);
+
+    const view = { scale: 1, tx: 0, ty: 0 };
+    const allLayers = new Set(nodes.map((n) => String(n.layer ?? 'unmapped')));
+    const filters = { corpus: new Set(['articles', 'handoff']), layers: new Set(allLayers), rawOnly: false };
+    let hover = null;
+
+    function fit() {
+      const w = canvas.clientWidth, h = canvas.clientHeight;
+      const s = Math.min((w - pad * 2) / spanX, (h - pad * 2) / spanY);
+      view.scale = s;
+      view.tx = (w - spanX * s) / 2 - minX * s;
+      view.ty = (h - spanY * s) / 2 - minY * s;
+    }
+    const toScreen = (n) => ({ x: n.x * view.scale + view.tx, y: n.y * view.scale + view.ty });
+    const layerKey = (n) => String(n.layer ?? 'unmapped');
+    const visible = (n) => filters.corpus.has(n.corpus) && filters.layers.has(layerKey(n)) && (!filters.rawOnly || n.maturity === 'raw');
+    const radius = (n) => Math.max(2.2, Math.min(9, 2 + Math.sqrt(n.degree)));
+
+    function resize() {
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      canvas.width = Math.round(canvas.clientWidth * dpr);
+      canvas.height = Math.round(canvas.clientHeight * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      draw();
+    }
+    function draw() {
+      const w = canvas.clientWidth, h = canvas.clientHeight;
+      ctx.clearRect(0, 0, w, h);
+      // edges
+      ctx.lineWidth = 0.6;
+      for (const e of edges) {
+        if (!visible(e.a) || !visible(e.b)) continue;
+        const p = toScreen(e.a), q = toScreen(e.b);
+        ctx.strokeStyle = 'rgba(120,120,120,0.18)';
+        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+      }
+      // nodes
+      for (const n of nodes) {
+        const dim = !visible(n);
+        const p = toScreen(n);
+        const r = radius(n) * (hover === n ? 1.6 : 1);
+        ctx.globalAlpha = dim ? 0.08 : 1;
+        ctx.fillStyle = colorFor(n.layer);
+        ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, Math.PI * 2); ctx.fill();
+        // hover halo — a ring in the node's own layer color (theme-safe in light + dark)
+        if (hover === n && !dim) {
+          ctx.lineWidth = 2; ctx.strokeStyle = colorFor(n.layer); ctx.globalAlpha = 0.5;
+          ctx.beginPath(); ctx.arc(p.x, p.y, r + 3, 0, Math.PI * 2); ctx.stroke(); ctx.globalAlpha = 1;
+        }
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    function pick(sx, sy) {
+      let best = null, bestD = 12 * 12;
+      for (const n of nodes) {
+        if (!visible(n)) continue;
+        const p = toScreen(n);
+        const d = (p.x - sx) ** 2 + (p.y - sy) ** 2;
+        if (d < bestD) { bestD = d; best = n; }
+      }
+      return best;
+    }
+
+    // interaction
+    let dragging = false, lastX = 0, lastY = 0, moved = 0;
+    canvas.addEventListener('pointerdown', (e) => { dragging = true; moved = 0; lastX = e.clientX; lastY = e.clientY; canvas.setPointerCapture(e.pointerId); });
+    canvas.addEventListener('pointerup', (e) => {
+      dragging = false;
+      if (moved < 5) { // treat as click
+        const rect = canvas.getBoundingClientRect();
+        const n = pick(e.clientX - rect.left, e.clientY - rect.top);
+        if (n) location.href = base + `kb/${n.corpus}/${n.type}/${n.id}/`.replace(/^\//, '');
+      }
+    });
+    canvas.addEventListener('pointermove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const sx = e.clientX - rect.left, sy = e.clientY - rect.top;
+      if (dragging) {
+        moved += Math.abs(e.clientX - lastX) + Math.abs(e.clientY - lastY);
+        view.tx += e.clientX - lastX; view.ty += e.clientY - lastY;
+        lastX = e.clientX; lastY = e.clientY;
+        tip.hidden = true; draw(); return;
+      }
+      const n = pick(sx, sy);
+      if (n !== hover) { hover = n; draw(); }
+      if (n) {
+        tip.hidden = false;
+        tip.innerHTML = `<b>${n.title.replace(/</g, '&lt;')}</b><br><small>${n.type} · ${n.corpus} · ${n.maturity}${n.layer ? ' · layer ' + n.layer : ''}</small>`;
+        tip.style.left = Math.min(sx + 14, canvas.clientWidth - 260) + 'px';
+        tip.style.top = (sy + 14) + 'px';
+      } else { tip.hidden = true; }
+    });
+    canvas.addEventListener('pointerleave', () => { hover = null; tip.hidden = true; draw(); });
+    canvas.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const rect = canvas.getBoundingClientRect();
+      const sx = e.clientX - rect.left, sy = e.clientY - rect.top;
+      const f = Math.exp(-e.deltaY * 0.001);
+      view.tx = sx - (sx - view.tx) * f; view.ty = sy - (sy - view.ty) * f;
+      view.scale *= f; draw();
+    }, { passive: false });
+
+    root.querySelectorAll('[data-filter="corpus"]').forEach((cb) => cb.addEventListener('change', () => {
+      cb.checked ? filters.corpus.add(cb.value) : filters.corpus.delete(cb.value); draw();
+    }));
+    root.querySelectorAll('[data-filter="maturity"]').forEach((cb) => cb.addEventListener('change', () => { filters.rawOnly = cb.checked; draw(); }));
+    root.querySelectorAll('[data-filter="layer"]').forEach((btn) => btn.addEventListener('click', () => {
+      const key = btn.getAttribute('data-layer');
+      const on = btn.getAttribute('aria-pressed') !== 'true';
+      btn.setAttribute('aria-pressed', String(on));
+      on ? filters.layers.add(key) : filters.layers.delete(key);
+      draw();
+    }));
+    root.querySelector('.kbg__reset')?.addEventListener('click', () => { fit(); draw(); });
+
+    const ro = new ResizeObserver(() => resize());
+    ro.observe(canvas);
+    fit(); resize();
+  }
+</script>
