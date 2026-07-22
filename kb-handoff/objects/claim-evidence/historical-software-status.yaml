@@ -1,0 +1,16 @@
+title: Historical software status
+type: claim-evidence
+claim: Historical software status
+interpretation: Add active, deprecated, or historical status and a last-reviewed date.
+uncertainty: >-
+  Repositories and docs may remain visible after products are deprecated or
+  wound down.
+evidence_stance: qualifying
+context: Allo.Capital / Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row9
+  source_lineage: https://www.allo.capital/resources
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

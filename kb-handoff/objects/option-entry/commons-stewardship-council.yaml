@@ -1,0 +1,25 @@
+title: Commons Stewardship Council
+type: option-entry
+category: governance
+what_it_is: >-
+  A bounded body reviews stewardship questions, membership conditions,
+  infrastructure access, and unresolved governance matters.
+potential_uses: >-
+  Early-stage knowledge commons needing accountable human review without
+  pretending full decentralization.
+dependencies: >-
+  Public mandate, membership rules, conflict policy, term limits, decision logs,
+  appeals, affected-party participation.
+tradeoffs: >-
+  Can become an opaque center of authority or claim representativeness it does
+  not possess.
+context: Regen Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row45
+  source_lineage: >-
+    https://forum.regen.network/t/agentic-organization-design-and-collaboration/610
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

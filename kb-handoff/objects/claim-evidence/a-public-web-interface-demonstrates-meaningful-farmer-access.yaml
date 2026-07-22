@@ -1,0 +1,19 @@
+title: A public web interface demonstrates meaningful farmer access
+type: claim-evidence
+claim: A public web interface demonstrates meaningful farmer access
+interpretation: >-
+  Describe the tool as publicly reachable; evaluate meaningful access through
+  field and assisted-use testing.
+uncertainty: >-
+  Connectivity, device cost, literacy, language, disability access, trust,
+  training and support affect real use.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row424
+  source_lineage: >-
+    https://mst.org.br/2026/01/21/iaraa-mst-lanca-inteligencia-artificial-a-servico-da-agroecologia-e-da-reforma-agraria-popular/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

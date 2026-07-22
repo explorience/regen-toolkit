@@ -1,0 +1,20 @@
+title: Max Liboiron
+type: person
+full_name: Max Liboiron
+affiliation: CLEAR / anti-colonial research
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.mun.ca/geography/people/faculty/max-liboiron/
+notes: >-
+  Why add: Connects data governance, research ethics, open tools, pollution
+  monitoring and refusal · Status/Caution: Current faculty profile · Parent
+  source system: CLEAR / anti-colonial research
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row873
+  source_lineage: https://www.mun.ca/geography/people/faculty/max-liboiron/
+original_object_class: Person
+normalization_flag: REPAIR-NO-873
+review_needs: 'Matty dup-flag REPAIR-NO-873: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

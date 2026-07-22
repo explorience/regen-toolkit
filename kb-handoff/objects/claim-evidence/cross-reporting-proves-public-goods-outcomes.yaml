@@ -1,0 +1,18 @@
+title: CROSS reporting proves public-goods outcomes
+type: claim-evidence
+claim: CROSS reporting proves public-goods outcomes
+interpretation: >-
+  Use CROSS to clarify obligations and evidence expectations; evaluate outcomes
+  through domain evidence and affected-party review.
+uncertainty: >-
+  Obligation and reporting architecture can improve legibility without
+  establishing causality, quality, justice or long-term outcomes.
+evidence_stance: qualifying
+context: CROSS
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row217
+  source_lineage: https://github.com/CrossWalkri/CROSS
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

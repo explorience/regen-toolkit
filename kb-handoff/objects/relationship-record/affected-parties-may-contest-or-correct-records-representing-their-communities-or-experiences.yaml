@@ -1,0 +1,21 @@
+subject: Affected parties
+predicate: may_contest_or_correct
+object: Records representing their communities or experiences
+type: relationship-record
+title: >-
+  Affected parties — may_contest_or_correct — Records representing their
+  communities or experiences
+original_relationship: may contest or correct
+evidence: >-
+  Higher-risk records require representation, consent/public-interest,
+  correction, and restricted-use consideration.
+scope: Rights and workflow not yet adopted
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row87
+  source_lineage: Internal GKC self-review — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

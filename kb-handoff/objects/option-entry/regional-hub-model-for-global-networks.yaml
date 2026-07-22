@@ -1,0 +1,24 @@
+title: Regional Hub Model for Global Networks
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Distribute coordination, fundraising, peer support, and contextual adaptation
+  through regional member hubs.
+potential_uses: >-
+  Regen networks, civic-tech alliances, local-node systems, multilingual
+  communities.
+dependencies: >-
+  Regional autonomy, resourcing, representation, cross-hub coordination,
+  accountability, and succession.
+tradeoffs: >-
+  Hubs may be unevenly active, underfunded, or dominated by better-connected
+  members.
+context: People Powered
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row84
+  source_lineage: https://www.peoplepowered.org/governance
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

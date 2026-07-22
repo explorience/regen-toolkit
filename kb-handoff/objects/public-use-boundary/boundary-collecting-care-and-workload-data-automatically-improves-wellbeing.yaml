@@ -1,0 +1,10 @@
+title: Boundary — Collecting care and workload data automatically improves wellbeing
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Data collection can create surveillance, stigma, managerial pressure or forced
+  disclosure.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Claims and Cautions!row318
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

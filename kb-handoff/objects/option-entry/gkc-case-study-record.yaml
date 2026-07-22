@@ -1,0 +1,25 @@
+title: GKC Case-Study Record
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  A structured implementation-memory record organized around context, resources,
+  community, goals, action arenas, institutions, actors, patterns, outcomes,
+  costs and legitimacy.
+potential_uses: >-
+  Deep case studies of source systems, projects, local initiatives, platforms,
+  and knowledge commons.
+dependencies: >-
+  Primary sources, interviews or affected-party material where appropriate,
+  versioning, explicit evidence, contextual review.
+tradeoffs: >-
+  Can become extractive, over-academic, burdensome, or falsely comparable across
+  cases.
+context: Workshop on Governing Knowledge Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row66
+  source_lineage: https://knowledge-commons.net/research-framework/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

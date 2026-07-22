@@ -1,0 +1,24 @@
+title: Community-Authored Governance Automation
+type: option-entry
+category: governance
+what_it_is: >-
+  Allow communities to encode and execute their own governance procedures on
+  existing communication platforms.
+potential_uses: >-
+  Moderation, membership, proposal review, appeals, resource allocation, and
+  procedural experimentation.
+dependencies: >-
+  Community authority, readable rules, platform integrations, testing, appeals,
+  logs, and maintenance.
+tradeoffs: >-
+  Automation can harden bad rules, obscure discretion, create security risks,
+  and overstate procedural legitimacy.
+context: Metagov / PolicyKit
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row22
+  source_lineage: https://metagov.org/projects/policykit
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,5 +1,5 @@
 title: Institutos Agroecológicos Latinoamericanos (IALA) Network
-type: directory
+type: movement
 steward: Institutos Agroecológicos Latinoamericanos (IALA) Network
 return_path: unset — establish via register-source
 url: https://cloc-viacampesina.net/ialas
@@ -11,14 +11,18 @@ why_it_matters: >-
   Network of movement-run agroecology institutes and schools connected to
   CLOC–La Vía Campesina, using popular education, farmer-to-farmer learning and
   political-professional formation.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row48
-  source_lineage: https://cloc-viacampesina.net/ialas
 caution: >-
   Current institute count, names, status and governance vary over time. Do not
   infer equivalent curricula, authority, resources or outcomes across the
   network.
+extraction_status: >-
+  Federated movement-school design, agroecology pedagogy, research-action
+  practice, youth formation and territorial knowledge circulation.
+notes: 'Role: Continental movement-education source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row47
+  source_lineage: https://cloc-viacampesina.net/ialas
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

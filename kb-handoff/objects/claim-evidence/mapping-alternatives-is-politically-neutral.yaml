@@ -1,0 +1,18 @@
+title: Mapping alternatives is politically neutral
+type: claim-evidence
+claim: Mapping alternatives is politically neutral
+interpretation: >-
+  Treat mapping as governance; provide source attribution, consent, sensitivity
+  controls, correction and removal pathways.
+uncertainty: >-
+  Selection, categories, location precision, prominence and public exposure can
+  affect safety, legitimacy, funding and movement relationships.
+evidence_stance: qualifying
+context: GTA Map / Vikalp Sangam
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row366
+  source_lineage: https://www.globaltapestryofalternatives.org/mapping:index
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

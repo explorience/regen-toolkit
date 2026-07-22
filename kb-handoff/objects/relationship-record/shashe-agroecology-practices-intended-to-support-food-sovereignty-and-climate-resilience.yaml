@@ -1,0 +1,22 @@
+subject: Shashe agroecology practices
+predicate: intended_to_support
+object: Food sovereignty and climate resilience
+type: relationship-record
+title: >-
+  Shashe agroecology practices — intended_to_support — Food sovereignty and
+  climate resilience
+original_relationship: intended to support
+evidence: >-
+  Movement sources connect practices to food sovereignty, income retention and
+  climate adaptation.
+scope: Outcome claims remain bounded
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row379
+  source_lineage: >-
+    https://viacampesina.org/en/2014/10/shashe-smallholder-farmer-organisation-sfo-a-true-centre-of-agro-ecology/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

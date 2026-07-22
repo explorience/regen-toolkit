@@ -1,0 +1,23 @@
+title: Bioregional Intelligence
+type: concept-lineage
+short_description: >-
+  Place-rooted AI concept combining bioregional knowledge commons, local data
+  sovereignty, digital twins, local-first computing, federated learning, and
+  participatory ground-truthing.
+toolkit_usage: >-
+  High-value concept for the Toolkit’s local-node, sovereignty, semantic, and
+  ecological-evidence layers.
+original_object_type: Concept / architecture
+notes: >-
+  Why add: High-value concept for the Toolkit’s local-node, sovereignty,
+  semantic, and ecological-evidence layers. · Status/Caution: Aspirational
+  architecture; component maturity and local governance must be assessed
+  separately · Parent source system: GAIAI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row127
+  source_lineage: https://github.com/gaiaaiagent/greenpaper
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: Current-state handoff means labor and provenance conditions can be omitted
+type: claim-evidence
+claim: Current-state handoff means labor and provenance conditions can be omitted
+interpretation: >-
+  Keep the public artifact current-state focused while including concise
+  stewardship, workload and support requirements.
+uncertainty: >-
+  A singular version can still conceal who must maintain it and under what
+  conditions.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row321
+  source_lineage: Internal applied review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

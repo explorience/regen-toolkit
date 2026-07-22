@@ -1,0 +1,18 @@
+title: Continental scale is not uniform authority
+type: claim-evidence
+claim: Continental scale is not uniform authority
+interpretation: >-
+  Record region, constituency, member organization, date and decision scope
+  separately.
+uncertainty: >-
+  A large network and congress do not imply that every organization or
+  constituency holds equal agenda-setting power.
+evidence_stance: qualifying
+context: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row444
+  source_lineage: https://cloc-viacampesina.net/rumbo-al-viii-congreso-continental-de-la-cloc
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: MST can be represented through one leader or spokesperson
+type: claim-evidence
+claim: MST can be represented through one leader or spokesperson
+interpretation: >-
+  Record specific roles and sources; preserve collective and constituency voices
+  rather than personifying the movement.
+uncertainty: >-
+  A large decentralized movement contains sectors, territories, leadership
+  bodies and internal differences.
+evidence_stance: qualifying
+context: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row398
+  source_lineage: https://mst.org.br/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

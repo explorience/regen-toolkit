@@ -1,0 +1,22 @@
+title: Record Correction and Dispute Lifecycle
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Support correction requests, contested status, evidence submissions,
+  transparent review, resolution notes, appeals, and preserved versions.
+potential_uses: >-
+  Public resource explorer, implementation cases, claims, people and
+  organization records.
+dependencies: >-
+  Version history, record identity, reviewer roles, contact channel, decision
+  log.
+tradeoffs: Dispute processes can be weaponized, slow, or dominated by powerful parties.
+context: Toolkit self-governance / GKC review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row111
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

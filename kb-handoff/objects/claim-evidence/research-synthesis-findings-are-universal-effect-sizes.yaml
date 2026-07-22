@@ -1,0 +1,18 @@
+title: Research synthesis findings are universal effect sizes
+type: claim-evidence
+claim: Research synthesis findings are universal effect sizes
+interpretation: >-
+  Present synthesized findings with study scope, heterogeneity, confidence, and
+  conditions.
+uncertainty: >-
+  The source combines studies with different designs, contexts, outcomes, and
+  quality.
+evidence_stance: qualifying
+context: People Powered Research Data
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row125
+  source_lineage: https://www.peoplepowered.org/research-data
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

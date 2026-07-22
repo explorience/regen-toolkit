@@ -1,0 +1,22 @@
+title: Javier Andrades
+type: person
+full_name: Javier Andrades
+affiliation: Organización Boricuá / La Vía Campesina
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://viacampesina.org/es/la-via-campesina-noticias-y-actualizaciones-de-los-miembros-en-todo-el-mundo/
+notes: >-
+  Why add: Adds colonial political-economy and fisheries perspective. ·
+  Status/Caution: Date role and avoid overgeneralizing from one intervention ·
+  Parent source system: Organización Boricuá / La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row849
+  source_lineage: >-
+    https://viacampesina.org/es/la-via-campesina-noticias-y-actualizaciones-de-los-miembros-en-todo-el-mundo/
+original_object_class: Person
+normalization_flag: DUP-NE-774
+review_needs: 'Matty dup-flag DUP-NE-774: Magha García'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

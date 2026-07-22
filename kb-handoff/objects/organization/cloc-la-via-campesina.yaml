@@ -1,0 +1,21 @@
+title: CLOC–La Vía Campesina
+type: organization
+org_type: Member movement / regional network
+url: https://viacampesina.org/en/regions/central-america/
+steward: La Vía Campesina / Latin America and Caribbean
+notes: >-
+  Why add: Adds regional movement infrastructure and multilingual branch depth.
+  · Status/Caution: Regional umbrella is internally diverse; use member and
+  territorial sources for implementation claims · Parent source system: La Vía
+  Campesina / Latin America and Caribbean
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row660
+  source_lineage: https://viacampesina.org/en/regions/central-america/
+original_object_class: Organization / Network
+high_risk: true
+normalization_flag: DUP-NE-660
+review_needs: 'Matty dup-flag DUP-NE-660: Movimento dos Trabalhadores Rurais Sem Terra (MST)'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

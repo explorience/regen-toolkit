@@ -1,0 +1,24 @@
+title: REGEN IRL AI-Assisted Grant Competition
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document applicant experience, AI assistance, evaluation criteria, selection,
+  funding, project follow-up, and learning from the small grant experiment.
+what_returns_to_commons: >-
+  Provides a bounded real-world case connecting AI assistance, funding, project
+  discovery, and later implementation evidence.
+notes: >-
+  What to capture: Applicant diversity, AI and non-AI pathways, criteria,
+  reviewers, selected project, disbursement, outcomes, feedback, and privacy. ·
+  Status/Caution: Candidate; funding amount is small and should not be
+  generalized
+related_source_system: GAIAI / Regen Network
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row32
+  source_lineage: https://regen.gaiaai.xyz/irl/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

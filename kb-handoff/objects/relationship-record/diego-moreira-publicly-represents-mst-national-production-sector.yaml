@@ -1,0 +1,18 @@
+subject: Diego Moreira
+predicate: publicly_represents
+object: MST national production sector
+type: relationship-record
+title: Diego Moreira — publicly_represents — MST national production sector
+original_relationship: publicly represents
+evidence: Named in 2025 reporting on cooperatives and productive chains.
+scope: Dated public role
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row456
+  source_lineage: >-
+    https://mst.org.br/2025/05/11/cooperativas-do-mst-colheitas-de-resistencia-e-esperanca-no-campo-brasileiro/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

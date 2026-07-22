@@ -1,0 +1,24 @@
+title: PDIS Community–Government Collaboration Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one public-service or open-government initiative from civic input and
+  facilitation through government implementation and later maintenance.
+what_returns_to_commons: >-
+  Provides an evidence-bearing public-commons interface case beyond platform
+  descriptions.
+notes: >-
+  What to capture: Problem definition, participants, authority, design process,
+  public records, procurement, institutional decision, implementation, affected
+  users and outcomes. · Status/Caution: Candidate; avoid attributing
+  institutional outcomes to one person
+related_source_system: PDIS / Taiwan civic-tech ecosystem
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row143
+  source_lineage: https://pdis.nat.gov.tw/en/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

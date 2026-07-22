@@ -1,0 +1,17 @@
+title: Govbase Documents
+type: resource
+resource_type: Dataset table
+url: https://govbase.metagov.org/docs/documents/
+original_source: Metagov / Govbase
+notes: >-
+  Why add: Useful source system for constitutions, bylaws, licenses, and
+  governance lineage. · Status/Caution: A document’s existence does not show
+  actual practice or enforcement · Parent source system: Metagov / Govbase
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row101
+  source_lineage: https://govbase.metagov.org/docs/documents/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

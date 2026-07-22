@@ -1,0 +1,20 @@
+subject: ANAMURI
+predicate: convenes
+object: Thematic Congresses
+type: relationship-record
+title: ANAMURI — convenes — Thematic Congresses
+original_relationship: convenes
+evidence: >-
+  Website lists thematic congresses for land/sea workers, Indigenous women,
+  producers and youth.
+scope: Public categories confirmed; authority and process need review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row497
+  source_lineage: https://anamuri.cl/album/congresos-tematicos/
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

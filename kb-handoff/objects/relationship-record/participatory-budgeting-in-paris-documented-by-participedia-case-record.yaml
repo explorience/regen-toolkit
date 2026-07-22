@@ -1,0 +1,19 @@
+subject: Participatory Budgeting in Paris
+predicate: documented_by
+object: Participedia case record
+type: relationship-record
+title: Participatory Budgeting in Paris — documented_by — Participedia case record
+original_relationship: documented by
+evidence: >-
+  Participedia synthesizes a repeated municipal process with digital and
+  face-to-face components.
+scope: Follow primary and independent sources.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row27
+  source_lineage: https://participedia.net/case/5008
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

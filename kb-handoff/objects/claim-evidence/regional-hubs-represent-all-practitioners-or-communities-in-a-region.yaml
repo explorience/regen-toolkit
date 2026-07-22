@@ -1,0 +1,18 @@
+title: Regional hubs represent all practitioners or communities in a region
+type: claim-evidence
+claim: Regional hubs represent all practitioners or communities in a region
+interpretation: >-
+  Describe the hub’s actual members, scope, activity, and governance; do not
+  treat it as regional representation by default.
+uncertainty: >-
+  Hub membership and activity may not reflect the diversity, geography, or
+  political conditions of an entire region.
+evidence_stance: qualifying
+context: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row124
+  source_lineage: https://www.peoplepowered.org/governance
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

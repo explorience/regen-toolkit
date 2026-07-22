@@ -1,0 +1,25 @@
+title: Confluence-to-Knowledge Workflow
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Turn regional or thematic gatherings into consent-aware stories,
+  relationships, collective analysis, statements, follow-up actions and
+  implementation memory.
+potential_uses: >-
+  Local-node convenings, thematic research, movement learning and contributor
+  pathways.
+dependencies: >-
+  Paid facilitation, access support, multilingual documentation, contributor
+  review, follow-up owners and correction rights.
+tradeoffs: >-
+  Can extract stories, privilege articulate participants and create temporary
+  visibility without material return.
+context: Vikalp Sangam
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row252
+  source_lineage: https://kalpavriksh.org/our-work/alternatives/vikalp-sangam/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

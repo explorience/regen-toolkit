@@ -1,0 +1,20 @@
+title: Vikalp Sangam Alternatives Framework
+type: concept-lineage
+short_description: >-
+  Evolving framework identifying interconnected ecological, social, cultural,
+  economic, political and knowledge dimensions of radical alternatives.
+toolkit_usage: Direct comparator for holistic option review and theory-of-change analysis.
+original_object_type: Framework
+notes: >-
+  Why add: Direct comparator for holistic option review and theory-of-change
+  analysis. · Status/Caution: Evolving movement framework, not a universal
+  scoring system · Parent source system: Vikalp Sangam
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row620
+  source_lineage: >-
+    https://vikalpsangam.org/about/the-search-for-alternatives-key-aspects-and-principles/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

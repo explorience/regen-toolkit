@@ -1,0 +1,18 @@
+title: AI assistance can solve the maintenance burden
+type: claim-evidence
+claim: AI assistance can solve the maintenance burden
+interpretation: >-
+  Use AI for bounded assistance with logged provenance and human review; fund
+  human maintenance and domain expertise.
+uncertainty: >-
+  Automation can identify links, changes, duplicates, and drafts but cannot
+  replace accountable judgment, context, consent, or stewardship.
+evidence_stance: neutral
+context: Toolkit self-governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row167
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

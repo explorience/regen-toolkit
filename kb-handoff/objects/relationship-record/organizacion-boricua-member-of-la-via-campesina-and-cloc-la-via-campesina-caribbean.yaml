@@ -1,0 +1,21 @@
+subject: Organización Boricuá
+predicate: member_of
+object: La Vía Campesina and CLOC–La Vía Campesina Caribbean
+type: relationship-record
+title: >-
+  Organización Boricuá — member_of — La Vía Campesina and CLOC–La Vía Campesina
+  Caribbean
+original_relationship: member organization / participant in
+evidence: >-
+  Movement sources place Boricuá within international and Caribbean peasant
+  networks.
+scope: Formal current membership details should be steward-confirmed
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row517
+  source_lineage: >-
+    https://viacampesina.org/en/2024/08/podcast-peasant-agroecology-cools-down-the-planet/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

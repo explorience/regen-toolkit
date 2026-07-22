@@ -1,0 +1,16 @@
+subject: Local Contexts Hub
+predicate: supports
+object: TK and BC Labels
+type: relationship-record
+title: Local Contexts Hub — supports — TK and BC Labels
+original_relationship: enables communities to apply
+evidence: Communities customize and assign Labels through Hub Projects.
+scope: Community-controlled action
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row197
+  source_lineage: https://localcontexts.org/about/about-the-hub/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

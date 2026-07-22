@@ -1,0 +1,18 @@
+title: Formal governance documents describe actual governance
+type: claim-evidence
+claim: Formal governance documents describe actual governance
+interpretation: >-
+  Compare formal rules with observed practices, decision records, participant
+  accounts and technical controls.
+uncertainty: >-
+  Rules-in-use, informal norms, technical infrastructure and power may differ
+  from constitutions, policies, licenses or public descriptions.
+evidence_stance: qualifying
+context: GKC Research Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row103
+  source_lineage: https://knowledge-commons.net/research-framework/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

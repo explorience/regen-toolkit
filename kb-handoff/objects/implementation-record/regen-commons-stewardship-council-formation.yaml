@@ -1,0 +1,25 @@
+title: Regen Commons Stewardship Council Formation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  An emerging stewardship council is referenced as a review body for governance
+  and infrastructure-access proposals.
+what_returns_to_commons: >-
+  Tests the difference between naming stewardship and practicing accountable
+  commons governance.
+notes: >-
+  What to capture: Formation history, mandate, membership, selection, decision
+  records, conflicts, appeals, affected-party involvement, and actual decisions.
+  · Status/Caution: Candidate; requires primary governance records and human
+  confirmation.
+related_source_system: Regen Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row36
+  source_lineage: >-
+    https://forum.regen.network/t/agentic-organization-design-and-collaboration/610
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,25 @@
+title: Builder Residency as Public-Goods Incubator
+type: option-entry
+category: experimentation
+what_it_is: >-
+  A time-bounded co-living and collaboration program combining peer review,
+  mentorship, workshops, local field visits, storytelling, and a public
+  showcase.
+potential_uses: >-
+  Prototype development, interdisciplinary team formation, place-based
+  infrastructure, open-source public goods.
+dependencies: >-
+  Clear selection criteria, local partners, mentor capacity, participant
+  support, output repositories, post-program follow-up.
+tradeoffs: >-
+  High cost, cohort bias, event-driven short-termism, and weak evidence of
+  maintenance after the residency.
+context: Funding the Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row53
+  source_lineage: https://www.fundingthecommons.io/builderresidency2025
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

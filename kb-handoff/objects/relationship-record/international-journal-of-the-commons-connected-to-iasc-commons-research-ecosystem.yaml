@@ -1,0 +1,19 @@
+subject: International Journal of the Commons
+predicate: connected_to
+object: IASC commons research ecosystem
+type: relationship-record
+title: >-
+  International Journal of the Commons — connected_to — IASC commons research
+  ecosystem
+original_relationship: connected to
+evidence: Open-access journal serving commons scholarship.
+scope: Ecosystem relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row102
+  source_lineage: https://thecommonsjournal.org/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

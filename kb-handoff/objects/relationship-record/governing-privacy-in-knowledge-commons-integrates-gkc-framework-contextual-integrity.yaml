@@ -1,0 +1,21 @@
+subject: Governing Privacy in Knowledge Commons
+predicate: integrates
+object: GKC framework + Contextual Integrity
+type: relationship-record
+title: >-
+  Governing Privacy in Knowledge Commons — integrates — GKC framework +
+  Contextual Integrity
+original_relationship: integrates
+evidence: >-
+  Publication explicitly combines the two frameworks for personal-information
+  governance.
+scope: Conceptual integration, not equivalence.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row15
+  source_lineage: https://knowledge-commons.net/publications/privacy-book/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

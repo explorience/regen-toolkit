@@ -1,0 +1,20 @@
+title: Audrey Tang
+type: person
+full_name: Audrey Tang
+affiliation: vTaiwan / g0v / Plurality
+consent_status: unverified — default non-public (Principle 8)
+url: https://info.vtaiwan.tw/
+notes: >-
+  Why add: Important bridge across vTaiwan, g0v, Plurality, public digital
+  infrastructure, and participatory governance. · Status/Caution: Already
+  appears in the original workbook; continuation record should enrich
+  relationships rather than duplicate the person · Parent source system: vTaiwan
+  / g0v / Plurality
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row286
+  source_lineage: https://info.vtaiwan.tw/
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

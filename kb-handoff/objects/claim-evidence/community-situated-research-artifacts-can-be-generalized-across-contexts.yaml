@@ -1,0 +1,18 @@
+title: Community-situated research artifacts can be generalized across contexts
+type: claim-evidence
+claim: Community-situated research artifacts can be generalized across contexts
+interpretation: >-
+  Preserve the original community context and treat cross-context reuse as a new
+  adaptation requiring affected-party review.
+uncertainty: >-
+  Artifacts were created with particular communities, histories, risks,
+  languages, and governance relationships.
+evidence_stance: qualifying
+context: Metagov / Groundwork Fellowship
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row46
+  source_lineage: https://metagov.org/projects/groundwork-fellowship/documentation
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

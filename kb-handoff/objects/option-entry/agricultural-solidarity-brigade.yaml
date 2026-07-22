@@ -1,0 +1,20 @@
+title: Agricultural Solidarity Brigade
+type: option-entry
+category: coordination
+what_it_is: >-
+  Mobilize coordinated labor, tools and learning to maintain or restore farms
+  and movement relationships.
+potential_uses: Boricuá brigades; 2025 climate brigade
+dependencies: Links maintenance, pedagogy, disaster response and international solidarity.
+tradeoffs: >-
+  Avoid volunteer romanticization; assess safety, host authority, compensation,
+  continuity and burden distribution.
+context: Mutual-aid workflow
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row331
+  source_lineage: Candidate — develop with one bounded brigade case
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

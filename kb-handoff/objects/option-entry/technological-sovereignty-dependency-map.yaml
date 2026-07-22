@@ -1,0 +1,25 @@
+title: Technological Sovereignty Dependency Map
+type: option-entry
+category: coordination
+what_it_is: >-
+  Map models, hosting, data stores, code, vendors, costs, skills and exit
+  options behind a sovereignty claim.
+potential_uses: >-
+  Movement AI, civic technology, community networks and public digital
+  infrastructure.
+dependencies: >-
+  Technical disclosure, contracts, architecture, maintenance capacity and
+  governance review.
+tradeoffs: >-
+  May reveal security-sensitive details; independence is not always feasible or
+  desirable.
+context: IARAA / movement technology
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row289
+  source_lineage: >-
+    https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

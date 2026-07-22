@@ -1,0 +1,25 @@
+title: Polycentric Stewardship Architecture
+type: option-entry
+category: governance
+what_it_is: >-
+  Distribute stewardship among multiple semi-autonomous teams or source-system
+  stewards while retaining coordination, shared standards, and conflict
+  pathways.
+potential_uses: >-
+  Knowledge commons governance, local nodes, federated databases, thematic
+  review groups.
+dependencies: >-
+  Clear domains, shared protocols, escalation, resource support, visibility into
+  overlap and power.
+tradeoffs: >-
+  Can fragment responsibility, obscure accountability, or reproduce unequal
+  capacity.
+context: Vincent and Elinor Ostrom lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row125
+  source_lineage: https://ostromworkshop.indiana.edu/about/ostroms-history/index.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

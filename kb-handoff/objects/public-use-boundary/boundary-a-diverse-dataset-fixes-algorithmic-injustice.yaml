@@ -1,0 +1,10 @@
+title: Boundary — A diverse dataset fixes algorithmic injustice
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Representation can reduce some performance gaps but does not resolve harmful
+  use cases, institutional racism, surveillance or lack of remedy.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Claims and Cautions!row264
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

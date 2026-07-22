@@ -1,0 +1,18 @@
+title: Community-driven AI is inherently just
+type: claim-evidence
+claim: Community-driven AI is inherently just
+interpretation: >-
+  Assess authority, purpose, harms, labor, data rights, maintenance and
+  institutional context for each prototype.
+uncertainty: >-
+  Community participation can coexist with unsafe use cases, unequal labor, weak
+  consent or external infrastructure dependence.
+evidence_stance: neutral
+context: IT for Change / FemFirst Lab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row353
+  source_lineage: https://www.itforchange.net/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,22 @@
+title: Contributor Solidarity Fund Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Create a small governed pool for contributor access costs, emergencies or
+  care-related participation barriers.
+what_returns_to_commons: Tests whether contributor support can move beyond informal generosity.
+notes: >-
+  What to capture: Funding source, eligibility, privacy, decision process,
+  conflicts, replenishment, outcomes and participant feedback. · Status/Caution:
+  High-sensitivity; requires clear privacy and appeals
+related_source_system: Toolkit / mutual aid cluster
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row215
+  source_lineage: >-
+    https://www.deanspade.net/mutual-aid-building-solidarity-during-this-crisis-and-the-next/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

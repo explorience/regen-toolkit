@@ -1,0 +1,20 @@
+title: Accessible Final-Handoff Index
+type: option-entry
+category: implementation-operations
+what_it_is: >-
+  Provide a compact, plain-language, keyboard-friendly orientation to the
+  workbook with sheet purposes, audiences, links and layered views.
+potential_uses: Final workbook handoff, contributor onboarding and technical migration.
+dependencies: Stable sheet inventory, accessible linking, editorial ownership, user testing.
+tradeoffs: >-
+  Can become stale, duplicate content or hide complexity behind an
+  oversimplified front door.
+context: Toolkit handoff
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row204
+  source_lineage: Internal disability-access review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

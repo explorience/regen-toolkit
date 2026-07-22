@@ -1,0 +1,16 @@
+subject: Bartolina Sisa Confederation
+predicate: related_to
+object: CLOC–La Vía Campesina ecosystem
+type: relationship-record
+title: Bartolina Sisa Confederation — related_to — CLOC–La Vía Campesina ecosystem
+original_relationship: participates in / related to
+evidence: Current CLOC reporting carries organization statements.
+scope: Do not infer uncontested representation.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row488
+  source_lineage: https://cloc-viacampesina.net/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

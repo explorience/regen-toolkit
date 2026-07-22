@@ -1,0 +1,24 @@
+title: Crip-Technoscience Review of an AI or Civic Tool
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one Toolkit-relevant technology and assess disabled people’s roles as
+  designers, workers, governors, data subjects and affected users.
+what_returns_to_commons: >-
+  Connects critical data, design justice and disability justice to concrete
+  technology evaluation.
+notes: >-
+  What to capture: Problem framing, design authority, data, testing,
+  procurement, deployment, labor, access, refusal, harms, repair and
+  maintenance. · Status/Caution: High-priority candidate; disability-led
+  technical review needed
+related_source_system: Critical Design Lab
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row203
+  source_lineage: https://www.criticaldesignlab.com/podcast/episode-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

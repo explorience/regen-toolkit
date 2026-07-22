@@ -1,0 +1,19 @@
+title: Open-source or civic technology is inherently liberatory
+type: claim-evidence
+claim: Open-source or civic technology is inherently liberatory
+interpretation: >-
+  Assess ownership, control, access, labor, harms and institutional context
+  rather than inferring justice from openness or civic purpose.
+uncertainty: >-
+  Tools and design sites can reproduce domination through access barriers, labor
+  structures, surveillance, governance and institutional use.
+evidence_stance: qualifying
+context: Design Justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row249
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/yvwnnz7b
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,25 @@
+title: Event Archive to Field-Memory Workflow
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Convert conference agendas, talks, speaker pages, workshops, demos, and
+  post-event material into dated, source-linked concept, claim, relationship,
+  and implementation records.
+potential_uses: >-
+  Media stewardship, research roadmaps, public-goods mechanism comparison,
+  civic-tech discovery.
+dependencies: >-
+  Stable event identifiers, transcripts or recordings, speaker consent/public
+  status, editorial review, source-quality labels.
+tradeoffs: >-
+  Can over-index prominent speakers, strip context, and turn convening
+  participation into implied authority.
+context: Funding the Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row52
+  source_lineage: https://www.fundingthecommons.io/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+title: A shared library becomes a commons when it is publicly accessible
+type: claim-evidence
+claim: A shared library becomes a commons when it is publicly accessible
+interpretation: >-
+  Regen Commons frames a commons as knowledge and work that people collectively
+  use and tend; operational governance still requires evidence.
+uncertainty: >-
+  The source itself emphasizes tending and shared practice, while access alone
+  does not establish stewardship, governance, or reciprocity.
+evidence_stance: neutral
+context: Regen Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row61
+  source_lineage: https://regencommons.com/learn
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

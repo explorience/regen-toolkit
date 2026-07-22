@@ -1,0 +1,19 @@
+title: Social Signal Is Not Endorsement
+type: claim-evidence
+claim: Social Signal Is Not Endorsement
+uncertainty: >-
+  Public-use ready as cautionary principle with caveats; do not treat as fully
+  externally reviewed framework.
+notes: >-
+  Priority: A social signal can be useful for discovery, but it should not be
+  treated as endorsement, evidence, ranking, importance, legitimacy, or proof of
+  quality. · Next: Add as core structural integrity principle; use before any
+  public-facing people/source-system/resource list from social-signal data. ·
+  Notes: Added in Batch 1A Claims update.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04909
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

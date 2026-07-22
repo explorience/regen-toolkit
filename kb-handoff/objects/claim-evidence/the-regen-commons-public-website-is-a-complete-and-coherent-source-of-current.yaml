@@ -1,0 +1,21 @@
+title: The Regen Commons public website is a complete and coherent source of current…
+type: claim-evidence
+claim: >-
+  The Regen Commons public website is a complete and coherent source of current
+  programs
+interpretation: >-
+  Treat the home and learning pages as current framing; verify projects,
+  governance, stewards, and documentation through primary records before
+  stronger use.
+uncertainty: >-
+  The domain currently combines strong commons-learning pages with generic
+  About/Projects content and a missing documentation route.
+evidence_stance: qualifying
+context: Regen Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row60
+  source_lineage: https://regencommons.com/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

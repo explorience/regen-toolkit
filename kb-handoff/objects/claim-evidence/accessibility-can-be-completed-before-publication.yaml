@@ -1,15 +1,16 @@
 title: Accessibility can be completed before publication
 type: claim-evidence
 claim: Accessibility can be completed before publication
-caution: Access needs, technologies, contributors and content change over time.
-safe_working_language: >-
+interpretation: >-
   Treat accessibility as recurring maintenance with owners, budgets, issue
   response and review cadence.
-claim_kind: Caution
+uncertainty: Access needs, technologies, contributors and content change over time.
+evidence_stance: qualifying
+context: Toolkit
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Claims and Cautions!row11
+  origin: Canonical_DB.xlsx#Claims and Cautions!row298
   source_lineage: Internal disability-access review
-work_order: wo-b0da4f8a6f05
+work_order: wo-8c810a6700ec
 source_lineage: claims-cautions.csv

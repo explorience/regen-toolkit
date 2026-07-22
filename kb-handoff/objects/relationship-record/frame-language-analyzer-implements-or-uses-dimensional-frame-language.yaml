@@ -1,0 +1,16 @@
+subject: Frame-Language Analyzer
+predicate: implements_or_uses
+object: Dimensional Frame Language
+type: relationship-record
+title: Frame-Language Analyzer — implements_or_uses — Dimensional Frame Language
+original_relationship: applies
+evidence: Suite site offers document-language audits for structural assumptions
+scope: Method and error rates need review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row146
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

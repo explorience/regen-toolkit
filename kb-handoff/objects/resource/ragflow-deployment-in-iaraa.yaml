@@ -1,0 +1,17 @@
+title: RAGFlow deployment in IARAA
+type: resource
+resource_type: Technical component
+url: https://baobab.iapc.group/pt/iaraa/
+original_source: IARAA
+notes: >-
+  Why add: Concrete technical dependency and open-source infrastructure lead. ·
+  Status/Caution: Deployment, version, security and maintainers unresolved ·
+  Parent source system: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row710
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

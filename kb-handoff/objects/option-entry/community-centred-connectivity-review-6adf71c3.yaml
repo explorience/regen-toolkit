@@ -1,0 +1,20 @@
+title: Community-Centred Connectivity Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Assess infrastructure through local governance, ownership, affordability,
+  relevance, skills, maintenance, rights and collective benefit.
+potential_uses: DPI review, local-node design, connectivity funding, civic infrastructure.
+dependencies: >-
+  Community-defined goals, governance records, service data, labor and
+  maintenance evidence.
+tradeoffs: Can become a branding checklist without community authority.
+context: APC / community networks
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row232
+  source_lineage: https://cnlearning.apc.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

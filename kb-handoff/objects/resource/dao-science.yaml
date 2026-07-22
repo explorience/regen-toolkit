@@ -1,0 +1,17 @@
+title: DAO Science
+type: resource
+resource_type: Publication / research community
+url: https://metagov.org/projects/dao-science
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Foundational governance research and open-question source. ·
+  Status/Caution: Research agenda, not settled governance guidance. · Parent
+  source system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row77
+  source_lineage: https://metagov.org/projects/dao-science
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

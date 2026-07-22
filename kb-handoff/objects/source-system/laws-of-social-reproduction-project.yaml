@@ -9,13 +9,19 @@ what_it_curates: >-
 why_it_matters: >-
   Interdisciplinary project focused on social reproduction, law, labor, care,
   feminist political economy and collective struggle.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row27
-  source_lineage: https://www.lawsofsocialreproduction.net/
 caution: >-
   Academic framing should not replace worker, caregiver, movement or community
   knowledge; licensing and context vary by artifact.
+extraction_status: >-
+  Current research connecting care, labor, reproduction, law, institutions and
+  political strategy.
+notes: 'Role: Research and publication source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row26
+  source_lineage: https://www.lawsofsocialreproduction.net/
+normalization_flag: DUP-SO-26
+review_needs: 'Matty dup-flag DUP-SO-26: Mutual Aid Disaster Relief'
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

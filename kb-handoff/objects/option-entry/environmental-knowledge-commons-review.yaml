@@ -1,0 +1,25 @@
+title: Environmental Knowledge Commons Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Examine scientific, local, institutional and normative environmental knowledge
+  together with the material ecosystem, affected communities, data flows and
+  governance institutions.
+potential_uses: >-
+  Ecological source systems, MRV, registries, bioregional knowledge, restoration
+  projects.
+dependencies: >-
+  Domain expertise, place-based and Indigenous consent, uncertainty, source
+  lineage, benefit sharing, material-outcome evidence.
+tradeoffs: >-
+  Knowledge governance analysis cannot substitute for ecological evidence or
+  community legitimacy.
+context: Environmental GKC
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row72
+  source_lineage: https://knowledge-commons.net/publications/environmental-book/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

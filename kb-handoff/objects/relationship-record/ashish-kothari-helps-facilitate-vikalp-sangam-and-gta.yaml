@@ -1,0 +1,19 @@
+subject: Ashish Kothari
+predicate: helps_facilitate
+object: Vikalp Sangam and GTA
+type: relationship-record
+title: Ashish Kothari — helps_facilitate — Vikalp Sangam and GTA
+original_relationship: helps facilitate
+evidence: >-
+  Public profiles identify facilitation and coordination roles across the
+  alternatives processes.
+scope: Scoped facilitation relationship, not ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row339
+  source_lineage: https://globaltapestryofalternatives.org/core_members
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,26 @@
+title: Paid Accessible Contributor Workflow
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  A bounded contribution and review process that pays all required labor,
+  supports multiple formats and pacing, minimizes disclosure, and gives
+  contributors meaningful authority over wording, attribution, sensitivity and
+  withdrawal.
+potential_uses: >-
+  Resource expansion, source-system steward review, affected-party review,
+  accessibility testing and public-use preparation.
+dependencies: >-
+  Funded budget, access steward, clear task scope, decision-rights statement,
+  payment route, maintenance owner and remediation path.
+tradeoffs: >-
+  Can become performative if payment is low, authority is symbolic,
+  accessibility is untested or care is shifted back onto participants.
+context: Toolkit self-review synthesis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row223
+  source_lineage: Internal disability/labor/care synthesis — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

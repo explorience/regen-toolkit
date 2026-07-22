@@ -1,0 +1,23 @@
+title: Care Manifesto Institutional Crosswalk
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply the manifesto’s care scales to one Toolkit-related organization or local
+  initiative.
+what_returns_to_commons: >-
+  Connects care theory to concrete institutional design without treating it as a
+  generic value statement.
+notes: >-
+  What to capture: Kinship/community/public/market/ecological responsibilities,
+  budgets, labor, authority, exclusions and outcomes. · Status/Caution:
+  Candidate; normative framework needs political-economic review
+related_source_system: The Care Collective
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row216
+  source_lineage: https://www.versobooks.com/products/2625-the-care-manifesto
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

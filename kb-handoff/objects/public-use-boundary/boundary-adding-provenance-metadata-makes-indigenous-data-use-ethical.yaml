@@ -1,0 +1,10 @@
+title: Boundary — Adding provenance metadata makes Indigenous data use ethical
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Provenance improves visibility but cannot establish consent, benefit,
+  authority, reciprocity or appropriate purpose.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Claims and Cautions!row257
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

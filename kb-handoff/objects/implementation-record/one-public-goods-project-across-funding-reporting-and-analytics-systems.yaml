@@ -1,24 +1,24 @@
 title: One Public-Goods Project Across Funding, Reporting and Analytics Systems
 type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
 context: >-
   Select one project present in a funding platform, Karma GAP and OSO, and trace
   the full record without collapsing distinct signals.
-source_position: ai-assisted-synthesis
 what_returns_to_commons: >-
   Tests the central Batch 1B question: whether multiple source systems can
   produce better context without false synthesis.
 notes: >-
-  What to capture: application claims, funding decision, disbursement,
+  What to capture: Application claims, funding decision, disbursement,
   milestones, proof-of-work, repository metrics, maintenance, disputes, missing
-  evidence and later status.
-review_needs: >-
-  Priority candidate; choose a project with public records and consent-sensitive
-  review.
+  evidence and later status. · Status/Caution: Priority candidate; choose a
+  project with public records and consent-sensitive review
+related_source_system: Cross-system
+review_needs: prospective candidate — implementation evidence may be incomplete
 maturity: raw
 ai_assisted: true
-source_lineage: Internal Batch 1B synthesis
 provenance:
-  origin: Canonical_DB.xlsx#Implementation Memory!row2
-  transformation: synthesized
-  authorship: ai-assisted
-work_order: wo-341bea389d2b
+  origin: Canonical_DB.xlsx#Implementation Memory!row1
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

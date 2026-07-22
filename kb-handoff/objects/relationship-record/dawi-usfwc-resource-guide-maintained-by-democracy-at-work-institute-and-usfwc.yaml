@@ -1,0 +1,18 @@
+subject: DAWI / USFWC Resource Guide
+predicate: maintained_by
+object: Democracy at Work Institute and USFWC
+type: relationship-record
+title: >-
+  DAWI / USFWC Resource Guide — maintained_by — Democracy at Work Institute and
+  USFWC
+original_relationship: maintained by
+evidence: Resource guide is presented jointly.
+scope: Current publishing relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row226
+  source_lineage: https://institute.coop/resource-guide
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

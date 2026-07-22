@@ -1,0 +1,19 @@
+title: Open-source civic infrastructure is automatically community governed
+type: claim-evidence
+claim: Open-source civic infrastructure is automatically community governed
+interpretation: >-
+  Describe software freedom separately from project governance, deployment
+  control, maintenance capacity, and user influence.
+uncertainty: >-
+  Open code can coexist with concentrated technical capacity, funding
+  dependence, vendor control, institutional authority, or inaccessible
+  governance.
+evidence_stance: neutral
+context: Decidim / civic tech
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row48
+  source_lineage: https://docs.decidim.org/en/develop/whitepaper/what-is-decidim.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

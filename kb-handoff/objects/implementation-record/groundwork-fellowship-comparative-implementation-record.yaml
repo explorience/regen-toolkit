@@ -1,0 +1,21 @@
+title: Groundwork Fellowship Comparative Implementation Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare the four community-situated artifacts without flattening their
+  distinct social, political, cultural, and safety contexts.
+what_returns_to_commons: Tests plural, community-led contribution pathways for the Toolkit.
+notes: >-
+  What to capture: Fellow-community relationship, methods, artifact ownership,
+  local use, maintenance, risks, follow-up and community feedback. ·
+  Status/Caution: High-context record; affected-community review required.
+related_source_system: Metagov / Groundwork Fellowship
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row25
+  source_lineage: https://metagov.org/projects/groundwork-fellowship/documentation
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

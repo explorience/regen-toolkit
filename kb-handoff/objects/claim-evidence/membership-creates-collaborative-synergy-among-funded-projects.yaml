@@ -1,0 +1,20 @@
+title: Membership creates collaborative synergy among funded projects
+type: claim-evidence
+claim: Membership creates collaborative synergy among funded projects
+interpretation: >-
+  The round tested consortium membership as a curation and field-building
+  condition; any resulting synergy should be evaluated through project and
+  network evidence.
+uncertainty: >-
+  The GG19 announcement presents consortium membership as an experiment; it does
+  not establish that membership improved collaboration or outcomes.
+evidence_stance: neutral
+context: OpenCivics Genesis Round
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row72
+  source_lineage: >-
+    https://gov.gitcoin.co/t/announcing-the-opencivics-genesis-round-for-gg19/16879
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

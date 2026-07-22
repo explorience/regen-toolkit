@@ -1,0 +1,58 @@
+# T3b — full Canonical_DB migration (2026-07-21). The real migration behind the T3a slice
+# (`_handoff-slice-manifest.yaml`). Full row counts, all six families, on the T4 schemas.
+# Deterministic crosswalk-driven ETL; validated by the framework accept gate. All raw / review-gated.
+# Report: docs/reports/2026-07-21-canonical-migration-manifest.md
+migrated: 2026-07-21
+source: docs/RKC_Handoff_July_2026_FINAL_VERIFIED/02_Core/Canonical_DB.xlsx   # read-only
+target: kb-handoff/                # kb-folder adapter — distinct from data/kb/ (articles)
+work_orders_dir: .workorders-handoff-full/   # isolated from T3a + self-ingestion WOs
+rebuild: fresh                     # cleared the 146-object T3a slice; full corpus is authoritative
+pipeline:
+  - scripts/validation/export-handoff-full.py       # xlsx → CSV (families + _norm config)
+  - scripts/validation/map-handoff-full.mjs         # deterministic mapper (born-rules + crosswalk)
+  - scripts/validation/map-discovery-priority.mjs   # Phase 3 bounded Discovery promotion
+families:
+  - sheet: Source-System Cards
+    rows: 67
+    schema: source-system
+    wo: wo-f1f33b16bf37
+  - sheet: New Objects
+    rows: 878
+    schema: mixed   # resource 591 · concept-lineage 111 · person 110 · organization 66 (via Object Type Crosswalk)
+    wo: wo-4192270d569c
+  - sheet: Option Candidates
+    rows: 345
+    schema: option-entry
+    wo: wo-349602e76c49
+  - sheet: Claims and Cautions
+    rows: 504
+    schema: claim-evidence
+    wo: wo-8c810a6700ec
+  - sheet: Implementation Memory
+    rows: 341
+    schema: implementation-record   # record_stage: prospective
+    wo: wo-1a015e37557a
+  - sheet: Relationship Leads
+    rows: 554
+    schema: relationship-record     # T4 — no longer parked (T3a gap closed)
+    wo: wo-6b92591cfa4a
+discovery_promotion:
+  source: docs/RKC_Handoff_July_2026_FINAL_VERIFIED/02_Core/Discovery_Pool.xlsx
+  selection: Priority Working Set    # 114 curated rows — NOT the 4,951-row All Objects Registry (Zone A)
+  wo: wo-9160efad3c7b
+  promoted: 98
+  deferred_already_canonical: 11
+  excluded_workbook_meta: 5
+normalization_config:                # Matty's own layer, applied as lookup tables
+  - .tmp/handoff-full/_norm/object-type-crosswalk.csv   # 549
+  - .tmp/handoff-full/_norm/predicate-map.csv           # 340 (248 → review_needed sentinel)
+  - .tmp/handoff-full/_norm/controlled-vocab.csv        # 44
+  - .tmp/handoff-full/_norm/normalization-flags.csv     # 87 curated dup/conflict flags
+totals:
+  canonical_rows: 2689
+  canonical_objects: 2957           # 2689 primary + 268 boundaries
+  discovery_objects: 101            # 98 primary + 3 boundaries
+  kb_handoff_total: 3058            # 2787 raw primary + 271 public-use-boundary
+  b5_collision_sets: 42             # title-level dups the guard caught (90 objects, 50 suffixed)
+  high_risk: 168
+  review_needs: 1146

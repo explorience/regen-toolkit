@@ -1,0 +1,20 @@
+title: CLOC Caribbean Regional Assembly Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: Develop the 2025 regional assembly as a bounded regional-governance case.
+what_returns_to_commons: Corrects continental abstraction and adds Caribbean governance evidence.
+notes: >-
+  What to capture: Participating organizations, agenda, language, decision
+  process, declaration, follow-up, representation gaps and maintenance. ·
+  Status/Caution: High-priority corrective case
+related_source_system: CLOC Caribbean Region
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row308
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-final-asamblea-cloc-via-campesina-caribe
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

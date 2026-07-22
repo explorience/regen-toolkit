@@ -1,0 +1,18 @@
+title: Plural technologies strengthen democracy
+type: claim-evidence
+claim: Plural technologies strengthen democracy
+interpretation: >-
+  Plurality offers a design vision for technology that supports collaboration
+  across diversity; democratic effects require implementation evidence.
+uncertainty: >-
+  The claim is normative and programmatic; actual effects vary by technology,
+  institution, access, governance, and political context.
+evidence_stance: neutral
+context: Plurality Institute / Plurality book
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row90
+  source_lineage: https://plurality.net/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

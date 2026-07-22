@@ -1,0 +1,24 @@
+title: Design Justice Review of the Regen Knowledge Commons
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply the principles to the database’s structure, contributor workflow,
+  ontology, review rights, public views and technical handoff.
+what_returns_to_commons: >-
+  Turns design justice from a thinker lens into direct institutional review of
+  the Toolkit.
+notes: >-
+  What to capture: Who frames categories; affected communities; decision rights;
+  benefits and burdens; labor; ownership; accessibility; harms; correction;
+  refusal; community control. · Status/Caution: Priority candidate; must include
+  compensated affected-party and accessibility review
+related_source_system: Design Justice Network / Regen Knowledge Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row166
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

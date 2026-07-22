@@ -1,0 +1,19 @@
+title: Reduced purchased inputs necessarily improve household wellbeing
+type: claim-evidence
+claim: Reduced purchased inputs necessarily improve household wellbeing
+interpretation: >-
+  Assess costs, labor, income, nutrition, debt, access and benefit distribution
+  separately.
+uncertainty: >-
+  Lower input costs may coexist with higher labor burdens, market constraints,
+  land inequality or uneven benefits.
+evidence_stance: qualifying
+context: Shashe / agroecology
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row388
+  source_lineage: >-
+    https://viacampesina.org/en/2014/10/shashe-smallholder-farmer-organisation-sfo-a-true-centre-of-agro-ecology/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

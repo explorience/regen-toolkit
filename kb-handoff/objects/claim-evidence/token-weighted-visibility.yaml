@@ -1,0 +1,14 @@
+title: Token-weighted visibility
+type: claim-evidence
+claim: Token-weighted visibility
+interpretation: Treat as preference and incentive data; examine concentration and gaming.
+uncertainty: Stake and token holdings may shape visibility and rewards.
+evidence_stance: qualifying
+context: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row7
+  source_lineage: https://docs.giveth.io/givpower
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

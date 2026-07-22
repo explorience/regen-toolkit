@@ -1,0 +1,25 @@
+title: Frame-Language Audit of the Toolkit Master Document
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review a bounded section of the master document for undefined value terms,
+  imported frames and mismatches between stated purpose and structural language.
+what_returns_to_commons: >-
+  Tests whether the vocabulary improves clarity without flattening the Toolkit's
+  multi-centered character.
+notes: >-
+  What to capture: Terms flagged; alternative readings; intended meaning;
+  revisions; disagreements; what remained plural or unresolved. ·
+  Status/Caution: Candidate; include at least one independent or counter-frame
+  reviewer
+related_source_system: Dimensional Frame Language
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row148
+  source_lineage: >-
+    https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

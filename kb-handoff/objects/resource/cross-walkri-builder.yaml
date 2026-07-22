@@ -1,0 +1,18 @@
+title: CROSS+WALKRI Builder
+type: resource
+resource_type: Tool / reference implementation
+url: https://crosswalkri-builder.vercel.app/
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: Concrete tool for testing standards-to-interface translation. ·
+  Status/Caution: Reference implementation; usability, security, maintenance and
+  real-program outcomes require review · Parent source system: Durgadas / CSIS
+  lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row390
+  source_lineage: https://crosswalkri-builder.vercel.app/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

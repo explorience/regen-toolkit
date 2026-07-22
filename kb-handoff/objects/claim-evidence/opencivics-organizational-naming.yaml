@@ -1,0 +1,18 @@
+title: OpenCivics organizational naming
+type: claim-evidence
+claim: OpenCivics organizational naming
+interpretation: >-
+  Preserve each artifact and organizational layer separately, with current
+  status and relationship fields rather than assuming one unified institution.
+uncertainty: >-
+  Network, Consortium, Labs, Fund/Foundation, Commons, Wiki, Portal, and Swarm
+  materials can be conflated as one legal or governance entity.
+evidence_stance: qualifying
+context: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row76
+  source_lineage: https://www.opencivics.co/network
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

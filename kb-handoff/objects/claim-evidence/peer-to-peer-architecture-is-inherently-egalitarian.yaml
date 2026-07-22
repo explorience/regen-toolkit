@@ -1,0 +1,18 @@
+title: Peer-to-peer architecture is inherently egalitarian
+type: claim-evidence
+claim: Peer-to-peer architecture is inherently egalitarian
+interpretation: >-
+  P2P structures may enable broader contribution; equity depends on governance,
+  resources, access, and power relations.
+uncertainty: >-
+  Distributed participation can still reproduce unequal expertise, access,
+  ownership, labor, visibility, and decision power.
+evidence_stance: qualifying
+context: P2P Foundation lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row195
+  source_lineage: https://blog.p2pfoundation.net/about/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

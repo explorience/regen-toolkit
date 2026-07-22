@@ -1,0 +1,23 @@
+title: Karma GAP
+type: directory
+steward: Karma GAP
+return_path: unset — establish via register-source
+url: https://gap.karmahq.xyz/
+why_it_matters: Strong source system for implementation memory and project reporting.
+toolkit_route: >-
+  Resource Graph & Ecosystem Atlas; Option Library; Deployment & Structural
+  Integrity; Tracks & Composition; Implementation & Learning Memory; Evolution
+  Layer
+notes: >-
+  Priority: Strong source system for implementation memory and project
+  reporting. · Next: Draft card; extract reporting fields and option template. ·
+  Notes: Directly supports claim-evidence, implementation memory, and public
+  goods builder reporting.
+review_needs: Discovery_Pool promotion (Tier 1) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-01026
+  source_lineage: https://gap.karmahq.xyz/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

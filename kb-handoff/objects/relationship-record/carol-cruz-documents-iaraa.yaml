@@ -1,0 +1,17 @@
+subject: Carol Cruz
+predicate: documents
+object: IARAA
+type: relationship-record
+title: Carol Cruz — documents — IARAA
+original_relationship: documents / communicates
+evidence: Authored MST’s 2025 project introduction and co-authored later explanation.
+scope: Communication contribution
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row458
+  source_lineage: >-
+    https://mst.org.br/2025/11/06/conheca-a-iaraa-inteligencia-artificial-da-reforma-agraria-e-agroecologia/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

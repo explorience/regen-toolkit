@@ -1,0 +1,24 @@
+title: Hybrid Crowdsourcing and Staff-Editor Stewardship
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Allow broad contribution and editing while staff editors curate collections
+  and flag citation, completeness, language, and quality issues.
+potential_uses: >-
+  Large internal knowledge commons, public submission pathways, distributed
+  research networks.
+dependencies: >-
+  Clear roles, visible review status, prompts, contributor history, correction
+  processes, funding for editorial labor.
+tradeoffs: >-
+  Volunteer and staff capacity can become a bottleneck; editorial authority may
+  reproduce language or institutional bias.
+context: Participedia
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row74
+  source_lineage: https://participedia.net/getting-started
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

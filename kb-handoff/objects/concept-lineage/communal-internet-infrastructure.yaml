@@ -1,0 +1,21 @@
+title: Communal Internet Infrastructure
+type: concept-lineage
+short_description: >-
+  Framework for community- or organization-managed digital infrastructure
+  emphasizing autonomy, democratic management, privacy and user rights.
+toolkit_usage: >-
+  Useful bridge from community networks to community-owned hosting, cloud,
+  intranets and digital services.
+original_object_type: Framework / publication
+notes: >-
+  Why add: Useful bridge from community networks to community-owned hosting,
+  cloud, intranets and digital services. · Status/Caution: Aspirational
+  framework; implementation evidence required · Parent source system: APC
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row556
+  source_lineage: https://www.apc.org/en/pubs/communal-internet-infrastructure
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

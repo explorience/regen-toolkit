@@ -1,0 +1,24 @@
+subject: IARAA
+predicate: requires_review_by
+object: >-
+  Indigenous/community-data, feminist, labor, care, disability and privacy
+  reviewers
+type: relationship-record
+title: >-
+  IARAA — requires_review_by — Indigenous/community-data, feminist, labor, care,
+  disability and privacy reviewers
+original_relationship: requires review by
+evidence: >-
+  Corpus, access, labor and movement data create cross-cutting rights and safety
+  questions.
+scope: Review relationship, not existing endorsement
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row420
+  source_lineage: Internal cluster review — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

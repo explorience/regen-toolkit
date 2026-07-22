@@ -1,0 +1,23 @@
+title: Headless Brand Commons
+type: option-entry
+category: governance
+what_it_is: >-
+  Steward a shared movement name or mark through community governance rather
+  than exclusive organizational control.
+potential_uses: Movement brands, shared marks, ecosystem identity, anti-capture coordination.
+dependencies: >-
+  Legal analysis, trademark-holder participation, governance legitimacy, usage
+  norms, dispute process.
+tradeoffs: >-
+  Brand policing may reproduce central control; unclear authority can create
+  conflict or false affiliation.
+context: Regen Brand Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row42
+  source_lineage: >-
+    https://forum.regen.network/t/regen-brand-commons-and-the-regen-token-symbol/75
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

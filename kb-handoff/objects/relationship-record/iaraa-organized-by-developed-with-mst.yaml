@@ -1,0 +1,17 @@
+subject: IARAA
+predicate: organized_by_developed_with
+object: MST
+type: relationship-record
+title: IARAA — organized_by_developed_with — MST
+original_relationship: organized by / developed with
+evidence: Named organizer and movement developer.
+scope: Exact decision rights unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row422
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

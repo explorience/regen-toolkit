@@ -1,0 +1,22 @@
+title: Paid Pilot Evaluation Rubric
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Evaluate pay, accessibility, authority, workload, privacy, knowledge quality,
+  maintenance and contributor experience rather than completion alone.
+potential_uses: >-
+  Contributor workflow pilots, workshops, fellowships, review programs and
+  source-system steward engagement.
+dependencies: >-
+  Predefined evidence, confidential feedback option, independent reviewer and
+  remediation budget.
+tradeoffs: Scoring can oversimplify experience or create pressure to report success.
+context: Toolkit implementation memory
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row226
+  source_lineage: Internal cross-lens synthesis — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

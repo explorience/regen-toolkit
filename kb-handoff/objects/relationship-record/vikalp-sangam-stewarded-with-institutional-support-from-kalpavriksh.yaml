@@ -1,0 +1,19 @@
+subject: Vikalp Sangam
+predicate: stewarded_with_institutional_support_from
+object: Kalpavriksh
+type: relationship-record
+title: Vikalp Sangam — stewarded_with_institutional_support_from — Kalpavriksh
+original_relationship: stewarded with institutional support from
+evidence: >-
+  Kalpavriksh hosts and supports the alternatives process and related
+  documentation.
+scope: Preserve collective governance and participating organizations
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row336
+  source_lineage: https://kalpavriksh.org/our-work/alternatives/vikalp-sangam/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,5 +1,5 @@
 title: CLOC–La Vía Campesina
-type: directory
+type: movement
 steward: CLOC–La Vía Campesina
 return_path: unset — establish via register-source
 url: https://cloc-viacampesina.net/
@@ -13,14 +13,22 @@ why_it_matters: >-
   allied organizations across three continental regions while linking food
   sovereignty, agrarian reform, agroecology, feminism, youth, diversity and
   anti-imperialist organizing.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row47
-  source_lineage: https://cloc-viacampesina.net/
 caution: >-
   Do not treat CLOC as one uniform voice or assume continental declarations
   represent identical positions, power or implementation across all member
   organizations. Scale figures are organizer-reported and date-sensitive.
+extraction_status: >-
+  Continental movement governance, multilingual movement media, popular
+  education, constituency assemblies, regional articulation and member-movement
+  discovery.
+notes: >-
+  Role: Continental movement coordination and source system / Latin America and
+  Caribbean · Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row46
+  source_lineage: https://cloc-viacampesina.net/
+high_risk: true
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

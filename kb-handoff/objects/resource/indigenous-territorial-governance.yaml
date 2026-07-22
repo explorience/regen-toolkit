@@ -1,0 +1,20 @@
+title: Indigenous Territorial Governance
+type: resource
+resource_type: Governance / Knowledge Domain
+url: https://www.iwgia.org/en/
+original_source: IWGIA Territorial Governance Programme
+notes: >-
+  Why add: Do not extract governance practices from territorial authority and
+  consent · Status/Caution: Collective-rights domain · Parent source system:
+  IWGIA Territorial Governance Programme
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row860
+  source_lineage: https://www.iwgia.org/en/
+original_object_class: Governance / Funding Mechanism
+high_risk: true
+normalization_flag: REPAIR-NO-860
+review_needs: 'Matty dup-flag REPAIR-NO-860: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

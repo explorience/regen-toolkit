@@ -1,0 +1,16 @@
+subject: Joan Tronto
+predicate: created_by
+object: Caring Democracy
+type: relationship-record
+title: Joan Tronto — created_by — Caring Democracy
+original_relationship: authored
+evidence: Political theory of care and democracy.
+scope: Publication relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row267
+  source_lineage: https://nyupress.org/9780814782781/caring-democracy/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

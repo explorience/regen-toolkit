@@ -1,0 +1,18 @@
+title: Visible spokesperson ≠ representative authority
+type: claim-evidence
+claim: Visible spokesperson ≠ representative authority
+interpretation: >-
+  Label exact role, date, collective and territory; avoid representative-of
+  language unless explicitly evidenced.
+uncertainty: >-
+  A named public speaker may communicate a position without holding final or
+  exclusive authority for a constituency or sector.
+evidence_stance: qualifying
+context: MST people records
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row437
+  source_lineage: Internal synthesis from MST people branching
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

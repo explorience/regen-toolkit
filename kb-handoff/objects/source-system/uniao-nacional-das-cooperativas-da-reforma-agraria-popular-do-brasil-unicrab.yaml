@@ -11,14 +11,19 @@ why_it_matters: >-
   National network connecting cooperatives and associations linked to agrarian
   reform, healthy-food production, agroecology, processing and market
   coordination.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row45
-  source_lineage: https://mst.org.br/2024/05/03/conheca-a-unicrab/
 caution: >-
   Membership and scale figures are organizer-reported and vary by date.
   Cooperative registration does not by itself establish democratic rules-in-use,
   equitable labor or livelihood outcomes.
+extraction_status: >-
+  Current livelihood infrastructure, cooperative coordination, shared services,
+  food-system implementation and movement-to-market relationships.
+notes: 'Role: Cooperative-network source system / Brazil · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row44
+  source_lineage: https://mst.org.br/2024/05/03/conheca-a-unicrab/
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

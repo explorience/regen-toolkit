@@ -1,0 +1,18 @@
+subject: Governing Corporate Knowledge Commons
+predicate: implements_or_uses
+object: GKC to firms, organizations, venture capital, data and DAOs
+type: relationship-record
+title: >-
+  Governing Corporate Knowledge Commons — implements_or_uses — GKC to firms,
+  organizations, venture capital, data and DAOs
+original_relationship: applies
+evidence: 2026 collection extends analysis across organizational boundaries.
+scope: Commons terminology should not obscure corporate power.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row18
+  source_lineage: https://knowledge-commons.net/publications/corporate-book/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

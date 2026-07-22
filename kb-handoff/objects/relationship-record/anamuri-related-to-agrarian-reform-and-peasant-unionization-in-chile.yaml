@@ -1,0 +1,19 @@
+subject: ANAMURI
+predicate: related_to
+object: Agrarian reform and peasant unionization in Chile
+type: relationship-record
+title: ANAMURI — related_to — Agrarian reform and peasant unionization in Chile
+original_relationship: connects historical memory of
+evidence: >-
+  Movement publication links 1967 reforms, dictatorship and present rural women,
+  seed and land struggles.
+scope: Movement historical framing; pair with other archives
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row502
+  source_lineage: >-
+    https://viacampesina.org/en/2024/11/chile-agrarian-reform-rural-women-seeds-and-memories/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

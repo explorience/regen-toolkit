@@ -1,0 +1,18 @@
+subject: MST
+predicate: develops_coordinates
+object: IARAA / IARA
+type: relationship-record
+title: MST — develops_coordinates — IARAA / IARA
+original_relationship: develops / coordinates
+evidence: Official sources describe the movement as a core developer/coordinator.
+scope: Governance details remain incomplete
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row394
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,16 @@
+subject: Donella Meadows
+predicate: created_by
+object: Dancing with Systems
+type: relationship-record
+title: Donella Meadows — created_by — Dancing with Systems
+original_relationship: authored
+evidence: Archive presents the piece as an excerpt from Thinking in Systems.
+scope: Authorship / excerpt relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row159
+  source_lineage: https://donellameadows.org/dancing-with-systems/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

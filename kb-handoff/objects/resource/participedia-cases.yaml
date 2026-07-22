@@ -1,0 +1,18 @@
+title: Participedia Cases
+type: resource
+resource_type: Dataset / object family
+url: https://participedia.net/search?selectedCategory=case
+original_source: Participedia
+notes: >-
+  Why add: Closest direct comparator for the Toolkit’s implementation-memory and
+  case-record structure. · Status/Caution: Crowdsourced records vary in
+  completeness, sourcing, recency, language, and analytical quality. · Parent
+  source system: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row219
+  source_lineage: https://participedia.net/search?selectedCategory=case
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

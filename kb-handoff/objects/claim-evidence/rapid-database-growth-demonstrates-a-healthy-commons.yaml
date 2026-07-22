@@ -1,0 +1,18 @@
+title: Rapid database growth demonstrates a healthy commons
+type: claim-evidence
+claim: Rapid database growth demonstrates a healthy commons
+interpretation: >-
+  Assess maintenance capacity, contributor wellbeing, correction responsiveness
+  and actual use alongside growth.
+uncertainty: >-
+  Growth can coexist with review debt, burnout, stale records and unmaintainable
+  scope.
+evidence_stance: neutral
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row320
+  source_lineage: Internal applied review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

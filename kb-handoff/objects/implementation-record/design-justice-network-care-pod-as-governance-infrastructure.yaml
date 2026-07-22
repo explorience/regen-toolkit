@@ -1,0 +1,22 @@
+title: Design Justice Network Care Pod as Governance Infrastructure
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document how care and healing-justice practices are integrated into network
+  participation and practitioner sustainability.
+what_returns_to_commons: Tests whether care is materially embedded rather than rhetorical.
+notes: >-
+  What to capture: Facilitation, access, boundaries, conflict support,
+  compensation, participation, adaptations and member experience. ·
+  Status/Caution: Sensitive qualitative case; participant consent and privacy
+  required
+related_source_system: Design Justice Network
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row171
+  source_lineage: https://designjustice.org/djn-care-pod
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

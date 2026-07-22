@@ -1,0 +1,24 @@
+title: Consent-Controlled Community Knowledge Ingestion
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Combine channel-level boundaries, participant consent settings, opt-out paths,
+  and dated ingestion rules.
+potential_uses: >-
+  Community archives, AI assistants, meeting memory, federated knowledge
+  infrastructure.
+dependencies: >-
+  Visible data policy, accessible controls, audit logs, correction and deletion
+  workflows.
+tradeoffs: >-
+  Consent fatigue, unclear defaults, social pressure, retrospective ingestion,
+  and downstream copies.
+context: Metagov / KOI Pond
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row29
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

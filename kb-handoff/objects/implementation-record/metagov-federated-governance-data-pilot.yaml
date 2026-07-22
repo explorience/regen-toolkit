@@ -1,0 +1,24 @@
+title: Metagov Federated Governance Data Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Test a bounded exchange of governance cases, documents, entities and
+  relationships between the Toolkit and a federated or structured governance
+  source.
+what_returns_to_commons: >-
+  Tests the future data-layer and interoperability posture on real governance
+  records.
+notes: >-
+  What to capture: Schema mapping, identifiers, permissions, provenance,
+  updates, conflicts, corrections, privacy and query behavior. · Status/Caution:
+  Candidate; technical and governance review required
+related_source_system: Metagov / Govbase / KOI + Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row104
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

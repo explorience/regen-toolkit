@@ -1,0 +1,19 @@
+title: GTA Weavers
+type: resource
+resource_type: Governance structure
+url: https://globaltapestryofalternatives.org/
+original_source: Global Tapestry of Alternatives
+notes: >-
+  Why add: Clarifies that GTA is composed through autonomous network
+  relationships rather than individual directory entries. · Status/Caution:
+  Weaver inclusion is a relationship, not certification or representation of
+  every member initiative · Parent source system: Global Tapestry of
+  Alternatives
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row611
+  source_lineage: https://globaltapestryofalternatives.org/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+title: IARAA Quintal Produtivo mode
+type: resource
+resource_type: Interface mode
+url: https://baobab.iapc.group/pt/iaraa/
+original_source: IARAA
+notes: >-
+  Why add: Distinct research-assistance and agent-workflow object. ·
+  Status/Caution: Experimental; long outputs need evidence and hallucination
+  review · Parent source system: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row709
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

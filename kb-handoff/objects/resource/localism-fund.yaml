@@ -1,0 +1,18 @@
+title: Localism Fund
+type: resource
+resource_type: Funding program / implementation lead
+url: https://www.opencivics.co/network
+original_source: OpenCivics
+notes: >-
+  Why add: Existing master has a raw lead; this adds its role as a place-based
+  funding and implementation branch. · Status/Caution: Current scope,
+  governance, selection criteria, funded projects, and results need direct
+  program documentation. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row150
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

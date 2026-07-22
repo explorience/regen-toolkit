@@ -1,0 +1,18 @@
+title: Consensus statements are neutral outputs
+type: claim-evidence
+claim: Consensus statements are neutral outputs
+interpretation: >-
+  Publish how consensus statements were generated and retain disagreement,
+  uncertainty, and excluded statements in the record.
+uncertainty: >-
+  Consensus depends on which statements appear, moderation rules, outreach,
+  participation, and thresholds or analytic choices.
+evidence_stance: qualifying
+context: Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row132
+  source_lineage: https://compdemocracy.org/polis/book/introduction/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

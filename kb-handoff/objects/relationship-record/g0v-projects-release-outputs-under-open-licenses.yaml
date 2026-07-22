@@ -1,0 +1,19 @@
+subject: g0v projects
+predicate: release_outputs_under
+object: open licenses
+type: relationship-record
+title: g0v projects — release_outputs_under — open licenses
+original_relationship: release outputs under
+evidence: >-
+  Manifesto calls for project results and source materials to be openly
+  licensed.
+scope: Practice may vary by project
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row46
+  source_lineage: https://g0v.tw/intl/en/manifesto/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

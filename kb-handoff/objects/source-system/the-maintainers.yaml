@@ -1,5 +1,5 @@
 title: The Maintainers
-type: archive
+type: directory
 steward: The Maintainers
 return_path: unset — establish via register-source
 url: https://themaintainers.org/
@@ -10,14 +10,22 @@ why_it_matters: >-
   Global research and practice network and resource archive centered on
   maintenance, repair, care, infrastructure, and the labor that sustains
   human-built systems.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row21
-  source_lineage: https://themaintainers.org/
 caution: >-
   The site states that grant-funded organizational operations closed while the
   network and resources continue. Treat it as a current network/archive, not an
   active staffed institution unless independently confirmed.
+extraction_status: >-
+  Invisible and undervalued maintenance labor; anti-innovation-speak critique;
+  place-based fellowships; maintenance knowledge; care and infrastructure
+  sustainability.
+notes: >-
+  Role: Maintenance, repair, care, and infrastructure source system · Action:
+  ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row20
+  source_lineage: https://themaintainers.org/
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

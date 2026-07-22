@@ -1,0 +1,19 @@
+title: vTaiwan discussions have led to government action
+type: claim-evidence
+claim: vTaiwan discussions have led to government action
+interpretation: >-
+  Attribute the figure to vTaiwan's 2023 self-report and verify outcomes case by
+  case before using it as an impact measure.
+uncertainty: >-
+  The legacy site reports that more than 28 cases were discussed and 80% led to
+  decisive government action, but the page was last updated in December 2023 and
+  uses a broad action category.
+evidence_stance: neutral
+context: vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row134
+  source_lineage: https://info.vtaiwan.tw/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

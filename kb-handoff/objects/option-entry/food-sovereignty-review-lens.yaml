@@ -1,0 +1,26 @@
+title: Food-Sovereignty Review Lens
+type: option-entry
+category: governance
+what_it_is: >-
+  Assess whether food and ecological systems support peoples' authority over
+  land, seeds, production, culture, labor and policy rather than only output or
+  efficiency.
+potential_uses: >-
+  Ecological project review, funding options, local-node tracks and public
+  claims.
+dependencies: >-
+  Rights review, affected-producer participation, political-economic context and
+  place-based evidence.
+tradeoffs: >-
+  Can be reduced to a slogan or applied without peasant, worker, Indigenous and
+  consumer perspectives.
+context: Nyéléni / La Vía Campesina
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row260
+  source_lineage: https://nyeleni.org/en/declaration-of-nyeleni/
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

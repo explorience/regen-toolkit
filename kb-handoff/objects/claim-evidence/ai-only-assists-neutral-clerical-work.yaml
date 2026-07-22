@@ -1,0 +1,18 @@
+title: AI only assists neutral clerical work
+type: claim-evidence
+claim: AI only assists neutral clerical work
+interpretation: >-
+  Record consequential AI involvement, affected fields, reviewer, uncertainty,
+  and correction path.
+uncertainty: >-
+  Discovery, summarization, classification, prioritization, and duplicate
+  suggestions shape visibility, ontology, and reviewer attention.
+evidence_stance: qualifying
+context: Toolkit AI workflows
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row282
+  source_lineage: Internal labor-maintenance review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

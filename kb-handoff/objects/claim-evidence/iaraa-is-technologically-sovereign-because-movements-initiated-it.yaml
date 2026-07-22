@@ -1,0 +1,19 @@
+title: IARAA is technologically sovereign because movements initiated it
+type: claim-evidence
+claim: IARAA is technologically sovereign because movements initiated it
+interpretation: >-
+  Describe movement leadership and separately audit technical dependencies,
+  governance, rights and maintenance.
+uncertainty: >-
+  Movement purpose and corpus governance matter, but sovereignty also depends on
+  models, compute, hosting, code, finance, licenses, skills and exit options.
+evidence_stance: neutral
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row410
+  source_lineage: >-
+    https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

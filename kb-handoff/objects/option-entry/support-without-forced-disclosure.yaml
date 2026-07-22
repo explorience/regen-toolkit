@@ -1,0 +1,20 @@
+title: Support Without Forced Disclosure
+type: option-entry
+category: coordination
+what_it_is: >-
+  Low-disclosure pathway for requesting access, schedule, cost or participation
+  support.
+potential_uses: Contributor programs, meetings, reviews, public feedback.
+dependencies: Restricted data access, minimum fields, deletion policy, non-retaliation.
+tradeoffs: >-
+  Insufficient information may complicate support; staff may still infer
+  sensitive conditions.
+context: Toolkit governance
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row220
+  source_lineage: Internal applied review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,26 +1,20 @@
 title: GHG and Co-Benefits in Watershed Carbon
 type: resource
+resource_type: Credit protocol
 url: >-
   https://www.registry.regen.network/crediting-protocols/ghg-co-benefits-in-watershed-carbon-v1-0
-resource_type: protocol
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row3
-summary: >-
-  Credit framework connecting watershed nature-based or green-infrastructure
-  activities with avoided emissions and ecological co-benefits.
-original_object_type: Credit protocol
+original_source: Regen Registry
+notes: >-
+  Why add: Bridge between water infrastructure, carbon accounting, and
+  ecological co-benefits. · Status/Caution: Avoided-emissions baselines and
+  co-benefit claims need independent scrutiny · Parent source system: Regen
+  Registry
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row3
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: >-
-  Regen Registry |
-  https://www.registry.regen.network/crediting-protocols/ghg-co-benefits-in-watershed-carbon-v1-0
-notes: >-
-  Why add: Bridge between water infrastructure, carbon accounting, and
-  ecological co-benefits. Status/Caution: Avoided-emissions baselines and
-  co-benefit claims need independent scrutiny
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row30
+  source_lineage: >-
+    https://www.registry.regen.network/crediting-protocols/ghg-co-benefits-in-watershed-carbon-v1-0
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

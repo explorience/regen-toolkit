@@ -1,0 +1,25 @@
+title: Movement-Owned Agroecology School Implementation Record
+type: option-entry
+category: governance
+what_it_is: >-
+  A structured record connecting movement governance, pedagogy, land context,
+  practices, participant groups, ecological and livelihood evidence, maintenance
+  and unresolved risks.
+potential_uses: >-
+  Agroecology school review, movement learning, public-goods funding,
+  regenerative implementation memory.
+dependencies: >-
+  Source-system steward, participant and affected-party review, ecological and
+  livelihood evidence, maintenance data.
+tradeoffs: >-
+  Can romanticize farmer-to-farmer learning, flatten contested land politics, or
+  convert movement knowledge into extractive evaluation.
+context: La Vía Campesina / Shashe / ZIMSOFF
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row270
+  source_lineage: https://viacampesina.org/en/tag/shashe-school/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

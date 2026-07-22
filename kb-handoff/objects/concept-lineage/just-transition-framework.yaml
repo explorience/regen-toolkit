@@ -1,0 +1,24 @@
+title: Just Transition Framework
+type: concept-lineage
+short_description: >-
+  Place-based movement framework for shifting power and resources from
+  extractive systems toward regenerative economies Geography/context: Movement
+  networks / global adaptations.
+toolkit_usage: >-
+  Preserve origin, adaptation context and differences among labor,
+  environmental-justice and policy usages
+original_object_type: Movement Framework
+notes: >-
+  Why add: Preserve origin, adaptation context and differences among labor,
+  environmental-justice and policy usages · Status/Caution: Plural movement
+  lineage · Parent source system: Movement Generation / Just Transition
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row876
+  source_lineage: https://movementgeneration.org/justtransition/
+original_object_class: Framework / Concept
+normalization_flag: REPAIR-NO-876
+review_needs: 'Matty dup-flag REPAIR-NO-876: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

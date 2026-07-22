@@ -1,0 +1,18 @@
+subject: Ashish Kothari
+predicate: member_of
+object: Kalpavriksh
+type: relationship-record
+title: Ashish Kothari — member_of — Kalpavriksh
+original_relationship: founder-member of
+evidence: >-
+  Public GTA and Kalpavriksh materials identify a long-standing founder-member
+  role.
+scope: Do not infer sole leadership or representation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row338
+  source_lineage: https://globaltapestryofalternatives.org/events:rd:01
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

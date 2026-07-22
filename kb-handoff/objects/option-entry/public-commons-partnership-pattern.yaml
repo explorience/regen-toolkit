@@ -1,0 +1,26 @@
+title: Public-Commons Partnership Pattern
+type: option-entry
+category: governance
+what_it_is: >-
+  Create bounded institutional support relationships between public bodies and
+  commoner communities without absorbing the commons into government
+  administration.
+potential_uses: >-
+  Civic infrastructure, municipal partnerships, community assets, local public
+  goods.
+dependencies: >-
+  Clear resource rights, autonomy, accountability, affected-party roles,
+  funding, dispute processes.
+tradeoffs: >-
+  State capture, dependency, unequal access, favoritism, and weak democratic
+  accountability.
+context: Ghent Commons Transition / Partner State
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row131
+  source_lineage: >-
+    https://stad.gent/sites/default/files/page/documents/Commons%20Transition%20Plan%20-%20under%20revision.pdf
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

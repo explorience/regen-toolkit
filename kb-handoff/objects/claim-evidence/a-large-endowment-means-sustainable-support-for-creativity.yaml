@@ -1,0 +1,20 @@
+title: A large endowment means sustainable support for creativity
+type: claim-evidence
+claim: A large endowment means sustainable support for creativity
+interpretation: >-
+  Artizen reports an Endowment intended to support matching and prizes;
+  sustainability should be evaluated through current financial, governance, and
+  distribution information.
+uncertainty: >-
+  Headline endowment figures do not by themselves explain liquidity, governance,
+  investment policy, liabilities, distribution rules, or long-term purchasing
+  power.
+evidence_stance: neutral
+context: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row20
+  source_lineage: https://artizen.fund/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

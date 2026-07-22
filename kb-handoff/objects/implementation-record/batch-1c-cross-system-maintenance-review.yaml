@@ -1,0 +1,22 @@
+title: Batch 1C Cross-System Maintenance Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare how each system funds, governs, edits, updates, archives and sustains
+  its infrastructure and community.
+what_returns_to_commons: Directly informs Toolkit maintenance, steward support and public-use design.
+notes: >-
+  What to capture: Funding sources, governance bodies, staff/volunteer labor,
+  contribution workflows, release cycles, moderation, corrections, deprecation
+  and succession risks. · Status/Caution: Priority comparative record; requires
+  current-status checks before public use
+related_source_system: All Batch 1C systems
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row105
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

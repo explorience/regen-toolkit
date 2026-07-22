@@ -1,0 +1,22 @@
+title: Affected-Party and Sensitivity Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Add structured review for people and communities represented in sensitive
+  civic, labor, ecological, political, or social records.
+potential_uses: >-
+  Public-use decisions, community data, social-signal leads, implementation
+  memory.
+dependencies: >-
+  Sensitivity categories, representation-risk field, consent/public-interest
+  rationale, restricted states.
+tradeoffs: Can become paternalistic, impossible to complete, or unevenly enforced.
+context: Toolkit self-governance / GKC review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row112
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

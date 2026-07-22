@@ -1,0 +1,18 @@
+subject: 'Pluriverse: A Post-Development Dictionary'
+predicate: related_to
+object: Multiple thinkers, movements and alternatives
+type: relationship-record
+title: >-
+  Pluriverse: A Post-Development Dictionary — related_to — Multiple thinkers,
+  movements and alternatives
+original_relationship: connects
+evidence: Edited collection assembles diverse essays and conceptual branches.
+scope: Do not flatten contributors into one doctrine
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row348
+  source_lineage: https://kalpavriksh.org/pluriverse-a-post-development-dictionary/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

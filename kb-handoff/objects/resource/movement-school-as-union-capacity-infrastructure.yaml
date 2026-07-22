@@ -1,0 +1,19 @@
+title: Movement school as union capacity infrastructure
+type: resource
+resource_type: Knowledge infrastructure
+url: >-
+  https://cloc-viacampesina.net/colombia-iala-maria-cano-la-universidad-campesina-de-fensuagro
+original_source: FENSUAGRO / IALA María Cano
+notes: >-
+  Why add: Useful whole-system model beyond isolated courses or repositories. ·
+  Status/Caution: Model claim should remain contextual, not universal · Parent
+  source system: FENSUAGRO / IALA María Cano
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row827
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-iala-maria-cano-la-universidad-campesina-de-fensuagro
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

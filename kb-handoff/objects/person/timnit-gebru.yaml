@@ -1,0 +1,19 @@
+title: Timnit Gebru
+type: person
+full_name: Timnit Gebru
+affiliation: Gender Shades / critical AI research
+consent_status: unverified — default non-public (Principle 8)
+url: https://gs.ajl.org/
+notes: >-
+  Why add: Extends the branch into dataset documentation, critical AI
+  institutions and research governance. · Status/Caution: Do not reduce her work
+  to one paper or infer current affiliations from older sources · Parent source
+  system: Gender Shades / critical AI research
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row477
+  source_lineage: https://gs.ajl.org/
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

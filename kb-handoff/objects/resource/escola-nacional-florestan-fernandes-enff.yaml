@@ -1,0 +1,21 @@
+title: Escola Nacional Florestan Fernandes (ENFF)
+type: resource
+resource_type: Education source system
+url: >-
+  https://mst.org.br/2025/01/23/enff-celebra-20-anos-de-formacao-e-internacionalismo-de-movimentos-populares-no-mundo/
+original_source: MST
+notes: >-
+  Why add: Major living knowledge, pedagogy, archive and international-exchange
+  system. · Status/Caution: Current and active; participation counts are
+  organizer-reported · Parent source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row671
+  source_lineage: >-
+    https://mst.org.br/2025/01/23/enff-celebra-20-anos-de-formacao-e-internacionalismo-de-movimentos-populares-no-mundo/
+original_object_class: Source System / Collection
+normalization_flag: DUP-NE-660
+review_needs: 'Matty dup-flag DUP-NE-660: Movimento dos Trabalhadores Rurais Sem Terra (MST)'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

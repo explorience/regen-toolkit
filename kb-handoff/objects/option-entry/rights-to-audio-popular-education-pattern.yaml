@@ -1,0 +1,22 @@
+title: Rights-to-Audio Popular Education Pattern
+type: option-entry
+category: coordination
+what_it_is: >-
+  Translate formal rights frameworks into short audio materials usable in
+  movement formation and advocacy.
+potential_uses: FENSUAGRO / IALA María Cano UNDROP audiograms
+dependencies: >-
+  Improves accessibility beyond legal documents and supports distributed
+  education.
+tradeoffs: >-
+  Requires legal updates, language/accessibility review and evidence of actual
+  use.
+context: Knowledge access / education
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row326
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+title: The P2P Foundation Wiki is a validated encyclopedia
+type: claim-evidence
+claim: The P2P Foundation Wiki is a validated encyclopedia
+interpretation: >-
+  Use the wiki to discover and map leads; resolve consequential claims through
+  primary and independent sources.
+uncertainty: >-
+  The wiki is a rich observatory and discovery source, but pages vary in date,
+  authorship, sourcing, and editorial review.
+evidence_stance: qualifying
+context: P2P Foundation Wiki
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row200
+  source_lineage: https://wiki.p2pfoundation.net/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

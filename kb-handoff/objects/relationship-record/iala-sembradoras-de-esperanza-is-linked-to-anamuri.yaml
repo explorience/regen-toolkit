@@ -1,0 +1,20 @@
+subject: IALA Sembradoras de Esperanza
+predicate: is_linked_to
+object: ANAMURI
+type: relationship-record
+title: IALA Sembradoras de Esperanza — is_linked_to — ANAMURI
+original_relationship: is linked to
+evidence: >-
+  CLOC education source identifies ANAMURI participant linkage and the Chile
+  school.
+scope: Preliminary institutional relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row472
+  source_lineage: >-
+    https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

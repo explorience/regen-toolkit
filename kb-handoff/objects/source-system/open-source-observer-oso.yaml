@@ -1,0 +1,27 @@
+title: Open Source Observer / OSO
+type: directory
+steward: Open Source Observer / OSO
+return_path: unset — establish via register-source
+url: https://www.oso.xyz/
+why_it_matters: >-
+  Core Batch 1B source system for open-source public goods analytics, funding
+  evaluation, software supply-chain intelligence, project dashboards, and
+  data-layer design.
+toolkit_route: >-
+  Resource Graph & Ecosystem Atlas; Infrastructure & Substrate; Deployment &
+  Structural Integrity; Implementation & Learning Memory; Option Library;
+  Evolution Layer
+notes: >-
+  Priority: Core Batch 1B source system for open-source public goods analytics,
+  funding evaluation, software supply-chain intelligence, project dashboards,
+  and data-layer design. · Next: Add OSO-linked extraction records; later create
+  implementation-memory record and public goods analytics option. · Notes: Batch
+  1B core; deepened after Karma GAP.
+review_needs: Discovery_Pool promotion (Tier 1B) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-02102
+  source_lineage: https://www.oso.xyz/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

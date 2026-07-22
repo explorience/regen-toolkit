@@ -1,0 +1,24 @@
+title: MoeDict as a Living Public Knowledge Commons
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop a full case tracing official language datasets through open
+  repositories, interface design, mobile/offline access, maintenance and
+  community reuse.
+what_returns_to_commons: >-
+  Strong comparator for converting government data into maintained public
+  knowledge infrastructure.
+notes: >-
+  What to capture: Data sources, licenses, contributors, governance, users,
+  accessibility, corrections, maintenance and language-community relationships.
+  · Status/Caution: Candidate; requires dataset- and community-specific review
+related_source_system: g0v / Audrey Tang lineage
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row139
+  source_lineage: https://github.com/g0v/moedict-webkit
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

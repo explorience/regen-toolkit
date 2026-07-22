@@ -1,0 +1,17 @@
+subject: Data Feminism
+predicate: develops
+object: Seven Principles of Data Feminism
+type: relationship-record
+title: Data Feminism — develops — Seven Principles of Data Feminism
+original_relationship: develops
+evidence: Book conclusion lists the seven principles.
+scope: Framework relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row210
+  source_lineage: https://data-feminism.mitpress.mit.edu/pub/a1ao95xs
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

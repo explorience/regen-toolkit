@@ -1,0 +1,18 @@
+subject: International CLT Resource Library
+predicate: maintained_by
+object: International Center for Community Land Trusts
+type: relationship-record
+title: >-
+  International CLT Resource Library — maintained_by — International Center for
+  Community Land Trusts
+original_relationship: maintained by
+evidence: Official resource library
+scope: Global discovery relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row533
+  source_lineage: https://www.cltweb.org/resources/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

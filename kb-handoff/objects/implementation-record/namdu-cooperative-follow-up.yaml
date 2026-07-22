@@ -1,0 +1,24 @@
+title: Namdu Cooperative Follow-Up
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace whether the farmer-run producer cooperative remains active and how it
+  affects prices, income, ownership, marketing and food sovereignty.
+what_returns_to_commons: >-
+  Tests whether agroecology education connects to durable farmer-controlled
+  livelihood infrastructure.
+notes: >-
+  What to capture: Current status, governance, members, products, finances,
+  labor, consumers, failures and maintenance. · Status/Caution: Candidate;
+  announcement alone is insufficient
+related_source_system: Amrita Bhoomi / KRRS / Namdu
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row274
+  source_lineage: >-
+    https://viacampesina.org/en/2020/10/namdu-a-producers-cooperative-run-and-managed-by-farmers-in-karnataka-india/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

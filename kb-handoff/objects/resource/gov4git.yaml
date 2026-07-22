@@ -1,0 +1,18 @@
+title: Gov4Git
+type: resource
+resource_type: Governance protocol
+url: https://docs.plurality.net/governance/Gov4Git/
+original_source: Plurality Project
+notes: >-
+  Why add: Potential technical and governance comparator for repository-based
+  knowledge commons. · Status/Caution: Experimental protocol; governance,
+  security and adoption require independent review · Parent source system:
+  Plurality Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row363
+  source_lineage: https://docs.plurality.net/governance/Gov4Git/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

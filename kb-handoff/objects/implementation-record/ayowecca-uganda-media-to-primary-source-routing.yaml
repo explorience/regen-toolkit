@@ -1,0 +1,24 @@
+title: Ayowecca Uganda Media-to-Primary-Source Routing
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Use the interview as a discovery lead, then trace claims and practices back to
+  community-approved primary sources and local context.
+what_returns_to_commons: >-
+  Tests whether GAIAI media can feed a knowledge commons without extracting or
+  flattening place-based knowledge.
+notes: >-
+  What to capture: Interview participants, consent, original project materials,
+  ecological and social claims, local governance, benefits, corrections, and
+  what should remain non-public. · Status/Caution: Affected-party review
+  required before public synthesis
+related_source_system: GAIAI / Regen Digest
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row34
+  source_lineage: https://gaiaai.xyz/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,5 +1,5 @@
 title: IARAA — Inteligência Artificial da Reforma Agrária e Agroecologia
-type: database
+type: movement
 steward: IARAA — Inteligência Artificial da Reforma Agrária e Agroecologia
 return_path: unset — establish via register-source
 url: https://baobab.iapc.group/pt/iaraa/
@@ -12,15 +12,20 @@ why_it_matters: >-
   Live beta knowledge assistant developed through MST, the World March of Women
   and the International Association for Popular Cooperation (Baobab), intended
   to support agroecology, popular agrarian reform and technological sovereignty.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row46
-  source_lineage: https://baobab.iapc.group/pt/iaraa/
 caution: >-
   Current public evidence confirms a live beta, broad architecture and
   organizer-stated principles, but not the full corpus inventory, permissions,
   decision rights, evaluation, incident handling, infrastructure ownership or
   independent outcomes.
+extraction_status: >-
+  Rare current implementation linking movement knowledge, feminist organizing,
+  agroecology, popular education, retrieval-augmented generation and
+  technological-sovereignty claims.
+notes: 'Role: Emerging movement-led AI source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row45
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

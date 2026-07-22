@@ -1,0 +1,17 @@
+title: Just AI
+type: resource
+resource_type: Research programme
+url: https://researchictafrica.net/
+original_source: Research ICT Africa
+notes: >-
+  Why add: Strong bridge into AI governance from African research institutions
+  and scholars. · Status/Caution: Programme outputs should be disaggregated by
+  author, country and method · Parent source system: Research ICT Africa
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row589
+  source_lineage: https://researchictafrica.net/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

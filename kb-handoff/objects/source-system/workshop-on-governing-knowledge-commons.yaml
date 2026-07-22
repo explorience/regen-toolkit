@@ -1,5 +1,5 @@
 title: Workshop on Governing Knowledge Commons
-type: library
+type: publication
 steward: Workshop on Governing Knowledge Commons
 return_path: unset — establish via register-source
 url: https://knowledge-commons.net/
@@ -9,13 +9,17 @@ what_it_curates: >-
 why_it_matters: >-
   Research and publication system organizing empirical study of institutions for
   sharing knowledge, data, science, innovation and culture.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row8
-  source_lineage: https://knowledge-commons.net/
 caution: >-
   Academic research requires contextual translation; a framework or case finding
   is not a universal prescription.
+extraction_status: >-
+  Institutional analysis, empirical knowledge-commons cases, Ostrom/Hess
+  lineage, governance variables, comparative cautions and research methods.
+notes: 'Role: Core Batch 1C foundational research and review lens · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row7
+  source_lineage: https://knowledge-commons.net/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

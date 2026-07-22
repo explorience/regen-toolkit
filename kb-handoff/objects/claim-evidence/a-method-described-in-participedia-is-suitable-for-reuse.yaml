@@ -1,0 +1,18 @@
+title: A method described in Participedia is suitable for reuse
+type: claim-evidence
+claim: A method described in Participedia is suitable for reuse
+interpretation: >-
+  Use method records as option inputs; conduct local design, accessibility,
+  power, safety, and legitimacy review before adoption.
+uncertainty: >-
+  Method pages describe purposes and features but cannot establish fit for a new
+  community, legal context, conflict level, or power structure.
+evidence_stance: qualifying
+context: Participedia Methods
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row114
+  source_lineage: https://participedia.net/search?selectedCategory=method
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

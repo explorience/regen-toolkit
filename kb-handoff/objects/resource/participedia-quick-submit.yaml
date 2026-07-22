@@ -1,0 +1,18 @@
+title: Participedia Quick Submit
+type: resource
+resource_type: Contribution workflow
+url: https://participedia.net/getting-started
+original_source: Participedia
+notes: >-
+  Why add: Useful comparator for contributor entry points and progressive
+  disclosure in the Toolkit. · Status/Caution: Lower submission friction
+  increases the need for review, citation prompts, and status visibility. ·
+  Parent source system: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row225
+  source_lineage: https://participedia.net/getting-started
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

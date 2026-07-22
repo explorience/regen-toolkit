@@ -1,0 +1,18 @@
+subject: Audrey Tang
+predicate: created_by
+object: 'Plurality: The Future of Collaborative Technology and Democracy'
+type: relationship-record
+title: >-
+  Audrey Tang — created_by — Plurality: The Future of Collaborative Technology
+  and Democracy
+original_relationship: co-authored
+evidence: Named co-author with E. Glen Weyl and Plurality Community
+scope: Publication relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row120
+  source_lineage: https://plurality.net/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

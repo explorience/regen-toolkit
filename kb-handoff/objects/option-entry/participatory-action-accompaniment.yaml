@@ -1,0 +1,20 @@
+title: Participatory Action Accompaniment
+type: option-entry
+category: coordination
+what_it_is: >-
+  Co-design support with farms and initiatives, then evaluate and improve it
+  through participatory action research.
+potential_uses: IALA-PR CARACOLES
+dependencies: Connects technical support, reflection and local authority.
+tradeoffs: >-
+  Participation can become extractive unless decisions, data, budgets and
+  outputs remain answerable to participants.
+context: Implementation workflow
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row334
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

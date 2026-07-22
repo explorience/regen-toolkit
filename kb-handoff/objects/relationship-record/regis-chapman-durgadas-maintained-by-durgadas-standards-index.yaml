@@ -1,0 +1,18 @@
+subject: Regis Chapman / Durgadas
+predicate: maintained_by
+object: Durgadas Standards Index
+type: relationship-record
+title: Regis Chapman / Durgadas — maintained_by — Durgadas Standards Index
+original_relationship: authors / maintains
+evidence: >-
+  Repository identifies the work as developed by Durgadas and indexes its
+  components
+scope: Maintainer-authored relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row134
+  source_lineage: https://github.com/durgadasji/standards-index
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+subject: APC Local Access Programme
+predicate: supports
+object: Community-centred connectivity initiatives
+type: relationship-record
+title: >-
+  APC Local Access Programme — supports — Community-centred connectivity
+  initiatives
+original_relationship: supports / documents
+evidence: Programme, grants, policy and learning support
+scope: Umbrella relationship; not ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row299
+  source_lineage: https://www.apc.org/en/people/local-access-programme
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

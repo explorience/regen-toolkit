@@ -1,0 +1,18 @@
+title: Digital public infrastructure creates public value
+type: claim-evidence
+claim: Digital public infrastructure creates public value
+interpretation: >-
+  Assess DPI through governance, financing, justice, sustainability and
+  affected-user evidence.
+uncertainty: >-
+  Technical scale or adoption does not establish inclusion, accountability,
+  rights protection or public benefit.
+evidence_stance: neutral
+context: Research ICT Africa
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row347
+  source_lineage: https://researchictafrica.net/programme/digital-public-infrastructure-2/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

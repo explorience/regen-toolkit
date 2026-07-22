@@ -1,0 +1,23 @@
+title: VIII CLOC Congress Governance Trace
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow the 2025 congress from regional preparation and constituency assemblies
+  through final declaration and later action.
+what_returns_to_commons: Strong polycentric-governance and declaration-to-implementation case.
+notes: >-
+  What to capture: Delegate selection, agenda formation, assembly proposals,
+  decision rules, declaration, regional/member follow-through, unresolved
+  disagreement and review. · Status/Caution: Priority evidence-bearing case;
+  requires member and constituency review
+related_source_system: CLOC–La Vía Campesina
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row304
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-final-del-viii-congreso-continental-de-la-cloc-via-campesina
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

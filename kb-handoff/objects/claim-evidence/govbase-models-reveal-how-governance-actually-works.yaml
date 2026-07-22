@@ -1,0 +1,18 @@
+title: Govbase models reveal how governance actually works
+type: claim-evidence
+claim: Govbase models reveal how governance actually works
+interpretation: >-
+  Use Govbase models as structured orientation and research inputs; supplement
+  them with cases, interviews, and implementation evidence.
+uncertainty: >-
+  Documents, entities, structures, and parameters capture formal features but
+  may miss informal authority, culture, conflict, and enforcement.
+evidence_stance: neutral
+context: Metagov / Govbase
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row45
+  source_lineage: https://govbase.metagov.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

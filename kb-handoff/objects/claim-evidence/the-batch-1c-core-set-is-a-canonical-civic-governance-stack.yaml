@@ -1,0 +1,18 @@
+title: The Batch 1C core set is a canonical civic-governance stack
+type: claim-evidence
+claim: The Batch 1C core set is a canonical civic-governance stack
+interpretation: >-
+  Present the set as a curated working cluster and keep pathways open to other
+  traditions, local systems and critiques.
+uncertainty: >-
+  The systems were selected for complementary source depth and Toolkit
+  relevance, not as universal authorities or required infrastructure.
+evidence_stance: qualifying
+context: Batch 1C selection
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row157
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

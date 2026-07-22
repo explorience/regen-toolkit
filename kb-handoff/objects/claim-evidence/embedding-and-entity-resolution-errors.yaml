@@ -1,0 +1,18 @@
+title: Embedding and entity-resolution errors
+type: claim-evidence
+claim: Embedding and entity-resolution errors
+interpretation: >-
+  Preserve raw source links, versions, transformation logs, confidence, and
+  human correction pathways for normalized and graph records.
+uncertainty: >-
+  Semantic processing can merge distinct entities, lose context, or create
+  misleading relationships.
+evidence_stance: qualifying
+context: GAIAI / KOI Processor
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row56
+  source_lineage: https://github.com/gaiaaiagent/koi-processor
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+subject: MST Education Sector
+predicate: co_organizes
+object: Curso Nacional de Pedagogia do Movimento
+type: relationship-record
+title: MST Education Sector — co_organizes — Curso Nacional de Pedagogia do Movimento
+original_relationship: co-organizes
+evidence: 2025 course organized with ENFF and UFFS.
+scope: Partnership and authority should be reviewed directly
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row401
+  source_lineage: >-
+    https://mst.org.br/2025/01/13/inicia-a-10a-turma-do-curso-nacional-de-pedagogia-do-movimento-na-escola-nacional-florestan-fernandes/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,23 @@
+title: License Compatibility Review for Public Export
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review one mixed-license cluster and design a lawful, attributed public
+  export.
+what_returns_to_commons: >-
+  Prevents a technically successful merge from producing an unusable or
+  non-compliant public dataset.
+notes: >-
+  What to capture: Source license, copied versus factual content, attribution,
+  share-alike/non-commercial restrictions, public-view wording and export
+  format. · Status/Caution: Candidate; include Participedia and CC0 sources
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row118
+  source_lineage: Internal merge-readiness design
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

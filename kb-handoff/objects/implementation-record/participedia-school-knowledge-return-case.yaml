@@ -1,0 +1,25 @@
+title: Participedia School Knowledge-Return Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review one school or university collection from student research design
+  through community engagement, publication, editing, translation, and later
+  maintenance.
+what_returns_to_commons: >-
+  Tests whether educational partnerships can expand a commons while returning
+  useful knowledge to represented communities.
+notes: >-
+  What to capture: Partners, curriculum, ethics, local participation, entries
+  produced, editorial corrections, community benefit, continuation, and
+  abandonment. · Status/Caution: Select a case with accessible reports and
+  community perspectives.
+related_source_system: Participedia School
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row77
+  source_lineage: https://participedia.net/participediaschool
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

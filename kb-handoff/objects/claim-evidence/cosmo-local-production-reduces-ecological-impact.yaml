@@ -1,0 +1,19 @@
+title: Cosmo-local production reduces ecological impact
+type: claim-evidence
+claim: Cosmo-local production reduces ecological impact
+interpretation: >-
+  Cosmo-local approaches aim to align global knowledge with local production;
+  ecological effects require lifecycle and supply-chain evidence.
+uncertainty: >-
+  Global knowledge sharing and local production may reduce some transport or
+  duplication but can also increase energy use, material demand, and fragmented
+  production.
+evidence_stance: neutral
+context: Cosmo-localism
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row197
+  source_lineage: https://wiki.p2pfoundation.net/Cosmo-Localism
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,21 @@
+title: Contributor Power and Livelihood Covenant
+type: option-entry
+category: governance
+what_it_is: >-
+  Define decision rights, compensation categories, workload boundaries,
+  attribution, appeal, data rights, and care responsibilities for contributors
+  and stewards.
+potential_uses: Contributor onboarding, governance, funding proposals, maintenance planning.
+dependencies: Governance process, role definitions, budget, data policy, conflict path.
+tradeoffs: >-
+  Can become bureaucratic or promise compensation the project cannot sustain;
+  requires honest scope and revision.
+context: Toolkit governance
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row192
+  source_lineage: Internal labor-maintenance review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

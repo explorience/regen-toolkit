@@ -1,0 +1,19 @@
+title: Ecocredit issuance or retirement proves regeneration occurred
+type: claim-evidence
+claim: Ecocredit issuance or retirement proves regeneration occurred
+interpretation: >-
+  State the methodology, monitoring period, verifier, evidence access, registry
+  event and remaining uncertainties separately.
+uncertainty: >-
+  Issuance and retirement are registry events dependent on a methodology and
+  evidence process; they are not self-interpreting proof of ecological or
+  community outcomes.
+evidence_stance: qualifying
+context: Regen Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row5
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

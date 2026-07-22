@@ -1,0 +1,18 @@
+title: A map or directory of alternatives is neutral infrastructure
+type: claim-evidence
+claim: A map or directory of alternatives is neutral infrastructure
+interpretation: >-
+  Treat mapping and curation as governance functions with review, correction and
+  refusal pathways.
+uncertainty: >-
+  Selection, categories, visibility, language and relationship design shape
+  whose alternatives become legible and how they are interpreted.
+evidence_stance: qualifying
+context: GTAMap / Vikalp Sangam
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row360
+  source_lineage: https://www.globaltapestryofalternatives.org/mapping:index
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

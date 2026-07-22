@@ -1,0 +1,16 @@
+subject: Public Discourse Sandbox
+predicate: member_of
+object: Plurality Institute research program
+type: relationship-record
+title: Public Discourse Sandbox — member_of — Plurality Institute research program
+original_relationship: developed within
+evidence: Listed in the Institute’s research archive
+scope: Experimental status
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row9
+  source_lineage: https://www.plurality.institute/research
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

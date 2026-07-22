@@ -1,0 +1,18 @@
+title: Knowledge commons are inherently small, noncommercial or anti-market
+type: claim-evidence
+claim: Knowledge commons are inherently small, noncommercial or anti-market
+interpretation: >-
+  Treat scale, commercial relations and institutional form as empirical
+  variables rather than defining exclusions.
+uncertainty: >-
+  GKC cases include large-scale science, markets, corporations, smart cities,
+  platforms, industry and hybrid institutional arrangements.
+evidence_stance: neutral
+context: GKC research program
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row104
+  source_lineage: https://knowledge-commons.net/about-knowledge-commons-research/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

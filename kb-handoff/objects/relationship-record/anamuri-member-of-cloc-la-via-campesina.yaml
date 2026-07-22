@@ -1,0 +1,16 @@
+subject: ANAMURI
+predicate: member_of
+object: CLOC–La Vía Campesina
+type: relationship-record
+title: ANAMURI — member_of — CLOC–La Vía Campesina
+original_relationship: member / participant in
+evidence: Public movement affiliation and continental participation.
+scope: Do not infer loss of organizational autonomy.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row479
+  source_lineage: https://anamuri.cl/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

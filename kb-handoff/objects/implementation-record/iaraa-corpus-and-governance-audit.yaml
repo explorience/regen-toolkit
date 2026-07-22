@@ -1,0 +1,25 @@
+title: IARAA Corpus and Governance Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Audit the beta AI system from corpus selection through model infrastructure,
+  interfaces, user testing, correction and governance.
+what_returns_to_commons: >-
+  Rare opportunity to test movement-led AI sovereignty and knowledge-commons
+  governance in practice.
+notes: >-
+  What to capture: Materials, licenses, languages, contributors, community
+  authority, model/provider dependencies, prompts, citations, errors, safety,
+  farmer access and maintenance. · Status/Caution: Priority emerging case;
+  technical and movement-steward review required
+related_source_system: IARAA / MST / World March of Women / Baobab
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row284
+  source_lineage: >-
+    https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

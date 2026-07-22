@@ -1,0 +1,18 @@
+title: KOI Pond
+type: resource
+resource_type: Knowledge infrastructure
+url: https://metagov.org/projects/koi-pond
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Highly relevant adjacent knowledge-commons, AI, graph, and
+  interoperability project. · Status/Caution: Experimental and AI-assisted;
+  privacy, permissioning, source lineage, plurality, and accuracy need explicit
+  review. · Parent source system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row70
+  source_lineage: https://metagov.org/projects/koi-pond
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

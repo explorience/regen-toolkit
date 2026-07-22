@@ -1,0 +1,26 @@
+title: Access Intimacy without Forced Disclosure
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Design support and accommodation workflows that reduce repeated explanation
+  and unnecessary disclosure while enabling people to communicate changing
+  access needs.
+potential_uses: >-
+  Contributor onboarding, meetings, reviews, event registration and steward
+  relationships.
+dependencies: >-
+  Confidentiality, optional communication methods, trusted access contacts, data
+  minimization, responsive budgets.
+tradeoffs: >-
+  Systems may over-document disability, force diagnostics, or presume access
+  needs remain static.
+context: Mia Mingus
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row198
+  source_lineage: >-
+    https://leavingevidence.wordpress.com/2011/05/05/access-intimacy-the-missing-link/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

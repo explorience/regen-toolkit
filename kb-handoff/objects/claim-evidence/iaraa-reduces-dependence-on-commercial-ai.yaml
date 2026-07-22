@@ -1,0 +1,20 @@
+title: IARAA reduces dependence on commercial AI
+type: claim-evidence
+claim: IARAA reduces dependence on commercial AI
+interpretation: >-
+  IARAA is designed as an alternative oriented toward popular technological
+  sovereignty; actual dependency reduction requires an infrastructure and
+  governance audit.
+uncertainty: >-
+  The project states a sovereignty aim, but dependence also includes models,
+  chips, cloud hosting, software libraries, funding and specialist labor.
+evidence_stance: neutral
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row415
+  source_lineage: >-
+    https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: A conceptual bridge proves compatibility between two systems
+type: claim-evidence
+claim: A conceptual bridge proves compatibility between two systems
+interpretation: >-
+  Record the proposed bridge, then test governance, context and implementation
+  differences explicitly.
+uncertainty: >-
+  Shared vocabulary can hide different histories, constituencies, scales and
+  power relations.
+evidence_stance: qualifying
+context: Cross-cluster synthesis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row496
+  source_lineage: Internal final branching protocol
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

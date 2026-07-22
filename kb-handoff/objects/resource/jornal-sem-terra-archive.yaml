@@ -1,0 +1,18 @@
+title: Jornal Sem Terra archive
+type: resource
+resource_type: Media archive
+url: https://mst.org.br/jornal-sem-terra/
+original_source: MST
+notes: >-
+  Why add: High-value primary field-memory and publication archive. ·
+  Status/Caution: Archive includes old material; for current-state handoff use
+  it as source context rather than historical inventory · Parent source system:
+  MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row696
+  source_lineage: https://mst.org.br/jornal-sem-terra/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

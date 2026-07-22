@@ -1,19 +1,21 @@
 title: Connectivity is inherently empowering
 type: claim-evidence
 claim: Connectivity is inherently empowering
-caution: >-
+interpretation: >-
+  Assess connectivity alongside community goals, ownership, governance, safety,
+  cultural fit, ecological effects and the right to refuse.
+uncertainty: >-
   Connectivity can support rights and livelihoods but can also introduce
   surveillance, extraction, platform dependency, misinformation and unwanted
   social change.
-safe_working_language: >-
-  Assess connectivity alongside community goals, ownership, governance, safety,
-  cultural fit, ecological effects and the right to refuse.
-claim_kind: Caution
+evidence_stance: qualifying
+context: APC community networks cluster
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Claims and Cautions!row12
+  origin: Canonical_DB.xlsx#Claims and Cautions!row331
   source_lineage: >-
     https://www.rhizomatica.org/keeping-it-analog-a-framework-for-opting-out-of-connectivity/
-work_order: wo-b0da4f8a6f05
+high_risk: true
+work_order: wo-8c810a6700ec
 source_lineage: claims-cautions.csv

@@ -1,0 +1,19 @@
+title: Agroecology inherently produces better social and ecological outcomes
+type: claim-evidence
+claim: Agroecology inherently produces better social and ecological outcomes
+interpretation: >-
+  Document practices, baselines, ecological evidence, livelihoods, labor, land
+  tenure and affected-party experience for each case.
+uncertainty: >-
+  Movement agroecology offers a systemic pathway, but outcomes remain context-,
+  scale-, practice- and power-dependent.
+evidence_stance: neutral
+context: Peasant Agroecology
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row385
+  source_lineage: >-
+    https://viacampesina.org/en/2024/07/zimbabwe-peasant-agroecology-transforms-shashe-community/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

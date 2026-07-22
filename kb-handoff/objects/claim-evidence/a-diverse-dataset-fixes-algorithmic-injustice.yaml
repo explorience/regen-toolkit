@@ -1,0 +1,19 @@
+title: A diverse dataset fixes algorithmic injustice
+type: claim-evidence
+claim: A diverse dataset fixes algorithmic injustice
+interpretation: >-
+  Dataset diversity may improve some measurements; justice requires use-case,
+  institution, power and remedy review.
+uncertainty: >-
+  Representation can reduce some performance gaps but does not resolve harmful
+  use cases, institutional racism, surveillance or lack of remedy.
+evidence_stance: neutral
+context: AJL / Race After Technology
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row264
+  source_lineage: https://www.ajl.org/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: Plurality technologies can strengthen democracy by bridging social difference
+type: claim-evidence
+claim: Plurality technologies can strengthen democracy by bridging social difference
+interpretation: >-
+  Plurality proposes relationship-centered technologies for collaboration across
+  difference; democratic effects require independent evidence.
+uncertainty: >-
+  This is the project's central normative claim, drawing on Taiwan examples and
+  multiple technical traditions, but effects vary by context and implementation.
+evidence_stance: neutral
+context: Plurality
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row208
+  source_lineage: https://plurality.net/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

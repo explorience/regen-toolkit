@@ -1,0 +1,20 @@
+title: Knowledge behaves like a natural common-pool resource
+type: claim-evidence
+claim: Knowledge behaves like a natural common-pool resource
+interpretation: >-
+  Analyze the specific resource characteristics, community, infrastructure,
+  rights, and dilemmas rather than transferring natural-resource models
+  directly.
+uncertainty: >-
+  Knowledge can be non-rival, replicable, legally enclosed, infrastructurally
+  scarce, privacy-sensitive, or costly to maintain; its dilemmas differ from
+  forests or fisheries.
+evidence_stance: qualifying
+context: Charlotte Hess / knowledge commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row191
+  source_lineage: https://knowledge-commons.net/about-knowledge-commons/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

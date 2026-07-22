@@ -1,0 +1,23 @@
+title: Right Not to Connect
+type: concept-lineage
+short_description: >-
+  Framework challenging universal connectivity narratives and recognizing
+  community choice over whether and how to connect.
+toolkit_usage: >-
+  Corrects infrastructure expansion assumptions and supports meaningful refusal
+  or selective connectivity.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Corrects infrastructure expansion assumptions and supports meaningful
+  refusal or selective connectivity. · Status/Caution: Non-connectivity should
+  not be romanticized or used to deny desired services · Parent source system:
+  Rhizomatica
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row563
+  source_lineage: >-
+    https://www.rhizomatica.org/keeping-it-analog-a-framework-for-opting-out-of-connectivity/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

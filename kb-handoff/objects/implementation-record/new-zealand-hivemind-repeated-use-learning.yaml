@@ -1,0 +1,24 @@
+title: New Zealand HiveMind Repeated-Use Learning
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review six national conversations and the biodiversity-strategy case to
+  understand how a media experiment became a government consultation input.
+what_returns_to_commons: >-
+  Useful longitudinal case for source-system evolution and institutional
+  adoption.
+notes: >-
+  What to capture: Topic framing, seed statements, media role, participant
+  reach, facilitator practice, reports, agency mandate, strategy language,
+  repeated-use adaptations, and discontinuation. · Status/Caution: Requires
+  partner and government sources beyond the CompDem summary
+related_source_system: Polis / Public Engagement Projects
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row88
+  source_lineage: https://compdemocracy.org/case-studies/2016-new-zealand-scoop-hivemind/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

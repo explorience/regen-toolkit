@@ -1,0 +1,16 @@
+subject: IARAA Quintal Produtivo mode
+predicate: implements_or_uses
+object: IARAA Meta-RAG
+type: relationship-record
+title: IARAA Quintal Produtivo mode — implements_or_uses — IARAA Meta-RAG
+original_relationship: uses
+evidence: Current public platform states a custom multi-agent Meta-RAG workflow is used.
+scope: No public repository or evaluation located
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row427
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

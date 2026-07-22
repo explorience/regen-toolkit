@@ -1,0 +1,19 @@
+title: Automated digests represent the state of the ecosystem
+type: claim-evidence
+claim: Automated digests represent the state of the ecosystem
+interpretation: >-
+  Regen Heartbeat provides an automated, source-dependent view of selected
+  ecosystem activity and should remain correctable and transparent about
+  coverage.
+uncertainty: >-
+  A digest reflects selected sources, ranking logic, prompts, and publication
+  cadence rather than the whole ecosystem.
+evidence_stance: neutral
+context: GAIAI / Regen Heartbeat
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row54
+  source_lineage: https://forum.regen.network/t/automated-regen-digest-platform/587
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

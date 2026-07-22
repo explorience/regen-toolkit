@@ -1,0 +1,18 @@
+title: AI-assisted deduplication can resolve the merge automatically
+type: claim-evidence
+claim: AI-assisted deduplication can resolve the merge automatically
+interpretation: >-
+  Use AI for candidate generation and drafting; require human review for
+  canonical identity, conflicts, sensitivity, and public use.
+uncertainty: >-
+  AI can surface candidates and draft syntheses but can collapse distinct
+  entities or invent relationships.
+evidence_stance: qualifying
+context: Merge and governance readiness
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row179
+  source_lineage: Internal merge-readiness design
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

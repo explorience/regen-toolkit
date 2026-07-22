@@ -1,0 +1,17 @@
+title: Source-Linked Is Not Reviewed
+type: claim-evidence
+claim: Source-Linked Is Not Reviewed
+uncertainty: Public-use ready as a cautionary principle with caveats
+notes: >-
+  Priority: A record having a source link means it is traceable to something,
+  but it does not mean the Toolkit has reviewed, verified, endorsed, or
+  validated the source claims. · Next: Add to Claim Candidates, Source-System
+  Cards, and public-facing methodology; develop full claim record later if
+  needed. · Notes: Batch 1A compact guardrail claim.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04915
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

@@ -1,0 +1,18 @@
+subject: COOPAC case
+predicate: compared_with
+object: MST agroecological rice chain
+type: relationship-record
+title: COOPAC case — compared_with — MST agroecological rice chain
+original_relationship: compared with
+evidence: Selected as a later mature-chain comparator.
+scope: Comparative lead only
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row447
+  source_lineage: >-
+    https://mst.org.br/2026/03/19/agroecologia-e-o-caminho-mst-celebra-23a-festa-da-colheita-do-arroz-agroecologico/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,17 @@
+subject: Paula Veliz
+predicate: created_by
+object: IARAA
+type: relationship-record
+title: Paula Veliz — created_by — IARAA
+original_relationship: co-authored public framing of
+evidence: Named co-author in 2026 project explanation.
+scope: Contribution relationship; organizational role unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row459
+  source_lineage: >-
+    https://mst.org.br/2026/05/21/iaraa-uma-ia-para-socializar-os-saberes-do-campo/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

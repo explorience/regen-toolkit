@@ -1,0 +1,18 @@
+subject: John Emmeus Davis
+predicate: supports
+object: community land trust history and operational choices
+type: relationship-record
+title: >-
+  John Emmeus Davis — supports — community land trust history and operational
+  choices
+original_relationship: documents and supports
+evidence: International Center interview
+scope: Practitioner-historian role, not authority over local CLTs
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row545
+  source_lineage: https://www.cltweb.org/resources/interviews/john-emmus-davis/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

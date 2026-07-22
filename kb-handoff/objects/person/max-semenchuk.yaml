@@ -1,0 +1,19 @@
+title: Max Semenchuk
+type: person
+full_name: Max Semenchuk
+affiliation: Regen Commons / Regen Tokenomics WG
+consent_status: unverified — default non-public (Principle 8)
+url: https://forum.regen.network/t/regen-tokenomics-wg/19/32
+notes: >-
+  Why add: Provides a traceable lead for governance-process documentation and
+  implementation memory. · Status/Caution: Role in Regen Commons specifically
+  should be confirmed; avoid inferring formal stewardship. · Parent source
+  system: Regen Commons / Regen Tokenomics WG
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row140
+  source_lineage: https://forum.regen.network/t/regen-tokenomics-wg/19/32
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

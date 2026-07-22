@@ -1,0 +1,18 @@
+title: HERMES
+type: resource
+resource_type: Tool / infrastructure
+url: https://www.rhizomatica.org/hermes/
+original_source: Rhizomatica
+notes: >-
+  Why add: Important resilience and emergency-communication tool for remote and
+  intermittently connected contexts. · Status/Caution: Security, licensing,
+  maintenance and local-use evidence require review · Parent source system:
+  Rhizomatica
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row562
+  source_lineage: https://www.rhizomatica.org/hermes/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,24 @@
+title: Commons–Market–State–Firm Institutional Comparison
+type: option-entry
+category: governance
+what_it_is: >-
+  Compare how a knowledge resource is governed through commons, market, public,
+  firm, hybrid, or nested institutions rather than assuming one ideal form.
+potential_uses: >-
+  Options library, governance design, funding systems, organizational
+  comparisons.
+dependencies: >-
+  Clear unit of analysis, legal and economic context, case evidence, power and
+  distribution review.
+tradeoffs: >-
+  Can depoliticize structural inequality or frame institutions as
+  interchangeable design choices.
+context: GKC publication series
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row71
+  source_lineage: https://knowledge-commons.net/publications/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

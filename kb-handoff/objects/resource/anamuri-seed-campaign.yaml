@@ -1,0 +1,18 @@
+title: ANAMURI Seed Campaign
+type: resource
+resource_type: Campaign / knowledge practice
+url: https://anamuri.cl/campana-semilla/
+original_source: ANAMURI
+notes: >-
+  Why add: Deepen materials and territorial practice · Status/Caution: Current ·
+  Parent source system: ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row777
+  source_lineage: https://anamuri.cl/campana-semilla/
+original_object_class: Program / Initiative
+normalization_flag: REPAIR-NO-777
+review_needs: 'Matty dup-flag REPAIR-NO-777: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

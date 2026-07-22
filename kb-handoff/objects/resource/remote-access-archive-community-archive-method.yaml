@@ -1,0 +1,17 @@
+title: Remote Access Archive community-archive method
+type: resource
+resource_type: Methodology
+url: https://www.criticaldesignlab.com/project/remote-access-archive/methodology
+original_source: Critical Design Lab
+notes: >-
+  Why add: Implementation pattern for distributed, access-centered knowledge
+  stewardship. · Status/Caution: Method is context-specific; do not copy without
+  disability-led governance · Parent source system: Critical Design Lab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row524
+  source_lineage: https://www.criticaldesignlab.com/project/remote-access-archive/methodology
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+title: Giveth Project Update Requirement
+type: resource
+resource_type: Workflow
+url: https://docs.giveth.io/mandatoryupdates
+original_source: Giveth
+notes: >-
+  Why add: Links fundraising to recurring self-reporting and project memory. ·
+  Status/Caution: Updates are self-reported and should not be treated as
+  independent verification · Parent source system: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row51
+  source_lineage: https://docs.giveth.io/mandatoryupdates
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

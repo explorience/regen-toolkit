@@ -1,0 +1,17 @@
+title: Decidim.GOV
+type: resource
+resource_type: Governance process
+url: https://meta.decidim.org/processes/decidim-gov?locale=en
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Self-governance case for civic infrastructure. · Status/Caution:
+  Process proposals are not automatically practiced rules · Parent source
+  system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row303
+  source_lineage: https://meta.decidim.org/processes/decidim-gov?locale=en
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

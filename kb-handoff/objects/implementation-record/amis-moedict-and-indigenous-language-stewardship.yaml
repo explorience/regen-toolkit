@@ -1,0 +1,26 @@
+title: '''Amis MoeDict and Indigenous Language Stewardship'
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Examine how citizen-developed digital dictionaries interact with language
+  communities, inherited source materials, open licensing and cultural
+  authority.
+what_returns_to_commons: >-
+  Adds a necessary affected-party and cultural-governance test to open knowledge
+  assumptions.
+notes: >-
+  What to capture: Source dictionaries, contributors, community roles,
+  permissions, orthographies, licensing, use, corrections and long-term
+  stewardship. · Status/Caution: High sensitivity; affected-language-community
+  review required
+related_source_system: g0v / Indigenous language contributors
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row140
+  source_lineage: https://github.com/g0v/amis-moedict-new
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

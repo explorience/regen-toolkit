@@ -1,0 +1,18 @@
+title: Systems and standards language is politically neutral
+type: claim-evidence
+claim: Systems and standards language is politically neutral
+interpretation: >-
+  Make authorship, positionality, decision rights, affected groups and
+  contestability visible.
+uncertainty: >-
+  Models, standards, indicators and ontologies encode priorities, categories,
+  exclusions and institutional power.
+evidence_stance: qualifying
+context: Cross-cluster review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row243
+  source_lineage: Internal bias-review synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,19 @@
+subject: Accelerator participants
+predicate: use
+object: Participation Playbook
+type: relationship-record
+title: Accelerator participants — use — Participation Playbook
+original_relationship: use
+evidence: >-
+  Accelerator participants develop action plans using the interactive planning
+  tool.
+scope: Tool use does not establish causal contribution.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row33
+  source_lineage: https://www.peoplepowered.org/accelerators
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

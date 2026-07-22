@@ -1,0 +1,16 @@
+subject: Ruha Benjamin
+predicate: created_by
+object: Race After Technology
+type: relationship-record
+title: Ruha Benjamin — created_by — Race After Technology
+original_relationship: authored
+evidence: Official author site.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row211
+  source_lineage: https://www.ruhabenjamin.com/race-after-technology
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+title: New Zealand HiveMind
+type: resource
+resource_type: Implementation case
+url: https://compdemocracy.org/case-studies/2016-new-zealand-scoop-hivemind/
+original_source: Polis / Public Engagement Projects
+notes: >-
+  Why add: Strong media, facilitation, repeated-use, and government-connection
+  case. · Status/Caution: Implementation success is described by maintainers;
+  assess sampling, agency uptake, and later outcomes · Parent source system:
+  Polis / Public Engagement Projects
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row283
+  source_lineage: https://compdemocracy.org/case-studies/2016-new-zealand-scoop-hivemind/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

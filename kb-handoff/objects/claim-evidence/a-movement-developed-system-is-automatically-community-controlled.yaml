@@ -1,0 +1,18 @@
+title: A movement-developed system is automatically community-controlled
+type: claim-evidence
+claim: A movement-developed system is automatically community-controlled
+interpretation: >-
+  State the named organizational stewards and mark community decision rights as
+  unresolved until documented.
+uncertainty: >-
+  Named movement involvement does not show how farmers, educators, contributors
+  or territorial communities participate in consequential decisions.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row422
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

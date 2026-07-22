@@ -1,0 +1,23 @@
+title: Agroecology School Cross-Case Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare two schools after both are developed, preserving context and
+  identifying common review questions rather than ranking performance.
+what_returns_to_commons: >-
+  Could produce a reusable but non-prescriptive case-comparison framework for
+  regenerative education systems.
+notes: >-
+  What to capture: Governance, pedagogy, land context, gender/youth authority,
+  ecological evidence, livelihoods, maintenance, external support and transfer
+  limits. · Status/Caution: Queued; do not begin until Amrita case is developed
+related_source_system: Shashe + Amrita Bhoomi
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row270
+  source_lineage: Internal comparison synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

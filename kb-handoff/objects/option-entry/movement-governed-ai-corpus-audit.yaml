@@ -1,0 +1,26 @@
+title: Movement-Governed AI Corpus Audit
+type: option-entry
+category: governance
+what_it_is: >-
+  A structured review of corpus selection, languages, permissions, authority,
+  exclusions, citations and correction rights before treating a movement AI as a
+  trusted knowledge system.
+potential_uses: >-
+  AI knowledge commons, agroecology assistants, movement archives, field
+  guidance systems.
+dependencies: >-
+  Corpus inventory, steward roles, licensing and community protocols, language
+  review, test queries, correction workflow.
+tradeoffs: >-
+  Can become bureaucratic, expose sensitive materials or privilege what is
+  easiest to document.
+context: IARAA / MST / World March of Women / Baobab
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row288
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

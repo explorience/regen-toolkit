@@ -1,0 +1,24 @@
+title: Deliberation-to-Decision Accountability Record
+type: option-entry
+category: governance
+what_it_is: >-
+  Trace recruitment, statements, moderation, opinion groups, consensus signals,
+  proposals, institutional responses, decisions and implementation status.
+potential_uses: >-
+  Public-policy processes, assemblies, community decisions and funding
+  allocation.
+dependencies: >-
+  Transparent process design, source data, response obligations, privacy
+  safeguards and later outcome review.
+tradeoffs: >-
+  May over-formalize discussion, expose participants or imply consensus caused
+  the decision.
+context: Polis/vTaiwan + Decidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row105
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

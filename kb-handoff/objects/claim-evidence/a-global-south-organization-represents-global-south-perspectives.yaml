@@ -1,0 +1,18 @@
+title: A Global South organization represents Global South perspectives
+type: claim-evidence
+claim: A Global South organization represents Global South perspectives
+interpretation: >-
+  Describe the organization, geography and perspective precisely; do not use it
+  as a proxy for a whole region.
+uncertainty: >-
+  Organizations are situated by country, movement, language, funders, networks
+  and institutional position.
+evidence_stance: qualifying
+context: Southern Digital Justice Research
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row345
+  source_lineage: Internal cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,25 @@
+title: Affected-Community Design Authority Gate
+type: option-entry
+category: governance
+what_it_is: >-
+  Require consequential database, platform and public-output decisions to
+  identify affected communities and define their authority over framing, review,
+  correction and publication.
+potential_uses: >-
+  Sensitive records, public views, classifications, AI workflows, community data
+  and project narratives.
+dependencies: >-
+  Affected-party mapping, resourcing, accessible participation, conflict rules,
+  decision rights and documentation.
+tradeoffs: >-
+  Can become tokenistic consultation, essentialize communities, or create
+  burdens without compensation.
+context: Design Justice Network / Regen Knowledge Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row164
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

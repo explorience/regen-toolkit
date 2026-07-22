@@ -1,0 +1,18 @@
+title: Open access is always the most commons-aligned choice
+type: claim-evidence
+claim: Open access is always the most commons-aligned choice
+interpretation: >-
+  Use differentiated access and public-use states; explain restrictions and
+  review them periodically.
+uncertainty: >-
+  Some resources involve privacy, cultural context, safety, licensing, political
+  risk, or affected-party interests.
+evidence_stance: qualifying
+context: Toolkit self-governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row164
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

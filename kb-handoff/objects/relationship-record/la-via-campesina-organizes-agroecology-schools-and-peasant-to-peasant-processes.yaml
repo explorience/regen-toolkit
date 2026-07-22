@@ -1,0 +1,19 @@
+subject: La Vía Campesina
+predicate: organizes
+object: Agroecology schools and peasant-to-peasant processes
+type: relationship-record
+title: >-
+  La Vía Campesina — organizes — Agroecology schools and peasant-to-peasant
+  processes
+original_relationship: organizes
+evidence: Movement education and horizontal exchange across regions.
+scope: Distributed network; school-level governance varies
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row351
+  source_lineage: https://viacampesina.org/en/agroecology/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

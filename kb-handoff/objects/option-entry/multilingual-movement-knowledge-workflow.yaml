@@ -1,0 +1,25 @@
+title: Multilingual Movement Knowledge Workflow
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Preserve original-language concepts and artifacts alongside reviewed
+  translations, translator attribution and movement-preferred terminology.
+potential_uses: >-
+  Global source-system expansion, public views, AI retrieval, cross-regional
+  learning.
+dependencies: >-
+  Paid translators, source-language reviewers, version control during drafting,
+  terminology notes and correction rights.
+tradeoffs: >-
+  Translation can erase political meaning, over-standardize concepts or
+  privilege languages with more review capacity.
+context: GTA / Vikalp Sangam
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row250
+  source_lineage: >-
+    https://www.globaltapestryofalternatives.org/assembly:2026:indonesia:declaration
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

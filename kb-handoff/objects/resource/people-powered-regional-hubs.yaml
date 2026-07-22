@@ -1,0 +1,18 @@
+title: People Powered Regional Hubs
+type: resource
+resource_type: Governance structure
+url: https://www.peoplepowered.org/governance
+original_source: People Powered
+notes: >-
+  Why add: Adds place-based and polycentric implementation capacity rather than
+  only a centralized global network. · Status/Caution: Regional activity and
+  capacity vary; hub existence is not evidence of active programming or
+  representation. · Parent source system: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row242
+  source_lineage: https://www.peoplepowered.org/governance
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

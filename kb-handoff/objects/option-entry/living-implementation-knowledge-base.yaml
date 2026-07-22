@@ -1,0 +1,24 @@
+title: Living Implementation Knowledge Base
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Maintain technical documentation, methods, moderation guidance, case studies,
+  algorithms, and open data as one evolving source system.
+potential_uses: >-
+  Tool stewardship, implementation memory, facilitator training, research reuse,
+  contributor onboarding.
+dependencies: >-
+  Editorial stewardship, versioning, dated cases, correction paths, source
+  links, maintenance capacity.
+tradeoffs: >-
+  Maintainer perspective can dominate; successful cases may be overrepresented
+  and failed deployments under-documented.
+context: Computational Democracy Project
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row92
+  source_lineage: https://compdemocracy.org/knowledge-base/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

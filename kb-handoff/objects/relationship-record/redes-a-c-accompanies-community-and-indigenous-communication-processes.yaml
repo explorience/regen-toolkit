@@ -1,0 +1,18 @@
+subject: REDES A.C.
+predicate: accompanies
+object: Community and Indigenous communication processes
+type: relationship-record
+title: REDES A.C. — accompanies — Community and Indigenous communication processes
+original_relationship: accompanies
+evidence: Knowledge, methodology, technology and policy support guided by communities
+scope: Accompaniment is not representation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row304
+  source_lineage: https://redesac.org.mx/en/que-hacemos/
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

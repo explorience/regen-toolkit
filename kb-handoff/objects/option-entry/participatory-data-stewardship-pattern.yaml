@@ -1,0 +1,24 @@
+title: Participatory Data Stewardship Pattern
+type: option-entry
+category: governance
+what_it_is: >-
+  Design data institutions around community participation, value sharing and
+  governance rather than unilateral data extraction.
+potential_uses: >-
+  Community datasets, collaborative AI, urban data, research platforms and
+  knowledge commons.
+dependencies: >-
+  Clear authority, representative processes, legal structure, sustainable
+  financing and exit rights.
+tradeoffs: >-
+  Participation can be symbolic; scaling can centralize power or dilute
+  community control.
+context: Aapti Institute
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row241
+  source_lineage: https://aapti.in/fostering-participatory-data-stewardship/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,5 +1,5 @@
 title: Global Indigenous Data Alliance (GIDA)
-type: directory
+type: map
 steward: Global Indigenous Data Alliance (GIDA)
 return_path: unset — establish via register-source
 url: https://www.gida-global.org/
@@ -11,14 +11,22 @@ why_it_matters: >-
   An international Indigenous-led network advancing Indigenous Data Sovereignty
   and governance, collective rights and interests in data, and data for
   self-determined wellbeing.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row16
-  source_lineage: https://www.gida-global.org/
 caution: >-
   Do not reduce Indigenous data governance to generic privacy, ethics, or
   open-data compliance. GIDA is a network, not a universal representative of all
   Indigenous Peoples or communities.
+extraction_status: >-
+  Collective rights in data; Indigenous authority and benefit; responsibility
+  and ethics; national and regional network connections; AI, university,
+  research and standards implications.
+notes: >-
+  Role: Corrective source-system cluster / Indigenous data governance network ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row15
+  source_lineage: https://www.gida-global.org/
+high_risk: true
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

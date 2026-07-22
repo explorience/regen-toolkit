@@ -1,0 +1,24 @@
+title: Governance Case-and-Document Registry
+type: option-entry
+category: governance
+what_it_is: >-
+  Link organizations and tools to governance cases, primary documents,
+  structures, entities, and decision processes.
+potential_uses: >-
+  Resource graph, structural-integrity review, implementation memory, governance
+  comparisons.
+dependencies: >-
+  Curated taxonomy, source lineage, versioning, case review, maintenance and
+  dispute handling.
+tradeoffs: >-
+  Formal records can obscure informal power; crowdsourcing can create uneven
+  coverage and apparent certainty.
+context: Metagov / Govbase
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row30
+  source_lineage: https://govbase.metagov.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

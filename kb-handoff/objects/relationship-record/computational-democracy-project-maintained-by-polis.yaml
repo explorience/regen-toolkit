@@ -1,0 +1,16 @@
+subject: Computational Democracy Project
+predicate: maintained_by
+object: Polis
+type: relationship-record
+title: Computational Democracy Project — maintained_by — Polis
+original_relationship: maintains
+evidence: Organization states that it designs, engineers, hosts, and maintains Polis.
+scope: Current primary-source relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row41
+  source_lineage: https://compdemocracy.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

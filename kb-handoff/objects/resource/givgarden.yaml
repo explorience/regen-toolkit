@@ -1,0 +1,17 @@
+title: GIVgarden
+type: resource
+resource_type: Governance implementation
+url: https://docs.giveth.io/givgarden
+original_source: Giveth
+notes: >-
+  Why add: Preserves governance implementation history and transition memory. ·
+  Status/Caution: Historical/deprecated; document dates and reasons for
+  transition · Parent source system: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row52
+  source_lineage: https://docs.giveth.io/givgarden
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+title: Decidim GraphQL API
+type: resource
+resource_type: Technical interface
+url: https://meta.decidim.org/api/docs
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Supports agent-readable exports and integrations. · Status/Caution:
+  Authorization, consent and privacy require careful governance · Parent source
+  system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row300
+  source_lineage: https://meta.decidim.org/api/docs
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

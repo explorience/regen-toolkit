@@ -1,0 +1,19 @@
+title: Platform cooperatives create fairer digital work
+type: claim-evidence
+claim: Platform cooperatives create fairer digital work
+interpretation: >-
+  Platform cooperatives are designed to increase democratic ownership and
+  control; labor and business outcomes must be assessed case by case.
+uncertainty: >-
+  Cooperative ownership may improve bargaining, autonomy, and surplus
+  distribution, but outcomes vary by market, capital, governance, regulation,
+  and worker participation.
+evidence_stance: neutral
+context: Platform Cooperativism Consortium
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row273
+  source_lineage: https://platform.coop/about/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

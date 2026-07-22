@@ -1,0 +1,17 @@
+subject: Kelvin Nicolas
+predicate: collaborates_with
+object: Coletivo Nacional LGBTI+ do MST
+type: relationship-record
+title: Kelvin Nicolas — collaborates_with — Coletivo Nacional LGBTI+ do MST
+original_relationship: participates in / speaks from
+evidence: Named in a 2025 MST interview.
+scope: Public role; safety-aware use
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row453
+  source_lineage: >-
+    https://mst.org.br/2025/05/17/17-de-maio-demarca-importancia-da-luta-contra-a-discriminacao-e-violencia-a-pessoas-lgbtqiapn/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

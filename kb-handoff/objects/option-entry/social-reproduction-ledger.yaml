@@ -1,0 +1,23 @@
+title: Social Reproduction Ledger
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Record the reproductive labor required to sustain a project: coordination,
+  onboarding, translation, emotional labor, conflict work, access, documentation
+  and household/time constraints.
+potential_uses: Funding design, contributor support, workload review, maintenance planning.
+dependencies: >-
+  Consent, privacy boundaries, compensation policy, role taxonomy,
+  non-surveillance safeguards.
+tradeoffs: >-
+  May expose sensitive personal conditions or turn care into extractive
+  accounting.
+context: Federici / labor-maintenance synthesis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row211
+  source_lineage: https://thecommoner.org/back-issues/issue-15-winter-2012/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

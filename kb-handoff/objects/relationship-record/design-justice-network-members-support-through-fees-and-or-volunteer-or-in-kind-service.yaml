@@ -1,0 +1,19 @@
+subject: Design Justice Network members
+predicate: support_through
+object: Fees and/or volunteer or in-kind service
+type: relationship-record
+title: >-
+  Design Justice Network members — support_through — Fees and/or volunteer or
+  in-kind service
+original_relationship: support through
+evidence: Sliding-scale payment or equivalent service is part of membership model.
+scope: Review equity and unpaid-labor implications
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row182
+  source_lineage: https://designjustice.org/membership
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

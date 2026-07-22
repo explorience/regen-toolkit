@@ -1,0 +1,25 @@
+title: Amrita Bhoomi Farmer-to-Farmer Learning Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one training cycle from movement goals and local knowledge through
+  pedagogy, farm practice, participant learning and later adaptation.
+what_returns_to_commons: >-
+  Concrete South Asian implementation case for movement-led ecological knowledge
+  infrastructure.
+notes: >-
+  What to capture: Governance, educators, participants, gender and caste access,
+  curriculum, land context, costs, outcomes, continued exchange and community
+  authority. · Status/Caution: Candidate; needs direct school or movement
+  sources
+related_source_system: KRRS / La Vía Campesina
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row259
+  source_lineage: >-
+    https://viacampesina.org/en/2023/11/peasant-agroecology-schools-amritabhoomi-learning-centre-and-farmer-to-farmer-learning-exchanges/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,18 @@
+title: GRAIN — Grant Representation And Interchange Notation
+type: resource
+resource_type: Descriptive grammar
+url: https://github.com/CrossWalkri/GRAIN
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: Potential ontology and interoperability branch for grants and funding
+  records. · Status/Caution: Current maturity and adoption should be checked
+  before treating it as established interchange infrastructure · Parent source
+  system: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row380
+  source_lineage: https://github.com/CrossWalkri/GRAIN
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

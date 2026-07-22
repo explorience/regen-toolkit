@@ -1,0 +1,20 @@
+title: Popular Agrarian Reform
+type: concept-lineage
+short_description: >-
+  Framework connecting land democratization to food, agroecology, cooperation,
+  education, health, environment and wider social transformation.
+toolkit_usage: Prevents agroecology from being separated from land and political economy.
+original_object_type: Concept / political framework
+notes: >-
+  Why add: Prevents agroecology from being separated from land and political
+  economy. · Status/Caution: Political program, not a neutral technical
+  framework · Parent source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row672
+  source_lineage: >-
+    https://viacampesina.org/en/2025/02/brazil-mst-asserts-that-agrarian-reform-can-end-environmental-destruction-and-social-inequality/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

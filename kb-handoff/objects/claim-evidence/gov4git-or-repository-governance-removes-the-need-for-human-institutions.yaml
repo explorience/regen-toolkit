@@ -1,0 +1,19 @@
+title: Gov4Git or repository governance removes the need for human institutions
+type: claim-evidence
+claim: Gov4Git or repository governance removes the need for human institutions
+interpretation: >-
+  Describe technical affordances separately from governance legitimacy and real
+  rules-in-use.
+uncertainty: >-
+  Protocols may structure proposals, ledgers and conflicts, but legitimacy,
+  interpretation, access and accountability remain institutional and social
+  questions.
+evidence_stance: qualifying
+context: Plurality Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row210
+  source_lineage: https://docs.plurality.net/governance/Gov4Git/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

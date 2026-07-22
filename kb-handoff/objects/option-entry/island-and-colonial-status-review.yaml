@@ -1,0 +1,18 @@
+title: Island and Colonial-Status Review
+type: option-entry
+category: coordination
+what_it_is: >-
+  Add island geography, colonial status, disaster exposure, logistics and
+  sovereignty constraints to territorial-case review.
+potential_uses: Organización Boricuá / Puerto Rico
+dependencies: Corrects mainland assumptions in regenerative practice mapping.
+tradeoffs: Avoid resilience romanticization and political oversimplification.
+context: Review practice
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row315
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,23 @@
+title: Commons Transition Plan
+type: option-entry
+category: governance
+what_it_is: >-
+  Develop a place- or domain-specific transition plan through mapping,
+  interviews, institutional analysis, policy options, and public-commoner
+  dialogue.
+potential_uses: Cities, bioregions, sectors, networks, and source-system stewardship.
+dependencies: >-
+  Local mandate, field mapping, participation, implementation ownership,
+  funding, evaluation, political context.
+tradeoffs: >-
+  Consultation can create plans without implementation; external experts may
+  over-shape local agendas.
+context: P2P Foundation / Ghent / FLOK lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row133
+  source_lineage: https://wiki.p2pfoundation.net/Commons_Transition
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

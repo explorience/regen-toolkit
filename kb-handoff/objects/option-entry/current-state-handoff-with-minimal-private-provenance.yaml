@@ -1,0 +1,23 @@
+title: Current-State Handoff with Minimal Private Provenance
+type: option-entry
+category: coordination
+what_it_is: >-
+  Publish and hand off one preferred current-state database while retaining only
+  the private provenance and attribution needed for accountability, merge
+  safety, and correction.
+potential_uses: Final workbook consolidation and technical migration.
+dependencies: >-
+  Canonical current record rules, attribution, access controls, retention
+  decision.
+tradeoffs: >-
+  Too little provenance weakens accountability; too much recreates unwanted
+  historical complexity.
+context: Toolkit merge / handoff
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row196
+  source_lineage: Internal labor-maintenance review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

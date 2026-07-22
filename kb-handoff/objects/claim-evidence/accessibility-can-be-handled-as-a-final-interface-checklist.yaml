@@ -1,0 +1,18 @@
+title: Accessibility can be handled as a final interface checklist
+type: claim-evidence
+claim: Accessibility can be handled as a final interface checklist
+interpretation: >-
+  Treat accessibility and disability justice as design and governance concerns
+  throughout the lifecycle.
+uncertainty: >-
+  Access needs shape goals, formats, timing, labor, governance and resource
+  allocation from the beginning.
+evidence_stance: qualifying
+context: Thinker graph coverage review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row241
+  source_lineage: https://designjustice.org/resources-overview
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

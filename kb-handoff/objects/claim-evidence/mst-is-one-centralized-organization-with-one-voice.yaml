@@ -1,0 +1,18 @@
+title: MST is one centralized organization with one voice
+type: claim-evidence
+claim: MST is one centralized organization with one voice
+interpretation: >-
+  Represent specific units, roles, sources and scopes; avoid attributing every
+  statement or practice to the entire movement.
+uncertainty: >-
+  The movement contains territorial communities, state and regional structures,
+  national coordination, sectors, collectives and diverse constituencies.
+evidence_stance: qualifying
+context: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row404
+  source_lineage: https://mst.org.br/quem-somos/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

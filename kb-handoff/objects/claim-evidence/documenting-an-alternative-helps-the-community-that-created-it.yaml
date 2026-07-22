@@ -1,0 +1,18 @@
+title: Documenting an alternative helps the community that created it
+type: claim-evidence
+claim: Documenting an alternative helps the community that created it
+interpretation: >-
+  Track consent, attribution, intended audience, benefits returned, correction
+  rights and visibility preferences.
+uncertainty: >-
+  Visibility can produce benefits, but it can also extract stories, expose
+  communities or redirect recognition toward intermediaries.
+evidence_stance: qualifying
+context: Vikalp Sangam / GTA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row357
+  source_lineage: https://vikalpsangam.org/about-us/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

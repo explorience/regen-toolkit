@@ -1,0 +1,24 @@
+title: Field-Level Review and Public-Use Gates
+type: option-entry
+category: coordination
+what_it_is: >-
+  Track review scope, public-use status, and sensitivity at field or assertion
+  level when whole-record status is too coarse.
+potential_uses: >-
+  Claims, people records, affected-party material, dynamic statuses, public
+  exports.
+dependencies: >-
+  Reviewer roles, status vocabulary, access controls, escalation and correction
+  process.
+tradeoffs: >-
+  Review burden may become high; inconsistent application can create false
+  reassurance.
+context: Merge and governance readiness
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row115
+  source_lineage: Internal merge-readiness design
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

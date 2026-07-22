@@ -1,0 +1,12 @@
+title: Boundary — University Indigenous Data Governance Review
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  What to capture: Data holdings, decision authority, open-data defaults, AI
+  use, repatriation, benefit, Indigenous governance roles, correction and
+  accountability. · Status/Caution: Requires institution and affected Indigenous
+  perspectives
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Implementation Memory!row177
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

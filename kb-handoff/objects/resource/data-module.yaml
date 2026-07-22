@@ -1,0 +1,18 @@
+title: Data Module
+type: resource
+resource_type: Technical module
+url: https://docs.regen.network/modules/data/
+original_source: Regen Ledger
+notes: >-
+  Why add: Important evidence-infrastructure and provenance pattern. ·
+  Status/Caution: Anchoring proves existence at a time, not truth; attestation
+  records who vouched, not universal validity · Parent source system: Regen
+  Ledger
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row23
+  source_lineage: https://docs.regen.network/modules/data/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,22 @@
+title: Source-System Card Deepening Process
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Captures the repeatable process for deepening source-system cards and using
+  them to generate options, claims, implementation memory, cautions, and next
+  actions.
+notes: >-
+  Priority: Captures the repeatable process for deepening source-system cards
+  and using them to generate options, claims, implementation memory, cautions,
+  and next actions. · Next: Use as guidance for Batch 1B; keep batches to 3-5
+  source systems; extract options/claims/implementation memory after deepening.
+  · Notes: Documents the source-system card deepening process itself as
+  implementation memory.
+review_needs: Discovery_Pool promotion — prospective candidate
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04905
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

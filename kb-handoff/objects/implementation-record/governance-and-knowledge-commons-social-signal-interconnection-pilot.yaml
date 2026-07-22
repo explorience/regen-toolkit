@@ -1,0 +1,25 @@
+title: Governance and Knowledge-Commons Social-Signal Interconnection Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A bounded set of social leads was resolved into primary-source organizations,
+  publications, people, concepts, and relationships, with duplicates checked
+  against the original and continuation workbooks.
+what_returns_to_commons: >-
+  Demonstrates how social material can improve discovery without becoming a
+  ranking or authority layer.
+notes: >-
+  What to capture: Signal origin; primary source; object type; duplicate status;
+  social-only versus source-resolved status; relationships; claims/cautions;
+  what was deliberately not added. · Status/Caution: Completed pilot;
+  methodology should be refined before larger-scale social processing
+related_source_system: Plurality Institute / DemocracyNext / DelibTech / Metagov
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row56
+  source_lineage: Internal workbook pilot — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

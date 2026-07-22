@@ -1,0 +1,18 @@
+title: A single accessible format serves all disabled people
+type: claim-evidence
+claim: A single accessible format serves all disabled people
+interpretation: >-
+  Provide multiple formats and participation pathways, invite specific needs
+  without forced disclosure, and document unresolved access conflicts.
+uncertainty: >-
+  Access needs vary and may conflict across sensory, cognitive, mobility,
+  communication, energy, environmental and other dimensions.
+evidence_stance: qualifying
+context: Cross-system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row289
+  source_lineage: https://sinsinvalid.org/resources/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

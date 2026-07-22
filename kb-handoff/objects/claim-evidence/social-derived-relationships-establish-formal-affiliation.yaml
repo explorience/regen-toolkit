@@ -1,0 +1,19 @@
+title: Social-derived relationships establish formal affiliation
+type: claim-evidence
+claim: Social-derived relationships establish formal affiliation
+interpretation: >-
+  Record the exact observed relationship and source; avoid inferring broader
+  affiliation.
+uncertainty: >-
+  Mentions, reposts, event participation, and shared publications may suggest a
+  relationship without proving employment, partnership, endorsement, or
+  governance authority.
+evidence_stance: qualifying
+context: Social-signal pilot
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row92
+  source_lineage: Internal pilot synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

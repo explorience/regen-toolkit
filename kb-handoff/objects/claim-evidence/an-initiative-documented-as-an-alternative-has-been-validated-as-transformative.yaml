@@ -1,0 +1,23 @@
+title: >-
+  An initiative documented as an alternative has been validated as
+  transformative
+type: claim-evidence
+claim: >-
+  An initiative documented as an alternative has been validated as
+  transformative
+interpretation: >-
+  Describe the initiative, source and context; preserve self-assessment and seek
+  affected-party and outcome evidence before broader claims.
+uncertainty: >-
+  Documentation, network inclusion or self-description can surface valuable
+  practices but does not independently establish outcomes, justice or
+  transferability.
+evidence_stance: qualifying
+context: GTA / Vikalp Sangam
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row361
+  source_lineage: https://vikalpsangam.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

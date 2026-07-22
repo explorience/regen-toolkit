@@ -1,0 +1,18 @@
+title: ATC Nicaragua
+type: organization
+org_type: Organization / worker-peasant movement
+url: https://cloc-viacampesina.net/
+steward: ATC Nicaragua
+notes: >-
+  Why add: Selected branch · Status/Caution: Current · Parent source system: ATC
+  Nicaragua
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row784
+  source_lineage: https://cloc-viacampesina.net/
+original_object_class: Organization / Network
+normalization_flag: REPAIR-NO-784
+review_needs: 'Matty dup-flag REPAIR-NO-784: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

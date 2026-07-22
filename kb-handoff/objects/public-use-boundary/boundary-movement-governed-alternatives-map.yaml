@@ -1,0 +1,10 @@
+title: Boundary — Movement-Governed Alternatives Map
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Mapping can expose vulnerable groups, imply endorsement or reduce dynamic
+  struggles to static pins and categories.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Option Candidates!row249
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

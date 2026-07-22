@@ -1,0 +1,17 @@
+subject: Plurality Project
+predicate: recognizes_contributions_through
+object: Plural Credits
+type: relationship-record
+title: Plurality Project — recognizes_contributions_through — Plural Credits
+original_relationship: recognizes contributions through
+evidence: Project governance documentation
+scope: Proposed or evolving mechanism
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row130
+  source_lineage: https://docs.plurality.net/governance/Plural%20credits/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

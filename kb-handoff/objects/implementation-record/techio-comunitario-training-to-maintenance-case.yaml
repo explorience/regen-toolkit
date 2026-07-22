@@ -1,0 +1,23 @@
+title: Techio Comunitario Training-to-Maintenance Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one community-promoter cohort from training into actual network
+  operation, peer support and long-term maintenance.
+what_returns_to_commons: >-
+  Tests whether training creates durable local capability rather than short-term
+  workshops.
+notes: >-
+  What to capture: Selection, curriculum, compensation, gender and language
+  access, tools, work performed, support, attrition and outcomes. ·
+  Status/Caution: Use 2025 evaluation and participant perspectives
+related_source_system: Rhizomatica / REDES A.C.
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row233
+  source_lineage: https://www.rhizomatica.org/what-we-do/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,18 @@
+subject: Toolkit maintenance budget
+predicate: supports
+object: review, correction, care, accessibility, translation, and technical upkeep
+type: relationship-record
+title: >-
+  Toolkit maintenance budget — supports — review, correction, care,
+  accessibility, translation, and technical upkeep
+original_relationship: funds
+evidence: Expansion-only funding would leave essential labor invisible and unsupported.
+scope: Proposed funding relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row239
+  source_lineage: Internal labor-maintenance review
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

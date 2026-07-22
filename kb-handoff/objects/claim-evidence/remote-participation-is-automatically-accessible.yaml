@@ -1,0 +1,19 @@
+title: Remote participation is automatically accessible
+type: claim-evidence
+claim: Remote participation is automatically accessible
+interpretation: >-
+  Document the specific remote-access supports, remaining barriers and
+  participant feedback.
+uncertainty: >-
+  Remote formats can still exclude through inaccessible platforms, fatigue, time
+  zones, captions, bandwidth, surveillance or rigid pacing.
+evidence_stance: qualifying
+context: Toolkit meetings / events
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row301
+  source_lineage: Internal disability-access review
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

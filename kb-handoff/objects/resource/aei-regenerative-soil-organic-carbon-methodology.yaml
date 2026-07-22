@@ -1,0 +1,20 @@
+title: AEI Regenerative Soil Organic Carbon Methodology
+type: resource
+resource_type: Credit protocol
+url: >-
+  https://www.registry.regen.network/crediting-protocols/aei-regenerative-soil-organic-carbon-methodology-for-rangeland-grassland-agricultural-and-conservation-lands
+original_source: Regen Registry
+notes: >-
+  Why add: Soil-carbon MRV and regenerative-agriculture example. ·
+  Status/Caution: Soil-carbon estimates depend on baselines, sampling, models,
+  uncertainty, permanence, and project conditions · Parent source system: Regen
+  Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row28
+  source_lineage: >-
+    https://www.registry.regen.network/crediting-protocols/aei-regenerative-soil-organic-carbon-methodology-for-rangeland-grassland-agricultural-and-conservation-lands
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

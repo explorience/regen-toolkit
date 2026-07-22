@@ -1,0 +1,22 @@
+title: Regional Digital Rights Field-Memory Network
+type: option-entry
+category: governance
+what_it_is: >-
+  Combine regional assemblies, country reports, policy forums, media and
+  training into source-linked implementation memory.
+potential_uses: >-
+  Current issue tracking, public-use cautions, policy learning and contributor
+  discovery.
+dependencies: >-
+  Editorial review, country tagging, safety controls, update ownership and
+  primary-source resolution.
+tradeoffs: May overrepresent funded organizations and publicly visible advocacy networks.
+context: EngageMedia / Paradigm Initiative / KICTANet
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row243
+  source_lineage: Internal cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

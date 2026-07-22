@@ -1,0 +1,16 @@
+title: An alias list is sufficient for identity resolution
+type: claim-evidence
+claim: An alias list is sufficient for identity resolution
+interpretation: Store aliases as sourced, typed, dated records.
+uncertainty: >-
+  Handles, translations, legal names, historic labels, and abbreviations have
+  different scopes and validity.
+evidence_stance: qualifying
+context: GAIAI merge-pilot review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row181
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: Design Justice Retrospective
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  After a project, ask who framed the problem, who participated, who was harmed,
+  who benefited, whose labor was used and who controls the result.
+potential_uses: >-
+  Implementation memory, hackathons, grants, civic-tech pilots and
+  knowledge-commoning processes.
+dependencies: >-
+  Honest participation records, affected-party feedback, power to correct the
+  record and protection from retaliation.
+tradeoffs: >-
+  Retrospectives can become reputation management without accountability or
+  remedy.
+context: Design Justice Network
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row167
+  source_lineage: https://designjustice.org/djn-activities
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

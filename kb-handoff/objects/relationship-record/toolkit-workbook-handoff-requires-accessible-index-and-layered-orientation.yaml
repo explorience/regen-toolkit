@@ -1,0 +1,17 @@
+subject: Toolkit workbook handoff
+predicate: requires
+object: Accessible index and layered orientation
+type: relationship-record
+title: Toolkit workbook handoff — requires — Accessible index and layered orientation
+original_relationship: requires
+evidence: Makes the singular current-state artifact navigable in multiple ways.
+scope: Handoff requirement
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row257
+  source_lineage: Internal disability-access review
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

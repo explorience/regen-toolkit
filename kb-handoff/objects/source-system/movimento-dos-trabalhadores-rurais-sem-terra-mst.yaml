@@ -1,5 +1,5 @@
 title: Movimento dos Trabalhadores Rurais Sem Terra (MST)
-type: directory
+type: publication
 steward: Movimento dos Trabalhadores Rurais Sem Terra (MST)
 return_path: unset — establish via register-source
 url: https://mst.org.br/
@@ -13,14 +13,19 @@ why_it_matters: >-
   national structures, linking land struggle, popular agrarian reform,
   education, agroecology, cooperation, health, culture, communication and
   internationalism.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row43
-  source_lineage: https://mst.org.br/
 caution: >-
   Movement reporting and political claims require contextual and affected-party
   review. Do not reduce MST to one spokesperson, one sector or one universal
   model.
+extraction_status: >-
+  Movement-generated knowledge, political education, territorial implementation,
+  cooperative infrastructure, constituency organization, public communication
+  and current AI/governance experimentation.
+notes: 'Role: Core movement-led source system / Brazil · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row42
+  source_lineage: https://mst.org.br/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

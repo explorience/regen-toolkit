@@ -1,0 +1,24 @@
+title: Differentiated Resource Access and Public-Use States
+type: option-entry
+category: coordination
+what_it_is: >-
+  Classify records by openness, sensitivity, review state, intended audience,
+  licensing, and publication suitability.
+potential_uses: >-
+  Internal/public separation, privacy, affected-party care, source licensing,
+  agent access.
+dependencies: >-
+  Access-control model, sensitivity vocabulary, review roles, correction
+  process.
+tradeoffs: >-
+  Restriction can reduce commons value or hide power; openness can cause harm or
+  violate context.
+context: Toolkit self-governance / GKC review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row109
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

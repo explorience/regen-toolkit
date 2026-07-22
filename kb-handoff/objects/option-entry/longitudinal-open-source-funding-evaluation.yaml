@@ -1,0 +1,25 @@
+title: Longitudinal Open-Source Funding Evaluation
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Connect a funding cohort to versioned project identities and longitudinal
+  software-activity metrics, then combine those metrics with qualitative
+  implementation memory.
+potential_uses: >-
+  Grant retrospectives, funding portfolio learning, builder-support design and
+  maintenance analysis.
+dependencies: >-
+  Stable project mappings, transparent metric definitions, pre/post periods,
+  comparison logic and qualitative review.
+tradeoffs: >-
+  Machine-readable projects are privileged; activity metrics can be gamed or
+  mistaken for public value.
+context: Gitcoin / Octant / OSO
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row16
+  source_lineage: https://www.opensource.observer/solutions/venture
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,20 @@
+title: Conflict-Sensitive Source-System Protocol
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Apply threat modeling, data minimization, role dating, redaction and consent
+  checks before ingesting records from movements operating under violence.
+potential_uses: FENSUAGRO human-rights archive
+dependencies: >-
+  Allows preservation of movement memory without automatically maximizing
+  visibility.
+tradeoffs: May still create discovery or inference risks; steward review is essential.
+context: Source systems / governance
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row325
+  source_lineage: Priority option
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

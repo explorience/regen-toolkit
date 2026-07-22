@@ -1,0 +1,17 @@
+title: People Powered Courses and Custom Training
+type: resource
+resource_type: Training system
+url: https://www.peoplepowered.org/about/what-we-do
+original_source: People Powered
+notes: >-
+  Why add: Adds structured learning pathways beyond static resources. ·
+  Status/Caution: Training participation is not evidence of skill mastery or
+  program success. · Parent source system: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row256
+  source_lineage: https://www.peoplepowered.org/about/what-we-do
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

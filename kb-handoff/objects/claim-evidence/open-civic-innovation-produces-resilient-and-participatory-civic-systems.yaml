@@ -1,0 +1,19 @@
+title: Open civic innovation produces resilient and participatory civic systems
+type: claim-evidence
+claim: Open civic innovation produces resilient and participatory civic systems
+interpretation: >-
+  Open civic innovation is an articulated practice and design framework intended
+  to support participatory, resilient civic systems; outcomes depend on
+  implementation and context.
+uncertainty: >-
+  The framework expresses a theory of practice, not established causal evidence
+  across communities.
+evidence_stance: neutral
+context: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row70
+  source_lineage: https://www.opencivics.co/practice
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: One Funding Round from Mechanism Design to Later Learning
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one round or season from mechanism choice and eligibility through
+  allocation, project reporting, observed outcomes and retrospective changes.
+what_returns_to_commons: >-
+  Connects mechanism directories to implementation memory instead of treating
+  mechanism descriptions as sufficient.
+notes: >-
+  What to capture: Mechanism rationale, participants, selection rules, funding
+  distribution, reporting expectations, failures, gaming, maintenance and design
+  changes. · Status/Caution: Priority candidate; avoid cherry-picking only
+  successful cases
+related_source_system: Gitcoin / Octant / Giveth or Artizen
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row2
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

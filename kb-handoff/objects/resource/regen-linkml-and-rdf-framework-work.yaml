@@ -1,0 +1,21 @@
+title: Regen LinkML and RDF Framework Work
+type: resource
+resource_type: Semantic infrastructure
+url: >-
+  https://forum.regen.network/t/framework-working-group-progress-why-it-matters/532
+original_source: Regen Network / Regen Commons context
+notes: >-
+  Why add: Adds a concrete semantic and technical commons link beyond the
+  public-facing website. · Status/Caution: Primarily Regen Network
+  infrastructure; connection to Regen Commons is contextual and should not imply
+  Commons ownership. · Parent source system: Regen Network / Regen Commons
+  context
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row137
+  source_lineage: >-
+    https://forum.regen.network/t/framework-working-group-progress-why-it-matters/532
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

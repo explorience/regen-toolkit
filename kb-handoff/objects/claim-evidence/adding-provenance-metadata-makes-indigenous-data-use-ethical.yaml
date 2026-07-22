@@ -1,0 +1,19 @@
+title: Adding provenance metadata makes Indigenous data use ethical
+type: claim-evidence
+claim: Adding provenance metadata makes Indigenous data use ethical
+interpretation: >-
+  Provenance is one requirement within a broader governance and relationship
+  process.
+uncertainty: >-
+  Provenance improves visibility but cannot establish consent, benefit,
+  authority, reciprocity or appropriate purpose.
+evidence_stance: neutral
+context: GIDA / Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row257
+  source_lineage: https://www.gida-global.org/ieee-provenance
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -3,21 +3,19 @@ type: concept-lineage
 short_description: >-
   Framework documenting lessons from maintenance communities and collaborative
   groups applying maintenance thinking and action.
-source_traditions:
-  - The Maintainers
 toolkit_usage: >-
   Potential model for community-specific maintenance practice and knowledge
   sharing.
 original_object_type: Framework
+notes: >-
+  Why add: Potential model for community-specific maintenance practice and
+  knowledge sharing. · Status/Caution: Framework requires local adaptation and
+  practitioner review · Parent source system: The Maintainers
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row19
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: The Maintainers | https://themaintainers.org/community/
-notes: >-
-  Why add: Potential model for community-specific maintenance practice and
-  knowledge sharing. Status/Caution: Framework requires local adaptation and
-  practitioner review
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row494
+  source_lineage: https://themaintainers.org/community/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

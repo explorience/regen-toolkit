@@ -1,0 +1,19 @@
+title: Public community archives and AI use
+type: claim-evidence
+claim: Public community archives and AI use
+interpretation: >-
+  Preserve data-policy context, do not assume public discussion equals
+  unrestricted reuse, and apply stronger review to person-level or sensitive
+  material.
+uncertainty: >-
+  Public Slack channels may be archived, referenced, or processed under stated
+  data policies.
+evidence_stance: qualifying
+context: Metagov Community
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row38
+  source_lineage: https://metagov.org/join/community
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

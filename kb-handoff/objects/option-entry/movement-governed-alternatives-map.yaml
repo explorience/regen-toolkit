@@ -1,0 +1,25 @@
+title: Movement-Governed Alternatives Map
+type: option-entry
+category: governance
+what_it_is: >-
+  Map initiatives and relationships while keeping source ownership, local
+  context, uncertainty and community visibility choices attached.
+potential_uses: >-
+  Relational explorer, source-system atlas, regional collections and contributor
+  pathways.
+dependencies: >-
+  Persistent source links, permissions, sensitivity review, community
+  correction, non-ranking defaults.
+tradeoffs: >-
+  Mapping can expose vulnerable groups, imply endorsement or reduce dynamic
+  struggles to static pins and categories.
+context: GTA / GTAMap
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row249
+  source_lineage: https://www.globaltapestryofalternatives.org/mapping:index
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

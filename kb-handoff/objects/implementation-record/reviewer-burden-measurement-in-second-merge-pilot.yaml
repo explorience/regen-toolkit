@@ -1,0 +1,22 @@
+title: Reviewer-Burden Measurement in Second Merge Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track time, reviewer roles, escalations, unresolved decisions, and batch-level
+  approvals during the OpenCivics pilot.
+what_returns_to_commons: >-
+  Provides evidence for whether the governance design can scale without hidden
+  labor or bottlenecks.
+notes: >-
+  What to capture: Records reviewed, minutes/hours, role count, risk tier,
+  rework, conflicts, blocked items. · Status/Caution: NEXT pilot measurement
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row122
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

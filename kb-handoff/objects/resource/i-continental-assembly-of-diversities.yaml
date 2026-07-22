@@ -1,0 +1,20 @@
+title: I Continental Assembly of Diversities
+type: resource
+resource_type: Assembly
+url: >-
+  https://cloc-viacampesina.net/kit-de-prensa-viii-congreso-de-la-cloc-via-campesina
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Potential implementation case for constituency formation inside a
+  transnational peasant network. · Status/Caution: Preliminary record; direct
+  declaration and participant-led review needed · Parent source system: CLOC–La
+  Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row758
+  source_lineage: >-
+    https://cloc-viacampesina.net/kit-de-prensa-viii-congreso-de-la-cloc-via-campesina
+original_object_class: Event / Assembly
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

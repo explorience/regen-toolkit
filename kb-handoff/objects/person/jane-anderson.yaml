@@ -1,0 +1,19 @@
+title: Jane Anderson
+type: person
+full_name: Jane Anderson
+affiliation: Local Contexts
+consent_status: unverified — default non-public (Principle 8)
+url: https://localcontexts.org/about/the-local-contexts-team/jane-anderson/
+notes: >-
+  Why add: Important legal, archival and infrastructure lineage for Local
+  Contexts. · Status/Caution: Professional role; community authority remains
+  with participating communities · Parent source system: Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row455
+  source_lineage: https://localcontexts.org/about/the-local-contexts-team/jane-anderson/
+original_object_class: Person
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

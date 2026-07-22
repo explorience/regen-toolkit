@@ -1,0 +1,25 @@
+title: Indigenous Provenance Crosswalk
+type: option-entry
+category: governance
+what_it_is: >-
+  Extend provenance beyond technical origin to include Peoples, territories,
+  relationships, governance, permissions, use history and responsibilities.
+potential_uses: >-
+  Data lineage, knowledge graphs, registries, AI training documentation and
+  source-system exports.
+dependencies: >-
+  Structured provenance fields, persistent identifiers, Labels/Notices, update
+  handling and community review.
+tradeoffs: >-
+  More metadata can increase exposure or surveillance; some provenance should
+  remain restricted.
+context: GIDA / IEEE / Local Contexts
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row175
+  source_lineage: https://www.gida-global.org/ieee-provenance
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

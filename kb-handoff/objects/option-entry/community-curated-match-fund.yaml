@@ -1,0 +1,24 @@
+title: Community-Curated Match Fund
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  A community steward launches a thematic or place-based Fund, curates projects,
+  attracts sponsors, and distributes matching through a shared platform.
+potential_uses: >-
+  Local creative ecosystems, science communities, cultural networks, place-based
+  regeneration, emerging fields.
+dependencies: >-
+  Curator mandate, transparent criteria, conflict policy, sponsor alignment,
+  applicant support, reporting, and appeal path.
+tradeoffs: >-
+  Curator capture, network bias, sponsor influence, weak accountability,
+  extractive storytelling, and representation gaps.
+context: Artizen
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row13
+  source_lineage: https://play.artizen.fund/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+title: Local Contexts Registry
+type: resource
+resource_type: Directory / registry
+url: https://localcontexts.org/support/getting-started-on-the-hub/
+original_source: Local Contexts Hub
+notes: >-
+  Why add: Potential model for steward and institution discovery without
+  treating listing as endorsement. · Status/Caution: Registry presence is a
+  participation signal, not certification · Parent source system: Local Contexts
+  Hub
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row449
+  source_lineage: https://localcontexts.org/support/getting-started-on-the-hub/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

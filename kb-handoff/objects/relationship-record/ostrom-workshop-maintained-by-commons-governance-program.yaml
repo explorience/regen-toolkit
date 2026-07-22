@@ -1,0 +1,17 @@
+subject: Ostrom Workshop
+predicate: maintained_by
+object: Commons Governance Program
+type: relationship-record
+title: Ostrom Workshop — maintained_by — Commons Governance Program
+original_relationship: hosts
+evidence: Current multidisciplinary research program.
+scope: Current program relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row99
+  source_lineage: >-
+    https://www.ostromworkshop.indiana.edu/research/commons-governance/index.html
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

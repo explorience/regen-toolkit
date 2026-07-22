@@ -1,0 +1,18 @@
+title: La Vía Campesina represents a single unified peasant voice
+type: claim-evidence
+claim: La Vía Campesina represents a single unified peasant voice
+interpretation: >-
+  Attribute positions to the movement document, assembly or member organization
+  that issued them; do not infer total unanimity.
+uncertainty: >-
+  The movement spans regions, constituencies, organizations and political
+  contexts with internal differences and autonomous members.
+evidence_stance: qualifying
+context: La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row372
+  source_lineage: https://viacampesina.org/en/international-peasants-voice/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

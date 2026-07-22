@@ -1,5 +1,5 @@
 title: IT for Change
-type: library
+type: platform
 steward: IT for Change
 return_path: unset — establish via register-source
 url: https://itforchange.net/
@@ -11,13 +11,18 @@ why_it_matters: >-
   India-based research and advocacy organization developing Southern feminist
   and social-justice perspectives on digital transformation, data, AI,
   platforms, labor, governance and development sovereignty.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row33
-  source_lineage: https://itforchange.net/
 caution: >-
   Research and advocacy positions are situated and normative; do not treat IT
   for Change as representing all feminist or Global South perspectives.
+extraction_status: >-
+  Southern feminist political economy of digital systems; development
+  sovereignty; community-driven AI; platform labor; public digital
+  infrastructure critique; multilingual and regional knowledge.
+notes: 'Role: Core Southern digital justice research source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row32
+  source_lineage: https://itforchange.net/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

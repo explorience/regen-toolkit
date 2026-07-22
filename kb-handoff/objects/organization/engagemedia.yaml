@@ -1,0 +1,18 @@
+title: EngageMedia
+type: organization
+org_type: Organization / related source system
+url: https://engagemedia.org/about/
+steward: Southern Digital Justice Research
+notes: >-
+  Why add: Adds regional movement infrastructure, media, security and
+  documentation. · Status/Caution: Media and convening reach are not direct
+  evidence of policy or rights outcomes · Parent source system: Southern Digital
+  Justice Research
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row596
+  source_lineage: https://engagemedia.org/about/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

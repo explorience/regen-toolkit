@@ -1,0 +1,24 @@
+title: Data Power and Classification Review
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Review what is counted, omitted, categorized and automated; who defines
+  categories; who benefits; and which institutions act on the result.
+potential_uses: >-
+  Ontology design, dataset intake, indicators, AI pipelines, rankings and public
+  dashboards.
+dependencies: >-
+  Affected-community participation, category provenance, institutional context,
+  error analysis and revision rights.
+tradeoffs: >-
+  Can become a generic ethics checklist or overstate reviewer knowledge of lived
+  experience.
+context: Data Feminism / Ruha Benjamin
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row178
+  source_lineage: https://data-feminism.mitpress.mit.edu/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

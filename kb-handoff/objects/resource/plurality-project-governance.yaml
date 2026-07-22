@@ -1,0 +1,22 @@
+title: Plurality Project Governance
+type: resource
+resource_type: Project governance system
+url: https://docs.plurality.net/governance/Governance%20introduction/
+original_source: Plurality Community
+notes: >-
+  Why add: Directly relevant to the Toolkit as a knowledge artifact attempting
+  to govern itself as a commons. · Status/Caution: Documented intentions and
+  protocols should be separated from actual current rules-in-use · Parent source
+  system: Plurality Community
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row362
+  source_lineage: https://docs.plurality.net/governance/Governance%20introduction/
+original_object_class: Program / Initiative
+normalization_flag: DUP-NE-183
+review_needs: >-
+  Matty dup-flag DUP-NE-183: Plurality: The Future of Collaborative Technology
+  and Democracy
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,16 @@
+title: Artizen Funds
+type: resource
+resource_type: Funding structure
+url: https://artizen.fund/
+original_source: Artizen
+notes: >-
+  Why add: Domain-curated patronage model. · Status/Caution: Curation criteria
+  need review · Parent source system: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row11
+  source_lineage: https://artizen.fund/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

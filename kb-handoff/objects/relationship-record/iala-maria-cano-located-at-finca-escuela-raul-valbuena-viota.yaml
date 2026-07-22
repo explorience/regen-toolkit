@@ -1,0 +1,18 @@
+subject: IALA María Cano
+predicate: located_at
+object: Finca-Escuela Raúl Valbuena, Viotá
+type: relationship-record
+title: IALA María Cano — located_at — Finca-Escuela Raúl Valbuena, Viotá
+original_relationship: located at
+evidence: CLOC records identify the farm-school site in Viotá, Cundinamarca.
+scope: Public location; avoid finer-grained operational details
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row505
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-se-inauguro-en-viota-el-instituto-agroecologico-latinoamericano-maria-cano
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

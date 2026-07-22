@@ -1,0 +1,20 @@
+subject: The Environmental Knowledge Commons
+predicate: implements_or_uses
+object: GKC to environmental data and knowledge sharing
+type: relationship-record
+title: >-
+  The Environmental Knowledge Commons — implements_or_uses — GKC to
+  environmental data and knowledge sharing
+original_relationship: applies
+evidence: >-
+  2026 case collection on environmental information governance and
+  multi-stakeholder action.
+scope: Knowledge governance does not establish material outcomes.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row17
+  source_lineage: https://knowledge-commons.net/publications/environmental-book/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

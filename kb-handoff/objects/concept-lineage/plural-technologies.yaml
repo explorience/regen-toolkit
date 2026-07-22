@@ -1,0 +1,23 @@
+title: Plural technologies
+type: concept-lineage
+short_description: >-
+  Online and offline systems intended to help diverse social groups cooperate,
+  including deliberation platforms, community-funding systems, and
+  empathy-building experiences.
+toolkit_usage: >-
+  Adds a broader cross-system category connecting civic technology, funding
+  mechanisms, and collaborative infrastructure.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Adds a broader cross-system category connecting civic technology,
+  funding mechanisms, and collaborative infrastructure. · Status/Caution: Broad
+  family resemblance; avoid treating all included tools as equally plural or
+  beneficial · Parent source system: Plurality Institute
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row193
+  source_lineage: https://www.plurality.institute/faq
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

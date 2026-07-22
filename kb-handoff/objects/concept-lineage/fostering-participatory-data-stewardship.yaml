@@ -1,0 +1,19 @@
+title: Fostering Participatory Data Stewardship
+type: concept-lineage
+short_description: >-
+  Playbook on centering people and communities in data collection, use and
+  sharing.
+toolkit_usage: Directly relevant to community data stewardship and Toolkit governance.
+original_object_type: Playbook / framework
+notes: >-
+  Why add: Directly relevant to community data stewardship and Toolkit
+  governance. · Status/Caution: Participation does not automatically transfer
+  authority or value · Parent source system: Aapti Institute
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row594
+  source_lineage: https://aapti.in/fostering-participatory-data-stewardship/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,16 @@
+title: Automated accessibility checks establish public readiness
+type: claim-evidence
+claim: Automated accessibility checks establish public readiness
+interpretation: Use automated checks as one input alongside manual and disabled-led testing.
+uncertainty: >-
+  Automated tools miss context, cognitive barriers, screen-reader usability,
+  access conflicts and structural exclusion.
+evidence_stance: qualifying
+context: Toolkit website / documents
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row300
+  source_lineage: Internal disability-access review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

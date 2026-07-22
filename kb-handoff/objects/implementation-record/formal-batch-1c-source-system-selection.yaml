@@ -1,0 +1,25 @@
+title: Formal Batch 1C Source-System Selection
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Eleven candidate systems were compared using source depth, implementation
+  maturity, complementarity, interoperability, Toolkit relevance and
+  knowledge-commons fit.
+what_returns_to_commons: >-
+  Creates an explicit decision record and prevents exploratory additions from
+  silently defining the batch.
+notes: >-
+  What to capture: Candidate scores; reasons for core, cross-cutting, related or
+  supplemental status; prior exploratory work; social-signal findings; duplicate
+  risks; primary sources. · Status/Caution: Completed; scores are sequencing
+  aids, not universal rankings
+related_source_system: Batch 1C candidate portfolio
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row61
+  source_lineage: Internal selection review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

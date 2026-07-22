@@ -1,0 +1,22 @@
+title: Fund-Launcher Accelerator
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Training and seed support for people creating their own community funding
+  vehicles on a shared platform.
+potential_uses: Expand steward capacity and test federated funding models.
+dependencies: >-
+  Curriculum, selection process, seed capital, mentorship, governance support,
+  and post-program evaluation.
+tradeoffs: >-
+  Accelerating fund creation faster than governance capacity; selection bias;
+  unclear sustainability after initial support.
+context: Artizen
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row14
+  source_lineage: https://news.artizen.fund/p/artizen-accelerator-for-community-funds
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

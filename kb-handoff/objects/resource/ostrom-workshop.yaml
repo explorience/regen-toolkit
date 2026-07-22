@@ -1,0 +1,18 @@
+title: Ostrom Workshop
+type: resource
+resource_type: Source system / institution
+url: https://ostromworkshop.indiana.edu/
+original_source: 'Thinker cluster: commons governance'
+notes: >-
+  Why add: Major source system for methods, teaching tools, scholars, programs,
+  case research, and intellectual descendants. · Status/Caution: Active source
+  system; select branches rather than ingesting everything · Parent source
+  system: Thinker cluster: commons governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row314
+  source_lineage: https://ostromworkshop.indiana.edu/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

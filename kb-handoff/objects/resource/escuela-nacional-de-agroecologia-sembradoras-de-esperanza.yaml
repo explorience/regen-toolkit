@@ -1,0 +1,19 @@
+title: Escuela Nacional de Agroecología Sembradoras de Esperanza
+type: resource
+resource_type: School / learning infrastructure
+url: https://anamuri.cl/wp-content/uploads/2025/12/6-2.pdf
+original_source: ANAMURI / Sembradoras de Esperanza
+notes: >-
+  Why add: High-priority implementation lead · Status/Caution: Current /
+  historical documentation · Parent source system: ANAMURI / Sembradoras de
+  Esperanza
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row776
+  source_lineage: https://anamuri.cl/wp-content/uploads/2025/12/6-2.pdf
+original_object_class: Case / Place / Infrastructure
+normalization_flag: REPAIR-NO-776
+review_needs: 'Matty dup-flag REPAIR-NO-776: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

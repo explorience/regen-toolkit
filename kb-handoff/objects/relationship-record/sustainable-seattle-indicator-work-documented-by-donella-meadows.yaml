@@ -1,0 +1,18 @@
+subject: Sustainable Seattle indicator work
+predicate: documented_by
+object: Donella Meadows
+type: relationship-record
+title: Sustainable Seattle indicator work — documented_by — Donella Meadows
+original_relationship: documented by
+evidence: Meadows article discusses the initiative and linked indicators.
+scope: Secondary description; resolve initiative sources before detailed claims
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row166
+  source_lineage: >-
+    https://donellameadows.org/archives/an-instrument-panel-to-help-seattle-fly-sustainably/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

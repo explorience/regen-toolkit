@@ -1,0 +1,21 @@
+title: g0v (gov-zero)
+type: resource
+resource_type: Source system / civic community
+url: https://g0v.tw/intl/en/manifesto/en/
+original_source: Audrey Tang / Taiwan civic-tech lineage
+notes: >-
+  Why add: Major living source system for civic technology, open data,
+  hackathons, public-service prototypes and community governance. ·
+  Status/Caution: Do not describe g0v as an organization controlled or
+  represented by one person · Parent source system: Audrey Tang / Taiwan
+  civic-tech lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row354
+  source_lineage: https://g0v.tw/intl/en/manifesto/en/
+original_object_class: Source System / Collection
+normalization_flag: DUP-NE-287
+review_needs: 'Matty dup-flag DUP-NE-287: Audrey Tang'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

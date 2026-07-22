@@ -1,0 +1,25 @@
+title: Jornal Sem Terra Stewardship and Movement-Memory Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how a long-running movement publication is edited, distributed,
+  archived, taught and maintained across generations.
+what_returns_to_commons: >-
+  Direct knowledge-commons case connecting media, political education and
+  institutional memory.
+notes: >-
+  What to capture: Editorial governance, contributors, readership, print/digital
+  access, archives, financing, corrections, youth use and maintenance labor. ·
+  Status/Caution: Candidate; current editorial and archive details need steward
+  review
+related_source_system: MST communication
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row301
+  source_lineage: >-
+    https://mst.org.br/2025/09/05/rompendo-as-cercas-da-comunicacao-jovana-cestille-fala-sobre-os-44-anos-do-jornal-sem-terra/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

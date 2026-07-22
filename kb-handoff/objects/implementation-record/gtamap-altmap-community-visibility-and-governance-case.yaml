@@ -1,0 +1,22 @@
+title: GTAMap / AltMap Community Visibility and Governance Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review one mapped regional process to understand inclusion, metadata,
+  relationship claims, update ownership and visibility choices.
+what_returns_to_commons: High-value relational and public-explorer comparator for the Toolkit.
+notes: >-
+  What to capture: Data model, contributor consent, source links, location
+  precision, code, hosting, corrections, removal, maintenance, security and
+  community perspectives. · Status/Caution: Map inclusion is not validation;
+  sensitivity and security review required
+related_source_system: Global Tapestry of Alternatives
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row256
+  source_lineage: https://www.globaltapestryofalternatives.org/mapping:index
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

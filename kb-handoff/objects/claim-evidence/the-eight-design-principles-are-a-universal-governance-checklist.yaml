@@ -1,0 +1,19 @@
+title: The eight design principles are a universal governance checklist
+type: claim-evidence
+claim: The eight design principles are a universal governance checklist
+interpretation: >-
+  Use the principles as empirically grounded review prompts, not as
+  certification or universal design law.
+uncertainty: >-
+  The principles emerged from comparative study of long-enduring
+  common-pool-resource institutions and require contextual interpretation.
+evidence_stance: qualifying
+context: Elinor Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row188
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/doc/teaching/applying-iad-to-design-principles.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

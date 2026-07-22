@@ -1,0 +1,20 @@
+title: Denise Fairchild
+type: person
+full_name: Denise Fairchild
+affiliation: Energy Democracy / Emerald Cities Collaborative
+consent_status: unverified — default non-public (Principle 8)
+url: https://emeraldcities.org/our-work/energy-democracy/
+notes: >-
+  Why add: Connects energy democracy to worker power and community economic
+  development · Status/Caution: Current/past roles must be dated · Parent source
+  system: Energy Democracy / Emerald Cities Collaborative
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row869
+  source_lineage: https://emeraldcities.org/our-work/energy-democracy/
+original_object_class: Person
+normalization_flag: REPAIR-NO-869
+review_needs: 'Matty dup-flag REPAIR-NO-869: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: OpenCivics Network
+type: organization
+org_type: Organization / network body
+url: https://www.opencivics.co/network
+steward: OpenCivics
+notes: >-
+  Why add: Clarifies the broad network layer distinct from its more focused
+  Consortium, Labs, and Fund structures. · Status/Caution: Active
+  self-description; network membership and activity do not imply endorsement,
+  formal affiliation, or equal participation. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row142
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

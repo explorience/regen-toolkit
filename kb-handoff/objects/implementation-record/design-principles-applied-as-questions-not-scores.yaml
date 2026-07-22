@@ -1,0 +1,22 @@
+title: Design Principles Applied as Questions, Not Scores
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Run a facilitated review of one knowledge commons using the design principles
+  as prompts and document where they fit, fail, or require translation.
+what_returns_to_commons: Creates an implementation example that avoids fake compliance scoring.
+notes: >-
+  What to capture: Boundaries, participation, monitoring, sanctions, conflict
+  resolution, recognition, nesting, mismatches, dissent. · Status/Caution:
+  Candidate; requires commons-governance reviewer
+related_source_system: Elinor Ostrom lineage
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row127
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/doc/teaching/applying-iad-to-design-principles.pdf
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

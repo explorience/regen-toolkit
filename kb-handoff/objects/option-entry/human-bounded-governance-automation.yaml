@@ -1,0 +1,24 @@
+title: Human-Bounded Governance Automation
+type: option-entry
+category: governance
+what_it_is: >-
+  Automate routine and auditable governance tasks while reserving contested,
+  high-risk, and constitutional decisions for humans.
+potential_uses: >-
+  Monitoring, proposal preparation, data validation, recurring administrative
+  work.
+dependencies: >-
+  Clear authority boundaries, escalation rules, logs, reversibility, adversarial
+  testing, governance review.
+tradeoffs: >-
+  Automation creep, hidden discretion, accountability gaps, capture of inputs,
+  and false neutrality.
+context: GAIAI / Agentic Token Economics
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row40
+  source_lineage: https://forum.regen.network/t/agentic-token-economics-repo-colab/602
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+title: MoeDict as Government-Data-to-Public-Commons Pipeline
+type: resource
+resource_type: Implementation case / knowledge commons
+url: https://github.com/g0v/moedict-webkit
+original_source: g0v / Audrey Tang lineage
+notes: >-
+  Why add: Evidence-bearing knowledge-commons and public-service case for later
+  deeper review. · Status/Caution: Requires licensing, dataset provenance, user
+  evidence, maintenance and language-community review · Parent source system:
+  g0v / Audrey Tang lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row372
+  source_lineage: https://github.com/g0v/moedict-webkit
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

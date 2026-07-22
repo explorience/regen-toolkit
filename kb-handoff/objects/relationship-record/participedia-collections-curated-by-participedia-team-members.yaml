@@ -1,0 +1,19 @@
+subject: Participedia Collections
+predicate: curated_by
+object: Participedia team members
+type: relationship-record
+title: Participedia Collections — curated_by — Participedia team members
+original_relationship: curated by
+evidence: >-
+  The site states that cases, methods and organizations are added to collections
+  by team members.
+scope: Editorial relationship, not neutral automation.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row21
+  source_lineage: https://participedia.net/research
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

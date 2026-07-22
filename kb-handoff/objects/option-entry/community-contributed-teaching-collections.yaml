@@ -1,0 +1,24 @@
+title: Community-Contributed Teaching Collections
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use student and practitioner research to expand the database while creating
+  locally grounded learning experiences.
+potential_uses: >-
+  University partnerships, local-node learning, contributor development,
+  multilingual expansion.
+dependencies: >-
+  Ethics, supervision, community consent, editorial review, attribution,
+  maintenance after courses end.
+tradeoffs: >-
+  Student work may be uneven, extractive, or abandoned after the course without
+  ongoing stewardship.
+context: Participedia School / Collections
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row79
+  source_lineage: https://participedia.net/participediaschool
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

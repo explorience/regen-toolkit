@@ -1,0 +1,20 @@
+subject: ANAMURI Seed Campaign
+predicate: related_to
+object: Food sovereignty, land, water, forests, soils and territory
+type: relationship-record
+title: >-
+  ANAMURI Seed Campaign — related_to — Food sovereignty, land, water, forests,
+  soils and territory
+original_relationship: links
+evidence: >-
+  Campaign explicitly treats these as inseparable dimensions of seed and
+  political sovereignty.
+scope: Conceptual and campaign relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row493
+  source_lineage: https://anamuri.cl/campana-semilla/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

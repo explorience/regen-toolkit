@@ -1,0 +1,17 @@
+title: FemFirst Lab
+type: resource
+resource_type: Programme / incubation
+url: https://www.itforchange.net/
+original_source: IT for Change
+notes: >-
+  Why add: Concrete bridge from critique to prototype development and
+  community-led AI. · Status/Caution: Current programme details and cohorts
+  require project-level follow-up · Parent source system: IT for Change
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row583
+  source_lineage: https://www.itforchange.net/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

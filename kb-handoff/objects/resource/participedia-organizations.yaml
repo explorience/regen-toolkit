@@ -1,0 +1,18 @@
+title: Participedia Organizations
+type: resource
+resource_type: Dataset / object family
+url: https://participedia.net/search?selectedCategory=organizations
+original_source: Participedia
+notes: >-
+  Why add: Supports organization discovery and relationship mapping around cases
+  and methods. · Status/Caution: Organization presence does not imply
+  endorsement, effectiveness, or current activity. · Parent source system:
+  Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row221
+  source_lineage: https://participedia.net/search?selectedCategory=organizations
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

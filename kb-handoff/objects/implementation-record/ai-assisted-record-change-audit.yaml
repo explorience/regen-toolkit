@@ -1,0 +1,23 @@
+title: AI-Assisted Record Change Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Audit one bounded AI-assisted expansion or merge workflow from source
+  discovery through final human-approved records.
+what_returns_to_commons: >-
+  Makes AI influence and reviewer workload visible and tests the proposed
+  governance controls.
+notes: >-
+  What to capture: Tool/model; prompts/purpose; suggestions; accepted/rejected
+  changes; errors; bias; reviewer labor; corrections; public-use impact. ·
+  Status/Caution: High priority before technical automation
+related_source_system: Toolkit AI workflow
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row197
+  source_lineage: Internal labor-maintenance review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

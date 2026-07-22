@@ -1,0 +1,10 @@
+title: Boundary — Local Contexts Notices
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  A Notice is disclosure and engagement infrastructure, not community permission
+  or approval
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#New Objects!row447
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

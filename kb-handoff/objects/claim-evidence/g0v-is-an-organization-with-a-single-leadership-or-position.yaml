@@ -1,0 +1,18 @@
+title: g0v is an organization with a single leadership or position
+type: claim-evidence
+claim: g0v is an organization with a single leadership or position
+interpretation: >-
+  Describe specific projects, contributors, teams, or statements rather than
+  attributing one position to g0v as a whole.
+uncertainty: >-
+  The community explicitly describes itself as decentralized and composed of
+  autonomous projects without one center or representative.
+evidence_stance: qualifying
+context: g0v
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row136
+  source_lineage: https://g0v.tw/intl/en/manifesto/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,17 @@
+subject: DelibTech Network
+predicate: co_convened_by
+object: AI & Democracy Foundation
+type: relationship-record
+title: DelibTech Network — co_convened_by — AI & Democracy Foundation
+original_relationship: co-convened by
+evidence: Named co-convener; coordinated by Aviv Ovadya and Kyle Redman
+scope: Current as stated on source
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row2
+  source_lineage: https://www.demnext.org/action/delibtech-network
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

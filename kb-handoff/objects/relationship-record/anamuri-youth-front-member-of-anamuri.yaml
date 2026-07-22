@@ -1,0 +1,16 @@
+subject: ANAMURI Youth Front
+predicate: member_of
+object: ANAMURI
+type: relationship-record
+title: ANAMURI Youth Front — member_of — ANAMURI
+original_relationship: part of
+evidence: Official youth page and 2025 agroecological gatherings.
+scope: Participation does not prove governance authority.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row482
+  source_lineage: https://anamuri.cl/jovenes-de-anamuri/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+subject: Shashe Agroecology School
+predicate: targets_participation_of
+object: Women and young people
+type: relationship-record
+title: Shashe Agroecology School — targets_participation_of — Women and young people
+original_relationship: targets participation of
+evidence: 2013 profile explicitly states targeting of women and young people.
+scope: Targeting is not evidence of equitable authority
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row378
+  source_lineage: >-
+    https://viacampesina.org/en/2013/10/zimsoff-and-the-shashe-agro-ecology-school-in-zimbabwe/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

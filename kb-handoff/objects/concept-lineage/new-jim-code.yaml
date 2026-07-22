@@ -1,0 +1,22 @@
+title: New Jim Code
+type: concept-lineage
+short_description: >-
+  Term for technologies and design practices that reproduce inequity under the
+  appearance of objectivity, efficiency, personalization or progress.
+toolkit_usage: >-
+  Useful caution for classification, scoring, recommendation, verification and
+  automated public-use systems.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Useful caution for classification, scoring, recommendation,
+  verification and automated public-use systems. · Status/Caution: Metaphor and
+  analytic lens, not a label to apply without evidence of mechanism and impact ·
+  Parent source system: Ruha Benjamin
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row471
+  source_lineage: https://www.ruhabenjamin.com/race-after-technology
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

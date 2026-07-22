@@ -1,0 +1,25 @@
+title: Funding the Commons Event Archive as Structured Field Memory
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Process one complete conference edition from agenda and recordings into
+  people, organizations, concepts, mechanisms, claims, critiques, project leads,
+  and follow-up relationships.
+what_returns_to_commons: >-
+  Tests whether a conference archive can become living field memory without
+  turning speaker visibility into authority.
+notes: >-
+  What to capture: Event date and scope, session identifiers, speakers, primary
+  links, summaries, claims, evidence references, related objects, review status,
+  and subsequent activity. · Status/Caution: Priority candidate; choose one
+  edition with strong recordings and agenda coverage
+related_source_system: Funding the Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row48
+  source_lineage: https://www.fundingthecommons.io/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

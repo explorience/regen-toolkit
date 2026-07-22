@@ -1,0 +1,19 @@
+subject: International Women’s Assembly
+predicate: member_of
+object: La Vía Campesina
+type: relationship-record
+title: International Women’s Assembly — member_of — La Vía Campesina
+original_relationship: develops agenda within
+evidence: >-
+  Assembly is described as training, exchange, agenda-building and validation
+  space.
+scope: Influence on general decisions should be traced
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row359
+  source_lineage: >-
+    https://viacampesina.org/en/2023/12/declaration-of-the-6th-international-womens-assembly-of-la-via-campesina/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

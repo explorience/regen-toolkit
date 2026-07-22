@@ -1,0 +1,18 @@
+title: Methodology version and review status
+type: claim-evidence
+claim: Methodology version and review status
+interpretation: >-
+  Record exact document version, date, review stage, status, and supersession
+  relationship before reuse.
+uncertainty: >-
+  Initial submissions, internal reviews, expert reviews, public-comment drafts,
+  revisions, and published versions may coexist in the library.
+evidence_stance: qualifying
+context: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row16
+  source_lineage: https://www.registry.regen.network/methodologies
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

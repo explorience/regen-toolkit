@@ -1,0 +1,18 @@
+title: Open publication of a critical framework makes it universally safe to reuse
+type: claim-evidence
+claim: Open publication of a critical framework makes it universally safe to reuse
+interpretation: >-
+  Reuse the framework with attribution and contextual translation; do not claim
+  certification or affected-community approval.
+uncertainty: >-
+  Open access supports learning but does not erase context, attribution,
+  community relationships or domain limitations.
+evidence_stance: neutral
+context: Data Feminism
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row268
+  source_lineage: https://data-feminism.mitpress.mit.edu/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

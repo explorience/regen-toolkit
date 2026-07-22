@@ -1,5 +1,5 @@
 title: Participedia
-type: directory
+type: organization
 steward: Participedia
 return_path: unset — establish via register-source
 url: https://participedia.net/
@@ -10,13 +10,18 @@ why_it_matters: >-
   Global crowdsourcing platform and research network documenting cases, methods,
   organizations and collections related to public participation and democratic
   innovation.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row9
-  source_lineage: https://participedia.net/
 caution: >-
   Crowdsourced content varies in completeness and review depth; coverage
   reflects contributor, language and funding patterns.
+extraction_status: >-
+  Ontology and schema; contribution and editorial workflow; comparative cases;
+  method records; Indigenous and accountability clusters; licensing and data
+  exports.
+notes: 'Role: Core Batch 1C case and method commons · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row8
+  source_lineage: https://participedia.net/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

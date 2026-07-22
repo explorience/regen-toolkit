@@ -1,0 +1,22 @@
+title: Open-Source Project Maintenance Cost Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Choose one Toolkit-relevant open-source tool and document its real maintenance
+  workload and support system beyond repository activity.
+what_returns_to_commons: Creates evidence for contributor-sustainability and maintenance budgeting.
+notes: >-
+  What to capture: Maintainers; paid/unpaid hours; issue triage; releases;
+  security; docs; user support; funding; succession; burnout; dependencies. ·
+  Status/Caution: Requires maintainer consent and careful workload/privacy
+  handling
+related_source_system: Cross-system
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row191
+  source_lineage: Internal labor-cluster synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

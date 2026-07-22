@@ -1,0 +1,18 @@
+title: A cooperative chain can be copied into another territory
+type: claim-evidence
+claim: A cooperative chain can be copied into another territory
+interpretation: >-
+  Treat transferability as a question of functions and conditions, not
+  replication of a model.
+uncertainty: >-
+  The case depends on settlement organization, goat ecology, producer networks,
+  public policy, finance, processing and regional markets.
+evidence_stance: qualifying
+context: COOPAC / comparative cases
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row435
+  source_lineage: Internal COOPAC case synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

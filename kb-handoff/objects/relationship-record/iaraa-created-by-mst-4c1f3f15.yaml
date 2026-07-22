@@ -1,0 +1,17 @@
+subject: IARAA
+predicate: created_by
+object: MST
+type: relationship-record
+title: IARAA — created_by — MST
+original_relationship: co-developed by
+evidence: Named developer and movement source system in launch reporting.
+scope: Exact governance and technical authority unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row413
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

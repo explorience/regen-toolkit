@@ -1,0 +1,21 @@
+title: Shared Infrastructure Stewardship Charter
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Define ownership, hosting, access, change control, portability, cost sharing,
+  service responsibilities, incident response, and exit rights for the database,
+  APIs, agents, and websites.
+potential_uses: Technical handoff, federated deployments, partner integrations.
+dependencies: >-
+  Technical architecture, governance authority, budget, data and security
+  review.
+tradeoffs: May centralize governance or create obligations beyond available capacity.
+context: Toolkit technical layer
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row194
+  source_lineage: Internal labor-maintenance review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

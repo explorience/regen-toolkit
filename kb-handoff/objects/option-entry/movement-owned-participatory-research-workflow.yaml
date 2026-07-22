@@ -1,0 +1,23 @@
+title: Movement-Owned Participatory Research Workflow
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use movement-defined questions, territorial researchers, collective
+  interpretation and accessible return formats for research linked to
+  organizing.
+potential_uses: IALA María Cano / IALA network
+dependencies: >-
+  Can align evidence production with community priorities and reduce extractive
+  research relationships.
+tradeoffs: >-
+  Requires consent, data custody, publication rights, quality review, safety and
+  compensation rules.
+context: Knowledge lifecycle / implementation memory
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row324
+  source_lineage: Candidate — grounded in 2024 IALA exchange
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,27 @@
+title: Technological Autonomy Pathway
+type: option-entry
+category: governance
+what_it_is: >-
+  Support communities to select, adapt, govern, maintain and sometimes refuse
+  technologies according to their own needs, values and territories.
+potential_uses: >-
+  Community infrastructure, Indigenous communication, local energy and
+  telecommunications, emergency communication.
+dependencies: >-
+  Community-led priorities, technical training, regulatory access, financing,
+  repair capacity and long-term governance.
+tradeoffs: >-
+  Autonomy language can hide external dependencies, unequal labor, state
+  obligations or market constraints.
+context: Rhizomatica / REDES A.C.
+review_needs: >-
+  option category inferred — confirm; Matty dup-flag DUP-OP-228:
+  Community-Centred Connectivity Review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row228
+  source_lineage: https://www.rhizomatica.org/what-we-do/
+normalization_flag: DUP-OP-228
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

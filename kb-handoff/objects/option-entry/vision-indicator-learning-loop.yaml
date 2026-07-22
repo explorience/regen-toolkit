@@ -1,0 +1,23 @@
+title: Vision–Indicator–Learning Loop
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Start with plural desired futures, select indicators tied to those values,
+  act, observe feedback and revise both interventions and goals.
+potential_uses: Strategy, public programs, commons stewardship and theory of change.
+dependencies: >-
+  Inclusive visioning, explicit tradeoffs, indicators, review cadence and
+  correction rights.
+tradeoffs: >-
+  Consensus visioning can suppress disagreement; indicators can narrow the
+  vision.
+context: Donella Meadows
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row157
+  source_lineage: >-
+    https://donellameadows.org/donella-meadows-legacy/envisioning-a-sustainable-world/envisioning-sustainable-world/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

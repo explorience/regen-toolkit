@@ -1,0 +1,19 @@
+title: FAIR or open data is sufficient for responsible Indigenous data governance
+type: claim-evidence
+claim: FAIR or open data is sufficient for responsible Indigenous data governance
+interpretation: >-
+  Use FAIR together with CARE and community-specific governance; openness is not
+  the default goal for all data.
+uncertainty: >-
+  Findability and reuse can increase extraction or harm when authority, benefit,
+  responsibility and ethics are not addressed.
+evidence_stance: qualifying
+context: GIDA / CARE
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row253
+  source_lineage: https://www.gida-global.org/careprinciples
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

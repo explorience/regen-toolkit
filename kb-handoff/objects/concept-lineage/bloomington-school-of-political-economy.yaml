@@ -1,0 +1,23 @@
+title: Bloomington School of Political Economy
+type: concept-lineage
+short_description: >-
+  Research tradition associated with the Ostrom Workshop emphasizing
+  institutional diversity, self-governance, polycentricity, and empirical
+  comparison.
+toolkit_usage: >-
+  Useful umbrella for branching to collaborators, concepts, methods, and
+  critiques without reducing the lineage to one person.
+original_object_type: Research tradition
+notes: >-
+  Why add: Useful umbrella for branching to collaborators, concepts, methods,
+  and critiques without reducing the lineage to one person. · Status/Caution:
+  Family of approaches rather than a single doctrine · Parent source system:
+  Thinker cluster: commons governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row315
+  source_lineage: https://ostromworkshop.indiana.edu/about/ostroms-history/index.html
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

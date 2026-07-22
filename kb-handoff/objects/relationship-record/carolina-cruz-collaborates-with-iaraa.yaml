@@ -1,0 +1,19 @@
+subject: Carolina Cruz
+predicate: collaborates_with
+object: IARAA
+type: relationship-record
+title: Carolina Cruz — collaborates_with — IARAA
+original_relationship: contributes to / publicly explains
+evidence: >-
+  Quoted as an MST technology-front participant describing needs and
+  development.
+scope: Current formal authority unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row432
+  source_lineage: >-
+    https://www.brasildefato.com.br/2026/05/16/iaraa-movimentos-populares-usam-tecnologia-chinesa-para-criar-inteligencia-artificial-da-agroecologia-e-reforma-agraria/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

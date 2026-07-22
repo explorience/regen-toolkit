@@ -1,0 +1,23 @@
+title: Accessible Convening Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Design and document one review call or workshop with funded multi-format
+  access and asynchronous decision participation.
+what_returns_to_commons: >-
+  Creates implementation memory for collective access rather than only a meeting
+  checklist.
+notes: >-
+  What to capture: Advance materials, captions, interpretation, pacing, chat,
+  breaks, recording choices, access contact, compensation, feedback and decision
+  influence. · Status/Caution: Measure unresolved barriers and authority
+related_source_system: Toolkit collaboration
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row210
+  source_lineage: Internal disability-access review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

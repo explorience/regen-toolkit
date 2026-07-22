@@ -1,0 +1,18 @@
+title: Regen Ledger
+type: resource
+resource_type: Technical infrastructure
+url: https://docs.regen.network/
+original_source: Regen Network / Regen Registry
+notes: >-
+  Why add: Technical substrate for registry and ecological-asset workflows. ·
+  Status/Caution: Open source and on-chain do not automatically mean reviewed,
+  maintained, or ecologically valid · Parent source system: Regen Network /
+  Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row19
+  source_lineage: https://docs.regen.network/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

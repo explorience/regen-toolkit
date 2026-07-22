@@ -1,0 +1,24 @@
+title: Institutional Analysis and Development (IAD) Framework
+type: concept-lineage
+short_description: >-
+  Framework for analyzing action arenas, participants, rules, material
+  conditions, community attributes, interactions, outcomes, and evaluative
+  criteria.
+toolkit_usage: >-
+  Directly useful for reviewing source systems, governance processes,
+  public-goods mechanisms, and the Toolkit itself.
+original_object_type: Framework
+notes: >-
+  Why add: Directly useful for reviewing source systems, governance processes,
+  public-goods mechanisms, and the Toolkit itself. · Status/Caution: Analytical
+  framework, not a recipe or certification · Parent source system: Ostrom
+  Workshop / Elinor Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row316
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/courses-teaching/teaching-tools/iad-framework/index.html
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

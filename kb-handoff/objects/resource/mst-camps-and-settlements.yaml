@@ -1,0 +1,18 @@
+title: MST camps and settlements
+type: resource
+resource_type: Constituency / territorial unit
+url: https://mst.org.br/quem-somos/
+original_source: MST
+notes: >-
+  Why add: Core implementation context for land, agroecology, education, health
+  and cooperative systems. · Status/Caution: Do not treat camps and settlements
+  as homogeneous or infer current conditions from national descriptions · Parent
+  source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row683
+  source_lineage: https://mst.org.br/quem-somos/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

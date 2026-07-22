@@ -1,0 +1,18 @@
+title: AI and computational tools can scale participation without sacrificing quality
+type: claim-evidence
+claim: AI and computational tools can scale participation without sacrificing quality
+interpretation: >-
+  Evaluate each use across reach, quality, institutional impact, transparency,
+  contestability and human oversight.
+uncertainty: >-
+  Tools may support translation, clustering, summarization and coordination, but
+  can also obscure assumptions, amplify bias and weaken deliberative judgment.
+evidence_stance: neutral
+context: Metagov / Polis / DemocracyNext context
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row156
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

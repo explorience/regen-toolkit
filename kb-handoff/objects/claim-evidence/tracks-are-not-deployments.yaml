@@ -1,0 +1,16 @@
+title: Tracks Are Not Deployments
+type: claim-evidence
+claim: Tracks Are Not Deployments
+uncertainty: Public-use ready as a cautionary principle with caveats
+notes: >-
+  Priority: A track is a guided pathway, composition, or use-case route through
+  the Toolkit. It is not the same as a real-world deployment. · Next: Add to
+  Track Candidates guidance before developing public-facing tracks; develop full
+  claim record later if needed. · Notes: Batch 1A compact guardrail claim.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04914
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

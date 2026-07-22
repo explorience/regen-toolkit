@@ -1,0 +1,22 @@
+title: >-
+  The Uber case proves the vTaiwan model transfers across issues and
+  jurisdictions
+type: claim-evidence
+claim: >-
+  The Uber case proves the vTaiwan model transfers across issues and
+  jurisdictions
+interpretation: >-
+  Use Uber as one documented case and identify the contextual conditions
+  required before proposing transfer.
+uncertainty: >-
+  The case involved specific political windows, actors, institutional authority,
+  issue characteristics, and Taiwan civic-tech capacity.
+evidence_stance: qualifying
+context: vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row135
+  source_lineage: https://compdemocracy.org/case-studies/2014-vtaiwan/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

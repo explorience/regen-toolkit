@@ -1,0 +1,24 @@
+title: Indigenous Provenance Standard Implementation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track one system implementing the recommended practice for provenance of
+  Indigenous Peoples’ data.
+what_returns_to_commons: >-
+  Tests whether a formal standard changes system behavior and supports
+  Indigenous rights.
+notes: >-
+  What to capture: Required fields, governance roles, links to CARE/Labels,
+  privacy, interoperability, enforcement, user understanding and maintenance. ·
+  Status/Caution: Do not infer benefit from technical compliance alone
+related_source_system: GIDA / IEEE
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row178
+  source_lineage: https://www.gida-global.org/ieee-provenance
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

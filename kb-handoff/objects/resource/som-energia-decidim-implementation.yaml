@@ -1,0 +1,17 @@
+title: Som Energia Decidim Implementation
+type: resource
+resource_type: Implementation case
+url: https://decidim.org/
+original_source: Decidim / Som Energia
+notes: >-
+  Why add: Adds a cooperative-governance case beyond municipal government. ·
+  Status/Caution: Benefits and counts are self-reported · Parent source system:
+  Decidim / Som Energia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row308
+  source_lineage: https://decidim.org/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,19 @@
+title: A curated movement corpus is automatically authorized for AI use
+type: claim-evidence
+claim: A curated movement corpus is automatically authorized for AI use
+interpretation: >-
+  Audit each source family for provenance, permission, attribution, language and
+  community authority.
+uncertainty: >-
+  Public, movement-produced, specialist and community materials may carry
+  different licenses, protocols, collective rights and expectations.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row414
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

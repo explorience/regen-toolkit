@@ -1,5 +1,5 @@
 title: FENSUAGRO / IALA María Cano
-type: directory
+type: movement
 steward: FENSUAGRO / IALA María Cano
 return_path: unset — establish via register-source
 url: >-
@@ -10,14 +10,20 @@ what_it_curates: >-
 why_it_matters: >-
   Colombian peasant/agricultural-worker federation and affiliated
   movement-education infrastructure within CLOC-LVC.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row51
-  source_lineage: >-
-    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
 caution: >-
   Security-sensitive context; avoid exposing local people or territories;
   organizer claims need triangulation. | Workflow status: Selected
+extraction_status: >-
+  Worker-peasant organizing; agrarian justice; movement research; agroecology;
+  communication; safety.
+notes: 'Role: Movement-school source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row50
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+normalization_flag: REPAIR-SS-50
+review_needs: 'Matty dup-flag REPAIR-SS-50: Late-row schema shift'
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

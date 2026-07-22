@@ -1,0 +1,19 @@
+title: Universal care is a universally agreed political program
+type: claim-evidence
+claim: Universal care is a universally agreed political program
+interpretation: >-
+  Universal care is a normative framework for redistributing care
+  responsibilities; implementation requires plural and affected-party
+  governance.
+uncertainty: >-
+  Care is contested, culturally varied and shaped by institutions, kinship,
+  autonomy and power.
+evidence_stance: neutral
+context: The Care Collective
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row312
+  source_lineage: https://www.versobooks.com/products/2625-the-care-manifesto
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

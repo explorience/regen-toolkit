@@ -1,0 +1,23 @@
+title: Berlin Builder Residency 2023 Open-Source Outputs
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Identify the residency projects and inspect whether promised open-source
+  tools, libraries, systems, repositories, blogs, or presentations remain
+  accessible and maintained.
+what_returns_to_commons: Turns a broad organizer claim into project-level implementation memory.
+notes: >-
+  What to capture: Participants, project goals, repos, licenses, documentation,
+  commits, users, funding, security, continuation, abandonment, and lessons. ·
+  Status/Caution: Webpage contains legacy/template content; use repositories and
+  participant sources
+related_source_system: Funding the Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row50
+  source_lineage: https://www.fundingthecommons.io/builderresidency2025
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

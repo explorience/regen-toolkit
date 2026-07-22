@@ -1,0 +1,22 @@
+title: Morgan Ody
+type: person
+full_name: Morgan Ody
+affiliation: La Vía Campesina / Confédération Paysanne
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://viacampesina.org/en/2026/03/discover-the-podcast-series-of-la-via-campesina-icarrd20/
+notes: >-
+  Why add: Current steward lead and movement-governance branch. ·
+  Status/Caution: Role should be dated; do not person-center a collective
+  movement · Parent source system: La Vía Campesina / Confédération Paysanne
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row661
+  source_lineage: >-
+    https://viacampesina.org/en/2026/03/discover-the-podcast-series-of-la-via-campesina-icarrd20/
+original_object_class: Person
+normalization_flag: DUP-NE-661
+review_needs: 'Matty dup-flag DUP-NE-661: CLOC–La Vía Campesina'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

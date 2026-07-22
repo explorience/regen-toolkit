@@ -1,0 +1,18 @@
+subject: Community Networks Learning Space
+predicate: member_of
+object: APC community-networks ecosystem
+type: relationship-record
+title: >-
+  Community Networks Learning Space — member_of — APC community-networks
+  ecosystem
+original_relationship: stewarded within
+evidence: Learning repository and field resources
+scope: Verify current steward team
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row300
+  source_lineage: https://cnlearning.apc.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,28 @@
+title: MST Media-to-Implementation-Memory Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Process one current thematic archive—such as agroecology, education or
+  cooperatives—into source-linked people, projects, claims, relationships and
+  follow-up cases.
+what_returns_to_commons: >-
+  Tests how a movement media system can feed the Toolkit without becoming
+  undifferentiated links.
+notes: >-
+  What to capture: Dates, authors, object types, self-report status, related
+  primary sources, outcome claims, corrections, accessibility and current
+  relevance. · Status/Caution: Candidate; keep current-state scope and avoid
+  rebuilding a historical archive
+related_source_system: MST communication system
+review_needs: >-
+  prospective candidate — implementation evidence may be incomplete; Matty
+  dup-flag DUP-IM-285: IARAA Corpus and Governance Audit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row285
+  source_lineage: https://mst.org.br/temas/agroecologia/
+normalization_flag: DUP-IM-285
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

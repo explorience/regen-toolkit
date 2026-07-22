@@ -1,0 +1,18 @@
+subject: Global Tapestry of Alternatives
+predicate: implements_or_uses
+object: GTAMap / AltMap
+type: relationship-record
+title: Global Tapestry of Alternatives — implements_or_uses — GTAMap / AltMap
+original_relationship: uses
+evidence: >-
+  GTA describes the tool as collaborative documentation and mapping
+  infrastructure.
+scope: Implementation and maintenance need deeper review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row332
+  source_lineage: https://www.globaltapestryofalternatives.org/mapping:index
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

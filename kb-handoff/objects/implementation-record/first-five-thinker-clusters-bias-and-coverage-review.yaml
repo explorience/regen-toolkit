@@ -1,0 +1,24 @@
+title: First Five Thinker Clusters Bias and Coverage Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Reviewed the emerging thinker graph for justice, geographic, disciplinary,
+  labor, disability, Indigenous, feminist, care and Global South gaps.
+what_returns_to_commons: >-
+  Prevents source visibility and familiarity from silently determining the next
+  thinker and source-system branches.
+notes: >-
+  What to capture: Current strengths, role distribution, missing lineages, risks
+  of canon formation, corrective candidates and selection rationale. ·
+  Status/Caution: Completed; sixth cluster selected
+related_source_system: Ostrom/Hess; Bauwens/P2P; Tang/g0v; Durgadas/CSIS; Meadows
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row162
+  source_lineage: Internal review — 2026-07-10
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

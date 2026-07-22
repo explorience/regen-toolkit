@@ -1,0 +1,24 @@
+title: FemFirst Lab Prototype-to-Governance Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one feminist AI prototype from community problem definition through
+  design, data, governance, testing, ownership and continuation.
+what_returns_to_commons: >-
+  Tests whether community-driven AI changes power and institutional arrangements
+  rather than only prototype content.
+notes: >-
+  What to capture: Community authority, participant compensation, training data,
+  model/infrastructure dependencies, harms, maintenance, adoption, corrections
+  and closure. · Status/Caution: Candidate; requires participant and community
+  evidence beyond programme description
+related_source_system: IT for Change
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row239
+  source_lineage: https://www.itforchange.net/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,25 @@
+title: Community-Led Design Review Gate
+type: option-entry
+category: governance
+what_it_is: >-
+  Require consequential database, interface, ontology and public-view decisions
+  to show how directly affected communities shaped the process and hold
+  meaningful authority.
+potential_uses: >-
+  Ontology changes, AI ingestion, public outputs, civic tools and sensitive
+  collections.
+dependencies: >-
+  Affected-party identification, compensation, accessible participation,
+  decision rights and refusal paths.
+tradeoffs: >-
+  Community consultation can be tokenized or used to legitimize predetermined
+  decisions.
+context: Design Justice Network / Regen Knowledge Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row161
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

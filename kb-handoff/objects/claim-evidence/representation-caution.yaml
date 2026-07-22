@@ -1,0 +1,14 @@
+title: Representation caution
+type: claim-evidence
+claim: Representation caution
+interpretation: Preserve ecosystem plurality and disagreement.
+uncertainty: https://anamuri.cl/
+evidence_stance: neutral
+context: Movement ecosystems are plural and sometimes contested.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row459
+  source_lineage: Active
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,21 @@
+title: Research method
+type: option-entry
+category: coordination
+what_it_is: IALA network
+potential_uses: >-
+  Use cross-school exchanges to compare and improve participatory research
+  rooted in movement priorities.
+dependencies: >-
+  Potential model for Toolkit implementation-memory and community-review
+  workflows.
+tradeoffs: >-
+  https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+context: Movement-Led Participatory Action Research Exchange
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row308
+  source_lineage: Requires participant authority, compensation and consent
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

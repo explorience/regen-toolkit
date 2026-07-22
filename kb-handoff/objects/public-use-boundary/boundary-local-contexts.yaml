@@ -1,0 +1,10 @@
+title: Boundary — Local Contexts
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Current governance and community authority should be checked for each
+  implementation
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#New Objects!row443
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

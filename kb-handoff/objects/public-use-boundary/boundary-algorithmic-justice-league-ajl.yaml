@@ -1,0 +1,11 @@
+title: Boundary — Algorithmic Justice League (AJL)
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  AJL materials are advocacy and research sources, not universal audits of all
+  AI systems. Performance bias is only one form of harm; accuracy improvements
+  do not resolve surveillance, power or legitimacy.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Source-System Cards!row18
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

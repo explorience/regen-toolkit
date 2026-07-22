@@ -1,0 +1,22 @@
+subject: Contributor activity data
+predicate: subject_to
+object: data-minimization and anti-surveillance rules
+type: relationship-record
+title: >-
+  Contributor activity data — subject_to — data-minimization and
+  anti-surveillance rules
+original_relationship: subject to
+evidence: >-
+  Work logs and metrics can become performance ranking or expose sensitive
+  behavior.
+scope: Proposed rights relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row237
+  source_lineage: Internal labor-maintenance review
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

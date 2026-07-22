@@ -1,0 +1,16 @@
+subject: HERMES
+predicate: created_by
+object: Rhizomatica
+type: relationship-record
+title: HERMES — created_by — Rhizomatica
+original_relationship: developed by / through
+evidence: HF emergency and rural multimedia communication system
+scope: Technical stewardship current status needs confirmation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row303
+  source_lineage: https://www.rhizomatica.org/hermes/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

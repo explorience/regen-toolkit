@@ -1,0 +1,10 @@
+title: Boundary — Radical transparency / public-by-default communication
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Transparency can expose vulnerable participants, create performative openness
+  or overwhelm users
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#New Objects!row367
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

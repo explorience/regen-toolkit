@@ -1,0 +1,22 @@
+title: Continental Diversity Articulation Formation Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace the emergence of the diversity articulation and its first continental
+  assembly.
+what_returns_to_commons: Important governance case linking body-territory and peasant movements.
+notes: >-
+  What to capture: Origins, safety, member participation, decision space,
+  political education, regional variation, congress influence and follow-up. ·
+  Status/Caution: High sensitivity; steward-led review required
+related_source_system: CLOC Articulación de Diversidades
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row310
+  source_lineage: >-
+    https://cloc-viacampesina.net/voz-campesina-93-la-articulacion-de-diversidades-de-la-cloc-la-via-campesina
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

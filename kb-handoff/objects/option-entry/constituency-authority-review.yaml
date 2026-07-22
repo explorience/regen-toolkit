@@ -1,0 +1,23 @@
+title: Constituency Authority Review
+type: option-entry
+category: governance
+what_it_is: >-
+  For women, youth, LGBTI+, race, disability and other constituencies,
+  distinguish participation spaces from agenda-setting, budgets, representation
+  and veto/correction power.
+potential_uses: Movement governance, inclusion reviews and public claims.
+dependencies: >-
+  Constituency stewards, rules-in-use, budget and decision evidence,
+  confidential review channels.
+tradeoffs: >-
+  Public documentation may be sparse and direct inquiry can create safety or
+  labor burdens.
+context: MST / Toolkit
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row302
+  source_lineage: Internal synthesis from MST people branching
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

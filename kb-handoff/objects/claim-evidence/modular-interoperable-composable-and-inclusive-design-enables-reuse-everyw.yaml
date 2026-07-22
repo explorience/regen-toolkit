@@ -1,0 +1,20 @@
+title: Modular, interoperable, composable, and inclusive design enables reuse everyw…
+type: claim-evidence
+claim: >-
+  Modular, interoperable, composable, and inclusive design enables reuse
+  everywhere
+interpretation: >-
+  These principles can support adaptation, but reuse across communities requires
+  local review, resources, consent, and implementation learning.
+uncertainty: >-
+  Technical or conceptual modularity does not guarantee cultural
+  transferability, accessibility, maintenance, or inclusion.
+evidence_stance: neutral
+context: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row71
+  source_lineage: https://www.opencivics.co/practice
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

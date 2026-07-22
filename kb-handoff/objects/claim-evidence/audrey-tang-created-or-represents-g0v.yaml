@@ -1,0 +1,18 @@
+title: Audrey Tang created or represents g0v
+type: claim-evidence
+claim: Audrey Tang created or represents g0v
+interpretation: >-
+  Describe Tang's documented roles and contributions while preserving g0v's
+  collective and decentralized identity.
+uncertainty: >-
+  g0v explicitly describes itself as polycentric, autonomous and without a
+  single representative; Tang is one contributor and bridge figure among many.
+evidence_stance: qualifying
+context: Audrey Tang / g0v
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row204
+  source_lineage: https://g0v.tw/intl/en/manifesto/en/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

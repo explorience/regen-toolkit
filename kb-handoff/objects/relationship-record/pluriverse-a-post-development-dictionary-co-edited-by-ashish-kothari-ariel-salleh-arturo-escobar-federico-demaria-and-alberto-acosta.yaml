@@ -1,0 +1,21 @@
+subject: 'Pluriverse: A Post-Development Dictionary'
+predicate: co_edited_by
+object: >-
+  Ashish Kothari, Ariel Salleh, Arturo Escobar, Federico Demaria and Alberto
+  Acosta
+type: relationship-record
+title: >-
+  Pluriverse: A Post-Development Dictionary — co_edited_by — Ashish Kothari,
+  Ariel Salleh, Arturo Escobar, Federico Demaria and Alberto Acosta
+original_relationship: co-edited by
+evidence: Editors listed by the publication source.
+scope: Preserve individual essay authorship and regional differences
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row333
+  source_lineage: https://kalpavriksh.org/pluriverse-a-post-development-dictionary/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

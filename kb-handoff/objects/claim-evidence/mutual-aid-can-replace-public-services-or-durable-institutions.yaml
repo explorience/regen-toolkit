@@ -1,0 +1,18 @@
+title: Mutual aid can replace public services or durable institutions
+type: claim-evidence
+claim: Mutual aid can replace public services or durable institutions
+interpretation: >-
+  Describe mutual aid as complementary movement and community infrastructure,
+  not an automatic substitute for public responsibility.
+uncertainty: >-
+  Grassroots support can be vital, but volunteer networks may lack resources,
+  continuity, legal authority or universal coverage.
+evidence_stance: qualifying
+context: Mutual aid cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row307
+  source_lineage: https://mutualaiddisasterrelief.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,23 @@
+title: Cross-System Visibility and Curation Comparison
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare how one or more projects become visible through verification, boosts,
+  matching, votes, curation and analytics.
+what_returns_to_commons: >-
+  Helps distinguish discovery infrastructure from endorsement, legitimacy and
+  impact assessment.
+notes: >-
+  What to capture: Interface placement, eligibility, token or capital weighting,
+  curator decisions, metric coverage, user behavior and project response. ·
+  Status/Caution: Candidate; UI and mechanism versions must be dated
+related_source_system: Giveth / Artizen / Gitcoin / Octant / OSO
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row4
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

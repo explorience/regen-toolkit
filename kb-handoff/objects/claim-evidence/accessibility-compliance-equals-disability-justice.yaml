@@ -1,0 +1,19 @@
+title: Accessibility compliance equals disability justice
+type: claim-evidence
+claim: Accessibility compliance equals disability justice
+interpretation: >-
+  Describe compliance precisely and separately assess disability-justice
+  governance and affected-community power.
+uncertainty: >-
+  Technical standards and legal compliance can improve access but do not address
+  leadership, race, gender, labor, poverty, institutional power, care or
+  collective liberation.
+evidence_stance: qualifying
+context: Disability justice cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row288
+  source_lineage: https://sinsinvalid.org/10-principles/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

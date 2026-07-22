@@ -1,0 +1,11 @@
+title: Boundary — Global Indigenous Data Alliance (GIDA)
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Do not reduce Indigenous data governance to generic privacy, ethics, or
+  open-data compliance. GIDA is a network, not a universal representative of all
+  Indigenous Peoples or communities.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Source-System Cards!row15
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

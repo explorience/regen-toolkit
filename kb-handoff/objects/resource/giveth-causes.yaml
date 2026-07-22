@@ -1,0 +1,17 @@
+title: Giveth Causes
+type: resource
+resource_type: Mechanism / product
+url: https://docs.giveth.io/donation-agents
+original_source: Giveth
+notes: >-
+  Why add: Current Giveth evolution beyond single-project donations and QF. ·
+  Status/Caution: AI allocation criteria and curator power require explicit
+  review · Parent source system: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row50
+  source_lineage: https://docs.giveth.io/donation-agents
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

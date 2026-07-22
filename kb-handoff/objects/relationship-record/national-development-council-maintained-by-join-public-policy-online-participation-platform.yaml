@@ -1,0 +1,18 @@
+subject: National Development Council
+predicate: maintained_by
+object: JOIN Public Policy Online Participation Platform
+type: relationship-record
+title: >-
+  National Development Council — maintained_by — JOIN Public Policy Online
+  Participation Platform
+original_relationship: operates
+evidence: Official platform description
+scope: Government platform relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row125
+  source_lineage: https://join.gov.tw/aboutus/index/en_US
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

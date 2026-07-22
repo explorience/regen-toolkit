@@ -1,5 +1,5 @@
 title: IALA María Cano / Finca-Escuela Raúl Valbuena
-type: directory
+type: movement
 steward: IALA María Cano / Finca-Escuela Raúl Valbuena
 return_path: unset — establish via register-source
 url: >-
@@ -12,15 +12,22 @@ why_it_matters: >-
   Agroecology institute and farm-school located in Viotá, Cundinamarca,
   developed through FENSUAGRO and the CLOC-LVC IALA network for peasant,
   Indigenous and Afro-descendant youth and movement members.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row58
-  source_lineage: >-
-    https://cloc-viacampesina.net/colombia-se-inauguro-en-viota-el-instituto-agroecologico-latinoamericano-maria-cano
 caution: >-
   Public sources are stronger on founding intent and events than on current
   governance, accreditation, funding, participant selection, completion, alumni
   outcomes or land and maintenance arrangements.
+extraction_status: >-
+  Movement-owned higher and popular education; learning-by-doing; territorial
+  research; youth formation; agroecology and food sovereignty.
+notes: 'Role: Movement-school and territorial learning source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row57
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-se-inauguro-en-viota-el-instituto-agroecologico-latinoamericano-maria-cano
+high_risk: true
+normalization_flag: DUP-SO-51
+review_needs: 'Matty dup-flag DUP-SO-51: FENSUAGRO / IALA María Cano'
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

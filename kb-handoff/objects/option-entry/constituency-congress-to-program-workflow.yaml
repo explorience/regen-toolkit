@@ -1,0 +1,24 @@
+title: Constituency Congress-to-Program Workflow
+type: option-entry
+category: governance
+what_it_is: >-
+  Use local and thematic congresses to generate constituency agendas that feed a
+  national programmatic congress and public organizational memory.
+potential_uses: >-
+  Movement governance, federated networks, community assemblies and Toolkit
+  contribution pathways.
+dependencies: >-
+  Clear delegate selection, translation, facilitation, feedback loops, decision
+  rights and implementation tracking.
+tradeoffs: >-
+  Assemblies can be symbolic, unevenly resourced or dominated by visible regions
+  and leaders.
+context: ANAMURI
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row318
+  source_lineage: https://anamuri.cl/congresos/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

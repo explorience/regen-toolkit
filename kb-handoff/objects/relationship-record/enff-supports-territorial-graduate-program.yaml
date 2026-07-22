@@ -1,0 +1,17 @@
+subject: ENFF
+predicate: supports
+object: TerritoriAL graduate program
+type: relationship-record
+title: ENFF — supports — TerritoriAL graduate program
+original_relationship: supports
+evidence: MST reporting describes the program as an ENFF-linked postgraduate pathway.
+scope: Current university and accreditation relationships need review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row403
+  source_lineage: >-
+    https://mst.org.br/2025/11/27/enff-celebra-20-anos-formando-mestres-para-atuacao-politica-nos-territorios-no-programa-territorial/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

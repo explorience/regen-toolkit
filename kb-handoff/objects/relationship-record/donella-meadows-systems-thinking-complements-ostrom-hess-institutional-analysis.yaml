@@ -1,0 +1,21 @@
+subject: Donella Meadows systems thinking
+predicate: complements
+object: Ostrom / Hess institutional analysis
+type: relationship-record
+title: >-
+  Donella Meadows systems thinking — complements — Ostrom / Hess institutional
+  analysis
+original_relationship: complements
+evidence: >-
+  Adds dynamic feedback, delays, indicators and adaptation to institutional
+  analysis.
+scope: Analytical relationship, not affiliation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row167
+  source_lineage: Internal thinker-cluster synthesis
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

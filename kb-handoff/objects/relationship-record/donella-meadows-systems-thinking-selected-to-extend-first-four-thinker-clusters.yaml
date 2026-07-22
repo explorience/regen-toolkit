@@ -1,0 +1,19 @@
+subject: Donella Meadows systems thinking
+predicate: selected_to_extend
+object: first four thinker clusters
+type: relationship-record
+title: >-
+  Donella Meadows systems thinking — selected_to_extend — first four thinker
+  clusters
+original_relationship: selected to extend
+evidence: Adds dynamics over time, feedback, delays, leverage and unintended effects.
+scope: Selection rationale, not intellectual lineage
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row153
+  source_lineage: Internal cross-review
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

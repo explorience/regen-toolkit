@@ -1,0 +1,18 @@
+subject: Nutrilê
+predicate: distributes_products_in
+object: More than eight municipalities
+type: relationship-record
+title: Nutrilê — distributes_products_in — More than eight municipalities
+original_relationship: distributes products in
+evidence: 2025 reporting describes downstream territorial reach.
+scope: Market and frequency details need review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row440
+  source_lineage: >-
+    https://mst.org.br/2025/09/24/assentamento-che-guevara-celebra-a-nutrile-primeira-agroindustria-de-leite-do-nordeste/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Local Contexts
+type: resource
+resource_type: Source system / infrastructure
+url: https://localcontexts.org/
+original_source: Indigenous data governance cluster
+notes: >-
+  Why add: Operational bridge from principles and rights to metadata,
+  relationships, workflows and integrations. · Status/Caution: Current
+  governance and community authority should be checked for each implementation ·
+  Parent source system: Indigenous data governance cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row443
+  source_lineage: https://localcontexts.org/
+original_object_class: Source System / Collection
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

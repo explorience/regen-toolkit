@@ -1,0 +1,24 @@
+title: Octant Cohort Analytics with OSO
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: Octant / Open Source Observer
+what_returns_to_commons: >-
+  How yield-funded cohorts evolve after allocation and whether analytics support
+  better future selection or support.
+notes: >-
+  What to capture: Trace successive funded cohorts from eligibility and
+  allocation through later open-source activity, maintenance and project
+  continuity. · Status/Caution: Candidate — requires cohort-level source
+  collection
+related_source_system: Funding-to-evidence case
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row10
+  source_lineage: >-
+    Octant epoch records; OSO project mappings; longitudinal metrics; project
+    updates.
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

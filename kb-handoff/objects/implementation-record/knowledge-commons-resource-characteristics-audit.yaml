@@ -1,0 +1,24 @@
+title: Knowledge Commons Resource-Characteristics Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Classify a sample of database resources by rivalry, excludability, privacy,
+  maintenance cost, legal restrictions, infrastructure dependence, and
+  contribution model.
+what_returns_to_commons: >-
+  Improves governance and public-use decisions by treating different knowledge
+  resources differently.
+notes: >-
+  What to capture: Resource type, rights, access, sensitivity, maintenance,
+  infrastructure, dilemmas, public-use implications. · Status/Caution:
+  Candidate; coordinate with licensing and sensitivity review
+related_source_system: Charlotte Hess / GKC
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row129
+  source_lineage: https://knowledge-commons.net/about-knowledge-commons/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

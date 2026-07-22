@@ -1,0 +1,18 @@
+title: Reciprocity means everyone gives and receives equally
+type: claim-evidence
+claim: Reciprocity means everyone gives and receives equally
+interpretation: >-
+  Use reciprocity as shared commitment and relationship, not equal exchange at
+  every moment.
+uncertainty: >-
+  People have different capacities, needs, risks and time horizons; strict
+  equivalence can exclude disabled, poor or crisis-affected participants.
+evidence_stance: qualifying
+context: Mutual aid / care web
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row310
+  source_lineage: https://sinsinvalid.org/10-principles/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

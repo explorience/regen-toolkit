@@ -1,0 +1,24 @@
+title: Toolkit Source-Card Review with CSIS
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one mature source-system card and run a documented structural-integrity
+  review using only the standards clearly relevant to its risks.
+what_returns_to_commons: >-
+  Tests whether the suite improves the Toolkit rather than only adding
+  vocabulary.
+notes: >-
+  What to capture: Chosen standards; prompts; reviewer roles; findings; false
+  positives; affected-party concerns; changes accepted or rejected; reviewer
+  burden. · Status/Caution: Priority candidate; must not be presented as formal
+  conformance
+related_source_system: Coordination Structural Integrity Suite
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row145
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

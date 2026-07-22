@@ -1,0 +1,23 @@
+title: Movement Declaration-to-Action Ledger
+type: option-entry
+category: governance
+what_it_is: >-
+  Trace a collective declaration into regional commitments, campaigns, policy
+  work, local implementation and unresolved disagreement.
+potential_uses: Implementation memory, accountability, movement learning, claim review.
+dependencies: >-
+  Action owners, consent, region-specific records, time horizons, disagreement
+  and non-adoption states.
+tradeoffs: >-
+  Can impose bureaucratic reporting on movements or falsely imply centralized
+  command.
+context: Nyéléni Process
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row268
+  source_lineage: >-
+    https://nyeleni.org/en/the-kandy-declaration-a-collective-roadmap-for-systemic-transformation/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

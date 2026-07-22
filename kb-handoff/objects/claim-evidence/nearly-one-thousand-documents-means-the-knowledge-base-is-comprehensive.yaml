@@ -1,0 +1,19 @@
+title: Nearly one thousand documents means the knowledge base is comprehensive
+type: claim-evidence
+claim: Nearly one thousand documents means the knowledge base is comprehensive
+interpretation: >-
+  State the organizer-reported corpus size as a scale signal and separately
+  evaluate coverage and exclusion.
+uncertainty: >-
+  Corpus size does not establish geographic, linguistic, epistemic, gender or
+  practice coverage, nor current accuracy.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row416
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

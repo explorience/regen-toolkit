@@ -1,0 +1,22 @@
+title: Dynamic-System Review Layer
+type: option-entry
+category: governance
+what_it_is: >-
+  Add stocks, flows, feedback loops, delays, constraints, goals and adaptation
+  to review of source systems, options and implementation cases.
+potential_uses: >-
+  Theory of change, implementation memory, governance review, funding and
+  ecological cases.
+dependencies: >-
+  Defined boundaries, time horizon, evidence, affected-party perspectives,
+  revision process.
+tradeoffs: Can create false causal confidence or hide conflict behind diagrams.
+context: Donella Meadows / systems thinking
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row153
+  source_lineage: https://donellameadows.org/systems-thinking-book-sale/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

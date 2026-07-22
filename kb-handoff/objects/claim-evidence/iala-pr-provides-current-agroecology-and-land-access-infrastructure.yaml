@@ -1,0 +1,18 @@
+title: IALA-PR provides current agroecology and land-access infrastructure
+type: claim-evidence
+claim: IALA-PR provides current agroecology and land-access infrastructure
+interpretation: >-
+  State the current programs as institutionally described while marking
+  capacity, participants, holdings and outcomes as unverified.
+uncertainty: >-
+  Current site describes accompaniment, training, land access, market mapping
+  and a proposed agroecology trust.
+evidence_stance: neutral
+context: IALA-PR
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row483
+  source_lineage: https://www.iala-pr.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

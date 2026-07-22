@@ -1,0 +1,18 @@
+title: Commons-based peer production replaces markets and states
+type: claim-evidence
+claim: Commons-based peer production replaces markets and states
+interpretation: >-
+  Commons-transition work proposes rebalancing and transforming institutional
+  roles; actual arrangements are mixed and context-dependent.
+uncertainty: >-
+  Most proposals describe transformed relationships among commons, markets, and
+  public institutions rather than simple replacement.
+evidence_stance: qualifying
+context: Commons Transition
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row196
+  source_lineage: https://wiki.p2pfoundation.net/Commons_Transition
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

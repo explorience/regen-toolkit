@@ -1,0 +1,20 @@
+title: Prominent facilitators are the authors or representatives of collective alter…
+type: claim-evidence
+claim: >-
+  Prominent facilitators are the authors or representatives of collective
+  alternatives
+interpretation: >-
+  Record scoped facilitation and authorship relationships while foregrounding
+  participating movements, communities and co-authors.
+uncertainty: >-
+  Public-facing thinkers and facilitators may become proxies for movements,
+  obscuring collective authorship and local knowledge.
+evidence_stance: qualifying
+context: Kalpavriksh / Vikalp Sangam / GTA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row368
+  source_lineage: https://globaltapestryofalternatives.org/core_members
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

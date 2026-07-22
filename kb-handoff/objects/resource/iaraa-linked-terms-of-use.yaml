@@ -1,0 +1,17 @@
+title: IARAA-linked terms of use
+type: resource
+resource_type: Legal / governance artifact
+url: https://baobab.iapc.group/pt/iaraa/
+original_source: IARAA / Baobab
+notes: >-
+  Why add: Needed for user rights, liability and public-use review. ·
+  Status/Caution: Document is downloadable and requires human legal review ·
+  Parent source system: IARAA / Baobab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row714
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

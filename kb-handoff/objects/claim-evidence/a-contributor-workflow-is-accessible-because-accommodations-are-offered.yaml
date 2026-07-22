@@ -1,0 +1,18 @@
+title: A contributor workflow is accessible because accommodations are offered
+type: claim-evidence
+claim: A contributor workflow is accessible because accommodations are offered
+interpretation: >-
+  Describe tested formats, actual participant choices, failures and remediation;
+  do not claim accessibility before a paid end-to-end test.
+uncertainty: >-
+  Access depends on the usability of core materials, pacing, culture, decision
+  authority and maintenance—not merely a menu of accommodations.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row323
+  source_lineage: Internal disability-access synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

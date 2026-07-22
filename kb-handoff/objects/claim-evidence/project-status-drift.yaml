@@ -1,0 +1,18 @@
+title: Project-status drift
+type: claim-evidence
+claim: Project-status drift
+interpretation: >-
+  Record current status and last-reviewed date; do not present historical or
+  paused projects as maintained tools.
+uncertainty: >-
+  The portfolio includes active, seeking-participants, pending-funding, paused,
+  complete, and exploratory projects.
+evidence_stance: qualifying
+context: Metagov projects
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row39
+  source_lineage: https://metagov.org/projects
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

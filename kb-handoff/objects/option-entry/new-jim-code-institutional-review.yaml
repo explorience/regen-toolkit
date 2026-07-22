@@ -1,0 +1,24 @@
+title: New Jim Code Institutional Review
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Assess whether a system reproduces inequity through defaults, optimization
+  targets, institutional context or unequal burdens while appearing neutral.
+potential_uses: >-
+  AI review, grants eligibility, risk scores, verification, moderation and
+  public-sector technology.
+dependencies: >-
+  Mechanism evidence, institutional history, disparate-impact analysis,
+  affected-party testimony and remedy pathways.
+tradeoffs: >-
+  The term can be used rhetorically without demonstrating mechanism, scope or
+  impact.
+context: Ruha Benjamin
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row181
+  source_lineage: https://www.ruhabenjamin.com/race-after-technology
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

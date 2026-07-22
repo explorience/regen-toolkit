@@ -1,0 +1,18 @@
+title: Movement-Grounded Energy Justice Review
+type: option-entry
+category: coordination
+what_it_is: >-
+  Assess ownership, recognition, procedure, labor, rates, land, infrastructure
+  and benefit distribution together.
+potential_uses: Energy / Structural Integrity
+dependencies: Denise Fairchild; Shalanda Baker
+tradeoffs: Keeps energy transition analysis from collapsing into technology deployment.
+context: Governance review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row343
+  source_lineage: High-value option
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

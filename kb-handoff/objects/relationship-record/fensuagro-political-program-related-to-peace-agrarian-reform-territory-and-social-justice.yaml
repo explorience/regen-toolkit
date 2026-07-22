@@ -1,0 +1,18 @@
+subject: FENSUAGRO political program
+predicate: related_to
+object: Peace, agrarian reform, territory and social justice
+type: relationship-record
+title: >-
+  FENSUAGRO political program — related_to — Peace, agrarian reform, territory
+  and social justice
+original_relationship: links
+evidence: Movement declaration and rights advocacy connect these issues.
+scope: Movement-authored political relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row516
+  source_lineage: https://viacampesina.org/es/colombia-declaracion-politica-de-fensuagro/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

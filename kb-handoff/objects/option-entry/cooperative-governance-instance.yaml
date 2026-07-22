@@ -1,0 +1,18 @@
+title: Cooperative Governance Instance
+type: option-entry
+category: governance
+what_it_is: >-
+  Configure Decidim for member assemblies, proposals, decisions and
+  follow-through.
+potential_uses: Cooperative, nonprofit, network and commons governance.
+dependencies: Member registry, statutes, quorum, accessibility and archival policy.
+tradeoffs: Digitization may exclude informal or offline members.
+context: Decidim / Metadecidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row100
+  source_lineage: https://decidim.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,31 @@
+title: OpenCivics / OpenCivics Commons
+type: directory
+steward: OpenCivics / OpenCivics Commons
+return_path: unset — establish via register-source
+url: https://commons.opencivics.co/
+why_it_matters: >-
+  Expands the Toolkit beyond regen/web3 into civic commons, public-interest
+  technology, DPI, open protocols, participatory governance, civic stewardship,
+  and knowledge commoning; directly relevant as a peer/reference effort.
+toolkit_route: >-
+  Knowledge Commons / Encyclopedia; Concept & Idea Ecology; Option Library;
+  Evolution Layer; Infrastructure & Substrate; Tracks & Composition
+notes: >-
+  Priority: Expands the Toolkit beyond regen/web3 into civic commons,
+  public-interest technology, DPI, open protocols, participatory governance,
+  civic stewardship, and knowledge commoning; directly relevant as a
+  peer/reference effort. · Next: Inspect main site, Commons, Wiki, YouTube, and
+  Knowledge Commoning Swarm materials; confirm steward/contribution pathways;
+  extract innovation domains and concepts; add option/implementation/claim
+  candidates; add civic/public-use cautions; compare with Regen Commons, GAIAI,
+  and the Toolkit for overlap/complementarity/non-duplication. · Notes: First
+  deepening batch complete. Preserve as peer/source system; continue extracting
+  options, claims, implementation memory, and linked resources.
+review_needs: Discovery_Pool promotion (Tier 1) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-00237
+  source_lineage: https://commons.opencivics.co/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

@@ -1,0 +1,21 @@
+title: Communal Internet Infrastructure Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop or review one community-managed hosting, intranet, cloud or service
+  layer beyond basic access.
+what_returns_to_commons: Extends community-network thinking into wider digital infrastructure.
+notes: >-
+  What to capture: Ownership, governance, privacy, hardware, hosting,
+  maintenance, funding, users, failures and portability. · Status/Caution:
+  Candidate; select a well-documented current implementation
+related_source_system: APC / selected member organization
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row238
+  source_lineage: https://www.apc.org/en/pubs/communal-internet-infrastructure
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

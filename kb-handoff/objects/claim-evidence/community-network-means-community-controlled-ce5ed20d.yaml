@@ -1,0 +1,18 @@
+title: Community network means community-controlled
+type: claim-evidence
+claim: Community network means community-controlled
+interpretation: >-
+  Verify legal ownership, operational authority, governance, labor, benefit
+  distribution and exit rights.
+uncertainty: >-
+  Projects may use community branding while ownership, decisions, technical
+  power or revenue remain external.
+evidence_stance: qualifying
+context: Community networks
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row337
+  source_lineage: https://cnlearning.apc.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

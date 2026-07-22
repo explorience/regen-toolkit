@@ -1,0 +1,24 @@
+title: Progressive Contribution Workflow
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Offer a low-friction Quick Submit path that can later be expanded into a
+  fuller structured and sourced record.
+potential_uses: >-
+  Contributor onboarding, event capture, implementation-memory intake,
+  source-system steward submissions.
+dependencies: >-
+  Draft status, prompts, editor triage, duplicate detection, source
+  requirements, contributor communication.
+tradeoffs: >-
+  Low-friction intake can create a large unresolved backlog and encourage
+  shallow records.
+context: Participedia
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row77
+  source_lineage: https://participedia.net/getting-started
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

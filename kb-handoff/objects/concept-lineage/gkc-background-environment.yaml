@@ -1,0 +1,21 @@
+title: GKC Background Environment
+type: concept-lineage
+short_description: >-
+  Research cluster covering legal, cultural, historical, normative,
+  technological, and domain context surrounding a knowledge commons.
+toolkit_usage: >-
+  Prevents decontextualized comparison of apparently similar tools or
+  institutions.
+original_object_type: Framework component
+notes: >-
+  Why add: Prevents decontextualized comparison of apparently similar tools or
+  institutions. · Status/Caution: Context fields may involve contested histories
+  and values. · Parent source system: GKC Research Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row195
+  source_lineage: https://knowledge-commons.net/research-framework/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

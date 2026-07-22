@@ -1,0 +1,25 @@
+title: CROSS Grant Obligation Record
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Represent grant obligations across entry, progress, completion and
+  continuation with distinct build, change and retroactive modes.
+potential_uses: >-
+  Public-goods funding rounds, grantee reporting, review and implementation
+  memory.
+dependencies: >-
+  Funder-grantee negotiation, proportional reporting burden, reviewer capacity
+  and evidence definitions.
+tradeoffs: >-
+  Can transfer risk to grantees, privilege legible work and intensify
+  surveillance or compliance labor.
+context: CROSS
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row145
+  source_lineage: https://github.com/CrossWalkri/CROSS
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -7,14 +7,20 @@ what_it_curates: >-
   Curated library, manuals, case studies, histories, publisher and
   technical-support programs
 why_it_matters: International; multilingual resources
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row65
-  source_lineage: https://www.cltweb.org/
 caution: >-
   Resource center can document models and cases, but local governance,
   affordability and resident power require case-level evidence | Workflow
   status: Selected in final bounded source-system expansion
+extraction_status: >-
+  Fills community-owned land, affordable housing, stewardship and
+  anti-displacement gap
+notes: 'Role: Global community land trust knowledge and support center · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row64
+  source_lineage: https://www.cltweb.org/
+normalization_flag: REPAIR-SS-64
+review_needs: 'Matty dup-flag REPAIR-SS-64: Late-row schema shift'
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

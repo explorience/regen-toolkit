@@ -1,0 +1,24 @@
+title: Low-Disclosure Access Request Protocol
+type: option-entry
+category: implementation-operations
+what_it_is: >-
+  Enable contributors and reviewers to request changing access supports without
+  diagnosis, repeated justification or unnecessary personal data.
+potential_uses: >-
+  Meetings, review workflows, events, contributor onboarding and public
+  feedback.
+dependencies: >-
+  Named access contact, privacy controls, budget, multiple request formats,
+  deletion rules and remediation authority.
+tradeoffs: >-
+  Can still create sensitive records or pressure people to disclose through
+  informal channels.
+context: Toolkit governance / participation
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row205
+  source_lineage: Internal disability-access review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

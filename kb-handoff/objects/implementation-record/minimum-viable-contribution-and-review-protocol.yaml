@@ -1,0 +1,21 @@
+title: Minimum Viable Contribution and Review Protocol
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop and test a role-based protocol for suggesting, adding, reviewing,
+  approving, publishing, correcting, archiving, and appealing records.
+what_returns_to_commons: Turns tacit working rules into reproducible institutional practice.
+notes: >-
+  What to capture: Roles, rights, thresholds, examples, exceptions, time
+  expectations, escalation, source-system input, and audit trail. ·
+  Status/Caution: Priority candidate before broad contributor onboarding
+related_source_system: Toolkit self-governance
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row109
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

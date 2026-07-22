@@ -1,0 +1,8 @@
+title: Boundary — Distributed Movement Communication Registry
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: Could expose vulnerable communicators or imply centralized editorial control.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Option Candidates!row303
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

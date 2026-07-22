@@ -1,0 +1,18 @@
+title: Community land ownership automatically creates community control
+type: claim-evidence
+claim: Community land ownership automatically creates community control
+interpretation: >-
+  Record board composition, decision rights, ground-lease terms, affordability
+  formulas and affected-party evidence.
+uncertainty: >-
+  Formal land ownership can coexist with weak resident power, inaccessible
+  governance or exclusionary rules.
+evidence_stance: qualifying
+context: Community land trusts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row488
+  source_lineage: https://www.cltweb.org/resources/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

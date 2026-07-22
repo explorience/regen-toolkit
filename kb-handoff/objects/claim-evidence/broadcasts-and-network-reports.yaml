@@ -1,0 +1,17 @@
+title: Broadcasts and network reports
+type: claim-evidence
+claim: Broadcasts and network reports
+interpretation: >-
+  Treat as first-party source material and implementation leads; distinguish
+  stated activity, interpretation, outputs, and independently supported
+  outcomes.
+uncertainty: Reports and retrospectives are primarily network-authored field memory.
+evidence_stance: qualifying
+context: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row74
+  source_lineage: https://broadcast.opencivics.co/archive
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

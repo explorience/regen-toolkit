@@ -1,0 +1,22 @@
+title: Ecological Funding-to-Claim Crosswalk
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Link a funded ecological project to its methodology, monitoring plan,
+  evidence, verification, registry status, credits and public claims.
+potential_uses: >-
+  Ecological public-goods funding, ReFi due diligence and implementation
+  learning.
+dependencies: >-
+  Domain reviewers, place-based context, community consent, data access and
+  versioned methodology records.
+tradeoffs: High risk of conflating finance, registry events and ecological outcomes.
+context: Regen Network + funding and reporting systems
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row4
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

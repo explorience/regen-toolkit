@@ -1,0 +1,19 @@
+title: IEEE Recommended Practice for Provenance of Indigenous Peoples’ Data
+type: resource
+resource_type: Standard / provenance practice
+url: https://www.gida-global.org/ieee-provenance
+original_source: GIDA / IEEE
+notes: >-
+  Why add: Directly relevant to provenance fields, data lineage, AI inputs and
+  institutional disclosure. · Status/Caution: A provenance standard does not
+  itself confer consent, authority or appropriate use · Parent source system:
+  GIDA / IEEE
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row442
+  source_lineage: https://www.gida-global.org/ieee-provenance
+original_object_class: Method / Practice
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

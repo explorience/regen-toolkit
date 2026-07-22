@@ -1,0 +1,18 @@
+title: Metagov Journal
+type: resource
+resource_type: Journal / publication infrastructure
+url: https://journal.metagov.org/2025/08/09/metagov-journal.html
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Distinctive implementation-memory and peer-review model for
+  governance practice. · Status/Caution: New institutional experiment; peer
+  review does not eliminate context or implementation limits. · Parent source
+  system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row83
+  source_lineage: https://journal.metagov.org/2025/08/09/metagov-journal.html
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

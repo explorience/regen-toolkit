@@ -1,0 +1,22 @@
+title: >-
+  Centralizing movement knowledge in an assistant necessarily democratizes
+  access
+type: claim-evidence
+claim: >-
+  Centralizing movement knowledge in an assistant necessarily democratizes
+  access
+interpretation: >-
+  Evaluate whether the system preserves plurality, local authority, dissent,
+  source context and routes back to people and organizations.
+uncertainty: >-
+  Centralization can improve discovery while also concentrating classification
+  power, erasing disagreements or weakening local knowledge relationships.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row419
+  source_lineage: Internal cluster review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,20 @@
+title: Peasant, Indigenous and Afro-descendant youth learners
+type: resource
+resource_type: Constituency
+url: >-
+  https://cloc-viacampesina.net/colombia-se-aproxima-la-inauguracion-del-instituto-y-universidad-campesina-iala-maria-cano
+original_source: IALA María Cano
+notes: >-
+  Why add: Adds constituency-level intent to the education model. ·
+  Status/Caution: Named intended constituency; actual composition and authority
+  not established · Parent source system: IALA María Cano
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row824
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-se-aproxima-la-inauguracion-del-instituto-y-universidad-campesina-iala-maria-cano
+original_object_class: Other / Review
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

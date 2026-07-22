@@ -1,0 +1,20 @@
+title: Participatory Ecological Certification
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Use farmer-and-consumer peer review for locally appropriate ecological
+  assurance and learning.
+potential_uses: Certificado Ecológico Boricuá archive
+dependencies: Can reduce barriers and make standards relational and place-based.
+tradeoffs: >-
+  Requires current rules, appeals, conflicts, training, labor and recognition;
+  not equivalent to statutory certification.
+context: Governance mechanism
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row330
+  source_lineage: Candidate — historical implementation lead
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

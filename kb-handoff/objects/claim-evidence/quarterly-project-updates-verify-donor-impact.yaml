@@ -1,0 +1,18 @@
+title: Quarterly project updates verify donor impact
+type: claim-evidence
+claim: Quarterly project updates verify donor impact
+interpretation: >-
+  Project updates are implementation and accountability signals; review their
+  evidence, scope and authorship separately.
+uncertainty: >-
+  Recurring updates improve transparency but remain project-authored narratives
+  unless independently reviewed.
+evidence_stance: neutral
+context: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row25
+  source_lineage: https://docs.giveth.io/mandatoryupdates
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

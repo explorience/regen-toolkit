@@ -1,0 +1,18 @@
+title: Permanent Endowment for Frontier Projects
+type: option-entry
+category: funding-capital
+what_it_is: An endowment provides baseline or matching support over time.
+potential_uses: Durable cultural and scientific patronage.
+dependencies: Capital base, investment policy, governance, distribution rules.
+tradeoffs: >-
+  Investment risk, governance capture, mission drift, restricted liquidity, and
+  exaggerated permanence claims.
+context: Artizen
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row5
+  source_lineage: https://play.artizen.fund/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

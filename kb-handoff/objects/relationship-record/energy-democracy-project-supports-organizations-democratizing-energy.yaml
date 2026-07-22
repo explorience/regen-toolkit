@@ -1,0 +1,16 @@
+subject: Energy Democracy Project
+predicate: supports
+object: organizations democratizing energy
+type: relationship-record
+title: Energy Democracy Project — supports — organizations democratizing energy
+original_relationship: supports
+evidence: Official project description
+scope: Broad support relationship, not ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row536
+  source_lineage: https://energydemocracy.us/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

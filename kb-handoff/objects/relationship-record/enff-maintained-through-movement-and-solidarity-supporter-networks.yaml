@@ -1,0 +1,18 @@
+subject: ENFF
+predicate: maintained_through
+object: Movement and solidarity supporter networks
+type: relationship-record
+title: ENFF — maintained_through — Movement and solidarity supporter networks
+original_relationship: maintained through
+evidence: Current campaign frames maintenance as collectively supported infrastructure.
+scope: Financial sufficiency and labor burden unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row398
+  source_lineage: >-
+    https://mst.org.br/2026/06/18/escola-nacional-florestan-fernandes-faz-campanha-de-bilhetes-da-solidariedade-ate-27-de-junho/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

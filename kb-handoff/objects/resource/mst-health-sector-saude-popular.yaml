@@ -1,0 +1,18 @@
+title: MST Health Sector / Saúde Popular
+type: resource
+resource_type: Movement sector
+url: https://mst.org.br/tema/saude-popular/
+original_source: MST
+notes: >-
+  Why add: Bridges food, land, ecology and care with public institutions and
+  community practice. · Status/Caution: Health claims require clinical,
+  public-health and community review; avoid extracting sensitive data · Parent
+  source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row691
+  source_lineage: https://mst.org.br/tema/saude-popular/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

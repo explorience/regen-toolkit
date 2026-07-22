@@ -1,0 +1,18 @@
+title: System-dynamics scenarios predict a fixed future
+type: claim-evidence
+claim: System-dynamics scenarios predict a fixed future
+interpretation: >-
+  Describe model structure, assumptions, scenarios, uncertainty and later
+  evidence separately.
+uncertainty: >-
+  Models explore behavior under assumptions and scenarios; they are not
+  date-specific prophecies.
+evidence_stance: qualifying
+context: The Limits to Growth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row230
+  source_lineage: https://www.clubofrome.org/publication/the-limits-to-growth/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

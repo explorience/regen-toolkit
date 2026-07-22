@@ -1,0 +1,18 @@
+title: Open Civic Innovation Framework
+type: resource
+resource_type: Practice framework
+url: https://www.opencivics.co/practice
+original_source: OpenCivics
+notes: >-
+  Why add: Deepens the original option by preserving its actual value,
+  principle, and activity layers. · Status/Caution: Aspirational framework;
+  claims of transferability and effectiveness require implementation evidence
+  across contexts. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row159
+  source_lineage: https://www.opencivics.co/practice
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

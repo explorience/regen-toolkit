@@ -1,0 +1,19 @@
+title: Protocol / Methodology Development and Review
+type: resource
+resource_type: Workflow
+url: >-
+  https://handbook.regen.network/protocol-development/protocol-methodology-development-overview
+original_source: Regen Registry
+notes: >-
+  Why add: Strong implementation example for review-aware standards intake. ·
+  Status/Caution: Review stage and publication status must remain explicit ·
+  Parent source system: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row25
+  source_lineage: >-
+    https://handbook.regen.network/protocol-development/protocol-methodology-development-overview
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

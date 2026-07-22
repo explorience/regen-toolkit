@@ -1,0 +1,25 @@
+title: UNDROP National Implementation Crosswalk
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one country and trace UNDROP rights through law, policy, institutions,
+  movement campaigns, cases and lived outcomes.
+what_returns_to_commons: >-
+  Turns international rights language into evidence-bearing implementation
+  memory.
+notes: >-
+  What to capture: Articles invoked, national law, agencies, budgets,
+  enforcement, court or administrative cases, movement evidence, violations and
+  remedies. · Status/Caution: Legal and movement review required; avoid
+  universal conclusions
+related_source_system: La Vía Campesina / selected country
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row266
+  source_lineage: >-
+    https://viacampesina.org/en/2025/11/building-a-future-with-rights-and-land-the-path-to-cooling-the-planet-with-agroecology/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

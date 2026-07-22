@@ -1,0 +1,18 @@
+title: Care webs eliminate burnout
+type: claim-evidence
+claim: Care webs eliminate burnout
+interpretation: >-
+  Evaluate boundaries, compensation, backup capacity, repair and the ability to
+  reduce or stop work.
+uncertainty: >-
+  Distributed support can improve resilience but still fail under scarcity,
+  conflict or chronic overload.
+evidence_stance: qualifying
+context: Care and disability justice cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row313
+  source_lineage: https://sinsinvalid.org/10-principles/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

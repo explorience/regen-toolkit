@@ -1,0 +1,18 @@
+subject: Plurality book
+predicate: created_by
+object: E. Glen Weyl, Audrey Tang, and Plurality Community
+type: relationship-record
+title: >-
+  Plurality book — created_by — E. Glen Weyl, Audrey Tang, and Plurality
+  Community
+original_relationship: authored by
+evidence: Named authorship and community collaboration
+scope: Preserve community authorship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row7
+  source_lineage: https://plurality.net/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

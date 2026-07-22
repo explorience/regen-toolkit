@@ -1,0 +1,24 @@
+title: Rising Stars Cross-Context Mentorship Pair
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one mentor–mentee relationship and how advice was adapted, rejected, or
+  implemented in the local context.
+what_returns_to_commons: >-
+  Useful implementation memory for practitioner knowledge transfer without
+  assuming one-way expertise.
+notes: >-
+  What to capture: Matching criteria, goals, calls, resources, confidentiality,
+  adaptations, decisions, outcomes, power dynamics, and later relationship. ·
+  Status/Caution: Requires participant consent and careful handling of private
+  mentoring content.
+related_source_system: People Powered / Coglobal
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row82
+  source_lineage: https://www.peoplepowered.org/mentorship
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

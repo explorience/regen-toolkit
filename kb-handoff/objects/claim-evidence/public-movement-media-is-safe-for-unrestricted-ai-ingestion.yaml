@@ -1,0 +1,18 @@
+title: Public movement media is safe for unrestricted AI ingestion
+type: claim-evidence
+claim: Public movement media is safe for unrestricted AI ingestion
+interpretation: >-
+  Use item-level consent, licensing, minimization, safety and withdrawal review
+  before computational reuse.
+uncertainty: >-
+  Audio, images, testimony and event records may include personal, territorial
+  or culturally sensitive information.
+evidence_stance: qualifying
+context: ANAMURI Publications and Multimedia Archive
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row467
+  source_lineage: https://anamuri.cl/multimedia/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

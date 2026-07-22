@@ -1,0 +1,18 @@
+title: Communication visibility ≠ editorial centralization
+type: claim-evidence
+claim: Communication visibility ≠ editorial centralization
+interpretation: >-
+  Map media, teams and archives by territory and artifact; do not infer one
+  editorial chain.
+uncertainty: >-
+  The official site and named communicators are only part of a distributed
+  territorial media ecosystem.
+evidence_stance: qualifying
+context: Setor de Comunicação do MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row440
+  source_lineage: https://mst.org.br/temas/comunicacao/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

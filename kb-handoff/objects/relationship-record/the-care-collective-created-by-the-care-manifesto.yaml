@@ -1,0 +1,16 @@
+subject: The Care Collective
+predicate: created_by
+object: The Care Manifesto
+type: relationship-record
+title: The Care Collective — created_by — The Care Manifesto
+original_relationship: authored
+evidence: Collective authorship.
+scope: Preserve collective authorship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row266
+  source_lineage: https://www.versobooks.com/products/2625-the-care-manifesto
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,17 @@
+title: Ecocredit Module
+type: resource
+resource_type: Technical module
+url: https://docs.regen.network/modules/ecocredit/
+original_source: Regen Ledger
+notes: >-
+  Why add: Core ecological-asset data model and builder prior art. ·
+  Status/Caution: Asset state and retirement records do not independently verify
+  ecological outcomes · Parent source system: Regen Ledger
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row22
+  source_lineage: https://docs.regen.network/modules/ecocredit/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,22 @@
+title: Agroecology School Evidence Ladder
+type: option-entry
+category: governance
+what_it_is: >-
+  Separate practice descriptions, participant testimony, organizer-reported
+  outcomes, direct measurements, independent review and affected-party judgment.
+potential_uses: >-
+  Regenerative project review, ecological claims, school comparisons, funding
+  decisions.
+dependencies: Clear claim types, primary sources, local reviewers, data access and consent.
+tradeoffs: >-
+  May privilege quantified evidence and under-value situated knowledge if
+  applied mechanically.
+context: Shashe / Amrita Bhoomi comparison
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row271
+  source_lineage: Internal case synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

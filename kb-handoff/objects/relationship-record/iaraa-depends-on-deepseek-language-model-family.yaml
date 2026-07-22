@@ -1,0 +1,17 @@
+subject: IARAA
+predicate: depends_on
+object: DeepSeek language model family
+type: relationship-record
+title: IARAA — depends_on — DeepSeek language model family
+original_relationship: depends on
+evidence: Current platform names DeepSeek V4 as the LLM layer.
+scope: Exact deployed model/provider/hosting unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row428
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

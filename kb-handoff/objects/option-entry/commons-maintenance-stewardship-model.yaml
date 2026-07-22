@@ -1,0 +1,24 @@
+title: Commons Maintenance Stewardship Model
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Assign maintenance domains, owners, review cycles, stale-record flags, archive
+  rules, and recognition or funding for care work.
+potential_uses: >-
+  Long-term database health, distributed source-system stewardship, contributor
+  pathways.
+dependencies: >-
+  Stable identifiers, review-date fields, steward recruitment, maintenance
+  budget.
+tradeoffs: >-
+  Can concentrate authority, create unfilled obligations, or reward visible
+  updates over quiet care.
+context: Toolkit self-governance / GKC review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row110
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

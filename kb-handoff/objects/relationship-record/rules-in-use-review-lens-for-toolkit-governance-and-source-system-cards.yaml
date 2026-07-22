@@ -1,0 +1,17 @@
+subject: Rules-in-use
+predicate: review_lens_for
+object: Toolkit governance and source-system cards
+type: relationship-record
+title: Rules-in-use — review_lens_for — Toolkit governance and source-system cards
+original_relationship: review lens for
+evidence: Distinguishes documented rules from actual practices.
+scope: Proposed analytical relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row105
+  source_lineage: Internal thinker-branching synthesis
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

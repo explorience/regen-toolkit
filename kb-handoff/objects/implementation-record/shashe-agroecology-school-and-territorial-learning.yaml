@@ -1,0 +1,28 @@
+title: Shashe Agroecology School and Territorial Learning
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop the school as a case of peasant education, women/youth participation,
+  agroecological practice and movement capacity.
+what_returns_to_commons: >-
+  Adds an African movement-led implementation case and tests whether public
+  profiles match current community experience.
+notes: >-
+  What to capture: School governance, curriculum, trainers, participant
+  authority, farm and territory changes, funding, current operation, conflicts
+  and maintenance. · Status/Caution: Candidate; current status requires
+  verification
+related_source_system: ZIMSOFF / La Vía Campesina
+review_needs: >-
+  prospective candidate — implementation evidence may be incomplete; Matty
+  dup-flag DUP-IM-260: Amrita Bhoomi Farmer-to-Farmer Learning Case
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row260
+  source_lineage: >-
+    https://viacampesina.org/en/2016/08/shashe-agroecology-school-a-true-centre-of-agroecology-and-practical-food-sovereignty/
+normalization_flag: DUP-IM-260
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

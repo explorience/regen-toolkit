@@ -1,0 +1,20 @@
+title: John Emmeus Davis
+type: person
+full_name: John Emmeus Davis
+affiliation: International Center for Community Land Trusts
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.cltweb.org/resources/interviews/john-emmus-davis/
+notes: >-
+  Why add: Bridge between model history, operational choices, stewardship and
+  current CLT practice · Status/Caution: Longstanding movement role · Parent
+  source system: International Center for Community Land Trusts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row868
+  source_lineage: https://www.cltweb.org/resources/interviews/john-emmus-davis/
+original_object_class: Person
+normalization_flag: REPAIR-NO-868
+review_needs: 'Matty dup-flag REPAIR-NO-868: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

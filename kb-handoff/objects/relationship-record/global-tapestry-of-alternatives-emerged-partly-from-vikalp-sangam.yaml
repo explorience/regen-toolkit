@@ -1,0 +1,19 @@
+subject: Global Tapestry of Alternatives
+predicate: emerged_partly_from
+object: Vikalp Sangam
+type: relationship-record
+title: Global Tapestry of Alternatives — emerged_partly_from — Vikalp Sangam
+original_relationship: emerged partly from
+evidence: >-
+  GTA publications describe the idea as emerging from Vikalp Sangam and dialogue
+  with other alternatives processes.
+scope: Historical origin relationship; does not imply ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row327
+  source_lineage: https://globaltapestryofalternatives.org/publications:index
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,16 @@
+subject: Data Feminism
+predicate: created_by
+object: Catherine D’Ignazio and Lauren F. Klein
+type: relationship-record
+title: Data Feminism — created_by — Catherine D’Ignazio and Lauren F. Klein
+original_relationship: authored by
+evidence: Official open-access site identifies the co-authors.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row174
+  source_lineage: https://datafeminism.io/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

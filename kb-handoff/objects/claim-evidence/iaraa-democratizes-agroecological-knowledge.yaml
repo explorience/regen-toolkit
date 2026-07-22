@@ -1,0 +1,19 @@
+title: IARAA democratizes agroecological knowledge
+type: claim-evidence
+claim: IARAA democratizes agroecological knowledge
+interpretation: >-
+  IARAA is designed to widen access to a curated agroecology corpus; democratic
+  effects remain to be evaluated.
+uncertainty: >-
+  The project aims to widen access, but democratization also depends on
+  connectivity, authority, languages, usability, correction, support and who
+  governs the system.
+evidence_stance: neutral
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row427
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

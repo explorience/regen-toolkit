@@ -1,0 +1,19 @@
+title: Deep leverage points are automatically easier or more ethical
+type: claim-evidence
+claim: Deep leverage points are automatically easier or more ethical
+interpretation: >-
+  Evaluate intervention depth alongside legitimacy, consent, feasibility,
+  reversibility and affected-party power.
+uncertainty: >-
+  Changing goals, rules or paradigms may involve coercion, concentrated
+  authority and long political struggle.
+evidence_stance: qualifying
+context: Donella Meadows
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row235
+  source_lineage: >-
+    https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

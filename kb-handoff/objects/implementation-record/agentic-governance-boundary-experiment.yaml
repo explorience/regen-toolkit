@@ -1,0 +1,23 @@
+title: Agentic Governance Boundary Experiment
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one routine governance workflow proposed for automation and trace
+  specification, agent behavior, oversight, exceptions, and human intervention.
+what_returns_to_commons: >-
+  Makes human-bounded automation concrete instead of leaving it as an
+  architectural claim.
+notes: >-
+  What to capture: Authority, inputs, logs, failure modes, escalation, override,
+  appeal, participant response, and whether automation actually reduced burden.
+  · Status/Caution: Future-facing until a deployed case is documented
+related_source_system: GAIAI / Regen AI
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row33
+  source_lineage: https://forum.regen.network/t/agentic-token-economics-repo-colab/602
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

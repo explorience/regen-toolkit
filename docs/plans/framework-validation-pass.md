@@ -1,11 +1,12 @@
 ---
 id: framework-validation-pass
 title: "Framework Validation Pass — self-ingestion + kernel fixes + Jul 16 demo (master plan)"
-status: in-progress
+status: complete
 priority: 1
 scope: regen-toolkit
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-19
+completed: 2026-07-19
 supersedes: [site-and-content-convergence, framework-instance-split, resource-db-v3-lift]
 rescopes: [CONVERGENCE-PIPELINE]
 spec: docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md
@@ -13,6 +14,13 @@ implementation: docs/plans/framework-build/2026-07-14-framework-validation-pass-
 sibling_plan: "../../refi-dao-os/docs/agent-plans/kms-koi-pipeline.md"
 validation_checkpoint: "2026-07-16 toolkit call"
 ---
+
+> **✅ COMPLETE 2026-07-19.** V0–V4 all done (722 objects in `data/kb/`, kernel fixes 100→110 tests,
+> three artifacts live, capital proposal drafted; consolidated report published). Post-demo items
+> redistributed: **feedback harvest (7 items)** → `handoff-integration.md` T4 remainder ·
+> **human review pass** → the review gate in [`dev-instance-build.md`](dev-instance-build.md) ·
+> **repo migration + OS→main** → [`publish-pipeline/2026-07-16-design.md`](publish-pipeline/2026-07-16-design.md)
+> + Heenal asks (sent 2026-07-19) · **V3 resource lift** → superseded by T3b full Canonical_DB ingestion.
 
 ## Goal
 

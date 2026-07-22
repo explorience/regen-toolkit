@@ -1,0 +1,17 @@
+title: El Josco Bravo
+type: resource
+resource_type: Farm / education case
+url: https://viacampesina.org/en/2017/01/agroecology-in-puerto-rico/
+original_source: Puerto Rico agroecology movement
+notes: >-
+  Why add: Strong future implementation case for farmer formation and
+  land-access constraints. · Status/Caution: Needs current direct-source and
+  governance review · Parent source system: Puerto Rico agroecology movement
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row837
+  source_lineage: https://viacampesina.org/en/2017/01/agroecology-in-puerto-rico/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

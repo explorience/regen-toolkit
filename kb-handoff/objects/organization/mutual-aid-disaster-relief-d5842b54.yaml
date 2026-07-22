@@ -1,0 +1,19 @@
+title: Mutual Aid Disaster Relief
+type: organization
+org_type: Organization / Network
+url: https://mutualaiddisasterrelief.org/
+steward: Mutual Aid Disaster Relief
+notes: >-
+  Why add: Connect to resilience, emergency response and care infrastructures ·
+  Status/Caution: Current public network · Parent source system: Mutual Aid
+  Disaster Relief
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row861
+  source_lineage: https://mutualaiddisasterrelief.org/
+original_object_class: Organization / Network
+normalization_flag: REPAIR-NO-861
+review_needs: 'Matty dup-flag REPAIR-NO-861: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

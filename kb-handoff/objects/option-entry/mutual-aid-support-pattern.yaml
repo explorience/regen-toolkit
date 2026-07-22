@@ -1,0 +1,22 @@
+title: Mutual Aid Support Pattern
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Small, accountable network for reciprocal support, rapid response, shared
+  resources and political solidarity.
+potential_uses: Local nodes, contributor crises, emergency funds, community resilience.
+dependencies: >-
+  Clear scope, safety, conflict process, boundaries, funding, backup capacity,
+  referral pathways.
+tradeoffs: >-
+  Can over-rely on volunteers, reproduce informal hierarchy, or displace public
+  obligations.
+context: Dean Spade / MADR
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row212
+  source_lineage: https://mutualaiddisasterrelief.org/guiding-principles/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

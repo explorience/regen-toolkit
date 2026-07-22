@@ -1,0 +1,17 @@
+subject: UNDROP Working Group
+predicate: supports
+object: UNDROP
+type: relationship-record
+title: UNDROP Working Group — supports — UNDROP
+original_relationship: supports implementation of
+evidence: UN mechanism promotes and reports on the declaration.
+scope: Does not itself enforce domestic rights
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row370
+  source_lineage: >-
+    https://viacampesina.org/en/2025/11/building-a-future-with-rights-and-land-the-path-to-cooling-the-planet-with-agroecology/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

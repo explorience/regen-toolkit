@@ -1,0 +1,24 @@
+title: Metadecidim Governing Its Own Infrastructure
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how the community governs roadmap priorities, association rules,
+  partnerships, sustainability and conflict resolution.
+what_returns_to_commons: >-
+  Rare case of a participation platform governing itself and its stewarding
+  institution.
+notes: >-
+  What to capture: Participants, bodies, proposals, decisions, technical
+  authority, funding, labor, conflicts, adopted rules and revisions. ·
+  Status/Caution: Priority; distinguish proposed, adopted and practiced
+  governance
+related_source_system: Decidim / Metadecidim
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row92
+  source_lineage: https://meta.decidim.org/en
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

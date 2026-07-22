@@ -1,0 +1,20 @@
+title: Project and Fund leaderboard effects
+type: claim-evidence
+claim: Project and Fund leaderboard effects
+interpretation: >-
+  Treat leaderboard rank as a platform-specific funding and attention outcome;
+  examine concentration, newcomer access, campaign burden, and distribution
+  across projects.
+uncertainty: >-
+  Multiplicative rankings combine money raised, match unlocked, and Boost
+  Points, potentially amplifying popularity, wealth, early momentum, and
+  campaign capacity.
+evidence_stance: qualifying
+context: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row21
+  source_lineage: https://play.artizen.fund/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

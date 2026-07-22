@@ -1,0 +1,21 @@
+subject: Batch 1C core systems
+predicate: compose_into
+object: A modular governance and civic-knowledge support environment
+type: relationship-record
+title: >-
+  Batch 1C core systems — compose_into — A modular governance and
+  civic-knowledge support environment
+original_relationship: compose into
+evidence: >-
+  Institutional analysis, cases, practice support, platforms, deliberation and
+  governance R&D form complementary layers.
+scope: Do not present as canonical or complete stack
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row72
+  source_lineage: Internal Batch 1C synthesis
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

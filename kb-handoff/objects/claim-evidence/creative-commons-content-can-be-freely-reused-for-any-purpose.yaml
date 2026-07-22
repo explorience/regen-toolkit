@@ -1,0 +1,18 @@
+title: Creative Commons content can be freely reused for any purpose
+type: claim-evidence
+claim: Creative Commons content can be freely reused for any purpose
+interpretation: >-
+  Preserve attribution and license metadata and review intended reuse against
+  the license before publication or product integration.
+uncertainty: >-
+  The site uses CC BY-NC-SA 3.0, which includes attribution, noncommercial, and
+  ShareAlike requirements.
+evidence_stance: qualifying
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row116
+  source_lineage: https://participedia.net/legal
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

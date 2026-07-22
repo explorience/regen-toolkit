@@ -1,0 +1,18 @@
+title: A collection is a neutral or complete representation of a topic
+type: claim-evidence
+claim: A collection is a neutral or complete representation of a topic
+interpretation: >-
+  Display curator, purpose, inclusion logic, date, and known gaps; do not
+  present collections as exhaustive.
+uncertainty: >-
+  Collections are added and curated by team members and depend on existing
+  records and editorial choices.
+evidence_stance: qualifying
+context: Participedia Collections
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row117
+  source_lineage: https://participedia.net/search?selectedCategory=collections
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

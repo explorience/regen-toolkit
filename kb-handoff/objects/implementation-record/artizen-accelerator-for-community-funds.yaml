@@ -1,0 +1,23 @@
+title: Artizen Accelerator for Community Funds
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document the accelerator cohort, training, seed funding, Funds launched, and
+  what happened after the program.
+what_returns_to_commons: >-
+  Could become a useful implementation case for growing fund stewards and
+  avoiding governance-capacity gaps.
+notes: >-
+  What to capture: Selection process, participants, curriculum, funding, Funds
+  launched, sponsor support, project reach, failures, drop-off, and lessons. ·
+  Status/Caution: Candidate; outcomes need follow-up beyond announcement
+related_source_system: Artizen
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row6
+  source_lineage: https://news.artizen.fund/p/artizen-accelerator-for-community-funds
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

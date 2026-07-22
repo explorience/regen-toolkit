@@ -1,0 +1,18 @@
+title: Modularity makes Decidim politically neutral
+type: claim-evidence
+claim: Modularity makes Decidim politically neutral
+interpretation: >-
+  Decidim is modular, but configuration choices are political and should be
+  reviewable.
+uncertainty: >-
+  Spaces, components, permissions, phases, verification and thresholds embed
+  governance choices.
+evidence_stance: neutral
+context: Decidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row141
+  source_lineage: https://docs.decidim.org/en/develop/features/general-description.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,25 @@
+title: vTaiwan Democratic Input to AI
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document the 2023 AI-principles process combining expert knowledge, Polis,
+  LLM-assisted analysis, face-to-face consultation, consensus allocation, and
+  follow-up.
+what_returns_to_commons: >-
+  Directly relevant to AI-assisted knowledge commoning and democratic governance
+  safeguards.
+notes: >-
+  What to capture: Partners, participant recruitment, prompt and statements, AI
+  systems, human validation, consensus and disagreement, outputs, influence,
+  rights and cultural-context handling. · Status/Caution: High-priority AI case;
+  current public documentation is incomplete
+related_source_system: vTaiwan
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row86
+  source_lineage: https://info.vtaiwan.tw/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

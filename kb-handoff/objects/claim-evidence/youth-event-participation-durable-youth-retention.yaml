@@ -1,0 +1,19 @@
+title: Youth event participation ≠ durable youth retention
+type: claim-evidence
+claim: Youth event participation ≠ durable youth retention
+interpretation: >-
+  Track follow-up, roles, support, migration constraints and participant-defined
+  outcomes.
+uncertainty: >-
+  School and jornada attendance does not establish continuing authority,
+  livelihood pathways or retention in rural territories.
+evidence_stance: qualifying
+context: Juventude Sem Terra
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row441
+  source_lineage: >-
+    https://mst.org.br/2025/09/14/mst-realiza-ia-escola-da-juventude-sem-terra-da-regiao-nordeste/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

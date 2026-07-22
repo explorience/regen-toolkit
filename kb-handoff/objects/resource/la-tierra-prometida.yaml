@@ -1,0 +1,17 @@
+title: La Tierra Prometida
+type: resource
+resource_type: Farm / healing case
+url: https://agroecologiapr.org/la_tierra_prometida.htm
+original_source: Aguadilla, Puerto Rico
+notes: >-
+  Why add: Connects agroecology, social recovery and local markets. ·
+  Status/Caution: Avoid translating narrative of healing into medical outcome
+  claims · Parent source system: Aguadilla, Puerto Rico
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row839
+  source_lineage: https://agroecologiapr.org/la_tierra_prometida.htm
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

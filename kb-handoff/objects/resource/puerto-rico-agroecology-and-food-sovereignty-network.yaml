@@ -1,0 +1,18 @@
+title: Puerto Rico Agroecology and Food Sovereignty Network
+type: resource
+resource_type: Territorial practice cluster
+url: https://cloc-viacampesina.net/
+original_source: Organización Boricuá / Puerto Rico ecosystem
+notes: >-
+  Why add: Do not treat as one organization · Status/Caution: Candidate cluster
+  · Parent source system: Organización Boricuá / Puerto Rico ecosystem
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row783
+  source_lineage: https://cloc-viacampesina.net/
+original_object_class: Method / Practice
+normalization_flag: REPAIR-NO-783
+review_needs: 'Matty dup-flag REPAIR-NO-783: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

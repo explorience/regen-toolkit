@@ -1,0 +1,21 @@
+title: Network-of-Networks Health Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Assess whether a network supports autonomy, reciprocal learning, solidarity,
+  language diversity, shared work, conflict handling and care without becoming a
+  representative center.
+potential_uses: Source-system governance, regional federations and coalition reviews.
+dependencies: >-
+  Weaver perspectives, participation data, funding transparency, workload
+  mapping, conflict evidence and exit feedback.
+tradeoffs: Health assessment can reproduce central oversight and evaluation burdens.
+context: GTA
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row257
+  source_lineage: https://globaltapestryofalternatives.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

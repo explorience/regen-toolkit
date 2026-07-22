@@ -1,0 +1,25 @@
+title: Pluriversal Classification Review
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Review whether database categories allow multiple worldviews and locally
+  grounded concepts rather than forcing all practices into one universal
+  taxonomy.
+potential_uses: >-
+  Ontology review, local-node records, public views, AI classification and
+  translation.
+dependencies: >-
+  Source-language terms, community reviewers, multiple classifications,
+  explanatory context and refusal options.
+tradeoffs: >-
+  'Pluriverse' can become vague branding or excuse incoherence; categories still
+  need usability and accountability.
+context: GTA / Vikalp Sangam / Arturo Escobar
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row248
+  source_lineage: https://kalpavriksh.org/pluriverse-a-post-development-dictionary/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

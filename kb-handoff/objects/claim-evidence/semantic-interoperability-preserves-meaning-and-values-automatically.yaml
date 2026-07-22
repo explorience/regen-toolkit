@@ -1,0 +1,19 @@
+title: Semantic interoperability preserves meaning and values automatically
+type: claim-evidence
+claim: Semantic interoperability preserves meaning and values automatically
+interpretation: >-
+  Document schema mappings, provenance, governance assumptions, lossiness, and
+  public-use boundaries alongside technical interoperability.
+uncertainty: >-
+  Cross-system translation can preserve structure while losing context,
+  authority, consent, or normative constraints.
+evidence_stance: qualifying
+context: Regen Commons / Regen Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row65
+  source_lineage: >-
+    https://forum.regen.network/t/extending-regen-s-semantic-framework-into-ethereum-intents/533
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

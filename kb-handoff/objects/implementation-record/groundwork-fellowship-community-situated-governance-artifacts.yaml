@@ -1,0 +1,24 @@
+title: Groundwork Fellowship Community-Situated Governance Artifacts
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare how four fellows documented or prototyped governance systems with and
+  for under-represented communities.
+what_returns_to_commons: >-
+  Tests whether the Toolkit can preserve plural governance knowledge without
+  flattening it into generic best practices.
+notes: >-
+  What to capture: Community context, researcher relationship, artifact purpose,
+  methods, consent, local use, public sharing, limits, and follow-on work. ·
+  Status/Caution: High-context candidate; community and place-based review
+  required.
+related_source_system: Metagov / Groundwork Fellowship
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row19
+  source_lineage: https://metagov.org/projects/groundwork-fellowship/documentation
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,20 @@
+title: Shalanda H. Baker
+type: person
+full_name: Shalanda H. Baker
+affiliation: Energy justice
+consent_status: unverified — default non-public (Principle 8)
+url: https://stpp.fordschool.umich.edu/faculty/shalanda-baker
+notes: >-
+  Why add: Connects movement energy justice with institutional policy and
+  implementation · Status/Caution: Current university role; prior federal role
+  historical · Parent source system: Energy justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row870
+  source_lineage: https://stpp.fordschool.umich.edu/faculty/shalanda-baker
+original_object_class: Person
+normalization_flag: REPAIR-NO-870
+review_needs: 'Matty dup-flag REPAIR-NO-870: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,19 @@
+title: Patricia Parkinson
+type: person
+full_name: Patricia Parkinson
+affiliation: OpenCivics
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.patriciaparkinson.com/creations/opencivics
+notes: >-
+  Why add: Adds a missing steward and implementation lead from the network's
+  early funding and governance work. · Status/Caution: Self-authored role
+  description; current responsibilities and formal authority should be verified
+  directly. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row148
+  source_lineage: https://www.patriciaparkinson.com/creations/opencivics
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

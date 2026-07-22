@@ -1,0 +1,18 @@
+title: Ecocredits are interchangeable measures of regeneration
+type: claim-evidence
+claim: Ecocredits are interchangeable measures of regeneration
+interpretation: >-
+  Ecocredits should be interpreted within their credit class, methodology,
+  project, batch, unit, geography, vintage, and supporting evidence.
+uncertainty: >-
+  Credits may represent different ecosystem services, units, methodologies,
+  regions, time horizons, safeguards, and evidence standards.
+evidence_stance: neutral
+context: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row13
+  source_lineage: https://www.registry.regen.network/crediting-protocols
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

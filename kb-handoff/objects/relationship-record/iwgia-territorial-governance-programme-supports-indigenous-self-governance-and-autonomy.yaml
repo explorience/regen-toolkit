@@ -1,0 +1,19 @@
+subject: IWGIA Territorial Governance Programme
+predicate: supports
+object: Indigenous self-governance and autonomy
+type: relationship-record
+title: >-
+  IWGIA Territorial Governance Programme — supports — Indigenous self-governance
+  and autonomy
+original_relationship: supports
+evidence: Official programme description
+scope: Support role only; authority remains Indigenous
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row537
+  source_lineage: https://www.iwgia.org/en/
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,17 @@
+title: Debates
+type: resource
+resource_type: Component
+url: https://decidim.org/modules/
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Structured discourse option distinct from proposals and voting. ·
+  Status/Caution: Quality depends on facilitation, access and synthesis · Parent
+  source system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row295
+  source_lineage: https://decidim.org/modules/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

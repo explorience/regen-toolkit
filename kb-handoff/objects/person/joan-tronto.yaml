@@ -1,0 +1,19 @@
+title: Joan Tronto
+type: person
+full_name: Joan Tronto
+affiliation: Care ethics cluster
+consent_status: unverified — default non-public (Principle 8)
+url: https://nyupress.org/9780814782781/caring-democracy/
+notes: >-
+  Why add: Adds governance criteria for who notices needs, takes responsibility,
+  provides competent care and receives feedback. · Status/Caution: Care ethics
+  should not be turned into a decontextualized checklist · Parent source system:
+  Care ethics cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row546
+  source_lineage: https://nyupress.org/9780814782781/caring-democracy/
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

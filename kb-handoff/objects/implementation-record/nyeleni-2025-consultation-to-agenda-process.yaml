@@ -1,0 +1,24 @@
+title: Nyéléni 2025 Consultation-to-Agenda Process
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace the regional and constituency consultations, women/youth/diversity
+  validation, Kandy forum and Common Political Action Agenda.
+what_returns_to_commons: >-
+  High-value movement knowledge-governance case connecting local processes to a
+  global agenda.
+notes: >-
+  What to capture: Consultation design, constituencies, languages, draft
+  revisions, disagreement, validation, delegate selection, agenda adoption and
+  later action. · Status/Caution: Priority candidate; avoid assuming all
+  participating movements held identical positions
+related_source_system: Nyéléni International
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row258
+  source_lineage: https://nyeleni.org/en/about-the-nyeleni-forum-2025/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

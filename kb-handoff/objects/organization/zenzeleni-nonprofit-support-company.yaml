@@ -1,0 +1,17 @@
+title: Zenzeleni Nonprofit Support Company
+type: organization
+org_type: Organization / support layer
+url: https://zenzeleni.net/our-model/
+steward: Zenzeleni
+notes: >-
+  Why add: Shows a federated support model separating local ownership from
+  shared capacity. · Status/Caution: Support entity power and accountability
+  require direct review · Parent source system: Zenzeleni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row570
+  source_lineage: https://zenzeleni.net/our-model/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

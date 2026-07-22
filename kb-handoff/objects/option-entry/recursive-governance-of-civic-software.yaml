@@ -1,0 +1,24 @@
+title: Recursive Governance of Civic Software
+type: option-entry
+category: governance
+what_it_is: >-
+  Govern the participatory platform through a community that also uses
+  participatory infrastructure to shape the project itself.
+potential_uses: >-
+  Open-source civic infrastructure, commons governance, contributor
+  coordination, public-institution partnerships.
+dependencies: >-
+  Clear authority, association structure, open contribution paths,
+  documentation, funding and maintenance.
+tradeoffs: >-
+  Participation may remain uneven; formal openness can hide technical or
+  institutional gatekeeping.
+context: Decidim / Metadecidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row32
+  source_lineage: https://meta.decidim.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

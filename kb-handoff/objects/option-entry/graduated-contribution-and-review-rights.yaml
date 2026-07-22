@@ -1,0 +1,24 @@
+title: Graduated Contribution and Review Rights
+type: option-entry
+category: governance
+what_it_is: >-
+  Separate rights to suggest, add, edit, review, approve public use, publish,
+  correct, archive, and appeal.
+potential_uses: >-
+  Internal collaboration, source-system steward participation, public
+  contribution, high-risk record governance.
+dependencies: >-
+  Role definitions, identity/accountability, decision rules, audit trail,
+  conflict resolution.
+tradeoffs: >-
+  Can create bureaucracy or status hierarchy; overly open rights can reduce
+  quality or safety.
+context: Toolkit self-governance / GKC review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row108
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

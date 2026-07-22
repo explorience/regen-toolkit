@@ -1,0 +1,18 @@
+title: GTAMap / AltMap
+type: resource
+resource_type: Mapping tool / open-source platform
+url: https://www.globaltapestryofalternatives.org/mapping:index
+original_source: Global Tapestry of Alternatives
+notes: >-
+  Why add: Direct comparator for the Toolkit's relational and public-view
+  design. · Status/Caution: Map presence is a discovery signal, not validation;
+  sensitivity review required · Parent source system: Global Tapestry of
+  Alternatives
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row608
+  source_lineage: https://www.globaltapestryofalternatives.org/mapping:index
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

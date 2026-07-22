@@ -1,0 +1,18 @@
+subject: ENFF
+predicate: influenced_by
+object: Florestan Fernandes
+type: relationship-record
+title: ENFF — influenced_by — Florestan Fernandes
+original_relationship: named after / draws lineage from
+evidence: >-
+  The school carries the Brazilian sociologist’s name and engages his
+  intellectual legacy.
+scope: Naming is not equivalent to full intellectual lineage
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row393
+  source_lineage: https://mst.org.br/tag/enff/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

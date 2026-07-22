@@ -1,0 +1,18 @@
+title: CLOC South America Region
+type: resource
+resource_type: Regional structure
+url: https://cloc-viacampesina.net/
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Links MST, ANAMURI, FENSUAGRO, MOCASE-VC and other movements without
+  collapsing them. · Status/Caution: Regional role visible; formal structure and
+  current representatives need review · Parent source system: CLOC–La Vía
+  Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row752
+  source_lineage: https://cloc-viacampesina.net/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

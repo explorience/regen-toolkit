@@ -1,0 +1,16 @@
+subject: Alex Pazaitis
+predicate: created_by
+object: 'Peer to Peer: The Commons Manifesto'
+type: relationship-record
+title: 'Alex Pazaitis — created_by — Peer to Peer: The Commons Manifesto'
+original_relationship: co-authored
+evidence: Named co-author
+scope: Publication relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row110
+  source_lineage: https://wiki.p2pfoundation.net/P2P:_The_Commons_Manifesto
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

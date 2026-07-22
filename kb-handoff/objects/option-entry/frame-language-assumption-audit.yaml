@@ -1,0 +1,25 @@
+title: Frame-Language Assumption Audit
+type: option-entry
+category: governance
+what_it_is: >-
+  Analyze documents and schemas for vague terms, hidden frames and structural
+  assumptions not intended by their stated purpose.
+potential_uses: >-
+  Master document, source cards, claims, options, governance rules and interface
+  copy.
+dependencies: >-
+  Shared vocabulary, reviewer judgment, examples, counter-readings and revision
+  process.
+tradeoffs: >-
+  Can impose one vocabulary, penalize plural language and overstate what
+  linguistic precision can solve.
+context: Dimensional Frame Language
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row147
+  source_lineage: >-
+    https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,24 @@
+title: Information flows as leverage
+type: concept-lineage
+short_description: >-
+  Changing who receives what information, when and in what form can alter system
+  behavior without changing material parameters.
+toolkit_usage: >-
+  Direct link to transparency, provenance, dashboards, correction pathways and
+  source-system design.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Direct link to transparency, provenance, dashboards, correction
+  pathways and source-system design. · Status/Caution: More information can
+  increase surveillance, overload or strategic gaming · Parent source system:
+  Donella Meadows systems thinking
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row410
+  source_lineage: >-
+    https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+original_object_class: Framework / Concept
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

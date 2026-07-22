@@ -1,0 +1,22 @@
+title: OpenCivics Knowledge Commoning Swarm
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A swarm process previously referenced in the original workbook for composing
+  modular knowledge-commons components across communities.
+what_returns_to_commons: Directly relevant peer implementation for the Regen Knowledge Commons Toolkit.
+notes: >-
+  What to capture: Participants, prompts, artifacts, consent, AI use,
+  facilitation, component reuse, decisions, failures, and return paths. ·
+  Status/Caution: Existing master lead; needs primary archive and participant
+  review before strong conclusions.
+related_source_system: OpenCivics
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row42
+  source_lineage: https://swarm01.opencivics.co/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

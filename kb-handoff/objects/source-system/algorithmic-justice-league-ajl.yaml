@@ -1,5 +1,5 @@
 title: Algorithmic Justice League (AJL)
-type: archive
+type: repo
 steward: Algorithmic Justice League (AJL)
 return_path: unset — establish via register-source
 url: https://www.ajl.org/
@@ -11,14 +11,22 @@ why_it_matters: >-
   Movement-oriented research, advocacy, art and public education organization
   focused on exposing AI harms and biases, elevating impacted communities and
   advancing accountable technology.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row19
-  source_lineage: https://www.ajl.org/
 caution: >-
   AJL materials are advocacy and research sources, not universal audits of all
   AI systems. Performance bias is only one form of harm; accuracy improvements
   do not resolve surveillance, power or legitimacy.
+extraction_status: >-
+  Empirical bias audits; lived-experience evidence; biometric surveillance;
+  opt-out rights; public campaigns; art as accountability practice;
+  institutional and policy pressure.
+notes: >-
+  Role: Corrective AI accountability and public-interest source system · Action:
+  ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row18
+  source_lineage: https://www.ajl.org/
+high_risk: true
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

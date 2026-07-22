@@ -1,0 +1,23 @@
+title: People Powered Support-to-Outcome Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one team from training or accelerator intake through planning,
+  implementation funding, facilitation, participation, institutional response
+  and later outcomes.
+what_returns_to_commons: Tests whether capacity support translates into durable institutional change.
+notes: >-
+  What to capture: Selection, local partners, curriculum, mentors, resources,
+  adaptation, implementation, participants, decisions, outcomes, failures and
+  continuation. · Status/Caution: Candidate; avoid relying only on program
+  self-reporting
+related_source_system: People Powered + one local implementation
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row101
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

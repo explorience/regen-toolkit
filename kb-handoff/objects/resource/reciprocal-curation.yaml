@@ -1,0 +1,18 @@
+title: Reciprocal Curation
+type: resource
+resource_type: Practice concept
+url: https://localcontexts.org/tk-labeling/
+original_source: Local Contexts
+notes: >-
+  Why add: Strong review lens for museums, archives, knowledge commons and data
+  ingestion. · Status/Caution: Do not universalize one approach across distinct
+  communities and collections · Parent source system: Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row451
+  source_lineage: https://localcontexts.org/tk-labeling/
+original_object_class: Method / Practice
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,25 @@
+title: Civic Community–Government Interface
+type: option-entry
+category: governance
+what_it_is: >-
+  Create porous but explicit interfaces through which civic communities, public
+  servants and formal institutions exchange problems, prototypes, data and
+  policy feedback.
+potential_uses: >-
+  Civic technology, digital public infrastructure, local government
+  collaboration and public-commons partnerships.
+dependencies: >-
+  Institutional mandates, role clarity, procurement/funding, public
+  accountability, conflict safeguards and community autonomy.
+tradeoffs: >-
+  Co-optation, informal elite access, blurred accountability and unequal
+  community representation.
+context: g0v / PDIS / Taiwan public institutions
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row138
+  source_lineage: https://pdis.nat.gov.tw/en/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

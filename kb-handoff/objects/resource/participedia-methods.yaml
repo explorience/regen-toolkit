@@ -1,0 +1,18 @@
+title: Participedia Methods
+type: resource
+resource_type: Dataset / object family
+url: https://participedia.net/search?selectedCategory=method
+original_source: Participedia
+notes: >-
+  Why add: Strong comparator for an options library that distinguishes methods
+  from implementations. · Status/Caution: Method descriptions are not
+  recommendations and should not be detached from context or evidence. · Parent
+  source system: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row220
+  source_lineage: https://participedia.net/search?selectedCategory=method
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

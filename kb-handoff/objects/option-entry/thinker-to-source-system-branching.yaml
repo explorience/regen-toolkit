@@ -1,0 +1,25 @@
+title: Thinker-to-Source-System Branching
+type: option-entry
+category: governance
+what_it_is: >-
+  Treat a thinker as an entry point into a source system, collaborators,
+  publications, concepts, policy cases, critiques, and successor leads rather
+  than as an isolated profile.
+potential_uses: >-
+  People/thinker expansion, review-lens graph, source-system discovery,
+  curriculum design.
+dependencies: >-
+  Primary sources, duplicate checks, scoped relationships, source quality
+  labels, critique inclusion.
+tradeoffs: >-
+  Can reproduce founder-centric narratives and under-credit collective
+  contributors.
+context: Michel Bauwens / P2P Foundation
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row129
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+title: Radical transparency is always democratic
+type: claim-evidence
+claim: Radical transparency is always democratic
+interpretation: >-
+  Use transparency with consent, minimization, redaction, accessibility and
+  contextual review.
+uncertainty: >-
+  Public transcripts and records improve legibility but can create privacy,
+  safety, chilling-effect, context-collapse and information-overload risks.
+evidence_stance: qualifying
+context: Audrey Tang / PDIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row207
+  source_lineage: https://sayit.pdis.nat.gov.tw/speaker/audrey-tang-2
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

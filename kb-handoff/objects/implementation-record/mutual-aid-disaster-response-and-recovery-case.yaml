@@ -1,0 +1,23 @@
+title: Mutual Aid Disaster Response and Recovery Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one disaster response from rapid mobilization through recovery,
+  maintenance and relationship to public systems.
+what_returns_to_commons: Provides an evidence-bearing resilience and mutual-aid implementation case.
+notes: >-
+  What to capture: Needs assessment, safety, logistics, disability access, care
+  labor, funds, accountability, burnout and long-term recovery. ·
+  Status/Caution: Candidate; avoid exposing vulnerable people or operational
+  details
+related_source_system: Mutual Aid Disaster Relief
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row337
+  source_lineage: https://mutualaiddisasterrelief.org/
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

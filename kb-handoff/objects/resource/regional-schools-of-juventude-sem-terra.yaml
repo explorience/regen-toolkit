@@ -1,0 +1,21 @@
+title: Regional Schools of Juventude Sem Terra
+type: resource
+resource_type: Program / youth formation
+url: >-
+  https://mst.org.br/2025/09/14/mst-realiza-ia-escola-da-juventude-sem-terra-da-regiao-nordeste/
+original_source: MST youth articulation
+notes: >-
+  Why add: Concrete youth formation pathway and potential implementation-memory
+  case. · Status/Caution: Participation counts are event snapshots; longer-term
+  outcomes unverified · Parent source system: MST youth articulation
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row744
+  source_lineage: >-
+    https://mst.org.br/2025/09/14/mst-realiza-ia-escola-da-juventude-sem-terra-da-regiao-nordeste/
+original_object_class: Program / Initiative
+normalization_flag: DUP-NE-719
+review_needs: 'Matty dup-flag DUP-NE-719: Paula Veliz'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

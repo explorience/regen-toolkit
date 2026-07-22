@@ -1,0 +1,24 @@
+title: Automated Field-Memory Digest
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Generate regular source-linked summaries across forums, repositories,
+  blockchain activity, media, and knowledge systems.
+potential_uses: >-
+  Community orientation, change logs, research discovery, maintenance alerts,
+  historical memory.
+dependencies: >-
+  Source registry, cadence, editorial rules, corrections, deduplication, archive
+  and versioning.
+tradeoffs: >-
+  Selection bias, hallucination, summary drift, source flooding, and
+  disappearance of minority or low-volume perspectives.
+context: GAIAI / Regen Heartbeat
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row38
+  source_lineage: https://forum.regen.network/t/automated-regen-digest-platform/587
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

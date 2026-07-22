@@ -1,5 +1,5 @@
 title: ANAMURI Publications and Multimedia Archive
-type: archive
+type: publication
 steward: ANAMURI Publications and Multimedia Archive
 return_path: unset — establish via register-source
 url: https://anamuri.cl/publicaciones/
@@ -9,14 +9,18 @@ what_it_curates: >-
 why_it_matters: >-
   ANAMURI-controlled collection of books, booklets, bulletins, triptychs, radio
   clips, audiovisual materials, congress records and campaign documents.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row56
-  source_lineage: https://anamuri.cl/publicaciones/
 caution: >-
   Public availability does not equal unrestricted reuse or AI-training
   permission. Older items require date and context labels; archive completeness
   is unknown.
+extraction_status: >-
+  Primary movement language, historical memory, practical rights education,
+  health and pesticide materials, and constituency-generated agendas.
+notes: 'Role: Movement-generated publication and media source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row55
+  source_lineage: https://anamuri.cl/publicaciones/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

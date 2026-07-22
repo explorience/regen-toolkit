@@ -1,0 +1,20 @@
+title: Data Against Feminicide
+type: organization
+org_type: Research-action network
+url: https://dusp.mit.edu/projects/data-against-feminicide
+steward: Data + Feminism Lab / ILDA / Feminicidio Uruguay
+notes: >-
+  Why add: Strong implementation branch for community data labor, missing
+  official data, transnational collaboration, safety and classification
+  politics. · Status/Caution: Highly sensitive domain; do not copy names,
+  locations or case data without project and affected-community safeguards ·
+  Parent source system: Data + Feminism Lab / ILDA / Feminicidio Uruguay
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row465
+  source_lineage: https://dusp.mit.edu/projects/data-against-feminicide
+original_object_class: Organization / Network
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

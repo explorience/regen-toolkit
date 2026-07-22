@@ -1,0 +1,18 @@
+title: Participatory Democracy Research Data
+type: resource
+resource_type: Research dataset / evidence synthesis
+url: https://www.peoplepowered.org/research-data
+original_source: People Powered
+notes: >-
+  Why add: Adds evidence synthesis and explicit translation from academic
+  literature to practitioner guidance. · Status/Caution: Syntheses simplify
+  heterogeneous studies; effect claims need context, study quality, and method
+  review. · Parent source system: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row252
+  source_lineage: https://www.peoplepowered.org/research-data
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,21 @@
+title: APC Learning Grant Knowledge-Return Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one community-centred connectivity grant from local proposal through
+  implementation, reporting, shared learning and subsequent use.
+what_returns_to_commons: Tests a non-extractive funding-to-field-memory model.
+notes: >-
+  What to capture: Local authority, funding, outputs, burden, knowledge
+  ownership, reuse, outcomes and maintenance. · Status/Caution: Avoid
+  funder-centric success framing
+related_source_system: APC
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row236
+  source_lineage: https://www.apc.org/en/tags/community-networks
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

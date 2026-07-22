@@ -1,0 +1,18 @@
+title: Govbase Labs
+type: resource
+resource_type: Dataset / research practice
+url: https://metagov.org/projects/govbase-labs
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Useful model for collaborative database stewardship and mixed-method
+  review. · Status/Caution: Meeting activity does not guarantee dataset
+  completeness or maintenance. · Parent source system: Metagov / Governance
+  Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row67
+  source_lineage: https://metagov.org/projects/govbase-labs
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

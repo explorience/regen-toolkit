@@ -1,0 +1,19 @@
+title: Lichen Hamraie
+type: person
+full_name: Lichen Hamraie
+affiliation: Critical Design Lab
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.criticaldesignlab.com/meet-the-lab
+notes: >-
+  Why add: Connects disability justice to design, architecture, technology,
+  protocols and institutional critique. · Status/Caution: Current official name;
+  preserve Aimi Hamraie as an alias only where needed for source matching ·
+  Parent source system: Critical Design Lab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row520
+  source_lineage: https://www.criticaldesignlab.com/meet-the-lab
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,16 @@
+subject: Paradigm Initiative
+predicate: maintained_by
+object: Digital Rights Academy
+type: relationship-record
+title: Paradigm Initiative — maintained_by — Digital Rights Academy
+original_relationship: operates
+evidence: Capacity-building programme for digital-rights actors
+scope: Training participation is not outcome evidence
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row322
+  source_lineage: https://paradigmhq.org/programs/digital-rights/digital-rights-academy/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

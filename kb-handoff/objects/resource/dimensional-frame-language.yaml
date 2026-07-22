@@ -1,0 +1,20 @@
+title: Dimensional Frame Language
+type: resource
+resource_type: Vocabulary specification
+url: >-
+  https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: High-value ontology, writing and frame-analysis lens for the Toolkit.
+  · Status/Caution: Vocabulary precision can clarify claims but can also
+  centralize interpretive authority or obscure lived context · Parent source
+  system: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row381
+  source_lineage: >-
+    https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

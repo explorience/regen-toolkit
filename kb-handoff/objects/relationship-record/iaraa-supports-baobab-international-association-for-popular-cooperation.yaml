@@ -1,0 +1,16 @@
+subject: IARAA
+predicate: supports
+object: Baobab / International Association for Popular Cooperation
+type: relationship-record
+title: IARAA — supports — Baobab / International Association for Popular Cooperation
+original_relationship: impulsed / supported by
+evidence: Named enabling and international-cooperation organization.
+scope: Distinguish legal operator, funder, technical lead and convenor roles
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row424
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

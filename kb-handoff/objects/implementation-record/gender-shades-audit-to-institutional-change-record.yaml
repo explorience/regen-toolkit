@@ -1,0 +1,25 @@
+title: Gender Shades Audit-to-Institutional-Change Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace the research design, released findings, company responses, API changes,
+  public debate and remaining harms after Gender Shades.
+what_returns_to_commons: >-
+  Tests the full path from technical audit to institutional response without
+  equating product changes with justice.
+notes: >-
+  What to capture: Dataset, categories, thresholds, intersectional results,
+  replication, vendor changes, policy influence, use-case legitimacy and
+  critiques. · Status/Caution: Include critiques of binary gender classification
+  and surveillance legitimacy
+related_source_system: AJL / Gender Shades
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row183
+  source_lineage: https://gs.ajl.org/
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

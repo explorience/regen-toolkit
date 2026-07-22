@@ -1,0 +1,20 @@
+subject: REDES A.C.
+predicate: works_with_is_guided_by
+object: Community and Indigenous communication processes
+type: relationship-record
+title: >-
+  REDES A.C. — works_with_is_guided_by — Community and Indigenous communication
+  processes
+original_relationship: works with / is guided by
+evidence: REDES states that communities guide the what and how of its work.
+scope: Requires project-specific evidence of authority
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row294
+  source_lineage: https://redesac.org.mx/en/que-hacemos/
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

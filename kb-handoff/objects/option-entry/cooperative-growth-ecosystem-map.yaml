@@ -1,0 +1,23 @@
+title: Cooperative Growth Ecosystem Map
+type: option-entry
+category: governance
+what_it_is: >-
+  Map the capital, technical assistance, law, training, anchor institutions,
+  public policy, markets, and peer networks required for worker-owned
+  enterprises.
+potential_uses: Regional economic-development and local-node tracks.
+dependencies: >-
+  Place-based research, worker leadership, cooperative developers, public
+  institutions, patient capital.
+tradeoffs: >-
+  Can become institution-centered and underweight shop-floor power or informal
+  care work.
+context: DAWI / Project Equity
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row188
+  source_lineage: https://institute.coop/topics/growth
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

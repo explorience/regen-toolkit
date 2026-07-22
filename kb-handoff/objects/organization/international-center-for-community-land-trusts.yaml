@@ -1,0 +1,19 @@
+title: International Center for Community Land Trusts
+type: organization
+org_type: Organization / Source System
+url: https://www.cltweb.org/
+steward: International Center for Community Land Trusts
+notes: >-
+  Why add: Connect to housing, farmland, community assets and land stewardship ·
+  Status/Caution: Current public source system · Parent source system:
+  International Center for Community Land Trusts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row853
+  source_lineage: https://www.cltweb.org/
+original_object_class: Organization / Network
+normalization_flag: REPAIR-NO-853
+review_needs: 'Matty dup-flag REPAIR-NO-853: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

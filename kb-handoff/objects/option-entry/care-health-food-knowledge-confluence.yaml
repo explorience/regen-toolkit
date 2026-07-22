@@ -1,6 +1,6 @@
 title: Care-Health-Food Knowledge Confluence
 type: option-entry
-category: coordination
+category: knowledge-documentation
 what_it_is: >-
   Convene ancestral knowledge holders, community health practitioners, rural
   organizers and public audiences around bodies, food and care.
@@ -11,11 +11,12 @@ dependencies: >-
 tradeoffs: >-
   Traditional knowledge may be romanticized, medicalized or extracted without
   community benefit.
+context: ANAMURI / Sembradoras de Esperanza
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row16
+  origin: Canonical_DB.xlsx#Option Candidates!row323
   source_lineage: https://anamuri.cl/2-2/
-high_risk: true
-work_order: wo-e5b7999ca3a5
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

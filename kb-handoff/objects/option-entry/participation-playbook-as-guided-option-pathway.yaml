@@ -1,0 +1,22 @@
+title: Participation Playbook as Guided Option Pathway
+type: option-entry
+category: governance
+what_it_is: >-
+  Translate a complex participatory process into sequenced design questions,
+  contextual options, practical resources, and decision points.
+potential_uses: Toolkit deployment guides, option-library navigation, contributor onboarding.
+dependencies: >-
+  Clear assumptions, method-specific branches, local adaptation, human
+  mentorship, versioning, and safety checks.
+tradeoffs: >-
+  Users may mistake guided questions for complete expertise or a universal
+  process recipe.
+context: People Powered
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row81
+  source_lineage: https://www.peoplepowered.org/participation-playbook
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

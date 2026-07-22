@@ -1,0 +1,18 @@
+title: A neutral ontology can represent the field without exercising power
+type: claim-evidence
+claim: A neutral ontology can represent the field without exercising power
+interpretation: >-
+  Treat ontology choices as governed and revisable decisions; record
+  alternatives, disputes, and context.
+uncertainty: >-
+  Categories determine visibility, comparability, inclusion, and what appears
+  normal or legitimate.
+evidence_stance: qualifying
+context: Toolkit self-governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row168
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

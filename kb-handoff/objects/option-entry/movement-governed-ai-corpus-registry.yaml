@@ -1,0 +1,23 @@
+title: Movement-Governed AI Corpus Registry
+type: option-entry
+category: governance
+what_it_is: >-
+  Maintain a source-level registry for every corpus item with creator,
+  community, language, territory, license/permission, sensitivity, review state
+  and withdrawal path.
+potential_uses: Movement AI, RAG systems, knowledge commons and public-use governance.
+dependencies: >-
+  Corpus stewards, community authority, metadata, rights process and maintenance
+  budget.
+tradeoffs: >-
+  Can create administrative burden, expose sensitive sources or falsely imply
+  permission is settled.
+context: IARAA / Toolkit
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row292
+  source_lineage: Internal IARAA audit synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

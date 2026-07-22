@@ -1,5 +1,5 @@
 title: Design Justice Network
-type: directory
+type: convening
 steward: Design Justice Network
 return_path: unset — establish via register-source
 url: https://designjustice.org/
@@ -11,14 +11,21 @@ why_it_matters: >-
   A living network, principles framework, resource commons and governance
   practice focused on shifting design power toward people most affected by
   design decisions.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row15
-  source_lineage: https://designjustice.org/
 caution: >-
   Signing principles or joining the network is not certification. Design justice
   cannot be reduced to a checklist, workshop brand, demographic representation,
   or consultation after core decisions are fixed.
+extraction_status: >-
+  Community-led design authority; benefits and burdens analysis; participation
+  and ownership; network governance; care practices; practical activities;
+  translations and movement-linked design resources.
+notes: >-
+  Role: Thinker-linked practice network and community-led design source system ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row14
+  source_lineage: https://designjustice.org/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

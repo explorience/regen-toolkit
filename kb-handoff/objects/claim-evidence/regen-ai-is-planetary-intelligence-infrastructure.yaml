@@ -1,0 +1,19 @@
+title: Regen AI is planetary intelligence infrastructure
+type: claim-evidence
+claim: Regen AI is planetary intelligence infrastructure
+interpretation: >-
+  Regen AI is an emerging collaboration building AI and knowledge infrastructure
+  for the Regen ecosystem; current components and coverage should be named
+  specifically.
+uncertainty: >-
+  The phrase is a mission and architecture claim that may overstate current
+  deployment, coverage, and governance maturity.
+evidence_stance: neutral
+context: GAIAI / Regen Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row51
+  source_lineage: https://forum.regen.network/t/announcing-regen-ai/553
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

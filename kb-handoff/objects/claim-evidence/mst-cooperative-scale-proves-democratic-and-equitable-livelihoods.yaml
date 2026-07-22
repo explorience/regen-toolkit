@@ -1,0 +1,19 @@
+title: MST cooperative scale proves democratic and equitable livelihoods
+type: claim-evidence
+claim: MST cooperative scale proves democratic and equitable livelihoods
+interpretation: >-
+  Treat scale as an organizer-reported network signal and review individual
+  cooperatives and federation governance.
+uncertainty: >-
+  Counts of cooperatives, associations and productive chains do not establish
+  rules-in-use, labor conditions, income distribution or member power.
+evidence_stance: neutral
+context: MST / UNICRAB
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row408
+  source_lineage: >-
+    https://mst.org.br/2025/05/11/cooperativas-do-mst-colheitas-de-resistencia-e-esperanca-no-campo-brasileiro/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

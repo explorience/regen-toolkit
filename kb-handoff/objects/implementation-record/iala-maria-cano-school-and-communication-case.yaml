@@ -1,0 +1,22 @@
+title: IALA María Cano School-and-Communication Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one school’s agroecology formation, participatory research and
+  communications-school hosting.
+what_returns_to_commons: Combines movement education, research and communications infrastructure.
+notes: >-
+  What to capture: Governance, curriculum, participants, land/facilities, P-A
+  research, media outputs, funding, safety, later territorial roles and
+  maintenance. · Status/Caution: Candidate; public evidence remains partial
+related_source_system: IALA María Cano / FENSUAGRO / CLOC
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row305
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

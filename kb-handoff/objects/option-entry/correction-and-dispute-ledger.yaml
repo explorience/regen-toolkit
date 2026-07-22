@@ -1,0 +1,24 @@
+title: Correction and Dispute Ledger
+type: option-entry
+category: governance
+what_it_is: >-
+  Record corrections, objections, evidence, decisions, appeals, and unresolved
+  disputes as first-class governance records.
+potential_uses: >-
+  Public corrections, source-system steward feedback, affected-party review,
+  contested classifications.
+dependencies: >-
+  Visible intake, decision rights, conflict-of-interest disclosure, version
+  history.
+tradeoffs: >-
+  Can become bureaucratic or adversarial without facilitation and response
+  commitments.
+context: Merge and governance readiness
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row118
+  source_lineage: Internal merge-readiness design
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

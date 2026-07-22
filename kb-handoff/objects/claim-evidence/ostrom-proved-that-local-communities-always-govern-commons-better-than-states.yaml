@@ -1,0 +1,21 @@
+title: Ostrom proved that local communities always govern commons better than states…
+type: claim-evidence
+claim: >-
+  Ostrom proved that local communities always govern commons better than states
+  or markets
+interpretation: >-
+  Ostrom showed that communities can govern some commons effectively under
+  particular institutional and contextual conditions.
+uncertainty: >-
+  Her work challenged universal state-or-market assumptions and documented
+  institutional diversity; it did not establish local self-governance as
+  universally superior.
+evidence_stance: qualifying
+context: Elinor Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row187
+  source_lineage: https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

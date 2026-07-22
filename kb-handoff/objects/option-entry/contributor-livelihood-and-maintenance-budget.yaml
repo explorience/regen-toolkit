@@ -1,0 +1,23 @@
+title: Contributor Livelihood and Maintenance Budget
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Attach labor and maintenance budgets to knowledge commons, open-source
+  projects, and public digital infrastructure rather than relying on invisible
+  volunteer work.
+potential_uses: Source-system stewardship, AI knowledge commons, open-source sustainability.
+dependencies: >-
+  Cost model, compensation rules, workload tracking, funding sources, governance
+  and transparency.
+tradeoffs: >-
+  Measurement can commodify care or privilege visible tasks; funding may distort
+  priorities.
+context: Cross-system
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row189
+  source_lineage: Internal labor-cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

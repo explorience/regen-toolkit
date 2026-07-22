@@ -1,0 +1,24 @@
+title: FtC Media Lab as Post-Event Knowledge Return
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review whether interviews, analysis, and field dispatches convert event
+  intelligence into accessible, source-linked, maintained field knowledge.
+what_returns_to_commons: >-
+  Directly relevant to the Toolkit's media-to-knowledge lifecycle and
+  source-system stewardship.
+notes: >-
+  What to capture: Editorial process, contributors, citations, topics, links to
+  sessions, review status, corrections, readership, reuse, and gaps. ·
+  Status/Caution: Candidate; current public archive appears limited and should
+  be assessed for continuity
+related_source_system: Funding the Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row54
+  source_lineage: https://www.fundingthecommons.io/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

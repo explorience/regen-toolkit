@@ -1,0 +1,20 @@
+title: J.K. Gibson-Graham
+type: person
+full_name: J.K. Gibson-Graham
+affiliation: Community Economies
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.communityeconomies.org/people/jk-gibson-graham
+notes: >-
+  Why add: Use as a conceptual lineage without reducing the wider field to two
+  scholars · Status/Caution: Collective authorial identity; Julie Graham is
+  deceased · Parent source system: Community Economies
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row866
+  source_lineage: https://www.communityeconomies.org/people/jk-gibson-graham
+original_object_class: Person
+normalization_flag: REPAIR-NO-866
+review_needs: 'Matty dup-flag REPAIR-NO-866: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

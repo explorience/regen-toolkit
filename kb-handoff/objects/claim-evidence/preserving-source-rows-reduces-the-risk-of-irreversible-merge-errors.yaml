@@ -1,0 +1,18 @@
+title: Preserving source rows reduces the risk of irreversible merge errors
+type: claim-evidence
+claim: Preserving source rows reduces the risk of irreversible merge errors
+interpretation: >-
+  An immutable import ledger makes merge decisions more reviewable and
+  reversible.
+uncertainty: >-
+  Preservation supports audit, correction, alternative synthesis, and recovery
+  from mistaken canonicalization.
+evidence_stance: neutral
+context: GAIAI merge-pilot review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row183
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

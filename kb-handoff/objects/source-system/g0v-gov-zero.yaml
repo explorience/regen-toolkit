@@ -11,14 +11,21 @@ why_it_matters: >-
   Taiwan-based open-collaboration community whose autonomous projects,
   hackathons, documentation and open-source outputs connect civic problems,
   citizen participation, public data and digital services.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row12
-  source_lineage: https://g0v.tw/intl/en/
 caution: >-
   g0v has no single center or representative. Do not attribute every project or
   public-policy outcome to Audrey Tang, a unified organization, or the whole
   community.
+extraction_status: >-
+  Polycentric project governance, open licensing, cross-disciplinary hackathons,
+  state–civil-society interfaces, civic infrastructure and implementation cases
+  linked to Audrey Tang and Taiwan's digital-democracy ecosystem.
+notes: >-
+  Role: Thinker-linked civic-technology source system / polycentric community ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row11
+  source_lineage: https://g0v.tw/intl/en/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

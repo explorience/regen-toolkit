@@ -1,0 +1,23 @@
+title: Data Feminism Review of the Toolkit Ontology
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply the seven principles to one bounded section of the Toolkit’s object
+  types, fields, categories and public views.
+what_returns_to_commons: >-
+  Tests whether a critical framework changes actual schema and governance
+  choices rather than remaining a reading list.
+notes: >-
+  What to capture: Power, categories, omissions, emotion/embodiment, pluralism,
+  context, labor, reviewer participation and resulting changes. ·
+  Status/Caution: Requires compensated reviewers and documented disagreements
+related_source_system: Data Feminism
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row180
+  source_lineage: https://data-feminism.mitpress.mit.edu/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

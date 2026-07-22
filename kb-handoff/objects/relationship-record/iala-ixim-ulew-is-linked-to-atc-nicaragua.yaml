@@ -1,0 +1,18 @@
+subject: IALA Ixim Ulew
+predicate: is_linked_to
+object: ATC Nicaragua
+type: relationship-record
+title: IALA Ixim Ulew — is_linked_to — ATC Nicaragua
+original_relationship: is linked to
+evidence: CLOC education source identifies ATC participants and the school.
+scope: Preliminary institutional relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row474
+  source_lineage: >-
+    https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

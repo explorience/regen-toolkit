@@ -1,0 +1,19 @@
+title: Community Funds democratize funding decisions
+type: claim-evidence
+claim: Community Funds democratize funding decisions
+interpretation: >-
+  Artizen Community Funds enable community-led curation within platform rules;
+  the distribution of power, representation, and accountability should be
+  assessed per Fund.
+uncertainty: >-
+  Community curation may broaden participation, but fund creation and curation
+  can still concentrate authority in visible or well-connected stewards.
+evidence_stance: neutral
+context: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row19
+  source_lineage: https://play.artizen.fund/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

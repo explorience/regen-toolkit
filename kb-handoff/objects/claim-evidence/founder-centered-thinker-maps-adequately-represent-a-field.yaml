@@ -1,0 +1,18 @@
+title: Founder-centered thinker maps adequately represent a field
+type: claim-evidence
+claim: Founder-centered thinker maps adequately represent a field
+interpretation: >-
+  Use thinker clusters to branch outward and explicitly represent collaborators,
+  institutions, disagreements, and implementation communities.
+uncertainty: >-
+  A thinker can be a useful navigational node while still obscuring collective
+  authorship, editors, translators, practitioners, and critics.
+evidence_stance: qualifying
+context: Thinker branching
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row203
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: Polis moderation workflow
+type: resource
+resource_type: Practice area
+url: https://compdemocracy.org/quickstart/
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Moderation is a major governance layer often hidden by descriptions
+  of automated consensus. · Status/Caution: Moderator power, criteria, appeals,
+  labor, bias, and transparency require explicit documentation · Parent source
+  system: Computational Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row272
+  source_lineage: https://compdemocracy.org/quickstart/
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

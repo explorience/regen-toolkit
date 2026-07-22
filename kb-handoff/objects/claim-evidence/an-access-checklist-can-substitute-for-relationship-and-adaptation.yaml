@@ -1,0 +1,19 @@
+title: An access checklist can substitute for relationship and adaptation
+type: claim-evidence
+claim: An access checklist can substitute for relationship and adaptation
+interpretation: >-
+  Use standards as minimums and maintain revisable protocols, feedback, repair
+  and disabled-led governance.
+uncertainty: >-
+  Checklists can establish baselines but may freeze assumptions and ignore
+  changing contexts, power and lived experience.
+evidence_stance: qualifying
+context: Critical Design Lab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row296
+  source_lineage: >-
+    https://www.criticaldesignlab.com/blog/protocols-for-unfinished-techno-science
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

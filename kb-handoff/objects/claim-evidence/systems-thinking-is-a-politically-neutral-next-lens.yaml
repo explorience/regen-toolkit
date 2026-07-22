@@ -1,0 +1,18 @@
+title: Systems thinking is a politically neutral next lens
+type: claim-evidence
+claim: Systems thinking is a politically neutral next lens
+interpretation: >-
+  Use systems thinking to expose dynamics while preserving conflict, history,
+  positionality, and uncertainty.
+uncertainty: >-
+  System boundaries, variables, indicators, and causal stories reflect choices
+  and power.
+evidence_stance: qualifying
+context: Donella Meadows selection
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row227
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,22 @@
+title: Resilience and self-organization
+type: concept-lineage
+short_description: >-
+  Capacity of systems to absorb disturbance, reorganize, learn and generate new
+  structures or behavior.
+toolkit_usage: >-
+  Relevant to commons maintenance, redundancy, adaptation and distributed
+  stewardship.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Relevant to commons maintenance, redundancy, adaptation and
+  distributed stewardship. · Status/Caution: Resilience can preserve unjust
+  systems; specify resilience of what, for whom and against which disturbance ·
+  Parent source system: Systems thinking
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row409
+  source_lineage: https://donellameadows.org/dancing-with-systems/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

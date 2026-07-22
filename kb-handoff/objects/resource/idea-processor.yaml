@@ -1,0 +1,18 @@
+title: Idea Processor
+type: resource
+resource_type: Tool / conceptual workflow lead
+url: https://paragraph.com/durgadas.eth
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: Potential direct implementation bridge from thinker frameworks into
+  knowledge-commons workflows. · Status/Caution: Primary specification and
+  current implementation remain unresolved; treat as a source lead · Parent
+  source system: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row393
+  source_lineage: https://paragraph.com/durgadas.eth
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

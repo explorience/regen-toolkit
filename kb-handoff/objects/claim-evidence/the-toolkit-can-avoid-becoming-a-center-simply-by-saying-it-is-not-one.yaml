@@ -1,0 +1,18 @@
+title: The Toolkit can avoid becoming a center simply by saying it is not one
+type: claim-evidence
+claim: The Toolkit can avoid becoming a center simply by saying it is not one
+interpretation: >-
+  Continuously review power, distribute stewardship, expose uncertainty and
+  selection criteria, and preserve plural source systems.
+uncertainty: >-
+  Curation, visibility, technical standards, funding links, and public
+  interfaces can create de facto authority.
+evidence_stance: qualifying
+context: Toolkit self-governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row171
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

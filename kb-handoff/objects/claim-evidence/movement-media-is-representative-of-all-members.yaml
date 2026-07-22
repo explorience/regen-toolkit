@@ -1,0 +1,18 @@
+title: Movement media is representative of all members
+type: claim-evidence
+claim: Movement media is representative of all members
+interpretation: >-
+  Preserve speaker role, date, selection process and dissent or missing
+  constituencies.
+uncertainty: >-
+  Recorded voices reflect selected speakers, editorial choices and event
+  contexts.
+evidence_stance: qualifying
+context: Voz Campesina / FENSUAGRO
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row475
+  source_lineage: https://cloc-viacampesina.net/category/voz-campesina
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,16 @@
+subject: Data + Feminism Lab
+predicate: member_of
+object: Design Justice Network
+type: relationship-record
+title: Data + Feminism Lab — member_of — Design Justice Network
+original_relationship: is member of
+evidence: Lab lists membership among its networks.
+scope: Network membership, not certification
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row208
+  source_lineage: https://dataplusfeminism.mit.edu/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

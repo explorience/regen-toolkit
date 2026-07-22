@@ -1,0 +1,24 @@
+title: Polycentricity Pilot Comparison
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare pilots with Stanford, Edge Esmeralda communities, and the KOI team as
+  facilitated governance-learning events.
+what_returns_to_commons: >-
+  Determines whether governance roleplay creates actionable agreements or mainly
+  workshop insight.
+notes: >-
+  What to capture: Scenario, roles, participant composition, negotiated
+  obligations, facilitation, disagreement, outputs, later use and participant
+  evaluation. · Status/Caution: Needs pilot-level documentation and participant
+  perspectives.
+related_source_system: Metagov / Polycentricity
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row26
+  source_lineage: https://metagov.org/projects/polycentricity
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

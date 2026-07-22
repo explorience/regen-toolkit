@@ -1,0 +1,18 @@
+title: More connectivity produces digital inclusion
+type: claim-evidence
+claim: More connectivity produces digital inclusion
+interpretation: >-
+  Connectivity is one condition of inclusion; evaluate meaningful access,
+  agency, risks and outcomes separately.
+uncertainty: >-
+  Access, affordability, skills, device quality, relevance, safety, language,
+  disability and power shape meaningful use.
+evidence_stance: neutral
+context: Research ICT Africa / regional systems
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row346
+  source_lineage: https://researchictafrica.net/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

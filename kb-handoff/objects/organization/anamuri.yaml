@@ -1,0 +1,17 @@
+title: ANAMURI
+type: organization
+org_type: Organization / movement
+url: https://anamuri.cl/
+steward: ANAMURI
+notes: >-
+  Why add: Selected source-system branch · Status/Caution: Current · Parent
+  source system: ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row775
+  source_lineage: https://anamuri.cl/
+original_object_class: Organization / Network
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

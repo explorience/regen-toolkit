@@ -1,0 +1,22 @@
+title: Dynamic Systems Gap Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Add stocks, flows, feedback loops, delays, leverage points, path dependence,
+  and unintended effects to reviews shaped by the first four clusters.
+potential_uses: >-
+  Implementation memory, strategy, indicator design, governance and technology
+  assessment.
+dependencies: >-
+  Systems-thinking sources, temporal data, causal humility, affected-party
+  observation.
+tradeoffs: System maps can create false precision or depoliticize conflict and power.
+context: Cross-cluster synthesis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row151
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

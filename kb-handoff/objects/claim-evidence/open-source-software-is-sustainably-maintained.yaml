@@ -1,0 +1,18 @@
+title: Open-source software is sustainably maintained
+type: claim-evidence
+claim: Open-source software is sustainably maintained
+interpretation: >-
+  State repository, license, maintainers, funding, activity, support model,
+  security process, and deprecation plan separately.
+uncertainty: >-
+  Code availability does not establish funded maintenance, security,
+  documentation, support, governance, or succession.
+evidence_stance: qualifying
+context: Open-source and cooperative infrastructure
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row272
+  source_lineage: https://themaintainers.org/about/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

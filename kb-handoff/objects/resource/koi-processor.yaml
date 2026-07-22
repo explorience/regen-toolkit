@@ -1,0 +1,18 @@
+title: KOI Processor
+type: resource
+resource_type: Technical infrastructure
+url: https://github.com/gaiaaiagent/koi-processor
+original_source: GAIAI / Regen AI
+notes: >-
+  Why add: Concrete knowledge-infrastructure implementation relevant to the
+  Toolkit data layer and agent-readable commons. · Status/Caution: Repository
+  status and deployed capabilities should be dated; technical availability is
+  not proof of governance quality · Parent source system: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row115
+  source_lineage: https://github.com/gaiaaiagent/koi-processor
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,19 @@
+subject: Dean Spade
+predicate: created_by
+object: 'Mutual Aid: Building Solidarity During This Crisis (and the Next)'
+type: relationship-record
+title: >-
+  Dean Spade — created_by — Mutual Aid: Building Solidarity During This Crisis
+  (and the Next)
+original_relationship: authored
+evidence: Author and movement-practice guide.
+scope: Publication relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row265
+  source_lineage: >-
+    https://www.deanspade.net/mutual-aid-building-solidarity-during-this-crisis-and-the-next/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

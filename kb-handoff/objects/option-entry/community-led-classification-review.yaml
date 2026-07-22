@@ -1,0 +1,24 @@
+title: Community-Led Classification Review
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Let communities represented by high-impact categories review names,
+  definitions, relationships, public-use states and correction paths.
+potential_uses: >-
+  Ontology, tagging, identity records, Indigenous/community data, labor and
+  disability categories.
+dependencies: >-
+  Compensation, accessible formats, scoped authority, disagreement handling and
+  provenance.
+tradeoffs: >-
+  No community has one voice; reviewers may be overburdened or treated as
+  representatives of entire groups.
+context: Design Justice / Toolkit
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row166
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/cfohnud7
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

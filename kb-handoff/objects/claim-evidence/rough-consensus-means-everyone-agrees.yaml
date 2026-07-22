@@ -1,0 +1,18 @@
+title: Rough consensus means everyone agrees
+type: claim-evidence
+claim: Rough consensus means everyone agrees
+interpretation: >-
+  Document agreement thresholds, disagreement, recruitment, agenda setting and
+  unresolved stakes.
+uncertainty: >-
+  Consensus-finding may surface bridging statements without resolving minority
+  rights, nonparticipation, power or implementation conflict.
+evidence_stance: qualifying
+context: g0v / vTaiwan / Plurality lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row211
+  source_lineage: https://plurality.net/about/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

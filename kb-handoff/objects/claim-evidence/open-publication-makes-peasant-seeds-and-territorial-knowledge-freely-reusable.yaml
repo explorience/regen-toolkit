@@ -1,0 +1,20 @@
+title: Open publication makes peasant seeds and territorial knowledge freely reusable
+type: claim-evidence
+claim: Open publication makes peasant seeds and territorial knowledge freely reusable
+interpretation: >-
+  Treat public availability as a discovery signal; review collective rights,
+  consent, provenance and community-defined conditions before reuse or AI
+  ingestion.
+uncertainty: >-
+  Collective rights, customary rules, biodiversity governance and community
+  protocols may limit appropriate reuse even when information is public.
+evidence_stance: qualifying
+context: Peasant knowledge systems
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row375
+  source_lineage: >-
+    https://viacampesina.org/en/2021/12/la-via-campesina-launches-training-modules-on-peasant-seeds/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

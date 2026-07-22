@@ -1,0 +1,20 @@
+title: Registry Assistant
+type: resource
+resource_type: AI workflow
+url: >-
+  https://forum.regen.network/t/the-registry-assistant-scaling-regenerative-verification-through-intelligent-infrastructure/577
+original_source: GAIAI / Regen AI
+notes: >-
+  Why add: Important case for AI support in a high-stakes ecological claims
+  workflow. · Status/Caution: AI assistance must not be represented as
+  independent verification or replacement for qualified human and community
+  review · Parent source system: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row118
+  source_lineage: >-
+    https://forum.regen.network/t/the-registry-assistant-scaling-regenerative-verification-through-intelligent-infrastructure/577
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,24 @@
+title: IARAA Contributor and Decision-Rights Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Interview named public contributors and collective stewards to distinguish
+  authorship, technical work, corpus curation, political guidance and final
+  decision rights.
+what_returns_to_commons: Closes a major gap left by the public-source technical audit.
+notes: >-
+  What to capture: Roles, organizations, labor, compensation, governance,
+  conflicts, correction, model/corpus decisions and succession. ·
+  Status/Caution: Paid steward review required; do not infer authority from
+  visibility
+related_source_system: IARAA
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row303
+  source_lineage: >-
+    https://mst.org.br/2026/05/21/iaraa-uma-ia-para-socializar-os-saberes-do-campo/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

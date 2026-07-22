@@ -1,0 +1,19 @@
+title: Goat production in a semi-arid region is inherently regenerative
+type: claim-evidence
+claim: Goat production in a semi-arid region is inherently regenerative
+interpretation: >-
+  Describe territorial rationale and require ecological evidence before using
+  regenerative or agroecological labels.
+uncertainty: >-
+  Local adaptation does not establish water, forage, animal-welfare,
+  biodiversity or emissions outcomes.
+evidence_stance: qualifying
+context: COOPAC / territorial livestock
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row432
+  source_lineage: >-
+    https://mst.org.br/2023/06/10/mst-na-paraiba-inaugura-seu-primeiro-laticinio-no-assentamento-che-guevara/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

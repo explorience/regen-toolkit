@@ -1,0 +1,24 @@
+title: Disability Visibility Contributor-Centered Publishing Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one anthology, podcast series or guest-essay workflow from contributor
+  invitation through editing, accessibility, compensation, publication and later
+  reuse.
+what_returns_to_commons: >-
+  Tests how first-person knowledge can enter a commons without becoming
+  extractive representation.
+notes: >-
+  What to capture: Contributor control, editorial process, format access,
+  attribution, payment, corrections, withdrawal, audience and harms. ·
+  Status/Caution: Candidate; contributor privacy and editorial labor matter
+related_source_system: Disability Visibility Project
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row201
+  source_lineage: https://disabilityvisibilityproject.com/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

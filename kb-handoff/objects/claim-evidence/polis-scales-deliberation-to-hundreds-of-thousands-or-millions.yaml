@@ -1,0 +1,18 @@
+title: Polis scales deliberation to hundreds of thousands or millions
+type: claim-evidence
+claim: Polis scales deliberation to hundreds of thousands or millions
+interpretation: >-
+  Polis is designed for very large-scale open-ended feedback; each deployment
+  should separately evaluate participation, quality, and decision linkage.
+uncertainty: >-
+  Technical participant capacity does not establish deliberative quality,
+  representativeness, accessibility, or institutional effect.
+evidence_stance: neutral
+context: Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row131
+  source_lineage: https://compdemocracy.org/polis/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

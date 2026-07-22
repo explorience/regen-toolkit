@@ -1,0 +1,18 @@
+title: Organización Boricuá de Agricultura Ecológica
+type: organization
+org_type: Organization / agroecology network
+url: https://cloc-viacampesina.net/
+steward: Organización Boricuá
+notes: >-
+  Why add: Selected branch; direct-source research needed · Status/Caution:
+  Current · Parent source system: Organización Boricuá
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row782
+  source_lineage: https://cloc-viacampesina.net/
+original_object_class: Organization / Network
+normalization_flag: REPAIR-NO-782
+review_needs: 'Matty dup-flag REPAIR-NO-782: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

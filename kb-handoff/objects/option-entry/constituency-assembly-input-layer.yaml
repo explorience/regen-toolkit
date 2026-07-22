@@ -1,0 +1,25 @@
+title: Constituency Assembly Input Layer
+type: option-entry
+category: governance
+what_it_is: >-
+  Give affected constituencies autonomous spaces to build agendas before and
+  alongside general decision processes.
+potential_uses: >-
+  Toolkit governance, contributor review, affected-party consultation,
+  public-use decisions.
+dependencies: >-
+  Real agenda-setting power, translation, accessibility, compensation, feedback
+  loops, safeguards against tokenization.
+tradeoffs: >-
+  Separate spaces can be underfunded, ignored by central governance or treated
+  as proof of inclusion.
+context: La Vía Campesina Women / Youth / Diversity
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row264
+  source_lineage: >-
+    https://viacampesina.org/en/2023/12/declaration-of-the-6th-international-womens-assembly-of-la-via-campesina/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

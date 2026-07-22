@@ -1,0 +1,19 @@
+title: Farmer-to-farmer learning is automatically horizontal and inclusive
+type: claim-evidence
+claim: Farmer-to-farmer learning is automatically horizontal and inclusive
+interpretation: >-
+  Document facilitation, participation, authority, compensation and adaptation
+  rather than assuming equality.
+uncertainty: >-
+  Gender, age, land access, literacy, language, caste, race and organizational
+  status can still shape whose knowledge travels.
+evidence_stance: qualifying
+context: Agroecology schools
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row379
+  source_lineage: >-
+    https://viacampesina.org/en/2023/11/peasant-agroecology-schools-amritabhoomi-learning-centre-and-farmer-to-farmer-learning-exchanges/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: Community-Authored Protocol Metadata
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Allow relevant communities to define contextual access, circulation,
+  attribution and use protocols that travel with records and exports.
+potential_uses: >-
+  Knowledge commons, archives, ecological data, cultural heritage, AI and public
+  resource explorers.
+dependencies: >-
+  Community-controlled authoring, stable identifiers, customizable descriptions,
+  technical integration and update propagation.
+tradeoffs: >-
+  Metadata can be stripped, ignored or treated as merely advisory; not suitable
+  where publication itself is inappropriate.
+context: Local Contexts / TK and BC Labels
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row172
+  source_lineage: https://localcontexts.org/labels/about-the-labels/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

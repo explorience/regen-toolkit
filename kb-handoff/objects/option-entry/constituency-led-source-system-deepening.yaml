@@ -1,0 +1,18 @@
+title: Constituency-Led Source-System Deepening
+type: option-entry
+category: coordination
+what_it_is: >-
+  Begin with autonomous constituency organizations and their own publications,
+  schools and assemblies before umbrella summaries.
+potential_uses: CLOC / ANAMURI
+dependencies: Improves authority and gender balance.
+tradeoffs: Autonomy and territorial diversity still need review.
+context: Source-system workflow
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row313
+  source_lineage: Selected
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

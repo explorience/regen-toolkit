@@ -1,0 +1,18 @@
+title: Seed-saving documentation can be openly extracted into AI systems
+type: claim-evidence
+claim: Seed-saving documentation can be openly extracted into AI systems
+interpretation: >-
+  Require item-level rights, consent and culturally appropriate governance
+  before AI reuse.
+uncertainty: >-
+  Educational publication and a public license do not erase community authority,
+  attribution or noncommercial limits.
+evidence_stance: qualifying
+context: Agroecología en Puerto Rico / Mi Casa
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row486
+  source_lineage: https://www.agroecologiapr.org/micasa.htm
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: Open Knowledge versus Collective Data Rights Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review one record cluster where public-source availability may conflict with
+  cultural authority, community privacy or collective benefit.
+what_returns_to_commons: >-
+  Tests whether provenance and open licensing are sufficient for legitimate
+  inclusion and reuse.
+notes: >-
+  What to capture: Source status, community authority, permitted use, benefit,
+  responsibility, ethics, labels, restriction and correction process. ·
+  Status/Caution: High-sensitivity candidate; Indigenous-led review required
+related_source_system: CARE Principles / Local Contexts / Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row165
+  source_lineage: https://www.gida-global.org/care
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

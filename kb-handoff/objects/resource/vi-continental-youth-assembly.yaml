@@ -1,0 +1,19 @@
+title: VI Continental Youth Assembly
+type: resource
+resource_type: Assembly
+url: >-
+  https://cloc-viacampesina.net/declaracion-vi-asamblea-continental-de-juventudes-cloc-via-campesina
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Current youth-authored agenda and cross-region organizing record. ·
+  Status/Caution: Political declaration; outcomes and local follow-through
+  require review · Parent source system: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row756
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-vi-asamblea-continental-de-juventudes-cloc-via-campesina
+original_object_class: Event / Assembly
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

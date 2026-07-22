@@ -1,0 +1,25 @@
+title: Plurality-with-Accountability Classification
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Allow multiple locally grounded classifications and worldviews while still
+  documenting who defined a term, what it enables and what harms or conflicts
+  remain.
+potential_uses: >-
+  Ontology review, source-system cards, AI classification and local-node
+  records.
+dependencies: >-
+  Source-language terms, attributed definitions, community reviewers,
+  translation notes, conflict and usability testing.
+tradeoffs: >-
+  Plurality can become vague relativism or hide oppressive practices from
+  critique.
+context: GTA / Vikalp Sangam / Escobar
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row256
+  source_lineage: https://www.dukeupress.edu/designs-for-the-pluriverse
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

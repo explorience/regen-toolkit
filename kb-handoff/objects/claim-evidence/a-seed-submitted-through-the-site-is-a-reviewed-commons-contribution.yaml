@@ -1,0 +1,18 @@
+title: A seed submitted through the site is a reviewed commons contribution
+type: claim-evidence
+claim: A seed submitted through the site is a reviewed commons contribution
+interpretation: >-
+  Treat submissions as raw participatory signals until routed, reviewed, and
+  connected to stewardship.
+uncertainty: >-
+  The seed interface invites early expressions, not necessarily reviewed,
+  adopted, maintained, or actionable contributions.
+evidence_stance: qualifying
+context: Regen Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row66
+  source_lineage: https://regencommons.com/learn
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

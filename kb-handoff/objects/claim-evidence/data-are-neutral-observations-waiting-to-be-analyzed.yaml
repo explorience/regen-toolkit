@@ -1,0 +1,18 @@
+title: Data are neutral observations waiting to be analyzed
+type: claim-evidence
+claim: Data are neutral observations waiting to be analyzed
+interpretation: >-
+  Describe who produced the data, for what purpose, under what conditions, and
+  what remains missing or contested.
+uncertainty: >-
+  Data reflect collection choices, institutional priorities, categories,
+  omissions, labor and unequal social relations.
+evidence_stance: qualifying
+context: Data Feminism
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row262
+  source_lineage: https://data-feminism.mitpress.mit.edu/pub/czq9dfs5
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

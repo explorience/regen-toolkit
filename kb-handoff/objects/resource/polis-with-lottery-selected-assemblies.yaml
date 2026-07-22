@@ -1,0 +1,19 @@
+title: Polis with lottery-selected assemblies
+type: resource
+resource_type: Implementation pattern
+url: https://compdemocracy.org/polis/book/lottery-selected-assemblies/
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Connects computational participation to representative deliberative
+  institutions rather than treating them as substitutes. · Status/Caution:
+  Epistemic grouping should complement, not replace, demographic and
+  affected-party representation · Parent source system: Computational Democracy
+  Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row284
+  source_lineage: https://compdemocracy.org/polis/book/lottery-selected-assemblies/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

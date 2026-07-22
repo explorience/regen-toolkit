@@ -1,0 +1,25 @@
+title: Regen AI Collaboration Launch and Evolution
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace the partnership from its August 2025 announcement through KOI, MCP
+  access, registry tooling, digest infrastructure, skills, and subsequent
+  governance experiments.
+what_returns_to_commons: >-
+  Provides the strongest overall implementation case for GAIAI moving from
+  vision into a multi-component ecosystem collaboration.
+notes: >-
+  What to capture: Initial goals, organizations and people involved, components
+  shipped, source coverage, user adoption, changes in scope, governance, costs,
+  errors, and unresolved questions. · Status/Caution: Priority case; distinguish
+  GAIAI-wide vision from Regen-specific implementation
+related_source_system: GAIAI / Regen Network
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row28
+  source_lineage: https://forum.regen.network/t/announcing-regen-ai/553
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,23 @@
+title: Farmer-and-Educator Evidence Test Set
+type: option-entry
+category: governance
+what_it_is: >-
+  Build a governed test library from real field, education and research
+  questions with expected sources, acceptable uncertainty, refusal cases and
+  user review.
+potential_uses: RAG evaluation, agronomic guidance, public claims and correction workflows.
+dependencies: >-
+  Paid farmer/educator participation, agroecology reviewers, privacy controls,
+  versioned evaluation and remediation.
+tradeoffs: >-
+  Test cases can expose sensitive conditions or privilege easily formalized
+  knowledge.
+context: IARAA
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row296
+  source_lineage: Internal IARAA audit synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

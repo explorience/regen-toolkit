@@ -1,0 +1,21 @@
+title: Dean Spade
+type: person
+full_name: Dean Spade
+affiliation: Mutual aid cluster
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://www.deanspade.net/mutual-aid-building-solidarity-during-this-crisis-and-the-next/
+notes: >-
+  Why add: Connects practical group structure, burnout, conflict, leadership,
+  crisis response and movement building. · Status/Caution: Movement-oriented
+  framework; does not represent all mutual-aid traditions · Parent source
+  system: Mutual aid cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row537
+  source_lineage: >-
+    https://www.deanspade.net/mutual-aid-building-solidarity-during-this-crisis-and-the-next/
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

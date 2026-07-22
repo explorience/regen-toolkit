@@ -1,0 +1,18 @@
+title: La Vía Campesina Regions and Member Organizations
+type: resource
+resource_type: Movement structure
+url: https://viacampesina.org/en/members-list/
+original_source: La Vía Campesina
+notes: >-
+  Why add: Prevents the international movement from being treated as a single
+  centralized organization. · Status/Caution: Member lists and roles change;
+  preserve current regional and organizational specificity · Parent source
+  system: La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row646
+  source_lineage: https://viacampesina.org/en/members-list/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

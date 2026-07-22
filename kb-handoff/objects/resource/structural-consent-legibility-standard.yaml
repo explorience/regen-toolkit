@@ -1,0 +1,18 @@
+title: Structural Consent Legibility Standard
+type: resource
+resource_type: Standard
+url: https://coordination-structural-integrity-suite.github.io/ai/
+original_source: Coordination Structural Integrity Suite
+notes: >-
+  Why add: Relevant to contributor rights, affected-party review, data use and
+  public-release decisions. · Status/Caution: Legible consent language does not
+  guarantee freely given, revocable or power-aware consent · Parent source
+  system: Coordination Structural Integrity Suite
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row383
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

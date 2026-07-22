@@ -13,10 +13,12 @@ dependencies: >-
 tradeoffs: >-
   Games may privilege confident participants, simplify power, create false
   agreement, or be mistaken for actual governance.
+context: Metagov / Polycentricity / D20 Governance
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row3
+  origin: Canonical_DB.xlsx#Option Candidates!row24
   source_lineage: https://metagov.org/projects/polycentricity
-work_order: wo-e5b7999ca3a5
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

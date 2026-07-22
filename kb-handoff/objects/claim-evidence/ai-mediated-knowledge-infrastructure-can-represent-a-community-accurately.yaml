@@ -1,0 +1,19 @@
+title: AI-mediated knowledge infrastructure can represent a community accurately
+type: claim-evidence
+claim: AI-mediated knowledge infrastructure can represent a community accurately
+interpretation: >-
+  KOI Pond is an experiment in contextual and interoperable knowledge
+  organization; accuracy, consent, privacy, plurality, and authority require
+  ongoing human governance.
+uncertainty: >-
+  Graph structure and LLM access may omit, distort, expose, or over-authorize
+  community knowledge.
+evidence_stance: neutral
+context: Metagov / KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row36
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

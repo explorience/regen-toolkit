@@ -1,0 +1,16 @@
+subject: Research ICT Africa
+predicate: maintained_by
+object: RAMP
+type: relationship-record
+title: Research ICT Africa — maintained_by — RAMP
+original_relationship: maintains
+evidence: RIA presents RAMP as its longitudinal country database
+scope: Dataset relationship; inspect methods separately
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row315
+  source_lineage: https://researchictafrica.net/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

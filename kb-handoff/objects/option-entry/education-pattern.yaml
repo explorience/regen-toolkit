@@ -1,0 +1,18 @@
+title: Education pattern
+type: option-entry
+category: implementation-operations
+what_it_is: CLOC / IALA María Cano
+potential_uses: >-
+  Host communications training inside a movement school and generate materials
+  for current organizing processes.
+dependencies: Connects media production, political education and event memory.
+tradeoffs: https://cloc-viacampesina.net/2025/09
+context: Communication School Embedded in Movement Infrastructure
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row311
+  source_lineage: Assess editorial independence, participant safety and maintenance
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

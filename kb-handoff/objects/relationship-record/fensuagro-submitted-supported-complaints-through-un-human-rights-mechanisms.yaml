@@ -1,0 +1,22 @@
+subject: FENSUAGRO
+predicate: submitted_supported_complaints_through
+object: UN human-rights mechanisms
+type: relationship-record
+title: >-
+  FENSUAGRO — submitted_supported_complaints_through — UN human-rights
+  mechanisms
+original_relationship: submitted / supported complaints through
+evidence: >-
+  Public complaint called for protection, investigation, dismantling
+  paramilitary structures and agrarian reform implementation.
+scope: Advocacy pathway, not proof of state response
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row510
+  source_lineage: >-
+    https://viacampesina.org/en/2022/05/colombia-complaint-to-un-mechanisms-about-the-violation-peasants-rights/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

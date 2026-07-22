@@ -1,0 +1,18 @@
+subject: IT for Change
+predicate: researches
+object: platform labor and data-extractivist capitalism
+type: relationship-record
+title: IT for Change — researches — platform labor and data-extractivist capitalism
+original_relationship: researches
+evidence: Documented within feminist digital justice programmes
+scope: Specific claims require publication-level sourcing
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row324
+  source_lineage: >-
+    https://itforchange.net/school-of-feminist-economics-on-feminist-digital-justice/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

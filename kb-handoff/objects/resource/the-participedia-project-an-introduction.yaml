@@ -1,0 +1,18 @@
+title: 'The Participedia Project: An Introduction'
+type: resource
+resource_type: Foundational publication / case
+url: https://participedia.net/case/the-participedia-project
+original_source: Participedia
+notes: >-
+  Why add: Clarifies the project’s research question, design ambition, and
+  quality strategy. · Status/Caution: Foundational framing predates the current
+  platform and should be read with later implementation evidence. · Parent
+  source system: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row230
+  source_lineage: https://participedia.net/case/the-participedia-project
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

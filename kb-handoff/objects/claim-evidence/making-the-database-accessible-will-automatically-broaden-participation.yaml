@@ -1,0 +1,18 @@
+title: Making the database accessible will automatically broaden participation
+type: claim-evidence
+claim: Making the database accessible will automatically broaden participation
+interpretation: >-
+  Accessibility is necessary for broader participation but not sufficient;
+  review material and governance conditions separately.
+uncertainty: >-
+  Accessibility may remove barriers but participation also depends on trust,
+  compensation, authority, language, relevance and political context.
+evidence_stance: neutral
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row305
+  source_lineage: Internal disability-access review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

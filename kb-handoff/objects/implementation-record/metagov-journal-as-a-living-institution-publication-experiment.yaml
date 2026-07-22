@@ -1,0 +1,24 @@
+title: Metagov Journal as a Living-Institution Publication Experiment
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track the creation and early operation of a journal that publishes governance
+  institutions and open peer reviews.
+what_returns_to_commons: >-
+  Offers an implementation model for publishing living institutions and
+  implementation memory as reviewable public goods.
+notes: >-
+  What to capture: Editorial model, submission types, review process, archival
+  stack, participation, conflicts, accepted outputs, revisions, sustainability,
+  and practitioner experience. · Status/Caution: Candidate; early-stage
+  institution.
+related_source_system: Metagov Journal
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row20
+  source_lineage: https://journal.metagov.org/2025/08/09/metagov-journal.html
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

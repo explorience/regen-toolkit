@@ -1,0 +1,18 @@
+title: AJL AI Harms Library
+type: resource
+resource_type: Knowledge resource
+url: https://www.ajl.org/harms-resources
+original_source: Algorithmic Justice League
+notes: >-
+  Why add: Potential source system for harm typologies, cases, affected-party
+  testimony and public education. · Status/Caution: Curated advocacy library;
+  each case and claim requires source-specific review · Parent source system:
+  Algorithmic Justice League
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row480
+  source_lineage: https://www.ajl.org/harms-resources
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

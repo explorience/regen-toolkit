@@ -1,0 +1,19 @@
+title: A Woman’s Place
+type: resource
+resource_type: Research / practice project
+url: https://awomansplace.dataplusfeminism.mit.edu/en/method
+original_source: Data + Feminism Lab and partners
+notes: >-
+  Why add: Implementation lead for data storytelling, state negotiation, safety
+  and participatory research. · Status/Caution: Sensitive lived-experience data;
+  participation and public display require careful consent and safety review ·
+  Parent source system: Data + Feminism Lab and partners
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row467
+  source_lineage: https://awomansplace.dataplusfeminism.mit.edu/en/method
+original_object_class: Program / Initiative
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

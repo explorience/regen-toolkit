@@ -1,0 +1,19 @@
+title: Developer activity growth proves a grant program created public-goods impact
+type: claim-evidence
+claim: Developer activity growth proves a grant program created public-goods impact
+interpretation: >-
+  OSO analyses can show associations between funding and observed software
+  activity; causal and public-value claims require additional design and
+  evidence.
+uncertainty: >-
+  Software activity is a useful signal but does not by itself establish
+  causality, quality, maintenance, downstream use or broader public value.
+evidence_stance: neutral
+context: Gitcoin / OSO
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row23
+  source_lineage: https://www.opensource.observer/solutions/venture
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

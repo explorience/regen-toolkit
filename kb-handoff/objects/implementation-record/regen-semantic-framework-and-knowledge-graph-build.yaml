@@ -1,0 +1,25 @@
+title: Regen Semantic Framework and Knowledge Graph Build
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A working group migrated metadata into LinkML, created RDF/SPARQL
+  infrastructure, validation pipelines, and documentation.
+what_returns_to_commons: >-
+  Concrete semantic-infrastructure case that can inform the Toolkit’s
+  ontology/data-layer handoff.
+notes: >-
+  What to capture: Repository and schema versions, governance, contributors,
+  users, validation results, interoperability, maintenance, and lessons from
+  migration. · Status/Caution: Active technical work; distinguish Regen Network
+  ownership from Regen Commons framing.
+related_source_system: Regen Network / Regen Commons context
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row40
+  source_lineage: >-
+    https://forum.regen.network/t/framework-working-group-progress-why-it-matters/532
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

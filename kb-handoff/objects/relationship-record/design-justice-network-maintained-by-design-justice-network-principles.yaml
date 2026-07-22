@@ -1,0 +1,16 @@
+subject: Design Justice Network
+predicate: maintained_by
+object: Design Justice Network Principles
+type: relationship-record
+title: Design Justice Network — maintained_by — Design Justice Network Principles
+original_relationship: maintains
+evidence: Network publishes the principles as a living document and sign-on framework.
+scope: Current stewardship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row171
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

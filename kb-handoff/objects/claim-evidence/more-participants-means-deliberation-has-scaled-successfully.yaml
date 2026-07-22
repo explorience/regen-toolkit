@@ -1,0 +1,19 @@
+title: More participants means deliberation has scaled successfully
+type: claim-evidence
+claim: More participants means deliberation has scaled successfully
+interpretation: >-
+  Assess scaling out alongside scaling up, across, deep, and in, with
+  context-specific evidence.
+uncertainty: >-
+  Participation numbers capture only one dimension and may conceal weak quality,
+  limited influence, poor inclusion, or no institutional effect.
+evidence_stance: qualifying
+context: DemocracyNext
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row89
+  source_lineage: >-
+    https://www.demnext.org/action/five-dimensions-of-scaling-democratic-deliberation-with-and-beyond-ai
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: Comparative Democratic-Innovation Case Review
+type: option-entry
+category: implementation-operations
+what_it_is: >-
+  Use shared structured fields plus narrative accounts to compare participation
+  processes across contexts.
+potential_uses: >-
+  Batch 1C cross-system review, track development, case selection, institutional
+  learning.
+dependencies: >-
+  Methodological caution, missing-data visibility, country and language context,
+  primary-source follow-up, affected-party perspectives.
+tradeoffs: >-
+  Comparability can become false equivalence; crowdsourced samples cannot
+  support representative causal claims.
+context: Participedia
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row78
+  source_lineage: https://participedia.net/docs/Participedia_case_data_-_User_guide_002.pdf
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

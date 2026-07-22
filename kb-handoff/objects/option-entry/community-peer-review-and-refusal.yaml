@@ -1,0 +1,20 @@
+title: Community Peer Review and Refusal
+type: option-entry
+category: governance
+what_it_is: >-
+  Allow communities to review methods and claims, define limits, refuse
+  extraction and require capacity sharing.
+potential_uses: Evidence / Governance
+dependencies: Max Liboiron / CLEAR
+tradeoffs: >-
+  Useful for sensitive ecological and territorial research; cannot substitute
+  for formal authority or consent.
+context: Research governance option
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row344
+  source_lineage: High-value option
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

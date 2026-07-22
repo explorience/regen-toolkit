@@ -1,0 +1,18 @@
+title: Frame-Language Analyzer
+type: resource
+resource_type: Review method / source lead
+url: https://coordination-structural-integrity-suite.github.io/ai/
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: Directly relevant to claims, ontology, source cards, public copy and
+  AI-assisted review. · Status/Caution: Method needs documented examples, error
+  analysis and human-review boundaries · Parent source system: Durgadas / CSIS
+  lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row394
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

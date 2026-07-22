@@ -1,0 +1,19 @@
+title: GAIAI makes environmental data legible, actionable, and economically viable
+type: claim-evidence
+claim: GAIAI makes environmental data legible, actionable, and economically viable
+interpretation: >-
+  GAIAI develops tools intended to improve access to and use of environmental
+  data; practical, economic, and ecological outcomes require case-specific
+  evidence.
+uncertainty: >-
+  This combines several distinct outcomes: data processing, user comprehension,
+  decision utility, market design, and ecological legitimacy.
+evidence_stance: neutral
+context: GAIAI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row50
+  source_lineage: https://gaiaai.xyz/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

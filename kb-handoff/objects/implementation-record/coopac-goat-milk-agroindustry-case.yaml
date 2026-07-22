@@ -1,0 +1,23 @@
+title: COOPAC Goat-Milk Agroindustry Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop the Paraíba cooperative’s goat-milk processing project from settlement
+  organization through production, financing, processing and regional markets.
+what_returns_to_commons: Provides a concrete current livelihood and regional-development case.
+notes: >-
+  What to capture: Member governance, producer participation, financing,
+  technology, labor, animal welfare, environmental effects, income, risks and
+  maintenance. · Status/Caution: Candidate; organizer reporting requires
+  cooperative and external evidence
+related_source_system: MST / COOPAC / UNICRAB
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row283
+  source_lineage: >-
+    https://mst.org.br/2026/06/02/cooperativa-da-reforma-agraria-amplia-agroindustria-e-fortalece-cadeia-do-leite-caprino-no-semiarido-paraibano/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

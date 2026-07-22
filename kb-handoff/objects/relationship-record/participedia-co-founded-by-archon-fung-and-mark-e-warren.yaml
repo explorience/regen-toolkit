@@ -1,0 +1,17 @@
+subject: Participedia
+predicate: co_founded_by
+object: Archon Fung and Mark E. Warren
+type: relationship-record
+title: Participedia — co_founded_by — Archon Fung and Mark E. Warren
+original_relationship: co-founded by
+evidence: Foundational project account identifies the two founders.
+scope: Historical founding relationship.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row23
+  source_lineage: https://participedia.net/case/the-participedia-project
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

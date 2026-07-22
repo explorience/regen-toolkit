@@ -1,0 +1,24 @@
+title: Traditional Knowledge Label Applied to a Digital Collection
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document how one community selected, customized and applied TK Labels to a
+  collection or digital resource.
+what_returns_to_commons: >-
+  Tests whether contextual metadata changes institutional practice and knowledge
+  circulation.
+notes: >-
+  What to capture: Community authority, protocol language, collection history,
+  institution role, technical display, access changes, user behavior and
+  maintenance. · Status/Caution: Community-led documentation and permission
+  required
+related_source_system: Local Contexts
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row175
+  source_lineage: https://localcontexts.org/labels/traditional-knowledge-labels/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

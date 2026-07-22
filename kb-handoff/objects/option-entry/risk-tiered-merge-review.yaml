@@ -1,0 +1,20 @@
+title: Risk-Tiered Merge Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Route merge decisions to different review depths based on identity
+  consequence, sensitivity, claim risk, and public-use scope.
+potential_uses: Scale duplicate review without sending every row to every reviewer.
+dependencies: Risk taxonomy, reviewer roles, queues, escalation, sampling audits.
+tradeoffs: >-
+  Under-classification may bypass needed expertise; over-classification may
+  stall work.
+context: GAIAI merge-pilot review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row121
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

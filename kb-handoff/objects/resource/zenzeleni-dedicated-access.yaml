@@ -1,0 +1,17 @@
+title: Zenzeleni Dedicated Access
+type: resource
+resource_type: Service model
+url: https://zenzeleni.net/our-services/connectivity/
+original_source: Zenzeleni
+notes: >-
+  Why add: Shows mixed service models within a community network. ·
+  Status/Caution: May distribute benefits unevenly; pricing and coverage need
+  context · Parent source system: Zenzeleni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row572
+  source_lineage: https://zenzeleni.net/our-services/connectivity/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

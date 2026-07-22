@@ -1,0 +1,21 @@
+title: VIII Continental Congress of CLOC–La Vía Campesina
+type: resource
+resource_type: Governance process
+url: >-
+  https://cloc-viacampesina.net/declaracion-final-del-viii-congreso-continental-de-la-cloc-via-campesina
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Evidence-bearing current governance and agenda-setting process. ·
+  Status/Caution: Collective declaration; implementation and internal decision
+  procedures need follow-up · Parent source system: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row749
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-final-del-viii-congreso-continental-de-la-cloc-via-campesina
+original_object_class: Governance / Funding Mechanism
+normalization_flag: DUP-NE-661
+review_needs: 'Matty dup-flag DUP-NE-661: CLOC–La Vía Campesina'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

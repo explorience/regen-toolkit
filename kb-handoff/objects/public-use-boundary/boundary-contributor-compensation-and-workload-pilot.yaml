@@ -1,0 +1,12 @@
+title: Boundary — Contributor Compensation and Workload Pilot
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  What to capture: Roles; tasks; paid/unpaid status; time;
+  emotional/coordination work; decision power; feedback; burnout risk; budget
+  impact. · Status/Caution: Requires consent and should not become individual
+  performance surveillance
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Implementation Memory!row196
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

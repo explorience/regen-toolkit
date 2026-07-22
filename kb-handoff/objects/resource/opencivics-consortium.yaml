@@ -1,0 +1,18 @@
+title: OpenCivics Consortium
+type: resource
+resource_type: Governance / coordination body
+url: https://www.opencivics.co/network
+original_source: OpenCivics
+notes: >-
+  Why add: Adds the practice and co-governance layer missing from the original
+  high-level card. · Status/Caution: Public description is stronger than
+  available operational documentation; decision rights, membership, and
+  accountability need direct records. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row143
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

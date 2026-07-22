@@ -1,0 +1,25 @@
+title: Participatory Budgeting in Paris Cross-System Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace the Paris case across Participedia, municipal primary sources, platform
+  infrastructure, participation design, allocation, implementation, evaluation,
+  and later changes.
+what_returns_to_commons: >-
+  High-value bridge among case database, participation platform, practitioner
+  guidance, and public-goods allocation.
+notes: >-
+  What to capture: Budget scale, recruitment, inclusion, digital/offline
+  workflow, proposals, voting, institutional authority, implementation rate,
+  disputes, outcomes, and platform role. · Status/Caution: Requires current city
+  records and independent evaluation; avoid relying on one case synthesis.
+related_source_system: Participedia / Decidim / People Powered
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row73
+  source_lineage: https://participedia.net/case/5008
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,24 @@
+title: Polycentric Project Commons
+type: option-entry
+category: governance
+what_it_is: >-
+  Allow autonomous projects to self-govern while sharing a manifesto, events,
+  open infrastructure, communication spaces and licensing norms.
+potential_uses: >-
+  Networks of local nodes, civic-tech communities, research commons,
+  source-system federations.
+dependencies: >-
+  Shared minimum principles, discoverability, contributor onboarding, conflict
+  pathways, maintenance and accountability.
+tradeoffs: >-
+  Fragmentation, abandoned projects, inconsistent safeguards and ambiguity about
+  who speaks for the network.
+context: g0v
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row137
+  source_lineage: https://g0v.tw/intl/en/manifesto/en/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

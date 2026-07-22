@@ -1,0 +1,22 @@
+title: Tica Moreno
+type: person
+full_name: Tica Moreno
+affiliation: IARAA / World March of Women
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+notes: >-
+  Why add: Adds feminist technological-sovereignty and movement-governance lead.
+  · Status/Caution: Public participation does not establish full governance role
+  · Parent source system: IARAA / World March of Women
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row719
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+original_object_class: Person
+normalization_flag: DUP-NE-719
+review_needs: 'Matty dup-flag DUP-NE-719: Paula Veliz'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,16 @@
+subject: Mia Mingus, Alice Wong and Sandy Ho
+predicate: created_by
+object: Access Is Love
+type: relationship-record
+title: Mia Mingus, Alice Wong and Sandy Ho — created_by — Access Is Love
+original_relationship: co-created / promoted
+evidence: Campaign page identifies the three collaborators.
+scope: Collaborative campaign; avoid single-author attribution
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row254
+  source_lineage: https://disabilityvisibilityproject.com/2019/02/01/access-is-love/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

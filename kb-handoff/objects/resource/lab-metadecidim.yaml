@@ -1,0 +1,17 @@
+title: LAB Metadecidim
+type: resource
+resource_type: Research space
+url: https://meta.decidim.org/en/assemblies/eix-lab
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Connects platform development to reflective research. ·
+  Status/Caution: Review outputs project by project · Parent source system:
+  Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row306
+  source_lineage: https://meta.decidim.org/en/assemblies/eix-lab
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

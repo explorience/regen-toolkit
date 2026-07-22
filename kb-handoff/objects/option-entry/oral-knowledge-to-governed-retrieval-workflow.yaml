@@ -1,0 +1,24 @@
+title: Oral Knowledge to Governed Retrieval Workflow
+type: option-entry
+category: governance
+what_it_is: >-
+  Convert oral or practice knowledge into retrievable material only through
+  community-defined consent, attribution, context, access and withdrawal rules.
+potential_uses: >-
+  Agroecology memory, Indigenous/community knowledge, implementation memory and
+  education.
+dependencies: >-
+  Community authority, compensation, language stewards, contextual metadata and
+  controlled access.
+tradeoffs: >-
+  High extraction and decontextualization risk; written conversion can freeze
+  living knowledge.
+context: IARAA / Local Contexts / CARE
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row294
+  source_lineage: Internal IARAA audit synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

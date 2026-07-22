@@ -1,0 +1,17 @@
+title: Tor Project
+type: organization
+org_type: Organization / partner
+url: https://www.torproject.org/
+steward: Funding the Commons
+notes: >-
+  Why add: Concrete public-goods builder and maintenance case. · Status/Caution:
+  Speaker testimony is not a complete funding retrospective · Parent source
+  system: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row174
+  source_lineage: https://www.torproject.org/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

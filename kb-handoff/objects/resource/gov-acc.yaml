@@ -1,0 +1,18 @@
+title: gov/acc
+type: resource
+resource_type: Research program
+url: https://gov-acc.metagov.org/
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Current governance-problem mapping and research-roadmap source. ·
+  Status/Caution: Work in progress; interview-derived urgency and solution maps
+  are signals, not representative consensus. · Parent source system: Metagov /
+  Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row75
+  source_lineage: https://gov-acc.metagov.org/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: Local Contexts Projects
+type: resource
+resource_type: Workflow / data object
+url: https://localcontexts.org/project-sharing-and-new-notices/
+original_source: Local Contexts Hub
+notes: >-
+  Why add: Useful comparator for relational records linking resources,
+  communities, institutions and protocols. · Status/Caution: Project visibility
+  and sharing settings matter; private projects must remain private · Parent
+  source system: Local Contexts Hub
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row448
+  source_lineage: https://localcontexts.org/project-sharing-and-new-notices/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

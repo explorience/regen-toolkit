@@ -1,0 +1,19 @@
+title: The Regen Brand Commons represents the governance of the entire Regen movement
+type: claim-evidence
+claim: The Regen Brand Commons represents the governance of the entire Regen movement
+interpretation: >-
+  Describe the specific brand/mark governance scope and distinguish it from
+  Regen Commons, Regen Network governance, and independent regen communities.
+uncertainty: >-
+  The initiative concerns a name, mark, and identity context and should not be
+  conflated with every regenerative community or the broader knowledge commons.
+evidence_stance: neutral
+context: Regen Brand Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row64
+  source_lineage: >-
+    https://forum.regen.network/t/regen-brand-commons-and-the-regen-token-symbol/75
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

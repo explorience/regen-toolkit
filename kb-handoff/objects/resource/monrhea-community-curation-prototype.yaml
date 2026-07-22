@@ -1,0 +1,17 @@
+title: MONRHEA Community Curation Prototype
+type: resource
+resource_type: Community-situated civic-tech artifact
+url: https://metagov.org/projects/groundwork-fellowship/documentation
+original_source: Groundwork Fellowship
+notes: >-
+  Why add: Adds culture, local curation, and underrepresented-community
+  infrastructure. · Status/Caution: Prototype status and community
+  representation require care · Parent source system: Groundwork Fellowship
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row107
+  source_lineage: https://metagov.org/projects/groundwork-fellowship/documentation
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

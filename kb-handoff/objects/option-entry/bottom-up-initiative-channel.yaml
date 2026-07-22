@@ -1,0 +1,16 @@
+title: Bottom-Up Initiative Channel
+type: option-entry
+category: governance
+what_it_is: Allow participants to initiate formal requests and gather signatures.
+potential_uses: Agenda setting, petitions, member proposals and civic governance.
+dependencies: Eligibility, verification, thresholds, response obligations and privacy.
+tradeoffs: Weak response or high thresholds can make participation symbolic.
+context: Decidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row96
+  source_lineage: https://docs.decidim.org/en/develop/admin/spaces/initiatives.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

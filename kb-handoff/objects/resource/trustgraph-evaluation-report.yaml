@@ -1,0 +1,18 @@
+title: TrustGraph Evaluation Report
+type: resource
+resource_type: Evaluation / research artifact
+url: https://www.opencivics.co/network
+original_source: OpenCivics / TrustGraph
+notes: >-
+  Why add: Turns an existing raw tool lead into an evaluation and
+  implementation-memory source. · Status/Caution: The public index alone does
+  not establish methodology, independence, or findings; review the full report
+  before drawing conclusions. · Parent source system: OpenCivics / TrustGraph
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row151
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

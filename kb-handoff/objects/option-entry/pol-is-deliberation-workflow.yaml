@@ -1,0 +1,16 @@
+title: Pol.is / deliberation workflow
+type: option-entry
+category: coordination
+what_it_is: Collective intelligence/deliberation workflow for civic feedback.
+notes: >-
+  Priority: Collective intelligence/deliberation workflow for civic feedback. ·
+  Next: Develop as option card when source lineage is sufficient. · Notes:
+  Prioritize practical options created by source-system work.
+review_needs: Discovery_Pool promotion — confirm category + source
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04866
+  source_lineage: https://pol.is/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

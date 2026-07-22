@@ -1,0 +1,18 @@
+title: Mutual aid is costless or infinitely scalable
+type: claim-evidence
+claim: Mutual aid is costless or infinitely scalable
+interpretation: >-
+  Track care labor, compensation, safety, capacity, accountability and
+  relationships with public systems.
+uncertainty: >-
+  Informal response can depend on unpaid labor, burnout, risk exposure and
+  uneven access to resources.
+evidence_stance: qualifying
+context: Mutual aid networks
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row493
+  source_lineage: https://mutualaiddisasterrelief.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

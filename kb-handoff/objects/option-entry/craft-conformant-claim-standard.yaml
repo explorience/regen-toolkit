@@ -1,0 +1,24 @@
+title: CRAFT-Conformant Claim Standard
+type: option-entry
+category: governance
+what_it_is: >-
+  Define domain-specific conditions under which consequential claims can be
+  independently checked and falsified.
+potential_uses: >-
+  Impact claims, evidence pipelines, AI classifications, registry outputs and
+  funding decisions.
+dependencies: >-
+  Domain experts, failure-mode analysis, explicit conditions, inheritance rules
+  and independent testing.
+tradeoffs: >-
+  Overformalization may exclude tacit or community knowledge and create the
+  appearance of certainty.
+context: CRAFT
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row144
+  source_lineage: https://github.com/CrossWalkri/craft-meta-standard
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

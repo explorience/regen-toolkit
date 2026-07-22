@@ -1,0 +1,17 @@
+title: Zenzeleni Community Hotspots
+type: resource
+resource_type: Service model
+url: https://zenzeleni.net/our-services/connectivity/
+original_source: Zenzeleni
+notes: >-
+  Why add: Useful implementation detail on service, operations and local
+  maintenance. · Status/Caution: Affordability, access quality and labor should
+  be assessed empirically · Parent source system: Zenzeleni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row571
+  source_lineage: https://zenzeleni.net/our-services/connectivity/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

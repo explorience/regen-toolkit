@@ -1,0 +1,17 @@
+title: ERA Biodiversity Crediting Protocol for Umbrella Species Stewardship
+type: resource
+resource_type: Credit protocol
+url: https://www.registry.regen.network/crediting-protocols/era-brazil
+original_source: Regen Registry
+notes: >-
+  Why add: Biodiversity-credit and place-based evidence example. ·
+  Status/Caution: Protocol claims and project outcomes require project-specific
+  evidence and community-context review · Parent source system: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row26
+  source_lineage: https://www.registry.regen.network/crediting-protocols/era-brazil
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

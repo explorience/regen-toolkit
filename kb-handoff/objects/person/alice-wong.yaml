@@ -1,0 +1,20 @@
+title: Alice Wong
+type: person
+full_name: Alice Wong
+affiliation: Disability Visibility Project
+consent_status: unverified — default non-public (Principle 8)
+url: https://disabilityvisibilityproject.com/about/
+notes: >-
+  Why add: Key source-system steward for disability media, narrative, publishing
+  and movement memory. · Status/Caution: Public professional role; inclusion is
+  not ranking or representation of all disabled communities · Parent source
+  system: Disability Visibility Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row515
+  source_lineage: https://disabilityvisibilityproject.com/about/
+original_object_class: Person
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: Public Digital Innovation Space (PDIS)
+type: resource
+resource_type: Public-sector innovation unit
+url: https://pdis.nat.gov.tw/en/
+original_source: Taiwan public-sector digital innovation lineage
+notes: >-
+  Why add: Institutional bridge between civic-technology communities and public
+  administration. · Status/Caution: Government unit and g0v community are
+  related but institutionally distinct · Parent source system: Taiwan
+  public-sector digital innovation lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row357
+  source_lineage: https://pdis.nat.gov.tw/en/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

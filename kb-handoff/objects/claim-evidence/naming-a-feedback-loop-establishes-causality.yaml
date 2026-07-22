@@ -1,0 +1,18 @@
+title: Naming a feedback loop establishes causality
+type: claim-evidence
+claim: Naming a feedback loop establishes causality
+interpretation: >-
+  Treat feedback diagrams as testable causal propositions and seek disconfirming
+  evidence.
+uncertainty: >-
+  A plausible loop may omit confounders, contested mechanisms, nonlinearities or
+  actor strategy.
+evidence_stance: qualifying
+context: Systems thinking
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row234
+  source_lineage: https://donellameadows.org/systems-thinking-resources/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

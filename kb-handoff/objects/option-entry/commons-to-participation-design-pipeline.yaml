@@ -1,0 +1,24 @@
+title: Commons-to-Participation Design Pipeline
+type: option-entry
+category: governance
+what_it_is: >-
+  Move from institutional framing and precedent discovery into practitioner
+  preparation, participatory-process configuration and implementation memory.
+potential_uses: >-
+  Knowledge-commons governance, civic processes, local initiatives,
+  collaborative resource stewardship.
+dependencies: >-
+  Context review, comparable cases, local partners, facilitator capacity,
+  configured tools, evidence and correction paths.
+tradeoffs: >-
+  Can imply a linear universal method, privilege documented cases and platforms,
+  and obscure informal or non-digital governance.
+context: GKC + Participedia + People Powered + Decidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row101
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

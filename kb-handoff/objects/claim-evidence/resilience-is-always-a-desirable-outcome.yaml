@@ -1,0 +1,18 @@
+title: Resilience is always a desirable outcome
+type: claim-evidence
+claim: Resilience is always a desirable outcome
+interpretation: >-
+  Specify resilience of which system functions, for whom, over what period and
+  with what distributional effects.
+uncertainty: >-
+  Resilience can sustain harmful institutions, exclusion or extractive
+  arrangements.
+evidence_stance: qualifying
+context: Systems thinking
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row233
+  source_lineage: https://donellameadows.org/dancing-with-systems/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

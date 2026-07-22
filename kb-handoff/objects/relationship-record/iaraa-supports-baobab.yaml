@@ -1,0 +1,17 @@
+subject: IARAA
+predicate: supports
+object: Baobab
+type: relationship-record
+title: IARAA — supports — Baobab
+original_relationship: enabled / supported by
+evidence: Official reporting identifies Baobab as an enabling cooperation organization.
+scope: Technical and financial roles need documentation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row411
+  source_lineage: >-
+    https://mst.org.br/2026/01/21/iaraa-mst-lanca-inteligencia-artificial-a-servico-da-agroecologia-e-da-reforma-agraria-popular/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

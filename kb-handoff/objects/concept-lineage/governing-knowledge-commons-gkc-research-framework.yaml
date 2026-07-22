@@ -1,0 +1,23 @@
+title: Governing Knowledge Commons (GKC) Research Framework
+type: concept-lineage
+short_description: >-
+  Multidisciplinary empirical framework for studying institutions that create,
+  share, curate, preserve, govern, and use knowledge, information, data,
+  science, and cultural resources.
+toolkit_usage: >-
+  Foundational review lens for the Toolkit’s own knowledge-commons architecture
+  and implementation memory.
+original_object_type: Research framework
+notes: >-
+  Why add: Foundational review lens for the Toolkit’s own knowledge-commons
+  architecture and implementation memory. · Status/Caution: Framework guides
+  inquiry; it is not a universal design recipe or certification. · Parent source
+  system: Workshop on Governing Knowledge Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row194
+  source_lineage: https://knowledge-commons.net/research-framework/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

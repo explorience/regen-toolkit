@@ -1,0 +1,17 @@
+title: DAWI / USFWC Resource Guide
+type: resource
+resource_type: Resource system
+url: https://institute.coop/resource-guide
+original_source: Democracy at Work Institute
+notes: >-
+  Why add: Direct comparator for a practitioner-facing Toolkit resource library.
+  · Status/Caution: Resources vary by jurisdiction, date, and author · Parent
+  source system: Democracy at Work Institute
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row498
+  source_lineage: https://institute.coop/resource-guide
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

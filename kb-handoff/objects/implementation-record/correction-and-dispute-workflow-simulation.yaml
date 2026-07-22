@@ -1,0 +1,24 @@
+title: Correction and Dispute Workflow Simulation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Run a mock correction from intake through evidence review, status change,
+  public wording, appeal and change history.
+what_returns_to_commons: >-
+  Makes governance rights and correction promises operational before public
+  release.
+notes: >-
+  What to capture: Requester, affected record, evidence, reviewer roles,
+  conflicts of interest, decision, notification, appeal and final state. ·
+  Status/Caution: Candidate; involve a source-system steward or affected
+  contributor
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row116
+  source_lineage: Internal merge-readiness design
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

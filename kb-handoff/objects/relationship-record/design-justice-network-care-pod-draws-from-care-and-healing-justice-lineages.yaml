@@ -1,0 +1,21 @@
+subject: Design Justice Network Care Pod
+predicate: draws_from
+object: Care and healing justice lineages
+type: relationship-record
+title: >-
+  Design Justice Network Care Pod — draws_from — Care and healing justice
+  lineages
+original_relationship: draws from
+evidence: >-
+  Program describes care and healing justice as shaping just, community-led
+  design.
+scope: Do not collapse distinct movement lineages
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row187
+  source_lineage: https://designjustice.org/djn-care-pod
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

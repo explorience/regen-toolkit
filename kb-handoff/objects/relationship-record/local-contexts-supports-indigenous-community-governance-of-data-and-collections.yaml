@@ -1,0 +1,19 @@
+subject: Local Contexts
+predicate: supports
+object: Indigenous community governance of data and collections
+type: relationship-record
+title: >-
+  Local Contexts — supports — Indigenous community governance of data and
+  collections
+original_relationship: supports
+evidence: Mission and infrastructure relationship.
+scope: Support does not transfer community authority to Local Contexts
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row196
+  source_lineage: https://localcontexts.org/governance/
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

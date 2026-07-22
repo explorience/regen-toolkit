@@ -1,0 +1,24 @@
+title: Seed Sovereignty Knowledge Protocol
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Document seed knowledge, exchange and stewardship with community authority,
+  provenance, permissions and non-extractive public-use rules.
+potential_uses: >-
+  Seed libraries, ecological knowledge commons, AI/data safeguards, community
+  archives.
+dependencies: >-
+  Farmer governance, Indigenous/community protocols, benefit sharing, consent,
+  Local Contexts-compatible metadata.
+tradeoffs: >-
+  Can turn living seed systems into extractable data or undermine collective
+  control.
+context: Amrita Bhoomi / KRRS
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row275
+  source_lineage: https://amritabhoomi.org/rural-enterprises-and-collectives/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

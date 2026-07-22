@@ -1,0 +1,19 @@
+title: Regen AI
+type: resource
+resource_type: Collaboration / source system
+url: https://forum.regen.network/t/announcing-regen-ai/553
+original_source: GAIAI / Gaia AI + Regen Network
+notes: >-
+  Why add: Adds the clearest current implementation branch connecting GAIAI
+  concepts to Regen Network infrastructure. · Status/Caution: Current
+  collaboration; public claims about planetary intelligence and verification
+  require implementation evidence · Parent source system: GAIAI / Gaia AI +
+  Regen Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row114
+  source_lineage: https://forum.regen.network/t/announcing-regen-ai/553
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

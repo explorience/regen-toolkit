@@ -1,0 +1,19 @@
+title: Taiwan's digital-democracy practices are a portable technology stack
+type: claim-evidence
+claim: Taiwan's digital-democracy practices are a portable technology stack
+interpretation: >-
+  Treat Taiwan as a contextual implementation ecosystem and translate practices
+  cautiously.
+uncertainty: >-
+  The ecosystem depends on political institutions, civic culture, public
+  servants, communities, facilitation, law and long-term relationships—not only
+  software.
+evidence_stance: qualifying
+context: Taiwan digital-democracy ecosystem
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row205
+  source_lineage: https://plurality.net/read/2-2/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

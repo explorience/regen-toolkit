@@ -1,0 +1,18 @@
+title: Fairness means equal classification accuracy across groups
+type: claim-evidence
+claim: Fairness means equal classification accuracy across groups
+interpretation: >-
+  Evaluate whether the system should be used, who bears risk, who can refuse,
+  and what remedies exist.
+uncertainty: >-
+  Technical parity can leave coercive, illegitimate or discriminatory systems
+  intact.
+evidence_stance: qualifying
+context: AJL / Ruha Benjamin
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row266
+  source_lineage: https://www.ruhabenjamin.com/race-after-technology
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

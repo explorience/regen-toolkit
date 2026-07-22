@@ -1,0 +1,22 @@
+title: Care Infrastructure Review
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Assess whether a project has funded roles, time, access support, conflict
+  capacity, continuity and material resources for care and maintenance.
+potential_uses: >-
+  Source-system stewardship, contributor programs, community grants,
+  public-interest technology.
+dependencies: >-
+  Budget transparency, workload data, role clarity, access protocols,
+  affected-party input.
+tradeoffs: Can bureaucratize care, invade privacy, or reduce relationships to metrics.
+context: Care and social reproduction cluster
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row210
+  source_lineage: Internal cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,17 @@
+title: Amasank Monitoring Team
+type: resource
+resource_type: Community monitoring team
+url: https://app.regen.network/project/sharamentsa-pilot
+original_source: Sharamentsa Community
+notes: >-
+  Why add: Shows community-led evidence generation rather than only external
+  MRV. · Status/Caution: Public summaries may not reflect community data
+  governance or full context · Parent source system: Sharamentsa Community
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row60
+  source_lineage: https://app.regen.network/project/sharamentsa-pilot
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,13 @@
+title: Boundary — Regen Network / Regen Registry
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Registry status, on-chain issuance, data anchoring, attestations,
+  verification, and credit retirement each mean different things. None alone
+  proves ecological outcomes, community legitimacy, additionality, permanence,
+  or equitable benefit sharing. Place-based and Indigenous knowledge requires
+  consent and context.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Source-System Cards!row4
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

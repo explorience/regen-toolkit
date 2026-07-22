@@ -1,0 +1,20 @@
+title: Cooperative and association counts prove democratic ownership or improved liv…
+type: claim-evidence
+claim: >-
+  Cooperative and association counts prove democratic ownership or improved
+  livelihoods
+interpretation: >-
+  Document each cooperative’s governance, membership, labor, finances and
+  outcomes separately.
+uncertainty: >-
+  Legal form and scale do not establish rules-in-use, worker power, income
+  distribution, gender equity or durability.
+evidence_stance: qualifying
+context: MST cooperative ecosystem
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row400
+  source_lineage: https://mst.org.br/2023/03/05/cooperativas-do-campo/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

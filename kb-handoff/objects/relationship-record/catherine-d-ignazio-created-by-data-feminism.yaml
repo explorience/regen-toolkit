@@ -1,0 +1,16 @@
+subject: Catherine D’Ignazio
+predicate: created_by
+object: Data Feminism
+type: relationship-record
+title: Catherine D’Ignazio — created_by — Data Feminism
+original_relationship: co-authored
+evidence: Named co-author with Lauren F. Klein.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row205
+  source_lineage: https://data-feminism.mitpress.mit.edu/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+title: A successful single pilot proves the workflow is inclusive
+type: claim-evidence
+claim: A successful single pilot proves the workflow is inclusive
+interpretation: >-
+  Treat one pilot as bounded implementation evidence and repeat with different
+  contributors and tasks before broader claims.
+uncertainty: >-
+  One participant and one task cannot represent varied disability, language,
+  class, cultural, caregiving or technological contexts.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row328
+  source_lineage: Internal cross-lens synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

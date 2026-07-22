@@ -1,0 +1,19 @@
+subject: Design Justice review lens
+predicate: should_review
+object: Regen Knowledge Commons ontology and governance
+type: relationship-record
+title: >-
+  Design Justice review lens — should_review — Regen Knowledge Commons ontology
+  and governance
+original_relationship: should review
+evidence: Internal Toolkit application derived from principles and book.
+scope: Proposal, not completed affected-party review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row190
+  source_lineage: Internal synthesis — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

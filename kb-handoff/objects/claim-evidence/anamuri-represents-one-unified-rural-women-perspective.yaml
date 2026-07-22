@@ -1,0 +1,20 @@
+title: ANAMURI represents one unified rural-women perspective
+type: claim-evidence
+claim: ANAMURI represents one unified rural-women perspective
+interpretation: >-
+  Describe the specific constituency, territory, process and date behind each
+  claim; do not treat umbrella statements as unanimous consent.
+uncertainty: >-
+  Its umbrella includes Indigenous women, wage workers, producers, fishers,
+  youth and geographically diverse organizations whose interests and authority
+  may differ.
+evidence_stance: qualifying
+context: ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row460
+  source_lineage: https://anamuri.cl/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

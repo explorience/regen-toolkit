@@ -1,0 +1,18 @@
+title: Knowledge pattern
+type: option-entry
+category: knowledge-documentation
+what_it_is: IALA network
+potential_uses: >-
+  Link autonomous schools through shared political-pedagogical principles,
+  exchanges and commissions while preserving contextual difference.
+dependencies: Useful model for interoperable but non-centralized learning infrastructure.
+tradeoffs: https://cloc-viacampesina.net/los-ialas-construyendo-soberania
+context: Federated Movement-School Network
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row307
+  source_lineage: Do not standardize away territorial pedagogies
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

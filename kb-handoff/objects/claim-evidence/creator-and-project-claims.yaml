@@ -1,0 +1,16 @@
+title: Creator and project claims
+type: claim-evidence
+claim: Creator and project claims
+interpretation: >-
+  Preserve attribution; separate project claims from independent evidence and
+  outcomes.
+uncertainty: Project pages are often self-descriptions and fundraising narratives.
+evidence_stance: qualifying
+context: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row8
+  source_lineage: https://artizen.fund/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,17 @@
+title: Aapti Institute
+type: organization
+org_type: Organization / related source system
+url: https://aapti.in/
+steward: Southern Digital Justice Research
+notes: >-
+  Why add: Adds practical governance models for collective data institutions. ·
+  Status/Caution: Strong research and pilot source; implementation durability
+  needs follow-up · Parent source system: Southern Digital Justice Research
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row593
+  source_lineage: https://aapti.in/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

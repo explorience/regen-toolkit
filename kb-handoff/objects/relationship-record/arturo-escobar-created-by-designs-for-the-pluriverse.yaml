@@ -1,0 +1,16 @@
+subject: Arturo Escobar
+predicate: created_by
+object: Designs for the Pluriverse
+type: relationship-record
+title: Arturo Escobar — created_by — Designs for the Pluriverse
+original_relationship: authored
+evidence: Duke University Press publication record.
+scope: Thinker-publication relationship only
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row347
+  source_lineage: https://www.dukeupress.edu/designs-for-the-pluriverse
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

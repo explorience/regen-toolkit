@@ -1,0 +1,20 @@
+title: Community-Owned Land Stewardship Pattern
+type: option-entry
+category: governance
+what_it_is: >-
+  Separate land ownership from use rights through durable community stewardship
+  and locally defined governance
+potential_uses: Options / Implementation
+dependencies: International Center for CLTs
+tradeoffs: >-
+  Useful for housing, agriculture and community infrastructure; resident power
+  and affordability rules must be explicit
+context: Governance / ownership option
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row337
+  source_lineage: https://www.cltweb.org/resources/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

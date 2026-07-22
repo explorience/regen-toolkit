@@ -1,0 +1,22 @@
+title: toolkit-framework / regen-toolkit-os repo
+type: directory
+steward: toolkit-framework / regen-toolkit-os repo
+return_path: unset — establish via register-source
+url: https://github.com/explorience/regen-toolkit/tree/regen-toolkit-os
+why_it_matters: Connects database to technical implementation and website substrate.
+toolkit_route: >-
+  Ontology & Semantic Kernel; Infrastructure & Substrate; Source-System Cards;
+  Option Library; Technical Implementation
+notes: >-
+  Priority: Connects database to technical implementation and website substrate.
+  · Next: Draft card; inspect repo structure and map data-layer needs. · Notes:
+  Internal source system for turning master doc/database into actual files,
+  schemas, and public website views.
+review_needs: Discovery_Pool promotion (Tier 1) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-03835
+  source_lineage: https://github.com/explorience/regen-toolkit/tree/regen-toolkit-os
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

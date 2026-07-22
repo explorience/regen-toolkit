@@ -1,0 +1,23 @@
+title: Himachal Pradesh Forest-Council Assembly Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Verify the reported citizens’ assembly and adoption of forest-management plans
+  by five local councils.
+what_returns_to_commons: Potentially strong place-based democratic and ecological governance record.
+notes: >-
+  What to capture: Assembly recruitment, authority, Indigenous/local governance,
+  council decisions, plans, implementation, ecological indicators, conflicts,
+  and follow-up. · Status/Caution: Organizer summary only; local and council
+  sources are essential.
+related_source_system: People Powered / Himad Samiti
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row80
+  source_lineage: >-
+    https://www.peoplepowered.org/news-content/apply-now-funding-mentorship-for-democracy-changemakers-PqgTm
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

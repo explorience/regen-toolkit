@@ -1,0 +1,25 @@
+title: GKC Generative AI Workshop Follow-Up
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track outputs from the June 2026 generative-AI workshop and identify cases,
+  papers, governance dilemmas and institutional patterns relevant to AI-assisted
+  knowledge commons.
+what_returns_to_commons: >-
+  Potentially important current bridge between knowledge-commons scholarship and
+  the Toolkit’s AI architecture.
+notes: >-
+  What to capture: Participants, papers, case studies, resources, AI/data roles,
+  governance, access, privacy, labor, attribution, infrastructure, risks and
+  follow-up work. · Status/Caution: Queued; event listing alone is
+  insufficient—wait for proceedings or primary outputs
+related_source_system: Workshop on Governing Knowledge Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row70
+  source_lineage: https://knowledge-commons.net/projects/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

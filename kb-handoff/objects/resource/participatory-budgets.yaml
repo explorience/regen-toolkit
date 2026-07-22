@@ -1,0 +1,17 @@
+title: Participatory Budgets
+type: resource
+resource_type: Component
+url: https://decidim.org/features/
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Bridge to public-goods funding and allocation-mechanism comparison. ·
+  Status/Caution: Bounded by eligibility, funds and implementation · Parent
+  source system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row296
+  source_lineage: https://decidim.org/features/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

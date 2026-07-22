@@ -1,0 +1,25 @@
+title: Agroecological Rice Chain Comparative Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop a later comparison with a mature multi-cooperative chain and
+  long-running ecological-production narrative.
+what_returns_to_commons: >-
+  Tests what differs between a bounded dairy cooperative and a mature federated
+  crop chain.
+notes: >-
+  What to capture: Current governance, families/cooperatives, land and water,
+  production, processing, markets, labor, prices, ecology, public procurement
+  and maintenance. · Status/Caution: Queued after people/constituency branching
+  or CLOC expansion
+related_source_system: MST / Cootap / Coopan / rice cooperative network
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row298
+  source_lineage: >-
+    https://mst.org.br/2026/03/19/agroecologia-e-o-caminho-mst-celebra-23a-festa-da-colheita-do-arroz-agroecologico/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

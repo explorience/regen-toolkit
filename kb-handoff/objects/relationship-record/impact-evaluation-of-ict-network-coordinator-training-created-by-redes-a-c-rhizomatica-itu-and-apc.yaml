@@ -1,0 +1,18 @@
+subject: Impact Evaluation of ICT Network Coordinator Training
+predicate: created_by
+object: REDES A.C., Rhizomatica, ITU and APC
+type: relationship-record
+title: >-
+  Impact Evaluation of ICT Network Coordinator Training — created_by — REDES
+  A.C., Rhizomatica, ITU and APC
+original_relationship: authored by
+evidence: 2025 publication listing
+scope: Review full authorship metadata
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row305
+  source_lineage: https://redesac.org.mx/en/publicaciones/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

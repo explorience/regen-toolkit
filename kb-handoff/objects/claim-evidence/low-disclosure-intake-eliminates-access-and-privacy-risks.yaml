@@ -1,0 +1,18 @@
+title: Low-disclosure intake eliminates access and privacy risks
+type: claim-evidence
+claim: Low-disclosure intake eliminates access and privacy risks
+interpretation: >-
+  Collect the minimum needed, restrict access, allow changes and deletion, and
+  evaluate the lived process.
+uncertainty: >-
+  Participants may still face pressure to explain needs, and operational
+  preferences can reveal sensitive information.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row326
+  source_lineage: Internal disability/care synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

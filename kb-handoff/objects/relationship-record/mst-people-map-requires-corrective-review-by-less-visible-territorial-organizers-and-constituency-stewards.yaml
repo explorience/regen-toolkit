@@ -1,0 +1,21 @@
+subject: MST people map
+predicate: requires_corrective_review_by
+object: Less-visible territorial organizers and constituency stewards
+type: relationship-record
+title: >-
+  MST people map — requires_corrective_review_by — Less-visible territorial
+  organizers and constituency stewards
+original_relationship: requires corrective review by
+evidence: >-
+  Public-source visibility favors named national spokespeople and site
+  contributors.
+scope: Review requirement, not an existing relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row461
+  source_lineage: Internal synthesis from people branching
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

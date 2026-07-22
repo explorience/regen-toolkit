@@ -1,0 +1,19 @@
+subject: Taiwan digital-democracy ecosystem
+predicate: includes_distinct_interfaces
+object: g0v, PDIS, JOIN, vTaiwan and public institutions
+type: relationship-record
+title: >-
+  Taiwan digital-democracy ecosystem — includes_distinct_interfaces — g0v, PDIS,
+  JOIN, vTaiwan and public institutions
+original_relationship: includes distinct interfaces
+evidence: Synthesized relationship across official sources
+scope: Do not imply unified ownership or governance
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row132
+  source_lineage: https://plurality.net/read/2-2/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,23 @@
+title: Leverage-Point Intervention Review
+type: option-entry
+category: coordination
+what_it_is: >-
+  Classify proposed changes by whether they alter parameters, buffers, flows,
+  information, rules, goals, paradigms or adaptive capacity.
+potential_uses: >-
+  Option comparison and prioritization without assuming that the most visible
+  intervention is the most consequential.
+dependencies: System map, actor analysis, feasibility, ethics, evidence and monitoring.
+tradeoffs: >-
+  The ranking is heuristic; deeper leverage can be slower, riskier or
+  politically coercive.
+context: Donella Meadows
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row154
+  source_lineage: >-
+    https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

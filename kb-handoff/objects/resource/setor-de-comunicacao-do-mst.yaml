@@ -1,0 +1,17 @@
+title: Setor de Comunicação do MST
+type: resource
+resource_type: Movement sector
+url: https://mst.org.br/temas/comunicacao/
+original_source: MST
+notes: >-
+  Why add: Connects media production, narrative power, archives and movement
+  knowledge maintenance. · Status/Caution: Sector is distributed; do not infer
+  one centralized newsroom or fixed leadership list · Parent source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row733
+  source_lineage: https://mst.org.br/temas/comunicacao/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

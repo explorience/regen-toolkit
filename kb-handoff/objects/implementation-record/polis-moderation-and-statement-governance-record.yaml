@@ -1,23 +1,24 @@
 title: Polis Moderation and Statement-Governance Record
 type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
 context: >-
   Document one live conversation's moderation policy, rejected statements,
   labor, appeals, participant feedback, and effect on consensus outputs.
-source_position: third-party-observer
-record_type: governance
-high_risk: true
 what_returns_to_commons: >-
   Makes hidden governance visible and tests structural-integrity claims around
   automated deliberation.
 notes: >-
-  What to capture: moderators, criteria, statement queue, rejection reasons,
-  timing, abuse handling, transparency, appeals, model effects, and lessons.
-review_needs: Potentially sensitive; protect participant privacy and moderator safety.
+  What to capture: Moderators, criteria, statement queue, rejection reasons,
+  timing, abuse handling, transparency, appeals, model effects, and lessons. ·
+  Status/Caution: Potentially sensitive; protect participant privacy and
+  moderator safety
+related_source_system: Computational Democracy Project
+review_needs: prospective candidate — implementation evidence may be incomplete
 maturity: raw
 ai_assisted: true
-source_lineage: https://compdemocracy.org/quickstart/
 provenance:
-  origin: Canonical_DB.xlsx#Implementation Memory!row6
-  transformation: synthesized
-  authorship: ai-assisted
-work_order: wo-341bea389d2b
+  origin: Canonical_DB.xlsx#Implementation Memory!row89
+  source_lineage: https://compdemocracy.org/quickstart/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,21 @@
+subject: Research ICT Africa
+predicate: produces
+object: African digital-governance evidence infrastructure
+type: relationship-record
+title: >-
+  Research ICT Africa — produces — African digital-governance evidence
+  infrastructure
+original_relationship: produces
+evidence: >-
+  RIA maintains research, datasets and policy resources on access, data, AI, DPI
+  and regulation.
+scope: Research evidence should not replace community authority
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row298
+  source_lineage: https://researchictafrica.net/our-work/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

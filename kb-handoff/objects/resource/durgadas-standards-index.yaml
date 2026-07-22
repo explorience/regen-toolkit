@@ -1,0 +1,17 @@
+title: Durgadas Standards Index
+type: resource
+resource_type: Repository / index
+url: https://github.com/durgadasji/standards-index
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: Primary navigation source for the standards family. · Status/Caution:
+  Maintainer-controlled index; not independent evaluation · Parent source
+  system: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row391
+  source_lineage: https://github.com/durgadasji/standards-index
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

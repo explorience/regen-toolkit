@@ -1,0 +1,16 @@
+subject: IALA-PR
+predicate: maintained_by
+object: CARACOLES accompaniment program
+type: relationship-record
+title: IALA-PR — maintained_by — CARACOLES accompaniment program
+original_relationship: operates
+evidence: Current program page describes participatory action accompaniment.
+scope: Program status as stated
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row527
+  source_lineage: https://www.iala-pr.org/accion
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

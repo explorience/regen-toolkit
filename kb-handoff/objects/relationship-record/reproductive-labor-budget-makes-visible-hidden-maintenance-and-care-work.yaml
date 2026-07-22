@@ -1,0 +1,19 @@
+subject: Reproductive-labor budget
+predicate: makes_visible
+object: Hidden maintenance and care work
+type: relationship-record
+title: Reproductive-labor budget — makes_visible — Hidden maintenance and care work
+original_relationship: makes visible
+evidence: >-
+  Adds planning and funding recognition for work often omitted from
+  deliverables.
+scope: Do not require invasive personal accounting
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row278
+  source_lineage: Internal applied review
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

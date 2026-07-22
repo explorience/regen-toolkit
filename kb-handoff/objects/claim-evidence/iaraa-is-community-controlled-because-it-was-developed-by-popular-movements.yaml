@@ -1,0 +1,19 @@
+title: IARAA is community-controlled because it was developed by popular movements
+type: claim-evidence
+claim: IARAA is community-controlled because it was developed by popular movements
+interpretation: >-
+  Describe the named developing organizations and beta status; state decision
+  rights only when directly documented.
+uncertainty: >-
+  Movement participation and branding do not by themselves establish who
+  controls corpus, infrastructure, budgets, releases or dispute resolution.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row413
+  source_lineage: >-
+    https://mst.org.br/2026/05/21/iaraa-uma-ia-para-socializar-os-saberes-do-campo/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

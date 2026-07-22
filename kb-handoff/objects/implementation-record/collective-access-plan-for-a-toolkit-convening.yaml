@@ -1,0 +1,24 @@
+title: Collective Access Plan for a Toolkit Convening
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Design and document one meeting, workshop or public event with funded
+  multi-format access and post-event learning.
+what_returns_to_commons: >-
+  Provides a practical access and maintenance record rather than only an event
+  checklist.
+notes: >-
+  What to capture: Captions, interpretation, plain language, pacing, breaks,
+  remote access, sensory information, recording, care, confidentiality, feedback
+  and cost. · Status/Caution: Candidate; evaluate participant experience and
+  unresolved barriers
+related_source_system: Sins Invalid
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row204
+  source_lineage: https://sinsinvalid.org/resources/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

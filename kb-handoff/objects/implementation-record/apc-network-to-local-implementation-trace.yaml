@@ -1,0 +1,25 @@
+title: APC Network-to-Local-Implementation Trace
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one issue from APC programme framing through a member organization and
+  into a community-led implementation, then document what knowledge and
+  influence travels in each direction.
+what_returns_to_commons: >-
+  Tests whether a global network functions as reciprocal infrastructure rather
+  than a one-way knowledge extractor.
+notes: >-
+  What to capture: APC role; member role; community authority; funding; methods;
+  policy influence; implementation; outcomes; feedback; authorship; public
+  claims. · Status/Caution: Priority candidate after source-system deepening;
+  community review required
+related_source_system: APC / selected member organization
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row228
+  source_lineage: https://www.apc.org/en/network
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

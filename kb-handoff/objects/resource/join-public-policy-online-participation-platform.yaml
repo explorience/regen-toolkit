@@ -1,0 +1,18 @@
+title: JOIN Public Policy Online Participation Platform
+type: resource
+resource_type: Government participation platform
+url: https://join.gov.tw/aboutus/index/en_US
+original_source: Taiwan National Development Council
+notes: >-
+  Why add: Mature public-sector participation infrastructure adjacent to but
+  distinct from vTaiwan and g0v. · Status/Caution: Platform availability and
+  participation counts do not prove influence or inclusion · Parent source
+  system: Taiwan National Development Council
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row358
+  source_lineage: https://join.gov.tw/aboutus/index/en_US
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

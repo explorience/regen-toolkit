@@ -1,0 +1,17 @@
+subject: Michel Bauwens
+predicate: founded_co_founded
+object: P2P Foundation
+type: relationship-record
+title: Michel Bauwens — founded_co_founded — P2P Foundation
+original_relationship: founded / co-founded
+evidence: Founder and current president profile; foundation co-founded in 2005
+scope: Current role should be periodically checked
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row106
+  source_lineage: https://p2pfoundation.net/the-p2p-foundation/who-we-are
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

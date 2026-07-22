@@ -1,0 +1,18 @@
+subject: Polis Knowledge Base
+predicate: documents
+object: Polis methods and implementations
+type: relationship-record
+title: Polis Knowledge Base — documents — Polis methods and implementations
+original_relationship: documents
+evidence: >-
+  Maintained documentation covers technical use, algorithms, moderation, cases,
+  and methods.
+scope: Maintainer-authored source
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row47
+  source_lineage: https://compdemocracy.org/knowledge-base/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

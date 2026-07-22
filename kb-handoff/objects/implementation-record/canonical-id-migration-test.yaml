@@ -1,0 +1,21 @@
+title: Canonical ID Migration Test
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Re-key the GAIAI pilot from type-encoded IDs to stable type-neutral
+  identifiers while preserving all ledger, relationship, and conflict links.
+what_returns_to_commons: Tests whether identity remains stable as classification evolves.
+notes: >-
+  What to capture: Old/new IDs, redirects, broken references, validation checks,
+  human-readable slugs, rollback. · Status/Caution: Candidate before technical
+  handoff
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row121
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

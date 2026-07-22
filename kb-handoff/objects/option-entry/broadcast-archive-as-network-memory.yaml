@@ -1,0 +1,24 @@
+title: Broadcast Archive as Network Memory
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Maintain dated reports, field notes, retrospectives, and updates as a distinct
+  source system linked to people, projects, claims, and implementation records.
+potential_uses: >-
+  Networks that need continuity without forcing all knowledge into a static
+  wiki.
+dependencies: >-
+  Editorial stewardship, dates, status labels, corrections, durable links, and
+  routing into structured records.
+tradeoffs: >-
+  Self-reporting bias, chronology without synthesis, stale claims, and confusing
+  announcements with outcomes.
+context: OpenCivics
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row51
+  source_lineage: https://broadcast.opencivics.co/archive
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

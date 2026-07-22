@@ -1,0 +1,25 @@
+title: COOPAC Powder-Facility Follow-Up
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Revisit the 2026 expansion after commissioning to determine whether the
+  facility became operational and how value, risk and maintenance are
+  distributed.
+what_returns_to_commons: >-
+  Separates announced infrastructure from sustained operation and livelihood
+  outcomes.
+notes: >-
+  What to capture: Construction, licensing, financing, commissioning,
+  production, markets, worker/member roles, debt, downtime and maintenance. ·
+  Status/Caution: Future follow-up; current project stage only
+related_source_system: COOPAC / Nutrilê
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row297
+  source_lineage: >-
+    https://mst.org.br/2026/06/02/cooperativa-da-reforma-agraria-amplia-agroindustria-e-fortalece-cadeia-do-leite-caprino-no-semiarido-paraibano/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

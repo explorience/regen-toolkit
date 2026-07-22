@@ -1,0 +1,24 @@
+title: Governing Privacy Crosswalk for the Social-Signal Layer
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply GKC and Contextual Integrity questions to the original workbook’s social
+  archives and derived people/relationship records.
+what_returns_to_commons: >-
+  Addresses one of the highest-risk parts of the database before public-facing
+  or agent use.
+notes: >-
+  What to capture: Information actors, attributes, contexts, transmission
+  principles, consent expectations, public/private boundaries, retention,
+  corrections, deletion, affected outsiders and downstream use. ·
+  Status/Caution: High priority; requires privacy and affected-party review
+related_source_system: GKC Privacy + Toolkit social signals
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row66
+  source_lineage: https://knowledge-commons.net/publications/privacy-book/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

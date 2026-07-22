@@ -1,0 +1,20 @@
+title: Joy Buolamwini
+type: person
+full_name: Joy Buolamwini
+affiliation: Algorithmic Justice League
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.ajl.org/about
+notes: >-
+  Why add: Important thinker-practitioner connecting facial-analysis research to
+  public accountability and movement building. · Status/Caution:
+  Founder-centered narratives should also preserve collaborators, impacted
+  people and movement contributions · Parent source system: Algorithmic Justice
+  League
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row475
+  source_lineage: https://www.ajl.org/about
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

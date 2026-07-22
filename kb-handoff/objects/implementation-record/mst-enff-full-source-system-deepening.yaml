@@ -1,0 +1,23 @@
+title: MST / ENFF Full Source-System Deepening
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Expanded the selected movement and school across structure, sectors,
+  constituencies, education, media, cooperatives, people and IARAA.
+what_returns_to_commons: >-
+  Creates a high-resolution movement-generated knowledge ecosystem without
+  flattening it into one organization.
+notes: >-
+  What to capture: Entity boundaries, primary sources, current programs,
+  relationship leads, claims, options and unresolved review needs. ·
+  Status/Caution: Completed — current public-source synthesis
+related_source_system: MST / ENFF
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row279
+  source_lineage: https://mst.org.br/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

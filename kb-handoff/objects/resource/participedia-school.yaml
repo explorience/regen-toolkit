@@ -1,0 +1,18 @@
+title: Participedia School
+type: resource
+resource_type: Education program
+url: https://participedia.net/participediaschool
+original_source: Participedia
+notes: >-
+  Why add: Adds a pedagogy and community-learning branch beyond the database
+  itself. · Status/Caution: School reports and participant experiences should be
+  reviewed separately from program descriptions. · Parent source system:
+  Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row229
+  source_lineage: https://participedia.net/participediaschool
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

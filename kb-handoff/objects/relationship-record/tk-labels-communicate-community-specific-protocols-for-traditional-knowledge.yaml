@@ -1,0 +1,19 @@
+subject: TK Labels
+predicate: communicate
+object: community-specific protocols for traditional knowledge
+type: relationship-record
+title: >-
+  TK Labels — communicate — community-specific protocols for traditional
+  knowledge
+original_relationship: communicate
+evidence: Official Labels description.
+scope: Protocols vary by community and record
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row199
+  source_lineage: https://localcontexts.org/labels/traditional-knowledge-labels/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

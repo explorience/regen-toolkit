@@ -1,0 +1,18 @@
+title: OpenCivics Labs
+type: resource
+resource_type: Practice guild / R&D body
+url: https://www.opencivics.co/network
+original_source: OpenCivics
+notes: >-
+  Why add: Adds a concrete experimentation and implementation-support structure.
+  · Status/Caution: Some linked detail pages are still marked coming soon; treat
+  as an announced organizational structure, not a proven delivery program. ·
+  Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row144
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

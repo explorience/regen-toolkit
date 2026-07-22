@@ -1,0 +1,21 @@
+title: The database can answer what participatory processes work best, for what purp…
+type: claim-evidence
+claim: >-
+  The database can answer what participatory processes work best, for what
+  purposes, and under what conditions
+interpretation: >-
+  Use Participedia to generate hypotheses, identify cases, and support
+  mixed-method comparison; combine it with stronger evaluation designs and local
+  knowledge.
+uncertainty: >-
+  This is a valuable guiding question, but crowdsourced observational case data
+  alone cannot resolve causal effectiveness or universal best practice.
+evidence_stance: neutral
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row118
+  source_lineage: https://participedia.net/docs/Participedia_case_data_-_User_guide_002.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

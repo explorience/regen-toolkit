@@ -1,0 +1,25 @@
+title: Modular Ecosystem-Specific Crediting Protocol
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use a shared protocol spine with ecosystem-specific modules for different
+  restoration contexts.
+potential_uses: >-
+  Marine restoration, landscape restoration, multi-biome programs, local
+  adaptations of shared standards.
+dependencies: >-
+  Common governance layer, domain experts, local monitoring, module-version
+  control, interoperability rules.
+tradeoffs: >-
+  Shared structure can flatten ecological differences; modules can drift; local
+  communities may have limited authority.
+context: SeaTrees / Regen Registry
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row11
+  source_lineage: >-
+    https://www.registry.regen.network/crediting-protocols/seatrees-crediting-protocol-for-marine-restoration
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

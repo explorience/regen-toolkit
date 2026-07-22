@@ -1,0 +1,18 @@
+title: Metadecidim represents the full Decidim ecosystem
+type: claim-evidence
+claim: Metadecidim represents the full Decidim ecosystem
+interpretation: >-
+  Treat Metadecidim as the open governance community and inspect power
+  distribution separately.
+uncertainty: >-
+  Open participation does not ensure equal presence or influence across users,
+  vendors, municipalities and maintainers.
+evidence_stance: qualifying
+context: Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row143
+  source_lineage: https://meta.decidim.org/en/pages/faq
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

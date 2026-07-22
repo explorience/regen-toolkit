@@ -1,0 +1,18 @@
+title: MST territorial, state, regional and national organization
+type: resource
+resource_type: Governance structure
+url: https://mst.org.br/quem-somos/
+original_source: MST
+notes: >-
+  Why add: Provides the institutional frame needed before interpreting programs,
+  people or public claims. · Status/Caution: Official movement description;
+  current decision rights and representation practices require deeper governance
+  review · Parent source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row682
+  source_lineage: https://mst.org.br/quem-somos/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

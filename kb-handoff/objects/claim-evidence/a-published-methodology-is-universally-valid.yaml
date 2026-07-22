@@ -1,0 +1,19 @@
+title: A published methodology is universally valid
+type: claim-evidence
+claim: A published methodology is universally valid
+interpretation: >-
+  A published Regen Registry protocol has completed a defined registry process;
+  applicability and integrity must still be assessed for each context and
+  project.
+uncertainty: >-
+  A published protocol is bounded to its scope, version, assumptions, review
+  process, data requirements, and eligible contexts.
+evidence_stance: neutral
+context: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row12
+  source_lineage: https://www.registry.regen.network/methodologies
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

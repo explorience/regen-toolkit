@@ -1,0 +1,18 @@
+title: A successful case provides a transferable best practice
+type: claim-evidence
+claim: A successful case provides a transferable best practice
+interpretation: >-
+  Use cases to generate questions, hypotheses and conditional patterns, not
+  universal prescriptions.
+uncertainty: >-
+  Case findings arise from specific resources, communities, histories,
+  institutions, technologies and social dilemmas.
+evidence_stance: qualifying
+context: GKC case-study program
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row102
+  source_lineage: https://knowledge-commons.net/publications/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

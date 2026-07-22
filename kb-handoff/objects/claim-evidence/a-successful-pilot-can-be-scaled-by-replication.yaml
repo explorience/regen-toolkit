@@ -1,0 +1,18 @@
+title: A successful pilot can be scaled by replication
+type: claim-evidence
+claim: A successful pilot can be scaled by replication
+interpretation: >-
+  Treat replication as adaptation and institution building, not template
+  copying.
+uncertainty: >-
+  Community networks depend on local institutions, policy, terrain, economics,
+  trust and technical capacity.
+evidence_stance: qualifying
+context: Community networks
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row344
+  source_lineage: https://zenzeleni.net/our-journey/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: Indigenous Territorial Governance Documentation Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select a case where an Indigenous government or organization defines its own
+  territorial-governance process.
+what_returns_to_commons: >-
+  Extends the Toolkit from Indigenous data governance to living territorial
+  governance.
+notes: >-
+  What to capture: Authority, consent, customary law, land rights, conflict,
+  documentation controls and community-defined outcomes. · Status/Caution:
+  High-sensitivity candidate; direct community authority required
+related_source_system: IWGIA Territorial Governance Programme
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row336
+  source_lineage: https://www.iwgia.org/en/
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

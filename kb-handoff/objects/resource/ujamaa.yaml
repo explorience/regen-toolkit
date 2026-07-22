@@ -1,0 +1,17 @@
+title: UJAMAA
+type: resource
+resource_type: Program
+url: https://www.iala-pr.org/accion
+original_source: IALA-PR
+notes: >-
+  Why add: Links agroecology with solidarity-economy infrastructure. ·
+  Status/Caution: Current portfolio, governance and outcomes require review ·
+  Parent source system: IALA-PR
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row844
+  source_lineage: https://www.iala-pr.org/accion
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

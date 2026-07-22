@@ -1,5 +1,5 @@
 title: Energy Democracy Project
-type: library
+type: directory
 steward: Energy Democracy Project
 return_path: unset — establish via register-source
 url: https://energydemocracy.us/
@@ -7,14 +7,24 @@ what_it_curates: >-
   Co-created playbooks, policy resources, campaigns and organizer-developed
   tools
 why_it_matters: United States with transferable movement resources
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row66
-  source_lineage: https://energydemocracy.us/
 caution: >-
   US-centered and advocacy-oriented; distinguish proposals and movement strategy
   from implemented outcomes | Workflow status: Selected in final bounded
   source-system expansion
+extraction_status: >-
+  Fills community energy, utility justice, public ownership and democratic
+  transition gap
+notes: >-
+  Role: Collaborative practitioner resource for democratizing energy · Action:
+  ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row65
+  source_lineage: https://energydemocracy.us/
+review_needs: >-
+  source-system type inferred — confirm; Matty dup-flag REPAIR-SS-65: Late-row
+  schema shift
+normalization_flag: REPAIR-SS-65
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

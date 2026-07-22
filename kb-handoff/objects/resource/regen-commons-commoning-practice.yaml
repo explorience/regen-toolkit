@@ -1,0 +1,18 @@
+title: Regen Commons Commoning Practice
+type: resource
+resource_type: Learning resource
+url: https://regencommons.com/learn
+original_source: Regen Commons
+notes: >-
+  Why add: Useful practical articulation of contribution, reuse, and maintenance
+  norms. · Status/Caution: Aspirational learning content; operating rules and
+  enforcement mechanisms are not fully specified. · Parent source system: Regen
+  Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row135
+  source_lineage: https://regencommons.com/learn
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

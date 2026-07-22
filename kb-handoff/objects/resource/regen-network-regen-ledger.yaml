@@ -1,0 +1,17 @@
+title: regen-network/regen-ledger
+type: resource
+resource_type: Repository
+url: https://github.com/regen-network/regen-ledger
+original_source: Regen Ledger
+notes: >-
+  Why add: Builder prior art and implementation source. · Status/Caution:
+  Repository activity and openness do not guarantee security, maintenance,
+  adoption, or ecological validity · Parent source system: Regen Ledger
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row32
+  source_lineage: https://github.com/regen-network/regen-ledger
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,25 @@
+title: Agroecology School-to-Cooperative Pathway
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Connect training, production, farmer organization, shared processing/marketing
+  and consumer relationships in one implementation record.
+potential_uses: >-
+  Regenerative livelihoods, cooperative infrastructure, local markets, funding
+  tracks.
+dependencies: >-
+  Current cooperative governance, pricing, ownership, quality standards,
+  logistics and labor evidence.
+tradeoffs: >-
+  Enterprise success may be overstated; markets can concentrate power or shift
+  burdens.
+context: Amrita Bhoomi / Namdu
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row276
+  source_lineage: >-
+    https://viacampesina.org/en/2020/10/namdu-a-producers-cooperative-run-and-managed-by-farmers-in-karnataka-india/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,20 @@
+title: A Global South-based organization automatically represents marginalized commu…
+type: claim-evidence
+claim: >-
+  A Global South-based organization automatically represents marginalized
+  communities
+interpretation: >-
+  Record who leads, who participates, who decides, who benefits and whose
+  perspectives remain absent.
+uncertainty: >-
+  Organizational location or mission does not prove community authority,
+  representation, accountability or equitable participation.
+evidence_stance: qualifying
+context: Cross-system selection
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row330
+  source_lineage: Internal selection synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

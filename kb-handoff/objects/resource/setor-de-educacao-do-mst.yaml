@@ -1,0 +1,18 @@
+title: Setor de Educação do MST
+type: resource
+resource_type: Movement sector
+url: https://mst.org.br/educacao/
+original_source: MST
+notes: >-
+  Why add: Provides the institutional bridge among territorial education,
+  pedagogy, rights and movement formation. · Status/Caution: Public description
+  is broad; current governance and educator networks require direct review ·
+  Parent source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row734
+  source_lineage: https://mst.org.br/educacao/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

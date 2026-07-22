@@ -1,0 +1,18 @@
+title: Cooperative registration proves democratic member control
+type: claim-evidence
+claim: Cooperative registration proves democratic member control
+interpretation: >-
+  Describe cooperative form separately from reviewed rules-in-use and member
+  experience.
+uncertainty: >-
+  Legal form and collective origin do not establish actual voting, transparency,
+  equitable voice or grievance handling.
+evidence_stance: qualifying
+context: COOPAC / UNICRAB cases
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row429
+  source_lineage: Internal COOPAC case synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,17 @@
+title: Conferences
+type: resource
+resource_type: Participatory space
+url: https://docs.decidim.org/en/develop/admin/spaces.html
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Links deliberation infrastructure with convening and event memory. ·
+  Status/Caution: Registration is not equivalent to decision power · Parent
+  source system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row292
+  source_lineage: https://docs.decidim.org/en/develop/admin/spaces.html
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

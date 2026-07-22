@@ -1,0 +1,18 @@
+title: AI can independently run structural-integrity review
+type: claim-evidence
+claim: AI can independently run structural-integrity review
+interpretation: >-
+  Treat AI outputs as review aids requiring source access, human judgment and
+  explicit uncertainty.
+uncertainty: >-
+  Prompted AI can surface questions and patterns but may hallucinate, misread
+  context, reproduce power and overstate conformance.
+evidence_stance: qualifying
+context: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row220
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,25 @@
+title: IARAA Current-State Corpus and Governance Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Reviewed the live platform and current public reporting across governance,
+  corpus, languages, architecture, citations, privacy, access, labor and
+  evaluation.
+what_returns_to_commons: >-
+  Creates an evidence-bearing movement-AI record without repeating sovereignty
+  or impact claims uncritically.
+notes: >-
+  What to capture: Directly evidenced features, organizer-reported facts,
+  unresolved claims, required reviewer roles and public-use decisions. ·
+  Status/Caution: Completed public-source audit; steward and field-user review
+  still required
+related_source_system: IARAA / MST / MMM / Baobab
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row290
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

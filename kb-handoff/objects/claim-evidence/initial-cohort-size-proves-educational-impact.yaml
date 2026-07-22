@@ -1,0 +1,17 @@
+title: Initial cohort size proves educational impact
+type: claim-evidence
+claim: Initial cohort size proves educational impact
+interpretation: Seek cohort, alumni, participant and steward evidence.
+uncertainty: >-
+  Enrollment or launch figures do not establish completion, learning,
+  territorial application, livelihood effects or organizational retention.
+evidence_stance: qualifying
+context: IALA María Cano
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row474
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-se-aproxima-la-inauguracion-del-instituto-y-universidad-campesina-iala-maria-cano
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

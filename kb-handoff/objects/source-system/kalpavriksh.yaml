@@ -1,5 +1,5 @@
 title: Kalpavriksh
-type: directory
+type: publication
 steward: Kalpavriksh
 return_path: unset — establish via register-source
 url: https://kalpavriksh.org/
@@ -11,14 +11,21 @@ why_it_matters: >-
   Indian environmental action group working across ecological sustainability,
   social equity, biodiversity, conservation, environmental education and
   alternatives, while helping steward Vikalp Sangam and GTA-related work.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row37
-  source_lineage: https://kalpavriksh.org/
 caution: >-
   Separate Kalpavriksh-authored positions from collective Vikalp Sangam or GTA
   outputs. Organizational continuity does not establish movement representation
   or validate every documented alternative.
+extraction_status: >-
+  Long-running activist-research archive; movement support; ecological and
+  social-justice analysis; grounded alternatives; community governance; people
+  and publication branching.
+notes: >-
+  Role: Core steward organization and ecological-justice knowledge source ·
+  Action: UPDATE
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row36
+  source_lineage: https://kalpavriksh.org/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

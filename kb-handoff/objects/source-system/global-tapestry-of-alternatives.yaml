@@ -1,5 +1,5 @@
 title: Global Tapestry of Alternatives
-type: convening
+type: platform
 steward: Global Tapestry of Alternatives
 return_path: unset — establish via register-source
 url: https://globaltapestryofalternatives.org/
@@ -11,14 +11,21 @@ why_it_matters: >-
   A global process launched in 2019 that connects and nurtures interactions,
   learning and collaboration among autonomous regional and thematic networks of
   alternatives without claiming to be their representative center.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row35
-  source_lineage: https://globaltapestryofalternatives.org/
 caution: >-
   Do not treat GTA as owner, validator or representative of alternatives.
   Preserve weaver authority, source language, territorial context, disagreement,
   security and choices not to be mapped.
+extraction_status: >-
+  Non-central coordination; movement-generated theory; network-of-networks
+  governance; reciprocal learning; collaborative mapping; assemblies and working
+  groups; radical democracy, autonomy and self-determination practices.
+notes: >-
+  Role: Core network-of-networks source system for pluriversal and grounded
+  alternatives · Action: UPDATE
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row34
+  source_lineage: https://globaltapestryofalternatives.org/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

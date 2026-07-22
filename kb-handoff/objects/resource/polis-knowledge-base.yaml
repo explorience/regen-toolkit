@@ -1,0 +1,18 @@
+title: Polis Knowledge Base
+type: resource
+resource_type: Documentation / knowledge commons
+url: https://compdemocracy.org/knowledge-base/
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Strong source-system model for keeping technical, methodological, and
+  case knowledge together. · Status/Caution: Maintainer-authored guidance; case
+  and method claims need contextual review · Parent source system: Computational
+  Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row267
+  source_lineage: https://compdemocracy.org/knowledge-base/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

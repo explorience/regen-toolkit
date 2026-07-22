@@ -1,0 +1,17 @@
+title: Brooke Coco
+type: resource
+resource_type: Research / ethnography lead
+url: https://metagov.org/projects/koi-pond/project-details
+original_source: KOI Pond
+notes: >-
+  Why add: Adds ethnographic and affected-user review to technical
+  implementation memory. · Status/Caution: Research status and ethics approval
+  must remain visible · Parent source system: KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row99
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

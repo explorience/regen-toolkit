@@ -1,0 +1,22 @@
+title: Emily Kawano
+type: person
+full_name: Emily Kawano
+affiliation: RIPESS / solidarity economy
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://www.ripess.org/five-part-webinar-series-on-solidarity-and-cooperative-economics/?lang=en
+notes: >-
+  Why add: Connects RIPESS, solidarity economy, cooperative practice and popular
+  education · Status/Caution: Current public role should be dated · Parent
+  source system: RIPESS / solidarity economy
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row864
+  source_lineage: >-
+    https://www.ripess.org/five-part-webinar-series-on-solidarity-and-cooperative-economics/?lang=en
+original_object_class: Person
+normalization_flag: REPAIR-NO-864
+review_needs: 'Matty dup-flag REPAIR-NO-864: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

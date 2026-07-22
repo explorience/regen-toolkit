@@ -1,0 +1,20 @@
+title: IALA María Cano
+type: resource
+resource_type: School / learning infrastructure
+url: >-
+  https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+original_source: FENSUAGRO / IALA María Cano
+notes: >-
+  Why add: Implementation and governance case candidate · Status/Caution:
+  Current · Parent source system: FENSUAGRO / IALA María Cano
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row780
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+original_object_class: Case / Place / Infrastructure
+normalization_flag: REPAIR-NO-780
+review_needs: 'Matty dup-flag REPAIR-NO-780: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

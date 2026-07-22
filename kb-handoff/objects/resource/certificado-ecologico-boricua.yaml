@@ -1,0 +1,19 @@
+title: Certificado Ecológico Boricuá
+type: resource
+resource_type: Practice / governance mechanism
+url: https://organizacionboricua.blogspot.com/p/certificacion-boricua.html
+original_source: Organización Boricuá
+notes: >-
+  Why add: Early Puerto Rican participatory guarantee-system case. ·
+  Status/Caution: Historical status; do not present as currently operating
+  without review · Parent source system: Organización Boricuá
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row830
+  source_lineage: https://organizacionboricua.blogspot.com/p/certificacion-boricua.html
+original_object_class: Governance / Funding Mechanism
+normalization_flag: DUP-NE-773
+review_needs: 'Matty dup-flag DUP-NE-773: Organización Boricuá de Agricultura Ecológica'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

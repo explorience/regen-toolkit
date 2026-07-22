@@ -1,0 +1,16 @@
+subject: CROSS+WALKRI Builder
+predicate: implements_or_uses
+object: CROSS and WALKRI
+type: relationship-record
+title: CROSS+WALKRI Builder — implements_or_uses — CROSS and WALKRI
+original_relationship: implements / demonstrates
+evidence: Standards index describes the builder as a working reference implementation
+scope: Reference implementation, not independent validation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row141
+  source_lineage: https://crosswalkri-builder.vercel.app/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

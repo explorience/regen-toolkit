@@ -1,0 +1,22 @@
+title: IARAA Technological Sovereignty Stress Test
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Test whether the service can continue or migrate if a model, hosting, funding
+  or technical partner becomes unavailable.
+what_returns_to_commons: Turns sovereignty from a slogan into a reviewable operational property.
+notes: >-
+  What to capture: Model and compute dependencies, code, data export, deployment
+  documentation, skills, cost, fallback and decision authority. ·
+  Status/Caution: Candidate; requires confidential technical and financial
+  information
+related_source_system: IARAA
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row293
+  source_lineage: Internal audit design
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,20 @@
+title: Continental-Network Source-System Model
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use a federated network such as RIPESS to discover regional systems while
+  preserving each network’s autonomy and terminology
+potential_uses: Source Systems / Relationships
+dependencies: RIPESS
+tradeoffs: >-
+  Efficient breadth expansion without treating the global umbrella as owner or
+  representative of all members
+context: Source-system strategy
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row336
+  source_lineage: https://www.ripess.org/?lang=en
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,22 @@
+title: Government as API / civic infrastructure
+type: concept-lineage
+short_description: >-
+  Framing public institutions as providers of interoperable services, data and
+  participation interfaces that communities can reuse and improve.
+toolkit_usage: >-
+  Bridge between digital public infrastructure, civic technology and
+  public-commons relationships.
+original_object_type: Concept / institutional interface
+notes: >-
+  Why add: Bridge between digital public infrastructure, civic technology and
+  public-commons relationships. · Status/Caution: API metaphors can flatten
+  democratic authority, rights, public obligations and offline access · Parent
+  source system: Taiwan digital-government lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row369
+  source_lineage: https://pdis.nat.gov.tw/en/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

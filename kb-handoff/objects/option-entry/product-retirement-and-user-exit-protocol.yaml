@@ -1,0 +1,24 @@
+title: Product-Retirement and User-Exit Protocol
+type: option-entry
+category: governance
+what_it_is: >-
+  Document how a platform retires a product while preserving contract access,
+  user withdrawal instructions, incident history and governance decisions.
+potential_uses: >-
+  DeFi, public-goods platforms, DAOs and open-source infrastructure with
+  persistent contracts or data.
+dependencies: >-
+  Asset inventory, user communication, security review, governance record,
+  support path and archival documentation.
+tradeoffs: >-
+  Long-tail user harm, abandoned contracts, incomplete communications and
+  responsibility gaps.
+context: Giveth implementation history
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row18
+  source_lineage: https://docs.giveth.io/what-is-giveth/the-giveconomy/archived-staking-pools
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

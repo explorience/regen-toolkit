@@ -1,0 +1,16 @@
+subject: Disability Visibility Project
+predicate: maintained_by
+object: Disability Visibility Podcast
+type: relationship-record
+title: Disability Visibility Project — maintained_by — Disability Visibility Podcast
+original_relationship: hosts / preserves
+evidence: Official podcast archive and guide.
+scope: Podcast ended; archive remains
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row247
+  source_lineage: https://disabilityvisibilityproject.com/podcast-2/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

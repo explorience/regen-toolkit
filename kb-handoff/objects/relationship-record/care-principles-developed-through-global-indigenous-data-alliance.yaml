@@ -1,0 +1,20 @@
+subject: CARE Principles
+predicate: developed_through
+object: Global Indigenous Data Alliance
+type: relationship-record
+title: CARE Principles — developed_through — Global Indigenous Data Alliance
+original_relationship: developed through
+evidence: >-
+  GIDA is the primary stewarded source for Collective Benefit, Authority to
+  Control, Responsibility and Ethics.
+scope: Indigenous-led governance relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row175
+  source_lineage: https://www.gida-global.org/care
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

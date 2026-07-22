@@ -1,0 +1,18 @@
+title: Decidim
+type: resource
+resource_type: Platform / civic infrastructure
+url: https://decidim.org/
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Selected as Batch 1C’s second core system for mature civic
+  implementation depth. · Status/Caution: Platform use does not guarantee
+  democratic quality or institutional follow-through · Parent source system:
+  Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row110
+  source_lineage: https://decidim.org/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

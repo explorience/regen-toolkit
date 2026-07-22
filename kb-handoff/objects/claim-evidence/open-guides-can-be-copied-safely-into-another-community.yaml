@@ -1,0 +1,18 @@
+title: Open guides can be copied safely into another community
+type: claim-evidence
+claim: Open guides can be copied safely into another community
+interpretation: >-
+  Use guides as starting points and adapt through local governance and expert
+  review.
+uncertainty: >-
+  Technical, legal, cultural, ecological and organizational conditions vary
+  substantially.
+evidence_stance: qualifying
+context: APC / REDES / Zenzeleni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row341
+  source_lineage: https://zenzeleni.net/our-resources/practical-guides/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

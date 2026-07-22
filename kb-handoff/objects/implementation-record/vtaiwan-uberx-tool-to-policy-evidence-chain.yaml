@@ -1,0 +1,26 @@
+title: vTaiwan UberX Tool-to-Policy Evidence Chain
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace proposal, recruitment, Polis statements and groups, facilitated
+  consultation, stakeholder positions, government commitments, regulatory text,
+  implementation, and later outcomes.
+what_returns_to_commons: >-
+  Canonical test of whether computational deliberation influenced policy and
+  under what institutional conditions.
+notes: >-
+  What to capture: Timeline, participant composition, moderation, consensus
+  items, agency authority, legal changes, affected parties, enforcement,
+  disputes, and retrospective evidence. · Status/Caution: Developed — detailed
+  case and evidence crosswalk added; still requires legal, local-context, and
+  affected-party review
+related_source_system: vTaiwan / Polis
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row85
+  source_lineage: https://compdemocracy.org/case-studies/2014-vtaiwan/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

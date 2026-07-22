@@ -1,0 +1,17 @@
+title: Octant Funded Cohort Tracking
+type: resource
+resource_type: Analysis / partner case
+url: https://www.opensource.observer/solutions/venture
+original_source: Open Source Observer / Octant
+notes: >-
+  Why add: Connects allocation rounds to longitudinal project analytics. ·
+  Status/Caution: Cohort coverage and metric selection require inspection ·
+  Parent source system: Open Source Observer / Octant
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row49
+  source_lineage: https://www.opensource.observer/solutions/venture
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

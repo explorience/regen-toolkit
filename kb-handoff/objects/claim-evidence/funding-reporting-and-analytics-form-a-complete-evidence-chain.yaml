@@ -1,0 +1,18 @@
+title: Funding, reporting and analytics form a complete evidence chain
+type: claim-evidence
+claim: Funding, reporting and analytics form a complete evidence chain
+interpretation: >-
+  Describe what each system records, what it cannot establish, and what
+  additional domain evidence or affected-party review is needed.
+uncertainty: >-
+  Allocation records, grantee updates and observed metrics answer different
+  questions and may omit real-world effects.
+evidence_stance: qualifying
+context: Cross-system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row2
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

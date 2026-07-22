@@ -1,0 +1,16 @@
+title: DeVouch
+type: resource
+resource_type: Tool / protocol
+url: https://docs.giveth.io/devouch
+original_source: Giveth
+notes: >-
+  Why add: Adds community trust-signal context. · Status/Caution: Vouches are
+  signals, not proof · Parent source system: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row5
+  source_lineage: https://docs.giveth.io/devouch
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

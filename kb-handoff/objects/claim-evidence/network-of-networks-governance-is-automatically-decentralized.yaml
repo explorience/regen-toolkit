@@ -1,0 +1,18 @@
+title: Network-of-networks governance is automatically decentralized
+type: claim-evidence
+claim: Network-of-networks governance is automatically decentralized
+interpretation: >-
+  Describe formal and informal coordination, resources and visibility power
+  rather than equating distributed membership with equal power.
+uncertainty: >-
+  Facilitation, funding, language, travel, publishing and digital infrastructure
+  can concentrate influence even without formal central authority.
+evidence_stance: qualifying
+context: Global Tapestry of Alternatives
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row362
+  source_lineage: https://globaltapestryofalternatives.org/introduction
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

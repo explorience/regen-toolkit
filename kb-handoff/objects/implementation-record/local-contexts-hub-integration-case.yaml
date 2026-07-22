@@ -1,0 +1,24 @@
+title: Local Contexts Hub Integration Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one repository, archive or data platform that integrates Local Contexts
+  Labels and Notices through projects or API connections.
+what_returns_to_commons: >-
+  Provides concrete implementation memory for interoperable community-governed
+  metadata.
+notes: >-
+  What to capture: Account roles, project creation, community confirmation,
+  Labels/Notices, identifiers, API behavior, display, updates, disputes and
+  outcomes. · Status/Caution: Choose a publicly documented implementation with
+  community participation
+related_source_system: Local Contexts
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row174
+  source_lineage: https://localcontexts.org/about/about-the-hub/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,20 @@
+title: Alternatives Transformation Format
+type: resource
+resource_type: Assessment tool
+url: >-
+  https://vikalpsangam.org/wp-content/uploads/migrate/VS_Case_Studies/alternatives_transformation_framework%2C_final_ver_for_public%2C_revised_20.2.2017.pdf
+original_source: Vikalp Sangam
+notes: >-
+  Why add: Potential model for reflective, non-certifying project and
+  source-system review. · Status/Caution: Self-assessment can be aspirational,
+  burdensome or decontextualized; should not become ranking · Parent source
+  system: Vikalp Sangam
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row621
+  source_lineage: >-
+    https://vikalpsangam.org/wp-content/uploads/migrate/VS_Case_Studies/alternatives_transformation_framework%2C_final_ver_for_public%2C_revised_20.2.2017.pdf
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

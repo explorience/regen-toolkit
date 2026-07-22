@@ -1,0 +1,18 @@
+title: Participedia Wiki Contributor History
+type: resource
+resource_type: Provenance feature
+url: https://participedia.net/method/collaborative-governance
+original_source: Participedia
+notes: >-
+  Why add: Strong precedent for preserving contribution lineage and later
+  correction history. · Status/Caution: Contributor history does not by itself
+  explain the evidentiary basis or quality of each change. · Parent source
+  system: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row227
+  source_lineage: https://participedia.net/method/collaborative-governance
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

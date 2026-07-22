@@ -1,0 +1,21 @@
+title: Agroecology can strengthen food sovereignty and climate resilience in Puerto …
+type: claim-evidence
+claim: >-
+  Agroecology can strengthen food sovereignty and climate resilience in Puerto
+  Rico
+interpretation: >-
+  Describe this as a plausible and context-supported contribution, not
+  island-scale proof of food security or quantified resilience.
+uncertainty: >-
+  Movement and farm reporting documents diversified ecological practice, farmer
+  networks and disaster recovery.
+evidence_stance: neutral
+context: Puerto Rico agroecology ecosystem
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row479
+  source_lineage: >-
+    https://viacampesina.org/en/2018/11/agroecology-as-a-tool-of-sovereignty-and-resilience-in-puerto-rico-after-hurricane-maria/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,25 @@
+title: Women Sem Terra Jornada Governance Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one national struggle jornada from territorial agenda formation to
+  actions, negotiation, internal learning and later policy or movement changes.
+what_returns_to_commons: >-
+  Tests constituency authority and the relationship between mobilization, care
+  and institutional change.
+notes: >-
+  What to capture: Who sets demands, territorial inputs, safety, care labor,
+  resources, actions, negotiation, outcomes and unresolved conflicts. ·
+  Status/Caution: Candidate; avoid documenting sensitive action plans or
+  participant data
+related_source_system: Women Sem Terra
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row302
+  source_lineage: >-
+    https://mst.org.br/2026/02/27/mulheres-sem-terra-realizam-jornada-nacional-de-lutas-em-defesa-da-reforma-agraria-e-contra-as-violencias/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

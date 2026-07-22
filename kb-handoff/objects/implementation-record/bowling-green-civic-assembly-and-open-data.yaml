@@ -1,0 +1,24 @@
+title: Bowling Green Civic Assembly and Open Data
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow the online conversation into the town hall, public report, official
+  response, and later local action.
+what_returns_to_commons: >-
+  Strong local case for linking open data, media partnership, deliberation, and
+  accountability.
+notes: >-
+  What to capture: Outreach, 2,000 participants, open data, opinion groups,
+  consensus statements, event facilitation, elected officials, policy
+  commitments, follow-up and missing voices. · Status/Caution: Case-study claims
+  should be checked against local participants and later outcomes
+related_source_system: Polis / American Assembly
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row87
+  source_lineage: https://compdemocracy.org/case-studies/2018-kentucky/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

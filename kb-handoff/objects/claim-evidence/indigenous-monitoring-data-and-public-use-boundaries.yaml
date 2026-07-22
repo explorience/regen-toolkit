@@ -1,0 +1,19 @@
+title: Indigenous monitoring data and public-use boundaries
+type: claim-evidence
+claim: Indigenous monitoring data and public-use boundaries
+interpretation: >-
+  Do not assume public summaries grant permission to extract, model or republish
+  underlying knowledge; seek community-defined consent and return paths.
+uncertainty: >-
+  Public project pages may expose summaries while underlying files, knowledge
+  and governance remain private or community-controlled.
+evidence_stance: qualifying
+context: Regen Network / Sharamentsa
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row31
+  source_lineage: https://app.regen.network/project/sharamentsa-pilot
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

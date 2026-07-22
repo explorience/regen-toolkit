@@ -1,0 +1,24 @@
+title: Open-Source Civic Process Stack
+type: option-entry
+category: governance
+what_it_is: >-
+  Compose open-source tools, shared documents, hackathons, facilitation, data,
+  media, and institutional interfaces rather than relying on one platform.
+potential_uses: >-
+  Civic labs, local nodes, policy processes, public-interest technology
+  ecosystems.
+dependencies: >-
+  Open licensing, maintainers, documentation, interoperability, contributor
+  norms, public-sector relationships.
+tradeoffs: >-
+  Fragmentation, maintenance burden, informal power, tool churn, and exclusion
+  of nontechnical participants.
+context: g0v / vTaiwan / Polis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row90
+  source_lineage: https://g0v.tw/intl/en/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

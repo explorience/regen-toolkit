@@ -1,0 +1,18 @@
+title: Maintenance Ownership and Review Cadence
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Assign a steward, stale threshold, and recurring review cadence to public or
+  high-priority record clusters.
+potential_uses: Public resource views, source-system cards, implementation cases, claims.
+dependencies: Steward capacity, review queue, stale warnings, archival states.
+tradeoffs: Unfunded maintenance roles can reproduce burnout and hidden labor.
+context: Merge and governance readiness
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row117
+  source_lineage: Internal merge-readiness design
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,19 @@
+title: Local Contexts Notices
+type: resource
+resource_type: Disclosure tool
+url: https://localcontexts.org/notices/about-the-notices/
+original_source: Local Contexts
+notes: >-
+  Why add: Useful model for source-system warnings and unresolved rights or
+  provenance concerns. · Status/Caution: A Notice is disclosure and engagement
+  infrastructure, not community permission or approval · Parent source system:
+  Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row447
+  source_lineage: https://localcontexts.org/notices/about-the-notices/
+original_object_class: Tool / Technical Infrastructure
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

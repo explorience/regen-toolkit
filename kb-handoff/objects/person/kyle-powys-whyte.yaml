@@ -1,0 +1,21 @@
+title: Kyle Powys Whyte
+type: person
+full_name: Kyle Powys Whyte
+affiliation: Indigenous climate justice
+consent_status: unverified — default non-public (Principle 8)
+url: https://seas.umich.edu/research/faculty/kyle-whyte
+notes: >-
+  Why add: Connects Indigenous sovereignty, temporal justice, climate governance
+  and research relationships · Status/Caution: Current faculty profile · Parent
+  source system: Indigenous climate justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row871
+  source_lineage: https://seas.umich.edu/research/faculty/kyle-whyte
+original_object_class: Person
+high_risk: true
+normalization_flag: REPAIR-NO-871
+review_needs: 'Matty dup-flag REPAIR-NO-871: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

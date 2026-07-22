@@ -1,0 +1,19 @@
+title: Support organization represents Indigenous authority
+type: claim-evidence
+claim: Support organization represents Indigenous authority
+interpretation: >-
+  Cite support role clearly and prioritize direct Indigenous-government or
+  community sources.
+uncertainty: >-
+  An ally or documentation organization may support rights without holding
+  authority to define community governance.
+evidence_stance: qualifying
+context: IWGIA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row492
+  source_lineage: https://www.iwgia.org/en/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

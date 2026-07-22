@@ -1,0 +1,20 @@
+title: GKC Patterns, Outcomes, Costs, and Risks
+type: concept-lineage
+short_description: >-
+  Research cluster examining benefits, outputs, social interactions, costs,
+  negative externalities, and perceived legitimacy among members and outsiders.
+toolkit_usage: Useful for implementation memory and for separating activity from outcomes.
+original_object_type: Framework component
+notes: >-
+  Why add: Useful for implementation memory and for separating activity from
+  outcomes. · Status/Caution: Outcomes are plural and may be evaluated
+  differently by insiders and affected outsiders. · Parent source system: GKC
+  Research Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row202
+  source_lineage: https://knowledge-commons.net/research-framework/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

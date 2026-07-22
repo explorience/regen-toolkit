@@ -1,0 +1,18 @@
+title: Modular Politics
+type: resource
+resource_type: Research / paper
+url: https://metagov.org/projects/modular-politics
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Conceptual foundation for composable governance infrastructure. ·
+  Status/Caution: Conceptual proposal; modularity can hide integration,
+  authority, and accountability problems. · Parent source system: Metagov /
+  Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row85
+  source_lineage: https://metagov.org/projects/modular-politics
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

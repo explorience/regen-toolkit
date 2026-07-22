@@ -1,0 +1,20 @@
+title: Nnimmo Bassey
+type: person
+full_name: Nnimmo Bassey
+affiliation: HOMEF / environmental justice
+consent_status: unverified — default non-public (Principle 8)
+url: https://homef.org/about-us/
+notes: >-
+  Why add: Strengthens African environmental-justice and anti-extractivist
+  analysis · Status/Caution: Current HOMEF leadership should be dated · Parent
+  source system: HOMEF / environmental justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row872
+  source_lineage: https://homef.org/about-us/
+original_object_class: Person
+normalization_flag: REPAIR-NO-872
+review_needs: 'Matty dup-flag REPAIR-NO-872: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

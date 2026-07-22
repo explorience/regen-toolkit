@@ -1,0 +1,23 @@
+title: People Powered Research-to-Practice Update Cycle
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track one research synthesis from literature search and coding through brief,
+  interactive data, practitioner recommendations, training, and later revision.
+what_returns_to_commons: Strong comparator for source-grounded claim review and knowledge translation.
+notes: >-
+  What to capture: Search strategy, inclusion criteria, coding, evidence
+  quality, authorship, review, practitioner testing, citations, updates,
+  corrections, and downstream use. · Status/Caution: Methods and dataset version
+  should be preserved; synthesis is not systematic-review certification unless
+  documented.
+related_source_system: People Powered
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row84
+  source_lineage: https://www.peoplepowered.org/research-data
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

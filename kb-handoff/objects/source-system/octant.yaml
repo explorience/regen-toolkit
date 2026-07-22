@@ -1,0 +1,23 @@
+title: Octant
+type: directory
+steward: Octant
+return_path: unset — establish via register-source
+url: https://octant.app/
+why_it_matters: Core funding mechanism and implementation-memory source.
+toolkit_route: >-
+  Resource Graph & Ecosystem Atlas; Option Library; Deployment & Structural
+  Integrity; Tracks & Composition; Implementation & Learning Memory; Evolution
+  Layer
+notes: >-
+  Priority: Core funding mechanism and implementation-memory source. · Next:
+  Draft card; extract funding workflow and implementation examples. · Notes:
+  Highly relevant to yield-to-impact allocation, public goods funding options,
+  and implementation memory.
+review_needs: Discovery_Pool promotion (Tier 1) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-00241
+  source_lineage: https://octant.app/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

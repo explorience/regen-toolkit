@@ -1,0 +1,20 @@
+subject: Just Transition Framework
+predicate: related_to
+object: >-
+  energy democracy, labor, mutual aid, bioregional governance and regenerative
+  economy
+type: relationship-record
+title: >-
+  Just Transition Framework — related_to — energy democracy, labor, mutual aid,
+  bioregional governance and regenerative economy
+original_relationship: related to
+evidence: Movement Generation framework
+scope: Plural lineage and adaptations must be recorded
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row552
+  source_lineage: https://movementgeneration.org/justtransition/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

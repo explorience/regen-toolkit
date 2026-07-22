@@ -1,0 +1,23 @@
+title: Knowledge-Commons Transition Lens
+type: option-entry
+category: governance
+what_it_is: >-
+  Ask how resource characteristics, access, enclosure, infrastructure,
+  community, law, norms, and technologies reshape a knowledge resource as a
+  commons.
+potential_uses: >-
+  Database governance, open research, AI training data, public resource
+  libraries.
+dependencies: >-
+  Resource typing, licensing, access rules, contributor rights, privacy and
+  maintenance review.
+tradeoffs: May romanticize openness or overlook labor, exclusion, extraction, and power.
+context: Charlotte Hess / knowledge commons lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row128
+  source_lineage: https://knowledge-commons.net/resources/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

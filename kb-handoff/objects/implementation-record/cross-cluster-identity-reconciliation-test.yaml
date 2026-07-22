@@ -1,0 +1,23 @@
+title: Cross-Cluster Identity Reconciliation Test
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  After two bounded pilots, test whether aliases, URLs, people, and
+  organizations create duplicate canonical identities across clusters.
+what_returns_to_commons: >-
+  Tests the main failure mode of cluster-based merge work: locally consistent
+  but globally duplicated identities.
+notes: >-
+  What to capture: Overlap candidates, decision evidence, canonical redirects,
+  relationship changes, unresolved cases. · Status/Caution: After OpenCivics
+  pilot
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row123
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

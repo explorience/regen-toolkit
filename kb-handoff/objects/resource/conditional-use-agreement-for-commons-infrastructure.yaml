@@ -1,0 +1,21 @@
+title: Conditional Use Agreement for Commons Infrastructure
+type: resource
+resource_type: Governance proposal
+url: >-
+  https://forum.regen.network/t/agentic-organization-design-and-collaboration/610
+original_source: Regen Commons / Regen AI
+notes: >-
+  Why add: Concrete example of turning commons membership and reciprocity
+  expectations into machine-checkable access conditions. · Status/Caution:
+  Exploratory proposal, not adopted policy; access controls can exclude
+  legitimate participants or centralize credential power. · Parent source
+  system: Regen Commons / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row131
+  source_lineage: >-
+    https://forum.regen.network/t/agentic-organization-design-and-collaboration/610
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

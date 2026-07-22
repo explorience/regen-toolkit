@@ -1,0 +1,19 @@
+subject: Toolkit resource database
+predicate: governed_as
+object: Emerging knowledge commons
+type: relationship-record
+title: Toolkit resource database — governed_as — Emerging knowledge commons
+original_relationship: governed as
+evidence: >-
+  Self-review applies the GKC framework to resources, communities, rules,
+  stewardship, dilemmas, and outcomes.
+scope: Analytical framing, not a claim that mature commons governance already exists
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row84
+  source_lineage: Internal GKC self-review — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

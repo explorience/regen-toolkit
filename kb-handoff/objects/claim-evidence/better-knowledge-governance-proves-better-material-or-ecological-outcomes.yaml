@@ -1,0 +1,19 @@
+title: Better knowledge governance proves better material or ecological outcomes
+type: claim-evidence
+claim: Better knowledge governance proves better material or ecological outcomes
+interpretation: >-
+  Treat knowledge governance as one part of an evidence chain; assess ecological
+  and social outcomes separately.
+uncertainty: >-
+  Knowledge sharing can support coordination, but material outcomes depend on
+  implementation, power, resources, ecological conditions and institutional
+  action.
+evidence_stance: neutral
+context: Environmental Knowledge Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row108
+  source_lineage: https://knowledge-commons.net/publications/environmental-book/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

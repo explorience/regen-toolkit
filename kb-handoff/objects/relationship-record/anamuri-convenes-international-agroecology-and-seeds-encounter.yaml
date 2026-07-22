@@ -1,0 +1,18 @@
+subject: ANAMURI
+predicate: convenes
+object: International Agroecology and Seeds Encounter
+type: relationship-record
+title: ANAMURI — convenes — International Agroecology and Seeds Encounter
+original_relationship: convenes
+evidence: ANAMURI and Sembradoras organized the fifth encounter in 2024.
+scope: Event relationship, not permanent program outcome
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row492
+  source_lineage: >-
+    https://viacampesina.org/en/2024/04/chile-v-international-agroecology-and-seeds-encounter/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

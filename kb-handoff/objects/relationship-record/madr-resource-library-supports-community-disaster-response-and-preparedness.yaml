@@ -1,0 +1,18 @@
+subject: MADR Resource Library
+predicate: supports
+object: community disaster response and preparedness
+type: relationship-record
+title: >-
+  MADR Resource Library — supports — community disaster response and
+  preparedness
+original_relationship: supports
+evidence: Official resource categories
+scope: Local adaptation required
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row539
+  source_lineage: https://mutualaiddisasterrelief.org/resources/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

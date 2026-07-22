@@ -1,0 +1,21 @@
+title: Community Land Trust Governance and Affordability Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one well-documented CLT and trace acquisition, governance,
+  affordability, stewardship and resident experience.
+what_returns_to_commons: Connects ownership design to actual rules-in-use and affected-party outcomes.
+notes: >-
+  What to capture: Board power, resident participation, financing, resale
+  formula, disputes, maintenance and long-term affordability. · Status/Caution:
+  Priority future case; select outside overrepresented geographies if possible
+related_source_system: International Center for Community Land Trusts
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row334
+  source_lineage: https://www.cltweb.org/resources/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

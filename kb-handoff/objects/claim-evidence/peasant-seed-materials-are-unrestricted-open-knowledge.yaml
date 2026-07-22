@@ -1,0 +1,19 @@
+title: Peasant seed materials are unrestricted open knowledge
+type: claim-evidence
+claim: Peasant seed materials are unrestricted open knowledge
+interpretation: >-
+  Treat public campaign materials as visible advocacy; seek explicit authority
+  before reusing detailed knowledge or data.
+uncertainty: >-
+  Seed knowledge can be collective, territorial, culturally governed and
+  vulnerable to appropriation or enclosure.
+evidence_stance: qualifying
+context: ANAMURI Seed Campaign
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row464
+  source_lineage: https://anamuri.cl/campana-semilla/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

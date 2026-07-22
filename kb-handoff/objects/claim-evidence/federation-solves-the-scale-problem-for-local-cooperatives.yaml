@@ -1,0 +1,19 @@
+title: Federation solves the scale problem for local cooperatives
+type: claim-evidence
+claim: Federation solves the scale problem for local cooperatives
+interpretation: >-
+  Federation is one strategy for sharing infrastructure while retaining local
+  ownership; its effects require governance and member-level evidence.
+uncertainty: >-
+  Shared infrastructure can reduce costs and increase bargaining power, but
+  federation introduces governance, financing, coordination, and uneven-capacity
+  challenges.
+evidence_stance: neutral
+context: CoopCycle / platform cooperativism
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row277
+  source_lineage: https://coopcycle.org/en/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

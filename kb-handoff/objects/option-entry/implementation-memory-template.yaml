@@ -1,0 +1,18 @@
+title: Implementation Memory Template
+type: option-entry
+category: coordination
+what_it_is: >-
+  Capture what happened, what worked, what failed, what adapted, and what
+  updates the Toolkit.
+notes: >-
+  Priority: Capture what happened, what worked, what failed, what adapted, and
+  what updates the Toolkit. · Next: Develop as option card when source lineage
+  is sufficient. · Notes: Prioritize practical options created by source-system
+  work.
+review_needs: Discovery_Pool promotion — confirm category + source
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-03924
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

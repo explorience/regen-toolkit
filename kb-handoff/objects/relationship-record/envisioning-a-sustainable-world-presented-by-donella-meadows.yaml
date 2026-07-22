@@ -1,0 +1,18 @@
+subject: Envisioning a Sustainable World
+predicate: presented_by
+object: Donella Meadows
+type: relationship-record
+title: Envisioning a Sustainable World — presented_by — Donella Meadows
+original_relationship: presented by
+evidence: Presented at the 1994 International Society for Ecological Economics meeting.
+scope: Presentation relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row165
+  source_lineage: >-
+    https://donellameadows.org/donella-meadows-legacy/envisioning-a-sustainable-world/envisioning-sustainable-world/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

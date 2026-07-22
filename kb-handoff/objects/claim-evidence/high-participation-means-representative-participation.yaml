@@ -1,0 +1,18 @@
+title: High participation means representative participation
+type: claim-evidence
+claim: High participation means representative participation
+interpretation: >-
+  Report recruitment, denominator, demographic and affected-party coverage,
+  response patterns, and sampling method alongside participant counts.
+uncertainty: >-
+  Large participation counts may still reflect self-selection, digital access,
+  media reach, organized mobilization, or missing demographics.
+evidence_stance: qualifying
+context: Polis case studies
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row137
+  source_lineage: https://compdemocracy.org/case-studies/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

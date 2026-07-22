@@ -1,0 +1,18 @@
+title: Innovation and maintenance are opposites
+type: claim-evidence
+claim: Innovation and maintenance are opposites
+interpretation: >-
+  Use maintenance thinking to rebalance lifecycle attention, not to prohibit
+  justified experimentation.
+uncertainty: >-
+  New development and maintenance often interact; the problem is systematic
+  underinvestment in upkeep and exaggerated claims about novelty.
+evidence_stance: qualifying
+context: The Maintainers
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row279
+  source_lineage: https://themaintainers.org/about/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

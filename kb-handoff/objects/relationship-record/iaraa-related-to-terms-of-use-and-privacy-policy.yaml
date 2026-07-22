@@ -1,0 +1,16 @@
+subject: IARAA
+predicate: related_to
+object: Terms of use and privacy policy
+type: relationship-record
+title: IARAA — related_to — Terms of use and privacy policy
+original_relationship: links users to
+evidence: The platform provides public links before/alongside use.
+scope: Documents require project-specific human review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row435
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

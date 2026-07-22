@@ -1,0 +1,18 @@
+title: A community has one coherent interest or representative
+type: claim-evidence
+claim: A community has one coherent interest or representative
+interpretation: >-
+  Document who participated, who was absent, how representatives were chosen,
+  what disagreements remain and who can challenge the record.
+uncertainty: >-
+  Communities contain internal differences, unequal power, contested leadership
+  and overlapping identities.
+evidence_stance: qualifying
+context: Design Justice / Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row248
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

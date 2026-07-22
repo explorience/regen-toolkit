@@ -1,0 +1,16 @@
+subject: Lauren F. Klein
+predicate: created_by
+object: Data Feminism
+type: relationship-record
+title: Lauren F. Klein — created_by — Data Feminism
+original_relationship: co-authored
+evidence: Named co-author with Catherine D’Ignazio.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row206
+  source_lineage: https://data-feminism.mitpress.mit.edu/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

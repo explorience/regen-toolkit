@@ -1,0 +1,18 @@
+title: DisCO Governance Model Refinement
+type: resource
+resource_type: Governance model artifact
+url: https://metagov.org/projects/groundwork-fellowship/documentation
+original_source: Groundwork Fellowship
+notes: >-
+  Why add: Connects feminist economics, cooperative governance, labor, and
+  commons stewardship. · Status/Caution: Model description is not evidence of
+  transferability or successful implementation · Parent source system:
+  Groundwork Fellowship
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row109
+  source_lineage: https://metagov.org/projects/groundwork-fellowship/documentation
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

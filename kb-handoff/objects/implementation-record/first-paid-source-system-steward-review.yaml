@@ -1,0 +1,23 @@
+title: First Paid Source-System Steward Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Invite and compensate one source-system steward to review and improve their
+  organization’s records through the accessible contributor workflow.
+what_returns_to_commons: >-
+  Best next real-world test because it combines factual correction, relationship
+  building and meaningful authority.
+notes: >-
+  What to capture: Scope, pay, access route, edits, disagreements, publication
+  decisions, time burden, maintenance owner and contributor feedback. ·
+  Status/Caution: Priority execution candidate; requires budget and human owner
+related_source_system: Toolkit + selected source system
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row226
+  source_lineage: Internal pilot proposal
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

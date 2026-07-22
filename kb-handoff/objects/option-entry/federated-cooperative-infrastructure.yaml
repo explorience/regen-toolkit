@@ -1,0 +1,24 @@
+title: Federated Cooperative Infrastructure
+type: option-entry
+category: governance
+what_it_is: >-
+  Pool software, standards, training, procurement, and knowledge across local
+  cooperatives while preserving local worker governance.
+potential_uses: >-
+  Local delivery, care, data work, food, mobility, and community-service
+  platforms.
+dependencies: >-
+  Shared governance, sustainable financing, interoperability, local autonomy,
+  technical maintenance.
+tradeoffs: >-
+  Federation governance may centralize power; local members may have unequal
+  capacity.
+context: CoopCycle / PCC
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row187
+  source_lineage: https://coopcycle.org/en/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

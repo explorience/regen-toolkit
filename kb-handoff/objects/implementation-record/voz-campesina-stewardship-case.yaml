@@ -1,0 +1,21 @@
+title: Voz Campesina Stewardship Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace production, regional contribution, editorial governance, licensing,
+  archives and maintenance of the long-running audio program.
+what_returns_to_commons: Direct knowledge-commons and movement-media implementation case.
+notes: >-
+  What to capture: Editorial roles, episode sourcing, languages, consent,
+  distribution, corrections, funding, archives and reuse policy. ·
+  Status/Caution: Candidate; licensing and current governance need review
+related_source_system: CLOC / Radio Mundo Real
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row307
+  source_lineage: https://cloc-viacampesina.net/nuestros-medios
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

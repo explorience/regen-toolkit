@@ -1,0 +1,20 @@
+title: Cross-Cluster Thinker Lens
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use selected thinkers only when they illuminate at least two existing clusters
+  and expose a concrete design tradeoff.
+potential_uses: Review / Structural Integrity
+dependencies: Final thinker branching
+tradeoffs: >-
+  Prevents prestige lists and biography accumulation; requires explicit links to
+  objects, options and cases.
+context: Review workflow
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row341
+  source_lineage: High-value normalization input
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

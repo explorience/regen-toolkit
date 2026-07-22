@@ -1,0 +1,18 @@
+title: Care language proves a system is caring
+type: claim-evidence
+claim: Care language proves a system is caring
+interpretation: >-
+  Treat care as a claim requiring evidence about resources, workload, authority,
+  competence, feedback and outcomes.
+uncertainty: >-
+  Projects can use care rhetoric while underfunding labor, concentrating burdens
+  or avoiding accountability.
+evidence_stance: qualifying
+context: Care and social reproduction cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row306
+  source_lineage: Internal cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

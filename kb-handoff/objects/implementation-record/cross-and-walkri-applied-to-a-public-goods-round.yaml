@@ -1,0 +1,23 @@
+title: CROSS and WALKRI Applied to a Public-Goods Round
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Configure one real or simulated grant round with explicit obligations and
+  instrument definitions, then compare burden and evidence quality with the
+  existing process.
+what_returns_to_commons: Connects standards work to Batch 1B funding systems and implementation memory.
+notes: >-
+  What to capture: Obligation mode; gates; fields; prompts; provenance; grantee
+  burden; reviewer consistency; outcomes; disputes; maintenance. ·
+  Status/Caution: High-value but consequential; should include grantee and
+  reviewer perspectives
+related_source_system: CROSS / WALKRI
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row147
+  source_lineage: https://github.com/CrossWalkri/CROSS
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,17 @@
+title: gov/acc Governance Research Roadmap
+type: resource
+resource_type: Research roadmap
+url: https://gov-acc.metagov.org/
+original_source: Metagov / gov/acc
+notes: >-
+  Why add: Strong live case for field sensemaking and AI-assisted
+  research-roadmap creation. · Status/Caution: Work in progress; sampling and
+  synthesis boundaries must be visible · Parent source system: Metagov / gov/acc
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row104
+  source_lineage: https://gov-acc.metagov.org/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

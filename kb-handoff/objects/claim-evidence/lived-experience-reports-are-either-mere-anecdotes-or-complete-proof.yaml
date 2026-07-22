@@ -1,0 +1,18 @@
+title: Lived-experience reports are either mere anecdotes or complete proof
+type: claim-evidence
+claim: Lived-experience reports are either mere anecdotes or complete proof
+interpretation: >-
+  Treat lived experience as essential evidence with stated scope; combine it
+  with technical, policy and institutional investigation.
+uncertainty: >-
+  Reports can reveal harms and institutional patterns while still requiring
+  transparent methods, corroboration and protection of reporters.
+evidence_stance: qualifying
+context: Algorithmic Justice League
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row269
+  source_lineage: https://www.ajl.org/flyreport
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

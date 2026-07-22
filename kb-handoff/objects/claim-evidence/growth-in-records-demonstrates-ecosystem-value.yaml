@@ -1,0 +1,16 @@
+title: Growth in records demonstrates ecosystem value
+type: claim-evidence
+claim: Growth in records demonstrates ecosystem value
+interpretation: Report growth alongside commons-health and outcome indicators.
+uncertainty: >-
+  Record counts measure output, not usefulness, accuracy, maintenance, reuse,
+  decision quality, or avoided harm.
+evidence_stance: neutral
+context: Toolkit self-governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row170
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

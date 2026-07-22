@@ -1,0 +1,25 @@
+title: Indigenous Data Governance Steward Track
+type: option-entry
+category: governance
+what_it_is: >-
+  A contributor and reviewer track for records involving Indigenous rights,
+  collective data, knowledge, lands, collections or ecological information.
+potential_uses: >-
+  Toolkit governance, public-use review, source-system selection and data-layer
+  handoff.
+dependencies: >-
+  Compensated Indigenous expertise, regional/community relationships,
+  conflict-of-interest rules and decision authority.
+tradeoffs: >-
+  A generic central panel could reproduce extraction and cannot replace
+  community-specific governance.
+context: GIDA / Local Contexts / regional networks
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row177
+  source_lineage: Internal cluster synthesis
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

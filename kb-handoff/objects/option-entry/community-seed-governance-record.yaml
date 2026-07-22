@@ -1,0 +1,25 @@
+title: Community Seed Governance Record
+type: option-entry
+category: governance
+what_it_is: >-
+  Document seed custodianship, exchange rules, collective rights, threats,
+  biodiversity practices, benefit sharing and restrictions on external reuse.
+potential_uses: >-
+  Agroecology, biodiversity, Indigenous and peasant knowledge, ecological data
+  governance.
+dependencies: >-
+  Community authority, sensitivity controls, legal context, Local Contexts/CARE
+  alignment, non-extractive research rules.
+tradeoffs: >-
+  Database visibility can facilitate biopiracy, privatization or
+  decontextualized AI use.
+context: La Vía Campesina Peasant Seeds
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row267
+  source_lineage: >-
+    https://viacampesina.org/en/2025/05/asia-conference-on-agroecology-and-seeds-highlights-diverse-experiences-in-peasant-seed-sovereignty/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

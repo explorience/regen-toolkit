@@ -1,0 +1,25 @@
+title: Indigenous Data Governance and AI Workshop Learning Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document the 2026 network workshop’s priorities, regional perspectives,
+  agreements, disagreements and follow-on work around AI.
+what_returns_to_commons: >-
+  Provides current Indigenous-led AI governance memory without relying on
+  external summaries.
+notes: >-
+  What to capture: Participating networks, agenda, public outputs,
+  community-specific concerns, proposed actions, governance and subsequent
+  implementations. · Status/Caution: Use only public or participant-approved
+  material; do not flatten regional differences
+related_source_system: GIDA
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row179
+  source_lineage: https://www.gida-global.org/gidaidsovaiworkshop
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

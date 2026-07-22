@@ -1,0 +1,16 @@
+subject: Zenzeleni nonprofit support company
+predicate: supports
+object: Zenzeleni cooperatives
+type: relationship-record
+title: Zenzeleni nonprofit support company — supports — Zenzeleni cooperatives
+original_relationship: supports
+evidence: Shared technical, financial, regulatory and organizational support
+scope: Review accountability and dependency
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row308
+  source_lineage: https://zenzeleni.net/our-model/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

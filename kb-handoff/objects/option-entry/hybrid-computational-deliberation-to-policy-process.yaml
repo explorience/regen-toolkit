@@ -1,0 +1,27 @@
+title: Hybrid Computational Deliberation-to-Policy Process
+type: option-entry
+category: governance
+what_it_is: >-
+  A staged process combining open issue framing, large-scale statement voting
+  and opinion mapping, facilitated stakeholder interpretation, public
+  consultation, and a documented institutional response.
+potential_uses: >-
+  Policy consultation, contested platform regulation, civic agenda setting,
+  public problem framing, and hybrid online-offline deliberation.
+dependencies: >-
+  Legitimate initiating authority, broad recruitment, moderation, open data,
+  skilled facilitation, stakeholder inclusion, agency commitment, policy
+  follow-through, and retrospective review.
+tradeoffs: >-
+  Can overstate consensus, underrepresent affected groups, privilege digitally
+  connected participants, hide moderation power, and produce commitments without
+  implementation.
+context: vTaiwan / Polis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row107
+  source_lineage: https://info.vtaiwan.tw/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

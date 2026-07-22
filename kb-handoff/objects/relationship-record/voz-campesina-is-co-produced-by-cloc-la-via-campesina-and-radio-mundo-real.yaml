@@ -1,0 +1,17 @@
+subject: Voz Campesina
+predicate: is_co_produced_by
+object: CLOC–La Vía Campesina and Radio Mundo Real
+type: relationship-record
+title: Voz Campesina — is_co_produced_by — CLOC–La Vía Campesina and Radio Mundo Real
+original_relationship: is co-produced by
+evidence: Official media page describes joint production.
+scope: Collaboration, not ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row470
+  source_lineage: https://cloc-viacampesina.net/nuestros-medios
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

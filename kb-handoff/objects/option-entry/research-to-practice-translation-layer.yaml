@@ -1,0 +1,24 @@
+title: Research-to-Practice Translation Layer
+type: option-entry
+category: governance
+what_it_is: >-
+  Synthesize academic literature into accessible findings, interactive data,
+  practical recommendations, and implementation resources.
+potential_uses: >-
+  Claim review, practitioner guidance, options library, training, funding
+  decisions.
+dependencies: >-
+  Transparent review methods, source lists, evidence quality, context, updates,
+  and uncertainty language.
+tradeoffs: >-
+  Simplification can flatten disagreement, heterogeneity, and methodological
+  limitations.
+context: People Powered
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row85
+  source_lineage: https://www.peoplepowered.org/research-data
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

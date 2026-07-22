@@ -1,0 +1,19 @@
+title: Community Land Trust
+type: resource
+resource_type: Governance / Ownership Model
+url: https://www.cltweb.org/
+original_source: International Center for Community Land Trusts
+notes: >-
+  Why add: Board structure and resident power vary by jurisdiction and
+  organization · Status/Caution: Model family, not one standardized form ·
+  Parent source system: International Center for Community Land Trusts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row855
+  source_lineage: https://www.cltweb.org/
+original_object_class: Governance / Funding Mechanism
+normalization_flag: REPAIR-NO-855
+review_needs: 'Matty dup-flag REPAIR-NO-855: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

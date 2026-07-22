@@ -1,0 +1,19 @@
+subject: Commons-health indicators
+predicate: must_not_rank
+object: individual contributors
+type: relationship-record
+title: Commons-health indicators — must_not_rank — individual contributors
+original_relationship: must not rank
+evidence: >-
+  Health review should focus on system conditions rather than hidden worker
+  performance scoring.
+scope: Non-claim governance boundary
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row240
+  source_lineage: Internal labor-maintenance review
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

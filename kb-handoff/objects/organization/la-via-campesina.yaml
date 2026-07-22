@@ -1,0 +1,19 @@
+title: La Vía Campesina
+type: organization
+org_type: Movement / source system
+url: https://viacampesina.org/en/international-peasants-voice/
+steward: La Vía Campesina
+notes: >-
+  Why add: Selected next movement-led source system with deep territorial,
+  ecological, rights and knowledge branches. · Status/Caution: Primary movement
+  source; umbrella scale requires regional and member-level differentiation ·
+  Parent source system: La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row633
+  source_lineage: https://viacampesina.org/en/international-peasants-voice/
+original_object_class: Organization / Network
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

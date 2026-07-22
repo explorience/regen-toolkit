@@ -1,0 +1,25 @@
+title: OpenCivics Genesis Round — GG19
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A curated civic public-goods quadratic-funding round using consortium
+  membership and thematic selection as field-building experiments.
+what_returns_to_commons: >-
+  Concrete case connecting mechanism design, network membership, curation, and
+  civic-field development.
+notes: >-
+  What to capture: Round design, matching pool, operators, applicants, grantees,
+  donor distribution, selection disputes, sybil controls, reporting,
+  collaboration after funding, and lessons. · Status/Caution: Implementation
+  confirmed by announcement; retrospective and outcomes still needed.
+related_source_system: OpenCivics / Gitcoin
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row41
+  source_lineage: >-
+    https://gov.gitcoin.co/t/announcing-the-opencivics-genesis-round-for-gg19/16879
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

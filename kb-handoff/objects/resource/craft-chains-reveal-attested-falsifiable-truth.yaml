@@ -1,0 +1,18 @@
+title: CRAFT — Chains Reveal Attested Falsifiable Truth
+type: resource
+resource_type: Meta-standard
+url: https://github.com/CrossWalkri/craft-meta-standard
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: Directly relevant to claim-evidence discipline, standards intake and
+  falsifiability. · Status/Caution: Specification is not proof that an
+  evaluation system is reliable in practice · Parent source system: Durgadas /
+  CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row377
+  source_lineage: https://github.com/CrossWalkri/craft-meta-standard
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

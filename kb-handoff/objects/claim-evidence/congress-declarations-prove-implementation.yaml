@@ -1,0 +1,18 @@
+title: Congress declarations prove implementation
+type: claim-evidence
+claim: Congress declarations prove implementation
+interpretation: >-
+  Record declarations as governance and learning artifacts, then separately
+  trace decisions, resources and follow-through.
+uncertainty: >-
+  Congress outputs establish agendas and public commitments, not completed
+  policy, budget allocation or territorial outcomes.
+evidence_stance: qualifying
+context: ANAMURI Congresses
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row462
+  source_lineage: https://anamuri.cl/tercer-congreso/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

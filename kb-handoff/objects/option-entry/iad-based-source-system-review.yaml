@@ -1,0 +1,26 @@
+title: IAD-Based Source-System Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Review a source system through participants, action situations, rules,
+  material conditions, community attributes, interactions, outcomes, and
+  evaluative criteria.
+potential_uses: >-
+  Source-system cards, governance reviews, implementation cases, platform
+  analysis.
+dependencies: >-
+  Contextual evidence, rules-in-use data, affected-party perspectives, reviewers
+  familiar with the domain.
+tradeoffs: >-
+  Framework may be applied mechanically or produce false analytical
+  completeness.
+context: Elinor Ostrom / Ostrom Workshop
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row124
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/courses-teaching/teaching-tools/iad-framework/index.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

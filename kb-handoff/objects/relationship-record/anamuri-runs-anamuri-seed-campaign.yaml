@@ -1,0 +1,17 @@
+subject: ANAMURI
+predicate: runs
+object: ANAMURI Seed Campaign
+type: relationship-record
+title: ANAMURI — runs — ANAMURI Seed Campaign
+original_relationship: runs
+evidence: Official campaign page connects seeds, territory and food sovereignty.
+scope: Campaign activity and territorial reach need current review.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row481
+  source_lineage: https://anamuri.cl/campana-semilla/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

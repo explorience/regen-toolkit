@@ -1,0 +1,18 @@
+title: Computational Democracy Project
+type: organization
+org_type: Organization / maintainer
+url: https://compdemocracy.org/
+steward: Computational Democracy Project / Polis + vTaiwan
+notes: >-
+  Why add: Separates the stewarding organization from the Polis software and
+  from vTaiwan implementations. · Status/Caution: Current primary-source record;
+  organizational claims require dated review · Parent source system:
+  Computational Democracy Project / Polis + vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row263
+  source_lineage: https://compdemocracy.org/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,22 @@
+title: Finca-Escuela Raúl Valbuena
+type: resource
+resource_type: Place / learning infrastructure
+url: >-
+  https://cloc-viacampesina.net/colombia-se-inauguro-en-viota-el-instituto-agroecologico-latinoamericano-maria-cano
+original_source: FENSUAGRO / IALA María Cano
+notes: >-
+  Why add: Makes land and physical maintenance visible as part of knowledge
+  infrastructure. · Status/Caution: Land tenure, governance, budget and current
+  maintenance not established · Parent source system: FENSUAGRO / IALA María
+  Cano
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row810
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-se-inauguro-en-viota-el-instituto-agroecologico-latinoamericano-maria-cano
+original_object_class: Case / Place / Infrastructure
+normalization_flag: DUP-NE-761
+review_needs: 'Matty dup-flag DUP-NE-761: IALA María Cano'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

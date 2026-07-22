@@ -1,0 +1,18 @@
+title: Audit the Streets
+type: resource
+resource_type: Tool / public data project
+url: https://audit-the-streets.dfprod.dataplusfeminism.mit.edu/search-cities
+original_source: Data + Feminism Lab
+notes: >-
+  Why add: Concrete classification and public-memory case connecting datasets,
+  place names, verification and civic action. · Status/Caution: Data matching
+  and verification do not settle historical interpretation or community
+  priorities · Parent source system: Data + Feminism Lab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row466
+  source_lineage: https://audit-the-streets.dfprod.dataplusfeminism.mit.edu/search-cities
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

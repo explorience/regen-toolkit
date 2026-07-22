@@ -1,0 +1,21 @@
+title: Londa Country Report to Rights Action Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one country report's findings and recommendations into advocacy, public
+  education, litigation, regulation or institutional response.
+what_returns_to_commons: Converts annual monitoring into evidence-bearing implementation memory.
+notes: >-
+  What to capture: Country authors, evidence, affected groups, recommendations,
+  dissemination, response, changes, unresolved harms and later reporting. ·
+  Status/Caution: Candidate; select a country with strong primary documentation
+related_source_system: Paradigm Initiative
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row244
+  source_lineage: https://paradigmhq.org/londa-25/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

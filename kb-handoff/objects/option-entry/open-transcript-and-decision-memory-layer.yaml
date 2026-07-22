@@ -1,6 +1,6 @@
 title: Open Transcript and Decision-Memory Layer
 type: option-entry
-category: knowledge-documentation
+category: governance
 what_it_is: >-
   Publish searchable transcripts, meeting context and decision materials so
   participation and policy processes remain inspectable and reusable.
@@ -13,10 +13,12 @@ dependencies: >-
 tradeoffs: >-
   Radical transparency can chill participation, expose sensitive actors or
   privilege those able to process large archives.
+context: PDIS / SayIt / Audrey Tang lineage
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row8
+  origin: Canonical_DB.xlsx#Option Candidates!row139
   source_lineage: https://sayit.pdis.nat.gov.tw/speaker/audrey-tang-2
-work_order: wo-e5b7999ca3a5
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

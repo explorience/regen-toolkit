@@ -1,0 +1,24 @@
+title: IARAA Farmer and Educator Evaluation Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Run paid, accessible tests with farmers, agroecology educators and technicians
+  across the three interface modes.
+what_returns_to_commons: >-
+  Moves the project from demonstration and organizer claims toward affected-user
+  evidence.
+notes: >-
+  What to capture: Real tasks, citations, usefulness, uncertainty, harms,
+  language, low-bandwidth access, correction and desired governance rights. ·
+  Status/Caution: Candidate; requires budget, consent, privacy and remediation
+  process
+related_source_system: IARAA
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row292
+  source_lineage: Internal audit design
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

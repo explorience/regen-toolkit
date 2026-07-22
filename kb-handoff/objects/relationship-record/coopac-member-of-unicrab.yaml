@@ -1,0 +1,18 @@
+subject: COOPAC
+predicate: member_of
+object: UNICRAB
+type: relationship-record
+title: COOPAC — member_of — UNICRAB
+original_relationship: possible member / affiliate of
+evidence: >-
+  The case fits the network’s cooperative scope, but explicit public membership
+  evidence was not located.
+scope: Unresolved relationship lead
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row443
+  source_lineage: https://mst.org.br/2024/05/03/conheca-a-unicrab/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

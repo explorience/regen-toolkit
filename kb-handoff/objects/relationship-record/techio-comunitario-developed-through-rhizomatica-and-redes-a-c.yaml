@@ -1,0 +1,17 @@
+subject: Techio Comunitario
+predicate: developed_through
+object: Rhizomatica and REDES A.C.
+type: relationship-record
+title: Techio Comunitario — developed_through — Rhizomatica and REDES A.C.
+original_relationship: developed through
+evidence: Community technology promoter training and peer network
+scope: Do not erase community co-production
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row302
+  source_lineage: https://www.rhizomatica.org/what-we-do/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

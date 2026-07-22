@@ -1,0 +1,18 @@
+subject: Conflict and repair pathway
+predicate: supports
+object: Commons legitimacy and contributor safety
+type: relationship-record
+title: >-
+  Conflict and repair pathway — supports — Commons legitimacy and contributor
+  safety
+original_relationship: supports
+evidence: Provides bounded response to harm, disagreement and relational breakdown.
+scope: Must not overpromise legal or therapeutic capacity
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row284
+  source_lineage: Internal applied review
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

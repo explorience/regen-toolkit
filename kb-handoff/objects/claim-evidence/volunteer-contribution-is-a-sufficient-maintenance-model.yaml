@@ -1,0 +1,18 @@
+title: Volunteer contribution is a sufficient maintenance model
+type: claim-evidence
+claim: Volunteer contribution is a sufficient maintenance model
+interpretation: >-
+  State which roles are volunteer, paid, reciprocal, or currently unfunded;
+  identify sustainability risks and boundaries.
+uncertainty: >-
+  Unpaid labor can create burnout, exclusion, dependency on privileged
+  contributors, and unreliable continuity.
+evidence_stance: qualifying
+context: Toolkit operations
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row281
+  source_lineage: Internal labor-maintenance review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

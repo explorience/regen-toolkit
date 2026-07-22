@@ -1,0 +1,18 @@
+title: Policy playbooks prove implementation
+type: claim-evidence
+claim: Policy playbooks prove implementation
+interpretation: >-
+  Classify resources as proposals, adopted policies, implementations or
+  evaluated cases.
+uncertainty: >-
+  Collaboratively developed resources document strategies and proposals, not
+  necessarily enacted or evaluated outcomes.
+evidence_stance: qualifying
+context: Energy Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row490
+  source_lineage: https://energydemocracy.us/resources/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: Community-Situated Governance Fellowship
+type: option-entry
+category: governance
+what_it_is: >-
+  Support researchers embedded in underrepresented communities to create locally
+  useful governance or infrastructure artifacts.
+potential_uses: >-
+  Civic tech, community research, place-based governance, worker and contributor
+  safety, plural knowledge systems.
+dependencies: >-
+  Trusted hosts, funding, ethics, community accountability, artifact ownership,
+  follow-up support.
+tradeoffs: >-
+  Extractive research, short-term fellowships, outsider framing, underfunded
+  maintenance, and unsafe publication.
+context: Metagov / Groundwork Fellowship
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row31
+  source_lineage: https://metagov.org/projects/groundwork-fellowship/documentation
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,22 @@
+title: Freedom Flyers Lived-Experience Accountability Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how traveler reports, opt-out education, scorecards and the Comply to
+  Fly report interact with TSA policy and public understanding.
+what_returns_to_commons: Strong case for affected-party evidence in a live public biometric system.
+notes: >-
+  What to capture: Recruitment, consent, report fields, sampling, safety,
+  analysis, policy claims, institutional response, opt-out practice and updates.
+  · Status/Caution: Current policy and airport practice require date-specific
+  verification
+related_source_system: Algorithmic Justice League
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row184
+  source_lineage: https://www.ajl.org/flyreport
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

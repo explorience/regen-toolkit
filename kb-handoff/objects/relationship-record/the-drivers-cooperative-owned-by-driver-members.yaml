@@ -1,0 +1,17 @@
+subject: The Drivers Cooperative
+predicate: owned_by
+object: driver members
+type: relationship-record
+title: The Drivers Cooperative — owned_by — driver members
+original_relationship: owned by
+evidence: Organization describes itself as driver-owned.
+scope: Ownership claim; actual governance requires review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row228
+  source_lineage: https://drivers.coop/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

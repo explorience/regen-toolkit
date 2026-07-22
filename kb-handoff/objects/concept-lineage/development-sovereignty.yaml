@@ -1,0 +1,19 @@
+title: Development sovereignty
+type: concept-lineage
+short_description: >-
+  Lens asking whether digital systems support self-determined development rather
+  than deepen external dependency, extractivism or policy capture.
+toolkit_usage: Strong corrective to infrastructure-only digital-development narratives.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Strong corrective to infrastructure-only digital-development
+  narratives. · Status/Caution: Broad concept; operational meaning varies by
+  context · Parent source system: IT for Change
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row584
+  source_lineage: https://itforchange.net/research/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

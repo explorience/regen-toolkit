@@ -1,0 +1,18 @@
+title: Gender Shades
+type: resource
+resource_type: Research project / paper
+url: https://gs.ajl.org/
+original_source: Algorithmic Justice League / MIT
+notes: >-
+  Why add: Canonical case for subgroup evaluation, audit design, benchmark
+  politics and institutional response. · Status/Caution: Binary
+  gender-classification framing is itself limited; accuracy improvement does not
+  justify the use case · Parent source system: Algorithmic Justice League / MIT
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row476
+  source_lineage: https://gs.ajl.org/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

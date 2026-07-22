@@ -1,0 +1,23 @@
+title: Southern Digital Justice Review Gate
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Require digital-system reviews to include development sovereignty, gender,
+  labor, geopolitical dependency, data justice, access inequality and public
+  value.
+potential_uses: >-
+  AI systems, DPI, community data, civic technology, knowledge commons and
+  public-facing infrastructure.
+dependencies: >-
+  Regional expertise, affected-community review, country-specific evidence and
+  political-economy analysis.
+tradeoffs: Can become a generic checklist or imply one Southern perspective.
+context: IT for Change / Research ICT Africa
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row239
+  source_lineage: Internal cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

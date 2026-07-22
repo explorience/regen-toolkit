@@ -1,0 +1,23 @@
+title: Rules-in-Use
+type: concept-lineage
+short_description: >-
+  The actually practiced rules and norms shaping behavior, distinct from formal
+  rules written in constitutions, policies, or platform documentation.
+toolkit_usage: >-
+  Critical for testing whether governance descriptions match lived
+  implementation.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Critical for testing whether governance descriptions match lived
+  implementation. · Status/Caution: Requires observation and affected-party
+  evidence, not only document review · Parent source system: IAD / Ostrom
+  lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row319
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/courses-teaching/teaching-tools/iad-framework/index.html
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

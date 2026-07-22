@@ -1,0 +1,26 @@
+title: Solidarity-Funded Knowledge Infrastructure
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Use broad supporter networks and recurring solidarity campaigns to maintain
+  movement-owned educational infrastructure.
+potential_uses: Knowledge commons, community schools, archives and steward-support systems.
+dependencies: >-
+  Transparent costs, contributor expectations, diversified revenue, labor
+  support and accountability.
+tradeoffs: >-
+  Campaign success may be episodic; unpaid solidarity can conceal structural
+  funding gaps.
+context: ENFF
+review_needs: >-
+  option category inferred — confirm; Matty dup-flag DUP-OP-280:
+  Movement-Governed AI Knowledge Assistant
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row280
+  source_lineage: >-
+    https://mst.org.br/2026/06/18/escola-nacional-florestan-fernandes-faz-campanha-de-bilhetes-da-solidariedade-ate-27-de-junho/
+normalization_flag: DUP-OP-280
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

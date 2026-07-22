@@ -1,0 +1,25 @@
+title: Participation Steward Learning Track
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  A track for facilitators and stewards combining institutional analysis, cases
+  and methods, practical training, tool configuration and implementation-memory
+  duties.
+potential_uses: >-
+  Local nodes, civic technologists, commons stewards and public-interest
+  builders.
+dependencies: >-
+  Curated learning resources, mentors, practice cases, safeguarding and review
+  roles.
+tradeoffs: >-
+  Can professionalize participation in ways that marginalize lived expertise or
+  create credentialism.
+context: People Powered + Participedia + GKC + Decidim/Polis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row106
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,24 @@
+title: Indigenous Data Sovereignty
+type: concept-lineage
+short_description: >-
+  The right and interest of Indigenous Peoples to govern the collection,
+  ownership, access, use and application of data about their peoples, lands,
+  resources, cultures and knowledges.
+toolkit_usage: >-
+  Reframes data governance from individual privacy toward collective rights,
+  jurisdiction, benefit and self-determination.
+original_object_type: Concept / rights framework
+notes: >-
+  Why add: Reframes data governance from individual privacy toward collective
+  rights, jurisdiction, benefit and self-determination. · Status/Caution:
+  Different nations and networks define and enact sovereignty in distinct ways ·
+  Parent source system: GIDA and regional Indigenous networks
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row440
+  source_lineage: https://www.gida-global.org/history-of-indigenous-data-sovereignty
+original_object_class: Framework / Concept
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

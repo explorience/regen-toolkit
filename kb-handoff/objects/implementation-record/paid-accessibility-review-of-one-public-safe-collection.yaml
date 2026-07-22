@@ -1,0 +1,24 @@
+title: Paid Accessibility Review of One Public-Safe Collection
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A disabled reviewer tests one bounded workbook collection or public view
+  across navigation, language, formats, data density, AI summaries and
+  correction routes.
+what_returns_to_commons: >-
+  Tests accessibility as lived use and governance rather than checklist
+  compliance.
+notes: >-
+  What to capture: Access barriers, workarounds, time, compensation,
+  recommendations, accepted/rejected changes and remediation. · Status/Caution:
+  Candidate; reviewer must define safe scope and terms
+related_source_system: Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row227
+  source_lineage: Internal pilot proposal
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

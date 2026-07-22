@@ -1,0 +1,20 @@
+title: Peasant Seeds Campaign
+type: resource
+resource_type: Movement campaign
+url: >-
+  https://viacampesina.org/en/2025/05/asia-conference-on-agroecology-and-seeds-highlights-diverse-experiences-in-peasant-seed-sovereignty/
+original_source: La Vía Campesina
+notes: >-
+  Why add: Connects knowledge commons, biodiversity, rights, livelihoods and
+  ecological sovereignty. · Status/Caution: Seed traditions and protocols are
+  community-specific; public documentation does not imply unrestricted reuse ·
+  Parent source system: La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row651
+  source_lineage: >-
+    https://viacampesina.org/en/2025/05/asia-conference-on-agroecology-and-seeds-highlights-diverse-experiences-in-peasant-seed-sovereignty/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

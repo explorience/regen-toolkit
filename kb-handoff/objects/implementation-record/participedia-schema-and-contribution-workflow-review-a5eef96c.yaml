@@ -1,0 +1,25 @@
+title: Participedia Schema and Contribution Workflow Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Map case, method, organization, and collection fields together with Quick
+  Submit, editing, contributor history, staff-editor prompts, licensing, and CSV
+  exports.
+what_returns_to_commons: >-
+  Closest direct structural comparator for the Toolkit database and future
+  contributor interface.
+notes: >-
+  What to capture: Field inventory, required/optional fields, vocabularies,
+  relationships, contributor roles, review status, histories, exports, licenses,
+  and known data-quality issues. · Status/Caution: Priority case; compare schema
+  without copying it mechanically.
+related_source_system: Participedia
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row71
+  source_lineage: https://participedia.net/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

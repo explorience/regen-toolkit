@@ -1,0 +1,24 @@
+title: Philipson Estate Soil-Carbon Evidence Chain
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: Regen Network / Ecometric
+what_returns_to_commons: >-
+  How methodology, evidence, role structure, verification and registry events
+  fit together; which claims remain uncertain.
+notes: >-
+  What to capture: Connect project plan, 2021 baseline, annual monitoring,
+  remote sensing and soil sampling, 2023 vintage verification, registry
+  approval, 3,816 issued credits and recorded retirements. · Status/Caution:
+  Candidate — strongest soil-carbon case in this batch
+related_source_system: Ecological implementation case
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row13
+  source_lineage: >-
+    Project page; project plan; monitoring reports; verification report;
+    credit-batch records; methodology.
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

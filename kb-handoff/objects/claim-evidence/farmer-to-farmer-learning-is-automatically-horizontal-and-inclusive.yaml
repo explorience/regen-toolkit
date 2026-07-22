@@ -1,0 +1,18 @@
+title: Farmer-to-farmer learning is automatically horizontal and inclusive
+type: claim-evidence
+claim: Farmer-to-farmer learning is automatically horizontal and inclusive
+interpretation: >-
+  Describe the learning design and review actual participation, authority,
+  compensation and adaptation.
+uncertainty: >-
+  Informal expertise, gender, age, land access, language and movement status can
+  shape who teaches, speaks and benefits.
+evidence_stance: qualifying
+context: Agroecology schools
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row374
+  source_lineage: https://viacampesina.org/en/agroecology/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

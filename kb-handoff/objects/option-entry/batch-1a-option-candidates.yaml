@@ -1,0 +1,17 @@
+title: Batch 1A option candidates
+type: option-entry
+category: coordination
+what_it_is: >-
+  Extracted reusable options from the first five deepened Tier 1 source-system
+  cards.
+notes: >-
+  Priority: Extracted reusable options from the first five deepened Tier 1
+  source-system cards. · Next: Review extracted option rows and choose 3-5 to
+  turn into full option templates. · Notes: Added in Batch 1A Extraction update.
+review_needs: Discovery_Pool promotion — confirm category + source
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-B1A-EXTRACT-001
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

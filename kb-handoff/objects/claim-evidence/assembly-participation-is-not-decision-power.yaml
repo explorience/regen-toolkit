@@ -1,0 +1,17 @@
+title: Assembly participation is not decision power
+type: claim-evidence
+claim: Assembly participation is not decision power
+interpretation: Trace proposals, delegates, voting/consensus rules and follow-through.
+uncertainty: >-
+  Women, youth and diversity assemblies can surface agendas without guaranteeing
+  influence on final congress decisions.
+evidence_stance: qualifying
+context: CLOC constituency assemblies
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row445
+  source_lineage: >-
+    https://cloc-viacampesina.net/kit-de-prensa-viii-congreso-de-la-cloc-via-campesina
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

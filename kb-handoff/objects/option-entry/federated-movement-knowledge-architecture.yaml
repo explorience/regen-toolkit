@@ -1,0 +1,25 @@
+title: Federated Movement Knowledge Architecture
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Combine autonomous member organizations, regional articulations, constituency
+  assemblies, global conferences, declarations, newsletters and schools without
+  creating one centralized knowledge authority.
+potential_uses: >-
+  Network-of-networks knowledge commons, movement archives, federated
+  source-system design.
+dependencies: >-
+  Clear autonomy, multilingual infrastructure, delegation rules, dissent
+  records, reciprocal knowledge return, maintenance funding.
+tradeoffs: >-
+  International summaries can flatten member differences; central archives may
+  privilege well-resourced languages and regions.
+context: La Vía Campesina / Nyéléni
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row263
+  source_lineage: https://viacampesina.org/en/members-list/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

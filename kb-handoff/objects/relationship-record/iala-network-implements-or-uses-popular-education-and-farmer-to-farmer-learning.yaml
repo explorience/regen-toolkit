@@ -1,0 +1,18 @@
+subject: IALA network
+predicate: implements_or_uses
+object: Popular education and farmer-to-farmer learning
+type: relationship-record
+title: >-
+  IALA network — implements_or_uses — Popular education and farmer-to-farmer
+  learning
+original_relationship: uses
+evidence: CLOC training overview names shared methodological orientation.
+scope: Shared principle, not identical curriculum
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row467
+  source_lineage: https://cloc-viacampesina.net/procesos-de-formacion-que-impulsa-la-cloc-lvc
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

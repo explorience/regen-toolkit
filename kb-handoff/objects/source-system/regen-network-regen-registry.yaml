@@ -13,16 +13,23 @@ why_it_matters: >-
   ledger, and public library connecting methodologies, project registration,
   monitoring, reporting, verification, credit issuance, ecological data, and
   market infrastructure.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row5
-  source_lineage: https://www.registry.regen.network/
 caution: >-
   Registry status, on-chain issuance, data anchoring, attestations,
   verification, and credit retirement each mean different things. None alone
   proves ecological outcomes, community legitimacy, additionality, permanence,
   or equitable benefit sharing. Place-based and Indigenous knowledge requires
   consent and context.
+extraction_status: >-
+  Ecological-claim and MRV workflows; methodology development and review
+  histories; project-credit-batch lineage; data anchoring and attestation;
+  open-source registry infrastructure; biodiversity, soil-carbon,
+  marine-restoration, watershed, and biochar examples.
+notes: 'Role: Core Batch 1B source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row4
+  source_lineage: https://www.registry.regen.network/
+high_risk: true
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

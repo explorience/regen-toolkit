@@ -1,0 +1,19 @@
+subject: IALA María Cano
+predicate: collaborates_with
+object: IALA Network
+type: relationship-record
+title: IALA María Cano — collaborates_with — IALA Network
+original_relationship: participates in
+evidence: >-
+  School exchanges and CLOC materials situate María Cano within the continental
+  IALA family.
+scope: Network affiliation does not imply standardized governance
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row506
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

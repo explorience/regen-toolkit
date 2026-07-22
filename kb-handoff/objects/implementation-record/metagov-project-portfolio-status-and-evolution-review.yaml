@@ -1,0 +1,24 @@
+title: Metagov Project Portfolio Status and Evolution Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace a selection of active, paused, completed, and superseded projects to
+  understand what continued, changed, failed, or moved into other initiatives.
+what_returns_to_commons: >-
+  Prevents the Toolkit from treating an impressive project directory as a flat
+  list of currently maintained solutions.
+notes: >-
+  What to capture: Original purpose, people, funding, technical artifacts,
+  community use, status transitions, dependencies, lessons, successor projects,
+  and archival quality. · Status/Caution: Priority candidate; include both
+  successful and discontinued work.
+related_source_system: Metagov / Governance Research Network
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row15
+  source_lineage: https://metagov.org/projects
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

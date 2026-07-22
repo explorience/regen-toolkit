@@ -1,0 +1,17 @@
+title: 'Escuela S.U. Botijas #1 agriculture program'
+type: resource
+resource_type: School-garden case
+url: https://www.agroecologiapr.org/escuela_botijas1.htm
+original_source: Orocovis, Puerto Rico
+notes: >-
+  Why add: Adds youth, public education and school-garden practice. ·
+  Status/Caution: Historical snapshot; current status and outcomes unknown ·
+  Parent source system: Orocovis, Puerto Rico
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row838
+  source_lineage: https://www.agroecologiapr.org/escuela_botijas1.htm
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

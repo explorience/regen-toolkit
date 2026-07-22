@@ -1,0 +1,21 @@
+title: Review workflow
+type: option-entry
+category: implementation-operations
+what_it_is: CLOC–La Vía Campesina
+potential_uses: >-
+  Trace selected congress commitments into regional plans, member action and
+  later review.
+dependencies: >-
+  Prevents political declarations from being mistaken for completed
+  implementation.
+tradeoffs: >-
+  https://cloc-viacampesina.net/declaracion-final-del-viii-congreso-continental-de-la-cloc-via-campesina
+context: Continental Declaration-to-Implementation Trace
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row312
+  source_lineage: Requires multi-year and member-controlled follow-up
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

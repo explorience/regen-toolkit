@@ -1,0 +1,24 @@
+title: Multi-Lens Thinker Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Review a source system or proposal through four distinct lenses: institutional
+  fit, commons transition, participatory practice, and structural integrity.
+potential_uses: >-
+  Source-system review, option design, implementation cases, governance
+  critique.
+dependencies: >-
+  High-quality source material, clear review question, reviewers able to
+  preserve disagreements.
+tradeoffs: >-
+  Can become an overlarge checklist or falsely imply that four lenses exhaust
+  relevant perspectives.
+context: Ostrom / Bauwens / Tang / Durgadas
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row149
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,29 +1,20 @@
 title: Articulación Continental de Juventudes
 type: resource
+resource_type: Constituency articulation
 url: >-
   https://cloc-viacampesina.net/rumbo-vi-asamblea-continental-de-jovenes-de-la-cloc-via-campesina
-resource_type: network
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row28
-summary: >-
-  Organic continental space for rural, peasant, Indigenous and Afro-descendant
-  youth exchange, analysis and leadership.
-original_object_type: Constituency articulation
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Adds generational governance, rural retention and movement-school
+  pathways. · Status/Caution: Youth participation and durable authority vary by
+  region and organization · Parent source system: CLOC–La Vía Campesina
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row28
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: >-
-  CLOC–La Vía Campesina |
-  https://cloc-viacampesina.net/rumbo-vi-asamblea-continental-de-jovenes-de-la-cloc-via-campesina
-notes: >-
-  Why add: Adds generational governance, rural retention and movement-school
-  pathways. Status/Caution: Youth participation and durable authority vary by
-  region and organization Edge case: Crosswalk marks "Constituency articulation"
-  Other/Review (manual); mapped to resource as a constituency/network-adjacent
-  body. T4 gap: framework has no dedicated organization/network entity schema;
-  mapped to resource per ingest instructions.
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row755
+  source_lineage: >-
+    https://cloc-viacampesina.net/rumbo-vi-asamblea-continental-de-jovenes-de-la-cloc-via-campesina
+original_object_class: Other / Review
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

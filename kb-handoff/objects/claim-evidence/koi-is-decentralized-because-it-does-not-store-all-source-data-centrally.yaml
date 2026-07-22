@@ -1,0 +1,18 @@
+title: KOI is decentralized because it does not store all source data centrally
+type: claim-evidence
+claim: KOI is decentralized because it does not store all source data centrally
+interpretation: >-
+  Describe which components are distributed, who controls each node and
+  interface, and where authority or single points of failure remain.
+uncertainty: >-
+  Reference-based architecture can reduce copying while access control, keys,
+  indexing, model interfaces, and stewardship may remain concentrated.
+evidence_stance: neutral
+context: Metagov / KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row43
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

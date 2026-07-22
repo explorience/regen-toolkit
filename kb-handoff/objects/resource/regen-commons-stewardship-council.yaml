@@ -1,0 +1,20 @@
+title: Regen Commons Stewardship Council
+type: resource
+resource_type: Governance body candidate
+url: >-
+  https://forum.regen.network/t/agentic-organization-design-and-collaboration/610
+original_source: Regen Commons
+notes: >-
+  Why add: Adds a concrete governance actor while keeping its membership,
+  mandate, and decision rights explicitly unresolved. · Status/Caution: Current
+  mandate and membership need direct confirmation; do not infer formal authority
+  from forum references alone. · Parent source system: Regen Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row129
+  source_lineage: >-
+    https://forum.regen.network/t/agentic-organization-design-and-collaboration/610
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

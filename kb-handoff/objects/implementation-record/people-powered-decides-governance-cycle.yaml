@@ -1,0 +1,24 @@
+title: People Powered Decides Governance Cycle
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document one full annual member-governance cycle from proposal generation
+  through voting, pooled-fund allocation, implementation, and review.
+what_returns_to_commons: >-
+  Concrete case of recursive governance and participatory funding within a
+  source-system steward organization.
+notes: >-
+  What to capture: Eligible members, proposals, facilitation, voting method,
+  participation distribution, funded projects, implementation, conflicts,
+  reporting, and changes. · Status/Caution: Member participation may be uneven;
+  internal governance should not be idealized.
+related_source_system: People Powered
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row81
+  source_lineage: https://www.peoplepowered.org/governance
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

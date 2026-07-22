@@ -1,0 +1,22 @@
+title: Opinion-Group-Informed Assembly Recruitment
+type: option-entry
+category: governance
+what_it_is: >-
+  Use opinion-group patterns alongside demographic criteria to include
+  epistemically diverse perspectives in a lottery-selected assembly.
+potential_uses: Assembly recruitment, advisory panels, stakeholder selection, agenda design.
+dependencies: >-
+  Representative sampling, ethical data use, clear selection rules, demographic
+  safeguards, appeals and oversight.
+tradeoffs: >-
+  Algorithmic clusters can reify temporary opinions, expose sensitive positions,
+  or displace affected-party representation.
+context: Polis + citizens' assemblies
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row91
+  source_lineage: https://compdemocracy.org/polis/book/lottery-selected-assemblies/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

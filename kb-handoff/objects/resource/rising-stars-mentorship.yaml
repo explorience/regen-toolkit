@@ -1,0 +1,19 @@
+title: Rising Stars Mentorship
+type: resource
+resource_type: Mentorship program
+url: https://www.peoplepowered.org/mentorship
+original_source: People Powered / Coglobal
+notes: >-
+  Why add: Concrete practitioner-to-practitioner knowledge-transfer model across
+  language, location, method, and implementation challenge. · Status/Caution:
+  Mentor matching and advice quality vary; confidentiality, attribution, and
+  local authority must be respected. · Parent source system: People Powered /
+  Coglobal
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row250
+  source_lineage: https://www.peoplepowered.org/mentorship
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

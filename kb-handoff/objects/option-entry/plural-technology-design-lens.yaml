@@ -1,0 +1,22 @@
+title: Plural Technology Design Lens
+type: option-entry
+category: governance
+what_it_is: >-
+  Evaluate whether a technology supports collaboration across social difference,
+  preserves plurality, and strengthens democratic agency.
+potential_uses: Option review, civic-tech comparison, AI governance, knowledge-commons design.
+dependencies: >-
+  Explicit values, user/context research, governance, accessibility, power
+  analysis, implementation evidence.
+tradeoffs: >-
+  Aspirational language may become branding; 'plural' can remain underspecified
+  or hide unequal power.
+context: Plurality Institute / Plurality book
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row61
+  source_lineage: https://plurality.net/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+title: Children’s participation requires heightened safeguards
+type: claim-evidence
+claim: Children’s participation requires heightened safeguards
+interpretation: >-
+  Use child-safe consent, minimal data and no sensitive participant-level
+  extraction.
+uncertainty: >-
+  Documentation of children’s movement spaces can expose identities, locations
+  and political affiliations.
+evidence_stance: qualifying
+context: Congresito de las Infancias
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row451
+  source_lineage: https://cloc-viacampesina.net/2025/11
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

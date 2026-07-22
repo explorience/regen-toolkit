@@ -1,0 +1,18 @@
+title: Care Web with Explicit Accountability
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Distributed support structure pairing named owners, backups, limits,
+  escalation and relief mechanisms.
+potential_uses: Source-system stewardship, moderation, correction, access support.
+dependencies: Compensation, documentation, privacy, succession plan.
+tradeoffs: Can obscure responsibility or concentrate care labor in trusted individuals.
+context: Toolkit / disability justice / care
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row219
+  source_lineage: Internal applied review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

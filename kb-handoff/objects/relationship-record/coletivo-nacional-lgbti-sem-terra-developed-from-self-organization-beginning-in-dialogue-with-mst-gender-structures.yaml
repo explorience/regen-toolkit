@@ -1,0 +1,20 @@
+subject: Coletivo Nacional LGBTI+ Sem Terra
+predicate: developed_from
+object: Self-organization beginning in dialogue with MST gender structures
+type: relationship-record
+title: >-
+  Coletivo Nacional LGBTI+ Sem Terra — developed_from — Self-organization
+  beginning in dialogue with MST gender structures
+original_relationship: developed from
+evidence: MST’s ten-year reflection traces organizing roots from 2013 onward.
+scope: Historical/current collective relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row452
+  source_lineage: >-
+    https://mst.org.br/2025/07/01/plenaria-do-coletivo-lgbti-sem-terra-marca-os-10-anos-da-organizacao-da-comunidade-no-mst/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,14 @@
+title: Caution
+type: claim-evidence
+claim: Caution
+interpretation: Separate affiliation from decision rights.
+uncertainty: https://cloc-viacampesina.net/procesos-de-formacion-que-impulsa-la-cloc-lvc
+evidence_stance: neutral
+context: IALA schools are connected to movements but governance details vary.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row455
+  source_lineage: Active
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

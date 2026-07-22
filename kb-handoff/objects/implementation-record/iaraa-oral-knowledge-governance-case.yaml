@@ -1,0 +1,27 @@
+title: IARAA Oral Knowledge Governance Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one oral-knowledge contribution from invitation and consent through
+  transcription, contextualization, corpus inclusion, retrieval, attribution,
+  correction and possible withdrawal.
+what_returns_to_commons: >-
+  Directly tests the highest-risk and most innovative knowledge-commoning
+  pathway in the project.
+notes: >-
+  What to capture: Community authority, contributor compensation, language,
+  context, access limits, retrieval behavior and return of value. ·
+  Status/Caution: High-sensitivity candidate; community-led review required
+related_source_system: IARAA / contributing community
+review_needs: >-
+  prospective candidate — implementation evidence may be incomplete; Matty
+  dup-flag DUP-IM-289: IARAA Technological Sovereignty Stress Test
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row294
+  source_lineage: Internal audit design
+normalization_flag: DUP-IM-289
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,17 @@
+subject: LAB Metadecidim
+predicate: researches
+object: Decidim and networked democracy
+type: relationship-record
+title: LAB Metadecidim — researches — Decidim and networked democracy
+original_relationship: researches
+evidence: Official assembly is an open research space.
+scope: Research relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row59
+  source_lineage: https://meta.decidim.org/en/assemblies/eix-lab
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

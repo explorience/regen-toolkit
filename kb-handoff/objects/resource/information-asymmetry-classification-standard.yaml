@@ -1,0 +1,18 @@
+title: Information Asymmetry Classification Standard
+type: resource
+resource_type: Standard
+url: https://coordination-structural-integrity-suite.github.io/ai/
+original_source: Coordination Structural Integrity Suite
+notes: >-
+  Why add: Useful for funder-grantee, platform-user, reviewer-contributor and
+  AI-human relationships. · Status/Caution: Classification can oversimplify
+  dynamic and intersectional power differences · Parent source system:
+  Coordination Structural Integrity Suite
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row384
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

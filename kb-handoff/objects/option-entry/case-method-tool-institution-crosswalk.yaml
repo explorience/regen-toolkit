@@ -1,0 +1,24 @@
+title: Case–Method–Tool–Institution Crosswalk
+type: option-entry
+category: governance
+what_it_is: >-
+  Link democratic methods and cases to software tools, institutional settings,
+  governance rules, practitioner support and observed outcomes.
+potential_uses: >-
+  Civic-tech review, implementation memory, track navigation, local-node
+  planning and funder due diligence.
+dependencies: >-
+  Shared identifiers, careful case selection, outcome evidence, affected-party
+  review and date/version context.
+tradeoffs: >-
+  Can imply comparability where contexts, power structures and democratic
+  mandates differ.
+context: Participedia / Decidim / Polis-vTaiwan / People Powered / GKC
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row64
+  source_lineage: Internal Batch 1C selection synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

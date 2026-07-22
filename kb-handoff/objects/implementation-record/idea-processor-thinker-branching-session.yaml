@@ -1,0 +1,24 @@
+title: Idea Processor Thinker-Branching Session
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Use the proposed Idea Processor workflow on one thinker cluster and compare
+  the resulting graph with the current manual branching protocol.
+what_returns_to_commons: >-
+  Could become a direct reusable workflow for the user's preferred expansion
+  method.
+notes: >-
+  What to capture: Inputs; transformations; objects and relationships produced;
+  source lineage; omissions; reviewer edits; time saved; distortions. ·
+  Status/Caution: Primary method unresolved; begin as an exploratory comparison
+  only
+related_source_system: Durgadas / Idea Processor lead
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row149
+  source_lineage: https://paragraph.com/durgadas.eth
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

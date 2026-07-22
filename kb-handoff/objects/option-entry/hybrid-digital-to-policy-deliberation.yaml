@@ -1,0 +1,24 @@
+title: Hybrid Digital-to-Policy Deliberation
+type: option-entry
+category: governance
+what_it_is: >-
+  Combine issue proposal, online opinion mapping, facilitated reflection,
+  stakeholder meetings, and institutional response.
+potential_uses: >-
+  National or local policy consultation, regulatory design, civic-public
+  collaboration.
+dependencies: >-
+  Government mandate, participation officers or equivalent, neutral
+  facilitation, public records, responsible agencies, follow-through.
+tradeoffs: >-
+  May be consultative without binding power; participation can be uneven;
+  political uptake varies by issue.
+context: vTaiwan
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row89
+  source_lineage: https://info.vtaiwan.tw/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

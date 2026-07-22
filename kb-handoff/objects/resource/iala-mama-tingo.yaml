@@ -1,0 +1,20 @@
+title: IALA Mamá Tingó
+type: resource
+resource_type: Movement school
+url: https://cloc-viacampesina.net/iala-mama-tingo-graduacion
+original_source: CLOC–La Vía Campesina / Dominican Republic
+notes: >-
+  Why add: Adds a Caribbean movement-school case and women-heroine lineage. ·
+  Status/Caution: Organizer-reported activity; curriculum and outcomes need
+  direct review · Parent source system: CLOC–La Vía Campesina / Dominican
+  Republic
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row761
+  source_lineage: https://cloc-viacampesina.net/iala-mama-tingo-graduacion
+original_object_class: Case / Place / Infrastructure
+normalization_flag: DUP-NE-761
+review_needs: 'Matty dup-flag DUP-NE-761: IALA María Cano'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

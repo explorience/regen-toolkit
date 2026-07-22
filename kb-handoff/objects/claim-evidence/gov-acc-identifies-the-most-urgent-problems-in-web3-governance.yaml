@@ -1,0 +1,18 @@
+title: gov/acc identifies the most urgent problems in web3 governance
+type: claim-evidence
+claim: gov/acc identifies the most urgent problems in web3 governance
+interpretation: >-
+  gov/acc Phase 1 surfaces governance problems reported by its participant
+  sample; urgency scores are research signals, not ecosystem-wide consensus.
+uncertainty: >-
+  The dashboard reflects a limited set of structured interviews and a defined
+  composite scoring method.
+evidence_stance: neutral
+context: Metagov / gov/acc
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row37
+  source_lineage: https://gov-acc.metagov.org/phase1/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

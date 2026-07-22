@@ -1,0 +1,22 @@
+title: Conference-to-Pilot Pipeline
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Connect convening themes and workshops to residencies, hackathons, prototypes,
+  aligned funders, and later implementation memory.
+potential_uses: Move field discourse toward experiments and documented learning.
+dependencies: >-
+  Explicit handoff process, project identifiers, funding pathways, mentors,
+  pilot sites, retrospective review.
+tradeoffs: >-
+  Events can create activity without durable adoption; success stories may
+  dominate reporting.
+context: Funding the Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row54
+  source_lineage: https://www.fundingthecommons.io/ba2025
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

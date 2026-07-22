@@ -1,0 +1,18 @@
+title: Human-reviewed means safe for public use
+type: claim-evidence
+claim: Human-reviewed means safe for public use
+interpretation: >-
+  Keep review status, sensitivity review, licensing, and public-use approval
+  separate.
+uncertainty: >-
+  Accuracy review does not automatically address consent, sensitivity,
+  licensing, affected parties, or contextual harm.
+evidence_stance: qualifying
+context: Merge and governance readiness
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row176
+  source_lineage: Internal merge-readiness design
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

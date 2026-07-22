@@ -1,0 +1,15 @@
+title: Source-linked is not reviewed
+type: claim-evidence
+claim: Source-linked is not reviewed
+uncertainty: Do not publish as fact without status/caveats.
+notes: >-
+  Priority: A source URL does not equal truth or review. · Next: Keep visible as
+  protective claim; link to evidence/source context. · Notes:
+  Integrity-protecting claim.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-?????
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

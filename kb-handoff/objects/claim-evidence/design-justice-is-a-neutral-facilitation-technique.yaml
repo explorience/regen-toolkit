@@ -1,0 +1,18 @@
+title: Design justice is a neutral facilitation technique
+type: claim-evidence
+claim: Design justice is a neutral facilitation technique
+interpretation: >-
+  Present design justice as a values-based framework and disclose where its
+  commitments shape review and decision-making.
+uncertainty: >-
+  The framework is explicitly normative and political, focused on structural
+  inequality, collective liberation and ecological survival.
+evidence_stance: qualifying
+context: Design Justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row252
+  source_lineage: https://designjustice.mitpress.mit.edu/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

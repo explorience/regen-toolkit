@@ -1,0 +1,24 @@
+title: Buenos Aires 2025 Conference-to-Residency Pipeline
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how the RealFi residency fed demos, relationships, and projects into the
+  Buenos Aires conference and what happened afterward.
+what_returns_to_commons: >-
+  Concrete test of whether convening and incubation functions form a meaningful
+  learning loop.
+notes: >-
+  What to capture: Resident cohort, projects, mentors, local partners,
+  prototypes, repositories, showcase content, funding, adoption, failures, and
+  maintenance. · Status/Caution: Needs post-event evidence and participant-level
+  follow-up
+related_source_system: Funding the Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row49
+  source_lineage: https://www.fundingthecommons.io/ba2025
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

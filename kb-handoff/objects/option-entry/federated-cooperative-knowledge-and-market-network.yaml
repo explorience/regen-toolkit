@@ -1,0 +1,25 @@
+title: Federated Cooperative Knowledge and Market Network
+type: option-entry
+category: governance
+what_it_is: >-
+  Link autonomous cooperatives through shared planning, productive-chain
+  coordination, policy engagement, education and selected shared services.
+potential_uses: >-
+  Food-system mapping, procurement, cooperative infrastructure,
+  local-to-national coordination.
+dependencies: >-
+  Member governance, transparent finances, labor standards, data portability,
+  territorial autonomy and conflict handling.
+tradeoffs: >-
+  Federation can centralize power, privilege larger cooperatives or treat growth
+  as success.
+context: UNICRAB / MST cooperatives
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row284
+  source_lineage: >-
+    https://mst.org.br/2025/02/27/encontro-nacional-das-cooperativas-de-reforma-agraria-reafirma-importancia-do-cooperativismo/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

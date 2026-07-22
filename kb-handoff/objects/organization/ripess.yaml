@@ -1,0 +1,17 @@
+title: RIPESS
+type: organization
+org_type: Organization / Network
+url: https://www.ripess.org/?lang=en
+steward: RIPESS
+notes: >-
+  Why add: Connect to cooperatives, commons, solidarity finance and regional
+  networks · Status/Caution: Selected source system; current public network
+  identity · Parent source system: RIPESS
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row850
+  source_lineage: https://www.ripess.org/?lang=en
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

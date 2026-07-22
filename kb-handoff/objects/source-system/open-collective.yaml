@@ -1,0 +1,20 @@
+title: Open Collective
+type: directory
+steward: Open Collective
+return_path: unset — establish via register-source
+url: https://opencollective.com/
+why_it_matters: >-
+  Important source family; queued after Tier 1 or promote if relevant to next
+  batch.
+notes: >-
+  Priority: Important source family; queued after Tier 1 or promote if relevant
+  to next batch. · Next: Keep in Tier 2 queue; promote when linked to expansion
+  batch. · Notes: Tier 2 does not mean unimportant.
+review_needs: Discovery_Pool promotion (Tier 2) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-00033
+  source_lineage: https://opencollective.com/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

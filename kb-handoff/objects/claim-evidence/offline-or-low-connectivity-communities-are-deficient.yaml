@@ -1,0 +1,19 @@
+title: Offline or low-connectivity communities are deficient
+type: claim-evidence
+claim: Offline or low-connectivity communities are deficient
+interpretation: >-
+  Avoid deficit framing; document desired services, constraints, choices and
+  community-defined wellbeing.
+uncertainty: >-
+  Universal-development narratives can erase deliberate refusal, cultural
+  priorities and alternative communication systems.
+evidence_stance: neutral
+context: Rhizomatica
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row343
+  source_lineage: >-
+    https://www.rhizomatica.org/keeping-it-analog-a-framework-for-opting-out-of-connectivity/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: Dictionary of Radical Alternatives as Multilingual Ontology Commons
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow the working group from concept selection and contributor invitation
+  through definitions, illustrations, publication, translation and governance.
+what_returns_to_commons: >-
+  Direct implementation case for a plural, attributed and movement-generated
+  semantic layer.
+notes: >-
+  What to capture: Concept authors, languages, disagreements, attribution,
+  licenses, platform, updates, community authority and AI/reuse conditions. ·
+  Status/Caution: Active project; do not treat planned scope as completed output
+related_source_system: Global Tapestry of Alternatives
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row255
+  source_lineage: >-
+    https://www.globaltapestryofalternatives.org/assembly:groups:wg:dictionary:index
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

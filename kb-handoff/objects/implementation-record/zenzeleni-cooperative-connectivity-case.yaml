@@ -1,0 +1,25 @@
+title: Zenzeleni Cooperative Connectivity Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop a full case of cooperative governance, supporting nonprofit functions,
+  pricing, maintenance, policy, livelihoods, user experience and current
+  community outcomes.
+what_returns_to_commons: >-
+  Provides a strong African implementation case connecting cooperative
+  ownership, infrastructure, maintenance and digital inclusion.
+notes: >-
+  What to capture: Cooperative membership; decision rights; costs; services;
+  maintenance labor; training; financing; data governance; complaints; scaling
+  and succession. · Status/Caution: Candidate; direct cooperative and user
+  perspectives needed
+related_source_system: Zenzeleni
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row229
+  source_lineage: https://zenzeleni.net/our-model/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

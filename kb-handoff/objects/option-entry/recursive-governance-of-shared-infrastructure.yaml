@@ -1,0 +1,25 @@
+title: Recursive Governance of Shared Infrastructure
+type: option-entry
+category: governance
+what_it_is: >-
+  Study and support systems in which communities govern not only decisions but
+  also the platforms, rules, data and knowledge infrastructure used to make
+  them.
+potential_uses: >-
+  Knowledge commons, civic platforms, source-system stewardship, open-source
+  governance and data-layer design.
+dependencies: >-
+  Community mandate, transparent rules, contribution pathways, conflict
+  resolution, technical maintainers and institutional support.
+tradeoffs: >-
+  Recursive governance can become symbolic while control remains concentrated in
+  funders, maintainers or host institutions.
+context: Decidim / Metadecidim + Metagov + GKC
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row65
+  source_lineage: Internal Batch 1C selection synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

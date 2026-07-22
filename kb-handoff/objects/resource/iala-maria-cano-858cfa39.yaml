@@ -1,0 +1,22 @@
+title: IALA María Cano
+type: resource
+resource_type: Movement school
+url: >-
+  https://cloc-viacampesina.net/colombia-iala-maria-cano-la-universidad-campesina-de-fensuagro
+original_source: FENSUAGRO / CLOC–La Vía Campesina
+notes: >-
+  Why add: Core case connecting political formation, agroecology, youth and
+  movement research. · Status/Caution: Historical continuity evidenced; current
+  program status and outcomes require steward review · Parent source system:
+  FENSUAGRO / CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row809
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-iala-maria-cano-la-universidad-campesina-de-fensuagro
+original_object_class: Case / Place / Infrastructure
+normalization_flag: DUP-NE-771
+review_needs: 'Matty dup-flag DUP-NE-771: FENSUAGRO'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

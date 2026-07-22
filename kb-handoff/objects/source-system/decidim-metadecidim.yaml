@@ -1,5 +1,5 @@
 title: Decidim / Metadecidim
-type: docs-site
+type: directory
 steward: Decidim / Metadecidim
 return_path: unset — establish via register-source
 url: https://decidim.org/
@@ -15,15 +15,21 @@ why_it_matters: >-
   community that connects software, public institutions, civic organizations,
   participatory processes, accountability, documentation, and community
   governance.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row7
-  source_lineage: https://decidim.org/
 caution: >-
   Software and activity metrics do not guarantee democratic quality. Each
   deployment needs review of authority, recruitment, access, facilitation,
   verification, privacy, implementation, maintenance and affected-party
   outcomes.
+extraction_status: >-
+  Mature civic-participation infrastructure plus a rare self-governance case in
+  which the user/developer community governs the platform, roadmap,
+  organizational rules and sustainability.
+notes: 'Role: Selected second core Batch 1C source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row6
+  source_lineage: https://decidim.org/
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

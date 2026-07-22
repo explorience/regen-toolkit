@@ -1,0 +1,19 @@
+title: A farmer-to-farmer school is automatically horizontal and democratic
+type: claim-evidence
+claim: A farmer-to-farmer school is automatically horizontal and democratic
+interpretation: >-
+  Describe the learning model and separately review who teaches, decides,
+  participates, benefits and carries labor.
+uncertainty: >-
+  Peer identity does not eliminate differences in land, gender, age, education,
+  political position or organizational authority.
+evidence_stance: qualifying
+context: Shashe / agroecology schools
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row386
+  source_lineage: >-
+    https://viacampesina.org/en/2013/10/zimsoff-and-the-shashe-agro-ecology-school-in-zimbabwe/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

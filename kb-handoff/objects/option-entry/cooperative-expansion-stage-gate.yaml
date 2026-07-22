@@ -1,0 +1,23 @@
+title: Cooperative Expansion Stage Gate
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Separate announced, financed, under-construction, commissioned, operating and
+  maintained stages for agroindustrial projects.
+potential_uses: Avoid treating expansion announcements as completed outcomes.
+dependencies: >-
+  Dated infrastructure records, financing documents, licenses, commissioning and
+  operations evidence.
+tradeoffs: >-
+  Can become bureaucratic or privilege formal industrial projects over
+  informal/community systems.
+context: COOPAC / productive-chain cases
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row298
+  source_lineage: >-
+    https://mst.org.br/2026/06/02/cooperativa-da-reforma-agraria-amplia-agroindustria-e-fortalece-cadeia-do-leite-caprino-no-semiarido-paraibano/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

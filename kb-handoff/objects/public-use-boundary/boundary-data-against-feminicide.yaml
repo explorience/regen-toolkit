@@ -1,18 +1,10 @@
 title: Boundary — Data Against Feminicide
-tier: public-with-caveat
+type: public-use-boundary
+tier: requires-domain-review
 consent_note: >-
-  Network works with gender-related-killing (feminicide) case data. Do not copy
-  victim/perpetrator names, locations, or individual case details from this
-  network into the toolkit without the network’s and affected communities’
-  explicit safeguards; treat as reference-only.
-review_type: steward-review-before-public-use
-notes: >-
-  Covers candidate 18-resource-data-against-feminicide.yaml (this work order) —
-  high-risk trigger per ingest skill.
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#New Objects!row18
-  transformation: synthesized
-  authorship: ai-assisted
-work_order: wo-77334ca85eac
+  Highly sensitive domain; do not copy names, locations or case data without
+  project and affected-community safeguards
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#New Objects!row465
+work_order: wo-4192270d569c
 source_lineage: new-objects.csv

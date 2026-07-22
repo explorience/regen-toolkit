@@ -1,0 +1,21 @@
+subject: Toolkit Options Library
+predicate: can_draw_from
+object: >-
+  Participedia methods, People Powered resources, Decidim components, Polis
+  workflows and GKC review questions
+type: relationship-record
+title: >-
+  Toolkit Options Library — can_draw_from — Participedia methods, People Powered
+  resources, Decidim components, Polis workflows and GKC review questions
+original_relationship: can draw from
+evidence: Source systems offer option inputs at different abstraction levels.
+scope: Source material is not recommendation or universal best practice
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row74
+  source_lineage: Internal Batch 1C synthesis
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

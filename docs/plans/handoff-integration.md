@@ -2,10 +2,10 @@
 id: handoff-integration
 title: "Handoff Integration — Matty's July 2026 iteration ↔ the toolkit framework (master plan)"
 status: in-progress
-priority: 1
+priority: 2
 scope: regen-toolkit
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-19
 supersedes: [resource-db-v3-lift]
 rescopes: [CONVERGENCE-PIPELINE]
 design: docs/plans/handoff-integration/2026-07-14-handoff-integration-design.md
@@ -37,12 +37,19 @@ Guide asks for; §35 names `toolkit-framework` + `regen-toolkit-os`. **The frame
 | **T2 — Crosswalk + DoD conformance** | §40 crosswalk + scored 15-item DoD (7✅/8🟡) + gap list | Jul 15 | ✅ done |
 | **T3a — Ingestion slice** | 127 Canonical_DB rows → 146 objects (kb-handoff/) + /handoff page; B5 caught Matty's 4 dup pairs | Jul 15 | ✅ done |
 | **T5 — Fit + the call** | agent-setup pack + call brief + CONVERGENCE-PIPELINE re-anchor | Jul 15 | ✅ done |
-| **T3b — Full Canonical_DB ingestion** | 2,689 rows via the machine → kb-handoff + Discovery_Pool promotion. **Sub-plan written**, uses the new T4 schemas. | after Jul 16 | ⏳ ready |
+| **T3b — Full Canonical_DB ingestion** | 2,689 rows → 2,957 objects (+101 Discovery promotion) = **3,058 in kb-handoff/**, all raw. Deterministic ETL, accept-gate validated. B5-vs-flags + DoD #15 reconciled. Manifest: [`docs/reports/2026-07-21-canonical-migration-manifest.md`](../reports/2026-07-21-canonical-migration-manifest.md). | 2026-07-21 | ✅ done |
 | **T4 — Framework evolution from gaps** | ✅ core: `relationship-record` · `person`/`organization` · currentness/confidence/maintenance axes · enum gaps (125 tests). Remainder below. | Jul 15 | ✅ core done |
 | **Master narrative** | 6-Part/§0–43 refactor (Luiz's technical §35–42 + Matty's editorial) — **awaits Matty's next review cycle** | after Matty's handoff | ⏳ |
 
 **Jul 16 needs: T1 + T2 + T3a + T5.** Full ingestion (T3b), framework changes (T4), and the master
 refactor are sequenced after.
+
+> **2026-07-19 status.** T1/T2/T3a/T5 + **T4 core** all ✅ (125 tests green; `relationship-record` ·
+> `person`/`organization` · status axes landed). **T3b is the live remainder** — sub-plan at
+> [`handoff-integration/2026-07-15-t3b-full-ingestion.md`](handoff-integration/2026-07-15-t3b-full-ingestion.md),
+> now unblocked by the T4 schemas (relationships + person/org rows have homes; no more parking).
+> Runs **parallel** to [`dev-instance-build.md`](dev-instance-build.md) (the #1 active plan).
+> Share pack still awaiting operator send. Master 6-Part refactor still awaits Matty's cycle.
 
 ## Division of labor (Guide §10)
 

@@ -1,0 +1,25 @@
+title: Institutional Indigenous-Interest Notice
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Attach a visible disclosure when a record, dataset or collection may involve
+  Indigenous rights or interests but community guidance is not yet resolved.
+potential_uses: >-
+  Import queues, museum/archive records, research datasets, ecological projects
+  and AI corpora.
+dependencies: >-
+  Standard notice language, contact pathway, provenance, review ownership and
+  escalation process.
+tradeoffs: >-
+  A notice can delay or substitute for actual engagement if not linked to
+  accountable follow-up.
+context: Local Contexts Notices
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row173
+  source_lineage: https://localcontexts.org/notices/about-the-notices/
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

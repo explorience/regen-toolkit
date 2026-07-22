@@ -1,0 +1,24 @@
+title: Regen Brand Commons Formation Process
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Community members explored a DAO-governed commons around the Regen name and
+  mark while coordinating with related organizations and trademark holders.
+what_returns_to_commons: >-
+  Strong case for intangible commons, shared identity, and the limits of
+  headless-brand governance.
+notes: >-
+  What to capture: Stakeholders, legal rights, governance options, conflicts,
+  use rules, decisions, implementation, and unresolved legitimacy questions. ·
+  Status/Caution: Exploratory/ongoing; do not imply final governance settlement.
+related_source_system: Regen Brand Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row37
+  source_lineage: >-
+    https://forum.regen.network/t/regen-brand-commons-and-the-regen-token-symbol/75
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

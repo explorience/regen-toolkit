@@ -1,0 +1,18 @@
+title: Consent settings fully resolve community-data governance
+type: claim-evidence
+claim: Consent settings fully resolve community-data governance
+interpretation: >-
+  Treat consent controls as one governance layer alongside purpose limitation,
+  community rules, correction, deletion, and review.
+uncertainty: >-
+  Individual opt-outs do not alone address collective context, inferred
+  relationships, downstream synthesis, power, or future reuse.
+evidence_stance: qualifying
+context: Metagov / KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row44
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

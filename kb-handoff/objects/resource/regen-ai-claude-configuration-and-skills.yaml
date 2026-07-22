@@ -1,0 +1,20 @@
+title: Regen AI Claude Configuration and Skills
+type: resource
+resource_type: Configuration / agent infrastructure
+url: >-
+  https://forum.regen.network/t/regen-ai-claude-configuration-architecture-new-skills/589
+original_source: GAIAI / Regen AI
+notes: >-
+  Why add: Relevant to source-grounded agent skills, permissions, and reusable
+  domain context in the Toolkit. · Status/Caution: Configuration structure does
+  not by itself guarantee correct, safe, or representative outputs · Parent
+  source system: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row121
+  source_lineage: >-
+    https://forum.regen.network/t/regen-ai-claude-configuration-architecture-new-skills/589
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

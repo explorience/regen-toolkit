@@ -1,0 +1,19 @@
+title: Public seed knowledge is unrestricted open data
+type: claim-evidence
+claim: Public seed knowledge is unrestricted open data
+interpretation: >-
+  Apply collective-rights, provenance, permission and restricted-use review
+  before publication or AI use.
+uncertainty: >-
+  Seed knowledge may carry collective rights, cultural protocols, ecological
+  sensitivity and risks of privatization or biopiracy.
+evidence_stance: qualifying
+context: Peasant Seeds
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row382
+  source_lineage: >-
+    https://viacampesina.org/en/2025/05/asia-conference-on-agroecology-and-seeds-highlights-diverse-experiences-in-peasant-seed-sovereignty/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

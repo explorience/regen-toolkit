@@ -1,0 +1,18 @@
+title: Verifier and attestor authority
+type: claim-evidence
+claim: Verifier and attestor authority
+interpretation: >-
+  Record the attestor or verifier, scope, authority, method, conflicts, date,
+  and review standard alongside the attestation.
+uncertainty: >-
+  A signature or attestation shows who accepted a statement, but not whether the
+  person was independent, qualified, conflict-free, or correct.
+evidence_stance: qualifying
+context: Regen Ledger / Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row18
+  source_lineage: https://docs.regen.network/modules/data/01_concepts
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

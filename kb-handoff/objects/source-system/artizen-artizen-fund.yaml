@@ -1,5 +1,5 @@
 title: Artizen / artizen.fund
-type: directory
+type: newsletter
 steward: Artizen / artizen.fund
 return_path: unset — establish via register-source
 url: https://artizen.fund/
@@ -10,13 +10,17 @@ why_it_matters: >-
   Extends public-goods funding into art, science, technology, and culture
   through creator fundraising, curated Funds, an Endowment, matching, Artifacts,
   and community Boosts.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row4
-  source_lineage: https://artizen.fund/
 caution: >-
   Sales, sponsorship, boosts, rankings, and allocations are funding or attention
   signals, not proof of quality or public benefit.
+extraction_status: >-
+  Match-funding model, endowment design, artifact-based patronage, curated fund
+  structures, project examples, and downstream people and organization leads.
+notes: 'Role: Core Batch 1B source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row3
+  source_lineage: https://artizen.fund/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

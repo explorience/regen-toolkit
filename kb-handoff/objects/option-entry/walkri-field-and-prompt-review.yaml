@@ -1,0 +1,23 @@
+title: WALKRI Field and Prompt Review
+type: option-entry
+category: coordination
+what_it_is: >-
+  Review each field, form question, AI prompt constraint, rubric item or
+  extraction specification as an instrument with explicit semantics and
+  provenance.
+potential_uses: >-
+  Workbook schema, contributor forms, agent outputs, public APIs and review
+  rubrics.
+dependencies: >-
+  Field ownership, construct validity, provenance, examples, edge cases and
+  maintenance.
+tradeoffs: Better-defined instruments can still measure the wrong thing or erase context.
+context: WALKRI
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row146
+  source_lineage: https://github.com/CrossWalkri/WALKRI
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

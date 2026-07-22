@@ -1,0 +1,17 @@
+subject: MST education and communication systems
+predicate: publish
+object: Revista Sem Terrinha
+type: relationship-record
+title: MST education and communication systems — publish — Revista Sem Terrinha
+original_relationship: publish
+evidence: Official site hosts child- and youth-oriented editions.
+scope: Safeguarding and age-appropriate review required
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row405
+  source_lineage: https://mst.org.br/revista-sem-terrinha/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

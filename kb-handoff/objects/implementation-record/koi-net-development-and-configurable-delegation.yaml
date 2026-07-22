@@ -1,22 +1,22 @@
 title: KOI-net Development and Configurable Delegation
 type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
 context: >-
   Follow the development of communication standards, node permissioning,
   routing, delegation, and contribution governance across KOI nodes.
-source_position: third-party-observer
 what_returns_to_commons: Direct comparison for federated Toolkit source systems and agent workflows.
 notes: >-
-  What to capture: protocol decisions, technical tests, node operators,
+  What to capture: Protocol decisions, technical tests, node operators,
   permission models, failures, contribution pathways and interoperability
-  results.
-review_needs: >-
-  Priority technical candidate; current and proposed capabilities must be
-  separated.
+  results. · Status/Caution: Priority technical candidate; current and proposed
+  capabilities must be separated.
+related_source_system: Metagov / KOI Pond / BlockScience
+review_needs: prospective candidate — implementation evidence may be incomplete
 maturity: raw
 ai_assisted: true
-source_lineage: https://metagov.org/projects/koi-pond/project-details
 provenance:
-  origin: Canonical_DB.xlsx#Implementation Memory!row3
-  transformation: synthesized
-  authorship: ai-assisted
-work_order: wo-341bea389d2b
+  origin: Canonical_DB.xlsx#Implementation Memory!row23
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

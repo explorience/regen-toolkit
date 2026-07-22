@@ -1,0 +1,18 @@
+title: Ecological claim and evidence separation
+type: claim-evidence
+claim: Ecological claim and evidence separation
+interpretation: >-
+  Store claim, evidence, methodology, review stage, verifier, uncertainty, date,
+  and project context as separate fields.
+uncertainty: >-
+  Project, protocol, and marketplace pages can combine technical claims,
+  marketing language, registry status, and project self-reporting.
+evidence_stance: qualifying
+context: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row14
+  source_lineage: https://registry-program-guide.regen.network/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

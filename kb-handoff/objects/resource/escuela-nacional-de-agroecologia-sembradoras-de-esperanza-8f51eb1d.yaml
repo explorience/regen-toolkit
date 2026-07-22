@@ -1,0 +1,22 @@
+title: Escuela Nacional de Agroecología Sembradoras de Esperanza
+type: resource
+resource_type: School / education process
+url: >-
+  https://viacampesina.org/es/chile-instituto-agroecologico-latinoamericano-para-las-mujeres-del-campo-sembradoras-de-luchas-y-esperanza/
+original_source: ANAMURI / CLOC–La Vía Campesina
+notes: >-
+  Why add: Core movement-school case linking gender, food sovereignty, pedagogy
+  and territorial practice. · Status/Caution: Source-linked; current
+  institutional form, governance, curriculum and maintenance require steward
+  review · Parent source system: ANAMURI / CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row795
+  source_lineage: >-
+    https://viacampesina.org/es/chile-instituto-agroecologico-latinoamericano-para-las-mujeres-del-campo-sembradoras-de-luchas-y-esperanza/
+original_object_class: Case / Place / Infrastructure
+normalization_flag: DUP-NE-778
+review_needs: 'Matty dup-flag DUP-NE-778: ANAMURI Seed Campaign'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,25 @@
+title: Michel Bauwens Thinker-to-System Branching Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document how one thinker node branches into a knowledge commons,
+  collaborators, publications, concepts, municipal and national policy
+  experiments, critiques, and future source systems.
+what_returns_to_commons: >-
+  Tests the reusable thinker-branching method and prevents people records from
+  becoming isolated biographies.
+notes: >-
+  What to capture: Primary works; co-authors; institutions; concept lineage;
+  source systems; implementation cases; criticisms; duplicate avoidance; missing
+  voices. · Status/Caution: Completed cluster; future review should add
+  critiques and non-English/local perspectives
+related_source_system: Michel Bauwens / P2P Foundation
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row137
+  source_lineage: Internal thinker-cluster review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

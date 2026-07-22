@@ -1,0 +1,18 @@
+title: Polis Methods Guide
+type: resource
+resource_type: Practice guide
+url: https://compdemocracy.org/polis/book/introduction/
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Moves the record beyond software features into facilitation and
+  institutional practice. · Status/Caution: Best-practice guidance is not a
+  guarantee of legitimacy or successful uptake · Parent source system:
+  Computational Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row271
+  source_lineage: https://compdemocracy.org/polis/book/introduction/
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

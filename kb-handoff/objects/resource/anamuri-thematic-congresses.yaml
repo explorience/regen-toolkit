@@ -1,0 +1,19 @@
+title: ANAMURI Thematic Congresses
+type: resource
+resource_type: Governance process
+url: https://anamuri.cl/album/congresos-tematicos/
+original_source: ANAMURI
+notes: >-
+  Why add: Potential federated pathway for constituency agendas to enter
+  national strategy. · Status/Caution: 2026 publication page confirms categories
+  but not full rules, delegate selection or authority · Parent source system:
+  ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row792
+  source_lineage: https://anamuri.cl/album/congresos-tematicos/
+original_object_class: Governance / Funding Mechanism
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

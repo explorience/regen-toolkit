@@ -1,0 +1,25 @@
+title: Claims Engine to Ethereum Intents Translation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A cross-ecosystem initiative proposed translating Regen semantic and claims
+  infrastructure into Ethereum intents and public-goods systems.
+what_returns_to_commons: >-
+  Useful implementation case for interoperability without absorption and for
+  preserving ethical context across technical systems.
+notes: >-
+  What to capture: Implemented components, schema mappings, funding, partners,
+  tests, failures, lineage preservation, governance, and public-use boundaries.
+  · Status/Caution: Proposal/funding-stage material; implementation status must
+  be verified.
+related_source_system: Regen Commons / Regen Network
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row39
+  source_lineage: >-
+    https://forum.regen.network/t/extending-regen-s-semantic-framework-into-ethereum-intents/533
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

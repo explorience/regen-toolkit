@@ -1,0 +1,23 @@
+title: Design Justice Network Principles
+type: concept-lineage
+short_description: >-
+  Living principles centering people most impacted by design decisions,
+  community-led processes, non-exploitative outcomes, sustainable and
+  community-controlled solutions, and design as a tool for liberation.
+toolkit_usage: >-
+  Strong review lens for database, platform, governance and public-use
+  decisions.
+original_object_type: Principles / living framework
+notes: >-
+  Why add: Strong review lens for database, platform, governance and public-use
+  decisions. · Status/Caution: Last stated update is summer 2018;
+  living-document status should not be mistaken for current revision activity. ·
+  Parent source system: Design Justice Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row420
+  source_lineage: https://designjustice.org/read-the-principles
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

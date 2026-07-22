@@ -1,0 +1,19 @@
+title: Bartolina Sisa Confederation
+type: organization
+org_type: Indigenous women’s confederation
+url: https://cloc-viacampesina.net/
+steward: CLOC–La Vía Campesina
+notes: >-
+  Why add: Watchlist; multi-source review required · Status/Caution: Current /
+  contested context · Parent source system: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row786
+  source_lineage: https://cloc-viacampesina.net/
+original_object_class: Organization / Network
+high_risk: true
+normalization_flag: REPAIR-NO-786
+review_needs: 'Matty dup-flag REPAIR-NO-786: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

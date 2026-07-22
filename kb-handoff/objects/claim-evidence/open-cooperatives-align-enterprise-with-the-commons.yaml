@@ -1,0 +1,18 @@
+title: Open cooperatives align enterprise with the commons
+type: claim-evidence
+claim: Open cooperatives align enterprise with the commons
+interpretation: >-
+  Open cooperativism proposes enterprise forms oriented toward shared resources
+  and social benefit; evaluate each organization empirically.
+uncertainty: >-
+  The model aspires to alignment, but actual ownership, labor, governance,
+  licensing, and surplus distribution vary.
+evidence_stance: neutral
+context: Open cooperativism
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row202
+  source_lineage: https://wiki.p2pfoundation.net/Open_Cooperativism
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

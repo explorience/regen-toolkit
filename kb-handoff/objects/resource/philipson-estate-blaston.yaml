@@ -1,0 +1,19 @@
+title: Philipson Estate Blaston
+type: resource
+resource_type: Ecological project
+url: https://app.regen.network/project/C06-001
+original_source: Regen Network / Regen Registry
+notes: >-
+  Why add: Concrete soil-carbon project linking project plan, monitoring
+  reports, verification, credit issuance, sales and retirements. ·
+  Status/Caution: Project and registry claims require domain review; issuance
+  does not independently prove all stated outcomes · Parent source system: Regen
+  Network / Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row55
+  source_lineage: https://app.regen.network/project/C06-001
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

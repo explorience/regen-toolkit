@@ -1,0 +1,25 @@
+title: Member Benefit Distribution Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Review who participates, decides, works, bears risk and receives value across
+  member, worker, household and territorial groups.
+potential_uses: >-
+  Cooperative governance, livelihood review, gender/youth analysis and public
+  claims.
+dependencies: >-
+  Disaggregated and consent-aware data, member-defined benefit categories,
+  grievance pathways.
+tradeoffs: >-
+  Can create surveillance, expose household finances or impose external
+  definitions of success.
+context: Cooperative cases
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row299
+  source_lineage: Internal COOPAC case synthesis
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

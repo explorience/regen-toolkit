@@ -1,0 +1,18 @@
+title: AI & Democracy Foundation
+type: organization
+org_type: Organization / partner source
+url: https://www.demnext.org/action/delibtech-network
+steward: DelibTech Network
+notes: >-
+  Why add: Adds an under-documented but structurally important co-steward
+  relationship. · Status/Caution: Primary public information is still thin;
+  avoid over-describing the organization · Parent source system: DelibTech
+  Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row185
+  source_lineage: https://www.demnext.org/action/delibtech-network
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,24 @@
+title: Worker-Led Algorithm and Data Governance
+type: option-entry
+category: governance
+what_it_is: >-
+  Give workers meaningful authority over data collection, ranking, dispatch,
+  evaluation, automation, surveillance, and model deployment.
+potential_uses: >-
+  Platform work, AI data labor, cooperative logistics, public-interest
+  technology.
+dependencies: >-
+  Collective bargaining or cooperative governance, technical literacy, audit
+  access, privacy and appeal systems.
+tradeoffs: >-
+  Technical complexity and power asymmetries can make nominal participation
+  ineffective.
+context: PCC / critical data cluster
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row191
+  source_lineage: Internal cross-cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

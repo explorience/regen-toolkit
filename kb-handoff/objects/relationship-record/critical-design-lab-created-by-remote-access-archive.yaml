@@ -1,0 +1,16 @@
+subject: Critical Design Lab
+predicate: created_by
+object: Remote Access Archive
+type: relationship-record
+title: Critical Design Lab — created_by — Remote Access Archive
+original_relationship: created / stewards
+evidence: Official archive about page.
+scope: Community archive relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row248
+  source_lineage: https://www.criticaldesignlab.com/project/remote-access-archive/about
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

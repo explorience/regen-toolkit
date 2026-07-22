@@ -1,0 +1,16 @@
+subject: ENFF
+predicate: supports
+object: Curso Nacional de Dirigentes do MST
+type: relationship-record
+title: ENFF — supports — Curso Nacional de Dirigentes do MST
+original_relationship: hosts / supports
+evidence: National leadership course held at ENFF after regional stages.
+scope: Hosting does not imply sole curriculum authority
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row402
+  source_lineage: https://mst.org.br/2024/08/09/mst-realiza-curso-nacional-de-dirigentes/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

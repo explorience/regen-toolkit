@@ -1,0 +1,16 @@
+subject: IALA Ixim Ulew
+predicate: member_of
+object: IALA network
+type: relationship-record
+title: IALA Ixim Ulew — member_of — IALA network
+original_relationship: part of
+evidence: Named continental formation process.
+scope: Network is heterogeneous.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row487
+  source_lineage: https://cloc-viacampesina.net/procesos-de-formacion-que-impulsa-la-cloc-lvc
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Batch 1A implementation-memory candidates
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Extracted examples, pilots, archives, and convenings from the first five
+  deepened Tier 1 source-system cards.
+notes: >-
+  Priority: Extracted examples, pilots, archives, and convenings from the first
+  five deepened Tier 1 source-system cards. · Next: Pick 2-3
+  implementation-memory candidates for first full records. · Notes: Added in
+  Batch 1A Extraction update.
+review_needs: Discovery_Pool promotion — prospective candidate
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-B1A-EXTRACT-003
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

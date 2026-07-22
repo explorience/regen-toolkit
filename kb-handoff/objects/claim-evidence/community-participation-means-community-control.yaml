@@ -1,0 +1,18 @@
+title: Community participation means community control
+type: claim-evidence
+claim: Community participation means community control
+interpretation: >-
+  State the community’s actual decision rights, compensation, ownership, refusal
+  options and continuing governance.
+uncertainty: >-
+  People may be consulted or invited without controlling scope, resources,
+  decisions, ownership or whether a project proceeds.
+evidence_stance: qualifying
+context: Design Justice Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row239
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

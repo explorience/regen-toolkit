@@ -1,0 +1,21 @@
+title: Metadecidim Roadmap Co-Creation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one feature from community proposal through prioritization, development,
+  release and learning.
+what_returns_to_commons: Tests whether users materially influence shared infrastructure.
+notes: >-
+  What to capture: Proposers, authority, technical assessment, funding, code
+  changes, release notes and objections. · Status/Caution: Distinguish
+  consultation from binding roadmap authority
+related_source_system: Metadecidim
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row94
+  source_lineage: https://meta.decidim.org/en
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

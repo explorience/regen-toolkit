@@ -1,0 +1,23 @@
+title: Participedia Schema and Contribution Workflow Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Study how cases, methods, organizations and collections are structured,
+  crowdsourced, reviewed, exported and maintained.
+what_returns_to_commons: >-
+  Directly useful for the Toolkit database, implementation-memory ontology and
+  contributor pathways.
+notes: >-
+  What to capture: Fields, relationships, contributor roles, editorial review,
+  licensing, data export, coverage gaps, corrections and long-term maintenance.
+  · Status/Caution: Priority first expansion for new Batch 1C core systems
+related_source_system: Participedia
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row62
+  source_lineage: https://participedia.net/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

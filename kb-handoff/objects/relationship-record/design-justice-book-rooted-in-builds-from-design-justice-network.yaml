@@ -1,0 +1,20 @@
+subject: Design Justice book
+predicate: rooted_in_builds_from
+object: Design Justice Network
+type: relationship-record
+title: Design Justice book — rooted_in_builds_from — Design Justice Network
+original_relationship: rooted in / builds from
+evidence: >-
+  Book and network sources describe the work as grounded in the Network and its
+  principles.
+scope: Do not treat the book as owning or representing the whole network
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row178
+  source_lineage: >-
+    https://designjustice.org/events-1/2020/4/1/book-talk-design-justice-community-led-practices-to-build-the-worlds-we-need
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

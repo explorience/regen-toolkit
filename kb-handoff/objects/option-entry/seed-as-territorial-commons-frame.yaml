@@ -1,0 +1,24 @@
+title: Seed-as-Territorial-Commons Frame
+type: option-entry
+category: governance
+what_it_is: >-
+  Govern seed knowledge and practice together with land, water, ecosystems,
+  culture and political autonomy rather than as isolated germplasm data.
+potential_uses: >-
+  Seed libraries, bioregional knowledge systems, agroecology and Indigenous data
+  governance.
+dependencies: >-
+  Collective authority, customary rules, benefit sharing, protection from
+  enclosure and context-rich provenance.
+tradeoffs: >-
+  Digital visibility may enable biopiracy, appropriation or loss of community
+  control.
+context: ANAMURI
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row320
+  source_lineage: https://anamuri.cl/campana-semilla/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

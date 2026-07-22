@@ -1,0 +1,16 @@
+subject: Leah Lakshmi Piepzna-Samarasinha
+predicate: created_by
+object: The Future Is Disabled
+type: relationship-record
+title: Leah Lakshmi Piepzna-Samarasinha — created_by — The Future Is Disabled
+original_relationship: authored
+evidence: Author’s official book page.
+scope: Publication relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row253
+  source_lineage: https://brownstargirl.org/the-future-is-disabled/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,23 @@
+title: Social and Solidarity Economy
+type: concept-lineage
+short_description: >-
+  Economic practices organized around cooperation, democratic control,
+  solidarity and social or ecological purpose Geography/context: Global.
+toolkit_usage: >-
+  Do not collapse cooperatives, mutuals, commons and informal solidarity into
+  one model
+original_object_type: Framework / Field
+notes: >-
+  Why add: Do not collapse cooperatives, mutuals, commons and informal
+  solidarity into one model · Status/Caution: Plural field with contested
+  definitions · Parent source system: RIPESS
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row852
+  source_lineage: https://www.ripess.org/?lang=en
+original_object_class: Framework / Concept
+normalization_flag: REPAIR-NO-852
+review_needs: 'Matty dup-flag REPAIR-NO-852: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

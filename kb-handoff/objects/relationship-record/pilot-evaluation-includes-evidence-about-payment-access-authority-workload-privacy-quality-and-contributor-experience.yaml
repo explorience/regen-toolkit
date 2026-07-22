@@ -1,0 +1,21 @@
+subject: Pilot evaluation
+predicate: includes_evidence_about
+object: >-
+  Payment, access, authority, workload, privacy, quality and contributor
+  experience
+type: relationship-record
+title: >-
+  Pilot evaluation — includes_evidence_about — Payment, access, authority,
+  workload, privacy, quality and contributor experience
+original_relationship: includes evidence about
+evidence: Completion alone is insufficient.
+scope: Evaluation framework, not completed evidence
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row290
+  source_lineage: Internal synthesis — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

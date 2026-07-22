@@ -1,0 +1,16 @@
+title: Connexus
+type: organization
+org_type: Organization / support partner
+url: https://baobab.iapc.group/pt/iaraa/
+steward: IARAA
+notes: >-
+  Why add: Adds missing funding/support relationship. · Status/Caution: Nature,
+  conditions and duration of support unresolved · Parent source system: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row716
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

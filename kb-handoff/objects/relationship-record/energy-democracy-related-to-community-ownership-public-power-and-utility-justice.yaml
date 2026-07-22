@@ -1,0 +1,18 @@
+subject: Energy Democracy
+predicate: related_to
+object: community ownership, public power and utility justice
+type: relationship-record
+title: >-
+  Energy Democracy — related_to — community ownership, public power and utility
+  justice
+original_relationship: related to
+evidence: Energy Democracy Project framing
+scope: Do not reduce to technology deployment
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row540
+  source_lineage: https://energydemocracy.us/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

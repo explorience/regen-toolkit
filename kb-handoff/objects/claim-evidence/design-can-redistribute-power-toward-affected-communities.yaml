@@ -1,0 +1,18 @@
+title: Design can redistribute power toward affected communities
+type: claim-evidence
+claim: Design can redistribute power toward affected communities
+interpretation: >-
+  Design justice seeks to shift design authority and benefits toward affected
+  communities; whether power changes must be evaluated in practice.
+uncertainty: >-
+  Design processes can change authority and ownership, but outcomes depend on
+  institutions, resources and enforcement.
+evidence_stance: neutral
+context: Design Justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row246
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

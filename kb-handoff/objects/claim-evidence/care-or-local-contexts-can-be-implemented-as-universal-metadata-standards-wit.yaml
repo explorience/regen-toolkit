@@ -1,0 +1,21 @@
+title: CARE or Local Contexts can be implemented as universal metadata standards wit…
+type: claim-evidence
+claim: >-
+  CARE or Local Contexts can be implemented as universal metadata standards
+  without community relationships
+interpretation: >-
+  Use principles and tools to support community authority; do not substitute
+  schemas for governance relationships.
+uncertainty: >-
+  Both systems emphasize Indigenous authority, context, relationships and
+  locally specific governance.
+evidence_stance: neutral
+context: GIDA / Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row261
+  source_lineage: https://localcontexts.org/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

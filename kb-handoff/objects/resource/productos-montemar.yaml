@@ -1,0 +1,18 @@
+title: Productos Montemar
+type: resource
+resource_type: Farm / processing case
+url: https://www.agroecologiapr.org/montemar.htm
+original_source: Julitza Nieves / Aguadilla
+notes: >-
+  Why add: Links biodiversity, women-led processing and local livelihood
+  infrastructure. · Status/Caution: Historical public profile; governance and
+  current livelihood data absent · Parent source system: Julitza Nieves /
+  Aguadilla
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row840
+  source_lineage: https://www.agroecologiapr.org/montemar.htm
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

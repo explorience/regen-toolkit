@@ -1,0 +1,19 @@
+subject: CRAFT
+predicate: builds_on
+object: Coordination Structural Integrity Suite and Dimensional Frame Language
+type: relationship-record
+title: >-
+  CRAFT — builds_on — Coordination Structural Integrity Suite and Dimensional
+  Frame Language
+original_relationship: builds on
+evidence: CRAFT repository describes the suite and vocabulary as lower layers
+scope: Conceptual inheritance stated by maintainers
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row136
+  source_lineage: https://github.com/CrossWalkri/craft-meta-standard
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

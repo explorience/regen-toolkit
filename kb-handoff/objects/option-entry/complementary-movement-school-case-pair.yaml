@@ -1,0 +1,23 @@
+title: Complementary Movement-School Case Pair
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use two distinct schools to compare territorial, political, pedagogical,
+  gender, youth and maintenance dimensions without ranking them as universal
+  models.
+potential_uses: Comparative implementation memory and source-system branching.
+dependencies: >-
+  Comparable field structure, context preservation, local review and non-ranking
+  posture.
+tradeoffs: >-
+  Can still flatten very different histories and turn partial public evidence
+  into a benchmark.
+context: Shashe + Amrita Bhoomi
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row272
+  source_lineage: Internal case synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

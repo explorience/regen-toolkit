@@ -1,0 +1,23 @@
+title: Rules-in-Use Study of the Regen Knowledge Commons Workflow
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare the Toolkit’s documented contribution and review rules with the actual
+  workflow used during database expansion and merge preparation.
+what_returns_to_commons: >-
+  Could reveal hidden governance and improve contributor onboarding without
+  adding unnecessary bureaucracy.
+notes: >-
+  What to capture: Who decides, who edits, implicit norms, exceptions, review
+  bottlenecks, labor, disagreements, actual correction practices. ·
+  Status/Caution: Candidate; include human contributor perspectives
+related_source_system: IAD / Toolkit governance
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row128
+  source_lineage: Internal thinker-branching synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

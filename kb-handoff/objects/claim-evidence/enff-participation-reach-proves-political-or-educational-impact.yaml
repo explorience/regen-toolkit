@@ -1,0 +1,19 @@
+title: ENFF participation reach proves political or educational impact
+type: claim-evidence
+claim: ENFF participation reach proves political or educational impact
+interpretation: >-
+  State reach as organizer-reported and separately assess curriculum,
+  participant experience, application, exclusions and maintenance.
+uncertainty: >-
+  Organizer-reported learner counts establish reach, not learning quality,
+  political outcomes, accessibility or territorial application.
+evidence_stance: neutral
+context: ENFF
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row406
+  source_lineage: >-
+    https://mst.org.br/2025/01/23/enff-celebra-20-anos-de-formacao-e-internacionalismo-de-movimentos-populares-no-mundo/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

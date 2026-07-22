@@ -1,0 +1,21 @@
+title: Collegius Standard
+type: concept-lineage
+short_description: >-
+  Draft structural model for a self-curating contributor body intended to
+  operate as credible-neutral distribution infrastructure.
+toolkit_usage: >-
+  Potential branch for contributor governance, funding distribution and field
+  stewardship.
+original_object_type: Working standard / deferred concept
+notes: >-
+  Why add: Potential branch for contributor governance, funding distribution and
+  field stewardship. · Status/Caution: Explicitly held in waiting; do not
+  present as active or validated · Parent source system: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row392
+  source_lineage: https://github.com/durgadasji/collegius-standard
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

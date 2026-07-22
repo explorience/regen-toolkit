@@ -1,0 +1,18 @@
+title: vTaiwan FinTech Sandbox
+type: resource
+resource_type: Implementation case
+url: https://info.vtaiwan.tw/
+original_source: vTaiwan
+notes: >-
+  Why add: Broadens the case set beyond Uber and links deliberation to
+  institutional experimentation. · Status/Caution: Source is a vTaiwan
+  self-description; trace legislative history and stakeholder perspectives ·
+  Parent source system: vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row280
+  source_lineage: https://info.vtaiwan.tw/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

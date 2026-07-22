@@ -1,0 +1,22 @@
+title: Knowledge-Commons Stock-and-Flow Model
+type: option-entry
+category: governance
+what_it_is: >-
+  Model records, reviewed records, unresolved conflicts, steward capacity,
+  correction backlog and public-ready collections as distinct stocks and flows.
+potential_uses: >-
+  Maintenance planning, governance capacity, expansion pacing and public-release
+  decisions.
+dependencies: Reliable counts, definitions, stewardship owners and regular review.
+tradeoffs: >-
+  Quantification can privilege countable work and reduce qualitative care to
+  throughput.
+context: Systems thinking / Regen Knowledge Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row158
+  source_lineage: Internal synthesis from Meadows cluster
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

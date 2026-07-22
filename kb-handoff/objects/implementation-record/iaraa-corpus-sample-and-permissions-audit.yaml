@@ -1,0 +1,23 @@
+title: IARAA Corpus Sample and Permissions Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select a stratified sample of corpus materials across source type, decade,
+  language, territory and knowledge holder.
+what_returns_to_commons: >-
+  Tests whether the knowledge commons respects both legal rights and
+  collective/community authority.
+notes: >-
+  What to capture: Source identity, creator/community authority, license,
+  consent, attribution, sensitivity, chunking, retrieval and removal path. ·
+  Status/Caution: NEXT candidate; requires corpus access and project cooperation
+related_source_system: IARAA
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row291
+  source_lineage: Internal audit design
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

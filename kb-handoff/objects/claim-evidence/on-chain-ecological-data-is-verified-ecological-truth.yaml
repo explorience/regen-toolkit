@@ -1,0 +1,19 @@
+title: On-chain ecological data is verified ecological truth
+type: claim-evidence
+claim: On-chain ecological data is verified ecological truth
+interpretation: >-
+  Regen Ledger can anchor supporting data and record attestations; ecological
+  validity still depends on data quality, methodology, reviewer competence, and
+  context.
+uncertainty: >-
+  On-chain anchoring records a content hash and timestamp; it does not by itself
+  establish the truth or quality of the underlying data.
+evidence_stance: neutral
+context: Regen Ledger
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row10
+  source_lineage: https://docs.regen.network/modules/data/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

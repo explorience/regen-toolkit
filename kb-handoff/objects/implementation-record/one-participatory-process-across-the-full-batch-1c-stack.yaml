@@ -1,0 +1,26 @@
+title: One Participatory Process Across the Full Batch 1C Stack
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one real process and trace institutional framing, precedents,
+  training/support, platform configuration, deliberation, governance
+  experiments, decision response and outcomes.
+what_returns_to_commons: >-
+  Tests whether cross-system composition adds understanding without creating
+  false coherence.
+notes: >-
+  What to capture: Affected communities; authority; resources; comparable cases;
+  methods; support; software configuration; recruitment; moderation; data;
+  decisions; implementation; disputes; maintenance and later effects. ·
+  Status/Caution: Priority synthesis case; choose a process with public evidence
+  and affected-party safeguards
+related_source_system: GKC + Participedia + People Powered + Decidim + Polis/vTaiwan + Metagov
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row99
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

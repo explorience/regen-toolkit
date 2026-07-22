@@ -1,0 +1,17 @@
+subject: ZIMSOFF
+predicate: supports
+object: Shashe Agroecology School
+type: relationship-record
+title: ZIMSOFF — supports — Shashe Agroecology School
+original_relationship: supports / hosts
+evidence: LVC profiles connect the school to ZIMSOFF’s farmer network.
+scope: Current institutional arrangement needs direct review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row364
+  source_lineage: >-
+    https://viacampesina.org/en/2024/07/zimbabwe-peasant-agroecology-transforms-shashe-community/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

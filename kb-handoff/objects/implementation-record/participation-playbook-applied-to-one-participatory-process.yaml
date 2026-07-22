@@ -1,0 +1,24 @@
+title: Participation Playbook Applied to One Participatory Process
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one team using the Playbook from initial design questions through
+  implementation and evaluation.
+what_returns_to_commons: >-
+  Tests the real value and limits of guided option navigation for Toolkit
+  design.
+notes: >-
+  What to capture: Chosen pathway, skipped questions, local adaptations, mentor
+  input, stakeholder influence, authority, process outcomes, usability feedback,
+  and version used. · Status/Caution: Avoid attributing outcomes to the tool
+  alone.
+related_source_system: People Powered + selected local process
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row83
+  source_lineage: https://www.peoplepowered.org/participation-playbook
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

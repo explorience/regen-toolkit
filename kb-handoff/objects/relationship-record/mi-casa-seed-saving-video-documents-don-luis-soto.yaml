@@ -1,0 +1,16 @@
+subject: Mi Casa seed-saving video
+predicate: documents
+object: Don Luis Soto
+type: relationship-record
+title: Mi Casa seed-saving video — documents — Don Luis Soto
+original_relationship: documents practice of
+evidence: Archive page identifies the farmer and seed-conservation practice.
+scope: Historical educational profile
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row530
+  source_lineage: https://www.agroecologiapr.org/micasa.htm
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

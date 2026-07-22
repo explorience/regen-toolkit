@@ -1,0 +1,18 @@
+title: KICTANet
+type: organization
+org_type: Organization / related source system
+url: https://www.kictanet.or.ke/about-kictanet/
+steward: Southern Digital Justice Research
+notes: >-
+  Why add: Adds national policy process, multistakeholder governance and Kenyan
+  implementation depth. · Status/Caution: Multistakeholder participation does
+  not ensure balanced power or representation · Parent source system: Southern
+  Digital Justice Research
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row600
+  source_lineage: https://www.kictanet.or.ke/about-kictanet/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

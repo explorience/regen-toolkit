@@ -1,0 +1,20 @@
+title: ANAMURI Agricultural and Seasonal Workers / Temporeras
+type: resource
+resource_type: Movement constituency
+url: https://anamuri.cl/cartillastemporeras/
+original_source: ANAMURI
+notes: >-
+  Why add: Adds labor, worker-safety and social-reproduction dimensions often
+  lost in agroecology mappings. · Status/Caution: Movement-authored rights
+  materials; current membership and bargaining reach need confirmation · Parent
+  source system: ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row787
+  source_lineage: https://anamuri.cl/cartillastemporeras/
+original_object_class: Other / Review
+normalization_flag: REPAIR-NO-787
+review_needs: 'Matty dup-flag REPAIR-NO-787: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

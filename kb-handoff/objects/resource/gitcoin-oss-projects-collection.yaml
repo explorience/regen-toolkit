@@ -1,0 +1,17 @@
+title: Gitcoin OSS Projects Collection
+type: resource
+resource_type: Dataset / collection
+url: https://www.opensource.observer/collections/gitcoin-oss
+original_source: Open Source Observer
+notes: >-
+  Why add: Concrete bridge between a funding ecosystem and an analytics layer. ·
+  Status/Caution: Metrics support analysis; they are not complete impact
+  judgments · Parent source system: Open Source Observer
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row47
+  source_lineage: https://www.opensource.observer/collections/gitcoin-oss
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

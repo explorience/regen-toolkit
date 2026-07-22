@@ -1,5 +1,5 @@
 title: ZIMSOFF / Shashe Agroecology School
-type: directory
+type: organization
 steward: ZIMSOFF / Shashe Agroecology School
 return_path: unset — establish via register-source
 url: >-
@@ -11,15 +11,21 @@ why_it_matters: >-
   Zimbabwean smallholder farmer organization and school network combining
   agroecology, seed sovereignty, women’s leadership and farmer-to-farmer
   exchange.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row42
-  source_lineage: >-
-    https://viacampesina.org/en/2024/07/zimbabwe-peasant-agroecology-transforms-shashe-community/
 caution: >-
   Current school status, governance, funding and participant-level outcomes
   require direct follow-up. Do not infer that one school represents all ZIMSOFF
   members.
+extraction_status: >-
+  African movement-led education, community seed practice, women’s leadership
+  and long-term territorial implementation.
+notes: >-
+  Role: Peasant organization and territorial agroecology learning system ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row41
+  source_lineage: >-
+    https://viacampesina.org/en/2024/07/zimbabwe-peasant-agroecology-transforms-shashe-community/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

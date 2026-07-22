@@ -1,0 +1,17 @@
+title: The Maintainers Study Guide
+type: resource
+resource_type: Learning resource
+url: https://themaintainers.org/about/
+original_source: The Maintainers
+notes: >-
+  Why add: Useful direct input for steward and maintenance tracks. ·
+  Status/Caution: Confirm current publication location and licensing before
+  reuse · Parent source system: The Maintainers
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row495
+  source_lineage: https://themaintainers.org/about/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

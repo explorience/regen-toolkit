@@ -1,0 +1,20 @@
+title: Phase-Based Participation Workflow
+type: option-entry
+category: governance
+what_it_is: >-
+  Sequence surveys, meetings, proposals, debate, prioritization, voting and
+  accountability across explicit phases.
+potential_uses: Participatory planning, budgeting, policy design and organizational decisions.
+dependencies: >-
+  Process owner, timeline, facilitation, accessibility and institutional
+  response.
+tradeoffs: Rigid phases can exclude late participants or obscure administrator changes.
+context: Decidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row95
+  source_lineage: https://docs.decidim.org/en/develop/admin/spaces/processes.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

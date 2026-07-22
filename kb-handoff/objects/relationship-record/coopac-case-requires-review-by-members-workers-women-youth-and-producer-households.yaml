@@ -1,0 +1,19 @@
+subject: COOPAC case
+predicate: requires_review_by
+object: Members, workers, women, youth and producer households
+type: relationship-record
+title: >-
+  COOPAC case — requires_review_by — Members, workers, women, youth and producer
+  households
+original_relationship: requires review by
+evidence: Public sources do not establish distribution, power or labor outcomes.
+scope: Review requirement, not existing endorsement
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row446
+  source_lineage: Internal synthesis from case evidence
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

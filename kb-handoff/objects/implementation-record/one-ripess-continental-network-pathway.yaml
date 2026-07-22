@@ -1,0 +1,23 @@
+title: One RIPESS Continental-Network Pathway
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one issue from global framing through a continental network to a
+  territorial member initiative.
+what_returns_to_commons: >-
+  Tests whether federated source systems preserve territorial autonomy while
+  enabling learning.
+notes: >-
+  What to capture: Decision rights, translation, resource flows, knowledge
+  return, local adaptation and outcomes. · Status/Caution: Candidate; avoid
+  treating umbrella summaries as member evidence
+related_source_system: RIPESS
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row333
+  source_lineage: https://www.ripess.org/?lang=en
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,23 @@
+title: Polycentric Governance
+type: concept-lineage
+short_description: >-
+  Governance in which multiple centers of decision-making operate with some
+  autonomy while interacting through cooperation, competition, conflict, and
+  coordination.
+toolkit_usage: >-
+  Useful for networks-of-networks, local nodes, federated source systems, and
+  plural stewardship.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Useful for networks-of-networks, local nodes, federated source
+  systems, and plural stewardship. · Status/Caution: Multiple centers do not
+  automatically produce equity, coherence, or accountability · Parent source
+  system: Vincent and Elinor Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row318
+  source_lineage: https://ostromworkshop.indiana.edu/about/ostroms-history/index.html
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

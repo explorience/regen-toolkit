@@ -1,0 +1,21 @@
+title: Phases of care
+type: concept-lineage
+short_description: >-
+  Care process often described through attentiveness, responsibility,
+  competence, responsiveness and solidarity.
+toolkit_usage: >-
+  Direct review lens for contributor support, maintenance and public-service
+  workflows.
+original_object_type: Framework
+notes: >-
+  Why add: Direct review lens for contributor support, maintenance and
+  public-service workflows. · Status/Caution: Do not assume stages are linear or
+  culturally universal · Parent source system: Joan Tronto
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row548
+  source_lineage: https://nyupress.org/9780814782781/caring-democracy/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

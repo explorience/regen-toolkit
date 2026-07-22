@@ -1,0 +1,19 @@
+title: Institutional diversity prevents comparison
+type: claim-evidence
+claim: Institutional diversity prevents comparison
+interpretation: >-
+  Use comparison to illuminate differences, patterns, and tradeoffs—not to erase
+  context or rank all systems on one scale.
+uncertainty: >-
+  Context matters, but comparative frameworks can still identify recurring
+  variables, dilemmas, and patterns without prescribing one solution.
+evidence_stance: neutral
+context: Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row193
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/courses-teaching/teaching-tools/iad-framework/index.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

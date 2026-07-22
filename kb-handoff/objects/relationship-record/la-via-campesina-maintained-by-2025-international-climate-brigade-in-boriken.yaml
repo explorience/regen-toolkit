@@ -1,0 +1,19 @@
+subject: La Vía Campesina
+predicate: maintained_by
+object: 2025 International Climate Brigade in Borikén
+type: relationship-record
+title: >-
+  La Vía Campesina — maintained_by — 2025 International Climate Brigade in
+  Borikén
+original_relationship: convened with Puerto Rico hosts
+evidence: June 15–25, 2025 gathering included participants from ten countries.
+scope: Organizer-reported
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row522
+  source_lineage: >-
+    https://viacampesina.org/en/2025/07/puerto-rico-la-via-campesina-launches-its-first-international-climate-brigade-in-boriken/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

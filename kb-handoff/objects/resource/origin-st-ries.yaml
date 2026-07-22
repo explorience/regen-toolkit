@@ -1,0 +1,17 @@
+title: ORIGIN STØRIES
+type: resource
+resource_type: Project example
+url: https://artizen.fund/index/p/origin-stories
+original_source: Artizen
+notes: >-
+  Why add: Adds collaborative creation and creative-technology practice to the
+  ecosystem map. · Status/Caution: Self-described project; distinguish studio
+  services from public-good outcomes · Parent source system: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row46
+  source_lineage: https://artizen.fund/index/p/origin-stories
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+title: ANAMURI Seed Campaign
+type: resource
+resource_type: Campaign
+url: https://anamuri.cl/campana-semilla/
+original_source: ANAMURI
+notes: >-
+  Why add: Strong relational framing of seeds as living territorial commons. ·
+  Status/Caution: Do not convert seed knowledge into open data without
+  collective authority and safeguards · Parent source system: ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row794
+  source_lineage: https://anamuri.cl/campana-semilla/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

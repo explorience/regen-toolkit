@@ -1,0 +1,18 @@
+title: AI or LLM analysis improves deliberation by default
+type: claim-evidence
+claim: AI or LLM analysis improves deliberation by default
+interpretation: >-
+  Disclose models, prompts, validation, human review, uncertainty, corrections,
+  and non-AI pathways when AI assists deliberation.
+uncertainty: >-
+  Automated summarization or analysis can obscure minority views, introduce
+  errors, or shape facilitation without accountable explanation.
+evidence_stance: qualifying
+context: vTaiwan Democratic Input to AI / Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row138
+  source_lineage: https://info.vtaiwan.tw/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

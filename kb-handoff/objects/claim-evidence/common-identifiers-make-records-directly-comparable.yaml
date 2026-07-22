@@ -1,0 +1,18 @@
+title: Common identifiers make records directly comparable
+type: claim-evidence
+claim: Common identifiers make records directly comparable
+interpretation: >-
+  Use identifiers for connection, then preserve each source system’s method,
+  scope and uncertainty.
+uncertainty: >-
+  Shared identifiers improve linking but do not harmonize definitions, methods,
+  time windows or claims.
+evidence_stance: qualifying
+context: Karma / OSO / funding platforms / Regen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row4
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: Comply to Fly?
+type: resource
+resource_type: Report
+url: https://www.ajl.org/flyreport
+original_source: Algorithmic Justice League
+notes: >-
+  Why add: Useful case for combining lived experience, public systems, consent
+  claims and biometric governance. · Status/Caution: Campaign-derived evidence;
+  methods, sampling and policy context must accompany findings · Parent source
+  system: Algorithmic Justice League
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row479
+  source_lineage: https://www.ajl.org/flyreport
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

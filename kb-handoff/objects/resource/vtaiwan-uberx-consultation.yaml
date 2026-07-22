@@ -1,0 +1,20 @@
+title: vTaiwan UberX consultation
+type: resource
+resource_type: Implementation case
+url: https://compdemocracy.org/case-studies/2014-vtaiwan/
+original_source: vTaiwan / Polis
+notes: >-
+  Why add: Canonical tool-to-policy case with enough documentation for an
+  evidence chain. · Status/Caution: Widely cited success case; policy causality
+  and affected-party outcomes require closer review · Parent source system:
+  vTaiwan / Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row279
+  source_lineage: https://compdemocracy.org/case-studies/2014-vtaiwan/
+original_object_class: Case / Place / Infrastructure
+normalization_flag: DUP-NE-279
+review_needs: 'Matty dup-flag DUP-NE-279: g0v Manifesto'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: vTaiwan Democratic Input to AI
+type: resource
+resource_type: Implementation case
+url: https://info.vtaiwan.tw/
+original_source: vTaiwan
+notes: >-
+  Why add: Highly relevant AI-assisted deliberation and human-rights
+  implementation case. · Status/Caution: LLM analysis and global-platform
+  influence require transparency, validation, and independent review · Parent
+  source system: vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row281
+  source_lineage: https://info.vtaiwan.tw/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

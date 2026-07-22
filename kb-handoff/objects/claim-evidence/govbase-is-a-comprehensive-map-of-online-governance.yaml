@@ -1,0 +1,18 @@
+title: Govbase is a comprehensive map of online governance
+type: claim-evidence
+claim: Govbase is a comprehensive map of online governance
+interpretation: >-
+  Treat Govbase as a substantial, structured source system and research dataset;
+  verify coverage, status, and field completeness for each use.
+uncertainty: >-
+  The project describes itself as comprehensive, but the database is
+  crowdsourced and governance ecosystems evolve quickly.
+evidence_stance: neutral
+context: Metagov / Govbase
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row32
+  source_lineage: https://metagov.org/projects/govbase-dataset
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,26 @@
+title: Critical Data Cluster Review Track
+type: option-entry
+category: governance
+what_it_is: >-
+  Compose Data Feminism, Design Justice, Indigenous data governance, Race After
+  Technology and AJL into one bounded review without collapsing their distinct
+  authorities.
+potential_uses: >-
+  Toolkit ontology, AI ingestion, public views, claims, data-sharing and
+  contributor governance.
+dependencies: >-
+  Distinct review questions, appropriate reviewers, compensation, conflict
+  handling and non-substitution rules.
+tradeoffs: >-
+  A composite track may flatten feminist, Black, Indigenous and
+  movement-specific lineages into generic responsible AI.
+context: Cross-system
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row184
+  source_lineage: Internal cluster synthesis
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

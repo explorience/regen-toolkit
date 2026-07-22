@@ -1,0 +1,18 @@
+title: Radio Mundo Real
+type: resource
+resource_type: Movement-media partner
+url: https://cloc-viacampesina.net/nuestros-medios
+original_source: Friends of the Earth International / CLOC media ecosystem
+notes: >-
+  Why add: Bridge source system for environmental-justice and peasant-movement
+  audio archives. · Status/Caution: Partnership scope should be dated; not an
+  ownership relationship · Parent source system: Friends of the Earth
+  International / CLOC media ecosystem
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row766
+  source_lineage: https://cloc-viacampesina.net/nuestros-medios
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

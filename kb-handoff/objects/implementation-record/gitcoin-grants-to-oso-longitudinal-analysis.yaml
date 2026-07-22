@@ -1,0 +1,24 @@
+title: Gitcoin Grants to OSO Longitudinal Analysis
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: Gitcoin / Open Source Observer
+what_returns_to_commons: >-
+  Whether funding corresponds with sustained developer activity; which metrics
+  are informative; what cannot be inferred.
+notes: >-
+  What to capture: Trace the Gitcoin OSS project collection, funding periods,
+  identity mappings, developer-activity metrics, analytic assumptions and
+  reported findings across multiple years. · Status/Caution: Candidate — develop
+  into full implementation record
+related_source_system: Funding-to-evidence case
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row9
+  source_lineage: >-
+    Gitcoin round records; OSO collection and analysis; project mappings;
+    qualitative context.
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

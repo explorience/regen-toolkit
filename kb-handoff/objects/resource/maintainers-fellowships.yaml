@@ -1,0 +1,17 @@
+title: Maintainers Fellowships
+type: resource
+resource_type: Program
+url: https://themaintainers.org/fellowships/
+original_source: The Maintainers
+notes: >-
+  Why add: Implementation model for recognizing local expertise and supporting
+  maintenance work. · Status/Caution: Fellowship participation is not proof of
+  lasting outcomes · Parent source system: The Maintainers
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row496
+  source_lineage: https://themaintainers.org/fellowships/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

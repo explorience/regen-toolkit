@@ -1,0 +1,19 @@
+title: Regen Constitution Process
+type: resource
+resource_type: Governance artifact
+url: https://forum.regen.network/t/regen-constitution/79
+original_source: Regen Network / Regen Commons context
+notes: >-
+  Why add: Provides a related governance artifact for comparing commons
+  stewardship, constitutional design, and network authority. · Status/Caution:
+  Broader Regen Network process, not necessarily a Regen Commons artifact;
+  status and adoption need confirmation. · Parent source system: Regen Network /
+  Regen Commons context
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row133
+  source_lineage: https://forum.regen.network/t/regen-constitution/79
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

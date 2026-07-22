@@ -1,0 +1,22 @@
+title: Generative–Extractive Review Lens
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Evaluate whether an organization or mechanism replenishes shared capacities,
+  livelihoods, and ecosystems or extracts value without adequate return.
+potential_uses: >-
+  Funding mechanisms, platforms, cooperatives, registries, data systems,
+  public-private partnerships.
+dependencies: >-
+  Operational indicators, affected-party evidence, labor and ecological review,
+  value-flow transparency.
+tradeoffs: Binary framing may oversimplify mixed systems and become rhetorical labeling.
+context: P2P Foundation lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row132
+  source_lineage: https://primer.commonstransition.org/4-more/5-elements/infographics/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

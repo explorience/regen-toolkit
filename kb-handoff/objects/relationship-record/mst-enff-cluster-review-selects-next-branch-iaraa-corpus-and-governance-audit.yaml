@@ -1,0 +1,21 @@
+subject: MST / ENFF cluster review
+predicate: selects_next_branch
+object: IARAA corpus and governance audit
+type: relationship-record
+title: >-
+  MST / ENFF cluster review — selects_next_branch — IARAA corpus and governance
+  audit
+original_relationship: selects next branch
+evidence: >-
+  Selected through novelty, current implementation, evidence gap, Toolkit
+  alignment and affected-party significance.
+scope: Sequencing decision, not ranking of overall importance
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row421
+  source_lineage: Internal selection — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

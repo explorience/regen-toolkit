@@ -1,0 +1,12 @@
+title: Boundary — Gender Shades Audit-to-Institutional-Change Record
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  What to capture: Dataset, categories, thresholds, intersectional results,
+  replication, vendor changes, policy influence, use-case legitimacy and
+  critiques. · Status/Caution: Include critiques of binary gender classification
+  and surveillance legitimacy
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Implementation Memory!row183
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

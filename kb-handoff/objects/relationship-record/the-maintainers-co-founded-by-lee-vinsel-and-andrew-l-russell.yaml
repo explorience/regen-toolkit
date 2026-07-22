@@ -1,0 +1,17 @@
+subject: The Maintainers
+predicate: co_founded_by
+object: Lee Vinsel and Andrew L. Russell
+type: relationship-record
+title: The Maintainers — co_founded_by — Lee Vinsel and Andrew L. Russell
+original_relationship: co-founded by
+evidence: Maintainers biographies identify both as co-founders.
+scope: Founding relationship; current roles differ
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row223
+  source_lineage: https://themaintainers.org/about/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,17 @@
+title: Local technical training guarantees sustainable maintenance
+type: claim-evidence
+claim: Local technical training guarantees sustainable maintenance
+interpretation: Treat training as one component of a funded maintenance ecosystem.
+uncertainty: >-
+  Training alone does not provide wages, spare parts, governance, time, support
+  or succession.
+evidence_stance: qualifying
+context: Techio Comunitario
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row339
+  source_lineage: >-
+    https://www.rhizomatica.org/app/uploads/2022/09/GU%C3%8DA-TECHIO-INGL%C3%89S-FINAL.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

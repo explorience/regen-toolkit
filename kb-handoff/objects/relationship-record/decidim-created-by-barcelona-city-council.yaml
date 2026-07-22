@@ -1,0 +1,16 @@
+subject: Decidim
+predicate: created_by
+object: Barcelona City Council
+type: relationship-record
+title: Decidim — created_by — Barcelona City Council
+original_relationship: created initially by
+evidence: Official documentation identifies Barcelona City Hall as the initial creator.
+scope: Historical relationship; current stewardship is broader
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row53
+  source_lineage: https://docs.decidim.org/en/develop/index.html
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

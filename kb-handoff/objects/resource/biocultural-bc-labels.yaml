@@ -1,0 +1,18 @@
+title: Biocultural (BC) Labels
+type: resource
+resource_type: Metadata / governance tool
+url: https://localcontexts.org/labels/biocultural-labels/
+original_source: Local Contexts
+notes: >-
+  Why add: Critical for ecological, biodiversity, genomic and ReFi records
+  involving Indigenous lands, species and knowledge. · Status/Caution: Label use
+  must preserve community authority, provenance and context · Parent source
+  system: Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row446
+  source_lineage: https://localcontexts.org/labels/biocultural-labels/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

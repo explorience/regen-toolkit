@@ -1,0 +1,17 @@
+title: AI-Assisted Curation Steward Track
+type: resource
+resource_type: Track candidate
+toolkit_route: Tracks & Composition; Implementation & Learning Memory
+notes: >-
+  Priority: For using agents responsibly in intake, classification, summaries,
+  and routing. · Next: Develop track outline after source-system cards reveal
+  resources/options. · Notes: Tracks should be guided pathways.
+review_needs: >-
+  Discovery_Pool promotion (track candidate — route to track schema on review) —
+  confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-?????
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

@@ -1,0 +1,24 @@
+title: Knowledge Commons Research Artifact Archive
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Preserve protocols, codebooks, interview materials, scripts, network files,
+  analysis, and outputs with differentiated access and provenance.
+potential_uses: >-
+  Toolkit research memory, source-system studies, contributor research,
+  longitudinal comparisons.
+dependencies: >-
+  Data management plan, consent, licenses, access tiers, retention, redaction,
+  metadata, versioning.
+tradeoffs: >-
+  Open-by-default can violate consent, privacy, community expectations, or
+  research ethics.
+context: GKC Knowledge Management Initiative
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row69
+  source_lineage: https://knowledge-commons.net/resources/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

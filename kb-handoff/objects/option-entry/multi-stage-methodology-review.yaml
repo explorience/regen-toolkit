@@ -1,0 +1,25 @@
+title: Multi-Stage Methodology Review
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use internal review, expert peer review, public comment, revisions, and
+  published document histories before a protocol becomes active.
+potential_uses: >-
+  Standards intake, option review, high-risk public guidance, ecological and
+  civic methodologies.
+dependencies: >-
+  Reviewer selection, conflict disclosures, version control,
+  response-to-comments, decision authority, archival access.
+tradeoffs: >-
+  Review can become slow, expensive, opaque, or falsely legitimizing;
+  participation may be uneven.
+context: Regen Registry
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row10
+  source_lineage: >-
+    https://handbook.regen.network/protocol-development/protocol-methodology-development-overview
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

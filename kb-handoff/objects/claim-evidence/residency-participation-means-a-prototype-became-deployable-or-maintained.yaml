@@ -1,0 +1,18 @@
+title: Residency participation means a prototype became deployable or maintained
+type: claim-evidence
+claim: Residency participation means a prototype became deployable or maintained
+interpretation: >-
+  Treat residency completion as an implementation milestone; separately document
+  repositories, adoption, maintenance, funding, and failures.
+uncertainty: >-
+  Programs describe advancement, open-source outputs, and showcases, but later
+  use and maintenance are not established by completion.
+evidence_stance: qualifying
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row80
+  source_lineage: https://www.fundingthecommons.io/builderresidency2025
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

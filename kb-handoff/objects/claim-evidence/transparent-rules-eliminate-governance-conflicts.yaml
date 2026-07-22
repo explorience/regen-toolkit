@@ -1,0 +1,18 @@
+title: Transparent rules eliminate governance conflicts
+type: claim-evidence
+claim: Transparent rules eliminate governance conflicts
+interpretation: >-
+  Pair transparent rules with discretion boundaries, appeals, retrospectives,
+  and constitutional revision.
+uncertainty: >-
+  Rules can clarify process but cannot remove competing values, unequal
+  resources, interpretation disputes, or strategic behavior.
+evidence_stance: qualifying
+context: Toolkit self-governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row169
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

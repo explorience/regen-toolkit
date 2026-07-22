@@ -9,13 +9,18 @@ what_it_curates: >-
 why_it_matters: >-
   Global hub helping organizations and governments build participatory
   budgeting, policymaking, planning, citizens’ assemblies and related practices.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row10
-  source_lineage: https://www.peoplepowered.org/
 caution: >-
   Program self-reports require case-level outcome review; support activity is
   not itself evidence of democratic impact.
+extraction_status: >-
+  Capacity-building programs, guides, practitioner networks, regional cases and
+  implementation support across participatory-democracy practices.
+notes: 'Role: Core Batch 1C practitioner capacity network · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row9
+  source_lineage: https://www.peoplepowered.org/
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

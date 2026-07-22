@@ -1,0 +1,18 @@
+subject: The Maintainers
+predicate: implements_or_uses
+object: maintenance, repair, care, and infrastructure
+type: relationship-record
+title: >-
+  The Maintainers — implements_or_uses — maintenance, repair, care, and
+  infrastructure
+original_relationship: focuses on
+evidence: Current mission and research focus.
+scope: Conceptual scope
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row224
+  source_lineage: https://themaintainers.org/about/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

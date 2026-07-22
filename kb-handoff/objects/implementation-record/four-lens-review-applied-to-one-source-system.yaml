@@ -1,0 +1,23 @@
+title: Four-Lens Review Applied to One Source System
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply institutional, commons-transition, civic-participation, and
+  structural-integrity lenses to one source system already in the database.
+what_returns_to_commons: >-
+  Tests whether the thinker graph produces practical review value rather than
+  only conceptual breadth.
+notes: >-
+  What to capture: Different findings, contradictions, missing evidence,
+  reviewer burden, changes to options/claims, and whether the source-system card
+  improves. · Status/Caution: Candidate; select after fifth cluster
+related_source_system: Cross-cluster
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row152
+  source_lineage: Internal synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

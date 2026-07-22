@@ -1,0 +1,18 @@
+title: Media pattern
+type: option-entry
+category: coordination
+what_it_is: Voz Campesina
+potential_uses: >-
+  Co-produce recurring audio across regions and member movements rather than
+  centralizing all reporting.
+dependencies: Adds oral knowledge, timely context and less-visible voices.
+tradeoffs: https://cloc-viacampesina.net/nuestros-medios
+context: Distributed Movement Audio Network
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row309
+  source_lineage: Visibility and archival reuse need consent and safety review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

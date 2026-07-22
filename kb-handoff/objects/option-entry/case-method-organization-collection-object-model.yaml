@@ -1,0 +1,24 @@
+title: Case–Method–Organization–Collection Object Model
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Separate real-world cases, reusable methods, organizations, and curated
+  collections while linking them many-to-many.
+potential_uses: >-
+  Resource-database ontology, implementation memory, options library, thematic
+  collections, research exports.
+dependencies: >-
+  Stable identifiers, typed relationships, contribution history, controlled
+  vocabularies, editorial workflow, deduplication.
+tradeoffs: >-
+  Can impose rigid categories, split inseparable context, or imply methods are
+  portable without adaptation.
+context: Participedia
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row73
+  source_lineage: https://participedia.net/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,23 @@
+title: KOI Sensor-to-Processor Provenance Pipeline
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document one source from detection through RID creation, event routing,
+  content extraction, deduplication, embeddings, storage, retrieval, correction,
+  and update.
+what_returns_to_commons: Directly useful for the Toolkit data-layer and knowledge-lifecycle design.
+notes: >-
+  What to capture: Source permission, identifier, transformation steps, dates,
+  confidence, failed ingestions, duplicate handling, citations, and
+  deletion/correction behavior. · Status/Caution: Priority technical case;
+  include a sensitive-source counterexample
+related_source_system: GAIAI / KOI
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row29
+  source_lineage: https://github.com/gaiaaiagent/koi-sensors
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

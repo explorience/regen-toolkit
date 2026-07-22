@@ -1,0 +1,21 @@
+subject: Toolkit public collections
+predicate: must_provide
+object: Non-visual and plain-language equivalents
+type: relationship-record
+title: >-
+  Toolkit public collections — must_provide — Non-visual and plain-language
+  equivalents
+original_relationship: must provide
+evidence: >-
+  Prevents visual maps, charts and dense prose from becoming the only path to
+  knowledge.
+scope: Public-view requirement
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row260
+  source_lineage: Internal disability-access review
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

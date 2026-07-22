@@ -1,0 +1,18 @@
+title: Plural Management Protocol
+type: resource
+resource_type: Governance protocol
+url: https://docs.plurality.net/governance/Plural%20management%20protocol/
+original_source: Plurality Project
+notes: >-
+  Why add: Concrete experimental branch connecting a normative book to
+  governance tooling. · Status/Caution: Planned protocol should not be described
+  as mature or fully community-governed without current evidence · Parent source
+  system: Plurality Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row365
+  source_lineage: https://docs.plurality.net/governance/Plural%20management%20protocol/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

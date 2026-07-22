@@ -1,0 +1,19 @@
+title: African digital public value
+type: concept-lineage
+short_description: >-
+  Approach assessing digital infrastructure through inclusion, accountability,
+  sustainability, justice and public benefit rather than deployment alone.
+toolkit_usage: Useful for comparing digital public infrastructure and agent/data systems.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Useful for comparing digital public infrastructure and agent/data
+  systems. · Status/Caution: Public value is contested and requires
+  affected-party evidence · Parent source system: Research ICT Africa
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row601
+  source_lineage: https://researchictafrica.net/programme/digital-public-infrastructure-2/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

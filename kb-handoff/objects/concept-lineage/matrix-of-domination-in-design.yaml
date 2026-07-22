@@ -1,0 +1,23 @@
+title: Matrix of domination in design
+type: concept-lineage
+short_description: >-
+  Lens for examining how racism, patriarchy, capitalism, ableism, cisnormativity
+  and other structures are encoded and reproduced through sociotechnical
+  systems.
+toolkit_usage: >-
+  Connects database classification and technology design to structural power
+  rather than isolated bias incidents.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Connects database classification and technology design to structural
+  power rather than isolated bias incidents. · Status/Caution: Do not flatten
+  distinct systems of oppression into a generic checklist. · Parent source
+  system: Design Justice / intersectional feminist theory
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row429
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/ap8rgw5e
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

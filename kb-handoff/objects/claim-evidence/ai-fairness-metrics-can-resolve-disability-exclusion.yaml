@@ -1,0 +1,19 @@
+title: AI fairness metrics can resolve disability exclusion
+type: claim-evidence
+claim: AI fairness metrics can resolve disability exclusion
+interpretation: >-
+  Use disability-led justice review, use-case legitimacy, data minimization,
+  subgroup analysis and refusal options in addition to technical metrics.
+uncertainty: >-
+  Disability is heterogeneous, contextual and often absent or distorted in
+  datasets; equalized metrics can preserve harmful uses and medicalized
+  assumptions.
+evidence_stance: neutral
+context: Critical disability / AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row294
+  source_lineage: https://arxiv.org/abs/1908.01024
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

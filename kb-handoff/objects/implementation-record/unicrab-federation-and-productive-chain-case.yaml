@@ -1,0 +1,25 @@
+title: UNICRAB Federation and Productive-Chain Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one productive chain across local cooperatives, national coordination,
+  processing, markets, policy and member governance.
+what_returns_to_commons: >-
+  Tests whether federation strengthens autonomy and livelihoods without
+  centralizing power.
+notes: >-
+  What to capture: Member cooperatives, rules, services, prices, labor,
+  financing, data, conflicts, benefits, failures and current maintenance. ·
+  Status/Caution: Priority candidate; select one chain with cooperative-level
+  data
+related_source_system: MST / UNICRAB
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row282
+  source_lineage: >-
+    https://mst.org.br/2025/02/27/encontro-nacional-das-cooperativas-de-reforma-agraria-reafirma-importancia-do-cooperativismo/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

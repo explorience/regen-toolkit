@@ -1,0 +1,21 @@
+title: AI training on publicly accessible Indigenous material is automatically permi…
+type: claim-evidence
+claim: >-
+  AI training on publicly accessible Indigenous material is automatically
+  permissible
+interpretation: >-
+  Require Indigenous data-governance review, provenance and community-specific
+  permissions before AI ingestion or model use.
+uncertainty: >-
+  Public accessibility does not establish authority, appropriate purpose,
+  collective benefit or ethical reuse in AI systems.
+evidence_stance: qualifying
+context: GIDA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row260
+  source_lineage: https://www.gida-global.org/gidacommuniques
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

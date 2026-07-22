@@ -1,0 +1,26 @@
+title: Gitcoin
+type: directory
+steward: Gitcoin
+return_path: unset — establish via register-source
+url: https://www.gitcoin.co/
+why_it_matters: >-
+  Foundational to public goods funding, QF, Ethereum public goods culture, grant
+  round implementation memory, mechanism comparison, and public goods
+  builder/funder tracks.
+toolkit_route: >-
+  Option Library; Implementation & Learning Memory; Resource Graph & Ecosystem
+  Atlas; Concept & Idea Ecology; Deployment & Structural Integrity; Tracks &
+  Composition; Infrastructure & Substrate
+notes: >-
+  Priority: Foundational to public goods funding, QF, Ethereum public goods
+  culture, grant round implementation memory, mechanism comparison, and public
+  goods builder/funder tracks. · Next: Extract first linked records; move next
+  to Karma GAP. · Notes: Updated in Batch 1B Gitcoin card update.
+review_needs: Discovery_Pool promotion (Tier 1B) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-00239
+  source_lineage: https://www.gitcoin.co/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

@@ -1,0 +1,17 @@
+subject: Amrita Bhoomi and KRRS
+predicate: created_by
+object: Namdu producers’ cooperative
+type: relationship-record
+title: Amrita Bhoomi and KRRS — created_by — Namdu producers’ cooperative
+original_relationship: co-created / supported
+evidence: LVC announcement describes the cooperative initiative.
+scope: Current status and outcomes unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row387
+  source_lineage: >-
+    https://viacampesina.org/en/2020/10/namdu-a-producers-cooperative-run-and-managed-by-farmers-in-karnataka-india/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

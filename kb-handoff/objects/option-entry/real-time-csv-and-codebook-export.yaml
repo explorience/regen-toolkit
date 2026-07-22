@@ -1,0 +1,22 @@
+title: Real-Time CSV and Codebook Export
+type: option-entry
+category: coordination
+what_it_is: >-
+  Publish current structured datasets and field definitions for research and
+  external reuse.
+potential_uses: Websites, agents, comparative research, audits, visualizations, local mirrors.
+dependencies: >-
+  Stable schemas, versioning, licensing, timestamps, deletion/correction
+  propagation, sensitive-field review.
+tradeoffs: >-
+  Open exports can amplify errors, enable decontextualized analysis, or expose
+  sensitive communities.
+context: Participedia
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row75
+  source_lineage: https://participedia.net/research
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

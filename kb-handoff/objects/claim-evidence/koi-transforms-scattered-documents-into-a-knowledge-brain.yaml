@@ -1,0 +1,20 @@
+title: KOI transforms scattered documents into a knowledge brain
+type: claim-evidence
+claim: KOI transforms scattered documents into a knowledge brain
+interpretation: >-
+  KOI indexes and retrieves distributed Regen ecosystem materials; outputs
+  remain dependent on source coverage, processing quality, permissions, and
+  review.
+uncertainty: >-
+  Large-scale indexing and semantic retrieval do not ensure accuracy,
+  representation, understanding, or responsible use.
+evidence_stance: neutral
+context: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row52
+  source_lineage: >-
+    https://forum.regen.network/t/regen-koi-mcp-the-knowledge-brain-of-regeneration/561
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

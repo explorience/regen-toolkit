@@ -1,0 +1,22 @@
+title: Source-System Maintenance Assignment
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Attach primary/backup maintainers, review cadence, stale threshold, and next
+  review date to priority source systems and public-facing collections.
+potential_uses: Database quality, source refresh, public-safe views, steward collaboration.
+dependencies: >-
+  Maintainer consent, workload estimate, funding/support, escalation and
+  transfer path.
+tradeoffs: >-
+  Unfunded assignment can merely rename invisible labor; one maintainer may
+  become a bottleneck.
+context: Toolkit operations
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row193
+  source_lineage: Internal labor-maintenance review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

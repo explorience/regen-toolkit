@@ -1,0 +1,22 @@
+title: Scaling democratic deliberation across five dimensions
+type: concept-lineage
+short_description: >-
+  Framework distinguishing scale by number of participants, governance level,
+  number of processes, institutional impact, and deliberative quality.
+toolkit_usage: >-
+  Useful for preventing simplistic claims that larger participation numbers
+  alone mean better democracy.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Useful for preventing simplistic claims that larger participation
+  numbers alone mean better democracy. · Status/Caution: Conceptual framework,
+  not a certification or universal metric · Parent source system: DemocracyNext
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row192
+  source_lineage: >-
+    https://www.demnext.org/action/five-dimensions-of-scaling-democratic-deliberation-with-and-beyond-ai
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

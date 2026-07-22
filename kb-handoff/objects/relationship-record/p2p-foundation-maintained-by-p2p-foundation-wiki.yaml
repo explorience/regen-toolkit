@@ -1,0 +1,16 @@
+subject: P2P Foundation
+predicate: maintained_by
+object: P2P Foundation Wiki
+type: relationship-record
+title: P2P Foundation — maintained_by — P2P Foundation Wiki
+original_relationship: maintains / stewards
+evidence: Knowledge commons and observatory relationship
+scope: Stewardship model needs direct confirmation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row107
+  source_lineage: https://wiki.p2pfoundation.net/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

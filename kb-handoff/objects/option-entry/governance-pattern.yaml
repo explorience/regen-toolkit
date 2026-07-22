@@ -1,0 +1,21 @@
+title: Governance pattern
+type: option-entry
+category: governance
+what_it_is: CLOC–La Vía Campesina
+potential_uses: >-
+  Convene women, youth and diversity assemblies before the umbrella congress so
+  constituency agendas enter the broader process.
+dependencies: >-
+  Could strengthen voice and agenda formation without assuming equal final
+  power.
+tradeoffs: >-
+  https://cloc-viacampesina.net/kit-de-prensa-viii-congreso-de-la-cloc-via-campesina
+context: Constituency Assemblies Before Continental Congress
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row306
+  source_lineage: Option only; review decision rights, resourcing and follow-through
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

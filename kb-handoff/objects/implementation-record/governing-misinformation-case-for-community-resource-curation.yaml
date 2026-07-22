@@ -1,0 +1,24 @@
+title: Governing Misinformation Case for Community Resource Curation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how one community resource system handles credibility, contested claims,
+  corrections, moderation, rumors, uncertainty and trust over time.
+what_returns_to_commons: >-
+  Directly relevant to claim candidates, public-use cautions and source-system
+  stewardship.
+notes: >-
+  What to capture: Information types, contributors, credibility practices,
+  moderation, conflict, corrections, harms, informal norms, technology, power
+  and outcomes. · Status/Caution: Sensitive; avoid positioning the Toolkit as an
+  arbiter of truth
+related_source_system: GKC Misinformation + selected source system
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row68
+  source_lineage: https://knowledge-commons.net/publications/misinformation-book/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

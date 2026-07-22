@@ -1,0 +1,18 @@
+title: People Powered Resource Center
+type: resource
+resource_type: Resource system
+url: https://www.peoplepowered.org/resources
+original_source: People Powered
+notes: >-
+  Why add: Source-system branch for practical resources, not just organizational
+  programs. · Status/Caution: Curation is useful for discovery but does not make
+  all resources current, equivalent, or independently reviewed. · Parent source
+  system: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row251
+  source_lineage: https://www.peoplepowered.org/resources
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

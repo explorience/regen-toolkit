@@ -1,0 +1,18 @@
+title: Global network membership proves common practice
+type: claim-evidence
+claim: Global network membership proves common practice
+interpretation: >-
+  Represent network relationships separately; verify practices at regional and
+  member level.
+uncertainty: >-
+  Membership or affiliation does not establish shared governance, quality or
+  outcomes across diverse member organizations.
+evidence_stance: qualifying
+context: RIPESS and continental member networks
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row487
+  source_lineage: https://www.ripess.org/?lang=en
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

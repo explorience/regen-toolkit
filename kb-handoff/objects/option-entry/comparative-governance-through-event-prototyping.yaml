@@ -1,0 +1,24 @@
+title: Comparative Governance Through Event Prototyping
+type: option-entry
+category: governance
+what_it_is: >-
+  Use multiple spaces, formats, facilitation patterns, and governance rules
+  within an event as a comparative learning environment.
+potential_uses: >-
+  Convening design, pop-up institutions, governance research, community
+  experimentation.
+dependencies: >-
+  Clear experimental questions, informed participants, observation methods,
+  feedback, ethics, and follow-up.
+tradeoffs: >-
+  Participants may not know they are part of an experiment; observations may not
+  transfer beyond events.
+context: Funding the Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row56
+  source_lineage: https://www.fundingthecommons.io/research
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

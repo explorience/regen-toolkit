@@ -1,0 +1,24 @@
+title: BÚAN Fund Land-Stewardship and Onchain Infrastructure
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Examine how land acquisition or reserves, stewardship agreements,
+  tokenization, funding, and public communication are connected in practice.
+what_returns_to_commons: >-
+  High-value case at the intersection of land commons, ecological governance,
+  and regenerative finance.
+notes: >-
+  What to capture: Land status, legal structure, local participation, ecological
+  baseline, stewardship duties, funding flows, token rights, monitoring,
+  disputes, and long-term maintenance. · Status/Caution: Candidate; high-risk
+  legal and ecological claims require domain review
+related_source_system: Artizen / BÚAN Fund
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row8
+  source_lineage: https://artizen.fund/index/p/buanfund?season=5
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

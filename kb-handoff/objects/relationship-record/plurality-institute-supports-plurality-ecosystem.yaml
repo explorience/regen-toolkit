@@ -1,0 +1,16 @@
+subject: Plurality Institute
+predicate: supports
+object: Plurality ecosystem
+type: relationship-record
+title: Plurality Institute — supports — Plurality ecosystem
+original_relationship: supports / convenes
+evidence: Research, events, and collaboration around plural technologies
+scope: Broad ecosystem relationship; not ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row6
+  source_lineage: https://www.plurality.institute/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

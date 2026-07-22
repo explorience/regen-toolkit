@@ -1,0 +1,18 @@
+title: The existence of a commons means community members agree on its legitimacy
+type: claim-evidence
+claim: The existence of a commons means community members agree on its legitimacy
+interpretation: >-
+  Record whose legitimacy judgment is represented and preserve disagreement and
+  exclusion.
+uncertainty: >-
+  Members, decision makers, nonmembers and affected outsiders may evaluate
+  legitimacy differently.
+evidence_stance: neutral
+context: GKC Research Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row106
+  source_lineage: https://knowledge-commons.net/research-framework/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

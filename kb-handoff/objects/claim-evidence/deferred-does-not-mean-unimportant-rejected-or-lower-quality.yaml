@@ -1,0 +1,16 @@
+title: Deferred does not mean unimportant, rejected or lower quality.
+type: claim-evidence
+claim: Deferred does not mean unimportant, rejected or lower quality.
+interpretation: Governance
+uncertainty: Scope Freeze and Backlog
+evidence_stance: neutral
+context: >-
+  Backlog priority reflects current-version sequencing, evidence readiness and
+  consolidation needs.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row504
+  source_lineage: Active
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

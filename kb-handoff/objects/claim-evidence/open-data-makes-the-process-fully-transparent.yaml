@@ -1,0 +1,16 @@
+title: Open data makes the process fully transparent
+type: claim-evidence
+claim: Open data makes the process fully transparent
+interpretation: Treat open data as one evidence layer within a wider institutional record.
+uncertainty: >-
+  Vote and statement data do not capture recruitment, facilitation, moderation,
+  private negotiations, legal drafting, or affected-party experience.
+evidence_stance: qualifying
+context: vTaiwan UberX / Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row161
+  source_lineage: https://github.com/compdemocracy/openData/tree/master/vtaiwan.uberx
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,6 +1,6 @@
 title: Movement-Owned Education Source-System Model
 type: option-entry
-category: organizational-structure
+category: governance
 what_it_is: >-
   Treat a political school as a linked system of pedagogy, movement governance,
   physical infrastructure, archives, partnerships, maintenance and territorial
@@ -14,10 +14,12 @@ dependencies: >-
 tradeoffs: >-
   Can romanticize political formation, erase internal disagreement or extract
   curricula from movement context.
+context: MST / ENFF
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row14
+  origin: Canonical_DB.xlsx#Option Candidates!row277
   source_lineage: https://mst.org.br/tag/enff/
-work_order: wo-e5b7999ca3a5
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

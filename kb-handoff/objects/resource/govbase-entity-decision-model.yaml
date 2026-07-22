@@ -1,0 +1,17 @@
+title: Govbase Entity-Decision Model
+type: resource
+resource_type: Dataset / model
+url: https://govbase.metagov.org/
+original_source: Metagov / Govbase
+notes: >-
+  Why add: Direct input for ontology, deployment, and structural-integrity
+  comparisons. · Status/Caution: Formal models may omit informal power and
+  implementation reality · Parent source system: Metagov / Govbase
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row102
+  source_lineage: https://govbase.metagov.org/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

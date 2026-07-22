@@ -1,0 +1,23 @@
+title: Indigenous Peoples’ Rights in Data
+type: concept-lineage
+short_description: >-
+  Rights-oriented articulation connecting Indigenous research sovereignty, data
+  governance and collective decision-making.
+toolkit_usage: >-
+  Adds rights and responsibilities beyond consent forms, licenses and technical
+  access controls.
+original_object_type: Rights framework
+notes: >-
+  Why add: Adds rights and responsibilities beyond consent forms, licenses and
+  technical access controls. · Status/Caution: Use the latest primary
+  publication and community/legal context before operationalizing · Parent
+  source system: GIDA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row441
+  source_lineage: https://www.gida-global.org/data-rights
+original_object_class: Framework / Concept
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

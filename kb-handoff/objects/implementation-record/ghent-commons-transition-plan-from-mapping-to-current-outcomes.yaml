@@ -1,0 +1,25 @@
+title: Ghent Commons Transition Plan from Mapping to Current Outcomes
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace the 2017 mapping and plan through adopted policies, institutions, funded
+  projects, commoner experiences, and current maintenance.
+what_returns_to_commons: >-
+  Tests whether a commons-transition plan becomes durable public-commons
+  infrastructure rather than a report.
+notes: >-
+  What to capture: Original map; participants; proposals; policy decisions;
+  budgets; organizations; implementation; exclusions; outcomes; what persists
+  today. · Status/Caution: Priority case; requires current local and municipal
+  follow-up
+related_source_system: P2P Foundation / City of Ghent
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row131
+  source_lineage: >-
+    https://stad.gent/sites/default/files/page/documents/Commons%20Transition%20Plan%20-%20under%20revision.pdf
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

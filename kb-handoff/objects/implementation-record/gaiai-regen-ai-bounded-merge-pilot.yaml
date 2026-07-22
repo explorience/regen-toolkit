@@ -1,0 +1,28 @@
+title: GAIAI / Regen AI Bounded Merge Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Resolved a high-risk naming cluster across the original and continuation
+  workbooks into canonical GAIAI, Regen AI, Encyclopedia of Regeneration, The
+  Gaian Times, and separate technical component records while preserving every
+  source row.
+what_returns_to_commons: >-
+  Demonstrates that preserving source rows and separating organizations,
+  collaborations, artifacts and tools prevents false aliasing and silent data
+  loss.
+notes: >-
+  What to capture: Import ledger; canonical IDs; aliases; same-entity versus
+  related-entity decisions; object-type conflicts; preferred-record rationale;
+  unresolved facts; public-use states; reviewer needs. · Status/Caution:
+  Completed; requires human/domain review before applying decisions in final
+  consolidated workbook
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row119
+  source_lineage: Internal bounded merge pilot — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

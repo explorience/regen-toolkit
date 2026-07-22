@@ -1,0 +1,18 @@
+title: DAOstar and EIP-4824
+type: resource
+resource_type: Technical standard / standards body
+url: https://metagov.org/projects/daostar
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Strong standards-intake and interoperability reference for
+  organizations and governance systems. · Status/Caution: Standards
+  participation or metadata conformance is not governance quality certification.
+  · Parent source system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row69
+  source_lineage: https://metagov.org/projects/daostar
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

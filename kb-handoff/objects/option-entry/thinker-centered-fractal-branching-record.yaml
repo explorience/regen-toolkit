@@ -1,0 +1,25 @@
+title: Thinker-Centered Fractal Branching Record
+type: option-entry
+category: coordination
+what_it_is: >-
+  For each thinker, connect works, concepts, institutions, collaborators,
+  critiques, implementation cases, and related source systems rather than
+  storing a biography-only record.
+potential_uses: >-
+  Thinker explorer, review-lens graph, research navigation, source-system
+  discovery.
+dependencies: >-
+  Canonical person identity, scoped relationships, source lineage, selection
+  rationale, critique fields.
+tradeoffs: >-
+  Can become personality-centric, overstate influence, or privilege
+  well-documented academic networks.
+context: People and thinker expansion
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row123
+  source_lineage: Internal thinker-branching synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

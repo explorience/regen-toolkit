@@ -1,0 +1,17 @@
+title: Participant Verification and Authorizations
+type: resource
+resource_type: Infrastructure feature
+url: https://decidim.org/modules/
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Relevant to identity, eligibility, privacy and sybil resistance. ·
+  Status/Caution: Can exclude participants or expose sensitive data · Parent
+  source system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row299
+  source_lineage: https://decidim.org/modules/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

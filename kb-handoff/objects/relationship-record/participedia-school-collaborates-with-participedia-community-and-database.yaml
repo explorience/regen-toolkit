@@ -1,0 +1,18 @@
+subject: Participedia School
+predicate: collaborates_with
+object: Participedia community and database
+type: relationship-record
+title: Participedia School — collaborates_with — Participedia community and database
+original_relationship: contributes to
+evidence: >-
+  Schools are co-created learning spaces and can produce locally grounded
+  entries and research.
+scope: Contribution and community benefit vary by school.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row26
+  source_lineage: https://participedia.net/participediaschool
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

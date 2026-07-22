@@ -1,0 +1,18 @@
+title: Contribution credits fairly measure value
+type: claim-evidence
+claim: Contribution credits fairly measure value
+interpretation: >-
+  Treat credits as one governance input and preserve qualitative review, appeals
+  and non-measured contributions.
+uncertainty: >-
+  Quantitative contribution recognition can exclude care, invisible labor,
+  dissent, low-volume expertise and structurally marginalized contributors.
+evidence_stance: qualifying
+context: Plurality Project / Plural Credits
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row209
+  source_lineage: https://docs.plurality.net/governance/Plural%20credits/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

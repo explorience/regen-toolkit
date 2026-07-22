@@ -1,0 +1,18 @@
+title: Consensus mapping identifies the public will
+type: claim-evidence
+claim: Consensus mapping identifies the public will
+interpretation: >-
+  Describe the participant population, process, algorithmic role, facilitation
+  and policy pathway before making consensus claims.
+uncertainty: >-
+  Opinion clusters and areas of agreement depend on participant recruitment,
+  statement generation, moderation, algorithm design and institutional use.
+evidence_stance: qualifying
+context: Polis / vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row98
+  source_lineage: https://compdemocracy.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

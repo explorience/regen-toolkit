@@ -1,0 +1,21 @@
+title: IALA Sembradoras de Esperanza
+type: resource
+resource_type: Movement school
+url: >-
+  https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+original_source: ANAMURI / CLOC–La Vía Campesina / Chile
+notes: >-
+  Why add: High-value women-led school and seed/food-sovereignty branch. ·
+  Status/Caution: Current program scope and participant authority require direct
+  review · Parent source system: ANAMURI / CLOC–La Vía Campesina / Chile
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row763
+  source_lineage: >-
+    https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+original_object_class: Case / Place / Infrastructure
+normalization_flag: DUP-NE-763
+review_needs: 'Matty dup-flag DUP-NE-763: IALA Ixim Ulew'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

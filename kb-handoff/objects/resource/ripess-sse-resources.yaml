@@ -1,0 +1,19 @@
+title: RIPESS SSE Resources
+type: resource
+resource_type: Resource Collection
+url: https://www.ripess.org/resources-medias/resources-on-the-sse/?lang=en
+original_source: RIPESS
+notes: >-
+  Why add: Use for bounded branching into continental and thematic systems ·
+  Status/Caution: Discovery resource; not exhaustive · Parent source system:
+  RIPESS
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row851
+  source_lineage: https://www.ripess.org/resources-medias/resources-on-the-sse/?lang=en
+original_object_class: Source System / Collection
+normalization_flag: REPAIR-NO-851
+review_needs: 'Matty dup-flag REPAIR-NO-851: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

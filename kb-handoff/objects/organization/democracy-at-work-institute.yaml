@@ -1,0 +1,18 @@
+title: Democracy at Work Institute
+type: organization
+org_type: Organization / field builder
+url: https://institute.coop/about
+steward: Worker cooperative development
+notes: >-
+  Why add: Adds practical ownership, finance, legal, and support-system depth
+  beyond platform technology. · Status/Caution: U.S.-centric; institutional
+  self-description requires outcome evidence · Parent source system: Worker
+  cooperative development
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row497
+  source_lineage: https://institute.coop/about
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

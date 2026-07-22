@@ -1,0 +1,17 @@
+title: Rights recognition equals protection
+type: claim-evidence
+claim: Rights recognition equals protection
+interpretation: Track implementation, institutions, cases and protection outcomes separately.
+uncertainty: >-
+  Formal international rights do not ensure domestic enforcement, safety or
+  access to remedy.
+evidence_stance: qualifying
+context: UNDROP / Colombia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row473
+  source_lineage: >-
+    https://viacampesina.org/en/2022/05/colombia-complaint-to-un-mechanisms-about-the-violation-peasants-rights/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

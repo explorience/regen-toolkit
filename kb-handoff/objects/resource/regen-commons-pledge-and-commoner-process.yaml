@@ -1,0 +1,18 @@
+title: Regen Commons Pledge and Commoner Process
+type: resource
+resource_type: Governance artifact candidate
+url: https://forum.regen.network/t/regen-tokenomics-wg/19/32
+original_source: Regen Commons
+notes: >-
+  Why add: Moves beyond high-level commons framing toward an actual membership
+  and practice artifact. · Status/Caution: Source confirms discussion, not a
+  complete or ratified public specification; locate the primary pledge before
+  public use. · Parent source system: Regen Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row130
+  source_lineage: https://forum.regen.network/t/regen-tokenomics-wg/19/32
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

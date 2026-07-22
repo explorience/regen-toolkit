@@ -1,0 +1,19 @@
+title: Indicators are neutral measurements of what matters
+type: claim-evidence
+claim: Indicators are neutral measurements of what matters
+interpretation: >-
+  State why the indicator exists, who selected it, who bears reporting costs and
+  what it leaves out.
+uncertainty: >-
+  Selection, aggregation, visibility and decision use embody values and can
+  reshape behavior.
+evidence_stance: qualifying
+context: Donella Meadows indicators work
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row231
+  source_lineage: >-
+    https://donellameadows.org/archives/indicators-and-information-systems-for-sustainable-development/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,19 @@
+subject: GKC Research Coordination Network
+predicate: co_led_by
+object: Brett Frischmann, Katherine Strandburg, Madelyn Sanfilippo, Michael Madison
+type: relationship-record
+title: >-
+  GKC Research Coordination Network — co_led_by — Brett Frischmann, Katherine
+  Strandburg, Madelyn Sanfilippo, Michael Madison
+original_relationship: co-led by
+evidence: Named co-principal investigators of the NSF-supported network.
+scope: Grant period and current roles should be dated.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row14
+  source_lineage: https://knowledge-commons.net/gkc-rcn/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

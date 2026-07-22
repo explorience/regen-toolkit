@@ -1,0 +1,22 @@
+title: DemocracyNext
+type: resource
+resource_type: Source system / research-action institute
+url: https://www.demnext.org/
+original_source: Social-signal governance cluster
+notes: >-
+  Why add: Primary institutional source behind the DelibTech Network and several
+  research papers surfaced socially. · Status/Caution: Primary-source resolved;
+  program claims require implementation evidence · Parent source system:
+  Social-signal governance cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row183
+  source_lineage: https://www.demnext.org/
+original_object_class: Source System / Collection
+normalization_flag: DUP-NE-183
+review_needs: >-
+  Matty dup-flag DUP-NE-183: Plurality: The Future of Collaborative Technology
+  and Democracy
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: A coherent standards family has independent adoption or validation
+type: claim-evidence
+claim: A coherent standards family has independent adoption or validation
+interpretation: >-
+  Record maintainer claims, implementations, independent users, critiques and
+  outcomes separately.
+uncertainty: >-
+  Internal coherence, documentation and open licensing are not evidence of
+  external adoption, usability or effectiveness.
+evidence_stance: qualifying
+context: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row221
+  source_lineage: https://github.com/durgadasji/standards-index
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

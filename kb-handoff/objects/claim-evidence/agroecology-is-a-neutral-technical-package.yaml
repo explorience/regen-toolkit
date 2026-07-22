@@ -1,0 +1,19 @@
+title: Agroecology is a neutral technical package
+type: claim-evidence
+claim: Agroecology is a neutral technical package
+interpretation: >-
+  Specify whether a source means peasant agroecology, academic agroecology,
+  organic production, climate-smart agriculture or another approach.
+uncertainty: >-
+  Movement agroecology includes territory, rights, knowledge, gender, political
+  economy and resistance to corporate capture.
+evidence_stance: qualifying
+context: La Vía Campesina / Nyéléni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row371
+  source_lineage: >-
+    https://nyeleni.org/DOWNLOADS/Agroecology%20forum%202015/Final%20declaration%20Agroecology%202015%20EN.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

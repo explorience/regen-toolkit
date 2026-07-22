@@ -1,0 +1,23 @@
+title: Ecological Project Evidence Chain
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Connect project plan, baseline, methodology, monitoring reports, verification
+  report, issuance, sales, retirements and later ecological observations in one
+  implementation record.
+potential_uses: Soil-carbon due diligence, ecological funding review and registry comparison.
+dependencies: >-
+  Document access, versioned methodology, domain reviewers, uncertainty fields,
+  role separation and correction path.
+tradeoffs: >-
+  Can create false certainty, hide model uncertainty, or conflate registry
+  compliance with ecological outcomes.
+context: Regen Network — Philipson Estate
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row19
+  source_lineage: https://app.regen.network/project/C06-001
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

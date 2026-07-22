@@ -1,0 +1,22 @@
+subject: IARAA curated agroecology corpus
+predicate: may_receive
+object: Systematized oral and field knowledge
+type: relationship-record
+title: >-
+  IARAA curated agroecology corpus — may_receive — Systematized oral and field
+  knowledge
+original_relationship: may receive
+evidence: >-
+  MST reporting describes converting oral knowledge into written form for the
+  base.
+scope: Requires community authority and sensitivity safeguards
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row430
+  source_lineage: >-
+    https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

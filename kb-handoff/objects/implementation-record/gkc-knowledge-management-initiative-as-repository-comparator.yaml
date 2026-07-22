@@ -1,0 +1,24 @@
+title: GKC Knowledge Management Initiative as Repository Comparator
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare the GKC open research archive with the Toolkit’s implementation-memory
+  and source-material strategy.
+what_returns_to_commons: >-
+  Provides a concrete comparator for storing not only conclusions but also
+  protocols, scripts, notes and research context.
+notes: >-
+  What to capture: Artifact types, metadata, access levels, consent,
+  repositories, contribution process, long-term preservation, versioning,
+  researcher support and reuse. · Status/Caution: Candidate; requires
+  repository-level inspection and steward input
+related_source_system: Workshop on Governing Knowledge Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row65
+  source_lineage: https://knowledge-commons.net/resources/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,18 @@
+title: '''Amis MoeDict'
+type: resource
+resource_type: Language commons project
+url: https://github.com/g0v/amis-moedict-new
+original_source: g0v / Indigenous language contributors
+notes: >-
+  Why add: Extends the cluster into Indigenous language stewardship and
+  data-governance questions. · Status/Caution: Do not present open publication
+  as substitute for community authority, consent or cultural governance · Parent
+  source system: g0v / Indigenous language contributors
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row360
+  source_lineage: https://github.com/g0v/amis-moedict-new
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

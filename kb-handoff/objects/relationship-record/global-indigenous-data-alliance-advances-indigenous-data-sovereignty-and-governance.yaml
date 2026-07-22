@@ -1,0 +1,20 @@
+subject: Global Indigenous Data Alliance
+predicate: advances
+object: Indigenous Data Sovereignty and governance
+type: relationship-record
+title: >-
+  Global Indigenous Data Alliance — advances — Indigenous Data Sovereignty and
+  governance
+original_relationship: advances
+evidence: GIDA states this as its international network purpose.
+scope: Network relationship; not universal representation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row194
+  source_lineage: https://www.gida-global.org/
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

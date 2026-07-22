@@ -1,0 +1,19 @@
+title: Decidim guarantees democratic participation
+type: claim-evidence
+claim: Decidim guarantees democratic participation
+interpretation: >-
+  Decidim provides configurable participatory infrastructure; democratic quality
+  depends on process design, governance, access, facilitation, and
+  follow-through.
+uncertainty: >-
+  Software capabilities and democratic principles do not guarantee inclusion,
+  deliberative quality, institutional authority, or implementation.
+evidence_stance: neutral
+context: Decidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row47
+  source_lineage: https://decidim.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

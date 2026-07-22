@@ -1,0 +1,18 @@
+title: Organización Boricuá is a current island-wide movement source system
+type: claim-evidence
+claim: Organización Boricuá is a current island-wide movement source system
+interpretation: >-
+  Treat it as a current movement source system while marking membership, regions
+  and governance as requiring direct confirmation.
+uncertainty: >-
+  Recent direct and movement sources show continuing public activity and Puerto
+  Rico-wide identity.
+evidence_stance: neutral
+context: Organización Boricuá
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row478
+  source_lineage: https://organizacionboricua.blogspot.com/p/quienes-somos.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

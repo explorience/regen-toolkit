@@ -1,0 +1,22 @@
+title: AI Knowledge-System Feedback Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how ingestion, ranking, summarization, user attention, correction and
+  source selection can create reinforcing or balancing loops.
+what_returns_to_commons: High-value bridge between systems thinking and AI-assisted knowledge commons.
+notes: >-
+  What to capture: Training/source inputs, retrieval behavior, visibility,
+  correction, contributor incentives, authority, errors and downstream reuse. ·
+  Status/Caution: High-risk candidate; requires technical, epistemic and
+  affected-party review
+related_source_system: GAIAI / KOI / systems thinking
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row160
+  source_lineage: Internal synthesis from GAIAI and Meadows clusters
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

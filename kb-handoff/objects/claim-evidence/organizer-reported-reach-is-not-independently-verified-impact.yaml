@@ -1,0 +1,19 @@
+title: Organizer-reported reach is not independently verified impact
+type: claim-evidence
+claim: Organizer-reported reach is not independently verified impact
+interpretation: >-
+  Preserve date and source; avoid converting representation estimates into
+  beneficiary counts.
+uncertainty: >-
+  Counts of organizations, countries and represented people signal scale but not
+  participation quality or outcomes.
+evidence_stance: qualifying
+context: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row450
+  source_lineage: >-
+    https://cloc-viacampesina.net/towards-the-viii-congress-of-the-latin-american-coordination-of-rural-organizations-cloc-via-campesina
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

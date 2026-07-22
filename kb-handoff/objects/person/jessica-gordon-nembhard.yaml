@@ -1,0 +1,20 @@
+title: Jessica Gordon Nembhard
+type: person
+full_name: Jessica Gordon Nembhard
+affiliation: Black cooperative economic tradition
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.gc.cuny.edu/people/jessica-gordon-nembhard
+notes: >-
+  Why add: Corrects cooperative histories that erase Black organizing and
+  institution building · Status/Caution: Current faculty profile · Parent source
+  system: Black cooperative economic tradition
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row867
+  source_lineage: https://www.gc.cuny.edu/people/jessica-gordon-nembhard
+original_object_class: Person
+normalization_flag: REPAIR-NO-867
+review_needs: 'Matty dup-flag REPAIR-NO-867: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

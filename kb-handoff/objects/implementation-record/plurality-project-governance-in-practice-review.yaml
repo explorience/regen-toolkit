@@ -1,0 +1,22 @@
+title: Plurality Project Governance-in-Practice Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare documented governance intentions—Gov4Git, Plural Credits and community
+  transition—with actual contribution, decision and conflict practices.
+what_returns_to_commons: Direct self-governance comparator for the Regen Knowledge Commons Toolkit.
+notes: >-
+  What to capture: Maintainers, repositories, credit allocations, proposals,
+  disputes, participation distribution, decisions, governance transitions and
+  current status. · Status/Caution: Candidate; distinguish proposed protocols
+  from implemented rules-in-use
+related_source_system: Plurality Community
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row141
+  source_lineage: https://docs.plurality.net/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

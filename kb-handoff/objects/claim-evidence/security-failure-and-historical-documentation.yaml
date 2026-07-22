@@ -1,0 +1,18 @@
+title: Security failure and historical documentation
+type: claim-evidence
+claim: Security failure and historical documentation
+interpretation: >-
+  Preserve the GIVfarm exploit, governance response, retirement status and
+  continuing contract-access instructions as implementation memory.
+uncertainty: >-
+  Current product summaries can omit adverse history, deprecated systems and
+  user-exit obligations.
+evidence_stance: qualifying
+context: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row27
+  source_lineage: https://docs.giveth.io/givfarm
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

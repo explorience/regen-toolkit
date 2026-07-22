@@ -1,0 +1,17 @@
+title: Regen Registry Handbook
+type: resource
+resource_type: Handbook
+url: https://handbook.regen.network/
+original_source: Regen Network / Regen Registry
+notes: >-
+  Why add: Accessible process and governance source. · Status/Caution:
+  Source-linked guidance; verify current version before practical use · Parent
+  source system: Regen Network / Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row21
+  source_lineage: https://handbook.regen.network/
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

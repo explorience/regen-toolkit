@@ -1,0 +1,20 @@
+subject: Nnimmo Bassey
+predicate: related_to
+object: >-
+  African environmental justice, anti-extractivism, climate debt and food
+  sovereignty
+type: relationship-record
+title: >-
+  Nnimmo Bassey — related_to — African environmental justice, anti-extractivism,
+  climate debt and food sovereignty
+original_relationship: connects
+evidence: HOMEF profile
+scope: HOMEF and movement relationships should remain visible
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row549
+  source_lineage: https://homef.org/about-us/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

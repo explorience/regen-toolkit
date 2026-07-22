@@ -1,0 +1,20 @@
+title: Stephanie Russo Carroll
+type: person
+full_name: Stephanie Russo Carroll
+affiliation: GIDA / CARE Principles
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.gida-global.org/careprinciples
+notes: >-
+  Why add: Major thinker and practitioner node for collective benefit,
+  authority, responsibility and ethics. · Status/Caution: Professional role and
+  affiliations should be dated and sourced · Parent source system: GIDA / CARE
+  Principles
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row453
+  source_lineage: https://www.gida-global.org/careprinciples
+original_object_class: Person
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

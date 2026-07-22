@@ -1,0 +1,21 @@
+title: FENSUAGRO
+type: resource
+resource_type: Member movement lead
+url: >-
+  https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+original_source: CLOC–La Vía Campesina / Colombia
+notes: >-
+  Why add: Priority branch connecting labor, peasant education and agroecology.
+  · Status/Caution: Preliminary lead; current structure and safety context
+  require direct review · Parent source system: CLOC–La Vía Campesina / Colombia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row770
+  source_lineage: >-
+    https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+original_object_class: Other / Review
+normalization_flag: DUP-NE-770
+review_needs: 'Matty dup-flag DUP-NE-770: ANAMURI'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

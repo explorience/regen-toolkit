@@ -1,0 +1,24 @@
+title: Systems-Humility Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Require reviewers to state uncertainty, model limits, ignored perspectives,
+  learning signals and conditions for changing course.
+potential_uses: >-
+  AI-assisted analysis, complex governance, ecological claims and large system
+  maps.
+dependencies: >-
+  Visible assumptions, dissent, correction pathways and protected
+  experimentation.
+tradeoffs: >-
+  Humility language can become performative without authority to revise
+  decisions.
+context: Dancing with Systems
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row159
+  source_lineage: https://donellameadows.org/dancing-with-systems/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

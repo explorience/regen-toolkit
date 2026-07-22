@@ -1,0 +1,26 @@
+title: Shashe Agroecology School and Community Transformation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace land struggle, school governance, farmer exchange, women and youth
+  leadership, seed practices and observed territorial change.
+what_returns_to_commons: High-value African agroecology and commons-governance implementation case.
+notes: >-
+  What to capture: Land history, members, curriculum, farms, seeds, ecological
+  evidence, livelihoods, gender, governance, funding, conflicts and current
+  status. · Status/Caution: Priority; community-level review and current
+  evidence required
+related_source_system: ZIMSOFF / Shashe
+review_needs: >-
+  prospective candidate — implementation evidence may be incomplete; Matty
+  dup-flag DUP-IM-260: Amrita Bhoomi Farmer-to-Farmer Learning Case
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row264
+  source_lineage: >-
+    https://viacampesina.org/en/2024/07/zimbabwe-peasant-agroecology-transforms-shashe-community/
+normalization_flag: DUP-IM-260
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

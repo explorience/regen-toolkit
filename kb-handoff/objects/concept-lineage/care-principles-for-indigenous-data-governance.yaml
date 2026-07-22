@@ -1,0 +1,23 @@
+title: CARE Principles for Indigenous Data Governance
+type: concept-lineage
+short_description: >-
+  Collective Benefit, Authority to Control, Responsibility and Ethics principles
+  for governing Indigenous data.
+toolkit_usage: >-
+  Essential corrective to FAIR-only or open-data approaches and directly
+  relevant to Toolkit provenance, AI and public-use rules.
+original_object_type: Framework / principles
+notes: >-
+  Why add: Essential corrective to FAIR-only or open-data approaches and
+  directly relevant to Toolkit provenance, AI and public-use rules. ·
+  Status/Caution: Principles require community- and context-specific
+  implementation; not a checklist or certification · Parent source system: GIDA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row439
+  source_lineage: https://www.gida-global.org/careprinciples
+original_object_class: Framework / Concept
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

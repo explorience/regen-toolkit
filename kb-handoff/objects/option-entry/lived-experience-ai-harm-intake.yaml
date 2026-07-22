@@ -1,0 +1,24 @@
+title: Lived-Experience AI Harm Intake
+type: option-entry
+category: governance
+what_it_is: >-
+  Provide a structured, safe pathway for people to report harms, refusals,
+  exclusions and institutional responses connected to automated systems.
+potential_uses: >-
+  AI incident memory, public-use review, correction queues, policy advocacy and
+  affected-party evidence.
+dependencies: >-
+  Safety, consent, privacy, verification, support referrals, anti-retaliation
+  protections and transparent use of reports.
+tradeoffs: >-
+  Can retraumatize reporters, collect sensitive data or substitute anecdotes for
+  broader investigation.
+context: Algorithmic Justice League
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row182
+  source_lineage: https://report.ajl.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

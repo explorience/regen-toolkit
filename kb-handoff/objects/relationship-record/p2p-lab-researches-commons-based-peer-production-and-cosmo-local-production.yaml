@@ -1,0 +1,19 @@
+subject: P2P Lab
+predicate: researches
+object: Commons-based peer production and cosmo-local production
+type: relationship-record
+title: >-
+  P2P Lab — researches — Commons-based peer production and cosmo-local
+  production
+original_relationship: researches
+evidence: Research organization focus
+scope: Related but institutionally distinct from P2P Foundation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row115
+  source_lineage: https://p2plab.gr/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

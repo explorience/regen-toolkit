@@ -1,0 +1,18 @@
+title: Polis consensus items directly became law
+type: claim-evidence
+claim: Polis consensus items directly became law
+interpretation: >-
+  Use an item-level crosswalk among consensus statements, agency commitments,
+  legal text, and enforcement before claiming direct translation.
+uncertainty: >-
+  A reported government pledge and later policy change do not establish
+  one-to-one incorporation or sole causation.
+evidence_stance: qualifying
+context: vTaiwan UberX
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row160
+  source_lineage: https://compdemocracy.org/case-studies/2015-vtaiwan-uberx/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

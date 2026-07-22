@@ -1,0 +1,18 @@
+title: A large case database provides representative global evidence
+type: claim-evidence
+claim: A large case database provides representative global evidence
+interpretation: >-
+  Use cases as structured comparative evidence while tracking geographic,
+  linguistic and institutional coverage gaps.
+uncertainty: >-
+  Crowdsourced coverage reflects contributor networks, language access, research
+  funding and documentation availability.
+evidence_stance: qualifying
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row96
+  source_lineage: https://participedia.net/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

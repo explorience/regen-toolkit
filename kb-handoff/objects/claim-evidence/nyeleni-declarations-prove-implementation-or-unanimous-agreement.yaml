@@ -1,0 +1,19 @@
+title: Nyéléni declarations prove implementation or unanimous agreement
+type: claim-evidence
+claim: Nyéléni declarations prove implementation or unanimous agreement
+interpretation: >-
+  Treat declarations as movement-authored agendas and trace implementation
+  separately by region and organization.
+uncertainty: >-
+  Declarations express collective political direction after consultation but do
+  not establish identical adoption, enforcement or outcomes.
+evidence_stance: qualifying
+context: Nyéléni Process
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row380
+  source_lineage: >-
+    https://nyeleni.org/en/the-kandy-declaration-a-collective-roadmap-for-systemic-transformation/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

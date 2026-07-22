@@ -1,0 +1,25 @@
+title: Commons Membership Membrane
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Use a pledge, credentials, and conditional-use agreement to define access to
+  shared knowledge or agent infrastructure.
+potential_uses: >-
+  Federated knowledge commons, member services, shared MCP servers,
+  reciprocal-access systems.
+dependencies: >-
+  Clearly governed membership, appeal process, privacy-preserving credentials,
+  accessible alternatives, versioned agreement.
+tradeoffs: >-
+  Can centralize gatekeeping, exclude informal contributors, create
+  identity/privacy risks, and confuse access with legitimacy.
+context: Regen Commons / Regen AI
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row41
+  source_lineage: >-
+    https://forum.regen.network/t/agentic-organization-design-and-collaboration/610
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

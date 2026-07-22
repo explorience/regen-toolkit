@@ -1,0 +1,28 @@
+title: Movement Media as Layered Knowledge Commons
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Treat newspapers, youth publications, radio, video, galleries and thematic
+  pages as different media artifacts feeding field memory, learning and claims
+  review.
+potential_uses: >-
+  Source discovery, implementation memory, multilingual public education,
+  historical and current context.
+dependencies: >-
+  Editorial metadata, dates, authorship, safeguarding, accessibility,
+  current-state filtering and source-status labels.
+tradeoffs: >-
+  Movement media can be mistaken for independent evidence or become difficult to
+  maintain and search.
+context: MST communication system
+review_needs: >-
+  option category inferred — confirm; Matty dup-flag DUP-OP-280:
+  Movement-Governed AI Knowledge Assistant
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row286
+  source_lineage: https://mst.org.br/
+normalization_flag: DUP-OP-280
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

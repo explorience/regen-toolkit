@@ -1,0 +1,18 @@
+title: REGEN IRL Grant Assistant
+type: resource
+resource_type: Application / funding workflow
+url: https://regen.gaiaai.xyz/irl/
+original_source: GAIAI / Regen Network
+notes: >-
+  Why add: Practical example of AI-assisted grant intake and regenerative
+  project discovery. · Status/Caution: AI assistance may shape applicant
+  language and accessibility; project evaluation and PROI claims require
+  transparent human governance · Parent source system: GAIAI / Regen Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row120
+  source_lineage: https://regen.gaiaai.xyz/irl/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

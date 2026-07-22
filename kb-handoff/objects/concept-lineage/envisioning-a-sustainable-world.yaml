@@ -1,0 +1,20 @@
+title: Envisioning a Sustainable World
+type: concept-lineage
+short_description: >-
+  1994 speech arguing that vision is a vital but often neglected part of policy
+  and social change.
+toolkit_usage: Adds desired-future articulation before metrics, mechanisms and optimization.
+original_object_type: Speech / visioning framework
+notes: >-
+  Why add: Adds desired-future articulation before metrics, mechanisms and
+  optimization. · Status/Caution: Vision must be plural, contestable and
+  connected to power and implementation · Parent source system: Donella Meadows
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row403
+  source_lineage: >-
+    https://donellameadows.org/donella-meadows-legacy/envisioning-a-sustainable-world/envisioning-sustainable-world/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

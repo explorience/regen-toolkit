@@ -1,0 +1,18 @@
+title: Technical governance surfaces versus lived governance
+type: claim-evidence
+claim: Technical governance surfaces versus lived governance
+interpretation: >-
+  Combine technical analysis with qualitative, historical, and affected-party
+  evidence.
+uncertainty: >-
+  Contracts and data can reveal configurations while missing informal power,
+  culture, off-chain negotiation, and enforcement.
+evidence_stance: qualifying
+context: Governance Surfaces / DAOchem
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row41
+  source_lineage: https://metagov.org/projects/governance-surfaces
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

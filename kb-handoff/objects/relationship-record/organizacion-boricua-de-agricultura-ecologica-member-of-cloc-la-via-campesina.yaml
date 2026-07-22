@@ -1,0 +1,18 @@
+subject: Organización Boricuá de Agricultura Ecológica
+predicate: member_of
+object: CLOC–La Vía Campesina
+type: relationship-record
+title: >-
+  Organización Boricuá de Agricultura Ecológica — member_of — CLOC–La Vía
+  Campesina
+original_relationship: member / participant in
+evidence: Listed/represented in CLOC ecosystem.
+scope: Current affiliation and role should be verified directly.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row485
+  source_lineage: https://cloc-viacampesina.net/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

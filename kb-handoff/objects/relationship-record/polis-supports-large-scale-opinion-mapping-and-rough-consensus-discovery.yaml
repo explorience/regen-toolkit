@@ -1,0 +1,18 @@
+subject: Polis
+predicate: supports
+object: Large-scale opinion mapping and rough-consensus discovery
+type: relationship-record
+title: Polis — supports — Large-scale opinion mapping and rough-consensus discovery
+original_relationship: supports
+evidence: >-
+  Statements and votes are analyzed into opinion groups and cross-group
+  agreement signals.
+scope: Analytical support; results remain process-bounded
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row69
+  source_lineage: https://compdemocracy.org/polis/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

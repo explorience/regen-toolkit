@@ -1,0 +1,25 @@
+title: Federated Governance Knowledge Commons
+type: option-entry
+category: governance
+what_it_is: >-
+  Connect governance cases, documents, structures, methods, standards and
+  research artifacts across independently stewarded nodes with provenance and
+  permissions.
+potential_uses: >-
+  Governance research, field memory, agent-readable knowledge and source-system
+  interoperability.
+dependencies: >-
+  Identifiers, schemas, permissions, consent, versioning, correction paths and
+  distributed stewardship.
+tradeoffs: >-
+  Federation can still centralize discovery or ontology power; sensitive
+  governance records may be exposed.
+context: Metagov + GKC + Participedia
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row104
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

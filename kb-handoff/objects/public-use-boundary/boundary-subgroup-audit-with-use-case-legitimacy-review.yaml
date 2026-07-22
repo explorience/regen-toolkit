@@ -1,0 +1,10 @@
+title: Boundary — Subgroup Audit with Use-Case Legitimacy Review
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Better subgroup performance can legitimize harmful surveillance or
+  essentialist categories.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Option Candidates!row183
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

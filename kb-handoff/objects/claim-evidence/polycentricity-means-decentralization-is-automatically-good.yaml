@@ -1,0 +1,18 @@
+title: Polycentricity means decentralization is automatically good
+type: claim-evidence
+claim: Polycentricity means decentralization is automatically good
+interpretation: >-
+  Describe the centers, authorities, interactions, accountability, resources,
+  and outcomes rather than using polycentric as a positive label.
+uncertainty: >-
+  Multiple centers can improve experimentation and fit, but can also create
+  inequality, conflict, opacity, duplication, and coordination failure.
+evidence_stance: qualifying
+context: Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row189
+  source_lineage: https://ostromworkshop.indiana.edu/about/ostroms-history/index.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

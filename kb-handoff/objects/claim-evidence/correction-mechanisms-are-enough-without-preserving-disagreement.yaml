@@ -1,0 +1,18 @@
+title: Correction mechanisms are enough without preserving disagreement
+type: claim-evidence
+claim: Correction mechanisms are enough without preserving disagreement
+interpretation: >-
+  Allow contested status, multiple perspectives, unresolved questions, and
+  visible decision history.
+uncertainty: >-
+  Some disputes cannot be conclusively resolved, and a single corrected record
+  may erase legitimate plurality or power asymmetry.
+evidence_stance: qualifying
+context: Toolkit self-governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row172
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

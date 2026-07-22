@@ -1,0 +1,24 @@
+title: Public Discourse Sandbox Research-to-Deployment Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one discourse intervention from simulation assumptions and testing
+  through any human or institutional pilot.
+what_returns_to_commons: >-
+  Provides a high-value AI/public-discourse implementation case for the
+  Toolkit’s claim-evidence and structural-integrity layers.
+notes: >-
+  What to capture: Research question, agent design, training data, ethics,
+  evaluation, external validation, real participants, outcomes, harms,
+  corrections, and abandonment criteria. · Status/Caution: High-risk; requires
+  research ethics and community-context review
+related_source_system: Plurality Institute
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row58
+  source_lineage: https://www.plurality.institute/research
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

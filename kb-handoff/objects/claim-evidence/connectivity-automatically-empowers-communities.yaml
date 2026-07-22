@@ -1,0 +1,20 @@
+title: Connectivity automatically empowers communities
+type: claim-evidence
+claim: Connectivity automatically empowers communities
+interpretation: >-
+  Describe the infrastructure, community authority, uses, burdens and outcomes
+  separately.
+uncertainty: >-
+  Connectivity can increase surveillance, dependency, cost, harassment or
+  extraction when governance and local benefit are weak.
+evidence_stance: qualifying
+context: APC / community networks
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row336
+  source_lineage: >-
+    https://www.apc.org/en/blog/seeding-change-community-networks-cultivating-future-where-technology-and-social-and
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

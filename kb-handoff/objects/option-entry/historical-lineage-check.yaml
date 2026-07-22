@@ -1,0 +1,18 @@
+title: Historical-Lineage Check
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Before presenting an innovation, trace the movement, racial, labor, feminist,
+  Indigenous or cooperative histories that made it possible.
+potential_uses: Knowledge Lifecycle / Review
+dependencies: Jessica Gordon Nembhard; John Emmeus Davis
+tradeoffs: Reduces novelty claims and founder-centered narratives.
+context: Evidence workflow
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row345
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,19 @@
+title: Reproductive-Labor Budget Line
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Dedicated planning and funding category for coordination, onboarding,
+  documentation, translation, accessibility, emotional labor, repair and
+  continuity.
+potential_uses: Grant budgets, source-system maintenance, working groups, public launches.
+dependencies: Role taxonomy, rate guidance, workload review.
+tradeoffs: May commodify care or encourage invasive tracking if poorly designed.
+context: Toolkit / social reproduction
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row218
+  source_lineage: Internal applied review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

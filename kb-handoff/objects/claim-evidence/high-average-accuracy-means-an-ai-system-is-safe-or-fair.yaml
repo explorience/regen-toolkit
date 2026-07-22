@@ -1,17 +1,18 @@
 title: High average accuracy means an AI system is safe or fair
 type: claim-evidence
 claim: High average accuracy means an AI system is safe or fair
-caution: >-
-  Aggregate performance can conceal severe subgroup disparities, threshold
-  effects and unequal consequences.
-safe_working_language: >-
+interpretation: >-
   Report disaggregated performance and institutional consequences; do not infer
   fairness from aggregate accuracy.
-claim_kind: Caution
+uncertainty: >-
+  Aggregate performance can conceal severe subgroup disparities, threshold
+  effects and unequal consequences.
+evidence_stance: qualifying
+context: Gender Shades
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Claims and Cautions!row10
+  origin: Canonical_DB.xlsx#Claims and Cautions!row265
   source_lineage: https://gs.ajl.org/
-work_order: wo-b0da4f8a6f05
+work_order: wo-8c810a6700ec
 source_lineage: claims-cautions.csv

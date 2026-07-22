@@ -1,0 +1,19 @@
+title: KOI-net protocol
+type: resource
+resource_type: Protocol / standards layer
+url: https://metagov.org/projects/koi-pond/project-details
+original_source: Metagov / KOI Pond
+notes: >-
+  Why add: Direct architectural comparison for federated knowledge commons and
+  configurable delegation. · Status/Caution: Active development; protocol-level
+  work is still evolving · Parent source system: Metagov / KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row92
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+original_object_class: Tool / Technical Infrastructure
+normalization_flag: DUP-NE-92
+review_needs: 'Matty dup-flag DUP-NE-92: Nathan Schneider'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

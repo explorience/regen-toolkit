@@ -1,0 +1,18 @@
+title: Participedia Staff Editor Review
+type: resource
+resource_type: Editorial workflow
+url: https://participedia.net/getting-started
+original_source: Participedia
+notes: >-
+  Why add: Concrete hybrid stewardship model combining open contribution with
+  professional editorial tending. · Status/Caution: Editorial review is not
+  equivalent to peer review or independent validation. · Parent source system:
+  Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row226
+  source_lineage: https://participedia.net/getting-started
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

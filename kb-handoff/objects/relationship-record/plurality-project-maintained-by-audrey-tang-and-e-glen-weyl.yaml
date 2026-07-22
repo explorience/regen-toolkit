@@ -1,0 +1,16 @@
+subject: Plurality Project
+predicate: maintained_by
+object: Audrey Tang and E. Glen Weyl
+type: relationship-record
+title: Plurality Project — maintained_by — Audrey Tang and E. Glen Weyl
+original_relationship: initially maintained by
+evidence: Project documentation names initial maintainers
+scope: Current governance transition must be verified
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row128
+  source_lineage: https://docs.plurality.net/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

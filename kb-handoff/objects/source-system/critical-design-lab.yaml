@@ -1,5 +1,5 @@
 title: Critical Design Lab
-type: archive
+type: podcast
 steward: Critical Design Lab
 return_path: unset — establish via register-source
 url: https://www.criticaldesignlab.com/
@@ -11,14 +11,21 @@ why_it_matters: >-
   International collaborative of disabled designers, researchers, artists and
   cultural workers developing critical disability design, crip technoscience,
   remote-access archives and experimental protocols.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row24
-  source_lineage: https://www.criticaldesignlab.com/
 caution: >-
   Research and design artifacts are context-specific. Experimental and community
   knowledge should not be converted into universal compliance rules without
   disabled-led review.
+extraction_status: >-
+  Crip technoscience; community archive methods; remote access as disability
+  knowledge; protocol-based rather than checklist-only accessibility; disabled
+  design authority.
+notes: >-
+  Role: Disability-led design, research, media and archive source system ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row23
+  source_lineage: https://www.criticaldesignlab.com/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

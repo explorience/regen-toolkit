@@ -1,0 +1,18 @@
+title: Field-Level Provenance for Preferred Records
+type: option-entry
+category: governance
+what_it_is: >-
+  Link each synthesized field or assertion to the exact contributing source rows
+  and reviewer decision.
+potential_uses: Canonical descriptions, current status, governance claims, public exports.
+dependencies: Assertion IDs, import ledger, editor/reviewer metadata, version history.
+tradeoffs: High granularity increases complexity and reviewer burden.
+context: GAIAI merge-pilot review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row122
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

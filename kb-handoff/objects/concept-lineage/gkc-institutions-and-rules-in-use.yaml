@@ -1,0 +1,23 @@
+title: GKC Institutions and Rules-in-Use
+type: concept-lineage
+short_description: >-
+  Research cluster covering law, licensing, contracts, membership rules,
+  contribution and extraction standards, conflict resolution, sanctions,
+  technical infrastructure, and informal norms.
+toolkit_usage: >-
+  Direct bridge to governance artifacts, policies, licenses, moderation, and
+  technical controls.
+original_object_type: Framework component
+notes: >-
+  Why add: Direct bridge to governance artifacts, policies, licenses,
+  moderation, and technical controls. · Status/Caution: Written rules and
+  rules-in-use may differ materially. · Parent source system: GKC Research
+  Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row200
+  source_lineage: https://knowledge-commons.net/research-framework/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

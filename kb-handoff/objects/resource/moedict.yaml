@@ -1,0 +1,18 @@
+title: MoeDict / 萌典
+type: resource
+resource_type: Civic knowledge tool
+url: https://github.com/g0v/moedict-webkit
+original_source: g0v / Audrey Tang lineage
+notes: >-
+  Why add: Strong knowledge-commons case linking government data, open-source
+  contribution, multilingual access and public service. · Status/Caution:
+  Licenses and provenance vary across component datasets; language communities
+  require attribution and care · Parent source system: g0v / Audrey Tang lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row359
+  source_lineage: https://github.com/g0v/moedict-webkit
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

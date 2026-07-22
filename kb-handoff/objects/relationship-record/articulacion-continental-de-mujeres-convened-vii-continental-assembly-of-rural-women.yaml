@@ -1,0 +1,20 @@
+subject: Articulación Continental de Mujeres
+predicate: convened
+object: VII Continental Assembly of Rural Women
+type: relationship-record
+title: >-
+  Articulación Continental de Mujeres — convened — VII Continental Assembly of
+  Rural Women
+original_relationship: convened
+evidence: Assembly held in Mexico in December 2025.
+scope: Collective governance relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row465
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-vii-asamblea-continental-de-mujeres-del-campo-cloc-via-campesina
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

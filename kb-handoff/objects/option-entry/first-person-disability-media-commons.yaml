@@ -1,0 +1,24 @@
+title: First-Person Disability Media Commons
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Create contributor-centered publishing and media workflows where disabled
+  people control framing, attribution, format and public-use boundaries.
+potential_uses: >-
+  Field memory, oral history, podcasts, essays, implementation stories and
+  critique archives.
+dependencies: >-
+  Editorial care, consent, compensation, accessible formats, contributor review,
+  correction and withdrawal pathways.
+tradeoffs: >-
+  Visibility can become extractive, tokenizing or unsafe; publishing is not
+  representative sampling.
+context: Disability Visibility Project
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row201
+  source_lineage: https://disabilityvisibilityproject.com/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

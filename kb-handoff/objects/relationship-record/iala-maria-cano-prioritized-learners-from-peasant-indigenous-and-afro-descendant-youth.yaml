@@ -1,0 +1,21 @@
+subject: IALA María Cano
+predicate: prioritized_learners_from
+object: Peasant, Indigenous and Afro-descendant youth
+type: relationship-record
+title: >-
+  IALA María Cano — prioritized_learners_from — Peasant, Indigenous and
+  Afro-descendant youth
+original_relationship: prioritized learners from
+evidence: Founding announcement named these groups as principal beneficiaries.
+scope: Intended constituency; actual composition unverified
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row515
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-se-aproxima-la-inauguracion-del-instituto-y-universidad-campesina-iala-maria-cano
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

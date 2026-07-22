@@ -1,0 +1,18 @@
+title: Sins Invalid
+type: organization
+org_type: Organization / movement project
+url: https://sinsinvalid.org/about-sins/
+steward: Sins Invalid
+notes: >-
+  Why add: Core source system for disability justice, culture, collective access
+  and movement-led practice. · Status/Caution: Current public source; movement
+  scope should be represented accurately · Parent source system: Sins Invalid
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row510
+  source_lineage: https://sinsinvalid.org/about-sins/
+original_object_class: Organization / Network
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

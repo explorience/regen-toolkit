@@ -1,0 +1,20 @@
+subject: COOPAC
+predicate: coordinates
+object: Family-farm goat-milk producers
+type: relationship-record
+title: COOPAC — coordinates — Family-farm goat-milk producers
+original_relationship: coordinates
+evidence: >-
+  2026 reporting states 390 producers and producers are organized through the
+  cooperative.
+scope: Reported participation count
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row438
+  source_lineage: >-
+    https://mst.org.br/2026/06/02/cooperativa-da-reforma-agraria-amplia-agroindustria-e-fortalece-cadeia-do-leite-caprino-no-semiarido-paraibano/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

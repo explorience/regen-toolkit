@@ -1,0 +1,19 @@
+title: More data automatically improves justice or representation
+type: claim-evidence
+claim: More data automatically improves justice or representation
+interpretation: >-
+  Ask whether data should be collected, who controls it, which decisions it
+  enables and what refusal or deletion rights exist.
+uncertainty: >-
+  Expanded data collection can increase surveillance, exposure and institutional
+  control while preserving harmful categories.
+evidence_stance: qualifying
+context: Data Feminism / Ruha Benjamin
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row263
+  source_lineage: https://data-feminism.mitpress.mit.edu/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

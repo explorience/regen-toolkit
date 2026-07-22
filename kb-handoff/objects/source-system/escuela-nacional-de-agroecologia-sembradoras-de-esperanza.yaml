@@ -1,5 +1,5 @@
 title: Escuela Nacional de Agroecología Sembradoras de Esperanza
-type: directory
+type: movement
 steward: Escuela Nacional de Agroecología Sembradoras de Esperanza
 return_path: unset — establish via register-source
 url: https://anamuri.cl/
@@ -10,14 +10,22 @@ why_it_matters: >-
   Women-centered political-pedagogical and agroecological formation process in
   Chile, linking peasant feminism, seed sovereignty, popular education and
   territorial practice.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row55
-  source_lineage: https://anamuri.cl/
 caution: >-
   Public sources describe events and intent more strongly than curriculum
   governance, participant selection, completion, outcomes, land control, budget
   or maintenance.
+extraction_status: >-
+  Movement-owned education model; women-centered agroecology; integration of
+  technical, political, feminist, health and care learning.
+notes: >-
+  Role: Distinct movement-school source system linked to ANAMURI and the
+  IALA/CLOC network · Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row54
+  source_lineage: https://anamuri.cl/
+normalization_flag: DUP-SO-50
+review_needs: 'Matty dup-flag DUP-SO-50: ANAMURI'
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

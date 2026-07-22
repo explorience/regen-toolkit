@@ -1,0 +1,26 @@
+title: Low-Bandwidth Agroecology Knowledge Access
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Design multiple access paths—web, messaging, downloadable/offline packages,
+  educator facilitation and cited printable outputs—for rural users with varied
+  connectivity and literacy.
+potential_uses: >-
+  Farmer education, extension alternatives, seed/agroecology schools and
+  movement communications.
+dependencies: >-
+  User research, language stewardship, accessibility, offline synchronization,
+  local support and content review.
+tradeoffs: >-
+  Can oversimplify local ecological decisions or create dependence on generic
+  guidance.
+context: IARAA / movement education
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row290
+  source_lineage: >-
+    https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

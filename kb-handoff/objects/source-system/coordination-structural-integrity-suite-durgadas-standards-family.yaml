@@ -1,5 +1,5 @@
 title: Coordination Structural Integrity Suite / Durgadas standards family
-type: repo
+type: directory
 steward: Coordination Structural Integrity Suite / Durgadas standards family
 return_path: unset — establish via register-source
 url: https://github.com/durgadasji/standards-index
@@ -11,14 +11,22 @@ why_it_matters: >-
   Open standards, prompts, rubrics, schemas and implementation tools for making
   coordination structures, evaluation chains, grant obligations and data-capture
   instruments more explicit, auditable and non-harming.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row13
-  source_lineage: https://github.com/durgadasji/standards-index
 caution: >-
   Referencing a standard is not conformance. Most materials are
   maintainer-authored and require independent testing, domain review, usability
   evidence and affected-party review before consequential deployment.
+extraction_status: >-
+  Structural-integrity review; claim and obligation specification; standards
+  construction; grant accountability; instrumentation quality; AI-assisted
+  audits; frame-language analysis and implementation grammar.
+notes: >-
+  Role: Thinker-linked standards source system and structural-integrity review
+  family · Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row12
+  source_lineage: https://github.com/durgadasji/standards-index
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

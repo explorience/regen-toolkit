@@ -1,0 +1,21 @@
+title: Maintenance before novelty
+type: concept-lineage
+short_description: >-
+  Review principle that asks who will repair, document, fund, govern, and
+  sustain a system after launch.
+toolkit_usage: >-
+  Directly addresses the Toolkit’s maintenance and contributor-sustainability
+  gap.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Directly addresses the Toolkit’s maintenance and
+  contributor-sustainability gap. · Status/Caution: Should not become a blanket
+  argument against experimentation · Parent source system: The Maintainers
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row504
+  source_lineage: https://themaintainers.org/about/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

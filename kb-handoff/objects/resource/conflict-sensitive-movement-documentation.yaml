@@ -1,0 +1,19 @@
+title: Conflict-sensitive movement documentation
+type: resource
+resource_type: Safety practice
+url: >-
+  https://viacampesina.org/es/colombia-fensuagro-denuncia-la-grave-situacion-de-derechos-humanos-contra-su-organizacion/
+original_source: FENSUAGRO
+notes: >-
+  Why add: Critical source-governance pattern for the Toolkit. · Status/Caution:
+  Requires minimization, consent, redaction and threat-model review · Parent
+  source system: FENSUAGRO
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row826
+  source_lineage: >-
+    https://viacampesina.org/es/colombia-fensuagro-denuncia-la-grave-situacion-de-derechos-humanos-contra-su-organizacion/
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

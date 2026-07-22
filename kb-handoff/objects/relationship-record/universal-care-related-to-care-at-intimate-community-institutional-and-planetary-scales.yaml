@@ -1,0 +1,18 @@
+subject: Universal care
+predicate: related_to
+object: Care at intimate, community, institutional and planetary scales
+type: relationship-record
+title: >-
+  Universal care — related_to — Care at intimate, community, institutional and
+  planetary scales
+original_relationship: connects
+evidence: Core political framing of the Care Manifesto.
+scope: Normative relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row273
+  source_lineage: https://www.versobooks.com/products/2625-the-care-manifesto
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

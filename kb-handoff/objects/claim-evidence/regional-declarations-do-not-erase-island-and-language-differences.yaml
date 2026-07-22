@@ -1,0 +1,17 @@
+title: Regional declarations do not erase island and language differences
+type: claim-evidence
+claim: Regional declarations do not erase island and language differences
+interpretation: Preserve country, language and organization-level context.
+uncertainty: >-
+  A regional statement can obscure differences across territories, colonial
+  statuses and languages.
+evidence_stance: qualifying
+context: CLOC Caribbean Region
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row452
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-final-asamblea-cloc-via-campesina-caribe
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

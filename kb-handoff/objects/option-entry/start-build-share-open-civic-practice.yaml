@@ -1,0 +1,24 @@
+title: Start–Build–Share Open Civic Practice
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  A lightweight cycle for beginning locally, prototyping civic systems, and
+  sharing reusable knowledge back to a commons.
+potential_uses: >-
+  Local node experiments, civic-tech pilots, community documentation,
+  participatory prototyping.
+dependencies: >-
+  Local capacity, documentation, source lineage, maintenance, feedback, and
+  public-use review.
+tradeoffs: >-
+  Can over-romanticize grassroots action, understate institutional power, or
+  encourage premature replication.
+context: OpenCivics
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row48
+  source_lineage: https://www.opencivics.co/practice
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

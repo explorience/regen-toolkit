@@ -1,0 +1,24 @@
+title: Contributor Compensation and Workload Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track one expansion or review cycle with transparent role scope,
+  hours/workload, compensation or reciprocity, care labor, and unresolved
+  burden.
+what_returns_to_commons: Provides real evidence for contributor sustainability and funding design.
+notes: >-
+  What to capture: Roles; tasks; paid/unpaid status; time;
+  emotional/coordination work; decision power; feedback; burnout risk; budget
+  impact. · Status/Caution: Requires consent and should not become individual
+  performance surveillance
+related_source_system: Toolkit governance
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row196
+  source_lineage: Internal labor-maintenance review
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

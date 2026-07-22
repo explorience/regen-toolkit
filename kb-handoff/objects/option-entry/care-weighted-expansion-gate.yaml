@@ -1,0 +1,18 @@
+title: Care-Weighted Expansion Gate
+type: option-entry
+category: governance
+what_it_is: >-
+  Before opening a new batch, assess maintenance capacity, review debt, access
+  load, community obligations and contributor sustainability.
+potential_uses: Expansion queue and program governance.
+dependencies: Current workload data, owner approval, pause criteria.
+tradeoffs: Could become a gatekeeping mechanism or delay urgent work.
+context: Toolkit / systems-care synthesis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row221
+  source_lineage: Internal applied review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,17 @@
+subject: Research ICT Africa
+predicate: researches
+object: digital public infrastructure governance
+type: relationship-record
+title: Research ICT Africa — researches — digital public infrastructure governance
+original_relationship: researches
+evidence: Dedicated programme and projects
+scope: Do not imply endorsement of DPI deployments
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row325
+  source_lineage: https://researchictafrica.net/programme/digital-public-infrastructure-2/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

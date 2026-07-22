@@ -1,0 +1,20 @@
+subject: Magha García
+predicate: represented
+object: Organización Boricuá and Caribbean women’s articulation
+type: relationship-record
+title: >-
+  Magha García — represented — Organización Boricuá and Caribbean women’s
+  articulation
+original_relationship: represented
+evidence: CLOC interview identifies her in the women’s assembly context.
+scope: Public representative role
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row525
+  source_lineage: >-
+    https://cloc-viacampesina.net/entrevista-el-feminismo-campesino-popular-nos-ha-dado-identidad-propia-vii-asamblea-continental-de-mujeres-de-la-cloc-via-campesina
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

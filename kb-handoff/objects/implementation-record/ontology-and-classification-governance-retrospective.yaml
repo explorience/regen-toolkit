@@ -1,0 +1,23 @@
+title: Ontology and Classification Governance Retrospective
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review one object type or relationship family for hidden assumptions,
+  exclusions, conflicting classifications, and user impact.
+what_returns_to_commons: >-
+  Makes classification power visible and creates constitutional memory for the
+  semantic layer.
+notes: >-
+  What to capture: Who defined categories, alternatives considered, records that
+  do not fit, affected users, downstream effects, amendment decision. ·
+  Status/Caution: Candidate after merge and first ontology implementation
+related_source_system: Toolkit self-governance
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row113
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

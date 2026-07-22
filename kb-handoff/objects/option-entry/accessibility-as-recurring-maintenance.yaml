@@ -1,0 +1,22 @@
+title: Accessibility as Recurring Maintenance
+type: option-entry
+category: experimentation
+what_it_is: >-
+  Treat accessibility as a continuing operational responsibility with owners,
+  budgets, testing, feedback, repair and adaptation.
+potential_uses: >-
+  Websites, spreadsheets, APIs, meetings, media, documents, agent interfaces and
+  public pilots.
+dependencies: >-
+  Assigned maintainers, disabled user testing, issue tracking, alternative
+  formats, procurement rules, response times.
+tradeoffs: May be reduced to automated compliance scans or unfunded invisible labor.
+context: Cross-system disability cluster
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row200
+  source_lineage: Internal cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

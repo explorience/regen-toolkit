@@ -1,0 +1,23 @@
+title: Commons Health Indicator Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track whether one narrow public or internal view improves usefulness and
+  shared capacity beyond record growth.
+what_returns_to_commons: >-
+  Creates evidence about whether the Toolkit functions as a healthy commons
+  rather than a growing archive.
+notes: >-
+  What to capture: Search success, reuse, corrections, stale records,
+  contributor diversity, steward responses, unresolved disputes, maintenance
+  time, harm reports. · Status/Caution: Candidate for first public-safe pilot
+related_source_system: Toolkit self-governance
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row112
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

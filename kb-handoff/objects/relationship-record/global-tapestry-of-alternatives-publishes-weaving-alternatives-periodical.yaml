@@ -1,0 +1,17 @@
+subject: Global Tapestry of Alternatives
+predicate: publishes
+object: Weaving Alternatives Periodical
+type: relationship-record
+title: Global Tapestry of Alternatives — publishes — Weaving Alternatives Periodical
+original_relationship: publishes
+evidence: Periodical is hosted and edited through GTA.
+scope: Editorial selection shapes visibility
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row345
+  source_lineage: https://globaltapestryofalternatives.org/newsletters:14:index
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

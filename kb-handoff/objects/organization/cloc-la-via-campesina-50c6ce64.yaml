@@ -1,0 +1,18 @@
+title: CLOC–La Vía Campesina
+type: organization
+org_type: Movement network
+url: https://cloc-viacampesina.net/rumbo-al-viii-congreso-continental-de-la-cloc
+steward: La Vía Campesina / Latin America and Caribbean
+notes: >-
+  Why add: Prevents MST or any one national movement from standing in for the
+  continent. · Status/Caution: Current umbrella; member composition and scale
+  are date-sensitive · Parent source system: La Vía Campesina / Latin America
+  and Caribbean
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row748
+  source_lineage: https://cloc-viacampesina.net/rumbo-al-viii-congreso-continental-de-la-cloc
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

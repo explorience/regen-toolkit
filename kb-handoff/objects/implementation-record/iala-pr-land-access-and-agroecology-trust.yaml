@@ -1,0 +1,21 @@
+title: IALA-PR Land Access and Agroecology Trust
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: IALA-PR
+what_returns_to_commons: >-
+  Governance documents; land holdings; beneficiary rights; financing; projects;
+  conflicts; current maintenance.
+notes: >-
+  What to capture: Assess how campaign, trust design, policy work and community
+  accompaniment translate into secure land access. · Status/Caution: Candidate —
+  implementation status must be verified
+related_source_system: Land-governance case
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row331
+  source_lineage: Potential bridge between agroecology and community land stewardship.
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

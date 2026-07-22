@@ -1,0 +1,18 @@
+title: Inclusion Is Not Endorsement
+type: claim-evidence
+claim: Inclusion Is Not Endorsement
+uncertainty: Public-use ready as a cautionary principle with caveats
+notes: >-
+  Priority: A person, project, organization, tool, source system, concept, or
+  resource appearing in the database does not mean the Toolkit endorses it,
+  recommends it, certifies it, ranks it, or claims formal relationship with it.
+  · Next: Add to workbook overview, public-use cautions, people/source-system
+  guidance, and future public directory methodology. · Notes: Batch 1A compact
+  guardrail claim.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04916
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

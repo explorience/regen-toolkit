@@ -1,0 +1,24 @@
+title: Audit the Streets Classification and Public-Memory Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one city’s street-name dataset from extraction and matching through
+  verification, interpretation and civic use.
+what_returns_to_commons: >-
+  Concrete case for how seemingly mundane classifications encode memory and
+  power.
+notes: >-
+  What to capture: Data sources, matching errors, historical categories,
+  verification, community participation, narratives, public response and
+  updates. · Status/Caution: Avoid treating automated matches as settled
+  historical judgment
+related_source_system: Data + Feminism Lab
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row182
+  source_lineage: https://audit-the-streets.dfprod.dataplusfeminism.mit.edu/search-cities
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

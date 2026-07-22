@@ -1,0 +1,22 @@
+title: Public-Goods Funding Feedback and Delay Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Revisit one funding program across allocation, reporting, incentives,
+  maintenance and later outcomes to identify reinforcing and balancing loops.
+what_returns_to_commons: Adds dynamic learning to earlier mechanism and implementation-memory work.
+notes: >-
+  What to capture: Funding flows, visibility, reporting burdens, metric gaming,
+  maintenance, follow-on capital, delayed outcomes and excluded actors. ·
+  Status/Caution: Candidate; causal claims require evidence and counterfactual
+  care
+related_source_system: Funding systems + Donella Meadows lens
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row157
+  source_lineage: Internal synthesis from Batch 1B and Meadows cluster
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,5 +1,5 @@
 title: ANAMURI
-type: directory
+type: publication
 steward: ANAMURI
 return_path: unset — establish via register-source
 url: https://anamuri.cl/
@@ -10,14 +10,19 @@ why_it_matters: >-
   National women-led rural and Indigenous organization in Chile with congresses,
   publications, seed work, agroecology education, youth and territorial
   branches.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row50
-  source_lineage: https://anamuri.cl/
 caution: >-
   National representational claims need territorial verification; roles and
   governance are date-sensitive; official sources do not prove outcomes. |
   Workflow status: Selected for full deepening
+extraction_status: >-
+  Women-led movement governance; peasant feminism; seed sovereignty; rural
+  labor; care; youth; movement education.
+notes: 'Role: Movement / source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row49
+  source_lineage: https://anamuri.cl/
+high_risk: true
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

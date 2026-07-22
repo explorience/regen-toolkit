@@ -1,0 +1,25 @@
+title: Data Against Feminicide Community Data-Labor Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop one public, partner-approved case on how activists collect, classify,
+  maintain and use feminicide data where official systems are incomplete or
+  harmful.
+what_returns_to_commons: >-
+  High-value case for missing data, community expertise, sensitive records and
+  institutional accountability.
+notes: >-
+  What to capture: Governance, definitions, safety, volunteer labor, data gaps,
+  transnational differences, publication, state interaction and outcomes. ·
+  Status/Caution: Sensitive; use only public and partner-approved material
+related_source_system: Data + Feminism Lab / partners
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row181
+  source_lineage: https://dusp.mit.edu/projects/data-against-feminicide
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,17 @@
+subject: Organización Boricuá
+predicate: developed_historically
+object: Certificado Ecológico Boricuá
+type: relationship-record
+title: Organización Boricuá — developed_historically — Certificado Ecológico Boricuá
+original_relationship: developed historically
+evidence: Archived page describes participatory development by farmers and consumers.
+scope: Current status unknown
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row520
+  source_lineage: https://organizacionboricua.blogspot.com/p/certificacion-boricua.html
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

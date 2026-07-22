@@ -1,0 +1,22 @@
+title: Community and Indigenous Concession Advocacy Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one concession or regulatory reform from community need and advocacy
+  through legal recognition and later operation.
+what_returns_to_commons: Shows how policy infrastructure enables or constrains community technology.
+notes: >-
+  What to capture: Community goals, legal process, spectrum, allies, opposition,
+  implementation, governance and current outcomes. · Status/Caution: Legal and
+  political context must be dated and community-authorized
+related_source_system: REDES A.C.
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row235
+  source_lineage: https://redesac.org.mx/en/marcojuridico/
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

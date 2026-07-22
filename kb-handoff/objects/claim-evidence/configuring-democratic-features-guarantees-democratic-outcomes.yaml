@@ -1,0 +1,18 @@
+title: Configuring democratic features guarantees democratic outcomes
+type: claim-evidence
+claim: Configuring democratic features guarantees democratic outcomes
+interpretation: >-
+  Describe Decidim as configurable infrastructure; evaluate democratic quality
+  at process and institutional levels.
+uncertainty: >-
+  Authority, inclusion, facilitation, recruitment and institutional
+  follow-through remain outside the software.
+evidence_stance: qualifying
+context: Decidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row139
+  source_lineage: https://decidim.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

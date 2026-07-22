@@ -1,0 +1,25 @@
+title: Weaver-Governed Source-System Federation
+type: option-entry
+category: governance
+what_it_is: >-
+  Connect autonomous source systems through reciprocal relationships, shared
+  discovery and bounded joint work while each retains authority over its own
+  records.
+potential_uses: >-
+  Federated knowledge commons, regional nodes, cross-network learning and public
+  explorer design.
+dependencies: >-
+  Clear autonomy, consent, exit rights, source ownership, multilingual
+  facilitation, funding and conflict processes.
+tradeoffs: >-
+  The coordinating layer can still centralize visibility, funding and
+  agenda-setting while claiming horizontality.
+context: GTA
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row251
+  source_lineage: https://globaltapestryofalternatives.org/introduction
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

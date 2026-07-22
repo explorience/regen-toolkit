@@ -1,0 +1,18 @@
+title: Readable canonical IDs are always better
+type: claim-evidence
+claim: Readable canonical IDs are always better
+interpretation: >-
+  Use stable type-neutral identifiers and maintain readable slugs and names
+  separately.
+uncertainty: >-
+  IDs that encode object type or name can become unstable when classification or
+  preferred naming changes.
+evidence_stance: qualifying
+context: GAIAI merge-pilot review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row180
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

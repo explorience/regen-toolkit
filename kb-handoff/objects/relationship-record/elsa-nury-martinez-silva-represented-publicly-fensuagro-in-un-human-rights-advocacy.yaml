@@ -1,0 +1,22 @@
+subject: Elsa Nury Martínez Silva
+predicate: represented_publicly
+object: FENSUAGRO in UN human-rights advocacy
+type: relationship-record
+title: >-
+  Elsa Nury Martínez Silva — represented_publicly — FENSUAGRO in UN human-rights
+  advocacy
+original_relationship: represented publicly
+evidence: >-
+  La Vía Campesina identified her as federation president during the 2021 UN
+  intervention.
+scope: Historical dated role only
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row509
+  source_lineage: >-
+    https://viacampesina.org/en/2021/02/unhrc-peasant-leader-denounces-systematic-violence-against-peasants-organizations-in-colombia/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

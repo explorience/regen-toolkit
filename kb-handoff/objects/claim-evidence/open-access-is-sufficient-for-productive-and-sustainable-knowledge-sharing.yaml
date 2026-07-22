@@ -1,0 +1,19 @@
+title: Open access is sufficient for productive and sustainable knowledge sharing
+type: claim-evidence
+claim: Open access is sufficient for productive and sustainable knowledge sharing
+interpretation: >-
+  Open access is one possible condition within a broader governance system;
+  evaluate how the commons is produced, maintained and governed.
+uncertainty: >-
+  Access may matter, but sustainability also depends on creation, curation,
+  maintenance, norms, infrastructure, roles, incentives, law, privacy,
+  legitimacy and conflict resolution.
+evidence_stance: neutral
+context: GKC publications
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row101
+  source_lineage: https://knowledge-commons.net/research-framework/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

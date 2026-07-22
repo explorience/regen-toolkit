@@ -1,0 +1,18 @@
+title: A documented case is a transferable model
+type: claim-evidence
+claim: A documented case is a transferable model
+interpretation: >-
+  Use cases as comparative evidence and design prompts; state contextual
+  differences and limits to transfer.
+uncertainty: >-
+  Cases are embedded in distinct histories, laws, cultures, resources and power
+  relations.
+evidence_stance: qualifying
+context: Participedia + GKC
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row150
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

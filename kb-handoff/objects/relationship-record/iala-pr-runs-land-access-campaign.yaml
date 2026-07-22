@@ -1,0 +1,17 @@
+subject: IALA-PR
+predicate: runs
+object: Land Access Campaign
+type: relationship-record
+title: IALA-PR — runs — Land Access Campaign
+original_relationship: runs
+evidence: Current campaign page connects land, policy and community organization.
+scope: Sensitive territorial context
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row529
+  source_lineage: https://www.iala-pr.org/campanaaccesoatierras
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

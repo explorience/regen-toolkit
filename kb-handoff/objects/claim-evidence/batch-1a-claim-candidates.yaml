@@ -1,0 +1,15 @@
+title: Batch 1A claim candidates
+type: claim-evidence
+claim: Batch 1A claim candidates
+uncertainty: Claim is not evidence; source-linked is not reviewed.
+notes: >-
+  Priority: Extracted key claims and design hypotheses from the first five
+  deepened Tier 1 source-system cards. · Next: Review claim types, evidence
+  needed, and public-use cautions. · Notes: Added in Batch 1A Extraction update.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-B1A-EXTRACT-002
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

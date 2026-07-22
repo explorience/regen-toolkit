@@ -1,0 +1,25 @@
+title: Right-to-Refuse Connectivity Gate
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Require projects to consider whether people or communities want connectivity,
+  what forms they want, and what data or surveillance they reject.
+potential_uses: >-
+  AI, sensors, public infrastructure, ecological monitoring, community
+  databases.
+dependencies: >-
+  Informed deliberation, alternatives, non-retaliation, reversibility and
+  collective rights.
+tradeoffs: >-
+  Could be used by states or funders to justify neglecting desired
+  infrastructure.
+context: Rhizomatica
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row236
+  source_lineage: >-
+    https://www.rhizomatica.org/keeping-it-analog-a-framework-for-opting-out-of-connectivity/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

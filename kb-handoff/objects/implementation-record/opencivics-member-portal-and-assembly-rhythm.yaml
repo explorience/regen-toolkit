@@ -1,0 +1,24 @@
+title: OpenCivics Member Portal and Assembly Rhythm
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A live coordination environment connecting membership roles, proposals,
+  assemblies, calendars, communication, and knowledge surfaces.
+what_returns_to_commons: >-
+  Concrete network operating-system case for contribution pathways and
+  governance memory.
+notes: >-
+  What to capture: Access model, active roles, proposal flow, assembly
+  decisions, participation levels, privacy, moderation, maintenance, and
+  cross-surface routing. · Status/Caution: Active portal; some content is gated
+  and requires consent-aware review.
+related_source_system: OpenCivics
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row46
+  source_lineage: https://portal.opencivics.co/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

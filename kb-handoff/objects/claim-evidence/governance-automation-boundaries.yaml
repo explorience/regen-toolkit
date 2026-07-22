@@ -1,0 +1,18 @@
+title: Governance automation boundaries
+type: claim-evidence
+claim: Governance automation boundaries
+interpretation: >-
+  Document authority, escalation, appeal, override, audit, and shutdown
+  mechanisms before delegating governance work to agents.
+uncertainty: >-
+  Routine and constitutional decisions can be difficult to separate, and
+  automated systems may accumulate informal authority.
+evidence_stance: qualifying
+context: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row59
+  source_lineage: https://forum.regen.network/t/agentic-token-economics-repo-colab/602
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,25 @@
+title: Technological Autonomy Pathway
+type: option-entry
+category: governance
+what_it_is: >-
+  Build community capacity to choose, design, operate, maintain, govern or
+  refuse technology through peer training and territorial accompaniment.
+potential_uses: >-
+  Community technology, local nodes, resilience systems, AI and data
+  infrastructure.
+dependencies: >-
+  Long-term accompaniment, paid local roles, appropriate technology, policy
+  support, community decision rights.
+tradeoffs: May be romanticized or underfund hidden technical dependencies.
+context: Rhizomatica / REDES A.C.
+review_needs: >-
+  option category inferred — confirm; Matty dup-flag DUP-OP-228:
+  Community-Centred Connectivity Review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row233
+  source_lineage: https://www.rhizomatica.org/what-we-do/
+normalization_flag: DUP-OP-228
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,22 @@
+title: Panacea Trap
+type: concept-lineage
+short_description: >-
+  Warning against assuming one institutional arrangement will solve all
+  collective-action or resource-governance problems.
+toolkit_usage: >-
+  Core guardrail for the Toolkit’s options library, tracks, and deployment
+  guidance.
+original_object_type: Concept / caution lens
+notes: >-
+  Why add: Core guardrail for the Toolkit’s options library, tracks, and
+  deployment guidance. · Status/Caution: Use as a critique of universal
+  solutions, not as a reason to avoid practical recommendations · Parent source
+  system: Elinor Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row329
+  source_lineage: https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

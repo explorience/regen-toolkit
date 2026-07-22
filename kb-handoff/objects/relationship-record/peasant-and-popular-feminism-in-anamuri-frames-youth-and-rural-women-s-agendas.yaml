@@ -1,0 +1,22 @@
+subject: Peasant and Popular Feminism in ANAMURI
+predicate: frames
+object: Youth and rural women’s agendas
+type: relationship-record
+title: >-
+  Peasant and Popular Feminism in ANAMURI — frames — Youth and rural women’s
+  agendas
+original_relationship: frames
+evidence: >-
+  Youth congress material includes feminist formation, violence, care, sexual
+  and reproductive rights and diversity.
+scope: One documented agenda; not entire organizational doctrine
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row500
+  source_lineage: https://anamuri.cl/wp-content/uploads/2026/02/07-Congreso-de-Jovenes.pdf
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

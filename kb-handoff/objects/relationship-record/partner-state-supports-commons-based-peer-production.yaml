@@ -1,0 +1,17 @@
+subject: Partner State
+predicate: supports
+object: Commons-based peer production
+type: relationship-record
+title: Partner State — supports — Commons-based peer production
+original_relationship: supports
+evidence: Normative institutional relationship
+scope: Proposal rather than established universal relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row117
+  source_lineage: >-
+    https://primer.commonstransition.org/2-long-articles/2-1-blueprint-for-a-partner-state/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,17 @@
+subject: Uber
+predicate: responded_to
+object: vTaiwan blended consensus
+type: relationship-record
+title: Uber — responded_to — vTaiwan blended consensus
+original_relationship: responded to
+evidence: vTaiwan reports that Uber agreed to the coherent blended position.
+scope: Requires independent confirmation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row79
+  source_lineage: https://info.vtaiwan.tw/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

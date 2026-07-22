@@ -1,0 +1,24 @@
+title: Localism Fund Program
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A place-based funding initiative intended to support self-organizing capacity
+  and local civic ecosystems.
+what_returns_to_commons: >-
+  Potential case for place-based funding, local node support, and
+  network-to-place relationships.
+notes: >-
+  What to capture: Fund governance, capital source, criteria, expert network,
+  funded places, community participation, reporting, distribution, adaptations,
+  and outcomes. · Status/Caution: Public summary only; full program records
+  required.
+related_source_system: OpenCivics
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row43
+  source_lineage: https://www.opencivics.co/network
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

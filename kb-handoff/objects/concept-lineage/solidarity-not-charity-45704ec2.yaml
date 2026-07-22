@@ -1,0 +1,23 @@
+title: Solidarity Not Charity
+type: concept-lineage
+short_description: >-
+  Mutual support organized through reciprocal solidarity rather than
+  one-directional charitable provision Geography/context: Movement context.
+toolkit_usage: >-
+  Do not romanticize unpaid labor or informal systems without examining capacity
+  and accountability
+original_object_type: Movement Principle
+notes: >-
+  Why add: Do not romanticize unpaid labor or informal systems without examining
+  capacity and accountability · Status/Caution: Political and operational
+  principle · Parent source system: Mutual Aid Disaster Relief
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row863
+  source_lineage: https://mutualaiddisasterrelief.org/
+original_object_class: Framework / Concept
+normalization_flag: REPAIR-NO-863
+review_needs: 'Matty dup-flag REPAIR-NO-863: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

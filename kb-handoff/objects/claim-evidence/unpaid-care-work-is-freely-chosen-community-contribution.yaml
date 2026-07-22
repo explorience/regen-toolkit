@@ -1,0 +1,18 @@
+title: Unpaid care work is freely chosen community contribution
+type: claim-evidence
+claim: Unpaid care work is freely chosen community contribution
+interpretation: >-
+  Record workload, choice, compensation, constraints and decision power rather
+  than assuming voluntariness.
+uncertainty: >-
+  Gender, class, race, disability, migration and organizational power shape who
+  is expected to provide unpaid care.
+evidence_stance: qualifying
+context: Social reproduction cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row308
+  source_lineage: https://www.radicalphilosophy.com/article/social-reproduction-theory-2
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

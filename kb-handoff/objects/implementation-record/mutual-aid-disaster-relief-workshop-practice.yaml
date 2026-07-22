@@ -1,0 +1,23 @@
+title: Mutual Aid Disaster Relief Workshop Practice
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review one workshop or community disaster-response case using the network’s
+  principles and facilitation guide.
+what_returns_to_commons: Concrete implementation case for solidarity-based rapid response and learning.
+notes: >-
+  What to capture: Community authority, logistics, safety, resource flows,
+  conflict, cultural humility, continuity and lessons returned to participants.
+  · Status/Caution: Candidate; secondary-hosted guide and local context require
+  verification
+related_source_system: Mutual Aid Disaster Relief
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row213
+  source_lineage: >-
+    https://commonslibrary.org/mutual-aid-disaster-relief-workshop-facilitation-guide/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,22 @@
+title: Distributed Movement Communication Registry
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Map publications, radios, audiovisual teams, territorial communicators,
+  archives and training programs as a distributed ecosystem rather than one
+  media outlet.
+potential_uses: Movement memory, provenance, communications and source-system discovery.
+dependencies: >-
+  Artifact metadata, editorial stewards, language/territory, permissions,
+  correction and maintenance status.
+tradeoffs: Could expose vulnerable communicators or imply centralized editorial control.
+context: MST communication / knowledge commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row303
+  source_lineage: Internal synthesis from MST communication branch
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

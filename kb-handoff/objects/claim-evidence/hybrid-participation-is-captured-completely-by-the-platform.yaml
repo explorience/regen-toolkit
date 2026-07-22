@@ -1,0 +1,14 @@
+title: Hybrid participation is captured completely by the platform
+type: claim-evidence
+claim: Hybrid participation is captured completely by the platform
+interpretation: Treat platform records as one layer of a broader hybrid process.
+uncertainty: Organizing, facilitation, negotiation and exclusion may occur off-platform.
+evidence_stance: qualifying
+context: Decidim implementations
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row148
+  source_lineage: https://docs.decidim.org/en/develop/features/participatory-spaces.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

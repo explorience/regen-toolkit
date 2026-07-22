@@ -1,0 +1,18 @@
+title: Renewable energy equals energy democracy
+type: claim-evidence
+claim: Renewable energy equals energy democracy
+interpretation: >-
+  Assess ownership, governance, utility power, rates, labor, land and
+  distribution of benefits.
+uncertainty: >-
+  A project can be renewable while ownership, labor, siting and benefits remain
+  centralized or inequitable.
+evidence_stance: qualifying
+context: Energy democracy
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row489
+  source_lineage: https://energydemocracy.us/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

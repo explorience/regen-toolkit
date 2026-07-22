@@ -1,0 +1,24 @@
+title: Care and Sustainability Layer for Stewardship
+type: option-entry
+category: governance
+what_it_is: >-
+  Treat care, rest, interdependence, conflict support and practitioner
+  sustainability as part of governance infrastructure.
+potential_uses: >-
+  Maintainer roles, reviewer networks, source-system stewardship and community
+  moderation.
+dependencies: >-
+  Material resourcing, workload visibility, boundaries, consent and non-coercive
+  participation.
+tradeoffs: >-
+  Care language may shift responsibility onto individuals or unpaid caregivers
+  instead of institutions.
+context: Design Justice Network Care Pod
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row170
+  source_lineage: https://designjustice.org/djn-care-pod
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

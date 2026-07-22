@@ -1,0 +1,18 @@
+title: Openly editable means equally accessible and participatory
+type: claim-evidence
+claim: Openly editable means equally accessible and participatory
+interpretation: >-
+  Describe formal editability separately from actual contributor diversity and
+  accessibility.
+uncertainty: >-
+  Contribution still depends on internet access, language, research skills,
+  confidence, time, and familiarity with academic or civic terminology.
+evidence_stance: qualifying
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row115
+  source_lineage: https://participedia.net/about
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

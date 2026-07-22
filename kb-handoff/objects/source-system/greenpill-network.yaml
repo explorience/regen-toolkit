@@ -1,0 +1,36 @@
+title: Greenpill Network
+type: directory
+steward: Greenpill Network
+return_path: unset — establish via register-source
+url: https://greenpill.network/
+why_it_matters: >-
+  Both a source system and part of the Toolkit’s origin context. Feeds local
+  node/chapter track, public goods builder track, Dev Guild/technical
+  contributor track, public goods education, implementation memory, media field
+  memory, and option patterns.
+toolkit_route: >-
+  Resource Graph & Ecosystem Atlas; Option Library; Deployment & Structural
+  Integrity; Tracks & Composition; Implementation & Learning Memory; Evolution
+  Layer; Resource Graph & Ecosystem Atlas; Knowledge Commons / Encyclopedia;
+  Concept & Idea Ecology; Tracks & Composition; Implementation & Learning
+  Memory; Claim-Evidence Review
+notes: >-
+  Priority: Both a source system and part of the Toolkit’s origin context. Feeds
+  local node/chapter track, public goods builder track, Dev Guild/technical
+  contributor track, public goods education, implementation memory, media field
+  memory, and option patterns. · Next: Inspect website and chapter directory;
+  separate Network, chapters, Dev Guild, Writers Guild, Garden, Podcast, and
+  Stories/Resources into related records; create implementation-memory
+  candidates; extract option and claim candidates; mark people/chapter/community
+  mapping with public-use caution; counterbalance with non-Greenpill source
+  systems. · Notes: First deepening batch complete. Preserve as peer/source
+  system; continue extracting options, claims, implementation memory, and linked
+  resources.
+review_needs: Discovery_Pool promotion (Tier 1) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-00181
+  source_lineage: https://greenpill.network/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

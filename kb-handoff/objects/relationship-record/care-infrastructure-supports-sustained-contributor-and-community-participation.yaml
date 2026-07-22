@@ -1,0 +1,18 @@
+subject: Care infrastructure
+predicate: supports
+object: Sustained contributor and community participation
+type: relationship-record
+title: >-
+  Care infrastructure — supports — Sustained contributor and community
+  participation
+original_relationship: supports
+evidence: Requires material, organizational and relational capacity.
+scope: Synthesis relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row269
+  source_lineage: https://www.versobooks.com/products/2625-the-care-manifesto
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

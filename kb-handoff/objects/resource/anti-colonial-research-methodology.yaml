@@ -1,0 +1,20 @@
+title: Anti-Colonial Research Methodology
+type: resource
+resource_type: Research / Governance Tradition
+url: https://www.hss.mun.ca/research/showcase/clear/
+original_source: CLEAR / anti-colonial research
+notes: >-
+  Why add: Do not turn relational methods into a checklist detached from
+  community authority · Status/Caution: Context-specific methodology family ·
+  Parent source system: CLEAR / anti-colonial research
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row877
+  source_lineage: https://www.hss.mun.ca/research/showcase/clear/
+original_object_class: Governance / Funding Mechanism
+high_risk: true
+normalization_flag: REPAIR-NO-877
+review_needs: 'Matty dup-flag REPAIR-NO-877: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

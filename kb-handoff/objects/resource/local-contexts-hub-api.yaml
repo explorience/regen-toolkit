@@ -1,0 +1,18 @@
+title: Local Contexts Hub API
+type: resource
+resource_type: Technical interface
+url: https://localcontexts.org/support/getting-started-on-the-hub/
+original_source: Local Contexts
+notes: >-
+  Why add: Directly relevant to agent-readable governance metadata and
+  source-system interoperability. · Status/Caution: Integrations must preserve
+  identifiers, context, updates, permissions and community authority · Parent
+  source system: Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row450
+  source_lineage: https://localcontexts.org/support/getting-started-on-the-hub/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

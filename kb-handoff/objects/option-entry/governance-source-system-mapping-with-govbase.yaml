@@ -1,0 +1,24 @@
+title: Governance Source-System Mapping with Govbase
+type: option-entry
+category: governance
+what_it_is: >-
+  Adapt Govbase-style records for projects, organizations, structures, cases,
+  documents, parameters, and governance models into the Toolkit resource graph.
+potential_uses: >-
+  Governance-tool discovery, structural comparison, standards intake, case
+  mapping, and prior-art review.
+dependencies: >-
+  Shared object vocabulary, source lineage, status dates, stewardship, duplicate
+  resolution, and public-use rules.
+tradeoffs: >-
+  A large ontology may become burdensome; crowdsourced fields can appear more
+  complete or objective than they are.
+context: Metagov / Govbase
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row21
+  source_lineage: https://govbase.metagov.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

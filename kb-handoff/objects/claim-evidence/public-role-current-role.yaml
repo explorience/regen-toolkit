@@ -1,0 +1,14 @@
+title: Public role ≠ current role
+type: claim-evidence
+claim: Public role ≠ current role
+interpretation: Store source date and reverify before outreach or strong present-tense claims.
+uncertainty: Movement responsibilities can rotate or change after the publication date.
+evidence_stance: qualifying
+context: All named people
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row438
+  source_lineage: Internal synthesis from current-role review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,22 @@
+subject: Design Justice framework
+predicate: builds_on
+object: Intersectional feminist and movement traditions
+type: relationship-record
+title: >-
+  Design Justice framework — builds_on — Intersectional feminist and movement
+  traditions
+original_relationship: builds on
+evidence: >-
+  Book and paper frame design justice through structural inequality, matrix of
+  domination and movement practice.
+scope: Conceptual lineage; expand with primary movement scholarship later
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row188
+  source_lineage: >-
+    https://designjustice.org/news-1/2018/11/01/2018-11-9-design-justice-towards-an-intersectional-feminist-framework-for-design-theory-and-practice
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

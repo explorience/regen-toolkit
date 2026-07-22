@@ -1,0 +1,19 @@
+subject: Hamilton Black History Database
+predicate: documented_by
+object: Participedia case record
+type: relationship-record
+title: Hamilton Black History Database — documented_by — Participedia case record
+original_relationship: documented by
+evidence: >-
+  Participedia records the community knowledge project as a
+  democratic-participation case.
+scope: Do not substitute Participedia for community-controlled sources.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row28
+  source_lineage: https://participedia.net/case/12441
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

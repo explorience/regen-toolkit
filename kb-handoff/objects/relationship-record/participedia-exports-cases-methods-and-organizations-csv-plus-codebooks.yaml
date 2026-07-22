@@ -1,0 +1,17 @@
+subject: Participedia
+predicate: exports
+object: Cases, Methods and Organizations CSV plus codebooks
+type: relationship-record
+title: Participedia — exports — Cases, Methods and Organizations CSV plus codebooks
+original_relationship: exports
+evidence: Research page provides real-time downloads.
+scope: Version and download date should be recorded.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row25
+  source_lineage: https://participedia.net/research
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

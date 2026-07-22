@@ -1,0 +1,16 @@
+subject: Metadecidim
+predicate: implements_or_uses
+object: Decidim platform
+type: relationship-record
+title: Metadecidim — implements_or_uses — Decidim platform
+original_relationship: uses
+evidence: The community uses a Decidim instance for proposals, governance and testing.
+scope: Recursive self-governance relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row55
+  source_lineage: https://meta.decidim.org/en
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

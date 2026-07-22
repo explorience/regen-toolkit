@@ -1,0 +1,24 @@
+title: Contributor Decision-Rights Statement
+type: option-entry
+category: governance
+what_it_is: >-
+  A plain-language statement of contributor authority over meaning, attribution,
+  publication, sensitivity, correction and withdrawal.
+potential_uses: >-
+  Interviews, steward reviews, community knowledge, lived-experience
+  contributions and sensitive records.
+dependencies: >-
+  Governance approval, conflict process, version/change log during active work
+  and public-use reviewer alignment.
+tradeoffs: >-
+  Rights may conflict with legal, collective or evidentiary obligations; scope
+  must be explicit.
+context: Toolkit governance
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row225
+  source_lineage: Internal design-justice/care synthesis — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

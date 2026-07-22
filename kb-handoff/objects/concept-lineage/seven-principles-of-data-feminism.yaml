@@ -1,0 +1,23 @@
+title: Seven Principles of Data Feminism
+type: concept-lineage
+short_description: >-
+  Examine power; challenge power; elevate emotion and embodiment; rethink
+  binaries and hierarchies; embrace pluralism; consider context; make labor
+  visible.
+toolkit_usage: >-
+  Compact but rich review framework for datasets, taxonomies, AI workflows,
+  indicators, public views and contributor systems.
+original_object_type: Framework
+notes: >-
+  Why add: Compact but rich review framework for datasets, taxonomies, AI
+  workflows, indicators, public views and contributor systems. · Status/Caution:
+  Principles are interdependent inquiry lenses, not compliance checkboxes ·
+  Parent source system: Data Feminism
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row463
+  source_lineage: https://data-feminism.mitpress.mit.edu/pub/a1ao95xs
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

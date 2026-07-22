@@ -1,0 +1,19 @@
+title: Conference webpages are reliable archival records
+type: claim-evidence
+claim: Conference webpages are reliable archival records
+interpretation: >-
+  Use event pages as source leads, preserve dates and screenshots where needed,
+  and verify important details through recordings, agendas, repositories, and
+  partner sources.
+uncertainty: >-
+  Several current pages contain incomplete agendas, placeholder testimonials,
+  template fragments, or legacy content alongside useful program information.
+evidence_stance: qualifying
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row83
+  source_lineage: https://www.fundingthecommons.io/hackathons-1
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

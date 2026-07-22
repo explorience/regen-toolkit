@@ -1,0 +1,17 @@
+subject: KRRS
+predicate: member_of
+object: La Vía Campesina
+type: relationship-record
+title: KRRS — member_of — La Vía Campesina
+original_relationship: member of
+evidence: Movement sources identify KRRS within La Vía Campesina.
+scope: Membership relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row382
+  source_lineage: >-
+    https://viacampesina.org/en/2023/11/peasant-agroecology-schools-amritabhoomi-learning-centre-and-farmer-to-farmer-learning-exchanges/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

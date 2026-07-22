@@ -1,0 +1,18 @@
+title: Open access creates a healthy knowledge commons
+type: claim-evidence
+claim: Open access creates a healthy knowledge commons
+interpretation: >-
+  Describe access separately from governance quality, contributor rights,
+  stewardship, and collective outcomes.
+uncertainty: >-
+  Access is only one dimension; governance, contribution, maintenance, quality,
+  privacy, legitimacy, and correction also matter.
+evidence_stance: qualifying
+context: Knowledge commons lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row192
+  source_lineage: https://knowledge-commons.net/about-knowledge-commons/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

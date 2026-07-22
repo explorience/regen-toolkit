@@ -1,0 +1,25 @@
+title: Collective Access Budget and Protocol
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Attach a funded, revisable access plan to programs, events and technical
+  projects, including communication, sensory, mobility, cognitive, remote and
+  economic access.
+potential_uses: >-
+  Funding rounds, residencies, workshops, conferences, working groups and
+  product development.
+dependencies: >-
+  Budget line, access lead, advance communication, remote participation, plain
+  language, captions, interpretation, rest and feedback.
+tradeoffs: >-
+  No protocol can anticipate every need; access conflicts require transparent
+  resolution and additional resources.
+context: Sins Invalid / Critical Design Lab
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row203
+  source_lineage: https://sinsinvalid.org/resources/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

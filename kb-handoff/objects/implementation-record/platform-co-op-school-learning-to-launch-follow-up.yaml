@@ -1,0 +1,23 @@
+title: Platform Co-op School Learning-to-Launch Follow-Up
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow a cohort from training and assemblies into cooperative formation,
+  conversion, funding, operations, maintenance, or abandonment.
+what_returns_to_commons: >-
+  Tests whether education and field-building convert into durable worker-owned
+  infrastructure.
+notes: >-
+  What to capture: Participants; curriculum; worker involvement; projects; legal
+  structures; capital; launch; survival; failures; learning returned to the
+  commons. · Status/Caution: Avoid success-only sampling
+related_source_system: Platform Cooperativism Consortium
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row189
+  source_lineage: https://platform.coop/school/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

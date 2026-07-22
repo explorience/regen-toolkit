@@ -1,0 +1,16 @@
+title: Peace and agrarian reform claims are politically neutral
+type: claim-evidence
+claim: Peace and agrarian reform claims are politically neutral
+interpretation: Retain authorship, political context, time and multiple relevant sources.
+uncertainty: >-
+  Movement positions emerge from a contested conflict, labor and land context
+  and should not be flattened into generic policy summaries.
+evidence_stance: qualifying
+context: FENSUAGRO
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row477
+  source_lineage: https://viacampesina.org/es/colombia-declaracion-politica-de-fensuagro/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

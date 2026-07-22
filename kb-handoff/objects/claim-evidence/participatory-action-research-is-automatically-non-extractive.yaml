@@ -1,0 +1,17 @@
+title: Participatory-action research is automatically non-extractive
+type: claim-evidence
+claim: Participatory-action research is automatically non-extractive
+interpretation: Audit authority across the full research lifecycle.
+uncertainty: >-
+  Participation can remain tokenistic if communities do not control questions,
+  data, interpretation, publication and withdrawal.
+evidence_stance: qualifying
+context: IALA network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row470
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

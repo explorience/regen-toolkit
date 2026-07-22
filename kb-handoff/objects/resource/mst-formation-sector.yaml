@@ -1,0 +1,17 @@
+title: MST Formation Sector
+type: resource
+resource_type: Movement sector
+url: https://mst.org.br/quem-somos/
+original_source: MST
+notes: >-
+  Why add: Links organizing, education and long-term movement capacity beyond
+  event-based training. · Status/Caution: Official role description; curriculum,
+  authority and participant experience vary · Parent source system: MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row684
+  source_lineage: https://mst.org.br/quem-somos/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,19 @@
+title: Colin Megill
+type: person
+full_name: Colin Megill
+affiliation: Computational Democracy Project / Polis
+consent_status: unverified — default non-public (Principle 8)
+url: https://compdemocracy.org/about/
+notes: >-
+  Why add: Adds a key technical and institutional steward for people and
+  maintenance mapping. · Status/Caution: Confirm current role and
+  responsibilities from the latest organization page before public use · Parent
+  source system: Computational Democracy Project / Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row285
+  source_lineage: https://compdemocracy.org/about/
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,24 @@
+title: Accelerator-to-Implementation Pipeline
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Combine application, cohort selection, training, expert mentoring, peer
+  learning, action-plan development, and implementation grants.
+potential_uses: >-
+  Local democracy pilots, climate participation, youth programs, institutional
+  reform.
+dependencies: >-
+  Transparent selection, local partnerships, mentor capacity, funding, political
+  authority, evaluation, and post-program support.
+tradeoffs: >-
+  Cohort programs can favor well-resourced applicants and produce polished plans
+  without durable implementation.
+context: People Powered
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row82
+  source_lineage: https://www.peoplepowered.org/accelerators
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

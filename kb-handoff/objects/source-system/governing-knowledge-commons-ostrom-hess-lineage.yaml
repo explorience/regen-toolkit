@@ -1,0 +1,22 @@
+title: Governing Knowledge Commons / Ostrom-Hess lineage
+type: directory
+steward: Governing Knowledge Commons / Ostrom-Hess lineage
+return_path: unset — establish via register-source
+url: https://knowledge-commons.net/
+why_it_matters: Foundational governance lens for the whole Toolkit.
+toolkit_route: >-
+  Knowledge Commons / Encyclopedia; Concept & Idea Ecology; Option Library;
+  Evolution Layer; Infrastructure & Substrate
+notes: >-
+  Priority: Foundational governance lens for the whole Toolkit. · Next: Draft
+  card; verify canonical source(s); extract framework questions. · Notes:
+  Central for ensuring the Toolkit is actually a knowledge commons, not just a
+  database.
+review_needs: Discovery_Pool promotion (Tier 1) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04855
+  source_lineage: https://knowledge-commons.net/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

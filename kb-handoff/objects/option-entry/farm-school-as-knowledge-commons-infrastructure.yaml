@@ -1,0 +1,20 @@
+title: Farm-School as Knowledge Commons Infrastructure
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Treat land, food production, classrooms, archives, communication and convening
+  as one maintained learning system.
+potential_uses: Finca-Escuela Raúl Valbuena / IALA María Cano
+dependencies: >-
+  Makes physical maintenance and territorial practice part of knowledge
+  governance.
+tradeoffs: Land tenure, safety, labor, budget and access can reproduce unequal power.
+context: Infrastructure / learning
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row327
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

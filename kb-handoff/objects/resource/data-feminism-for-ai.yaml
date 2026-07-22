@@ -1,0 +1,18 @@
+title: Data Feminism for AI
+type: resource
+resource_type: Paper / AI review lens
+url: https://arxiv.org/abs/2405.01286
+original_source: D’Ignazio / Klein
+notes: >-
+  Why add: Direct bridge from the existing thinker graph into AI evaluation,
+  model development and dataset governance. · Status/Caution: Preprint/research
+  framework; principles do not by themselves validate an AI system · Parent
+  source system: D’Ignazio / Klein
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row468
+  source_lineage: https://arxiv.org/abs/2405.01286
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,21 @@
+subject: MST agroecology strategy
+predicate: implemented_through
+object: Settlements, schools, cooperatives and associations
+type: relationship-record
+title: >-
+  MST agroecology strategy — implemented_through — Settlements, schools,
+  cooperatives and associations
+original_relationship: implemented through
+evidence: >-
+  Movement sources connect formation, production organization and territorial
+  agroecology.
+scope: Implementation varies by territory
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row397
+  source_lineage: https://mst.org.br/temas/agroecologia/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

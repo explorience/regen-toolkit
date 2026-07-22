@@ -1,0 +1,16 @@
+subject: Sasha Costanza-Chock
+predicate: created_by
+object: Design Justice
+type: relationship-record
+title: Sasha Costanza-Chock — created_by — Design Justice
+original_relationship: authored
+evidence: MIT Press identifies Costanza-Chock as author of the 2020 open-access book.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row169
+  source_lineage: https://designjustice.mitpress.mit.edu/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,21 @@
+subject: Durgadas / CSIS lineage
+predicate: complements
+object: Ostrom-Hess, Bauwens-P2P and Audrey Tang-g0v thinker clusters
+type: relationship-record
+title: >-
+  Durgadas / CSIS lineage — complements — Ostrom-Hess, Bauwens-P2P and Audrey
+  Tang-g0v thinker clusters
+original_relationship: complements
+evidence: >-
+  Internal synthesis: adds structural specification and review discipline to
+  institutional, commons-transition and civic-tech lenses
+scope: Complement does not imply agreement or integration
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row147
+  source_lineage: Internal thinker-cluster synthesis
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

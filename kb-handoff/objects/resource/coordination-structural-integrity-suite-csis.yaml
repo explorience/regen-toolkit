@@ -1,0 +1,18 @@
+title: Coordination Structural Integrity Suite (CSIS)
+type: resource
+resource_type: Source system / standards suite
+url: https://coordination-structural-integrity-suite.github.io/ai/
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: Core structural-integrity source system for reviewing organizations,
+  coordination processes and governance documents. · Status/Caution:
+  Maintainer-authored suite; conformance and real-world effects require
+  independent review · Parent source system: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row376
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,21 @@
+subject: Digital Empowerment Foundation
+predicate: collaborates_with
+object: APC community-network learning and regional dialogue
+type: relationship-record
+title: >-
+  Digital Empowerment Foundation — collaborates_with — APC community-network
+  learning and regional dialogue
+original_relationship: participates in
+evidence: >-
+  APC documents DEF work supporting community participation and Community
+  Network Exchange activities.
+scope: Partner role and outcomes need direct DEF/community sources
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row296
+  source_lineage: >-
+    https://www.apc.org/en/news/seven-projects-proving-community-networks-connect-much-more-devices
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,16 @@
+title: Model farms prove ecological performance
+type: claim-evidence
+claim: Model farms prove ecological performance
+interpretation: Record the practice, scale, duration, evidence and uncertainty separately.
+uncertainty: >-
+  Demonstration plots show practices and learning environments, not necessarily
+  long-term ecological or economic outcomes.
+evidence_stance: qualifying
+context: Amrita Bhoomi
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row394
+  source_lineage: https://amritabhoomi.org/the-organisation/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

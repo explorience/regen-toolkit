@@ -1,0 +1,17 @@
+subject: IALA María Cano
+predicate: hosted
+object: VII Continental Communication School
+type: relationship-record
+title: IALA María Cano — hosted — VII Continental Communication School
+original_relationship: hosted
+evidence: 2025 reporting locates the school at IALA María Cano.
+scope: Dated event relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row469
+  source_lineage: https://cloc-viacampesina.net/2025/09
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

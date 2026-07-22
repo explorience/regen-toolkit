@@ -1,0 +1,25 @@
+title: Maintainers Network-to-Practice Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one fellowship or community and trace how maintenance knowledge,
+  funding, local expertise, and public communication affected an actual place or
+  infrastructure.
+what_returns_to_commons: >-
+  Connects maintenance theory to place-based implementation and affected-party
+  review.
+notes: >-
+  What to capture: Local context; practitioner authority; maintenance problem;
+  resources; methods; care labor; outputs; continuation; community judgment. ·
+  Status/Caution: Current network/archive status and follow-up evidence require
+  review
+related_source_system: The Maintainers
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row190
+  source_lineage: https://themaintainers.org/fellowships/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

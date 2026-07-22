@@ -1,0 +1,18 @@
+title: Indigenous Data Governance and Universities Communiqué
+type: resource
+resource_type: Publication / communiqué
+url: https://www.gida-global.org/gidacommuniques
+original_source: GIDA
+notes: >-
+  Why add: Directly relevant to institutional repositories, research systems and
+  AI ingestion. · Status/Caution: Communiqué is a governance position and action
+  guide, not evidence of institutional compliance · Parent source system: GIDA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row459
+  source_lineage: https://www.gida-global.org/gidacommuniques
+original_object_class: Publication / Media
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

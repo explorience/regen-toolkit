@@ -1,0 +1,25 @@
+title: Rules-in-Use Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Compare formal policies, licenses and governance documents with observed
+  practices, technical controls, informal norms, workarounds, and conflict
+  resolution.
+potential_uses: >-
+  Governance audits, implementation memory, source-system stewardship, platform
+  review.
+dependencies: >-
+  Access to practice evidence, participant perspectives, dated documentation,
+  conflict-sensitive review.
+tradeoffs: >-
+  May expose sensitive disputes or encourage unjustified judgments from
+  incomplete public evidence.
+context: GKC Research Framework
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row67
+  source_lineage: https://knowledge-commons.net/research-framework/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

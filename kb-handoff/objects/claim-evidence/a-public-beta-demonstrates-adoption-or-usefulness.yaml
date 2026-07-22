@@ -1,0 +1,19 @@
+title: A public beta demonstrates adoption or usefulness
+type: claim-evidence
+claim: A public beta demonstrates adoption or usefulness
+interpretation: >-
+  Record beta launch, intended users and available evidence; keep adoption and
+  outcome claims unresolved until evaluated.
+uncertainty: >-
+  Launch and public demonstrations do not establish sustained use, access,
+  accuracy, farmer trust, maintenance or outcomes.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row418
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

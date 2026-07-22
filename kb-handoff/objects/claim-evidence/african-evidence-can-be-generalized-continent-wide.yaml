@@ -1,0 +1,18 @@
+title: African evidence can be generalized continent-wide
+type: claim-evidence
+claim: African evidence can be generalized continent-wide
+interpretation: >-
+  Preserve country, method, date and population scope for every claim and
+  comparison.
+uncertainty: >-
+  Countries, regions, communities, institutions and infrastructures differ
+  substantially.
+evidence_stance: neutral
+context: Research ICT Africa / Paradigm Initiative
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row350
+  source_lineage: https://researchictafrica.net/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

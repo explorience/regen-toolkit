@@ -1,0 +1,19 @@
+subject: Record growth
+predicate: evaluated_alongside
+object: Commons health and outcome indicators
+type: relationship-record
+title: Record growth — evaluated_alongside — Commons health and outcome indicators
+original_relationship: evaluated alongside
+evidence: >-
+  Expansion counts should be paired with usefulness, maintenance, correction,
+  participation, and harm measures.
+scope: Proposed evaluation relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row91
+  source_lineage: Internal GKC self-review — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

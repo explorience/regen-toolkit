@@ -1,0 +1,22 @@
+title: >-
+  A current-state handoff requires deleting provenance and contributor
+  attribution
+type: claim-evidence
+claim: >-
+  A current-state handoff requires deleting provenance and contributor
+  attribution
+interpretation: >-
+  Remove public version-history complexity while retaining the smallest
+  necessary private provenance and credit record.
+uncertainty: >-
+  A singular current view can coexist with minimal private lineage needed for
+  accountability and correction.
+evidence_stance: qualifying
+context: Toolkit merge / handoff
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row283
+  source_lineage: Internal labor-maintenance review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

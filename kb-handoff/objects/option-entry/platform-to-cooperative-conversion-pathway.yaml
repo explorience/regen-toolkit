@@ -1,0 +1,25 @@
+title: Platform-to-Cooperative Conversion Pathway
+type: option-entry
+category: governance
+what_it_is: >-
+  Support existing digital businesses or community platforms to transition
+  ownership and governance toward workers, users, or multi-stakeholder
+  cooperatives.
+potential_uses: >-
+  Civic platforms, local marketplaces, care platforms, creator and data
+  cooperatives.
+dependencies: >-
+  Valuation, financing, legal structure, worker organizing, technical migration,
+  governance education.
+tradeoffs: >-
+  Conversion can be symbolic, debt-heavy, manager-led, or financially
+  infeasible.
+context: PCC / DAWI
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row190
+  source_lineage: https://platform.coop/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

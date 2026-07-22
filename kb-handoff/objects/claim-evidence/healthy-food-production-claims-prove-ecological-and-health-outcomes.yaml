@@ -1,0 +1,18 @@
+title: Healthy-food production claims prove ecological and health outcomes
+type: claim-evidence
+claim: Healthy-food production claims prove ecological and health outcomes
+interpretation: >-
+  Describe practices and claims separately; use territory- and product-specific
+  evidence.
+uncertainty: >-
+  Agroecological framing and healthy-food claims require production, input,
+  labor, environmental, nutrition and consumer evidence.
+evidence_stance: qualifying
+context: MST production system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row409
+  source_lineage: https://mst.org.br/nossa-producao/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

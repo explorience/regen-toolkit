@@ -1,0 +1,17 @@
+title: g0v Autonomous Project Model
+type: resource
+resource_type: Implementation case / open collaboration
+url: https://g0v.tw/intl/en/manifesto/en/
+original_source: g0v
+notes: >-
+  Why add: High-value organizational case for federated source systems and
+  networks-of-networks. · Status/Caution: Autonomy can create fragmentation,
+  uneven maintenance and unclear accountability · Parent source system: g0v
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row373
+  source_lineage: https://g0v.tw/intl/en/manifesto/en/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

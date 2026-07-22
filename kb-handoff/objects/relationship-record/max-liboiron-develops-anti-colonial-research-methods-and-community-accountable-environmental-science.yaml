@@ -1,0 +1,19 @@
+subject: Max Liboiron
+predicate: develops
+object: anti-colonial research methods and community-accountable environmental science
+type: relationship-record
+title: >-
+  Max Liboiron — develops — anti-colonial research methods and
+  community-accountable environmental science
+original_relationship: develops
+evidence: Memorial University profile
+scope: Methods remain situated and relational
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row550
+  source_lineage: https://www.mun.ca/geography/people/faculty/max-liboiron/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,16 @@
+title: Public audio may be freely transcribed or used for AI
+type: claim-evidence
+claim: Public audio may be freely transcribed or used for AI
+interpretation: Record licensing, consent, cultural and security constraints before reuse.
+uncertainty: >-
+  Public access does not establish permission for bulk transcription, model
+  training, voice cloning or derivative use.
+evidence_stance: qualifying
+context: UNDROP audiograms / Voz Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row476
+  source_lineage: https://cloc-viacampesina.net/podcast-derechos-campesinos-ya
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,19 @@
+subject: Community Economies Approach
+predicate: related_to
+object: RIPESS, commons, care, cooperative and ecological livelihood clusters
+type: relationship-record
+title: >-
+  Community Economies Approach — related_to — RIPESS, commons, care, cooperative
+  and ecological livelihood clusters
+original_relationship: related to
+evidence: Community Economies overview
+scope: Conceptual relationship, not organizational affiliation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row551
+  source_lineage: >-
+    https://www.communityeconomies.org/about/community-economies-research-and-practice
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

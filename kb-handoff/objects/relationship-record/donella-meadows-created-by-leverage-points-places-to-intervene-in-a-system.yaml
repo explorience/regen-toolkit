@@ -1,0 +1,19 @@
+subject: Donella Meadows
+predicate: created_by
+object: 'Leverage Points: Places to Intervene in a System'
+type: relationship-record
+title: >-
+  Donella Meadows — created_by — Leverage Points: Places to Intervene in a
+  System
+original_relationship: authored
+evidence: Archive identifies Meadows as author.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row158
+  source_lineage: >-
+    https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+subject: '''Amis language contributors and source compilers'
+predicate: inform_sustain
+object: '''Amis MoeDict'
+type: relationship-record
+title: >-
+  'Amis language contributors and source compilers — inform_sustain — 'Amis
+  MoeDict
+original_relationship: inform / sustain
+evidence: Repository describes dictionaries and citizen preservation effort
+scope: Community authority and attribution require deeper review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row127
+  source_lineage: https://github.com/g0v/amis-moedict-new
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+title: IALA Ixim Ulew
+type: resource
+resource_type: Movement school
+url: https://cloc-viacampesina.net/los-ialas-construyendo-soberania
+original_source: ATC / CLOC–La Vía Campesina / Nicaragua
+notes: >-
+  Why add: Adds Mesoamerican territorial pedagogy and member-movement branching.
+  · Status/Caution: Current operating status and governance require direct
+  source follow-up · Parent source system: ATC / CLOC–La Vía Campesina /
+  Nicaragua
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row762
+  source_lineage: https://cloc-viacampesina.net/los-ialas-construyendo-soberania
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

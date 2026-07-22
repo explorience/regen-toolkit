@@ -1,0 +1,23 @@
+title: Community-Centred Connectivity Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Assess connectivity initiatives across community authority, ownership,
+  governance, affordability, cultural relevance, local skills, maintenance,
+  ecological effects and the right not to connect.
+potential_uses: >-
+  Local nodes, community networks, digital public infrastructure, rural
+  connectivity and public-interest technology.
+dependencies: >-
+  Community participation; local-language engagement; governance and ownership
+  evidence; maintenance and funding plans; policy context.
+tradeoffs: Can become another checklist or label while real control remains external.
+context: APC / Rhizomatica / REDES / Zenzeleni
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row227
+  source_lineage: https://www.apc.org/en/tags/community-networks
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

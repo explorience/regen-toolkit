@@ -1,0 +1,18 @@
+title: OpenCivics Member Portal
+type: resource
+resource_type: Coordination infrastructure
+url: https://portal.opencivics.co/
+original_source: OpenCivics
+notes: >-
+  Why add: Adds a concrete operational interface and contribution pathway. ·
+  Status/Caution: Some areas are membership-gated and may contain sensitive
+  context; public visibility and access do not imply permission to extract
+  member data. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row156
+  source_lineage: https://portal.opencivics.co/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

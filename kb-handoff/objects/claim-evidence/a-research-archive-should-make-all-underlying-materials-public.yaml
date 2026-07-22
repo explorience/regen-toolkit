@@ -1,0 +1,18 @@
+title: A research archive should make all underlying materials public
+type: claim-evidence
+claim: A research archive should make all underlying materials public
+interpretation: >-
+  Use differentiated access, consent, redaction, retention, and community or
+  ethics review rather than open-by-default release.
+uncertainty: >-
+  Protocols, transcripts, network files and datasets may contain personal,
+  confidential, community-sensitive or reidentifiable information.
+evidence_stance: qualifying
+context: GKC Knowledge Management Initiative
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row107
+  source_lineage: https://knowledge-commons.net/resources/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

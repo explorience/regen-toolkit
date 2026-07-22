@@ -1,0 +1,18 @@
+title: Movement Research Return-to-Territory Standard
+type: option-entry
+category: coordination
+what_it_is: >-
+  Require every research output to include a plain-language or
+  movement-appropriate return format and a documented feedback/correction loop.
+potential_uses: IALA participatory-action research exchanges
+dependencies: Counters one-way extraction and supports organizational learning.
+tradeoffs: Return formats alone do not prove community control or benefit.
+context: Evidence / accountability
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row328
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

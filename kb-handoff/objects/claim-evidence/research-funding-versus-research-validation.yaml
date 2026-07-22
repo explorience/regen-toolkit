@@ -1,0 +1,19 @@
+title: Research funding versus research validation
+type: claim-evidence
+claim: Research funding versus research validation
+interpretation: >-
+  Describe funding and presentation status precisely; review outputs separately
+  for evidence, method, and intended use.
+uncertainty: >-
+  Receiving a grant or presenting in a seminar may be misread as endorsement or
+  peer validation.
+evidence_stance: qualifying
+context: MetagovDAO
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row42
+  source_lineage: >-
+    https://metagov.org/projects/metagovdao/call-for-proposals-research-community
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

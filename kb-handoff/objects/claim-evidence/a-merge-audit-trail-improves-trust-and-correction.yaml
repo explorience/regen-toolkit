@@ -1,0 +1,18 @@
+title: A merge audit trail improves trust and correction
+type: claim-evidence
+claim: A merge audit trail improves trust and correction
+interpretation: >-
+  A reproducible import and merge ledger can make consolidation decisions
+  reviewable and correctable.
+uncertainty: >-
+  Auditability can support accountability, but only if records are
+  understandable, maintained, and open to challenge.
+evidence_stance: neutral
+context: Merge and governance readiness
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row178
+  source_lineage: Internal merge-readiness design
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

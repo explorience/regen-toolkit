@@ -1,0 +1,18 @@
+title: Governance Surfaces
+type: resource
+resource_type: Dataset / analysis tool
+url: https://metagov.org/projects/governance-surfaces
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Useful for exposing governance choices embedded in technical
+  parameters. · Status/Caution: Contract parameters reveal available surfaces,
+  not actual social power or governance practice. · Parent source system:
+  Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row79
+  source_lineage: https://metagov.org/projects/governance-surfaces
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -5,6 +5,24 @@
 
 > **2026-07-15 re-anchor.** Execution has moved into two consolidated plans: [`framework-validation-pass`](framework-validation-pass.md) (the machine + self-ingestion, P1/P3 done) and [`handoff-integration`](handoff-integration.md) (Matty's July iteration — P2 resource lift → its Canonical_DB ingestion T3). This pipeline stays the **strategic map**; those plans carry the work.
 
+> **2026-07-19 re-anchor.** **Waves 1–2 are effectively done**: P1 ✅ (package extracted, 125 tests) ·
+> P2/P3 delivered via `framework-validation-pass` (✅ complete — 722 objects, live artifacts) +
+> `handoff-integration` (T3a slice; T3b = the full P2). The current execution spine is now:
+>
+> ```
+> dev-instance build (fork, live)  →  review gate (side-by-side, ~2–4 wks, named reviewers)
+>       →  curated prod publish (publish-pipeline, Shape B)  →  repo migration (Heenal; asks sent 07-19)
+>       →  T3b full ingestion (2,689 rows) feeds the engine in parallel
+> ```
+>
+> Active plans: **#1 [`dev-instance-build`](dev-instance-build.md)** · #2 [`handoff-integration`](handoff-integration.md) (T3b) ·
+> [`publish-pipeline/2026-07-16-design.md`](publish-pipeline/2026-07-16-design.md) (approved; runs at the publish step).
+> New threads from the 2026-07-16 biweekly live in HEARTBEAT/BACKLOG, not as pipeline rows: **CRAFT
+> swappable evidentiary ingestion** (Durgadas — slots at the framework's ingestion boundary; ingestion ≠ storage) ·
+> **Geo Protocol scoping** (Luiz + Rather + Regis) · **GitHub Projects post-migration** · **standards stack**
+> (DAOstar + CSIS + DAO IP5 — extends P5's posture) · **Artizen funding** (hold boosts for multiplier).
+> Wave 3 (P6–P8) and Wave 4 (P9–P10) stand as written; P9 already has a live head start (KMS pilot in refi-dao-os).
+
 ## The spine (what we're actually building)
 
 The Regen Knowledge Commons Toolkit is becoming a **framework** — a domain-agnostic system for building a regenerative knowledge commons (layers, flows, schemas, agent skills, a journey-based site generator, a contribution/review process) — with **instances** that fill it with domain content:
@@ -46,12 +64,14 @@ WAVE 4 — Multi-instance deployment
 
 ## Plans
 
+> **Status column reflects the current spine (see the 2026-07-19 re-anchor above), not the original 06-16 pipeline.** Superseded plan files moved to [`archive/`](archive/).
+
 | ID | Plan | File | Status | Depends on | Skills to load when developing |
 |----|------|------|--------|-----------|-------------------------------|
-| D1 | Architecture: Lifecycle vs 10-Layers | [`architecture-lifecycle-vs-layers.md`](architecture-lifecycle-vs-layers.md) | decision-needed | — | brainstorming; (research master doc §Next-Working-Draft + Structure-Options) |
-| **P1** | **Framework / Instance Separation** | [`framework-instance-split.md`](framework-instance-split.md) | **active** | D1 | brainstorming → writing-plans → subagent-driven-development; using-git-worktrees |
-| P2 | Resource DB V3 Lift | [`resource-db-v3-lift.md`](resource-db-v3-lift.md) | ready | P1 (target schema) | test-driven-development; (data eng) |
-| P3 | Framework Prototype + Group Demo | [`framework-prototype-demo.md`](framework-prototype-demo.md) | ready | P1, P2 | verification-before-completion; run/verify |
+| D1 | Architecture: Lifecycle vs 10-Layers | [`architecture-lifecycle-vs-layers.md`](architecture-lifecycle-vs-layers.md) | resolved-by-build (10-layer kernel shipped) | — | brainstorming; (research master doc §Next-Working-Draft + Structure-Options) |
+| P1 | Framework / Instance Separation | [`archive/framework-instance-split.md`](archive/framework-instance-split.md) | ✅ done (package extracted, 125 tests) | D1 | brainstorming → writing-plans → subagent-driven-development; using-git-worktrees |
+| P2 | Resource DB V3 Lift | [`archive/resource-db-v3-lift.md`](archive/resource-db-v3-lift.md) | superseded → T3b full Canonical_DB ingestion ([`handoff-integration`](handoff-integration.md)) | P1 (target schema) | test-driven-development; (data eng) |
+| P3 | Framework Prototype + Group Demo | [`framework-prototype-demo.md`](framework-prototype-demo.md) | ✅ delivered via `framework-validation-pass` + [`dev-instance-build`](dev-instance-build.md) | P1, P2 | verification-before-completion; run/verify |
 | P4 | Theory of Change + Problem Statement | [`theory-of-change.md`](theory-of-change.md) | ready | — (parallel) | brainstorming; deep-research (CSIS, frame language) |
 | P5 | CSIS Posture Revision | [`csis-posture-revision.md`](csis-posture-revision.md) | ready | P4 | brainstorming; deep-research |
 | P6 | RegenOS Documentation + Public Website | [`regen-os-documentation.md`](regen-os-documentation.md) | queued (exists) | P1 | writing-plans; frontend-design; deep-research |

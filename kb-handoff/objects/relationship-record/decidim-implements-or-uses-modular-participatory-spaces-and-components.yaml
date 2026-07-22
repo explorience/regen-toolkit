@@ -1,0 +1,18 @@
+subject: Decidim
+predicate: implements_or_uses
+object: Modular participatory spaces and components
+type: relationship-record
+title: Decidim — implements_or_uses — Modular participatory spaces and components
+original_relationship: implements
+evidence: >-
+  Platform supports configurable processes, assemblies, initiatives, proposals,
+  meetings, budgets and accountability.
+scope: Capability relationship, not outcome claim
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row68
+  source_lineage: https://decidim.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,25 @@
+title: Federated Knowledge Infrastructure with KOI
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Use reference identifiers, local knowledge nodes, permissioning, and
+  interoperable relationships to connect knowledge without centralizing every
+  source.
+potential_uses: >-
+  Federated source systems, AI-assisted navigation, community memory,
+  cross-organizational knowledge sharing.
+dependencies: >-
+  Local stewardship, consent, identifiers, access rules, provenance, correction
+  paths, technical capacity, and governance.
+tradeoffs: >-
+  Complexity, privacy leakage, AI errors, uneven maintenance, and the
+  possibility that interoperability becomes de facto centralization.
+context: Metagov / KOI Pond
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row23
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

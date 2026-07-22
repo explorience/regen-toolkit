@@ -1,0 +1,18 @@
+subject: Energy Democracy Resources
+predicate: created_by
+object: Energy Democracy Project practitioner collaboration
+type: relationship-record
+title: >-
+  Energy Democracy Resources — created_by — Energy Democracy Project
+  practitioner collaboration
+original_relationship: co-created through
+evidence: Official resource description
+scope: Authorship and local provenance should be retained
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row535
+  source_lineage: https://energydemocracy.us/resources/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

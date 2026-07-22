@@ -1,0 +1,16 @@
+title: Platform verification
+type: claim-evidence
+claim: Platform verification
+interpretation: >-
+  Display exact status, source, date, and scope; do not label as generally
+  validated.
+uncertainty: Verified or eligible status is bounded to platform rules.
+evidence_stance: qualifying
+context: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row6
+  source_lineage: https://docs.giveth.io/projectverification
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

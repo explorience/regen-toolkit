@@ -1,0 +1,25 @@
+title: Visible Data Labor Ledger
+type: option-entry
+category: governance
+what_it_is: >-
+  Record the people and forms of labor behind data collection, cleaning,
+  annotation, translation, moderation, maintenance, care and review.
+potential_uses: >-
+  Contributor recognition, compensation, implementation memory and AI dataset
+  governance.
+dependencies: >-
+  Contributor consent, role vocabulary, compensation policy, privacy and
+  collective-credit options.
+tradeoffs: >-
+  May expose precarious workers or turn recognition into surveillance;
+  visibility must be optional and safe.
+context: Data Feminism
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row179
+  source_lineage: https://data-feminism.mitpress.mit.edu/pub/0vgzaln4
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

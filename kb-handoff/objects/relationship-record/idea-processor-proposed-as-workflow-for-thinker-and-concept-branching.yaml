@@ -1,0 +1,17 @@
+subject: Idea Processor
+predicate: proposed_as_workflow_for
+object: thinker and concept branching
+type: relationship-record
+title: Idea Processor — proposed_as_workflow_for — thinker and concept branching
+original_relationship: proposed as workflow for
+evidence: User-provided project context links it to structured idea processing
+scope: Primary specification unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row145
+  source_lineage: https://paragraph.com/durgadas.eth
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

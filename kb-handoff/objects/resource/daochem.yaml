@@ -1,0 +1,18 @@
+title: DAOchem
+type: resource
+resource_type: Dataset / analytics
+url: https://metagov.org/projects/daochem
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Potential cross-system governance analytics and evidence-integration
+  lead. · Status/Caution: Pending funding; holistic framing may overstate
+  incomplete data coverage. · Parent source system: Metagov / Governance
+  Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row78
+  source_lineage: https://metagov.org/projects/daochem
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

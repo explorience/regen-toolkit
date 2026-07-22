@@ -1,0 +1,25 @@
+title: Collective Rights and Authority Gate
+type: option-entry
+category: governance
+what_it_is: >-
+  Prevent publication, reuse, AI ingestion or licensing decisions from relying
+  only on individual consent or generic open licensing where collective rights
+  may apply.
+potential_uses: >-
+  Sensitive knowledge, community data, traditional knowledge, species/genomic
+  information, place-based records.
+dependencies: >-
+  Community identification, legitimate authority, representation checks, legal
+  and cultural review, consent and benefit processes.
+tradeoffs: >-
+  Authority may be contested or plural; a database cannot decide community
+  legitimacy on its own.
+context: GIDA / Local Contexts
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row174
+  source_lineage: https://www.gida-global.org/whoweare
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

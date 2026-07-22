@@ -1,0 +1,22 @@
+title: Spaces-and-Components Architecture
+type: option-entry
+category: governance
+what_it_is: >-
+  Separate institutional contexts from reusable participation mechanisms, then
+  configure components inside spaces and phases.
+potential_uses: >-
+  Toolkit architecture, civic platforms, organizational governance and
+  participatory funding.
+dependencies: >-
+  Clear object types, permissions, lifecycle states, configuration governance
+  and documentation.
+tradeoffs: Modularity can hide political choices and privilege administrators.
+context: Decidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row94
+  source_lineage: https://docs.decidim.org/en/develop/features/general-description.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

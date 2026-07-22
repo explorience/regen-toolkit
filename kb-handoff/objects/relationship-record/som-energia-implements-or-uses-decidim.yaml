@@ -1,0 +1,18 @@
+subject: Som Energia
+predicate: implements_or_uses
+object: Decidim
+type: relationship-record
+title: Som Energia — implements_or_uses — Decidim
+original_relationship: uses
+evidence: >-
+  Decidim site describes cooperative use for assemblies and participatory
+  processes.
+scope: Verify with cooperative source
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row61
+  source_lineage: https://decidim.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

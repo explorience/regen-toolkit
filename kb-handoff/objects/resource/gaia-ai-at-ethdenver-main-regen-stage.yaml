@@ -1,0 +1,18 @@
+title: GAIA AI at ETHDenver Main Regen Stage
+type: resource
+resource_type: Media / implementation case
+url: https://gaiaai.xyz/
+original_source: GAIAI
+notes: >-
+  Why add: Media source for architecture claims, public narrative, and
+  implementation questions. · Status/Caution: Presentation is source material
+  and advocacy, not independent evidence of deployed capability · Parent source
+  system: GAIAI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row124
+  source_lineage: https://gaiaai.xyz/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

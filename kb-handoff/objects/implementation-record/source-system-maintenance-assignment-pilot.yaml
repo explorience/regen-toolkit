@@ -1,0 +1,23 @@
+title: Source-System Maintenance Assignment Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Assign maintenance ownership and review cadence to one bounded group of core
+  source systems and thinker clusters.
+what_returns_to_commons: >-
+  Tests whether maintenance responsibility can be made explicit without creating
+  unfunded mandates.
+notes: >-
+  What to capture: Owner and backup; estimated workload; compensation; review
+  date; stale threshold; source changes; transfer process; failures. ·
+  Status/Caution: NEXT after disability/accessibility cluster setup
+related_source_system: Toolkit operations
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row195
+  source_lineage: Internal labor-maintenance review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

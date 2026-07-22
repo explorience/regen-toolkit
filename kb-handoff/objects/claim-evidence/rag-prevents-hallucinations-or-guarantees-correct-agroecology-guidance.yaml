@@ -1,0 +1,18 @@
+title: RAG prevents hallucinations or guarantees correct agroecology guidance
+type: claim-evidence
+claim: RAG prevents hallucinations or guarantees correct agroecology guidance
+interpretation: >-
+  Describe RAG as an evidence-support architecture and require citations,
+  refusal behavior, field testing and correction records.
+uncertainty: >-
+  Retrieval can improve grounding but still fails through bad sources, retrieval
+  errors, chunking, synthesis, model behavior and missing context.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row423
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

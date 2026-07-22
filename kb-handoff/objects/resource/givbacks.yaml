@@ -1,0 +1,16 @@
+title: GIVbacks
+type: resource
+resource_type: Mechanism
+url: https://docs.giveth.io/givbacks
+original_source: Giveth
+notes: >-
+  Why add: Distinct donor-incentive mechanism. · Status/Caution: Reward signal
+  is not impact evidence · Parent source system: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row2
+  source_lineage: https://docs.giveth.io/givbacks
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

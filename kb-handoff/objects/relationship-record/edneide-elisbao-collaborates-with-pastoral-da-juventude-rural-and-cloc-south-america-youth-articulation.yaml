@@ -1,0 +1,19 @@
+subject: Edneide Elisbao
+predicate: collaborates_with
+object: Pastoral da Juventude Rural and CLOC South America youth articulation
+type: relationship-record
+title: >-
+  Edneide Elisbao — collaborates_with — Pastoral da Juventude Rural and CLOC
+  South America youth articulation
+original_relationship: participates in
+evidence: Named in 2025 youth-assembly interview.
+scope: Dated public role; steward-check spelling
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row476
+  source_lineage: >-
+    https://cloc-viacampesina.net/entrevista-la-juventud-nunca-deja-de-sonar-ni-de-luchar-cloc-via-campesina
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

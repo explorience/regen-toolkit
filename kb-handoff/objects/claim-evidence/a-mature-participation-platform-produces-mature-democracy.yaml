@@ -1,0 +1,18 @@
+title: A mature participation platform produces mature democracy
+type: claim-evidence
+claim: A mature participation platform produces mature democracy
+interpretation: >-
+  Describe platform capabilities separately from process quality, institutional
+  response and outcomes.
+uncertainty: >-
+  Software maturity, feature breadth and deployment count do not establish
+  inclusion, legitimacy, decision authority or implementation.
+evidence_stance: qualifying
+context: Batch 1C cross-system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row149
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

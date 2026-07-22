@@ -1,0 +1,19 @@
+title: The leverage-points list is a universal ranking of interventions
+type: claim-evidence
+claim: The leverage-points list is a universal ranking of interventions
+interpretation: >-
+  Use the list to widen inquiry and compare intervention depth, not to
+  automatically select the highest-ranked category.
+uncertainty: >-
+  The ordering is a teaching heuristic; actual feasibility, ethics, timing,
+  power and context vary.
+evidence_stance: qualifying
+context: Donella Meadows
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row229
+  source_lineage: >-
+    https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

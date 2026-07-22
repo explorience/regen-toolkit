@@ -1,0 +1,18 @@
+title: Precision and non-harming must be designed together
+type: claim-evidence
+claim: Precision and non-harming must be designed together
+interpretation: >-
+  CSIS frames precision and non-harming as mutually necessary commitments; apply
+  and test that framing in context.
+uncertainty: >-
+  This is the suite's foundational normative commitment, not an empirically
+  settled universal law.
+evidence_stance: neutral
+context: Coordination Structural Integrity Suite
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row214
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

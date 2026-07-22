@@ -1,0 +1,19 @@
+subject: Accelerator participants
+predicate: receive_support_from
+object: Expert mentors and peer cohorts
+type: relationship-record
+title: >-
+  Accelerator participants — receive_support_from — Expert mentors and peer
+  cohorts
+original_relationship: receive support from
+evidence: Programs combine mentoring, training, resources, and peer learning.
+scope: Mentor quality and fit vary.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row34
+  source_lineage: https://www.peoplepowered.org/accelerators
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

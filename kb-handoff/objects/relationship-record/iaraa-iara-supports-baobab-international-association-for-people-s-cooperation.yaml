@@ -1,0 +1,19 @@
+subject: IARAA / IARA
+predicate: supports
+object: Baobab / International Association for People’s Cooperation
+type: relationship-record
+title: >-
+  IARAA / IARA — supports — Baobab / International Association for People’s
+  Cooperation
+original_relationship: supported by
+evidence: Official source identifies Baobab as an enabling partner.
+scope: Funding and technical roles need detail
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row396
+  source_lineage: >-
+    https://mst.org.br/2026/05/21/iaraa-uma-ia-para-socializar-os-saberes-do-campo/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

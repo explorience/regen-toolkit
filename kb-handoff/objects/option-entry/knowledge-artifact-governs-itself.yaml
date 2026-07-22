@@ -1,0 +1,24 @@
+title: Knowledge Artifact Governs Itself
+type: option-entry
+category: governance
+what_it_is: >-
+  Use a collaborative publication as a testbed for contribution recognition,
+  repository governance, conflict resolution and progressive community control.
+potential_uses: >-
+  Toolkit documents, shared curricula, public research, open handbooks and
+  community-maintained standards.
+dependencies: >-
+  Stable repositories, contributor rights, maintainer accountability, governance
+  transitions, dispute resolution and licensing.
+tradeoffs: >-
+  Governance can remain aspirational, technically inaccessible or captured by
+  high-volume contributors.
+context: Plurality Project
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row140
+  source_lineage: https://docs.plurality.net/governance/Governance%20introduction/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

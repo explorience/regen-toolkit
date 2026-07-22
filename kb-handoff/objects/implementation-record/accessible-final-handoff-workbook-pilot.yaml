@@ -1,0 +1,23 @@
+title: Accessible Final-Handoff Workbook Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Create and test a compact index, layered summaries and accessible navigation
+  for a bounded copy of the final workbook.
+what_returns_to_commons: >-
+  Tests whether the singular current-state handoff is genuinely usable rather
+  than merely comprehensive.
+notes: >-
+  What to capture: User tasks, keyboard/screen-reader paths, cognitive load,
+  sheet discovery, broken links, alternate formats, feedback and revisions. ·
+  Status/Caution: Priority before final merge handoff
+related_source_system: Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row206
+  source_lineage: Internal disability-access review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

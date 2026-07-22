@@ -1,0 +1,18 @@
+title: Voz Campesina 95 recorded at IALA María Cano
+type: resource
+resource_type: Media artifact
+url: https://cloc-viacampesina.net/category/voz-campesina
+original_source: CLOC–La Vía Campesina / Radio Mundo Real
+notes: >-
+  Why add: Concrete oral-history and movement-media artifact tied to the school.
+  · Status/Caution: Broadcast is public; reuse, transcription and AI-training
+  rights remain separate · Parent source system: CLOC–La Vía Campesina / Radio
+  Mundo Real
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row822
+  source_lineage: https://cloc-viacampesina.net/category/voz-campesina
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

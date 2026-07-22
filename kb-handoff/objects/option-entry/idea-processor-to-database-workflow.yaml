@@ -1,0 +1,24 @@
+title: Idea-Processor to Database Workflow
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Turn a thinker, concept or draft idea into explicit objects, relationships,
+  claims, tensions, source leads and implementation questions.
+potential_uses: >-
+  Thinker branching, source-system expansion, review sessions and agent-assisted
+  curation.
+dependencies: >-
+  Primary method documentation, provenance, human review, multiple frames and
+  non-destructive editing.
+tradeoffs: >-
+  May force emerging ideas into premature structure or reproduce the processor
+  author's assumptions.
+context: Durgadas / Idea Processor lead
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row148
+  source_lineage: https://paragraph.com/durgadas.eth
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

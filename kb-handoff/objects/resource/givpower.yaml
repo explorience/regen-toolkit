@@ -1,0 +1,16 @@
+title: GIVpower
+type: resource
+resource_type: Mechanism
+url: https://docs.giveth.io/givpower
+original_source: Giveth
+notes: >-
+  Why add: Stake-weighted curation and incentive case. · Status/Caution:
+  Boosting is preference, not validation · Parent source system: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row3
+  source_lineage: https://docs.giveth.io/givpower
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

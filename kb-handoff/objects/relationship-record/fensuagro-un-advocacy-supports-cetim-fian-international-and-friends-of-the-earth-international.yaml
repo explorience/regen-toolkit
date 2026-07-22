@@ -1,0 +1,19 @@
+subject: FENSUAGRO UN advocacy
+predicate: supports
+object: CETIM, FIAN International and Friends of the Earth International
+type: relationship-record
+title: >-
+  FENSUAGRO UN advocacy — supports — CETIM, FIAN International and Friends of
+  the Earth International
+original_relationship: supported by
+evidence: Named allies provided consultative or advocacy support around UN engagement.
+scope: Specific advocacy collaboration
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row511
+  source_lineage: >-
+    https://viacampesina.org/en/2021/02/unhrc-peasant-leader-denounces-systematic-violence-against-peasants-organizations-in-colombia/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,25 +1,18 @@
 title: Nyéléni Declaration on Food Sovereignty (2007)
 type: resource
+resource_type: Declaration / movement artifact
 url: https://nyeleni.org/en/declaration-of-nyeleni/
-resource_type: declaration
-media_form: declaration
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row24
-summary: >-
-  Declaration produced by more than 500 representatives from more than 80
-  countries at the first global forum.
-original_object_type: Declaration / movement artifact
+original_source: Nyéléni International
+notes: >-
+  Why add: Foundational movement-authored articulation of food sovereignty and
+  cross-constituency alliance. · Status/Caution: Political declaration; preserve
+  constituency authorship and historical context without building a historical
+  database layer · Parent source system: Nyéléni International
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row24
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: Nyéléni International | https://nyeleni.org/en/declaration-of-nyeleni/
-notes: >-
-  Why add: Foundational movement-authored articulation of food sovereignty and
-  cross-constituency alliance. Status/Caution: Political declaration; preserve
-  constituency authorship and historical context without building a historical
-  database layer
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row639
+  source_lineage: https://nyeleni.org/en/declaration-of-nyeleni/
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

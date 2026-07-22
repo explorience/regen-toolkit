@@ -28,13 +28,14 @@ const types = Object.entries(after.by_type)
       <p class="in-hero__lede reveal" data-d="3">
         Matt's July master-doc handoff includes a large curated database — and a spec that,
         remarkably, describes the same capture → review → publish pipeline this toolkit already runs.
-        To test that, we fed a <strong>bounded prototype corpus</strong> of his own Canonical_DB
-        (127 curated rows across 5 object families) through the machine → <strong>{total} typed
-        objects</strong>, each preserving his text and source lineage, all <code>raw</code> in the
-        review queue. Nothing promoted — a human reviews before anything is published.
+        To test that, we fed his <strong>full Canonical_DB</strong>
+        (2,689 curated rows across all six object families, plus a bounded Discovery_Pool
+        promotion) through the machine → <strong>{total} typed objects</strong>, each preserving
+        his text and source lineage, all <code>raw</code> in the review queue. Nothing promoted —
+        a human reviews before anything is published.
       </p>
       <div class="in-hero__meta reveal" data-d="4">
-        <span class="chip chip--clay">127 curated rows → {total} objects</span>
+        <span class="chip chip--clay">2,689 canonical rows → {total} objects</span>
         <span class="in-hero__metasep" aria-hidden="true"></span>
         <span>from Canonical_DB</span>
         <span class="in-hero__metasep" aria-hidden="true"></span>
@@ -49,17 +50,17 @@ const types = Object.entries(after.by_type)
         <p class="eyebrow">What his data came out as</p>
         <h2 class="in-h2">Six object families, typed through his own crosswalk.</h2>
         <p class="in-sec-sub">
-          His Source-System Cards, New Objects, Options, Claims &amp; Cautions, and Implementation
-          Memory sheets, typed via his own normalization crosswalk and run through the accept gate.
-          Relationships were deliberately left parked — the framework doesn't yet carry a first-class
-          per-edge record (an honest gap, not papered over).
+          His Source-System Cards, New Objects, Options, Claims &amp; Cautions, Implementation
+          Memory, and Relationship Leads sheets, typed via his own normalization crosswalk and run
+          through the accept gate. Relationships now land as first-class <code>relationship-record</code>
+          edges — the gap the earlier slice parked is closed (the framework grew to carry it).
         </p>
       </header>
       <ul class="in-stat-grid">
         <li class="in-stat">
           <span class="in-stat__n">{total}</span>
           <span class="in-stat__label">typed objects</span>
-          <span class="in-stat__desc">From 127 curated Canonical_DB rows, read from the resulting index.</span>
+          <span class="in-stat__desc">From 2,689 curated Canonical_DB rows (all six families) + a bounded Discovery_Pool promotion, read from the resulting index.</span>
         </li>
         <li class="in-stat">
           <span class="in-stat__n">{reviewQueue}</span>

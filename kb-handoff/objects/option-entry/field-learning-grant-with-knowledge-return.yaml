@@ -1,0 +1,22 @@
+title: Field-Learning Grant with Knowledge Return
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Pair small grants with local learning, community-defined outputs and reusable
+  field memory.
+potential_uses: >-
+  Source-system stewardship, local-node experiments, training and community
+  infrastructure.
+dependencies: >-
+  Consent, fair compensation, local ownership, accessible reporting and
+  non-extractive evaluation.
+tradeoffs: Reporting demands may burden communities or privilege funder priorities.
+context: APC
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row238
+  source_lineage: https://www.apc.org/en/tags/community-networks
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

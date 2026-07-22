@@ -1,0 +1,18 @@
+title: Multilingual Movement Publication Ingestion
+type: option-entry
+category: coordination
+what_it_is: >-
+  Prioritize original-language publications and record translation, terminology
+  and authority limitations.
+potential_uses: CLOC member movements
+dependencies: Reduces English-language distortion.
+tradeoffs: Machine translation cannot substitute for steward review.
+context: Source workflow
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row317
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

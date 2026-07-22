@@ -1,0 +1,20 @@
+title: The Maintainers
+type: organization
+org_type: Source system / network
+url: https://themaintainers.org/about/
+steward: Maintenance, repair, and care
+notes: >-
+  Why add: Adds a corrective to innovation-first and launch-first project
+  narratives. · Status/Caution: Current network/archive status; staffed
+  operations are not assumed · Parent source system: Maintenance, repair, and
+  care
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row490
+  source_lineage: https://themaintainers.org/about/
+original_object_class: Organization / Network
+normalization_flag: DUP-NE-92
+review_needs: 'Matty dup-flag DUP-NE-92: Nathan Schneider'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

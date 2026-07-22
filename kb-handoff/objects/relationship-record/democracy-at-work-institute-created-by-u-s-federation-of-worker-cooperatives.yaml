@@ -1,0 +1,18 @@
+subject: Democracy at Work Institute
+predicate: created_by
+object: U.S. Federation of Worker Cooperatives
+type: relationship-record
+title: >-
+  Democracy at Work Institute — created_by — U.S. Federation of Worker
+  Cooperatives
+original_relationship: created by
+evidence: DAWI states it was created by USFWC.
+scope: Institutional relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row225
+  source_lineage: https://institute.coop/about
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

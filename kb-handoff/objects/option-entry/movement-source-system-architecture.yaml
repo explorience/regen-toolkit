@@ -1,0 +1,25 @@
+title: Movement Source-System Architecture
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Represent a movement as an umbrella source system with distinct territorial
+  units, sectors, institutions, cooperative networks, media and technical
+  projects rather than one flat organization record.
+potential_uses: >-
+  Movement mapping, source-system design, relationship modeling, contributor
+  routing.
+dependencies: >-
+  Clear entity boundaries, current primary sources, steward review,
+  non-representative caution and many-to-many relationships.
+tradeoffs: >-
+  Can reproduce official hierarchy, obscure local autonomy or over-centralize
+  diverse territories.
+context: MST / ENFF / UNICRAB / IARAA
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row281
+  source_lineage: https://mst.org.br/quem-somos/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,24 @@
+title: Paired Movement-School Evidence Review
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Review two movement-owned schools through shared evidence questions while
+  preserving distinct territory, movement, pedagogy and power context.
+potential_uses: >-
+  Regenerative case comparison, implementation memory, funder education, school
+  design review.
+dependencies: >-
+  Local stewards, non-ranking fields, contextual sources, affected-party review,
+  ecological/livelihood reviewers.
+tradeoffs: >-
+  Can create false comparability, extract knowledge or reward better-documented
+  institutions rather than stronger practice.
+context: Shashe + Amrita Bhoomi
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row273
+  source_lineage: Internal case synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

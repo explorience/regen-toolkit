@@ -1,0 +1,24 @@
+title: Cosmo-Local Resource Pattern
+type: option-entry
+category: governance
+what_it_is: >-
+  Share designs, methods, knowledge, and coordination globally while adapting
+  production and governance locally.
+potential_uses: >-
+  Bioregional networks, open hardware, local nodes, regenerative production,
+  shared technical infrastructure.
+dependencies: >-
+  Open knowledge, local capacity, governance, licensing, material supply chains,
+  maintenance, reciprocity.
+tradeoffs: >-
+  May romanticize localization, ignore tradeoffs, or externalize labor and
+  ecological costs.
+context: P2P Foundation lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row130
+  source_lineage: https://wiki.p2pfoundation.net/Cosmo-Localism
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

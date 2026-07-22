@@ -1,0 +1,23 @@
+title: Decidim API to Knowledge-Commons Integration
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Prototype importing one bounded public participatory process through GraphQL
+  while preserving spaces, components and context.
+what_returns_to_commons: >-
+  Tests agent-readable civic data integration without flattening institutional
+  context.
+notes: >-
+  What to capture: IDs, hierarchy, statuses, authorship, source links,
+  permissions, privacy, updates and human review. · Status/Caution: High
+  privacy/context risk; use non-sensitive data
+related_source_system: Decidim + Toolkit / knowledge systems
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row98
+  source_lineage: https://meta.decidim.org/api/docs
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

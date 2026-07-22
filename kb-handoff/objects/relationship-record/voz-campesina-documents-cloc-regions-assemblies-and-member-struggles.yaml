@@ -1,0 +1,16 @@
+subject: Voz Campesina
+predicate: documents
+object: CLOC regions, assemblies and member struggles
+type: relationship-record
+title: Voz Campesina — documents — CLOC regions, assemblies and member struggles
+original_relationship: documents
+evidence: Program description and episodes connect regional and constituency voices.
+scope: Episode-level scope varies
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row471
+  source_lineage: https://cloc-viacampesina.net/category/voz-campesina
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

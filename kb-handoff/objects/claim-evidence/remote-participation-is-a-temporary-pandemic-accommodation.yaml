@@ -1,0 +1,18 @@
+title: Remote participation is a temporary pandemic accommodation
+type: claim-evidence
+claim: Remote participation is a temporary pandemic accommodation
+interpretation: >-
+  Remote participation is longstanding disability knowledge and should remain a
+  durable option rather than an emergency exception.
+uncertainty: >-
+  Disabled communities practiced remote access long before COVID-19 and continue
+  to develop it as ongoing social and political infrastructure.
+evidence_stance: neutral
+context: Critical Design Lab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row291
+  source_lineage: https://www.criticaldesignlab.com/project/remote-access-archive/about
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

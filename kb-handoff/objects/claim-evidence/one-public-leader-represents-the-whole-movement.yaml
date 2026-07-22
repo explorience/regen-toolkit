@@ -1,0 +1,19 @@
+title: One public leader represents the whole movement
+type: claim-evidence
+claim: One public leader represents the whole movement
+interpretation: >-
+  Record the person’s specific role, date and source; preserve collective and
+  constituency authorship.
+uncertainty: >-
+  Public figures may have historic or current roles but cannot stand in for
+  autonomous territories, sectors, women, youth, LGBTI+ members, cooperatives or
+  allied movements.
+evidence_stance: qualifying
+context: MST / people records
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row405
+  source_lineage: https://mst.org.br/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

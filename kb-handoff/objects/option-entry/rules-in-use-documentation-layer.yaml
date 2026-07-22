@@ -1,0 +1,23 @@
+title: Rules-in-Use Documentation Layer
+type: option-entry
+category: governance
+what_it_is: >-
+  Document actual contribution, review, maintenance, and decision practices
+  separately from formal governance documents.
+potential_uses: >-
+  Implementation memory, governance audits, contributor onboarding, correction
+  workflows.
+dependencies: >-
+  Observation, interviews, decision logs, contributor consent, discrepancy
+  review.
+tradeoffs: Can expose sensitive practices or turn living norms into rigid bureaucracy.
+context: IAD / Ostrom lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row126
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/courses-teaching/teaching-tools/iad-framework/index.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

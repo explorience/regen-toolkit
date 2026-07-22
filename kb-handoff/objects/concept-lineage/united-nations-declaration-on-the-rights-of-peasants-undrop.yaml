@@ -1,0 +1,20 @@
+title: United Nations Declaration on the Rights of Peasants (UNDROP)
+type: concept-lineage
+short_description: >-
+  International rights framework used by FENSUAGRO for advocacy, education and
+  demands concerning land, territory, participation and rural livelihoods.
+toolkit_usage: Connects movement knowledge to formal rights infrastructure.
+original_object_type: Rights framework
+notes: >-
+  Why add: Connects movement knowledge to formal rights infrastructure. ·
+  Status/Caution: Recognition does not equal domestic implementation or
+  protection · Parent source system: FENSUAGRO / La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row815
+  source_lineage: >-
+    https://viacampesina.org/en/2022/05/colombia-complaint-to-un-mechanisms-about-the-violation-peasants-rights/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

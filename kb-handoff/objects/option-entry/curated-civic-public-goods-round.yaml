@@ -1,0 +1,23 @@
+title: Curated Civic Public-Goods Round
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Combine thematic curation, membership or network criteria, and quadratic
+  funding for a civic public-goods cohort.
+potential_uses: Civic-tech, localism, public-interest technology, and field-building grants.
+dependencies: >-
+  Transparent eligibility, conflict rules, plural review, sybil resistance,
+  reporting, and retrospective evaluation.
+tradeoffs: >-
+  Insider bias, closed-network effects, curation opacity, popularity effects,
+  and funding signals mistaken for impact.
+context: OpenCivics / Gitcoin
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row50
+  source_lineage: >-
+    https://gov.gitcoin.co/t/announcing-the-opencivics-genesis-round-for-gg19/16879
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

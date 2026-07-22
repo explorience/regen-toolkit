@@ -1,0 +1,17 @@
+subject: CLOC–La Vía Campesina
+predicate: is_regional_articulation_of
+object: La Vía Campesina
+type: relationship-record
+title: CLOC–La Vía Campesina — is_regional_articulation_of — La Vía Campesina
+original_relationship: is regional articulation of
+evidence: Continental reference point for Latin America and the Caribbean.
+scope: Current umbrella relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row462
+  source_lineage: https://cloc-viacampesina.net/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

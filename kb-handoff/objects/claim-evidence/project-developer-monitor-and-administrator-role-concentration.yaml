@@ -1,0 +1,16 @@
+title: Project developer, monitor and administrator role concentration
+type: claim-evidence
+claim: Project developer, monitor and administrator role concentration
+interpretation: >-
+  Display each role and identify where independent review or verification enters
+  the process.
+uncertainty: One organization may perform several roles in the evidence and issuance chain.
+evidence_stance: qualifying
+context: Regen Network / Ecometric
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row29
+  source_lineage: https://app.regen.network/project/C06-001
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

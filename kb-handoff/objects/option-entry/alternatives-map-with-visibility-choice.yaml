@@ -1,0 +1,22 @@
+title: Alternatives Map with Visibility Choice
+type: option-entry
+category: coordination
+what_it_is: >-
+  Map initiatives and relationships while allowing communities to choose
+  precision, public visibility, data fields and correction or removal pathways.
+potential_uses: Public explorer, regional collections, relationship mapping and discovery.
+dependencies: >-
+  Sensitivity review, community-controlled metadata, tiered location precision,
+  update ownership and security assessment.
+tradeoffs: >-
+  Mapping can expose communities, turn them into examples, create competition or
+  imply endorsement.
+context: GTA / Vikalp Sangam
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row255
+  source_lineage: https://www.globaltapestryofalternatives.org/mapping:index
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

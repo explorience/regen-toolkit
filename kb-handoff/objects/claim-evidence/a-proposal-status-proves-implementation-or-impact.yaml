@@ -1,0 +1,16 @@
+title: A proposal status proves implementation or impact
+type: claim-evidence
+claim: A proposal status proves implementation or impact
+interpretation: Display exact status, responsible body, date and evidence gaps.
+uncertainty: >-
+  Accepted, rejected or evaluating states are administrative records whose
+  meaning depends on updating and evidence.
+evidence_stance: qualifying
+context: Decidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row140
+  source_lineage: https://docs.decidim.org/en/develop/features/components.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

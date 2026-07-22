@@ -1,0 +1,23 @@
+title: Gaia Neural Backbone
+type: concept-lineage
+short_description: >-
+  Proposed distributed intelligence architecture combining neural and symbolic
+  AI, commons-woven data, interoperability, and multi-directional value and
+  insight flows.
+toolkit_usage: >-
+  Relevant conceptual lineage for agent-readable knowledge commons and
+  regenerative coordination infrastructure.
+original_object_type: Concept / architecture
+notes: >-
+  Why add: Relevant conceptual lineage for agent-readable knowledge commons and
+  regenerative coordination infrastructure. · Status/Caution: Vision language
+  should not be presented as an implemented or proven system without
+  component-level evidence · Parent source system: GAIAI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row128
+  source_lineage: https://github.com/gaiaaiagent/greenpaper
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

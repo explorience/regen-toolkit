@@ -1,0 +1,23 @@
+title: Rules, goals and paradigms as leverage
+type: concept-lineage
+short_description: >-
+  Higher-order intervention areas concerning permissions, incentives, system
+  purpose and shared assumptions.
+toolkit_usage: >-
+  Useful for distinguishing interface tweaks from governance and constitutional
+  change.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Useful for distinguishing interface tweaks from governance and
+  constitutional change. · Status/Caution: Deep-change language can be vague,
+  coercive or detached from feasible action · Parent source system: Donella
+  Meadows systems thinking
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row411
+  source_lineage: >-
+    https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

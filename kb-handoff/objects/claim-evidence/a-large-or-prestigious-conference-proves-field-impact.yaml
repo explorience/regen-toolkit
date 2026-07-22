@@ -1,0 +1,20 @@
+title: A large or prestigious conference proves field impact
+type: claim-evidence
+claim: A large or prestigious conference proves field impact
+interpretation: >-
+  Describe event scale and composition as organizer-reported participation
+  signals; assess outcomes through follow-up projects, relationships, and
+  implementation records.
+uncertainty: >-
+  Attendance, speaker prominence, session count, and partner logos indicate
+  convening reach but not adoption, coordination quality, or public-goods
+  outcomes.
+evidence_stance: qualifying
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row77
+  source_lineage: https://www.fundingthecommons.io/ftc-frontiertower
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

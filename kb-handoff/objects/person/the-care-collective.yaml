@@ -1,0 +1,19 @@
+title: The Care Collective
+type: person
+full_name: The Care Collective
+affiliation: Care and social reproduction cluster
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.versobooks.com/products/2625-the-care-manifesto
+notes: >-
+  Why add: Adds an institutional and societal care framework beyond household or
+  volunteer care. · Status/Caution: Collective manifesto is normative; care can
+  become coercive, paternalistic or unevenly distributed · Parent source system:
+  Care and social reproduction cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row542
+  source_lineage: https://www.versobooks.com/products/2625-the-care-manifesto
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

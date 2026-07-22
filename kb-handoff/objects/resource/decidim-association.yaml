@@ -1,0 +1,17 @@
+title: Decidim Association
+type: resource
+resource_type: Governance institution
+url: https://meta.decidim.org/en/pages/faq
+original_source: Decidim / Metadecidim
+notes: >-
+  Why add: Separates project stewardship from any single municipal deployment. ·
+  Status/Caution: Current legal and operational roles should be dated · Parent
+  source system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row302
+  source_lineage: https://meta.decidim.org/en/pages/faq
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

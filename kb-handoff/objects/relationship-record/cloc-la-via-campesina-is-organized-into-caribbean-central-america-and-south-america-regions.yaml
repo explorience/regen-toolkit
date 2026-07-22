@@ -1,0 +1,19 @@
+subject: CLOC–La Vía Campesina
+predicate: is_organized_into
+object: Caribbean, Central America and South America regions
+type: relationship-record
+title: >-
+  CLOC–La Vía Campesina — is_organized_into — Caribbean, Central America and
+  South America regions
+original_relationship: is organized into
+evidence: Official congress material names three organic regions.
+scope: Formal regional structure
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row463
+  source_lineage: https://cloc-viacampesina.net/rumbo-al-viii-congreso-continental-de-la-cloc
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

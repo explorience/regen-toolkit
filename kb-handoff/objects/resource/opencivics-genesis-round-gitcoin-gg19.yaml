@@ -1,0 +1,20 @@
+title: OpenCivics Genesis Round — Gitcoin GG19
+type: resource
+resource_type: Funding round / implementation case
+url: >-
+  https://gov.gitcoin.co/t/announcing-the-opencivics-genesis-round-for-gg19/16879
+original_source: OpenCivics / Gitcoin
+notes: >-
+  Why add: Concrete implementation case linking civic-field building, curation,
+  consortium membership, and QF. · Status/Caution: Round announcement is not a
+  retrospective; funding totals, grantee outcomes, conflicts, and lessons
+  require follow-up evidence. · Parent source system: OpenCivics / Gitcoin
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row149
+  source_lineage: >-
+    https://gov.gitcoin.co/t/announcing-the-opencivics-genesis-round-for-gg19/16879
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

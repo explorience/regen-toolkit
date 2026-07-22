@@ -1,0 +1,18 @@
+title: COOPAC is formally governed by UNICRAB
+type: claim-evidence
+claim: COOPAC is formally governed by UNICRAB
+interpretation: >-
+  Record the relationship as a lead until membership or governance documentation
+  is confirmed.
+uncertainty: >-
+  The public sources place COOPAC in the agrarian-reform cooperative ecosystem
+  but do not clearly establish formal affiliation or authority.
+evidence_stance: qualifying
+context: COOPAC / UNICRAB
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row436
+  source_lineage: https://mst.org.br/2024/05/03/conheca-a-unicrab/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

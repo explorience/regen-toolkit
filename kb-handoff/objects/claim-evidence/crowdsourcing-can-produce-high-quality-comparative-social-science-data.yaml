@@ -1,0 +1,18 @@
+title: Crowdsourcing can produce high-quality comparative social-science data
+type: claim-evidence
+claim: Crowdsourcing can produce high-quality comparative social-science data
+interpretation: >-
+  Participedia is an important experiment in structured crowdsourced comparative
+  data; quality should be assessed field by field and use by use.
+uncertainty: >-
+  Structured forms, editorial tending, codebooks, and contributor histories can
+  improve quality, but uneven participation and review constrain inference.
+evidence_stance: neutral
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row113
+  source_lineage: https://participedia.net/case/the-participedia-project
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

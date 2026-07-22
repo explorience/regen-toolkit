@@ -1,0 +1,22 @@
+title: Community-Led Ontology Revision Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one consequential category or public navigation structure and redesign
+  its review process around directly affected contributors.
+what_returns_to_commons: Turns design-justice principles into a concrete database-governance case.
+notes: >-
+  What to capture: Category history, affected groups, recruitment, compensation,
+  access needs, decision rights, alternatives, dissent and outcome. ·
+  Status/Caution: High-value candidate; do not proceed without genuine authority
+  and support
+related_source_system: Design Justice Network / Regen Knowledge Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row164
+  source_lineage: https://designjustice.org/read-the-principles
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

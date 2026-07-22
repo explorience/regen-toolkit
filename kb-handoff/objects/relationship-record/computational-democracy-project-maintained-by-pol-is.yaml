@@ -1,0 +1,16 @@
+subject: Computational Democracy Project
+predicate: maintained_by
+object: pol.is
+type: relationship-record
+title: Computational Democracy Project — maintained_by — pol.is
+original_relationship: hosts
+evidence: Organization hosts the main public deployment.
+scope: Separate hosted service from open-source software
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row42
+  source_lineage: https://compdemocracy.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

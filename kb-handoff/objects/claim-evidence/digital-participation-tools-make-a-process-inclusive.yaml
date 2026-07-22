@@ -1,0 +1,19 @@
+title: Digital participation tools make a process inclusive
+type: claim-evidence
+claim: Digital participation tools make a process inclusive
+interpretation: >-
+  Assess digital and offline access, privacy, accessibility, recruitment,
+  facilitation, and institutional follow-through together.
+uncertainty: >-
+  Digital tools can expand access for some while excluding others through
+  connectivity, literacy, disability, surveillance, language, or trust barriers.
+evidence_stance: qualifying
+context: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row126
+  source_lineage: https://www.peoplepowered.org/about/what-we-do
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

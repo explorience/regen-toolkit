@@ -1,0 +1,17 @@
+title: KOI Resource Identifiers (RIDs)
+type: resource
+resource_type: Identifier model
+url: https://metagov.org/projects/koi-pond/faq
+original_source: Metagov / KOI Pond
+notes: >-
+  Why add: Useful for provenance-preserving knowledge graphs and source-system
+  interoperability. · Status/Caution: A reference is not ownership, permission,
+  accuracy, or review · Parent source system: Metagov / KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row93
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

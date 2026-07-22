@@ -1,0 +1,22 @@
+title: IARAA Movement-Governed AI Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track the emerging AI tool from knowledge selection and governance through
+  beta launch, user testing, correction and field use.
+what_returns_to_commons: High-value bridge among agroecology, AI sovereignty and knowledge commons.
+notes: >-
+  What to capture: Corpus, languages, contributors, licensing, community
+  authority, model/provider dependencies, safety, evaluation, farmer access and
+  later maintenance. · Status/Caution: Emerging case; do not overclaim
+related_source_system: MST / World March of Women / Baobab
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row278
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

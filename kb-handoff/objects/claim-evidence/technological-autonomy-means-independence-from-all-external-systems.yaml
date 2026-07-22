@@ -1,0 +1,18 @@
+title: Technological autonomy means independence from all external systems
+type: claim-evidence
+claim: Technological autonomy means independence from all external systems
+interpretation: >-
+  Technological autonomy concerns meaningful community choice and control within
+  acknowledged dependencies.
+uncertainty: >-
+  Community systems still depend on spectrum rules, backhaul, hardware, funding,
+  energy, expertise and wider institutions.
+evidence_stance: neutral
+context: Rhizomatica / REDES A.C.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row338
+  source_lineage: https://www.rhizomatica.org/what-we-do/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

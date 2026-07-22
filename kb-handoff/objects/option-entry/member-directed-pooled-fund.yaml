@@ -1,0 +1,24 @@
+title: Member-Directed Pooled Fund
+type: option-entry
+category: governance
+what_it_is: >-
+  Allow members to propose, vote on, and help implement projects funded from a
+  shared pool for the wider field.
+potential_uses: >-
+  Network governance, contributor funding, source-system maintenance,
+  collaborative research.
+dependencies: >-
+  Clear eligibility, proposal support, voting method, conflict-of-interest
+  rules, implementation reporting, and follow-up.
+tradeoffs: >-
+  Participation can be skewed by time, language, organizational capacity, and
+  network centrality.
+context: People Powered Decides
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row86
+  source_lineage: https://www.peoplepowered.org/about-membership
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

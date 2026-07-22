@@ -1,0 +1,20 @@
+subject: Setor de Comunicação do MST
+predicate: maintained_by
+object: Jornal Sem Terra, audiovisual, radio and territorial communicator formation
+type: relationship-record
+title: >-
+  Setor de Comunicação do MST — maintained_by — Jornal Sem Terra, audiovisual,
+  radio and territorial communicator formation
+original_relationship: maintains / connects
+evidence: >-
+  Official communication pages and state processes show a distributed media
+  ecosystem.
+scope: Do not imply one centralized chain
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row460
+  source_lineage: https://mst.org.br/temas/comunicacao/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

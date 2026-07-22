@@ -1,0 +1,16 @@
+subject: The Commoner Issue 15
+predicate: documents
+object: Care work and the commons lineage
+type: relationship-record
+title: The Commoner Issue 15 — documents — Care work and the commons lineage
+original_relationship: documents
+evidence: Archive of classic and contemporary texts, interviews and documents.
+scope: Archive relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row268
+  source_lineage: https://thecommoner.org/back-issues/issue-15-winter-2012/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

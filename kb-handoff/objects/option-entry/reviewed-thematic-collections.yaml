@@ -1,0 +1,24 @@
+title: Reviewed Thematic Collections
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Create curator-managed groupings across multiple object types without changing
+  the underlying records.
+potential_uses: >-
+  Starter collections, tracks, regional views, reviewer lenses, partner-specific
+  views.
+dependencies: >-
+  Curator identity, selection rationale, inclusion criteria, version history,
+  feedback and removal pathways.
+tradeoffs: >-
+  Collections can become implicit rankings or hide exclusions and editorial
+  power.
+context: Participedia
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row76
+  source_lineage: https://participedia.net/search?selectedCategory=collections
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

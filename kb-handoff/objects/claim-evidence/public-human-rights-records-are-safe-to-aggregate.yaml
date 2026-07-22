@@ -1,0 +1,19 @@
+title: Public human-rights records are safe to aggregate
+type: claim-evidence
+claim: Public human-rights records are safe to aggregate
+interpretation: >-
+  Use minimization, redaction, delayed publication and steward-led threat
+  review.
+uncertainty: >-
+  Combining names, affiliations, incidents and territories can increase
+  profiling and security risks even when each item is public.
+evidence_stance: qualifying
+context: FENSUAGRO
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row471
+  source_lineage: >-
+    https://viacampesina.org/es/colombia-fensuagro-denuncia-la-grave-situacion-de-derechos-humanos-contra-su-organizacion/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

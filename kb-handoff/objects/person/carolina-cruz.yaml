@@ -1,0 +1,20 @@
+title: Carolina Cruz
+type: person
+full_name: Carolina Cruz
+affiliation: IARAA / MST
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://www.brasildefato.com.br/2026/05/16/iaraa-movimentos-populares-usam-tecnologia-chinesa-para-criar-inteligencia-artificial-da-agroecologia-e-reforma-agraria/
+notes: >-
+  Why add: Adds technical and movement-knowledge steward lead. · Status/Caution:
+  Public quoted role; exact current decision authority unresolved · Parent
+  source system: IARAA / MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row717
+  source_lineage: >-
+    https://www.brasildefato.com.br/2026/05/16/iaraa-movimentos-populares-usam-tecnologia-chinesa-para-criar-inteligencia-artificial-da-agroecologia-e-reforma-agraria/
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

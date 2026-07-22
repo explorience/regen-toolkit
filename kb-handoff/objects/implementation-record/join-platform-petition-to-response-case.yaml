@@ -1,0 +1,22 @@
+title: JOIN Platform Petition-to-Response Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one public proposal or discussion through thresholds, agency response,
+  implementation and later public monitoring.
+what_returns_to_commons: Tests regularized online participation and institutional follow-through.
+notes: >-
+  What to capture: Proposal, participation, demographics where available,
+  moderation, agency authority, response, implementation, appeal and outcomes. ·
+  Status/Caution: Candidate; platform record does not establish
+  representativeness or causal impact
+related_source_system: Taiwan National Development Council
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row144
+  source_lineage: https://join.gov.tw/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

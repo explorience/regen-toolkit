@@ -1,0 +1,22 @@
+subject: Critical data and classification cluster
+predicate: complements
+object: Design Justice and Indigenous Data Governance clusters
+type: relationship-record
+title: >-
+  Critical data and classification cluster — complements — Design Justice and
+  Indigenous Data Governance clusters
+original_relationship: complements
+evidence: >-
+  Internal synthesis: power over categories and automation complements community
+  authority and collective rights.
+scope: Do not collapse distinct lineages
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row218
+  source_lineage: Internal cluster synthesis
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Anyone may apply or customize TK and BC Labels
+type: claim-evidence
+claim: Anyone may apply or customize TK and BC Labels
+interpretation: >-
+  Only represent a Label when it is linked to the community-controlled Local
+  Contexts project or source.
+uncertainty: >-
+  Labels express Indigenous community authority and are designed for
+  customization and application by communities.
+evidence_stance: qualifying
+context: Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row256
+  source_lineage: https://localcontexts.org/labels/about-the-labels/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

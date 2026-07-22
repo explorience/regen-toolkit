@@ -1,0 +1,20 @@
+title: A Participedia entry is a verified or peer-reviewed account
+type: claim-evidence
+claim: A Participedia entry is a verified or peer-reviewed account
+interpretation: >-
+  Treat entries as structured, source-linked case syntheses with visible
+  contribution history; verify consequential claims through primary and
+  independent sources.
+uncertainty: >-
+  Entries may be crowdsourced, adapted from other sources, machine translated,
+  or improved by staff editors, but this does not make them independently
+  verified research.
+evidence_stance: qualifying
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row109
+  source_lineage: https://participedia.net/getting-started
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

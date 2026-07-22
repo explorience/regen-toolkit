@@ -1,0 +1,21 @@
+subject: Labor and maintenance cluster
+predicate: corrects
+object: innovation-first and open-by-default assumptions
+type: relationship-record
+title: >-
+  Labor and maintenance cluster — corrects — innovation-first and
+  open-by-default assumptions
+original_relationship: corrects
+evidence: >-
+  Cross-cluster synthesis from PCC, DAWI, The Maintainers, Design Justice, and
+  critical-data work.
+scope: Analytical relationship, not external fact
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row232
+  source_lineage: Internal cluster synthesis
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

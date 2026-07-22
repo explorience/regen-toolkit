@@ -1,0 +1,22 @@
+title: Feminist Technology Imagination Workshop
+type: option-entry
+category: governance
+what_it_is: >-
+  Use creative, speculative and feminist methods to examine harms, power,
+  alternatives and desired futures before implementation.
+potential_uses: >-
+  AI governance, public technology, contributor workshops and option
+  development.
+dependencies: >-
+  Skilled facilitation, safety, translation, compensation and pathway to
+  decisions.
+tradeoffs: Can remain symbolic if outputs do not influence governance or budgets.
+context: Coding Rights / IT for Change
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row242
+  source_lineage: https://codingrights.org/en/about-coding-rights/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

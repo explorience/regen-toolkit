@@ -1,0 +1,25 @@
+title: Provenance-Aware Semantic Processing Hub
+type: option-entry
+category: implementation-operations
+what_it_is: >-
+  Process distributed source events into entity-resolved records, embeddings,
+  searchable context, and optional graph representations while preserving source
+  history.
+potential_uses: >-
+  Agent retrieval, source clustering, duplicate detection, semantic search,
+  graph exports.
+dependencies: >-
+  Authoritative raw store, outbox/event model, versioning, embedding model,
+  entity-resolution review.
+tradeoffs: >-
+  Embedding errors, entity conflation, opaque transformations, graph drift, and
+  infrastructure complexity.
+context: GAIAI / KOI Processor
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row35
+  source_lineage: https://github.com/gaiaaiagent/koi-processor
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

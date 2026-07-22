@@ -1,0 +1,20 @@
+title: Shashe Developed-Case Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Reviewed the developed case for source quality, community authority,
+  ecological and livelihood evidence, equity, maintenance and transferability.
+what_returns_to_commons: Prevents a rich movement narrative from becoming an overstated impact case.
+notes: >-
+  What to capture: What remained strong, what stayed unresolved, public-use
+  limits, reviewer needs and comparison boundaries. · Status/Caution: Completed
+related_source_system: Shashe / ZIMSOFF
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row271
+  source_lineage: Internal review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

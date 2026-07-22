@@ -1,0 +1,18 @@
+title: A systems map is an objective representation of reality
+type: claim-evidence
+claim: A systems map is an objective representation of reality
+interpretation: >-
+  Treat maps and models as explicit hypotheses that must show assumptions,
+  authorship, omissions and revision history.
+uncertainty: >-
+  Boundaries, variables, causal links, time horizons and omitted actors reflect
+  choices and power.
+evidence_stance: qualifying
+context: Donella Meadows / systems thinking
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row228
+  source_lineage: https://donellameadows.org/dancing-with-systems/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

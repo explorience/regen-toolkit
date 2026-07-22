@@ -1,0 +1,18 @@
+title: Maintenance is politically neutral routine work
+type: claim-evidence
+claim: Maintenance is politically neutral routine work
+interpretation: >-
+  Treat maintenance as technical, social, economic, and political work with
+  distributional consequences.
+uncertainty: >-
+  Maintenance decisions determine whose systems are kept functioning, whose
+  risks are prioritized, and whose labor is valued.
+evidence_stance: qualifying
+context: The Maintainers / labor studies
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row275
+  source_lineage: https://themaintainers.org/research/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

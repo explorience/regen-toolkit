@@ -1,0 +1,18 @@
+title: Public Discourse Sandbox
+type: resource
+resource_type: Research program / tool
+url: https://www.plurality.institute/research
+original_source: Plurality Institute
+notes: >-
+  Why add: Concrete implementation branch from the Plurality Institute beyond
+  general ecosystem framing. · Status/Caution: Experimental research
+  infrastructure; simulated behavior is not evidence of real public outcomes ·
+  Parent source system: Plurality Institute
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row186
+  source_lineage: https://www.plurality.institute/research
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

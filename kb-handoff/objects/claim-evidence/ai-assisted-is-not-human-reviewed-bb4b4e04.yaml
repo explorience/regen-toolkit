@@ -1,0 +1,21 @@
+title: AI-Assisted Is Not Human-Reviewed
+type: claim-evidence
+claim: AI-Assisted Is Not Human-Reviewed
+uncertainty: >-
+  Public-use ready as cautionary principle with caveats; do not treat as fully
+  externally reviewed framework.
+notes: >-
+  Priority: AI-assisted extraction, classification, summarization, routing, or
+  synthesis should not be treated as human-reviewed knowledge. AI can help
+  organize knowledge, but it does not establish accuracy, evidence quality,
+  public-use readiness, stewardship, or consent. · Next: Add as core structural
+  integrity principle; strengthen ai_assisted_status and
+  classification_confidence usage across workbook. · Notes: Added in Batch 1A
+  Claims update.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04908
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

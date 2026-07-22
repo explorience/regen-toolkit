@@ -1,0 +1,19 @@
+subject: Indicators and Information Systems for Sustainable Development
+predicate: created_by
+object: Donella Meadows
+type: relationship-record
+title: >-
+  Indicators and Information Systems for Sustainable Development — created_by —
+  Donella Meadows
+original_relationship: authored by
+evidence: Archive identifies Meadows as author.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row164
+  source_lineage: >-
+    https://donellameadows.org/archives/indicators-and-information-systems-for-sustainable-development/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,17 @@
+title: KOI-GPT
+type: resource
+resource_type: AI interface
+url: https://metagov.org/projects/koi-pond/project-details
+original_source: Metagov / KOI Pond
+notes: >-
+  Why add: Concrete AI-assisted knowledge-navigation experiment. ·
+  Status/Caution: LLM output is not community authority or human-reviewed
+  interpretation · Parent source system: Metagov / KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row94
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

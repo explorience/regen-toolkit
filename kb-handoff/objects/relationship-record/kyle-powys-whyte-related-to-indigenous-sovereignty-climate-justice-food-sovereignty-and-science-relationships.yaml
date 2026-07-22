@@ -1,0 +1,21 @@
+subject: Kyle Powys Whyte
+predicate: related_to
+object: >-
+  Indigenous sovereignty, climate justice, food sovereignty and science
+  relationships
+type: relationship-record
+title: >-
+  Kyle Powys Whyte — related_to — Indigenous sovereignty, climate justice, food
+  sovereignty and science relationships
+original_relationship: connects
+evidence: University of Michigan profile
+scope: Use alongside direct Indigenous nation and community sources
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row548
+  source_lineage: https://seas.umich.edu/research/faculty/kyle-whyte
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

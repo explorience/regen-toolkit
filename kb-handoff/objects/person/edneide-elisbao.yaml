@@ -1,0 +1,23 @@
+title: Edneide Elisbao
+type: person
+full_name: Edneide Elisbao
+affiliation: Pastoral da Juventude Rural / CLOC youth articulation
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://cloc-viacampesina.net/entrevista-la-juventud-nunca-deja-de-sonar-ni-de-luchar-cloc-via-campesina
+notes: >-
+  Why add: Adds a current youth organizer voice beyond institutional summaries.
+  · Status/Caution: Dated public role; spelling and current affiliation should
+  be steward-checked · Parent source system: Pastoral da Juventude Rural / CLOC
+  youth articulation
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row774
+  source_lineage: >-
+    https://cloc-viacampesina.net/entrevista-la-juventud-nunca-deja-de-sonar-ni-de-luchar-cloc-via-campesina
+original_object_class: Person
+normalization_flag: DUP-NE-774
+review_needs: 'Matty dup-flag DUP-NE-774: Magha García'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

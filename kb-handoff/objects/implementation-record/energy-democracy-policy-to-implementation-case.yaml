@@ -1,0 +1,21 @@
+title: Energy Democracy Policy-to-Implementation Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one practitioner-developed policy from proposal through adoption,
+  implementation and community outcomes.
+what_returns_to_commons: Separates movement strategy resources from implementation evidence.
+notes: >-
+  What to capture: Coalition authorship, public authority, utility response,
+  financing, labor, ownership and benefit distribution. · Status/Caution:
+  Candidate; current local sources required
+related_source_system: Energy Democracy Project
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row335
+  source_lineage: https://energydemocracy.us/resources/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

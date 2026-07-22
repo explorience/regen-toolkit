@@ -1,0 +1,18 @@
+title: Public farm videos are unrestricted reusable knowledge commons
+type: claim-evidence
+claim: Public farm videos are unrestricted reusable knowledge commons
+interpretation: >-
+  Record item-level license, attribution, consent, cultural authority and
+  noncommercial restrictions before reuse.
+uncertainty: >-
+  The archive states a CC BY-NC 3.0 Puerto Rico license for project works, with
+  separate copyright notices and contextual knowledge concerns.
+evidence_stance: qualifying
+context: Agroecología en Puerto Rico
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row482
+  source_lineage: https://www.agroecologiapr.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

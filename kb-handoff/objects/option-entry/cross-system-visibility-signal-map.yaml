@@ -1,0 +1,24 @@
+title: Cross-System Visibility Signal Map
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Compare how verification, boosts, donations, matching, votes, staking, metrics
+  and curation affect project visibility.
+potential_uses: >-
+  Platform design review, funder education, contributor orientation and claim
+  caution.
+dependencies: >-
+  Transparent mechanism documentation, time/version context and user-interface
+  review.
+tradeoffs: >-
+  Signals are not commensurable; mapping can accidentally turn them into
+  rankings.
+context: Giveth / Artizen / Gitcoin / Octant / OSO
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row2
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

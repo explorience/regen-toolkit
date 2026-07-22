@@ -1,0 +1,21 @@
+title: Disability Representation and Classification Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review a bounded sample of records for medicalization, deficit framing,
+  tokenization and omission of disabled thinkers, workers and builders.
+what_returns_to_commons: Improves the knowledge graph itself, not only its interface.
+notes: >-
+  What to capture: Object types, descriptions, keywords, roles, public labels,
+  reviewer comments, changes and unresolved disagreements. · Status/Caution:
+  Disabled-led editorial review required
+related_source_system: Toolkit data model
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row211
+  source_lineage: Internal disability-access review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,18 @@
+title: Security-Aware Movement Documentation
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Minimize personal and territorial detail when documenting organizations
+  exposed to violence, surveillance or repression.
+potential_uses: FENSUAGRO and other rural movements
+dependencies: Supports public-use safety and contributor protection.
+tradeoffs: May reduce apparent completeness; affected movements should guide disclosure.
+context: Safety / governance practice
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row316
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,22 @@
+title: Benefits and burdens distribution
+type: concept-lineage
+short_description: >-
+  Analysis of who benefits, who bears costs and risks, whose labor is used, and
+  who controls the resulting systems and resources.
+toolkit_usage: >-
+  Directly strengthens claim review, public-use review, options and
+  implementation memory.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Directly strengthens claim review, public-use review, options and
+  implementation memory. · Status/Caution: Distributional analysis needs
+  affected-party evidence, not designer assumptions. · Parent source system:
+  Design Justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row428
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/0v6035ye
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,19 @@
+title: More explicit structure always increases trust
+type: claim-evidence
+claim: More explicit structure always increases trust
+interpretation: >-
+  Assess who defines the structure, who bears its burdens, who can contest it
+  and how it affects trust in practice.
+uncertainty: >-
+  Explicit structure can support accountability but can also enable
+  surveillance, coercion, exclusion or bureaucratic domination.
+evidence_stance: qualifying
+context: Coordination Structural Integrity Suite
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row215
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

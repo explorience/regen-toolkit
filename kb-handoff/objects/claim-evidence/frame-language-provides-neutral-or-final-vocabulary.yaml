@@ -1,0 +1,19 @@
+title: Frame Language provides neutral or final vocabulary
+type: claim-evidence
+claim: Frame Language provides neutral or final vocabulary
+interpretation: >-
+  Use Frame Language as a visible analytical vocabulary open to critique,
+  alternatives and contextual translation.
+uncertainty: >-
+  Every vocabulary reflects purposes, distinctions and exclusions and may not
+  fit all communities or domains.
+evidence_stance: qualifying
+context: Dimensional Frame Language
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row219
+  source_lineage: >-
+    https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,19 @@
+title: More sharing is always socially beneficial
+type: claim-evidence
+claim: More sharing is always socially beneficial
+interpretation: >-
+  Evaluate appropriate information flows, boundaries, consent, exit, voice,
+  affected outsiders, and negative externalities.
+uncertainty: >-
+  Sharing can create privacy, security, extraction, surveillance,
+  misinformation, appropriation, inequity and community-control risks.
+evidence_stance: qualifying
+context: GKC privacy and environmental cases
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row105
+  source_lineage: https://knowledge-commons.net/publications/privacy-book/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

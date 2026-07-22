@@ -1,0 +1,18 @@
+title: Zenzeleni Cooperative ISP
+type: organization
+org_type: Organization model
+url: https://zenzeleni.net/our-model/
+steward: Zenzeleni
+notes: >-
+  Why add: Concrete governance and livelihood model for local digital
+  infrastructure. · Status/Caution: Formal cooperative status does not itself
+  prove broad participation or equitable benefits · Parent source system:
+  Zenzeleni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row569
+  source_lineage: https://zenzeleni.net/our-model/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

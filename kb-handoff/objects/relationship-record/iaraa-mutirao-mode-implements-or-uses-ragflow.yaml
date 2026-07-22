@@ -1,0 +1,16 @@
+subject: IARAA Mutirão mode
+predicate: implements_or_uses
+object: RAGFlow
+type: relationship-record
+title: IARAA Mutirão mode — implements_or_uses — RAGFlow
+original_relationship: uses
+evidence: Current public platform states RAGFlow is used for Mutirão.
+scope: Deployment and version unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row426
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

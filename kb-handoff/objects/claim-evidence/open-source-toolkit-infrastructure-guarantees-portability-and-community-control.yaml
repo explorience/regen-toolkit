@@ -1,0 +1,22 @@
+title: >-
+  Open-source Toolkit infrastructure guarantees portability and community
+  control
+type: claim-evidence
+claim: >-
+  Open-source Toolkit infrastructure guarantees portability and community
+  control
+interpretation: >-
+  Assess code, data, credentials, documentation, governance, financing, and exit
+  pathways separately.
+uncertainty: >-
+  Code access does not establish hosting access, data export, documentation,
+  operational knowledge, funding, or decision rights.
+evidence_stance: qualifying
+context: Toolkit technical layer
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row285
+  source_lineage: Internal labor-maintenance review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

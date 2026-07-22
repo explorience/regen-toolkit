@@ -1,0 +1,21 @@
+subject: Patty Berne
+predicate: co_founded_helped_develop
+object: Sins Invalid and disability justice framework
+type: relationship-record
+title: >-
+  Patty Berne — co_founded_helped_develop — Sins Invalid and disability justice
+  framework
+original_relationship: co-founded / helped develop
+evidence: >-
+  Sins Invalid identifies Berne as co-founder and primary architect of the
+  movement framework.
+scope: Movement lineage; deceased
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row242
+  source_lineage: https://sinsinvalid.org/in-memoriam/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

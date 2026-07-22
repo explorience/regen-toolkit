@@ -1,0 +1,22 @@
+title: vTaiwan four-stage process
+type: concept-lineage
+short_description: >-
+  Successive stages commonly described as proposal, opinion, reflection, and
+  legislation, using multiple open-source and face-to-face methods.
+toolkit_usage: >-
+  Prevents reducing vTaiwan to a Polis deployment and preserves process
+  sequencing.
+original_object_type: Process framework
+notes: >-
+  Why add: Prevents reducing vTaiwan to a Polis deployment and preserves process
+  sequencing. · Status/Caution: Stages vary by topic and era; process diagrams
+  should not be treated as uniform implementation · Parent source system:
+  vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row276
+  source_lineage: https://info.vtaiwan.tw/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

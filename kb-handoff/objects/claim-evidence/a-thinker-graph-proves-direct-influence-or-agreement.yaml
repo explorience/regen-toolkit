@@ -1,0 +1,18 @@
+title: A thinker graph proves direct influence or agreement
+type: claim-evidence
+claim: A thinker graph proves direct influence or agreement
+interpretation: >-
+  Record only source-supported relationships and label interpretive connections
+  as analyst synthesis.
+uncertainty: >-
+  Conceptual similarity, shared organizations, citations, and later synthesis
+  are different relationship types.
+evidence_stance: qualifying
+context: Thinker graph
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row223
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: The Limits to Growth
+type: resource
+resource_type: Book / model study
+url: https://www.clubofrome.org/publication/the-limits-to-growth/
+original_source: Club of Rome / MIT system dynamics team
+notes: >-
+  Why add: Foundational model and controversy for reviewing scenarios,
+  overshoot, delay and model claims. · Status/Caution: Scenarios are not fixed
+  predictions; assumptions, aggregation and political implications require
+  review · Parent source system: Club of Rome / MIT system dynamics team
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row401
+  source_lineage: https://www.clubofrome.org/publication/the-limits-to-growth/
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

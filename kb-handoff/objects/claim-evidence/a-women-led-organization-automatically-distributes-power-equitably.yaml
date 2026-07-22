@@ -1,0 +1,19 @@
+title: A women-led organization automatically distributes power equitably
+type: claim-evidence
+claim: A women-led organization automatically distributes power equitably
+interpretation: >-
+  Name the women-led structure while keeping internal governance and
+  representation as review questions.
+uncertainty: >-
+  Women’s autonomous infrastructure is significant, but public sources do not
+  fully show internal regional, class, ethnic, age or labor-status power
+  distribution.
+evidence_stance: qualifying
+context: ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row461
+  source_lineage: https://anamuri.cl/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

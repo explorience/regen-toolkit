@@ -1,0 +1,22 @@
+title: Organización Boricuá de Agricultura Ecológica
+type: resource
+resource_type: Member movement lead
+url: >-
+  https://cloc-viacampesina.net/entrevista-el-feminismo-campesino-popular-nos-ha-dado-identidad-propia-vii-asamblea-continental-de-mujeres-de-la-cloc-via-campesina
+original_source: CLOC–La Vía Campesina / Puerto Rico
+notes: >-
+  Why add: Potential Caribbean implementation and people branch. ·
+  Status/Caution: Preliminary public role; deepen through
+  organization-controlled sources · Parent source system: CLOC–La Vía Campesina
+  / Puerto Rico
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row772
+  source_lineage: >-
+    https://cloc-viacampesina.net/entrevista-el-feminismo-campesino-popular-nos-ha-dado-identidad-propia-vii-asamblea-continental-de-mujeres-de-la-cloc-via-campesina
+original_object_class: Other / Review
+normalization_flag: DUP-NE-772
+review_needs: 'Matty dup-flag DUP-NE-772: ATC Nicaragua'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

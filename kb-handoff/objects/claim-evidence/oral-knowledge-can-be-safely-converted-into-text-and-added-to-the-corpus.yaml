@@ -1,0 +1,19 @@
+title: Oral knowledge can be safely converted into text and added to the corpus
+type: claim-evidence
+claim: Oral knowledge can be safely converted into text and added to the corpus
+interpretation: >-
+  Require community authority, purpose limitation, attribution, compensation,
+  sensitivity controls and withdrawal before inclusion.
+uncertainty: >-
+  Oral knowledge can be collective, contextual, sacred, gendered, territorial or
+  inappropriate for unrestricted retrieval.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row425
+  source_lineage: >-
+    https://mst.org.br/2026/06/30/iaraa-inteligencia-artificial-na-reforma-agraria-e-agroecologia-e-ferramenta-de-luta-por-soberania-tecnologica/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

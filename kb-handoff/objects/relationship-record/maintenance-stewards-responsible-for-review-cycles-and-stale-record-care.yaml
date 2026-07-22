@@ -1,0 +1,19 @@
+subject: Maintenance stewards
+predicate: responsible_for
+object: Review cycles and stale-record care
+type: relationship-record
+title: Maintenance stewards — responsible_for — Review cycles and stale-record care
+original_relationship: responsible for
+evidence: >-
+  Long-term commons health requires ownership for updating, archiving, and
+  correcting records.
+scope: Proposed operational relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row88
+  source_lineage: Internal GKC self-review — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

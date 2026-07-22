@@ -1,0 +1,19 @@
+title: IARAA Semeadura mode
+type: resource
+resource_type: Interface mode
+url: https://baobab.iapc.group/pt/iaraa/
+original_source: IARAA
+notes: >-
+  Why add: Distinct user-mode and layered-communication object. ·
+  Status/Caution: Live beta mode; field usefulness not independently evaluated ·
+  Parent source system: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row707
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+original_object_class: Other / Review
+normalization_flag: DUP-NE-707
+review_needs: 'Matty dup-flag DUP-NE-707: Natália Lobo'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

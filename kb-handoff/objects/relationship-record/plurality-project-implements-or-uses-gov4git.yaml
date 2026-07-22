@@ -1,0 +1,16 @@
+subject: Plurality Project
+predicate: implements_or_uses
+object: Gov4Git
+type: relationship-record
+title: Plurality Project — implements_or_uses — Gov4Git
+original_relationship: uses / experiments with
+evidence: Governance documentation proposes protocol for ledger and conflict handling
+scope: Implementation status uncertain
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row129
+  source_lineage: https://docs.plurality.net/governance/Gov4Git/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

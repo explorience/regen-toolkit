@@ -1,0 +1,19 @@
+title: Governing the Commons
+type: resource
+resource_type: Book
+url: https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/biographical/
+original_source: Elinor Ostrom
+notes: >-
+  Why add: Original workbook has a thin book record; enrich its relationship to
+  cases, design principles, and institutional analysis. · Status/Caution:
+  Foundational source, but not sufficient for digital or knowledge commons by
+  itself · Parent source system: Elinor Ostrom
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row322
+  source_lineage: >-
+    https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/biographical/
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

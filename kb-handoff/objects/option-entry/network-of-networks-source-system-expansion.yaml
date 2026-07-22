@@ -1,0 +1,28 @@
+title: Network-of-Networks Source-System Expansion
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Use a membership network as a branching structure into member organizations,
+  local initiatives, publications, campaigns and regional knowledge systems
+  while preserving distinct authorship and authority.
+potential_uses: >-
+  Resource-database expansion, regional mapping, movement knowledge and
+  contributor recruitment.
+dependencies: >-
+  Member directory, relationship provenance, regional review, duplicate checks
+  and non-representative framing.
+tradeoffs: >-
+  Can recentralize diverse organizations under the umbrella network and
+  over-prioritize well-documented members.
+context: APC
+review_needs: >-
+  option category inferred — confirm; Matty dup-flag DUP-OP-229: Technological
+  Autonomy Pathway
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row229
+  source_lineage: https://www.apc.org/en/network
+normalization_flag: DUP-OP-229
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

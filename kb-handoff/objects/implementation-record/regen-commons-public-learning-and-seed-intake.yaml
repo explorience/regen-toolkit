@@ -1,0 +1,24 @@
+title: Regen Commons Public Learning and Seed Intake
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  The public site introduces commoning through a narrative learning path and
+  invites visitors to plant a short seed describing what they hope to common.
+what_returns_to_commons: >-
+  Concrete low-friction commons onboarding case that can inform the Toolkit’s
+  contributor entry points.
+notes: >-
+  What to capture: Design goals, submission flow, moderation, number and type of
+  contributions, routing, participant feedback, maintenance burden, and whether
+  seeds lead to action. · Status/Caution: Active public interface; outcomes and
+  stewardship workflow not yet documented.
+related_source_system: Regen Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row35
+  source_lineage: https://regencommons.com/learn
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

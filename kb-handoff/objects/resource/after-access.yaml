@@ -1,0 +1,17 @@
+title: After Access
+type: resource
+resource_type: Research programme
+url: https://researchictafrica.net/
+original_source: Research ICT Africa
+notes: >-
+  Why add: Prevents infrastructure availability from being equated with
+  effective inclusion. · Status/Caution: Access indicators do not by themselves
+  capture agency, safety or benefit · Parent source system: Research ICT Africa
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row588
+  source_lineage: https://researchictafrica.net/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

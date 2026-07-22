@@ -1,0 +1,24 @@
+title: KOI Consent, Ingestion and Knowledge-Boundary Evolution
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document how selected Slack channels, explicit historical consent, opt-outs,
+  source references, AI interfaces, and evolving data policies were implemented.
+what_returns_to_commons: >-
+  Provides direct implementation learning for consent-aware AI-assisted
+  community memory.
+notes: >-
+  What to capture: Initial boundaries, participant communications, consent
+  settings, ingestion rules, corrections, access roles, incidents, research
+  findings and policy changes. · Status/Caution: Priority candidate; requires
+  participant and steward review.
+related_source_system: Metagov / KOI Pond
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row22
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

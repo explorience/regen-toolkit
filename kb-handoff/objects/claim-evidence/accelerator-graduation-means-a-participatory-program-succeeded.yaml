@@ -1,0 +1,18 @@
+title: Accelerator graduation means a participatory program succeeded
+type: claim-evidence
+claim: Accelerator graduation means a participatory program succeeded
+interpretation: >-
+  Treat completion, grants, and launch as milestones; separately document
+  implementation and outcomes.
+uncertainty: >-
+  The program develops action plans and may support pilots, but durability,
+  inclusion, policy influence, and outcomes occur later.
+evidence_stance: qualifying
+context: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row121
+  source_lineage: https://www.peoplepowered.org/accelerators
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

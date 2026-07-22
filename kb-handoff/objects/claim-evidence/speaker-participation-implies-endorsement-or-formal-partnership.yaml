@@ -1,0 +1,18 @@
+title: Speaker participation implies endorsement or formal partnership
+type: claim-evidence
+claim: Speaker participation implies endorsement or formal partnership
+interpretation: >-
+  Record the exact role, event, and date; do not infer affiliation or
+  endorsement beyond the source.
+uncertainty: >-
+  Event pages combine speakers, sponsors, partners, mentors, and community
+  members with different relationships.
+evidence_stance: qualifying
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row78
+  source_lineage: https://www.fundingthecommons.io/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

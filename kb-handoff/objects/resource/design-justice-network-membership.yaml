@@ -1,0 +1,17 @@
+title: Design Justice Network Membership
+type: resource
+resource_type: Membership model
+url: https://designjustice.org/membership
+original_source: Design Justice Network
+notes: >-
+  Why add: Relevant model for combining financial and non-financial contribution
+  pathways. · Status/Caution: Ability to pay or volunteer may still create
+  access and labor inequities. · Parent source system: Design Justice Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row423
+  source_lineage: https://designjustice.org/membership
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

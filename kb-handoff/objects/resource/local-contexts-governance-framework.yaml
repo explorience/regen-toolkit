@@ -1,0 +1,19 @@
+title: Local Contexts Governance Framework
+type: resource
+resource_type: Governance artifact
+url: https://localcontexts.org/governance/
+original_source: Local Contexts
+notes: >-
+  Why add: Useful implementation case for community governance, transparency and
+  generational sustainability. · Status/Caution: Formal governance documents
+  should be read alongside rules-in-use and community experience · Parent source
+  system: Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row457
+  source_lineage: https://localcontexts.org/governance/
+original_object_class: Governance / Funding Mechanism
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

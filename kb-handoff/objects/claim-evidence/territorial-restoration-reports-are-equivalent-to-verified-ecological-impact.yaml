@@ -1,0 +1,19 @@
+title: Territorial restoration reports are equivalent to verified ecological impact
+type: claim-evidence
+claim: Territorial restoration reports are equivalent to verified ecological impact
+interpretation: >-
+  State ecological improvements as reported findings and identify the additional
+  measurements and review needed.
+uncertainty: >-
+  Movement reports provide valuable situated evidence but do not supply
+  standardized baselines, time series or independent verification.
+evidence_stance: qualifying
+context: Shashe
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row387
+  source_lineage: >-
+    https://viacampesina.org/en/2020/11/peasants-in-zimbabwe-revive-stagnant-farms-through-agroecology/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

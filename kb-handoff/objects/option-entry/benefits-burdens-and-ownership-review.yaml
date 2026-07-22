@@ -1,0 +1,24 @@
+title: Benefits, Burdens and Ownership Review
+type: option-entry
+category: governance
+what_it_is: >-
+  A structured review of who gains value, who bears risks and labor, who owns
+  outputs, and who can change or withdraw them.
+potential_uses: >-
+  Options, implementation memory, data governance, funding mechanisms and
+  technical handoffs.
+dependencies: >-
+  Distributional evidence, labor analysis, affected-party input, ownership and
+  licensing clarity.
+tradeoffs: >-
+  May oversimplify contested interests or rely on inferred harms rather than
+  lived evidence.
+context: Design Justice
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row165
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/0v6035ye
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

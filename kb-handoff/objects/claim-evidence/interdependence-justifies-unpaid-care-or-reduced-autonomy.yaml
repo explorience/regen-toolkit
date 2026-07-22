@@ -1,0 +1,19 @@
+title: Interdependence justifies unpaid care or reduced autonomy
+type: claim-evidence
+claim: Interdependence justifies unpaid care or reduced autonomy
+interpretation: >-
+  Pair interdependence with consent, boundaries, compensation, public provision
+  and refusal rights.
+uncertainty: >-
+  Interdependence can be romanticized in ways that conceal exploitation,
+  coercion, burnout and inadequate public support.
+evidence_stance: qualifying
+context: Disability justice cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row295
+  source_lineage: >-
+    https://leavingevidence.wordpress.com/2017/04/12/access-intimacy-interdependence-and-disability-justice/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

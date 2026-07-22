@@ -1,0 +1,24 @@
+title: Universal Care Institutional Lens
+type: option-entry
+category: governance
+what_it_is: >-
+  Review how care is distributed across households, communities, markets, public
+  institutions and ecological systems.
+potential_uses: >-
+  Governance design, ecosystem strategy, funding allocation, public
+  infrastructure.
+dependencies: >-
+  Political-economic analysis, affected-party input, fiscal realism, labor
+  review.
+tradeoffs: >-
+  Universal framing may obscure local autonomy, difference and conflicting care
+  obligations.
+context: The Care Collective
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row216
+  source_lineage: https://www.versobooks.com/products/2625-the-care-manifesto
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

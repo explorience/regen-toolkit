@@ -1,0 +1,18 @@
+subject: Design Justice
+predicate: documents
+object: Design Justice Network Principles
+type: relationship-record
+title: Design Justice — documents — Design Justice Network Principles
+original_relationship: builds on / documents
+evidence: >-
+  Book places the network principles near the center of its community-led design
+  framework.
+scope: Conceptual and movement relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row170
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/ap8rgw5e
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

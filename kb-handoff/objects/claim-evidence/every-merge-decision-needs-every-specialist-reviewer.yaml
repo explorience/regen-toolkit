@@ -1,0 +1,18 @@
+title: Every merge decision needs every specialist reviewer
+type: claim-evidence
+claim: Every merge decision needs every specialist reviewer
+interpretation: >-
+  Use risk-tiered review and reserve specialist review for consequential or
+  public-facing assertions.
+uncertainty: >-
+  Uniform review requirements would create bottlenecks and hidden labor while
+  adding little value to low-risk metadata.
+evidence_stance: qualifying
+context: GAIAI merge-pilot review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row185
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

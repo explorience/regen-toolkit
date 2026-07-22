@@ -1,0 +1,18 @@
+title: Polis discovers the public will
+type: claim-evidence
+claim: Polis discovers the public will
+interpretation: >-
+  Polis maps patterns among participating responses and can surface cross-group
+  agreement; it does not automatically represent an entire public.
+uncertainty: >-
+  Results depend on recruitment, prompt design, statement supply, moderation,
+  participation patterns, model assumptions, and interpretation.
+evidence_stance: qualifying
+context: Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row129
+  source_lineage: https://compdemocracy.org/polis/book/introduction/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

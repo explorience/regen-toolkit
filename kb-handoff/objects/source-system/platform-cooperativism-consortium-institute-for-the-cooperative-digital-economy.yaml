@@ -14,14 +14,21 @@ why_it_matters: >-
   Active global research, education, organizing, and business-support hub for
   worker- and user-owned digital platforms and cooperative digital
   infrastructure.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row20
-  source_lineage: https://platform.coop/
 caution: >-
   PCC-reported project and worker-reach figures are organizer claims.
   Cooperative legal form does not by itself establish meaningful worker power,
   equitable outcomes, viability, or maintenance.
+extraction_status: >-
+  Worker ownership and governance; cooperative digital infrastructure;
+  conversion and startup pathways; policy and financing; AI and
+  solidarity-economy research; concrete platform-coop cases.
+notes: >-
+  Role: Core labor and cooperative-digital-infrastructure source system ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row19
+  source_lineage: https://platform.coop/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

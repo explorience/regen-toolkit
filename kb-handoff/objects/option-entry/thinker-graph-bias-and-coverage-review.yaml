@@ -1,0 +1,24 @@
+title: Thinker-Graph Bias and Coverage Review
+type: option-entry
+category: coordination
+what_it_is: >-
+  Periodically assess whose theories are central, whose practices are treated as
+  cases, and which communities appear mainly as affected parties or cautions.
+potential_uses: >-
+  Thinker expansion, source-system selection, public collections and reviewer
+  recruitment.
+dependencies: >-
+  Coverage dimensions, regional and disciplinary data, qualitative review,
+  community input and correction rights.
+tradeoffs: >-
+  Can become representational box-checking or expose sensitive identity
+  assumptions.
+context: Cross-cluster governance
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row160
+  source_lineage: Internal synthesis from first five thinker clusters
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

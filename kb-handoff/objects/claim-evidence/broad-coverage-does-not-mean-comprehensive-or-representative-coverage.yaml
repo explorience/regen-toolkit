@@ -1,0 +1,16 @@
+title: Broad coverage does not mean comprehensive or representative coverage.
+type: claim-evidence
+claim: Broad coverage does not mean comprehensive or representative coverage.
+interpretation: Database-wide
+uncertainty: Scope Freeze and Backlog
+evidence_stance: neutral
+context: >-
+  Treat this version as a strong working map with explicit gaps and a maintained
+  backlog.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row502
+  source_lineage: Active
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

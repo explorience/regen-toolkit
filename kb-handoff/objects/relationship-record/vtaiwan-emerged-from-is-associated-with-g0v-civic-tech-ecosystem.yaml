@@ -1,0 +1,19 @@
+subject: vTaiwan
+predicate: emerged_from_is_associated_with
+object: g0v civic-tech ecosystem
+type: relationship-record
+title: vTaiwan — emerged_from_is_associated_with — g0v civic-tech ecosystem
+original_relationship: emerged from / is associated with
+evidence: >-
+  vTaiwan arose through Taiwan's civic-tech and government collaboration
+  context.
+scope: Relationship is historical and distributed, not ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row45
+  source_lineage: https://info.vtaiwan.tw/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

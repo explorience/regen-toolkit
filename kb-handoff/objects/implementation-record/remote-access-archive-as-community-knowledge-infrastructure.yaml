@@ -1,0 +1,22 @@
+title: Remote Access Archive as Community Knowledge Infrastructure
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Study the archive’s disabled-led remote collaboration, collection,
+  description, finding aids, keywords, accessibility and public presentation.
+what_returns_to_commons: Direct comparator for Toolkit implementation memory and community archives.
+notes: >-
+  What to capture: Governance, contributors, consent, item catalog, metadata,
+  access formats, maintenance, interpretive media and reuse boundaries. ·
+  Status/Caution: Candidate; do not extract community artifacts without
+  contextual review
+related_source_system: Critical Design Lab
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row200
+  source_lineage: https://www.criticaldesignlab.com/project/remote-access-archive
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

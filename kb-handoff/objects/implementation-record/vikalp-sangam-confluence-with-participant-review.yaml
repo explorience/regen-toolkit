@@ -1,0 +1,24 @@
+title: Vikalp Sangam Confluence with Participant Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop one regional or thematic Sangam as an evidence-bearing case of
+  convening, documentation, collective framing and post-gathering collaboration.
+what_returns_to_commons: >-
+  Tests whether the pluriverse source system returns value to movements rather
+  than only documenting them.
+notes: >-
+  What to capture: Participants and selection; languages; facilitation;
+  disagreements; outputs; consent; knowledge return; relationships formed; later
+  actions; maintenance. · Status/Caution: Queued; requires participant or
+  steward review beyond website evidence
+related_source_system: Vikalp Sangam / Kalpavriksh
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row257
+  source_lineage: https://vikalpsangam.org/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

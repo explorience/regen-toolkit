@@ -1,0 +1,24 @@
+title: Cross-Group Consensus Surfacing
+type: option-entry
+category: governance
+what_it_is: >-
+  Identify statements supported across statistically inferred opinion groups
+  while preserving divisive and uncertain statements.
+potential_uses: >-
+  Common-ground discovery, meeting preparation, policy drafting, coalition
+  building.
+dependencies: >-
+  Transparent clustering, diverse participation, statement review, human
+  interpretation, publication of disagreements.
+tradeoffs: >-
+  Can create false consensus or privilege bland statements; group models may be
+  unstable or misunderstood.
+context: Polis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row88
+  source_lineage: https://compdemocracy.org/polis/book/introduction/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

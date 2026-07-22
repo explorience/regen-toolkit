@@ -1,0 +1,17 @@
+subject: Ostrom Workshop
+predicate: maintained_by
+object: IAD teaching resources
+type: relationship-record
+title: Ostrom Workshop — maintained_by — IAD teaching resources
+original_relationship: maintains
+evidence: Provides current teaching tools and methodologies.
+scope: Current source-system relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row98
+  source_lineage: >-
+    https://www.ostromworkshop.indiana.edu/courses-teaching/teaching-tools/index.html
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+title: Algorithmic Justice League
+type: organization
+org_type: Organization / source system
+url: https://www.ajl.org/
+steward: Joy Buolamwini and movement network
+notes: >-
+  Why add: Strong bridge from thinker graph to campaigns, lived-experience
+  reports, audits and policy pressure. · Status/Caution: Advocacy organization;
+  distinguish research findings, campaign claims and policy positions · Parent
+  source system: Joy Buolamwini and movement network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row474
+  source_lineage: https://www.ajl.org/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

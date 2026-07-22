@@ -1,0 +1,21 @@
+title: Paid Low-Disclosure Contributor Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Run one bounded contributor/reviewer workflow with pay, multi-format access,
+  flexible pacing and minimal personal disclosure.
+what_returns_to_commons: Tests disability, labor and care commitments together.
+notes: >-
+  What to capture: Recruitment, compensation, access, workload, authority,
+  support requests, outcomes and remediation. · Status/Caution: NEXT practical
+  pilot
+related_source_system: Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row220
+  source_lineage: Internal applied review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

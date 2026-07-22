@@ -1,0 +1,20 @@
+title: The current platform is infrastructure-sovereign because it uses open-source …
+type: claim-evidence
+claim: >-
+  The current platform is infrastructure-sovereign because it uses open-source
+  components and a Chinese model
+interpretation: >-
+  Describe specific dependencies and decision rights; treat sovereignty as
+  multidimensional and evidenced layer by layer.
+uncertainty: >-
+  Open code and non-US models do not establish control over compute, hosting,
+  providers, licenses, budgets, skills or exit options.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row421
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

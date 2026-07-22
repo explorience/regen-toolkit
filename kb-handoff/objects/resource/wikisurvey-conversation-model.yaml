@@ -1,0 +1,17 @@
+title: Wikisurvey conversation model
+type: resource
+resource_type: Method / data structure
+url: https://compdemocracy.org/polis/
+original_source: Polis
+notes: >-
+  Why add: Distinct from fixed surveys and useful for option-library comparison.
+  · Status/Caution: Short statements and voting structure shape what can be
+  expressed and whose framing gains visibility · Parent source system: Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row268
+  source_lineage: https://compdemocracy.org/polis/
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

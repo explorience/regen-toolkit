@@ -1,0 +1,18 @@
+title: Regen Network Development, PBC
+type: organization
+org_type: Organization
+url: https://www.regen.network/
+steward: Regen Network / Regen Registry
+notes: >-
+  Why add: Steward and implementation organization. · Status/Caution:
+  Organization claims and registry roles should not be conflated with
+  independent verification · Parent source system: Regen Network / Regen
+  Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row31
+  source_lineage: https://www.regen.network/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

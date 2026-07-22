@@ -1,0 +1,16 @@
+title: A care web removes the need for individual ownership
+type: claim-evidence
+claim: A care web removes the need for individual ownership
+interpretation: Pair reciprocal support with named ownership, backups, limits and escalation.
+uncertainty: >-
+  Distributed support can make responsibility ambiguous and hide who is
+  overloaded.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row316
+  source_lineage: Internal applied review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,16 @@
+title: Verification improves legitimacy without tradeoffs
+type: claim-evidence
+claim: Verification improves legitimacy without tradeoffs
+interpretation: >-
+  Document why verification is needed, what data it uses, appeals and who may be
+  excluded.
+uncertainty: Authorization can introduce exclusion, privacy risk and bureaucratic burden.
+evidence_stance: qualifying
+context: Decidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row144
+  source_lineage: https://decidim.org/modules/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

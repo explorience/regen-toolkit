@@ -1,0 +1,18 @@
+title: María Cano
+type: person
+full_name: María Cano
+affiliation: IALA María Cano
+consent_status: unverified — default non-public (Principle 8)
+url: https://cloc-viacampesina.net/cuatro-escuelas-de-heroinas-cloc
+notes: >-
+  Why add: Adds historical movement lineage without treating the namesake as
+  current governance. · Status/Caution: Historical framing from movement source
+  · Parent source system: IALA María Cano
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row818
+  source_lineage: https://cloc-viacampesina.net/cuatro-escuelas-de-heroinas-cloc
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

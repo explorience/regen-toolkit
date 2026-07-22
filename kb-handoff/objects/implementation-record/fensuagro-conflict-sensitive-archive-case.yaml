@@ -1,0 +1,22 @@
+title: FENSUAGRO Conflict-Sensitive Archive Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Design a bounded method for preserving declarations and rights records without
+  increasing member risk.
+what_returns_to_commons: High-value test for safe knowledge commoning under repression.
+notes: >-
+  What to capture: Threat model; inclusion criteria; redaction; role dating;
+  incident categories; source confidence; access controls; corrections; steward
+  authority. · Status/Caution: High sensitivity; do not create a public incident
+  database without movement authority
+related_source_system: FENSUAGRO Peasant Rights and Human-Rights Archive
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row324
+  source_lineage: https://viacampesina.org/en/tag/fensuagro/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

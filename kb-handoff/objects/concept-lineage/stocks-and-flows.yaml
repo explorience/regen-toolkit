@@ -1,0 +1,22 @@
+title: Stocks and flows
+type: concept-lineage
+short_description: >-
+  Distinguishes accumulations that persist over time from the rates that
+  increase or decrease them.
+toolkit_usage: >-
+  Useful for mapping database growth, maintenance capacity, trust, funding
+  reserves, participation and unresolved review debt.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Useful for mapping database growth, maintenance capacity, trust,
+  funding reserves, participation and unresolved review debt. · Status/Caution:
+  System boundaries and units must be explicit; social stocks are often
+  contested · Parent source system: Systems thinking
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row405
+  source_lineage: https://donellameadows.org/systems-thinking-resources/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

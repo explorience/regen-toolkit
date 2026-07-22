@@ -1,0 +1,22 @@
+title: Tension-Preserving Thinker Graph
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Represent where thinkers and lineages reinforce, challenge, or remain
+  incommensurable rather than synthesizing them into one doctrine.
+potential_uses: Knowledge navigation, review lenses, contributor education, critique routing.
+dependencies: >-
+  Explicit relationship types, source citations, careful summaries, human
+  review.
+tradeoffs: >-
+  May overstate intellectual relationships or manufacture disagreements without
+  direct evidence.
+context: Thinker graph
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row150
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

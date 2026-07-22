@@ -1,0 +1,19 @@
+title: Formal governance documents describe how an institution actually works
+type: claim-evidence
+claim: Formal governance documents describe how an institution actually works
+interpretation: >-
+  Treat formal rules as one evidence layer and investigate rules-in-use through
+  implementation records and participant perspectives.
+uncertainty: >-
+  Formal rules may differ significantly from practiced norms, informal power,
+  enforcement, and exceptions.
+evidence_stance: neutral
+context: IAD / rules-in-use
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row190
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/courses-teaching/teaching-tools/iad-framework/index.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

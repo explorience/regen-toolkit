@@ -1,0 +1,18 @@
+title: MST Education Sector
+type: resource
+resource_type: Movement sector
+url: https://mst.org.br/quem-somos/
+original_source: MST
+notes: >-
+  Why add: Connects territorial education, movement pedagogy and partnerships
+  with public institutions. · Status/Caution: National framing does not
+  establish equal access or quality across territories · Parent source system:
+  MST
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row685
+  source_lineage: https://mst.org.br/quem-somos/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

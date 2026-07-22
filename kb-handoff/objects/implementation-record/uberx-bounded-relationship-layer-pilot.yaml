@@ -1,0 +1,25 @@
+title: UberX Bounded Relationship-Layer Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Converted a developed implementation case into 14 explicit relationship
+  records with provenance, evidence status, time/scope, review status, non-claim
+  boundaries, and public-use status.
+what_returns_to_commons: >-
+  Tests a practical relational architecture without normalizing the entire
+  database or inferring a surveillance-style social graph.
+notes: >-
+  What to capture: Relationship vocabulary; entity typing; source lineage;
+  confidence distinction; review roles; public/internal gating; unresolved legal
+  and affected-party gaps. · Status/Caution: Completed pilot; repeat with a
+  second contrasting case before technical schema lock-in
+related_source_system: vTaiwan / Polis / Taiwan UberX consultation
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row107
+  source_lineage: Internal developed-case and relationship review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

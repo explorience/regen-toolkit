@@ -1,0 +1,19 @@
+title: CLOC Caribbean Region
+type: resource
+resource_type: Regional structure
+url: >-
+  https://cloc-viacampesina.net/declaracion-final-asamblea-cloc-via-campesina-caribe
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Adds an underrepresented island and Caribbean movement lens. ·
+  Status/Caution: Regional declaration; country and language coverage remain
+  incomplete · Parent source system: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row750
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-final-asamblea-cloc-via-campesina-caribe
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

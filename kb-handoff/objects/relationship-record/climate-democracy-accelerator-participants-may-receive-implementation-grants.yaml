@@ -1,0 +1,21 @@
+subject: Climate Democracy Accelerator participants
+predicate: may_receive
+object: Implementation grants
+type: relationship-record
+title: >-
+  Climate Democracy Accelerator participants — may_receive — Implementation
+  grants
+original_relationship: may receive
+evidence: >-
+  Current program states a $10,000 grant for all participants and additional
+  awards for top action plans.
+scope: Funding amounts and terms are cohort-specific and time-sensitive.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row37
+  source_lineage: https://www.peoplepowered.org/climate-democracy-accelerator
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

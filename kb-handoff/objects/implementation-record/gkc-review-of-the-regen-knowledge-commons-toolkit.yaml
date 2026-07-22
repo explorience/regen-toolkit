@@ -1,0 +1,24 @@
+title: GKC Review of the Regen Knowledge Commons Toolkit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply the GKC framework to the Toolkit itself as a shared-resource
+  institution.
+what_returns_to_commons: >-
+  Creates a rigorous self-review rather than treating the Toolkit as inherently
+  a commons.
+notes: >-
+  What to capture: Resources, communities, goals, rules, legal and technical
+  infrastructure, contributor roles, dilemmas, outsiders, outcomes, failures,
+  maintenance and evolution. · Status/Caution: High-priority internal review;
+  should include external and affected-party perspectives
+related_source_system: Workshop on Governing Knowledge Commons + Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row103
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

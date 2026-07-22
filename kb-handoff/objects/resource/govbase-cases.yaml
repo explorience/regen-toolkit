@@ -1,0 +1,17 @@
+title: Govbase Cases
+type: resource
+resource_type: Dataset table
+url: https://govbase.metagov.org/
+original_source: Metagov / Govbase
+notes: >-
+  Why add: Moves the database from tool listings toward implementation and
+  failure memory. · Status/Caution: Crowdsourced cases need source, date,
+  status, and interpretation review · Parent source system: Metagov / Govbase
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row100
+  source_lineage: https://govbase.metagov.org/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

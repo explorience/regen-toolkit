@@ -1,0 +1,24 @@
+title: Affected Outsider and Nonmember Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Explicitly identify groups affected by a commons who are not members or
+  decision makers and examine how they can contest, correct, exit, or gain
+  voice.
+potential_uses: >-
+  Public-use review, ecological and civic projects, data commons, AI systems,
+  local communities.
+dependencies: >-
+  Stakeholder mapping, consent and privacy safeguards, trusted engagement,
+  grievance and correction paths.
+tradeoffs: Can tokenize participation or reveal vulnerable groups if handled poorly.
+context: GKC Research Framework
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row68
+  source_lineage: https://knowledge-commons.net/research-framework/
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

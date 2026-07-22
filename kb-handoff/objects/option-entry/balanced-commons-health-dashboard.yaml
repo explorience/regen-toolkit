@@ -1,0 +1,22 @@
+title: Balanced Commons-Health Dashboard
+type: option-entry
+category: governance
+what_it_is: >-
+  Track maintenance coverage, stale records, review latency, corrections,
+  steward workload, accessibility, affected-party input, source freshness, and
+  reuse without ranking individuals.
+potential_uses: Governance review, funding, maintenance planning, public accountability.
+dependencies: >-
+  Clear definitions, privacy safeguards, qualitative review, anti-gaming
+  controls.
+tradeoffs: Indicators can become targets, surveillance, or administrative burden.
+context: Toolkit governance / maintenance
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row195
+  source_lineage: Internal labor-maintenance review
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,23 @@
+title: Commons Transition Primer as a Public-Safe View
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review how the Primer selects, simplifies, illustrates, and connects concepts
+  and cases from the larger P2P knowledge commons.
+what_returns_to_commons: >-
+  Strong implementation case for creating a narrower public layer over a broad
+  internal resource database.
+notes: >-
+  What to capture: Audience; editorial process; authorship; source links;
+  accessibility; translations; updates; omissions; disagreement; use. ·
+  Status/Caution: Candidate; assess maintenance and present-day use
+related_source_system: Commons Transition Primer
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row134
+  source_lineage: https://primer.commonstransition.org/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,22 @@
+title: Race After Technology Review of One Automated Public System
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply New Jim Code analysis to one current eligibility, risk, identity or
+  recommendation system with public consequences.
+what_returns_to_commons: Connects conceptual critique to an evidence-bearing institutional case.
+notes: >-
+  What to capture: Institutional history, default assumptions, classification,
+  disparate burdens, appeals, procurement, affected-party experience and
+  alternatives. · Status/Caution: Do not apply the label without mechanism and
+  impact evidence
+related_source_system: Ruha Benjamin + selected system
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row185
+  source_lineage: https://www.ruhabenjamin.com/race-after-technology
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

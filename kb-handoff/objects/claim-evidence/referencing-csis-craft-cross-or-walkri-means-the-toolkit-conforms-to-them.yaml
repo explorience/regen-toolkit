@@ -1,0 +1,18 @@
+title: Referencing CSIS, CRAFT, CROSS or WALKRI means the Toolkit conforms to them
+type: claim-evidence
+claim: Referencing CSIS, CRAFT, CROSS or WALKRI means the Toolkit conforms to them
+interpretation: >-
+  Describe standards as review sources or experimental inputs unless an explicit
+  conformance assessment has been completed and independently checked.
+uncertainty: >-
+  A citation, prompt run or partial use does not establish conformance to a
+  specification.
+evidence_stance: qualifying
+context: Durgadas / CSIS lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row213
+  source_lineage: https://github.com/durgadasji/standards-index
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

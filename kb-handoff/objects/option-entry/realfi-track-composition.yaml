@@ -1,0 +1,25 @@
+title: RealFi Track Composition
+type: option-entry
+category: governance
+what_it_is: >-
+  Compose funding systems, financial access, governance, identity, privacy, AI
+  for public use, and climate-commons infrastructure around real-world use
+  constraints.
+potential_uses: >-
+  Local and regional builder programs, civic finance, remittances, shared
+  treasuries, community infrastructure.
+dependencies: >-
+  Local needs assessment, legal and regulatory context, user research, safety
+  and privacy review, maintenance plan.
+tradeoffs: >-
+  Umbrella framing may collapse very different domains and reproduce
+  techno-solutionism.
+context: Funding the Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row55
+  source_lineage: https://www.fundingthecommons.io/builderresidency2025
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

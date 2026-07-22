@@ -1,0 +1,24 @@
+title: Territorial Knowledge and Visibility Gate
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Require community authority and sensitivity review before mapping farms,
+  seeds, territories, schools or locally held ecological knowledge.
+potential_uses: >-
+  Resource maps, ecological case libraries, AI retrieval and public explorer
+  views.
+dependencies: >-
+  Consent, collective rights, location controls, Local Contexts/CARE alignment,
+  correction and removal pathways.
+tradeoffs: >-
+  Can make useful knowledge inaccessible if applied rigidly without
+  community-defined access options.
+context: Agroecology / peasant knowledge systems
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row262
+  source_lineage: Internal synthesis from pluriverse and Indigenous-data reviews
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

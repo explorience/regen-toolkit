@@ -1,24 +1,18 @@
 title: La Vía Campesina TV
 type: resource
+resource_type: Media archive
 url: https://tv.viacampesina.org/
-resource_type: media-archive
-media_form: video archive
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row25
-summary: >-
-  Movement video archive containing documentaries, interviews, mobilizations,
-  training and regional voices.
-original_object_type: Media archive
+original_source: La Vía Campesina
+notes: >-
+  Why add: Adds multilingual audiovisual field memory and people discovery. ·
+  Status/Caution: Archive metadata and translations vary; media visibility is
+  not authority or evidence of representativeness · Parent source system: La Vía
+  Campesina
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row25
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: La Vía Campesina | https://tv.viacampesina.org/
-notes: >-
-  Why add: Adds multilingual audiovisual field memory and people discovery.
-  Status/Caution: Archive metadata and translations vary; media visibility is
-  not authority or evidence of representativeness
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row668
+  source_lineage: https://tv.viacampesina.org/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

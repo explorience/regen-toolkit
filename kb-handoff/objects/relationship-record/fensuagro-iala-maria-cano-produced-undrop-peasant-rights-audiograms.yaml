@@ -1,0 +1,19 @@
+subject: FENSUAGRO / IALA María Cano
+predicate: produced
+object: UNDROP Peasant Rights Audiograms
+type: relationship-record
+title: FENSUAGRO / IALA María Cano — produced — UNDROP Peasant Rights Audiograms
+original_relationship: produced
+evidence: >-
+  CLOC hosts a series prepared by the federation and institute for formation and
+  advocacy.
+scope: Authorship and licensing should be confirmed at item level
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row508
+  source_lineage: https://cloc-viacampesina.net/podcast-derechos-campesinos-ya
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+subject: Organización Boricuá
+predicate: created_by
+object: Agroecología en Puerto Rico Archive
+type: relationship-record
+title: Organización Boricuá — created_by — Agroecología en Puerto Rico Archive
+original_relationship: co-created
+evidence: >-
+  Project page names Organización Boricuá with Juan Manuel Pagán Teitelbaum and
+  Mariolga Reyes Cruz.
+scope: Collaborative authorship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row518
+  source_lineage: https://www.agroecologiapr.org/el_proyecto.htm
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

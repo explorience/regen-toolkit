@@ -1,0 +1,25 @@
+title: Digital Empowerment Foundation Community Network Exchange
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document how community-network practitioners and local voices are convened,
+  trained and represented in regional and global policy spaces.
+what_returns_to_commons: >-
+  Tests whether movement convening redistributes agenda-setting power or mainly
+  amplifies selected intermediaries.
+notes: >-
+  What to capture: Participant selection; funding; accessibility; agenda
+  control; local knowledge return; policy outcomes; continuing relationships;
+  community feedback. · Status/Caution: Candidate; organizer reporting requires
+  participant follow-up
+related_source_system: Digital Empowerment Foundation / APC
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row231
+  source_lineage: >-
+    https://www.apc.org/en/news/seven-projects-proving-community-networks-connect-much-more-devices
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

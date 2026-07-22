@@ -1,0 +1,17 @@
+subject: Cercles.coop
+predicate: built_with
+object: Decidim
+type: relationship-record
+title: Cercles.coop — built_with — Decidim
+original_relationship: built with
+evidence: Metadecidim news describes its relaunch using Decidim.
+scope: Current announcement
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row63
+  source_lineage: https://meta.decidim.org/en/processes/news/f/1719/posts/384
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

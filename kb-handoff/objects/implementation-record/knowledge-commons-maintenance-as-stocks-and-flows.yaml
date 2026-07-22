@@ -1,0 +1,21 @@
+title: Knowledge Commons Maintenance as Stocks and Flows
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Model growth of records, reviews, conflicts and public collections against
+  steward capacity and correction throughput.
+what_returns_to_commons: Could reveal when expansion outpaces review and maintenance capacity.
+notes: >-
+  What to capture: Definitions, counts, inflow/outflow rates, delays,
+  bottlenecks, feedback, burden and qualitative care work. · Status/Caution:
+  Candidate; quantification must not replace qualitative governance
+related_source_system: Regen Knowledge Commons / systems thinking
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row156
+  source_lineage: Internal synthesis from Meadows cluster
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

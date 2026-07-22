@@ -1,0 +1,22 @@
+title: Movement-Linked Builder Space
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Connect technical learning and prototyping spaces to social movements,
+  community priorities, critical pedagogy and long-term stewardship.
+potential_uses: Hackathons, residencies, builder tracks, local nodes and civic-tech programs.
+dependencies: >-
+  Community partners, shared governance, accessible formats, follow-up resources
+  and maintenance ownership.
+tradeoffs: >-
+  Movement association can be symbolic; events can remain extractive or
+  inaccessible.
+context: Design Justice / DiscoTechs
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row169
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/yvwnnz7b
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

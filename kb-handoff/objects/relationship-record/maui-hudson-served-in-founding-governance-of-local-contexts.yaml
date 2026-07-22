@@ -1,0 +1,18 @@
+subject: Maui Hudson
+predicate: served_in_founding_governance_of
+object: Local Contexts
+type: relationship-record
+title: Maui Hudson — served_in_founding_governance_of — Local Contexts
+original_relationship: served in founding governance of
+evidence: Local Contexts governance materials identify Hudson as a founding councilor.
+scope: Governance role should be checked for current status
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row204
+  source_lineage: >-
+    https://localcontexts.org/building-community-into-how-local-contexts-does-its-work-https-localcontexts-org-governance/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

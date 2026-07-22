@@ -1,0 +1,20 @@
+title: Combining research, cases, training and tools creates a complete participatio…
+type: claim-evidence
+claim: >-
+  Combining research, cases, training and tools creates a complete participation
+  system
+interpretation: >-
+  The systems can inform a modular support environment; each deployment still
+  requires local governance and affected-party review.
+uncertainty: >-
+  The six systems cover complementary functions, but composition does not
+  eliminate politics, exclusion, conflict or maintenance burdens.
+evidence_stance: neutral
+context: Batch 1C cross-system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row151
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

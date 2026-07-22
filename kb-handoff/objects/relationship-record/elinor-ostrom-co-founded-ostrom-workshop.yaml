@@ -1,0 +1,17 @@
+subject: Elinor Ostrom
+predicate: co_founded
+object: Ostrom Workshop
+type: relationship-record
+title: Elinor Ostrom — co_founded — Ostrom Workshop
+original_relationship: co-founded
+evidence: Founded with Vincent Ostrom at Indiana University in 1973.
+scope: Foundational institutional relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row92
+  source_lineage: https://ostromworkshop.indiana.edu/about/ostroms-history/index.html
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

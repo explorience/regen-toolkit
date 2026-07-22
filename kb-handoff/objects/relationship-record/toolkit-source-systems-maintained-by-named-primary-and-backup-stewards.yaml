@@ -1,0 +1,16 @@
+subject: Toolkit source systems
+predicate: maintained_by
+object: named primary and backup stewards
+type: relationship-record
+title: Toolkit source systems — maintained_by — named primary and backup stewards
+original_relationship: maintained by
+evidence: Priority source systems need explicit ownership and review cadence.
+scope: Proposed operating relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row234
+  source_lineage: Internal labor-maintenance review
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Global Indigenous Data Alliance (GIDA)
+type: organization
+org_type: Source system / network
+url: https://www.gida-global.org/
+steward: Indigenous data governance cluster
+notes: >-
+  Why add: Primary source system for collective rights, authority, benefit and
+  decision-making in data. · Status/Caution: Indigenous-led network; does not
+  represent every Indigenous nation or community · Parent source system:
+  Indigenous data governance cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row438
+  source_lineage: https://www.gida-global.org/
+original_object_class: Organization / Network
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

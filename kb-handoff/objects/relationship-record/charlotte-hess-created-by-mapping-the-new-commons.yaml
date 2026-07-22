@@ -1,0 +1,16 @@
+subject: Charlotte Hess
+predicate: created_by
+object: Mapping the New Commons
+type: relationship-record
+title: Charlotte Hess — created_by — Mapping the New Commons
+original_relationship: authored
+evidence: Presented through the IASC research ecosystem.
+scope: Publication relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row97
+  source_lineage: https://knowledge-commons.net/resources/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

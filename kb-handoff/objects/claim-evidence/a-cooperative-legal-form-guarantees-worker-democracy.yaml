@@ -1,0 +1,19 @@
+title: A cooperative legal form guarantees worker democracy
+type: claim-evidence
+claim: A cooperative legal form guarantees worker democracy
+interpretation: >-
+  Describe the legal and governance structure, then separately assess actual
+  worker power, participation, labor conditions, and surplus allocation.
+uncertainty: >-
+  Ownership structures can coexist with managerial concentration, unequal
+  participation, exclusion, poor labor conditions, or weak control over
+  technology and capital.
+evidence_stance: qualifying
+context: Platform cooperativism / worker cooperatives
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row271
+  source_lineage: Internal labor-cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

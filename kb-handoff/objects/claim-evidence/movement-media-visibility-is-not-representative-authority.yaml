@@ -1,0 +1,16 @@
+title: Movement media visibility is not representative authority
+type: claim-evidence
+claim: Movement media visibility is not representative authority
+interpretation: Store dated role and exact episode context.
+uncertainty: >-
+  Interviewees and hosts may be contributors or spokespeople without authority
+  to represent whole regions or constituencies.
+evidence_stance: qualifying
+context: Voz Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row448
+  source_lineage: https://cloc-viacampesina.net/nuestros-medios
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

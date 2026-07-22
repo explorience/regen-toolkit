@@ -1,0 +1,19 @@
+subject: COOPAC
+predicate: maintained_by
+object: Nutrilê
+type: relationship-record
+title: COOPAC — maintained_by — Nutrilê
+original_relationship: operates / stewards
+evidence: >-
+  Movement sources present Nutrilê as the cooperative’s goat-milk agroindustry
+  and product identity.
+scope: Legal ownership and governance should be confirmed
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row437
+  source_lineage: >-
+    https://mst.org.br/2025/09/24/assentamento-che-guevara-celebra-a-nutrile-primeira-agroindustria-de-leite-do-nordeste/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,25 +1,18 @@
 title: CROSS — Common Reporting Outcome Standards Schema
 type: resource
+resource_type: Standard / grants obligation architecture
 url: https://github.com/CrossWalkri/CROSS
-resource_type: standard
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row15
-summary: >-
-  Portable grant-accountability standard defining build, change and retroactive
-  obligation modes and a four-gate architecture from entry through continuation.
-original_object_type: Standard / grants obligation architecture
+original_source: Durgadas / CSIS lineage
+notes: >-
+  Why add: High-value bridge to public-goods funding, grantee reporting and
+  implementation memory. · Status/Caution: Using templates or dashboards does
+  not establish fair funding, valid evidence or grantee capacity · Parent source
+  system: Durgadas / CSIS lineage
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row15
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: Durgadas / CSIS lineage | https://github.com/CrossWalkri/CROSS
-notes: >-
-  Why add: High-value bridge to public-goods funding, grantee reporting and
-  implementation memory. Status/Caution: Using templates or dashboards does not
-  establish fair funding, valid evidence or grantee capacity Edge case:
-  Crosswalk marks "Standard / grants obligation architecture" Other/Review
-  (manual); mapped to resource (protocol/standard bucket).
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row378
+  source_lineage: https://github.com/CrossWalkri/CROSS
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

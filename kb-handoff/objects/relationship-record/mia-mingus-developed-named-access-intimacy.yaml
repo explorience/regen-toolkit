@@ -1,0 +1,18 @@
+subject: Mia Mingus
+predicate: developed_named
+object: Access intimacy
+type: relationship-record
+title: Mia Mingus — developed_named — Access intimacy
+original_relationship: developed / named
+evidence: Primary essay naming and developing the concept.
+scope: Preserve authorship and relational context
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row243
+  source_lineage: >-
+    https://leavingevidence.wordpress.com/2011/05/05/access-intimacy-the-missing-link/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

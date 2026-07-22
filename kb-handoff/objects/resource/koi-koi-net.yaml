@@ -1,0 +1,18 @@
+title: KOI / KOI-net
+type: resource
+resource_type: Protocol / knowledge infrastructure
+url: https://metagov.org/projects/koi-pond/project-details
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Direct architectural relevance to federated knowledge commons and
+  interoperability without centralization. · Status/Caution: Protocol
+  descriptions and hypotheses should not be mistaken for broadly validated
+  deployments. · Parent source system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row71
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

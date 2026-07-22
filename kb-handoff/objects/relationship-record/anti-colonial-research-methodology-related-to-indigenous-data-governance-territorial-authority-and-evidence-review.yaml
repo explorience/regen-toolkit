@@ -1,0 +1,19 @@
+subject: Anti-Colonial Research Methodology
+predicate: related_to
+object: Indigenous data governance, territorial authority and evidence review
+type: relationship-record
+title: >-
+  Anti-Colonial Research Methodology — related_to — Indigenous data governance,
+  territorial authority and evidence review
+original_relationship: strengthens
+evidence: CLEAR profile
+scope: Does not replace community authority or consent
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row553
+  source_lineage: https://www.hss.mun.ca/research/showcase/clear/
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

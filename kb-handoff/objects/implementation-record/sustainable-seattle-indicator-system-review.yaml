@@ -1,0 +1,22 @@
+title: Sustainable Seattle Indicator-System Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Reconstruct how a community indicator initiative linked social, mobility, land
+  and ecological signals and how indicator choices shaped interpretation.
+what_returns_to_commons: Concrete indicator-design case connecting community values and feedback.
+notes: >-
+  What to capture: Community selection process, system links, data quality,
+  behavior effects, governance, updates and current applicability. ·
+  Status/Caution: Historical case; use for design learning only
+related_source_system: Donella Meadows indicators lineage
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row158
+  source_lineage: >-
+    https://donellameadows.org/archives/an-instrument-panel-to-help-seattle-fly-sustainably/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

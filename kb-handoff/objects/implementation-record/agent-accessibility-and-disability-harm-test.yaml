@@ -1,0 +1,23 @@
+title: Agent Accessibility and Disability-Harm Test
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Evaluate one agent workflow for output accessibility, disability inference,
+  classification harms, refusal, correction and reviewer burden.
+what_returns_to_commons: >-
+  Connects critical data, design justice and disability justice to agent
+  governance.
+notes: >-
+  What to capture: Prompts, inputs, outputs, formats, logs, inferred attributes,
+  errors, corrections, refusal cases and disabled-user testing. ·
+  Status/Caution: High-priority before deployment
+related_source_system: Toolkit AI / agent layer
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row209
+  source_lineage: Internal disability-access review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

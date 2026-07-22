@@ -1,0 +1,18 @@
+title: Naming care as a value means contributors are supported
+type: claim-evidence
+claim: Naming care as a value means contributors are supported
+interpretation: >-
+  Describe the actual budgets, roles, support pathways, workload limits and
+  repair practices.
+uncertainty: >-
+  Care language can coexist with unpaid labor, overload, poor boundaries and
+  weak accountability.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row315
+  source_lineage: Internal applied review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

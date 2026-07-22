@@ -1,0 +1,19 @@
+title: RealFi infrastructure is more grounded than DeFi
+type: claim-evidence
+claim: RealFi infrastructure is more grounded than DeFi
+interpretation: >-
+  RealFi is an FtC program frame for tools intended to address real-world
+  financial and coordination needs; groundedness must be assessed project by
+  project.
+uncertainty: >-
+  The program framing emphasizes actual needs and friction, but projects still
+  require user, legal, safety, and implementation review.
+evidence_stance: neutral
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row82
+  source_lineage: https://www.fundingthecommons.io/builderresidency2025
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

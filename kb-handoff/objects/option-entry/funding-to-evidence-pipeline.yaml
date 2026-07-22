@@ -13,10 +13,13 @@ dependencies: >-
 tradeoffs: >-
   Can create surveillance or reporting burdens, privilege easily measured work,
   and imply that linked data proves impact.
+context: 'Cross-system: Gitcoin / Giveth / Octant / Artizen + Karma / OSO / Regen'
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row2
+  origin: Canonical_DB.xlsx#Option Candidates!row1
   source_lineage: Internal Batch 1B synthesis
-work_order: wo-e5b7999ca3a5
+high_risk: true
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

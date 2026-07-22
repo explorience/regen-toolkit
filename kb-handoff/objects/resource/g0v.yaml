@@ -1,0 +1,18 @@
+title: g0v
+type: resource
+resource_type: Community / civic-tech lineage
+url: https://g0v.tw/intl/en/
+original_source: vTaiwan / g0v
+notes: >-
+  Why add: Critical upstream community and institutional lineage for vTaiwan and
+  Taiwan civic technology. · Status/Caution: g0v has no single center or
+  representative; do not collapse the community into vTaiwan or government ·
+  Parent source system: vTaiwan / g0v
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row277
+  source_lineage: https://g0v.tw/intl/en/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

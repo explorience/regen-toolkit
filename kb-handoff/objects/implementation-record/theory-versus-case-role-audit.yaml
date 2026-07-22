@@ -1,0 +1,23 @@
+title: Theory-versus-Case Role Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Examine whether North Atlantic institutions provide the main concepts while
+  Global South, Indigenous and community initiatives appear mainly as
+  implementation examples.
+what_returns_to_commons: Tests whether the database reproduces extractive knowledge hierarchies.
+notes: >-
+  What to capture: Who authors concepts, who supplies cases, citation and
+  source-system paths, reviewer authority, language and regional coverage. ·
+  Status/Caution: Candidate; requires regional and community reviewers
+related_source_system: Regen Knowledge Commons thinker graph
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row163
+  source_lineage: Internal bias-review synthesis
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

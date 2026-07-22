@@ -1,0 +1,18 @@
+title: Participatory data stewardship guarantees community control
+type: claim-evidence
+claim: Participatory data stewardship guarantees community control
+interpretation: >-
+  Record actual authority, governance rights, value distribution, exit and
+  enforcement mechanisms.
+uncertainty: >-
+  Participation can be consultative while ownership, legal control,
+  infrastructure and revenue remain elsewhere.
+evidence_stance: qualifying
+context: Aapti Institute
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row349
+  source_lineage: https://aapti.in/fostering-participatory-data-stewardship/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

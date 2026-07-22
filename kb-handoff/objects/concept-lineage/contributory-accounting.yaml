@@ -1,0 +1,23 @@
+title: Contributory accounting
+type: concept-lineage
+short_description: >-
+  Approaches for recognizing and allocating value among contributors to shared
+  resources beyond conventional wage, price, or ownership models.
+toolkit_usage: >-
+  Relevant to contributor recognition, rewards, maintenance, and governance in
+  the Toolkit.
+original_object_type: Concept / value-accounting lens
+notes: >-
+  Why add: Relevant to contributor recognition, rewards, maintenance, and
+  governance in the Toolkit. · Status/Caution: Can create surveillance, metric
+  gaming, and false commensurability · Parent source system: P2P Foundation
+  lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row351
+  source_lineage: https://wiki.p2pfoundation.net/Contributory_Accounting
+original_object_class: Framework / Concept
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

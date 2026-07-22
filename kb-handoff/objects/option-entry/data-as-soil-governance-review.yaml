@@ -1,0 +1,22 @@
+title: Data-as-Soil Governance Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Evaluate data systems by whether they sustain relationships, contextual
+  meaning, community capacity and future reuse rather than maximize extraction.
+potential_uses: >-
+  AI training data, civic data, ecological data, registries and knowledge
+  commons.
+dependencies: >-
+  Operational consent, access, reciprocity, privacy, benefit sharing,
+  stewardship and deletion/correction rights.
+tradeoffs: Metaphor can become rhetorical greenwashing without enforceable governance.
+context: Audrey Tang lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row142
+  source_lineage: https://audreyt.org/ours
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

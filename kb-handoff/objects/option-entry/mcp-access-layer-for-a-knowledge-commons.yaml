@@ -1,0 +1,24 @@
+title: MCP Access Layer for a Knowledge Commons
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Expose reviewed and source-linked knowledge to multiple AI clients through a
+  shared Model Context Protocol layer.
+potential_uses: >-
+  Assistant access, agent workflows, research, contributor support,
+  domain-specific query interfaces.
+dependencies: >-
+  Permissions, source citations, tool boundaries, logging, versioning, context
+  limits, review labels.
+tradeoffs: >-
+  Retrieval can appear authoritative; clients may omit citations or misuse raw
+  and restricted records.
+context: GAIAI / Regen KOI MCP
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row36
+  source_lineage: https://forum.regen.network/t/connecting-to-regen-ai/566
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

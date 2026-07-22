@@ -1,0 +1,25 @@
+title: Women-Led Agroecology School Model
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Combine agroecological practice, political education, peasant feminism, seeds,
+  health, care and continental exchange in a movement-owned school.
+potential_uses: >-
+  Territorial learning hubs, regenerative practice schools and movement
+  knowledge commons.
+dependencies: >-
+  Land and facilities, educators, curriculum governance, participant support,
+  care infrastructure, funding and long-term maintenance.
+tradeoffs: >-
+  Can overload women’s unpaid labor, romanticize peer learning or hide
+  credential and resource inequalities.
+context: ANAMURI / Sembradoras de Esperanza
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row319
+  source_lineage: >-
+    https://viacampesina.org/es/chile-instituto-agroecologico-latinoamericano-para-las-mujeres-del-campo-sembradoras-de-luchas-y-esperanza/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

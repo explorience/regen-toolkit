@@ -1,0 +1,24 @@
+title: Curated Primer Layer over Deep Knowledge Commons
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Create accessible pathways, key concepts, diagrams, case studies, and starter
+  collections over a much larger internal knowledge base.
+potential_uses: >-
+  Public-safe Toolkit views, contributor onboarding, thematic tracks,
+  educational outputs.
+dependencies: >-
+  Editorial governance, source links, review status, maintenance, audience
+  testing, accessible language.
+tradeoffs: >-
+  Simplification can erase disagreement, uncertainty, or marginalized
+  perspectives.
+context: Commons Transition Primer
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row135
+  source_lineage: https://primer.commonstransition.org/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

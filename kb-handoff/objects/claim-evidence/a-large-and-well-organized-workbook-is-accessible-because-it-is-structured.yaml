@@ -1,0 +1,18 @@
+title: A large and well-organized workbook is accessible because it is structured
+type: claim-evidence
+claim: A large and well-organized workbook is accessible because it is structured
+interpretation: >-
+  Describe the workbook as structured; assess accessibility through
+  disabled-user testing and alternate views.
+uncertainty: >-
+  Sheet structure, headers and consistent columns help, but size, density,
+  navigation, language and visual dependence can still exclude users.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row297
+  source_lineage: Internal disability-access review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

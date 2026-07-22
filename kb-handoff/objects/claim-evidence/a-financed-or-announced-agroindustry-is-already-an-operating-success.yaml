@@ -1,0 +1,19 @@
+title: A financed or announced agroindustry is already an operating success
+type: claim-evidence
+claim: A financed or announced agroindustry is already an operating success
+interpretation: >-
+  Describe the project’s current stage and avoid outcome claims until operating
+  evidence exists.
+uncertainty: >-
+  Construction, commissioning, utilization, market demand and maintenance are
+  separate stages.
+evidence_stance: qualifying
+context: COOPAC powder facility
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row431
+  source_lineage: >-
+    https://mst.org.br/2026/06/02/cooperativa-da-reforma-agraria-amplia-agroindustria-e-fortalece-cadeia-do-leite-caprino-no-semiarido-paraibano/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

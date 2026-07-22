@@ -1,0 +1,21 @@
+title: Regen Knowledge Commons Resource Database Creation Process
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  First developed implementation-memory record; helps the workbook remember its
+  own evolution and decisions.
+notes: >-
+  Priority: First developed implementation-memory record; helps the workbook
+  remember its own evolution and decisions. · Next: Use as example; create next
+  record from Source-System Card Deepening Process or OpenCivics Knowledge
+  Commoning Swarm. · Notes: Records how the database became the Working System
+  and what was learned.
+review_needs: Discovery_Pool promotion — prospective candidate
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!IM-0001
+  source_lineage: Internal workbook
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

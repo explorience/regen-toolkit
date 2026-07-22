@@ -1,0 +1,24 @@
+title: Design Principles for Long-Enduring Commons Institutions
+type: concept-lineage
+short_description: >-
+  Observed features associated with some durable common-pool-resource
+  institutions, including boundaries, rule fit, participation, monitoring,
+  sanctions, conflict resolution, recognition, and nested organization.
+toolkit_usage: >-
+  Provides review prompts for governance and maintenance while supporting
+  comparison across cases.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Provides review prompts for governance and maintenance while
+  supporting comparison across cases. · Status/Caution: Do not treat as
+  universal checklist, law, or direct transfer to knowledge commons · Parent
+  source system: Elinor Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row321
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/doc/teaching/applying-iad-to-design-principles.pdf
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

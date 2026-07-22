@@ -1,0 +1,23 @@
+title: Maintenance Readiness Gate
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Require a maintenance plan before treating a project or tool as
+  deployment-ready: owners, funding, documentation, repair, security,
+  succession, deprecation, and user support.
+potential_uses: Toolkit options, technical handoffs, grants, source-system stewardship.
+dependencies: >-
+  Named maintainers, recurring budget, issue process, documentation, succession
+  and shutdown plans.
+tradeoffs: >-
+  May discourage experiments if applied too rigidly; plans can become
+  performative.
+context: The Maintainers
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row186
+  source_lineage: https://themaintainers.org/about/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

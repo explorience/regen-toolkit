@@ -1,0 +1,18 @@
+title: Commons naturally distribute care fairly
+type: claim-evidence
+claim: Commons naturally distribute care fairly
+interpretation: >-
+  Commons may support collective reproduction, but care burdens and authority
+  must be examined directly.
+uncertainty: >-
+  Commons can reproduce patriarchy, exclusion, unpaid labor and unequal access
+  without explicit governance.
+evidence_stance: neutral
+context: Federici / commons cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row309
+  source_lineage: https://thecommoner.org/back-issues/issue-15-winter-2012/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

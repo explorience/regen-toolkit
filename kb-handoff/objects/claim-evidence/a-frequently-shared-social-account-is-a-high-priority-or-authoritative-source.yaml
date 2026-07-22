@@ -1,0 +1,20 @@
+title: A frequently shared social account is a high-priority or authoritative source…
+type: claim-evidence
+claim: >-
+  A frequently shared social account is a high-priority or authoritative source
+  system
+interpretation: >-
+  Use social frequency only as a discovery signal; prioritize records after
+  primary-source resolution and contextual review.
+uncertainty: >-
+  Visibility and repeated sharing reflect network attention, not necessarily
+  relevance, accuracy, representativeness, or field importance.
+evidence_stance: qualifying
+context: Social-signal pilot
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row86
+  source_lineage: Internal pilot synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

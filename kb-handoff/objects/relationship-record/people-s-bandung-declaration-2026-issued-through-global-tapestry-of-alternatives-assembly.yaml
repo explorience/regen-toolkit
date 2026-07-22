@@ -1,0 +1,20 @@
+subject: People's Bandung Declaration 2026
+predicate: issued_through
+object: Global Tapestry of Alternatives Assembly
+type: relationship-record
+title: >-
+  People's Bandung Declaration 2026 — issued_through — Global Tapestry of
+  Alternatives Assembly
+original_relationship: issued through
+evidence: Published as an assembly declaration in multiple languages.
+scope: Collective artifact; implementation not established
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row334
+  source_lineage: >-
+    https://www.globaltapestryofalternatives.org/assembly:2026:indonesia:declaration
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

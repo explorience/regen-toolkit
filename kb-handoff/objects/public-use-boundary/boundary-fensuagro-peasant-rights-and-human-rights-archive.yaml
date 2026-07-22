@@ -1,0 +1,11 @@
+title: Boundary — FENSUAGRO Peasant Rights and Human-Rights Archive
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Do not expose local identities or operational details beyond public sources.
+  Counts of threats or killings are date-bound and require careful attribution.
+  Advocacy archives are not neutral incident databases.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Source-System Cards!row58
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

@@ -1,0 +1,19 @@
+subject: Paid Accessible Contributor Workflow
+predicate: requires
+object: Low-disclosure access process
+type: relationship-record
+title: >-
+  Paid Accessible Contributor Workflow — requires — Low-disclosure access
+  process
+original_relationship: requires
+evidence: Participants choose formats and supports without diagnostic justification.
+scope: Design relationship; test with participant
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row286
+  source_lineage: Internal synthesis — 2026-07-10
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

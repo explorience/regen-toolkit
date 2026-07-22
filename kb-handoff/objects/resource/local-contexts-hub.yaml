@@ -1,0 +1,18 @@
+title: Local Contexts Hub
+type: resource
+resource_type: Tool / platform
+url: https://localcontexts.org/about/about-the-hub/
+original_source: Local Contexts
+notes: >-
+  Why add: Strong comparator for community-controlled metadata, account roles,
+  confirmation, permissions and API integration. · Status/Caution: Hub
+  participation does not replace direct relationship-building or community
+  protocols · Parent source system: Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row444
+  source_lineage: https://localcontexts.org/about/about-the-hub/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

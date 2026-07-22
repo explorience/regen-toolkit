@@ -1,0 +1,17 @@
+subject: Karnataka Rajya Raitha Sangha
+predicate: created_by
+object: Amrita Bhoomi Learning Centre
+type: relationship-record
+title: Karnataka Rajya Raitha Sangha — created_by — Amrita Bhoomi Learning Centre
+original_relationship: created / rooted
+evidence: Movement organizing lineage is described in LVC’s school profile.
+scope: Confirm current governance through direct local sources
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row362
+  source_lineage: >-
+    https://viacampesina.org/en/2023/11/peasant-agroecology-schools-amritabhoomi-learning-centre-and-farmer-to-farmer-learning-exchanges/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

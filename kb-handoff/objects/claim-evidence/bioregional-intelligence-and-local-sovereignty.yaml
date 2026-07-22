@@ -1,0 +1,18 @@
+title: Bioregional intelligence and local sovereignty
+type: claim-evidence
+claim: Bioregional intelligence and local sovereignty
+interpretation: >-
+  Require local governance, consent, benefit sharing, access controls, and the
+  ability to correct, withdraw, or restrict knowledge.
+uncertainty: >-
+  Local data, ecological knowledge, and community narratives may be extracted
+  into global systems despite sovereignty language.
+evidence_stance: qualifying
+context: GAIAI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row58
+  source_lineage: https://github.com/gaiaaiagent/greenpaper
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

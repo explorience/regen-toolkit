@@ -1,0 +1,19 @@
+title: Participation counts demonstrate policy influence
+type: claim-evidence
+claim: Participation counts demonstrate policy influence
+interpretation: >-
+  Connect participation metrics to decision rules, demographic and access
+  context, accepted proposals, implementation tracking, and participant
+  feedback.
+uncertainty: >-
+  Registrations, proposals, votes, meetings, and page views measure activity,
+  not whose input shaped decisions or whether results were implemented.
+evidence_stance: qualifying
+context: Decidim implementations
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row49
+  source_lineage: https://docs.decidim.org/en/develop/whitepaper/what-is-decidim.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

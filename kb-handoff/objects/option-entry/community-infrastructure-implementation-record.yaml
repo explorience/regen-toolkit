@@ -1,0 +1,25 @@
+title: Community Infrastructure Implementation Record
+type: option-entry
+category: governance
+what_it_is: >-
+  Document one community network from need and organizing through governance,
+  licensing, financing, technical deployment, maintenance, livelihoods, policy
+  and community outcomes.
+potential_uses: >-
+  Implementation memory, public-interest infrastructure, funder learning and
+  local-node support.
+dependencies: >-
+  Community consent, direct participant perspectives, costs, governance records,
+  technical data, maintenance history and outcome evidence.
+tradeoffs: >-
+  High risk of extractive storytelling or attributing community outcomes to
+  external support organizations.
+context: APC community networks / Zenzeleni / DEF
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row230
+  source_lineage: https://zenzeleni.net/our-model/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

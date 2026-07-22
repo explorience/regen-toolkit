@@ -1,0 +1,19 @@
+subject: Commons of reproduction
+predicate: related_to
+object: Commons governance and everyday life-sustaining labor
+type: relationship-record
+title: >-
+  Commons of reproduction — related_to — Commons governance and everyday
+  life-sustaining labor
+original_relationship: connects
+evidence: Federici’s commons analysis links institutions to material reproduction.
+scope: Conceptual relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row274
+  source_lineage: >-
+    https://www.taylorfrancis.com/chapters/edit/10.4324/9781315746890-11/crisis-commons-silvia-federici
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

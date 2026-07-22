@@ -1,0 +1,25 @@
+title: CARE-Governed Record Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Review records involving Indigenous Peoples, lands, cultures, knowledge or
+  data through Collective Benefit, Authority to Control, Responsibility and
+  Ethics.
+potential_uses: >-
+  Public-use review, ecological data, AI ingestion, research, registries,
+  collections and implementation memory.
+dependencies: >-
+  Indigenous-led reviewers, community-specific authority, provenance, benefit
+  analysis, permissions, correction and withdrawal pathways.
+tradeoffs: >-
+  Can become performative or checkbox compliance if communities lack decision
+  power, compensation or enforcement.
+context: GIDA / CARE Principles
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row171
+  source_lineage: https://www.gida-global.org/careprinciples
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

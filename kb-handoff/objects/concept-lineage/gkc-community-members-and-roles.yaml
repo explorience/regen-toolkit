@@ -1,0 +1,22 @@
+title: GKC Community Members and Roles
+type: concept-lineage
+short_description: >-
+  Research cluster examining members, roles, degrees of openness, nonmembers,
+  affected outsiders, and the distribution of participation and authority.
+toolkit_usage: >-
+  Useful for contributor, steward, reviewer, affected-party, and public-user
+  distinctions.
+original_object_type: Framework component
+notes: >-
+  Why add: Useful for contributor, steward, reviewer, affected-party, and
+  public-user distinctions. · Status/Caution: Formal membership may not capture
+  informal labor, exclusion, or affected communities. · Parent source system:
+  GKC Research Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row197
+  source_lineage: https://knowledge-commons.net/research-framework/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

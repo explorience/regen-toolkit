@@ -1,0 +1,17 @@
+subject: IARAA
+predicate: created_by
+object: World March of Women
+type: relationship-record
+title: IARAA — created_by — World March of Women
+original_relationship: co-developed by
+evidence: Named feminist movement co-developer and knowledge partner.
+scope: Equal decision rights should not be inferred
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row414
+  source_lineage: >-
+    https://mst.org.br/2026/05/21/iaraa-uma-ia-para-socializar-os-saberes-do-campo/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

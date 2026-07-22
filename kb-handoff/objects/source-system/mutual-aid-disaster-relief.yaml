@@ -9,13 +9,18 @@ what_it_curates: >-
 why_it_matters: >-
   Grassroots disaster-relief network grounded in solidarity, autonomous direct
   action, horizontal organizing and community-led response.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row26
-  source_lineage: https://mutualaiddisasterrelief.org/
 caution: >-
   Mutual aid should not be romanticized as a substitute for public
   responsibility, durable funding, safety, or accountable institutions.
+extraction_status: >-
+  Solidarity-not-charity framing, community-led crisis response, facilitation
+  practices, and implementation lessons from grassroots relief.
+notes: 'Role: Care, mutual-aid and crisis-response source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row25
+  source_lineage: https://mutualaiddisasterrelief.org/
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

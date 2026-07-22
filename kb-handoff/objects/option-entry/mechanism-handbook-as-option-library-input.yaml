@@ -1,0 +1,18 @@
+title: Mechanism Handbook as Option-Library Input
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Use mechanism handbooks as source material for comparison, not authoritative
+  recommendations.
+potential_uses: Populate Option Library tradeoffs, prerequisites, and examples.
+dependencies: Deduplication against Gitcoin, human review, version tracking.
+tradeoffs: Duplication, source flattening, and treating authored guidance as neutral.
+context: Allo.Capital
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row6
+  source_lineage: https://www.allo.capital/resources
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

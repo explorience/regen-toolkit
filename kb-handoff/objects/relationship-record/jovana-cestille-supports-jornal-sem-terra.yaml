@@ -1,0 +1,17 @@
+subject: Jovana Cestille
+predicate: supports
+object: Jornal Sem Terra
+type: relationship-record
+title: Jovana Cestille — supports — Jornal Sem Terra
+original_relationship: supports / interprets
+evidence: Public interview addresses the newspaper’s movement-education and memory role.
+scope: Exact editorial remit unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row455
+  source_lineage: >-
+    https://mst.org.br/2025/09/05/rompendo-as-cercas-da-comunicacao-jovana-cestille-fala-sobre-os-44-anos-do-jornal-sem-terra/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

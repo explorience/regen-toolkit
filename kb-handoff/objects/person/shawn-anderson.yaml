@@ -1,0 +1,19 @@
+title: Shawn Anderson
+type: person
+full_name: Shawn Anderson
+affiliation: GAIAI / Regen AI
+consent_status: unverified — default non-public (Principle 8)
+url: https://forum.regen.network/u/ygg_anderson/summary
+notes: >-
+  Why add: Useful steward lead connecting technical infrastructure,
+  documentation, and public field memory. · Status/Caution: Inclusion is not
+  endorsement; role, current responsibilities, and preferred public description
+  should be confirmed · Parent source system: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row123
+  source_lineage: https://forum.regen.network/u/ygg_anderson/summary
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

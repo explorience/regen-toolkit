@@ -1,0 +1,20 @@
+title: IALA Participatory Action Research Exchange
+type: resource
+resource_type: Learning / research process
+url: >-
+  https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+original_source: CLOC–La Vía Campesina / IALA network
+notes: >-
+  Why add: Research-governance option lead · Status/Caution: Current · Parent
+  source system: CLOC–La Vía Campesina / IALA network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row781
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+original_object_class: Method / Practice
+normalization_flag: REPAIR-NO-781
+review_needs: 'Matty dup-flag REPAIR-NO-781: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

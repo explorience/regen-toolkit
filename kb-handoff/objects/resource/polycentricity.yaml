@@ -1,0 +1,18 @@
+title: Polycentricity
+type: resource
+resource_type: Governance game / coordination tool
+url: https://metagov.org/projects/polycentricity
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Practical option for governance design workshops and cross-group
+  agreement exploration. · Status/Caution: Pilots are contextual experiments;
+  game agreements are not binding governance unless adopted through real
+  authority. · Parent source system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row73
+  source_lineage: https://metagov.org/projects/polycentricity
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

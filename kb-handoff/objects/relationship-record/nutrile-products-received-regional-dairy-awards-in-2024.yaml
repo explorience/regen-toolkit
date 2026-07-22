@@ -1,0 +1,20 @@
+subject: Nutrilê products
+predicate: received
+object: Regional dairy awards in 2024
+type: relationship-record
+title: Nutrilê products — received — Regional dairy awards in 2024
+original_relationship: received
+evidence: >-
+  MST reports awards in three categories at the XVIII Encontro Nordestino do
+  Setor de Leite e Derivados.
+scope: Product-recognition relationship only
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row444
+  source_lineage: >-
+    https://mst.org.br/2024/09/16/agroindustria-nutrile-do-mst-da-paraiba-conquista-tres-premios-no-xviii-enel/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

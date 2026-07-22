@@ -1,0 +1,25 @@
+title: Contributory Recognition System
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Recognize diverse forms of contribution to shared resources without reducing
+  participation to formal employment or token ownership.
+potential_uses: >-
+  Knowledge-commons maintenance, reviewer recognition, community funding,
+  cooperative work.
+dependencies: >-
+  Consent, transparent criteria, qualitative review, appeal, anti-gaming
+  safeguards, care-work recognition.
+tradeoffs: >-
+  Metricization can intensify surveillance, inequality, and unpaid labor
+  expectations.
+context: P2P Foundation lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row134
+  source_lineage: https://wiki.p2pfoundation.net/Contributory_Accounting
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

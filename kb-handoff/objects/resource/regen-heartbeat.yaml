@@ -1,0 +1,18 @@
+title: Regen Heartbeat
+type: resource
+resource_type: Publication / digest system
+url: https://forum.regen.network/t/automated-regen-digest-platform/587
+original_source: GAIAI / Regen AI
+notes: >-
+  Why add: Concrete field-memory and automated curation implementation with a
+  public archive and teaching repository. · Status/Caution: Automated selection
+  and synthesis can omit, distort, or over-weight sources; editorial and
+  correction paths are needed · Parent source system: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row119
+  source_lineage: https://forum.regen.network/t/automated-regen-digest-platform/587
+original_object_class: Publication / Media
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

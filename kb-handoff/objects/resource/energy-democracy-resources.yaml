@@ -1,0 +1,19 @@
+title: Energy Democracy Resources
+type: resource
+resource_type: Resource Collection
+url: https://energydemocracy.us/resources/
+original_source: Energy Democracy Project
+notes: >-
+  Why add: Separate policy proposals from enacted and evaluated programs ·
+  Status/Caution: Advocacy and practice collection · Parent source system:
+  Energy Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row857
+  source_lineage: https://energydemocracy.us/resources/
+original_object_class: Source System / Collection
+normalization_flag: REPAIR-NO-857
+review_needs: 'Matty dup-flag REPAIR-NO-857: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

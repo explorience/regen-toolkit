@@ -1,0 +1,21 @@
+title: Territorial-Authority-First Knowledge Workflow
+type: option-entry
+category: governance
+what_it_is: >-
+  Require territorial authority, consent and customary governance review before
+  representing Indigenous governance knowledge
+potential_uses: Governance / Structural Integrity
+dependencies: IWGIA territorial governance
+tradeoffs: >-
+  Prevents support organizations or public documents from displacing Indigenous
+  authority
+context: Governance / consent option
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row339
+  source_lineage: https://www.iwgia.org/en/
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

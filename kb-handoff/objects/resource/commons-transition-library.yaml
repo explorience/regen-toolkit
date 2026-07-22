@@ -1,0 +1,17 @@
+title: Commons Transition Library
+type: resource
+resource_type: Source-system branch
+url: https://primer.commonstransition.org/3-library/
+original_source: Commons Transition Primer
+notes: >-
+  Why add: Useful source-system branch for future publication and implementation
+  extraction. · Status/Caution: Curated by project authors; selection is not
+  comprehensive or neutral · Parent source system: Commons Transition Primer
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row352
+  source_lineage: https://primer.commonstransition.org/3-library/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

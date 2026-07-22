@@ -1,0 +1,18 @@
+title: Payment makes a contribution process non-extractive
+type: claim-evidence
+claim: Payment makes a contribution process non-extractive
+interpretation: >-
+  Assess compensation together with workload, consent, authority, privacy,
+  maintenance and remediation.
+uncertainty: >-
+  Pay can coexist with excessive scope, coercive publication, unsafe data
+  collection or symbolic authority.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row324
+  source_lineage: Internal labor/care synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

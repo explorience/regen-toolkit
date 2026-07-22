@@ -1,0 +1,20 @@
+subject: APC community networks programme
+predicate: supports
+object: Community-centred connectivity initiatives
+type: relationship-record
+title: >-
+  APC community networks programme — supports — Community-centred connectivity
+  initiatives
+original_relationship: supports / documents
+evidence: >-
+  Learning grants, publications, capacity building and policy work support
+  community-network ecosystems.
+scope: Programme relationship; local governance remains distinct
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row292
+  source_lineage: https://www.apc.org/en/community-networks-learning-grant-initiatives
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

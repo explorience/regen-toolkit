@@ -1,0 +1,20 @@
+title: A successful small merge pilot proves the full database can be merged automat…
+type: claim-evidence
+claim: >-
+  A successful small merge pilot proves the full database can be merged
+  automatically
+interpretation: >-
+  Treat the pilot as validation of a method, not proof of database-wide
+  automation readiness.
+uncertainty: >-
+  The pilot involved a bounded cluster and still required multiple reviewer
+  roles and unresolved decisions.
+evidence_stance: qualifying
+context: GAIAI merge-pilot review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row182
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

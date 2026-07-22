@@ -1,0 +1,18 @@
+title: A public mutual-aid directory verifies listed groups
+type: claim-evidence
+claim: A public mutual-aid directory verifies listed groups
+interpretation: >-
+  Date records, avoid sensitive aggregation and confirm active status before
+  referral.
+uncertainty: >-
+  Networks can change rapidly and public listings may be stale, incomplete or
+  unsafe.
+evidence_stance: qualifying
+context: Mutual aid resource systems
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row494
+  source_lineage: https://mutualaiddisasterrelief.org/resources/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: Plurality Institute
+type: organization
+org_type: Source system / research network
+url: https://www.plurality.institute/
+steward: Social-signal governance cluster
+notes: >-
+  Why add: The original workbook had Plurality Institute as a thin
+  organization/standards lead; this resolves it to its primary source and
+  clearer role. · Status/Caution: Primary-source resolved; inclusion is not
+  endorsement · Parent source system: Social-signal governance cluster
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row181
+  source_lineage: https://www.plurality.institute/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

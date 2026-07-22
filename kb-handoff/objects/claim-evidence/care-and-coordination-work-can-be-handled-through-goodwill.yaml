@@ -1,0 +1,19 @@
+title: Care and coordination work can be handled through goodwill
+type: claim-evidence
+claim: Care and coordination work can be handled through goodwill
+interpretation: >-
+  Name care and coordination roles, support them materially, and avoid
+  concentrating them invisibly in a few people.
+uncertainty: >-
+  Onboarding, facilitation, conflict mediation, accessibility support, and
+  relationship maintenance require time, skill, boundaries, and often
+  compensation.
+evidence_stance: qualifying
+context: Toolkit community operations
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row286
+  source_lineage: Internal labor-maintenance review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

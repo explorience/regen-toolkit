@@ -1,0 +1,18 @@
+subject: Cooperative Growth Ecosystem
+predicate: created_by
+object: Democracy at Work Institute and Project Equity
+type: relationship-record
+title: >-
+  Cooperative Growth Ecosystem — created_by — Democracy at Work Institute and
+  Project Equity
+original_relationship: co-authored by
+evidence: DAWI identifies the report as co-authored with Project Equity.
+scope: Publication relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row227
+  source_lineage: https://institute.coop/topics/growth
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -12,10 +12,12 @@ dependencies: >-
   Content model, editorial workflow, accessibility standards, version
   synchronization.
 tradeoffs: Increases maintenance burden and can create inconsistent representations.
+context: Toolkit data model
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row11
+  origin: Canonical_DB.xlsx#Option Candidates!row208
   source_lineage: Internal disability-access review
-work_order: wo-e5b7999ca3a5
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

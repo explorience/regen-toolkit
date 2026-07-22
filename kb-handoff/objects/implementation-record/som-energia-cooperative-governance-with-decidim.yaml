@@ -1,0 +1,21 @@
+title: Som Energia Cooperative Governance with Decidim
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace assembly voting and selected participatory processes in a large energy
+  cooperative.
+what_returns_to_commons: Tests transfer from municipal participation to member-owned governance.
+notes: >-
+  What to capture: Eligibility, online/offline access, proposals, voting,
+  deliberation, authority, implementation and feedback. · Status/Caution: Use
+  Som Energia primary records
+related_source_system: Decidim / Som Energia
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row95
+  source_lineage: https://decidim.org/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

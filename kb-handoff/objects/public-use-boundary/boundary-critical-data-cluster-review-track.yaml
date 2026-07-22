@@ -1,0 +1,10 @@
+title: Boundary — Critical Data Cluster Review Track
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  A composite track may flatten feminist, Black, Indigenous and
+  movement-specific lineages into generic responsible AI.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Option Candidates!row184
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

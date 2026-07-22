@@ -1,0 +1,20 @@
+subject: Global Tapestry of Alternatives
+predicate: related_to
+object: Autonomous networks of alternatives
+type: relationship-record
+title: >-
+  Global Tapestry of Alternatives — related_to — Autonomous networks of
+  alternatives
+original_relationship: connects and nurtures
+evidence: >-
+  GTA describes itself as a process creating solidarity, learning and
+  collaboration among existing networks.
+scope: Do not model as ownership or representation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row335
+  source_lineage: https://globaltapestryofalternatives.org/introduction
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,25 @@
+title: Rights-to-Implementation Crosswalk
+type: option-entry
+category: governance
+what_it_is: >-
+  Link rights articles to domestic laws, policies, institutions, cases, movement
+  campaigns and observed implementation gaps.
+potential_uses: >-
+  Rights-based project review, land and food-system tracking, policy
+  implementation memory.
+dependencies: >-
+  Legal expertise, country context, movement review, dated evidence, remedy and
+  enforcement information.
+tradeoffs: >-
+  Declaration language may be mistaken for enforceable rights or implementation
+  success.
+context: UNDROP / La Vía Campesina
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row266
+  source_lineage: >-
+    https://viacampesina.org/en/2025/11/building-a-future-with-rights-and-land-the-path-to-cooling-the-planet-with-agroecology/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

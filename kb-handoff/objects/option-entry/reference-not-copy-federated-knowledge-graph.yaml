@@ -1,0 +1,24 @@
+title: Reference-Not-Copy Federated Knowledge Graph
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Use stable identifiers and metadata to reference knowledge objects in their
+  original source systems rather than centralizing copies.
+potential_uses: >-
+  Federated knowledge commons, provenance preservation, correction flows,
+  source-system reciprocity.
+dependencies: >-
+  Identifier standards, resolvable sources, permissions, metadata governance,
+  local stewardship.
+tradeoffs: >-
+  Link rot, permission drift, metadata inconsistency, source deletion, and false
+  assumptions that reference equals review.
+context: Metagov / KOI
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row28
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

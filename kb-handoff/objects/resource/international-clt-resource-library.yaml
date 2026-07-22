@@ -1,0 +1,19 @@
+title: International CLT Resource Library
+type: resource
+resource_type: Resource Collection
+url: https://www.cltweb.org/resources/
+original_source: International Center for Community Land Trusts
+notes: >-
+  Why add: Case claims need local verification and resident perspectives ·
+  Status/Caution: Strong discovery collection · Parent source system:
+  International Center for Community Land Trusts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row854
+  source_lineage: https://www.cltweb.org/resources/
+original_object_class: Source System / Collection
+normalization_flag: REPAIR-NO-854
+review_needs: 'Matty dup-flag REPAIR-NO-854: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

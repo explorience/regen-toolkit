@@ -1,0 +1,18 @@
+title: ANAMURI Youth Front
+type: organization
+org_type: Constituency / youth network
+url: https://anamuri.cl/jovenes-de-anamuri/
+steward: ANAMURI
+notes: >-
+  Why add: Youth authority and continuity review · Status/Caution: Current ·
+  Parent source system: ANAMURI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row778
+  source_lineage: https://anamuri.cl/jovenes-de-anamuri/
+original_object_class: Organization / Network
+normalization_flag: REPAIR-NO-778
+review_needs: 'Matty dup-flag REPAIR-NO-778: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

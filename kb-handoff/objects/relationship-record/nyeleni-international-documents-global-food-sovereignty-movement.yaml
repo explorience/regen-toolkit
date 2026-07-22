@@ -1,0 +1,18 @@
+subject: Nyéléni International
+predicate: documents
+object: Global food-sovereignty movement
+type: relationship-record
+title: Nyéléni International — documents — Global food-sovereignty movement
+original_relationship: documents / convenes
+evidence: >-
+  Forums, newsletters, declarations and preparatory processes across movements
+  and constituencies.
+scope: Network relationship; participating movements remain autonomous
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row350
+  source_lineage: https://nyeleni.org/en/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

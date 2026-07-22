@@ -1,0 +1,24 @@
+title: Original and Continuation Workbook Merge Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Merge one bounded source-system cluster using canonical IDs, preserved source
+  rows, duplicate decisions, preferred records, conflict states, licenses, and
+  review statuses.
+what_returns_to_commons: Tests the final consolidation method before applying it to thousands of rows.
+notes: >-
+  What to capture: Source workbook/sheet/row, canonical ID, aliases, duplicate
+  decision, preferred record rationale, source URLs, conflicts, license,
+  sensitivity, AI assistance, reviewer and version history. · Status/Caution:
+  NEXT implementation candidate; choose a cluster with known overlap such as
+  GAIAI/Regen AI or Metagov
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row114
+  source_lineage: Internal merge-readiness design
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

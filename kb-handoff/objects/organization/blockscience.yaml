@@ -1,0 +1,17 @@
+title: BlockScience
+type: organization
+org_type: Organization / technical partner
+url: https://metagov.org/projects/koi-pond/project-details
+steward: KOI Pond
+notes: >-
+  Why add: Important implementation and stewardship relationship behind KOI. ·
+  Status/Caution: Represent roles precisely; partnership is not blanket
+  endorsement · Parent source system: KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row96
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

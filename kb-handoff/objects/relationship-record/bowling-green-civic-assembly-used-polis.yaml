@@ -1,0 +1,17 @@
+subject: Bowling Green Civic Assembly
+predicate: used
+object: Polis
+type: relationship-record
+title: Bowling Green Civic Assembly — used — Polis
+original_relationship: used
+evidence: Case page documents use before the 2018 town hall.
+scope: Implementation relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row48
+  source_lineage: https://compdemocracy.org/case-studies/2018-kentucky/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

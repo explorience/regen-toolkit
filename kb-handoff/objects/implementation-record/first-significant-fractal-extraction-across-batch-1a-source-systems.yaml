@@ -1,0 +1,25 @@
+title: First Significant Fractal Extraction Across Batch 1A Source Systems
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  The original and continuation workbooks were reviewed as one future merged
+  database; four Batch 1A systems were selectively deepened without recreating
+  their source-system cards.
+what_returns_to_commons: >-
+  Provides implementation memory for how to expand a large resource commons
+  fractally while preserving lineage and avoiding summary-card repetition.
+notes: >-
+  What to capture: Objects added; duplicate checks; source-quality cautions;
+  missing primary records; relationship gaps; sequencing corrections; what was
+  deliberately not duplicated. · Status/Caution: Milestone record; counts and
+  merge decisions should be reconfirmed during final consolidation
+related_source_system: GAIAI / Regen Commons / OpenCivics / Funding the Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row55
+  source_lineage: Internal combined-workbook review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

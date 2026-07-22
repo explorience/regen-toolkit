@@ -1,0 +1,24 @@
+title: Regional Digital Rights Assembly Knowledge Return
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Assess whether a regional convening produces accessible resources, sustained
+  networks, shared infrastructure and practical follow-up.
+what_returns_to_commons: >-
+  Tests whether convening infrastructure supports movement sustainability rather
+  than episodic visibility.
+notes: >-
+  What to capture: Participants, selection, access support, sessions, outputs,
+  languages, safety, collaborations, funding, later activity and gaps. ·
+  Status/Caution: Candidate; participant perspectives and post-event outcomes
+  required
+related_source_system: EngageMedia
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row245
+  source_lineage: https://engagemedia.org/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

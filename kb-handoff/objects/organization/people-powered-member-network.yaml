@@ -1,0 +1,18 @@
+title: People Powered Member Network
+type: organization
+org_type: Network / practitioner commons
+url: https://www.peoplepowered.org/about/members
+steward: People Powered
+notes: >-
+  Why add: Core social and practitioner infrastructure behind the resource,
+  mentorship, training, and governance model. · Status/Caution: Current site
+  reports more than 175 organizational and 125 individual members in over 55
+  countries; counts are time-sensitive. · Parent source system: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row240
+  source_lineage: https://www.peoplepowered.org/about/members
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

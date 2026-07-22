@@ -1,0 +1,23 @@
+title: Canonical Identity and Alias Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Resolve one high-risk naming cluster such as GAIAI / Gaia AI / Regen AI or
+  Decidim / Metadecidim without erasing distinct entities and roles.
+what_returns_to_commons: >-
+  Tests whether the identity model can distinguish aliases, versions, projects,
+  and related organizations.
+notes: >-
+  What to capture: Names, legal/organizational identities, projects, URLs,
+  repositories, dates, parent-child relationships, source rows and reviewer
+  decisions. · Status/Caution: Candidate; requires domain reviewer
+related_source_system: Merge and governance readiness
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row115
+  source_lineage: Internal merge-readiness design
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

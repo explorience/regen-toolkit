@@ -1,0 +1,20 @@
+subject: GKC Research Framework
+predicate: related_to
+object: Elinor Ostrom’s institutional-analysis lineage
+type: relationship-record
+title: >-
+  GKC Research Framework — related_to — Elinor Ostrom’s institutional-analysis
+  lineage
+original_relationship: adapted from / related to
+evidence: >-
+  GKC borrows stylistically from IAD and comparative institutional analysis
+  while developing distinct foundations for knowledge and information.
+scope: Do not describe GKC as simply IAD for knowledge.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row12
+  source_lineage: https://knowledge-commons.net/about-knowledge-commons-research/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

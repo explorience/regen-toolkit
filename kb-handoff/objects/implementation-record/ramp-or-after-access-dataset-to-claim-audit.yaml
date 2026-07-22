@@ -1,0 +1,22 @@
+title: RAMP or After Access Dataset-to-Claim Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one widely used digital-access claim and trace it to dataset fields,
+  sampling, definitions and limitations.
+what_returns_to_commons: Strengthens the Toolkit's evidence and indicator discipline.
+notes: >-
+  What to capture: Indicator definition, country, time period, method, missing
+  groups, uncertainty, downstream reuse and public interpretation. ·
+  Status/Caution: Candidate; requires dataset documentation and statistical
+  review
+related_source_system: Research ICT Africa
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row242
+  source_lineage: https://researchictafrica.net/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

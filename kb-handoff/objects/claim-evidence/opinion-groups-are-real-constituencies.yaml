@@ -1,0 +1,18 @@
+title: Opinion groups are real constituencies
+type: claim-evidence
+claim: Opinion groups are real constituencies
+interpretation: >-
+  Treat groups as analytical patterns within a specific conversation, not fixed
+  identities, communities, or political blocs.
+uncertainty: >-
+  Clusters are generated from voting patterns and may change as participation or
+  statements change.
+evidence_stance: qualifying
+context: Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row130
+  source_lineage: https://compdemocracy.org/polis/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

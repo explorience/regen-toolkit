@@ -1,18 +1,19 @@
 title: Community-centered alternatives are inherently inclusive
 type: claim-evidence
 claim: Community-centered alternatives are inherently inclusive
-caution: >-
-  Communities contain differences and power inequalities involving caste,
-  gender, class, disability, age, ethnicity and other structures.
-safe_working_language: >-
+interpretation: >-
   Review who defines the community, who participates, who benefits, who bears
   burdens and who can dissent or leave.
-claim_kind: Caution
+uncertainty: >-
+  Communities contain differences and power inequalities involving caste,
+  gender, class, disability, age, ethnicity and other structures.
+evidence_stance: qualifying
+context: Vikalp Sangam / grounded alternatives
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Claims and Cautions!row13
+  origin: Canonical_DB.xlsx#Claims and Cautions!row364
   source_lineage: >-
     https://vikalpsangam.org/wp-content/uploads/2024/10/Alternatives-Framework-7th-Avatar-digital-v1.4.pdf
-work_order: wo-b0da4f8a6f05
+work_order: wo-8c810a6700ec
 source_lineage: claims-cautions.csv

@@ -1,0 +1,18 @@
+title: Accessibility can be handled as a late compliance check
+type: claim-evidence
+claim: Accessibility can be handled as a late compliance check
+interpretation: >-
+  Integrate accessibility and disability-led review throughout design, not only
+  before publication.
+uncertainty: >-
+  Access needs shape problem framing, participation, interfaces, timing,
+  communication and governance from the beginning.
+evidence_stance: qualifying
+context: Design Justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row251
+  source_lineage: https://designjustice.mitpress.mit.edu/pub/cfohnud7
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

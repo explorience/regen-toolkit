@@ -1,0 +1,25 @@
+title: ToGather Project as Commons Memory Infrastructure
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track whether the project converts community experience into accessible,
+  consent-aware, maintained shared knowledge.
+what_returns_to_commons: >-
+  Directly relevant to the Regen Knowledge Commons Toolkit’s
+  implementation-memory and source-system strategy.
+notes: >-
+  What to capture: Contributor model, communities represented, permissions, data
+  structure, editorial review, usage, corrections, governance, maintenance, and
+  learning returned to contributors. · Status/Caution: Candidate; project page
+  alone is insufficient
+related_source_system: Artizen / ToGather
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row7
+  source_lineage: >-
+    https://artizen.fund/index/p/togather-project-documenting-living-systems?scroll=no&season=6
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

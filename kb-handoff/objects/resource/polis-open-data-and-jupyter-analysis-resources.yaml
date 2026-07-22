@@ -1,0 +1,18 @@
+title: Polis open data and Jupyter analysis resources
+type: resource
+resource_type: Data / research infrastructure
+url: https://compdemocracy.org/
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Relevant to reproducibility, research reuse, and evidence-bearing
+  implementation memory. · Status/Caution: Not all deployments publish data;
+  open data may create privacy, re-identification, and context-loss risks ·
+  Parent source system: Computational Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row273
+  source_lineage: https://compdemocracy.org/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

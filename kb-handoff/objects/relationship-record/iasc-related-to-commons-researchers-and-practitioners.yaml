@@ -1,0 +1,16 @@
+subject: IASC
+predicate: related_to
+object: Commons researchers and practitioners
+type: relationship-record
+title: IASC — related_to — Commons researchers and practitioners
+original_relationship: connects
+evidence: International association and conference network.
+scope: Broad network relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row103
+  source_lineage: https://iasc-commons.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

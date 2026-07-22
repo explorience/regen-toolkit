@@ -1,0 +1,17 @@
+title: CoopCycle platform and apps
+type: resource
+resource_type: Software / infrastructure
+url: https://docs.coopcycle.org/en/
+original_source: CoopCycle
+notes: >-
+  Why add: Concrete cooperative software-maintenance and federation case. ·
+  Status/Caution: Open access is restricted by cooperative-purpose governance;
+  licensing should be reviewed · Parent source system: CoopCycle
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row503
+  source_lineage: https://docs.coopcycle.org/en/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

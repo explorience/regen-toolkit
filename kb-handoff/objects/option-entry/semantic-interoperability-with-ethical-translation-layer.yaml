@@ -1,0 +1,25 @@
+title: Semantic Interoperability with Ethical Translation Layer
+type: option-entry
+category: governance
+what_it_is: >-
+  Translate schemas and claims across ecosystems while explicitly preserving
+  lineage, governance, and purpose constraints.
+potential_uses: >-
+  Knowledge graphs, cross-chain public goods, ecological claims, agent-readable
+  registries.
+dependencies: >-
+  Versioned schemas, provenance, governance agreements, test cases, correction
+  paths, domain review.
+tradeoffs: >-
+  Technical compatibility may be mistaken for semantic or ethical equivalence;
+  source meaning can be flattened.
+context: Regen Commons / Regen Network
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row44
+  source_lineage: >-
+    https://forum.regen.network/t/extending-regen-s-semantic-framework-into-ethereum-intents/533
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

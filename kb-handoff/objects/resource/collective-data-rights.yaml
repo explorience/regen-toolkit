@@ -1,0 +1,19 @@
+title: Collective data rights
+type: resource
+resource_type: Practice concept
+url: https://www.gida-global.org/whoweare
+original_source: GIDA / Local Contexts
+notes: >-
+  Why add: Direct correction to person-level permission models in databases and
+  AI systems. · Status/Caution: Collective authority and representation must be
+  determined by the relevant people and institutions · Parent source system:
+  GIDA / Local Contexts
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row452
+  source_lineage: https://www.gida-global.org/whoweare
+original_object_class: Method / Practice
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

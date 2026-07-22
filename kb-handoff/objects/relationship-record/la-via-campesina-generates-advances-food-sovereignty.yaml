@@ -1,0 +1,19 @@
+subject: La Vía Campesina
+predicate: generates_advances
+object: Food Sovereignty
+type: relationship-record
+title: La Vía Campesina — generates_advances — Food Sovereignty
+original_relationship: generates / advances
+evidence: >-
+  Movement concept developed and advanced through international organizing and
+  declarations.
+scope: Collective movement relationship; not sole ownership of all interpretations
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row349
+  source_lineage: https://viacampesina.org/en/what-is-food-sovereignty/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

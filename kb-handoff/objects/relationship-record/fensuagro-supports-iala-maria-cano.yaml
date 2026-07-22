@@ -1,0 +1,19 @@
+subject: FENSUAGRO
+predicate: supports
+object: IALA María Cano
+type: relationship-record
+title: FENSUAGRO — supports — IALA María Cano
+original_relationship: initiated / supports
+evidence: >-
+  Movement sources describe the institute as an initiative especially of
+  FENSUAGRO.
+scope: Exact current governance requires direct review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row504
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-iala-maria-cano-la-universidad-campesina-de-fensuagro
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

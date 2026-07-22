@@ -1,17 +1,18 @@
 title: Generative and extractive systems are cleanly separable
 type: claim-evidence
 claim: Generative and extractive systems are cleanly separable
-caution: >-
-  Real organizations often contain mixed incentives, value flows, labor
-  arrangements, and ecological effects.
-safe_working_language: >-
+interpretation: >-
   Treat generative/extractive as an inquiry lens and document specific value
   flows, harms, and benefits.
-claim_kind: Caution
+uncertainty: >-
+  Real organizations often contain mixed incentives, value flows, labor
+  arrangements, and ecological effects.
+evidence_stance: qualifying
+context: P2P Foundation lineage
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Claims and Cautions!row8
+  origin: Canonical_DB.xlsx#Claims and Cautions!row199
   source_lineage: https://primer.commonstransition.org/4-more/5-elements/infographics/
-work_order: wo-b0da4f8a6f05
+work_order: wo-8c810a6700ec
 source_lineage: claims-cautions.csv

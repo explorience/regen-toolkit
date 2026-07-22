@@ -1,0 +1,18 @@
+title: Movement media can be used as independent outcome evidence
+type: claim-evidence
+claim: Movement media can be used as independent outcome evidence
+interpretation: >-
+  Label them as movement-generated primary sources and triangulate consequential
+  outcome claims.
+uncertainty: >-
+  Movement publications are crucial primary sources for self-understanding and
+  implementation memory but have an advocacy and organizational role.
+evidence_stance: qualifying
+context: MST communication system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row412
+  source_lineage: https://mst.org.br/jornal-sem-terra/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

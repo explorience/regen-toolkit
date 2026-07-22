@@ -1,0 +1,17 @@
+title: Plural Credits
+type: resource
+resource_type: Contribution mechanism
+url: https://docs.plurality.net/governance/Plural%20credits/
+original_source: Plurality Project
+notes: >-
+  Why add: Relevant to contributor recognition, reputation and governance-rights
+  design. · Status/Caution: Contribution accounting can create metric gaming,
+  exclusion and false commensurability · Parent source system: Plurality Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row364
+  source_lineage: https://docs.plurality.net/governance/Plural%20credits/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

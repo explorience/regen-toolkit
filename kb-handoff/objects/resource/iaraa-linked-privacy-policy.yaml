@@ -1,0 +1,17 @@
+title: IARAA-linked privacy policy
+type: resource
+resource_type: Legal / governance artifact
+url: https://baobab.iapc.group/pt/iaraa/
+original_source: IARAA / Baobab
+notes: >-
+  Why add: Needed for query, identity, territorial and movement-data safeguards.
+  · Status/Caution: Project-specific data flows and processors remain unclear ·
+  Parent source system: IARAA / Baobab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row715
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

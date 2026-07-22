@@ -1,22 +1,23 @@
 title: Distributed Source-System Stewardship Pilot
 type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
 context: >-
   Invite a small number of source-system stewards to review their system records
   while retaining independent review and criticism.
-source_position: self-report
-record_type: pilot
 what_returns_to_commons: >-
   Tests whether stewardship can improve accuracy and maintenance without turning
   records into promotional profiles.
 notes: >-
-  What to capture: invitation, scope, rights, conflicts, suggested corrections,
-  accepted/rejected changes, unresolved disputes, maintenance commitment.
-review_needs: Candidate; conflict-of-interest safeguards required.
+  What to capture: Invitation, scope, rights, conflicts, suggested corrections,
+  accepted/rejected changes, unresolved disputes, maintenance commitment. ·
+  Status/Caution: Candidate; conflict-of-interest safeguards required
+related_source_system: Toolkit self-governance
+review_needs: prospective candidate — implementation evidence may be incomplete
 maturity: raw
 ai_assisted: true
-source_lineage: Internal GKC self-review — 2026-07-10
 provenance:
-  origin: Canonical_DB.xlsx#Implementation Memory!row7
-  transformation: synthesized
-  authorship: ai-assisted
-work_order: wo-341bea389d2b
+  origin: Canonical_DB.xlsx#Implementation Memory!row111
+  source_lineage: Internal GKC self-review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

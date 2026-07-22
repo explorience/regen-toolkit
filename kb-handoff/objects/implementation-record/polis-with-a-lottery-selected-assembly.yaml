@@ -1,0 +1,25 @@
+title: Polis with a Lottery-Selected Assembly
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Develop one case where opinion groups inform agenda setting, recruitment,
+  information needs, distributed deliberation, or text review around an
+  assembly.
+what_returns_to_commons: >-
+  Tests complementarity between large-scale digital listening and representative
+  deliberation.
+notes: >-
+  What to capture: Sampling, demographics, epistemic clusters, selection
+  criteria, consent, process stages, assembly use, public feedback, outcomes,
+  and critique. · Status/Caution: Do not let algorithmic grouping replace
+  demographic or rights-holder inclusion
+related_source_system: Polis + selected assembly partner
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row90
+  source_lineage: https://compdemocracy.org/polis/book/lottery-selected-assemblies/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,19 @@
+subject: Emily Kawano
+predicate: related_to
+object: RIPESS, solidarity-economy education and cooperative development
+type: relationship-record
+title: >-
+  Emily Kawano — related_to — RIPESS, solidarity-economy education and
+  cooperative development
+original_relationship: connects
+evidence: Official RIPESS webinar biography
+scope: Public role is dated; not sole representative of SSE
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row541
+  source_lineage: >-
+    https://www.ripess.org/five-part-webinar-series-on-solidarity-and-cooperative-economics/?lang=en
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,18 @@
+title: PolicyKit
+type: resource
+resource_type: Governance tool
+url: https://metagov.org/projects/policykit
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Concrete programmable-governance and community-rule implementation
+  example. · Status/Caution: Active project; procedure automation does not
+  ensure legitimacy, fairness, or good outcomes. · Parent source system: Metagov
+  / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row68
+  source_lineage: https://metagov.org/projects/policykit
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

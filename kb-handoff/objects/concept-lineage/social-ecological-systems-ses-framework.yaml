@@ -1,0 +1,23 @@
+title: Social-Ecological Systems (SES) Framework
+type: concept-lineage
+short_description: >-
+  Multi-tier framework for studying interactions among resource systems,
+  resource units, governance systems, actors, social-economic settings, and
+  ecosystems.
+toolkit_usage: >-
+  Strong bridge to ecological implementation, bioregional coordination, and
+  complex system comparison.
+original_object_type: Framework
+notes: >-
+  Why add: Strong bridge to ecological implementation, bioregional coordination,
+  and complex system comparison. · Status/Caution: Requires domain adaptation
+  and careful variable selection · Parent source system: Elinor Ostrom lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row317
+  source_lineage: >-
+    https://www.ostromworkshop.indiana.edu/courses-teaching/teaching-tools/index.html
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

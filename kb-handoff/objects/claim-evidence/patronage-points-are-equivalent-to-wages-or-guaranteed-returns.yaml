@@ -1,0 +1,18 @@
+title: Patronage points are equivalent to wages or guaranteed returns
+type: claim-evidence
+claim: Patronage points are equivalent to wages or guaranteed returns
+interpretation: >-
+  Describe patronage as a contingent ownership distribution mechanism and report
+  wages, expenses, and profitability separately.
+uncertainty: >-
+  Patronage depends on profit, cooperative rules, and future distributions; it
+  does not replace fair current compensation.
+evidence_stance: qualifying
+context: The Drivers Cooperative
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row276
+  source_lineage: https://drivers.coop/patronage
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

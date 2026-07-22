@@ -1,0 +1,19 @@
+title: The vTaiwan UberX case demonstrates a reusable deliberation-to-policy pattern
+type: claim-evidence
+claim: The vTaiwan UberX case demonstrates a reusable deliberation-to-policy pattern
+interpretation: >-
+  Present it as a bounded implementation pattern with explicit prerequisites and
+  transferability limits.
+uncertainty: >-
+  The case offers a valuable pattern, but its success depended on
+  Taiwan-specific civic-tech networks, institutional openness, facilitation, and
+  political context.
+evidence_stance: neutral
+context: vTaiwan / Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row162
+  source_lineage: https://participedia.net/method/7387
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

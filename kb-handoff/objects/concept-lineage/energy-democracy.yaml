@@ -1,0 +1,20 @@
+title: Energy Democracy
+type: concept-lineage
+short_description: >-
+  Democratic, community-accountable control over energy systems, benefits and
+  transition decisions Geography/context: Global / US movement lineage.
+toolkit_usage: Avoid reducing to community solar ownership alone
+original_object_type: Framework / Movement Concept
+notes: >-
+  Why add: Avoid reducing to community solar ownership alone · Status/Caution:
+  Plural movement framing · Parent source system: Energy Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row858
+  source_lineage: https://energydemocracy.us/
+original_object_class: Framework / Concept
+normalization_flag: REPAIR-NO-858
+review_needs: 'Matty dup-flag REPAIR-NO-858: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

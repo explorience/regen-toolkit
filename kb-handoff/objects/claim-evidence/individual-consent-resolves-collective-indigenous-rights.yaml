@@ -1,0 +1,19 @@
+title: Individual consent resolves collective Indigenous rights
+type: claim-evidence
+claim: Individual consent resolves collective Indigenous rights
+interpretation: >-
+  Assess collective rights, legitimate authority, jurisdiction and community
+  protocols in addition to individual consent.
+uncertainty: >-
+  Indigenous data can concern peoples, lands, cultures, environments and future
+  generations beyond one data subject.
+evidence_stance: qualifying
+context: GIDA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row254
+  source_lineage: https://www.gida-global.org/whoweare
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

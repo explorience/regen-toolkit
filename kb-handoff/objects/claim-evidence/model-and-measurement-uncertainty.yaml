@@ -1,0 +1,20 @@
+title: Model and measurement uncertainty
+type: claim-evidence
+claim: Model and measurement uncertainty
+interpretation: >-
+  Present estimates with methodology, confidence limits or uncertainty
+  treatment, monitoring cadence, and known limitations.
+uncertainty: >-
+  Soil carbon, biodiversity, avoided emissions, and ecosystem-service estimates
+  depend on sampling, baselines, models, counterfactuals, leakage, permanence,
+  and uncertainty treatment.
+evidence_stance: qualifying
+context: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row17
+  source_lineage: >-
+    https://handbook.regen.network/credit-class-development/credit-class-vs-methodology
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

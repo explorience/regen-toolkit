@@ -1,0 +1,16 @@
+subject: Remote Access Archive
+predicate: documents
+object: Disabled remote-access practices
+type: relationship-record
+title: Remote Access Archive — documents — Disabled remote-access practices
+original_relationship: documents
+evidence: Official project description.
+scope: Does not represent all disabled remote access
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row249
+  source_lineage: https://www.criticaldesignlab.com/project/remote-access-archive
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

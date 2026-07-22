@@ -1,0 +1,25 @@
+title: Social Signal to Primary Source Resolution Workflow
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use a social mention only as an entry point, then identify the underlying
+  primary organization, publication, project, or tool; deduplicate against
+  existing records and preserve the original social lineage.
+potential_uses: >-
+  Database expansion, source-system discovery, social-signal review,
+  relationship mapping.
+dependencies: >-
+  Access to original social metadata, primary-source search, object typing,
+  duplicate checks, review status, and lineage notes.
+tradeoffs: >-
+  Can over-prioritize visible networks, misidentify entities, or turn a mention
+  into implied importance.
+context: Cross-system social-signal pilot
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row58
+  source_lineage: Internal pilot synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

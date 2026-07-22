@@ -1,0 +1,34 @@
+title: GAIAI
+type: directory
+steward: GAIAI
+return_path: unset — establish via register-source
+url: https://gaiaai.xyz/
+why_it_matters: >-
+  Directly overlaps with the Toolkit’s future-facing questions around
+  AI-assisted regenerative knowledge commons, bioregional knowledge,
+  source-system interoperability, claims/evidence, local sovereignty, and living
+  knowledge bases.
+toolkit_route: >-
+  Resource Graph & Ecosystem Atlas; Knowledge Commons / Encyclopedia; Concept &
+  Idea Ecology; Tracks & Composition; Implementation & Learning Memory;
+  Claim-Evidence Review; Ontology & Semantic Kernel; Infrastructure & Substrate;
+  Source-System Cards; Option Library; Technical Implementation
+notes: >-
+  Priority: Directly overlaps with the Toolkit’s future-facing questions around
+  AI-assisted regenerative knowledge commons, bioregional knowledge,
+  source-system interoperability, claims/evidence, local sovereignty, and living
+  knowledge bases. · Next: Inspect main site, Encyclopedia, manifesto,
+  greenpaper, and docs; confirm steward/maintainer and distinguish from
+  similarly named projects; extract categories/concepts/architecture; add option
+  and claim candidates; add public-use cautions; compare with Regen Commons and
+  Toolkit for overlap/complementarity/non-duplication. · Notes: First deepening
+  batch complete. Preserve as peer/source system; continue extracting options,
+  claims, implementation memory, and linked resources.
+review_needs: Discovery_Pool promotion (Tier 1) — source-verify + confirm type
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-?????
+  source_lineage: https://gaiaai.xyz/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

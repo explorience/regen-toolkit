@@ -1,0 +1,18 @@
+title: Open-source residency outputs are automatically public goods
+type: claim-evidence
+claim: Open-source residency outputs are automatically public goods
+interpretation: >-
+  Describe the output, license, users, maintenance state, and evidence of
+  benefit separately.
+uncertainty: >-
+  Licensing and publication do not establish usefulness, safety, maintenance,
+  accessibility, or public benefit.
+evidence_stance: qualifying
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row81
+  source_lineage: https://www.fundingthecommons.io/hackathons-1
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

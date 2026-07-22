@@ -1,0 +1,10 @@
+title: Boundary — Local Contexts Governance Framework
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Formal governance documents should be read alongside rules-in-use and
+  community experience
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#New Objects!row457
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

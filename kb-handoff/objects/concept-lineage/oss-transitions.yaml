@@ -1,0 +1,23 @@
+title: OSS Transitions
+type: concept-lineage
+short_description: >-
+  NSF-funded collaboration studying accountability systems defined by
+  open-source communities and processes for transitioning projects toward
+  community accountability.
+toolkit_usage: >-
+  Strong bridge between public-goods software, governance, maintenance, and
+  community ownership.
+original_object_type: Research / transition framework
+notes: >-
+  Why add: Strong bridge between public-goods software, governance, maintenance,
+  and community ownership. · Status/Caution: Research in progress; transition
+  processes require community-specific authority and consent. · Parent source
+  system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row80
+  source_lineage: https://metagov.org/projects/oss-transitions
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

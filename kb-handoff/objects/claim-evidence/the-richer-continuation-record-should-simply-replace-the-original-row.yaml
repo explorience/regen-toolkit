@@ -1,0 +1,18 @@
+title: The richer continuation record should simply replace the original row
+type: claim-evidence
+claim: The richer continuation record should simply replace the original row
+interpretation: >-
+  Preserve every imported row and create a preferred synthesized record linked
+  to them.
+uncertainty: >-
+  Replacement would erase provenance, earlier language, and evidence of how the
+  record evolved.
+evidence_stance: qualifying
+context: Merge and governance readiness
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row173
+  source_lineage: Internal merge-readiness design
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

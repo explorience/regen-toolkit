@@ -1,25 +1,25 @@
 title: Asian Peasant Seed Sovereignty Exchange 2025
 type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
 context: >-
   Trace the regional conference from participating movements and seed practices
   through shared learning, public advocacy and later action.
-source_position: community-member
-record_type: event
-high_risk: true
 what_returns_to_commons: >-
   Connects seed knowledge governance, feminist leadership and regional peer
   learning.
 notes: >-
-  What to capture: member organizations, women's leadership, seed threats,
+  What to capture: Member organizations, women’s leadership, seed threats,
   protocols, exchange methods, policy engagement, follow-up and local
-  adaptation.
-review_needs: Candidate; protect sensitive seed and community knowledge.
+  adaptation. · Status/Caution: Candidate; protect sensitive seed and community
+  knowledge
+related_source_system: La Vía Campesina Asia / KWPA
+review_needs: prospective candidate — implementation evidence may be incomplete
 maturity: raw
 ai_assisted: true
-source_lineage: >-
-  https://viacampesina.org/en/2025/05/asia-conference-on-agroecology-and-seeds-highlights-diverse-experiences-in-peasant-seed-sovereignty/
 provenance:
-  origin: Canonical_DB.xlsx#Implementation Memory!row14
-  transformation: synthesized
-  authorship: ai-assisted
-work_order: wo-341bea389d2b
+  origin: Canonical_DB.xlsx#Implementation Memory!row265
+  source_lineage: >-
+    https://viacampesina.org/en/2025/05/asia-conference-on-agroecology-and-seeds-highlights-diverse-experiences-in-peasant-seed-sovereignty/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

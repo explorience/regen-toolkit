@@ -1,0 +1,19 @@
+title: Solidarity brigades are automatically reusable disaster-response models
+type: claim-evidence
+claim: Solidarity brigades are automatically reusable disaster-response models
+interpretation: >-
+  Assess host authority, safety, labor accounting, follow-up and who carries the
+  organizing burden before reuse.
+uncertainty: >-
+  Historical and 2025 sources document collective labor, farm visits, learning
+  and mutual support, but not complete outcome or burden-distribution evidence.
+evidence_stance: qualifying
+context: Organización Boricuá / La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row480
+  source_lineage: >-
+    https://viacampesina.org/en/2025/07/puerto-rico-la-via-campesina-launches-its-first-international-climate-brigade-in-boriken/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

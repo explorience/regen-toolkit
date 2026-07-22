@@ -1,0 +1,18 @@
+title: Institutional frameworks can be converted directly into database fields
+type: claim-evidence
+claim: Institutional frameworks can be converted directly into database fields
+interpretation: >-
+  Use schemas as prompts and containers, preserve narrative context and allow
+  plural or disputed classifications.
+uncertainty: >-
+  Formalizing inquiry questions can improve consistency but may flatten
+  ambiguity, tacit knowledge and contested categories.
+evidence_stance: qualifying
+context: GKC + Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row155
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

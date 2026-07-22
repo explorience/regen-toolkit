@@ -1,0 +1,18 @@
+title: PCC impact figures independently prove movement outcomes
+type: claim-evidence
+claim: PCC impact figures independently prove movement outcomes
+interpretation: >-
+  Attribute figures to PCC and avoid treating them as independent proof of job
+  quality, survival, or democratic control.
+uncertainty: >-
+  Reported project, country, and worker-reach figures are useful organizational
+  signals but require definitions, methods, and independent verification.
+evidence_stance: qualifying
+context: Platform Cooperativism Consortium
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row278
+  source_lineage: https://platform.coop/blog/new-pcc-progress-report/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

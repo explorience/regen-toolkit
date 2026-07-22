@@ -1,0 +1,18 @@
+title: Volunteer contribution is equally available to everyone
+type: claim-evidence
+claim: Volunteer contribution is equally available to everyone
+interpretation: >-
+  Treat volunteer contribution as unevenly accessible and keep paid pathways for
+  essential work.
+uncertainty: >-
+  Income, care duties, disability, geography, immigration status and social
+  power shape who can volunteer.
+evidence_stance: neutral
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row317
+  source_lineage: Internal applied review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

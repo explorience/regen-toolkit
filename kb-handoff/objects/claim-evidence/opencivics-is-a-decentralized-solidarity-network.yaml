@@ -1,0 +1,19 @@
+title: OpenCivics is a decentralized solidarity network
+type: claim-evidence
+claim: OpenCivics is a decentralized solidarity network
+interpretation: >-
+  OpenCivics describes itself as a community of practice and decentralized
+  solidarity network; the distribution of decision rights and operational
+  control should be reviewed separately.
+uncertainty: >-
+  Decentralized can describe identity or aspiration without showing actual
+  distribution of authority, funding, infrastructure, or agenda-setting.
+evidence_stance: neutral
+context: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row68
+  source_lineage: https://www.opencivics.co/network
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

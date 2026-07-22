@@ -1,0 +1,25 @@
+title: AI-Assisted Registry Review Preparation
+type: option-entry
+category: coordination
+what_it_is: >-
+  Use AI to extract, compare, and organize ecological project and methodology
+  documents for qualified reviewers.
+potential_uses: >-
+  Completeness checks, claim extraction, source navigation, review preparation,
+  repeated-field comparison.
+dependencies: >-
+  Human reviewers, explicit criteria, source access, audit logs, uncertainty
+  flags, domain governance.
+tradeoffs: >-
+  Automation bias, ecological overclaiming, poor handling of local knowledge,
+  and confusion between preparation and verification.
+context: GAIAI / Registry Assistant
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row37
+  source_lineage: >-
+    https://forum.regen.network/t/the-registry-assistant-scaling-regenerative-verification-through-intelligent-infrastructure/577
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

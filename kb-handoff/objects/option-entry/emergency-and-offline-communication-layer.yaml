@@ -1,0 +1,20 @@
+title: Emergency and Offline Communication Layer
+type: option-entry
+category: coordination
+what_it_is: >-
+  Design resilient communication options that work during disasters, outages or
+  limited internet access.
+potential_uses: Mutual aid, ecological fieldwork, rural coordination, community safety.
+dependencies: >-
+  Safety review, local drills, maintenance, language access, security and
+  governance.
+tradeoffs: Safety-critical systems can fail or expose sensitive information.
+context: Rhizomatica / REDES A.C.
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row237
+  source_lineage: https://www.rhizomatica.org/hermes/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+title: Issued soil-carbon credits prove all stated farm and climate benefits
+type: claim-evidence
+claim: Issued soil-carbon credits prove all stated farm and climate benefits
+interpretation: >-
+  State the methodology, monitoring period, verification source, issued quantity
+  and uncertainties; treat additional benefits as separate claims.
+uncertainty: >-
+  Issuance indicates a registry process under a methodology; it does not
+  independently prove every co-benefit, permanence claim or causal mechanism.
+evidence_stance: neutral
+context: Regen Network / Philipson Estate
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row28
+  source_lineage: https://app.regen.network/project/C06-001
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

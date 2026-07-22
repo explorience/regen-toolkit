@@ -1,5 +1,5 @@
 title: Research ICT Africa
-type: library
+type: directory
 steward: Research ICT Africa
 return_path: unset — establish via register-source
 url: https://researchictafrica.net/
@@ -11,13 +11,18 @@ why_it_matters: >-
   African research network producing multidisciplinary evidence on access,
   digital inequality, data governance, AI, digital public infrastructure,
   regulation, indicators and digital development.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row34
-  source_lineage: https://researchictafrica.net/
 caution: >-
   Research findings depend on country, method, data availability and political
   context; do not generalize Africa as a single policy environment.
+extraction_status: >-
+  African evidence infrastructure, comparative datasets, policy research,
+  public-value and justice frameworks, AI governance and DPI assessment.
+notes: 'Role: Core African digital-governance research source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row33
+  source_lineage: https://researchictafrica.net/
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

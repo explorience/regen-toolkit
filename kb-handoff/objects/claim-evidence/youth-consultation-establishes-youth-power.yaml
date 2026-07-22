@@ -1,0 +1,18 @@
+title: Youth consultation establishes youth power
+type: claim-evidence
+claim: Youth consultation establishes youth power
+interpretation: >-
+  Record youth-authored priorities and separately verify decision rights,
+  resources and follow-through.
+uncertainty: >-
+  A youth congress can generate a rich agenda without guaranteeing budget,
+  representation or implementation authority.
+evidence_stance: qualifying
+context: ANAMURI Youth Front
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row465
+  source_lineage: https://anamuri.cl/wp-content/uploads/2026/02/07-Congreso-de-Jovenes.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

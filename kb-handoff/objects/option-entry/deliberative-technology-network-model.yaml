@@ -1,0 +1,25 @@
+title: Deliberative Technology Network Model
+type: option-entry
+category: governance
+what_it_is: >-
+  Small international community of technologists and deliberative-practice
+  experts sharing protocols, research, and implementation knowledge under
+  participation and confidentiality rules.
+potential_uses: >-
+  Field-building, interoperability, good-practice development, research-practice
+  exchange.
+dependencies: >-
+  Credible conveners, balanced membership, clear purpose, participation norms,
+  geographic diversity, public outputs, and conflict handling.
+tradeoffs: >-
+  Invite-only structure may reproduce gatekeeping; Chatham House rules can limit
+  public accountability and knowledge return.
+context: DelibTech Network
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row59
+  source_lineage: https://www.demnext.org/action/delibtech-network
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

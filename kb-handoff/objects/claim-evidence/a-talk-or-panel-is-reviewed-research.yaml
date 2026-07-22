@@ -1,0 +1,18 @@
+title: A talk or panel is reviewed research
+type: claim-evidence
+claim: A talk or panel is reviewed research
+interpretation: >-
+  Route talks as media artifacts, claim candidates, concept leads, and
+  implementation prompts; do not treat them as reviewed findings by default.
+uncertainty: >-
+  Conference discourse can surface important hypotheses and implementation
+  knowledge but usually lacks peer review or systematic evidence.
+evidence_stance: qualifying
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row84
+  source_lineage: https://www.youtube.com/@fundingthecommons
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

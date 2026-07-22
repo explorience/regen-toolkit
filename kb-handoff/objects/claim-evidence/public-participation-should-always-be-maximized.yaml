@@ -1,0 +1,19 @@
+title: Public participation should always be maximized
+type: claim-evidence
+claim: Public participation should always be maximized
+interpretation: >-
+  Clarify who should participate, what can be public, which rights and risks
+  apply, and where non-public governance is justified.
+uncertainty: >-
+  Some decisions require privacy, delegated authority, protected knowledge,
+  emergency action or bounded participation; more openness can create harm or
+  extraction.
+evidence_stance: qualifying
+context: GKC + civic systems
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row158
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

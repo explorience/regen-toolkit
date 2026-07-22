@@ -1,0 +1,18 @@
+title: Mentor expertise transfers cleanly across contexts
+type: claim-evidence
+claim: Mentor expertise transfers cleanly across contexts
+interpretation: >-
+  Treat mentorship as situated guidance; preserve local decision authority and
+  document adaptation or rejection of advice.
+uncertainty: >-
+  Cross-context mentoring can be valuable, but advice may not fit local
+  institutions, culture, power relations, risk, or political timing.
+evidence_stance: qualifying
+context: Rising Stars Mentorship
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row128
+  source_lineage: https://www.peoplepowered.org/mentorship
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

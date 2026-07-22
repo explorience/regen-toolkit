@@ -1,0 +1,19 @@
+title: ENFF participation counts prove educational outcomes
+type: claim-evidence
+claim: ENFF participation counts prove educational outcomes
+interpretation: >-
+  Treat counts as organizer-reported reach and assess outcomes through
+  participant and movement evidence.
+uncertainty: >-
+  Numbers trained or hosted do not establish learning quality, power changes,
+  later leadership or territorial impact.
+evidence_stance: qualifying
+context: ENFF
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row399
+  source_lineage: >-
+    https://mst.org.br/2026/06/18/escola-nacional-florestan-fernandes-faz-campanha-de-bilhetes-da-solidariedade-ate-27-de-junho/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

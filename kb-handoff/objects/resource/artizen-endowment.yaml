@@ -1,0 +1,16 @@
+title: Artizen Endowment
+type: resource
+resource_type: Funding structure
+url: https://play.artizen.fund/
+original_source: Artizen
+notes: >-
+  Why add: Durable-capital model. · Status/Caution: Durability and scale require
+  current evidence · Parent source system: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row12
+  source_lineage: https://play.artizen.fund/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

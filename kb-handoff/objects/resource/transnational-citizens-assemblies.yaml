@@ -1,23 +1,18 @@
 title: Transnational Citizens’ Assemblies
 type: resource
+resource_type: Collection
 url: https://participedia.net/collection/8376
-resource_type: collection
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row10
-summary: >-
-  Curated collection of citizens’ assemblies addressing issues and publics
-  across national borders.
-original_object_type: Collection
+original_source: Participedia
+notes: >-
+  Why add: Relevant to multi-level governance and the scaling-deliberation
+  questions raised by DemocracyNext. · Status/Caution: Collection coverage
+  depends on editorial selection and available entries. · Parent source system:
+  Participedia
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row10
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: Participedia | https://participedia.net/collection/8376
-notes: >-
-  Why add: Relevant to multi-level governance and the scaling-deliberation
-  questions raised by DemocracyNext. Status/Caution: Collection coverage depends
-  on editorial selection and available entries.
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row233
+  source_lineage: https://participedia.net/collection/8376
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,23 @@
+title: Interdependence
+type: concept-lineage
+short_description: >-
+  Recognition that people and systems depend on one another, challenging myths
+  of independence while preserving agency and boundaries.
+toolkit_usage: >-
+  Useful for contributor support, maintenance, care, federation and resilience
+  design.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Useful for contributor support, maintenance, care, federation and
+  resilience design. · Status/Caution: Interdependence must not romanticize
+  unpaid care or coerced dependence · Parent source system: Sins Invalid / Mia
+  Mingus / disability justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row529
+  source_lineage: >-
+    https://leavingevidence.wordpress.com/2017/04/12/access-intimacy-interdependence-and-disability-justice/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

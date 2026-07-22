@@ -1,0 +1,24 @@
+title: Rules-in-Use Comparison Across Metagov, Decidim and the Toolkit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Compare formal constitutions, policies and platform rules with observed
+  governance practice in three contrasting knowledge/governance systems.
+what_returns_to_commons: >-
+  Provides a common empirical frame across research network, mature civic
+  platform and emerging Toolkit.
+notes: >-
+  What to capture: Formal rules, technical controls, participation, decision
+  records, informal norms, workarounds, sanctions, conflict resolution,
+  legitimacy and change. · Status/Caution: Candidate; requires bounded cases and
+  sufficient practice evidence
+related_source_system: GKC + Batch 1C systems
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row69
+  source_lineage: https://knowledge-commons.net/research-framework/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

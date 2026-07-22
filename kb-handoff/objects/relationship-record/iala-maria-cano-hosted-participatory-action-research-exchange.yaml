@@ -1,0 +1,18 @@
+subject: IALA María Cano
+predicate: hosted
+object: Participatory Action Research exchange
+type: relationship-record
+title: IALA María Cano — hosted — Participatory Action Research exchange
+original_relationship: hosted
+evidence: 2024 exchange included Ixim Ulew and Sembradoras de Esperanza.
+scope: Dated event relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row468
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

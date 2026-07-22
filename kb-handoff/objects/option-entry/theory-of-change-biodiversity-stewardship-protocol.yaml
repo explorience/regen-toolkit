@@ -1,0 +1,24 @@
+title: Theory-of-Change Biodiversity Stewardship Protocol
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Connect species and habitat baselines, local disturbances, stewardship
+  interventions, monitoring indicators, and long-term outcomes.
+potential_uses: >-
+  Biodiversity projects, conservation finance, local stewardship documentation,
+  implementation-memory design.
+dependencies: >-
+  Species evidence, local ecological expertise, landholder participation,
+  monitoring plan, intervention governance, safeguards.
+tradeoffs: >-
+  Species proxies can oversimplify ecosystems; land and community rights, data
+  sensitivity, additionality, and permanence require care.
+context: ERA / Regen Registry
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row12
+  source_lineage: https://www.registry.regen.network/crediting-protocols/era-brazil
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

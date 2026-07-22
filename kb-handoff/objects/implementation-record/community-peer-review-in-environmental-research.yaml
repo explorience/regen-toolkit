@@ -1,0 +1,23 @@
+title: Community Peer Review in Environmental Research
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document one project where community peer review, refusal or capacity sharing
+  changed research design or outputs.
+what_returns_to_commons: >-
+  Provides an evidence-bearing bridge between research ethics and
+  knowledge-commons governance.
+notes: >-
+  What to capture: Authority, methods, review decisions, data governance, tool
+  design, correction, benefits and unresolved tensions. · Status/Caution:
+  Priority future methodology case
+related_source_system: Max Liboiron / CLEAR
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row341
+  source_lineage: https://www.hss.mun.ca/research/showcase/clear/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

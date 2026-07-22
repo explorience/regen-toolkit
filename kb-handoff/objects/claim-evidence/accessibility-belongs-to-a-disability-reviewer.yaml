@@ -1,0 +1,18 @@
+title: Accessibility belongs to a disability reviewer
+type: claim-evidence
+claim: Accessibility belongs to a disability reviewer
+interpretation: >-
+  Assign distributed ownership, budget and backup while preserving disabled-led
+  authority and compensation.
+uncertainty: >-
+  Delegating all access labor to one disabled person reproduces unpaid labor and
+  limits organizational responsibility.
+evidence_stance: qualifying
+context: Toolkit governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row303
+  source_lineage: Internal disability-access review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

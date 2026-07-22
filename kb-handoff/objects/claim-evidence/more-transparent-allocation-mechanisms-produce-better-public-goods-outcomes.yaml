@@ -1,0 +1,18 @@
+title: More transparent allocation mechanisms produce better public-goods outcomes
+type: claim-evidence
+claim: More transparent allocation mechanisms produce better public-goods outcomes
+interpretation: >-
+  These systems make parts of allocation more visible; outcome quality must be
+  evaluated through implementation and evidence.
+uncertainty: >-
+  Transparency can improve reviewability but does not by itself improve
+  selection, implementation, maintenance or outcomes.
+evidence_stance: neutral
+context: Gitcoin / Giveth / Octant / Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row3
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

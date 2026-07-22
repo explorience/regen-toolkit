@@ -1,0 +1,18 @@
+subject: MST
+predicate: member_of
+object: La Vía Campesina
+type: relationship-record
+title: MST — member_of — La Vía Campesina
+original_relationship: member movement of
+evidence: >-
+  MST is a major Brazilian member movement in the international peasant
+  movement.
+scope: Membership does not erase organizational autonomy
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row391
+  source_lineage: https://viacampesina.org/en/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

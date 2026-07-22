@@ -1,0 +1,17 @@
+title: Protocol Labs
+type: organization
+org_type: Organization / partner
+url: https://protocol.ai/
+steward: Funding the Commons
+notes: >-
+  Why add: Important upstream funder, technical ecosystem, and partner source
+  system. · Status/Caution: Partnership does not imply endorsement of all
+  programs or outcomes · Parent source system: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row172
+  source_lineage: https://protocol.ai/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

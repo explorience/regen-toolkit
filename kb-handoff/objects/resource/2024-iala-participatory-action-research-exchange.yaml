@@ -1,26 +1,20 @@
 title: 2024 IALA Participatory-Action Research Exchange
 type: resource
+resource_type: Exchange / learning process
 url: >-
   https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
-resource_type: event
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row30
-summary: >-
-  Five-day exchange in Viotá among María Cano, Ixim Ulew and Sembradoras de
-  Esperanza on territorial agroecological research.
-original_object_type: Exchange / learning process
+original_source: CLOC–La Vía Campesina / IALA María Cano
+notes: >-
+  Why add: Evidence of cross-school learning and shared method development. ·
+  Status/Caution: Event evidence; downstream research use and participant
+  outcomes unknown · Parent source system: CLOC–La Vía Campesina / IALA María
+  Cano
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row30
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: >-
-  CLOC–La Vía Campesina / IALA María Cano |
-  https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
-notes: >-
-  Why add: Evidence of cross-school learning and shared method development.
-  Status/Caution: Event evidence; downstream research use and participant
-  outcomes unknown
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row813
+  source_lineage: >-
+    https://cloc-viacampesina.net/intercambio-de-experiencias-de-los-ialas-en-la-investigacion-accion-participativa-iap
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

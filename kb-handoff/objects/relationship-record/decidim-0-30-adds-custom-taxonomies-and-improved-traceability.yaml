@@ -1,0 +1,19 @@
+subject: Decidim 0.30
+predicate: adds
+object: Custom taxonomies and improved traceability
+type: relationship-record
+title: Decidim 0.30 — adds — Custom taxonomies and improved traceability
+original_relationship: adds
+evidence: >-
+  Official release post identifies classification and provenance-related
+  features.
+scope: Version-specific
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row64
+  source_lineage: https://meta.decidim.org/en/processes/news/f/1719/posts/369
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

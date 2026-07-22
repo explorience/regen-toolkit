@@ -1,0 +1,18 @@
+title: Collecting more accommodation detail produces better access
+type: claim-evidence
+claim: Collecting more accommodation detail produces better access
+interpretation: >-
+  Collect only what is operationally necessary; support changing needs without
+  diagnosis or repeated justification.
+uncertainty: >-
+  Detailed records may create forced disclosure, privacy risks and a hidden
+  disability dataset.
+evidence_stance: qualifying
+context: Toolkit governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row299
+  source_lineage: Internal disability-access review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

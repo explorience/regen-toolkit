@@ -1,0 +1,23 @@
+title: Popular Peasant Feminism
+type: concept-lineage
+short_description: >-
+  Movement-generated feminist framework linking patriarchy, capitalism,
+  colonialism, land, violence, care, food sovereignty and rural women’s
+  leadership.
+toolkit_usage: Adds a movement-authored feminist political and educational lens.
+original_object_type: Movement framework
+notes: >-
+  Why add: Adds a movement-authored feminist political and educational lens. ·
+  Status/Caution: Not one uniform doctrine; preserve regional, racial,
+  Indigenous and sexual-diversity differences · Parent source system: La Vía
+  Campesina Women
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row650
+  source_lineage: >-
+    https://viacampesina.org/en/2022/11/the-vital-force-of-the-women-of-la-via-campesina/
+original_object_class: Framework / Concept
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

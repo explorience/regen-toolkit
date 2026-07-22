@@ -1,0 +1,19 @@
+subject: Coordination Structural Integrity Suite
+predicate: provides
+object: AI prompts and Claude skills
+type: relationship-record
+title: >-
+  Coordination Structural Integrity Suite — provides — AI prompts and Claude
+  skills
+original_relationship: provides
+evidence: Suite site and standards index describe prompts and skills for assessments
+scope: AI assistance does not confer review authority
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row143
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

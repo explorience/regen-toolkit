@@ -1,0 +1,16 @@
+subject: Local Contexts Hub
+predicate: supports
+object: Local Contexts Notices
+type: relationship-record
+title: Local Contexts Hub — supports — Local Contexts Notices
+original_relationship: enables institutions and researchers to generate
+evidence: Institutions and researchers generate Notices through the Hub.
+scope: Disclosure relationship, not consent
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row198
+  source_lineage: https://localcontexts.org/about/about-the-hub/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

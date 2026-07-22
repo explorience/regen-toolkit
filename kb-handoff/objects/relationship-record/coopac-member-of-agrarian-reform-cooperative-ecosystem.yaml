@@ -1,0 +1,19 @@
+subject: COOPAC
+predicate: member_of
+object: Agrarian-reform cooperative ecosystem
+type: relationship-record
+title: COOPAC — member_of — Agrarian-reform cooperative ecosystem
+original_relationship: part of / connected to
+evidence: >-
+  MST reports the cooperative as emerging from settlement and family-farmer
+  organization in Paraíba.
+scope: Exact UNICRAB relationship should be confirmed
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row408
+  source_lineage: >-
+    https://mst.org.br/2026/06/02/cooperativa-da-reforma-agraria-amplia-agroindustria-e-fortalece-cadeia-do-leite-caprino-no-semiarido-paraibano/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

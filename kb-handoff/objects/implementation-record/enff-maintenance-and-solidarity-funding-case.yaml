@@ -1,0 +1,22 @@
+title: ENFF Maintenance and Solidarity-Funding Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace construction, ongoing maintenance, supporter campaigns, staffing,
+  partnerships and long-term financial resilience.
+what_returns_to_commons: Concrete knowledge-infrastructure sustainability case.
+notes: >-
+  What to capture: Costs, funding sources, paid/unpaid labor, governance,
+  supporter roles, maintenance backlog, accessibility and succession. ·
+  Status/Caution: Candidate; financial and labor evidence needed
+related_source_system: ENFF
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row277
+  source_lineage: >-
+    https://mst.org.br/2026/06/18/escola-nacional-florestan-fernandes-faz-campanha-de-bilhetes-da-solidariedade-ate-27-de-junho/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

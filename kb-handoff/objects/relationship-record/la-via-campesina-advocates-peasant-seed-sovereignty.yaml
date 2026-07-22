@@ -1,0 +1,18 @@
+subject: La Vía Campesina
+predicate: advocates
+object: Peasant seed sovereignty
+type: relationship-record
+title: La Vía Campesina — advocates — Peasant seed sovereignty
+original_relationship: advocates
+evidence: Movement campaigns defend rights to save, exchange and develop seeds.
+scope: Community and regional protocols vary
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row369
+  source_lineage: >-
+    https://viacampesina.org/en/2025/05/asia-conference-on-agroecology-and-seeds-highlights-diverse-experiences-in-peasant-seed-sovereignty/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

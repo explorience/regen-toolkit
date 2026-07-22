@@ -1,0 +1,18 @@
+title: A high comparison score means a source system is universally better
+type: claim-evidence
+claim: A high comparison score means a source system is universally better
+interpretation: >-
+  Use the scores only to explain batch composition; preserve each system’s
+  purpose, context and limitations.
+uncertainty: >-
+  Scores are internal sequencing aids based on Toolkit needs, not objective
+  rankings of democratic legitimacy or effectiveness.
+evidence_stance: qualifying
+context: Batch 1C selection
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row93
+  source_lineage: Internal Batch 1C selection synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

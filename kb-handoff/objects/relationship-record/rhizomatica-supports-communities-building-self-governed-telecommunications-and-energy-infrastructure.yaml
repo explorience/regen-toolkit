@@ -1,0 +1,22 @@
+subject: Rhizomatica
+predicate: supports
+object: >-
+  Communities building self-governed telecommunications and energy
+  infrastructure
+type: relationship-record
+title: >-
+  Rhizomatica — supports — Communities building self-governed telecommunications
+  and energy infrastructure
+original_relationship: supports
+evidence: >-
+  Official mission states support for communities that want to build and
+  maintain self-governed and owned infrastructure.
+scope: Support does not imply ownership
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row293
+  source_lineage: https://www.rhizomatica.org/what-we-do/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

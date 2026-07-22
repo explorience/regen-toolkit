@@ -1,0 +1,20 @@
+title: Sustainable Seattle indicator work
+type: resource
+resource_type: Implementation case / indicator initiative
+url: >-
+  https://donellameadows.org/archives/an-instrument-panel-to-help-seattle-fly-sustainably/
+original_source: Donella Meadows indicators lineage
+notes: >-
+  Why add: Concrete case linking indicator design, community values and
+  cross-domain feedback. · Status/Caution: Specific figures are historical; use
+  the case for design learning, not current Seattle conditions · Parent source
+  system: Donella Meadows indicators lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row415
+  source_lineage: >-
+    https://donellameadows.org/archives/an-instrument-panel-to-help-seattle-fly-sustainably/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

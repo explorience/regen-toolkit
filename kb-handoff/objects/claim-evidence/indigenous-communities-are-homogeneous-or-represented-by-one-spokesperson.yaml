@@ -1,0 +1,19 @@
+title: Indigenous communities are homogeneous or represented by one spokesperson
+type: claim-evidence
+claim: Indigenous communities are homogeneous or represented by one spokesperson
+interpretation: >-
+  Use community-defined authority and document scope; do not infer universal
+  consent or viewpoint.
+uncertainty: >-
+  Communities contain multiple institutions, roles, generations, genders,
+  knowledge holders and possible disagreements.
+evidence_stance: qualifying
+context: Cross-system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row258
+  source_lineage: https://localcontexts.org/support/getting-started-on-the-hub/
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

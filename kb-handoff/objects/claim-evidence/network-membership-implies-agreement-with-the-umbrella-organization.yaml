@@ -1,0 +1,18 @@
+title: Network membership implies agreement with the umbrella organization
+type: claim-evidence
+claim: Network membership implies agreement with the umbrella organization
+interpretation: >-
+  Represent membership as a relationship, not endorsement or identical
+  viewpoint.
+uncertainty: >-
+  Members and associates may share broad commitments while differing in
+  priorities, politics, methods and positions.
+evidence_stance: qualifying
+context: APC
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row335
+  source_lineage: https://www.apc.org/en/network
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

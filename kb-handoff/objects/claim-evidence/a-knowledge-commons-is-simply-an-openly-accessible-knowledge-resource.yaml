@@ -1,0 +1,19 @@
+title: A knowledge commons is simply an openly accessible knowledge resource
+type: claim-evidence
+claim: A knowledge commons is simply an openly accessible knowledge resource
+interpretation: >-
+  Describe the resources, community, institutions and rules-in-use; do not label
+  a collection a commons solely because it is open.
+uncertainty: >-
+  The GKC approach treats a commons as an institutional arrangement involving
+  resources, communities, rules, actors and governance—not merely openness or a
+  repository.
+evidence_stance: qualifying
+context: GKC Research Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row99
+  source_lineage: https://knowledge-commons.net/downloads/Knowledge.Commons.Description.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

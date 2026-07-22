@@ -1,0 +1,23 @@
+title: Embodied and Cultural Knowledge Documentation Protocol
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Allow cultural, spiritual, artistic and embodied practices to be acknowledged
+  without extracting, standardizing or exposing them.
+potential_uses: Event memory, community knowledge, media archives, facilitation review.
+dependencies: >-
+  Community-defined boundaries, attribution, context, non-recording options,
+  language and cultural review.
+tradeoffs: >-
+  Documentation can appropriate sacred or situated practices and turn living
+  culture into generic methods.
+context: La Vía Campesina Mística / movement pedagogy
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row269
+  source_lineage: >-
+    https://viacampesina.org/en/2022/11/the-vital-force-of-the-women-of-la-via-campesina/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

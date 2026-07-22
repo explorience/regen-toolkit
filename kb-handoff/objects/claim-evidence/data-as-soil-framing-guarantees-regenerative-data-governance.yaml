@@ -1,0 +1,18 @@
+title: Data-as-soil framing guarantees regenerative data governance
+type: claim-evidence
+claim: Data-as-soil framing guarantees regenerative data governance
+interpretation: >-
+  Use the metaphor as a prompt and require explicit data-governance rules and
+  affected-party review.
+uncertainty: >-
+  A relational metaphor does not itself define ownership, consent, access,
+  deletion, security, compensation or public authority.
+evidence_stance: qualifying
+context: Audrey Tang lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row212
+  source_lineage: https://audreyt.org/ours
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

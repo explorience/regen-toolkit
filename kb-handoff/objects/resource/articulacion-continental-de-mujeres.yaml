@@ -1,0 +1,20 @@
+title: Articulación Continental de Mujeres
+type: resource
+resource_type: Constituency articulation
+url: >-
+  https://cloc-viacampesina.net/declaracion-vii-asamblea-continental-de-mujeres-del-campo-cloc-via-campesina
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Centers popular peasant feminism as governance and movement strategy.
+  · Status/Caution: Assembly participation does not by itself prove equal power
+  in all member organizations · Parent source system: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row753
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-vii-asamblea-continental-de-mujeres-del-campo-cloc-via-campesina
+original_object_class: Other / Review
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

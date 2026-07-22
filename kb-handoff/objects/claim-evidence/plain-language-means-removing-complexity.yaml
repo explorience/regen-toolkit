@@ -1,0 +1,18 @@
+title: Plain language means removing complexity
+type: claim-evidence
+claim: Plain language means removing complexity
+interpretation: >-
+  Use layered communication: concise plain-language orientation linked to fuller
+  detail and sources.
+uncertainty: >-
+  Oversimplification can erase uncertainty, conflict, technical detail and
+  affected-party context.
+evidence_stance: qualifying
+context: Toolkit editorial
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row302
+  source_lineage: Internal disability-access review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

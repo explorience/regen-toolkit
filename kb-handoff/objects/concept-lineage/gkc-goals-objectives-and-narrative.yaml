@@ -1,0 +1,22 @@
+title: GKC Goals, Objectives, and Narrative
+type: concept-lineage
+short_description: >-
+  Research cluster examining collective goals, who defines them, reflected
+  values, obstacles, history, and narratives of knowledge production.
+toolkit_usage: >-
+  Supports theory-of-change review without treating stated goals as achieved
+  outcomes.
+original_object_type: Framework component
+notes: >-
+  Why add: Supports theory-of-change review without treating stated goals as
+  achieved outcomes. · Status/Caution: Official narratives may underrepresent
+  dissent, failure, or externalized costs. · Parent source system: GKC Research
+  Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row198
+  source_lineage: https://knowledge-commons.net/research-framework/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,25 @@
+title: Disability-Justice Access Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Review a source system, workflow, event or public view through leadership of
+  those most impacted, collective access, sustainability, interdependence and
+  collective liberation.
+potential_uses: >-
+  Governance review, public launches, contributor pathways, meetings, data
+  interfaces and AI workflows.
+dependencies: >-
+  Disabled-led reviewers, access budget, multiple participation formats, privacy
+  protections, remediation authority.
+tradeoffs: >-
+  Can become symbolic consultation or a checklist if disabled people lack
+  decision power and resources.
+context: Sins Invalid / disability justice
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row197
+  source_lineage: https://sinsinvalid.org/10-principles/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

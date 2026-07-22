@@ -1,0 +1,19 @@
+subject: CROSS
+predicate: pairs_with
+object: WALKRI
+type: relationship-record
+title: CROSS — pairs_with — WALKRI
+original_relationship: pairs with
+evidence: >-
+  Standards index and repositories describe the grants obligation and
+  instrumentation pair
+scope: Companion relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row138
+  source_lineage: https://github.com/durgadasji/standards-index
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

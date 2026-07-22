@@ -1,0 +1,17 @@
+title: Technology authorship ≠ system governance
+type: claim-evidence
+claim: Technology authorship ≠ system governance
+interpretation: Represent contribution and unresolved governance separately.
+uncertainty: >-
+  Authors, presenters and developers may contribute substantially without
+  controlling corpus, infrastructure, budgets or releases.
+evidence_stance: qualifying
+context: IARAA contributors
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row443
+  source_lineage: >-
+    https://mst.org.br/2026/05/21/iaraa-uma-ia-para-socializar-os-saberes-do-campo/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

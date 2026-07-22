@@ -1,0 +1,20 @@
+title: Participatory democracy increases trust, learning, equity, and government res…
+type: claim-evidence
+claim: >-
+  Participatory democracy increases trust, learning, equity, and government
+  responsiveness
+interpretation: >-
+  Participatory processes can produce several positive effects under some
+  conditions; assess each process and evidence base separately.
+uncertainty: >-
+  The site summarizes research suggesting positive effects, but outcomes vary by
+  design, authority, recruitment, implementation, and political context.
+evidence_stance: neutral
+context: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row119
+  source_lineage: https://www.peoplepowered.org/about/participatory-democracy
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

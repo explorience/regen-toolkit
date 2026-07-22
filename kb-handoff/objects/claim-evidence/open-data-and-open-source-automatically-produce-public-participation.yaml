@@ -1,0 +1,18 @@
+title: Open data and open source automatically produce public participation
+type: claim-evidence
+claim: Open data and open source automatically produce public participation
+interpretation: >-
+  State what is open and assess who can use it, contribute, influence decisions
+  and sustain it.
+uncertainty: >-
+  Availability can improve reuse but does not overcome exclusion, literacy,
+  disability, language, trust, time or institutional responsiveness.
+evidence_stance: qualifying
+context: g0v / PDIS / JOIN
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row206
+  source_lineage: https://join.gov.tw/aboutus/index/en_US
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

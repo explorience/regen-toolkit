@@ -1,0 +1,24 @@
+title: g0v-to-vTaiwan Community–Institution Interface
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how an autonomous civic-tech community, government participation roles,
+  open tools, hackathons, and policy processes interacted over time.
+what_returns_to_commons: >-
+  Important implementation case for how decentralized civic communities
+  interface with the state without becoming a single authority.
+notes: >-
+  What to capture: Projects and contributors, government actors, mandates,
+  funding, tools, norms, conflict, co-optation risks, open licensing,
+  maintenance, and institutional changes. · Status/Caution: Requires multiple
+  perspectives; do not attribute all vTaiwan or government activity to g0v
+related_source_system: g0v / vTaiwan
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row91
+  source_lineage: https://g0v.tw/intl/en/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,20 @@
+title: SeaTrees Crediting Protocol for Marine Restoration
+type: resource
+resource_type: Credit protocol
+url: >-
+  https://www.registry.regen.network/crediting-protocols/seatrees-crediting-protocol-for-marine-restoration
+original_source: Regen Registry
+notes: >-
+  Why add: Marine-restoration methodology and modular-protocol example. ·
+  Status/Caution: Protocol status, ecosystem-specific evidence, permanence,
+  leakage, and local stewardship need review · Parent source system: Regen
+  Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row27
+  source_lineage: >-
+    https://www.registry.regen.network/crediting-protocols/seatrees-crediting-protocol-for-marine-restoration
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

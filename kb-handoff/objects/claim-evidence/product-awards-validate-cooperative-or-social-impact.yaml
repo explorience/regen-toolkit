@@ -1,0 +1,17 @@
+title: Product awards validate cooperative or social impact
+type: claim-evidence
+claim: Product awards validate cooperative or social impact
+interpretation: Present awards as external recognition signals with clearly bounded scope.
+uncertainty: >-
+  Awards may reflect product quality or market recognition but not governance,
+  livelihoods or ecological performance.
+evidence_stance: qualifying
+context: Nutrilê
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row433
+  source_lineage: >-
+    https://mst.org.br/2024/09/16/agroindustria-nutrile-do-mst-da-paraiba-conquista-tres-premios-no-xviii-enel/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

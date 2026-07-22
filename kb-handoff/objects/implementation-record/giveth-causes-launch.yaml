@@ -1,0 +1,23 @@
+title: Giveth Causes Launch
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: Giveth
+what_returns_to_commons: >-
+  How curation authority, allocation logic, project updates and donor
+  understanding change in a portfolio model.
+notes: >-
+  What to capture: Document the shift from individual donations and QF toward
+  curator-created project collections and AI-assisted Donation Agents. ·
+  Status/Caution: Candidate — current implementation requires observation
+related_source_system: Product evolution case
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row12
+  source_lineage: >-
+    Causes docs; creator rules; project-owner guidance; live Cause examples;
+    allocation explanation.
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

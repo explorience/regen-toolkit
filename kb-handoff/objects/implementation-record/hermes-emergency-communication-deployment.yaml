@@ -1,0 +1,21 @@
+title: HERMES Emergency Communication Deployment
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document one real deployment of HF-based multimedia communication during
+  routine or emergency conditions.
+what_returns_to_commons: High-value resilience case beyond internet-centric infrastructure.
+notes: >-
+  What to capture: Context, users, governance, security, training, uptime,
+  maintenance, failures, alternatives and affected-party experience. ·
+  Status/Caution: Safety-critical; technical and community review required
+related_source_system: Rhizomatica
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row234
+  source_lineage: https://www.rhizomatica.org/hermes/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,19 @@
+title: The Partner State is a ready-made governance model
+type: claim-evidence
+claim: The Partner State is a ready-made governance model
+interpretation: >-
+  Use Partner State as a question about how public institutions can support
+  commons while preserving autonomy and accountability.
+uncertainty: >-
+  The concept is a normative orientation, not a universally tested institutional
+  design.
+evidence_stance: qualifying
+context: Partner State
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row198
+  source_lineage: >-
+    https://primer.commonstransition.org/2-long-articles/2-1-blueprint-for-a-partner-state/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

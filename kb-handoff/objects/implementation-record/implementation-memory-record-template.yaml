@@ -1,0 +1,19 @@
+title: Implementation Memory Record Template
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Keystone template for turning examples into learning without overgeneralizing
+  them.
+notes: >-
+  Priority: Keystone template for turning examples into learning without
+  overgeneralizing them. · Next: Use to create first 3-5 implementation-memory
+  records. · Notes: Core principle: Implementation is not pattern.
+review_needs: Discovery_Pool promotion — prospective candidate
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!IM-TEMPLATE-0001
+  source_lineage: Internal workbook
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

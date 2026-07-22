@@ -1,0 +1,16 @@
+subject: Data + Feminism Lab
+predicate: collaborates_with
+object: Data Against Feminicide
+type: relationship-record
+title: Data + Feminism Lab — collaborates_with — Data Against Feminicide
+original_relationship: participates in
+evidence: Lab/project sources identify the collaboration.
+scope: Collaborative relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row209
+  source_lineage: https://dusp.mit.edu/projects/data-against-feminicide
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

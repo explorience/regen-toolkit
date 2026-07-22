@@ -1,0 +1,16 @@
+title: Additional records do not automatically improve usefulness or trustworthiness.
+type: claim-evidence
+claim: Additional records do not automatically improve usefulness or trustworthiness.
+interpretation: Database-wide
+uncertainty: Scope Freeze and Backlog
+evidence_stance: neutral
+context: >-
+  Require a documented structural gap or user-driven need before reopening
+  expansion.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row503
+  source_lineage: Active
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

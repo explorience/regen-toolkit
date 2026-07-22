@@ -1,0 +1,18 @@
+title: Luke Miller
+type: person
+full_name: Luke Miller
+affiliation: KOI Pond
+consent_status: unverified — default non-public (Principle 8)
+url: https://metagov.org/projects/koi-pond/project-details
+notes: >-
+  Why add: Key technical steward and contributor lead. · Status/Caution: Public
+  professional role only; do not infer broader authority · Parent source system:
+  KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row97
+  source_lineage: https://metagov.org/projects/koi-pond/project-details
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: Movimento dos Trabalhadores Rurais Sem Terra (MST)
+type: organization
+org_type: Movement / source system
+url: https://mst.org.br/
+steward: La Vía Campesina / Brazil
+notes: >-
+  Why add: High-value movement-led source system branching from the
+  agroecology-school sequence. · Status/Caution: Current primary source;
+  movement reporting requires contextual review · Parent source system: La Vía
+  Campesina / Brazil
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row670
+  source_lineage: https://mst.org.br/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

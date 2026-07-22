@@ -1,0 +1,22 @@
+subject: MST Production Sector
+predicate: coordinates_with
+object: UNICRAB and cooperative productive chains
+type: relationship-record
+title: >-
+  MST Production Sector — coordinates_with — UNICRAB and cooperative productive
+  chains
+original_relationship: coordinates with
+evidence: >-
+  2025 reporting links movement production leadership, cooperatives and
+  approximately 30 chains.
+scope: Organizer-reported snapshot
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row407
+  source_lineage: >-
+    https://mst.org.br/2025/05/11/cooperativas-do-mst-colheitas-de-resistencia-e-esperanca-no-campo-brasileiro/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

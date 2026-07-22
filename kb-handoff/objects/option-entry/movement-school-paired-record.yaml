@@ -1,0 +1,18 @@
+title: Movement-School Paired Record
+type: option-entry
+category: governance
+what_it_is: >-
+  Represent a movement and its school as connected but distinct governed
+  objects.
+potential_uses: FENSUAGRO–María Cano; ATC–Ixim Ulew
+dependencies: Prevents school outputs from standing in for movement governance.
+tradeoffs: Affiliation and decision rights must be evidenced.
+context: Knowledge architecture
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row314
+  source_lineage: Candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

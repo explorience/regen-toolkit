@@ -1,0 +1,19 @@
+title: Participatory Components
+type: concept-lineage
+short_description: >-
+  Reusable mechanisms placed inside spaces, including proposals, meetings,
+  debates, surveys, budgets, accountability and sortitions.
+toolkit_usage: Direct comparator for modular Toolkit capabilities composed within contexts.
+original_object_type: Architecture concept
+notes: >-
+  Why add: Direct comparator for modular Toolkit capabilities composed within
+  contexts. · Status/Caution: Components enable interaction but do not determine
+  process quality · Parent source system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row288
+  source_lineage: https://docs.decidim.org/en/develop/features/components.html
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

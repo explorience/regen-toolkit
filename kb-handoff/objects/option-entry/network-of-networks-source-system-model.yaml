@@ -1,0 +1,25 @@
+title: Network-of-Networks Source-System Model
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Connect autonomous regional and thematic networks through shared discovery,
+  assemblies, dialogue and solidarity without creating one central directory
+  authority.
+potential_uses: >-
+  Knowledge commons federation, source-system stewardship, regional nodes,
+  movement learning.
+dependencies: >-
+  Clear weaver criteria, local authority, multilingual participation, relational
+  data model, correction and exit rights.
+tradeoffs: >-
+  The coordinating layer can still centralize visibility, flatten differences or
+  privilege well-connected networks.
+context: Global Tapestry of Alternatives
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row246
+  source_lineage: https://globaltapestryofalternatives.org/introduction
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,25 @@
+title: Community Mobile Telephony and Indigenous Communication in Oaxaca
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace the institutional, technical, legal and community process around locally
+  governed telecommunications and Indigenous/community concessions.
+what_returns_to_commons: >-
+  High-value case for technological autonomy, Indigenous communication rights
+  and policy change.
+notes: >-
+  What to capture: Community origins; ownership; spectrum and licenses;
+  training; technical architecture; language; governance; maintenance; external
+  partners; outcomes; disputes. · Status/Caution: High sensitivity;
+  community-approved sources and attribution required
+related_source_system: Rhizomatica / REDES A.C. / community partners
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row230
+  source_lineage: https://redesac.org.mx/
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

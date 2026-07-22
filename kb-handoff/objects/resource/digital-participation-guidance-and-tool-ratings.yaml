@@ -1,0 +1,18 @@
+title: Digital Participation Guidance and Tool Ratings
+type: resource
+resource_type: Digital participation resource
+url: https://www.peoplepowered.org/about/what-we-do
+original_source: People Powered
+notes: >-
+  Why add: Direct comparator for the Toolkit’s option comparison, tool
+  selection, and implementation cautions. · Status/Caution: Tool ratings are
+  context-sensitive and should be versioned, criteria-transparent, and separated
+  from endorsement. · Parent source system: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row255
+  source_lineage: https://www.peoplepowered.org/about/what-we-do
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

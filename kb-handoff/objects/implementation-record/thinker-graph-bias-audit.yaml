@@ -1,0 +1,21 @@
+title: Thinker Graph Bias Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Review whose traditions, regions, disciplines, languages, genders, and forms
+  of knowledge are being centered or omitted.
+what_returns_to_commons: Reduces canon-building and visibility bias in the thinker graph.
+notes: >-
+  What to capture: Selection process, source availability, citation patterns,
+  social signals, lived-practice knowledge, critiques and corrective branches. ·
+  Status/Caution: Priority after fifth or sixth cluster
+related_source_system: Thinker expansion process
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row154
+  source_lineage: Internal synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

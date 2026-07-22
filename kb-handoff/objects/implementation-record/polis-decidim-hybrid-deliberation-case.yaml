@@ -1,0 +1,24 @@
+title: Polis / Decidim Hybrid Deliberation Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document a process using broad proposal infrastructure plus computational
+  opinion mapping and later accountability.
+what_returns_to_commons: >-
+  Tests complementarity between modular participation and computational
+  deliberation.
+notes: >-
+  What to capture: Recruitment, platform roles, statement moderation,
+  clustering, proposal workflow, responses, implementation, privacy and
+  evaluation. · Status/Caution: Experimental candidate; do not assume tool
+  integration improves legitimacy
+related_source_system: Polis + Decidim
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row102
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

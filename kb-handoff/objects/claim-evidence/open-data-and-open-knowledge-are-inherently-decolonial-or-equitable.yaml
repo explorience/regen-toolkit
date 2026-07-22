@@ -1,0 +1,18 @@
+title: Open data and open knowledge are inherently decolonial or equitable
+type: claim-evidence
+claim: Open data and open knowledge are inherently decolonial or equitable
+interpretation: >-
+  Separate openness from legitimacy; apply community authority, purpose,
+  benefit, responsibility and ethics review.
+uncertainty: >-
+  Open publication can conflict with collective rights, cultural authority,
+  privacy, benefit sharing and the right not to disclose.
+evidence_stance: qualifying
+context: Indigenous data governance gap
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row242
+  source_lineage: https://www.gida-global.org/care
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

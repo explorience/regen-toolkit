@@ -1,0 +1,18 @@
+title: An AI Donation Agent objectively allocates to the highest-impact projects
+type: claim-evidence
+claim: An AI Donation Agent objectively allocates to the highest-impact projects
+interpretation: >-
+  Giveth Causes uses an AI-assisted allocation process; its criteria, data,
+  oversight and limitations should be visible and challengeable.
+uncertainty: >-
+  Model criteria, data quality, curator choices and project visibility influence
+  allocations.
+evidence_stance: neutral
+context: Giveth Causes
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row26
+  source_lineage: https://docs.giveth.io/donation-agents
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

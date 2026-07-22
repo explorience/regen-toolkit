@@ -13,10 +13,12 @@ dependencies: >-
 tradeoffs: >-
   Framework use can appear rigorous while missing lived risk or unequal
   bargaining power.
+context: GKC + Contextual Integrity
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row5
+  origin: Canonical_DB.xlsx#Option Candidates!row70
   source_lineage: https://knowledge-commons.net/publications/privacy-book/
-work_order: wo-e5b7999ca3a5
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

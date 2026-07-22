@@ -1,0 +1,16 @@
+subject: IARAA
+predicate: supports
+object: Connexus
+type: relationship-record
+title: IARAA — supports — Connexus
+original_relationship: supported by
+evidence: Public platform contains a support attribution.
+scope: Scope and conditions unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row431
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

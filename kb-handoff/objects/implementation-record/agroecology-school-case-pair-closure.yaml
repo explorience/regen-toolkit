@@ -1,0 +1,22 @@
+title: Agroecology School Case-Pair Closure
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Closed the paired evidence-case sequence and retained both as complementary
+  movement-owned education cases.
+what_returns_to_commons: >-
+  Creates a bounded end to case development and prevents endless polishing
+  before returning to expansion.
+notes: >-
+  What to capture: Shared review fields, unresolved evidence, public-use limits,
+  human-review needs and new branching leads. · Status/Caution: Completed
+related_source_system: Shashe + Amrita Bhoomi
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row275
+  source_lineage: Internal closure — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

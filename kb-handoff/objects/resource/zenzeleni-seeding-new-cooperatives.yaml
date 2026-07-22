@@ -1,0 +1,17 @@
+title: Zenzeleni Seeding New Cooperatives
+type: resource
+resource_type: Replication programme
+url: https://zenzeleni.net/our-services/
+original_source: Zenzeleni
+notes: >-
+  Why add: Important replication and federation case. · Status/Caution:
+  Replication should preserve community choice rather than copy a template ·
+  Parent source system: Zenzeleni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row573
+  source_lineage: https://zenzeleni.net/our-services/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

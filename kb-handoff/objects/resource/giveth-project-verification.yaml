@@ -1,0 +1,16 @@
+title: Giveth Project Verification
+type: resource
+resource_type: Workflow
+url: https://docs.giveth.io/projectverification
+original_source: Giveth
+notes: >-
+  Why add: Important platform review workflow. · Status/Caution:
+  Platform-specific; not universal certification · Parent source system: Giveth
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row4
+  source_lineage: https://docs.giveth.io/projectverification
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

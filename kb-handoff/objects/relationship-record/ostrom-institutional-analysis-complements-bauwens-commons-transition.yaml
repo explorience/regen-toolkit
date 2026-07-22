@@ -1,0 +1,19 @@
+subject: Ostrom institutional analysis
+predicate: complements
+object: Bauwens commons transition
+type: relationship-record
+title: Ostrom institutional analysis — complements — Bauwens commons transition
+original_relationship: complements
+evidence: >-
+  Institutional rules and empirical context complement political-economic
+  transition and production models.
+scope: Interpretive synthesis; not a claim of direct collaboration
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row148
+  source_lineage: Internal cross-review
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

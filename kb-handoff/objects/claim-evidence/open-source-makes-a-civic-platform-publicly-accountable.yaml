@@ -1,18 +1,19 @@
 title: Open source makes a civic platform publicly accountable
 type: claim-evidence
 claim: Open source makes a civic platform publicly accountable
-caution: >-
+interpretation: >-
+  State the license, maintainers, hosting, governance, contribution process,
+  auditability, and practical accessibility separately.
+uncertainty: >-
   Source visibility supports inspection and reuse but does not guarantee
   understandable governance, inclusive contribution, security, or public
   control.
-safe_working_language: >-
-  State the license, maintainers, hosting, governance, contribution process,
-  auditability, and practical accessibility separately.
-claim_kind: Caution
+evidence_stance: qualifying
+context: Polis / g0v
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Claims and Cautions!row6
+  origin: Canonical_DB.xlsx#Claims and Cautions!row133
   source_lineage: https://github.com/compdemocracy/polis
-work_order: wo-b0da4f8a6f05
+work_order: wo-8c810a6700ec
 source_lineage: claims-cautions.csv

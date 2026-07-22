@@ -1,0 +1,16 @@
+subject: Algorithmic Justice League
+predicate: maintained_by
+object: Freedom Flyers campaign
+type: relationship-record
+title: Algorithmic Justice League — maintained_by — Freedom Flyers campaign
+original_relationship: operates
+evidence: AJL campaign and report pages.
+scope: Campaign relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row215
+  source_lineage: https://www.ajl.org/campaigns/fly
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

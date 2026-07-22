@@ -1,0 +1,16 @@
+subject: Pilot output
+predicate: maintained_by
+object: Named maintenance steward
+type: relationship-record
+title: Pilot output — maintained_by — Named maintenance steward
+original_relationship: maintained by
+evidence: Public or shared records require correction ownership after the pilot.
+scope: No publication without owner
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row289
+  source_lineage: Internal synthesis — 2026-07-10
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Accessible AI is achieved through readable outputs
+type: claim-evidence
+claim: Accessible AI is achieved through readable outputs
+interpretation: >-
+  Assess interface access, data rights, use-case legitimacy, governance, labor
+  and remediation together.
+uncertainty: >-
+  Readable interfaces do not resolve disability inference, harmful use cases,
+  biased classifications, surveillance or lack of refusal rights.
+evidence_stance: qualifying
+context: Toolkit AI / agents
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row304
+  source_lineage: Internal disability-access review
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

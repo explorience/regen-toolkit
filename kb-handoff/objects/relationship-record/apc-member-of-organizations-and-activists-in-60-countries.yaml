@@ -1,0 +1,19 @@
+subject: APC
+predicate: member_of
+object: Organizations and activists in 60 countries
+type: relationship-record
+title: APC — member_of — Organizations and activists in 60 countries
+original_relationship: has member / associate network
+evidence: >-
+  APC reports 73 organizational members and 44 associates active in 60
+  countries.
+scope: Current organizer-reported network count; membership is not endorsement
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row291
+  source_lineage: https://www.apc.org/en/network
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

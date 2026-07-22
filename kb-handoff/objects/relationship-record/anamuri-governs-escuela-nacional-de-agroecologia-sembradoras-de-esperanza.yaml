@@ -1,0 +1,16 @@
+subject: ANAMURI
+predicate: governs
+object: Escuela Nacional de Agroecología Sembradoras de Esperanza
+type: relationship-record
+title: ANAMURI — governs — Escuela Nacional de Agroecología Sembradoras de Esperanza
+original_relationship: governs / convenes
+evidence: School described through ANAMURI materials and CLOC agroecology strategy.
+scope: Exact governance and current staffing require review.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row480
+  source_lineage: https://anamuri.cl/wp-content/uploads/2025/12/6-2.pdf
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Programmable governance makes communities more democratic
+type: claim-evidence
+claim: Programmable governance makes communities more democratic
+interpretation: >-
+  PolicyKit can help communities author and execute procedures; governance
+  quality depends on who writes the rules, who is affected, and how rules are
+  challenged.
+uncertainty: >-
+  The ability to encode procedures does not establish participation quality,
+  legitimacy, inclusion, or fair outcomes.
+evidence_stance: neutral
+context: Metagov / PolicyKit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row33
+  source_lineage: https://metagov.org/projects/policykit
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

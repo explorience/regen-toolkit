@@ -1,0 +1,18 @@
+title: FtC residencies have supported over 80 builders
+type: claim-evidence
+claim: FtC residencies have supported over 80 builders
+interpretation: >-
+  State it as an organizer-reported participation count and seek cohort, output,
+  and follow-up records before drawing impact conclusions.
+uncertainty: >-
+  This is an organizer-reported cumulative figure without visible
+  participant-level outcome accounting on the cited page.
+evidence_stance: neutral
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row85
+  source_lineage: https://www.fundingthecommons.io/builderresidency2025
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

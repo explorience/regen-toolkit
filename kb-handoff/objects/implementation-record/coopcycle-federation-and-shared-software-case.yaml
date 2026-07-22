@@ -1,0 +1,22 @@
+title: CoopCycle Federation and Shared-Software Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how local delivery cooperatives share software, governance, support,
+  financing, standards, and bargaining power across the federation.
+what_returns_to_commons: Strong model for federated infrastructure and local-node interoperability.
+notes: >-
+  What to capture: Member criteria; voting; fees; software governance;
+  maintainers; local autonomy; labor standards; conflicts; sustainability;
+  member outcomes. · Status/Caution: Requires member-cooperative evidence, not
+  only federation descriptions
+related_source_system: CoopCycle
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row188
+  source_lineage: https://coopcycle.org/en/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

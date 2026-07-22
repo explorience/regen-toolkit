@@ -1,0 +1,18 @@
+title: vTaiwan
+type: resource
+resource_type: Civic process / source system
+url: https://www.vtaiwan.tw/
+original_source: Computational Democracy Project / Polis + vTaiwan
+notes: >-
+  Why add: Mature hybrid process linking digital deliberation to government
+  participation and policy response. · Status/Caution: Current site and legacy
+  process descriptions differ; case status and policy effects should be dated ·
+  Parent source system: Computational Democracy Project / Polis + vTaiwan
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row275
+  source_lineage: https://www.vtaiwan.tw/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

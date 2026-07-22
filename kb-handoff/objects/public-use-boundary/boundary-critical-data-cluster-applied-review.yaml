@@ -1,0 +1,12 @@
+title: Boundary — Critical Data Cluster Applied Review
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  What to capture: Distinct questions from each lineage, reviewer authority,
+  conflicts, design changes, unresolved issues, compensation and public-use
+  decision. · Status/Caution: High priority after appropriate reviewers and
+  budget are available
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Implementation Memory!row186
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

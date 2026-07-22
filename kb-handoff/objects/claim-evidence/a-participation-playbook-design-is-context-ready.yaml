@@ -1,0 +1,18 @@
+title: A Participation Playbook design is context-ready
+type: claim-evidence
+claim: A Participation Playbook design is context-ready
+interpretation: >-
+  Use the Playbook as structured preparation alongside local expertise,
+  affected-party design, and iterative review.
+uncertainty: >-
+  A guided tool cannot fully capture local politics, legal constraints,
+  language, culture, conflict, safety, or institutional capacity.
+evidence_stance: qualifying
+context: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row122
+  source_lineage: https://www.peoplepowered.org/participation-playbook
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

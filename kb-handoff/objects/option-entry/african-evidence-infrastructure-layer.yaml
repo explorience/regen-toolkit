@@ -1,0 +1,18 @@
+title: African Evidence Infrastructure Layer
+type: option-entry
+category: governance
+what_it_is: >-
+  Use longitudinal datasets, country studies and policy research as evidence
+  inputs while preserving method, geography and time scope.
+potential_uses: Digital access, DPI, AI governance, inclusion and regulatory comparison.
+dependencies: Dataset documentation, country context, update cadence and domain review.
+tradeoffs: Quantitative evidence can crowd out lived experience and informal systems.
+context: Research ICT Africa
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row240
+  source_lineage: https://researchictafrica.net/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

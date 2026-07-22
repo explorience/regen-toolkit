@@ -1,0 +1,18 @@
+title: A diverse-looking thinker list is a balanced knowledge graph
+type: claim-evidence
+claim: A diverse-looking thinker list is a balanced knowledge graph
+interpretation: >-
+  Assess what roles people occupy, which ideas structure the system, whose work
+  is treated as theory versus case material, and who can challenge the graph.
+uncertainty: >-
+  Visible demographic or geographic variety does not establish balanced
+  authority, conceptual coverage, source quality or community accountability.
+evidence_stance: qualifying
+context: Thinker graph review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row237
+  source_lineage: Internal bias-review synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

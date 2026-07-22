@@ -1,0 +1,23 @@
+title: TrustGraph Evaluation
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  An evaluation or retrospective of a network-mapping or trust-infrastructure
+  experiment listed in the OpenCivics archive.
+what_returns_to_commons: >-
+  Strong candidate for learning about relationship mapping without turning a
+  commons into a surveillance graph.
+notes: >-
+  What to capture: Evaluation question, methodology, users, data governance,
+  findings, adverse signals, privacy, changes made, and publication status. ·
+  Status/Caution: Candidate; full report must be reviewed.
+related_source_system: OpenCivics / TrustGraph
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row44
+  source_lineage: https://www.opencivics.co/network
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

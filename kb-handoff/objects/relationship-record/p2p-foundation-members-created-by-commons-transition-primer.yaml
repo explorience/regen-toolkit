@@ -1,0 +1,16 @@
+subject: P2P Foundation members
+predicate: created_by
+object: Commons Transition Primer
+type: relationship-record
+title: P2P Foundation members — created_by — Commons Transition Primer
+original_relationship: created / adapted
+evidence: Primer states texts were written and adapted by project members
+scope: Collective authorship should be preserved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row111
+  source_lineage: https://primer.commonstransition.org/4-more/5-elements/about-this-site/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

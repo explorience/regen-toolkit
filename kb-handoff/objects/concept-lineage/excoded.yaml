@@ -1,0 +1,22 @@
+title: Excoded
+type: concept-lineage
+short_description: >-
+  Term used for people harmed, excluded or misrecognized by algorithmic systems
+  and their institutional deployment.
+toolkit_usage: >-
+  Keeps human experience and institutional consequences visible beyond
+  model-level performance metrics.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Keeps human experience and institutional consequences visible beyond
+  model-level performance metrics. · Status/Caution: Use with care and respect
+  for how affected people describe their own experiences · Parent source system:
+  Algorithmic Justice League / Joy Buolamwini
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row481
+  source_lineage: https://www.ajl.org/gender-shades-justice-award
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

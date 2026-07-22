@@ -1,0 +1,20 @@
+title: The Registry Assistant scales verification
+type: claim-evidence
+claim: The Registry Assistant scales verification
+interpretation: >-
+  The Registry Assistant is intended to support review preparation and analysis;
+  verification authority and responsibility remain with the relevant human and
+  institutional process.
+uncertainty: >-
+  AI can accelerate document processing while also introducing automation bias
+  or errors in high-stakes ecological review.
+evidence_stance: neutral
+context: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row53
+  source_lineage: >-
+    https://forum.regen.network/t/the-registry-assistant-scaling-regenerative-verification-through-intelligent-infrastructure/577
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

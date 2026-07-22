@@ -1,0 +1,21 @@
+title: Design-Principle Review Prompts
+type: option-entry
+category: governance
+what_it_is: >-
+  Use commons design principles as questions for review rather than as
+  compliance requirements.
+potential_uses: Governance workshops, stewardship health checks, source-system comparisons.
+dependencies: Domain translation, evidence, dissent capture, affected-party review.
+tradeoffs: >-
+  Checklist use can flatten context and falsely imply Ostrom-certified
+  governance.
+context: Elinor Ostrom lineage
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row127
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/doc/teaching/applying-iad-to-design-principles.pdf
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -48,6 +48,8 @@
     "obligation": "https://regen-commons.org/ns/obligation",
     "risk": "https://regen-commons.org/ns/risk",
     "public-use-boundary": "https://regen-commons.org/ns/public-use-boundary",
+    "relationship-record": "https://regen-commons.org/ns/relationship-record",
+    "organization": "https://regen-commons.org/ns/organization",
     "is_a": {
       "@id": "https://regen-commons.org/ns/is_a",
       "@type": "@id"

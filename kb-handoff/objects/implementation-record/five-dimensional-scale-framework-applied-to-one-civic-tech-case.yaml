@@ -1,0 +1,25 @@
+title: Five-Dimensional Scale Framework Applied to One Civic-Tech Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply the five dimensions to one mature deliberative system such as Decidim,
+  Pol.is/vTaiwan, or a citizens’ assembly platform.
+what_returns_to_commons: >-
+  Turns a research framework into implementation learning and supports formal
+  Batch 1C comparison.
+notes: >-
+  What to capture: Participation reach, governance level, repeated use,
+  institutional influence, deliberative quality, technology role, exclusions,
+  and evidence sources. · Status/Caution: Candidate; framework application needs
+  domain review and should not become certification
+related_source_system: DemocracyNext + selected civic platform
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row60
+  source_lineage: >-
+    https://www.demnext.org/action/five-dimensions-of-scaling-democratic-deliberation-with-and-beyond-ai
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

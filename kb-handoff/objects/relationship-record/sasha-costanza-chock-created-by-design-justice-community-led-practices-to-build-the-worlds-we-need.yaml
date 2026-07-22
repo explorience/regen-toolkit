@@ -1,0 +1,18 @@
+subject: Sasha Costanza-Chock
+predicate: created_by
+object: 'Design Justice: Community-Led Practices to Build the Worlds We Need'
+type: relationship-record
+title: >-
+  Sasha Costanza-Chock — created_by — Design Justice: Community-Led Practices to
+  Build the Worlds We Need
+original_relationship: authored
+evidence: Named author; published by MIT Press in 2020.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row177
+  source_lineage: https://designjustice.mitpress.mit.edu/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

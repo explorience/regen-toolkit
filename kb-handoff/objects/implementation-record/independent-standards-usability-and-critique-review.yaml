@@ -1,0 +1,24 @@
+title: Independent Standards Usability and Critique Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Invite grant practitioners, community stewards, affected participants and
+  standards experts to test selected materials and document friction, harms and
+  missing assumptions.
+what_returns_to_commons: >-
+  Addresses the largest evidence gap: external usability and validation beyond
+  maintainer-authored materials.
+notes: >-
+  What to capture: User contexts; tasks; comprehension; adoption barriers; false
+  assurance; power effects; accessibility; revisions; unresolved critiques. ·
+  Status/Caution: Priority before consequential or public conformance claims
+related_source_system: Durgadas / CSIS lineage
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row150
+  source_lineage: https://github.com/durgadasji/standards-index
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

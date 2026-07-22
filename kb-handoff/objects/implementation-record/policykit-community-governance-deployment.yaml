@@ -1,0 +1,24 @@
+title: PolicyKit Community Governance Deployment
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document a community that authored and used a PolicyKit procedure on its home
+  platform.
+what_returns_to_commons: >-
+  Tests the gap between programmable procedure and legitimate, durable community
+  governance.
+notes: >-
+  What to capture: Problem, existing governance, rule authors, code, affected
+  users, participation, appeals, failures, maintenance, and whether the
+  procedure remained in use. · Status/Caution: Candidate; requires an
+  identifiable deployment and community consent.
+related_source_system: Metagov / PolicyKit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row16
+  source_lineage: https://metagov.org/projects/policykit
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

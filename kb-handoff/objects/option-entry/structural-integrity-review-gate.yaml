@@ -1,0 +1,22 @@
+title: Structural-Integrity Review Gate
+type: option-entry
+category: governance
+what_it_is: >-
+  Run selected CSIS standards before promoting source-system cards, claims,
+  governance rules or public-facing outputs.
+potential_uses: Quality review, public-use review, governance design and technical handoff.
+dependencies: >-
+  Clearly scoped standard selection, trained reviewers, affected-party input,
+  documented findings and correction path.
+tradeoffs: >-
+  Can create bureaucratic burden, false assurance or maintainer dependence;
+  reference is not conformance.
+context: Durgadas / CSIS
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row143
+  source_lineage: https://coordination-structural-integrity-suite.github.io/ai/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

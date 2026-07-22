@@ -1,0 +1,25 @@
+title: Balanced Governance Source-System Portfolio
+type: option-entry
+category: governance
+what_it_is: >-
+  Compose foundational commons research, experimental online governance, mature
+  participatory software, comparative cases, practitioner capacity, and
+  computational deliberation into one source-system batch.
+potential_uses: >-
+  Toolkit source expansion, governance track design, case comparison,
+  relationship mapping, public contributor pathways.
+dependencies: >-
+  Clear object boundaries, source-specific methods, review roles,
+  status/versioning and explicit cross-links.
+tradeoffs: >-
+  Breadth can become unmanageable; systems may be flattened into a false unified
+  framework or ranked without context.
+context: Batch 1C core set
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row63
+  source_lineage: Internal Batch 1C selection synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

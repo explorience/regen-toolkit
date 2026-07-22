@@ -1,0 +1,16 @@
+title: Metadecidim has solved sustainable governance
+type: claim-evidence
+claim: Metadecidim has solved sustainable governance
+interpretation: Treat it as an important experiment with unresolved sustainability questions.
+uncertainty: >-
+  Its own process documents volunteer overload, funding dependence and labor
+  challenges.
+evidence_stance: neutral
+context: Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row147
+  source_lineage: https://meta.decidim.org/processes/sustainability-governance
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,24 @@
+title: >-
+  United Nations Declaration on the Rights of Peasants and Other People Working
+  in Rural Areas (UNDROP)
+type: concept-lineage
+short_description: >-
+  International rights declaration recognizing peasants and other rural workers
+  as political subjects with rights related to land, seeds, biodiversity,
+  livelihoods and participation.
+toolkit_usage: Adds rights-based safeguards for ecological and rural project records.
+original_object_type: Rights framework
+notes: >-
+  Why add: Adds rights-based safeguards for ecological and rural project
+  records. · Status/Caution: Declaration and implementation mechanisms are
+  distinct; legal status varies by context · Parent source system: La Vía
+  Campesina / United Nations
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row638
+  source_lineage: >-
+    https://viacampesina.org/en/2018/12/united-nations-declaration-on-the-rights-of-peasants-and-other-people-working-in-rural-areas/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+title: Implementation Is Not Pattern
+type: claim-evidence
+claim: Implementation Is Not Pattern
+uncertainty: Public-use ready as a cautionary principle with caveats
+notes: >-
+  Priority: A real-world implementation can produce useful learning, but it
+  should not automatically be treated as a reusable pattern, proof,
+  recommendation, or best practice. · Next: Add to implementation memory
+  guidance; link to Developed Impl Memory; develop full claim record later if
+  needed. · Notes: Batch 1A compact guardrail claim.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04913
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

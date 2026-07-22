@@ -1,0 +1,26 @@
+title: Mutual Aid Disaster Relief
+type: movement
+steward: Mutual Aid Disaster Relief
+return_path: unset — establish via register-source
+url: https://mutualaiddisasterrelief.org/
+what_it_curates: >-
+  Disaster-response guides, safety resources, anti-oppression materials,
+  infrastructure and direct-action education
+why_it_matters: Primarily United States; networked solidarity practice
+caution: >-
+  Decentralized networks change quickly; public directories and guides do not
+  verify every group, practice or safety condition | Workflow status: Selected
+  in final bounded source-system expansion
+extraction_status: >-
+  Fills mutual aid, disaster response, resilience, rapid coordination and
+  solidarity-not-charity gap
+notes: 'Role: Grassroots disaster-relief and mutual-aid resource network · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row67
+  source_lineage: https://mutualaiddisasterrelief.org/
+normalization_flag: REPAIR-SS-67
+review_needs: 'Matty dup-flag REPAIR-SS-67: Late-row schema shift'
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

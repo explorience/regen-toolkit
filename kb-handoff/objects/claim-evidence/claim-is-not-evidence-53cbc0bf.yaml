@@ -1,0 +1,20 @@
+title: Claim Is Not Evidence
+type: claim-evidence
+claim: Claim Is Not Evidence
+uncertainty: >-
+  Public-use ready as cautionary principle with caveats; do not treat as fully
+  externally reviewed framework.
+notes: >-
+  Priority: A claim can be useful, source-linked, important, inspiring, or worth
+  preserving without being treated as evidence. Claims should be preserved for
+  review; they are not treated as evidence by default. · Next: Add as core
+  structural integrity principle; link to related guardrail claims; use as
+  baseline rule for future claim candidates. · Notes: Added in Batch 1A Claims
+  update.
+review_needs: Discovery_Pool promotion — verify claim + evidence
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04907
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

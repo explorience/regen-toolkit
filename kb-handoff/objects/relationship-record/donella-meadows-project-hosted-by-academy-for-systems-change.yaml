@@ -1,0 +1,17 @@
+subject: Donella Meadows Project
+predicate: hosted_by
+object: Academy for Systems Change
+type: relationship-record
+title: Donella Meadows Project — hosted_by — Academy for Systems Change
+original_relationship: hosted by
+evidence: Current project relationship stated by both sites.
+scope: Current organizational relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row155
+  source_lineage: https://www.academyforchange.org/donella-meadows-project
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

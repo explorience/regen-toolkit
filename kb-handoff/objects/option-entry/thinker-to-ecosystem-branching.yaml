@@ -1,0 +1,25 @@
+title: Thinker-to-Ecosystem Branching
+type: option-entry
+category: coordination
+what_it_is: >-
+  Map a thinker through community, public institutions, tools, publications,
+  protocols, collaborators and cases rather than attributing the ecosystem to
+  the individual.
+potential_uses: >-
+  People graph, source-system mapping, civic-tech research, curriculum and
+  review-lens design.
+dependencies: >-
+  Role-scoped relationships, primary sources, collective attribution,
+  current-state checks, critique inclusion.
+tradeoffs: >-
+  Can reproduce charismatic-person narratives and erase collective,
+  institutional or political work.
+context: Audrey Tang / g0v / Plurality
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row136
+  source_lineage: Internal thinker-cluster synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

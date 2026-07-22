@@ -1,0 +1,16 @@
+subject: Municipality of Mérida
+predicate: implements_or_uses
+object: Decidim / Decide Mérida
+type: relationship-record
+title: Municipality of Mérida — implements_or_uses — Decidim / Decide Mérida
+original_relationship: uses
+evidence: Decidim site describes use for municipal development planning.
+scope: Verify with municipal source
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row62
+  source_lineage: https://decidim.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,25 @@
+title: Solidarity-Funded Education Infrastructure
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Combine movement stewardship, supporter networks, campaigns, partnerships and
+  transparent maintenance planning for shared educational infrastructure.
+potential_uses: >-
+  Knowledge-commons maintenance, movement schools, community campuses,
+  contributor support.
+dependencies: >-
+  Budget transparency, paid labor, governance, donor influence safeguards,
+  maintenance reserves and accessibility.
+tradeoffs: >-
+  Campaign funding may be unstable, burden supporters or conceal unpaid
+  maintenance work.
+context: ENFF
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row287
+  source_lineage: >-
+    https://mst.org.br/2026/06/18/escola-nacional-florestan-fernandes-faz-campanha-de-bilhetes-da-solidariedade-ate-27-de-junho/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

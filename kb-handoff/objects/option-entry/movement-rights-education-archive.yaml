@@ -1,0 +1,22 @@
+title: Movement Rights-Education Archive
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Maintain practical worker-facing booklets, radio, video and congress records
+  alongside historical and political materials.
+potential_uses: >-
+  Worker safety, public legal education, organizational memory and
+  multilingual/multimodal knowledge access.
+dependencies: >-
+  Editorial stewardship, update dates, jurisdiction labels, accessibility,
+  consent and archive maintenance.
+tradeoffs: Outdated legal information or decontextualized testimony can cause harm.
+context: ANAMURI Publications and Multimedia Archive
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row321
+  source_lineage: https://anamuri.cl/cartillastemporeras/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

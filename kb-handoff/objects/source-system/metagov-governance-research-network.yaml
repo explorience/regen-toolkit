@@ -1,5 +1,5 @@
 title: Metagov / Governance Research Network
-type: knowledge-garden
+type: publication
 steward: Metagov / Governance Research Network
 return_path: unset — establish via register-source
 url: https://metagov.org/
@@ -13,16 +13,23 @@ why_it_matters: >-
   standards, datasets, experiments, and communities that enable self-governance
   in the digital age. It bridges governance research, online-community practice,
   civic and DAO tooling, field memory, and institutional experimentation.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row6
-  source_lineage: https://metagov.org/
 caution: >-
   Metagov contains projects at different maturity states. A research prototype,
   seminar, dataset, standard, completed project, paused tool, or speculative
   governance experiment should not be treated as the same kind of evidence.
   Community participation and public archives also require privacy, consent,
   attribution, and status-sensitive interpretation.
+extraction_status: >-
+  Governance datasets and taxonomies; community-authored governance procedures;
+  interoperable deliberation; digital constitutions; polycentric and game-based
+  governance experiments; AI-mediated knowledge infrastructure; standards
+  development; practitioner–researcher convening; qualitative governance
+  research funding.
+notes: 'Role: Core Batch 1C source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row5
+  source_lineage: https://metagov.org/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

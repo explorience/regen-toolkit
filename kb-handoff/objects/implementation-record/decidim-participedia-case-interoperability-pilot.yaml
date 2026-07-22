@@ -1,0 +1,23 @@
+title: Decidim–Participedia Case Interoperability Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Map one Decidim process and its proposals/results into Participedia-style
+  case, method, organization and collection records.
+what_returns_to_commons: >-
+  Tests direct interoperability between a live participation platform and a case
+  commons.
+notes: >-
+  What to capture: Field crosswalk, identifiers, narrative context, source URLs,
+  licenses, contributor history, missing data and correction workflow. ·
+  Status/Caution: Candidate; licensing and privacy review required
+related_source_system: Decidim + Participedia
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row100
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

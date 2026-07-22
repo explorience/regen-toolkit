@@ -1,0 +1,24 @@
+title: gov/acc Structured Governance Problem Mapping
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document how structured interviews became problem statements, urgency scores,
+  solution maps, actor maps, and a public research roadmap.
+what_returns_to_commons: >-
+  Provides a live comparison case for AI-assisted knowledge commoning and
+  roadmap creation.
+notes: >-
+  What to capture: Sampling, consent, Harmonica prompts, interview data,
+  normalization, scoring, human review, disagreement, missing perspectives,
+  revisions, and downstream use. · Status/Caution: Priority candidate;
+  AI-assisted and sample-limited.
+related_source_system: Metagov / gov/acc
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row18
+  source_lineage: https://gov-acc.metagov.org/phase1/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

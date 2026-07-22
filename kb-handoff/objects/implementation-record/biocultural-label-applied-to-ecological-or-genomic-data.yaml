@@ -1,0 +1,24 @@
+title: Biocultural Label Applied to Ecological or Genomic Data
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one BC Label implementation involving biological, genetic, species or
+  environmental data.
+what_returns_to_commons: >-
+  Directly connects Indigenous governance to ecological databases, MRV,
+  registries and AI.
+notes: >-
+  What to capture: Data provenance, land/territory relationship, community
+  expectations, research agreements, access/use conditions, benefit and
+  downstream reuse. · Status/Caution: Sensitive; avoid exposing locations or
+  knowledge beyond community-approved sources
+related_source_system: Local Contexts
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row176
+  source_lineage: https://localcontexts.org/labels/biocultural-labels/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

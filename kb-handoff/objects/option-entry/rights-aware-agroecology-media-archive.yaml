@@ -1,0 +1,20 @@
+title: Rights-Aware Agroecology Media Archive
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Publish farmer-centered audiovisual learning with explicit licensing,
+  attribution and contextual metadata.
+potential_uses: Agroecología en Puerto Rico archive
+dependencies: Supports practical learning while preserving place and authorship.
+tradeoffs: >-
+  License, consent, cultural authority, current status and AI-use permissions
+  must be item-specific.
+context: Knowledge-commons pattern
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row332
+  source_lineage: Strong option candidate
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

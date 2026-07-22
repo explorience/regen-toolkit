@@ -1,0 +1,21 @@
+title: Care Breakdown and Repair Retrospective
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document a case where contributor care, maintenance or support failed and how
+  the system responded.
+what_returns_to_commons: Prevents the database from collecting only successful care narratives.
+notes: >-
+  What to capture: Warning signs, workload, harm, power, response, repair,
+  compensation, governance changes and unresolved effects. · Status/Caution:
+  Sensitive; anonymization and consent may be necessary
+related_source_system: Cross-system
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row218
+  source_lineage: Internal cluster synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

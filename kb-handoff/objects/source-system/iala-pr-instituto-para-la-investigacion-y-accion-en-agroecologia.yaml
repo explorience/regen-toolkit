@@ -1,5 +1,5 @@
 title: IALA-PR / Instituto para la Investigación y Acción en Agroecología
-type: directory
+type: map
 steward: IALA-PR / Instituto para la Investigación y Acción en Agroecología
 return_path: unset — establish via register-source
 url: https://www.iala-pr.org/
@@ -10,14 +10,20 @@ why_it_matters: >-
   Puerto Rico-based institute supporting agroecological initiatives through
   participatory action research, administrative and economic support, training,
   land access and physical resources.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row62
-  source_lineage: https://www.iala-pr.org/
 caution: >-
   Distinct from Organización Boricuá and from the continental IALA schools.
   Current governance, funding, land holdings, beneficiaries and program outcomes
   require direct documentation.
+extraction_status: >-
+  Land access; agroecological infrastructure; participatory action research;
+  community accompaniment; trust-based land stewardship; Buen Vivir.
+notes: >-
+  Role: Agroecology research-action, land-access and support source system ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row61
+  source_lineage: https://www.iala-pr.org/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

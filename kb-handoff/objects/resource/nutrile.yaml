@@ -1,0 +1,19 @@
+title: Nutrilê
+type: resource
+resource_type: Agroindustry / brand
+url: >-
+  https://mst.org.br/2025/09/24/assentamento-che-guevara-celebra-a-nutrile-primeira-agroindustria-de-leite-do-nordeste/
+original_source: COOPAC
+notes: >-
+  Why add: Separates the cooperative from its processing/market artifact. ·
+  Status/Caution: Current public identity; legal ownership and governance need
+  confirmation · Parent source system: COOPAC
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row722
+  source_lineage: >-
+    https://mst.org.br/2025/09/24/assentamento-che-guevara-celebra-a-nutrile-primeira-agroindustria-de-leite-do-nordeste/
+original_object_class: Case / Place / Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

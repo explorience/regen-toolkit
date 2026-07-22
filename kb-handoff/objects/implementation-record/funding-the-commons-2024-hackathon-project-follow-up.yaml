@@ -1,0 +1,24 @@
+title: Funding the Commons 2024 Hackathon Project Follow-Up
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace selected projects from hackathon track and mentor support through
+  deliverables, showcase, later development, and maintenance.
+what_returns_to_commons: >-
+  Tests whether hackathons produce reusable public infrastructure or mostly
+  short-lived prototypes.
+notes: >-
+  What to capture: Applications, tracks, teams, mentors, prototypes, judging,
+  grants, repositories, adoption, forks, unresolved risks, and current status. ·
+  Status/Caution: Select projects with enough public evidence; avoid only
+  winners
+related_source_system: Funding the Commons
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row51
+  source_lineage: https://www.fundingthecommons.io/hackathons-1
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

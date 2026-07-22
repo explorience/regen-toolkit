@@ -1,0 +1,22 @@
+title: Civic Innovator Session as Field-Memory Workflow
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Use recurring member demonstrations and Q&A as structured inputs to people,
+  project, concept, claim, and implementation-memory records.
+potential_uses: Distributed networks with rich oral and demonstration-based knowledge.
+dependencies: >-
+  Recording consent, metadata, transcription, claim separation, follow-up, and
+  source return paths.
+tradeoffs: >-
+  Presenter bias, context loss, privacy exposure, and treating a compelling talk
+  as validated practice.
+context: OpenCivics
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row49
+  source_lineage: https://www.youtube.com/@OpenCivics/videos
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

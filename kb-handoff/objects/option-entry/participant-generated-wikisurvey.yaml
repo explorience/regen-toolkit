@@ -1,0 +1,24 @@
+title: Participant-Generated Wikisurvey
+type: option-entry
+category: governance
+what_it_is: >-
+  Allow participants to create short statements while voting on others, so the
+  issue space evolves rather than remaining fixed by survey designers.
+potential_uses: >-
+  Large-scale listening, agenda refinement, public consultation, internal
+  governance, conflict mapping.
+dependencies: >-
+  Clear prompt, outreach, moderation, accessible interface, data governance,
+  analysis capacity, decision pathway.
+tradeoffs: >-
+  Statement brevity, self-selection, moderation power, strategic voting, digital
+  exclusion, and framing effects can distort results.
+context: Polis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row87
+  source_lineage: https://compdemocracy.org/polis/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,24 @@
+title: Binary and Hierarchy Challenge Gate
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Require review of categories and ranking structures that encode false
+  binaries, dominant norms or hierarchical assumptions.
+potential_uses: >-
+  Taxonomies, identity fields, impact categories, eligibility, classification
+  and recommendation systems.
+dependencies: >-
+  Domain expertise, affected-party review, multi-value fields, uncertainty and
+  correction pathways.
+tradeoffs: >-
+  Removing one binary may introduce other harmful categories or make data
+  unusable without careful design.
+context: Data Feminism
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row180
+  source_lineage: https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

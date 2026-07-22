@@ -1,0 +1,18 @@
+title: A canonical record is the final truth about an entity
+type: claim-evidence
+claim: A canonical record is the final truth about an entity
+interpretation: >-
+  Describe canonical records as current preferred representations with preserved
+  sources, version history, and correction paths.
+uncertainty: >-
+  Canonicalization is a practical coordination decision that may remain
+  contested or change over time.
+evidence_stance: qualifying
+context: Merge and governance readiness
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row175
+  source_lineage: Internal merge-readiness design
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

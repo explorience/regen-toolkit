@@ -1,0 +1,19 @@
+title: A UN complaint independently verifies every incident
+type: claim-evidence
+claim: A UN complaint independently verifies every incident
+interpretation: >-
+  Label organizer-reported, legal-submission and independently verified evidence
+  distinctly.
+uncertainty: >-
+  International complaints are important advocacy records but still require
+  source attribution and careful incident-level verification.
+evidence_stance: qualifying
+context: FENSUAGRO rights advocacy
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row472
+  source_lineage: >-
+    https://viacampesina.org/en/2022/05/colombia-complaint-to-un-mechanisms-about-the-violation-peasants-rights/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

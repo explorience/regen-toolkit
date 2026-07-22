@@ -1,0 +1,21 @@
+title: 'Leverage Points: Places to Intervene in a System'
+type: concept-lineage
+short_description: >-
+  Essay ordering possible intervention points from parameters and buffers
+  through information, rules, goals, paradigms and the capacity to transcend
+  paradigms.
+toolkit_usage: High-value prioritization lens for Toolkit options and intervention claims.
+original_object_type: Essay / framework
+notes: >-
+  Why add: High-value prioritization lens for Toolkit options and intervention
+  claims. · Status/Caution: Ordinal list is heuristic, not a universal ranking
+  or guaranteed impact model · Parent source system: Donella Meadows
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row399
+  source_lineage: >-
+    https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,20 @@
+title: Polycentricity Governance Game Pilots
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: Compare pilots with Stanford, Edge Esmeralda communities, and the KOI team.
+what_returns_to_commons: Tests governance simulation as a coordination and agreement-design method.
+notes: >-
+  What to capture: Scenario, participant roles, negotiated obligations,
+  facilitation, emergent agreements, debrief, adoption, participant feedback,
+  power dynamics, and later effects. · Status/Caution: Candidate; pilot claims
+  need project-level documentation.
+related_source_system: Metagov / Polycentricity
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row21
+  source_lineage: https://metagov.org/projects/polycentricity
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

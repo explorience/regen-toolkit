@@ -1,0 +1,10 @@
+title: Boundary — Event-Driven Multi-Source Knowledge Ingestion
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Sensitive-source ingestion, surveillance risk, API dependence, source bias,
+  and uncontrolled volume.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Option Candidates!row34
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

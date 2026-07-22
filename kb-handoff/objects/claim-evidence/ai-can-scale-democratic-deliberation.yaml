@@ -1,0 +1,20 @@
+title: AI can scale democratic deliberation
+type: claim-evidence
+claim: AI can scale democratic deliberation
+interpretation: >-
+  AI may support several dimensions of deliberation; it does not replace civic
+  infrastructure, institutionalization, or human judgment.
+uncertainty: >-
+  AI may support translation, facilitation, sensemaking, communication, or
+  setup, but scaling also depends on civic infrastructure, institutions, power,
+  and quality.
+evidence_stance: neutral
+context: DemocracyNext
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row88
+  source_lineage: >-
+    https://www.demnext.org/action/five-dimensions-of-scaling-democratic-deliberation-with-and-beyond-ai
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

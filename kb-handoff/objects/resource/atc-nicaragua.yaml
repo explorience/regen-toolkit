@@ -1,23 +1,21 @@
 title: ATC Nicaragua
 type: resource
-url: https://cloc-viacampesina.net/
-resource_type: organization
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row29
-summary: >-
-  Rural worker and peasant organization connected to CLOC-LVC and popular
-  education. Geography/context: Nicaragua.
-original_object_type: Organization / worker-peasant movement
+resource_type: Member movement lead
+url: >-
+  https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+original_source: CLOC–La Vía Campesina / Nicaragua
+notes: >-
+  Why add: Priority Central American labor-and-agroecology branch. ·
+  Status/Caution: Preliminary lead; political and safety context requires
+  careful sourcing · Parent source system: CLOC–La Vía Campesina / Nicaragua
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row29
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: ATC Nicaragua | https://cloc-viacampesina.net/
-notes: >-
-  Why add: Selected branch Status/Caution: Current T4 gap: framework has no
-  dedicated organization entity schema; mapped to resource per ingest
-  instructions.
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row771
+  source_lineage: >-
+    https://cloc-viacampesina.net/fortaleciendo-las-organizaciones-con-la-formacion
+original_object_class: Other / Review
+normalization_flag: DUP-NE-771
+review_needs: 'Matty dup-flag DUP-NE-771: FENSUAGRO'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

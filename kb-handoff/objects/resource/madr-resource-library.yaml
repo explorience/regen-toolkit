@@ -1,0 +1,19 @@
+title: MADR Resource Library
+type: resource
+resource_type: Resource Collection
+url: https://mutualaiddisasterrelief.org/resources/
+original_source: Mutual Aid Disaster Relief
+notes: >-
+  Why add: Safety guidance requires local and current verification ·
+  Status/Caution: Practical resource collection · Parent source system: Mutual
+  Aid Disaster Relief
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row862
+  source_lineage: https://mutualaiddisasterrelief.org/resources/
+original_object_class: Source System / Collection
+normalization_flag: REPAIR-NO-862
+review_needs: 'Matty dup-flag REPAIR-NO-862: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

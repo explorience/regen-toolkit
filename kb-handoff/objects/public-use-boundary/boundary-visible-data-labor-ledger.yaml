@@ -1,0 +1,10 @@
+title: Boundary — Visible Data Labor Ledger
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  May expose precarious workers or turn recognition into surveillance;
+  visibility must be optional and safe.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Option Candidates!row179
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

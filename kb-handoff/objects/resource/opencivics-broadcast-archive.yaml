@@ -1,0 +1,18 @@
+title: OpenCivics Broadcast Archive
+type: resource
+resource_type: Knowledge source system
+url: https://broadcast.opencivics.co/archive
+original_source: OpenCivics
+notes: >-
+  Why add: Adds a dedicated field-memory surface distinct from the Commons,
+  Wiki, and video archive. · Status/Caution: Editorial archive and network
+  self-reporting are source material, not independently reviewed evidence. ·
+  Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row155
+  source_lineage: https://broadcast.opencivics.co/archive
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,23 @@
+title: ANAMURI Congress-to-Implementation Trace
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one priority from local/thematic congress discussion through national
+  program, leadership decision, budget, campaign and territorial follow-through.
+what_returns_to_commons: >-
+  Tests whether congress infrastructure functions as an accountable governance
+  loop rather than only a declaration process.
+notes: >-
+  What to capture: Proposal origin; delegate process; decision rights; dissent;
+  resources; implementation; regional variation; public reporting; learning. ·
+  Status/Caution: Candidate; select one bounded issue with accessible records
+related_source_system: ANAMURI
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row316
+  source_lineage: https://anamuri.cl/congresos/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

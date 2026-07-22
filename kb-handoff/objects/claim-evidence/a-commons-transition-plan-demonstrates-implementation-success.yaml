@@ -1,0 +1,19 @@
+title: A commons transition plan demonstrates implementation success
+type: claim-evidence
+claim: A commons transition plan demonstrates implementation success
+interpretation: >-
+  Separate planning outputs, adopted policies, funded implementation, observed
+  outcomes, and later maintenance.
+uncertainty: >-
+  Plans, mappings, and consultations document proposals and relationships, not
+  necessarily execution, durability, or outcomes.
+evidence_stance: qualifying
+context: Ghent / FLOK
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row201
+  source_lineage: >-
+    https://stad.gent/sites/default/files/page/documents/Commons%20Transition%20Plan%20-%20under%20revision.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

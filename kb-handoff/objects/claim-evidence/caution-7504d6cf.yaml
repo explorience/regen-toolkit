@@ -1,0 +1,16 @@
+title: Caution
+type: claim-evidence
+claim: Caution
+interpretation: Use minimization and affected-party review.
+uncertainty: https://cloc-viacampesina.net/
+evidence_stance: neutral
+context: >-
+  Names, locations and affiliations may expose organizers in contexts of
+  repression or conflict.
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row457
+  source_lineage: Active
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

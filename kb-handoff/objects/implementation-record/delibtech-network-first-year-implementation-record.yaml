@@ -1,0 +1,24 @@
+title: DelibTech Network First-Year Implementation Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Track the network from its September 2025 launch through convenings,
+  protocols, research outputs, collaborations, and public knowledge return.
+what_returns_to_commons: >-
+  Tests whether a curated expert network creates interoperability and practice
+  improvement rather than only private coordination.
+notes: >-
+  What to capture: Membership model, geography, participating expertise,
+  convenings, Chatham House use, outputs, tool collaborations, conflicts,
+  exclusions, and changes. · Status/Caution: Candidate; network is young and
+  some activity is non-public
+related_source_system: DemocracyNext / AI & Democracy Foundation
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row57
+  source_lineage: https://www.demnext.org/action/delibtech-network
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,18 @@
+title: Parent-child classification proves legal ownership or governance control
+type: claim-evidence
+claim: Parent-child classification proves legal ownership or governance control
+interpretation: >-
+  Use precise relationship types and state the evidence and scope of governance
+  or stewardship.
+uncertainty: >-
+  Projects, collaborations, publications, and tools can be associated without
+  being owned or governed by one parent.
+evidence_stance: qualifying
+context: GAIAI merge-pilot review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row186
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,28 @@
+title: Participedia CSV Quality and Reuse Audit
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Download current cases, methods, organizations, and codebooks and test
+  identifiers, missingness, controlled vocabularies, dates, links, licensing,
+  and cross-object relationships.
+what_returns_to_commons: >-
+  Provides evidence for designing agent-readable exports and responsible public
+  data access.
+notes: >-
+  What to capture: Download timestamp, row counts, schema versions, null
+  patterns, duplicate patterns, joinability, provenance, citations,
+  translations, and data-use limits. · Status/Caution: Candidate; dataset
+  snapshot should be preserved and license reviewed.
+related_source_system: Participedia
+review_needs: >-
+  prospective candidate — implementation evidence may be incomplete; Matty
+  dup-flag DUP-IM-63: Participedia Schema and Contribution Workflow Review
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row72
+  source_lineage: https://participedia.net/research
+normalization_flag: DUP-IM-63
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

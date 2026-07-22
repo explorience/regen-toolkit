@@ -1,23 +1,17 @@
 title: Design Justice Network Activities and Workshop Resources
 type: resource
+resource_type: Resource / workshop toolkit
 url: https://designjustice.org/djn-activities
-resource_type: toolkit
-is_source_system_candidate: false
-link_status: unresolved
-original_source: Canonical_DB.xlsx#New Objects!row17
-summary: >-
-  Adaptable activities prompting participants to examine who participated, who
-  was harmed and who benefited in design processes.
-original_object_type: Resource / workshop toolkit
+original_source: Design Justice Network
+notes: >-
+  Why add: Direct practical input for Toolkit review sessions and implementation
+  retrospectives. · Status/Caution: Activities are prompts, not comprehensive
+  assessments or certification. · Parent source system: Design Justice Network
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#New Objects!row17
-  transformation: summarized
-  authorship: ai-assisted
-source_lineage: Design Justice Network | https://designjustice.org/djn-activities
-notes: >-
-  Why add: Direct practical input for Toolkit review sessions and implementation
-  retrospectives. Status/Caution: Activities are prompts, not comprehensive
-  assessments or certification.
-work_order: wo-77334ca85eac
+  origin: Canonical_DB.xlsx#New Objects!row436
+  source_lineage: https://designjustice.org/djn-activities
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+subject: vTaiwan
+predicate: implements_or_uses
+object: Polis
+type: relationship-record
+title: vTaiwan — implements_or_uses — Polis
+original_relationship: uses
+evidence: >-
+  Polis is one component of the vTaiwan process alongside other online and
+  in-person methods.
+scope: Do not reduce vTaiwan to Polis
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row44
+  source_lineage: https://compdemocracy.org/case-studies/2014-vtaiwan/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

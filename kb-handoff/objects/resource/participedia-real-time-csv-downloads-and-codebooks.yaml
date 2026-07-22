@@ -1,0 +1,18 @@
+title: Participedia Real-Time CSV Downloads and Codebooks
+type: resource
+resource_type: Data export
+url: https://participedia.net/research
+original_source: Participedia
+notes: >-
+  Why add: Direct precedent for agent-readable and researcher-readable exports
+  from a public knowledge commons. · Status/Caution: Exports inherit
+  missingness, uneven coverage, and source-quality limits from the live
+  database. · Parent source system: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row223
+  source_lineage: https://participedia.net/research
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

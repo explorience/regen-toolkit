@@ -1,0 +1,25 @@
+title: La Vía Campesina International Conference Governance Cycle
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one conference from regional and constituency preparation through
+  delegates, debates, declarations, leadership decisions and later movement
+  work.
+what_returns_to_commons: >-
+  Tests how a large polycentric movement creates common direction without
+  erasing autonomy.
+notes: >-
+  What to capture: Preparation, representation, translation, voting or consensus
+  rules, dissent, decisions, resources, implementation and accountability. ·
+  Status/Caution: Candidate; requires movement-steward and regional review
+related_source_system: La Vía Campesina
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row261
+  source_lineage: >-
+    https://viacampesina.org/en/2023/12/the-global-peasant-movement-in-bogota-proclaims-we-defend-life-that-of-peasants-and-the-entire-planet/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

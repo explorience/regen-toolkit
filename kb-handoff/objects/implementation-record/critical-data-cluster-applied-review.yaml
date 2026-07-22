@@ -1,0 +1,25 @@
+title: Critical Data Cluster Applied Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Run one bounded review combining Design Justice, Data Feminism, Indigenous
+  data governance, Ruha Benjamin and AJL on an AI-assisted Toolkit workflow.
+what_returns_to_commons: >-
+  Tests whether the corrective graph can materially govern AI ingestion,
+  classification and publication.
+notes: >-
+  What to capture: Distinct questions from each lineage, reviewer authority,
+  conflicts, design changes, unresolved issues, compensation and public-use
+  decision. · Status/Caution: High priority after appropriate reviewers and
+  budget are available
+related_source_system: Cross-system
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row186
+  source_lineage: Internal cluster synthesis
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,20 @@
+title: Collective-First People Map
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Represent each named person through the collective, sector, territory, public
+  role and dated source that makes the relationship meaningful.
+potential_uses: People directories, source-system maps and review workflows.
+dependencies: >-
+  Collective records, role dates, territory, opt-out/correction paths and
+  steward review.
+tradeoffs: Can still privilege visible spokespeople and underrepresent less-public labor.
+context: MST / movement source systems
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row301
+  source_lineage: Internal synthesis from MST people branching
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

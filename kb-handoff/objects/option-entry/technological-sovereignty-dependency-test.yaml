@@ -1,0 +1,21 @@
+title: Technological Sovereignty Dependency Test
+type: option-entry
+category: governance
+what_it_is: >-
+  Assess governance and exit options for model, compute, hosting, retrieval,
+  code, corpus, funding and skills rather than using a binary
+  sovereign/not-sovereign label.
+potential_uses: Movement technology, public AI and open-source infrastructure review.
+dependencies: >-
+  Dependency inventory, contracts/licenses, cost data, maintainers, migration
+  plan and governance evidence.
+tradeoffs: Can become an impossible purity test or ignore strategic interdependence.
+context: IARAA / movement AI
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row295
+  source_lineage: Internal IARAA audit synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

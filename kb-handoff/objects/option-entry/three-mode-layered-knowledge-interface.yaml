@@ -1,0 +1,23 @@
+title: Three-Mode Layered Knowledge Interface
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Offer short field guidance, collaborative/technical explanation and extended
+  research outputs as distinct modes with different evidence and safety
+  requirements.
+potential_uses: Accessible knowledge interfaces, extension support, education and research.
+dependencies: >-
+  User research, citations, uncertainty display, access testing and clear
+  boundaries.
+tradeoffs: >-
+  Mode labels may overpromise audience fit or hide that all modes use the same
+  uncertain model layer.
+context: IARAA
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row293
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,18 @@
+subject: Rhizomatica
+predicate: collaborates_with
+object: REDES A.C.
+type: relationship-record
+title: Rhizomatica — collaborates_with — REDES A.C.
+original_relationship: collaborates with
+evidence: >-
+  Training, technological autonomy, publications and community communication
+  work
+scope: Collaboration scope varies by project
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row301
+  source_lineage: https://redesac.org.mx/en/publicaciones/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+subject: Trebor Scholz
+predicate: founding_director
+object: Institute for the Cooperative Digital Economy
+type: relationship-record
+title: >-
+  Trebor Scholz — founding_director — Institute for the Cooperative Digital
+  Economy
+original_relationship: founding director
+evidence: PCC profile identifies Scholz as founding director.
+scope: Public professional role
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row221
+  source_lineage: https://platform.coop/people/trebor-scholz/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

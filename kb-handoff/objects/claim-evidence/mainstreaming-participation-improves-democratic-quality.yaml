@@ -1,0 +1,18 @@
+title: Mainstreaming participation improves democratic quality
+type: claim-evidence
+claim: Mainstreaming participation improves democratic quality
+interpretation: >-
+  Institutionalization can improve continuity when participation has authority,
+  resources, accountability, and meaningful community influence.
+uncertainty: >-
+  Embedding participation can increase continuity and influence, but can also
+  formalize weak or performative processes.
+evidence_stance: neutral
+context: People Powered
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row123
+  source_lineage: https://www.peoplepowered.org/mainstreaming-participation-accelerator
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

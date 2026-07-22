@@ -1,0 +1,24 @@
+title: Hamilton Black History Database as Community Knowledge Commons
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Study contributor pathways, community authority, representation, platform
+  maintenance, funding, corrections, access, and long-term stewardship.
+what_returns_to_commons: >-
+  Directly relevant to place-based knowledge commons and public memory without
+  centering only formal democracy platforms.
+notes: >-
+  What to capture: Founding organizations, contributors, editorial governance,
+  consent, submission workflow, hosting, funding, sustainability, community
+  feedback, and reuse rules. · Status/Caution: Community governance and
+  anti-extractive use should guide any further documentation.
+related_source_system: Participedia / local community organizations
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row76
+  source_lineage: https://participedia.net/case/12441
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

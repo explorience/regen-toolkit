@@ -1,0 +1,18 @@
+title: Govbase
+type: resource
+resource_type: Dataset / source system
+url: https://govbase.metagov.org/
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Directly relevant model for the Toolkit resource graph, ontology,
+  cases, and governance-tool mapping. · Status/Caution: Crowdsourced and
+  heterogeneous; project status and fields require review. · Parent source
+  system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row66
+  source_lineage: https://govbase.metagov.org/
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

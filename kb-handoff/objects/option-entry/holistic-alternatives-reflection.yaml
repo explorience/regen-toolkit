@@ -1,0 +1,25 @@
+title: Holistic Alternatives Reflection
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Use interconnected ecological, social, political, cultural, economic and
+  knowledge dimensions to expose tradeoffs and fragmented interventions.
+potential_uses: >-
+  Project review, option comparison, theory of change, implementation
+  retrospectives.
+dependencies: >-
+  Contextual adaptation, self-reflection, affected-party review and non-ranking
+  presentation.
+tradeoffs: >-
+  Can become an overwhelming checklist or imply that one initiative should solve
+  every structural problem.
+context: Vikalp Sangam Alternatives Framework
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row253
+  source_lineage: >-
+    https://vikalpsangam.org/about/the-search-for-alternatives-key-aspects-and-principles/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

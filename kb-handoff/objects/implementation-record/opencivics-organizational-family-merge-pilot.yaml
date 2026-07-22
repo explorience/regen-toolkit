@@ -1,0 +1,26 @@
+title: OpenCivics Organizational-Family Merge Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Tested a current-state merge across umbrella identity, Network, Consortium,
+  Labs, Fund, Commons, Swarm, programs, artifacts, partners, fiscal sponsor, and
+  people roles.
+what_returns_to_commons: >-
+  Confirms that the final handoff can use one current-state record per entity
+  without exposing a history/version layer, while retaining enough internal
+  lineage to merge safely.
+notes: >-
+  What to capture: Entity boundaries; aliases; current preferred records;
+  fiscal-sponsorship relationships; internal provenance; unresolved source
+  questions; decision to stop major merge-pilot proliferation. · Status/Caution:
+  Completed; reuse minimum rules during final consolidation
+related_source_system: OpenCivics
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row124
+  source_lineage: Internal merge pilot — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

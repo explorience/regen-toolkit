@@ -1,0 +1,22 @@
+title: Magha García
+type: person
+full_name: Magha García
+affiliation: Organización Boricuá / CLOC Caribbean Women
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://cloc-viacampesina.net/entrevista-el-feminismo-campesino-popular-nos-ha-dado-identidad-propia-vii-asamblea-continental-de-mujeres-de-la-cloc-via-campesina
+notes: >-
+  Why add: Adds a Caribbean women-led agroecology and movement-education voice.
+  · Status/Caution: Dated public role; do not infer whole-region representation
+  · Parent source system: Organización Boricuá / CLOC Caribbean Women
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row773
+  source_lineage: >-
+    https://cloc-viacampesina.net/entrevista-el-feminismo-campesino-popular-nos-ha-dado-identidad-propia-vii-asamblea-continental-de-mujeres-de-la-cloc-via-campesina
+original_object_class: Person
+normalization_flag: DUP-NE-773
+review_needs: 'Matty dup-flag DUP-NE-773: Organización Boricuá de Agricultura Ecológica'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

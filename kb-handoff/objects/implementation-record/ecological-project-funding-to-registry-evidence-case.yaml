@@ -1,0 +1,24 @@
+title: Ecological Project Funding-to-Registry Evidence Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one ecological project from funding narrative through methodology,
+  monitoring, verification, registry actions and later public claims.
+what_returns_to_commons: >-
+  Creates an evidence-bearing bridge between public-goods finance and
+  regenerative evidence infrastructure.
+notes: >-
+  What to capture: Funding source, project context, affected parties, protocol
+  version, monitoring data, verifier, issuance, retirement, claims, corrections
+  and unresolved risks. · Status/Caution: High-risk candidate; requires
+  ecological and community-context review
+related_source_system: Regen Network + one funding/reporting system
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row3
+  source_lineage: Internal Batch 1B synthesis
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

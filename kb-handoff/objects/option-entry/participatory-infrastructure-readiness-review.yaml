@@ -1,0 +1,23 @@
+title: Participatory Infrastructure Readiness Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Assess institutional authority, affected communities, staff capacity,
+  facilitation, accessibility, privacy, maintenance and policy-response pathways
+  before selecting technology.
+potential_uses: Municipal, cooperative, network and commons-governance initiatives.
+dependencies: >-
+  Decision authority, budget, trained facilitators, inclusion plan, data
+  governance, maintenance ownership and response commitments.
+tradeoffs: >-
+  Can become bureaucratic gatekeeping or a checklist that excludes grassroots
+  experimentation.
+context: GKC + People Powered + Decidim + Polis/vTaiwan
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row103
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

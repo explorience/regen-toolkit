@@ -1,0 +1,18 @@
+title: Signing the Design Justice Principles certifies just practice
+type: claim-evidence
+claim: Signing the Design Justice Principles certifies just practice
+interpretation: >-
+  Treat signatory status as a public commitment signal; review actual
+  governance, labor, outcomes and affected-party experience separately.
+uncertainty: >-
+  The Network describes principles as commitments and a living document, not a
+  certification or audited standard.
+evidence_stance: qualifying
+context: Design Justice Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row244
+  source_lineage: https://designjustice.org/signatories
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

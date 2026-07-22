@@ -1,0 +1,19 @@
+subject: IEEE provenance recommended practice
+predicate: supports
+object: Global Indigenous Data Alliance
+type: relationship-record
+title: >-
+  IEEE provenance recommended practice — supports — Global Indigenous Data
+  Alliance
+original_relationship: supported by
+evidence: GIDA describes and supports the standard.
+scope: Standard relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row203
+  source_lineage: https://www.gida-global.org/ieee-provenance
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

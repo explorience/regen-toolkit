@@ -1,0 +1,22 @@
+title: Community Economies Approach
+type: concept-lineage
+short_description: >-
+  Framework treating economies as diverse, politically shapeable and inseparable
+  from ethical and ecological relations Geography/context: Transnational.
+toolkit_usage: Useful option-library lens; not a single implementation model
+original_object_type: Collective Intellectual Tradition
+notes: >-
+  Why add: Useful option-library lens; not a single implementation model ·
+  Status/Caution: Active research-practice network · Parent source system:
+  Community Economies
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row874
+  source_lineage: >-
+    https://www.communityeconomies.org/about/community-economies-research-and-practice
+original_object_class: Framework / Concept
+normalization_flag: REPAIR-NO-874
+review_needs: 'Matty dup-flag REPAIR-NO-874: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

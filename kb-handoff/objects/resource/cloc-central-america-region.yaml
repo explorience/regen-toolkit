@@ -1,0 +1,19 @@
+title: CLOC Central America Region
+type: resource
+resource_type: Regional structure
+url: https://cloc-viacampesina.net/2025/07
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Connects milpa systems, agrarian reform, youth camps and regional
+  agroecology training. · Status/Caution: Regional structure; member-level
+  governance requires direct sources · Parent source system: CLOC–La Vía
+  Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row751
+  source_lineage: https://cloc-viacampesina.net/2025/07
+original_object_class: Other / Review
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

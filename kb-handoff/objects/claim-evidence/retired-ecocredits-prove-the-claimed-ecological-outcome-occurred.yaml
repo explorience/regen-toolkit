@@ -1,0 +1,19 @@
+title: Retired ecocredits prove the claimed ecological outcome occurred
+type: claim-evidence
+claim: Retired ecocredits prove the claimed ecological outcome occurred
+interpretation: >-
+  Credit retirement is a registry event tied to a specific issued batch; outcome
+  confidence depends on methodology, project evidence, verification,
+  uncertainty, and ongoing monitoring.
+uncertainty: >-
+  Retirement records asset use and prevents further transfer under the system;
+  it is not independent proof that all ecological claims are accurate.
+evidence_stance: neutral
+context: Regen Ledger / Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row11
+  source_lineage: https://docs.regen.network/modules/ecocredit/01_concepts.html
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

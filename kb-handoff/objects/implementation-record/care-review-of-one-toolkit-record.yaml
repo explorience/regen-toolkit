@@ -1,0 +1,25 @@
+title: CARE Review of One Toolkit Record
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Select one ecological, cultural, place-based or community record and review it
+  across Collective Benefit, Authority to Control, Responsibility and Ethics.
+what_returns_to_commons: >-
+  Tests whether the Toolkit can translate CARE into actual governance rather
+  than a principles citation.
+notes: >-
+  What to capture: Who benefits; who has authority; data origin; intended and
+  secondary use; risks; permissions; community protocols; public-use status;
+  withdrawal and correction. · Status/Caution: High-priority candidate; requires
+  compensated Indigenous/community review
+related_source_system: GIDA / CARE Principles
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row173
+  source_lineage: https://www.gida-global.org/careprinciples
+high_risk: true
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

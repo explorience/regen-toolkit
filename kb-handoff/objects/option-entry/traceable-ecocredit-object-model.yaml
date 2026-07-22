@@ -1,0 +1,24 @@
+title: Traceable Ecocredit Object Model
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Structure ecological assets as credit type, credit class, project, and batch
+  with linked issuance and retirement records.
+potential_uses: >-
+  Registries, MRV systems, ecological project databases, public-goods evidence
+  graphs.
+dependencies: >-
+  Stable identifiers, metadata rules, issuer governance, project registration,
+  batch controls, public query interface.
+tradeoffs: >-
+  Formal traceability may hide weak baselines, poor verification, community
+  harms, or low ecological integrity.
+context: Regen Ledger Ecocredit Module
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row9
+  source_lineage: https://docs.regen.network/modules/ecocredit/01_concepts.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

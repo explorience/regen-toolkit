@@ -1,0 +1,24 @@
+title: AI-Assisted Grant Intake
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Guide applicants through structured grant questions while preserving a
+  human-controlled evaluation process.
+potential_uses: >-
+  Low-friction applications, project discovery, multilingual assistance,
+  structured data collection.
+dependencies: >-
+  Accessible fallback, transparent criteria, applicant consent, reviewer
+  oversight, data policy.
+tradeoffs: >-
+  AI-shaped applications, exclusion through interface design, gaming, privacy
+  risk, and unclear evaluation authority.
+context: GAIAI / REGEN IRL
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row39
+  source_lineage: https://regen.gaiaai.xyz/irl/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

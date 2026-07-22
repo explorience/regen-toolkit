@@ -1,0 +1,20 @@
+title: Black Cooperative Economic Tradition
+type: person
+full_name: Black Cooperative Economic Tradition
+affiliation: Jessica Gordon Nembhard / cooperative history
+consent_status: unverified — default non-public (Principle 8)
+url: https://www.gc.cuny.edu/people/jessica-gordon-nembhard
+notes: >-
+  Why add: Do not collapse into one author or treat cooperatives as racially
+  neutral · Status/Caution: Historical and living tradition · Parent source
+  system: Jessica Gordon Nembhard / cooperative history
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row875
+  source_lineage: https://www.gc.cuny.edu/people/jessica-gordon-nembhard
+original_object_class: Person
+normalization_flag: REPAIR-NO-875
+review_needs: 'Matty dup-flag REPAIR-NO-875: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

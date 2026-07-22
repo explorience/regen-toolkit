@@ -1,0 +1,18 @@
+title: Combining governance source systems creates one coherent governance model
+type: claim-evidence
+claim: Combining governance source systems creates one coherent governance model
+interpretation: >-
+  Treat the batch as a plural source portfolio with explicit tensions, not a
+  unified doctrine.
+uncertainty: >-
+  The selected systems differ in epistemology, constituency, institutional
+  mandate, scale and political context.
+evidence_stance: qualifying
+context: Batch 1C core set
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row94
+  source_lineage: Internal Batch 1C selection synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

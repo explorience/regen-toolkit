@@ -1,5 +1,5 @@
 title: IWGIA Territorial Governance Programme
-type: library
+type: publication
 steward: IWGIA Territorial Governance Programme
 return_path: unset — establish via register-source
 url: https://www.iwgia.org/en/
@@ -7,14 +7,23 @@ what_it_curates: >-
   Documentation, publications, rights monitoring, territorial-governance support
   and advocacy
 why_it_matters: Global Indigenous Peoples; country and regional programs
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row67
-  source_lineage: https://www.iwgia.org/en/
 caution: >-
   IWGIA is a support and documentation organization, not a substitute for the
   authority of Indigenous governments and communities | Workflow status:
   Selected in final bounded source-system expansion
+extraction_status: >-
+  Extends Indigenous data governance into land, autonomy, self-government and
+  territorial rights
+notes: >-
+  Role: Indigenous-rights documentation and territorial-governance support
+  system · Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row66
+  source_lineage: https://www.iwgia.org/en/
+high_risk: true
+normalization_flag: REPAIR-SS-66
+review_needs: 'Matty dup-flag REPAIR-SS-66: Late-row schema shift'
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

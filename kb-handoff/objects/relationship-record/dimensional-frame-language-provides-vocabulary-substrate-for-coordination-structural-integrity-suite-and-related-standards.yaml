@@ -1,0 +1,19 @@
+subject: Dimensional Frame Language
+predicate: provides_vocabulary_substrate_for
+object: Coordination Structural Integrity Suite and related standards
+type: relationship-record
+title: >-
+  Dimensional Frame Language — provides_vocabulary_substrate_for — Coordination
+  Structural Integrity Suite and related standards
+original_relationship: provides vocabulary substrate for
+evidence: Standards index and suite site identify it as foundational vocabulary
+scope: Not itself a domain standard
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row140
+  source_lineage: https://github.com/durgadasji/standards-index
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

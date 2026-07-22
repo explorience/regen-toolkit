@@ -1,0 +1,17 @@
+subject: Shashe community transformation
+predicate: supports
+object: ZIMSOFF and AZTREC
+type: relationship-record
+title: Shashe community transformation — supports — ZIMSOFF and AZTREC
+original_relationship: supported by
+evidence: 2020 report names collaboration across more than 500 families.
+scope: Contribution and attribution require local review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row376
+  source_lineage: >-
+    https://viacampesina.org/en/2020/11/peasants-in-zimbabwe-revive-stagnant-farms-through-agroecology/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

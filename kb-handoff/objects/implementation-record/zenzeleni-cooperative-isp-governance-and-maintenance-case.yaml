@@ -1,0 +1,24 @@
+title: Zenzeleni Cooperative ISP Governance and Maintenance Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one cooperative from community formation through service operation,
+  nonprofit support, pricing, labor, maintenance, governance and community
+  outcomes.
+what_returns_to_commons: >-
+  Strong current-state case for community-owned infrastructure and federated
+  support.
+notes: >-
+  What to capture: Member selection, rules-in-use, revenue, costs, work, support
+  relationships, service quality, participation, disputes and continuation. ·
+  Status/Caution: Priority; requires direct cooperative/community review
+related_source_system: Zenzeleni
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row232
+  source_lineage: https://zenzeleni.net/our-model/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

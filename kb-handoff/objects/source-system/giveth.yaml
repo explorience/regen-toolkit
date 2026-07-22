@@ -1,5 +1,5 @@
 title: Giveth
-type: docs-site
+type: directory
 steward: Giveth
 return_path: unset — establish via register-source
 url: https://docs.giveth.io/
@@ -10,13 +10,17 @@ why_it_matters: >-
   Public-goods donation platform connecting project discovery, verification,
   donor rewards, project boosting, quadratic funding, and community trust
   signals.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row2
-  source_lineage: https://docs.giveth.io/
 caution: >-
   Verification and boosting are platform-specific signals, not proof of impact.
   Distinguish current and deprecated components.
+extraction_status: >-
+  Verification workflow, donor reward design, boost-based visibility, project
+  update practices, DeVouch signals, and implementation history.
+notes: 'Role: Core Batch 1B source system · Action: UPDATE'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row1
+  source_lineage: https://docs.giveth.io/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

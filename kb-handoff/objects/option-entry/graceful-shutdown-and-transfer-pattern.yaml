@@ -1,0 +1,18 @@
+title: Graceful Shutdown and Transfer Pattern
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Procedure for reducing, closing, archiving or transferring a source-system
+  area without abandoning contributors or users.
+potential_uses: Dormant tracks, unsupported tools, public views, source-system stewardship.
+dependencies: Named authority, notice process, archive plan, data/privacy review.
+tradeoffs: Closure may still harm dependent users; transfer can reproduce inequity.
+context: Toolkit / labor-care synthesis
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row222
+  source_lineage: Internal applied review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

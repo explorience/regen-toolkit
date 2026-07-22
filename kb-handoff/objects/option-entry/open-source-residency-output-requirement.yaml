@@ -1,0 +1,22 @@
+title: Open-Source Residency Output Requirement
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Ask supported builders to produce a documented open-source tool, library,
+  system, research artifact, or public presentation.
+potential_uses: Knowledge return, reuse, accountability, and shared infrastructure.
+dependencies: >-
+  Licensing, repository quality, documentation, security review, maintenance
+  ownership, participant support.
+tradeoffs: >-
+  Open publication can become performative; unfinished or unsafe code may be
+  mistaken for reusable infrastructure.
+context: Funding the Commons
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row57
+  source_lineage: https://www.fundingthecommons.io/hackathons-1
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

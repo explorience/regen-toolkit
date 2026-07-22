@@ -1,0 +1,21 @@
+title: Ostrom’s natural-resource design principles can be directly applied to knowle…
+type: claim-evidence
+claim: >-
+  Ostrom’s natural-resource design principles can be directly applied to
+  knowledge commons
+interpretation: >-
+  Use Ostrom as an important lineage while applying the GKC framework’s distinct
+  empirical questions to knowledge, data and information.
+uncertainty: >-
+  Knowledge and information differ from many biophysical common-pool resources,
+  and GKC explicitly cautions against treating IAD or design principles as
+  automatic starting points or conclusions.
+evidence_stance: qualifying
+context: Workshop on Governing Knowledge Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row100
+  source_lineage: https://knowledge-commons.net/about-knowledge-commons-research/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

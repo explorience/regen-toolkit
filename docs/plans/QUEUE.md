@@ -1,7 +1,16 @@
 # Plan Queue — Toolkit (instance plans)
 
-> Last updated: 2026-07-14 (framework-validation-pass consolidated → active; 3 plans archived)
-> Prior: 2026-07-05
+> Last updated: 2026-07-19 (plan-surface validation vs the 07-16 biweekly + 07-19 session)
+> Prior: 2026-07-14
+>
+> **2026-07-19 — plan surface reconciled.** `framework-validation-pass` **complete** (V0–V4: 722
+> objects, 125 tests, artifacts live). `handoff-integration` T1/T2/T3a/T5/T4-core done → **T3b** is its
+> live remainder. `publish-pipeline` design **approved 07-16** (Shape B, scripted projection; privacy
+> gate added 07-19). `repo-consolidation` Part 2 superseded by it; Part 1 (push) pending operator.
+> `master-doc-iteration-may-15-2026` closed (Phase E superseded by the reprocessing; F delivered; G →
+> dev-instance-build). **New #1 active: [`dev-instance-build`](dev-instance-build.md)** — the 07-19
+> decision (full live dev instance in the personal fork; review starts without waiting on the migration).
+> Heenal migration asks sent 07-19 — external wait.
 >
 > **2026-07-05 — org-os-kms built + installed; ontology comparison.** Built **`@org-os/kms`** (the org-os binding for the 0.2 framework — module + profile, 44 tests, subagent-driven TDD); installed in regen-toolkit + promoted to canonical org-os (`v0.5`) + a **ReFi DAO pilot** (`init` + Quartz config). Ran the **Heenal↔framework ontology comparison** → **HYBRID** (adopt the framework backbone; contribute the 8 Forms of Capital back to the kernel; 119 articles reprocess 1:1). This delivers a big chunk of **[site-and-content-convergence](site-and-content-convergence.md)** — the framework-typing + comparison half; the site-fork half is separate. New plans: `2026-07-05-org-os-kms-{design,implementation,per-instance-adoption}.md`, `2026-07-05-ontology-comparison-plan.md`. Report: `docs/reports/2026-07-05-ontology-comparison.md`.
 >
@@ -19,10 +28,10 @@ Toolkit-instance work plans. Strategic / network-level plans live in `regen-coor
 
 ## Active
 
-0. **[handoff-integration](handoff-integration.md) — ★ ACTIVE 2026-07-15 (TIME-CRITICAL, call Thu Jul 16).** Integrate Matty's July 2026 handoff package (his Database_Spec = the framework machine). T1 intake + T2 crosswalk/DoD-conformance + T3a real ingestion slice + T5 Matty agent-setup for the call; full Canonical_DB ingestion (2,689 rows) + framework evolution + master 6-Part refactor sequenced after. Supersedes resource-db-v3-lift. Design + impl in [`handoff-integration/`](handoff-integration/); changes map [`docs/HANDOFF-CHANGES-2026-07.md`](../HANDOFF-CHANGES-2026-07.md).
-0b. **[framework-validation-pass](framework-validation-pass.md) — ★ ACTIVE 2026-07-14 (TIME-CRITICAL, demo Thu Jul 16).** Run the toolkit through its own 0.2 machine (representative slice) + kernel fixes + 3 artifacts + a staged capital proposal. Consolidates site-and-content-convergence · framework-instance-split · resource-db-v3-lift (archived); executes CONVERGENCE-PIPELINE P2/P3. Design + implementation plans in [`docs/plans/framework-build/`](framework-build/).
-1. **[CONVERGENCE-PIPELINE](CONVERGENCE-PIPELINE.md) — ★ ACTIVE 2026-06-16.** The roadmap converging everything into a **framework + instances** model on the new `regen-toolkit-os` branch. Branch consolidation + v1 site merge **done**. Waves: **D1** architecture decision (gates P1) · **P1** framework/instance split (active; `framework/` scaffolded) · **P2** resource-DB V3 lift · **P3** group prototype · **P4** theory of change · **P5** CSIS posture · **P6** RegenOS docs · **P7** hub post · **P8** governance/Impact Vault · **P9** deploy→ReFi DAO · **P10** deploy→ReFi BCN/network. Each plan developed individually with its own skills (see the pipeline table).
-2. [master-doc-iteration-may-15-2026](master-doc-iteration-may-15-2026.md) — **ACTIVE 2026-05-15.** Integrate the 2026-05-15 stabilization-draft iteration. Phase A (save + archive) done. Phase B (10 per-layer docs) done. Phase C (10 layer canvases) done. Phase D (master canvas) done. Phase E (structured refactor against new iteration) + Phase F (repo dev infrastructure) sequenced post-2026-05-21 biweekly. Phase G (site IA) deferred.
+0. **[dev-instance-build](dev-instance-build.md) — ★ ACTIVE #1 2026-07-19.** Build the **full live dev instance** in Luiz's personal fork: render the framework-reprocessed KB (722 + 146 objects) as browsable content pages (by type + layer, provenance + raw badges, old-vs-new comparison), deployed via `fork` Pages — so the **review gate starts now**, without waiting on the Heenal migration. Spec origin: [`SESSION-HANDOFF-2026-07-19.md`](SESSION-HANDOFF-2026-07-19.md) Prompt 1 + the 07-16 staging-site decision. Fulfills `task-260716-luiz-staging-dev-site`.
+1. **[handoff-integration](handoff-integration.md) — ACTIVE #2 (T3b remainder).** T1/T2/T3a/T5 + T4-core ✅ (125 tests). **T3b — full Canonical_DB ingestion (2,689 rows)** via the machine, now on the T4 schemas; sub-plan written ([`t3b`](handoff-integration/2026-07-15-t3b-full-ingestion.md)); runs parallel to dev-instance-build, gated on operator go. Master 6-Part refactor awaits Matty; share pack awaits operator send.
+2. **[publish-pipeline](publish-pipeline/2026-07-16-design.md) — APPROVED 2026-07-16, runs at the publish step.** Scripted curated projection dev→`main` (Shape B) + QA checklist (now incl. the **name-flagging privacy gate**) + `netlify.toml`. First `--publish` gated on the review gate + operator go. Supersedes [`repo-consolidation`](repo-consolidation.md) Part 2.
+3. **[CONVERGENCE-PIPELINE](CONVERGENCE-PIPELINE.md) — the strategic map (re-anchored 2026-07-19).** Waves 1–2 effectively done; current spine: dev-instance → review gate → curated publish → migration, with T3b feeding the engine in parallel. Wave 3/4 (RegenOS docs · hub post · governance · ReFi DAO/BCN deploys) unlock after the review gate.
 
 ## Pending operator action
 

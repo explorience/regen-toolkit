@@ -1,0 +1,18 @@
+title: Polis
+type: resource
+resource_type: Tool / platform
+url: https://compdemocracy.org/polis/
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Core computational-deliberation infrastructure and direct comparator
+  for deliberative tools in the Toolkit. · Status/Caution: AGPL-3.0 software; a
+  tool does not itself create legitimate deliberation · Parent source system:
+  Computational Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row264
+  source_lineage: https://compdemocracy.org/polis/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,16 @@
+subject: Donella Meadows
+predicate: created_by
+object: 'Thinking in Systems: A Primer'
+type: relationship-record
+title: 'Donella Meadows — created_by — Thinking in Systems: A Primer'
+original_relationship: authored
+evidence: Book authored by Meadows and published posthumously.
+scope: Authorship relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row156
+  source_lineage: https://donellameadows.org/systems-thinking-book-sale/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

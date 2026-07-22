@@ -1,0 +1,24 @@
+title: Ecological Data Anchoring with Separate Attestation
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Anchor a content hash and timestamp separately from later attestations by
+  identified verifiers.
+potential_uses: >-
+  Evidence provenance, ecological monitoring records, audit trails, claims
+  infrastructure, data lineage.
+dependencies: >-
+  Persistent source data, content addressing, identity and authority model,
+  resolver availability, review policy.
+tradeoffs: >-
+  Anchoring may be mistaken for truth; attestors may lack competence or
+  independence; off-chain data may disappear.
+context: Regen Ledger Data Module
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row8
+  source_lineage: https://docs.regen.network/modules/data/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,0 +1,16 @@
+subject: EngageMedia
+predicate: supports
+object: Digital Rights Asia-Pacific Assembly
+type: relationship-record
+title: EngageMedia — supports — Digital Rights Asia-Pacific Assembly
+original_relationship: convenes / supports
+evidence: Regional digital-rights convening and movement infrastructure
+scope: Specific editions and partners should be dated
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row320
+  source_lineage: https://engagemedia.org/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

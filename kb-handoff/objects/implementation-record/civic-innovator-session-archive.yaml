@@ -1,0 +1,23 @@
+title: Civic Innovator Session Archive
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  A recurring member show-and-tell series used to share tools, frameworks, and
+  implementation stories.
+what_returns_to_commons: >-
+  Media-to-field-memory case for routing conversations into structured commons
+  records.
+notes: >-
+  What to capture: Episode metadata, speakers, projects, claims, primary
+  sources, questions, follow-up, corrections, and downstream reuse. ·
+  Status/Caution: Source material; each session needs scoped review.
+related_source_system: OpenCivics
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row47
+  source_lineage: https://www.youtube.com/@OpenCivics/videos
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

@@ -1,0 +1,10 @@
+title: Boundary — Accessible AI is achieved through readable outputs
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  Readable interfaces do not resolve disability inference, harmful use cases,
+  biased classifications, surveillance or lack of refusal rights.
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Claims and Cautions!row304
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

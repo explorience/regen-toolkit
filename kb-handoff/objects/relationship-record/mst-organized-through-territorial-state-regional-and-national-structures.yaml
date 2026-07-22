@@ -1,0 +1,19 @@
+subject: MST
+predicate: organized_through
+object: Territorial, state, regional and national structures
+type: relationship-record
+title: MST — organized_through — Territorial, state, regional and national structures
+original_relationship: organized through
+evidence: >-
+  Official MST description connects local organization with broader coordination
+  and sectors.
+scope: Do not infer uniform authority or practice
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row399
+  source_lineage: https://mst.org.br/quem-somos/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

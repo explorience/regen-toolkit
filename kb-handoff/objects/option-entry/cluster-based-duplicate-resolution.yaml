@@ -1,6 +1,6 @@
 title: Cluster-Based Duplicate Resolution
 type: option-entry
-category: implementation-operations
+category: coordination
 what_it_is: >-
   Resolve duplicates within bounded source-system clusters before attempting
   database-wide normalization.
@@ -9,10 +9,12 @@ dependencies: Aliases, object typing, primary sources, domain reviewers, duplica
 tradeoffs: >-
   Local decisions can create inconsistent identities across clusters without
   later reconciliation.
+context: Merge and governance readiness
+review_needs: option category inferred — confirm
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Option Candidates!row7
+  origin: Canonical_DB.xlsx#Option Candidates!row116
   source_lineage: Internal merge-readiness design
-work_order: wo-e5b7999ca3a5
+work_order: wo-349602e76c49
 source_lineage: option-candidates.csv

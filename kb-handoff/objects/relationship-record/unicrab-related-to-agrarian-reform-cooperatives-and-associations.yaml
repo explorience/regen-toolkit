@@ -1,0 +1,18 @@
+subject: UNICRAB
+predicate: related_to
+object: Agrarian-reform cooperatives and associations
+type: relationship-record
+title: UNICRAB — related_to — Agrarian-reform cooperatives and associations
+original_relationship: connects
+evidence: >-
+  MST describes the network as bringing together more than 200 cooperatives in
+  2024–2025 reporting.
+scope: Current membership and governance should be verified
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row406
+  source_lineage: https://mst.org.br/2024/05/03/conheca-a-unicrab/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

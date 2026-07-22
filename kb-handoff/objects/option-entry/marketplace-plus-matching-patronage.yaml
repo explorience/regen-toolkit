@@ -1,0 +1,24 @@
+title: Marketplace-Plus-Matching Patronage
+type: option-entry
+category: governance
+what_it_is: >-
+  Combine creator sales, sponsorship, matching, and community preference signals
+  rather than relying on a single grant decision.
+potential_uses: >-
+  Creative work, cultural preservation, early science, open-source
+  experimentation, and community projects.
+dependencies: >-
+  Clear accounting, marketplace operations, match rules, curation, supporter
+  communication, fraud controls, and public-benefit framing.
+tradeoffs: >-
+  Marketability bias, speculative behavior, complex incentives, popularity
+  effects, and confusion between demand and impact.
+context: Artizen
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row15
+  source_lineage: https://play.artizen.fund/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

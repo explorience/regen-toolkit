@@ -1,0 +1,16 @@
+subject: FENSUAGRO
+predicate: member_of
+object: La Vía Campesina
+type: relationship-record
+title: FENSUAGRO — member_of — La Vía Campesina
+original_relationship: member organization of
+evidence: La Vía Campesina identifies FENSUAGRO as a Colombian member organization.
+scope: Formal affiliation; internal autonomy preserved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row503
+  source_lineage: https://viacampesina.org/en/tag/fensuagro/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Sensor ingestion and community privacy
+type: claim-evidence
+claim: Sensor ingestion and community privacy
+interpretation: >-
+  Define source-specific permissions and public-use boundaries; public
+  accessibility alone should not imply unrestricted AI ingestion or
+  republication.
+uncertainty: >-
+  Forum, chat, social, personal, and community sources carry different
+  expectations of access, consent, retention, and downstream use.
+evidence_stance: qualifying
+context: GAIAI / KOI Sensors
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row55
+  source_lineage: https://github.com/gaiaaiagent/koi-sensors
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

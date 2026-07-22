@@ -1,0 +1,21 @@
+title: Earthy governance
+type: concept-lineage
+short_description: >-
+  Governance framing grounded in territorial relations, Indigenous and local
+  institutions, more-than-human life and distributed decision-making.
+toolkit_usage: Adds a strong ecological and place-based governance review lens.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Adds a strong ecological and place-based governance review lens. ·
+  Status/Caution: Do not generalize diverse Indigenous or local governance
+  systems into one model · Parent source system: Kalpavriksh / GTA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row629
+  source_lineage: >-
+    https://kalpavriksh.org/wp-content/uploads/2026/02/Earthy-Governance_-How-Indigenous-Peoples-Are-Rewriting-Democracy-Beyond-Rights-of-Nature-Frontline.pdf
+original_object_class: Framework / Concept
+high_risk: true
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

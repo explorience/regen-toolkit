@@ -1,0 +1,18 @@
+title: First-person disability stories represent the disability community
+type: claim-evidence
+claim: First-person disability stories represent the disability community
+interpretation: >-
+  Treat testimony as scoped first-person evidence and preserve plurality,
+  contributor context and non-representativeness.
+uncertainty: >-
+  Stories provide essential situated knowledge but disability communities are
+  diverse and structurally unequal.
+evidence_stance: qualifying
+context: Disability Visibility Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row293
+  source_lineage: https://disabilityvisibilityproject.com/book/dv/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

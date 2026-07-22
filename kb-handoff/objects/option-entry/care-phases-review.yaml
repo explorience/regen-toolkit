@@ -1,0 +1,20 @@
+title: Care Phases Review
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Review whether needs are noticed, responsibility is assigned, care is
+  competently delivered, recipients can respond, and responsibility is shared.
+potential_uses: >-
+  Public-use review, contributor support, accessibility, maintenance and
+  stewardship.
+dependencies: Role clarity, feedback channels, competence standards, repair process.
+tradeoffs: Can appear universal while ignoring cultural differences and structural power.
+context: Joan Tronto
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row213
+  source_lineage: https://nyupress.org/9780814782781/caring-democracy/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

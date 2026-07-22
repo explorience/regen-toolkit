@@ -1,0 +1,24 @@
+title: Youth Agroecology Residency and Leadership Pathway
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Combine paid or supported residence, model-farm responsibility, farmer
+  mentorship, political education and later livelihood/leadership follow-up.
+potential_uses: >-
+  Youth farmer formation, local-node learning, stewardship pipelines,
+  regenerative livelihoods.
+dependencies: >-
+  Compensation, housing, safety, accessibility, land/livelihood pathways,
+  mentors, follow-up.
+tradeoffs: >-
+  Can rely on cheap youth labor or romanticize return-to-farming without viable
+  livelihoods.
+context: Amrita Bhoomi
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row274
+  source_lineage: https://amritabhoomi.org/the-organisation/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

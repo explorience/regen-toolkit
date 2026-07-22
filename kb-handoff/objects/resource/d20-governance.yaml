@@ -1,0 +1,18 @@
+title: D20 Governance
+type: resource
+resource_type: Governance game / tool
+url: https://metagov.org/projects/d20-governance
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Example of experiential governance onboarding and AI-mediated
+  institutional experimentation. · Status/Caution: Pending funding and seeking
+  test communities; game results are not proof of deployment readiness. · Parent
+  source system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row72
+  source_lineage: https://metagov.org/projects/d20-governance
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,22 @@
+title: Finca-Escuela Raúl Valbuena Maintenance Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document how the farm-school’s land, buildings, food production, education,
+  safety and finances are governed and maintained.
+what_returns_to_commons: Makes the usually invisible physical substrate of movement education legible.
+notes: >-
+  What to capture: Tenure; decision rights; labor; budgets; infrastructure; food
+  systems; security; accessibility; climate risks; continuity. · Status/Caution:
+  Candidate; public evidence currently thin
+related_source_system: IALA María Cano
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row323
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-se-inauguro-en-viota-el-instituto-agroecologico-latinoamericano-maria-cano
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

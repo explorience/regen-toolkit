@@ -1,0 +1,18 @@
+title: Volunteer maintenance demonstrates community health
+type: claim-evidence
+claim: Volunteer maintenance demonstrates community health
+interpretation: >-
+  Track volunteer contribution alongside compensation, workload, turnover, care,
+  and sustainability.
+uncertainty: >-
+  High unpaid effort can signal commitment but also burnout, exclusion, subsidy
+  by privileged contributors, and institutional underfunding.
+evidence_stance: qualifying
+context: Knowledge commons / open source
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row274
+  source_lineage: Internal labor-cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

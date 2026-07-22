@@ -1,0 +1,17 @@
+subject: Shashe Agroecology School
+predicate: member_of
+object: Shashe Smallholder Farmer Organisation
+type: relationship-record
+title: Shashe Agroecology School — member_of — Shashe Smallholder Farmer Organisation
+original_relationship: located within
+evidence: School is situated in the central cluster and local farmer organization.
+scope: Current boundaries need confirmation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row372
+  source_lineage: >-
+    https://viacampesina.org/en/2014/10/shashe-smallholder-farmer-organisation-sfo-a-true-centre-of-agro-ecology/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

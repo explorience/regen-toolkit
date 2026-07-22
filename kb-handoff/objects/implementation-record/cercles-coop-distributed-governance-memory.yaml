@@ -1,0 +1,21 @@
+title: Cercles.coop Distributed Governance Memory
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow the effort to consolidate discussions, decisions and agreements
+  previously scattered across tools.
+what_returns_to_commons: Direct comparator for Toolkit knowledge, decision and memory layers.
+notes: >-
+  What to capture: Information architecture, permissions, decision records,
+  integrations, adoption, privacy and maintenance. · Status/Caution: Newly
+  announced; outcomes not yet established
+related_source_system: Decidim / cooperative ecosystem
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row97
+  source_lineage: https://meta.decidim.org/en/processes/news/f/1719/posts/384
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

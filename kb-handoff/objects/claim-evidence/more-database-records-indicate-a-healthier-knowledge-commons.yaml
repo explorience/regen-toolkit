@@ -1,0 +1,18 @@
+title: More database records indicate a healthier knowledge commons
+type: claim-evidence
+claim: More database records indicate a healthier knowledge commons
+interpretation: >-
+  Use record counts only as activity measures and pair them with maintenance,
+  review, workload, accessibility, correction, and use evidence.
+uncertainty: >-
+  Growth may coexist with stale links, thin sources, reviewer debt, invisible
+  labor, exclusion, or low reuse.
+evidence_stance: neutral
+context: Toolkit metrics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row284
+  source_lineage: Internal labor-maintenance review
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

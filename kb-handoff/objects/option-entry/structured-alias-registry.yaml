@@ -1,0 +1,18 @@
+title: Structured Alias Registry
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Represent names, handles, translations, abbreviations, and historic labels as
+  sourced records with type and validity dates.
+potential_uses: Deduplication, multilingual search, steward corrections, historic research.
+dependencies: Alias vocabulary, language tags, source/date fields, privacy rules.
+tradeoffs: Can expose personal aliases or create excessive maintenance work.
+context: GAIAI merge-pilot review
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row120
+  source_lineage: Internal GAIAI merge-pilot review — 2026-07-10
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

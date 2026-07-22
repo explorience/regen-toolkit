@@ -1,0 +1,18 @@
+title: Groundwork Fellowship
+type: resource
+resource_type: Fellowship / implementation archive
+url: https://metagov.org/projects/groundwork-fellowship/documentation
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Adds plural, community-situated governance artifacts and
+  implementation cases. · Status/Caution: Community artifacts require contextual
+  reading; avoid extracting practices as universal templates. · Parent source
+  system: Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row81
+  source_lineage: https://metagov.org/projects/groundwork-fellowship/documentation
+original_object_class: Source System / Collection
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

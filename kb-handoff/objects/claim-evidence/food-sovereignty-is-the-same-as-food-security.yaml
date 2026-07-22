@@ -1,0 +1,18 @@
+title: Food sovereignty is the same as food security
+type: claim-evidence
+claim: Food sovereignty is the same as food security
+interpretation: >-
+  Treat food sovereignty as a political framework centered on peoples' authority
+  over food and agriculture systems, not as a synonym for food security.
+uncertainty: >-
+  Food security can focus on availability and access without addressing who
+  controls land, seeds, production, trade and policy.
+evidence_stance: qualifying
+context: La Vía Campesina / Nyéléni
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row370
+  source_lineage: https://viacampesina.org/en/what-is-food-sovereignty/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

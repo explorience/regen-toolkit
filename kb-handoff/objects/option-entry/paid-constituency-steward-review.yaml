@@ -1,0 +1,21 @@
+title: Paid Constituency Steward Review
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Invite paid women, youth, LGBTI+, education, communication, cooperative and
+  technology stewards to correct the map and identify missing less-visible
+  contributors.
+potential_uses: Corrective review of public-source people maps.
+dependencies: >-
+  Consent, compensation, accessible formats, privacy, collective review and
+  correction rights.
+tradeoffs: Outreach can reproduce extraction or expose internal movement dynamics.
+context: MST / contributor workflow
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row305
+  source_lineage: Internal synthesis from Toolkit contributor workflow
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

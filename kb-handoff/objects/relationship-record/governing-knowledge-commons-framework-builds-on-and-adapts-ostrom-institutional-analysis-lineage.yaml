@@ -1,0 +1,21 @@
+subject: Governing Knowledge Commons framework
+predicate: builds_on_and_adapts
+object: Ostrom institutional-analysis lineage
+type: relationship-record
+title: >-
+  Governing Knowledge Commons framework — builds_on_and_adapts — Ostrom
+  institutional-analysis lineage
+original_relationship: builds on and adapts
+evidence: >-
+  Extends institutional inquiry to knowledge, data, science, information, and
+  culture.
+scope: Adaptation, not direct duplication
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row101
+  source_lineage: https://knowledge-commons.net/about-knowledge-commons/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

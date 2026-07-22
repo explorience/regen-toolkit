@@ -1,0 +1,20 @@
+subject: Shashe Agroecology School
+predicate: connected_to
+object: ZIMSOFF and La Vía Campesina
+type: relationship-record
+title: Shashe Agroecology School — connected_to — ZIMSOFF and La Vía Campesina
+original_relationship: connected to
+evidence: >-
+  School presented as part of peasant movement agroecology training
+  infrastructure.
+scope: Current relationship and status need verification
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row356
+  source_lineage: >-
+    https://viacampesina.org/en/2016/08/shashe-agroecology-school-a-true-centre-of-agroecology-and-practical-food-sovereignty/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

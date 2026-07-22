@@ -1,0 +1,25 @@
+title: Territory-Anchored Cooperative Chain Record
+type: option-entry
+category: governance
+what_it_is: >-
+  Document a cooperative chain across territorial context, member governance,
+  production, processing, financing, labor, markets, ecology, maintenance and
+  household outcomes.
+potential_uses: >-
+  Cooperative implementation memory, procurement review, funder due diligence,
+  livelihood and food-system learning.
+dependencies: >-
+  Steward access, bylaws, financials, labor and member data, ecological review,
+  privacy and affected-party participation.
+tradeoffs: >-
+  Can turn organizer narratives into implied impact or overburden communities
+  with reporting.
+context: COOPAC / Nutrilê
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row297
+  source_lineage: Internal COOPAC case synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

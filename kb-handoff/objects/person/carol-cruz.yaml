@@ -1,0 +1,22 @@
+title: Carol Cruz
+type: person
+full_name: Carol Cruz
+affiliation: IARAA / MST communication
+consent_status: unverified — default non-public (Principle 8)
+url: >-
+  https://mst.org.br/2025/11/06/conheca-a-iaraa-inteligencia-artificial-da-reforma-agraria-e-agroecologia/
+notes: >-
+  Why add: Adds documentation and translation-of-technology work to the people
+  map. · Status/Caution: Authorship and communication role; governance authority
+  unresolved · Parent source system: IARAA / MST communication
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row742
+  source_lineage: >-
+    https://mst.org.br/2025/11/06/conheca-a-iaraa-inteligencia-artificial-da-reforma-agraria-e-agroecologia/
+original_object_class: Person
+normalization_flag: DUP-NE-707
+review_needs: 'Matty dup-flag DUP-NE-707: Natália Lobo'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

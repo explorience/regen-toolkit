@@ -1,0 +1,22 @@
+subject: ANAMURI / Sembradoras de Esperanza
+predicate: convened
+object: International Seminar on Health, Food and Care of Rural Peoples
+type: relationship-record
+title: >-
+  ANAMURI / Sembradoras de Esperanza — convened — International Seminar on
+  Health, Food and Care of Rural Peoples
+original_relationship: convened
+evidence: >-
+  Event description names rural and Indigenous women, ancestral knowledge
+  holders and community-health actors.
+scope: 2025 seminar; outcomes not established
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row498
+  source_lineage: https://anamuri.cl/2-2/
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

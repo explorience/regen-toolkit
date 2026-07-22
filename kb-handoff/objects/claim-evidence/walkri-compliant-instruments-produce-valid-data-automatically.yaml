@@ -1,0 +1,18 @@
+title: WALKRI-compliant instruments produce valid data automatically
+type: claim-evidence
+claim: WALKRI-compliant instruments produce valid data automatically
+interpretation: >-
+  Assess instrument quality together with construct validity, context, sampling,
+  power and downstream use.
+uncertainty: >-
+  Instrument definition and provenance improve reviewability but cannot rescue a
+  poor construct, biased sampling or coercive context.
+evidence_stance: qualifying
+context: WALKRI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row218
+  source_lineage: https://github.com/CrossWalkri/WALKRI
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

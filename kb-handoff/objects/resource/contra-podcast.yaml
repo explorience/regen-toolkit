@@ -1,0 +1,17 @@
+title: Contra* podcast
+type: resource
+resource_type: Media / learning series
+url: https://www.criticaldesignlab.com/podcast
+original_source: Critical Design Lab
+notes: >-
+  Why add: Routes critical design and archive interpretation into accessible
+  media and field memory. · Status/Caution: Media source; episodes are not
+  peer-reviewed findings · Parent source system: Critical Design Lab
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row525
+  source_lineage: https://www.criticaldesignlab.com/podcast
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

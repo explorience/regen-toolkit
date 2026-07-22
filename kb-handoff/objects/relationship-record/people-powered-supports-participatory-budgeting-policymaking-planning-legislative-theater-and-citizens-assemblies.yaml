@@ -1,0 +1,20 @@
+subject: People Powered
+predicate: supports
+object: >-
+  Participatory budgeting, policymaking, planning, legislative theater, and
+  citizens’ assemblies
+type: relationship-record
+title: >-
+  People Powered — supports — Participatory budgeting, policymaking, planning,
+  legislative theater, and citizens’ assemblies
+original_relationship: supports
+evidence: The organization frames these as major participatory-democracy approaches.
+scope: Methods are distinct and context-dependent.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row40
+  source_lineage: https://www.peoplepowered.org/about/participatory-democracy
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

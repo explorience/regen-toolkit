@@ -1,0 +1,19 @@
+subject: AI-assisted record changes
+predicate: reviewed_by
+object: human domain or governance reviewer
+type: relationship-record
+title: AI-assisted record changes — reviewed_by — human domain or governance reviewer
+original_relationship: reviewed by
+evidence: >-
+  Consequential AI suggestions should not independently alter canonical or
+  public-use decisions.
+scope: Required control relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row236
+  source_lineage: Internal labor-maintenance review
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

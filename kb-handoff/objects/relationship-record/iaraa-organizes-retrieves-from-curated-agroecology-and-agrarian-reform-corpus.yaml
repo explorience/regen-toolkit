@@ -1,0 +1,22 @@
+subject: IARAA
+predicate: organizes_retrieves_from
+object: Curated agroecology and agrarian-reform corpus
+type: relationship-record
+title: >-
+  IARAA — organizes_retrieves_from — Curated agroecology and agrarian-reform
+  corpus
+original_relationship: organizes / retrieves from
+evidence: >-
+  Launch reporting describes a curated corpus approaching one thousand
+  materials.
+scope: Corpus membership, rights and coverage unresolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row417
+  source_lineage: >-
+    https://mst.org.br/2026/05/15/movimentos-populares-lancam-1a-ia-voltada-para-agroecologia-e-reforma-agraria-no-brasil/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

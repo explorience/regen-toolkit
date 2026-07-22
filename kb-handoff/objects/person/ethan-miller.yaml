@@ -1,0 +1,20 @@
+title: Ethan Miller
+type: person
+full_name: Ethan Miller
+affiliation: Community Economies
+consent_status: unverified — default non-public (Principle 8)
+url: https://communityeconomies.org/people/ethan-miller
+notes: >-
+  Why add: Strong bridge across commons, solidarity economy, land justice and
+  more-than-human livelihoods · Status/Caution: Current profile · Parent source
+  system: Community Economies
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row865
+  source_lineage: https://communityeconomies.org/people/ethan-miller
+original_object_class: Person
+normalization_flag: REPAIR-NO-865
+review_needs: 'Matty dup-flag REPAIR-NO-865: Late-row alternate object schema'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+subject: Ruha Benjamin
+predicate: founded_directs
+object: Ida B. Wells JUST Data Lab
+type: relationship-record
+title: Ruha Benjamin — founded_directs — Ida B. Wells JUST Data Lab
+original_relationship: founded / directs
+evidence: Official profile identifies founding-director role.
+scope: Current role as stated on source
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row212
+  source_lineage: https://www.ruhabenjamin.com/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

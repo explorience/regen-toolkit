@@ -1,0 +1,18 @@
+title: Artizen Community Funds
+type: resource
+resource_type: Program / funding pathway
+url: https://play.artizen.fund/
+original_source: Artizen
+notes: >-
+  Why add: Adds the community-curation and federated-fund layer beyond the
+  central Endowment. · Status/Caution: Fund quality depends on curator
+  transparency, scope, conflicts, and representation · Parent source system:
+  Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row36
+  source_lineage: https://play.artizen.fund/
+original_object_class: Program / Initiative
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -10,13 +10,19 @@ what_it_curates: >-
 why_it_matters: >-
   Preserves Donella Meadows’s writings and applies systems thinking through
   current learning programs, tools, field stories and practitioner education.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row14
-  source_lineage: https://donellameadows.org/
 caution: >-
   The archive is steward-authored and legacy-oriented. Systems concepts are
   lenses, not neutral predictions or universal intervention recipes.
+extraction_status: >-
+  Dynamic-systems concepts, source archive, current pedagogy, indicator design,
+  leverage review, model humility and systems-change practice.
+notes: >-
+  Role: Thinker-led source system and living systems-practice archive · Action:
+  ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row13
+  source_lineage: https://donellameadows.org/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

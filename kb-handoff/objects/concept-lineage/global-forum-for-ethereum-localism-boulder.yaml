@@ -1,0 +1,22 @@
+title: Global Forum for Ethereum Localism — Boulder
+type: concept-lineage
+short_description: >-
+  A place-based convening and retrospective focused on Ethereum localism and
+  civic coordination.
+toolkit_usage: >-
+  Adds a concrete bridge between local civic practice, web3 infrastructure, and
+  field memory.
+original_object_type: Convening / field-memory artifact
+notes: >-
+  Why add: Adds a concrete bridge between local civic practice, web3
+  infrastructure, and field memory. · Status/Caution: Event participation and
+  retrospective narratives should not be generalized into a validated localism
+  model. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row153
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

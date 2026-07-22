@@ -1,0 +1,20 @@
+title: Safety-Bounded Public People Record
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Record only dated public roles, public statements and necessary affiliations
+  for people in high-risk movements.
+potential_uses: FENSUAGRO leadership and rights advocacy
+dependencies: Preserves useful context while limiting exposure and stale-role claims.
+tradeoffs: >-
+  Public information can still increase risk; omit operational and location
+  details.
+context: People layer / privacy
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row329
+  source_lineage: Priority option
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

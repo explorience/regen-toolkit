@@ -1,0 +1,18 @@
+title: Participedia Case Database User Guide
+type: resource
+resource_type: Documentation / guide
+url: https://participedia.net/docs/Participedia_case_data_-_User_guide_002.pdf
+original_source: Participedia
+notes: >-
+  Why add: Provides a responsible-use model pairing open data with
+  methodological cautions. · Status/Caution: Examples and counts may be dated;
+  use the current download and codebook for analysis. · Parent source system:
+  Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row224
+  source_lineage: https://participedia.net/docs/Participedia_case_data_-_User_guide_002.pdf
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

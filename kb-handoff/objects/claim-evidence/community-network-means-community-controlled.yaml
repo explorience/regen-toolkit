@@ -1,0 +1,19 @@
+title: Community network means community controlled
+type: claim-evidence
+claim: Community network means community controlled
+interpretation: >-
+  Describe the specific governance, ownership, operational and decision rights
+  held by community members.
+uncertainty: >-
+  Projects may use community language while ownership, licensing, technical
+  decisions, funding or data remain externally controlled.
+evidence_stance: qualifying
+context: APC / community networks
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row332
+  source_lineage: >-
+    https://www.apc.org/en/pubs/bottom-connectivity-strategies-community-led-small-scale-telecommunication-infrastructure
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

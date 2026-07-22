@@ -1,0 +1,22 @@
+title: Indicator purpose, audience and hierarchy
+type: concept-lineage
+short_description: >-
+  Indicators should be selected in relation to decision purpose, intended
+  audience, system level and underlying values.
+toolkit_usage: >-
+  Strengthens metric provenance and prevents dashboard fields from appearing
+  neutral.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Strengthens metric provenance and prevents dashboard fields from
+  appearing neutral. · Status/Caution: A well-documented indicator can still be
+  harmful or incomplete · Parent source system: Donella Meadows indicators work
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row412
+  source_lineage: >-
+    https://donellameadows.org/archives/indicators-and-information-systems-for-sustainable-development/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,24 @@
+title: Open Ecological Registry and Credit-Protocol Library
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Maintain public methodology, review-history, project, and credit-class records
+  with explicit status and versioning.
+potential_uses: >-
+  Ecological standards libraries, climate and biodiversity registries, public
+  review systems, methodology commons.
+dependencies: >-
+  Clear governance, versioning, reviewer roles, document preservation,
+  public-comment process, correction path.
+tradeoffs: >-
+  Registry authority can be over-read; public documents can expose sensitive
+  knowledge; process may privilege well-resourced developers.
+context: Regen Registry
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row7
+  source_lineage: https://www.registry.regen.network/methodologies
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

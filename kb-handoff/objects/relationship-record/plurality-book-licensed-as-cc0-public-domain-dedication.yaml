@@ -1,0 +1,17 @@
+subject: Plurality book
+predicate: licensed_as
+object: CC0 / public domain dedication
+type: relationship-record
+title: Plurality book — licensed_as — CC0 / public domain dedication
+original_relationship: licensed as
+evidence: Site states the work is dedicated to the public domain under CC0
+scope: Legal interpretation should follow source license text
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row8
+  source_lineage: https://plurality.net/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

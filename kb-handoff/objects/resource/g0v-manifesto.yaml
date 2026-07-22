@@ -1,0 +1,17 @@
+title: g0v Manifesto
+type: resource
+resource_type: Governance artifact
+url: https://g0v.tw/intl/en/manifesto/
+original_source: g0v
+notes: >-
+  Why add: Relevant governance and constitutional artifact for community
+  infrastructure. · Status/Caution: Manifesto is a shared orientation, not proof
+  every project follows it uniformly · Parent source system: g0v
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row278
+  source_lineage: https://g0v.tw/intl/en/manifesto/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

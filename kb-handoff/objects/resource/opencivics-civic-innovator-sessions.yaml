@@ -1,0 +1,18 @@
+title: OpenCivics Civic Innovator Sessions
+type: resource
+resource_type: Media / learning series
+url: https://www.youtube.com/@OpenCivics/videos
+original_source: OpenCivics
+notes: >-
+  Why add: Routes media into field memory, people discovery, concepts, and
+  implementation leads rather than an undifferentiated video archive. ·
+  Status/Caution: Sessions are self-presentations and learning artifacts, not
+  peer review or independent evaluation. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row160
+  source_lineage: https://www.youtube.com/@OpenCivics/videos
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

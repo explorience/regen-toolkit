@@ -1,0 +1,18 @@
+title: FENSUAGRO
+type: organization
+org_type: Movement / union federation
+url: https://viacampesina.org/en/tag/fensuagro/
+steward: CLOC–La Vía Campesina / Colombia
+notes: >-
+  Why add: Adds a worker-peasant union model operating under sustained conflict
+  and security pressure. · Status/Caution: Current structure, membership and
+  leadership require direct confirmation · Parent source system: CLOC–La Vía
+  Campesina / Colombia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row808
+  source_lineage: https://viacampesina.org/en/tag/fensuagro/
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

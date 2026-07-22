@@ -1,0 +1,19 @@
+title: Terms and privacy links establish adequate protection
+type: claim-evidence
+claim: Terms and privacy links establish adequate protection
+interpretation: >-
+  Record that documents are linked and require project-specific data-flow and
+  privacy review before safety claims.
+uncertainty: >-
+  Document availability does not prove project-specific minimization, safe
+  logging, processor controls, deletion, incident response or territorial-data
+  protection.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row428
+  source_lineage: https://baobab.iapc.group/pt/iaraa/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

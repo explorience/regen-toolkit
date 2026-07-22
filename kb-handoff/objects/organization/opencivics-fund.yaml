@@ -1,0 +1,18 @@
+title: OpenCivics Fund
+type: organization
+org_type: Funding organization / fiscal project
+url: https://www.opencivics.co/network
+steward: OpenCivics / Buckminster Fuller Institute
+notes: >-
+  Why add: Connects the network to financial stewardship and fiscal sponsorship.
+  · Status/Caution: Public descriptions do not by themselves show governance,
+  allocation criteria, financial scale, or outcomes. · Parent source system:
+  OpenCivics / Buckminster Fuller Institute
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row145
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,18 @@
+title: A movement-owned school is automatically governed democratically
+type: claim-evidence
+claim: A movement-owned school is automatically governed democratically
+interpretation: >-
+  Describe the movement relationship and separately review governance
+  rules-in-use and participant authority.
+uncertainty: >-
+  Movement embedding and community identity do not reveal decision rules,
+  accountability, resource control or internal inequalities.
+evidence_stance: qualifying
+context: Shashe / Amrita Bhoomi
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row392
+  source_lineage: Internal paired-case synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

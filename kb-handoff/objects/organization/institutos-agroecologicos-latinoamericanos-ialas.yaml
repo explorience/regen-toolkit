@@ -1,0 +1,17 @@
+title: Institutos Agroecológicos Latinoamericanos (IALAs)
+type: organization
+org_type: Movement education network
+url: https://cloc-viacampesina.net/procesos-de-formacion-que-impulsa-la-cloc-lvc
+steward: CLOC–La Vía Campesina
+notes: >-
+  Why add: Major source system for movement-owned education and territorial
+  agroecology. · Status/Caution: Network composition and status require
+  date-specific review · Parent source system: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row759
+  source_lineage: https://cloc-viacampesina.net/procesos-de-formacion-que-impulsa-la-cloc-lvc
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,25 @@
+title: Subgroup Audit with Use-Case Legitimacy Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Pair subgroup performance testing with a prior question of whether the
+  classification or surveillance use case should exist at all.
+potential_uses: >-
+  Biometrics, identity systems, classification models and automated decision
+  support.
+dependencies: >-
+  Appropriate datasets, intersectional groups, thresholds, institutional
+  context, legal review and affected-party input.
+tradeoffs: >-
+  Better subgroup performance can legitimize harmful surveillance or
+  essentialist categories.
+context: Gender Shades / AJL
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row183
+  source_lineage: https://gs.ajl.org/
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

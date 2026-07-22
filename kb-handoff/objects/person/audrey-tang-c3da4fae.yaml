@@ -1,0 +1,20 @@
+title: Audrey Tang
+type: person
+full_name: Audrey Tang
+affiliation: Plurality / g0v / Taiwan digital democracy lineage
+consent_status: unverified — default non-public (Principle 8)
+url: https://audreyt.org/
+notes: >-
+  Why add: High-leverage thinker and practitioner node connecting open-source
+  communities, government service, deliberation, Plurality and AI governance. ·
+  Status/Caution: Current roles and titles should follow the person's own
+  current profile; inclusion is not endorsement · Parent source system:
+  Plurality / g0v / Taiwan digital democracy lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row353
+  source_lineage: https://audreyt.org/
+original_object_class: Person
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

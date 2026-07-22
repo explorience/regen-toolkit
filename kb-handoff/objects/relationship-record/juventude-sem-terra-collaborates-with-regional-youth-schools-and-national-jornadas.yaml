@@ -1,0 +1,21 @@
+subject: Juventude Sem Terra
+predicate: collaborates_with
+object: Regional youth schools and national jornadas
+type: relationship-record
+title: >-
+  Juventude Sem Terra — collaborates_with — Regional youth schools and national
+  jornadas
+original_relationship: runs / participates in
+evidence: >-
+  Current movement reporting documents regional schools and environmental
+  mobilization.
+scope: Program relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row451
+  source_lineage: >-
+    https://mst.org.br/2025/09/14/mst-realiza-ia-escola-da-juventude-sem-terra-da-regiao-nordeste/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

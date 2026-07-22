@@ -1,0 +1,17 @@
+title: Community Networks Learning Space
+type: resource
+resource_type: Learning platform
+url: https://cnlearning.apc.org/
+original_source: APC
+notes: >-
+  Why add: Strong source system for guides, curricula, field memory and
+  comparative learning. · Status/Caution: Learning materials vary in date,
+  authorship and evidence level · Parent source system: APC
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row555
+  source_lineage: https://cnlearning.apc.org/
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

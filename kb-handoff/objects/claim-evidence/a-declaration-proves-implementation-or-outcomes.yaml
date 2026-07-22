@@ -1,0 +1,19 @@
+title: A declaration proves implementation or outcomes
+type: claim-evidence
+claim: A declaration proves implementation or outcomes
+interpretation: >-
+  Record declarations as political and knowledge artifacts; separately trace
+  implementation, resistance, institutional response and outcomes.
+uncertainty: >-
+  Declarations articulate shared agendas and commitments but do not establish
+  enactment, enforcement or local effects.
+evidence_stance: qualifying
+context: Nyéléni / La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row373
+  source_lineage: >-
+    https://nyeleni.org/en/the-kandy-declaration-a-collective-roadmap-for-systemic-transformation/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

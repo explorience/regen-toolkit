@@ -1,5 +1,5 @@
 title: Computational Democracy Project / Polis + vTaiwan
-type: repo
+type: directory
 steward: Computational Democracy Project / Polis + vTaiwan
 return_path: unset — establish via register-source
 url: https://compdemocracy.org/
@@ -9,13 +9,21 @@ what_it_curates: >-
 why_it_matters: >-
   Open-source collective-intelligence infrastructure maintained by CompDem,
   paired with vTaiwan’s hybrid process and g0v civic-tech lineage.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row11
-  source_lineage: https://compdemocracy.org/
 caution: >-
   Tool performance and policy influence must be assessed case by case;
   participant recruitment and institutional response shape results.
+extraction_status: >-
+  Opinion-space mapping; rough-consensus processes; tool-to-policy evidence
+  chains; facilitation; open-source maintenance; transfer conditions and
+  limitations.
+notes: >-
+  Role: Core Batch 1C computational-deliberation implementation cluster ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row10
+  source_lineage: https://compdemocracy.org/
+review_needs: source-system type inferred — confirm
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

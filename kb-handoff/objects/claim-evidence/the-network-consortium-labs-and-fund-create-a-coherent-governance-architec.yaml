@@ -1,0 +1,20 @@
+title: The Network, Consortium, Labs, and Fund create a coherent governance architec…
+type: claim-evidence
+claim: >-
+  The Network, Consortium, Labs, and Fund create a coherent governance
+  architecture
+interpretation: >-
+  OpenCivics publicly describes four complementary organizing structures; their
+  current mandates, activity, and relationships require direct evidence.
+uncertainty: >-
+  Named structures and diagrams may exceed the maturity of operational
+  documentation or active programs.
+evidence_stance: neutral
+context: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row69
+  source_lineage: https://www.opencivics.co/network
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

@@ -1,0 +1,19 @@
+title: VII Continental Assembly of Rural Women
+type: resource
+resource_type: Assembly
+url: >-
+  https://cloc-viacampesina.net/declaracion-vii-asamblea-continental-de-mujeres-del-campo-cloc-via-campesina
+original_source: CLOC–La Vía Campesina
+notes: >-
+  Why add: Current collective statement and constituency-governance record. ·
+  Status/Caution: Declaration and attendance are not implementation evidence ·
+  Parent source system: CLOC–La Vía Campesina
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row754
+  source_lineage: >-
+    https://cloc-viacampesina.net/declaracion-vii-asamblea-continental-de-mujeres-del-campo-cloc-via-campesina
+original_object_class: Event / Assembly
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

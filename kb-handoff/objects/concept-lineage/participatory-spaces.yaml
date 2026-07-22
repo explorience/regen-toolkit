@@ -1,0 +1,23 @@
+title: Participatory Spaces
+type: concept-lineage
+short_description: >-
+  Primary channels for participation, including processes, assemblies,
+  initiatives and conferences.
+toolkit_usage: >-
+  Separates institutional or procedural contexts from reusable interaction
+  mechanisms.
+original_object_type: Architecture concept
+notes: >-
+  Why add: Separates institutional or procedural contexts from reusable
+  interaction mechanisms. · Status/Caution: Types and availability vary by
+  installation and version · Parent source system: Decidim / Metadecidim
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row287
+  source_lineage: https://docs.decidim.org/en/develop/features/participatory-spaces.html
+original_object_class: Framework / Concept
+normalization_flag: DUP-NE-287
+review_needs: 'Matty dup-flag DUP-NE-287: Audrey Tang'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

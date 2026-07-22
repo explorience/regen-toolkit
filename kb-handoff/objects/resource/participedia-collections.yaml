@@ -1,0 +1,18 @@
+title: Participedia Collections
+type: resource
+resource_type: Curated grouping
+url: https://participedia.net/search?selectedCategory=collections
+original_source: Participedia
+notes: >-
+  Why add: Useful model for reviewed thematic collections layered over a broad
+  crowdsourced database. · Status/Caution: Collections are curated by the
+  Participedia team and therefore reflect editorial choices and available
+  coverage. · Parent source system: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row222
+  source_lineage: https://participedia.net/search?selectedCategory=collections
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

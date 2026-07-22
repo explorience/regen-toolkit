@@ -1,0 +1,21 @@
+title: Mutual Aid Disaster Relief Guiding Principles
+type: concept-lineage
+short_description: >-
+  Principles emphasizing horizontal, multidirectional relationships, community
+  self-determination, cultural humility and solidarity.
+toolkit_usage: Useful review lens for crisis-response and community-support design.
+original_object_type: Framework
+notes: >-
+  Why add: Useful review lens for crisis-response and community-support design.
+  · Status/Caution: Principles are aspirational; implementation quality and
+  safety must be evaluated · Parent source system: Mutual Aid Disaster Relief
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row540
+  source_lineage: https://mutualaiddisasterrelief.org/guiding-principles/
+original_object_class: Framework / Concept
+normalization_flag: DUP-NE-540
+review_needs: 'Matty dup-flag DUP-NE-540: Mutual Aid Disaster Relief'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

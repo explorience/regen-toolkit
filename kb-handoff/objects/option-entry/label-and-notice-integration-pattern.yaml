@@ -1,0 +1,22 @@
+title: Label-and-Notice Integration Pattern
+type: option-entry
+category: coordination
+what_it_is: >-
+  Integrate Local Contexts identifiers and current Label/Notice details into
+  external records without copying or freezing community-controlled metadata.
+potential_uses: Websites, repositories, agents, registries and research platforms.
+dependencies: >-
+  Hub API, stable project references, refresh logic, permission-respecting
+  display and fail-safe behavior.
+tradeoffs: >-
+  Cached or copied metadata can become stale, decontextualized or detached from
+  community governance.
+context: Local Contexts Hub
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row176
+  source_lineage: https://localcontexts.org/about/about-the-hub/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

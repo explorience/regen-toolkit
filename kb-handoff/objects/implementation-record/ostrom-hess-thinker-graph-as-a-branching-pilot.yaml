@@ -1,0 +1,24 @@
+title: Ostrom–Hess Thinker Graph as a Branching Pilot
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Expanded thin original records for Elinor Ostrom and Charlotte Hess into a
+  connected graph of people, works, frameworks, institutions, associations,
+  journals, critiques, and Toolkit options.
+what_returns_to_commons: >-
+  Tests whether thinker expansion can generate substantive database growth
+  without becoming a celebrity or biography list.
+notes: >-
+  What to capture: Original duplicates; enriched person records; branches added;
+  relationships; concepts; source systems; cautions; next leads. ·
+  Status/Caution: Completed; use as template for later thinker clusters
+related_source_system: People and thinker expansion
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row125
+  source_lineage: Internal thinker-branching pilot — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

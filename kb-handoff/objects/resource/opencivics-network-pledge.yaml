@@ -1,0 +1,18 @@
+title: OpenCivics Network Pledge
+type: resource
+resource_type: Membership / governance artifact
+url: https://www.opencivics.co/network
+original_source: OpenCivics
+notes: >-
+  Why add: Adds the normative membership artifact behind the network's identity
+  and participation model. · Status/Caution: A pledge expresses intent and
+  culture; it does not prove adherence, accountability, or structural integrity.
+  · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row157
+  source_lineage: https://www.opencivics.co/network
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

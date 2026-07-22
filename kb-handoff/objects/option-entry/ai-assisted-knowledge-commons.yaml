@@ -1,0 +1,20 @@
+title: AI-Assisted Knowledge Commons
+type: option-entry
+category: coordination
+what_it_is: >-
+  Keystone reusable option generated from Batch 1A; should guide future workbook
+  structure and expansion.
+notes: >-
+  Priority: Keystone reusable option generated from Batch 1A; should guide
+  future workbook structure and expansion. · Next: Add as developed option; link
+  to GAIAI, Regen Commons, OpenCivics, social-signal expansion, and Technical
+  Handoff; strengthen ai_assisted_status and classification_confidence usage. ·
+  Notes: Added in Batch 1A developed options pass.
+review_needs: Discovery_Pool promotion — confirm category + source
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Discovery_Pool.xlsx#Priority Working Set!RKC-04902
+  source_lineage: https://gaiaai.xyz/
+work_order: wo-9160efad3c7b
+source_lineage: priority-working-set.csv

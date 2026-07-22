@@ -1,0 +1,17 @@
+title: g0v Manifesto
+type: resource
+resource_type: Governance artifact
+url: https://g0v.tw/intl/en/manifesto/en/
+original_source: g0v
+notes: >-
+  Why add: Concrete rules-and-values artifact for comparing declared principles
+  with rules-in-use. · Status/Caution: Manifesto is a shared baseline, not proof
+  that every project follows identical practices · Parent source system: g0v
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row355
+  source_lineage: https://g0v.tw/intl/en/manifesto/en/
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

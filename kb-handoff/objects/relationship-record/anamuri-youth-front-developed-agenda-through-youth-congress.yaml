@@ -1,0 +1,17 @@
+subject: ANAMURI Youth Front
+predicate: developed_agenda_through
+object: Youth Congress
+type: relationship-record
+title: ANAMURI Youth Front — developed_agenda_through — Youth Congress
+original_relationship: developed agenda through
+evidence: 2026-hosted PDF records youth priorities across six thematic areas.
+scope: Authorship and delegate process need fuller metadata
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row494
+  source_lineage: https://anamuri.cl/wp-content/uploads/2026/02/07-Congreso-de-Jovenes.pdf
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

@@ -1,0 +1,19 @@
+title: Soil Organic Carbon Estimation in Regenerative Cropping and Managed Grasslands
+type: resource
+resource_type: Methodology
+url: >-
+  https://www.registry.regen.network/crediting-protocols/ecometric---ghg-benefits-in-managed-crop-and-grassland-systems-credit-class
+original_source: Regen Network / Regen Registry
+notes: >-
+  Why add: Concrete MRV method supporting the Philipson Estate evidence chain. ·
+  Status/Caution: Model uncertainty, sampling design and verification quality
+  need review · Parent source system: Regen Network / Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row58
+  source_lineage: >-
+    https://www.registry.regen.network/crediting-protocols/ecometric---ghg-benefits-in-managed-crop-and-grassland-systems-credit-class
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

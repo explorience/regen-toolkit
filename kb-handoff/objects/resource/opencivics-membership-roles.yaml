@@ -1,0 +1,18 @@
+title: OpenCivics Membership Roles
+type: resource
+resource_type: Participation model
+url: https://www.opencivics.co/participate
+original_source: OpenCivics
+notes: >-
+  Why add: Adds a concrete role vocabulary for comparing layered contribution
+  and governance pathways. · Status/Caution: Role labels may overlap or change;
+  public descriptions do not fully specify authority, obligations, entry, exit,
+  or conflict processes. · Parent source system: OpenCivics
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row158
+  source_lineage: https://www.opencivics.co/participate
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+subject: Five Dimensions paper
+predicate: created_by
+object: Sammy McKinney and Claudia Chwalisz
+type: relationship-record
+title: Five Dimensions paper — created_by — Sammy McKinney and Claudia Chwalisz
+original_relationship: authored by
+evidence: Named authors and publication year 2025
+scope: Research relationship
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row10
+  source_lineage: >-
+    https://www.demnext.org/action/five-dimensions-of-scaling-democratic-deliberation-with-and-beyond-ai
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

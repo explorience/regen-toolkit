@@ -1,0 +1,17 @@
+subject: Shashe Smallholder Farmer Organisation
+predicate: member_of
+object: ZIMSOFF
+type: relationship-record
+title: Shashe Smallholder Farmer Organisation — member_of — ZIMSOFF
+original_relationship: member / local structure of
+evidence: Public profile connects Shashe SFO to ZIMSOFF’s cluster structure.
+scope: Organizational structure may have evolved
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row373
+  source_lineage: >-
+    https://viacampesina.org/en/2014/10/shashe-smallholder-farmer-organisation-sfo-a-true-centre-of-agro-ecology/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

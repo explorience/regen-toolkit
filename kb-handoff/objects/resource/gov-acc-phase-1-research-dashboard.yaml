@@ -1,0 +1,18 @@
+title: gov/acc Phase 1 Research Dashboard
+type: resource
+resource_type: Research output / dashboard
+url: https://gov-acc.metagov.org/phase1/
+original_source: Metagov / Governance Research Network
+notes: >-
+  Why add: Concrete example of Harmonica-supported research synthesis and
+  problem mapping. · Status/Caution: Small and selected sample; AI facilitation
+  and composite scoring require methodological caution. · Parent source system:
+  Metagov / Governance Research Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row76
+  source_lineage: https://gov-acc.metagov.org/phase1/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

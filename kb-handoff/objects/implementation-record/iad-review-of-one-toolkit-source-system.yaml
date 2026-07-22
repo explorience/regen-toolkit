@@ -1,0 +1,25 @@
+title: IAD Review of One Toolkit Source System
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Apply IAD to one existing source system such as Decidim, Gitcoin, or Regen
+  Commons and compare formal rules with rules-in-use.
+what_returns_to_commons: >-
+  Would test the practical value and limits of importing an academic framework
+  into Toolkit review.
+notes: >-
+  What to capture: Actors, action situations, rules, material conditions,
+  community attributes, interactions, outcomes, evaluative criteria, evidence
+  gaps. · Status/Caution: Candidate; select a source with enough implementation
+  evidence
+related_source_system: Ostrom Workshop / Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row126
+  source_lineage: >-
+    https://ostromworkshop.indiana.edu/courses-teaching/teaching-tools/iad-framework/index.html
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

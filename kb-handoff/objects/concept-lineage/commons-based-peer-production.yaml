@@ -1,0 +1,22 @@
+title: Commons-based peer production
+type: concept-lineage
+short_description: >-
+  Collaborative production in which communities create shared knowledge,
+  software, designs, or cultural resources through open contributory structures.
+toolkit_usage: >-
+  Core lens for analyzing contribution, governance, shared resources, and value
+  creation in the Toolkit.
+original_object_type: Concept / review lens
+notes: >-
+  Why add: Core lens for analyzing contribution, governance, shared resources,
+  and value creation in the Toolkit. · Status/Caution: Not every open or
+  distributed project is commons-based or peer-governed · Parent source system:
+  P2P Foundation lineage
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row340
+  source_lineage: https://primer.commonstransition.org/1-short-articles/1-1-what-is-p2p/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

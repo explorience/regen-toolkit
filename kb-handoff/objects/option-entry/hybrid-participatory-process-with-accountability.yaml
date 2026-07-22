@@ -1,0 +1,24 @@
+title: Hybrid Participatory Process with Accountability
+type: option-entry
+category: governance
+what_it_is: >-
+  Combine online proposals and deliberation with offline meetings, staged
+  decisions, and public tracking of implementation results.
+potential_uses: >-
+  Participatory budgeting, strategic planning, neighborhood decisions, policy
+  co-design.
+dependencies: >-
+  Institutional mandate, facilitation, accessibility, identity and privacy
+  controls, follow-through resources.
+tradeoffs: >-
+  Digital divide, participation bias, consultation theater, moderation burden,
+  and weak implementation authority.
+context: Decidim
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row33
+  source_lineage: https://docs.decidim.org/en/develop/index.html
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

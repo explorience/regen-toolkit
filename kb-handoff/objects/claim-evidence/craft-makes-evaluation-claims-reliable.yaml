@@ -1,0 +1,18 @@
+title: CRAFT makes evaluation claims reliable
+type: claim-evidence
+claim: CRAFT makes evaluation claims reliable
+interpretation: >-
+  CRAFT offers a meta-standard for specifying auditable evaluation chains;
+  reliability still requires correct domain application and testing.
+uncertainty: >-
+  CRAFT specifies conditions for a reliable evaluation chain but does not itself
+  validate an implementation or its domain assumptions.
+evidence_stance: neutral
+context: CRAFT
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row216
+  source_lineage: https://github.com/CrossWalkri/craft-meta-standard
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

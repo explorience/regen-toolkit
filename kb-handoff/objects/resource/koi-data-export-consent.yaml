@@ -1,0 +1,18 @@
+title: KOI Data Export Consent
+type: resource
+resource_type: Governance / consent mechanism
+url: https://metagov.org/projects/koi-pond/faq
+original_source: Metagov / KOI Pond
+notes: >-
+  Why add: Practical consent and public-use boundary mechanism for community
+  knowledge ingestion. · Status/Caution: Channel visibility is not unrestricted
+  permission; historical ingestion used explicit consent · Parent source system:
+  Metagov / KOI Pond
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row95
+  source_lineage: https://metagov.org/projects/koi-pond/faq
+original_object_class: Governance / Funding Mechanism
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

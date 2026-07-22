@@ -1,0 +1,18 @@
+title: Open-source civic infrastructure is automatically a commons
+type: claim-evidence
+claim: Open-source civic infrastructure is automatically a commons
+interpretation: >-
+  Assess licensing, governance, contributor power, funding, maintenance and
+  user/community decision rights separately.
+uncertainty: >-
+  Code availability does not establish shared governance, sustainable
+  maintenance, equitable access or community control.
+evidence_stance: qualifying
+context: Decidim / Polis / Metagov
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row154
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

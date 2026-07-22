@@ -1,0 +1,20 @@
+subject: CARE Principles
+predicate: developed_through
+object: Global Indigenous Data Alliance network and 2018 workshop
+type: relationship-record
+title: >-
+  CARE Principles — developed_through — Global Indigenous Data Alliance network
+  and 2018 workshop
+original_relationship: developed through
+evidence: GIDA lists co-leads and contributors from multiple regions and institutions.
+scope: Collective authorship; do not reduce to two individuals
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row191
+  source_lineage: https://www.gida-global.org/careprinciples
+review_needs: 'Matty predicate map: manual review required'
+high_risk: true
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

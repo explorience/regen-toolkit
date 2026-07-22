@@ -1,0 +1,19 @@
+title: g0v Hackathons
+type: resource
+resource_type: Practice / community infrastructure
+url: https://g0v.tw/intl/en/novice/
+original_source: g0v
+notes: >-
+  Why add: Implementation model for cross-disciplinary civic prototyping and
+  contributor onboarding. · Status/Caution: Hackathon activity does not
+  establish maintenance, adoption or public benefit · Parent source system: g0v
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row356
+  source_lineage: https://g0v.tw/intl/en/novice/
+original_object_class: Method / Practice
+normalization_flag: DUP-NE-279
+review_needs: 'Matty dup-flag DUP-NE-279: g0v Manifesto'
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

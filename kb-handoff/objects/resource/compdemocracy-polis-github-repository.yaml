@@ -1,0 +1,18 @@
+title: compdemocracy/polis GitHub repository
+type: resource
+resource_type: Repository / technical artifact
+url: https://github.com/compdemocracy/polis
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Adds maintained code, deployment, contribution, and
+  technical-governance lineage. · Status/Caution: Open source does not guarantee
+  easy deployment, security, accessibility, or maintenance capacity · Parent
+  source system: Computational Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row266
+  source_lineage: https://github.com/compdemocracy/polis
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

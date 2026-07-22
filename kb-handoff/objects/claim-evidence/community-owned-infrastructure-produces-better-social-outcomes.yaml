@@ -1,0 +1,19 @@
+title: Community-owned infrastructure produces better social outcomes
+type: claim-evidence
+claim: Community-owned infrastructure produces better social outcomes
+interpretation: >-
+  Community ownership is an important institutional variable; evaluate outcomes
+  and tradeoffs case by case.
+uncertainty: >-
+  Cooperative or community ownership can improve relevance and agency, but
+  outcomes depend on governance, affordability, capacity, regulation,
+  maintenance and local conditions.
+evidence_stance: neutral
+context: Zenzeleni / Rhizomatica / REDES
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row333
+  source_lineage: https://zenzeleni.net/our-model/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

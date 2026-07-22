@@ -1,0 +1,21 @@
+subject: People Powered Research Data
+predicate: synthesizes
+object: Peer-reviewed participatory-democracy literature
+type: relationship-record
+title: >-
+  People Powered Research Data — synthesizes — Peer-reviewed
+  participatory-democracy literature
+original_relationship: synthesizes
+evidence: >-
+  Research pages translate multiple studies into briefs and interactive
+  datasets.
+scope: Preserve included studies and methods.
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row38
+  source_lineage: https://www.peoplepowered.org/research-data
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

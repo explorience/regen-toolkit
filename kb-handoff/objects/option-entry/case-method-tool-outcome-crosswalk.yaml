@@ -1,0 +1,25 @@
+title: Case–Method–Tool–Outcome Crosswalk
+type: option-entry
+category: coordination
+what_it_is: >-
+  Link a documented case to methods used, tools configured, practitioner
+  support, institutional response and observed outcomes without collapsing those
+  layers.
+potential_uses: >-
+  Comparative research, option review, implementation learning and contributor
+  guidance.
+dependencies: >-
+  Shared identifiers, source lineage, status fields, contextual notes and human
+  review.
+tradeoffs: >-
+  May create false comparability and treat method or tool use as explanation of
+  outcomes.
+context: Participedia + Decidim + Polis/vTaiwan + People Powered
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row102
+  source_lineage: Internal Batch 1C synthesis
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

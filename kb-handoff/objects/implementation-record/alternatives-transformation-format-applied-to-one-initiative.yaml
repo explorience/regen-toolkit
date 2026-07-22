@@ -1,0 +1,24 @@
+title: Alternatives Transformation Format Applied to One Initiative
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one initiative using the self-reflection format and document how it
+  handled tensions across ecological, social, economic, cultural and political
+  dimensions.
+what_returns_to_commons: Tests a holistic review tool without turning it into certification.
+notes: >-
+  What to capture: Who completed it, evidence used, disagreements, changes made,
+  burdens, benefits, later outcomes and whether results remained
+  community-controlled. · Status/Caution: Candidate; obtain initiative consent
+  and avoid public scoring
+related_source_system: Vikalp Sangam
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row252
+  source_lineage: >-
+    https://vikalpsangam.org/wp-content/uploads/migrate/VS_Case_Studies/alternatives_transformation_framework%2C_final_ver_for_public%2C_revised_20.2.2017.pdf
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

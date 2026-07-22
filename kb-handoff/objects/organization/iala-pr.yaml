@@ -1,0 +1,17 @@
+title: IALA-PR
+type: organization
+org_type: Organization
+url: https://www.iala-pr.org/conocenos
+steward: Puerto Rico
+notes: >-
+  Why add: Adds contemporary infrastructure and land-governance branch. ·
+  Status/Caution: Do not confuse with CLOC IALA network schools without explicit
+  affiliation evidence · Parent source system: Puerto Rico
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row842
+  source_lineage: https://www.iala-pr.org/conocenos
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

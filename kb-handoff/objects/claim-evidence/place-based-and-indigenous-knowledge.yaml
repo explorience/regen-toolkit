@@ -1,0 +1,20 @@
+title: Place-based and Indigenous knowledge
+type: claim-evidence
+claim: Place-based and Indigenous knowledge
+interpretation: >-
+  Do not assume public availability equals permission for extraction or
+  republication; preserve consent, sovereignty, attribution, and local
+  governance boundaries.
+uncertainty: >-
+  Ecological methodologies may involve local communities, land stewards,
+  culturally sensitive locations, species data, and Indigenous knowledge.
+evidence_stance: qualifying
+context: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row15
+  source_lineage: https://www.registry.regen.network/regen-registry
+high_risk: true
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

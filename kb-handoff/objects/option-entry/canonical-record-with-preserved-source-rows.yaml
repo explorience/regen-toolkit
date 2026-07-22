@@ -1,0 +1,22 @@
+title: Canonical Record with Preserved Source Rows
+type: option-entry
+category: coordination
+what_it_is: >-
+  Create one preferred synthesized record linked to every imported source row
+  rather than overwriting or deleting source records.
+potential_uses: Final workbook merge, later relational backend, public and internal views.
+dependencies: >-
+  Canonical IDs, import ledger, duplicate review, version history, source
+  lineage.
+tradeoffs: >-
+  More complexity and storage; synthesis can still centralize authority if
+  review is weak.
+context: Merge and governance readiness
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row114
+  source_lineage: Internal merge-readiness design
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

@@ -1,18 +1,20 @@
 title: More information always improves system performance
 type: claim-evidence
 claim: More information always improves system performance
-caution: >-
-  Information can aid coordination but may also create overload, surveillance,
-  gaming, conflict or unequal power.
-safe_working_language: >-
+interpretation: >-
   Improved information flows may help when they are timely, usable, trusted,
   rights-respecting and connected to action.
-claim_kind: Claim
+uncertainty: >-
+  Information can aid coordination but may also create overload, surveillance,
+  gaming, conflict or unequal power.
+evidence_stance: neutral
+context: Information-flow leverage
 maturity: raw
 ai_assisted: true
 provenance:
-  origin: Canonical_DB.xlsx#Claims and Cautions!row9
+  origin: Canonical_DB.xlsx#Claims and Cautions!row232
   source_lineage: >-
     https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
-work_order: wo-b0da4f8a6f05
+high_risk: true
+work_order: wo-8c810a6700ec
 source_lineage: claims-cautions.csv

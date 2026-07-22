@@ -1,0 +1,19 @@
+subject: Sembradoras de Esperanza
+predicate: collaborates_with
+object: IALA network
+type: relationship-record
+title: Sembradoras de Esperanza — collaborates_with — IALA network
+original_relationship: participates in
+evidence: >-
+  Presented as part of CLOC’s continental family of agroecology institutes and
+  schools.
+scope: Network affiliation is not standardized institutional form
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row491
+  source_lineage: >-
+    https://viacampesina.org/es/chile-instituto-agroecologico-latinoamericano-para-las-mujeres-del-campo-sembradoras-de-luchas-y-esperanza/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

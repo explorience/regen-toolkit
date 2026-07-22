@@ -1,0 +1,23 @@
+title: Peasant Women’s Assembly Influence Case
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one women’s assembly agenda into movement decisions, campaigns,
+  leadership, education or regional implementation.
+what_returns_to_commons: Tests whether autonomous constituency spaces have material decision influence.
+notes: >-
+  What to capture: Participants, agenda formation, resources, adopted
+  commitments, institutional response, resistance, outcomes and women’s own
+  evaluation. · Status/Caution: Candidate; participation and safety require
+  careful handling
+related_source_system: La Vía Campesina Women
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row267
+  source_lineage: >-
+    https://viacampesina.org/en/2023/12/declaration-of-the-6th-international-womens-assembly-of-la-via-campesina/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

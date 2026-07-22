@@ -1,0 +1,16 @@
+title: API-accessible participatory data is safe for unrestricted reuse
+type: claim-evidence
+claim: API-accessible participatory data is safe for unrestricted reuse
+interpretation: Apply data minimization, purpose limits and contextual-integrity review.
+uncertainty: >-
+  Access can enable profiling, aggregation or reuse outside participant
+  expectations.
+evidence_stance: qualifying
+context: Decidim API
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row146
+  source_lineage: https://meta.decidim.org/api/docs
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

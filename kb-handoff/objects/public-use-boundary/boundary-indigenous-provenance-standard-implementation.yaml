@@ -1,0 +1,11 @@
+title: Boundary — Indigenous Provenance Standard Implementation
+type: public-use-boundary
+tier: requires-domain-review
+consent_note: >-
+  What to capture: Required fields, governance roles, links to CARE/Labels,
+  privacy, interoperability, enforcement, user understanding and maintenance. ·
+  Status/Caution: Do not infer benefit from technical compliance alone
+review_type: domain-review
+applies_to: Canonical_DB.xlsx#Implementation Memory!row178
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

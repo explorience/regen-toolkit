@@ -1,0 +1,18 @@
+title: Structured fields make cases directly comparable
+type: claim-evidence
+claim: Structured fields make cases directly comparable
+interpretation: >-
+  Compare fields alongside narrative context, provenance, completeness, and
+  source review.
+uncertainty: >-
+  Shared fields improve search and analysis but definitions, source quality,
+  time periods, political contexts, and missingness still differ.
+evidence_stance: qualifying
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row111
+  source_lineage: https://participedia.net/research
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

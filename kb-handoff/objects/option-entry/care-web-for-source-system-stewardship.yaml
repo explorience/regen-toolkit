@@ -1,0 +1,22 @@
+title: Care Web for Source-System Stewardship
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Distributed stewardship model with multiple maintainers, reciprocal support,
+  backup roles and crisis continuity.
+potential_uses: >-
+  Priority source systems, community archives, moderation and public
+  corrections.
+dependencies: >-
+  Named owners, backups, compensation, access support, documentation, handoff
+  protocol.
+tradeoffs: Networks can still hide unequal burdens and informal gatekeeping.
+context: Disability justice / care cluster
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row214
+  source_lineage: https://sinsinvalid.org/10-principles/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

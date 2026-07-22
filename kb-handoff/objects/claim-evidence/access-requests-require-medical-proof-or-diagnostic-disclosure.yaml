@@ -1,0 +1,19 @@
+title: Access requests require medical proof or diagnostic disclosure
+type: claim-evidence
+claim: Access requests require medical proof or diagnostic disclosure
+interpretation: >-
+  Collect only the minimum information needed to provide access; do not require
+  diagnosis unless legally unavoidable and justified.
+uncertainty: >-
+  Documentation requirements can create forced intimacy, gatekeeping, delay,
+  cost and exclusion.
+evidence_stance: qualifying
+context: Mia Mingus / disability justice
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row292
+  source_lineage: >-
+    https://leavingevidence.wordpress.com/2017/08/06/forced-intimacy-an-ableist-norm/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

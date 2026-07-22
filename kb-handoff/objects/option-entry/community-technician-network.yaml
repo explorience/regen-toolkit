@@ -1,0 +1,26 @@
+title: Community Technician Network
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Train and connect locally rooted technical stewards who exchange knowledge and
+  support community systems.
+potential_uses: >-
+  Maintenance, local infrastructure, emergency communication, contributor
+  development.
+dependencies: >-
+  Compensation, mentorship, safety, tools, succession and community
+  accountability.
+tradeoffs: Can shift professional burdens onto underpaid local actors.
+context: Techio Comunitario
+review_needs: >-
+  option category inferred — confirm; Matty dup-flag DUP-OP-229: Technological
+  Autonomy Pathway
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row234
+  source_lineage: >-
+    https://www.rhizomatica.org/app/uploads/2022/09/GU%C3%8DA-TECHIO-INGL%C3%89S-FINAL.pdf
+normalization_flag: DUP-OP-229
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

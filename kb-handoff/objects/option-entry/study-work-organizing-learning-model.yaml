@@ -1,0 +1,25 @@
+title: Study–Work–Organizing Learning Model
+type: option-entry
+category: organizational-structure
+what_it_is: >-
+  Combine political study, collective work, cultural practice, movement history
+  and territorial application in long-duration formation.
+potential_uses: >-
+  Contributor training, steward formation, leadership development,
+  implementation cohorts.
+dependencies: >-
+  Paid participation, accessibility, workload limits, local adaptation, clear
+  authority and reflection.
+tradeoffs: >-
+  Can romanticize unpaid labor, reproduce internal hierarchy or become
+  ideologically closed.
+context: ENFF / MST
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row282
+  source_lineage: >-
+    https://mst.org.br/2026/06/08/enff-onde-o-estudo-e-o-trabalho-caminham-juntos/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

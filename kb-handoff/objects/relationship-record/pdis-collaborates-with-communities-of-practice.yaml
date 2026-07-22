@@ -1,0 +1,18 @@
+subject: PDIS
+predicate: collaborates_with
+object: communities of practice
+type: relationship-record
+title: PDIS — collaborates_with — communities of practice
+original_relationship: collaborates with
+evidence: >-
+  Official mission describes collaboration and public-sector adoption of social
+  innovation
+scope: Scope varies by initiative
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row124
+  source_lineage: https://pdis.nat.gov.tw/en/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

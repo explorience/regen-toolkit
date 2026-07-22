@@ -1,0 +1,21 @@
+title: Conflict and Repair Tabletop Exercise
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Simulate a contributor conflict, harm or support failure and test intake,
+  privacy, authority, repair and referral procedures.
+what_returns_to_commons: Surfaces hidden relational labor before opening public contribution pathways.
+notes: >-
+  What to capture: Scenario, roles, decisions, communication, anti-retaliation,
+  unresolved limits and policy changes. · Status/Caution: Sensitive; use
+  fictional or consented scenario
+related_source_system: Toolkit
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row222
+  source_lineage: Internal applied review
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

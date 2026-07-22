@@ -1,0 +1,18 @@
+title: Agentic Token Economics Repository
+type: resource
+resource_type: Governance / technical experiment
+url: https://forum.regen.network/t/agentic-token-economics-repo-colab/602
+original_source: GAIAI / Regen AI / Regen Network
+notes: >-
+  Why add: Adds a concrete governance-automation and human-in-the-loop design
+  case. · Status/Caution: Target automation percentages are design goals, not
+  validated outcomes; constitutional and contested decisions require human
+  authority · Parent source system: GAIAI / Regen AI / Regen Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row122
+  source_lineage: https://forum.regen.network/t/agentic-token-economics-repo-colab/602
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,17 @@
+title: Credit Type → Credit Class → Project → Credit Batch
+type: resource
+resource_type: Data model
+url: https://docs.regen.network/modules/ecocredit/01_concepts.html
+original_source: Regen Ledger
+notes: >-
+  Why add: Useful ontology and traceability pattern for ecological claims. ·
+  Status/Caution: Hierarchy improves traceability but does not settle claim
+  quality · Parent source system: Regen Ledger
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row24
+  source_lineage: https://docs.regen.network/modules/ecocredit/01_concepts.html
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

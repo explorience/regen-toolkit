@@ -1,0 +1,18 @@
+title: Traditional health and plant knowledge is universal medical advice
+type: claim-evidence
+claim: Traditional health and plant knowledge is universal medical advice
+interpretation: >-
+  Preserve attribution and context; avoid medical claims and include appropriate
+  safety boundaries.
+uncertainty: >-
+  Situated knowledge about herbs, food and care is not automatically clinically
+  validated or appropriate across people and contexts.
+evidence_stance: qualifying
+context: ANAMURI Publications
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row466
+  source_lineage: https://anamuri.cl/publicaciones-libros/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

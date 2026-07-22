@@ -1,0 +1,16 @@
+subject: Ashish Kothari
+predicate: collaborates_with
+object: Global Tapestry of Alternatives
+type: relationship-record
+title: Ashish Kothari — collaborates_with — Global Tapestry of Alternatives
+original_relationship: participates in facilitation of
+evidence: Listed on GTA facilitation team.
+scope: Do not infer sole authority or representation
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row331
+  source_lineage: https://globaltapestryofalternatives.org/core_members
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

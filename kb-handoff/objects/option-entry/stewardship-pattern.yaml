@@ -1,0 +1,18 @@
+title: Stewardship pattern
+type: option-entry
+category: organizational-structure
+what_it_is: CLOC–La Vía Campesina
+potential_uses: >-
+  Organize through autonomous national movements, three continental regions,
+  constituency articulations and periodic congresses.
+dependencies: Useful comparison for polycentric governance and nested source systems.
+tradeoffs: https://cloc-viacampesina.net/rumbo-al-viii-congreso-continental-de-la-cloc
+context: Regional-Continental Nested Governance
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row310
+  source_lineage: Formal structure does not prove balanced power
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

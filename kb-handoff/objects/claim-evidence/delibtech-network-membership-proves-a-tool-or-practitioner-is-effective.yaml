@@ -1,0 +1,18 @@
+title: DelibTech Network membership proves a tool or practitioner is effective
+type: claim-evidence
+claim: DelibTech Network membership proves a tool or practitioner is effective
+interpretation: >-
+  Record membership as a relationship and participation signal; evaluate tools
+  and practices through separate evidence.
+uncertainty: >-
+  The network is a community of practice with invite-only membership, not an
+  accreditation or evaluation system.
+evidence_stance: qualifying
+context: DelibTech Network
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row87
+  source_lineage: https://www.demnext.org/action/delibtech-network
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

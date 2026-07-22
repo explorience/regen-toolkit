@@ -1,0 +1,17 @@
+subject: Plural Management Protocol
+predicate: builds_on
+object: Gov4Git
+type: relationship-record
+title: Plural Management Protocol — builds_on — Gov4Git
+original_relationship: builds on
+evidence: Protocol documentation states PMP uses Gov4Git as foundational layer
+scope: Technical and governance maturity require review
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row131
+  source_lineage: https://docs.plurality.net/governance/Plural%20management%20protocol/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

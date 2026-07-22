@@ -1,0 +1,24 @@
+title: Open-Source Project Transition to Community Accountability
+type: option-entry
+category: governance
+what_it_is: >-
+  Develop processes and tooling for open-source projects to define
+  accountability systems and transition toward community governance.
+potential_uses: >-
+  Public-goods software succession, maintainer transitions, contributor
+  governance, ownership, and sustainability.
+dependencies: >-
+  Maintainer and contributor consent, legal structure, governance design,
+  funding, maintenance capacity, and conflict processes.
+tradeoffs: >-
+  Transitions can be symbolic, underfunded, capture-prone, or burdensome for
+  already-stretched maintainers.
+context: Metagov / OSS Transitions
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row27
+  source_lineage: https://metagov.org/projects/oss-transitions
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

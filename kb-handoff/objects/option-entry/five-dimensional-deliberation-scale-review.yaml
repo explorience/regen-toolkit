@@ -1,0 +1,24 @@
+title: Five-Dimensional Deliberation Scale Review
+type: option-entry
+category: governance
+what_it_is: >-
+  Assess deliberative systems across participation scale, governance level,
+  number of processes, institutional impact, and process quality rather than
+  using one headline metric.
+potential_uses: >-
+  Track design, civic-tech review, funding decisions, implementation memory,
+  public claims.
+dependencies: >-
+  Contextual definitions, participant data, institutional evidence, qualitative
+  review, affected-party perspectives.
+tradeoffs: Can become a checklist that obscures power, exclusion, or political context.
+context: DemocracyNext
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row60
+  source_lineage: >-
+    https://www.demnext.org/action/five-dimensions-of-scaling-democratic-deliberation-with-and-beyond-ai
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

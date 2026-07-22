@@ -1,0 +1,25 @@
+title: FENSUAGRO UN Advocacy Evidence Pathway
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace how movement reports and testimonies were transformed into submissions
+  and interventions before UN mechanisms.
+what_returns_to_commons: >-
+  Shows the relationship between movement memory, legal expertise and
+  international accountability.
+notes: >-
+  What to capture: Evidence origin; consent; verification; legal framing;
+  intermediaries; protection measures; public communication; response;
+  follow-up. · Status/Caution: Candidate; survivor and organizer safety takes
+  precedence over completeness
+related_source_system: FENSUAGRO / allied rights organizations
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row326
+  source_lineage: >-
+    https://viacampesina.org/en/2021/02/unhrc-peasant-leader-denounces-systematic-violence-against-peasants-organizations-in-colombia/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

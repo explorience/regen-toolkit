@@ -1,0 +1,24 @@
+title: Plurality Book as Open Knowledge Commons
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Document the CC0 publication, multilingual translation, community authorship,
+  GitHub/public contribution pathways, updates, and downstream use.
+what_returns_to_commons: >-
+  Directly relevant to open knowledge, idea ecology, translation, and
+  commons-governance design.
+notes: >-
+  What to capture: Authorship, licensing, translations, contribution governance,
+  versioning, citations, adaptations, disputes, and practical implementations. ·
+  Status/Caution: Candidate; open licensing alone does not establish functioning
+  commons governance
+related_source_system: Plurality Community
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row59
+  source_lineage: https://plurality.net/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

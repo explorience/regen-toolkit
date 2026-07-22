@@ -1,5 +1,5 @@
 title: REDES A.C.
-type: directory
+type: publication
 steward: REDES A.C.
 return_path: unset — establish via register-source
 url: https://redesac.org.mx/
@@ -11,14 +11,22 @@ why_it_matters: >-
   Mexican civil association supporting community and Indigenous communication,
   technological autonomy, policy advocacy, locally produced content and
   territorial collaboration.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row31
-  source_lineage: https://redesac.org.mx/
 caution: >-
   Public extraction must respect community authority, collective rights,
   language, cultural protocols and the distinction between REDES A.C. and the
   communities it accompanies.
+extraction_status: >-
+  Community-guided accompaniment; Indigenous and community communication rights;
+  legal and policy infrastructure; technical-promoter training; emergency
+  communications.
+notes: >-
+  Role: Core cluster source system / Indigenous and community communication ·
+  Action: ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row30
+  source_lineage: https://redesac.org.mx/
+high_risk: true
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

@@ -1,0 +1,24 @@
+title: Accessible Convening Protocol with Budget
+type: option-entry
+category: funding-capital
+what_it_is: >-
+  Attach a funded, revisable access plan to every major review, workshop,
+  contributor session and public event.
+potential_uses: >-
+  Working groups, source-system steward calls, residencies, presentations and
+  public feedback.
+dependencies: >-
+  Access lead, advance materials, captions, interpretation, remote/asynchronous
+  participation, breaks, feedback and follow-up.
+tradeoffs: >-
+  No protocol can anticipate every conflict or access need; underfunding shifts
+  labor onto participants.
+context: Toolkit collaboration
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row209
+  source_lineage: Internal disability-access review
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

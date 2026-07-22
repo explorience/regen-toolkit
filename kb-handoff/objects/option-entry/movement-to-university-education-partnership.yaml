@@ -1,0 +1,25 @@
+title: Movement-to-University Education Partnership
+type: option-entry
+category: knowledge-documentation
+what_it_is: >-
+  Co-design courses and graduate pathways that connect movement knowledge,
+  public universities and territorial practice.
+potential_uses: >-
+  Accredited learning, practitioner research, movement archives, regional
+  capacity building.
+dependencies: >-
+  Shared governance, recognition of movement educators, accessible admissions,
+  data rights and public funding.
+tradeoffs: >-
+  Academic institutions may extract knowledge, impose credential hierarchies or
+  redirect priorities.
+context: ENFF / MST / partner universities
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row283
+  source_lineage: >-
+    https://mst.org.br/2025/01/13/inicia-a-10a-turma-do-curso-nacional-de-pedagogia-do-movimento-na-escola-nacional-florestan-fernandes/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

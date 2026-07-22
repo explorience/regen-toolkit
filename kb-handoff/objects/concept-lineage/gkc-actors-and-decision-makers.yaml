@@ -1,0 +1,19 @@
+title: GKC Actors and Decision Makers
+type: concept-lineage
+short_description: >-
+  Research cluster examining who decides, how decision makers are selected,
+  legitimacy, interactions with nonmembers, and groups lacking voice.
+toolkit_usage: Supports explicit power and affected-party review.
+original_object_type: Framework component
+notes: >-
+  Why add: Supports explicit power and affected-party review. · Status/Caution:
+  Publicly visible leaders may not be the only or most influential actors. ·
+  Parent source system: GKC Research Framework
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row201
+  source_lineage: https://knowledge-commons.net/research-framework/
+original_object_class: Framework / Concept
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

@@ -1,0 +1,19 @@
+title: Terrasos Voluntary Biodiversity Credit Protocol
+type: resource
+resource_type: Credit protocol
+url: >-
+  https://www.registry.regen.network/crediting-protocols/terrasos-biodiversity-unit
+original_source: Regen Registry
+notes: >-
+  Why add: Biodiversity-market and conservation-finance comparison case. ·
+  Status/Caution: Credit issuance is not a complete measure of biodiversity
+  integrity or social outcomes · Parent source system: Regen Registry
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row29
+  source_lineage: >-
+    https://www.registry.regen.network/crediting-protocols/terrasos-biodiversity-unit
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

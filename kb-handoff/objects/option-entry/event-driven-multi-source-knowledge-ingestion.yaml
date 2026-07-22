@@ -1,0 +1,26 @@
+title: Event-Driven Multi-Source Knowledge Ingestion
+type: option-entry
+category: impact-measurement
+what_it_is: >-
+  Use distributed sensors and event streams to detect updates across source
+  systems, preserve identifiers, and route changed material into processing and
+  review.
+potential_uses: >-
+  Living source-system monitoring, update detection, resource discovery,
+  implementation-memory capture.
+dependencies: >-
+  Source permissions, stable identifiers, deduplication, provenance, retention
+  policy, review queues.
+tradeoffs: >-
+  Sensitive-source ingestion, surveillance risk, API dependence, source bias,
+  and uncontrolled volume.
+context: GAIAI / KOI Sensors
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row34
+  source_lineage: https://github.com/gaiaaiagent/koi-sensors
+high_risk: true
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

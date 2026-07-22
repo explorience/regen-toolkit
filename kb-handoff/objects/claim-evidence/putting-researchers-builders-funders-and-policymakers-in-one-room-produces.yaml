@@ -1,0 +1,21 @@
+title: Putting researchers, builders, funders, and policymakers in one room produces…
+type: claim-evidence
+claim: >-
+  Putting researchers, builders, funders, and policymakers in one room produces
+  aligned infrastructure
+interpretation: >-
+  Funding the Commons intentionally convenes cross-sector actors; whether this
+  produces durable alignment should be evaluated through later collaborations
+  and implementations.
+uncertainty: >-
+  The convening model may improve connection, but alignment and durable
+  collaboration require evidence after the event.
+evidence_stance: neutral
+context: Funding the Commons
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row79
+  source_lineage: https://www.fundingthecommons.io/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

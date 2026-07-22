@@ -1,0 +1,24 @@
+title: Public Discourse Simulation Sandbox
+type: option-entry
+category: experimentation
+what_it_is: >-
+  Use simulated agents, digital twins, and controlled human-bot interactions to
+  test facilitation or discourse interventions before wider deployment.
+potential_uses: >-
+  Research preparation, adversarial testing, facilitator-tool evaluation, AI
+  safety review.
+dependencies: >-
+  Ethics review, transparent assumptions, representative limitations, privacy
+  protections, validation against real contexts.
+tradeoffs: >-
+  Simulations can create false confidence, reproduce training-data bias, and
+  misrepresent affected communities.
+context: Plurality Institute
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row62
+  source_lineage: https://www.plurality.institute/research
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

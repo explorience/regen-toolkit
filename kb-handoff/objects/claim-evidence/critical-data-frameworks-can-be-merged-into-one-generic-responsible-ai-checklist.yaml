@@ -1,0 +1,22 @@
+title: >-
+  Critical-data frameworks can be merged into one generic responsible-AI
+  checklist
+type: claim-evidence
+claim: >-
+  Critical-data frameworks can be merged into one generic responsible-AI
+  checklist
+interpretation: >-
+  Preserve source-specific authority and questions; compose lenses without
+  erasing differences or substituting one for another.
+uncertainty: >-
+  Data Feminism, Design Justice, CARE, Local Contexts, Race After Technology and
+  AJL arise from distinct lineages, communities and claims.
+evidence_stance: qualifying
+context: Cross-system
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row270
+  source_lineage: Internal cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

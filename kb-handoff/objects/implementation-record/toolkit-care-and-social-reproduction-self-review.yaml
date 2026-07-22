@@ -1,0 +1,22 @@
+title: Toolkit Care and Social Reproduction Self-Review
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Applied care, social reproduction, mutual aid and care-web lenses to
+  contributor support, hidden labor, funding, privacy, conflict, pacing and
+  final handoff.
+what_returns_to_commons: Turns care from a value statement into concrete institutional requirements.
+notes: >-
+  What to capture: Strengths, risks, priority actions, owners, status and what
+  remains untested. · Status/Caution: Completed; actions remain to be
+  implemented
+related_source_system: Toolkit / care cluster
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row219
+  source_lineage: Internal review — 2026-07-10
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

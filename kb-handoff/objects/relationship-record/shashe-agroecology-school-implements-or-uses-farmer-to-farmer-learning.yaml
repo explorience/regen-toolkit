@@ -1,0 +1,17 @@
+subject: Shashe Agroecology School
+predicate: implements_or_uses
+object: Farmer-to-farmer learning
+type: relationship-record
+title: Shashe Agroecology School — implements_or_uses — Farmer-to-farmer learning
+original_relationship: uses
+evidence: Profiles describe horizontal practical exchange among farmers.
+scope: Pedagogical quality not independently assessed
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row375
+  source_lineage: >-
+    https://viacampesina.org/en/2013/10/zimsoff-and-the-shashe-agro-ecology-school-in-zimbabwe/
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

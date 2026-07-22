@@ -1,0 +1,18 @@
+title: Care data should be collected to improve support
+type: claim-evidence
+claim: Care data should be collected to improve support
+interpretation: >-
+  Collect the minimum necessary information, allow low-disclosure requests,
+  separate support from evaluation, and restrict access.
+uncertainty: >-
+  Care needs, disability, family responsibilities and crisis information can be
+  highly sensitive.
+evidence_stance: qualifying
+context: Toolkit governance
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row311
+  source_lineage: Internal cluster synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

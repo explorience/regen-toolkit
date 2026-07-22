@@ -1,0 +1,18 @@
+title: KOI Sensor Network
+type: resource
+resource_type: Technical infrastructure
+url: https://github.com/gaiaaiagent/koi-sensors
+original_source: GAIAI / Regen AI
+notes: >-
+  Why add: Strong implementation example for multi-source discovery, provenance,
+  deduplication, and update monitoring. · Status/Caution: Some sensors require
+  credentials or may ingest sensitive material; consent, retention, and
+  public-use boundaries matter · Parent source system: GAIAI / Regen AI
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row116
+  source_lineage: https://github.com/gaiaaiagent/koi-sensors
+original_object_class: Tool / Technical Infrastructure
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

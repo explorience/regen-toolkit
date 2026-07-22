@@ -1,5 +1,5 @@
 title: FENSUAGRO Peasant Rights and Human-Rights Archive
-type: archive
+type: movement
 steward: FENSUAGRO Peasant Rights and Human-Rights Archive
 return_path: unset — establish via register-source
 url: https://viacampesina.org/en/tag/fensuagro/
@@ -10,14 +10,19 @@ why_it_matters: >-
   Distributed collection of declarations, complaints, alerts, UN interventions
   and educational media documenting peasant rights, agrarian reform demands,
   violence, threats and organizational defense.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row59
-  source_lineage: https://viacampesina.org/en/tag/fensuagro/
 caution: >-
   Do not expose local identities or operational details beyond public sources.
   Counts of threats or killings are date-bound and require careful attribution.
   Advocacy archives are not neutral incident databases.
+extraction_status: >-
+  Conflict-sensitive movement memory; legal and political education; protection
+  advocacy; longitudinal record of risks facing rural organizers.
+notes: 'Role: Movement-generated rights and safety source system · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row58
+  source_lineage: https://viacampesina.org/en/tag/fensuagro/
+high_risk: true
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

@@ -1,0 +1,19 @@
+title: A curated corpus makes AI answers reliable
+type: claim-evidence
+claim: A curated corpus makes AI answers reliable
+interpretation: >-
+  Show sources, uncertainty, version/date, correction paths and human/domain
+  review for consequential advice.
+uncertainty: >-
+  Curated materials can improve relevance but do not eliminate retrieval errors,
+  outdated advice, hallucination, conflicting sources or unsafe field guidance.
+evidence_stance: qualifying
+context: IARAA
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row411
+  source_lineage: >-
+    https://mst.org.br/2026/05/21/iaraa-uma-ia-para-socializar-os-saberes-do-campo/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

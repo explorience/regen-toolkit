@@ -1,0 +1,24 @@
+title: Decidim Barcelona Participatory Planning and Accountability
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Trace one municipal participatory cycle from outreach and proposals through
+  deliberation, decision, institutional adoption, and implementation tracking.
+what_returns_to_commons: >-
+  Provides a mature civic implementation case complementing Metagov’s research
+  and experimental infrastructure.
+notes: >-
+  What to capture: Online and offline participation, eligibility, moderation,
+  demographics, decision authority, accepted proposals, budgets, accountability
+  records and unresolved outcomes. · Status/Caution: Selected next-batch case;
+  use dated figures and independent evaluation where possible.
+related_source_system: Decidim / Barcelona City Council
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row27
+  source_lineage: https://www.decidim.barcelona/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

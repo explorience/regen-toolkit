@@ -1,0 +1,21 @@
+title: CRAFT Applied to One Consequential Toolkit Claim
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Take one public-facing claim that could influence funding, reputation or
+  adoption and construct a domain-specific evaluation chain around it.
+what_returns_to_commons: Directly tests the Toolkit's claim-evidence discipline.
+notes: >-
+  What to capture: Claim; decision consequences; six conditions; domain failure
+  modes; evidence chain; falsification path; independent review. ·
+  Status/Caution: Candidate; requires domain reviewer and independent challenge
+related_source_system: CRAFT
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row146
+  source_lineage: https://github.com/CrossWalkri/craft-meta-standard
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

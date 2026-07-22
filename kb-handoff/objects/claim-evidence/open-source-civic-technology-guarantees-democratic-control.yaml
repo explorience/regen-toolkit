@@ -1,0 +1,19 @@
+title: Open-source civic technology guarantees democratic control
+type: claim-evidence
+claim: Open-source civic technology guarantees democratic control
+interpretation: >-
+  Assess software governance, deployment context, data rights, participation,
+  facilitation and institutional accountability separately.
+uncertainty: >-
+  Open code improves inspectability and reuse but does not determine hosting,
+  access, facilitation, agenda-setting, institutional response or community
+  power.
+evidence_stance: qualifying
+context: Decidim / Polis / civic-tech systems
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row95
+  source_lineage: https://decidim.org/
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

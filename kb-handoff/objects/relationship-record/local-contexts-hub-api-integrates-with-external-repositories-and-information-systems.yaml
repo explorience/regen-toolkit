@@ -1,0 +1,21 @@
+subject: Local Contexts Hub API
+predicate: integrates_with
+object: external repositories and information systems
+type: relationship-record
+title: >-
+  Local Contexts Hub API — integrates_with — external repositories and
+  information systems
+original_relationship: integrates with
+evidence: >-
+  Hub documentation describes integration and retrieval of project, Label and
+  Notice information.
+scope: Must preserve context and updates
+direction: directed
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Relationship Leads!row201
+  source_lineage: https://localcontexts.org/support/getting-started-on-the-hub/
+review_needs: 'Matty predicate map: manual review required'
+work_order: wo-6b92591cfa4a
+source_lineage: relationship-leads.csv

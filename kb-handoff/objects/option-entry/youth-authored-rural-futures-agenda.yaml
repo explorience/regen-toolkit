@@ -1,0 +1,22 @@
+title: Youth-Authored Rural Futures Agenda
+type: option-entry
+category: governance
+what_it_is: >-
+  Let rural youth articulate linked priorities across climate, land, housing,
+  health, education, technology, violence, sexuality and culture.
+potential_uses: >-
+  Youth governance, local regeneration planning and intergenerational knowledge
+  work.
+dependencies: >-
+  Independent youth facilitation, budget, decision pathways, safeguarding and
+  follow-through reporting.
+tradeoffs: Consultation without power can become extractive or tokenizing.
+context: ANAMURI Youth Front
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row322
+  source_lineage: https://anamuri.cl/wp-content/uploads/2026/02/07-Congreso-de-Jovenes.pdf
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

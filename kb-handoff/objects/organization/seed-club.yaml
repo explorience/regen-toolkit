@@ -1,0 +1,17 @@
+title: Seed Club
+type: organization
+org_type: Related organization / network
+url: https://news.artizen.fund/recommendations
+steward: Artizen
+notes: >-
+  Why add: Useful lineage and adjacent creator-economy source-system lead. ·
+  Status/Caution: Relationship is self-reported; investigate current activity
+  and relevance before deepening · Parent source system: Artizen
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row40
+  source_lineage: https://news.artizen.fund/recommendations
+original_object_class: Organization / Network
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

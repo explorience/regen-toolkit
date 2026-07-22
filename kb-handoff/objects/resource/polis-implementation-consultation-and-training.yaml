@@ -1,0 +1,18 @@
+title: Polis implementation consultation and training
+type: resource
+resource_type: Service / capacity support
+url: https://compdemocracy.org/services/
+original_source: Computational Democracy Project
+notes: >-
+  Why add: Shows that institutional adoption requires human support and process
+  capacity beyond installing software. · Status/Caution: Paid or expert support
+  may affect accessibility and transferability · Parent source system:
+  Computational Democracy Project
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row274
+  source_lineage: https://compdemocracy.org/services/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

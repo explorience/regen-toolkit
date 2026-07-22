@@ -1,0 +1,35 @@
+title: FENSUAGRO / IALA María Cano
+type: movement
+steward: FENSUAGRO / IALA María Cano
+return_path: unset — establish via register-source
+url: >-
+  https://cloc-viacampesina.net/colombia-iala-maria-cano-la-universidad-campesina-de-fensuagro
+what_it_curates: >-
+  FENSUAGRO declarations and alerts; IALA María Cano school records; Raúl
+  Valbuena training farm; participatory-action research exchanges; UNDROP
+  audiograms; CLOC and La Vía Campesina reporting.
+why_it_matters: >-
+  Colombian national agricultural union federation linked to La Vía Campesina,
+  paired with a movement-run agroecology institute in Viotá that combines
+  political formation, professional learning, territorial research and peasant
+  rights education.
+caution: >-
+  Conflict-sensitive source system. Public visibility can expose people and
+  territories; historical and current roles must be dated. Organizer reports
+  establish activity and threats but do not independently validate governance or
+  outcomes.
+extraction_status: >-
+  Worker-peasant unionism; agrarian reform; food sovereignty; political
+  education; agroecology; participatory-action research; rights communication;
+  movement safety.
+notes: >-
+  Role: Worker-peasant federation and movement-school source-system cluster ·
+  Action: UPDATE
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row56
+  source_lineage: >-
+    https://cloc-viacampesina.net/colombia-iala-maria-cano-la-universidad-campesina-de-fensuagro
+work_order: wo-f1f33b16bf37
+source_lineage: source-system-cards.csv

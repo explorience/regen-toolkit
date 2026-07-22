@@ -1,5 +1,5 @@
 title: Organización Boricuá de Agricultura Ecológica
-type: directory
+type: publication
 steward: Organización Boricuá de Agricultura Ecológica
 return_path: unset — establish via register-source
 url: https://cloc-viacampesina.net/
@@ -7,14 +7,20 @@ what_it_curates: CLOC records, movement publications, public events and partner 
 why_it_matters: >-
   Puerto Rican agroecology and food-sovereignty network connected to CLOC-LVC
   and island territorial practice.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row52
-  source_lineage: https://cloc-viacampesina.net/
 caution: >-
   Public documentation is fragmented; colonial and disaster context must not be
   reduced to resilience branding. | Workflow status: Selected; direct-source
   discovery required
+extraction_status: >-
+  Caribbean and island correction; farmer networks; ecological agriculture;
+  seeds; disaster resilience.
+notes: 'Role: Movement / agroecology network · Action: ADD'
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row51
+  source_lineage: https://cloc-viacampesina.net/
+normalization_flag: REPAIR-SS-51
+review_needs: 'Matty dup-flag REPAIR-SS-51: Late-row schema shift'
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv

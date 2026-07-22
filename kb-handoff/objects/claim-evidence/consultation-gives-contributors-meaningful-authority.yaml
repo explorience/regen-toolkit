@@ -1,0 +1,18 @@
+title: Consultation gives contributors meaningful authority
+type: claim-evidence
+claim: Consultation gives contributors meaningful authority
+interpretation: >-
+  State the exact decisions contributors can make, contest or veto and where
+  authority remains elsewhere.
+uncertainty: >-
+  Participants may be heard while others retain all editorial, classification
+  and publication power.
+evidence_stance: qualifying
+context: Toolkit
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row325
+  source_lineage: Internal design-justice synthesis
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

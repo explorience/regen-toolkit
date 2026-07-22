@@ -1,0 +1,22 @@
+title: Feedback-and-Delay Implementation Memory
+type: option-entry
+category: governance
+what_it_is: >-
+  Record expected and observed feedback loops, lag times, threshold effects and
+  unintended consequences alongside project milestones.
+potential_uses: >-
+  Long-running governance, ecological, funding, platform and community
+  interventions.
+dependencies: >-
+  Repeated observations, time-stamped evidence, alternative explanations and
+  review ownership.
+tradeoffs: Early narratives can harden into unfalsifiable system stories.
+context: Systems thinking
+review_needs: option category inferred — confirm
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Option Candidates!row156
+  source_lineage: https://donellameadows.org/dancing-with-systems/
+work_order: wo-349602e76c49
+source_lineage: option-candidates.csv

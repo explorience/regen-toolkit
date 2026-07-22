@@ -1,0 +1,18 @@
+title: Cross-group consensus statements
+type: resource
+resource_type: Method / analytic output
+url: https://compdemocracy.org/polis/
+original_source: Polis
+notes: >-
+  Why add: Adds a reusable but caution-sensitive consensus-finding pattern. ·
+  Status/Caution: Consensus can be engineered through framing, moderation,
+  recruitment, statement selection, or missing participants · Parent source
+  system: Polis
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row270
+  source_lineage: https://compdemocracy.org/polis/
+original_object_class: Method / Practice
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

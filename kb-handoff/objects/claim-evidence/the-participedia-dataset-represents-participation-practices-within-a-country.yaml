@@ -1,0 +1,20 @@
+title: The Participedia dataset represents participation practices within a country …
+type: claim-evidence
+claim: >-
+  The Participedia dataset represents participation practices within a country
+  or region
+interpretation: >-
+  Use the dataset for discovery, description, and carefully bounded comparison;
+  do not infer national prevalence from record counts.
+uncertainty: >-
+  Coverage reflects contributor networks, language, teaching partnerships,
+  available sources, and editorial capacity rather than representative sampling.
+evidence_stance: qualifying
+context: Participedia
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Claims and Cautions!row110
+  source_lineage: https://participedia.net/docs/Participedia_case_data_-_User_guide_002.pdf
+work_order: wo-8c810a6700ec
+source_lineage: claims-cautions.csv

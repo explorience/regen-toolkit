@@ -1,0 +1,25 @@
+title: Artizen Community Fund Launch and First Season
+type: implementation-record
+source_position: third-party-observer
+record_stage: prospective
+context: >-
+  Follow one Community Fund from proposal and curator selection through
+  sponsorship, project curation, Fund Drives, allocation, and post-season
+  continuation.
+what_returns_to_commons: >-
+  Tests whether the federated community-fund model creates durable stewardship
+  rather than only a short campaign.
+notes: >-
+  What to capture: Fund thesis, steward background, selection criteria, sponsor
+  relations, applicants, funded projects, distribution, conflicts, complaints,
+  outcomes, and whether the Fund continued. · Status/Caution: Candidate; select
+  one Fund with enough public documentation
+related_source_system: Artizen
+review_needs: prospective candidate — implementation evidence may be incomplete
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Implementation Memory!row5
+  source_lineage: https://play.artizen.fund/
+work_order: wo-1a015e37557a
+source_lineage: implementation-memory.csv

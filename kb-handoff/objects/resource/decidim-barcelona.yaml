@@ -1,0 +1,17 @@
+title: Decidim Barcelona
+type: resource
+resource_type: Implementation / public instance
+url: https://www.decidim.barcelona/
+original_source: Decidim / Barcelona City Council
+notes: >-
+  Why add: Provides a long-running civic implementation case for Batch 1C. ·
+  Status/Caution: Historical scale figures and outcomes require date and source
+  context · Parent source system: Decidim / Barcelona City Council
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#New Objects!row113
+  source_lineage: https://www.decidim.barcelona/
+original_object_class: Other / Review
+work_order: wo-4192270d569c
+source_lineage: new-objects.csv

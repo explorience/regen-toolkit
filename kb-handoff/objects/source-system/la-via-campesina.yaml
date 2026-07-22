@@ -1,5 +1,5 @@
 title: La Vía Campesina
-type: directory
+type: podcast
 steward: La Vía Campesina
 return_path: unset — establish via register-source
 url: https://viacampesina.org/en/
@@ -11,14 +11,20 @@ why_it_matters: >-
   Connects food sovereignty, peasant agroecology, seeds, land and water,
   peasants' rights, climate justice, migrant and rural labor, women, youth and
   territorial knowledge through a transnational movement structure.
-maturity: raw
-ai_assisted: true
-provenance:
-  origin: Canonical_DB.xlsx#Source-System Cards!row38
-  source_lineage: https://viacampesina.org/en/
 caution: >-
   Do not treat the international movement as a single homogeneous voice or infer
   that every member organization endorses every statement. Preserve regional,
   constituency and local autonomy.
+extraction_status: >-
+  Movement-generated declarations, schools, peasant-to-peasant pedagogy, rights
+  campaigns, territorial implementation cases and member-organization branches.
+notes: >-
+  Role: Selected movement-led source system / global peasant movement · Action:
+  ADD
+maturity: raw
+ai_assisted: true
+provenance:
+  origin: Canonical_DB.xlsx#Source-System Cards!row37
+  source_lineage: https://viacampesina.org/en/
 work_order: wo-f1f33b16bf37
 source_lineage: source-system-cards.csv
