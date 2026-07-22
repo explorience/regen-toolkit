@@ -24,6 +24,50 @@ export const RELATIONSHIP_FIELDS = new Set([
 
 export const nodeKey = ({ corpus, type, id }) => `${corpus}/${type}/${id}`;
 
+// Normalize a free-text label to a comparison key for entity resolution:
+// lowercase, strip diacritics (NFKD), collapse any run of non-alphanumerics to a
+// single space, trim. Used to match a relationship-record's subject/object label
+// against object titles.
+export function normalizeTitle(s) {
+  return String(s ?? '')
+    .normalize('NFKD').replace(/[̀-ͯ]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+// relationship-record objects carry free-text subject/predicate/object (they are
+// "Relationship Leads", not resolved refs). Wire the ones whose BOTH endpoints
+// resolve unambiguously (exactly one node) by normalized-title match → an edge
+// subject→object tagged with the predicate. Ambiguous (title shared by >1 node),
+// unresolved, or self endpoints are skipped and tallied. This is the ~11% that
+// auto-resolve; the rest stay raw leads (a known framework gap — see the daily log).
+export function buildRelationshipEdges(objects, nodes) {
+  const titleIndex = new Map(); // normTitle -> Set<nodeKey>
+  for (const n of nodes) {
+    if (n.type === 'relationship-record') continue;
+    const k = normalizeTitle(n.title);
+    if (!k) continue;
+    if (!titleIndex.has(k)) titleIndex.set(k, new Set());
+    titleIndex.get(k).add(n.key);
+  }
+  const resolve = (label) => {
+    const set = titleIndex.get(normalizeTitle(label));
+    return set && set.size === 1 ? [...set][0] : (set && set.size > 1 ? 'AMBIGUOUS' : null);
+  };
+  const edges = [];
+  const stats = { total: 0, wired: 0, ambiguous: 0, unresolved: 0 };
+  for (const o of objects) {
+    if (o.type !== 'relationship-record') continue;
+    stats.total += 1;
+    const s = resolve(o.data?.subject);
+    const t = resolve(o.data?.object);
+    if (s === 'AMBIGUOUS' || t === 'AMBIGUOUS') { stats.ambiguous += 1; continue; }
+    if (!s || !t || s === t) { stats.unresolved += 1; continue; }
+    edges.push({ source: s, target: t, field: 'relationship-record', predicate: o.data?.predicate ?? '' });
+    stats.wired += 1;
+  }
+  return { edges, stats };
+}
+
 export function buildNodes(objects) {
   return objects.map((o) => ({
     key: nodeKey(o),
@@ -131,6 +175,15 @@ export function buildGraph(objects, opts = {}) {
   const nodes = buildNodes(objects);
   const nodeKeys = new Set(nodes.map((nd) => nd.key));
   const edges = buildEdges(objects, nodeKeys);
+  // Add relationship-record-derived edges, skipping any undirected pair already present.
+  const seen = new Set(edges.map((e) => (e.source < e.target ? `${e.source} ${e.target}` : `${e.target} ${e.source}`)));
+  const { edges: relEdges, stats: rr_stats } = buildRelationshipEdges(objects, nodes);
+  for (const e of relEdges) {
+    const pair = e.source < e.target ? `${e.source} ${e.target}` : `${e.target} ${e.source}`;
+    if (seen.has(pair)) continue;
+    seen.add(pair);
+    edges.push(e);
+  }
   const deg = new Map(nodes.map((nd) => [nd.key, 0]));
   for (const e of edges) {
     deg.set(e.source, deg.get(e.source) + 1);
@@ -147,6 +200,7 @@ export function buildGraph(objects, opts = {}) {
     generated_from: 'derived — rebuildable via scripts/gen-kb-graph.mjs (prebuild)',
     node_count: nodes.length,
     edge_count: edges.length,
+    rr_stats,
     by_layer,
     nodes,
     edges,
@@ -161,4 +215,5 @@ if (isMain) {
   const outPath = join(ROOT, 'src', 'data', 'kb-graph.json');
   writeFileSync(outPath, JSON.stringify(graph, null, 2) + '\n');
   console.log(`kb-graph: ${graph.node_count} nodes · ${graph.edge_count} edges → src/data/kb-graph.json`);
+  console.log(`  relationship-records: ${graph.rr_stats.total} · wired ${graph.rr_stats.wired} · ambiguous ${graph.rr_stats.ambiguous} · unresolved ${graph.rr_stats.unresolved} (free-text subject/object — framework gap)`);
 }

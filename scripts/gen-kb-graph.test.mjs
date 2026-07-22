@@ -7,6 +7,7 @@ import assert from 'node:assert/strict';
 
 import {
   RELATIONSHIP_FIELDS, nodeKey, buildNodes, buildEdges, layout, buildGraph,
+  normalizeTitle, buildRelationshipEdges,
 } from './gen-kb-graph.mjs';
 
 const obj = (corpus, type, id, data = {}, links = []) => ({ corpus, type, id, data, links, layer: null });
@@ -90,4 +91,69 @@ test('buildGraph output shape: meta + nodes(with x/y) + edges', () => {
   assert.ok(g.nodes.every((n) => Number.isFinite(n.x) && Number.isFinite(n.y)));
   assert.deepEqual(new Set(Object.keys(g.by_layer)), new Set(['2', '4']));
   assert.match(g.generated_from, /gen-kb-graph/);
+});
+
+test('normalizeTitle folds case, punctuation, and unicode to a comparable key', () => {
+  assert.equal(normalizeTitle('Aapti Institute'), 'aapti institute');
+  assert.equal(normalizeTitle('  Karnataka Rajya Raitha Sangha (KRRS) '), 'karnataka rajya raitha sangha krrs');
+  assert.equal(normalizeTitle('Café—Déjà'), 'cafe deja');
+  assert.equal(normalizeTitle(undefined), '');
+});
+
+test('buildRelationshipEdges wires an RR whose subject+object both resolve unambiguously', () => {
+  const objects = [
+    { corpus: 'handoff', type: 'organization', id: 'aapti', layer: 3, data: { title: 'Aapti Institute' }, links: [] },
+    { corpus: 'handoff', type: 'resource', id: 'fpds', layer: 3, data: { title: 'Fostering Participatory Data Stewardship' }, links: [] },
+    { corpus: 'handoff', type: 'relationship-record', id: 'rr1', layer: 1, links: [],
+      data: { subject: 'Aapti Institute', predicate: 'developed', object: 'Fostering Participatory Data Stewardship' } },
+  ];
+  const nodes = buildNodes(objects);
+  const { edges, stats } = buildRelationshipEdges(objects, nodes);
+  assert.deepEqual(edges, [
+    { source: 'handoff/organization/aapti', target: 'handoff/resource/fpds', field: 'relationship-record', predicate: 'developed' },
+  ]);
+  assert.equal(stats.total, 1);
+  assert.equal(stats.wired, 1);
+});
+
+test('buildRelationshipEdges skips ambiguous, unresolved, and self endpoints', () => {
+  const objects = [
+    { corpus: 'articles', type: 'resource', id: 'giveth-a', layer: 3, data: { title: 'Giveth' }, links: [] },
+    { corpus: 'handoff', type: 'source-system', id: 'giveth-b', layer: 3, data: { title: 'Giveth' }, links: [] }, // same title → ambiguous
+    { corpus: 'handoff', type: 'organization', id: 'aapti', layer: 3, data: { title: 'Aapti Institute' }, links: [] },
+    { corpus: 'handoff', type: 'relationship-record', id: 'rr-amb', layer: 1, links: [],
+      data: { subject: 'Giveth', predicate: 'x', object: 'Aapti Institute' } },        // subject ambiguous → skip
+    { corpus: 'handoff', type: 'relationship-record', id: 'rr-unres', layer: 1, links: [],
+      data: { subject: 'Aapti Institute', predicate: 'y', object: 'Nonexistent Thing' } }, // object unresolved → skip
+    { corpus: 'handoff', type: 'relationship-record', id: 'rr-self', layer: 1, links: [],
+      data: { subject: 'Aapti Institute', predicate: 'z', object: 'Aapti Institute' } },    // resolves to same node → skip
+  ];
+  const nodes = buildNodes(objects);
+  const { edges, stats } = buildRelationshipEdges(objects, nodes);
+  assert.deepEqual(edges, []);
+  assert.equal(stats.total, 3);
+  assert.equal(stats.wired, 0);
+  assert.equal(stats.ambiguous, 1);
+});
+
+test('buildGraph merges relationship edges, dedups vs related_* edges, and counts degree', () => {
+  const objects = [
+    { corpus: 'articles', type: 'concept-lineage', id: 'a', layer: 4, data: { title: 'Alpha' },
+      links: [{ field: 'related_concepts', corpus: 'articles', type: 'concept-lineage', id: 'b' }] },
+    { corpus: 'articles', type: 'concept-lineage', id: 'b', layer: 4, data: { title: 'Beta' }, links: [] },
+    // RR asserting the SAME undirected pair a<->b — must dedup, not double
+    { corpus: 'articles', type: 'relationship-record', id: 'rrdup', layer: 1, links: [],
+      data: { subject: 'Alpha', predicate: 'relates', object: 'Beta' } },
+    // RR asserting a NEW pair a<->c
+    { corpus: 'articles', type: 'resource', id: 'c', layer: 3, data: { title: 'Gamma' }, links: [] },
+    { corpus: 'articles', type: 'relationship-record', id: 'rrnew', layer: 1, links: [],
+      data: { subject: 'Alpha', predicate: 'uses', object: 'Gamma' } },
+  ];
+  const g = buildGraph(objects, { iterations: 5 });
+  // undirected pairs present: a-b (from related_concepts, dedups the RR dup) and a-c (from RR)
+  assert.equal(g.edge_count, 2);
+  assert.ok(g.rr_stats && g.rr_stats.total === 2, 'rr_stats present with total 2');
+  const byKey = Object.fromEntries(g.nodes.map((n) => [n.key, n]));
+  assert.equal(byKey['articles/concept-lineage/a'].degree, 2); // a-b and a-c
+  assert.equal(byKey['articles/resource/c'].degree, 1);
 });
