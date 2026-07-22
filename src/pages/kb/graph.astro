@@ -1,0 +1,52 @@
+---
+// The interactive graph view of the reprocessed KB. Everything here is raw /
+// under review — the graph is a lens on the dev review surface, not published.
+import Page from "../../layouts/Page.astro";
+import KbGraph from "../../components/KbGraph.astro";
+import graph from "../../data/kb-graph.json";
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p) => base + String(p).replace(/^\//, "");
+// The layer legend + filter live inside <KbGraph> (they are the same chips).
+---
+
+<Page
+  title="Reprocessed KB — graph · Regen Web3 Toolkit (dev)"
+  description="Interactive force-directed graph of the framework-reprocessed knowledge base — raw, under review, dev preview only."
+>
+  <section class="in-hero">
+    <div class="wrap in-hero__inner">
+      <p class="eyebrow">Reprocessed content · dev preview · <strong>raw, under review</strong></p>
+      <h1 class="in-hero__title">The knowledge base as a graph.</h1>
+      <p class="in-hero__lede">
+        {graph.node_count} typed objects, {graph.edge_count} relationship links between them —
+        colored by layer of the master architecture. Nothing here is reviewed or published; this is
+        the review surface. Browse the same content as lists on the
+        <a href={withBase("/kb/")}>KB home</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="in-reg">
+    <div class="wrap">
+      <KbGraph graph={graph} base={base} />
+
+      <noscript>
+        <p class="kbg-noscript">
+          The interactive graph needs JavaScript. You can still browse every object as lists on the
+          <a href={withBase("/kb/")}>KB home</a> (by layer and by type).
+        </p>
+      </noscript>
+
+      <p class="in-reg__caption">
+        Generated at build from <code>src/data/kb-graph.json</code> (a baked force layout over
+        <code>src/data/kb-content.json</code>). Edges are relationship-field references only; free-text
+        matches are excluded. Layout is deterministic — no data leaves your browser.
+      </p>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .kbg-noscript { margin-top: 1rem; color: var(--ink-soft); }
+</style>
