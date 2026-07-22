@@ -42,24 +42,27 @@ Two meetings the same day: the morning **Matty 1-on-1** (framework build done + 
 
 > Master plan: [`docs/plans/handoff-integration.md`](docs/plans/handoff-integration.md) · Changes map: [`docs/HANDOFF-CHANGES-2026-07.md`](docs/HANDOFF-CHANGES-2026-07.md). **Core finding:** Matty's Database_Spec = the framework machine. Source: `docs/RKC_Handoff_July_2026_FINAL_VERIFIED/`.
 
-- [~] **T1 — intake & orient** — changes map written; iteration registered. ▶ — `task-260715-handoff-t1-intake`
-- [~] **T2 — crosswalk + Definition-of-Done conformance** — §40 crosswalk + 15-item DoD (7✅/8🟡). [`crosswalk`](docs/reports/2026-07-15-framework-masterdoc-crosswalk.md) · [`DoD`](docs/reports/2026-07-15-definition-of-done-conformance.md). — `task-260715-handoff-t2-crosswalk-dod`
+- [x] **T1 — intake & orient** — changes map written; iteration registered. — `task-260715-handoff-t1-intake` ✅
+- [x] **T2 — crosswalk + Definition-of-Done conformance** — §40 crosswalk + 15-item DoD (7✅/8🟡). [`crosswalk`](docs/reports/2026-07-15-framework-masterdoc-crosswalk.md) · [`DoD`](docs/reports/2026-07-15-definition-of-done-conformance.md). — `task-260715-handoff-t2-crosswalk-dod` ✅
 - [x] **T3a — real ingestion slice** — 127 Canonical_DB rows → 146 objects (kb-handoff/) + [`/handoff`](https://luizfernandosg.github.io/regen-toolkit/handoff/); B5 caught Matty's 4 dup pairs. — `task-260715-handoff-t3a-ingestion-slice` ✅
 - [x] **T5 — agent-setup for Matty + call brief** — [`onboarding`](docs/onboarding/operate-the-toolkit-agents.md) + [`brief`](docs/briefings/2026-07-16-toolkit-call-brief.md). — `task-260715-handoff-t5-agent-setup` ✅
 - [x] **T4 core — framework evolution** — `relationship-record` · `person`/`organization` · currentness/confidence/maintenance axes · enum gaps. **125 tests green.** — `task-260715-handoff-t4-framework-evolution` ✅ (remainder logged in master plan)
-- [ ] **T3b — full Canonical_DB ingestion** (2,689 rows) — sub-plan written ([`t3b`](docs/plans/handoff-integration/2026-07-15-t3b-full-ingestion.md)); run after the call + operator go. Uses the new T4 schemas. — `task-260715-handoff-t3b-full-ingestion`
+- [x] **T3b — full Canonical_DB ingestion** — 2,689 rows → 2,957 objects (+101 Discovery promotion) = **3,058 in kb-handoff/**, all raw. Deterministic ETL (accept-gate validated), B5-vs-flags + DoD #15 reconciled. [`manifest`](docs/reports/2026-07-21-canonical-migration-manifest.md). Committed `6ff1406a`. — `task-260715-handoff-t3b-full-ingestion` ✅ (2026-07-22)
 - [ ] **Master 6-Part refactor** — awaits Matty's final handoff. — `task-260715-handoff-master-refactor`
 - [ ] **Share pack** ([`draft`](docs/comms/drafts/2026-07-15-share-pack.md)) — drafted, awaiting operator send. — `task-260715-handoff-share-pack`
 
-### Framework Validation Pass — self-ingestion + Jul 16 demo _(ACTIVE 2026-07-14)_
+### Dev instance build — the live review surface _(★ ACTIVE #1, 2026-07-19)_
 
-> Master plan: [`docs/plans/framework-validation-pass.md`](docs/plans/framework-validation-pass.md). Demo **Thu Jul 16**. Symmetric to the ReFi DAO `kms-koi-pipeline`. Design + implementation: [`docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md`](docs/plans/framework-build/2026-07-13-framework-validation-pass-design.md) + [`...-2026-07-14-...-implementation.md`](docs/plans/framework-build/2026-07-14-framework-validation-pass-implementation.md).
+> Plan: [`docs/plans/dev-instance-build.md`](docs/plans/dev-instance-build.md) (spec: [`SESSION-HANDOFF-2026-07-19.md`](docs/plans/SESSION-HANDOFF-2026-07-19.md) Prompt 1). The 07-19 decision: render the framework-reprocessed KB (722 + 146 objects) as **browsable content pages** deployed live from the personal fork — so the ~2–4-week review gate starts **now**, independent of the Heenal migration. Fulfills `task-260716-luiz-staging-dev-site`.
 
-- [ ] **V0 — consolidate the plan surface** (master plan · 3 stale plans archived · QUEUE/HEARTBEAT reconciled). ▶ in progress. — `task-260714-fvp-v0-consolidate`
-- [ ] **V1 — kernel fixes** (framework, TDD, keep 100/100): source-system enum (+`blog`/`publication`) · `held` maturity state · `track.outcome`→array · **B5 silent-overwrite guard** (the ReFi DAO data-loss-at-scale bug). V1.4 gates any real ingest. — `task-260714-fvp-v1-kernel-fixes`
-- [ ] **V2 — slice self-ingestion** — ~15–20 articles → real `ingest` pipeline → `data/kb/` (repo-data adapter). — `task-260714-fvp-v2-self-ingestion`
-- [ ] **V3 — three artifacts** — live page + Obsidian canvas + diff report. — `task-260714-fvp-v3-artifacts`
-- [ ] **V4 — capital `update-proposal`** (draft-only, to shape with Matty). — `task-260714-fvp-v4-capital`
+- [ ] **Build the KB content routes** — by type + by layer, provenance + raw badges, related-object links, old-article ↔ reprocessed cross-links. — `task-260719-luiz-dev-instance-build`
+- [ ] **Deploy from `fork`** (`git push fork regen-toolkit-os` → Pages) + report the URL + rendered-vs-stubbed map. — `task-260719-luiz-dev-instance-deploy`
+
+### Framework Validation Pass — DONE _(2026-07-19; plan complete)_
+
+> Master plan: [`docs/plans/framework-validation-pass.md`](docs/plans/framework-validation-pass.md) — **✅ complete 2026-07-19.** V0–V4 all done: kernel fixes (100→110 tests) · full 119-article self-ingestion → **722 objects** (`data/kb/`, all `raw`; 65 B5 collisions preserved) · live page + canvas + diff report · capital `update-proposal` drafted. Post-demo items redistributed (feedback harvest → handoff T4 remainder · human review → dev-instance review gate · migration → publish-pipeline).
+
+- [x] **V0–V4** — consolidate · kernel fixes · self-ingestion (722) · artifacts · capital proposal. ✅ — `task-260714-fvp-v0-consolidate`
 
 ### org-os KMS shipped + ontology comparison — DONE _(2026-07-05)_
 
@@ -341,6 +344,7 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ## Recently Completed
 
+- [x] 2026-07-22 — **T3b full Canonical_DB ingestion** — Matty's full curated DB run through the machine on the T4 schemas: 6 families (2,689 rows) → 2,957 objects + Discovery_Pool Priority Working Set (114 → 98 promoted) = **3,058 in `kb-handoff/`**, all raw/review-gated. Deterministic crosswalk-driven ETL (reproducible = his DoD #1), validated by the accept gate. B5 guard re-derived his exact dup-flags (42 collision sets); DoD #15 row-accounting + B5-vs-87-flags reconciliation in [`docs/reports/2026-07-21-canonical-migration-manifest.md`](docs/reports/2026-07-21-canonical-migration-manifest.md). Plan surface consolidated to one active spine. Committed `6ff1406a` → pushed. Scripts: `scripts/validation/{export-handoff-full.py,map-handoff-full.mjs,map-discovery-priority.mjs}`.
 - [x] 2026-07-16 — **2026-07-16 meetings processed** (Matty 1-on-1 + biweekly planning call): both source notes fixed (frontmatter + processed pointer) + synthesized notes at `packages/operations/meetings/260716 *.md`; `data/meetings.yaml` +2 (`mtg-20260716-regen-web3-toolkit-planning` + `mtg-20260716-toolkit-worksession-matty`); `memory/2026-07-16.md` written; MEMORY.md (Key Decisions +5, History +1); HEARTBEAT new "2026-07-16 biweekly + Matty 1-on-1" section; integration report `docs/reports/2026-07-16-planning-call-integration.md`; parked items routed to `docs/BACKLOG.md`. **Framework build done + dev→prod pipeline live** is the headline. Attribution correction logged (CRAFT/Temper demo = Durgadas, not Rathermercurial per the auto-summary).
 - [x] 2026-06-16 — **Gap-fill + master-doc intake**: 2026-05-21 + 2026-06-04 biweeklies processed (notes + registry, now 10 meetings); **new master doc 2026-06-15 working iteration saved canonical** (30,847 lines; 2026-05-15 archived; raw preserved; `MASTER-DOC-CHANGES-2026-06-15.md` diff); **resource DB V3 staged** (`data/resources/` — xlsx + 28 CSVs / 12,456 rows + manifest). Stale threads resolved (persona-game superseded; journeys tension resolved; v1 site landed). Convergence (site merge, branch cleanup, framework/instance, full resource lift) parked behind operator checkpoint. Integration report: `docs/reports/2026-06-16-gap-fill-and-master-doc-intake-integration-report.md`.
 - [x] 2026-06-16 — **2026-06-15 Matty + Luiz work session processed** (refi-bcn-os `meeting-processor` pipeline): source note frontmatter fixed + processed pointer; synthesized note at `packages/operations/meetings/260615 Toolkit Work Session with Matty.md`; `data/meetings.yaml` +1 (`mtg-20260615-toolkit-worksession-matty`); `memory/2026-06-16.md` written; MEMORY.md (Key Decisions +5, History +1, Active Context + Relationship Map refreshed); HEARTBEAT 4 new sections (RegenOS docs, framework/instance split, infra stack, ReFi Commons/standards); new plan `docs/plans/regen-os-documentation.md` + QUEUE updated; integration report at `docs/reports/2026-06-15-toolkit-worksession-matty-integration-report.md`. Notion phases N/A (sync broken + toolkit doesn't run Notion as primary); operator weekly/monthly distribution offered (not auto-written).
@@ -358,4 +362,4 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ---
 
-_Last updated: 2026-07-16 (2026-07-16 biweekly + Matty 1-on-1 processed — framework build done + dev→prod pipeline live; repo migration is the unblock)_
+_Last updated: 2026-07-22 (T3b full Canonical_DB ingestion — 3,058 objects in kb-handoff/, all raw; review gate + dev-instance rendering are next)_
