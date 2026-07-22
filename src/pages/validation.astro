@@ -1,0 +1,240 @@
+---
+import Page from "../layouts/Page.astro";
+// The review-gate dashboard: coverage, graph-view diff, faithfulness, and reference integrity
+// comparing the framework-reprocessed KB (data/kb, 722 typed objects) against the live
+// 119-article build. Auto-derived metrics are read from a build-input JSON snapshot the
+// analysis script emits (Vite imports JSON, not YAML) — the same way /self-ingestion reads
+// data/kb/index.json. Regenerate: node scripts/validation/reprocessing-coverage.mjs.
+import v from "../../data/validation/validation-summary.json";
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p) => base + String(p).replace(/^\//, "");
+
+const cov = v.coverage;
+const g = v.graph;
+const ri = v.reference_integrity;
+const tiers = v.review_tiers;
+
+const typeList = Object.entries(cov.type_totals_by_family)
+  .sort((a, b) => b[1] - a[1])
+  .map(([type, n]) => ({ type: type.replace(/-/g, " "), n }));
+
+// The "shareable initial version" Definition of Done (report §5) — process state, stated here.
+const dod = [
+  { label: "Coverage — every article accounted for", state: "done", note: `${cov.articles}/119, 0 dropped` },
+  { label: "Faithfulness — audit ≥95%, 0 FAILs in claim/boundary strata", state: "partial", note: "first round 11/12 faithful" },
+  { label: "Per-page sign-off — every public page PROMOTE by a named reviewer", state: "open", note: "reviewer lead TBD — next call" },
+  { label: "Privacy gate — name-flagging verified; no non-consented names", state: "open", note: "hard blocker" },
+  { label: "Promotion — objects moved raw → reviewed", state: "open", note: "review queue empty for public set" },
+  { label: "Honest staging — fork-only, raw/under-review badge until 1–5 hold", state: "partial", note: "Prompt 1 dev instance" },
+];
+const stateGlyph = { done: "✓", partial: "◐", open: "○" };
+---
+
+<Page
+  title="Reprocessing validation · Regen Web3 Toolkit"
+  description="The review gate: coverage, graph-view diff, faithfulness, and reference integrity comparing the framework-reprocessed knowledge base against the live 119-article build. Everything raw, nothing promoted."
+>
+  <!-- ============================== HERO ============================== -->
+  <section class="in-hero">
+    <div class="wrap in-hero__inner">
+      <p class="eyebrow reveal" data-d="1">Reprocessing validation</p>
+      <h1 class="in-hero__title reveal" data-d="2">
+        The review gate,<br />before anything goes live.
+      </h1>
+      <p class="in-hero__lede reveal" data-d="3">
+        The framework re-typed the site's <strong>119 live articles</strong> into
+        <strong>{cov.objects} typed objects</strong>. Before any of it is published, it passes a gate:
+        <strong>coverage</strong> (was anything dropped?), a <strong>graph-view diff</strong> (what
+        connections does the typed structure surface?), a <strong>faithfulness</strong> check (does
+        it preserve the source's meaning?), and <strong>reference integrity</strong>. Everything below
+        is <code>raw</code> and awaiting a named-reviewer sign-off — <strong>nothing is promoted</strong>.
+      </p>
+      <div class="in-hero__meta reveal" data-d="4">
+        <span class="chip chip--clay">{cov.articles} articles</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>{cov.objects} objects</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>all raw</span>
+        <span class="in-hero__metasep" aria-hidden="true"></span>
+        <span>nothing promoted</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ COVERAGE ============================ -->
+  <section class="in-reg">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">Coverage — did anything get dropped?</p>
+        <h2 class="in-h2">Every article produced objects. Nothing was lost.</h2>
+        <p class="in-sec-sub">
+          Each object carries a <code>provenance.origin</code> back to the article it came from. All
+          {cov.objects} trace to exactly {cov.articles} distinct articles — so every live article
+          yielded at least one typed object, and no object claims a source that isn't real.
+        </p>
+      </header>
+
+      <ul class="in-stat-grid">
+        <li class="in-stat">
+          <span class="in-stat__n">{cov.dropped_articles}</span>
+          <span class="in-stat__label">articles dropped</span>
+          <span class="in-stat__desc">All {cov.articles} produced ≥1 object.</span>
+        </li>
+        <li class="in-stat">
+          <span class="in-stat__n">{cov.orphan_objects}</span>
+          <span class="in-stat__label">orphan objects</span>
+          <span class="in-stat__desc">Every object's origin resolves to a real article file.</span>
+        </li>
+        <li class="in-stat">
+          <span class="in-stat__n">{cov.objects_per_article_mean}</span>
+          <span class="in-stat__label">objects / article (mean)</span>
+          <span class="in-stat__desc">Range {cov.objects_per_article_min}–{cov.objects_per_article_max}. {cov.thinned_count} low-yield pages flagged for a completeness look.</span>
+        </li>
+      </ul>
+
+      <ul class="in-run__types">
+        {typeList.map((t) => <li class="in-run__type">{t.n} {t.type}{t.n > 1 ? "s" : ""}</li>)}
+      </ul>
+      <p class="in-reg__caption">
+        Generated at build from <code>data/validation/coverage-map.yaml</code>. State:
+        <strong>raw</strong> throughout — nothing here is marked reviewed.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========================= GRAPH-VIEW DIFF ======================= -->
+  <section class="in-run">
+    <div class="wrap in-run__grid">
+      <div class="in-run__lead">
+        <p class="eyebrow">Graph-view diff — what connections appear?</p>
+        <h2 class="in-h2">A higher-resolution graph, across the whole corpus.</h2>
+        <p>
+          The live build connects articles two ways: a curated <code>related:</code> list (on just
+          {g.old_articles_with_related} of {cov.articles} articles) and a handful of coarse
+          <code>systems:</code> tags. The typed graph anchors <strong>{g.new_article_pairs} article
+          pairs</strong> in <strong>{g.new_distinct_concepts} distinct concepts</strong> and
+          <strong>{g.new_distinct_resources} resources</strong> — uniformly, across all {cov.articles}
+          articles — surfacing <strong>{g.emergent_pairs} connections</strong> the flat site couldn't
+          express.
+        </p>
+        <p class="in-run__note">
+          Caveat, honestly: the graph isn't build-ready. Only <strong>{ri.exact_pct}%</strong> of its
+          references resolve exactly today ({ri.alias_pct}% with an alias layer). See reference
+          integrity below.
+        </p>
+      </div>
+      <ul class="in-run__types">
+        {g.emergent_samples.map((s) => {
+          const [a, b] = s.pair.split(" <> ");
+          const via = (s.via_concepts && s.via_concepts[0]) || (s.via_resources && s.via_resources[0]) || "shared";
+          return <li class="in-run__type">{a.replace(/\.md$/, "")} ↔ {b.replace(/\.md$/, "")} <em>via {via}</em></li>;
+        })}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================ FAITHFULNESS + REFERENCE INTEGRITY ============= -->
+  <section class="in-held">
+    <div class="wrap in-held__grid">
+      <div class="in-held__card">
+        <p class="eyebrow">Faithfulness — does it preserve the meaning?</p>
+        <h3 class="in-held__h">11 of 12 faithful in the first spot-check round.</h3>
+        <p>
+          A stratified sample across all 8 object types scored <strong>11 faithful · 1 minor · 0
+          unfaithful</strong>. Every claim checked was verbatim or near-verbatim from its source, each
+          carrying an honest <code>uncertainty</code> field naming the missing citation. No
+          hallucinated claims; no extractive framing. The protocol and the worked round are in the
+          validation report; the reusable checklist gates each page.
+        </p>
+      </div>
+      <div class="in-held__card">
+        <p class="eyebrow">Reference integrity — do the links resolve?</p>
+        <h3 class="in-held__h">{ri.exact_pct}% of {ri.refs_checked} references resolve exactly.</h3>
+        <p>
+          Of the typed graph's relationship references, <strong>{ri.exact} resolve exactly</strong>,
+          <strong>{ri.naming_drift}</strong> need an alias layer (the object exists under a qualified
+          key), and <strong>{ri.dangling} are truly dangling</strong> (the target was never promoted).
+          A concrete, mechanical fix — <strong>{ri.alias_pct}%</strong> become resolvable with
+          normalization — and a hard prerequisite before the graph view ships.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== THE GATE ========================= -->
+  <section class="in-reg">
+    <div class="wrap">
+      <header class="in-sec-head">
+        <p class="eyebrow">The gate — "shareable initial version"</p>
+        <h2 class="in-h2">What has to be true before this goes public.</h2>
+        <p class="in-sec-sub">
+          Review runs per page — one article and all its objects — over a ~2–4 week window. The
+          {cov.articles} pages are pre-sorted into priority tiers:
+          <strong>{tiers.tier1_sensitivity}</strong> sensitivity/completeness,
+          <strong>{tiers.tier2_claims}</strong> claim-sourcing,
+          <strong>{tiers.tier3_standard}</strong> standard. A page is PR-eligible only when a named
+          reviewer signs it <strong>PROMOTE</strong> and the privacy gate passes.
+        </p>
+      </header>
+      <ul class="dod-list">
+        {dod.map((d) => (
+          <li class={`dod-item dod-item--${d.state}`}>
+            <span class="dod-glyph" aria-hidden="true">{stateGlyph[d.state]}</span>
+            <span class="dod-label">{d.label}</span>
+            <span class="dod-note">{d.note}</span>
+          </li>
+        ))}
+      </ul>
+      <p class="in-reg__caption">
+        Status today: coverage <strong>done</strong>; faithfulness first round <strong>in</strong>;
+        per-page sign-off, privacy gate, and promotion <strong>open</strong>. Reviewer lead to be
+        assigned at the next call.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================ CROSS-LINK ======================== -->
+  <section class="in-cross">
+    <div class="wrap in-cross__inner">
+      <p class="eyebrow">The pair</p>
+      <h2 class="in-h2">See the run, then the gate it has to pass.</h2>
+      <p class="in-cross__lede">
+        This page is the review gate for the reprocessed content. For the run that produced it — the
+        119 articles pointed at the pipeline — see the self-ingestion page. For how the pipeline
+        itself works, see the framework page.
+      </p>
+      <div class="in-cross__cta">
+        <a class="btn btn--ghost" href={withBase("/self-ingestion/")}>The self-ingestion run <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href={withBase("/framework/")}>How the pipeline works <span class="arrow">→</span></a>
+      </div>
+      <p class="in-cross__honest">
+        Honest status: {cov.objects} objects, all <strong>raw</strong> and awaiting named-reviewer
+        sign-off — nothing here has been promoted, and this dev instance is not prod.
+      </p>
+    </div>
+  </section>
+</Page>
+
+<style>
+  .dod-list { list-style: none; margin: 2rem 0 0; padding: 0; display: grid; gap: 0.5rem; }
+  .dod-item {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr auto;
+    gap: 0.75rem;
+    align-items: baseline;
+    padding: 0.75rem 1rem;
+    border: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+    border-radius: 0.5rem;
+  }
+  .dod-glyph { font-weight: 700; }
+  .dod-item--done .dod-glyph { color: #2e7d32; }
+  .dod-item--partial .dod-glyph { color: #b8860b; }
+  .dod-item--open .dod-glyph { color: color-mix(in srgb, currentColor 45%, transparent); }
+  .dod-label { font-weight: 600; }
+  .dod-note { font-size: 0.85rem; opacity: 0.7; text-align: right; }
+  @media (max-width: 640px) {
+    .dod-item { grid-template-columns: 1.5rem 1fr; }
+    .dod-note { grid-column: 2; text-align: left; }
+  }
+</style>

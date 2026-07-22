@@ -1,0 +1,1670 @@
+generated: reprocessing-coverage.mjs (read-only analysis)
+scope: 119 source articles (src/content/docs) -> data/kb typed objects
+summary:
+  articles: 119
+  objects_total: 722
+  distinct_origin_articles: 119
+  articles_with_zero_objects: 0
+  orphan_origins_not_in_docs: []
+  objects_per_article_mean: 6.07
+  objects_per_article_max: 13
+  objects_per_article_min: 2
+  articles_with_rich_frontmatter: 67
+  articles_bare_frontmatter: 52
+  type_totals_granular:
+    claim-evidence: 146
+    concept-lineage: 143
+    encyclopedia-entry: 116
+    public-use-boundary: 34
+    resource: 226
+    signal: 33
+    repo: 2
+    blog: 2
+    docs-site: 4
+    publication: 2
+    directory: 3
+    convening: 2
+    forum: 2
+    knowledge-garden: 3
+    database: 1
+    track: 3
+  type_totals_by_family:
+    claim-evidence: 146
+    concept-lineage: 143
+    encyclopedia-entry: 116
+    public-use-boundary: 34
+    resource: 226
+    signal: 33
+    source-system: 21
+    track: 3
+dropped_articles: []
+thinned_bottom_decile:
+  - article: key-terms-a-z.md
+    words: 1525
+    objects: 3
+    yield_per_1k_words: 1.97
+  - article: conflict-resolution.md
+    words: 1902
+    objects: 5
+    yield_per_1k_words: 2.63
+  - article: building-momentum.md
+    words: 1492
+    objects: 4
+    yield_per_1k_words: 2.68
+  - article: human-review-boundaries.md
+    words: 1813
+    objects: 5
+    yield_per_1k_words: 2.76
+  - article: why-local-matters.md
+    words: 1752
+    objects: 5
+    yield_per_1k_words: 2.85
+  - article: why-regens-interested.md
+    words: 1386
+    objects: 4
+    yield_per_1k_words: 2.89
+  - article: is-community-ready.md
+    words: 1677
+    objects: 5
+    yield_per_1k_words: 2.98
+  - article: local-currency.md
+    words: 1937
+    objects: 6
+    yield_per_1k_words: 3.1
+  - article: multisig-setup.md
+    words: 1612
+    objects: 5
+    yield_per_1k_words: 3.1
+  - article: editorial-workflow.md
+    words: 1608
+    objects: 5
+    yield_per_1k_words: 3.11
+  - article: common-pitfalls.md
+    words: 1601
+    objects: 5
+    yield_per_1k_words: 3.12
+per_article:
+  - article: what-is-blockchain.md
+    words: 1215
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 13
+    yield_per_1k_words: 10.7
+    by_type:
+      claim-evidence: 5
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 4
+  - article: knowledge-tools-directory.md
+    words: 1600
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 12
+    yield_per_1k_words: 7.5
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 10
+  - article: ethereum-ecosystem.md
+    words: 1159
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Emergence
+    objects: 10
+    yield_per_1k_words: 8.63
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 7
+  - article: funding-your-node.md
+    words: 1619
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 10
+    yield_per_1k_words: 6.18
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 7
+  - article: treasury-management.md
+    words: 801
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 10
+    yield_per_1k_words: 12.48
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 3
+      signal: 1
+  - article: what-is-refi.md
+    words: 1299
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 10
+    yield_per_1k_words: 7.7
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 3
+      signal: 1
+      blog: 1
+  - article: building-founding-team.md
+    words: 1381
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 6.52
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 4
+  - article: first-90-days.md
+    words: 1296
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 6.94
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 2
+      track: 1
+  - article: funding-gatherings.md
+    words: 1630
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 5.52
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 6
+  - article: giveth-donations.md
+    words: 1809
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 4.98
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      public-use-boundary: 1
+      resource: 3
+      signal: 1
+      docs-site: 1
+  - article: minimum-viable-node.md
+    words: 1655
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 5.44
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      public-use-boundary: 1
+      resource: 3
+      signal: 1
+      track: 1
+  - article: stewardship-roles.md
+    words: 1704
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 5.28
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 5
+  - article: types-of-gatherings.md
+    words: 2416
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 3.73
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+      directory: 1
+      track: 1
+  - article: what-is-dao.md
+    words: 1340
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 6.72
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 5
+      signal: 1
+  - article: why-measurement-matters.md
+    words: 1584
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 9
+    yield_per_1k_words: 5.68
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 3
+      signal: 1
+  - article: ai-community-tools.md
+    words: 1591
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 5.03
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+      signal: 1
+      docs-site: 1
+  - article: archive-compost.md
+    words: 1585
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 5.05
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 3
+  - article: building-trust.md
+    words: 1635
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 4.89
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 3
+  - article: common-scams.md
+    words: 1555
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 5.14
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 3
+      encyclopedia-entry: 1
+      signal: 2
+      publication: 1
+  - article: dao-tooling.md
+    words: 1044
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Polycentric-Governance
+    objects: 8
+    yield_per_1k_words: 7.66
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 5
+  - article: federation-portability.md
+    words: 1416
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 5.65
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 3
+      encyclopedia-entry: 1
+      resource: 1
+      repo: 1
+  - article: gitcoin-grants-qf.md
+    words: 1399
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 5.72
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+      signal: 1
+      docs-site: 1
+  - article: source-systems.md
+    words: 1742
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 4.59
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 3
+  - article: what-is-wallet.md
+    words: 1786
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 8
+    yield_per_1k_words: 4.48
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 4
+  - article: ai-assisted-classification.md
+    words: 1489
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 4.7
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 4
+  - article: funding-landscape.md
+    words: 1970
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 3.55
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: governance-mechanism-design.md
+    words: 630
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 11.11
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 2
+  - article: other-chains.md
+    words: 809
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Emergence
+    objects: 7
+    yield_per_1k_words: 8.65
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 5
+  - article: planning-web3-events.md
+    words: 1903
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 3.68
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+      convening: 1
+  - article: review-and-maturity.md
+    words: 1618
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 4.33
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+  - article: silvi-protocol.md
+    words: 1142
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Feedback-Loops
+      - Trust-Networks
+      - Commons
+    objects: 7
+    yield_per_1k_words: 6.13
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      public-use-boundary: 1
+      resource: 1
+      signal: 1
+      docs-site: 1
+      database: 1
+  - article: smart-contracts-explained.md
+    words: 1244
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Trust-Networks
+    objects: 7
+    yield_per_1k_words: 5.63
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 3
+  - article: stablecoins.md
+    words: 1469
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 4.77
+    by_type:
+      claim-evidence: 3
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: stories-regens-leap.md
+    words: 428
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 16.36
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 2
+      signal: 1
+  - article: tax-implications.md
+    words: 544
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 12.87
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 2
+  - article: token-standards.md
+    words: 806
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Trust-Networks
+    objects: 7
+    yield_per_1k_words: 8.68
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 3
+      encyclopedia-entry: 1
+      resource: 2
+  - article: voting-mechanisms.md
+    words: 1104
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Polycentric-Governance
+      - Feedback-Loops
+      - Decentralization
+    objects: 7
+    yield_per_1k_words: 6.34
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+  - article: wallet-comparison-guide.md
+    words: 611
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Trust-Networks
+    objects: 7
+    yield_per_1k_words: 11.46
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 4
+      signal: 1
+  - article: what-are-tokens.md
+    words: 973
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Trust-Networks
+    objects: 7
+    yield_per_1k_words: 7.19
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 4
+  - article: what-is-cryptocurrency.md
+    words: 1261
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 5.55
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+  - article: what-is-knowledge-commons.md
+    words: 1490
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 7
+    yield_per_1k_words: 4.7
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 1
+      signal: 1
+      knowledge-garden: 1
+  - article: case-studies-nonprofits.md
+    words: 646
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 9.29
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+      publication: 1
+  - article: common-concerns.md
+    words: 1405
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 4.27
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: examples-impact-daos.md
+    words: 1055
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Polycentric-Governance
+      - Commons
+      - Emergence
+    objects: 6
+    yield_per_1k_words: 5.69
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+  - article: gatherings-pattern.md
+    words: 1900
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Emergence
+      - Trust-Networks
+      - Feedback-Loops
+    objects: 6
+    yield_per_1k_words: 3.16
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 2
+  - article: how-to-get-crypto.md
+    words: 1719
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.49
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+  - article: inclusive-practices.md
+    words: 1568
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Mutual-Aid
+      - Trust-Networks
+      - Commons
+    objects: 6
+    yield_per_1k_words: 3.83
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      signal: 1
+  - article: knowledge-gardens.md
+    words: 1356
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 4.42
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+      knowledge-garden: 1
+  - article: layer-2s.md
+    words: 996
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Fractals
+      - Thresholds
+    objects: 6
+    yield_per_1k_words: 6.02
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+  - article: legal-structures.md
+    words: 1842
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.26
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: local-currency.md
+    words: 1937
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Circular-Economy
+      - Mutual-Aid
+      - Commons
+    objects: 6
+    yield_per_1k_words: 3.1
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+  - article: local-node-model.md
+    words: 1469
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 4.08
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+  - article: local-nodes-and-daos.md
+    words: 1825
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.29
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+  - article: metadata-that-matters.md
+    words: 1616
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.71
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+  - article: onboarding-members.md
+    words: 1741
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.45
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 1
+      convening: 1
+  - article: ontology-vs-taxonomy.md
+    words: 1382
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 4.34
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 2
+  - article: recovery-planning.md
+    words: 1115
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Resilience
+      - Trust-Networks
+    objects: 6
+    yield_per_1k_words: 5.38
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 2
+  - article: refi-vs-defi-tradfi.md
+    words: 1429
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 4.2
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: seed-phrases.md
+    words: 1657
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.62
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+  - article: setting-up-first-wallet.md
+    words: 1496
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 4.01
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: setting-up-receive-crypto.md
+    words: 359
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 16.71
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 3
+  - article: tokens-coordination-tools.md
+    words: 856
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Feedback-Loops
+      - Emergence
+      - Circular-Economy
+    objects: 6
+    yield_per_1k_words: 7.01
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: tokens-real-world-assets.md
+    words: 370
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 16.22
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      signal: 1
+  - article: what-is-local-node.md
+    words: 1548
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.88
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      directory: 1
+  - article: what-web3-can-cant-do.md
+    words: 1449
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 4.14
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+      blog: 1
+  - article: writing-grant-proposals.md
+    words: 1631
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 6
+    yield_per_1k_words: 3.68
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: bitcoin-history.md
+    words: 564
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 8.87
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      signal: 1
+  - article: centralized-vs-decentralized.md
+    words: 1047
+    rich_frontmatter: true
+    curated_related: 3
+    systems_tags:
+      - Decentralization
+      - Resilience
+      - Subsidiarity
+    objects: 5
+    yield_per_1k_words: 4.78
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: common-pitfalls.md
+    words: 1601
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 3.12
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+      forum: 1
+  - article: compliance-legal.md
+    words: 400
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 12.5
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+  - article: conflict-resolution.md
+    words: 1902
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 2.63
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: cooperative-commons.md
+    words: 1250
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Commons
+      - Mutual-Aid
+      - Circular-Economy
+    objects: 5
+    yield_per_1k_words: 4
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 1
+  - article: credentials-certifications.md
+    words: 1036
+    rich_frontmatter: true
+    curated_related: 3
+    systems_tags:
+      - Trust-Networks
+      - Decentralization
+    objects: 5
+    yield_per_1k_words: 4.83
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 2
+  - article: crypto-donation-platforms.md
+    words: 373
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 13.4
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+      directory: 1
+  - article: custodial-vs-noncustodial.md
+    words: 952
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Trust-Networks
+    objects: 5
+    yield_per_1k_words: 5.25
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: dao-governance-models.md
+    words: 948
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Polycentric-Governance
+      - Decentralization
+      - Subsidiarity
+    objects: 5
+    yield_per_1k_words: 5.27
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: decentralization-spectrum.md
+    words: 951
+    rich_frontmatter: true
+    curated_related: 3
+    systems_tags:
+      - Decentralization
+      - Subsidiarity
+      - Polycentric-Governance
+    objects: 5
+    yield_per_1k_words: 5.26
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+      signal: 1
+  - article: dmrv.md
+    words: 795
+    rich_frontmatter: true
+    curated_related: 3
+    systems_tags:
+      - Feedback-Loops
+      - Trust-Networks
+      - Decentralization
+    objects: 5
+    yield_per_1k_words: 6.29
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: documentation-knowledge.md
+    words: 1523
+    rich_frontmatter: true
+    curated_related: 3
+    systems_tags:
+      - Feedback-Loops
+      - Commons
+      - Resilience
+    objects: 5
+    yield_per_1k_words: 3.28
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: editorial-workflow.md
+    words: 1608
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 3.11
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: find-your-community.md
+    words: 1363
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 3.67
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: gas-fees.md
+    words: 509
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 9.82
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: hot-vs-cold.md
+    words: 1159
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Resilience
+      - Trust-Networks
+    objects: 5
+    yield_per_1k_words: 4.31
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: how-transactions-work.md
+    words: 653
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 7.66
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: human-review-boundaries.md
+    words: 1813
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 2.76
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      signal: 1
+      knowledge-garden: 1
+  - article: is-community-ready.md
+    words: 1677
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 2.98
+    by_type:
+      claim-evidence: 2
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: leadership-development.md
+    words: 1595
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Emergence
+      - Resilience
+      - Subsidiarity
+    objects: 5
+    yield_per_1k_words: 3.13
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      resource: 1
+  - article: multisig-setup.md
+    words: 1612
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Trust-Networks
+      - Decentralization
+      - Resilience
+    objects: 5
+    yield_per_1k_words: 3.1
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: nfts-beyond-art.md
+    words: 1134
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Trust-Networks
+      - Decentralization
+    objects: 5
+    yield_per_1k_words: 4.41
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: security-best-practices-orgs.md
+    words: 1143
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Resilience
+      - Trust-Networks
+      - Decentralization
+    objects: 5
+    yield_per_1k_words: 4.37
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: trust-transparency.md
+    words: 979
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Trust-Networks
+      - Decentralization
+      - Feedback-Loops
+    objects: 5
+    yield_per_1k_words: 5.11
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: what-is-decentralization.md
+    words: 1282
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 3.9
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: what-is-ethereum.md
+    words: 789
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Trust-Networks
+      - Emergence
+    objects: 5
+    yield_per_1k_words: 6.34
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: what-you-can-do-ethereum.md
+    words: 674
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Emergence
+      - Trust-Networks
+    objects: 5
+    yield_per_1k_words: 7.42
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: why-accept-crypto.md
+    words: 1072
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Circular-Economy
+      - Decentralization
+      - Trust-Networks
+    objects: 5
+    yield_per_1k_words: 4.66
+    by_type:
+      claim-evidence: 2
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      resource: 1
+  - article: why-local-matters.md
+    words: 1752
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 5
+    yield_per_1k_words: 2.85
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+      forum: 1
+  - article: building-in-public.md
+    words: 248
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 16.13
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      signal: 1
+  - article: building-internal-capacity.md
+    words: 229
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 17.47
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      signal: 1
+  - article: building-momentum.md
+    words: 1492
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Feedback-Loops
+      - Emergence
+      - Resilience
+    objects: 4
+    yield_per_1k_words: 2.68
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+      signal: 1
+  - article: communicating-stakeholders.md
+    words: 543
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 7.37
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+  - article: coordination-transparency.md
+    words: 400
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 10
+    by_type:
+      concept-lineage: 2
+      encyclopedia-entry: 1
+      signal: 1
+  - article: creating-buying-earning.md
+    words: 664
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 6.02
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: daos-vs-traditional.md
+    words: 946
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Polycentric-Governance
+    objects: 4
+    yield_per_1k_words: 4.23
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: decentralization-resilience.md
+    words: 970
+    rich_frontmatter: true
+    curated_related: 3
+    systems_tags:
+      - Decentralization
+      - Resilience
+      - Emergence
+    objects: 4
+    yield_per_1k_words: 4.12
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+  - article: delegation-representation.md
+    words: 551
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 7.26
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+  - article: finding-support-mentorship.md
+    words: 237
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 16.88
+    by_type:
+      claim-evidence: 1
+      encyclopedia-entry: 1
+      resource: 2
+  - article: identity-verification.md
+    words: 694
+    rich_frontmatter: true
+    curated_related: 3
+    systems_tags:
+      - Trust-Networks
+      - Decentralization
+    objects: 4
+    yield_per_1k_words: 5.76
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 2
+      encyclopedia-entry: 1
+  - article: impact-certificates-hypercerts.md
+    words: 431
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 9.28
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      signal: 1
+  - article: is-dao-right.md
+    words: 1056
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Polycentric-Governance
+      - Decentralization
+      - Emergence
+    objects: 4
+    yield_per_1k_words: 3.79
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: onchain-attestations.md
+    words: 641
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Trust-Networks
+      - Decentralization
+      - Feedback-Loops
+    objects: 4
+    yield_per_1k_words: 6.24
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      public-use-boundary: 1
+  - article: social-tokens-creator.md
+    words: 217
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 18.43
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      signal: 1
+  - article: which-chain-right.md
+    words: 913
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Emergence
+    objects: 4
+    yield_per_1k_words: 4.38
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: why-regens-interested.md
+    words: 1386
+    rich_frontmatter: false
+    curated_related: 0
+    systems_tags: []
+    objects: 4
+    yield_per_1k_words: 2.89
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      resource: 1
+  - article: donor-stewardship.md
+    words: 328
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 3
+    yield_per_1k_words: 9.15
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+  - article: is-web3-right.md
+    words: 259
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 3
+    yield_per_1k_words: 11.58
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+      signal: 1
+  - article: key-terms-a-z.md
+    words: 1525
+    rich_frontmatter: true
+    curated_related: 4
+    systems_tags:
+      - Decentralization
+      - Trust-Networks
+    objects: 3
+    yield_per_1k_words: 1.97
+    by_type:
+      concept-lineage: 2
+      encyclopedia-entry: 1
+  - article: proposal-writing.md
+    words: 263
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 3
+    yield_per_1k_words: 11.41
+    by_type:
+      claim-evidence: 1
+      concept-lineage: 1
+      encyclopedia-entry: 1
+  - article: finding-your-people.md
+    words: 299
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 2
+    yield_per_1k_words: 6.69
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1
+  - article: relates-to-existing-work.md
+    words: 376
+    rich_frontmatter: true
+    curated_related: 0
+    systems_tags: []
+    objects: 2
+    yield_per_1k_words: 5.32
+    by_type:
+      concept-lineage: 1
+      encyclopedia-entry: 1

@@ -44,6 +44,17 @@ Parked/exploratory items from the 2026-07-16 meetings. Active commitments live i
 
 ---
 
+## New items — 2026-07-19 reprocessing-validation gate
+
+Surfaced by the review-gate analysis ([`docs/reports/2026-07-19-reprocessing-validation.md`](reports/2026-07-19-reprocessing-validation.md)) comparing the framework-reprocessed KB (722 objects) vs the live 119-article build. Coverage is complete (0 dropped); faithfulness spot-check 11/12 faithful. These are the parked follow-ups.
+
+- **Reprocessed-content review gate is READY to run** — `candidate-integration` → the ~2–4 wk named-reviewer pass. Instruments live: [`docs/reviews/named-reviewer-checklist.md`](reviews/named-reviewer-checklist.md) + [`reviewer-tracking-sheet.csv`](reviews/reviewer-tracking-sheet.csv) (119 pages, 3 priority tiers) + [`faithfulness-spot-check-protocol.md`](reviews/faithfulness-spot-check-protocol.md). Blocks the PR to `main`. **Reviewer lead + page assignments deferred to the next call** (decision 2026-07-21; `needs-owner`).
+- **Reference-normalization / alias layer** — `needs-implementation-test`, `high-risk` (blocks the graph view) → route to `toolkit-framework`. Only **60.4%** of `related_*` references resolve exactly; ~85% resolve with an alias layer; **95 refs (14.6%) are truly dangling** (target never promoted, e.g. `koi-net`, `hypercerts`, `SKOS`). The graph view is not build-ready until refs are normalized and dangling targets promoted-or-dropped. Evidence: `data/validation/graph-diff.yaml → reference_integrity`.
+- **`claim` + `uncertainty` must render together** — `needs-implementation-test` → framework + site. Figures live in `claim` with the citation caveat quarantined in a separate `uncertainty`/`evidence` field; any view rendering `claim` alone republishes uncited numbers as fact. Add a rendering/promotion rule that keeps them paired.
+- **Controlled-vocab type-slot sanity** — `needs-review` → `toolkit-framework`. The source-system/resource typer misfits some entities (e.g. Greenpill Network → `blog`, actually a network/community). Add a check that sanity-tests each `type` slot against the object's own description.
+
+---
+
 ## Items from master doc §16.2 "Current known gaps"
 
 Master doc enumerates these explicitly. Treat as the team's known list, with overlay-side annotations.

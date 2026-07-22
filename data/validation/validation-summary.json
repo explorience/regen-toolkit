@@ -1,0 +1,200 @@
+{
+  "generated_from": "scripts/validation/reprocessing-coverage.mjs",
+  "scope": "119 live articles -> data/kb (722 typed objects); all raw, review-gated",
+  "coverage": {
+    "articles": 119,
+    "objects": 722,
+    "dropped_articles": 0,
+    "orphan_objects": 0,
+    "objects_per_article_mean": 6.07,
+    "objects_per_article_min": 2,
+    "objects_per_article_max": 13,
+    "type_totals_by_family": {
+      "claim-evidence": 146,
+      "concept-lineage": 143,
+      "encyclopedia-entry": 116,
+      "public-use-boundary": 34,
+      "resource": 226,
+      "signal": 33,
+      "source-system": 21,
+      "track": 3
+    },
+    "thinned_count": 11,
+    "thinned": [
+      {
+        "article": "key-terms-a-z.md",
+        "objects": 3,
+        "words": 1525
+      },
+      {
+        "article": "conflict-resolution.md",
+        "objects": 5,
+        "words": 1902
+      },
+      {
+        "article": "building-momentum.md",
+        "objects": 4,
+        "words": 1492
+      },
+      {
+        "article": "human-review-boundaries.md",
+        "objects": 5,
+        "words": 1813
+      },
+      {
+        "article": "why-local-matters.md",
+        "objects": 5,
+        "words": 1752
+      },
+      {
+        "article": "why-regens-interested.md",
+        "objects": 4,
+        "words": 1386
+      },
+      {
+        "article": "is-community-ready.md",
+        "objects": 5,
+        "words": 1677
+      },
+      {
+        "article": "local-currency.md",
+        "objects": 6,
+        "words": 1937
+      },
+      {
+        "article": "multisig-setup.md",
+        "objects": 5,
+        "words": 1612
+      },
+      {
+        "article": "editorial-workflow.md",
+        "objects": 5,
+        "words": 1608
+      },
+      {
+        "article": "common-pitfalls.md",
+        "objects": 5,
+        "words": 1601
+      }
+    ]
+  },
+  "graph": {
+    "old_curated_edges": 113,
+    "old_facet_edges": 610,
+    "old_union": 666,
+    "old_articles_with_related": 41,
+    "new_article_pairs": 161,
+    "new_distinct_concepts": 191,
+    "new_distinct_resources": 183,
+    "new_typed_ref_edges": 656,
+    "emergent_pairs": 139,
+    "overlap_pairs": 22,
+    "emergent_samples": [
+      {
+        "pair": "ai-community-tools.md <> archive-compost.md",
+        "via_concepts": [],
+        "via_resources": [
+          "quartz"
+        ]
+      },
+      {
+        "pair": "ai-community-tools.md <> knowledge-gardens.md",
+        "via_concepts": [],
+        "via_resources": [
+          "quartz"
+        ]
+      },
+      {
+        "pair": "ai-community-tools.md <> knowledge-tools-directory.md",
+        "via_concepts": [],
+        "via_resources": [
+          "quartz"
+        ]
+      },
+      {
+        "pair": "archive-compost.md <> knowledge-gardens.md",
+        "via_concepts": [],
+        "via_resources": [
+          "quartz"
+        ]
+      },
+      {
+        "pair": "archive-compost.md <> knowledge-tools-directory.md",
+        "via_concepts": [],
+        "via_resources": [
+          "quartz"
+        ]
+      },
+      {
+        "pair": "building-founding-team.md <> building-trust.md",
+        "via_concepts": [],
+        "via_resources": [
+          "safe (multisig wallets)"
+        ]
+      }
+    ]
+  },
+  "reference_integrity": {
+    "refs_checked": 649,
+    "exact": 392,
+    "naming_drift": 162,
+    "dangling": 95,
+    "exact_pct": 60.4,
+    "alias_pct": 85.4,
+    "dangling_samples": [
+      {
+        "object": "federation-and-portability-building-a-commons-that-outlives-its-tools",
+        "type": "encyclopedia-entry",
+        "ref_resource": "koi-net",
+        "origin": "federation-portability.md"
+      },
+      {
+        "object": "the-funding-landscape",
+        "type": "encyclopedia-entry",
+        "ref_concept": "hypercerts",
+        "origin": "funding-landscape.md"
+      },
+      {
+        "object": "ontology-vs-taxonomy-which-one-does-your-commons-need",
+        "type": "encyclopedia-entry",
+        "ref_concept": "SKOS",
+        "origin": "ontology-vs-taxonomy.md"
+      },
+      {
+        "object": "ontology-vs-taxonomy-which-one-does-your-commons-need",
+        "type": "encyclopedia-entry",
+        "ref_resource": "SKOS (W3C standard)",
+        "origin": "ontology-vs-taxonomy.md"
+      },
+      {
+        "object": "ontology-vs-taxonomy-which-one-does-your-commons-need",
+        "type": "encyclopedia-entry",
+        "ref_resource": "Schema.org",
+        "origin": "ontology-vs-taxonomy.md"
+      },
+      {
+        "object": "ontology-vs-taxonomy-which-one-does-your-commons-need",
+        "type": "encyclopedia-entry",
+        "ref_resource": "Wikidata",
+        "origin": "ontology-vs-taxonomy.md"
+      },
+      {
+        "object": "source-systems-knowledge-that-outlives-turnover",
+        "type": "encyclopedia-entry",
+        "ref_resource": "TiddlyWiki",
+        "origin": "source-systems.md"
+      },
+      {
+        "object": "case-studies-how-nonprofits-are-using-web3",
+        "type": "encyclopedia-entry",
+        "ref_concept": "crypto-donations",
+        "origin": "case-studies-nonprofits.md"
+      }
+    ]
+  },
+  "review_tiers": {
+    "tier1_sensitivity": 43,
+    "tier2_claims": 67,
+    "tier3_standard": 9
+  }
+}

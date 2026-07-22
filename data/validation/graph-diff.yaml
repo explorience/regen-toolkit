@@ -1,0 +1,308 @@
+generated: reprocessing-coverage.mjs (read-only analysis)
+old_build:
+  model: Starlight articles; connectivity = curated `related:` frontmatter + shared `systems:` tag facet
+  articles: 119
+  articles_with_rich_frontmatter: 67
+  articles_with_curated_related: 41
+  articles_with_internal_md_links: 2
+  distinct_systems_tags: 12
+  curated_related_edges: 113
+  shared_systems_facet_edges: 610
+  total_old_edges_union: 666
+new_build:
+  model: >-
+    typed objects; connectivity = shared related_concepts / related_resources across all 119
+    articles
+  typed_reference_edges_object_level: 656
+  distinct_concepts_referenced: 191
+  distinct_resources_referenced: 183
+  article_pairs_connected_via_shared_concept: 49
+  article_pairs_connected_via_shared_resource: 123
+  article_pairs_connected_total: 161
+diff:
+  emergent_article_pairs: 139
+  note: >-
+    article pairs connected in the typed graph that had NO curated `related:` edge and no shared
+    `systems:` facet in the old build
+  old_edges: 666
+  new_edges: 161
+  overlap_edges: 22
+  connectivity_note: >-
+    the two graphs are different KINDS of edge (curated/faceted vs shared-concept); counts are not a
+    single ratio — see report
+emergent_samples:
+  - pair: ai-community-tools.md <> archive-compost.md
+    via_concepts: []
+    via_resources:
+      - quartz
+  - pair: ai-community-tools.md <> knowledge-gardens.md
+    via_concepts: []
+    via_resources:
+      - quartz
+  - pair: ai-community-tools.md <> knowledge-tools-directory.md
+    via_concepts: []
+    via_resources:
+      - quartz
+  - pair: archive-compost.md <> knowledge-gardens.md
+    via_concepts: []
+    via_resources:
+      - quartz
+  - pair: archive-compost.md <> knowledge-tools-directory.md
+    via_concepts: []
+    via_resources:
+      - quartz
+  - pair: building-founding-team.md <> building-trust.md
+    via_concepts: []
+    via_resources:
+      - safe (multisig wallets)
+  - pair: case-studies-nonprofits.md <> setting-up-receive-crypto.md
+    via_concepts: []
+    via_resources:
+      - the-giving-block
+  - pair: case-studies-nonprofits.md <> why-accept-crypto.md
+    via_concepts: []
+    via_resources:
+      - the-giving-block
+  - pair: centralized-vs-decentralized.md <> creating-buying-earning.md
+    via_concepts: []
+    via_resources:
+      - bankless academy
+  - pair: common-concerns.md <> what-is-blockchain.md
+    via_concepts:
+      - proof-of-work-vs-proof-of-stake
+    via_resources: []
+  - pair: common-pitfalls.md <> cooperative-commons.md
+    via_concepts: []
+    via_resources:
+      - greenpill network
+  - pair: common-pitfalls.md <> first-90-days.md
+    via_concepts:
+      - local-node
+    via_resources: []
+  - pair: common-pitfalls.md <> types-of-gatherings.md
+    via_concepts: []
+    via_resources:
+      - greenpill network
+  - pair: common-pitfalls.md <> what-is-dao.md
+    via_concepts: []
+    via_resources:
+      - greenpill network
+  - pair: common-pitfalls.md <> what-is-local-node.md
+    via_concepts:
+      - local-node
+    via_resources: []
+  - pair: common-pitfalls.md <> what-is-refi.md
+    via_concepts: []
+    via_resources:
+      - greenpill network
+  - pair: communicating-stakeholders.md <> compliance-legal.md
+    via_concepts: []
+    via_resources:
+      - infinite giving
+  - pair: communicating-stakeholders.md <> crypto-donation-platforms.md
+    via_concepts:
+      - crypto-donation-adoption-communication
+    via_resources:
+      - infinite giving
+  - pair: compliance-legal.md <> crypto-donation-platforms.md
+    via_concepts: []
+    via_resources:
+      - the giving block
+      - infinite giving
+  - pair: conflict-resolution.md <> coordination-transparency.md
+    via_concepts: []
+    via_resources:
+      - snapshot
+  - pair: conflict-resolution.md <> dao-tooling.md
+    via_concepts: []
+    via_resources:
+      - snapshot
+  - pair: conflict-resolution.md <> governance-mechanism-design.md
+    via_concepts:
+      - conviction-voting
+    via_resources: []
+  - pair: conflict-resolution.md <> local-nodes-and-daos.md
+    via_concepts: []
+    via_resources:
+      - snapshot
+  - pair: conflict-resolution.md <> tokens-coordination-tools.md
+    via_concepts: []
+    via_resources:
+      - snapshot
+  - pair: conflict-resolution.md <> what-is-dao.md
+    via_concepts: []
+    via_resources:
+      - snapshot
+reference_integrity:
+  refs_checked: 649
+  exact_resolved: 392
+  naming_drift_resolvable: 162
+  truly_dangling: 95
+  exact_resolve_rate_pct: 60.4
+  resolvable_with_alias_pct: 85.4
+  note: >-
+    refs use bare concept slugs while objects are keyed with disambiguating suffixes (naming drift);
+    truly_dangling refs point at no object at all. Both break graph-build without an
+    alias/normalization layer.
+  naming_drift_samples:
+    - object: the-gatherings-pattern
+      type: encyclopedia-entry
+      ref_concept: purpose-people-place-process-practice
+      origin: gatherings-pattern.md
+    - object: federation-and-portability-building-a-commons-that-outlives-its-tools
+      type: encyclopedia-entry
+      ref_concept: portability
+      origin: federation-portability.md
+    - object: federation-and-portability-building-a-commons-that-outlives-its-tools
+      type: encyclopedia-entry
+      ref_concept: federation
+      origin: federation-portability.md
+    - object: federation-and-portability-building-a-commons-that-outlives-its-tools
+      type: encyclopedia-entry
+      ref_concept: reference-identifier-rid
+      origin: federation-portability.md
+    - object: gitcoin-grants-and-quadratic-funding
+      type: encyclopedia-entry
+      ref_concept: quadratic-funding-formula
+      origin: gitcoin-grants-qf.md
+    - object: common-crypto-scams-and-how-to-spot-them
+      type: encyclopedia-entry
+      ref_concept: phishing
+      origin: common-scams.md
+    - object: common-crypto-scams-and-how-to-spot-them
+      type: encyclopedia-entry
+      ref_concept: pig-butchering-scam
+      origin: common-scams.md
+    - object: ontology-vs-taxonomy-which-one-does-your-commons-need
+      type: encyclopedia-entry
+      ref_concept: taxonomy
+      origin: ontology-vs-taxonomy.md
+    - object: ontology-vs-taxonomy-which-one-does-your-commons-need
+      type: encyclopedia-entry
+      ref_concept: ontology
+      origin: ontology-vs-taxonomy.md
+    - object: ontology-vs-taxonomy-which-one-does-your-commons-need
+      type: encyclopedia-entry
+      ref_resource: Protégé (ontology editor)
+      origin: ontology-vs-taxonomy.md
+    - object: source-systems-knowledge-that-outlives-turnover
+      type: encyclopedia-entry
+      ref_concept: provenance
+      origin: source-systems.md
+    - object: case-studies-how-nonprofits-are-using-web3
+      type: encyclopedia-entry
+      ref_concept: blockchain-transparency
+      origin: case-studies-nonprofits.md
+    - object: what-is-a-blockchain
+      type: encyclopedia-entry
+      ref_resource: Walmart / Hyperledger Fabric case study
+      origin: what-is-blockchain.md
+    - object: your-first-90-days-running-a-local-node
+      type: encyclopedia-entry
+      ref_concept: local-node
+      origin: first-90-days.md
+    - object: review-and-maturity-labelling-what-your-knowledge-can-be-trusted-to-do
+      type: encyclopedia-entry
+      ref_concept: review-maturity-ladder
+      origin: review-and-maturity.md
+    - object: review-and-maturity-labelling-what-your-knowledge-can-be-trusted-to-do
+      type: encyclopedia-entry
+      ref_resource: Diátaxis
+      origin: review-and-maturity.md
+    - object: wallet-comparison-guide
+      type: encyclopedia-entry
+      ref_concept: self-custody-wallets
+      origin: wallet-comparison-guide.md
+    - object: types-of-gatherings-for-local-nodes
+      type: encyclopedia-entry
+      ref_resource: Canòdrom
+      origin: types-of-gatherings.md
+    - object: what-is-ethereum
+      type: encyclopedia-entry
+      ref_concept: dao
+      origin: what-is-ethereum.md
+    - object: what-is-ethereum
+      type: encyclopedia-entry
+      ref_resource: ethereum-name-service
+      origin: what-is-ethereum.md
+  truly_dangling_samples:
+    - object: federation-and-portability-building-a-commons-that-outlives-its-tools
+      type: encyclopedia-entry
+      ref_resource: koi-net
+      origin: federation-portability.md
+    - object: the-funding-landscape
+      type: encyclopedia-entry
+      ref_concept: hypercerts
+      origin: funding-landscape.md
+    - object: ontology-vs-taxonomy-which-one-does-your-commons-need
+      type: encyclopedia-entry
+      ref_concept: SKOS
+      origin: ontology-vs-taxonomy.md
+    - object: ontology-vs-taxonomy-which-one-does-your-commons-need
+      type: encyclopedia-entry
+      ref_resource: SKOS (W3C standard)
+      origin: ontology-vs-taxonomy.md
+    - object: ontology-vs-taxonomy-which-one-does-your-commons-need
+      type: encyclopedia-entry
+      ref_resource: Schema.org
+      origin: ontology-vs-taxonomy.md
+    - object: ontology-vs-taxonomy-which-one-does-your-commons-need
+      type: encyclopedia-entry
+      ref_resource: Wikidata
+      origin: ontology-vs-taxonomy.md
+    - object: source-systems-knowledge-that-outlives-turnover
+      type: encyclopedia-entry
+      ref_resource: TiddlyWiki
+      origin: source-systems.md
+    - object: case-studies-how-nonprofits-are-using-web3
+      type: encyclopedia-entry
+      ref_concept: crypto-donations
+      origin: case-studies-nonprofits.md
+    - object: review-and-maturity-labelling-what-your-knowledge-can-be-trusted-to-do
+      type: encyclopedia-entry
+      ref_concept: silent-drift
+      origin: review-and-maturity.md
+    - object: review-and-maturity-labelling-what-your-knowledge-can-be-trusted-to-do
+      type: encyclopedia-entry
+      ref_resource: 'Wikipedia: Content assessment'
+      origin: review-and-maturity.md
+    - object: review-and-maturity-labelling-what-your-knowledge-can-be-trusted-to-do
+      type: encyclopedia-entry
+      ref_resource: 'Kubernetes: Feature Gates'
+      origin: review-and-maturity.md
+    - object: the-decentralization-spectrum
+      type: encyclopedia-entry
+      ref_concept: polycentric-governance
+      origin: decentralization-spectrum.md
+    - object: wallet-comparison-guide
+      type: encyclopedia-entry
+      ref_concept: seed-phrase-security
+      origin: wallet-comparison-guide.md
+    - object: types-of-gatherings-for-local-nodes
+      type: encyclopedia-entry
+      ref_concept: gathering-format-selection
+      origin: types-of-gatherings.md
+    - object: types-of-gatherings-for-local-nodes
+      type: encyclopedia-entry
+      ref_concept: consent-based-decision-making
+      origin: types-of-gatherings.md
+    - object: types-of-gatherings-for-local-nodes
+      type: encyclopedia-entry
+      ref_concept: node-burnout-prevention
+      origin: types-of-gatherings.md
+    - object: types-of-gatherings-for-local-nodes
+      type: encyclopedia-entry
+      ref_resource: The World Café
+      origin: types-of-gatherings.md
+    - object: types-of-gatherings-for-local-nodes
+      type: encyclopedia-entry
+      ref_resource: Open Space Technology
+      origin: types-of-gatherings.md
+    - object: what-is-dmrv-and-why-should-you-care
+      type: encyclopedia-entry
+      ref_resource: ODK
+      origin: dmrv.md
+    - object: common-pitfalls-when-starting-a-local-node
+      type: encyclopedia-entry
+      ref_concept: dao-voter-apathy
+      origin: common-pitfalls.md
