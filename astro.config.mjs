@@ -49,7 +49,7 @@ export default defineConfig({
         {
           label: 'Reprocessed content (dev · raw, under review)',
           collapsed: true,
-          items: [{ label: 'Browse the reprocessed KB', link: '/kb/' }],
+          items: [{ label: 'Browse the reprocessed KB', link: '/kb/' }, { label: 'Graph view', link: '/kb/graph/' }],
         },
         ...journeySidebar,
       ],
