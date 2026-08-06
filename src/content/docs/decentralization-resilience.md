@@ -100,7 +100,7 @@ Based on these insights, regenerative communities can embrace several core princ
 - Ethereum.org, What is Decentralization?
   https://ethereum.org/en/web3/
 - Greenpill Local, Community Infrastructure and Regeneration
-  https://greenpill.live/
+  https://greenpill.network/
 - RadicalxChange, Quadratic Funding and Localist Governance
   https://radicalxchange.org/
 - Crisis Preparedness and Response, Community Resilience Resources

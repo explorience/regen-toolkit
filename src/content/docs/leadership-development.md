@@ -296,7 +296,7 @@ Do this twice a year. Your community becomes less fragile every time.
 - Heifetz, Ronald, and Marty Linsky. *Leadership on the Line: Staying Alive Through the Dangers of Leading*. Harvard Business Review Press, 2002.
 - Stone, Douglas, and Bruce Patton. *Difficult Conversations: How to Discuss What Matters Most*. Penguin, 2000.
 - ICA:UK. "Facilitative Leadership." ica-uk.co.uk
-- Greenpill Local. "Distributed Leadership in Practice." greenpill.live
+- Greenpill Local. "Distributed Leadership in Practice." https://greenpill.network
 
 ---
 

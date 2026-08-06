@@ -310,10 +310,10 @@ Write for someone who has never been to your community before. What is obvious t
 ## References
 
 - Greenpill Local, Community Building and Knowledge Management
-  https://greenpill.live/
+  https://greenpill.network/
 - Notion, Getting Started with Documentation
   https://www.notion.so/
 - GitBook, Documentation Best Practices
   https://www.gitbook.com/
 - Ethereum Foundation, DAO Governance Documentation
-  https://ethereum.org/en/web3/social-networks/#daos
+  https://ethereum.org/en/dao/

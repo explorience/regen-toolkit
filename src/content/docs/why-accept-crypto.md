@@ -115,6 +115,6 @@ Start small and learn as you go:
 - Endaoment nonprofit crypto donation processor: https://endaoment.org
 - Every.org free crypto donation option: https://every.org/crypto
 - Givepact crypto giving platform: https://givepact.com
-- Gitcoin Grants quadratic funding rounds: https://gitcoin.co/grants
+- Gitcoin Grants quadratic funding rounds: https://grants.gitcoin.co
 - Fidelity Charitable on crypto donations (tax guidance): https://www.fidelitycharitable.org
 - IRS guidance on cryptocurrency donations: https://www.irs.gov/pub/irs-drop/n-14-21.pdf

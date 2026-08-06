@@ -37,7 +37,7 @@ Tokens are the part most relevant to community work, because they behave like th
 
 The honest answer to "why should I care?": you almost certainly don't *need* crypto, and be suspicious of anyone who says you do. But a few real projects show where it genuinely helps the kind of work you do.
 
-**Local currencies that survive a cash drought.** Grassroots Economics in Kenya runs the **Sarafu Network**, a community currency that lets neighbours trade goods and labour when national cash is scarce. As of early 2026 it reports supporting roughly 26,000 people across some 290 communities, and it now runs on a low-energy blockchain called Celo. It's a digital version of the mutual credit that's powered communities for centuries.
+**Local currencies that survive a cash drought.** Grassroots Economics in Kenya runs the **Sarafu Network**, a community currency that lets neighbours trade goods and labour when national cash is scarce. It reports supporting more than 26,600 people across 290+ communities, and it now runs on a low-energy blockchain called Celo. It's a digital version of the mutual credit that's powered communities for centuries.
 
 **Paying growers directly, without the middle layers.** **Regen Network** lets land stewards register regenerative projects and issue ecological credits for measured outcomes like soil carbon, then sell them to buyers. It connects the people doing the work to the people funding it, instead of routing through several layers of brokers who each take a cut.
 
@@ -47,7 +47,7 @@ The honest answer to "why should I care?": you almost certainly don't *need* cry
 
 ## Addressing the Fears Head-On
 
-**"Isn't this terrible for the planet?"** It depends entirely on *which* blockchain. Bitcoin still uses **proof of work**, a system that secures the network by burning electricity, and it consumes roughly as much power each year as a small country like Norway. But in 2022 Ethereum switched to **proof of stake**, which secures the network without the energy race, and cut its electricity use by about 99.95% overnight. Most newer chains work this way, including Celo, the one the projects above use. "Crypto wrecks the climate" was largely a Bitcoin story. Judge each project by the chain it runs on.
+**"Isn't this terrible for the planet?"** It depends entirely on *which* blockchain. Bitcoin still uses **proof of work**, a system that secures the network by burning electricity. The Cambridge Centre for Alternative Finance put its consumption at about 138 terawatt-hours a year in its April 2025 study, roughly 0.5% of global electricity use, or about what a country the size of Norway gets through. But in 2022 Ethereum switched to **proof of stake**, which secures the network without the energy race, and cut its electricity use by about 99.95% overnight. Most newer chains work this way, including Celo, the one the projects above use. "Crypto wrecks the climate" was largely a Bitcoin story. Judge each project by the chain it runs on.
 
 **"Won't I get scammed or look foolish?"** Scams are real, and healthy caution is exactly the right instinct. The rule that protects you is simple: a legitimate project never pressures you, never promises guaranteed returns, and never needs your secret key or recovery phrase. Anyone who asks for those is robbing you. You can learn how all of this works without ever spending a penny.
 
@@ -65,7 +65,8 @@ The honest answer to "why should I care?": you almost certainly don't *need* cry
 
 - [Kaspersky: What Is Cryptocurrency?](https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency): plain definition of cryptocurrency, cryptography, and how digital money differs from cash.
 - [Ethereum.org: The Merge](https://ethereum.org/roadmap/merge/): the official account of Ethereum's 2022 switch to proof of stake and the ~99.95% energy reduction.
-- [Cambridge Bitcoin Electricity Consumption Index](https://ccaf.io/cbnsi/cbeci/comparisons): independent estimates of Bitcoin's energy use, with country comparisons.
+- [Cambridge Bitcoin Electricity Consumption Index](https://ccaf.io/cbnsi/cbeci/comparisons): independent estimates of Bitcoin's energy use, with country comparisons. The live index moves with the network's hashrate, so expect it to differ from the dated study figure above.
+- [Cambridge study: sustainable energy rising in Bitcoin mining](https://www.jbs.cam.ac.uk/2025/cambridge-study-sustainable-energy-rising-in-bitcoin-mining/): the April 2025 Digital Mining Industry Report. Source of the 138 TWh and 0.5%-of-global figures, and of the finding that 52.4% of mining now runs on sustainable sources.
 - [Grassroots Economics: Sarafu Network](https://www.grassrootseconomics.org/sarafu-network): the Kenyan community-currency project, its scale, and its move onto a low-energy blockchain.
 - [Regen Network](https://www.regen.network/): ecological credits and a marketplace that connects land stewards to funders.
 - [Glo Dollar: How It Works](https://www.glodollar.org/articles/how-glo-dollar-works): a nonprofit stablecoin that donates its reserve interest to causes its holders choose.
