@@ -119,7 +119,7 @@ Here are real possibilities for regenerative communities:
 - Ethereum.org, Smart Contracts
   https://ethereum.org/en/developers/docs/smart-contracts/
 - Ethereum.org, DAOs
-  https://ethereum.org/en/web3/social-networks/#daos
+  https://ethereum.org/en/dao/
 - MetaMask, Getting Started with Ethereum
   https://metamask.io/
 - Ethereum Name Service

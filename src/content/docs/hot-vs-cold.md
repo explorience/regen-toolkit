@@ -119,4 +119,4 @@ Audit your current crypto setup, even if you only hold a small amount:
 - Ledger hardware wallets: https://shop.ledger.com
 - Trezor hardware wallets: https://trezor.io
 - Safe (formerly Gnosis Safe) multi-signature wallet: https://safe.global
-- Cryptocurrency Security Standards (for deeper security practices): https://cryptocurrencysecuritystandard.org
+- Cryptocurrency Security Standards (for deeper security practices): https://cryptoconsortium.org/standards/CCSS

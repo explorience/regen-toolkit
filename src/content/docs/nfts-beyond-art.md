@@ -147,5 +147,5 @@ If an NFT-based version of that record would solve a real problem for your commu
 - Axie Infinity: https://axieinfinity.com
 - Decentraland: https://decentraland.org
 - IBM Food Trust: https://www.ibm.com/blockchain/solutions/food-trust
-- Kings of Leon NFT album: https://kingsonleonxyz
-- Bankless, NFT utility explainer: https://newsletter.bankless.com
+- Kings of Leon, *When You See Yourself*, the first album released as an NFT: https://en.wikipedia.org/wiki/When_You_See_Yourself
+- Bankless, NFT utility explainer: https://www.bankless.com/read

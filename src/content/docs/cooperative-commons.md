@@ -130,9 +130,10 @@ Explore how cooperative economics already shows up in your community:
 ## References
 
 - Mondragon Worker Cooperative Federation: https://www.mondragon-corporation.com/en
-- Ostrom's Eight Principles for Governing Commons: https://www.environmentalscience.org/ostrom-principles-commons
-- Gitcoin Grants (quadratic funding examples): https://gitcoin.co/grants
+- Ostrom's Eight Principles for Governing Commons: https://www.onthecommons.org/magazine/elinor-ostroms-8-principles-managing-commmons/
+- Gitcoin Grants (quadratic funding examples): https://grants.gitcoin.co
 - Greenpill Network: https://greenpill.network
-- Kenya Coffee Cooperatives overview: https://www.coffeevboardkenya.co.ke
+- Coffee Directorate, Agriculture and Food Authority of Kenya (the body that now oversees the coffee cooperatives): https://www.afa.go.ke
 - International Cooperative Alliance: https://www.ica.coop/en
-- Community Currencies in Practice (global examples): https://communitycurrencies.net
+- International Journal of Community Currency Research (peer-reviewed studies of community currencies worldwide): https://ijccr.net
+- Complementary Currency Resource Center (global directory and software): https://complementarycurrency.org

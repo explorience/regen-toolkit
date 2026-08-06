@@ -144,4 +144,4 @@ The technology is still evolving, and there are legitimate concerns about volati
 - Ledger Academy for crypto education: ledger.com/academy
 - Carbonmark carbon credit platform: carbonmark.com
 - Puro.earth and carbon removal: puro.earth
-- KlimaDAO and carbon markets: klimaDAO.com
+- KlimaDAO and carbon markets: https://klimadao.finance

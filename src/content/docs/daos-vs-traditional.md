@@ -65,7 +65,7 @@ DAOs flip the script. Instead of centralized control, decision-making is distrib
 
 Think of it like a cooperative where everyone who participates can own a share. When you acquire a DAO's token, you gain a voice in how it operates. Major decisions, how to spend funds, what projects to pursue, are put to a vote. Anyone with a token can participate.
 
-As of 2022, over 215 DAOs collectively managed around $9.5 billion with approximately 500,000 active members. They're building protocols, funding public goods, and experimenting with new forms of coordination.
+Thousands of DAOs now operate across the major chains, collectively holding treasuries in the tens of billions of dollars. They're building protocols, funding public goods, and experimenting with new forms of coordination. The headline totals move fast and the trackers that publish them come and go, so treat any specific figure you read as a snapshot rather than a fixed fact, and check its date.
 
 ---
 

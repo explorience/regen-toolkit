@@ -104,7 +104,7 @@ Visit Snapshot (snapshot.org) and look at a few active proposals from a DAO that
 - SuperBenefit Knowledge Garden, Anticapture Framework: https://knowledge.superbenefit.org
 - MakerDAO Governance Portal: https://makerdao.com
 - Gitcoin, Quadratic Funding: https://gitcoin.co
-- KlimaDAO: https://klima DAO.com
+- KlimaDAO: https://klimadao.finance
 - Colony, Reputation-Based Governance: https://colony.io
 - Tally, On-Chain Governance: https://tally.xyz
 - Snapshot, Off-Chain Voting: https://snapshot.org
