@@ -6,7 +6,7 @@ _Skills define how tools work in general. This file captures the toolkit's speci
 
 ## Repositories
 
-- **This repo:** github.com/explorience/regen-toolkit
+- **This repo:** github.com/regen-coordination/regen-toolkit
 - **Upstream framework:** github.com/regen-coordination/org-os-template
 - **Peer instance:** github.com/regen-coordination/regen-coordination-os
 

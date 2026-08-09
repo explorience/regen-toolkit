@@ -310,7 +310,7 @@ The toolkit is a project node, not a hub — coordination flows through `regen-c
 ## 12. Integration Points
 
 - **Hosting:** Vercel (live site auto-deploys from `main`)
-- **Repository:** github.com/explorience/regen-toolkit
+- **Repository:** github.com/regen-coordination/regen-toolkit
 - **Site stack:** Astro 6 + Starlight + Pagefind
 - **Agent runtimes:** Claude Code (primary)
 - **External skill collections:** superpowers, karpathy-skills (git submodules; see `.agents/skills/`)

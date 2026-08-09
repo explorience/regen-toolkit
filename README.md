@@ -66,7 +66,7 @@ scripts/                   # Both site pipeline scripts and org-os scripts
 **Cloning:** the org-os overlay lives on the `feature/org-os-overlay` branch (operating directly from the branch rather than via a merged PR). External skills are git submodules, so clone with `--recurse-submodules`:
 
 ```bash
-git clone --recurse-submodules -b feature/org-os-overlay https://github.com/explorience/regen-toolkit.git
+git clone --recurse-submodules -b feature/org-os-overlay https://github.com/regen-coordination/regen-toolkit.git
 # or, if already cloned:
 git checkout feature/org-os-overlay
 git submodule update --init --recursive

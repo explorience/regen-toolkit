@@ -11,7 +11,7 @@ import * as fs from "fs";
 import * as path from "path";
 import matter from "gray-matter";
 
-const REPO = "explorience/regen-toolkit";
+const REPO = "regen-coordination/regen-toolkit";
 const CONTENT_DIR = path.resolve(__dirname, "../content");
 
 // ── Source code → name mapping (from content/sources/*.md frontmatter) ──

@@ -14,7 +14,7 @@
    - **Claude Code** (recommended to start — simplest): a terminal app + a desktop/web app. Install from `claude.com/code`. Sign in.
    - Or **Cursor** (a VS-Code-style editor with an agent panel), or OpenCode — same idea.
 2. **The repo on your machine.** Two options:
-   - Clone the toolkit: `git clone https://github.com/explorience/regen-toolkit` then `cd regen-toolkit && git checkout regen-toolkit-os`. **`regen-toolkit-os` is the dev branch — always work on it, not `main`.**
+   - Clone the toolkit: `git clone https://github.com/regen-coordination/regen-toolkit` then `cd regen-toolkit && git checkout regen-toolkit-os`. **`regen-toolkit-os` is the dev branch — always work on it, not `main`.**
    - Or start from the portable framework only: `npx degit luizfernandosg/toolkit-framework && cd toolkit-framework && npm install`.
 3. **Node ≥ 22** (Claude Code will tell you if it's missing; `node -v` to check).
 4. **Install dependencies** (once, from the repo root): `npm install` — then `npm install` again inside `packages/toolkit-framework`. The first makes the site + `/initialize` run; the second makes the machine (the `ingest`/`review` CLI + its tests) run.
@@ -90,7 +90,7 @@ handful, and get a feel for the loop. We'll do the first one together Thursday.
 
 The same three steps onboard anyone — Heenal, a reviewer, a new steward. Nothing here is specific to one person:
 
-1. **Get the repo on the dev branch.** `git clone https://github.com/explorience/regen-toolkit && cd regen-toolkit && git checkout regen-toolkit-os`, then the two `npm install`s above. (If you were handed access to a different org's copy after the repo migrates, the branch name is the same.)
+1. **Get the repo on the dev branch.** `git clone https://github.com/regen-coordination/regen-toolkit && cd regen-toolkit && git checkout regen-toolkit-os`, then the two `npm install`s above. (If you were handed access to a different org's copy after the repo migrates, the branch name is the same.)
 2. **Open it in any coding agent and type `/initialize`.** The instructions live in the files (`CLAUDE.md`, `AGENTS.md`, `.claude/commands/`, the `skills/`), so the agent — Claude Code, Cursor, OpenCode — already knows how to run the machine. No per-person setup.
 3. **Pick a lane and work it through the same gate.** Whatever you contribute — new sources to ingest, review-queue judgments, content edits — is born `raw`, keeps its provenance, and needs a *named human* (you) to promote it. Editorial and curation work is exactly "run the review queue with me."
 

@@ -10,7 +10,7 @@ contributors:
   - did:refi-bcn:matt
   - did:refi-bcn:brandon
 startDate: 2026-02-20
-repo: https://github.com/explorience/regen-toolkit
+repo: https://github.com/regen-coordination/regen-toolkit
 site: https://regen-toolkit-site.vercel.app
 charmverse: https://app.charmverse.io/greenpill-writers-guild/tools-for-regeneration-project-plan-6070706289406744
 master_doc: docs/projects/regen-toolkit/Web3 Toolkit.md
@@ -18,7 +18,7 @@ master_doc: docs/projects/regen-toolkit/Web3 Toolkit.md
 
 # Regen Web3 Toolkit
 
-**Status**: Develop · **Lead**: Luiz Fernando · **Repo**: [explorience/regen-toolkit](https://github.com/explorience/regen-toolkit) · **Site**: [regen-toolkit-site.vercel.app](https://regen-toolkit-site.vercel.app)
+**Status**: Develop · **Lead**: Luiz Fernando · **Repo**: [regen-coordination/regen-toolkit](https://github.com/regen-coordination/regen-toolkit) · **Site**: [regen-toolkit-site.vercel.app](https://regen-toolkit-site.vercel.app)
 
 ## Vision
 

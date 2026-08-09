@@ -120,7 +120,7 @@ pass. The review pass is the standing workflow from here on:
 1. **Jul 16 call** — walk the convergence live, shape the capital proposal, set Matty up to operate
    the agents ([call brief](briefings/2026-07-16-toolkit-call-brief.md)).
 2. **Consolidation** — `regen-toolkit-os` becomes the dev branch, `main` the prod branch; PR to
-   [`explorience/regen-toolkit`](https://github.com/explorience/regen-toolkit) `main`, then migration
+   [`regen-coordination/regen-toolkit`](https://github.com/regen-coordination/regen-toolkit) `main`, then migration
    to the Regen Coordination GitHub org. Raw `kb-handoff/` objects stay on dev until reviewed.
 3. **T4** — framework evolution from the crosswalk gaps (relationship records first).
 4. **T3b** — full Canonical_DB ingestion (~2,689 rows) once Matty green-lights family priority.

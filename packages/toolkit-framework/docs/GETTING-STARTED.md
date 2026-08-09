@@ -15,7 +15,7 @@ npm install            # installs js-yaml only
 ```
 
 (The public repo is a one-way publish of `packages/toolkit-framework` in the
-[regen-toolkit monorepo](https://github.com/explorience/regen-toolkit) — the
+[regen-toolkit monorepo](https://github.com/regen-coordination/regen-toolkit) — the
 dev home. Contribute there; consume here. `@regen-commons` npm scope reserved
 for a later registry release.)
 

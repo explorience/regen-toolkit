@@ -9,7 +9,7 @@ Write high-quality, non-hallucinated educational articles for the Regen Toolkit 
 
 ## When to Use
 
-Use this skill when writing or revising articles for `explorience/regen-toolkit` (GitHub repo with 248 placeholder markdown files across 3 tracks).
+Use this skill when writing or revising articles for `regen-coordination/regen-toolkit` (GitHub repo with 248 placeholder markdown files across 3 tracks).
 
 ## Pipeline Overview
 
@@ -347,7 +347,7 @@ content/1-foundations/1.1-why-web3/
 **Workflow:**
 1. Write final article to `{article-slug}.md`
 2. Write working docs to `working/` folder
-3. PR entire folder (article + working docs) to `github.com/explorience/regen-toolkit`
+3. PR entire folder (article + working docs) to `github.com/regen-coordination/regen-toolkit`
 
 Working docs stay in the repo - collaborators can see the process!
 

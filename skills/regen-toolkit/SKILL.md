@@ -10,7 +10,7 @@ Everything you need to contribute articles to the Regen Toolkit.
 ## Setup
 
 ```bash
-git clone https://github.com/explorience/regen-toolkit.git
+git clone https://github.com/regen-coordination/regen-toolkit.git
 cd regen-toolkit
 npm install
 git checkout -b content/{your-name}/{slug}
@@ -20,7 +20,7 @@ npm run dev  # preview at http://localhost:4321
 ## Finding What to Write
 
 ### From GitHub Issues
-Browse [open issues](https://github.com/explorience/regen-toolkit/issues) - each article has a file path and task checkboxes.
+Browse [open issues](https://github.com/regen-coordination/regen-toolkit/issues) - each article has a file path and task checkboxes.
 
 ### From Stub Articles
 ```bash

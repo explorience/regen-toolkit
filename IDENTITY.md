@@ -55,7 +55,7 @@ See [`docs/LAYERS.md`](docs/LAYERS.md) for current per-layer status, gaps, and c
 
 ## Contact
 
-- **GitHub:** github.com/explorience/regen-toolkit
+- **GitHub:** github.com/regen-coordination/regen-toolkit
 - **Live site:** https://regen-toolkit-site.vercel.app
 - **Master doc (canonical):** `docs/MASTER.md`
 - **Bi-weekly planning call:** Thursdays (see `packages/operations/meetings/`)

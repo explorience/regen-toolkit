@@ -15,7 +15,7 @@
 
 ```bash
 git clone --recurse-submodules -b feature/org-os-overlay \
-  https://github.com/explorience/regen-toolkit.git
+  https://github.com/regen-coordination/regen-toolkit.git
 cd regen-toolkit
 npm install
 ```

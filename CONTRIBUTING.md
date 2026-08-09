@@ -21,7 +21,7 @@ If you think something important is missing, open an issue describing:
 
 ### Write or improve articles
 If you want to write or substantially improve an article:
-1. Check the [open issues](https://github.com/explorience/regen-toolkit/issues) for existing topics
+1. Check the [open issues](https://github.com/regen-coordination/regen-toolkit/issues) for existing topics
 2. Comment on the issue to express interest
 3. Wait for a go-ahead from a maintainer
 4. Fork the repo, write your content, submit a PR

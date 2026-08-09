@@ -29,7 +29,7 @@ export default defineConfig({
       title: 'Regen Web3 Toolkit',
       description: 'A jargon-free field guide to using web3 for regeneration.',
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/explorience/regen-toolkit' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/regen-coordination/regen-toolkit' },
       ],
       customCss: ['./src/styles/starlight.css'],
       head: [
