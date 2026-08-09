@@ -1,0 +1,14 @@
+// Cloudflare Workers config — DEV instance (branch: regen-toolkit-os).
+// Adopted 2026-08-06 (engineering sync): Cloudflare replaces Netlify/Vercel for this setup.
+// Option B: two projects — `regen-toolkit-dev` (this branch) + `regen-toolkit` (main/prod,
+// configured dashboard-side by Rather; no config file committed to main).
+// Static-assets-only Worker: no server code, just the Astro build output.
+// Deploy: npm run build && npx wrangler deploy
+{
+  "name": "regen-toolkit-dev",
+  "compatibility_date": "2026-08-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

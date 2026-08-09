@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/explorience/regen-toolkit.git"
+    "url": "https://github.com/regen-coordination/regen-toolkit.git"
   },
   "scripts": {
     "dev": "astro dev",
@@ -26,7 +26,9 @@
     "compile:knowledge": "node scripts/compile-knowledge.mjs && node scripts/update-knowledge-index.mjs",
     "lint:knowledge": "node scripts/lint-knowledge.mjs",
     "knowledge": "npm run compile:knowledge && npm run lint:knowledge && npm run generate:kb-viz",
-    "deploy:pages": "node scripts/deploy-pages.mjs"
+    "deploy:pages": "node scripts/deploy-pages.mjs",
+    "deploy:cf": "node scripts/deploy-cloudflare.mjs",
+    "deploy:cf:prod": "node scripts/deploy-cloudflare.mjs prod"
   },
   "engines": {
     "npm": ">=10.9.2",
