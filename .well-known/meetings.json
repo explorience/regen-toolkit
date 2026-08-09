@@ -3,6 +3,152 @@
   "type": "MeetingRegistry",
   "meetings": [
     {
+      "id": "mtg-20260806-regen-toolkit-engineering-sync",
+      "title": "Regen Toolkit Engineering Sync — Linear, Cloudflare, Sliced Repo Merge + Schema Convergence",
+      "date": "2026-08-06",
+      "type": "sync",
+      "participants": [
+        "Afo",
+        "Matty",
+        "did:refi-bcn:luiz-fernando",
+        "Rathermercurial",
+        "Regis Chapman (Durgadas)"
+      ],
+      "duration_minutes": 87,
+      "recording_url": "https://drive.google.com/file/d/1wLtULgYLsNn4dU2CeMdU2nlqy2Bg0AFS/view",
+      "transcript_path": "packages/operations/meetings/260806 Regen Toolkit Engineering Sync.md",
+      "summary": "The sync where process infrastructure landed. Three adoptions in one call: Linear for project management (Afo leads — initiatives/projects/issues, two-week cycles aligned to the biweekly with the cycle starting the day after, exponential estimates, free plan = everyone admin, AI/GitHub integrations, Customers feature), Cloudflare Workers for hosting (Rather — branch previews + built-in CI/CD, needs org access, replaces the 07-16 Netlify dev-build ask), and a dedicated coordination group (Afo to create; stops the split across the top group and the Regen Coordination council group). Repo merge unblocked with four ordered slices (framework+schemas with tests → deterministic generators+validation → public-safe aggregate data + selected Astro surfaces → reviewed knowledge objects after the promotion gate), keeping internal org-os coordination material out of the production projection; Afo's amendment: stabilise dev and prod as mirrors first so contribution can start, org-os work stays on its own branch until then. Schema convergence resolved the Rather↔Regis tension: converge on integration points and pin versions with strict Zod/TypeScript schemas validated on send and receive, but write a distinct schema per object class rather than flattening (Regis's law-vs-oracle-vs-time-standard objection). Ingestion layer named the near-term gate (Matty's four-stage priority frame: functionalise the engine → improve existing knowledge → feed the engine + human review → tracks/deployment). Rather's probabilistic-interpretation problem: big standards docs yield a thousand interpretations across a thousand agents — ship a reference implementation in code instead. Afo: organise around roles/boundaries and identify Customers. Artizen: weight behind the BREAD fund this week (Luiz ~100k, Afo 50–100k), boosts fund cash prizes only and raise matching availability, project boosts near-worthless, spend late against the leaderboard; ~$164 (+10% ≈ $182) executed live from the safe plus a Solidarity Fund transaction. Post-close tail: Harmonica evolving into a deliberative runtime (CLI + MCP, deterministic over probabilistic — Rather paying for it), Bonfire as knowledge-graph memory requiring a rigid ontology loaded early or you get slot mess, local Apple Silicon inference for deterministic tasks. Identity resolved: Regis Chapman = Durgadas (listed as two people in the 07-16 note).",
+      "decisions": [
+        "Dedicated coordination group for the toolkit — Afo to create; consolidates the top group + the Regen Coordination council group",
+        "Repo merge in four ordered slices: framework+schemas (with existing tests) → deterministic generators+validation commands → public-safe aggregate data + selected Astro surfaces → reviewed knowledge objects only after the promotion gate; keep internal org-os coordination material out of the production projection",
+        "Stabilise dev and prod as mirrors first so outside contribution can start; heavier org-os work stays on its own branch until then (regen-toolkit-os = dev, main = prod re-confirmed)",
+        "Cloudflare Workers adopted for hosting — Rather sets it up once he has org access; branch previews + built-in CI/CD; replaces the need for Netlify/Vercel and supersedes the 07-16 Netlify dev-build ask to Hina",
+        "Linear adopted as the project-management tool — initiatives/projects/issues, two-week cycles starting the day after the biweekly, exponential estimates (nothing at 16 — break it down), free plan gives everyone admin, AI (Claude/Codex/GPT/Cursor) + GitHub integrations, templates/labels/documents/recurring issues/Customers; seeded from these call notes (Afo) + the GitHub issue import (Afo) + the regen-toolkit-os processed notes (Luiz)",
+        "Converge on common output/storage schemas and pin versions — strict Zod/TypeScript schemas validated on send and on receive — but write a distinct schema per object class to preserve custom properties; convergence is on the seams, not the shapes",
+        "The ingestion layer is the near-term gate — validated/credible sources filtered before human review so reviewers aren't overwhelmed; this is why the org-os work waits",
+        "Ship standards as a reference implementation in code (with skills + prompts), not as large documents — big docs create a probabilistic-interpretation problem across agents",
+        "Organise the project around clearly defined roles and boundaries, and identify Customers (who this is built for outside the close circle) — today's notes are the raw material",
+        "Modular, engine-agnostic agent components over one self-modifying harness; prefer hosted services (Harmonica, Bonfire cloud) over self-hosting",
+        "Artizen: put this week's weight behind the BREAD fund (Luiz ~100k, Afo 50-100k); boosts buy fund cash-prize ranking and raise matching availability, not project funding; project boosts are near-worthless; spend late against the leaderboard"
+      ],
+      "action_items": [
+        "Afo: create the dedicated coordination group; seed Linear from these notes + import the existing GitHub issues; set up Linear templates + labels; run a Claude Code + Linear + GitHub training session on the next call (plus a 1:1 with Regis early next week); review the integrity suite site; share the notes to the toolkit group",
+        "Rather: set up Cloudflare hosting (needs org access); draft + submit the Harmonica purchase proposal; collaborate with Regis on a standards reference implementation in code; open the org-os ↔ his-app collaboration with Luiz (DAO IP schemas, programmatic agent loading); share the business-modelling bot when shareable",
+        "Luiz: grant Rather org access; seed Linear from the regen-toolkit-os branch; host a dedicated org-os session on the call-after-next; build the knowledge-source → commons → orgs flow visualisation (Afo's ask; the whole-system map does not exist yet); put engine/reprocessing validation on Linear; confirm the Linear account email",
+        "Regis (Durgadas): write the standards→process document; get onboarded to GitHub collaboration (session with Afo early next week); beta-test Rather's business-modelling bot",
+        "Matty: feed the four-stage engineering priority frame into the Linear structure",
+        "Team: join the Linear workspace; apply this week's boosts to the BREAD fund, evaluating the leaderboard late in the drive"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "linear",
+        "cloudflare-workers",
+        "sliced-repo-merge",
+        "schema-convergence",
+        "ingestion-layer",
+        "integrity-suite",
+        "ore-craft-struck",
+        "harmonica",
+        "bonfire",
+        "artizen-boosts",
+        "agentic-architecture"
+      ]
+    },
+    {
+      "id": "mtg-20260716-regen-web3-toolkit-planning",
+      "title": "Regen Web3 Toolkit Planning Call — Repo Migration, Feed-the-Engine, CRAFT Layer + Artizen Funding",
+      "date": "2026-07-16",
+      "type": "planning",
+      "participants": [
+        "Matty",
+        "did:refi-bcn:luiz-fernando",
+        "Drew Simon",
+        "Monty Bryant",
+        "Trinity Morphy",
+        "Afo",
+        "Heenal",
+        "Rathermercurial",
+        "Caue \"Koi\" Mtomaz",
+        "Regis (Thetokenjedi/Civilmonkey — handle uncertain)",
+        "Durgadas"
+      ],
+      "duration_minutes": null,
+      "recording_url": "https://notes.granola.ai/t/89ffbc5c-18cf-4beb-9d74-686445b4dd87-00demib2",
+      "transcript_path": "packages/operations/meetings/260716 Regen Web3 Toolkit Planning Call.md",
+      "summary": "First biweekly after the framework build + dev pipeline (see same-day Matty 1-on-1). Through-line: the engine is built — now feed it. Two repo asks to Hina: migrate the repo to the Regen Coordination GitHub org + open a Netlify dev build for reviewing processed content. Content workflow ratified: feed raw data → RegenOS integration report (open tasks) → group review → PR to main → merge (regen-toolkit-os = dev, main = prod). Durgadas demoed a CRAFT-based evidentiary ingestion layer (six-layer/six-cohort 'prove it' counter-posture to RegenOS's 'trust all data, get it in'; modular/swappable) + the Temper UI widget (auto-summary mislabeled these 'Rathermercurial' — corrected). Rathermercurial will DM-fix the broken Astro content collections (v4→v7 foot guns) + jam on Geo Protocol with Luiz + Regis (Luiz to open a scoping doc, can start blank). Content legibility: developer-first as a useful filter now, subject-matter/complexity abstraction later; Trinity to create learn-and-teach content. GitHub Projects flagged as the task-management gap (set up post-migration; AI agents auto-create issues from reports). Funding: ~$2,400 unused in the Regen Coordination pool; consensus = hold Artizen boosts, wait for a 3-4x multiplier, then one coordinated push ($3k → $20k+); update existing project (lean) vs toolkit-specific — decide at next Regen Coordination sync; DM Monty for funds now.",
+      "decisions": [
+        "Two repo asks to Hina: migrate the repo to the Regen Coordination GitHub org + open a Netlify dev build to visualize processed content (branch structure confirmed: regen-toolkit-os = dev, main = prod)",
+        "Content workflow: feed raw data → RegenOS integration report with open tasks → share for group review → PR to main → merge",
+        "Feed-the-engine is the phase — stop tinkering with the engine; use concrete outputs as data points to improve it",
+        "CRAFT evidentiary ingestion layer (Durgadas) is a modular, swappable alternative to RegenOS's trust-all-data posture; ingestion ≠ storage makes the swap clean; + Temper UI widget offered for the sites",
+        "Geo Protocol is the next integration exploration — Luiz opens a scoping doc (can start blank); Rather + Regis collaborate",
+        "Content legibility: developer-first lens is the useful filter now; subject-matter filtering + complexity abstraction later; Trinity creates learn-and-teach content",
+        "GitHub Projects in the Regen Coordination repo post-migration as the task/timeline source of truth; AI agents auto-create/update issues from RegenOS reports",
+        "Funding: hold Artizen boosts, wait for a 3-4x multiplier, then one coordinated push (~$2,400 pool; $3k → $20k+ potential); likely update the existing Regen Coordination project — decide at next Regen Coordination sync; DM Monty for immediate needs"
+      ],
+      "action_items": [
+        "Luiz: share repo-migration details with Hina (Regen Coordination org + Netlify dev build); post the integration report to the group; open a Geo Protocol scoping doc; write a repo-access/agent-onboarding one-pager (+ GitHub tutorial links); drive the review→PR→merge checkpoint; set up GitHub Projects post-migration",
+        "Rathermercurial: DM Luiz + fix the broken Astro content collections (document v4→v7 foot guns) without disrupting current work; jam on Geo Protocol with Luiz + Regis; publish source-scoring sense-making as a possible sub-standard",
+        "Durgadas: share the CRAFT evidence/claims layer + Temper more formally (modular evidentiary ingestion swap-in); republish + share the four facilitation case studies + the community-tailored-playbooks framework",
+        "Trinity: create content to learn-and-teach simultaneously (bridge for less-technical contributors)",
+        "Monty: discuss toolkit funding strategy at the next Regen Coordination sync (update-existing vs toolkit-specific project; Artizen timing); DM contact for immediate funding needs",
+        "Team: create Artizen profiles (artizen.fund) + hold boosts for a coordinated high-multiplier push; help confirm which sources are marked as source systems"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "repo-migration-regen-coordination",
+        "dev-prod-pipeline",
+        "feed-the-engine",
+        "craft-evidence-layer",
+        "swappable-ingestion",
+        "temper-widget",
+        "geo-protocol",
+        "content-legibility",
+        "github-projects",
+        "artizen-funding"
+      ]
+    },
+    {
+      "id": "mtg-20260716-toolkit-worksession-matty",
+      "title": "Toolkit Work Session with Matty — Framework Build Done + Dev Pipeline Live",
+      "date": "2026-07-16",
+      "type": "work-session",
+      "participants": [
+        "Matty (Mattycompost)",
+        "did:refi-bcn:luiz-fernando"
+      ],
+      "duration_minutes": null,
+      "recording_url": "https://notes.granola.ai/t/1d7cf80f-3301-4270-bd78-3d9400e9cb6c-00demib2",
+      "transcript_path": "packages/operations/meetings/260716 Toolkit meeting with Matty.md",
+      "summary": "Morning 1-on-1 before the group biweekly. Framework package built from the master doc (living on regen-toolkit-os); all existing repo content + the recent handoff DB ingested (initial ~127-row slice of ~2,689; diff caught the eight-forms-of-capital gap + ontology alignment). Functional dev→prod pipeline live: regen-toolkit-os = dev/review, main = prod (auto-deploys to the live site on merge); same infra running in parallel for ReFi DAO + ReFi Barcelona (Julio + Andrea picking it up; Hermes agent live on the BCN Telegram with a CRM channel + a 'check later' auto-ingest channel). Feed-the-engine phase with provenance version-stamping + meeting-note ingestion as context. Plan: staging site to review framework-processed content side-by-side vs Hina's build (graph-view comparison, checklist + named-reviewer sign-off, ~2-4 weeks) → push live → forum post; skip the soft tap-on-shoulders stage → broader public share; privacy gate = verify the name-flagging/removal feature before going public. Network + standards surface: Greenpill NYC adopting, Bread Co-op knowledge-commons candidate (Brad call), Ron Teretsky overlap, Block Science integration, GeoBrowser exploration, DAOstar (Metagov) + CSIS + DAO IP5 + exit-to-community playbook + communityrule.info; ~69 source systems (ReFi DAO carbon-copy DB not yet integrated); Hermes opt-in ingestion (no scraping bots — manual curation) with Bonfire as an alternative; federated multi-commons + a local-node package concept. Regen Coordination positioning open (integrate into Regen Commons vs separate membership; contribution = structure a knowledge commons for Bread). Matty to self-educate on Zed + Obsidian + Claude/Codex/OpenCode, then tap Luiz for setup.",
+      "decisions": [
+        "Framework package built from the master doc (on regen-toolkit-os); all existing repo content + the handoff DB ingested (initial slice); the framework build is functionally done",
+        "Dev→prod pipeline live: regen-toolkit-os = dev/review, main = prod (auto-deploys to the live site on merge); same infra parallel for ReFi DAO + ReFi Barcelona",
+        "Feed-the-engine phase — iterate empirically (process → observe → adjust engine → re-run); provenance version-stamping is first-class; meeting notes ingested as planning context",
+        "Content-review → public-release path: staging site side-by-side vs Hina's build → checklist + named-reviewer sign-off (~2-4 weeks) → push live → forum post; skip the soft tap-on-shoulders stage; verify the name-flagging/removal feature as the privacy gate before public",
+        "Standards direction: adopt DAOstar (Metagov) baseline + CSIS (org analysis/operationalization) + DAO IP5 (financial accounting; impact-per-dollar)",
+        "Regen Coordination positioning open: integrate into Regen Commons vs keep a separate membership; a concrete contribution = structuring a knowledge commons for Bread Co-op"
+      ],
+      "action_items": [
+        "Luiz: set up the staging site; progress the repo transfer to the Regen Coordination org (with Hina); improve the Obsidian canvases + a one-page intro doc; verify the name-flagging/removal feature; connect with Ron Teretsky; schedule the Brad (Bread) call; confirm the ~69 source systems; integrate the ReFi DAO carbon-copy DB; review GeoBrowser; apply to join Metagov",
+        "Matty: self-educate on the dev setup (Zed + Obsidian confirmed; decide Claude vs Codex vs OpenCode) then tap Luiz for guidance over the finish line",
+        "Joint: define what a shareable initial version means (public-sharing checkpoint) on the group; advance the Regen Coordination positioning + Bread knowledge-commons contribution"
+      ],
+      "tags": [
+        "regen-toolkit",
+        "framework-build-complete",
+        "dev-prod-pipeline",
+        "handoff-db-ingested",
+        "provenance-stamping",
+        "public-release-path",
+        "name-flagging-privacy-gate",
+        "network-expansion",
+        "daostar-csis-dao-ip5",
+        "source-systems",
+        "local-node-package"
+      ]
+    },
+    {
       "id": "mtg-20260702-regen-web3-toolkit-planning",
       "title": "Regen Web3 Toolkit Planning Call — Framework-as-Package + First Ingestion Test Cases",
       "date": "2026-07-02",
