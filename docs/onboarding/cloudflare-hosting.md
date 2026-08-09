@@ -18,7 +18,35 @@ account (`luizfernandolfsg@gmail.com`).
 Why two projects instead of one project with branch previews: the dev branch builds ~3,900 pages of
 review surfaces (`/validation`, `/kb`, handoff pages) that must never auto-appear on prod.
 
-## Deploying manually (works today)
+## ✅ Build-on-push — live since 2026-08-09
+
+Both Workers are git-connected to `regen-coordination/regen-toolkit`. **Push and it deploys** —
+Netlify/Vercel parity, no manual step.
+
+| Worker | Production branch | Build command | Deploy command |
+|---|---|---|---|
+| `regen-toolkit` (prod) | `main` | `npm run build` | `npx wrangler deploy --name regen-toolkit --compatibility-date 2026-08-01 --assets ./dist` |
+| `regen-toolkit-dev` | `regen-toolkit-os` | `npm run build` | `npx wrangler deploy` (uses the committed `wrangler.jsonc`) |
+
+**Verified end-to-end 2026-08-09:** pushing `b719a949..a38d5d41` to `regen-toolkit-os` triggered a
+build that deployed on its own in ~2 min (version `c4b209fc`); `/`, `/kb/`, `/kb/graph/` and
+`/validation/` all 200, KB corpus intact at 3,780 typed objects.
+
+> **Gotcha if you're wiring another Worker:** the branch selector may only offer the repo's default
+> branch during the initial connect. Connect accepting `main`, then set the real branch afterwards
+> via **Settings → Build → Branch control → ✏️**.
+
+### One toggle still open
+
+`regen-toolkit` (prod) has **"Builds for non-production branches: Enabled"**. Every push to any
+non-`main` branch therefore also fires a redundant preview build on the *prod* Worker — dev already
+has its own project. **Recommend setting it to Disabled** on prod, and enabling PR previews on
+`regen-toolkit-dev` instead, since that's the review surface.
+
+## Manual deploys — the fallback
+
+Build-on-push covers normal work. These remain for deploying uncommitted local state (e.g. previewing
+before you commit) or if CI is down:
 
 ```bash
 npm run deploy:cf         # dev — builds this branch, deploys regen-toolkit-dev
@@ -27,37 +55,22 @@ npm run deploy:cf:prod    # prod — builds origin/main in a throwaway worktree,
 
 One-time per machine: `npx wrangler login`. The script checks Cloudflare's limits
 (20,000 files / 25 MiB per file) before uploading; unchanged assets are deduped, so re-deploys are
-fast.
-
-## ⚡ Build-on-push — the 5-minute dashboard step (not yet done)
-
-This is the piece that makes it Netlify-equivalent (auto-build on push + PR previews). It requires
-installing Cloudflare's GitHub App on the `regen-coordination` org — a browser step no CLI/API can
-do. Someone with **GitHub org admin** + access to the Cloudflare account:
-
-1. [Cloudflare dashboard](https://dash.cloudflare.com) → **Workers & Pages** → open **`regen-toolkit`**
-   → **Settings → Build** → **Connect** → authorize the *Cloudflare Workers & Pages* GitHub App for
-   `regen-coordination/regen-toolkit`.
-2. Configure: production branch **`main`** · build command **`npm run build`** · deploy command
-   **`npx wrangler deploy --name regen-toolkit --compatibility-date 2026-08-01 --assets ./dist`** ·
-   **disable** non-production branch builds (dev has its own project).
-3. Repeat for **`regen-toolkit-dev`**: production branch **`regen-toolkit-os`** · build command
-   **`npm run build`** · deploy command **`npx wrangler deploy`** (uses the committed
-   `wrangler.jsonc`) · enable PR preview builds here — this project is the review surface.
-4. Push a trivial commit to `regen-toolkit-os` and confirm a build fires.
-
-Once this is on, `deploy:cf*` scripts become optional fallbacks.
+fast. ⚠️ A manual deploy is overwritten by the next push-triggered build.
 
 ## Handover to Rather
+
+Build-on-push is done — what's left is ownership and the domain.
 
 - [ ] **GitHub org access** for Rather on `regen-coordination` (Luiz — the ★ blocker).
 - [ ] Decide the **Cloudflare account** of record: add Rather to Luiz's account (Manage Account →
       Members), or redeploy both Workers under a team account (cheap — two `wrangler deploy` runs;
-      URLs change unless a custom domain is attached first).
+      URLs change unless a custom domain is attached first, and the git connection must be
+      re-authorized under the new account).
 - [ ] **Custom domain on prod** — attach in the Worker's Settings → Domains & Routes. Also retires
       the "public surface is a Vercel preview URL" credibility exposure (Artizen `R7`).
 - [ ] After a domain lands, update `site:` in both branches' `astro.config.mjs`
       (canonicals/sitemaps still point at the old Vercel/GitHub-Pages domains).
+- [ ] Flip the prod non-production-branch-builds toggle (above).
 
 ## Watch-items
 
