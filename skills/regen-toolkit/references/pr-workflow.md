@@ -91,4 +91,4 @@ For multiple articles in one PR:
 1. Maintainer reviews article quality and style compliance
 2. May request changes (style, accuracy, frontmatter)
 3. Once approved, merged to `main`
-4. Vercel auto-deploys to production
+4. Cloudflare Workers auto-deploys to production

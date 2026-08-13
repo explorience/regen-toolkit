@@ -42,7 +42,7 @@ Full content creation guide: [docs/writing-system.md](docs/writing-system.md)
 All articles live in `src/content/docs/` as flat markdown files with YAML frontmatter. See any existing article for the frontmatter format.
 
 ### Frontmatter tags
-Every article should have structured tags. See the [Tag Explorer](https://regen-toolkit-site.vercel.app/tags/) for the current vocabulary:
+Every article should have structured tags. See the [Tag Explorer](https://regen-toolkit.superbenefit.dev/tags/) for the current vocabulary:
 - `tags.function` - What problem it solves (Education, Governance, Security, etc.)
 - `tags.domain` - Knowledge domain (Web3-Literacy, Community, Technical, etc.)
 - `tags.systems` - Cross-cutting systems concepts (Decentralization, Trust-Networks, etc.)

@@ -80,7 +80,7 @@ Tools preserve knowledge; they do not preserve trust. When a commons survives tu
 
 ## References
 
-- [Regen Toolkit, Infrastructure & Substrate (Layer 10)](https://regen-toolkit-site.vercel.app) - the project's own "infrastructure follows function" principle and the substrate-by-need map this directory builds on.
+- [Regen Toolkit, Infrastructure & Substrate (Layer 10)](https://regen-toolkit.superbenefit.dev) - the project's own "infrastructure follows function" principle and the substrate-by-need map this directory builds on.
 - [BookStack](https://www.bookstackapp.com/) - free, MIT-licensed, self-hosted wiki with a shelves/books/chapters/pages hierarchy.
 - [Outline](https://www.getoutline.com/) - polished self-hosted, Notion-like team knowledge base (requires an external identity provider for login).
 - [Wiki.js](https://js.wiki/) - self-hosted Node.js wiki that can sync content to a Git repository.

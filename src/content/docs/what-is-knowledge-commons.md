@@ -25,7 +25,7 @@ Most documentation dies quietly. It's written once, never updated, and slowly dr
 
 A commons designed to outlive turnover does three things that a normal wiki doesn't.
 
-**It writes down decisions, not just procedures.** The Regen Toolkit's own guidance on documentation distinguishes *process docs* (how to do X) from *historical docs* (why we decided X, what we tried that failed) ([Regen Toolkit, "Documentation for Local Nodes"](https://regen-toolkit-site.vercel.app/)). The "why" is what walks out the door with people. Capture decisions as they happen; a dated one-line entry is enough.
+**It writes down decisions, not just procedures.** The Regen Toolkit's own guidance on documentation distinguishes *process docs* (how to do X) from *historical docs* (why we decided X, what we tried that failed) ([Regen Toolkit, "Documentation for Local Nodes"](https://regen-toolkit.superbenefit.dev/)). The "why" is what walks out the door with people. Capture decisions as they happen; a dated one-line entry is enough.
 
 **It assigns ownership without centralizing the work.** Ostrom's principles include monitoring and self-organization for a reason: if everyone owns the docs, no one does. Name a steward whose job is to keep the system healthy, not to write everything, but to make sure stale pages get flagged and gaps get filled.
 
