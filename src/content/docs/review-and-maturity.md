@@ -84,7 +84,7 @@ GravityDAO, the Web3 conflict-resolution group whose operations Durgadas helps r
 
 ## References
 
-- [Regen Web3 Toolkit, Evolution Layer](https://regen-toolkit-site.vercel.app/), The project's own design for how a living commons updates without stagnating or overcorrecting; source of the "a signal is not a conclusion" rule and the archive/compost/deprecate/remove model.
+- [Regen Web3 Toolkit, Evolution Layer](https://regen-toolkit.superbenefit.dev/), The project's own design for how a living commons updates without stagnating or overcorrecting; source of the "a signal is not a conclusion" rule and the archive/compost/deprecate/remove model.
 - [Wikipedia: Content assessment](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment), The Stub → Start → C → B → GA → FA quality scale, and why GA/FA require review by other editors rather than self-assignment.
 - [MADR, Markdown Architectural Decision Records](https://adr.github.io/madr/), A tiny decision-record template with a built-in status field (proposed / accepted / deprecated / superseded); a working example of granted-vs-self-claimed states.
 - [Diátaxis](https://diataxis.fr/), Daniele Procida's documentation framework (adopted by Gatsby and Cloudflare); useful for deciding what *kind* of page you are reviewing before you rate its maturity.
