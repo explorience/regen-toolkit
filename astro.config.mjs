@@ -15,7 +15,7 @@ const journeySidebar = journeyList.map((j) => ({
 }));
 
 export default defineConfig({
-  site: 'https://regen-toolkit-site.vercel.app',
+  site: 'https://regen-toolkit.superbenefit.dev',
   integrations: [
     starlight({
       title: 'Regen Web3 Toolkit',

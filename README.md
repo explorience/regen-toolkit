@@ -2,7 +2,7 @@
 
 Practical web3 knowledge for regenerative communities.
 
-**Live site:** [regen-toolkit-site.vercel.app](https://regen-toolkit-site.vercel.app)
+**Live site:** [regen-toolkit.superbenefit.dev](https://regen-toolkit.superbenefit.dev)
 
 ## What Is This?
 
@@ -24,9 +24,9 @@ The Regen Toolkit is a curated, open-source knowledge base that helps regenerati
 
 ### Browse the Content
 
-- [Knowledge Explorer](https://regen-toolkit-site.vercel.app/explorer/) - Interactive graph of all topics and connections
-- [Tag Explorer](https://regen-toolkit-site.vercel.app/tags/) - Filter articles by tags and metadata
-- [All Articles](https://regen-toolkit-site.vercel.app/) - Browse the full site
+- [Knowledge Explorer](https://regen-toolkit.superbenefit.dev/explorer/) - Interactive graph of all topics and connections
+- [Tag Explorer](https://regen-toolkit.superbenefit.dev/tags/) - Filter articles by tags and metadata
+- [All Articles](https://regen-toolkit.superbenefit.dev/) - Browse the full site
 
 ## Repository Structure
 
@@ -48,7 +48,7 @@ regen-toolkit/
 ## Tech Stack
 
 - **Framework:** [Astro](https://astro.build/) + [Starlight](https://starlight.astro.build/)
-- **Hosting:** [Vercel](https://vercel.com/)
+- **Hosting:** [Cloudflare Workers](https://developers.cloudflare.com/workers/) (static assets)
 - **Search:** [Pagefind](https://pagefind.app/) (static, client-side)
 - **Knowledge graph:** D3.js force-directed visualization
 

@@ -5,8 +5,8 @@ node_modules/
 dist/
 .astro/
 
-# Vercel
-.vercel
+# Wrangler (Cloudflare Workers)
+.wrangler/
 
 # OS
 .DS_Store
