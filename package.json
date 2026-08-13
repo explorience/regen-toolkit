@@ -5,10 +5,14 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro build && wrangler dev",
+    "deploy": "astro build && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.38.2",
     "astro": "^6.0.8"
+  },
+  "devDependencies": {
+    "wrangler": "^4.122.0"
   }
 }
