@@ -12,6 +12,16 @@ _A living checklist of active coordination tasks. Agents consult this on every s
 
 > **2026-06-16 checkpoint.** Gap-fill (260521 + 260604 biweeklies) processed; **new master doc 2026-06-15 working iteration** is canonical (30,847 lines — integration pass, 10-layer core stable; see [`docs/MASTER-DOC-CHANGES-2026-06-15.md`](docs/MASTER-DOC-CHANGES-2026-06-15.md)); **resource DB V3** staged at [`data/resources/`](data/resources/). **Convergence is parked behind an operator checkpoint** (site merge, branch cleanup, framework/instance split, full resource lift) — see ⏸ section below.
 
+### 2026-08-27 catch-up — knowledge-commons repo surfaced + Matty reply _(★ NEW 2026-08-28)_
+
+The Rather+Afo "idea" Matt referenced (TG, Aug 26) is **`regen-coordination/knowledge-commons`** — created by Afo 2026-08-23, **empty shell**, README: *"canonical source of truth for the Regen Knowledge Commons with the website, agents and APIs."* Direction proposed to Matty (reply drafted in-session; operator sends): embrace it as the fresh canonical surface; on the toolkit repo, **move Heenal's content to its own branch and rebuild `main` clean via the publish projection** (`scripts/publish-to-main.mjs`, Shape B) — live site stays up until a conscious switch. Matt gets an explicit yes to own front-facing wording/visuals. Full context: `memory/2026-08-28.md`.
+
+- [ ] **Luiz — send the Matty reply** (final text agreed 2026-08-27; includes Cloudflare links prod `regen-toolkit.luizfernandolfsg.workers.dev` / dev `regen-toolkit-dev.luizfernandolfsg.workers.dev`) — `task-260827-luiz-matty-reply`
+- [ ] **Luiz — align on the `knowledge-commons` repo role at the call** — walk in with the framing: **A** canonical home (pipeline/data/agents move there; toolkit = one publication) / **B** front door only / **C** full migration. Afo's README reads A-or-C. — `task-260827-luiz-kc-repo-role`
+- [ ] **Luiz — spec the clean-slate `main` move** — Heenal content → own branch (nothing lost) → curated projection rebuilds `main`; sequence so prod never goes blank (prod Worker deploys from `main`). — `task-260827-luiz-clean-slate-main`
+- [ ] **Luiz — integrate `knowledge-commons` into `regen-coordination-os`** + find the workshop moment. — `task-260827-luiz-kc-orgos-integration`
+- [ ] **Luiz — restore `LINEAR_API_KEY` to `.env` and re-sync the KCM board** — id-map shows mass `orphaned` at last sync 2026-08-09; everything Rather/Afo did since is invisible locally. — `task-260827-luiz-linear-resync`
+
 ### 2026-08-06 engineering sync — process infrastructure landed _(★ NEW 2026-08-06)_
 
 Notes: [`260806 Regen Toolkit Engineering Sync.md`](packages/operations/meetings/260806%20Regen%20Toolkit%20Engineering%20Sync.md) · Integration report (shareable): [`docs/reports/2026-08-06-engineering-sync-integration.md`](docs/reports/2026-08-06-engineering-sync-integration.md). Attendees: Afo, Matty, Luiz, Rather, Regis (Durgadas).
@@ -24,7 +34,7 @@ Notes: [`260806 Regen Toolkit Engineering Sync.md`](packages/operations/meetings
 
 **The four merge slices** (Afo's analysis, adopted): 1 framework + schemas w/ existing tests → 2 deterministic generators + validation commands → 3 public-safe aggregate data + selected Astro surfaces → 4 reviewed knowledge objects *only after the promotion gate*. Keep internal org-os coordination material out of the production projection.
 
-- [ ] **Luiz — grant Rather GitHub org access** — ★ **unblocks the Cloudflare setup**, which is now the whole dev-review surface. — `task-260806-luiz-rather-org-access`
+- [x] **Luiz — grant Rather GitHub org access** — ✅ **DONE 2026-08-27** (operator). Unblocks the Cloudflare handover (account ownership + custom domain) and Rather+Afo onboarding Durgadas. — `task-260806-luiz-rather-org-access`
 - [ ] **Luiz — seed Linear from the `regen-toolkit-os` branch** — set up the Linear ↔ repo integration; populate issues from the processed session/meeting notes. Runs in parallel with Afo's seed from the call notes + GitHub import. — `task-260806-luiz-linear-seed-repo`
 - [ ] **Luiz — execute the four-slice merge** — slices 1–3 land in dev **and** prod to open the contribution pathway; slice 4 waits on the promotion gate. — `task-260806-luiz-four-slice-merge`
 - [ ] **Luiz — build the knowledge-source → commons → orgs flow visualisation** — Afo's explicit ask: how sources flow **into** the commons and back **out** to the orgs. Per-intake mappings exist; **the whole-system map does not.** Feeds `task-260716-luiz-canvas-viz-intro-doc`. — `task-260806-luiz-knowledge-flow-visual`
@@ -382,6 +392,7 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ## Recently Completed
 
+- [x] 2026-08-27 — **Rather granted GitHub org access** (★ 260806 blocker cleared) + **`knowledge-commons` repo discovered** (Afo, 08-23, empty shell — the "idea" from Matt's Aug 26 TG) + **Matty reply drafted** (repo status, clean-slate `main` proposal, yes to Matt on front-facing wording) + both Cloudflare surfaces verified live. Session: `memory/2026-08-28.md`.
 - [x] 2026-07-22 — **T3b full Canonical_DB ingestion** — Matty's full curated DB run through the machine on the T4 schemas: 6 families (2,689 rows) → 2,957 objects + Discovery_Pool Priority Working Set (114 → 98 promoted) = **3,058 in `kb-handoff/`**, all raw/review-gated. Deterministic crosswalk-driven ETL (reproducible = his DoD #1), validated by the accept gate. B5 guard re-derived his exact dup-flags (42 collision sets); DoD #15 row-accounting + B5-vs-87-flags reconciliation in [`docs/reports/2026-07-21-canonical-migration-manifest.md`](docs/reports/2026-07-21-canonical-migration-manifest.md). Plan surface consolidated to one active spine. Committed `6ff1406a` → pushed. Scripts: `scripts/validation/{export-handoff-full.py,map-handoff-full.mjs,map-discovery-priority.mjs}`.
 - [x] 2026-07-16 — **2026-07-16 meetings processed** (Matty 1-on-1 + biweekly planning call): both source notes fixed (frontmatter + processed pointer) + synthesized notes at `packages/operations/meetings/260716 *.md`; `data/meetings.yaml` +2 (`mtg-20260716-regen-web3-toolkit-planning` + `mtg-20260716-toolkit-worksession-matty`); `memory/2026-07-16.md` written; MEMORY.md (Key Decisions +5, History +1); HEARTBEAT new "2026-07-16 biweekly + Matty 1-on-1" section; integration report `docs/reports/2026-07-16-planning-call-integration.md`; parked items routed to `docs/BACKLOG.md`. **Framework build done + dev→prod pipeline live** is the headline. Attribution correction logged (CRAFT/Temper demo = Durgadas, not Rathermercurial per the auto-summary).
 - [x] 2026-06-16 — **Gap-fill + master-doc intake**: 2026-05-21 + 2026-06-04 biweeklies processed (notes + registry, now 10 meetings); **new master doc 2026-06-15 working iteration saved canonical** (30,847 lines; 2026-05-15 archived; raw preserved; `MASTER-DOC-CHANGES-2026-06-15.md` diff); **resource DB V3 staged** (`data/resources/` — xlsx + 28 CSVs / 12,456 rows + manifest). Stale threads resolved (persona-game superseded; journeys tension resolved; v1 site landed). Convergence (site merge, branch cleanup, framework/instance, full resource lift) parked behind operator checkpoint. Integration report: `docs/reports/2026-06-16-gap-fill-and-master-doc-intake-integration-report.md`.
@@ -400,4 +411,4 @@ These surfaced from the meeting bootstrap (2026-04-26). Status of each is unclea
 
 ---
 
-_Last updated: 2026-07-22 (T3b full Canonical_DB ingestion — 3,058 objects in kb-handoff/, all raw; review gate + dev-instance rendering are next)_
+_Last updated: 2026-08-28 (catch-up: Rather org access done; knowledge-commons shell repo surfaced; Matty reply drafted — repo-role alignment + clean-slate `main` spec are next)_
