@@ -89,6 +89,10 @@ for (const repo of repositories) {
     console.log(`Cloning ${name}...`);
     run(`git clone --branch ${branch} "${url}" "${targetPath}"`, rootDir);
   } catch (err) {
+    if (repo.optional) {
+      console.warn(`Skipping optional ${name}: ${err.message.split('\n')[0]}`);
+      continue;
+    }
     console.error(`Failed to clone/update ${name}: ${err.message}`);
     errors.push(name);
   }
@@ -96,6 +100,7 @@ for (const repo of repositories) {
 
 if (errors.length > 0) {
   console.error(`\nFailed repos: ${errors.join(', ')}`);
+  process.exitCode = 1;
 }
 
 console.log(

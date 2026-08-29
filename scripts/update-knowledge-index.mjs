@@ -102,7 +102,7 @@ function updateManifest(domainStats) {
   });
 
   // Preserve the schema_version and comments at the top
-  const header = `schema_version: "2.0"\n\n# Knowledge Manifest — {{ORG_NAME}}\n# Auto-updated by scripts/update-knowledge-index.mjs on ${today()}\n\n`;
+  const header = `schema_version: "2.0"\n\n# Knowledge Manifest — ReFi BCN\n# Auto-updated by scripts/update-knowledge-index.mjs on ${today()}\n\n`;
   fs.writeFileSync(manifestPath, header + output.replace(/^schema_version:.*\n/, ""), "utf-8");
   console.log("  ✓ Updated data/knowledge-manifest.yaml");
 }
@@ -156,7 +156,7 @@ type: index
 date_updated: ${today()}
 ---
 
-# {{ORG_NAME}} Knowledge Base
+# ReFi BCN Knowledge Base
 
 > ${totalPages} knowledge pages across ${Object.keys(domainStats).length} domains. ${totalComplete} complete, ${totalPages - totalComplete} awaiting synthesis. ~${Math.round(totalWords / 1000)}K words.
 

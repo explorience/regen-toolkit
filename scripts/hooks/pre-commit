@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# org-os pre-commit guard — blocks direct commits to `main`.
+# `main` is integration-only; commit on your operator trunk instead.
+# Installed per-clone by scripts/operator-setup.sh. Override intentionally
+# with `git commit --no-verify` (rarely needed).
+
+branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null)"
+if [ "$branch" = "main" ]; then
+  echo "✗ Commits to main are blocked — main is integration-only."
+  echo "  Switch to your operator trunk:  git switch <operator>   (your operator slug)"
+  echo "  or run:  bash scripts/operator-setup.sh <operator>"
+  echo "  (intentional override:  git commit --no-verify)"
+  exit 1
+fi
+exit 0

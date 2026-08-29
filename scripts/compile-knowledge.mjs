@@ -464,7 +464,7 @@ function generateFundingLandscape(funding) {
   content += `> ${funding.length} tracked funding opportunities.\n\n`;
 
   content += `## Summary\n\n`;
-  content += `<!-- LLM-SYNTHESIZE: Write a strategic overview of the funding landscape for {{ORG_NAME}}. Group by type (grants, quadratic funding, retroactive), highlight the most promising opportunities, and note the overall funding strategy trajectory. -->\n\n`;
+  content += `<!-- LLM-SYNTHESIZE: Write a strategic overview of the funding landscape for ReFi BCN. Group by type (grants, quadratic funding, retroactive), highlight the most promising opportunities, and note the overall funding strategy trajectory. -->\n\n`;
 
   // Group by status
   const byStatus = {};

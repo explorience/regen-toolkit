@@ -19,6 +19,7 @@ import yaml from "js-yaml";
 import matter from "gray-matter";
 import { fileURLToPath } from "url";
 import { execSync } from "child_process";
+import { readGraphStatus, renderStatusMarkdown } from "./graph-status.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -248,7 +249,11 @@ function loadProjects() {
     path.join(rootDir, "content", "projects"), // fallback for v1 instances
   ]) {
     if (!fs.existsSync(projectsDir)) continue;
-    const files = fs.readdirSync(projectsDir).filter((f) => f.endsWith(".md"));
+    const files = fs
+      .readdirSync(projectsDir)
+      .filter((f) => f.endsWith(".md"))
+      // Skip package docs / templates, not actual projects
+      .filter((f) => f.toLowerCase() !== "readme.md" && !f.startsWith("_"));
     for (const file of files) {
       const parsed = parseMarkdownFrontmatter(path.join(projectsDir, file));
       if (!parsed) continue;
@@ -325,39 +330,6 @@ function loadTasks() {
   }
 
   return { critical, urgent, upcoming, completed };
-}
-
-// ── Backlog (from docs/BACKLOG.md) ─────────────────────────────────────────
-
-function loadBacklog() {
-  const backlog = readFileSafe(path.join(rootDir, "docs", "BACKLOG.md"));
-  if (!backlog) return { total: 0, byStatus: {}, topPriority: [] };
-
-  const items = extractCheckboxes(backlog);
-  const open = items.filter((i) => !i.done);
-
-  const byStatus = {};
-  const priorityKeywords = [
-    "highest priority",
-    "high-risk",
-    "candidate-integration",
-  ];
-  const topPriority = [];
-
-  for (const item of open) {
-    // Pull status labels from inline brackets like [`needs-review`]
-    const text = item.title || item.text || "";
-    const labelMatches = text.match(/\[`([a-z][a-z0-9-]*)`\]/gi) || [];
-    for (const m of labelMatches) {
-      const label = m.replace(/\[`|`\]/g, "");
-      byStatus[label] = (byStatus[label] || 0) + 1;
-    }
-    if (priorityKeywords.some((k) => text.toLowerCase().includes(k))) {
-      topPriority.push(item);
-    }
-  }
-
-  return { total: open.length, byStatus, topPriority: topPriority.slice(0, 3) };
 }
 
 // ── Events (from data/events.yaml — v2) ─────────────────────────────────────
@@ -488,6 +460,47 @@ function loadMembers() {
   }));
 }
 
+// ── Ideas ────────────────────────────────────────────────────────────────────
+
+function loadIdeas() {
+  const ideasData = readYamlSafe(path.join(rootDir, "data", "ideas.yaml"));
+  return (ideasData?.ideas || []).map((i) => ({
+    id: i.id,
+    title: i.title,
+    status: i.status,
+    champions: i.champions || [],
+  }));
+}
+
+// ── Instances (framework-only) ───────────────────────────────────────────────
+
+function loadInstances() {
+  const instData = readYamlSafe(path.join(rootDir, "data", "instances.yaml"));
+  return (instData?.instances || []).map((i) => ({
+    id: i.id,
+    name: i.name,
+    type: i.type,
+    maturity: i.maturity,
+    framework_version: i.framework_version,
+    last_sync: i.last_sync,
+    cloned: i.cloned,
+    drift_count: (i.drift || []).length,
+  }));
+}
+
+// ── Skill promotion candidates (framework-only) ──────────────────────────────
+
+function loadSkillCandidates() {
+  const matrix = readYamlSafe(path.join(rootDir, "data", "skills-matrix.yaml"));
+  return (matrix?.skills || [])
+    .filter((s) => s.promotion_status === "candidate")
+    .map((s) => ({
+      id: s.id,
+      owner: s.owner,
+      instances_using: s.instances_using || [],
+    }));
+}
+
 // ── Funding ──────────────────────────────────────────────────────────────────
 
 function loadFunding(fundingData) {
@@ -548,6 +561,10 @@ function loadRecentMemory() {
       .map((l) => l.replace(/^[-*]\s+/, ""))
       .slice(0, 2)
       .join(" ")
+      // Strip markdown emphasis/quote/code markers so the summary reads clean
+      .replace(/[*_`]+/g, "")
+      .replace(/^\s*>\s*/g, "")
+      .replace(/\s+/g, " ")
       .trim();
 
     if (lines) {
@@ -621,7 +638,6 @@ function loadKeyDocs() {
   const keyFiles = [
     { path: "MASTERPLAN.md", label: "Strategic vision & agent activations" },
     { path: "HEARTBEAT.md", label: "Active tasks & system health" },
-    { path: "docs/BACKLOG.md", label: "Triaged TODO backlog (mirrors master doc §16)" },
     { path: "MEMORY.md", label: "Key decisions & context index" },
     { path: "SOUL.md", label: "Values, mission & voice" },
     { path: "IDENTITY.md", label: "Organization identity & addresses" },
@@ -1146,24 +1162,6 @@ function mergeData(local, notion) {
   return local;
 }
 
-// ── Knowledge Commons (org-os-kms) ───────────────────────────────────────────
-// Guarded: returns an ASCII section string from the derived KB index, or "" when
-// the KB isn't initialized (no data/kb/index.json) or the render module can't
-// load. A "" result makes the dashboard render exactly as before.
-async function renderKmsSection() {
-  try {
-    const idxPath = path.join(rootDir, "data", "kb", "index.json");
-    if (!fs.existsSync(idxPath)) return "";
-    // Relative specifier resolves against this module (scripts/), i.e. repo-root/packages/…
-    const { renderDashboardSection } = await import(
-      "../packages/org-os-kms/src/render.mjs"
-    );
-    return renderDashboardSection(JSON.parse(fs.readFileSync(idxPath, "utf-8")));
-  } catch {
-    return ""; // KB absent or module unavailable — dashboard renders without it
-  }
-}
-
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -1181,9 +1179,12 @@ async function main() {
   const status = loadStatus(federationData);
   const projects = loadProjects();
   const tasks = loadTasks();
-  const backlog = loadBacklog();
   const events = loadEvents();
   const meetings = loadMeetings();
+  const members = loadMembers();
+  const ideas = loadIdeas();
+  const instances = loadInstances();
+  const skillCandidates = loadSkillCandidates();
   const funding = loadFunding(fundingData);
   const recentMemory = loadRecentMemory();
   const federation = loadFederation(federationData);
@@ -1198,9 +1199,12 @@ async function main() {
     status,
     projects,
     tasks,
-    backlog,
     events,
     meetings,
+    members,
+    ideas,
+    instances,
+    skillCandidates,
     funding,
     recentMemory,
     federation,
@@ -1213,8 +1217,6 @@ async function main() {
 
   // Render dashboard immediately with local data
   if (format === "markdown") {
-    // org-os-kms: compute the guarded Knowledge Commons section (no-op if KB absent).
-    state.kmsSection = await renderKmsSection();
     console.log(renderMarkdown(state));
   } else {
     console.log(JSON.stringify(state, null, 2));
@@ -1397,8 +1399,11 @@ function generateAsciiBanner(name) {
       }
     }
   }
+  // Append " OS" only when the name doesn't already end in OS
+  // (e.g. "org-os" → "ORG-OS", not "ORG-OS OS").
+  const base = displayName.toUpperCase();
+  const fullText = /(^|[\s-])OS$/.test(base) ? base : base + " OS";
 
-  const fullText = displayName.toUpperCase() + "  OS";
   const lines = ["", "", "", "", ""];
   for (const char of fullText) {
     const glyph = font[char] || font[" "];
@@ -1414,9 +1419,9 @@ function generateAsciiBanner(name) {
 function renderMarkdown(state) {
   const config = loadDashboardConfig();
   const {
-    identity, status, projects, tasks, backlog, events, meetings,
+    identity, status, projects, tasks, events, meetings,
     funding, recentMemory, federation, apps, git, pipelines,
-    plans, warnings, kmsSection,
+    plans, warnings,
   } = state;
   const today = new Date();
   const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -1601,26 +1606,6 @@ function renderMarkdown(state) {
     out += `\n  ${pending} pending · ${tasks.critical.length} critical · ${tasks.completed.length} done\n`;
   }
 
-  // ── Backlog (from docs/BACKLOG.md) ──────────────────────────────────────
-  if (config.backlog?.show !== false && backlog && backlog.total > 0) {
-    out += sectionHeader("Backlog");
-    out += `  ${backlog.total} open · mirrors MASTER.md §16 routing table\n`;
-    const statusEntries = Object.entries(backlog.byStatus).sort((a, b) => b[1] - a[1]);
-    if (statusEntries.length > 0) {
-      out += "\n";
-      for (const [label, count] of statusEntries.slice(0, 6)) {
-        out += `  ${pad(label, 28)}${count}\n`;
-      }
-    }
-    if (backlog.topPriority.length > 0) {
-      out += "\n  TOP PRIORITY\n";
-      for (const item of backlog.topPriority) {
-        out += `  ◆  ${truncate(stripMarkdown(item.text || item.title || ""), 66)}\n`;
-      }
-    }
-    out += `\n  → triage at docs/BACKLOG.md\n`;
-  }
-
   // ── Calendar (This Week) ────────────────────────────────────────────────
   if (config.calendar?.show !== false) {
     out += sectionHeader("This Week");
@@ -1738,6 +1723,21 @@ function renderMarkdown(state) {
     }
   }
 
+  // ── Knowledge Graph ──────────────────────────────────────────────────
+  if (config.knowledge_graph?.show !== false) {
+    const gs = readGraphStatus();
+    if (gs.available) {
+      out += sectionHeader("Knowledge Graph");
+      out += renderStatusMarkdown(gs) + "\n\n";
+      const gapsDoc = readYamlSafe(path.join(rootDir, "data", "knowledge-gaps.yaml"));
+      const openGaps = (gapsDoc?.gaps || []).filter((x) => x.status === "open").length;
+      if (openGaps > 0) {
+        out += `  ${openGaps} open knowledge gap(s) — data/knowledge-gaps.yaml\n\n`;
+      }
+    }
+    // graph absent → section self-hides (graceful degradation)
+  }
+
   // ── Apps & Workspaces ───────────────────────────────────────────────────
   const hiddenApps = config.apps?.hide || [];
   const visibleApps = apps.filter((a) => !hiddenApps.includes(a.id));
@@ -1766,11 +1766,6 @@ function renderMarkdown(state) {
       out += `  ${pad(left, 38)}${right}\n`;
     }
   }
-
-  // ── Knowledge Commons (org-os-kms) ──────────────────────────────────────
-  // kmsSection is a self-contained ASCII block (own header + trailing blank line)
-  // or "" when the KB isn't initialized; prepend "\n" to match section spacing.
-  if (kmsSection) out += "\n" + kmsSection;
 
   // ── Federation ──────────────────────────────────────────────────────────
   if (config.federation?.show !== false && federation) {

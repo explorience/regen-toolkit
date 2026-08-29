@@ -1,0 +1,31 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": { "hyperedges": [] },
+  "built_at_commit": "fixturecommit000",
+  "nodes": [
+    { "id": "core_a", "label": "CoreA", "file_type": "code", "source_file": "src/core.ts", "community": 0 },
+    { "id": "core_b", "label": "CoreB", "file_type": "code", "source_file": "src/core.ts", "community": 0 },
+    { "id": "core_c", "label": "CoreC", "file_type": "code", "source_file": "src/core.ts", "community": 0 },
+    { "id": "core_d", "label": "CoreD", "file_type": "code", "source_file": "src/core.ts", "community": 0 },
+    { "id": "doc_a", "label": "DocA", "file_type": "document", "source_file": "docs/a.md", "community": 1 },
+    { "id": "doc_b", "label": "DocB", "file_type": "document", "source_file": "docs/b.md", "community": 1 },
+    { "id": "doc_c", "label": "DocC", "file_type": "document", "source_file": "docs/c.md", "community": 1 },
+    { "id": "doc_d", "label": "DocD", "file_type": "document", "source_file": "docs/d.md", "community": 1 },
+    { "id": "doc_e", "label": "DocE", "file_type": "document", "source_file": "docs/e.md", "community": 1 },
+    { "id": "orphan_a", "label": "OrphanA", "file_type": "document", "source_file": "docs/orphans.md", "community": 2 },
+    { "id": "orphan_b", "label": "OrphanB", "file_type": "document", "source_file": "docs/orphans.md", "community": 2 },
+    { "id": "bridge", "label": "Bridge", "file_type": "concept", "source_file": "docs/a.md", "community": 1 }
+  ],
+  "links": [
+    { "source": "core_a", "target": "core_b", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/core.ts", "weight": 1.0 },
+    { "source": "core_a", "target": "core_c", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/core.ts", "weight": 1.0 },
+    { "source": "core_b", "target": "core_c", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/core.ts", "weight": 1.0 },
+    { "source": "core_c", "target": "core_d", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/core.ts", "weight": 1.0 },
+    { "source": "doc_a", "target": "doc_b", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/a.md", "weight": 1.0 },
+    { "source": "doc_c", "target": "core_a", "relation": "conceptually_related_to", "confidence": "AMBIGUOUS", "confidence_score": 0.2, "source_file": "docs/c.md", "weight": 1.0 },
+    { "source": "doc_d", "target": "bridge", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/d.md", "weight": 1.0 },
+    { "source": "orphan_a", "target": "orphan_b", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/orphans.md", "weight": 1.0 }
+  ],
+  "hyperedges": []
+}

@@ -16,7 +16,8 @@ const rootDir = path.resolve(__dirname, '..');
 
 // Read federation.yaml to get identity values
 const federationPath = path.join(rootDir, 'federation.yaml');
-const federationContent = yaml.load(fs.readFileSync(federationPath, 'utf-8'));
+const federationRaw = fs.readFileSync(federationPath, 'utf-8');
+const federationContent = yaml.load(federationRaw);
 const daoURI = federationContent?.identity?.daoURI || 'https://org.example.com/.well-known/dao.json';
 let baseUrl = 'org.example.com';
 try {
@@ -37,6 +38,7 @@ if (fs.existsSync(daoJsonPath)) {
 
 console.log('Generating EIP-4824 schemas...');
 
+// Generate dao.json from .well-known/dao.json.template + federation identity
 function generateDao() {
   const templatePath = path.join(rootDir, '.well-known', 'dao.json.template');
   const outputPath = path.join(rootDir, '.well-known', 'dao.json');
@@ -45,16 +47,25 @@ function generateDao() {
     return;
   }
 
+  // Only render when the identity block provides a daoURI — without it there is
+  // no real base URL, and rendering would overwrite a hand-curated dao.json
+  // with example.com placeholders.
+  if (!federationContent?.identity?.daoURI) {
+    console.log('· Skipped dao.json (identity.daoURI not set — keeping existing file)');
+    return;
+  }
+
   const description =
-    'ReFi DAO operational identity surface for governance, members, projects, and coordination.';
+    federationContent?.identity?.description ||
+    `${orgName} operational identity surface for governance, members, projects, and coordination.`;
   let template = fs.readFileSync(templatePath, 'utf-8');
   template = template.replace(/{{ORGANIZATION_NAME}}/g, orgName);
   template = template.replace(/{{ORGANIZATION_DESCRIPTION}}/g, description);
   template = template.replace(/{{BASE_URL}}/g, baseUrl);
 
-  const daoJson = JSON.parse(template);
-  daoJson.type = orgType;
-  fs.writeFileSync(outputPath, JSON.stringify(daoJson, null, 2));
+  const generated = JSON.parse(template);
+  generated.type = orgType;
+  fs.writeFileSync(outputPath, JSON.stringify(generated, null, 2));
   console.log('✓ Generated dao.json');
 }
 
@@ -267,28 +278,62 @@ function generateFinances() {
   console.log(`✓ Generated finances.json`);
 }
 
-// Generate proposals.json (placeholder)
+// Generate proposals.json
 function generateProposals() {
+  const govPath = path.join(rootDir, 'data', 'governance.yaml');
+  let decisions = [];
+
+  if (fs.existsSync(govPath)) {
+    const govData = yaml.load(fs.readFileSync(govPath, 'utf-8'));
+    decisions = (govData?.governance?.decisions || []).map(d => ({
+      id: d.id,
+      title: d.title,
+      type: d.type || "proposal",
+      status: d.status || "draft",
+      date: d.date || null,
+      summary: d.summary || ""
+    }));
+  }
+
   const schema = {
     "@context": "https://www.daostar.org/schemas",
-    "proposals": []
+    "type": "ProposalRegistry",
+    "proposals": decisions
   };
 
   const outputPath = path.join(rootDir, '.well-known', 'proposals.json');
   fs.writeFileSync(outputPath, JSON.stringify(schema, null, 2));
-  console.log('✓ Generated proposals.json');
+  console.log(`✓ Generated proposals.json (${decisions.length} proposals)`);
 }
 
-// Generate activities.json (placeholder)
+// Generate activities.json
 function generateActivities() {
+  const activities = [];
+
+  // Pull from meetings
+  const meetingsPath = path.join(rootDir, 'data', 'meetings.yaml');
+  if (fs.existsSync(meetingsPath)) {
+    const meetingsData = yaml.load(fs.readFileSync(meetingsPath, 'utf-8'));
+    for (const m of (meetingsData?.meetings || []).slice(-20)) {
+      activities.push({
+        id: m.id,
+        type: "meeting",
+        title: m.title || m.id,
+        date: m.date,
+        summary: m.summary || null
+      });
+    }
+  }
+
   const schema = {
     "@context": "https://www.daostar.org/schemas",
-    "activities": []
+    "type": "ActivityLog",
+    "activities": activities
   };
 
   const outputPath = path.join(rootDir, '.well-known', 'activities.json');
   fs.writeFileSync(outputPath, JSON.stringify(schema, null, 2));
-  console.log('✓ Generated activities.json');
+  console.log(`✓ Generated activities.json (${activities.length} activities)`);
 }
 
 // Generate contracts.json (placeholder)
@@ -297,6 +342,25 @@ function generateContracts() {
     "@context": "https://www.daostar.org/schemas",
     "contracts": []
   };
+
+  // Try to extract contract addresses from federation.yaml
+  if (fs.existsSync(federationPath)) {
+    const id = federationContent?.identity || {};
+    if (id.safe) {
+      schema.contracts.push({
+        type: "safe",
+        address: id.safe,
+        chain: id.chain || null
+      });
+    }
+    if (id.gardens) {
+      schema.contracts.push({
+        type: "gardens",
+        address: id.gardens,
+        chain: id.chain || null
+      });
+    }
+  }
 
   const outputPath = path.join(rootDir, '.well-known', 'contracts.json');
   fs.writeFileSync(outputPath, JSON.stringify(schema, null, 2));
@@ -326,21 +390,33 @@ function generateIdeas() {
 // Generate knowledge.json
 function generateKnowledge() {
   const manifestPath = path.join(rootDir, 'data', 'knowledge-manifest.yaml');
-  const sourcesPath = path.join(rootDir, 'data', 'sources.yaml');
+  if (!fs.existsSync(manifestPath)) return;
 
-  const manifest = fs.existsSync(manifestPath)
-    ? yaml.load(fs.readFileSync(manifestPath, 'utf-8'))
-    : {};
-  const sources = fs.existsSync(sourcesPath)
+  const manifestData = yaml.load(fs.readFileSync(manifestPath, 'utf-8'));
+  const km = manifestData?.knowledge_manifest || {};
+
+  const sourcesPath = path.join(rootDir, 'data', 'sources.yaml');
+  const sourcesData = fs.existsSync(sourcesPath)
     ? yaml.load(fs.readFileSync(sourcesPath, 'utf-8'))
     : {};
 
   const schema = {
     "@context": "https://www.daostar.org/schemas",
-    "type": "KnowledgeCommons",
-    "status": manifest?.status || "pending",
-    "domains": manifest?.domains || [],
-    "sources": (sources?.sources || []).map(s => ({
+    "type": "KnowledgeManifest",
+    "domains": (km.domains || []).map(d => ({
+      id: d.id,
+      name: d.name,
+      description: d.description || "",
+      coverage: d.coverage || "none",
+      page_count: d.page_count || 0,
+      sources: d.sources || [],
+      last_updated: d.last_updated || null
+    })),
+    "exchange": {
+      published_domains: km.exchange?.published_domains || [],
+      subscribed_domains: km.exchange?.subscribed_domains || []
+    },
+    "sources": (sourcesData?.sources || []).map(s => ({
       id: s.id,
       name: s.name,
       type: s.type,
@@ -351,7 +427,7 @@ function generateKnowledge() {
 
   const outputPath = path.join(rootDir, '.well-known', 'knowledge.json');
   fs.writeFileSync(outputPath, JSON.stringify(schema, null, 2));
-  console.log(`✓ Generated knowledge.json (${(sources?.sources || []).length} sources)`);
+  console.log(`✓ Generated knowledge.json (${schema.domains.length} domains)`);
 }
 
 // Run all generators
