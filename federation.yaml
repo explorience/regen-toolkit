@@ -15,7 +15,8 @@ role: project
 
 upstream:
   - type: "template"
-    repository: github.com/regen-coordination/org-os-template
+    url: "https://github.com/regen-coordination/org-os-template.git"
+    repository: "https://github.com/regen-coordination/org-os-template.git"
     branch: main
     last_sync: "2026-04-24"
     sync_mode: overlay
